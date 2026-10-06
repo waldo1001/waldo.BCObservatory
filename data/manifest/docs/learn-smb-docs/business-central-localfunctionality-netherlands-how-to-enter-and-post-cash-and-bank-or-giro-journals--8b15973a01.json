@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6",
       "words": 788,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.415Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.475Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.476Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.477Z",
+      "page": false
     }
   },
   "input_hash": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6"
+  "output_hash": "22451ce83bdd95e5ce2491f71a75402f7fa428ca01838a65472d1642c0683c85"
 }

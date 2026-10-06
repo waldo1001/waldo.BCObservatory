@@ -1,0 +1,25 @@
+{
+  "video_id": "NkYNL_5Zfoc",
+  "item_id": "video/yt-microsoft/NkYNL_5Zfoc",
+  "summary": "General journal entry in Business Central compared with Dynamics SL, for users moving from SL. It shows batches, account name autocomplete, grid view with debit and credit columns, single-line entry with offset account, Excel editing, and posting.",
+  "overview": "The video compares how general journal entries are made in Dynamics SL and in Dynamics 365 Business Central. It walks through the Business Central general journal window, using an auto insurance entry and an interest income entry as examples.\n\nIt then covers other ways to enter data: a grid view with separate debit and credit columns, and single-line entry with automatic document numbers and an offset account. For large journals, it shows editing in Excel, publishing the changes back, and then posting the entries.",
+  "key_points": [
+    "Batches for journal entries can be created and defined in the general journal. In the demo they are set up operationally, and they can also be set up per user.",
+    "When entering an account, you can type the account name and the dropdown filters to matching accounts, so the account number need not be remembered.",
+    "A grid view shows debit and credit amounts in separate columns.",
+    "Single-line entry generates the document number automatically and uses an offset account for quick entry.",
+    "Large journals can be edited in Excel, changed in bulk, and published back to Business Central.",
+    "After the Excel change, refreshing showed the updated amount of $300 before posting the entries."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "ee41b973bb0b36f58df4e296ba4d6e2063a52a055a22cb7efa70b7e7b712a381",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010856399999999999
+  }
+}

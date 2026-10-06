@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics",
   "url": "https://www.youtube.com/watch?v=BC82BSrtng0",
-  "published_at": null,
+  "published_at": "2024-07-26T13:24:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:30:13.916Z",
+      "captions": "auto:en-orig",
+      "duration_s": 219
+    },
+    "captioned": {
+      "at": "2026-10-06T19:30:20.236Z",
+      "path": "data/captions/microsoft/BC82BSrtng0.vtt",
+      "vtt_sha256": "7b1e071ab80fd50c06ef53d2315978b4bde27c0f765e42568f35479762832a5e",
+      "segments": 17,
+      "words": 553,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 387,
     "duration_s": 219,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7b1e071ab80fd50c06ef53d2315978b4bde27c0f765e42568f35479762832a5e"
 }

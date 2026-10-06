@@ -1,0 +1,93 @@
+{
+  "video_id": "BC82BSrtng0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.6,
+      "end": 21.5,
+      "text": "In this video, we're going to talk about segments when posting transactions in Dynamics SL and compare that to the experience in Dynamics 365 Business Central. Where we will define default dimensions on entries like vendors and customers to create similar postings and how those same transactions look on reports in Dynamics 365 Business Central."
+    },
+    {
+      "t": 21.5,
+      "end": 35.5,
+      "text": "To begin, let's go to Dynamics SL and post an invoice we received from a vendor for some recent supplies we bought. In accounts payable voucher and adjustment entry, select a vendor and enter the vendor invoice number and amount."
+    },
+    {
+      "t": 35.5,
+      "end": 41.5,
+      "text": "Finish entering the rest of the batch information and then release the batch."
+    },
+    {
+      "t": 41.5,
+      "end": 48,
+      "text": "Once a batch is released, we'll look at the resulting batch control report."
+    },
+    {
+      "t": 48,
+      "end": 58.7,
+      "text": "On the batch control report, we can see the debit and credit posting accounts along with the designated sub account segments each entry will be posted to for reporting."
+    },
+    {
+      "t": 58.7,
+      "end": 69.1,
+      "text": "Now, let's look at Dynamics 365 Business Central and how we can set up default dimensions on a vendor and how those are used on transactions and reports."
+    },
+    {
+      "t": 69.1,
+      "end": 85.2,
+      "text": "If you remember from the segment and dimension setup video, the segments we defined in SL will migrate to Business Central as dimensions, allowing us to continue to slice and categorize our transactions when posting to the main account."
+    },
+    {
+      "t": 85.2,
+      "end": 99.5,
+      "text": "I'll first go to my vendor in Business Central that was migrated from SL using the cloud migration tool. I want to assign the reporting unit and company segment as a default dimensions."
+    },
+    {
+      "t": 99.5,
+      "end": 111,
+      "text": "If I wanted to lock the posting down further, I could set the value posting to code mandatory, which would indicate that a dimension value must exist on a transaction for the vendor."
+    },
+    {
+      "t": 111,
+      "end": 124.8,
+      "text": "However, I don't want the system to be that rigid. We just want the dimension value to default on transactions for us. Next, let's enter in a purchase invoice for this vendor, similar to how we did it in SL,"
+    },
+    {
+      "t": 124.8,
+      "end": 136,
+      "text": "and look at how that dimension value will default into the transaction. I'll go ahead and select the purchase journal and enter in my vendor invoice number again."
+    },
+    {
+      "t": 136,
+      "end": 148.2,
+      "text": "Select the vendor, key in the purchase amount and account. You can see in the fact box area the dimension value has automatically defaulted onto the transaction for me."
+    },
+    {
+      "t": 148.2,
+      "end": 160.6,
+      "text": "Before posting any journal in Business Central, I can preview the posting to ensure that the correct accounts are being posted to, similar to clicking the distributions button in Dynamics SL."
+    },
+    {
+      "t": 160.6,
+      "end": 171.6,
+      "text": "When looking at the posting preview for this batch, I can see that it's posting to the correct GL account and dimensions. Since that all looks correct, I'll go ahead and post the invoice."
+    },
+    {
+      "t": 171.6,
+      "end": 186,
+      "text": "Now, let's look at the trial balance dimension report in Business Central. In my report option window, I've selected to print the reporting unit dimension. We'll filter the report further by my GL account number, date, reporting unit,"
+    },
+    {
+      "t": 186,
+      "end": 200.8,
+      "text": "and company segment. The trial balance report in Business Central allows me to see amounts being posted to my main accounts, similar to Dynamics SL, as well as allowing me to analyze transactions by various categories."
+    },
+    {
+      "t": 200.8,
+      "end": 216.9,
+      "text": "In this example, by reporting unit and company segment. And that's a quick look at segments and dimensions posting in SL and Business Central. To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 553
+}
