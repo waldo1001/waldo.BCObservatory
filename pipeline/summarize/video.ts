@@ -12,7 +12,7 @@ import type { ManifestItem } from "../lib/manifest.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
 import { extractionPath, type Llm, type VideoExtraction } from "../extract/video.js";
 
-export const PROMPT_VERSION = 1;
+export const PROMPT_VERSION = 2;
 export const STAGE = "summarize-video";
 export const AUDIENCES = ["functional consultant", "developer", "administrator", "end user", "partner", "decision maker"] as const;
 export const SUMMARY_MAX = 600;
@@ -37,7 +37,7 @@ export const SYSTEM = `You write the summary of a Business Central video for an 
 You get facts extracted from the video's transcript, already checked against it. Write only from those facts.
 
 Rules:
-- Never add product knowledge, versions, dates, object names or claims that are not in the facts.
+- Never add product knowledge, versions, dates, object names or claims that are not in the facts. Absence of a fact is not a fact: do not write that something was not shown or not said.
 - Feature status words are exact: "generally available" only for status ga, "in preview" only for preview, "announced" or "planned" only for announced; say nothing about status when it is unclear.
 - Plain, specific language. No hype ("exciting", "powerful", "seamless", "game-changer"), no marketing tone, no em-dashes (use a plain hyphen).
 - summary: 1 to 3 sentences, at most ${SUMMARY_MAX} characters, that tell an AI agent what this video is evidence for. Start with the subject, not with "This video".
@@ -49,7 +49,8 @@ export function summaryPrompt(x: VideoExtraction, meta: { channel: string; publi
   const facts = {
     title: x.title, channel: meta.channel, published: meta.published_at?.slice(0, 10) ?? null, duration_min: Math.round(x.duration_s / 60),
     systems: x.systems, topics: x.topics, chapters: x.chapters.map((c) => c.title),
-    features: x.features.map((f) => ({ name: f.name, status: f.status, description: f.description, demoed: f.is_demoed, caveats: f.caveats })),
+    // demoed only when true: "no demo detected" is not "not demoed" (Opus review caught that overclaim)
+    features: x.features.map((f) => ({ name: f.name, status: f.status, description: f.description, ...(f.is_demoed ? { demoed: true } : {}), caveats: f.caveats })),
     objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`),
     disclaimers: x.disclaimers.map((d) => `${d.kind}: ${d.text}`),
     quotes: x.quotes.map((q) => q.text),

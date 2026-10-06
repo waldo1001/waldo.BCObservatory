@@ -32,7 +32,7 @@ export interface StageResult {
   /** Ends the item as skipped (e.g. "no-captions") instead of advancing. */
   skip?: string;
   /** Item fields learned by the stage (e.g. the real upload time from the video's metadata). */
-  patch?: Partial<Pick<ManifestItem, "published_at" | "title" | "language">> & { meta?: Record<string, unknown> };
+  patch?: Partial<Pick<ManifestItem, "published_at" | "title" | "language" | "review">> & { meta?: Record<string, unknown> };
 }
 export interface StageContext {
   now: () => Date; manifest: Manifest; dataDir: string; contentDir: string;
