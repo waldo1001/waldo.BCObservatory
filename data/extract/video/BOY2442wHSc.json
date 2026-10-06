@@ -1,0 +1,233 @@
+{
+  "video_id": "BOY2442wHSc",
+  "item_id": "video/yt-microsoft/BOY2442wHSc",
+  "title": "Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)",
+  "duration_s": 205,
+  "systems": [
+    "reporting",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "telemetry",
+    "application insights",
+    "data connection",
+    "api access",
+    "authentication",
+    "refresh configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Power BI Telemetry Apps",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "Connecting Your Data to Power BI",
+      "t_start": 20.2,
+      "t_end": 41
+    },
+    {
+      "title": "Finding the Application Insights ID",
+      "t_start": 41,
+      "t_end": 78.6
+    },
+    {
+      "title": "Configuring API Access and GUID",
+      "t_start": 78.6,
+      "t_end": 118.9
+    },
+    {
+      "title": "Setting Time Zone and Refresh Period",
+      "t_start": 118.9,
+      "t_end": 140.3
+    },
+    {
+      "title": "Authenticating with Application Insights",
+      "t_start": 140.3,
+      "t_end": 176.8
+    },
+    {
+      "title": "Completing the Setup",
+      "t_start": 176.8,
+      "t_end": 205
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI Telemetry Apps for Business Central",
+      "description": "Power BI apps for Business Central telemetry that display sample data initially and can be connected to read actual telemetry data from Azure Application Insights for environments or apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 20.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Application Insights ID configuration",
+        "Requires OAuth authentication"
+      ],
+      "tags": [
+        "power bi",
+        "telemetry",
+        "application insights"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data Connection Configuration for Power BI",
+      "description": "A banner menu in Power BI that allows connecting telemetry apps to actual data by setting the Application Insights ID, time zone, and refresh period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.2,
+      "t_end": 140.3,
+      "is_demoed": true,
+      "caveats": [
+        "Most important setting is the Application Insights ID"
+      ],
+      "tags": [
+        "configuration",
+        "data connection",
+        "power bi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "API Access Menu for Application Insights ID",
+      "description": "An API access menu under the configure section in Application Insights where the application ID GUID can be found and copied for use in Power BI configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.6,
+      "t_end": 98.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "application insights",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Time Zone Configuration for Reports",
+      "description": "Ability to set the time zone for Power BI reports to match customer location, with example showing Copenhagen time zone setting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.6,
+      "t_end": 118.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "time zone",
+        "configuration",
+        "localization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Refresh Period Configuration",
+      "description": "Setting the look-back period for Power BI report refreshes, with options for weekly, daily, or monthly refresh cycles that occur nightly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.9,
+      "t_end": 140.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "refresh",
+        "configuration",
+        "scheduling"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "OAuth Authentication for Application Insights",
+      "description": "OAuth 2.0 authentication required to authorize Power BI reports to refresh by connecting to Application Insights using user credentials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.3,
+      "t_end": 176.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "authentication",
+        "oauth",
+        "security"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "API Access menu",
+      "t": 58.6
+    },
+    {
+      "type": "other",
+      "name": "Configure menu",
+      "t": 58.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "when you have installed the powerbi app for business business Central Telemetry whether it is for environments or for apps you notice that you",
+      "why_it_matters": "Establishes that Power BI telemetry apps come with sample data by default, requiring configuration to use actual telemetry data.",
+      "check": "exact"
+    },
+    {
+      "t": 20.2,
+      "text": "if you click connect your data you get a menu where you need to set certain things the most important thing you need to",
+      "why_it_matters": "Identifies the Application Insights ID as the critical configuration requirement for connecting Power BI to telemetry data.",
+      "check": "exact"
+    },
+    {
+      "t": 58.6,
+      "text": "under the configure menu there's a menu called API access let's go here and this is where the application ID resides",
+      "why_it_matters": "Shows users where to locate the Application Insights ID needed for Power BI configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 118.9,
+      "text": "when the report refreshes you can set a weekly or daily or a monthly so it every night it will refresh with that look",
+      "why_it_matters": "Demonstrates the available refresh frequency options and explains that automatic nightly refreshes occur with the configured look-back period.",
+      "check": "exact"
+    },
+    {
+      "t": 140.3,
+      "text": "I need to authentic at to um to application insights using or so there will come a small menu up here in a second",
+      "why_it_matters": "Indicates that OAuth authentication is required to authorize Power BI to access Application Insights for automatic refreshes.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014214
+    }
+  ]
+}

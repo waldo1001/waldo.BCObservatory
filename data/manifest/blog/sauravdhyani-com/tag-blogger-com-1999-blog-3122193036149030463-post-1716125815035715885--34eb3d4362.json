@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/06/how-to-add-currency-symbols-to-numeric.html",
   "published_at": "2026-07-29T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:55.305Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md",
+      "words": 391
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:02.452Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:02.453Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:02.454Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:02.458Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md"
     }
   },
   "input_hash": "2026-07-29T05:30:00.131Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a557f134fd7dca44fea10ead6aa0d82cb56175df71412ca823d54cf40a46481e"
 }

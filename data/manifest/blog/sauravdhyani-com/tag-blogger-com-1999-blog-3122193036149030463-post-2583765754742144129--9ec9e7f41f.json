@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/07/how-business-central-2026-improves-item.html",
   "published_at": "2026-07-24T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:19.525Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md",
+      "words": 564
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:26.711Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005437
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:26.713Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:26.714Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:26.718Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md"
     }
   },
   "input_hash": "2026-07-24T05:30:00.115Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cbe0e37fdd868c07695e418af224e8861679ba12a35e042080fd2c586c01ec41"
 }

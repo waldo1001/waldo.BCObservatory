@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/07/quick-tip-runtime-version-and-business-central-version-are-not-the-same-thing/",
   "published_at": "2026-07-24T12:41:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:10.703Z",
+      "path": "vault:posts/thinkaboutit-be/8037.md",
+      "words": 646
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:18.446Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005786
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:18.447Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:18.448Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:18.451Z",
+      "path": "content/posts/thinkaboutit-be/8037.md"
     }
   },
   "input_hash": "2026-07-24T12:50:06.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a39b269bbcc13ddc9da61f6e1dadebbee07d54e69d4a055ff32fb0616960ec77"
 }

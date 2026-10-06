@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/duiliotacconi-com/2117",
+  "url": "https://duiliotacconi.com/2026/07/29/optimized-base64-file-handling-in-dynamics-365-business-central-2026-wave-1/",
+  "title": "Optimized Base64 file handling in Dynamics 365 Business Central 2026 Wave 1",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-07-29T13:19:20.000Z",
+  "words": 897,
+  "summary": "Dynamics 365 Business Central 2026 Wave 1 introduces a new platform codeunit for Base64 encoding and decoding that automatically improves performance and reduces memory usage without requiring code changes. Existing applications gain 30-45% better encoding and 15-25% better decoding performance, while developers can optionally refactor to use stream-based methods for further optimization.",
+  "key_points": [
+    "New System.Runtime.Base64Convert codeunit (2000000024) provides optimized native Base64 methods with multiple overloads for streams and text",
+    "Automatic performance gains of 30-45% for encoding and 15-25% for decoding happen without refactoring existing code",
+    "Stream-based encoding/decoding methods offer optional optimization path for applications handling Base64 intensively",
+    "Platform includes telemetry warnings for strings exceeding 10MB to help identify refactoring opportunities"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "base64",
+    "encoding",
+    "performance optimization",
+    "memory management",
+    "platform features",
+    "codeunit",
+    "stream processing"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "System.Runtime.Base64Convert"
+    },
+    {
+      "type": "codeunit",
+      "name": "Base64 Convert"
+    },
+    {
+      "type": "codeunit",
+      "name": "Base64 Convert Impl."
+    }
+  ],
+  "features": [
+    "Base64 encoding",
+    "Base64 decoding",
+    "stream-based processing",
+    "text encoding support",
+    "memory optimization",
+    "telemetry warnings",
+    "platform codeunit",
+    "overload methods"
+  ],
+  "versions": [
+    "2026 Wave 1",
+    "v28",
+    "27.5",
+    "27.x"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006842,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Bold move by Product Group in speeding up Base64 handling and making it more (memory) resource savvy.",
+      "why_it_matters": "Summarizes the key benefit of automatic performance improvement without developer effort, addressing both speed and resource governance"
+    },
+    {
+      "text": "there is no need for refactoring code to have this working in your application. It is just automatic.",
+      "why_it_matters": "Clarifies that existing code automatically benefits from improvements, lowering migration effort and risk"
+    }
+  ]
+}

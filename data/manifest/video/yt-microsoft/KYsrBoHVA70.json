@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)",
   "url": "https://www.youtube.com/watch?v=KYsrBoHVA70",
-  "published_at": null,
+  "published_at": "2023-12-04T14:01:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:06.040Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1334
+    },
+    "captioned": {
+      "at": "2026-10-06T21:45:14.830Z",
+      "path": "data/captions/microsoft/KYsrBoHVA70.vtt",
+      "vtt_sha256": "4e4f5429f9f7c3e57dc61f71ca4dd9c0b23d695d0d5fa5740797ba1560ea3632",
+      "segments": 71,
+      "words": 3637,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 505,
     "duration_s": 1334,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e4f5429f9f7c3e57dc61f71ca4dd9c0b23d695d0d5fa5740797ba1560ea3632"
 }

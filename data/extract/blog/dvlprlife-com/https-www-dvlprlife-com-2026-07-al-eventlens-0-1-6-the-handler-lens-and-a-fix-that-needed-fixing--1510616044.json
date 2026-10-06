@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/",
+  "url": "https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/",
+  "title": "AL EventLens 0.1.6: the handler lens, and a fix that needed fixing",
+  "source": "dvlprlife-com",
+  "published_at": "2026-07-27T23:55:00.000Z",
+  "words": 740,
+  "summary": "AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.",
+  "key_points": [
+    "Handler lens displays usage counts for MessageHandler, ConfirmHandler, PageHandler and other test handler functions, with clickable references",
+    "Identifies dead test code by showing unused handlers that accumulate when tests are deleted but their handlers remain",
+    "Parser fixes address critical issues where apostrophes, attribute names in strings, unclosed brackets, and quoted colons caused events to be dropped or invented",
+    "Automated differential testing found that a preprocessor directive fix inadvertently created a new bug where trailing comments could fabricate publishers"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al eventlens",
+    "test handlers",
+    "parser bugs",
+    "code lens",
+    "dead code detection",
+    "event subscribers"
+  ],
+  "objects": [],
+  "features": [
+    "Handler CodeLens",
+    "Test handler usage tracking",
+    "Parser bug fixes",
+    "Unused handler detection",
+    "Subscriber reveal",
+    "Differential testing"
+  ],
+  "versions": [
+    "0.1.6"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00558,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "A handler no test uses is dead test code, and it accumulates: you delete the test, you leave the handler.",
+      "why_it_matters": "Explains the core problem the handler lens solves - orphaned handler functions that persist after test deletion and clutter codebases"
+    }
+  ]
+}

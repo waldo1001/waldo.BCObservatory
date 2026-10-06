@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/",
   "published_at": "2026-07-27T23:55:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:02.986Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md",
+      "words": 740
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:10.513Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.00558
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:10.514Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:10.515Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:10.518Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3c4455cd226fd6b8bce97d1028ada0a4545f49f6aa747a19f85c540092832288"
 }

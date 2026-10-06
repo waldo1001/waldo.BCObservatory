@@ -1,0 +1,25 @@
+{
+  "video_id": "sZ7wMU1Uxio",
+  "item_id": "video/yt-microsoft/sZ7wMU1Uxio",
+  "summary": "Changing dataset properties for a Business Central Power BI Telemetry app in the Power BI service: finding the workspace, opening the dataset settings, editing data source credentials, and setting the refresh rate and error notifications. Demonstrated in a 2-minute video.",
+  "overview": "The video shows how to change anything related to data loading for a Power BI app built on Business Central telemetry. You start in the Power BI workspaces menu, search for the report, and find the underlying workspace that holds the report and dataset artifacts.\n\nFrom the dataset you open its settings. Under data source credentials you can edit the credentials and change who refreshes the dataset. In the refresh section you set how often the report refreshes and configure notifications for refresh errors.",
+  "key_points": [
+    "To change data loading for a Business Central Telemetry Power BI app, go to the Power BI workspaces menu and search for the report to find its underlying workspace.",
+    "The workspace holds the report and the dataset, which is the data foundation for the reports.",
+    "Open the dataset settings to change dataset properties.",
+    "Under data source credentials, choose edit credentials to change who refreshes the dataset.",
+    "Use the refresh menu to change how often the report refreshes.",
+    "Notifications for refresh errors can be configured in the same refresh settings."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "b3f6f64e1eb459078be7df7d75d71d72b49d0554d307d8afaf90624c8ded9e87",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009918399999999999
+  }
+}

@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "What's New: Using Enforced Digital Vouchers (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=pE19K17wpgI",
-  "published_at": null,
+  "published_at": "2023-11-28T11:46:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:22.538Z",
+      "captions": "auto:en-orig",
+      "duration_s": 776
     }
   },
   "input_hash": null,
@@ -19,7 +24,13 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 506,
-    "duration_s": 777,
-    "via": "reconcile"
-  }
+    "duration_s": 776,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

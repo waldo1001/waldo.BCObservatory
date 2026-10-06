@@ -1,0 +1,27 @@
+{
+  "video_id": "BOY2442wHSc",
+  "item_id": "video/yt-microsoft/BOY2442wHSc",
+  "summary": "Connecting the Business Central Telemetry Power BI apps (environments or apps) to real data instead of sample data. Covers setting the Application Insights ID, time zone and refresh period in Power BI, then authenticating with OAuth to Application Insights.",
+  "overview": "After the Business Central Telemetry Power BI app is installed, it shows sample data. The video shows how to use the \"connect your data\" banner menu to point the app at actual telemetry in Azure Application Insights.",
+  "key_points": [
+    "After installing the Power BI telemetry app (for environments or for apps), the report shows sample data until it is connected.",
+    "Select 'connect your data' in the banner to open the configuration menu.",
+    "The most important setting is the Application Insights ID.",
+    "In Application Insights, open Configure, then API access, to find and copy the application ID GUID.",
+    "Set the report time zone to match the customer location; the demo uses Copenhagen.",
+    "Set the refresh look-back period (weekly, daily or monthly); the report refreshes nightly with that period.",
+    "Finish by authenticating to Application Insights with OAuth 2.0 using your user credentials, so the report can refresh."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "bf39645848765443cc39a8abd10b6f4ce41cb1195b2f1dad8a487fd0102289a4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0114364
+  }
+}

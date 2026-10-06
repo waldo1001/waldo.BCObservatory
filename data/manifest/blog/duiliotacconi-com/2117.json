@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/07/29/optimized-base64-file-handling-in-dynamics-365-business-central-2026-wave-1/",
   "published_at": "2026-07-29T13:19:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:54.197Z",
+      "path": "vault:posts/duiliotacconi-com/2117.md",
+      "words": 897
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:02.732Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006842
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:02.733Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:02.734Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:02.737Z",
+      "path": "content/posts/duiliotacconi-com/2117.md"
     }
   },
   "input_hash": "2026-07-29T13:19:20.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5d661b0836f1ba587554c5755acd79fed691fa925d875149d20cee0e4051712e"
 }

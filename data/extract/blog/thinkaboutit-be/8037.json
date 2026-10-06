@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/thinkaboutit-be/8037",
+  "url": "https://thinkaboutit.be/2026/07/quick-tip-runtime-version-and-business-central-version-are-not-the-same-thing/",
+  "title": "Quick Tip: Runtime Version and Business Central Version Are Not the Same Thing",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-07-24T12:41:05.000Z",
+  "words": 646,
+  "summary": "Runtime version in app.json determines which AL language features are available and controls compatibility with platform versions. Developers often confuse runtime version with platform (internal) version or release wave name, but only runtime version matters for code compilation and customer system requirements.",
+  "key_points": [
+    "Runtime version is set in app.json and controls AL language features available; platform version is the actual service build shown in admin center",
+    "Runtime version must be same or later than target environments support; extensions publish only to environments with equal or newer runtimes",
+    "Setting runtime too low causes missing features; too high requires newer platform versions customers may not have reached",
+    "Omitting the runtime property defaults to latest major version supported by VS Code, which changes with tool updates",
+    "Lower runtime is preferred when serving customers on staggered update schedules to avoid blocking installation"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "runtime version",
+    "app.json",
+    "al language",
+    "compatibility",
+    "versioning"
+  ],
+  "objects": [],
+  "features": [
+    "AL compilation",
+    "runtime versioning",
+    "extension publishing",
+    "platform compatibility"
+  ],
+  "versions": [
+    "15.0",
+    "16.0",
+    "17.0",
+    "2025 release wave 1",
+    "2025 release wave 2",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005786,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "An extension publishes only to environments running the same runtime or a later one, never an earlier one.",
+      "why_it_matters": "Establishes the core compatibility rule that runtime version is a forward-only contract between extensions and platforms"
+    },
+    {
+      "text": "Treat runtime version as a compatibility contract you actively manage, not a field VS Code fills in for you.",
+      "why_it_matters": "Emphasizes that developers must consciously choose runtime based on business requirements, not rely on tooling defaults"
+    }
+  ]
+}

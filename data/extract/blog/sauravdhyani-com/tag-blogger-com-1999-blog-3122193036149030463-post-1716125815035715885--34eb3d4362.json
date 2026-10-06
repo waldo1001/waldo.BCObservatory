@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885",
+  "url": "https://www.sauravdhyani.com/2026/06/how-to-add-currency-symbols-to-numeric.html",
+  "title": "How to Add Currency Symbols to Numeric Fields in Business Central.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-07-29T05:30:00.000Z",
+  "words": 391,
+  "summary": "BC28 introduces configurable currency symbols on numeric fields to help finance users quickly identify whether transaction amounts are in local or foreign currency. Administrators can choose symbol position and display type globally or per currency without requiring custom development.",
+  "key_points": [
+    "Currency symbols can be displayed before or after numeric amounts on transactional pages",
+    "Two display options exist: LCY/FCY symbols or LCY/FCY currency codes",
+    "Configuration is available both globally in General Setup and individually on each Currency page",
+    "The feature works in both SaaS and on-premises deployments without custom development"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "currency symbols",
+    "multi-currency",
+    "numeric fields",
+    "usability",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "General Setup"
+    },
+    {
+      "type": "table",
+      "name": "Currency"
+    }
+  ],
+  "features": [
+    "Currency symbol display on numeric fields",
+    "Configurable symbol positions",
+    "LCY/FCY symbol display",
+    "LCY/FCY currency code display",
+    "Per-currency configuration"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005312,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "BC28 introduces currency symbols for numeric fields, helping users quickly identify transaction currency directly within pages and transactional screens.",
+      "why_it_matters": "Explains the core benefit of the feature for finance users working with multiple currencies"
+    },
+    {
+      "text": "It improves transaction clarity while reducing user confusion without requiring custom development.",
+      "why_it_matters": "Highlights that this is a native feature requiring no customization, making it accessible to all organizations"
+    }
+  ]
+}

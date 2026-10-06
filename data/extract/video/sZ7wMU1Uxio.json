@@ -1,0 +1,157 @@
+{
+  "video_id": "sZ7wMU1Uxio",
+  "item_id": "video/yt-microsoft/sZ7wMU1Uxio",
+  "title": "Change Dataset Properties for a Power BI Telemetry App in Power BI",
+  "duration_s": 109,
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "power bi",
+    "telemetry",
+    "dataset properties",
+    "refresh rate",
+    "data source credentials",
+    "workspace management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and workspace navigation",
+      "t_start": 0,
+      "t_end": 21.2
+    },
+    {
+      "title": "Locating the Business Central Telemetry workspace",
+      "t_start": 21.2,
+      "t_end": 41.4
+    },
+    {
+      "title": "Dataset and report artifacts overview",
+      "t_start": 41.4,
+      "t_end": 61.6
+    },
+    {
+      "title": "Accessing dataset settings",
+      "t_start": 61.6,
+      "t_end": 74.4
+    },
+    {
+      "title": "Configuring data source credentials",
+      "t_start": 74.4,
+      "t_end": 94.5
+    },
+    {
+      "title": "Setting refresh rate and notifications",
+      "t_start": 94.5,
+      "t_end": 109
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI Telemetry app dataset properties",
+      "description": "Ability to change dataset properties for a Power BI Telemetry app in Power BI, including data source credentials and refresh rate configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.4,
+      "t_end": 107.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "telemetry",
+        "dataset",
+        "configuration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data source credentials management",
+      "description": "Ability to change who is refreshing the dataset and update data source credentials through the settings menu in Power BI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.4,
+      "t_end": 87,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "credentials",
+        "data source"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report refresh rate configuration",
+      "description": "Ability to set how often a Power BI report should refresh and configure notifications for refresh errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87,
+      "t_end": 107.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "refresh",
+        "notifications"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.4,
+      "text": "if you need to change anything related to the data loading of a powerbi app on business Central Telemetry you need to find the",
+      "why_it_matters": "Explains the foundational step for accessing dataset configuration in Power BI",
+      "check": "exact"
+    },
+    {
+      "t": 21.2,
+      "text": "you go to the workspaces menu and search for the for the report and there you would find the underlying workspace which is where",
+      "why_it_matters": "Defines where dataset and report artifacts are located within Power BI",
+      "check": "exact"
+    },
+    {
+      "t": 41.4,
+      "text": "the data set that is the data foundation for all of these so in case I need to change who is refreshing or the",
+      "why_it_matters": "States that the dataset is the central location for managing refresh and credential settings",
+      "check": "exact"
+    },
+    {
+      "t": 74.4,
+      "text": "change whoever is refreshing under data source credentials edit credentials and now i can change my credentials here",
+      "why_it_matters": "Demonstrates how to update data source credentials for dataset refresh operations",
+      "check": "fuzzy"
+    },
+    {
+      "t": 74.4,
+      "text": "if I need to change the the refresh rate of the report I go to the refresh menu and change how often the report",
+      "why_it_matters": "Shows how to configure refresh frequency for Power BI reports",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010221000000000001
+    }
+  ]
+}

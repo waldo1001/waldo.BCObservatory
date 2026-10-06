@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3775",
+  "url": "https://aardvarklabs.blog/2026/07/24/connect-claude-to-business-central-mcp-a-step-by-step-guide/",
+  "title": "Connect Claude to Business Central MCP: A Step-by-Step Guide",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-07-24T12:00:00.000Z",
+  "words": 886,
+  "summary": "This guide explains how to connect Claude AI desktop to a Business Central MCP server using a locally hosted Python proxy, eliminating authentication complexity. It covers setting up Azure AD app registration, configuring Business Central, installing the proxy tool, and updating Claude's configuration file.",
+  "key_points": [
+    "Use a local Python proxy to simplify Claude-to-MCP authentication and configuration",
+    "Create an Azure AD app registration with specific redirect URIs and API permissions",
+    "Register the Azure AD app in Business Central via Microsoft Entra Applications",
+    "Install bc-mcp-proxy Python package and run setup to generate configuration files",
+    "Add the proxy configuration to Claude Desktop's claude_desktop_config.json file under mcpServers"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "model context protocol",
+    "claude integration",
+    "mcp server",
+    "authentication",
+    "azure ad",
+    "ai agents"
+  ],
+  "objects": [],
+  "features": [
+    "Model Context Protocol (MCP)",
+    "Claude Desktop integration",
+    "MCP Proxy",
+    "Azure AD authentication",
+    "Business Central MCP Server"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006533,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "To reduce the complexity required for Claude to connect, as well as facilitate other AI Agents, we will use a locally hosted Proxy.",
+      "why_it_matters": "Explains the core strategy to simplify MCP authentication by using a proxy instead of direct integration"
+    },
+    {
+      "text": "You can now ask Claude questions about your Business Central data, and after a few prompts for your permission, it will provide results.",
+      "why_it_matters": "Shows the end result - Claude can query Business Central data with proper authentication"
+    },
+    {
+      "text": "This approach also works for VS Code and Cursor.",
+      "why_it_matters": "Indicates the proxy method is compatible with multiple AI agents and development environments"
+    }
+  ]
+}

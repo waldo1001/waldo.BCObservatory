@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/",
   "published_at": "2026-07-27T17:35:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:09.492Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-introducing-businesscentraltrivia-com--1ec578f773.md",
+      "words": 193
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:15.860Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.004185
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:15.861Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:15.862Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:15.865Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-introducing-businesscentraltrivia-com--1ec578f773.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eac486d7200e18c52dad07809391417affe3eeee7d9bd55f529151a0628e52a6"
 }

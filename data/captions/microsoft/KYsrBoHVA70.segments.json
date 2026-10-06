@@ -1,0 +1,376 @@
+{
+  "video_id": "KYsrBoHVA70",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.8,
+      "end": 38,
+      "text": "welcome my name is baj Koto I work as a product manager in Microsoft Development Center Copenhagen where we develop business Central and we also develop a mobile app for business centr today we will be talking about uh the mobile app and its new capabilities including barcode"
+    },
+    {
+      "t": 38,
+      "end": 58.1,
+      "text": "scanning announcing right now in October 2023 we have released the new version of our mobile app this is version 4 4.0 available of course for um IOS and Android supports new versions of those operating systems and has some changes and then of course"
+    },
+    {
+      "t": 58.1,
+      "end": 78.3,
+      "text": "new features which we will be talking about about uh right now this app is Backward Compatible so you can download it from the store and U used on your devices even if you are connecting to previous version of business Central or even if you are working with business Central on premises but of course to get"
+    },
+    {
+      "t": 78.3,
+      "end": 98.8,
+      "text": "the most out of it uh you would need business Central 2023 Wave 2 and of course after you download the app please give give us a good rating first feature that I would like to mention in that mobile app is tell me the support for tell me on mobile the alt Q keyboard shortcut"
+    },
+    {
+      "t": 98.8,
+      "end": 118.8,
+      "text": "is probably one of the most popular on desktop and right now this feature is coming to Mobile in order to enable that feature you have to go to feature management and turn it on and of course if you have a new environment like for instance the preview sandbox this will be turned on uh By You By by default it"
+    },
+    {
+      "t": 118.8,
+      "end": 138.9,
+      "text": "Supports phone tablet devices various you know landscape and portrait modes and of course it works in the same way as tell me works on desktop you can search for any page report and then of course if the user has uh enough permissions to go and navigate to that page uh it will it will"
+    },
+    {
+      "t": 138.9,
+      "end": 151.6,
+      "text": "work it also supports the keyboard shortcut actually the alt Q keyboard shortcut so if you have a mobile device like for instance a tablet with a keyboard it will also work with alt Q"
+    },
+    {
+      "t": 151.6,
+      "end": 171.7,
+      "text": "next one is the search for data so this feature search for data is enabled on desktop within tell me and we have done the same for mobile so right now if you are running a mobile device you can search for data from that tell me experience from that search experience on mobile and it works in"
+    },
+    {
+      "t": 171.7,
+      "end": 191.9,
+      "text": "the same way uh it uses the same scoping for data data that is available for the use for the specific user but it can be also Al configured by the administrator to access specific tables so the administrator is doing that on desktop and the user logging from mobile device will have the same experience or the same"
+    },
+    {
+      "t": 191.9,
+      "end": 207.9,
+      "text": "access as uh doing that from desktop and then of course permissions are also honored in the same way this feature also needs to be enabled in feature management together with tel me that is uh relatively uh"
+    },
+    {
+      "t": 207.9,
+      "end": 228,
+      "text": "straightforward next thing is something that is coming soon and that is support for worksheet pages on mobile phones specifically you have probably seen that if you navigate to a page of type worksheet those worksheet pages are defined in a more complex way usually they are meant to enter"
+    },
+    {
+      "t": 228,
+      "end": 248.5,
+      "text": "data in this kind of excel like format so they didn't really work nicely on mobile phones and previously you will see a you would see an an error message saying that unfortunately this type of an experience is not available on a phone and you need to navigate you need to go and switch to a tablet or desktop coming in"
+    },
+    {
+      "t": 248.5,
+      "end": 268.5,
+      "text": "version 23.1 so not right now in October but a little bit later in November time frame uh this type of experience will also be available on mobile phone and it will work in the same way as currently uh document pages so you will have an an a header and a footer and the lines and then"
+    },
+    {
+      "t": 268.5,
+      "end": 288.6,
+      "text": "you will navigate through the those lines and edit one by one so it's a slightly different experience as to desktop but uh most importantly those uh worksheet pages will be available on phone uh finally and we're welcoming this change and I'm hoping that you also will be happy with this with this change coming"
+    },
+    {
+      "t": 288.6,
+      "end": 308.7,
+      "text": "later this wave but the most important thing or most fun thing about this new mobile app is the support for barcode scanning to demonstrate that and talk about that in detail I would welcome my colleagues from the engineering team clao and kasim thank"
+    },
+    {
+      "t": 308.7,
+      "end": 329.8,
+      "text": "you blazes I'm clao I'm part of the software engineering team here working on business Central in Copenhagen and today I'm joined by my colleague kasim hi I'm kasim and I also work in the application team based in Denmark as well yeah so as my colleague has previously mentioned uh we are bringing some new features to the mobile app in this wave"
+    },
+    {
+      "t": 329.8,
+      "end": 350.2,
+      "text": "um and the ones that I'm the one I'm going to be focusing on is the barcode scanning feature we believe that that by bringing this new feature in the application we will increase the overall ux ux experience of the application but also improve the user productivity so therefore we now in the new mobile application we support"
+    },
+    {
+      "t": 350.2,
+      "end": 370.3,
+      "text": "native barcode scanning that can be enabled via the AL language uh it works on all supported phones tablets via camera it it uses native mobile capabilities which means that is actually using um software specific um machine learning software specific for actually detecting the barcodes and then we"
+    },
+    {
+      "t": 370.3,
+      "end": 382.1,
+      "text": "are also bringing a third integration uh for the barcode scanning capability and that is we have integrated uh dedicated barcode scanning devices with business"
+    },
+    {
+      "t": 382.1,
+      "end": 402.6,
+      "text": "Central in terms of the supported barcode types out of the box support we do support most of the well 1D 2D barcode formats and probably the most important thing uh we do support QR codes as well because we do know that our partners have actually asked for this specific thing so yes we do support QR codes as"
+    },
+    {
+      "t": 402.6,
+      "end": 422.7,
+      "text": "well uh for the native Barcode Scanner support we have come up with three scenarios H which are the following we've added a new button in the UI that involes the camera scanning capability so basically when a user Taps on this button the camera is going to be invoked and uh therefore he will going to be able"
+    },
+    {
+      "t": 422.7,
+      "end": 443,
+      "text": "to he's going to be able to scan the barcode which in turn is going to be sent to process to Al then secondly we wanted we want to add more flexibility to Al uh developers so we allow them to actually um integrate with camera scanning capabilities via an Alx sensibility and the third one"
+    },
+    {
+      "t": 443,
+      "end": 457.2,
+      "text": "as I mentioned we are integrating in this new mobile app release with dedicated bar Cod scanner devices however with the caveat we only support devices that are running on Android"
+    },
+    {
+      "t": 457.2,
+      "end": 477.2,
+      "text": "OS for this first scenario we are introducing a new capability to add an action via Al which is going to project um or render something on the string something like the one that you see on the slides um an icon with a barcode scanner inside icon that when you user tabs that actually the camera barcod scanning"
+    },
+    {
+      "t": 477.2,
+      "end": 497.2,
+      "text": "capability will be invoked in order to do so it's quite easy to actually have this new capability all you need to do is actually annotate annotate a field of type code and text with the extended data type property equals barcode as soon as an Al developer does that it will instruct the mobile client to show the barcode"
+    },
+    {
+      "t": 497.2,
+      "end": 517.3,
+      "text": "scanning capability uh when the page is rendered on the supported device secondly as I said we wanted to actually bring some more flexibility and give some more flexibility to Al developers um so they can actually use the new barcode scanning capability via Al and"
+    },
+    {
+      "t": 517.3,
+      "end": 537.6,
+      "text": "integrate with it uh for example not only that they can actually use it next to a field but it can also also enable the the the capability by um by a r Center queue an action a button a link or some automated Logic for instance when a page is open and of course once this barcode is actually"
+    },
+    {
+      "t": 537.6,
+      "end": 557.6,
+      "text": "scanned there is returned the data is returned to Al for further processing and now my colleague aim is actually going to demonstrate you how we integrated this in the uh new business Central application thank you cloria so I will demonstrate this barcode functionality by doing an"
+    },
+    {
+      "t": 557.6,
+      "end": 577.8,
+      "text": "endtoend scenario inside business Central and we'll show you how we have along the way I will show you how we have integrated the barcode features inside different business processes inside business Central so start by creating an item then we will try to produce that item and finally we will try to sell this item so let's start so the first thing I will"
+    },
+    {
+      "t": 577.8,
+      "end": 598.2,
+      "text": "go is to see the item itself so I have created this item called coffee beans and there are few things I want to mention about this item that I have created uh the first thing is the GTI in number I've defined this number which is which can be used to uniquely identify this item and barcode scanners can use this to either track or"
+    },
+    {
+      "t": 598.2,
+      "end": 618.4,
+      "text": "identify this particular item and now we also have this feature to print the label for this uh GTI number for this particular item and once I do that let's see how the label itself looks like so this is the label once I press print looks like this is a word report and like cloria mentioned"
+    },
+    {
+      "t": 618.4,
+      "end": 635.1,
+      "text": "there are a lot of formats that we support but for this demo I've used the standard on Dimension barcode and Ive also used the QR code so now we can actually print this uh label as well and one more thing that I want to show about this item is the item"
+    },
+    {
+      "t": 635.1,
+      "end": 655.2,
+      "text": "references so the GTI number basically identify the item uniquely but to identify the variance of that item we use the item references so over here you can see we have a new reference type called barcode and using this we can identify each uh type of uh coffee beans in our case it could be either a box of coffee"
+    },
+    {
+      "t": 655.2,
+      "end": 675.2,
+      "text": "beans or a pack of coffee beans we can also identify the validity of these reference number by specifying the starting and end date so let's say this box reference item is only valid for a week so similarly like GTI number we can use the print label action to actually print the uh reference number labels as"
+    },
+    {
+      "t": 675.2,
+      "end": 695.5,
+      "text": "well and you can see now we have printed two reference number labels one for uh pack of coffee beans and the other is for the box of coffee beans so now we have an item for which we have identified the GTI number and we we have couple of reference number and we have also specify the item tracking information for this so let's try to produce"
+    },
+    {
+      "t": 695.5,
+      "end": 702.3,
+      "text": "some of these item so I will go to the assembly"
+    },
+    {
+      "t": 702.3,
+      "end": 722.4,
+      "text": "orders and over here you can see I'm trying to produce five coffee beans five packs of coffee beans and I've specified the location and and the bin where this will be located and I've assigned the resource to it so now I will go to the item tracking lines for this assembly order um by using the assigned serial number action I"
+    },
+    {
+      "t": 722.4,
+      "end": 742.4,
+      "text": "can create five serial numbers for these five coffee beans that we are going to produce so now I have created these five serial numbers for five coffee beans packs that we are going to create now if I go to the serial number information card page I have the option to actually print the label for the serial numbers so for all of these five items that we create we can"
+    },
+    {
+      "t": 742.4,
+      "end": 762.6,
+      "text": "place the serial number on each individual which will uniquely identify each uh coffee beans back so let's try to print the labels for these seral numbers as well so uh similar like GTI number and reference number we have five barcode uh tags for uh serial number as well"
+    },
+    {
+      "t": 762.6,
+      "end": 782.7,
+      "text": "so now we have created the serial number for these five items coffee beans that we are going to create now we can actually post this assembly order and we will produce the five uh coffee beans so let's go and post while this posting is going on just to summarize what we have done so far we have identified the GTI"
+    },
+    {
+      "t": 782.7,
+      "end": 802.9,
+      "text": "number for the items we have identified a few reference numbers for the item in the end we have created and produced five coffee beans so let's assume I'm a warehouse employer right now so what we have done so far is create five packs of coffee beans so it looks something like this and we have the serial number uh barcode printed"
+    },
+    {
+      "t": 802.9,
+      "end": 822.9,
+      "text": "in the front and we have the GTI number and the reference number printed on the back side so let's open the business Central app in the tablet and see how the warehouse employee might interact with uh this barod features so the first thing that you might see in the warehouse uh"
+    },
+    {
+      "t": 822.9,
+      "end": 843,
+      "text": "worker role Center is two new actions one is called the item inquiry and the second is called item bin content inquiry both of these actions allows us to scan the barcode and either get the details about the item or get the details about the item in a particular bin so let's try the item bin content inquiry so over"
+    },
+    {
+      "t": 843,
+      "end": 863.6,
+      "text": "here you can see there is this icon for barcode uh and this is uh just by defining the uh extended data type as barcode and it automatically uh picks it up over here the barcode could be either gtin number or the reference number of the item itself so let's try to scan the reference"
+    },
+    {
+      "t": 863.6,
+      "end": 878,
+      "text": "number I will press this icon and as soon as I scan the reference number the bin content has been opened and I can see I have like 15 quantity of this uh coffee beans inside"
+    },
+    {
+      "t": 878,
+      "end": 888,
+      "text": "silver so now let's try to sell some of these so I will go to the sales order create a new sales"
+    },
+    {
+      "t": 888,
+      "end": 908.4,
+      "text": "order specify the customer that we are going to sell this and on the line again you have the option to select the item either from the drop down or you can use this barcode icon to scan the reference number so let's scan the reference number again for this coffee beans"
+    },
+    {
+      "t": 908.4,
+      "end": 923.7,
+      "text": "and you can see it automatically fills the line and it also knows like which type of reference number I have attached so it's uh this for this demo it's like the pack so let's try to sell three coffee beans"
+    },
+    {
+      "t": 923.7,
+      "end": 934.2,
+      "text": "pack and we need to identify the location as well because it was in silver location so let's go to the item tracking lines for this"
+    },
+    {
+      "t": 934.2,
+      "end": 952.9,
+      "text": "line over here you can see I could either scan each individual uh pack of coffee beans from the line itself or I could use the uh action called scan multiple which will allow me to continue scanning so since we have more than one item so I will use the scan"
+    },
+    {
+      "t": 952.9,
+      "end": 972.9,
+      "text": "multiple and we are going to scan serial numbers so I'm going to scan one by one and you can see it's pretty fast and I don't have to do anything else and as soon as my order is complete it basically notifies me that I have fulfilled the order and the lines"
+    },
+    {
+      "t": 972.9,
+      "end": 993.1,
+      "text": "are already inserted now all we have to do is post this sales order and we are good to go so now let's look how it looks like in the code so the first part is to Define this ex extended data type barcode and as soon as you define this extended data type the the uh the mobile"
+    },
+    {
+      "t": 993.1,
+      "end": 1013.2,
+      "text": "devices automatically uh recognize this as a barcode uh field and they will place this barcode icon in front of it and that's it and the second part uh that we have used in the item tracking uh Pages where we have manually uh triggered the camera scanning functionality uh these are the few steps that you have to do"
+    },
+    {
+      "t": 1013.2,
+      "end": 1033.4,
+      "text": "inside your Al code the first step is to Define your barcode scanning provider and then you have to in Step number two you have to see if the uh the barcode scanner provider exists so for example if you open in a browser this will be false and once you uh once uh the and once"
+    },
+    {
+      "t": 1033.4,
+      "end": 1053.4,
+      "text": "the camera barcod provider exists then you just create it and then uh the final step is to actually call the camera action so this this step four could be inside some action so once you call this there are two triggers that could uh happen either it's a successful uh uh barcode scanning then you"
+    },
+    {
+      "t": 1053.4,
+      "end": 1073.6,
+      "text": "will come inside this barcode available uh function and then you will you can do the post-processing or if there's a failure to scan the barcode or you exit then you come inside this barcod failure function uh trigger and this is how we have used in the item tracking as well you can see when I press the scan multiple"
+    },
+    {
+      "t": 1073.6,
+      "end": 1093.6,
+      "text": "action I triggered the camera uh scanner provider so that the the camera is triggered and I can do the continuous scanning so yeah uh that's all from my end and I will let Gloria to explain a bit more about the parkour functionality that we have yeah thanks Kim really nice demos by the way as my colleagues has"
+    },
+    {
+      "t": 1093.6,
+      "end": 1113.9,
+      "text": "show showed you we have integrated the first two scenarios that we conceived for the camera Barone scanning for the mobile application but we also came up with a third scenario and that is to actually support uh integration with dedicated barcode scanning device devices such as the one that I'm actually Hing holding in my hand um this new"
+    },
+    {
+      "t": 1113.9,
+      "end": 1134,
+      "text": "scenario this third scenario is actually tailored and um targeted specifically for warehouse employees who are actually used to scan multiple items in a span of a few seconds and in order to actually use this new capability an Al developer needs to explicitly instruct the BC app to start listening for"
+    },
+    {
+      "t": 1134,
+      "end": 1154.9,
+      "text": "any incoming barcodes and once the application is doing that then um it's just going to start listening for any numbers of incoming barong data so as a warehouse employee keeps on scanning each item in the warehouse BC will intercept all these messages coming from the barcode"
+    },
+    {
+      "t": 1154.9,
+      "end": 1174.9,
+      "text": "scanner um yet again as in the second scenario this is done via Al extensions and it's set up per page meaning that multiple providers can be registered so there is multiple Pages can actually listen to incoming barcodes however there's a small caveat we"
+    },
+    {
+      "t": 1174.9,
+      "end": 1189.7,
+      "text": "only send the information to the topmost page that is the current page that the user sees and now in terms of code I would like to show you how easy and um seemlessly it's we are able to integrate the new"
+    },
+    {
+      "t": 1189.7,
+      "end": 1209.9,
+      "text": "capability as you can see we try to keep the same API for both the camera barcod scanner but also for the barcod scanner provider of of course the naming of the methods that you need to call is going to be different than the classes however we try to kind of keep it in Al line uniform NPI so it's actually easier for the AL developer to um"
+    },
+    {
+      "t": 1209.9,
+      "end": 1230.2,
+      "text": "integrate these new capabilities so therefore as in the previous example in step one all you need to do is to specify the capability that you want in this case the barcod SK provider check if is actually available create the provider and request for the barcode scanner once this is done"
+    },
+    {
+      "t": 1230.2,
+      "end": 1250.5,
+      "text": "uh the page is going to start listening to or the mobile app is going to start listening for any incoming bar code data and of course as soon as the user starts actually scanning some items uh we are going to intercept this message and send it to Al and that can be received via this trigger barcode received and as soon"
+    },
+    {
+      "t": 1250.5,
+      "end": 1270.5,
+      "text": "as a message is received Al can receive it will receive it as well for further processing yeah so that's it in terms of the new capabilities for bar barcode scanning the first scenario is the the possibility to add a UI action UI button on any client page second scenario is to"
+    },
+    {
+      "t": 1270.5,
+      "end": 1290.5,
+      "text": "allow Al developers to easily integrate and access camera barcode scanning capabilities and the third scenario is integrating with dedicated barcode scanning device again it's really important to mention that this is only supported in the latest version of the mobile app that is"
+    },
+    {
+      "t": 1290.5,
+      "end": 1301.3,
+      "text": "version 4.0 and also is only supported in the new business Central release wave"
+    },
+    {
+      "t": 1301.3,
+      "end": 1320.4,
+      "text": "two as you can see we have added some functionality for the for the camera barcod scanning but also for the dedicated barcode scanning however we are always looking forward to receive some new ideas and questions from our partners so please do reach us on all the different media"
+    },
+    {
+      "t": 1320.4,
+      "end": 1332.8,
+      "text": "channels that's all for what is new in the mobile application thank you for joining the session and thank you kasim for showing us the demo yeah thank"
+    },
+    {
+      "t": 1332.8,
+      "end": 1334,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.79,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.8,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3637
+}
