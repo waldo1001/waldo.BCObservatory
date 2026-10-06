@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/join-viva-engage",
   "published_at": "2025-10-02T13:17:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "731e82c5f5f096cfc7529b893805866cc1918ef6",
       "words": 171,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:49.375Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:49.389Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:49.390Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:49.391Z",
+      "page": false
     }
   },
   "input_hash": "731e82c5f5f096cfc7529b893805866cc1918ef6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "731e82c5f5f096cfc7529b893805866cc1918ef6"
+  "output_hash": "4dca79f9cf7bec3a68557223464cc4a30db5f04c6192e8d96ccd526a17c24d2e"
 }

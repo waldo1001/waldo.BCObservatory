@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "#BCTalent Stories: Triangle",
   "url": "https://www.youtube.com/watch?v=Uy3CmPDzWpY",
-  "published_at": null,
+  "published_at": "2024-11-12T11:24:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:03:41.181Z",
+      "captions": "auto:en-orig",
+      "duration_s": 176
+    },
+    "captioned": {
+      "at": "2026-10-06T19:03:51.232Z",
+      "path": "data/captions/microsoft/Uy3CmPDzWpY.vtt",
+      "vtt_sha256": "86d8a5ffcb01210ff299decfeacd3ea99d32e2ba72c1d615c5bed833078b8d98",
+      "segments": 9,
+      "words": 472,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 315,
     "duration_s": 176,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86d8a5ffcb01210ff299decfeacd3ea99d32e2ba72c1d615c5bed833078b8d98"
 }

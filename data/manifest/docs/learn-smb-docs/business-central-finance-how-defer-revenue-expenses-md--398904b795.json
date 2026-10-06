@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-defer-revenue-expenses",
   "published_at": "2025-10-01T10:58:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9873b9f27a6e44c09a0ec0c3cb6f9ed690080a3a",
       "words": 1143,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:49.379Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:51.124Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:51.126Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:51.134Z",
+      "page": false
     }
   },
   "input_hash": "9873b9f27a6e44c09a0ec0c3cb6f9ed690080a3a",
@@ -93,5 +112,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9873b9f27a6e44c09a0ec0c3cb6f9ed690080a3a"
+  "output_hash": "f483cc1571fbd18debece75f3344431440e011a04f7e2543b2e4c99ced47b482"
 }

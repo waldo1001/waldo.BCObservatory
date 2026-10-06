@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-build-experience-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience-overview",
+  "title": "Introduction to developing generative AI experiences for your extensions",
+  "blob": "1ea15fd119672794edcd64d547122f46de1677f1",
+  "summary": "Developing generative AI experiences for Business Central extensions requires integrating a prompt dialog page, the AI module of the system application, and an Azure OpenAI resource to build Copilot capabilities.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "copilot",
+    "generative ai",
+    "azure openai",
+    "extensions",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "Prompt dialog page",
+    "AI module",
+    "Azure OpenAI Service integration",
+    "Copilot UI design",
+    "AL code integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00384,
+      "pages_in_call": 8
+    }
+  ]
+}

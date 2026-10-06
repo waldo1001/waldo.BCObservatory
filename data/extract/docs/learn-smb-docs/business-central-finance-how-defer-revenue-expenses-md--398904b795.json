@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-defer-revenue-expenses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-defer-revenue-expenses",
+  "title": "Defer revenues and expenses",
+  "blob": "9873b9f27a6e44c09a0ec0c3cb6f9ed690080a3a",
+  "summary": "Defer revenues and expenses feature allows you to set up deferral templates to automatically defer revenues or expenses to specified accounting periods based on transaction posting dates.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "deferrals",
+    "revenue recognition",
+    "expense recognition",
+    "accounting periods",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Deferral Templates"
+    },
+    {
+      "type": "page",
+      "name": "Deferral Schedule"
+    },
+    {
+      "type": "page",
+      "name": "Sales Deferral Summary"
+    },
+    {
+      "type": "page",
+      "name": "Purchasing Deferral Summary"
+    },
+    {
+      "type": "page",
+      "name": "Sales deferral lines"
+    },
+    {
+      "type": "page",
+      "name": "Purchasing deferral lines"
+    },
+    {
+      "type": "page",
+      "name": "G/L deferral lines"
+    }
+  ],
+  "features": [
+    "Deferral templates",
+    "Calculation methods",
+    "Period descriptions",
+    "Deferral posting period control",
+    "Deferral data analysis"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00384,
+      "pages_in_call": 8
+    }
+  ]
+}

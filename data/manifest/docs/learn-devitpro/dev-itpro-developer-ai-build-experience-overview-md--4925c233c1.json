@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience-overview",
   "published_at": "2025-10-02T13:17:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1ea15fd119672794edcd64d547122f46de1677f1",
       "words": 418,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:49.374Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:49.386Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:49.387Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:49.387Z",
+      "page": false
     }
   },
   "input_hash": "1ea15fd119672794edcd64d547122f46de1677f1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ea15fd119672794edcd64d547122f46de1677f1"
+  "output_hash": "57c70886de1a2b200122edf27d69bd3c90bc25f80eacdea7780c970d8eac387f"
 }

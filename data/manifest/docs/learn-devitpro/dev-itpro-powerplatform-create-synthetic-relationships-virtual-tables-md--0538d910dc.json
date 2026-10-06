@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/create-synthetic-relationships-virtual-tables",
   "published_at": "2025-09-30T09:44:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "71d54e2d9c1feb667d3a533c04abbab30d87e107",
       "words": 546,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:49.382Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:51.139Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:51.140Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:51.141Z",
+      "page": false
     }
   },
   "input_hash": "71d54e2d9c1feb667d3a533c04abbab30d87e107",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71d54e2d9c1feb667d3a533c04abbab30d87e107"
+  "output_hash": "2f6b2b4149239ce868e060621bd40e6e6ec7a4303259e6afd408ab4626af011e"
 }

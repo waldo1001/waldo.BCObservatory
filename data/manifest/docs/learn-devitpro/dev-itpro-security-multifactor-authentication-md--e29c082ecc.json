@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/multifactor-authentication",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.00503
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:46.220Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:46.221Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:46.223Z",
+      "page": false
     }
   },
   "input_hash": "381f29e66691954cda8b6cc8fd7a1d4922317a6e",

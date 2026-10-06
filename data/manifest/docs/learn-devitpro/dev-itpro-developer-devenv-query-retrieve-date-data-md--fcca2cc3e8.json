@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-retrieve-date-data",
   "published_at": "2025-09-30T10:39:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8e2b24b61611c2f8222584dded3c4d02841d9b68",
       "words": 898,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:49.381Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:51.136Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:51.137Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:51.138Z",
+      "page": false
     }
   },
   "input_hash": "8e2b24b61611c2f8222584dded3c4d02841d9b68",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8e2b24b61611c2f8222584dded3c4d02841d9b68"
+  "output_hash": "5b6c20358ef4dc965b0ddb909dddf62877074fc51fe5185d23aa49ce1d541489"
 }

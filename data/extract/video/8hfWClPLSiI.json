@@ -1,0 +1,95 @@
+{
+  "video_id": "8hfWClPLSiI",
+  "item_id": "video/yt-microsoft/8hfWClPLSiI",
+  "title": "#BCTalent: Because talent is not bought - it's made",
+  "duration_s": 99,
+  "systems": [
+    "hr",
+    "development",
+    "crm"
+  ],
+  "topics": [
+    "talent development",
+    "community",
+    "training",
+    "learning",
+    "skill building",
+    "expertise"
+  ],
+  "chapters": [
+    {
+      "title": "Training and learning",
+      "t_start": 0,
+      "t_end": 30
+    },
+    {
+      "title": "Becoming an expert",
+      "t_start": 30,
+      "t_end": 60
+    },
+    {
+      "title": "Community and contribution",
+      "t_start": 60,
+      "t_end": 99
+    }
+  ],
+  "features": [
+    {
+      "name": "Talent development program",
+      "description": "A structured approach to developing talent through training, coaching, and community participation to build expertise in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 9.8,
+      "t_end": 99,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "development",
+        "community",
+        "training"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.4,
+      "text": "raise the bar to learn day by day step by step",
+      "why_it_matters": "Emphasizes incremental improvement as a core principle of talent development.",
+      "check": "exact"
+    },
+    {
+      "t": 48.9,
+      "text": "expert coached to get better skilled to be great together",
+      "why_it_matters": "Highlights that expertise is achieved through coaching and collaborative development.",
+      "check": "exact"
+    },
+    {
+      "t": 86.6,
+      "text": "because Talent is not bought it's made",
+      "why_it_matters": "States the core philosophy that talent development is built through effort and community engagement, not acquisition.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006243
+    }
+  ]
+}

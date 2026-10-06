@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-retrieve-date-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-retrieve-date-data",
+  "title": "Retrieving Date Data in Queries",
+  "blob": "8e2b24b61611c2f8222584dded3c4d02841d9b68",
+  "summary": "Retrieving Date Data in Queries explains how to use Day, Month, and Year methods in query columns to extract specific date components from Date and DateTime fields instead of full date values.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "queries",
+    "date methods",
+    "data retrieval",
+    "al development",
+    "datetime"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Sample Data Query"
+    }
+  ],
+  "features": [
+    "Day method",
+    "Month method",
+    "Year method",
+    "DateTime handling",
+    "UTC conversion"
+  ],
+  "versions": [
+    "version 26",
+    "version 27"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00384,
+      "pages_in_call": 8
+    }
+  ]
+}

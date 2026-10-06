@@ -1,0 +1,418 @@
+{
+  "video_id": "uan4dV9eVCA",
+  "item_id": "video/yt-microsoft/uan4dV9eVCA",
+  "title": "End To End Sustainability Tracking and Reporting for SMBs",
+  "duration_s": 1160,
+  "systems": [
+    "sustainability",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "carbon footprint",
+    "emissions tracking",
+    "scorecards",
+    "chart of accounts",
+    "sustainability journals",
+    "esg reporting",
+    "financial reporting tool",
+    "emission factors",
+    "three scopes",
+    "regulatory compliance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and goals",
+      "t_start": 0,
+      "t_end": 40.9
+    },
+    {
+      "title": "Solution overview and capabilities",
+      "t_start": 40.9,
+      "t_end": 99.8
+    },
+    {
+      "title": "Emission scopes and current features",
+      "t_start": 99.8,
+      "t_end": 170.6
+    },
+    {
+      "title": "Pricing and feature overview",
+      "t_start": 170.6,
+      "t_end": 252.8
+    },
+    {
+      "title": "Sustainability Role Center demo",
+      "t_start": 252.8,
+      "t_end": 380.8
+    },
+    {
+      "title": "Scorecards, goals, and chart of accounts",
+      "t_start": 380.8,
+      "t_end": 515.8
+    },
+    {
+      "title": "Emissions tracking configuration",
+      "t_start": 515.8,
+      "t_end": 633.3
+    },
+    {
+      "title": "Reports and financial reporting tool",
+      "t_start": 633.3,
+      "t_end": 805.1
+    },
+    {
+      "title": "Recording emissions via journals and invoices",
+      "t_start": 805.1,
+      "t_end": 962
+    },
+    {
+      "title": "ERP integration and posting",
+      "t_start": 962,
+      "t_end": 1049.2
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 1049.2,
+      "t_end": 1160
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability Role Center",
+      "description": "A dedicated role center designed for sustainability managers that brings together essential KPIs for ESG users, showing daily and monthly carbon footprint comparisons with previous periods and cumulative gas emissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.8,
+      "t_end": 352.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "kpis",
+        "esg",
+        "dashboard"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Chart of Accounts",
+      "description": "A structured framework to catalog and log emissions data organized by scope or other groupings with unique identifiers, descriptions, and attributes that can track net changes and balances for different greenhouse gases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 206.5,
+      "t_end": 474.2,
+      "is_demoed": true,
+      "caveats": [
+        "Demo data shown; users can customize with their own data"
+      ],
+      "tags": [
+        "chart of accounts",
+        "emissions",
+        "structure",
+        "scopes"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Three Emission Scopes Coverage",
+      "description": "The solution covers all three emission scopes with focus on reducing carbon footprint, tracks other greenhouse gases like methane and nitrous oxide, and includes carbon equivalent calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.8,
+      "t_end": 123.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "emissions",
+        "scopes",
+        "carbon",
+        "greenhouse gases"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water and Waste Management Features",
+      "description": "Future features to be introduced in next releases that will offer SMBs additional sustainability tools for tracking water and waste management alongside emissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.1,
+      "t_end": 136.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "water",
+        "waste",
+        "future",
+        "roadmap"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emissions Formulas",
+      "description": "System allows automatic calculation of emissions through formulas based on inputs like fuel consumption, distance traveled, kilowatt hours, or other metrics with ability for partners to add specialized formulas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.3,
+      "t_end": 569.8,
+      "is_demoed": true,
+      "caveats": [
+        "Partners can add specialized formulas"
+      ],
+      "tags": [
+        "formulas",
+        "calculation",
+        "automation",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Scorecards and Goal Tracking",
+      "description": "Allows users to set and track sustainability goals with baseline periods, reporting periods, and target values to assess progress toward reducing environmental impact with multiple scorecards where one is set as main goal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 335.9,
+      "t_end": 462.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "goals",
+        "scorecards",
+        "tracking",
+        "baseline"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Journal",
+      "description": "A dedicated journal for recording gas emissions manually or via formulas with pre-populated sustainability accounts, descriptions, and validation to prevent incomplete entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 849.9,
+      "t_end": 908.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "journal",
+        "emissions",
+        "manual entry",
+        "formulas"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emissions Recording via Purchase Invoices",
+      "description": "Allows recording emissions directly in purchase invoices by linking them to sustainability accounts, eliminating need to re-enter data into separate documents for financial and sustainability records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 908.6,
+      "t_end": 962,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoices",
+        "purchase",
+        "integration",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Financial Reporting Tool for ESG",
+      "description": "A no-code financial reporting tool built into Business Central that can combine sustainability data with financial and social data from different sources for custom ESG reporting, including metrics like emissions per dollar earned or carbon fees in profit calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 722,
+      "t_end": 837.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "no-code",
+        "financial",
+        "custom"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Built-in Emissions Reports",
+      "description": "Standard reports including total emissions report with scope comparisons, emissions by category report with charts and tables, and category details showing average emissions per category.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 633.3,
+      "t_end": 701.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "emissions",
+        "analysis",
+        "scope"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "ERP Integration for Sustainability",
+      "description": "Sustainability entries are integrated with complete ERP system allowing users to view and manage general ledger entries, vendor entries, tax entries alongside sustainability entries in a single view during posting preview.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 962,
+      "t_end": 1009.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "integration",
+        "erp",
+        "posting",
+        "entries"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Emission Factor Configuration",
+      "description": "Allows configuration of emission factors used in formulas based on category settings with ability to mark whether emissions are related to renewable energy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 605.6,
+      "t_end": 621.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "factors",
+        "configuration",
+        "renewable",
+        "formulas"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sustainability Chart of Accounts",
+      "t": 206.5
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Journal",
+      "t": 849.9
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Ledger",
+      "t": 236
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Role Center",
+      "t": 252.8
+    },
+    {
+      "type": "other",
+      "name": "Total Emission Report",
+      "t": 633.3
+    },
+    {
+      "type": "other",
+      "name": "Emission by Category Report",
+      "t": 659.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toich",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 99.8,
+      "text": "the core of Microsoft sustainability solution for smbs is its coverage of all three emission scopes with the focus of reducing carbon footprint",
+      "why_it_matters": "Establishes the primary scope and focus of the solution for SMBs",
+      "check": "exact"
+    },
+    {
+      "t": 123.1,
+      "text": "the next B we'll introduce water and waste management features offering smbs even much more sustainability tools",
+      "why_it_matters": "Indicates planned features beyond current carbon-focused capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 170.6,
+      "text": "for 70 per user per month you gain access to all sustainability features",
+      "why_it_matters": "Defines clear pricing model and value proposition for SMBs",
+      "check": "fuzzy"
+    },
+    {
+      "t": 206.5,
+      "text": "the sustainability chart of account provide a structure framework to cataloge and log emissions data by scope or other groupings",
+      "why_it_matters": "Describes the core tracking mechanism for organizing emissions data",
+      "check": "exact"
+    },
+    {
+      "t": 973.2,
+      "text": "if you preview the posting results you will see Erp standard information like general ledger entries vendor entries tax entries so on everything in",
+      "why_it_matters": "Shows how sustainability is integrated with standard ERP functions rather than isolated",
+      "check": "exact"
+    },
+    {
+      "t": 1049.2,
+      "text": "this solution is built on Microsoft cloud and it is a part of Microsoft cloud for sustainability for smbs it is embedded in theam",
+      "why_it_matters": "Confirms the solution is part of a larger Microsoft sustainability initiative and is production-ready",
+      "check": "exact"
+    },
+    {
+      "t": 1089.5,
+      "text": "regulation like csrd aren just for large Enterprises they also affects smbs with this tool Microsoft support businesses of all sizes in their sustainability",
+      "why_it_matters": "Establishes relevance to SMBs given regulatory requirements affecting smaller businesses",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 123.1,
+      "kind": "coming-later",
+      "text": "the next B we'll introduce water and waste management features offering smbs even much more sustainability tools"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0325565
+    }
+  ]
+}
