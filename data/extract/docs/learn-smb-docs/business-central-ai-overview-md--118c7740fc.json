@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ai-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ai-overview",
+  "title": "Marketing text suggestions with Copilot overview",
+  "blob": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e",
+  "summary": "Marketing text suggestions with Copilot overview explains how Copilot generates AI-powered product descriptions for items using Azure OpenAI Service, available on item cards and publishable to Shopify stores.",
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "copilot",
+    "marketing text",
+    "item cards",
+    "ai-powered writing",
+    "product descriptions",
+    "shopify"
+  ],
+  "objects": [],
+  "features": [
+    "Draft with Copilot action",
+    "Marketing text generation",
+    "Shopify publishing",
+    "Item cards",
+    "Azure OpenAI Service integration"
+  ],
+  "versions": [
+    "version 23.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008586,
+      "pages_in_call": 4
+    }
+  ]
+}

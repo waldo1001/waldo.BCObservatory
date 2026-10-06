@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-overview",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e",
       "words": 598,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:36:59.000Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008586
+    },
+    "summarized": {
+      "at": "2026-10-06T12:36:59.009Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:36:59.009Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:36:59.010Z",
+      "page": false
     }
   },
   "input_hash": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e"
+  "output_hash": "de1a0d330ab88cc815b8769c2d405a4c6de64ce4fed7d4c2b6020838491b033e"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ai-copilot-data-movement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
+  "title": "Data movement across geographies for Business Central Copilot and agent capabilities",
+  "blob": "531c6347d49d3dd1fbd3ddb2d37cf2e2ff1c93c9",
+  "summary": "Data movement across geographies for Business Central Copilot and agent capabilities explains how prompts and responses move between Azure regions when Azure OpenAI Service is in a different geography than the Business Central environment, and how to manage consent via the Allow data movement setting.",
+  "systems": [
+    "copilot",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "copilot",
+    "data residency",
+    "azure openai",
+    "data movement",
+    "geographic processing",
+    "privacy consent",
+    "eu data boundary"
+  ],
+  "objects": [],
+  "features": [
+    "Allow data movement setting",
+    "Azure OpenAI Service routing",
+    "Cross-geography data processing",
+    "EU Data Boundary compliance",
+    "Data residency commitments"
+  ],
+  "versions": [
+    "version 29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008586,
+      "pages_in_call": 4
+    }
+  ]
+}

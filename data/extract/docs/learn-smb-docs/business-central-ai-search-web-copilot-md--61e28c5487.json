@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ai-search-web-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ai-search-web-copilot",
+  "title": "Bing Search for Copilot features in Business Central (preview)",
+  "blob": "bb3b55e80f7a5c8b034ff041b6660d1b2808059c",
+  "summary": "Bing Search integration for Copilot capabilities in Business Central. Administrators control web search via the Enable Bing Search setting on the Copilot & agent capabilities page, which applies to Chat with Copilot and Autofill features starting in update 26.3 (sandbox) and 27.0 (production).",
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "bing search",
+    "copilot",
+    "web search",
+    "autofill",
+    "chat",
+    "security",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Enable Bing Search setting",
+    "Chat with Copilot legacy",
+    "Autofill with Copilot",
+    "Microsoft Copilot in Business Central"
+  ],
+  "versions": [
+    "update 26.3",
+    "update 27.0",
+    "version 29.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00772,
+      "pages_in_call": 4
+    }
+  ]
+}

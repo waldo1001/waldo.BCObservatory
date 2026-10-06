@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T12:32:01.074Z",
-  "finished_at": "2026-10-06T12:32:03.981Z",
+  "started_at": "2026-10-06T12:36:30.912Z",
+  "finished_at": "2026-10-06T12:36:59.687Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -31,7 +31,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 2179
+        "duration_ms": 1838
       },
       {
         "id": "learn-devitpro",
@@ -45,7 +45,7 @@
           "removed": 0
         },
         "note": "5893 pages at f928288ee840",
-        "duration_ms": 1990
+        "duration_ms": 2311
       }
     ],
     "totals": {
@@ -61,30 +61,47 @@
   },
   "plan": {
     "quotas": {
-      "captions": 40,
-      "video_extract": 25,
-      "docs": 60,
-      "posts": 40,
-      "guidelines": 20,
+      "captions": 8,
+      "video_extract": 8,
+      "docs": 8,
+      "posts": 8,
+      "guidelines": 8,
       "code_jobs": 1,
-      "hub_refresh": 15,
-      "opus_reviews": 10,
+      "hub_refresh": 8,
+      "opus_reviews": 8,
       "llm_calls_max": 450
     },
-    "work": 0,
-    "executed": 0,
+    "work": 8,
+    "executed": 8,
     "skips": 0,
-    "quota_use": {},
+    "quota_use": {
+      "docs": {
+        "selected": 8,
+        "available": 3385,
+        "limit": 8
+      }
+    },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 0,
+    "calls": 2,
     "cache_hits": 0,
     "failures": 0,
-    "by_model": {},
-    "cost_usd": 0,
-    "tokens_by_model": {},
-    "day_cost_usd": 0.254432
+    "by_model": {
+      "claude-haiku-4-5-20251001": 2
+    },
+    "cost_usd": 0.065224,
+    "tokens_by_model": {
+      "claude-haiku-4-5-20251001": {
+        "calls": 2,
+        "input": 6,
+        "output": 1780,
+        "cache_read": 0,
+        "cache_creation": 28159,
+        "cost_usd": 0.065224
+      }
+    },
+    "day_cost_usd": 0.319656
   },
   "spend": {
     "today_usd": 0.254432,
@@ -99,16 +116,23 @@
   "errors": [],
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-06T18:07:00.000Z",
-    "items_touched": 0,
-    "stages_run": {},
-    "advanced": 0,
+    "deadline": "2026-10-06T18:11:00.000Z",
+    "items_touched": 8,
+    "stages_run": {
+      "docs:extracted": 8,
+      "docs:summarized": 8,
+      "docs:linked": 8,
+      "docs:published": 8
+    },
+    "advanced": 32,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "quota_charged": {},
+    "quota_charged": {
+      "docs": 8
+    },
     "regards": [],
     "errors": []
   }

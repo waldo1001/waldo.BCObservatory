@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ai-in-bc.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ai-in-bc",
+  "title": "Business Central AI",
+  "blob": "8786b128b5983119a0c2378c846020d991fa77b4",
+  "summary": "Business Central AI provides an overview of Copilot and agent capabilities across finance, inventory, sales, and company setup, including chat, analysis assist, summarize, autofill, Payables Agent, Expense Agent, bank reconciliation assist, Sales Order Agent, and other AI-powered features.",
+  "systems": [
+    "copilot",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "copilot",
+    "agents",
+    "ai capabilities",
+    "marketing text",
+    "bank reconciliation",
+    "payables",
+    "sales orders",
+    "item suggestions"
+  ],
+  "objects": [],
+  "features": [
+    "Chat with Copilot",
+    "Analysis assist",
+    "Summarize",
+    "Autofill",
+    "Payables Agent",
+    "Expense Agent",
+    "E-document matching",
+    "Bank account reconciliation assist",
+    "Sales Order Agent",
+    "Marketing text suggestions",
+    "Item substitute suggestions",
+    "Sales line suggestions"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008586,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-troubleshooting",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c4c391a83a11307a38c543bf67db14ced1e3f29",
       "words": 286,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:36:58.998Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008586
+    },
+    "summarized": {
+      "at": "2026-10-06T12:36:59.006Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:36:59.007Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:36:59.007Z",
+      "page": false
     }
   },
   "input_hash": "9c4c391a83a11307a38c543bf67db14ced1e3f29",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c4c391a83a11307a38c543bf67db14ced1e3f29"
+  "output_hash": "05a19fb170887ed1c3616d8515a0f71d65474e979111b0cbe6294580a774ebe1"
 }

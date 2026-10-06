@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-assist",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "388b0953bc9611abab6589436ab81809f5eb23e4",
       "words": 1351,
       "forms": 24
+    },
+    "extracted": {
+      "at": "2026-10-06T12:36:59.002Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00772
+    },
+    "summarized": {
+      "at": "2026-10-06T12:36:59.011Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:36:59.012Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:36:59.012Z",
+      "page": false
     }
   },
   "input_hash": "388b0953bc9611abab6589436ab81809f5eb23e4",
@@ -156,5 +175,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "388b0953bc9611abab6589436ab81809f5eb23e4"
+  "output_hash": "24e65156caea628974e880128184d193918ae5549ff29ce1ac27c5b5330f7554"
 }
