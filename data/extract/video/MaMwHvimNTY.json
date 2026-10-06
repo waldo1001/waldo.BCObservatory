@@ -1,0 +1,409 @@
+{
+  "video_id": "MaMwHvimNTY",
+  "item_id": "video/yt-microsoft/MaMwHvimNTY",
+  "title": "What's New: Water and Waste Management (2025 release wave 1)",
+  "duration_s": 562,
+  "systems": [
+    "sustainability",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "water management",
+    "waste management",
+    "sustainability ledger",
+    "emissions tracking",
+    "csrd compliance",
+    "responsibility centers",
+    "intensity factors",
+    "sustainability goals",
+    "water types",
+    "waste tracking"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to sustainability expansion",
+      "t_start": 0,
+      "t_end": 42.2
+    },
+    {
+      "title": "Water management setup and configuration",
+      "t_start": 42.2,
+      "t_end": 105.8
+    },
+    {
+      "title": "Responsibility centers and facility tracking",
+      "t_start": 105.8,
+      "t_end": 175.2
+    },
+    {
+      "title": "Waste management scope and intensity",
+      "t_start": 175.2,
+      "t_end": 237.8
+    },
+    {
+      "title": "Water and waste intensity types and enums",
+      "t_start": 237.8,
+      "t_end": 293.5
+    },
+    {
+      "title": "Setting up accounts, categories, and subcategories",
+      "t_start": 293.5,
+      "t_end": 413.8
+    },
+    {
+      "title": "Journal entries and posting water and waste data",
+      "t_start": 413.8,
+      "t_end": 492.6
+    },
+    {
+      "title": "Sustainability goals and targets for water and waste",
+      "t_start": 492.6,
+      "t_end": 562
+    }
+  ],
+  "features": [
+    {
+      "name": "Water management setup",
+      "description": "New capability to track water metrics through sustainability accounts with options for water intensity or discharge into water, configurable through category and subcategory setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.9,
+      "t_end": 105.8,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration is optional, not mandatory",
+        "Formulas and factors are optional"
+      ],
+      "tags": [
+        "water intensity",
+        "discharge tracking",
+        "sustainability",
+        "new in 2025"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water intensity factor",
+      "description": "Similar to emission factors, allows custom formula configuration for water intensity tracking with configurable subcategories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.3,
+      "t_end": 105.8,
+      "is_demoed": true,
+      "caveats": [
+        "Optional configuration",
+        "Only with custom formula selection"
+      ],
+      "tags": [
+        "water tracking",
+        "formulas",
+        "factors"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Discharge into water factor",
+      "description": "New factor type for tracking water discharge with custom formula support alongside water intensity tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.4,
+      "t_end": 105.8,
+      "is_demoed": true,
+      "caveats": [
+        "Optional configuration"
+      ],
+      "tags": [
+        "water discharge",
+        "tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Responsibility centers as facilities",
+      "description": "Extended responsibility centers to function as facility designations for water and waste tracking with water capacity dimensions, enabling facility-level reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105.8,
+      "t_end": 175.2,
+      "is_demoed": true,
+      "caveats": [
+        "Setup is optional, not mandatory",
+        "Only needed for facility-based reporting requirements"
+      ],
+      "tags": [
+        "responsibility centers",
+        "facilities",
+        "capacity tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water capacity dimensions",
+      "description": "New sustainability fast tab on responsibility centers for tracking water capacity with configurable capacity unit and quantity fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.6,
+      "t_end": 175.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires standard unit of measure configuration"
+      ],
+      "tags": [
+        "water capacity",
+        "facilities"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Waste management scope",
+      "description": "New water and waste scope added alongside scope one, two, and three for emissions, enabling waste intensity tracking with optional factor configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.3,
+      "t_end": 216.5,
+      "is_demoed": true,
+      "caveats": [
+        "Waste intensity setup is optional"
+      ],
+      "tags": [
+        "waste tracking",
+        "scope",
+        "intensity"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Waste intensity factor",
+      "description": "Similar to water intensity, allows custom formulas for waste tracking with optional factor configuration in subcategories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 216.5,
+      "t_end": 237.8,
+      "is_demoed": true,
+      "caveats": [
+        "Optional configuration",
+        "Custom formula required for factor usage"
+      ],
+      "tags": [
+        "waste intensity",
+        "formulas"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water intensity type enum",
+      "description": "Extensible enum for water posting with options: withdrawn, discharge, consume, recycled. Can be extended for custom intensity types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.8,
+      "t_end": 266.7,
+      "is_demoed": true,
+      "caveats": [
+        "Must select one intensity type",
+        "Enum is extensible"
+      ],
+      "tags": [
+        "water types",
+        "enums",
+        "extensible"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Waste intensity type enum",
+      "description": "Extensible enum for waste posting with options: generated, disposed, recovered. Can be extended for custom waste types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.8,
+      "t_end": 266.7,
+      "is_demoed": true,
+      "caveats": [
+        "Must select one intensity type",
+        "Enum is extensible"
+      ],
+      "tags": [
+        "waste types",
+        "enums",
+        "extensible"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water type enum",
+      "description": "Extensible enum for water source tracking with options: surface water, sea water, groundwater, third party water, produced water.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.6,
+      "t_end": 293.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to water intensity type postings",
+        "Enum is extensible"
+      ],
+      "tags": [
+        "water source types",
+        "enums",
+        "extensible"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water and waste journal entries",
+      "description": "Sustainability journal entries for water and waste with required intensity type selection and water type selection for water postings, currently limited to sustainability journal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 413.8,
+      "t_end": 492.6,
+      "is_demoed": true,
+      "caveats": [
+        "Water and waste intensity can only track through sustainability journal",
+        "Cannot be posted via general journal or purchase documents like emissions"
+      ],
+      "tags": [
+        "journal entries",
+        "sustainability journal",
+        "posting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability goals for water and waste",
+      "description": "Water and waste intensity tracking in sustainability goals as targets and baselines, allowing forecast tracking against baseline from previous periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 512.8,
+      "t_end": 538.1,
+      "is_demoed": false,
+      "caveats": [
+        "Same functionality as emissions goals and scorecards"
+      ],
+      "tags": [
+        "goals",
+        "targets",
+        "baseline",
+        "forecasting"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "chart of sustainability account",
+      "t": 314
+    },
+    {
+      "type": "other",
+      "name": "sustainability account",
+      "t": 52.9
+    },
+    {
+      "type": "other",
+      "name": "sustainability ledger entry",
+      "t": 266.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.4,
+      "text": "But now with this wave we extend the functionality to water and waste management.",
+      "why_it_matters": "Clearly states this is new functionality in the 2025 release wave 1 extending sustainability beyond emissions.",
+      "check": "exact"
+    },
+    {
+      "t": 42.2,
+      "text": "We did it before because it was required by CSRD and some other rules. So we want to cover all requirements related to uh",
+      "why_it_matters": "Explains the business driver for water and waste management as CSRD compliance requirement.",
+      "check": "exact"
+    },
+    {
+      "t": 119.2,
+      "text": "So we extend a little bit responsibility centers as we can treat responsibility centers as facility. This is not mandatory.",
+      "why_it_matters": "Clarifies that responsibility center setup for facilities is optional, not required for basic water tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 203.2,
+      "text": "You have three different uh scope one, scope two, scope three, autoscope emissions and plus now we have water and waste scope.",
+      "why_it_matters": "Shows water and waste scope is a new addition to existing emission scopes in the 2025 release.",
+      "check": "exact"
+    },
+    {
+      "t": 227.4,
+      "text": "So if you do not have factors both for waste and water you can enter your total uh intensity in your journal and that's",
+      "why_it_matters": "Clarifies that formulas and factors are optional - users can enter total values without configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 293.5,
+      "text": "Both of these uh options are enums so you can extend if you have additional option to track okay.",
+      "why_it_matters": "Indicates that water/waste intensity types and water types are extensible enums for customization.",
+      "check": "exact"
+    },
+    {
+      "t": 492.6,
+      "text": "What is difference with emissions? You can track emissions with sustainability journal with general journal from this wave and purchase document but water and",
+      "why_it_matters": "Important limitation: water and waste tracking is limited to sustainability journal, unlike emissions which support multiple journal types.",
+      "check": "exact"
+    },
+    {
+      "t": 525.8,
+      "text": "Baseline is uh based on your previous period you want to track.",
+      "why_it_matters": "Explains how baseline works in sustainability goals for water and waste tracking.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 538.1,
+      "kind": "other",
+      "text": "for this wave we have eight different session related to sustainability"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026893999999999998
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-cost-adjustment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment",
+  "title": "Design details - Cost adjustment",
+  "blob": "561070a2c604ed5bc885cd9236999c1bb843bac7",
+  "summary": "Mechanism for detecting and processing cost adjustments from cost sources to recipients based on costing method, updating COGS and inventory valuation. Use this to understand cost adjustment timing and automatic versus manual processing.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "cost adjustment",
+    "cogs",
+    "inventory valuation",
+    "costing method",
+    "value entries"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Application Entry"
+    },
+    {
+      "type": "table",
+      "name": "Avg. Cost Adjmt. Entry Point"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "Automatic Cost Adjustment",
+    "Adjust Cost - Item Entries batch job",
+    "Cost detection mechanisms",
+    "Manual cost adjustment",
+    "Post Inventory Cost to G/L batch job"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00646,
+      "pages_in_call": 8
+    }
+  ]
+}

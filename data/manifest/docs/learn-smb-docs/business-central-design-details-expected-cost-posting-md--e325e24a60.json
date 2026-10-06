@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-expected-cost-posting",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "297ecc8207e41b0d2dae6348a8611700a0f809d1",
       "words": 584,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.229Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:31.937Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:31.938Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:31.938Z",
+      "page": false
     }
   },
   "input_hash": "297ecc8207e41b0d2dae6348a8611700a0f809d1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "297ecc8207e41b0d2dae6348a8611700a0f809d1"
+  "output_hash": "2d3d819709e9113d1a8de56f8526834c86dbb0738b4109bc13bfc55556fc51c5"
 }

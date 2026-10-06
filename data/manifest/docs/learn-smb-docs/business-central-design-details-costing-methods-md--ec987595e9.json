@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-costing-methods",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1f78a318e2f45d1d791e008d1509e8a456ef2fa3",
       "words": 1640,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.228Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:31.934Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:31.935Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:31.936Z",
+      "page": false
     }
   },
   "input_hash": "1f78a318e2f45d1d791e008d1509e8a456ef2fa3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1f78a318e2f45d1d791e008d1509e8a456ef2fa3"
+  "output_hash": "dfb4dc14280da7e2f368b1473b2ee44a4c1440a877278f9d4ad2ffa1eaa842ef"
 }

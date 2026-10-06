@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-specify-posting-periods",
   "published_at": "2026-03-18T14:28:46.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 3,
       "cost_usd": 0.003619
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:27.309Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:27.310Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:27.311Z",
+      "page": false
     }
   },
   "input_hash": "efd64e2a76d0fba452183fd66be9076cac6dbda6",

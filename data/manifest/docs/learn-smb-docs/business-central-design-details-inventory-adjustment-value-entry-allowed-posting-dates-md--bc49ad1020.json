@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-allowed-posting-dates",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "20d463dff7f9d55cb7cefb2097e578105c8fb9f9",
       "words": 269,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.231Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:31.942Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:31.943Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:31.944Z",
+      "page": false
     }
   },
   "input_hash": "20d463dff7f9d55cb7cefb2097e578105c8fb9f9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20d463dff7f9d55cb7cefb2097e578105c8fb9f9"
+  "output_hash": "7e142027c98698cd70d1e5d46e1fae285f1c3e5fd78a50a14e50d4b2995049ab"
 }

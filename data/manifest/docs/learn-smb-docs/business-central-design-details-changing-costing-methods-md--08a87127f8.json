@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-changing-costing-methods",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3528b81f8c620806637c656beb5c4f8d9c766fe4",
       "words": 2099,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.225Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:30.235Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:30.236Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:30.237Z",
+      "page": false
     }
   },
   "input_hash": "3528b81f8c620806637c656beb5c4f8d9c766fe4",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3528b81f8c620806637c656beb5c4f8d9c766fe4"
+  "output_hash": "fa8c33f9ffefd335d09cd3471d6f0fa6db683d64929961ba0dc13a8b48589b7d"
 }

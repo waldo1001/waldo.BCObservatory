@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-cost-components",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "96367b61d575e5e8fa2212800d065fd17ce1ad91",
       "words": 317,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.227Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:31.932Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:31.932Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:31.933Z",
+      "page": false
     }
   },
   "input_hash": "96367b61d575e5e8fa2212800d065fd17ce1ad91",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96367b61d575e5e8fa2212800d065fd17ce1ad91"
+  "output_hash": "44206bc10d96310eadc4d503e28968eea5ceb15e46da8482e580b4748c688957"
 }

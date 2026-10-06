@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-expected-cost-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-expected-cost-posting",
+  "title": "Design details - Expected cost posting",
+  "blob": "297ecc8207e41b0d2dae6348a8611700a0f809d1",
+  "summary": "Expected cost posting to inventory and general ledger for received items not yet invoiced, using interim accounts until full invoicing. Use this to manage expected cost accounting during receipt-to-invoice cycles.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "expected cost",
+    "interim account",
+    "cost posting",
+    "inventory receipt"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase & Payables Setup"
+    }
+  ],
+  "features": [
+    "Automatic Cost Posting",
+    "Expected Cost Posting to G/L",
+    "Interim accounts",
+    "Inventory Account",
+    "Inventory Account (Interim)",
+    "Invt. Accrual Acc. (Interim)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00646,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "561070a2c604ed5bc885cd9236999c1bb843bac7",
       "words": 1600,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.226Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:31.928Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:31.930Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:31.931Z",
+      "page": false
     }
   },
   "input_hash": "561070a2c604ed5bc885cd9236999c1bb843bac7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "561070a2c604ed5bc885cd9236999c1bb843bac7"
+  "output_hash": "839a88259a43f2edd316620a81800dd28c2c2b0536ef5a02b86c3f19cbfb09e1"
 }

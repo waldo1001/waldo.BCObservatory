@@ -1,0 +1,27 @@
+{
+  "video_id": "MaMwHvimNTY",
+  "item_id": "video/yt-microsoft/MaMwHvimNTY",
+  "summary": "Water and waste management in Business Central sustainability (2025 release wave 1): new water and waste scope, intensity types, water type enums, responsibility centers as facilities, sustainability journal posting, and goals. Demoed setup is optional, and posting is limited to the sustainability journal.",
+  "overview": "The video extends Business Central sustainability beyond emissions to water and waste management. The presenter says this covers requirements such as CSRD. It walks through setup of accounts, categories and subcategories, optional intensity and discharge factors with custom formulas, and a new water and waste scope next to scope one, two and three.\n\nIt then shows responsibility centers used as facilities with water capacity fields, extensible enums for intensity types and water types, posting through the sustainability journal, and use of water and waste intensity in sustainability goals with baselines from previous periods.",
+  "key_points": [
+    "A new water and waste scope sits alongside scope one, two and three for emissions.",
+    "Water and waste factors and formulas are optional. Without factors, you can enter the total intensity in the journal.",
+    "Responsibility centers can be treated as facilities. This is optional and only needed for facility-based reporting. A new sustainability fast tab holds water capacity unit and quantity, and needs a standard unit of measure.",
+    "Water intensity type options are withdrawn, discharge, consume and recycled. Waste options are generated, disposed and recovered. One must be selected, and both enums are extensible.",
+    "Water type options are surface water, sea water, groundwater, third party water and produced water. They apply only to water intensity postings.",
+    "Water and waste data can be posted only through the sustainability journal. Unlike emissions, they cannot be posted through the general journal or purchase documents.",
+    "Sustainability goals support water and waste intensity as targets and baselines, with the baseline based on a previous period."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "deed59304699aaca05066f8a240f7210e05f03ea961fb3d177aa59daec52d157",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017526399999999998
+  }
+}

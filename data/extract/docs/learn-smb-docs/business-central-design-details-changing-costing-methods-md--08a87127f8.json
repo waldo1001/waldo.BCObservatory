@@ -1,0 +1,87 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-changing-costing-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-changing-costing-methods",
+  "title": "Design details - Changing costing methods for items",
+  "blob": "3528b81f8c620806637c656beb5c4f8d9c766fe4",
+  "summary": "Process for changing costing methods on items after transactions, using assembly orders to transfer inventory while preserving costs. Use this guide to convert items from one costing method to another.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "costing method",
+    "assembly order",
+    "inventory conversion",
+    "item setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Physical Invt. Journals"
+    },
+    {
+      "type": "page",
+      "name": "Whse. Phys. Invt. Journals"
+    },
+    {
+      "type": "page",
+      "name": "Stock-keeping Unit"
+    },
+    {
+      "type": "page",
+      "name": "Item Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Sales Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Standard Journals"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Production BOMs"
+    }
+  ],
+  "features": [
+    "Default Costing Method",
+    "Copy Item action",
+    "Create Stockkeeping Unit",
+    "Item substitutions",
+    "Bin contents",
+    "Blocked toggle",
+    "Standard Cost"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00646,
+      "pages_in_call": 8
+    }
+  ]
+}

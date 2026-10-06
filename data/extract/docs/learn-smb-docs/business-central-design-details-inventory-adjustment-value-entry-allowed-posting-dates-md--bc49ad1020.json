@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-inventory-adjustment-value-entry-allowed-posting-dates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-allowed-posting-dates",
+  "title": "Error message \"Posting Date is not within your range of allowed posting dates\"",
+  "blob": "20d463dff7f9d55cb7cefb2097e578105c8fb9f9",
+  "summary": "Error resolution for posting date restrictions when running cost adjustment batch jobs, caused by user posting date setup or inventory period constraints. Use this to troubleshoot posting date range errors.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "posting date",
+    "cost adjustment",
+    "error resolution",
+    "user setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Period"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Allow Posting From date",
+    "Allow Posting To date",
+    "Inventory periods",
+    "Adjust Cost - Item Entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00646,
+      "pages_in_call": 8
+    }
+  ]
+}

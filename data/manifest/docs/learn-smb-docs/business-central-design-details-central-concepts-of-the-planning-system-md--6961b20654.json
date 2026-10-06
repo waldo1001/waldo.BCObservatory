@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-central-concepts-of-the-planning-system",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f71f60e304613944dcaca965a3343ff40c593ea",
       "words": 3950,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:30.224Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.00646
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:30.232Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:30.233Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:30.234Z",
+      "page": false
     }
   },
   "input_hash": "9f71f60e304613944dcaca965a3343ff40c593ea",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f71f60e304613944dcaca965a3343ff40c593ea"
+  "output_hash": "a6ed38c20360e188f35ef7103f7f37746fe37be3204919d2fd34a7bd0f71eb3e"
 }

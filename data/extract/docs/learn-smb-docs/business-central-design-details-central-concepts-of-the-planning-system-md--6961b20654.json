@@ -1,0 +1,91 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-central-concepts-of-the-planning-system.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-central-concepts-of-the-planning-system",
+  "title": "Design details - central concepts of the planning system",
+  "blob": "9f71f60e304613944dcaca965a3343ff40c593ea",
+  "summary": "Central concepts of the planning system including demand-driven planning, planning parameters, dynamic order tracking, sequencing by low-level code, and warnings. Use this to understand how the planning system balances supply and demand for items across locations.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "planning system",
+    "supply-demand",
+    "lot-level code",
+    "order tracking",
+    "reordering",
+    "planning parameters"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MRP and MPS"
+    },
+    {
+      "type": "codeunit",
+      "name": "Calculate Net Change Plan"
+    },
+    {
+      "type": "codeunit",
+      "name": "Calculate Regenerative Plan"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "table",
+      "name": "Action Message Entry"
+    },
+    {
+      "type": "table",
+      "name": "Avg. Cost Adjmt. Entry Point"
+    },
+    {
+      "type": "page",
+      "name": "Untracked Planning Elements"
+    },
+    {
+      "type": "page",
+      "name": "Planning Error Log"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Code Card"
+    }
+  ],
+  "features": [
+    "Dynamic low-level code calculation",
+    "Optimize low-level code calculation",
+    "Planning flexibility",
+    "Finite loading",
+    "Emergency warnings",
+    "Exception warnings",
+    "Attention warnings",
+    "Dynamic order tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00646,
+      "pages_in_call": 8
+    }
+  ]
+}

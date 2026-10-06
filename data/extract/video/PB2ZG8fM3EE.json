@@ -1,0 +1,340 @@
+{
+  "video_id": "PB2ZG8fM3EE",
+  "item_id": "video/yt-microsoft/PB2ZG8fM3EE",
+  "title": "What's New: Autofill Fields with Copilot (2025 release wave 1)",
+  "duration_s": 568,
+  "systems": [
+    "copilot",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "copilot autofill",
+    "field suggestions",
+    "keyboard shortcuts",
+    "web search",
+    "data entry",
+    "ai suggestions",
+    "custom fields",
+    "customer records",
+    "fixed assets",
+    "validation logic"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot autofill feature",
+      "t_start": 0,
+      "t_end": 36.8
+    },
+    {
+      "title": "Creating a customer record with autofill suggestions",
+      "t_start": 36.8,
+      "t_end": 108.2
+    },
+    {
+      "title": "Understanding suggestion mechanisms and user control",
+      "t_start": 108.2,
+      "t_end": 199.8
+    },
+    {
+      "title": "Web search for public information",
+      "t_start": 199.8,
+      "t_end": 266.1
+    },
+    {
+      "title": "Business Central validation and field logic overrides",
+      "t_start": 266.1,
+      "t_end": 297
+    },
+    {
+      "title": "Creating a fixed asset with keyboard shortcuts",
+      "t_start": 297,
+      "t_end": 408.2
+    },
+    {
+      "title": "AI-powered suggestions and reminder workflow",
+      "t_start": 408.2,
+      "t_end": 475.3
+    },
+    {
+      "title": "Feature availability and extensibility",
+      "t_start": 475.3,
+      "t_end": 536.3
+    },
+    {
+      "title": "Call to action and closing",
+      "t_start": 536.3,
+      "t_end": 568
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot autofill for card and document pages",
+      "description": "Copilot suggests values for blank fields in cards and document pages, allowing users to avoid manual lookups and data entry. It provides visually distinct suggestions within fast tabs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.6,
+      "t_end": 108.2,
+      "is_demoed": true,
+      "caveats": [
+        "Suggestions are not automatically saved; user must explicitly choose to keep them",
+        "Business Central field validation and AL-based logic overrides Copilot suggestions"
+      ],
+      "tags": [
+        "autofill",
+        "suggestions",
+        "user-controlled",
+        "data-entry"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Most recently used and most frequently used selection",
+      "description": "Copilot suggests values based on what was most recently or most frequently used in the company, helping users avoid redundant lookups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.9,
+      "t_end": 187.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "suggestion-mechanism",
+        "frequency-based",
+        "recently-used"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Intelligent lookup selection from predefined choices",
+      "description": "Copilot intelligently selects values from lookup and option fields based on context of other fields in the record, such as selecting the responsibility center closest to a customer's country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.1,
+      "t_end": 187.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "intelligent-selection",
+        "context-aware",
+        "lookups"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Web search for public information",
+      "description": "Copilot can search the web powered by Bing to fill in public information like customer addresses, phone numbers, and email addresses without requiring manual browsing.",
+      "status": "announced",
+      "status_evidence_t": 503.4,
+      "status_evidence_quote": "but do note that the ability to search the web will be available later during the wave",
+      "status_evidence_verified": true,
+      "t_start": 199.8,
+      "t_end": 250.2,
+      "is_demoed": true,
+      "caveats": [
+        "Web search capability will be available later during the wave, not in initial update 26 release"
+      ],
+      "tags": [
+        "web-search",
+        "bing",
+        "public-data",
+        "customer-info"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Keyboard shortcut for autofill (Alt+I)",
+      "description": "Users can press Alt+I to ask Copilot to fill out a field and related fields within a fast tab. The feature integrates with Business Central's keyboard navigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 319.4,
+      "t_end": 356.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "keyboard-shortcut",
+        "alt-i",
+        "efficiency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Quick entry integration with Copilot",
+      "description": "Copilot autofill works seamlessly with quick entry feature. Users can press Enter to accept suggestions and move to the next field, similar to existing quick entry behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356.9,
+      "t_end": 394.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quick-entry",
+        "keyboard-navigation",
+        "efficiency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot suggestion explanation tooltips",
+      "description": "When Copilot provides a suggestion, users can click an info icon to see why the suggestion was made, such as for proper formatting or frequency analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.4,
+      "t_end": 129.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transparency",
+        "explanation",
+        "user-understanding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI foundational model suggestions",
+      "description": "When other mechanisms like recent/frequent use or lookups do not apply, Copilot uses its foundational AI training to generate contextual suggestions, such as suggesting a five-year depreciation life for inkjet printers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 408.2,
+      "t_end": 475.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai-powered",
+        "foundational-model",
+        "contextual"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Unsaved suggestion reminder",
+      "description": "When leaving a page with unapplied Copilot suggestions, Business Central reminds the user of suggestions not yet reviewed, allowing explicit choice to keep or discard.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 460.3,
+      "t_end": 491.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user-notification",
+        "workflow",
+        "explicit-control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot support for custom fields and pages",
+      "description": "Copilot autofill works with custom fields and custom pages without requiring developers or partners to write extensibility code or modifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 518.2,
+      "t_end": 536.3,
+      "is_demoed": false,
+      "caveats": [
+        "Developers can read documentation to understand how to influence and improve Copilot output for custom fields"
+      ],
+      "tags": [
+        "custom-fields",
+        "custom-pages",
+        "extensibility",
+        "no-code"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 36.8
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset",
+      "t": 297
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.6,
+      "text": "Copilot is your AI companion for work and it can now suggest values for blank fields in all of your cards and document pages",
+      "why_it_matters": "Defines the core scope of the autofill feature across Business Central interface.",
+      "check": "exact"
+    },
+    {
+      "t": 108.2,
+      "text": "when Copilot provides suggestions, those suggestions are not automatically saved to Business Central, Copilot gives me those suggestions. So I can choose what to",
+      "why_it_matters": "Critical design principle establishing user control and explicit action required for data persistence.",
+      "check": "exact"
+    },
+    {
+      "t": 266.1,
+      "text": "it may trigger setting values for other fields where copilot already has a suggestion and in that",
+      "why_it_matters": "Establishes that Business Central's native validation and business rules have precedence over Copilot suggestions.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 503.4,
+      "text": "if you upgrade to update 26 of Business Central, you get to try out this feature yourselves. Um, and you can do that on",
+      "why_it_matters": "Confirms general availability in update 26 across all environments and languages.",
+      "check": "exact"
+    },
+    {
+      "t": 503.4,
+      "text": "but do note that the ability to search the web will be available later during the wave",
+      "why_it_matters": "Indicates web search capability is announced for later release, not available in initial update 26.",
+      "check": "exact"
+    },
+    {
+      "t": 518.2,
+      "text": "Copilot is actually ready to work also with your custom fields and your custom pages as well. Um and if you're a developer watching",
+      "why_it_matters": "Explains that custom field support requires no developer coding, lowering adoption barriers.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 503.4,
+      "kind": "subject-to-change",
+      "text": "the ability to search the web will be available later during the wave"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027653999999999998
+    }
+  ]
+}
