@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/08/10/how-can-i-move-my-business-central-related-azure-resources-to-a-new-azure-region/",
   "published_at": "2026-08-10T12:25:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:11.063Z",
+      "path": "vault:posts/demiliani-com/14064.md",
+      "words": 3849
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:23.591Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.020095
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:23.592Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:23.593Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:43:23.596Z",
+      "path": "content/posts/demiliani-com/14064.md"
     }
   },
   "input_hash": "2026-08-10T12:37:52.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7eb98e1d2322c0ff799f529ef33f43e6f2056da9008201712b3a4800a695591b"
 }

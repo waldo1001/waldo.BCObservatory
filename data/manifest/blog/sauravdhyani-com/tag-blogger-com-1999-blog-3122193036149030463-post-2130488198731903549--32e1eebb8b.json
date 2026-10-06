@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/08/ai-part1-what-is-github-copilot-in.html",
   "published_at": "2026-08-13T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:02.590Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b.md",
+      "words": 570
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:10.442Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.006069
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:10.443Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:10.444Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:43:10.446Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b.md"
     }
   },
   "input_hash": "2026-08-13T05:30:00.170Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a57ff459bdea69b5b033ea771b1fa63ff0f6f68f2ee022072f01085f486b128"
 }

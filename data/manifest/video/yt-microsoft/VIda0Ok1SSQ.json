@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "Control Deferral Posting",
   "url": "https://www.youtube.com/watch?v=VIda0Ok1SSQ",
-  "published_at": null,
+  "published_at": "2023-12-06T14:28:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:42:59.932Z",
+      "captions": "auto:en-orig",
+      "duration_s": 111
+    },
+    "captioned": {
+      "at": "2026-10-06T21:43:07.541Z",
+      "path": "data/captions/microsoft/VIda0Ok1SSQ.vtt",
+      "vtt_sha256": "0741cd76bcfa0d64ad537f7d889ce899c5e8291f8963013e65e252b51a957018",
+      "segments": 10,
+      "words": 283,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:20.892Z",
+      "path": "data/extract/video/VIda0Ok1SSQ.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.010609
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:26.564Z",
+      "path": "data/summary/video/VIda0Ok1SSQ.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0102784
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:26.566Z",
+      "systems": [
+        "finance"
+      ],
+      "topics": 6,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:43:26.576Z",
+      "path": "content/videos/VIda0Ok1SSQ.md"
     }
   },
   "input_hash": null,
@@ -19,7 +65,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 497,
-    "duration_s": 112,
-    "via": "reconcile"
-  }
+    "duration_s": 111,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee7a4bcb038916e8e6bb1e87e3bb484df83db3410301adbc967e952c30424cad"
 }

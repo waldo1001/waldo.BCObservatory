@@ -1,0 +1,174 @@
+{
+  "video_id": "gvIGhtqADS0",
+  "item_id": "video/yt-microsoft/gvIGhtqADS0",
+  "title": "Conversational Chat using Copilot in Dynamics 365 Business Central ( 2024 release wave 1)",
+  "duration_s": 105,
+  "systems": [
+    "copilot",
+    "reporting"
+  ],
+  "topics": [
+    "conversational ai",
+    "natural language",
+    "virtual assistant",
+    "data discovery",
+    "user experience",
+    "employee training"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot as AI Companion",
+      "t_start": 0,
+      "t_end": 18.4
+    },
+    {
+      "title": "Natural Language Data Interaction",
+      "t_start": 18.4,
+      "t_end": 38.4
+    },
+    {
+      "title": "Follow-up Questions and Refinement",
+      "t_start": 38.4,
+      "t_end": 51.9
+    },
+    {
+      "title": "Virtual Assistant for Complex Searches",
+      "t_start": 51.9,
+      "t_end": 62.4
+    },
+    {
+      "title": "Learning and Skill Development",
+      "t_start": 62.4,
+      "t_end": 82.4
+    },
+    {
+      "title": "Benefits and Future Readiness",
+      "t_start": 82.4,
+      "t_end": 105
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Conversational Chat",
+      "description": "AI-powered conversational interface allowing Business Central users to interact with their data using natural language instead of traditional menu navigation to locate records and find answers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.7,
+      "t_end": 38.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "conversational",
+        "natural-language",
+        "data-discovery"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Follow-up Questions and Clarification",
+      "description": "Ability to ask follow-up questions to clarify and refine searches when initial results do not match user expectations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.4,
+      "t_end": 51.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "follow-up",
+        "refinement",
+        "search"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Virtual Assistant for Complex Queries",
+      "description": "Copilot acts as a virtual assistant helping users track down the right information by answering questions on how, when, or why to do things using natural language.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.9,
+      "t_end": 62.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "virtual-assistant",
+        "complex-searches",
+        "help"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Learning and Onboarding Support",
+      "description": "Copilot helps new users get up to speed quickly and enables longtime employees to learn new skills by providing answers to how to do things.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.4,
+      "t_end": 82.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "learning",
+        "onboarding",
+        "training"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 18.4,
+      "text": "co-pilot is your everyday AI companion for work built on Microsoft's industry leading privacy and security",
+      "why_it_matters": "Establishes Copilot's positioning as a trusted AI tool with strong privacy and security foundations.",
+      "check": "exact"
+    },
+    {
+      "t": 18.4,
+      "text": "Business Central users are empowered to interact with their data using their own words",
+      "why_it_matters": "Core capability that enables natural language interaction instead of traditional UI navigation.",
+      "check": "exact"
+    },
+    {
+      "t": 51.9,
+      "text": "co-pilot X as a virtual assistant helping you track down the right information at the right time all using natural language",
+      "why_it_matters": "Describes Copilot's function as an intelligent assistant for information discovery.",
+      "check": "exact"
+    },
+    {
+      "t": 62.4,
+      "text": "new users can get up to speed quickly and longtime employees can learn new skills",
+      "why_it_matters": "Highlights the value for both novice and experienced users in learning and productivity.",
+      "check": "exact"
+    },
+    {
+      "t": 82.4,
+      "text": "co-pilot helps you reclaim time so you can work work smarter adapt faster and perform better",
+      "why_it_matters": "Summarizes key benefits of Copilot: time savings and improved work efficiency.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010974000000000001
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "video_id": "VIda0Ok1SSQ",
+  "item_id": "video/yt-microsoft/VIda0Ok1SSQ",
+  "title": "Control Deferral Posting",
+  "duration_s": 110,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "deferral templates",
+    "deferral posting",
+    "general ledger setup",
+    "user permissions",
+    "income deferrals",
+    "expense deferrals"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Deferral Control",
+      "t_start": 0,
+      "t_end": 16.1
+    },
+    {
+      "title": "Understanding Deferrals",
+      "t_start": 16.1,
+      "t_end": 32.6
+    },
+    {
+      "title": "Deferral Template Example",
+      "t_start": 32.6,
+      "t_end": 53.5
+    },
+    {
+      "title": "General Ledger Setup Controls",
+      "t_start": 53.5,
+      "t_end": 76.4
+    },
+    {
+      "title": "User-Level Deferral Permissions",
+      "t_start": 76.4,
+      "t_end": 110
+    }
+  ],
+  "features": [
+    {
+      "name": "Deferral Posting Controls",
+      "description": "Ability to control when and by whom deferred income and expenses can be posted to the general ledger. Company-wide rules can be set up via general ledger setup to define the window for when deferral postings are allowed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.5,
+      "t_end": 75,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deferral posting",
+        "general ledger setup",
+        "company-wide controls"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "User-Level Deferral Posting Overrides",
+      "description": "Individual users can be given permission to post deferrals outside the company-wide window through user setup. This allows specific users like Carlos to post deferrals into the future beyond the standard posting period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.4,
+      "t_end": 104,
+      "is_demoed": true,
+      "caveats": [
+        "User-level override only applies to specific users as configured"
+      ],
+      "tags": [
+        "user permissions",
+        "deferral posting",
+        "user setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Deferral Templates",
+      "description": "Templates that define how income or expenses should be deferred across future accounting periods. The example shows a deferral template set up to capture income in a straight line over six accounting periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.1,
+      "t_end": 52,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deferral templates",
+        "income deferrals",
+        "accounting periods"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup",
+      "t": 53.5
+    },
+    {
+      "type": "page",
+      "name": "User Setup",
+      "t": 76.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unnamed presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "Controlling when and by whom deferred income and expenses can be posted to the general ledger.",
+      "why_it_matters": "States the core topic of the video - establishing controls over deferral posting permissions and timing",
+      "check": "exact"
+    },
+    {
+      "t": 42.9,
+      "text": "This means this will create future GL postings when I post an invoice set up with this deferral template. That also means I might",
+      "why_it_matters": "Explains why deferral posting controls are needed - not all users should have permission to create future GL postings",
+      "check": "exact"
+    },
+    {
+      "t": 64.2,
+      "text": "So here you see two fields defining the window for when it's allowed to post deferrals to the general ledger. This is set up",
+      "why_it_matters": "Demonstrates the specific control mechanism available at the company level in general ledger setup",
+      "check": "exact"
+    },
+    {
+      "t": 87.6,
+      "text": "Carlos is actually able to post deferrals into the future all the way through June in 2024. So this is a great way where",
+      "why_it_matters": "Shows how user-level exceptions can be configured to allow specific users to post deferrals beyond the standard window",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010609
+    }
+  ]
+}

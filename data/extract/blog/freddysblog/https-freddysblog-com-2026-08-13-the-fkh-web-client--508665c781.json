@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/13/the-fkh-web-client",
+  "url": "https://freddysblog.com/2026/08/13/the-fkh-web-client/",
+  "title": "The Fkh Web Client",
+  "source": "freddysblog",
+  "published_at": "2026-08-13T09:00:00.000Z",
+  "words": 657,
+  "summary": "Fkh Web Client is a web-based interface that allows developers to manage Kubernetes containers and clusters from a phone without requiring VS Code or CLI installation. It uses GitHub authentication and centralized backend logic, making it simple and secure for performing quick operational tasks.",
+  "key_points": [
+    "Web client provides a lightweight interface for starting, stopping containers, and managing the entire Fkh cluster from mobile devices",
+    "Uses the same GitHub authentication and group membership as other Fkh interfaces, eliminating separate account management",
+    "All business logic resides in the backend; the web client only handles display and API calls for a simple, maintainable architecture",
+    "Designed for consultants and code reviewers who need to perform tasks in test environments without installing development tools"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "kubernetes",
+    "web client",
+    "mobile development",
+    "cli alternative",
+    "container management",
+    "github authentication"
+  ],
+  "objects": [],
+  "features": [
+    "container start/stop",
+    "cluster management",
+    "mobile interface",
+    "github authentication",
+    "pull request environments",
+    "aad integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005125,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "You can perform some tasks in Fkh right from your phone - without opening a laptop, without a terminal, without VS Code.",
+      "why_it_matters": "Demonstrates the practical convenience advantage of having a mobile interface for quick operational tasks"
+    }
+  ]
+}

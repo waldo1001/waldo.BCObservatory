@@ -1,0 +1,224 @@
+{
+  "video_id": "ayXdXFyFEjY",
+  "item_id": "video/yt-microsoft/ayXdXFyFEjY",
+  "title": "Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)",
+  "duration_s": 144,
+  "systems": [
+    "sales",
+    "copilot",
+    "inventory"
+  ],
+  "topics": [
+    "product descriptions",
+    "copilot",
+    "ai-generated content",
+    "image analysis",
+    "product attributes",
+    "tone of voice",
+    "shopify integration",
+    "e-commerce"
+  ],
+  "chapters": [
+    {
+      "title": "The Challenge of Product Descriptions",
+      "t_start": 0,
+      "t_end": 21.1
+    },
+    {
+      "title": "Copilot in Business Central Overview",
+      "t_start": 21.1,
+      "t_end": 41.9
+    },
+    {
+      "title": "Creating a New Product with Image Analysis",
+      "t_start": 41.9,
+      "t_end": 62
+    },
+    {
+      "title": "Generating and Customizing Product Descriptions",
+      "t_start": 62,
+      "t_end": 82.2
+    },
+    {
+      "title": "Brand Identity and Tone Customization",
+      "t_start": 82.2,
+      "t_end": 102.2
+    },
+    {
+      "title": "Publishing to Shopify and Business Impact",
+      "t_start": 102.2,
+      "t_end": 122.4
+    },
+    {
+      "title": "Closing Summary",
+      "t_start": 122.4,
+      "t_end": 144
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot product description generation",
+      "description": "AI-powered feature in Business Central that generates engaging product descriptions using natural language technology, tailored to product data and customizable by attributes and tone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.1,
+      "t_end": 102.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "product descriptions",
+        "copilot",
+        "ai",
+        "sales"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Image-based product category suggestion",
+      "description": "Business Central analyzes uploaded product images and suggests appropriate product categories to minimize manual data entry during product registration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 41.9,
+      "t_end": 62,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "image analysis",
+        "product setup",
+        "automation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Attribute-based description customization",
+      "description": "Users can select which product attributes are most relevant for the generated description and choose formatting options for consistency across product lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62,
+      "t_end": 82.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "product attributes",
+        "consistency"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Tone of voice customization",
+      "description": "Copilot allows users to customize the generated description with different tones of voice to match brand identity and target audience preferences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.2,
+      "t_end": 102.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tone",
+        "brand identity",
+        "customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Shopify connector",
+      "description": "First-party connector from Business Central to Shopify e-commerce platform enabling direct publishing of products to online store.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.2,
+      "t_end": 122.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "integration",
+        "e-commerce"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Nano Leaf Skylight",
+      "t": 41.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 1,
+      "text": "great product descriptions boost sales by making products stand out from the crowd but being creative on demand is challenging",
+      "why_it_matters": "Establishes the core business problem that the feature addresses",
+      "check": "exact"
+    },
+    {
+      "t": 21.1,
+      "text": "co-pilot in Microsoft Dynamics 365 business Central helps successfully launch new products with AI powered experiences",
+      "why_it_matters": "States that Copilot is generally available and delivers AI-powered product management capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 41.9,
+      "text": "business Central analyzes the image and suggests a category to minimize data entry",
+      "why_it_matters": "Describes the automated image analysis capability that reduces manual work",
+      "check": "exact"
+    },
+    {
+      "t": 62,
+      "text": "with just a click co-pilot uses natural language technology to craft an engaging description tailored to this product",
+      "why_it_matters": "Demonstrates how the feature simplifies product description creation",
+      "check": "exact"
+    },
+    {
+      "t": 82.2,
+      "text": "with a few more customizations Stan can match their brand identity and tailor this to the target audience",
+      "why_it_matters": "Shows that descriptions can be customized to reflect brand voice and audience preferences",
+      "check": "exact"
+    },
+    {
+      "t": 102.2,
+      "text": "Nano Leaf uses business Central's first party connector to Shopify a leading e-commerce platform",
+      "why_it_matters": "Indicates native integration exists between Business Central and Shopify for publishing products",
+      "check": "exact"
+    },
+    {
+      "t": 122.4,
+      "text": "having a great product description that is engaging and informative also improves conversion rates",
+      "why_it_matters": "States the business impact that the feature delivers through better product descriptions",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012920000000000001
+    }
+  ]
+}

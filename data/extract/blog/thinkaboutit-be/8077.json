@@ -1,0 +1,87 @@
+{
+  "item_id": "blog/thinkaboutit-be/8077",
+  "url": "https://thinkaboutit.be/2026/08/quick-tip-reading-the-capacity-page-in-the-business-central-admin-center/",
+  "title": "Quick Tip: Reading the Capacity Page in the Business Central Admin Center",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-08-13T12:35:24.000Z",
+  "words": 906,
+  "summary": "The Capacity page in Business Central Admin Center shows database storage usage and environment counts against your limits. Understanding the two separate limits (environment count and storage quota) helps prevent creation failures without needing support.",
+  "key_points": [
+    "Two independent limits govern environment creation: environment count (1 production + 3 sandbox free) and storage quota (80 GB default plus per-user allowance)",
+    "When blocked from creating sandboxes, the Capacity page is the only place showing which limit you hit",
+    "Storage issues are solved through retention policies, removing unused companies, date compression, and external file storage for attachments",
+    "Environment count issues require deleting existing sandboxes or purchasing additional production environments through your CSP partner",
+    "Table Information drill-down shows which tables consume the most capacity, and Data Administration Guide automates cleanup tasks"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "capacity management",
+    "storage quota",
+    "environment limits",
+    "data cleanup",
+    "admin center",
+    "database",
+    "sandbox environments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Capacity"
+    },
+    {
+      "type": "page",
+      "name": "Table Information"
+    },
+    {
+      "type": "page",
+      "name": "Data Administration"
+    },
+    {
+      "type": "page",
+      "name": "External File Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Data Administration Guide"
+    }
+  ],
+  "features": [
+    "Capacity page dashboard",
+    "Table Information drill-down",
+    "Data Administration Guide",
+    "Retention policies",
+    "Date compression",
+    "External file storage for attachments",
+    "Storage quota management",
+    "Environment count limits"
+  ],
+  "versions": [
+    "BC28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006458,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The Capacity page is the only place that tells you which one you hit.",
+      "why_it_matters": "When sandbox creation fails, it's unclear whether you've hit the environment count limit or storage limit; only the Capacity page reveals this."
+    },
+    {
+      "text": "As of BC28, external file storage is supported for document attachments.",
+      "why_it_matters": "Attachments are often the largest storage consumer; moving them outside the database frees capacity without losing functionality."
+    },
+    {
+      "text": "Set this up early, not once you are near your quota.",
+      "why_it_matters": "Proactive setup of retention policies and external storage prevents crisis management and reduces database growth pressure."
+    }
+  ]
+}

@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "Conversational Chat using Copilot in Dynamics 365 Business Central ( 2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=gvIGhtqADS0",
-  "published_at": null,
+  "published_at": "2023-12-06T12:29:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:11.767Z",
+      "captions": "auto:en-orig",
+      "duration_s": 105
+    },
+    "captioned": {
+      "at": "2026-10-06T21:43:17.725Z",
+      "path": "data/captions/microsoft/gvIGhtqADS0.vtt",
+      "vtt_sha256": "6a3dee49214d40d9d3a999f5b5341f0d022e4d9851053f1ffac45601589dca2d",
+      "segments": 7,
+      "words": 226,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:28.982Z",
+      "path": "data/extract/video/gvIGhtqADS0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.010974
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:35.173Z",
+      "path": "data/summary/video/gvIGhtqADS0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0108424
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:35.175Z",
+      "systems": [
+        "copilot",
+        "reporting"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:43:35.186Z",
+      "path": "content/videos/gvIGhtqADS0.md"
     }
   },
   "input_hash": null,
@@ -19,7 +66,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 498,
-    "duration_s": 106,
-    "via": "reconcile"
-  }
+    "duration_s": 105,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "41b5f68334575c9755b86d7935ef36486ba7be2e3c5464fd3bec7f52d6d30855"
 }

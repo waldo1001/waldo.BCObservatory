@@ -7,13 +7,39 @@
   "url": "https://freddysblog.com/2026/08/13/the-fkh-web-client/",
   "published_at": "2026-08-13T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:42:55.175Z",
+      "path": "vault:posts/freddysblog/https-freddysblog-com-2026-08-13-the-fkh-web-client--508665c781.md",
+      "words": 657
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:01.947Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005125
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:01.948Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:01.949Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:43:01.953Z",
+      "path": "content/posts/freddysblog/https-freddysblog-com-2026-08-13-the-fkh-web-client--508665c781.md"
     }
   },
   "input_hash": "2026-08-13T09:00:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ac0f3d4e33799c103ca71eaf8ef86616722505293ac8afd9131ed9433fd33da2"
 }

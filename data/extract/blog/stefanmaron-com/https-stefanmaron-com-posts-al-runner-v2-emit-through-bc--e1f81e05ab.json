@@ -1,0 +1,98 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/",
+  "url": "https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/",
+  "title": "AL Runner v2: What Feedback Told Me v1 Was Missing",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-10T05:00:00.000Z",
+  "words": 1538,
+  "summary": "AL Runner v2 introduces a fundamental architecture change that enables integration testing against real Microsoft and third-party dependencies instead of mocks, moving from type-renaming and stubbing to using BC's own compiler and patching only low-level database operations. The update emphasizes fail-loudly error handling so tests cannot silently pass with wrong results, and introduces a separate language behavior test suite that validates all tests against real Business Central before trusting them.",
+  "key_points": [
+    "v1 stubbed all dependencies by renaming types, limiting tests to isolated unit tests; v2 compiles through BC's real compiler and loads actual dependency DLLs for true integration testing",
+    "v2 throws exceptions immediately for unsupported APIs with clear messages instead of silently falling back to stubs that produce misleading passing tests",
+    "A separate BusinessCentral.AL.Language.Tests repository runs the full test suite against real BC Cloud sandboxes on multiple versions to ensure tests are correct before the runner is held to them",
+    "The migration from regex to syntax tree parser discovered 1,600 mishandled CalcFormula conditions across the Base App that had gone unnoticed",
+    "Early v2 releases (v2.0.0 through v2.1.1) achieved full test passage and added Windows support, auto-provisioning of test toolkit, and fixes for filter corruption in multi-table queries"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al runner",
+    "testing",
+    "unit tests",
+    "integration tests",
+    "mocking",
+    "al compiler",
+    "debugging"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "test codeunits"
+    },
+    {
+      "type": "table",
+      "name": "fixture tables"
+    },
+    {
+      "type": "enum",
+      "name": "fixture enums"
+    },
+    {
+      "type": "interface",
+      "name": "fixture interface"
+    },
+    {
+      "type": "page",
+      "name": "fixture pages"
+    },
+    {
+      "type": "report",
+      "name": "fixture report"
+    },
+    {
+      "type": "query",
+      "name": "fixture query"
+    },
+    {
+      "type": "xmlport",
+      "name": "fixture XMLports"
+    }
+  ],
+  "features": [
+    "integration testing against real dependencies",
+    "in-process XML report rendering",
+    "fail-loud error handling",
+    "query execution",
+    "filter processing",
+    "syntax tree based parsing",
+    "auto-provisioning with test toolkit",
+    "coverage analysis"
+  ],
+  "versions": [
+    "v2.0.0",
+    "v2.0.1",
+    "v2.1.0",
+    "v2.1.1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008544,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "v2 can run against real dependency code, which means it can do integration testing, not just unit testing against a mock.",
+      "why_it_matters": "This is the core architectural breakthrough that makes v2 practical for real-world extensions where mocking is insufficient"
+    },
+    {
+      "text": "If your test exercises something out of the runner's scope, the test fails. It cannot quietly pass.",
+      "why_it_matters": "Fail-loud behavior prevents false confidence from tests that pass for the wrong reasons, which is a critical reliability improvement"
+    }
+  ]
+}

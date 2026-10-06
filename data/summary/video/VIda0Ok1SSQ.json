@@ -1,0 +1,26 @@
+{
+  "video_id": "VIda0Ok1SSQ",
+  "item_id": "video/yt-microsoft/VIda0Ok1SSQ",
+  "summary": "Control of deferral posting in Business Central finance: how general ledger setup defines a company-wide window for posting deferrals, and how user setup lets specific users post outside it. Includes a deferral template example spreading income over six periods.",
+  "overview": "The video explains how to control when and by whom deferred income and expenses can be posted to the general ledger. It starts with what deferrals are, using a deferral template that captures income in a straight line over six accounting periods. Posting an invoice with that template creates future general ledger postings.\n\nIt then shows two fields in general ledger setup that define the window in which deferral posting is allowed. Finally, it shows user setup, where a user named Carlos is allowed to post deferrals into the future, through June 2024, beyond the company-wide window.",
+  "key_points": [
+    "Deferral templates define how income or expenses are spread over future accounting periods; the example uses a straight line over six periods.",
+    "Posting an invoice that uses a deferral template creates future general ledger postings.",
+    "General ledger setup has two fields that define the window in which deferral posting to the general ledger is allowed.",
+    "The general ledger setup window applies company-wide.",
+    "User setup can give an individual user permission to post deferrals outside the company-wide window.",
+    "In the demo, user Carlos can post deferrals into the future through June 2024.",
+    "The override applies only to users configured for it."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "a1d6ccf236227e0596700dc98948bbea9abcbff27c21519dd3fca2a61e6f2b6b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0102784
+  }
+}

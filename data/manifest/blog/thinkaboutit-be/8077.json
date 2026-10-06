@@ -7,7 +7,7 @@
   "url": "https://thinkaboutit.be/2026/08/quick-tip-reading-the-capacity-page-in-the-business-central-admin-center/",
   "published_at": "2026-08-13T12:35:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:42:46.173Z",
       "path": "vault:posts/thinkaboutit-be/8077.md",
       "words": 906
+    },
+    "extracted": {
+      "at": "2026-10-06T21:42:54.929Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006458
+    },
+    "summarized": {
+      "at": "2026-10-06T21:42:54.930Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:42:54.930Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:42:54.936Z",
+      "path": "content/posts/thinkaboutit-be/8077.md"
     }
   },
   "input_hash": "2026-08-13T12:35:24.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8db971181e6d88c3f83f4aed60b838258a6ad971606a3e6695c361af2cce83f2"
+  "output_hash": "e379960638df7724ca7fc1d9806a830513ffbe01de129e9d7ea9cbd9930b35f0"
 }

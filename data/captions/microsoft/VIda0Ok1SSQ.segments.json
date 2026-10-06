@@ -1,0 +1,58 @@
+{
+  "video_id": "VIda0Ok1SSQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 16.1,
+      "text": "Controlling when and by whom deferred income and expenses can be posted to the general ledger. Hi. Today we're going to show you how you can determine when it's allowed to post to the general ledger for deferred income and expenses."
+    },
+    {
+      "t": 16.1,
+      "end": 26.2,
+      "text": "A quick note on deferrals. In Business Central, you can use deferral templates to set up how income or expenses should be deferred, meaning into the future."
+    },
+    {
+      "t": 26.2,
+      "end": 31.6,
+      "text": "Let's take a quick look at a deferral template."
+    },
+    {
+      "t": 32.6,
+      "end": 42.9,
+      "text": "Here you see a deferral template which is set up to capture my income in a straight line over the next six accounting periods, which is six months in my case."
+    },
+    {
+      "t": 42.9,
+      "end": 53.5,
+      "text": "This means this will create future GL postings when I post an invoice set up with this deferral template. That also means I might not want to allow everyone to do so."
+    },
+    {
+      "t": 53.5,
+      "end": 64.2,
+      "text": "First of all, it's important to know that if I go to the general ledger setup, I can control which rules for deferral postings apply for my entire company."
+    },
+    {
+      "t": 64.2,
+      "end": 76.4,
+      "text": "So here you see two fields defining the window for when it's allowed to post deferrals to the general ledger. This is set up to capture the year of 2023."
+    },
+    {
+      "t": 76.4,
+      "end": 87.6,
+      "text": "But since I want to post an invoice into the future now and capture revenue over the next six months, I might want to enable one user to do that. So I can do that with user setup."
+    },
+    {
+      "t": 87.6,
+      "end": 105,
+      "text": "Here you see that Carlos is actually able to post deferrals into the future all the way through June in 2024. So this is a great way where you can determine who can post and when to the general ledger for deferrals."
+    },
+    {
+      "t": 105,
+      "end": 109.4,
+      "text": "Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 283
+}

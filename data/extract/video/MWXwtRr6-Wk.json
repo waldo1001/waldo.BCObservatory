@@ -1,0 +1,426 @@
+{
+  "video_id": "MWXwtRr6-Wk",
+  "item_id": "video/yt-microsoft/MWXwtRr6-Wk",
+  "title": "What's New: VAT Date in Business Central (2023 release wave 2)",
+  "duration_s": 1011,
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "vat date",
+    "posting date",
+    "tax date",
+    "vat setup",
+    "vat reporting",
+    "vat entries",
+    "compliance",
+    "posting periods",
+    "upgrade code",
+    "allowed posting dates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and roadmap of VAT Date feature",
+      "t_start": 0,
+      "t_end": 104.3
+    },
+    {
+      "title": "Evolution and upcoming changes to VAT Date setup",
+      "t_start": 104.3,
+      "t_end": 145
+    },
+    {
+      "title": "Data population and localization of VAT Date field",
+      "t_start": 145,
+      "t_end": 234.4
+    },
+    {
+      "title": "Setup options and configuration of VAT Date usage",
+      "t_start": 234.4,
+      "t_end": 365.3
+    },
+    {
+      "title": "Default VAT Date and period controls",
+      "t_start": 365.3,
+      "t_end": 451.4
+    },
+    {
+      "title": "VAT Date workflow and reporting",
+      "t_start": 451.4,
+      "t_end": 551
+    },
+    {
+      "title": "VAT Date consistency checks in posting procedure",
+      "t_start": 551,
+      "t_end": 659.8
+    },
+    {
+      "title": "Allowed VAT Date periods and field separation",
+      "t_start": 659.8,
+      "t_end": 789.1
+    },
+    {
+      "title": "VAT return period protection and compliance controls",
+      "t_start": 789.1,
+      "t_end": 887.7
+    },
+    {
+      "title": "Modifying VAT Date after posting and closing remarks",
+      "t_start": 887.7,
+      "t_end": 1011
+    }
+  ],
+  "features": [
+    {
+      "name": "VAT Date field",
+      "description": "New field added to separate VAT reporting from posting date, allowing users to choose a document date for VAT purposes. The field is populated with posting date for existing entries via upgrade code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.1,
+      "t_end": 175.1,
+      "is_demoed": true,
+      "caveats": [
+        "W1 feature available in most countries except Italy",
+        "Italy already had similar feature",
+        "In localizations without VAT system, field is called tax date"
+      ],
+      "tags": [
+        "vat",
+        "posting",
+        "tax date",
+        "entries",
+        "w1"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Date Usage field options",
+      "description": "Configuration field on General Ledger Setup with three options: Enable (allows modification), Prevent Modification (blocks changes after posting), and Disabled (hides field but system still uses it automatically with posting date).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 234.4,
+      "t_end": 365.3,
+      "is_demoed": false,
+      "caveats": [
+        "Prevent Modification enabled by default for countries where VAT date cannot be modified after posting",
+        "If disabled, field is hidden but feature still operates with posting date as default"
+      ],
+      "tags": [
+        "vat date",
+        "setup",
+        "configuration",
+        "posting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Default VAT Date setting",
+      "description": "Configuration field on General Ledger Setup that determines whether VAT date defaults to posting date or document date when creating documents. Affects population of VAT date field and some posting calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 365.3,
+      "t_end": 425.5,
+      "is_demoed": true,
+      "caveats": [
+        "Can be changed only on non-posted documents",
+        "Will have impact on some postings"
+      ],
+      "tags": [
+        "vat date",
+        "default",
+        "posting date",
+        "document date"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Control VAT Period setup",
+      "description": "Configuration field that controls whether to check and potentially block posting when VAT date is defined within closed periods. Prevents posted documents with empty VAT date and ensures consistency in VAT reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.4,
+      "t_end": 438.7,
+      "is_demoed": false,
+      "caveats": [
+        "Can be disabled if not using VAT periods",
+        "Can prevent posting or provide warning only"
+      ],
+      "tags": [
+        "vat period",
+        "closed periods",
+        "posting control",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Date Consistency Checks",
+      "description": "Three checks implemented in the posting procedure: defining a default VAT date if empty, ensuring VAT date is within allowed VAT posting data range, and ensuring VAT date is within non-closed VAT return periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.6,
+      "t_end": 659.8,
+      "is_demoed": false,
+      "caveats": [
+        "Blank VAT date can be posted via APIs even though UI prevents it",
+        "Checks are implemented in code units involved in posting procedure"
+      ],
+      "tags": [
+        "vat date",
+        "consistency",
+        "posting",
+        "validation",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allowed VAT Date Periods",
+      "description": "Similar to allowed posting dates, administrators can define periods during which specified users can post with a particular VAT date. Initially used existing allowed posting from/to fields, but will be split into separate VAT-specific fields.",
+      "status": "announced",
+      "status_evidence_t": 789.1,
+      "status_evidence_quote": "it will be released in one of minor versions so now we have the same Fields used to check vat date only defined in",
+      "status_evidence_verified": true,
+      "t_start": 747.9,
+      "t_end": 827.5,
+      "is_demoed": false,
+      "caveats": [
+        "Initial version used existing allowed posting from/to fields from GL setup",
+        "Version 23 will have separate fields in VAT setup",
+        "Upgrade code will copy existing values to new VAT setup fields"
+      ],
+      "tags": [
+        "vat date",
+        "allowed periods",
+        "posting",
+        "administration",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Date modification after posting",
+      "description": "Users can modify VAT date after posting a document from VAT entries if their setup allows. When saved, the change is propagated to posted documents and related GL entries based on transaction number, document number, document type, and posting date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 867.7,
+      "t_end": 907.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only allowed if setup permits modification",
+        "Change propagates to posted documents and related GL entries"
+      ],
+      "tags": [
+        "vat date",
+        "modification",
+        "vat entries",
+        "posted documents"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Date in reports",
+      "description": "VAT-based reports updated to use VAT date for filtering transactions. Reports include VAT statement, Calculate and Post VAT Settlement, VAT Declaration, and many others in both W1 and local reports. By default with standard setup, reports produce same output as before since posting date equals VAT date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472,
+      "t_end": 551,
+      "is_demoed": true,
+      "caveats": [
+        "Reports only show different results if VAT date is manually edited or setup changed",
+        "By default posting date and VAT date are the same"
+      ],
+      "tags": [
+        "vat reporting",
+        "vat statement",
+        "vat settlement",
+        "w1",
+        "localization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "VAT Period status handling",
+      "description": "System can handle various VAT return statuses from open, accepted, closed to cancelled. Blocks new postings within closed VAT return periods or issues warning for released or submitted returns to prevent non-compliance situations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 827.5,
+      "t_end": 867.7,
+      "is_demoed": false,
+      "caveats": [
+        "Behavior can be configured to block, warn, or ignore via general ledger setup field"
+      ],
+      "tags": [
+        "vat return",
+        "periods",
+        "compliance",
+        "posting control"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Date redesign in version 23",
+      "description": "Redesign of VAT date range separate from posting date range, addressing user feedback. Moves allowed posting from/to fields to separate VAT Date fields in VAT setup instead of using General Ledger setup fields.",
+      "status": "announced",
+      "status_evidence_t": 124.6,
+      "status_evidence_quote": "we decided to move this to V allow from uh posting it will come in next to min not immediately in October but this",
+      "status_evidence_verified": true,
+      "t_start": 52.1,
+      "t_end": 145,
+      "is_demoed": false,
+      "caveats": [
+        "Not immediately in October but in a later minor version",
+        "Upgrade code will copy existing GL setup values to new VAT setup fields"
+      ],
+      "tags": [
+        "vat date",
+        "redesign",
+        "setup",
+        "version 23",
+        "roadmap"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup",
+      "t": 234.4
+    },
+    {
+      "type": "page",
+      "name": "VAT Setup",
+      "t": 789.1
+    },
+    {
+      "type": "page",
+      "name": "VAT entries",
+      "t": 887.7
+    },
+    {
+      "type": "report",
+      "name": "VAT statement",
+      "t": 509.3
+    },
+    {
+      "type": "report",
+      "name": "Calculate and Post VAT Settlement",
+      "t": 509.3
+    },
+    {
+      "type": "report",
+      "name": "VAT Declaration",
+      "t": 509.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    },
+    {
+      "name": "Pred",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.1,
+      "text": "not to use all the time posting date for V purpose that we can choose a document date",
+      "why_it_matters": "Explains the core requirement that motivated the VAT Date feature - allowing flexibility to use document date instead of always using posting date for VAT reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 84.2,
+      "text": "we started with 2022 release Wave 2 or version 21 and this is this is the moment when we added these to production",
+      "why_it_matters": "Establishes that VAT Date is generally available since version 21 (2022 Wave 2), not in preview.",
+      "check": "exact"
+    },
+    {
+      "t": 124.6,
+      "text": "we decided to move this to V allow from uh posting it will come in next to min not immediately in October but this",
+      "why_it_matters": "Announces the separation of VAT allowed posting dates into VAT setup, a planned future change addressing user feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 175.1,
+      "text": "this feature is W1 feature so it means it is available in all actually in most of countries where busy Central is available except",
+      "why_it_matters": "Defines the geographic scope of VAT Date - W1 global feature except Italy which already had similar functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 530,
+      "text": "with the default setup in the system there are not going to be any changes to these reports or their output posting date and",
+      "why_it_matters": "Clarifies that by default, VAT Date equals posting date, so existing reports show identical results without setup changes.",
+      "check": "exact"
+    },
+    {
+      "t": 683.7,
+      "text": "V date is from compliance standpoint indispensible and cannot be disabled",
+      "why_it_matters": "Clarifies a critical design principle - VAT Date is mandatory for compliance even when disabled in UI, ensuring no gaps in tax data handling.",
+      "check": "exact"
+    },
+    {
+      "t": 789.1,
+      "text": "it will be released in one of minor versions so now we have the same Fields used to check vat date only defined in",
+      "why_it_matters": "Announces the upcoming split of allowed posting dates into separate VAT setup fields, a key improvement planned for version 23.",
+      "check": "exact"
+    },
+    {
+      "t": 887.7,
+      "text": "we allow you to do this from the vat entries where you can go to a record and specify a new vat date but",
+      "why_it_matters": "Explains the capability to modify VAT date after posting, subject to configuration, addressing compliance requirements for VAT corrections.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 124.6,
+      "kind": "coming-later",
+      "text": "it will come in next to min not immediately in October but this is definitely in our Clos road map"
+    },
+    {
+      "t": 789.1,
+      "kind": "coming-later",
+      "text": "it will be released in one of minor versions"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032859
+    }
+  ]
+}
