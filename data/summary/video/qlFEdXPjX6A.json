@@ -1,0 +1,26 @@
+{
+  "video_id": "qlFEdXPjX6A",
+  "item_id": "video/yt-microsoft/qlFEdXPjX6A",
+  "summary": "AL language changes in Business Central 2025 release wave 2: allowing customizations options, field mask type, document extended data type, report tooltips, truncate method, record ID formats, namespace metadata column, AI test type, and VS Code cancellation token propagation. Feature status is not stated in the video.",
+  "overview": "This 12-minute What's New session covers AL language updates for 2025 release wave 2. It starts with the allowing customizations property, where the always option is deprecated and replaced by \"as read only\" and \"as read write\", plus a \"to be classified\" option for incomplete classification.\n\nIt then covers field and page features (mask type, the document extended data type, summary fact boxes), report tooltips, and new table and record methods such as truncate and lock timeout. It also covers namespace-related changes (record ID formats, AL namespace column in metadata tables, external business event deprecation) and testing and tooling updates (AI test type, required test isolation, cancellation token in VS Code).",
+  "key_points": [
+    "Allowing customizations: the always option is deprecated. Use 'as read only' (same behavior as always), 'as read write', or 'to be classified' for incomplete classification.",
+    "Fields get a mask type property with 'none' and 'concealed' to hide data in the UI. It differs from the extended data type masked.",
+    "Extended data types gain a 'document' option so media renders in portrait mode. A new code cup rule enforces auto format type and expression properties.",
+    "Summary fact boxes are added automatically on card, list and document pages. Hide one by referencing the summary system part and setting visibility to false.",
+    "The truncate method on tables deletes data more efficiently but has limits, such as no use on media tables. Check the documentation first. Setting lock timeout to zero waits indefinitely and is not recommended.",
+    "Record ID formats 2 and 9 return fully qualified names for namespaced tables. The new AL namespace column in metadata tables helps find namespaced tables.",
+    "New AI test type and a required test isolation property on codeunits. VS Code now sends the cancellation token to the server, so publish operations can be cancelled."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "6b220c037ce46aabb0bfd50fb3e69676268fdea41a206dec1a914434c94ecbae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0205624
+  }
+}

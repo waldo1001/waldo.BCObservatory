@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=rAaUiKByyEE",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:26:34.650Z",
+      "path": "data/extract/video/rAaUiKByyEE.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 11,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.028138
+    },
+    "summarized": {
+      "at": "2026-10-06T18:26:41.997Z",
+      "path": "data/summary/video/rAaUiKByyEE.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0181284
+    },
+    "linked": {
+      "at": "2026-10-06T18:26:41.999Z",
+      "systems": [
+        "sales",
+        "reporting",
+        "projects"
+      ],
+      "topics": 9,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:26:42.012Z",
+      "path": "content/videos/rAaUiKByyEE.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Sales Analytics (2025 release wave 2) [rAaUiKByyEE].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "0f413471a75e465d804bc404ee8da12ad4504b78f834ce01b43c9fb71127bab3"
 }

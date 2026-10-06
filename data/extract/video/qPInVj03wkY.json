@@ -1,0 +1,407 @@
+{
+  "video_id": "qPInVj03wkY",
+  "item_id": "video/yt-microsoft/qPInVj03wkY",
+  "title": "What's New in Sustainability: Reporting CSRD (2025 release wave 2)",
+  "duration_s": 1055,
+  "systems": [
+    "sustainability",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "csrd reporting",
+    "esg aggregation",
+    "compliance reporting",
+    "data integration",
+    "dataverse",
+    "sustainability ledger",
+    "power app",
+    "carbon emissions",
+    "reporting standards",
+    "scope 1 2 3"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Business Value",
+      "t_start": 0,
+      "t_end": 40
+    },
+    {
+      "title": "CSRD Compliance and Integration Architecture",
+      "t_start": 40,
+      "t_end": 128
+    },
+    {
+      "title": "External ESG Reporting Tool and Standards",
+      "t_start": 128,
+      "t_end": 200.5
+    },
+    {
+      "title": "ESG Aggregation Tool Setup",
+      "t_start": 200.5,
+      "t_end": 313.4
+    },
+    {
+      "title": "Reporting Process and Prerequisites",
+      "t_start": 313.4,
+      "t_end": 439.1
+    },
+    {
+      "title": "Demo: External ESG Reporting Setup",
+      "t_start": 439.1,
+      "t_end": 540.2
+    },
+    {
+      "title": "Demo: ESG Aggregation Configuration",
+      "t_start": 540.2,
+      "t_end": 781.5
+    },
+    {
+      "title": "Demo: Calculation, Posting and Data Sync",
+      "t_start": 781.5,
+      "t_end": 940.6
+    },
+    {
+      "title": "Export and Conclusion",
+      "t_start": 940.6,
+      "t_end": 1055
+    }
+  ],
+  "features": [
+    {
+      "name": "ESG Aggregation Reporting Tool",
+      "description": "Central tool in Business Central for calculating and collecting ESG reporting information from multiple data sources with support for formulas, filters, and different calculation methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.5,
+      "t_end": 781.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of ESG standards",
+        "Manual entry needed for some data like risk assessments",
+        "Data integration must be enabled in sustainability setup"
+      ],
+      "tags": [
+        "esg calculation",
+        "aggregation",
+        "formula support",
+        "multi-source data"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "External ESG Reporting Power App",
+      "description": "Power App tool for creating ESG assessments, configuring reporting standards, and managing reporting requirements with bidirectional synchronization to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128,
+      "t_end": 540.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires minimum one Power App license",
+        "Standards are subject to change",
+        "Installation via Power App required"
+      ],
+      "tags": [
+        "power app",
+        "assessment creation",
+        "standard configuration",
+        "compliance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "CSRD Compliance Reporting",
+      "description": "Built-in support for CSRD reporting standard along with other ESG standards like Australian reporting, Indian GRIS, and SRS, providing regulatory compliance for European Union companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40,
+      "t_end": 200.5,
+      "is_demoed": true,
+      "caveats": [
+        "Standards subject to change",
+        "Multiple standards require appropriate configuration",
+        "Compliance responsibility with user"
+      ],
+      "tags": [
+        "csrd",
+        "regulatory compliance",
+        "multiple standards",
+        "eu reporting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Bidirectional Data Synchronization",
+      "description": "Two-way data synchronization between Business Central and external ESG reporting tool, allowing collection of sustainability data in Business Central and automatic population of facts in external tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.6,
+      "t_end": 272.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Dataverse connection setup",
+        "Data synchronization must be explicitly enabled",
+        "Bi-directional mapping must be configured"
+      ],
+      "tags": [
+        "data sync",
+        "dataverse integration",
+        "sustainability ledger",
+        "two-way sync"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dataverse Connection Setup",
+      "description": "Configuration of data connection between Business Central and Dataverse to enable the external ESG reporting Power App functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.4,
+      "t_end": 299.8,
+      "is_demoed": false,
+      "caveats": [
+        "Mandatory step",
+        "Requires wizard configuration",
+        "Data integration must be separately enabled"
+      ],
+      "tags": [
+        "dataverse",
+        "connection setup",
+        "wizard",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sustainability Ledger Entry Mapping",
+      "description": "Integration of sustainability ledger entries with ESG reporting allowing mapping of carbon equivalent data and other emissions data to reporting lines with scope-based filtering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 575.2,
+      "t_end": 674.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of scope classifications",
+        "Filters needed for scope separation",
+        "Not all reporting lines populated from Business Central"
+      ],
+      "tags": [
+        "sustainability ledger",
+        "carbon equivalent",
+        "scope filtering",
+        "emissions data"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Formula-based ESG Calculations",
+      "description": "Support for mathematical formulas in ESG aggregation allowing percentage calculations and complex computations using standard operators like multiply, divide, plus, minus with bracket support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 700.1,
+      "t_end": 770.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires knowledge of financial reporting formulas",
+        "Limited to mathematical operations"
+      ],
+      "tags": [
+        "formula",
+        "calculation",
+        "percentage",
+        "mathematical operators"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Manual ESG Reporting without Integration",
+      "description": "Capability to use ESG aggregation tool manually without Power App integration to prepare compliance documents for manual population of CSRD and other reporting standards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 781.5,
+      "t_end": 814.3,
+      "is_demoed": false,
+      "caveats": [
+        "Manual data entry required",
+        "No automatic synchronization",
+        "Less efficient than full integration"
+      ],
+      "tags": [
+        "manual reporting",
+        "no integration",
+        "preparation documents",
+        "optional integration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "CSRD Preparation Reports",
+      "description": "Built-in reports for collecting and printing important fields needed for CSRD and other compliance reporting, usable with or without Power App integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 883.4,
+      "t_end": 906.8,
+      "is_demoed": false,
+      "caveats": [
+        "Useful as backup for manual preparation"
+      ],
+      "tags": [
+        "csrd preparation",
+        "reports",
+        "print",
+        "compliance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Export for XBRL Conversion",
+      "description": "Export functionality from external ESG reporting tool to Excel format with documentation provided for XBRL conversion for final CSRD and other standard submissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 958.2,
+      "t_end": 982.3,
+      "is_demoed": false,
+      "caveats": [
+        "Separate XBRL conversion process required",
+        "Manual handling of final export"
+      ],
+      "tags": [
+        "excel export",
+        "xbrl conversion",
+        "reporting format",
+        "submission"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry",
+      "t": 603.8
+    },
+    {
+      "type": "table",
+      "name": "ESG Reporting Name",
+      "t": 552.5
+    },
+    {
+      "type": "page",
+      "name": "ESG Aggregation Reporting",
+      "t": 215.8
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Setup",
+      "t": 272.7
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Information",
+      "t": 97.6
+    },
+    {
+      "type": "report",
+      "name": "CSRD Preparation Reports",
+      "t": 883.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toto",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 40,
+      "text": "the most important is to provide a regulatory compliance so for all companies who are supposed to report csrd or other esg",
+      "why_it_matters": "Establishes the primary business value and target audience for CSRD reporting functionality",
+      "check": "fuzzy"
+    },
+    {
+      "t": 54.7,
+      "text": "you can see here CSRD, SRS, BR, SR, so many different standards. With this functionality, now you will be a regulatory compliance.",
+      "why_it_matters": "Shows that the tool supports multiple compliance standards beyond just CSRD",
+      "check": "exact"
+    },
+    {
+      "t": 117.7,
+      "text": "we have birectional communication between these two tools",
+      "why_it_matters": "Critical architectural detail showing data flows both ways between Business Central and external ESG tool",
+      "check": "exact"
+    },
+    {
+      "t": 152.5,
+      "text": "you must have power app license uh for this uh tool. So uh you do not need to pay anything additional.",
+      "why_it_matters": "Clarifies licensing requirements and cost model for the external ESG reporting tool",
+      "check": "exact"
+    },
+    {
+      "t": 272.7,
+      "text": "Then in a business central you need to enable data synchronization. This is mandatory.",
+      "why_it_matters": "Identifies mandatory setup step for integration to function properly",
+      "check": "exact"
+    },
+    {
+      "t": 781.5,
+      "text": "if you do not have power apply and if you do not want to use ESG external tool you can still use this functionality",
+      "why_it_matters": "Shows flexibility of solution - full integration optional, manual preparation still possible",
+      "check": "exact"
+    },
+    {
+      "t": 940.6,
+      "text": "everything what is posted there in a busy center will be copied as effects in an appropriate place uh based on a standard we",
+      "why_it_matters": "Explains automatic data population mechanism between Business Central and external tool",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 188,
+      "kind": "subject-to-change",
+      "text": "Of course these standards are subject of changes"
+    },
+    {
+      "t": 299.8,
+      "kind": "other",
+      "text": "Please be careful with that. You really need to understand what you're doing"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031935
+    }
+  ]
+}

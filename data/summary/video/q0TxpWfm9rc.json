@@ -1,0 +1,28 @@
+{
+  "video_id": "q0TxpWfm9rc",
+  "item_id": "video/yt-microsoft/q0TxpWfm9rc",
+  "summary": "Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries are interactive, show filter awareness, can be copied and shared, support 20 more languages, and can be configured per page by developers in AL.",
+  "overview": "The video covers enhancements to \"Summarize with Copilot\", which summarizes a record in Business Central. It demos the customer card and the chart of accounts to show faster generation, new fields that feed richer insights, and interactive summaries.\n\nIt also covers showing more insights and continuing the conversation with Copilot, copying and sharing a summary, filter awareness, and multi-language support. Last, it explains the new AL option for developers to configure summarization on a page, and says the feature is available in all Business Central online countries and regions.",
+  "key_points": [
+    "Summary generation is 50% faster than in the previous release.",
+    "Summaries are interactive: clicking a field or interaction highlights it and opens the related page where the insight came from.",
+    "Show more generates additional insights beyond the initial summary, and the user can continue the conversation with Copilot.",
+    "Summaries can be copied and shared with co-workers through Teams or other media in a formatted layout.",
+    "Summaries take into account filters carried from list view to card view, as shown with the chart of accounts.",
+    "Summarize with Copilot now supports 20 more languages beyond English.",
+    "Developers can use AL to configure whether summarization is enabled on a page, but they do not have direct access to influence the summary content."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "7393d289ec0a69ca548fe354397140f80e02738704f660dad59b6eaccc531290",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0133864
+  }
+}

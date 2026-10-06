@@ -1,0 +1,27 @@
+{
+  "video_id": "S5Xw-b8YF-c",
+  "item_id": "video/yt-microsoft/S5Xw-b8YF-c",
+  "summary": "E-Documents APIs in Business Central (2025 release wave 2): five APIs and two business events for code-free integration, for example through Power Automate. Demos cover creating an e-document from SharePoint and a business event fired when the e-document service status changes to exported.",
+  "overview": "The video explains why APIs were added to e-documents: to allow flexible, code-free integration. The delivery is five APIs and two business events. They can trigger processes from e-documents and create e-documents from external sources such as SharePoint, OneDrive or other XML sources.\n\nTwo demos follow. In the first, a flow creates an e-document in Business Central from a file in SharePoint. In the second, the business event \"e document service status changed\" starts a flow when the status becomes exported. The flow then retrieves the e-document through the APIs, including OData filtering on e-document and service data. The presenter says the APIs are not meant to be the first channel of communication, but a parallel or additional one.",
+  "key_points": [
+    "Delivered: five e-document APIs and two business events, aimed at flexible, code-free integration such as Power Automate.",
+    "The APIs are not intended as the first channel of communication. Use them as a parallel or additional channel.",
+    "When creating an e-document through the API, the file contents must be base 64 encoded and the e-document service must already exist.",
+    "The business event 'e document service status changed' was demoed. In the demo it fires only when the status is exported.",
+    "The flows in Power Automate or similar tools must be set up manually to react to the event, for example to forward the e-document by email or to a custom service.",
+    "OData filter queries can be used on e-document and e-document service data, for example by entry number and service code. This needs OData syntax knowledge.",
+    "The video says the APIs also allow new custom agents built with Copilot Studio, which needs a Copilot Studio license. This was not demonstrated."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "76514b729733cffb27f69de95cc2e3ad87a2c2fc5c9d8ff624929ef298b0e41b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0144104
+  }
+}

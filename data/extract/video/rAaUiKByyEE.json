@@ -1,0 +1,362 @@
+{
+  "video_id": "rAaUiKByyEE",
+  "item_id": "video/yt-microsoft/rAaUiKByyEE",
+  "title": "What's New: Sales Analytics (2025 release wave 2)",
+  "duration_s": 866,
+  "systems": [
+    "sales",
+    "reporting",
+    "projects"
+  ],
+  "topics": [
+    "sales forecasting",
+    "powerbi app",
+    "analytical reports",
+    "excel layouts",
+    "open source",
+    "sales by project",
+    "data analysis",
+    "help documentation",
+    "interactive reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business priorities",
+      "t_start": 0,
+      "t_end": 83
+    },
+    {
+      "title": "Wave 2 sales analytics achievements",
+      "t_start": 83,
+      "t_end": 159.5
+    },
+    {
+      "title": "PowerBI sales forecasting demo",
+      "t_start": 159.5,
+      "t_end": 337.7
+    },
+    {
+      "title": "Sales by project report and open source",
+      "t_start": 337.7,
+      "t_end": 415.3
+    },
+    {
+      "title": "Modernized analytical reports and layouts",
+      "t_start": 415.3,
+      "t_end": 586.9
+    },
+    {
+      "title": "In-client help and documentation improvements",
+      "t_start": 586.9,
+      "t_end": 696.6
+    },
+    {
+      "title": "Resources and closing remarks",
+      "t_start": 696.6,
+      "t_end": 866
+    }
+  ],
+  "features": [
+    {
+      "name": "Updated PowerBI app for sales",
+      "description": "Enhanced PowerBI application for sales with improved data model and reports including new forecasting capabilities and support for non-item sales types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83,
+      "t_end": 144.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "powerbi",
+        "sales",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales forecasting in PowerBI",
+      "description": "Statistical machine learning model in PowerBI that forecasts future sales based on historical transactions with customizable parameters for seasonality, look-back period, and confidence bounds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.3,
+      "t_end": 337.7,
+      "is_demoed": true,
+      "caveats": [
+        "Not generative AI",
+        "Requires manual configuration of forecasting parameters in report visuals"
+      ],
+      "tags": [
+        "forecasting",
+        "powerbi",
+        "ai",
+        "machine learning"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Support for non-item sales types",
+      "description": "Sales analytics now includes support for selling resources and GL account lines in addition to items, particularly relevant for project-based sales.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.5,
+      "t_end": 387.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "resources",
+        "projects"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Open source PowerBI sales app",
+      "description": "PowerBI app for sales is now open source, allowing users to download the source code (PBIX file) with report visuals and semantic models for customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 403.2,
+      "t_end": 415.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only works in version 27 released in October",
+        "Does not work for previous versions of the PowerBI app for sales"
+      ],
+      "tags": [
+        "open-source",
+        "powerbi",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales by project report",
+      "description": "New report showcasing sales from projects, including resources and GL account lines sold within project scope.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.4,
+      "t_end": 387.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "projects",
+        "reporting"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Excel layouts for analytical reports",
+      "description": "Analytical reports now include Excel layouts enabling interactive analysis with multiple worksheets and pivot capabilities, alongside traditional PDF and Word layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.7,
+      "t_end": 566.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "interactive",
+        "layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word layouts for analytical reports",
+      "description": "Analytical reports now support Word layouts for printable outputs, providing a visual experience similar to the previous PDF rendering while enabling new layout technologies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.7,
+      "t_end": 496,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word",
+        "layouts",
+        "printing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "In-client teaching tips for reports",
+      "description": "Teaching tips and help descriptions added to analytical reports, providing inline documentation accessible through captions and the help pane.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 586.9,
+      "t_end": 614.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "help",
+        "documentation",
+        "teaching-tips"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Tell me and Copilot integration for reports",
+      "description": "Report descriptions are reused in the Tell me search and Copilot chat for better discoverability of analytical reports and their capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 600.5,
+      "t_end": 614.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "tell-me",
+        "search"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Modernized analytical reports",
+      "description": "All analytical reports in Business Central modernized with new layouts and improved help. Seven reports updated with new layouts and four legacy reports deprecated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.7,
+      "t_end": 668.4,
+      "is_demoed": true,
+      "caveats": [
+        "Four legacy reports no longer needed and deprecated"
+      ],
+      "tags": [
+        "reports",
+        "modernization",
+        "deprecation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Customer item sales report",
+      "description": "Example of a modernized sales analytical report now available with Word and Excel layouts for interactive and printable analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 482.4,
+      "t_end": 566.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer",
+        "sales",
+        "reports"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "sales forecasting",
+      "t": 172.3
+    },
+    {
+      "type": "report",
+      "name": "sales by project",
+      "t": 351.4
+    },
+    {
+      "type": "report",
+      "name": "customer item sales report",
+      "t": 482.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 83,
+      "text": "In this wave, we are completing the modernization of existing reports in Business Central and also updating the PowerBI app",
+      "why_it_matters": "Defines the scope of this wave's focus on sales analytics - both PowerBI updates and report modernization.",
+      "check": "exact"
+    },
+    {
+      "t": 132.5,
+      "text": "updating the data model and reports uh with other types of sales than selling items. So you can also in business central sell gines",
+      "why_it_matters": "Announces expanded sales analytics capability to support non-item sales, important for project-based organizations.",
+      "check": "exact"
+    },
+    {
+      "t": 144.3,
+      "text": "we have uh made the the model and the reports in a quality where we believe now we can open source this.",
+      "why_it_matters": "Signals that open sourcing the PowerBI app was a quality and maturity decision.",
+      "check": "exact"
+    },
+    {
+      "t": 182.4,
+      "text": "This is a statistical model. This is AI but like classic AI or machine learning. Um so not generative AI.",
+      "why_it_matters": "Clarifies the type of AI used - traditional machine learning rather than generative AI.",
+      "check": "exact"
+    },
+    {
+      "t": 415.3,
+      "text": "Note that this only works in the version 27 in the one we release here in October. Doesn't work for sales for the sales",
+      "why_it_matters": "Important limitation on open source availability - only version 27 and later support downloading source files.",
+      "check": "exact"
+    },
+    {
+      "t": 510,
+      "text": "now you actually have a fully interactive way of analyzing that report data set.",
+      "why_it_matters": "Highlights the key benefit of Excel layouts - interactive analysis capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 652.5,
+      "text": "We actually modernized all the analytical reports uh that exist in business central updating I think it's seven of those and deprecating four.",
+      "why_it_matters": "Quantifies the report modernization effort and indicates four legacy reports are no longer maintained.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 415.3,
+      "kind": "not-in-this-release",
+      "text": "this only works in the version 27 in the one we release here in October. Doesn't work for sales for the sales app for previous versions"
+    },
+    {
+      "t": 668.4,
+      "kind": "subject-to-change",
+      "text": "These four reports are no longer needed. They are covered in other places of the product either with data analysis and or with a PowerBI app for sales."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028138
+    }
+  ]
+}

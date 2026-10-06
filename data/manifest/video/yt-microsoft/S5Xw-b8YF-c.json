@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=S5Xw-b8YF-c",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:26:58.129Z",
+      "path": "data/extract/video/S5Xw-b8YF-c.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.023432
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:05.064Z",
+      "path": "data/summary/video/S5Xw-b8YF-c.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0144104
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:05.065Z",
+      "systems": [
+        "integration",
+        "localization",
+        "copilot"
+      ],
+      "topics": 10,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:27:05.076Z",
+      "path": "content/videos/S5Xw-b8YF-c.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： APIs in E-Documents (2025 release wave 2) [S5Xw-b8YF-c].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "3ed5c977c967f67f3a896c72c85daae0e94d136d54785a60a210ebdda358bb9e"
 }

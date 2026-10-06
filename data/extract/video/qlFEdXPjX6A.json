@@ -1,0 +1,520 @@
+{
+  "video_id": "qlFEdXPjX6A",
+  "item_id": "video/yt-microsoft/qlFEdXPjX6A",
+  "title": "What's New: AL Language (2025 release wave 2)",
+  "duration_s": 720,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "allowing customizations",
+    "mask type",
+    "extended data types",
+    "report tooltips",
+    "record id formatting",
+    "namespace support",
+    "ai tests",
+    "deprecation",
+    "vs code"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Allowing Customizations",
+      "t_start": 0,
+      "t_end": 27
+    },
+    {
+      "title": "Allowing Customizations Property and Classification",
+      "t_start": 27,
+      "t_end": 125.4
+    },
+    {
+      "title": "Mask Type, Document Extended Data Type, and Code Cup Rules",
+      "t_start": 125.4,
+      "t_end": 176.2
+    },
+    {
+      "title": "Page Features and UI Rendering",
+      "t_start": 176.2,
+      "t_end": 333.9
+    },
+    {
+      "title": "Report Tooltips and Table Methods",
+      "t_start": 333.9,
+      "t_end": 442
+    },
+    {
+      "title": "Sequential GUID, Data Transfer Objects, Text Constants, and Record ID",
+      "t_start": 442,
+      "t_end": 553.4
+    },
+    {
+      "title": "Namespace Support and External Business Events",
+      "t_start": 553.4,
+      "t_end": 626.6
+    },
+    {
+      "title": "AI Test Type and Cancellation Token in VS Code",
+      "t_start": 626.6,
+      "t_end": 720
+    }
+  ],
+  "features": [
+    {
+      "name": "Allowing Customizations Property Updates",
+      "description": "Extended allowing customizations property with new options: deprecated always option replaced with 'as read only', 'as read write', and new 'to be classified' option to indicate incomplete classification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27,
+      "t_end": 113.4,
+      "is_demoed": true,
+      "caveats": [
+        "As read only behaves the same as the deprecated always option"
+      ],
+      "tags": [
+        "customization",
+        "fields",
+        "page customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Mask Type Property on Fields",
+      "description": "New property on fields called mask type with options 'none' and 'concealed' to conceal data from the UI. Different from extended data type masked.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 125.4,
+      "t_end": 141.8,
+      "is_demoed": true,
+      "caveats": [
+        "Different behavior from extended data type masked",
+        "Only two options currently available"
+      ],
+      "tags": [
+        "security",
+        "data concealment",
+        "ui"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Document Extended Data Type Option",
+      "description": "New option called 'document' added to extended data types to indicate that media should be rendered in portrait mode for document viewing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.8,
+      "t_end": 154.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document rendering",
+        "media",
+        "ui",
+        "extended data types"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Cup Rule for Auto Format Properties",
+      "description": "New code cup rule to enforce usage of auto format type and auto format expression properties to help models understand what kind of data goes into fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.1,
+      "t_end": 176.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code quality",
+        "auto format",
+        "rules"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Summary Fact Box Control",
+      "description": "Automatically added summary fact boxes on card, list, and document pages. Can be hidden by referencing summary system part and setting visibility to false.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.1,
+      "t_end": 248.4,
+      "is_demoed": true,
+      "caveats": [
+        "Automatically added so may need to be explicitly hidden if not wanted"
+      ],
+      "tags": [
+        "fact boxes",
+        "page design",
+        "summary"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report Tooltips",
+      "description": "Ability to specify tooltips on reports that provide extra data to users. Tooltips are included in XML data for Word and Excel reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 333.9,
+      "t_end": 371.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "tooltips",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Truncate Method on Tables",
+      "description": "New truncate method on tables for more performant data deletion with some limitations. Cannot be used on media tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371.9,
+      "t_end": 399.5,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot be used on media tables",
+        "Has other limitations documented in documentation"
+      ],
+      "tags": [
+        "performance",
+        "tables",
+        "data deletion"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock Timeout Duration Method",
+      "description": "New method to set lock timeout duration to a specific number of milliseconds. Can also be set to zero to disable timeout.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 406.2,
+      "t_end": 421.7,
+      "is_demoed": false,
+      "caveats": [
+        "Setting to zero causes indefinite waiting and is not recommended"
+      ],
+      "tags": [
+        "locks",
+        "performance",
+        "timeout"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record Reference Field Access Methods",
+      "description": "New methods for record references: field exists to check if a field exists and field name to access field values using field names in the fields collection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 421.7,
+      "t_end": 442,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "record references",
+        "field access",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Create Sequential GUID Method",
+      "description": "New create sequential GUID method to generate GUIDs that are not fully random, improving performance when inserting many GUIDs in indexes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442,
+      "t_end": 457.7,
+      "is_demoed": false,
+      "caveats": [
+        "Not fully random GUIDs"
+      ],
+      "tags": [
+        "guids",
+        "performance",
+        "indexes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Update Audit Fields Property on Data Transfer Objects",
+      "description": "New update audit fields property on data transfer objects that can be set to false to prevent audit fields from being updated when using copy fields function.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 457.7,
+      "t_end": 478.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data transfer objects",
+        "audit fields"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Text Constant Methods",
+      "description": "Text constants now have all text methods available that text variables have, including contains, ends with, index of and other text manipulation methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 478.8,
+      "t_end": 500.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "text methods",
+        "constants",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record ID Formatting Enhancements",
+      "description": "Record ID formatting enhanced with new formats. Format 2 and 9 return fully qualified names for namespaced tables. Format 0 returns table name, format 1 returns table caption with key.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 500.9,
+      "t_end": 553.4,
+      "is_demoed": true,
+      "caveats": [
+        "Behavior differs for namespaced vs non-namespaced tables"
+      ],
+      "tags": [
+        "record id",
+        "formatting",
+        "namespaces"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Namespace Column in Metadata Tables",
+      "description": "New AL namespace column added to metadata tables to search for and identify namespaced tables in a project.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 568.5,
+      "t_end": 595.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "metadata",
+        "namespaces",
+        "tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "External Business Event Deprecation",
+      "description": "Ability to deprecate external business events. Recommended to change external display name to indicate obsolescence to external consumers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 595.4,
+      "t_end": 613.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "deprecation",
+        "integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User Control Obsolescence",
+      "description": "Ability to obsolete user controls using existing obsolete methods and properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 613.7,
+      "t_end": 626.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "user controls",
+        "deprecation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Test Type",
+      "description": "New test type 'AI test' added to indicate that a test validates AI behaviors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 626.6,
+      "t_end": 643.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "ai",
+        "test types"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Required Test Isolation Property",
+      "description": "New required test isolation property on code units to indicate to users what isolation level is needed to run the tests in that code unit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 626.6,
+      "t_end": 643.8,
+      "is_demoed": false,
+      "caveats": [
+        "Tests may not work if run in a different isolation level than required"
+      ],
+      "tags": [
+        "testing",
+        "isolation",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cancellation Token Propagation in VS Code",
+      "description": "Cancellation token now propagated to the server in VS Code extension. Allows cancelling publish operations that would otherwise run indefinitely.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 659,
+      "t_end": 707.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "publishing",
+        "performance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Flight Data",
+      "t": 513.8
+    },
+    {
+      "type": "table",
+      "name": "Flight Lock Entry",
+      "t": 513.8
+    },
+    {
+      "type": "page",
+      "name": "install code unit",
+      "t": 659
+    }
+  ],
+  "presenters": [
+    {
+      "name": "unnamed presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 41.2,
+      "text": "we deprecated the always option and extended it with two new as read only as read write",
+      "why_it_matters": "Establishes the key change to the allowing customizations property for field-level customization control.",
+      "check": "exact"
+    },
+    {
+      "t": 125.4,
+      "text": "We have a new property on fields called mask type. The mask type has two options for now. The none and the concealed.",
+      "why_it_matters": "Introduces the new mask type property for data concealment in the UI with specific options.",
+      "check": "exact"
+    },
+    {
+      "t": 141.8,
+      "text": "On the extended data types, we added a new option called document. Document is intended for you to to tell the client that this",
+      "why_it_matters": "Explains the purpose of the new document option for extended data types in portrait rendering.",
+      "check": "exact"
+    },
+    {
+      "t": 371.9,
+      "text": "If you work with a lot of data here, you have now a new option to use the truncate method on tables.",
+      "why_it_matters": "Announces the new truncate method as a performance optimization option for large data operations.",
+      "check": "exact"
+    },
+    {
+      "t": 528.6,
+      "text": "But now if you use format two or format 9, you will get the fully qualified name of a table that is namespaced.",
+      "why_it_matters": "Explains new record ID formatting options that support namespaced tables with fully qualified names.",
+      "check": "exact"
+    },
+    {
+      "t": 568.5,
+      "text": "As part of the namespace work, we also introduce the AL namespace colum in the metadata tables.",
+      "why_it_matters": "Introduces namespace metadata support for discovering namespaced tables in a project.",
+      "check": "exact"
+    },
+    {
+      "t": 613.7,
+      "text": "Here for tests, we added a new test type AI test. This is to indicate that this test is all about validating AI behaviors.",
+      "why_it_matters": "Establishes a new test type category specifically for AI behavior validation.",
+      "check": "exact"
+    },
+    {
+      "t": 686.1,
+      "text": "We've now taken the cancellation token here and propagated it all the way to the server. So when I click cancel the whole operation",
+      "why_it_matters": "Describes a VS Code extension improvement that resolves the issue of never-ending publish operations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 386.4,
+      "kind": "other",
+      "text": "The truncate method has some limitations. Among others, you cannot use it on media tables. I recommend everyone who thinks about using it to go check out the documentation"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 19
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035808
+    }
+  ]
+}

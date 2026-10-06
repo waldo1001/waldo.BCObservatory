@@ -1,0 +1,284 @@
+{
+  "video_id": "S5Xw-b8YF-c",
+  "item_id": "video/yt-microsoft/S5Xw-b8YF-c",
+  "title": "What's New: APIs in E-Documents (2025 release wave 2)",
+  "duration_s": 693,
+  "systems": [
+    "integration",
+    "localization",
+    "copilot"
+  ],
+  "topics": [
+    "e-documents",
+    "apis",
+    "power automate",
+    "business events",
+    "integration",
+    "code-free",
+    "sharepoint",
+    "odata",
+    "external sources",
+    "custom agents"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 30.1
+    },
+    {
+      "title": "Why APIs for e-documents: flexibility and integration",
+      "t_start": 30.1,
+      "t_end": 113.3
+    },
+    {
+      "title": "What is delivered: five APIs and two business events",
+      "t_start": 113.3,
+      "t_end": 174
+    },
+    {
+      "title": "Demo setup: create e-document from SharePoint",
+      "t_start": 174,
+      "t_end": 228.7
+    },
+    {
+      "title": "Demo execution: SharePoint to Business Central flow",
+      "t_start": 228.7,
+      "t_end": 368.1
+    },
+    {
+      "title": "Demo setup: business event for e-document export",
+      "t_start": 368.1,
+      "t_end": 433.9
+    },
+    {
+      "title": "Demo execution: e-document business event and APIs",
+      "t_start": 433.9,
+      "t_end": 626.2
+    },
+    {
+      "title": "Resources and closing remarks",
+      "t_start": 626.2,
+      "t_end": 693
+    }
+  ],
+  "features": [
+    {
+      "name": "E-Documents APIs",
+      "description": "Five new APIs for e-document integration enabling flexible and code-free communication through Power Automate and other tools. Allows triggering processes from e-documents and generating e-documents from external sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.9,
+      "t_end": 174,
+      "is_demoed": true,
+      "caveats": [
+        "Not intended as the first channel of communication",
+        "Should be used as parallel or additional channel",
+        "E-document file contents must be in base 64 encoding"
+      ],
+      "tags": [
+        "apis",
+        "e-documents",
+        "integration",
+        "power automate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Business Events",
+      "description": "Two business events added for e-document workflows: one that triggers when e-document service status changes, enabling external systems to react to e-document state transitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.3,
+      "t_end": 174,
+      "is_demoed": true,
+      "caveats": [
+        "Specific business event: e document service status changed"
+      ],
+      "tags": [
+        "business events",
+        "e-documents",
+        "workflows"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Create E-Document from External Sources",
+      "description": "API capability to generate e-documents in Business Central from various external sources like SharePoint, OneDrive, or other XML sources without manual processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.3,
+      "t_end": 368.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires file contents in base 64 encoding",
+        "Service must exist in the system",
+        "Supports specific XML formats"
+      ],
+      "tags": [
+        "e-documents",
+        "external sources",
+        "sharepoint",
+        "power automate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Export via Business Events",
+      "description": "Business event capability that detects when e-document service status changes to exported, allowing external systems to retrieve and forward e-documents through alternative channels like email or custom services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.4,
+      "t_end": 626.2,
+      "is_demoed": true,
+      "caveats": [
+        "Condition-based triggering: only fires when status is exported",
+        "Requires manual setup of flows in Power Automate or similar tools"
+      ],
+      "tags": [
+        "business events",
+        "e-documents",
+        "export",
+        "workflows"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Documents OData Filtering",
+      "description": "Support for OData filter queries to query e-document and e-document service data with advanced filtering capabilities including entry numbers and service codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.8,
+      "t_end": 577.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of OData query syntax",
+        "Complex setup for multiple filter conditions"
+      ],
+      "tags": [
+        "odata",
+        "e-documents",
+        "apis",
+        "filtering"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Custom Agents with Copilot Studio Integration",
+      "description": "E-document APIs enable creation of new custom agents using Copilot Studio for orchestrating e-document workflows with AI-driven processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.2,
+      "t_end": 113.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Copilot Studio license",
+        "Not demonstrated in video"
+      ],
+      "tags": [
+        "copilot",
+        "custom agents",
+        "e-documents",
+        "ai"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "E documents",
+      "t": 285
+    },
+    {
+      "type": "table",
+      "name": "E document service",
+      "t": 502.7
+    },
+    {
+      "type": "table",
+      "name": "E document service status",
+      "t": 515.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovich",
+      "confidence": "medium"
+    },
+    {
+      "name": "Manos",
+      "confidence": "low"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.9,
+      "text": "This is antibiotic plant and now finally this is live.",
+      "why_it_matters": "Confirms that e-document APIs are now generally available in the 2025 release wave 2",
+      "check": "exact"
+    },
+    {
+      "t": 30.1,
+      "text": "So first we wanted to enable flexible and codefree integration.",
+      "why_it_matters": "Establishes the core design goal of making e-document integration accessible without requiring code",
+      "check": "exact"
+    },
+    {
+      "t": 41.1,
+      "text": "It doesn't mean that it should be first channel of communication. It can be but this is not intended for that.",
+      "why_it_matters": "Important limitation: these APIs are meant as supplementary channels, not primary communication paths",
+      "check": "exact"
+    },
+    {
+      "t": 174,
+      "text": "We deliver five APIs and two business events.",
+      "why_it_matters": "Defines the scope of the new e-document integration capability",
+      "check": "exact"
+    },
+    {
+      "t": 255,
+      "text": "Important to note is that we expect the contents of a of an electronic document in B 64.",
+      "why_it_matters": "Technical requirement for using the e-document creation APIs - file contents must be base 64 encoded",
+      "check": "exact"
+    },
+    {
+      "t": 447.1,
+      "text": "this is one of these business events that we have added that's called e document service status changed.",
+      "why_it_matters": "Names one of the two new business events that trigger on e-document state transitions",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023432
+    }
+  ]
+}

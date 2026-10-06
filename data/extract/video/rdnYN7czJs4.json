@@ -1,0 +1,280 @@
+{
+  "video_id": "rdnYN7czJs4",
+  "item_id": "video/yt-microsoft/rdnYN7czJs4",
+  "title": "What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)",
+  "duration_s": 581,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "telemetry",
+    "dashboards",
+    "azure data explorer",
+    "application insights",
+    "devops",
+    "workflow monitoring",
+    "github",
+    "self-hosted runners"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Problem Statement",
+      "t_start": 0,
+      "t_end": 76.7
+    },
+    {
+      "title": "Setting Up Telemetry",
+      "t_start": 76.7,
+      "t_end": 142.2
+    },
+    {
+      "title": "Downloading and Configuring the Dashboard",
+      "t_start": 142.2,
+      "t_end": 256.6
+    },
+    {
+      "title": "Importing Dashboard and Overview Tab",
+      "t_start": 256.6,
+      "t_end": 338
+    },
+    {
+      "title": "Workflow Duration and Runner Pages",
+      "t_start": 338,
+      "t_end": 418.9
+    },
+    {
+      "title": "AL-Go Maintenance and Deprecations",
+      "t_start": 418.9,
+      "t_end": 488.6
+    },
+    {
+      "title": "Dashboard as Starting Point and Community Contributions",
+      "t_start": 488.6,
+      "t_end": 549.4
+    },
+    {
+      "title": "Resources and Closing",
+      "t_start": 549.4,
+      "t_end": 581
+    }
+  ],
+  "features": [
+    {
+      "name": "Starter Dashboard for AL-Go Telemetry",
+      "description": "A new out-of-the-box dashboard that allows users to easily monitor AL-Go repositories without extensive setup. The dashboard provides workflow metrics, failure tracking, duration monitoring, and runner information across multiple repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.8,
+      "t_end": 154.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires initial setup of Application Insights in Azure",
+        "Dashboard is meant as a starting point and can be customized"
+      ],
+      "tags": [
+        "dashboards",
+        "telemetry",
+        "monitoring",
+        "azure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Telemetry to Application Insights",
+      "description": "Feature that logs telemetry from AL-Go workflows to Azure Application Insights by setting up a partner telemetry connection string in AL-Go settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.7,
+      "t_end": 142.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not a new feature in this release"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow Overview Page",
+      "description": "Dashboard page showing repository count, workflow run counts, and failure metrics over time with direct links to GitHub UI for investigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.6,
+      "t_end": 338,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboards",
+        "monitoring",
+        "overview"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow Duration Monitoring",
+      "description": "Dashboard page that tracks average workflow duration over time per repository, helping to identify performance trends and potential issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 338,
+      "t_end": 371.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboards",
+        "performance",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runner Metrics Page",
+      "description": "Dashboard page for monitoring self-hosted versus GitHub-hosted runners, including compute time in hours and Linux versus Windows runner usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371.2,
+      "t_end": 418.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboards",
+        "runners",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Maintenance Page",
+      "description": "Dashboard page that shows current AL-Go versions across repositories and alerts when updates are available. Includes update workflow history and deprecation warnings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 418.9,
+      "t_end": 488.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboards",
+        "maintenance",
+        "version management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Deprecation Warnings",
+      "description": "Dashboard alerts that notify users when AL-Go settings are deprecated, providing guidance on required actions through linked articles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 461.8,
+      "t_end": 488.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboards",
+        "maintenance",
+        "deprecations"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Application Insights",
+      "t": 76.7
+    },
+    {
+      "type": "other",
+      "name": "Azure Data Explorer",
+      "t": 256.6
+    },
+    {
+      "type": "other",
+      "name": "update algo system files workflow",
+      "t": 446.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Hollstrop",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 40.2,
+      "text": "as the number of repositories grow in your organization then it becomes more difficult to get a full overview of of all your DevOps",
+      "why_it_matters": "Explains the core problem that telemetry and dashboards solve - visibility across many repositories.",
+      "check": "exact"
+    },
+    {
+      "t": 76.7,
+      "text": "this is not a new feature, so I'll just speedrun through it",
+      "why_it_matters": "Clarifies that telemetry itself is existing functionality, only the dashboard starter is new.",
+      "check": "exact"
+    },
+    {
+      "t": 292.6,
+      "text": "in this starter dashboard you can see the number of repositories you're collecting telemetry for the number of workflow runs you can see the",
+      "why_it_matters": "Lists specific metrics available in the overview page of the dashboard.",
+      "check": "exact"
+    },
+    {
+      "t": 434.2,
+      "text": "right now as we're recording this is version 7.3",
+      "why_it_matters": "States the current version of AL-Go at the time of recording.",
+      "check": "exact"
+    },
+    {
+      "t": 499.1,
+      "text": "this is only a starting point and it's only meant to be a starting point. You can take this dashboard and you know go",
+      "why_it_matters": "Describes the dashboard's design philosophy as a foundation for customization.",
+      "check": "exact"
+    },
+    {
+      "t": 531.8,
+      "text": "the last latest version of ALGO for GitHub now includes a starter dashboard that makes it easier than ever to get started",
+      "why_it_matters": "Direct statement of the new capability and its status as generally available.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 531.8,
+      "kind": "other",
+      "text": "the last latest version of ALGO for GitHub now includes a starter dashboard"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023740999999999998
+    }
+  ]
+}

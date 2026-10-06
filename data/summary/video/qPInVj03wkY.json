@@ -1,0 +1,27 @@
+{
+  "video_id": "qPInVj03wkY",
+  "item_id": "video/yt-microsoft/qPInVj03wkY",
+  "summary": "Business Central sustainability CSRD reporting in 2025 release wave 2: the ESG Aggregation Reporting tool, the external ESG reporting Power App, Dataverse setup, two-way data sync, and Excel export for XBRL conversion. Demoed with sustainability ledger entry mapping and formulas.",
+  "overview": "The video shows how Business Central supports CSRD and other ESG reporting standards. It covers the integration architecture between Business Central and an external ESG reporting Power App, the ESG Aggregation tool setup, the prerequisites, and demos of external tool setup, aggregation configuration, calculation, posting and data sync.\n\nData posted in Business Central is copied as facts into the matching place in the external tool, based on the chosen standard. The aggregation tool can also be used manually without the Power App, with CSRD preparation reports as a backup. The final export goes to Excel, with documentation for XBRL conversion. The presenter notes that standards are subject to change and that users need to understand what they are doing.",
+  "key_points": [
+    "The external ESG reporting tool is a Power App that needs at least one Power App license; the presenter says nothing additional has to be paid.",
+    "A Dataverse connection through a wizard is mandatory, and data synchronization must also be enabled explicitly in Business Central (Sustainability Setup).",
+    "Communication between Business Central and the external tool is bidirectional, and bidirectional mapping must be configured.",
+    "The ESG Aggregation Reporting page calculates values from several sources, with filters and formulas (multiply, divide, plus, minus, brackets), for example percentages.",
+    "Sustainability ledger entries, including carbon equivalent data, can be mapped to reporting lines, with filters needed to separate scopes. Not all lines are populated from Business Central, so some data, such as risk assessments, needs manual entry.",
+    "The tool can be used without the Power App to prepare data for manual CSRD reporting, with CSRD preparation reports available.",
+    "Final export is to Excel, and a separate XBRL conversion is required for submission. Standards named include CSRD, Australian reporting, Indian GRIS and SRS."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "8d53cb70b2c626e358373b54dfcd2d2dd56e4f080a72e49d925e99b0fc6e0977",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019046399999999998
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "video_id": "Sc8eGyMkBTA",
+  "item_id": "video/yt-microsoft/Sc8eGyMkBTA",
+  "title": "What's New in Sustainability: Value Chain in Projects (2025 release wave 2)",
+  "duration_s": 414,
+  "systems": [
+    "sustainability",
+    "projects",
+    "purchasing"
+  ],
+  "topics": [
+    "value chain automation",
+    "carbon footprint",
+    "emissions tracking",
+    "project sustainability",
+    "scope three coverage",
+    "compliance reporting",
+    "co2 emissions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 31.1
+    },
+    {
+      "title": "Evolution of Sustainability Features",
+      "t_start": 31.1,
+      "t_end": 60.9
+    },
+    {
+      "title": "Projects Extension and Business Value",
+      "t_start": 60.9,
+      "t_end": 100.1
+    },
+    {
+      "title": "Technical Implementation Details",
+      "t_start": 100.1,
+      "t_end": 161.9
+    },
+    {
+      "title": "Demo Setup - Sustainability Configuration",
+      "t_start": 161.9,
+      "t_end": 237.5
+    },
+    {
+      "title": "Demo - Project Journal Posting",
+      "t_start": 237.5,
+      "t_end": 324.6
+    },
+    {
+      "title": "Demo - Project Statistics and Results",
+      "t_start": 324.6,
+      "t_end": 375.8
+    },
+    {
+      "title": "Closing Remarks and Resources",
+      "t_start": 375.8,
+      "t_end": 414
+    }
+  ],
+  "features": [
+    {
+      "name": "Value Chain Automation in Projects",
+      "description": "Extension of value chain automation to project journals and purchase invoices with project numbers. When posting purchase invoices for projects, the system generates two lines: a purchase line and a negative adjustment entry that enters into sustainability value entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.9,
+      "t_end": 147.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with carbon equivalent, not other gases"
+      ],
+      "tags": [
+        "projects",
+        "emissions",
+        "value chain",
+        "carbon",
+        "automation"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Fast Tab on Items",
+      "description": "Items now have a sustainability fast tab where users can set a standard account number and default CO2 emissions number, with the system calculating total CO2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201,
+      "t_end": 229.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "items",
+        "emissions",
+        "sustainability",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Fast Tab on Resources",
+      "description": "Resources now have a sustainability fast tab allowing users to add accounts and set default CO2 emission numbers for resource-based calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.5,
+      "t_end": 256.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "emissions",
+        "sustainability",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Project Statistics with Emissions Data",
+      "description": "Project statistics now display emissions calculations and workflow-related sustainability data, allowing users to see the impact of project activities on carbon footprint.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349,
+      "t_end": 375.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "projects",
+        "statistics",
+        "emissions",
+        "reporting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Scope Three Coverage via Value Chain",
+      "description": "The value chain automation enables end-to-end scope three coverage, tracking not just supply chain emissions but also project-related emissions for comprehensive environmental impact reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.4,
+      "t_end": 100.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "scope three",
+        "carbon footprint",
+        "compliance",
+        "environmental"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Procurement Setup for Value Chain Tracking",
+      "description": "Users can enable value chain tracking for sustainability via a single field in the Sustainability Setup procurement fast tab. Once enabled, emissions are automatically calculated and tracked.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.4,
+      "t_end": 161.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "automation",
+        "procurement"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup",
+      "t": 173.1
+    },
+    {
+      "type": "page",
+      "name": "Items",
+      "t": 201
+    },
+    {
+      "type": "page",
+      "name": "Resources",
+      "t": 237.5
+    },
+    {
+      "type": "page",
+      "name": "Project Journals",
+      "t": 267.4
+    },
+    {
+      "type": "page",
+      "name": "Projects",
+      "t": 327.4
+    },
+    {
+      "type": "page",
+      "name": "Project Statistics",
+      "t": 359.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toto",
+      "confidence": "high"
+    },
+    {
+      "name": "Jacob Bang",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.6,
+      "text": "We enabled this value chain automation for carbon footprint embedded. So this is something what we already introduced in previous wave.",
+      "why_it_matters": "Clarifies that value chain automation for carbon footprint was introduced in a previous release, establishing the foundation for the project extension.",
+      "check": "exact"
+    },
+    {
+      "t": 89.4,
+      "text": "So what are business values with this functionality will really cover end to end scope three coverage.",
+      "why_it_matters": "States the primary business value of the feature - comprehensive scope three emissions coverage beyond supply chain.",
+      "check": "exact"
+    },
+    {
+      "t": 111.6,
+      "text": "It is important to remember it doesn't work with all gases only with the carbon equivalent.",
+      "why_it_matters": "Sets a clear technical limitation that the system only uses carbon equivalent calculations, not other individual gases.",
+      "check": "exact"
+    },
+    {
+      "t": 124.6,
+      "text": "So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two",
+      "why_it_matters": "Explains the core posting mechanism for emissions in projects, including the dual-line entry approach.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019953
+    }
+  ]
+}

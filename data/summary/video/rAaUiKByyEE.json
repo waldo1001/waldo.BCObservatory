@@ -1,0 +1,28 @@
+{
+  "video_id": "rAaUiKByyEE",
+  "item_id": "video/yt-microsoft/rAaUiKByyEE",
+  "summary": "Sales analytics changes in Business Central 2025 release wave 2: updated PowerBI app for sales with a forecasting report, support for resource and G/L account sales, an open source PBIX, a Sales by project report, and seven analytical reports modernized with Word and Excel layouts (four deprecated).",
+  "overview": "The session covers the completion of the analytical report modernization in Business Central and an updated PowerBI app for sales. The PowerBI data model and reports now cover sales of resources and G/L account lines as well as items, which matters for project-based sales. A forecasting report uses a statistical machine learning model, not generative AI, on historical transactions. It has parameters for seasonality, look-back period and confidence bounds that are set manually in the report visuals.\n\nThe PowerBI app for sales is now open source, so the PBIX file with report visuals and semantic models can be downloaded and customized. This only works with version 27 released in October, not with earlier versions of the app. A new Sales by project report is shown. Analytical reports gain Word layouts for printing and Excel layouts for interactive analysis, with the Customer item sales report as the example. Teaching tips and descriptions are added, and the descriptions are reused in Tell me and Copilot chat. Seven reports were updated and four legacy reports deprecated.",
+  "key_points": [
+    "The PowerBI app for sales now supports selling resources and G/L account lines in addition to items, relevant for project sales.",
+    "Sales forecasting in PowerBI is a statistical machine learning model, not generative AI. Seasonality, look-back period and confidence bounds are configured manually in the report visuals.",
+    "The PowerBI app for sales is open source: the PBIX file can be downloaded and customized. It works only with version 27 released in October, not previous app versions.",
+    "A new Sales by project report shows sales from projects, including resources and G/L account lines sold within project scope.",
+    "Analytical reports now have Word layouts for printing and Excel layouts with multiple worksheets and pivot analysis, shown with the Customer item sales report.",
+    "Seven analytical reports were updated and four legacy reports deprecated. Their function is covered by data analysis or the PowerBI app for sales.",
+    "Report descriptions and teaching tips appear in the help pane and are reused in Tell me and Copilot chat."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "0d3f6b3a75c29bd2bf88eae0d71af9bb57d6fd30b6cc987660b98672009fd182",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0181284
+  }
+}
