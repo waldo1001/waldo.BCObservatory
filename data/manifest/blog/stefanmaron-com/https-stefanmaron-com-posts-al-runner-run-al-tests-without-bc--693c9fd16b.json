@@ -7,7 +7,7 @@
   "url": "https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/",
   "published_at": "2026-04-24T05:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:59:48.295Z",
       "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md",
       "words": 2128
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:00.442Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.014349
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:00.444Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:00.446Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:00.450Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9852004d9aa35ace62a1ddaf336dd0d11270fdf0b6e21dff6170fe8027864779"
+  "output_hash": "cb90914d8780544aca288e8958ff967a37d378784b684e78adfb5ea9dd83c8c1"
 }

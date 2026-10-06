@@ -7,7 +7,7 @@
   "url": "https://demiliani.com/2026/04/24/business-central-cloud-migration-be-careful-on-reusing-the-same-self-hosted-runtime/",
   "published_at": "2026-04-24T09:15:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:59:47.879Z",
       "path": "vault:posts/demiliani-com/13676.md",
       "words": 342
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:54.392Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005169
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:54.393Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:54.394Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:54.398Z",
+      "path": "content/posts/demiliani-com/13676.md"
     }
   },
   "input_hash": "2026-04-24T09:15:14.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfa55f9e213d03f005dacb6425bead54df848506a31af4ad009a04f61b120ab1"
+  "output_hash": "dbee3d6358a33c91cda2a784e9a52d2d34816f636cb7b7e698477b31458dc71c"
 }

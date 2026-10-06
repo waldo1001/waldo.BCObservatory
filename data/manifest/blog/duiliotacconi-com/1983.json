@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/04/17/dynamics-365-business-central-2026-wave-1-whats-new-in-performance/",
   "published_at": "2026-04-17T10:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:00.294Z",
+      "path": "vault:posts/duiliotacconi-com/1983.md",
+      "words": 637
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:07.763Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005775
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:07.764Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:07.765Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:07.769Z",
+      "path": "content/posts/duiliotacconi-com/1983.md"
     }
   },
   "input_hash": "2026-09-04T14:28:36.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4a7d84525531bb0ed43613d44703c4dbc20de8476296863906cdb4909b1bbe2b"
 }

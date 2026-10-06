@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/04/quick-tip-bc28-what-is-new-in-document-reporting/",
   "published_at": "2026-04-13T09:38:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:08.969Z",
+      "path": "vault:posts/thinkaboutit-be/7813.md",
+      "words": 953
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:17.850Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006478
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:17.851Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:17.853Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:17.857Z",
+      "path": "content/posts/thinkaboutit-be/7813.md"
     }
   },
   "input_hash": "2026-04-13T09:41:05.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c858ca11a7145cc64ec6975cc7efb33811f846de177dee3927fb0366a3c4f052"
 }

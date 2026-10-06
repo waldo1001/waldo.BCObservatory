@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/demiliani-com/13676",
+  "url": "https://demiliani.com/2026/04/24/business-central-cloud-migration-be-careful-on-reusing-the-same-self-hosted-runtime/",
+  "title": "Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.",
+  "source": "demiliani-com",
+  "published_at": "2026-04-24T09:15:14.000Z",
+  "words": 342,
+  "summary": "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data from on-premises SQL Server or Azure SQL to the cloud. Do not reuse the same self-hosted integration runtime across different migrations, as it becomes disabled after migration completion or 10 days of inactivity, causing setup errors.",
+  "key_points": [
+    "Cloud migration requires self-hosted integration runtime for SQL Server databases and Azure Integration Runtime for Azure SQL databases",
+    "The self-hosted runtime must be installed locally, registered in Azure Data Factory, and securely copies data to cloud pipelines",
+    "Reusing the same integration runtime across different migrations causes the error 'tenant has not been set up with a valid integration environment'",
+    "Integration runtime becomes disabled after migration completion or when inactive for more than 10 days",
+    "Each cloud migration should use its own dedicated integration runtime to avoid conflicts"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "integration runtime",
+    "on-premises",
+    "data replication",
+    "azure data factory"
+  ],
+  "objects": [],
+  "features": [
+    "Cloud Migration",
+    "Self-Hosted Integration Runtime",
+    "Azure Integration Runtime",
+    "Data Replication Pipeline"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005169,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "When one environment completes the cloud migration process, it disables the cloud side of the integration runtime, making it unusable for the other environments.",
+      "why_it_matters": "Explains the core issue that causes failures when sharing integration runtimes between migrations"
+    },
+    {
+      "text": "To prevent this, you should not share integration runtimes between environments.",
+      "why_it_matters": "Provides the critical best practice recommendation to avoid migration failures"
+    }
+  ]
+}

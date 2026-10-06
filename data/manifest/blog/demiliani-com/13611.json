@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/04/16/from-chat-completions-to-responses-api-why-azure-openais-new-paradigm-changes-everything/",
   "published_at": "2026-04-16T09:54:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:05.338Z",
+      "path": "vault:posts/demiliani-com/13611.md",
+      "words": 2827
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:17.813Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.016056
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:17.819Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:17.821Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:17.840Z",
+      "path": "content/posts/demiliani-com/13611.md"
     }
   },
   "input_hash": "2026-04-16T09:54:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c9c8fc978f4c0595d2004cd323a3f1745382d74ef5a7f0bb7eeebb707a1bae5"
 }

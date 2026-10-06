@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thinkaboutit-be/7846",
+  "url": "https://thinkaboutit.be/2026/04/quick-tip-calcfields-vs-setautocalcfields-in-al/",
+  "title": "Quick Tip: CalcFields vs SetAutoCalcFields in AL",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-04-23T12:22:33.000Z",
+  "words": 502,
+  "summary": "FlowFields in Business Central are not stored in the database and must be calculated explicitly. The post explains two methods for calculating them: CalcFields for one-time calculations on single records, and SetAutoCalcFields for automatic calculation during record retrieval, with guidance on which to use to avoid performance issues.",
+  "key_points": [
+    "CalcFields explicitly calculates FlowFields on the current record when called and is suitable for single-record calculations outside loops",
+    "SetAutoCalcFields automatically calculates specified FlowFields for every record retrieved during FindSet or loop iterations, improving performance over repeated CalcFields calls",
+    "Calling SetAutoCalcFields without parameters clears the auto-calculation list for the record variable",
+    "SetAutoCalcFields is scoped to the record variable, not the table, so different variables do not inherit the setting",
+    "As of BC26 (AL runtime 15.0), SetAutoCalcFields is available on RecordRef, enabling generic code to use the same pattern"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "flowfields",
+    "performance",
+    "al development",
+    "database",
+    "calcfields",
+    "setautocalcfields"
+  ],
+  "objects": [],
+  "features": [
+    "CalcFields method",
+    "SetAutoCalcFields method",
+    "FlowField calculation",
+    "RecordRef support"
+  ],
+  "versions": [
+    "BC26",
+    "2025 release wave 1",
+    "AL runtime 15.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005703,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Inside a loop, calling CalcFields on every iteration means a separate database call per record.",
+      "why_it_matters": "Explains the key performance problem that SetAutoCalcFields solves"
+    },
+    {
+      "text": "Use SetAutoCalcFields before any loop where you need a FlowField on every record.",
+      "why_it_matters": "Provides the main guideline for correct usage to achieve optimal performance"
+    }
+  ]
+}

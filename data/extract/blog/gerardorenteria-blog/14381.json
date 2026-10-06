@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14381",
+  "url": "https://gerardorenteria.blog/2026/04/16/%f0%9f%9a%ab-never-publish-an-al-extension-with-missing-translations-again/",
+  "title": "🚫 Never Publish an AL Extension with Missing Translations Again",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-04-16T11:24:49.000Z",
+  "words": 1399,
+  "summary": "A VS Code extension that validates translation files are present before publishing AL extensions, manages regional language variants, and visually highlights incomplete translations. It helps developers prevent missing translations for required markets.",
+  "key_points": [
+    "Enforces required languages through VS Code configuration and validation commands",
+    "Automatically handles regional language variants like es-ES_tradnl and fr-CH as equivalents of base languages",
+    "Creates or syncs regional variant translation files from base language files",
+    "Highlights incomplete translations in g.xlf and language-specific files with configurable visual indicators",
+    "Displays language status tooltips when hovering over highlighted entries"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "translation",
+    "al extension",
+    "localization",
+    "vs code",
+    "publication",
+    "language management"
+  ],
+  "objects": [],
+  "features": [
+    "Required language validation",
+    "Regional variant management",
+    "Translation file synchronization",
+    "Visual translation status indicators",
+    "Language-specific highlighting",
+    "Tooltip status display",
+    "Color-configurable highlighting"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011703,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "nothing prevents you from publishing an extension without a language for the markets that really need it",
+      "why_it_matters": "Identifies the core problem the extension solves - incomplete translations slipping through to production"
+    },
+    {
+      "text": "This extension validates that required language translation files are present, manages regional variations, and highlights incomplete translations as you work.",
+      "why_it_matters": "Summarizes the three main capabilities that address translation file management throughout development"
+    }
+  ]
+}

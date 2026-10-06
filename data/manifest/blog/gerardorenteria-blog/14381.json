@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/04/16/%f0%9f%9a%ab-never-publish-an-al-extension-with-missing-translations-again/",
   "published_at": "2026-04-16T11:24:49.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:03.338Z",
+      "path": "vault:posts/gerardorenteria-blog/14381.md",
+      "words": 1399
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:10.463Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.011703
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:10.465Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:10.466Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:10.468Z",
+      "path": "content/posts/gerardorenteria-blog/14381.md"
     }
   },
   "input_hash": "2026-04-16T11:25:15.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d470467a64d32198e1097722c0d59b1c5815d89a66cbf28817e05dd53999121f"
 }

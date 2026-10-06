@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/",
+  "title": "BC Friday Tips #70 Email Scenario Attachment",
+  "source": "thatnavguy-com",
+  "published_at": "2026-04-17T00:00:00.000Z",
+  "words": 85,
+  "summary": "Email scenarios in Business Central can include default attachments that are automatically sent with every email, such as terms and conditions attached to invoice emails. This prevents missed attachments and ensures consistent communication without requiring manual user action each time.",
+  "key_points": [
+    "Add default attachments directly to email scenarios like Sales Invoice emails",
+    "Default attachments are automatically included in every email sent through that scenario",
+    "Eliminates the need for users to manually attach documents each time",
+    "Reduces errors and ensures consistency in customer communications"
+  ],
+  "systems": [
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "email",
+    "attachments",
+    "scenarios",
+    "automation",
+    "communications"
+  ],
+  "objects": [],
+  "features": [
+    "Email Scenarios",
+    "Default Attachments",
+    "Sales Invoice Email"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003732,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If you always send documents like Terms and Conditions with invoices, don't rely on users to attach them manually.",
+      "why_it_matters": "It explains the problem that default attachments solve - reducing manual attachment work and user errors."
+    },
+    {
+      "text": "Attach the document once to the Sales Invoice email scenario. Now every invoice email includes it automatically.",
+      "why_it_matters": "It shows the practical implementation: a one-time setup that applies to all future emails of that type."
+    }
+  ]
+}

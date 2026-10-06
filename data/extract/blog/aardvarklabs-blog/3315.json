@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3315",
+  "url": "https://aardvarklabs.blog/2026/04/24/effective-steps-for-troubleshooting-business-central-agents/",
+  "title": "Effective Steps for Troubleshooting Business Central Agents",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-04-24T12:00:00.000Z",
+  "words": 1181,
+  "summary": "This post explains how to troubleshoot Business Central agents by examining task logs, step-by-step operations, and detailed agent actions. It covers analyzing agent reasoning, reviewing data visibility, adjusting agent permissions and profiles, and monitoring Copilot credit consumption.",
+  "key_points": [
+    "Agents perform work in discrete steps, and you can view each step's description, reasoning, and details in the Agent Tasks page",
+    "The View Log Entries shows how an agent navigated pages and invoked actions; View Details reveals what data and tools the agent accessed",
+    "Adjusting agent permissions, creating tuned profiles with limited role options, and controlling data visibility improves agent performance and reduces token usage",
+    "Monitor Copilot credit consumption to understand agent costs; each credit costs $0.01"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agent troubleshooting",
+    "testing agents",
+    "task logging",
+    "permissions",
+    "profile tuning",
+    "copilot credits",
+    "cost management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Tasks"
+    },
+    {
+      "type": "other",
+      "name": "Agent Setup"
+    },
+    {
+      "type": "other",
+      "name": "Profile Editor"
+    }
+  ],
+  "features": [
+    "Agent step-by-step debugging",
+    "View Messages functionality",
+    "View Log Entries",
+    "View Details inspection",
+    "Agent permissions management",
+    "Profile customization",
+    "Copilot credit tracking",
+    "Consumption data reporting"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006969,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/demiliani-com/13657",
+  "url": "https://demiliani.com/2026/04/15/azure-blob-storage-optimize-costs-and-performance-with-the-new-smart-tier-option/",
+  "title": "Azure Blob Storage: optimize costs and performance with the new Smart Tier option.",
+  "source": "demiliani-com",
+  "published_at": "2026-04-15T09:50:37.000Z",
+  "words": 674,
+  "summary": "Azure Blob Storage's new Smart Tier automatically manages data placement across hot, cool, and cold tiers based on access patterns, reducing storage costs without manual lifecycle policies. This feature is useful when access patterns are unpredictable and you want to optimize expenses for data lakes, analytics, and growing datasets.",
+  "key_points": [
+    "Smart Tier automatically shifts data between hot, cool, and cold tiers based on 30-day and 90-day inactivity thresholds without requiring manual rules",
+    "Only works with Standard GPv2 storage accounts using ZRS, GZRS, or RA-GZRS redundancy and supports only block blobs",
+    "Blobs under 128 KB stay in hot tier; larger blobs incur a monthly monitoring charge but no transition, deletion, or retrieval costs",
+    "Any data access immediately returns the blob to hot tier and resets the inactivity timer, keeping frequently used data performant"
+  ],
+  "systems": [
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "azure blob storage",
+    "cloud storage",
+    "cost optimization",
+    "data tiering",
+    "storage account",
+    "lifecycle management"
+  ],
+  "objects": [],
+  "features": [
+    "Smart Tier",
+    "automated tiering",
+    "hot/cool/cold tier placement",
+    "cost reduction",
+    "zero transition costs"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005862,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Blobs over 128 KiB incur a monthly monitoring charge; blobs 128 KiB or smaller do not.",
+      "why_it_matters": "Understanding the billing model is critical for cost estimation and helps identify which datasets benefit most from Smart Tier."
+    },
+    {
+      "text": "Any access resets the timer and immediately returns the blob to hot.",
+      "why_it_matters": "This ensures frequently accessed data maintains high performance while inactive data moves to cheaper tiers, balancing cost and performance."
+    }
+  ]
+}

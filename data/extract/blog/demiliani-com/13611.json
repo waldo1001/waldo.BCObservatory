@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/demiliani-com/13611",
+  "url": "https://demiliani.com/2026/04/16/from-chat-completions-to-responses-api-why-azure-openais-new-paradigm-changes-everything/",
+  "title": "From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.",
+  "source": "demiliani-com",
+  "published_at": "2026-04-16T09:54:16.000Z",
+  "words": 2827,
+  "summary": "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach for new AI projects, offering stateful conversations, better token efficiency, and built-in agentic capabilities. Business Central currently wraps Chat Completions through System.AI, but this architecture can evolve to support Responses API for more complex scenarios involving long conversations, autonomous agents, and background execution.",
+  "key_points": [
+    "Responses API stores conversation state server-side with unique IDs, eliminating the need to resend full history on each turn, reducing token costs and improving reliability.",
+    "Responses API is agentic by default, enabling models to call multiple tools and external services within a single request, unlike Chat Completions which requires manual orchestration.",
+    "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails, telemetry, and managed resources that make it worth using today, but the underlying design is extensible for future Responses API support.",
+    "Responses API supports background execution mode for long-running tasks, context compaction for extremely long interactions, and richer streaming events, capabilities unavailable in Chat Completions.",
+    "Chat Completions requires developers to manage conversation state client-side, causing quadratic cost growth as conversation length increases, while Responses API keeps state on the server."
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "azure openai",
+    "responses api",
+    "chat completions",
+    "system.ai",
+    "agentic",
+    "ai architecture",
+    "stateful conversations"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "AzureOpenAI"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Messages"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Completion Params"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Operation Response"
+    },
+    {
+      "type": "enum",
+      "name": "AOAI Model Type"
+    }
+  ],
+  "features": [
+    "Responses API",
+    "Chat Completions API",
+    "stateful conversations",
+    "agentic tool calling",
+    "context compaction",
+    "background execution mode",
+    "server-side state management",
+    "response lifecycle management"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016056,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

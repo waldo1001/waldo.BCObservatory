@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/duiliotacconi-com/1983",
+  "url": "https://duiliotacconi.com/2026/04/17/dynamics-365-business-central-2026-wave-1-whats-new-in-performance/",
+  "title": "Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-04-17T10:43:27.000Z",
+  "words": 637,
+  "summary": "Dynamics 365 Business Central 2026 Wave 1 introduces the ability to enable or disable database indexes directly in the UI, available per company or across all companies. This feature, combined with telemetry improvements, allows administrators to optimize performance by managing index usage without requiring development environment access.",
+  "key_points": [
+    "Index management moved from development environment to client UI in Table Information page",
+    "Granular control available at company level or across all companies simultaneously",
+    "Feature enables faster writes by removing unused indexes and faster reads by activating needed indexes",
+    "Ranks third in performance features since 2023 Wave 2, considered ground-breaking for online versions",
+    "Currently lacks AL API equivalent and tracking of manual index changes"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "performance",
+    "database optimization",
+    "indexes",
+    "telemetry",
+    "version 28",
+    "2026 wave 1"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Table Information"
+    }
+  ],
+  "features": [
+    "Enable/Disable Indexes in UI",
+    "Optimized Base64 Handling",
+    "sqlServerSessionId in telemetry signals",
+    "Index optimization at company level"
+  ],
+  "versions": [
+    "28",
+    "2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005775,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Together with telemetry? Pure explosive!",
+      "why_it_matters": "Indicates the combined power of index management and telemetry data for comprehensive performance analysis"
+    },
+    {
+      "text": "Enabling or disabling (optimizing) indexes is more than a simple technical drill. It is AN ART!",
+      "why_it_matters": "Emphasizes that index optimization requires strategic expertise and careful planning, not just technical execution"
+    }
+  ]
+}

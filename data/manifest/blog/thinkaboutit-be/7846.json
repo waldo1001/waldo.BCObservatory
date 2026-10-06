@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/04/quick-tip-calcfields-vs-setautocalcfields-in-al/",
   "published_at": "2026-04-23T12:22:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:55.560Z",
+      "path": "vault:posts/thinkaboutit-be/7846.md",
+      "words": 502
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:02.923Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005703
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:02.924Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:02.925Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:02.928Z",
+      "path": "content/posts/thinkaboutit-be/7846.md"
     }
   },
   "input_hash": "2026-04-23T12:22:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00bac37513f2432ffab923cfbfbacbf21d1335d89556620e6db28ad8089fa6c5"
 }
