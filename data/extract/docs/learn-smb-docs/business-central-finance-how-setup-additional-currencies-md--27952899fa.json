@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-additional-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies",
+  "title": "Set up additional currencies",
+  "blob": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972",
+  "summary": "Set up an additional reporting currency (ACY) to record transactions in both local and additional currencies with exchange rate adjustments and reporting capabilities.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "currency setup",
+    "exchange rates",
+    "reporting currency",
+    "foreign exchange",
+    "multi-currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "GL Account Card"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "Additional reporting currency activation",
+    "Exchange rate adjustment methods",
+    "GL account exchange adjustments",
+    "VAT exchange rate adjustments",
+    "Residual gains and losses posting",
+    "Multi-currency reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004232,
+      "pages_in_call": 8
+    }
+  ]
+}

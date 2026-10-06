@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-obsolete-objects.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-obsolete-objects",
+  "title": "Obsolete objects, methods, and symbols in AL",
+  "blob": "dbfcc9e6a04d92c480559749a63ca7572cc32db7",
+  "summary": "Guide to marking objects, methods, and symbols as obsolete in AL using ObsoleteState, ObsoleteReason, ObsoleteTag properties and the [Obsolete] attribute, with analyzer rules for enforcement.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "deprecation",
+    "obsoletion",
+    "al code",
+    "analyzer rules",
+    "versioning"
+  ],
+  "objects": [],
+  "features": [
+    "ObsoleteState",
+    "ObsoleteReason",
+    "ObsoleteTag",
+    "Obsolete attribute",
+    "preprocessor directives",
+    "analyzer rules",
+    "deprecation guidelines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006348,
+      "pages_in_call": 8
+    }
+  ]
+}

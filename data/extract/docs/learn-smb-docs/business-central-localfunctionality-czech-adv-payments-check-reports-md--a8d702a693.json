@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-check-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-check-reports",
+  "title": "Advance Payments activation and upgrade",
+  "blob": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
+  "summary": "Use built-in control reports for advance payments to verify tracking accuracy, accounting records, VAT reporting, and advance settlement for both sales and purchase advances.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "control reports",
+    "vat reporting",
+    "czech localization"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Advance Letters"
+    },
+    {
+      "type": "report",
+      "name": "Sales Advance Letters VAT"
+    },
+    {
+      "type": "report",
+      "name": "Sales Advance Letters Recapitulation"
+    },
+    {
+      "type": "report",
+      "name": "Purchase Advance Letters"
+    },
+    {
+      "type": "report",
+      "name": "Purchase Advance Letters VAT"
+    },
+    {
+      "type": "report",
+      "name": "Purch. Advance Letters Recapitulation"
+    }
+  ],
+  "features": [
+    "Sales Advance Letters report",
+    "Sales Advance Letters VAT report",
+    "Sales Advance Letters Recapitulation report",
+    "Purchase Advance Letters report",
+    "Purchase Advance Letters VAT report",
+    "Purchase Advance Letters Recapitulation report"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

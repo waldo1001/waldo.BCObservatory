@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies",
   "published_at": "2025-09-10T10:46:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972",
       "words": 1697,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:10.920Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.981Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.983Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.984Z",
+      "page": false
     }
   },
   "input_hash": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972",
@@ -69,5 +88,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972"
+  "output_hash": "300fe76cca5777fbecc744cf45ec32444226ba59629dd28664894b995fd57db1"
 }

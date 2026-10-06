@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting",
   "published_at": "2025-09-12T11:56:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d370057e1f8e0a5f97b38867ebe60ca6fb39e1dc",
       "words": 953,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:10.904Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.937Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.938Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.940Z",
+      "page": false
     }
   },
   "input_hash": "d370057e1f8e0a5f97b38867ebe60ca6fb39e1dc",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d370057e1f8e0a5f97b38867ebe60ca6fb39e1dc"
+  "output_hash": "3375f36a30e934948bc9b2e4404bb45eff3385479eae270c1ba2934a84684048"
 }

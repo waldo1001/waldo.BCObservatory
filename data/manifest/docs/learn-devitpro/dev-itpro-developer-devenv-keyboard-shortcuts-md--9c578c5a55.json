@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-keyboard-shortcuts",
   "published_at": "2025-09-04T13:24:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e07b00c69bca9c85f91b77c7f8406f6fa3891ba1",
       "words": 375,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:09.121Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006348
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.848Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.849Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.850Z",
+      "page": false
     }
   },
   "input_hash": "e07b00c69bca9c85f91b77c7f8406f6fa3891ba1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e07b00c69bca9c85f91b77c7f8406f6fa3891ba1"
+  "output_hash": "7a9dd089d6a1ae341708c3b9094fccfc8e776d8f40763ab1563bf2ad92a9e074"
 }

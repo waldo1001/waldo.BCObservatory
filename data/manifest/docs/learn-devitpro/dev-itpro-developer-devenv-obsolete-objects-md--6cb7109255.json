@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-obsolete-objects",
   "published_at": "2025-08-25T09:19:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dbfcc9e6a04d92c480559749a63ca7572cc32db7",
       "words": 918,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:10.845Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006348
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.966Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.967Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.968Z",
+      "page": false
     }
   },
   "input_hash": "dbfcc9e6a04d92c480559749a63ca7572cc32db7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dbfcc9e6a04d92c480559749a63ca7572cc32db7"
+  "output_hash": "b87f7a426c6ef0d7b27635fc06b9f27df64ebf82cca77a5d5bb28e9716df0e6b"
 }

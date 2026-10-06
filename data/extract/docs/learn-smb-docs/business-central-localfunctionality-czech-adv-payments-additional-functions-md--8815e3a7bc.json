@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-additional-functions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-additional-functions",
+  "title": "Extra features for Advance Payments (Corrections)",
+  "blob": "8ccde1165f7f6d567675ff54866c369cda59b561",
+  "summary": "Perform corrections and additional operations on advance payments including reversing VAT documents, unlinking payments, adding retrospective payments, and applying advances to posted invoices.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "corrections",
+    "vat reversal",
+    "czech localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Advance Letters"
+    },
+    {
+      "type": "page",
+      "name": "Advance Letter Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    }
+  ],
+  "features": [
+    "Post Credit Memo VAT action",
+    "Unlink Advance Payment action",
+    "Link Advance Letter action",
+    "Unapply Advance Letter action",
+    "Apply Advance Letter action",
+    "Retrospective payment assignment",
+    "Post Credit Memo VAT action for reversals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

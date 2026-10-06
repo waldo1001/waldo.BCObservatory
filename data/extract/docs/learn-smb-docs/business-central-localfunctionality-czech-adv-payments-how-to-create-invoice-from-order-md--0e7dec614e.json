@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order",
+  "title": "Create an advance letter from an order",
+  "blob": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
+  "summary": "Create advance letters directly from sales or purchase orders by selecting an advance letter code and calculation method, with options to suggest lines or aggregate by VAT rates.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "czech localization",
+    "sales orders",
+    "purchase orders"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Advance Letter Templates"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    }
+  ],
+  "features": [
+    "Create Advance Letter action",
+    "Advance Letter Code selection",
+    "Percentage or amount calculation",
+    "Suggest by Line option",
+    "VAT rate aggregation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

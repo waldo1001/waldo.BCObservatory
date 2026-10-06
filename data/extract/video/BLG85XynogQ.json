@@ -1,0 +1,152 @@
+{
+  "video_id": "BLG85XynogQ",
+  "item_id": "video/yt-microsoft/BLG85XynogQ",
+  "title": "Mavericks of Business Central: Use your professional background to your advantage",
+  "duration_s": 106,
+  "systems": [
+    "finance",
+    "purchasing",
+    "warehouse"
+  ],
+  "topics": [
+    "career development",
+    "consultant skills",
+    "domain knowledge",
+    "financial background",
+    "implementation",
+    "talent acquisition",
+    "technology adoption"
+  ],
+  "chapters": [
+    {
+      "title": "Career transition from financial controller to Business Central consultant",
+      "t_start": 0,
+      "t_end": 32.6
+    },
+    {
+      "title": "How financial knowledge accelerates learning Business Central",
+      "t_start": 32.6,
+      "t_end": 52.7
+    },
+    {
+      "title": "Practical domain knowledge as a competitive advantage",
+      "t_start": 52.7,
+      "t_end": 72.7
+    },
+    {
+      "title": "Talent needs and generational technology perspectives",
+      "t_start": 72.7,
+      "t_end": 106
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central as a product",
+      "description": "A consultant's perspective on learning and implementing Business Central. The speaker found the product compelling enough to transition from financial controller to consultant work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.5,
+      "t_end": 52.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "adoption",
+        "consulting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Domain-specific implementation knowledge",
+      "description": "Practical experience from various business areas like sales, purchasing, and warehouse operations helps implementation success. This knowledge cannot be learned from the system alone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.7,
+      "t_end": 72.7,
+      "is_demoed": false,
+      "caveats": [
+        "requires prior professional experience in business domain"
+      ],
+      "tags": [
+        "implementation",
+        "consulting",
+        "expertise"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Talent recruitment for implementations",
+      "description": "High market demand for implementation resources as the market is picking up. Need to recruit new talent to handle workload of implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.7,
+      "t_end": 93,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "market demand",
+        "implementation"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown speaker 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 2",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.5,
+      "text": "I basically got a job at cron where I could focus on the development part and Technical part",
+      "why_it_matters": "Establishes the speaker's 24-25 year background in technical development at a Business Central company.",
+      "check": "exact"
+    },
+    {
+      "t": 32.6,
+      "text": "I got to know Business Center and I like the product so much that I decided to become a consultant",
+      "why_it_matters": "Shows why domain experts transition to consulting roles - product value and professional opportunity.",
+      "check": "exact"
+    },
+    {
+      "t": 52.7,
+      "text": "the Practical knowledge you have will really help you to implement and to make you a successful consultant",
+      "why_it_matters": "Highlights that real business experience is critical to implementation success and cannot be learned from software alone.",
+      "check": "exact"
+    },
+    {
+      "t": 72.7,
+      "text": "we need new Talent uh because we have a lot of work right uh the the market is picking up",
+      "why_it_matters": "Indicates strong market demand and growth for Business Central implementation professionals.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009507000000000002
+    }
+  ]
+}

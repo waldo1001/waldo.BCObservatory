@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order",
   "published_at": "2025-09-18T07:41:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
       "words": 202,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:53.232Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003203
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:53.247Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:53.248Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:53.248Z",
+      "page": false
     }
   },
   "input_hash": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119"
+  "output_hash": "abae6a035a2722150656b8b4f8081dccbbf91279fda9da0c100ad9efd65c2b6e"
 }

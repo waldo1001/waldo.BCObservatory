@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v26",
   "published_at": "2025-09-02T14:47:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "32388ca87506ffff2929300554b51ece767000aa",
       "words": 2872,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:09.124Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006348
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.946Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.947Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.949Z",
+      "page": false
     }
   },
   "input_hash": "32388ca87506ffff2929300554b51ece767000aa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "32388ca87506ffff2929300554b51ece767000aa"
+  "output_hash": "5ceaf187470ac4318c550f659ed9222299f49d1a47eafa2e25210d5f255b763d"
 }

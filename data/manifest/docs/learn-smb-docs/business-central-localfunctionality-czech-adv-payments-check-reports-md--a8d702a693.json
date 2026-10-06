@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-check-reports",
   "published_at": "2025-09-17T18:56:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
       "words": 232,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:53.243Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.003203
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:53.263Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:53.264Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:53.266Z",
+      "page": false
     }
   },
   "input_hash": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5aa75252fb9be3b894744c5dfac6571f55b0f082"
+  "output_hash": "cda196ef917046c4e41935c9ccd2debe1d7fbffbf5cef1f3efa929520dcb3aea"
 }

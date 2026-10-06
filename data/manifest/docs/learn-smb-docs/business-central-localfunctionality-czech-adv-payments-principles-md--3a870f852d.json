@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-principles",
   "published_at": "2025-09-18T07:41:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1fa7768fb39fc6c20acbec15039087f978781f9c",
       "words": 438,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:53.239Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.003203
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:53.258Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:53.259Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:53.261Z",
+      "page": false
     }
   },
   "input_hash": "1fa7768fb39fc6c20acbec15039087f978781f9c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1fa7768fb39fc6c20acbec15039087f978781f9c"
+  "output_hash": "aa17aa1b5323da70eb214a660157ac292bc1f5c536db9d08b58c5dcd18c764cb"
 }

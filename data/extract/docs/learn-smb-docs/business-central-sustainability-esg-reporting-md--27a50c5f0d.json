@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-esg-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting",
+  "title": "Handle External ESG reporting",
+  "blob": "d370057e1f8e0a5f97b38867ebe60ca6fb39e1dc",
+  "summary": "Handle External ESG reporting for CSRD compliance by integrating Business Central with Dataverse, setting up assessments, configuring data sources, and posting ESG reports.",
+  "systems": [
+    "sustainability",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "esg reporting",
+    "csrd compliance",
+    "sustainability data",
+    "dataverse integration",
+    "external reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "ESG Reporting Aggregation"
+    },
+    {
+      "type": "page",
+      "name": "Posted ESG Reports"
+    }
+  ],
+  "features": [
+    "External ESG reporting",
+    "Dataverse integration",
+    "ESG data synchronization",
+    "Assessment templates",
+    "ESG compliance report calculation",
+    "Posted report review"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004232,
+      "pages_in_call": 8
+    }
+  ]
+}

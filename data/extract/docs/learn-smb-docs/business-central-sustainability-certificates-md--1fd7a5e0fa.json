@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-certificates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-certificates",
+  "title": "Sustainability certificates",
+  "blob": "7ed6832cf3bcab4a9bd7515f7863b8191c5059b3",
+  "summary": "Create and manage sustainability certificates for vendors and items to validate ESG standards compliance, and support Digital Product Passport reporting requirements.",
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "sustainability certificates",
+    "esg standards",
+    "vendor compliance",
+    "product sustainability",
+    "digital product passport"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sust. Certificate Areas"
+    },
+    {
+      "type": "page",
+      "name": "Sust. Certificate Standards"
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Certificates"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Sustainability certificate creation",
+    "Certificate areas and standards",
+    "Vendor certificate assignment",
+    "Item certificate assignment",
+    "Digital Product Passport support",
+    "Recyclability tracking",
+    "Energy efficiency ratings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004232,
+      "pages_in_call": 8
+    }
+  ]
+}

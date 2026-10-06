@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-close-advance-payment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-close-advance-payment",
+  "title": "Close advance letters",
+  "blob": "7d220ac715b331b0661286edb41af1e9e683c1b6",
+  "summary": "Close advance letters that are unused or not fully utilized using the Close Advance Letter action, which generates VAT settlement entries and transfers unused amounts to customer balance.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "closing",
+    "vat settlement",
+    "czech localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Advance Letters"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Advance Letters"
+    }
+  ],
+  "features": [
+    "Close Advance Letter action",
+    "Advance Payment Close dialog",
+    "VAT Close entry creation",
+    "Credit memo generation",
+    "Initial Entry reversal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

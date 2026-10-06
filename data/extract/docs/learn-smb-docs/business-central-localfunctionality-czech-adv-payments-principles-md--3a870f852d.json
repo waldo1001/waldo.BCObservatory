@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-principles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-principles",
+  "title": "Understand the principles and lifecycle for Advance Payments",
+  "blob": "1fa7768fb39fc6c20acbec15039087f978781f9c",
+  "summary": "Understand advance payment core principles including header-level document matching, G/L account posting from templates, and the complete lifecycle from creation through closure with status tracking.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "lifecycle",
+    "posting principles",
+    "czech localization"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Advance Letter Entries"
+    },
+    {
+      "type": "table",
+      "name": "Advance Letter Templates"
+    },
+    {
+      "type": "page",
+      "name": "Sales Advance Letter"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Advance Letter"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    },
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    }
+  ],
+  "features": [
+    "Header-level document matching",
+    "Advance Letter G/L Account",
+    "Status field tracking",
+    "Initial Entry creation",
+    "Payment entry type",
+    "VAT Payment entry type",
+    "Usage entry type",
+    "Close advance letter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

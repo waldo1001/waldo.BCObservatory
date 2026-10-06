@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-tax-document.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-tax-document",
+  "title": "Create a VAT document for an advance letter",
+  "blob": "9fa2089bec3ef3acaf68496a5599c40ede4839d3",
+  "summary": "Manage VAT documents for advance letters including automatic VAT posting when paid, manual VAT posting options, and manual VAT deduction from advances using advance letter entries.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance letters",
+    "vat documents",
+    "vat posting",
+    "czech localization",
+    "advance payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Advance Letters"
+    },
+    {
+      "type": "page",
+      "name": "Advance Letter Entries"
+    }
+  ],
+  "features": [
+    "Automatic Post VAT Document",
+    "VAT Payment entries",
+    "Print VAT Document",
+    "Post Payment VAT action",
+    "Post Payment VAT Usage action",
+    "Manual VAT deduction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003203,
+      "pages_in_call": 7
+    }
+  ]
+}

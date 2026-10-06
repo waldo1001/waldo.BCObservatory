@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-checklist",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
       "words": 152,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:10.847Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006348
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:10.969Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:10.971Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:10.972Z",
+      "page": false
     }
   },
   "input_hash": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
@@ -75,5 +94,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9dbe21e38c140d974b3e36f166db1e317384b3b2"
+  "output_hash": "e7809eab1f27568aa107c44ae461aba9c343a3287ffea9a4f5dc57533a1476db"
 }
