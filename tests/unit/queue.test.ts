@@ -57,3 +57,10 @@ test("items past the source horizon are skipped only before work starts", () => 
   assert.equal(horizonFor({ backfill: { all: true } }, now), null);
   assert.equal(horizonFor({ backfill: { months: 18 } }, now)?.toISOString(), "2025-04-07T01:00:00.000Z");
 });
+
+test("opted-in full-text sources (waldo.be) come first in their pillar, then newest first", () => {
+  const old = item("blog", "2025-05-01T00:00:00Z", { source: "waldo-be" });
+  const fresh = item("blog", "2026-10-01T00:00:00Z", { source: "other" });
+  const plan = planQueue([fresh, old], { posts: 10 }, new Map([["waldo-be", { full_text: true, backfill: { months: 18 } }], ["other", { full_text: false, backfill: { months: 18 } }]]), now);
+  assert.deepEqual(plan.work.map((w) => w.id), [old.id, fresh.id]);
+});

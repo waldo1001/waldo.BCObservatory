@@ -85,6 +85,8 @@ export interface ExecutionReport {
   held: number;
   /** Times an item was set aside because its lane (e.g. youtube) was busy; it ran later in the same run. */
   parked: number;
+  /** Items still parked when the run ended (a lane that never freed up shows here). */
+  parked_left?: number;
   quota_charged: Record<string, number>;
   regards: { at_calls: number; decision: GuardDecision["decision"]; status: string }[];
   errors: string[];
@@ -116,6 +118,17 @@ export interface ExecuteOptions {
    * dying at the heap limit with up to one checkpoint of work lost; the Mini's wrapper starts a fresh process.
    */
   heapFull?: () => boolean;
+  /**
+   * Longest a lane stage may run (ms per lane). A stage that hangs past it fails the item (it retries on a later run)
+   * and frees the lane; otherwise one stuck fetch held the only "web" slot and parked every blog item all night.
+   */
+  laneTimeoutMs?: Record<string, number>;
+}
+
+/** Reject after `ms`; the stage's own promise is left to settle on its own. */
+function withTimeout<T>(p: Promise<T>, ms: number, message: string): Promise<T> {
+  let t: ReturnType<typeof setTimeout> | undefined;
+  return Promise.race([p, new Promise<never>((_, reject) => { t = setTimeout(() => reject(new Error(message)), ms); })]).finally(() => clearTimeout(t));
 }
 
 /** Heap above `fraction` of V8's limit (--max-old-space-size): the default `heapFull` of the nightly. */
@@ -232,6 +245,8 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const parked = new Map<string, string[]>();
   const nextId = (): string | null => {
     if (requeue.length) return requeue.shift()!;
+    // a lane below capacity pulls its next parked item itself, instead of waiting for a release to hand it over
+    for (const [lane, list] of parked) if (list.length && !laneFull(lane)) return list.shift()!;
     while (cursor < ids.length) {
       const id = ids[cursor++];
       if (!ended.has(id) && !visited.has(id)) return id;
@@ -280,7 +295,8 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
         touched.add(item.id);
         if (h.run) {
           let out: StageResult | Error;
-          try { out = await h.run(item, ctx); } catch (e) { out = asError(e); }
+          const ms = h.lane ? o.laneTimeoutMs?.[h.lane] : undefined;
+          try { out = await (ms ? withTimeout(h.run(item, ctx), ms, `${h.lane} lane: ${stage} took longer than ${Math.round(ms / 1000)} s`) : h.run(item, ctx)); } catch (e) { out = asError(e); }
           item = settle(item, stage, out);
           continue;
         }
@@ -334,5 +350,6 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   }));
   if (stop) r.stop_reason = stop;
   r.items_touched = touched.size;
+  r.parked_left = parkedCount();
   return r;
 }

@@ -60,6 +60,8 @@ export interface Budget {
   catch_up?: { until: string | null };
   /** D41: items a lane may run at once (blog fetches "web"); lanes not listed run one at a time. */
   lanes?: Record<string, number>;
+  /** Longest one lane stage may take, in seconds; past it the item fails (retried later) and the lane frees up. */
+  lane_timeout_seconds?: Record<string, number>;
   /** Checkpoint commits during stage execution (D26): after this many advanced item stages... */
   checkpoint_items?: number;
   /** ...or after this many minutes, whichever comes first; both 0 = only the final commit. */

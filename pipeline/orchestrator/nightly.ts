@@ -232,6 +232,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
       ...(ck ? { onProgress: ck.progress } : {}),
       heapFull: deps.heapFull ?? heapAbove(cfg.memory_stop_fraction ?? 0.6),
+      laneTimeoutMs: Object.fromEntries(Object.entries(cfg.lane_timeout_seconds ?? {}).map(([k, v]) => [k, v * 1000])),
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;

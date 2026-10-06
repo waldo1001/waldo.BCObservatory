@@ -1,7 +1,8 @@
 /**
  * Nightly planner (PLAN 4.3, orchestrator step 4): which items get work tonight, in which order.
  *
- * Per pillar: non-terminal items, newest first (published_at desc, undated last), skipping items whose
+ * Per pillar: non-terminal items, opted-in full-text sources first (waldo.be: "the owner first, the rest opt in"),
+ * then newest first (published_at desc, undated last), skipping items whose
  * retry_after is in the future. Items older than their source's backfill horizon are returned as skips.
  * Quotas (already scaled by the guard) cap items per quota key; deterministic tail stages (linked,
  * published) never consume quota. Pillars interleave round-robin so a hard clock stop starves none.
@@ -43,7 +44,7 @@ export function horizonFor(source: Pick<SourceDef, "backfill"> | undefined, now:
 export function planQueue(
   items: ManifestItem[],
   quotas: Record<string, number>,
-  sources: Map<string, Pick<SourceDef, "backfill">>,
+  sources: Map<string, Pick<SourceDef, "backfill"> & Partial<Pick<SourceDef, "full_text">>>,
   now = new Date(),
 ): Plan {
   const skips: Plan["skips"] = [];
@@ -63,7 +64,9 @@ export function planQueue(
     candidates.push({ item, stage, quota: quotaFor(item.pillar, stage) });
   }
 
+  const first = (c: { item: ManifestItem }) => (sources.get(c.item.source)?.full_text ? 0 : 1);
   candidates.sort((a, b) => {
+    if (first(a) !== first(b)) return first(a) - first(b);
     const ta = a.item.published_at ? Date.parse(a.item.published_at) : -Infinity;
     const tb = b.item.published_at ? Date.parse(b.item.published_at) : -Infinity;
     // undated items from a channel reconcile keep the channel's newest-first order

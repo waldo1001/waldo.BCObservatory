@@ -267,3 +267,15 @@ test("a full heap stops the run cleanly before the next stage (stop reason memor
   assert.equal(r.advanced, 3);
   assert.equal(get(m, "VID2").stages.extracted !== undefined, true, "the three stages before the stop are in the manifest");
 });
+
+test("lanes: a stage that hangs times out, fails its item and frees the lane for the parked ones", async () => {
+  const m = setup(3);
+  const hung = new Set(["video/yt-ms/VID3"]); // the newest item's fetch never settles
+  const fetch: StageFn = async (it) => (hung.has(it.id) ? new Promise<never>(() => {}) : {});
+  const h: StageHandlers = { video: { fetched: { lane: "youtube", run: fetch }, captioned: ok, extracted: ok, summarized: ok, linked: ok, reviewed: ok, published: ok } };
+  const r = await run(m, h, { concurrency: 3, laneTimeoutMs: { youtube: 30 } });
+  assert.equal(get(m, "VID3").attempts, 1, "the hung item failed one attempt");
+  assert.match(r.errors.join("\n"), /youtube lane: fetched took longer than/);
+  for (const k of ["VID2", "VID1"]) assert.equal(get(m, k).state, "published", `${k} got the lane after the timeout`);
+  assert.equal(r.parked_left, 0);
+});
