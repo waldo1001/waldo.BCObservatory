@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-intelligent-cloud",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "459c747d8422dba056b9b287a0339d656fd6be17",
       "words": 86,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.994Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.004Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.005Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.006Z",
+      "page": false
     }
   },
   "input_hash": "459c747d8422dba056b9b287a0339d656fd6be17",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "459c747d8422dba056b9b287a0339d656fd6be17"
+  "output_hash": "af38a34465a9470c01eb11a6328c19ccc05d91b565bdb4eb529503aa8bcabca5"
 }

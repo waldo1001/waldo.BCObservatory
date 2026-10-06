@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-troubleshoot-self-signup",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bb10610de7504a61baba4430367ad74be59687b3",
       "words": 944,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.091Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002981
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:33.104Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:33.105Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:33.105Z",
+      "page": false
     }
   },
   "input_hash": "bb10610de7504a61baba4430367ad74be59687b3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bb10610de7504a61baba4430367ad74be59687b3"
+  "output_hash": "0f4069847b5e17f4f081a0bc214e2e2699203e9c826157f4b47b56537c9dcb83"
 }

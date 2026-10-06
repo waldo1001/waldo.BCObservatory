@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick",
+  "title": "Breaking Bulk with Directed Put-away and Pick",
+  "blob": "439a115a5dddf3f7e1de3ef9542f0c21cc1ca777",
+  "summary": "Enable automatic breaking bulk with directed put-away and pick to split larger units of measure into smaller units or combine smaller units during warehouse picking, put-away, and movement operations.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "breaking bulk",
+    "units of measure",
+    "directed put-away",
+    "warehouse picks",
+    "warehouse put-aways"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "allow breakbulk toggle",
+    "unit of measure conversion",
+    "breakbulk filter",
+    "pick optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002981,
+      "pages_in_call": 7
+    }
+  ]
+}

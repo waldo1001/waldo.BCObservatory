@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-picking-and-shipping-in-basic-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing",
+  "title": "Picking and Shipping in Basic Warehouse Configurations",
+  "blob": "9715eea1f33fe9e534c4f8dbe218bcda822b1273",
+  "summary": "This walkthrough demonstrates basic warehouse picking and shipping using inventory picks for method B, where orders are processed individually with pick handling but without separate shipment posting.",
+  "systems": [
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "warehouse picking",
+    "inventory pick",
+    "order processing",
+    "shipment",
+    "basic warehouse"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Employees"
+    },
+    {
+      "type": "page",
+      "name": "Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    }
+  ],
+  "features": [
+    "inventory picks",
+    "bin setup",
+    "warehouse release",
+    "shipment posting",
+    "outbound processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002981,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-move-items",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "76088ce33f3c754fc1fa8979ce673d43c284cb65",
       "words": 247,
       "forms": 12
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.095Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002981
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:33.111Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:33.112Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:33.112Z",
+      "page": false
     }
   },
   "input_hash": "76088ce33f3c754fc1fa8979ce673d43c284cb65",
@@ -96,5 +115,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76088ce33f3c754fc1fa8979ce673d43c284cb65"
+  "output_hash": "1bd1c3ef7e1127eef47ea3f2a9511b1c486d66655fdfecea5b60d6c6d1e46e52"
 }

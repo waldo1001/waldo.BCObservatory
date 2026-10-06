@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9715eea1f33fe9e534c4f8dbe218bcda822b1273",
       "words": 968,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.093Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002981
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:33.106Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:33.107Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:33.108Z",
+      "page": false
     }
   },
   "input_hash": "9715eea1f33fe9e534c4f8dbe218bcda822b1273",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9715eea1f33fe9e534c4f8dbe218bcda822b1273"
+  "output_hash": "6862acd39d45669bb86704502bf6ac6cfb92537e46a8add08882631adbb3f9e5"
 }

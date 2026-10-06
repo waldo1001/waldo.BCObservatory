@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-worldpay-payments-standard.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard",
+  "title": "WorldPay Payments Standard",
+  "blob": "73b9b2c6133d1fee47fb0a25e729f3c8ea363be8",
+  "summary": "The WorldPay Payments Standard extension adds WorldPay payment links to sales invoices for convenient customer payments. Note: This extension was marked obsolete in 2023 release wave 2 and will be removed after three major releases.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "extension",
+    "payment service",
+    "customer payments",
+    "deprecated",
+    "worldpay"
+  ],
+  "objects": [],
+  "features": [
+    "payment links",
+    "sales invoice integration",
+    "email delivery"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002218,
+      "pages_in_call": 7
+    }
+  ]
+}

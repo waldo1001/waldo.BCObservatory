@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-quickbooks-payroll.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-payroll",
+  "title": "Using the QuickBooks Payroll file import extension | Microsoft Docs",
+  "blob": "0fca0e7a66a847b19eb6d4a4af9e3683d95294fb",
+  "summary": "The QuickBooks Payroll File Import extension imports payroll transactions from QuickBooks into Business Central general ledger accounts. Use it when transitioning from QuickBooks or outsourcing payroll while maintaining internal tracking.",
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "extension",
+    "payroll",
+    "quickbooks",
+    "import",
+    "general ledger"
+  ],
+  "objects": [],
+  "features": [
+    "payroll import",
+    ".IIF file import",
+    "account mapping",
+    "general journal integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002218,
+      "pages_in_call": 7
+    }
+  ]
+}

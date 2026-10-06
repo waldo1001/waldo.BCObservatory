@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "44e7e123e2e9e6dab3a73df1eaea89fbb6047b15",
       "words": 153,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.089Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002981
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:33.099Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:33.100Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:33.100Z",
+      "page": false
     }
   },
   "input_hash": "44e7e123e2e9e6dab3a73df1eaea89fbb6047b15",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44e7e123e2e9e6dab3a73df1eaea89fbb6047b15"
+  "output_hash": "bdd721d08f0bb39686ce394e6392756630c9bd4dc860e6743a2c26e6badb6f5a"
 }

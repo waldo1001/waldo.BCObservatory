@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "73b9b2c6133d1fee47fb0a25e729f3c8ea363be8",
       "words": 172,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.999Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.016Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.017Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.018Z",
+      "page": false
     }
   },
   "input_hash": "73b9b2c6133d1fee47fb0a25e729f3c8ea363be8",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73b9b2c6133d1fee47fb0a25e729f3c8ea363be8"
+  "output_hash": "694d5839d75ccd84ae85f2510a03941d6d5dc62de22317be84f2d701319f05ed"
 }

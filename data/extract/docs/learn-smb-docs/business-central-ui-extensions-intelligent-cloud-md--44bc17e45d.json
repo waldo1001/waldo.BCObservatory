@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-intelligent-cloud.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-intelligent-cloud",
+  "title": "Cloud migration base extension",
+  "blob": "459c747d8422dba056b9b287a0339d656fd6be17",
+  "summary": "The Cloud Migration base extension configures connections between on-premises solutions and Business Central online to enable data migration from on-premises to the cloud. Use it as the first step when migrating to Business Central online.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "extension",
+    "cloud migration",
+    "data replication",
+    "on-premises"
+  ],
+  "objects": [],
+  "features": [
+    "cloud connection setup",
+    "data migration",
+    "on-premises integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002218,
+      "pages_in_call": 7
+    }
+  ]
+}

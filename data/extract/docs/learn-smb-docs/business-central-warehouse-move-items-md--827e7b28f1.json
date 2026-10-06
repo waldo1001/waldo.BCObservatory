@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-move-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-move-items",
+  "title": "Move Items",
+  "blob": "76088ce33f3c754fc1fa8979ce673d43c284cb65",
+  "summary": "Item movement in warehouses varies by configuration complexity from basic bin moves to advanced coordinated workflows, handling internal operations like production orders, bin optimization, and replenishment.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "warehouse movement",
+    "item transfer",
+    "bin transfer",
+    "inventory movement",
+    "warehouse configuration"
+  ],
+  "objects": [],
+  "features": [
+    "bin movement",
+    "warehouse movement worksheet",
+    "internal picks",
+    "warehouse restructuring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002981,
+      "pages_in_call": 7
+    }
+  ]
+}

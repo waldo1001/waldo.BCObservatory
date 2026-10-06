@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-payroll",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0fca0e7a66a847b19eb6d4a4af9e3683d95294fb",
       "words": 158,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.996Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.010Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.011Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.012Z",
+      "page": false
     }
   },
   "input_hash": "0fca0e7a66a847b19eb6d4a4af9e3683d95294fb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0fca0e7a66a847b19eb6d4a4af9e3683d95294fb"
+  "output_hash": "90ab0527d994e355475cdf8416be890acaec527fbd232efddcf2ba5f3b0537e4"
 }

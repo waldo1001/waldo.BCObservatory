@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "21b46e0bd2bba2e5224646596e19c3e76ff1c210",
       "words": 329,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:34.000Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.019Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.020Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.021Z",
+      "page": false
     }
   },
   "input_hash": "21b46e0bd2bba2e5224646596e19c3e76ff1c210",
@@ -78,5 +97,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "21b46e0bd2bba2e5224646596e19c3e76ff1c210"
+  "output_hash": "4dc50d51ac8e0de77065615d4ea6a42d20fc389fca93f87bc3040adc35e97a4e"
 }

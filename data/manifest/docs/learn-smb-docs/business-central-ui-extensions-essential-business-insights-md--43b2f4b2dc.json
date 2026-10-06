@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-essential-business-insights",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c79a17ea7ef3d38ec914d3a26707f4faac89320d",
       "words": 325,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.993Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.001Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.002Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.003Z",
+      "page": false
     }
   },
   "input_hash": "c79a17ea7ef3d38ec914d3a26707f4faac89320d",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c79a17ea7ef3d38ec914d3a26707f4faac89320d"
+  "output_hash": "547c2f8a4647b1d3657910a32981ab0223e198396831c9988f2a2f848682e960"
 }

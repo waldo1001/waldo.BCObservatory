@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-locked",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d83eb98bd2a4abccd022b1a1dcc928159309331",
       "words": 395,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.090Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002981
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:33.101Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:33.102Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:33.103Z",
+      "page": false
     }
   },
   "input_hash": "4d83eb98bd2a4abccd022b1a1dcc928159309331",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d83eb98bd2a4abccd022b1a1dcc928159309331"
+  "output_hash": "7ca66c3dd36adaccf3ad85fe70008fcde79b5858f95b1758b79bcca34b4bcd6d"
 }

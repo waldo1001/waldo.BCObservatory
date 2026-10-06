@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5a545bbac72cb71e0087ddf96923b7365e7bf271",
       "words": 191,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:33.997Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002218
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:34.014Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:34.015Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:34.015Z",
+      "page": false
     }
   },
   "input_hash": "5a545bbac72cb71e0087ddf96923b7365e7bf271",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a545bbac72cb71e0087ddf96923b7365e7bf271"
+  "output_hash": "e7d49fd5facae58e504ab025f6b4c73b4471f67ffdfa56104e16e0fc05baa4d9"
 }

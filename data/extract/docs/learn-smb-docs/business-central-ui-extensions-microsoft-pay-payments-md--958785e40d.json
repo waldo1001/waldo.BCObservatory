@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-microsoft-pay-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-microsoft-pay-payments",
+  "title": "Microsoft Pay Standard",
+  "blob": "32fe4ddbf0c096b14f5c9244498dfab6dd31c794",
+  "summary": "The Microsoft Pay extension adds payment links to sales documents for easier customer payments. Note: This extension was deprecated as of February 8, 2020, and customers should migrate to the PayPal extension instead.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "extension",
+    "payment service",
+    "customer payments",
+    "deprecated"
+  ],
+  "objects": [],
+  "features": [
+    "payment links",
+    "sales document integration",
+    "email delivery"
+  ],
+  "versions": [
+    "October 2018",
+    "April 2019",
+    "2019 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002218,
+      "pages_in_call": 7
+    }
+  ]
+}

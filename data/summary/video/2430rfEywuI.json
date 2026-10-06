@@ -1,0 +1,28 @@
+{
+  "video_id": "2430rfEywuI",
+  "item_id": "video/yt-microsoft/2430rfEywuI",
+  "summary": "GP Assessment Tool is a free online tool that reads GP SQL Server data to guide migration planning from Dynamics GP to Business Central. The 3-minute video covers signup, download, running the assessment, sending results, and reading the report with ISV drill-down and migration risks.",
+  "overview": "The video, published in August 2024, introduces a free assessment tool for current GP users who want to know what a move to Business Central in the cloud might look like. The tool was designed to be easy to use, fast, non-intrusive and available to everyone. It only reads data from the GP SQL Server and never writes or changes anything in GP.\n\nIt walks through signing up, downloading the tool, running the assessment, reviewing the captured information before sending it, and analyzing the resulting report. The report lists modules and features used in GP, lets you drill into installed ISV solutions, and flags potential migration risks with details and recommendations. The video closes with next steps and additional resources.",
+  "key_points": [
+    "The tool is free and does not require a Business Central license to be purchased already.",
+    "It only reads data from the GP SQL Server; nothing is written or changed in the GP system.",
+    "It can be run during business hours while users work in GP, with no need to wait for nights or weekends.",
+    "Running it requires a user with GP SQL Server access.",
+    "Excluding test or sample companies from the assessment is recommended.",
+    "You can review the captured information before sending it.",
+    "The report shows modules and features used in GP, allows drill-down into installed ISV solutions, and lists migration risks with details and recommendations."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "0ea5230f229a78da0d7c6255ca88f4c484a1b9b4eb86ae405fea557b746d0142",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0117144
+  }
+}
