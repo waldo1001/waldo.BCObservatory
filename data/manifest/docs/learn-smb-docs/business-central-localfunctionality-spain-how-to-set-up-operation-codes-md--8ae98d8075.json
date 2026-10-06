@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "38a9227839925ff01799915efc9592363b10383b",
       "words": 360,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:56.438Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002403
     }
   },
   "input_hash": "38a9227839925ff01799915efc9592363b10383b",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38a9227839925ff01799915efc9592363b10383b"
+  "output_hash": "c141722b458619073fd1b152fdb80555ad9fd7c71e9bbc2eec949dee6b650ad3"
 }

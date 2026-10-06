@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma-implicitwith",
   "published_at": "2025-06-02T13:18:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "043e32f6eec6deaad9b6ec23bfb83a39799465b6",
       "words": 245,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:47.802Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003387
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.840Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.840Z",
+      "page": false
     }
   },
   "input_hash": "043e32f6eec6deaad9b6ec23bfb83a39799465b6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "043e32f6eec6deaad9b6ec23bfb83a39799465b6"
+  "output_hash": "a48a0211a7e9abc12ba61e651e9931075c41fdd420fa737736597aade8f1248b"
 }

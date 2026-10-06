@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/report-340.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-340",
+  "title": "Report 340 [ES]",
+  "blob": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e",
+  "summary": "Report 340 contains information about invoices and taxes issued or received by a company in a given period in Spain, generated in a tax authority-approved format for monthly or quarterly submission. The report supports businesses using cash accounting criteria and includes various sales, purchase, and service documents.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "vat reporting",
+    "spanish tax",
+    "report 340",
+    "cash accounting",
+    "intra-community trade"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    },
+    {
+      "type": "report",
+      "name": "Report 340"
+    }
+  ],
+  "features": [
+    "VAT Date filtering",
+    "Cash Accounting Criteria support",
+    "Multiple VAT percentages",
+    "Equivalence charge reporting",
+    "EU intra-community VAT Information Exchange"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003387,
+      "pages_in_call": 8
+    }
+  ]
+}

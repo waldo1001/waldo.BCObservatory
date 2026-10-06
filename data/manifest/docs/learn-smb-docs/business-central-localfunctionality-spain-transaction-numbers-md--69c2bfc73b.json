@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
       "words": 152,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:47.798Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003387
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.814Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.815Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.816Z",
+      "page": false
     }
   },
   "input_hash": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd"
+  "output_hash": "5f37a1f10fe97b1359fcf2416d01ed6bab5fd1829957a420f7b2769de15d4f97"
 }

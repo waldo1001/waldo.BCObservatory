@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "2969ea280192544542cd2f019625c39211489772",
       "words": 366,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:58.240Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002403
     }
   },
   "input_hash": "2969ea280192544542cd2f019625c39211489772",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2969ea280192544542cd2f019625c39211489772"
+  "output_hash": "32b48d15b72275da30e3ea894d73b7cbba43bd0ad76952c15d8b5382b951f765"
 }

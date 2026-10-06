@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-340",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e",
       "words": 688,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:47.795Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003387
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.805Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.806Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.807Z",
+      "page": false
     }
   },
   "input_hash": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e"
+  "output_hash": "050a1e3857342e08d171fc9a844c573f0c5950063143d2acb9cf59a8a91ce5c3"
 }

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes",
+  "title": "How to Set Up Operation Codes",
+  "blob": "38a9227839925ff01799915efc9592363b10383b",
+  "summary": "Set up operation codes (letters A-Z and numbers 1-8) in the Operation Codes table and link them to general product posting groups for VAT classification in Spanish Report 340 declarations.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "operation codes",
+    "posting groups",
+    "vat classification",
+    "report 340"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Operation Codes"
+    },
+    {
+      "type": "page",
+      "name": "General Product Posting Groups"
+    }
+  ],
+  "features": [
+    "operation codes",
+    "VAT product posting groups",
+    "trade declarations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002403,
+      "pages_in_call": 7
+    }
+  ]
+}

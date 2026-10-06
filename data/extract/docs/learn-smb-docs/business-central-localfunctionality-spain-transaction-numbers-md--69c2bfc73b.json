@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/transaction-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers",
+  "title": "Transaction numbers",
+  "blob": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
+  "summary": "Transaction numbers in Spain allow you to group entries with the same document number and date for balancing, starting with number 2 each fiscal year (number 1 reserved for opening transaction). Sequential transaction numbers ordered by date identify every transaction posted in a fiscal year.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "transaction numbers",
+    "spanish accounting",
+    "journal entries",
+    "fiscal year",
+    "opening transaction"
+  ],
+  "objects": [],
+  "features": [
+    "Sequential transaction numbering",
+    "Automatic number assignment",
+    "Entry balancing",
+    "Fiscal year ordering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003387,
+      "pages_in_call": 8
+    }
+  ]
+}

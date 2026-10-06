@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes",
+  "title": "Set up bank CCC codes [ES]",
+  "blob": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
+  "summary": "Set up Código Cuenta Cliente (CCC) bank codes in Company Information, Bank Account Card, and Customer/Vendor Bank Account Card pages to identify Spanish and Portuguese bank accounts.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "bank setup",
+    "ccc codes",
+    "spanish banks",
+    "payment processing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    }
+  ],
+  "features": [
+    "CCC bank codes",
+    "bank account identification",
+    "payment reference"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002403,
+      "pages_in_call": 7
+    }
+  ]
+}

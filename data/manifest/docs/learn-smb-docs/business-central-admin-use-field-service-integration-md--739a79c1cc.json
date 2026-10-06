@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-use-field-service-integration",
   "published_at": "2025-06-02T14:45:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4eab067136de98d23a675f8b6b1e6ad93eb9af08",
       "words": 1288,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:47.800Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003387
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.820Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.821Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.837Z",
+      "page": false
     }
   },
   "input_hash": "4eab067136de98d23a675f8b6b1e6ad93eb9af08",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4eab067136de98d23a675f8b6b1e6ad93eb9af08"
+  "output_hash": "70fc86724a61526d3d13a407c93038460a020345abd319e305e7fdf9c4038ecc"
 }

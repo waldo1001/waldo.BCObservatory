@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-use-field-service-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-use-field-service-integration",
+  "title": "Use your integration with Field Service",
+  "blob": "4eab067136de98d23a675f8b6b1e6ad93eb9af08",
+  "summary": "Field Service integration with Business Central enables tracking work order consumption, managing locations and inventory, creating sales invoices, and synchronizing work orders with project tasks or service orders. Integration types include Project-only and Project and Service modes.",
+  "systems": [
+    "projects",
+    "service",
+    "inventory"
+  ],
+  "topics": [
+    "field service",
+    "integration",
+    "project management",
+    "service orders",
+    "work orders",
+    "consumption tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Field Service Integration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Item"
+    },
+    {
+      "type": "page",
+      "name": "Work Order"
+    }
+  ],
+  "features": [
+    "Work order synchronization",
+    "Project journal consumption posting",
+    "Location management and inventory availability",
+    "Sales invoice creation",
+    "Service order synchronization",
+    "Resource booking alignment",
+    "Bookable resource coupling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003387,
+      "pages_in_call": 8
+    }
+  ]
+}

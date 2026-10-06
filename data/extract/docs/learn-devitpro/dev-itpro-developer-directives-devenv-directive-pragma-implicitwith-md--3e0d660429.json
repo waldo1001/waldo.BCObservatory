@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/directives/devenv-directive-pragma-implicitwith.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma-implicitwith",
+  "title": "Pragma ImplicitWith directive in AL",
+  "blob": "043e32f6eec6deaad9b6ec23bfb83a39799465b6",
+  "summary": "The Pragma ImplicitWith directive in AL disables or restores compiler warnings for implicit with statements in code. This is a temporary solution for code that needs rewriting, as implicit with warnings will become errors in a future release.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al programming",
+    "pragma directive",
+    "implicit with",
+    "compiler warnings",
+    "code analysis"
+  ],
+  "objects": [],
+  "features": [
+    "#pragma implicitwith disable",
+    "#pragma implicitwith restore",
+    "NoImplicitWith flag in app.json",
+    "AL:Go! template"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003387,
+      "pages_in_call": 8
+    }
+  ]
+}

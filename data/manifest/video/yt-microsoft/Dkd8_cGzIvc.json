@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)",
   "url": "https://www.youtube.com/watch?v=Dkd8_cGzIvc",
-  "published_at": null,
+  "published_at": "2024-08-26T13:50:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:23:49.837Z",
+      "captions": "auto:en-orig",
+      "duration_s": 181
+    },
+    "captioned": {
+      "at": "2026-10-06T19:23:56.048Z",
+      "path": "data/captions/microsoft/Dkd8_cGzIvc.vtt",
+      "vtt_sha256": "5787f9d4fc12146bc41563b93bf9e61500374896594c149d640e4fc3127bdcc3",
+      "segments": 11,
+      "words": 461,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 368,
-    "duration_s": 182,
-    "via": "reconcile"
-  }
+    "duration_s": 181,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5787f9d4fc12146bc41563b93bf9e61500374896594c149d640e4fc3127bdcc3"
 }

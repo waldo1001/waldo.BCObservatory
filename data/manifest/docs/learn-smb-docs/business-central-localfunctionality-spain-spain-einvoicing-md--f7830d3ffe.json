@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/spain-einvoicing",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
       "words": 353,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:47.798Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003387
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.811Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.812Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.813Z",
+      "page": false
     }
   },
   "input_hash": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983"
+  "output_hash": "4ea3e0b0fec5efecf6a8c8dff39f7fbd02fbe1dca85f7a3b821db0f4a213421a"
 }

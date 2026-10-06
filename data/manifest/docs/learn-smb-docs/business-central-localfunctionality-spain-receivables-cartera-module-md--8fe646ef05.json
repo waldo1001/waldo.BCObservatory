@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "675ebf0bac1c6bbaf1f01fa9e950bbbb338b417f",
       "words": 364,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:58.245Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002403
     }
   },
   "input_hash": "675ebf0bac1c6bbaf1f01fa9e950bbbb338b417f",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "675ebf0bac1c6bbaf1f01fa9e950bbbb338b417f"
+  "output_hash": "7bfff541a1c679ae366b9ac9f051203f24832df4001a1161a9d0d3cc393745df"
 }

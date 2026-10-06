@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/directives/devenv-directive-pragma-warning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma-warning",
+  "title": "Pragma Warning directive in AL",
+  "blob": "f329cfc312a0be016a47702571ebf1c803b00737",
+  "summary": "The Pragma Warning directive in AL enables or disables specific compiler warnings using warning numbers. This allows developers to suppress warnings for specific code locations, though warnings should be suppressed cautiously as they may become errors.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al programming",
+    "pragma directive",
+    "compiler warnings",
+    "code analysis",
+    "warning management"
+  ],
+  "objects": [],
+  "features": [
+    "#pragma warning disable",
+    "#pragma warning restore",
+    "Warning number lists",
+    "Code Analysis Tool integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003387,
+      "pages_in_call": 8
+    }
+  ]
+}

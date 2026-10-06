@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-in-cash",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:58.244Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002403
     }
   },
   "input_hash": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
@@ -44,5 +51,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec"
+  "output_hash": "d50a1b57e33c08e8285b3ee5382b1b7f7a4224c1b8ef4c1464abb27154d77b71"
 }

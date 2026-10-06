@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-void-electronic-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-void-electronic-payments",
+  "title": "How to Void Electronic Payments",
+  "blob": "6aed3b4d1a8e47d95bfa52a9248e40e9d94baf2f",
+  "summary": "Void exported electronic payment files in Spanish Business Central by deleting the entire payment journal created for the payment export.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "electronic payments",
+    "payment voiding",
+    "cartera module"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Void Electronic Payments"
+    },
+    {
+      "type": "page",
+      "name": "Void PO – Export N34.1"
+    }
+  ],
+  "features": [
+    "void electronic payments",
+    "payment journal deletion",
+    "cartera module"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002403,
+      "pages_in_call": 7
+    }
+  ]
+}

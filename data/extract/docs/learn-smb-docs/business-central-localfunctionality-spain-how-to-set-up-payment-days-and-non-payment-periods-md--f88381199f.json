@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods",
+  "title": "How to Set Up Payment Days and Non-Payment Periods",
+  "blob": "2969ea280192544542cd2f019625c39211489772",
+  "summary": "Configure payment days and non-payment periods in Company Information, Customer, and Vendor cards to calculate due dates for sales and purchase documents in Spain.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "payment terms",
+    "due dates",
+    "payment days",
+    "non-payment periods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Payment Days"
+    },
+    {
+      "type": "page",
+      "name": "Non-Payment Periods"
+    }
+  ],
+  "features": [
+    "payment days",
+    "non-payment periods",
+    "due date calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002403,
+      "pages_in_call": 7
+    }
+  ]
+}
