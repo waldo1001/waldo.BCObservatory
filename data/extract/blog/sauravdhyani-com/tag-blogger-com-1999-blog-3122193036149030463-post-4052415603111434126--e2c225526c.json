@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126",
+  "url": "https://www.sauravdhyani.com/2026/08/manage-database-index-usage-in-business.html",
+  "title": "Manage Database Index Usage in Business Central.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-08-24T05:30:00.000Z",
+  "words": 730,
+  "summary": "Business Central 2026 Wave 1 enables administrators to manage database indexes directly from the client without SQL access. The feature allows viewing index metrics, disabling unused secondary indexes per company, and optimizing database storage and write performance.",
+  "key_points": [
+    "Administrators can view index details (name, size, usage statistics, enabled status) through the Table Data Management page",
+    "Company-specific index control allows different companies to have the same index enabled or disabled independently",
+    "Only secondary indexes can be disabled; primary keys, unique indexes, SIFT indexes, and SystemId indexes remain protected",
+    "Disabling indexes reduces storage usage and improves insert/update/delete performance; enabling is queued for the next midnight maintenance",
+    "Index management requires reviewing usage statistics and testing in sandbox before production changes, as low usage during short periods may not indicate permanent irrelevance"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "database performance",
+    "index management",
+    "storage optimization",
+    "administrative capabilities",
+    "business central 2026"
+  ],
+  "objects": [],
+  "features": [
+    "Index Management",
+    "Table Data Management page",
+    "Index Usage Monitoring",
+    "Company-Level Index Control",
+    "Index Statistics Display"
+  ],
+  "versions": [
+    "Business Central 2026 Release Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005196,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Administrators can now make informed optimization decisions directly from the Business Central client.",
+      "why_it_matters": "This eliminates the need for direct SQL tool access for database index management, making the capability more accessible to business administrators."
+    },
+    {
+      "text": "Company A can have an index enabled. Company B can have the same index disabled.",
+      "why_it_matters": "This multi-company flexibility allows tailored optimization for different organizational units with different workloads, reducing unnecessary overhead."
+    }
+  ]
+}

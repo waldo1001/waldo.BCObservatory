@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/weekly-recap-2026-08-28/",
   "published_at": "2026-08-28T07:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:21.621Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-28--d2fed15c7a.md",
+      "words": 1443
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:31.637Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007734
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:31.639Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:31.640Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:31.643Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-28--d2fed15c7a.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d777113398a9afd54b0478b354830b7e1bc82b303b09a93fb14d1ace07351e51"
 }

@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/demiliani-com/14203",
+  "url": "https://demiliani.com/2026/09/01/why-your-business-central-job-queue-needs-idempotent-external-effects-when-integrating-external-systems/",
+  "title": "Why your Business Central job queue needs idempotent external effects when integrating external systems.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-01T08:34:56.000Z",
+  "words": 1379,
+  "summary": "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back after an external call succeeds. Use the outbox row's SystemId as a stable idempotency key that the external system enforces to prevent duplicate exports, payments, or shipments on retry.",
+  "key_points": [
+    "AL transaction rollback does not undo external API calls, creating a gap between database state and real-world side effects.",
+    "The anti-pattern is calling external APIs before updating local records; if the local update fails, the row retries and sends the same request again.",
+    "External systems must deduplicate requests using a stable idempotency key (like the outbox row's SystemId) that exists before the API call.",
+    "Delete operations require treating certain response codes (like 404) as success and deleting the local row only after the external call confirms completion.",
+    "Idempotency must be enforced by the external API itself; a local flag set after the call rolls back with everything else on failure."
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "job queue",
+    "external api",
+    "idempotency",
+    "transaction handling",
+    "outbox pattern",
+    "error handling",
+    "http client"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Queued Export Bad"
+    },
+    {
+      "type": "codeunit",
+      "name": "Queued Export Worker Bad"
+    },
+    {
+      "type": "table",
+      "name": "Queued Export Good"
+    },
+    {
+      "type": "codeunit",
+      "name": "Queued Export Worker Good"
+    }
+  ],
+  "features": [
+    "job queue retry",
+    "HTTP client",
+    "idempotency key",
+    "transaction rollback",
+    "outbox table",
+    "SystemId",
+    "external system integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007713,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

@@ -7,7 +7,7 @@
   "url": "https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/",
   "published_at": "2026-09-01T07:40:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:40:05.331Z",
       "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1.md",
       "words": 1356
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:14.387Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007277
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:14.389Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:14.390Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:14.393Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82ac14ea4feb01a46b900860f380f26b64cec758d17ea6b338d54d064c30dbeb"
+  "output_hash": "5d058dfdcdd4f1f176d84bb8630ea271a33822b5159ecd7aaeb8124b0b3107d9"
 }

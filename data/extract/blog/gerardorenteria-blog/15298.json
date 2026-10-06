@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15298",
+  "url": "https://gerardorenteria.blog/2026/08/31/%f0%9f%9a%a9-evidence-flags-more-trust-signal-fewer-words/",
+  "title": "🚩 Evidence Flags: More trust signal, fewer words",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-08-31T13:27:16.000Z",
+  "words": 1163,
+  "summary": "Evidence Flags is a Copilot skill that adds brief labels to claims to distinguish what is backed by evidence, reported by users, or inferred by the model. It helps when explicitly requested via /ef commands to clarify trust levels in responses without cluttering simple questions.",
+  "key_points": [
+    "Uses seven labeled tags across two families: provenance (Supported, Reported, Unchecked) and AI analysis (Inferred, Hypothesis, Forecast, Judgment), plus optional warnings for contested or time-sensitive claims",
+    "Activated only when explicitly requested with /ef commands like /ef on, /ef check, /ef trail, keeping normal conversations unaffected",
+    "Helps distinguish between what Copilot verified in files, what users stated, and what the model deduced, without subjective qualifiers like maybe or seems",
+    "Does not verify truth, assign confidence scores, or replace technical review; Supported means claim is backed by evidence inspected in that conversation only"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "evidence flags",
+    "copilot skill",
+    "trust signals",
+    "claim verification",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Evidence Flags skill",
+    "Claim labeling by provenance",
+    "AI analysis tagging",
+    "Time-sensitive warning",
+    "Contested source warning",
+    "/ef command interface",
+    "VS Code integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00726,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Instead of filling a response with qualifiers such as maybe, I think, or it seems, a brief label is added to relevant claims.",
+      "why_it_matters": "Explains the core design principle: using structured labels instead of hedging language makes trust levels explicit and scannable."
+    },
+    {
+      "text": "Supported does not mean absolute truth: it means the claim is supported by evidence the model inspected during that conversation.",
+      "why_it_matters": "Critical boundary on what the skill does: it clarifies context-specific verification, not universal truth."
+    }
+  ]
+}

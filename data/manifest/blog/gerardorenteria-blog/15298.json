@@ -7,7 +7,7 @@
   "url": "https://gerardorenteria.blog/2026/08/31/%f0%9f%9a%a9-evidence-flags-more-trust-signal-fewer-words/",
   "published_at": "2026-08-31T13:27:16.000Z",
   "language": "es",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:40:10.638Z",
       "path": "vault:posts/gerardorenteria-blog/15298.md",
       "words": 1163
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:20.691Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.00726
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:20.693Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:20.693Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:20.697Z",
+      "path": "content/posts/gerardorenteria-blog/15298.md"
     }
   },
   "input_hash": "2026-08-31T13:34:57.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20c8fb66d0f22ed73856c86ecb6e2797ad295329e4e2c5c9b523804d572e8d8e"
+  "output_hash": "d8804117ba4278e9dab8af0e19bfe5751459d66735d456a74e58e63132e68d3b"
 }

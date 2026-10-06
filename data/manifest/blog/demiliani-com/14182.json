@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/08/26/new-eu-rules-for-software-what-you-need-to-know/",
   "published_at": "2026-08-26T07:32:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:26.093Z",
+      "path": "vault:posts/demiliani-com/14182.md",
+      "words": 1850
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:34.664Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.013159
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:34.666Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:34.666Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:34.669Z",
+      "path": "content/posts/demiliani-com/14182.md"
     }
   },
   "input_hash": "2026-08-26T14:48:58.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6dcb48bc2a78490ed124d74c1ec6a96334bb92ac2b2f3d07c9114888ead261a"
 }

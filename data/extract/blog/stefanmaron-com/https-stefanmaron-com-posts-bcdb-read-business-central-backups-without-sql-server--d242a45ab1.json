@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/",
+  "url": "https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/",
+  "title": "Introducing bcdb: Read a Business Central Backup Without SQL Server",
+  "source": "stefanmaron-com",
+  "published_at": "2026-09-01T07:40:40.000Z",
+  "words": 1356,
+  "summary": "bcdb is a tool that reads SQL Server backup files (.bak) and Business Central cloud exports (.bacpac) directly without requiring SQL Server or a restore process. It decodes table data using AL field names when provided with extension symbols and supports library and CLI usage.",
+  "key_points": [
+    "Reads .bak and .bacpac files directly by parsing pages and the system catalog without needing SQL Server",
+    "Outputs AL field names and types when given extension symbols; otherwise uses SQL column names",
+    "Available as a .NET global tool and self-contained native binaries for multiple platforms",
+    "Extensively tested against SQL Server restores to verify byte-for-byte accuracy on real production databases",
+    "Designed to support AL Runner by enabling it to work with real data without needing exact extension versions"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "backup recovery",
+    "database reading",
+    "sql server",
+    "tools",
+    "data extraction",
+    "testing"
+  ],
+  "objects": [],
+  "features": [
+    "backup file parsing",
+    "table row decoding",
+    "page decompression",
+    "BLOB handling",
+    "AL field mapping",
+    "command-line interface",
+    "library interface",
+    "serve mode"
+  ],
+  "versions": [
+    "BC 21",
+    "BC 24",
+    "BC 27.5",
+    "BC 28.1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007277,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "AL Runner doesn't have that constraint: it only cares whether the data structure matches.",
+      "why_it_matters": "Explains the fundamental advantage over service tier restore: enables testing without exact extension versions"
+    }
+  ]
+}

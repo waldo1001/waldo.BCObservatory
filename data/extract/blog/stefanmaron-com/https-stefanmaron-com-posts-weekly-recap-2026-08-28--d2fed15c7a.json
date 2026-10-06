@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/",
+  "url": "https://stefanmaron.com/posts/weekly-recap-2026-08-28/",
+  "title": "Weekly Recap: August 21-28",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-28T07:30:00.000Z",
+  "words": 1443,
+  "summary": "Weekly recap covering AL Runner CI tooling fixes, Linux fast lane pipeline bugs, a major OpenPageInspection browser extension rewrite for cross-browser support, and Azure CLI authentication contributions to the navapi Business Central API client.",
+  "key_points": [
+    "AL Runner's changelog generator now handles scoped commit prefixes and automatically maintains the Unreleased section from commit history",
+    "Linux fast lane fixed directory path handling bugs by switching from space-separated to newline-separated lists and made test steps handle zero-test projects",
+    "OpenPageInspection rewritten as a WXT project supporting Chromium and Firefox with improved page inspection using BC's native Ctrl+Alt+F1 shortcut",
+    "navapi gained optional Azure CLI authentication allowing users to avoid storing client secrets, with identity pinning for multi-account scenarios"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al runner",
+    "ci/cd",
+    "linux",
+    "browser extension",
+    "authentication",
+    "api client",
+    "changelog",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "MsDyn365Bc.On.Linux"
+    },
+    {
+      "type": "other",
+      "name": "BusinessCentral.AL.Language.Tests"
+    },
+    {
+      "type": "other",
+      "name": "OpenPageInspection"
+    },
+    {
+      "type": "other",
+      "name": "navapi"
+    }
+  ],
+  "features": [
+    "scoped commit prefix recognition",
+    "continuous changelog generation",
+    "directory path handling in pipelines",
+    "zero-test project support",
+    "cross-browser page inspection",
+    "Azure CLI authentication",
+    "identity pinning",
+    "endpoint search by name or entity type"
+  ],
+  "versions": [
+    "BC 29 preview"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007734,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

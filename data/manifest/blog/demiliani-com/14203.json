@@ -7,7 +7,7 @@
   "url": "https://demiliani.com/2026/09/01/why-your-business-central-job-queue-needs-idempotent-external-effects-when-integrating-external-systems/",
   "published_at": "2026-09-01T08:34:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:40:04.451Z",
       "path": "vault:posts/demiliani-com/14203.md",
       "words": 1379
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:13.868Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007713
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:13.870Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:13.871Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:13.875Z",
+      "path": "content/posts/demiliani-com/14203.md"
     }
   },
   "input_hash": "2026-09-01T08:34:56.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "febd59a0315f0e3e3421f2f3d0e0b5140c3b65334ac305333edd6663c3c8fdb9"
+  "output_hash": "c4cbd36021e184ce007386960bd926812cea9dc0cc4bc8e3a590bab937723ddf"
 }
