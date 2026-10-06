@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-substituting-reports",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "49b7605d074ebf136370ccef5b8b80e7d5121d48",
       "words": 585,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:57.667Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004685
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "page": false
     }
   },
   "input_hash": "49b7605d074ebf136370ccef5b8b80e7d5121d48",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49b7605d074ebf136370ccef5b8b80e7d5121d48"
+  "output_hash": "484136c5af35ebdc9966c7964c68baeb05829f3e08c24c532d0c727395ff7242"
 }

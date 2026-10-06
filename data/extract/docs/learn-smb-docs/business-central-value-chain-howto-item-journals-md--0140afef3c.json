@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-item-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-item-journals",
+  "title": "Sustainability value chain in item journals",
+  "blob": "7e3633f9cc7db130de58e863c0d8d9133f8385a6",
+  "summary": "Record item emissions and reclassifications in item journals to create sustainability value entries. The Adjust Emissions batch job recalculates average CO2e per unit from posted entries.",
+  "systems": [
+    "inventory",
+    "sustainability"
+  ],
+  "topics": [
+    "item journals",
+    "emissions",
+    "sustainability",
+    "carbon tracking",
+    "value chain",
+    "reclassification"
+  ],
+  "objects": [],
+  "features": [
+    "Item journal emissions",
+    "Item reclassification journal",
+    "Sustainability value entries",
+    "Adjust Emissions batch job",
+    "CO2e per unit calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005133,
+      "pages_in_call": 8
+    }
+  ]
+}

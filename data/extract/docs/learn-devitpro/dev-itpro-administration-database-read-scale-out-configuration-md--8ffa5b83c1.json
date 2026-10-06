@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-read-scale-out-configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-configuration",
+  "title": "Configuring a Database for Read Scale-Out",
+  "blob": "e2f7561d4fa31d538805092c3b96a858f78fa432",
+  "summary": "How to enable read scale-out on Business Central databases for on-premises deployments, including checks for Azure SQL Database and SQL Server support and server instance configuration.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "read scale-out",
+    "database performance",
+    "high availability"
+  ],
+  "objects": [],
+  "features": [
+    "read scale-out",
+    "read-only replicas",
+    "SQL read-only replica support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011108,
+      "pages_in_call": 5
+    }
+  ]
+}

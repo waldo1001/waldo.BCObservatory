@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-configure-standard-calendar",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "38cf37e972ab8ad0ba4ea2ab2fc01f6a92efa972",
       "words": 155,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:04.316Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00471
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:04.322Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:04.323Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:04.323Z",
+      "page": false
     }
   },
   "input_hash": "38cf37e972ab8ad0ba4ea2ab2fc01f6a92efa972",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38cf37e972ab8ad0ba4ea2ab2fc01f6a92efa972"
+  "output_hash": "c3be664834c288546cd00fb5b54741f8126b6f02dfd3fc4a3ab88625dfe31be8"
 }

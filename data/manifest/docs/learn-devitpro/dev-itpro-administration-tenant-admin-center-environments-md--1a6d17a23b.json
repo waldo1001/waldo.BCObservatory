@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "published_at": "2026-08-18T10:41:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e09212ac5efcff3df8eafa7514d527290649c775",
       "words": 1330,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:31.147Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.012275
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:31.152Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:31.152Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:31.153Z",
+      "page": false
     }
   },
   "input_hash": "e09212ac5efcff3df8eafa7514d527290649c775",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e09212ac5efcff3df8eafa7514d527290649c775"
+  "output_hash": "c5da242aed1692fd63c1454d511623dee14fec8a43913ad3c8f261350fe38a3a"
 }

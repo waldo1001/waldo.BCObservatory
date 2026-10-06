@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
 type: topic
 title: Get started with the Shopify connector
-summary: "Learn section Business functionality > Online store with Shopify > Get started with the Shopify connector: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.
 tier: official
 language: en
 system: integration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2e15db73e26122c3c46b434a012fbb2a50d3f86ab19c70fb426c146737508213
+  prompts:
+    hub-topic: 1
+  input_hash: 93979d630fd742982e5019a7687985874b47d52ac7487dcb649a8323bb3ff955
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account
@@ -64,14 +65,29 @@ bc_forms:
   - 30104
   - 30135
 member_hash: 2e15db73e26122c3c46b434a012fbb2a50d3f86ab19c70fb426c146737508213
-narrative: none
+narrative: generated
 ---
 
 # Get started with the Shopify connector
 
-> Learn section Business functionality > Online store with Shopify > Get started with the Shopify connector: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Online store with Shopify](../online-store-with-shopify.md) > Get started with the Shopify connector · tier official · system integration · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Online store with Shopify](../online-store-with-shopify.md) > Get started with the Shopify connector · tier official · system integration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section is the entry point for the Shopify connector in Business Central. It has two pages and no subtopics. One page introduces the connector and what it synchronizes. The other explains how to create a Shopify account to test it.
+
+Start with "Getting started with the connector for Shopify" to learn how to connect a store and which data flows between Shopify and Business Central: items, prices, inventory, customers, companies and orders. Then use "Create and set up a Shopify account" if you need a store to try it on. That page covers a trial setup for end-users and a development store for partners.
+
+## Key points
+
+- The Shopify Connector connects Shopify stores to Business Central.
+- Synchronization covers items, prices, inventory, customers, companies and orders.
+- The account page covers creating a Shopify account for testing the connector.
+- End-users use a trial setup. Partners use development stores.
+- Account setup includes plan selection and customer account configuration.
+- Test payments are activated for testing, using either Bogus Gateway or Shopify Payments.
 
 ## Learn pages
 

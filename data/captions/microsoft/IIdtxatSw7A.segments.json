@@ -1,0 +1,1028 @@
+{
+  "video_id": "IIdtxatSw7A",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.6,
+      "end": 22.1,
+      "text": "Welcome to the 10th episode of Under the Hood. Um, 10th episode is almost like an anniversary. >> It is. >> Um, so, uh, today we are going to talk about something quite exciting."
+    },
+    {
+      "t": 22.1,
+      "end": 36.2,
+      "text": "We're talking about security, hacking, that kind of thing. And, uh, with me today have Jonathan. Welcome, Jonathan. Thank you, Vincent. >> Um, so tell us a bit about yourself and tell us about what you do in relation to security."
+    },
+    {
+      "t": 36.2,
+      "end": 53,
+      "text": ">> Okay. Well, my name is of course Jonathan Davis. I'm a uh security program manager on the the BIC security team. So BIC is the um business and industry co-pilots. It's the business unit that includes business central, but it also includes all of the Dynamics products and the power platform."
+    },
+    {
+      "t": 53,
+      "end": 66.3,
+      "text": ">> So your role is broader than just business central. >> It's broad broader than just business central. Although my origins are in business central. So I started off there and because Business Central is such a got such a good security culture, you know, um I sort of evolved from there into these kind of bigger roles."
+    },
+    {
+      "t": 66.3,
+      "end": 80.6,
+      "text": "So yeah, we're responsible for um the security of all of the power platform and and Dynamics 365, which is, you know, quite a responsibility. >> Yeah. Right. Okay. So before we get into more specific into um Business Central, let's talk a little bit about,"
+    },
+    {
+      "t": 80.6,
+      "end": 92.2,
+      "text": "you know, security in general. Um, you hear a lot of in the news, you know, people hear a lot about security hackers. So, is that how how bad is it? Uh, are hackers really at the gate?"
+    },
+    {
+      "t": 92.2,
+      "end": 103.7,
+      "text": "You know, are we should we be concerned? >> Yeah, I think we should be concerned. Uh, I think the hackers kind of are at the gates a little bit. Um, although I think that things are getting better."
+    },
+    {
+      "t": 103.7,
+      "end": 114,
+      "text": "Um I think that awareness uh out there about the importance of cyber security uh the reporting on it uh the just the general response from the industry has been better."
+    },
+    {
+      "t": 114,
+      "end": 127.4,
+      "text": "I mean certainly here as you probably know here within Microsoft there's a >> we've uh security has just been massively rep prioritized in the last year or so >> due to some >> some fairly severe incidents that we were subjected to."
+    },
+    {
+      "t": 127.4,
+      "end": 138.2,
+      "text": "So I think that the it's a kind of a mixture. You know, there's a lot of people that are incentivized to sort of say that, well, you know, that, you know, the the sky is falling in and everything is falling apart and it's getting worse and worse, >> but the threat is still present."
+    },
+    {
+      "t": 138.2,
+      "end": 149.4,
+      "text": ">> The threat is very present and I think it's quite I don't think that people quite appreciate how ruinous it can be >> uh for both individuals and organizations if they do experience a severe incident."
+    },
+    {
+      "t": 149.4,
+      "end": 159.8,
+      "text": "Um, I mean, we've got a a very special responsibility because we hold the keys of the kingdoms for so many >> businesses. So many organizations are dependent on us, Microsoft and also in Business Central."
+    },
+    {
+      "t": 159.8,
+      "end": 169.9,
+      "text": "Um, but I think that what we're seeing so more broadly is is a growing awareness amongst normies, amongst ordinary people. You're probably getting calls from your elderly parents and all the rest of it."
+    },
+    {
+      "t": 169.9,
+      "end": 181,
+      "text": ">> Um, unfortunately there's a lot of alarmism out there. You know, just recently there was this thing about 16 billion passwords have been exposed. >> Uh, and there had elderly parents calling up, you know, have I been hacked?"
+    },
+    {
+      "t": 181,
+      "end": 197.4,
+      "text": "Uh that's an example where there is an industry of people that are designed to sort of inflate and exaggerate the cyber security story in unhelpful ways. Those 16 billion passwords were in fact collections of all the previous dumps and a couple a smattering of other ones."
+    },
+    {
+      "t": 197.4,
+      "end": 207.9,
+      "text": ">> So it was not like a new >> it wasn't new stuff. It was just you know people just keep making lists or recombining them but it was reported by sort of certain news you know got wide widespread was in the BBC and all the rest of it."
+    },
+    {
+      "t": 207.9,
+      "end": 223.9,
+      "text": ">> But just to be clear that's there still a real thing there. There are such a thing as lists of password and databases of password circulating around. >> Exactly. >> And uh if you go if you use products like Last Pass or other thing, they will tell you this password is been compromised and that's that's that's a thing."
+    },
+    {
+      "t": 223.9,
+      "end": 236.9,
+      "text": "It's not just a >> I think there's a good side and a bad side. So I think the bad side is just like you know uh it people are terrified. But the good side is that it makes people use password managers. It makes people use pass keys. Makes people use multiffactor authentication."
+    },
+    {
+      "t": 236.9,
+      "end": 252.6,
+      "text": "And they also realize uh you know when people do ask you well why why should I care if that password ends up in a breach. >> The main reason uh that sort of why we we talk about not having password reuse for example is that you put in the same password that you use for your bank in with the the cinema."
+    },
+    {
+      "t": 252.6,
+      "end": 265.7,
+      "text": ">> The cinema gets hacked and now they've got the password for your bank. And this is exactly how so many hacks happen. >> It's it's credential reuse or password spraying. I mean, right now we in Microsoft are experienced"
+    },
+    {
+      "t": 265.7,
+      "end": 276.1,
+      "text": "sometimes billions, if not trillions of attempts of people that are taking these rainbow tables and other lists of of passwords, username and password pairs that they've stolen from people."
+    },
+    {
+      "t": 276.1,
+      "end": 288.2,
+      "text": "You know, for example, there's a type of malware called an info stealer that when it executes on a computer, it grabs all the cookies and all the passwords out of the mostly the browsers. It's not so good at getting and it puts them it gives them to attackers."
+    },
+    {
+      "t": 288.2,
+      "end": 308.6,
+      "text": "then attackers can just reuse these or sell them on and they can try them you know against sort of more you know more difficult targets like like businesses. So I think you know just to summarize I think that it's it is important that people um realize that they're that these cyber security practices people keep going on about they're kind of minimum bar now to stay safe in this digital world"
+    },
+    {
+      "t": 308.6,
+      "end": 324.8,
+      "text": ">> and there's also this I don't have the statistics but I know that um that there's a lot of of companies and businesses who got attacked and typical typical thing is ransomware attacks or or you know denial of service attacks and they you know they're not too proud of"
+    },
+    {
+      "t": 324.8,
+      "end": 336.3,
+      "text": "the fact that their security is maybe not quite up to date. So, so a lot of these incident they they get unnoticed and unreported. they just pay the attackers or and and they don't tell about it because imagine you have your own business and you get attacked."
+    },
+    {
+      "t": 336.3,
+      "end": 346.7,
+      "text": "You know, how much do you want to ad advertise about it? You probably want to, you know, keep quiet about it. You know, you don't want your customers to know about it. You know, these kind of things. So, a lot of these things also get a little bit unnoticed."
+    },
+    {
+      "t": 346.7,
+      "end": 358.5,
+      "text": "Um >> I think that many of people that have worked in incident response, they'll tell you that the the first thing that happens is okay fine, we've evicted the the the the you know, the the the attackers and then it's like cover it up, >> you know, don't tell anybody."
+    },
+    {
+      "t": 358.5,
+      "end": 368.8,
+      "text": "Uh I think that there is a big drive now. Some of it's led by legislation and some of it's led by just industry best practices for people to to fess up because it shouldn't be about victim blaming. >> Mhm."
+    },
+    {
+      "t": 368.8,
+      "end": 380.3,
+      "text": ">> I mean a determined attacker will be able to get I mean we we talk there is there's this phrase which is which they use for you know ATPs you know advanced APS advanced persistent threats."
+    },
+    {
+      "t": 380.3,
+      "end": 394.1,
+      "text": ">> Um what we sometimes use we prefer is sort of high focus high skill high resource. In other words, if someone kind of wants to hack you, if they've got enough resources and enough skill, they'll probably find a way."
+    },
+    {
+      "t": 394.1,
+      "end": 404.9,
+      "text": ">> The game is to just make it harder and harder and harder for people. Make yourself a hard target. >> It's to slow people down and and and and you know, force them out. And I think with the ransomware epidemic, it started hitting individuals."
+    },
+    {
+      "t": 404.9,
+      "end": 421.4,
+      "text": "Firstly, it was just ordinary people that were getting a kind of a virus, but the virus had encrypted their stuff. And then the attackers suddenly realized that this was small money compared to what they could get out of institutions. So they started going after you know companies and they often now target the real some of the softest and most vulnerable."
+    },
+    {
+      "t": 421.4,
+      "end": 432,
+      "text": "They go for schools, they go for municipalities, they go for hospitals. >> These are people with no honor. >> Is it fair to say that you know Business Central is a small and medium business product?"
+    },
+    {
+      "t": 432,
+      "end": 452,
+      "text": "So a lot of our customers and partners are you know in in the small and and medium business industry. there are they are maybe more obvious targets because they are at least in that segment where you know big companies like Microsoft you know uh you know other you know large corporation they of course they have you know they do all the right things about securities and a lot of yes they have a lot"
+    },
+    {
+      "t": 452,
+      "end": 467,
+      "text": "of money but they're a lot harder to hack whereas they probably you know one could imagine there's a lot of small businesses who have invested in security maybe not as much as they should you know I I just an anecdotal story I was talking to somebody you know I won't reve any name,"
+    },
+    {
+      "t": 467,
+      "end": 478.1,
+      "text": "but they were saying, you know, they they had an on-rem business and we can get back to that, you know, onrem versus, you know, the cloud with Business Central, but they were saying, >> uh, you know, I have a, you know, why why should I be concerned about security?"
+    },
+    {
+      "t": 478.1,
+      "end": 492.6,
+      "text": "I have a firewall, >> you know. >> Yeah. So, what's your reaction to that, you know, because I think a lot of I mean, it's not it's a genuine comment and and and I think it's a it's, you know, um, I understand why people would think,"
+    },
+    {
+      "t": 492.6,
+      "end": 507.9,
+      "text": "you know, okay, I have my I have my server in my basement. I have a firewall. I'm safe. Yeah. You know, so what what what's your comment on that? >> Look, I feel I I feel genu genuinely sorry for people for ordinary people out there because the entire software industry has papered over the cracks for 30 years."
+    },
+    {
+      "t": 507.9,
+      "end": 525.1,
+      "text": ">> I mean, software is cheap because we're we're not we're we're indemnified against the consequences of our mistakes. >> This is the original sin of the software industry, which is that if your if you crash a car because your brakes fail, then you know your car company's going to have to recall all of those products and they're going to have to pay compensation to the people injured."
+    },
+    {
+      "t": 525.1,
+      "end": 536.6,
+      "text": "That's not the case for the software industry. As a consequence, software is a lot cheaper than it would be if the if it were otherwise. But there has not really been a strong incentive to prioritize security."
+    },
+    {
+      "t": 536.6,
+      "end": 551.4,
+      "text": ">> So we have walked all of ourselves into this situation and ordinary people shouldn't have to be experts on security. They have an expectation that the software and the things which we provide them are secure >> and they're often misinformed by again the sort of the snake oily type people that say,"
+    },
+    {
+      "t": 551.4,
+      "end": 561.8,
+      "text": "\"Oh, all you need is a firewall.\" And I do think that that is pretty regrettable really because I I I feel sorry for people. Uh I really do think that it's not fair."
+    },
+    {
+      "t": 561.8,
+      "end": 581.8,
+      "text": "I mean, and you talked about the small to mediumsiz businesses. You're entirely right about that. They are often the absolutely most vulnerable people. uh you know Whale who's the security champ for uh Business Central along with Ed uh we did a talk at directions a couple of years ago a long one you know a kind of multi session two 45 minutes talking about uh partner security and"
+    },
+    {
+      "t": 581.8,
+      "end": 593.5,
+      "text": "to some degree personal security because there's an overlap or security for SMBs >> because we we we we realized that those businesses are probably the most vulnerable. They're in the perfect sweet spot for ransomware attackers."
+    },
+    {
+      "t": 593.5,
+      "end": 607,
+      "text": "Some of them are kind of getting big. You got two 200 employees, let's say. You might be dealing with tens or even hundreds of millions of dollars worth of of revenue, but you don't you've got like a person over there who's half of their job is to be a cyber security person."
+    },
+    {
+      "t": 607,
+      "end": 618.3,
+      "text": "You don't have a dedicated sock. You don't have a dedicated cyber security team. >> People ransomware people know about this. They're scanning. They're looking. They've got uh you know, people don't realize that these are big businesses."
+    },
+    {
+      "t": 618.3,
+      "end": 638.4,
+      "text": "You're not up against the guy in his basement. >> Ransomware crews like Revel or whatever, they these are large organizations. >> They're organized groups. They are not >> they go to offices. is this this romantic picture or whatever it is that people have that's you know largely conveyed by Hollywood movies uh of this guy with a you know with a with a"
+    },
+    {
+      "t": 638.4,
+      "end": 657.6,
+      "text": "you know >> breach the firewall >> yeah exactly I mean you know in in a basement that's that's kind >> matrix text and then suddenly that fills in the password one by one yeah it doesn't yeah so that's it's not like that >> exactly and I do think that so there is a a there is a push now uh you know one of the things which we're very forceful on with with SFI,"
+    },
+    {
+      "t": 657.6,
+      "end": 668.6,
+      "text": "the secure future initiative is is secure by default. You know, we've often, you know, since the 70s, we've had all these security principles like lease privilege and secure by default, but they haven't really had traction."
+    },
+    {
+      "t": 668.6,
+      "end": 678.9,
+      "text": ">> Mhm. >> And that loops back to what you were saying. It should it I remember, you know, may not remember this, but the uh with Windows XP when it originally shipped, it didn't have a firewall."
+    },
+    {
+      "t": 678.9,
+      "end": 692.3,
+      "text": "So any ports, any services that were running on this, they were exposed to the internet. And the first versions of the kind of built-in firewall with service pack 2 um they were maybe I'm wrong but I I remember that the first thing was it was kind of block bad."
+    },
+    {
+      "t": 692.3,
+      "end": 702.6,
+      "text": "So it was open everywhere and then oh someone is trying to you know attack me from this IP address and I'll block it. >> And then the fundamental mental model switch was no no block everything and allow list. >> Mhm."
+    },
+    {
+      "t": 702.6,
+      "end": 713.5,
+      "text": ">> That was transformational. That suddenly boosted sort of network security anyway for those Windows computers massively. This was after these various worms and other things had had forced our hand."
+    },
+    {
+      "t": 713.5,
+      "end": 732.2,
+      "text": ">> Um, and I think that the the what is incumbent on the software industry and it's very close to the heart for in Bick and in business central I know this is that it's secure by default when you switch it on it's secure and you have to read the documents and to really strive to screw it up by messing with the configurations to make it insecure."
+    },
+    {
+      "t": 732.2,
+      "end": 745.1,
+      "text": "That's the objective now >> because I do think that the the days of basically saying well you know you have to read a book and you have to get a university level education on cyber security in order to operate your business with our software it's not acceptable anymore."
+    },
+    {
+      "t": 745.1,
+      "end": 759.6,
+      "text": "Yeah. And I mean is that fair to say that um security is so complex, so difficult these days that you know you should let it you as your point is like you should let professional take care of like you know the Microsoft cloud for example Azure is secure by default."
+    },
+    {
+      "t": 759.6,
+      "end": 775.2,
+      "text": "We're doing a lot. We have, you know, really professional people, experts in that area who do a lot of work and and you know, really, you know, know what they are doing and they take a lot of the out a lot of the of the, you know, the heat and the concern you should have around your your your service rather than,"
+    },
+    {
+      "t": 775.2,
+      "end": 795.4,
+      "text": "you know, if you try to host it yourself. Uh, that's just, you know, um, >> you're absolutely right. I think you're going to get hacked if you >> look there there are I mean there are circumstances where you want to have air gapping and hostings yourselves and certain governments and so on but I think there's no doubt uh and people are going to think that there were kind of marketing shills but the fact is that you"
+    },
+    {
+      "t": 795.4,
+      "end": 811,
+      "text": "get a kind of the network effect benefits um and it works a little bit like this if you imagine that you are part of uh you're you're a business central customer and um we experience some kind of an attempted attack against you uh maybe it is say a credential stuffing,"
+    },
+    {
+      "t": 811,
+      "end": 825.4,
+      "text": "you know, people trying multiple attempts to login using username and password pair or whatever else and or somebody else as part of this huge network of people that we work with and we work with, you know, Google and Amazon and and Apple and, you know, all manner of industry sharing intelligence,"
+    },
+    {
+      "t": 825.4,
+      "end": 836.6,
+      "text": "sharing threat intelligence. So, let's say we get some notification that a specific IP address or, you know, is is malicious, >> we can cascade that to all of our customers immediately."
+    },
+    {
+      "t": 836.6,
+      "end": 849.4,
+      "text": "So a single customer is attacked or even compromised and then we can plug that into our systems to defend everybody else. >> So what we have is a kind of a collective strength or that that comes inherently with that."
+    },
+    {
+      "t": 849.4,
+      "end": 860.7,
+      "text": ">> The other thing is you're entirely right with highly complex systems. It's very easy to make a mistake. You get one and all you need to do is make get one thing wrong basically uh and all of a sudden you you're exposed."
+    },
+    {
+      "t": 860.7,
+      "end": 881.7,
+      "text": "I mean countless people have I mean I don't know if you remember back in the day when some people used to leave their you know they would expose their C drives to the internet and you know there was some good Samaritans who would go and put a text file on there saying you know please can you like block you know not share your your C drive >> um I think today what's happening is that many people realize that um especially for"
+    },
+    {
+      "t": 881.7,
+      "end": 892.5,
+      "text": "these technologies which a lot of people are using so let's say you know containerization or advanced networking and all the rest of it you can you can roll your You can do that if you have a home lab."
+    },
+    {
+      "t": 892.5,
+      "end": 909,
+      "text": "Uh you can if you've got a very compelling business case, but there's no doubt that if you leave it to professionals who are, as you say, secure by default, watched by network operations centers staffed by the best in the world using threat intelligence that is the absolute freshest."
+    },
+    {
+      "t": 909,
+      "end": 920.2,
+      "text": ">> Um you get an you get an immediate security yield from that. So I think that it it there's no doubt in my mind that customers would be well advised to sort of"
+    },
+    {
+      "t": 920.2,
+      "end": 934.9,
+      "text": "take take shelter in the cloud. >> Um it's a good picture. I like >> yeah you know sort of it's a port in a storm and I and I do think that you know some people would counter and say well you know cloud is very complex and people mess things up and it's got its own complexities."
+    },
+    {
+      "t": 934.9,
+      "end": 954.9,
+      "text": "There's no doubt about that for people that are buil potentially building their own solutions or making you know building on our past but for the SAS products that's not the case >> but even in shum as a resol from a resource standpoint I mean Microsoft has you know large amount of resources in terms of people you know and not only machines and you know there are constantly you know uh"
+    },
+    {
+      "t": 954.9,
+      "end": 967.8,
+      "text": "monitoring and and all these the tooling and all that we have but also a lot of people working on security whereas you know if you have a small business you know how many you know you can't I mean Can do can you afford to hire a security expert?"
+    },
+    {
+      "t": 967.8,
+      "end": 981.7,
+      "text": "Yeah. And you need to be of a certain size from from a business standpoint before it makes sense to have a security expert in your team. >> You're entirely right. I don't think people realize how much goes into proper security proper 21st century security."
+    },
+    {
+      "t": 981.7,
+      "end": 997.1,
+      "text": "Uh it is there is an enormous amount of work that goes into I mean we because of the nature of this business because of the importance of trust and security because how critical it is to us and our own reputation to make sure that we also have this duty of care to all of our customers."
+    },
+    {
+      "t": 997.1,
+      "end": 1009,
+      "text": ">> So we are undoubtedly elite but we have had large customers come into us for EBCS and all the rest of us and we've asked them about their security practices and found out absolute horror stories."
+    },
+    {
+      "t": 1009,
+      "end": 1019.3,
+      "text": "You know, for example, all code that chips from from from us from Business Central is reviewed uh or all systems have, you know, a threat modeling exercise."
+    },
+    {
+      "t": 1019.3,
+      "end": 1030.4,
+      "text": "So that is reviewed by a security expert. A threat model is created. That threat model is assessed. The risks are tabulated. The mitigations for those risks are listed out as as action items. They're tracked in a system."
+    },
+    {
+      "t": 1030.4,
+      "end": 1048.5,
+      "text": ">> Um and then and only then is the thing cleared for release or all that. and and we've we've maintained that even in the age of AI where there's enormous pressure to push out AI features and respond to the AI moment the SLT made a made a judgment at the early days of uh you know in 2022"
+    },
+    {
+      "t": 1048.5,
+      "end": 1066.6,
+      "text": ">> hey all of these AI features need to go through the professional security teams like my own it was very hard work for us we were doing six seven reviews a day but that is the kind of thing which we just don't see this is a this again this is the security development life cycle it's been around for 20 years it was stems from 200 2003 from the trustworthy computing era,"
+    },
+    {
+      "t": 1066.6,
+      "end": 1082.2,
+      "text": ">> but it's just not practiced out there. Other basic things like code scanning, >> static analysis, >> vast amounts of customers and small businesses, they just don't do this. They just have >> no code from, you know, business central code go through the scanning and >> through the cops and the various other things."
+    },
+    {
+      "t": 1082.2,
+      "end": 1102.4,
+      "text": "Yeah. >> A lot of static analysis, finding out, you know, is there any any code that's potentially could um >> we had a customer issues. >> Yeah, exactly. I mean, not to not to mention names. Uh we had a a large customer that came in a Danish customer that was we were asking about their uh you know here we have this this concept of the secure admin workstation or saw as we call it uh"
+    },
+    {
+      "t": 1102.4,
+      "end": 1116.2,
+      "text": "and uh these are specialist devices that we use to access production systems are completely separate from our our corporate systems. And they're very controlled like we can install anything on these other than the things that are mandated or occur."
+    },
+    {
+      "t": 1116.2,
+      "end": 1127.3,
+      "text": "So that in order to avoid that you get a machine into a production environment that that potentially can contain >> malware or they're extremely locked down. They go through a specialist VPN."
+    },
+    {
+      "t": 1127.3,
+      "end": 1138,
+      "text": "You have to you need a second factor physical sort of dongle UB key to be able to even log in and use these things. >> And we were asking this customer, do you have something like this? And they were like, oh no, we've got 4,000 engineers."
+    },
+    {
+      "t": 1138,
+      "end": 1148.9,
+      "text": "all of them can access the production databases. So I said, you know, you're one you're one engineer, one click >> from potentially having a compromised endpoint that's going to be able to read your production database."
+    },
+    {
+      "t": 1148.9,
+      "end": 1169.3,
+      "text": "So these concepts of of segmentation of of lease privilege of zero trust uh the things which are bread and butter >> uh you know building up the SDL and all the way through you know through to operational security the the the monitoring the constant vigilance and assessment the AI powered uh kind of signal boosting that we have"
+    },
+    {
+      "t": 1169.3,
+      "end": 1180.6,
+      "text": "these are things that they are they have evolved because we've been attacked a lot uh they're the benefits of scale because we've got this huge estate with Entra we can see these these this these attack profiles everywhere."
+    },
+    {
+      "t": 1180.6,
+      "end": 1194.9,
+      "text": "So these businesses and people that are kind of rolling their own, they reasonably can't be expected to to achieve the same levels of vigilance and capability as people like ourselves and we don't and in a way that's what we're saying is hey don't bother >> you know we'll take care of that."
+    },
+    {
+      "t": 1194.9,
+      "end": 1209,
+      "text": "The promise to you is that we'll take care of that for you. Uh of course there's always a uh you know we have the the joint responsibility model. There are things which the customer will always be responsible for and our job is to for those pieces of it to make sure that they can do their jobs."
+    },
+    {
+      "t": 1209,
+      "end": 1228.4,
+      "text": "So for example, we ship an awful lot of auditing and security logs to purview so that customers can can see can also make their own alerts because maybe they they can spot anomalies better than we can or they can see things which are which we can't because of privacy for example like exactly who it was that did a certain action."
+    },
+    {
+      "t": 1228.4,
+      "end": 1241.7,
+      "text": "So it's not just that we take care of the the the sort of the platform, the substrate and the the SAS layer. Uh we also have a duty to make sure that we educate our customers which we do. I mean in business central there are almost always security talks at all of the main conferences."
+    },
+    {
+      "t": 1241.7,
+      "end": 1253.8,
+      "text": ">> Yeah, we also have this bounty program like which um they talk a little bit about it. So >> yeah, the bounty program, the Dynamics 365 bounty program, >> you know, that is one of the big successes that we've had in the last few years."
+    },
+    {
+      "t": 1253.8,
+      "end": 1264,
+      "text": "I remember uh I remember having large debates with uh several of the the executives at the time about the the wisdom of it."
+    },
+    {
+      "t": 1264,
+      "end": 1274.1,
+      "text": "Um >> but what is it? I mean >> Okay. Sorry. So the bounty program is that we essentially pay people to to report security bugs to us vulnerabilities. >> So if you find if you find a bug, you'll get a Yeah."
+    },
+    {
+      "t": 1274.1,
+      "end": 1289,
+      "text": "You get a fat loan. >> Exactly. You'll get a you'll get a credit. >> You'll be if the CV is assigned, you'll get your name next to it and of course you'll get money. And we have people that >> if you go and want to you know get earn some money you look for look for a vulnerability and we'll you know we'll we"
+    },
+    {
+      "t": 1289,
+      "end": 1304,
+      "text": "contact us >> and we think it's fair uh you know it's responsible disclosure. So instead of the bad guys and girls getting these bugs as part of an exploit chain as part of a you know there is an industry that creates zero days and exploits and sells them to attackers."
+    },
+    {
+      "t": 1304,
+      "end": 1315.8,
+      "text": "You know there is a sort of a shadow world a bit like Stranger Things an underworld that's that's there. So >> so what's a zero day? Do you hear that all the time? I just watched that Netflix series, very good one with Robert Nero, by the way, zero days."
+    },
+    {
+      "t": 1315.8,
+      "end": 1329,
+      "text": "So, what what is a zero day? You hear that that expression all the time? >> I mean, a zero day just means uh a vulnerability that is that the bad that the that the sort of attackers know about before the the vendors do or we know about it."
+    },
+    {
+      "t": 1329,
+      "end": 1349,
+      "text": "There are >> so as opposed to there's a certain number of vulnerabilities that are known that can patched potentially. >> They've been patched. Yeah. So they're out there and then there's you know >> they're out there but maybe they are they are problem if people haven't installed the patches or get on to the latest version but they are known vulnerability but then there's the one >> the ones we don't know about >> we don't know about"
+    },
+    {
+      "t": 1349,
+      "end": 1359.5,
+      "text": "and this is a zero day because we don't and they are potentially more dangerous because we don't have a patch for it. >> Yeah. >> So they can be exploed. >> Yeah. Zero days are a little bit fetishized."
+    },
+    {
+      "t": 1359.5,
+      "end": 1373.5,
+      "text": "You know they Netflix things like that various others they will make the point that oh there's a zero day and some people say >> sounds cool. >> Sounds cool. Yeah, there's no doubt that zero days are very dangerous. They are used uh by sophisticated attackers in very very effective ways."
+    },
+    {
+      "t": 1373.5,
+      "end": 1384,
+      "text": "Uh take for example um the some of the statebacked actors that like to steal cryptocurrency. They have very sophisticated teams that would chain together multiple zero days."
+    },
+    {
+      "t": 1384,
+      "end": 1396.2,
+      "text": "They had a zero day in in Chrome uh sandbox escape and then they chained that up with something else and they they used it to to strong effect. But most hacking, most successful breaches have nothing to do with zero days."
+    },
+    {
+      "t": 1396.2,
+      "end": 1406.2,
+      "text": "They really and even most bugs most bugs don't turn into vulnerabilities that are used only I think 5% of security bugs end up being weaponized or we actually see being used out there."
+    },
+    {
+      "t": 1406.2,
+      "end": 1421.9,
+      "text": ">> Yeah. So I'm talking about which I I I think again I don't have the the statistics but a lot of the hacking actually social engineering right >> a lot of it social engineering a lot of >> it's a lot easier to you know call somebody and pretend you're somebody else or"
+    },
+    {
+      "t": 1421.9,
+      "end": 1442.4,
+      "text": "and get their password or get you know get them to do something or even you were talking about before you know an organization with 4,000 engineers employees and yeah one of them you know one of them got get disgruntled or fired or whatever or get angry with the and they go and sell and not even maybe not even the person itself would do something but they would go and sell some"
+    },
+    {
+      "t": 1442.4,
+      "end": 1462.5,
+      "text": "you know something to >> they do I mean look there was a a cryptocurrency uh actually Coinbase >> was compromised recently they had some contractors in a in a in a third country uh they had very strict controls on the computers these folks just taking pictures of the screens with their cell phones they had been compromised by criminals that were paying them they're watching hundreds of millions of dollars worth of transactions"
+    },
+    {
+      "t": 1462.5,
+      "end": 1475.7,
+      "text": "every day and they're paid peanuts so of course that's an massive boost to the insider threat problem. >> Um, and we so you know, yes, I think that the uh, you know, just back to the whole kind of zero day thing, it's very work a day stuff that gets people compromised."
+    },
+    {
+      "t": 1475.7,
+      "end": 1488.3,
+      "text": "Most of it's identity compromise now. Uh, you know, reuse credits, lack of multiffactor authentication, sometimes password spraying, a lot of social engineering. You know, I call up the help desk and I can convince somebody to, oh, my MFA, I'm I'm Vincent."
+    },
+    {
+      "t": 1488.3,
+      "end": 1502.6,
+      "text": "I'm a really important guy and I've got a meeting now in a minute and my I can't get into my Can you reset it for me? And, oh, no, no, no. I'm you know who I am. And of course these poor people panic and they do it. Uh so that's a you know a very common social engineering thing is uh SIM swapping."
+    },
+    {
+      "t": 1502.6,
+      "end": 1514.2,
+      "text": "It's less it's a bit more robust in Europe but in America it's trivally easy. You know all you need to do is buy off a manager in in one of these phone company boutiques like in a shop and they can then reset the SIM card."
+    },
+    {
+      "t": 1514.2,
+      "end": 1525.7,
+      "text": "So that you know people that are using that to get SMS as a multiffactor authenticator. That's a disaster. That's why we advise people do not use SMS as a as a multiffactor thing because uh it's it's compromised."
+    },
+    {
+      "t": 1525.7,
+      "end": 1535.8,
+      "text": "Also the the the telos are often highly vulnerable and those protocols are not safe. But you know just to on the on the b on the bounty program because I do think that this is very a very interesting area."
+    },
+    {
+      "t": 1535.8,
+      "end": 1549.7,
+      "text": "We we of course want to incentivize people to come and disclose to us responsibly and we pay a lot. Uh on my team we have a we have a red teamer >> um who is gifted >> and he was the the most successful"
+    },
+    {
+      "t": 1549.7,
+      "end": 1562.4,
+      "text": "uh bounty uh Dynamics 365 and Power Plat Bounty person >> and we we actually went after him and begged him to join us. >> Okay. >> Even though he would take a financial hit joining us because these some of these people can make literally millions."
+    },
+    {
+      "t": 1562.4,
+      "end": 1578.4,
+      "text": ">> So he would make more money with bounties. >> He would make more money than he would working for Microsoft. True. >> But of course he picked his >> He must be pretty good then. He is brilliant. >> Uh but you know, I also think that these people that can earn that kind of money, that are that skill, they're not that they're often not that motivated by that."
+    },
+    {
+      "t": 1578.4,
+      "end": 1588.9,
+      "text": "He's motivated by interest and coming inside and seeing where the where the where the bodies are buried and being able to read the code bases and actually do some good. I mean, the thing is that he can come in and sweep up whole classes of bugs."
+    },
+    {
+      "t": 1588.9,
+      "end": 1599.8,
+      "text": ">> Uh and has had a you know, massive impact on doing this. We have had partners and other people report you know some pretty big bugs that have had they got into the hands of of of attackers would have caused us a lot of problems."
+    },
+    {
+      "t": 1599.8,
+      "end": 1613.8,
+      "text": "But >> can you tell a story? I mean like anonymize of course but something where you know like maybe a close call or when we had >> look I think so yeah the I think that most people would be quite shocked and terrified to realize how many close calls every business has."
+    },
+    {
+      "t": 1613.8,
+      "end": 1634,
+      "text": ">> Mhm. >> It's only whether you know it or not. Um people often say when we announce it we become more and more transparent over the years we you know a few months ago we started reporting all of our cloud bugs >> the things which we were not obligated to to reveal because they didn't have you know CVs they weren't assigned a kind of a CV score um"
+    },
+    {
+      "t": 1634,
+      "end": 1648.1,
+      "text": "because that's a good sign when you are actually when people are finding them and sweeping them up it means that they're not out there in the population so I mean I don't have any there are quite a lot of examples"
+    },
+    {
+      "t": 1648.1,
+      "end": 1665.8,
+      "text": "But I think one of the a classic example which is not related to us are spectre and meltdown you know from uh several years ago. Their researchers discovered uh speculative execution bug in in these Intel chipsets and and and they essentially"
+    },
+    {
+      "t": 1665.8,
+      "end": 1681,
+      "text": "responsibly disclosed it. The companies formed a co coalition of 30 or so organizations. I mean it was unbelievable. for nine months. People in Microsoft work with people in in Apple and Google and Adobe and and every you name it,"
+    },
+    {
+      "t": 1681,
+      "end": 1691,
+      "text": "30 companies, uh the Linux Foundation and various others to stage it so that we could get everything patched before this thing was revealed."
+    },
+    {
+      "t": 1691,
+      "end": 1701.4,
+      "text": "It was Rumble two weeks before the sort of announce date because some clever people said, \"Hang on a minute. Why are they doing this patch in the Linux kernel and they're also doing this, this, and this?\" And they put it put it together."
+    },
+    {
+      "t": 1701.4,
+      "end": 1712.9,
+      "text": "But that was a great example where something would have been truly ruinous had that got out. >> And I think that uh you know across the board these security researchers are doing fantastic work."
+    },
+    {
+      "t": 1712.9,
+      "end": 1726.8,
+      "text": "They are like really they're like an extended security team. I mean we often say in in in that we we describe we end our presentation by saying we're one blue team. >> Mhm. >> I mean we in Microsoft we in business central and our partners and our customers we are one blue team."
+    },
+    {
+      "t": 1726.8,
+      "end": 1742.1,
+      "text": "We are all linked together. Can you explain maybe where this red team maybe some people the red team blue team thing comes from military war games and exercises like in the so in in the military and unfortunately cyber security is full of military metaphors."
+    },
+    {
+      "t": 1742.1,
+      "end": 1754.1,
+      "text": "It's kind of it's just the the boyish >> origins of it. It's kind of changing and we're moving out of that. But the red team was played the attacker the enemy and the blue team played the the the sort of the goodies simulation basically."
+    },
+    {
+      "t": 1754.1,
+      "end": 1768.8,
+      "text": ">> It's a simulation. It was a war game. >> Yeah. We had one we did one for for BC. precisely a while ago where we invited some so we invited some people from the red team >> and they uh and they tried to bridge into BC and we had a blue team where people excuse me try to defend it."
+    },
+    {
+      "t": 1768.8,
+      "end": 1782.6,
+      "text": ">> Yeah, we have those. So that that's interesting because that was actually the origin story of the uh and look many years have passed so I think it's safe to tell the story. In 2019 we we got the what was then the Azure uh red team >> uh Craig Nelson and his team."
+    },
+    {
+      "t": 1782.6,
+      "end": 1799.8,
+      "text": "Now it's now it's just the Microsoft red team. Uh these are some of the most skilled hackers in the world. >> Mhm. >> They came over here to to Copenhagen. They spent a week, >> more than a week with us with a series of engineers from Business Central, including the people that are now the security managers for Business Central."
+    },
+    {
+      "t": 1799.8,
+      "end": 1814.9,
+      "text": "They took all these engineers in and they did what's called a ride along. So here the red team takes engineers and they they they hack or attempt to hack Business Central in this case exactly the same way a highly skilled, highly focused adversary would or an AP."
+    },
+    {
+      "t": 1814.9,
+      "end": 1826.2,
+      "text": "It could be a ransomware gang, it could be a state actor. >> And they went to work and it was amazing to see the techniques that they used, the the surveillance, the various stages of it."
+    },
+    {
+      "t": 1826.2,
+      "end": 1837.3,
+      "text": "And there were some successes. The the team learned a lot. Uh it it led to a fairly extensive amount of cleanup work, but it's great. It was an examination of where things were and it was very surprising."
+    },
+    {
+      "t": 1837.3,
+      "end": 1852.1,
+      "text": "The things that we thought would be problematic weren't and the things that we thought were taken care of, >> you know, like uh you know the they used all manner of attacks because that's what attackers do. They look at your can they pivot from your development environments into your production environments."
+    },
+    {
+      "t": 1852.1,
+      "end": 1864.4,
+      "text": "Can we compromise members of your leadership team? And then once we compromise members of the leadership team, can we use those stolen credentials to fool other people into clicking malicious links? I mean, they they showed us all of the techniques that attackers would use."
+    },
+    {
+      "t": 1864.4,
+      "end": 1875.3,
+      "text": ">> And then but very shortly after that, uh I I was working with the people from from the from the um from MSRC, the bug bounty. >> Mhm. And I remember saying, \"Hey, listen."
+    },
+    {
+      "t": 1875.3,
+      "end": 1889.5,
+      "text": "We we we want to set up this Dynamics 365 bug bounty and you know, and we also want to make sure that that that and I remember that uh our our then one of our then directors was saying, \"Are we sure we can do this?\" Like, do we want to We've just had the red team operation."
+    },
+    {
+      "t": 1889.5,
+      "end": 1900.9,
+      "text": "We're still cleaning up from that. Do we want to have the attention of these people on us? Isn't that going to put us at risk? And uh I I explained that actually if if there is hidden risk, it's there."
+    },
+    {
+      "t": 1900.9,
+      "end": 1916.6,
+      "text": ">> Yes. >> And the attackers will find it. find it. Yeah, >> it's far better to have these like security researchers or finders as we call them looking at us and examining us and incentivized to look at us to find the bugs and report them to us and clean them up >> before they can be used against us."
+    },
+    {
+      "t": 1916.6,
+      "end": 1933.1,
+      "text": "And thankfully, Touchwood so far that's worked out very well. We've had, you know, all manner of of uh of of bugs reported to us over the years. uh and they have gone a very long way to making sure that business central and the wider dynamics 365 and power platform are are very secure."
+    },
+    {
+      "t": 1933.1,
+      "end": 1945,
+      "text": ">> So what what um what would you recommend to our partners and and developers out there for you know BC developers you know you know partner channel to do to make sure that their solution remains secure."
+    },
+    {
+      "t": 1945,
+      "end": 1965.9,
+      "text": "I mean we're doing a lot of clear though we're doing a lot of work to keep the service secure you know the SAS secure Azure and you know all the all the code we ship from business central is you know go through all the the things we talked about before so there's a lot of scooting around it but what what can they do because they they can they also have a responsibility towards their own customers"
+    },
+    {
+      "t": 1965.9,
+      "end": 1981.7,
+      "text": ">> um so what will you what would you advise them to to do >> I think the simplest thing would be for them to to follow the security development life cycle that is a very mature, very complete and absolutely brilliant >> well doumented >> well doumented security framework."
+    },
+    {
+      "t": 1981.7,
+      "end": 1994.6,
+      "text": ">> We're going to put some links in the description. >> Yeah, please do. And I think that the you know there are a lot of great resources out there. You know there are uh one of the things which I love um is these we have these CISO workshops >> which are out there."
+    },
+    {
+      "t": 1994.6,
+      "end": 2007.6,
+      "text": "There's a video section with accompanying decks that are made available to people. They're aimed at chief information security officers but they're actually open. Anybody with half a brain could understand them. And it lays out the entire kind of world of security."
+    },
+    {
+      "t": 2007.6,
+      "end": 2018.4,
+      "text": "How these different pieces hang together. You know, what is security assurance? What is operational security? What is security architecture? What is posture management? These terms like what is this stuff?"
+    },
+    {
+      "t": 2018.4,
+      "end": 2034.6,
+      "text": "They're they're ways of just describing different jobs that need to be done. So there's some terminology around it, but also some concepts that are >> they're useful concepts to understand because someone's got to be got to make sure that our that our products don't have bugs that the code that we're shipping if if we're taking dependencies on components for example,"
+    },
+    {
+      "t": 2034.6,
+      "end": 2045.6,
+      "text": "we want to make sure that we have got we're updated to the latest ones. We use tools internally like component governance or there are many external tools that do the same thing. They look at the various dependencies and they say hey there's a vulnerability in that."
+    },
+    {
+      "t": 2045.6,
+      "end": 2065.7,
+      "text": "Make sure you patch that before you ship it. So that's just one small part of it. I mean one thing which I would definitely say is a hugely powerful and advantageous thing for for partners to do uh a couple of things actually well several one is threat modeling people don't they don't really this is this is rarely done outside of elite companies and it's a pity because this is probably one of the most powerful mental"
+    },
+    {
+      "t": 2065.7,
+      "end": 2085.8,
+      "text": "models that you can apply >> it's quite easy to deploy it doesn't take a lot of >> threat modeling is deceptively simple I mean we made a 5minute video for engineering resources here within Microsoft it really just involves this you sit down as a team >> I mean this is the super I mean you're going to mail because people be like that's not direct modeling but essentially you sit down as a team you understand the system like what is the system"
+    },
+    {
+      "t": 2085.8,
+      "end": 2105.8,
+      "text": "that's why you diagram it out what are the different parts who are the dramatist persona like what's connecting up so there's a database that's a compute engine that's AKS there's a user that's a browser blah blah blah you diagram it and you connect things up then you analyze that system with an attacker's mindset and say what could go wrong here >> they look at boundaries and things like that >> you have you have trust boundaries and all the rest of it there's again so threat"
+    },
+    {
+      "t": 2105.8,
+      "end": 2126.2,
+      "text": "modeling and guidance on threat modeling is available on on on the mic as Microsoft resources there's abundant training you don't need an awful lot of training again this is deceptively simple understand the system ask what could go wrong then when you figure out oh actually they could break in here or that's a weak identity or we are exposing that to the internet we don't have a firewall here then you list out all of the"
+    },
+    {
+      "t": 2126.2,
+      "end": 2141.5,
+      "text": "these are risks these are threats and then for each threat you say you ask yourself okay what are we going to do about it what's the mitigation or the fix or do we accept it and this is another thing which I think people uh you actually made a great point a few years ago."
+    },
+    {
+      "t": 2141.5,
+      "end": 2152.7,
+      "text": "We're not advanced and sort of good security people are not security absolutists. Remember that they're part of a business that has to ship value to customers. >> So you can't just be saying no no no no no all the time."
+    },
+    {
+      "t": 2152.7,
+      "end": 2167.2,
+      "text": "The job of a of a highly competent security person is actually decide when things don't have to be fixed. You're you're the true security professionals are trying to find that balance between shipping value and maintaining operational speed versus security."
+    },
+    {
+      "t": 2167.2,
+      "end": 2187.3,
+      "text": "But I think for our partners just to come back to your question about what can our partners do uh security development life cycle that's for the shipping of of their actual resources. Uh I think we'll make that our deck available that we presented at at directions which is the >> which is a really a a a primer on how small businesses can really armor themselves take themselves from the"
+    },
+    {
+      "t": 2187.3,
+      "end": 2197.4,
+      "text": "lowest percentile to the top percentiles of things by just considering keeping an inventory of what they have making sure that it's up to date and so on. Identity management is a huge part of this."
+    },
+    {
+      "t": 2197.4,
+      "end": 2212.9,
+      "text": "Uh so much so much compromise happens because of compromised identities. You know, using weak passwords, not using multiffactor authentication. Uh you know, I'm I strongly encourage partners to really just look into this, mandate this in their their entra tenants, their their M365 tenants,"
+    },
+    {
+      "t": 2212.9,
+      "end": 2224,
+      "text": "uh multiffactor authentication and good multiffactor authentication. >> You know, the the preferably not SMS. Is that what you're saying? >> Definitely not SMS. Uh you know, we we actually use so-called fishing resistant MFA."
+    },
+    {
+      "t": 2224,
+      "end": 2241.8,
+      "text": "M >> so these would be things like pass keys. Uh this would mean that that if this enforces you know proof of presence. So >> you know because attackers are getting good at gaming people or putting up a fake page that says type in your multiffactor authentication and then they just proxy it across but this one it brings up a little barcode."
+    },
+    {
+      "t": 2241.8,
+      "end": 2261.9,
+      "text": "I mean many people in Denmark are familiar with with MIT ID that has a similar concept or it has to be in Bluetooth range you know. >> So that prevents the kind of man-to-he type of attack right. >> Yeah. It it essentially just prevents people from being able to spoof and you know and I do think that uh >> there are you know these small things can go a huge way by have by integrating"
+    },
+    {
+      "t": 2261.9,
+      "end": 2282,
+      "text": "threat modeling into your development life cycle just asking question what could go wrong how could we improve this if we had to break into the system what would we do if we lost the keys or the certificates or whatever and you ask that question and you list out those threats and you mitigate them you make sure that you're patching and updating and doing the other stuff in the SDL like basic security training I mean people are often hiring in from industry or or from"
+    },
+    {
+      "t": 2282,
+      "end": 2302.2,
+      "text": "colleges and none of them if they've done maybe one course in cyber security they don't even know the the fundamentals of it uh and a big differentiator for partners going forward will be the fact that they've got a good security profile uh you know and that they can actually attest to the fact that we've had no incidents >> uh and that they've done well >> by the way I I want to use the opportunity to say if you get a call"
+    },
+    {
+      "t": 2302.2,
+      "end": 2318.2,
+      "text": "from somebody saying they're from Microsoft and there's some security issue on your computer this is not us >> this is definitely not us I mean you can confirm Well, we we don't call people >> never >> uh we don't we don't actively call people and telling them there is a virus on the computer."
+    },
+    {
+      "t": 2318.2,
+      "end": 2330.1,
+      "text": "So the these are people trying actually to get you to install some >> some malware of some kind somewhere on your computer. Yeah, these are sports. >> They usually what they do is that they they kind of, you know, pretend"
+    },
+    {
+      "t": 2330.1,
+      "end": 2340.5,
+      "text": "try to make you believe there's something on your computer and uh and then, you know, try to guide you to some link and get you to install something on your computer so they can ask"
+    },
+    {
+      "t": 2340.5,
+      "end": 2360.6,
+      "text": "a sort of a screen sharing software like anyes or or team viewer and then they they they they scam people, old people. they're they're den thieves and you know and it's funny because you you reminded me that a lot of those people are getting taken down now not by necessarily technical means but by you know uh a whole series of cyber security heroes and heroins that are"
+    },
+    {
+      "t": 2360.6,
+      "end": 2374.3,
+      "text": "often underserved. So we've often focused on the technical people, the knock analysts, the the deep packet inspection, the AI engineers and prompt engineers, the you know the network engineers, but some of the most effective cyber security stuff is in fact uh legal and marketing."
+    },
+    {
+      "t": 2374.3,
+      "end": 2385.7,
+      "text": ">> Mhm. >> It's awareness raising. It's I mean we when we take down the infrastructure for these ransomware gangs, this is lawyers that are doing this. This is the digital crimes unit at Microsoft. Mostly women, mostly lawyers."
+    },
+    {
+      "t": 2385.7,
+      "end": 2401,
+      "text": "And they have they have probably a 10 times more effect than some of the than than many of the security teams do >> because they are really disrupting the sort of the bad busy. >> Yeah. And that's that's another thing which I think people don't realize is that cyber security as a discipline is extremely broad."
+    },
+    {
+      "t": 2401,
+      "end": 2421,
+      "text": ">> It's not just a narrow technical thing. A lot of it's psychology. A lot of it's convincing business people to take something seriously or painting a story of what would happen if a system were compromised. M uh so I do think that the it's evolving and I mean right now we're in the in the AI age we are in a in a good place because at this exact moment in the arms race the defenders"
+    },
+    {
+      "t": 2421,
+      "end": 2432.8,
+      "text": "are are are are helped by AI >> you know AI is great at at information compression. So for us now being able to analyze logs at enormous speed and then kept you know get it down."
+    },
+    {
+      "t": 2432.8,
+      "end": 2446.7,
+      "text": ">> Yeah. A lot of Yeah. A lot of work. >> A lot of work is just like >> analyzing tons of logs you know going through some some really tedious work for for a human being that can be done exactly easily with AI these days >> you know even things like threat traditionally threat modeling."
+    },
+    {
+      "t": 2446.7,
+      "end": 2457.3,
+      "text": "So you know my day job is to often sit down for multiple meetings and look at a system try and understand it and work the team through that process. But I've now got a a co-pilot threat modeler with me >> that's watching the transcript."
+    },
+    {
+      "t": 2457.3,
+      "end": 2473.9,
+      "text": "I can speak to it on the side and ask it questions. Hey, is this uh is you know is this a security antiattern? Yes, it is. They shouldn't do that. Now, the the genius for this thing is that as a human being, it's hard for me to remember the 300 or so controls >> that are that are that SDL controls that apply to different systems."
+    },
+    {
+      "t": 2473.9,
+      "end": 2494.2,
+      "text": "You know, oh, if it's a Cosmos database, then >> but that's trivally easy. So we if people put the threat model through the threat modeling co-pilot, it can then assess it. >> It can see all of the applicable policies and compliance rules and weaknesses >> and this is a massively boosted uh my team and I's ability to spot >> risks and and"
+    },
+    {
+      "t": 2494.2,
+      "end": 2504.6,
+      "text": "problems. So this is a case where >> AI is transformational. Now another thing I've heard actually is really good at and being used"
+    },
+    {
+      "t": 2504.6,
+      "end": 2524.8,
+      "text": "extensively for for detecting attacks that usually when you you have you know there's a lot of logging going on you know in your network or something and and usually when you have some attempts there is there's some it's about finding the outliers finding something that is you know not not fitting the patterns and it can be really really difficult for a human because it's"
+    },
+    {
+      "t": 2524.8,
+      "end": 2540,
+      "text": "large amount of data and AI extremely good at that kind of thing. picking out, you know, something that is not, you know, tons of logs or large amount of data which, you know, it would take, you know, ages for for for for humans to go through."
+    },
+    {
+      "t": 2540,
+      "end": 2550.6,
+      "text": "AI can can pick that up and and and sometimes it's nothing but sometimes like, hey, you know, at least you can, you know, you can get your attention on some of these things before it happens. >> Completely right. I think that the there's two problems."
+    },
+    {
+      "t": 2550.6,
+      "end": 2564.7,
+      "text": "One of the big problems in in in in cyber security especially for network operations security operations centers is alert fatigue. The other one is, you know, drowning in a sea of signal and that's the signal boosting that I turned referred to earlier."
+    },
+    {
+      "t": 2564.7,
+      "end": 2581.8,
+      "text": ">> That information compression and the forget about all that stuff. Look at this. And also being able to make these associations between dis desperate things, impossible travel, plus that person has had multiple resets plus they've their phone number or you know called and you know the AIs can put this together and say ah this is a risk profile."
+    },
+    {
+      "t": 2581.8,
+      "end": 2593.8,
+      "text": "you know, it also helps us, you know, because one of the things that we know at the beginning of this, I probably just sort of described myself as a as a risk manager because ultimately that's what we do. We're always trying to manage manage risk and and reduce it."
+    },
+    {
+      "t": 2593.8,
+      "end": 2606.7,
+      "text": "And I think one of the things which we are now able to do is we can look at the entire estate across uh Dynamics 365 and Power Platform and we can say okay this is made up of hundreds of services right that are assembled together into products."
+    },
+    {
+      "t": 2606.7,
+      "end": 2618.8,
+      "text": "So what the customer sees is actually made up of little disparate parts. Those are you know there are there are variations between the security maturity of those different teams and services and their capabilities and the complexities that they have."
+    },
+    {
+      "t": 2618.8,
+      "end": 2637.9,
+      "text": "Some have got inherent risk. They've got a lot of uh attack surface like things that can go wrong. Lots of infrastructure. Sometimes they they've got an inexperienced security manager that maybe needs a bit of help. Now we can assess all of those with the help of the AIS and we can have this heat map so that my team and I can focus on the the services that need more support and more help."
+    },
+    {
+      "t": 2637.9,
+      "end": 2658,
+      "text": "Maybe they're doing a high-risisk thing. Maybe they're focusing on now, you know, MCP servers are all the rage and you know this is a new thing and everyone's rushing into to an area to say yeah I'm going to ship it and we can then say let's calm down let's give you some centralized guidance let's like focus on what's important so I mean today uh you know because it's always an arms race today it's"
+    },
+    {
+      "t": 2658,
+      "end": 2674.7,
+      "text": "benefiting the defenders AI is transformational in cyber security the defender for X series of Microsoft products are all really doing phenomenal work out there uh in terms of helping customers sort through the the chaff and being able to focus in on what's important."
+    },
+    {
+      "t": 2674.7,
+      "end": 2692.2,
+      "text": "We see huge wins in terms of the the prevent the the security assurance and preventative side of things. Uh we also use it extensively in incident response. When we had the midnight visitor incident which was is publicly recognized uh Microsoft's own mail systems were compromised by a state level actor."
+    },
+    {
+      "t": 2692.2,
+      "end": 2705.8,
+      "text": ">> Mhm. So what was that? That was um >> you know yeah I mean without going into details a state level actor was decided to to sort of uh they used a technique and they managed to access certain mailboxes."
+    },
+    {
+      "t": 2705.8,
+      "end": 2723.8,
+      "text": ">> Ah yeah in there it was that was in the news. So >> it was in the news. There's nothing nothing secret about it. But for us to figure out all of the potentially compromised identities and systems was such a herculan task >> that a normal cleanup operation for an event of that scale could take years."
+    },
+    {
+      "t": 2723.8,
+      "end": 2742.8,
+      "text": "But because we were able to use the AI systems and tools to again compress and and do the various cross references and to get all of this gargantuan amounts of telemetry and weed it out that took it down from, you know, from months to weeks >> uh and which was which in cyber security terms is is like flash fast."
+    },
+    {
+      "t": 2742.8,
+      "end": 2762.8,
+      "text": "It's it's speed of light, you know. >> Um so it's also very useful for incident response and often we're retooling ourselves around seeing how how we can do this. So you know in the threat modeling meetings I I used to have to take notes whilst trying to understand a system and think about all the threats and think about and making judgments about these threats"
+    },
+    {
+      "t": 2762.8,
+      "end": 2782.9,
+      "text": ">> you know yay or nay can you ship >> that's a that's a lot of cognitive burden it's like a fighter pilot having to deal with like you know five planes at once >> now you know co-pilot takes the notes >> I don't have to worry about that it's got a perfect record of coming up with the action items I just have to sit there think and talk >> and it takes care of all that stuff so I think that what we do need to be careful"
+    },
+    {
+      "t": 2782.9,
+      "end": 2803.2,
+      "text": "of because now AIs are finding bugs zero days uh AIS are used to make the old guidance that oh you can spot a fishing mail because they'll have spelling errors in the age of chatpt and copilot and claude and and Gemini that's no longer true >> so attackers and we have uh you know and both anthropic and uh open a have shipped information"
+    },
+    {
+      "t": 2803.2,
+      "end": 2815,
+      "text": "about how attackers have they're trying to figure out well how can we use this stuff >> you know how can we weaponize these techniques against people like us, but they haven't really found a good use for it yet."
+    },
+    {
+      "t": 2815,
+      "end": 2825.3,
+      "text": ">> So, we'll see. >> We'll see how it rolls. >> All right, I think we I mean, we could talk about this for hours. I mean, if you want I mean, we can do a if you want we could do another episode about it."
+    },
+    {
+      "t": 2825.3,
+      "end": 2840.2,
+      "text": "We could talk, you know, for so much. Let us know in the comment if you want to hear more about it. But, so last words, you know, what last recommendation for, uh, for partners and and and and Business Central, uh, you know, channel, what what should they do to stay secure?"
+    },
+    {
+      "t": 2840.2,
+      "end": 2850.4,
+      "text": "or you mentioned, you know, you mentioned some things. You know, >> I I think that I'd really like to just give them a message of of of hope. >> It's not as bad as it looks. It's fine."
+    },
+    {
+      "t": 2850.4,
+      "end": 2864.7,
+      "text": ">> Okay, >> we've got your back. >> Uh, you know, do doing a a relatively small amount of things like multiffactor authentication, security development life cycle, >> even giving some thought, threat modeling, giving some thought to if you look at the deck, which we will share on SMB security,"
+    },
+    {
+      "t": 2864.7,
+      "end": 2876.6,
+      "text": "keeping an inventory of your things, making sure that it's patched and up to date, doing basic vetting of your stuff and so on. like a few small things. You can go from the bottom 5% to the top 5%. You can make yourself a very hard target very easily."
+    },
+    {
+      "t": 2876.6,
+      "end": 2887.8,
+      "text": "And this is the tragedy of cyber security. >> The basics are the basics and the basics are basic >> get you an awful long way. And the hard stuff you can leave it to us. That's why you pay us."
+    },
+    {
+      "t": 2887.8,
+      "end": 2899.4,
+      "text": ">> You know, the the very hard stuff, the the super advanced stuff and the vigilance and the watching, the alerting and the response. You can leave that to people that do this every day and are gifted at it."
+    },
+    {
+      "t": 2899.4,
+      "end": 2911,
+      "text": ">> So, you do your bit basics and we do ours and we're going to be fine. >> All right. All right. All right. Well, thank you very much. Thanks, Jonathan. Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 10501
+}

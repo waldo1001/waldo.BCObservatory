@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-reports",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3c4afd9c435465cb5abe16452fbba201ae311360",
       "words": 104,
       "forms": 17
+    },
+    "extracted": {
+      "at": "2026-10-06T14:10:27.798Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003335
+    },
+    "summarized": {
+      "at": "2026-10-06T14:10:27.805Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:10:27.806Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:10:27.806Z",
+      "page": false
     }
   },
   "input_hash": "3c4afd9c435465cb5abe16452fbba201ae311360",
@@ -123,5 +142,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c4afd9c435465cb5abe16452fbba201ae311360"
+  "output_hash": "dafcbc18784b5a9be5354e9fba167106dcbe4919e8b33aff7358a6aad71586de"
 }

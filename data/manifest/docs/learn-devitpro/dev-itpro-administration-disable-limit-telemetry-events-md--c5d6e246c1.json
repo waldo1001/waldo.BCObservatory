@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-limit-telemetry-events",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6006d2bf452720210a17b9d8c6fc6ee866d94de4",
       "words": 495,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.957Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.961Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.961Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.961Z",
+      "page": false
     }
   },
   "input_hash": "6006d2bf452720210a17b9d8c6fc6ee866d94de4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6006d2bf452720210a17b9d8c6fc6ee866d94de4"
+  "output_hash": "a6b27ed1ab4812b33ec55da2e21a30c46fc86da9221f9b377b41e16d4f82de63"
 }

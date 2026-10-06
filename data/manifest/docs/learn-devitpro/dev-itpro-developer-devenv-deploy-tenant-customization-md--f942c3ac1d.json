@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization",
   "published_at": "2026-08-18T10:12:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "08f3ef00c749296a12bc6fbaa6e1ca648d28c7bb",
       "words": 1097,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:31.148Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.025708
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:31.156Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:31.156Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:31.156Z",
+      "page": false
     }
   },
   "input_hash": "08f3ef00c749296a12bc6fbaa6e1ca648d28c7bb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08f3ef00c749296a12bc6fbaa6e1ca648d28c7bb"
+  "output_hash": "f4ed695307f063b34f0bb3f9b569e6bdea69d16ae43fc51a4a5c584e1e2c0ea6"
 }

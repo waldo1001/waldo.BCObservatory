@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c870fa2b4589554f843af819117e726e8f1f82de",
       "words": 1132,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:04.320Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00471
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:04.328Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:04.328Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:04.329Z",
+      "page": false
     }
   },
   "input_hash": "c870fa2b4589554f843af819117e726e8f1f82de",
@@ -143,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c870fa2b4589554f843af819117e726e8f1f82de"
+  "output_hash": "de1a49c38d1da5543ca4ac81b85460c15a589ed8251737749a4ae629d856598e"
 }

@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector",
+  "input_hash": "93979d630fd742982e5019a7687985874b47d52ac7487dcb649a8323bb3ff955",
+  "summary": "The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.",
+  "overview": "This section is the entry point for the Shopify connector in Business Central. It has two pages and no subtopics. One page introduces the connector and what it synchronizes. The other explains how to create a Shopify account to test it.\n\nStart with \"Getting started with the connector for Shopify\" to learn how to connect a store and which data flows between Shopify and Business Central: items, prices, inventory, customers, companies and orders. Then use \"Create and set up a Shopify account\" if you need a store to try it on. That page covers a trial setup for end-users and a development store for partners.",
+  "key_points": [
+    "The Shopify Connector connects Shopify stores to Business Central.",
+    "Synchronization covers items, prices, inventory, customers, companies and orders.",
+    "The account page covers creating a Shopify account for testing the connector.",
+    "End-users use a trial setup. Partners use development stores.",
+    "Account setup includes plan selection and customer account configuration.",
+    "Test payments are activated for testing, using either Bogus Gateway or Shopify Payments."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:12.242Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.035323
+  }
+}

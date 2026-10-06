@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-local-functionality",
   "published_at": "2026-08-26T10:51:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45690d3a519e8d4c009a147e895dd79543d4855a",
       "words": 287,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:14.511Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00753
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:14.516Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:14.516Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:14.517Z",
+      "page": false
     }
   },
   "input_hash": "45690d3a519e8d4c009a147e895dd79543d4855a",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45690d3a519e8d4c009a147e895dd79543d4855a"
+  "output_hash": "8a88fc5599c068ecc5be87285b82c9f54123f43b9a2a8735c943b8f80c2c0d4c"
 }

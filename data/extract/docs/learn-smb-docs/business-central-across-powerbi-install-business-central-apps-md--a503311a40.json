@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-powerbi-install-business-central-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps",
+  "title": "Install Power BI apps for Business Central",
+  "blob": "b1b361d2c760e351b747188c46f1a44eb6c8918c",
+  "summary": "Instructions for installing Power BI apps for Business Central, including connector setup, template app installation from Marketplace, configuration of calendar types and date settings, and semantic model management for finance, sales, purchasing, inventory, manufacturing, projects, sustainability, and other functional areas.",
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "installation",
+    "configuration",
+    "semantic model",
+    "calendar setup",
+    "data filtering",
+    "permissions"
+  ],
+  "objects": [],
+  "features": [
+    "Power BI connector apps",
+    "Power BI template apps",
+    "Fiscal calendar configuration",
+    "Standard calendar configuration",
+    "Weekly calendar configuration",
+    "UTC offset configuration",
+    "Date table range setup",
+    "Work days specification",
+    "Report mapping",
+    "Data refresh scheduling",
+    "ABC Analysis Setup"
+  ],
+  "versions": [
+    "version 26",
+    "version 27.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

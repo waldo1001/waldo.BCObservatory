@@ -1,0 +1,27 @@
+{
+  "video_id": "4HE3BBCcV84",
+  "item_id": "video/yt-microsoft/4HE3BBCcV84",
+  "summary": "API queries in the Business Central MCP server, demoed in the 2026 release wave 1 video. Analytics API queries, the foundation of the Power BI apps, can be selected as object type \"query\" in the MCP server configuration so external agents can use aggregations and analytics. Marked generally available; APIs need version 22.28.2 or later.",
+  "overview": "The video explains that Power BI apps for most functional areas in Business Central are built on API queries, and that these queries are now available through the MCP server for external agents. This lets agent developers use aggregations and analytics data, not only the other APIs already opened up.\n\nThe demo shows an MCP server configuration where the object type is set to query. The analytics API queries appear grouped under the API group analytics, including GL account category, finance and inventory related queries. The video also points to the analytics API reference documentation, which covers semantic models, calculations and use cases across areas such as manufacturing, sales and finance, and suggests using it as knowledge for agents, for example in Copilot Studio.",
+  "key_points": [
+    "API queries are supported in the MCP server and are the data foundation of the Power BI apps for most functional areas.",
+    "The APIs are available in version 22.28.2 and later.",
+    "In the MCP server configuration, choose query as object type to see all analytics API queries, grouped under the API group analytics.",
+    "Versions 0.5 and 1 are both listed; version 0.5 is shown for backwards compatibility. Select only the highest numbered version.",
+    "The analytics API reference documents how the APIs are used in the Power BI apps, with semantic models, calculations and use cases for manufacturing, sales and finance.",
+    "The reference can be used as instructions or knowledge for agents, for example by pointing Copilot Studio to it.",
+    "The video places this in 2026 release wave 1, part of which already shipped in April."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "c888020dfc572542d6e1a41885d363174b55b8c7a5bb708c20a8692c75f340f1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0406764
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6168.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6168",
+  "title": "Posted Sales Crd Memo with QR report",
+  "blob": "7cc3f78fb6fbb8aa876184c60b76c89bca9c843c",
+  "summary": "PostedSalesCrdMemoWithQR report extends the standard sales credit memo with a QR code field and Word layouts for e-document support, enabling AR clerks and compliance teams to print credit memos with machine-readable verification codes.",
+  "systems": [
+    "sales",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "sales credit memo",
+    "qr code",
+    "e-document",
+    "report",
+    "layout",
+    "verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "PostedSalesCrdMemoWithQR"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales - Credit Memo"
+    }
+  ],
+  "features": [
+    "QR Code Image field",
+    "Word layout",
+    "body-only layout",
+    "e-document support",
+    "customer address printing",
+    "salesperson details",
+    "VAT totals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

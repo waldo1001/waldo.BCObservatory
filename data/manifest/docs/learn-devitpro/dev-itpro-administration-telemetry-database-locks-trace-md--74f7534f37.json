@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "647e072197a589cbcf1549e0c9aafb3345434aae",
       "words": 1407,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.960Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.967Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.967Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.967Z",
+      "page": false
     }
   },
   "input_hash": "647e072197a589cbcf1549e0c9aafb3345434aae",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "647e072197a589cbcf1549e0c9aafb3345434aae"
+  "output_hash": "1afdc348601b9c59abe872d3a19f424856018b13db4c5a7d232557a24c486a79"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-manage-report-layouts",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1a468d64fe7ec5c41326437bcc68b3d6d354b4a3",
       "words": 1543,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T14:03:05.343Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007228
+    },
+    "summarized": {
+      "at": "2026-10-06T14:03:05.347Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:03:05.347Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:03:05.347Z",
+      "page": false
     }
   },
   "input_hash": "1a468d64fe7ec5c41326437bcc68b3d6d354b4a3",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a468d64fe7ec5c41326437bcc68b3d6d354b4a3"
+  "output_hash": "5906e1def25bd9c3e2790ee6cd42abd37d07c85372b00310584f177c48aad044"
 }

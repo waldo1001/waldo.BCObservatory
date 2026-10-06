@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-deploy-tenant-customization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization",
+  "title": "Deploying a tenant customization",
+  "blob": "08f3ef00c749296a12bc6fbaa6e1ca648d28c7bb",
+  "summary": "Deploying a per-tenant extension describes how to upload and schedule installation of per-tenant extension .app files to customer production tenants through the Admin Center or Extension Management page, with requirements for app uniqueness and version management.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "per-tenant extensions",
+    "deployment",
+    "app management",
+    "extension installation",
+    "admin center"
+  ],
+  "objects": [],
+  "features": [
+    "Upload per-tenant extensions",
+    "Schedule installation",
+    "Extension Management page",
+    "Admin Center deployment",
+    "App uniqueness requirements",
+    "Schema Sync Mode",
+    "Deployment Status tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025708,
+      "pages_in_call": 2
+    }
+  ]
+}

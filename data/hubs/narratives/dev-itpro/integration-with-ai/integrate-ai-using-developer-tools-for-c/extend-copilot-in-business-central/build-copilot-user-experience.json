@@ -5,12 +5,12 @@
   "overview": "This section describes how to build the user-facing part of a Copilot feature. The central object is the PromptDialog page type. It has three display modes: prompt mode, where the user gives input; generate mode, where Copilot shows progress; and content mode, where the user reviews the AI output.\n\nThe pages follow that flow. Start with creating the PromptDialog page and its properties (Extensible, PromptMode, IsPreview). Then design the prompt mode (input fields, placeholder text, prompt guides, generate and file attachment actions), customize the generate mode caption, and design the content mode (save, discard, regenerate, proposal history). Error handling in prompt dialogs covers showing errors inline. The last page covers prompt actions in a floating action bar that open the dialog from other pages.\n\nStart with the page on creating the prompt dialog, then follow the modes in order. Read the prompt actions page when you need to make the feature reachable from List, Card, Document and other page types.",
   "key_points": [
     "A PromptDialog page type is the first step; its properties set caption, extensibility (Extensible), initial mode (PromptMode) and preview status (IsPreview).",
-    "Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, and generate and file attachment actions (2024 release wave 2).",
+    "Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, preference options, and generate and file attachment actions. The page references 2024 release wave 2.",
     "Generate mode caption can be customized with Dialog.Open() or Dialog.Update() to give progress feedback, including for multi-step Copilot.",
     "Content mode shows AI output and lets users review, regenerate, save or discard proposals; it supports caption customization and a proposal history carousel with version history.",
-    "Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, suppression and truncation (2024 release wave 2).",
+    "Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, error suppression and message truncation. The page references 2024 release wave 2.",
     "Prompt actions launch Copilot from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, shown in a floating action bar with a Sparkle image.",
-    "Prompt actions open the PromptDialog through the RunObject property and involve SaaS detection and capability registration (2024 release wave 1, runtime 13 and 14)."
+    "Prompt actions open the PromptDialog page through the RunObject property; the page also covers SaaS detection and capability registration, and references 2024 release wave 1 and runtime 13 and 14."
   ],
   "members_used": 6,
   "subtopics_used": 0,
@@ -20,5 +20,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.042577
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T14:24:06.514Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 2 puts '(2024 release wave 2)' right after the file attachment action, so it reads as if that one feature came in that release. In the source, the version belongs to the whole prompt mode page. Reworded so the version applies to the page.",
+      "Key point 5 has the same problem: the source ties 2024 release wave 2 to the error handling page as a whole, not to individual capabilities like suppression or truncation. Reworded.",
+      "Key point 7 links the version labels (2024 release wave 1, runtime 13 and 14) to RunObject, SaaS detection and capability registration. The source only lists these versions at page level for the floating action bar page. Reworded so the versions apply to that page.",
+      "Minor: the overview says the PromptDialog page has 'three display modes'. The create page only lists 'display modes', but the three mode pages back this up, so it is kept.",
+      "The summary and overview are supported and stay unchanged."
+    ],
+    "input_hash": "8d255943bc8e398474a3aa6b66b2fa2b0538c3a8bc0bef2d5a4b4993ef71fd44",
+    "cost_usd": 0.1048912
   }
 }

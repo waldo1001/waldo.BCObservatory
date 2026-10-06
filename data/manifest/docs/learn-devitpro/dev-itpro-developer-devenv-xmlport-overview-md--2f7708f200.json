@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8d8411dee1a1a72328fba3d4fdab7511fe134e11",
       "words": 298,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:56.239Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "page": false
     }
   },
   "input_hash": "8d8411dee1a1a72328fba3d4fdab7511fe134e11",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d8411dee1a1a72328fba3d4fdab7511fe134e11"
+  "output_hash": "5f96faf71240b008eb785d8d997f5eb78d8804621509af59d7d3adcaeb125be7"
 }

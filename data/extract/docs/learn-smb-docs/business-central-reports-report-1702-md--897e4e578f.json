@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1702.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1702",
+  "title": "Deferral Summary - Purchasing (report)",
+  "blob": "0e516f2786c9a46856605e3ad24afdca84945f94",
+  "summary": "Deferral Summary - Purchasing report summarizes posted purchasing deferral activity by vendor, showing recognized and remaining deferred expense amounts as of a balance date.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "deferral",
+    "expense",
+    "reconciliation",
+    "reporting",
+    "purchasing",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Deferral Summary - Purchasing"
+    }
+  ],
+  "features": [
+    "Filter by vendor number",
+    "Filter by document number",
+    "Balance as of date control",
+    "Print vendor on new page",
+    "Hide Zero Remaining Amounts option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

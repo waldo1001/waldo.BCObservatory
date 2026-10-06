@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data/quality-management
 type: topic
 title: Quality management
-summary: "Learn section Get started > Learn > Contoso Coffee demo data > Quality management: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking."
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 54262ac164afa168ab740ff2a054e3a2eb3ba40882da12ae9ce667331e59440d
+  prompts:
+    hub-topic: 1
+  input_hash: ae3c977a8269404a6c6619fd729d29f92f4de03bc97fd54090b62a3c04ddbc71
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing
@@ -80,14 +81,30 @@ bc_forms:
   - 20408
   - 20416
 member_hash: 54262ac164afa168ab740ff2a054e3a2eb3ba40882da12ae9ce667331e59440d
-narrative: none
+narrative: generated
 ---
 
 # Quality management
 
-> Learn section Get started > Learn > Contoso Coffee demo data > Quality management: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system none · no narrative yet
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section is part of the Contoso Coffee demo data and is meant for testing and training on quality management. It has no subtopics, only four pages: one setup page and three scenario walkthroughs.
+
+Start with the setup page, which explains how to install and generate the Contoso Coffee demo data for quality management. It provides sample templates, tests, results and generation rules for purchase and production inspections. The three scenario pages then use that data, each showing a different way an inspection gets created: automatically when production output is posted, automatically when a warehouse receipt is posted (followed by a reinspection of the lot), and manually from a purchase order's item-tracking line before the receipt is posted.
+
+## Key points
+
+- Setup page installs and generates Contoso Coffee demo data for quality management, including templates, tests, results and generation rules for purchase and production inspections.
+- Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling).
+- Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items; after the initial inspection fails, a reinspection is created.
+- The warehouse scenario also includes registering the warehouse put-away.
+- Manual scenario: create an inspection from a purchase order's item-tracking line before posting the receipt, with lot assignment and test value entry.
+- The manual scenario also covers a certificate of analysis.
+- Each scenario ends with completing the inspection.
 
 ## Learn pages
 

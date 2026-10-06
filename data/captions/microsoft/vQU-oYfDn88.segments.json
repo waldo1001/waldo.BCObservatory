@@ -1,0 +1,498 @@
+{
+  "video_id": "vQU-oYfDn88",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.7,
+      "end": 17.3,
+      "text": "Hello and welcome to this session on moving tables and fields between apps source extensions. I'm Peter Boring and with me today I have Satias Draonis."
+    },
+    {
+      "t": 17.3,
+      "end": 35.5,
+      "text": "So as extensions mature and the solution change or when coming with an old monolithic solution, a need to refactor and optimize for separation of concern for um breaking into modules or for breaking into independent sellable SKUs"
+    },
+    {
+      "t": 35.5,
+      "end": 48.1,
+      "text": "arise and however there's a challenge uh with splitting up extensions. So first of all, tables and fields must be moved. Uh data must also be moved."
+    },
+    {
+      "t": 48.1,
+      "end": 66.3,
+      "text": "Uh the breaking changes that follows from moving the tables and fields must be handled. Uh upgrade code needs to proen be written in the case uh of a pretendant extension and up until now this whole procedure has been blocked for apps source apps."
+    },
+    {
+      "t": 66.3,
+      "end": 77.9,
+      "text": "However, uh in uh the previous release uh we added the ability in the platform uh for AL developers to move tables and fields between extensions without writing upgrade code."
+    },
+    {
+      "t": 77.9,
+      "end": 91.3,
+      "text": "Uh that was used in but also only allowed for the base application in uh 2024 release wave uh 1. However, now we also extend that capability to publishers"
+    },
+    {
+      "t": 91.3,
+      "end": 102.2,
+      "text": "uh to make it much more efficient for them to refactor their apps source extensions. So uh the feature uh is supported for two kinds of extensions."
+    },
+    {
+      "t": 102.2,
+      "end": 119.2,
+      "text": "Uh as I mentioned you can use it for app source extensions uh targeting the runtime from uh version 150 and higher. Uh you can also use it for onremise uh extensions for business central on premise version 26 uh.0 and higher."
+    },
+    {
+      "t": 119.2,
+      "end": 130.9,
+      "text": "Uh per tenant extensions are not uh supported for this. Uh in in cloud you can use the for sync uh and upgrade code units uh to handle that."
+    },
+    {
+      "t": 130.9,
+      "end": 143.1,
+      "text": "So uh you might remember some five years ago or something like that we added the ability to migrate tables and table extensions via a migration.json file in the application."
+    },
+    {
+      "t": 143.1,
+      "end": 156.6,
+      "text": "However that is for moving uh basically out of a code customized base app to a standard base app with extracted customizations on top and something that was supported on premise only."
+    },
+    {
+      "t": 156.6,
+      "end": 172.2,
+      "text": "The ability that we are talking about today is the ability to move individual tables and fields um across extensions in cloud in SAS with minimal breaking changes and so it's not intended to move all tables."
+    },
+    {
+      "t": 172.2,
+      "end": 190.6,
+      "text": "It's not efficient for that either. Um so so TS can you tell us more about how all of this works? Of course, Peter, let's go and look at some of the scenarios uh on moving fields and how this new feature works and uh what it lets you do."
+    },
+    {
+      "t": 190.6,
+      "end": 205.4,
+      "text": "So when we talk about moving tables or fields, what we mean is about passing the ownership of this uh in terms of the data so that the uh data in a table for example is moved from one extension to another."
+    },
+    {
+      "t": 205.4,
+      "end": 219.8,
+      "text": "But we are also talking about the ability to refer from these fields uh through other apps. So for example, if we move an a table from one app to another, then you will need to have a dependency on the destination in order to refer to it."
+    },
+    {
+      "t": 219.8,
+      "end": 232.8,
+      "text": "Let's look at a few different scenarios. In order to distinguish how these moves happen, we have split the possible scenarios into three. The first scenario is called move down."
+    },
+    {
+      "t": 232.8,
+      "end": 245.5,
+      "text": "uh the scenarios are defined by uh the relation between the source and the dependency extensions. In the case of move down the destination is a dependency of the source."
+    },
+    {
+      "t": 245.5,
+      "end": 256.4,
+      "text": "So if we look at the graph for example here we have a large monolith app which contains two tables sales and inventory and we want to split this large app into smaller parts."
+    },
+    {
+      "t": 256.4,
+      "end": 276.8,
+      "text": "So we want to make two dependencies a sales app and an inventory app and move the tables there. So we can for example assign them to different teams so they can work on them. Another possible functionality could be to take out common functionality that many extensions are using into a common dependency so that we can use it in multiple"
+    },
+    {
+      "t": 276.8,
+      "end": 291.8,
+      "text": "places. Then we have the move up scenario. In this case it's the opposite relationship. we have an extension and we want to move uh the tables up to other extensions which depend on the first"
+    },
+    {
+      "t": 291.8,
+      "end": 306,
+      "text": "uh the reason why we might want to do this is for example if we have uh functionality which is specific to a country. If this functionality for example was in monolith and we wanted to split it into modules which are specific for the each country,"
+    },
+    {
+      "t": 306,
+      "end": 322.4,
+      "text": "we can use the new feature to move the tables to new apps which are specific for the countries. Here we are moving from the monolith app the tables sales and inventory to their corresponding apps and you can see also the dependency relationship."
+    },
+    {
+      "t": 322.4,
+      "end": 343.2,
+      "text": "Finally, we have the more general category, the lateral move where there is no dependency between the source and the destination. This covers every other case, but uh it is a breaking change as there is no uh dependency relationship to maintain the relationships between these uh"
+    },
+    {
+      "t": 343.2,
+      "end": 356.4,
+      "text": "symbols. Let's look at what is possible in terms of moving tables and fields. When we talk about tables, it is possible to move them from any extension to any other extension with this feature."
+    },
+    {
+      "t": 356.4,
+      "end": 372.3,
+      "text": "When we are talking about fields, they are all there are some limits to where they can be moved. First of all, fields can be moved from a base table to a table extension as long as the table extension has the same uh based target table."
+    },
+    {
+      "t": 372.3,
+      "end": 386.7,
+      "text": "It can also be moved from a table extension to another table extension as long as they both have the same target table. What is not supported is moving from a table extension back to the base table which is called consolidation because it is not part of this feature."
+    },
+    {
+      "t": 386.7,
+      "end": 396.7,
+      "text": "Let's take a specific case. Let's go hands-on to see how we would move a table to a dependency to understand this feature more."
+    },
+    {
+      "t": 396.7,
+      "end": 407.2,
+      "text": "We're going to go through a scenario which contains a lot of elements so we can understand how uh what are the different stages and actions you need to do in order to use this feature."
+    },
+    {
+      "t": 407.2,
+      "end": 419.8,
+      "text": "We're going to take the case of this large monolith app which contains a bunch of different objects but some functionality based on sales and some functionality based on inventory."
+    },
+    {
+      "t": 419.8,
+      "end": 433.8,
+      "text": "We are going to split this to make this uh our solution more maintainable and keep the monolith up but we're going to move the sales specific functionality into a sales app and the inventory functionality into an inventory app."
+    },
+    {
+      "t": 433.8,
+      "end": 447.1,
+      "text": "We are using the move down scenario as you can see because these new apps will be dependencies of the monolith. Our first stop uh should be the source code. Let's see what we have to do for the source and the destination."
+    },
+    {
+      "t": 447.1,
+      "end": 457.5,
+      "text": "On the source extension, we need to find the definition of the table here table sales and we need to use obsolution in order to mark it for moving."
+    },
+    {
+      "t": 457.5,
+      "end": 474.5,
+      "text": "We use the obsolute state property which you will know from the normal obsolution and use the new values pending move and moved to mark the table as moved. Pending move is used in order to declare that this table will become unavailable in a future version."
+    },
+    {
+      "t": 474.5,
+      "end": 489.5,
+      "text": "The move to property marks the destination of our move. It needs to take the value of our of the app ID of the destination application. On the side of the uh destination extension, our sales extension or our inventory extension."
+    },
+    {
+      "t": 489.5,
+      "end": 504,
+      "text": "We are going to use the move from property to mark where the this table is going to come from. First we have to copy the definition of our table and make basically a copy of the original table for this extension."
+    },
+    {
+      "t": 504,
+      "end": 518.9,
+      "text": "It has to have the same schema including some changes which might not be breaking like adding an extra field but uh the there must be no schema breaking changes and we have to mark it with the moved from property as I mentioned before."
+    },
+    {
+      "t": 518.9,
+      "end": 530.5,
+      "text": "This one has to match the source extension app id. If the two of them match then when these apps are uh finally published, synced and installed then the move will be possible."
+    },
+    {
+      "t": 530.5,
+      "end": 544.7,
+      "text": "If instead of this we were moving a field then the situation is very similar. We would just need to use the obsolation property on the source on the field and then we would need to use the move from property on the destination."
+    },
+    {
+      "t": 544.7,
+      "end": 549.5,
+      "text": "So it's very simple in terms of code."
+    },
+    {
+      "t": 549.5,
+      "end": 569.7,
+      "text": "Let's talk a little bit about the requirements between the source and the destination. What needs to happen for this move to be successful? First of all, uh the if we are moving a table and we are moving it to with a breaking change that is we are moving it higher or to an app"
+    },
+    {
+      "t": 569.7,
+      "end": 585.9,
+      "text": "which has no relation with the source then we need to use obsolation. Before moving it, we need to use the pending move property as I mentioned before. Then in terms of the move to property, it must contain the app ID of the destination extension."
+    },
+    {
+      "t": 585.9,
+      "end": 600.9,
+      "text": "If it does not, then it will not be possible to make the move successfully because there is validation that uh these app IDs match. The another thing to keep in mind is that as soon as we move out our table, until the takeover is done,"
+    },
+    {
+      "t": 600.9,
+      "end": 613.3,
+      "text": "the table will not be able to be referenced. That means that if there are other apps which reference it then they will uh have compilation errors or uh errors in the runtime."
+    },
+    {
+      "t": 613.3,
+      "end": 624.9,
+      "text": "Finally, we need to keep the table definition in the source extension because it is used to validate that the move has been done properly every time an app is"
+    },
+    {
+      "t": 624.9,
+      "end": 636.8,
+      "text": "installed. Let's uh talk a little bit about the destination. Now on the destination we need to copy the definition of the table as I mentioned before without any schema breaking changes."
+    },
+    {
+      "t": 636.8,
+      "end": 653.1,
+      "text": "Again the moved from property must contain the app ID of the source extension and that must match because that's what allows us to validate that the move is correct. And finally if we are moving fields then we can only move them to table extensions with the same base table."
+    },
+    {
+      "t": 653.1,
+      "end": 665,
+      "text": "We cannot move to other tables. If we look at the project files for the apps then we can see uh what change we need to do to our monolith app in order to support this."
+    },
+    {
+      "t": 665,
+      "end": 685.6,
+      "text": "The only change we need to do is that in the second version where we have done the move we need to add the dependencies to the uh new apps the sales app and the inventory app. And we also need to set the propagate dependencies property to true in order for apps which dependent on the monolith app to still have access to the tables that we are moving after the new"
+    },
+    {
+      "t": 685.6,
+      "end": 696.1,
+      "text": "version. Now let's talk a little bit about how do you deploy these extensions after you have made the effort to create them and to have your"
+    },
+    {
+      "t": 696.1,
+      "end": 706.7,
+      "text": "extensions. Let's do a small review on what we are trying to achieve. We are trying to move the functionality for sales to a sales app and the functionality for inventory to an inventory app."
+    },
+    {
+      "t": 706.7,
+      "end": 725.3,
+      "text": "The first thing to consider is when does a move happen. Moves happen during the syncing stage of an extension's life cycle. This is the stage after publishing your app and before installing it where the database schema is changed in order for the new installation code to be able to run on it."
+    },
+    {
+      "t": 725.3,
+      "end": 739,
+      "text": "So this is when the move will actually happen when these apps are deployed. The rule of thumb to ensure success when you are doing a move is that the source extension in a move must be deployed before the destination."
+    },
+    {
+      "t": 739,
+      "end": 753.6,
+      "text": "This way it's possible for the takeover to happen correctly. How do you deploy it? There's two ways. If you are a developer and you are trying to test out your solution, then you have to use Visual Studio Code development for development."
+    },
+    {
+      "t": 753.6,
+      "end": 772.6,
+      "text": "And uh if you're using business central then this is handled by business central when uh customers install app source extensions. Let's uh try to deploy our apps to see how we would achieve our scenario that I showed just a little bit before."
+    },
+    {
+      "t": 772.6,
+      "end": 782.9,
+      "text": "We start first of all with business central not even having our monolith app and uh we have our original monolith app with sales and inventory included."
+    },
+    {
+      "t": 782.9,
+      "end": 796,
+      "text": "If this is published through VS code and synced then you will see that the database contains uh a table sales and a table inventory and they both belong to a monolith"
+    },
+    {
+      "t": 796,
+      "end": 810.6,
+      "text": "app. In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As soon as we publish and the extension is synced, these apps are marked as unavailable."
+    },
+    {
+      "t": 810.6,
+      "end": 826.8,
+      "text": "In the next step, we have to install our new sales app which is taking over the table sales. As soon as we sync it, now the table changes ownership to the sales app and is now available to be used and there will be no longer be runtime errors."
+    },
+    {
+      "t": 826.8,
+      "end": 840.8,
+      "text": "Similarly for the uh inventory app, as soon as we publish it and we sync it, it is now available for us to use. Let's talk about some important details in this uh scenarios."
+    },
+    {
+      "t": 840.8,
+      "end": 851.6,
+      "text": "First of all, you don't need to make new extensions to move tables and fields to them. You can use existing extensions as uh destinations as long as you publish new"
+    },
+    {
+      "t": 851.6,
+      "end": 873.2,
+      "text": "versions. The other thing to consider is that takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that you can't take over any table or if you give up a table then not every extension can take it over only the one that is declared by the source"
+    },
+    {
+      "t": 873.2,
+      "end": 893.4,
+      "text": "extension. Finally, if the source extension of a move is not published, then new tables of fields will be created for the destination. So if we were just publishing the sales or the inventory app then uh and the monolith app had never existed never been published on the system then new tables would be created"
+    },
+    {
+      "t": 893.4,
+      "end": 909.2,
+      "text": "for the new apps. Let's go through another case when we have uh an app we don't just move tables and fields but there are also things which depend on these tables and uh fields."
+    },
+    {
+      "t": 909.2,
+      "end": 919.3,
+      "text": "Let's take this example here. We have an multi-purpose app which contains some functionality specific to food items and we want to move them to a food items module."
+    },
+    {
+      "t": 919.3,
+      "end": 932,
+      "text": "We don't just want to move the table food items. We also want to move the page that shows the food items with it. So how is it possible for us to take this page and move it to a different"
+    },
+    {
+      "t": 932,
+      "end": 946.8,
+      "text": "extension? The answer depends on if this move is a breaking change or a non-breaking change. If we are moving uh objects up or doing a lateral move then it is a breaking change and we need to do a two-step process."
+    },
+    {
+      "t": 946.8,
+      "end": 967.4,
+      "text": "The first uh thing to do is that we need to set the obsolute state to pending for the other objects which depend on our table for the first version of our app and then later we need to remove them from the original extension and redefine them on the destination."
+    },
+    {
+      "t": 967.4,
+      "end": 988.2,
+      "text": "If we are moving down to a direct dependency then it doesn't have to be a breaking change. This we can uh handle similarly to our previous scenario where we can set propagate dependencies to true on the source extension and remove the objects from the source extension and redefine them in the destination which is the dependencies."
+    },
+    {
+      "t": 988.2,
+      "end": 1000.9,
+      "text": "Then we don't need to do any obsolution. But we also have the opposite situation. It can be that we need to move a table but this table depends on some minum for example for the values of its fields."
+    },
+    {
+      "t": 1000.9,
+      "end": 1012.7,
+      "text": "What do we do in that case? How do we ensure that the source extension and the destination extension can work after this move? This can be done by using a common dependency."
+    },
+    {
+      "t": 1012.7,
+      "end": 1028.6,
+      "text": "So in this case we have the enum my enum that we need to have available for both the source extension and the destination extension. So we extract it into a common dependency and uh add it for as a dependency for both the destination and the source."
+    },
+    {
+      "t": 1028.6,
+      "end": 1040.4,
+      "text": "This way we can keep both of them compiling and working after the move. Now let's talk about how you can submit your own uh appsource uh"
+    },
+    {
+      "t": 1040.4,
+      "end": 1058.2,
+      "text": "extensions. The process is quite straightforward for submitting to appsource because it handles most of the validation automatically. The process is to first submit the source which will validate uh the obsolution of the apps which of the tables which are being moved."
+    },
+    {
+      "t": 1058.2,
+      "end": 1069,
+      "text": "Then you submit a destination and this will do the full validation for the move to see if it is valid. What does it mean for a move to be valid?"
+    },
+    {
+      "t": 1069,
+      "end": 1085.1,
+      "text": "Let's look at what validation subsource will perform. First of all, it will ensure that the source extensions for all moves exist. That means that if you are saying that the table is coming from a specific extension in your in the extension that you're submitting,"
+    },
+    {
+      "t": 1085.1,
+      "end": 1098.6,
+      "text": "apps source will ensure that uh this extension exists and has been submitted uh correctly and past validation. The other validation is that both the source and destination can compile after the move."
+    },
+    {
+      "t": 1098.6,
+      "end": 1110.1,
+      "text": "This ensures that the move is valid and can work. Also, we make sure that the source extension is giving up the table or field to the extension where that is trying to take over."
+    },
+    {
+      "t": 1110.1,
+      "end": 1126.2,
+      "text": "This prevents other extensions from trying to take over an incorrect uh table or field. Finally, uh appsource validates that there are no breaking changes in schea between the versions of a table or a field in the source and destination extensions."
+    },
+    {
+      "t": 1126.2,
+      "end": 1142,
+      "text": "This ensures that it is possible to sync the app when it is uh installed and the move can be done properly. Let's look at some things to think about and do before you submit your app to ensure the success of the move."
+    },
+    {
+      "t": 1142,
+      "end": 1155.4,
+      "text": "First of all, you should set up the move validation locally through appsource scope. This will ensure that your the rules run locally and you can catch any failures early without needing to wait for the submission."
+    },
+    {
+      "t": 1155.4,
+      "end": 1168.1,
+      "text": "You should also try the move on a sandbox or a docker container to ensure that the uh data has the correct structure and that uh it fits with the rest of your applications which depend on it."
+    },
+    {
+      "t": 1168.1,
+      "end": 1178.7,
+      "text": "Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them in the same submission and it will work."
+    },
+    {
+      "t": 1178.7,
+      "end": 1189.6,
+      "text": "Finally, consider first submitting the source and destination in preview. This way customers can upgrade both of them when both are available and you don't need to make only one of them available."
+    },
+    {
+      "t": 1189.6,
+      "end": 1196,
+      "text": "For example, the one which moves out the table uh so that it becomes"
+    },
+    {
+      "t": 1196,
+      "end": 1210.5,
+      "text": "unavailable. How do I enable the move validation rules locally? The process is quite simple. Uh what you need to do is first of all you need to build the source extension to have a package to use as a baseline."
+    },
+    {
+      "t": 1210.5,
+      "end": 1225.8,
+      "text": "You enable the appsource scope analyzer for your project and then create a directory in it and place this uh source extension. By adding the new property we have uh added for this feature and making it point to this directory,"
+    },
+    {
+      "t": 1225.8,
+      "end": 1239.8,
+      "text": "you will have enabled the validation and this will allow you to test out the move locally. Here is an example of how it looks like in terms of the settings you need to set."
+    },
+    {
+      "t": 1239.8,
+      "end": 1249.8,
+      "text": "Finally, let's talk a little bit about the performance of this feature. How how does it handle a large uh volume of data? Can what can I use it for?"
+    },
+    {
+      "t": 1249.8,
+      "end": 1265,
+      "text": "This feature was designed to handle a large amount of data and to do as little copying as possible uh for these moves. Let's look at a few scenarios and how performance works for them behind the scenes."
+    },
+    {
+      "t": 1265,
+      "end": 1277.9,
+      "text": "If we are moving a field from a table extension to a table extension, then there is no data transfer happening. It is just a column rename in the database. So even if you have billions of rows, it will it can happen instantly."
+    },
+    {
+      "t": 1277.9,
+      "end": 1288.1,
+      "text": "It is very performant. If you are moving a field from a base table instead to a table extension, then some data transfer needs needs to happen."
+    },
+    {
+      "t": 1288.1,
+      "end": 1300,
+      "text": "However, it is equivalent to the AL data transfer object and it is very performant as it is done in buds. If you are on the other hand moving"
+    },
+    {
+      "t": 1300,
+      "end": 1318.1,
+      "text": "tables, if it doesn't matter if you are moving from an extension to a dependency or up or doing a lateral move. In all cases, this will be done through a table rename in the database which will cause no data transfer and it will be extremely performant even for large tables."
+    },
+    {
+      "t": 1318.1,
+      "end": 1332.5,
+      "text": "So moving is suitable even for very large databases. In summary, moving tables and fields is a feature that empowers the L developer to refactor their extensions to modular,"
+    },
+    {
+      "t": 1332.5,
+      "end": 1343.9,
+      "text": "more maintainable parts. You can read more details about this feature in our documentation uh in the links you will find in the description below this video. Thank you SAS."
+    },
+    {
+      "t": 1343.9,
+      "end": 1362.7,
+      "text": "Thanks for joining this session and staying with us to the end. I hope you enjoyed um that we're now enabling publishers to seamlessly refactor their applications. Keep in mind though that such changes u can still have some downstream impact on uh any uh partner that are building on top of your solution."
+    },
+    {
+      "t": 1362.7,
+      "end": 1368,
+      "text": "Enjoy the other launch sessions. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3725
+}

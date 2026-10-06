@@ -1,0 +1,142 @@
+{
+  "video_id": "9esVS6I4wrY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 3.8,
+      "end": 14.6,
+      "text": "We're starting inside Business Central on the co-pilot pane showing agent tasks. After some time, a banner may appear explaining that the evaluation capacity has been used up."
+    },
+    {
+      "t": 14.6,
+      "end": 26.5,
+      "text": "You can enable more usage by setting up pay as you go billing for the agents consumption. Navigate to the Microsoft 365 admin center and select Azure from the list of admin centers."
+    },
+    {
+      "t": 26.5,
+      "end": 35.7,
+      "text": "Agent consumption will be charged to your Azure subscription. So let's define a resource group for it."
+    },
+    {
+      "t": 36.3,
+      "end": 41.5,
+      "text": "Provide a descriptive name and click next to continue."
+    },
+    {
+      "t": 41.5,
+      "end": 51.5,
+      "text": "Review the selected settings and click create. The resource group is now created. Next, navigate to the Power Platform admin center to continue the setup."
+    },
+    {
+      "t": 51.5,
+      "end": 58.2,
+      "text": "Go to the licensing section to add a new billing plan."
+    },
+    {
+      "t": 61,
+      "end": 74.6,
+      "text": "Choose the Azure subscription option. Provide a descriptive name for your billing plan. Then select the subscription for which you created the resource group and choose the resource group itself."
+    },
+    {
+      "t": 76.2,
+      "end": 89,
+      "text": "Make sure to select Copilot Studio from the list of products. We are now going to create a new environment. So for now, just save the new billing plan. The billing plan linked to your Azure subscription is now added successfully."
+    },
+    {
+      "t": 89,
+      "end": 96,
+      "text": "Navigate to the manage section and start creating a new environment."
+    },
+    {
+      "t": 98.5,
+      "end": 111.4,
+      "text": "Choose the environment type that matches the type of your business central environment where you run the agents. Select the pay as you go with Azure option. Pick the billing policy or plan you have just created."
+    },
+    {
+      "t": 111.4,
+      "end": 124.4,
+      "text": "The data versse environment is now created and linked to the billing policy. As a final step, you need to link the data versse environment to your business central environment. Open the environment page and select the link action."
+    },
+    {
+      "t": 124.4,
+      "end": 131,
+      "text": "Pick the environment you have just created and save the changes."
+    },
+    {
+      "t": 131.4,
+      "end": 139,
+      "text": "In a few seconds, the changes are saved and the billing setup is now complete."
+    },
+    {
+      "t": 139.1,
+      "end": 150.6,
+      "text": "Back in Business Central, you can see that the banner is gone and the pending tasks have started running again. If you want to monitor your build consumption, you can do that in the Power Platform admin center."
+    },
+    {
+      "t": 150.6,
+      "end": 162.4,
+      "text": "Go to the licensing section, select Copilot Studio, and click environments. Select the environment that is linked to the business central environment."
+    },
+    {
+      "t": 162.4,
+      "end": 176.7,
+      "text": "You can now see an overview of build Microsoft Copilot Studio messages there. Please note that while consumption is reported regularly by Business Central, it may take up to 24 hours for this data to propagate to these pages."
+    },
+    {
+      "t": 176.7,
+      "end": 189.4,
+      "text": "You can also track your consumption via the resource group in the Azure portal. Navigate to the resource group where you can find the cost analysis section showing the actual and forecasted costs charged to your Azure subscription."
+    },
+    {
+      "t": 189.4,
+      "end": 200.4,
+      "text": "Here you can create a budget to ensure you control how much you want to spend on pay as you go messages during a specific period. Filter the budget scope to a pay as you go messages."
+    },
+    {
+      "t": 200.4,
+      "end": 208.4,
+      "text": "Provide a name and set the period for your budget. Then enter your budget amount."
+    },
+    {
+      "t": 214.4,
+      "end": 223.6,
+      "text": "You can also configure an email alert which will be sent to your email address when you are getting close to your budget limit."
+    },
+    {
+      "t": 224.1,
+      "end": 232.6,
+      "text": "The budget is now created and you will be notified when your consumption reaches the defined limit."
+    }
+  ],
+  "markers": [
+    {
+      "t": 75.06,
+      "text": "[Music]"
+    },
+    {
+      "t": 76.149,
+      "text": "[Music]"
+    },
+    {
+      "t": 76.159,
+      "text": "[Music]"
+    },
+    {
+      "t": 128.259,
+      "text": "[Music]"
+    },
+    {
+      "t": 131.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 131.44,
+      "text": "[Music]"
+    },
+    {
+      "t": 207.3,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 537
+}

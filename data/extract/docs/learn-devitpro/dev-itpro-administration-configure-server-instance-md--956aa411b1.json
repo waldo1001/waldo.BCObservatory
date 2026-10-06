@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-server-instance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance",
+  "title": "Configure Business Central Server",
+  "blob": "9332bb481c053dc3a279480beb2db72b57c64aaf",
+  "summary": "How to configure Business Central Server instances after installation using Setup, PowerShell cmdlets, or by editing configuration files. Covers setting up server parameters, restarting instances, and managing dynamically updatable settings.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "server configuration",
+    "powershell cmdlets",
+    "installation",
+    "instance settings"
+  ],
+  "objects": [],
+  "features": [
+    "Set-NAVServerConfiguration cmdlet",
+    "CustomSettings.config file",
+    "dynamically updatable settings",
+    "server instance restart"
+  ],
+  "versions": [
+    "2022 release wave 2 (version 21) and later"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011108,
+      "pages_in_call": 5
+    }
+  ]
+}

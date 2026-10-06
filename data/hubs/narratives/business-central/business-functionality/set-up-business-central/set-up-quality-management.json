@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-quality-management",
+  "input_hash": "bcb7d27482c48748a237223000fcbffad2c0189711d496978ac07b4764e68825",
+  "summary": "Quality management setup in Business Central: prerequisites and permission sets, inspection results, inspection templates, and generation rules that create inspections automatically. Answers questions on how to configure quality inspections and when they are triggered.",
+  "overview": "This section covers the configuration needed before quality inspections can be used. It has four pages and no subtopics. The setup page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.",
+  "key_points": [
+    "Quality management setup and configuration covers prerequisites, permission sets, base data configuration and assisted setup.",
+    "Settings include inspection creation options, inspection search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.",
+    "Inspection results such as Pass, Fail and In Progress define possible outcomes; custom results can be created.",
+    "Results have settings for evaluation sequence, visibility, categories and lot blocking conditions.",
+    "Inspection templates define tests, test value types, allowable values, result conditions and sample source configuration.",
+    "Templates can be copied, and each has a template code and description.",
+    "Generation rules automatically create inspections for business transactions such as purchase receipts, production output and warehouse movements.",
+    "Generation rules use sort order, template-to-source mapping, condition filters, item filters, attribute filters and activation trigger selection."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:14.661Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.036893
+  }
+}

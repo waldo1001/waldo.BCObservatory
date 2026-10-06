@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-disable-soap-microsoft-pages-feature-key",
   "published_at": "2026-09-21T10:58:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d73ef781cb593919574b6194a652bc3b4dbf6d0d",
       "words": 239,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:08:17.031Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006802
+    },
+    "summarized": {
+      "at": "2026-10-06T14:08:17.036Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:08:17.036Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:08:17.036Z",
+      "page": false
     }
   },
   "input_hash": "d73ef781cb593919574b6194a652bc3b4dbf6d0d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d73ef781cb593919574b6194a652bc3b4dbf6d0d"
+  "output_hash": "aa1095c57532a7c67665d7df9b8a16f37c4ea3d3a38c0bbc588bae74ef848aa1"
 }

@@ -1,0 +1,236 @@
+{
+  "video_id": "NI6WYze-JSU",
+  "item_id": "video/yt-microsoft/NI6WYze-JSU",
+  "title": "Expense Agent: Project Expenses (2026 release wave 1)",
+  "duration_s": 175,
+  "systems": [
+    "projects",
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "expense agent",
+    "project tracking",
+    "project assignment",
+    "web app",
+    "expense report",
+    "resource linking",
+    "administrator setup",
+    "licensing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Expense Agent and project tasks in web app",
+      "t_start": 0,
+      "t_end": 17.8
+    },
+    {
+      "title": "Administrator visibility controls for projects and tasks",
+      "t_start": 17.8,
+      "t_end": 34.6
+    },
+    {
+      "title": "Licensing and role requirements for posting",
+      "t_start": 34.6,
+      "t_end": 66.3
+    },
+    {
+      "title": "Submitting expense report with project assignment in web app",
+      "t_start": 66.3,
+      "t_end": 104.2
+    },
+    {
+      "title": "Project tracking setup and expense user resource linkage",
+      "t_start": 104.2,
+      "t_end": 143.3
+    },
+    {
+      "title": "Manual project assignment fallback in Business Central",
+      "t_start": 143.3,
+      "t_end": 175
+    }
+  ],
+  "features": [
+    {
+      "name": "Project and task visibility in Expense Agent web app",
+      "description": "Administrator can enable or disable visibility of projects and tasks in the web app. By default they are not visible, but can be enabled with control over exposure level to submitters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.8,
+      "t_end": 34.6,
+      "is_demoed": true,
+      "caveats": [
+        "Visibility control requires administrator role",
+        "By default projects and tasks are hidden"
+      ],
+      "tags": [
+        "projects",
+        "visibility",
+        "administration",
+        "expense agent"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Submitter project assignment capability",
+      "description": "Expense submitters can assign expenses to projects and project tasks in the web app during expense report submission. Assignment is done in the categorization tab of the expense report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81,
+      "t_end": 104.2,
+      "is_demoed": true,
+      "caveats": [
+        "Submitter cannot post the expense or create project ledger entries",
+        "Requires controller or accountant with Easy Central license to post"
+      ],
+      "tags": [
+        "expense assignment",
+        "project task",
+        "web app",
+        "submitter"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project tracking configuration in Expense Agent setup",
+      "description": "Administrators configure project tracking through the Expense Agent configuration wizard. Options include activating project tracking and setting project visibility to all projects or assigned projects only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.2,
+      "t_end": 143.3,
+      "is_demoed": true,
+      "caveats": [
+        "Visibility can be limited to assigned projects only",
+        "Requires administrator access to configure"
+      ],
+      "tags": [
+        "project tracking",
+        "configuration",
+        "setup",
+        "visibility settings"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Expense user to resource linkage",
+      "description": "Expense users are linked to employees and resources to establish connection for project tracking. The linkage is configured in the expense user card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119.2,
+      "t_end": 143.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper employee and resource setup",
+        "Link is established through expense user card"
+      ],
+      "tags": [
+        "resource linking",
+        "employee",
+        "expense user",
+        "setup"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Manual project assignment fallback in Business Central",
+      "description": "If a submitter does not know the specific project, the controller can manually add the project assignment directly in Business Central when reviewing and posting the expense.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.3,
+      "t_end": 165.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires controller to manually intervene",
+        "Only available after submission to web app"
+      ],
+      "tags": [
+        "fallback",
+        "manual assignment",
+        "controller",
+        "business central"
+      ],
+      "system": "projects"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense User Card",
+      "t": 143.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "unnamed presenter 1",
+      "confidence": "low"
+    },
+    {
+      "name": "unnamed presenter 2",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.8,
+      "text": "First, administrator can decide if uh projects and tasks will be visible in web app or not. By default, they're not visible, but you",
+      "why_it_matters": "Establishes that project visibility is an administrator control with opt-in model and that it is configurable.",
+      "check": "exact"
+    },
+    {
+      "t": 34.6,
+      "text": "submitter cannot post ex- expense report and cannot post and cannot make a project ledger entry because submitter doesn't have easy central license.",
+      "why_it_matters": "Defines the hard constraint that submitters cannot finalize expenses - posting requires Easy Central license and controller role.",
+      "check": "exact"
+    },
+    {
+      "t": 93.5,
+      "text": "i'm selecting the project which i want this expense to go into and also against the project task",
+      "why_it_matters": "Shows that submitters can select both project and project task in the web app interface.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 119.2,
+      "text": "So, it's in this configuration wizard of expense agent. Uh under project tracking, we have activated the project tracking and the project visibility was",
+      "why_it_matters": "Identifies the configuration mechanism and visibility options available to administrators.",
+      "check": "exact"
+    },
+    {
+      "t": 130.3,
+      "text": "Today, the expense user is linked to an employee and the employee is in turn linked to a resource.",
+      "why_it_matters": "Explains the required linkage chain for expense users to be associated with projects.",
+      "check": "exact"
+    },
+    {
+      "t": 154.4,
+      "text": "But even if submitter doesn't know specific project, controller still has a chance to add this manually in a busy central.",
+      "why_it_matters": "Describes the fallback mechanism that allows controllers to correct or complete project assignments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027554000000000002
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-shopify.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify",
+  "title": "Extending Shopify",
+  "blob": "3716c683e4fb62f78f6e492fe096a26f9c124563",
+  "summary": "Extend the Shopify Connector through per-tenant extensions, hybrid approaches, or co-development to customize order processing, price management, inventory calculations, product properties, and customer information handling.",
+  "systems": [
+    "integration",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "shopify connector",
+    "extension",
+    "ecommerce",
+    "order processing",
+    "inventory sync"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Shpfy Authentication Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Shpfy Order Events"
+    },
+    {
+      "type": "codeunit",
+      "name": "Shpfy Product Events"
+    },
+    {
+      "type": "codeunit",
+      "name": "Shpfy Customer Events"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Order Header"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Product"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Variant"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Customer Address"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Shop"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Tag"
+    },
+    {
+      "type": "table",
+      "name": "Shpfy Metafield"
+    },
+    {
+      "type": "enum",
+      "name": "Shpfy Stock Calculation"
+    },
+    {
+      "type": "interface",
+      "name": "Shpfy Stock Calculation"
+    },
+    {
+      "type": "interface",
+      "name": "Shpfy IStock Available"
+    }
+  ],
+  "features": [
+    "order processing",
+    "price management",
+    "inventory synchronization",
+    "stock calculations",
+    "product mapping",
+    "customer information",
+    "metafield handling",
+    "dimensions",
+    "variant descriptions"
+  ],
+  "versions": [
+    "version 22"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

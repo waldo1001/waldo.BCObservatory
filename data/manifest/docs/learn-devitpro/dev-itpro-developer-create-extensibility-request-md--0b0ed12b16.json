@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/create-extensibility-request",
   "published_at": "2026-09-01T13:36:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d3a5a71ac1718261a6c2b69e119215863d9d360d",
       "words": 945,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.832Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.839Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.839Z",
+      "page": false
     }
   },
   "input_hash": "d3a5a71ac1718261a6c2b69e119215863d9d360d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3a5a71ac1718261a6c2b69e119215863d9d360d"
+  "output_hash": "1f3742fea9f19bccd3a7e03496aa10d88dd8ab7ba0a0fb542d5d2beddaa836be"
 }

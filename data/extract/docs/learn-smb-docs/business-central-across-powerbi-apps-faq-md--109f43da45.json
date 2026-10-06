@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-powerbi-apps-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq",
+  "title": "Power BI apps FAQ",
+  "blob": "994a02f9a23ea264edaf4db6962752be2deeb066",
+  "summary": "Power BI apps FAQ answers common questions about licensing, installation, data refresh, dimension data troubleshooting, and multi-company reporting for Power BI apps connected to Business Central.",
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "power bi",
+    "licensing",
+    "reports",
+    "faq",
+    "troubleshooting",
+    "semantic models"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "PowerBI Flat Dim. Set Entry"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Set Entries"
+    },
+    {
+      "type": "codeunit",
+      "name": "Update Dim. Set Entries"
+    }
+  ],
+  "features": [
+    "Power BI Pro license",
+    "semantic model refresh",
+    "dimension data updates",
+    "job queue scheduling",
+    "multi-language support"
+  ],
+  "versions": [
+    "26.2",
+    "27.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005587,
+      "pages_in_call": 8
+    }
+  ]
+}

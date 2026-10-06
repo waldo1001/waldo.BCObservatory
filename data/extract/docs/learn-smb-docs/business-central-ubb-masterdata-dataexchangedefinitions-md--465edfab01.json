@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/masterdata/dataexchangedefinitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/dataexchangedefinitions",
+  "title": "Data exchange definitions",
+  "blob": "4afdc84536fa03d6d6399c8baf053d7f7650b0e3",
+  "summary": "Data exchange definitions configure CSV field mappings for importing usage data in subscription billing. They specify file encoding, column separation, table mappings, and transformation rules required to process usage data correctly.",
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "data exchange",
+    "usage-based billing",
+    "data import",
+    "csv processing",
+    "field mapping"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Data Exchange Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Field Mapping"
+    },
+    {
+      "type": "table",
+      "name": "Usage Data Generic Import"
+    },
+    {
+      "type": "codeunit",
+      "name": "Generic Import Mappings"
+    }
+  ],
+  "features": [
+    "CSV import",
+    "field mapping",
+    "column definitions",
+    "data transformation",
+    "XMLport configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "video_id": "7SSNcUMFtCw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 21.2,
+      "text": "Hello and welcome to this session on the business central AI resources. My name is Peter Bo and I'm the product manager uh in the developer platform including the developer tools for co-pilot in business central and with me today I have Enrico Chibitan."
+    },
+    {
+      "t": 21.2,
+      "end": 39.3,
+      "text": "He's a senior uh software engineer on various integrations including copilot. So, Business Central AI resources is part of the developer tools for co-pilot in Business Central that you should already be using uh if you're building AI features in Business Central."
+    },
+    {
+      "t": 39.3,
+      "end": 56.2,
+      "text": "This is also what we call the Microsoft managed AI resources in the past. And in this release, we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview available for all of you."
+    },
+    {
+      "t": 56.2,
+      "end": 66.6,
+      "text": "And we are adding consumptionbased uh direct billing of customers uh AI resource use as well. So what is business central AI resources?"
+    },
+    {
+      "t": 66.6,
+      "end": 83.5,
+      "text": "Well, it's a key feature of the developer tools uh for co-pilot in business central. uh publishers can use the large language uh models via Microsoft managed uh Azure OpenAI resources and that eliminates the needs for the publishers to independently"
+    },
+    {
+      "t": 83.5,
+      "end": 95.1,
+      "text": "uh procure and manage the Azure OpenAI subscriptions uh for customers themselves. You can still bring your own Azure Open AAI subscription though."
+    },
+    {
+      "t": 95.1,
+      "end": 112.2,
+      "text": "Um the Business Central AI resources will be the default and recommended approach, but some publishers or customers might have special needs and we'll talk more about that later that require them to use their own Azure Open AI subscription"
+    },
+    {
+      "t": 112.2,
+      "end": 125.6,
+      "text": "uh when running the features in production. uh and nevertheless partners still need to use their own subscription when they are prototyping, developing and testing and troubleshooting in non-production"
+    },
+    {
+      "t": 125.6,
+      "end": 145.8,
+      "text": "uh and nonsas environments for instance in containers. So just to summarize this in an overview, copilot features in the base application and in other Microsoft extensions as well as the business central uh platform co-pilot features like chat and and analysis assist they"
+    },
+    {
+      "t": 145.8,
+      "end": 165.8,
+      "text": "use the BC AI resources already today either directly or through uh the uh developer tools if it's AL code based features and until now your application has been using your own Ashure OpenAI subscription unless you were part of the private preview of course but"
+    },
+    {
+      "t": 165.8,
+      "end": 181,
+      "text": "that was not in in production also. So what changes now is that going forward the recommendation is that your co-pilot features uses the business central AI resources in production environments as uh"
+    },
+    {
+      "t": 181,
+      "end": 195.4,
+      "text": "well and uh so you see this will sort of be the norm that you call through uh the toolkit and access the business central AI resources. You can still use your own Azure OpenAI resource um subscription as we talked about before."
+    },
+    {
+      "t": 195.4,
+      "end": 206,
+      "text": "Uh but again mostly or recommended only for uh development or for um special needs."
+    },
+    {
+      "t": 206,
+      "end": 216.3,
+      "text": "So what are the benefits of using the business central AI resources? Well, first of all um you can take advantage of reduced operational overhead."
+    },
+    {
+      "t": 216.3,
+      "end": 236.4,
+      "text": "So that means that you avoid uh the need to manage um or handle the infrastructure yourself. So that could be you know updates, monitoring, troubleshooting or maintenance of the Azure OpenAI subscription that allows you to free up your resources to add value in core business um operations"
+    },
+    {
+      "t": 236.4,
+      "end": 249.9,
+      "text": "and IP for the customers instead. It also simplifies the onboarding of building AI based features in Business Central. So you can quickly integrate uh these capabilities in your solutions."
+    },
+    {
+      "t": 249.9,
+      "end": 265.4,
+      "text": "It also gives an improved reliability because uh someone that means us will proactively ensure that resources are scaled and throttled and have load balancing and fault tolerance uh measures etc."
+    },
+    {
+      "t": 265.4,
+      "end": 275.7,
+      "text": "that ensures a consistent performance during peak uh demand among customers. It also gives a more streamlined experience for customers"
+    },
+    {
+      "t": 275.7,
+      "end": 295.7,
+      "text": "uh because they will have a more seamless AI uh resource management is going to be the same across all different ISV solutions that a customer uses and also the customers will have a unified consumptionbased billing experience across ISV solutions and lastly it will also give you the"
+    },
+    {
+      "t": 295.7,
+      "end": 314.3,
+      "text": "benefit of enhanced security compliance. So uh when you use the business central ARI resources there will be built-in compliance measures and uh governance that helps uh protecting against harmful and malicious uh content and just general compliance uh with data uh residency."
+    },
+    {
+      "t": 314.3,
+      "end": 325.8,
+      "text": "So maybe Enrico can you talk a little bit more about those last safety measures? Yes, of course. Thank you Peter. So um I'm going to talk about again what means content safety for us."
+    },
+    {
+      "t": 325.8,
+      "end": 337.4,
+      "text": "So this is of course something that we apply to our own calls to Azure OpenAI through the um Microsoft Business Central AI resources. But this will also apply to you the moment you start using them."
+    },
+    {
+      "t": 337.4,
+      "end": 348.8,
+      "text": "And we have um um like very optimized setup where we use a blocking policy. So if you have setup before your Asia open subscription, you know that you can have policies applied on a subscription level."
+    },
+    {
+      "t": 348.8,
+      "end": 367.4,
+      "text": "That means basically that um you decide what type of content and what level of filtering should be applied to the calls to the large language model. So we use a blocking policy as I mentioned which means we actually block calls that trigger content safety filters and we have all the filters about uh hate violence,"
+    },
+    {
+      "t": 367.4,
+      "end": 384,
+      "text": "sexual content, self harm that are kind of the default that Asure OpenAI um offers but we include also some Jbreak detection and we have uh already some basic cross prompt injection injection attack protection but we have uh in the plans to have some even better protection."
+    },
+    {
+      "t": 384,
+      "end": 400,
+      "text": "So this is actually a point that I want to stress which is these are the same policies and the same content safety that we use at Microsoft which means is um what we think is the safest for our customers um and also is applied to what you um are doing by using the toolkit."
+    },
+    {
+      "t": 400,
+      "end": 410.2,
+      "text": "So we're just using the same and one point that I always like to stop for a second on is um this is all about the content safety but um related to security and privacy."
+    },
+    {
+      "t": 410.2,
+      "end": 430.3,
+      "text": "We get a lot of questions especially from customers but also from some of you. Um and the questions are okay we are using the Microsoft AI to get AI resources but is Microsoft going to use this data to train models for example or is this data going to be saved somewhere and the answer is we care about your data and your data is your data so no"
+    },
+    {
+      "t": 430.3,
+      "end": 443.1,
+      "text": "we're not using data to train models uh we're not using data for example um to like improve Microsoft services and such uh we just use it for the purpose that you and that your code uh needs."
+    },
+    {
+      "t": 443.1,
+      "end": 463,
+      "text": "So you can read more of course on the Asia OpenAI website and we just comply to of course all the Asia OpenAI um guidelines. So let's move to the next section and see how you can actually use the business central AI resources versus bring your own Asia OpenAI subscription in the toolkit."
+    },
+    {
+      "t": 463,
+      "end": 473,
+      "text": "So the um first of all you can find samples in case you have not yet started developing your own copilot feature in our aka.ms/bct."
+    },
+    {
+      "t": 473,
+      "end": 489,
+      "text": "We have a full folder which is samples as openai which contains a few different samples you can have a look at and you can get started with these are already ready to be deployed in your test environment just to see how the code works and to have a look at how you can get um started from something."
+    },
+    {
+      "t": 489,
+      "end": 502.5,
+      "text": "These are already using um the Microsoft Business Central AI toolkit resources and the point in the code that is doing this is this exact line of code which is set manage resource authorization."
+    },
+    {
+      "t": 502.5,
+      "end": 523,
+      "text": "This is also as Peter said our recommended way of um connecting to the large language model in the back end. So you will see this line of code in our samples and you should use this line of code in your own features and as you can see it requires two additional parameters which are the second and third um which is the Asia OpenAI account name and Asia OpenAI API key."
+    },
+    {
+      "t": 523,
+      "end": 538.4,
+      "text": "So for the moment being we still require you as a partner to have an active Azure OpenAI subscription and this is mostly to make sure that you are um allowed to use Azure OpenAI and you are compliant and have accepted the Azure OpenAI terms of usage."
+    },
+    {
+      "t": 538.4,
+      "end": 558.2,
+      "text": "um this is just a requirement that we have but only for um checking that you have access. We don't actually consume your resources. So that also means you don't really need to have um deployed models which also cost money just to have even if you don't use them um you just need to have a a an approved u subscription and that's enough as you can see."
+    },
+    {
+      "t": 558.2,
+      "end": 575.4,
+      "text": "Also the last parameter here is um get GPD for our latest which is like the deployment name that you're going to use which aka you can also call the model name. We offer a few different models and you can find them in the Azure AOI deployments code unit."
+    },
+    {
+      "t": 575.4,
+      "end": 592.4,
+      "text": "As Peter mentioned, we also support bringing your own Asia open subscription which is uh needed when you are developing for example or also troubleshooting and so on and also for very specific cases u in case there is some feature that we don't yet support in the business central AI toolkit resources."
+    },
+    {
+      "t": 592.4,
+      "end": 601.8,
+      "text": "Uh in that case you just need instead of the function I showed in the previous slide you need to use this set authorization function instead."
+    },
+    {
+      "t": 601.8,
+      "end": 614,
+      "text": "So, I mentioned a few times that when you're developing, you need to use your own subscription and then you need um or we would like you to move to the Microsoft subscription when you deploy your um solution to production."
+    },
+    {
+      "t": 614,
+      "end": 624.2,
+      "text": "But how does this look like in code? Because a question we get a lot is do I need then to have two types um or two versions of code, one for testing and one for deploying to production?"
+    },
+    {
+      "t": 624.2,
+      "end": 644.5,
+      "text": "And the answer is you don't necessarily need that. So, you can actually have them in the same code. And the way we recommend you do this is you just while you're developing in your docking docker container or for example in your on premise um test environment you can just use the um bring your own subscription"
+    },
+    {
+      "t": 644.5,
+      "end": 654.5,
+      "text": "and you can do this with the switch based on whether you are in SAS infrastructure or not. So as you can see in this code sample I am using this environment information code unit for that purpose."
+    },
+    {
+      "t": 654.5,
+      "end": 670.2,
+      "text": "We have also collected a few questions that we got from some of you in the last few events. For example, in the event we had last month with a few partners um just specifically about AI and uh we just want to like go through them just to make sure that some of the most commonly asked questions are covered."
+    },
+    {
+      "t": 670.2,
+      "end": 683.9,
+      "text": "For example, are my calls using the toolkit staying in my geography? And the answer is uh whenever possible, yes. So we as Microsoft of course commit to data privacy. So your data will stay within geography if there is the option."
+    },
+    {
+      "t": 683.9,
+      "end": 702.4,
+      "text": "In some cases though we don't have an Asia open AAI um like deployment or data center in the same geography. In these cases the administrator of the tenant can just decide to not allow calls across geography and they can just turn it off from a centralized place which is the copilot and agent capabilities page in business central."
+    },
+    {
+      "t": 702.4,
+      "end": 719,
+      "text": "Also we quickly mentioned that there are additional system prompts when you're using the toolkit. Um so this is part of our content safety um or um yeah in general uh AI safety um measures and uh we append uh meta prompt as we call it to your own prompts."
+    },
+    {
+      "t": 719,
+      "end": 739,
+      "text": "So this actually might change slightly the behavior between your testing in on premise uh environment and your deployment to production. So we always recommend that you do all the development and testing on premise with your own Azure Open subscription and then you do thorough testing on uh um kind of sandbox environment"
+    },
+    {
+      "t": 739,
+      "end": 749.8,
+      "text": "before you actually start deploying this to your customers because again um the u the the output using business central resources might be in some cases slightly different."
+    },
+    {
+      "t": 749.8,
+      "end": 763.5,
+      "text": "One more thing you might have noticed is that there are new models coming out all the time from Asure OpenAI and we use always um the newest model that we think fits the purpose which means sometimes models are deprecated."
+    },
+    {
+      "t": 763.5,
+      "end": 775.7,
+      "text": "When that happens you receive if you have set up developer telemetry on your extension you receive a telemetry signal that tells you on your app inside app inside subscription that one of the models is being deprecated."
+    },
+    {
+      "t": 775.7,
+      "end": 788.1,
+      "text": "So then you should move to the new model and test that your prompts and that your setup still works with the new model. We have some slightly stricter deadlines with the model deprecations than we have with AL deprecation."
+    },
+    {
+      "t": 788.1,
+      "end": 799.8,
+      "text": "So uh just make sure you do the testing before the model is actually deprecated. Otherwise we might just move you to the new model if the old one is no longer available. So we will not break your feature. We will try to move it to the new model."
+    },
+    {
+      "t": 799.8,
+      "end": 812.6,
+      "text": "But again, different models might behave differently. So your feature might just not work as well with the new one. Another question we get a lot is whether you can use the data source capabilities that Azure OpenAI exposes from our toolkit."
+    },
+    {
+      "t": 812.6,
+      "end": 825,
+      "text": "That is currently not possible. Neither by using the AI resources from the toolkit nor by bringing your own Azure OpenI subscription. Every time we received this question, we tried to understand what the use case of the partner was."
+    },
+    {
+      "t": 825,
+      "end": 840.1,
+      "text": "And most in most of the cases, we actually found other ways to um to basically reach the same effect that didn't really need data sources. But if you think you have a use case where this is actually needed, please let us know and add it to"
+    },
+    {
+      "t": 840.1,
+      "end": 852.5,
+      "text": "aka.ms/bcid. And the last frequently asked question I have is whether um we can expose non open AI models in our toolkit for example deepseek or other models that have come out recently."
+    },
+    {
+      "t": 852.5,
+      "end": 867.5,
+      "text": "And the answer is we don't support that currently and that's because we only expose to your partners capabilities that we as Microsoft use. And that's because of course we want to keep them tested and make sure that they work uh before we actually like give them uh to the partners."
+    },
+    {
+      "t": 867.5,
+      "end": 879.7,
+      "text": "So uh currently no but you can of course once again suggest this on aka.ms/bc ideas and let us know um what is your use case and with this I'll pass it on to Peter again to talk about billing."
+    },
+    {
+      "t": 879.7,
+      "end": 897.2,
+      "text": "Thank you Enrico. Yeah, let's talk about billing of AI resources. Um, I mean that calls to to to LLMs in your solutions. If you're using your own Azure Open AI subscription, you likely run into some challenges uh with managing billing across uh your customers."
+    },
+    {
+      "t": 897.2,
+      "end": 908.6,
+      "text": "So, uh let's let's imagine that um we have a customer here uh who is running on a um on an environment with multiple ISV solutions deployed."
+    },
+    {
+      "t": 908.6,
+      "end": 920.7,
+      "text": "So we have three ISV solutions here. Uh so they're from three different uh ISVS and then these ISVS have um co-pilot features in their uh solutions all of them."
+    },
+    {
+      "t": 920.7,
+      "end": 940.7,
+      "text": "So they each have their own copilot um sorry Azure open AAI subscription that they manage for their solution which means that they need to charge uh each um the customer for the customer's consumption in their solution right so that means that the customers will get uh three"
+    },
+    {
+      "t": 940.7,
+      "end": 952.3,
+      "text": "different um uh billing uh experiences uh out of this which is not that convenient uh for for the customers uh to to handle."
+    },
+    {
+      "t": 952.3,
+      "end": 973,
+      "text": "Um likewise hopefully uh an ISV has multiple customers maybe hundreds of customers but likely only a single shared Azure Open AI subscription because you know they're reusing the same uh app source and you connect to to one instance in that and that means that when"
+    },
+    {
+      "t": 973,
+      "end": 993.5,
+      "text": "many of these different users are actually consuming the uh resources in the ISV's own subscription the ISV needs to um track that consumption and make sure that they can split uh or or build the customers individually based on each customer's use"
+    },
+    {
+      "t": 993.5,
+      "end": 1008.8,
+      "text": "uh of the copilot features in the ISV's IP. So that's gives an overhead of of management and maybe they even need uh the ISV have so much success that they even need to scale their Azure open subscription."
+    },
+    {
+      "t": 1008.8,
+      "end": 1026.6,
+      "text": "So they they have to sort of manage that with the Azure load balancer or the Azure traffic manager or regional instances etc. So there can be a lot of management involved in um supporting customers uh with an ISV subscription."
+    },
+    {
+      "t": 1026.6,
+      "end": 1039.7,
+      "text": "Let's have a look at how billing works when using Business Central AI resources. So this will be a consumptionbased uh approach where the customers will build directly from Microsoft."
+    },
+    {
+      "t": 1039.7,
+      "end": 1051.8,
+      "text": "However, the details of that uh is not ready at the time of this recording. Um but keep an eye out for details after launch to learn more about how the billing works."
+    },
+    {
+      "t": 1051.8,
+      "end": 1062.4,
+      "text": "So let's have a summary of the differences between uh the business central AI resources and uh when you bring your own Azure open AI subscription."
+    },
+    {
+      "t": 1062.4,
+      "end": 1077.5,
+      "text": "If we look at deployment and environments first then when you use the business central AI resources Microsoft manages those resources but it also means that it's available in SAS only and production environments only."
+    },
+    {
+      "t": 1077.5,
+      "end": 1090.6,
+      "text": "If you bring your own Azure OpenAI in subscription, you must handle everything around deployment uh of the models, keep them up to date, uh you know, take care of regions, geography, data residency, etc."
+    },
+    {
+      "t": 1090.6,
+      "end": 1100.8,
+      "text": "You will be charged for models u even if you're not using them. Um but it also means that you can use this both in SAS but also in non-SAS environments."
+    },
+    {
+      "t": 1100.8,
+      "end": 1111.2,
+      "text": "And so this will still be uh recommended for development and testing in your uh sort of onremise and container uh setups."
+    },
+    {
+      "t": 1111.2,
+      "end": 1123.8,
+      "text": "If we look at the differences uh when it comes to models then when you're using the business central AI resources uh the production ready models that are available are GBT 40 and 40 mini."
+    },
+    {
+      "t": 1123.8,
+      "end": 1136.7,
+      "text": "Um we will likely add more in the future but those are the ones that are available at the time of recording. uh we will notify you if you opt into telemetry about when new models are coming and old models are obsoleted."
+    },
+    {
+      "t": 1136.7,
+      "end": 1154,
+      "text": "Um also at the time of the recording we do not support uh embeddings although we have plans in probably next release uh in a you know half a year to a year's time frame to provide some semantic search capabilities that are similar to embeddings."
+    },
+    {
+      "t": 1154,
+      "end": 1172.7,
+      "text": "If you bring your own Azure OpenAI subscription, you have a choice of all the models available there whether they are uh from the OpenAI. So uh you know could be 01 or 03 mini the reasoning models but it could also be deepseek or Gemini or other models available there."
+    },
+    {
+      "t": 1172.7,
+      "end": 1183.1,
+      "text": "Um but it also means that you manage those models and you need to follow duplication timelines etc. You can there do embeddings and fine-tuning depending on your model."
+    },
+    {
+      "t": 1183.1,
+      "end": 1202,
+      "text": "Um and as Enrico mentioned uh in you know regardless of whether you use the business center AI resources or your own subscription it's not possible to bring your own data sources to for instance uh use Azure AI search for for retrieval augmented uh generation."
+    },
+    {
+      "t": 1202,
+      "end": 1214,
+      "text": "If we look at the major differences in responsible AI uh for the business central AI resources as Enrico mentioned we have the content filters and some additions to the system prompts."
+    },
+    {
+      "t": 1214,
+      "end": 1224.8,
+      "text": "Uh when you have your own Azure OpenAI subscription you also have content filters but you have more uh choice on how to set those up."
+    },
+    {
+      "t": 1224.8,
+      "end": 1245.5,
+      "text": "uh we still apply even for your subscription some uh system prompt uh mechanism for uh for that in SAS uh but of course if you're running uh in on premise you need to write your own uh management of that or handling of that and then when we talk about billing then when you use the Microsoft central AI resources"
+    },
+    {
+      "t": 1245.5,
+      "end": 1264.2,
+      "text": "Microsoft will charge to customers directly when they use AI uh based on their consumption uh customers will be able to track usage search, set limits, and get a single detail invoice across all of the ISVS that are using Business Central AI resources for their copilot"
+    },
+    {
+      "t": 1264.2,
+      "end": 1281.7,
+      "text": "features. Then what you can do or probably will do hopefully is that you charge your IP uh the way you do it today, right? So you can use the apps source um transactability feature or you can have your own custom uh licensing for your applications."
+    },
+    {
+      "t": 1281.7,
+      "end": 1293.1,
+      "text": "If you bring or use your own Azure OpenAI subscription customers, you need to track everything around consumption and you need to manage the building across uh customers."
+    },
+    {
+      "t": 1293.1,
+      "end": 1308.4,
+      "text": "So um to end this session uh I just want to raise the awareness that on uh YouTube our YouTube uh channel we actually have a number of different playlists and one of the playlists is on extending co-pilot uh in Business Central."
+    },
+    {
+      "t": 1308.4,
+      "end": 1321.9,
+      "text": "So that covers all of the capabilities that you have for building copilot features inside of Business Central. how you use the developer tools for building uh prompt dialogues, how you do tests, etc."
+    },
+    {
+      "t": 1321.9,
+      "end": 1332.6,
+      "text": "So, um if you haven't worked with building copilot features in Business Central, I recommend that you go there and watch uh those recordings. Thank you for joining this session."
+    },
+    {
+      "t": 1332.6,
+      "end": 1336.8,
+      "text": "Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3672
+}

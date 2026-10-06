@@ -1,0 +1,132 @@
+{
+  "video_id": "4IumfDNN8GU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.2,
+      "end": 14.7,
+      "text": "This video introduces posting groups which are an important accounting concept in Business Central. To ensure efficient and accurate transaction processes, posting groups link customers, vendors, and VAT or sales tax with GL accounts."
+    },
+    {
+      "t": 14.7,
+      "end": 28.6,
+      "text": "There are three main kinds of posting groups. General such as general business and product posting groups. Subleddger specific like customer, vendor, or inventory and VAT or tax posting groups."
+    },
+    {
+      "t": 28.6,
+      "end": 38.7,
+      "text": "Business posting groups focus on who you do business with. For example, you can group master data based on whether it's domestic, foreign, or whatever fits your accounting needs."
+    },
+    {
+      "t": 38.7,
+      "end": 53.9,
+      "text": "Product posting groups focus on what you buy or sell. You can group master data, for example, around resale, manufacture, or retail. We combine the who business posting groups and what product posting groups and posting setups."
+    },
+    {
+      "t": 53.9,
+      "end": 65,
+      "text": "For example, when we sell a retail item to a domestic customer, the posting setup might point to the sales revenue and COGS accounts. Another example is the VAT posting setup."
+    },
+    {
+      "t": 65,
+      "end": 80.8,
+      "text": "When we sell an item that uses the standard VAT rate to a domestic customer, the sales VAT account is used. We can assign posting groups to customers, vendors, and items, or they can inherit posting groups from"
+    },
+    {
+      "t": 80.8,
+      "end": 91.2,
+      "text": "templates. Here's an example. We'll open a sales invoice and choose a customer. Notice the general and customer posting groups."
+    },
+    {
+      "t": 91.2,
+      "end": 101.5,
+      "text": "These will come from the customer. The customer posting group contains a receivable account where the receivable amount will be posted in the general ledger."
+    },
+    {
+      "t": 101.5,
+      "end": 109.9,
+      "text": "Now we'll add an item and look at the general and inventory posting groups it uses."
+    },
+    {
+      "t": 110.7,
+      "end": 126,
+      "text": "Notice that the inventory posting group contains the inventory account where the item inventory amount will be posted. For the general product posting group, let's look at how it combines with the customer's general business posting group."
+    },
+    {
+      "t": 126,
+      "end": 134.7,
+      "text": "Notice the cogs and sales accounts. These are where the cogs and revenue amounts will be posted."
+    },
+    {
+      "t": 135.5,
+      "end": 148.3,
+      "text": "Let's preview the posting to see the ledger entries we'll create. The entry for the customer is based on the customer posting group. It contains the due date, remaining amount and other relevant information."
+    },
+    {
+      "t": 148.3,
+      "end": 160.8,
+      "text": "The entry for the item is based on the inventory posting group. It has information like quantities, sales amounts and so on. The entry for VAT is based on the VAT posting setup."
+    },
+    {
+      "t": 160.8,
+      "end": 174.3,
+      "text": "For example, it shows the VAT rate and base amounts. All subleddger amounts will be reflected in general ledger entries. Sales revenue and COGS GL accounts are taken from the general posting setup."
+    },
+    {
+      "t": 174.3,
+      "end": 188.6,
+      "text": "Sales tax or VATGL accounts come from the VAT posting setup. The receivables account comes from the customer posting group. Now, let's look at how to post directly to GL accounts without using subleddgers."
+    },
+    {
+      "t": 188.6,
+      "end": 199.4,
+      "text": "We can choose GL accounts only on lines on journals and documents. This allows subleddgers like the customer or inventory to exist alongside the general ledger."
+    },
+    {
+      "t": 199.4,
+      "end": 210.2,
+      "text": "Posting groups keep subleddgers in sync with the general ledger. If we don't use subleddgers and post directly to a GL account, we can enable direct posting for the account."
+    },
+    {
+      "t": 210.2,
+      "end": 221,
+      "text": "For accounts where direct posting is not enabled, we can use the where used list to see the posting groups that use this account. Thanks again for watching."
+    },
+    {
+      "t": 221,
+      "end": 232.7,
+      "text": "We've just seen how posting groups make accounting less complex when posting transactions and how we can post exactly what we want at the general ledger."
+    }
+  ],
+  "markers": [
+    {
+      "t": 78.81,
+      "text": "[Music]"
+    },
+    {
+      "t": 80.83,
+      "text": "[Music]"
+    },
+    {
+      "t": 80.84,
+      "text": "[Music]"
+    },
+    {
+      "t": 132.7,
+      "text": "[Music]"
+    },
+    {
+      "t": 135.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 135.52,
+      "text": "[Music]"
+    },
+    {
+      "t": 230.82,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 558
+}

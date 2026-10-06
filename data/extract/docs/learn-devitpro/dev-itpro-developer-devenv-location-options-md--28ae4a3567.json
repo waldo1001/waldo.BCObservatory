@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-location-options.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-location-options",
+  "title": "LocationOptions Overview for Business Central",
+  "blob": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a",
+  "summary": "LocationOptions configuration object allows customizing location requests with high accuracy hints, timeouts, and maximum age for cached locations when calling LocationProvider.RequestLocationAsync().",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "location",
+    "geolocation",
+    "options",
+    "timeout",
+    "accuracy",
+    "device"
+  ],
+  "objects": [],
+  "features": [
+    "EnableHighAccuracy",
+    "Timeout",
+    "MaximumAge"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004685,
+      "pages_in_call": 8
+    }
+  ]
+}

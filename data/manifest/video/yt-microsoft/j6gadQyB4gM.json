@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent",
   "url": "https://www.youtube.com/watch?v=j6gadQyB4gM",
-  "published_at": null,
+  "published_at": "2025-09-15T14:01:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:08:09.541Z",
+      "captions": "auto:en-orig",
+      "duration_s": 78
+    },
+    "captioned": {
+      "at": "2026-10-06T14:08:35.396Z",
+      "path": "data/captions/microsoft/j6gadQyB4gM.vtt",
+      "vtt_sha256": "a95c6f2ce1cb354ba5d396ec8f08ae5f31db5f4a93350fcda43a965d9ed36852",
+      "segments": 5,
+      "words": 179,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 190,
-    "duration_s": 79,
-    "via": "reconcile"
-  }
+    "duration_s": 78,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a95c6f2ce1cb354ba5d396ec8f08ae5f31db5f4a93350fcda43a965d9ed36852"
 }

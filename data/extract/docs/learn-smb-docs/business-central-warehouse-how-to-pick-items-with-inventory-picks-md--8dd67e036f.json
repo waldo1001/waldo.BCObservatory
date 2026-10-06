@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-pick-items-with-inventory-picks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks",
+  "title": "How to pick items with inventory picks",
+  "blob": "9e13da78d2385970b59bfa32f61615c3946f9169",
+  "summary": "Inventory picks record and post picking and shipping for sales orders, purchase returns, and transfer orders using the Inventory Pick page when locations require pick but not shipment processing.",
+  "systems": [
+    "warehouse",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "inventory picks",
+    "warehouse processing",
+    "picking",
+    "shipping",
+    "outbound workflow",
+    "assemble to order"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Setup"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents"
+    }
+  ],
+  "features": [
+    "Create inventory picks",
+    "Batch job creation",
+    "Source document picking",
+    "Bin management",
+    "Split line action",
+    "Assemble-to-order handling",
+    "Partial posting",
+    "Item tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

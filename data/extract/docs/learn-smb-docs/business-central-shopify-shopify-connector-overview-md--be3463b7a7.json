@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/shopify-connector-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview",
+  "title": "Shopify Connector Overview",
+  "blob": "53f3002d1c52a905c2fb82527886bf866bf764b2",
+  "summary": "Shopify Connector enables bidirectional synchronization of items, inventory, customers, orders, and transactions between Business Central and Shopify stores, supporting B2B and DTC business models.",
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify",
+    "connector",
+    "synchronization",
+    "e-commerce",
+    "orders",
+    "inventory"
+  ],
+  "objects": [],
+  "features": [
+    "multi-shop support",
+    "bidirectional item synchronization",
+    "inventory level synchronization",
+    "customer and company synchronization",
+    "order import from sales channels",
+    "fulfillment tracking",
+    "invoice export",
+    "job queue automation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

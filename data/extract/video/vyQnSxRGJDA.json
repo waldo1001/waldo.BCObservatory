@@ -1,0 +1,285 @@
+{
+  "video_id": "vyQnSxRGJDA",
+  "item_id": "video/yt-microsoft/vyQnSxRGJDA",
+  "title": "Expense Agent: Per Diem Allowances (2026 release wave 1)",
+  "duration_s": 363,
+  "systems": [
+    "hr",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "per diem allowances",
+    "expense agent",
+    "itinerary detection",
+    "meal reductions",
+    "trip calculation",
+    "wizard configuration",
+    "location detection",
+    "travel policy setup"
+  ],
+  "chapters": [
+    {
+      "title": "Per Diem Overview and Setup Approach",
+      "t_start": 0,
+      "t_end": 27.1
+    },
+    {
+      "title": "Per Diem Calculation Methods and Configuration",
+      "t_start": 27.1,
+      "t_end": 100.3
+    },
+    {
+      "title": "Demo: Expense Agent Web App - Itinerary Detection",
+      "t_start": 100.3,
+      "t_end": 157.8
+    },
+    {
+      "title": "Demo: Location Detection and Meal Reductions",
+      "t_start": 157.8,
+      "t_end": 237.1
+    },
+    {
+      "title": "Demo: Calculating Per Diem with Meal Deductions",
+      "t_start": 237.1,
+      "t_end": 289.2
+    },
+    {
+      "title": "Admin Setup in Business Central",
+      "t_start": 289.2,
+      "t_end": 318.3
+    },
+    {
+      "title": "Summary and Conclusion",
+      "t_start": 318.3,
+      "t_end": 363
+    }
+  ],
+  "features": [
+    {
+      "name": "Per Diem Allowance Calculation",
+      "description": "Automated calculation of per diem allowances based on multiple methods including 24-hour rolling periods, full calendar days, and partial day rules with flexible percentage or hour-based configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.6,
+      "t_end": 76.4,
+      "is_demoed": true,
+      "caveats": [
+        "Calculation rules vary significantly by country",
+        "Requires setup to be compliant with local regulations"
+      ],
+      "tags": [
+        "per diem",
+        "calculation",
+        "travel",
+        "allowances"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Expense Agent Wizard Configuration",
+      "description": "Guided wizard interface to configure per diem calculation and meal reduction settings, with option to adjust detailed configuration in expense agent setup for full country rule compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.1,
+      "t_end": 100.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "wizard",
+        "setup",
+        "configuration",
+        "expense agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Itinerary Detection and Classification",
+      "description": "The agent automatically detects when an expense is provided as an itinerary and categorizes it as a per diem expense, extracting travel details and dates from the itinerary document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.4,
+      "t_end": 157.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "itinerary",
+        "detection",
+        "ai",
+        "categorization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic Location Detection",
+      "description": "The expense agent seamlessly detects travel destinations and locations from itinerary expenses, mapping them to configured business central locations based on where the employee spent most days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157.8,
+      "t_end": 202.2,
+      "is_demoed": true,
+      "caveats": [
+        "Location detection depends on itinerary data provided"
+      ],
+      "tags": [
+        "location detection",
+        "travel",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Meal Reduction Configuration and Application",
+      "description": "Users can mark meals received during a trip and the system automatically applies configured percentage reductions to per diem allowances. Admins set up meal reduction percentages in the per diem details tab.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.4,
+      "t_end": 306.2,
+      "is_demoed": true,
+      "caveats": [
+        "Meal reductions are company policy driven"
+      ],
+      "tags": [
+        "meal reductions",
+        "configuration",
+        "policy"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Per Diem Trip Period Detection",
+      "description": "The system automatically detects and records the start and end times of per diem trips from itinerary expenses, capturing complete travel periods including outbound and return journeys.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.7,
+      "t_end": 189,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "trip detection",
+        "travel period",
+        "itinerary"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Per Diem Expense Web Application",
+      "description": "Web application interface for expense agent where users can submit and edit per diem expenses, view detected itinerary data, locations, dates, and apply meal reductions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.4,
+      "t_end": 262.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web app",
+        "ui",
+        "expense submission"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Per Diem Admin Settings Tab",
+      "description": "Business Central admin section with dedicated per diem details tab in expense agent wizard where administrators configure calculation method, flat rates, and meal reduction percentages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 262.8,
+      "t_end": 318.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin",
+        "setup",
+        "configuration"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Claudio",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander Totovich",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.6,
+      "text": "perdm can be really complicated calculation because it depends from country to country different rules",
+      "why_it_matters": "Establishes the core design challenge that drove the feature: per diem rules vary significantly by geography, requiring flexible configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 42.2,
+      "text": "we have three different perdm calculation. You have 24 hours rolling period. So this is from uh 6:00 a.m. until the next 6 a.m.",
+      "why_it_matters": "Documents the specific calculation methods supported: 24-hour rolling, full calendar day, and partial day rules.",
+      "check": "exact"
+    },
+    {
+      "t": 121.7,
+      "text": "the agent detects a perdm trip when um an expense is provided as an itinerary",
+      "why_it_matters": "Explains the core interaction pattern: agents automatically recognize and classify itinerary expenses as per diem trips.",
+      "check": "exact"
+    },
+    {
+      "t": 178.2,
+      "text": "the agent seamlessly detected the location of this expense in this case it's UK other because this is what I set up in business",
+      "why_it_matters": "Shows automatic location detection from itinerary data, a key capability that eliminates manual entry.",
+      "check": "exact"
+    },
+    {
+      "t": 237.1,
+      "text": "the total amount of the expense which was initially 232 uh pounds was actually decreased to 187 and 0.92 because of the meals reduction",
+      "why_it_matters": "Demonstrates the quantitative impact of meal reductions: a concrete example showing automatic policy-based deduction (from 232 to 187.92).",
+      "check": "exact"
+    },
+    {
+      "t": 275.4,
+      "text": "we have this tab now in the expense agent wizard called perdm expenses and you can actually set up this calculation",
+      "why_it_matters": "Identifies the location of per diem configuration in the UI: a dedicated tab in the expense agent wizard.",
+      "check": "exact"
+    },
+    {
+      "t": 329.1,
+      "text": "we completely simplify a really complicated area PDM. So you can really easy as submitter you can really easy just upload your itinary system",
+      "why_it_matters": "Summarizes the value proposition: automation reduces manual work from a complex, rules-heavy process to simple itinerary upload.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03229
+    }
+  ]
+}

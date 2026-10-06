@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-users",
   "published_at": "2026-09-21T10:55:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "57d0dc286a4e3e9168918320b35b28142ce8da4a",
       "words": 1117,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:10:27.798Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003335
+    },
+    "summarized": {
+      "at": "2026-10-06T14:10:27.805Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:10:27.805Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:10:27.805Z",
+      "page": false
     }
   },
   "input_hash": "57d0dc286a4e3e9168918320b35b28142ce8da4a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57d0dc286a4e3e9168918320b35b28142ce8da4a"
+  "output_hash": "e97ccf6bd97fd1cb93cb9f8169e262915de09fd62414356cca6cdccec13b7c85"
 }

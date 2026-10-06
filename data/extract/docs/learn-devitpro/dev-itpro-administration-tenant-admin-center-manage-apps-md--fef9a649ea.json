@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps",
+  "title": "Managing Apps",
+  "blob": "c36d8b683b2befe92f7a74c6a9bf25890ae38b6f",
+  "summary": "Managing Apps in the Admin Center provides unified control for Global Apps, Per-Tenant Extensions, and DEV extensions, including installation, updates, scheduling, dependency resolution, and uninstallation across business central environments.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "app management",
+    "marketplace apps",
+    "per-tenant extensions",
+    "global apps",
+    "app updates",
+    "app dependencies",
+    "extension management"
+  ],
+  "objects": [],
+  "features": [
+    "Manage Apps page in Admin Center",
+    "Global app marketplace integration",
+    "Per-Tenant Extension upload and scheduling",
+    "App update management with version compatibility",
+    "Apps Update Cadence setting for automatic updates",
+    "Deployment scheduling (immediate, update window, minor/major version)",
+    "App dependency resolution",
+    "App uninstallation with data deletion options",
+    "Preview versions of Marketplace apps",
+    "Sandbox testing for app uninstallation"
+  ],
+  "versions": [
+    "2027 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016273,
+      "pages_in_call": 2
+    }
+  ]
+}

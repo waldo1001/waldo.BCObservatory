@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6626.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6626",
+  "title": "Reference No. Label Report in Business Central",
+  "blob": "7b5cacb01a539d8f8454cc6bf3b69da3d1b676fb",
+  "summary": "Reference No. Label report generates printable barcode and QR code labels for items tracked by vendor or customer reference numbers, used by warehouse and production staff to speed up picking, put-away, and lookups.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "label printing",
+    "barcodes",
+    "qr codes",
+    "item references",
+    "warehouse operations"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Reference No. Label"
+    }
+  ],
+  "features": [
+    "barcode encoding",
+    "QR code generation",
+    "item reference filtering",
+    "Word layout",
+    "unit of measure display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005587,
+      "pages_in_call": 8
+    }
+  ]
+}

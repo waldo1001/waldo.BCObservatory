@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-review-apply-payments-auto-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application",
+  "title": "Review and apply payments manually after automatic application",
+  "blob": "39377b811e79105f80bbbf96e1b7f335837b019d",
+  "summary": "Review and apply payments manually after automatic application describes how to review automatic payment applications and manually apply or reapply payments to open entries on the Payment Application page.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "payment",
+    "reconciliation",
+    "application",
+    "automatic-application",
+    "receivables"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application Settings"
+    }
+  ],
+  "features": [
+    "Manual payment application",
+    "Automatic application review",
+    "Split payment application",
+    "Currency conversion handling",
+    "Payment discount consideration",
+    "Candidate lookback days parameter",
+    "Disable suggestions toggle",
+    "Ledger entry filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

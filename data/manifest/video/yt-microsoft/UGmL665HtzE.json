@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "AL-Go for Github June Office Hour",
   "url": "https://www.youtube.com/watch?v=UGmL665HtzE",
-  "published_at": null,
+  "published_at": "2025-07-10T11:21:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:12:19.665Z",
+      "captions": "auto:en-orig",
+      "duration_s": 901
+    },
+    "captioned": {
+      "at": "2026-10-06T14:12:38.108Z",
+      "path": "data/captions/microsoft/UGmL665HtzE.vtt",
+      "vtt_sha256": "8e79048beecaf172018ab144c62bb77d1c926d102886bb7af1c90a696d08783f",
+      "segments": 48,
+      "words": 1753,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 205,
-    "duration_s": 902,
-    "via": "reconcile"
-  }
+    "duration_s": 901,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8e79048beecaf172018ab144c62bb77d1c926d102886bb7af1c90a696d08783f"
 }

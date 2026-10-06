@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "#BCTalent and AI: A Partner’s Guide",
   "url": "https://www.youtube.com/watch?v=94Lqd7Ap8YQ",
-  "published_at": null,
+  "published_at": "2025-08-19T12:49:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:10:17.746Z",
+      "captions": "auto:en-orig",
+      "duration_s": 375
+    },
+    "captioned": {
+      "at": "2026-10-06T14:10:34.543Z",
+      "path": "data/captions/microsoft/94Lqd7Ap8YQ.vtt",
+      "vtt_sha256": "592ab708fd8f32ec4593ffa23f67499aaf9377445381704a6ee8cae85449bc1b",
+      "segments": 27,
+      "words": 1223,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 197,
-    "duration_s": 376,
-    "via": "reconcile"
-  }
+    "duration_s": 375,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "592ab708fd8f32ec4593ffa23f67499aaf9377445381704a6ee8cae85449bc1b"
 }

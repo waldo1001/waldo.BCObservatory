@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-assembly.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-assembly",
+  "title": "Sustainability value chain in assembly orders",
+  "blob": "cb0da4f71ce60c17cb547f66426cdbe8861e73af",
+  "summary": "Track carbon emissions in assembly orders by enabling sustainability value chain features and recording CO2e values for items and resources consumed during assembly.",
+  "systems": [
+    "assembly",
+    "sustainability"
+  ],
+  "topics": [
+    "sustainability",
+    "assembly orders",
+    "emissions",
+    "carbon tracking",
+    "value chain",
+    "co2e"
+  ],
+  "objects": [],
+  "features": [
+    "Enable Value Chain tracking",
+    "Item Emissions",
+    "Resource Emissions",
+    "CO2e tracking",
+    "Emission recalculation",
+    "Posted assembly orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005133,
+      "pages_in_call": 8
+    }
+  ]
+}

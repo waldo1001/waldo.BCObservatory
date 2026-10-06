@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "How to Set Up Sales Tax in Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=NPhOSQTheXw",
-  "published_at": null,
+  "published_at": "2025-05-22T16:14:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:13:59.276Z",
+      "captions": "auto:en-orig",
+      "duration_s": 138
+    },
+    "captioned": {
+      "at": "2026-10-06T14:14:23.359Z",
+      "path": "data/captions/microsoft/NPhOSQTheXw.vtt",
+      "vtt_sha256": "38df823a886d0e7c324e3b65fa0d05bb64d65f499d84bdfc3053c8770d0caac0",
+      "segments": 11,
+      "words": 386,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 212,
     "duration_s": 138,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38df823a886d0e7c324e3b65fa0d05bb64d65f499d84bdfc3053c8770d0caac0"
 }

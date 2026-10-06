@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Copilot Completing Time Sheets by Pryme Global",
   "url": "https://www.youtube.com/watch?v=QK-Qsh_6YL4",
-  "published_at": null,
+  "published_at": "2025-08-04T15:18:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:11:34.078Z",
+      "captions": "auto:en-orig",
+      "duration_s": 71
+    },
+    "captioned": {
+      "at": "2026-10-06T14:11:53.709Z",
+      "path": "data/captions/microsoft/QK-Qsh_6YL4.vtt",
+      "vtt_sha256": "4576ee3c9df20b4ee6ad56911ea5f2dbcd6ee20b2d8ceb3ec9f09906359c408d",
+      "segments": 5,
+      "words": 180,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 202,
     "duration_s": 71,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4576ee3c9df20b4ee6ad56911ea5f2dbcd6ee20b2d8ceb3ec9f09906359c408d"
 }

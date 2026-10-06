@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-117.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-117",
+  "title": "Reminder report",
+  "blob": "b435fe9b5d86d49f554f32400bad9e8dc27931bb",
+  "summary": "Reminder report prints or emails an issued reminder showing overdue documents, remaining amounts, interest, fees, and VAT using Issued Reminder Header and Line tables.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "reminder",
+    "overdue",
+    "accounts receivable",
+    "interest",
+    "customer follow-up"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Issued Reminder Header"
+    },
+    {
+      "type": "table",
+      "name": "Issued Reminder Line"
+    },
+    {
+      "type": "report",
+      "name": "Reminder"
+    }
+  ],
+  "features": [
+    "reminder number filter",
+    "show internal information",
+    "log interaction",
+    "show not due amounts",
+    "multiple interest rate details",
+    "VAT specification",
+    "email layout support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

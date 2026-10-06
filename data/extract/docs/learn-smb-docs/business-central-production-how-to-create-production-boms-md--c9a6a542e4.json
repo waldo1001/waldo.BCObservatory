@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-production-boms.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-boms",
+  "title": "Create production BOMs",
+  "blob": "1745edd09fd729f522d57a2bbfdbf8a63eb27e38",
+  "summary": "Create production BOMs that describe components, subassemblies, and quantities needed to manufacture items, with support for phantom BOMs and quantity calculation formulas.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "production bom",
+    "bom",
+    "bill of materials",
+    "components",
+    "phantom bom",
+    "versions",
+    "formulas"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production BOMs"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM Version Comparison"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    }
+  ],
+  "features": [
+    "BOM status and certification",
+    "Routing link codes",
+    "Scrap percentages",
+    "Phantom production BOMs",
+    "BOM versioning",
+    "Calculation formulas",
+    "Quantity calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

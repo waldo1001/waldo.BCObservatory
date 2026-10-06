@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d4c57f2e3534543f8fc769189bccdc8004f1a868",
       "words": 993,
       "forms": 16
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.524Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.008701
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.528Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.529Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.529Z",
+      "page": false
     }
   },
   "input_hash": "d4c57f2e3534543f8fc769189bccdc8004f1a868",
@@ -128,5 +147,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d4c57f2e3534543f8fc769189bccdc8004f1a868"
+  "output_hash": "2f1ffe428e40144fd8723685ac55f558414dded72974098ee5e9404e235dd4bd"
 }

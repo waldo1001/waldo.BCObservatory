@@ -1,0 +1,1023 @@
+{
+  "video_id": "vDGrVHQHLA0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 2.6,
+      "end": 13.2,
+      "text": "Perfect. Okay, I guess we can slowly get started then. Um, good morning if you are you're in the same time zone as us or good afternoon or wherever you are."
+    },
+    {
+      "t": 13.2,
+      "end": 32.5,
+      "text": "Uh, this is the office hours call for your go May 2025. Uh, my name is Alexander with me. I have Maria, Yonas, and Freddy. Uh, and yeah, I'll just go through some of the latest things we've done in in Go in this month and then few announcements and then we'll get to the Q&A."
+    },
+    {
+      "t": 32.5,
+      "end": 45.8,
+      "text": "That's basically what this last set of. So, uh, what's new go for GitHub? Uh, if you're ever in doubt, you can always go to AKMS/AGO release notes and you can find the latest things."
+    },
+    {
+      "t": 45.8,
+      "end": 60,
+      "text": "Um, if you go there right now, you'll find the these three things. Uh, I'll go through each of them briefly individually, but you can always go to you can go to the release notes and and read more and figure out how to enable these things in your"
+    },
+    {
+      "t": 60,
+      "end": 72,
+      "text": "repos. So, starting off with input validation. Um, I mean, of course, we've always had validation of inputs into workflows, but we've enhanced that in the in the latest preview."
+    },
+    {
+      "t": 72,
+      "end": 86.5,
+      "text": "Um, so now what we saw was that when you ran the create release workflow, if you set the update version number parameter to something that al goes doesn't accept, then it would do a bunch of things and then it would fail at the end and that's obviously not ideal."
+    },
+    {
+      "t": 86.5,
+      "end": 101.4,
+      "text": "So we enhanced this experience a bit to make it fail earlier so you don't end up with some release that you can't really use for anything. Um, and the same thing has been done for increment version number and it's something we'll slowly improve on."
+    },
+    {
+      "t": 101.4,
+      "end": 118.1,
+      "text": "um over time. Uh so basically in the future you'll expect your ALGO workflows to fail early uh if there are any issues with the inputs that you give the workflows, but for now it's only the create release and increment version number"
+    },
+    {
+      "t": 118.1,
+      "end": 130.7,
+      "text": "workflows. The second thing we've rolled out, this is something you'll see when you run up the video system files. U if you're on preview, you might already see it. Otherwise, you'll have to wait for the 7.2 two I believe is the next version."
+    },
+    {
+      "t": 130.7,
+      "end": 151,
+      "text": "Uh but at the top of your ALGO file, you get this schema property. And the schema property will do two things for you. First of all, when you go into your ALGO settings file, you'll now get like these suggestions from VS Code as you can see and you can start typing and it'll filter and you can get a description of the different settings and a link to"
+    },
+    {
+      "t": 151,
+      "end": 166.9,
+      "text": "where you can go read more. U so this kind of enhances your experience, you know, editing ilog settings. Um, another place we're going to use this is, uh, within the workflows, we'll also validate whether your settings match the schema."
+    },
+    {
+      "t": 166.9,
+      "end": 178.7,
+      "text": "Uh, this is really just to ensure that you've set up your settings correctly and, you know, your settings are applied in the way that algo expects it to be, right? That it's living up to the syntax of ALGO settings."
+    },
+    {
+      "t": 178.7,
+      "end": 189.3,
+      "text": "Uh, so we'll validate your settings against the schema and if it doesn't match, uh, we'll show uh, a warning."
+    },
+    {
+      "t": 190.2,
+      "end": 204.1,
+      "text": "And finally uh we rolled out a feature for failing pull requests or new warnings. This was a feedback we got from some partners that they want to fail pull request whenever a pull request intro is introducing a new"
+    },
+    {
+      "t": 204.1,
+      "end": 217,
+      "text": "warning. Oh, I'm getting someone saying my screen is not visible. You see the top"
+    },
+    {
+      "t": 217.6,
+      "end": 230.2,
+      "text": "one? Oh, okay. Um, yes. So, this new feature failing pull requests on your warnings. Um, so it won't change the behavior of your CI/CD workflows."
+    },
+    {
+      "t": 230.2,
+      "end": 247.5,
+      "text": "Uh, that'll still fail on the same errors as it used to. But now when you open up a pull request and if your pull request introduces a new code cup warning, um, it'll fail and you'll you'll be forced to uh uh to fix that before you merge your"
+    },
+    {
+      "t": 247.5,
+      "end": 266.1,
+      "text": "PR. So those were the three things we've added to ALGO in the last month. Right now it's in preview. Uh I don't know if we have any. We'll ship 7.2 soon. Like we'll just need to yeah have it for a little while and then when we feel ready we'll ship to"
+    },
+    {
+      "t": 266.1,
+      "end": 281.1,
+      "text": "7.2. Uh on before we go to the Q&A, just a couple of announcements. This one is a copy from last month. Um, but just in case some of you haven't run into this yet, um, PC container helper versions earlier than se 6.1"
+    },
+    {
+      "t": 281.1,
+      "end": 293.8,
+      "text": "uh, basically don't really work anymore. Um, algo repositories are not affected. But of course, if you're used to spinning up local containers and stuff, uh, you you will be affected."
+    },
+    {
+      "t": 293.8,
+      "end": 303.6,
+      "text": "Uh, so if you haven't done that in a while, maybe check that. Uh, yeah, you're running a container version higher than 6.1."
+    },
+    {
+      "t": 303.6,
+      "end": 316.2,
+      "text": "One other announcement is uh please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon stop working."
+    },
+    {
+      "t": 316.2,
+      "end": 326.2,
+      "text": "5.0 and lower sorry 5.0 will work lower than 5.0 will not work. Uh for reference 5.0 is about a year old now."
+    },
+    {
+      "t": 326.2,
+      "end": 336.4,
+      "text": "So if you haven't run updated grow system files in a year, please make sure you run it uh relatively soon."
+    },
+    {
+      "t": 336.4,
+      "end": 349.5,
+      "text": "And with that, I will kick off the Q&A. I'm Freddy also just joined me in the office now. Uh please use the Q&A tab instead of the chat"
+    },
+    {
+      "t": 349.5,
+      "end": 355.3,
+      "text": "tab if you have any questions."
+    },
+    {
+      "t": 360.9,
+      "end": 373.1,
+      "text": "You want to say anything? Actually, maybe before we get to the Q&A, we can uh I can say one I can talk to Tiff to uh just came into in the door."
+    },
+    {
+      "t": 373.1,
+      "end": 389,
+      "text": "So um yeah, you probably heard about uh or maybe you saw my LinkedIn post that I am no longer with Microsoft or I'm still here uh at least for for for some time being."
+    },
+    {
+      "t": 389,
+      "end": 409.3,
+      "text": "Um but I'm like no longer um part of this team. what I've promised uh Alexander, Maria, Sebastian, and Jonas to do is to be here for the foreseeable future and uh and make sure that that that the transition period"
+    },
+    {
+      "t": 409.3,
+      "end": 420.1,
+      "text": "is not like I'm not trying to like go through everything in two two days or two weeks to to like uh but but we'll like extend that period for for some time."
+    },
+    {
+      "t": 420.1,
+      "end": 440.3,
+      "text": "So, so that'll be a a good chance of of the transition period to be smooth and and I don't foresee any any huge I mean obviously there's going to be a huge missing me but uh but I think the team is more than capable of of taking over and uh"
+    },
+    {
+      "t": 440.3,
+      "end": 451.4,
+      "text": "making sure that algo will have a bright future and I'll do my utmost to make sure that the transition period is as as smooth as possible."
+    },
+    {
+      "t": 451.4,
+      "end": 471.4,
+      "text": "So it wasn't my decision. It wasn't the people in Lug's decision. I think my name was picked out from a computer somewhere in Redmond and then it was my turn to leave. So that's how it feels and that's how I chose to interpret it which is the reason why I mean we're still alone with good friends and uh no bad"
+    },
+    {
+      "t": 471.4,
+      "end": 485.8,
+      "text": "feelings. So who will take over from Freddy? Well, there's a team like you've seen. Alexander, Maria, Jonas, and Sebastian are the four people working on a go for GitHub."
+    },
+    {
+      "t": 485.8,
+      "end": 495.9,
+      "text": "Container helper is probably going to be mostly Sebastian in a second. Alexander as I can see on the different pull request and stuff like that. Um, but"
+    },
+    {
+      "t": 495.9,
+      "end": 510.2,
+      "text": "yeah, it won't be left. I mean, well, we've been working with Freddy for the last two years or something. Yeah. So, I mean, we have some experience now, but of course, not any anywhere near what Freddy has, but uh we'll we'll pick it up from there."
+    },
+    {
+      "t": 510.2,
+      "end": 521,
+      "text": "And of course, it'll be a learning process for us as well. Okay. So, there's a question here about uh the fail pull request new warnings. Can it be switched on or off with the setting?"
+    },
+    {
+      "t": 521,
+      "end": 534,
+      "text": "And yes, it can. Uh I didn't mention that, but uh if you go to go release notes, you'll see the the setting and a description how to enable it."
+    },
+    {
+      "t": 534,
+      "end": 545.4,
+      "text": "First question we got was our development relies heavily on onrem docker containers. Now bc container helper is deprecated. What will be the future of onrem container building?"
+    },
+    {
+      "t": 545.4,
+      "end": 549.5,
+      "text": "How can we prepare it to be"
+    },
+    {
+      "t": 549.5,
+      "end": 561.4,
+      "text": "ready? Uh yes mean so busy container upper is not deprecated yet. It's deprecated in about two years time I believe is scheduled. um and and it is being replaced by a new module."
+    },
+    {
+      "t": 561.4,
+      "end": 578.4,
+      "text": "So I don't think our plan is to leave you just you know by yourself. Uh we are planning to replace some of the functionality maybe not all of it but certainly I mean the core development functionalities we're planning on to"
+    },
+    {
+      "t": 578.4,
+      "end": 594.8,
+      "text": "replace. Yeah, I think the plan was always to say the stuff that's used for running local containers will be in a different module. All the stuff that's used for running DevOps stuff is no not no longer going to be in a PowerShell module like that."
+    },
+    {
+      "t": 594.8,
+      "end": 615.1,
+      "text": "is going to be in various modules where the release vehicle is a go and if people want to use those things they're like they'll be yeah they'll be experiencing more changes because when the release vehicle is a go we'll do the changes that are necessary for a go but not look whether you're breaking anybody"
+    },
+    {
+      "t": 615.1,
+      "end": 622.2,
+      "text": "there so I think that's still the"
+    },
+    {
+      "t": 625.3,
+      "end": 629.3,
+      "text": "Lots of questions."
+    },
+    {
+      "t": 629.3,
+      "end": 645.5,
+      "text": "Just want to say thanks Freddy. You did an awesome job for the pipeline store in the whole BC ecosystem. We will be missed. Definitely. Thank you. Can you give us an estimate in the famous PR for indirect templates?"
+    },
+    {
+      "t": 645.5,
+      "end": 659.8,
+      "text": "Hoping to do it this month. um on this month. Yeah, May, June. So, let's see. I think the B has done more up to the people having time to actually do review and stuff like that."
+    },
+    {
+      "t": 659.8,
+      "end": 668.4,
+      "text": "So, yeah, it's in review and we just need to get it in as soon as possible."
+    },
+    {
+      "t": 668.4,
+      "end": 678.8,
+      "text": "So, no, it'll go will be supported for years to come. Uh I mean it will be supported in the years to come."
+    },
+    {
+      "t": 678.8,
+      "end": 699.6,
+      "text": "Um I didn't mention this but there's also if you go to Yammer there's a Microsoft announcement from Dimmitri uh one of the PMs here about you know the future of ILGO and stuff and it it is something we're continuing to invest"
+    },
+    {
+      "t": 700.5,
+      "end": 711.3,
+      "text": "in. I need to build artifacts and releases for older BC version. Is there some documentation for this"
+    },
+    {
+      "t": 711.3,
+      "end": 720.1,
+      "text": "case to build? Do you build an app for all the VC"
+    },
+    {
+      "t": 721.2,
+      "end": 731.3,
+      "text": "versions? You probably have to create a container for that version and then yeah build it with that."
+    },
+    {
+      "t": 731.3,
+      "end": 748.7,
+      "text": "You can if you want to build it in the pipeline, you need to use the functions for that. If you want to build it in VS Code, you can download the probably the VS code extension from the container that you built with your own artifacts and you can create like install that in your VS code and and build with that."
+    },
+    {
+      "t": 748.7,
+      "end": 761.8,
+      "text": "It's cumbersome. It's not something we mean we recommend everybody to be on the latest and greatest always, right? But um it can be"
+    },
+    {
+      "t": 761.8,
+      "end": 775.5,
+      "text": "done documentation probably not something might find stuff on my blog very old posts on how to do some of these things but uh"
+    },
+    {
+      "t": 775.7,
+      "end": 788.5,
+      "text": "yeah would know when the page scripting feature in SAS is expected to be released. I don't know maybe I didn't it already released or maybe I have the wrong understanding."
+    },
+    {
+      "t": 788.5,
+      "end": 803.3,
+      "text": "We're not running we are unable to run page scripting tests on SAS environments due to the to the 2FA or MFA requirement of SAS currently but it is being worked on."
+    },
+    {
+      "t": 803.3,
+      "end": 818.1,
+      "text": "So that's going to be yeah it's Sebastian that's working on that piece. Whether it's going to be next month or months after that, I don't know. But soon as"
+    },
+    {
+      "t": 828.1,
+      "end": 838.5,
+      "text": "possible. See, it's gone into some section. Give it a second."
+    },
+    {
+      "t": 852.1,
+      "end": 862.9,
+      "text": "I think the sharing has stopped. Yeah, it's just uh it was sharing my screen over and over again, but trying to find a pop"
+    },
+    {
+      "t": 862.9,
+      "end": 867.9,
+      "text": "out. Maybe not."
+    },
+    {
+      "t": 867.9,
+      "end": 879.8,
+      "text": "We're still here. Even though the screen is going a bit on a some"
+    },
+    {
+      "t": 882.1,
+      "end": 896.5,
+      "text": "chats Jose Madreal K asks, \"So my name is not Frederick, I'm Freddy, but yes, I'll be in ML September.\" So, I promised"
+    },
+    {
+      "t": 896.5,
+      "end": 909,
+      "text": "uh Roberto Corella something and I'll obviously keep my promises. I'm a man of my word. So, yes, I'll be there. Yeah. Not next September, this September."
+    },
+    {
+      "t": 909,
+      "end": 922.9,
+      "text": "So, I had promised one of our MVPs that had run a a algo onboarding course if he could find 20 partners in Spain to uh to do that, I'll do it a full day course."
+    },
+    {
+      "t": 922.9,
+      "end": 931.8,
+      "text": "and he found 20 partners and I obviously will yeah do that."
+    },
+    {
+      "t": 941,
+      "end": 954.4,
+      "text": "Thanks for all the hard work, late nights and friendship over the last years. I've learned a lot from you. Thank you, Ryan. I receive an error on the publish artifacts pipeline step."
+    },
+    {
+      "t": 954.4,
+      "end": 965,
+      "text": "Failed to create artifact. Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6 to 12 hours."
+    },
+    {
+      "t": 965,
+      "end": 971.8,
+      "text": "Can the publish artifact step be turned off in this case?"
+    },
+    {
+      "t": 971.8,
+      "end": 985.6,
+      "text": "Uh, no. I don't believe it can. Okay. So, what school are you running on on GitHub? Is that a free account or is it the pro or what Christian?"
+    },
+    {
+      "t": 985.6,
+      "end": 997.1,
+      "text": "Um I don't think we can we have some settings for retention, right? Yeah, there's some longlasting and short lasting artifacts."
+    },
+    {
+      "t": 997.1,
+      "end": 1006.8,
+      "text": "Do we have some settings to define how long keep the artifacts for? Team"
+    },
+    {
+      "t": 1013.3,
+      "end": 1025.5,
+      "text": "team I think you should create an issue on that then you should investigate how much FL there is. I thought that would be"
+    },
+    {
+      "t": 1025.5,
+      "end": 1044.2,
+      "text": "bigger and also like give some advice in Is this like very large apps or is it Yeah, you can mention stuff like that is or is it like a lot of builds?"
+    },
+    {
+      "t": 1044.2,
+      "end": 1048.1,
+      "text": "What's what's causing"
+    },
+    {
+      "t": 1048.1,
+      "end": 1051.7,
+      "text": "this?"
+    },
+    {
+      "t": 1051.7,
+      "end": 1069.2,
+      "text": "Yes. Uh I have another question regarding the feature fail and new warnings. Is there a threshold value where I can configure something like below X warnings I'm fine but only stop if it's more than X warnings Yonas do you want to respond to this"
+    },
+    {
+      "t": 1069.2,
+      "end": 1086.3,
+      "text": "one? Yeah. So no, we don't have any of those settings at the moment. The uh this feature essentially looks at new warnings only. So if you have a codebase that already has a bunch of warnings and you want to block new warnings from getting in without having to fix all of the current warnings,"
+    },
+    {
+      "t": 1086.3,
+      "end": 1103.2,
+      "text": "this is the type of feature you want to enable. Other than that, there are other ways to control breaking and failing on warnings, but not um threshold that is configurable in terms of the number of warnings etc."
+    },
+    {
+      "t": 1112.2,
+      "end": 1123.4,
+      "text": "I'm new to Yogo. I need to start from basic. Any links you can share? I believe some links were shared. Hopefully that's"
+    },
+    {
+      "t": 1124.5,
+      "end": 1134.9,
+      "text": "helpful. Can I join that? Guessing maybe it's the Madrid thing that's being mentioned here. Or so Ryan, I'm going to hold the entire course in Spanish."
+    },
+    {
+      "t": 1134.9,
+      "end": 1146.6,
+      "text": "So capable of Oh, no. I'm not is in English. You have to talk to Roberto Cora, one of our MVPs in Spain."
+    },
+    {
+      "t": 1146.6,
+      "end": 1153.2,
+      "text": "He's the host. I'm just a guest"
+    },
+    {
+      "t": 1154.3,
+      "end": 1165,
+      "text": "speaker. What is the recommended approach for using Azure DevOps work item planning together with ALGO? Um, I don't think we have anything documented on this."
+    },
+    {
+      "t": 1165,
+      "end": 1179.8,
+      "text": "Um but it is something we do within Microsoft. So we have a couple of you'll go GitHub repositories but all of our work it automatically is in Azure DevOps and I mean it's not a painless experience."
+    },
+    {
+      "t": 1179.8,
+      "end": 1195.2,
+      "text": "Uh but there there are some kind of integrations that you can use uh the Azure boards integration being one of them. Uh so you can reference work items from GitHub and it creates automatically creates a link between the two and so on."
+    },
+    {
+      "t": 1195.2,
+      "end": 1212.4,
+      "text": "That's something that kind of eases the experience. Maybe that's something we should document at some point. Uh I feel like I've heard this before. Uh I've gotten this question before around how do you integrate Azure DevOps and GitHub."
+    },
+    {
+      "t": 1212.4,
+      "end": 1225.8,
+      "text": "Um yeah that's the tool we use and then we build some own automation to you know do some other syncing uh but that might not be necessary for your your use"
+    },
+    {
+      "t": 1229.2,
+      "end": 1244.2,
+      "text": "case. We're currently facing difficulties comparing two different BC versions in A Go 26 and 25. Manually checking each a file is proving to be quite"
+    },
+    {
+      "t": 1246,
+      "end": 1251,
+      "text": "challenging. EC"
+    },
+    {
+      "t": 1254.4,
+      "end": 1267,
+      "text": "maybe you could try rephrasing the question or something and then we'll we can come back to this one. What do you mean about BC versions? There are two different branches where development has gone in two directions."
+    },
+    {
+      "t": 1267,
+      "end": 1271.7,
+      "text": "What are you talking about"
+    },
+    {
+      "t": 1275.2,
+      "end": 1286.1,
+      "text": "here? We'll see if we can come back to this one. We're currently in the process of evaluating whether we want to switch from Azure DevOps to GitHub with ALGO."
+    },
+    {
+      "t": 1286.1,
+      "end": 1293,
+      "text": "What is the general recommendation here? Is ADO the future or GitHub?"
+    },
+    {
+      "t": 1293,
+      "end": 1304.9,
+      "text": "I don't think we let's see we and Microsoft I don't think Microsoft does any recommendation on ADO or GitHub. Uh I think both are supported."
+    },
+    {
+      "t": 1304.9,
+      "end": 1316.5,
+      "text": "If you look at the teams I don't think there's any doubt that GitHub receives the most love and attention from development teams. A lot of features comes to GitHub. Not not so much on DevOps."
+    },
+    {
+      "t": 1316.5,
+      "end": 1327.3,
+      "text": "Uh but as a devops has like an advantage of of some areas on some areas where they have more featurerich functionality already and GitHub is catching up on that."
+    },
+    {
+      "t": 1327.3,
+      "end": 1347.3,
+      "text": "So it kind of depends on where you you have a lot of investments on ADO and you need to stay there. Our recommendation is to use a managed solution so you don't get stuck in this okay now container help is no longer supported and you have to like figure out where you"
+    },
+    {
+      "t": 1347.3,
+      "end": 1363.6,
+      "text": "get the functionality in that one from um and you can stay on ADO if you use alops alaka u that our recommendation will be github or my s recommendation server"
+    },
+    {
+      "t": 1372.3,
+      "end": 1385.4,
+      "text": "Uh also I am not sure if this is the right platform to ask this question but I'm also interested in datadriven testing but I'm not sure about the data templates to load the data."
+    },
+    {
+      "t": 1385.4,
+      "end": 1393.4,
+      "text": "I need help here as well. I asked the query on Yammer. Did not get any response yet."
+    },
+    {
+      "t": 1394.8,
+      "end": 1405.7,
+      "text": "I don't think Go has any support for any datadriven testing yet. Uh I got the question on the last uh"
+    },
+    {
+      "t": 1405.7,
+      "end": 1422.2,
+      "text": "uh a meeting I had in where was that? Was that directions North America? I think it was. Yeah. where one of the MVPs talked about the new datadriven the AI test toolkit that was able to do datadriven test testing."
+    },
+    {
+      "t": 1422.2,
+      "end": 1434.5,
+      "text": "Um we haven't built support for that into a go yet. That's something that needs to be investigated and and how we can do that in the best way."
+    },
+    {
+      "t": 1457,
+      "end": 1461.7,
+      "text": "There anything in the"
+    },
+    {
+      "t": 1461.7,
+      "end": 1476.9,
+      "text": "chats? Is there any such GitHub copilot agent in VS Code for refining the code with the base code of BC with our custom extension for fixing the"
+    },
+    {
+      "t": 1477.4,
+      "end": 1482.9,
+      "text": "errors? question. I"
+    },
+    {
+      "t": 1487.2,
+      "end": 1499.1,
+      "text": "don't guess there is a co-pilot uh code review, but it's not very good at AL yet. But that's would be something"
+    },
+    {
+      "t": 1499.1,
+      "end": 1509.4,
+      "text": "that should be worked on in order to make the co the co-pilot code reviewer capable of doing actual code reviews and formatting and stuff like that."
+    },
+    {
+      "t": 1509.4,
+      "end": 1519.6,
+      "text": "Maybe even stuff like uh pre-commit could be extended to be able to format a code. I don't know."
+    },
+    {
+      "t": 1519.6,
+      "end": 1526.6,
+      "text": "Um code cut can do some of these things I guess."
+    },
+    {
+      "t": 1529.5,
+      "end": 1542.5,
+      "text": "Got a guy outside here trying to hammer his way through a window, I guess. But hope it's not too noisy."
+    },
+    {
+      "t": 1553.5,
+      "end": 1558.4,
+      "text": "building runtime packages supported by"
+    },
+    {
+      "t": 1558.4,
+      "end": 1570.4,
+      "text": "ALGO the answer that is no right yeah never never got to that it's part of the"
+    },
+    {
+      "t": 1571.8,
+      "end": 1581.8,
+      "text": "backlog yes can we submit an idea for code formatting and code review on pulest or by AI"
+    },
+    {
+      "t": 1581.8,
+      "end": 1592.2,
+      "text": "Even better, Ryan, you can create a pull request to add the functionality to it. How about"
+    },
+    {
+      "t": 1600.3,
+      "end": 1612,
+      "text": "that? On the ELGO project board, there are some cards about auto translation. Is there any news on that? I don't believe so."
+    },
+    {
+      "t": 1612,
+      "end": 1616.3,
+      "text": "in the background."
+    },
+    {
+      "t": 1617,
+      "end": 1621.3,
+      "text": "Auto translation."
+    },
+    {
+      "t": 1650.6,
+      "end": 1664.5,
+      "text": "Yeah, I was going to say I feel like I remember having a discussion around translations at a round table at directions, but uh I don't think we really touched the whole translation story since then unfortunately."
+    },
+    {
+      "t": 1664.5,
+      "end": 1683.6,
+      "text": "Yeah, I think the biggest feature that came out of that round table was the incremental builds feature 23 that was in that was that round table stand it was last who suggested it."
+    },
+    {
+      "t": 1686,
+      "end": 1701.8,
+      "text": "H maybe 24 was I was in what was it? You seem to remember having some translation"
+    },
+    {
+      "t": 1703.6,
+      "end": 1713,
+      "text": "discussion but no sadly not something we've uh had the time to to work on."
+    },
+    {
+      "t": 1772.2,
+      "end": 1785.9,
+      "text": "We still have another what 25 minutes left for for questions. Uh feel free to post them in the Q&A. You can also just you have a suggestion for a feature or a general comment or something by all means let us know."
+    },
+    {
+      "t": 1785.9,
+      "end": 1798,
+      "text": "It's a good forum for us to get feedback as well and like understand what areas of the go we're lacking and features you're missing and so"
+    },
+    {
+      "t": 1798,
+      "end": 1804.2,
+      "text": "on like translations clearly."
+    },
+    {
+      "t": 1811.1,
+      "end": 1821.6,
+      "text": "You can ask people so if they raise their hand and see how many people actually would uh missing features like"
+    },
+    {
+      "t": 1821.6,
+      "end": 1832.9,
+      "text": "that. So how many people would be like interested in translations built into pipelines and stuff like that? Is"
+    },
+    {
+      "t": 1832.9,
+      "end": 1838.6,
+      "text": "that two three four?"
+    },
+    {
+      "t": 1840.2,
+      "end": 1844.4,
+      "text": "That's a lot."
+    },
+    {
+      "t": 1844.4,
+      "end": 1855.5,
+      "text": "Okay. Seems like it this this is maybe a good opportunity to also promote a little bit the discussions we have on GitHub where we have ideas tab."
+    },
+    {
+      "t": 1855.5,
+      "end": 1866.6,
+      "text": "So maybe someone can create this idea and people can upload it. This is I think now I know we kind of like change the way we work a little bit."
+    },
+    {
+      "t": 1866.6,
+      "end": 1883.5,
+      "text": "Uh but the idea going forward is that we're going to use um this place to Yeah, thank you Alex for sharing it. Uh the idea is sections to kind of u evaluate new features in our backlog."
+    },
+    {
+      "t": 1884.4,
+      "end": 1894.7,
+      "text": "Yes. And when you go in also have a look if you see the idea already and you can vote or upvote it. That also helps us understand how impactful it is."
+    },
+    {
+      "t": 1894.7,
+      "end": 1906.5,
+      "text": "Yeah. If you go under discussions and click view under ideas, then it's a good place for us to get future suggestions."
+    },
+    {
+      "t": 1910.2,
+      "end": 1930.3,
+      "text": "I guess we got the answer to the translation. Seems like there are quite a few problem. Yeah. So, Ryan, the enterprise is organizational. the uh the user you can be a pro or or free and on the organization you can be either free team or enterprise I"
+    },
+    {
+      "t": 1930.3,
+      "end": 1949.3,
+      "text": "think it's the three um ones and then you can have on top of that a GitHub enterprise that owns several organizations where you can set up policies that that then like are applied to all the organizations in that enterprise"
+    },
+    {
+      "t": 1949.3,
+      "end": 1959.8,
+      "text": "price. Yeah. So, there's different like layers in that, but organizational that's where you have your subscription and that's where you have"
+    },
+    {
+      "t": 1959.8,
+      "end": 1969.9,
+      "text": "um the enterprise subscription and it's licensed by user by organization."
+    },
+    {
+      "t": 1969.9,
+      "end": 1977.3,
+      "text": "That's probably what your question actually is now."
+    },
+    {
+      "t": 1979.7,
+      "end": 1990.1,
+      "text": "In the Go workshop, there are still some documentations like development environments, the development process missing. Any idea when they will"
+    },
+    {
+      "t": 1990.1,
+      "end": 2002.8,
+      "text": "come? Uh, no. But it sounds like something we should we should add. We have empty pages that says coming soon or Yeah."
+    },
+    {
+      "t": 2002.8,
+      "end": 2007.7,
+      "text": "Okay. Sorry about"
+    },
+    {
+      "t": 2008.6,
+      "end": 2022,
+      "text": "that. I wasn't aware I wouldn't have had time to do that. But yeah, we'll probably go through that when we have"
+    },
+    {
+      "t": 2022,
+      "end": 2042.2,
+      "text": "a time figure out what we can do about those things. Yes. The enterprise where there are several orgs under one enterprise. So it's safe to assume or OR or PC and or PC can use the same license there having one top level policy."
+    },
+    {
+      "t": 2042.2,
+      "end": 2055.4,
+      "text": "I actually don't know on that one. So yeah, better better ask better better ask GitHub on that or"
+    },
+    {
+      "t": 2061.2,
+      "end": 2066.2,
+      "text": "um Yeah,"
+    },
+    {
+      "t": 2073.6,
+      "end": 2083.9,
+      "text": "Uh we're currently seeing artifact URL that have been changing. Is this by design use case? We're using specific artifact URL with the same go settings JSON."
+    },
+    {
+      "t": 2083.9,
+      "end": 2092.6,
+      "text": "So we changed them. But why are they changing? The artifact URL is changing."
+    },
+    {
+      "t": 2095.6,
+      "end": 2104.4,
+      "text": "Is it version disappearing glass or is it like part of the host name that's changing"
+    },
+    {
+      "t": 2104.6,
+      "end": 2125.2,
+      "text": "maybe while you uh type something there I can also so I've been working a little bit around these artifacts recently and there there a couple of changing there were changes that being rolled out right now uh so one of the things is in the past you were able to connect to the storage accounts directly Um those URLs would be something like bc artifacts.blo.s"
+    },
+    {
+      "t": 2125.2,
+      "end": 2143.1,
+      "text": "storage.net or something like that. Uh and those will not work in the future. Um in the future it'll be like bc artifacts slash and then some characters and then I actually forget what the URL is exactly but it just means that traffic will go through a front door instead."
+    },
+    {
+      "t": 2143.1,
+      "end": 2163.2,
+      "text": "Uh and this is part of a a security push within within Microsoft. So uh this is something that's happening now and the plan is at the end of June we'll we'll stop you know the ability to access the storage accounts directly and so by that time all traffic should be going through the"
+    },
+    {
+      "t": 2163.2,
+      "end": 2166.3,
+      "text": "front"
+    },
+    {
+      "t": 2166.3,
+      "end": 2175.3,
+      "text": "doors. Uh so they have slightly different URLs. I don't know if that's maybe what you've"
+    },
+    {
+      "t": 2176.8,
+      "end": 2193.7,
+      "text": "noticed. Yeah, we can get back to this one. Otherwise, just to confirm, once BC container helper is deprecated, will Microsoft replace or modify the underlying tooling used in ALGO for GitHub workflows or is algo already fully independent of BC container helper?"
+    },
+    {
+      "t": 2193.7,
+      "end": 2213.8,
+      "text": "It is definitely not. we have a still have a bunch of work left to make a go independent of container helper. So I think that is kind of the first thing we'll look at uh to see what functionality a go needs from bc container helper and extract that and then you know we'll also"
+    },
+    {
+      "t": 2213.8,
+      "end": 2223.5,
+      "text": "take a look at what else needs to be taken out of container helper before we're fully ready to deprecate it."
+    },
+    {
+      "t": 2227.6,
+      "end": 2233.5,
+      "text": "But there will be modifications coming to you though."
+    },
+    {
+      "t": 2248.6,
+      "end": 2269.4,
+      "text": "I think it's safe to say that the modifications in ALGO will probably I mean you probably won't notice them in a lot of cases things will just happen and suddenly your DevOps pipelines and everything will be running independent of BC container helper whereas if people have written their own they'll be like"
+    },
+    {
+      "t": 2269.4,
+      "end": 2279.7,
+      "text": "yeah they'll get the they'll run into problems at some point in time when container helper no longer works."
+    },
+    {
+      "t": 2289.9,
+      "end": 2302.7,
+      "text": "Yeah. So last that change actually there was several several versions of that because we the azure edge.net net is the old"
+    },
+    {
+      "t": 2302.7,
+      "end": 2315.4,
+      "text": "um old what's it called? Front door CDN CDN content delivery network that we were using and we had to change that to front door instead meaning that the other URLs were now in play."
+    },
+    {
+      "t": 2315.4,
+      "end": 2329.4,
+      "text": "Uh typically BC container hover would translate the top one to the lower one and just automatically work. So if you had of the other one it would still work. I would expect that still to be the case, but if not, I mean, yeah,"
+    },
+    {
+      "t": 2329.4,
+      "end": 2339,
+      "text": "the get BC artifact UL will always return the one that that you can use and should"
+    },
+    {
+      "t": 2358.9,
+      "end": 2364.4,
+      "text": "check for translations would be truly awesome."
+    },
+    {
+      "t": 2364.4,
+      "end": 2369.5,
+      "text": "Sounds like something we should work on."
+    },
+    {
+      "t": 2441.8,
+      "end": 2445.8,
+      "text": "But"
+    },
+    {
+      "t": 2448,
+      "end": 2453.6,
+      "text": "since nearing the end,"
+    },
+    {
+      "t": 2470.1,
+      "end": 2481,
+      "text": "has done an amazing effort with Algo Go. With him leaving, how is the allocation of resources from Microsoft managed? Will the team work part-time on ALGO or is a full-time project?"
+    },
+    {
+      "t": 2481,
+      "end": 2494.5,
+      "text": "We as a partner are looking into investing in moving from ADO to ALGO and we fear that the project will not get the same amount of love in the future. Any thoughts on this?"
+    },
+    {
+      "t": 2497.1,
+      "end": 2507.5,
+      "text": "I mean, so in the past two years, we've been three people working on Ago. Uh, Freddy, me, Alexander, and Maria."
+    },
+    {
+      "t": 2507.5,
+      "end": 2520.2,
+      "text": "Now, we just got another person working on Algo as well, Sebastian. And, uh, yeah, even though Freddy is leaving, we will be continuing to work on Ago."
+    },
+    {
+      "t": 2520.8,
+      "end": 2540.4,
+      "text": "Um, yeah, I don't know how much I'm I'm not really a I can't a manager or anything. I can't really speak to how we allocate time within Microsoft, but uh I uh pretty confident we'll we'll keep working on on it'll go uh a significant"
+    },
+    {
+      "t": 2540.4,
+      "end": 2557.4,
+      "text": "amount. And again, there's uh if you go to Yammer under Microsoft announcements, there is a statement from uh Dimmitri from Microsoft uh basically also stating that we're not defunding our efforts into the go."
+    },
+    {
+      "t": 2560.5,
+      "end": 2573.2,
+      "text": "If I may chip in a little bit, I know Freddy is leaving a lot of big shoes to fill, but we'll try our best to kind of match what he provided for the community."
+    },
+    {
+      "t": 2573.2,
+      "end": 2593.4,
+      "text": "It's uh at some point Freddy mentioned like don't worry for me leaving, worry for yourself. But and now I actually started feeling this because Freddy does have a lot of connections and uh maybe a lot of you like know know him personally and um have built like this connection over"
+    },
+    {
+      "t": 2593.4,
+      "end": 2612.9,
+      "text": "like years and obviously we cannot match this right here right now but we'll try. I think we'll see our faces more often on conferences and we'll try to stay active as much as possible on GitHub replying to your questions and trying to solve your issues"
+    },
+    {
+      "t": 2612.9,
+      "end": 2626.4,
+      "text": "etc. It is a bit of a shock but uh life's life. Let me also add one sentence to that one."
+    },
+    {
+      "t": 2626.4,
+      "end": 2638.6,
+      "text": "Um, so I'm not dead, right? Um, and I need to find find a way to like make a living as well. So, um, I'm not applying for a job at anybody any anywhere."
+    },
+    {
+      "t": 2638.6,
+      "end": 2651.4,
+      "text": "What I'm going to do is I'm going to start my own business and figure out how I can I can manage life, work, and whatever experiences I want to have over the next time."
+    },
+    {
+      "t": 2651.4,
+      "end": 2661.7,
+      "text": "And it might be that that I'll be visible in the community and doing suggestions and doing stuff there. It might be other things I have no idea yet."
+    },
+    {
+      "t": 2661.7,
+      "end": 2676,
+      "text": "First of all, I'm going to have some some time off and then figure out exactly how these things are going to play out afterwards. So maybe I mean maybe I'll I'll still do work on a go just as a as"
+    },
+    {
+      "t": 2676,
+      "end": 2689.3,
+      "text": "a somebody from outside of Microsoft and hoping that they'll like accept my PRs or whatever. I don't know. Let's see. Obviously I need to earn some money as well. I can't do everything for free like I've done before."
+    },
+    {
+      "t": 2689.3,
+      "end": 2695.9,
+      "text": "But uh let's figure out what what happens."
+    },
+    {
+      "t": 2707.8,
+      "end": 2714.1,
+      "text": "a lot of love for Freddy. Well"
+    },
+    {
+      "t": 2714.1,
+      "end": 2732.3,
+      "text": "deserved. Is there already a Microsoft manager who will take over the responsibility for ALGO? Um so Elgo will fall under and I mean has fallen under the engineering systems team which is the team I work on Maria work on Yonas on the call is my"
+    },
+    {
+      "t": 2732.3,
+      "end": 2742.6,
+      "text": "manager. So I guess the question the answer here would be Yonas who's on the call here he is the Microsoft manager who will take over the responsibility of algo."
+    },
+    {
+      "t": 2742.6,
+      "end": 2757.7,
+      "text": "Yeah, not even take over really. I mean, it's been under it's been under our team for a couple of years, but Fred has still been the one coming up with a lot of the stuff we've been"
+    },
+    {
+      "t": 2758,
+      "end": 2765.4,
+      "text": "doing. But now it lands on our team engineering systems fully."
+    },
+    {
+      "t": 2819.2,
+      "end": 2829.7,
+      "text": "Any more questions here at the end? Give it a few more minutes and then otherwise"
+    },
+    {
+      "t": 2829.7,
+      "end": 2843.1,
+      "text": "we'll see you next month I guess. Is there off stars next month as well? I guess. Yeah, I think July and December were the only months we decided to"
+    },
+    {
+      "t": 2845.1,
+      "end": 2857.3,
+      "text": "skip. So, it's either now or in a month or on GitHub. Of course, you can always reach us on in the discussion tab on ALGO. There's also a questions uh tab."
+    },
+    {
+      "t": 2857.3,
+      "end": 2868.9,
+      "text": "So, you know, if you run into questions along the way, you can also ask them there. So, it's not like we'll be off the face of the earth for the next month. we'll be here but not on this call."
+    },
+    {
+      "t": 2868.9,
+      "end": 2875.8,
+      "text": "So if you have any more questions, you have a couple more"
+    },
+    {
+      "t": 2877.5,
+      "end": 2886.3,
+      "text": "minutes or any more love for Freddy. That's also"
+    },
+    {
+      "t": 2887,
+      "end": 2900.2,
+      "text": "welcomed. I got a lot of love on LinkedIn when I posted the the news. I mean, I've never seen I didn't see that coming. Like, I think it's 5,500 likes."
+    },
+    {
+      "t": 2900.2,
+      "end": 2908.3,
+      "text": "So, 600 messages still coming in. So,"
+    },
+    {
+      "t": 2948,
+      "end": 2952.2,
+      "text": "The problem"
+    },
+    {
+      "t": 2962,
+      "end": 2972.8,
+      "text": "is okay. Could we Yes. Let's wrap up. Um yeah, thank you very much for joining. We'll be here next month"
+    },
+    {
+      "t": 2972.8,
+      "end": 2978,
+      "text": "and yeah, see you."
+    }
+  ],
+  "markers": [],
+  "word_count": 5548
+}

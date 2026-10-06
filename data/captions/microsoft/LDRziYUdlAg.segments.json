@@ -1,0 +1,723 @@
+{
+  "video_id": "LDRziYUdlAg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.3,
+      "end": 11.4,
+      "text": "But again, welcome everybody for Abra for GitHub office hours call. Uh let's head over to the agenda. There's actually not not much to cover today."
+    },
+    {
+      "t": 11.4,
+      "end": 26.9,
+      "text": "Um so we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request that was previously in preview and also the new page scripting visualizer"
+    },
+    {
+      "t": 26.9,
+      "end": 39.4,
+      "text": "uh in preview. Right now we I think have a bunch of u fixes. So we kind of in the last month we focused on um making like the the version uh stronger and better."
+    },
+    {
+      "t": 39.4,
+      "end": 54.2,
+      "text": "I think soon we will release version 7.1 so you can get these um the fixes uh released officially. We again prepared a demo repo where you can like pretty much like see what's what the new thing is."
+    },
+    {
+      "t": 54.2,
+      "end": 64.6,
+      "text": "But in this case it's actually only the page scripting visualizer. And here I just included a screenshot for from this repo. This is a screenshot from a CI/CD run."
+    },
+    {
+      "t": 64.6,
+      "end": 79,
+      "text": "And base scripting on its own it's not new. It's only the visualizing part that it's new. Uh here you can see like the failing, passing tests, skip test and as well as like the overall time that the test took to run."
+    },
+    {
+      "t": 79,
+      "end": 91,
+      "text": "Uh this is just for convenience. Uh if you're used to looking into like these uh summaries um we are also taking this forum as uh an opportunity to make an announcement."
+    },
+    {
+      "t": 91,
+      "end": 102.1,
+      "text": "Indeed, all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken."
+    },
+    {
+      "t": 102.1,
+      "end": 116.6,
+      "text": "Um this is due to some security related work that uh we we needed to do. Uh this is a link to the ping issue on on container helper repository where you can read a little bit more."
+    },
+    {
+      "t": 116.6,
+      "end": 138.8,
+      "text": "And uh it's worth noting that repositories that run any version of a go for GitHub will not be affected. Uh with that I think we are ready to start the Q&A or open discussion depending if you have questions or feedback bring them up now."
+    },
+    {
+      "t": 138.8,
+      "end": 151.2,
+      "text": "Sebastian Shu asks or says not about the topics today but can you please share infos about the progress of front package integration feature in AO go?"
+    },
+    {
+      "t": 151.2,
+      "end": 165.8,
+      "text": "Uh Freddy this one take that one. Um so it is one of the two big topics that that we're going to work on I'm going to work on at least in this release over the next months."
+    },
+    {
+      "t": 165.8,
+      "end": 186.2,
+      "text": "um where right now it's the customization pieces and this one is after that. So runtime package generation or integration I'm I'm thinking generation because integration is already kind of of up to date but the entire Nougat story should be finalized"
+    },
+    {
+      "t": 186.2,
+      "end": 203,
+      "text": "before October 1st is the goal and have something that works well in algo. The the issue that we've been waiting for was the modern dev team to create a compiler that could generate runtime packages without us having to spin up a container."
+    },
+    {
+      "t": 203,
+      "end": 217,
+      "text": "I have not received confirmation for that. So, we'll go ahead and create something that works without it and then uh we'll optimize it if we ever get the optimized version of that to save some runner time."
+    },
+    {
+      "t": 217,
+      "end": 229.6,
+      "text": "Really hope that's answers the question. But yeah, if you want a date, uh, October 1st is the best date, but it's probably going to be before that."
+    },
+    {
+      "t": 235.8,
+      "end": 248.1,
+      "text": "We have a question from Florian. Florian Rock asks, \"Is there a way to pass parameters to BC container helper when using local dev PS1?"
+    },
+    {
+      "t": 248.1,
+      "end": 259.7,
+      "text": "I tried setting default new container parameters in the local event settings JSON. Let me actually see it's more but it doesn't seem to work this case."
+    },
+    {
+      "t": 259.7,
+      "end": 270.9,
+      "text": "Yeah, specifically I need to use use SSL from local dev. Um as far as I know"
+    },
+    {
+      "t": 270.9,
+      "end": 285.5,
+      "text": "um probably not. I mean this is something we need to look at I think because so I don't think it's possible to do that to to do that today."
+    },
+    {
+      "t": 285.5,
+      "end": 295.6,
+      "text": "No no yeah is use SSL as an um a parameter in newb container. Yes."
+    },
+    {
+      "t": 295.6,
+      "end": 307,
+      "text": "So you can have a you can add a script override maybe for newb container. Uh the local dev would that work in local de that would work I"
+    },
+    {
+      "t": 307,
+      "end": 319,
+      "text": "think that yeah that would work um okay so it's a bit cumbersome but but yes like that will"
+    },
+    {
+      "t": 319,
+      "end": 339.1,
+      "text": "work you can explain it. Yes. So essentially when you call uh local dev uh when when so we'll by behind the scenes we're going to call runo pipeline nf container helper and runo pipeline when it creates the new container it'll look for a script with a specific name and then if you add that script you"
+    },
+    {
+      "t": 339.1,
+      "end": 354.5,
+      "text": "can override the functionality of the new BC container so that you can add parameter and I can I'll try to link some documentation and we actually do this in the BC apps repo as well so I can I can link an example of how we do that there so you can see."
+    },
+    {
+      "t": 354.5,
+      "end": 360.4,
+      "text": "But that's I guess it's the only way right now."
+    },
+    {
+      "t": 375.7,
+      "end": 385.8,
+      "text": "Oh, so Florian uh continues with it is possible to pass enable taskuler in the setting though, which is strange."
+    },
+    {
+      "t": 385.8,
+      "end": 406.3,
+      "text": "Um do you So is there maybe a setting we don't transfer? might be that we if we if we actually pass the settings to local dev maybe use SSO is not one of the settings we we transfer"
+    },
+    {
+      "t": 406.3,
+      "end": 426.4,
+      "text": "I don't know actually to be honest we need to investigate Florian it's not something at least on top of my mind enable task is a setting specifically enable though but use SSL or like yeah but there are like settings that are transferred to there like"
+    },
+    {
+      "t": 426.4,
+      "end": 442.7,
+      "text": "ago settings that are transferred to I think he if he sets that set that is default new container parameter like there's a setting in BC container elbow that's called default new container parameters"
+    },
+    {
+      "t": 442.7,
+      "end": 456.3,
+      "text": "um and there if he sets the the enable task scheduleuler then it works uh but if if he sets the the use it doesn't um but yeah the override will definitely work."
+    },
+    {
+      "t": 456.3,
+      "end": 467.1,
+      "text": "If you want a better solution than that, Floren, you can create a discussion on on ALGO and we can try to find a solution there that we can maybe is a little smarter that you can use."
+    },
+    {
+      "t": 467.1,
+      "end": 474.8,
+      "text": "But um probably yeah, find a"
+    },
+    {
+      "t": 474.8,
+      "end": 490.2,
+      "text": "way. We have a couple of more questions coming in. Sebastian asks any known issues about PC27 and code signing. There's something changed regarded to the generated app files"
+    },
+    {
+      "t": 490.2,
+      "end": 498.1,
+      "text": "BC27. So that's that's the insider version. I don't"
+    },
+    {
+      "t": 498.1,
+      "end": 509.3,
+      "text": "not aware. Not aware. Yeah. Is there like particular scenario that is broken? or"
+    },
+    {
+      "t": 509.3,
+      "end": 516.6,
+      "text": "it' be good to hear if you're facing issues with it because then you might not be the only one."
+    },
+    {
+      "t": 516.6,
+      "end": 528.8,
+      "text": "Let's uh see maybe we're going to hear a further comment on this one. Then Eric Van, I'm sorry I cannot read your name."
+    },
+    {
+      "t": 528.8,
+      "end": 550.3,
+      "text": "We are using AO go with great success for outsource apps but it's lacking any options for building runtime files for old BC majors on prem any plans for adding support for that for example using preprocessor directives that would be a massive help for ISVS we are forced uh we are forced to use custom scripts now"
+    },
+    {
+      "t": 550.3,
+      "end": 561.5,
+      "text": "um yeah short answer to that is no but maybe we can consider But I don't know, Freddy, you being the"
+    },
+    {
+      "t": 561.5,
+      "end": 571.7,
+      "text": "Yeah, today we don't have the runtime generation yet, but I don't I don't see any reason when we add that uh that that we shouldn't support this."
+    },
+    {
+      "t": 571.7,
+      "end": 592.1,
+      "text": "And and with the with the latest edition in the last version where you can now do build modes and you can do pre-processor symbols in build modes, you could actually build your app for app source and on prem in two different build modes and then generate uh runtime packages for for for for both as well."
+    },
+    {
+      "t": 592.1,
+      "end": 611.4,
+      "text": "Um, so it's it's like together with the the Nougat thing, uh, generating Nougat packages with runtime packages is probably the direction we're going to go in algo and then you'll just have to figure out how to grab these nougats and and install them on on premises."
+    },
+    {
+      "t": 611.4,
+      "end": 627.1,
+      "text": "It's just a zip file. You can unpack it. So, um, but that's that's the storage mechanism we're going to use in in algo. And I I don't see a reason why why that didn't just work."
+    },
+    {
+      "t": 629.3,
+      "end": 641.7,
+      "text": "Okay, I hope the question was somewhat answered. Now going back to Sebastian Shu's question about um not working properly on VC27."
+    },
+    {
+      "t": 641.7,
+      "end": 661.7,
+      "text": "He says the app file seems not to be in valid format. Next major validation stopped working since Sunday. I investigate and bring more info to this. Um if you believe that this is something that we broke like B business central team broke please create an issue on a go I would imagine go repository we need"
+    },
+    {
+      "t": 661.7,
+      "end": 672.6,
+      "text": "to investigate this if it's general issue please remember to also include how you do the signing. Are you using uh managed signing?"
+    },
+    {
+      "t": 672.6,
+      "end": 686.9,
+      "text": "Are you using a pfx file? by using um yeah which how legacy signing managed signing or Azure trusted signing."
+    },
+    {
+      "t": 686.9,
+      "end": 703.2,
+      "text": "Yeah, thank you for that clarification Freddy. Now to Florianki question. Would it be possible to make announcements like the one for V6.1 more prominent instead of only posting them in a GitHub issue?"
+    },
+    {
+      "t": 703.2,
+      "end": 713.6,
+      "text": "Maybe in the future a notice could be shown directly when running a command in PowerShell might not be easy but still wanted to suggest it. Uh this is I believe related to"
+    },
+    {
+      "t": 713.6,
+      "end": 724.1,
+      "text": "the kind of like the announcement about BC container helper. Uh we can um we can definitely think about"
+    },
+    {
+      "t": 724.1,
+      "end": 734.6,
+      "text": "it if if that's going to help. Oh, the the problem is if you have an old version, how do we know in the old version that it's not going to work at a specific date?"
+    },
+    {
+      "t": 734.6,
+      "end": 748.5,
+      "text": "It's a probably hard. Um I think we've always said when you're using container ala, you always need to be in the latest version. If something doesn't work, try to upgrade and then if it doesn't work, file an issue."
+    },
+    {
+      "t": 748.5,
+      "end": 759.3,
+      "text": "And and that's still how it's going to be be. Um I think we also posted something in various locations uh on the same topic."
+    },
+    {
+      "t": 759.3,
+      "end": 770.6,
+      "text": "So yeah, not sure we can do much more. We we'll make sure that people using algo never sees these things. It's it's really not relevant for anybody on this call."
+    },
+    {
+      "t": 770.6,
+      "end": 781.8,
+      "text": "But if people are using con for something uh themselves, then yeah, that might be necessary to upgrade."
+    },
+    {
+      "t": 797.6,
+      "end": 817.8,
+      "text": "Uh, okay. Now, off to the chat again. Uh I mean please don't use the chat for questions but uh let's let's take this one as well by uh Steve Christristianos sorry if I mispronounce your name not an go question but relevant with busy container helper slated for retirement"
+    },
+    {
+      "t": 817.8,
+      "end": 830.4,
+      "text": "in the next two three years we with will with its powershell gallery successor have any gaps in terms of functionality for spinning up type onre and type sandbox vic containers on a VM."
+    },
+    {
+      "t": 830.4,
+      "end": 845.1,
+      "text": "We use this quite a bit to spin up containers. One BC BC container per developer version country with the use use traffic option for developers to"
+    },
+    {
+      "t": 845.1,
+      "end": 851,
+      "text": "uh unit testing their branches. Um"
+    },
+    {
+      "t": 851,
+      "end": 862.3,
+      "text": "yeah, so um there's definitely going to be some gaps in the functionality. We're not going to just take new BC container and move it as is."
+    },
+    {
+      "t": 862.3,
+      "end": 882.4,
+      "text": "Uh we are going to support both onrem and sandbox containers. I I don't see how we can get around that. Uh the use traffic is something we'll need to like have a look at if if we can create it in a way so that these things could be added on instead of built in because use traffic has given"
+    },
+    {
+      "t": 882.4,
+      "end": 896.6,
+      "text": "us a lot of support issues over the times. So, so if if we can make the new command in a way so that these things could be added in a in a separate like partner"
+    },
+    {
+      "t": 896.6,
+      "end": 911.3,
+      "text": "uh partner driven open source module or something like that. That would be my preferred option on that. Um every every time there's problems with traffic, I spend hours and hours on that."
+    },
+    {
+      "t": 911.3,
+      "end": 924.6,
+      "text": "uh and and it's just horrible to to get back to those things because we don't need it. We don't use it at all. So So these things would be better off uh like on the side than inside."
+    },
+    {
+      "t": 924.6,
+      "end": 931,
+      "text": "I hope that's understandable."
+    },
+    {
+      "t": 932.7,
+      "end": 944.6,
+      "text": "But the idea on the container helper deprecation is really that we'll take all the things that we need for DevOps and put those into modules inside of ALGO."
+    },
+    {
+      "t": 944.6,
+      "end": 964.8,
+      "text": "So the shipping vehicle for those modules would be algo. We're not going to publish those modules on on the PowerShell gallery. We're going to create a PowerShell module in the gallery that kind of takes care of the onrem or the things that you want to run locally uh which is not the building"
+    },
+    {
+      "t": 964.8,
+      "end": 975.2,
+      "text": "and not the publishing to to online environments and all of these things those are DevOps tasks but all the tasks that you typically run locally uh those would be available there."
+    },
+    {
+      "t": 975.2,
+      "end": 992,
+      "text": "So maybe five commands or 10 commands I don't know we haven't like gotten to that point yet. Um but but those things will be available and and uh I'll probably reach out and get some partners input on what they use and how they use it locally."
+    },
+    {
+      "t": 992,
+      "end": 1006.8,
+      "text": "Uh and then see what we can get around when we when we get closer to those things. Yeah. So in short there will be like the new version of BC container helper will be way slimmer and"
+    },
+    {
+      "t": 1006.8,
+      "end": 1015.5,
+      "text": "uh we'll focus on functionality for local development for it. The rest will be part of a goal."
+    },
+    {
+      "t": 1015.5,
+      "end": 1027.9,
+      "text": "Okay. Any more questions? There hasn't been anything new last five, six"
+    },
+    {
+      "t": 1030.7,
+      "end": 1034.7,
+      "text": "minutes."
+    },
+    {
+      "t": 1034.7,
+      "end": 1042.8,
+      "text": "Um, you have anybody from Spain or Portugal on the call? Do you have power down there?"
+    },
+    {
+      "t": 1047.9,
+      "end": 1062.2,
+      "text": "Okay. So, Florian uh Roka says, \"Regarding the deprecation of BC container helper, the bottom line would be that it would be again truly um basic container helper."
+    },
+    {
+      "t": 1062.2,
+      "end": 1082.5,
+      "text": "So, no worries at all. Yes, in a way, yes, there will be like functionality supporting uh work with containers. It's just that the current module grew up so much that it's kind of it um it just gathers a lot of uh functionality that it's not necessarily"
+    },
+    {
+      "t": 1082.5,
+      "end": 1099.6,
+      "text": "even related to containers. For instance, like there is a lot of functionality that is a go specific nowadays. So we're trying to decouple those by um uh by depregating the old module but there will be like a new"
+    },
+    {
+      "t": 1101.3,
+      "end": 1115.8,
+      "text": "solution. So it's not like we are like hanging out to dry. We're just like the announcement of the retiring of basic container helper doesn't mean that there's not going to be uh some um some other solution."
+    },
+    {
+      "t": 1115.8,
+      "end": 1133.3,
+      "text": "It's just that we haven't do it yet. The announcement is really mostly for people who are using their own self-made DevOps solution because they'll have a lot of work to do when these things split up and these things are coming in different modules with different parameter sets and all of these things."
+    },
+    {
+      "t": 1133.3,
+      "end": 1147.3,
+      "text": "So, so our recommendation is instead of waiting two years now and then having a lot of coding in front of them, spend some time now to ship to a managed DevOps solution and then you don't have to ever worry about those things again."
+    },
+    {
+      "t": 1147.3,
+      "end": 1159.6,
+      "text": "That's the reason why this message comes two years in advance. Um, and not not because people need to start recoding now. Uh, if people want to code themselves,"
+    },
+    {
+      "t": 1159.6,
+      "end": 1169.7,
+      "text": "uh, they need to wait until there's something uh that they can use. But we we recommend not to do things themselves."
+    },
+    {
+      "t": 1169.7,
+      "end": 1180.3,
+      "text": "So, Jose Martinez is from Spain. So, you have power on there. That's great. Good to hear."
+    },
+    {
+      "t": 1203.9,
+      "end": 1215.4,
+      "text": "There's still quite a lot of people online. So, please join the discussion, ask your questions or share feedback should you have any. It's this is kind of the forum to do it."
+    },
+    {
+      "t": 1215.4,
+      "end": 1231.5,
+      "text": "This is where you get to talk with us or at least you write to us and we talk to you. Maybe we can uh maybe we can share a few things on how we've split things up with issues and discussions and and the project plan."
+    },
+    {
+      "t": 1231.5,
+      "end": 1247.4,
+      "text": "Uh do you want to do that Maria to share the well? Sorry, I'm a bit brain dead today, but I can uh I just talk about like what issues are for and what discussions are for and so yeah,"
+    },
+    {
+      "t": 1247.4,
+      "end": 1262.2,
+      "text": "we can let's let's do that. Yes, share the algo homepage and then just have a quick let's actually see to have it pinned here."
+    },
+    {
+      "t": 1262.2,
+      "end": 1282.3,
+      "text": "Uh so actually I think was it last month we announced that we're going to start using discussions. The um GitHub feature has GitHub has this feature called discussions where you get to kind of um ask questions or like uh suggest ideas and you get to vote and we get to"
+    },
+    {
+      "t": 1282.3,
+      "end": 1302.5,
+      "text": "engage in different conversations. Uh there has been like some quite good activity. It's like very healthy. We want to like as many um people to to join whether you are an experienced a go for GitHub user or like an early adopter it's all fine we welcome everybody"
+    },
+    {
+      "t": 1302.5,
+      "end": 1323.1,
+      "text": "uh and then um I think the the idea was that uh previously we used issues where you could kind of like create different issues based on whether you want to whether you want a qu whether you have a question or whether you wanted to suggest um an an idea but uh with issue there's like some limitations"
+    },
+    {
+      "t": 1323.1,
+      "end": 1343.3,
+      "text": "and then on top of that actual issues were a bit bur uh down so I think going forward with using discussions it's a better approach uh and then on top of that we want to grow like a healthy community around a go where uh it's not only us who could answer questions so in case we're not available"
+    },
+    {
+      "t": 1343.3,
+      "end": 1353.8,
+      "text": "then maybe there there's someone else who can who can um like help you out. Um I don't know what else it's um the idea also is that"
+    },
+    {
+      "t": 1353.8,
+      "end": 1366.2,
+      "text": "uh I'm not sure if we are like if what I'm going to say is what we're going to do because Freddy please keep me honest but we have the ideas tab here that you can see and"
+    },
+    {
+      "t": 1366.2,
+      "end": 1376.8,
+      "text": "um in certain periods we're going to get the top most voted ideas. We don't have like a set count but something that we're going to actually focus on implementing."
+    },
+    {
+      "t": 1376.8,
+      "end": 1395.2,
+      "text": "So this is your way of driving the development of a go for GitHub. So exactly. So the ideas in here, you guys can can help like vote up ideas that you think are great and we'll have a look at that and we if we can see ideas that are are like having a lot of votes,"
+    },
+    {
+      "t": 1395.2,
+      "end": 1405.7,
+      "text": "they they'll they're going to be more likely to be implemented. It's not like we we can promise anything, but stuff like the NG get thing is definitely something we're working on."
+    },
+    {
+      "t": 1405.7,
+      "end": 1419.1,
+      "text": "code coverage is also something that that we we I hope we'll be be able to do but but the other things please vote up on things. We'll move the things from this one to the backlog in the project plan and then we'll implement it from there."
+    },
+    {
+      "t": 1419.1,
+      "end": 1429.9,
+      "text": "Right now there's an ideas list in the project plan as well and we're going to move those back to discussions like we moved a lot of bugs and enhancements from from issues to discussions."
+    },
+    {
+      "t": 1429.9,
+      "end": 1447.9,
+      "text": "And if if we find things in ideas to be categorized as a bug or a question to be categorized as a bug, we're going to we're going to move it to issues and then fix it as a bug or move it to the project ban and fix it as a as a as a work item or as a as a yeah enhancement."
+    },
+    {
+      "t": 1447.9,
+      "end": 1462.3,
+      "text": "uh really so discussions is kind of where discussions start and enhancements get gets like baked and then move them to to either box or or project is kind of the idea."
+    },
+    {
+      "t": 1462.3,
+      "end": 1475.3,
+      "text": "Let's hope that we can manage that. Yeah. And uh when you actually create new new idea for instance, make sure like it hasn't been covered already. Uh just scan use the search or something."
+    },
+    {
+      "t": 1475.3,
+      "end": 1486.6,
+      "text": "It's uh not good to have duplicates and yeah let's see if we have questions that like the chat has"
+    },
+    {
+      "t": 1486.6,
+      "end": 1502.8,
+      "text": "been no questions nothing in the chat but still people are online so we have very a handful of active users today but yeah okay okay Steve"
+    },
+    {
+      "t": 1502.8,
+      "end": 1520.2,
+      "text": "uh asks I have another rookie question branch strategies and their best practices. Currently, we avoid merging untested code into the main branch of our aogo repos and instead create alternate main star branches."
+    },
+    {
+      "t": 1520.2,
+      "end": 1530.9,
+      "text": "For example, to target the next BC major and or monthly features and fixes to our product. We call those branches epics in the jur world."
+    },
+    {
+      "t": 1530.9,
+      "end": 1544.4,
+      "text": "Once everything's been tested, I PR merge that community branch into main. Is that a sound approach or am I off or am I off my rocker?"
+    },
+    {
+      "t": 1544.4,
+      "end": 1560.4,
+      "text": "Okay. Uh I think that's pretty pretty good approach. I mean depends it really depends on like uh like the developers like how many developers work on particular feature and uh like your also your release strategy could affect the way you branch."
+    },
+    {
+      "t": 1560.4,
+      "end": 1575.1,
+      "text": "So uh there is no right or wrong solution when it comes to uh branching. I think uh uh Freddy uh suggested has some branching strategy suggested in"
+    },
+    {
+      "t": 1575.1,
+      "end": 1587.3,
+      "text": "uh presentations related to a go I would imagine I think it's go somewhere in I'll I'll find the docs but yeah"
+    },
+    {
+      "t": 1587.3,
+      "end": 1597.6,
+      "text": "but again uh like if it works for you that's fine I mean it's branching strategies like change all the time."
+    },
+    {
+      "t": 1597.6,
+      "end": 1613.6,
+      "text": "But if it works for you, if you feel that that way you manage to ship a stable code and you manage to kind of quickly revert if something uh goes off, that's that I think that these are good signs that it's working for"
+    },
+    {
+      "t": 1613.6,
+      "end": 1629,
+      "text": "you. Uh and again like there are no I mean it's not like necessarily related to a goal but it's uh any question is welcome. anything we you think we can help"
+    },
+    {
+      "t": 1629.4,
+      "end": 1639.9,
+      "text": "with. We are halfway through uh today's office hours call. We got uh already several"
+    },
+    {
+      "t": 1639.9,
+      "end": 1656.5,
+      "text": "questions. Uh but we still have people online. So if you want to share something, it's also fine to listen. You know that's maybe you just uh like us talking"
+    },
+    {
+      "t": 1656.6,
+      "end": 1670.9,
+      "text": "uh anything else pretty or any of uh the rest Alex or Spassin if you want to share something about uh discussions or let me be the project board"
+    },
+    {
+      "t": 1672.2,
+      "end": 1677.2,
+      "text": "here. Yeah."
+    },
+    {
+      "t": 1680.7,
+      "end": 1696.4,
+      "text": "Yes. So on the branching strategy, one of the things I like to do and I actually learned that from Maria is to open a pull request early because that way I can easily I can easily take the changes to main and merge back into my my development branch."
+    },
+    {
+      "t": 1696.4,
+      "end": 1716.5,
+      "text": "Um, and if I don't do that, it tends to become like a huge merge process when you want to merge your branch back into main. So having a a pull request open and updating it like regularly allows you to have multiple branches that can be like developing side by side and"
+    },
+    {
+      "t": 1716.5,
+      "end": 1721.8,
+      "text": "and integrate those later."
+    },
+    {
+      "t": 1733.8,
+      "end": 1738.3,
+      "text": "Oh, there it is."
+    },
+    {
+      "t": 1773.9,
+      "end": 1780.9,
+      "text": "Okay, no more questions. Yeah, I think um"
+    },
+    {
+      "t": 1780.9,
+      "end": 1795,
+      "text": "round up to 5:35. If no one uh asks the questions until then, I think we can uh give ourselves some some time back."
+    },
+    {
+      "t": 1817.1,
+      "end": 1833.4,
+      "text": "Okay. Okay. Someone spray enough. Sebastian show. says asks it is a bit off topic but do you know a way to prevent behinds in a pull request in Azure DevOps I think in GitHub there is a setting for this"
+    },
+    {
+      "t": 1833.4,
+      "end": 1848,
+      "text": "uh in Azure DevOps I haven't seen anything um that that is the same I think on GitHub there is this maybe I can try and see if we have some of the old pull"
+    },
+    {
+      "t": 1848,
+      "end": 1851.1,
+      "text": "requests"
+    },
+    {
+      "t": 1851.1,
+      "end": 1861.8,
+      "text": "Um, no, even this one is up to date. Oh, wow. Okay, this one. Yeah, that one is probably not. Yes."
+    },
+    {
+      "t": 1861.8,
+      "end": 1881.9,
+      "text": "So, on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind of like require branches to be up to date and this like this action would appear on the pull request and this update branch will pretty much like pull the target branch into the the PR branch like all commits"
+    },
+    {
+      "t": 1881.9,
+      "end": 1893.3,
+      "text": "uh will be will be done um in conflicts they'll be you you solve them right here. Yeah, that that as well."
+    },
+    {
+      "t": 1893.3,
+      "end": 1906.2,
+      "text": "Azure DevOps. Alex, do you know anything that uh but maybe I'm wrong. Pardon? Maybe I'm wrong. I don't recall seeing such a feature. Yeah, just another reason to move to GitHub, right?"
+    },
+    {
+      "t": 1906.2,
+      "end": 1919.2,
+      "text": "Yeah, good point. Good point. Um so sorry we Yeah, I mean we don't I haven't seen it and you know we do also support some repositories in Azure DevOps."
+    },
+    {
+      "t": 1919.2,
+      "end": 1926.4,
+      "text": "So, it's uh it hasn't been a thing that's been brought"
+    },
+    {
+      "t": 1926.4,
+      "end": 1937,
+      "text": "up. That was indeed a bit off topic. Still happy to help if we if we could"
+    },
+    {
+      "t": 1951.1,
+      "end": 1961.1,
+      "text": "actually see we have a comment in this one. Yeah. Yeah. We couldn't really help you, but you're"
+    },
+    {
+      "t": 1970.6,
+      "end": 1981.4,
+      "text": "welcome. I think the numbers of attendees is slowly dropping. I guess um people either heard what they came to hear um or they don't have questions."
+    },
+    {
+      "t": 1981.4,
+      "end": 1991.8,
+      "text": "Again, maybe just a couple more minutes if someone again wants to ask something. As you see, we're happy to help with anything related to"
+    },
+    {
+      "t": 1991.8,
+      "end": 2005.3,
+      "text": "development in this case. But please try to focus on a go or VC container helper. It's uh this is the forum and"
+    },
+    {
+      "t": 2005.3,
+      "end": 2016.2,
+      "text": "The rest you can use copilot for some assistance as well. I think they could copilot can do a better job in answering some of these questions to be honest."
+    },
+    {
+      "t": 2016.2,
+      "end": 2036.7,
+      "text": "We should have copilot listening into these office hours. And answering questions. Yeah. Okay. I think we should say uh thanks for joining us and uh if there are any more questions or topics that you want to discuss then then the discussions on Microsoft go uh would be a good place to"
+    },
+    {
+      "t": 2036.7,
+      "end": 2050.7,
+      "text": "start them and we'll answer there. Thanks for driving this Maria. Yeah, thank you for answering most of the questions and thank everybody who joined and shared their questions and feedback and thoughts."
+    },
+    {
+      "t": 2050.7,
+      "end": 2064.3,
+      "text": "Uh we're looking forward to next month where the office hour will be a morning one. I think that's what we agreed on. Yep. I don't know the exact dates but there will be an announcement."
+    },
+    {
+      "t": 2064.3,
+      "end": 2075.4,
+      "text": "Last Tuesday of the month. Last Tuesday May whenever. Okay. Thank you everybody and see you."
+    },
+    {
+      "t": 2075.4,
+      "end": 2079,
+      "text": "Bye bye."
+    }
+  ],
+  "markers": [],
+  "word_count": 4505
+}

@@ -1,0 +1,333 @@
+{
+  "video_id": "e_x5QF0vXgs",
+  "item_id": "video/yt-microsoft/e_x5QF0vXgs",
+  "title": "Expense Agent: Mobile Experience (2026 release wave 1)",
+  "duration_s": 350,
+  "systems": [
+    "copilot",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense management",
+    "mobile app",
+    "receipt scanning",
+    "ai extraction",
+    "offline mode",
+    "expense agent",
+    "mobile experience",
+    "employee workflow"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Expense Agent mobile app",
+      "t_start": 0,
+      "t_end": 11.3
+    },
+    {
+      "title": "Key capabilities: receipt capture, no license requirement, offline mode",
+      "t_start": 11.3,
+      "t_end": 40.2
+    },
+    {
+      "title": "Demo overview and platform support",
+      "t_start": 40.2,
+      "t_end": 52.3
+    },
+    {
+      "title": "Mobile feed view and expense details",
+      "t_start": 52.3,
+      "t_end": 97.5
+    },
+    {
+      "title": "Agent extraction and itemization, expense modification",
+      "t_start": 97.5,
+      "t_end": 139.4
+    },
+    {
+      "title": "Receipt scanning with native OS capabilities",
+      "t_start": 139.4,
+      "t_end": 179.5
+    },
+    {
+      "title": "Upload, processing, and sharing receipts",
+      "t_start": 179.5,
+      "t_end": 224.8
+    },
+    {
+      "title": "Offline mode and synchronization",
+      "t_start": 224.8,
+      "t_end": 295.1
+    },
+    {
+      "title": "Submitting expenses to reports",
+      "t_start": 295.1,
+      "t_end": 325
+    },
+    {
+      "title": "Release timeline and conclusion",
+      "t_start": 325,
+      "t_end": 350
+    }
+  ],
+  "features": [
+    {
+      "name": "Expense Agent mobile app",
+      "description": "A mobile application for iOS and Android that allows employees to capture receipts on their smartphones without requiring a Business Central license. The app uses AI to extract expense details automatically.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 0.3,
+      "t_end": 336.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mobile",
+        "expense",
+        "ai",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Receipt capture with native OS detection",
+      "description": "Mobile app uses native OS capabilities to detect receipt edges, apply brightness adjustments, and optimize image quality for AI processing even when receipts are bent or poorly lit.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 153.5,
+      "t_end": 179.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt scanning",
+        "mobile",
+        "native capabilities"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Social feed view for expenses",
+      "description": "Unlike the web app which groups expenses into reports, the mobile app displays expenses in a social media-style feed where each expense is listed individually with the ability to scroll and view details.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 65,
+      "t_end": 97.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mobile ui",
+        "feed view",
+        "expenses"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI extraction of expense details",
+      "description": "The agent automatically extracts total amount, date, description, payment means, category, and itemized line items from receipt images.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 97.5,
+      "t_end": 125.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai extraction",
+        "expense data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Inline expense modification",
+      "description": "Users can modify all extracted expense details directly in the mobile app before submitting to Business Central.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 139.4,
+      "t_end": 145.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "expense editing",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Itemization tab for line items",
+      "description": "A dedicated tab in the mobile app showing all line items from the original receipt with details such as date, subcategory, quantity, and rate.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 110.1,
+      "t_end": 125.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mobile ui",
+        "line items"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Receipt sharing from OS photo library",
+      "description": "Users can share expense receipts directly from their device's native photo library to the Expense Agent app using OS-level sharing capabilities.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 201.6,
+      "t_end": 224.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sharing",
+        "mobile integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Offline expense capture",
+      "description": "Employees can scan and capture receipts while offline, with the app queuing them for processing once internet connectivity is restored and the app reconnects to Business Central.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 236.3,
+      "t_end": 283.2,
+      "is_demoed": true,
+      "caveats": [
+        "Processing does not occur until the app is back online"
+      ],
+      "tags": [
+        "offline mode",
+        "synchronization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "No Business Central license required",
+      "description": "Mobile app users do not need a Business Central license to capture and submit expenses; the app integrates directly with Business Central for processing.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 25.4,
+      "t_end": 40.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "iOS and Android support",
+      "description": "The Expense Agent mobile app is available for both iOS and Android platforms.",
+      "status": "preview",
+      "status_evidence_t": 336.6,
+      "status_evidence_quote": "you can expect this new preview mode very soon as Claudio explained",
+      "status_evidence_verified": true,
+      "t_start": 52.3,
+      "t_end": 325,
+      "is_demoed": true,
+      "caveats": [
+        "The demo focused on Android; iOS support exists but not separately demonstrated"
+      ],
+      "tags": [
+        "mobile platform",
+        "ios",
+        "android"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Claudio",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 11.3,
+      "text": "We wanted to follow employees really where they actually work. So, wherever you are, what you have in a general, you have your phone",
+      "why_it_matters": "Explains the design philosophy behind the mobile app: bringing expense capture to where employees naturally work, on their phones.",
+      "check": "exact"
+    },
+    {
+      "t": 25.4,
+      "text": "You don't need Business Central license the same as the for web app. Everything will be integrated automatically in the Business Central",
+      "why_it_matters": "Key capability: mobile users do not require BC licenses, and the app integrates seamlessly with BC for backend processing.",
+      "check": "exact"
+    },
+    {
+      "t": 40.2,
+      "text": "if you're out of internet, now you can use offline method as well, so you can use without any problem. And once when you",
+      "why_it_matters": "Core offline capability allowing expense capture without connectivity, with automatic sync when reconnected.",
+      "check": "exact"
+    },
+    {
+      "t": 65,
+      "text": "This is the feed where you're able to see your different expenses. This is different from the web application, where you know, your group",
+      "why_it_matters": "Describes the distinct UX difference between the mobile app's feed view and the web app's report-based organization.",
+      "check": "exact"
+    },
+    {
+      "t": 110.1,
+      "text": "we also have the itemization tab, which basically resembles all the line items on your original expense",
+      "why_it_matters": "Feature highlight: users can view and manage detailed line-item information extracted from receipts.",
+      "check": "exact"
+    },
+    {
+      "t": 153.5,
+      "text": "we have actually uh enabled these native capabilities of the phone of the OS to detect different edges, to detect receipts",
+      "why_it_matters": "Technical detail showing the app leverages OS-level receipt detection to improve capture quality and user experience.",
+      "check": "exact"
+    },
+    {
+      "t": 313.8,
+      "text": "all I need to do to actually add it to an expense report and submit it, I just need to tap on the ready",
+      "why_it_matters": "Demonstrates simplified submission workflow: one-tap approval and submission to expense reports.",
+      "check": "exact"
+    },
+    {
+      "t": 336.6,
+      "text": "you can expect this new preview mode very soon as Claudio explained and we hope you will enjoy into new app",
+      "why_it_matters": "Official status statement: the mobile app is in preview and release is imminent.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 336.6,
+      "kind": "preview",
+      "text": "you can expect this new preview mode very soon"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 10,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033933
+    }
+  ]
+}

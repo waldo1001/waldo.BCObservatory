@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/shopify-account.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account",
+  "title": "Create and set up a Shopify account",
+  "blob": "27d089edec14895f2269d742c6ff793ec805ff1e",
+  "summary": "Creating and configuring Shopify accounts for testing the Business Central Shopify Connector, covering trial setup for end-users and development stores for partners.",
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "shopify",
+    "account setup",
+    "testing",
+    "e-commerce",
+    "trial",
+    "development store"
+  ],
+  "objects": [],
+  "features": [
+    "Shopify account creation",
+    "plan selection",
+    "customer account configuration",
+    "test payment activation",
+    "Bogus Gateway testing",
+    "Shopify Payments testing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

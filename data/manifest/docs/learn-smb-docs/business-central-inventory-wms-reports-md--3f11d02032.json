@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-WMS-reports",
   "published_at": "2026-09-16T11:17:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2b0517831a558c80275af2a611bb62ff3f8df788",
       "words": 253,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T14:16:54.348Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003919
+    },
+    "summarized": {
+      "at": "2026-10-06T14:16:54.354Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:16:54.354Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:16:54.354Z",
+      "page": false
     }
   },
   "input_hash": "2b0517831a558c80275af2a611bb62ff3f8df788",
@@ -143,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2b0517831a558c80275af2a611bb62ff3f8df788"
+  "output_hash": "31967a10c1349f22878202dfa0c35a320c75d06b262424ce4de2f499a01fc0e8"
 }

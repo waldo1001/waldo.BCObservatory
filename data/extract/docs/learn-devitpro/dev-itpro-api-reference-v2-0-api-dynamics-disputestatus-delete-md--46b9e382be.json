@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/api/dynamics_disputestatus_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_disputestatus_delete",
+  "title": "Delete disputeStatus",
+  "blob": "ef308ce9cf46b163ae5cfecf4a644c4e13eb4383",
+  "summary": "Delete disputeStatus API endpoint removes a dispute status record from Business Central using HTTP DELETE with authorization and eTag headers.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "delete",
+    "dispute status"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP DELETE",
+    "Authorization",
+    "If-Match header",
+    "204 No Content response"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004833,
+      "pages_in_call": 8
+    }
+  ]
+}

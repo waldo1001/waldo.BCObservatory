@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges",
   "published_at": "2026-08-13T11:24:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "216bdf5edbe72eb77a807cb534d3ee2338f9ef46",
       "words": 861,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:28.306Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006804
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:28.311Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:28.312Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:28.312Z",
+      "page": false
     }
   },
   "input_hash": "216bdf5edbe72eb77a807cb534d3ee2338f9ef46",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "216bdf5edbe72eb77a807cb534d3ee2338f9ef46"
+  "output_hash": "5c0f6974ec96cd845d4ab07685bb37772972a117c001d56d67574dbe2495bc4f"
 }

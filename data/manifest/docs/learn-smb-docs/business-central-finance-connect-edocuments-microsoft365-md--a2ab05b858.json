@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-connect-edocuments-microsoft365",
   "published_at": "2026-09-02T09:00:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0",
       "words": 578,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:56.239Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:56.243Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:56.244Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:56.244Z",
+      "page": false
     }
   },
   "input_hash": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0"
+  "output_hash": "551dc1cb719ea917202a089394250c13ebdac160ef3b80e6ae456d70331c5440"
 }

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-create-number-series.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-create-number-series",
+  "title": "Create number series",
+  "blob": "43b1e2a891a1c8c4a85af378355466ca661c84d6",
+  "summary": "Create and manage number series to assign unique sequential identification codes to customers, vendors, documents, and master data records, with options for manual numbering and gap allowance for non-financial transactions.",
+  "systems": [
+    "administration",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "number series",
+    "numbering setup",
+    "document identification",
+    "master data",
+    "configuration",
+    "data entry"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "No. Series"
+    },
+    {
+      "type": "page",
+      "name": "No. Series Lines"
+    }
+  ],
+  "features": [
+    "Manual Nos.",
+    "Default Nos.",
+    "Allow Gaps in Nos.",
+    "Number Series Lines",
+    "Number Series Relationships",
+    "Auto-increment",
+    "Maximum 20 characters"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009013,
+      "pages_in_call": 3
+    }
+  ]
+}

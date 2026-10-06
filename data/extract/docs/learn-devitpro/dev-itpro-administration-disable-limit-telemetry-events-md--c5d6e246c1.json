@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/disable-limit-telemetry-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-limit-telemetry-events",
+  "title": "Turn Off or Limit Telemetry Trace Events",
+  "blob": "6006d2bf452720210a17b9d8c6fc6ee866d94de4",
+  "summary": "Configure the Diagnostic Trace Level setting on the Business Central server to turn off or limit telemetry trace events that are emitted by the application and platform.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "event tracing",
+    "server configuration",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "Diagnostic Trace Level",
+    "SENDTRACETAG method",
+    "Event Viewer",
+    "CustomSettings.config",
+    "Set-NAVServerConfiguration cmdlet"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-differences-and-limitations-developing-pages-business-central-mobile-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-differences-and-limitations-developing-pages-business-central-mobile-app",
+  "title": "Differences and Limitations for Mobile App Page Development",
+  "blob": "d451c76b477fcfe09b8223b9e52e07ff73ff565f",
+  "summary": "Mobile pages have limitations including no multiple selection, FactBox absence on lists, no advanced filters, and restricted action visibility; design should prioritize primary workflows.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "mobile limitations",
+    "tablet",
+    "phone",
+    "page design",
+    "role center",
+    "workflow"
+  ],
+  "objects": [],
+  "features": [
+    "Activity group constraints",
+    "Action bar promotion",
+    "Lookup behavior",
+    "Search scope",
+    "Tile display",
+    "Worksheet unavailability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004843,
+      "pages_in_call": 8
+    }
+  ]
+}

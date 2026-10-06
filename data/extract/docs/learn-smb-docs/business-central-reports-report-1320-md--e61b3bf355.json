@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1320.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1320",
+  "title": "Notification Email report",
+  "blob": "5f5fbf0eff6dea589788b990ec19f4eaef847870",
+  "summary": "The Notification Email report builds the email body that Business Central sends to users registered for notifications, using the Notification Entry to determine recipient and document links.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "notifications",
+    "email",
+    "user-configuration",
+    "approval-workflows"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Notification Email"
+    }
+  ],
+  "features": [
+    "notification email layout",
+    "document links",
+    "notification settings link",
+    "dynamic greeting and explanation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

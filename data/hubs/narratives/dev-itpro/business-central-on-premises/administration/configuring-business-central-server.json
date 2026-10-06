@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-server",
+  "input_hash": "bfd5d13784868da86f87d30cc09d41191bdddf1d8fde5ebe6cc6e7d7207cfd83",
+  "summary": "Configuring Business Central Server (on-premises) covers how to change server instance settings after installation and a full reference of those settings. It answers questions about how to apply configuration (Setup, PowerShell, config file) and what each setting controls, such as database, security, web services and debugging.",
+  "overview": "This section is for administrators of Business Central on-premises. It has two pages: a how-to page that explains the ways to change server configuration, and a reference page that lists the settings themselves.\n\nStart with \"Configure Business Central Server\". It describes configuring an instance after installation using Setup, the Set-NAVServerConfiguration PowerShell cmdlet, or by editing the CustomSettings.config file. It also covers restarting the instance and which settings can be updated dynamically without a restart. It applies to 2022 release wave 2 (version 21) and later.\n\nThen use \"Business Central Server instance settings\" to look up individual settings. It groups them by area: server topology, database connections, service defaults, sign-in security, certificates, encryption, Microsoft Entra integration, client endpoints, web services (SOAP, OData, API), throttling, administration services, extension deployment and debugging. Individual settings are tagged with the version they were introduced or changed in.",
+  "key_points": [
+    "Three ways to configure an instance after installation: Setup, the Set-NAVServerConfiguration cmdlet, or editing CustomSettings.config.",
+    "Some settings are dynamically updatable; others need a server instance restart to take effect.",
+    "The how-to page applies to 2022 release wave 2 (version 21) and later.",
+    "The settings reference covers topology, database configuration, multitenant deployment, and service defaults.",
+    "Security-related settings include ClientServicesCredentialType, security certificates, encryption, Azure Key Vault integration and Microsoft Entra integration.",
+    "Settings also cover web services (SOAP, OData, API), API subscriptions, throttling, administration services, extension deployment and debugging.",
+    "ClientBuildRestriction is among the documented settings, and the reference notes version-specific changes from version 20 up to 27.4."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:04.939Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.039005
+  }
+}

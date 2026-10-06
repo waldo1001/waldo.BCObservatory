@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-testing-with-permission-sets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-with-permission-sets",
+  "title": "Testing with Permission Sets in Business Central",
+  "blob": "0b2071c40722974414ce1949c786dd8675aa1218",
+  "summary": "Testing with permission sets in AL uses TestPermissions property on test codeunits combined with test runner codeunits to apply specific permission sets via OnBeforeTestRun and OnAfterTestRun triggers.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "testing",
+    "permission sets",
+    "security",
+    "test runner",
+    "access rights",
+    "codeunit"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyTestPermissionsTestRunner"
+    }
+  ],
+  "features": [
+    "TestPermissions property",
+    "OnBeforeTestRun trigger",
+    "OnAfterTestRun trigger",
+    "PermissionTestHelper",
+    "permission set assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004685,
+      "pages_in_call": 8
+    }
+  ]
+}

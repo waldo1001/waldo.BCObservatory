@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-prices",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "086477db23a26ab7118c6b90fc405fa43fd52359",
       "words": 2570,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T14:01:40.444Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.01081
+    },
+    "summarized": {
+      "at": "2026-10-06T14:01:40.446Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:01:40.446Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:01:40.447Z",
+      "page": false
     }
   },
   "input_hash": "086477db23a26ab7118c6b90fc405fa43fd52359",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "086477db23a26ab7118c6b90fc405fa43fd52359"
+  "output_hash": "218145c51179f147e55ab5da78d639ba9819918b083f67d0331ca6990938ec16"
 }

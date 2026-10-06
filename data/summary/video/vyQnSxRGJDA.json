@@ -1,0 +1,28 @@
+{
+  "video_id": "vyQnSxRGJDA",
+  "item_id": "video/yt-microsoft/vyQnSxRGJDA",
+  "summary": "Expense Agent per diem allowances in Business Central (2026 release wave 1): the agent detects itineraries, classifies them as per diem, detects location and trip period, applies meal reductions, and calculates the allowance. Setup is done in a wizard and a per diem tab in the expense agent setup.",
+  "overview": "The video explains how the Expense Agent handles per diem allowances, which depend on country-specific rules. It describes three calculation methods: a 24-hour rolling period (for example 6:00 a.m. to the next 6 a.m.), full calendar days, and partial day rules configured by percentage or hours.\n\nA demo in the expense agent web app shows a submitter uploading an itinerary. The agent classifies it as a per diem expense, extracts dates, detects the trip start and end and the location (mapped to a configured location, UK other in the demo), and lets the user mark meals received. In the demo the expense dropped from 232 pounds to 187.92 because of meal reductions. The video then shows the admin side in Business Central: a wizard and a per diem expenses tab in the expense agent setup.",
+  "key_points": [
+    "Per diem rules differ by country, so the setup must be configured to match local regulations.",
+    "Three calculation methods are covered: 24-hour rolling period, full calendar days, and partial day rules based on percentages or hours.",
+    "The agent treats an expense provided as an itinerary as a per diem trip and records trip start and end times, including outbound and return journeys.",
+    "Location is detected from the itinerary and mapped to a configured Business Central location, based on where the employee spent most days (UK other in the demo).",
+    "Users mark meals received during the trip; configured meal reduction percentages are then applied. In the demo, 232 pounds became 187.92.",
+    "Admins set calculation method, flat rates and meal reduction percentages in the per diem tab of the expense agent wizard, and can adjust details in the expense agent setup for full country compliance.",
+    "Meal reductions follow company policy, and location detection depends on the itinerary data provided."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "13719d8435ee950f951e1f78074c02e00476219088bce61d5ae585889dc071ee",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.043412400000000004
+  }
+}

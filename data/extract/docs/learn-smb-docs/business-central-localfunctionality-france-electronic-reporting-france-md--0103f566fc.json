@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/electronic-reporting-france.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france",
+  "title": "Use the E-Document Format for E-Reporting [FR]",
+  "blob": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
+  "summary": "E-Reporting FR e-document format for France that generates structured XML for transactions requiring tax authority reporting, with setup for PDPs like Pagero and Avalara.",
+  "systems": [
+    "finance",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "e-reporting",
+    "e-documents",
+    "france",
+    "tax reporting",
+    "xml",
+    "business-to-consumer"
+  ],
+  "objects": [],
+  "features": [
+    "E-Reporting FR format",
+    "PDP connectors",
+    "transaction categorization",
+    "batch submissions",
+    "tax authority acceptance tracking",
+    "e-document service workflow"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007169,
+      "pages_in_call": 8
+    }
+  ]
+}

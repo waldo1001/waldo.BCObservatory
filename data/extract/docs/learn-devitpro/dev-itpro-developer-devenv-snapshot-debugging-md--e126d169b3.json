@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-snapshot-debugging.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging",
+  "title": "Snapshot debugging",
+  "blob": "757b9f0614767b43edd0cf8325926efe639e719f",
+  "summary": "Snapshot debugging lets developers record AL code execution on production cloud servers and debug it offline in Visual Studio Code using snappoints, which log variable state without stopping execution. Use it to inspect production code behavior and variables for a specified user session.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "production code",
+    "snappoints",
+    "offline debugging",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "D365 Snapshot Debug"
+    }
+  ],
+  "features": [
+    "Snappoint logging",
+    "Offline code inspection",
+    "Production environment debugging",
+    "User session recording",
+    "Built-in codeunit trigger debugging",
+    "Snapshot verbosity control",
+    "MCP server snapshot debugging"
+  ],
+  "versions": [
+    "17.2",
+    "18.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012275,
+      "pages_in_call": 4
+    }
+  ]
+}

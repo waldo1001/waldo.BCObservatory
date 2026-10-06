@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000789.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000789",
+  "title": "Subcontractor - Dispatch List (report)",
+  "blob": "9c03fa075ff1a2de5eaca90d3b2902b1eefd933f",
+  "summary": "Subcontractor - Dispatch List report shows released production order routing lines assigned to subcontractor vendors with remaining quantity and required components to ship before operations.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "subcontracting",
+    "routing",
+    "production-order",
+    "manufacturing",
+    "dispatch",
+    "outsourcing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Subcontractor - Dispatch List"
+    }
+  ],
+  "features": [
+    "Filter by vendor number",
+    "Filter by work center number",
+    "Filter by production order number",
+    "Filter by starting date",
+    "Filter by ending date",
+    "Routing link consideration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

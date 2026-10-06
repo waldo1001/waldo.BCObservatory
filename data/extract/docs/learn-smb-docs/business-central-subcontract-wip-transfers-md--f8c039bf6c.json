@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-wip-transfers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-wip-transfers",
+  "title": "Transfer WIP items between subcontractors",
+  "blob": "f4d6d365bc9d91b8d0b2e7f23b6c713ad36f39af",
+  "summary": "Transfer work-in-progress items between subcontractor locations in multi-stage manufacturing, tracking quantities in dedicated ledger entries while maintaining production order cost accounting.",
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "subcontracting",
+    "wip transfers",
+    "work-in-progress",
+    "transfer orders",
+    "inventory management",
+    "cost tracking"
+  ],
+  "objects": [],
+  "features": [
+    "WIP item transfers",
+    "transfer WIP item flag",
+    "WIP ledger entries",
+    "WIP quantity adjustment",
+    "transfer mode selection",
+    "in-transit codes",
+    "return transfer orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01081,
+      "pages_in_call": 5
+    }
+  ]
+}

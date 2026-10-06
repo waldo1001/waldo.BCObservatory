@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-sales",
+  "title": "Sustainability value chain in sales",
+  "blob": "31b847f95c3d1d1d46ee238961615d69431f8297",
+  "summary": "Sustainability value chain in sales calculates and tracks emissions for sold items using average or specific carbon tracking methods, with optional sales document layouts that display embedded carbon footprint.",
+  "systems": [
+    "sustainability",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales emissions",
+    "carbon tracking",
+    "co2e per unit",
+    "embedded carbon",
+    "sales documents",
+    "sustainability value entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Average carbon tracking",
+    "Specific carbon tracking",
+    "Lot tracking",
+    "ESG Sales layouts",
+    "CO2e calculation",
+    "Fixed asset sales",
+    "Copy posted invoice"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

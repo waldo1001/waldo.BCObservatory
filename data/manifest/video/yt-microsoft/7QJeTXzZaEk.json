@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Getting Started With Agents: Test Drive the Sales Order Agent (2025)",
   "url": "https://www.youtube.com/watch?v=7QJeTXzZaEk",
-  "published_at": null,
+  "published_at": "2025-09-16T13:03:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:08:01.334Z",
+      "captions": "auto:en-orig",
+      "duration_s": 218
+    },
+    "captioned": {
+      "at": "2026-10-06T14:08:29.790Z",
+      "path": "data/captions/microsoft/7QJeTXzZaEk.vtt",
+      "vtt_sha256": "704aec1ec4b96ac079f8adebb033e4b4faab1dadcc73913fe86f4403bbef4111",
+      "segments": 18,
+      "words": 555,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 189,
-    "duration_s": 219,
-    "via": "reconcile"
-  }
+    "duration_s": 218,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "704aec1ec4b96ac079f8adebb033e4b4faab1dadcc73913fe86f4403bbef4111"
 }

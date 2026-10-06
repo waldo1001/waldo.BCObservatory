@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-transfer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-transfer",
+  "title": "Sustainability value chain in transfers",
+  "blob": "28a0c8c49c338215ab705c106c1a4fbe33743eea",
+  "summary": "Sustainability value chain in transfers records CO2e emissions from transfer operations, tracks carbon through item movements using average or specific tracking methods, and creates sustainability value entries.",
+  "systems": [
+    "sustainability",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "transfer orders",
+    "emissions tracking",
+    "carbon tracking",
+    "co2e",
+    "sustainability value entries",
+    "inventory movement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Order"
+    },
+    {
+      "type": "page",
+      "name": "Posted Transfer Shipment"
+    }
+  ],
+  "features": [
+    "Enable Value Chain Tracking",
+    "Transfer order emissions",
+    "Total CO2e field",
+    "Average tracking",
+    "Specific tracking",
+    "Lot tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

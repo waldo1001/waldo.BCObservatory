@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/processing-usage-data/rebilling.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/rebilling",
+  "title": "Rebilling usage data",
+  "blob": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653",
+  "summary": "Rebilling usage data corrects quantities for periods already invoiced by treating new data as adjustments rather than new charges. It automatically recalculates and invoices deltas for corrected subscription quantities without re-invoicing the original period.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "usage-based billing",
+    "rebilling",
+    "subscription corrections",
+    "invoicing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Billings"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Billing Metadata"
+    }
+  ],
+  "features": [
+    "rebilling corrections",
+    "quantity adjustments",
+    "billing date management",
+    "credit memo creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

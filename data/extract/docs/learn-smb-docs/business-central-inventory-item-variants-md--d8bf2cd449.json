@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-item-variants.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants",
+  "title": "Manage product variants",
+  "blob": "d4c57f2e3534543f8fc769189bccdc8004f1a868",
+  "summary": "Manage product variants to track multiple sizes, colors, materials, or configurations under a single item record with consolidated reporting and variant-level inventory control.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "variants",
+    "product variants",
+    "item variants",
+    "attributes",
+    "pictures",
+    "translations",
+    "stockkeeping units"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items List"
+    },
+    {
+      "type": "page",
+      "name": "Item Variants"
+    },
+    {
+      "type": "page",
+      "name": "Item Variant Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Variant Attribute Values"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Translations"
+    },
+    {
+      "type": "page",
+      "name": "Item Variants List"
+    }
+  ],
+  "features": [
+    "Variant attributes",
+    "Variant pictures",
+    "Variant translations",
+    "Item references per variant",
+    "Variant mandatory requirement",
+    "Stockkeeping units for variants"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

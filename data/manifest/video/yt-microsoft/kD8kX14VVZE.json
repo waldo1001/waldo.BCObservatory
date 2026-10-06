@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New in Sustainability: Reporting for CBAM and EPR",
   "url": "https://www.youtube.com/watch?v=kD8kX14VVZE",
-  "published_at": null,
+  "published_at": "2025-10-01T13:01:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:06:43.331Z",
+      "captions": "auto:en-orig",
+      "duration_s": 947
+    },
+    "captioned": {
+      "at": "2026-10-06T14:06:59.497Z",
+      "path": "data/captions/microsoft/kD8kX14VVZE.vtt",
+      "vtt_sha256": "c4427439b4fb2be219f10c89251bef0140531cca823eb85056de8d46716f8c6b",
+      "segments": 70,
+      "words": 2532,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 151,
     "duration_s": 947,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4427439b4fb2be219f10c89251bef0140531cca823eb85056de8d46716f8c6b"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "zei-IszvYNU",
+  "item_id": "video/yt-microsoft/zei-IszvYNU",
+  "summary": "Business Central MCP server now exposes all Microsoft-published APIs, including subscription billing, e-invoicing and automation APIs. The video shows adding APIs to an MCP configuration one by one or in bulk with the add tools by API group action. It ties this to the 2026 wave 1 release and version 28.2.",
+  "overview": "The video explains that the Business Central MCP server is no longer limited to the core V2 APIs. Any API with a published Microsoft endpoint, such as subscription billing, e-invoicing and automation APIs, can now be enabled in an MCP server configuration and used by agents.\n\nIt demonstrates configuring the MCP server: APIs can be added individually, or in bulk through the add tools by API group action. Groups exist for areas such as analytics, automation APIs, e-document and intercompany. The presenter points to aka.ms/bcintegration as the documentation landing page and says a separate video on API queries in MCP server should be watched alongside this one before building agents.",
+  "key_points": [
+    "All Microsoft published APIs are available in the MCP server, not only the core V2 APIs. This includes subscription billing, e-invoicing and automation APIs.",
+    "In the MCP server configuration, add APIs one by one or use the add tools by API group action to add every API in a group.",
+    "API groups exist for analytics, automation APIs, e-document, intercompany and other functional areas.",
+    "Permissions can be set to read-only or other levels, where the API supports them.",
+    "The MCP server enhancements shipped in the April 2026 release. More APIs and query support come with version 28.2.",
+    "API queries in MCP server are covered in a separate video. Watch it before building agents.",
+    "Developer documentation landing page: aka.ms/bcintegration."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "e718c29b271ba69de8fbf7948af649c35e3661c352e19419d34806f8d18ed28b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0403184
+  }
+}

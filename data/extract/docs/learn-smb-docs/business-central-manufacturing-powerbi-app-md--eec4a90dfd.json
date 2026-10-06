@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app",
+  "title": "Power BI Manufacturing app",
+  "blob": "5faa7b7b1873777f2b88840bfdcc9c643e79cd4d",
+  "summary": "Manufacturing Power BI app provides analytics on manufacturing activities including utilization, production orders, work center load, and allocated hours to optimize efficiency and resource usage.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "manufacturing analytics",
+    "power bi app",
+    "production efficiency",
+    "work center",
+    "utilization"
+  ],
+  "objects": [],
+  "features": [
+    "Current Utilization report",
+    "Historical Utilization report",
+    "Work Center Load report",
+    "Finished Production Order Breakdown report",
+    "Average Production Times report",
+    "Allocated Hours report",
+    "Released Production Orders report",
+    "Subcontracting filter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00471,
+      "pages_in_call": 8
+    }
+  ]
+}

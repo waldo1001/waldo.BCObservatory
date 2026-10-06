@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "973a01c398d9751a77e189815137b2f5d8f7ff09",
       "words": 1377,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:19:05.033Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005587
+    },
+    "summarized": {
+      "at": "2026-10-06T14:19:05.038Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:19:05.038Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:19:05.038Z",
+      "page": false
     }
   },
   "input_hash": "973a01c398d9751a77e189815137b2f5d8f7ff09",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "973a01c398d9751a77e189815137b2f5d8f7ff09"
+  "output_hash": "2d70d2288b7828c7e96fb6b8edf9aab2a59fd0b14362f8b95ec00867e87b8bf0"
 }

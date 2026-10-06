@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "afd4d9883e44edc686e5b7244a8966067eaa7fba",
       "words": 116,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:09.306Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004833
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:09.310Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:09.311Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:09.311Z",
+      "page": false
     }
   },
   "input_hash": "afd4d9883e44edc686e5b7244a8966067eaa7fba",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afd4d9883e44edc686e5b7244a8966067eaa7fba"
+  "output_hash": "59e5b293593c97c207011da1279cbc48c413401650e40c6b63e8a58e78599c99"
 }

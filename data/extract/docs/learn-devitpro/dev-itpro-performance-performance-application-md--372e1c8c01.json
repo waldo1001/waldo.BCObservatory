@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/performance/performance-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-application",
+  "title": "How Application Configurations Affect Performance",
+  "blob": "4e51e6d160a2bdb49a9d0d1063662e747c6ce40b",
+  "summary": "Application configuration impacts performance through extension management, background job scheduling, locking avoidance, database access intent, and feature tuning for reports, inventory posting, dimensions, and cost adjustments.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "performance",
+    "configuration",
+    "extensions",
+    "job queues",
+    "locking",
+    "database access",
+    "optimization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "Extension uninstall",
+    "Background job scheduling",
+    "Background posting",
+    "Number series gaps",
+    "Cost adjustment frequency",
+    "Company rename/copy operations",
+    "Calculate visible FlowFields only",
+    "Customer/vendor/item blocking",
+    "Integration performance impact",
+    "Change logging performance",
+    "Security filtering performance",
+    "Read Scale-Out with DataAccessIntent"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-with-permission-sets",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0b2071c40722974414ce1949c786dd8675aa1218",
       "words": 557,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:57.667Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004685
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:57.672Z",
+      "page": false
     }
   },
   "input_hash": "0b2071c40722974414ce1949c786dd8675aa1218",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b2071c40722974414ce1949c786dd8675aa1218"
+  "output_hash": "c870eab4aff586d9ca848cb4cb9c85da91b1813cf6de524010d7f74601270196"
 }

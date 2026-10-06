@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-prices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-prices",
+  "title": "Synchronize prices with Shopify",
+  "blob": "086477db23a26ab7118c6b90fc405fa43fd52359",
+  "summary": "Synchronize product prices from Business Central to a Shopify store, including support for multiple currencies, VAT, markets, B2B catalogs, and customer price groups.",
+  "systems": [
+    "integration",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "shopify connector",
+    "price synchronization",
+    "b2b catalogs",
+    "market pricing",
+    "vat handling",
+    "currency conversion"
+  ],
+  "objects": [],
+  "features": [
+    "price synchronization",
+    "customer price groups",
+    "customer discount groups",
+    "VAT inclusion",
+    "market-specific pricing",
+    "B2B catalog pricing",
+    "compare at price"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01081,
+      "pages_in_call": 5
+    }
+  ]
+}

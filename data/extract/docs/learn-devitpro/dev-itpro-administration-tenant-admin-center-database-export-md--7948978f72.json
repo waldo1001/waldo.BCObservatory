@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-database-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export",
+  "title": "Exporting Databases in the Admin Center",
+  "blob": "a2e8f15277028b1a9b3867a886612a0e1513529e",
+  "summary": "Database export from the admin center creates BACPAC files of Business Central online environments for backup, migration, or testing. Export to Azure standard storage accounts using a shared access signature for secure access.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database export",
+    "bacpac",
+    "azure storage",
+    "backup",
+    "migration",
+    "admin center"
+  ],
+  "objects": [],
+  "features": [
+    "BACPAC file export",
+    "Azure storage integration",
+    "Shared access signature authentication",
+    "Customer-managed encryption key support",
+    "Export rate limiting",
+    "Database restore to on-premises",
+    "Container-based developer environment restore"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012275,
+      "pages_in_call": 4
+    }
+  ]
+}

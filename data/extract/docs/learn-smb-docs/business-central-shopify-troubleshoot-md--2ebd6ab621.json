@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/troubleshoot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot",
+  "title": "Troubleshooting the Shopify and Business Central synchronization",
+  "blob": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
+  "summary": "Troubleshoot synchronization issues between Shopify and Business Central by running tasks in the foreground, reviewing logs, checking skipped records, and resetting sync dates.",
+  "systems": [
+    "integration",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "shopify connector",
+    "troubleshooting",
+    "logging",
+    "data synchronization",
+    "error handling",
+    "skipped records"
+  ],
+  "objects": [],
+  "features": [
+    "foreground task execution",
+    "logging modes",
+    "log entries",
+    "skipped records tracking",
+    "data retention policies",
+    "sync reset",
+    "access token management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01081,
+      "pages_in_call": 5
+    }
+  ]
+}

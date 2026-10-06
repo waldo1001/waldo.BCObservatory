@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope",
   "published_at": "2026-08-18T10:12:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "931b951cbb3a1b75895ef7ed7ef90e0aaade6b03",
       "words": 1082,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:28.304Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006804
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:28.307Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:28.307Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:28.307Z",
+      "page": false
     }
   },
   "input_hash": "931b951cbb3a1b75895ef7ed7ef90e0aaade6b03",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "931b951cbb3a1b75895ef7ed7ef90e0aaade6b03"
+  "output_hash": "b3cff73fcfcb5f754161c548f962e46451fccb9339ccefa716e57be25ecdde83"
 }

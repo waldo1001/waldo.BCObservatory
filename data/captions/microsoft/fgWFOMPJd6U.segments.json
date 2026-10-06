@@ -1,0 +1,608 @@
+{
+  "video_id": "fgWFOMPJd6U",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.5,
+      "end": 21.4,
+      "text": "Welcome to the 11th episode of under the hood. So today this episode is going to be we are going to talk about AI or AI related feature. Um and today with me I have Monica."
+    },
+    {
+      "t": 21.4,
+      "end": 33.4,
+      "text": "Hi Monica. >> Hi Vincent. Thank you. Thank you. So tell tell us a little bit about yourself and uh how do you work with uh with AI and what you know what type of feature are you are you working with in your team."
+    },
+    {
+      "t": 33.4,
+      "end": 53.4,
+      "text": "Uh yes so I'm a senior software engineer working in connected experiences team which is part of AI experiences workload here and I have been in Microsoft since 2016 and I have been focusing on various areas but mostly on connected experiences for integrating business central with Microsoft 365"
+    },
+    {
+      "t": 53.4,
+      "end": 67.4,
+      "text": "like teams outlook or with power platform >> and uh my introduction to co-pilot space is very recent uh where we got an interest and need for integrating"
+    },
+    {
+      "t": 67.4,
+      "end": 87.4,
+      "text": "AI into business central uh in a natural experience so that users can become more productive easily without even thinking of how to write prompts and how to talk to copilot and that's where we started thinking of these experiences and that's how I was introduced to copilot >> so it's fair to say a lot of the work and the features you are working on are"
+    },
+    {
+      "t": 87.4,
+      "end": 103.1,
+      "text": "very close to the user and the user experience right >> definitely definitely a lot of the features are about uh in the client experience in business central. >> Yes. >> Mhm. So let's talk a little bit about um the summarizing with copilot because that's one of the feature you worked on recently."
+    },
+    {
+      "t": 103.1,
+      "end": 121.1,
+      "text": "Um so can you briefly describe for for those who haven't seen it can you briefly describe what what this feature does and what it is. Yeah. >> Oh definitely. So summarizing with copilot highlights what's most important and urgent for the user on almost every business central page."
+    },
+    {
+      "t": 121.1,
+      "end": 131.5,
+      "text": "So it's just one click uh which can produce very rotailored and concise text for the user to help user make decisions faster"
+    },
+    {
+      "t": 131.5,
+      "end": 152.2,
+      "text": "uh using copalot. >> Mhm. Okay. So so and how where is where is summary shown in the in the page? >> Yes. Exactly. So uh initially we started with uh focusing on certain pages like uh heavy data pages like customers and sales orders or items which requires uh"
+    },
+    {
+      "t": 152.2,
+      "end": 168.6,
+      "text": "uh very fast decision making abilities as well. Uh but then eventually we created a platformwide capability. So summarization with copilot is available on any business central uh single entity pages like card documents or list plus."
+    },
+    {
+      "t": 168.6,
+      "end": 185.4,
+      "text": "So customer pages, >> customer sales orders, any uh single entity pages. Uh and not only that, it's also available with custom pages. Uh so if uh partners have created some customer card pages or customer document pages that will be there that will work without any >> where is it shown on the page?"
+    },
+    {
+      "t": 185.4,
+      "end": 197.7,
+      "text": ">> Uh so it it is shown on a new area what we call a summary fact box. So it will be shown in the fact boxes pane and >> on the side and the side right on the top. So >> okay, >> it's uh very visible on the page."
+    },
+    {
+      "t": 197.7,
+      "end": 211.4,
+      "text": "Yes. So let's go under the hood. Tell us a little bit about uh you know that's the title of this of this podcast. So let's uh let's tell us a little bit about how that was uh built. You know what how how do we produce that that summary?"
+    },
+    {
+      "t": 211.4,
+      "end": 221.4,
+      "text": ">> Yes. Um so uh I think summarization was built in a way that it does more than just summarizing what you see on the UI."
+    },
+    {
+      "t": 221.4,
+      "end": 232.4,
+      "text": "uh so we wanted to build uh something that can also produce insights uh out of the data that is available for for an entity. So"
+    },
+    {
+      "t": 232.4,
+      "end": 246.6,
+      "text": "uh what what do you mean by insights? Let's start with that. Right? So it's pretty pretty much data points that are currently useful given what is the user's role or the task. So the way we build summarization, it's pretty much a three-step process."
+    },
+    {
+      "t": 246.6,
+      "end": 257,
+      "text": "uh we collect data for which for the entity you're trying to summarize with. >> But it's not only what's on the page. >> Exactly. It's not only what's on the page. It's it's the related entities."
+    },
+    {
+      "t": 257,
+      "end": 276,
+      "text": "So it's the statistics pages that are related to the current uh current entity. It's the facts from the fact boxes uh and so on. Uh so wherever we could find aggregated data, we collect all that data uh and put it in a structured format and then send it to LLM to find insights out of that data."
+    },
+    {
+      "t": 276,
+      "end": 288.9,
+      "text": "And as I said insights are basically data points that are important for the user uh at that point of moment right uh and uh we also ask uh AI to make scoring for these insights."
+    },
+    {
+      "t": 288.9,
+      "end": 299.4,
+      "text": "So based on the certain guiding questions or based on the data context that we have given uh and not only that we also make copilot think about the users context."
+    },
+    {
+      "t": 299.4,
+      "end": 319.8,
+      "text": "So what's the user's role and given all this context AI comes up with the decision engine where it comes up with a list of insights that are most important and then we summarize those uh and that's just not summarizing >> so you have a prompt that uh where you actually so you gather all this data >> yes >> and you have a prompt just so I understand you know so you have a prompt that uh"
+    },
+    {
+      "t": 319.8,
+      "end": 331.8,
+      "text": "where you actually asking uh the the LLM what's you know try to rank this insight which one are the most relevant for that particular user to give some context >> exactly about the first where you are."
+    },
+    {
+      "t": 331.8,
+      "end": 351.9,
+      "text": "That's the first prompt. Yes. Uh we call it find insights prompt followed by and then it produces a list of uh insights and scores them >> uh based on relevance and importance and urgency um and other different huristics and then >> we take the output of that prompt and send it in the second prompt what we call as summarize prompt which"
+    },
+    {
+      "t": 351.9,
+      "end": 372.1,
+      "text": "pretty much uh takes looks into score and only selects the top uh bullet points that we want to show uh and uh then does the markdown for it in the way that we also make sure that prompt uh always refers back to the original data for grounding so user knows where the data is coming from."
+    },
+    {
+      "t": 372.1,
+      "end": 385.8,
+      "text": ">> So how many prompts do you have on for generating the it's basically a pipeline of prompts right? >> It is a pipeline of I just did a major category of two but like the first prompt in itself uh we do run it in parallel for each data source."
+    },
+    {
+      "t": 385.8,
+      "end": 397.1,
+      "text": "So we categorize uh data sources into three for now the fields from the current page the related pages and fact boxes and these run in parallel uh because we also want it to be performant"
+    },
+    {
+      "t": 397.1,
+      "end": 410.2,
+      "text": "uh so in a way that you can say it's a pipeline of different prompts. Yes. >> Okay. Yeah. So it's it's interesting because many people you know are familiar with your chat experience your copilot chat the chat GPT and you can easily"
+    },
+    {
+      "t": 410.2,
+      "end": 429.8,
+      "text": "uh you know think of an AI feature as you you ask a question and you get an answer which is basically one prompt and one reply but but as you described with that example there's a lot of features in our product where you have to use multiple prompt >> for almost every platform capability feature that we have chat autofill summarize"
+    },
+    {
+      "t": 429.8,
+      "end": 440.2,
+      "text": "uh analysis assist. Uh all of these are definitely multi-prompt you like I don't know I think uh for example the autofill feature has five or six prompts. >> Definitely."
+    },
+    {
+      "t": 440.2,
+      "end": 451.2,
+      "text": "Yes. >> Interesting. So um uh how does copilot know which related entities or statistic it should be using?"
+    },
+    {
+      "t": 451.2,
+      "end": 464.6,
+      "text": "You know is that is that is that a copilot thing or is that is that just normal code or you know how do we gather that data? >> It's a mixture of both. we definitely leverage existing business uh business central structures and metadata."
+    },
+    {
+      "t": 464.6,
+      "end": 476.1,
+      "text": "So uh for example when we select the data we come up with the statistics uh we come up with the pages as related pages definitions in the way that"
+    },
+    {
+      "t": 476.1,
+      "end": 496.9,
+      "text": "actions on the current page that lead to other pages are in a way related pages >> but then we don't send the data from all of those pages cuz it could be lot of data. So we filter out only the pages that are named statistics because that's where the aggregated data exist and that's very good for summarization that we realized over multiple"
+    },
+    {
+      "t": 496.9,
+      "end": 508.8,
+      "text": "uh efforts and prompt engineering and all that and that's how we come up with this if an action points to a page and if the page is uh has statistics in it then we take that data into account and send it to LM."
+    },
+    {
+      "t": 508.8,
+      "end": 520.5,
+      "text": "Okay. So we made that decision at some stage we kind of say okay the these this is where there's an assumption that that statistics pages contain relevant data for summization."
+    },
+    {
+      "t": 520.5,
+      "end": 531.2,
+      "text": ">> So that's one of the >> potentially we could have chosen some other data. Yes. There's some decision to make in what you >> Exactly. And we came up with this decision over multiple uh over multiple attempts."
+    },
+    {
+      "t": 531.2,
+      "end": 543,
+      "text": "Right. So we started with sending pretty much uh all the ledger entries and all and we soon realized uh it's not very performant cuz it has to process a lot of data. So we want to send already some aggregated data."
+    },
+    {
+      "t": 543,
+      "end": 553.4,
+      "text": "So that's one uh way. Uh we are also sending for example some related data from the fact boxes which is another uh way of aggregated data in business central already."
+    },
+    {
+      "t": 553.4,
+      "end": 568.7,
+      "text": "So we're definitely leveraging business central metadata structure that existed already. Uh so that was that was one approach and then beyond that we asked copilot to also figure out what is related for depending on the user's role."
+    },
+    {
+      "t": 568.7,
+      "end": 583.7,
+      "text": "So copilot also does some more filtering after the after we send the data. So it's a mix of both code in the sense that we before sending it to LLM we figure out from the code point of view what could be sent and then copilot on top of it decides what could be filtered even more."
+    },
+    {
+      "t": 583.7,
+      "end": 603.4,
+      "text": "So we're trying to be a little bit smart about it and kind of pick some data and kind of use copilot to refine it. I remember you know we I remember very early in the very early days of this feature when we started talking about doing a summarization you did an experiment uh I think the very I think maybe probably the very first experiment on sum on summarization"
+    },
+    {
+      "t": 603.4,
+      "end": 617.5,
+      "text": "where you tell us a little bit about it. I think there was something about you send all the data on the page and uh >> yeah so we started with as uh simple as just sending um just sending the fields that you see on the page and then summarizing it."
+    },
+    {
+      "t": 617.5,
+      "end": 630.6,
+      "text": "It was pretty much a simple prompt uh saying to this is the data summarize it. But then over the over the time we realized the true value lies in uh preventing users from clicking multiple tabs"
+    },
+    {
+      "t": 630.6,
+      "end": 642.9,
+      "text": "uh and then getting faster data so that they can make faster decision- making and that was the purpose. So soon then we started with uh sending more and more data u right and uh and then"
+    },
+    {
+      "t": 642.9,
+      "end": 662.9,
+      "text": "one approach we took is all the fields that could have been related by table relationships that could have been one approach of defining related data right um and we tried with that experiment u and soon like there we we came up with a bunch of uh uh entities that could be related to for example sales order"
+    },
+    {
+      "t": 662.9,
+      "end": 683,
+      "text": "and we came up pretty much with entire database in a like how deep do you want to go in terms of table relations and so on. So we did a lot of experiments there and that's how we came up with multiple iterations and came up with the approach that we have taken now which is to use wherever we have the aggregated data in business central >> yeah but that's interesting because"
+    },
+    {
+      "t": 683,
+      "end": 703,
+      "text": "just summarizing what's on the page is not really relevant because you can just look at the page exactly the idea as you mentioned as I understand is you you we we look at related things and without having so that that can prevent the users from or help the users and and uh doesn't have to you look because usually that's what you do when you when you want"
+    },
+    {
+      "t": 703,
+      "end": 723.2,
+      "text": "to get some insights from say a customer or sales order you go and click around and try to gather the data so we kind of say that copilot does that for you in >> exactly that that is the idea right so the way I see summarization Vincent is basically there are two main uh tracks that we can keep working on for improving summarization overall and that's how we started"
+    },
+    {
+      "t": 723.2,
+      "end": 743.3,
+      "text": "with there's the data context which is what kind of data to send is what we are talking about but there's another parallel context which is data about the user. So uh what we intend to do is right now we are sending role but eventually we intend to also make sure that we understand what was the intent of the user to open this particular page >> and"
+    },
+    {
+      "t": 743.3,
+      "end": 763.3,
+      "text": "the more context we have about the user the more context we have about the entity for which we are summarizing the better the summaries would be. So how do you that's interesting because uh so that's what's basically maybe what what's coming with this feature right uh so how do you um how do you so we're trying to guess or or determine what the user intent"
+    },
+    {
+      "t": 763.3,
+      "end": 783.5,
+      "text": "is so how do we do that is that where for example where you navigate from or you know what what what are >> exactly so there are multiple ways to uh determine the user intent uh the definitely role is one of them so we already know for example a business manager is usually interested in business KPIs or a warehouse manager would be interested in inventory"
+    },
+    {
+      "t": 783.5,
+      "end": 802.2,
+      "text": "details or sales order would be interested in how is customer uh doing with the sales uh so on right so role definitely helps but there is other ways to define what could be the intent of the user on this page for example the most uh frequently used pages or what was the navigation pattern that user followed"
+    },
+    {
+      "t": 802.2,
+      "end": 814.6,
+      "text": "u to reach to this entity uh so that could kind of indicate what was the intent of the user so we definitely want to explore those parts as That sounds sounds exciting. So that's the next generation of summary, right?"
+    },
+    {
+      "t": 814.6,
+      "end": 827,
+      "text": ">> Yes. Yes, definitely. Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of increasing both the tracks the user context track but also the data context."
+    },
+    {
+      "t": 827,
+      "end": 845.8,
+      "text": "So we'll have more sources of data. Right now all the sources that I mentioned are coming from the business central database itself but we could easily think of uh you know integrating with external data be it um data from LinkedIn or any other external >> sources put potentially point on your one drive or something and have"
+    },
+    {
+      "t": 845.8,
+      "end": 857,
+      "text": "another thing we could that be really cool. >> So how's the can you see you know telemetry we monitor the usage of that feature right? Yeah. >> What can you see there? Is that a good usage?"
+    },
+    {
+      "t": 857,
+      "end": 875.8,
+      "text": ">> So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more. >> Uh which could indicate uh that uh already the the the data points that they are seeing might be enough for them to help"
+    },
+    {
+      "t": 875.8,
+      "end": 895,
+      "text": "make their task uh perform better. >> Can you tell us a little bit what what's the show more is? >> Yes. So uh as we mentioned that you see the summary in the summary fact box right and right there you only see like two or three bullet points of summary text which is the highest score insights that copilot came up with uh put into natural language."
+    },
+    {
+      "t": 895,
+      "end": 910.4,
+      "text": "Uh and then you get to see like most three important things that you need to know about this entity. But if you're curious and if you want to know more about them then you can click a show more button in the fact box and then it will open the chat experience which will give you more insights."
+    },
+    {
+      "t": 910.4,
+      "end": 924.2,
+      "text": "So more number of bullet points and of course the reason that it shows up in the chat experience is then you can talk with the co-pilot or and know more about the data points or follow up ask questions exactly >> in natural language."
+    },
+    {
+      "t": 924.2,
+      "end": 944.2,
+      "text": "Natural language which is pretty cool too. So um so you this is this is all AI development right and so as you mentioned it's kind of it's kind of new still for for for many of us right so what so how was it to develop this this AI feature was it did you do a lot of prompt engineering for example >> definitely yes"
+    },
+    {
+      "t": 944.2,
+      "end": 963.9,
+      "text": "prompt engineering definitely um I think this was also one of my big AI features and what I learned uh in in the sense from with building AI I features is that there's definitely a lot of prompt engineering but there's a lot of architecture surrounded around the prompts."
+    },
+    {
+      "t": 963.9,
+      "end": 974.2,
+      "text": "uh for example making sure that the data context is structured uh making sure that the output is uh kind of a little bit more deterministic"
+    },
+    {
+      "t": 974.2,
+      "end": 994.2,
+      "text": "but since the the nature of AI is non-deterministic in itself what I learned more is that tests are super super important especially because you change one line of prompt and the response could be completely different and you would want to do it in multiple iterations over your development ment cycle of the"
+    },
+    {
+      "t": 994.2,
+      "end": 1014.2,
+      "text": "feature. So tests are definitely way more >> Yeah. So let's talk a little bit about test because um especially for a feature like summary uh you know so everybody knows everybody understand the concept of test you know you have an input and you have an expected output uh and you know in the old days it was pretty simple like you enter a number and you expect another number there or"
+    },
+    {
+      "t": 1014.2,
+      "end": 1034.3,
+      "text": "something like that right uh when we're talking about summary and you know AI we do a lot of things with natural language like summary is a good example of a of of an AI feature leveraging natural language Um it's no there's no it's a little harder to determine what's right or wrong because you get a you get some text in natural language"
+    },
+    {
+      "t": 1034.3,
+      "end": 1054.4,
+      "text": "right and and it can be phrased in many ways but so how do you how do you test that or you know that this is actually a good summary or bad summary or an accurate summary so tell us a little bit about how you test >> this is very interesting question and it was also one of the very uh big challenges for us uh to determine what is a good summary or what"
+    },
+    {
+      "t": 1054.4,
+      "end": 1074.5,
+      "text": "is not a good summary Um so when it comes to testing AI features there are different uh tests that you have to keep in mind. There's definitely the harm test uh making sure that the response never contains any harmful content uh and that has kind that is kind of a bit more uh in"
+    },
+    {
+      "t": 1074.5,
+      "end": 1088.4,
+      "text": "your control. You have a set list of uh harms and now it's even available in Azure AI foundry. So you could uh test your content against those harms and uh make sure >> and typically you we actually use an LLM to do that."
+    },
+    {
+      "t": 1088.4,
+      "end": 1098.6,
+      "text": ">> Yes. All the tests that you >> basically the you you you put your thing through the LM you get an answer. Yes. Exactly. >> And then you you you take that answer and you have another prompt."
+    },
+    {
+      "t": 1098.6,
+      "end": 1118.6,
+      "text": ">> Yes. that for example if you want to test for harms yes that is that is crafted for that particular purpose of testing hardware you basically ask something like I'm oversimplifying but it's something like is there anything with violence in that content >> yes and that is pretty >> will tell you yes or no >> yes that is pretty much it right we have"
+    },
+    {
+      "t": 1118.6,
+      "end": 1129.6,
+      "text": "something called what we call evaluate statement prompt and this could be a statement for example right where we say hey this is the data can you evaluate whether this statement is true or not does it have a harm."
+    },
+    {
+      "t": 1129.6,
+      "end": 1139.9,
+      "text": ">> Uh definitely one of the new things about uh testing with AI features is that you use AI to test AI features. >> Uh so that's that's good that you brought it up."
+    },
+    {
+      "t": 1139.9,
+      "end": 1150.6,
+      "text": "Uh so there's the harm test, right? Uh where you have a set of defined harms and you want to test against those. >> Uh then there is the accuracy test uh which is making sure that AI is not hallucinating."
+    },
+    {
+      "t": 1150.6,
+      "end": 1162.2,
+      "text": "It's not it's grounded uh >> in the data that you provided as the input. uh and uh >> so what's the principle of it? >> Uh so pretty much the principle is"
+    },
+    {
+      "t": 1162.2,
+      "end": 1174.2,
+      "text": "um we we check so grounding can be applied in multiple ways. >> It could be applied uh uh definitely already at the code level. It could be applied already at the data input level."
+    },
+    {
+      "t": 1174.2,
+      "end": 1185.7,
+      "text": "You could filter out the data that you believe is probably for example for summarization we filtered out default values or something like that. Uh so there's some grounding right there in the prompt."
+    },
+    {
+      "t": 1185.7,
+      "end": 1203,
+      "text": "uh engineering you can do some grounding explicitly saying to make sure that the data is always um that the output is always grounded in the data. We always uh we also use the function calling in the sense that the insight's output structure is um is deterministic."
+    },
+    {
+      "t": 1203,
+      "end": 1215.3,
+      "text": "So we we always tell that for each insight please refer back to one of the source ID from the data that we sent. So that could be another approach for grounding. But testing is also another way for making sure grounding"
+    },
+    {
+      "t": 1215.3,
+      "end": 1229.5,
+      "text": "uh is there. Uh and uh that could be done basically asking LLM again >> uh given this is the output summary given this is the data can you please confirm that the output is always from the data."
+    },
+    {
+      "t": 1229.5,
+      "end": 1239.8,
+      "text": ">> Mhm. And contain the data that comes from the output. So you just basically ask the make sure >> exactly. So in this case the evaluate statement is can you please make sure that the output is coming from the table."
+    },
+    {
+      "t": 1239.8,
+      "end": 1259.9,
+      "text": "That's a very common technique by the way that used in many uh many AI features uh where you actually >> exactly >> kind of check that the result is consistent with what what you expect and >> yes uh and for summarization to answer your question about how do you measure a good summary but we also have something what we call functional test um and uh"
+    },
+    {
+      "t": 1259.9,
+      "end": 1272.5,
+      "text": "this is like any software development feature you would do some functional test but here we also involve LLM so uh and this is a bit tricky right so here we say uh Given a role for example warehouse manager >> Mhm."
+    },
+    {
+      "t": 1272.5,
+      "end": 1287,
+      "text": ">> and given an item data for example that has zero inventory >> uh we would expect that this should be one of the uh insights that should be written in the final summary and this is the functional test that we did."
+    },
+    {
+      "t": 1287,
+      "end": 1303.4,
+      "text": "So we came up with some tremendous large test data set containing multiple roles and multiple scenarios with different entities. uh some for example customer has late payments or there is a delay in uh shipping lines or the item inventory zero."
+    },
+    {
+      "t": 1303.4,
+      "end": 1314.2,
+      "text": "So these are the matters that we would expect uh to be shown in summary because they are important uh given on the role uh for the user or they might be urgent given on the deadline and so on."
+    },
+    {
+      "t": 1314.2,
+      "end": 1324.3,
+      "text": "Uh and then >> for example we have you have data we have data test data where we have customers where late payment >> for example >> and then we expect that to show up in the summary. Yes."
+    },
+    {
+      "t": 1324.3,
+      "end": 1345,
+      "text": "So we have another prompt that says hey uh look at this summary does it say something about let >> exactly exactly and that's that's the way we decided and then we have multiple other metrics right uh so one of them is certain insight is there or not but we have we have defined a plenty of other metrics to decide how good a summary can be for example it needs to be certain"
+    },
+    {
+      "t": 1345,
+      "end": 1360.3,
+      "text": "in certain in brief words it cannot be too long or cannot be too short uh things like that it it needs to be precise in the sense if you try to with the same data if you try to regenerate five times, seven times >> the form and the style of the summary itself."
+    },
+    {
+      "t": 1360.3,
+      "end": 1374.4,
+      "text": ">> Form, style, precision, brevity, there are other metrics that we define and yes and then that's how we come up with uh a certain way of scoring whether a summary is good or not >> and we want to do this as a repetitive process."
+    },
+    {
+      "t": 1374.4,
+      "end": 1386.5,
+      "text": "So we want to also get feedback uh from different customers and then you know iterate over this whole process of measuring summary and get to a you know our our vision of how good a summary is."
+    },
+    {
+      "t": 1386.5,
+      "end": 1396.7,
+      "text": "Is that the thumbs up or thumbs down or >> that's one way definitely uh thumbs up and thumbs down uh definitely is one way but in general the feedback right from partners and"
+    },
+    {
+      "t": 1396.7,
+      "end": 1417,
+      "text": "uh and understanding from telemetry the patterns so we want >> please if you're using that feature give us a sum up or thumbs down please do because that's useful for us and we can definitely that can help Monica improve the summary >> definitely yes >> yeah so there's another thing actually we might do another under the hood episode about it but we're working"
+    },
+    {
+      "t": 1417,
+      "end": 1437.2,
+      "text": "um uh on doing what we call experimentation. I don't want to tell much about it because that's that could be a subject an entire an entire episode but it's about basically uh trying some things out uh and having some metrics to verify you know whether it's a good you know which you know could be something for something like try with a different prompt and see if it gives"
+    },
+    {
+      "t": 1437.2,
+      "end": 1452.1,
+      "text": "better results that and summary could be a candidate for doing experiments like this. So we would uh send you know try a prompt on a small population of our users and see if they give up some something up and see if it's better but we'll we'll get back to that."
+    },
+    {
+      "t": 1452.1,
+      "end": 1463,
+      "text": ">> Definitely. Definitely. Yes. So what what what was your what would you say was the um uh you know the most challenging thing you you mentioned tests"
+    },
+    {
+      "t": 1463,
+      "end": 1483,
+      "text": "um but did you have any aha experience working with AI and doing prompt especially doing prompt engineering you know was something that you got surprised about that you didn't think okay wow that's that's that's how that's how it works or you know I wouldn't think >> I think test definitely was one of them how important it is especially like the number of reiterations it takes"
+    },
+    {
+      "t": 1483,
+      "end": 1499.3,
+      "text": "with prompt engineering and then there is also the effort for model migrations. So you need to keep up to date with the new models. So you want to change uh which means you need to have good test to make sure that your feature is behaving uh as you would want to behave even with the newer models and so on."
+    },
+    {
+      "t": 1499.3,
+      "end": 1519.3,
+      "text": "You want to experiment with different kind of models. So that's also the test is definitely um >> so which models are we using for that feature? >> Yeah. So for summarization uh we were certain prompts were before on uh 40 um especially the ground uh ground checks and all and most of them were four uh 40"
+    },
+    {
+      "t": 1519.3,
+      "end": 1532.9,
+      "text": "mini. >> Okay. >> And now uh we have migrated all of them to 41 mini. >> Okay. So why why uh mini why why so for if you don't know the the models called mini are actually small language model."
+    },
+    {
+      "t": 1532.9,
+      "end": 1543,
+      "text": "Uh so why >> smaller than smaller? They're still quite big. There are there could be even smaller uh SM. So yeah, so these these are smaller."
+    },
+    {
+      "t": 1543,
+      "end": 1556,
+      "text": "Yeah, you you're right. Correct me about it because they still you still can't really run them on regular hardware. So this they're still relatively large. >> But um so why why using these small language models and why not using the big models?"
+    },
+    {
+      "t": 1556,
+      "end": 1576,
+      "text": ">> Uh it depends on the need of the feature, right? Definitely. uh for for summarization specifically um we believe that 41 mini is enough uh it's also uh performant or better performant uh so we want the summary to be right there in couple of seconds so it's faster so >> what you ask yeah so basically large"
+    },
+    {
+      "t": 1576,
+      "end": 1590.4,
+      "text": "model they do have more work in a sense so if you send them same pro it will take longer time for them to answer right >> yeah and exactly and there's also a a whole idea about trying it out with different models cuz some of the even for summarization As I said, there's multiple prompts involved."
+    },
+    {
+      "t": 1590.4,
+      "end": 1607,
+      "text": "Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they might have better reasoning capabilities and we are still figuring out right uh to maybe try out these newer models like 01 and so on."
+    },
+    {
+      "t": 1607,
+      "end": 1627,
+      "text": "So there's no right answer in a way uh but you just select models depending on the need of the feature. >> Mhm. So what what how can you advise our partners who are you know trying to develop AI features and you know how how should they pick their model why should they you know uh experiment like you do or you know what's you"
+    },
+    {
+      "t": 1627,
+      "end": 1647.2,
+      "text": "know what's the what's the >> definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your need of the feature and then yes still even if the you believe this is the right model do try it with other models do and that's why have a good set of test so you could easily switch between models and try your features."
+    },
+    {
+      "t": 1647.2,
+      "end": 1658.9,
+      "text": "So that's that's the way we would do it and that's the way we would recommend partners to do it as well. >> Another advantage of small language or small language mod is that they're also cheaper, right? >> Definitely. Yes. But you need to maintain them yourself."
+    },
+    {
+      "t": 1658.9,
+      "end": 1669,
+      "text": "So there's also a little bit of uh using the existing models versus having your own models. So >> yeah, >> there there's trade-offs definitely. >> All right. Okay."
+    },
+    {
+      "t": 1669,
+      "end": 1684.5,
+      "text": "Any uh anything you want to you want to say to our partners who want to or developers who want who want to leverage the summary? What can they do? Is that something is that extensible for example or you mentioned earlier that even a custom page would have a summary?"
+    },
+    {
+      "t": 1684.5,
+      "end": 1697.2,
+      "text": ">> Exactly. >> So what what can they do to make sure that this this this feature is actually shines for for their solution as well? >> Definitely. Uh so the as I said summarization works ex out of the box with custom entities."
+    },
+    {
+      "t": 1697.2,
+      "end": 1712.5,
+      "text": "Right now it is not directly extensible from AL in the sense that uh they they cannot provide for example more data sources or they cannot override the text that they see in the summary in one way or another yet but we are working on it."
+    },
+    {
+      "t": 1712.5,
+      "end": 1729.2,
+      "text": "Uh it is one of the top feedback that we also got from partners that they want to have control over uh some control over summary in general. Uh having said that uh this developers uh still have some ways of uh making sure that summarization"
+    },
+    {
+      "t": 1729.2,
+      "end": 1747.4,
+      "text": "is performing better and that's through the metadata. They can define their custom entities or they can uh override the existing entities with better metadata. If they want to include more data sources, they could add more fact boxes to the existing entity or have actions that points to even more statistics pages."
+    },
+    {
+      "t": 1747.4,
+      "end": 1765.7,
+      "text": "So that's one way. tool tips, captions and uh any other descriptions and about text is one thing that we have been always asking AL developers to uh make sure that they are better and descriptive and uh so because these are the things that help co-pilot understand the context about the entity."
+    },
+    {
+      "t": 1765.7,
+      "end": 1781.5,
+      "text": "So the more we will improve these together the more AI better AI experiences. So yeah, so if it's just as as a minimum put good tool tips on the on the pages, then you'll get probably a better summary because that helps the LLM understand what you know what"
+    },
+    {
+      "t": 1781.5,
+      "end": 1793.8,
+      "text": ">> exactly. So that's that. >> Um so that's for partners and developers. For customers, I see think of AI as your co-pilot. There's a reason we call it co-pilot because it is uh one of them, right?"
+    },
+    {
+      "t": 1793.8,
+      "end": 1804.8,
+      "text": "So let AI do the heavy work uh the tedious repetitive work >> uh while you make the actual decision making um kind of work."
+    },
+    {
+      "t": 1804.8,
+      "end": 1823.6,
+      "text": "So that's how I see AI. Yes. >> All right. Thanks Monica. That was a little bit of insights on how we built you know one of the many AI features in Business Central and I think was really you know it was great to hear about it because it seems it seems relatively simple uh you know just it's just a summary of the page but there's actually you know a lot more to it."
+    },
+    {
+      "t": 1823.6,
+      "end": 1832,
+      "text": "So thank you for sharing the nice and thank you for watching. >> Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 5826
+}

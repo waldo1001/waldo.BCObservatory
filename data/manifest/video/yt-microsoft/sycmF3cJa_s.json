@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Copilot Assisted Scheduling by PrintVis",
   "url": "https://www.youtube.com/watch?v=sycmF3cJa_s",
-  "published_at": null,
+  "published_at": "2025-08-05T11:45:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:10:55.767Z",
+      "captions": "auto:en-orig",
+      "duration_s": 75
+    },
+    "captioned": {
+      "at": "2026-10-06T14:11:22.530Z",
+      "path": "data/captions/microsoft/sycmF3cJa_s.vtt",
+      "vtt_sha256": "a947c47c181b1ccb50a3489a78bb4aa8e2c8fe80296429aec9fd37db2dd5ccea",
+      "segments": 5,
+      "words": 174,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 200,
     "duration_s": 75,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a947c47c181b1ccb50a3489a78bb4aa8e2c8fe80296429aec9fd37db2dd5ccea"
 }

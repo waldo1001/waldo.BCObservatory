@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-namespaces-with-xmlports",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "435d6c1ae8805390973b15cc393b5a1faa995b8e",
       "words": 358,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:56.238Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:56.242Z",
+      "page": false
     }
   },
   "input_hash": "435d6c1ae8805390973b15cc393b5a1faa995b8e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "435d6c1ae8805390973b15cc393b5a1faa995b8e"
+  "output_hash": "7585fa80c09802710b69fb7cb5654d5b26191dbe8379647934f39707d5e1b814"
 }

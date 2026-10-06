@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/auditing/audit-events-in-purview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/audit-events-in-purview",
+  "title": "Auditing events in Microsoft Purview",
+  "blob": "6477d63863e3e5a5c11ada43c20b876cf33ad183",
+  "summary": "Microsoft Purview auditing for Business Central documents auditable events automatically emitted to Purview, including environment administration, extension configuration, user management, company administration, integrations, Copilot, cloud migration, and reporting activities.",
+  "systems": [
+    "administration",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "auditing",
+    "compliance",
+    "microsoft purview",
+    "security events",
+    "audit logs",
+    "environment administration",
+    "extension management"
+  ],
+  "objects": [],
+  "features": [
+    "Administered environment activities",
+    "Configured extension activities",
+    "Administered user activities",
+    "Administered company activities",
+    "Configured integration activities",
+    "Configured Copilot activities",
+    "Configured cloud migration activities",
+    "Administered report activities"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025708,
+      "pages_in_call": 2
+    }
+  ]
+}

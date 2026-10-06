@@ -1,0 +1,75 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-setup",
+  "title": "Sustainability value chain setup",
+  "blob": "c82889c3b22a8c2bd1870e221f1cf3a92b4d976c",
+  "summary": "Sustainability value chain setup configures carbon tracking methods, enables emissions on master data records, and establishes emission fees with CO2e equivalency factors for all greenhouse gases.",
+  "systems": [
+    "sustainability",
+    "administration"
+  ],
+  "topics": [
+    "carbon tracking",
+    "emission fees",
+    "co2e factors",
+    "sustainability setup",
+    "item tracking",
+    "carbon method"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Emission Fees"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Resource Card"
+    },
+    {
+      "type": "page",
+      "name": "Work Center"
+    },
+    {
+      "type": "page",
+      "name": "Machine Center"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    }
+  ],
+  "features": [
+    "Enable Value Chain Tracking",
+    "Carbon Tracking Method",
+    "Average method",
+    "Specific method",
+    "Emission Fees",
+    "Carbon Equivalent Factor",
+    "Item Emissions",
+    "Resource Emissions",
+    "Fixed Asset Emissions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

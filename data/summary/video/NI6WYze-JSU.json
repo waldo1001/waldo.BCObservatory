@@ -1,0 +1,26 @@
+{
+  "video_id": "NI6WYze-JSU",
+  "item_id": "video/yt-microsoft/NI6WYze-JSU",
+  "summary": "Expense Agent project tracking in Business Central: how an administrator enables project and task visibility in the web app, how submitters assign expenses to projects and tasks, and how expense users are linked to employees and resources. Also covers the controller's manual fallback.",
+  "overview": "The video shows how the Expense Agent handles project expenses. An administrator decides whether projects and tasks are visible in the web app. They are hidden by default. Visibility is set in the Expense Agent configuration wizard under project tracking, where it can be limited to assigned projects or opened to all projects.\n\nA submitter then picks the project and project task in the categorization tab of the expense report in the web app. The submitter cannot post the expense or create a project ledger entry, because posting needs a controller or accountant with the Easy Central license. If the submitter does not know the project, the controller can add the assignment in Business Central. For project tracking to work, the expense user is linked to an employee, and the employee is linked to a resource.",
+  "key_points": [
+    "Projects and tasks are not visible in the Expense Agent web app by default. An administrator has to enable them.",
+    "In the Expense Agent configuration wizard, under project tracking, the administrator activates project tracking and sets visibility to all projects or assigned projects only.",
+    "Submitters assign the project and project task in the categorization tab of the expense report in the web app.",
+    "Submitters cannot post the expense or create a project ledger entry. Posting needs a controller or accountant with the Easy Central license.",
+    "The expense user is linked to an employee, and the employee is linked to a resource. The link is set in the Expense User Card page.",
+    "If the submitter does not know the project, the controller can add the project assignment manually in Business Central when reviewing and posting."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "bc0727141288623e8ef26244b533e2ed40e3bae1ae55ffaee17db172fbdd3617",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.040968399999999995
+  }
+}

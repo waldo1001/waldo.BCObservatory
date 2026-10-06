@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1309.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1309",
+  "title": "Standard Sales - Return Rcpt. (report)",
+  "blob": "146dca0610b151a636ca017b85e6b736b91b71e8",
+  "summary": "The Standard Sales - Return Rcpt. report prints formatted documents for posted return receipts showing returned items and quantities, with options for interaction logging and zero-quantity line hiding, available in RDLC and Word layouts.",
+  "systems": [
+    "sales",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "sales reports",
+    "return receipt",
+    "customer service",
+    "document printing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Return Rcpt."
+    }
+  ],
+  "features": [
+    "Return receipt printing",
+    "Customer interaction logging",
+    "Zero-quantity line hiding",
+    "Customer filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "video_id": "FBrZwXpOhmM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.4,
+      "end": 23.1,
+      "text": "Hello and welcome to What's Cooking. In this video, we're showing you a thing that we're cooking up to assist users working with agents and AI. First, for the payable agent in the 2025 wave 2 major release and potentially for other features down the road."
+    },
+    {
+      "t": 23.1,
+      "end": 35.8,
+      "text": "For users to adopt AI, it's important that they trust AI. Therefore, we're surfacing the payables agents reasoning to the user so they know why the agent suggested a certain field value."
+    },
+    {
+      "t": 35.8,
+      "end": 46.7,
+      "text": "So, what we're looking at here is the is a purchase document draft where the we have imported one invoice with one line on it. And in this case, the agent suggests a GL account."
+    },
+    {
+      "t": 46.7,
+      "end": 65.4,
+      "text": "And you'll now notice the small I icon next to the account number. And this is where we're surfacing the agent's reasoning. So I can click that and I can now see why does the agent think this account from the chart of accounts is the best match for this type of expense."
+    },
+    {
+      "t": 65.4,
+      "end": 77.8,
+      "text": "But you notice here it says two fields for review. So there must be one more field here that I need to review. So if I browse a bit, scroll a bit to the right, I can see the deferral code. It's actually been set to one Y."
+    },
+    {
+      "t": 77.8,
+      "end": 92.3,
+      "text": "So I would think that's one year. Let's see the reasoning for that. Actually here we see that there's a nice reasoning for why it thinks I need to use a default code and it will find the default code itself."
+    },
+    {
+      "t": 92.3,
+      "end": 105.8,
+      "text": "So this way we want to show how the agent uh gets to a certain field value and this goes regardless if it suggest counts or an item uses item references whatever it does."
+    },
+    {
+      "t": 105.8,
+      "end": 114.8,
+      "text": "So this is important for users to trust and learn how to work with AI. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 306
+}

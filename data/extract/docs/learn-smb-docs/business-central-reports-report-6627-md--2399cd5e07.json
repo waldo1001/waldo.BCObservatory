@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6627.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6627",
+  "title": "SN Label Report in Business Central",
+  "blob": "18b9d25f642ec6f44d702efb94d034eb9c686ff5",
+  "summary": "SN Label report generates printable barcode and QR code labels for serial-tracked items, enabling warehouse staff to identify and scan individual items throughout receipt, picking, put-away, and shipping workflows.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "label printing",
+    "serial numbers",
+    "barcodes",
+    "qr codes",
+    "traceability"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "SN Label"
+    }
+  ],
+  "features": [
+    "serial number encoding",
+    "QR code generation",
+    "item filtering",
+    "Word layout",
+    "damage recovery"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005587,
+      "pages_in_call": 8
+    }
+  ]
+}

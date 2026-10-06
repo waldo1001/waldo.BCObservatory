@@ -1,0 +1,27 @@
+{
+  "video_id": "kwGEoxN46hk",
+  "item_id": "video/yt-microsoft/kwGEoxN46hk",
+  "summary": "Running several Sales Order Agents in parallel in Business Central (2026 release wave 1): each agent monitors its own email folder, has its own settings, and unknown senders can be handled with contact matching options. Demo covers setup of a second agent and switching between agents.",
+  "overview": "The video shows that, with this release, more than one Sales Order Agent can be active at the same time. This addresses the limit of a single agent, for example when there are several shared inboxes or other mailboxes to monitor.\n\nIt walks through activating a second agent, giving it a dedicated email folder, setting message review, quote or order behavior and a custom signature, and processing a message from an unknown contact. It ends by showing how to switch between agents and view the statistics of each one.",
+  "key_points": [
+    "Several Sales Order Agents can run in parallel, each monitoring a different inbox or folder.",
+    "Select a dedicated folder for each agent so it does not pick up all received emails or process duplicates.",
+    "Each agent has its own configuration: whether incoming messages are reviewed before processing, whether it creates quotes or orders, and a custom reply signature.",
+    "For emails from unknown senders you can create a new contact on the fly, use an existing contact, or update an existing customer's email address.",
+    "The contact options are useful for emails from shared inboxes or no-reply portals.",
+    "Statistics are shown per agent, and you can switch between agents to monitor their activity.",
+    "More agents can be added for each additional shared inbox or mailbox you need to monitor."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "13fd61f39330e032a42fc361e589bf301091fd0f68ef5043e8c68a303df1f8b6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0395444
+  }
+}

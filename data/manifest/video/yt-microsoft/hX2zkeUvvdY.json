@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Power BI Reports for Sustainability (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=hX2zkeUvvdY",
-  "published_at": null,
+  "published_at": "2025-04-01T15:01:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:20:32.454Z",
+      "captions": "auto:en-orig",
+      "duration_s": 405
+    },
+    "captioned": {
+      "at": "2026-10-06T14:20:54.507Z",
+      "path": "data/captions/microsoft/hX2zkeUvvdY.vtt",
+      "vtt_sha256": "264fcc959e83dbda3dd04b0a798989ae96508a8498e910cd054ec2abb1794951",
+      "segments": 22,
+      "words": 901,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 236,
-    "duration_s": 406,
-    "via": "reconcile"
-  }
+    "duration_s": 405,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "264fcc959e83dbda3dd04b0a798989ae96508a8498e910cd054ec2abb1794951"
 }

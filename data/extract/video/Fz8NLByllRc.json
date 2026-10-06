@@ -1,0 +1,240 @@
+{
+  "video_id": "Fz8NLByllRc",
+  "item_id": "video/yt-microsoft/Fz8NLByllRc",
+  "title": "Expense Agent: Mileage Allowances (2026 release wave 1)",
+  "duration_s": 226,
+  "systems": [
+    "hr",
+    "copilot"
+  ],
+  "topics": [
+    "mileage allowances",
+    "expense agent",
+    "route selection",
+    "distance calculation",
+    "admin configuration",
+    "mileage rates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to mileage expenses",
+      "t_start": 0,
+      "t_end": 16.1
+    },
+    {
+      "title": "Creating a mileage expense",
+      "t_start": 16.1,
+      "t_end": 28.5
+    },
+    {
+      "title": "Setting starting and ending points",
+      "t_start": 28.5,
+      "t_end": 60.9
+    },
+    {
+      "title": "Selecting routes and automatic rate calculation",
+      "t_start": 60.9,
+      "t_end": 83.2
+    },
+    {
+      "title": "Completing the expense entry",
+      "t_start": 83.2,
+      "t_end": 117.6
+    },
+    {
+      "title": "Admin configuration overview",
+      "t_start": 117.6,
+      "t_end": 144.1
+    },
+    {
+      "title": "Configuring mileage rates and units",
+      "t_start": 144.1,
+      "t_end": 169.2
+    },
+    {
+      "title": "Route selection and shortest route option",
+      "t_start": 169.2,
+      "t_end": 195
+    },
+    {
+      "title": "Closing remarks",
+      "t_start": 195,
+      "t_end": 226
+    }
+  ],
+  "features": [
+    {
+      "name": "Mileage expense creation",
+      "description": "Employees can submit travel expenses using a mileage feature in the expense agent by selecting starting and ending points on a map.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.4,
+      "t_end": 107,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mileage",
+        "expense submission",
+        "map-based"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Multi-route selection",
+      "description": "Users can choose from up to three different route options between starting and ending points when creating a mileage expense.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.9,
+      "t_end": 83.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "route options",
+        "user choice"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Automatic mileage rate calculation",
+      "description": "The system automatically calculates the expense amount based on distance and admin-configured mileage rates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.2,
+      "t_end": 107,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "calculation",
+        "rates",
+        "automatic"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Round trip toggle",
+      "description": "A toggle option allows users to mark an expense as a round trip, which doubles the distance and amount calculated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.2,
+      "t_end": 107,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "round trip",
+        "toggle"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Mileage rate configuration",
+      "description": "Administrators can configure the mileage rate per unit (default is miles) and select the default unit of distance (miles or kilometers).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 144.1,
+      "t_end": 169.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin setup",
+        "rate configuration",
+        "units"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Shortest route enforcement option",
+      "description": "Administrators can enable a toggle on the Expense Agent Setup page to enforce the shortest route selection, preventing users from choosing multiple routes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181.9,
+      "t_end": 195,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin control",
+        "route enforcement"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Automatic expense report matching",
+      "description": "The expense agent automatically processes mileage expenses and attempts to match and add them to existing expense reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.6,
+      "t_end": 127.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "expense report",
+        "matching",
+        "processing"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Agent Setup",
+      "t": 181.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.4,
+      "text": "the new feature that we added, which is to create mileage expenses",
+      "why_it_matters": "Establishes that mileage expense creation is a new feature added in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 60.9,
+      "text": "I as user can choose up to three different routes uh and yeah, choose the one that uh I drove uh through",
+      "why_it_matters": "Defines a key capability: users get up to three route options to select from.",
+      "check": "exact"
+    },
+    {
+      "t": 83.2,
+      "text": "based on what your admin set uh the rates of the the miles",
+      "why_it_matters": "Explains how the system calculates expenses using admin-configured rates.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 93.2,
+      "text": "if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the",
+      "why_it_matters": "Describes the round trip functionality and its effect on calculation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 3,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029117999999999998
+    }
+  ]
+}

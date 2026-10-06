@@ -1,0 +1,371 @@
+{
+  "video_id": "kD8kX14VVZE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.3,
+      "end": 22,
+      "text": "Hi, welcome to Busy Central Lunch Edition 2025 release wave 2. Today I will explain you what is new in sustainability related to one compliance topic CBM and EPR reporting."
+    },
+    {
+      "t": 22,
+      "end": 35.5,
+      "text": "Before we jumping into details, first I want to explain if you are new in this topic what CBM and EPR are. So CBM is carbon border adjustment mechanism."
+    },
+    {
+      "t": 35.5,
+      "end": 48.1,
+      "text": "It exists to prevent our carbon leakage. Uh this is in European Union. So this is specific tool in our applies to carbon price on import certain good from outside of European Union."
+    },
+    {
+      "t": 48.1,
+      "end": 61.8,
+      "text": "So it prevents to import from another countries and to decrease artificially to decrease carbon in uh European Union countries. On the other side, EPR is extended producer responsibility."
+    },
+    {
+      "t": 61.8,
+      "end": 77.7,
+      "text": "So this is new environmental policy that approach to hold producer accountability for entire life cycle of products. So this is something what we need to track inside the business center through entire life cycle and it includes collection and recycling disposal packaging and other waste."
+    },
+    {
+      "t": 77.7,
+      "end": 89.4,
+      "text": "So this is not applicable for all items but for many of them. So let's look business values about that why we deliver uh this functionality in the first place."
+    },
+    {
+      "t": 89.4,
+      "end": 107.6,
+      "text": "So with that uh regulatory alignment it made much easier. So you will have everything by design inside the B central. You can have all not all but many of new European Union regulations as this time as the CBMPR inside the system."
+    },
+    {
+      "t": 107.6,
+      "end": 123,
+      "text": "Then it will definitely reduce the risk environmental impact. So not not only about compliance uh it will promote echco-friendly practices. So from two different reasons and on the end it improve operational efficiency because now you can be focused what you really need to do."
+    },
+    {
+      "t": 123,
+      "end": 133.9,
+      "text": "You do not need to focus to reporting. If you properly set up your system, system will track and when you need to report CBM, EPR, you can do it relatively easily."
+    },
+    {
+      "t": 133.9,
+      "end": 145.1,
+      "text": "How we made it? You can find another session about excise taxes. Why I say that in a framework we are using a foundation we are using excise taxes new framework."
+    },
+    {
+      "t": 145.1,
+      "end": 163.7,
+      "text": "So this is new framework we delivered and first two functionalities because framework is just a framework. We do not have specific calculation in the framework but first two calculation we introduced were uh CBM and EPR based on a set some set of specific rules for calculations"
+    },
+    {
+      "t": 163.7,
+      "end": 175.4,
+      "text": "and before we start I want to show you prerequisites what you need to set up because definitely it requires some setup so you can track all this information on CBAM"
+    },
+    {
+      "t": 175.4,
+      "end": 186.1,
+      "text": "you need to set up first setup uh carbon pricing table new table new page you will find. So you must set up uh carbo pricing and then you need to set up your items."
+    },
+    {
+      "t": 186.1,
+      "end": 197,
+      "text": "Each of items you will see I will show you what you need to set up. So this is important. On other side EPR is little bit different. So first we have EPR materials."
+    },
+    {
+      "t": 197,
+      "end": 209.3,
+      "text": "This is just a list of all materials required to be tracked in a EPR based on EPR requirements. And then using these EPR materials you will use item material composition."
+    },
+    {
+      "t": 209.3,
+      "end": 225.9,
+      "text": "This is the page very similar with the production bill material. In general for each of items you need to explain uh what of EPR materials will be used for producing and of course on the end you need to set up items to use all these things."
+    },
+    {
+      "t": 225.9,
+      "end": 239.8,
+      "text": "So where it apply CBM applies to purchase documents and on other side EPR applies to sales documents. So let's look what is inside. Let's start with the CBM setup and calculation."
+    },
+    {
+      "t": 239.8,
+      "end": 250.7,
+      "text": "Okay, as I said, first we have carbon pricing table. You need to set up few things there. So you need to choose for each of countries."
+    },
+    {
+      "t": 250.7,
+      "end": 266.6,
+      "text": "You need to set up uh starting and ending date. Actually you need to set up starting date. It doesn't mean that you need immediately ending date. But if carbon price is changing, you need to set up ending date and then to create new starting and ending date for next period."
+    },
+    {
+      "t": 266.6,
+      "end": 277.8,
+      "text": "So then you need to set up unit of measure how you will calculate and what will be the price for uh carbon carbon price. For example, this is kilogram."
+    },
+    {
+      "t": 277.8,
+      "end": 290.2,
+      "text": "What will be price for this 1 kilogram in a as a carbo price and one more thing you need to say what is the threshold because it will not apply for all values."
+    },
+    {
+      "t": 290.2,
+      "end": 301.3,
+      "text": "for example purchases really small uh num small amounts you are not you are not supposed to report CBM so you need to set up your threshold"
+    },
+    {
+      "t": 301.3,
+      "end": 321.4,
+      "text": "uh okay you have rounder policy so you can uh choose if this is nearest or how you want to set up and again just not to forget this is per country you can use for all countries if you have the same carbon price for all countries so you do not set up specific countries but again it will be the best option to set up because in this moment and system can track for where you"
+    },
+    {
+      "t": 321.4,
+      "end": 335.7,
+      "text": "purchased. So this is the best option and even it can help because sometimes you can have different price car prices from different countries. Okay, this is first you need to check it, you need to set up sorry and then you need to switch to items."
+    },
+    {
+      "t": 335.7,
+      "end": 356.2,
+      "text": "You need to open one item and when you open this item let's switch to sustainability fast tab and what you need you you must have there on the first place you need to have set up sustainability account and then you need to have a minimum carbon emissions default carbon emission for this item."
+    },
+    {
+      "t": 356.2,
+      "end": 366.2,
+      "text": "So you can have three different emissions there. You can track all of them. You can calculate what your carbon equivalent emission is but minimum you need to have carbon."
+    },
+    {
+      "t": 366.2,
+      "end": 379.4,
+      "text": "Then you need to switch um to setup for CBAM. So you just need to check what is your emission verify place. If this is for vendor certify or some other uh resource"
+    },
+    {
+      "t": 379.4,
+      "end": 392,
+      "text": "and then when you have chose for example I have vendor then you need to choose to mark if emission is verified or not and if this is CBM compliant or not."
+    },
+    {
+      "t": 392,
+      "end": 412,
+      "text": "So only CBM compliant items will be used for calculation and it is important information if emission is verified or not. So uh about uh emission information you can enter uh direct an item or when you make purchase system will automatically collect and uh enter into carbon equivalent value."
+    },
+    {
+      "t": 412,
+      "end": 424,
+      "text": "So you can use both of these options. So now let's switch to purchase invoice and as I already have vendor so I just need to enter some uh lines."
+    },
+    {
+      "t": 424,
+      "end": 439.4,
+      "text": "So I have four lines for different items uh in my uh purchase invoice. And what is important you need to go on the right side little bit and you will find this information if this is verified CBN compliant."
+    },
+    {
+      "t": 439.4,
+      "end": 450.4,
+      "text": "So I have marked for all these items. So all good. What I need to do I just need to post. When I post document okay I will confirm"
+    },
+    {
+      "t": 450.4,
+      "end": 464.2,
+      "text": "everything is good. So now I can switch to my new excise journal. going there you need to choose what is your batch. In a batch you need to have CBM uh as a excise type."
+    },
+    {
+      "t": 464.2,
+      "end": 478.3,
+      "text": "So if you already have this you just need to calculate and then you will be asked do you want to calculate journal lines? Of course if I say yes you will get some lines."
+    },
+    {
+      "t": 478.3,
+      "end": 489.5,
+      "text": "Okay I will not read all lines you have there. You will find that this is calculated based on purchase invoice. What is invoice number? who is a vendor, if this is verified, if this is CBM uh compliant."
+    },
+    {
+      "t": 489.5,
+      "end": 507.9,
+      "text": "So all this information about items about total emissions. So all these informations are here. So you will find even country as a origin country and um all other information already calculated if this is uh over the threshold if not it will not be calculated here."
+    },
+    {
+      "t": 507.9,
+      "end": 520.9,
+      "text": "Now I just wanted to uh explain about country of region. So system will first uh look if there is country of a region of item. If there is country of a region on item card system will use this one."
+    },
+    {
+      "t": 520.9,
+      "end": 531.6,
+      "text": "If not then system will use from vendor uh vendor country as a country of region. So then we just need to register and when we register"
+    },
+    {
+      "t": 531.6,
+      "end": 542.3,
+      "text": "we can go to uh excise taxes uh transaction logs and then you can find all these new entries created"
+    },
+    {
+      "t": 542.3,
+      "end": 557.6,
+      "text": "what we have all of them are marked as a excess tax as a CBM as a purchase. So you can go there and find all these carbon prices calculated. So everything is there. So from there this is easily to be ex exported and to use for reporting."
+    },
+    {
+      "t": 557.6,
+      "end": 569.8,
+      "text": "So now let's switch to EPR setup and calculation. We will start with the EPR materials. As I said this is simple table."
+    },
+    {
+      "t": 569.8,
+      "end": 584.2,
+      "text": "So you just need to create some names. For example you have plastic, metal so on. So then you can say what is uh unit of measure then EPR fees calculated and verify date."
+    },
+    {
+      "t": 584.2,
+      "end": 595.1,
+      "text": "So that's it. This is just simplified table. Nothing special. Then we will switch to the item because you need to create composition but we can do it from item. Let's open one item."
+    },
+    {
+      "t": 595.1,
+      "end": 607.6,
+      "text": "Again we will go to the sustainability fast tab and then we have EPR category. We need to choose what is your EPR category. As I said, it doesn't apply to all item types."
+    },
+    {
+      "t": 607.6,
+      "end": 617.8,
+      "text": "If this is packaging or electronics, so it depends what is about. But if your item is one of them, you need to choose which one. Okay, I'll choose for example packaging here."
+    },
+    {
+      "t": 617.8,
+      "end": 628.6,
+      "text": "Now, we need to enter material composition number. As you can see, I do not have currently any material composition in my system. So, I can just choose new one to create."
+    },
+    {
+      "t": 628.6,
+      "end": 648.7,
+      "text": "And then I will populate information header. As you can see material composition page is almost the same as a bill of material. So in general it is very similar because you have information header for uh about item you are creating this information and then on the lines you will have all your EPR"
+    },
+    {
+      "t": 648.7,
+      "end": 661,
+      "text": "materials you're using for this composition. So once when we have created and choose unit of measure we have as a default on this item we need to enter information into lines. So you can choose one of your"
+    },
+    {
+      "t": 661,
+      "end": 674.6,
+      "text": "um materials EPR materials if you have your system. I enter three uh different EPR materials and then you can configure what is the weight for each of them related to this one unit of measure."
+    },
+    {
+      "t": 674.6,
+      "end": 686,
+      "text": "In our case unit of measure for main item is pieces. So how many kilograms or aluminum or whatever we have for one piece of this item."
+    },
+    {
+      "t": 686,
+      "end": 697,
+      "text": "Then all other information are already calculated. But if you extend this page, you can find there are few more information there. Calculation fee, sorting fee, some other fees."
+    },
+    {
+      "t": 697,
+      "end": 709.7,
+      "text": "So you have an option to add these other fees if they're required. So this is on you. This is a setup. So EPR fee is by default. Others fees are something you can if you need to add."
+    },
+    {
+      "t": 709.7,
+      "end": 722.9,
+      "text": "Okay. Once when you complete, what do you need to do? You need to change the status of your material composition from new to certify again very similar and very familiar with bill of materials and just confirm."
+    },
+    {
+      "t": 722.9,
+      "end": 735.3,
+      "text": "Okay. So now we have set it up and then you can find that we have total EPR weight EPR per unit. So everything is already calculated from our composition page."
+    },
+    {
+      "t": 735.3,
+      "end": 747.4,
+      "text": "Okay. One more thing you need to configure end of life disposal information. So this is pure textual information. You have 50 characters. This is something you need to report."
+    },
+    {
+      "t": 747.4,
+      "end": 757.7,
+      "text": "So you need to have this information not mandatory. So if you need to report, you can add for each of items here. So"
+    },
+    {
+      "t": 757.7,
+      "end": 768.3,
+      "text": "what else? Now when we have all of these configured, we will switch into the sales invoice. This time is a if you remember CBM is for purchase, EPR is for sales."
+    },
+    {
+      "t": 768.3,
+      "end": 779.2,
+      "text": "And as we have some items you can find that we already have total APR fee calculated. So only what we need to do is to post and then"
+    },
+    {
+      "t": 779.2,
+      "end": 789.8,
+      "text": "that's it. We can look into our excise journals again. But to remind you I mentioned previously you need to choose the type."
+    },
+    {
+      "t": 789.8,
+      "end": 802.7,
+      "text": "Previously we use CBM as a type. Now we will use EPR as a type. So that means you need to have created batch for both CBM and EPR different batch. You can have more of them but minimum you need to have one per them."
+    },
+    {
+      "t": 802.7,
+      "end": 823,
+      "text": "There are third type is excise but currently for us this is the most important you can choose CBM and EPR. So once when you choose EPR batch you will confirm and uh you need to use calculate again you will be asked if you want yes we want and we will get only one line because we have only one line in the sales document."
+    },
+    {
+      "t": 823,
+      "end": 836,
+      "text": "So what is important now as a uh source type we are using uh sales invoice and then we have EPR information ready for reporting."
+    },
+    {
+      "t": 836,
+      "end": 851.1,
+      "text": "If you look to our items you can see items and material composition source. So this is important. You can go deeper. So if you choose you can locate your material composition even you can look into details."
+    },
+    {
+      "t": 851.1,
+      "end": 862.1,
+      "text": "Now this is composition we material composition we create recently. So that's it. Let's close and register this journal excise journal line."
+    },
+    {
+      "t": 862.1,
+      "end": 882.1,
+      "text": "So once when we register that's okay we can switch and try to find transaction logs excise transaction logs and once when we have there you can see we have previously used CBAM entries but this one entry is marked as a EPR and as a"
+    },
+    {
+      "t": 882.1,
+      "end": 894.9,
+      "text": "source there is sales and now you can go further and find all this information about EPR calculations CBN calculations there. So there are uh CBM APR both of them they are compliance topic"
+    },
+    {
+      "t": 894.9,
+      "end": 909.6,
+      "text": "uh not something that probably all of us like and enjoy to work with but this is something what is really mandatory by many regulations especially European Union. So this is good you can automate if you set up properly it will help you a lot in uh future work."
+    },
+    {
+      "t": 909.6,
+      "end": 922.4,
+      "text": "So before we close this session I will remind you to watch general business center resources. There are six different links. It can help a lot. Then do not forget to subscribe to LinkedIn page."
+    },
+    {
+      "t": 922.4,
+      "end": 937,
+      "text": "You can follow all our weekly news and other announcements about Business Central and watch YouTube channel. This video and other videos related to sustainability or other topics in this editions are there or previous editions."
+    },
+    {
+      "t": 937,
+      "end": 947,
+      "text": "So you can find hundreds of different videos akamsc YouTube. Thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.309,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.319,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2532
+}

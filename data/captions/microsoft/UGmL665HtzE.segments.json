@@ -1,0 +1,248 @@
+{
+  "video_id": "UGmL665HtzE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.2,
+      "end": 12.2,
+      "text": "Uh, I think we'll slowly get started. Can Can you hear me? Just uh maybe somebody send a thumb up or something like that if you can hear me. Okay, just so I know I'm not talking into uh into nothing."
+    },
+    {
+      "t": 12.2,
+      "end": 25.5,
+      "text": "Seems like I am I'm going through. So, uh I'll get started. My name is Alexander and I'll be running this office hours call with me. I have Sebastian. Uh so, we're we're kind of small team uh today uh due to vacations and such."
+    },
+    {
+      "t": 25.5,
+      "end": 37.4,
+      "text": "So yeah, later on in the session we'll open up for Q&As's but uh yeah, if we can't answer all your questions, just uh feel free to post them in our ILGO repository."
+    },
+    {
+      "t": 37.4,
+      "end": 53,
+      "text": "Yeah. So the agenda for today is I'll start talking about what's new and then I'll get into one announcement and then we'll get into the Q&A. Uh so to get started with what's new in ALGO for GitHub, I actually want to start by talking about what's not new."
+    },
+    {
+      "t": 53,
+      "end": 63.2,
+      "text": "uh because this stuff uh was something that we presented last time uh in last hour last month's office hours. Uh the difference now is that we've shipped it as part of version 7.2."
+    },
+    {
+      "t": 63.2,
+      "end": 73.5,
+      "text": "Last month it was only in preview. Uh so yeah, we have a couple new features in the latest version. Uh make sure to upgrade uh and so you can take advantage of these things."
+    },
+    {
+      "t": 73.5,
+      "end": 82,
+      "text": "I won't go through uh the features here, but if you go to ILGO release notes, you can you can read more about them."
+    },
+    {
+      "t": 82,
+      "end": 96.3,
+      "text": "Now to what's actually new. Um we have these three features that we want to show today. Uh they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that."
+    },
+    {
+      "t": 96.3,
+      "end": 116.4,
+      "text": "Um so the first one is a starter dashboard for ILGO telemetry. Uh this was based on some feedback that we got uh some office hours ago earlier in the year that algo has the capability of emitting telemetry but it would be nice if we could have you know some custories or some beginner dashboard that you can"
+    },
+    {
+      "t": 116.4,
+      "end": 131.1,
+      "text": "kind of get started with so you can you know get get started with telemetry it'll go telemetry quickly. Uh and so we made a a small dashboard for that. It's pretty much like a plug-and-play Azure Azure data explorer uh report."
+    },
+    {
+      "t": 131.1,
+      "end": 147.1,
+      "text": "So, what you have to do is go to the ILGO repository and download a JSON file there and then you have to fill in a couple of things. Um, and then as soon as you upload it to data explorer, it will just connect to your uh application insights and you'll get"
+    },
+    {
+      "t": 147.1,
+      "end": 161.1,
+      "text": "uh you'll get some basic like reporting capabilities. Uh, I'm sorry. I think the screenshots here are a little bit uh grainy, but uh yeah, essentially it'll give you the ability to see what workflows you have running,"
+    },
+    {
+      "t": 161.1,
+      "end": 173.7,
+      "text": "which ones are failing. Um, you can see and uh a breakdown of which how many how many minutes is AO running on GitHub hosted runners or self-hosted runners."
+    },
+    {
+      "t": 173.7,
+      "end": 184.4,
+      "text": "Uh this might be useful for people that you know run on self-hosted runners and want to make sure that absolutely everything is on self-hosted runners and so on. Um"
+    },
+    {
+      "t": 184.4,
+      "end": 195.4,
+      "text": "you can see uh which algo versions you're running on in your different repos and when was the last time you updated and you can see"
+    },
+    {
+      "t": 195.4,
+      "end": 209.9,
+      "text": "deprecations. So every now and again in ALGO we we'll deprecate certain settings and we'll we'll warn you by basically emitting to telemetry some warnings. It'll you can also see them in the the warnings uh on on the GitHub page."
+    },
+    {
+      "t": 209.9,
+      "end": 222.2,
+      "text": "But uh but we also emitted to telemetry. So this will give you like a central place where you can see all the the kind of warnings that you have for your repos or if you're using settings that are deprecated."
+    },
+    {
+      "t": 222.2,
+      "end": 233.6,
+      "text": "Uh so hopefully you know you become aware of these things before before they're actually deprecated and and something might break uh in your repo."
+    },
+    {
+      "t": 234.1,
+      "end": 251.5,
+      "text": "The next one is uh is a rather big one uh custom template repositories. This this basically gives you the capability of adding your own template repository that you can spawn other repositories out of similar to how algo PTE or ALGO app source"
+    },
+    {
+      "t": 251.5,
+      "end": 267.7,
+      "text": "uh works today. Uh now you get the capability of adding your own template repository uh where you can add your own custom scripts or custom workflows and so on and those will be synced when you run update elgo system files those things would be synced to"
+    },
+    {
+      "t": 267.7,
+      "end": 287.2,
+      "text": "your other elgo repositories. Uh so I made like a small uh graphical representation of it. So today what happens is you have my repo one and my repo 2 and when you update when you run update a go system files the those repos will look in in this case algo pt could also be a go app source"
+    },
+    {
+      "t": 287.2,
+      "end": 301.4,
+      "text": "uh for updates to the workflows uh with custom templates you can basically stick your own template repository in the middle. So when you run update ago system files in your own template repository,"
+    },
+    {
+      "t": 301.4,
+      "end": 321.4,
+      "text": "you you grab the latest changes from elgo pd um and then you can set your my repo one and my repo 2 to look at your at the my template repository instead of the elgo pte repository so that you basically get the latest changes from elgo pte plus whatever customizations"
+    },
+    {
+      "t": 321.4,
+      "end": 338.8,
+      "text": "that you've made in your my template repo. Like I said, this could give you a give you a central place to kind of uh distribute your if you have a your own workflow that you made or a script or something, you can put that in my template and then when you run update system files,"
+    },
+    {
+      "t": 338.8,
+      "end": 345.8,
+      "text": "they'll be propagated to my repo one and my repo 2."
+    },
+    {
+      "t": 345.9,
+      "end": 361.7,
+      "text": "Um on a similar note around customizations, we also added the ability to add custom jobs. Uh so this this gives you the ability to basically edit the YAML files that ALGO ships with out of the box um but only to a limited extent."
+    },
+    {
+      "t": 361.7,
+      "end": 371.8,
+      "text": "So you can add your own custom jobs to these workflows as long as you you prefix it with custom job dash and then whatever name you have."
+    },
+    {
+      "t": 371.8,
+      "end": 387,
+      "text": "Uh so in this case could be if you want to add to your CI/CD pipeline a job that creates a build tag. uh you can now do that in the in the CI/CD YAML file that we ship as part of ALGO."
+    },
+    {
+      "t": 387,
+      "end": 399,
+      "text": "Uh but it does come with a warning which is you need to be you need to be careful doing this because we we don't really make any we can't really make any promises that we won't change the name of one of our jobs or something like that."
+    },
+    {
+      "t": 399,
+      "end": 419,
+      "text": "So you may run into issues if you start doing this. So just use it very carefully and please please make sure to review whenever you run update ecosystem files because yeah we may make changes to our YAML files that will break some of your customizations that you build on top of it."
+    },
+    {
+      "t": 419,
+      "end": 426.1,
+      "text": "Uh so yeah if you're going to use custom jobs just please be please be careful."
+    },
+    {
+      "t": 426.1,
+      "end": 440.2,
+      "text": "So those were the three features um from this month. They're all in preview, like I said, so you won't be able to find them in version 7.2. Um, so yeah, if you want to use them now, you can upgrade to preview."
+    },
+    {
+      "t": 440.2,
+      "end": 452.2,
+      "text": "Before we get into Q&A, just one announcement that I also did last month, and that is if you are running an ALGO version lower than 5.0, then please upgrade because this will break very soon."
+    },
+    {
+      "t": 452.2,
+      "end": 464.3,
+      "text": "Um, version 5.0 was released more than a year ago. So, as long as you've run updated ecosystem files in the last year, you're probably not on version 5.0."
+    },
+    {
+      "t": 464.6,
+      "end": 479.3,
+      "text": "So, with that said, um we'll get into the Q&A. Uh like I mentioned, we're we are small team today. So, hopefully we can answer all your questions, but if not, then uh please post your questions in our in our repository as well."
+    },
+    {
+      "t": 479.3,
+      "end": 492.6,
+      "text": "We're also available there uh to answer questions or take bug reports or whatever there might be."
+    },
+    {
+      "t": 492.6,
+      "end": 504.6,
+      "text": "So basically any questions sorry any questions today please post them in the Q&A pane not the chat window. Yes thank you."
+    },
+    {
+      "t": 505,
+      "end": 515,
+      "text": "Yes, basically for the remainder of this office hours call, the next 40 minutes or so, we'll be available for questions unless there are no questions and then we can just cut it short."
+    },
+    {
+      "t": 515,
+      "end": 524,
+      "text": "But yeah, we'll be available in case in case you have questions."
+    },
+    {
+      "t": 590.4,
+      "end": 606.5,
+      "text": "feel free to let us know as well if if there's a certain feature or something you're missing you're really missing in Ago then by all means you know let us know as well this is a good forum for that too as well as of course the ILG go repository but now that we're here at the office hours if there's any"
+    },
+    {
+      "t": 606.5,
+      "end": 614.6,
+      "text": "features or comments or anything we're also happy to take that."
+    },
+    {
+      "t": 749.8,
+      "end": 762,
+      "text": "Yeah. So, if there are no questions, I will give it a couple more minutes, but if there are no questions, then I don't see any reason to extend office hours much longer. We'll I'll stick around maybe for another I don't know, four or five minutes or something."
+    },
+    {
+      "t": 762,
+      "end": 779,
+      "text": "If nothing comes up then uh yeah you can always reach us on the algo repository either through creating a GitHub issue or a discussion depending on what what the topic of of your request is."
+    },
+    {
+      "t": 782.4,
+      "end": 790,
+      "text": "It's also a very small office hours today. It looks like probably because of vacations."
+    },
+    {
+      "t": 858.9,
+      "end": 872.7,
+      "text": "doesn't look like there are any questions. Uh yeah, so I think we'll slowly start wrapping up. Just one note, uh next month it's July and uh we won't have an office hours call in July."
+    },
+    {
+      "t": 872.7,
+      "end": 883.5,
+      "text": "So, uh, next office hours office hours call will be, I guess, at the end of August. Last the last Tuesday of August or something. It'll be a little while until we have another one."
+    },
+    {
+      "t": 883.5,
+      "end": 894.5,
+      "text": "But again, you can always reach us on the AGO repository. So, yes, if there are no questions, then I think we can just uh just wrap up."
+    },
+    {
+      "t": 894.5,
+      "end": 901,
+      "text": "Thank you very much for attending and we'll see you at the next office hours."
+    }
+  ],
+  "markers": [],
+  "word_count": 1753
+}

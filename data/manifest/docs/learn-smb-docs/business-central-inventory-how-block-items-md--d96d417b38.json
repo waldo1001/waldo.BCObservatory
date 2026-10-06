@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-block-items",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4a054b45cfa3693ca5ad5041ba03081eac33fb7f",
       "words": 451,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.524Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.008701
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.528Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.528Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.528Z",
+      "page": false
     }
   },
   "input_hash": "4a054b45cfa3693ca5ad5041ba03081eac33fb7f",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4a054b45cfa3693ca5ad5041ba03081eac33fb7f"
+  "output_hash": "30126d19addb726050fdec3e816d0e3a8ddd0e30a7b3771cbff63abd797ba284"
 }

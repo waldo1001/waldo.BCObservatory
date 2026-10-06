@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchase-reports",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6",
       "words": 87,
       "forms": 14
+    },
+    "extracted": {
+      "at": "2026-10-06T14:10:27.799Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003335
+    },
+    "summarized": {
+      "at": "2026-10-06T14:10:27.807Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:10:27.808Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:10:27.808Z",
+      "page": false
     }
   },
   "input_hash": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6",
@@ -108,5 +127,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6"
+  "output_hash": "64cf266719604cc19c84964576d79085af48d8b8588b1654580fa62270b0f39f"
 }

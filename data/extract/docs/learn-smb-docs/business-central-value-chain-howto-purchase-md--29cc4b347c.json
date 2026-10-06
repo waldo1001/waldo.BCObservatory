@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-purchase",
+  "title": "Sustainability value chain in purchasing",
+  "blob": "e001c8c6d8148047ac979562a90db51af9793534",
+  "summary": "Sustainability value chain in purchasing enables recording emissions from purchase documents and vendors, calculating CO2e using average or specific tracking methods, and posting sustainability value entries.",
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "purchase documents",
+    "emissions tracking",
+    "carbon tracking method",
+    "sustainability accounts",
+    "co2e",
+    "vendor emissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Enable Value Chain tracking",
+    "Use Emissions In Purchase Documents",
+    "Carbon Tracking Method",
+    "Average tracking",
+    "Specific tracking",
+    "Lot tracking",
+    "Sustainability accounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances",
   "published_at": "2026-10-01T12:38:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7e076c80f7642384cfbb87254fe4db8c8c1d495d",
       "words": 1752,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:08:17.028Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006802
+    },
+    "summarized": {
+      "at": "2026-10-06T14:08:17.032Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:08:17.032Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:08:17.032Z",
+      "page": false
     }
   },
   "input_hash": "7e076c80f7642384cfbb87254fe4db8c8c1d495d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e076c80f7642384cfbb87254fe4db8c8c1d495d"
+  "output_hash": "0225c6ce024acb0c6a928543f486f39483a248b80aaa6f1a96166e531c0e8183"
 }

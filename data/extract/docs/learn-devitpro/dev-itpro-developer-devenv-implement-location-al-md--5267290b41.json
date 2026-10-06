@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-implement-location-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al",
+  "title": "Implementing Location in AL for Business Central",
+  "blob": "302faf80b788abc5eea0c9082a45cb6a1cbb05b6",
+  "summary": "Implementing location functionality in AL allows accessing device GPS coordinates for scenarios like route calculation and map display. Use the Geolocation codeunit for online, or LocationProvider DotNet type for on-premises deployments.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "location",
+    "gps",
+    "geolocation",
+    "device",
+    "mobile",
+    "dotnet interoperability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Card with Location Capability"
+    }
+  ],
+  "features": [
+    "LocationProvider",
+    "RequestLocationAsync",
+    "EnableHighAccuracy",
+    "Timeout",
+    "LocationChanged trigger",
+    "IsAvailable method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004685,
+      "pages_in_call": 8
+    }
+  ]
+}

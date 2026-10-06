@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts",
   "published_at": "2026-08-26T07:23:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1527624436cda34b74533e82574f7acba257a25e",
       "words": 2348,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:14.513Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00753
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:14.519Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:14.520Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:14.520Z",
+      "page": false
     }
   },
   "input_hash": "1527624436cda34b74533e82574f7acba257a25e",
@@ -85,5 +104,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1527624436cda34b74533e82574f7acba257a25e"
+  "output_hash": "707506e14385e6a2cf0d6644c388a7026b07117a7047e9fd750eade0d2879de7"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extend-pages-based-on-date-virtual-table.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-pages-based-on-date-virtual-table",
+  "title": "Extend Pages Based on the Date Virtual Table",
+  "blob": "b66bcbc908a3c497c05b7778f6380e674ee662da",
+  "summary": "Pages formerly based on the Date virtual table now use buffer tables; extend them by extending the buffer table and subscribing to the OnAfterCalcLine event.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "page extension",
+    "virtual table",
+    "buffer table",
+    "event subscriber",
+    "date table"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Balance Lines"
+    },
+    {
+      "type": "table",
+      "name": "G/L Acc. Balance Buffer"
+    }
+  ],
+  "features": [
+    "Table extension",
+    "Page extension",
+    "OnAfterCalcLine event",
+    "CalcFields method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004843,
+      "pages_in_call": 8
+    }
+  ]
+}

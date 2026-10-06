@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-camera-options",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "54f8a1b313d288f402a00e657a16aad0fe5fb26b",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.665Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.670Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.670Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.670Z",
+      "page": false
     }
   },
   "input_hash": "54f8a1b313d288f402a00e657a16aad0fe5fb26b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54f8a1b313d288f402a00e657a16aad0fe5fb26b"
+  "output_hash": "9e6d4f4da906ee55c60403221f1f5cb81f7479315f73d9a1b25941bfa7cce49d"
 }

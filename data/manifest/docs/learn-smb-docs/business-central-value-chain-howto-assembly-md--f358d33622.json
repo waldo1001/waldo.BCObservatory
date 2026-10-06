@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-assembly",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cb0da4f71ce60c17cb547f66426cdbe8861e73af",
       "words": 709,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:04:51.505Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005133
+    },
+    "summarized": {
+      "at": "2026-10-06T14:04:51.509Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:04:51.509Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:04:51.509Z",
+      "page": false
     }
   },
   "input_hash": "cb0da4f71ce60c17cb547f66426cdbe8861e73af",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb0da4f71ce60c17cb547f66426cdbe8861e73af"
+  "output_hash": "a2d06c8951626b1947112ee7c50cba07318913265750732d8af931bfe1f62af1"
 }

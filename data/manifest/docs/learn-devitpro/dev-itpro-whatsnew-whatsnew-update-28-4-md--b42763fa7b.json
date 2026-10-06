@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-4",
   "published_at": "2026-08-07T12:41:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "23ea19ef1d43ebfa68a62ab3cd5a7211f8019ba7",
       "words": 550,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:46.836Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008564
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:46.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:46.839Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:46.839Z",
+      "page": false
     }
   },
   "input_hash": "23ea19ef1d43ebfa68a62ab3cd5a7211f8019ba7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23ea19ef1d43ebfa68a62ab3cd5a7211f8019ba7"
+  "output_hash": "c5349a5ef91d4219650003edc6c788debdeb3dc85562bca3eb103471c23dea8c"
 }

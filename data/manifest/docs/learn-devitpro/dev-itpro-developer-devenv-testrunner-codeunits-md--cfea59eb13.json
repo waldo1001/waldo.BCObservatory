@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testrunner-codeunits",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "68a6a5b601ebcc87067977ab6a92c48fe31ed9e3",
       "words": 303,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:56.237Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:56.240Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:56.240Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:56.240Z",
+      "page": false
     }
   },
   "input_hash": "68a6a5b601ebcc87067977ab6a92c48fe31ed9e3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "68a6a5b601ebcc87067977ab6a92c48fe31ed9e3"
+  "output_hash": "fb0ad59f03f82ad8a1b21c6f8a950ece932684081cabdaa9ffc6e183cda8b084"
 }

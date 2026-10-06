@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-reports",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86ee946252cc115ca1351427d8f394c73aec6f2d",
       "words": 202,
       "forms": 13
+    },
+    "extracted": {
+      "at": "2026-10-06T14:10:27.799Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003335
+    },
+    "summarized": {
+      "at": "2026-10-06T14:10:27.808Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:10:27.808Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:10:27.808Z",
+      "page": false
     }
   },
   "input_hash": "86ee946252cc115ca1351427d8f394c73aec6f2d",
@@ -103,5 +122,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86ee946252cc115ca1351427d8f394c73aec6f2d"
+  "output_hash": "01837950d91881e4c1d3d5d0072b9b1fa15a96a2f982b42d61eb950f6f1482b8"
 }

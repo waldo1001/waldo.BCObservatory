@@ -1,0 +1,221 @@
+{
+  "video_id": "kJfGIKor3VA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.5,
+      "end": 18.6,
+      "text": "Welcome to this Business Central launch edition 2025 release wave 2. In this video, we're going to talk about two things, drill back and dynamic dimension names for the PowerBI apps for Business Central."
+    },
+    {
+      "t": 18.6,
+      "end": 29.8,
+      "text": "Now, this sounds scary and technical, but it is actually some really useful features in the PowerBI apps. So we cover these two concepts."
+    },
+    {
+      "t": 29.8,
+      "end": 46.6,
+      "text": "Drill back is for situations where you got want to understand the a number in in the report. What what is behind that number? So for instance, maybe you want to kind of have trust in the reports or maybe you want to troubleshoot"
+    },
+    {
+      "t": 46.6,
+      "end": 57.1,
+      "text": "why is like why do we have so many um liabilities on this account and actually want to dive into the figures. Um"
+    },
+    {
+      "t": 57.1,
+      "end": 77.3,
+      "text": "the other feature is dynamic dimension naming and that is u uh because dimensions is a very popular feature in business central. Um and in the previous PowerBI apps we only had the dimension codes and also uh only ability to filter on global dimension 1 2 and three."
+    },
+    {
+      "t": 77.3,
+      "end": 94.9,
+      "text": "So the actual names were not present in PowerBI and we have solved that. Um, so we're going to show you how you can um you need to edit the the reports, but then you can actually get both the names and also the the proper fields of dimensions"
+    },
+    {
+      "t": 94.9,
+      "end": 110.4,
+      "text": "um as filters in your PowerBI reports. So let's dive in and first look at drillback. All right. So imagine you are a controller and uh you take a look at your liabilities."
+    },
+    {
+      "t": 110.4,
+      "end": 127.4,
+      "text": "So here's the liability PowerBI report and um here I have some accounts for instance this GL account 22100 has current liabilities of 105,831."
+    },
+    {
+      "t": 127.8,
+      "end": 141.8,
+      "text": "Now remember that number because uh what happens here is you can see in this matrix that I now have a link and if I choose this link this will open up a new business central tab."
+    },
+    {
+      "t": 141.8,
+      "end": 156.6,
+      "text": "So I can still go back to where I was and this opens up all the transactions behind that number. Remember the number you you remember that. Let's dive into take this list into uh analysis mode."
+    },
+    {
+      "t": 156.6,
+      "end": 168.4,
+      "text": "And uh I'll just also show you a new cool feature here. If I search for amount and right click this guy here, I can scroll amount into view. So a new feature here in 27."
+    },
+    {
+      "t": 168.4,
+      "end": 179.9,
+      "text": "And if you look at that sum here, 105 835. That is actually the number I asked you to uh to remember. So it's not magic even though this is like a magic trick."
+    },
+    {
+      "t": 179.9,
+      "end": 191.8,
+      "text": "This is a drill back from PowerBI back to business central. The second feature is dynamic dimension naming. So um let me show you in PowerBI"
+    },
+    {
+      "t": 191.8,
+      "end": 203.9,
+      "text": "um the sales app and show how the dimensions look uh in there with this new feature. All right. So here in PowerBI desktop I have opened the sales app and"
+    },
+    {
+      "t": 203.9,
+      "end": 224.4,
+      "text": "like in previous versions here are the filters and like you can see I have filters on global dimension one two and that's kind of sad in a way right so global dimension one has uh is apparently departments I think and global dimension two is I think it's customer group"
+    },
+    {
+      "t": 224.4,
+      "end": 240.2,
+      "text": "but that's really hard right so let so how can we fix this with this new feature Um what I need to do is go to data and here I have a new table called dimension sets where you can see we are now loading the customer group name and the department name."
+    },
+    {
+      "t": 240.2,
+      "end": 251.4,
+      "text": "So these are the actual global dimension one and two and that means I can uh for instance plug in as a filter let me just get this down here."
+    },
+    {
+      "t": 251.4,
+      "end": 269.1,
+      "text": "I could put in the customer group as a filter here and this is now dynamically named. So if I go up here, customer group name actually have the the right name of customer group as well as the right values of this."
+    },
+    {
+      "t": 269.1,
+      "end": 279.4,
+      "text": "Right? So I can I can now filter to large business and get my report to that or I could if I wanted to let's just uh do that here."
+    },
+    {
+      "t": 279.4,
+      "end": 291.5,
+      "text": "If I wanted a slicer instead, we don't have really have slicers in our reports. That's a design principle. But let's say I wanted to add a slicer here for customer group for that dimension."
+    },
+    {
+      "t": 291.5,
+      "end": 302.2,
+      "text": "Let's just get that um up here. And let's just center this down here"
+    },
+    {
+      "t": 302.2,
+      "end": 313.2,
+      "text": "like this. And uh like this. Then I could put in customer group into that. And now you see the global dimensions."
+    },
+    {
+      "t": 313.2,
+      "end": 325.4,
+      "text": "The global dimension one is also present here. So what is the dynamic part of this? Let's go back to business central and uh and change our dimension setup."
+    },
+    {
+      "t": 325.4,
+      "end": 343,
+      "text": "So if I now open our general ledger setup where we set up the dimensions for our GL. You can see here our global dimension one and two um or global dimension one uh two and uh I have shortcut dimensions here as well."
+    },
+    {
+      "t": 343,
+      "end": 356.5,
+      "text": "If I add say business group as a shortcut dimension three let's see how we can get that into PowerBI. So now I'm going to shift back to PowerBI desktop and show you that."
+    },
+    {
+      "t": 356.5,
+      "end": 366.5,
+      "text": "So back here in PowerBI desktop, I now choose to refresh not the full data set but just the dimension sets here with a schema and data refresh."
+    },
+    {
+      "t": 366.5,
+      "end": 377.6,
+      "text": "And it will just take a few seconds. And let's see what happens. We are syncing. We are loading. And now we are almost done."
+    },
+    {
+      "t": 377.6,
+      "end": 382.5,
+      "text": "Done. So"
+    },
+    {
+      "t": 382.5,
+      "end": 394.3,
+      "text": "working on it. And there we go. Now we have business group name as a new like table here. That means I could actually take the business group"
+    },
+    {
+      "t": 394.3,
+      "end": 405.7,
+      "text": "uh here instead of the customer name and then I could start using that as a filter if I had any data for business group there. Right? So that's how"
+    },
+    {
+      "t": 405.7,
+      "end": 422.3,
+      "text": "dynamic dimensions work. Let's just go and wrap up and we're done. If you want to know more about PowerBI in Business Central or anything analytics, this is the AK link you need to go to in our learn documentation aka.ms/bcan"
+    },
+    {
+      "t": 422.3,
+      "end": 433,
+      "text": "analytics. Um, remember to follow the product group here on LinkedIn. We have an aka link for that aka.ms/bc"
+    },
+    {
+      "t": 433,
+      "end": 448,
+      "text": "LinkedIn. This is where you get weekly news from the product group on anything related to business central. And uh you're probably watching this on YouTube. That means you might know that we also have a YouTube channel from the product group."
+    },
+    {
+      "t": 448,
+      "end": 464.2,
+      "text": "We have more than just these watch new. We also have um co-pilot and AI tips and tricks, deep dives, and even under the hood podcasts where you get uh like a sneak peek into new features"
+    },
+    {
+      "t": 464.2,
+      "end": 479.9,
+      "text": "uh months, sometimes months before they actually hit the release plan. So, ak.ms/bc YouTube is uh the link that you should be using to to uh to bookmark us or or follow us on YouTube."
+    },
+    {
+      "t": 479.9,
+      "end": 494.2,
+      "text": "And uh then uh if you're a business central partner um the aka link aka.ms/bcall is uh the only thing you need to to bookmark that gives you all the other aka links relevant for you."
+    },
+    {
+      "t": 494.2,
+      "end": 511.5,
+      "text": "Of course if you are a business central partner make sure that you are on yammer. So um that is the network for all partners no customers there where you can ask questions or discuss the product both with your fellow peers and also with the product group engineers and program managers."
+    },
+    {
+      "t": 511.5,
+      "end": 522.1,
+      "text": "Finally both for partners and for customers the office hours is where we on a monthly basis uh throw out a topic. We'll uh we'll we'll discuss it."
+    },
+    {
+      "t": 522.1,
+      "end": 535.7,
+      "text": "there's a Q&A uh so go to the AK link uh for that if you want to see the schedule of the next office hours and uh and kind of engage with the product group on the the the future of Business Central."
+    },
+    {
+      "t": 535.7,
+      "end": 547,
+      "text": "And with that, we are done here. So um I'll wish you a great day and hopefully see you at some of the other launch edition videos. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.52,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1341
+}

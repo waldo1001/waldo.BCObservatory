@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-customers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers",
+  "title": "Synchronize customers and companies",
+  "blob": "23f6bd150280296b1a1f5a4b7de2e5e834e6a775",
+  "summary": "Synchronizing customers and companies between Business Central and Shopify for direct-to-consumer and B2B models, including customer mapping, template application, metafield support, and data import/export.",
+  "systems": [
+    "integration",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "shopify",
+    "customer synchronization",
+    "b2b",
+    "dtc",
+    "company mapping",
+    "metafields"
+  ],
+  "objects": [],
+  "features": [
+    "customer import and export",
+    "B2B company support",
+    "customer mapping by email/phone or tax ID",
+    "customer template application",
+    "automatic customer creation",
+    "country/region-specific setup",
+    "metafield import and export",
+    "company location support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

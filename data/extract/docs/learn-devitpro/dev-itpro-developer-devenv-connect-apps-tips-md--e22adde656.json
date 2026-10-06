@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-connect-apps-tips.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips",
+  "title": "Tips for working with the APIs",
+  "blob": "8818212d246abbd6e5c870b78f1ab55cd6155335",
+  "summary": "API tips cover GET requests, Accept-Language headers for localization, transactional OData batch requests, data access intent overrides, and request header specifications for API development and integration.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "api",
+    "odata",
+    "rest",
+    "headers",
+    "authentication",
+    "batch requests"
+  ],
+  "objects": [],
+  "features": [
+    "GET request patterns",
+    "Accept-Language header",
+    "OData $batch requests",
+    "Transactional batch with Isolation: snapshot",
+    "Data-Access-Intent header",
+    "ReadOnly access intent",
+    "ReadWrite access intent",
+    "Metadata queries"
+  ],
+  "versions": [
+    "2020 release wave 2 (version 17.1)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

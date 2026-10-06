@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-howto-default.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-howto-default",
+  "title": "Sustainability default data",
+  "blob": "22c5928afa7de21d812690fa25b295614f4c9d86",
+  "summary": "Set up default sustainability accounts and emissions (CO2, CH4, N2O) for G/L accounts, items, resources, work centers, machine centers, and fixed assets to simplify sustainability management across the chart of accounts and supply chain.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "manufacturing"
+  ],
+  "topics": [
+    "sustainability setup",
+    "default values",
+    "emissions",
+    "carbon accounting",
+    "master data",
+    "co2e calculation"
+  ],
+  "objects": [],
+  "features": [
+    "Default Sustainability Account",
+    "Default CO2 Emission",
+    "Default CH4 Emission",
+    "Default N2O Emission",
+    "Calculate CO2e action",
+    "Item Category default setup",
+    "Item of Concern tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009013,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deciding-on-tablet-and-phone-strategy",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c1ecd0ce284c8ca36e6439f0bad90e27cf44832",
       "words": 543,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.666Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.672Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.672Z",
+      "page": false
     }
   },
   "input_hash": "9c1ecd0ce284c8ca36e6439f0bad90e27cf44832",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c1ecd0ce284c8ca36e6439f0bad90e27cf44832"
+  "output_hash": "621b7cfd87d47384918873d72f775100fde54d615be16b348129e50c6513af90"
 }

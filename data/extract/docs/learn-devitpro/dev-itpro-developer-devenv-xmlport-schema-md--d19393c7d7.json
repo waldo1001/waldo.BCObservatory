@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-xmlport-schema.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-schema",
+  "title": "Defining an XMLport Schema in AL",
+  "blob": "62ca2a334f86297769b7355aa4c688748db67eab",
+  "summary": "Define XMLport schema structure using text elements, attributes, table elements, and field elements to map XML data to database tables. Use when designing import/export structures for XMLports.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "xmlport",
+    "schema",
+    "data mapping",
+    "xml structure",
+    "table element",
+    "field element"
+  ],
+  "objects": [],
+  "features": [
+    "textelement node",
+    "textattribute node",
+    "tableelement node",
+    "fieldelement node",
+    "fieldattribute node",
+    "SourceTable property",
+    "SourceField property"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

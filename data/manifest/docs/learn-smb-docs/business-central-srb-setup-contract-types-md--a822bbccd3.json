@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "143d8cb17948caf29d81f2065a19dce3083bea1b",
       "words": 356,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.440Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.007413
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.445Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.445Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.445Z",
+      "page": false
     }
   },
   "input_hash": "143d8cb17948caf29d81f2065a19dce3083bea1b",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "143d8cb17948caf29d81f2065a19dce3083bea1b"
+  "output_hash": "38f9de4bf363f41477f54a0670acbe8a9db3112835a9b309a12b10367b602109"
 }

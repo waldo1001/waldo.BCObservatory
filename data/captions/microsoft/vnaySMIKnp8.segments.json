@@ -1,0 +1,131 @@
+{
+  "video_id": "vnaySMIKnp8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.3,
+      "end": 26.6,
+      "text": "starting with this release you can use warehouse putaway for production output means you can use the same warehouse processes as in other receipts uh it is especially important for locations where directed putaway and Peck is enabled because they don't have any putaway logic for other locations it"
+    },
+    {
+      "t": 26.6,
+      "end": 46.8,
+      "text": "also possible to use Warehouse putaway to align with other areas of application let's see the demo in a location car page you can select the warehouse putaway option in the production output Warehouse handling field for the locations with directed putaway and pick only two options are available no"
+    },
+    {
+      "t": 46.8,
+      "end": 66.8,
+      "text": "Warehouse handling and warehouse putaway for other locations you can also use inventory putaway let's investigate the impact of that setting you can see the release production order for the manufacturing of six coffeee makers in the production Journal start by posting two units repeat this action to"
+    },
+    {
+      "t": 66.8,
+      "end": 87.2,
+      "text": "post the remaining quantity of four units consequently all six units will have been posted navigate to The Warehouse activity lines where you can see two put away documents generated automatically during posting that behavior is controlled by the used putaway worksheet toggle in the location"
+    },
+    {
+      "t": 87.2,
+      "end": 94.5,
+      "text": "car page let's open the first putaway and perform partial"
+    },
+    {
+      "t": 94.5,
+      "end": 105,
+      "text": "register then we delete it and we also open the second one where you can see quantity"
+    },
+    {
+      "t": 105,
+      "end": 119.2,
+      "text": "for and delete it as well navigate to the putaway worksheet from which we can also create putaway for production order let's do it for partial quantity"
+    },
+    {
+      "t": 122,
+      "end": 142.1,
+      "text": "return to the production order and change its status to finished navigate to the finished production order from which the creation of Warehouse put away for the remaining quantity can be triggered this action is also available in the release production order next navigate to the"
+    },
+    {
+      "t": 142.1,
+      "end": 154.4,
+      "text": "warehouse putaway where the one created from the putaway worksheet and the one created for the remaining quantity from the finished production order be seen we can also review already registered"
+    },
+    {
+      "t": 154.4,
+      "end": 169.2,
+      "text": "putaway what about picking in this release you can pick more raw materials than originally requested for production order for example wherehouse team decided to send the whole box instead of uh picking the exact"
+    },
+    {
+      "t": 169.2,
+      "end": 190.2,
+      "text": "quantity uh then you can decide what to do with extra stpl maybe you return it back to ourhouse or maybe you can use it for next production order for the later there is a new flashing method which can be very useful let's see the demo the release production order for the manufacturing"
+    },
+    {
+      "t": 190.2,
+      "end": 210.7,
+      "text": "of four coffee makers is available in the components page raw materials have different flushing methods a new value pick plus manual replaces the old manual method the manual flushing method remains but it now behaves differently and does not require picking anymore this change is consistent"
+    },
+    {
+      "t": 210.7,
+      "end": 231,
+      "text": "with existing backward and forward flushing methods and provides additional flexibility to enable manual to operate in this manner activate the capability in feature management additionally a new field allow Warehouse over pick is visible in the item card create Warehouse pick and open it"
+    },
+    {
+      "t": 231,
+      "end": 251.5,
+      "text": "notice that coffee filter basket with manual flushing method is not there as it should already be on the open shop floor we will send full box es of switches and adjustable feet to production we cannot do that for the housing as allow Warehouse overp pick is off for this"
+    },
+    {
+      "t": 253,
+      "end": 259.6,
+      "text": "item register pick and open production"
+    },
+    {
+      "t": 263.8,
+      "end": 284.1,
+      "text": "Journal you'll see the item with manual flushing method ready to be posted as well as the adjust aable foot and housing we don't see switch as it will be flushed automatically via routing link code now let's try to change quantity you can increase the quantity of coffee filter baskets since there are plenty in the open shop floor bin and you control"
+    },
+    {
+      "t": 284.1,
+      "end": 299.4,
+      "text": "consumption you cannot adjust the quantity for housing as it was picked exactly you can change the quantity for the adjustable foot because we picked more than needed"
+    },
+    {
+      "t": 304,
+      "end": 317.1,
+      "text": "what to do with the switch on off that uses the pick plus backwards flushing method add a line manually in the consumption journal and specify the bin"
+    },
+    {
+      "t": 322.6,
+      "end": 333,
+      "text": "code or add a new component line with a manual flushing method ensure the correct bin code is used"
+    },
+    {
+      "t": 341,
+      "end": 346.3,
+      "text": "the line will then appear in the production"
+    },
+    {
+      "t": 346.3,
+      "end": 359.4,
+      "text": "Journal if you want to return overp picked item to Warehouse navigate to the movement worksheet page and choose the return overp pick quantity action"
+    },
+    {
+      "t": 360.6,
+      "end": 376.6,
+      "text": "thank you for watching you can find more details about these capabilities in the release notes also remember to watch other videos about enhancements about manufacturing you can find links in the description"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.309,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.319,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 767
+}

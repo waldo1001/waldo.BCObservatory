@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Getting Started With Agents: Billing Agents in Business Central - Configure \"Pay as You Go\" (2025)",
   "url": "https://www.youtube.com/watch?v=9esVS6I4wrY",
-  "published_at": null,
+  "published_at": "2025-08-18T15:44:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:10:49.126Z",
+      "captions": "auto:en-orig",
+      "duration_s": 234
+    },
+    "captioned": {
+      "at": "2026-10-06T14:11:21.289Z",
+      "path": "data/captions/microsoft/9esVS6I4wrY.vtt",
+      "vtt_sha256": "2e13bab2de23af0e1d44d96695fa3477258487ff429035eb9d8d328d99328e93",
+      "segments": 21,
+      "words": 537,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 199,
     "duration_s": 234,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2e13bab2de23af0e1d44d96695fa3477258487ff429035eb9d8d328d99328e93"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000789",
   "published_at": "2026-09-10T14:37:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c03fa075ff1a2de5eaca90d3b2902b1eefd933f",
       "words": 339,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:24.399Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007242
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:24.405Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:24.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:24.405Z",
+      "page": false
     }
   },
   "input_hash": "9c03fa075ff1a2de5eaca90d3b2902b1eefd933f",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c03fa075ff1a2de5eaca90d3b2902b1eefd933f"
+  "output_hash": "0dfa1439f6d19e1f350d45e5d09b39a3c1c0fabcdacf45e419e7f19a949da85c"
 }

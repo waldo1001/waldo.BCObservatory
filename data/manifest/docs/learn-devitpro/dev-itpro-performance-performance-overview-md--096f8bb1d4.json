@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-overview",
   "published_at": "2026-09-21T10:55:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "55d731894e5e723926d2839a1ffff69ce2bfe97c",
       "words": 291,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:10:27.797Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003335
+    },
+    "summarized": {
+      "at": "2026-10-06T14:10:27.800Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:10:27.804Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:10:27.805Z",
+      "page": false
     }
   },
   "input_hash": "55d731894e5e723926d2839a1ffff69ce2bfe97c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55d731894e5e723926d2839a1ffff69ce2bfe97c"
+  "output_hash": "41b1bb0213e42853f6f8b3cdb8e927dc68b6d3d79daab0905b3d4610874e5407"
 }

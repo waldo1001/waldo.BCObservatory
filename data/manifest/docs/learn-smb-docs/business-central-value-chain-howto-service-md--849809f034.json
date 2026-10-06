@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-service",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "39804f7e86830bc17664da49f6610550c2f8a4cd",
       "words": 1024,
       "forms": 20
+    },
+    "extracted": {
+      "at": "2026-10-06T14:06:35.054Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.006059
+    },
+    "summarized": {
+      "at": "2026-10-06T14:06:35.058Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:06:35.058Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:06:35.058Z",
+      "page": false
     }
   },
   "input_hash": "39804f7e86830bc17664da49f6610550c2f8a4cd",
@@ -147,5 +166,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "39804f7e86830bc17664da49f6610550c2f8a4cd"
+  "output_hash": "773583cde3d0646a71de3cb08e9a97e712f64bae48a2942c845d71e3ce59d249"
 }

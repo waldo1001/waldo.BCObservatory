@@ -1,0 +1,163 @@
+{
+  "video_id": "px1MOyXfmnQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 25.7,
+      "text": "welcome to this business Central launch event about what's new in Al go for GitHub on delivery and deployment my name is Freddy Christensen I'm a technical evangelist with Microsoft in Copenhagen and together with me I have my name is Sebastian and I'm a software engineer at Microsoft and I recently joined the team"
+    },
+    {
+      "t": 25.7,
+      "end": 45.8,
+      "text": "late December last year we are happy for that so the first thing we're going to talk about is dependency install mode which actually is a requirement that came to us from a partner he actually created a PR on algo and said he would like functionality like this and we digged into that and found out there was a better way to"
+    },
+    {
+      "t": 45.8,
+      "end": 60.6,
+      "text": "do that but now the feature is there and it determines or it's a it's a setting that you set on an environment that determines how dependencies are handled at deploy time uh originally"
+    },
+    {
+      "t": 60.6,
+      "end": 80.8,
+      "text": "if you were trying to deploy an app and the dependencies were not there uh not included then uh the app would like fail installation uh what we do now is we try to install the dependency from uh from appsource if if you've"
+    },
+    {
+      "t": 80.8,
+      "end": 91,
+      "text": "decided that you want dependencies either upgraded or installed um let's have a quick look at a video now looking at this report"
+    },
+    {
+      "t": 91,
+      "end": 103.4,
+      "text": "we have like this run where we have a multiproject repo and a deploy mode over here to uh the"
+    },
+    {
+      "t": 103.4,
+      "end": 123.6,
+      "text": "BCL environment here and we can see that that we have one app to deploy that's version 1.24 here and some dependencies that are uh from an older version so dependencies to upgrade the upgrade here comes from the dependency install mode set to upgrade meaning that if these apps"
+    },
+    {
+      "t": 123.6,
+      "end": 143.8,
+      "text": "are installed in a prior version they'll be upgraded to the latest version I don't have any dependencies on appsource apps here but if I had they will also be installed and handled in the same way so if there were any updates to that they will be included in that one um as we can see here these were already installed in the same version meaning that the"
+    },
+    {
+      "t": 143.8,
+      "end": 155,
+      "text": "deployment is is very fast and the reason for this is that we are using incremental bills to to this one let's have a look at how the setting looks it is in"
+    },
+    {
+      "t": 155,
+      "end": 175.5,
+      "text": "our GitHub algo settings file under deploy to ble we'll have the dependency install mode set to upgrade with that next topic is about including test apps during deployment we have two features we want to support number one"
+    },
+    {
+      "t": 175.5,
+      "end": 192.5,
+      "text": "is deploying test apps uh and number two is automatically running tests for this presentation we have implemented the first version um and all you have to do is prepare your online environment which should be a Sandbox"
+    },
+    {
+      "t": 192.5,
+      "end": 204.8,
+      "text": "environment and then enable this feature in Alo settings this is under the deploy to structure which you have used many times before uh for your deployments to"
+    },
+    {
+      "t": 204.8,
+      "end": 218.4,
+      "text": "environments on top of that uh we now also have the option to exclude apps by ID when you deploy so in case you want to test only a specific app you can out do"
+    },
+    {
+      "t": 218.4,
+      "end": 236.8,
+      "text": "that uh and let's run a demo showing how this works here I have a symbol repository uh a single project repository with two apps uh and two test apps what I want to do is deploy app one alongside the two test apps so app one app one."
+    },
+    {
+      "t": 236.8,
+      "end": 247,
+      "text": "test and app one. performance test I want to exclude app 2 in my repository settings in GitHub Alo settings."
+    },
+    {
+      "t": 247,
+      "end": 267,
+      "text": "Json and I'll Define two new things in my deploy to structure I Define include test apps in sandbox environment as true and exclude app IDs which is an array and in here I put the ID of app 2 now when I run my uh"
+    },
+    {
+      "t": 267,
+      "end": 285.2,
+      "text": "publish to environment this will automatically deploy the test apps and exclude uh app 2 to show how this looks I will go to my environment and here I have my list of extensions we'll see here that app1 was deployed and app one."
+    },
+    {
+      "t": 285.2,
+      "end": 305.2,
+      "text": "test was deployed however the performance test app was not deployed well that is intentional the performance test app depends on a test Library which is not available as an appsource app and that automatically gets picked up during deployment and excluded so if you depend on something that is start in appsource"
+    },
+    {
+      "t": 305.2,
+      "end": 325.7,
+      "text": "gallery it will not be included this also works if you have a custom deployment script if this setting is enabled then all your test apps will be passed to your deployment script and you simply have to handle dependency installation on your own in this next topic I want to show you how we can deploy artifacts"
+    },
+    {
+      "t": 325.7,
+      "end": 345.9,
+      "text": "from a pool request uh and this was a request from a partner we now have a new option for deploying pool request changes directly to an online environment this is useful for quick testing uh in case you need to test in your online environment uh before you complete your PR with a code review"
+    },
+    {
+      "t": 345.9,
+      "end": 365.9,
+      "text": "and merge it into your main branch for now this is a manual process where you will use the published to environment workflow give it a pool request ID instead of a version and then click run work flow later on we want to investigate how we can do this automatically in such a way that every time"
+    },
+    {
+      "t": 365.9,
+      "end": 383.2,
+      "text": "you push a new change to a PR then those changes will automatically flow into your online environment as you can see in the little box to your right all you have to do is give it a poest ID um written as prore"
+    },
+    {
+      "t": 383.2,
+      "end": 397.6,
+      "text": "ID and I want to demo this so here I have a Syle PR with symbol change in the address bar I can see that this uh PR or here I can see that it has uh ID"
+    },
+    {
+      "t": 397.6,
+      "end": 415.1,
+      "text": "28 so what I do is I go to um oh sorry here to publish to environment I run the workflow instead of selecting current or latest like you might normally do I simply say prore"
+    },
+    {
+      "t": 415.1,
+      "end": 426.4,
+      "text": "28 I select my test environment which I want to deploy to and then I click run workflow and that will now deploy changes from that"
+    },
+    {
+      "t": 426.4,
+      "end": 446.3,
+      "text": "PR um I have a PR build ready here for that PR um and you can see here it points to last no good build well that is because if incremental bills is enabled then in order to save space uh and storage we will only"
+    },
+    {
+      "t": 446.3,
+      "end": 466.6,
+      "text": "publish artifacts built in or apps built built in this specific PR what the deployment will do is it will grab the remaining apps which were not built inside this PR from the last known good build and deploy those as well and this is done to save storage for you which is costly if you have"
+    },
+    {
+      "t": 466.6,
+      "end": 486.6,
+      "text": "um a private repository normally pull request uh artifacts are only valid for one day so you might run into an issue where you run your publish to environment using a PR where you get an error saying that your artifacts have expired this is normal uh artifacts will expire after"
+    },
+    {
+      "t": 486.6,
+      "end": 502.8,
+      "text": "one day using normal settings and we encourage you to keep settings this way if your artifacts have expired all you have to do is Rerun the P request build and when that is done you can run your published to environment"
+    },
+    {
+      "t": 502.8,
+      "end": 512,
+      "text": "again thanks for watching this video and see you again next time thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1269
+}

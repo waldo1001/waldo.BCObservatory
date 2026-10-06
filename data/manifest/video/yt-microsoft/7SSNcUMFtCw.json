@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central AI Resources (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=7SSNcUMFtCw",
-  "published_at": null,
+  "published_at": "2025-06-06T10:00:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:12:56.597Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1337
+    },
+    "captioned": {
+      "at": "2026-10-06T14:13:23.127Z",
+      "path": "data/captions/microsoft/7SSNcUMFtCw.vtt",
+      "vtt_sha256": "1a40c6a2793d2e6ec1d053429fa3e91ac5a1becd1d823c2a0fefb9df2c6dbe4b",
+      "segments": 91,
+      "words": 3672,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 207,
     "duration_s": 1337,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a40c6a2793d2e6ec1d053429fa3e91ac5a1becd1d823c2a0fefb9df2c6dbe4b"
 }

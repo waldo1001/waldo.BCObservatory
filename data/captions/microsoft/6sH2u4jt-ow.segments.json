@@ -1,0 +1,103 @@
+{
+  "video_id": "6sH2u4jt-ow",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.1,
+      "end": 16.2,
+      "text": "Hello and welcome to new episode of what's cooking in Business Central. In this episode, we will configure and show you how to use external storage for your document attachments."
+    },
+    {
+      "t": 16.2,
+      "end": 32.9,
+      "text": "In order to configure external storage for your document attachments, you would need to go and configure external file accounts. You can configure external storage for document attachments for any external file account which you have whether it is blob storage,"
+    },
+    {
+      "t": 32.9,
+      "end": 45.2,
+      "text": "file share or shareepoint storage. In order to configure it, you would need to go to navigate and select file scenarios then assign scenarios."
+    },
+    {
+      "t": 45.2,
+      "end": 65.4,
+      "text": "And here we have new scenario document attachments external storage. Here you would need to confirm that you are using this feature as it is and on your own risk because once the files are offloaded it is your responsibility to make proper backups and maintain those"
+    },
+    {
+      "t": 65.4,
+      "end": 77.7,
+      "text": "files. If files get deleted on external storage they will also not be available anymore for business central environment. Now a scenario is assigned to file account."
+    },
+    {
+      "t": 77.7,
+      "end": 90.6,
+      "text": "We would need to configure this module further. So we would need to click on additional scenario setup either from file scenario assignment or from the factbox on external file accounts."
+    },
+    {
+      "t": 90.6,
+      "end": 103.4,
+      "text": "Upon executing action external storage setup shows up and we can enable this feature. After enabling this feature, it is important that we set also root folder for the storage."
+    },
+    {
+      "t": 103.4,
+      "end": 113.9,
+      "text": "We can choose the folder on top hierarchy or go inside it and select any folder on it. Let's select this folder."
+    },
+    {
+      "t": 113.9,
+      "end": 128.3,
+      "text": "Additional options which we have is regards upload and delete policy. First option here would be to choose whether the files should be immediately deleted after they have been uploaded to external storage."
+    },
+    {
+      "t": 128.3,
+      "end": 145,
+      "text": "If you enable this feature, delayed after will be become non-editable. If you turn it off, you will be able to put date formula inside it, which represents for how long those files will be kept in business central environment before they get deleted."
+    },
+    {
+      "t": 145,
+      "end": 161,
+      "text": "Together with this option, scheduled upload should also be enabled. This option automatically offloads all your document attachments from your database by creating a job queue which will be run each night at 100 a.m."
+    },
+    {
+      "t": 161,
+      "end": 176.2,
+      "text": "by default and offload your files. There is also option to delete external files when attachments are deleted. There are scenarios when you want to delete the file from business central environment but keep it on external storage."
+    },
+    {
+      "t": 176.2,
+      "end": 187.8,
+      "text": "If you select this option, the file will remain on external storage whether or not you make destructive changes in Business Central. Now we are ready to use this feature."
+    },
+    {
+      "t": 187.8,
+      "end": 199.1,
+      "text": "Let's go back to RO center page and for example open some sales orders. Select sales order and under document attachments, select upload file."
+    },
+    {
+      "t": 199.1,
+      "end": 215.4,
+      "text": "Just drag and drop some files and they will appear on the right side of the fagbox. The files will be automatically offloaded to external storage and based on the setup they may be deleted from business central environment or be retained."
+    },
+    {
+      "t": 215.4,
+      "end": 230.7,
+      "text": "To confirm that those files have been offloaded, go back to external file accounts under the file account where the scenario is attached and go to additional scenario setup and select the action document attachments."
+    },
+    {
+      "t": 230.7,
+      "end": 250.3,
+      "text": "Here you will see uploaded document attachments and see that boolean uploaded to external is set to to true for those files. Since we set up the date formula to deleted files after 7 days, the copies are kept in the business central environment temporarily until they expire."
+    },
+    {
+      "t": 250.3,
+      "end": 260.4,
+      "text": "Additional features in this module include storage sync which you can use to offload existing document attachments in your database to external storage."
+    },
+    {
+      "t": 260.4,
+      "end": 279,
+      "text": "A more likely scenario, once all your document attachments are moved to external storage, you can also bring them back. Just select from external storage and the system will download all those document attachments back to Business Central."
+    }
+  ],
+  "markers": [],
+  "word_count": 642
+}

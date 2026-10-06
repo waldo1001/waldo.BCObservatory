@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
       "words": 2627,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T14:01:40.445Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.01081
+    },
+    "summarized": {
+      "at": "2026-10-06T14:01:40.447Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:01:40.447Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:01:40.447Z",
+      "page": false
     }
   },
   "input_hash": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32"
+  "output_hash": "2cc11299dfe034959f1e6b1761dc2e0661a979b271ad9b76288ba8d04fe94a2f"
 }

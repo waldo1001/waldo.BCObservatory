@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "35289b7fe1825c099769a093f4a6754674110a45",
       "words": 508,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.960Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.966Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.966Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.966Z",
+      "page": false
     }
   },
   "input_hash": "35289b7fe1825c099769a093f4a6754674110a45",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "35289b7fe1825c099769a093f4a6754674110a45"
+  "output_hash": "bb0e27b935d0efeb5d20f8871b0162c7807d7a2bd4d31655863382a89d23f3c3"
 }

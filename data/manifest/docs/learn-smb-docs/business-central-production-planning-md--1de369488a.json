@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-planning",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d52c19e99ffcd2ede7e50e0f23a5fc7c6a64a572",
       "words": 531,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.526Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.008701
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.531Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.531Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.531Z",
+      "page": false
     }
   },
   "input_hash": "d52c19e99ffcd2ede7e50e0f23a5fc7c6a64a572",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d52c19e99ffcd2ede7e50e0f23a5fc7c6a64a572"
+  "output_hash": "defbf4e94cd410ef9c9e5a1f1bcad9e8beb27d5e9d653de2588fdb793f898681"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-reports",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7cf21a29d0a78616a3aaa16a96f09ae0a226b06e",
       "words": 341,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T14:01:40.446Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.009013
+    },
+    "summarized": {
+      "at": "2026-10-06T14:01:40.450Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:01:40.450Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:01:40.451Z",
+      "page": false
     }
   },
   "input_hash": "7cf21a29d0a78616a3aaa16a96f09ae0a226b06e",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7cf21a29d0a78616a3aaa16a96f09ae0a226b06e"
+  "output_hash": "c103f1e0923954e0d389755c8a4d2aa399775d01df85a3157983446fec250dee"
 }

@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/expense-management-preview
 type: topic
 title: Expense management (preview)
-summary: "Expense management (preview) in Business Central: setup, the expense lifecycle (expenses, travel requests, reports, approval, VAT reclaim, posting), the Expense Agent AI agent, and troubleshooting. It answers what to configure, how to process expenses, and how to fix Expense Agent problems."
+summary: "Expense management (preview) in Business Central: how employee expenses, travel requests and expense reports are set up, processed, approved, posted and reimbursed, with or without Expense Agent. It answers setup, how-to, AI agent behavior and troubleshooting questions."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T13:42:51.403Z"
+  at: "2026-10-06T14:23:48.528Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f414fd6437397aace06126c9d4f48ffbe4883ff2a56759fefd89171f00e781aa
+  input_hash: c02b49dbdbdceff5e73527fe554e2643519996991bd8e677becb4e0d0171136f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
@@ -273,28 +273,28 @@ narrative: generated
 
 # Expense management (preview)
 
-> Expense management (preview) in Business Central: setup, the expense lifecycle (expenses, travel requests, reports, approval, VAT reclaim, posting), the Expense Agent AI agent, and troubleshooting. It answers what to configure, how to process expenses, and how to fix Expense Agent problems.
+> Expense management (preview) in Business Central: how employee expenses, travel requests and expense reports are set up, processed, approved, posted and reimbursed, with or without Expense Agent. It answers setup, how-to, AI agent behavior and troubleshooting questions.
 
 Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-Expense management (preview) lets employees handle expenses through expense reports, with or without Expense Agent. The overview page explains the report status workflow, approval workflows, travel requests, VAT calculation and reclaim, rule and policy checks, and refundable and reimbursable categorization.
+Expense management (preview) lets employees record expenses and group them into expense reports. The reports go through a status workflow and approval, and are then posted to the general ledger. The area also covers travel requests, VAT reclaim, rule and policy compliance checks, and the split between refundable and reimbursable categories. Expense Agent is an AI agent that can handle part of this, from receipt intake to draft reports.
 
-The subtopics split by task. "Set up expense management" covers what an administrator configures first. "Work with expenses in Business Central" follows the lifecycle from entry to posting in the general ledger. "Understand Expense Agent" explains what the AI agent does and its responsible AI limits. "Work with Expense Agent" gives the step-by-step workflow for requesters and approvers.
+The pages fit together in a sequence. The overview page explains the concepts and the report workflow. "Set up expense management" covers what to configure first: Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. "Work with expenses in Business Central" covers the manual lifecycle through to reimbursement in the Payment Journal. "Understand Expense Agent" and "Work with Expense Agent" cover what the agent does and the requester and approver workflow. The troubleshooting page covers common agent problems.
 
-Start with the overview page, then the setup section before users submit anything. Use the troubleshooting page when Expense Agent fails on sign-in, receipt upload, AI detection, policy violations, network errors, AI quota or posting.
+Start with the overview page. Administrators should then go to the setup subtopic. Requesters and approvers should go to the work-with pages that match how they submit expenses, with or without the agent.
 
 ## Key points
 
-- Expense reports can be managed with or without Expense Agent, and move through a defined status workflow with approval workflows.
+- Expense reports follow a status workflow with approval workflows, and are posted to the general ledger.
+- Travel requests can be planned and compared, and VAT calculation and reclaim are supported.
+- Rule and policy compliance is checked, and expenses are categorized as refundable and reimbursable.
 - Setup covers Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances.
-- The lifecycle covers creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting to the general ledger.
-- Travel requests support planning and comparison, and expenses are categorized as refundable and reimbursable.
-- Expense Agent automates the lifecycle from receipt intake to draft expense reports, including processing emails and checking policy compliance.
-- Requesters and approvers can upload receipts, create mileage expenses, review and edit expenses, submit reports, approve or send back, and use the mobile app.
-- The troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits, and posting failures.
-- The whole area is marked as preview.
+- Employee reimbursement is handled through the Payment Journal after posting.
+- Expense Agent automates the lifecycle from receipt and email intake to draft expense reports, and also covers mileage expenses and the mobile app.
+- Expense Agent users can upload receipts, review and edit expenses, build and submit reports, and approvers can approve or send reports back.
+- The troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits and posting failures.
 
 ## Subtopics
 

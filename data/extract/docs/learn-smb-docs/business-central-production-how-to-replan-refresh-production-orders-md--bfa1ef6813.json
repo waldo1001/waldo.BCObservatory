@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-replan-refresh-production-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-replan-refresh-production-orders",
+  "title": "Replan or refresh production orders directly",
+  "blob": "8fbe236d07b4c44c6c5d4f9049e1065362e54bc5",
+  "summary": "Replan or refresh production orders to recalculate components and routings after changes, generating new supply orders and adjusting capacity needs.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production orders",
+    "replan",
+    "refresh",
+    "scheduling",
+    "components",
+    "routings",
+    "capacity"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Orders"
+    },
+    {
+      "type": "page",
+      "name": "Replan Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Refresh Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
+  "features": [
+    "Replan action",
+    "Refresh action",
+    "Scheduling direction",
+    "Component calculation",
+    "Routing calculation",
+    "Manual scheduling",
+    "Safety lead time"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-setup",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c82889c3b22a8c2bd1870e221f1cf3a92b4d976c",
       "words": 768,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:06:35.054Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.006059
+    },
+    "summarized": {
+      "at": "2026-10-06T14:06:35.058Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:06:35.059Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:06:35.059Z",
+      "page": false
     }
   },
   "input_hash": "c82889c3b22a8c2bd1870e221f1cf3a92b4d976c",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c82889c3b22a8c2bd1870e221f1cf3a92b4d976c"
+  "output_hash": "f11cf647768fa4a6bf1d44a146ad8a94bd28b2ed489d6f5d8814cdd19ac193ae"
 }

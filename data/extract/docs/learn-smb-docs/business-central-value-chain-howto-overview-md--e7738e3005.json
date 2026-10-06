@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-overview",
+  "title": "Sustainability value chain overview",
+  "blob": "3aa844319951a4193eb16da25f22eb8feaabb69e",
+  "summary": "Sustainability value chain overview describes the features for tracking Scope 3 emissions through vendor data, calculating embedded carbon across purchase, transfer, production, assembly, and sales processes using average or specific carbon tracking methods.",
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "scope 3 emissions",
+    "carbon tracking",
+    "sustainability value entries",
+    "value chain",
+    "embedded emissions",
+    "co2e"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Value Entry"
+    }
+  ],
+  "features": [
+    "Average carbon tracking",
+    "Specific carbon tracking",
+    "Lot tracking",
+    "Emissions calculation",
+    "Value chain transactions",
+    "CO2e per Unit"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

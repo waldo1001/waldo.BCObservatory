@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
   "published_at": "2026-08-26T10:55:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5900150f84643a454d7bb63b9167717cec4416c8",
       "words": 360,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:14.511Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00753
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:14.515Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:14.515Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:14.516Z",
+      "page": false
     }
   },
   "input_hash": "5900150f84643a454d7bb63b9167717cec4416c8",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5900150f84643a454d7bb63b9167717cec4416c8"
+  "output_hash": "fa1ebf6a9fc98635de8511d0a5c334dd0c88850680c0ec9aa196d71e86c9b105"
 }

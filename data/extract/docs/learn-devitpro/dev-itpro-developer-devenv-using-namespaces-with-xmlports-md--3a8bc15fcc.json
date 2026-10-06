@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-using-namespaces-with-xmlports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-namespaces-with-xmlports",
+  "title": "Use Namespaces with XMLports in AL",
+  "blob": "435d6c1ae8805390973b15cc393b5a1faa995b8e",
+  "summary": "Add XML namespaces to XMLports to avoid element name conflicts when exchanging data with external systems. Use when importing or exporting XML that requires namespace declarations.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "xmlport",
+    "xml",
+    "namespace",
+    "integration",
+    "data exchange"
+  ],
+  "objects": [],
+  "features": [
+    "Namespaces property",
+    "NamespacePrefix property",
+    "DefaultNamespace property",
+    "UseDefaultNamespace property",
+    "namespace prefixes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

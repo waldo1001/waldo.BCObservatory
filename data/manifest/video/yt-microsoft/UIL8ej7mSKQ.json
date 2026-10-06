@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Dynamics 365 Business Central 2025 Release Wave 2",
   "url": "https://www.youtube.com/watch?v=UIL8ej7mSKQ",
-  "published_at": null,
+  "published_at": "2025-09-16T14:44:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:07:33.902Z",
+      "captions": "auto:en-orig",
+      "duration_s": 208
+    },
+    "captioned": {
+      "at": "2026-10-06T14:07:55.498Z",
+      "path": "data/captions/microsoft/UIL8ej7mSKQ.vtt",
+      "vtt_sha256": "dd55e34246023fffc3a694c65eae1d29371c7c98d466b97c644313e795acaf1a",
+      "segments": 15,
+      "words": 564,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 188,
-    "duration_s": 209,
-    "via": "reconcile"
-  }
+    "duration_s": 208,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd55e34246023fffc3a694c65eae1d29371c7c98d466b97c644313e795acaf1a"
 }

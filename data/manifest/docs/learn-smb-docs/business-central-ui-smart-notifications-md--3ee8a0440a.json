@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-smart-notifications",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6c7182c2e4c5000be5281a7aacf7380b00a2f46",
       "words": 437,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:04:51.504Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005133
+    },
+    "summarized": {
+      "at": "2026-10-06T14:04:51.507Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:04:51.508Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:04:51.508Z",
+      "page": false
     }
   },
   "input_hash": "a6c7182c2e4c5000be5281a7aacf7380b00a2f46",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6c7182c2e4c5000be5281a7aacf7380b00a2f46"
+  "output_hash": "deb9dcabb87ccde783e5e79e8c8899868d182432336dbf0919b3c444354382d5"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1305.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1305",
+  "title": "Standard Sales - Order Conf. (report)",
+  "blob": "bfe2073bc3dd4f74137a4ac83f67b010934b84e1",
+  "summary": "The Standard Sales - Order Conf. report generates customer-facing sales order confirmations showing order details, line items with pricing and VAT, and optional assembly components, available in RDLC and Word layouts for print and email.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales reports",
+    "order confirmation",
+    "customer communication",
+    "document layout"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Order Conf."
+    }
+  ],
+  "features": [
+    "Order confirmation document",
+    "Assembly component details",
+    "VAT calculation",
+    "Discount display",
+    "Archive option",
+    "Interaction logging",
+    "Email body layout",
+    "Print layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

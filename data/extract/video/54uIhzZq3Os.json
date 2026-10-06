@@ -1,0 +1,273 @@
+{
+  "video_id": "54uIhzZq3Os",
+  "item_id": "video/yt-microsoft/54uIhzZq3Os",
+  "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
+  "duration_s": 307,
+  "systems": [
+    "finance",
+    "projects",
+    "hr"
+  ],
+  "topics": [
+    "expense agent",
+    "expense report",
+    "dimensions",
+    "project billable costs",
+    "employee payments",
+    "ledger entries",
+    "default dimensions",
+    "data flow"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the Expense Agent",
+      "t_start": 0,
+      "t_end": 28
+    },
+    {
+      "title": "Expense submission and dimension tracking",
+      "t_start": 28,
+      "t_end": 102.2
+    },
+    {
+      "title": "Expense report creation and billable information",
+      "t_start": 102.2,
+      "t_end": 147.4
+    },
+    {
+      "title": "Posting the expense report and ledger entries",
+      "t_start": 147.4,
+      "t_end": 186.1
+    },
+    {
+      "title": "Employee payment processing",
+      "t_start": 186.1,
+      "t_end": 250.3
+    },
+    {
+      "title": "Project cost tracking and completion",
+      "t_start": 250.3,
+      "t_end": 307
+    }
+  ],
+  "features": [
+    {
+      "name": "Expense Agent",
+      "description": "An agent that processes expenses submitted in the web app and automatically flows data through the system, including dimension tracking and ledger entry creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.3,
+      "t_end": 302.8,
+      "is_demoed": true,
+      "caveats": [
+        "Employee dimensions cannot be specified manually; only accountant can add or move dimensions after submission"
+      ],
+      "tags": [
+        "expense",
+        "agent",
+        "automation",
+        "data flow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Default dimensions on employee records",
+      "description": "Dimensions attached to an employee (such as department and sales person) are automatically pulled through to expenses submitted by that employee.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.2,
+      "t_end": 102.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "default dimensions",
+        "expense",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Billable information on expenses",
+      "description": "Employees can assign expenses to customers, specify a G/L account, and link them to project and project task numbers. These sources combine to create a new set of dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.3,
+      "t_end": 147.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billable",
+        "project",
+        "expense",
+        "customer",
+        "dimensions"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Posted expense report ledger entries",
+      "description": "When an expense report is posted, it creates multiple entries: the expense report itself, project ledger entries, and employee ledger entries to track money owed to the employee.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.6,
+      "t_end": 199.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting",
+        "ledger entry",
+        "project",
+        "employee",
+        "expense report"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Pay employee function",
+      "description": "A function on the employee card that allows users to view all outstanding employee expenses and create a payment in the payment journal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.4,
+      "t_end": 250.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "employee payment",
+        "payment journal",
+        "expense"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Employee account type in payment journal",
+      "description": "A new account type called 'employee' in the payment journal for paying out employee expenses. Previously only vendor account type was available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 236.9,
+      "t_end": 250.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment journal",
+        "account type",
+        "employee",
+        "payment"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Project billable cost tracking for expenses",
+      "description": "Expenses assigned to a project appear in the project's billable cost section and are categorized by expense type (e.g., other travel expenses).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 260.9,
+      "t_end": 283.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project",
+        "billable cost",
+        "expense",
+        "tracking"
+      ],
+      "system": "projects"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "posted expense report",
+      "t": 172.9
+    },
+    {
+      "type": "other",
+      "name": "project ledger entry",
+      "t": 186.1
+    },
+    {
+      "type": "other",
+      "name": "employee ledger entry",
+      "t": 186.1
+    },
+    {
+      "type": "other",
+      "name": "payment journal",
+      "t": 236.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Lena",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.3,
+      "text": "Welcome to this expense agent series where we are going to look behind the scenes what happens in BC when somebody makes expenses in",
+      "why_it_matters": "Establishes the scope: this video covers the Expense Agent feature and its end-to-end data flow in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 28,
+      "text": "And we're going to see a bit about how data is flowing through our system automatically. So one thing that Lena cannot do herself",
+      "why_it_matters": "Clarifies a key design decision: employees cannot manually specify dimensions; the system uses default dimensions from the employee record to automate tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 90.9,
+      "text": "And then the accountant can choose to add or move um dimensions. So in this case the accountant has added a business group.",
+      "why_it_matters": "Shows the workflow: after an employee submits an expense, the accountant retains the ability to adjust dimensions before posting.",
+      "check": "exact"
+    },
+    {
+      "t": 125.2,
+      "text": "And there she can assign the uh expense to a customer. She can even specify which account in our system it should go to,",
+      "why_it_matters": "Describes the billable information feature allowing expenses to be assigned to customers and specific G/L accounts.",
+      "check": "exact"
+    },
+    {
+      "t": 186.1,
+      "text": "And there's also a ledger entry for the employee, because now we owe Lena this money.",
+      "why_it_matters": "Explains the business logic: posting an expense report creates an employee ledger entry representing a payable to the employee.",
+      "check": "exact"
+    },
+    {
+      "t": 236.9,
+      "text": "And as you can see that we now have an account type that's called employee. Previously, it would have been only a vendor, but",
+      "why_it_matters": "Marks a feature addition: the payment journal now supports 'employee' as an account type, not just vendor.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030604999999999997
+    }
+  ]
+}

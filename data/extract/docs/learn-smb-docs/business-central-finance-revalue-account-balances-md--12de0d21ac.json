@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-revalue-account-balances.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances",
+  "title": "Revalue general ledger account balances",
+  "blob": "7e076c80f7642384cfbb87254fe4db8c8c1d495d",
+  "summary": "G/L account revaluation lets you adjust foreign-currency account balances to current exchange rates using source currency tracking, for balance sheet items maintained directly on G/L accounts rather than customer/vendor ledgers.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "foreign currency",
+    "exchange rates",
+    "general ledger",
+    "revaluation",
+    "source currency",
+    "accrual accounting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Source Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "Source currency tracking",
+    "G/L currency revaluation",
+    "Realized/unrealized gains/losses posting",
+    "Source currency posting control",
+    "Additional reporting currency (ACY)",
+    "Income statement closing by source currency",
+    "Historical entry tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

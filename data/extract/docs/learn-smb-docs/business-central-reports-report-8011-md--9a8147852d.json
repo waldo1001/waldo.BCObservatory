@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-8011.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-8011",
+  "title": "Contract Standard Sales Quote report",
+  "blob": "8c85a81e58802657b619e05475e0adbf2ddfad05",
+  "summary": "Contract Standard Sales Quote report extends sales quotes with subscription billing information including service commitments grouped by billing period, maintaining standard quote layout.",
+  "systems": [
+    "sales",
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "sales quote",
+    "subscription billing",
+    "service commitment",
+    "recurring charges",
+    "contract",
+    "report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Standard Sales Quote"
+    }
+  ],
+  "features": [
+    "service commitment section",
+    "recurring charges",
+    "billing period grouping",
+    "unit price and discount display",
+    "quote layout preservation",
+    "VAT-inclusive totals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

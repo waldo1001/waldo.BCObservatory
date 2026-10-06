@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=xr8C3c6WhOI",
-  "published_at": null,
+  "published_at": "2025-04-01T15:01:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:17:55.169Z",
+      "captions": "auto:en-orig",
+      "duration_s": 361
+    },
+    "captioned": {
+      "at": "2026-10-06T14:18:19.684Z",
+      "path": "data/captions/microsoft/xr8C3c6WhOI.vtt",
+      "vtt_sha256": "b427fde06c188ed56165e40cfb773e39dfac7c8165494d877964581e0c140318",
+      "segments": 20,
+      "words": 839,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 226,
-    "duration_s": 362,
-    "via": "reconcile"
-  }
+    "duration_s": 361,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b427fde06c188ed56165e40cfb773e39dfac7c8165494d877964581e0c140318"
 }

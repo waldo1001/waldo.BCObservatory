@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-labels",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f4e669a90b8e1dd4794cdece72531ba58324200",
       "words": 515,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:56.238Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:56.241Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:56.241Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:56.241Z",
+      "page": false
     }
   },
   "input_hash": "2f4e669a90b8e1dd4794cdece72531ba58324200",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f4e669a90b8e1dd4794cdece72531ba58324200"
+  "output_hash": "9300b1ac7779878395621c6d1f15833e2945b908e2dc97d1b8042882eaaca7c6"
 }

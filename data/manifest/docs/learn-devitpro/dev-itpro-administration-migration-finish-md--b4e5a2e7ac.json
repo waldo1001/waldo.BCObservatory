@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish",
   "published_at": "2026-08-28T12:18:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
       "words": 1195,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.837Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "page": false
     }
   },
   "input_hash": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0eef3b1ce6ac0c4396133f565d617c80950717c1"
+  "output_hash": "7c8aa910d5b5a7c93390f8937a950b6c707a5af1b8865cb27459464c7a23fa59"
 }

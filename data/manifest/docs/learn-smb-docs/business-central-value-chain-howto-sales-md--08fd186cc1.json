@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-sales",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "31b847f95c3d1d1d46ee238961615d69431f8297",
       "words": 453,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:06:35.054Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006059
+    },
+    "summarized": {
+      "at": "2026-10-06T14:06:35.057Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:06:35.057Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:06:35.058Z",
+      "page": false
     }
   },
   "input_hash": "31b847f95c3d1d1d46ee238961615d69431f8297",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "31b847f95c3d1d1d46ee238961615d69431f8297"
+  "output_hash": "a0115af1a084da5ae98927ad7257a8e03b04dc728a27a11d5386a831b3194cf6"
 }

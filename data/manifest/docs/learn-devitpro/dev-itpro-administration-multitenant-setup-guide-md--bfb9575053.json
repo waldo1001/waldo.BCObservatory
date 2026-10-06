@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/multitenant-setup-guide",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a78dead317cdde7161f5aea48e7defc5a9373204",
       "words": 844,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.959Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.964Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.964Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.964Z",
+      "page": false
     }
   },
   "input_hash": "a78dead317cdde7161f5aea48e7defc5a9373204",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a78dead317cdde7161f5aea48e7defc5a9373204"
+  "output_hash": "510b1410291fc607f694ca6c0376785b1e8cf9add816ca096f93fffdfbc7ff06"
 }

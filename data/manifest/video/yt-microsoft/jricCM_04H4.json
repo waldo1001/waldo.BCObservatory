@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Excel Reporting (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=jricCM_04H4",
-  "published_at": null,
+  "published_at": "2025-04-01T15:01:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:20:25.894Z",
+      "captions": "auto:en-orig",
+      "duration_s": 831
+    },
+    "captioned": {
+      "at": "2026-10-06T14:20:46.876Z",
+      "path": "data/captions/microsoft/jricCM_04H4.vtt",
+      "vtt_sha256": "cc44abb2b8b5597c4d854c8845ca57c81b9d1ed0f1b72933db8b4cdb89e2552b",
+      "segments": 43,
+      "words": 2054,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 235,
     "duration_s": 831,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc44abb2b8b5597c4d854c8845ca57c81b9d1ed0f1b72933db8b4cdb89e2552b"
 }

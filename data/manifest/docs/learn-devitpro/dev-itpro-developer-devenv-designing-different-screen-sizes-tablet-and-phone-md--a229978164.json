@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-different-screen-sizes-tablet-and-phone",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "96d9176744667d55db86e02d4b3ad1a00ba91db5",
       "words": 507,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.667Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.673Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.673Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.673Z",
+      "page": false
     }
   },
   "input_hash": "96d9176744667d55db86e02d4b3ad1a00ba91db5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96d9176744667d55db86e02d4b3ad1a00ba91db5"
+  "output_hash": "7fee5a1fc3774d001e12dbd5be8d9762f0117c8b6dbe6bb18f46178a0627805e"
 }

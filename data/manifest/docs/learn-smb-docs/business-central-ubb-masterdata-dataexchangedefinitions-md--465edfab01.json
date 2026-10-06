@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/dataexchangedefinitions",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4afdc84536fa03d6d6399c8baf053d7f7650b0e3",
       "words": 1020,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.442Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007413
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.446Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.446Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.447Z",
+      "page": false
     }
   },
   "input_hash": "4afdc84536fa03d6d6399c8baf053d7f7650b0e3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4afdc84536fa03d6d6399c8baf053d7f7650b0e3"
+  "output_hash": "cc31f40e5cbbba4255845bf6d1183cf78b1baadf9067d6a86c111519ef463ea7"
 }

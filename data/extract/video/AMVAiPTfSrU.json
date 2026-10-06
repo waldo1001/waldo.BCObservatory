@@ -1,0 +1,258 @@
+{
+  "video_id": "AMVAiPTfSrU",
+  "item_id": "video/yt-microsoft/AMVAiPTfSrU",
+  "title": "How 3 Partners are Building Powerful Agents for Business Central",
+  "duration_s": 171,
+  "systems": [
+    "copilot",
+    "hr",
+    "purchasing"
+  ],
+  "topics": [
+    "agents",
+    "copilot studio",
+    "mcp server",
+    "payroll automation",
+    "industry-specific agents",
+    "agent reusability",
+    "ai adoption",
+    "vertical solutions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to agent building with Copilot Studio",
+      "t_start": 0,
+      "t_end": 24.9
+    },
+    {
+      "title": "Creating agents with Copilot Studio and MCP server",
+      "t_start": 24.9,
+      "t_end": 46.4
+    },
+    {
+      "title": "Payroll solution and in-house payroll automation",
+      "t_start": 46.4,
+      "t_end": 70.5
+    },
+    {
+      "title": "Payroll agent capabilities and competitive advantage",
+      "t_start": 70.5,
+      "t_end": 90.6
+    },
+    {
+      "title": "Aptn as AI-first company and Business Central focus",
+      "t_start": 90.6,
+      "t_end": 114.8
+    },
+    {
+      "title": "Industry-specific agents and agent reusability",
+      "t_start": 114.8,
+      "t_end": 139.2
+    },
+    {
+      "title": "Developer recommendations and future opportunities",
+      "t_start": 139.2,
+      "t_end": 171
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Studio agent creation",
+      "description": "Partners are using Copilot Studio to create agents. Each day they are creating more complex agents with the platform. It is described as easy to create first agents and very easy to create reusable solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.9,
+      "t_end": 46.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "copilot studio",
+        "partner-built"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central MCP server",
+      "description": "The Business Central MCP (Model Context Protocol) server enables agents to connect with Business Central. Partners are using it to create reusable solutions that integrate agents with Business Central data and operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 36.1,
+      "t_end": 46.4,
+      "is_demoed": false,
+      "caveats": [
+        "referred to as MCB server in transcript"
+      ],
+      "tags": [
+        "mcp",
+        "integration",
+        "business central"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Payroll agent",
+      "description": "An agent that automates payroll tasks and reduces manual data entry. It enables smaller companies to manage payroll in-house rather than outsourcing. The agent combines Microsoft toolkit, Copilot capabilities, and custom agents built for payroll processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59.8,
+      "t_end": 90.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payroll",
+        "automation",
+        "agent",
+        "manual-data-entry"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Manifest purchase order creation agent",
+      "description": "An industry-specific agent for creating purchase orders. It demonstrates concrete business value by automating the purchase order creation process for customers, showing practical AI application in purchasing workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.8,
+      "t_end": 128.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "purchase order",
+        "industry-specific",
+        "agent"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sales claim agent",
+      "description": "An industry-specific agent for handling sales claims. Demonstrates business value and concrete use case for AI agents in sales operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.8,
+      "t_end": 128.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "claims",
+        "industry-specific",
+        "agent"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Reusable agent development in Business Central",
+      "description": "Partners are developing agents directly in Business Central rather than as black boxes, making them reusable across customers and partners. This approach prioritizes Business Central-based development with Copilot Chat integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.3,
+      "t_end": 139.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agent-development",
+        "reusability",
+        "business central native"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Chat integration",
+      "description": "Integration of Copilot Chat into agent development, described as completely changing development approach towards behavior-driven development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.2,
+      "t_end": 150.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot chat",
+        "development"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "First partner speaker",
+      "confidence": "low"
+    },
+    {
+      "name": "Second partner speaker",
+      "confidence": "low"
+    },
+    {
+      "name": "Third partner speaker (Aptn)",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 24.9,
+      "text": "At the beginning, we are using Copilot Studio because it's easy to create your first agent. Each day, we are creating more complex agents",
+      "why_it_matters": "Shows Copilot Studio is being used for agent creation and that complexity can increase iteratively.",
+      "check": "exact"
+    },
+    {
+      "t": 59.8,
+      "text": "We see that smaller businesses outsource their payroll because of the complexity. With Agent and Copilot, we can help smaller companies to in-house payroll",
+      "why_it_matters": "Demonstrates concrete business value of payroll agents - enabling smaller companies to bring payroll functions in-house.",
+      "check": "exact"
+    },
+    {
+      "t": 70.5,
+      "text": "The biggest wins with the payroll agent is that it automates a lot of those tasks that rely on manual data entry.",
+      "why_it_matters": "Identifies key benefit of payroll agent - automation of manual data entry tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 90.6,
+      "text": "Business Central is our main driver because we can build on top of this with our vertical industry solutions.",
+      "why_it_matters": "Positions Business Central as foundational platform for partner vertical industry solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 128.3,
+      "text": "Our agents are completely reusable. It's for every customer, for every partner. It's not a black box. We are based normally in Business Central.",
+      "why_it_matters": "Establishes design principle for partner-built agents - reusability, transparency, and native Business Central development.",
+      "check": "exact"
+    },
+    {
+      "t": 150.1,
+      "text": "Make a small step forward. Don't try to solve all the problems. Try to solve one problem, one issue.",
+      "why_it_matters": "Key recommendation for partners starting with agent development - incremental approach rather than comprehensive solutions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029107
+    }
+  ]
+}

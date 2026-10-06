@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding",
   "url": "https://www.youtube.com/watch?v=K8nFVw5M-Po",
-  "published_at": null,
+  "published_at": "2025-09-12T14:00:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:08:38.783Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2117
+    },
+    "captioned": {
+      "at": "2026-10-06T14:09:14.100Z",
+      "path": "data/captions/microsoft/K8nFVw5M-Po.vtt",
+      "vtt_sha256": "bf4e2cc9cae8e49d04cb0387304bb036b117989e0009407f4d965ed3ae443560",
+      "segments": 156,
+      "words": 7480,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 191,
     "duration_s": 2117,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf4e2cc9cae8e49d04cb0387304bb036b117989e0009407f4d965ed3ae443560"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/sql-server-query-hints",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "afa133d9980b81ec6edcfbe23f7ea4e8426fb7bb",
       "words": 237,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.959Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.965Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.965Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.965Z",
+      "page": false
     }
   },
   "input_hash": "afa133d9980b81ec6edcfbe23f7ea4e8426fb7bb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afa133d9980b81ec6edcfbe23f7ea4e8426fb7bb"
+  "output_hash": "62a56d9c169115202d07083812f4b4939c14b31e23b2796e3663ced4c6f2b57c"
 }

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-manage-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-documents",
+  "title": "Manage storage by deleting documents or compressing data",
+  "blob": "5f7ebca09d5deac5daabaf5410435c91c6a0cfe3",
+  "summary": "Data administration tools delete obsolete documents, compress historic entries, and manage database storage through batch jobs. Administrators can clean up sales orders, invoices, marketing records, cost entries, and other data by date or status.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "data cleanup",
+    "storage management",
+    "database maintenance",
+    "document deletion",
+    "data compression"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Data Administration"
+    },
+    {
+      "type": "page",
+      "name": "Date Compr. Registers"
+    }
+  ],
+  "features": [
+    "document deletion",
+    "date compression",
+    "batch jobs",
+    "data retention filtering",
+    "backup management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

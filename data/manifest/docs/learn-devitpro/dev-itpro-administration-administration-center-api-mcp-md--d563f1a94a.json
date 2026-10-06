@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp",
   "published_at": "2026-09-01T06:48:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
       "words": 321,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.835Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.840Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.841Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.841Z",
+      "page": false
     }
   },
   "input_hash": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254"
+  "output_hash": "84be037b471021bb8cd6b57b04048fde62b8110438b386c822a3f0439a94ca82"
 }

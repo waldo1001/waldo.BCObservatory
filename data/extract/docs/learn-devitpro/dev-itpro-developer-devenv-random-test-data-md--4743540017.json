@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-random-test-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-random-test-data",
+  "title": "Random Test Data for Application Tests",
+  "blob": "cdf9c739cd9a60b3a671a67bdf7a2e4822a59745",
+  "summary": "The Library - Random codeunit generates random test data for application tests, with SetSeed() enabling reproducible test runs by injecting a starting point for random number generation.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "random data",
+    "test data",
+    "reproducibility",
+    "seeding",
+    "unit tests"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Library - Random"
+    }
+  ],
+  "features": [
+    "RandInt",
+    "RandDec",
+    "SetSeed",
+    "fuzzy testing",
+    "reproducible tests"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004685,
+      "pages_in_call": 8
+    }
+  ]
+}

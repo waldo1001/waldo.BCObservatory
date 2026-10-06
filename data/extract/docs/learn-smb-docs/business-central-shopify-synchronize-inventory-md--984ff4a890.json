@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-inventory",
+  "title": "Synchronize inventory with Shopify",
+  "blob": "114d581ea4b3bfc4f1c297a5d6d53ea112c169ac",
+  "summary": "Configure inventory synchronization between Business Central and Shopify to send current stock levels and keep product availability accurate across sales channels.",
+  "systems": [
+    "inventory",
+    "integration"
+  ],
+  "topics": [
+    "shopify",
+    "inventory sync",
+    "stock levels",
+    "fulfillment",
+    "locations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Locations"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Products"
+    },
+    {
+      "type": "report",
+      "name": "Sync Stock to Shopify"
+    },
+    {
+      "type": "table",
+      "name": "Shopify Variants"
+    },
+    {
+      "type": "table",
+      "name": "Shopify Inventory"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Log Entries"
+    }
+  ],
+  "features": [
+    "Inventory tracking",
+    "Location filtering",
+    "Stock calculation methods",
+    "Fulfillment services",
+    "3PL support",
+    "Job queue scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

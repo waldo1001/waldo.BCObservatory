@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-planning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-planning",
+  "title": "Supply Planning",
+  "blob": "d52c19e99ffcd2ede7e50e0f23a5fc7c6a64a572",
+  "summary": "Use supply planning with MPS and MRP to balance demand and supply for purchased, assembled, manufactured, or transferred items across locations.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "supply planning",
+    "mps",
+    "mrp",
+    "planning worksheet",
+    "demand",
+    "supply"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    }
+  ],
+  "features": [
+    "Master production schedule (MPS)",
+    "Material requirements planning (MRP)",
+    "Demand and supply balancing",
+    "Location-based planning",
+    "SKU planning",
+    "Forecast integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

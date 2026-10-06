@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1322.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1322",
+  "title": "Standard Purchase Order report",
+  "blob": "deec99eaa505f69e40510b435cb83cfeb62e5a62",
+  "summary": "The Standard Purchase - Order report generates formal purchase orders showing vendor addresses, order details, line items, VAT, and totals for printing or email distribution.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "purchase-orders",
+    "vendor-communication",
+    "printing",
+    "vat-calculations"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Purchase - Order"
+    }
+  ],
+  "features": [
+    "vendor addresses",
+    "payment terms",
+    "VAT specifications",
+    "prepayment handling",
+    "order archiving",
+    "vendor interaction logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "V4zCPAsYi_Y",
+  "item_id": "video/yt-microsoft/V4zCPAsYi_Y",
+  "summary": "Structuring and setting up data-driven tests for Business Central agents: YAML data sets, XML suite configuration, reusable AL codeunits, P0/P1/load/variation categories, and a PowerShell runner for CI/CD against sandboxes. Part 3 of an agent testing series, using a sales return agent as the example.",
+  "overview": "The video explains how an agent test is built from three parts: data sets that define the input, an AL codeunit that loops through the turns and verifies the outcome, and configuration that ties them together. Tests depend on the AI Development Toolkit Evaluation app, which brings the AI Test Toolkits and the agent test library with utility methods. An installation codeunit uses the AI Test Suite Management methods to load YAML and XML files into the environment.\n\nIt then covers categorizing tests (P0, P1, load, variation), shows a sales return agent example where one codeunit is reused across several data sets, and describes a PowerShell module for running tests in CI/CD pipelines. The presenters note this is a first version, ask for feedback, and list planned work: LLM as judge, running tests from Visual Studio Code, and more samples.",
+  "key_points": [
+    "An agent test has three core parts: data sets define the input, an AL test codeunit loops through the turns and verifies the outcome, and configuration files wire them together.",
+    "Add a dependency on the AI Development Toolkit Evaluation app, which the presenters recommend. It provides the AI Test Toolkits and agent test library utility methods.",
+    "YAML files hold data sets and XML files hold test suite configuration. An installation codeunit imports them using the AI Test Suite Management methods.",
+    "One codeunit can be reused across multiple data sets, so adding a new test case mostly means adding data.",
+    "Categorize tests: P0 for happy-path tests that should usually pass and run fast and often, P1 for specific scenarios and edge cases, plus load tests (slower, run less often) and variation tests.",
+    "The PowerShell test runner supports CI/CD with token-based authentication, but only against sandboxes. It does not run on-prem or on AL-Go images.",
+    "The sales return agent sample is not on BCT yet and is available on request. LLM as judge is announced, and running tests from Visual Studio Code is planned."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "137a12fc69d91fee27de920a0741a833e9a2f4fc5464c0debc4d4c4c5dfae37e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.045506399999999995
+  }
+}

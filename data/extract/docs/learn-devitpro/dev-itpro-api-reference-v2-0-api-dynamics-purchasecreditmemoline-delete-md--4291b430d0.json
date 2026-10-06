@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete",
+  "title": "Delete purchaseCreditMemoLines",
+  "blob": "afd4d9883e44edc686e5b7244a8966067eaa7fba",
+  "summary": "Delete purchaseCreditMemoLines API endpoint removes a purchase credit memo line record from Business Central using HTTP DELETE with authorization and eTag headers.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "delete",
+    "purchase credit memo lines"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP DELETE",
+    "Authorization",
+    "If-Match header",
+    "204 No Content response"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004833,
+      "pages_in_call": 8
+    }
+  ]
+}

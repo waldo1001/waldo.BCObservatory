@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1302.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1302",
+  "title": "Standard Sales Pro Forma Invoice report",
+  "blob": "f13978d19b7a8311724ea246a36fc275bbe685a4",
+  "summary": "Standard Sales Pro Forma Invoice report prints a pro forma invoice for sales orders showing item details, country of manufacture, tariff numbers, and VAT for customs purposes.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "pro forma invoice",
+    "sales order",
+    "customs",
+    "export",
+    "tariff",
+    "pre-invoice"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Pro Forma Inv"
+    }
+  ],
+  "features": [
+    "sales order number filter",
+    "customer number filter",
+    "country of manufacture",
+    "tariff numbers",
+    "net weight",
+    "zero quantity line hiding",
+    "work description text"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

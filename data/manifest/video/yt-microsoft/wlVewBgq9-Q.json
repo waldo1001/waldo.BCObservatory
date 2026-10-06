@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "How to Create Projects in Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=wlVewBgq9-Q",
-  "published_at": null,
+  "published_at": "2025-05-22T16:11:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:14:32.062Z",
+      "captions": "auto:en-orig",
+      "duration_s": 165
+    },
+    "captioned": {
+      "at": "2026-10-06T14:14:48.764Z",
+      "path": "data/captions/microsoft/wlVewBgq9-Q.vtt",
+      "vtt_sha256": "d5bcb1c86b6d117c0ebc0be5da08ec2a1660e16692b26b70ed4208c55e957a91",
+      "segments": 14,
+      "words": 441,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 213,
     "duration_s": 165,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5bcb1c86b6d117c0ebc0be5da08ec2a1660e16692b26b70ed4208c55e957a91"
 }

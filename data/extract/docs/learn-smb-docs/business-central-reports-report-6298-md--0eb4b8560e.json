@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6298.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6298",
+  "title": "Sust. Standard Sales Quote report",
+  "blob": "4d854a34eabc94fe5c2eaaf5b1a9d2bbc2fbdd6b",
+  "summary": "Sust. Standard Sales Quote report adds sustainability data including CO2e per unit and total CO2e figures to sales quotes using the emission unit of measure from Sustainability Setup.",
+  "systems": [
+    "sales",
+    "sustainability",
+    "reporting"
+  ],
+  "topics": [
+    "sales quote",
+    "sustainability",
+    "co2e",
+    "emissions",
+    "report",
+    "carbon",
+    "disclaimer"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sust. Standard Sales Quote"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales - Quote"
+    }
+  ],
+  "features": [
+    "CO2e per unit column",
+    "total CO2e figure",
+    "sustainability disclaimer",
+    "emission unit of measure",
+    "emission decimal places",
+    "existing quote layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

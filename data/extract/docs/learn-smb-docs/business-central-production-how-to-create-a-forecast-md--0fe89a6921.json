@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-a-forecast.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-a-forecast",
+  "title": "Create a demand forecast",
+  "blob": "0d2444bb4f092b53b3c9f4973abc86d92ac48e56",
+  "summary": "Create demand forecasts for sales items or components to plan purchases, production, and inventory before orders arrive and model seasonal demand.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "forecasting",
+    "demand forecast",
+    "sales forecast",
+    "production forecast",
+    "mps",
+    "mrp"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Demand Forecasts"
+    },
+    {
+      "type": "page",
+      "name": "Demand Forecast Overview"
+    },
+    {
+      "type": "table",
+      "name": "Demand Forecast Name"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Sales forecasts",
+    "Production forecasts",
+    "Component forecasts",
+    "Forecast by location",
+    "Forecast by variant",
+    "MPS and MRP integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

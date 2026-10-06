@@ -1,0 +1,28 @@
+{
+  "video_id": "ARKckFygbWQ",
+  "item_id": "video/yt-microsoft/ARKckFygbWQ",
+  "summary": "Expense agent web app in Business Central (2026 release wave 1): employees use app.expenses.dynamics.com with only an Enter ID and no Business Central license. The demo shows receipt capture, automatic data extraction, categorization, itemization and compliance checking based on administrator settings.",
+  "overview": "The video presents a web portal built for employees to manage expenses with the expense agent. It is reached at app.expenses.dynamics.com. Employees log in with their Enter ID and do not need a Business Central license or accounting knowledge. An administrator must first set it up in Business Central.\n\nThe demo captures receipts and submits them to the agent, which works on the employee's behalf. The agent extracts merchant, amount and date, picks a category from the receipt context (a taxi receipt becomes ground transport), and itemizes a detailed hotel receipt according to administration settings. It also marks expenses as compliant or non-compliant using the policy rules set in Business Central. Categories and items can be edited by hand. PDFs and images are handled, and mileage and per diem are mentioned as supported types.",
+  "key_points": [
+    "The web app is at app.expenses.dynamics.com and is meant for employees who do not know accounting.",
+    "Employees need only an Enter ID to log in; no Business Central license is required.",
+    "An administrator must complete setup in Business Central before the web app can be used.",
+    "The agent extracts merchant, amount and date from receipts, including PDFs and images.",
+    "The agent suggests a category from receipt context (for example taxi as ground transport); the category can be edited manually.",
+    "Hotel receipts are itemized automatically based on administration settings in Business Central; items can be edited.",
+    "Compliance or non-compliance is decided from the rules and policies the administrator configured in Business Central."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker",
+    "end user"
+  ],
+  "extraction_hash": "e6a6122daed2721ecb70635335967bb28274c92b0cb405d4d877b576a9c63e69",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0420804
+  }
+}

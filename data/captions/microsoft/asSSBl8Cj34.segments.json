@@ -1,0 +1,91 @@
+{
+  "video_id": "asSSBl8Cj34",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.5,
+      "end": 18.4,
+      "text": "Hello and welcome. If you frequently work with permission sets, you'll be interested to hear what's coming in the 2025 wave 2 release. Managing permission sets is an ongoing task."
+    },
+    {
+      "t": 18.4,
+      "end": 32.1,
+      "text": "Often we have a permission set in our production database that consists of just a couple of simple objects. We might then export it to a test environment, modify it, and end up with a completely different configuration."
+    },
+    {
+      "t": 32.1,
+      "end": 50.3,
+      "text": "For example, let's say our original permission set in production includes access to sales documents. However, in test environment, we played around with it and modified permissions to focus on purchase documents instead."
+    },
+    {
+      "t": 50.3,
+      "end": 57.8,
+      "text": "Now we want to import these changes back into the production company."
+    },
+    {
+      "t": 58.9,
+      "end": 69.8,
+      "text": "When using the action import permission sets in previous version of Business Central, the system would ask whether we want to update it."
+    },
+    {
+      "t": 69.8,
+      "end": 80.7,
+      "text": "If we confirmed with yes, the system would behave as expected. merging permissions from the test and production environment."
+    },
+    {
+      "t": 81.4,
+      "end": 100.6,
+      "text": "When reviewing the permissions afterward, we could see that all reent relevant tables from the both environments were merged. However, there's another use case transferring a permission set exactly as it is from the test environment into the production environment."
+    },
+    {
+      "t": 100.6,
+      "end": 110.2,
+      "text": "In our example, the production environment originally had permissions for the customer table, vendor table, and sales documents."
+    },
+    {
+      "t": 110.2,
+      "end": 126,
+      "text": "But in our test company, someone decided that the vendors were not necessary in this context and replace them with contacts instead. The reason if we're updating addresses in service documents, we want to ensure both customers and contacts are updated."
+    },
+    {
+      "t": 126,
+      "end": 133.8,
+      "text": "Now let's try importing this permission set from the test company and see what happens."
+    },
+    {
+      "t": 139.8,
+      "end": 154.8,
+      "text": "To overrite the existing permissions instead of merging them we must select no when prompted. The system then inform us that choosing no will replace the existing permissions with those from the import file."
+    },
+    {
+      "t": 154.8,
+      "end": 168.9,
+      "text": "After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined in the test company."
+    },
+    {
+      "t": 168.9,
+      "end": 184.8,
+      "text": "I hope this update proves useful for Business Central users who frequently test and refine permission sets before deploying them in production. With this improvement, you no longer have to manually delete existing permissions before importing a new set."
+    },
+    {
+      "t": 184.8,
+      "end": 189,
+      "text": "Thanks for watching and have fun."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.52,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 376
+}

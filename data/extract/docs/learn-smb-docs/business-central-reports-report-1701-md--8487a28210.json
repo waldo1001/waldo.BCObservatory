@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1701.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1701",
+  "title": "Deferral Summary - Sales (report)",
+  "blob": "ad9d615adca886f06ecc287c977a2cc2ddac8521",
+  "summary": "Deferral Summary - Sales report summarizes posted sales deferral activity by customer, showing recognized and remaining deferred amounts as of a balance date for reconciliation and analysis.",
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "deferral",
+    "revenue",
+    "reconciliation",
+    "reporting",
+    "sales",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Deferral Summary - Sales"
+    }
+  ],
+  "features": [
+    "Filter by customer number",
+    "Filter by document number",
+    "Balance as of date control",
+    "Print customer on new page",
+    "Hide Zero Remaining Amounts option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

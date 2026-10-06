@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/rebilling",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653",
       "words": 481,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.443Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007413
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.448Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.449Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.449Z",
+      "page": false
     }
   },
   "input_hash": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653"
+  "output_hash": "c3daef61fb0942affe1dfe151bbcab6cc505675360392200c78d0259949df568"
 }

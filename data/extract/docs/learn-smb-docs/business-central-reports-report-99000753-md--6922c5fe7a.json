@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000753.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000753",
+  "title": "Quantity Explosion of BOM (report)",
+  "blob": "370db5b45c74530c17a422db2e2f84c16cee1294",
+  "summary": "Quantity Explosion of BOM report shows a fully exploded, indented listing of production BOM component levels with calculated quantities for each component required to manufacture an item.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "bom",
+    "bill-of-materials",
+    "production",
+    "components",
+    "manufacturing",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Quantity Explosion of BOM"
+    }
+  ],
+  "features": [
+    "Filter by item number",
+    "Filter by search description",
+    "Filter by inventory posting group",
+    "Calculation date parameter",
+    "Nested BOM support",
+    "Unit of measure display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

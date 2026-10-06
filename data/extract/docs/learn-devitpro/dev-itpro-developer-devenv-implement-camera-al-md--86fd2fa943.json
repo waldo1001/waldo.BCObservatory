@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-implement-camera-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al",
+  "title": "Implementing the Camera in AL for Business Central",
+  "blob": "0030eee02b76c92d08b8f0dc7c7511bdc366ef56",
+  "summary": "Camera capability in AL enables device picture capture from web and tablet/phone clients using the Camera codeunit (online) or DotNet interop (on-premises with Microsoft.Dynamics.Nav.ClientExtensions).",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "camera",
+    "device capabilities",
+    "dotnet interop",
+    "system application",
+    "picture capture"
+  ],
+  "objects": [],
+  "features": [
+    "RequestPictureAsync method",
+    "CameraOptions configuration",
+    "Picture file handling",
+    "IsAvailable check",
+    "PictureAvailable trigger",
+    "Camera codeunit"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004843,
+      "pages_in_call": 8
+    }
+  ]
+}

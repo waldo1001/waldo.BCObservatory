@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5084.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5084",
+  "title": "Email Merge report",
+  "blob": "4f3bff9770181c59951279031f23ac2be54b23ec",
+  "summary": "The Email Merge report generates personalized letters for contacts in a marketing segment, combining company information, salutation, segment content, and salesperson signature.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "marketing-campaigns",
+    "customer-communication",
+    "personalization",
+    "segments"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Email Merge"
+    }
+  ],
+  "features": [
+    "personalized salutation",
+    "formal or informal greeting",
+    "segment data integration",
+    "salesperson signature",
+    "multilingual support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

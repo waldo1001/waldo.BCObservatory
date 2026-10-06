@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-user-checklist-trace",
   "published_at": "2026-08-10T12:37:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5125c9a55274bbb3e59365308031002aa2fbb635",
       "words": 310,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:28.306Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006804
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:28.313Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:28.313Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:28.314Z",
+      "page": false
     }
   },
   "input_hash": "5125c9a55274bbb3e59365308031002aa2fbb635",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5125c9a55274bbb3e59365308031002aa2fbb635"
+  "output_hash": "3e3c30a5e6bdb4b637df7b1ec78cd19d161a3d53987e960619a3da24d2a05dd2"
 }

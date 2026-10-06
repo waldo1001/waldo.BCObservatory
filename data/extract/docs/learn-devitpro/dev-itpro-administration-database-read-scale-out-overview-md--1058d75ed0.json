@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-read-scale-out-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview",
+  "title": "Using Read Scale-Out for Better Performance",
+  "blob": "76f43641335820851052a615b80ea18f7ba55183",
+  "summary": "Using read scale-out to isolate analytical workloads from business process transactions on read-only database replicas. Covers enabling read scale-out, setting DataAccessIntent property, and overriding database access intent at runtime.",
+  "systems": [
+    "administration",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "read scale-out",
+    "database performance",
+    "read-only replicas",
+    "dataaccessintent"
+  ],
+  "objects": [],
+  "features": [
+    "DataAccessIntent property",
+    "OData GET requests",
+    "read-only intent",
+    "database replica failover"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011108,
+      "pages_in_call": 5
+    }
+  ]
+}

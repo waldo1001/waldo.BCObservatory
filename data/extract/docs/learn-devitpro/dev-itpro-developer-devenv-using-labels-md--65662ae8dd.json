@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-using-labels.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-labels",
+  "title": "Working with Labels in AL for Business Central",
+  "blob": "2f4e669a90b8e1dd4794cdece72531ba58324200",
+  "summary": "Use labels to create translatable string constants for UI text like captions, descriptions, and messages. Use when building multilingual interfaces with caption, tooltip, and option caption properties.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "labels",
+    "translation",
+    "localization",
+    "multilingual",
+    "ui text",
+    "captioning"
+  ],
+  "objects": [],
+  "features": [
+    "Label data type",
+    "Comment parameter",
+    "Locked parameter",
+    "MaxLength parameter",
+    "Report labels",
+    "Page labels"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

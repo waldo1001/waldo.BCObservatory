@@ -1,0 +1,200 @@
+{
+  "video_id": "zei-IszvYNU",
+  "item_id": "video/yt-microsoft/zei-IszvYNU",
+  "title": "MCP Server and All Microsoft API's (2026 release wave 1)",
+  "duration_s": 293,
+  "systems": [
+    "integration",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "microsoft apis",
+    "agents",
+    "api configuration",
+    "automation apis",
+    "e-invoicing",
+    "subscription billing",
+    "agent development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and scope of Microsoft APIs in MCP server",
+      "t_start": 0,
+      "t_end": 52.5
+    },
+    {
+      "title": "2026 wave one release recap and video scope",
+      "t_start": 52.5,
+      "t_end": 82.6
+    },
+    {
+      "title": "Configuring all Microsoft APIs in MCP server",
+      "t_start": 82.6,
+      "t_end": 151.4
+    },
+    {
+      "title": "API documentation and discovery",
+      "t_start": 151.4,
+      "t_end": 201.2
+    },
+    {
+      "title": "Resources for learning MCP server",
+      "t_start": 201.2,
+      "t_end": 250.8
+    },
+    {
+      "title": "Next steps and related content",
+      "t_start": 250.8,
+      "t_end": 293
+    }
+  ],
+  "features": [
+    {
+      "name": "All Microsoft published APIs available in MCP server",
+      "description": "All Microsoft published APIs are now available in the MCP server, including subscription billing, e-invoicing, automation APIs, and any API that has a published Microsoft endpoint.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.2,
+      "t_end": 39,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp server",
+        "apis",
+        "agents",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Add tools by API group in MCP configuration",
+      "description": "Users can add APIs to MCP server configuration either one by one or by using the add tools by API group action to bulk-add all APIs in a group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.6,
+      "t_end": 136.5,
+      "is_demoed": true,
+      "caveats": [
+        "Users can set permissions to read-only or other levels if the API supports them"
+      ],
+      "tags": [
+        "mcp server",
+        "api configuration",
+        "setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API groups for automation, e-document, and intercompany",
+      "description": "API groups are now available for analytics, automation APIs, e-document, intercompany, and other functional areas, allowing bulk configuration of related APIs.",
+      "status": "ga",
+      "status_evidence_t": 125.3,
+      "status_evidence_quote": "analytics, automation APIs, e-document, intercompany, um everything that we have an API group for is now available",
+      "status_evidence_verified": true,
+      "t_start": 110.1,
+      "t_end": 125.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp server",
+        "api groups",
+        "automation",
+        "e-invoicing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP server support in 2026 wave one release",
+      "description": "MCP server enhancements shipped in April 2026 release, with additional APIs and query support being added in version 28.2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.5,
+      "t_end": 75.1,
+      "is_demoed": false,
+      "caveats": [
+        "Multiple videos needed to understand full capabilities including API queries"
+      ],
+      "tags": [
+        "mcp server",
+        "release",
+        "2026 wave one"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 24.2,
+      "text": "the surface of Business Central is just much larger now. You can use MCP server not only for the core APIs in V2 that",
+      "why_it_matters": "Explains the scope expansion of MCP server from V2 APIs only to all Microsoft APIs as of April 2026.",
+      "check": "exact"
+    },
+    {
+      "t": 39,
+      "text": "now everything like subscription billing or e-invoicing, automation APIs, everything that has an API is now enabled for MCP server and therefore for your",
+      "why_it_matters": "Defines what is now included in MCP server support - all published Microsoft APIs across all domains.",
+      "check": "exact"
+    },
+    {
+      "t": 82.6,
+      "text": "all Microsoft published APIs are available in MCP server",
+      "why_it_matters": "Core status statement confirming general availability of the full API surface in MCP server.",
+      "check": "exact"
+    },
+    {
+      "t": 96.6,
+      "text": "multiple ways to add APIs to an MCP server configuration. You can either go and add them one by one or just use the",
+      "why_it_matters": "Documents the configuration methods available to users for integrating APIs into MCP server.",
+      "check": "exact"
+    },
+    {
+      "t": 151.4,
+      "text": "the standard documentation for this in our developer documentation is has this landing page aka.ms/bcintegration",
+      "why_it_matters": "Points to the authoritative resource for discovering and learning about available APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 250.8,
+      "text": "hopefully that together with the new APIs will enable you to identify much more of the ERP workloads for your environment or for your",
+      "why_it_matters": "States the business value proposition - enabling broader ERP automation scenarios through expanded API access.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 63.4,
+      "kind": "other",
+      "text": "There's another video for supporting API queries and you should watch both of these to get your agents the full power of what we're releasing in 28.2"
+    },
+    {
+      "t": 265.4,
+      "kind": "other",
+      "text": "Before you dive into actually like making agents left and right, make sure you that you watch the other video for API queries in MCP server"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026929
+    }
+  ]
+}

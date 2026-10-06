@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Discover and Explore Reports (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=yXz3ZlSioWQ",
-  "published_at": null,
+  "published_at": "2025-04-01T15:01:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:17:23.432Z",
+      "captions": "auto:en-orig",
+      "duration_s": 489
+    },
+    "captioned": {
+      "at": "2026-10-06T14:17:53.398Z",
+      "path": "data/captions/microsoft/yXz3ZlSioWQ.vtt",
+      "vtt_sha256": "7cb992249df47acf05923796ecdf6b0b84a3feee24290ae14797273440937850",
+      "segments": 26,
+      "words": 1184,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 225,
     "duration_s": 489,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7cb992249df47acf05923796ecdf6b0b84a3feee24290ae14797273440937850"
 }

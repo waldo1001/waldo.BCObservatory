@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-reports",
+  "title": "Sustainability reports and analytics",
+  "blob": "7cf21a29d0a78616a3aaa16a96f09ae0a226b06e",
+  "summary": "Use sustainability reports and the Role Explorer to analyze emissions and track items with high pollution levels, including the Track Item of Concern report for monitoring inbound and outbound transactions.",
+  "systems": [
+    "sustainability",
+    "reporting",
+    "inventory"
+  ],
+  "topics": [
+    "sustainability reporting",
+    "emissions tracking",
+    "item concerns",
+    "analytics",
+    "environmental compliance",
+    "carbon footprint"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Track Item of Concern"
+    }
+  ],
+  "features": [
+    "Item of Concern field",
+    "Track Item of Concern report",
+    "Role Explorer",
+    "Sustainability FastTab",
+    "High emission tracking",
+    "Transaction monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009013,
+      "pages_in_call": 3
+    }
+  ]
+}

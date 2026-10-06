@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/quality-management",
+  "input_hash": "3b5a57d32e1e8afcebf53095eb243c840c16d374fbe9326669a88046ec0f4892",
+  "summary": "Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. This section answers questions about setup, working with inspections, blocking lots, handling failed items, scheduling, and troubleshooting.",
+  "overview": "Quality Management is an extension that creates quality inspections at key points in purchasing, production, assembly, and warehouse processes. Inspections can be created automatically, manually, or on a schedule, and they use templates. Noncompliant lots can be blocked, and workflows can be integrated.\n\nThe pages follow the order of the work. Start with the overview, then go to the \"Set up quality management\" subtopic. It covers prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. After setup, \"Work with quality inspections\" explains how to create, assign, perform, and finish inspections. \"Create scheduled quality inspections\" covers inspections triggered at time intervals through job queue entries.\n\nOnce inspections produce results, \"Block or unblock lots\" and \"Process items that failed a quality inspection\" describe what to do with the affected stock. \"Troubleshoot quality management features\" groups common problems by feature area, so use it when inspections are not generated or behave unexpectedly.",
+  "key_points": [
+    "Quality Management is a Microsoft-published extension. It supports inspections that are created automatically, manually, or on a schedule.",
+    "Setup covers prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. Do this before inspections are created.",
+    "Working with inspections: create them from templates, source records, or automatic triggers. You can assign owners, enter test values, finish inspections, print reports, and create reinspections.",
+    "Scheduled inspections use job queue entries and recurring job scheduling. They suit proactive checks such as shelf life monitoring.",
+    "Lots, serial numbers, and packages can be blocked or unblocked through workflows or based on inspection results. Document-specific restrictions apply to sales, transfers, and other transactions.",
+    "Failed items can be handled by blocking lots, moving to quarantine, creating transfers or returns, removing inventory with negative adjustments, or reclassifying item tracking.",
+    "The troubleshooting page covers setup, generation rules, scheduled inspections, workflows, templates, warehouse receipt and production output inspections, manual creation, and lot blocking."
+  ],
+  "members_used": 6,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:35.091Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042231
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T14:23:48.815Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says 'The pages follow the order of the work'. That is the writer's own reading order, not something a page summary states. It is harmless and helps with navigation.",
+      "Overview says to use troubleshooting 'when inspections are not generated or behave unexpectedly'. This is a reasonable inference from the feature-area grouping, but the summaries don't say it directly.",
+      "Key point 7 merges 'test generation rules' and 'inspection generation rules' into 'generation rules' and leaves out the general 'inspections' area. This is a small simplification, not an error."
+    ],
+    "input_hash": "3b5a57d32e1e8afcebf53095eb243c840c16d374fbe9326669a88046ec0f4892",
+    "cost_usd": 0.09536720000000001
+  }
+}

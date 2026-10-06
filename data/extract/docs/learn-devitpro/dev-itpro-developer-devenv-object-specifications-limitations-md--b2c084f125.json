@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-object-specifications-limitations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-object-specifications-limitations",
+  "title": "Object Specifications and Limitations",
+  "blob": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d",
+  "summary": "Object specifications describe limits and maximums for database, tables, pages, reports, codeunits, and variables in Business Central development, including field counts, text length, key sizes, and object ID ranges.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "object limits",
+    "specifications",
+    "database constraints",
+    "field size",
+    "variable limits"
+  ],
+  "objects": [],
+  "features": [
+    "Table object ID range (1–999,999,999)",
+    "Field count maximum (500 per table)",
+    "Record size maximum (8060 bytes)",
+    "Key size maximum (900 bytes)",
+    "Text field maximum (2048 characters)",
+    "BLOB field maximum (2 GB)",
+    "Codeunit size maximum (2 GB)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

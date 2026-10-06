@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-107.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-107",
+  "title": "Customer - Order Summary (report)",
+  "blob": "4bf5a05b1ae253adf2956d7bdc7c8688939da292",
+  "summary": "The Customer - Order Summary report displays outstanding order quantities grouped by three 30-day periods and total amounts per customer, used by sales managers to review shipment schedules and by controllers to estimate revenue and assess currency exposure.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales reports",
+    "order management",
+    "customer analysis",
+    "revenue forecasting",
+    "currency"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Order Summary"
+    }
+  ],
+  "features": [
+    "Outstanding quantity tracking",
+    "30-day period grouping",
+    "Currency filtering",
+    "LCY display option",
+    "Customer posting group filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

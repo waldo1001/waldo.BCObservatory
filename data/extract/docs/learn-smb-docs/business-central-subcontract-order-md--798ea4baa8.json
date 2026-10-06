@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-order",
+  "title": "Order subcontracting",
+  "blob": "35906c9a55bc459065ccbf759a3483dbb76b3764",
+  "summary": "Create and manage subcontracting purchase orders from production order routings, either directly or through a worksheet, with support for comments, attachments, WIP tracking, and cost posting.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "subcontracting",
+    "purchase orders",
+    "production orders",
+    "routing operations",
+    "cost accounting",
+    "warehouse receipts"
+  ],
+  "objects": [],
+  "features": [
+    "subcontracting purchase orders",
+    "routing operations",
+    "subcontracting worksheet",
+    "inventory put-away",
+    "warehouse receipts",
+    "capacity ledger",
+    "direct costs",
+    "undo receipts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01081,
+      "pages_in_call": 5
+    }
+  ]
+}

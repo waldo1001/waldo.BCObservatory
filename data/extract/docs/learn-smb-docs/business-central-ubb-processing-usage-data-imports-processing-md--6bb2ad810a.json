@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/processing-usage-data/imports-processing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/imports-processing",
+  "title": "Import data in usage-based billing",
+  "blob": "be0e57edbd8d33837bf213d8048a3d1750d4e626",
+  "summary": "Usage data import and processing transforms raw supplier usage files into billable customer and vendor invoices through data exchange definitions, subscription matching, and pricing calculation using methods like usage quantity, fixed quantity, or unit cost surcharge.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "usage-based billing",
+    "data import",
+    "pricing calculation",
+    "subscription contracts",
+    "billing",
+    "batch processing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Imports"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Supplier References"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Generic Import"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Billing"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Billing Metadata"
+    }
+  ],
+  "features": [
+    "Usage data import via file",
+    "Usage data import via API",
+    "Data exchange definition mapping",
+    "Subscription matching",
+    "Usage Quantity pricing",
+    "Fixed Quantity pricing",
+    "Unit Cost Surcharge pricing",
+    "Partial period calculation",
+    "Customer invoice creation",
+    "Vendor invoice creation",
+    "Error tracking and correction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

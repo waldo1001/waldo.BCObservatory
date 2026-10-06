@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-purchase",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e001c8c6d8148047ac979562a90db51af9793534",
       "words": 463,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:06:35.053Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006059
+    },
+    "summarized": {
+      "at": "2026-10-06T14:06:35.057Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:06:35.057Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:06:35.057Z",
+      "page": false
     }
   },
   "input_hash": "e001c8c6d8148047ac979562a90db51af9793534",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e001c8c6d8148047ac979562a90db51af9793534"
+  "output_hash": "606263d1674c02f3da6a9c5e64099f7b9645ef646525708c860a8c6195686230"
 }

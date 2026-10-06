@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app",
+  "title": "Power BI Subscription Billing app",
+  "blob": "86ee5cbe5b417359c75699fa1a011c368f821b1e",
+  "summary": "Power BI Subscription Billing app tracks subscription business performance including recurring revenue, churn, contract value, and revenue forecasting with setup requirements for monthly job queues.",
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "subscription billing",
+    "power bi app",
+    "recurring revenue",
+    "contract value",
+    "revenue forecasting"
+  ],
+  "objects": [],
+  "features": [
+    "Subscription Overview report",
+    "Revenue Year-over-Year report",
+    "Total Contract Value Year-over-Year report",
+    "Revenue Development report",
+    "Revenue Forecast report",
+    "Customer Deferrals report",
+    "Vendor Deferrals report",
+    "Billing Schedule report",
+    "Job queue setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00471,
+      "pages_in_call": 8
+    }
+  ]
+}

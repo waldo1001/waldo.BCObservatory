@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/itpro-introduction-to-automation-apis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis",
+  "title": "Introduction to automation APIs",
+  "blob": "9e4b43742d1fd468b831c64610dfbf1e083a9a45",
+  "summary": "Automation APIs enable tenant setup and hydration through company creation, RapidStart package management, user and permission administration, extension handling, and feature management without manual configuration.",
+  "systems": [
+    "administration",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "automation apis",
+    "tenant setup",
+    "rapidstart packages",
+    "user management",
+    "permission sets",
+    "extension installation",
+    "feature management"
+  ],
+  "objects": [],
+  "features": [
+    "Company creation via automationCompany",
+    "RapidStart package upload and application",
+    "User property modification",
+    "Permission set and security group assignment",
+    "Office 365 user synchronization",
+    "Extension management (install, uninstall, unpublish)",
+    "Feature activation and deactivation",
+    "Security and permission inspection endpoints"
+  ],
+  "versions": [
+    "version 25",
+    "version 25.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016273,
+      "pages_in_call": 2
+    }
+  ]
+}

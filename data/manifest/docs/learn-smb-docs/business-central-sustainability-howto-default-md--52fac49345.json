@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-howto-default",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22c5928afa7de21d812690fa25b295614f4c9d86",
       "words": 1319,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T14:01:40.445Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009013
+    },
+    "summarized": {
+      "at": "2026-10-06T14:01:40.450Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:01:40.450Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:01:40.450Z",
+      "page": false
     }
   },
   "input_hash": "22c5928afa7de21d812690fa25b295614f4c9d86",
@@ -79,5 +98,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22c5928afa7de21d812690fa25b295614f4c9d86"
+  "output_hash": "19b88b2b2c3708b4c6af70a20ad9831d0cd1684e08370f2ee8dee99da339b3bc"
 }

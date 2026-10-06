@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/masterdata/references.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/references",
+  "title": "Usage data supplier references",
+  "blob": "1d7dbdb28820dccc75b4985d5204b3f9016ecb41",
+  "summary": "Usage data supplier references link supplier subscriptions and products to customer/vendor subscription contracts for billing, creating a mapping path from imported usage data to the contracts and items needed for pricing and invoicing.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "usage-based billing",
+    "subscriptions",
+    "supplier references",
+    "supplier products",
+    "service commitments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Supplier References"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Customers"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Supplier subscription references",
+    "Product reference matching",
+    "Customer reference creation",
+    "Automatic subscription creation",
+    "Item reference by supplier"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/connect-subscription-service-object",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b960861355e4e7cdf914725675351bace038167",
       "words": 355,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.442Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007413
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.447Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.447Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.447Z",
+      "page": false
     }
   },
   "input_hash": "1b960861355e4e7cdf914725675351bace038167",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b960861355e4e7cdf914725675351bace038167"
+  "output_hash": "43545fe764e3ab61cdcff71fb9ef48281aa0d299a05b13537e19da2a33ee1b3a"
 }

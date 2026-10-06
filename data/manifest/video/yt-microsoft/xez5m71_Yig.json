@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "#BCTalent in North America: Bridging the Talent Gap Together",
   "url": "https://www.youtube.com/watch?v=xez5m71_Yig",
-  "published_at": null,
+  "published_at": "2025-04-08T18:46:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:17:07.717Z",
+      "captions": "auto:en-orig",
+      "duration_s": 111
+    },
+    "captioned": {
+      "at": "2026-10-06T14:17:31.980Z",
+      "path": "data/captions/microsoft/xez5m71_Yig.vtt",
+      "vtt_sha256": "b83c98862c19fea4dab3d2d2962a5008a9de4a813f5d2eca5cd2f74fb28ce774",
+      "segments": 9,
+      "words": 279,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 223,
     "duration_s": 111,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b83c98862c19fea4dab3d2d2962a5008a9de4a813f5d2eca5cd2f74fb28ce774"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "How to Set Up Locations in Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=X3xygXmgRqU",
-  "published_at": null,
+  "published_at": "2025-05-22T16:17:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:13:44.448Z",
+      "captions": "auto:en-orig",
+      "duration_s": 155
+    },
+    "captioned": {
+      "at": "2026-10-06T14:14:08.856Z",
+      "path": "data/captions/microsoft/X3xygXmgRqU.vtt",
+      "vtt_sha256": "604033027f8eba02a6196e335f0d582f6a4b1a0664809c972a30d9ac6b19892d",
+      "segments": 13,
+      "words": 383,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 210,
     "duration_s": 155,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "604033027f8eba02a6196e335f0d582f6a4b1a0664809c972a30d9ac6b19892d"
 }

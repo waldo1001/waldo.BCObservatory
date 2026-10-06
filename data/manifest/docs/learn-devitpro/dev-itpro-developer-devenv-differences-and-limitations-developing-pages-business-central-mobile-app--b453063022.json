@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-differences-and-limitations-developing-pages-business-central-mobile-app",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d451c76b477fcfe09b8223b9e52e07ff73ff565f",
       "words": 755,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.668Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.675Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.675Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.675Z",
+      "page": false
     }
   },
   "input_hash": "d451c76b477fcfe09b8223b9e52e07ff73ff565f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d451c76b477fcfe09b8223b9e52e07ff73ff565f"
+  "output_hash": "cd23d24fe76645ec17c63340f7e5372faa683998a7f4ed7e3af209564b6f2c95"
 }

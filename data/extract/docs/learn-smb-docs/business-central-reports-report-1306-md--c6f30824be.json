@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1306.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1306",
+  "title": "Standard Sales Invoice report",
+  "blob": "44f18363059e86b67886141076f7a4ea16937c97",
+  "summary": "Standard Sales Invoice report produces a version of posted sales invoices for printing or email, showing lines, discounts, VAT totals, and customer details.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "sales invoice",
+    "posted invoice",
+    "vat",
+    "customer billing",
+    "reprint"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Invoice"
+    }
+  ],
+  "features": [
+    "invoice number filter",
+    "customer number filter",
+    "printed tracking filter",
+    "assembly component details",
+    "shipment information",
+    "extra fee note",
+    "zero quantity hiding",
+    "interaction logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

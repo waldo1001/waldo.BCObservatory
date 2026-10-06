@@ -1,0 +1,669 @@
+{
+  "video_id": "aNRzlbxVPWE",
+  "item_id": "video/yt-microsoft/aNRzlbxVPWE",
+  "title": "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)",
+  "duration_s": 1598,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "agent testing",
+    "evals",
+    "yaml-driven tests",
+    "data-driven testing",
+    "placeholder formulas",
+    "agent automation",
+    "test structure",
+    "suite setup",
+    "multi-turn conversation",
+    "al test library",
+    "agent evaluation",
+    "logging and validation"
+  ],
+  "chapters": [
+    {
+      "title": "Mapping agent task flow and test structure",
+      "t_start": 0,
+      "t_end": 136.3
+    },
+    {
+      "title": "Evals framework and suite setup strategy",
+      "t_start": 136.3,
+      "t_end": 252.8
+    },
+    {
+      "title": "Components: data sets, library agent, and extensibility",
+      "t_start": 252.8,
+      "t_end": 347.5
+    },
+    {
+      "title": "YAML-driven test definition and structure",
+      "t_start": 347.5,
+      "t_end": 467.3
+    },
+    {
+      "title": "Test sections: setup, message, and agent execution",
+      "t_start": 467.3,
+      "t_end": 625.1
+    },
+    {
+      "title": "Output verification and multi-turn testing",
+      "t_start": 625.1,
+      "t_end": 763.5
+    },
+    {
+      "title": "Placeholders for dynamic date and datetime formulas",
+      "t_start": 763.5,
+      "t_end": 917.1
+    },
+    {
+      "title": "AL test structure and agent initialization",
+      "t_start": 917.1,
+      "t_end": 1043.5
+    },
+    {
+      "title": "Suite setup with YAML data and test libraries",
+      "t_start": 1043.5,
+      "t_end": 1208.9
+    },
+    {
+      "title": "Turn setup and executing agent interactions",
+      "t_start": 1208.9,
+      "t_end": 1323.4
+    },
+    {
+      "title": "Validating turns and error logging",
+      "t_start": 1323.4,
+      "t_end": 1454.2
+    },
+    {
+      "title": "Downloaded logs and LLM judge analysis",
+      "t_start": 1454.2,
+      "t_end": 1510
+    },
+    {
+      "title": "Library agent customization and public methods",
+      "t_start": 1510,
+      "t_end": 1598
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent task flow mapping",
+      "description": "A framework for understanding and testing agent behavior through message arrival, agent actions, output verification (message, review request, or intervention), and multi-turn handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 15.4,
+      "t_end": 120.5,
+      "is_demoed": true,
+      "caveats": [
+        "Data may change between turns without agent knowledge",
+        "Requires consideration of state changes in busy ERP environments"
+      ],
+      "tags": [
+        "testing",
+        "agent behavior",
+        "flow mapping"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Evil test framework",
+      "description": "A comprehensive testing approach that follows the agent flow exactly, with additional steps for output verification and data validation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.3,
+      "t_end": 196.2,
+      "is_demoed": true,
+      "caveats": [
+        "Must include output verification",
+        "Requires programmatic data validation"
+      ],
+      "tags": [
+        "evil",
+        "testing framework",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Suite setup strategy",
+      "description": "Creating custom test data rather than relying on demo data because agents may have knowledge of public demo data from model training, requiring custom master records to validate agent behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196.2,
+      "t_end": 252.8,
+      "is_demoed": true,
+      "caveats": [
+        "Agents may recognize public demo data from training",
+        "Custom records needed for accurate testing"
+      ],
+      "tags": [
+        "suite setup",
+        "test data",
+        "demo data bias"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data sets and YAML-driven tests",
+      "description": "AL tests driven by YAML data-driven test specifications, with library agent component automating every step of the agent flow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.8,
+      "t_end": 309.4,
+      "is_demoed": true,
+      "caveats": [
+        "Agent session runs separately and cannot be directly controlled",
+        "Light blue portions are automatable; dark blue agent execution is not"
+      ],
+      "tags": [
+        "yaml",
+        "data-driven",
+        "animal datasets",
+        "library agent"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extensible framework with atomic functions",
+      "description": "Building blocks designed to be fully customizable, allowing users to arrange components as needed without requiring the full framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 309.4,
+      "t_end": 347.5,
+      "is_demoed": false,
+      "caveats": [
+        "Framework is optional",
+        "Atomic functions can be combined independently"
+      ],
+      "tags": [
+        "extensibility",
+        "customization",
+        "atomic functions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "YAML test definition syntax",
+      "description": "Structured YAML format with suit setup, test name, description, and turns array, supporting predefined sections that map to agent actions and free-format sections for custom data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.5,
+      "t_end": 455.4,
+      "is_demoed": true,
+      "caveats": [
+        "Predefined sections are extensible",
+        "Free-format sections require AL code implementation"
+      ],
+      "tags": [
+        "yaml syntax",
+        "test structure",
+        "predefined sections"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Turn setup section",
+      "description": "Predefined YAML section allowing creation of test data before agent execution, supporting simulation of existing state or interim changes for agent pickup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.3,
+      "t_end": 503.4,
+      "is_demoed": true,
+      "caveats": [
+        "Fully implemented in AL",
+        "Free-format custom properties accessible via AL code"
+      ],
+      "tags": [
+        "turn setup",
+        "predefined section",
+        "test data creation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Message arrival with attachments",
+      "description": "YAML section allowing specification of task query with sender, title, body, and file attachments via resources or AL-generated reports converted to attachments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 529.4,
+      "t_end": 610.8,
+      "is_demoed": true,
+      "caveats": [
+        "Dynamic attachment generation requires custom AL code",
+        "Supports both resource-based and report-based attachments"
+      ],
+      "tags": [
+        "message arrival",
+        "attachments",
+        "query definition"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Expected data verification",
+      "description": "YAML section for verifying agent output, specifying intervention request type with suggested action codes and free-format payload for programmatic validation of created records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 625.1,
+      "t_end": 669.1,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot currently check intervention request message text",
+        "Verification of created records requires custom AL implementation"
+      ],
+      "tags": [
+        "expected data",
+        "verification",
+        "intervention requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-turn conversation testing",
+      "description": "Support for multi-turn agent conversations by specifying user interventions as input, allowing mock approval and instructions for agent continuation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 669.1,
+      "t_end": 763.5,
+      "is_demoed": true,
+      "caveats": [
+        "Follows same syntax as initial turn",
+        "User interventions are mocked through YAML"
+      ],
+      "tags": [
+        "multi-turn",
+        "conversation",
+        "user intervention"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Date and datetime placeholders in data-driven tests",
+      "description": "Dynamic date calculation in YAML test data using placeholder formulas that automatically adjust to the current work date, eliminating the need to manually update hardcoded dates in test files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804.7,
+      "t_end": 903,
+      "is_demoed": false,
+      "caveats": [
+        "Placeholders are not specific to agent testing and can be used in data-driven tests outside of in tests"
+      ],
+      "tags": [
+        "placeholders",
+        "yaml",
+        "date handling",
+        "dynamic data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent picker in test execution",
+      "description": "Functionality allowing tests to run against different agents by changing agent instructions and model configuration through three lines of test setup code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 966.8,
+      "t_end": 1034.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent picker",
+        "test configuration",
+        "multi-agent testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Get eval suit setup data input keyword",
+      "description": "Built-in keyword in AL test library that retrieves YAML-defined setup data for a test suite, automatically parsing properties and supporting large file separation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1043.5,
+      "t_end": 1078.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyword",
+        "yaml parsing",
+        "test setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test library data creation and field defaulting",
+      "description": "Test libraries automatically default unspecified fields like posting groups and units of measure, allowing tests to specify only the fields relevant to the agent being tested.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1095.4,
+      "t_end": 1166.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only specify necessary fields for stability and to shield from product changes"
+      ],
+      "tags": [
+        "test libraries",
+        "field defaults",
+        "data creation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Suite setup completion caching",
+      "description": "Suite setup code executes only once per test suite run (or across multiple suite/codeunit runs), controlled by the developer through code, avoiding redundant setup execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1172.7,
+      "t_end": 1195.1,
+      "is_demoed": false,
+      "caveats": [
+        "Developer controls execution timing through code"
+      ],
+      "tags": [
+        "suite setup",
+        "caching",
+        "performance optimization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Run turn and wait keyword",
+      "description": "Built-in helper method that provides both the input message and user intervention to the agent in a turn, handling query parsing, property import, attachment processing, and file insertion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1254.8,
+      "t_end": 1313.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyword",
+        "agent interaction",
+        "message handling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Get expected data keyword for validation",
+      "description": "Built-in keyword that reads expected results from YAML test data, enabling assertions against agent behavior outcomes without using traditional assert statements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1323.4,
+      "t_end": 1346.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyword",
+        "validation",
+        "yaml data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error reason field for test failure logging",
+      "description": "Alternative to traditional asserts; tests check data and accumulate issues in an error reason field, returning true or false to indicate pass/fail and continue or stop the test.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1346.4,
+      "t_end": 1373.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "validation",
+        "logging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Finalize turn keyword with history logging",
+      "description": "Built-in wrapper keyword that stores turn results and task output to history log, checks for next turn definition, and enables viewing error details in a fact box showing why the test failed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1379.2,
+      "t_end": 1443.4,
+      "is_demoed": false,
+      "caveats": [
+        "Fact box showing error text was recently added and may not be visible in older demos"
+      ],
+      "tags": [
+        "keyword",
+        "logging",
+        "error tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Log download with serialized task output",
+      "description": "Downloaded log files contain serialized output including tasks, steps, inputs, expected data, error messages, and other logged outputs that can be uploaded to Azure AI Foundry for LLM judge analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1454.2,
+      "t_end": 1497.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "azure ai foundry",
+        "llm judges",
+        "serialization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Library agent public methods for customization",
+      "description": "Agent test library exposes 27 public methods supporting asynchronous operations (ending with 'and wait') to automate every agent interaction, including wait for task complete for programmatic action invocation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1510,
+      "t_end": 1587.6,
+      "is_demoed": false,
+      "caveats": [
+        "Methods are well-documented; developers encouraged to report missing methods"
+      ],
+      "tags": [
+        "public methods",
+        "customization",
+        "async operations"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "animal data sets",
+      "t": 252.8
+    },
+    {
+      "type": "other",
+      "name": "library agent",
+      "t": 270
+    },
+    {
+      "type": "other",
+      "name": "Get eval suit setup data input",
+      "t": 1054.9
+    },
+    {
+      "type": "other",
+      "name": "Run turn and wait",
+      "t": 1254.8
+    },
+    {
+      "type": "other",
+      "name": "Get expected data",
+      "t": 1323.4
+    },
+    {
+      "type": "other",
+      "name": "Finalize turn",
+      "t": 1379.2
+    },
+    {
+      "type": "other",
+      "name": "Wait for the task to complete",
+      "t": 1549.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Quentin",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 41.8,
+      "text": "going to end up with one of the following it is either going to create a message for you to review it",
+      "why_it_matters": "Defines the three possible outcomes of agent execution that tests must validate.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 97.3,
+      "text": "ERP is quite busy and there is a lot of users and code that is changing the data, data might be changed between the",
+      "why_it_matters": "Critical consideration showing that tests must handle data changes across multi-turn conversations in shared environments.",
+      "check": "exact"
+    },
+    {
+      "t": 223.9,
+      "text": "in our testing we discovered that it wasn't searching for the customer 10 000 it knew that",
+      "why_it_matters": "Explains why custom test data is essential - agents have training knowledge of public demo data that invalidates testing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 252.8,
+      "text": "our main component is actually going to be animal data sets, because the test that we are going to write are going to be",
+      "why_it_matters": "Identifies the core testing mechanism using YAML-based data-driven test specifications.",
+      "check": "exact"
+    },
+    {
+      "t": 648.3,
+      "text": "Unfortunately, currently it's not possible to check on the message if the message of the intervention request as as you expecting it. But we",
+      "why_it_matters": "Acknowledges a current limitation in validation that is planned for future release.",
+      "check": "exact"
+    },
+    {
+      "t": 840.9,
+      "text": "now you can replace the dates with placeholders like this. And this is going to calculate dynamically the work date based on the current",
+      "why_it_matters": "Shows how placeholders solve the maintenance burden of hardcoded dates in test files.",
+      "check": "snapped"
+    },
+    {
+      "t": 840.9,
+      "text": "the problem is that in the tests, I would need to change this one quite often. And the solution that we did is that",
+      "why_it_matters": "Explains the core problem that date placeholders solve - manually updating hardcoded dates in tests.",
+      "check": "exact"
+    },
+    {
+      "t": 853.8,
+      "text": "this is going to calculate dynamically the work date based on the current work date and the formula that you provide here",
+      "why_it_matters": "Documents how placeholders automatically adjust to current work date, keeping tests maintainable across time.",
+      "check": "exact"
+    },
+    {
+      "t": 985,
+      "text": "you can test You can run the same tests on different agents, change their instructions, maybe change the model, and see how that the",
+      "why_it_matters": "Demonstrates the value of the agent picker for comparing agent behavior across different configurations.",
+      "check": "exact"
+    },
+    {
+      "t": 1108.2,
+      "text": "we are going to default the other fields like posting groups units of measure automatically by using test libraries",
+      "why_it_matters": "Shows how test libraries shield tests from product field changes by auto-defaulting non-essential fields.",
+      "check": "exact"
+    },
+    {
+      "t": 1524.5,
+      "text": "we have added the library agent. It has 27 public methods which will allow you to automate every single interaction that you can do",
+      "why_it_matters": "Quantifies the library agent's capabilities for custom test scenarios and programmatic agent invocation.",
+      "check": "exact"
+    },
+    {
+      "t": 1562.7,
+      "text": "this one is quite good if you are going to invoke the agent through the action or AL code. So, you would like to",
+      "why_it_matters": "Identifies the wait for task complete method as essential for programmatic agent invocation patterns.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 648.3,
+      "kind": "coming-later",
+      "text": "it's not possible to check on the message if the message of the intervention request as as you expecting it. But we are planning that."
+    },
+    {
+      "t": 1431.8,
+      "kind": "preview",
+      "text": "this fact box was not visible. We have added it recently"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 21
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040457
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039083
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0482143
+    }
+  ]
+}

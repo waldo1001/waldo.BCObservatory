@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-performance-toolkit-trace",
   "published_at": "2026-08-20T06:29:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41",
       "words": 1362,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:31.146Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.012275
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:31.150Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:31.150Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:31.150Z",
+      "page": false
     }
   },
   "input_hash": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41"
+  "output_hash": "07c95a77594891416d70c3f472d3a58a5e3a55b84cf75ecffbe526118fe4dada"
 }

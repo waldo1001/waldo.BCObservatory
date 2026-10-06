@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6625.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6625",
+  "title": "Item GTIN Label Report in Business Central",
+  "blob": "f9ce06c8abea3a266f3fe028f160377dea1ff418",
+  "summary": "Item GTIN Label report generates printable labels with item number, description, GTIN as 1D barcode and 2D QR code for scanning at receiving, picking, or point-of-sale stations.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "item label",
+    "gtin barcode",
+    "qr code",
+    "barcode printing",
+    "label printing",
+    "warehouse"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item GTIN Label"
+    }
+  ],
+  "features": [
+    "1D barcode",
+    "2D QR code",
+    "GTIN encoding",
+    "Word layout",
+    "item number display",
+    "item description display",
+    "label filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

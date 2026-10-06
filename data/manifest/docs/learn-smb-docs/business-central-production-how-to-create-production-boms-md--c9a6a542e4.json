@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-boms",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1745edd09fd729f522d57a2bbfdbf8a63eb27e38",
       "words": 2049,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.525Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.008701
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.530Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.530Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.530Z",
+      "page": false
     }
   },
   "input_hash": "1745edd09fd729f522d57a2bbfdbf8a63eb27e38",
@@ -117,5 +136,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1745edd09fd729f522d57a2bbfdbf8a63eb27e38"
+  "output_hash": "4ad30db9f726f5c057d22d7626854b9e51276fd9a4bb3ebbdf52c291ce1d6301"
 }

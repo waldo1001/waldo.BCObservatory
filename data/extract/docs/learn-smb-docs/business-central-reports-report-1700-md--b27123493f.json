@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1700.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1700",
+  "title": "Deferral Summary - G/L (report)",
+  "blob": "9c5d508dfa9d1d2740117733c6946ab8fc33751b",
+  "summary": "The Deferral Summary - G/L report shows posted deferral entries linked to general ledger accounts, summarizing amounts recognized over time by posting date, document type, and deferral account with totals per account.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "finance reports",
+    "deferral",
+    "general ledger",
+    "period closing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Deferral Summary - G/L"
+    }
+  ],
+  "features": [
+    "Deferral entry summary",
+    "Recognition tracking",
+    "G/L account filtering",
+    "Balance date selection",
+    "Zero remaining amount hiding",
+    "Per-account page breaks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

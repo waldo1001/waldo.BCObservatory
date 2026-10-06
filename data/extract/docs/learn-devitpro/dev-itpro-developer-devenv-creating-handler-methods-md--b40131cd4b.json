@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-handler-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods",
+  "title": "Create Handler Methods for Automated Tests",
+  "blob": "62bb0c86e00393b06d10e3e34a733e375e915b53",
+  "summary": "Handler methods enable automated testing by intercepting UI interactions like messages, confirmations, page navigation, reports, and notifications without requiring user interaction.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "automated tests",
+    "handler methods",
+    "ui interactions",
+    "codeunits"
+  ],
+  "objects": [],
+  "features": [
+    "MessageHandler",
+    "ConfirmHandler",
+    "StrMenuHandler",
+    "PageHandler",
+    "ModalPageHandler",
+    "ReportHandler",
+    "FilterPageHandler",
+    "RequestPageHandler",
+    "HyperlinkHandler",
+    "SendNotificationHandler",
+    "RecallNotificationHandler",
+    "SessionSettingsHandler"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004843,
+      "pages_in_call": 8
+    }
+  ]
+}

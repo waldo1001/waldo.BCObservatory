@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testrunner-codeunits",
+  "title": "Create Test Runner Codeunits in AL",
+  "blob": "68a6a5b601ebcc87067977ab6a92c48fe31ed9e3",
+  "summary": "Create test runner codeunits to manage execution of test codeunits and integrate with test management frameworks. Use when automating tests to run unattended with preprocessing, postprocessing, and result logging.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testing",
+    "automation",
+    "codeunit",
+    "test isolation",
+    "test execution"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "TestRunnerCodeunit"
+    }
+  ],
+  "features": [
+    "TestRunner subtype",
+    "OnRun trigger",
+    "OnBeforeTestRun trigger",
+    "OnAfterTestRun trigger",
+    "TestIsolation property"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

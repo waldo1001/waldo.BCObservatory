@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9",
       "words": 1085,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:03:05.343Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007228
+    },
+    "summarized": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "page": false
     }
   },
   "input_hash": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9"
+  "output_hash": "48f54a2cbbd3f4680c2d783990644c7831c099f373841093b7f67e557af04597"
 }

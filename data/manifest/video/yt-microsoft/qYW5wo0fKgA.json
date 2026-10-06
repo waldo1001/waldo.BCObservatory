@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Early Access Preview",
   "url": "https://www.youtube.com/watch?v=qYW5wo0fKgA",
-  "published_at": null,
+  "published_at": "2025-10-10T07:34:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:06:09.430Z",
+      "captions": "auto:en-orig",
+      "duration_s": 127
+    },
+    "captioned": {
+      "at": "2026-10-06T14:06:31.259Z",
+      "path": "data/captions/microsoft/qYW5wo0fKgA.vtt",
+      "vtt_sha256": "38c024aaf6c93215d8dd5bba630c012ad38f97d5ad3633c44907dea245b4f992",
+      "segments": 10,
+      "words": 278,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 136,
     "duration_s": 127,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38c024aaf6c93215d8dd5bba630c012ad38f97d5ad3633c44907dea245b4f992"
 }

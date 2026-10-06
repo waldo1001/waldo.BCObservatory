@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000769.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000769",
+  "title": "Output Item Label report",
+  "blob": "c739e84ba8dc01ca3e61f3128ee50f85edbee3b2",
+  "summary": "The Output Item Label report generates barcode and QR code labels for items posted as output from production orders, supporting serial, lot, and package tracking.",
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "production-output",
+    "item-tracking",
+    "barcode-labels",
+    "qr-codes"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Output Item Label"
+    }
+  ],
+  "features": [
+    "linear barcode encoding",
+    "QR code generation",
+    "item tracking type selection",
+    "serial number support",
+    "lot number support",
+    "package number support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

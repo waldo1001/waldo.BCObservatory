@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
+  "title": "Managing Production and Sandbox Environments",
+  "blob": "e09212ac5efcff3df8eafa7514d527290649c775",
+  "summary": "The admin center Environments tab manages Business Central production and sandbox environments, supporting Power Platform linking, environment creation, copying, deletion, and administrative operations logging. Use it to view environment details and manage lifecycle operations.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "environment management",
+    "production",
+    "sandbox",
+    "admin center",
+    "power platform",
+    "operations log"
+  ],
+  "objects": [],
+  "features": [
+    "Power Platform environment linking",
+    "Environment creation and deletion",
+    "Environment copying",
+    "Update window configuration",
+    "Security group management",
+    "Application Insights integration",
+    "Administrative operations log",
+    "Environment recovery",
+    "Environment restart",
+    "Environment rename",
+    "Environment transfer between tenants"
+  ],
+  "versions": [
+    "25.x"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012275,
+      "pages_in_call": 4
+    }
+  ]
+}

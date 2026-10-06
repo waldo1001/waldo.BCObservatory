@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france",
   "published_at": "2026-08-31T11:27:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
       "words": 925,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.835Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.841Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.841Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.841Z",
+      "page": false
     }
   },
   "input_hash": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241"
+  "output_hash": "38c91454330e120215107f77bd85cf383a92dd5cc3267635fb7f2aa46040f412"
 }

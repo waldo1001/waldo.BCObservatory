@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/quality-management
 type: topic
 title: Quality management
-summary: "Learn section Business functionality > Quality management: 11 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. This section answers questions about setup, working with inspections, blocking lots, handling failed items, scheduling, and troubleshooting.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T14:23:48.815Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8bcda7c163c47956ca13c81b9031f735b11077e38a452e73e2b4f0f5def74c9a
+  prompts:
+    hub-topic: 1
+  input_hash: 3b5a57d32e1e8afcebf53095eb243c840c16d374fbe9326669a88046ec0f4892
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-lot-blocking-unblocking
@@ -132,14 +133,32 @@ bc_forms:
   - 20408
   - 20416
 member_hash: 8bcda7c163c47956ca13c81b9031f735b11077e38a452e73e2b4f0f5def74c9a
-narrative: none
+narrative: generated
 ---
 
 # Quality management
 
-> Learn section Business functionality > Quality management: 11 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. This section answers questions about setup, working with inspections, blocking lots, handling failed items, scheduling, and troubleshooting.
 
-Path: [Business functionality](../business-functionality.md) > Quality management · tier official · system none · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Quality management · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Quality Management is an extension that creates quality inspections at key points in purchasing, production, assembly, and warehouse processes. Inspections can be created automatically, manually, or on a schedule, and they use templates. Noncompliant lots can be blocked, and workflows can be integrated.
+
+The pages follow the order of the work. Start with the overview, then go to the "Set up quality management" subtopic. It covers prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. After setup, "Work with quality inspections" explains how to create, assign, perform, and finish inspections. "Create scheduled quality inspections" covers inspections triggered at time intervals through job queue entries.
+
+Once inspections produce results, "Block or unblock lots" and "Process items that failed a quality inspection" describe what to do with the affected stock. "Troubleshoot quality management features" groups common problems by feature area, so use it when inspections are not generated or behave unexpectedly.
+
+## Key points
+
+- Quality Management is a Microsoft-published extension. It supports inspections that are created automatically, manually, or on a schedule.
+- Setup covers prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. Do this before inspections are created.
+- Working with inspections: create them from templates, source records, or automatic triggers. You can assign owners, enter test values, finish inspections, print reports, and create reinspections.
+- Scheduled inspections use job queue entries and recurring job scheduling. They suit proactive checks such as shelf life monitoring.
+- Lots, serial numbers, and packages can be blocked or unblocked through workflows or based on inspection results. Document-specific restrictions apply to sales, transfers, and other transactions.
+- Failed items can be handled by blocking lots, moving to quarantine, creating transfers or returns, removing inventory with negative adjustments, or reclassifying item tracking.
+- The troubleshooting page covers setup, generation rules, scheduled inspections, workflows, templates, warehouse receipt and production output inspections, manual creation, and lot blocking.
 
 ## Subtopics
 

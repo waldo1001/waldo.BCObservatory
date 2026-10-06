@@ -1,0 +1,334 @@
+{
+  "video_id": "2ujWYYecA2c",
+  "item_id": "video/yt-microsoft/2ujWYYecA2c",
+  "title": "Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)",
+  "duration_s": 376,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "sales order agent",
+    "try it out",
+    "testing",
+    "inbox monitoring",
+    "agent configuration",
+    "customer inquiry",
+    "sales quote",
+    "email processing",
+    "attachment handling",
+    "human review"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sales Order Agent",
+      "t_start": 0,
+      "t_end": 26.2
+    },
+    {
+      "title": "Try It Out: Creating Test Tasks",
+      "t_start": 26.2,
+      "t_end": 70.4
+    },
+    {
+      "title": "Agent Processing and Review",
+      "t_start": 70.4,
+      "t_end": 127.7
+    },
+    {
+      "title": "Agent Results and Configuration Decisions",
+      "t_start": 127.7,
+      "t_end": 170
+    },
+    {
+      "title": "Connecting to Real Inboxes",
+      "t_start": 170,
+      "t_end": 219.2
+    },
+    {
+      "title": "Agent Configuration Options",
+      "t_start": 219.2,
+      "t_end": 257.4
+    },
+    {
+      "title": "Processing Real Customer Email",
+      "t_start": 257.4,
+      "t_end": 333.8
+    },
+    {
+      "title": "Final Review and Send",
+      "t_start": 333.8,
+      "t_end": 376
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An agent in Business Central that monitors sales orders and sales inquiries and helps process them from customer emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.8,
+      "t_end": 358.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires human review before sending any email out of Business Central",
+        "Does not process emails from unknown customers without review if configured that way",
+        "Cannot send email if inbox is not connected"
+      ],
+      "tags": [
+        "agent",
+        "sales orders",
+        "email processing",
+        "customer inquiries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Try It Out Experience",
+      "description": "A new feature that allows users to create test tasks and experiment with the sales order agent without connecting to a real inbox, using predefined templates or manual text entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.2,
+      "t_end": 107.9,
+      "is_demoed": true,
+      "caveats": [
+        "Templates can include attachments",
+        "Non-relevant attachments can be filtered by the agent"
+      ],
+      "tags": [
+        "testing",
+        "low-risk experimentation",
+        "templates",
+        "attachments"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Email Attachment Detection",
+      "description": "The agent can identify and process email attachments, automatically filtering out non-relevant ones such as terms and conditions or privacy policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50,
+      "t_end": 318.1,
+      "is_demoed": true,
+      "caveats": [
+        "Filtering is automatic but can mark documents as non-relevant based on content recognition"
+      ],
+      "tags": [
+        "attachment handling",
+        "filtering",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Customer Identification",
+      "description": "The agent automatically identifies the customer from the incoming email and matches it to existing contacts in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 107.9,
+      "t_end": 151.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer matching",
+        "contact resolution",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Quote Generation",
+      "description": "The agent automatically prepares sales quotes with items and prices identified from customer inquiries and attaches them to draft replies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 107.9,
+      "t_end": 241,
+      "is_demoed": true,
+      "caveats": [
+        "Quote generation can be skipped if configured to send orders directly instead"
+      ],
+      "tags": [
+        "quote generation",
+        "item matching",
+        "pricing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Inbox Connection Configuration",
+      "description": "Users can connect the agent to personal or shared Outlook inboxes, with options to use a dedicated folder for testing instead of the main inbox.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 170,
+      "t_end": 257.4,
+      "is_demoed": true,
+      "caveats": [
+        "Shared inbox access depends on user permissions",
+        "Dedicated folders recommended when experimenting with real customer emails"
+      ],
+      "tags": [
+        "inbox setup",
+        "configuration",
+        "folder management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "No Review Configuration Option",
+      "description": "Users can configure the agent to skip review for emails from known customers and process them automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.2,
+      "t_end": 241,
+      "is_demoed": true,
+      "caveats": [
+        "Still requires human review of outgoing email before sending",
+        "Only skips review of incoming messages for known customers"
+      ],
+      "tags": [
+        "configuration",
+        "automation",
+        "review settings"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Availability and Capable to Promise Options",
+      "description": "Users can configure whether the agent should process real availability information or use capable to promise functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.2,
+      "t_end": 241,
+      "is_demoed": false,
+      "caveats": [
+        "These are optional configuration settings",
+        "Can be toggled on or off based on business needs"
+      ],
+      "tags": [
+        "configuration",
+        "availability",
+        "order processing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Order Confirmation Generation",
+      "description": "The agent can generate and prepare sales order confirmations instead of just quotes, ready for review and sending to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.1,
+      "t_end": 358.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order confirmation",
+        "document generation",
+        "automation"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "sales order agent",
+      "t": 0.8
+    },
+    {
+      "type": "other",
+      "name": "sales quote",
+      "t": 139.5
+    },
+    {
+      "type": "other",
+      "name": "sales order confirmation",
+      "t": 347.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "there is a sales order agent in the Business Central, which should help you to monitor sales orders or sales inquiries and process them",
+      "why_it_matters": "States the core purpose of the sales order agent feature",
+      "check": "exact"
+    },
+    {
+      "t": 26.2,
+      "text": "You can see the tried out section, which allows you to create a task without even connecting to the inbox to the real inbox",
+      "why_it_matters": "Explains the new try it out experience that enables low-risk experimentation",
+      "check": "exact"
+    },
+    {
+      "t": 107.9,
+      "text": "There is indeed some attachment, which we can see it. Other ones were filtered out as non-relevant",
+      "why_it_matters": "Demonstrates the agent's ability to handle and filter attachments automatically",
+      "check": "exact"
+    },
+    {
+      "t": 139.5,
+      "text": "Agent figured out the customer. Already we know it on the first from the first steps, but it also found all items, prices, and",
+      "why_it_matters": "Shows the agent's comprehensive capabilities in customer identification and quote generation",
+      "check": "exact"
+    },
+    {
+      "t": 194.1,
+      "text": "it is very good idea to use a dedicated folder. Not inbox, but you can create a dedicated folder where you can put preselected",
+      "why_it_matters": "Provides best practice guidance for testing with real customer emails safely",
+      "check": "exact"
+    },
+    {
+      "t": 282.4,
+      "text": "sales order agent already detected that there is a new email in this folder and start and start to process it immediately because we",
+      "why_it_matters": "Demonstrates automatic processing based on customer knowledge configuration",
+      "check": "exact"
+    },
+    {
+      "t": 333.8,
+      "text": "nothing leaves Business Central without human review means my review",
+      "why_it_matters": "Clarifies the requirement for human oversight before sending any agent-generated email",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 26.2,
+      "kind": "preview",
+      "text": "You can see the tried out section, which allows you to create a task without even connecting to the inbox to the real inbox"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033386
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-substituting-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-substituting-reports",
+  "title": "Substituting Reports in Business Central",
+  "blob": "49b7605d074ebf136370ccef5b8b80e7d5121d48",
+  "summary": "Report substitution using the OnAfterSubstituteReport event in Codeunit 44 ReportManagement allows overriding base reports. From 2021 release wave 1, report extensions provide an alternative by extending existing reports without substitution.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "report substitution",
+    "report extension",
+    "event subscriber",
+    "report management",
+    "dataset"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "OnAfterSubstituteReport event",
+    "report substitution",
+    "report extension",
+    "dynamic report replacement",
+    "RunObject property"
+  ],
+  "versions": [
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004685,
+      "pages_in_call": 8
+    }
+  ]
+}

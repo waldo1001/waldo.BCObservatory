@@ -1,0 +1,408 @@
+{
+  "video_id": "V4zCPAsYi_Y",
+  "item_id": "video/yt-microsoft/V4zCPAsYi_Y",
+  "title": "Getting Started With Agent Testing: Test Setup and Structuring (part 3)",
+  "duration_s": 416,
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "agent testing",
+    "test setup",
+    "data-driven tests",
+    "yaml configuration",
+    "powershell automation",
+    "ci/cd pipelines",
+    "test categorization",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Test structure and three core components",
+      "t_start": 0,
+      "t_end": 49.8
+    },
+    {
+      "title": "AI Development Toolkit and dependencies",
+      "t_start": 49.8,
+      "t_end": 86.2
+    },
+    {
+      "title": "Configuration file example and code unit reuse",
+      "t_start": 86.2,
+      "t_end": 122.2
+    },
+    {
+      "title": "Installation code unit and YAML file loading",
+      "t_start": 122.2,
+      "t_end": 155.2
+    },
+    {
+      "title": "Test categorization: P0, P1, load and variation tests",
+      "t_start": 155.2,
+      "t_end": 222.4
+    },
+    {
+      "title": "Sales return agent test example",
+      "t_start": 222.4,
+      "t_end": 246.2
+    },
+    {
+      "title": "PowerShell support for CI/CD pipelines",
+      "t_start": 246.2,
+      "t_end": 290.1
+    },
+    {
+      "title": "Test runner location and sample availability",
+      "t_start": 290.1,
+      "t_end": 313.4
+    },
+    {
+      "title": "Future plans: LLM judge and Visual Studio Code integration",
+      "t_start": 313.4,
+      "t_end": 359.4
+    },
+    {
+      "title": "Call to action and feedback request",
+      "t_start": 359.4,
+      "t_end": 416
+    }
+  ],
+  "features": [
+    {
+      "name": "AI Development Toolkit Evaluation app",
+      "description": "A new app that provides dependency management and core integration with Business Central UI for agent testing, including AI test toolkits and agent test library utility methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.8,
+      "t_end": 69.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "app",
+        "dependencies",
+        "testing infrastructure"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI Test Toolkits",
+      "description": "Core integration with Business Central UI and agent test library providing utility methods for handling tests and creating test data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.8,
+      "t_end": 69.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "utility methods",
+        "data creation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test Suite Management methods",
+      "description": "Methods available in the AI test suite management module that handle importing YAML and XML configuration files into the environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.2,
+      "t_end": 142.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "file import",
+        "configuration",
+        "setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data-driven test structure with YAML",
+      "description": "Test configuration using YAML files for data sets and XML files for test suite configuration, allowing reuse of code units across multiple data sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.2,
+      "t_end": 110.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "yaml",
+        "configuration files",
+        "data-driven"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "P0 test category",
+      "description": "Core test category for happy path tests that must succeed most of the time, small focused tests designed to run fast and frequently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.2,
+      "t_end": 165.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing approach",
+        "happy path",
+        "regression"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "P1 scenario tests",
+      "description": "Test category for specific scenarios and edge cases, allowing developers to iterate quickly on specific parts of an agent without running all tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.4,
+      "t_end": 180.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "edge cases",
+        "targeted testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Load and variation tests",
+      "description": "Test categories for stress testing agent limits with higher data volumes and for testing agent behavior across different contexts and variations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192.6,
+      "t_end": 208.9,
+      "is_demoed": false,
+      "caveats": [
+        "load tests run slower and are executed less frequently"
+      ],
+      "tags": [
+        "stress testing",
+        "limits",
+        "variation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "PowerShell test runner for AL tests",
+      "description": "PowerShell module enabling automated test execution in CI/CD pipelines against sandbox environments with token-based authentication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246.2,
+      "t_end": 274.1,
+      "is_demoed": false,
+      "caveats": [
+        "only available for sandbox execution; not supported on on-prem or AL-Go images"
+      ],
+      "tags": [
+        "powershell",
+        "automation",
+        "ci/cd"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LLM as judge for test validation",
+      "description": "Future feature to verify user intervention text matches expectations and to review generated messages like emails produced by agents.",
+      "status": "announced",
+      "status_evidence_t": 329.1,
+      "status_evidence_quote": "we are planning to introduce LLM as a judge and this one is to verify the user intervention if it is containing the text",
+      "status_evidence_verified": true,
+      "t_start": 329.1,
+      "t_end": 349.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "future",
+        "validation",
+        "llm"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Visual Studio Code test execution",
+      "description": "Planned feature to run AI evaluation suite tests directly from Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.1,
+      "t_end": 359.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "future",
+        "vscode integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-assisted agent implementation",
+      "description": "Planned feature allowing developers to point a development agent at their code to implement Business Central agents with automatic test writing and iterative improvement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 359.4,
+      "t_end": 389.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "future",
+        "agent development",
+        "automation"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AI Development Toolkit Evaluation",
+      "t": 49.8
+    },
+    {
+      "type": "other",
+      "name": "AI Test Toolkits",
+      "t": 69.8
+    },
+    {
+      "type": "codeunit",
+      "name": "AI Test Suite Management",
+      "t": 122.2
+    },
+    {
+      "type": "other",
+      "name": "Sales Validation Agent Test",
+      "t": 301.9
+    },
+    {
+      "type": "other",
+      "name": "Sales Return Agent",
+      "t": 313.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Quin",
+      "confidence": "high"
+    },
+    {
+      "name": "Nicolola",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.7,
+      "text": "the AL test is what ends looping through the turn verifying their outcome. So the data sets are defining the input in the form",
+      "why_it_matters": "Explains the core structure of data-driven testing where AL tests iterate through cases and data sets define inputs and expected outputs.",
+      "check": "exact"
+    },
+    {
+      "t": 49.8,
+      "text": "you need to depend on this new app this AI development toolkit evaluation which is uh the app uh we recommend using",
+      "why_it_matters": "States the recommended dependency for agent test infrastructure.",
+      "check": "exact"
+    },
+    {
+      "t": 110.5,
+      "text": "we're actually reusing one code unit with multiple data sets, which so which highlights also how easy it is now to to create new",
+      "why_it_matters": "Describes the efficiency gain from the data-driven approach, allowing code reuse across multiple test cases.",
+      "check": "exact"
+    },
+    {
+      "t": 155.2,
+      "text": "we usually define a set of P 0 tests. Those are the ones that you should expect to to pass pretty often. Uh, they",
+      "why_it_matters": "Defines the P0 test category and its purpose in the testing strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 258.3,
+      "text": "Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem for the algo images",
+      "why_it_matters": "States the current limitation of PowerShell test runner availability.",
+      "check": "exact"
+    },
+    {
+      "t": 313.4,
+      "text": "this one is not on BCT. If you need it, reach out to us and we can provide the codes to you",
+      "why_it_matters": "Indicates that the sales return agent sample is available on request but not yet published in the baseline.",
+      "check": "exact"
+    },
+    {
+      "t": 329.1,
+      "text": "we are planning to introduce LLM as a judge and this one is to verify the user intervention if it is containing the text",
+      "why_it_matters": "Announces a future feature for automated validation of agent-generated text.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 258.3,
+      "kind": "not-in-this-release",
+      "text": "Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem"
+    },
+    {
+      "t": 313.4,
+      "kind": "not-in-this-release",
+      "text": "sales return agent sample is not on BCT yet; available on request"
+    },
+    {
+      "t": 329.1,
+      "kind": "coming-later",
+      "text": "planning to introduce LLM as a judge for test validation"
+    },
+    {
+      "t": 349.1,
+      "kind": "coming-later",
+      "text": "looking into enabling running these tests from the visual studio code"
+    },
+    {
+      "t": 359.4,
+      "kind": "coming-later",
+      "text": "want to ship more samples"
+    },
+    {
+      "t": 374.8,
+      "kind": "coming-later",
+      "text": "making this fully possible for the agents to implement"
+    },
+    {
+      "t": 389.7,
+      "kind": "preview",
+      "text": "Keep in mind this is the first version. We are really looking forward to your feedback"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038308
+    }
+  ]
+}

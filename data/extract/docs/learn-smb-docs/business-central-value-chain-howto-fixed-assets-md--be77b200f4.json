@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-fixed-assets",
+  "title": "Track Fixed Asset Emissions in the Value Chain",
+  "blob": "0eaf54637fe8d5e451f48042fdcd57aea4e133cb",
+  "summary": "Track carbon emissions for fixed assets through acquisition, reclassification, and disposal. Emissions are recorded from purchase documents or fixed asset journals and follow the asset through its lifecycle.",
+  "systems": [
+    "fixed-assets",
+    "sustainability"
+  ],
+  "topics": [
+    "fixed assets",
+    "sustainability",
+    "emissions",
+    "carbon tracking",
+    "value chain",
+    "disposal"
+  ],
+  "objects": [],
+  "features": [
+    "Default emissions setup",
+    "Acquisition tracking",
+    "Reclassification tracking",
+    "Disposal tracking",
+    "Emission review",
+    "Sustainability ledger entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005133,
+      "pages_in_call": 8
+    }
+  ]
+}

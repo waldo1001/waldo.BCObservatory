@@ -1,0 +1,28 @@
+{
+  "video_id": "AMVAiPTfSrU",
+  "item_id": "video/yt-microsoft/AMVAiPTfSrU",
+  "summary": "Partner experiences building agents for Business Central with Copilot Studio and the Business Central MCP server. Examples are a payroll agent, a purchase order creation agent and a sales claim agent, plus a push for reusable agents built in Business Central rather than as black boxes.",
+  "overview": "Three partners describe how they build agents for Business Central. They start with Copilot Studio because a first agent is easy to create, then build more complex agents over time. The Business Central MCP server is used to connect agents to Business Central and to create reusable solutions.\n\nExamples include a payroll agent that reduces manual data entry and lets smaller companies run payroll in-house, a purchase order creation agent, and a sales claim agent. The partners say their agents are reusable across customers and partners, and are developed in Business Central rather than as black boxes. Their advice is to solve one problem at a time.",
+  "key_points": [
+    "Copilot Studio is the starting point for creating a first agent; partners report building more complex agents over time.",
+    "The Business Central MCP server (called the MCB server in the transcript) connects agents to Business Central and supports reusable solutions.",
+    "The payroll agent automates tasks that rely on manual data entry and helps smaller companies bring payroll in-house instead of outsourcing it.",
+    "Industry-specific agents shown as business value: purchase order creation and sales claims.",
+    "One partner says its agents are reusable for every customer and partner and are not a black box, because they are based in Business Central.",
+    "Copilot Chat integration is described as changing development towards behavior-driven development.",
+    "Advice to developers: take a small step and solve one problem rather than all of them."
+  ],
+  "audience": [
+    "decision maker",
+    "partner",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "96ac22e6aa8bbc9512dc052a7634ca12b78ea12903140e13ba7a0bd61740f5ba",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.040976399999999996
+  }
+}

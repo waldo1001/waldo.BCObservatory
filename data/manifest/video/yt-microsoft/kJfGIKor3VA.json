@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)",
   "url": "https://www.youtube.com/watch?v=kJfGIKor3VA",
-  "published_at": null,
+  "published_at": "2025-10-01T13:01:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:06:48.521Z",
+      "captions": "auto:en-orig",
+      "duration_s": 547
+    },
+    "captioned": {
+      "at": "2026-10-06T14:07:18.146Z",
+      "path": "data/captions/microsoft/kJfGIKor3VA.vtt",
+      "vtt_sha256": "a5680c89d1cf9e0f3e3942f46106ff71fb9a87267fb28875abd666dad0e9dfdf",
+      "segments": 40,
+      "words": 1341,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 154,
     "duration_s": 547,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5680c89d1cf9e0f3e3942f46106ff71fb9a87267fb28875abd666dad0e9dfdf"
 }

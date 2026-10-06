@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T14:24:06.514Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Building the Copilot user interface in Business Central with PromptDialog pages: prompt mode, generate mode caption, content mode, inline error handling, and prompt actions that launch Copilot from pages. Use it for questions on how to design and wire the Copilot UI in AL.
 
-Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Build Copilot user experience · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Build Copilot user experience · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
@@ -120,12 +120,12 @@ Start with the page on creating the prompt dialog, then follow the modes in orde
 ## Key points
 
 - A PromptDialog page type is the first step; its properties set caption, extensibility (Extensible), initial mode (PromptMode) and preview status (IsPreview).
-- Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, and generate and file attachment actions (2024 release wave 2).
+- Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, preference options, and generate and file attachment actions. The page references 2024 release wave 2.
 - Generate mode caption can be customized with Dialog.Open() or Dialog.Update() to give progress feedback, including for multi-step Copilot.
 - Content mode shows AI output and lets users review, regenerate, save or discard proposals; it supports caption customization and a proposal history carousel with version history.
-- Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, suppression and truncation (2024 release wave 2).
+- Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, error suppression and message truncation. The page references 2024 release wave 2.
 - Prompt actions launch Copilot from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, shown in a floating action bar with a Sparkle image.
-- Prompt actions open the PromptDialog through the RunObject property and involve SaaS detection and capability registration (2024 release wave 1, runtime 13 and 14).
+- Prompt actions open the PromptDialog page through the RunObject property; the page also covers SaaS detection and capability registration, and references 2024 release wave 1 and runtime 13 and 14.
 
 ## Learn pages
 

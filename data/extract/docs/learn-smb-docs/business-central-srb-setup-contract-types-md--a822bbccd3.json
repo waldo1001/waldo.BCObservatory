@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/setup/contract-types.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types",
+  "title": "Subscription contract types",
+  "blob": "143d8cb17948caf29d81f2065a19dce3083bea1b",
+  "summary": "Subscription contract types define and organize customer and vendor subscription contracts for billing purposes. Use this page to set up contract types with descriptions, codes, and billings options including harmonized billing, contract deferrals, and multi-currency handling.",
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "subscription billing",
+    "contract setup",
+    "customer contracts",
+    "vendor contracts",
+    "recurring billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription Contract Types"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Contract Setup"
+    }
+  ],
+  "features": [
+    "harmonized billing",
+    "contract deferrals",
+    "multi-currency support",
+    "translation support",
+    "usage data billing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

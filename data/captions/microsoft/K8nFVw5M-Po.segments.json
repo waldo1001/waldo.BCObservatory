@@ -1,0 +1,788 @@
+{
+  "video_id": "K8nFVw5M-Po",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 12.3,
+      "end": 22.5,
+      "text": "Welcome to episode 10.5 of Under the Hood. Why 10.5 you might ask? Well, actually we have already recorded episode 11."
+    },
+    {
+      "t": 22.5,
+      "end": 35.6,
+      "text": "Uh and you should actually look forward to it. We are going to talk about summary and how we do um summary with AI. Uh but before uh before that uh we wanted to address the whole vibe coding thing."
+    },
+    {
+      "t": 35.6,
+      "end": 46.1,
+      "text": "There's so much people talking about vibe coding these days. Um then we wanted to do something about it. So this is kind of a special edition of under the hood and today with me I have Stefan."
+    },
+    {
+      "t": 46.1,
+      "end": 57.6,
+      "text": "Hi Stefan. >> Hi. >> So Stefan, let's let's dive right into it. What is VIP coding? You know people might have heard about it. Um and so tell us a little bit what what what is it?"
+    },
+    {
+      "t": 57.6,
+      "end": 72.5,
+      "text": ">> Yeah. So basically it's just uh using AI to help you code, right? So help you get started with your coding and get get things going. So you can think of it as a as like a colleague you want to have code some work for you or somebody who's sitting right next to you."
+    },
+    {
+      "t": 72.5,
+      "end": 86.4,
+      "text": "You just want to chat with them and get them to to build some code for you. >> So So we have had uh AI in GitHub with GitHub copilot in VS Code for for a while when you had like suggestions for completions and things like that."
+    },
+    {
+      "t": 86.4,
+      "end": 103.5,
+      "text": "Exactly. So how how but that's not the same. It's a little bit different, right? Exactly. Coding is like, you know, >> yeah, we're taking it one step further using the agent mode in in VS code here or in other tools and we are letting the agent itself build and reason over some data and figure out how to build the actual code it wants to build."
+    },
+    {
+      "t": 103.5,
+      "end": 114.5,
+      "text": "So we are not telling it exactly what we want to build, but we're kind of giving it the framework, the context of what we want to build. And that's what we're going to try now. >> Okay. So that's Yeah. Show us like a minimalact"
+    },
+    {
+      "t": 114.5,
+      "end": 127.6,
+      "text": "hello world vibe coding thing. >> Exactly. So, so here I just have a project this empty project just from algo and and I want to build something here and I'm just going to tell it here I want to build let's say add a shoe size to the customer field right."
+    },
+    {
+      "t": 127.6,
+      "end": 133.2,
+      "text": "So >> I want to add a page extension"
+    },
+    {
+      "t": 133.2,
+      "end": 144.3,
+      "text": "with shoe size oh size and we want a backing field for that. So, we're going to add a table extension"
+    },
+    {
+      "t": 144.3,
+      "end": 154.6,
+      "text": "to the customer table uh with shoe size. >> So, you're just you're not even writing code. You're just telling >> exactly >> to the agent what uh what you want."
+    },
+    {
+      "t": 154.6,
+      "end": 166.5,
+      "text": ">> Exactly. Like like a colleague next door. I would say to him, >> by the way, is there something special you need to do in VS Code to be able to do that? >> Well, so here I just have the the GitHub copilot chat window, right? And I set the agent mode down here."
+    },
+    {
+      "t": 166.5,
+      "end": 186.6,
+      "text": ">> You need to meet in agent mode. >> Exactly. you receive the ask and the edit and now there's also the agent mode >> and I like the GT5 preview right now uh because that's one of the newest models you can choose from a lot of other models uh and you have to figure out which one that works for you >> uh I've had good success with this one so I'm going to use this one >> and then just"
+    },
+    {
+      "t": 186.6,
+      "end": 196.8,
+      "text": "execute and see what happens agent here will go and figure out what to do and we'll just be waiting here and we see that it's actually using a reference"
+    },
+    {
+      "t": 196.8,
+      "end": 209.3,
+      "text": "in this case he's looking for some code generation instructions from GitHub copilot and now it's reading the app JSON to figure out the ID range for the object similar to what I would do if I had to create something."
+    },
+    {
+      "t": 209.3,
+      "end": 223,
+      "text": ">> So you kind of kind of follow along what's going on, what the agent is doing. >> Exactly. And we can see it's now creating some files. Something's going on here. It's created a table extension and it creates a page extension"
+    },
+    {
+      "t": 223,
+      "end": 236.4,
+      "text": "and it's just keep working there until it's kind of done with what we asked it to do. Mhm. >> And it's looking for a lot of other things here. We can actually follow along with the code here. So, we can actually minimize this window here and just view the data."
+    },
+    {
+      "t": 236.4,
+      "end": 248,
+      "text": "So, we can see it's added a table extension that extends the customer table and it added the shoe size field. And we can see here that here we have the page extension that added the shoe size field."
+    },
+    {
+      "t": 248,
+      "end": 260,
+      "text": "And it even added a tool tip. I didn't ask for that, >> but it kind of reasoned that would be a good idea to have a tool tip here. >> And that seems like a good idea. So, we'll just keep that. And here we can now see where it is at."
+    },
+    {
+      "t": 260,
+      "end": 270,
+      "text": "Um, it tells me what it did. So, it added the two files, the table extension and the page extension. And then it actually suggests me to do next."
+    },
+    {
+      "t": 270,
+      "end": 284.9,
+      "text": ">> Oh, you get a small summary of what happened. >> Exactly. >> Yeah. >> And suggest what you could do. >> Okay. Pretty cool. So, so just to so there's a lot of vibe coding out there, you know, there tons of videos and and and tutorials and stuff."
+    },
+    {
+      "t": 284.9,
+      "end": 296.7,
+      "text": "uh but not too many about AL. Uh but actually vibe coding also works as you just show for for for AL. It's not I mean the agents and models are are pretty good with AL too, right?"
+    },
+    {
+      "t": 296.7,
+      "end": 307.2,
+      "text": ">> I I think so. Yeah, it's actually doing a pretty good job here. There's really nothing that that doesn't work in what it's created here. Uh so this would compile if I click the build and it will actually create an extension for me."
+    },
+    {
+      "t": 307.2,
+      "end": 318.2,
+      "text": ">> So I noticed something for example that it it uh it figures out which ID to use. >> Exactly. Yeah, somehow it fig,00"
+    },
+    {
+      "t": 320.1,
+      "end": 330.8,
+      "text": "so it has some it has some uh insight into the project and it's probably looking into the uh maybe the appj it did actually. We can see up here that it actually looked at the app."
+    },
+    {
+      "t": 330.8,
+      "end": 343.4,
+      "text": ">> Okay, that's probably where it got that. >> So it knows a lot of things about building extensions for business central. It knows that we use ids and it knows that it has to go to the app JSON file to find the range that it can use because that's all documented out there."
+    },
+    {
+      "t": 343.4,
+      "end": 354.3,
+      "text": ">> Pretty cool. >> So the model has learned all of that. >> But in order for us to like really get something out of it, we need to continue building on this. >> So let's just add validation on it, right? Let's just say that. >> Yeah."
+    },
+    {
+      "t": 354.3,
+      "end": 365.1,
+      "text": ">> Add validation that checks the shoe size is between what? 15 and 62 >> for example."
+    },
+    {
+      "t": 365.1,
+      "end": 379.3,
+      "text": "Yeah, >> 62. Yeah, >> that's big feet. But >> I guess that depends on which kind of metrics you're using. >> Yeah. >> Yeah. Again, we see what it's doing. It's reading some some data from the context of the project here."
+    },
+    {
+      "t": 379.3,
+      "end": 391.5,
+      "text": "And it knows that in Business Central, we have something called an unvalidate trigger. >> Okay. >> And now it's actually going to implement that for us. And we can go to the table extension and we can actually see it implementing"
+    },
+    {
+      "t": 391.5,
+      "end": 401.9,
+      "text": "the validation here and erroring out if >> it doesn't work. If >> it's wrong >> and every time you can choose whether you keep the the changes or and >> Exactly."
+    },
+    {
+      "t": 401.9,
+      "end": 421.9,
+      "text": ">> Yeah. So this this version of of an agent has these checkpoints that you can go back to. So you can restore a checkpoint if you feel that it went off track. >> Mhm. >> Okay. you can go back to uh like the previous stage you were in >> exactly and at any time you can say okay now we're kind of done with this so I'll keep all of that and we can check that in I'm going to submit that"
+    },
+    {
+      "t": 421.9,
+      "end": 442.1,
+      "text": ">> okay >> but in order for us to do real vibe coding >> we need to step away from the code >> to take ourselves away from the actual implementation details >> but you need to look at the code anyway a little bit >> yeah yeah so that that's where the developer has a hard challenge right to step away from the code and actually look at at giving"
+    },
+    {
+      "t": 442.1,
+      "end": 452.2,
+      "text": "the agent space to implement something and just iterate on the actual definition of the project you want to implement rather than than looking at the specific validation code here. Right?"
+    },
+    {
+      "t": 452.2,
+      "end": 463.1,
+      "text": ">> And that's the next big thing. >> Okay. So this is this is a um this is cool. This is like a hello world example. It uh but how you know what's your experience because"
+    },
+    {
+      "t": 463.1,
+      "end": 483.2,
+      "text": "people might argue okay it's it's a simple extension. It's not a real world example. So what's your experience with you know bigger bigger project like let's say uh you know as a partner developer you have maybe this larger solution which is based on top of uh which is extending business central uh can you vibe code"
+    },
+    {
+      "t": 483.2,
+      "end": 499.2,
+      "text": "uh in that environment as well and what does that work >> so so I I think there's a there's a couple of different ways you can use this tool as we do here we we implement something simple and we do prototyping and all these things but if you want to implement something that is in a a context."
+    },
+    {
+      "t": 499.2,
+      "end": 510.4,
+      "text": "You need to narrow down the context. You need to figure out what exactly is it the agent can help you with. And one of the things that the agent is really good at is all the scaffolding, all the creations like it create a new table."
+    },
+    {
+      "t": 510.4,
+      "end": 522.9,
+      "text": "Okay, it can do that. >> But actually going in and manipulating small details that are in your existing application that maybe has a lot of years on it or complex design, that's going to be a little bit difficult for the agent."
+    },
+    {
+      "t": 522.9,
+      "end": 534.3,
+      "text": ">> So you have to figure out which parts of your application it can help you. Mhm. >> Uh this could be like creating a permission set. It will find all the the tables that you need and it will create the permission set."
+    },
+    {
+      "t": 534.3,
+      "end": 544.9,
+      "text": ">> Yeah. That's that's you know traditionally it's a little bit tedious. >> Exactly. Exactly. Create a page or list page or the cart page and it will actually figure out which fields belong together. Reason over the data that's there."
+    },
+    {
+      "t": 544.9,
+      "end": 556.9,
+      "text": ">> A lot of the boilerplate code can can be you know written by the agent quite quickly. >> Yeah. Yeah. Yeah. Absolutely. Absolutely. So it can actually be quite fast to use these tools >> if you find the right scenarios."
+    },
+    {
+      "t": 556.9,
+      "end": 568.7,
+      "text": "So you talked about context. >> Yes. >> So tell us a little more about it. Agents usually are performing better if they have a better context for. So what's you know what's the what's the approach when you're vaping?"
+    },
+    {
+      "t": 568.7,
+      "end": 587,
+      "text": "How do you provide context to uh to the agent? >> So you have the opportunity to uh to define the the context it needs to work on by specifying certain uh symbols. For example, if in this case I wanted it to only work on my table, >> I could put in the table as a as a syntax syntax here."
+    },
+    {
+      "t": 587,
+      "end": 597.6,
+      "text": "So say customer table like this one. >> Okay. >> Say this is the symbol I want to work on. So I can give it a little more information on this one. >> So the hashtag file, what does that do?"
+    },
+    {
+      "t": 597.6,
+      "end": 607.8,
+      "text": ">> That's the symbol to point to a symbol in your project. Right? >> I can also add files in my project if I wanted to know about some files. I can add some documentation. >> Mhm."
+    },
+    {
+      "t": 607.8,
+      "end": 627.1,
+      "text": "I can >> So you could have a readme file for example. >> Read me file. >> Markdown in markdown. >> Exactly. >> Format or something like that. >> So the more context you give to the to the project to the agent in that it's able to read specs readme doc comments all these things will give it more information to work with and reason over."
+    },
+    {
+      "t": 627.1,
+      "end": 637.2,
+      "text": ">> So if it knows the the purpose of the function then it will also be uh able to make a decision whether to use a function. the same with the page and the table and so forth."
+    },
+    {
+      "t": 637.2,
+      "end": 647.5,
+      "text": ">> So would you recommend that when you start vibe coding for a serious project you maybe write down what you know what kind of a small specification of some kind to help the agent?"
+    },
+    {
+      "t": 647.5,
+      "end": 663.4,
+      "text": ">> I think that that's an excellent idea and I think that's where you get to the true vibe coding where you don't need to look at the actual code. You talk about the spec. You talk about what is it that you want to achieve >> by implementing this >> and then when you have a spec you can tell the agent go implement it."
+    },
+    {
+      "t": 663.4,
+      "end": 676.2,
+      "text": ">> Got it. just go and get it done, right? >> We can try. I have actually a >> a small prompt that I created >> and I'm just going to paste it in here because it's a little bigger than what we did before."
+    },
+    {
+      "t": 676.2,
+      "end": 686.8,
+      "text": ">> Mhm. So, you've prepared this in advance, but it's basically just it's basically just uh text, right? >> Exactly. Exactly. Let's see. There we go."
+    },
+    {
+      "t": 686.8,
+      "end": 697.8,
+      "text": "So, here I have the prompt that I created >> and I'm just going to scroll to the top here. So the prompt is that the agent is acting as a collaborator developer my peer here."
+    },
+    {
+      "t": 697.8,
+      "end": 709,
+      "text": "I'm actually >> always a good idea to define the role >> exactly scope it down to what we're trying to do here and we want to build a business central extension >> for managing properties rentals and service requests."
+    },
+    {
+      "t": 709,
+      "end": 721.7,
+      "text": ">> So we can think of this as a complete vertical in business central like something a big project that we're going to start. >> Um and before we want to start coding we want to make sure that when we think about the coding we want to think about the functional requirements first."
+    },
+    {
+      "t": 721.7,
+      "end": 734.3,
+      "text": ">> Mhm. like we would do with a colleague talk about what are we implementing, how are we supposed to do it and then we want to uh make sure that when we write ale code we follow some guidelines and here we have the the link to the communitydriven vibe coding guidelines."
+    },
+    {
+      "t": 734.3,
+      "end": 745.9,
+      "text": ">> Okay. >> So I've used that as a as instructions. >> So the agent will go and and look that up. >> Exactly. So that means that it will actually take some of these instructions here and use them when they actually generate code."
+    },
+    {
+      "t": 745.9,
+      "end": 756.2,
+      "text": ">> Correct. >> And then I'm just going to say well let's start with 10 questions. >> Mhm. Let's start with 10 important questions about what we're building so we can actually get started without starting with the code."
+    },
+    {
+      "t": 756.2,
+      "end": 767.4,
+      "text": "We want to start with the spec instead. >> Okay. >> This is where I don't need to know how it implements this, >> but I need to make sure it follows my spec. >> Right. >> So, you're asking the agent actually to ask questions."
+    },
+    {
+      "t": 767.4,
+      "end": 778.6,
+      "text": ">> Exactly. Yeah. Clarify and in that also reason over what we have done and what we will do. Let's try it out. See what happens. >> So, it's going to work a little bit because this is a bigger prompt."
+    },
+    {
+      "t": 778.6,
+      "end": 794.8,
+      "text": "It's going to take a little >> by the way a good trick uh also something I don't know if you if you've done that but when you write a prompt like this what you can do uh with benefit is to get that prompt that you wrote and and uh put it through say GPT or copilot and ask copilot"
+    },
+    {
+      "t": 794.8,
+      "end": 814.4,
+      "text": "or some some AI to actually improve that prompt. >> Exactly. Uh so you you write it the best you can but usually um you know getting it through this first refinement stage you know can provide really really good results uh because models are also trained to do that kind of thing and they know how to to write you know a better prompt on themselves."
+    },
+    {
+      "t": 814.4,
+      "end": 830.2,
+      "text": ">> Exactly. Exactly. And and my prompt here was super simple. >> I didn't write any context on it. Like normally you would build build something that's a little more detailed about what you want to build. But even with this >> even with this simple prompt and you see here it's it's it got me a whole lot of questions,"
+    },
+    {
+      "t": 830.2,
+      "end": 843,
+      "text": "whole lot of recommendations. >> And if we go through some of these we'll find that it actually put in some stuff that is business central specific. >> Okay. >> So it combined my prompt with the knowledge of >> you give an example."
+    },
+    {
+      "t": 843,
+      "end": 863,
+      "text": ">> Well, we have some here around uh building a custom tenant table. So for the the people who are renting a property here >> or link it or and link it here to the customer table which is part of business central core product right so it knows about that >> if I had my own solution next to it I could bring bring in that context and say I have these tables figure out how you can"
+    },
+    {
+      "t": 863,
+      "end": 877.6,
+      "text": "use them right >> I have this data I have this functionality figure out how you can use that in this solution also >> pretty cool >> but because it's business central it can find it in the existing training so we can go through this and we can see that there's lots of good questions questions,"
+    },
+    {
+      "t": 877.6,
+      "end": 890,
+      "text": "things that we might want to think about when we build projects like this. >> And >> so that's kind of also kind of a help to actually write a better specification and provide even better context to >> Exactly."
+    },
+    {
+      "t": 890,
+      "end": 900.6,
+      "text": "Exactly. And if we save these in a file, the the questions and answers here, we'll be able to go back to it later. >> Mhm. >> But let's continue with this one. Let's see. >> Yeah."
+    },
+    {
+      "t": 900.6,
+      "end": 912.9,
+      "text": ">> What it's going to do here. It's just going to I'm going to take the easy way out, right? We don't have time for going through this, but I do recommend that people take time, >> answer the question the best they can so that we get the best solution possible."
+    },
+    {
+      "t": 912.9,
+      "end": 925.1,
+      "text": "For now, I'm just going to >> Yeah, for the purpose of this demo, we'll just go over here. But but yeah, you could potentially review all these and and and kind of, you know, adjust it and fine tune it. >> Be curious about some of the the other things that the agent can do, right?"
+    },
+    {
+      "t": 925.1,
+      "end": 938.3,
+      "text": "So, I'm just going to accept all here >> and see what happens. >> Now, it starts actually writing some code. >> No, not yet. >> Not yet. Okay. >> Well, I I don't expect it to. Okay. Okay. >> Right. So now it's made a checklist of all that needs to be done here."
+    },
+    {
+      "t": 938.3,
+      "end": 958.3,
+      "text": ">> Okay. >> It's then done a specification for version 0.2. >> Mhm. >> And it tells me that it's going to create the or at least have a spec for some tables. I mean we have here multiple tables just from the words I put in from the beginning like the the properties leases and >> so is the uh the assignment is to create"
+    },
+    {
+      "t": 958.3,
+      "end": 968.4,
+      "text": "a uh >> a spec first, right? >> A spec. But that's what's the uh what's the do we start creating rental management? >> Yeah. Yeah. Property management, right? It's >> just a sample."
+    },
+    {
+      "t": 968.4,
+      "end": 983.4,
+      "text": ">> So the real it's a real scenario. >> It's a real scenario. Yeah. Some something that is a vertical that doesn't integrate deep into business central but actually stands next to it. Okay. >> If you want to integrate deep into business central, you need to provide more context about where in business central you want to integrate into."
+    },
+    {
+      "t": 983.4,
+      "end": 995.9,
+      "text": "So for this demo, I put something that is >> semiconnected but not fully integrated. Right? So we still have it still hasn't produced any code at that stage. It's still we're still working on the basically specifying the work more or less."
+    },
+    {
+      "t": 995.9,
+      "end": 1009.2,
+      "text": "Right. >> Exactly. And even here I told it to ask me 10 questions. >> But even after these 10 question and the answers I gave accept all. >> It's it's going to ask me more questions because it reasoned that there is going to be more work to be done."
+    },
+    {
+      "t": 1009.2,
+      "end": 1020.2,
+      "text": "We need to understand something more before we even go go on with this. So I'm just going to skip this and just say let's implement it. So >> now we areing code."
+    },
+    {
+      "t": 1020.2,
+      "end": 1034.4,
+      "text": ">> Well, I'm not writing any code. >> No, but okay. The agent does. All right. >> Is is actually writing the code. So let's see if the it actually can can be implemented. Again, we specified that it should use the AL guidelines on the the the communitydriven"
+    },
+    {
+      "t": 1034.4,
+      "end": 1048.6,
+      "text": "VIP coding site. >> And >> so you'll get with that you'll get the the uh the coding styles from the >> I'm hoping Yeah, we'll get that. Again, if you look at at a peer, you're talking to a peer and you tell him to use these style guides,"
+    },
+    {
+      "t": 1048.6,
+      "end": 1063,
+      "text": "he will most likely use them, but there's no guarantee. >> That's that's a fair fair comparison. That's a good way to look at it, I guess. >> Yeah, exactly. >> Exactly. But what I can do with whatever it produces here, we can see it's already producing some tables, pages, and code units,"
+    },
+    {
+      "t": 1063,
+      "end": 1077.2,
+      "text": "and so forth. >> I could just press F5 and see if it builds and then go to the browser and check out the product that I've built. >> Yeah. And then I could say, okay, well, I don't like these fields and can vibe code some more."
+    },
+    {
+      "t": 1077.2,
+      "end": 1093,
+      "text": ">> I don't need to look at the code. >> For true VIP coding, you need to detach yourself from the code. >> Okay, >> I can also go directly into >> I couldn't help notice also when you as you set up on the screen, you have uh you know the agent window is is way bigger than uh than the actual code window."
+    },
+    {
+      "t": 1093,
+      "end": 1104.9,
+      "text": "You can barely actually read the code in in that's a totally different way to approach coding, right? Absolutely. >> Absolutely. Um, >> I'm I'm not going to overstate it is it's just because I work this way."
+    },
+    {
+      "t": 1104.9,
+      "end": 1121.6,
+      "text": "There are going to be situations where I need to go into the code and understand what the challenge is, right? Because it's not magic here, right? >> Almost. It feels a little bit like magic, right? >> I mean, >> so there's also this um, as you mentioned before, there's also this, you know, vibe coding is also um,"
+    },
+    {
+      "t": 1121.6,
+      "end": 1141.8,
+      "text": "there's this iterative aspect of it, right? And and maybe the reason why it has been so popular and people are you know so excited about it is because as opposed to maybe just asking some AI write some code as a one-off thing the vibe coding uh process is much more iterative you know you you uh you you start with"
+    },
+    {
+      "t": 1141.8,
+      "end": 1159.4,
+      "text": "some code and then you you get some some the agent to write something and then you you ask you know the agent add a field or you know fix that algorithm and then you you do another iteration and And and when you think about it that resembled a lot the way you know traditional coding works."
+    },
+    {
+      "t": 1159.4,
+      "end": 1173.6,
+      "text": "You know coding is much is very much like that. you know, you start writing something simple, you know, write a few line of code, try it out, you know, add, you know, add some more things, add some test, you know, add an extra functionality and and then you try it out as you go."
+    },
+    {
+      "t": 1173.6,
+      "end": 1184.9,
+      "text": "Uh, and I think the reason why maybe it's so, you know, there's so much hype about it and people are so excited about it because it's it's so close to uh what, you know, what programmers do all the time."
+    },
+    {
+      "t": 1184.9,
+      "end": 1205,
+      "text": "Uh, and it feels very natural. Uh and it feels you know it's like having somebody to help you with the tedious stuff and you exactly that's that's what it's so I think it's so uh it's so great because you know we we all we all tried it if you code you know they they yeah permissions or you know we start with a new page you have a lot of you know define the field"
+    },
+    {
+      "t": 1205,
+      "end": 1219.4,
+      "text": "and all that it's not it's not really the interesting part but you have to do it and that's where agents and and AI is great because it can you know get you you know through these things very very quickly and then can spend time on the, you know, the more,"
+    },
+    {
+      "t": 1219.4,
+      "end": 1230.5,
+      "text": "you know, interesting things and maybe the harder the harder part of the code that needs more, you know, more attention, right? >> Exactly. Exactly. >> It's still working. >> Yeah, it's still And it can continue to work for some time."
+    },
+    {
+      "t": 1230.5,
+      "end": 1240.7,
+      "text": "So, you might think, well, couldn't I code this faster myself? And yeah, some people can. They have fast fingers, but but is that what you want to spend your time on? >> Or do you want to spend the time on thinking about what's the next steps?"
+    },
+    {
+      "t": 1240.7,
+      "end": 1260.9,
+      "text": "What are the things that we're missing? What are the >> the things that we need to do next here? Right. That that's maybe more interesting as you say what's the algorith I think you know how many how it's been working like for what like 1 minute or so one and a half minutes already created I can see five or six >> well >> objects or something like that even more created >> I think you need to be really"
+    },
+    {
+      "t": 1260.9,
+      "end": 1275,
+      "text": "fast if you >> pages yeah a lot of pages lots of permissions tables >> or you need to be quite fast if you if you want to create this in the same amount of time I don't think I can >> no no so so if you look at it isolated one file one thing."
+    },
+    {
+      "t": 1275,
+      "end": 1286.9,
+      "text": "Yes, maybe you could do it. But >> but building all of this and having it be connected from the beginning like it knows the table relationships, it knows what the pages needs to have, what source tables and what fields and so forth."
+    },
+    {
+      "t": 1286.9,
+      "end": 1307,
+      "text": ">> All of this is a great offset. Like you get started really fast with this >> and you don't really need to do much more than just ask it. >> So there's a lot of uh people saying, you know, I've seen a lot of people uh saying, \"Yeah, I've tried VIP coding.\" And then you you start v coding is all great and then you you you spend you know 10 minutes uh generating code"
+    },
+    {
+      "t": 1307,
+      "end": 1323.6,
+      "text": "and two hours debugging you afterwards. I see a lot of people saying that. So what's your experience? Is that is that true? Is that a lot of you know it looks great? You know it demos really well >> uh but how much is the code actually you know production quality afterwards and and how much you know time spend debugging it?"
+    },
+    {
+      "t": 1323.6,
+      "end": 1338.2,
+      "text": ">> Yeah. Um >> so so when we first started with the with agent mode and we had the maybe the GT4 and all these things it was not as good as it is today. GT5 claw models the newer ones and other newer models are much better at AL."
+    },
+    {
+      "t": 1338.2,
+      "end": 1354.3,
+      "text": "So it will actually generate building code because I'm using it inside VS Code. You will also see sometimes in in the the process that it will actually look at the symbols that we're processing in the background and it will look at the the compilation results and diagnostics that we processing."
+    },
+    {
+      "t": 1354.3,
+      "end": 1368.7,
+      "text": "So it will actually >> change course every now and then figure out oh that was wrong I need to go back and fix that error or fix that diagnostic. >> Yeah so as you mentioned before it has a lot more context than if you just go to chatgpt or copilot and and and ask it to write code there."
+    },
+    {
+      "t": 1368.7,
+      "end": 1388.7,
+      "text": "it doesn't have uh feedback the feedback I mean here it actually tried to compile the the whatever code you're writing and and see the errors the warnings you know I've seen it for even the warnings if you get warnings in you when you build it goes and okay try to fix the warning and then goes goes again and try again and so all these context you are having"
+    },
+    {
+      "t": 1388.7,
+      "end": 1399.2,
+      "text": "in it's much more than just having uh you know writing code through GPT or other just chat interface this is really integrated with the whole >> interactive essentially Yeah, exactly."
+    },
+    {
+      "t": 1399.2,
+      "end": 1411.2,
+      "text": ">> And and we can just try whatever it's finished building here, it's there's an error, right? So sometimes it doesn't fix all of them and we need to go look at it >> and that happens because >> uh it doesn't always get the signals at the right time."
+    },
+    {
+      "t": 1411.2,
+      "end": 1422,
+      "text": "So then you need to feed it back. You can just copy the error message, put them back into the the the chat and >> so it finishes there, but there's an error. >> Yeah. So we see there's lots of lots of issues here. So we can go fix that."
+    },
+    {
+      "t": 1422,
+      "end": 1432.6,
+      "text": "We can just copy the the problems here. Let me take the output here. >> Just take a few. >> Okay. and copy them and just say, well, >> fix that. >> I'm not going to do that."
+    },
+    {
+      "t": 1432.6,
+      "end": 1442.7,
+      "text": ">> You just paste the error. You don't even ask. So, you kind of understand that's what you want. >> Fix. >> Well, it reasons that the reason why I'm putting this in is because uh >> yeah, it's going to fix some issues. >> All right, here we go."
+    },
+    {
+      "t": 1442.7,
+      "end": 1453.2,
+      "text": ">> So, even if it didn't pick it up, in this case, it didn't for some reason. Uh >> I don't know why, but sometimes it it it doesn't pick up all the errors, all the issues, and then you just feed them back in."
+    },
+    {
+      "t": 1453.2,
+      "end": 1467.5,
+      "text": "And >> so is that because it's it gets a better it do it does a better job working like one error at a time afterwards than when you have the whole when you try to handle the whole >> B. So right now there is no compile method for the the agent to call."
+    },
+    {
+      "t": 1467.5,
+      "end": 1479,
+      "text": ">> Okay. >> Uh so it relies on the diagnostics to be produced while it's building >> and when it's done and we didn't get the diagnostics then it's just going to see the errors right at the end. So we need to feed them back in."
+    },
+    {
+      "t": 1479,
+      "end": 1489.5,
+      "text": ">> Okay. And maybe there's some issues around generating. So maybe it cannot >> make the decision. So like here it's going to ask me something. I'm just going to run a full compile. There we go."
+    },
+    {
+      "t": 1489.5,
+      "end": 1508.6,
+      "text": "And now it worked. >> All right. >> Like that's all I have to do now. It just worked. >> Okay. Talking about which uh Stefan you are you are, you know, the lead of the u uh compiler team. Yeah. >> Uh so is there anything you're working on right now uh we are doing to uh to help uh this experience in the future?"
+    },
+    {
+      "t": 1508.6,
+      "end": 1519.7,
+      "text": "Are we going to introduce some new things in the compiler, new features in the whole the AL development experience? So, so the agent experience is going to be better. Tell us a little bit about it. >> Yeah. So, I just talked about the compile."
+    },
+    {
+      "t": 1519.7,
+      "end": 1532.9,
+      "text": ">> Yeah. >> And that's part of the whole we need to give the agent more tools, >> right? >> So, compile is one of them. We also are thinking maybe we should add the ability to publish it and we're looking into test execution."
+    },
+    {
+      "t": 1532.9,
+      "end": 1543,
+      "text": ">> Okay? Because if the if the agent is able to not only build the code but also force a compilation and also write tests,"
+    },
+    {
+      "t": 1543,
+      "end": 1553.7,
+      "text": ">> publish extensions and then execute the test and get feedback. >> Then it can do the whole loop itself. >> That would be really cool. >> That could be kind of cool. >> So are we working on that? >> We are actually working on that right now."
+    },
+    {
+      "t": 1553.7,
+      "end": 1566.9,
+      "text": "So that's in the scope right now. >> But I just want to return to something we said in the in the beginning here. Context is key here, right? So one of the things you'll find when you're working with the business central is it's not all symbols that it can find."
+    },
+    {
+      "t": 1566.9,
+      "end": 1583.2,
+      "text": ">> Okay. >> So what we are working alo on also is adding MCP servers. So the model context protocol >> for giving the agents more context to work with. >> And >> so if you if you haven't heard about MCP just you know briefly MCB stand for model context protocol."
+    },
+    {
+      "t": 1583.2,
+      "end": 1603.4,
+      "text": "It's basically a standard um it's an open source standard right uh and it's um it's it's mostly a discovery mechanism that allows agents to uh so agents are trained now to uh understand and and know about MCP >> and uh by exposing some"
+    },
+    {
+      "t": 1603.4,
+      "end": 1614.6,
+      "text": "capabilities as an MCP server you can uh you know there's some discovery mechanism and and uh and agents and and AI can do intelligent thinks about about this."
+    },
+    {
+      "t": 1614.6,
+      "end": 1628.1,
+      "text": "So think of it as a um you know a way to expose what kind of tools you have. Is that is that fair to say that's what it is? Absolutely. So you have a in our there's tons of MCP servers out there if you you know if you haven't heard look it up."
+    },
+    {
+      "t": 1628.1,
+      "end": 1640.2,
+      "text": "There's a lot we have actually an MCP server for documentation. >> Exactly. >> Which you can can you maybe you can show how you add an MCP server to uh to your context when you are in VS Code."
+    },
+    {
+      "t": 1640.2,
+      "end": 1650.9,
+      "text": ">> Yeah. So I actually I actually have it in the MCP server here. So you can see here these are the the tools that are on here. That's the tools for this agent. >> And I am actually using the MSAN."
+    },
+    {
+      "t": 1650.9,
+      "end": 1663,
+      "text": "So the docs MCP server. >> Yes, >> you can discover uh more MCP servers from your extensions. So you can go down here to MCP servers. Let me make this a little bit bigger."
+    },
+    {
+      "t": 1663,
+      "end": 1677.9,
+      "text": "So below the extensions there is MCP servers installed. I have actually the doc twice. So this uh this actually gives VS code VS code agent access to our documentation"
+    },
+    {
+      "t": 1677.9,
+      "end": 1698.8,
+      "text": "the BC documentation and it has an API and through this MCP protocol what it does basically say ah okay there's an API I can call >> and I can ask you know search on the documentation and that that when it uh it writes some code or or respond to your your request it actually look look into >> so use these"
+    },
+    {
+      "t": 1698.8,
+      "end": 1719.5,
+      "text": "exactly and you can find even more here like you click the button here there's many other and there are some extensions that also produce um MCP servers like the context 7 one I have here >> and we are thinking about adding even more like the one we have for business central is more about getting access to the customer data >> right >> but we need to add an MCP server that gives you access to the the environment"
+    },
+    {
+      "t": 1719.5,
+      "end": 1730.6,
+      "text": "metadata so that will give you uh what symbols exist on the server >> and then we want to broaden that out so you can actually develop even more with this metadata MCP server."
+    },
+    {
+      "t": 1730.6,
+      "end": 1751.1,
+      "text": ">> So that will mean that the old hype coding experience would be probably even more powerful and can do more things and less maybe less errors and and more advanced. >> Exactly. Yeah. So of course errors and other diagnostics we need to look at those how can we communicate to the agent what needs to change >> what can we do better in order to help it guide itself to the next solution."
+    },
+    {
+      "t": 1751.1,
+      "end": 1763.4,
+      "text": ">> All right. >> Right. Yeah. >> So lots of good stuff here. You can also add your own if just to take that also. So if you go to uh the functions you can just add your own MCP server if you have one on your own company."
+    },
+    {
+      "t": 1763.4,
+      "end": 1773.7,
+      "text": ">> Okay. >> Your own docs. Uh maybe you have your own development resources. >> So you could expose that to an MCP server and edit it. So you have that context as well. >> Exactly."
+    },
+    {
+      "t": 1773.7,
+      "end": 1784.7,
+      "text": ">> Cool. And if you go up here again as a as an alternative of providing context to MCP and to the files, we had the this the coding guidelines from the web from the community."
+    },
+    {
+      "t": 1784.7,
+      "end": 1796.2,
+      "text": "But you can also add your own just by going to uh the chat configuration and look at your instructions, prompt files and so forth, right? So you can go there and actually add your own instructions."
+    },
+    {
+      "t": 1796.2,
+      "end": 1816.2,
+      "text": "So when you create a table, it must have this prefix or whatever you want to have. >> Okay. So you Yeah. So you can basically add some um it it's going is going to end up in the prompt eventually right instruction that will be added to every prompt uh and it could be for example guidelines or anything you think you know always indent like"
+    },
+    {
+      "t": 1816.2,
+      "end": 1830.6,
+      "text": "this or whatever you >> rules you have at your company right so whatever is is required for making the code the best quality >> always name procedure according to that uh that scheme or whatever >> always document public methods and all that Okay."
+    },
+    {
+      "t": 1830.6,
+      "end": 1845.8,
+      "text": "Yeah, that's a that's a good one, too. Yeah. >> So, lots of things you can do with this. Yeah. >> Okay. So, uh that that's super great. So, how um if we um if if partners and developers want to get started with vibe coding, what what's your what's your recommendation?"
+    },
+    {
+      "t": 1845.8,
+      "end": 1857.4,
+      "text": "How you know how should they go about it? >> Yeah. >> Uh first of all, is that something Yeah. Let me ask before that. Is that something that uh you you would recommend people use also for production"
+    },
+    {
+      "t": 1857.4,
+      "end": 1867.8,
+      "text": "uh production grade coding? >> Yes. Yeah, absolutely. I mean, >> so it's not just a toy. It's >> No, no, it's it's almost never too late to start, right?"
+    },
+    {
+      "t": 1867.8,
+      "end": 1882.2,
+      "text": "And you have to start. You have to try it out. You have to figure out what you can use it for. This is a productivity tool. >> It will help you do all the tedious, the scaffolding, all the the things that you have to do again and again and again easy."
+    },
+    {
+      "t": 1882.2,
+      "end": 1892.3,
+      "text": "And it's going to be so much >> um of a benefit to you as an individual developer because you can be much more productive and focus on the right things."
+    },
+    {
+      "t": 1892.3,
+      "end": 1905.7,
+      "text": ">> But it's also going to give you a better connection to maybe customers or consultants to allow them to describe things and help translate that into code. >> It doesn't need to be onetoone, but it will help you translate it into code."
+    },
+    {
+      "t": 1905.7,
+      "end": 1916.4,
+      "text": "So just go get started, figure out what you can use it for, try it out, and every new model that comes out will be even better than the one. >> That's we can pretty much predict that."
+    },
+    {
+      "t": 1916.4,
+      "end": 1936.4,
+      "text": ">> We can pretty much that's what we have seen at least that's been the trend so far. There's so much difference between even the four models and and the four models and and GP5 and and I hear also that the clothes on it is very good at people are also giving good feedback on this but uh >> different tools you should try you should try"
+    },
+    {
+      "t": 1936.4,
+      "end": 1951.4,
+      "text": "which one actually works for you there's a bit of a of you know a taste people like better GPT5 people like better code this you know just try it out there these models are available there are several of them available in V code >> and don't stick to one model."
+    },
+    {
+      "t": 1951.4,
+      "end": 1962.7,
+      "text": "Don't say it's only that model. Try different models. So when you feel like you're getting stuck with one model for one scenario, go try something else like experiment a little with the models >> and you can change model at any time."
+    },
+    {
+      "t": 1962.7,
+      "end": 1972.7,
+      "text": ">> Exactly. Or just go down here in this case here. Just go down, pick another model, then continue the chat >> and then yeah, you get a new result, a different way of reasoning. >> All right."
+    },
+    {
+      "t": 1972.7,
+      "end": 1992.7,
+      "text": "So last question uh before we u conclude that's that was really cool. uh it's a little bit scary still right I mean how much you know how much do you think this is going to uh you know what does it mean for whole developer community right >> um it's a little bit scary you know people think I'm sure there are people thinking"
+    },
+    {
+      "t": 1992.7,
+      "end": 2010.1,
+      "text": "out there is it going to replace my job >> so what's your what's your thinking on that >> yeah so so I think I think um for me personally it's a productivity tool so it helps me build the things faster or at least get me started faster all the scaffolding as we talked about >> but it's also a way for me to get inspir operation"
+    },
+    {
+      "t": 2010.1,
+      "end": 2022.3,
+      "text": "uh because it will it will help me expand my knowledge like uh maybe I don't know enough about number series I can ask it about numbers here how to integrate so that's like from a personal point of view it's a productivity tool obviously"
+    },
+    {
+      "t": 2022.3,
+      "end": 2039.5,
+      "text": "uh if if you're just working on creating permission sets >> this might replace that but I think we as developers are >> are prone to problem solving and we'll find the solutions using these tools in a more efficient way >> so I don't think my job is going away tomorrow."
+    },
+    {
+      "t": 2039.5,
+      "end": 2051.8,
+      "text": "That's not what I'm saying. >> I I think I think it's fair to say that there's a lot of work out there and usually it's more, you know, that's what we hear from, you know, a partner channel, but that's also true for ourselves. You know, we have so many things in our backlog"
+    },
+    {
+      "t": 2051.8,
+      "end": 2067.8,
+      "text": "uh and and we we we can never, you know, get everything done in in in one release. So, so with these tools, you know, our expectation is that we will actually be able to be more productive and get more features out, you know, and uh and because the expectation is still there,"
+    },
+    {
+      "t": 2067.8,
+      "end": 2084.1,
+      "text": "there's still a lot of things to do. And I think that goes for, you know, uh any industry, any solution out there build on BC. Uh people are usually, what we hear is that people have, you know, a lot of demands, a lot of customers, and they have a hard time to keep up with with the requests from the,"
+    },
+    {
+      "t": 2084.1,
+      "end": 2094.3,
+      "text": "you know, from their customers. So we, you know, that could be a way to actually get more done and be more efficient and u and you know have a better a better YP experience and a better product."
+    },
+    {
+      "t": 2094.3,
+      "end": 2111.5,
+      "text": ">> Absolutely. >> Yeah, totally agree. >> All right, say thank you very much. That was that was really great. And um yeah, if you um if you have some comments and if you want to, you know, know more about what we are going to do with W coding, put some uh put some question in um in the comments below."
+    },
+    {
+      "t": 2111.5,
+      "end": 2116.6,
+      "text": "And uh thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 7480
+}

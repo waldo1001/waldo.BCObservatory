@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-quality-management
 type: topic
 title: Set up quality management
-summary: "Learn section Business functionality > Set up Business Central > Set up quality management: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Quality management setup in Business Central: prerequisites and permission sets, inspection results, inspection templates, and generation rules that create inspections automatically. Answers questions on how to configure quality inspections and when they are triggered."
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0b835c8efb8bf1fee131306fd1cddb7e9ca8638f0d59aefda81888621b014ad4
+  prompts:
+    hub-topic: 1
+  input_hash: bcb7d27482c48748a237223000fcbffad2c0189711d496978ac07b4764e68825
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-configuring-grades
@@ -86,14 +87,29 @@ bc_forms:
   - 20408
   - 20416
 member_hash: 0b835c8efb8bf1fee131306fd1cddb7e9ca8638f0d59aefda81888621b014ad4
-narrative: none
+narrative: generated
 ---
 
 # Set up quality management
 
-> Learn section Business functionality > Set up Business Central > Set up quality management: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Quality management setup in Business Central: prerequisites and permission sets, inspection results, inspection templates, and generation rules that create inspections automatically. Answers questions on how to configure quality inspections and when they are triggered.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up quality management · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up quality management · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers the configuration needed before quality inspections can be used. It has four pages and no subtopics. The setup page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.
+
+## Key points
+
+- Quality management setup and configuration covers prerequisites, permission sets, base data configuration and assisted setup.
+- Settings include inspection creation options, inspection search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.
+- Inspection results such as Pass, Fail and In Progress define possible outcomes; custom results can be created.
+- Results have settings for evaluation sequence, visibility, categories and lot blocking conditions.
+- Inspection templates define tests, test value types, allowable values, result conditions and sample source configuration.
+- Templates can be copied, and each has a template code and description.
+- Generation rules automatically create inspections for business transactions such as purchase receipts, production output and warehouse movements.
+- Generation rules use sort order, template-to-source mapping, condition filters, item filters, attribute filters and activation trigger selection.
 
 ## Learn pages
 

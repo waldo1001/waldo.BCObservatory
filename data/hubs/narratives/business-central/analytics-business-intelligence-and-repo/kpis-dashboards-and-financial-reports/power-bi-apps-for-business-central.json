@@ -1,0 +1,40 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
+  "input_hash": "f25aff66fb6cf759d7ce255634405ad573924586713b1840cd39eec867174d66",
+  "summary": "Power BI apps for Business Central: how to install the connector and template apps, configure fiscal, standard or week-based calendars, use multiple languages, and which semantic models and KPIs exist per functional area. Also answers FAQ items on licensing, refresh and dimension data.",
+  "overview": "Power BI apps for Business Central provide ready-made semantic models and KPIs for functional areas such as Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing and Sustainability.\n\nStart with the install page. It covers the connector apps, the template apps from Marketplace, calendar and date settings (including UTC offset) and semantic model management. The functional areas page lists what each app contains.\n\nThree calendar pages give more detail on the calendar settings: fiscal, standard and week-based. The fiscal calendar is set up through the Power BI Reports Setup page. The fiscal and standard calendars each come with their own time intelligence. The week-based calendar defines week structure, a fiscal year anchor, a boundary rule and a period pattern. The multi-language page explains how to test languages by adding culture name parameters to URLs. The FAQ covers licensing, installation, data refresh, dimension data troubleshooting and multi-company reporting.",
+  "key_points": [
+    "The install page covers Power BI connector apps, template apps from Marketplace, calendar and date settings and semantic model management. The page mentions versions 26 and 27.0.",
+    "Three calendar types are available: fiscal, standard (Gregorian) and week-based.",
+    "Fiscal calendar setup is done on the Power BI Reports Setup page. It uses a calendar type and a first month setting to define the fiscal year structure and fiscal time intelligence.",
+    "Standard calendar gives Calendar Year, Calendar Month and Calendar Quarter fields and standard time intelligence measures.",
+    "Week-based calendar settings: First Day of Week, First Month of Fiscal Calendar, boundary rule (Nearest or Last) and period pattern (445, 454 or 544).",
+    "UTC offset can be configured during installation.",
+    "To test another language, add a culture name parameter to the URL.",
+    "The FAQ (versions 26.2 and 27.0) covers Power BI Pro licensing, semantic model refresh, dimension data updates, job queue scheduling and multi-company reporting."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:21.577Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042485
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T14:24:07.451Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says all three calendar types are set up through the Power BI Reports Setup page. Only the fiscal calendar summary names that page. The standard and week-based summaries do not.",
+      "Key point 2 says the calendar type for fiscal, standard and week-based calendars is set on the Power BI Reports Setup page. Only the fiscal calendar summary supports this.",
+      "Overview says every calendar drives time intelligence. The source mentions time intelligence only for the fiscal and standard calendars, not the week-based one.",
+      "'The section has no subtopics, so all pages sit at one level' is filler that tells an agent nothing useful.",
+      "Key point 1 gives the version numbers in a way that could be read as the apps being tied to those versions. Reworded so it only says the page mentions them."
+    ],
+    "input_hash": "f25aff66fb6cf759d7ce255634405ad573924586713b1840cd39eec867174d66",
+    "cost_usd": 0.11223920000000001
+  }
+}

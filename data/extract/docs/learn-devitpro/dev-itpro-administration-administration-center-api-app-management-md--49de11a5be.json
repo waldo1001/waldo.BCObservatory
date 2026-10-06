@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api_app_management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management",
+  "title": "Business Central Admin Center API - App Management",
+  "blob": "0d876b200a7a3c0717eb5b00ba5c1a7c13af8891",
+  "summary": "REST API reference for managing apps installed on Business Central environments, including install, uninstall, update operations and per-tenant extension (PTE) management.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "admin center api",
+    "app management",
+    "pte",
+    "per-tenant extensions",
+    "app lifecycle"
+  ],
+  "objects": [],
+  "features": [
+    "install global app",
+    "uninstall app",
+    "update app",
+    "PTE upload and install",
+    "scheduled installs",
+    "app operations",
+    "EULA acceptance",
+    "Logic Apps integration"
+  ],
+  "versions": [
+    "API version 2.6",
+    "API version 2.25",
+    "API version 2.29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007169,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "video_id": "tzX0qB9tiBs",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6,
+      "end": 23.1,
+      "text": "even when production doesn't go as plann it is important to keep your inventory cost and financial transactions accurate in this release we are adding capability to revert output or consumption transactions return unused raw materials back to the"
+    },
+    {
+      "t": 23.1,
+      "end": 43.4,
+      "text": "warehouse or correct mistakes in the capacity Ledger entries what if you discovered mistake after changing status of production order to finished you can reopen finished production order and make necessary adjustment and then finish it again let's see it in the demo Begin by examining"
+    },
+    {
+      "t": 43.4,
+      "end": 63.4,
+      "text": "the end stage of production the finished production order the document attachment is absent output is incomplete additionally exploring value Ledger entries reveals a significantly high capacity in consumption resulting in wrong cost to produced items"
+    },
+    {
+      "t": 63.4,
+      "end": 73.3,
+      "text": "to address this issue choose the reopen action this action will redirect you to the restored release production"
+    },
+    {
+      "t": 73.3,
+      "end": 93.6,
+      "text": "order Begin by uploading the required file The Next Step involves Examining The Ledger entries first navigate to the capacity Ledger entry select the entry with high capacity and choose the reverse production order transaction which will generate a transaction with a negative quantity and populate"
+    },
+    {
+      "t": 93.6,
+      "end": 98.2,
+      "text": "all other relevant"
+    },
+    {
+      "t": 99.3,
+      "end": 117.6,
+      "text": "Fields repeat the operation on the item Ledger entries where output or consumption can be canceled we cancel consumption and we got raw materials back on the stock and there is an application between these two so cost is properly"
+    },
+    {
+      "t": 117.6,
+      "end": 124.7,
+      "text": "considered fix the missing post by going to the production"
+    },
+    {
+      "t": 127.7,
+      "end": 142.3,
+      "text": "Journal then change the status to finished the finished production order now has an attachment explore the item Ledger entry to verify that the output entries reflect accurate quantities and"
+    },
+    {
+      "t": 142.3,
+      "end": 162.6,
+      "text": "costs impressive in the next demo we will explore how to deal with mistakes involving subcontracting also we will learn how to close orders and write off accumulated work in progress in case the real scrap ured let's use the demo in this scenario we have a release production order"
+    },
+    {
+      "t": 162.6,
+      "end": 183.8,
+      "text": "with finished quantity because it involves subcontracting for some operations including the final routing line we need to cancel it differently navigate to the purchase order and open the receipt select both lines linked to the production order and choose undo due"
+    },
+    {
+      "t": 185.7,
+      "end": 192.5,
+      "text": "receipt close the receipt and delete the purchase"
+    },
+    {
+      "t": 193.2,
+      "end": 213.2,
+      "text": "order return to the release production order to see that the output is reverted consumption remains unchanged and must be canceled manually we will keep the consumption as we want to explore a scenario where the production order has capacity or component consumption but no output the amounts accumulated in the work and progress"
+    },
+    {
+      "t": 213.2,
+      "end": 235.8,
+      "text": "account need to be written off first enable the ability to finish production orders without output in the manufacturing setup page change the status of the release production order to finished and activate the finishing order toggle once the order is finished review the general ledger entries"
+    },
+    {
+      "t": 240.7,
+      "end": 262,
+      "text": "the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account thank you for watching you can learn more about capability in the release notes you can find the link in the description also remember to watch other videos about enhancements on manufacturing area"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.99,
+      "text": "[Music]"
+    },
+    {
+      "t": 6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 519
+}

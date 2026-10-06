@@ -1,0 +1,88 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-mfg.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-mfg",
+  "title": "Sustainability value chain in production",
+  "blob": "33c59b9fc1eecf99449e2cf6209a26b0c1dbd128",
+  "summary": "Sustainability value chain in production enables tracking of CO2e emissions through production BOMs, routings, and production orders to calculate embedded carbon in manufactured items.",
+  "systems": [
+    "sustainability",
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "emissions tracking",
+    "production orders",
+    "carbon footprint",
+    "sustainability setup",
+    "co2e",
+    "production bom",
+    "routing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Emission Fees"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    },
+    {
+      "type": "page",
+      "name": "Routing"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Components"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Work Center"
+    },
+    {
+      "type": "page",
+      "name": "Machine Center"
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Value Entries"
+    }
+  ],
+  "features": [
+    "Enable Value Chain tracking",
+    "Item Emissions",
+    "Work/Machine Center Emissions",
+    "Production BOM emissions",
+    "Routing emissions",
+    "CO2e per Unit calculation",
+    "Calculate CO2e action",
+    "Sustainability value entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

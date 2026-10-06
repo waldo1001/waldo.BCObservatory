@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "de533db668f84153098ca6c30bd0f06d37f78c15",
       "words": 1070,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.958Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.962Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.962Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.962Z",
+      "page": false
     }
   },
   "input_hash": "de533db668f84153098ca6c30bd0f06d37f78c15",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "de533db668f84153098ca6c30bd0f06d37f78c15"
+  "output_hash": "1fb6890ad2ea9326e4d8982e5b8f9ad79d4db0899bd27ab240404324dc282a9c"
 }

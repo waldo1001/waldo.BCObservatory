@@ -1,0 +1,416 @@
+{
+  "video_id": "P1V4jy08YM8",
+  "item_id": "video/yt-microsoft/P1V4jy08YM8",
+  "title": "Expense Agent: Configuration (2026 release wave 1)",
+  "duration_s": 358,
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "expense agent",
+    "configuration wizard",
+    "approval workflow",
+    "posting groups",
+    "mileage expenses",
+    "per diem",
+    "payment methods",
+    "email notifications",
+    "project tracking"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and wizard overview",
+      "t_start": 0,
+      "t_end": 38.8
+    },
+    {
+      "title": "Access and submission configuration",
+      "t_start": 38.8,
+      "t_end": 75.2
+    },
+    {
+      "title": "Expense users and default approvers",
+      "t_start": 75.2,
+      "t_end": 118.7
+    },
+    {
+      "title": "Accounting defaults and posting groups",
+      "t_start": 118.7,
+      "t_end": 172.4
+    },
+    {
+      "title": "Management defaults and rules",
+      "t_start": 172.4,
+      "t_end": 218
+    },
+    {
+      "title": "Rules, controls, and communication settings",
+      "t_start": 218,
+      "t_end": 268.6
+    },
+    {
+      "title": "Mileage and per diem expense configuration",
+      "t_start": 268.6,
+      "t_end": 304.8
+    },
+    {
+      "title": "Activation and welcome email distribution",
+      "t_start": 304.8,
+      "t_end": 358
+    }
+  ],
+  "features": [
+    {
+      "name": "Expense Agent",
+      "description": "An agent in Business Central that handles expense submission, approval, and processing. Activated from the role center avatar.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.4,
+      "t_end": 351.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "expense",
+        "configuration",
+        "setup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Access and submission configuration",
+      "description": "Controls how external expense users can submit expenses via web app or email. Allows configuration of M365 email account and access permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.8,
+      "t_end": 75.2,
+      "is_demoed": true,
+      "caveats": [
+        "Email account is typically a shared mailbox"
+      ],
+      "tags": [
+        "access control",
+        "submission channels",
+        "email configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense user registration",
+      "description": "Allows adding employees to the expense user list. Can add individual employees, all employees, or import from M365 graph.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.2,
+      "t_end": 93.1,
+      "is_demoed": true,
+      "caveats": [
+        "Already configured users were registered"
+      ],
+      "tags": [
+        "user management",
+        "m365 integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Default approver configuration",
+      "description": "Setting up a person who can approve all expenses, with option for more granular approver setup on a different page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.1,
+      "t_end": 106.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval workflow",
+        "approvers"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Number series configuration",
+      "description": "Allows admin to insert number series for accounting defaults, with preview capability and smart detection to skip existing series.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.7,
+      "t_end": 132.2,
+      "is_demoed": true,
+      "caveats": [
+        "If number series already exists, insertion is skipped"
+      ],
+      "tags": [
+        "accounting defaults",
+        "number series"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Payment method defaults",
+      "description": "Recommends default payment methods such as bank with reimbursement type company paid.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 142.6,
+      "t_end": 155.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment methods",
+        "reimbursement"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Posting group defaults",
+      "description": "Suggests default posting groups with preview capability to see what records will be inserted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.8,
+      "t_end": 172.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "accounting defaults"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense categories",
+      "description": "Suggests new categories for expense classification with preview capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.8,
+      "t_end": 172.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "categories",
+        "expense classification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Management defaults and rules",
+      "description": "Defines expense locations and management rules with auto-selection when system detects no existing data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.4,
+      "t_end": 201.9,
+      "is_demoed": true,
+      "caveats": [
+        "Auto-selection can be disabled",
+        "All defaults have preview capability"
+      ],
+      "tags": [
+        "management rules",
+        "defaults"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Rules and controls enforcement",
+      "description": "Allows selection to enforce management rules, anti-corruption attestation display, and receipt number or merchant name requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.9,
+      "t_end": 232.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "rules",
+        "controls",
+        "compliance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Email notification configuration",
+      "description": "Specifies email account for sending notifications to end users, with options for outbox or no-reply accounts and different notification types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.3,
+      "t_end": 268.6,
+      "is_demoed": true,
+      "caveats": [
+        "Email account must be configured before auto-population works"
+      ],
+      "tags": [
+        "notifications",
+        "email",
+        "communication"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approval notifications",
+      "description": "Controls whether to notify end users of approval updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 257.5,
+      "t_end": 268.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "approval workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mileage expense configuration",
+      "description": "Configures mileage expense calculation based on rate per unit and unit of measure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.6,
+      "t_end": 284.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mileage expenses",
+        "calculation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Project tracking for expenses",
+      "description": "Allows expense users to track expenses against specific projects with visibility controls for assigned or all projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 284.6,
+      "t_end": 304.8,
+      "is_demoed": true,
+      "caveats": [
+        "Visibility can be limited to assigned projects only"
+      ],
+      "tags": [
+        "project tracking",
+        "expenses"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Per diem expense configuration",
+      "description": "Defines per diem calculation rules with options for detailed rule specifications and reduction application.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 304.8,
+      "t_end": 321,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "per diem",
+        "calculation rules"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Welcome email to expense users",
+      "description": "Sends welcome email to selected expense users with details for using the expense web app portal or email receipt submission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 334.4,
+      "t_end": 351.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "welcome email",
+        "user communication"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.4,
+      "text": "Welcome to the Expense Agent setup video. Today, I will show you how to configure the Expense Agent in Business Central.",
+      "why_it_matters": "Establishes that this is a configuration guide for the Expense Agent, a new agent in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 75.2,
+      "text": "I have the option to add all my employees or existing employees to the expense user list, or I can also import expense user",
+      "why_it_matters": "Shows flexibility in how expense users can be onboarded, including M365 integration.",
+      "check": "exact"
+    },
+    {
+      "t": 106.5,
+      "text": "We have added this option to make it easier for the Expense Agent admin to add one approver, but they can do more granular",
+      "why_it_matters": "Clarifies that default approver is a convenience option with more detailed approval configuration available elsewhere.",
+      "check": "exact"
+    },
+    {
+      "t": 188.1,
+      "text": "And system is smart enough to auto select these when it detects there are no data in the system.",
+      "why_it_matters": "Documents the auto-detection and auto-selection behavior of default settings in the wizard.",
+      "check": "exact"
+    },
+    {
+      "t": 284.6,
+      "text": "We have also added project tracking where you can allow expense user to track an expense against a specific project.",
+      "why_it_matters": "Highlights the new capability to link expenses to projects in the 2026 release.",
+      "check": "exact"
+    },
+    {
+      "t": 304.8,
+      "text": "Finally, we have per diem expenses where you can define the per diem calculation rules.",
+      "why_it_matters": "Identifies per diem as a distinct expense type with configurable calculation rules.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036865999999999996
+    }
+  ]
+}

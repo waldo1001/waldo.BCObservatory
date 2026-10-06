@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/australia-local-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australia-local-functionality",
+  "title": "Australia local functionality",
+  "blob": "4d25680d93254351a2ec8117824824c2360cd05a",
+  "summary": "Australia localization provides tax features including withholding tax and GST, banking capabilities for EFT and reconciliation, and core finance features specific to Australian regulatory requirements.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "australia",
+    "withholding tax",
+    "goods and services tax",
+    "electronic funds transfer",
+    "business activity statements"
+  ],
+  "objects": [],
+  "features": [
+    "withholding tax setup and settlement",
+    "GST on prepayments",
+    "EFT payments",
+    "bank reconciliation",
+    "balance sheet and income statement reports",
+    "ABN entry"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

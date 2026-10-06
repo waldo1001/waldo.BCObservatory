@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0030eee02b76c92d08b8f0dc7c7511bdc366ef56",
       "words": 397,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.669Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.677Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.677Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.677Z",
+      "page": false
     }
   },
   "input_hash": "0030eee02b76c92d08b8f0dc7c7511bdc366ef56",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0030eee02b76c92d08b8f0dc7c7511bdc366ef56"
+  "output_hash": "35f73eb5b1b20a057c2ce05f1ca9bbaacaabf1fde46517caf093b8470eb43538"
 }

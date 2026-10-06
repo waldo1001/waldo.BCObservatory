@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Getting Started with Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=lRiED3AUfps",
-  "published_at": null,
+  "published_at": "2025-05-22T16:01:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:15:12.632Z",
+      "captions": "auto:en-orig",
+      "duration_s": 86
+    },
+    "captioned": {
+      "at": "2026-10-06T14:15:34.060Z",
+      "path": "data/captions/microsoft/lRiED3AUfps.vtt",
+      "vtt_sha256": "04c0099f5bd619da08633da9f69f48b1c7762179e5c48773a7cff5e8fb2aa9cd",
+      "segments": 7,
+      "words": 191,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 216,
     "duration_s": 86,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04c0099f5bd619da08633da9f69f48b1c7762179e5c48773a7cff5e8fb2aa9cd"
 }

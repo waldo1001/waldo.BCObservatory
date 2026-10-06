@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-block-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-block-items",
+  "title": "How to block items or item variants from sales, purchasing, and production",
+  "blob": "4a054b45cfa3693ca5ad5041ba03081eac33fb7f",
+  "summary": "Block items or item variants from use in sales, purchasing, service, production, or all transactions to prevent their selection in documents and journals.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item blocking",
+    "variants",
+    "sales blocked",
+    "purchasing blocked",
+    "service blocked",
+    "production blocked"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Variants"
+    }
+  ],
+  "features": [
+    "Sales Blocked",
+    "Purchasing Blocked",
+    "Service Blocked",
+    "Production Blocked",
+    "Return orders support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008701,
+      "pages_in_call": 8
+    }
+  ]
+}

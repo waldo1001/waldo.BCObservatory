@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
       "words": 1003,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:03:05.342Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007228
+    },
+    "summarized": {
+      "at": "2026-10-06T14:03:05.345Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:03:05.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:03:05.345Z",
+      "page": false
     }
   },
   "input_hash": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "517d4c856c6634efa3c49038d61e0dd38ec7c637"
+  "output_hash": "af21b193a5cc20b1f05d9b95a1bfa58d37e36eb98305d0db001c4e7cda5e0945"
 }

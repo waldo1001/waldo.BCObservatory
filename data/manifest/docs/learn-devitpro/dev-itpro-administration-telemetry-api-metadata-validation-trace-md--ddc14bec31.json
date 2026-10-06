@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-api-metadata-validation-trace",
   "published_at": "2026-08-10T12:05:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f4f2531c9e875f5ab13f67b2ee701be2b52ba75",
       "words": 417,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:46.834Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008564
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:46.837Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:46.837Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:46.838Z",
+      "page": false
     }
   },
   "input_hash": "2f4f2531c9e875f5ab13f67b2ee701be2b52ba75",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f4f2531c9e875f5ab13f67b2ee701be2b52ba75"
+  "output_hash": "0f41e0ff93c441dc27e36c681227587c4e38e026ec54821fcacbe8fb9348b087"
 }

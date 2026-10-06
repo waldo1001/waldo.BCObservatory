@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/multitenant-setup-guide.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/multitenant-setup-guide",
+  "title": "Manage Application and Tenant Databases in a Multitenant Deployment",
+  "blob": "a78dead317cdde7161f5aea48e7defc5a9373204",
+  "summary": "Set up a multitenant Business Central deployment by creating an application database, configuring the server for multitenancy, mounting tenant databases, and synchronizing extensions.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "multitenant deployment",
+    "database management",
+    "tenant setup",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Application database",
+    "Tenant mounting",
+    "Database synchronization",
+    "Extension publishing",
+    "Web server configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

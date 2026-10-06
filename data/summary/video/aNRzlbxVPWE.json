@@ -1,0 +1,26 @@
+{
+  "video_id": "aNRzlbxVPWE",
+  "item_id": "video/yt-microsoft/aNRzlbxVPWE",
+  "summary": "Writing agent evals in AL for Business Central agents: YAML-driven, data-driven tests that follow the agent task flow (message arrival, agent run, output verification, multi-turn), using the agent test library and its built-in keywords. Covers suite setup, placeholders, logging and the library agent's public methods.",
+  "overview": "Part 2 of the agent testing series shows how to structure an agent eval. The test follows the agent's flow: a message arrives, the agent acts, and the output is verified as a message, a review request or an intervention request. Multi-turn conversations are covered by mocking user interventions in YAML. The presenter notes that data can change between turns in a busy ERP.\n\nThe video then walks through the YAML test definition (suite setup, test name, description, turns) and the AL test code that reads it. It covers suite setup with custom data, turn setup, running a turn, validating results, error logging, downloaded logs for LLM judge analysis, and the library agent's public methods.",
+  "key_points": [
+    "Create custom master data for the suite setup instead of relying on demo data. In the team's testing, the agent recognized customer 10000 from public demo data, probably from model training.",
+    "Tests are driven by YAML with predefined sections (turn setup, message arrival with sender, title, body and attachments, expected data) plus free-format sections that you implement in AL code.",
+    "Attachments can come from resources or from AL-generated reports converted to attachments. Dynamic attachment generation needs custom AL code.",
+    "Date and datetime placeholders in YAML calculate dates from the current work date and a formula, so hardcoded dates need no manual updates. They also work in data-driven tests that are not agent tests.",
+    "Instead of asserts, tests check data and accumulate issues in an error reason field, returning true or false. The finalize turn keyword stores results in the history log, and a fact box shows why a test failed (recently added).",
+    "Downloaded logs contain serialized tasks, steps, inputs, expected data and error messages, and can be uploaded to Azure AI Foundry for LLM judge analysis.",
+    "The library agent has 27 public methods, with asynchronous ones ending in 'and wait'. Checking the text of an intervention request message is currently not possible, and the presenter says it is planned."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "7bd98ae45e019e0ebfad74898bc6769e208986b9106394dbe0681d0d7e75c827",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.052280400000000005
+  }
+}

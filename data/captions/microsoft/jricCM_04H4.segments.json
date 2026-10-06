@@ -1,0 +1,228 @@
+{
+  "video_id": "jricCM_04H4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.4,
+      "end": 19.7,
+      "text": "welcome to watch new in reporting for finance sales and purchasing fixed assets sustainability and maybe more just like any good movie if you wait and stay for the end credits you might be in for a little bonus"
+    },
+    {
+      "t": 19.7,
+      "end": 30.1,
+      "text": "surprise so let's dive into the first topic which is Excel reports for Finance in finance we have um"
+    },
+    {
+      "t": 30.1,
+      "end": 50.2,
+      "text": "made the Excel reports that were in preview generally available it's not only that we made sure they worked but we also applied a lot of new design and new things to the layouts so here on the screen you can see the seven different Excel"
+    },
+    {
+      "t": 50.2,
+      "end": 70.3,
+      "text": "reports that are available for finance everything from trial balance to Consolidated trial balance if if you use consolidation companies but also um Collectibles receivables and payables um so let me just show you one they look kind of the same that's the idea that the design"
+    },
+    {
+      "t": 70.3,
+      "end": 90.8,
+      "text": "should look and feel the same so let's dive into HED accounts receivables with the new Excel layouts there are different ways to get to the new Excel layouts in business Central I'll show you a few the first is from the business manager role center now I'm in the Kronos"
+    },
+    {
+      "t": 90.8,
+      "end": 110.9,
+      "text": "demo company so there's a little trick here if you minimize the get started Banner here you find some hidden menus and here you find Excel reports if I expand this you can see um the different or some of the different reports available here I'll get back"
+    },
+    {
+      "t": 110.9,
+      "end": 131.5,
+      "text": "to you what this Legacy part here mean but we wanted to go go into aged accounts receivables don't mind the preview it's just my version and um let's run the report as with all the new reports you get teaching tips both if it's enabled like here if you"
+    },
+    {
+      "t": 131.5,
+      "end": 152,
+      "text": "choose the the title here you'll get the teaching tip if you open the help Paine you get the teaching tip there's also a link for the report uh in documentation actually let's just try to they do that that's a Full Circle you can also read more about the report and learn about usage scenarios"
+    },
+    {
+      "t": 152,
+      "end": 172,
+      "text": "and so on so let's uh get rid of this documentation page and be back in B business Central and let me run the the report since this is an Excel report you just get the download you don't get a print option here so let's download uh and run the"
+    },
+    {
+      "t": 172,
+      "end": 192.5,
+      "text": "report so it's downloaded let me open it in Excel and here in Excel we have some security settings because because this report uses power query we need to enable it at least in my entro organization and I need to enable the content so these are security settings as part of excel"
+    },
+    {
+      "t": 192.5,
+      "end": 213.1,
+      "text": "not something I can do much about but this will load the data into the report and um with all the new Excel reports they follow a pattern that I'll just demo with this and I then I won't mention it in the other demos each of the reports come with a printable version so the first worksheet"
+    },
+    {
+      "t": 213.1,
+      "end": 233.6,
+      "text": "here is each account's receivable print this means if I actually print this let's try that you notice that the report fits a page and that means you can also print the the report in a nice layout let's go back to the report and"
+    },
+    {
+      "t": 233.6,
+      "end": 252.5,
+      "text": "here instead of printing we actually want to analyze something because these Excel reports are the the main reason we use Excel is to have interactivity with pivot tables and slices and so on so this particular report has three different analytical"
+    },
+    {
+      "t": 252.5,
+      "end": 272.6,
+      "text": "reports local currency by period foreign currency and du by currencies let's let's dive into the first one so the bip period is uh you can see here if I expand some of the of these uh elements in a date hierarchy I I can dive into uh into that"
+    },
+    {
+      "t": 272.6,
+      "end": 293,
+      "text": "I can also filter with global Dimensions one and two so Department code or customer group I can simply use these slicers to filter into whatever I like and with Excel I can also dive into or sort or or filter uh with with each of the columns here"
+    },
+    {
+      "t": 293,
+      "end": 313.2,
+      "text": "so this is my accounts receivable by period you also notice that we don't have the report name because we wanted all of this screen to be as much available for analytics as possible same type of report but now by period in foreign currency so the same"
+    },
+    {
+      "t": 313.2,
+      "end": 333.4,
+      "text": "type of navigation now you get the currency codes um in this demo data I just have US dollars but of course in if you use foreign currency you would have the different currency codes here and the final report in a accounts receivables is then your buy by different currencies so you can see that here"
+    },
+    {
+      "t": 333.4,
+      "end": 353.8,
+      "text": "in with the currency code of of US dollar uh then if you have multiple of these this will expand with different currencies all the reports that are provided by Microsoft have this about the report worksheet now I have uh hidden the environment name here"
+    },
+    {
+      "t": 353.8,
+      "end": 373.9,
+      "text": "the company um is just our Kronos um and you can see which user Rand the report that's me me uh when when I ran the report uh what the report was about and here also just like in the help pain for from the request page you can also go back from Excel into the"
+    },
+    {
+      "t": 373.9,
+      "end": 394.8,
+      "text": "documentation for this particular report and then read more about it so that's what we have for finance and this is just one of of the finance reports that is now generally available in version 20 25 release Wave 1 within the areas of sales and purchasing"
+    },
+    {
+      "t": 394.8,
+      "end": 415,
+      "text": "we also made gen generally available two new Excel reports or maybe four if you if you also account for the or if you think of the Aged account receivables or payables reports as being in this area they of course finan but they are heavily relate to sales and purchasing so there are"
+    },
+    {
+      "t": 415,
+      "end": 435,
+      "text": "two new reports here customer top 10 and vendor top 10 and uh let's just dive in uh to the vendor report and see how that looks in business Central so to navigate to the vendor top 10 report you have options you could use the Excel reports menu here but we could"
+    },
+    {
+      "t": 435,
+      "end": 455,
+      "text": "also just tell me say vendor top 10 and see if we can find the new report so the vendor top 10 here is the Excel report the vendor top 10 list up here is the Legacy report that that will be replicated so we'll want to choose the new one and uh I will"
+    },
+    {
+      "t": 455,
+      "end": 475.2,
+      "text": "just uh download the report and open it in Excel so the first worksheet is the print worksheet here you get the printable version of the top vendor lists of course the number of vendors chosen here is the filter"
+    },
+    {
+      "t": 475.2,
+      "end": 495.3,
+      "text": "you set on the request page and then uh the second worksheet sheet is the analysis worksheet where you now have the slicers for for filtering on or picking different um different vendors you can of course again uh similarly sort or filter on vendor number or vendor name"
+    },
+    {
+      "t": 495.3,
+      "end": 515.4,
+      "text": "and uh and get your uh vendor top 10 report this is a version of an Excel layout that even have a visual which means if I pick a few of these the pivot table will change to that um and we have the about report as well so that's the vendor top"
+    },
+    {
+      "t": 515.4,
+      "end": 525.6,
+      "text": "10 report in Excel but wait there's more in sales and purchasing we also gave you a little bonus it will come in version 26."
+    },
+    {
+      "t": 525.6,
+      "end": 545.6,
+      "text": "one two new queries that allow you to slice and Di your sales and purchasing orders in a more flexible manner than what is possible in earlier version so let's dive into instead of purchasing let's dive into sales and let's analyze some sales orders so tell"
+    },
+    {
+      "t": 545.6,
+      "end": 558.2,
+      "text": "me I just search for sales order per and here I get the sales order performance analysis result let's choose that and see what is possible or what this"
+    },
+    {
+      "t": 558.2,
+      "end": 578.5,
+      "text": "is so the teaching tip tells me this is an query that joins data from sales header to sales line what this means is that I can start grouping my sales order Lines by things that are on the on the header so the first type of analysis here is I can look at sell to customer"
+    },
+    {
+      "t": 578.5,
+      "end": 598.7,
+      "text": "name I have three customers and now I can see all the lines that are related to this of course if I if I remove some of these um data items I will not see as much uh there so that's one way of looking uh with the sales order performance I can look across my customers"
+    },
+    {
+      "t": 598.7,
+      "end": 618.8,
+      "text": "and see what I sold to them your imagination has sets the boundaries of the types of reports when you combine header and lines into a pivot experience like this one so go check it out when the 26.1 release gets out and uh let's see if you can not have"
+    },
+    {
+      "t": 618.8,
+      "end": 638.9,
+      "text": "one analysis but maybe 10 different analysis tabs on this query in fixed assets we made three of the Excel reports or the three preview report reports in Excel generally available fixed assets analysis fixed asset details and fixed asset projected value I won't go and"
+    },
+    {
+      "t": 638.9,
+      "end": 659.5,
+      "text": "demo these because they will look the same as what you have seen before but of course now in the context of fixed assets as a bonus that you already have in your environment today if you're on a version 25.3 or later is similarly to the sales order and purchase order analysis we also"
+    },
+    {
+      "t": 659.5,
+      "end": 679.7,
+      "text": "added a fixed asset at hoc analysis query that joins the fixed asset um Ledger entries to uh to other things such as fixed asset class subass and things on the fixed asset card such as depreciation book so that allows you for"
+    },
+    {
+      "t": 679.7,
+      "end": 700,
+      "text": "a really really flexible analysis on your fixed asset transactions sustainability we added in the last release wave through three Excel reports so they have already generally available but in this release wave we also updated the layouts for these reports to look and feel"
+    },
+    {
+      "t": 700,
+      "end": 720.2,
+      "text": "the same as what you have um in in sales uh sorry Finance everything you have seen until now so um again I won't demo this but you should go if you use sustainability go and check out uh the new layouts for the ex sustainability reports and start using"
+    },
+    {
+      "t": 720.2,
+      "end": 740.4,
+      "text": "the new uh the new layouts with all the modernization that has been been done in the area of excel reports and also the layouts that you have seen we are also saying goodbye to some Legacy Excel reports in the product um"
+    },
+    {
+      "t": 740.4,
+      "end": 760.4,
+      "text": "and this these are the um I'll show you how they look they will be present in business Central for a few release waves and then they will be removed from the product so let's uh I'll just show you where to find them so in case these are the ones you use you should start using uh the the"
+    },
+    {
+      "t": 760.4,
+      "end": 780.6,
+      "text": "more modern Excel reports instead so in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a group called Legacy where they're located so I won't go more into details about that but they have been moved to this group and in a"
+    },
+    {
+      "t": 780.6,
+      "end": 800.8,
+      "text": "later release wave this group will be removed and you can you should only be able to find these in the RO Explorer and then they will be removed and we're also saying goodbye to some old friends uh within Finance fixed assets sales purchasing actually the one the report areas where you have seen the new modern generally available"
+    },
+    {
+      "t": 800.8,
+      "end": 820.9,
+      "text": "Excel reports their counterparts from the past have now been obsoleted and will be move will be removed in a later version of business Central for manufacturing there's a full video on manufacturing analytics and uh the modernization of reporting in that area uh is"
+    },
+    {
+      "t": 820.9,
+      "end": 831,
+      "text": "even greater than what you have seen in this video so if you use manufacturing make sure you watch the manufacturing analytics video"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2054
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "P1V4jy08YM8",
+  "item_id": "video/yt-microsoft/P1V4jy08YM8",
+  "summary": "Expense Agent configuration wizard in Business Central (2026 release wave 1): walks through access, expense users, approvers, accounting and management defaults, controls, notifications, mileage, project tracking, per diem and the welcome email. Evidence for the order and content of the setup steps.",
+  "overview": "The video shows an administrator configuring the Expense Agent in Business Central through a configuration wizard, started from the role center avatar. It goes through each wizard step in order, from how external users submit expenses to activation.\n\nSetup covers access and submission by web app or email, expense users and a default approver, accounting defaults (number series, payment methods, posting groups, categories), management defaults and rules, controls, and email notifications. It ends with mileage, project tracking and per diem configuration, and a welcome email sent to the selected expense users.",
+  "key_points": [
+    "The Expense Agent is activated from the role center avatar and set up through a configuration wizard.",
+    "Access and submission step: external expense users can submit by web app or email; the M365 email account is typically a shared mailbox.",
+    "Expense users can be added individually, as all employees, or imported from the M365 graph. One default approver can approve all expenses; more granular approvers are set up on a different page.",
+    "Accounting defaults (number series, payment methods, posting groups, expense categories) have a preview of the records to be inserted. If a number series already exists, insertion is skipped.",
+    "Management defaults and rules are auto-selected when the system detects no existing data; auto-selection can be disabled.",
+    "Controls include enforcing management rules, showing an anti-corruption attestation, and requiring receipt number or merchant name.",
+    "Configure the email account for notifications before the wizard can auto-populate it. Approval update notifications to end users are optional."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "60782bd6d277f4dd4e6e4da67878abc693cabf2a56de5e592faa281171b75fbf",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0445424
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "rSGCNMIBcpc",
+  "item_id": "video/yt-microsoft/rSGCNMIBcpc",
+  "summary": "Expense Agent approvals in Business Central (2026 release wave 1): default and per-user approvers, the Can Approve flag, email notification on submission, send back with comments, resubmission, approver licensing, and reminders for unsubmitted reports. Policies and enhanced approvals are announced only.",
+  "overview": "The video walks through the approval process of the Expense Agent. An administrator can set an optional default approver for the whole company and override it for individual users. Only users with the Can Approve flag can be chosen as approvers.\n\nThe demo then follows an expense report: a user submits it in the web app, the approver gets an email with a link, reviews the report and zooms into the receipts, and either approves it or sends it back with comments. Approved reports continue to posting and reimbursement. The video also covers resubmission after revision, reminders for reports that are ready but not yet submitted, and teases later work on policies and further approval improvements.",
+  "key_points": [
+    "A default approver can be set when turning on the Expense Agent or later in its settings. It is optional and can be overridden per user.",
+    "Only users with the Can Approve flag enabled can be assigned as approvers for others.",
+    "Submitting a report in the web app emails the approver, with the submitter in CC. This requires an email address configured in Business Central.",
+    "The approver reviews the report details, can zoom into attached receipts, and then approves or sends it back with comments.",
+    "An approver must be a licensed Business Central user. Submitters do not need to be licensed users.",
+    "After a send-back, the user revises the report and resubmits it for review.",
+    "An administrator can configure reminders, with customizable frequency, for users who have reports ready but not submitted."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "f68fe9a665c18f997982bf0138fef9f036c94b13e06fb1b054642217c688b55e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.043406400000000005
+  }
+}

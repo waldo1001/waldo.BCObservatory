@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9332bb481c053dc3a279480beb2db72b57c64aaf",
       "words": 756,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:46.836Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011108
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:46.840Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:46.841Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:46.841Z",
+      "page": false
     }
   },
   "input_hash": "9332bb481c053dc3a279480beb2db72b57c64aaf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9332bb481c053dc3a279480beb2db72b57c64aaf"
+  "output_hash": "24d951416e0d5fdc6ba7ab25a51e29f34fc8c23084789c52166eb7a131965911"
 }

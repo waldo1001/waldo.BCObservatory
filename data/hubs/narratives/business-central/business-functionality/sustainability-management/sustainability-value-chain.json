@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
+  "input_hash": "2a236e12ae4675c0feafed9e521003f110e94c1f62271c4f9cbc8ffed706b1d7",
+  "summary": "Sustainability Value Chain in Business Central covers tracking Scope 3 and embedded CO2e emissions through purchasing, transfers, production, assembly, sales, service, item journals and fixed assets. It answers questions about setup, the Carbon Tracking Method (average or specific), lot tracking, default emission data and how sustainability value entries are created.",
+  "overview": "The value chain features let you record and calculate emissions (CO2, CH4, N2O, expressed as CO2e) for items, resources, work and machine centers, and fixed assets, then follow that carbon through each business process. Emissions come in from vendor and purchase data and are carried through transfers, production, assembly, service and sales, so a manufactured or sold item has an embedded carbon footprint.\n\nStart with the overview page for the concepts, then the setup page. Setup enables Value Chain Tracking, selects the Carbon Tracking Method (average or specific), enables emissions on master data and defines emission fees with carbon equivalent factors. The default data page helps you fill in default sustainability accounts and emissions on master data. After that, use the process pages that match your scenario: purchasing, transfers, production, assembly orders, item journals, sales, Service Management and fixed assets.\n\nThe process pages follow a similar pattern. You record emissions on documents or journals, then post them, which creates sustainability value entries (fixed assets also mention sustainability ledger entries). Item journals also provide an Adjust Emissions batch job that recalculates average CO2e per unit from posted entries.",
+  "key_points": [
+    "The overview covers Scope 3 emissions tracking through vendor data and embedded carbon across purchase, transfer, production, assembly and sales. The overview page is tagged 2025 release wave 1.",
+    "Setup: enable Value Chain Tracking, choose the Carbon Tracking Method (Average or Specific), and define Emission Fees with Carbon Equivalent Factors for all greenhouse gases.",
+    "Purchasing, sales and transfers support average and specific carbon tracking, and those pages also cover lot tracking.",
+    "Default data: set a Default Sustainability Account and default CO2, CH4 and N2O emissions for G/L accounts, items, resources, work centers, machine centers and fixed assets. There is also a Calculate CO2e action and default setup on Item Category.",
+    "Production uses item, work center and machine center emissions, production BOMs and routings to calculate CO2e per unit. Assembly orders record item and resource emissions and support emission recalculation.",
+    "Item journals and the item reclassification journal create sustainability value entries. The Adjust Emissions batch job recalculates average CO2e per unit from posted entries.",
+    "Purchasing uses the Use Emissions In Purchase Documents setting. Sales offers optional ESG Sales layouts that show the embedded carbon footprint, and also covers fixed asset sales.",
+    "Service Management tracks expected and actual emissions for items and resources on service lines and supports undoing service postings. Fixed asset emissions are tracked through acquisition, reclassification and disposal, with sustainability ledger entries."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:07.147Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.047339000000000006
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T14:23:56.689Z",
+    "verdict": "fix",
+    "issues": [
+      "The summary and key point 3 list lot tracking as a third Carbon Tracking Method. The setup page names only two methods, Average and Specific. Lot tracking appears as a separate feature on the purchasing, sales, transfers and overview pages, so I reworded it that way.",
+      "The overview says every process page enables tracking 'for that area' and posts to sustainability value entries. That goes too far: tracking is enabled in setup, and the fixed asset page talks about sustainability ledger entries. I softened the sentence.",
+      "Key point 1 attaches '2025 release wave 1' to the overview. That matches the overview page's version field, so I kept it and made the wording clearer."
+    ],
+    "input_hash": "2a236e12ae4675c0feafed9e521003f110e94c1f62271c4f9cbc8ffed706b1d7",
+    "cost_usd": 0.1258472
+  }
+}

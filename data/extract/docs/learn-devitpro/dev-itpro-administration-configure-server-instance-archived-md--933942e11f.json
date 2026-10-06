@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-server-instance-archived.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance-archived",
+  "title": "Configuring Business Central Server for outdated versions",
+  "blob": "c0446c075ceca7ec7d3fe8593570fd9df58241fa",
+  "summary": "Configuring Business Central Server instance settings in outdated versions (2022 release wave 1 and earlier). This page documents how to configure the server after installation using the Admin Tool, PowerShell cmdlets, or by directly editing the CustomSettings.config file. Reference of Business Central Server instance settings for outdated versions (v21 and earlier), including Management Services, Azure Key Vault, Microsoft Entra ID, Data Encryption, Task Scheduler, Asynchronous Processing, Reports, Query, Extensions, Development, Compatibility, Upgrade, and External Events configurations.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "server configuration",
+    "customsettings.config",
+    "dynamics updatable settings",
+    "admin tool",
+    "powershell",
+    "instance settings",
+    "key vault",
+    "entra id",
+    "task scheduler",
+    "data encryption"
+  ],
+  "objects": [],
+  "features": [
+    "General settings (telemetry, authentication, language, caching)",
+    "Database settings (connection, performance optimization, query hints)",
+    "Client services settings (file uploads, compression, timeouts)",
+    "SOAP services settings (SSL, message size, concurrency)",
+    "OData services settings (paging, endpoints, request queues)",
+    "NAS services settings (startup configuration, debugging)",
+    "Management Services",
+    "Azure Key Vault",
+    "Microsoft Entra ID authentication",
+    "Data Encryption",
+    "Task Scheduler",
+    "Asynchronous Processing"
+  ],
+  "versions": [
+    "2022 release wave 1 (version 20) and earlier",
+    "version 21 and earlier",
+    "version 22",
+    "2019 release wave 2",
+    "2020 release wave 2",
+    "2021 release wave 1"
+  ],
+  "parts": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.056098,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011108,
+      "pages_in_call": 5
+    }
+  ]
+}

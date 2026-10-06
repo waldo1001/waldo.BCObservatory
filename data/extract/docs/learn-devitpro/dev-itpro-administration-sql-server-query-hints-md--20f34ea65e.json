@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/sql-server-query-hints.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/sql-server-query-hints",
+  "title": "Configuring Query Hints for Optimizing SQL Server Performance",
+  "blob": "afa133d9980b81ec6edcfbe23f7ea4e8426fb7bb",
+  "summary": "Optimize SQL Server performance in Business Central by configuring query hints such as FORCE ORDER and LOOP JOIN through server settings.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sql optimization",
+    "query hints",
+    "performance tuning",
+    "server configuration"
+  ],
+  "objects": [],
+  "features": [
+    "FORCE ORDER hint",
+    "LOOP JOIN hint",
+    "OPTIMIZE FOR UNKNOWN hint",
+    "DisableQueryHintOptimizeForUnknown"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

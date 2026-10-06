@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c75cb8e1ad18a07e055bbc726827d8f6a4b3991f797a51fc73305c27e2f9b775
@@ -32,8 +32,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/auditing-overview
-    title: Auditing overview
-    date: "2024-10-21"
+    title: Business Central Auditing Overview
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null

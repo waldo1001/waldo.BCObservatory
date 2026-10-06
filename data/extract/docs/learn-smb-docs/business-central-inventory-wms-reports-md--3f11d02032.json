@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-WMS-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-WMS-reports",
+  "title": "Inventory and Warehouse Reports and Analytics",
+  "blob": "2b0517831a558c80275af2a611bb62ff3f8df788",
+  "summary": "Inventory and warehouse reporting provides insights and statistics on current and past inventory and warehouse activities, including barcode printing and analytical tasks for inventory professionals.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "inventory reporting",
+    "warehouse analytics",
+    "barcode printing",
+    "1d barcode",
+    "2d barcode",
+    "item availability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Reference List"
+    },
+    {
+      "type": "page",
+      "name": "Item Reference Entries"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information List"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information List"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information Card"
+    }
+  ],
+  "features": [
+    "barcode printing",
+    "qr code printing",
+    "item gtin encoding",
+    "reference number encoding",
+    "lot number encoding",
+    "serial number encoding",
+    "label printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

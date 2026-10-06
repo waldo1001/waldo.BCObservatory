@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1307.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1307",
+  "title": "Standard Sales Credit Memo report",
+  "blob": "ff7524c14c6d3543c49aad7ac48f9946a6277c53",
+  "summary": "Standard Sales Credit Memo report generates a document for posted credit memos showing credited lines, VAT, and referenced invoice details for printing or email.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "credit memo",
+    "sales credit",
+    "posted document",
+    "vat breakdown",
+    "return"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Credit Memo"
+    }
+  ],
+  "features": [
+    "credit memo number filter",
+    "customer number filter",
+    "printed tracking filter",
+    "shipment visibility",
+    "assembly component details",
+    "zero quantity hiding",
+    "applies-to document reference",
+    "interaction logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

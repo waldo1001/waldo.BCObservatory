@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/value-chain-howto-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-service",
+  "title": "Sustainability value chain in Service Management",
+  "blob": "39804f7e86830bc17664da49f6610550c2f8a4cd",
+  "summary": "Service Management tracks CO2e for items and resources in service documents, calculates total emissions based on quantities, and creates sustainability value entries for posted service transactions.",
+  "systems": [
+    "sustainability",
+    "service",
+    "reporting"
+  ],
+  "topics": [
+    "service documents",
+    "emissions tracking",
+    "co2e calculation",
+    "service lines",
+    "sustainability accounts",
+    "greenhouse gas"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Quotes"
+    },
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Service Order Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoice Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memo Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Value Entries"
+    }
+  ],
+  "features": [
+    "CO2e calculation",
+    "Service line sustainability",
+    "Expected emissions",
+    "Actual emissions",
+    "Resource emissions",
+    "Undo service posting",
+    "Sustainability account assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006059,
+      "pages_in_call": 8
+    }
+  ]
+}

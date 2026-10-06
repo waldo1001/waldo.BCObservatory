@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-object-specifications-limitations",
   "published_at": "2026-09-22T11:26:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d",
       "words": 388,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:08:17.029Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006802
+    },
+    "summarized": {
+      "at": "2026-10-06T14:08:17.034Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:08:17.034Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:08:17.034Z",
+      "page": false
     }
   },
   "input_hash": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d"
+  "output_hash": "92a44160a80d353e28e105bfd1923e7980b999a71dae219a3c6c722c1823c5d2"
 }

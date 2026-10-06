@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6628.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6628",
+  "title": "Lot No Label Report in Business Central",
+  "blob": "87e5bc5c8404e52296f966f5d5950b86167cffad",
+  "summary": "Lot No Label report generates printable barcode and QR code labels for lot-tracked items, supporting traceability requirements and quality testing workflows in production and warehouse environments.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "label printing",
+    "lot tracking",
+    "barcodes",
+    "qr codes",
+    "traceability"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Lot No Label"
+    }
+  ],
+  "features": [
+    "lot number encoding",
+    "QR code generation",
+    "lot filtering",
+    "Word layout",
+    "batch production support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005587,
+      "pages_in_call": 8
+    }
+  ]
+}

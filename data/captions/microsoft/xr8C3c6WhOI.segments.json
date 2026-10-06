@@ -1,0 +1,113 @@
+{
+  "video_id": "xr8C3c6WhOI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.1,
+      "end": 25.6,
+      "text": "welcome to this business Central launch event video about what's new in Al go for GitHub on quality and testability my name is Freddy Christensen I'm a technical evangelist with Microsoft in Copenhagen and together with me I have my name is Sebastian and I'm a software engineer at Microsoft and I recently joined the team late December"
+    },
+    {
+      "t": 25.6,
+      "end": 46.3,
+      "text": "last year we are happy for that now in this Rel these we actually added support for page scripting tests so you might have seen that page scripting uh recording was introduced in business Central quite some time ago"
+    },
+    {
+      "t": 46.3,
+      "end": 66.5,
+      "text": "but half a year ago in version 2024 Wave 2 we shipped the BC replay npm module with that module it's possible to to run page scripting test in a workflow shortly after we released that in algo for GitHub and we actually"
+    },
+    {
+      "t": 66.5,
+      "end": 86.6,
+      "text": "demoed that at directions last year uh but it wasn't included in the first version so it's kind of like included in the version that we are presenting now we didn't include it in our launch event videos last time but let's demo how that actually works yeah I will demo how we can run page scripting tests"
+    },
+    {
+      "t": 86.6,
+      "end": 103.2,
+      "text": "in algo for GitHub so here I have a simple uh single project repository and I have a folder called recordings inside this folder I have placed free page scripting files"
+    },
+    {
+      "t": 103.2,
+      "end": 113.2,
+      "text": "generated uh using business Central using the page roting test functionality inside my uh project"
+    },
+    {
+      "t": 113.2,
+      "end": 134,
+      "text": "settings I have used a page rting test um setting to point to the recordings folder this will automatically pick up any recording uh inside this folder ending on a yml file type this is an array so you can point to several different folders"
+    },
+    {
+      "t": 134,
+      "end": 154.4,
+      "text": "if you have many um but we also support pattern matching if you give it an Asterix yml uh it will point to anything matching that pattern or you could point to a specific file say I only want to run this file I can point to this specific file only and the other two will be ignored"
+    },
+    {
+      "t": 154.4,
+      "end": 174.9,
+      "text": "so how does this look you already know about the test result visualizer that has existed for a while what is new is the page scripting test result visualizer as you can see it looks similar but it gives you a quick overview of all the tests uh and whether they passed or not"
+    },
+    {
+      "t": 174.9,
+      "end": 195.6,
+      "text": "in this case they all passed if there was a failure uh you can find more details by downloading the result artifact down here and looking at the extended locks which includes a video of the test which will show you what exactly went wrong"
+    },
+    {
+      "t": 195.6,
+      "end": 216,
+      "text": "I would like to present how we can include test apps during deployment we have two features we want to support number one is deploying test apps uh and number two is automatically running tests for this presentation we have implemented the first"
+    },
+    {
+      "t": 216,
+      "end": 226.7,
+      "text": "version um and all you have to do is prepare your online environment which should be a Sandbox environment and then enable this feature in Alco"
+    },
+    {
+      "t": 226.7,
+      "end": 240.8,
+      "text": "settings this is under the deploy to structure which you have used many times before uh for your deployment to environments on top of that uh we now also have the option to exclude"
+    },
+    {
+      "t": 240.8,
+      "end": 261,
+      "text": "apps by ID when you deploy so in case you want to test only a specific app you can out do that uh and let's run a demo showing how this works here I have a symbol repository uh a single project repository with two apps uh and two test apps"
+    },
+    {
+      "t": 261,
+      "end": 277.2,
+      "text": "what I want to do is deploy app one alongside the two test apps so app one app one. test and app one. performance test I want to exclude app 2 in my repository settings in GitHub Alo settings."
+    },
+    {
+      "t": 277.2,
+      "end": 297.2,
+      "text": "Json and I'll Define two new things in my deploy to structure I Define include test apps in sandbox environment as true and exclude app IDs which is an array and in here I put the ID of app 2 now when I run my uh"
+    },
+    {
+      "t": 297.2,
+      "end": 315.4,
+      "text": "publish to environment this will automatically deploy the test apps and exclude uh app 2 to show how this looks I will go to my environment and here I have my list of extensions we'll see here that app1 was deployed and app 1."
+    },
+    {
+      "t": 315.4,
+      "end": 335.4,
+      "text": "test was deployed however the performance test app was not deployed well that is intentional the performance test app depends on a test Library which is not available as an appsource app and that automatically gets picked up during deployment and excluded so if you depend on something that is start in appsource"
+    },
+    {
+      "t": 335.4,
+      "end": 355.7,
+      "text": "gallery it will not be included this also works if you have a custom deployment script if this setting is enabled then all your test apps will be passed to your deployment script and you simply have to handle dependency installation on your own thanks for watching this video and see you again next"
+    },
+    {
+      "t": 355.7,
+      "end": 360.9,
+      "text": "time thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 839
+}

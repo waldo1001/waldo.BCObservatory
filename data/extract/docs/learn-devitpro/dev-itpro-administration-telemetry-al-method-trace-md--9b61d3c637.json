@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-al-method-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace",
+  "title": "Analyzing Long Running AL Methods Telemetry",
+  "blob": "9dc39d0a8042905f2dcfcd62789aa433ce35f634",
+  "summary": "Analyze telemetry data about long-running AL methods to identify performance bottlenecks and understand how extensions contribute to execution time.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "al performance",
+    "telemetry",
+    "execution time",
+    "debugging"
+  ],
+  "objects": [],
+  "features": [
+    "AL Function Timing",
+    "Long-running method detection",
+    "Extension performance tracking",
+    "KQL analysis",
+    "Event ID RT0018"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "version 22.0",
+    "version 21.6",
+    "version 22.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

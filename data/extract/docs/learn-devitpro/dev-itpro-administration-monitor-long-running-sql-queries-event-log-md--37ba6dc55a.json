@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-long-running-sql-queries-event-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log",
+  "title": "Monitoring Long Running SQL Queries to the Event Log",
+  "blob": "de533db668f84153098ca6c30bd0f06d37f78c15",
+  "summary": "Monitor and analyze long-running SQL queries by configuring the SqlLongRunningThreshold setting on the Business Central server to define when queries are considered slow.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sql performance",
+    "telemetry",
+    "server configuration",
+    "query monitoring"
+  ],
+  "objects": [],
+  "features": [
+    "SqlLongRunningThreshold",
+    "Event Log",
+    "Application Insights",
+    "Set-NAVServerConfiguration cmdlet"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "video_id": "4HE3BBCcV84",
+  "item_id": "video/yt-microsoft/4HE3BBCcV84",
+  "title": "MCP Server and API Queries (2026 release wave 1)",
+  "duration_s": 340,
+  "systems": [
+    "copilot",
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "mcp server",
+    "api queries",
+    "power bi apps",
+    "external agents",
+    "analytics apis",
+    "agent development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to API queries and MCP server",
+      "t_start": 0,
+      "t_end": 21.8
+    },
+    {
+      "title": "Business value of API queries for external agents",
+      "t_start": 21.8,
+      "t_end": 69.8
+    },
+    {
+      "title": "Release wave 1 updates and API queries availability",
+      "t_start": 69.8,
+      "t_end": 97.1
+    },
+    {
+      "title": "Demo: enabling API queries in MCP server configuration",
+      "t_start": 97.1,
+      "t_end": 172.6
+    },
+    {
+      "title": "Documentation and Power BI app analytics reference",
+      "t_start": 172.6,
+      "t_end": 245.6
+    },
+    {
+      "title": "API use cases across functional areas",
+      "t_start": 245.6,
+      "t_end": 272.2
+    },
+    {
+      "title": "Resources and next steps",
+      "t_start": 272.2,
+      "t_end": 340
+    }
+  ],
+  "features": [
+    {
+      "name": "API queries in MCP server",
+      "description": "Support for API queries in MCP server, which serve as the foundation for Power BI apps in Business Central. Now available for external agents to include aggregations and analytics.",
+      "status": "ga",
+      "status_evidence_t": 97.1,
+      "status_evidence_quote": "API queries are the foundation for our Power BI apps, and this is now available in Business Central uh MCP server",
+      "status_evidence_verified": true,
+      "t_start": 5.5,
+      "t_end": 153.7,
+      "is_demoed": true,
+      "caveats": [
+        "APIs available in version 22.28.2 and later",
+        "Only the highest numbered API version should be selected for use"
+      ],
+      "tags": [
+        "mcp server",
+        "api queries",
+        "analytics",
+        "power bi"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analytics API reference documentation",
+      "description": "Documentation for analytics APIs including how they are used in Power BI apps, with semantic models and calculations documented. Includes guidance on use cases across functional areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.6,
+      "t_end": 261.3,
+      "is_demoed": false,
+      "caveats": [
+        "Documentation covers use cases across multiple functional areas including manufacturing, sales, and finance"
+      ],
+      "tags": [
+        "documentation",
+        "api reference",
+        "analytics",
+        "power bi"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP server configuration for object type query",
+      "description": "MCP server configuration now supports selecting query as object type, with access to all analytics API queries grouped under the API group analytics. Includes GL account category, finance, and inventory related APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 97.1,
+      "t_end": 153.7,
+      "is_demoed": true,
+      "caveats": [
+        "API versions shown include version 0.5 and version 1 for backwards compatibility",
+        "Users should select the highest numbered API version"
+      ],
+      "tags": [
+        "mcp server",
+        "configuration",
+        "query object type"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power BI apps foundation with API queries",
+      "description": "Power BI apps for most functional areas in Business Central are built on API queries. These APIs are now available for external agents to enable aggregations and analytics in agent development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.8,
+      "t_end": 59.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "analytics",
+        "api queries"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "GL account category",
+      "t": 127.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.5,
+      "text": "We have two new things. One is support for API queries, that's this video, and then we have opened up for all Microsoft's APIs",
+      "why_it_matters": "Establishes the two main features being announced in the release wave 1 for MCP server.",
+      "check": "exact"
+    },
+    {
+      "t": 36.7,
+      "text": "We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh",
+      "why_it_matters": "Explains the strategic foundation of Power BI apps and positions API queries as core infrastructure now available to developers.",
+      "check": "exact"
+    },
+    {
+      "t": 69.8,
+      "text": "In the release wave one for Business Central here in 2026, uh highlighted in italic, you can see what we already shipped in April,",
+      "why_it_matters": "Specifies the release wave, timing (April), and version number (22.28.2) for the new API queries feature.",
+      "check": "exact"
+    },
+    {
+      "t": 110,
+      "text": "I have um here a MCP server configuration, and if I go down here under object type and choose query, when I then choose",
+      "why_it_matters": "Describes the configuration steps to enable API queries in MCP server, showing the user interface flow.",
+      "check": "exact"
+    },
+    {
+      "t": 139.6,
+      "text": "These are all grouped under the API group analytics. And even though they show version 0.5 and version 1 is just for backwards compatibility,",
+      "why_it_matters": "Clarifies API versioning strategy and recommends selecting the highest version number for best results.",
+      "check": "exact"
+    },
+    {
+      "t": 225.5,
+      "text": "you can probably even use that reference as instructions or knowledge to your agents. Maybe you want to point to that in Co-pilot Studio",
+      "why_it_matters": "Explains how developers can leverage Power BI documentation as training material for their agents to improve agent understanding of analytics.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028034999999999997
+    }
+  ]
+}

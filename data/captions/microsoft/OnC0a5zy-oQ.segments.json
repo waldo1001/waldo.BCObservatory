@@ -1,0 +1,51 @@
+{
+  "video_id": "OnC0a5zy-oQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.2,
+      "end": 18,
+      "text": "Hello everyone. If you're working with feature management in Business Central, we have got some exciting news for you. We have just added automation API support to make handling features easier and more efficient."
+    },
+    {
+      "t": 18,
+      "end": 28.1,
+      "text": "Here's what you can do. You can invoke a get request to get a list of all the available features and their current status."
+    },
+    {
+      "t": 28.1,
+      "end": 38.4,
+      "text": "To activate a feature, we can start for example with the first available feature advanced tell me and we can activate this feature"
+    },
+    {
+      "t": 38.4,
+      "end": 52.7,
+      "text": "by invoking the activate bound action. Once we invoke it, you can issue again another get request to verify that the feature has been enabled and activated for all users."
+    },
+    {
+      "t": 52.7,
+      "end": 68.2,
+      "text": "You could also deactivate the feature by invoking the deactivate bound action. And once again, if you invoke another get request, you will see that the feature now is deactivated"
+    },
+    {
+      "t": 68.2,
+      "end": 78,
+      "text": "in feature management. It's fast, it's clean, it saves you valuable time. Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.19,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.2,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 157
+}

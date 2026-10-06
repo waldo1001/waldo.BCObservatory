@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities",
+  "input_hash": "b7f1ebc5e6efd849664ee010bc15ad0b30c9ab27aa503afa91956f2223d83b38",
+  "summary": "Accessing device capabilities in AL covers how AL code reaches device features in Business Central: GPS location and the camera. It answers questions about which codeunit or DotNet type to use online versus on-premises, and which methods and triggers to call.",
+  "overview": "This section explains how AL extensions use hardware features of the device running the client. It has two pages, one for location and one for the camera. Each page follows the same split: a built-in codeunit for online deployments and DotNet interop for on-premises deployments.\n\nThe location page covers reading device GPS coordinates, for scenarios such as route calculation and map display. The camera page covers capturing a picture from the web client and from tablet and phone clients. Both pages describe an availability check and an asynchronous request pattern with a trigger that fires when the result arrives.\n\nStart with whichever capability you need. The two pages are independent, and the patterns are similar, so reading one makes the other easier to follow.",
+  "key_points": [
+    "Location: use the Geolocation codeunit online, or the LocationProvider DotNet type on-premises.",
+    "Location is requested with RequestLocationAsync, and results come through the LocationChanged trigger.",
+    "Location options include EnableHighAccuracy and Timeout, and IsAvailable checks whether the feature can be used.",
+    "Typical location uses are route calculation and map display.",
+    "Camera: use the Camera codeunit online, or DotNet interop with Microsoft.Dynamics.Nav.ClientExtensions on-premises.",
+    "The camera captures pictures from the web client and from tablet and phone clients.",
+    "Call RequestPictureAsync to take a picture, configure it with CameraOptions, and handle the picture file in the PictureAvailable trigger.",
+    "Check IsAvailable before using the camera."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T14:23:25.182Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.037171
+  }
+}

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/expense-management-preview/work-with-expenses-in-business-central
 type: topic
 title: Work with expenses in Business Central
-summary: "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting. It answers how-to questions about each step from entry to the general ledger."
+summary: "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2eb697dda51c98749a9a6312bf334e91ac1360ababe5bb7236de5afaa504374e
+  input_hash: a0e57150338a859582b6c9756c6dd474fe92ff9153deb4e0697fc95af3592dc7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses
@@ -124,28 +124,27 @@ narrative: generated
 
 # Work with expenses in Business Central
 
-> Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting. It answers how-to questions about each step from entry to the general ledger.
+> Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal.
 
 Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · **unreviewed** (machine-generated narrative)
 
 ## Overview
 
-This section walks through the expense process in order. Employees create individual expenses with category, date, receipt, itemizations, participants, mileage or per diem details. They then collect those expenses on an expense report, review rule violations, optionally link a travel request, and release the report for approval.
+This section walks through the expense process in the order it is used. An employee creates individual expenses (with receipts, itemizations, participants, mileage or per diem), optionally records a travel request for approval before travelling, then collects expenses into an expense report and submits it.
 
-Travel requests record planned travel and costs for review before expenses are incurred, and can be linked to an expense report so planned and actual spending can be compared. Managers and accountants then approve the report against policy and VAT reclaim rules, with separate workflows for approval and VAT verification. Finally, approved reports are posted to the general ledger.
+After submission, managers and accountants review the report against policy rules and VAT reclaim rules and approve it. The approved report is then posted to the general ledger after a posting preview and VAT reclaim check. The last step is to reimburse the employee through the Payment Journal.
 
-Start with the page on creating and managing expenses if you are an employee, or with the review and approval page if you are a manager or accountant. The posting page is the place for accounting questions about the resulting ledger entries.
+Start with the page on creating and managing expenses if you are setting up the employee side. Start with the review and approve page or the posting page if you work in finance. The travel request page covers planning and comparing planned against actual spending.
 
 ## Key points
 
-- Expenses have a card with category and date, receipt attachment and preview, itemizations with subcategories, and participants for business meals.
-- Mileage expenses use vehicle types, and per diem is calculated by location.
+- Expenses are created on an expense card with category, date, receipt attachment and preview, and itemizations with subcategories.
+- Special expense types include business meals with participants, mileage with vehicle types, and per diem calculated by location.
 - Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.
-- Travel requests record planned travel and costs, track status, include travel policy acknowledgment and international travel, and are described for version 29.
-- Travel requests can be linked to expense reports to compare planned and actual spending.
-- Approvers review policy compliance, rule violations, receipts and report statistics; VAT reclaim review and VAT specification approval are separate workflows.
-- Posting previews entries first and requires verifying VAT reclaim status.
-- Posted results include expense ledger entries, employee ledger entries (reimbursement), general ledger entries and project ledger entries.
+- Travel requests record planned travel and costs for review before expenses are incurred, with policy acknowledgment, international travel and spending comparison; the summary cites version 29.
+- Reviewers handle approval and policy rule violations, plus a separate VAT reclaim review and VAT specification approval, with access to receipts and report statistics.
+- Posting previews entries and verifies VAT reclaim status, then creates expense, employee, general ledger and project ledger entries.
+- Reimbursement is made through the Payment Journal against employee accounts, with foreign currency, withholding tax, payment reconciliation and reimbursement notifications supported.
 
 ## Learn pages
 

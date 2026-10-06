@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000788.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788",
+  "title": "Prod. Order - Shortage List (report)",
+  "blob": "fe58ee158df238bc686259aa7307681aa2148967",
+  "summary": "Prod. Order - Shortage List report lists missing component quantities per production order and shows how inventory is expected to develop through a specified date.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "production",
+    "shortage",
+    "shortage-list",
+    "inventory",
+    "manufacturing",
+    "planning"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Prod. Order - Shortage List"
+    }
+  ],
+  "features": [
+    "Filter by production order status",
+    "Filter by production order number",
+    "Date filter for cutoff",
+    "Scheduled receipts calculation",
+    "Purchase order comparison",
+    "Inventory projection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007242,
+      "pages_in_call": 8
+    }
+  ]
+}

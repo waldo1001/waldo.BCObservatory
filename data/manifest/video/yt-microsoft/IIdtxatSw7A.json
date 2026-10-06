@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.",
   "url": "https://www.youtube.com/watch?v=IIdtxatSw7A",
-  "published_at": null,
+  "published_at": "2025-08-27T14:00:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:09:40.418Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2911
+    },
+    "captioned": {
+      "at": "2026-10-06T14:10:06.007Z",
+      "path": "data/captions/microsoft/IIdtxatSw7A.vtt",
+      "vtt_sha256": "804d127a83869df991c38d944802750fbeae98a546e834ac8b1b972fd0b914c9",
+      "segments": 204,
+      "words": 10501,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 195,
     "duration_s": 2911,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "804d127a83869df991c38d944802750fbeae98a546e834ac8b1b972fd0b914c9"
 }

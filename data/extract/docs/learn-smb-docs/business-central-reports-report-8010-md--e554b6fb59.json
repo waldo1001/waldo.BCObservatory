@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-8010.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-8010",
+  "title": "Contract Sales Order Conf. report",
+  "blob": "d1ea6e03556a493a082037b7e0e8a6a05c99bb6a",
+  "summary": "Contract Sales Order Conf. report extends order confirmation with subscription billing information, separating recurring service commitments from one-time sales amounts with period-grouped totals.",
+  "systems": [
+    "sales",
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "sales order",
+    "order confirmation",
+    "subscription billing",
+    "service commitment",
+    "recurring charges",
+    "report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Sales Order Conf."
+    },
+    {
+      "type": "report",
+      "name": "Sales - Order Confirmation"
+    }
+  ],
+  "features": [
+    "service commitment section",
+    "recurring charges breakdown",
+    "billing period grouping",
+    "excluded from subtotal",
+    "excluded from VAT calculation",
+    "one-time sales separation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

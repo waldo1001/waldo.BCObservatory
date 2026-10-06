@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/processing-usage-data/extend-contract.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/extend-contract",
+  "title": "Extend contract",
+  "blob": "0378b2821160adff19d610c0d3e29178af06f63b",
+  "summary": "Extend a contract to add new subscription lines when processing usage-based billing or recurring billing, particularly when imported data reveals missing subscriptions or references.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "usage-based billing",
+    "contract extension",
+    "subscription management",
+    "vendor subscriptions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extend Contract"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Supp. Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Imports"
+    }
+  ],
+  "features": [
+    "contract extension",
+    "subscription line creation",
+    "vendor subscriptions",
+    "product references"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007413,
+      "pages_in_call": 8
+    }
+  ]
+}

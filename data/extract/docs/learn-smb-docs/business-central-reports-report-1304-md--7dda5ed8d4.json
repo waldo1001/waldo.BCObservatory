@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1304.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1304",
+  "title": "Standard Sales - Quote report",
+  "blob": "a5d4be682a20522499df4dd0ffa703e72b914d12",
+  "summary": "Standard Sales Quote report creates a customer-facing quote document with pricing, discounts, VAT, and optional quote archiving and marketing interaction logging.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "sales quote",
+    "customer quote",
+    "pricing",
+    "validity date",
+    "marketing interaction"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Quote"
+    }
+  ],
+  "features": [
+    "quote number filter",
+    "customer number filter",
+    "printed tracking filter",
+    "quote archiving",
+    "marketing interaction logging",
+    "VAT specifications",
+    "email body layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

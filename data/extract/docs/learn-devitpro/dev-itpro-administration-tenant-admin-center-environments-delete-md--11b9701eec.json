@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete",
+  "title": "Delete and recover environments",
+  "blob": "4c8360c9affbc0127156b04f98237015cd564e91",
+  "summary": "Deleting an environment removes it to users but keeps it as soft-deleted for 14 days with recovery capability. After 14 days, hard deletion occurs and the environment is permanently deleted. Use this when removing sandbox or unused environments.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environments",
+    "deletion",
+    "recovery",
+    "soft delete",
+    "hard delete",
+    "tenant management"
+  ],
+  "objects": [],
+  "features": [
+    "Soft delete with 14-day retention",
+    "Environment recovery",
+    "Auto-renaming on deletion",
+    "Update postponement during recovery",
+    "Environment quota management",
+    "Power Platform unlinking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008564,
+      "pages_in_call": 3
+    }
+  ]
+}

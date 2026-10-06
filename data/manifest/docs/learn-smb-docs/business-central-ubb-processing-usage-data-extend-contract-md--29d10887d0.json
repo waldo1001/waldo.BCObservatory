@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/extend-contract",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0378b2821160adff19d610c0d3e29178af06f63b",
       "words": 296,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:38.443Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007413
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:38.448Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:38.448Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:38.448Z",
+      "page": false
     }
   },
   "input_hash": "0378b2821160adff19d610c0d3e29178af06f63b",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0378b2821160adff19d610c0d3e29178af06f63b"
+  "output_hash": "10fc0e32727480a829fbb4929900c3a3db0720cb3d383527204a59622b173bf9"
 }

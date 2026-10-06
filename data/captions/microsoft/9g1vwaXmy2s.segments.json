@@ -1,0 +1,96 @@
+{
+  "video_id": "9g1vwaXmy2s",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 19.9,
+      "text": "Hi, my name is Eusen, the developer behind the new financial report scheduling feature that's coming to Business Central. This feature will let you send financial reports automatically on a recurring schedule."
+    },
+    {
+      "t": 19.9,
+      "end": 26.2,
+      "text": "And in this video, I'll be giving a quick demo of how this works."
+    },
+    {
+      "t": 26.2,
+      "end": 35.2,
+      "text": "Let's start by going to financial reports and have a look at the cash flow report."
+    },
+    {
+      "t": 39.8,
+      "end": 54,
+      "text": "Under definitions, you'll find a new schedules action. This will take us to the new financial report schedules page where you'll find all that's required to start sending out financial reports."
+    },
+    {
+      "t": 54,
+      "end": 66.2,
+      "text": "Here I have created a setup that will send out the cash flow report on a monthly basis. Let's go through the basics"
+    },
+    {
+      "t": 66.2,
+      "end": 77.8,
+      "text": "by selecting export to Excel and export to PDF. The report will be sent to my report inbox in both of these formats."
+    },
+    {
+      "t": 77.8,
+      "end": 87.3,
+      "text": "By selecting send email as well, the report will also be emailed to my nominated recipients."
+    },
+    {
+      "t": 87.4,
+      "end": 101.3,
+      "text": "The next run date time field lets me select when the report will be first sent and the recurrence run date formula will determine the cadence following that."
+    },
+    {
+      "t": 101.3,
+      "end": 108.4,
+      "text": "Finally, I have selected myself as the sole recipient of this report."
+    },
+    {
+      "t": 108.4,
+      "end": 123,
+      "text": "So what does this look like when the report is sent? This will be the email you receive. I have received the report in both formats which I have selected."
+    },
+    {
+      "t": 123,
+      "end": 135.8,
+      "text": "Back in business central I would have also received the reports in my report inbox which we can find by using the logs action."
+    },
+    {
+      "t": 144.2,
+      "end": 155.8,
+      "text": "Additionally, you can set up reporting options and filters that are specific to each schedule using custom filters."
+    },
+    {
+      "t": 155.8,
+      "end": 169,
+      "text": "This will open the familiar report request page. Here I will select a different negative amount format for this financial report schedule."
+    },
+    {
+      "t": 173.9,
+      "end": 187.9,
+      "text": "Similarly, if you want to select a date filter that's different to the default date filter on the financial report, you can do so using the start and end date filter formulas."
+    },
+    {
+      "t": 187.9,
+      "end": 199,
+      "text": "And that's all for this video. I hope you go and give financial report scheduling a try when it releases in the near future."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 345
+}

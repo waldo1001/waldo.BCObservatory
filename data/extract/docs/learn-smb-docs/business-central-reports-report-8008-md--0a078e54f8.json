@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-8008.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-8008",
+  "title": "Contract Standard Sales Inv. report",
+  "blob": "f605447300c40a78cce4590255877ef7ab9c4e3c",
+  "summary": "Contract Standard Sales Inv. report extends sales invoices with subscription billing breakdown per contract line, showing contract details, billing period, quantity, pricing, and ledger entry grouping.",
+  "systems": [
+    "sales",
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "sales invoice",
+    "subscription billing",
+    "contract",
+    "recurring charges",
+    "billing period",
+    "report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Standard Sales Inv."
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales - Invoice"
+    }
+  ],
+  "features": [
+    "subscription billing breakdown",
+    "contract line details",
+    "billing start and end date",
+    "days billed",
+    "service description",
+    "job ledger entries",
+    "document grouping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003919,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "How to Access All Features in Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=7muCHEF593Q",
-  "published_at": null,
+  "published_at": "2025-05-22T16:08:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:14:57.765Z",
+      "captions": "auto:en-orig",
+      "duration_s": 148
+    },
+    "captioned": {
+      "at": "2026-10-06T14:15:19.414Z",
+      "path": "data/captions/microsoft/7muCHEF593Q.vtt",
+      "vtt_sha256": "538c2dceef7dc883f7f74ea8d0aabfc3898b08cb822ffd1549fdbb9923001c32",
+      "segments": 12,
+      "words": 346,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 215,
-    "duration_s": 149,
-    "via": "reconcile"
-  }
+    "duration_s": 148,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "538c2dceef7dc883f7f74ea8d0aabfc3898b08cb822ffd1549fdbb9923001c32"
 }

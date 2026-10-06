@@ -1,0 +1,63 @@
+{
+  "video_id": "NPhOSQTheXw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.2,
+      "end": 15.6,
+      "text": "This video shows how to set up sales tax so you can be sure you're calculating taxes correctly on transactions. We'll see how to set up a tax group to assign to items that you buy and sell to indicate that you or your customer pay sales tax on the"
+    },
+    {
+      "t": 15.6,
+      "end": 28.7,
+      "text": "items. You'll learn how to set up tax area codes that calculate sales tax on sales and purchase documents based on a customer or vendor and how to apply tax area codes to customers and vendors manually."
+    },
+    {
+      "t": 28.7,
+      "end": 39,
+      "text": "These processes require general ledger accounts for tracking taxes on receivables and payables. Those accounts are ready for us on the Ktoso USA data set."
+    },
+    {
+      "t": 39,
+      "end": 49.8,
+      "text": "We'll start by finding the assisted setup guide on the business manager role center. The guide creates a tax group called taxable. We'll assign this group to the taxable items that we buy."
+    },
+    {
+      "t": 49.8,
+      "end": 62.6,
+      "text": "Next, we'll specify the general ledger accounts we'll use to track the tax code for sales and the tax we're paying for items we purchase. Sales taxes are often a combination of city, county, and state."
+    },
+    {
+      "t": 62.6,
+      "end": 77,
+      "text": "We'll use the city of Fargo with a rate of 2% in Cass County and a state tax for North Dakota at 5%. Business Central suggests the name Fargo ND and we can change it as long as we keep it unique."
+    },
+    {
+      "t": 77,
+      "end": 88.4,
+      "text": "We're almost there. We need to apply the tax area code to our customers and vendors. The last step is to make sure that this tax rate applies only to the city of Fargo."
+    },
+    {
+      "t": 88.4,
+      "end": 104.9,
+      "text": "In the filter field, we'll choose city, then fargo. We'll do that for customers and vendors. That's all there is to it. Now, when we create sales or purchasing documents, Business Central calculate sales tax based on the tax area codes that we just assigned to customers and vendors."
+    },
+    {
+      "t": 104.9,
+      "end": 115.8,
+      "text": "The setup sales tax assisted setup is a great way to quickly get started. But what if we need to change something? For example, if we add new customers or buy from new vendors."
+    },
+    {
+      "t": 115.8,
+      "end": 128.3,
+      "text": "What if a jurisdiction's boundaries change? Go to the customers or vendors list. Now, choose the tax area code and criteria to specify the businesses to apply it to."
+    },
+    {
+      "t": 128.3,
+      "end": 138,
+      "text": "Thanks for watching this video about how to automate sales tax calculations for sales and purchase documents."
+    }
+  ],
+  "markers": [],
+  "word_count": 386
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "Fz8NLByllRc",
+  "item_id": "video/yt-microsoft/Fz8NLByllRc",
+  "summary": "Mileage expenses in the Business Central Expense Agent (2026 release wave 1): employees pick start and end points on a map, choose among up to three routes, and the amount is calculated from admin-set mileage rates. Also covers the admin setup for rates, units and shortest-route enforcement.",
+  "overview": "The video demonstrates the mileage feature added to the Expense Agent. An employee creates a mileage expense by setting a starting and ending point on a map, then selects one of up to three suggested routes. The distance and the expense amount are calculated automatically from the mileage rate the admin configured. A round trip toggle doubles the distance and amount.\n\nThe second half covers the admin side. Administrators set the mileage rate per unit and the default distance unit (miles or kilometers). On the Expense Agent Setup page, a toggle can enforce the shortest route so users cannot pick between routes. The expense agent then processes the mileage expense and tries to match it to existing expense reports.",
+  "key_points": [
+    "Employees create a mileage expense in the expense agent by selecting starting and ending points on a map.",
+    "Users can choose from up to three routes between the two points and pick the one they drove.",
+    "The expense amount is calculated automatically from the distance and the mileage rates set by the admin.",
+    "A round trip toggle doubles the distance and the amount.",
+    "Admins configure the mileage rate per unit and the default unit of distance; the default is miles, and kilometers can be selected.",
+    "A toggle on the Expense Agent Setup page enforces the shortest route and prevents users from choosing between multiple routes.",
+    "The expense agent processes the mileage expense and attempts to match and add it to existing expense reports."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "5ff66c343cb8c0fce1a38e43073537387bf904d45cf1ac6f3db11d6023c496ae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0400664
+  }
+}

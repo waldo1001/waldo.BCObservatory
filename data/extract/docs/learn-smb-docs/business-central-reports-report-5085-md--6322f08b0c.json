@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5085.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5085",
+  "title": "Contact Cover Sheet report",
+  "blob": "8d8f8e89a1e09a2a8472ba964815b294912d2c45",
+  "summary": "The Contact Cover Sheet report prints a cover page showing contact and company addresses, VAT registration, and bank details, with optional interaction logging.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "customer-communication",
+    "contact-management",
+    "correspondence",
+    "interaction-tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contact Cover Sheet"
+    }
+  ],
+  "features": [
+    "contact address printing",
+    "company address display",
+    "VAT registration",
+    "giro number",
+    "bank details",
+    "interaction logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

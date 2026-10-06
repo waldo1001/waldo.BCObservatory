@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-performance-toolkit-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-performance-toolkit-trace",
+  "title": "Analyzing Performance Toolkit Telemetry",
+  "blob": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41",
+  "summary": "The Performance Toolkit extension generates telemetry for ISVs and VARs to simulate realistic workloads and compare performance between builds, answering whether solutions support specific user volumes. The page documents telemetry events for BCPT header states and completed scenarios.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "performance toolkit",
+    "telemetry",
+    "workload simulation",
+    "performance testing",
+    "isv",
+    "var"
+  ],
+  "objects": [],
+  "features": [
+    "BCPT header status tracking",
+    "Performance scenario execution logging",
+    "Run duration metrics",
+    "SQL statement counting",
+    "Session-level performance data",
+    "Multi-session workload recording"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012275,
+      "pages_in_call": 4
+    }
+  ]
+}

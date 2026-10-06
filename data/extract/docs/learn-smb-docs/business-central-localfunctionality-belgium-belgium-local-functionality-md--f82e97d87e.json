@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgium-local-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
+  "title": "Belgium local functionality",
+  "blob": "5900150f84643a454d7bb63b9167717cec4416c8",
+  "summary": "Belgium localization covers VAT management, Intrastat reporting, CODA bank statements, electronic banking and payments including SEPA and domiciliation, core finance operations, and electronic invoicing.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "belgium",
+    "vat",
+    "intrastat",
+    "coda",
+    "sepa",
+    "domiciliation",
+    "electronic invoicing"
+  ],
+  "objects": [],
+  "features": [
+    "non-deductible VAT",
+    "Intrastat reporting and declarations",
+    "CODA bank statement processing",
+    "electronic payments and SEPA",
+    "direct debit domiciliation",
+    "general ledger entry application",
+    "journal template requirements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish",
+  "title": "Complete cloud migration",
+  "blob": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
+  "summary": "Final phase tasks for completing cloud migration from Business Central on-premises to online, including disabling migration, running API upgrades, setting up users, and reconnecting integrations.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "on-premises",
+    "api upgrade",
+    "user management",
+    "integration setup"
+  ],
+  "objects": [],
+  "features": [
+    "migrate record links and notes",
+    "disable cloud migration",
+    "API data upgrade",
+    "user mappings",
+    "Sales integration",
+    "telemetry monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007169,
+      "pages_in_call": 8
+    }
+  ]
+}

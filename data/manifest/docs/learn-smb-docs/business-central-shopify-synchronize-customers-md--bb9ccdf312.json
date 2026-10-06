@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers",
   "published_at": "2026-08-26T08:39:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "23f6bd150280296b1a1f5a4b7de2e5e834e6a775",
       "words": 3597,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:14.513Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00753
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:14.518Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:14.519Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:14.519Z",
+      "page": false
     }
   },
   "input_hash": "23f6bd150280296b1a1f5a4b7de2e5e834e6a775",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23f6bd150280296b1a1f5a4b7de2e5e834e6a775"
+  "output_hash": "dfc2f01239b5641eec17f64e8ea1fee4a49d65f2b0e010592a0a253e52d1cfec"
 }

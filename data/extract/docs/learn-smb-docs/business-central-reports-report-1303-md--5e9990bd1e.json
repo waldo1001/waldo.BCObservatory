@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1303.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1303",
+  "title": "Standard Sales Draft Invoice report",
+  "blob": "2c56810ecb782fcc2562146feeeb8c82034c29b9",
+  "summary": "Standard Sales Draft Invoice report creates a draft invoice preview before posting, showing lines, discounts, VAT calculations, and payment terms for customer review.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "draft invoice",
+    "sales invoice",
+    "pre-posting",
+    "vat calculation",
+    "customer review"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Draft Invoice"
+    }
+  ],
+  "features": [
+    "invoice number filter",
+    "customer number filter",
+    "printed tracking filter",
+    "VAT specifications",
+    "VAT clauses",
+    "invoice discount",
+    "email body layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

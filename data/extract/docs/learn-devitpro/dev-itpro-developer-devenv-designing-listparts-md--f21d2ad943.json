@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-listparts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-listparts",
+  "title": "ListPart Pages in Business Central",
+  "blob": "597f9135700bbc310995207114c09e2e638dc788",
+  "summary": "ListPart pages embed repeater controls in host pages to display filtered record lists with optional action bars, useful in Role Centers, FactBoxes, and document pages.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "page parts",
+    "listpart",
+    "repeater control",
+    "list pages",
+    "page structure"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ListPart"
+    }
+  ],
+  "features": [
+    "Repeater control",
+    "SourceTableView filtering",
+    "SubPageLink binding",
+    "Action bar support",
+    "Embedded display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004843,
+      "pages_in_call": 8
+    }
+  ]
+}

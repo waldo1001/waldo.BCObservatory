@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9884e5c8937429e3892410141f02a258e065195c",
       "words": 975,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:43.958Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005878
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:43.963Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:43.963Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:43.963Z",
+      "page": false
     }
   },
   "input_hash": "9884e5c8937429e3892410141f02a258e065195c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9884e5c8937429e3892410141f02a258e065195c"
+  "output_hash": "3ed58a0c44925f19f488c78b084c68a7b4d00bb40817a10e2444c397e0a45149"
 }

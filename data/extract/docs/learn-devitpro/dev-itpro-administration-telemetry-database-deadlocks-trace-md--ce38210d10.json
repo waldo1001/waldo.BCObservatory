@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-deadlocks-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace",
+  "title": "Database Deadlock Lock Trace Telemetry",
+  "blob": "35289b7fe1825c099769a093f4a6754674110a45",
+  "summary": "Monitor and analyze database deadlock telemetry to identify when deadlocks occur, which sessions are affected, and troubleshoot the SQL statements causing contention.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database deadlocks",
+    "telemetry",
+    "performance monitoring",
+    "sql contention"
+  ],
+  "objects": [],
+  "features": [
+    "EnableDeadlockMonitoring",
+    "Deadlock victim identification",
+    "SQL statement tracking",
+    "Event ID RT0028"
+  ],
+  "versions": [
+    "2022 release wave 1",
+    "version 20.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "video_id": "rSGCNMIBcpc",
+  "item_id": "video/yt-microsoft/rSGCNMIBcpc",
+  "title": "Expense Agent: Approvals (2026 release wave 1)",
+  "duration_s": 428,
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "expense agent",
+    "approval process",
+    "approvers",
+    "email notifications",
+    "web app",
+    "expense reimbursement",
+    "reminders",
+    "policies"
+  ],
+  "chapters": [
+    {
+      "title": "Setting up default approvers",
+      "t_start": 0,
+      "t_end": 42.5
+    },
+    {
+      "title": "Configuring individual user approvers",
+      "t_start": 42.5,
+      "t_end": 81.8
+    },
+    {
+      "title": "Submitting expenses in the web app",
+      "t_start": 81.8,
+      "t_end": 124.6
+    },
+    {
+      "title": "Approver reviewing and opening expenses",
+      "t_start": 124.6,
+      "t_end": 178.1
+    },
+    {
+      "title": "Approving or sending back for revision",
+      "t_start": 178.1,
+      "t_end": 246.8
+    },
+    {
+      "title": "Licensing requirements for approvers",
+      "t_start": 246.8,
+      "t_end": 287.1
+    },
+    {
+      "title": "Resubmitting revised expense reports",
+      "t_start": 287.1,
+      "t_end": 340.7
+    },
+    {
+      "title": "Reminders for unsubmitted reports",
+      "t_start": 340.7,
+      "t_end": 407
+    },
+    {
+      "title": "Future approval improvements teased",
+      "t_start": 407,
+      "t_end": 428
+    }
+  ],
+  "features": [
+    {
+      "name": "Default approver setup",
+      "description": "Administrator can set a default approver who approves expenses for everyone in the company by default. This is optional and can be overridden per user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16,
+      "t_end": 42.5,
+      "is_demoed": true,
+      "caveats": [
+        "not mandatory",
+        "can be overridden per individual user"
+      ],
+      "tags": [
+        "approvers",
+        "setup",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Per-user approver override",
+      "description": "Individual users can have a different approver assigned than the default approver. Approvers must have the Can Approve flag enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.5,
+      "t_end": 81.8,
+      "is_demoed": true,
+      "caveats": [
+        "approver must have Can Approve flag enabled",
+        "system enforces that chosen approver can approve"
+      ],
+      "tags": [
+        "approvers",
+        "user configuration",
+        "permissions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense report submission",
+      "description": "Users can submit expense reports through the Expense Agent web app. Submission triggers email notification to the assigned approver, with the submitter in CC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.8,
+      "t_end": 124.6,
+      "is_demoed": true,
+      "caveats": [
+        "requires email address configured in Business Central"
+      ],
+      "tags": [
+        "web app",
+        "submission",
+        "email notifications"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Approver email notification",
+      "description": "When an expense report is submitted, the approver receives an email notification with a link to review the report and high-level description.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.6,
+      "t_end": 162.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "email",
+        "approval workflow"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Report review and receipt inspection",
+      "description": "Approver can review high-level report details and zoom into attached receipts to verify all information before approval decision.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.9,
+      "t_end": 178.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "review",
+        "receipts",
+        "attachments"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Send back for revision with comments",
+      "description": "Approver can send an expense report back to the submitter with comments explaining what needs to be changed or corrected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.1,
+      "t_end": 231.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval workflow",
+        "feedback",
+        "revision"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Approval and posting",
+      "description": "When approver approves an expense report, it is marked as approved in Business Central and the process continues with posting, reimbursement, and other post-approval steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.9,
+      "t_end": 263.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "posting",
+        "reimbursement"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Approver licensing requirement",
+      "description": "An approver must have a Business Central license and be a user in Business Central. Submitters do not need to be licensed users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 263.2,
+      "t_end": 287.1,
+      "is_demoed": true,
+      "caveats": [
+        "only applies to approvers, not submitters"
+      ],
+      "tags": [
+        "licensing",
+        "approvers",
+        "permissions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Resubmit after revision",
+      "description": "After receiving feedback with comments, users can revise their expense report and resubmit it for the approver to review again.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.1,
+      "t_end": 340.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "revision",
+        "resubmission",
+        "workflow"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reminders for unsubmitted reports",
+      "description": "Administrator can configure reminders to be sent to users who have expense reports ready but not yet submitted. Reminder frequency can be customized.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 340.7,
+      "t_end": 388.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reminders",
+        "notifications",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense Agent policies",
+      "description": "Future capability to enforce company policies on expense reports, such as requiring partner names in report descriptions for partner visits.",
+      "status": "announced",
+      "status_evidence_t": 328.5,
+      "status_evidence_quote": "There might be something coming soon about policies, so stay tuned for new Expense Agent changes",
+      "status_evidence_verified": true,
+      "t_start": 313.8,
+      "t_end": 328.5,
+      "is_demoed": false,
+      "caveats": [
+        "not yet available"
+      ],
+      "tags": [
+        "policies",
+        "future",
+        "validation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Enhanced approval workflows",
+      "description": "Future improvements to the approval setup beyond the current basic approver assignment, with more sophisticated approval routing.",
+      "status": "announced",
+      "status_evidence_t": 407,
+      "status_evidence_quote": "we have some more improvements coming for the approvals in uh expense agent. So, stay tuned and um for the next wave of improvements",
+      "status_evidence_verified": true,
+      "t_start": 388.3,
+      "t_end": 418.1,
+      "is_demoed": false,
+      "caveats": [
+        "not yet available"
+      ],
+      "tags": [
+        "approvals",
+        "improvements",
+        "future"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Enrico",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16,
+      "text": "when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you",
+      "why_it_matters": "Establishes that default approver setup is a key first step in configuring the Expense Agent approval process.",
+      "check": "exact"
+    },
+    {
+      "t": 28.8,
+      "text": "this is also not mandatory. So, in case your company doesn't really have a default approver, you don't need to set that up",
+      "why_it_matters": "Clarifies that default approver configuration is optional, giving flexibility to organizations with different approval structures.",
+      "check": "exact"
+    },
+    {
+      "t": 65.3,
+      "text": "Notice that there is a flag here called Can Approve. That's what controls which users can be approvals for others.",
+      "why_it_matters": "Identifies the critical permission control for determining who is eligible to approve expenses.",
+      "check": "exact"
+    },
+    {
+      "t": 110.4,
+      "text": "it will send my approver an email if I have configured an email address inside Business Central",
+      "why_it_matters": "States the condition that email notifications require email addresses to be configured in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 263.2,
+      "text": "the approver needs to have a Business Central license and be a user in Business Central. Notice that this is not a requirement for",
+      "why_it_matters": "Clarifies the different licensing requirements for approvers versus submitters, a key operational constraint.",
+      "check": "exact"
+    },
+    {
+      "t": 328.5,
+      "text": "There might be something coming soon about policies, so stay tuned for new Expense Agent changes",
+      "why_it_matters": "Announces upcoming policy-enforcement capability as a future enhancement to the Expense Agent.",
+      "check": "exact"
+    },
+    {
+      "t": 407,
+      "text": "we have some more improvements coming for the approvals in uh expense agent. So, stay tuned and um for the next wave of improvements",
+      "why_it_matters": "Teases additional improvements to approval workflows beyond current basic functionality, indicating product evolution.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 313.8,
+      "kind": "coming-later",
+      "text": "There might be something coming soon about policies"
+    },
+    {
+      "t": 407,
+      "kind": "coming-later",
+      "text": "we have some more improvements coming for the approvals in uh expense agent"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03673799999999999
+    }
+  ]
+}

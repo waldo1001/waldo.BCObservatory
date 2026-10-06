@@ -1,0 +1,28 @@
+{
+  "video_id": "e_x5QF0vXgs",
+  "item_id": "video/yt-microsoft/e_x5QF0vXgs",
+  "summary": "Expense Agent mobile app for iOS and Android, in preview: employees capture receipts on a phone without a Business Central license, AI extracts the expense details, and an offline mode queues receipts until the phone reconnects. The demo ran on Android.",
+  "overview": "The video shows the Expense Agent mobile app, which is in preview. It lets employees capture receipts on their smartphones. No Business Central license is needed, and the app integrates directly with Business Central. The demo was done on Android, and iOS is also supported.\n\nThe mobile app lists expenses in a social-media-style feed, one expense per entry, where the web app groups them into reports. Receipts are scanned with the phone's native OS capabilities, which detect edges and adjust brightness for AI processing. The agent extracts the amount, date, description, payment means, category and line items. Users can edit these details, share receipts from the photo library, scan offline, and add an expense to a report by tapping \"ready\". The presenters say the preview is coming very soon.",
+  "key_points": [
+    "The Expense Agent mobile app is in preview and runs on iOS and Android. The demo used Android.",
+    "Mobile users do not need a Business Central license, the same as for the web app. The app integrates with Business Central automatically.",
+    "The mobile app shows expenses as a feed with each expense listed individually. The web app groups them into reports.",
+    "The agent extracts total amount, date, description, payment means, category and itemized line items from the receipt image. All of it can be edited in the app before submitting.",
+    "Receipt capture uses the phone's native OS capabilities to detect edges and adjust brightness, so bent or poorly lit receipts can still be processed.",
+    "Receipts can be shared into the app from the device's photo library.",
+    "In offline mode receipts can be scanned without internet. They are queued and processed only once the app is back online and reconnected to Business Central."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "0dd1f9d8fe22ad5d40760e13e6e50d71a83ad1d748664a8d2e0466acb478d763",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0435024
+  }
+}

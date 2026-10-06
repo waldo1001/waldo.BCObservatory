@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Copilot Managing Complaints by Trimit",
   "url": "https://www.youtube.com/watch?v=ygtO_oUPil4",
-  "published_at": null,
+  "published_at": "2025-08-04T15:18:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:11:41.133Z",
+      "captions": "auto:en-orig",
+      "duration_s": 65
+    },
+    "captioned": {
+      "at": "2026-10-06T14:11:59.174Z",
+      "path": "data/captions/microsoft/ygtO_oUPil4.vtt",
+      "vtt_sha256": "76d02ea7152554509562f438ef6627684c79952aea13a40fb0b8083b734ab9bd",
+      "segments": 5,
+      "words": 200,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 203,
     "duration_s": 65,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76d02ea7152554509562f438ef6627684c79952aea13a40fb0b8083b734ab9bd"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Managing Feature Management through an API",
   "url": "https://www.youtube.com/watch?v=OnC0a5zy-oQ",
-  "published_at": null,
+  "published_at": "2025-09-05T14:00:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:08:46.869Z",
+      "captions": "auto:en-orig",
+      "duration_s": 78
+    },
+    "captioned": {
+      "at": "2026-10-06T14:09:15.519Z",
+      "path": "data/captions/microsoft/OnC0a5zy-oQ.vtt",
+      "vtt_sha256": "a242334c16fbc3534aa5af80446af258bd71bf98c3a44d853deefa6f1b8fc260",
+      "segments": 6,
+      "words": 157,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 192,
-    "duration_s": 79,
-    "via": "reconcile"
-  }
+    "duration_s": 78,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a242334c16fbc3534aa5af80446af258bd71bf98c3a44d853deefa6f1b8fc260"
 }

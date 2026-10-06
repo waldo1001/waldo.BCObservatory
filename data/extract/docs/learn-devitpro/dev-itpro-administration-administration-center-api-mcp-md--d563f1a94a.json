@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api-mcp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp",
+  "title": "Business Central Administration Center API MCP Server (preview)",
+  "blob": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
+  "summary": "Model Context Protocol (MCP) server for the Business Central Admin Center API enabling AI agents to manage environments, check status, and perform administrative tasks through standardized tools.",
+  "systems": [
+    "administration",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "mcp",
+    "admin center api",
+    "ai agents",
+    "environment management",
+    "model context protocol"
+  ],
+  "objects": [],
+  "features": [
+    "MCP server",
+    "environment status queries",
+    "app management",
+    "S2S authentication",
+    "excluded operations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007169,
+      "pages_in_call": 8
+    }
+  ]
+}

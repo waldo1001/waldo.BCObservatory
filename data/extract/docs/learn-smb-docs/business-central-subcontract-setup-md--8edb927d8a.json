@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-setup",
+  "title": "Set up subcontracting",
+  "blob": "0049b86984db62cd644d9d83f33d38bc3e1ca1d4",
+  "summary": "Set up subcontracting capabilities including work center assignments, vendor configuration, operation comments, routing attachments, transfer routes, and cost calculation methods.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "subcontracting setup",
+    "work centers",
+    "vendors",
+    "routing",
+    "components",
+    "cost configuration",
+    "transfer routes"
+  ],
+  "objects": [],
+  "features": [
+    "subcontractor assignment",
+    "work center costs",
+    "indirect costs",
+    "overhead rates",
+    "standard tasks",
+    "routing comments",
+    "routing attachments",
+    "component transfer lead time"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01081,
+      "pages_in_call": 5
+    }
+  ]
+}

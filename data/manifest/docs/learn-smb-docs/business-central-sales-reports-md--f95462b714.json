@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-reports",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8e26413770f26f6ea0cfaecef80dff43258339c9",
       "words": 54,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T14:14:38.281Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003184
+    },
+    "summarized": {
+      "at": "2026-10-06T14:14:38.286Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:14:38.286Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:14:38.287Z",
+      "page": false
     }
   },
   "input_hash": "8e26413770f26f6ea0cfaecef80dff43258339c9",
@@ -143,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8e26413770f26f6ea0cfaecef80dff43258339c9"
+  "output_hash": "dd0b1cbe23129d5a9bb3377c979252c42597a3566b7c18834c76894727eb8f87"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1016.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1016",
+  "title": "Job Quote report",
+  "blob": "e0dc37f069bf0495c1f280301e8923133c3e1371",
+  "summary": "Job Quote report generates a customer-facing quote for a project, showing project tasks, planning lines, and billable costs without budget-type lines.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "job quote",
+    "project planning",
+    "customer quote",
+    "project tasks",
+    "billing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Job Quote"
+    }
+  ],
+  "features": [
+    "project number filter",
+    "planning date filter",
+    "project task filter",
+    "budget line exclusion",
+    "unit price and quantity calculation",
+    "line discounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

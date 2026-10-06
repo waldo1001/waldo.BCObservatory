@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/api/dynamics_fixedassetlocation_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_fixedassetlocation_delete",
+  "title": "Delete fixedAssetLocations",
+  "blob": "230c66962db324100570ad2cbbff2c477c6debf5",
+  "summary": "Delete fixedAssetLocations API endpoint removes a fixed asset location record from Business Central using HTTP DELETE with authorization and eTag headers.",
+  "systems": [
+    "fixed-assets",
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "delete",
+    "fixed asset locations"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP DELETE",
+    "Authorization",
+    "If-Match header",
+    "204 No Content response"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004833,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-connect-edocuments-microsoft365.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-connect-edocuments-microsoft365",
+  "title": "Connect e-documents to Microsoft 365 applications",
+  "blob": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0",
+  "summary": "Connect e-documents to Microsoft 365 applications (Outlook, SharePoint, OneDrive) to import vendor invoices and receipts for accounts payable processing. Use when streamlining document attachment for online environments.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "accounts payable",
+    "microsoft 365",
+    "outlook",
+    "sharepoint",
+    "onedrive"
+  ],
+  "objects": [],
+  "features": [
+    "Outlook connector",
+    "SharePoint connector",
+    "OneDrive connector",
+    "E-Document Services",
+    "Service Integration V2",
+    "Document import",
+    "Archive folder"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

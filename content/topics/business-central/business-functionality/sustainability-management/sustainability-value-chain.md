@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sustainability-management/sustainability-value-chain
 type: topic
 title: Sustainability Value Chain
-summary: "Learn section Business functionality > Sustainability management > Sustainability Value Chain: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Sustainability Value Chain in Business Central covers tracking Scope 3 and embedded CO2e emissions through purchasing, transfers, production, assembly, sales, service, item journals and fixed assets. It answers questions about setup, the Carbon Tracking Method (average or specific), lot tracking, default emission data and how sustainability value entries are created.
 tier: official
 language: en
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T14:24:07.451Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0a170bb7f83b372d11d00e1d1b794ffa308ecec42c7686285fd1238dfaac296e
+  prompts:
+    hub-topic: 1
+  input_hash: 2a236e12ae4675c0feafed9e521003f110e94c1f62271c4f9cbc8ffed706b1d7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-howto-default
@@ -175,14 +176,33 @@ bc_forms:
   - 99000818
   - 99000831
 member_hash: 0a170bb7f83b372d11d00e1d1b794ffa308ecec42c7686285fd1238dfaac296e
-narrative: none
+narrative: generated
 ---
 
 # Sustainability Value Chain
 
-> Learn section Business functionality > Sustainability management > Sustainability Value Chain: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Sustainability Value Chain in Business Central covers tracking Scope 3 and embedded CO2e emissions through purchasing, transfers, production, assembly, sales, service, item journals and fixed assets. It answers questions about setup, the Carbon Tracking Method (average or specific), lot tracking, default emission data and how sustainability value entries are created.
 
-Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability Value Chain · tier official · system sustainability · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability Value Chain · tier official · system sustainability · narrative reviewed by Opus
+
+## Overview
+
+The value chain features let you record and calculate emissions (CO2, CH4, N2O, expressed as CO2e) for items, resources, work and machine centers, and fixed assets, then follow that carbon through each business process. Emissions come in from vendor and purchase data and are carried through transfers, production, assembly, service and sales, so a manufactured or sold item has an embedded carbon footprint.
+
+Start with the overview page for the concepts, then the setup page. Setup enables Value Chain Tracking, selects the Carbon Tracking Method (average or specific), enables emissions on master data and defines emission fees with carbon equivalent factors. The default data page helps you fill in default sustainability accounts and emissions on master data. After that, use the process pages that match your scenario: purchasing, transfers, production, assembly orders, item journals, sales, Service Management and fixed assets.
+
+The process pages follow a similar pattern. You record emissions on documents or journals, then post them, which creates sustainability value entries (fixed assets also mention sustainability ledger entries). Item journals also provide an Adjust Emissions batch job that recalculates average CO2e per unit from posted entries.
+
+## Key points
+
+- The overview covers Scope 3 emissions tracking through vendor data and embedded carbon across purchase, transfer, production, assembly and sales. The overview page is tagged 2025 release wave 1.
+- Setup: enable Value Chain Tracking, choose the Carbon Tracking Method (Average or Specific), and define Emission Fees with Carbon Equivalent Factors for all greenhouse gases.
+- Purchasing, sales and transfers support average and specific carbon tracking, and those pages also cover lot tracking.
+- Default data: set a Default Sustainability Account and default CO2, CH4 and N2O emissions for G/L accounts, items, resources, work centers, machine centers and fixed assets. There is also a Calculate CO2e action and default setup on Item Category.
+- Production uses item, work center and machine center emissions, production BOMs and routings to calculate CO2e per unit. Assembly orders record item and resource emissions and support emission recalculation.
+- Item journals and the item reclassification journal create sustainability value entries. The Adjust Emissions batch job recalculates average CO2e per unit from posted entries.
+- Purchasing uses the Use Emissions In Purchase Documents setting. Sales offers optional ESG Sales layouts that show the embedded carbon footprint, and also covers fixed asset sales.
+- Service Management tracks expected and actual emissions for items and resources on service lines and supports undoing service postings. Fixed asset emissions are tracked through acquisition, reclassification and disposal, with sustainability ledger entries.
 
 ## Learn pages
 

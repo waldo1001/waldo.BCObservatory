@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5358061fec43f23417f50f2418e73f57ba62c7a1",
       "words": 724,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T14:04:51.504Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005133
+    },
+    "summarized": {
+      "at": "2026-10-06T14:04:51.506Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:04:51.506Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:04:51.506Z",
+      "page": false
     }
   },
   "input_hash": "5358061fec43f23417f50f2418e73f57ba62c7a1",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5358061fec43f23417f50f2418e73f57ba62c7a1"
+  "output_hash": "f5d53bfef786c781f6e092bfefaf2c1a387a8d5789b907e65248c2a710c7cd10"
 }

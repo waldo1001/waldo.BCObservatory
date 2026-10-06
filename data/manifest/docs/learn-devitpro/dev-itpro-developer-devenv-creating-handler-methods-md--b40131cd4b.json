@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "62bb0c86e00393b06d10e3e34a733e375e915b53",
       "words": 478,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:41.666Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004843
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:41.671Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:41.671Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:41.671Z",
+      "page": false
     }
   },
   "input_hash": "62bb0c86e00393b06d10e3e34a733e375e915b53",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62bb0c86e00393b06d10e3e34a733e375e915b53"
+  "output_hash": "f5402f6a469862add17b7c9ca66d32b5a92d39bdb68a39a7fbfc547449b55df6"
 }

@@ -1,0 +1,1221 @@
+{
+  "video_id": "HYqjpyHZ84Q",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.7,
+      "end": 14.2,
+      "text": "Okay, I think it's time to get started. Um, so welcome to this"
+    },
+    {
+      "t": 14.2,
+      "end": 25.3,
+      "text": "third monthly AMG go for GitHub office hours call. Um, and I can see we are 33 people right now attending."
+    },
+    {
+      "t": 25.3,
+      "end": 42.8,
+      "text": "So that's good. If more attends, they are welcome. Um, as we've done a few times before, um, I'll go through like very shortly a few slides about what's new and then we'll open up for"
+    },
+    {
+      "t": 42.8,
+      "end": 53.5,
+      "text": "questions in the Q&A pane in the meeting. Please use the Q&A pane for questions and not the chat."
+    },
+    {
+      "t": 53.5,
+      "end": 67.4,
+      "text": "Um, I'm right now sitting in the US and in Lumpy we have uh I think Alexander, Maria, and Sebastian."
+    },
+    {
+      "t": 67.4,
+      "end": 77.4,
+      "text": "So, we should be able to answer all of your questions together. Well, let's get started with what's new."
+    },
+    {
+      "t": 77.4,
+      "end": 93.1,
+      "text": "Um, yeah, by the way, we also just recorded the launch event video, so in a few days you will be able to see what's new in in the next version of Algo version 7."
+    },
+    {
+      "t": 93.1,
+      "end": 103.2,
+      "text": "Um, right now we we just launched um version 6.4 a week ago."
+    },
+    {
+      "t": 103.2,
+      "end": 119,
+      "text": "Um, and what's new in that one is really a lot of the stuff that we talked about in the last office hours call. So, if you haven't like seen the brief presentation of what's new with GitHub app authentication and bet secrets,"
+    },
+    {
+      "t": 119,
+      "end": 139.4,
+      "text": "incremental builds and stuff like that, uh those are included in the video of Algo office hours uh 2 like the February edition. In this I'm going to talk about the last two uh additions to version 6.4 for the update Elgo system files on multiple branches and the N get feed"
+    },
+    {
+      "t": 139.4,
+      "end": 144.8,
+      "text": "select mode also"
+    },
+    {
+      "t": 144.8,
+      "end": 163,
+      "text": "um in preview as of today maybe later today maybe right now so it's right out of the press uh the ability to to to set BC container settings uh from settings variables and publish to environment from a pull request."
+    },
+    {
+      "t": 163,
+      "end": 180.6,
+      "text": "So those things are in preview right now and will also be included in version seven of Elgo for GitHub. Um so let's as as usual there's a repository called Elgo office hours"
+    },
+    {
+      "t": 180.6,
+      "end": 197.7,
+      "text": "2025-3 which contains the demos of the features that I'm going to talk about here. The update go system files on multiple branches is really the ability to run as it says update go system files on multiple branches."
+    },
+    {
+      "t": 197.7,
+      "end": 208.8,
+      "text": "Um the algo for GitHub normally you'd run the updated go system files but that would then run on the branch that you're running it on."
+    },
+    {
+      "t": 208.8,
+      "end": 225.8,
+      "text": "Now um now there's an additional field where you can set the branches that you want to include uh and then it will update Elgo system files on all branches to the template URL that you're specifying."
+    },
+    {
+      "t": 225.8,
+      "end": 246.1,
+      "text": "You can also run it on a schedule which is highly recommended. So you can you can set up this workflow schedule and say include branches when it is on the go system files and it will run then um it will update all these active branches that you have uh to the latest version"
+    },
+    {
+      "t": 246.1,
+      "end": 256.2,
+      "text": "um and keep you up to date. There's a new setting called n get feed select mode uh before version 6.4 four."
+    },
+    {
+      "t": 256.2,
+      "end": 268.8,
+      "text": "This was hardcoded to latest matching um and we had some partners running into uh an issue where they weren't wanted to change that to earliest matching in some of their builds."
+    },
+    {
+      "t": 268.8,
+      "end": 286.2,
+      "text": "So now we created the setting that you are able to u set to possible values earliest matching earliest exact latest or latest matching. The difference between earliest and earliest matching is that the earliest matching is also taking dependencies into consideration."
+    },
+    {
+      "t": 286.2,
+      "end": 306.4,
+      "text": "So if you have um I if if if you have an a dependency and and you you're running on a specific version of Business Central, it will find the earliest version of your dependency that also matches the version of Business Central that you're running on."
+    },
+    {
+      "t": 306.4,
+      "end": 326.3,
+      "text": "So um yeah enough for that PC container helper settings earlier that was only read from the repository settings file the github algo settings JSON now it is also run read from the settings variables both orc settings and repo settings."
+    },
+    {
+      "t": 326.3,
+      "end": 342.7,
+      "text": "So stuff like memory limit can be set globally if you want to set that to like 16 GB or whatever. Also other global settings that you have for BC container helper uh can be set now in these settings variables."
+    },
+    {
+      "t": 342.7,
+      "end": 363.6,
+      "text": "And the last one um publish apps from a pull request which has been uh requested by a few partners as well. Like if you have like a pull request open doing code reviews, you might want to to to try to deploy the the artifacts from that pull request to an environment"
+    },
+    {
+      "t": 363.6,
+      "end": 377,
+      "text": "and actually do some manual testing as well as code reviewing before you approve the the pull request. And you can do that now by specifying uh PR underscore and then a pull request number"
+    },
+    {
+      "t": 377,
+      "end": 389.6,
+      "text": "uh in your publish to environment. And doing that will allow you to uh publish the artifacts from that pull request to an environment."
+    },
+    {
+      "t": 389.6,
+      "end": 404,
+      "text": "Um the default setting for pull request artifact uh retention is one day. So if you wait a day or two before from from a build"
+    },
+    {
+      "t": 404,
+      "end": 417.1,
+      "text": "until until a pull request uh is is deployed, you'll have to rerun the the build from the pull request else the artifact uh the artifacts from that pull request will be uh"
+    },
+    {
+      "t": 417.1,
+      "end": 429,
+      "text": "um expired. So you you you need some new ones there. Um yeah, with that I will change to open discussion"
+    },
+    {
+      "t": 429,
+      "end": 441.8,
+      "text": "and allow for questions um and see what what people have. Please use the Q&A"
+    },
+    {
+      "t": 454.1,
+      "end": 459.4,
+      "text": "pane. Let's see"
+    },
+    {
+      "t": 461.6,
+      "end": 465.6,
+      "text": "here."
+    },
+    {
+      "t": 466.8,
+      "end": 471.8,
+      "text": "Um, any"
+    },
+    {
+      "t": 482.8,
+      "end": 494.8,
+      "text": "questions? Absolutely, man. I hope people can hear me as I've just been talking to"
+    },
+    {
+      "t": 501.4,
+      "end": 517.2,
+      "text": "Okay. Is there plan to publish from PR to docker containers or only for sandboxes? Um, so it isn't anything we are going"
+    },
+    {
+      "t": 517.2,
+      "end": 528.8,
+      "text": "to invest in. um because the we also don't have publish to publish to a docker container from from normal artifacts."
+    },
+    {
+      "t": 528.8,
+      "end": 539.4,
+      "text": "You can download the artifacts and then you can um and then you can yeah publish them to a container yourself."
+    },
+    {
+      "t": 539.4,
+      "end": 550.5,
+      "text": "Uh I'll I'll move this one to uh to the screen here. Um yeah, so you can publish the artifacts by downloading them."
+    },
+    {
+      "t": 550.5,
+      "end": 566.5,
+      "text": "Uh and and when you have a pull request built, you will be able to see what the last known good built is. So a pull request will only if you have multiple projects will only build and include the projects in the PR artifacts"
+    },
+    {
+      "t": 566.5,
+      "end": 578.2,
+      "text": "uh that you actually modified. So if you have multiple projects, you might need to find the missing artifacts from the last known good build. There'll be a link to that on the PR."
+    },
+    {
+      "t": 578.2,
+      "end": 588.9,
+      "text": "So you'll be able to see last no good build. Click that and find the remaining artifacts there and then just publish those to a container using whatever uh mechanisms you have."
+    },
+    {
+      "t": 588.9,
+      "end": 594.3,
+      "text": "If you have an online container somewhere"
+    },
+    {
+      "t": 601.6,
+      "end": 615.5,
+      "text": "um Oliver Schulz asks is this uh we have the dependency probing paths to pull apps in an exact version across repository boundaries."
+    },
+    {
+      "t": 615.5,
+      "end": 626.7,
+      "text": "Would it also be possible via the Nougat packages in the future? Uh yes, I mean it is possible now."
+    },
+    {
+      "t": 626.7,
+      "end": 638,
+      "text": "Um the the the recommended so it depends on if it is your own like internal"
+    },
+    {
+      "t": 638,
+      "end": 655.8,
+      "text": "um if it's your internal dependencies or it's your external dependencies. internal dependencies. The recommended uh dependency resolution mechanism is is uh GitHub packages which you can set up just by creating the GitHub packages context secret."
+    },
+    {
+      "t": 655.8,
+      "end": 667.4,
+      "text": "Then um you will automatically have internal uh dependency resolution using using Nougat packages on on GitHub."
+    },
+    {
+      "t": 667.4,
+      "end": 688.8,
+      "text": "Um and that should work right now. If you have like external dependencies to third party then you have to set up trusted nougat feeds but that should also work uh either using exact versions or I mean we don't recommend setting up exact versions we recommend like using the same the same versioning"
+    },
+    {
+      "t": 688.8,
+      "end": 698.5,
+      "text": "uh select mechanism that business central uses uh online as well which is the default"
+    },
+    {
+      "t": 705.5,
+      "end": 717.4,
+      "text": "Um is asking I'm learning this algo for GitHub. Is it possible to get this in Azure DevOps as well or any plans in the future? And that is an absolute no."
+    },
+    {
+      "t": 717.4,
+      "end": 732.7,
+      "text": "We do not have resources to to create algo for GitHub to or ago for Azure DevOps. Um so algo go for GitHub is for GitHub"
+    },
+    {
+      "t": 734.6,
+      "end": 755.3,
+      "text": "only. Morton asks uh when we write PTE we often extend third party extensions from app source. I understand that we cannot we can not download symbols but as I understand we still limited when we want to build and test our"
+    },
+    {
+      "t": 755.3,
+      "end": 775.4,
+      "text": "PTE. You mean we can download symbols or what? Uh I guess I guess more than you need you you mean that we so today we have a nougat feed where we publish symbols from for lapsource apps and this is automatically included in the new in the dependency"
+    },
+    {
+      "t": 775.4,
+      "end": 790.2,
+      "text": "search when you're running and for that you can then um you can build all apps but you cannot test your uh PTE on a docker container."
+    },
+    {
+      "t": 790.2,
+      "end": 801.4,
+      "text": "If you only have the symbols obviously then you need an online environment and publish your app to an online environment for with these uh apps source dependencies."
+    },
+    {
+      "t": 801.4,
+      "end": 816.6,
+      "text": "What we hope is that more and more partners will start um publishing their appsource apps as runtime packages and sharing those with partners so that you'll be able to find the runtime packages instead of the auto generated symbols."
+    },
+    {
+      "t": 816.6,
+      "end": 837.7,
+      "text": "Uh and then trusting the partners nougat feed to to to do that. uh and we know that we are missing a few features uh for that and and that is on our schedule to finalize the new get uh features in in the upcoming release meaning over the next half"
+    },
+    {
+      "t": 840.1,
+      "end": 854.1,
+      "text": "year. Uh Ray is asking I would like to build only one app from a repository with two or more apps. Is that possible? currently builds and deploys all my apps in the"
+    },
+    {
+      "t": 854.1,
+      "end": 868,
+      "text": "repo. Um, so I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds."
+    },
+    {
+      "t": 868,
+      "end": 880.9,
+      "text": "So um if you see the video in the launch event or the video from the last office hours call, you'll see that you can now set up incremental builds on on push."
+    },
+    {
+      "t": 880.9,
+      "end": 892.1,
+      "text": "Um meaning that whenever you you push some modifications to the repo, it will only build the apps that you actually modified in that uh push."
+    },
+    {
+      "t": 892.1,
+      "end": 909.3,
+      "text": "meaning and then it will also then only deploy that app uh to your environment when it deploys. It'll it'll find the last known good built and and try to deploy the app from that and if you already have that deployed then it'll skip that."
+    },
+    {
+      "t": 909.3,
+      "end": 919.3,
+      "text": "Um so it sounds like you are talking about the feature we just released there. Right."
+    },
+    {
+      "t": 919.3,
+      "end": 931.7,
+      "text": "Um Christian is asking is there a simple guide on how we can switch from Azure DevOps to GitHub uh to use uh algo GitHub? Is there an overview of which functions are"
+    },
+    {
+      "t": 931.7,
+      "end": 941.9,
+      "text": "available out of the box? Uh how can existing DevOps pipelines be easily transferred to GitHub"
+    },
+    {
+      "t": 941.9,
+      "end": 961.9,
+      "text": "actions? Um so if you are moving from Azure DevOps to ALGO for GitHub the suggestion is to use the uh actions already available or the pipelines and workflows already available in Elgo for GitHub and uh just discard the ones"
+    },
+    {
+      "t": 961.9,
+      "end": 967.1,
+      "text": "that you have in Azure DevOps. Um"
+    },
+    {
+      "t": 967.1,
+      "end": 980.3,
+      "text": "uh what you can do is you can yeah get started on using ak.ms/algo workshop. That one will take you through like a lot of the different things that are on an algo."
+    },
+    {
+      "t": 980.3,
+      "end": 990.8,
+      "text": "Um it is a learning curve and you need to like yeah get used to a number of different things how things work where they'll go."
+    },
+    {
+      "t": 990.8,
+      "end": 1005.3,
+      "text": "probably you'll find that the majority of things that you're already doing is is somehow available in in algo for GitHub as well. Um and you shouldn't need to actually build any pipelines or transform any pipelines or anything like that."
+    },
+    {
+      "t": 1005.3,
+      "end": 1015.8,
+      "text": "You can just use the ones that are there. There's a lot of settings that like dictates the mechanism on how Go works."
+    },
+    {
+      "t": 1015.8,
+      "end": 1027.4,
+      "text": "Um and and and those can be found on aka.ms/go settings. Uh that's like a reference of all the settings that are available."
+    },
+    {
+      "t": 1027.4,
+      "end": 1039.4,
+      "text": "But but yeah, probably uh the workshop is a good starting point and also the scenarios on"
+    },
+    {
+      "t": 1039.4,
+      "end": 1055.7,
+      "text": "github/microsoft-go where there's a number of scenario documentations as well. We know that we still need to generate more documentation and I have promised to get started on"
+    },
+    {
+      "t": 1068,
+      "end": 1078.3,
+      "text": "that. So Oliver should ask, \"Hey me again, it's about dependencies for our own partner apps in the customer"
+    },
+    {
+      "t": 1078.3,
+      "end": 1095.7,
+      "text": "repository. It pulls the direct dependencies correctly, but it searches for the indirect dependencies for a very long time and often aborts. It would probably be more correct to say that we need a method to obtain each app individually"
+    },
+    {
+      "t": 1095.7,
+      "end": 1103.3,
+      "text": "via GitHub Nugget."
+    },
+    {
+      "t": 1103.5,
+      "end": 1117.4,
+      "text": "Um, I would like suggest that you create an issue with this and let's look at why it doesn't behave like it should."
+    },
+    {
+      "t": 1117.5,
+      "end": 1139.5,
+      "text": "um indirect dependencies. I'm not sure what we're talking about there. is that runtime packages or yeah I suggest you create an an issue on on um GitHub Microsoft ago and let's uh figure out"
+    },
+    {
+      "t": 1139.5,
+      "end": 1153.6,
+      "text": "um where yeah so last says in the last office hours you shared a link to a GitHub repo where you had the feature you shown set up I cannot access the video."
+    },
+    {
+      "t": 1153.6,
+      "end": 1167.6,
+      "text": "Could you share the link to the repo again? Yes. So the link to the repo in this in this one"
+    },
+    {
+      "t": 1167.6,
+      "end": 1176.7,
+      "text": "is github.com business centralapps-go-off"
+    },
+    {
+      "t": 1177.9,
+      "end": 1187.9,
+      "text": "hours-2025-3 for March um and two for February. So it's a two instead of a three in this URL. I'll take that."
+    },
+    {
+      "t": 1187.9,
+      "end": 1196.5,
+      "text": "Oh, I couldn't do that. I maybe get the link"
+    },
+    {
+      "t": 1201.5,
+      "end": 1211,
+      "text": "and take this and paste that into the chat."
+    },
+    {
+      "t": 1222.6,
+      "end": 1230.8,
+      "text": "So the three is for this monster, the two is for the other one."
+    },
+    {
+      "t": 1230.8,
+      "end": 1242.7,
+      "text": "Um, so there's a chat here. Tom says that I spend a lot of time trying to get my DevOps pipeline converted to run in GitHub without succeeding."
+    },
+    {
+      "t": 1242.7,
+      "end": 1254.8,
+      "text": "Today I'm happily using the workflows within ALGO. So I suggest to other using workflow delivered with Algo. Thanks for that"
+    },
+    {
+      "t": 1254.8,
+      "end": 1260.3,
+      "text": "Tom. Back to the"
+    },
+    {
+      "t": 1263.4,
+      "end": 1283.6,
+      "text": "Q&A. Alexander is asking, \"What is the status of automatically uninstalling old apps when ALG go deploys to an environment?\" Uh, the status of that is that um it was added to the uninstalled capability was added to Business Central a month ago or something"
+    },
+    {
+      "t": 1283.6,
+      "end": 1302,
+      "text": "like that. So it should be deployed now. So it's something that we can we now can implement in algo. We we couldn't do that before because the ability to uninstall or unpublish actually an an old app um was not available."
+    },
+    {
+      "t": 1302,
+      "end": 1320.2,
+      "text": "That is available now. So, we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app instead of leaving it there and and and like"
+    },
+    {
+      "t": 1320.2,
+      "end": 1329,
+      "text": "um ends up having like a lot of of different versions of the same app published"
+    },
+    {
+      "t": 1329,
+      "end": 1333,
+      "text": "there."
+    },
+    {
+      "t": 1334.7,
+      "end": 1339.7,
+      "text": "Other questions?"
+    },
+    {
+      "t": 1373.8,
+      "end": 1389.5,
+      "text": "So Alexander is asking is it currently possible or are there any plans in the future to allow multiple organizational variables? We have different settings for our internal and our PTE apps."
+    },
+    {
+      "t": 1389.5,
+      "end": 1403.2,
+      "text": "Well, it's it's currently not possible. I have thought about adding like a setting to allow you to point to a different variable and you could have that in a conditional setting."
+    },
+    {
+      "t": 1403.2,
+      "end": 1415.2,
+      "text": "So, you could kind of um do it like that. You could also create an organizational variable that have conditional settings for a lot of stuff."
+    },
+    {
+      "t": 1415.2,
+      "end": 1430,
+      "text": "Um maybe if we can understand the the exact scenario, we can make sure that we uh that we take that into consideration if we are to to modify any behavior"
+    },
+    {
+      "t": 1430,
+      "end": 1433,
+      "text": "there."
+    },
+    {
+      "t": 1433,
+      "end": 1442.2,
+      "text": "Um so maybe describe that discussions or issues on a"
+    },
+    {
+      "t": 1451,
+      "end": 1465.9,
+      "text": "go. There's a question from Cataline Maria Alexander. Do you want to take that? Yeah, sure. Um, so there's really there's no direct integration between it'll go for GitHub and Azure DevOps,"
+    },
+    {
+      "t": 1465.9,
+      "end": 1479.1,
+      "text": "but GitHub does come with some uh apps that you can install on your repository. Like there's the Azure boards integration let you kind of link a pull request or an GitHub issue to a work item in Azure DevOps."
+    },
+    {
+      "t": 1479.1,
+      "end": 1496.6,
+      "text": "Uh we're using that within Microsoft and it's I think it's working just fine. Uh so you you can just add like AB hashtag and then the work item ID in your in the description and then it it creates a link and you can click on that and you can kind of seamlessly go between Azure DevOps and"
+    },
+    {
+      "t": 1496.6,
+      "end": 1512.2,
+      "text": "GitHub. Uh but it probably won't be as well integrated as you know you're used to if you're 100% within Ashure DevOps. Um but there are some integrations that you can take advantage of."
+    },
+    {
+      "t": 1512.5,
+      "end": 1516.5,
+      "text": "Thanks."
+    },
+    {
+      "t": 1547.3,
+      "end": 1559.8,
+      "text": "So Alexander is asking is there already possibility? Are there any plans to add check to determine if there were any code changes before CI/CD decides to deploy the app?"
+    },
+    {
+      "t": 1559.8,
+      "end": 1572.4,
+      "text": "Um, so the way incremental builds work is that it will only build the apps that has changes since the last known good build."
+    },
+    {
+      "t": 1572.4,
+      "end": 1582.4,
+      "text": "Um, and that means that um when you have a an incremental build, then it will actually copy the artifacts from the last known good build."
+    },
+    {
+      "t": 1582.4,
+      "end": 1596.8,
+      "text": "meaning that if you if you open up your your apps uh artifact from build, you might find version uh like two apps from this build and three apps from the previous build."
+    },
+    {
+      "t": 1596.8,
+      "end": 1617.1,
+      "text": "Um, and when it then comes to deploy these five apps to an environment, it will it will try to deploy all five apps, but it will find that the three apps that you haven't modified is the old version and is probably the one that is already installed in the environment and will therefore skip that and then only deploy"
+    },
+    {
+      "t": 1617.1,
+      "end": 1629.2,
+      "text": "the two apps that you actually modified. I can see that we right now we are selecting a full build whenever you make any changes to settings."
+    },
+    {
+      "t": 1629.2,
+      "end": 1642.2,
+      "text": "Um that is probably a little bit too aggressive. So um and update Elgo system files for example will will cause a full build afterwards"
+    },
+    {
+      "t": 1642.2,
+      "end": 1656.4,
+      "text": "uh which is probably too much. So, we might make a change to actually only do a full build on config changes or settings changes if some of these settings changes"
+    },
+    {
+      "t": 1656.4,
+      "end": 1667.3,
+      "text": "actually have any impact on the apps generated. Um, I don't know if that's possible, but it might be something that we could look into."
+    },
+    {
+      "t": 1667.3,
+      "end": 1680.4,
+      "text": "Right now, as soon as you change any setting in any of the settings files, it will trigger a full rebuild. If you change settings in the settings variables, it will actually not."
+    },
+    {
+      "t": 1680.4,
+      "end": 1700.8,
+      "text": "So, yeah, not ideal. Um, but else the incremental build should work. Um, if you just modify the app, it should only build what's what's been modified since the last known uh good"
+    },
+    {
+      "t": 1722.5,
+      "end": 1732.7,
+      "text": "Alexander says, \"In this scenario, I'm running a dispatcher to start my CI/CD for specific branches at different times during the week."
+    },
+    {
+      "t": 1732.7,
+      "end": 1748.5,
+      "text": "How would that work with incremental builds? So, if you set up the builds on a schedule, um you can specify that on schedule that you'll run incremental builds on a schedule as well."
+    },
+    {
+      "t": 1748.5,
+      "end": 1761.4,
+      "text": "If you trigger the builds with like a workflow run on um on the CI/CD workflow, then it will not do a incremental build."
+    },
+    {
+      "t": 1761.4,
+      "end": 1774.1,
+      "text": "Um you kind of need a way to to force a full build and we decided that running the CI/CD workflow manually would be triggering a full build."
+    },
+    {
+      "t": 1774.1,
+      "end": 1790.4,
+      "text": "Um so but if you set up the CI/CD on a schedule uh you can specify incremental builds on schedule equals true and it will do incremental builds on the schedule as"
+    },
+    {
+      "t": 1797.3,
+      "end": 1807.4,
+      "text": "well. Is there any way to make a build fail if there are any warnings in the code from code analyzers like code"
+    },
+    {
+      "t": 1807.4,
+      "end": 1811.2,
+      "text": "cup?"
+    },
+    {
+      "t": 1811.2,
+      "end": 1822.5,
+      "text": "Um, is that because they they do warnings today or is that how it is?"
+    },
+    {
+      "t": 1839.8,
+      "end": 1849.9,
+      "text": "You can specify fail on if you want to fail on warnings as well. And I can't"
+    },
+    {
+      "t": 1850.1,
+      "end": 1858.9,
+      "text": "remember if there's any any way to specify"
+    },
+    {
+      "t": 1858.9,
+      "end": 1873.4,
+      "text": "um that you treat these things as errors instead of warnings. I think there is a a way to do that. I think further down in the settings, if you scroll down, there's a setting called treat warnings as errors."
+    },
+    {
+      "t": 1873.4,
+      "end": 1883.5,
+      "text": "I think it's a container helper setting though, but I think it should be setable from within algo. Yep, exactly. Yeah, a list of algo which should be treated. So, it's actually an array."
+    },
+    {
+      "t": 1883.5,
+      "end": 1898.2,
+      "text": "Yeah, was what I was looking for. Yeah. Um where you can take those warnings and treat them as errors. Uh but it'll be a a list of AL warning codes that should be treated then as errors."
+    },
+    {
+      "t": 1898.2,
+      "end": 1913.4,
+      "text": "And yes, that is a container helper thingy. You can also set fail on to warning. that'll fail your your workflow if you have any warnings"
+    },
+    {
+      "t": 1913.5,
+      "end": 1918.9,
+      "text": "um in that sense."
+    },
+    {
+      "t": 1950.8,
+      "end": 1961.8,
+      "text": "says, \"I would like a workflow where you can simply specify a time and the CI/CD process is scheduled to run at that time."
+    },
+    {
+      "t": 1961.8,
+      "end": 1974.6,
+      "text": "Example, if a customer wants the deployment at 8:00 p.m., the developer should schedule it to uh during working hours to automatically execute at 8:00 p.m."
+    },
+    {
+      "t": 1974.6,
+      "end": 1991.9,
+      "text": "Is that something that could be implemented? Um, yes, it can be implemented. It's not something we can do out of the box. It almost feels like something that GitHub should implement that run this this workflow with these parameters at that time,"
+    },
+    {
+      "t": 1991.9,
+      "end": 2000,
+      "text": "right? Um I did"
+    },
+    {
+      "t": 2000,
+      "end": 2012.8,
+      "text": "see right now what you set up is is is a chron tab and I guess that can be used for a specific time."
+    },
+    {
+      "t": 2014.9,
+      "end": 2031.8,
+      "text": "Um, I did add a think I did that to GitHub issue at some point in time. I I described how you can create a workflow that'll trigger a publish to an environment at a specific time."
+    },
+    {
+      "t": 2031.8,
+      "end": 2049.2,
+      "text": "like I had a a partner who wanted to deploy to to the late the the the latest released version to the customer every Friday evening at 8:00 and and you can create a small YAML file with some settings and and uh and and do that."
+    },
+    {
+      "t": 2049.2,
+      "end": 2060.2,
+      "text": "That'll run every Friday evening and if you haven't released anything over the last week, it will just do nothing because that's the same version that already was uh deployed."
+    },
+    {
+      "t": 2060.2,
+      "end": 2080.6,
+      "text": "that that's definitely possible, but but you it sounds like you want to be able to control it a little bit uh further and that would be something we had to yeah take as an as an idea if you can again create a GitHub issue with this one and and we can put into our backlog and and"
+    },
+    {
+      "t": 2080.6,
+      "end": 2086.2,
+      "text": "see when we can uh process that."
+    },
+    {
+      "t": 2093.1,
+      "end": 2107.9,
+      "text": "It should be possible to to do that without huge interfering in algo for GitHub. So if it's something that any partner would like to take a stab on and contribute with to ALGO,"
+    },
+    {
+      "t": 2107.9,
+      "end": 2115,
+      "text": "that would be perfectly fine as well."
+    },
+    {
+      "t": 2123.4,
+      "end": 2135,
+      "text": "Is it possible now in the future to trigger a test test minor or test major up before deploying to environments like prod?"
+    },
+    {
+      "t": 2135,
+      "end": 2149.8,
+      "text": "Um it is not something we will chain um automatically. It's something I mean the deployment to prod is is I guess something"
+    },
+    {
+      "t": 2149.8,
+      "end": 2169.9,
+      "text": "um well what you can do actually just came into my mind you what you can do is you can you can use the build modes but that would like require you to every CI/CD build you can you can build those uh in three different modes one default one"
+    },
+    {
+      "t": 2169.9,
+      "end": 2177.8,
+      "text": "for next major and one for next minor And then your CI/CD will actually"
+    },
+    {
+      "t": 2177.8,
+      "end": 2189,
+      "text": "um will actually like run uh both all three builds uh and and and will only succeed if all three builds uh succeed there."
+    },
+    {
+      "t": 2189,
+      "end": 2204.2,
+      "text": "So that's definitely possible in that sense. But um it's not anything we are going to yeah hook up to the deploy to environment or anything like that that you'd run these things first."
+    },
+    {
+      "t": 2204.2,
+      "end": 2214.4,
+      "text": "I think there was a chat message here. I use CCD schedule 30 star 1245"
+    },
+    {
+      "t": 2214.4,
+      "end": 2227.2,
+      "text": "um which is like at half past midnight GMT Monday, Tuesday, Thursday and Friday I guess. Or is it Tuesday,"
+    },
+    {
+      "t": 2227.2,
+      "end": 2244.9,
+      "text": "Wednesday, Friday, whatever. Yeah, I think Maria's right. The question is about a one-time schedule, like being able to say, I want to run this at a specific time later."
+    },
+    {
+      "t": 2279.8,
+      "end": 2284.1,
+      "text": "Any more"
+    },
+    {
+      "t": 2286.4,
+      "end": 2291.9,
+      "text": "questions? Still have some"
+    },
+    {
+      "t": 2292.8,
+      "end": 2296.8,
+      "text": "time."
+    },
+    {
+      "t": 2303.7,
+      "end": 2312.3,
+      "text": "Any questions for you guys in Lub for Even"
+    },
+    {
+      "t": 2331.3,
+      "end": 2343.7,
+      "text": "um so says there's an AL warning. think field length, but I have no"
+    },
+    {
+      "t": 2343.7,
+      "end": 2358.9,
+      "text": "idea. Any of you in the view knows what that one is or how they can fix that to no longer be warning and overcome"
+    },
+    {
+      "t": 2379.9,
+      "end": 2390.2,
+      "text": "Please don't add things in the chat. Please add them to the Q&A tab instead so we don't have to switch back to the chat to see these things."
+    },
+    {
+      "t": 2390.2,
+      "end": 2396.6,
+      "text": "So add questions to the Q&A tab instead."
+    },
+    {
+      "t": 2406,
+      "end": 2410.1,
+      "text": "Um about"
+    },
+    {
+      "t": 2410.1,
+      "end": 2415.8,
+      "text": "the question about the warning."
+    },
+    {
+      "t": 2422.7,
+      "end": 2426.7,
+      "text": "The"
+    },
+    {
+      "t": 2432.8,
+      "end": 2438.7,
+      "text": "track about the question question"
+    },
+    {
+      "t": 2438.8,
+      "end": 2449.8,
+      "text": "uh about the warning. Uh I think it's a yeah sorry about the issue with the audio in the room. Uh I think this is something that should be ignored."
+    },
+    {
+      "t": 2449.8,
+      "end": 2460,
+      "text": "But I think this is not a very good example how like changing length of fields is uh done. Uh it's because it's generally like it's a sequel change."
+    },
+    {
+      "t": 2460,
+      "end": 2472.6,
+      "text": "So there has to be like um another field that is has the proper length and these fields cannot exist um cannot coexist. So, it's kind of like while the old field is present, the new one isn't."
+    },
+    {
+      "t": 2472.6,
+      "end": 2486,
+      "text": "And like there's going to be like a version where like the the new field will have like the the proper the proper length. Um I I I think the you could just maybe like"
+    },
+    {
+      "t": 2486,
+      "end": 2499.9,
+      "text": "um add like some pragmas or something to notice once. Uh it's not Yeah, again it's not anything you can you can do anything about. So uh and also maybe raise like such issues on Yammer."
+    },
+    {
+      "t": 2499.9,
+      "end": 2511.8,
+      "text": "I think there's u the community there is very active when it comes to like uh the application code and someone there could could be able to help you"
+    },
+    {
+      "t": 2528,
+      "end": 2538.5,
+      "text": "out. So Tom is asking about code signing um in the chat. I'll like take"
+    },
+    {
+      "t": 2538.5,
+      "end": 2549.8,
+      "text": "that. Um I can't get the code sign certificate URL to work and we need to sign our apps for apps validation. Uh there we are. Now it came here as well."
+    },
+    {
+      "t": 2549.8,
+      "end": 2558.6,
+      "text": "I use the code sign certificate URL secret name code sign certificate password."
+    },
+    {
+      "t": 2558.6,
+      "end": 2572.2,
+      "text": "So, um, typically people will not be able to get a certificate and a password anymore, but I expect that you still have a pfx file and a password"
+    },
+    {
+      "t": 2572.2,
+      "end": 2592.1,
+      "text": "uh with the validity that still should work. Um, if you create a a a secret which I mean a URL that points to your pfx file which then should be in a secure URL somewhere and a secret"
+    },
+    {
+      "t": 2592.1,
+      "end": 2604.5,
+      "text": "uh let's say you you have a secret called code sign certificate URL that points to your secret then you should set code sign certificate URL secret name to code sign certificate URL."
+    },
+    {
+      "t": 2604.5,
+      "end": 2622,
+      "text": "So it knows that uh I actually don't know if that's default. Um I think if you just create the code sign certificate URL secret then um it will point to your certificate and the code sign certificate password should be your password."
+    },
+    {
+      "t": 2622,
+      "end": 2634.9,
+      "text": "So those two secrets you should have. You shouldn't actually have to modify anything with a secret name. um they point then it should use the old mechanism to sign the apps."
+    },
+    {
+      "t": 2634.9,
+      "end": 2647.7,
+      "text": "The new mechanism to sign the apps is either using trusted signing on Azure or using um uh Azure key to"
+    },
+    {
+      "t": 2647.7,
+      "end": 2658.9,
+      "text": "um to host your your your certificate and use uh net sign to sign those and that's built into a go for GitHub."
+    },
+    {
+      "t": 2658.9,
+      "end": 2678.9,
+      "text": "I think looking at this and looking at scenarios there should be a code sign code signing MD here code signing in algo that specifies in 2023 you were not able to get pfx files anymore."
+    },
+    {
+      "t": 2678.9,
+      "end": 2690.6,
+      "text": "Um and you can use a keyboard here or you can use does it specify anything about trusted signing here? probably not."
+    },
+    {
+      "t": 2690.6,
+      "end": 2702,
+      "text": "Um then trusted signing will be we have a special one for that or we'll"
+    },
+    {
+      "t": 2702,
+      "end": 2715.7,
+      "text": "find trusted signing here uh which is a setting that where you can set up like um yeah to set up Azure trusted signing"
+    },
+    {
+      "t": 2715.7,
+      "end": 2722.3,
+      "text": "uh which which will automate automate the process uh 100% %"
+    },
+    {
+      "t": 2722.3,
+      "end": 2729.8,
+      "text": "um this is the documentation for trusted signing I"
+    },
+    {
+      "t": 2730.9,
+      "end": 2742.8,
+      "text": "think signing. Um but the old mechanism should still work. Um I'm unable to test that because I do not have a certificate that still works."
+    },
+    {
+      "t": 2742.8,
+      "end": 2762.9,
+      "text": "uh and we've switched all our signing to to trusted signing instead. So um which is something you need to do probably within the next I don't know how many days or years or months your certificate is still valid but you wouldn't be able to get a new PFX file with a"
+    },
+    {
+      "t": 2762.9,
+      "end": 2773.2,
+      "text": "password. You need to change that to either key volt and net signing or trusted signing with that. But that should be fairly straightforward."
+    },
+    {
+      "t": 2773.2,
+      "end": 2783.8,
+      "text": "But the current mechanism should work if you just create the secrets uh correctly and and yeah maybe you need to also"
+    },
+    {
+      "t": 2783.8,
+      "end": 2793.9,
+      "text": "specify that that the sequence needs to be taken into account. I can obviously test that or"
+    },
+    {
+      "t": 2793.9,
+      "end": 2806.4,
+      "text": "see that if I get a second to look into the default value of those things."
+    },
+    {
+      "t": 2806.4,
+      "end": 2821.1,
+      "text": "Code sign certificate. Yes. So the secret names are set by default to these values. So as long as you create the secret codesign certificate URL codes certificate password"
+    },
+    {
+      "t": 2821.1,
+      "end": 2827.3,
+      "text": "then the old mechanism should still"
+    },
+    {
+      "t": 2838.7,
+      "end": 2843.7,
+      "text": "work. Anyone?"
+    },
+    {
+      "t": 2869.5,
+      "end": 2881.2,
+      "text": "Give people a minute or two and if no more questions appear we'll we'll just close the office hours. We had many good questions."
+    },
+    {
+      "t": 2881.2,
+      "end": 2887.4,
+      "text": "Do you guys in Liby have any questions for the partners?"
+    },
+    {
+      "t": 2891.5,
+      "end": 2896.6,
+      "text": "Not that I can think of."
+    },
+    {
+      "t": 2915.1,
+      "end": 2920.6,
+      "text": "So let's see going"
+    },
+    {
+      "t": 2920.6,
+      "end": 2934,
+      "text": "first going second. Well, I think we can safely say that uh probably no more questions will appear."
+    },
+    {
+      "t": 2934,
+      "end": 2946.7,
+      "text": "So let's give people 10 minute back of their time and um let's get uh yeah see you guys in a"
+    },
+    {
+      "t": 2946.7,
+      "end": 2958.7,
+      "text": "month. Uh so I think there's maybe one more or what I think job raised his hand. Maybe it was"
+    },
+    {
+      "t": 2958.7,
+      "end": 2964.4,
+      "text": "a that Thank"
+    },
+    {
+      "t": 2969,
+      "end": 2975.1,
+      "text": "you. I raised my hand. I"
+    },
+    {
+      "t": 2975.6,
+      "end": 2979.6,
+      "text": "didn't."
+    },
+    {
+      "t": 2982.5,
+      "end": 2999.5,
+      "text": "Okay. Okay. There was one more here coming. Before we used the create release action and it worked out of the box. Now something has changed few weeks ago and we have to run CI/CD workflow one more time before it"
+    },
+    {
+      "t": 2999.5,
+      "end": 3003.5,
+      "text": "works."
+    },
+    {
+      "t": 3009.3,
+      "end": 3019.4,
+      "text": "Um I saw I think I saw an issue on GitHub on that topic, but I don't know if that's the issue that you're talking about."
+    },
+    {
+      "t": 3019.4,
+      "end": 3029.8,
+      "text": "Did you create an issue on this on ALGO yesterday? Didn't have time to look into that one yet."
+    },
+    {
+      "t": 3033.3,
+      "end": 3045.8,
+      "text": "Um I don't know of of anything that should be changed or a lot of things changes but not something that should cause that behavior."
+    },
+    {
+      "t": 3045.8,
+      "end": 3066.2,
+      "text": "So um so Dominique if you could create an issue if you don't haven't already done that then we should take it there some sounds like something with nuke it I don't find I don't find the artifacts the first time strange"
+    },
+    {
+      "t": 3066.2,
+      "end": 3082.6,
+      "text": "um did you create an issue on on github.com/microsoft go else I recommend that you do that and then let's uh let's figure out how to how to solve that."
+    },
+    {
+      "t": 3082.6,
+      "end": 3091.3,
+      "text": "Um that should not there should not be anything there."
+    },
+    {
+      "t": 3093.8,
+      "end": 3113.8,
+      "text": "Yeah, thanks Tony. I just wanted to ask something if possible. um do you foxy um values in using the discussions features on GitHub where we can maybe post announcements or where you can ask your Q&A and don't have to like"
+    },
+    {
+      "t": 3113.8,
+      "end": 3134.2,
+      "text": "wait for the monthly office hours right now as it is structured uh people typically open issues even if if the issue is not really an issue but it's more of a question we've been contemplating using the Q&A section in the descript discussions but haven't really done anything."
+    },
+    {
+      "t": 3134.2,
+      "end": 3149.7,
+      "text": "Um, if you could I I'm not sure like how to actually ask for your opinion here. Maybe like u maybe I can ask a question in the in the Q&A and then you can uh give your answer."
+    },
+    {
+      "t": 3149.7,
+      "end": 3154.4,
+      "text": "No. Yeah."
+    },
+    {
+      "t": 3167.8,
+      "end": 3188,
+      "text": "And maybe we should remove the the question template from the issues and point to discussions instead. Um, I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for people to using"
+    },
+    {
+      "t": 3188,
+      "end": 3204.2,
+      "text": "issues more than discussions. But if we if we are more alert to um discussions there might be"
+    },
+    {
+      "t": 3204.2,
+      "end": 3209.2,
+      "text": "something that could help."
+    },
+    {
+      "t": 3222.4,
+      "end": 3227.4,
+      "text": "Um, good"
+    },
+    {
+      "t": 3231.8,
+      "end": 3250.4,
+      "text": "ide. I think majority of people have voted left and uh I don't think there are any more questions. So um yeah, let's look at the discussion thing to see how we can make that work for people and"
+    },
+    {
+      "t": 3250.4,
+      "end": 3254,
+      "text": "um and thanks for joining us."
+    }
+  ],
+  "markers": [
+    {
+      "t": 143.6,
+      "text": "[Music]"
+    },
+    {
+      "t": 144.83,
+      "text": "[Music]"
+    },
+    {
+      "t": 144.84,
+      "text": "[Music]"
+    },
+    {
+      "t": 462.56,
+      "text": "[Music]"
+    },
+    {
+      "t": 1414,
+      "text": "[Music]"
+    },
+    {
+      "t": 1415.149,
+      "text": "[Music]"
+    },
+    {
+      "t": 1415.159,
+      "text": "[Music]"
+    },
+    {
+      "t": 1571.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 1572.35,
+      "text": "[Music]"
+    },
+    {
+      "t": 1572.36,
+      "text": "[Music]"
+    },
+    {
+      "t": 1846.65,
+      "text": "[Music]"
+    },
+    {
+      "t": 1910.38,
+      "text": "[Music]"
+    },
+    {
+      "t": 1913.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 1913.48,
+      "text": "[Music]"
+    },
+    {
+      "t": 2010.03,
+      "text": "[Music]"
+    },
+    {
+      "t": 2395.1,
+      "text": "[Music]"
+    },
+    {
+      "t": 2939.44,
+      "text": "[Music]"
+    },
+    {
+      "t": 2941.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 2941.16,
+      "text": "[Music]"
+    },
+    {
+      "t": 3000.52,
+      "text": "[Music]"
+    },
+    {
+      "t": 3248.63,
+      "text": "[Music]"
+    },
+    {
+      "t": 3250.349,
+      "text": "[Music]"
+    },
+    {
+      "t": 3250.359,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5549
+}

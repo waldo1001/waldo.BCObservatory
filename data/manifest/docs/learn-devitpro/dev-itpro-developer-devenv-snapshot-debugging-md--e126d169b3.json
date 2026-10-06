@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging",
   "published_at": "2026-08-21T12:53:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "757b9f0614767b43edd0cf8325926efe639e719f",
       "words": 3785,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:31.146Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.012275
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:31.149Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:31.149Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:31.149Z",
+      "page": false
     }
   },
   "input_hash": "757b9f0614767b43edd0cf8325926efe639e719f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "757b9f0614767b43edd0cf8325926efe639e719f"
+  "output_hash": "e0afcb6315e23ef6193ef31dcf6152fe16d00b5e628a920bae7b1037ba11ed3c"
 }

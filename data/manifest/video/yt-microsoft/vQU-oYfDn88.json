@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=vQU-oYfDn88",
-  "published_at": null,
+  "published_at": "2025-04-01T15:01:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T14:19:45.517Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1368
+    },
+    "captioned": {
+      "at": "2026-10-06T14:20:09.851Z",
+      "path": "data/captions/microsoft/vQU-oYfDn88.vtt",
+      "vtt_sha256": "8898467f6e3802b2ba0aec94beee3b74339476403383dcae931c8f739de4bdcc",
+      "segments": 97,
+      "words": 3725,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 233,
-    "duration_s": 1369,
-    "via": "reconcile"
-  }
+    "duration_s": 1368,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8898467f6e3802b2ba0aec94beee3b74339476403383dcae931c8f739de4bdcc"
 }

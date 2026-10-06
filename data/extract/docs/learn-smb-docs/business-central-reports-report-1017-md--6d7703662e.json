@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1017.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1017",
+  "title": "Job Task Quote report",
+  "blob": "b52256e3f3e270ee843796329736652b3004ec45",
+  "summary": "Job Task Quote report produces a quote for a single project task, excluding budget lines and showing billable planning lines with total project value.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "job task quote",
+    "project planning",
+    "task pricing",
+    "customer quote",
+    "billable lines"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Job Task Quote"
+    }
+  ],
+  "features": [
+    "job number filter",
+    "job task number filter",
+    "budget line exclusion",
+    "billable quantity totaling",
+    "task-level pricing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003713,
+      "pages_in_call": 8
+    }
+  ]
+}

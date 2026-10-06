@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-abc-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis",
+  "title": "ABC Analysis (Power BI Report)",
+  "blob": "3c3978590bea4a011fb8d56342606420b632dbfb",
+  "summary": "ABC Analysis Power BI report ranks inventory items into A, B, C categories based on sales amounts to prioritize supply chain resources and manage stock availability decisions.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "abc analysis",
+    "inventory management",
+    "power bi report",
+    "item classification",
+    "supply chain"
+  ],
+  "objects": [],
+  "features": [
+    "Category A classification",
+    "Category B classification",
+    "Category C classification",
+    "ABC Analysis Setup page",
+    "Sales amount ranking",
+    "KPI tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00471,
+      "pages_in_call": 8
+    }
+  ]
+}

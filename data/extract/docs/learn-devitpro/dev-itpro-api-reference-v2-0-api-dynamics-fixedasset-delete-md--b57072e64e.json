@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/api/dynamics_fixedasset_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_fixedasset_delete",
+  "title": "Delete fixedAssets",
+  "blob": "f6e7b1dd460c0a2cd9b5a3edc18a61514f5291d1",
+  "summary": "Delete fixedAssets API endpoint removes a fixed asset record from Business Central using HTTP DELETE with authorization and eTag headers.",
+  "systems": [
+    "fixed-assets",
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "delete",
+    "fixed assets"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP DELETE",
+    "Authorization",
+    "If-Match header",
+    "204 No Content response"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004833,
+      "pages_in_call": 8
+    }
+  ]
+}

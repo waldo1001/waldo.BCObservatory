@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods",
   "published_at": "2026-08-13T11:24:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "14c1b37c6fc4d4c1dc3d21d00c04d15e5ab9c09a",
       "words": 1155,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:22:28.306Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006804
+    },
+    "summarized": {
+      "at": "2026-10-06T14:22:28.310Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:22:28.311Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:22:28.311Z",
+      "page": false
     }
   },
   "input_hash": "14c1b37c6fc4d4c1dc3d21d00c04d15e5ab9c09a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14c1b37c6fc4d4c1dc3d21d00c04d15e5ab9c09a"
+  "output_hash": "e422ca051276693e76d359c9fa1b4191e1bf9ab6fc183554ef1b5a7cfc805a34"
 }

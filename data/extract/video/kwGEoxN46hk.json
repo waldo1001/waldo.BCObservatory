@@ -1,0 +1,210 @@
+{
+  "video_id": "kwGEoxN46hk",
+  "item_id": "video/yt-microsoft/kwGEoxN46hk",
+  "title": "Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)",
+  "duration_s": 217,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "sales order agent",
+    "parallel agents",
+    "email monitoring",
+    "shared inbox",
+    "contact management",
+    "agent configuration",
+    "multiple instances"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction: Single Agent Limitations",
+      "t_start": 0,
+      "t_end": 23.9
+    },
+    {
+      "title": "Activating Multiple Agents in Parallel",
+      "t_start": 23.9,
+      "t_end": 57.2
+    },
+    {
+      "title": "Agent Configuration and Customization",
+      "t_start": 57.2,
+      "t_end": 95.4
+    },
+    {
+      "title": "Activating the Second Agent",
+      "t_start": 95.4,
+      "t_end": 116.6
+    },
+    {
+      "title": "Processing Messages and Handling Unknown Contacts",
+      "t_start": 116.6,
+      "t_end": 173.5
+    },
+    {
+      "title": "Managing Multiple Agents in Parallel",
+      "t_start": 173.5,
+      "t_end": 217
+    }
+  ],
+  "features": [
+    {
+      "name": "Multiple Sales Order Agents in Parallel",
+      "description": "Run several sales order agents simultaneously, each monitoring different email inboxes or folders, allowing parallel processing of incoming customer emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.9,
+      "t_end": 185.4,
+      "is_demoed": true,
+      "caveats": [
+        "Each agent should monitor a dedicated folder to avoid processing duplicate emails"
+      ],
+      "tags": [
+        "sales order agent",
+        "parallel processing",
+        "email",
+        "2026 release"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dedicated Folder Configuration for Agents",
+      "description": "Configure each sales order agent to monitor a specific email folder instead of the default inbox to prevent picking up all received emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.2,
+      "t_end": 81.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "folder selection",
+        "configuration",
+        "email routing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Message Review Settings",
+      "description": "Configure whether to review incoming messages before the agent processes them, and decide if the agent should generate quotes or orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 71.3,
+      "t_end": 95.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "message review",
+        "agent settings",
+        "quotes",
+        "orders"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom Agent Signature",
+      "description": "Set a custom signature for email replies sent by the sales order agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 95.4,
+      "t_end": 106.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "signature",
+        "email configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Contact Matching Options for Unknown Senders",
+      "description": "When an email arrives from an unknown sender, choose to create a new contact on the fly, use an existing contact, or update an existing customer's email address.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.6,
+      "t_end": 173.5,
+      "is_demoed": true,
+      "caveats": [
+        "Useful for emails from shared inboxes or no-reply portals"
+      ],
+      "tags": [
+        "contact creation",
+        "customer matching",
+        "email handling"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent Statistics and Navigation",
+      "description": "View different statistics for each running agent and switch between multiple agents to monitor their activity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.4,
+      "t_end": 196.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "monitoring",
+        "statistics",
+        "ui"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 23.9,
+      "text": "With this release, you can actually have several sales order agents running in parallel and you have access to both of them.",
+      "why_it_matters": "Announces the core new capability of this release - multiple agents running simultaneously.",
+      "check": "exact"
+    },
+    {
+      "t": 57.2,
+      "text": "reminder that is very good idea to select a dedicated folder uh to make sure that uh sales order the agent is not picking",
+      "why_it_matters": "Best practice guidance for configuring parallel agents to avoid duplicate processing.",
+      "check": "exact"
+    },
+    {
+      "t": 141.6,
+      "text": "With this version, we have options. We can actually decide to use a different existing contact, maybe once, which can be useful if we",
+      "why_it_matters": "Describes new flexibility in handling unknown senders when processing emails from customers.",
+      "check": "exact"
+    },
+    {
+      "t": 196.9,
+      "text": "So now I can actually add even more sales order agents if I have multiple shared inbox or maybe I need to monitor something",
+      "why_it_matters": "Explains use cases enabled by parallel agents - monitoring multiple shared inboxes and colleague coverage.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026633
+    }
+  ]
+}

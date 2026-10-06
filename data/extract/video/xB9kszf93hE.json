@@ -1,0 +1,211 @@
+{
+  "video_id": "xB9kszf93hE",
+  "item_id": "video/yt-microsoft/xB9kszf93hE",
+  "title": "Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)",
+  "duration_s": 326,
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "agent testing",
+    "ai evaluations",
+    "non-deterministic behavior",
+    "test automation",
+    "data-driven testing",
+    "benchmark",
+    "ai safety"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AI evaluations",
+      "t_start": 0,
+      "t_end": 31.2
+    },
+    {
+      "title": "Traditional testing approaches",
+      "t_start": 31.2,
+      "t_end": 92
+    },
+    {
+      "title": "Why AI testing differs from traditional testing",
+      "t_start": 92,
+      "t_end": 157.6
+    },
+    {
+      "title": "Types of evaluations for AI",
+      "t_start": 157.6,
+      "t_end": 186.2
+    },
+    {
+      "title": "Programmatic and data-driven testing",
+      "t_start": 186.2,
+      "t_end": 227.8
+    },
+    {
+      "title": "Using LLMs to judge outputs",
+      "t_start": 227.8,
+      "t_end": 273
+    },
+    {
+      "title": "Advanced benchmarking scenarios",
+      "t_start": 273,
+      "t_end": 326
+    }
+  ],
+  "features": [
+    {
+      "name": "AI evaluations framework",
+      "description": "A comprehensive approach to testing AI features that accounts for non-deterministic behavior, variable inputs, and subjective quality metrics rather than simple pass-fail assertions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.5,
+      "t_end": 157.6,
+      "is_demoed": false,
+      "caveats": [
+        "Different from traditional deterministic testing",
+        "Quality is subjective and requires metrics"
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "ai",
+        "quality metrics"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Programmatic evaluation with data-driven testing via YAML",
+      "description": "A deterministic approach to AI testing that uses YAML to define data-driven test cases with variations in input and bias handling, enabling repeatable evaluation of AI features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.8,
+      "t_end": 237.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires structured test case definition"
+      ],
+      "tags": [
+        "data-driven",
+        "yaml",
+        "test automation",
+        "deterministic"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LLM-based output evaluation",
+      "description": "Using language models to automatically judge and score AI-generated outputs such as emails, product descriptions, or project descriptions against specified criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249,
+      "t_end": 289.8,
+      "is_demoed": false,
+      "caveats": [
+        "Works best for generated text and communication",
+        "Foundry reference suggests platform-specific tooling"
+      ],
+      "tags": [
+        "llm",
+        "scoring",
+        "output validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent benchmarking and observability",
+      "description": "Advanced evaluation scenarios for comparing multiple agents across specific setups, observing metrics like latency, cost, and error rates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 289.8,
+      "t_end": 312.5,
+      "is_demoed": false,
+      "caveats": [
+        "Not covered in detail in this session",
+        "Focus of later content"
+      ],
+      "tags": [
+        "benchmark",
+        "agents",
+        "observability",
+        "cost"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Nikola",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 4.5,
+      "text": "the important part is not necessarily how good your prompt is or your instructions, but how good your evaluations are",
+      "why_it_matters": "Establishes the core thesis that evaluation quality, not prompt engineering, is the key to AI success.",
+      "check": "exact"
+    },
+    {
+      "t": 106.2,
+      "text": "AI is different in that AI has non-deterministic behavior. The uh the inputs will vary.",
+      "why_it_matters": "Defines why traditional deterministic testing approaches do not work for AI systems.",
+      "check": "exact"
+    },
+    {
+      "t": 157.6,
+      "text": "the behavior isn't repeatable, and the quality is subjective, and the metrics actually matter more than just a pass-fail",
+      "why_it_matters": "Explains the fundamental differences in how AI features must be evaluated compared to traditional software.",
+      "check": "exact"
+    },
+    {
+      "t": 200.8,
+      "text": "you need to program the tests in a deterministic way. You can have variation in the input.",
+      "why_it_matters": "Describes the solution approach of creating deterministic test frameworks that accommodate input variation.",
+      "check": "exact"
+    },
+    {
+      "t": 215.4,
+      "text": "building it in AI AIL and using um data-driven via YAML gives you a framework for basically testing in a deterministic way",
+      "why_it_matters": "Specifies the technical tools and approach for implementing repeatable AI testing.",
+      "check": "exact"
+    },
+    {
+      "t": 273,
+      "text": "you can use LLMs to try to judge, okay, I asked for this, does the answer reflect what I asked for?",
+      "why_it_matters": "Shows how LLMs themselves can be used as validators for subjective output quality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 300.2,
+      "kind": "not-in-this-release",
+      "text": "But we're not really going to cover that today. The main focus is on the on the second part."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027163
+    }
+  ]
+}

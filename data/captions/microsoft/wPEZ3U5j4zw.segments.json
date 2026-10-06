@@ -1,0 +1,201 @@
+{
+  "video_id": "wPEZ3U5j4zw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 26.5,
+      "text": "hello everyone and welcome to this lunch event session on flexible update management uh my name is y and I'm co-presenting with Ricardo today um flexible update management we've had for a few months now it's been in public preview throughout um 2024 Wave 2 and now with 2025 Wave 1 we're very excited for it to reach General availability um in short"
+    },
+    {
+      "t": 26.5,
+      "end": 46.7,
+      "text": "flexible update management lets administrators schedule environment updates with more flexibility um and this can help meet the requirements of update ADV verse customers so you might think of a customer that runs a 24-hour shop and doesn't want to go through an update every month or a customer that has extensive testing requirements and simply needs more time for each update um that they install"
+    },
+    {
+      "t": 46.7,
+      "end": 62,
+      "text": "and secondly this will also help reduce the workload of partners that are scheduling their environment updates for their customers over a longer periods so that they can spread that workload over the entire year rather than have Peaks uh whenever major updates come out"
+    },
+    {
+      "t": 62,
+      "end": 82.7,
+      "text": "um major minor updates are coming in a major update cycle now the major update cycle starts with a preview period during this period um administrators can create a Sandbox environment on the new version to test the new functionality before the update becomes available on their production environment once this preview period is over um we go into the update period"
+    },
+    {
+      "t": 82.7,
+      "end": 100.4,
+      "text": "now with flexible update management this update period is always five calendar months with a fixed end date meaning that the major update comes out every April we'll have an update period that ends at the end of August and every major update that comes out in October we have an update period that ends at the end of"
+    },
+    {
+      "t": 100.4,
+      "end": 120.8,
+      "text": "February after this update period we now move on into a grace period this is a one month period um during which we will attempt the update uh every week so it's no longer possible to pick any date the update will run if it fails we will reschedule it to take place seven days after the original date if it succeeds you're out of the grace period and into the update period for the next major"
+    },
+    {
+      "t": 120.8,
+      "end": 141.2,
+      "text": "version um during this period this update cannot be postponed any further so we'll schedule it it will run at the date that we schedule and if it succeeds you're on to the next update period if your environment fails to update during the grace period so um we've tried to update it a couple times during the grace period it has not succeeded we then move on into the enforced"
+    },
+    {
+      "t": 141.2,
+      "end": 160.5,
+      "text": "update period uh during which we'll Force the update to succeeds by uninstalling any apps that are not compatible with the next version um what's important about this this uninstalled apps is that we will uninstall the app but we will not delete the data so if you later on install compatible version of this app the data will be available"
+    },
+    {
+      "t": 160.5,
+      "end": 180.6,
+      "text": "again um minor updates uh are the same in two ways so first of all we'll continue to ship a minor update in every month um that we're not shipping a major update so every month except April and October um the default scheduling of these minor updates is also unchanged so if you choose not to use any of the flexible update management features your"
+    },
+    {
+      "t": 180.6,
+      "end": 200.9,
+      "text": "environment will continue to receive an update every month and will be installed at the date that Microsoft schedules of course you can now choose not to do these minor updates so it's possible to skip minor updates and you can opt out of scheduling them automatically by scheduling an update to a later version before a minor update comes out and that kind of goes into the fourth bullet"
+    },
+    {
+      "t": 200.9,
+      "end": 215.5,
+      "text": "here where you can select a Target version for an update so if you're on let's say version 25.3 today you can choose to update uh to version 26.3 next and Skip any versions that are in between those"
+    },
+    {
+      "t": 215.5,
+      "end": 233.2,
+      "text": "two and finally what's new is that you can now create uh environments on any supported version so during the update periods for version 26 uh which will run between April and August 2025 you'll be able to create new environments on version 25 or on version"
+    },
+    {
+      "t": 233.2,
+      "end": 253.2,
+      "text": "26 so looking at the calendar for 2025 this is what our update cycle looks like um it's April now so we've just completed the update cycle for environments to update from version 24 to version 25 um this version was released first in October so the update period ran until the end of February we've had a one month grace period in March and"
+    },
+    {
+      "t": 253.2,
+      "end": 273.2,
+      "text": "now it's April we're forcing any environments that have not updated yet to complete this update um at the same time of this grace period during March we run the preview for version 26 and now that is April the the regular update period has run and will continue to run until the end of August after which again we'll um have a grace"
+    },
+    {
+      "t": 273.2,
+      "end": 293.2,
+      "text": "period in September and a force update period starting in October and finally version 27 later this year when it comes out in in September will follow the same pattern where the preview period overlaps with the grace period and the force update period starts when the regular updates to version 27"
+    },
+    {
+      "t": 293.2,
+      "end": 313.4,
+      "text": "start um what's new with flexible update management now that it's generally available is that it's available globally so the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally so also on environment localizations that are not localized by Microsoft um you also start to see the admin sensor"
+    },
+    {
+      "t": 313.4,
+      "end": 333.5,
+      "text": "changes come in so you'll be able to choose a specific Target version for your next environment update you'll be able to opt out of an update until specified Target version rard will show you how that works and you'll be able to now create environments on any version um finally there's also API changes so the the API that we've had for years to manage environment updates will continue"
+    },
+    {
+      "t": 333.5,
+      "end": 353.7,
+      "text": "to work uh but it will not support any of the new flexibility that we're introducing here so if you're using the API to schedule updates across all of your environments I'd recommend that you look at the new API end points to use this new flexibility uh in your automations as well and now to see what it looks like in the admin Center Ricardo yeah thank you use so I will be glad"
+    },
+    {
+      "t": 353.7,
+      "end": 373.7,
+      "text": "to show you how you as a tenant administrator can leverage the new flexible update management capabilities in the admin Center so let's just jump straight into a demo so I am a tenant administrator indeed and I am already in the environment Details page I have my production environment open right here so"
+    },
+    {
+      "t": 373.7,
+      "end": 394.2,
+      "text": "what stands out now is that we have repurposed a little bit this panel down here which is now called update settings and it provides a little bit um slightly different information compared to what we used to show here so first of all you can notice we are running currently home version 25.0"
+    },
+    {
+      "t": 394.2,
+      "end": 414.8,
+      "text": "so major minor version is 25 and currently at this point in time we have the latest available version that we can choose for an update is 25.5 So currently it means 25.5 is the latest available version on which we can create environments and update these environment to"
+    },
+    {
+      "t": 414.8,
+      "end": 435.2,
+      "text": "so then we have this uh section here called next update which will tell tell us at this point in time what is the next Target version that this environment will be updated to and on which date and lastly but not least uh what is the latest date after which um the grace period will"
+    },
+    {
+      "t": 435.2,
+      "end": 455.6,
+      "text": "start um that we can update our environment to the next major version so in this case it will be 26.0 so in other words we are allowed to stay on version 25.0 until these cut of date after that date The Grace update period will start and then we will begin with these weekly update"
+    },
+    {
+      "t": 455.6,
+      "end": 475.6,
+      "text": "attempts so what happens now when we want to reschedule our update or pick a different Target version so if we click on modify here then the usual schedule environment update fly out opens up and we already noticed that something is different here because now we have the choice of the target version we can"
+    },
+    {
+      "t": 475.6,
+      "end": 496.5,
+      "text": "pick any available Target version uh that is currently already that has currently already been released and those are marked as available and additionally we are also offered the possibility to pick any unreleased version up to version 26.4 so we have already mentioned 26.0"
+    },
+    {
+      "t": 496.5,
+      "end": 517,
+      "text": "at this point in time has not been released yet then we are free to choose any version up to 26.4 so let's imagine I want to actually skip one of the next immediate minor updates I want to Target get my environment already to version 25.4 so um we can already see that"
+    },
+    {
+      "t": 517,
+      "end": 537,
+      "text": "as usual we can select an update date anytime in the future so let's pick just a date for this and schedule the update then of course this is immediately reflected in this cell right here we can now see it's pointing 25.4 on this date but what if instead I want to pick a version that"
+    },
+    {
+      "t": 537,
+      "end": 557.5,
+      "text": "has not been released yet so it is planned for some later time in the future so let's say imagine that I pick 26.2 planned for June 2025 so at this point we cannot pick a Target update date for this version because the message here will indeed tell us that the update will automatically"
+    },
+    {
+      "t": 557.5,
+      "end": 578,
+      "text": "be scheduled after within 14 days um since the since this specific version is released so it will be Microsoft internally who schedules the version who schedules the update to 26.2 for this environment and at that point tenant administrators will still be able to"
+    },
+    {
+      "t": 578,
+      "end": 590.5,
+      "text": "reschedule the update to any other uh date in the future so if I pick this target version this is again reflected here slightly differently we can see we are targeting"
+    },
+    {
+      "t": 590.5,
+      "end": 610.6,
+      "text": "26.2 scheduled upon release so if I navigate back to the environments list page we can see this choice is also refle Ed in the schedule update date column and in next update we can see we are targeting 26.2 but the schedule update date is not scheduled because of course we"
+    },
+    {
+      "t": 610.6,
+      "end": 623.3,
+      "text": "haven't we we were not able to pick a specific date for this target version at this point in time but when the update becomes available and it is scheduled then of course a new date will show up"
+    },
+    {
+      "t": 623.3,
+      "end": 643.5,
+      "text": "here okay so now that we're done with the demo let's uh jump into some of the best practi practices that come uh taking into considerations the new capabilities offered by flexible update management so of course we've seen that historically speaking majority of the environments could keep up with the latest versions though they are usually sticking to the latest"
+    },
+    {
+      "t": 643.5,
+      "end": 664,
+      "text": "available versions and they can be updated with no issues however we do know that there are some environments that may actually start lagging behind with the latest version so this is when you can benefit from the flexibility uh offered by this new this new feature um but that of course comes with extra considerations about keeping your environments in an updatable"
+    },
+    {
+      "t": 664,
+      "end": 684.3,
+      "text": "State uh it's important that you stay current with the extension so that you can always make sure that they are compatible with the target versions that you eventually want to Target for your environments and therefore it's also important to stay updated on the product changes uh be aware of the what's new um documentation that we always publish with every new"
+    },
+    {
+      "t": 684.3,
+      "end": 694,
+      "text": "version that is available in business Central thank you thank you for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2018
+}

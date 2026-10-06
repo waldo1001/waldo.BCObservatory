@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "994a02f9a23ea264edaf4db6962752be2deeb066",
       "words": 707,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:19:05.033Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005587
+    },
+    "summarized": {
+      "at": "2026-10-06T14:19:05.037Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:19:05.037Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:19:05.037Z",
+      "page": false
     }
   },
   "input_hash": "994a02f9a23ea264edaf4db6962752be2deeb066",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "994a02f9a23ea264edaf4db6962752be2deeb066"
+  "output_hash": "6051ca9d2ee3dc7bf12dbd12c9f341767f3f464d60f19721cdc591ef40802166"
 }

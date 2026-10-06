@@ -1,0 +1,176 @@
+{
+  "video_id": "Wc8WlLZUCJc",
+  "item_id": "video/yt-microsoft/Wc8WlLZUCJc",
+  "title": "Infinity Group Internal AI Transformation",
+  "duration_s": 139,
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "ai transformation",
+    "data consolidation",
+    "workflow automation",
+    "supplier invoicing",
+    "business central",
+    "organizational change",
+    "cultural enablement",
+    "partner guidance"
+  ],
+  "chapters": [
+    {
+      "title": "Becoming an AI-first organization",
+      "t_start": 0,
+      "t_end": 13.4
+    },
+    {
+      "title": "Data consolidation and frontier firm mindset",
+      "t_start": 13.4,
+      "t_end": 31.4
+    },
+    {
+      "title": "Customer zero journey and organizational enablement",
+      "t_start": 31.4,
+      "t_end": 43.3
+    },
+    {
+      "title": "Workflow automation and business growth metrics",
+      "t_start": 43.3,
+      "t_end": 61.9
+    },
+    {
+      "title": "Business Central partnership and market transformation",
+      "t_start": 61.9,
+      "t_end": 79.6
+    },
+    {
+      "title": "Cultural impact and people enablement",
+      "t_start": 79.6,
+      "t_end": 96
+    },
+    {
+      "title": "Three pieces of advice for partners",
+      "t_start": 96,
+      "t_end": 107.8
+    },
+    {
+      "title": "Identifying business challenges and data importance",
+      "t_start": 107.8,
+      "t_end": 119.7
+    },
+    {
+      "title": "Taking people on the transformation journey",
+      "t_start": 119.7,
+      "t_end": 139
+    }
+  ],
+  "features": [
+    {
+      "name": "Supplier invoicing automation",
+      "description": "Automated workflow for supplier invoicing that enabled the team to focus on strategic initiatives rather than manual invoice processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43.3,
+      "t_end": 50,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "supplier invoicing",
+        "workflow automation",
+        "operational efficiency"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Data consolidation for AI",
+      "description": "Consolidating disparate systems' data into one place to unlock value and enable AI capabilities across the organization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.4,
+      "t_end": 30,
+      "is_demoed": false,
+      "caveats": [
+        "Requires understanding business challenges and team coordination"
+      ],
+      "tags": [
+        "data consolidation",
+        "integration",
+        "ai enablement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Customer zero journey",
+      "description": "Organizational transformation program that touched every element of the organization and enabled departments to become change agents while returning capacity to teams.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.4,
+      "t_end": 42,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "organizational transformation",
+        "change management",
+        "capacity enablement"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.9,
+      "text": "I don't believe that you could become an AI first organization talking about AI and delivering AI unless you've been through that journey and",
+      "why_it_matters": "Establishes the core premise that authentic AI transformation requires lived experience, not just vision statements.",
+      "check": "exact"
+    },
+    {
+      "t": 13.4,
+      "text": "to embrace AI we needed to consolidate all of that data into one place so that we could unlock all of the the value",
+      "why_it_matters": "Identifies data consolidation as a prerequisite for AI success - a critical foundational step before advanced capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 43.3,
+      "text": "we've automated a number of workflows including supplier invoicing. It's enabled the team to focus on more important anonymization and strategic initiatives. That's allowed",
+      "why_it_matters": "Quantifies the business impact of automation - 40% growth without additional headcount demonstrates measurable ROI from workflow improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 61.9,
+      "text": "We've gone from local IT provider to global business central partner of the year in the space of 3 years",
+      "why_it_matters": "Shows market recognition of the transformation and positions Business Central adoption as a competitive differentiator for the organization.",
+      "check": "exact"
+    },
+    {
+      "t": 107.8,
+      "text": "Number one, understand your business challenges, talk to your teams, find the bottlenecks. Number two, get your data sorted out. Cannot underestimate how important",
+      "why_it_matters": "Prescriptive guidance from a transformed organization - data quality is ranked as critical, not secondary, to AI transformation success.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024701
+    }
+  ]
+}

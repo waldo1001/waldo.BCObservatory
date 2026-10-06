@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-location-options",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a",
       "words": 92,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:57.664Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004685
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:57.668Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:57.669Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:57.669Z",
+      "page": false
     }
   },
   "input_hash": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a"
+  "output_hash": "7fbd67fc27ac03ee81ea8354f095af06c5665c01654b6ca7cfff77d23e8dd133"
 }

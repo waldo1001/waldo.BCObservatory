@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-disable-soap-microsoft-pages-feature-key.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-disable-soap-microsoft-pages-feature-key",
+  "title": "Disable SOAP web services on Microsoft UI pages feature key",
+  "blob": "d73ef781cb593919574b6194a652bc3b4dbf6d0d",
+  "summary": "The Disable SOAP web services on Microsoft UI pages feature key controls whether Microsoft-provided pages can be exposed as SOAP web services; deprecated and removed in version 30.0, with migration guidance to REST APIs or OData.",
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "soap",
+    "web services",
+    "deprecation",
+    "api migration",
+    "feature key"
+  ],
+  "objects": [],
+  "features": [
+    "SOAP web service publishing control",
+    "Feature key toggle",
+    "REST API alternative",
+    "OData V4 alternative",
+    "Per-tenant extension support"
+  ],
+  "versions": [
+    "version 30.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006802,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bae13a570d6b402420ac4df209997cd57a9ef80d",
       "words": 1527,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T14:04:51.504Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005133
+    },
+    "summarized": {
+      "at": "2026-10-06T14:04:51.507Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:04:51.507Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:04:51.507Z",
+      "page": false
     }
   },
   "input_hash": "bae13a570d6b402420ac4df209997cd57a9ef80d",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bae13a570d6b402420ac4df209997cd57a9ef80d"
+  "output_hash": "76b995ef978a7d8f2987f487c2b1a97be79dc7b09a11ef61879749b3742cd9fd"
 }

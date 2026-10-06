@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-contribute-extensibility",
   "published_at": "2026-09-01T13:36:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2b61a262b3a657d491e514645ee6577f114deb4e",
       "words": 425,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.834Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.839Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.840Z",
+      "page": false
     }
   },
   "input_hash": "2b61a262b3a657d491e514645ee6577f114deb4e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2b61a262b3a657d491e514645ee6577f114deb4e"
+  "output_hash": "07921130ed791275c21fc1191097537764d455502c092dbd2f3ade53a120d0db"
 }

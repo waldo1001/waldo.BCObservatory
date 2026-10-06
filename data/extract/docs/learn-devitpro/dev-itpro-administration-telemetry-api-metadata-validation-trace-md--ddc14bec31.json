@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-api-metadata-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-api-metadata-validation-trace",
+  "title": "Analyze API metadata validation telemetry",
+  "blob": "2f4f2531c9e875f5ab13f67b2ee701be2b52ba75",
+  "summary": "API metadata validation telemetry tracks errors during Business Central API generation, including conflicting paths, invalid pages, circular references, invalid root entities, and conflicting navigation properties. Use this to diagnose API page configuration issues.",
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "api",
+    "metadata",
+    "validation",
+    "telemetry",
+    "diagnostics",
+    "error tracking"
+  ],
+  "objects": [],
+  "features": [
+    "API metadata validation",
+    "Conflicting API path detection",
+    "Invalid page detection",
+    "Circular reference detection",
+    "Invalid root entity detection",
+    "Conflicting navigation property detection",
+    "KQL telemetry queries"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008564,
+      "pages_in_call": 3
+    }
+  ]
+}

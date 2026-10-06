@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-send-documents-email",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "706355879fd83ff211134f3beadea3fb4a09bf24",
       "words": 1143,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:03:05.343Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007228
+    },
+    "summarized": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:03:05.346Z",
+      "page": false
     }
   },
   "input_hash": "706355879fd83ff211134f3beadea3fb4a09bf24",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "706355879fd83ff211134f3beadea3fb4a09bf24"
+  "output_hash": "7c05e6739126991a10abd4d3bf997a0f331abdf2ee3fbefc7fb4b950228ded2d"
 }

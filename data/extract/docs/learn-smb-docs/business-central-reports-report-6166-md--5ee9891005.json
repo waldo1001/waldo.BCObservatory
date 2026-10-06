@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6166.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6166",
+  "title": "Posted Sales Invoice with QR report",
+  "blob": "61692e59d5a6cde9fdc343063889363d60e2bb37",
+  "summary": "The Posted Sales Invoice with QR report extends the standard sales invoice with an embedded payment QR code in Word layouts for customer payment acceleration.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales-invoices",
+    "qr-codes",
+    "payment-processing",
+    "customer-communication"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Posted Sales Invoice with QR"
+    }
+  ],
+  "features": [
+    "QR code embedding",
+    "payment QR code",
+    "VAT-inclusive totals",
+    "body-only layout",
+    "composite document support",
+    "date range filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

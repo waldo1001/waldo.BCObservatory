@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6102.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6102",
+  "title": "E-Doc Sample Purchase Invoice report",
+  "blob": "f0e116ebc3683452a67a0d522478334544e7a5b7",
+  "summary": "The E-Doc Sample Purchase Invoice report generates a preview PDF of a purchase invoice from e-document data to validate layout before production use.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "purchase-invoices",
+    "layout-preview",
+    "vendor-management"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "E-Doc Sample Purchase Invoice"
+    }
+  ],
+  "features": [
+    "purchase invoice preview",
+    "e-document header and line rendering",
+    "vendor address formatting",
+    "tax calculation display",
+    "invoice totals validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003184,
+      "pages_in_call": 8
+    }
+  ]
+}

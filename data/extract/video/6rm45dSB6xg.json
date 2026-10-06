@@ -1,0 +1,200 @@
+{
+  "video_id": "6rm45dSB6xg",
+  "item_id": "video/yt-microsoft/6rm45dSB6xg",
+  "title": "Expense Agent: Feedback (2026 release wave 1)",
+  "duration_s": 131,
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "feedback",
+    "agent",
+    "user experience",
+    "screenshots",
+    "support information",
+    "contextual feedback",
+    "issue reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Expense Agent feedback",
+      "t_start": 0,
+      "t_end": 13.5
+    },
+    {
+      "title": "Feedback mechanisms in the product",
+      "t_start": 13.5,
+      "t_end": 24.6
+    },
+    {
+      "title": "Partner support and help resources",
+      "t_start": 24.6,
+      "t_end": 34.6
+    },
+    {
+      "title": "Support information across all feedback channels",
+      "t_start": 34.6,
+      "t_end": 53.9
+    },
+    {
+      "title": "Contextual feedback for expenses",
+      "t_start": 53.9,
+      "t_end": 78.6
+    },
+    {
+      "title": "Screenshot capture and annotation",
+      "t_start": 78.6,
+      "t_end": 109.2
+    },
+    {
+      "title": "Contact preferences and follow-up",
+      "t_start": 109.2,
+      "t_end": 131
+    }
+  ],
+  "features": [
+    {
+      "name": "In-product feedback mechanism",
+      "description": "Users can provide positive feedback, suggestions, and issue reports directly within the Expense Agent product interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.5,
+      "t_end": 23.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "ui",
+        "issue reporting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Contextual expense feedback",
+      "description": "Users can provide specific feedback about expenses they run into, indicating what worked well or what did not work well.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.9,
+      "t_end": 77.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "contextual",
+        "expenses"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Screenshot capture with redaction",
+      "description": "Users can capture and include screenshots with feedback, with the ability to hide personal information and highlight important details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.6,
+      "t_end": 97.5,
+      "is_demoed": true,
+      "caveats": [
+        "users manually redact sensitive information"
+      ],
+      "tags": [
+        "screenshots",
+        "privacy",
+        "feedback"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Support information collection",
+      "description": "Automatic collection and provision of support information alongside feedback from any channel in the product, enabling follow-up with users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.6,
+      "t_end": 53.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "support",
+        "feedback",
+        "follow-up"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Optional contact information",
+      "description": "Users can optionally provide contact information to be reached regarding their feedback, though feedback is tracked regardless.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109.2,
+      "t_end": 119.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "contact",
+        "feedback",
+        "optional"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.7,
+      "text": "Your feedback is very important to us. We want to make sure that we can get the right feedback that we need and make",
+      "why_it_matters": "Establishes the importance of user feedback and the design goal of making feedback submission frictionless.",
+      "check": "exact"
+    },
+    {
+      "t": 13.5,
+      "text": "we've made it as easy as possible to click and give not only positive feedback, but also suggestions and report any issues that you",
+      "why_it_matters": "Describes the three feedback channels built into the Expense Agent: positive feedback, suggestions, and issue reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 34.6,
+      "text": "no matter where you provide feedback in the product, whether it's here or from the header, or where I'm going to show you next,",
+      "why_it_matters": "Clarifies that support context is automatically collected from all feedback channels to enable proper follow-up.",
+      "check": "exact"
+    },
+    {
+      "t": 64.2,
+      "text": "What's really important about this is you'll be able to provide as much information as you feel comfortable.",
+      "why_it_matters": "Emphasizes that feedback submission is flexible and user-controlled regarding level of detail provided.",
+      "check": "exact"
+    },
+    {
+      "t": 78.6,
+      "text": "You can capture your screenshots here. And in case the screenshots show personal information that you don't want to show, we make it very",
+      "why_it_matters": "Highlights privacy-aware screenshot capture feature with manual redaction capability for sensitive data.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025948
+    }
+  ]
+}

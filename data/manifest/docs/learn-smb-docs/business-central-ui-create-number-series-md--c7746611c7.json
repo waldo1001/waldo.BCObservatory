@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-create-number-series",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "43b1e2a891a1c8c4a85af378355466ca661c84d6",
       "words": 1614,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T14:01:40.446Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.009013
+    },
+    "summarized": {
+      "at": "2026-10-06T14:01:40.451Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:01:40.451Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:01:40.452Z",
+      "page": false
     }
   },
   "input_hash": "43b1e2a891a1c8c4a85af378355466ca661c84d6",
@@ -94,5 +113,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43b1e2a891a1c8c4a85af378355466ca661c84d6"
+  "output_hash": "004beea95df97c5e4842c04a762c902d0a4d45fd16831a82d39e260d5836026d"
 }

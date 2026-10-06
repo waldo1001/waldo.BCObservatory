@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/version-numbers",
   "published_at": "2026-08-31T08:45:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b947b519231aa5a4bfad89c6ef977324c02e28e4",
       "words": 550,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:21:58.837Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007169
+    },
+    "summarized": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:21:58.842Z",
+      "page": false
     }
   },
   "input_hash": "b947b519231aa5a4bfad89c6ef977324c02e28e4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b947b519231aa5a4bfad89c6ef977324c02e28e4"
+  "output_hash": "de15aa592576b2ce1b5c7c65a4ddf1483436aafbcb686fff981a0d5af5a4cf06"
 }

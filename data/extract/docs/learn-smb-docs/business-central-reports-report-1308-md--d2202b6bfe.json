@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1308.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1308",
+  "title": "Standard Sales - Shipment (report)",
+  "blob": "0da1397353b864cbf98fe13d2e53659a4ce89d03",
+  "summary": "The Standard Sales - Shipment report prints posted sales shipments with company and customer addresses, shipped items, and optionally lot/serial numbers and assembly components, supporting RDLC and Word layouts with interaction logging.",
+  "systems": [
+    "sales",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "sales reports",
+    "shipment",
+    "warehouse",
+    "document printing",
+    "lot tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Shipment"
+    }
+  ],
+  "features": [
+    "Shipment confirmation printing",
+    "Lot and serial number appendix",
+    "Assembly component display",
+    "Zero-quantity line hiding",
+    "Interaction logging",
+    "Correction lines display",
+    "Multiple layout support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005502,
+      "pages_in_call": 8
+    }
+  ]
+}

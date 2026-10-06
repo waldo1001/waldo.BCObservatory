@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/germany-local-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-local-functionality",
+  "title": "Germany local functionality",
+  "blob": "45690d3a519e8d4c009a147e895dd79543d4855a",
+  "summary": "Germany localization provides VAT reporting, electronic invoicing (xRechnung, ZUGFeRD, Peppol), delivery reminders for purchases, digital audit processes, and Intrastat functionality.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "germany",
+    "vat",
+    "einvoicing",
+    "digital audit",
+    "delivery reminders",
+    "intrastat"
+  ],
+  "objects": [],
+  "features": [
+    "VAT reporting and declarations",
+    "sales VAT advance notifications",
+    "German e-invoicing formats",
+    "delivery reminder setup and generation",
+    "digital audit data export",
+    "GoBD filtering"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "2027 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00753,
+      "pages_in_call": 8
+    }
+  ]
+}

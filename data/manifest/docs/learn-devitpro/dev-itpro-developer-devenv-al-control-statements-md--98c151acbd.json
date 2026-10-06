@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements",
   "published_at": "2026-09-15T13:14:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "924cb3637446eeec8f975cb52fdc4d8ee661364e",
       "words": 2329,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T14:19:05.032Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005587
+    },
+    "summarized": {
+      "at": "2026-10-06T14:19:05.036Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:19:05.036Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:19:05.036Z",
+      "page": false
     }
   },
   "input_hash": "924cb3637446eeec8f975cb52fdc4d8ee661364e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "924cb3637446eeec8f975cb52fdc4d8ee661364e"
+  "output_hash": "f5a78b7251ff3d72e81a08a37a60f5a3bdf342d1a822ea4b00ee23a295563c1d"
 }

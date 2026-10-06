@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-transfer",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "28a0c8c49c338215ab705c106c1a4fbe33743eea",
       "words": 351,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T14:06:35.055Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006059
+    },
+    "summarized": {
+      "at": "2026-10-06T14:06:35.059Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T14:06:35.059Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T14:06:35.059Z",
+      "page": false
     }
   },
   "input_hash": "28a0c8c49c338215ab705c106c1a4fbe33743eea",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "28a0c8c49c338215ab705c106c1a4fbe33743eea"
+  "output_hash": "bb2c1a8c7a4f2aeb07352f4c5436b662f7ba58dd2a329dfde4473d39c66b40d5"
 }

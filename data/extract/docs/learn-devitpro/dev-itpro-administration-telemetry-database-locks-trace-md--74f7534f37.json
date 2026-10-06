@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-locks-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace",
+  "title": "Database Lock Timeout Trace Telemetry | Microsoft Docs",
+  "blob": "647e072197a589cbcf1549e0c9aafb3345434aae",
+  "summary": "Troubleshoot database lock timeouts by analyzing telemetry events that capture lock requests, sessions holding locks, and associated SQL statements.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database locks",
+    "telemetry",
+    "contention monitoring",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Database lock timeout detection",
+    "Lock snapshots",
+    "EnableLockTimeoutMonitoring",
+    "Lock mode tracking",
+    "Event ID RT0012",
+    "Event ID RT0013",
+    "Event ID RT0027"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16.0",
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005878,
+      "pages_in_call": 8
+    }
+  ]
+}

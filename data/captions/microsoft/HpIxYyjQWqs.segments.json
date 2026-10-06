@@ -1,0 +1,68 @@
+{
+  "video_id": "HpIxYyjQWqs",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.4,
+      "end": 16.2,
+      "text": "This video will give you a quick overview of working with journals in Business Central. You can use journals to perform most of your bookkeeping tasks. In the business manager role center, journals are found under finance."
+    },
+    {
+      "t": 16.2,
+      "end": 29.1,
+      "text": "The general journals are general purpose journals used for almost all bookkeeping tasks. But there are also specific purpose journals. If you're using the accountant ro center, you will also find access to journals."
+    },
+    {
+      "t": 29.1,
+      "end": 39.4,
+      "text": "You will find the same set placed under journals, including general journals. The different journals work almost the same way independent of feature area."
+    },
+    {
+      "t": 39.4,
+      "end": 49.8,
+      "text": "So, we'll focus on general journals here. All journal types have templates. Templates allow you to set up parameters that control the different journal types."
+    },
+    {
+      "t": 49.8,
+      "end": 64.5,
+      "text": "For a given journal type, you can set up multiple journals to split up the task either by type or between users performing different bookkeeping tasks. There are two basic ways of filling in a journal with or without balancing accounts."
+    },
+    {
+      "t": 64.5,
+      "end": 75.3,
+      "text": "If you're new to Dynamics 365 or doing tasks like registering reimbursements, it might be easier to fill in journals line by line without balancing accounts."
+    },
+    {
+      "t": 75.3,
+      "end": 85.9,
+      "text": "For each line, you specify the expense. You select the account number and type in what the expense is. This will give you a nice overview of what you're doing and the entries you work with."
+    },
+    {
+      "t": 85.9,
+      "end": 101.4,
+      "text": "When you become more familiar with journal posting, you might find it easier to work with balancing accounts per line. For each expense, like a purchase invoice, you type in the expense detail, such as tax info, the amount, and then balance out the journal line by line,"
+    },
+    {
+      "t": 101.4,
+      "end": 114,
+      "text": "specifying the balancing account. This way reduces the number of lines you must fill in, making journal entry faster. You can always check before you post the journal by using the general journal test action."
+    },
+    {
+      "t": 114,
+      "end": 127.8,
+      "text": "It will generate a test report which you can look over. When you're satisfied with your journal entries, you can post them. If you make a mistake, you can always reverse journal entries."
+    },
+    {
+      "t": 127.8,
+      "end": 141.4,
+      "text": "Find the entry usually by searching the GL registers. Then use the reverse register action. This will reverse the entries completely and you can post a new correct journal."
+    },
+    {
+      "t": 141.4,
+      "end": 158,
+      "text": "You now have an overview of general journals in Business Central and know how and where to find them. You can always leave and come back to a journal. No need to save your work. Thank you for watching and good luck with your bookkeeping in Business Central."
+    }
+  ],
+  "markers": [],
+  "word_count": 416
+}
