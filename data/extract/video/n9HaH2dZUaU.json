@@ -1,0 +1,371 @@
+{
+  "video_id": "n9HaH2dZUaU",
+  "item_id": "video/yt-microsoft/n9HaH2dZUaU",
+  "title": "What's New: Cloud for Sovereignty (2026 release wave 1)",
+  "duration_s": 1109,
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "cloud sovereignty",
+    "data protection",
+    "access controls",
+    "encryption",
+    "compliance",
+    "audit logging",
+    "geographic data placement",
+    "privileged access management",
+    "customer lockbox",
+    "environmental isolation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 60.7
+    },
+    {
+      "title": "Microsoft's Five Digital Commitments for Europe",
+      "t_start": 60.7,
+      "t_end": 331.8
+    },
+    {
+      "title": "Cloud for Sovereignty Overview and Access Controls",
+      "t_start": 331.8,
+      "t_end": 404.5
+    },
+    {
+      "title": "Role-Based Access Control and Privileged Identity Management",
+      "t_start": 404.5,
+      "t_end": 632.2
+    },
+    {
+      "title": "Security Controls and Data Isolation",
+      "t_start": 632.2,
+      "t_end": 707.2
+    },
+    {
+      "title": "Sovereignty Controls and Geographic Data Placement",
+      "t_start": 707.2,
+      "t_end": 881.8
+    },
+    {
+      "title": "Transparency Controls and Audit Features",
+      "t_start": 881.8,
+      "t_end": 1067.2
+    },
+    {
+      "title": "Conclusion and Next Steps",
+      "t_start": 1067.2,
+      "t_end": 1109
+    }
+  ],
+  "features": [
+    {
+      "name": "Role-Based Access Control (RBAC)",
+      "description": "Enforces layered access through security groups at environment level, Entra ID groups, entitlements, and permission sets to determine what users can access within Business Central environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378.8,
+      "t_end": 503,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "access control",
+        "security",
+        "entitlements",
+        "permission sets"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Privileged Identity Management (PIM)",
+      "description": "Allows customers to grant elevated access on a temporary and reviewed basis through Entra roles, security group memberships, and conditional access policies for Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 390.4,
+      "t_end": 592.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "privileged access",
+        "temporary access",
+        "entra integration",
+        "conditional access"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Granular Delegated Admin Permissions (GDAP)",
+      "description": "Enables customers to approve Entra role assignments that partners need to access customer environments, using the Dynamics 365 Business Central administrator role as the recommended least privileged role.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 390.4,
+      "t_end": 621.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner access",
+        "delegated admin",
+        "least privilege"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Isolated SQL Database per Environment",
+      "description": "Each Business Central environment runs as its own dedicated isolated SQL database with no data commingling between environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 632.2,
+      "t_end": 648.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data isolation",
+        "database security",
+        "environment separation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Encryption at Rest",
+      "description": "Business Central environments are encrypted at rest by default using Microsoft-owned keys, with the option for customers to use their own encryption keys (customer-managed encryption key).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 648.5,
+      "t_end": 680,
+      "is_demoed": false,
+      "caveats": [
+        "Customers can rotate security keys monthly for compliance reasons",
+        "Customer-managed keys enable revoking Microsoft access to data"
+      ],
+      "tags": [
+        "encryption",
+        "data security",
+        "customer-managed keys"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dynamics 365 Business Central Service Tag",
+      "description": "Represents a group of IP addresses from which traffic of a Business Central environment may come, allowing customers to secure integrations via firewall rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 690.4,
+      "t_end": 707.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "firewall",
+        "network security",
+        "integration security"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Environment Localization and Geographic Data Placement",
+      "description": "Customers can select environment localization which determines the Azure geography where the Business Central database resides, independent of the tenant home geo.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 719,
+      "t_end": 790.3,
+      "is_demoed": false,
+      "caveats": [
+        "Geography is the legal boundary",
+        "Region is where the service runs",
+        "Availability zone protects against local failures"
+      ],
+      "tags": [
+        "data sovereignty",
+        "geographic placement",
+        "azure regions"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Azure Region Pairing and Backup",
+      "description": "Data centers are organized in paired regions with automatic backups and failover protection to ensure high availability and protect data during disruptive events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804.1,
+      "t_end": 867.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "disaster recovery",
+        "failover",
+        "redundancy",
+        "azure infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Purview Audit and Monitoring",
+      "description": "Microsoft-wide service allowing customers to audit activity on Business Central services and environments, including activities in the admin center requiring admin privileges, for forensic investigations and compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.8,
+      "t_end": 968.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit logging",
+        "monitoring",
+        "compliance",
+        "forensic investigation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Change Logs and Field Monitoring",
+      "description": "Built-in Business Central functionality allowing customers to audit and monitor activity, tracking who accessed and changed data and environment settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.8,
+      "t_end": 920.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit logging",
+        "data tracking",
+        "transparency"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Just-In-Time (JIT) Access Controls",
+      "description": "Microsoft-side access control mechanism where engineers must justify, request, and obtain approval for temporary time-limited access to customer databases to investigate or mitigate support requests, with all activity logged.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 968.6,
+      "t_end": 1021.4,
+      "is_demoed": false,
+      "caveats": [
+        "Default is no Microsoft employee access to customer data",
+        "Access only authorized for limited time",
+        "All engineering activity is logged for audit"
+      ],
+      "tags": [
+        "microsoft access",
+        "just-in-time access",
+        "audit logging"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Customer Lockbox",
+      "description": "Feature allowing customer admins to approve or reject Microsoft engineer requests for access to customer data when needed to investigate or mitigate support issues, providing customer control over emergency access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1021.4,
+      "t_end": 1051.8,
+      "is_demoed": false,
+      "caveats": [
+        "Customer approval required after internal Microsoft approval"
+      ],
+      "tags": [
+        "customer control",
+        "emergency access",
+        "approval workflow"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Joost",
+      "confidence": "high"
+    },
+    {
+      "name": "Christina",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.2,
+      "text": "Cloud for Sovereignty which is about controlling and securing your data in the public cloud",
+      "why_it_matters": "Defines the core purpose of Cloud for Sovereignty as a framework for data control and security within public cloud infrastructure.",
+      "check": "exact"
+    },
+    {
+      "t": 114.1,
+      "text": "Last year in Europe, Microsoft uh shared a commitment that we want to increase our capacity on data centers with 40% across 16 uh",
+      "why_it_matters": "Quantifies Microsoft's infrastructure investment commitment in Europe, demonstrating concrete action on digital commitments.",
+      "check": "exact"
+    },
+    {
+      "t": 237.4,
+      "text": "Microsoft has made a promise to compensate customers if their data is disclosed within a violation of EU law",
+      "why_it_matters": "Establishes legal accountability and financial remedies for data breaches, a significant customer protection guarantee.",
+      "check": "exact"
+    },
+    {
+      "t": 680,
+      "text": "it also enables the customer to revoke Microsoft's access to this key, uh which immediately makes their data in the Business Central database on",
+      "why_it_matters": "Highlights customer power to revoke Microsoft access through customer-managed encryption keys, ensuring data sovereignty.",
+      "check": "exact"
+    },
+    {
+      "t": 968.6,
+      "text": "by default, no Microsoft employee has any access to a customer data",
+      "why_it_matters": "Establishes the zero-default access principle for Microsoft engineers to customer data, a fundamental security posture.",
+      "check": "exact"
+    },
+    {
+      "t": 1021.4,
+      "text": "Should a customer wish to be part of this approval flow, we offer a feature called customer lockbox",
+      "why_it_matters": "Provides customers with direct control over emergency access scenarios, addressing sovereignty and compliance requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 906.8,
+      "kind": "preview",
+      "text": "This happens through preview, uh but also functionality built into Business Central environments like change logs and field monitoring"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

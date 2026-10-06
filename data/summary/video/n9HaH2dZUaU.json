@@ -1,0 +1,28 @@
+{
+  "video_id": "n9HaH2dZUaU",
+  "item_id": "video/yt-microsoft/n9HaH2dZUaU",
+  "summary": "Cloud for Sovereignty in Business Central (2026 release wave 1 video): how access controls, environment isolation, encryption, data placement, and audit features protect customer data. Covers RBAC, PIM, GDAP, customer-managed keys, Purview audit, JIT access, and customer lockbox.",
+  "overview": "The session explains how Business Central supports data sovereignty in the public cloud. It starts with Microsoft's digital commitments for Europe, then goes through access controls, security and isolation, sovereignty controls and geographic data placement, and transparency and audit features.\n\nAccess is layered through security groups, Entra ID groups, entitlements and permission sets, with PIM for temporary elevated access and GDAP for partner access. Each environment has its own isolated SQL database and is encrypted at rest. On the Microsoft side, engineers get no default access to customer data. Access goes through just-in-time approval, and customers can add their own approval step with customer lockbox.",
+  "key_points": [
+    "Each Business Central environment runs as its own isolated SQL database, with no data commingling between environments.",
+    "Environments are encrypted at rest by default with Microsoft-owned keys. Customers can use their own key, rotate it monthly, and revoke Microsoft's access to the data by revoking the key.",
+    "Access is layered: environment security groups, Entra ID groups, entitlements and permission sets. PIM gives temporary, reviewed elevated access.",
+    "For partner access via GDAP, the Dynamics 365 Business Central administrator role is the recommended least privileged role.",
+    "The Dynamics 365 Business Central service tag is a group of IP addresses that customers can use in firewall rules to secure integrations.",
+    "Environment localization sets the Azure geography of the database independent of the tenant home geo. Geography is the legal boundary, region is where the service runs, and availability zones protect against local failures.",
+    "By default no Microsoft employee has access to customer data. Engineers need approved, time-limited JIT access, and all activity is logged. Customer lockbox adds customer admin approval or rejection."
+  ],
+  "audience": [
+    "administrator",
+    "decision maker",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "4d5a29ef0300de27fbc289ef6bbc5e0ea0165dae56183568801c267aed51a256",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

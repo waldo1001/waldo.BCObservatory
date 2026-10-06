@@ -1,0 +1,299 @@
+{
+  "video_id": "cnIJZ2Ozcxs",
+  "item_id": "video/yt-microsoft/cnIJZ2Ozcxs",
+  "title": "What's New: Enhanced Subscription Billing Analytics (2026 release wave 1)",
+  "duration_s": 579,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "subscription billing",
+    "power bi",
+    "analytics",
+    "ui redesign",
+    "demo data",
+    "visual improvements",
+    "reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Enhanced Subscription Billing Analytics",
+      "t_start": 0,
+      "t_end": 33.6
+    },
+    {
+      "title": "Power BI Subscription Billing App Redesign",
+      "t_start": 33.6,
+      "t_end": 72.2
+    },
+    {
+      "title": "Updated Power BI Reports and Visuals",
+      "t_start": 72.2,
+      "t_end": 214.2
+    },
+    {
+      "title": "New Demo Data for Subscription Billing",
+      "t_start": 214.2,
+      "t_end": 263.4
+    },
+    {
+      "title": "Documentation and Related Resources",
+      "t_start": 263.4,
+      "t_end": 349.3
+    },
+    {
+      "title": "General Business Central Resources",
+      "t_start": 349.3,
+      "t_end": 579
+    }
+  ],
+  "features": [
+    {
+      "name": "Unified Power BI Subscription Billing UI",
+      "description": "Reworked the subscription billing Power BI app UI to match the look and feel of the other eight Power BI apps, creating a consistent user experience across the platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.3,
+      "t_end": 72.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "ui",
+        "subscription billing",
+        "unification"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Subscription Billing Overview Report Redesign",
+      "description": "Updated the subscription billing overview report with new visual design and layout, matching version 28 standards with improved presentation of data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.2,
+      "t_end": 97.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "subscription billing",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue Year-over-Year Growth Report with Tooltips",
+      "description": "Modified the revenue year-over-year growth report to include visual type enhancements and tooltips for additional detail without changing the underlying information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.8,
+      "t_end": 112.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "revenue",
+        "tooltips",
+        "subscription billing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Navigation Visuals for Report Filtering",
+      "description": "Added navigation visuals to Power BI reports that allow users to filter data by clicking on chart elements instead of using traditional filter panes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.2,
+      "t_end": 139.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "navigation",
+        "filtering",
+        "ux"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Visual Indicators in Matrix Reports",
+      "description": "Added visual indicators to matrix reports to provide visual context alongside numeric values, showing the relative size and magnitude of data points.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123,
+      "t_end": 139.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "visual indicators",
+        "matrix"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue Analysis Report Updates",
+      "description": "Updated revenue analysis reports with navigational visuals to enable filtering through interactive chart elements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.6,
+      "t_end": 162,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "revenue",
+        "navigation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Churn Analysis Report with Visual Filtering",
+      "description": "Enhanced churn analysis report with easy-to-use visual filtering capabilities alongside traditional filter options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.5,
+      "t_end": 188.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "churn",
+        "filtering"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue by Item Bubble Charts",
+      "description": "Introduced bubble chart visuals for revenue by item analysis, showing two-dimensional profitability metrics with bubble size representing an additional dimension.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.5,
+      "t_end": 214.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "bubble charts",
+        "profitability",
+        "mrr"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Map Visuals for Geographic Revenue Analysis",
+      "description": "Added map visuals to show revenue by customer and geography, consistent with similar features introduced in other Power BI apps in previous release waves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214.2,
+      "t_end": 241.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "map visuals",
+        "geography",
+        "revenue"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Enhanced Subscription Billing Demo Data",
+      "description": "Expanded demo data for subscription billing including more customer contracts, vendor contracts, and transactions to support better data storytelling in both Power BI and analysis mode views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 251.8,
+      "t_end": 263.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "subscription billing"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.3,
+      "text": "we are unifying the user experience for the Power BI reports on subscription billing to match the other apps so it just feels the",
+      "why_it_matters": "Explains the core design objective of creating visual and functional consistency across all Power BI apps in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 33.6,
+      "text": "we also added better demo data in the subscription billing area. So if you're demoing both subscription billing with analysis mode views or with",
+      "why_it_matters": "Indicates that demo data improvements support both Power BI and in-client analysis mode, broadening the capability to demonstrate features.",
+      "check": "exact"
+    },
+    {
+      "t": 61.4,
+      "text": "we completely reworked the UI so that it it it feels it has the same look and feel as as the other eight Power",
+      "why_it_matters": "Confirms the subscription billing app received a comprehensive UI redesign to match eight other Power BI apps in the product.",
+      "check": "exact"
+    },
+    {
+      "t": 112.2,
+      "text": "if you go to different packages and just navigate and and choose these um bars instead of going to the filters, everything will will",
+      "why_it_matters": "Describes new navigation visuals that improve usability by allowing filtering through direct interaction with chart elements.",
+      "check": "exact"
+    },
+    {
+      "t": 199.7,
+      "text": "the size of bubbles is now showing you something. So, that's that's what we're bringing into the app from the other Power BI apps",
+      "why_it_matters": "Shows how the bubble chart design uses multiple dimensions to represent data, improving analytical capability and consistency with other apps.",
+      "check": "exact"
+    },
+    {
+      "t": 263.4,
+      "text": "hopefully both the Power BI apps but the in-client analysis will make it possible for you to tell some more data stories",
+      "why_it_matters": "Explains that enhanced demo data enables richer demonstrations across multiple analysis modes, supporting better customer education.",
+      "check": "exact"
+    },
+    {
+      "t": 286.5,
+      "text": "just search for subscription billing app in our power in our documentation. That will take you to the documentation where you can read like",
+      "why_it_matters": "Points to where users can find comprehensive information about the updated features, usage scenarios, and all the new Power BI reports.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

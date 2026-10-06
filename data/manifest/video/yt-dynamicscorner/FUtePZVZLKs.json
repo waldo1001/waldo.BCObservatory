@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=FUtePZVZLKs",
   "published_at": "2026-05-08T06:09:41.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -38,6 +38,27 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.007421
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:56.579Z",
+      "path": "data/summary/video/FUtePZVZLKs.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.008662399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:56.580Z",
+      "systems": [
+        "copilot",
+        "development",
+        "platform"
+      ],
+      "topics": 5,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T17:55:56.595Z",
+      "path": "content/videos/FUtePZVZLKs.md"
     }
   },
   "input_hash": null,
@@ -53,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b621a50b87316e1d4fba689ef270b0ff5ba36333cacdcc29326ec2e5eb7e6480"
+  "output_hash": "e5a10e67a4b6e6c973a151bd1953be6d99481ef05270571addf95e8d01b9d0d3"
 }

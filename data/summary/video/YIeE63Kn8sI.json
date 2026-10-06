@@ -1,0 +1,28 @@
+{
+  "video_id": "YIeE63Kn8sI",
+  "item_id": "video/yt-dynamicscorner/YIeE63Kn8sI",
+  "summary": "Podcast episode on starting AI adoption from the business problem, not the tool. Covers an AI decision matrix, mapping opportunity to cash, tool and data privacy checks, AI policy and governance, agent guardrails and costs, and value-based pricing for professional services.",
+  "overview": "Dynamics Corner episode 517 features Matt Shrubsole of Red Hawk Technologies. He argues that AI planning should look like normal business strategic planning: identify costly workflows, compliance failures and transaction-heavy processes first, then decide where AI, an agentic workflow or an integration helps. Mapping the opportunity to cash flow and using a notebook tool to query interview and meeting data are given as ways to find inefficiencies.\n\nThe discussion then covers practical risks and effects. These include checking that a tool does not train on your data, setting an AI policy with an owner and pre-onboarding tests, shadow IT, token costs without limits, and clean data as a prerequisite for agents. It closes with agent guardrails, fractional CIOs, examples of CVE remediation and automated documentation, and how AI efficiency pushes professional services toward value-based pricing.",
+  "key_points": [
+    "Start with the business problem. Identify the costly workflows and operations first, then decide whether AI, an agentic workflow or an integration fits.",
+    "Map the opportunity to cash flow, from lead hand-off to revenue, to find inefficiencies and ways to reduce time to cash. Companies structure this differently.",
+    "Before adopting an AI tool, read its privacy policy and terms to confirm it does not train on your data, and use a business account rather than a personal one.",
+    "AI governance: define a policy for each adopted tool, assign an owner, train people, and test their knowledge before they are onboarded to the tool.",
+    "Set token or cost limits. One example given was $40,000 spent on tokens in a day with no limit in place.",
+    "Agents need clean, accessible data and explicit guardrails. Many multi-agent setups are single-threaded processes with several instruction files, not true parallel agents.",
+    "Professional services firms face pressure to move from labor-based to value-based pricing as AI cuts task time. This requires retooling sales processes and contracts."
+  ],
+  "audience": [
+    "decision maker",
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "6f23b38d33623ca26bb01bfb02351a09e0dee4bf223f258aa293f3e9630c4731",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.028738399999999997
+  }
+}

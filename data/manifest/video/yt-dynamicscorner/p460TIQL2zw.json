@@ -7,16 +7,51 @@
   "url": "https://www.youtube.com/watch?v=p460TIQL2zw",
   "published_at": "2026-05-08T06:05:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:55:59.392Z",
+      "captions": "auto:en-orig",
+      "duration_s": 58
+    },
+    "captioned": {
+      "at": "2026-10-06T17:56:10.283Z",
+      "path": "vault:captions/community/yt-dynamicscorner/p460TIQL2zw.vtt",
+      "vtt_sha256": "2f52da2e9a58ee51bdf796bd35a6c963a4d9f1867ca6a736277f662fbe847594",
+      "segments": 5,
+      "words": 181,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:21.162Z",
+      "path": "data/extract/video/p460TIQL2zw.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 0,
+      "quotes": 4,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.007286
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ"
-  }
+    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ",
+    "duration_s": 58,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f898adb084932053186e501f12c2dc203eb8927f0edc5584897571ebe9fddca"
 }
