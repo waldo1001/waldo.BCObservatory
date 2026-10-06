@@ -1,0 +1,27 @@
+{
+  "video_id": "G0avZpiDFtI",
+  "item_id": "video/yt-microsoft/G0avZpiDFtI",
+  "summary": "Business Central 2025 release wave 1 server and database changes: AL runtime additions (net formats, flow field calculation), faster copy company, missing indexes page fields, SQL multi-subnet failover, HTTP certificate validation, SOAP endpoint blocking, and report PDF and layout features.",
+  "overview": "The video covers platform changes in four parts: AL runtime enhancements, database stack improvements, web services stack hardening, and reporting stack and developer features. Runtime items include net formats for numbers in auto format expressions, new get URL overloads with a layout parameter, calculating only visible flow fields, and a session information stack property for capturing stack traces.\n\nDatabase and security items include a copy company operation up to five times faster, extra fields on the database missing indexes page, and an on-premises SQL multi-subnet failover setting. Hardening covers HTTP server certificate validation and blocking Microsoft-owned UI pages as SOAP endpoints. Reporting items include PDF post-processing, report metadata in Word layouts, layout obsolescence, report layouts page changes and a validate action.",
+  "key_points": [
+    "Net formats let auto format expressions format numbers differently for positive, negative or zero values. They do not work in the format function.",
+    "Calculating only visible flow fields needs a feature management key for now. It is planned to become the default later.",
+    "Copy company is up to five times faster, but it can take significant locks and needs substantial database resources. Do not run it during working hours.",
+    "The database missing indexes page now shows seeks, scans, average total cost, average impact and estimated benefit.",
+    "Outgoing HTTP client calls now validate server certificates and do not call endpoints with invalid ones. In version 26 this can be disabled via a feature management key. In October 2025 it will be enforced with no way to disable it.",
+    "Microsoft-owned UI pages are blocked from being published as SOAP endpoints. This can be disabled via feature management for now, and per-tenant extensions can still expose pages. Enforcement comes in a later release wave.",
+    "Reports gain PDF post-processing in the on pre-rendering trigger (append, embed documents, set passwords). The report layouts page gains a validate action, which in version 26 checks fonts for RDL layouts only."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "44f422fcdb828a3c074c3300dbbe50fb1a525fe58cac1b20ebb50395c3dcac45",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0211984
+  }
+}

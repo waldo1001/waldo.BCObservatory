@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-23-1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1",
+  "title": "Update 23.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2",
+  "blob": "3e45e690670b4d1b45825d81e057eed25496459d",
+  "summary": "Update 23.1 for Business Central 2023 Release Wave 2 includes Copilot features for marketing text and bank reconciliation, Dataverse virtual tables, cloud migration improvements, and localization updates for Spain.",
+  "systems": [
+    "copilot",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "update",
+    "copilot",
+    "dataverse",
+    "virtual-tables",
+    "cloud-migration",
+    "vat",
+    "spain"
+  ],
+  "objects": [],
+  "features": [
+    "Marketing text suggestions",
+    "Bank reconciliation assistance",
+    "Dataverse virtual tables",
+    "Cloud migration",
+    "Non-deductible VAT",
+    "GL entry aggregations"
+  ],
+  "versions": [
+    "2023 release wave 2",
+    "23.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

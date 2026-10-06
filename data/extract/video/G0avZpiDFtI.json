@@ -1,0 +1,485 @@
+{
+  "video_id": "G0avZpiDFtI",
+  "item_id": "video/yt-microsoft/G0avZpiDFtI",
+  "title": "What's New: Server and Database (2025 release wave 1)",
+  "duration_s": 913,
+  "systems": [
+    "platform",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "al runtime",
+    "net formats",
+    "flow fields",
+    "database performance",
+    "missing indexes",
+    "sql failover",
+    "http certificate validation",
+    "soap endpoints",
+    "pdf post-processing",
+    "report layouts"
+  ],
+  "chapters": [
+    {
+      "title": "AL Runtime Enhancements",
+      "t_start": 0,
+      "t_end": 220
+    },
+    {
+      "title": "Database Stack Improvements",
+      "t_start": 220,
+      "t_end": 374.3
+    },
+    {
+      "title": "Web Services Stack Hardening",
+      "t_start": 374.3,
+      "t_end": 601.5
+    },
+    {
+      "title": "Reporting Stack and Developer Features",
+      "t_start": 601.5,
+      "t_end": 913
+    }
+  ],
+  "features": [
+    {
+      "name": "Net Formats for Numbers",
+      "description": "New way to format numbers in auto format expressions allowing custom formatting based on positive, negative or zero values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.2,
+      "t_end": 71.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only works in auto format expressions, not in the format function"
+      ],
+      "tags": [
+        "al runtime",
+        "formatting",
+        "numbers"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Get URL AL Function with Layout Parameter",
+      "description": "Two new overloads of the get URL AL function to construct URLs that use the layout parameter for opening pages in different modes such as analysis mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.6,
+      "t_end": 120.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al runtime",
+        "urls",
+        "layout parameter"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Calculate Only Visible Flow Fields",
+      "description": "Performance feature to specify calculating only visible flow fields on a page, enabled via feature management key initially before becoming default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.7,
+      "t_end": 146.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires feature management key to enable",
+        "Will become default in future release"
+      ],
+      "tags": [
+        "flow fields",
+        "performance",
+        "feature toggle"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Set AutoCalc Fields Method",
+      "description": "New method on record ref to call set autoc calc fields which sets which flow fields should be updated automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 146.8,
+      "t_end": 163.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "flow fields",
+        "al runtime",
+        "records"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Session Information Stack Property",
+      "description": "New property session information.stack to capture the current stack trace from AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 163.6,
+      "t_end": 175.3,
+      "is_demoed": false,
+      "caveats": [
+        "Use sparingly as it requires significant CPU",
+        "Performance impact if overused"
+      ],
+      "tags": [
+        "al runtime",
+        "debugging",
+        "stack trace"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry Custom Dimensions User Type and Guest User",
+      "description": "Two new custom dimensions user type and guest user added to telemetry events RT2 and RT4, previously required expensive joining of events RT1 and RT3.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.4,
+      "t_end": 213.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "al runtime",
+        "telemetry events"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Faster Copy Company",
+      "description": "Copy company operation is now up to five times faster especially when dealing with large amounts of data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 229.6,
+      "t_end": 253.2,
+      "is_demoed": false,
+      "caveats": [
+        "Can take significant locks",
+        "Do not run during working hours",
+        "Requires substantial database resources"
+      ],
+      "tags": [
+        "database performance",
+        "copy company",
+        "operations"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Database Missing Indexes Page Enhancements",
+      "description": "New fields added to database missing indexes page including seeks, scans, average total cost, average impact, and estimated benefit to help evaluate proposed index usefulness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 264,
+      "t_end": 318.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "database performance",
+        "missing indexes",
+        "tuning"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enable SQL Multi-Subnet Failover Option",
+      "description": "New server setting for on-premises installations to enable SQL multi-subnet failover, improving failover time by adding new properties to connection strings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.8,
+      "t_end": 374.3,
+      "is_demoed": false,
+      "caveats": [
+        "On-premises only",
+        "Requires SQL Server multi-subnet failover setup"
+      ],
+      "tags": [
+        "database",
+        "failover",
+        "sql server",
+        "on-premises"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "HTTP Server Certificate Validation",
+      "description": "Security hardening from Microsoft Secure Future Initiative that validates server certificates on outgoing HTTP client calls, blocking endpoints with invalid certificates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 374.3,
+      "t_end": 441.4,
+      "is_demoed": false,
+      "caveats": [
+        "Can be disabled in version 26 via feature management key",
+        "Will be enforced without option to disable in October 2025",
+        "May block endpoints with invalid certificates"
+      ],
+      "tags": [
+        "security",
+        "http",
+        "certificate validation",
+        "sfi"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Block UI Pages as SOAP Endpoints",
+      "description": "Microsoft-owned UI pages are now blocked from being published as SOAP endpoints starting in this wave, with optional disabling via feature management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 477.3,
+      "t_end": 574,
+      "is_demoed": true,
+      "caveats": [
+        "Can be disabled via feature management",
+        "Microsoft-owned pages only blocked",
+        "Per-tenant extensions can still expose pages",
+        "Blocking will be enforced in a later release wave"
+      ],
+      "tags": [
+        "web services",
+        "soap endpoints",
+        "ui pages",
+        "security"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PDF Post-Processing in Reports",
+      "description": "New on pre-rendering report trigger allowing appending PDF documents, embedding documents inside PDFs, and setting admin or user passwords for PDF documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 601.5,
+      "t_end": 655.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "pdf",
+        "post-processing",
+        "e-invoicing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Metadata in Word Layouts",
+      "description": "Two new types of metadata in XML embedded in word layouts: report metadata and report requests, including report name, metadata, user, company and rendering time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 678.2,
+      "t_end": 714.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "word layouts",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Multiple Worksheet Property Override",
+      "description": "Ability to override the report default for the Excel multiple worksheet property in both AL and user-provided uploaded layouts for non-breaking changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 737.9,
+      "t_end": 774.4,
+      "is_demoed": false,
+      "caveats": [
+        "Enables non-breaking changes when layouts assume certain values"
+      ],
+      "tags": [
+        "reporting",
+        "excel layouts",
+        "property override"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout Obsolescence Support",
+      "description": "Ability to obsolete a report layout using obsolete tags in AL or through uploaded layouts shown on the report layouts page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 795.5,
+      "t_end": 830.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "layouts",
+        "obsolescence"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Layouts Page Enhancements",
+      "description": "New properties on report layouts page including show deprecated or obsolete, last modified by, when last modified, and new get info action for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 830.2,
+      "t_end": 870.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "layouts",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout Validation Action",
+      "description": "New validate action on report layouts page to validate whether layouts are okay, with font validation for RDL layouts and plans for Word and Excel in future updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 870.4,
+      "t_end": 908.8,
+      "is_demoed": false,
+      "caveats": [
+        "Font validation in version 26 for RDL layouts only",
+        "Word and Excel font validation coming in later minor update"
+      ],
+      "tags": [
+        "reporting",
+        "layouts",
+        "validation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "record ref",
+      "t": 146.8
+    },
+    {
+      "type": "other",
+      "name": "session information",
+      "t": 163.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 22.2,
+      "text": "The first enhancement we did in the AL runtime is a new way you can format numbers with net formats.",
+      "why_it_matters": "Establishes the opening topic of AL runtime enhancements with a concrete new capability for number formatting.",
+      "check": "exact"
+    },
+    {
+      "t": 229.6,
+      "text": "This operation is now up to five times faster especially if you have a lot of data.",
+      "why_it_matters": "Quantifies the performance improvement of the copy company feature, a significant operational enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 393,
+      "text": "we now validate whether that certificate is valid. If not, we will actually not call the endpoint.",
+      "why_it_matters": "Explains the security hardening mechanism for HTTP certificates, a major security initiative impact.",
+      "check": "exact"
+    },
+    {
+      "t": 421,
+      "text": "in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management.",
+      "why_it_matters": "Establishes the timeline for when certificate validation becomes mandatory, important for planning.",
+      "check": "exact"
+    },
+    {
+      "t": 491.8,
+      "text": "we will block UI pages published by Microsoft as SOAP endpoints.",
+      "why_it_matters": "Announces the blocking of UI pages as SOAP endpoints, a security-focused change affecting integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 601.5,
+      "text": "we added the ability to do PDF post-processing in the context of running a report.",
+      "why_it_matters": "Introduces a new reporting capability enabling PDF manipulation like appending and embedding documents.",
+      "check": "exact"
+    },
+    {
+      "t": 688.7,
+      "text": "if you open the XML here in the developer experience in Word, you now have this BC report information.",
+      "why_it_matters": "Describes new metadata in word layouts improving developer experience and reducing hard-coding needs.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 129.9,
+      "kind": "preview",
+      "text": "for now you need to enable this with a feature management key calculate only visible flow fields and then later we will make this the default value."
+    },
+    {
+      "t": 407,
+      "kind": "subject-to-change",
+      "text": "In version 26, you can disable this hardening behavior. So, so that in case you have endpoints that needs to be fixed, uh you can you can disable a feature management."
+    },
+    {
+      "t": 421,
+      "kind": "coming-later",
+      "text": "in the next version in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management."
+    },
+    {
+      "t": 508.2,
+      "kind": "subject-to-change",
+      "text": "note that in a later release wave this blocking will be enforced."
+    },
+    {
+      "t": 881.6,
+      "kind": "coming-later",
+      "text": "we are also introducing font validation in version 26. it will just be for RDL layouts. In a later minor update, uh we will also add this for Word and Excel."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 17
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0334646
+    }
+  ]
+}

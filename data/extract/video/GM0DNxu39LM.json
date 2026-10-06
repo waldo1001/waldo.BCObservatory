@@ -1,0 +1,251 @@
+{
+  "video_id": "GM0DNxu39LM",
+  "item_id": "video/yt-microsoft/GM0DNxu39LM",
+  "title": "What's New: E-Documents Connectors (2025 release wave 1)",
+  "duration_s": 367,
+  "systems": [
+    "localization",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "e-documents",
+    "connectors",
+    "appsource",
+    "electronic invoicing",
+    "integration setup"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of E-Document Connectors Strategy",
+      "t_start": 0,
+      "t_end": 52.6
+    },
+    {
+      "title": "New Connectors in 2025 Release Wave 1",
+      "t_start": 52.6,
+      "t_end": 92.2
+    },
+    {
+      "title": "Connector Availability and Setup Model",
+      "t_start": 92.2,
+      "t_end": 134.8
+    },
+    {
+      "title": "Installing Connectors from AppSource",
+      "t_start": 134.8,
+      "t_end": 251.8
+    },
+    {
+      "title": "Configuring E-Document Services",
+      "t_start": 251.8,
+      "t_end": 328.1
+    },
+    {
+      "title": "Summary and Next Steps",
+      "t_start": 328.1,
+      "t_end": 367
+    }
+  ],
+  "features": [
+    {
+      "name": "Logic E-Document Connector",
+      "description": "New e-document connector providing electronic invoice handling capabilities. Available from Business Central version 26.0 in public preview for 1 month, then general availability from 26.1.",
+      "status": "preview",
+      "status_evidence_t": 65.4,
+      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in",
+      "status_evidence_verified": true,
+      "t_start": 52.6,
+      "t_end": 79.8,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration required with Logic service provider details"
+      ],
+      "tags": [
+        "e-documents",
+        "connectors",
+        "electronic invoicing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Signup E-Document Connector",
+      "description": "New e-document connector for electronic invoice handling. Available from Business Central version 26.0 in public preview for 1 month, then general availability from 26.1.",
+      "status": "preview",
+      "status_evidence_t": 65.4,
+      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in",
+      "status_evidence_verified": true,
+      "t_start": 52.6,
+      "t_end": 79.8,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration required with Signup service provider details"
+      ],
+      "tags": [
+        "e-documents",
+        "connectors",
+        "electronic invoicing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Continue E-Document Connector",
+      "description": "Upcoming e-document connector planned for release in Business Central 26.2. Code review nearly complete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 79.8,
+      "t_end": 92.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available; will be published on AppSource"
+      ],
+      "tags": [
+        "e-documents",
+        "connectors",
+        "roadmap"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "AppSource E-Document Connector Installation",
+      "description": "New capability to install e-document connectors directly from AppSource within Business Central. Users can browse available Microsoft-published connector applications and install them with a single click.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 134.8,
+      "t_end": 236,
+      "is_demoed": true,
+      "caveats": [
+        "Requires navigating to E Document Services list page first"
+      ],
+      "tags": [
+        "e-documents",
+        "appsource",
+        "installation",
+        "connectors"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Service Integration Setup",
+      "description": "Unified setup experience for all e-document connectors. Users select a connector from available options and configure it through a consistent interface, regardless of which connector is chosen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 251.8,
+      "t_end": 328.1,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration details vary by connector provider"
+      ],
+      "tags": [
+        "e-documents",
+        "user experience",
+        "connectors",
+        "setup"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Multiple Global E-Document Connectors",
+      "description": "Strategy to provide multiple globally-available e-document connectors. Previous releases had Pag and Avalara; 2025 wave 1 adds Logic and Signup, with Continue planned for 26.2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.7,
+      "t_end": 92.2,
+      "is_demoed": true,
+      "caveats": [
+        "Local connectors available only through AppSource by local providers"
+      ],
+      "tags": [
+        "e-documents",
+        "connectors",
+        "localization",
+        "strategy"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E Document Services",
+      "t": 181.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.7,
+      "text": "we are adding new connectors and we want to have as more connectors as possible for you so you can choose which one",
+      "why_it_matters": "Establishes the core strategy behind the connector expansion - providing options rather than vendor lock-in.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 65.4,
+      "text": "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in",
+      "why_it_matters": "Defines the exact availability timeline and status transitions for the two new connectors (Logic and Signup).",
+      "check": "exact"
+    },
+    {
+      "t": 79.8,
+      "text": "probably 26.2 we will have continue connector. After that we will continue with for now and few more connectors.",
+      "why_it_matters": "Reveals the roadmap for additional connectors coming after the initial two, indicating ongoing expansion plans.",
+      "check": "exact"
+    },
+    {
+      "t": 155,
+      "text": "before this release, we uh used to pre-install our first party uh connectors, but uh with the feedback we've gotten from the community and",
+      "why_it_matters": "Explains the significant model change from pre-installed to AppSource-based installation driven by customer feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 302.6,
+      "text": "all connectors never mind which one you will use they have absolutely the same user experience.",
+      "why_it_matters": "Highlights the key design principle of consistent UX across all connectors, reducing complexity for end users.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 65.4,
+      "kind": "preview",
+      "text": "from April release they will be in public preview for 1 month and from 26.1 they will be in general availability"
+    },
+    {
+      "t": 79.8,
+      "kind": "coming-later",
+      "text": "probably 26.2 we will have continue connector"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020517
+    }
+  ]
+}
