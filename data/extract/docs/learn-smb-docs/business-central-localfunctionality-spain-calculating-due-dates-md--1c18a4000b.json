@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/calculating-due-dates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates",
+  "title": "Calculating Due Dates [ES]",
+  "blob": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
+  "summary": "Calculate due dates for Spanish companies according to legal limits on payment delays. Set up payment terms with maximum days to due date and generate reports on overdue payments from customers and vendors.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "due dates",
+    "spain",
+    "payment terms",
+    "overdue payments",
+    "legal compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Overdue Payments"
+    },
+    {
+      "type": "report",
+      "name": "Vendor - Overdue Payments"
+    }
+  ],
+  "features": [
+    "Due date calculation",
+    "Maximum days till due date",
+    "Payment term setup",
+    "Overdue payment reporting",
+    "Weighted average term calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

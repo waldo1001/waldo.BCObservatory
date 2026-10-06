@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-settle-purchase-invoices-promptly.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly",
+  "title": "Settle purchase invoices promptly",
+  "blob": "db6465e621693be2a4e090f34b09ea56540f4794",
+  "summary": "Post purchase invoice payments immediately by setting up a balancing account on the invoice header for cash or bank transfer payments when invoices are created.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "purchase invoices",
+    "payment methods",
+    "cash payments",
+    "bank transfers",
+    "accounts payable"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
+  "features": [
+    "Balancing account setup",
+    "Immediate payment posting",
+    "Payment method configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

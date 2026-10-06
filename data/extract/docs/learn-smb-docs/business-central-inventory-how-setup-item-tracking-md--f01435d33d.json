@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-setup-item-tracking.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking",
+  "title": "Set up item tracking with serial, lot, and package numbers",
+  "blob": "efe8ce65411e556efe6edd12317ac4b0cafb16f7",
+  "summary": "Set up item tracking codes to track inventory items by serial, lot, and package numbers across warehouse operations and supply chain movements. Configure expiration dates, warranties, and warehouse tracking for controlled inventory management.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "item tracking",
+    "serial numbers",
+    "lot numbers",
+    "package numbers",
+    "expiration dates",
+    "warehouse tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Codes"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Code Card"
+    },
+    {
+      "type": "page",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Serial number tracking",
+    "Lot number tracking",
+    "Package number tracking",
+    "Expiration date rules",
+    "Warranty date formulas",
+    "Warehouse tracking toggles"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

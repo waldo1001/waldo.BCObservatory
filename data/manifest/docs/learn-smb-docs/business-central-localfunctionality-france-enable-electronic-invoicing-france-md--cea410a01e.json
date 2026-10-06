@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
   "published_at": "2026-06-24T07:25:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
       "words": 2067,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.293Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.311Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.312Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.313Z",
+      "page": false
     }
   },
   "input_hash": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d1707f79834068c66b47ff92d1caf34c3acc2cb"
+  "output_hash": "355066bc22ab74c851412da31d46296847fb0aa745bb3f788b8208970e5c5517"
 }

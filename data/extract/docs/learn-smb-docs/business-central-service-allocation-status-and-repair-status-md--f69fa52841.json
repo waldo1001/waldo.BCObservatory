@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-allocation-status-and-repair-status.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status",
+  "title": "Allocation status and repair status | Microsoft Docs",
+  "blob": "f7cd7371f2466205f39b4face06814d99f01546f",
+  "summary": "Manage repair status and allocation status of service items in Service Management. Understand status relationships and how status changes when repair work is completed, partly serviced, or reallocated to different resources.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "repair status",
+    "allocation status",
+    "service items",
+    "resource allocation",
+    "service management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Resource Allocations"
+    }
+  ],
+  "features": [
+    "Repair status codes",
+    "Allocation status tracking",
+    "Service quote to order conversion",
+    "Resource reallocation",
+    "Status change automation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

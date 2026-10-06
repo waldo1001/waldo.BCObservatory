@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates",
   "published_at": "2026-06-24T07:25:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
       "words": 613,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.293Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.314Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.315Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.316Z",
+      "page": false
     }
   },
   "input_hash": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3"
+  "output_hash": "02d078b6d1259c1cf0ca44c542049fdb42e9bf3aa8683fb60e33148fe00243be"
 }

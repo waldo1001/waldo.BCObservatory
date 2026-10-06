@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly",
   "published_at": "2026-06-25T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "db6465e621693be2a4e090f34b09ea56540f4794",
       "words": 211,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.290Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.305Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.306Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.307Z",
+      "page": false
     }
   },
   "input_hash": "db6465e621693be2a4e090f34b09ea56540f4794",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db6465e621693be2a4e090f34b09ea56540f4794"
+  "output_hash": "59d3730be44ee55907b35b22891ee85c66a75353a1f9912d0fd689e3aee315bb"
 }

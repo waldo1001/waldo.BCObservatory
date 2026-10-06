@@ -1,0 +1,87 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
+  "title": "Enable electronic invoicing with UBL 2.1 and Factur-X [FR]",
+  "blob": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
+  "summary": "Enable electronic invoicing in France using UBL 2.1 (PEPPOL BIS 3.0) or Factur-X formats to comply with French e-invoicing reform. Configure company information, customers, vendors, e-document services, and workflows for automatic invoice export and PDP delivery.",
+  "systems": [
+    "finance",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "electronic invoicing",
+    "france",
+    "peppol",
+    "factur-x",
+    "e-documents",
+    "ubl 2.1",
+    "siret",
+    "siren"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Document Sending Profiles"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Card"
+    }
+  ],
+  "features": [
+    "UBL 2.1 invoice generation",
+    "Factur-X PDF/A-3 generation",
+    "French identifier support (SIRET, SIREN)",
+    "Electronic address configuration",
+    "Automatic e-document export",
+    "Workflow automation",
+    "E-document service setup",
+    "Factur-X import",
+    "PEPPOL BIS 3.0 import",
+    "French business rule validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking",
   "published_at": "2026-06-25T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "efe8ce65411e556efe6edd12317ac4b0cafb16f7",
       "words": 886,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.295Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.296Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.297Z",
+      "page": false
     }
   },
   "input_hash": "efe8ce65411e556efe6edd12317ac4b0cafb16f7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "efe8ce65411e556efe6edd12317ac4b0cafb16f7"
+  "output_hash": "875be91b54757790affd2e929921a6fe231ada5fa19b106b5bf399865975a05d"
 }

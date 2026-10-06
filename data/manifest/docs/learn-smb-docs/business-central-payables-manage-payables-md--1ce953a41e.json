@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-manage-payables",
   "published_at": "2026-06-25T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b4c7440b630d7cd86aacb0e867c1a9cc52214dbe",
       "words": 383,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.292Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.309Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.310Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.310Z",
+      "page": false
     }
   },
   "input_hash": "b4c7440b630d7cd86aacb0e867c1a9cc52214dbe",
@@ -77,5 +96,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b4c7440b630d7cd86aacb0e867c1a9cc52214dbe"
+  "output_hash": "415a51bb5265e5266a9e1ca71154722be8f9c12d91ee97da067f5df60d402562"
 }

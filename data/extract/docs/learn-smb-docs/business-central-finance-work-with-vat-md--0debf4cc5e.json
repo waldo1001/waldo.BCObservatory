@@ -1,0 +1,93 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
+  "title": "How to work with VAT on sales and purchases",
+  "blob": "a8a99e3d4bf6657b0e1498b176af54560b6278c4",
+  "summary": "Calculate, display, and correct VAT amounts on sales and purchase documents. Configure VAT settings, handle VAT date functionality, manage VAT differences, and process certificates of supply for EU transactions.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "vat calculation",
+    "vat posting",
+    "vat date",
+    "price including vat",
+    "certificates of supply",
+    "eu transactions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Entries"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Price Group"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Certificates of Supply"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
+  "features": [
+    "VAT calculation and display",
+    "VAT date functionality",
+    "Prices including VAT",
+    "Manual VAT adjustment",
+    "VAT difference tolerance",
+    "VAT posting groups",
+    "Import VAT handling",
+    "Certificate of supply processing"
+  ],
+  "versions": [
+    "version 23.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

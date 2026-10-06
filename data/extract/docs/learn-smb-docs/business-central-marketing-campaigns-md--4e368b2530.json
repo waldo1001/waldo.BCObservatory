@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-campaigns.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-campaigns",
+  "title": "Set up marketing campaigns in Business Central",
+  "blob": "b8bedf2f959d238f0bdd9c2ef01218cc7a39a7cd",
+  "summary": "Set up and manage marketing campaigns by defining campaign status codes, creating campaign cards, selecting target audiences through segments, and registering campaign discounts and sales prices.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "marketing campaigns",
+    "segments",
+    "campaign management",
+    "sales discounts",
+    "campaign status"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Campaign Status"
+    },
+    {
+      "type": "page",
+      "name": "Campaign"
+    },
+    {
+      "type": "page",
+      "name": "Segment"
+    },
+    {
+      "type": "page",
+      "name": "Sales Line Discounts"
+    },
+    {
+      "type": "page",
+      "name": "Sales Prices"
+    }
+  ],
+  "features": [
+    "Campaign status codes",
+    "Campaign card creation",
+    "Segment targeting",
+    "Sales price setup",
+    "Line discount registration",
+    "Campaign activation",
+    "Activity management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

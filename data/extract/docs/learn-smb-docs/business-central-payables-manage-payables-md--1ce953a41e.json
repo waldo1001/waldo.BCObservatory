@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-manage-payables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-manage-payables",
+  "title": "Overview of tasks to manage accounts payable",
+  "blob": "b4c7440b630d7cd86aacb0e867c1a9cc52214dbe",
+  "summary": "Manage vendor payments and employee reimbursements through payment journals, automatic payment application, and manual reconciliation. Track accounts payable, assign item charges, and apply payments to invoices.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "accounts payable",
+    "vendor payments",
+    "employee reimbursement",
+    "payment journals",
+    "payment application",
+    "bank reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Employee Ledger Entries"
+    }
+  ],
+  "features": [
+    "Payment generation",
+    "Check payment preparation",
+    "Bank file export",
+    "Automatic payment application",
+    "Manual payment application",
+    "Item charges",
+    "Employee expense reimbursement",
+    "Bank account reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

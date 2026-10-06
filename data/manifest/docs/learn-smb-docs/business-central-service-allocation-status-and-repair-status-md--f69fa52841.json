@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status",
   "published_at": "2026-06-25T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7cd7371f2466205f39b4face06814d99f01546f",
       "words": 765,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:35:19.290Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:35:19.298Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:35:19.299Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:35:19.300Z",
+      "page": false
     }
   },
   "input_hash": "f7cd7371f2466205f39b4face06814d99f01546f",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7cd7371f2466205f39b4face06814d99f01546f"
+  "output_hash": "3e6fe5d73df2c6efc777236afac7bd65974f21e0e3c805321d13b88d447de99d"
 }
