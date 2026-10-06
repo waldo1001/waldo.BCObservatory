@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5055.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5055",
+  "title": "Contact - Cover Sheet (report)",
+  "blob": "43766242292e6685ca0506602cb35bbcc5a19cda",
+  "summary": "Contact - Cover Sheet report generates customizable cover sheets for sending to contacts with optional remarks and check marks. Access it from the Contact Card page.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "contacts",
+    "cover sheets",
+    "reporting",
+    "marketing communications"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contact - Cover Sheet"
+    }
+  ],
+  "features": [
+    "customizable cover sheet text",
+    "remark display with check mark",
+    "custom comments",
+    "interaction logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001102,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5051.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5051",
+  "title": "Contact - Company Summary (report)",
+  "blob": "e42ef7c70fb53b28e6c87098c370705f84d28d11",
+  "summary": "Contact - Company Summary report shows summary information about contact companies including address, contact details, related interactions, and to-dos.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "contacts",
+    "company information",
+    "interactions",
+    "relationship management"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contact - Company Summary"
+    }
+  ],
+  "features": [
+    "company address",
+    "contact number",
+    "interaction tracking",
+    "to-do tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002133,
+      "pages_in_call": 7
+    }
+  ]
+}

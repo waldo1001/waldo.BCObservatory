@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-409.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-409",
+  "title": "Purchase Reservation Availability (report)",
+  "blob": "ad852842c162c3f87bf3f3d36902c7f348008206",
+  "summary": "Purchase Reservation Availability report shows item availability for shipment on purchase documents such as return orders, and allows updating quantities to receive.",
+  "systems": [
+    "purchasing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "purchase documents",
+    "item availability",
+    "shipment",
+    "return orders",
+    "quantity management",
+    "procurement"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Purchase Reservation Availability"
+    }
+  ],
+  "features": [
+    "shipment availability",
+    "document or line status",
+    "qty to receive update",
+    "return order support",
+    "inventory management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002446,
+      "pages_in_call": 7
+    }
+  ]
+}

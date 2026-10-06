@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4413.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4413",
+  "title": "Fixed Asset Projected Value (Excel report)",
+  "blob": "ef84bb28dc301bd883321fe84da935e4a9f7bb91",
+  "summary": "Fixed Asset Projected Value Excel report forecasts fixed asset depreciation and book value based on specified date ranges and accounting periods for planning replacement and adjustments.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "fixed assets",
+    "depreciation projection",
+    "book value forecasting",
+    "excel reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Projected Value Excel"
+    }
+  ],
+  "features": [
+    "depreciation projection",
+    "projected disposal inclusion",
+    "accounting period specification",
+    "class filtering",
+    "subclass filtering",
+    "location filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002133,
+      "pages_in_call": 7
+    }
+  ]
+}

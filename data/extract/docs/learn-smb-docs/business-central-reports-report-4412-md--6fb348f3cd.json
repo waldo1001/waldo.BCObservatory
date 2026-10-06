@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4412.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4412",
+  "title": "Fixed Asset Analysis (Excel report)",
+  "blob": "619695d0367fd526a7baa399385e9e9f87b74661",
+  "summary": "Fixed Asset Analysis Excel report displays fixed asset details across time periods including book value, depreciation, and acquisitions with filtering by class, subclass, location, department, and project.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "fixed assets",
+    "book value",
+    "depreciation",
+    "acquisitions",
+    "excel reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Analysis Excel"
+    }
+  ],
+  "features": [
+    "book value analysis",
+    "depreciation tracking",
+    "acquisition date filtering",
+    "disposal date filtering",
+    "class filtering",
+    "subclass filtering",
+    "location filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002133,
+      "pages_in_call": 7
+    }
+  ]
+}

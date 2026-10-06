@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-37.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-37",
+  "title": "Balance Comp. - Prev. Year (report)",
+  "blob": "14f50d7bd5e8e5cd2ef818b2c61ca1d0391078cf",
+  "summary": "Balance Comp. - Prev. Year report provides side-by-side comparison of account balances across two fiscal years to identify variances and trends in financial performance.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "financial analysis",
+    "variance analysis",
+    "year-over-year comparison",
+    "account balances",
+    "budgeting",
+    "forecasting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Balance Comp. - Prev. Year"
+    }
+  ],
+  "features": [
+    "two fiscal year comparison",
+    "dimension filtering",
+    "account range filtering",
+    "variance identification",
+    "trend analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002446,
+      "pages_in_call": 7
+    }
+  ]
+}

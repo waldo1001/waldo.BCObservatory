@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5062.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5062",
+  "title": "Sales Cycle - Analysis (report)",
+  "blob": "6ff02748fe09bfbaf1800cfea2fc1627c4ffbf1c",
+  "summary": "Sales Cycle - Analysis report provides information about sales cycles including current opportunities, estimated values, and calculated values.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "sales cycles",
+    "opportunities",
+    "reporting",
+    "analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Cycle - Analysis"
+    }
+  ],
+  "features": [
+    "sales cycle details",
+    "opportunity count",
+    "estimated values",
+    "calculated values"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001102,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "video_id": "5Qfc7r618OM",
+  "item_id": "video/yt-microsoft/5Qfc7r618OM",
+  "title": "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)",
+  "duration_s": 107,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "skipped records",
+    "export validation",
+    "integration troubleshooting",
+    "logging mode",
+    "data synchronization",
+    "error handling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to troubleshooting Shopify integration",
+      "t_start": 0,
+      "t_end": 23.2
+    },
+    {
+      "title": "Skipped records during export",
+      "t_start": 23.2,
+      "t_end": 38.8
+    },
+    {
+      "title": "Viewing the skipped records page",
+      "t_start": 38.8,
+      "t_end": 54.2
+    },
+    {
+      "title": "Inspecting and fixing invalid records",
+      "t_start": 54.2,
+      "t_end": 76.2
+    },
+    {
+      "title": "Successful export after correction",
+      "t_start": 76.2,
+      "t_end": 84.2
+    },
+    {
+      "title": "Logging mode control and conclusion",
+      "t_start": 84.2,
+      "t_end": 107
+    }
+  ],
+  "features": [
+    {
+      "name": "Shopify skipped records page",
+      "description": "A page that displays records skipped during export to Shopify when they are invalid or likely to be rejected. The page allows users to view details of why records were skipped and navigate to the source records for correction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.2,
+      "t_end": 67,
+      "is_demoed": true,
+      "caveats": [
+        "Only appears when records are skipped during synchronization"
+      ],
+      "tags": [
+        "shopify",
+        "export",
+        "validation",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Logging mode field for Shopify connector",
+      "description": "A field that controls logging behavior for the Shopify connector. Both all and error only modes activate logging of skipped entries to help with troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.2,
+      "t_end": 92,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "shopify",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Show record functionality in skipped records page",
+      "description": "A feature that allows users to navigate from a skipped record entry to the source record card to view and correct validation issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.2,
+      "t_end": 67,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "navigation",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify skipped records page",
+      "t": 38.8
+    },
+    {
+      "type": "page",
+      "name": "customer card page",
+      "t": 54.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6,
+      "text": "When business experiences a problem with the integration between the front end Shopify and back end Business Central, it is important to quickly find",
+      "why_it_matters": "Establishes the core value proposition of logging in troubleshooting Shopify integration problems.",
+      "check": "exact"
+    },
+    {
+      "t": 23.2,
+      "text": "When exporting data to Shopify, the Shopify connector skips records if they are invalid for export or likely to be rejected by Shopify.",
+      "why_it_matters": "Explains the automatic skipping behavior and the criteria for when records are skipped during export.",
+      "check": "exact"
+    },
+    {
+      "t": 38.8,
+      "text": "During synchronization, a notification about skipped records appears. Choose view skipped records to open the Shopify skipped records page.",
+      "why_it_matters": "Describes how users discover and access the skipped records page during normal workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 38.8,
+      "text": "There is an entry indicating an email is missing, which is a required field.",
+      "why_it_matters": "Demonstrates a concrete example of validation failure that causes records to be skipped.",
+      "check": "exact"
+    },
+    {
+      "t": 84.2,
+      "text": "The functionality is controlled by the logging mode field. Both all and error only activate logging of skipped entries.",
+      "why_it_matters": "Clarifies the control mechanism for the logging feature and which modes enable skipped entry logging.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010742
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4404.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4404",
+  "title": "Vendor - Top 10 List Excel (Excel report)",
+  "blob": "53012b34fbfd715e2031ef0a2763c02f433437df",
+  "summary": "Vendor - Top 10 List Excel report shows summarized purchase and balance data for top vendors in local currency to monitor vendor performance and manage cash flow.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vendor analysis",
+    "purchase volume",
+    "vendor performance",
+    "cash flow",
+    "vendor management",
+    "vendor ranking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Top 10 List Excel"
+    }
+  ],
+  "features": [
+    "configurable vendor count",
+    "purchase amounts",
+    "balance data",
+    "vendor ranking",
+    "date filtering",
+    "hierarchy grouping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002446,
+      "pages_in_call": 7
+    }
+  ]
+}

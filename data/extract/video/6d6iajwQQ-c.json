@@ -1,0 +1,365 @@
+{
+  "video_id": "6d6iajwQQ-c",
+  "item_id": "video/yt-microsoft/6d6iajwQQ-c",
+  "title": "What's New: Value Chain Automation with Production Orders (2025 release wave 1)",
+  "duration_s": 724,
+  "systems": [
+    "manufacturing",
+    "sustainability",
+    "finance"
+  ],
+  "topics": [
+    "value chain tracking",
+    "sustainability value entries",
+    "production orders",
+    "emissions",
+    "carbon equivalent",
+    "production bom",
+    "routing",
+    "work centers",
+    "scope 3",
+    "average costing method"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Value Chain Overview",
+      "t_start": 0,
+      "t_end": 46.5
+    },
+    {
+      "title": "Sustainability Value Entries and Document Flow",
+      "t_start": 46.5,
+      "t_end": 107.1
+    },
+    {
+      "title": "Default Values and Production Order Setup",
+      "t_start": 107.1,
+      "t_end": 188
+    },
+    {
+      "title": "Posting Emissions Through Production Journals",
+      "t_start": 188,
+      "t_end": 267.7
+    },
+    {
+      "title": "Sustainability Setup and Configuration",
+      "t_start": 267.7,
+      "t_end": 348.3
+    },
+    {
+      "title": "Item Cards and Purchase Invoice Integration",
+      "t_start": 348.3,
+      "t_end": 440.2
+    },
+    {
+      "title": "Production BOM and Routing Configuration",
+      "t_start": 440.2,
+      "t_end": 541.4
+    },
+    {
+      "title": "Production Order Posting and Sustainability Entries",
+      "t_start": 541.4,
+      "t_end": 642.2
+    },
+    {
+      "title": "Finished Goods and Value Chain Completion",
+      "t_start": 642.2,
+      "t_end": 724
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability Value Entries",
+      "description": "New functionality to track sustainability value entries similar to costing methods for items. System collects emissions information when posting purchase documents and tracks changes through transfer orders, assembly orders, and production orders.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 46.5,
+      "t_end": 107.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only average method supported currently",
+        "Item charges not supported in this wave",
+        "No print out for final gas emissions in this wave"
+      ],
+      "tags": [
+        "sustainability",
+        "value entries",
+        "emissions tracking",
+        "carbon accounting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Value Chain Tracking",
+      "description": "Sustainability setup feature that enables automatic collection and tracking of emissions from items and work machine centers through production documents. When enabled, system automatically calculates carbon equivalent in background based on emissions configuration.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 267.7,
+      "t_end": 328.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with carbon equivalent",
+        "Requires sandbox testing before production use",
+        "Replenishment system must not be purchase for automatic calculation"
+      ],
+      "tags": [
+        "value chain",
+        "setup",
+        "carbon equivalent",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Item Emissions on Item Cards",
+      "description": "New fields on item card to display and enter emissions data including carbon, methane, and other environmental metrics. Users can manually enter emission values and run calculate carbon equivalent to establish default values for production.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 359.9,
+      "t_end": 420.1,
+      "is_demoed": true,
+      "caveats": [
+        "Manual entry only available if replenishment policy is purchase",
+        "Calculate carbon equivalent must be run manually on first setup"
+      ],
+      "tags": [
+        "item setup",
+        "emissions",
+        "carbon tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Work Center Emissions",
+      "description": "New sustainability fast tab on work centers to enter and track emissions data. System collects these emissions and moves them to production order routings. Users can run calculate carbon equivalent for single or all work centers.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 501.3,
+      "t_end": 541.4,
+      "is_demoed": true,
+      "caveats": [
+        "Calculate CO2E must be run manually on first setup"
+      ],
+      "tags": [
+        "work center",
+        "emissions",
+        "routing",
+        "carbon tracking"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Order Carbon Equivalent Tracking",
+      "description": "Production orders now display total carbon equivalent based on production BOM materials and routing information. System automatically refreshes and calculates sustainability account and total carbon equivalent when refresh production order is run.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 541.4,
+      "t_end": 622,
+      "is_demoed": true,
+      "caveats": [
+        "Total carbon equivalent starts empty until refresh production order is executed"
+      ],
+      "tags": [
+        "production order",
+        "carbon equivalent",
+        "sustainability account",
+        "emissions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Journal Emissions Posting",
+      "description": "Production journal, consumption journal, and output journal can now post emissions. Consumption records item consumption emissions, output records finished goods emissions, production journal records combination of both.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 188,
+      "t_end": 226.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with average costing method"
+      ],
+      "tags": [
+        "production journal",
+        "emissions posting",
+        "consumption",
+        "output"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production BOM Sustainability Setup",
+      "description": "Production BOMs now display carbon equivalent per unit field that shows emissions collected from source items. Field is hidden if value chain tracking is not enabled, maintaining normal user experience.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 440.2,
+      "t_end": 481,
+      "is_demoed": true,
+      "caveats": [
+        "Must manually run calculate CO2E on first creation when enabling functionality",
+        "System works automatically after initial setup"
+      ],
+      "tags": [
+        "production bom",
+        "carbon equivalent",
+        "emissions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing Emissions Tracking",
+      "description": "Routings now display carbon equivalent per unit field that collects emissions from work machine centers. Similar to production BOM, this requires manual calculate CO2E on first setup.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 481,
+      "t_end": 541.4,
+      "is_demoed": true,
+      "caveats": [
+        "Must manually run calculate CO2E on first creation"
+      ],
+      "tags": [
+        "routing",
+        "work center",
+        "carbon equivalent"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Capacity Ledger Entry Sustainability Link",
+      "description": "Capacity ledger entry now includes a new sustainability account column that links to sustainability value entries. Other emission details are stored in the sustainability value entries rather than capacity ledger entry.",
+      "status": "preview",
+      "status_evidence_t": 308,
+      "status_evidence_quote": "value chain completely functionality is in public preview in this moment",
+      "status_evidence_verified": true,
+      "t_start": 642.2,
+      "t_end": 682.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "capacity ledger",
+        "sustainability account",
+        "value entries"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Value Entry",
+      "t": 46.5
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Journal",
+      "t": 26.4
+    },
+    {
+      "type": "table",
+      "name": "General Journal",
+      "t": 26.4
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry",
+      "t": 26.4
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry",
+      "t": 642.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 46.5,
+      "text": "sustainability value entries this is very similar as we have costing method earlier for items so now we have similar functionality with value entries",
+      "why_it_matters": "Explains the core design analogy for understanding sustainability value entries as parallel to existing costing methods",
+      "check": "exact"
+    },
+    {
+      "t": 167.9,
+      "text": "it works only with carbon equivalent so whatever you enter your purchase documents system will automatically in a background calculate to carbon equivalent based",
+      "why_it_matters": "Describes the core automation behavior and the single focus on carbon equivalent calculations",
+      "check": "exact"
+    },
+    {
+      "t": 226.6,
+      "text": "calculation will be done only for items where replenishment system is not purchase so if this is a purchase you will get this information",
+      "why_it_matters": "Clarifies the key condition for automatic calculation vs. sourcing from purchase documents",
+      "check": "exact"
+    },
+    {
+      "t": 247.2,
+      "text": "currently we support only average method so stability value entries is very similar with value entry but we are supporting in this wave only",
+      "why_it_matters": "Specifies the single supported costing method and indicates openness to future expansion based on feedback",
+      "check": "exact"
+    },
+    {
+      "t": 288,
+      "text": "if you want to use them in production uh process you need to enable this enable value chain tracking and once when you enable",
+      "why_it_matters": "Describes the setup requirement and indicates a warning about the preview status appears when enabling",
+      "check": "exact"
+    },
+    {
+      "t": 308,
+      "text": "value chain completely functionality is in public preview in this moment as I mentioned for example we do not have it charge so some",
+      "why_it_matters": "Clarifies the preview status and explicitly identifies missing features like item charges in this wave",
+      "check": "exact"
+    },
+    {
+      "t": 328.3,
+      "text": "all documents are related only to sustainability value entry except one first document related with purchase uh docu purchase invoice is related to both",
+      "why_it_matters": "Explains the exception where purchase invoices create both types of entries, requiring enable value chain tracking to get both",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 107.1,
+      "kind": "not-in-this-release",
+      "text": "in this wave we do not have print out for that but you can find information about final um gas emissions related to items you want to sell"
+    },
+    {
+      "t": 247.2,
+      "kind": "not-in-this-release",
+      "text": "currently we support only average method uh in this moment we will wait your feedback to see what you need so maybe we will extend in future but for now we didn't plan"
+    },
+    {
+      "t": 308,
+      "kind": "preview",
+      "text": "value chain completely functionality is in public preview in this moment as I mentioned for example we do not have it charge so some of features are still missing so our suggestion will be first tested in a send box before you start with production"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 9,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027364
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4411.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4411",
+  "title": "Fixed Asset Details (Excel report)",
+  "blob": "715518aae4821b7150a37099446741eeafe8591d",
+  "summary": "Fixed Asset Details Excel report shows fixed assets ledger entries by asset number with depreciation data, filtering options, and analysis capabilities for asset managers, facilities managers, and financial analysts.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "fixed assets",
+    "depreciation",
+    "ledger entries",
+    "asset tracking",
+    "excel reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Details Excel"
+    }
+  ],
+  "features": [
+    "fixed asset class filtering",
+    "subclass filtering",
+    "location filtering",
+    "department code filtering",
+    "project code filtering",
+    "reversed entries",
+    "inactive assets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002133,
+      "pages_in_call": 7
+    }
+  ]
+}

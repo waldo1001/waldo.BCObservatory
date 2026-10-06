@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-38.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-38",
+  "title": "Trial Balance by Period (report)",
+  "blob": "5c8c78adfafd8cbae79a6fa8948f9e7ba9f7bc38",
+  "summary": "Trial Balance by Period report shows general ledger accounts with starting balances and closing balances for 12 accounting periods to verify financial data accuracy and prepare financial statements.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "trial balance",
+    "period analysis",
+    "financial statements",
+    "account movements",
+    "balance verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance by Period"
+    }
+  ],
+  "features": [
+    "12 accounting periods",
+    "starting and closing balances",
+    "dimension filtering",
+    "indentation levels",
+    "chart of accounts summary"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002446,
+      "pages_in_call": 7
+    }
+  ]
+}

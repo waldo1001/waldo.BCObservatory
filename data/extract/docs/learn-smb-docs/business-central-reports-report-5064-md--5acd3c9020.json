@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5064.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5064",
+  "title": "Segment - Cover Sheet (report)",
+  "blob": "4aab6ba59304e650a6b6d6a56ea4a20e4a52c6f4",
+  "summary": "Segment - Cover Sheet report generates customizable cover sheets for segments with optional remarks and check marks. Access via Print Cover Sheets on the Segment page.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "segments",
+    "cover sheets",
+    "reporting",
+    "marketing communications"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Segment - Cover Sheet"
+    }
+  ],
+  "features": [
+    "customizable cover sheet text",
+    "remark display with check mark",
+    "custom comments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001102,
+      "pages_in_call": 7
+    }
+  ]
+}

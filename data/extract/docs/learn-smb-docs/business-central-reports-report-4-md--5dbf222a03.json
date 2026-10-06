@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4",
+  "title": "Detail Trial Balance (report)",
+  "blob": "90c28231af5ac55e082a3e54f14e523ff863a81d",
+  "summary": "Detail Trial Balance report shows beginning balance, each transaction in a period, and running balance for each general ledger account to verify accuracy and identify discrepancies.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "trial balance",
+    "transaction detail",
+    "running balance",
+    "audit",
+    "financial verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Detail Trial Balance"
+    }
+  ],
+  "features": [
+    "beginning balance",
+    "transaction detail",
+    "running balance",
+    "exclude accounts without transactions",
+    "closing entries",
+    "account analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002446,
+      "pages_in_call": 7
+    }
+  ]
+}

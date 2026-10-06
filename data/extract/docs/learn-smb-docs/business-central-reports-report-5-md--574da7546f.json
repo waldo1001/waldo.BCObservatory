@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5",
+  "title": "Receivables-Payables (report)",
+  "blob": "92820584bc47fbf7902d49fa156bd829de47fb3f",
+  "summary": "Receivables-Payables report compares customer and vendor account balances with general ledger control accounts to reconcile accounts receivable and payable during financial close.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "accounts receivable",
+    "accounts payable",
+    "reconciliation",
+    "general ledger",
+    "financial close"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Receivables-Payables"
+    }
+  ],
+  "features": [
+    "AR balance summary",
+    "AP balance summary",
+    "G/L reconciliation",
+    "posting date selection",
+    "currency selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002133,
+      "pages_in_call": 7
+    }
+  ]
+}
