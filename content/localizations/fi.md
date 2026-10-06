@@ -14,10 +14,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:22:15.880Z"
+  at: "2026-10-06T17:28:57.107Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0ce2b936b1dcd16d2d8afa9187bc422f08064c45f245b921c7a302294d9e46a1
+  input_hash: ed33c81b078d458142bac930ab4b156c4522d8087a23ddb98d2f44b6ff404331
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
