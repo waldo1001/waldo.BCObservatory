@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-general",
   "published_at": "2025-11-05T09:34:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f5efbd1c219a3f424d48cffbdabb2fc394a2969",
       "words": 1070,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:57.576Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:58.883Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:58.884Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:58.885Z",
+      "page": false
     }
   },
   "input_hash": "2f5efbd1c219a3f424d48cffbdabb2fc394a2969",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f5efbd1c219a3f424d48cffbdabb2fc394a2969"
+  "output_hash": "3f458c301e0359abc6d484eb4bea8bbace4eb8d312cfc4100ba2f4d3998027f2"
 }

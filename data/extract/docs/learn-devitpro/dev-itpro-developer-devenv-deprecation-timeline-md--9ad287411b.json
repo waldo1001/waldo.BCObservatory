@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-deprecation-timeline.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-timeline",
+  "title": "Microsoft Timeline for Deprecating Code in Business Central",
+  "blob": "cc9a9784ea4673ad44dd0720b0197773da179cb7",
+  "summary": "This article describes Microsoft's timeline for obsoleting code in Business Central, with 12 months minimum between marking code obsolete and removal.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "deprecation",
+    "obsolescence",
+    "code lifecycle",
+    "refactoring",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "ObsoleteState Property",
+    "ObsoleteTag Property",
+    "Obsolete Attribute",
+    "AppSourceCop",
+    "Deprecation guidelines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004171,
+      "pages_in_call": 8
+    }
+  ]
+}

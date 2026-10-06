@@ -1,0 +1,25 @@
+{
+  "video_id": "qNHUj3ZEang",
+  "item_id": "video/yt-microsoft/qNHUj3ZEang",
+  "summary": "Business Central REST client module additions: cookie support (set on requests, read from responses) and collectible errors with a REST client exception enum. Described as coming in the module version released with Business Central version 26.",
+  "overview": "The video covers two additions to the REST client module in Business Central, which the presenter says will be released with version 26. The first is cookie support: setting cookies on requests, reading them from responses, and working with cookie objects.\n\nThe second is collectible errors. With error collection enabled, the REST client throws collectible errors for problems such as connection failures, invalid JSON and HTTP errors. The code can then read the collected error and test an exception enum, which gets close to a try-catch pattern.",
+  "key_points": [
+    "The cookie support and error handling shown are in the next version of the REST client module, released with Business Central version 26.",
+    "To set extra properties such as domain or secret on a cookie, create a cookie object.",
+    "The get cookie names function returns a list of cookie names in the response, so you can check whether a cookie was returned. It returns an empty cookie if the cookie does not exist.",
+    "The get cookies function returns a full dictionary with cookie names as keys, which is more convenient than a list of names.",
+    "Collectible errors need an error behavior line added to the function. Only one error is collected, because the REST client stops at the first failure.",
+    "The REST client exception enum covers blocked by environment, connection failed, request failed (HTTP errors), invalid JSON, invalid XML and unknown errors.",
+    "Codeunit REST Client Exception Builder gets the exception enum from the error info custom dimensions, so you can test for a specific exception code."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "9bb1b17a818ec9ac1d904cf93522d0b9ff31b49222840b7263e589a5be2251e9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0132664
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-about-the-data-exchange-framework.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework",
+  "title": "About the Data Exchange Framework",
+  "blob": "bedf4ee12e8c8112acdff22dea9811fbda8d4737",
+  "summary": "The Data Exchange Framework manages exchange of business documents, bank files, currency rates, and data with partners and authorities using various formats and standards.",
+  "systems": [
+    "integration",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "data exchange",
+    "electronic documents",
+    "bank files",
+    "peppol",
+    "ocr",
+    "sepa",
+    "xml"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Direct Debit Collections"
+    },
+    {
+      "type": "page",
+      "name": "XML Schema Viewer"
+    },
+    {
+      "type": "page",
+      "name": "Exch. Rate Update Setup Card"
+    }
+  ],
+  "features": [
+    "Electronic documents",
+    "PEPPOL format",
+    "Bank file exchange",
+    "SEPA credit transfer",
+    "SEPA direct debit",
+    "OCR conversion",
+    "Currency exchange rates",
+    "Intrastat"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004171,
+      "pages_in_call": 8
+    }
+  ]
+}

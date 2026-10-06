@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards",
+  "title": "How to Create Multiple Fixed Asset Cards [IT]",
+  "blob": "4717b223df5d72143f7195fac34eceeddc4be60c",
+  "summary": "This Italian localization feature, now delocalized to standard Business Central, enables automatic creation of multiple fixed asset cards during purchase invoice posting.",
+  "systems": [
+    "fixed-assets",
+    "purchasing"
+  ],
+  "topics": [
+    "fixed assets",
+    "italy",
+    "localization",
+    "purchase invoice",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset List"
+    }
+  ],
+  "features": [
+    "Automatic fixed asset card creation",
+    "Bulk asset creation",
+    "Sequential numbering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004171,
+      "pages_in_call": 8
+    }
+  ]
+}

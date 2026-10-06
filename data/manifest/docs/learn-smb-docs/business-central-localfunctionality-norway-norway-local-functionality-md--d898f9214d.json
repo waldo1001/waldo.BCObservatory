@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality",
   "published_at": "2025-10-29T14:39:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "68404e2e016fab40e50c891d85a9884ce25dda9a",
       "words": 364,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:57.580Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:00.553Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:00.554Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:00.555Z",
+      "page": false
     }
   },
   "input_hash": "68404e2e016fab40e50c891d85a9884ce25dda9a",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "68404e2e016fab40e50c891d85a9884ce25dda9a"
+  "output_hash": "76dbeb11e5568caa73253fd69c45174ef44d05a19093c57ee6125e5796879166"
 }

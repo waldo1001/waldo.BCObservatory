@@ -1,0 +1,136 @@
+{
+  "video_id": "qNHUj3ZEang",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.7,
+      "end": 26.7,
+      "text": "so in the next version of the rest client module that will be released with version 26 of business Central the rest client module now supports cookies that was already supported in the HTTP client um"
+    },
+    {
+      "t": 26.7,
+      "end": 47.4,
+      "text": "in Al code but now it also made it way to the rest client module um on the request and response message code units you find several functions to work with cookies um you can set a cookie on a request"
+    },
+    {
+      "t": 47.4,
+      "end": 64.3,
+      "text": "as you can see here um so here it takes a a cookie object as the parameter uh to set a cookie on the request message if the cookie already exists it will just be"
+    },
+    {
+      "t": 64.3,
+      "end": 84.4,
+      "text": "replaced uh it's also possible to set a cookie with uh a cookie name and a value so you don't have to create a cookie but if you want to set some extra properties on the cookie like uh domain uh or Secrets then you have to create a cookie first and then use"
+    },
+    {
+      "t": 84.4,
+      "end": 104.6,
+      "text": "set cookie with the cookie object um so that is to set um cookies on outgoing requests messages it also possible to um read cookies from the response message there is a c cookie names which give you a list of"
+    },
+    {
+      "t": 104.6,
+      "end": 125.2,
+      "text": "all the cookies again find if um a certain cookie is available or was returned in the response message and then you can get its value directly by getting value on The Returned cookie or you store the cookie in a cookie object is up to you um"
+    },
+    {
+      "t": 125.2,
+      "end": 145.5,
+      "text": "if you do not test on a get cookie name then uh this one is uh returning an empty cookie in case it does not exist so you have an empty value in that case it's the same as if it didn't exist at all or you got an empty cookie um you can"
+    },
+    {
+      "t": 145.5,
+      "end": 165.6,
+      "text": "also um try to get a cookie uh with is working like this then it returns a Boolean um and you will get the Boolean um or yeah if the cookie is true if the cookie exists and you can get its value it also possible to get a dictionary of all"
+    },
+    {
+      "t": 165.6,
+      "end": 185.8,
+      "text": "cookies including their names uh as the uh key of the dictionary and that is wave the function get cookies so this uh is not justk returning a list of cookie names but gives you a full dictionary which I think uh might be uh"
+    },
+    {
+      "t": 185.8,
+      "end": 198.1,
+      "text": "convenient to work with so that is the first thing that uh is new in the rest client uh the next new thing is exception"
+    },
+    {
+      "t": 198.1,
+      "end": 213,
+      "text": "handling previously if you call the uh rest client functions here we have the get S Json um but any get or post or any command on the rest client"
+    },
+    {
+      "t": 213,
+      "end": 233,
+      "text": "returns um uh or or they'll throw an error in case um there is an issue with the connection um which could be the um uh blocked by environment or the connection faiied um it didn't return or it didn't throw an error in case"
+    },
+    {
+      "t": 233,
+      "end": 253,
+      "text": "the HTTP status code was not in a 200 series which was for a reason because you need to handle that yourself but errors were raised for um blocked by environment or connection failed and there was nothing you could do about it uh in case uh here uh with the Json uh"
+    },
+    {
+      "t": 253,
+      "end": 273.2,
+      "text": "you want to return a Json object and the Json was invalid then um it would also uh throw an error or give you back an uh an empty Jon object to uh uh for you to handle it more gracefully now now this uh behavior is still the same"
+    },
+    {
+      "t": 273.2,
+      "end": 293.2,
+      "text": "but you can now get collected errors So based on um this line of code you see here um where you enable um error collection the um rest client will throw a collectible error yes or no depending on"
+    },
+    {
+      "t": 293.2,
+      "end": 313.4,
+      "text": "this line it detects if you are collecting errors and if that is the case then the eror that uh occur um or error conditions or exceptions uh will throw an collectible error rather than just a normal error and that"
+    },
+    {
+      "t": 313.4,
+      "end": 333.7,
+      "text": "one uh can be catched here with get collected errors there will always be one error because uh it stops at the first failure is not going to try anything further because that doesn't make any sense this part of the pattern uh so you can always be sure that there only will be"
+    },
+    {
+      "t": 333.7,
+      "end": 353.8,
+      "text": "one uh ex exception one error in the error collection um and in that um error so this rest client error is an error info on the custom dimensions of that error info you can find an exception code and an exception name the exception name is"
+    },
+    {
+      "t": 353.8,
+      "end": 374,
+      "text": "there just for uh debuging reasons but the exception code can be used used to get um the corresponding enum the rest client exception enum and you can get it um conveniently from the rest client exception Builder there's a function get rest"
+    },
+    {
+      "t": 374,
+      "end": 394.7,
+      "text": "client exception and that one Returns the enum and then you can test the enum um what is it was it blocked by environment uh was it the connection field request field which means HTTP um um error so not HP status 200 or maybe the Json was invalid"
+    },
+    {
+      "t": 394.7,
+      "end": 415,
+      "text": "um and there are uh a few other uh as well like invalid XML or unknown error uh so by um implementing this pattern you are actually getting close to what is known in CP code as the tri catch pattern"
+    },
+    {
+      "t": 415,
+      "end": 435.2,
+      "text": "try catch uh code you try a function and you catch the errors well this is um pretty close to uh that behavior and you can do this only by adding the error Behavior line on top of your function so this hopefully opens more possibility"
+    },
+    {
+      "t": 435.2,
+      "end": 451,
+      "text": "for you to gracefully um handle several errors that can occur in the r client um and it's all up to you of course how you want to handle it uh it's now in your hands hope you like it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1009
+}

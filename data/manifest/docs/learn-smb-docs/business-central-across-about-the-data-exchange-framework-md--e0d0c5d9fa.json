@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bedf4ee12e8c8112acdff22dea9811fbda8d4737",
       "words": 1157,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:57.581Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.004171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:00.556Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:00.558Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:00.559Z",
+      "page": false
     }
   },
   "input_hash": "bedf4ee12e8c8112acdff22dea9811fbda8d4737",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bedf4ee12e8c8112acdff22dea9811fbda8d4737"
+  "output_hash": "841082476d0a5ac19d6e185f2d1e80c306d4cd6c21920deca7c390c1e03aea5a"
 }

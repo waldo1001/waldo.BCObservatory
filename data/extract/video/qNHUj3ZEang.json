@@ -1,0 +1,237 @@
+{
+  "video_id": "qNHUj3ZEang",
+  "item_id": "video/yt-microsoft/qNHUj3ZEang",
+  "title": "What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client",
+  "duration_s": 451,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "rest client",
+    "cookies",
+    "exception handling",
+    "collectible errors",
+    "error behavior",
+    "rest client module",
+    "http requests",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Cookie Support in REST Client Module",
+      "t_start": 0,
+      "t_end": 185.8
+    },
+    {
+      "title": "Exception Handling Overview and Previous Behavior",
+      "t_start": 185.8,
+      "t_end": 253
+    },
+    {
+      "title": "Collectible Errors and Error Collection Pattern",
+      "t_start": 253,
+      "t_end": 333.7
+    },
+    {
+      "title": "REST Client Exception Enum and Try-Catch Pattern",
+      "t_start": 333.7,
+      "t_end": 451
+    }
+  ],
+  "features": [
+    {
+      "name": "Cookie Support in REST Client",
+      "description": "The REST client module now supports cookies with functions to set cookies on requests, read cookies from responses, and work with cookie objects including properties like domain and secret.",
+      "status": "ga",
+      "status_evidence_t": 6.7,
+      "status_evidence_quote": "in the next version of the rest client module that will be released with version 26 of business Central the rest client module now",
+      "status_evidence_verified": true,
+      "t_start": 6.7,
+      "t_end": 185.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires creating a cookie object to set extra properties like domain or secret"
+      ],
+      "tags": [
+        "cookies",
+        "rest client",
+        "http requests",
+        "request handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Get Cookie Names Function",
+      "description": "Function that returns a list of all cookie names available in the response message to check if a certain cookie was returned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.4,
+      "t_end": 125.2,
+      "is_demoed": true,
+      "caveats": [
+        "Returns an empty cookie if the cookie does not exist"
+      ],
+      "tags": [
+        "cookies",
+        "rest client",
+        "response handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Get Cookies Dictionary Function",
+      "description": "Function that returns a full dictionary of all cookies with names as keys, providing a more convenient way to work with cookies compared to just getting a list of names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.6,
+      "t_end": 185.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cookies",
+        "rest client",
+        "response handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Collectible Errors in REST Client",
+      "description": "New error handling pattern that allows the REST client to throw collectible errors instead of normal errors when error collection is enabled, enabling graceful error handling for connection issues, invalid JSON, and HTTP errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 273.2,
+      "t_end": 435.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only one error will be collected because the REST client stops at the first failure",
+        "Requires adding error behavior line to the function"
+      ],
+      "tags": [
+        "exception handling",
+        "error collection",
+        "rest client",
+        "error behavior"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "REST Client Exception Enum",
+      "description": "Enum providing exception codes for different error conditions including blocked by environment, connection failed, request failed (HTTP errors), invalid JSON, invalid XML, and unknown errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.8,
+      "t_end": 394.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "exception handling",
+        "rest client",
+        "error codes",
+        "enums"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "REST Client Exception Builder",
+      "description": "A builder function that conveniently retrieves the REST client exception enum from error information custom dimensions, allowing testing of specific exception codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.8,
+      "t_end": 394.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "exception handling",
+        "rest client",
+        "error handling"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "REST Client Exception Builder",
+      "t": 353.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.7,
+      "text": "in the next version of the rest client module that will be released with version 26 of business Central the rest client module now",
+      "why_it_matters": "Establishes the GA status and version number for cookie support in the REST client module.",
+      "check": "exact"
+    },
+    {
+      "t": 64.3,
+      "text": "if you want to set some extra properties on the cookie like uh domain uh or Secrets then you have to create a cookie",
+      "why_it_matters": "Explains the design decision requiring explicit cookie object creation for advanced properties.",
+      "check": "exact"
+    },
+    {
+      "t": 165.6,
+      "text": "get cookies so this uh is not justk returning a list of cookie names but gives you a full dictionary which I think uh",
+      "why_it_matters": "Highlights the convenience advantage of the dictionary-based approach over simple name lists.",
+      "check": "exact"
+    },
+    {
+      "t": 273.2,
+      "text": "get collected errors so based on um this line of code you see here um where you enable um error collection",
+      "why_it_matters": "Introduces the new collectible errors feature and how to enable it.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 313.4,
+      "text": "there will always be one error because uh it stops at the first failure is not going to try anything further because that doesn't",
+      "why_it_matters": "Defines the constraint that only one collectible error will be returned due to fail-fast behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 374,
+      "text": "you can test the enum um what is it was it blocked by environment uh was it the connection field request field which means",
+      "why_it_matters": "Lists the specific exception codes available for different error conditions in the REST client.",
+      "check": "exact"
+    },
+    {
+      "t": 394.7,
+      "text": "by um implementing this pattern you are actually getting close to what is known in CP code as the tri catch pattern",
+      "why_it_matters": "Explains the design goal of approximating traditional try-catch exception handling patterns.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 6.7,
+      "kind": "coming-later",
+      "text": "will be released with version 26 of business Central"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019327999999999998
+    }
+  ]
+}

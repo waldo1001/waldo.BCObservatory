@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-setup-general.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-general",
+  "title": "Set up general inventory information",
+  "blob": "2f5efbd1c219a3f424d48cffbdabb2fc394a2969",
+  "summary": "The Inventory Setup page configures general inventory parameters including automatic cost posting, cost adjustment, costing methods, and concurrent posting features for inventory transactions.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "inventory setup",
+    "costing",
+    "cost posting",
+    "concurrent posting",
+    "inventory valuation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
+  "features": [
+    "Automatic Cost Posting",
+    "Automatic Cost Adjustment",
+    "Expected Cost Posting to G/L",
+    "Average Cost Calculation",
+    "Default Costing Method",
+    "Concurrent inventory posting",
+    "Multiple users posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004171,
+      "pages_in_call": 8
+    }
+  ]
+}

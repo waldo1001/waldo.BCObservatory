@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-timeline",
   "published_at": "2025-11-04T12:29:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc9a9784ea4673ad44dd0720b0197773da179cb7",
       "words": 387,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:57.577Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:00.544Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:00.546Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:00.547Z",
+      "page": false
     }
   },
   "input_hash": "cc9a9784ea4673ad44dd0720b0197773da179cb7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc9a9784ea4673ad44dd0720b0197773da179cb7"
+  "output_hash": "0ff3c666862379f35656d4c611d721431f1953cf08aa6e3cb1677862d66b4f5b"
 }

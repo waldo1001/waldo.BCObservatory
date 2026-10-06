@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-data-exchange",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92",
       "words": 214,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:57.582Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:00.565Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:00.566Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:00.567Z",
+      "page": false
     }
   },
   "input_hash": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92"
+  "output_hash": "58589c62a838009dc2871914f3054005d44ee8d503355324155973841b977c07"
 }
