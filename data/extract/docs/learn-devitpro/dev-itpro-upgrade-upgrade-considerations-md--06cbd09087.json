@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Upgrade-Considerations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations",
+  "title": "Upgrade Considerations",
+  "blob": "a028a6d0899623c7bc9c0faac4ba9515918387c3",
+  "summary": "Upgrade considerations for Business Central Spring 2019 and later versions including migration to online, Dynamics NAV transition, CRM integration, codeunit changes, extension V2 requirements, and report searchability.",
+  "systems": [
+    "administration",
+    "crm",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "migration",
+    "codeunit",
+    "extensions",
+    "search",
+    "navnow"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "1"
+    }
+  ],
+  "features": [
+    "cloud migration",
+    "MenuSuite search",
+    "extension V1 to V2 conversion",
+    "CRM integration upgrade",
+    "profile customization",
+    "company name special characters"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007986,
+      "pages_in_call": 5
+    }
+  ]
+}

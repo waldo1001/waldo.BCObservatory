@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "098afa7295760ab7f5954afdc7f05d5b0f6ac7b9",
       "words": 1585,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:14.534Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00343
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:16.353Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:16.354Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:16.355Z",
+      "page": false
     }
   },
   "input_hash": "098afa7295760ab7f5954afdc7f05d5b0f6ac7b9",
@@ -86,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "098afa7295760ab7f5954afdc7f05d5b0f6ac7b9"
+  "output_hash": "82a3b3115581ef7fea35af59bac48c0984d9cc979f06642b823ad25bb2268b53"
 }

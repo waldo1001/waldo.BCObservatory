@@ -1,0 +1,175 @@
+{
+  "video_id": "n4qog_IpKqw",
+  "item_id": "video/yt-microsoft/n4qog_IpKqw",
+  "title": "BCTalent Stories: Navitrans",
+  "duration_s": 158,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "reskilling program",
+    "talent recruitment",
+    "business central adoption",
+    "consultant training",
+    "international hiring",
+    "soft skills development",
+    "professional certification"
+  ],
+  "chapters": [
+    {
+      "title": "Navitrans and the talent challenge",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "The Reskilling Program introduction",
+      "t_start": 20.2,
+      "t_end": 40.4
+    },
+    {
+      "title": "Career transition to Business Central",
+      "t_start": 40.4,
+      "t_end": 60.6
+    },
+    {
+      "title": "Training approach and soft skills",
+      "t_start": 60.6,
+      "t_end": 81.3
+    },
+    {
+      "title": "Hiring results and international recruitment",
+      "t_start": 81.3,
+      "t_end": 112.2
+    },
+    {
+      "title": "Productivity and certification benefits",
+      "t_start": 112.2,
+      "t_end": 132.3
+    },
+    {
+      "title": "Future outlook for Business Central",
+      "t_start": 132.3,
+      "t_end": 158
+    }
+  ],
+  "features": [
+    {
+      "name": "Microsoft Reskilling Program",
+      "description": "A structured program designed to train and certify new consultants and developers in Business Central, providing functional skills, soft skills training, and ongoing support through coaches and trainers across multiple countries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.2,
+      "t_end": 132.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent acquisition",
+        "training",
+        "certification",
+        "consulting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Business Central latest versions training",
+      "description": "Participants in the Reskilling Program are trained on the latest versions of Business Central and can share tips and tricks with colleagues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.2,
+      "t_end": 132.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "knowledge transfer",
+        "version updates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Fast bilability in 12 weeks",
+      "description": "Reskilled consultants and developers become billable after 12 weeks of training in the program.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.2,
+      "t_end": 132.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "productivity",
+        "time-to-value",
+        "training duration"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Bart",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "hard to find the right uh employee with the right background with the right training and with the right certification",
+      "why_it_matters": "Establishes the core business problem that the Reskilling Program addresses - talent shortage in the Business Central ecosystem.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 20.2,
+      "text": "the power of the reskilling program is actually to boost your confidence and to make sure that you just achieve your professional goals",
+      "why_it_matters": "Describes the program's core value proposition beyond technical training.",
+      "check": "exact"
+    },
+    {
+      "t": 81.3,
+      "text": "the res program took away my fear for change because this was well structured plan there is a lot of communication and a lot",
+      "why_it_matters": "Shows the emotional and psychological benefits of structured training in addressing change management concerns.",
+      "check": "exact"
+    },
+    {
+      "t": 92.1,
+      "text": "we have hired uh 10 people in less than 3 months seven consultants and three developers",
+      "why_it_matters": "Quantifies the rapid hiring success Navitrans achieved through the Reskilling Program.",
+      "check": "exact"
+    },
+    {
+      "t": 112.2,
+      "text": "after 12 weeks they started being billable which is a very big Advantage for us as a company",
+      "why_it_matters": "Demonstrates the rapid time-to-productivity from the program, a key business metric.",
+      "check": "exact"
+    },
+    {
+      "t": 132.3,
+      "text": "the hiring process with the res skill program is a very fast process which give us also the certified and experienced people",
+      "why_it_matters": "Highlights the program's efficiency in delivering both speed and quality in recruitment.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011181
+    }
+  ]
+}

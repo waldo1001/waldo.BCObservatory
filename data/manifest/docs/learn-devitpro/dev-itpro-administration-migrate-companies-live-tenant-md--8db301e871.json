@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
       "words": 594,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:14.539Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00343
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:16.365Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:16.366Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:16.366Z",
+      "page": false
     }
   },
   "input_hash": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8face050fc6e46598f7daffeaa4f80f81f18c2c1"
+  "output_hash": "50ea6bc1e205da76d724ead75a56e8a25ecb3c3e6c296e3c7df942dbf5200a4d"
 }

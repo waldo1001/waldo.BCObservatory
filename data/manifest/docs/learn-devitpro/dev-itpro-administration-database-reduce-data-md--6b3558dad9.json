@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-reduce-data",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
       "words": 528,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:14.538Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00343
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:16.363Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:16.364Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:16.364Z",
+      "page": false
     }
   },
   "input_hash": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6690b88fbff8f7419ca7d4d273b66f6c0034472"
+  "output_hash": "9df03870fe3484ae013303c9a0000205c180d26db1a35aee5712f9ae792c25f6"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v23.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v23",
+  "title": "Technical upgrade from version 14 to version 23",
+  "blob": "bbc7999a3e23380c9a64fe7ed3ad6283503fb561",
+  "summary": "Technical upgrade process from Business Central version 14 to version 23 for code-customized applications, including database conversion, extension publishing, permission upgrades, and post-upgrade configuration.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "technical",
+    "database",
+    "extensions",
+    "permissions",
+    "conversion"
+  ],
+  "objects": [],
+  "features": [
+    "C/AL to AL conversion",
+    "database synchronization",
+    "extension publishing",
+    "permission set upgrade",
+    "task scheduler",
+    "data encryption",
+    "tenant mounting"
+  ],
+  "versions": [
+    "version 14",
+    "version 23"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007986,
+      "pages_in_call": 5
+    }
+  ]
+}

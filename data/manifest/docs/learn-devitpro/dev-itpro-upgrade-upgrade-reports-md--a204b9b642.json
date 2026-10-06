@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6dadda678335adba7d65647b4defc4a54b327e41",
       "words": 1289,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:11.186Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.007986
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:11.199Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:11.199Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:11.200Z",
+      "page": false
     }
   },
   "input_hash": "6dadda678335adba7d65647b4defc4a54b327e41",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6dadda678335adba7d65647b4defc4a54b327e41"
+  "output_hash": "4bec04b8cc1ac40edd77e1d7caa9ffac22ffa69d301be3beb073489ce73e3488"
 }

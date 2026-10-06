@@ -1,0 +1,363 @@
+{
+  "video_id": "z1H6nQCEIeY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.3,
+      "end": 38.7,
+      "text": "hi Welcome to our business Central launch event uh release 2024 wave 1 today our session is about e invoice matching with co-pilot uh my name is B abusada I'm a software engineer at business Central and I'm joined today with Alexander thank you while my name is Alexander toic and I product manager responsible for this feature"
+    },
+    {
+      "t": 38.7,
+      "end": 58.9,
+      "text": "actually both of us we are responsible for this feature together with our bigger team let's show you what we talk today uh first we'll make short introduction not only uh about matching uh e document e voice matching uh copilot but about co-pilot how we working with that then we will show process flow and"
+    },
+    {
+      "t": 58.9,
+      "end": 78.9,
+      "text": "then the most important part end to end demo while will show you okay um first we want to emphasize that e invoice matching with co-pilot is in public preview that me this is still not General available it will be in all your environments in Cloud but as a public preview um if you look more at deployment this"
+    },
+    {
+      "t": 78.9,
+      "end": 88.9,
+      "text": "is available only in the B Center online so no on Prem Solutions it is available in 2024 release way one uh roll out will start uh with update"
+    },
+    {
+      "t": 88.9,
+      "end": 109.2,
+      "text": "24.0 it will be available in all regions globally except Canada because of some regulatory um issues and roll out we start with us environments about languages currently this is available in all type of uh English languages it can be tried you can try using in other languages but officially this is"
+    },
+    {
+      "t": 109.2,
+      "end": 120.8,
+      "text": "uh something what we support we support officially English language and all our tests are pass without any problem with English language about pricing what we can say currently this is available"
+    },
+    {
+      "t": 120.8,
+      "end": 141.7,
+      "text": "uh with standard B Central license both essential premium without any additional cost um what is important to know uh when we talk about that um Microsoft and B center team we designed all this feature uh ground up of Microsoft value responsible AI standard"
+    },
+    {
+      "t": 141.7,
+      "end": 161.7,
+      "text": "Microsoft uh around on a trust and um this is not there is no difference with this co-pilot features inside the B Central and this one feature in bus Central our fundamental promises are that your data are is your data uh as a customer you will control your data we will not take your data we"
+    },
+    {
+      "t": 161.7,
+      "end": 181.8,
+      "text": "will not train our models uh our foundational AI model aser AI with your data your data are your data um you're absolutely protected with every step the most comprehensive Enterprise compliance Security Control in industry and every step of the way we apply Microsoft responsible AI standards to ensure this"
+    },
+    {
+      "t": 181.8,
+      "end": 201.9,
+      "text": "feature is safe for all our customers when say our customer our Microsoft customers and your customers as partners and their data so let's move to the functionality why we started with co-pilot on previous uh wave we deliver"
+    },
+    {
+      "t": 201.9,
+      "end": 222,
+      "text": "uh eent framework and we deliver on top of that integration with external Services it was really nice feature we deliver when we really proud what we deliver in such a short uh term but we need to admit we had some small missing features there we still have space to improve and we are doing this and this way is a proof"
+    },
+    {
+      "t": 222,
+      "end": 242.4,
+      "text": "that we are we are continuing to investing in um this functionality and we will continue in the future as well but what is what is what was the biggest issue just imagine you're working a purchase process and you don't want to create purchase invoice you're working with purchase orders you have uh many items"
+    },
+    {
+      "t": 242.4,
+      "end": 262.7,
+      "text": "and you are working with inventory and you want to post separately received and invoice so you must work with purchase orders now you received electronic invoice from your vendor and you cannot match with this purchase order you could as I mentioned previously you could create purchase invoice"
+    },
+    {
+      "t": 262.7,
+      "end": 282.7,
+      "text": "but if you work with purchase order it was a blocker you couldn't do this um so uh there's more issues this is not only to connect sometimes it can be line one to one sometimes one to many many to one many different combination this is just standard this is business process we cannot say all the time yes"
+    },
+    {
+      "t": 282.7,
+      "end": 303.2,
+      "text": "there's Sunshine scenario you can do one to one similar names no this is a real real life a real business and what we can say as I said there is not on the time one to one not only lines not all all the time one to one one in voice one order in general you can have purchased order with maybe 10 15 uh invoices"
+    },
+    {
+      "t": 303.2,
+      "end": 323.6,
+      "text": "and who knows how many differences in lines codes are of course different descriptions definitely different this is probably maybe in some situation we have sortly the same very similar description but in most situation we have different description in your system internally be Central and your vendor document of course we can use item"
+    },
+    {
+      "t": 323.6,
+      "end": 343.9,
+      "text": "references but this is not solution for all vendors what can happen um you can have 500 vendors and you can have thousand of items maybe 5,000 of items and what how you will finish with having two millions of it references to map all of them yes in some situation this is possible"
+    },
+    {
+      "t": 343.9,
+      "end": 364,
+      "text": "but probably it will be really complicated and even if you make it it will be complicated for uh maintains in the future so there are further information uh what what else is this item already received or not so we need to have some additional cont control what about price so there are many many additional uh let's say"
+    },
+    {
+      "t": 364,
+      "end": 384.2,
+      "text": "blockers so it was not so easy to make it um as I said blocker but all the time when we have Blocker we have solution for blocker this is just the best uh inspiration how to make great solution and we delivered this solution in two parts first part was okay let's make let's introduce new page mapping"
+    },
+    {
+      "t": 384.2,
+      "end": 404.3,
+      "text": "page where you can find from left side never mind we decide to be on left side lines from electronic document and right side uh lines from purchase order good enough so you can manually map one line with another line one to one one to many whatever and that's okay if you have five six lines but"
+    },
+    {
+      "t": 404.3,
+      "end": 425.2,
+      "text": "if you are working with dozens of lines or maybe with hundreds of line wow mapping all these things especially with different descriptions different prices uh maybe not different but you need to check every time your price is okay or not if if your vendor provideed different PR from what he already promised so it can be really complicated"
+    },
+    {
+      "t": 425.2,
+      "end": 436.9,
+      "text": "and now what we have we have unblocked situation so you can work but not the perfect case not the perfect scenario but there is a magic we decided let's introduce"
+    },
+    {
+      "t": 436.9,
+      "end": 457,
+      "text": "copilot now copilot can do many things and now if you do if you run copilot you will see this in our demo it will be really just a magic syst automatically connect what you have electronic document what you have in your purchase order system will connect lines and that's it you can be really happy and you can work"
+    },
+    {
+      "t": 457,
+      "end": 477.3,
+      "text": "and now I cannot say there is no accurate measuring I made some my tests with the some 20 lines in a purchase order and purchase voice it was one to one so not so complicated pretty straightforward when I did it manually but doing manually comparing with co-pilot it was more than 50 times slower slower than you are doing manually"
+    },
+    {
+      "t": 477.3,
+      "end": 497.5,
+      "text": "of course Goa Pilot We increase your efficiency many many times and now this is one document now multiply this with 10 documents per day multiply this with 30 days okay 22 days per month and you can see how much time and maybe Workforce you can save this is definitely"
+    },
+    {
+      "t": 497.5,
+      "end": 517.6,
+      "text": "great functionality great example how to use um uh G GPT model now just to finish uh this part um as I said this is not all the time one to one we are enable just to repeat myself one to one one to many many to one and how it works you will see in demo but first what we are trying to do we try"
+    },
+    {
+      "t": 517.6,
+      "end": 537.9,
+      "text": "to save your time and every time if system can find similarity 80 or more per similarity description system will not ask GPT at all it will be automatically connected so that's so far so good but if you cannot if there is different descriptions complicated for understand what is in in one document what is another Co"
+    },
+    {
+      "t": 537.9,
+      "end": 558.2,
+      "text": "co-pilot will uh run our llm and together with some pre-processing postprocessing uh uh features while explain a little bit more details I will not go so deep and system will do this there are some additional controls as I already mentioned a big issues big potential issues uh you cannot invoice"
+    },
+    {
+      "t": 558.2,
+      "end": 576.2,
+      "text": "more receip so we have control not to allow you to make some mistake then uh price by default must be 100% the same there is no differences but if if you want as a user you can make a setup you will see how to do this and you can enable for example for"
+    },
+    {
+      "t": 576.2,
+      "end": 596.5,
+      "text": "one one something uh to to to make uh additional Precision what you want to track so this is allow as well and what we have more in a a few roll centers we extended R centers with additional cues to control the status if this purchase already connected or you need to do something"
+    },
+    {
+      "t": 596.5,
+      "end": 616.7,
+      "text": "manually to make it easier and before while take his stage with a great demo I want to show you shortly process how it works first this is all part you're getting electronic invoice it will be it will create automatically a document and now there is one"
+    },
+    {
+      "t": 616.7,
+      "end": 637.1,
+      "text": "new things if your vendor is configured to receive electronic uh to receive purchase invoices to create actually purchas Dev voices for example power plant you just have some um easy expense no no connected with items you will configure making voice what system will do system will look in general leder mapping or item reference and create purchase inv"
+    },
+    {
+      "t": 637.1,
+      "end": 657.1,
+      "text": "but if there is different setup if setup is Mak an order for this use orders making not not maybe the right uh word then what system will do system will first check okay if for this vendor do we have some orders active orders in the system if we do not have"
+    },
+    {
+      "t": 657.1,
+      "end": 677.2,
+      "text": "yeah system will do yes the system know we want to work with order system will create new order the same as the same model as creating purchase inv voice but it will be ordered so you can still separately post received any voice but if there is some order system will map this order using co-pilot uh"
+    },
+    {
+      "t": 677.2,
+      "end": 697.3,
+      "text": "match everything and update existing purchase order how it look like on this slide you will see yeah we have E doent manual matching a new page but we have co-pilot here here already finished matching as I said one to one one to many many to one and now I think you want to"
+    },
+    {
+      "t": 697.3,
+      "end": 717.4,
+      "text": "see how this look like in a practice so while please show us gr demo full end scenario absolutely all right let's actually show you a great demo for this one but before actually showing you a demo uh let's start with the demo data we're going to use to present this demo so in order in order to set up"
+    },
+    {
+      "t": 717.4,
+      "end": 737.8,
+      "text": "e doent in in an easy way for you to present or to use as a customer or you as a partner to present it to your customers we actually created a demo data module in Koso demo tool and if you're using the Kronos company that comes out of the box you will find that you have it already and you can go ahead and use it"
+    },
+    {
+      "t": 737.8,
+      "end": 758,
+      "text": "uh if you have some of your demo companies out there already you can just go to contoso demo tool and run it again take a couple of seconds and then you have good enough demo data to present co-pilot and different features around e doent all right so now uh the demo data assume that you during the night have receiv received some"
+    },
+    {
+      "t": 758,
+      "end": 778.8,
+      "text": "uh E doent from the government and these e doents were actually mapped to a purchase order and if you click here on this queue in the r Center it will take you to these six purchase order that have matching incoming document that you need to start mapping the lines for each of the documents so"
+    },
+    {
+      "t": 778.8,
+      "end": 799,
+      "text": "now I want to show you the sunshine scenario of using co-pilot now and how easy it can get to map lines between the two documents and so let's do it I already have enabled co-pilot for for for this environment and this is a live demo so it took a couple of seconds and it found five lines that were actually"
+    },
+    {
+      "t": 799,
+      "end": 819.8,
+      "text": "uh mapped uh for between the E doent and the purchase order and let me walk you through this nice page that you see so the first thing you'll see the auto match lines and in auto match lines in this scenario it's Z out of five uh because this where we try to basically match lines based on the text in the description"
+    },
+    {
+      "t": 819.8,
+      "end": 839.8,
+      "text": "and if that similarity is around 80% or more then we will automatically match it otherwise we will send it to co-pilot then co-pilot will take all the lines that are left over and we'll try to do semantic uh matching between them or even literal matching and based on that it will give you some feedback hey this"
+    },
+    {
+      "t": 839.8,
+      "end": 860.1,
+      "text": "is my proposal for you these are the lines that we think they should match uh we also take into account the cost of each items um we also take into account the available quantity uh that need to be invoiced and basically you get a set of proposal you also see on this side uh the total amount with vat"
+    },
+    {
+      "t": 860.1,
+      "end": 880.2,
+      "text": "and without vat and then you'll see all the lines that basically are the proposal from co-pilot uh I want to show you as I said the our Sunshine scenario so I'm going to go ahead and accept it and as you can see this is done let's actually go ahead and even apply this to our purchase order let's see how fast this will take"
+    },
+    {
+      "t": 880.2,
+      "end": 900.4,
+      "text": "done and keep an eye here on something super cool is that we already picked the vendor in Voice number and we also updated the document date and then you can go ahead and post it and you're done your job is done you don't need to do much effort after this one so let's Also let's show it in more documents so let's open this purchase"
+    },
+    {
+      "t": 900.4,
+      "end": 920.4,
+      "text": "order so the second purchase order we got and you can see in this one we don't have a vendor invoice number you know we have set of lines that are here different different items uh different values um you will see some of the purchase order in our demo data some of them have discount different price different description and in here I also want"
+    },
+    {
+      "t": 920.4,
+      "end": 940.6,
+      "text": "to invoke co-pilot once more this one it seems like it have more lines right so yeah let's see how good co-pilot will do matching these lines all right it took some time and then it's back ready and wow quite a lot more lines and in here you will actually see a little bit of difference because we have already"
+    },
+    {
+      "t": 940.6,
+      "end": 960.8,
+      "text": "managed to match three out of 14 of the lines uh automatically based on text description similarity and the rest were successfully matched by co-pilot great uh you could also drill down on one of the proposal to see more details so you can see the e description the purchase order"
+    },
+    {
+      "t": 960.8,
+      "end": 980.9,
+      "text": "description the cost Etc but let's say you didn't like this proposal you can easily just say discard it and then you can go back to the manual matching once more right but yeah uh it's it's much easier when when when you do it you know with co-pilot so one of the thing also we we take into account when we do the matching is the"
+    },
+    {
+      "t": 980.9,
+      "end": 1001,
+      "text": "cost so item have to exactly match but what if you want to have like a wiggle room where you can say if the item is like I don't know 5% different than the cost that I have in my purchase order I'll accept it maybe you got a good deal over the phone or something right so you can easily go to purchase and payable"
+    },
+    {
+      "t": 1001,
+      "end": 1017.8,
+      "text": "setup and adjust this setup value that will allow co-pilot to change the margin that allowed cost difference so if we set it to like I don't know 10% then co-pilot will accept anything within the 10% range from the original"
+    },
+    {
+      "t": 1017.8,
+      "end": 1038,
+      "text": "cost uh and yeah that's it and uh if we have different prices how we can differ how we can uh make difference on an a prompt if this is 100% the same or oh yeah that's a really good question so if if we open again the E doent uh and uh when when you have different"
+    },
+    {
+      "t": 1038,
+      "end": 1058,
+      "text": "prices you will see that um that like we have different color that will that will show you based on that like is this was like this 100% match or not and uh so yeah if it's like green then we have like 100% match if it's yellow then maybe it's still within the same price range but"
+    },
+    {
+      "t": 1058,
+      "end": 1078.6,
+      "text": "it's within the acceptable range that you have set up in in payable and purchase setup if it's red it mean it's outside of the range and probably you need to manual intervention and review the value thank you yeah thank you I think this is uh a great example of um how we can use co-pilot in a real"
+    },
+    {
+      "t": 1078.6,
+      "end": 1099,
+      "text": "uh business in real case so now yeah we can be really we can be proud what we deliver of course all the time there are space for for improvement and we will look what we can do more to make more co-pilots to extend co-pilot features but this is something what can be really good in a practice usage especially"
+    },
+    {
+      "t": 1099,
+      "end": 1119.9,
+      "text": "more and more countries requir to have electronic invoicing so if could be really easy saving a time saving a money of course absolutely and now yeah probably you would like to see if you want to test it if you want if you can to test it uh if you want and uh yes you can what you need to do you need to log into to our CDX"
+    },
+    {
+      "t": 1119.9,
+      "end": 1140.2,
+      "text": "uh en environment actually portal what you need to do just go akms CDX and if your partner you have access there or you will uh require access you will get it when you create your demo account there you just need to open in another profile and you will use this demo account and just login make a trial bus Central"
+    },
+    {
+      "t": 1140.2,
+      "end": 1160.3,
+      "text": "and that's it you can start you can start to test not only this feature many other features there are many other co-pilots as well uh but what if if um if you cannot find copilot if you try and there is no copilot first check if copilot ni cap capability page if this"
+    },
+    {
+      "t": 1160.3,
+      "end": 1181.1,
+      "text": "is a environment switch on so you can use C pilot then uh another things is this feature is active because you will see there in a there are more co-pilots check if e document e invoice is matching is active or not if this is not just activate is still not check"
+    },
+    {
+      "t": 1181.1,
+      "end": 1201.4,
+      "text": "uh English language if English language is my settings and if you on version 24 maybe you activated all versions so this is enabl only from version 24 so that's it from our side but there is always but we want to encourage you to watch another session because as I mentioned both of us mentioned there are more"
+    },
+    {
+      "t": 1201.4,
+      "end": 1222,
+      "text": "co-pilots uh in this release and you will see we have co-pilot for Sal line suggestion co-pilot we have ai powered analyze with co-pilot uh chat with co-pilot really good amazing things you will see when you start to use this is a really amazing what you can get this is definitely another level another dimension of using of business applications"
+    },
+    {
+      "t": 1222,
+      "end": 1242.3,
+      "text": "then you can extend co-pilot using Al code so that means you can do more by yourself in specific specific partner situation industry specifics maybe in some local uh things so you can do it now by yourself and uh we have what new design generative AI experience and 61 is not about"
+    },
+    {
+      "t": 1242.3,
+      "end": 1262.4,
+      "text": "AI this is about other things in documents so we show you now how you can use co-pilot in document matching but there is all also manual matching in some situation maybe you cannot use co-pilot but there is still some good new thing new things there not only matching but some other news please watch this session"
+    },
+    {
+      "t": 1262.4,
+      "end": 1283,
+      "text": "and you can see what is interesting connectivity documents okay on this slide you can find a lot of co-pilot resources uh in general co-pilot resources uh uh you can find uh uh with one item with uh matching e document matching release note information uh learn uh about matching"
+    },
+    {
+      "t": 1283,
+      "end": 1303,
+      "text": "uh extend how to extend co-pilot and so more and so more and plus we have standard busy Central resources use uh Yammer akbc Yammer go there talk with us you have great opportunity to discuss with us with the people who are made in this and um yeah we can we can talk you can send"
+    },
+    {
+      "t": 1303,
+      "end": 1323.2,
+      "text": "a feedback we can do whatever we can do we can discuss whatever you want there is Twitter uh LinkedIn um uh office hours monthly office hours be there and of course BC ideas please log your ideas we are really listening for this and we want to get as more feedback as possible because this is the way how we can together improve"
+    },
+    {
+      "t": 1323.2,
+      "end": 1343.3,
+      "text": "our product how make it the best and this is the best how we can make uh to be the best in a I don't know how many years do it together with us and if you forget all of them please do not forget this one AK msbc all so you can find all these and much more links dozens and dozens different links there um"
+    },
+    {
+      "t": 1343.3,
+      "end": 1363.5,
+      "text": "before we official say thank you uh we want to call you and to encourage you join us q& a session both while and I will be there it will be approximately 7even days after busy Center lunch event so you will have enough time to watch all videos so you will have a bunch of questions it will be a great opportunity to discuss face to face okay through teams but face to face"
+    },
+    {
+      "t": 1363.5,
+      "end": 1385.6,
+      "text": "so you can ask you can type if you don't want to ask orally but you can talk with us we'll be more than open as I said we want to get your feedback and we want to update information because maybe we didn't explain something properly we will give you more information there and that's it for today we can say thank you thank you yeah and hope you will"
+    },
+    {
+      "t": 1385.6,
+      "end": 1387,
+      "text": "enjoy"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3960
+}

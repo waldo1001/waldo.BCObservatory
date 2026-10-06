@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
+  "title": "Apply Company Configuration Packages",
+  "blob": "098afa7295760ab7f5954afdc7f05d5b0f6ac7b9",
+  "summary": "Apply Company Configuration Packages guides partners through using configuration packages and questionnaires to set up new customers and migrate their data into Business Central online or on-premises.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "configuration packages",
+    "data migration",
+    "customer onboarding",
+    "configuration questionnaires"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Configuration Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Package"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Questionnaire"
+    },
+    {
+      "type": "page",
+      "name": "Config. Question Area"
+    },
+    {
+      "type": "page",
+      "name": "Config. Package Records"
+    },
+    {
+      "type": "page",
+      "name": "Migration Overview"
+    },
+    {
+      "type": "page",
+      "name": "Migration Record"
+    }
+  ],
+  "features": [
+    "configuration packages",
+    "configuration questionnaires",
+    "data import from Excel",
+    "mapping tables and fields",
+    "journal creation",
+    "opening balance posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00343,
+      "pages_in_call": 8
+    }
+  ]
+}

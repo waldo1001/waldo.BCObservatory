@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v23",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c06179936e2b878f706af17daf68875abe8ebe1c",
       "words": 1898,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:11.190Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.012199
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:11.209Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:11.210Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:11.211Z",
+      "page": false
     }
   },
   "input_hash": "c06179936e2b878f706af17daf68875abe8ebe1c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c06179936e2b878f706af17daf68875abe8ebe1c"
+  "output_hash": "bb2ced067357a7ecf7cc8da964f5b6ed8d2f09e5080e0d5e594ff006e4361f8a"
 }

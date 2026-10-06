@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-companies-live-tenant.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
+  "title": "Migrating Business Central companies into live tenants",
+  "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
+  "summary": "Migrating Business Central companies into live tenants documents the risks and considerations when migrating on-premises companies to an online tenant after going live, which is not officially supported.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "live tenant migration",
+    "data loss risks",
+    "permission management"
+  ],
+  "objects": [],
+  "features": [
+    "Intelligent Cloud permission set",
+    "per-database data replication",
+    "number sequences migration",
+    "schema modification control",
+    "API integration configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00343,
+      "pages_in_call": 8
+    }
+  ]
+}

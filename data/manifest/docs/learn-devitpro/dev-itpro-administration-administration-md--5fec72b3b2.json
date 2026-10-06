@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Administration",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9467f0b2647251d1bca848b0c6355169c10b92ed",
       "words": 87,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:14.533Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00343
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:14.540Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:14.541Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:16.352Z",
+      "page": false
     }
   },
   "input_hash": "9467f0b2647251d1bca848b0c6355169c10b92ed",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9467f0b2647251d1bca848b0c6355169c10b92ed"
+  "output_hash": "0a93544a5a0195ef477dd9314beb17d43c5f4812aaafc409cf6e751a0058fdc8"
 }

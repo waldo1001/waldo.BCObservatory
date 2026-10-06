@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-missing-indexes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-missing-indexes",
+  "title": "Missing indexes in Business Central databases",
+  "blob": "98cd81fe2249d2dcbc43865a48b73af52539b714",
+  "summary": "Missing indexes in Business Central databases explains how database missing indexes improve query performance by suggesting indexed columns based on SQL Server Dynamic Management Views.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database performance",
+    "missing indexes",
+    "query optimization",
+    "sql server"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Database Missing Indexes"
+    }
+  ],
+  "features": [
+    "missing index detection",
+    "index suggestions",
+    "query performance analysis",
+    "index equality columns",
+    "index inequality columns",
+    "include columns"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00343,
+      "pages_in_call": 8
+    }
+  ]
+}

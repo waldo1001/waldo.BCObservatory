@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a028a6d0899623c7bc9c0faac4ba9515918387c3",
       "words": 1107,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:11.185Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007986
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:11.196Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:11.197Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:11.198Z",
+      "page": false
     }
   },
   "input_hash": "a028a6d0899623c7bc9c0faac4ba9515918387c3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a028a6d0899623c7bc9c0faac4ba9515918387c3"
+  "output_hash": "327ffcb066d8d88ce15e6d9b2836863864b44a30d5a0a9c9cbea7dd54385a62c"
 }

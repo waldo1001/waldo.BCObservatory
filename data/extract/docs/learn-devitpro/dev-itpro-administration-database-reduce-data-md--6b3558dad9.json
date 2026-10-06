@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-reduce-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-reduce-data",
+  "title": "Keeping Database Size Under the Limit",
+  "blob": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
+  "summary": "Keeping Database Size Under the Limit provides methods to reduce database size including deleting unused companies, removing documents, using retention policies, and enabling data compression to prevent size limits and improve performance.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database size",
+    "data reduction",
+    "storage management",
+    "data compression"
+  ],
+  "objects": [],
+  "features": [
+    "delete unused companies",
+    "delete documents",
+    "retention policies",
+    "data compression",
+    "CompressionType property"
+  ],
+  "versions": [
+    "2020 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00343,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports",
+  "title": "Upgrading Reports",
+  "blob": "6dadda678335adba7d65647b4defc4a54b327e41",
+  "summary": "Report platform upgrade guidance for Business Central version 20 and later covering new rendering model, event changes, custom layout handling, and migration path for applications with Word and custom report layouts.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "reports",
+    "upgrade",
+    "layout",
+    "rendering",
+    "events",
+    "word"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "44"
+    },
+    {
+      "type": "codeunit",
+      "name": "9651"
+    },
+    {
+      "type": "table",
+      "name": "9650"
+    }
+  ],
+  "features": [
+    "Word document rendering",
+    "RDLC layout",
+    "custom report layouts",
+    "platform rendering",
+    "report events",
+    "design-time report selection"
+  ],
+  "versions": [
+    "version 20",
+    "version 19"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007986,
+      "pages_in_call": 5
+    }
+  ]
+}

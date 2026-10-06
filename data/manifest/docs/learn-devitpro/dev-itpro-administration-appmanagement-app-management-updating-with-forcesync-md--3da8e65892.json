@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-updating-with-forcesync",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "81b2793d051f05d6ea0fd0ef2791163146d413be",
       "words": 366,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:14.535Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00343
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:16.355Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:16.356Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:16.356Z",
+      "page": false
     }
   },
   "input_hash": "81b2793d051f05d6ea0fd0ef2791163146d413be",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "81b2793d051f05d6ea0fd0ef2791163146d413be"
+  "output_hash": "6284f61c619c382f93d35a94f17037cc2d394222339185601106f98886c2ab1f"
 }

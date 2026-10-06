@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v22",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a41f7ac220754ebe125a6d85840ecaf6b1b378e",
       "words": 1890,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:11.189Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.012199
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:11.206Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:11.207Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:11.208Z",
+      "page": false
     }
   },
   "input_hash": "7a41f7ac220754ebe125a6d85840ecaf6b1b378e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a41f7ac220754ebe125a6d85840ecaf6b1b378e"
+  "output_hash": "ef25a30b71ca7826d72a5e3c83ffd14e702da2903bc4eaefe6ef5a2d96666da5"
 }

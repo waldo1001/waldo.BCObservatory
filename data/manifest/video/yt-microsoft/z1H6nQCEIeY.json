@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=z1H6nQCEIeY",
   "published_at": "2024-04-04T13:30:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T19:38:56.052Z",
       "captions": "auto:en-orig",
       "duration_s": 1387
+    },
+    "captioned": {
+      "at": "2026-10-06T19:39:06.487Z",
+      "path": "data/captions/microsoft/z1H6nQCEIeY.vtt",
+      "vtt_sha256": "450a168028435df9c9bc43d50f44e47f6baf953d62c539e5cda5815e83564510",
+      "segments": 70,
+      "words": 3960,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -32,5 +41,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "450a168028435df9c9bc43d50f44e47f6baf953d62c539e5cda5815e83564510"
 }
