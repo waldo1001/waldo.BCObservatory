@@ -33,10 +33,21 @@ Deliberate deviations from PLAN, all small:
    that has a handler in `pipeline/orchestrator/stages.ts` (empty until a pillar lands), charging each quota once
    per item. Stops: hard stop (06:35 local, or the window length for a daytime dispatch), `llm_calls_max`, spend
    cap, re-guard skip every 25 calls; infra errors abort, item errors `fail()` with backoff. Report: `execution`.
-3. **Videos first (D18).** Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`,
-   46 carry `[videoId]`, 38 need id resolution + an override map), Microsoft channel reconcile
-   (`yt-dlp --flat-playlist`) + caption fetch, Haiku extraction (port `prev/pipeline/02-extract`), quote check,
-   Sonnet summary, video pages in `content/videos/` + their `llms.txt` section.
+3. **Videos first (D18).** Partly done 2026-10-06:
+   - Done: seed import (`npm run seed:videos`, 84 VTTs → `data/captions/microsoft/`, ids via `[videoId]` or
+     `data/overrides/seed-videos.yaml`), Haiku extraction (`pipeline/extract/video.ts`, thinking off for facts),
+     Sonnet summary (`pipeline/summarize/video.ts`), `linked` + `published` (`pipeline/render/video.ts`) →
+     `content/videos/<videoId>.md` + `content/videos/llms.txt`. Registered in `pipeline/orchestrator/stages.ts`, so
+     the nightly now works through the 82 remaining seed videos (12/night in reduced mode, ~$0.075 each).
+   - A status stands only when its verbatim evidence states it; launch-event videos mostly say "introduced", so
+     their features read "status not stated" until roadmap stubs (step 5) supply real status.
+   - Open: Microsoft channel reconcile (`yt-dlp --flat-playlist`) + caption fetch handlers (`fetched`,
+     `captioned`, Mini only); Opus `reviewed` handler (flagged videos wait at `linked`); Astro route that renders
+     `content/videos` and links the section from the root `llms.txt`.
+   - Measured (claude -p, 2.1.287): Haiku extraction 9-min video $0.036 / 27 s, 35-min video $0.16 (4 calls);
+     Sonnet summary ~$0.04. `npm run nightly -- --pillars video --only yt-microsoft --quota 2 --no-guard` is the
+     local end-to-end check.
+   - Known gaps: `check:leak` and `validate:content` scripts point at files M0 never wrote.
 4. Learn docs: fetched stage (frontmatter, `ms.search.form`), topic hubs seeded from `TOC.md`, hub narratives from
    member summaries.
 5. Roadmap feature stubs (deterministic) and first Opus-reviewed hubs; unreviewed pages ship with a badge.
