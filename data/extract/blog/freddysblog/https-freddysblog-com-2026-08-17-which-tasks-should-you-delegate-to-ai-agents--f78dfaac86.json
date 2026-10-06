@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents",
+  "url": "https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents/",
+  "title": "Which Tasks Should You Delegate to AI Agents?",
+  "source": "freddysblog",
+  "published_at": "2026-08-17T09:00:00.000Z",
+  "words": 2797,
+  "summary": "A framework for deciding which tasks to delegate to AI agents based on four dimensions: economic attractiveness, agent feasibility, verifiability, and risk. The weakest dimension determines the maximum autonomy level, categorizing tasks as delegate now, delegate with guardrails, or not yet.",
+  "key_points": [
+    "Four scoring dimensions determine delegation readiness: economic value, technical capability, verification ability, and safety",
+    "The weakest dimension sets the ceiling for autonomy; strong scores on three dimensions cannot override a weak score on one",
+    "Tasks can be refined through guardrails and design changes to enable safer delegation without full autonomy",
+    "Verifiability and risk are often underrated but critical gates; silent failures on these dimensions are particularly dangerous"
+  ],
+  "systems": [
+    "copilot"
+  ],
+  "topics": [
+    "ai agents",
+    "task delegation",
+    "autonomous systems",
+    "risk management",
+    "decision framework"
+  ],
+  "objects": [],
+  "features": [
+    "Economic attractiveness scoring",
+    "Agent feasibility assessment",
+    "Verifiability evaluation",
+    "Risk and responsibility analysis",
+    "Guardrail design",
+    "Task decomposition"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014117,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The weakest dimension determines the maximum level of autonomy you can safely grant.",
+      "why_it_matters": "Core principle showing that delegation decisions depend on the worst-performing criterion, not average performance across dimensions"
+    },
+    {
+      "text": "If you can't verify, you're not really delegating; you're gambling.",
+      "why_it_matters": "Highlights why verifiability is a critical gate that prevents silent, costly failures that go undetected"
+    },
+    {
+      "text": "A low feasibility score is often temporary. Models get better. Tools mature.",
+      "why_it_matters": "Distinguishes between permanent unfitness and temporary unreadiness, enabling strategic reassessment as technology evolves"
+    }
+  ]
+}

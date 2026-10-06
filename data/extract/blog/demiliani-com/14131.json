@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/demiliani-com/14131",
+  "url": "https://demiliani.com/2026/08/17/al-language-extension-and-macos-whats-next/",
+  "title": "AL Language extension and macOS: what’s next?",
+  "source": "demiliani-com",
+  "published_at": "2026-08-17T12:47:00.000Z",
+  "words": 1073,
+  "summary": "The AL Language extension for Business Central currently runs through Apple's Rosetta 2 emulation on Apple Silicon Macs, but Apple plans to discontinue Rosetta by late 2027. Microsoft is working on a solution that will make the extension cross-platform native by automatically downloading the appropriate runtime for each system architecture.",
+  "key_points": [
+    "AL extension uses Rosetta 2 emulation (Intel code translated to ARM) on Apple Silicon Macs, causing performance overhead",
+    "Apple announced Rosetta 2 will be largely discontinued in macOS 28 (fall 2027), making current AL extensions non-functional",
+    "Microsoft plans to release a lightweight extension that automatically downloads the correct native runtime for the user's system architecture",
+    "Native runtime support will improve performance, reduce extension size, and provide future-proof architecture detection"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al language extension",
+    "macos",
+    "apple silicon",
+    "rosetta 2",
+    "cross-platform development",
+    "runtime architecture"
+  ],
+  "objects": [],
+  "features": [
+    "Rosetta 2 emulation layer",
+    "automatic runtime download",
+    "native architecture support",
+    "AL compiler cross-platform compatibility",
+    "lightweight extension packaging",
+    "architecture auto-detection"
+  ],
+  "versions": [
+    "macOS 27",
+    "macOS 28",
+    "macOS Tahoe"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006615,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "support for Rosetta 2 is planned to be mostly discontinued by late 2027.",
+      "why_it_matters": "This deadline is the critical driver for Microsoft's urgency in providing native ARM64 support for the AL extension"
+    }
+  ]
+}

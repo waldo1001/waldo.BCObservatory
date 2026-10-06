@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/08/17/al-language-extension-and-macos-whats-next/",
   "published_at": "2026-08-17T12:47:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:39.123Z",
+      "path": "vault:posts/demiliani-com/14131.md",
+      "words": 1073
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:47.469Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006615
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:47.470Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:47.471Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:49.480Z",
+      "path": "content/posts/demiliani-com/14131.md"
     }
   },
   "input_hash": "2026-08-17T12:47:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19bc4141be5370bb5eba3bd3b3beeaec3b135446b3988b8fdd323719fcd4ad32"
 }

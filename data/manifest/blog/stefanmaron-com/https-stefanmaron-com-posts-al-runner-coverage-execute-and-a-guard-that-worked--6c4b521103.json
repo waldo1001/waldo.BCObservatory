@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/",
   "published_at": "2026-08-20T05:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:21.692Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-coverage-execute-and-a-guard-that-worked--6c4b521103.md",
+      "words": 1364
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:31.592Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006967
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:31.593Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:31.594Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:31.598Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-coverage-execute-and-a-guard-that-worked--6c4b521103.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d4c98fba9f0779ed87f08fad8ea37d8869ba085ace25ab2a735ffe1d28a42fdc"
 }

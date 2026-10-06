@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/",
   "published_at": "2026-08-20T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:24.781Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-implement-bcquality-agentic-workflow-business-central--a50c85b96a.md",
+      "words": 423
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:31.812Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005252
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:31.813Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:31.814Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:31.817Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-implement-bcquality-agentic-workflow-business-central--a50c85b96a.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2625ff44222d96e1f159bd79770f5ef8dae8eac56d638a1ba4a459adb03b3ad"
 }

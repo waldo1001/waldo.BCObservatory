@@ -1,0 +1,28 @@
+{
+  "video_id": "F_pssS0FtUc",
+  "item_id": "video/yt-microsoft/F_pssS0FtUc",
+  "summary": "Using Business Central telemetry, the Power BI usage app and Application Insights to support go-lives: tracking usage, user acceptance testing coverage, errors and changes. Covers setup through the tenant admin center, privacy and GDPR design, and partner use of the data.",
+  "overview": "The session explains what Business Central telemetry is, that it is opt-in and designed to be privacy compliant, and how administrators set it up. It then walks through the Business Central usage app in Power BI, with its usage, error, performance and administration reports.\n\nThe rest shows how to use the data around go-live: checking which pages, reports, features and integrations were exercised during user acceptance testing, driving errors toward zero with the error dashboard and KPIs, tracking changes, and monitoring sensitive fields. It also covers how partners can use the data in customer meetings to find unused application areas and integration opportunities, and ends with a setup checklist.",
+  "key_points": [
+    "Telemetry is opt-in and set up by an administrator. It is designed to be privacy compliant, including for GDPR. It can cover one environment or several.",
+    "Setup: create an Azure Application Insights resource first, then enter its connection string in the tenant admin center. This restarts the environment, so do it outside working hours.",
+    "The Power BI usage app comes from AppSource and has usage, error, performance and administration reports. It refreshes nightly and needs a Power BI license. The organization that owns the Application Insights resource should install it.",
+    "During user acceptance testing, the usage report, page views, application highlights, reports usage, feature telemetry and the integrations page show which areas were actually tested. Missing data may mean an area was not tested or is out of scope.",
+    "The error dashboard covers user, integration and system errors. KPIs such as 'since yesterday' and 'last seven days' help track progress, but they require checking several pages manually.",
+    "Power BI metrics and scorecards can track KPIs automatically and notify Teams. They need Power BI Pro, quoted at $10 USD per month.",
+    "Sensitive field monitoring logs who changed a field, when, and in which table. It does not log the data values. Telemetry is supported from version 15, and newer versions provide more data types."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "32883a49e15084c1d32171a5d14b8eab9cbb8671b0a6cd514207edee232d1bfb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.028202400000000002
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-10-14-2026/",
   "published_at": "2026-08-17T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:32.694Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-business-central-trivia-recap-august-10-14-2026--cdc8387650.md",
+      "words": 241
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:38.667Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004387
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:38.668Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:38.669Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:38.671Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-business-central-trivia-recap-august-10-14-2026--cdc8387650.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf7d0a878e1942877272fe5caf8599197245b53517298b7442f02966080bf822"
 }

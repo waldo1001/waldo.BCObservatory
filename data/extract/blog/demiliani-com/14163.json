@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/demiliani-com/14163",
+  "url": "https://demiliani.com/2026/08/19/dynamics-365-business-central-important-changes-in-pte-management/",
+  "title": "Dynamics 365 Business Central: important changes in PTE management.",
+  "source": "demiliani-com",
+  "published_at": "2026-08-19T08:12:59.000Z",
+  "words": 576,
+  "summary": "The Business Central Admin Center is gaining new PTE management capabilities, allowing administrators to upload, schedule installation, and uninstall per-tenant extensions directly. Starting in version 30 (2027 wave 1), the Extension Management page will no longer support PTE installation and will be limited to viewing only.",
+  "key_points": [
+    "Administrators can now upload PTEs and schedule their installation via the Admin Center's Manage Apps page, with flexible deployment timing options",
+    "PTE installations can be scheduled immediately, during the next update window, or during minor/major updates, with database sync mode options available",
+    "Only users with Dynamics 365 Business Central Administrator or Dynamics 365 Administrator roles can access the Admin Center for PTE management",
+    "Version 30 (2027 wave 1) will remove PTE installation from the Extension Management page, leaving it for viewing only",
+    "A new Admin Center API version 2.29 enables programmatic PTE installation and scheduling"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "per-tenant extensions",
+    "admin center",
+    "pte management",
+    "extension deployment",
+    "api"
+  ],
+  "objects": [],
+  "features": [
+    "PTE upload and installation scheduling",
+    "Deployment schedule options",
+    "Database schema sync mode selection",
+    "Extension Management page",
+    "Admin Center API 2.29"
+  ],
+  "versions": [
+    "2027 wave 1",
+    "version 30"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005923,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

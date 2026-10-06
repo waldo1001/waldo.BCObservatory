@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
+  "url": "https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
+  "title": "I Can Turn Off My Code. I Can't Turn Off Yours.",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-18T07:00:00.000Z",
+  "words": 1749,
+  "summary": "When developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers including base app code and third-party extensions. The post argues that triggers should run by default because developers cannot know at compile time what logic they would disable, and proposes the platform should dynamically check at runtime whether anything is registered on a trigger before deciding whether to skip the expensive per-row execution.",
+  "key_points": [
+    "Setting RunTrigger false disables all subscriber logic, not just the developer's own code, making it a decision that shouldn't be made at the call site",
+    "Bulk operations like DeleteAll skip per-row execution for performance, but forcing row-by-row trigger execution when nothing is registered wastes that performance gain unnecessarily",
+    "The platform should check at runtime whether code is registered on a trigger and fall back to bulk SQL operations when nothing needs to run, making RunTrigger true safe by default",
+    "ModifyAll currently has no way to request Validate() triggers at all, only OnModify, forcing developers to choose between correctness and performance with no middle ground",
+    "SQL Server, Salesforce, and other systems handle this differently - either by moving checks to the database level or by batching trigger invocations over sets instead of individual rows"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "performance",
+    "triggers",
+    "runtrigger",
+    "modify",
+    "deletall",
+    "bulk operations",
+    "extension compatibility"
+  ],
+  "objects": [],
+  "features": [
+    "RunTrigger parameter",
+    "Insert trigger",
+    "Modify trigger",
+    "DeleteAll trigger",
+    "ModifyAll operation",
+    "Validate trigger",
+    "OnModify trigger"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007437,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

@@ -1,0 +1,150 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15213",
+  "url": "https://gerardorenteria.blog/2026/08/20/%f0%9f%a7%b9-cleaning-and-anonymizing-copies-in-business-central-environments-companies-and-traceability/",
+  "title": "🧹 Cleaning and anonymizing copies in Business Central: environments, companies, and traceability",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-08-20T09:11:19.000Z",
+  "words": 2789,
+  "summary": "A reusable solution for automatically anonymizing sensitive data, marking copied companies, and adjusting settings when copying Business Central environments or companies. It provides table and field configuration, manual or event-triggered execution, and comprehensive logging for audit trails.",
+  "key_points": [
+    "Configure which tables and fields to anonymize using setup tables, with options to anonymize selectively across copies",
+    "Leverage standard events (OnClearDatabaseConfig, OnClearCompanyConfig, OnAfterCreatedNewCompanyByCopyCompany) to run cleanup automatically or manually",
+    "Mark copied companies visually with [COPY] tag and adjust configuration settings to distinguish test copies from production",
+    "Log all cleanup executions with header and detail records showing trigger type, company, start/end times, duration, and individual step results for traceability and audit"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data anonymization",
+    "environment copy",
+    "company copy",
+    "cleanup workflow",
+    "event handling",
+    "audit logging",
+    "pseudonymization",
+    "data privacy"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRGAnonymizeSetup"
+    },
+    {
+      "type": "table",
+      "name": "GDRGAnonymizeFieldSetup"
+    },
+    {
+      "type": "table",
+      "name": "GDRGCleanupSetup"
+    },
+    {
+      "type": "table",
+      "name": "GDRGCompanyFeatureSetup"
+    },
+    {
+      "type": "table",
+      "name": "GDRGEnvCopyLog"
+    },
+    {
+      "type": "table",
+      "name": "GDRGEnvCopyLogLine"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGEnvCleanupMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGEnvCleanupSubscriber"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGDataAnonymizer"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGCompanyMarker"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGPseudonymizer"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGSetupProposalMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGCopyCompanySubscriber"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGCompanyFeatureAdjuster"
+    },
+    {
+      "type": "enum",
+      "name": "GDRGCleanupOperation"
+    },
+    {
+      "type": "page",
+      "name": "GDRGAnonymizeSetup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGAnonymizeFieldList"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFieldLookup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGEnvCopyLogList"
+    },
+    {
+      "type": "page",
+      "name": "GDRGEnvCopyLogLines"
+    },
+    {
+      "type": "page",
+      "name": "GDRGCleanupSetup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGCompanyFeatureSetup"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGEnvCleanup"
+    }
+  ],
+  "features": [
+    "data anonymization by table and field",
+    "environment copy cleanup",
+    "company copy cleanup",
+    "manual cleanup execution",
+    "event-based automatic cleanup",
+    "company visual marking",
+    "configuration adjustment",
+    "cleanup execution logging"
+  ],
+  "versions": [],
+  "language": "es",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.022649,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "An important part of this idea is not only executing the process, but also leaving evidence of the whole process.",
+      "why_it_matters": "Emphasizes the value of comprehensive logging and traceability for audit, support, and operational review"
+    }
+  ]
+}

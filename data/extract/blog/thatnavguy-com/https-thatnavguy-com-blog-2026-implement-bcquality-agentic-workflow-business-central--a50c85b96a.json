@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/",
+  "url": "https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/",
+  "title": "How to implement Microsoft BCQuality in your GitHub Pull Request",
+  "source": "thatnavguy-com",
+  "published_at": "2026-08-20T00:00:00.000Z",
+  "words": 423,
+  "summary": "This post explains how to set up Microsoft BCQuality, a knowledge base for Business Central AL code quality reviews, in a GitHub pull request workflow using an agentic workflow. It provides step-by-step instructions to implement automated code quality checks without blocking merges.",
+  "key_points": [
+    "BCQuality is a reference library covering AL code quality best practices in correctness, maintainability, readability, performance, and testability",
+    "GitHub agentic workflows can automatically review AL code changes and post advisory comments on pull requests",
+    "Implementation requires three steps: copy the workflow file, place it in .github/workflows/, and compile it with gh aw compile",
+    "The workflow can use either the public Microsoft BCQuality repository or a private internal clone with proper authentication",
+    "Reviews are advisory only and do not block merges, providing additional review coverage without disrupting development flow"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "github",
+    "workflows",
+    "code quality",
+    "pull requests",
+    "al development",
+    "agentic workflows",
+    "ci/cd"
+  ],
+  "objects": [],
+  "features": [
+    "BCQuality advisory review",
+    "agentic workflow integration",
+    "pull request automation",
+    "AL code quality checking"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005252,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Think of it as a reference library for Business Central best practices around correctness, maintainability, readability, performance, and testability.",
+      "why_it_matters": "Defines what BCQuality provides as a knowledge base for consistent code quality standards"
+    },
+    {
+      "text": "It does not block your merge. It gives your team another set of eyes.",
+      "why_it_matters": "Explains the non-intrusive nature of the review process, allowing teams to maintain development velocity"
+    },
+    {
+      "text": "If you already use pull requests for AL changes, this is an easy upgrade.",
+      "why_it_matters": "Shows that adoption fits naturally into existing workflows with minimal friction"
+    }
+  ]
+}

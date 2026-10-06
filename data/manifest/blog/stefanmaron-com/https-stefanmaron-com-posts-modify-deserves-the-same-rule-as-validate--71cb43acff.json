@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
   "published_at": "2026-08-18T07:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:32.243Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md",
+      "words": 1749
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:42.641Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007437
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:42.643Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:42.644Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:42.649Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9942dc888d6e627f3b0f38f388889ff6105285d8bd15f75aab93d0e62624de7b"
 }

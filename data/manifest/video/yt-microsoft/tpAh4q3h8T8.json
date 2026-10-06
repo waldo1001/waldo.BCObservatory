@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users",
   "url": "https://www.youtube.com/watch?v=tpAh4q3h8T8",
-  "published_at": null,
+  "published_at": "2023-12-13T12:24:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:23.885Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1386
+    },
+    "captioned": {
+      "at": "2026-10-06T21:41:32.205Z",
+      "path": "data/captions/microsoft/tpAh4q3h8T8.vtt",
+      "vtt_sha256": "6f6c8df5cac0a1dd434a641108597e220164668f4a9203572d3ca92e3142348a",
+      "segments": 75,
+      "words": 3773,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 492,
-    "duration_s": 1387,
-    "via": "reconcile"
-  }
+    "duration_s": 1386,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f6c8df5cac0a1dd434a641108597e220164668f4a9203572d3ca92e3142348a"
 }

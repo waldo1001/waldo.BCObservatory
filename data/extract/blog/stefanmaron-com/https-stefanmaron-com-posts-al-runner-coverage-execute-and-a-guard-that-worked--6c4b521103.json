@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/",
+  "url": "https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/",
+  "title": "AL Runner v2.2 and v2.3: Coverage, Quick Scripts, and a Watch Mode You Can Trust",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-20T05:00:00.000Z",
+  "words": 1364,
+  "summary": "AL Runner v2.2 and v2.3 added code coverage reporting, a quick-script execute command for testing snippets without a codeunit, and fixed a watch mode that was recompiling mid-save during file bursts. The releases also included roughly 130 behavioral fixes to align the runner with real Business Central, with startup performance improvements.",
+  "key_points": [
+    "Coverage reporting shows which lines of AL code tests actually execute using BC's internal compiler tracking mechanism",
+    "Execute command runs bare AL snippets directly without requiring a full test codeunit wrapper",
+    "Watch mode now waits for file changes to stabilize instead of firing at a fixed interval, preventing false failures during branch switches or bulk operations",
+    "130+ fixes align runner behavior with real BC across areas like TestPage, events, transactions, and report filters",
+    "Startup overhead reduced by roughly a quarter, with warm test runs improving from 23 seconds to 5 seconds on trivial fixtures"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al runner",
+    "testing",
+    "coverage",
+    "unit tests",
+    "integration tests",
+    "watch mode",
+    "developer tools"
+  ],
+  "objects": [],
+  "features": [
+    "code coverage reporting",
+    "quick execute command",
+    "watch mode",
+    "AL test execution",
+    "statement coverage",
+    "file change detection"
+  ],
+  "versions": [
+    "27.0",
+    "28.0",
+    "28.1",
+    "28.2",
+    "28.3",
+    "28.4"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006967,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If the runner and real BC disagree, the sandbox result wins and the runner gets fixed to match it, not the other way around.",
+      "why_it_matters": "Ensures runner behavior aligns with actual BC behavior, making tests reliable predictors of production behavior"
+    }
+  ]
+}

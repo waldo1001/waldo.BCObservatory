@@ -1,0 +1,400 @@
+{
+  "video_id": "tpAh4q3h8T8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 3.9,
+      "end": 24.5,
+      "text": "all right so moving on to the next chapter so we obviously are saving time in our online highly highly available uh service but how are we saving time for consultants and this is an interesting story so uh I wanted to uh invite on stage a colleague of mine but today she happens to be my"
+    },
+    {
+      "t": 24.5,
+      "end": 42,
+      "text": "consultant and I'm a very curious and very anxious uh customer who has an experience to go through so this is my morning and this is my trusty consultant so please help me welcome on stage"
+    },
+    {
+      "t": 46.6,
+      "end": 60.8,
+      "text": "Ida how are you doing today hi Dimitri you sound very very concerned on the phone so what's going on today yeah yes so um let let me show you something so you know what"
+    },
+    {
+      "t": 60.8,
+      "end": 80.8,
+      "text": "um let me just um you know give it a second you're going to you're going to not love it you know I did not love it but by the way the last three months were amazing so the last three months the service was super performant highly available resilient loved it today look at this"
+    },
+    {
+      "t": 80.8,
+      "end": 100.8,
+      "text": "so I'm on my list of orders mhm and uh I click on this order are you ready to witness this it throws this error which says volume error I mean I couldn't make up anything of this like I don't even know what to what to do next like what am I doing here you know what I I not that I think it makes"
+    },
+    {
+      "t": 100.8,
+      "end": 121.2,
+      "text": "any difference I'm just going to go ahead and say that no this information was not helpful at all yeah sure but you know what first of all it makes a difference all of this is going to capture in Telemetry and I don't know I can't spot my colleague Kenny here but I'm sure he already got a notification and jump hi"
+    },
+    {
+      "t": 121.2,
+      "end": 141.4,
+      "text": "can out of his mobile phone so this is going to be captured but I agree with you volum errror what does that supposed to mean so let me investigate Fair could you please close this errow my eyes beding absolutely absolutely literally absolutely thank you thank you so to investigate further I'm going to"
+    },
+    {
+      "t": 141.4,
+      "end": 162,
+      "text": "my favorite section help and support and in here maybe not in front of 3,000 people but maybe I'm going to try actually this beautiful new in the new release of business Central you can actually directly"
+    },
+    {
+      "t": 162,
+      "end": 172.7,
+      "text": "attach the debugger to this session from the client and I'm going just to do that hey that's"
+    },
+    {
+      "t": 172.7,
+      "end": 192.8,
+      "text": "amazing that is amazing right so let's see what is going to happen great and look at here the debugger is already on you know so you didn't need to set up things and configuration files especially because now I just run the scope of this current project so the debugger"
+    },
+    {
+      "t": 192.8,
+      "end": 213.2,
+      "text": "is on and now all I need to do is to go and reproduce this error and see what happens great let me get back it was your look to the side I cannot bear the experience of seeing this errow once again I don't think look what happened I guess something happening on the other side"
+    },
+    {
+      "t": 213.2,
+      "end": 233.2,
+      "text": "It Go and directly stop on the volume error isn't this awesome and you know here look at this code it's quite simple to read what is happening here is just it seems like some dimension on this item is set to"
+    },
+    {
+      "t": 233.2,
+      "end": 253.3,
+      "text": "zero or less than zero and therefore this error but honestly how you could have figured this out right I needed to attach the debugger life in front of 3,000 people that we figure this out I'm sure something can be done about this and absolutely with this release of business Central I"
+    },
+    {
+      "t": 253.3,
+      "end": 273.4,
+      "text": "am able to go and make this error actionable and you know if you take a look on this extension I think the developer already start to use this actionable errors but missed on this error so so I'm going to do that but I'm always a little bit nervous"
+    },
+    {
+      "t": 273.4,
+      "end": 291.4,
+      "text": "coding on a stage so I'm going to summon my AI paid programmer GitHub co-pilot and hopefully it doesn't disappoint me so let's try so what I'm going to do here let's"
+    },
+    {
+      "t": 291.4,
+      "end": 301.6,
+      "text": "see I'm going to do you want to stop the debugger ah very good let me stop the debugger we don't need you anymore now co-piloting action"
+    },
+    {
+      "t": 301.6,
+      "end": 307,
+      "text": "great so I'm going"
+    },
+    {
+      "t": 307,
+      "end": 317.8,
+      "text": "to and let's see what happens wow this is exactly what I wanted it a magic let's try"
+    },
+    {
+      "t": 317.8,
+      "end": 328,
+      "text": "again it's worth seeing for the second time for sure it's wonderful and did you see the magic that happened by the way couldn't you just copy paste the disc code from a few lines"
+    },
+    {
+      "t": 328,
+      "end": 348,
+      "text": "above the me where in yesterday keynote that was like before co-pilot era copy pasting now I have co-pilot and of course I can go and copy paste think about the contents what is it but this is exactly directly in the context"
+    },
+    {
+      "t": 348,
+      "end": 368.1,
+      "text": "of what I'm trying to do which is the item and it's already done for me I don't think I could have come up with a better error message with referencing the item number so it's all already there for me and if you remember Mike Morton said yesterday say when you use this don't get very excited check the code once or twice I'm"
+    },
+    {
+      "t": 368.1,
+      "end": 386.6,
+      "text": "going to do that here and I can see here a small error so it should be item card right so I'm going to fix that because I wanted to refer to the item card and that's it I think I have it ready I'm going to"
+    },
+    {
+      "t": 386.6,
+      "end": 407.4,
+      "text": "compile and run this yeah let's put my sand to my sandbox to see what's going on there see what's going to happen great let's see actionable error in action all right running and running can can I can I try yeah you sure go all right so so I click on this guy"
+    },
+    {
+      "t": 407.4,
+      "end": 427.6,
+      "text": "again hey the item the item number has no Dimensions like this is this is much more actionable like now at least now I know which item is causing this issue oh you miss something else look at here open item page so you can direct this is White Glove service I mean yeah you can directly go to this"
+    },
+    {
+      "t": 427.6,
+      "end": 447.6,
+      "text": "and you know no code required here so if you actually had this already you know you didn't need to even call me and S like that on the phone I'm blocked I can't open my I only wish I could like this error message three times such an amazing experience yeah by the way look it gets me straight to the"
+    },
+    {
+      "t": 447.6,
+      "end": 468,
+      "text": "cards and you know get some clue from the code one of the dimensions probably zero and I exactly see that this classic Amsterdam lamp has no Heights let's give it a height and then hopefully after that we are going to be good to go I think your error is fixed now fantastic"
+    },
+    {
+      "t": 468,
+      "end": 488,
+      "text": "hey look we are on this cards and I have another question for you so good that you're here with me like look I was playing with this item tring field okay and I need to set up item tring for my lamp and you know there there's there's many CES codes available here and every time I select a different code it comes up with some message you know something is this something"
+    },
+    {
+      "t": 488,
+      "end": 508.3,
+      "text": "is that is there a way to figure out what kind of checks this thing is doing so I understand what is what is possible with item tracking code I think you like to put me on a spot here today like look at this yeah is isn't that a daily life of consultant everybody knows that I have a very good understanding of business Central application but when it comes to item"
+    },
+    {
+      "t": 508.3,
+      "end": 528.6,
+      "text": "tracking I'm a bit Rusty so I have let me think two maybe three option here option number one is ask of item tracking group my colleague Andre to come on a stage great idea but should I put him on a spot I don't want to option"
+    },
+    {
+      "t": 528.6,
+      "end": 548.6,
+      "text": "number two go and read bunch of documentation and option number three which I normally love is going to all imate documentation which is code behind this field and I'm going to try that I love the sound of that yeah let's see so code is the ultimate"
+    },
+    {
+      "t": 548.6,
+      "end": 568.6,
+      "text": "documentation for this I'm going to uh actually uh invoke or summon the page inspector we are summoning many many nice great Technologies today let's see very good and it already tells me what page I on what item and I can just go and search I don't want to"
+    },
+    {
+      "t": 568.6,
+      "end": 589.2,
+      "text": "even go and look at the fields you can filter and everything but I know it's tracking so let me go find that here you go item tracking code and look at here I love this with a simple direct action from the client I can go and a"
+    },
+    {
+      "t": 589.2,
+      "end": 599.7,
+      "text": "straight and I have already downloaded the symbol jump to the code isn't this awesome you know wow"
+    },
+    {
+      "t": 599.7,
+      "end": 619.7,
+      "text": "this is incredible I didn't need to scan through thousands and thousands of application objects find the page I'm exactly on the relevant page placed on the field so now I'm going to use I'm not the only one excited about this I mean I hear a very good vibe from the"
+    },
+    {
+      "t": 619.7,
+      "end": 639.8,
+      "text": "crowd all right let's let's take a look let's take a look so what did you want you wanted to see what does this feel checks right yeah exactly exactly what kind of checks be do let me do my code code reading abilities you know I'm consultant I can read a bit of code let me look look look wow look at here there is a"
+    },
+    {
+      "t": 639.8,
+      "end": 660.7,
+      "text": "wall of code here yeah I can go and try to understand this or summon my second friend my AI advisor giop copilot chat and you know what I'm going to do that because maybe it can explain to me let me ask asking"
+    },
+    {
+      "t": 660.7,
+      "end": 681.3,
+      "text": "what does Dimitri wants to know no what does this code check for H interesting I would like to be polite please list it Mak sense Dimitri wants it no we don't have time for that let's see"
+    },
+    {
+      "t": 681.3,
+      "end": 702.1,
+      "text": "you know you see AI is the only thinking as well it's not only me and you hey I recognize this let me see hey wait wait wait wait wait wait look I can read the code now guys everyone hey look at this dri it's English it's not the code ah no wonder I was able to recognize this"
+    },
+    {
+      "t": 702.1,
+      "end": 722.4,
+      "text": "H close enough code English but look okay so so I I can actually make some sense out of it so it checks for different parameters it checks if old item tricking code exists it checks if a specific tracking has changed it checks if the warehouse tracking has changed the costing methods there's even some expiration calculation"
+    },
+    {
+      "t": 722.4,
+      "end": 742.4,
+      "text": "happening whether it's empty or not wow this is quite interesting actually I got I like even without looking at the code I got some insights into it so you know what uh I I I think I will keep it simple so I'll just go ahead and assign this uh free entry tracking code so you don't need I don't need all of these calculations and validation this is fine very good so just to"
+    },
+    {
+      "t": 742.4,
+      "end": 762.4,
+      "text": "make sure I do my job right so you wanted to fix your sales order we figure out the item card you also ask for tracking now you know more than maybe Andre about it I don't know I'm sure after reading all of these codes exactly so let me go and U just get back and make sure that"
+    },
+    {
+      "t": 762.4,
+      "end": 777.1,
+      "text": "the sales order can open now because we fixed everything right so let's open the sales order very nice so the sales order is open and my case is closed so I can"
+    },
+    {
+      "t": 777.1,
+      "end": 797.2,
+      "text": "go yeah you wish you could go is this the one is this the one you wish you would go but I wanted to show you something no you can show me something so look uh now when we are on the sales order page what are you opening here um so here here's a report here's a report that I have"
+    },
+    {
+      "t": 797.2,
+      "end": 817.2,
+      "text": "and you know what every time when I uh work with this report so like just what time I work with this report every time actually when I work with the order I keep flipping back and forth you know order report order reports I want to look up data on my inventory I want to see what what sells best and what sells worst and I want to use the power of powerbi to to give me"
+    },
+    {
+      "t": 817.2,
+      "end": 837.5,
+      "text": "these insights and I have this this visual which which was built here like look the Fantastic it's it's powered by AI by the way but I want it on my page can I please have it right there so I don't have to flip around I wonder why today you have you're asking all this right questions from Me Maybe not before but actually with this"
+    },
+    {
+      "t": 837.5,
+      "end": 857.5,
+      "text": "release of Business Center you can go to a report select the visual that you love and directly put it in the context of your page and for that it's very simple do you want to do it now it's actually of course I'm actually starting to like this 2023 whatever"
+    },
+    {
+      "t": 857.5,
+      "end": 877.7,
+      "text": "release it is a lot you know and all you need to do is to go to the BCT Tech I'm kind of all I need to go I'm the consultant right I go to the bcch and there very nice samples available I look at the sample samples and guidelines and read the guidelines and"
+    },
+    {
+      "t": 877.7,
+      "end": 897.7,
+      "text": "figure out what to do I need to add a fact box and a trigger to initiate it just like that so but to initiate that trigger what should I do I need two things the report ID of course and the visual ID so for that I can simply go here"
+    },
+    {
+      "t": 897.7,
+      "end": 917.7,
+      "text": "and try to take the link find the link and at the moment I copy this URL in the guidelines you will also see it I find the report ID is there and also I find the uh visual ID and copy that in my clip code and go"
+    },
+    {
+      "t": 917.7,
+      "end": 934.3,
+      "text": "directly add it to my code and I'm going to do that for you today so I have already copied those from BC sample I'm going to add it here this is your layout so let me go and add that fact box"
+    },
+    {
+      "t": 934.3,
+      "end": 954.8,
+      "text": "here just copy paste it's exact copy paste from that I prepar the snippet good so I have this fact box which host the visualization right and then I need to go a little bit down here and just add the trigger as well that's it it's the one lineer one single line"
+    },
+    {
+      "t": 954.8,
+      "end": 975.4,
+      "text": "I just add the trigger very good I copy paste that again all right and just replace those two IDs in this it's in here and uh just you can see so there's one ID here and another ID there and then I just run this publish it to"
+    },
+    {
+      "t": 975.4,
+      "end": 989.2,
+      "text": "my yeah we're making so much so much progress progress with you Ida today I mean this is incredible see what happens you're such a highly valuable consultant I'm working with a highly time I'm saving"
+    },
+    {
+      "t": 989.2,
+      "end": 1004.8,
+      "text": "let's see so do you want to have the honor of trying this all right let's give me a try so I'll I'll just grab this order okay and so let's take a look at fact boxes hey there something is loading powerbi"
+    },
+    {
+      "t": 1004.8,
+      "end": 1024.8,
+      "text": "reports okay loading data from there and there it is hey this is incredible like look now I can make data driven decision right here from the p page where the data is like this is it complement the data in BC in such a nice way and it was quite it"
+    },
+    {
+      "t": 1024.8,
+      "end": 1041.2,
+      "text": "looked quite easy to Ed it here so thank you I see my Berlin guest chair is selling the most I can see you're very excited but uh I'm super excited are you done are you sure you're done uh you know what no no actually I'm I'm not done I'm not done I will keep you a little bit more here so here's here's the thing"
+    },
+    {
+      "t": 1041.2,
+      "end": 1062.1,
+      "text": "um I I was told by my co colleagues that uh I uh I I they say that I can figure out how to add a field to a page and you know what I have this field on the sales order which they call it the my my evil colleagues told me that it exists okay right but it exists on the table"
+    },
+    {
+      "t": 1062.1,
+      "end": 1082.3,
+      "text": "and I tried with all the personalization things and it just cannot edit and what field that is but you know what like I was just trying to see how many times this document was posted so could you please use this magic of Visual Studio code and visual studio copilot to add these fields to this page I mean it should be simple it you know you don't need me for that and you don't need"
+    },
+    {
+      "t": 1082.3,
+      "end": 1102.9,
+      "text": "any of AI magic and all that I have a better magic here the magic of the beautiful interface of business Central you as the customer can go ahead yourself absolutely you can go and at the field I can guide you through for the first time I continue being developer everyone"
+    },
+    {
+      "t": 1102.9,
+      "end": 1123.4,
+      "text": "all right yeah yeah sure such a developer see so what about you go and find your profile okay so let's go to profiles very good and what is your Prof I use business manager evaluation then just go ahead in there and just have this in mind that I have"
+    },
+    {
+      "t": 1123.4,
+      "end": 1143.6,
+      "text": "as your admin give you permission yep to invoke this action that's important because you are you know you are Dimitri you are the power customer power user so not to everybody then people go and add the you know Fields left and right but but I have given you that permission and that's why you see that right there customized"
+    },
+    {
+      "t": 1143.6,
+      "end": 1163.6,
+      "text": "page that's fair intive at the moment you click on that look what happens we should wait now you have the entire business Central customization mode in the customization mode all right and you can go ahead and add a field to any page you want so what was the page you wanted yeah so"
+    },
+    {
+      "t": 1163.6,
+      "end": 1184.6,
+      "text": "uh I was actually on the sales uh orders and let me find that order there it is okay okay so good this one and no no no no look that's here that's very very nice plus sign oh very intuitive add a field very good and then you know you can filter the fields"
+    },
+    {
+      "t": 1184.6,
+      "end": 1205.3,
+      "text": "so if you know where it is or you want to see a selection but do you know what is the name of the field you oh absolutely absolutely it's something about printed just and I'm I'm pretty sure it's on the page there it is number printed number printed okay so let me click on this it's added to the page and say add just a little add Okay add"
+    },
+    {
+      "t": 1205.3,
+      "end": 1225.6,
+      "text": "so now it's here I have number printed here and you know if you click again you have other options like if you want to remove it hide it show it collapse and all this is a great experience but now are you done yes yes are you sure you're done done there's a button red Dum button not red button red D button done so"
+    },
+    {
+      "t": 1225.6,
+      "end": 1245.8,
+      "text": "very good now you can close this I cannot wait to see this I just added the field completely on my own go and open your sales order again all right yes and see if it was in action Let's see we are running all of this live number printed number printed right here on the order thank you thank you so"
+    },
+    {
+      "t": 1245.8,
+      "end": 1265.8,
+      "text": "much my dear consultant all right all right all right all right this is incredible I mean we just spent what like um 10 minutes and got so much things done okay you know you've written a whole bunch of code there so um uh could you please put all of these code on this flash drive and I want to put it in my production environment right"
+    },
+    {
+      "t": 1265.8,
+      "end": 1280.2,
+      "text": "away I want all of my users to get using these features honestly my 13 years old daughter find one of these and I was asking me Mom what is this and I try to explain you know what do you mean you put code on it yeah"
+    },
+    {
+      "t": 1280.2,
+      "end": 1300.2,
+      "text": "Dimitri we I give you a lot of a speech about you know this is 21st century so we don't just you know pass around the code on the flash drive to each other M I can't also just shove the code uh from sandbox into production because all these capabilities that we see it"
+    },
+    {
+      "t": 1300.2,
+      "end": 1320.6,
+      "text": "was on your sandbox environment so if you want all of this I have a much better a story for you so what I can do here I can go and submit all these changes that I have to the same safe and secure Cloud"
+    },
+    {
+      "t": 1320.6,
+      "end": 1340.7,
+      "text": "repository in GitHub it is empowered by algo and then what is great about Alo it will do all the processes all the automation that I need to do to ensure the high quality of the code is it compatible the code we are adding"
+    },
+    {
+      "t": 1340.7,
+      "end": 1361.3,
+      "text": "with the next version of business Central Mak sense um runs the performance test if you had any regression and after all these checks on after my also colleagues review that so I am not missing anything then all I need to go through this empowered you know go action go and publish this to the environment"
+    },
+    {
+      "t": 1361.3,
+      "end": 1379.2,
+      "text": "so tomorrow morning when you wake up with your cup of coffee sitting with your colleagues you can just have sip your coffee and enjoy all these nice changes in your production environment it cannot get any better than that thank you so much my dear consult"
+    },
+    {
+      "t": 1379.2,
+      "end": 1385.3,
+      "text": "yes thank you thank you and thank you Ida thank"
+    },
+    {
+      "t": 1385.3,
+      "end": 1386,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.21,
+      "text": "[Music]"
+    },
+    {
+      "t": 3.909,
+      "text": "[Music]"
+    },
+    {
+      "t": 3.919,
+      "text": "[Music]"
+    },
+    {
+      "t": 40,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3773
+}
