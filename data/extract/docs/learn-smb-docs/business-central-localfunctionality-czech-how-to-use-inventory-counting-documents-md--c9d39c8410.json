@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents",
+  "title": "Czech local functionality - inventory counting documents",
+  "blob": "2dde9cb0f60f7f1d7044fa8158a77d6666837289",
+  "summary": "Inventory counting documents in the Czech version provide reports for physical inventory reconciliation with official signatures for financial statement preparation.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "physical inventory",
+    "counting documents",
+    "reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Phys. Inventory List Report"
+    },
+    {
+      "type": "report",
+      "name": "Phys. Invt. Counting Document Report"
+    }
+  ],
+  "features": [
+    "Physical inventory counting documents",
+    "Phys. Inventory List Report",
+    "Phys. Invt. Counting Document Report"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001504,
+      "pages_in_call": 7
+    }
+  ]
+}

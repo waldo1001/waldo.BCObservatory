@@ -1,0 +1,94 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-fixed-assets-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-fixed-assets-reporting",
+  "title": "Czech local functionality - Fixed assets reporting",
+  "blob": "18f7f4af7baa7e64a736b075b9e5d09afed3a6c5",
+  "summary": "Czech fixed assets reporting provides compliance reports for asset receipts, disposal, analysis, physical inventory, and adjusted standard reports.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "fixed assets",
+    "reporting",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "report",
+      "name": "FA Receipt"
+    },
+    {
+      "type": "report",
+      "name": "FA Disposal"
+    },
+    {
+      "type": "report",
+      "name": "FA – Analysis G/L Account"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analysis 2"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analys. Dep. Book"
+    },
+    {
+      "type": "report",
+      "name": "FA Phys. Inventory List"
+    },
+    {
+      "type": "report",
+      "name": "FA Inventory List"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Book Value 01"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Book Value 02"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Projected Value"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – G/L Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Maintenance – Analysis"
+    }
+  ],
+  "features": [
+    "Fixed Asset Card report",
+    "FA Receipt report",
+    "FA Disposal report",
+    "FA Analysis reports",
+    "Physical inventory reconciliation",
+    "Depreciation book comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001504,
+      "pages_in_call": 7
+    }
+  ]
+}

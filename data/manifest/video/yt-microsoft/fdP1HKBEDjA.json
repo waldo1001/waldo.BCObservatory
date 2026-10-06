@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)",
   "url": "https://www.youtube.com/watch?v=fdP1HKBEDjA",
-  "published_at": null,
+  "published_at": "2024-08-26T13:50:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:22:42.243Z",
+      "captions": "auto:en-orig",
+      "duration_s": 312
+    },
+    "captioned": {
+      "at": "2026-10-06T19:22:51.976Z",
+      "path": "data/captions/microsoft/fdP1HKBEDjA.vtt",
+      "vtt_sha256": "3434dba34ae0fa8c3da9b9ad5f0e7c45c09f94f469e1386d8c0f7b83ed483876",
+      "segments": 18,
+      "words": 772,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 366,
     "duration_s": 312,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3434dba34ae0fa8c3da9b9ad5f0e7c45c09f94f469e1386d8c0f7b83ed483876"
 }

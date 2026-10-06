@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
       "words": 65,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:48.157Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001504
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:48.179Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:48.180Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:48.181Z",
+      "page": false
     }
   },
   "input_hash": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16"
+  "output_hash": "a9e282326022ca6f3dba74877a99aa211f5e5fa634cb906e66f6f1887c7a1956"
 }

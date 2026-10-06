@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fd9584d629cca4b149b836ae0fc25f3f548bdc72",
       "words": 58,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:50.084Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001801
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:51.846Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:51.847Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:51.848Z",
+      "page": false
     }
   },
   "input_hash": "fd9584d629cca4b149b836ae0fc25f3f548bdc72",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd9584d629cca4b149b836ae0fc25f3f548bdc72"
+  "output_hash": "160af461a52530cf3300b11cf9727995a8bd15e4f5774a95f8dfb64dcefce5e2"
 }

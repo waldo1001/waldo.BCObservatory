@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets",
+  "title": "Czech Local Functionality - Classification codes for fixed assets",
+  "blob": "a8bc992decf721050bea1b5fbb0c7eb4958e9b44",
+  "summary": "Classification codes for fixed assets enable tax compliance in the Czech version by sorting assets using CZ-CPA and CZ-CC classifications as required by Tax of Income Law 586/1992.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "fixed assets",
+    "classification",
+    "tax compliance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Classification Code"
+    },
+    {
+      "type": "table",
+      "name": "Classification Code field"
+    }
+  ],
+  "features": [
+    "Classification Code table",
+    "Classification Code field",
+    "CZ-CPA classification",
+    "CZ-CC classification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001504,
+      "pages_in_call": 7
+    }
+  ]
+}

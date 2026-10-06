@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/internal-financial-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/internal-financial-documents",
+  "title": "Czech local functionality - Internal financial documents",
+  "blob": "586702085f79b43bef1772b67ffa000fc9d6878b",
+  "summary": "Czech internal financial documents feature provides reports for printing General Ledger journal and posted operations documents that comply with legal layout requirements.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "internal financial documents",
+    "general ledger",
+    "document printing",
+    "czech",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "General Journal Test Report"
+    },
+    {
+      "type": "report",
+      "name": "General Ledger Document Report"
+    }
+  ],
+  "features": [
+    "General Journal Test Report",
+    "General Ledger Document Report"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001801,
+      "pages_in_call": 7
+    }
+  ]
+}

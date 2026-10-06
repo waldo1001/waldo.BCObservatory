@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature",
+  "title": "Czech local functionality - Exchange rates adjustment feature",
+  "blob": "244057e097f121227f01e49edea4d6b39e2cef16",
+  "summary": "Exchange rates adjustment feature allows separate processing for customers, vendors, and bank accounts with test mode and dimension handling for Czech compliance.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "exchange rates",
+    "receivables",
+    "payables",
+    "bank accounts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Adjust Exchange Rates"
+    }
+  ],
+  "features": [
+    "Separate adjustment by entity type",
+    "Test mode",
+    "Summarized entries per currency",
+    "Dimension transfer methods",
+    "Advance Payments integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001504,
+      "pages_in_call": 7
+    }
+  ]
+}

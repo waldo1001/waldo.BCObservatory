@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-two-steps-fixed-asset-acquisition",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2718ac0b712429293436ecc806395fabc48b9187",
       "words": 152,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:50.083Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001801
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:51.844Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:51.844Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:51.845Z",
+      "page": false
     }
   },
   "input_hash": "2718ac0b712429293436ecc806395fabc48b9187",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2718ac0b712429293436ecc806395fabc48b9187"
+  "output_hash": "81cf141444339e864d00dd097f3a179af1d2dda8ad3add72940f17829d33ef79"
 }

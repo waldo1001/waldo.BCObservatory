@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-fixed-asset-location-history-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-fixed-asset-location-history-report",
+  "title": "Czech local functionality - Fixed assets location/responsible history report",
+  "blob": "2c77726d8265e089dc7b8f4a52fb32473e66964a",
+  "summary": "Fixed asset location and responsible employee history tracking enables companies to audit fixed asset movement and assignment changes in the Czech version.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "fixed assets",
+    "location tracking",
+    "responsible employee"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "FA History Entry"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "report",
+      "name": "FA Assignment/Discharge"
+    },
+    {
+      "type": "report",
+      "name": "FA History"
+    }
+  ],
+  "features": [
+    "Fixed Assets History tracking",
+    "FA Location tracking",
+    "Employee responsibility tracking",
+    "FA History Entry table",
+    "FA Assignment/Discharge report",
+    "FA History report"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001504,
+      "pages_in_call": 7
+    }
+  ]
+}

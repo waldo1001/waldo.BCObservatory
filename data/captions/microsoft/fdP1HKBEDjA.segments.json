@@ -1,0 +1,98 @@
+{
+  "video_id": "fdP1HKBEDjA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 2.4,
+      "end": 16.1,
+      "text": "in this video we're going to look at how to enter in receivables invoices and credit memos in Dynamics GP and compare that to the experience of entering those documents in Dynamics 365 business"
+    },
+    {
+      "t": 16.5,
+      "end": 39,
+      "text": "Central in my GP system I'm going to enter an invoice for a computer repair service we provided one of our customers I'll begin by going to my receivables transaction entry window and selecting the customer we provided the service for once I select the customer I can enter in the amount for the service provided and then post the"
+    },
+    {
+      "t": 39,
+      "end": 58.7,
+      "text": "invoice let's say some time has passed and the customer is asking for a credit as a service isn't what they expected next I'll go ahead and enter in a credit memo and apply it to that original invoice I can again select my customer information and then enter in the credit that they are asking"
+    },
+    {
+      "t": 58.7,
+      "end": 79.8,
+      "text": "for I can also enter the description if I want to provide more context of why we're giving a credit to the customer when I click on the apply button I can get to the apply sales document window where I can see my outstanding invoices and look for the original invoice that I had entered in and select it and then click"
+    },
+    {
+      "t": 79.8,
+      "end": 92.9,
+      "text": "okay and now I can post my credit memo that has been applied to the invoice now let's look at how we can enter in receivables invoices and credit memos in business Central"
+    },
+    {
+      "t": 94.4,
+      "end": 114.8,
+      "text": "to create receivables invoices in business Central I'll navigate to my sales journals in my sales Journal window I can see I've created several different batches and one for my sales in service invoices with a default sales account already selected if I drill into my batch I can start entering information for my invoice"
+    },
+    {
+      "t": 114.8,
+      "end": 132,
+      "text": "I'll first select the document type of invoice and then change the account type to customer customer once I enter in the customer I can then enter in a description of the invoice similar to how I can do it in"
+    },
+    {
+      "t": 133.1,
+      "end": 154.3,
+      "text": "GP finally I can enter in my document amount for the service provided if I want to look at the posting accounts before posting I can go into the GL entry and see the accounts receivable and sales accounts that are going to be posted to since that all looks okay I'm going to go ahead and post my"
+    },
+    {
+      "t": 154.3,
+      "end": 168.1,
+      "text": "invoice next let's see how we can enter in credit memos in business Central I'll navigate back out to my batch and select the credit memo batch where I've got a different number series allowing me to easily distinguish credit memos from"
+    },
+    {
+      "t": 168.1,
+      "end": 180,
+      "text": "invoices in my credit memo batch again I'll look at my document types and select credit memo and then change the account type to customer"
+    },
+    {
+      "t": 181.1,
+      "end": 201.5,
+      "text": "next I'll select my customer and then enter in the credit amount now we want to apply this credit memo to the invoice under processes I can pick apply entry now I can see all the outstanding invoices for my customer and scroll over to see the computer repair invoice we previously entered I'll go ahead and select"
+    },
+    {
+      "t": 201.5,
+      "end": 214.1,
+      "text": "that and then process to apply the credit memo to the invoice now that I've got the credit mimal apply to the invoice I'll go ahead and post the"
+    },
+    {
+      "t": 214.1,
+      "end": 228.4,
+      "text": "document in addition to sales journals sales invoices can also be used to track sales of services and items in inventory to create a sales invoice we'll click on the search icon and type in sales"
+    },
+    {
+      "t": 228.4,
+      "end": 243.2,
+      "text": "invoices once the list is returned I can select sales invoices to get the sales invoice list to open now I'm going to click new to create that new invoice"
+    },
+    {
+      "t": 243.2,
+      "end": 252.3,
+      "text": "document from the customer name list I can find the customer I need to enter in my invoice"
+    },
+    {
+      "t": 252.9,
+      "end": 272.8,
+      "text": "for down in the line section is where I can switch the type to general ledger account by selecting GL account then I can select the sales account I want to post the invoice to and here I can search for that Sales and Service revenue account select it and then enter in the amount for the"
+    },
+    {
+      "t": 272.8,
+      "end": 292.4,
+      "text": "invoice because the sales invoice allows for additional flexibility it can also include items that I track in inventory on this document perhaps a customer also purchased a desk from us I can capture that information on the same transaction and send the customer a single invoice for both services and items"
+    },
+    {
+      "t": 292.4,
+      "end": 304.6,
+      "text": "sold your receivables transactions can be entered in business Central through the use of sales journals and sales invoices both providing function and flexibility"
+    }
+  ],
+  "markers": [],
+  "word_count": 772
+}

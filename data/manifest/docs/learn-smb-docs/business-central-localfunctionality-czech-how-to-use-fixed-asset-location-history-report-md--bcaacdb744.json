@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-fixed-asset-location-history-report",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2c77726d8265e089dc7b8f4a52fb32473e66964a",
       "words": 167,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:48.153Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.001504
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:48.167Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:48.169Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:48.171Z",
+      "page": false
     }
   },
   "input_hash": "2c77726d8265e089dc7b8f4a52fb32473e66964a",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c77726d8265e089dc7b8f4a52fb32473e66964a"
+  "output_hash": "fa6fe94df3272cb490857e46f175503fc50683002ca3cef9e131b33d0580f956"
 }

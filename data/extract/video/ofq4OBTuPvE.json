@@ -1,0 +1,129 @@
+{
+  "video_id": "ofq4OBTuPvE",
+  "item_id": "video/yt-microsoft/ofq4OBTuPvE",
+  "title": "AI-Powered Analysis with Copilot in Dynamics 365 Business Central (2024)",
+  "duration_s": 52,
+  "systems": [
+    "copilot",
+    "reporting"
+  ],
+  "topics": [
+    "ai-powered analysis",
+    "data exploration",
+    "copilot",
+    "insights",
+    "trends and outliers",
+    "summaries",
+    "pivots",
+    "filters"
+  ],
+  "chapters": [
+    {
+      "title": "The Challenge: Data Analysis Takes Time",
+      "t_start": 0,
+      "t_end": 12.2
+    },
+    {
+      "title": "Copilot's AI-Powered Analysis Capabilities",
+      "t_start": 12.2,
+      "t_end": 28.2
+    },
+    {
+      "title": "Availability and Organizational Impact",
+      "t_start": 28.2,
+      "t_end": 39
+    },
+    {
+      "title": "Making Data-Driven Decisions",
+      "t_start": 39,
+      "t_end": 52
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot AI-Powered Analysis",
+      "description": "Copilot simplifies data analysis by transforming raw data into insightful summaries using next-generation AI. Users can describe what they need and Copilot creates totals, pivots, and filters to help find information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.2,
+      "t_end": 28.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "analysis",
+        "summaries",
+        "pivots",
+        "filters"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Trend and Outlier Exploration",
+      "description": "Users can easily explore trends and outliers within Business Central without leaving the application, with support for most Business Central data including customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 28.2,
+      "t_end": 39,
+      "is_demoed": false,
+      "caveats": [
+        "available for most Business Central data, including customizations"
+      ],
+      "tags": [
+        "trends",
+        "outliers",
+        "exploration",
+        "data analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.7,
+      "text": "Microsoft Dynamics 365 Business Central has powerful built-in capabilities to analyze and report on data, but finding the insights you need takes time.",
+      "why_it_matters": "Establishes the problem statement that motivates the Copilot solution.",
+      "check": "exact"
+    },
+    {
+      "t": 12.2,
+      "text": "Copilot simplifies analysis by transforming raw data into insightful summaries using next-generation AI.",
+      "why_it_matters": "Describes the core value proposition and technology approach of Copilot for analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 28.2,
+      "text": "Now, you can easily explore trends and outliers without ever leaving Business Central. And it's available for most Business Central data, even your customizations.",
+      "why_it_matters": "Indicates the broad availability and scope of the Copilot analysis feature.",
+      "check": "exact"
+    },
+    {
+      "t": 39,
+      "text": "Make data-driven decisions that propel your business forward with Copilot in Business Central.",
+      "why_it_matters": "States the intended business outcome and benefit of using Copilot for analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532
+    }
+  ]
+}
