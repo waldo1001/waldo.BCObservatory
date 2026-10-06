@@ -21,6 +21,8 @@ import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./ext
 import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
 
 const log = logger("code-diff");
+/** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
+export const DERIVED_VERSION = 2;
 
 export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown }
 export interface ObjectDiff {
@@ -169,7 +171,8 @@ const manifestOf = (dataDir: string, major: string, cc: string): SnapshotManifes
 };
 const ref = (major: string, cc: string, m: SnapshotManifest): Ref => ({ version: major, country: cc, commit: m.commit });
 /** Write `doc` unless the file already records the same inputs. */
-function writeIfInputsChanged(path: string, inputs: unknown, build: () => unknown): boolean {
+function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unknown): boolean {
+  const inputs = [DERIVED_VERSION, inputs0];
   if (exists(path) && same(readJson<{ inputs?: unknown }>(path).inputs, inputs)) return false;
   writeJson(path, { inputs, ...(build() as object) });
   return true;
@@ -211,7 +214,7 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
       return { major: m, count: list.length, by_tag: byTag, items: list };
     })) run.written++;
   }
-  const inputs = present.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit]);
+  const inputs = [DERIVED_VERSION, ...present.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit])];
   const tlDir = resolve(root, "timelines");
   const stamp = resolve(tlDir, "_inputs.json");
   if (!exists(stamp) || !same(readJson(stamp), inputs)) {

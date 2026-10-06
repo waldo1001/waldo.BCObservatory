@@ -174,3 +174,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `plugin/` (MCP + skills bc-lookup, bc-whats-new, bc-localization) and `.claude-plugin/marketplace.json`. The root
   package is renamed `@bc-observatory/repo` so the MCP package can be `bc-observatory`. Publishing to npm waits for
   the owner's Trusted Publishing setup (PLAN gate 7).
+- **D36 Weekly digest, deterministic, with the deprecation radar.** `pipeline/render/digest.ts` writes
+  `content/digests/<YYYY-Www>.md` (ISO weeks, UTC): roadmap features added or changed (snapshot diffs, never the
+  first snapshot), videos and posts published, Learn pages with commits, code snapshots and version-diff summary,
+  and the radar (obsolete elements by tag; CLEAN-guarded elements whose cleanup version has arrived). The nightly
+  re-renders the current and previous week; `/rss.xml` lists the last 52; `frontmatter.digest`. Derived code files
+  carry DERIVED_VERSION in their inputs so a format change rewrites them. No LLM: a Sonnet intro can come later.

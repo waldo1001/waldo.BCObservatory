@@ -88,6 +88,6 @@ test("refresh writes diffs, timelines and radar once, and again only when a snap
   const r1 = refreshCodeDerived(dataDir, ["28", "29", "30"]);
   assert.deepEqual([r1.version_diffs, r1.country_diffs, r1.deprecations, r1.timelines], [1, 1, 2, 2]);
   const diff = JSON.parse(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"));
-  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", ["c28", "c29", "1", "1"]]);
+  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [2, ["c28", "c29", "1", "1"]]]);
   assert.equal(refreshCodeDerived(dataDir, ["28", "29"]).written, 0, "unchanged inputs: nothing rewritten");
 });

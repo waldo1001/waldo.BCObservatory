@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.digest.json",
+  "title": "Frontmatter of a weekly digest (content/digests/<YYYY-Www>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "week",
+    "range",
+    "sections"
+  ],
+  "properties": {
+    "type": {
+      "const": "digest"
+    },
+    "week": {
+      "type": "string",
+      "pattern": "^\\d{4}-W\\d{2}$"
+    },
+    "range": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    }
+  }
+}
