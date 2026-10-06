@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-control-addin-bestpractices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices",
+  "title": "Control add-in performance best practices",
+  "blob": "9384163179f62581c8696f327bca4db72572a6f4",
+  "summary": "Control add-in performance best practices guide developers to invoke AL triggers only after previous calls complete and avoid excessive payloads. Poor performance triggers reduced functionality warnings and request throttling.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "control add-ins",
+    "performance",
+    "best practices",
+    "javascript",
+    "extensibility"
+  ],
+  "objects": [],
+  "features": [
+    "trigger invocation patterns",
+    "callback handling",
+    "payload optimization",
+    "performance monitoring",
+    "error handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-business-events-trace",
   "published_at": "2026-06-29T10:18:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b21428cc9825bd390489d442a14ac15ef897028c",
       "words": 696,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:57:55.163Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006142
+    },
+    "summarized": {
+      "at": "2026-10-06T17:00:12.081Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:00:12.082Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:00:12.084Z",
+      "page": false
     }
   },
   "input_hash": "b21428cc9825bd390489d442a14ac15ef897028c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b21428cc9825bd390489d442a14ac15ef897028c"
+  "output_hash": "9cae94451a5e956cb7a614c4d08872fa3884f687550e5a57e0155d365b97911e"
 }

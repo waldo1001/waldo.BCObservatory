@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat",
+  "title": "How to Set Up Reports for VAT and Intrastat",
+  "blob": "f0cd82e5dba94d07cdbd0a5be953ce8cf5b881e5",
+  "summary": "Setting up VAT and Intrastat reports in German localization requires configuring report selections through Report Selection pages and specifying submission channels for Intrastat (IDEV or eSTATISTIK.CORE).",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "intrastat",
+    "germany",
+    "localization",
+    "report selection"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Selection – VAT"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection – Intrastat"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "VAT statement reporting",
+    "Intrastat forms",
+    "XML format",
+    "ASCII format",
+    "submission channels",
+    "material numbers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

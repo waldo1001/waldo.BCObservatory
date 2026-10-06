@@ -1,0 +1,27 @@
+{
+  "video_id": "Ug_uM59DRRE",
+  "item_id": "video/yt-areopa/Ug_uM59DRRE",
+  "summary": "Building Business Central demo data with Microsoft's Contoso Coffee framework and an open source Demo Data Generator that creates AL modules from existing data. Evidence for the module codeunit pattern, what the generator automates (about 80 percent) and what stays manual.",
+  "overview": "The webinar covers why demo data preparation is slow and tedious, and why Rapid Start configuration packages fall short: limited validation, a static approach, poor version control, and breakage on schema changes. It then walks through Microsoft's Contoso Coffee framework, which began with a manufacturing module in 2022 wave 1 and grew in 2024 wave 2 to foundation, finance, CRM, bank, purchasing and sales modules.\n\nThe speaker then presents an open source Demo Data Generator that runs inside Business Central. It reads existing data and generates AL modules that follow the Contoso pattern. The session shows the generation, the AI prompts for readable code, preservation of manual edits on regeneration, and import of configuration packages. It also lists the roughly 20 percent of work that stays manual.",
+  "key_points": [
+    "Contoso Coffee modules are built around a module codeunit that implements the controls demo data module interface. Its four entry points create setup, master, transactional and historical data.",
+    "Helper codeunits handle safe insertion (existence check, override, validation, modification). Data codeunits hold literal values and label constants for primary keys. An enum extension registers each module.",
+    "Rapid Start configuration packages are limited by weak validation, a static approach, poor version control and breakage on schema changes.",
+    "The Demo Data Generator creates module, helper and data codeunits and enum extensions from existing data. It removes about 80 percent of the boilerplate effort.",
+    "Manual work remains for dynamic fields, transactional data (which needs domain knowledge), data cleanup and checking cross-entity references.",
+    "Transactional data comes out as placeholder codeunits with to-do comments plus JSON exports of historical records. These can be used with AI prompts to recreate posted documents.",
+    "Regeneration preserves manual edits and shows modified versus unchanged segment counts. Single segments can be reverted, and force regeneration overwrites all manual edits."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "115d853b047e0c2ef4beeee777c4becd4fbd36e636e6cdd4409cb62364c5114c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0245584
+  }
+}

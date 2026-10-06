@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-calcfields-calcsums-fielderror-fieldname-init-testfield-and-validate-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-calcfields-calcsums-fielderror-fieldname-init-testfield-and-validate-methods",
+  "title": "Field calculation methods",
+  "blob": "b09878555b6d9a2ef0ca7c8cea4ab7a9047b9379",
+  "summary": "Field calculation methods (CalcFields, CalcSums, FieldError, TestField, Validate) perform actions on record fields and FlowFields. TestField provides automatic navigation with single-parameter overload showing record card.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "field methods",
+    "flowfields",
+    "validation",
+    "al code",
+    "record operations"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    }
+  ],
+  "features": [
+    "CalcFields method",
+    "CalcSums method",
+    "FieldError method",
+    "TestField method",
+    "Validate method",
+    "automatic navigation",
+    "field initialization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-temporary-tables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-temporary-tables",
+  "title": "Temporary tables",
+  "blob": "c7d7a95c5068acf68607634057bfded7ed90e65d",
+  "summary": "Temporary tables are in-memory table variables that reduce network and database load when processing data. They can be implemented using TableType property, temporary record variables, or SourceTableTemporary page property.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "temporary tables",
+    "memory optimization",
+    "al development",
+    "performance",
+    "data buffering"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "TableType property",
+    "Temporary record variables",
+    "SourceTableTemporary property",
+    "system fields",
+    "BACPAC generation",
+    "schema synchronization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

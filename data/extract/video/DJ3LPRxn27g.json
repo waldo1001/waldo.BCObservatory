@@ -1,0 +1,297 @@
+{
+  "video_id": "DJ3LPRxn27g",
+  "item_id": "video/yt-microsoft/DJ3LPRxn27g",
+  "title": "What's New: Drop Shipments (2026 release wave 1)",
+  "duration_s": 619,
+  "systems": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "drop shipments",
+    "purchase order",
+    "flexible operation sequences",
+    "get order lines",
+    "receipt on invoice",
+    "undo shipment",
+    "purchase document creation",
+    "order planning"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Drop Shipments",
+      "t_start": 0,
+      "t_end": 60.7
+    },
+    {
+      "title": "Flexible Operation Sequences",
+      "t_start": 60.7,
+      "t_end": 152.2
+    },
+    {
+      "title": "Get Order Lines and Purchase Creation Methods",
+      "t_start": 152.2,
+      "t_end": 233
+    },
+    {
+      "title": "Demo Setup and Order Planning",
+      "t_start": 233,
+      "t_end": 325.5
+    },
+    {
+      "title": "Demo: Scenario 1 - Post Receipt and Invoice Together",
+      "t_start": 325.5,
+      "t_end": 385.2
+    },
+    {
+      "title": "Demo: Scenario 2 - Receipt on Invoice Toggle",
+      "t_start": 385.2,
+      "t_end": 472.1
+    },
+    {
+      "title": "Demo: Scenario 3 and Undo Shipment",
+      "t_start": 472.1,
+      "t_end": 570.3
+    },
+    {
+      "title": "Summary and Closing",
+      "t_start": 570.3,
+      "t_end": 619
+    }
+  ],
+  "features": [
+    {
+      "name": "Flexible Drop Shipment Operation Sequences",
+      "description": "2026 wave one allows flexible ordering of operations for drop shipments. Previously, posting receipt/shipment was required first, then sales invoice, then purchase invoice. Now purchase and sales operations can be processed independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 32.2,
+      "t_end": 152.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flexible workflows",
+        "operation sequences",
+        "drop shipments",
+        "purchase",
+        "sales"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Get Order Lines Functionality",
+      "description": "New functionality called get order lines serves as a more elaborate replacement for get receipt lines, allowing more flexible handling when invoices are connected to multiple orders or receipts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 152.2,
+      "t_end": 180,
+      "is_demoed": true,
+      "caveats": [
+        "Requires receipt on invoice toggle activation for certain scenarios"
+      ],
+      "tags": [
+        "get order lines",
+        "purchase invoice",
+        "drop shipments"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Multiple Purchase Document Creation Methods",
+      "description": "Drop shipment purchase documents can now be created from sales order page, order planning page, planning worksheet, requisition worksheet, or directly in purchase order. Previously limited to requisition worksheet or one-by-one purchase order creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 206,
+      "t_end": 233,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase creation",
+        "sales order",
+        "order planning",
+        "planning worksheet"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Drop Shipment Support in Order Planning",
+      "description": "Order planning page now calculates sales demand including drop shipment lines, respecting them as part of the planning process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246.7,
+      "t_end": 274.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order planning",
+        "drop shipments",
+        "demand calculation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Receipt on Invoice Toggle",
+      "description": "New toggle for purchase invoices that enables posting receipt and invoice together directly, updating the related purchase order and shipment automatically without separate receipt posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 364.7,
+      "t_end": 436.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires matching with orders"
+      ],
+      "tags": [
+        "receipt on invoice",
+        "purchase invoice",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Undo Shipment for Drop Shipments",
+      "description": "Ability to undo drop shipment shipments to cancel transactions and return items to vendor for reprocessing, providing error recovery capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 508.7,
+      "t_end": 570.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "undo shipment",
+        "error correction",
+        "drop shipments"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Direct Receipt and Invoice Posting in Purchase Order",
+      "description": "Purchase orders can now be posted as both receipt and invoice immediately in a single operation, with shipment automatically updated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.5,
+      "t_end": 152.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase order posting",
+        "automation",
+        "receipt",
+        "invoice"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "requisition worksheet",
+      "t": 206
+    },
+    {
+      "type": "page",
+      "name": "purchase order",
+      "t": 221.1
+    },
+    {
+      "type": "page",
+      "name": "sales order",
+      "t": 233
+    },
+    {
+      "type": "page",
+      "name": "order planning",
+      "t": 261.8
+    },
+    {
+      "type": "page",
+      "name": "planning worksheet",
+      "t": 274.3
+    },
+    {
+      "type": "page",
+      "name": "purchase invoice",
+      "t": 385.2
+    },
+    {
+      "type": "page",
+      "name": "shipment",
+      "t": 519
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 32.2,
+      "text": "Business Central support this scenario like for a long long long time, but with this release we allow you extra level of capabilities",
+      "why_it_matters": "Establishes that drop shipments are being enhanced in this release with new capabilities beyond previous functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 100.2,
+      "text": "in the version which we are releasing in the 2026 wave one we added more flexibility",
+      "why_it_matters": "Confirms the release timeline and indicates flexible operation sequences are a key 2026 wave one improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 112.5,
+      "text": "now most scenarios are unlocked again you starting the same way you post receipt maybe shipment like together",
+      "why_it_matters": "Describes the core flexibility enhancement allowing multiple operation sequences instead of a single enforced order.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 152.2,
+      "text": "we also have a functionality which is called order get order lines. You can use get order lines as a more elaborate replacement for",
+      "why_it_matters": "Introduces new get order lines feature as an improvement over get receipt lines for more complex scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 233,
+      "text": "So now you can do it from the sales order page, from order planning page or from the planning worksheet",
+      "why_it_matters": "Documents expanded methods for creating purchase documents from multiple locations in the system.",
+      "check": "exact"
+    },
+    {
+      "t": 457.3,
+      "text": "I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a",
+      "why_it_matters": "Demonstrates automatic processing of purchase orders through payables agents when using receipt on invoice toggle.",
+      "check": "exact"
+    },
+    {
+      "t": 570.3,
+      "text": "Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents",
+      "why_it_matters": "Summarizes the key benefits: flexible operation sequences, error recovery, and multiple document creation methods.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022795999999999997
+    }
+  ]
+}

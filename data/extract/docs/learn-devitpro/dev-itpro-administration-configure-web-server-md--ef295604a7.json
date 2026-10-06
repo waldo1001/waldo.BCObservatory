@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-web-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server",
+  "title": "Configuring Business Central Web Server instances",
+  "blob": "1b2eab15c7537cfc84da3029551d324cf7b9ae81",
+  "summary": "Configuring Business Central web server instances requires setting up navsettings.json configuration file on IIS with connection and authentication settings. Configuration can be modified directly or via PowerShell cmdlets.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "web server",
+    "configuration",
+    "iis",
+    "authentication",
+    "navsettings"
+  ],
+  "objects": [],
+  "features": [
+    "navsettings.json configuration",
+    "credential types",
+    "SSL/HTTPS",
+    "session timeout",
+    "authentication",
+    "portal embedding",
+    "PowerShell cmdlets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

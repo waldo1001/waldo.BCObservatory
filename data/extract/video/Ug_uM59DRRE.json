@@ -1,0 +1,653 @@
+{
+  "video_id": "Ug_uM59DRRE",
+  "item_id": "video/yt-areopa/Ug_uM59DRRE",
+  "title": "Demo or Disaster? How to build better Business Central demos?",
+  "duration_s": 2862,
+  "systems": [
+    "development",
+    "platform",
+    "finance"
+  ],
+  "topics": [
+    "demo data",
+    "contoso coffee framework",
+    "demo data generator",
+    "initialization logic",
+    "rapid start packages",
+    "configuration packages",
+    "codeunit pattern",
+    "module architecture",
+    "master data setup",
+    "boilerplate automation",
+    "al code generation",
+    "open source"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and webinar logistics",
+      "t_start": 0,
+      "t_end": 243.8
+    },
+    {
+      "title": "Session overview and agenda",
+      "t_start": 243.8,
+      "t_end": 353
+    },
+    {
+      "title": "The pain - challenges with demo data preparation",
+      "t_start": 353,
+      "t_end": 455.8
+    },
+    {
+      "title": "Demo environment fragmentation and implementation data connection",
+      "t_start": 455.8,
+      "t_end": 549.1
+    },
+    {
+      "title": "Historical context - limitations of rapid start configuration packages",
+      "t_start": 549.1,
+      "t_end": 625.9
+    },
+    {
+      "title": "Microsoft's Contoso Coffee demo data framework evolution",
+      "t_start": 625.9,
+      "t_end": 699.7
+    },
+    {
+      "title": "Contoso Coffee framework architecture and design pattern",
+      "t_start": 699.7,
+      "t_end": 978.2
+    },
+    {
+      "title": "Kontoso Framework Limitations and the Demo Data Generator Tool",
+      "t_start": 978.2,
+      "t_end": 1121.3
+    },
+    {
+      "title": "Demo Data Generator configuration and code generation",
+      "t_start": 1121.3,
+      "t_end": 1670.5
+    },
+    {
+      "title": "The 20% manual work after generation",
+      "t_start": 1670.5,
+      "t_end": 1772.2
+    },
+    {
+      "title": "Developer and consultant collaboration workflow with AI prompts",
+      "t_start": 1772.2,
+      "t_end": 2047.3
+    },
+    {
+      "title": "Managing manual edits, regeneration and configuration package import",
+      "t_start": 2047.3,
+      "t_end": 2388.4
+    },
+    {
+      "title": "Key takeaways and open source strategy",
+      "t_start": 2388.4,
+      "t_end": 2484.2
+    },
+    {
+      "title": "Q&A, AI role in demo data, and closing remarks",
+      "t_start": 2484.2,
+      "t_end": 2862
+    }
+  ],
+  "features": [
+    {
+      "name": "Contoso Coffee demo data framework",
+      "description": "Microsoft's platform for building repeatable, versionable demo and initialization data in Business Central, structured around module codeunits that implement a standard interface with entry points for setup, master, transactional, and historical data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 625.9,
+      "t_end": 699.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "framework",
+        "platform",
+        "initialization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Demo data module codeunit pattern",
+      "description": "A consistent architectural pattern where each module is structured around a codeunit implementing the standard controls demo data module interface with four entry points: create setup data, create master data, create transactional data, and historical data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 699.7,
+      "t_end": 827,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "codeunit",
+        "pattern",
+        "interface"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Helper codeunit pattern for safe data insertion",
+      "description": "Reusable helper codeunits that handle safe record insertion, including existence checking, override handling, validation, and modification logic, delegated from module codeunits to avoid direct data insertion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 733.4,
+      "t_end": 896,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "helper",
+        "codeunit",
+        "pattern",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data codeunit pattern with literal values",
+      "description": "Codeunits containing literal data values and label constants for primary keys, designed for recreating specific records consistently across demo environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 743.8,
+      "t_end": 770.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data codeunit",
+        "values",
+        "constants"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enum extension for module registration",
+      "description": "An enum extension mechanism that registers modules with the demo data framework, connecting all components of the framework together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 757.5,
+      "t_end": 770.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "enum extension",
+        "registration",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Contoso Coffee manufacturing module",
+      "description": "The initial Contoso Coffee module released in 2022 wave 1, focused on manufacturing scenarios with limited scope.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 644.1,
+      "t_end": 656.3,
+      "is_demoed": false,
+      "caveats": [
+        "Initial limited scope"
+      ],
+      "tags": [
+        "contoso coffee",
+        "manufacturing",
+        "initial release"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Contoso Coffee 2024 wave 2 expansion",
+      "description": "Expansion of Contoso Coffee in 2024 wave 2 to include foundation, finance, CRM, bank, purchasing, and sales modules in a single release, establishing it as a genuine platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 656.3,
+      "t_end": 669.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contoso coffee",
+        "expansion",
+        "2024 wave 2"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Rapid start configuration packages",
+      "description": "Legacy method for bringing data into new Business Central companies using configuration packages in XML or Excel format, now superseded by the Contoso Coffee framework due to limitations in validation, static nature, and version control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 555.4,
+      "t_end": 625.9,
+      "is_demoed": false,
+      "caveats": [
+        "Limited validation",
+        "Static approach",
+        "Poor version control",
+        "Breaks on schema changes"
+      ],
+      "tags": [
+        "rapid start",
+        "legacy",
+        "configuration packages"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Demo Data Generator Tool",
+      "description": "An open source tool that runs inside Business Central to automatically generate AL extension modules by reading existing data and converting it into properly structured demo data code units, helper code units, data code units, and enum extensions following established patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1025.5,
+      "t_end": 2448.8,
+      "is_demoed": true,
+      "caveats": [
+        "Eliminates about 80 percent of boilerplate effort but the remaining 20 percent requires manual expertise",
+        "Only covers what is configured in the tool; does not automatically handle edge cases or custom logic",
+        "Dynamic fields require manual implementation",
+        "Transactional data requires domain knowledge",
+        "Data quality and cleanup is needed before use",
+        "Cross-entity references must be verified"
+      ],
+      "tags": [
+        "code generation",
+        "automation",
+        "demo data",
+        "open source",
+        "al extension",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Kontoso Framework",
+      "description": "Microsoft's framework for demo data that provides clean, extensible patterns with consistent structure for module code units, helper code units, and data code units. Covers standard product functionality but does not include manufacturing, service management, or ISV verticals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.2,
+      "t_end": 1002,
+      "is_demoed": true,
+      "caveats": [
+        "Only covers standard product",
+        "Does not cover manufacturing, service management, or ISV vertical modules"
+      ],
+      "tags": [
+        "framework",
+        "microsoft",
+        "kontoso",
+        "standard product"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI prompts for code readability",
+      "description": "Two prompts included with the generator package to make procedure names and labels human-readable, allowing the AI agent to improve generated code legibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1908.9,
+      "t_end": 1948.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "code generation",
+        "readability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Transactional data placeholder generation",
+      "description": "The generator creates placeholder code units with to-do comments for transactional data, providing JSON exports of historical records that can be used with AI prompts to recreate posted documents based on live database data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1948.1,
+      "t_end": 2047.3,
+      "is_demoed": true,
+      "caveats": [
+        "Automatic generation of actual transactional data is not straightforward",
+        "Requires linking to Contoso libraries or internal demo data repositories for meaningful results"
+      ],
+      "tags": [
+        "transactional data",
+        "historical data",
+        "code generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Manual edit preservation across regeneration",
+      "description": "The tool tracks which code segments have been manually modified and preserves those edits when regenerating based on updated data or module definitions, showing modified vs unchanged segment counts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2093.1,
+      "t_end": 2305,
+      "is_demoed": true,
+      "caveats": [
+        "Individual segments can be reverted to baseline if needed",
+        "Force regeneration overwrites all manual edits"
+      ],
+      "tags": [
+        "manual edits",
+        "regeneration",
+        "code generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Configuration package import",
+      "description": "Allows importing existing Rapid Start configuration packages with up to 250 tables or more, automatically copying table selections, field selections, and filters into the demo data generator module definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2315.5,
+      "t_end": 2362.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration packages",
+        "rapid start",
+        "import"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Open source demo data generator",
+      "description": "The demo data generator is open source, allowing partners and ISVs to extend it and contribute improvements back to the community, particularly for transactional data generation approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2434.8,
+      "t_end": 2448.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "community",
+        "extension"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "controls demo data module",
+      "t": 800
+    },
+    {
+      "type": "codeunit",
+      "name": "Contoso bank helper code unit",
+      "t": 852.6
+    },
+    {
+      "type": "codeunit",
+      "name": "Contoso Bank Helper",
+      "t": 852.6
+    },
+    {
+      "type": "table",
+      "name": "Bank Account",
+      "t": 832.5
+    },
+    {
+      "type": "table",
+      "name": "Bank Account Posting Groups",
+      "t": 909.4
+    },
+    {
+      "type": "table",
+      "name": "Table 270",
+      "t": 1337.7
+    },
+    {
+      "type": "codeunit",
+      "name": "helper code unit",
+      "t": 1612.9
+    },
+    {
+      "type": "table",
+      "name": "bank card posting groups",
+      "t": 1602
+    },
+    {
+      "type": "table",
+      "name": "bank export input setup",
+      "t": 1566.6
+    },
+    {
+      "type": "table",
+      "name": "GL entries",
+      "t": 1948.1
+    },
+    {
+      "type": "other",
+      "name": "demo data generator",
+      "t": 2473.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Simon Fischer",
+      "confidence": "high"
+    },
+    {
+      "name": "Simon",
+      "confidence": "high"
+    },
+    {
+      "name": "Natalie Kavak",
+      "confidence": "high"
+    },
+    {
+      "name": "Fencer",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 358,
+      "text": "I am probably not the only one who has more spent more than a day or even more preparing demo data for presentations",
+      "why_it_matters": "Establishes the scope of the pain point - demo data preparation is time-consuming, the core problem being addressed.",
+      "check": "exact"
+    },
+    {
+      "t": 374.6,
+      "text": "good demo data or good demo preparation takes a lot of time not because it's very complex work but because it's tedious mechanical",
+      "why_it_matters": "Clarifies that demo data setup is not intellectually difficult but rather repetitive manual work that wastes resources.",
+      "check": "exact"
+    },
+    {
+      "t": 420,
+      "text": "Production data and demos, real customer names, real amounts in a screen share on a projector. We've seen it",
+      "why_it_matters": "Highlights a critical security and compliance risk when production data is accidentally used in demos.",
+      "check": "exact"
+    },
+    {
+      "t": 625.9,
+      "text": "in 2022 they started building something better. Uh back then Microsoft shipped something quietly as part of wave 1 and 2022 a new tool",
+      "why_it_matters": "Marks the launch of Microsoft's strategic solution to demo data challenges, a significant shift in architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 711.1,
+      "text": "at the center is a module code unit it implements a standard interface that",
+      "why_it_matters": "Explains the core architectural pattern that makes the framework scalable and automatable.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 770.3,
+      "text": "the nice thing of this pattern is that it's mechanical and predictable once you've",
+      "why_it_matters": "Describes the key design principle that enables consistency, reusability, and automation across all framework modules.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 978.2,
+      "text": "the Kontoso coffee that uh is a great framework the pattern is clean it's extensible and Microsoft is investing in it but of course",
+      "why_it_matters": "Defines the limitations of the existing Kontoso framework and sets up the need for additional tooling to handle custom scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1013.1,
+      "text": "And mechanical repetitive work is exactly what we should be automating.",
+      "why_it_matters": "Establishes the core motivation for the demo data generator tool - addressing the problem that boilerplate code generation is tedious mechanical work.",
+      "check": "exact"
+    },
+    {
+      "t": 1038.3,
+      "text": "No external tooling, no scripts, no command line. The core idea is very simple. Use what's already there.",
+      "why_it_matters": "Key design decision - the demo data generator runs entirely within Business Central without external dependencies, making it more accessible.",
+      "check": "exact"
+    },
+    {
+      "t": 1082.5,
+      "text": "of the total effort the remaining 20 is where your expertise comes in",
+      "why_it_matters": "Quantifies the scope and limitations of automation - the tool handles most repetitive work but manual expertise is still required for the remaining customization.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1682.6,
+      "text": "the tool eliminates hopefully around 80% of the total effort and I want to be honest about what's in the remaining 20%",
+      "why_it_matters": "Establishes realistic expectations about what the tool automates versus what requires manual effort and domain expertise.",
+      "check": "exact"
+    },
+    {
+      "t": 1711,
+      "text": "transactions require domain knowledge. What does a typical order look like for a module for your module?",
+      "why_it_matters": "Explains why transactional data generation cannot be fully automated and needs functional expert input.",
+      "check": "exact"
+    },
+    {
+      "t": 1772.2,
+      "text": "Two handles the mechanical, you handle the creative. And the end result, best case scenario, one coherent demo environment.",
+      "why_it_matters": "Describes the intended division of labor between the generator tool and human expertise.",
+      "check": "exact"
+    },
+    {
+      "t": 1783.7,
+      "text": "it start with both people in the same room the functional expert like presets consultant the trainer or whoever knows",
+      "why_it_matters": "Prescribes the recommended collaboration model between functional and technical teams for optimal demo data creation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2373.6,
+      "text": "demo data is a competitive advantage. The quality of your demo environment directly affects whether prospects say yes in the end.",
+      "why_it_matters": "Articulates the business value of investing in proper demo data quality.",
+      "check": "exact"
+    },
+    {
+      "t": 2388.4,
+      "text": "the Contoso coffee is the direction Microsoft has chosen. It's been growing consistently since 2022 and I don't think it's slowing down.",
+      "why_it_matters": "Recommends aligning demo data patterns with Microsoft's chosen Contoso Coffee direction rather than building parallel approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 2411.1,
+      "text": "the pattern is mechanical enough to automate. Once you've seen it, you can't unsee how repetitive it is.",
+      "why_it_matters": "Justifies the need for automated tooling to handle repetitive demo data generation patterns",
+      "check": "exact"
+    },
+    {
+      "t": 2423,
+      "text": "the demo data generator is the solution for partners and isvs it doesn't replace your expertise it",
+      "why_it_matters": "Clarifies the tool's positioning as removing friction rather than replacing human knowledge.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2434.8,
+      "text": "It's open source. If it doesn't do exactly what you need, let's extend it together.",
+      "why_it_matters": "Encourages community participation and customization of the open-source tool",
+      "check": "exact"
+    },
+    {
+      "t": 2718.4,
+      "text": "the code segment part um uh I think I wouldn't have implemented it uh at that point when I did it be without AI.",
+      "why_it_matters": "Demonstrates practical AI application in making code generation and iteration more efficient",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 669.6,
+      "kind": "other",
+      "text": "2025 wave 1 continued the trend"
+    },
+    {
+      "t": 1025.5,
+      "kind": "other",
+      "text": "The demo data generator is an open source tool"
+    },
+    {
+      "t": 2506.2,
+      "kind": "other",
+      "text": "I don't know of anything any fancy new uh news that Microsoft is planning for the Contoso coffee framework"
+    },
+    {
+      "t": 2545.9,
+      "kind": "other",
+      "text": "in the German uh demo data sets, there are some some things that are not really up to best practice"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 15
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026292
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023676999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024645
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018962
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033057
+    }
+  ]
+}

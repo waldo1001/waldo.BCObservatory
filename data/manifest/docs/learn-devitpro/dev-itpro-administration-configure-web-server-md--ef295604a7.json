@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server",
   "published_at": "2026-07-01T13:07:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b2eab15c7537cfc84da3029551d324cf7b9ae81",
       "words": 2627,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:57:55.158Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006142
+    },
+    "summarized": {
+      "at": "2026-10-06T16:58:05.719Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:58:05.720Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:00:12.067Z",
+      "page": false
     }
   },
   "input_hash": "1b2eab15c7537cfc84da3029551d324cf7b9ae81",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b2eab15c7537cfc84da3029551d324cf7b9ae81"
+  "output_hash": "1f69aeb242346fbea061e6c33804895797c7672e707bd2cae70c8b40c751c8c6"
 }

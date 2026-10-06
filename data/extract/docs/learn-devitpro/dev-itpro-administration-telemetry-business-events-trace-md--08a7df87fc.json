@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-business-events-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-business-events-trace",
+  "title": "Analyze business events telemetry",
+  "blob": "b21428cc9825bd390489d442a14ac15ef897028c",
+  "summary": "Business events telemetry tracks subscription lifecycle and execution, capturing events like creation, deletion, modification, enabling/disabling, triggering, and notification sending. Sample KQL queries provided for monitoring.",
+  "systems": [
+    "integration",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "business events",
+    "monitoring",
+    "kql",
+    "application insights"
+  ],
+  "objects": [],
+  "features": [
+    "event subscriptions",
+    "notification URLs",
+    "event triggering",
+    "event versioning",
+    "KQL queries",
+    "dimensions tracking"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=dUpixjiNaGY",
   "published_at": "2026-09-12T14:26:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:58:01.653Z",
+      "captions": "auto:en-orig",
+      "duration_s": 611
+    },
+    "captioned": {
+      "at": "2026-10-06T17:00:12.175Z",
+      "path": "vault:captions/community/yt-saurav/dUpixjiNaGY.vtt",
+      "vtt_sha256": "a48753a9242f42de1b51fdff549b76ae04c9708ab24151b55ca9396f515f5425",
+      "segments": 43,
+      "words": 1352,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC2SnEeamdCLN98MXFprKd_w"
-  }
+    "channel_id": "UC2SnEeamdCLN98MXFprKd_w",
+    "duration_s": 611,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a48753a9242f42de1b51fdff549b76ae04c9708ab24151b55ca9396f515f5425"
 }

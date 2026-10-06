@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-calcfields-calcsums-fielderror-fieldname-init-testfield-and-validate-methods",
   "published_at": "2026-07-01T07:22:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b09878555b6d9a2ef0ca7c8cea4ab7a9047b9379",
       "words": 1016,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:57:55.161Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006142
+    },
+    "summarized": {
+      "at": "2026-10-06T17:00:12.075Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:00:12.076Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:00:12.077Z",
+      "page": false
     }
   },
   "input_hash": "b09878555b6d9a2ef0ca7c8cea4ab7a9047b9379",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b09878555b6d9a2ef0ca7c8cea4ab7a9047b9379"
+  "output_hash": "6bca4c9d8b0eca1b30d78d96e78d372e2775b145af28002ed2e2ad1bd7a683ab"
 }

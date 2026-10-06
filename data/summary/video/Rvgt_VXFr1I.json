@@ -1,0 +1,26 @@
+{
+  "video_id": "Rvgt_VXFr1I",
+  "item_id": "video/yt-microsoft/Rvgt_VXFr1I",
+  "summary": "Running AL tests from Visual Studio Code in the 2026 release wave 1: test explorer, run profiles, code lens, debugging, code coverage and Copilot agent test fixing. It also covers limits: no AI or data-driven test suites, because AL test runners are not used.",
+  "overview": "The video shows the added ability to run tests in Visual Studio Code. A testing explorer lists tests grouped by project and codeunit with pass/fail status. Run profiles cover publish and run, run only, debug, and run with code coverage. Code lens shows how many tests have executed a procedure and lets you run the associated tests from the code. Debugging a test sets up the debug session automatically and can be started from the test explorer, the test sidebar, or test results.\n\nIt also covers a Copilot agent that can run tests, find failing ones and fix the test code, with several runs to validate the fixes. The technical section explains that the framework uses launch.json, configures test isolation dynamically, and does not use AL test runners. The AL MCP tool, covered in a separate session, serves agentic tools outside VS Code.",
+  "key_points": [
+    "Tests run directly in VS Code, with a testing explorer grouping tests by project and codeunit and showing pass/fail status.",
+    "Run profiles: publish and run, run only, debug, and run with code coverage collection.",
+    "Code lens shows how many tests executed a procedure and their status, and can run the associated tests.",
+    "Debugging can start from the test explorer, the test sidebar, or test results, and the debug session is set up automatically.",
+    "The Copilot agent can run tests and fix failing test code, but the run test tool must be enabled.",
+    "The framework uses launch.json, supports multiple sandbox or on-prem instances, and can pick different companies through the startup company property.",
+    "AL test runners are not used, so AI and data-driven test suites are not supported, and test runner setup and teardown events are not supported."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "4a288c4ff00f15ba6734f7c44a78786334381e7961538d68ec84ff93e9436a1b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0165024
+  }
+}

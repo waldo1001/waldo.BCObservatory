@@ -7,16 +7,40 @@
   "url": "https://www.youtube.com/watch?v=KkOr-hX0frQ",
   "published_at": "2026-09-15T05:53:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:57:06.810Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1413
+    },
+    "captioned": {
+      "at": "2026-10-06T16:57:14.467Z",
+      "path": "vault:captions/community/yt-saurav/KkOr-hX0frQ.vtt",
+      "vtt_sha256": "2920ab876bf3d73bfe3c8f0dfd5ffb7ba0eb8c08c7033358db05479c32dff33f",
+      "segments": 110,
+      "words": 2995,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC2SnEeamdCLN98MXFprKd_w"
-  }
+    "channel_id": "UC2SnEeamdCLN98MXFprKd_w",
+    "duration_s": 1413,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2920ab876bf3d73bfe3c8f0dfd5ffb7ba0eb8c08c7033358db05479c32dff33f",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T17:00:12.155Z"
 }

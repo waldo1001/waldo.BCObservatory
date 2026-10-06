@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=-vCiEloR61U",
   "published_at": "2026-09-16T10:00:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T16:54:42.400Z",
       "captions": "auto:en-orig",
       "duration_s": 642
+    },
+    "captioned": {
+      "at": "2026-10-06T16:56:52.944Z",
+      "path": "vault:captions/community/yt-saurav/-vCiEloR61U.vtt",
+      "vtt_sha256": "b7af7ee24542220238035f2c84a292f012b16c5dd0457b946e32f0309714ef72",
+      "segments": 49,
+      "words": 1376,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,8 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "b7af7ee24542220238035f2c84a292f012b16c5dd0457b946e32f0309714ef72",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T16:57:19.675Z"
 }

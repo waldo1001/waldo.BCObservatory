@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-controladdin-resiliency.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-controladdin-resiliency",
+  "title": "Control add-in resiliency in Business Central",
+  "blob": "25236267b5f60a76696b1e99ba84f532169e06bd",
+  "summary": "Control add-in resiliency detects unhealthy or slow control add-ins and displays warnings. Large payloads trigger upload limits controlled by ClientServicesMaxUploadSize server setting.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "control add-ins",
+    "resiliency",
+    "performance",
+    "payload handling",
+    "web client"
+  ],
+  "objects": [],
+  "features": [
+    "unhealthy control add-in detection",
+    "payload warnings",
+    "temporary file uploads",
+    "maximum upload size",
+    "reduced functionality warning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006142,
+      "pages_in_call": 8
+    }
+  ]
+}

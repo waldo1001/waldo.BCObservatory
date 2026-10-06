@@ -1,0 +1,26 @@
+{
+  "video_id": "Z0K38pXvjWk",
+  "item_id": "video/yt-saurav/Z0K38pXvjWk",
+  "summary": "The ToolTip and ToolTipML properties can now be set on the AL page object. Navigation actions that define no tooltip of their own inherit the page tooltip. The video covers less repeated code, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.",
+  "overview": "The video shows that ToolTip and ToolTipML are now available at page object level in Business Central AL development. Before this, tooltips were defined repeatedly on individual actions. A tooltip set once on the page can now be reused wherever an action navigates to that page.\n\nIt also covers defining tooltips on table fields so pages inherit them, which reduces page code size. The presenter stresses that AI agents and MCP servers rely on tooltips, so the text should be meaningful and not just generated static text. A client-side demo shows the inheritance.",
+  "key_points": [
+    "ToolTip and ToolTipML can be defined directly on a page object.",
+    "Using both ToolTip and ToolTipML on the same object generates an error; use one or the other.",
+    "A navigation action inherits the page tooltip only if the action defines no tooltip of its own.",
+    "An action can still override the page-level tooltip by defining its own.",
+    "Defining the tooltip once on the page keeps it consistent where the same page is referenced from several places in the application.",
+    "Tooltips defined on table fields can be inherited by page fields, which reduces page code. This is recommended but not mandatory.",
+    "AI agents and MCP servers use tooltips on pages, tables and fields, so write meaningful text instead of tool-generated placeholders."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "6fc2bfde32a2671e6663cbb80d4c28e09b24766c8f5aef17c84ca32155ebc5fd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012864399999999998
+  }
+}
