@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5971.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5971",
+  "title": "Service Contract-Detail (report)",
+  "blob": "8565fae7756f6bb728081f13b5c43e61e7e1d28c",
+  "summary": "Service Contract-Detail report displays detailed information about service contracts including item number, description, variant code, serial number, service period, contract value, and discount amounts.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service contracts",
+    "reporting",
+    "contract details"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Contract-Detail"
+    }
+  ],
+  "features": [
+    "item number",
+    "description",
+    "variant code",
+    "serial number",
+    "service period",
+    "contract value",
+    "contract discount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001101,
+      "pages_in_call": 7
+    }
+  ]
+}

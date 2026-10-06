@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5955.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5955",
+  "title": "Dispatch Board (report)",
+  "blob": "8d5229350da7ae14615be4b26dc11e532cf862f6",
+  "summary": "Dispatch Board report displays service dispatch information including response times, priorities, orders, and resource allocations.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "dispatch management",
+    "service orders",
+    "resource allocation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Dispatch Board"
+    }
+  ],
+  "features": [
+    "dispatch tracking",
+    "response time monitoring",
+    "priority management",
+    "allocation tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001065,
+      "pages_in_call": 8
+    }
+  ]
+}

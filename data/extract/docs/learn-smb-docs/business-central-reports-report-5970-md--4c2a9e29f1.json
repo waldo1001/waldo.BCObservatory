@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5970.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5970",
+  "title": "Service Contract (report)",
+  "blob": "169517075da29844cb0a520fa322f87c6d8929a7",
+  "summary": "Service Contract report shows a list of all service contracts with details like contract number, item number, serial number, service period, and annual amount.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service contracts",
+    "reporting",
+    "service management"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Contract"
+    }
+  ],
+  "features": [
+    "contract number",
+    "item number",
+    "serial number",
+    "service period",
+    "annual amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001101,
+      "pages_in_call": 7
+    }
+  ]
+}

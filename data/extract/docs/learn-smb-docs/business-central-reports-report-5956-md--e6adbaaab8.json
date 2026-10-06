@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5956.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5956",
+  "title": "Service Load Level (report)",
+  "blob": "de1bb2fdfd478531fceb258d6d934abcdeda9c7d",
+  "summary": "Service Load Level report analyzes resource capacity, utilization, and performance metrics across quantity, cost, and sales dimensions.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "resource capacity",
+    "utilization analysis",
+    "performance metrics"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Load Level"
+    }
+  ],
+  "features": [
+    "capacity monitoring",
+    "utilization reporting",
+    "sales tracking",
+    "unused capacity analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001065,
+      "pages_in_call": 8
+    }
+  ]
+}

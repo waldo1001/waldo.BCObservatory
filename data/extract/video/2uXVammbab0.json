@@ -1,0 +1,345 @@
+{
+  "video_id": "2uXVammbab0",
+  "item_id": "video/yt-microsoft/2uXVammbab0",
+  "title": "What's New: Chat with Copilot (2025 release wave 1)",
+  "duration_s": 782,
+  "systems": [
+    "copilot",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "chat interface",
+    "natural language queries",
+    "record filtering",
+    "customer data",
+    "inventory search",
+    "analysis tabs",
+    "citations",
+    "permissions",
+    "prompt guide",
+    "contextual assistance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Chat with Copilot",
+      "t_start": 0,
+      "t_end": 50.5
+    },
+    {
+      "title": "Finding customer records and learning features",
+      "t_start": 50.5,
+      "t_end": 180.7
+    },
+    {
+      "title": "Working with quotes and citations",
+      "t_start": 180.7,
+      "t_end": 362.1
+    },
+    {
+      "title": "Admin setup and managing chat sessions",
+      "t_start": 362.1,
+      "t_end": 457.4
+    },
+    {
+      "title": "Inventory management queries",
+      "t_start": 457.4,
+      "t_end": 597.1
+    },
+    {
+      "title": "Analysis tabs and contextual page assistance",
+      "t_start": 597.1,
+      "t_end": 706.4
+    },
+    {
+      "title": "Prompt guide and documentation search",
+      "t_start": 706.4,
+      "t_end": 782
+    }
+  ],
+  "features": [
+    {
+      "name": "Chat with Copilot",
+      "description": "Natural language chat interface to interact with business data using filters, sorting and searching. Users can find records, ask questions about data, and learn how to use Business Central features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.7,
+      "t_end": 180.7,
+      "is_demoed": true,
+      "caveats": [
+        "Copilot only accesses records the user has access to",
+        "Copilot does not have access to bank accounts",
+        "Chat should be cleared for new contexts to improve success"
+      ],
+      "tags": [
+        "chat",
+        "natural language",
+        "record search",
+        "data filtering"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Citation controls and reference lists",
+      "description": "Shows the source of Copilot's information including whether data came from Business Central database or Microsoft online documentation, and displays the filters and logic applied to answer questions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.2,
+      "t_end": 346.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transparency",
+        "citations",
+        "verification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and Agent Capabilities page",
+      "description": "Admin page that lists all copilot and agent functionality available in the environment. Lists individual capabilities like chat that can be activated or deactivated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378.2,
+      "t_end": 392.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "administration",
+        "setup",
+        "chat activation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot permission set",
+      "description": "New permission set introduced in update 26 that contains all Copilot system features including chat. All users should have it by default but admins can configure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 405.7,
+      "t_end": 427,
+      "is_demoed": true,
+      "caveats": [
+        "May need to be manually configured by admins if default assignment is changed"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "setup",
+        "update 26"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Inventory search by price and category",
+      "description": "Ask Copilot to find items in stock within specific price ranges and display results by category. Returns product information including item pictures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 457.4,
+      "t_end": 513,
+      "is_demoed": true,
+      "caveats": [
+        "Performance and reliability have been improved over time"
+      ],
+      "tags": [
+        "inventory",
+        "items",
+        "search",
+        "pricing"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Analysis tabs generation",
+      "description": "Copilot can generate analysis tabs from natural language questions to display structured information about records. Users can add columns like vendors and substitutes to the analysis view.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 560,
+      "t_end": 630.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis",
+        "structured data",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Contextual page capabilities",
+      "description": "Copilot is aware of capabilities available on the currently open page and can suggest them within the chat pane. Works with custom capabilities added through extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 645.9,
+      "t_end": 684.9,
+      "is_demoed": true,
+      "caveats": [
+        "Works with custom capabilities from installed extensions"
+      ],
+      "tags": [
+        "contextual",
+        "page-aware",
+        "extensions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Suggest item substitutes",
+      "description": "Copilot capability that can suggest item substitutes on the item substitution page. Can be activated from the contextual help menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 645.9,
+      "t_end": 706.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "substitutes",
+        "suggestions",
+        "inventory"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Prompt guide",
+      "description": "Built-in guide packed with example prompts for finding records or explaining concepts. Prompts can be used as templates that users can customize before sending to Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 706.4,
+      "t_end": 745.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "prompts",
+        "templates",
+        "guidance",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Documentation search including local functionality",
+      "description": "Copilot searches Microsoft online documentation and is aware of local functionality documentation and release plans about upcoming features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.5,
+      "t_end": 761.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "search",
+        "local functionality",
+        "release plans"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot and Agent Capabilities page",
+      "t": 378.2
+    },
+    {
+      "type": "page",
+      "name": "permission sets",
+      "t": 405.7
+    },
+    {
+      "type": "page",
+      "name": "items list",
+      "t": 585.4
+    },
+    {
+      "type": "page",
+      "name": "item substitution page",
+      "t": 645.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 4.7,
+      "text": "Copilot is your AI companion for work and you'll find it providing assistance across all kinds of features in Business Central, but from anywhere",
+      "why_it_matters": "Establishes the core positioning of Copilot as an always-available AI assistant across Business Central features.",
+      "check": "exact"
+    },
+    {
+      "t": 18.6,
+      "text": "in business central as well i'll show you how this works think of this as an easy way to",
+      "why_it_matters": "Explains the primary purpose of chat - natural language interaction with business data.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 110,
+      "text": "There's an important point here to understand which is copilot doesn't have access to my company bank accounts. It only knows about the data",
+      "why_it_matters": "Clarifies a critical security and scope limitation - Copilot cannot access external bank systems.",
+      "check": "exact"
+    },
+    {
+      "t": 134.3,
+      "text": "When I put Copilot to work to find things for me, Copilot has access to only the records that I already have access to.",
+      "why_it_matters": "Establishes that Copilot respects existing user permissions and access controls.",
+      "check": "exact"
+    },
+    {
+      "t": 415.7,
+      "text": "This is a permission that was introduced with update 26. Uh all users should have it by default, but admins can of course configure",
+      "why_it_matters": "Specifies the version when the Copilot permission set was introduced and default behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 570.8,
+      "text": "Copilot recognizes that some kind of questions are best answered by displaying structured information and the best tool for the job is of course",
+      "why_it_matters": "Demonstrates Copilot's capability to choose the right presentation format (analysis tabs) for structured data questions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 415.7,
+      "kind": "subject-to-change",
+      "text": "This is a permission that was introduced with update 26."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030281
+    }
+  ]
+}

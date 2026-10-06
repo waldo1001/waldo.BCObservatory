@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5972.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5972",
+  "title": "Service Contract Quote (document report)",
+  "blob": "cd6b88039eef5de89c6fb89baccc152b0b04247b",
+  "summary": "Service Contract Quote report produces quotes for customers showing contract details including contract number, starting date, invoice period, discount, and annual amount.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service contracts",
+    "quotes",
+    "customer communication"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Contract Quote"
+    }
+  ],
+  "features": [
+    "contract number",
+    "starting date",
+    "invoice period",
+    "discount",
+    "annual amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001101,
+      "pages_in_call": 7
+    }
+  ]
+}
