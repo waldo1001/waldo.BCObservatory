@@ -1,0 +1,426 @@
+{
+  "video_id": "PrGBqzTDsLw",
+  "item_id": "video/yt-microsoft/PrGBqzTDsLw",
+  "title": "Profiling Your Customers",
+  "duration_s": 942,
+  "systems": [
+    "crm",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "customer profiling",
+    "trial onboarding",
+    "questionnaire",
+    "appsource apps",
+    "checklist tasks",
+    "assisted setup",
+    "teaching tips",
+    "excel layouts",
+    "analysis mode",
+    "role centers"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of customer profiling and questionnaire flow",
+      "t_start": 0,
+      "t_end": 42.6
+    },
+    {
+      "title": "How customer data is stored and used in Business Central",
+      "t_start": 42.6,
+      "t_end": 108.2
+    },
+    {
+      "title": "Selecting solutions based on customer choices",
+      "t_start": 108.2,
+      "t_end": 175.1
+    },
+    {
+      "title": "Trial sign-up and AppSource app integration",
+      "t_start": 175.1,
+      "t_end": 226.7
+    },
+    {
+      "title": "Onboarding checklist and assisted setup elements",
+      "t_start": 226.7,
+      "t_end": 355.7
+    },
+    {
+      "title": "Excel integration and data import workflows",
+      "t_start": 355.7,
+      "t_end": 475.6
+    },
+    {
+      "title": "Reports with Excel layouts and teaching tips",
+      "t_start": 475.6,
+      "t_end": 607.5
+    },
+    {
+      "title": "Analysis mode, query objects, and onboarding conclusion",
+      "t_start": 607.5,
+      "t_end": 688.8
+    },
+    {
+      "title": "Technical implementation and event subscriptions",
+      "t_start": 688.8,
+      "t_end": 792
+    },
+    {
+      "title": "Best practices and recommendations for onboarding",
+      "t_start": 792,
+      "t_end": 942
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer questionnaire on website",
+      "description": "A questionnaire on the partner's website where prospects fill in answers about their interests, current systems, and company size. The answers are collected and used to customize their trial experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 14.8,
+      "t_end": 108.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "questionnaire",
+        "customer profiling",
+        "trial setup"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "System table storage of questionnaire answers",
+      "description": "Questionnaire responses are stored in a system table inside Business Central before sign-in, allowing the app to pivot and add more things to the experience based on customer answers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.6,
+      "t_end": 59.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data storage",
+        "questionnaire",
+        "system table"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Dynamic AppSource app loading based on customer profile",
+      "description": "Different AppSource apps and solutions can be loaded dynamically during trial setup based on the combination of answers from the customer questionnaire, enabling targeted onboarding experiences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 134.1,
+      "t_end": 175.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "dynamic loading",
+        "trial customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Customer role center assignment before sign-in",
+      "description": "A customer role center can be loaded and attached to a role, then set for the current user before they sign in, providing a customized first experience tailored to their profile.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 715,
+      "t_end": 726.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "user experience",
+        "onboarding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Welcome banner personalization",
+      "description": "The welcome banner text can be changed to greet customers with the most relevant greeting and messaging based on their profile, as the first thing they see in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 740.9,
+      "t_end": 757,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "welcome banner",
+        "personalization",
+        "user experience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Onboarding checklist tasks",
+      "description": "Checklist tasks serve as the primary stage to lead customers through their first experience, including videos, setup steps, and calls to action. Partners can customize the checklist to guide customers toward features relevant to their profile.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.7,
+      "t_end": 355.7,
+      "is_demoed": true,
+      "caveats": [
+        "Checklist is meant to be an example and inspiration, not a comprehensive template"
+      ],
+      "tags": [
+        "checklist",
+        "onboarding",
+        "customer guidance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Assisted setup with custom categories",
+      "description": "The assisted setup list page can be filtered to show only custom setup elements relevant to a solution, allowing partners to guide customers through module-specific configuration steps without overwhelming them with options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303,
+      "t_end": 355.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assisted setup",
+        "configuration",
+        "onboarding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Teaching tips with markdown support",
+      "description": "Teaching tips can include markdown formatting for bold and italics, and can contain links to other pages, providing guided education to users about features and data they encounter.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 572.6,
+      "t_end": 596.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teaching tips",
+        "markdown",
+        "user education"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report request page teaching tips",
+      "description": "Teaching tips can appear on report request pages to educate users about what the report shows, why it exists, and how to best filter it for optimal results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 475.6,
+      "t_end": 525.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teaching tips",
+        "report",
+        "user guidance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Excel layouts for reports",
+      "description": "Partners can provide Excel layout files with reports out of the box, including graphs and formatting. When the report is printed, the data is updated and graphs automatically refresh, giving customers rich reports without manual work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 488.4,
+      "t_end": 552,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel layouts",
+        "report",
+        "visualization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Spotlight tour for Excel and Teams integration",
+      "description": "Spotlight tours can highlight core integrations like edit in Excel and share to Teams on custom entities, generating excitement about standard capabilities and how they apply to specific data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 438.5,
+      "t_end": 461.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "spotlight tour",
+        "excel integration",
+        "teams integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Teaching tips on query objects in analysis mode",
+      "description": "Teaching tips can be added to query objects to educate users about what analysis they are seeing when they open a query directly from another page, explaining the purpose and meaning of the data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 583.6,
+      "t_end": 607.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teaching tips",
+        "analysis mode",
+        "query"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis duplication and link sharing",
+      "description": "Users can duplicate an analysis query to create a new version with a different name, and copy a link to share specific analysis with colleagues via Teams or email so they can access the exact analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 619,
+      "t_end": 633,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "duplication",
+        "sharing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Onboarding sample app on GitHub",
+      "description": "Microsoft provides an onboarding sample app on GitHub that partners can fork and use as a template for building their own customer onboarding experiences, including event subscriptions and integration patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 688.8,
+      "t_end": 701.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sample app",
+        "github",
+        "onboarding"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "assisted setup list page",
+      "t": 331.4
+    },
+    {
+      "type": "page",
+      "name": "guide experience item",
+      "t": 797.8
+    },
+    {
+      "type": "query",
+      "name": "query objects",
+      "t": 916.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Søren",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 42.6,
+      "text": "We then store the information from the questionnaire, the answers in a system table inside Business Central and you can use those before the",
+      "why_it_matters": "This explains the core mechanism for persisting customer profile data and using it to customize the trial experience before the user even signs in.",
+      "check": "exact"
+    },
+    {
+      "t": 147.1,
+      "text": "It means that the combination of these choices imply a collection of onboarding elements, checklist tasks, banner, role center, what have you, in a",
+      "why_it_matters": "This defines what a tailored onboarding experience consists of and how different customer profile choices drive which AppSource app gets loaded.",
+      "check": "exact"
+    },
+    {
+      "t": 191.5,
+      "text": "And then, the important part here is that all of that context, where you came from, the outcome of the questionnaire, is passed along",
+      "why_it_matters": "This shows that questionnaire data is the bridge between the partner's website and the Business Central trial environment, enabling dynamic customization.",
+      "check": "exact"
+    },
+    {
+      "t": 269.3,
+      "text": "So, we're going to talk through some of the onboarding elements in this checklist. This checklist is not intended to be the great checklist",
+      "why_it_matters": "This clarifies that the demonstration checklist is an example and inspiration only, not a prescriptive template all partners must follow.",
+      "check": "exact"
+    },
+    {
+      "t": 688.8,
+      "text": "Now, the great thing about what you just saw here is that this app that I loaded here is available on GitHub. It's the",
+      "why_it_matters": "This announces the availability of a concrete reference implementation that partners can use immediately to build their own onboarding solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 715,
+      "text": "Well, first of all, we loaded a customer role center. There's a few things that's important for doing that. So, we loaded a customer",
+      "why_it_matters": "This explains the technical pattern for delivering a customized first experience through role centers assigned before initial sign-in.",
+      "check": "exact"
+    },
+    {
+      "t": 797.8,
+      "text": "Branch off checklists to do more elaborate setups. You saw me uh opening the assisted setup list filtered to your custom category, and you",
+      "why_it_matters": "This documents the specific function and pattern for integrating assisted setups into onboarding checklists without overwhelming the user.",
+      "check": "exact"
+    },
+    {
+      "t": 929.9,
+      "text": "To learn more, visit aka.ms/bconboarding.",
+      "why_it_matters": "This provides the official resource URL for additional guidance on implementing customer profiling and onboarding features.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 475.6,
+      "kind": "preview",
+      "text": "So, we also added new things in this release. So, if I start now, and this is actually is a report that I'm starting."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036778
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "video_id": "XNfgf7tCeaw",
+  "item_id": "video/yt-microsoft/XNfgf7tCeaw",
+  "title": "Overview of Customer and Partner Onboarding Journeys",
+  "duration_s": 266,
+  "systems": [
+    "sales",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "customer onboarding",
+    "partner-led experience",
+    "trial setup",
+    "prospect profiling",
+    "appsource apps",
+    "csp relationship",
+    "embedded buying",
+    "go-live",
+    "configuration",
+    "chart of accounts"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to onboarding journeys",
+      "t_start": 0,
+      "t_end": 20.7
+    },
+    {
+      "title": "Standard trial experience vs. partner-led journey",
+      "t_start": 20.7,
+      "t_end": 61.1
+    },
+    {
+      "title": "Challenges with current prospect onboarding",
+      "t_start": 61.1,
+      "t_end": 101.3
+    },
+    {
+      "title": "New digital experience approach overview",
+      "t_start": 101.3,
+      "t_end": 141.8
+    },
+    {
+      "title": "Prospect profiling and signup process",
+      "t_start": 141.8,
+      "t_end": 181.1
+    },
+    {
+      "title": "Partner-driven experience and personalization",
+      "t_start": 181.1,
+      "t_end": 221.3
+    },
+    {
+      "title": "Embedded buying and go-live process",
+      "t_start": 221.3,
+      "t_end": 266
+    }
+  ],
+  "features": [
+    {
+      "name": "Prospect profiling on partner website",
+      "description": "Partners can profile prospects on their website to understand industry, business type, and current systems, then redirect them to a personalized trial experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.7,
+      "t_end": 162,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "prospect",
+        "partner-driven"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Dynamic AppSource app loading",
+      "description": "Partners can select and load a relevant AppSource app into the trial based on the prospect profile information collected from the partner website.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162,
+      "t_end": 181.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "apps",
+        "personalization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Profile data carried through onboarding journey",
+      "description": "Profile information collected on the partner website is carried through the signup and trial process and made available in Business Central to pivot the experience based on customer preferences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181.1,
+      "t_end": 201.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "personalization",
+        "data-flow",
+        "onboarding"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Embedded buying experience",
+      "description": "Partners can build an embedded buying experience into the trial that handles the CSP relationship part and takes prospects through onboarding into their own company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 221.3,
+      "t_end": 241.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "buying",
+        "csp",
+        "embedded"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dynamic data loading for new company",
+      "description": "The system can dynamically load customer data such as chart of accounts and posting groups when setting up a new company during onboarding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.7,
+      "t_end": 258.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "setup",
+        "go-live"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    },
+    {
+      "name": "Cern",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.7,
+      "text": "the standard trial experience that you start on dynamics.com doesn't really give you relevant content well not as relevant as it could be",
+      "why_it_matters": "Identifies the problem with current generic trials and lack of personalization for prospects.",
+      "check": "exact"
+    },
+    {
+      "t": 81.1,
+      "text": "you need to first establish the csp relationship that uh virtual paperwork that needs to happen where",
+      "why_it_matters": "Shows the friction point and complexity in the current partner-led onboarding process.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 101.3,
+      "text": "we can remove the friction in that while still providing that same relevance for",
+      "why_it_matters": "Announces the new approach to reduce onboarding friction while maintaining personalization.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 121.7,
+      "text": "to be able to give the most relevant experience you need to know something about that potential customer like for example what industry are",
+      "why_it_matters": "Explains the rationale for prospect profiling as the foundation of the onboarding strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 181.1,
+      "text": "whatever the outcome of the profile was on your website is carried through that journey and is actually available in business Central",
+      "why_it_matters": "Key design decision showing how profile data flows through the entire onboarding experience.",
+      "check": "exact"
+    },
+    {
+      "t": 201.2,
+      "text": "being able to be matched with the partner solution from day Zero is actually what's taking place here it's a partner-driven experience",
+      "why_it_matters": "Clarifies the core principle that the new onboarding is partner-centric from the first interaction.",
+      "check": "exact"
+    },
+    {
+      "t": 221.3,
+      "text": "dynamically load all the data that this customer needs in terms of chart of accounts and posting groups and",
+      "why_it_matters": "Shows how the system automates configuration during go-live to reduce consultant workload on routine setup.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 101.3,
+      "kind": "preview",
+      "text": "this is relatively new but there's a way to create a digital experience"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014023
+    }
+  ]
+}
