@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-adjust-reconcile-inventory-cost-job-queue",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fa008c22d1f8fd10a3793c08f7d664288c30d12f",
       "words": 476,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.391Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00286
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:30.902Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:30.903Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:30.905Z",
+      "page": false
     }
   },
   "input_hash": "fa008c22d1f8fd10a3793c08f7d664288c30d12f",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa008c22d1f8fd10a3793c08f7d664288c30d12f"
+  "output_hash": "eccef51b65a1e27a84a0b76de2a92bb7d2f91a7371b8b596d14790fc03a6a1db"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-use-item-cross-refs",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e61ac3328f0baa829768322621433b9db683d983",
       "words": 378,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.873Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:30.881Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:30.882Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:30.883Z",
+      "page": false
     }
   },
   "input_hash": "e61ac3328f0baa829768322621433b9db683d983",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e61ac3328f0baa829768322621433b9db683d983"
+  "output_hash": "c4799053e832a024721bcc28f2c096d0fdb391ff1d6f4d5b90d6630f39615e01"
 }

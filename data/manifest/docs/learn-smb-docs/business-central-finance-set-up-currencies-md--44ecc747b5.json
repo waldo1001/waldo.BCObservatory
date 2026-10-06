@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-currencies",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "90fc5b22a7890acb12eddcddf482905ae521b1ea",
       "words": 1595,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.718Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.810Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.811Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.812Z",
+      "page": false
     }
   },
   "input_hash": "90fc5b22a7890acb12eddcddf482905ae521b1ea",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90fc5b22a7890acb12eddcddf482905ae521b1ea"
+  "output_hash": "d051d268c60220fc5af5792363005eaa209f8e56f5b9e522f43c8455f711f035"
 }

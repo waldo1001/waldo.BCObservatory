@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "47bbdbb07a5f79e4f2331fef81d74be8944f5342",
       "words": 192,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.713Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.796Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.797Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.799Z",
+      "page": false
     }
   },
   "input_hash": "47bbdbb07a5f79e4f2331fef81d74be8944f5342",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "47bbdbb07a5f79e4f2331fef81d74be8944f5342"
+  "output_hash": "67f47997eb621b3259e79b00373cbc0a288419d652a3d89cd9ff0060c8c8e8b2"
 }

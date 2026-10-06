@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-BOMs",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "635b294a5a594a037b1414c27b45b9b1544c20fb",
       "words": 445,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.875Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:30.909Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:30.911Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:30.912Z",
+      "page": false
     }
   },
   "input_hash": "635b294a5a594a037b1414c27b45b9b1544c20fb",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "635b294a5a594a037b1414c27b45b9b1544c20fb"
+  "output_hash": "823894a1dac743a20f101507328ce4b3528eac18973bb879b6a42c726adc9820"
 }

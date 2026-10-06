@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c6ab11a693b410c7e4a85ae752e18c4a581096c",
       "words": 322,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.876Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.669Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.671Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.672Z",
+      "page": false
     }
   },
   "input_hash": "6c6ab11a693b410c7e4a85ae752e18c4a581096c",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c6ab11a693b410c7e4a85ae752e18c4a581096c"
+  "output_hash": "711bb09bbf0b51a5a5361350497fb4bb4d79d3656ce7d90929e360d4ea925c4e"
 }

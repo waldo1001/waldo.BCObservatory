@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c2db1d29a581eea8058c1808d5a22c9e3806d90",
       "words": 880,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.384Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00286
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:30.885Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:30.886Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:30.887Z",
+      "page": false
     }
   },
   "input_hash": "6c2db1d29a581eea8058c1808d5a22c9e3806d90",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c2db1d29a581eea8058c1808d5a22c9e3806d90"
+  "output_hash": "fce2c12c5dc1cbdb55f78fa93fe2fe425dcd10ee7ac72c7b85845a4c4dbb7b74"
 }

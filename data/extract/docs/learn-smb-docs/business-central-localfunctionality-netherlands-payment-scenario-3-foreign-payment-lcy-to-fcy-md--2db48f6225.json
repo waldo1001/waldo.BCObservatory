@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-",
+  "title": "Scenario 3 - Foreign Payment (LCY to FCY) [NL]",
+  "blob": "6c2db1d29a581eea8058c1808d5a22c9e3806d90",
+  "summary": "Payment scenario for international payments where your company uses local currency (LCY) but foreign vendors/customers use foreign currency (FCY) in Dutch Business Central, including telebanking processes for proposals, payment histories, and bank reconciliation.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "telebanking",
+    "foreign currency payments",
+    "lcy to fcy",
+    "payment proposals",
+    "payment history",
+    "bank statements",
+    "netherlands local"
+  ],
+  "objects": [],
+  "features": [
+    "telebanking",
+    "payment proposals",
+    "payment history export",
+    "bank statement import",
+    "currency conversion",
+    "transaction modes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00286,
+      "pages_in_call": 8
+    }
+  ]
+}

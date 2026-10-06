@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0796c294a1177dc677238efefe8c2386b199e67f",
       "words": 35,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.879Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.679Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.680Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.681Z",
+      "page": false
     }
   },
   "input_hash": "0796c294a1177dc677238efefe8c2386b199e67f",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0796c294a1177dc677238efefe8c2386b199e67f"
+  "output_hash": "fe093e8d8adf3e28400e10cc9395fa7eccaa8619ea53b93150ca7f0ce1bd3be3"
 }

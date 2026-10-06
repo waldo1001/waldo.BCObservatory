@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "953b4049f20d6e6c96783aa17997e05b21873798",
       "words": 17,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.878Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.677Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.678Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.678Z",
+      "page": false
     }
   },
   "input_hash": "953b4049f20d6e6c96783aa17997e05b21873798",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "953b4049f20d6e6c96783aa17997e05b21873798"
+  "output_hash": "bf0ec47437445c70ed03d40fe50abd299adcfe977f8ded4bfff680b217ea26a1"
 }

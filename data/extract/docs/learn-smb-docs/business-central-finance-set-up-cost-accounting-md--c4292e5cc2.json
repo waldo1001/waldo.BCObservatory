@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-cost-accounting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting",
+  "title": "Set up cost accounting",
+  "blob": "0d4316e7001f4eee7eccffaa6e02416ab14d3373",
+  "summary": "Set up cost accounting explains how to configure cost types, cost centers, and cost objects, and link them to general ledger accounts to enable cost allocation and tracking.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost accounting",
+    "cost type",
+    "cost center",
+    "cost object",
+    "allocation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Cost Types"
+    },
+    {
+      "type": "page",
+      "name": "Cost Type Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Cost Centers"
+    },
+    {
+      "type": "page",
+      "name": "Cost Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Cost Objects"
+    },
+    {
+      "type": "page",
+      "name": "Cost Object Card"
+    },
+    {
+      "type": "page",
+      "name": "Cost Accounting Setup"
+    }
+  ],
+  "features": [
+    "cost type balance",
+    "cost center dimension",
+    "cost object dimension",
+    "cost allocation",
+    "automatic cost adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

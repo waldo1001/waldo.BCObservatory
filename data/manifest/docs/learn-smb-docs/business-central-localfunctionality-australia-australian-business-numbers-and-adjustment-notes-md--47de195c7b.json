@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f",
       "words": 370,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.877Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00207
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.674Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.675Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.676Z",
+      "page": false
     }
   },
   "input_hash": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f"
+  "output_hash": "3f0018d93c49e84f221a7e14057db30558d32d5cee75fb1dcb027ad47b8832df"
 }

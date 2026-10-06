@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-review-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts",
+  "title": "Review general ledger accounts",
+  "blob": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443",
+  "summary": "Review amounts in general ledger accounts describes how to mark and track general ledger entries as reviewed using review policies and identifiers to accelerate month-end account reconciliation.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "account review",
+    "reconciliation",
+    "review policy"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Review G/L Entries"
+    }
+  ],
+  "features": [
+    "review policy",
+    "reviewed identifier",
+    "allow review",
+    "match balance",
+    "analysis mode"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

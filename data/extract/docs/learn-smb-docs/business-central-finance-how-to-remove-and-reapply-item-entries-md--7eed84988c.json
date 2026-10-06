@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-remove-and-reapply-item-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries",
+  "title": "Remove and reapply item entries",
+  "blob": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d",
+  "summary": "Remove and reapply item ledger entries covers using the Application Worksheet to manually change item applications created during inventory transactions and fix incorrect cost flows.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "item application",
+    "cost adjustment",
+    "inventory valuation",
+    "application worksheet"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Application Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "View Applied Entries"
+    }
+  ],
+  "features": [
+    "remove application",
+    "reapply entries",
+    "cost flow",
+    "average cost",
+    "automatic cost adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-use-item-cross-refs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-use-item-cross-refs",
+  "title": "Use item references",
+  "blob": "e61ac3328f0baa829768322621433b9db683d983",
+  "summary": "Item references let you map your internal item codes to vendor or customer terms, automatically populating vendor descriptions, units of measure, and variant codes on purchase and sales documents.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "item references",
+    "vendor management",
+    "customer management",
+    "barcode scanning",
+    "purchase orders",
+    "sales documents"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Reference Entries"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Item Reference"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal Line"
+    },
+    {
+      "type": "page",
+      "name": "Phys. Invt. Order Line"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "page",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "item reference mapping",
+    "vendor item descriptions",
+    "unit of measure inheritance",
+    "variant code copying",
+    "barcode scanning",
+    "mobile app support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00207,
+      "pages_in_call": 8
+    }
+  ]
+}

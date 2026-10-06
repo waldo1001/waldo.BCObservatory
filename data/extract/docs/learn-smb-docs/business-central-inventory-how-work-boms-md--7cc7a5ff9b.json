@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-work-BOMs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-BOMs",
+  "title": "Work with bills of material",
+  "blob": "635b294a5a594a037b1414c27b45b9b1544c20fb",
+  "summary": "Bills of material (BOMs) structure parent items from components for assembly or production, with assembly BOMs for simple processes and production BOMs for complex manufacturing with routings and work centers.",
+  "systems": [
+    "assembly",
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "bills of material",
+    "assembly boms",
+    "production boms",
+    "assembly orders",
+    "production orders",
+    "components"
+  ],
+  "objects": [],
+  "features": [
+    "assembly BOM structure",
+    "production BOM creation",
+    "assembly order automation",
+    "production routing",
+    "work center integration",
+    "machine center integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00207,
+      "pages_in_call": 8
+    }
+  ]
+}

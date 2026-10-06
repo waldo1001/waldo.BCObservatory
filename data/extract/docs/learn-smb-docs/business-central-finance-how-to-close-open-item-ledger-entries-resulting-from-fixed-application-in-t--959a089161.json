@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal",
+  "title": "Close item ledger entries that came from using fixed application",
+  "blob": "59f7703b14a4b52c65fe5def6d75fd32bc521c35",
+  "summary": "Closing item ledger entries from fixed application describes how to close open item entries created by fixed applications using the Item Journal, and explains that fixed applications only apply costs, not quantities.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "item ledger",
+    "fixed application",
+    "cost accounting",
+    "inventory adjustment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Journal"
+    },
+    {
+      "type": "page",
+      "name": "Application Worksheet"
+    }
+  ],
+  "features": [
+    "fixed application",
+    "applies-from entry",
+    "applies-to entry",
+    "cost forwarding",
+    "positive adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

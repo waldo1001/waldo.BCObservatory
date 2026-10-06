@@ -1,0 +1,235 @@
+{
+  "video_id": "cc6rEVDhlzs",
+  "item_id": "video/yt-microsoft/cc6rEVDhlzs",
+  "title": "Comparing Classes and Templates between Dynamics SL and Dynamics 365 Business Central",
+  "duration_s": 215,
+  "systems": [
+    "crm",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "customer templates",
+    "customer classes",
+    "default values",
+    "posting groups",
+    "dimensions",
+    "data creation",
+    "streamline setup"
+  ],
+  "chapters": [
+    {
+      "title": "Classes in Dynamics SL overview",
+      "t_start": 0,
+      "t_end": 51.4
+    },
+    {
+      "title": "Creating customers from customer classes in SL",
+      "t_start": 51.4,
+      "t_end": 81.3
+    },
+    {
+      "title": "Customer templates in Business Central basics",
+      "t_start": 81.3,
+      "t_end": 132.7
+    },
+    {
+      "title": "Configuring posting groups and dimensions in templates",
+      "t_start": 132.7,
+      "t_end": 158.5
+    },
+    {
+      "title": "Applying templates to new and existing customers",
+      "t_start": 158.5,
+      "t_end": 185.5
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 185.5,
+      "t_end": 215
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer classes in Dynamics SL",
+      "description": "Classes group similar customers together for reporting purposes and supply default settings when new records are created, including receivables price class, terms, and GL accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.5,
+      "t_end": 63.4,
+      "is_demoed": true,
+      "caveats": [
+        "Feature specific to Dynamics SL, not Business Central"
+      ],
+      "tags": [
+        "customer setup",
+        "default values",
+        "reporting",
+        "dynamics sl"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Customer templates in Business Central",
+      "description": "Templates allow streamlined setup of customers with default values for fields like credit limit, sales person, business posting group, customer posting group, and dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.3,
+      "t_end": 185.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires personalization to add specific fields to the template form"
+      ],
+      "tags": [
+        "customer templates",
+        "default values",
+        "setup",
+        "business central"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Personalization of template forms",
+      "description": "Users can personalize template forms to add fields like credit limit and sales person that are not visible by default in the template window.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.9,
+      "t_end": 116,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "personalization",
+        "templates",
+        "form configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Creating templates from existing customer cards",
+      "description": "Users can create a template from an existing customer card by copying values they want to reuse for another customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.5,
+      "t_end": 191,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "customer setup"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Applying templates to existing customers",
+      "description": "Templates can be applied to existing customers that were created before the template was available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.5,
+      "t_end": 195,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "existing customers"
+      ],
+      "system": "crm"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "customer class",
+      "t": 13.5
+    },
+    {
+      "type": "other",
+      "name": "customer templates",
+      "t": 91.8
+    },
+    {
+      "type": "other",
+      "name": "personalized form",
+      "t": 116
+    },
+    {
+      "type": "other",
+      "name": "business posting group",
+      "t": 132.7
+    },
+    {
+      "type": "other",
+      "name": "customer posting group",
+      "t": 132.7
+    },
+    {
+      "type": "other",
+      "name": "dimension",
+      "t": 142.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 13.5,
+      "text": "Classes are used to group similar customers together for reporting purposes. Classes also used to supply default settings when a new record is created.",
+      "why_it_matters": "Defines the core purpose of classes in Dynamics SL as a comparison point to Business Central templates.",
+      "check": "exact"
+    },
+    {
+      "t": 39.9,
+      "text": "In my class, you can see the default receivables price class, terms, and accounts I want to default for any customers assigned to this",
+      "why_it_matters": "Shows what specific fields can be defaulted through customer classes in SL.",
+      "check": "exact"
+    },
+    {
+      "t": 63.4,
+      "text": "Notice that the OM GL accounts are blank. Now, if we assign the region customer class, we can see the default information has been",
+      "why_it_matters": "Demonstrates how assigning a class automatically populates default values in SL.",
+      "check": "exact"
+    },
+    {
+      "t": 102.9,
+      "text": "Give the new template a name, and then start filling in the information you want to default for new or existing customers.",
+      "why_it_matters": "Explains that Business Central templates support defaulting to both new and existing customers.",
+      "check": "exact"
+    },
+    {
+      "t": 132.7,
+      "text": "Next, I'll set the default business and customer posting groups so that the correct sales and accounts receivable accounts are used for customers in",
+      "why_it_matters": "Shows that templates can configure posting groups to ensure correct account assignments.",
+      "check": "exact"
+    },
+    {
+      "t": 200.6,
+      "text": "That's a quick look at how we can use templates in Business Central to streamline data creation and improve data accuracy.",
+      "why_it_matters": "Summarizes the key benefit of templates: streamlined data creation with improved accuracy.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014031000000000002
+    }
+  ]
+}

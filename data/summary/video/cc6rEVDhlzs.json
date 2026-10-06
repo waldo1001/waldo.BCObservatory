@@ -1,0 +1,27 @@
+{
+  "video_id": "cc6rEVDhlzs",
+  "item_id": "video/yt-microsoft/cc6rEVDhlzs",
+  "summary": "Customer classes in Dynamics SL compared with customer templates in Business Central, for people moving from SL. Shows how SL classes supply default values and how BC templates default fields such as posting groups and dimensions for new and existing customers.",
+  "overview": "The video compares how Dynamics SL and Business Central set default values on customers. In SL, customer classes group similar customers for reporting and supply defaults such as receivables price class, terms and GL accounts when a record is created. The demo assigns a region customer class to a customer and shows the default information filling in.\n\nIt then shows customer templates in Business Central. A template is given a name and filled with the values to default, including business and customer posting groups and dimensions. Fields such as credit limit and sales person are not visible by default, so the template form has to be personalized to add them. Templates can be created from an existing customer card and applied to new or existing customers.",
+  "key_points": [
+    "In Dynamics SL, customer classes group similar customers for reporting and supply default settings on new records.",
+    "An SL class holds defaults such as receivables price class, terms and GL accounts for customers assigned to it.",
+    "Business Central customer templates default values for credit limit, sales person, business posting group, customer posting group and dimensions.",
+    "Credit limit and sales person are not visible in the template window by default, so personalize the form to add them.",
+    "Set business and customer posting groups in the template so the correct sales and accounts receivable accounts are used.",
+    "A template can be created from an existing customer card by copying the values to reuse.",
+    "Templates can be applied to existing customers created before the template existed."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "1cdb272b4c23bf2369eb5f65ef6907b431a9f1c47515f42cd999412ba6937f26",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0122144
+  }
+}

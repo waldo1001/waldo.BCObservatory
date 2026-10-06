@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d",
       "words": 1170,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.711Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.760Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.767Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.769Z",
+      "page": false
     }
   },
   "input_hash": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d"
+  "output_hash": "22698b37a3faa04e59f01d17f29c4a10af1ebfd7cf54b775350a7010ad355f54"
 }

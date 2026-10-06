@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d195a00231ad049f06333c401aa717771189312",
       "words": 147,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:30.385Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00286
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:30.888Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:30.889Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:30.889Z",
+      "page": false
     }
   },
   "input_hash": "6d195a00231ad049f06333c401aa717771189312",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d195a00231ad049f06333c401aa717771189312"
+  "output_hash": "9aaf7f7ce7288fb3d1121d79a767c077c97828835d795c5508f8b4e7bfb11689"
 }

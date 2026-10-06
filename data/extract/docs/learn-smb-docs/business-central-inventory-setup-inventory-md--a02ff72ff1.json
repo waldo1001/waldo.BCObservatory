@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-setup-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-setup-inventory",
+  "title": "Setting up inventory",
+  "blob": "eceb8b7e3e22e3b5c8fd1a318162fefa3b77b9ff",
+  "summary": "Inventory setup configures company policies for inventory management including locations, item cards, units of measure, stock keeping units, categories, and report selections to manage warehouse activities and costing.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "administration"
+  ],
+  "topics": [
+    "inventory setup",
+    "locations",
+    "item cards",
+    "units of measure",
+    "stock keeping units",
+    "item categorization",
+    "responsibility centers"
+  ],
+  "objects": [],
+  "features": [
+    "general inventory configuration",
+    "location management",
+    "item registration",
+    "item copying",
+    "unit of measure setup",
+    "stock keeping units",
+    "item categorization",
+    "item pictures import"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00207,
+      "pages_in_call": 8
+    }
+  ]
+}

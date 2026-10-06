@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-currencies",
+  "title": "Currencies in Business Central",
+  "blob": "12f69d005184049026b4f522f60489c3bf793c6f",
+  "summary": "Currencies in Business Central explains how to specify currency codes, exchange rates, and settings needed for multi-currency transactions and foreign exchange operations.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "currency",
+    "exchange rates",
+    "foreign currency",
+    "multi-currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    }
+  ],
+  "features": [
+    "currency codes",
+    "exchange rates",
+    "FX rates",
+    "local currency value calculation",
+    "additional reporting currency"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

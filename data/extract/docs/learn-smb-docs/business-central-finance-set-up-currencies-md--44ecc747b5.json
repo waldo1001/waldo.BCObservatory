@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-currencies",
+  "title": "Set up currencies",
+  "blob": "90fc5b22a7890acb12eddcddf482905ae521b1ea",
+  "summary": "Set up currencies details how to define currency codes, exchange rates, rounding rules, and accounts for realized and unrealized exchange gains and losses.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "currency setup",
+    "exchange rate",
+    "rounding",
+    "foreign currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    }
+  ],
+  "features": [
+    "currency code",
+    "ISO code",
+    "rounding precision",
+    "decimal places",
+    "payment tolerance",
+    "currency factor",
+    "exchange rate adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004222,
+      "pages_in_call": 8
+    }
+  ]
+}

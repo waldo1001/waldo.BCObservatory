@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "968867bc9114fe1a220bd667fd45419353a6769c",
       "words": 1105,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.813Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.814Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.815Z",
+      "page": false
     }
   },
   "input_hash": "968867bc9114fe1a220bd667fd45419353a6769c",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "968867bc9114fe1a220bd667fd45419353a6769c"
+  "output_hash": "3b6a6fe089440abb33a3232ba757fdb2957c029a6281f1a7be3e387d6953870c"
 }

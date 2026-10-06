@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/addresses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses",
+  "title": "Addresses in Australia",
+  "blob": "6c6ab11a693b410c7e4a85ae752e18c4a581096c",
+  "summary": "Australian address functionality handles postal codes that cover multiple cities and cities with same names in different states by providing dropdown lists for city and state selection to improve address accuracy.",
+  "systems": [
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "addresses",
+    "australia",
+    "postal codes",
+    "dpid",
+    "bar codes",
+    "amas"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Post Code"
+    }
+  ],
+  "features": [
+    "postal code validation",
+    "city dropdown selection",
+    "state dropdown selection",
+    "delivery point identifier",
+    "barcode printing",
+    "address matching approval system"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00207,
+      "pages_in_call": 8
+    }
+  ]
+}

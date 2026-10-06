@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0d4316e7001f4eee7eccffaa6e02416ab14d3373",
       "words": 2255,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.717Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.806Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.808Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.809Z",
+      "page": false
     }
   },
   "input_hash": "0d4316e7001f4eee7eccffaa6e02416ab14d3373",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0d4316e7001f4eee7eccffaa6e02416ab14d3373"
+  "output_hash": "17c6add32daa4132fab293731ecf20b795cede09496d18a649695669ea493603"
 }

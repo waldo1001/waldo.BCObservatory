@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443",
       "words": 687,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:32.715Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:32.800Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:32.802Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:32.804Z",
+      "page": false
     }
   },
   "input_hash": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443"
+  "output_hash": "e2d5767c8c506d3818e7e8cdd1db73c6ad423c5af23f06f98373354b12c72b59"
 }

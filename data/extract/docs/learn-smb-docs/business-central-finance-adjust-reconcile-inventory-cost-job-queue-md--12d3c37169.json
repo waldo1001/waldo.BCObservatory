@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-adjust-reconcile-inventory-cost-job-queue.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-adjust-reconcile-inventory-cost-job-queue",
+  "title": "Schedule jobs for adjusting & reconciling inventory cost",
+  "blob": "fa008c22d1f8fd10a3793c08f7d664288c30d12f",
+  "summary": "Scheduling background jobs for automatic inventory cost adjustment and general ledger reconciliation in Business Central using job queue entries to improve performance and reduce application load.",
+  "systems": [
+    "inventory",
+    "finance",
+    "platform"
+  ],
+  "topics": [
+    "job queue",
+    "inventory cost",
+    "cost adjustment",
+    "batch jobs",
+    "background processing",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Adjust Cost - Item Entries"
+    },
+    {
+      "type": "codeunit",
+      "name": "Post Inventory Cost to G/L"
+    }
+  ],
+  "features": [
+    "automatic cost adjustment",
+    "job queue scheduling",
+    "inventory cost posting",
+    "assisted setup",
+    "general ledger reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00286,
+      "pages_in_call": 8
+    }
+  ]
+}
