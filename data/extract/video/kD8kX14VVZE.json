@@ -1,0 +1,381 @@
+{
+  "video_id": "kD8kX14VVZE",
+  "item_id": "video/yt-microsoft/kD8kX14VVZE",
+  "title": "What's New in Sustainability: Reporting for CBAM and EPR",
+  "duration_s": 947,
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "cbam",
+    "epr",
+    "carbon pricing",
+    "emissions tracking",
+    "excise taxes",
+    "material composition",
+    "compliance reporting",
+    "european union regulations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to CBAM and EPR compliance topics",
+      "t_start": 0,
+      "t_end": 77.7
+    },
+    {
+      "title": "Business value of CBAM and EPR functionality",
+      "t_start": 77.7,
+      "t_end": 123
+    },
+    {
+      "title": "Framework and prerequisites overview",
+      "t_start": 123,
+      "t_end": 175.4
+    },
+    {
+      "title": "Setup requirements for CBAM and EPR",
+      "t_start": 175.4,
+      "t_end": 225.9
+    },
+    {
+      "title": "CBAM carbon pricing table setup",
+      "t_start": 225.9,
+      "t_end": 335.7
+    },
+    {
+      "title": "CBAM item configuration and emissions",
+      "t_start": 335.7,
+      "t_end": 412
+    },
+    {
+      "title": "CBAM purchase invoice posting and excise journal calculation",
+      "t_start": 412,
+      "t_end": 557.6
+    },
+    {
+      "title": "EPR materials and item material composition setup",
+      "t_start": 557.6,
+      "t_end": 722.9
+    },
+    {
+      "title": "EPR sales invoice posting and excise journal processing",
+      "t_start": 722.9,
+      "t_end": 823
+    },
+    {
+      "title": "Transaction logs review and closing remarks",
+      "t_start": 823,
+      "t_end": 947
+    }
+  ],
+  "features": [
+    {
+      "name": "Carbon Border Adjustment Mechanism (CBAM) reporting",
+      "description": "Compliance functionality for tracking carbon-priced purchases from outside the EU and calculating CBAM obligations. Applies to purchase documents and integrates with the excise tax framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22,
+      "t_end": 542.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires carbon pricing setup per country",
+        "Only applies to CBAM-compliant items",
+        "Applies only to purchases above the threshold"
+      ],
+      "tags": [
+        "cbam",
+        "carbon pricing",
+        "emissions",
+        "compliance",
+        "purchase",
+        "excise taxes"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Extended Producer Responsibility (EPR) reporting",
+      "description": "Environmental policy compliance feature tracking producer accountability for entire product lifecycle including collection, recycling, and disposal. Applies to sales documents and requires material composition tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 48.1,
+      "t_end": 851.1,
+      "is_demoed": true,
+      "caveats": [
+        "Not applicable to all items",
+        "Requires EPR category assignment",
+        "Requires material composition setup"
+      ],
+      "tags": [
+        "epr",
+        "extended producer responsibility",
+        "material composition",
+        "sales",
+        "lifecycle",
+        "compliance"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Carbon pricing table",
+      "description": "New table and page for setting up carbon prices by country, including starting date, ending date, unit of measure, price per unit, and threshold values for CBAM reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175.4,
+      "t_end": 321.4,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured per country for accurate tracking",
+        "Requires threshold setup to avoid reporting small amounts"
+      ],
+      "tags": [
+        "carbon pricing",
+        "cbam",
+        "setup",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "EPR materials table",
+      "description": "New table listing all materials required to be tracked under EPR regulations. Contains material name, unit of measure, EPR fee, and verification date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 557.6,
+      "t_end": 584.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "epr",
+        "materials",
+        "setup",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Item material composition page",
+      "description": "New page similar to bill of materials for configuring EPR material composition. Allows specification of EPR materials, weights per unit of measure, and associated fees for items subject to EPR.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 197,
+      "t_end": 722.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires EPR category to be set on item",
+        "Status must be changed from new to certified",
+        "Optional calculation fee and sorting fee fields available"
+      ],
+      "tags": [
+        "epr",
+        "material composition",
+        "bom-like",
+        "setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Excise taxes framework for CBAM and EPR",
+      "description": "New framework for calculating and tracking sustainability compliance taxes. Provides foundation for CBAM and EPR calculations with specialized batch types and calculation logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 133.9,
+      "t_end": 163.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires separate batch setup for CBM and EPR",
+        "Manual batch creation needed for each type"
+      ],
+      "tags": [
+        "excise taxes",
+        "framework",
+        "cbam",
+        "epr",
+        "calculation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sustainability fast tab on item card",
+      "description": "New tab on item card containing sustainability-related fields including sustainability account, carbon emissions, EPR category, material composition, end of life disposal information, and emission verification status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 335.7,
+      "t_end": 747.4,
+      "is_demoed": true,
+      "caveats": [
+        "Minimum requirement is to have carbon emissions set for CBAM items",
+        "End of life disposal information is not mandatory but recommended for reporting"
+      ],
+      "tags": [
+        "item setup",
+        "sustainability",
+        "emissions",
+        "epr",
+        "cbam"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Excise transaction logs for CBAM and EPR",
+      "description": "Journal and transaction log system for recording and reviewing all CBAM and EPR calculations. Tracks source type, compliance status, emissions data, and enables export for reporting purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 531.6,
+      "t_end": 882.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excise taxes",
+        "transaction logs",
+        "reporting",
+        "cbam",
+        "epr"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Emission verification and CBAM compliance flags",
+      "description": "Item-level configuration options to mark whether carbon emissions are verified and whether an item is CBAM-compliant. Only CBAM-compliant items are used in CBAM calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366.2,
+      "t_end": 392,
+      "is_demoed": true,
+      "caveats": [
+        "Only CBAM-compliant items are calculated",
+        "Verification status is important for audit trail"
+      ],
+      "tags": [
+        "cbam",
+        "emissions",
+        "compliance",
+        "item setup",
+        "verification"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Carbon pricing table",
+      "t": 175.4
+    },
+    {
+      "type": "page",
+      "name": "Carbon pricing page",
+      "t": 175.4
+    },
+    {
+      "type": "table",
+      "name": "EPR materials",
+      "t": 186.1
+    },
+    {
+      "type": "page",
+      "name": "Item material composition",
+      "t": 197
+    },
+    {
+      "type": "page",
+      "name": "Excise journal",
+      "t": 450.4
+    },
+    {
+      "type": "page",
+      "name": "Excise transaction logs",
+      "t": 531.6
+    },
+    {
+      "type": "page",
+      "name": "Sustainability fast tab",
+      "t": 335.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22,
+      "text": "CBM is carbon border adjustment mechanism",
+      "why_it_matters": "Defines the regulatory context for CBAM functionality introduced in this release",
+      "check": "exact"
+    },
+    {
+      "t": 145.1,
+      "text": "first two calculation we introduced were uh CBM and EPR based on a set some set of specific rules for calculations",
+      "why_it_matters": "Confirms that both CBAM and EPR are now generally available features in this release",
+      "check": "exact"
+    },
+    {
+      "t": 175.4,
+      "text": "you need to set up first setup uh carbon pricing table new table new page you will find",
+      "why_it_matters": "Indicates new infrastructure components added to support CBAM functionality",
+      "check": "exact"
+    },
+    {
+      "t": 225.9,
+      "text": "CBM applies to purchase documents and on other side EPR applies to sales documents",
+      "why_it_matters": "Establishes the scope and applicability of both compliance features across document types",
+      "check": "exact"
+    },
+    {
+      "t": 507.9,
+      "text": "system will first uh look if there is country of a region of item. If there is country of a region on item card",
+      "why_it_matters": "Details the system logic for determining country of origin for CBAM calculations",
+      "check": "exact"
+    },
+    {
+      "t": 595.1,
+      "text": "it doesn't apply to all item types. If this is packaging or electronics, so it depends what is about",
+      "why_it_matters": "Clarifies that EPR requirements are selective and dependent on item category",
+      "check": "exact"
+    },
+    {
+      "t": 894.9,
+      "text": "this is something what is really mandatory by many regulations especially European Union. So this is good you can automate",
+      "why_it_matters": "Explains the regulatory mandate driving the feature and emphasizes automation benefits",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029271
+    }
+  ]
+}

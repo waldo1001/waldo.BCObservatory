@@ -1,0 +1,27 @@
+{
+  "video_id": "BlkW7VC52c0",
+  "item_id": "video/yt-bcmusings/BlkW7VC52c0",
+  "summary": "Two built-in ways to copy table data between companies in Business Central as of October 2025: Master Data Management Setup (pull strategy, generally available) and the Configuration Worksheet \"Copy Data from Company\" action. Covers setup, demos with a custom table and trade-offs.",
+  "overview": "The video covers copying data from one company into another, such as specific tables from company A into company B. It does not cover duplicating a whole company. It shows two methods already in the base application as of October 2025.\n\nThe first is Master Data Management Setup, which pulls data from a source company into a target company using job queues. The second is the Configuration Worksheet, where a Copy Data from Company action is run by the user. The speaker also explains why configuration packages were dropped on large tables, and mentions a custom-built copy solution he used about 10 years ago.",
+  "key_points": [
+    "Master Data Management Setup uses a pull strategy: the target company pulls data from the source company.",
+    "You choose which tables and which fields to synchronize, and can validate fields in the target company.",
+    "It works for custom tables and for base application tables such as item and vendor.",
+    "Larger tables such as customer prompt you about synchronizing related tables. Processing runs through job queues.",
+    "Configuration Worksheet has a Copy Data from Company action under Prepare. It is user-initiated, not job queue based.",
+    "Configuration packages caused data corruption on bigger tables with many validations, so the team looked for more stable options.",
+    "A custom-built copy solution is possible but needs development effort and is not part of the base application."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "0445580c681f43cdb2b3d3151817f476a04b54652dd1015bd4097eaa9b90a6df",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0127824
+  }
+}

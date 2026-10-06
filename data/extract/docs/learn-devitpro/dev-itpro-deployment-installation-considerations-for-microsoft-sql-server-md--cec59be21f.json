@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/installation-considerations-for-microsoft-sql-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/installation-considerations-for-microsoft-sql-server",
+  "title": "Installation considerations for Microsoft SQL Server and Business Central",
+  "blob": "c5fed69dcacadb86a0ac87ec77e2af3a9c99cc9e",
+  "summary": "Installation considerations for SQL Server with Business Central documents storage, virus scanning, memory requirements, component selection, setup options, database configuration, and high availability setup for both on-premises and Azure deployments.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "sql server",
+    "installation",
+    "configuration",
+    "performance",
+    "backup",
+    "database",
+    "azure"
+  ],
+  "objects": [],
+  "features": [
+    "Disk partitioning",
+    "Virus scanning",
+    "TempDB configuration",
+    "Full-text search",
+    "MAXDOP settings",
+    "Statistics management",
+    "Index fragmentation",
+    "Data encryption"
+  ],
+  "versions": [
+    "2024 release wave 2",
+    "25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007392,
+      "pages_in_call": 8
+    }
+  ]
+}

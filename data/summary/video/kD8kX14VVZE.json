@@ -1,0 +1,27 @@
+{
+  "video_id": "kD8kX14VVZE",
+  "item_id": "video/yt-microsoft/kD8kX14VVZE",
+  "summary": "Business Central sustainability reporting for CBAM (applied to purchase documents) and EPR (applied to sales documents), built on a new excise taxes framework. Demonstrates carbon pricing setup, item sustainability configuration, material composition, excise journals and transaction logs.",
+  "overview": "The video walks through the sustainability compliance functionality for two EU-driven requirements: the Carbon Border Adjustment Mechanism (CBAM) and Extended Producer Responsibility (EPR). It covers the business value, the prerequisites and the setup, then demonstrates each scenario end to end.\n\nFor CBAM, the demo sets up a carbon pricing table, configures an item with carbon emissions, posts a purchase invoice and calculates in the excise journal. For EPR, it sets up EPR materials and item material composition, posts a sales invoice and processes the excise journal. It closes with a review of the excise transaction logs.",
+  "key_points": [
+    "CBAM applies to purchase documents and EPR applies to sales documents; both run on the new excise taxes framework.",
+    "CBAM needs a carbon pricing table set up per country, with start and end dates, unit of measure, price per unit and a threshold so small amounts are not reported.",
+    "Only items flagged as CBAM-compliant are calculated, and carbon emissions must be set on the item as the minimum requirement; emission verification status supports the audit trail.",
+    "CBAM and EPR each need a separately, manually created batch in the excise journal.",
+    "EPR does not apply to all item types. The item needs an EPR category and a material composition, and the composition status must change from new to certified.",
+    "The EPR materials table holds material name, unit of measure, EPR fee and verification date. The item material composition page works like a bill of materials.",
+    "The excise transaction logs record CBAM and EPR calculations, including source type and compliance status, and can be exported for reporting."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "7ec28c5bd57b10671913129b775bb366f7edad11c11018918bea6189e7340065",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017322399999999998
+  }
+}

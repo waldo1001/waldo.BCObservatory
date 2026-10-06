@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=oFG9gBkd2NU",
   "published_at": "2025-10-03T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:08.246Z",
+      "path": "data/extract/video/oFG9gBkd2NU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.037362
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:14.451Z",
+      "path": "data/summary/video/oFG9gBkd2NU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0139004
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:14.453Z",
+      "systems": [
+        "copilot",
+        "development",
+        "integration"
+      ],
+      "topics": 7,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:22:14.465Z",
+      "path": "content/videos/oFG9gBkd2NU.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-03 - BCLE - What's New： Enhancements to Chat with Copilot (2025 release wave 2) [oFG9gBkd2NU].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "bd37af226925be3af2db28ea8459f08b2fb370210ccb1a57ff3a264ef52cb583"
 }

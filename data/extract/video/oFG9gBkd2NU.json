@@ -1,0 +1,257 @@
+{
+  "video_id": "oFG9gBkd2NU",
+  "item_id": "video/yt-microsoft/oFG9gBkd2NU",
+  "title": "What's New: Enhancements to Chat with Copilot (2025 release wave 2)",
+  "duration_s": 428,
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "copilot chat",
+    "third-party extensions",
+    "bing search",
+    "documentation",
+    "ai safety",
+    "partner extensions",
+    "help content"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Chat Enhancements",
+      "t_start": 0,
+      "t_end": 50.2
+    },
+    {
+      "title": "Overview of Third-Party Documentation Integration",
+      "t_start": 50.2,
+      "t_end": 102.5
+    },
+    {
+      "title": "Demo - Enabling Bing Search and Getting Extension Answers",
+      "t_start": 102.5,
+      "t_end": 172.6
+    },
+    {
+      "title": "Demo - Using Copilot for Task Guidance in Extensions",
+      "t_start": 172.6,
+      "t_end": 238.6
+    },
+    {
+      "title": "Demo - Field Help and Targeted Content from Extensions",
+      "t_start": 238.6,
+      "t_end": 314.6
+    },
+    {
+      "title": "Setup Instructions and Summary",
+      "t_start": 314.6,
+      "t_end": 353.4
+    },
+    {
+      "title": "Safety, Data, and Cost Questions",
+      "t_start": 353.4,
+      "t_end": 428
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Chat with Third-Party Documentation",
+      "description": "Copilot can now answer user questions using documentation from installed third-party add-ons and partner extensions, broadening its knowledge beyond Microsoft Learn documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.5,
+      "t_end": 50.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires one-step setup enabling Bing search on copilot and agent capabilities page",
+        "PTE extensions require documentation provided within help URL"
+      ],
+      "tags": [
+        "third-party extensions",
+        "documentation",
+        "bing search",
+        "partner integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bing Search Integration for Copilot",
+      "description": "Administrators can enable Bing search on the copilot and agent capabilities page, allowing Copilot to automatically search relevant partner extension documentation to support users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.5,
+      "t_end": 204,
+      "is_demoed": true,
+      "caveats": [
+        "Works out of the box with only one step setup",
+        "No extra configuration needed",
+        "Works automatically for apps source extensions that have provided link to their documentation"
+      ],
+      "tags": [
+        "bing search",
+        "setup",
+        "out-of-the-box"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Extension-Specific Help Content",
+      "description": "Partners can provide targeted help content in their documentation to address commonly asked questions, allowing users to be unblocked by Copilot without contacting support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.2,
+      "t_end": 314.6,
+      "is_demoed": true,
+      "caveats": [
+        "Content must be formatted to be readable for users on partner website",
+        "Copilot picks up content from structured documentation"
+      ],
+      "tags": [
+        "extension documentation",
+        "help content",
+        "partner content"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Safety and Data Handling",
+      "description": "Inputs and outputs go through various checks for safety from security standpoint and to reduce AI harms. Bing service is in the US with data not stored longer than a day. Copilot can connect to web but web cannot connect to Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.4,
+      "t_end": 391.6,
+      "is_demoed": false,
+      "caveats": [
+        "Data goes to Bing service in the US",
+        "Data not stored longer than a day",
+        "One-way connection only"
+      ],
+      "tags": [
+        "safety",
+        "data handling",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot with Bing Search - No Additional Cost",
+      "description": "Using Bing Search within Copilot Chat does not cost more and incurs no one-time or service costs when using Bing Search within Copilot Chat in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.6,
+      "t_end": 403.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "cost",
+        "bing search"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "fabric project management",
+      "t": 62.1
+    },
+    {
+      "type": "other",
+      "name": "copilot and agent capabilities page",
+      "t": 90.5
+    },
+    {
+      "type": "other",
+      "name": "FPM project viewer permission set",
+      "t": 301.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Julia",
+      "confidence": "high"
+    },
+    {
+      "name": "Eritton",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.5,
+      "text": "Copilot can answer users question using documentation from installed thirdparty add-ons, meaning that it broadened it knowledge from just Microsoft learn to now also",
+      "why_it_matters": "This describes the core new capability - Copilot can now access third-party extension documentation, not just Microsoft Learn.",
+      "check": "exact"
+    },
+    {
+      "t": 36.2,
+      "text": "It works out of the box with only one step setup enabling Bing search. No extra configuration needed.",
+      "why_it_matters": "Highlights the ease of implementation - just one step to enable Bing search, making this accessible to administrators.",
+      "check": "exact"
+    },
+    {
+      "t": 204,
+      "text": "as of release wave 2 now um copilot chat will be able to draw content from the bing index",
+      "why_it_matters": "Confirms the release timing and that this feature is generally available in wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 328.7,
+      "text": "starting this wave, administrators can turn on enable Bing search switch on copilot and agent capabilities page to get this enabled out of the",
+      "why_it_matters": "Clear action item for administrators and confirms availability in this wave.",
+      "check": "exact"
+    },
+    {
+      "t": 339.6,
+      "text": "It will work for automatically for apps source extensions that had provided link to their documentation. And if you install a PTE extension, you",
+      "why_it_matters": "Explains the requirements for different extension types and how documentation must be provided.",
+      "check": "exact"
+    },
+    {
+      "t": 366.5,
+      "text": "Copilot can connect to the web. However, the web cannot connect to the copilot.",
+      "why_it_matters": "Addresses security concerns by clarifying that the connection is one-way only.",
+      "check": "exact"
+    },
+    {
+      "t": 380.4,
+      "text": "The Bing service is in the US and the data is uh goes to there and is not stored for longer than a day.",
+      "why_it_matters": "Clarifies data handling and residency for compliance and privacy considerations.",
+      "check": "exact"
+    },
+    {
+      "t": 403.7,
+      "text": "Using Bing Search within Copilot Chat does not cost more and you do not incur any one-time or service costs when using Bing Search",
+      "why_it_matters": "Confirms there are no additional licensing or usage costs for this new capability.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0373623
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "KmuTVkodRXM",
+  "item_id": "video/yt-bcmusings/KmuTVkodRXM",
+  "summary": "AL namespace additions in Business Central 2025 wave 2 (BC27): a new AL namespace field on the All Objects with Captions table, Record ID formatting with format type 9 to show the namespace, and evaluating a Record ID against a fully qualified namespace. All three are demoed.",
+  "overview": "The video compares BC26 and BC27 and shows that the All Objects with Captions table now has an AL namespace field. It is a Text 500 field. It is not visible on page 9174 in the base application, but the page is extensible, so it can be shown through a page extension. The demo also covers the System Reflection namespace, which the table belongs to, and analysis mode.\n\nThe second half covers Record ID. A Record ID can be formatted with format type 9 to show the fully qualified AL namespace of its record, and it can be evaluated against a fully qualified name such as Microsoft Sales Customer to test which namespace a record belongs to.",
+  "key_points": [
+    "BC27 adds a Text 500 field called AL namespace to the All Objects with Captions table.",
+    "The field is not shown on page 9174 in the base application; the page is extensible, so add the field with a page extension.",
+    "The All Objects with Captions table is in the System Reflection namespace.",
+    "Formatting a Record ID with format type 9 returns the fully qualified AL namespace of the record.",
+    "A Record ID can be evaluated against a fully qualified namespace to test whether a record belongs to it.",
+    "The example fully qualified name for Customer is Microsoft Sales Customer."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "977358dd34f0a476b661f805e1d4124fad2e964898e51599748444c762bea226",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011748399999999999
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "video_id": "9g1vwaXmy2s",
+  "item_id": "video/yt-microsoft/9g1vwaXmy2s",
+  "title": "What's Cooking in Business Central: Financial Report Scheduling",
+  "duration_s": 199,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial report scheduling",
+    "recurring schedules",
+    "export to excel",
+    "export to pdf",
+    "email delivery",
+    "report inbox",
+    "custom filters",
+    "date filters"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Financial Report Scheduling",
+      "t_start": 0,
+      "t_end": 26.2
+    },
+    {
+      "title": "Accessing the Schedules Page",
+      "t_start": 26.2,
+      "t_end": 54
+    },
+    {
+      "title": "Schedule Configuration Basics",
+      "t_start": 54,
+      "t_end": 101.3
+    },
+    {
+      "title": "Email Delivery and Report Inbox",
+      "t_start": 101.3,
+      "t_end": 144.2
+    },
+    {
+      "title": "Custom Filters and Report Options",
+      "t_start": 144.2,
+      "t_end": 173.9
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 173.9,
+      "t_end": 199
+    }
+  ],
+  "features": [
+    {
+      "name": "Financial Report Scheduling",
+      "description": "A new feature that allows users to send financial reports automatically on a recurring schedule. Reports can be exported to Excel, PDF, and emailed to nominated recipients based on a configured schedule.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 6.2,
+      "t_end": 187.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "automation",
+        "financial reports",
+        "recurring"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Export to Excel and PDF",
+      "description": "The ability to automatically export financial reports to both Excel and PDF formats as part of the scheduled delivery. Reports are sent to the report inbox in both formats.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 66.2,
+      "t_end": 77.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "excel",
+        "pdf",
+        "formats"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Email Delivery to Recipients",
+      "description": "Financial reports can be automatically emailed to nominated recipients as part of the scheduled delivery. Users select specific recipients to receive the scheduled reports.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 77.8,
+      "t_end": 108.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email",
+        "recipients",
+        "delivery"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Scheduling Controls",
+      "description": "The next run date time field allows selecting when the report will first be sent, and the recurrence run date formula determines the cadence following that. This enables flexible scheduling of recurring reports.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 87.4,
+      "t_end": 101.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "recurrence",
+        "date formula"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Inbox and Logs",
+      "description": "Users receive scheduled reports in their report inbox which can be accessed using the logs action. This provides a central location to view all sent reports.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 123,
+      "t_end": 144.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report inbox",
+        "logs",
+        "delivery history"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Custom Filters for Schedules",
+      "description": "Reporting options and filters can be set up that are specific to each schedule using custom filters. This allows different configurations for different scheduled instances of the same report.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 144.2,
+      "t_end": 173.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom filters",
+        "reporting options"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Date Filter Formulas",
+      "description": "Start and end date filter formulas can be applied to a financial report schedule, allowing selection of a date filter different to the default date filter on the financial report.",
+      "status": "announced",
+      "status_evidence_t": 187.9,
+      "status_evidence_quote": "when it releases in the near future",
+      "status_evidence_verified": true,
+      "t_start": 173.9,
+      "t_end": 187.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date filters",
+        "formulas"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "financial reports",
+      "t": 26.2
+    },
+    {
+      "type": "other",
+      "name": "cash flow report",
+      "t": 26.2
+    },
+    {
+      "type": "page",
+      "name": "financial report schedules",
+      "t": 39.8
+    },
+    {
+      "type": "page",
+      "name": "report inbox",
+      "t": 123
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eusen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "This feature will let you send financial reports automatically on a recurring schedule.",
+      "why_it_matters": "Defines the core capability and value proposition of the financial report scheduling feature.",
+      "check": "exact"
+    },
+    {
+      "t": 39.8,
+      "text": "Under definitions, you'll find a new schedules action. This will take us to the new financial report schedules page",
+      "why_it_matters": "Identifies the UI location and navigation path to access the new feature within Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 54,
+      "text": "Here I have created a setup that will send out the cash flow report on a monthly basis.",
+      "why_it_matters": "Demonstrates a concrete use case with monthly recurring scheduling capability.",
+      "check": "exact"
+    },
+    {
+      "t": 87.4,
+      "text": "The next run date time field lets me select when the report will be first sent and the recurrence run date formula will determine",
+      "why_it_matters": "Explains the key scheduling controls and how users configure report timing and recurrence.",
+      "check": "exact"
+    },
+    {
+      "t": 144.2,
+      "text": "Additionally, you can set up reporting options and filters that are specific to each schedule using custom filters.",
+      "why_it_matters": "Highlights the flexibility to customize reports per schedule rather than using a one-size-fits-all approach.",
+      "check": "exact"
+    },
+    {
+      "t": 187.9,
+      "text": "I hope you go and give financial report scheduling a try when it releases in the near future.",
+      "why_it_matters": "Indicates the feature status as announced and coming soon but not yet available.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 187.9,
+      "kind": "coming-later",
+      "text": "when it releases in the near future"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 7,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014513
+    }
+  ]
+}

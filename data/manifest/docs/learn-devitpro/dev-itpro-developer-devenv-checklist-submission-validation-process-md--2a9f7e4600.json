@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-validation-process",
   "published_at": "2026-06-02T11:42:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5036dfbfa94f1c7b89ebc12746980ebb530fa44b",
       "words": 2579,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:34.757Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007392
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:34.777Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:34.778Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:22:34.779Z",
+      "page": false
     }
   },
   "input_hash": "5036dfbfa94f1c7b89ebc12746980ebb530fa44b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5036dfbfa94f1c7b89ebc12746980ebb530fa44b"
+  "output_hash": "a775391031fc1cf481f781ab3b5c023888e77fa797e629dd14f7787c8b203dc2"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide",
   "published_at": "2026-06-02T11:42:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "398d1a6ec95d531b96138d622d2442c7084be760",
       "words": 2261,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:34.755Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007392
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:34.771Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:34.772Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:22:34.773Z",
+      "page": false
     }
   },
   "input_hash": "398d1a6ec95d531b96138d622d2442c7084be760",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "398d1a6ec95d531b96138d622d2442c7084be760"
+  "output_hash": "c8f60598d6b95a569aa9158a84d1d9b213590088180b61de0e75d69f3c9ebe5d"
 }

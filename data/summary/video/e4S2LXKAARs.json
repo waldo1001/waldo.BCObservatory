@@ -1,0 +1,27 @@
+{
+  "video_id": "e4S2LXKAARs",
+  "item_id": "video/yt-areopa/e4S2LXKAARs",
+  "summary": "AI-assisted test plan generation from requirements, shown by 4PS and a partner in an Areopa webinar. It covers the test plan method, structured system prompts, and VS Code with an Azure DevOps MCP server, and it says AI output is a draft that testers review.",
+  "overview": "The webinar starts with what a test plan is and why 4PS writes one from requirements before coding. It lists all user scenarios, split into sunny-path (positive) and rainy-path (negative), so reviewers can confirm nothing is missing. The manual process takes time, and the size of the requirements affects how much.\n\nThe presenters then show how AI can generate a first draft. They use a structured system prompt with five parts: instructions, steps, format requirements, examples and notes. In Visual Studio Code, an MCP server connects the model to Azure DevOps, and a prompt file is run with a slash command such as /create test plan. Domain experts review the output and the prompt is refined over several rounds. The talk ends with plans to distribute the prompts through a VS Code extension.",
+  "key_points": [
+    "A test plan lists all user scenarios from the requirements before coding. Once reviewers agree on the list, they know no scenario is missing.",
+    "Structure the system prompt with instructions, steps, format requirements, examples and notes. Without structure, running the same prompt again gives different results.",
+    "Language models cannot reach Azure DevOps on their own. An MCP server acts as a toolbox that lets the model read requirements in VS Code.",
+    "Output quality depends on the user stories. If a requirement lacks detail, the AI may make content up.",
+    "The first prompt will give poor results. Refine it through dialogue and expert feedback, for example by asking for one line per user action and no 'attempts to' wording.",
+    "A prompt file can be run with a slash command like /create test plan, so testers need not be prompt engineers. A central team maintains the prompts.",
+    "The suggested rollout has three stages: keep prompts in the project, move them to user settings, then distribute updates with a VS Code extension, which is still being planned."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "decision maker"
+  ],
+  "extraction_hash": "cd0d2c2f4aca23ccb9d55dfa46487912a425e2be9781fe96ad983e431a372a3a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.026448400000000004
+  }
+}

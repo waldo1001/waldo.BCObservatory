@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=qYW5wo0fKgA",
   "published_at": "2025-10-10T07:34:23.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,39 @@
       "words": 278,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:21:21.636Z",
+      "path": "data/extract/video/qYW5wo0fKgA.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.01157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:21:27.671Z",
+      "path": "data/summary/video/qYW5wo0fKgA.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.011088399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T18:21:27.672Z",
+      "systems": [
+        "platform",
+        "administration"
+      ],
+      "topics": 7,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:21:27.683Z",
+      "path": "content/videos/qYW5wo0fKgA.md"
     }
   },
   "input_hash": null,
@@ -42,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38c024aaf6c93215d8dd5bba630c012ad38f97d5ad3633c44907dea245b4f992"
+  "output_hash": "1039431d0e104d679b02d3de0b5df2d3ff691816f4b5a49e374e4a8c2ed7c796"
 }

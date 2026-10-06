@@ -1,0 +1,187 @@
+{
+  "video_id": "uCJ48biqLf8",
+  "item_id": "video/yt-bcmusings/uCJ48biqLf8",
+  "title": "FieldExist() and Field() get a text overload",
+  "duration_s": 700,
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "field functions",
+    "table extensions",
+    "recordref",
+    "fieldref",
+    "text parameters",
+    "overloaded functions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Business Central Musings",
+      "t_start": 0,
+      "t_end": 47
+    },
+    {
+      "title": "Overview of FieldExist and Field overloads",
+      "t_start": 47,
+      "t_end": 135
+    },
+    {
+      "title": "Use case - accessing table extension fields",
+      "t_start": 135,
+      "t_end": 221
+    },
+    {
+      "title": "Traditional approach with field IDs",
+      "t_start": 221,
+      "t_end": 373.7
+    },
+    {
+      "title": "New text overload functions in latest compiler",
+      "t_start": 373.7,
+      "t_end": 473
+    },
+    {
+      "title": "Demo setup and code examples",
+      "t_start": 473,
+      "t_end": 537.9
+    },
+    {
+      "title": "Demo execution with field ID and field name",
+      "t_start": 537.9,
+      "t_end": 630.2
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 630.2,
+      "t_end": 700
+    }
+  ],
+  "features": [
+    {
+      "name": "FieldExist() text overload",
+      "description": "New overloaded version of FieldExist function that accepts a field name as text parameter instead of just integer field ID. Allows checking if a field exists by name rather than by numeric ID.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.1,
+      "t_end": 410.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fieldexist",
+        "text overload",
+        "field functions",
+        "field names"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Field() text overload",
+      "description": "New overloaded version of the Field function on RecordRef that accepts a field name as text parameter. Returns a FieldRef for the named field, enabling method chaining with the Value function.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 410.2,
+      "t_end": 459.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "field",
+        "text overload",
+        "fieldref",
+        "field names"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Accessing table extension fields via text parameters",
+      "description": "Use case for the new overloads enabling developers to access fields from third-party table extensions without knowing field IDs, using field names instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.3,
+      "t_end": 373.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires knowing the field name as a string"
+      ],
+      "tags": [
+        "table extensions",
+        "third-party fields",
+        "field access",
+        "developers"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 87.1
+    },
+    {
+      "type": "codeunit",
+      "name": "get value via field ID / get value via field name",
+      "t": 505.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Business Central Musings host",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 59.5,
+      "text": "in fact existing functions but microsoft created overloaded versions of these functions",
+      "why_it_matters": "Clarifies that FieldExist and Field are not new functions but new overloads of existing functions, important for developer understanding of the feature.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 167.7,
+      "text": "how can we get the value of a field that's not in the base application, but it's a field that belongs to a table",
+      "why_it_matters": "Defines the key use case that motivated these new overloads - accessing third-party extension fields without knowing numeric IDs.",
+      "check": "exact"
+    },
+    {
+      "t": 385.1,
+      "text": "with the latest release though we have uh an overloaded version of the field exist function and field exist as you can see here",
+      "why_it_matters": "Confirms that FieldExist text overload is available in the latest AL compiler release with changed functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 410.2,
+      "text": "And not only field exist but also field has an overloaded version. We can now pass to field a field name.",
+      "why_it_matters": "Confirms Field function also has a new text overload in addition to FieldExist, expanding options for field access.",
+      "check": "exact"
+    },
+    {
+      "t": 459.4,
+      "text": "We can chain the value function for a field ref. And that's pretty much it.",
+      "why_it_matters": "Shows practical usage pattern enabling developers to chain Value() directly after Field() call for immediate value retrieval.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018335
+    }
+  ]
+}

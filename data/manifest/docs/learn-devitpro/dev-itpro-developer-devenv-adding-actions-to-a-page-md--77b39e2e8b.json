@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-actions-to-a-page",
   "published_at": "2026-06-02T11:42:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "29931d69e90328338251197d5f080003c8a08c99",
       "words": 1178,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:34.758Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007392
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:34.780Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:34.781Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:22:34.782Z",
+      "page": false
     }
   },
   "input_hash": "29931d69e90328338251197d5f080003c8a08c99",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29931d69e90328338251197d5f080003c8a08c99"
+  "output_hash": "4eb690dbbc155c87e282e37025b154e588d822a5bcea6b38abf9039d313cabdb"
 }

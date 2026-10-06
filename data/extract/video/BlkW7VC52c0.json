@@ -1,0 +1,248 @@
+{
+  "video_id": "BlkW7VC52c0",
+  "item_id": "video/yt-bcmusings/BlkW7VC52c0",
+  "title": "Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)",
+  "duration_s": 594,
+  "systems": [
+    "administration",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "copying data between companies",
+    "master data management",
+    "configuration worksheet",
+    "pull strategy",
+    "company synchronization",
+    "data migration",
+    "table replication",
+    "custom tables"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to copying data between companies",
+      "t_start": 0,
+      "t_end": 46.2
+    },
+    {
+      "title": "Master Data Management Setup - overview and configuration",
+      "t_start": 46.2,
+      "t_end": 147.3
+    },
+    {
+      "title": "Custom table example and demo setup",
+      "t_start": 147.3,
+      "t_end": 188.6
+    },
+    {
+      "title": "Master Data Management Setup - pull strategy demonstration",
+      "t_start": 188.6,
+      "t_end": 327.4
+    },
+    {
+      "title": "Configuration Worksheet method for copying data",
+      "t_start": 327.4,
+      "t_end": 451.5
+    },
+    {
+      "title": "Comparing solutions and technical details",
+      "t_start": 451.5,
+      "t_end": 578.4
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 578.4,
+      "t_end": 594
+    }
+  ],
+  "features": [
+    {
+      "name": "Master Data Management Setup",
+      "description": "A feature that allows pulling data from a source company to a target company using a pull strategy. Users can configure which tables and specific fields to synchronize, and validate fields in the target company.",
+      "status": "ga",
+      "status_evidence_t": 34.3,
+      "status_evidence_quote": "we have right now available in Business Central in 2025 in October 2025",
+      "status_evidence_verified": true,
+      "t_start": 46.2,
+      "t_end": 327.4,
+      "is_demoed": true,
+      "caveats": [
+        "Based on a pull strategy from target to source",
+        "Larger tables like customer prompt synchronization of related tables",
+        "Uses job queues for processing"
+      ],
+      "tags": [
+        "master data management",
+        "data synchronization",
+        "pull strategy",
+        "multi-company"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Configuration Worksheet",
+      "description": "A method for copying data between companies that was introduced as part of the rapid start methodology for populating new companies with data. Includes a Copy Data from Company action.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 338.6,
+      "t_end": 451.5,
+      "is_demoed": true,
+      "caveats": [
+        "Triggered through process advance rather than job queues",
+        "Uses user-initiated action rather than background job queue processing"
+      ],
+      "tags": [
+        "configuration worksheet",
+        "data copy",
+        "rapid start",
+        "multi-company"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Configuration Packages",
+      "description": "A data copy method mentioned as an alternative approach, but noted to have issues with data corruption on larger tables with many validations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 457.5,
+      "t_end": 483.5,
+      "is_demoed": false,
+      "caveats": [
+        "Can cause data corruption on bigger tables with many validations",
+        "Team chose to look for more stable solutions"
+      ],
+      "tags": [
+        "configuration packages",
+        "data migration",
+        "stability issues"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Custom data copy solution",
+      "description": "A custom-built solution similar to Master Data Management Setup where developers can choose tables from a source company and copy them to a target company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 483.5,
+      "t_end": 526.3,
+      "is_demoed": false,
+      "caveats": [
+        "Custom-built solution, not part of base application",
+        "Requires development effort",
+        "Speaker used this approach about 10 years ago"
+      ],
+      "tags": [
+        "custom solution",
+        "data copy",
+        "development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "test",
+      "t": 131.3
+    },
+    {
+      "type": "table",
+      "name": "table 5100",
+      "t": 147.3
+    },
+    {
+      "type": "page",
+      "name": "master data management setup",
+      "t": 76.7
+    },
+    {
+      "type": "page",
+      "name": "configuration worksheet",
+      "t": 359.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Business Central Musings host",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22.3,
+      "text": "We're not referring here to duplicating a company. We're referring here to copying table one, two, three from company A into company B.",
+      "why_it_matters": "Clarifies the distinction between duplicating an entire company versus selectively copying specific tables between companies.",
+      "check": "exact"
+    },
+    {
+      "t": 76.7,
+      "text": "which uh I'm going to show you now master data management setup uh this is based on a on a pull strategy.",
+      "why_it_matters": "Identifies the core mechanism of Master Data Management Setup as a pull-based approach from target to source.",
+      "check": "exact"
+    },
+    {
+      "t": 89.4,
+      "text": "So from the target you're pulling data from the source. So how does that work? We're setting up here in master data management the",
+      "why_it_matters": "Explains the practical implementation of the pull strategy and how tables are configured in the target company.",
+      "check": "exact"
+    },
+    {
+      "t": 269.4,
+      "text": "And this is not only for custom tables, we can do that for uh um even base application tables like item, vendor, c uh",
+      "why_it_matters": "Confirms that Master Data Management Setup works with both custom and standard base application tables.",
+      "check": "exact"
+    },
+    {
+      "t": 280.9,
+      "text": "when you're using a bigger table like customer table uh you will be prompted here to um let's say if we want to choose",
+      "why_it_matters": "Important caveat about dependent tables being automatically included when syncing larger tables.",
+      "check": "exact"
+    },
+    {
+      "t": 408.3,
+      "text": "and um if we go to prepare we have here an action copy data from company",
+      "why_it_matters": "Identifies the specific action in Configuration Worksheet used to initiate data copying.",
+      "check": "exact"
+    },
+    {
+      "t": 457.5,
+      "text": "we discover that with configuration packages especially on uh bigger tables and with lots of valitions um we get some uh corruption in the",
+      "why_it_matters": "Important limitation of Configuration Packages that drove the team to investigate alternative methods.",
+      "check": "exact"
+    },
+    {
+      "t": 526.3,
+      "text": "why not use already what we already have uh in business central as of October 2025 um in the base application",
+      "why_it_matters": "Emphasizes that the presented solutions are built-in, currently available features as of October 2025.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 34.3,
+      "kind": "other",
+      "text": "what we have right now available in Business Central in 2025 in October 2025"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020651
+    }
+  ]
+}

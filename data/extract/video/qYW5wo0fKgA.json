@@ -1,0 +1,190 @@
+{
+  "video_id": "qYW5wo0fKgA",
+  "item_id": "video/yt-microsoft/qYW5wo0fKgA",
+  "title": "What's Cooking in Business Central: Early Access Preview",
+  "duration_s": 127,
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "early access preview",
+    "sandbox environments",
+    "admin center",
+    "version 28.0",
+    "environment creation",
+    "preview terms",
+    "feature discovery"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Early Access Preview",
+      "t_start": 0,
+      "t_end": 21.4
+    },
+    {
+      "title": "Creating an EAP Environment from Admin Center",
+      "t_start": 21.4,
+      "t_end": 43.3
+    },
+    {
+      "title": "Environment Setup and Confirmation",
+      "t_start": 43.3,
+      "t_end": 67.8
+    },
+    {
+      "title": "Exploring EAP Environment Features",
+      "t_start": 67.8,
+      "t_end": 79.3
+    },
+    {
+      "title": "Notification Bar and Feature Discovery",
+      "t_start": 79.3,
+      "t_end": 105.1
+    },
+    {
+      "title": "Important Considerations and Limitations",
+      "t_start": 105.1,
+      "t_end": 127
+    }
+  ],
+  "features": [
+    {
+      "name": "Early Access Preview Sandbox Environments",
+      "description": "Ability to create sandbox environments running version 28.0 ahead of official release, allowing exploration and testing of latest Business Central features before general availability.",
+      "status": "ga",
+      "status_evidence_t": 5.4,
+      "status_evidence_quote": "we have just released version 27.0 of Business Central, but you can already get a look at version 280",
+      "status_evidence_verified": true,
+      "t_start": 5.4,
+      "t_end": 117.3,
+      "is_demoed": true,
+      "caveats": [
+        "Partner sandbox license required",
+        "Available only in USGB and DE regions",
+        "Updated weekly, not meant for production",
+        "Environments may be deleted without notice"
+      ],
+      "tags": [
+        "early access preview",
+        "sandbox",
+        "admin center",
+        "preview environments"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "EAP Environment Notification Bar",
+      "description": "Display of a notification bar in early access preview environments to remind users this is a preview environment and provide navigation to documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 79.3,
+      "t_end": 90,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notification",
+        "documentation",
+        "user experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Feature Discovery Capabilities",
+      "description": "Planned capability to easily discover new features inside early access preview environments and provide feedback.",
+      "status": "announced",
+      "status_evidence_t": 90,
+      "status_evidence_quote": "We are working on adding capabilities so that you can easily discover new features inside these environments",
+      "status_evidence_verified": true,
+      "t_start": 90,
+      "t_end": 105.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feature discovery",
+        "feedback",
+        "roadmap"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.4,
+      "text": "we have just released version 27.0 of Business Central, but you can already get a look at version 280",
+      "why_it_matters": "Establishes the availability of early access preview for the next version before official release",
+      "check": "exact"
+    },
+    {
+      "t": 21.4,
+      "text": "We currently support creating these environments in USGB and DE",
+      "why_it_matters": "Documents geographic limitations for early access preview environment creation",
+      "check": "exact"
+    },
+    {
+      "t": 43.3,
+      "text": "Make sure that you read the information in the message box and that you are aware of the preview terms before confirming",
+      "why_it_matters": "Indicates users must explicitly accept preview terms when creating these environments",
+      "check": "exact"
+    },
+    {
+      "t": 67.8,
+      "text": "Now you will be able to explore and try out all the latest Business Central features before they are out on an official version",
+      "why_it_matters": "Describes the core purpose and benefit of early access preview environments",
+      "check": "exact"
+    },
+    {
+      "t": 105.1,
+      "text": "A partner sandbox license is required for early access preview. We update these environments to newer builds weekly",
+      "why_it_matters": "States key requirements and maintenance frequency for early access preview environments",
+      "check": "exact"
+    },
+    {
+      "t": 105.1,
+      "text": "these environments are not meant to be used for production uh because they may be deleted without notice",
+      "why_it_matters": "Emphasizes the non-production nature and risk of data loss in preview environments",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 43.3,
+      "kind": "preview",
+      "text": "Make sure that you read the information in the message box and that you are aware of the preview terms"
+    },
+    {
+      "t": 79.3,
+      "kind": "preview",
+      "text": "We display this notification bar to remind you that this is an early access preview environment"
+    },
+    {
+      "t": 90,
+      "kind": "subject-to-change",
+      "text": "We are working on adding capabilities so that you can easily discover new features inside these environments"
+    },
+    {
+      "t": 105.1,
+      "kind": "preview",
+      "text": "these environments are not meant to be used for production uh because they may be deleted without notice"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01157
+    }
+  ]
+}

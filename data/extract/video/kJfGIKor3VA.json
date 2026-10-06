@@ -1,0 +1,210 @@
+{
+  "video_id": "kJfGIKor3VA",
+  "item_id": "video/yt-microsoft/kJfGIKor3VA",
+  "title": "What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)",
+  "duration_s": 547,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "power bi",
+    "drill-back",
+    "dynamic dimension names",
+    "dimension filters",
+    "global dimensions",
+    "analysis mode",
+    "power bi apps",
+    "business central integration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to drill-back and dynamic dimension names",
+      "t_start": 0,
+      "t_end": 29.8
+    },
+    {
+      "title": "Understanding drill-back and dimension naming concepts",
+      "t_start": 29.8,
+      "t_end": 94.9
+    },
+    {
+      "title": "Drill-back demonstration with liability report",
+      "t_start": 94.9,
+      "t_end": 179.9
+    },
+    {
+      "title": "Dynamic dimension naming in Power BI desktop",
+      "t_start": 179.9,
+      "t_end": 325.4
+    },
+    {
+      "title": "Adding shortcut dimensions and refreshing in Power BI",
+      "t_start": 325.4,
+      "t_end": 405.7
+    },
+    {
+      "title": "Resources and community links",
+      "t_start": 405.7,
+      "t_end": 547
+    }
+  ],
+  "features": [
+    {
+      "name": "Drill-back from Power BI to Business Central",
+      "description": "Allows users to click on a number in a Power BI report to open Business Central in a new tab and view all transactions behind that number, enabling deeper investigation of report values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29.8,
+      "t_end": 179.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "drill-back",
+        "power bi",
+        "transactions",
+        "investigation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dynamic dimension naming in Power BI apps",
+      "description": "Loads dimension names and proper fields from Business Central dimensions into Power BI reports, allowing filters to display actual dimension names instead of just codes. Supports global dimensions and shortcut dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.1,
+      "t_end": 405.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual editing of reports",
+        "Only supports global dimensions 1-3 in previous versions, now supports shortcut dimensions as well"
+      ],
+      "tags": [
+        "dimensions",
+        "power bi",
+        "filters",
+        "names",
+        "global dimensions",
+        "shortcut dimensions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis mode scroll-to-column feature",
+      "description": "A new feature in version 27 that allows users to search for a column and right-click to scroll it into view in analysis mode within a Business Central list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.6,
+      "t_end": 168.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "ui feature",
+        "column management",
+        "version 27"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dimension sets table in Power BI",
+      "description": "A new table in Power BI that automatically loads dimension names and values from Business Central, enabling dynamic filtering on dimension names instead of codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 224.4,
+      "t_end": 405.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires schema and data refresh to pick up changes made in Business Central"
+      ],
+      "tags": [
+        "dimension sets",
+        "power bi",
+        "tables",
+        "dimension configuration"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup",
+      "t": 325.4
+    },
+    {
+      "type": "table",
+      "name": "dimension sets",
+      "t": 224.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 29.8,
+      "text": "Drill back is for situations where you got want to understand the a number in in the report. What what is behind that number?",
+      "why_it_matters": "Defines the core purpose of drill-back functionality - enabling users to investigate the source data behind report numbers.",
+      "check": "exact"
+    },
+    {
+      "t": 57.1,
+      "text": "in the previous PowerBI apps we only had the dimension codes and also uh only ability to filter on global dimension 1 2 and",
+      "why_it_matters": "Explains the limitation that existed before dynamic dimension naming - showing why this is an improvement over previous versions.",
+      "check": "exact"
+    },
+    {
+      "t": 127.8,
+      "text": "you can see in this matrix that I now have a link and if I choose this link this will open up a new",
+      "why_it_matters": "Demonstrates how drill-back is implemented and accessed in the Power BI interface.",
+      "check": "exact"
+    },
+    {
+      "t": 168.4,
+      "text": "105 835. That is actually the number I asked you to uh to remember. So it's not magic even though this is like a",
+      "why_it_matters": "Provides proof that drill-back accurately retrieves the underlying data matching the reported number.",
+      "check": "exact"
+    },
+    {
+      "t": 224.4,
+      "text": "here I have a new table called dimension sets where you can see we are now loading the customer group name and the department",
+      "why_it_matters": "Identifies the technical mechanism for implementing dynamic dimension naming through a new dimension sets table.",
+      "check": "exact"
+    },
+    {
+      "t": 279.4,
+      "text": "we don't have really have slicers in our reports. That's a design principle",
+      "why_it_matters": "Explains a deliberate design choice in Business Central Power BI apps - they do not use slicers.",
+      "check": "exact"
+    },
+    {
+      "t": 356.5,
+      "text": "I now choose to refresh not the full data set but just the dimension sets here with a schema and data refresh",
+      "why_it_matters": "Shows how dimension changes in Business Central are synchronized to Power BI without a full refresh.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019500999999999998
+    }
+  ]
+}

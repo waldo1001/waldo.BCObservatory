@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-actions-to-a-page.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-actions-to-a-page",
+  "title": "Adding actions to a page",
+  "blob": "29931d69e90328338251197d5f080003c8a08c99",
+  "summary": "Adding actions to a page documents how to create and configure page actions in the action bar, assign icons and keyboard shortcuts, and promote actions to menus in Business Central AL development.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page design",
+    "actions",
+    "user interface",
+    "keyboard shortcuts",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "page 50110 PageName"
+    }
+  ],
+  "features": [
+    "Action areas",
+    "Promoted actions",
+    "Action icons",
+    "Keyboard shortcuts",
+    "Action groups",
+    "RunObject property"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007392,
+      "pages_in_call": 8
+    }
+  ]
+}

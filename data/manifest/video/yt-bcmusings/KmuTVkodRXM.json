@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KmuTVkodRXM",
   "published_at": "2025-10-20T04:17:07.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -38,6 +38,26 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.019086
+    },
+    "summarized": {
+      "at": "2026-10-06T18:21:06.857Z",
+      "path": "data/summary/video/KmuTVkodRXM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.011748399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:21:06.858Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 7,
+      "objects_as_heard": 7
+    },
+    "published": {
+      "at": "2026-10-06T18:21:06.873Z",
+      "path": "content/videos/KmuTVkodRXM.md"
     }
   },
   "input_hash": null,
@@ -53,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "977358dd34f0a476b661f805e1d4124fad2e964898e51599748444c762bea226"
+  "output_hash": "d491c72cf6b7a19e68ae6e0261645b4494b945a9f9f9fa1b91f8c026b356a714"
 }

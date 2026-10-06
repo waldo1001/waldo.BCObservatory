@@ -1,0 +1,27 @@
+{
+  "video_id": "9g1vwaXmy2s",
+  "item_id": "video/yt-microsoft/9g1vwaXmy2s",
+  "summary": "Financial report scheduling in Business Central, an announced feature, is demoed: financial reports are sent on a recurring schedule as Excel and PDF to the report inbox and by email to chosen recipients. Covers the Schedules action, run date controls, custom filters and date filter formulas.",
+  "overview": "The video, published 2025-10-02, shows a new announced feature that sends financial reports automatically on a recurring schedule. From the Financial Reports page, a new Schedules action under Definitions opens the Financial Report Schedules page. The demo sets up a monthly cash flow report.\n\nEach schedule has a next run date time and a recurrence run date formula. Reports are exported to Excel and PDF, delivered to the report inbox (reachable through the logs action) and emailed to selected recipients. Custom filters set options per schedule, and start and end date filter formulas allow a date filter different from the report's default. The presenter says the feature will release in the near future.",
+  "key_points": [
+    "Financial report scheduling is announced, not yet released; the presenter refers to a release in the near future.",
+    "Open it from the Financial Reports page: under Definitions, the new Schedules action opens the Financial Report Schedules page.",
+    "The next run date time field sets when the report is first sent; the recurrence run date formula sets the cadence after that.",
+    "Scheduled reports are exported to both Excel and PDF, sent to the report inbox, and emailed to nominated recipients.",
+    "Reports received in the report inbox can be viewed through the logs action.",
+    "Custom filters let each schedule have its own reporting options and filters, so one report can have different scheduled configurations.",
+    "Start and end date filter formulas on a schedule can override the financial report's default date filter."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "119ccc6958d3c3a5582696f72c77f5006f20cea0bbcc5b061d098d7b061a4011",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013586399999999998
+  }
+}

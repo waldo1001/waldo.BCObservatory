@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/installation-considerations-for-microsoft-sql-server",
   "published_at": "2026-06-02T11:42:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c5fed69dcacadb86a0ac87ec77e2af3a9c99cc9e",
       "words": 1397,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:34.752Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007392
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:34.764Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:34.765Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:22:34.767Z",
+      "page": false
     }
   },
   "input_hash": "c5fed69dcacadb86a0ac87ec77e2af3a9c99cc9e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c5fed69dcacadb86a0ac87ec77e2af3a9c99cc9e"
+  "output_hash": "9ba9d6c71d245207c25ac7bb2bd3c9b2e8fb46ea03f508ae06a0f81b631cbfe2"
 }

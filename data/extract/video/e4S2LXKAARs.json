@@ -1,0 +1,724 @@
+{
+  "video_id": "e4S2LXKAARs",
+  "item_id": "video/yt-areopa/e4S2LXKAARs",
+  "title": "20251208 - You don't have to make Test Plans anymore...",
+  "duration_s": 3643,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "test automation",
+    "test plans",
+    "ai and testing",
+    "prompt engineering",
+    "requirements",
+    "user scenarios",
+    "quality assurance",
+    "test design",
+    "mcps",
+    "vs code",
+    "azure devops integration",
+    "iterative refinement"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and upcoming webinars",
+      "t_start": 0,
+      "t_end": 164
+    },
+    {
+      "title": "Presenter introductions: Luke Fanfoot",
+      "t_start": 164,
+      "t_end": 264.8
+    },
+    {
+      "title": "Presenter introduction: Tina Starridge and project overview",
+      "t_start": 264.8,
+      "t_end": 300.8
+    },
+    {
+      "title": "Agenda and project goals",
+      "t_start": 300.8,
+      "t_end": 445.8
+    },
+    {
+      "title": "What is a test plan and why it matters",
+      "t_start": 445.8,
+      "t_end": 604.5
+    },
+    {
+      "title": "Benefits of test plans and scenario types",
+      "t_start": 604.5,
+      "t_end": 761
+    },
+    {
+      "title": "Test plan structure and components",
+      "t_start": 761,
+      "t_end": 922.4
+    },
+    {
+      "title": "Scenario IDs, descriptions, and test types",
+      "t_start": 922.4,
+      "t_end": 1052
+    },
+    {
+      "title": "Challenges of manual test plan creation",
+      "t_start": 1052,
+      "t_end": 1293.5
+    },
+    {
+      "title": "Introduction to AI-assisted test plan generation and structured prompts",
+      "t_start": 1293.5,
+      "t_end": 3643
+    }
+  ],
+  "features": [
+    {
+      "name": "AI-assisted test plan generation",
+      "description": "Using AI and system prompts to generate test plans from requirements automatically, creating a starting point for testers. AI agents can generate test plans from requirements, creating scenarios with user actions and outcomes that can be iteratively refined through prompt adjustments based on expert feedback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.6,
+      "t_end": 2440.9,
+      "is_demoed": true,
+      "caveats": [
+        "Project started over a year ago as an exploratory collaboration",
+        "AI output is not perfect and requires review by testers",
+        "Quality depends on input user story clarity",
+        "Initial output may include unnecessary details"
+      ],
+      "tags": [
+        "ai",
+        "test automation",
+        "prompt engineering",
+        "requirements"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test plan methodology at 4PS",
+      "description": "A structured approach to creating test plans by listing user scenarios from requirements before coding, used to validate requirements and improve software quality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 445.8,
+      "t_end": 637.3,
+      "is_demoed": true,
+      "caveats": [
+        "Based on manual work currently",
+        "Example provided is not a very large test plan"
+      ],
+      "tags": [
+        "test planning",
+        "requirements analysis",
+        "quality assurance",
+        "methodology"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User scenario classification",
+      "description": "Classification of test scenarios into sunny-path (positive) and rainy-path (negative) scenarios to ensure comprehensive testing coverage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 683.4,
+      "t_end": 717.2,
+      "is_demoed": false,
+      "caveats": [
+        "AI assistance with marking positive and negative scenarios mentioned as challenging"
+      ],
+      "tags": [
+        "test scenarios",
+        "positive testing",
+        "negative testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Structured system prompts for test planning",
+      "description": "Framework using five components for AI prompts - instructions, steps, format requirements, examples, and notes - to generate consistent and structured test plans from requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1357,
+      "t_end": 1393.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires understanding of prompt engineering principles",
+        "Approach evolved and changed over twelve months"
+      ],
+      "tags": [
+        "prompts",
+        "ai",
+        "methodology"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP integration for test planning in Visual Studio Code",
+      "description": "Using Model Context Protocol (MCP) within Visual Studio Code to connect requirements from Azure DevOps directly to AI language models for generating test plans. MCP servers act as toolboxes that can be given to AI agents to connect to external systems like Azure DevOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1569.3,
+      "t_end": 1806.1,
+      "is_demoed": true,
+      "caveats": [
+        "Language models cannot natively connect to external systems like Azure DevOps without MCP",
+        "Requires testers to learn Visual Studio Code",
+        "Requires proper tool configuration in VS Code"
+      ],
+      "tags": [
+        "mcps",
+        "visual studio code",
+        "azure devops",
+        "integration",
+        "external systems",
+        "ai integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "System prompts in VS Code for structured test plan generation",
+      "description": "Users can create system prompt files in VS Code that specify instructions for AI to follow when generating test plans. These prompts can be invoked with slash commands like /create test plan and can include access to tools like Azure DevOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1844.2,
+      "t_end": 1951.5,
+      "is_demoed": true,
+      "caveats": [
+        "Initial prompt quality may be poor without proper structure",
+        "Requires iterative refinement to achieve good results"
+      ],
+      "tags": [
+        "system prompts",
+        "test plans",
+        "vs code",
+        "structured prompts"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted prompt generation and refinement",
+      "description": "Users can ask AI to help create better system prompts by describing what components should be included like instructions, steps, format requirements, examples, and notes. This creates a dialogue where users can iteratively refine prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1989.4,
+      "t_end": 2097.3,
+      "is_demoed": true,
+      "caveats": [
+        "First iteration is often suboptimal",
+        "Requires back-and-forth dialogue to sharpen"
+      ],
+      "tags": [
+        "prompt engineering",
+        "ai assistance",
+        "iterative refinement",
+        "system prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-structured requirement analysis into test scenarios",
+      "description": "AI can organize unstructured requirements into structured test plans with positive paths, negative paths, test scenarios, and examples. Quality depends on the quality of the input requirement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2156.6,
+      "t_end": 2225,
+      "is_demoed": true,
+      "caveats": [
+        "AI may make up content if requirements lack detail",
+        "Output quality depends on input requirement quality"
+      ],
+      "tags": [
+        "test plans",
+        "requirement analysis",
+        "test scenarios",
+        "structured output"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expert feedback loop for test plan improvement",
+      "description": "Domain experts can provide feedback on AI-generated test plans to refine system prompts. This iterative loop transforms vague AI responses into structured, production-ready test plans with proper wording, priority levels, and detail granularity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2341.5,
+      "t_end": 2650.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires domain expert involvement",
+        "Multiple iterations needed to achieve production quality"
+      ],
+      "tags": [
+        "expert feedback",
+        "test plan refinement",
+        "iterative development",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt-based slash commands for AI tasks",
+      "description": "Users can execute pre-configured AI prompts via slash commands (e.g. /create test plan, /review pull request) without needing to be prompt engineers, enabling non-technical roles to leverage AI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2819.9,
+      "t_end": 2878.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires pre-configured prompts to be set up",
+        "Non-technical users can execute but not create prompts"
+      ],
+      "tags": [
+        "ai",
+        "automation",
+        "non-technical"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-use case AI prompts",
+      "description": "AI prompts can be created for various non-coding tasks beyond test planning, including requirements formulation, clarifying questions, documentation from pull requests, pull request reviews, and translation reviews.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2804.6,
+      "t_end": 2878.9,
+      "is_demoed": false,
+      "caveats": [
+        "Different prompts needed for different tasks",
+        "Requires centralized management for team/company"
+      ],
+      "tags": [
+        "ai",
+        "prompting",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI as junior developer paradigm",
+      "description": "Approach treating AI as a junior developer that needs clear instructions and iterative feedback. First attempts will be messy but improve through iteration as instructions are refined based on team and organizational preferences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2878.9,
+      "t_end": 2935,
+      "is_demoed": true,
+      "caveats": [
+        "Requires multiple iterations",
+        "Dependent on quality of initial instructions"
+      ],
+      "tags": [
+        "ai",
+        "philosophy",
+        "prompting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI reduces manual test planning effort",
+      "description": "AI can significantly speed up test plan creation by generating first drafts in minimal time, reducing manual effort and allowing teams to focus on refinement and optimization rather than starting from scratch.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2935,
+      "t_end": 3025,
+      "is_demoed": true,
+      "caveats": [
+        "Does not replace human expertise",
+        "Quality dependent on user story completeness"
+      ],
+      "tags": [
+        "productivity",
+        "ai",
+        "efficiency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Centralized prompt management for teams",
+      "description": "Capability to create and manage standardized prompts (e.g. create test plan) for a company or team, maintained by a designated team, which other team members can execute via slash commands without modification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3025,
+      "t_end": 3119.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires central team to manage and maintain prompts",
+        "Company-wide standardization may limit customization"
+      ],
+      "tags": [
+        "governance",
+        "prompting",
+        "team-management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "VS Code extension for prompt distribution",
+      "description": "A VS Code extension that automatically downloads and updates prompt files to user directories, checking repositories for newer versions whenever VS Code opens and distributing them across the organization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3478.2,
+      "t_end": 3552.3,
+      "is_demoed": false,
+      "caveats": [
+        "still in planning phase",
+        "implementation with simple prompts"
+      ],
+      "tags": [
+        "vs code",
+        "prompt management",
+        "distribution",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Phased prompt deployment strategy",
+      "description": "A three-stage rollout approach: keeping prompts inside projects initially, then moving to user settings for accessibility across projects, and finally centralizing updates via VS Code extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3438.1,
+      "t_end": 3478.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires organizational buy-in",
+        "depends on user comfort with AI tooling"
+      ],
+      "tags": [
+        "rollout strategy",
+        "qa training",
+        "prompt management"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Azure DevOps",
+      "t": 1601.2
+    },
+    {
+      "type": "other",
+      "name": "ChatGPT",
+      "t": 1427.6
+    },
+    {
+      "type": "other",
+      "name": "Visual Studio Code",
+      "t": 1643.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Henrik Ellison",
+      "confidence": "high"
+    },
+    {
+      "name": "Luke Fanfoot",
+      "confidence": "high"
+    },
+    {
+      "name": "Tina Starridge",
+      "confidence": "high"
+    },
+    {
+      "name": "Ron vonor",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    },
+    {
+      "name": "Waldo",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hen Helgerson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 13.1,
+      "text": "This one is entitled You don't have to make test plans anymore.",
+      "why_it_matters": "Sets the central theme that AI can automate or simplify test plan creation.",
+      "check": "exact"
+    },
+    {
+      "t": 288.6,
+      "text": "this is the point that really brought us together and that's where we started to explore this",
+      "why_it_matters": "Explains how the collaboration between test automation and AI expertise began the project.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 490,
+      "text": "what i want to achieve is i want us to have all user scenarios listed",
+      "why_it_matters": "Clarifies the core definition and purpose of a test plan versus common misunderstandings.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 540.9,
+      "text": "if you have requirements you need to have a test plan",
+      "why_it_matters": "Establishes test plans as mandatory and inseparable from requirements in 4PS methodology.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 637.3,
+      "text": "If we have reviewed the requirements and agree upon this is the full list of user scenarios then we all know there's nothing missing.",
+      "why_it_matters": "Explains the quality assurance benefit of consensus-driven test scenario identification.",
+      "check": "exact"
+    },
+    {
+      "t": 854.5,
+      "text": "First of all, what we always do is identify a functional area. And what we do is we relate to user stories.",
+      "why_it_matters": "Establishes the foundational structure of test planning methodology by tying functional areas to user stories.",
+      "check": "exact"
+    },
+    {
+      "t": 968.5,
+      "text": "scenario description this is the user action yeah as you can see it starts with a verb change unit price",
+      "why_it_matters": "Defines a specific rule for test plan formatting - scenario descriptions must start with action verbs to properly capture user behavior.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1130.6,
+      "text": "It is somehow time consuming of course depending on the size of the requirements or the complexity of the requirements. It can be more",
+      "why_it_matters": "Identifies the core challenge motivating AI assistance - manual test plan creation requires significant time investment and cognitive effort.",
+      "check": "exact"
+    },
+    {
+      "t": 1403.5,
+      "text": "We're not creating a test plan that we immediately use, but it gives us a starting point and it makes it much easier to",
+      "why_it_matters": "Clarifies realistic expectations for AI-generated test plans - they enable discussion and review rather than eliminate human judgment.",
+      "check": "exact"
+    },
+    {
+      "t": 1497.5,
+      "text": "the first step was okay we know that AI doesn't give me good uh a good response but if I structure my system prompt",
+      "why_it_matters": "Establishes that structured prompting is key to achieving quality AI output for test plan generation.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.6,
+      "text": "By default, these language models are just, let's say, language model, which means they understand text and they generate text. If I do something",
+      "why_it_matters": "Explains the limitation that drove MCP adoption - language models cannot directly query external systems without integration.",
+      "check": "exact"
+    },
+    {
+      "t": 1737.5,
+      "text": "Think of MCP servers as toolboxes you can give to your AI so it can do more.",
+      "why_it_matters": "Explains the core concept of MCPs as enabling tools that extend AI capabilities beyond language understanding to system integration.",
+      "check": "exact"
+    },
+    {
+      "t": 1868.9,
+      "text": "for testers, testers at the end of the day, they won't have to know how to prompt. All the tester needs to know is",
+      "why_it_matters": "Demonstrates how AI tooling can abstract complexity for non-developers, allowing testers to use pre-built prompts without prompt engineering knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 1964.2,
+      "text": "one key takeaway is that you do need to have a structured prompt. Otherwise, if tomorrow I run this prompt again, I'm going to",
+      "why_it_matters": "Emphasizes the importance of prompt structure for reproducibility and consistency in test plan generation.",
+      "check": "exact"
+    },
+    {
+      "t": 2084.6,
+      "text": "it should analyze requirements, then identify test scenarios, then define test cases, organize by priority, review and present",
+      "why_it_matters": "Shows how AI-generated system prompts structure test plan creation into logical, sequential steps.",
+      "check": "exact"
+    },
+    {
+      "t": 2185,
+      "text": "requirement is not good the test plan that comes out of it isn't going to be good either because ai will not",
+      "why_it_matters": "Identifies a critical limitation: AI quality depends on input quality and AI tends to fabricate details when given incomplete requirements.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2261.8,
+      "text": "Everybody is talking about how you can use AI to to generate code, but I've just shown you how you can use these same",
+      "why_it_matters": "Highlights shift in AI application from code generation to broader testing and documentation workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 2330.2,
+      "text": "the first prompt is going to suck. It's not going to be good. Uh it's really important that you take this iterative approach",
+      "why_it_matters": "Establishes realistic expectations that initial AI prompts require multiple refinement cycles to achieve production quality.",
+      "check": "exact"
+    },
+    {
+      "t": 2426,
+      "text": "AI created for us an Excel spreadsheet with all of the different scenarios with all of the user story names with individual scenarios with",
+      "why_it_matters": "Demonstrates the concrete output format and scope of AI test plan generation after a year of iterative development with expert feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 2507,
+      "text": "we only need one line describing the user action. So preconditions, steps, expected results and even the data. These are at this point in",
+      "why_it_matters": "Shows how expert feedback identifies unnecessary details in AI output, guiding prompt refinement toward more concise, usable test scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2615.1,
+      "text": "what you get out of AI isn't perfect. you want to change it in a way that you get the information that you actually",
+      "why_it_matters": "Clarifies the practical reality that AI output requires refinement and explains the iterative adjustment approach as normal workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 2703.6,
+      "text": "we've adjusted our prompt and now we're getting something closer to what we actually want.",
+      "why_it_matters": "Demonstrates the direct impact of prompt refinement on output quality, validating the iterative improvement methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 2945.2,
+      "text": "AI will reduce a lot of manual effort actually helping you to speed up. It's not it's not going to replace us in as",
+      "why_it_matters": "Articulates the core value proposition: AI augments human expertise rather than replacing it, reducing manual effort while maintaining human relevance.",
+      "check": "exact"
+    },
+    {
+      "t": 2974.3,
+      "text": "I see it and I started to experience it as it's a nice and patient companion to discuss the things you want to achieve",
+      "why_it_matters": "Highlights a key differentiator of AI: unlimited patience for iteration, unlike human team members who may lack energy or time for multiple refinements.",
+      "check": "exact"
+    },
+    {
+      "t": 3057.4,
+      "text": "the test plan will be weak if your user stories are uh not strong. But if you have complete enough user stories you get",
+      "why_it_matters": "Identifies the critical dependency: input quality (user stories) directly determines output quality (test plans), following garbage-in garbage-out principle.",
+      "check": "exact"
+    },
+    {
+      "t": 3265.8,
+      "text": "It kept on saying user uh uh attempts to or attempt to do something. No, you don't attempt. You do something and you find",
+      "why_it_matters": "Illustrates the importance of precise prompt wording and the need to iterate with AI to achieve desired test automation behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 3314.2,
+      "text": "you put it as uh how do you say optional notes at the end. So it's up to me to decide whether I use",
+      "why_it_matters": "Demonstrates a key insight about prompt structure - prioritizing requirements by placement in the prompt hierarchy affects AI compliance.",
+      "check": "exact"
+    },
+    {
+      "t": 3351.4,
+      "text": "ask AI what you should do to improve if you don't understand ask you to explain uh a little bit more around what he's",
+      "why_it_matters": "Provides practical guidance on iterative prompt refinement through dialogue with AI rather than giving up on initial attempts.",
+      "check": "exact"
+    },
+    {
+      "t": 3393.4,
+      "text": "have AI ask AI to to do something for you. That that that's really to me a a big uh key takeaway um from",
+      "why_it_matters": "Highlights a meta-technique for prompt engineering - using AI to help refine AI prompts.",
+      "check": "exact"
+    },
+    {
+      "t": 3438.1,
+      "text": "first step is let's keep it inside the project because the first thing I need to do is I need to teach QA that",
+      "why_it_matters": "Reflects the organizational approach of managing adoption - starting conservative with prompts to build user confidence before scaling.",
+      "check": "exact"
+    },
+    {
+      "t": 3495.8,
+      "text": "when you install it, there are a few but buttons depending on what you want. You can download all of the prompt files into",
+      "why_it_matters": "Describes the planned VS Code extension functionality for distributing and managing prompt files across teams.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1393.4,
+      "kind": "other",
+      "text": "Whatever comes out of AI is not going to be perfect. We're not creating a test plan that we immediately ..."
+    },
+    {
+      "t": 1456.2,
+      "kind": "subject-to-change",
+      "text": "the technology has evolved a lot in the last six months, let alone the full year. So for today, I'm ..."
+    },
+    {
+      "t": 3478.2,
+      "kind": "coming-later",
+      "text": "how can I then centrally update these uh these prompt files within the user directory"
+    },
+    {
+      "t": 3495.8,
+      "kind": "coming-later",
+      "text": "what if we create a VS code extension that's going to do do just that"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 31,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020436
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022588
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024089
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027289
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029522800000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.050604899999999994
+    }
+  ]
+}

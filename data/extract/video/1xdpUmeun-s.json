@@ -1,0 +1,696 @@
+{
+  "video_id": "1xdpUmeun-s",
+  "item_id": "video/yt-microsoft/1xdpUmeun-s",
+  "title": "Business Central Under the Hood episode 12: Evolving AL for Performance",
+  "duration_s": 2190,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al runtime",
+    "performance optimization",
+    "data transfer",
+    "set load fields",
+    "read isolation",
+    "nst",
+    "call stacks",
+    "c# compilation",
+    "leaky abstractions",
+    "locking semantics",
+    "dynamic queries",
+    "bulk events"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AL runtime and NST architecture",
+      "t_start": 0,
+      "t_end": 159.8
+    },
+    {
+      "title": "How AL code executes: call stacks and C# transpilation",
+      "t_start": 159.8,
+      "t_end": 244.4
+    },
+    {
+      "title": "Built-in functions and the JIT compilation pipeline",
+      "t_start": 244.4,
+      "t_end": 341.4
+    },
+    {
+      "title": "Performance investment strategy and leaky abstractions",
+      "t_start": 341.4,
+      "t_end": 436.1
+    },
+    {
+      "title": "Data transfer feature for bulk operations",
+      "t_start": 436.1,
+      "t_end": 640.4
+    },
+    {
+      "title": "Set load fields for partial records and API optimization",
+      "t_start": 640.4,
+      "t_end": 743.8
+    },
+    {
+      "title": "Read isolation and locking semantics improvements",
+      "t_start": 743.8,
+      "t_end": 885.4
+    },
+    {
+      "title": "Tri-state locking and real-world impact",
+      "t_start": 885.4,
+      "t_end": 1122.2
+    },
+    {
+      "title": "Detecting locking issues, myths about lock table behavior",
+      "t_start": 1122.2,
+      "t_end": 1307.9
+    },
+    {
+      "title": "Set current key behavior and temporary tables implementation",
+      "t_start": 1307.9,
+      "t_end": 1506.4
+    },
+    {
+      "title": "Future features: dynamic queries and query builder concepts",
+      "t_start": 1506.4,
+      "t_end": 1750.1
+    },
+    {
+      "title": "Bulk events, set-based operations, and row-by-row performance",
+      "t_start": 1750.1,
+      "t_end": 1973.2
+    },
+    {
+      "title": "Trigger performance optimization and hot path identification",
+      "t_start": 1973.2,
+      "t_end": 2143.1
+    },
+    {
+      "title": "Performance tools and closing remarks",
+      "t_start": 2143.1,
+      "t_end": 2190
+    }
+  ],
+  "features": [
+    {
+      "name": "Data transfer",
+      "description": "A feature that enables efficient bulk data movement by bypassing AL's abstraction layer and directly leveraging SQL's native capabilities. Allows developers to transfer large datasets at significantly higher performance than looping through records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 489.9,
+      "t_end": 640.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual code changes to adopt",
+        "Only works against SQL, not temporary tables or CRM",
+        "Most beneficial with large tables, minimal impact on small datasets"
+      ],
+      "tags": [
+        "bulk operations",
+        "sql optimization",
+        "performance",
+        "leaky abstraction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Set load fields (partial records)",
+      "description": "A language feature that allows developers to specify which fields to load from a table, reducing the amount of data retrieved from SQL and improving query performance. Automatically applied to API pages. Allows selective loading of fields from tables to remove joins in SQL queries. Most relevant for performance-critical code looping through millions of rows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 690,
+      "t_end": 821.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual code changes for non-API scenarios",
+        "Impact reduced after extension table consolidation from multiple extension tables to single companion table",
+        "Most effective in performance-critical code with large row counts",
+        "Less important after removal of many table extensions in favor of one",
+        "Best used in performance-critical code scenarios"
+      ],
+      "tags": [
+        "partial records",
+        "field filtering",
+        "api optimization",
+        "performance",
+        "set load fields"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read isolation",
+      "description": "A fine-grained control feature that allows developers to specify SQL isolation semantics when reading data, providing options beyond the traditional read committed or read uncommitted choices. Offers four isolation levels: read uncommitted, read committed, repeatable read, and update lock. Allows developers to specify desired isolation level in code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 838,
+      "t_end": 1005.4,
+      "is_demoed": false,
+      "caveats": [
+        "Newer feature compared to data transfer and set load fields",
+        "Developed alongside tri-state locking feature",
+        "Requires developers to specify isolation level in code",
+        "Adds complexity despite abstraction of SQL details"
+      ],
+      "tags": [
+        "locking",
+        "isolation levels",
+        "sql semantics",
+        "performance",
+        "read isolation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Tri-state locking",
+      "description": "Companion feature to read isolation that adds a third locking state between read uncommitted and update lock. After a modification, subsequent reads use read committed instead of update lock, allowing sessions to read each other's data without blocking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1022.4,
+      "t_end": 1122.2,
+      "is_demoed": false,
+      "caveats": [
+        "Was initially opt-in but now enabled by default",
+        "Can still be disabled with lock table",
+        "Hard to measure telemetry impact due to adoption trajectory"
+      ],
+      "tags": [
+        "tri-state locking",
+        "locking states",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL runtime performance investments",
+      "description": "A strategic initiative to improve AL code execution performance without requiring developers to change their code in most cases, achieved through compiler and runtime optimizations and exposure of lower-level SQL capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 341.4,
+      "t_end": 436.1,
+      "is_demoed": false,
+      "caveats": [
+        "Some features require code changes to benefit",
+        "Performance improvements vary by use case and data volume"
+      ],
+      "tags": [
+        "runtime optimization",
+        "compiler",
+        "cloud performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Many table extensions to one optimization",
+      "description": "Automatic optimization that consolidates multiple table extensions into a single one. Required no code changes from customers, only an upgrade to the next major version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1166.2,
+      "t_end": 1187.4,
+      "is_demoed": false,
+      "caveats": [
+        "Happened automatically during upgrade",
+        "No developer action required"
+      ],
+      "tags": [
+        "table extensions",
+        "automatic optimization",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock table function behavior",
+      "description": "Contrary to its name, lock table does not immediately lock the entire table in SQL. Instead, it sets all future reads to use update lock hints and affects the data cache. This is a common misconception about the function's actual behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1255,
+      "t_end": 1307.9,
+      "is_demoed": false,
+      "caveats": [
+        "Function name is misleading about actual behavior",
+        "Named 20 years ago with outdated naming"
+      ],
+      "tags": [
+        "lock table",
+        "misconception",
+        "runtime behavior"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Set current key function behavior",
+      "description": "Contrary to expectations, set current key does not instruct SQL to use a specific index. Instead, it orders the resulting data in the specified field order, which can have significant SQL optimization implications as SQL may choose different indexes or sort data after retrieval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1321.3,
+      "t_end": 1408.5,
+      "is_demoed": false,
+      "caveats": [
+        "Name does not suggest actual behavior",
+        "Difficult to rename due to backward compatibility",
+        "Can cause SQL to choose suboptimal query plans"
+      ],
+      "tags": [
+        "set current key",
+        "misconception",
+        "sql optimization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Temporary tables",
+      "description": "In-memory tables implemented using AVL tree data structure within the NST process memory. Fast due to in-memory operation with transparent abstraction, but memory consumption scales with data volume.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1446.3,
+      "t_end": 1506.4,
+      "is_demoed": false,
+      "caveats": [
+        "Memory usage increases with data volume",
+        "Implementation not well documented"
+      ],
+      "tags": [
+        "temporary tables",
+        "in-memory",
+        "avl tree"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dynamic queries at runtime",
+      "description": "Ability to create queries at runtime instead of design time, allowing dynamic joins and conditional logic based on record values or conditions. Would enable runtime construction of queries instead of design-time definition with conditional joins and dynamic composition of query structure based on runtime conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1539.3,
+      "t_end": 1750.1,
+      "is_demoed": false,
+      "caveats": [
+        "Still at idea level, not yet in code",
+        "Design of syntax not yet finalized",
+        "Challenge to make succinct without too much boilerplate",
+        "Would require finding a succinct way to describe queries",
+        "Needs ability to generate queries on the fly",
+        "Challenge in making the model not cumbersome to write"
+      ],
+      "tags": [
+        "dynamic queries",
+        "future feature",
+        "query builder",
+        "runtime",
+        "design pattern",
+        "composition"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query builder pattern for queries",
+      "description": "Proposed approach to make dynamic queries more succinct by allowing developers to chain data items, joins, and fields together rather than writing traditional query objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1641.4,
+      "t_end": 1701,
+      "is_demoed": false,
+      "caveats": [
+        "Conceptual idea still being explored",
+        "Challenge to make it succinct without cumbersome code",
+        "May rely on composition patterns"
+      ],
+      "tags": [
+        "query builder",
+        "design pattern",
+        "fluent api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-powered query generation via MCP server",
+      "description": "Concept to use MCP servers and AI that understands table metadata to generate queries on the fly, potentially from natural language descriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1680.9,
+      "t_end": 1730.6,
+      "is_demoed": false,
+      "caveats": [
+        "Very recently discussed",
+        "Needs dynamic query generation ability first",
+        "Experimental approach planned for MCP before AO"
+      ],
+      "tags": [
+        "ai",
+        "mcp",
+        "natural language",
+        "query generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bulk events for delete and modify",
+      "description": "Event model that fires once for bulk operations instead of once per row, allowing subscriptions to bulk delete or bulk modify with filter information instead of individual row events.",
+      "status": "announced",
+      "status_evidence_t": 1895.2,
+      "status_evidence_quote": "this is not next release or the one after this is like",
+      "status_evidence_verified": true,
+      "t_start": 1762.4,
+      "t_end": 1895.2,
+      "is_demoed": false,
+      "caveats": [
+        "Big change to AL needed",
+        "Currently falls back to row-by-row when row triggers exist",
+        "Requires shifting away from row-by-row mental model"
+      ],
+      "tags": [
+        "bulk operations",
+        "events",
+        "performance",
+        "set-based"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Move towards set-based operations",
+      "description": "Long-term goal to shift AL from row-by-row processing toward SQL set-based operations, potentially inspired by LINQ patterns from C#.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1817.4,
+      "t_end": 1895.2,
+      "is_demoed": false,
+      "caveats": [
+        "Probably quite a big change to AL",
+        "Long-term vision, not near-term",
+        "Would require significant runtime evolution"
+      ],
+      "tags": [
+        "set-based",
+        "sql",
+        "linq-inspired",
+        "architecture"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Sampling profiler tool",
+      "description": "Profiler tool available for identifying hot path code and performance bottlenecks by sampling code execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2082,
+      "t_end": 2101,
+      "is_demoed": false,
+      "caveats": [
+        "Requires developer analysis to use effectively",
+        "Results vary by scenario"
+      ],
+      "tags": [
+        "profiler",
+        "performance analysis",
+        "tooling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dictionary data type for optimization",
+      "description": "Dictionary data type that can replace temporary tables in some cases, offering constant-time lookup versus logarithmic time of temporary tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2115.6,
+      "t_end": 2132.6,
+      "is_demoed": false,
+      "caveats": [
+        "Only applicable in lookup scenarios",
+        "Not suitable when table structure needed",
+        "Best for quick value lookups"
+      ],
+      "tags": [
+        "data structures",
+        "optimization",
+        "performance"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL set range",
+      "t": 280.8
+    },
+    {
+      "type": "other",
+      "name": "AVL tree",
+      "t": 1467.2
+    },
+    {
+      "type": "other",
+      "name": "delete all",
+      "t": 1762.4
+    },
+    {
+      "type": "other",
+      "name": "modify all",
+      "t": 1762.4
+    },
+    {
+      "type": "other",
+      "name": "on after modify trigger",
+      "t": 1790.9
+    },
+    {
+      "type": "other",
+      "name": "on before modify",
+      "t": 1790.9
+    },
+    {
+      "type": "other",
+      "name": "on before delete",
+      "t": 1790.9
+    },
+    {
+      "type": "other",
+      "name": "on after get current record",
+      "t": 1984.2
+    },
+    {
+      "type": "other",
+      "name": "on after get record",
+      "t": 1984.2
+    },
+    {
+      "type": "other",
+      "name": "dictionary data type",
+      "t": 2115.6
+    },
+    {
+      "type": "other",
+      "name": "set load fields",
+      "t": 2153.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mass",
+      "confidence": "high"
+    },
+    {
+      "name": "Matt",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22.7,
+      "text": "I'm mess I work on the AL runtime in one of the server teams.",
+      "why_it_matters": "Establishes the presenter's expertise and role in AL runtime development.",
+      "check": "exact"
+    },
+    {
+      "t": 341.4,
+      "text": "So, so uh lately we have done a lot of investment in uh in to improve performance um and more specifically uh performance of",
+      "why_it_matters": "Announces a strategic priority shift toward AL runtime performance optimization.",
+      "check": "exact"
+    },
+    {
+      "t": 456.1,
+      "text": "want to use like the super performant things you kind of begin saying like well the abstraction is this but if we",
+      "why_it_matters": "Explains the design philosophy of exposing leaky abstractions to enable performance optimization.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 625.5,
+      "text": "17 million rows which is a fairly large amount of data from a real customer",
+      "why_it_matters": "Quantifies the real-world performance improvement data transfer provides: from several days to 40 minutes for a production scenario.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 719.1,
+      "text": "set load fields requires manual uptake in your AL code. Um, and and we have seen quite a bit of success there.",
+      "why_it_matters": "Confirms adoption success of set load fields despite requiring manual code changes.",
+      "check": "exact"
+    },
+    {
+      "t": 743.8,
+      "text": "set load fields is automatically being applied if you do API calls on API pages and that was actually where we saw the biggest",
+      "why_it_matters": "Indicates that automatic application to API pages was the most effective deployment strategy for set load fields.",
+      "check": "exact"
+    },
+    {
+      "t": 801.8,
+      "text": "Nowadays, I think you know removing one join is still great and removing an amount of fields, right?",
+      "why_it_matters": "Clarifies the current performance value of set load fields compared to older partial records approach.",
+      "check": "exact"
+    },
+    {
+      "t": 954.2,
+      "text": "They kind of wanted this in between which is generally recommitted. So we wanted to give them that ability and then we just also",
+      "why_it_matters": "Explains the design decision behind offering multiple isolation levels based on developer feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 1265.6,
+      "text": "Lock table first and foremost it doesn't actually do anything in the moment like it doesn't go to SQL and takes a big lock",
+      "why_it_matters": "Directly corrects a major misconception about lock table behavior that many developers have.",
+      "check": "exact"
+    },
+    {
+      "t": 1336.4,
+      "text": "What we actually do is we say um you need to order the data like the resulting data in the order of whatever field",
+      "why_it_matters": "Clarifies actual behavior of set current key which differs from developer expectations.",
+      "check": "exact"
+    },
+    {
+      "t": 1562,
+      "text": "One of the problems with queries as they are right now is that you kind of have to write them as an AL object",
+      "why_it_matters": "Establishes the problem statement that dynamic queries would solve.",
+      "check": "exact"
+    },
+    {
+      "t": 1580.2,
+      "text": "It's a design time decision. You can't can't change them at one time.",
+      "why_it_matters": "Identifies the core limitation of current queries that motivates the dynamic query concept - they are immutable at runtime.",
+      "check": "exact"
+    },
+    {
+      "t": 1611.8,
+      "text": "I want to read from this base table, join in this other table and then maybe join in a third table but I only",
+      "why_it_matters": "Describes the runtime flexibility envisioned for dynamic queries with conditional joins based on data state.",
+      "check": "exact"
+    },
+    {
+      "t": 1804.1,
+      "text": "if you have that then we actually say well then we can't use the bulk statement. We can't just do one big delete. Then",
+      "why_it_matters": "Explains why current row-based triggers force performance-degrading fallback to row-by-row deletion instead of efficient bulk operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1895.2,
+      "text": "this is not next release or the one after this is like",
+      "why_it_matters": "Clarifies timing expectations: bulk events and set-based operations are aspirational long-term goals, not near-term roadmap items.",
+      "check": "exact"
+    },
+    {
+      "t": 1940.4,
+      "text": "when you we do for example um upgrade code units that often touch a lot of stuff. They're doing things row by row is",
+      "why_it_matters": "Identifies real performance impact of row-by-row processing in upgrade scenarios that affect many records.",
+      "check": "exact"
+    },
+    {
+      "t": 2048.2,
+      "text": "figure out like is this something that gets executed you know 10 times a day or 10,000 times a day or maybe millions of",
+      "why_it_matters": "Establishes the priority methodology for performance optimization - identify execution frequency first to allocate optimization effort.",
+      "check": "exact"
+    },
+    {
+      "t": 2132.6,
+      "text": "Dictionaries is way better you know asically it's uh it's login versus constant time",
+      "why_it_matters": "Quantifies the performance advantage of dictionaries over temporary tables using algorithmic complexity (O(1) vs O(log n)).",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 850.4,
+      "kind": "subject-to-change",
+      "text": "we actually want to do tri-state locking first but then we swapped it around and did read isolation first"
+    },
+    {
+      "t": 1516.8,
+      "kind": "other",
+      "text": "we don't we don't say anything when it's going to be shipped"
+    },
+    {
+      "t": 1539.3,
+      "kind": "coming-later",
+      "text": "none of these are actually in code. This is idea level like this is one step before"
+    },
+    {
+      "t": 1730.6,
+      "kind": "preview",
+      "text": "we might experiment with it there first"
+    },
+    {
+      "t": 1895.2,
+      "kind": "coming-later",
+      "text": "this is not next release or the one after this is like"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 15
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023993999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0487157
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.046101199999999995
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028765
+    }
+  ]
+}

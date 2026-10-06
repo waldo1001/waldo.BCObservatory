@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-lock-down-server-communication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-lock-down-server-communication",
+  "title": "Locking down server communication",
+  "blob": "30802cf651a50351f3b82dfce12acbba3acc77e6",
+  "summary": "Locking down server communication lists Business Central configuration settings for securing client and database connections including certificate validation, encryption, and file access controls.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "server configuration",
+    "encryption",
+    "authentication",
+    "communication"
+  ],
+  "objects": [],
+  "features": [
+    "ServicesCertificateValidationEnabled",
+    "EnableSqlConnectionEncryption",
+    "ODataServicesSSLEnabled",
+    "ClientServicesProtection",
+    "ClientServicesMaxUploadSize",
+    "ClientServicesProhibitedFileTypes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007392,
+      "pages_in_call": 8
+    }
+  ]
+}

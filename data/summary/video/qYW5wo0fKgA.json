@@ -1,0 +1,27 @@
+{
+  "video_id": "qYW5wo0fKgA",
+  "item_id": "video/yt-microsoft/qYW5wo0fKgA",
+  "summary": "Early access preview (EAP) sandbox environments for Business Central version 28.0, created from the admin center. Evidence for the requirements: partner sandbox license, USGB and DE regions only, weekly updates, not for production, and may be deleted without notice.",
+  "overview": "A short walkthrough of creating an early access preview environment from the Business Central admin center. Version 27.0 had just been released, and the EAP environment lets users look at version 28.0 and try the latest features before an official release.\n\nThe video shows the creation and confirmation steps, including the message box with the preview terms, and the notification bar shown inside the environment. It also covers limits: a partner sandbox license is needed, only USGB and DE are supported, environments are updated weekly, and they may be deleted without notice. Easier feature discovery inside these environments is described as planned.",
+  "key_points": [
+    "EAP environments are sandboxes running version 28.0, available while 27.0 is the newest released version.",
+    "Create them from the admin center; read the message box and the preview terms before confirming.",
+    "A partner sandbox license is required.",
+    "Creation is currently supported only in the USGB and DE regions.",
+    "Environments are updated to newer builds weekly.",
+    "Not for production use, since they may be deleted without notice.",
+    "A notification bar in the environment reminds users it is a preview and links to documentation; easier feature discovery and feedback is planned."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "ac7aab9322be180d3f17ebe0e1a086fdafdc50f845cb06114c51f613f1e0c888",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011088399999999998
+  }
+}
