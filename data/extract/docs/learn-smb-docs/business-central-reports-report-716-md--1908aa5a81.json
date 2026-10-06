@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-716.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-716",
+  "title": "Inventory Cost and price list (report)",
+  "blob": "2f78e646de754b9a2bf1cfcada53c3ed43a55f9a",
+  "summary": "Inventory Cost and price list report displays pricing and profitability information for items including unit costs, prices, and profit percentages.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "inventory pricing",
+    "cost analysis",
+    "profitability",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Cost and price list"
+    }
+  ],
+  "features": [
+    "direct unit cost",
+    "last direct cost",
+    "unit price",
+    "profit percentage",
+    "profit"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002007,
+      "pages_in_call": 8
+    }
+  ]
+}

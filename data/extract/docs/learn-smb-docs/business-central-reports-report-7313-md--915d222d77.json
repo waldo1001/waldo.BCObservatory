@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7313.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7313",
+  "title": "Warehouse Shipment Status (report)",
+  "blob": "d40b06930cad4354a5506af45652a81ab24f14fd",
+  "summary": "Warehouse Shipment Status report provides an overview of open source documents with shipped or due items per location, showing bin codes, document status, and quantities.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "shipment status",
+    "warehouse management",
+    "reporting",
+    "location tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Warehouse Shipment Status"
+    }
+  ],
+  "features": [
+    "locations",
+    "bin codes",
+    "document status",
+    "quantities",
+    "shipment tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002007,
+      "pages_in_call": 8
+    }
+  ]
+}

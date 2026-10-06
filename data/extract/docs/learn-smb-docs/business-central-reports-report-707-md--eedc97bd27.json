@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-707.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-707",
+  "title": "Inventory Availability Plan (report)",
+  "blob": "eb7aa590bb5afdbca6d1bf23e674abba696bb287",
+  "summary": "The Inventory Availability Plan report shows accumulated inventory values like gross requirements, scheduled receipts, and planned receipts by item and SKU, with an Excel replacement available.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "inventory planning",
+    "availability",
+    "stock levels",
+    "production planning",
+    "obsolete report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Availability Plan"
+    }
+  ],
+  "features": [
+    "Item availability overview",
+    "SKU tracking",
+    "Gross requirements",
+    "Scheduled receipts",
+    "Planned receipts",
+    "Accumulated values"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003196,
+      "pages_in_call": 8
+    }
+  ]
+}

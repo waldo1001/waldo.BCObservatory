@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5806.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5806",
+  "title": "Item Charges - Specification (report)",
+  "blob": "81d451585e239be3ff80b5febe1b2c14e1086aea",
+  "summary": "The Item Charges - Specification report shows posted item charges by inventory posting groups and items, including breakdown details for cost analysis and procurement optimization.",
+  "systems": [
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "item charges",
+    "cost analysis",
+    "procurement",
+    "inventory valuation",
+    "financial reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Charges - Specification"
+    }
+  ],
+  "features": [
+    "Posted item charges",
+    "Inventory posting group analysis",
+    "Charge breakdown details",
+    "Sales/purchase filtering",
+    "Posting date tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003196,
+      "pages_in_call": 8
+    }
+  ]
+}

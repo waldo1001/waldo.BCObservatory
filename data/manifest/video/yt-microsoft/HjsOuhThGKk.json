@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Summarize with Copilot (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=HjsOuhThGKk",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:45:39.123Z",
+      "captions": "auto:en-orig",
+      "duration_s": 451
+    },
+    "captioned": {
+      "at": "2026-10-06T18:45:45.665Z",
+      "path": "data/captions/microsoft/HjsOuhThGKk.vtt",
+      "vtt_sha256": "8c5f370644fede28bd31e498ddc0d720031dfb82864460af6b8ee5fabcc70502",
+      "segments": 24,
+      "words": 1395,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 260,
     "duration_s": 451,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c5f370644fede28bd31e498ddc0d720031dfb82864460af6b8ee5fabcc70502"
 }

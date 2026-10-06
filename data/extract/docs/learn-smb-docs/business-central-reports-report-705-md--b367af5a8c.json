@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-705.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-705",
+  "title": "Inventory Availability (report)",
+  "blob": "799e956f6f1e411425677df4031e721494dc1849",
+  "summary": "The Inventory Availability report shows on-hand inventory combined with expected supply and demand from sales orders, purchase orders, and transfers to help planners and managers optimize inventory levels.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "inventory reporting",
+    "availability",
+    "stock levels",
+    "demand planning",
+    "supply planning"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Availability"
+    }
+  ],
+  "features": [
+    "Inventory availability overview",
+    "SKU reporting",
+    "On-hand quantities",
+    "Demand forecasting",
+    "Supply tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003196,
+      "pages_in_call": 8
+    }
+  ]
+}

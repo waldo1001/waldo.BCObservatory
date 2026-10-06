@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7151.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7151",
+  "title": "Item Dimensions - Total (report)",
+  "blob": "eec5e79e68077e7d4547ccfb5ca87d43c1a79e6f",
+  "summary": "Item Dimensions - Total report shows calculated inventory entry totals by specified dimension levels and locations for a given period, supporting analysis by sales, purchases, or inventory sources.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "inventory analysis",
+    "dimension analysis",
+    "reporting",
+    "analysis views",
+    "supply chain"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Dimensions - Total"
+    }
+  ],
+  "features": [
+    "dimension levels",
+    "location dimension",
+    "analysis views",
+    "calculation methods",
+    "analysis columns",
+    "net change",
+    "balance",
+    "budget vs actual"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002007,
+      "pages_in_call": 8
+    }
+  ]
+}

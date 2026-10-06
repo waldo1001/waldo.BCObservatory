@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-720.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-720",
+  "title": "Item/vendor catalog (report)",
+  "blob": "5f6cf61cbf3e6f3296c7431a579de019ecf8560d",
+  "summary": "Item/vendor catalog report lists vendors for selected items or items for selected vendors, showing direct unit cost, lead time calculation, and vendor item numbers.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "vendor catalog",
+    "item management",
+    "purchasing",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item/vendor catalog"
+    }
+  ],
+  "features": [
+    "vendor information",
+    "direct unit cost",
+    "lead time",
+    "vendor item number"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002007,
+      "pages_in_call": 8
+    }
+  ]
+}

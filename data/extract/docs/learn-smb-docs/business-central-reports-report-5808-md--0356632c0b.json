@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5808.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5808",
+  "title": "Item Age Composition by Quantity and Value Excel (report)",
+  "blob": "a5811916612a9a3792f936b311d9ad856ce9006c",
+  "summary": "Item Age Composition by Quantity and Value report shows on-hand inventory quantity and value aged by receipt date across three equal-length periods.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "inventory aging",
+    "age composition",
+    "warehouse management",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Age Composition by Quantity and Value"
+    }
+  ],
+  "features": [
+    "aging analysis",
+    "quantity analysis",
+    "value analysis",
+    "receipt date",
+    "slow-moving inventory"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002007,
+      "pages_in_call": 8
+    }
+  ]
+}

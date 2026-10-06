@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1001.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1001",
+  "title": "Inventory Valuation (report)",
+  "blob": "fcfee3c1f94b7e12154b79a4c3516d6a29c7ce64",
+  "summary": "The Inventory Valuation report shows inventory quantity and value from a start date to end date, including decreases and increases, for reconciling inventory subledger to general ledger.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "inventory valuation",
+    "financial reporting",
+    "cost accounting",
+    "reconciliation",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Valuation"
+    }
+  ],
+  "features": [
+    "Beginning balance reporting",
+    "Closing balance reporting",
+    "Value changes tracking",
+    "Expected cost posting",
+    "GL reconciliation",
+    "Location filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003196,
+      "pages_in_call": 8
+    }
+  ]
+}

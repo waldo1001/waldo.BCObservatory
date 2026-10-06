@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7150.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7150",
+  "title": "Item Dimensions - Detail (report)",
+  "blob": "4af3f0dc21bec1de4a3fbd74ad38410a6ed70c33",
+  "summary": "The Item Dimensions - Detail report shows value entry breakdown by specified dimension levels from analysis views covering sales, purchases, or inventory with location as an automatic dimension.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "dimensional analysis",
+    "value entries",
+    "inventory analytics",
+    "location tracking",
+    "segment analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Dimensions - Detail"
+    }
+  ],
+  "features": [
+    "Dimension analysis",
+    "Analysis views",
+    "Dimension hierarchies",
+    "Location tracking",
+    "Multi-source analysis",
+    "Value entry breakdown"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003196,
+      "pages_in_call": 8
+    }
+  ]
+}
