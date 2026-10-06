@@ -1,0 +1,61 @@
+{
+  "video_id": "5Qfc7r618OM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6,
+      "end": 23.2,
+      "text": "When business experiences a problem with the integration between the front end Shopify and back end Business Central, it is important to quickly find the root cause and different levels of logging helps to reduce time needed to investigate and solve the problem."
+    },
+    {
+      "t": 23.2,
+      "end": 38.8,
+      "text": "Let's see it in action. In this scenario, customer data will be exported as a Shopify company. When exporting data to Shopify, the Shopify connector skips records if they are invalid for export or likely to be rejected by"
+    },
+    {
+      "t": 38.8,
+      "end": 54.2,
+      "text": "Shopify. During synchronization, a notification about skipped records appears. Choose view skipped records to open the Shopify skipped records page. There is an entry indicating an email is missing, which is a required field."
+    },
+    {
+      "t": 54.2,
+      "end": 63.8,
+      "text": "Choose show record to open customer card page and confirm the email field is empty. This needs to be"
+    },
+    {
+      "t": 67,
+      "end": 76.2,
+      "text": "corrected. Before closing the page, notice other examples related to items or sales invoice"
+    },
+    {
+      "t": 76.2,
+      "end": 83.9,
+      "text": "exports. After fixing the customer record, export it successfully."
+    },
+    {
+      "t": 84.2,
+      "end": 94.6,
+      "text": "The functionality is controlled by the logging mode field. Both all and error only activate logging of skipped entries. Thank you for watching."
+    },
+    {
+      "t": 94.6,
+      "end": 107,
+      "text": "You can find additional details about this capability in the release note. Also check other videos about other Shopify enhancements. You can find links in the description."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.99,
+      "text": "[Music]"
+    },
+    {
+      "t": 6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 208
+}
