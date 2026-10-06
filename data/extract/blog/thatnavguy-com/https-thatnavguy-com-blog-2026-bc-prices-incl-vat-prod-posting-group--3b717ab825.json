@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/",
+  "url": "https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/",
+  "title": "Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2",
+  "source": "thatnavguy-com",
+  "published_at": "2026-08-24T00:00:00.000Z",
+  "words": 257,
+  "summary": "Business Central v28.2 changed how it handles VAT Product Posting Group changes on G/L Account purchase lines when Prices Incl. VAT is enabled. Previously the total including VAT remained constant, but now the unit cost recalculates and the total amount decreases.",
+  "key_points": [
+    "VAT Product Posting Group changes on G/L Account lines now recalculate the direct unit cost when Prices Incl. VAT is true",
+    "The total including VAT no longer stays constant after a VAT posting group change",
+    "Build w1-28.2.50931.51034 introduced this change by including G/L Account lines in the unit cost update logic",
+    "Sales line logic remains unaffected by this change"
+  ],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "pricing",
+    "purchase orders",
+    "behavior change",
+    "posting groups"
+  ],
+  "objects": [],
+  "features": [
+    "Prices Incl. VAT",
+    "VAT Product Posting Group",
+    "Direct Unit Cost recalculation"
+  ],
+  "versions": [
+    "28.2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005175,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "BC has always kept the Direct Unit Cost for G/L Account lines when you change the VAT Product Posting Group.",
+      "why_it_matters": "Explains the historical expected behavior that users relied on before v28.2"
+    },
+    {
+      "text": "If you're on v28.2 and you use Prices Incl. VAT with G/L Account purchase lines, it's worth to be cautious about this.",
+      "why_it_matters": "Provides actionable guidance for users who may be affected by this regression"
+    }
+  ]
+}

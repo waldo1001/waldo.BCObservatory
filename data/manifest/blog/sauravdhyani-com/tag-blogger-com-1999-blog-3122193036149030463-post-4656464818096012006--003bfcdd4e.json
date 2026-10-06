@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/08/ai-part2-setup-vscode-al-copilot.html",
   "published_at": "2026-08-20T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:11.625Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4656464818096012006--003bfcdd4e.md",
+      "words": 453
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:19.271Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005661
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:19.272Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:21.308Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:21.312Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4656464818096012006--003bfcdd4e.md"
     }
   },
   "input_hash": "2026-08-20T05:30:00.180Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a43aaba2cd68566d2f448429f03d729ab18ab8fca930ee4ac1622fa530813647"
 }

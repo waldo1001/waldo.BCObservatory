@@ -7,7 +7,7 @@
   "url": "https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/",
   "published_at": "2026-08-24T00:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:40:35.126Z",
       "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825.md",
       "words": 257
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:41.964Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005175
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:41.966Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:41.967Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:41.971Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "136c4d42309e76765ee0cdd43bb9015ef8d92c715bee6533bd7b07b4fdbc79fe"
+  "output_hash": "772f7444e80eab1737e6ab0979f2654c9d67e6768ffe6ef9011a97484b022aaa"
 }

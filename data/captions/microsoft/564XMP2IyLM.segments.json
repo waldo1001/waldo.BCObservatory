@@ -1,0 +1,68 @@
+{
+  "video_id": "564XMP2IyLM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 23,
+      "text": "use retention policies to avoid unnecessary database growth some tables in business Central are intended for activity logging And archiving it's a good idea to keep these tables trimmed so you don't store records forever this can be fully automated with the use of retention policies let's have a"
+    },
+    {
+      "t": 23,
+      "end": 43,
+      "text": "look here you see the default retention policies provided with business Central it's up to you to enable the policies you want enforced in our company the job Q is very active and produces a lot of logging data data that has no value long term let's set up a retention policy to trim this table set up"
+    },
+    {
+      "t": 43,
+      "end": 63.1,
+      "text": "a new policy we select the table the job CU log entry we set the retention period to 1 month but actually now that I think about it I don't want to store all data in this table for one month it depends depends on if the job queue has failed or successful so I I deselect the apply to all records setting let me"
+    },
+    {
+      "t": 63.1,
+      "end": 83.4,
+      "text": "Define the policies for the subsets of this table I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can analyze these errors so let me set up a retention period for 5 days for this specific case but for the"
+    },
+    {
+      "t": 83.4,
+      "end": 104.3,
+      "text": "job Q runs that are succeeded I don't want to keep them more than just two days let me see say success and set the retention Period 2 days now I can enable this retention policy and this will now continuously make sure that data in the job key log entry is deleted after"
+    },
+    {
+      "t": 104.3,
+      "end": 125.3,
+      "text": "two and 5 days respectively with that it's super easy to set up how data in these kinds of tables should be governed and when it should be deleted save your database cost and do a good thing for performance use for policies thank you for"
+    },
+    {
+      "t": 126.2,
+      "end": 127,
+      "text": "watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.21,
+      "text": "[Music]"
+    },
+    {
+      "t": 0.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 0.48,
+      "text": "[Music]"
+    },
+    {
+      "t": 124.14,
+      "text": "[Music]"
+    },
+    {
+      "t": 126.19,
+      "text": "[Music]"
+    },
+    {
+      "t": 126.2,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 327
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/copilot-to-claude-code/",
+  "url": "https://tine.staric.net/blog/2026/copilot-to-claude-code/",
+  "title": "Copilot is agent-first, Claude Code is skill-first",
+  "source": "tine-staric-net",
+  "published_at": "2026-08-21T08:00:00.000Z",
+  "words": 1097,
+  "summary": "Copilot uses an agent-first architecture where you select a persona before interacting, while Claude Code is skill-first with a single agent throughout a session. Understanding this difference is crucial when migrating custom agents between platforms, as agents that step into conversations in Copilot map to skills in Claude Code, while those that fork and report map to subagents.",
+  "key_points": [
+    "Copilot agents come in two types: runSubagent agents that fork and report back (equivalent to Claude Code subagents), and dropdown agents that prepend instructions to the current conversation (equivalent to skills)",
+    "Claude Code skills cannot restrict tools since they are inline text read by the main agent, while Copilot agents could guarantee tool restrictions; critical tool restrictions require Claude Code subagents instead",
+    "Migrating workflows requires sorting each agent by its actual isolation behavior rather than file type, not translating agents one-to-one between platforms",
+    "Skills from Copilot transfer directly to Claude Code without changes, but dropdown agents require restructuring",
+    "Determine whether to use a skill or subagent by asking if it needs on-demand invocation and whether work belongs in the current conversation or an isolated context"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "agent architecture",
+    "skill vs subagent",
+    "platform migration",
+    "claude code",
+    "copilot",
+    "tool restrictions",
+    "workflow design"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot agent selection",
+    "Claude Code subagents",
+    "Claude Code skills",
+    "runSubagent API",
+    "Tool restriction in agents",
+    "Context isolation",
+    "MCP server configuration"
+  ],
+  "versions": [
+    "Claude Code",
+    "Copilot vol.3"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007185,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

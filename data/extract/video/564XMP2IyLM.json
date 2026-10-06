@@ -1,0 +1,182 @@
+{
+  "video_id": "564XMP2IyLM",
+  "item_id": "video/yt-microsoft/564XMP2IyLM",
+  "title": "Use Retention Policies to Avoid Unnecessary Database Growth",
+  "duration_s": 127,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "retention policies",
+    "database growth",
+    "data archiving",
+    "job queue",
+    "logging",
+    "automated deletion",
+    "data governance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to retention policies",
+      "t_start": 0,
+      "t_end": 23
+    },
+    {
+      "title": "Default retention policies and job queue example",
+      "t_start": 23,
+      "t_end": 43
+    },
+    {
+      "title": "Configuring retention period and filtering records",
+      "t_start": 43,
+      "t_end": 63.1
+    },
+    {
+      "title": "Setting retention for failed and successful job queue entries",
+      "t_start": 63.1,
+      "t_end": 83.4
+    },
+    {
+      "title": "Enabling the retention policy",
+      "t_start": 83.4,
+      "t_end": 104.3
+    },
+    {
+      "title": "Summary and benefits",
+      "t_start": 104.3,
+      "t_end": 127
+    }
+  ],
+  "features": [
+    {
+      "name": "Retention Policies",
+      "description": "Automated data retention and deletion feature that allows users to define policies for trimming activity logging and archiving tables to avoid unnecessary database growth.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.5,
+      "t_end": 126.2,
+      "is_demoed": true,
+      "caveats": [
+        "Policies must be manually enabled by users",
+        "Policies can be configured with record-level filters to target specific subsets of data"
+      ],
+      "tags": [
+        "retention",
+        "data governance",
+        "automated deletion",
+        "database optimization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Default Retention Policies",
+      "description": "Business Central provides default retention policies that users can enable for common tables like job queue log entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23,
+      "t_end": 43,
+      "is_demoed": true,
+      "caveats": [
+        "Users must choose which policies to enable"
+      ],
+      "tags": [
+        "default policies",
+        "job queue",
+        "preconfigured"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Filtered Retention Policies",
+      "description": "Retention policies can be configured with filters to apply different retention periods to different subsets of records, such as separating failed and successful job queue entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 83.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual configuration of filter criteria and retention periods per subset"
+      ],
+      "tags": [
+        "filtering",
+        "record subsets",
+        "conditional retention"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "job CU log entry",
+      "t": 43
+    },
+    {
+      "type": "table",
+      "name": "job queue log entry",
+      "t": 43
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "some tables in business Central are intended for activity logging And archiving it's a good idea to keep these tables trimmed so you don't",
+      "why_it_matters": "Explains the core problem that retention policies solve - preventing indefinite accumulation of activity log data.",
+      "check": "exact"
+    },
+    {
+      "t": 23,
+      "text": "here you see the default retention policies provided with business Central it's up to you to enable the policies you want enforced",
+      "why_it_matters": "Clarifies that retention policies are provided but optional, requiring users to actively enable them.",
+      "check": "exact"
+    },
+    {
+      "t": 43,
+      "text": "I don't want to store all data in this table for one month it depends depends on if the job queue has failed or",
+      "why_it_matters": "Demonstrates the need for granular control - different data may warrant different retention periods.",
+      "check": "exact"
+    },
+    {
+      "t": 63.1,
+      "text": "I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can",
+      "why_it_matters": "Shows a practical retention decision balancing data value with cleanup - failed entries kept longer to allow analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 83.4,
+      "text": "I can enable this retention policy and this will now continuously make sure that data in the job key log entry is deleted after",
+      "why_it_matters": "Confirms that retention policies execute automatically and continuously enforce the configured retention periods.",
+      "check": "exact"
+    },
+    {
+      "t": 104.3,
+      "text": "save your database cost and do a good thing for performance use for policies",
+      "why_it_matters": "Articulates the benefits of retention policies - cost savings and performance improvement.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011128
+    }
+  ]
+}

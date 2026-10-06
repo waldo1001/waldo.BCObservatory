@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/08/21/advanced-json-management-for-business-central-developers/",
   "published_at": "2026-08-21T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:49.284Z",
+      "path": "vault:posts/aardvarklabs-blog/2812.md",
+      "words": 1359
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:58.377Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.012543
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:58.378Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:58.380Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:58.383Z",
+      "path": "content/posts/aardvarklabs-blog/2812.md"
     }
   },
   "input_hash": "2026-08-05T01:15:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0553bcbb2c795abad24bedf20816b12c8bd79bc7c1e9b208af37ce380ebd5afe"
 }

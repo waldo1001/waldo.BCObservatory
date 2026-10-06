@@ -1,0 +1,26 @@
+{
+  "video_id": "564XMP2IyLM",
+  "item_id": "video/yt-microsoft/564XMP2IyLM",
+  "summary": "Retention policies in Business Central let administrators trim activity logging and archiving tables to avoid unnecessary database growth. The video demos enabling a default policy on the job queue log entry table and using filters to set different retention periods for failed and successful entries.",
+  "overview": "The video explains that some Business Central tables are meant for activity logging and archiving, and that keeping them trimmed prevents unnecessary database growth. It shows the default retention policies that ship with the product and notes that each policy must be enabled by the user.\n\nUsing the job queue log entry table as an example, it sets a retention period and applies filters so failed entries are kept for 5 days and successful entries get a separate period. Once enabled, the policy continuously deletes data older than the retention period. The video presents this as a way to reduce database cost and help performance.",
+  "key_points": [
+    "Business Central ships default retention policies, but none are enforced until you enable the ones you want.",
+    "Retention policies are meant for activity logging and archiving tables, such as the job queue log entries table.",
+    "Filters let you apply different retention periods to different subsets of records, for example failed versus successful job queue entries.",
+    "The demo keeps failed job queue log entries for 5 days so people have time to react to failures.",
+    "Each subset needs its own filter criteria and retention period, configured manually.",
+    "After a policy is enabled, it continuously deletes data older than the retention period.",
+    "Stated benefits are lower database cost and better performance."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "e9f673bff37d2983b706a73ad90d2796a2b8af57a8d9aed09329f60fbb5619c7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0110004
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "video_id": "F_pssS0FtUc",
+  "item_id": "video/yt-microsoft/F_pssS0FtUc",
+  "title": "Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data",
+  "duration_s": 2392,
+  "systems": [
+    "platform",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry data",
+    "usage analytics",
+    "power bi reporting",
+    "go-live optimization",
+    "user acceptance testing",
+    "privacy compliance",
+    "gdpr",
+    "field monitoring",
+    "performance tracking",
+    "change management",
+    "error tracking",
+    "metrics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and telemetry overview",
+      "t_start": 0,
+      "t_end": 85.2
+    },
+    {
+      "title": "What is telemetry and privacy compliance",
+      "t_start": 85.2,
+      "t_end": 162.1
+    },
+    {
+      "title": "Audience and business value",
+      "t_start": 162.1,
+      "t_end": 222.2
+    },
+    {
+      "title": "Business Central usage app overview",
+      "t_start": 222.2,
+      "t_end": 296.4
+    },
+    {
+      "title": "Usage metrics - DAU/WAU/MAU and sessions",
+      "t_start": 296.4,
+      "t_end": 414.9
+    },
+    {
+      "title": "Client types, browsers, and user locations",
+      "t_start": 414.9,
+      "t_end": 509.6
+    },
+    {
+      "title": "Administration and change tracking",
+      "t_start": 509.6,
+      "t_end": 588.5
+    },
+    {
+      "title": "Go-live phase and user acceptance testing",
+      "t_start": 588.5,
+      "t_end": 669
+    },
+    {
+      "title": "Using telemetry data for testing validation",
+      "t_start": 669,
+      "t_end": 883
+    },
+    {
+      "title": "Feature telemetry and integrations during UAT",
+      "t_start": 883,
+      "t_end": 1018.9
+    },
+    {
+      "title": "Error report and error telemetry for go-live",
+      "t_start": 1018.9,
+      "t_end": 1240.4
+    },
+    {
+      "title": "Tracking error progress and KPI monitoring",
+      "t_start": 1240.4,
+      "t_end": 1554.4
+    },
+    {
+      "title": "Using data to add value in partner meetings and Excel layouts",
+      "t_start": 1554.4,
+      "t_end": 1858.5
+    },
+    {
+      "title": "Connectors report and application areas usage analysis",
+      "t_start": 1858.5,
+      "t_end": 2054.1
+    },
+    {
+      "title": "Telemetry setup, configuration, and implementation checklist",
+      "t_start": 2054.1,
+      "t_end": 2392
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central Telemetry",
+      "description": "Opt-in usage data collection for business Central environments tracking usage patterns, errors, performance, and changes. Designed to be privacy compliant and GDPR conformant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.4,
+      "t_end": 126.5,
+      "is_demoed": true,
+      "caveats": [
+        "opt-in feature",
+        "requires administrator setup"
+      ],
+      "tags": [
+        "telemetry",
+        "usage data",
+        "privacy",
+        "opt-in"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central Usage App",
+      "description": "A Power BI hosted application with four different reports - usage, error, performance, and administration reports - providing visualization of telemetry data across multiple environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 222.2,
+      "t_end": 242.3,
+      "is_demoed": true,
+      "caveats": [
+        "must be installed from Power BI App Source"
+      ],
+      "tags": [
+        "power bi",
+        "reporting",
+        "analytics",
+        "dashboards"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "DAU/WAU/MAU Report",
+      "description": "Tracks daily, weekly, and monthly active users in business Central environments. Shows usage growth patterns and user adoption across go-live phases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 255.7,
+      "t_end": 377.1,
+      "is_demoed": true,
+      "caveats": [
+        "includes multiple environments if configured",
+        "patterns differ by business cycle"
+      ],
+      "tags": [
+        "user metrics",
+        "adoption tracking",
+        "dau",
+        "wau",
+        "mau"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sessions Report",
+      "description": "Shows user types, client types used (Teams, phone, web), login patterns across days and weeks, and configurable time windows for data analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 394.8,
+      "t_end": 414.9,
+      "is_demoed": true,
+      "caveats": [
+        "time window configurable at install time"
+      ],
+      "tags": [
+        "client types",
+        "session tracking",
+        "login patterns"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Client Types and Browser Report",
+      "description": "Reports on which browsers and clients (tablet, phone, desktop) users access business Central with, and screen sizes, useful for UI design decisions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 435,
+      "t_end": 469.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "client analysis",
+        "browser tracking",
+        "device types"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "User Locations Report",
+      "description": "Maps user login locations and shows language preferences set by users in their client configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 469.4,
+      "t_end": 509.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "geolocation",
+        "language preferences",
+        "user distribution"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Change Report",
+      "description": "Tracks environment and extension changes across all environments and dimensions, showing what changed, when it changed, and which components were affected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 549.8,
+      "t_end": 588.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "change tracking",
+        "audit trail",
+        "environment management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Sensitive Field Monitoring",
+      "description": "Administrator feature to track changes to sensitive fields like credit card or bank information. Logs who changed it, when, and which field in which table, but does not log the actual data changed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 588.5,
+      "t_end": 628.9,
+      "is_demoed": true,
+      "caveats": [
+        "only logs metadata, not actual data values",
+        "administrator configuration required"
+      ],
+      "tags": [
+        "field monitoring",
+        "sensitive data",
+        "audit",
+        "privacy"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Page Views Report",
+      "description": "Shows which pages in the Business Central client have been visited by users, with statistics on visit frequency and timing patterns across days and weeks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 709.2,
+      "t_end": 750,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page tracking",
+        "user navigation",
+        "functionality usage"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Application Highlights Report",
+      "description": "Shows which places in the base application were touched or tested by users during testing phases, organized by functional area like finance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791.2,
+      "t_end": 832,
+      "is_demoed": true,
+      "caveats": [
+        "absence of data may indicate areas not tested or not in scope"
+      ],
+      "tags": [
+        "application coverage",
+        "testing validation",
+        "functional areas"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Reports Usage Report",
+      "description": "Tracks which reports users have been running, including whether they downloaded, previewed, or printed reports, with timing patterns by day and week.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 842.8,
+      "t_end": 883,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report tracking",
+        "printing",
+        "report consumption"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Feature Telemetry",
+      "description": "Developers can instrument every part of the application with feature telemetry events to track how often particular features are used during testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 883,
+      "t_end": 923.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "feature tracking",
+        "user acceptance testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Integrations Page in Telemetry",
+      "description": "A page showing integrations to and from Business Central including apps published by Microsoft and third-party installed apps, allowing teams to test external system integrations during user acceptance testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 923.3,
+      "t_end": 974.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "integrations",
+        "telemetry",
+        "user acceptance testing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Statistical Accounts",
+      "description": "A new finance feature coming in version 22.2.0 that can be tested during user acceptance testing to verify permission setup and proper usage.",
+      "status": "announced",
+      "status_evidence_t": 1099.4,
+      "status_evidence_quote": "statistical accounts this is a new feature by the way coming in version 22 2.0 in the finance",
+      "status_evidence_verified": true,
+      "t_start": 1099.4,
+      "t_end": 1119.4,
+      "is_demoed": true,
+      "caveats": [
+        "This is coming in version 22.2.0, not yet released at time of presentation"
+      ],
+      "tags": [
+        "new feature",
+        "finance",
+        "version 22.2.0"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Error Message Feedback Voting",
+      "description": "Users can provide feedback on whether error messages are helpful through a voting system that allows customization and improvement of user experience during go-live preparation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1119.4,
+      "t_end": 1179.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error tracking",
+        "user feedback",
+        "go-live preparation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Error Dashboard",
+      "description": "Displays all types of errors that happen in Business Central including user errors, integration errors, and system errors, allowing project teams to track and address issues before go-live.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1018.9,
+      "t_end": 1258.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error tracking",
+        "dashboard",
+        "go-live"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "KPI Tracking in Error Report",
+      "description": "Error report pages include KPIs that track changes in errors over time such as 'since yesterday' and 'last seven days' to monitor progress in driving errors to zero during go-live.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1258.4,
+      "t_end": 1351.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual checking across multiple pages in the error report"
+      ],
+      "tags": [
+        "kpi tracking",
+        "error monitoring",
+        "go-live"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Metrics",
+      "description": "A Power BI feature available with a pro license that allows creation of scorecards and metrics to automatically track KPI changes over time and send notifications to Teams when metrics reach certain states.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1351.7,
+      "t_end": 1554.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Power BI Pro license at $10 USD per month"
+      ],
+      "tags": [
+        "power bi",
+        "metrics",
+        "scorecards",
+        "kpi tracking",
+        "notifications"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Usage Report",
+      "description": "A Power BI report showing which pages, reports, features and integrations have been used during user acceptance testing, helping teams verify that key areas were actually tested.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791.2,
+      "t_end": 998.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "usage tracking",
+        "reports",
+        "user acceptance testing",
+        "telemetry"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layouts for reports",
+      "description": "End users can create report layouts using Excel by exporting data, adding pivot tables and custom formatting, then uploading the template back to business Central. This moves layout responsibility from developers to end users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1695.1,
+      "t_end": 1756.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires end user Excel skills",
+        "Template management needed when uploading"
+      ],
+      "tags": [
+        "reporting",
+        "excel",
+        "user-customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Connectors report showing integrations",
+      "description": "Telemetry report that displays integrations into business Central from Teams, Excel, Power BI, Power Automate, and Power Apps, enabling partners to identify expansion opportunities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1858.5,
+      "t_end": 1899,
+      "is_demoed": true,
+      "caveats": [
+        "Absence of data indicates untapped integration opportunities"
+      ],
+      "tags": [
+        "telemetry",
+        "integration",
+        "power-platform"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Application areas usage in telemetry",
+      "description": "Telemetry tracks usage of different application areas in business Central, such as fixed assets. This helps identify functionality the customer is paying for but not using.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1919.3,
+      "t_end": 1993,
+      "is_demoed": true,
+      "caveats": [
+        "Requires training and adoption planning when implementing new areas"
+      ],
+      "tags": [
+        "telemetry",
+        "feature-adoption",
+        "usage-analysis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Application Insights resource setup",
+      "description": "Azure Application Insights is used as the backend resource to store business Central telemetry data. It must be created in Azure before configuring business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2054.1,
+      "t_end": 2114.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Azure subscription",
+        "Customer or partner can own the resource"
+      ],
+      "tags": [
+        "telemetry",
+        "azure",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central telemetry configuration",
+      "description": "Telemetry is configured through the tenant admin center by defining application insights connection string. Configuration causes environment restart so must be done outside working hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2171.6,
+      "t_end": 2223.5,
+      "is_demoed": true,
+      "caveats": [
+        "Environment restart required - must be done during off-hours",
+        "Connection string must be carefully copied"
+      ],
+      "tags": [
+        "telemetry",
+        "administration",
+        "setup"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power BI business Central usage analytics app",
+      "description": "Official Power BI app available on Microsoft AppSource that visualizes business Central telemetry data with configurable data retention windows and nightly refresh cycles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2223.5,
+      "t_end": 2285.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Power BI license",
+        "Same organization owning Application Insights should install app",
+        "App refresh is nightly only"
+      ],
+      "tags": [
+        "telemetry",
+        "power-bi",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Telemetry version support back to version 15",
+      "description": "Telemetry capability is supported from business Central version 15 onwards, with version 22 releasing April 2023. Higher versions provide more data types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2114.7,
+      "t_end": 2134.9,
+      "is_demoed": false,
+      "caveats": [
+        "Earlier versions have fewer data types available",
+        "Newer versions recommended for broader telemetry"
+      ],
+      "tags": [
+        "telemetry",
+        "versioning"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "job queue errors",
+      "t": 1413.4
+    },
+    {
+      "type": "report",
+      "name": "usage report",
+      "t": 1669.5
+    },
+    {
+      "type": "report",
+      "name": "connectors report",
+      "t": 1858.5
+    },
+    {
+      "type": "report",
+      "name": "fixed assets report",
+      "t": 1932.4
+    },
+    {
+      "type": "other",
+      "name": "business Central usage analytics",
+      "t": 2223.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny pontan",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 24.4,
+      "text": "go lives and optimize your investments with business central using telemetry data",
+      "why_it_matters": "States the core value proposition of using telemetry for low-friction implementations and ROI optimization.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 85.2,
+      "text": "business Central Telemetry is opt in you don't have to use it um administrators can set it up either you um as a tenant",
+      "why_it_matters": "Clarifies that telemetry is optional and can be configured by tenant administrators or partners, establishing its voluntary nature.",
+      "check": "exact"
+    },
+    {
+      "t": 106.1,
+      "text": "the feature itself has been designed to be privacy compliant we designed privacy into this so whatever you are under gdpr in European union",
+      "why_it_matters": "Confirms privacy-by-design approach and GDPR compliance, addressing customer concerns about data collection.",
+      "check": "exact"
+    },
+    {
+      "t": 141.9,
+      "text": "we meaning business Central will lock data about the usage what do users do in business Central errors if something goes wrong performance where",
+      "why_it_matters": "Defines the specific data categories collected by telemetry: usage, errors, performance, and changes.",
+      "check": "exact"
+    },
+    {
+      "t": 255.7,
+      "text": "business Central Telemetry can have data for multiple environments or a single environment it doesn't matter",
+      "why_it_matters": "Explains flexibility of telemetry across single or multiple environment deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 336.8,
+      "text": "if we're doing it right and if the partner is doing it right with an Eep system your M numbers are likely to be",
+      "why_it_matters": "Defines expected user behavior pattern post-go-live, showing monthly active users should stabilize after implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 588.5,
+      "text": "business Central comes with a nice feature called sensitive field monitoring sensitive field monitoring allows the administrator of business Central to to say I",
+      "why_it_matters": "Introduces sensitive field monitoring as built-in audit capability for regulatory compliance and data protection.",
+      "check": "exact"
+    },
+    {
+      "t": 628.9,
+      "text": "the go live phase has many many different things that you on the customer end and the partner on the partner end need to",
+      "why_it_matters": "Frames the two key go-live validation tasks: user acceptance testing and stability testing.",
+      "check": "snapped"
+    },
+    {
+      "t": 998.8,
+      "text": "you can use the power Pi report the usage part and you can simply check if if key Pages reports features Integrations have been",
+      "why_it_matters": "Shows how telemetry data eliminates the need for status meetings by providing objective data on what was actually tested during UAT.",
+      "check": "exact"
+    },
+    {
+      "t": 1038.9,
+      "text": "the error report comes with a built-in dashboard so here you have an overview of all the types of errors that happen in business",
+      "why_it_matters": "Describes the error dashboard as a standard feature providing centralized visibility of all error types for go-live preparation.",
+      "check": "exact"
+    },
+    {
+      "t": 1099.4,
+      "text": "statistical accounts this is a new feature by the way coming in version 22 2.0 in the finance",
+      "why_it_matters": "Establishes that statistical accounts is a feature announced for version 22.2.0, indicating its future availability status rather than current general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 1291.4,
+      "text": "if you look closely and on some of the pages in the error report you notice might have noticed that there are kpis um",
+      "why_it_matters": "Explains how error tracking KPIs are structured to monitor changes over specific time periods during go-live initiatives.",
+      "check": "exact"
+    },
+    {
+      "t": 1351.7,
+      "text": "this powerbi report is uh for for you to use that you need a powerbi pro license that cost you 10 bucks a month",
+      "why_it_matters": "Establishes the licensing cost requirement for Power BI Pro needed to use advanced metrics and scorecard tracking features.",
+      "check": "exact"
+    },
+    {
+      "t": 1493.8,
+      "text": "if you set this up during go live and keep it like that you will even get notifications if job cure Era start to",
+      "why_it_matters": "Highlights the proactive monitoring capability of Power BI metrics to alert teams to regression in key error metrics post-go-live.",
+      "check": "exact"
+    },
+    {
+      "t": 1581.3,
+      "text": "what I hate about sales meetings is people wasting my time what do I mean about that here are a few examples",
+      "why_it_matters": "Sets up the core problem: partners and salespeople lack data about how customers actually use business Central, leading to poor sales conversations.",
+      "check": "exact"
+    },
+    {
+      "t": 1715.3,
+      "text": "Excel layouts was something we developed and this Fairly New Concept it's only been a year in the product with Excel layouts the end",
+      "why_it_matters": "Explains that Excel layouts are a recently introduced capability that democratizes report design by empowering end users instead of requiring developers.",
+      "check": "exact"
+    },
+    {
+      "t": 1797.3,
+      "text": "you don't see any excel here that actually means that you as a customer or if you are a partner this particular customer",
+      "why_it_matters": "Demonstrates how absence of telemetry data signals untapped opportunities that partners can use to expand customer value.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2054.1,
+      "text": "you need to create what's called an application insights resource in Asher this is where we lock this data to it's an Asher resource",
+      "why_it_matters": "Identifies the first required step: Azure Application Insights is the mandatory backend infrastructure for collecting and storing business Central telemetry.",
+      "check": "exact"
+    },
+    {
+      "t": 2114.7,
+      "text": "we introduced this in version 15 which is a few releases ago we are releasing version 22 here in April 2023 so the the",
+      "why_it_matters": "Clarifies version requirements and upgrade incentives: telemetry works back to version 15 but newer versions provide richer data types.",
+      "check": "exact"
+    },
+    {
+      "t": 2183.4,
+      "text": "very important that you don't do this during working hours because this will do a glitch for a few minutes it will",
+      "why_it_matters": "Critical operational constraint: configuring telemetry requires environment downtime and must be scheduled outside business hours.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2345.6,
+      "text": "the most important thing is that you as a customer and you as a partner taking care of your customers should use data to",
+      "why_it_matters": "Core business value statement: the fundamental purpose of telemetry is enabling data-driven decisions to maximize ROI and feature adoption.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1099.4,
+      "kind": "coming-later",
+      "text": "statistical accounts this is a new feature by the way coming in version 22 2.0 in the finance"
+    },
+    {
+      "t": 2134.9,
+      "kind": "subject-to-change",
+      "text": "we are releasing version 22 here in April 2023"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 25
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028430000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025800999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026633999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.043106
+    }
+  ]
+}

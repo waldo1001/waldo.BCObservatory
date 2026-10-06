@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/",
   "published_at": "2026-08-21T13:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:45.354Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md",
+      "words": 1112
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:53.967Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006267
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:53.968Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:53.969Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:53.973Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1ef0fd930fc31e24d19f086010a9fded86e97b8b0685d1f5b5069b229ac3cc6"
 }

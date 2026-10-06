@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task",
+  "url": "https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/",
+  "title": "Which AI Model Should You Use for Which Task?",
+  "source": "freddysblog",
+  "published_at": "2026-08-23T09:00:00.000Z",
+  "words": 3747,
+  "summary": "A framework for matching AI models to tasks based on four dimensions: verifiability, task difficulty, cost and latency sensitivity, and consequence of a miss. Weaker models work well on verifiable, mechanical tasks with good harnesses and skills, while stronger models handle high-stakes, hard-to-verify work where judgment is essential.",
+  "key_points": [
+    "Verifiability is the master lever - if you can cheaply catch mistakes, you can use a weaker model",
+    "Match model tier to task profile: strong models for reasoning-heavy, poorly verifiable work; cheap models for mechanical, highly verifiable tasks run at volume",
+    "Harnesses (structured output, tools, retries, checks) and skills (pre-written runbooks) let you reach down to cheaper models by moving difficulty out of the model into the environment",
+    "The four dimensions - verifiability, difficulty, cost sensitivity, and consequence - often pull against each other; decompose tasks and use different models for different pieces when they conflict",
+    "Routing services and self-hosting offer alternatives to hard-coding one model, but keep high-stakes, unverifiable decisions under your own control while letting routers handle verifiable, low-stakes traffic"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "ai models",
+    "task decomposition",
+    "verifiability",
+    "model selection",
+    "harness design",
+    "routing",
+    "cost optimization",
+    "reasoning models"
+  ],
+  "objects": [],
+  "features": [
+    "model selection framework",
+    "task verifiability assessment",
+    "harness and scaffolding",
+    "skills as runbooks",
+    "automatic routing",
+    "open-weights models",
+    "self-hosted models",
+    "model comparison"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016886,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "A good harness manufactures verifiability the raw task didn't have - and every bit of verifiability you add lets you reach for a weaker model.",
+      "why_it_matters": "Shows that the scaffolding around a model is as important as the model itself in determining which tier you need"
+    },
+    {
+      "text": "Staff each task with the cheapest model that clears that bar, and save your architects for the handful where judgment really is the product.",
+      "why_it_matters": "Encapsulates the economic principle: use strong judgment where it adds value, automate the rest"
+    }
+  ]
+}

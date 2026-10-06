@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/",
   "published_at": "2026-08-21T15:15:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:42.056Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md",
+      "words": 446
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:49.056Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.004907
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:49.058Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:49.058Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:49.061Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1fe98208ac15343d88bc1e550125be631aa716c1ebc453c36c88b49af086896"
 }

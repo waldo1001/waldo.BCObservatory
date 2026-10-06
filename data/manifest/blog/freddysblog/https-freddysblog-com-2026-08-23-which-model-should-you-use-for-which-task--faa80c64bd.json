@@ -7,7 +7,7 @@
   "url": "https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/",
   "published_at": "2026-08-23T09:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:40:35.389Z",
       "path": "vault:posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md",
       "words": 3747
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:45.267Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.016886
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:45.268Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:45.269Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:45.271Z",
+      "path": "content/posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md"
     }
   },
   "input_hash": "2026-08-23T09:00:00.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ddf8eba2827ca96aafaf6d870ae01e22b93a4fbd26fbd71d5d1c4b8a985f284"
+  "output_hash": "253c102426c6ee1320888751a28fa9426307653876c8658dd3fc6bd2fd7492fd"
 }

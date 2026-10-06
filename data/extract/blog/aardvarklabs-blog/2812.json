@@ -1,0 +1,81 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2812",
+  "url": "https://aardvarklabs.blog/2026/08/21/advanced-json-management-for-business-central-developers/",
+  "title": "Advanced JSON Management for Business Central Developers",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-08-21T12:00:00.000Z",
+  "words": 1359,
+  "summary": "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON in Business Central AL code. It simplifies complex data handling by grouping procedures into Read, Write, and Convert categories, with special attention to SaaS-safe operations for cloud deployments.",
+  "key_points": [
+    "JSON Management holds JSON data within the codeunit variable, eliminating the need to manage separate JSONObject variables",
+    "Read operations extract values using property names, dot-separated paths, or array indices with flexible return types",
+    "Write operations build JSON structures by initializing objects/collections and using SetValue, AddArrayValue, or AddJson methods",
+    "Convert operations transform between JSON and XML formats or format decimals as JSON properties",
+    "On-Prem-only procedures exist but should be avoided in SaaS environments for cloud compatibility"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "json",
+    "al code",
+    "data handling",
+    "saas-safe",
+    "api integration",
+    "json management"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "JSON Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Demo JSON Mgmt"
+    },
+    {
+      "type": "codeunit",
+      "name": "Demo JSON Array Objects"
+    },
+    {
+      "type": "codeunit",
+      "name": "Demo JSON Object Updates"
+    }
+  ],
+  "features": [
+    "JSON object reading",
+    "JSON object writing",
+    "JSON collection handling",
+    "XML to JSON conversion",
+    "JSON to XML conversion",
+    "Property iteration",
+    "Nested property access",
+    "Array value manipulation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012543,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Codeunit 5459 - JSON Management is one of the most comprehensive helper units in Business Central.",
+      "why_it_matters": "Establishes the scope and importance of the tool for developers working with JSON"
+    },
+    {
+      "text": "The key thing to know about using this code unit is the persistence of data inside the code unit.",
+      "why_it_matters": "Highlights the key architectural advantage that distinguishes JSON Management from direct JSONObject usage"
+    },
+    {
+      "text": "When using Codeunit 5459, remember to configure your AI-assisted development tools carefully. Specify that you want to avoid any procedures flagged as OnPrem.",
+      "why_it_matters": "Critical guidance for maintaining cloud compatibility in SaaS Business Central environments"
+    }
+  ]
+}

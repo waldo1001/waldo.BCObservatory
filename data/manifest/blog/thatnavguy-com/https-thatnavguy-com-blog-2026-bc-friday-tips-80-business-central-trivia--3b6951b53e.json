@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/",
   "published_at": "2026-08-21T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:04.191Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-80-business-central-trivia--3b6951b53e.md",
+      "words": 87
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:09.982Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.003957
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:09.983Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:09.984Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:09.987Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-80-business-central-trivia--3b6951b53e.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a679233458e680d7b95d881d2cfbae1e3085f1052b94c238ef08d9ac0d98745"
 }

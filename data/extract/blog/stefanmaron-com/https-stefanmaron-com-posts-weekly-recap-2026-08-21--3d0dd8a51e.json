@@ -1,0 +1,100 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/",
+  "url": "https://stefanmaron.com/posts/weekly-recap-2026-08-21/",
+  "title": "Weekly Recap: August 14-21",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-21T07:30:00.000Z",
+  "words": 1123,
+  "summary": "This weekly recap covers AL Runner releases (v2.2-v2.3.1) with coverage reporting and watch mode improvements, CI/CD fixes for parallel dependency resolution and Linux builds, a major catch-up of bc-code-atlas's stale graphify-al fork that revealed hidden AL-specific behaviors and tree-sitter parser changes, and various smaller tool fixes. It highlights infrastructure improvements that prevent silent failures in builds and dependency resolution.",
+  "key_points": [
+    "AL Runner now gates releases on test suite completion rather than pushing tags before tests finish, preventing dead tags from failed runs",
+    "A PowerShell 5.1 JSON serialization quirk was silently breaking CI/CD builds by making matrix builds non-iterable; fixed with a regression test for actual JSON round-trips",
+    "Thread-unsafe feed-decoration code in dependency resolution was fixed by pre-populating properties before parallel workers start",
+    "bc-code-atlas's fork caught up 677 commits with graphify-al, discovering and re-porting undocumented AL-specific behaviors and fixing tree-sitter 4.0 parser changes",
+    "vsc-lintercop extension now alerts users about LinterCop's end-of-life with ALCops migration notice before AL Language v18"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al runner",
+    "ci/cd",
+    "dependency resolution",
+    "parser",
+    "testing",
+    "tools",
+    "build automation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "AL Language Tests"
+    },
+    {
+      "type": "other",
+      "name": "bc-code-atlas"
+    },
+    {
+      "type": "other",
+      "name": "graphify-al"
+    },
+    {
+      "type": "other",
+      "name": "tree-sitter-al"
+    },
+    {
+      "type": "other",
+      "name": "vsc-lintercop"
+    },
+    {
+      "type": "other",
+      "name": "ALCops"
+    },
+    {
+      "type": "other",
+      "name": "BcContainerHelper"
+    }
+  ],
+  "features": [
+    "coverage reporting",
+    "watch mode",
+    "inline execute",
+    "release gating",
+    "parallel dependency resolution",
+    "Linux fast lane CI/CD",
+    "AL code analysis",
+    "deprecation notices"
+  ],
+  "versions": [
+    "v2.2",
+    "v2.3",
+    "v2.3.1",
+    "tree-sitter-al 4.0",
+    "AL Language v18"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008035,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "releases now gate on the test suite instead of pushing the release commit and tag before tests finish running",
+      "why_it_matters": "This prevents dead git tags from failed releases, addressing a real problem that occurred twice in the previous week"
+    },
+    {
+      "text": "Build/BuildLinux jobs just never spawn: no error, no skipped-job entry, nothing in the run, while PostProcess still marks the whole thing failed",
+      "why_it_matters": "Illustrates how the PowerShell 5.1 JSON bug created silent failures that were breaking all CI/CD runs without any visible error"
+    }
+  ]
+}
