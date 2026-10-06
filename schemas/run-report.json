@@ -106,6 +106,7 @@
       }
     },
     "captions_retried": { "type": "integer" },
+    "checkpoints": { "type": "integer" },
     "content": { "type": "object", "required": ["pages", "errors"], "properties": { "pages": { "type": "integer" }, "errors": { "type": "integer" } } },
     "roadmap_links": {
       "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],

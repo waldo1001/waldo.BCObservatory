@@ -106,6 +106,8 @@ export interface RunReport {
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
+  /** Checkpoint commits made during stage execution (D28). */
+  checkpoints?: number;
   /** check:leak before the commit (D08); findings block the commit. */
   leak?: { vault: LeakReport["vault"]; raw_docs: number; files_scanned: number; findings: number; blocked: boolean };
   /** no-captions videos put back in the queue this run (weekly, CAPTION_RETRIES times). */
@@ -193,11 +195,15 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     }
     const mirrorsDir = resolve(opts.cacheDir, "git-mirrors");
     await prefetchPlanned(plan.work, manifest, mirrorsDir);
+    const ck = opts.commit && !opts.dryRun && ((cfg.checkpoint_items ?? 0) > 0 || (cfg.checkpoint_minutes ?? 0) > 0)
+      ? startCheckpoints(opts, deps.sources, date, { everyMs: (cfg.checkpoint_minutes ?? 0) * 60_000, everyItems: cfg.checkpoint_items ?? 0 }) : null;
     const execution = await executePlan({
       work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts), mirrorsDir,
       sources: new Map(deps.sources.map((s) => [s.id, s])), handlers, concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
+      ...(ck ? { onProgress: ck.progress } : {}),
     });
+    if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
     report.roadmap_links = await refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
       quota: execution.stop_reason === "done" ? quotas.roadmap_links ?? 0 : 0,
@@ -388,13 +394,21 @@ export async function recoverPartialRun(repoDir: string, gate?: () => string[]):
 }
 
 async function commitAndPush(repoDir: string, message: string, push: boolean, report: RunReport): Promise<void> {
+  await commitTracked(repoDir, message, push);
+  if (push) log.info(`pushed (${report.status})`);
+}
+
+/** Stage content/ and data/, commit when something changed, push (rebase once on a rejected push). */
+async function commitTracked(repoDir: string, message: string, push: boolean): Promise<boolean> {
   const dirs = TRACKED.filter((d) => existsSync(join(repoDir, d)));
-  await git(["add", "-A", "--", ...dirs], repoDir);
-  if ((await git(["diff", "--cached", "--name-only"], repoDir)).trim()) {
+  // never a half-written temp file, even in a checkout without the repo's .gitignore
+  await git(["add", "-A", "--", ...dirs, ":(exclude,glob)**/*.tmp"], repoDir);
+  const changed = !!(await git(["diff", "--cached", "--name-only"], repoDir)).trim();
+  if (changed) {
     await git(["commit", "-q", "-m", message], repoDir);
     log.info(`committed: ${message}`);
   }
-  if (!push) return;
+  if (!push) return changed;
   try {
     await git(["push", "-q", "origin", "HEAD:main"], repoDir);
   } catch {
@@ -402,7 +416,55 @@ async function commitAndPush(repoDir: string, message: string, push: boolean, re
     await git(["pull", "-q", "--rebase", "origin", "main"], repoDir);
     await git(["push", "-q", "origin", "HEAD:main"], repoDir);
   }
-  log.info(`pushed (${report.status})`);
+  return changed;
+}
+
+/** Commit and push the vault checkout when it has changes (community raw text, LLM cache); never fails the run. */
+async function pushVault(vaultDir: string, message: string): Promise<void> {
+  if (!existsSync(join(vaultDir, ".git"))) return;
+  try {
+    if (!(await git(["status", "--porcelain"], vaultDir)).trim()) return;
+    await git(["add", "-A"], vaultDir);
+    await git(["commit", "-q", "-m", message], vaultDir);
+    await git(["push", "-q", "origin", "HEAD:main"], vaultDir);
+  } catch (e) {
+    log.warn(`vault checkpoint failed: ${(e as Error).message.slice(0, 200)}`);
+  }
+}
+
+/**
+ * D28: during stage execution, commit and push what is done after every `everyItems` advanced item stages, or after
+ * `everyMs` when work is slow, so commits stay small, progress shows up in the history, and a killed run (job
+ * timeout, reboot, cancel) loses at most one batch: the next run's checkout cleans the workspace, so uncommitted work
+ * would be gone. Each checkpoint passes the leak gate first (a finding skips it; the final commit then blocks as
+ * usual). One checkpoint at a time; a failed checkpoint only logs. `stop()` waits for one in flight.
+ */
+export function startCheckpoints(opts: NightlyOptions, sources: SourceDef[], date: string, every: { everyMs: number; everyItems: number }): { progress: (advanced: number) => void; stop: () => Promise<void>; count: () => number } {
+  let n = 0, lastAt = 0;
+  let busy: Promise<void> | null = null;
+  const tick = (advanced?: number) => {
+    if (busy) return;
+    if (advanced !== undefined) lastAt = advanced;
+    busy = (async () => {
+      try {
+        const problems = leakGate(opts, sources);
+        if (problems.length) { log.warn(`checkpoint skipped: check:leak found ${problems.length} problems`); return; }
+        if (await commitTracked(opts.repoDir, `content: nightly ${date} checkpoint ${n + 1}`, opts.push)) n++;
+        await pushVault(opts.vaultDir ?? VAULT_DIR, `vault: nightly ${date} checkpoint`);
+      } catch (e) {
+        log.warn(`checkpoint failed: ${(e as Error).message.slice(0, 300)}`);
+      } finally {
+        busy = null;
+      }
+    })();
+  };
+  const timer = every.everyMs > 0 ? setInterval(() => tick(), every.everyMs) : null;
+  timer?.unref();
+  return {
+    progress: (advanced) => { if (every.everyItems > 0 && advanced - lastAt >= every.everyItems) tick(advanced); },
+    stop: async () => { if (timer) clearInterval(timer); await busy; },
+    count: () => n,
+  };
 }
 
 function removeTempFiles(dir: string): void {

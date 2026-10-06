@@ -8,7 +8,7 @@ import type { PlanUsage } from "../../pipeline/lib/budget.js";
 import { budget, type SourceDef } from "../../pipeline/lib/config.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import { acquireLock } from "../../pipeline/orchestrator/lock.js";
-import { parseArgs, recoverPartialRun, runDate, runNightly, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
+import { parseArgs, recoverPartialRun, runDate, runNightly, startCheckpoints, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
 import type { StageHandlers } from "../../pipeline/orchestrator/execute.js";
 
 const now = new Date("2026-10-07T01:00:00Z");
@@ -119,6 +119,29 @@ test("--unlimited lifts every quota and both spend caps for one run, and the rep
   assert.equal(r.plan.quotas.llm_calls_max, 100_000);
   assert.deepEqual([r.spend?.night_cap_usd, r.spend?.override], [100_000, true]);
   assert.ok(validate("run-report", report(dir)).ok);
+});
+
+test("checkpoints commit every batch of advanced items (or on a timer); a leak finding skips the checkpoint", async () => {
+  const dir = repo();
+  mkdirSync(join(dir, "data/manifest/video/x"), { recursive: true });
+  writeFileSync(join(dir, "data/manifest/video/x/a.json"), "{}\n");
+  writeFileSync(join(dir, "data/manifest/video/x/b.json.42.tmp"), "half-written");
+  const ck = startCheckpoints(opts(dir, { commit: true }), [source], "2026-10-07", { everyMs: 0, everyItems: 3 });
+  ck.progress(1); ck.progress(2);
+  await ck.stop();
+  assert.equal(lastCommit(dir), "init", "below the batch size: no commit yet");
+  ck.progress(3);
+  await ck.stop();
+  assert.equal(lastCommit(dir), "content: nightly 2026-10-07 checkpoint 1");
+  assert.equal(ck.count(), 1, "nothing new after the first: no empty checkpoint commits");
+  const tracked = execFileSync("git", ["ls-files"], { cwd: dir }).toString();
+  assert.ok(tracked.includes("a.json") && !tracked.includes(".tmp"), "temp files never land in a checkpoint");
+  mkdirSync(join(dir, "data/captions/community/x"), { recursive: true });
+  writeFileSync(join(dir, "data/captions/community/x/AAAAAAAAAA9.vtt"), "WEBVTT\n");
+  const blocked = startCheckpoints(opts(dir, { commit: true }), [source], "2026-10-07", { everyMs: 20, everyItems: 0 });
+  await new Promise((r) => setTimeout(r, 120)); // the timer fallback fires, the leak gate skips it
+  await blocked.stop();
+  assert.deepEqual([blocked.count(), lastCommit(dir)], [0, "content: nightly 2026-10-07 checkpoint 1"]);
 });
 
 test("lock: a live holder blocks, a dead holder is taken over", () => {

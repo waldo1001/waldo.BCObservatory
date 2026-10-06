@@ -101,6 +101,8 @@ export interface ExecuteOptions {
   clock: () => Date;
   /** Absent = no re-guard (guard disabled for this run). */
   readUsage?: () => Promise<PlanUsage | PlanUsageUnavailable>;
+  /** Called after every item stage that advanced, with the running count (checkpoint commits, D28). */
+  onProgress?: (advanced: number) => void;
   /** LLM CLI calls so far; defaults to llmStats().calls. */
   callCount?: () => number;
   /** Items worked on at the same time (each runs its stages in order). Default 1. */
@@ -192,6 +194,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     };
     o.manifest.save(next);
     r.advanced++;
+    o.onProgress?.(r.advanced);
     return next;
   };
   const asError = (e: unknown) => (e instanceof Error ? e : new Error(String(e)));

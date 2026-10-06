@@ -6,6 +6,8 @@ site/.astro/
 *.log
 .DS_Store
 tmp/
+# temp-then-rename writes; a checkpoint commit can land while one is in flight
+*.tmp
 # never in the public repo: the vault is a separate private repository
 vault/
 # local runtime caches (git mirrors, yt-dlp archive, LLM cache mirror live outside the repo on the Mini)

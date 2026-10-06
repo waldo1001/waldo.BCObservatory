@@ -13,11 +13,15 @@ npm ci --ignore-scripts --no-audit --no-fund --silent
 (
   set -a; . "$ENV_FILE"; set +a
   [[ -z "${ANTHROPIC_API_KEY:-}" ]] || { echo "ANTHROPIC_API_KEY must never be set" >&2; exit 1; }
-  npm run -s nightly -- --commit --push "$@"
+  # the vault is pushed even when the nightly exits non-zero (aborted at a subscription limit, leak block): its raw
+  # text belongs in the private repository either way; the exit code is passed on afterwards
+  rc=0
+  npm run -s nightly -- --commit --push "$@" || rc=$?
   vault="${BCOBS_VAULT_DIR:-}"
   if [[ -n "$vault" && -d "$vault/.git" ]] && [[ -n "$(git -C "$vault" status --porcelain)" ]]; then
     git -C "$vault" add -A
     git -C "$vault" commit -q -m "vault: nightly $(date +%F)"
     git -C "$vault" push -q origin HEAD:main
   fi
+  exit "$rc"
 )

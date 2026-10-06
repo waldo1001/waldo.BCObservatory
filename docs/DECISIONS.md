@@ -93,3 +93,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   pages show at most 5 quotes (each under 25 words). `no-captions` skips record `skipped_at` and are retried weekly,
   4 times. Verified 2026-10-06 on one Erik Hougaard video end to end ($0.23 incl. roadmap link + Opus review); the
   full leak scan of that tree with its captions in the vault found nothing.
+- **D26 The nightly commits in batches.** During stage execution the nightly commits and pushes `content/` and
+  `data/` after every 50 advanced item stages, or every 20 minutes when work is slow (`checkpoint_items`,
+  `checkpoint_minutes`), plus the vault when it changed. Each checkpoint passes the leak gate; temp files are never
+  staged. `run-nightly.sh` pushes the vault even when the nightly exits non-zero. Why: a subscription-limit stop
+  already committed, but a killed run (job timeout, reboot, cancel) lost everything because the next checkout cleans
+  the workspace; long unlimited runs (`--unlimited`, workflow input `unlimited`) also produced one huge commit with
+  no visible progress.
