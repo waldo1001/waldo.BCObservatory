@@ -19,10 +19,11 @@ import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { logger } from "../lib/log.js";
 import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./extract.js";
 import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
+import { buildRelations } from "./relations.js";
 
 const log = logger("code-diff");
 /** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
-export const DERIVED_VERSION = 3;
+export const DERIVED_VERSION = 4;
 
 export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown }
 export interface ObjectDiff {
@@ -197,7 +198,7 @@ function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unkno
   return true;
 }
 
-export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; written: number }
+export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; written: number }
 
 /** Recompute everything derived from the snapshots whose inputs changed. Majors in numeric order. */
 export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDerivedRun {
@@ -225,6 +226,14 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
       run.country_diffs++;
       if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), readSnapshot(dataDir, m, cc), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)))) run.written++;
     }
+    // relations between the objects of W1 + first-party apps (D45)
+    const ma = manifestOf(dataDir, m, APPS);
+    run.relations = (run.relations ?? 0) + 1;
+    if (writeIfInputsChanged(resolve(root, "relations", `${m}.json`), [mw.commit, mw.extractor, ma?.commit ?? null, ma?.extractor ?? null], () => {
+      const w1Objs = w1(m), appObjs = ma ? readSnapshot(dataDir, m, APPS) : [];
+      const w1Set = new Set(w1Objs);
+      return buildRelations(m, [...w1Objs, ...appObjs], (o) => w1Set.has(o));
+    })) run.written++;
     run.deprecations++;
     if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor], () => {
       const list = deprecations(w1(m));

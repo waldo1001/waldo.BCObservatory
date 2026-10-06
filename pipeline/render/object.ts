@@ -3,8 +3,9 @@
  *
  * - content/objects/<type>/<id>.md: every W1 and first-party app object of the snapshot majors, rendered from the
  *   preferred major (versions.json `narrative_order`: 29, then 28, then 30) with its members, its life across the
- *   majors, the countries that replace it, the Learn pages naming it (ms.search.form), the topic hubs of those pages
- *   and its deprecations. Facts from the code pillar; nothing machine-written. Country-only objects get no object
+ *   majors, the countries that replace it, the Learn pages naming it (ms.search.form), the topic hubs of those pages,
+ *   its relations (D45: tables it relates to and that reference it, pages on it, extensions, event subscribers) and
+ *   its deprecations. Facts from the code pillar; nothing machine-written. Country-only objects get no object
  *   page (their ids collide across countries); they are listed on their localization page.
  * - content/localizations/<cc>.md: what a country layer brings in the newest major it has (added, replaced and
  *   dropped objects with member summaries) plus the Learn LocalFunctionality topic hub.
@@ -23,6 +24,7 @@ import { sha256 } from "../lib/text.js";
 import { objectKey, type AlObject, type AlProcedure } from "../code/extract.js";
 import { iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
+import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
 import type { DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
@@ -48,11 +50,16 @@ const sig = (p: AlProcedure) => `${p.name}(${p.params.map((x) => `${x.var ? "var
 interface Versions { majors: Record<string, unknown>; narrative_order: string[] }
 
 interface Life { versions: string[]; changed: string[] }
+export interface RelationsView { rel: Relations; in: Map<string, RelEdge[]>; out: Map<string, RelEdge[]> }
 export interface ObjectWorld {
   majors: string[]; preferred: Map<string, { obj: AlObject; major: string; manifest: SnapshotManifest }>; life: Map<string, Life>;
   replacedIn: Map<string, string[]>; docs: DocsObjects | null; topicsByUrl: Map<string, string[]>;
+  /** Relations per major (data/code/relations/<major>.json, D45), where the file exists. */
+  relations: Map<string, RelationsView>;
   /** Page key of an extension's base object, once page keys are known. */
   basePage?: (o: AlObject) => string | null;
+  /** Page key and title of any object key, once page keys are known (relations link through it). */
+  pageOf?: (key: string) => { pk: string; title: string } | null;
 }
 
 /** Everything the object pages need, read once. */
@@ -97,8 +104,16 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     const fm = matter(readText(f)).data as { id?: string; links?: { learn?: string[] } };
     for (const u of fm.links?.learn ?? []) topicsByUrl.set(u, [...(topicsByUrl.get(u) ?? []), fm.id!]);
   }
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl };
+  const relations = new Map<string, RelationsView>();
+  for (const m of majors) {
+    const p = resolve(dataDir, "code", "relations", `${m}.json`);
+    if (exists(p)) { const rel = readJson<Relations>(p); relations.set(m, { rel, in: incoming(rel), out: outgoing(rel) }); }
+  }
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations };
 }
+
+const REL_CAP = 50;
+const KIND_LABEL: Record<string, string> = { table_relation: "TableRelation", calc_formula: "CalcFormula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends" };
 function countriesOf(dataDir: string): string[] {
   const set = new Set<string>();
   const root = resolve(dataDir, "code");
@@ -119,6 +134,16 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const local = o.procedures.filter((p) => !p.event && p.scope === "local").length;
   const deps = deprecations([o]);
   const src = githubBlob(manifest.repo, manifest.commit, o.file);
+  // relations (D45): outgoing from this object, incoming from others, subscribers of its events
+  const R = w.relations.get(major);
+  const relOut = R?.out.get(key) ?? [], relIn = R?.in.get(key) ?? [];
+  const refs = relIn.filter((e) => e.k === "table_relation" || e.k === "calc_formula");
+  const pagesOn = relIn.filter((e) => e.k === "source_table" || e.k === "lookup_page" || e.k === "drilldown_page" || e.k === "card_page");
+  const extendedBy = relIn.filter((e) => e.k === "extends"), runOn = relIn.filter((e) => e.k === "runs_on");
+  const myEvents = R?.rel.events[key] ?? {};
+  const subCount = Object.values(myEvents).reduce((n, e) => n + e.subs.length, 0);
+  const relSig = `${relOut.map((e) => `${e.k}>${e.t}:${e.via ?? ""}`).join(",")}|${relIn.map((e) => `${e.k}<${e.s}:${e.via ?? ""}`).join(",")}|${Object.entries(myEvents).map(([n, e]) => `${n}:${e.subs.map((x) => x.s).join("+")}`).join(",")}`;
+  const link = (k: string) => { const p = w.pageOf?.(k); return p ? `[${cell(p.title)}](../${p.pk}.md)` : k; };
   const versions = `BC${life.versions[0]}${life.versions.length > 1 ? `-${life.versions.at(-1)}` : ""}`;
   // our snapshots start at the oldest major: an object already there may be decades old, so "introduced" is unknown
   const sinceOldest = life.versions[0] === w.majors[0];
@@ -134,7 +159,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
       learn: docs.map((d) => d.url), objects: w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics, localizations: countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
@@ -144,6 +169,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
     obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id),
     counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length },
+    relations: { out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount },
   };
   validateOrThrow("frontmatter.object", fm, `object page ${key}`);
 
@@ -159,11 +185,44 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   }
   if (o.keys.length) lines.push("## Keys", "", ...o.keys.map((k) => `- ${cell(k.name)}: ${k.fields.map(cell).join(", ")}${k.clustered ? " (clustered)" : ""}`), "");
   if (o.values.length) lines.push("## Values", "", "| Ordinal | Name | Notes |", "|---|---|---|", ...o.values.map((v) => `| ${v.id} | ${cell(v.name) || "(blank)"} | ${v.obsolete ? `obsolete ${v.obsolete.state}${v.obsolete.tag ? ` ${v.obsolete.tag}` : ""}` : ""} |`), "");
-  if (events.length) lines.push("## Events published", "", ...events.map((p) => `- \`${cell(sig(p))}\` (${p.event}${p.obsolete ? `, obsolete ${p.obsolete.tag ?? ""}` : ""})`), "");
+  if (events.length) {
+    lines.push("## Events published", "");
+    for (const p of events) {
+      lines.push(`- \`${cell(sig(p))}\` (${p.event}${p.obsolete ? `, obsolete ${p.obsolete.tag ?? ""}` : ""})`);
+      const ss = myEvents[p.name]?.subs ?? [];
+      if (ss.length) lines.push(`  - subscribers: ${ss.slice(0, 20).map((x) => `${link(x.s)} ${cell(x.proc)}`).join(", ")}${ss.length > 20 ? `, and ${ss.length - 20} more` : ""}`);
+    }
+    lines.push("");
+  }
+  const triggerSubs = Object.entries(myEvents).filter(([, e]) => e.kind === "trigger_event" && e.subs.length);
+  if (triggerSubs.length) lines.push("## Trigger event subscribers", "", ...triggerSubs.map(([n, e]) => `- ${cell(n)}: ${e.subs.slice(0, 20).map((x) => `${link(x.s)} ${cell(x.proc)}`).join(", ")}${e.subs.length > 20 ? `, and ${e.subs.length - 20} more` : ""}`), "");
   if (subs.length) lines.push("## Event subscriptions", "", ...subs.map((p) => `- ${cell(p.name)} subscribes to ${p.subscribes_to!.object_type} "${cell(p.subscribes_to!.object_name)}" ${cell(p.subscribes_to!.event)}${p.subscribes_to!.element ? ` (${cell(p.subscribes_to!.element)})` : ""}`), "");
   if (pub.length) lines.push("## Procedures", "", ...pub.map((p) => `- \`${cell(sig(p))}\`${p.scope !== "global" ? ` (${p.scope})` : ""}${p.obsolete ? ` (obsolete ${p.obsolete.tag ?? ""}${p.obsolete.reason ? `: ${cell(p.obsolete.reason)}` : ""})` : ""}${p.doc ? `: ${cell(p.doc)}` : ""}`), ...(local ? ["", `Plus ${local} local procedures.`] : []), "");
   else if (local) lines.push("## Procedures", "", `${local} local procedures, no public ones.`, "");
   if (o.triggers.length) lines.push("## Triggers", "", o.triggers.join(", "), "");
+  if (relOut.length) {
+    lines.push("## Relations", "");
+    for (const e of relOut) lines.push(`- ${e.via ? `${cell(e.via)}: ` : ""}${KIND_LABEL[e.k] ?? e.k} ${link(e.t)}${e.cond ? " (conditional)" : ""}`);
+    lines.push("");
+  }
+  if (refs.length) {
+    // grouped by the referencing object; hub tables (Customer, Country/Region: hundreds) are capped
+    const by = new Map<string, string[]>();
+    for (const e of refs) by.set(e.s, [...(by.get(e.s) ?? []), e.via ?? e.k]);
+    const groups = [...by].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    lines.push("## Referenced by", "", `${refs.length} fields in ${groups.length} objects relate to this table (TableRelation or CalcFormula).`, "");
+    for (const [k, vias] of groups.slice(0, REL_CAP)) lines.push(`- ${link(k)}: ${vias.map(cell).join(", ")}`);
+    if (groups.length > REL_CAP) lines.push(`- and ${groups.length - REL_CAP} more objects (${refs.length - groups.slice(0, REL_CAP).reduce((n, g) => n + g[1].length, 0)} fields): data/code/relations/${major}.json`);
+    lines.push("");
+  }
+  if (pagesOn.length || runOn.length) {
+    lines.push("## Pages and codeunits on this table", "");
+    for (const e of pagesOn.slice(0, REL_CAP)) lines.push(`- ${link(e.s)} (${KIND_LABEL[e.k]})`);
+    if (pagesOn.length > REL_CAP) lines.push(`- and ${pagesOn.length - REL_CAP} more pages`);
+    for (const e of runOn.slice(0, REL_CAP)) lines.push(`- ${link(e.s)} (codeunit runs on it)`);
+    lines.push("");
+  }
+  if (extendedBy.length) lines.push("## Extended by", "", ...extendedBy.slice(0, REL_CAP).map((e) => `- ${link(e.s)}`), ...(extendedBy.length > REL_CAP ? [`- and ${extendedBy.length - REL_CAP} more`] : []), "");
   lines.push("## Across versions", "", `- Present in: ${life.versions.map((v) => `BC${v}`).join(", ")}`, `- Changed (declaration) in: ${life.changed.length ? life.changed.map((v) => `BC${v}`).join(", ") : "none"}`,
     ...(o.obsolete && o.obsolete.state !== "No" ? [`- Obsolete: ${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}${o.obsolete.reason ? `, "${cell(o.obsolete.reason)}"` : ""}`] : []), "");
   if (countries.length) lines.push("## Countries that replace it", "", countries.map((cc) => (hasLocalization(cc) ? `[${cc.toUpperCase()}](../../localizations/${cc}.md)` : cc.toUpperCase())).join(", "), "");
@@ -243,6 +302,7 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
   const byName = new Map<string, string>();
   for (const [k, pk] of pageKeys) { const o = w.preferred.get(k)!.obj; byName.set(`${o.type}/${o.name.toLowerCase()}`, pk); }
   w.basePage = (o) => (o.extends ? byName.get(`${o.type.replace(/extension$/, "")}/${o.extends.toLowerCase()}`) ?? null : null);
+  w.pageOf = (k) => { const pk = pageKeys.get(k); const e = w.preferred.get(k); return pk && e ? { pk, title: titleOf(e.obj) } : null; };
   const wanted = new Set<string>();
   for (const [k, { obj, major, manifest }] of w.preferred) {
     const pk = pageKeys.get(k);

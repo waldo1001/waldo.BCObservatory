@@ -243,3 +243,16 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `#q=`; the index loads on focus, never on page load; Enter still opens /search/. The select lens and the query are
   mutually exclusive. Why: the per-level label budget popped captions in late and all at once, nothing type-checked
   1,000 lines of galaxy code, and the search box did nothing to the picture it sits above.
+- **D45 Relations between AL objects, from the metadata, into every object page.** `pipeline/code/relations.ts`
+  (owner 2026-10-07) resolves field TableRelation and CalcFormula targets, page SourceTable, codeunit TableNo,
+  Lookup/DrillDown/Card page ids and extension bases to objects, and places every event subscription on the
+  published event of its publisher (table and page trigger events get `trigger_event` entries), by exact object
+  type and name: the same app first, then W1, then the other apps; two candidates stay `ambiguous`, a value the
+  extractor clipped at 300 characters stays `clipped`, a platform object that is not in the repo (`Access Control`,
+  `Global Triggers`) stays `unknown`; nothing is guessed (D29). `data/code/relations/<major>.json` is written by
+  `refreshCodeDerived` (BC29: 20.5k edges, 5.2k subscriptions, 1.5k unresolved, 6.9 MB). Object pages gain
+  Relations, Referenced by (grouped per object, capped at 50 groups), Pages and codeunits on this table, Extended by,
+  and the subscribers under each published event; the frontmatter carries the counts (`relations`) and the page
+  fingerprint includes them, so a page is rewritten when something new references it. The MCP server sees it all
+  through the markdown. Why: the data carried these relationships since M2 and nothing turned them into navigation;
+  "what touches Customer" is the question a BC developer asks first.
