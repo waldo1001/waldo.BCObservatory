@@ -1,0 +1,28 @@
+{
+  "video_id": "_6bYqpKzL8s",
+  "item_id": "video/yt-saurav/_6bYqpKzL8s",
+  "summary": "Updating an existing Business Central sandbox to a preview version from the admin center, so upcoming functionality can be tested with real customer data, configurations and extensions. Covers scheduling the update, post-upgrade testing and preview limitations, including deletion 30 days after GA.",
+  "overview": "The video shows how to schedule an existing sandbox to update to a preview version instead of creating a new clean preview environment. The presenter argues this is useful for customers because the sandbox already holds their extensions, realistic data and configurations, which gives a rough estimate of how the new version will behave for them.\n\nIt walks through the admin center: viewing environments, checking application versions, and choosing a date and time for the update. It then covers testing after the upgrade and the limits of preview environments, which are temporary and cannot be moved to a different version.",
+  "key_points": [
+    "An existing sandbox can be scheduled to update to a preview version, rather than creating a new clean preview environment.",
+    "Testing this way uses the customer's own extensions, data and configuration, which gives a rough estimate of impact, not a guaranteed result.",
+    "Updates are scheduled in the admin center, where you check environments and application versions and pick a date and time.",
+    "Date selection may be restricted by update window settings; an option allows running outside the update window.",
+    "Check that the sandbox is not in use for active testing before upgrading it.",
+    "Preview environments are deleted automatically 30 days after the version becomes generally available, without prior notice.",
+    "A preview environment cannot be updated to a different version, and it should not be treated as a permanent sandbox. Tell customers it is temporary."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "28c7b9338f34653615613cfd71756f67cc636c2dae3f1ca297649d3578ece3b5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0127204
+  }
+}

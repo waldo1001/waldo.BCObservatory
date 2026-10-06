@@ -1,0 +1,335 @@
+{
+  "video_id": "Rvgt_VXFr1I",
+  "item_id": "video/yt-microsoft/Rvgt_VXFr1I",
+  "title": "What's New: Running Tests from Visual Studio Code (2026 release wave 1)",
+  "duration_s": 507,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testing in vs code",
+    "test explorer",
+    "code coverage",
+    "test debugging",
+    "run profiles",
+    "test isolation",
+    "copilot agents",
+    "al test runner"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Testing Capabilities",
+      "t_start": 0,
+      "t_end": 78
+    },
+    {
+      "title": "Testing Explorer and Code Coverage Demo",
+      "t_start": 78,
+      "t_end": 166
+    },
+    {
+      "title": "Debug Tests in VS Code",
+      "t_start": 166,
+      "t_end": 254
+    },
+    {
+      "title": "Copilot Agent for Test Fixing",
+      "t_start": 254,
+      "t_end": 301
+    },
+    {
+      "title": "Technical Implementation Details",
+      "t_start": 301,
+      "t_end": 378
+    },
+    {
+      "title": "Agentic Development Results",
+      "t_start": 378,
+      "t_end": 404
+    },
+    {
+      "title": "Related Resources and Conclusion",
+      "t_start": 404,
+      "t_end": 507
+    }
+  ],
+  "features": [
+    {
+      "name": "Run tests in Visual Studio Code",
+      "description": "Added ability to run tests directly in Visual Studio Code with a testing explorer showing all tests grouped by project and code units, with pass/fail status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.4,
+      "t_end": 102,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "visual studio code",
+        "test explorer"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Run profiles for tests",
+      "description": "Multiple run profiles available: publish and run tests in one operation, run only tests, debug tests, or run tests with code coverage information collection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 35.6,
+      "t_end": 61.4,
+      "is_demoed": true,
+      "caveats": [
+        "Done without specific application added to the system, using only platform parts"
+      ],
+      "tags": [
+        "run profiles",
+        "publish",
+        "debug",
+        "code coverage"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code lens for test execution",
+      "description": "Code lens elements show how many tests have executed a procedure and pass/fail status, allowing direct execution of associated tests from the code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.4,
+      "t_end": 155.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "code lens",
+        "test results",
+        "execution tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Debug tests from VS Code",
+      "description": "Simplified debugging of AL tests directly from VS Code with multiple entry points: test explorer, test sidebar, or test results. Sets up debugging session automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196.4,
+      "t_end": 254.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "test session",
+        "debugger"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot agent for test fixing",
+      "description": "Copilot agent can run tests out of the box, identify failing tests, and automatically fix test code. Can perform multiple test runs to validate fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 266.5,
+      "t_end": 391.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires run test tool to be enabled"
+      ],
+      "tags": [
+        "copilot",
+        "agent",
+        "ai",
+        "test fixing",
+        "validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test framework using launch.json configuration",
+      "description": "Test running framework uses launch.json configuration to support multiple sandbox or on-prem instances, different companies for test data management via startup company property.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 301.8,
+      "t_end": 326.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "launch.json",
+        "configuration",
+        "sandbox",
+        "on-prem"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "No support for AI and data-driven test suites",
+      "description": "Test framework does not use AL test runners, which means no support for AI or data-driven test suites, and test code units relying on test runner functionality like setup and teardown events may not work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 337,
+      "t_end": 352.1,
+      "is_demoed": false,
+      "caveats": [
+        "Setup and teardown events from test runner not supported"
+      ],
+      "tags": [
+        "limitations",
+        "test runners",
+        "data-driven tests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dynamic test isolation configuration",
+      "description": "Test isolation is configured dynamically based on required test isolation property set on the test code unit. Defaults to code unit level isolation if not set.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 352.1,
+      "t_end": 366.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test isolation",
+        "configuration",
+        "code unit level"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Disable test integration in VS Code",
+      "description": "Test integration in VS Code can be disabled using the AL disable test running setting for users with existing third-party test running tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378.1,
+      "t_end": 391.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setting",
+        "configuration",
+        "third-party tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL MCP for agents outside VS Code",
+      "description": "AL MCP tool provides access to agentic tools for those not using VS Code but using other agentic tools like GitHub Copilot key, Cloud Code, or running in pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 466,
+      "t_end": 482.2,
+      "is_demoed": false,
+      "caveats": [
+        "Covered in separate session"
+      ],
+      "tags": [
+        "al mcp",
+        "agents",
+        "github copilot",
+        "pipeline"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Thomas",
+      "confidence": "high"
+    },
+    {
+      "name": "Thaddeus",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.4,
+      "text": "In this release, we have added the ability to run tests in Visual Studio Code.",
+      "why_it_matters": "Introduces the main feature of the 2026 release wave 1 - direct test running in VS Code rather than client-based testing.",
+      "check": "exact"
+    },
+    {
+      "t": 35.6,
+      "text": "Part of this is a set of run profiles. There is the profile for publishing and running your tests.",
+      "why_it_matters": "Explains the key workflow capability allowing publish and test execution in a single operation, plus separate debug and coverage profiles.",
+      "check": "exact"
+    },
+    {
+      "t": 196.4,
+      "text": "But now, from VS Code, it's like really, really easy to set up a run and debug.",
+      "why_it_matters": "Highlights improvement over traditional AL test tool debugging which required manual debugger attachment and session management.",
+      "check": "exact"
+    },
+    {
+      "t": 277.6,
+      "text": "the good thing about having integrated with the VS Code tools is that we get the ability for agents to run tests out of",
+      "why_it_matters": "Demonstrates integration with Copilot agents, enabling automated test fixing and validation capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 337,
+      "text": "we are not using AL test runners. This means that we currently do not have any support for running AI or data-driven test suites.",
+      "why_it_matters": "Important limitation stating that AI-generated and data-driven test suites are not supported in this implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 366.3,
+      "text": "we actually configure this dynamically based on the required test isolation property that's set on the test code unit.",
+      "why_it_matters": "Explains how test isolation replaces traditional test runner functionality through dynamic configuration on test code units.",
+      "check": "exact"
+    },
+    {
+      "t": 404.5,
+      "text": "giving the agent the ability to run and validate its own AL test own AL code using tests um significantly improves the accuracy of",
+      "why_it_matters": "States the design decision and benefit that agent self-validation through test execution improves agentic development accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 466,
+      "text": "we will have a bit on the AL MCP. And this is a tool for those of you who are not using VS Code",
+      "why_it_matters": "Announces separate tooling for agentic capabilities outside VS Code environment, extending testing support to pipelines and other tools.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 337,
+      "kind": "not-in-this-release",
+      "text": "we currently do not have any support for running AI or data-driven test suites"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025583
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Rvgt_VXFr1I",
   "published_at": "2026-04-01T12:01:32.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 1501,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T16:56:52.744Z",
+      "path": "data/extract/video/Rvgt_VXFr1I.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 10,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.025583
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44808af1c11a0ce7026aea88f32aed42729e9edfd3ff8b811841a5f68b604120"
+  "output_hash": "4a288c4ff00f15ba6734f7c44a78786334381e7961538d68ec84ff93e9436a1b"
 }

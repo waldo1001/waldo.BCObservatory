@@ -1,0 +1,26 @@
+{
+  "video_id": "IAacWsvav1E",
+  "item_id": "video/yt-microsoft/IAacWsvav1E",
+  "summary": "Enhanced index management in Business Central (2026 release wave 1): a Table Data Information Management page with per-index drilldown, a runtime index on/off toggle in the client, per-company index activation, and new telemetry events LC 63 and 64 for index enable and disable.",
+  "overview": "The video explains how Business Central now exposes index information and control in the client. From the table information page, users can drill down to per-index details for each table and company, including index size, usage, and which fields are in or included in an index.\n\nIt also demos turning indexes on and off at runtime, which resembles the C/SIDE experience. Indexes can ship disabled by default and be enabled per company where the functionality and data justify the storage and update cost. The video closes with the new lifecycle telemetry events and documentation links.",
+  "key_points": [
+    "The Table Data Information Management page lets you drill down from table information to per-index data, per table and per company, including index size and advanced usage information.",
+    "A detailed view shows which fields are in an index and which are included, so you can judge whether it covers a query without reading source code. It needs technical knowledge to interpret.",
+    "Indexes can be turned on and off in the client at runtime. Indexes defined as unique, such as the one on system ID, cannot be disabled.",
+    "In SaaS, disabled indexes are queued for the next maintenance window. In on-premises or local deployments the change applies immediately.",
+    "Indexes can ship disabled by default and be enabled per company, avoiding storage and update costs for indexes a company does not need.",
+    "Telemetry events LC 63 and 64 record index enable and disable done through the client, alongside existing lifecycle events for AL-based index operations. They are documented at ak.ms/bctelemetry."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "71f66a53baabc98e460a3789b31799b74be042b59bfdd02c6b7cb17781324103",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0137144
+  }
+}

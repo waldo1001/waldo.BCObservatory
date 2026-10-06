@@ -1,0 +1,220 @@
+{
+  "video_id": "_6bYqpKzL8s",
+  "item_id": "video/yt-saurav/_6bYqpKzL8s",
+  "title": "Upgrade Business Central Sandbox to Preview Version",
+  "duration_s": 789,
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "sandbox upgrade",
+    "preview environment",
+    "environment management",
+    "testing strategy",
+    "upgrade scheduling",
+    "admin center",
+    "customer data",
+    "preview limitations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 28.6
+    },
+    {
+      "title": "Why Test Preview with Customer Data",
+      "t_start": 28.6,
+      "t_end": 83.1
+    },
+    {
+      "title": "Preview Sandbox vs Existing Sandbox Approaches",
+      "t_start": 83.1,
+      "t_end": 172.4
+    },
+    {
+      "title": "Admin Center and Update Settings",
+      "t_start": 172.4,
+      "t_end": 310.2
+    },
+    {
+      "title": "Scheduling the Preview Update",
+      "t_start": 310.2,
+      "t_end": 398.9
+    },
+    {
+      "title": "Testing After Upgrade",
+      "t_start": 398.9,
+      "t_end": 482.2
+    },
+    {
+      "title": "Preview Environment Limitations",
+      "t_start": 482.2,
+      "t_end": 566.3
+    },
+    {
+      "title": "Upgrade in Progress and Data Considerations",
+      "t_start": 566.3,
+      "t_end": 675.4
+    },
+    {
+      "title": "Summary and Call to Action",
+      "t_start": 675.4,
+      "t_end": 789
+    }
+  ],
+  "features": [
+    {
+      "name": "Update existing sandbox to preview version",
+      "description": "Ability to schedule an existing sandbox environment to update to a preview version instead of creating a new clean preview environment. This allows testing upcoming functionality with real customer data, configurations, and extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.3,
+      "t_end": 172.4,
+      "is_demoed": true,
+      "caveats": [
+        "Preview environments are temporary and deleted 30 days after GA",
+        "Cannot update a preview environment to a different version",
+        "Only for testing purposes, not a permanent sandbox"
+      ],
+      "tags": [
+        "sandbox",
+        "preview",
+        "upgrade",
+        "testing",
+        "customer data"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview environment deletion after GA",
+      "description": "Preview environments are automatically deleted 30 days after the version becomes generally available without prior notice.",
+      "status": "ga",
+      "status_evidence_t": 495,
+      "status_evidence_quote": "Microsoft deletes those environment 30 days after the version becomes generally available.",
+      "status_evidence_verified": true,
+      "t_start": 482.2,
+      "t_end": 521.5,
+      "is_demoed": false,
+      "caveats": [
+        "Deletion happens automatically without prior notice",
+        "Customers must be informed of the temporary nature"
+      ],
+      "tags": [
+        "preview",
+        "limitations",
+        "environment management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Schedule preview version update from admin center",
+      "description": "Partners and administrators can access the admin center to view available environments, check application versions, and schedule updates to preview versions with custom date and time selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.1,
+      "t_end": 345.7,
+      "is_demoed": true,
+      "caveats": [
+        "Must verify sandbox is not in use for active testing before upgrading",
+        "Date selection may be restricted based on update window settings",
+        "Can enable option to run outside update window"
+      ],
+      "tags": [
+        "admin center",
+        "upgrade scheduling",
+        "environment management"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC28 US environment",
+      "t": 211.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Savani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 54.9,
+      "text": "Microsoft I don't remember the exact timeline but I have allowed existing sandbox environment to update to a preview version during the preview period.",
+      "why_it_matters": "Establishes that updating existing sandboxes to preview is a supported capability by Microsoft, setting the foundation for the entire demonstration.",
+      "check": "exact"
+    },
+    {
+      "t": 112.2,
+      "text": "Microsoft specifically documents that upcoming updating an existing sandbox to a preview allows you to review the new functionality in an environment where the",
+      "why_it_matters": "Confirms that Microsoft officially documents this approach and emphasizes the value of testing with realistic customer data rather than dummy data.",
+      "check": "exact"
+    },
+    {
+      "t": 187.7,
+      "text": "This approach is particularly useful for customers because it has customer extension, customer realistic data setups and configurations.",
+      "why_it_matters": "Articulates the key advantage of upgrading existing sandboxes over creating new preview environments for comprehensive testing.",
+      "check": "exact"
+    },
+    {
+      "t": 495,
+      "text": "Microsoft deletes those environment 30 days after the version becomes generally available.",
+      "why_it_matters": "Critical limitation that partners and customers must understand about the temporary nature of preview environments.",
+      "check": "exact"
+    },
+    {
+      "t": 535.6,
+      "text": "You will not be able to update a preview environment to a different version. So it automatically gets update from Microsoft but you cannot",
+      "why_it_matters": "Explains a fundamental constraint of preview environments that affects upgrade planning and strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 619,
+      "text": "Now when you think about it from a client perspective, I would not call it real but it will give you a rough estimate",
+      "why_it_matters": "Provides insight into using preview upgrades as a planning tool to estimate actual upgrade duration for customer implementations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 495,
+      "kind": "coming-later",
+      "text": "Microsoft deletes those environment 30 days after the version becomes generally available."
+    },
+    {
+      "t": 521.5,
+      "kind": "subject-to-change",
+      "text": "This environment will only be available 30 days after the GA."
+    },
+    {
+      "t": 551.3,
+      "kind": "subject-to-change",
+      "text": "Don't treat this as a permanent sandbox it is just temporarily for testing."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020873999999999997
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "video_id": "IAacWsvav1E",
+  "item_id": "video/yt-microsoft/IAacWsvav1E",
+  "title": "What's New: Enhanced Index Management (2026 release wave 1)",
+  "duration_s": 816,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "index management",
+    "database performance",
+    "storage optimization",
+    "table data information",
+    "index lifecycle",
+    "telemetry",
+    "per-company configuration",
+    "sql indexes"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Motivation",
+      "t_start": 0,
+      "t_end": 37.9
+    },
+    {
+      "title": "Overview of Enhanced Index Management",
+      "t_start": 37.9,
+      "t_end": 82.6
+    },
+    {
+      "title": "Table Data Information Management Page Demo",
+      "t_start": 82.6,
+      "t_end": 128.4
+    },
+    {
+      "title": "Index Details and Technical Information",
+      "t_start": 128.4,
+      "t_end": 179
+    },
+    {
+      "title": "History of Index Management and New Capabilities",
+      "t_start": 179,
+      "t_end": 263.1
+    },
+    {
+      "title": "Turning Indexes On and Off Demo",
+      "t_start": 263.1,
+      "t_end": 344.1
+    },
+    {
+      "title": "Per-Company Index Management and Design Philosophy",
+      "t_start": 344.1,
+      "t_end": 414.5
+    },
+    {
+      "title": "Telemetry and Documentation",
+      "t_start": 414.5,
+      "t_end": 530.3
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 530.3,
+      "t_end": 580.8
+    },
+    {
+      "title": "General Business Central Resources",
+      "t_start": 580.8,
+      "t_end": 816
+    }
+  ],
+  "features": [
+    {
+      "name": "Table Data Information Management Page with Index Drilldown",
+      "description": "A new page feature that allows users to drill down from the table information page to see per-index information on a per-table, per-company basis. Users can now view index size and advanced index usage information previously only available at the aggregated table level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.6,
+      "t_end": 128.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "index information",
+        "table analytics",
+        "data performance analysis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index Field and Coverage Information Display",
+      "description": "A detailed view showing which fields are in an index and which fields are included in the index, allowing administrators and developers to determine whether an index is covering based on query types without viewing source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.8,
+      "t_end": 179,
+      "is_demoed": true,
+      "caveats": [
+        "Requires technical knowledge to interpret"
+      ],
+      "tags": [
+        "index coverage",
+        "query optimization",
+        "technical details"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime Index Toggle Capability in Client",
+      "description": "The ability to turn indexes on and off directly in the Business Central client at runtime. Some indexes defined as unique cannot be disabled, but most indexes can be toggled. Disabled indexes are queued for activation in the next maintenance window in SaaS or immediately in on-premises installations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 179,
+      "t_end": 344.1,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot disable unique indexes",
+        "Disabled indexes are queued for subsequent maintenance window in SaaS",
+        "Immediate in local or on-premises deployments"
+      ],
+      "tags": [
+        "index lifecycle",
+        "runtime management",
+        "client-side control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Per-Company Selective Index Activation",
+      "description": "The capability to ship indexes that are disabled by default and selectively enable them per company based on functionality usage and data characteristics. This allows companies to avoid storage and update costs for indexes not needed for their use cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 344.1,
+      "t_end": 414.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "per-company configuration",
+        "storage optimization",
+        "selective indexing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Index Lifecycle Telemetry Events",
+      "description": "New telemetry events LC 63 and 64 track index enable and disable operations at runtime through the client. These complement existing lifecycle events for AL-based index operations and are documented on ak.ms/bctelemetry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.5,
+      "t_end": 438,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "lifecycle events",
+        "monitoring"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Table Information page",
+      "t": 82.6
+    },
+    {
+      "type": "page",
+      "name": "Table Data Information Management page",
+      "t": 58.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontoppidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Mass Gram",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 37.9,
+      "text": "you can now analyze your data performance and based on that you can make it faster um and maybe also save something on your",
+      "why_it_matters": "Establishes the core value proposition of enhanced index management - performance improvement and storage savings.",
+      "check": "exact"
+    },
+    {
+      "t": 219.5,
+      "text": "the full kind of C/SIDE experience is coming now where you can now turn indexes on and off directly in the client",
+      "why_it_matters": "Announces restoration of a legacy capability that was lost during the transition from C/SIDE to AL, now available in the runtime client.",
+      "check": "exact"
+    },
+    {
+      "t": 250.2,
+      "text": "If we start here with the system ID, it is defined as being unique. It would be a semantically different experience if you turned",
+      "why_it_matters": "Explains the constraint that unique indexes cannot be disabled for semantic consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 316,
+      "text": "those indices you have normally not been able to turn on but you can now turn them on here",
+      "why_it_matters": "Demonstrates the new capability to activate disabled-by-default indexes with queuing behavior in SaaS.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 368.4,
+      "text": "when we develop the base app, we are trying to guess the types of indexes that would make sense, but we don't necessarily know",
+      "why_it_matters": "Articulates the design principle driving the feature - acknowledging that Microsoft cannot optimize indexes for all customer scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 471.9,
+      "text": "I want to highlight what I think is a new ability that we haven't had since C/SIDE and that is the ability to create",
+      "why_it_matters": "Summarizes the most significant capability - disabled-by-default indexes with per-company selective activation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024357
+    }
+  ]
+}
