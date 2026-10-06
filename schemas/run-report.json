@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/run-report.json",
+  "title": "Nightly run report (data/manifest/_runs/<date>.json); also the heartbeat that keeps the schedule alive",
+  "type": "object",
+  "required": ["date", "started_at", "finished_at", "status", "pipeline", "guard", "ingest", "plan", "llm", "errors"],
+  "additionalProperties": false,
+  "properties": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "started_at": { "type": "string", "format": "date-time" },
+    "finished_at": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["ok", "partial", "skipped-budget", "aborted", "dry-run"] },
+    "pipeline": { "type": "string" },
+    "runner": { "type": "object", "additionalProperties": { "type": "string" } },
+    "guard": {
+      "type": "object", "required": ["decision", "status"],
+      "properties": {
+        "decision": { "enum": ["go", "skip", "reduced", "disabled"] },
+        "status": { "type": "string" },
+        "five_hour": { "type": ["number", "null"] },
+        "seven_day": { "type": ["number", "null"] },
+        "resets_at": { "type": ["string", "null"] },
+        "headroom": { "type": ["number", "null"] },
+        "factor": { "type": "number" },
+        "facts_only": { "type": "boolean" },
+        "detail": { "type": "string" }
+      }
+    },
+    "ingest": {
+      "type": "object", "required": ["sources", "totals"],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id", "kind", "ok", "counts"],
+            "properties": {
+              "id": { "type": "string" }, "kind": { "type": "string" }, "ok": { "type": "boolean" },
+              "deferred": { "type": "boolean" }, "error": { "type": "string" }, "note": { "type": "string" },
+              "duration_ms": { "type": "integer" },
+              "counts": { "type": "object", "additionalProperties": { "type": "integer" } },
+              "suggestions": { "type": "array" }
+            }
+          }
+        },
+        "totals": { "type": "object", "additionalProperties": { "type": "integer" } }
+      }
+    },
+    "plan": {
+      "type": "object", "required": ["quotas", "work", "executed"],
+      "properties": {
+        "quotas": { "type": "object", "additionalProperties": { "type": "integer" } },
+        "work": { "type": "integer" },
+        "executed": { "type": "integer" },
+        "skips": { "type": "integer" },
+        "quota_use": { "type": "object" },
+        "note": { "type": "string" }
+      }
+    },
+    "llm": { "type": "object", "properties": { "calls": { "type": "integer" }, "cache_hits": { "type": "integer" }, "failures": { "type": "integer" }, "by_model": { "type": "object" }, "cost_usd": { "type": "number" } } },
+    "items_changed": { "type": "integer" },
+    "errors": { "type": "array", "items": { "type": "string" } }
+  }
+}

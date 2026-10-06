@@ -155,6 +155,7 @@ sources:
     author: { name: Dynamics Corner }
 
   # ---------------------------------------------------------------- community: blogs (derived unless opted in)
+  # rest: the site's /wp-json/wp/v2/posts, or https://public-api.wordpress.com/wp/v2/sites/<host>/posts for WordPress.com-hosted blogs
   - id: waldo-be
     kind: blog
     name: waldo's blog
@@ -180,7 +181,7 @@ sources:
     name: Stefano Demiliani
     url: https://demiliani.com
     author: { name: Stefano Demiliani, mvp: true }
-    fetch: { feed: https://demiliani.com/feed/, rest: https://demiliani.com/wp-json/wp/v2/posts }
+    fetch: { feed: https://demiliani.com/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/demiliani.com/posts }
   - id: freddysblog
     kind: blog
     name: Freddys blog
@@ -192,7 +193,7 @@ sources:
     name: James Pearson
     url: https://jpearson.blog
     author: { name: James Pearson }
-    fetch: { feed: https://jpearson.blog/feed/, rest: https://jpearson.blog/wp-json/wp/v2/posts }
+    fetch: { feed: https://jpearson.blog/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/jpearson.blog/posts }
   - id: katson-com
     kind: blog
     name: Katson.com
@@ -211,7 +212,7 @@ sources:
     url: https://gerardorenteria.blog
     language: es
     author: { name: Gerardo Renteria }
-    fetch: { feed: https://gerardorenteria.blog/feed/, rest: https://gerardorenteria.blog/wp-json/wp/v2/posts }
+    fetch: { feed: https://gerardorenteria.blog/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/gerardorenteria.blog/posts }
   - id: bertverbeek-nl
     kind: blog
     name: Discover MS BC - Bert Verbeek
@@ -247,7 +248,7 @@ sources:
     name: Duilio Tacconi
     url: https://duiliotacconi.com
     author: { name: Duilio Tacconi, mvp: true }
-    fetch: { feed: https://duiliotacconi.com/feed/, rest: https://duiliotacconi.com/wp-json/wp/v2/posts }
+    fetch: { feed: https://duiliotacconi.com/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/duiliotacconi.com/posts }
   - id: thinkaboutit-be
     kind: blog
     name: think about IT - Steven Renders
@@ -265,7 +266,7 @@ sources:
     name: DvlprLife
     url: https://www.dvlprlife.com
     author: { name: Brad Prendergast }
-    fetch: { feed: https://www.dvlprlife.com/feed/, rest: https://www.dvlprlife.com/wp-json/wp/v2/posts }
+    fetch: { feed: https://www.dvlprlife.com/feed/ }
   - id: tine-staric-net
     kind: blog
     name: Tech Adventures in Business Central
@@ -277,7 +278,7 @@ sources:
     name: Aardvark Labs
     url: https://aardvarklabs.blog
     author: { name: Marcel Chabot }
-    fetch: { feed: https://aardvarklabs.blog/feed/, rest: https://aardvarklabs.blog/wp-json/wp/v2/posts }
+    fetch: { feed: https://aardvarklabs.blog/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/aardvarklabs.blog/posts }
   - id: vondervoort-be
     kind: blog
     name: Vondervoort.be
@@ -289,7 +290,7 @@ sources:
     name: The Dynamics Explorer
     url: https://thedynamicsexplorer.com
     author: { name: Gavin Whittaker }
-    fetch: { feed: https://thedynamicsexplorer.com/feed/, rest: https://thedynamicsexplorer.com/wp-json/wp/v2/posts }
+    fetch: { feed: https://thedynamicsexplorer.com/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/thedynamicsexplorer.com/posts }
   - id: vld-bc-com
     kind: blog
     name: Volodymyr Dvernytskyi

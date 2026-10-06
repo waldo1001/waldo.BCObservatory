@@ -49,6 +49,7 @@ export const FLOWS: Record<Pillar, Stage[]> = {
   code: ["discovered", "fetched", "extracted", "linked", "published"],
   roadmap: ["discovered", "fetched", "linked", "published"],
 };
+export const REMOVED_UPSTREAM = "removed-upstream";
 const TERMINAL = new Set<State>(["published", "failed", "skipped"]);
 
 export function itemId(pillar: Pillar, source: string, key: string): string {
@@ -149,6 +150,13 @@ export class Manifest {
       ...(input.meta ? { meta: { ...(prev.meta ?? {}), ...input.meta } } : {}),
     };
     let change: DiscoverChange = "unchanged";
+    if (prev.state === "skipped" && prev.skip === REMOVED_UPSTREAM) {
+      // the item came back upstream: resume from scratch, or from fetch when it had been processed before
+      const processed = Object.keys(prev.stages).some((s) => s !== "discovered");
+      item = { ...item, state: processed ? "stale" : "discovered", skip: null, input_hash: input.input_hash ?? prev.input_hash ?? null };
+      this.save(item);
+      return { item, change: "changed" };
+    }
     const hashChanged = input.input_hash != null && input.input_hash !== prev.input_hash;
     if (hashChanged) {
       item.input_hash = input.input_hash;
@@ -160,6 +168,20 @@ export class Manifest {
     if (change === "unchanged" && canonicalJson(item) !== canonicalJson(prev)) change = "updated";
     if (change !== "unchanged") this.save(item);
     return { item, change };
+  }
+  /** Items of one source; used to notice upstream removals. */
+  listSource(pillar: Pillar, source: string): ManifestItem[] {
+    return listFiles(resolve(this.root, pillar, source), ".json").map((p) => readJson<ManifestItem>(p));
+  }
+  /** Mark items that disappeared upstream as skipped (revived automatically if they return). */
+  markRemoved(pillar: Pillar, source: string, presentKeys: Set<string>): number {
+    let n = 0;
+    for (const it of this.listSource(pillar, source)) {
+      if (it.state === "skipped" || presentKeys.has(parseItemId(it.id).key)) continue;
+      this.save(skip(it, REMOVED_UPSTREAM));
+      n++;
+    }
+    return n;
   }
   /** All items, optionally for one pillar; hubs and run reports live elsewhere under the manifest root. */
   list(pillar?: Pillar): ManifestItem[] {
