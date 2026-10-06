@@ -1,0 +1,293 @@
+{
+  "video_id": "HjsOuhThGKk",
+  "item_id": "video/yt-microsoft/HjsOuhThGKk",
+  "title": "What's New: Summarize with Copilot (2025 release wave 1)",
+  "duration_s": 451,
+  "systems": [
+    "copilot",
+    "crm",
+    "finance"
+  ],
+  "topics": [
+    "copilot summaries",
+    "summary fact box",
+    "customer card",
+    "posted invoice",
+    "ai assistant",
+    "drill-down",
+    "data sources",
+    "related pages",
+    "permissions",
+    "refresh summary"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot as AI assistant",
+      "t_start": 0,
+      "t_end": 45.7
+    },
+    {
+      "title": "Summary fact box on customer card",
+      "t_start": 45.7,
+      "t_end": 99.9
+    },
+    {
+      "title": "Interactive drill-down into summary details",
+      "t_start": 99.9,
+      "t_end": 160.8
+    },
+    {
+      "title": "Accessing related pages and invoices",
+      "t_start": 160.8,
+      "t_end": 201.4
+    },
+    {
+      "title": "Show more button and copilot pane",
+      "t_start": 201.4,
+      "t_end": 254
+    },
+    {
+      "title": "Data sources and follow-up questions",
+      "t_start": 254,
+      "t_end": 300.7
+    },
+    {
+      "title": "Summary on posted sales invoice",
+      "t_start": 300.7,
+      "t_end": 341.2
+    },
+    {
+      "title": "Refresh and regenerate summary feature",
+      "t_start": 341.2,
+      "t_end": 381.2
+    },
+    {
+      "title": "Availability and developer extensibility",
+      "t_start": 381.2,
+      "t_end": 421.7
+    },
+    {
+      "title": "Call to action and feedback",
+      "t_start": 421.7,
+      "t_end": 451
+    }
+  ],
+  "features": [
+    {
+      "name": "Summary fact box",
+      "description": "A new space on pages where copilot presents concise and simple summaries of key information tailored to the user's role, such as customer overdue amounts, payment terms, and average collection periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.9,
+      "t_end": 99.9,
+      "is_demoed": true,
+      "caveats": [
+        "Available in all country localizations and languages",
+        "Works with custom entities and custom fields"
+      ],
+      "tags": [
+        "summary",
+        "customer card",
+        "fact box",
+        "ai",
+        "role-based"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Interactive summary drill-down",
+      "description": "Users can click on summary bullet points to drill down into the source information on the page, with copilot highlighting the field that powers each insight.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.9,
+      "t_end": 140.6,
+      "is_demoed": true,
+      "caveats": [
+        "All summaries are grounded in facts from business Central database"
+      ],
+      "tags": [
+        "interactive",
+        "drill-down",
+        "field highlighting",
+        "navigation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Show more and copilot pane",
+      "description": "A button that opens the copilot pane with expanded summaries and the ability to ask follow-up questions about the data or how to perform tasks in business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.4,
+      "t_end": 254,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot pane",
+        "follow-up questions",
+        "expanded view"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Summary on posted sales invoice",
+      "description": "Copilot provides summaries not only on customer cards but also on posted sales invoice pages, presenting relevant invoice information based on database access and user permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 284.4,
+      "t_end": 320.9,
+      "is_demoed": true,
+      "caveats": [
+        "Copilot respects user permissions and only sees data the user can see"
+      ],
+      "tags": [
+        "invoice",
+        "summary",
+        "permissions",
+        "posted transactions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Refresh summary button",
+      "description": "A button that allows users to regenerate summaries to get the latest and greatest information after making changes to records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 341.2,
+      "t_end": 361.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "refresh",
+        "regenerate",
+        "latest data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Developer influence on summaries",
+      "description": "Developers cannot directly extend or create their own summaries, but there are ways to influence summaries through code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.7,
+      "t_end": 421.7,
+      "is_demoed": false,
+      "caveats": [
+        "Developers cannot directly create custom summaries",
+        "Developer options for influencing summaries are documented elsewhere"
+      ],
+      "tags": [
+        "extensibility",
+        "developer",
+        "custom summaries"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Summary on related entities",
+      "description": "Copilot can expand summaries beyond the current page to include information from related pages through fact boxes and statistics pages for entities like customers, vendors, products, and fixed assets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.8,
+      "t_end": 201.4,
+      "is_demoed": true,
+      "caveats": [
+        "Future roadmap may expand to more related entities"
+      ],
+      "tags": [
+        "related pages",
+        "customers",
+        "vendors",
+        "products",
+        "fixed assets",
+        "360 view"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "customer card",
+      "t": 45.7
+    },
+    {
+      "type": "page",
+      "name": "posted sales invoice",
+      "t": 181.2
+    },
+    {
+      "type": "page",
+      "name": "statistics",
+      "t": 140.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 25.7,
+      "text": "and it's seamlessly integrated into business Central so you can get to these insights without having to export your data to other apps",
+      "why_it_matters": "Demonstrates that copilot provides integrated insights without requiring data export to external tools.",
+      "check": "exact"
+    },
+    {
+      "t": 300.7,
+      "text": "a way for co pilot to present information to me and this is all information and data that i have access",
+      "why_it_matters": "Clarifies that copilot summaries respect user permissions and only display data the user can access.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 381.2,
+      "text": "when you upgrade to version 26 of business Central you'll find this feature available no matter which country localization and your environment no matter",
+      "why_it_matters": "Confirms general availability of the feature in version 26 across all localizations and languages.",
+      "check": "exact"
+    },
+    {
+      "t": 401.7,
+      "text": "now you can't directly extend or create your own summaries yes if you're a developer",
+      "why_it_matters": "Defines the extensibility boundaries for developers with respect to copilot summaries.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 361.2,
+      "kind": "preview",
+      "text": "while in preview we're focused on these sources of information"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022238
+    }
+  ]
+}

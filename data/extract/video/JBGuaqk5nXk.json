@@ -1,0 +1,314 @@
+{
+  "video_id": "JBGuaqk5nXk",
+  "item_id": "video/yt-microsoft/JBGuaqk5nXk",
+  "title": "What's New: Copilot for Sustainability (2025 release wave 1)",
+  "duration_s": 1044,
+  "systems": [
+    "sustainability",
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "copilot",
+    "emissions calculation",
+    "sustainability journal",
+    "emission factors",
+    "carbon accounting",
+    "llm",
+    "file uploads",
+    "public preview",
+    "multilingual support"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and challenges with sustainability emissions",
+      "t_start": 0,
+      "t_end": 144.2
+    },
+    {
+      "title": "Copilot workflow and emission factor calculation process",
+      "t_start": 144.2,
+      "t_end": 328.1
+    },
+    {
+      "title": "Preparing and managing emission factor files",
+      "t_start": 328.1,
+      "t_end": 522.8
+    },
+    {
+      "title": "Demo with matched emission factors and sources",
+      "t_start": 522.8,
+      "t_end": 677.1
+    },
+    {
+      "title": "Calculation explanations and verification workflow",
+      "t_start": 677.1,
+      "t_end": 806
+    },
+    {
+      "title": "Handling warnings and improving descriptions with regeneration",
+      "t_start": 806,
+      "t_end": 926.6
+    },
+    {
+      "title": "Availability, language support and future roadmap",
+      "t_start": 926.6,
+      "t_end": 1044
+    }
+  ],
+  "features": [
+    {
+      "name": "Calculate CO2 copilot action",
+      "description": "A copilot feature that calculates total emissions, updates emission factors if configured, and adds source information for auditing in sustainability journal entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.1,
+      "t_end": 130,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper line description for system to understand emissions type",
+        "Only officially supports English language in first release",
+        "Requires uploaded files or public information to match emissions"
+      ],
+      "tags": [
+        "emissions",
+        "copilot",
+        "sustainability",
+        "ai",
+        "calculation"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emission factor file uploads",
+      "description": "Users can prepare and upload Excel files containing emission factors organized by columns, which the copilot uses to find matches for different types of emissions across countries and manufacturers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 367.6,
+      "t_end": 511.6,
+      "is_demoed": true,
+      "caveats": [
+        "Files should be cut down to only necessary information for performance",
+        "Files can be organized by country or type",
+        "Obsolete files can be marked and removed easily"
+      ],
+      "tags": [
+        "file management",
+        "emission factors",
+        "sustainability"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Automated emission factor suggestions",
+      "description": "When running copilot, if emission factors already exist in the system for a line, they are displayed as automated suggestions without calling the LLM. Only missing factors trigger LLM processing.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 195.2,
+      "t_end": 226.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies when emission factors exist in system",
+        "Requires uploaded files or public sources for matches"
+      ],
+      "tags": [
+        "suggestion",
+        "emissions",
+        "optimization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Contextual warnings for missing data",
+      "description": "The system provides pre-processing contextual warnings to alert users when required information is missing from entries, helping improve data quality before posting.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "in this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 240.3,
+      "t_end": 273.8,
+      "is_demoed": true,
+      "caveats": [
+        "Warnings help identify data gaps but require user action",
+        "Distance or other required measures must be provided"
+      ],
+      "tags": [
+        "warnings",
+        "data quality",
+        "validation"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Public information fallback",
+      "description": "When uploaded files do not contain a match for emissions data, the system attempts to find matching information from publicly available sources and recommends those emissions factors.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "in this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 253.7,
+      "t_end": 273.8,
+      "is_demoed": true,
+      "caveats": [
+        "Fallback to public information when uploaded files do not match",
+        "Source attribution shows as public information"
+      ],
+      "tags": [
+        "fallback",
+        "public data",
+        "sources"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Description refinement and regeneration",
+      "description": "Users can update line descriptions in the copilot suggestion page to improve matching accuracy and click regenerate to get more precise emission factor recommendations without returning to the journal.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "in this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 852.9,
+      "t_end": 895.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires accurate descriptions like 'large motorbike' rather than just 'motorbike'",
+        "Regeneration available only when copilot suggestion page is open"
+      ],
+      "tags": [
+        "refinement",
+        "accuracy",
+        "workflow"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Calculation explanation transparency",
+      "description": "For each emission calculation, the copilot provides detailed formula explanations showing the calculation method, values used, and final results for verification and auditing purposes.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "in this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 677.1,
+      "t_end": 754.7,
+      "is_demoed": true,
+      "caveats": [
+        "Formulas vary based on emission type - distance for cars, nights for hotels, calculated distance for flights",
+        "All underlying values must be present in Business Central"
+      ],
+      "tags": [
+        "transparency",
+        "calculation",
+        "auditing"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Flexible emission factor update settings",
+      "description": "Users can configure whether the system should update emission factors for future use when new calculations are completed, or keep them as single-use entries.",
+      "status": "preview",
+      "status_evidence_t": 947.5,
+      "status_evidence_quote": "in this first release it will be delivered as a public preview",
+      "status_evidence_verified": true,
+      "t_start": 106.3,
+      "t_end": 129.3,
+      "is_demoed": false,
+      "caveats": [
+        "Configuration is system-wide setting, not per-entry",
+        "Useful when accounting for multiple values under same account"
+      ],
+      "tags": [
+        "configuration",
+        "settings",
+        "emissions"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 54.4,
+      "text": "most emissions again do not have uh total amounts already ready. So you will not get them for example for your hotel stays for",
+      "why_it_matters": "Explains the core problem that motivated the copilot solution - most real-world emissions lack pre-calculated totals",
+      "check": "exact"
+    },
+    {
+      "t": 195.2,
+      "text": "if we have emission factors it will be showed in a copilot prompt as automated suggestion so that's good system will not run lm",
+      "why_it_matters": "Clarifies how the system optimizes by avoiding LLM calls when existing data is available",
+      "check": "exact"
+    },
+    {
+      "t": 561.2,
+      "text": "you can see that copilot suggested six lines out of six and the confidence is 100%. It means everything was very accurate.",
+      "why_it_matters": "Demonstrates the accuracy metric users will see in real scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 947.5,
+      "text": "this copilot will come in 26.1 or two. So we are currently completing uh this functionality and in this first release it will be",
+      "why_it_matters": "Provides the exact release timing and status - public preview in version 26.1 or 26.2",
+      "check": "exact"
+    },
+    {
+      "t": 964.7,
+      "text": "in this moment we have officially support only for English language. It doesn't mean it cannot work in other languages",
+      "why_it_matters": "Sets expectations about language support limitations in the current release",
+      "check": "exact"
+    },
+    {
+      "t": 999.3,
+      "text": "we want to improve some specific areas we want to prepare everything for gen availability so It should be G as soon as possible",
+      "why_it_matters": "Indicates roadmap goal to move from preview to general availability in future waves",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 947.5,
+      "kind": "preview",
+      "text": "in this first release it will be delivered as a public preview"
+    },
+    {
+      "t": 964.7,
+      "kind": "subject-to-change",
+      "text": "in this moment we have officially support only for English language"
+    },
+    {
+      "t": 979,
+      "kind": "coming-later",
+      "text": "we want to continue uh investment in this copilot in next wave or waves depends uh how it's going"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 6,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028308999999999997
+    }
+  ]
+}

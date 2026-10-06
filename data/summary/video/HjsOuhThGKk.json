@@ -1,0 +1,28 @@
+{
+  "video_id": "HjsOuhThGKk",
+  "item_id": "video/yt-microsoft/HjsOuhThGKk",
+  "summary": "Summarize with Copilot in Business Central (2025 release wave 1): a summary fact box on pages such as the customer card and posted sales invoice, with drill-down, a copilot pane for follow-up questions, and a refresh button. Summaries are grounded in database facts and respect user permissions.",
+  "overview": "The video shows how Copilot presents short summaries of key information in a fact box on pages. On the customer card it covers items such as overdue amounts, payment terms and average collection period. Users can click a bullet point to drill down to the source field, and a Show more button opens the copilot pane for expanded summaries and follow-up questions.\n\nIt also shows the summary on a posted sales invoice, the refresh button that regenerates a summary after records change, and summaries that draw on related pages such as fact boxes and statistics pages. The presenter says the feature is available in version 26 in all country localizations and languages. Developers cannot create their own summaries directly, but can influence them through code, which is documented elsewhere. A preview disclaimer says the focus is on certain information sources while in preview.",
+  "key_points": [
+    "The summary fact box shows concise, role-tailored information, for example overdue amounts, payment terms and average collection period on the customer card.",
+    "Clicking a summary bullet point drills down to the source information, and Copilot highlights the field behind the insight.",
+    "Summaries are grounded in facts from the Business Central database, and Copilot only sees data the user has permission to see.",
+    "The Show more button opens the copilot pane for expanded summaries and follow-up questions about the data or how to do tasks.",
+    "The Refresh summary button regenerates a summary to reflect changes made to records.",
+    "The presenter states that on version 26 the feature is available in every country localization and language, and works with custom entities and custom fields.",
+    "Developers cannot directly extend or create summaries, but can influence them through code; the options are documented elsewhere."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "developer"
+  ],
+  "extraction_hash": "0e0d7695f268ae3145df16a8588ee3b7b9fe32bb551ab0eb115dc6cd336b1d53",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014648399999999999
+  }
+}

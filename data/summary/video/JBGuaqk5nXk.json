@@ -1,0 +1,27 @@
+{
+  "video_id": "JBGuaqk5nXk",
+  "item_id": "video/yt-microsoft/JBGuaqk5nXk",
+  "summary": "Copilot for Sustainability in Business Central, covered in the 2025 release wave 1 What's New video. It shows the Calculate CO2 action on sustainability journal lines, emission factor file uploads, calculation explanations, warnings and regeneration. Delivered as a public preview in the first release, English officially supported.",
+  "overview": "The video explains how Copilot helps calculate emissions in the sustainability journal. Most emissions, such as hotel stays, do not come with ready totals. Copilot matches journal lines to emission factors from uploaded Excel files, or from public information when no file matches, and then calculates the total.\n\nThe demo covers preparing factor files, reviewing matched factors and sources, reading the calculation explanation for each line, handling warnings about missing data, and editing a line description and regenerating. It closes with availability, language support and the roadmap. The presenter says the copilot is expected in 26.1 or 26.2 as a public preview, with general availability as a later goal.",
+  "key_points": [
+    "The Calculate CO2 action calculates total emissions, can update emission factors if configured, and adds source information for auditing.",
+    "Emission factors already in the system appear as automated suggestions without calling the LLM. Only missing factors are sent to the LLM.",
+    "Emission factor files are Excel files organized by columns. Cut them down to only the necessary information for performance, and mark obsolete files so they can be removed.",
+    "If uploaded files have no match, Copilot falls back to public information and shows the source as public information.",
+    "Line descriptions need to be specific, for example 'large motorbike' rather than 'motorbike'. You can edit the description on the suggestion page and click regenerate.",
+    "Each calculation has an explanation showing the formula and values used. Formulas differ by type, such as distance for cars, nights for hotels and calculated distance for flights.",
+    "In the first release it is a public preview with official support for English only, expected in 26.1 or 26.2. The presenter says other languages may still work."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "97f34b4a35b69dddaffc0ac0d8235a8be941af77327a317b2a18120ddb990452",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0168204
+  }
+}

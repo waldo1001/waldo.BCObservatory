@@ -1,0 +1,318 @@
+{
+  "video_id": "Gjs00Wy0HlI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.8,
+      "end": 17.5,
+      "text": "Welcome to this Business Central launch event about what's new in Algo Go for GitHub on built and performance. My name is Freddy Christensen, technical evangelist with Microsoft and together with me I have Alexander."
+    },
+    {
+      "t": 17.5,
+      "end": 31.8,
+      "text": "I work with Freddy on Algo Go for GitHub and I'm part of the engineering systems team at Microsoft. So in algo go for GitHub um in this release we have quite a few things like on build and performance."
+    },
+    {
+      "t": 31.8,
+      "end": 46.3,
+      "text": "So and and we'll like go through these not in detail but just like on the surface and try to explain to you what what these things uh are good for and and how they can help you in your DevOps solution."
+    },
+    {
+      "t": 46.3,
+      "end": 56.7,
+      "text": "The first was one is incremental builds and let's have a look at what that actually is. So incremental builds is all about only building what's needed."
+    },
+    {
+      "t": 56.7,
+      "end": 70.7,
+      "text": "So if you're modifying if you have like a repository with 10 apps or 10 projects, you'll only build the apps that are actually modified in the commit that you uh you're running right now."
+    },
+    {
+      "t": 70.7,
+      "end": 81,
+      "text": "Um default like if we go back in time, this has always been enabled for pull requests, but it has never been enabled for for a CI/CD."
+    },
+    {
+      "t": 81,
+      "end": 95.2,
+      "text": "The primary reason for that was that we wanted every CI/CD build to have like a complete set of artifacts built and we've solved that. So we're saving time on continuous integration when only building what's needed,"
+    },
+    {
+      "t": 95.2,
+      "end": 107.2,
+      "text": "but we're also saving time on deploying because the unbuilt apps will obviously not be deployed. They'll like figure out that these apps are already deployed."
+    },
+    {
+      "t": 107.2,
+      "end": 122.8,
+      "text": "Let's have a quick demo of what this actually contains. If we have a look at the build here, like there's a lot of uh different uh commits here, but I'll just have a look at at this commit and click this one and have a look at this build."
+    },
+    {
+      "t": 122.8,
+      "end": 137.2,
+      "text": "Total duration 24 minutes. Looking at the first build here, these builds are like 24 seconds. Obviously, that's not a complete build. Uh but here we have like normal build time for when doing like"
+    },
+    {
+      "t": 137.2,
+      "end": 152.5,
+      "text": "uh a normal build using GitHub uh runners is approximately 15 minutes per app. So what's happening here is that the only apps here that have been rebuilt is the Danish one and the Italian one uh and actually with different build modes as well."
+    },
+    {
+      "t": 152.5,
+      "end": 163.8,
+      "text": "Um but looking at that uh the artifacts for the build is complete. We'll both have the common we'll have the Italian one. We'll have Danish one. We'll have the W1 app."
+    },
+    {
+      "t": 163.8,
+      "end": 179.9,
+      "text": "Uh so so all the artifacts are there. But if we look at what's inside these artifacts, the W1 one will actually be the artifacts from the previous build and the Danish one will be the artifact from this build."
+    },
+    {
+      "t": 179.9,
+      "end": 195,
+      "text": "Looking at the summary, we'll be able to see that the artifacts that are not built is taken from the last known good build, which is this one should then be build number 22 somewhere,"
+    },
+    {
+      "t": 195,
+      "end": 209.2,
+      "text": "I guess. Whatever. Yeah, build number 22 up here. So, the artifacts that were not built is copied from the last known good build, meaning that the build that we are uh using and running with will be uh complete."
+    },
+    {
+      "t": 209.2,
+      "end": 220.3,
+      "text": "Back to the presentation. Let's have a look at the next thing which also kind of works together with incremental builds quite a bit."
+    },
+    {
+      "t": 220.3,
+      "end": 230.6,
+      "text": "Uh workflow concurrency. Now um what you can do with workflow concurrency is to control workflow concurrency. Wow."
+    },
+    {
+      "t": 230.6,
+      "end": 245.6,
+      "text": "Kind of like says itself. Um it works very well with incremental builds. If you set up incremental builds on a branch or on a uh on a repository, then the workflow concurrency can ensure that if if you are doing like two commits after each other,"
+    },
+    {
+      "t": 245.6,
+      "end": 259.2,
+      "text": "it's going to cancel the prior build and just build the the next one. And because of incremental builds will look at the last known good build and the changes since the last known good build."
+    },
+    {
+      "t": 259.2,
+      "end": 272.2,
+      "text": "It will it will find all the changes between uh the last known good build and what we're building right now. Let's have a look at that. The last known good build we had was build number 22."
+    },
+    {
+      "t": 272.2,
+      "end": 282.2,
+      "text": "That's this one. After that, we did a commit here which was cancelled. And the reason for that was obviously that we did another commit like seconds later uh which is 24."
+    },
+    {
+      "t": 282.2,
+      "end": 297.7,
+      "text": "Let's look at what actually was changed in 23. What we did here was we we made a change to the Italian version. If we then go back and have a look at the change we did in the 24 that was one change in the Danish version."
+    },
+    {
+      "t": 297.7,
+      "end": 311.8,
+      "text": "And as we saw earlier, the built made in 24 here actually uh builds both the Italian one and the Danish one because both of those changed since the last known good build."
+    },
+    {
+      "t": 311.8,
+      "end": 322.5,
+      "text": "Uh so this way having workflow concurrency set together with incremental build uh will will save you quite a bit of time."
+    },
+    {
+      "t": 322.5,
+      "end": 342.8,
+      "text": "Let's look at the settings just to see what actually is necessary in Elgo settings here and the let me see here the conditional settings here for workflow concurrency is here and the incremental builds are set here to run on push and on pull requests but not on"
+    },
+    {
+      "t": 342.8,
+      "end": 354,
+      "text": "schedule with that let's go back to the presentation and I'll give the word to Alexander to talk about conditional setting based build modes."
+    },
+    {
+      "t": 354,
+      "end": 364.3,
+      "text": "So, taking a step back first, let's just talk about what build modes are. Uh, so in this settings file here, you can see I have I've defined a default build mode and a next major build mode."
+    },
+    {
+      "t": 364.3,
+      "end": 376.1,
+      "text": "This basically allows me to build uh the project in two different configurations, default and next major. But algo doesn't really out of the box do much different for these two build modes."
+    },
+    {
+      "t": 376.1,
+      "end": 392.6,
+      "text": "So, in the past, what you've been able to do is you could add a script override. For example, you could say if default mode then do this, if next major mode then do that. Uh but with the latest version of Ego now, we also support conditional settings based on build modes."
+    },
+    {
+      "t": 392.6,
+      "end": 412.2,
+      "text": "So when you build your CI/CD, you'll get these build common uh in default and next major mode. And now with conditional settings, you can then specify that in your next major build mode, for example, it might make sense that you want to grab the next major artifact rather than the 25.4 artifact."
+    },
+    {
+      "t": 412.2,
+      "end": 423.6,
+      "text": "And so ALGO will grab the conditional setting here when we're building in next major mode and we'll grab the next major artifact instead of the 25.4 artifact."
+    },
+    {
+      "t": 423.6,
+      "end": 433.7,
+      "text": "Next up is pre-processor symbols. So again, AL lets you add these prep-processor symbols to your code. Like in this case, we can add this global tag to our code."
+    },
+    {
+      "t": 433.7,
+      "end": 443.9,
+      "text": "And that means when we build this app, when we specify the global uh prep-processor direct directive, then we'll include this code otherwise we won't."
+    },
+    {
+      "t": 443.9,
+      "end": 459.3,
+      "text": "And uh now you'll go also supports adding prep-processor symbols as a setting. So you can add this prep-processor symbol setting which is an array and then you just give however many of these uh prep-processor symbols that you're using in your code."
+    },
+    {
+      "t": 459.3,
+      "end": 471.2,
+      "text": "So in this case we're telling our ALGO project please build using this global symbol. Um so when we pass when we compile the app we pass this global symbol to the compiler and then it gets it gets used."
+    },
+    {
+      "t": 471.2,
+      "end": 487.7,
+      "text": "If we go back to the previous example around conditional settings you can also apply pre-processor symbols in in this situation as well. So you could imagine that your AL project uh has some different logic based on whether you're building the default version or on the next major version."
+    },
+    {
+      "t": 487.7,
+      "end": 497.9,
+      "text": "And so in your conditional settings, you can just add the prep-processor symbols that you need. So in this case, just add the next major prep-processor symbol if that's what you're using."
+    },
+    {
+      "t": 497.9,
+      "end": 509.4,
+      "text": "And algo will build using the next major prep-processor symbols in the next major build mode. And in the default mode it won't use u this these preprocessor symbols."
+    },
+    {
+      "t": 509.4,
+      "end": 522.6,
+      "text": "So next topic is no more this built artifacts. Um so in the old days or up until until this version"
+    },
+    {
+      "t": 522.6,
+      "end": 541.4,
+      "text": "um you would see artifacts like this where you had like a project the apps and and build output and maybe test app test result and stuff like that. And then you'd have like this build and then a project name and then apps or this build and then a project name and then test apps."
+    },
+    {
+      "t": 541.4,
+      "end": 553.2,
+      "text": "They were used for um for building multi- project builds where one project had dependencies on the other project. So we kind of had to create an artifact"
+    },
+    {
+      "t": 553.2,
+      "end": 563.3,
+      "text": "uh an artificial artifact that the other project could use and and the the retention uh period for that one was one day."
+    },
+    {
+      "t": 563.3,
+      "end": 580.6,
+      "text": "Now in this new version we actually create full artifacts in all builds. Um we do create them as shortlived artifacts meaning that you can you can use a setting to to define that that these shortlived artifacts can be more than a day."
+    },
+    {
+      "t": 580.6,
+      "end": 592,
+      "text": "Right now they are uh one day um but we are just using these normal artifacts for the uh resulting um for the for the project that we're building afterwards."
+    },
+    {
+      "t": 592,
+      "end": 603.2,
+      "text": "Now it's hard to demo that something is gone. So I don't have a demo on this, but if you if you like stumble over that normally you had these artifacts, you don't have them anymore."
+    },
+    {
+      "t": 603.2,
+      "end": 616.2,
+      "text": "That is because we now always create full artifacts that are short-lived and you can create a setting for that. There's a new versioning strategy in the latest version of algo versioning strategy 3."
+    },
+    {
+      "t": 616.2,
+      "end": 630.5,
+      "text": "Um we had some partners like talk about why is only major minor defined by appjson when you demand like a a release to have three digits."
+    },
+    {
+      "t": 630.5,
+      "end": 641.3,
+      "text": "Well, it actually makes sense to have a versioning strategy where three digits are controlled by appjon and only one digit controlled by GitHub which is the fourth digit."
+    },
+    {
+      "t": 641.3,
+      "end": 661.6,
+      "text": "So using versioning strategy 3 you will have major minor and built controlled by appjon and then when you release you will know exactly this is the version that I want to release and you can specify that in your release and and the fourth digit will be the the counter uh to to run that with that um"
+    },
+    {
+      "t": 661.6,
+      "end": 676.6,
+      "text": "over to Alexander. Yes and the final topic for this session here is commit options. Uh so again taking a step back certain algo workflows can create pull requests or do direct commits into your repository."
+    },
+    {
+      "t": 676.6,
+      "end": 689.5,
+      "text": "Uh example of such could be update algo system files or increment version number. And a piece of feedback that we got from partners was that you want to be able to inject some kind of message into the commit message or into the pull request."
+    },
+    {
+      "t": 689.5,
+      "end": 699.5,
+      "text": "And so in the latest versions of go we now allow that. Uh so what you'll do is you'll add this commit options construct. And within here you have three options."
+    },
+    {
+      "t": 699.5,
+      "end": 712.2,
+      "text": "You can specify a message suffix. So this gets added to the end of your commit message or at the end of your pull request. If you are creating pull requests then you can also specify if they should be automerged."
+    },
+    {
+      "t": 712.2,
+      "end": 723.2,
+      "text": "Uh and finally we allow adding pull request labels. Uh so with that let me go into a demo. So we're here in the Microsoft BC apps repository."
+    },
+    {
+      "t": 723.2,
+      "end": 738.8,
+      "text": "This is where the system application and the business foundation lives. And in here we use algo and we're also using commit options. So if we go into the github folder and under algo settings scroll all the way down you can see we're using this commit options construct."
+    },
+    {
+      "t": 738.8,
+      "end": 756.6,
+      "text": "Now the reason we use this related to ab hashtag and then an ID is because we use the Azure boards integration. This is an app that we've installed in our repository where when you specify AB hashtag and a number then we link we link that pull request to a work item in Azure DevOps."
+    },
+    {
+      "t": 756.6,
+      "end": 773.1,
+      "text": "This is how we kind of get a better integration between GitHub and Ashure DevOps. Uh and similar kinds of integrations exist for other work item management tools. So with this with these commit options set if we go to an example of a pull request."
+    },
+    {
+      "t": 773.1,
+      "end": 784.6,
+      "text": "So this was last time we updated Elgo system files. As you can see we're updating system files. Here you get all the release notes and then as specified we get this automation labeled applied."
+    },
+    {
+      "t": 784.6,
+      "end": 796.4,
+      "text": "We scroll all the way down we get this related to suffix that has a link to uh Ashure DevOps. So if you click here it'll take you to our Azure DevOps project. We can see the work item and so on."
+    },
+    {
+      "t": 796.4,
+      "end": 808.8,
+      "text": "Uh and finally it sets the automatic automerge option automatically. So all I have to do as a maintainer is just to look through the files, look through the release notes and then approve and then it gets merged into a repository."
+    },
+    {
+      "t": 808.8,
+      "end": 815,
+      "text": "So with that, thanks for watching the video. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2221
+}
