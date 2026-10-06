@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-subscribing-to-events",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "61ec2e7497d726208daa99e73e026104f93cb740",
       "words": 1014,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:13.389Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003685
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:24.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:24.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:24.406Z",
+      "page": false
     }
   },
   "input_hash": "61ec2e7497d726208daa99e73e026104f93cb740",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61ec2e7497d726208daa99e73e026104f93cb740"
+  "output_hash": "db8f101cc049cb4334e50b4611c1bdab7506cd64b4f0ef4300de4d0192fac688"
 }

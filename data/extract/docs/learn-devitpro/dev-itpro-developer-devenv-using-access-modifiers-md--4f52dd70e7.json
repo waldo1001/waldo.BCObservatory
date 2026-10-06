@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-using-access-modifiers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-access-modifiers",
+  "title": "Using Access Modifiers in AL",
+  "blob": "43093210ae030da71e67a33b59d528257a29885a",
+  "summary": "Using Access Modifiers in AL describes access levels (internal, local, protected, public) for controlling visibility of tables, fields, codeunits, and queries at compile time to design solid APIs.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "access modifiers",
+    "api design",
+    "module encapsulation",
+    "access property",
+    "field visibility"
+  ],
+  "objects": [],
+  "features": [
+    "internal access",
+    "local access",
+    "protected access",
+    "public access",
+    "internalsVisibleTo setting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003685,
+      "pages_in_call": 8
+    }
+  ]
+}

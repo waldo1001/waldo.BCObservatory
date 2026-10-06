@@ -1,0 +1,224 @@
+{
+  "video_id": "KQRT25igPTk",
+  "item_id": "video/yt-microsoft/KQRT25igPTk",
+  "title": "Guidelines for Using the Welcome Banner",
+  "duration_s": 263,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "welcome banner",
+    "onboarding experience",
+    "user checklists",
+    "role center",
+    "evaluation checklist",
+    "go-live checklist",
+    "assisted setup",
+    "user guidance",
+    "customization guidelines"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and welcome banner overview",
+      "t_start": 0,
+      "t_end": 20.6
+    },
+    {
+      "title": "Banner design principles and checklist functionality",
+      "t_start": 20.6,
+      "t_end": 52.4
+    },
+    {
+      "title": "Checklist structure and user navigation freedom",
+      "t_start": 52.4,
+      "t_end": 92.5
+    },
+    {
+      "title": "Evaluation and trial checklist design",
+      "t_start": 92.5,
+      "t_end": 133
+    },
+    {
+      "title": "Building user confidence and content variety",
+      "t_start": 133,
+      "t_end": 173
+    },
+    {
+      "title": "Go-live checklist and role-oriented design",
+      "t_start": 173,
+      "t_end": 219
+    },
+    {
+      "title": "Best practices for checklist scale and conclusion",
+      "t_start": 219,
+      "t_end": 263
+    }
+  ],
+  "features": [
+    {
+      "name": "Welcome banner",
+      "description": "A banner that greets users when they arrive at the role center in Business Central, serving as an entrance point for onboarding and getting started.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.6,
+      "t_end": 41.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "user experience",
+        "customization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "User checklist",
+      "description": "The main onboarding piece that appears after clicking an action in the banner, providing overview and structure of relevant activities to guide users through discovering key values in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.4,
+      "t_end": 92.5,
+      "is_demoed": false,
+      "caveats": [
+        "users can move and navigate freely between tasks and may skip some tasks to revisit later",
+        "order cannot always be guaranteed"
+      ],
+      "tags": [
+        "checklist",
+        "onboarding",
+        "user guidance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Evaluation and trial checklist",
+      "description": "A type of checklist designed for trial situations where the goal is to help users experience value propositions. Should be kept short and with minimal friction to accommodate customer time constraints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.5,
+      "t_end": 153,
+      "is_demoed": false,
+      "caveats": [
+        "should avoid complex tasks",
+        "time-limited customer attention"
+      ],
+      "tags": [
+        "evaluation",
+        "trial",
+        "onboarding",
+        "user experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Go-live checklist",
+      "description": "A checklist designed for go-live situations focused on setting up Business Central and users for actual work, with more involved items related to permissions and user setup configured in a role-oriented manner.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 173,
+      "t_end": 219,
+      "is_demoed": false,
+      "caveats": [
+        "should be role-oriented",
+        "setup should be kept as short as possible",
+        "pre-configure as much as possible"
+      ],
+      "tags": [
+        "go-live",
+        "setup",
+        "permissions",
+        "onboarding"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Assisted setup",
+      "description": "An alternative to checklists for handling additional setup items when the number of checklist items exceeds recommended limits, allowing guidance to users through an assisted setup list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219,
+      "t_end": 239.1,
+      "is_demoed": false,
+      "caveats": [
+        "should be used when checklist items exceed five to seven items"
+      ],
+      "tags": [
+        "assisted setup",
+        "onboarding",
+        "customization"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.6,
+      "text": "when the users arrived at the role Center in business Central the banner is there to greet them and to really um be this",
+      "why_it_matters": "Explains the fundamental purpose and role of the welcome banner in the user onboarding flow.",
+      "check": "exact"
+    },
+    {
+      "t": 41.3,
+      "text": "keep in mind to keep the welcome message short and clear and to make the user really discover and want to follow that call",
+      "why_it_matters": "Establishes key design principles for creating effective welcome banner messaging.",
+      "check": "exact"
+    },
+    {
+      "t": 72.5,
+      "text": "the checklist is really the main onboarding piece that allows you to surface the different onboarding components and orchestrate what the customer goes through",
+      "why_it_matters": "Clarifies that while checklists guide onboarding, users retain control over task order and navigation.",
+      "check": "exact"
+    },
+    {
+      "t": 112.6,
+      "text": "the customer's patience and maybe even time is really short that's why we also have the little minute indicator on every task",
+      "why_it_matters": "Highlights a key design consideration for trial scenarios where time is limited.",
+      "check": "exact"
+    },
+    {
+      "t": 133,
+      "text": "start with a smaller task first that gives them an understanding of business Central as well as a feeling of success and progression in",
+      "why_it_matters": "Describes a best practice for building user confidence through early wins in the onboarding process.",
+      "check": "exact"
+    },
+    {
+      "t": 239.1,
+      "text": "the checklist is designed for five six maybe seven and if you have more than that you can wrap those up in an assisted",
+      "why_it_matters": "Specifies the recommended size limits for checklists and suggests an alternative approach for additional items.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014141
+    }
+  ]
+}

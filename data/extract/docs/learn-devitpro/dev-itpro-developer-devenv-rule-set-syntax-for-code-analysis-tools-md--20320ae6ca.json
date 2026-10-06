@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools",
+  "title": "Ruleset for the code analysis tool",
+  "blob": "241641255e3792d05ae6b2215ed32c2543ea8501",
+  "summary": "Ruleset for the Code Analysis Tool describes how to configure custom ruleset JSON files to control code analysis diagnostic severity levels in AL projects using settings like generalAction, includedRuleSets, and rules.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "code analysis",
+    "ruleset",
+    "diagnostics",
+    "json configuration",
+    "al extension"
+  ],
+  "objects": [],
+  "features": [
+    "ruleset configuration",
+    "custom rules",
+    "diagnostic severity",
+    "generalAction",
+    "includedRuleSets",
+    "rule filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003685,
+      "pages_in_call": 8
+    }
+  ]
+}

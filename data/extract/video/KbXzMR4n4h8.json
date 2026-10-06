@@ -1,0 +1,1116 @@
+{
+  "video_id": "KbXzMR4n4h8",
+  "item_id": "video/yt-microsoft/KbXzMR4n4h8",
+  "title": "What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)",
+  "duration_s": 2973,
+  "systems": [
+    "integration",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "app monetization",
+    "appsource",
+    "partner center",
+    "commercial marketplace",
+    "isv licensing",
+    "csp channel",
+    "transaction fees",
+    "pricing models",
+    "entitlements",
+    "licensing",
+    "permissions",
+    "billing models"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 116.5
+    },
+    {
+      "title": "Market opportunity and cloud software trends",
+      "t_start": 116.5,
+      "t_end": 210
+    },
+    {
+      "title": "Microsoft commercial marketplace vision and one catalog",
+      "t_start": 210,
+      "t_end": 388.2
+    },
+    {
+      "title": "ISV ecosystem learnings and pricing models",
+      "t_start": 388.2,
+      "t_end": 550.7
+    },
+    {
+      "title": "Transact capability roadmap and transaction fees",
+      "t_start": 550.7,
+      "t_end": 718.5
+    },
+    {
+      "title": "Partner Center and appsource transact capability walkthrough",
+      "t_start": 718.5,
+      "t_end": 799.3
+    },
+    {
+      "title": "Connect Apps and Sell Through Microsoft Setup",
+      "t_start": 799.3,
+      "t_end": 920.4
+    },
+    {
+      "title": "Plan Configuration and Markets",
+      "t_start": 920.4,
+      "t_end": 1014.5
+    },
+    {
+      "title": "Billing, Trials, and Plan Visibility",
+      "t_start": 1014.5,
+      "t_end": 1120.2
+    },
+    {
+      "title": "Customer Purchase Experience in AppSource",
+      "t_start": 1120.2,
+      "t_end": 1232.3
+    },
+    {
+      "title": "License Management in Admin Center and Publisher Insights",
+      "t_start": 1232.3,
+      "t_end": 1475.7
+    },
+    {
+      "title": "Entitlements and Permissions Mapping",
+      "t_start": 1475.7,
+      "t_end": 1773.7
+    },
+    {
+      "title": "Developer access, group-based entitlements, and custom licensing",
+      "t_start": 1773.7,
+      "t_end": 1996.4
+    },
+    {
+      "title": "Administrator access and Entitlements API",
+      "t_start": 1996.4,
+      "t_end": 2145.4
+    },
+    {
+      "title": "CSP program models and ISV resale options",
+      "t_start": 2145.4,
+      "t_end": 2362.6
+    },
+    {
+      "title": "Private offers and CSP partner experience",
+      "t_start": 2362.6,
+      "t_end": 2566
+    },
+    {
+      "title": "Purchasing and billing flow for CSP resellers and roadmap",
+      "t_start": 2566,
+      "t_end": 2717.5
+    },
+    {
+      "title": "Call to action, implementation guidance, and best practices",
+      "t_start": 2717.5,
+      "t_end": 2858.4
+    },
+    {
+      "title": "Partner community, testing resources, and closing remarks",
+      "t_start": 2858.4,
+      "t_end": 2973
+    }
+  ],
+  "features": [
+    {
+      "name": "Direct transact capability on appsource",
+      "description": "ISVs can sell their add-on apps directly to end customers through appsource using credit card or Microsoft billing system. Customers can purchase apps immediately from the ISV.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.7,
+      "t_end": 570.7,
+      "is_demoed": true,
+      "caveats": [
+        "Applicable to add-ons only, not connect apps"
+      ],
+      "tags": [
+        "appsource",
+        "monetization",
+        "direct sales"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Three percent flat transaction fee",
+      "description": "Microsoft charges ISVs a three percent flat transaction fee per transaction. This includes platform maintenance, Azure hosting on Business Central, money collection, and automatic deposit to ISV bank accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 611.4,
+      "t_end": 664.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "monetization",
+        "fees"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Flexible pricing models support",
+      "description": "ISVs can use various pricing models including per-user, per-company, one-time fee, custom meters like per pay slip or transaction, and combinations like tiered offerings with custom reading.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 469.1,
+      "t_end": 530.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pricing models",
+        "licensing",
+        "monetization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "One catalog with multi-channel distribution",
+      "description": "Microsoft maintains one central catalog containing all Microsoft SKUs and third-party ISV solutions. Solutions can be made available through appsource, in-product purchase, and the CSP reseller channel.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 271.5,
+      "t_end": 388.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "marketplace",
+        "distribution",
+        "catalog"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "CSP channel enablement for ISV solutions",
+      "description": "ISVs can distribute their solutions through the Cloud Solution Provider reseller channel in addition to direct appsource sales, enabling reach through a network of resellers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 530.7,
+      "t_end": 718.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "csp",
+        "reseller",
+        "distribution"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Plan variations in offers",
+      "description": "ISVs can create multiple plans within a single offer to represent variations such as feature tiers, waterfall pricing based on license quantities, or market-specific pricing differences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 839.2,
+      "t_end": 879.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "plans",
+        "partner center"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "In-product purchase experience",
+      "description": "Solutions made available in the one catalog can be exposed through in-product purchase experiences within Business Central itself, enabling seamless discovery and acquisition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.1,
+      "t_end": 368.1,
+      "is_demoed": false,
+      "caveats": [
+        "Described as potential future experience"
+      ],
+      "tags": [
+        "in-product",
+        "marketplace",
+        "experience"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sell Through Microsoft for AppSource Apps",
+      "description": "Publishers can opt into selling their Business Central apps directly through Microsoft in AppSource. This requires creating plans and managing them through Partner Center with options for different pricing models and market-specific configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 799.3,
+      "t_end": 920.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires opt-in per app",
+        "Different from connect apps which use out-of-box APIs only"
+      ],
+      "tags": [
+        "appsource",
+        "transactability",
+        "publisher",
+        "commerce"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Country-Specific Plans",
+      "description": "When opting into AppSource transactability, country-market setup moves from the offer level to the plan level, allowing publishers to create plans that are country-specific with different pricing per market.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 900.4,
+      "t_end": 933,
+      "is_demoed": true,
+      "caveats": [
+        "Only applicable when opting into AppSource transactability"
+      ],
+      "tags": [
+        "localization",
+        "pricing",
+        "markets"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Waterfall Pricing Model",
+      "description": "Publishers can structure plans using waterfall pricing, where customers receive discounts based on the number of licenses purchased in a single transaction. Plans can specify minimum and maximum user license amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 879.7,
+      "t_end": 969.4,
+      "is_demoed": true,
+      "caveats": [
+        "Alternative to functional tier-based plans"
+      ],
+      "tags": [
+        "pricing",
+        "licensing",
+        "discounts"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Billing Frequency Options",
+      "description": "Publishers can offer both monthly and yearly billing cycles for their plans. Yearly subscriptions can include a discount option to incentivize longer-term commitments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 979.7,
+      "t_end": 994.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "pricing",
+        "subscriptions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Trial Subscription Support",
+      "description": "Publishers can offer free trials of their applications or plans. Trials are currently limited to one month duration, and customers must provide credit card information during the trial signup process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 994.5,
+      "t_end": 1014.5,
+      "is_demoed": true,
+      "caveats": [
+        "Trial limited to one month",
+        "Requires credit card information",
+        "Automatically converts to paid subscription if not canceled"
+      ],
+      "tags": [
+        "trials",
+        "subscriptions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Private Plans",
+      "description": "Publishers can make plans private so that only specific AAD tenants or inter-tenants can view them in AppSource. This enables custom pricing and tiering for specific customers while public plans are visible to everyone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1014.6,
+      "t_end": 1054.6,
+      "is_demoed": true,
+      "caveats": [
+        "Private plans extend to specific AAD tenants"
+      ],
+      "tags": [
+        "pricing",
+        "visibility",
+        "customer-specific"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic Currency Conversion for Plans",
+      "description": "Partner Center automatically converts plan pricing from US dollars to local currencies based on current exchange rates for all defined markets. Publishers can also manually set prices for different countries and import custom pricing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1066.5,
+      "t_end": 1099.6,
+      "is_demoed": true,
+      "caveats": [
+        "Default is automatic conversion",
+        "Publishers can export and manually set pricing per country"
+      ],
+      "tags": [
+        "pricing",
+        "currency",
+        "localization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Buy Now Button for Apps",
+      "description": "Apps opted into AppSource transactability display a Buy Now button in the AppSource listing, enabling customers to purchase and transact directly within AppSource without leaving the marketplace.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1140.3,
+      "t_end": 1161,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "checkout",
+        "purchasing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Plan and Pricing Tab in AppSource",
+      "description": "AppSource listings for transactable apps display a new tab called Plans and Pricing where customers can view and compare different plan options, functional tiers, and pricing variations before purchasing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1161,
+      "t_end": 1181,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "plans",
+        "pricing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Checkout Process for AppSource Apps",
+      "description": "Customers can select a plan, choose monthly or yearly subscription with optional recurring billing, specify the number of licenses, and complete the purchase using a credit card. The checkout process guides customers through order review and billing information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1181,
+      "t_end": 1232.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires credit card for purchase"
+      ],
+      "tags": [
+        "checkout",
+        "purchasing",
+        "licensing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "License Assignment in Admin Center",
+      "description": "After purchasing licenses through AppSource, customers must assign those licenses to users in the Microsoft Admin Center. The Admin Center shows product overview, license details, subscription information, and allows license assignment and cancellation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1232.3,
+      "t_end": 1361.8,
+      "is_demoed": true,
+      "caveats": [
+        "Licenses are separate from app installation",
+        "App must be installed separately in Business Central environment"
+      ],
+      "tags": [
+        "admin center",
+        "licensing",
+        "user management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "App Installation via Admin Center",
+      "description": "Customers can install purchased apps in their Business Central environment from either AppSource or the Microsoft Admin Center. This is a separate step from license purchasing and assignment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1284.1,
+      "t_end": 1300.6,
+      "is_demoed": true,
+      "caveats": [
+        "Separate action from license purchase and assignment"
+      ],
+      "tags": [
+        "app installation",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Combined Billing for Business Central Solutions",
+      "description": "Customers receive a single combined invoice from Microsoft that includes both AppSource app licenses and first-party Business Central license costs, providing unified visibility into total solution expenses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1383.4,
+      "t_end": 1404,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "invoicing",
+        "cost management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Publisher Insights in Partner Center",
+      "description": "Partner Center provides publishers with analytics and insights about their AppSource apps, including order details, license revenue, customer count, and other business metrics to track sales performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1404,
+      "t_end": 1435.6,
+      "is_demoed": true,
+      "caveats": [
+        "Many more insights available beyond what was mentioned"
+      ],
+      "tags": [
+        "analytics",
+        "partner center",
+        "reporting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Entitlements for AppSource Apps",
+      "description": "Publishers must define entitlements in their apps that map licenses purchased through AppSource to Business Central permissions. Entitlements are configured with an ID matching the plan ID and specify object access permissions for users with that license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1455.7,
+      "t_end": 1591.6,
+      "is_demoed": true,
+      "caveats": [
+        "Entitlements define maximum permissions",
+        "Admin must still grant permissions to users in Business Central",
+        "Required for any AppSource transactability"
+      ],
+      "tags": [
+        "entitlements",
+        "permissions",
+        "licensing",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Entitlement Per-User Offer Plans",
+      "description": "Entitlements are configured with type per-user offer plan, mapping the plan ID from Partner Center to permissions that users with that license have access to in Business Central. The entitlement specifies the maximum permission set available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1571.4,
+      "t_end": 1611.6,
+      "is_demoed": true,
+      "caveats": [
+        "Admin must separately grant permissions in Business Central"
+      ],
+      "tags": [
+        "entitlements",
+        "permissions",
+        "licensing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Admin Permission Grant Requirement",
+      "description": "Even though entitlements define the maximum permissions a user can access based on their license, the Business Central admin must explicitly grant those permissions to each user. A user can have a license but not actual access without admin permission assignment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1632.5,
+      "t_end": 1652.8,
+      "is_demoed": true,
+      "caveats": [
+        "Two-step process required"
+      ],
+      "tags": [
+        "permissions",
+        "licensing",
+        "admin"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Entitlements mapping",
+      "description": "Entitlements map between licenses or roles that users have and the access they need in applications. They define the maximum permissions a user can access based on their assigned plan.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1571.4,
+      "t_end": 1652.8,
+      "is_demoed": true,
+      "caveats": [
+        "Admin must still grant specific user permissions; license does not auto-grant access",
+        "Admins in Business Central must grant users permissions even if they have the license"
+      ],
+      "tags": [
+        "licensing",
+        "permissions",
+        "entitlements",
+        "access control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Group-based entitlements",
+      "description": "Users can be entitled to permissions through membership in Azure AD groups. Developers can be given a group entitlement with different permissions than regular customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1733.3,
+      "t_end": 1789.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "groups",
+        "developer access",
+        "entitlements"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Unlicensed user entitlements",
+      "description": "A special entitlement type that allows code to determine access for users without licenses based on custom licensing logic. Enables backward compatibility for existing customers migrating to platform licensing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1829.5,
+      "t_end": 1909.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires custom code to determine access in application",
+        "Must check customer status via internal licensing logic or API"
+      ],
+      "tags": [
+        "licensing",
+        "backward compatibility",
+        "custom licensing",
+        "migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Administrator entitlements",
+      "description": "Entitlements based on administrator roles allow local and delegated admins to access setup functionality without purchasing licenses. Supports Dynamics 365 administrator, internal administrator, and delegated admin roles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1936.1,
+      "t_end": 2037.3,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to specific administrator roles defined in system app"
+      ],
+      "tags": [
+        "licensing",
+        "admin access",
+        "delegated admins",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "License-conditional functionality",
+      "description": "Application code can check if users have specific Business Central licenses (premium, embed) using the is_entitled method to enable or disable features based on their license type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2055.6,
+      "t_end": 2108.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "premium",
+        "embed",
+        "conditional features"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "CSP direct and indirect models",
+      "description": "Two CSP purchasing models: direct (customer buys from partner, partner from Microsoft) and indirect (customer from reseller, reseller from indirect provider, provider from Microsoft).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2206,
+      "t_end": 2273.6,
+      "is_demoed": false,
+      "caveats": [
+        "Functionality available through Partner Center interface for CSP directs and indirect providers"
+      ],
+      "tags": [
+        "csp",
+        "channel",
+        "reseller",
+        "pricing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Resale through CSP",
+      "description": "ISVs can opt into selling apps through CSP partners in Partner Center. Can restrict sales to specific CSP partners or enable any CSP partner to resell.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2324.6,
+      "t_end": 2362.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires app to already be enable to transact"
+      ],
+      "tags": [
+        "csp",
+        "reseller",
+        "partner center",
+        "app monetization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "CSP private offers",
+      "description": "ISVs create private offers as variants or wrappings of their apps for CSP resale. Define availability period, pricing, margins, and which CSP partners can access each offer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2362.6,
+      "t_end": 2464.8,
+      "is_demoed": true,
+      "caveats": [
+        "ISVs can create multiple private offers with different terms for same app",
+        "Indirect CSP partner experience may differ based on partner portal implementation using APIs"
+      ],
+      "tags": [
+        "csp",
+        "private offers",
+        "pricing",
+        "reseller",
+        "margins"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "CSP API support for indirect providers",
+      "description": "All CSP functionality and private offers are API-enabled so that indirect providers can enable this capability in their own ordering systems and marketplaces for their resellers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2260.1,
+      "t_end": 2293.6,
+      "is_demoed": false,
+      "caveats": [
+        "Indirect providers must implement the functionality in their own platforms"
+      ],
+      "tags": [
+        "csp",
+        "api",
+        "indirect providers",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "CSP direct bill partner self-service",
+      "description": "CSP direct bill partners can use Partner Center to view private offers made available by ISVs, see available margins and pricing, and purchase offers on behalf of customers. Partners must be delegated admins and can then transfer licenses to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2485.1,
+      "t_end": 2606.4,
+      "is_demoed": true,
+      "caveats": [
+        "Indirect CSP partners use different partner portals based on APIs; experience may vary"
+      ],
+      "tags": [
+        "csp",
+        "partner center",
+        "delegated admin",
+        "reselling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Per-site and custom pricing models",
+      "description": "Future support for pricing models beyond per-user model including per-site license, one-time fee, and combinations of both. Currently in development and roadmap phase.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2697.4,
+      "t_end": 2717.5,
+      "is_demoed": false,
+      "caveats": [
+        "No set dates provided for delivery",
+        "Currently only per-user model is available"
+      ],
+      "tags": [
+        "pricing models",
+        "roadmap",
+        "per-site",
+        "licensing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Appsource transact for Business Central apps",
+      "description": "ISVs can enable their Business Central apps to be transactable on AppSource marketplace and sold through CSP reseller channel. Requires setting up entitlements and managing side-by-side scenarios for existing customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2657.2,
+      "t_end": 2938.6,
+      "is_demoed": true,
+      "caveats": [
+        "Existing customers require side-by-side setup to avoid locking them out",
+        "ISVs should test on separate test apps before moving existing customers to transact",
+        "Internal team usage and entitlements require careful configuration"
+      ],
+      "tags": [
+        "appsource",
+        "transact",
+        "csp",
+        "licensing",
+        "entitlements"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "convert temperature sample app",
+      "t": 779.2
+    },
+    {
+      "type": "other",
+      "name": "Coffee App",
+      "t": 1495.8
+    },
+    {
+      "type": "other",
+      "name": "Hello World 4 Sample App",
+      "t": 1320.9
+    },
+    {
+      "type": "other",
+      "name": "Convert Temperature App",
+      "t": 1120.2
+    },
+    {
+      "type": "permissionset",
+      "name": "coffee app full permission",
+      "t": 1631.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kurt",
+      "confidence": "high"
+    },
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Curt",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 137.4,
+      "text": "the cloud demand out there by 2026 is going to be 1 trillion think about that 1 trillion is an amazing amount",
+      "why_it_matters": "Establishes the massive market opportunity driving marketplace adoption and ISV monetization needs.",
+      "check": "snapped"
+    },
+    {
+      "t": 198,
+      "text": "in the Futures marketplaces are going to be the primary way of how software will be sold",
+      "why_it_matters": "Explains Microsoft's strategic vision that online marketplaces rather than traditional sales channels are the future.",
+      "check": "exact"
+    },
+    {
+      "t": 210,
+      "text": "if you go to appsource at this moment in time you will find more than 5,000 apps",
+      "why_it_matters": "Quantifies the existing appsource ecosystem strength with over 5,000 apps available.",
+      "check": "snapped"
+    },
+    {
+      "t": 550.7,
+      "text": "already 6 months ago we will launch the very first version of our transact ability and in that version what we did is isvs",
+      "why_it_matters": "Confirms the direct transact capability was released 6 months prior with ISVs already using it.",
+      "check": "exact"
+    },
+    {
+      "t": 590.8,
+      "text": "we've got one of the isvs out there which is basically Western computers that told us like listen we didn't want to go to",
+      "why_it_matters": "Provides concrete example of ISV adoption and the value licensing platform provides to partners.",
+      "check": "snapped"
+    },
+    {
+      "t": 611.4,
+      "text": "there's going to be a three% flat transaction fee for every for every transaction that you do",
+      "why_it_matters": "Establishes the specific pricing model for Microsoft's monetization platform at 3% per transaction.",
+      "check": "exact"
+    },
+    {
+      "t": 779.2,
+      "text": "that transact capability is applicable to add-ons only so you might be familiar with that we also have another concept which is based solely",
+      "why_it_matters": "Clarifies the scope limitation that transact capability applies only to add-on apps, not connect apps built on APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 818.9,
+      "text": "the offer setup where you can opt into sell through microsoft",
+      "why_it_matters": "This is the first step for publishers to enable AppSource transactability for their apps, moving beyond connect-app scenarios.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 900.4,
+      "text": "country setup has now moved from the offer to the plan so you can have",
+      "why_it_matters": "This shows a key structural change in how market configuration works when opting into AppSource commerce, enabling region-specific pricing and availability.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1066.5,
+      "text": "Partner Center will convert with today's currency exchange rate convert the prices to the markets that you define for the plan automatically",
+      "why_it_matters": "This demonstrates automatic currency handling for international publishers, though manual pricing adjustments remain possible.",
+      "check": "exact"
+    },
+    {
+      "t": 1140.3,
+      "text": "you will see that there's a buy now button that actually allows the customer to purchase transact inside of appsource",
+      "why_it_matters": "This is the core purchasing experience change for customers, enabling direct in-marketplace transactions without leaving AppSource.",
+      "check": "exact"
+    },
+    {
+      "t": 1232.3,
+      "text": "you purchase licenses but you still need to assign those licenses to users and so the way you do that is that you go",
+      "why_it_matters": "This clarifies the two-step process for customers: purchase licenses, then manage assignment separately, unlike typical mobile app purchases.",
+      "check": "exact"
+    },
+    {
+      "t": 1383.4,
+      "text": "for a customer they can then see or get a combined bill of all of the apps as well as the first party license",
+      "why_it_matters": "This unified billing approach simplifies cost tracking for customers across AppSource apps and core Business Central licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 1571.4,
+      "text": "the type for that entitlement would be per user offer plan and that would be",
+      "why_it_matters": "This defines the standard entitlement structure that connects AppSource plans to Business Central permissions through per-user offer plan types.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1632.5,
+      "text": "still needs to grant that specific user those permissions",
+      "why_it_matters": "This critical requirement shows that entitlements define maximum permissions, but actual access requires separate admin action in Business Central.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1632.5,
+      "text": "this is the maximum amount of permissions that you have access to if you have a certain license expressed in the",
+      "why_it_matters": "Clarifies that entitlements define maximum permissions but admins must still grant user-level permissions; license alone does not grant access.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1693.1,
+      "text": "As soon as you opt into using entitlements we will start to expect and enforce entitlements for any user",
+      "why_it_matters": "Indicates that adopting platform entitlements triggers automatic enforcement and breaks existing custom licensing unless migration path is provided.",
+      "check": "exact"
+    },
+    {
+      "t": 1829.5,
+      "text": "Instead of forcing all of those customers to purchase licenses immediately you can create a special kind of entitlement which we call unlicensed",
+      "why_it_matters": "Describes the key migration mechanism for existing customers with custom licensing to maintain backward compatibility when adopting platform licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 2185.6,
+      "text": "The release which is made available in April 2024 this is exactly what we're going to focus on at this moment in time",
+      "why_it_matters": "Indicates that CSP reseller margin and pricing features were released in April 2024 wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 2206,
+      "text": "In a direct model a customer will buy from a partner and the partner will buy from Microsoft. In an indirect model a customer",
+      "why_it_matters": "Defines the two CSP channel models that ISVs must understand for partner pricing and resale strategy.",
+      "check": "snapped"
+    },
+    {
+      "t": 2343.3,
+      "text": "As a publish or isv you head to a partner Center and there you under resell through CSP you can opt into selling through",
+      "why_it_matters": "Shows ISVs have control over which CSP partners can resell their apps with flexible partner selection options.",
+      "check": "exact"
+    },
+    {
+      "t": 2383.5,
+      "text": "and you can now go into the private office Tab and within there you can uh head to the CSP subtab and create a",
+      "why_it_matters": "Describes the core mechanism ISVs use to set up CSP reselling with specific terms, pricing, and partner restrictions.",
+      "check": "exact"
+    },
+    {
+      "t": 2697.4,
+      "text": "we need to make sure that we also support different pricing models like not only the per user model which is uh available today",
+      "why_it_matters": "Indicates the current limitation to per-user pricing and roadmap commitment for alternative models.",
+      "check": "exact"
+    },
+    {
+      "t": 2717.5,
+      "text": "we are influencing all the teams at this moment in time we don't really have set dates for when that's going to be but",
+      "why_it_matters": "Clarifies that expanded pricing models are planned but without firm timeline.",
+      "check": "exact"
+    },
+    {
+      "t": 2737.5,
+      "text": "first off um you look at the apps that you have today uh and think about which of those makes sense or you can",
+      "why_it_matters": "Outlines the primary call-to-action for ISVs to evaluate which apps can be made transactable.",
+      "check": "exact"
+    },
+    {
+      "t": 2817.8,
+      "text": "you can practice uh on a test app to understand especially how these entitlements work and and get that right sort of in the",
+      "why_it_matters": "Emphasizes the importance of testing entitlements on test apps before enabling transact on production apps.",
+      "check": "exact"
+    },
+    {
+      "t": 2858.4,
+      "text": "if you have existing customers you need to um to work on the Side by Side Story before you go into transact right because",
+      "why_it_matters": "Highlights a critical risk for existing customers when enabling transact without proper side-by-side configuration.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 353.1,
+      "kind": "coming-later",
+      "text": "potential experiences in the product where that skew which is made available in the one catalog is now also been made available within the product"
+    },
+    {
+      "t": 1495.8,
+      "kind": "other",
+      "text": "Often you want the developer to be able to have access to test out functionality"
+    },
+    {
+      "t": 2124.5,
+      "kind": "other",
+      "text": "I added a link here at the bottom if you want to read more and see more examples of how entitlements work"
+    },
+    {
+      "t": 2697.4,
+      "kind": "coming-later",
+      "text": "support different pricing models like not only the per user model which is uh available today but also that we have a per site uh license like a onetime fee"
+    },
+    {
+      "t": 2717.5,
+      "kind": "subject-to-change",
+      "text": "we are influencing all the teams at this moment in time we don't really have set dates for when that's going to be"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 27,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 36
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025271
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037145
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028651
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022246000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.06058200000000001
+    }
+  ]
+}

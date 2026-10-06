@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "Guidelines for Using the Welcome Banner",
   "url": "https://www.youtube.com/watch?v=KQRT25igPTk",
-  "published_at": null,
+  "published_at": "2024-04-18T14:10:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:35:51.647Z",
+      "captions": "auto:en-orig",
+      "duration_s": 264
+    },
+    "captioned": {
+      "at": "2026-10-06T19:35:56.562Z",
+      "path": "data/captions/microsoft/KQRT25igPTk.vtt",
+      "vtt_sha256": "0c5ff0c45f56096ef49b2498f39271d0c359ca71f5da2d3962adcea8f953f94c",
+      "segments": 14,
+      "words": 600,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:15.817Z",
+      "path": "data/extract/video/KQRT25igPTk.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.014141
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:22.566Z",
+      "path": "data/summary/video/KQRT25igPTk.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0129804
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:22.568Z",
+      "systems": [
+        "administration"
+      ],
+      "topics": 9,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:36:22.579Z",
+      "path": "content/videos/KQRT25igPTk.md"
     }
   },
   "input_hash": null,
@@ -19,7 +65,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 405,
-    "duration_s": 265,
-    "via": "reconcile"
-  }
+    "duration_s": 264,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "caadbeacfe03112e494a5726b2d6efd953c45f37735b882fd3ffee4f1dd78794"
 }

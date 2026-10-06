@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-table-ext-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object",
+  "title": "Table extension object",
+  "blob": "268fa330757faaa5c95f458823abc19109378b7e",
+  "summary": "Table Extension Object explains how to extend tables by adding fields, defining keys, and writing trigger code for extensions without modifying base table definitions.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "table extensions",
+    "tableextension object",
+    "extending tables",
+    "field addition",
+    "table keys"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "table extension syntax",
+    "field addition",
+    "trigger code",
+    "table key extension",
+    "field tooltips",
+    "Extensible property"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003685,
+      "pages_in_call": 8
+    }
+  ]
+}

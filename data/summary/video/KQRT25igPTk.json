@@ -1,0 +1,27 @@
+{
+  "video_id": "KQRT25igPTk",
+  "item_id": "video/yt-microsoft/KQRT25igPTk",
+  "summary": "Guidelines for designing the Business Central welcome banner and its user checklists: banner wording, checklist structure, differences between evaluation and go-live checklists, and when to move extra items to assisted setup. Useful for partners customizing onboarding.",
+  "overview": "The video explains how the welcome banner greets users on the role center and acts as the entry point to onboarding. The banner message should be short and clear so users want to follow the call to action. The user checklist behind it is the main onboarding piece and orchestrates what the customer goes through.\n\nIt then covers how to shape checklists for two situations. Evaluation and trial checklists should be short, low in friction and free of complex tasks, because customer time is limited. Go-live checklists cover setup for real work, such as permissions and user setup, and should be role-oriented, pre-configured where possible and kept as short as possible. Checklists are meant for about five to seven items, and larger sets can go into assisted setup.",
+  "key_points": [
+    "The welcome banner greets users on arrival at the role center; keep its message short and clear.",
+    "The checklist is the main onboarding piece and surfaces the onboarding components the customer goes through.",
+    "Users can navigate freely and skip tasks to revisit later, so task order cannot always be guaranteed.",
+    "Evaluation and trial checklists should be short, avoid complex tasks, and show a minute indicator on each task.",
+    "Start with a smaller task first to give users an understanding of the product and a sense of success and progress.",
+    "Go-live checklists should be role-oriented, pre-configure as much as possible, and keep setup as short as possible.",
+    "Checklists are designed for five to seven items; wrap additional items into an assisted setup list."
+  ],
+  "audience": [
+    "partner",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "5efced1e2b2701d295313a3a456da9806915d161ee135280783bcf97849dbaa9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0129804
+  }
+}

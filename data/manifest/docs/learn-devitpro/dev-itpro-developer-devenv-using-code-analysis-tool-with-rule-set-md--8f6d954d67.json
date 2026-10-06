@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool-with-rule-set",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0eba19cf33ce9b042852d378911ceb869ed36f4",
       "words": 580,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:13.393Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003685
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:24.417Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:24.418Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:24.419Z",
+      "page": false
     }
   },
   "input_hash": "e0eba19cf33ce9b042852d378911ceb869ed36f4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0eba19cf33ce9b042852d378911ceb869ed36f4"
+  "output_hash": "45cd3ddc28fb3ed38b9a2c2d0fd2055871da73da9e79b1ef2ee626de73da5efc"
 }

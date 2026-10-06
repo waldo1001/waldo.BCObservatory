@@ -1,0 +1,128 @@
+{
+  "video_id": "88s0QjsaCUQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.1,
+      "end": 20.6,
+      "text": "hi this video explains the technical details of the signup context used to profile customers and Prospects it's a clip from a launch M video for 2023 release Wave 1 but it's equally relevant today let's turn it over to thern who will tell us more about it this is very cool and we're super excited about this new feature"
+    },
+    {
+      "t": 20.6,
+      "end": 40.8,
+      "text": "now let's take a look at how it works in a bit more detail and a bit more technical details so coming back to the profiler on your website this is just a regular form you would build you have full control over your website you can do questions of of different sorts um the most important thing is that at the moment the user hits"
+    },
+    {
+      "t": 40.8,
+      "end": 58.4,
+      "text": "that start trial or sign up button or whatever you want to call it that URL that that the user is pointed to needs to be constructed by you and there's some certain elements that need to be in place for that to work correctly let's go through those now"
+    },
+    {
+      "t": 58.4,
+      "end": 78.5,
+      "text": "now if we analy the sign up URL um we noticed that it's sort of consist of two parts that I've marked with different colors here so the first part as we saw before is where we go to sign up to become a Microsoft Custer Microsoft cloud customer or sign into our existing ad"
+    },
+    {
+      "t": 78.5,
+      "end": 97.6,
+      "text": "tenant and this is sort of a standard way to sign up to a Microsoft cloud product you'll see the skew here signifying um which product it is and the other part where it truly gets interesting is what happens after I sign up where I get redirected to business Central where the provisioning"
+    },
+    {
+      "t": 97.6,
+      "end": 117.6,
+      "text": "starts this is the exciting piece and let's dive a bit more into that this is what we call the redirect URL so if we zoom into the redirect URL we can see that it's what's called a URI encoded text it's not very readable but that's because it has to sort of survive the uh Journey Through the redirects"
+    },
+    {
+      "t": 117.6,
+      "end": 137.8,
+      "text": "in the browser if we decod it we can see that it's a much more uh readable much more friendly um uh text string that makes more sense so it redirects us to business Central dynamics.com it has a parameter redirected from signup that that signifies that to our platform that hey here was"
+    },
+    {
+      "t": 137.8,
+      "end": 157.8,
+      "text": "a redirect from the sign up experience so we can perform certain actions in our platform and what you see here marked with bold is the signup context that's a new parameter that we're actually using today uh to determine whether or not a sign up happened from the Microsoft website in which case we called it viral"
+    },
+    {
+      "t": 157.8,
+      "end": 177.9,
+      "text": "and or if it came from Shopify so a Shopify Merchant can Discover Business Central and sign up to a business Central trial through Shopify that's the only two scenarios where we use it today and now we think you could benefit from this feature as well because it's all about the context of a signup and a context is"
+    },
+    {
+      "t": 177.9,
+      "end": 192.9,
+      "text": "your website even if you have multiple website multiple Brands you can have different context for each of those let's dive one uh one layer further into the signup context because this is this is key to"
+    },
+    {
+      "t": 192.9,
+      "end": 213,
+      "text": "understand the signup context itself as parameter is also a URI encoded text that means it's actually double encoded when you encode the redirect URL don't worry about all that now this will be in the documentation uh so you can you can learn all all about it if we decode the signup context it's much"
+    },
+    {
+      "t": 213,
+      "end": 233.3,
+      "text": "more familiar now you see it's a it's a text string in form of a Json key value pair what's key here is that you can determine those key value pairs if you decide to to use an app to provide the onboarding experience which of course you should if you don't want to spin up just a plain Manila BC trial then there are"
+    },
+    {
+      "t": 233.3,
+      "end": 244.8,
+      "text": "certain uh key names key key value pairs that has to be there but this will be in the documentation as well so please check that out now it gets exciting"
+    },
+    {
+      "t": 244.8,
+      "end": 264.9,
+      "text": "because if we look at the signup context from before in relation to the profiler you recognize here that we have I've created for example one key called interest and the value is basic trade and another key called previous system pref system where the value is Excel"
+    },
+    {
+      "t": 264.9,
+      "end": 285.2,
+      "text": "and so on you get the idea so whatever you ask for whatever information you want to pass into business Central you add it to the signup context like this that's all great but how can you then react to it how can you do what we saw before where you load a specific checklist well as yakob said this signup"
+    },
+    {
+      "t": 285.2,
+      "end": 305.2,
+      "text": "context information is stored in a system table inside business Central it's your job in an app when it's installed to look at this system table and figure out if you can recognize the signup context and if you can um you need to transfer it to a uh to a base application"
+    },
+    {
+      "t": 305.2,
+      "end": 325.2,
+      "text": "table that's also in the documentation I don't want to Deep dive too much in that now but very like if we switch to the next um next example here now you notice that there's some more information and here I've added an app ID in this case it's just a random uh good of of ones and your example you can get the app"
+    },
+    {
+      "t": 325.2,
+      "end": 345.1,
+      "text": "ID from your store listing on app store it's public information you can just look it up um and there are some other information that has to be present here in the signup context when you use an app ID for example you need to have specify a country code the country code must match with the country code of the customer's"
+    },
+    {
+      "t": 345.1,
+      "end": 365.2,
+      "text": "a and it also much must match with uh a supported country of your app so there sort of three things that must be a match in terms of country this will also be the documentation you also need to specify the end user license agreement acceptance uh as being true"
+    },
+    {
+      "t": 365.2,
+      "end": 385.4,
+      "text": "what that means is uh our apis that will load the app will not load an app to business Central if the user hasn't accepted the end user license agreement that means that on your website as part of the profiling experience you need to provide the user with an option to see that end user license agreement of your app uh it's a small"
+    },
+    {
+      "t": 385.4,
+      "end": 406,
+      "text": "detail but it's one of the workings of of our platform apis but with this what this enables is that your app that you specify here will be loaded as part of the provisioning of the business Central Standard trial and ultimately by reacting on the on the signup context the key value pairs here"
+    },
+    {
+      "t": 406,
+      "end": 426,
+      "text": "uh I'm able to say load this checklist item because that matches what the user chose uh in terms of answer in this profile in question and there's you can do all kinds of things here and of course we will make sure that you can have as much control as possible over the initial uh UI here in terms"
+    },
+    {
+      "t": 426,
+      "end": 438.6,
+      "text": "of um uh roles and so on to learn more visit aka.ms BC onboarding thank you for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 436.42,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1244
+}

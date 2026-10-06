@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "241641255e3792d05ae6b2215ed32c2543ea8501",
       "words": 497,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:13.386Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003685
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:13.394Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:13.395Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:13.396Z",
+      "page": false
     }
   },
   "input_hash": "241641255e3792d05ae6b2215ed32c2543ea8501",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "241641255e3792d05ae6b2215ed32c2543ea8501"
+  "output_hash": "01e995a0f030a2e78bc4ce89ef1297a8eef09e88873ed9a98736b9e5c0d26042"
 }

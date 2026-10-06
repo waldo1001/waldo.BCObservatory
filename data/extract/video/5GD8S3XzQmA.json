@@ -1,0 +1,152 @@
+{
+  "video_id": "5GD8S3XzQmA",
+  "item_id": "video/yt-microsoft/5GD8S3XzQmA",
+  "title": "Using the Spotlight Tour Element in Onboarding",
+  "duration_s": 97,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "spotlight tour element",
+    "onboarding experience",
+    "user discovery",
+    "teams integration",
+    "excel integration",
+    "page introduction",
+    "guided experience"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Spotlight Tours",
+      "t_start": 0,
+      "t_end": 17.4
+    },
+    {
+      "title": "Benefits and Power of Spotlight Tours",
+      "t_start": 17.4,
+      "t_end": 37.4
+    },
+    {
+      "title": "Current Scope and Page Selection",
+      "t_start": 37.4,
+      "t_end": 58
+    },
+    {
+      "title": "First and Second Step Configuration",
+      "t_start": 58,
+      "t_end": 78
+    },
+    {
+      "title": "Closing and Resources",
+      "t_start": 78,
+      "t_end": 97
+    }
+  ],
+  "features": [
+    {
+      "name": "Spotlight Tour Element",
+      "description": "A pattern for onboarding that allows users to discover key features like Teams and Excel, with the ability to actually try features in just two steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 37.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently focused on Teams and Excel features",
+        "Requires manual page selection by developers"
+      ],
+      "tags": [
+        "onboarding",
+        "user discovery",
+        "pattern",
+        "experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Two-Step Spotlight Tour Pattern",
+      "description": "A guided experience with a first step for introduction text explaining value on the page, and a second step pointing to an action where users can try the feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.4,
+      "t_end": 78,
+      "is_demoed": false,
+      "caveats": [
+        "Developers must decide which pages to use it on",
+        "Depends on relevant features being available on the page"
+      ],
+      "tags": [
+        "two-step",
+        "introduction",
+        "guided action",
+        "pattern"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.4,
+      "text": "Spotlight tours are a really powerful way of showing some of the key selling points in business Central such as teams and Excel",
+      "why_it_matters": "Defines the core purpose and current scope of Spotlight tours as a discovery mechanism for key integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 17.4,
+      "text": "it allows users not only to discover it but actually go and try it out with just two steps",
+      "why_it_matters": "Explains the key differentiator of Spotlight tours - enabling hands-on learning, not just passive discovery.",
+      "check": "exact"
+    },
+    {
+      "t": 37.4,
+      "text": "Spotlight tours are all about teams and Excel what is up to you to decide is on which Pages you want to call out",
+      "why_it_matters": "Clarifies current feature scope and emphasizes developer control over where Spotlight tours appear.",
+      "check": "exact"
+    },
+    {
+      "t": 58,
+      "text": "when you're at a new place it's sometimes a little difficult to know where you are so give a little hand there and introduce",
+      "why_it_matters": "Provides design guidance on using introduction text to orient new users to their current location.",
+      "check": "exact"
+    },
+    {
+      "t": 78,
+      "text": "about pointing uh to that action where the user can go and try it out to learn more",
+      "why_it_matters": "Describes the second step mechanics of guiding users to actionable features for hands-on learning.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 0.2,
+      "kind": "subject-to-change",
+      "text": "it's a clip from a launch event video for 2023 release Wave 2 but it's equally relevant today"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009648
+    }
+  ]
+}
