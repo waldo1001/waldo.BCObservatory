@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-import-item-pictures",
   "published_at": "2026-01-19T11:06:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7",
       "words": 342,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:11.532Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00421
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:11.549Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:11.549Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:11.550Z",
+      "page": false
     }
   },
   "input_hash": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7"
+  "output_hash": "b08fab340673fb1dbd16c26e80132fe3e0c29b657d6903ead7ce432242e6322c"
 }

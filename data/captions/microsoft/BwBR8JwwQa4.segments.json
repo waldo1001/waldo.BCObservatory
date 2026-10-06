@@ -1,0 +1,78 @@
+{
+  "video_id": "BwBR8JwwQa4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 25.7,
+      "text": "in this release we expanded amount of information which Shopify and Business Center Exchange in B2B scenario Shopify connector now Imports all location all Company locations and also includes payment terms and tax ID information the tax ID information can be used for automatic entity mapping now when export data"
+    },
+    {
+      "t": 25.7,
+      "end": 45.9,
+      "text": "from business Central to Shopify customer to company we also include tax ID and Company ID that also improves order creation and traceability automatic creation of cataloges ensures that prices are equal between Shopify and business Central let's see it in"
+    },
+    {
+      "t": 45.9,
+      "end": 62.2,
+      "text": "action Shopify company can have multiple locations with different addresses tax IDs and payment terms the Shopify connector now Imports all locations into business Central report the company from"
+    },
+    {
+      "t": 62.2,
+      "end": 69.3,
+      "text": "Shopify now explore the entity to see the populated tax"
+    },
+    {
+      "t": 69.3,
+      "end": 89.4,
+      "text": "ID choose the Shopify locations action to view the list of locations there are two entries showing address information tax and payment term codes the default entry is used as the main source when creating or updating customer cards since it is impossible to specify in the Shopify admin which location"
+    },
+    {
+      "t": 89.4,
+      "end": 103.2,
+      "text": "is default the connector uses the first one the company was mapped to customer using the registration no based on Shopify Shop Card"
+    },
+    {
+      "t": 108.5,
+      "end": 130,
+      "text": "settings the change log shows that payment terms were also updated it is important to map Shopify payment terms to business central payment terms all right we so import works now it's time to explore export of the data export a customer as a Shopify"
+    },
+    {
+      "t": 131,
+      "end": 151.5,
+      "text": "company notice the tax ID the new company Tax ID mapping field on the Shopify shop car page lets you choose to send either the registration number or the vat registration number as the tax ID if you configured the Shopify connector to create a catalog the customer number field is now filled in in for the catalog"
+    },
+    {
+      "t": 151.5,
+      "end": 166.2,
+      "text": "this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields you just need to turn on the sync prices toggle and select sync prices to start synchronizing catalog"
+    },
+    {
+      "t": 166.2,
+      "end": 176.2,
+      "text": "prices in created Shopify Company the company ID is filled in with the customer number which enhances tracability"
+    },
+    {
+      "t": 176.2,
+      "end": 186.6,
+      "text": "if payment terms mapping is configured the payment term details transfer to Shopify and are stored in the default company"
+    },
+    {
+      "t": 186.6,
+      "end": 207.6,
+      "text": "location also the Shopify connector fills in the company/ attention field in the created company location with a company name the name is used in imported orders thank you for watching you can find additional details about this capability in the release notes also check other videos about Shopify connector enhancements"
+    },
+    {
+      "t": 207.6,
+      "end": 212,
+      "text": "you can find links in the description"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 442
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-validated-localization-apps",
   "published_at": "2026-01-19T15:17:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7b84f79b6c85d2aad69bb86dfad13ca929b8e11b",
       "words": 1139,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:11.530Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00421
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:11.544Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:11.545Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:11.545Z",
+      "page": false
     }
   },
   "input_hash": "7b84f79b6c85d2aad69bb86dfad13ca929b8e11b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b84f79b6c85d2aad69bb86dfad13ca929b8e11b"
+  "output_hash": "9eb7f9708536c7c0a671e8e63ec8f0f4dced6e842faf9d33b07d9a51f03c5d76"
 }

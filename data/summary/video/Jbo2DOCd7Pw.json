@@ -1,0 +1,28 @@
+{
+  "video_id": "Jbo2DOCd7Pw",
+  "item_id": "video/yt-microsoft/Jbo2DOCd7Pw",
+  "summary": "Field Service integration for service management in Business Central (2025 release wave 1): it extends the earlier project-based integration to service orders and service items, synced to Field Service work orders through Dataverse data sync. It covers requirements, the assisted setup wizard, and a demo.",
+  "overview": "The video explains how Business Central integrates with Dynamics 365 Field Service. The basic integration for projects was released the previous year. The new part extends it to the service model, so service orders and service items in Business Central synchronize with Field Service.\n\nIt covers licensing and technical requirements, then the assisted setup wizard that guides the configuration. Two demos follow. One shows service items and service orders in Business Central. The other shows the linked work orders in Field Service, including scheduling and assigning them on the schedule board.",
+  "key_points": [
+    "The earlier Field Service integration for projects was released the previous year. The new integration extends it to service management (service orders and service items).",
+    "A Business Central premium license is required. According to the video, it gives the right to buy an attach license for Field Service for $20.",
+    "The integration is based on Dataverse data sync technology, which must be enabled in the Business Central instance.",
+    "It also requires Dynamics 365 Sales integration and virtual tables enabled in the environment.",
+    "The Field Service integration app must be downloaded and installed manually from AppSource. It is not installed in Business Central by default.",
+    "An assisted setup wizard walks through the whole configuration, including Dataverse, Sales integration and virtual tables.",
+    "In the demo, service items are created from item sales. Their linked service orders sync to Field Service work orders, which can be scheduled and assigned on the schedule board by drag and drop."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "815f59cac6ba38ec02558abf43e23c086bc81fc65ed01d6fbe56f0eabfa1e45b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0140324
+  }
+}

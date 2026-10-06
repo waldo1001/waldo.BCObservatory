@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-multi-site-organizations",
   "published_at": "2026-01-19T15:17:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6c2fb4f649062efb12c4932cc71cb859a7227cf",
       "words": 1108,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:11.531Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00421
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:11.546Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:11.547Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:11.548Z",
+      "page": false
     }
   },
   "input_hash": "a6c2fb4f649062efb12c4932cc71cb859a7227cf",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6c2fb4f649062efb12c4932cc71cb859a7227cf"
+  "output_hash": "9db95b7c2cdce3fe3638c9ed8e560c58205df1585aa461f7b33e8fa29d55523f"
 }

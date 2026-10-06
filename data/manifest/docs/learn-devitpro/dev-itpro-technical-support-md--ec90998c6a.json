@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/technical-support",
   "published_at": "2026-01-22T13:11:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c12ba9efa2d5dcc191db19bcc8ad597f678ccdba",
       "words": 1014,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:11.526Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00421
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:11.535Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:11.535Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:11.536Z",
+      "page": false
     }
   },
   "input_hash": "c12ba9efa2d5dcc191db19bcc8ad597f678ccdba",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c12ba9efa2d5dcc191db19bcc8ad597f678ccdba"
+  "output_hash": "34e868f12da8349fecb59126454d2b2268bc7916c3df1318e3b09f7f3ac9ccdd"
 }

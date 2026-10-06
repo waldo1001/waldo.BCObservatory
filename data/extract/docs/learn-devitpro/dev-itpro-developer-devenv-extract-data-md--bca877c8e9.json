@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extract-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data",
+  "title": "Extract data from Business Central",
+  "blob": "5fb0d085e557fa763d51accad76e5b3478699459",
+  "summary": "Data extraction methods for Business Central including ETL processes, historical and delta loads using API queries with SystemModifiedAt filtering, and tools like Azure Data Factory and Power BI dataflows.",
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data extraction",
+    "etl",
+    "api",
+    "delta load",
+    "data warehouse"
+  ],
+  "objects": [],
+  "features": [
+    "ETL process",
+    "historical load",
+    "delta load",
+    "API queries",
+    "read scale-out",
+    "SystemModifiedAt filtering",
+    "webhooks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00421,
+      "pages_in_call": 8
+    }
+  ]
+}
