@@ -104,6 +104,20 @@
           },
           "verified": {
             "type": "boolean"
+          },
+          "status_source": {
+            "enum": [
+              "video",
+              "roadmap"
+            ],
+            "description": "roadmap = taken from the Microsoft 365 roadmap features this part of the video covers (data/links/roadmap.json)"
+          },
+          "roadmap_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9]+$"
+            }
           }
         }
       }

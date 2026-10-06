@@ -98,6 +98,15 @@
         "errors": { "type": "array", "items": { "type": "string" } }
       }
     },
+    "roadmap_links": {
+      "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],
+      "properties": {
+        "units": { "type": "integer" }, "stale": { "type": "integer" }, "calls": { "type": "integer" }, "matched": { "type": "integer" },
+        "rejected": { "type": "integer" }, "related": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" },
+        "classified": { "type": "integer" }, "unclassified": { "type": "integer" },
+        "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }, "pages": { "type": "integer" }
+      }
+    },
     "hubs": {
       "type": "object",
       "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],

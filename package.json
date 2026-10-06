@@ -19,7 +19,8 @@
     "site:build": "npm --workspace site run build",
     "llm:ping": "tsx scripts/llm-ping.ts",
     "seed:videos": "tsx pipeline/caption/import-seed.ts",
-    "lint:workflows": "tsx scripts/check-workflows.ts"
+    "lint:workflows": "tsx scripts/check-workflows.ts",
+    "link:roadmap": "tsx scripts/link-roadmap.ts"
   },
   "license": "MIT",
   "devDependencies": {

@@ -56,3 +56,15 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
 - **D21 Reviews gate, they do not just annotate.** Opus edits pass the same validators as the first pass; a rejected
   video is skipped and a rejected hub narrative is withheld from its page. Reviews are tied to the input hash of
   what they reviewed.
+- **D22 Roadmap coverage is an LLM match over same-system candidates, validated deterministically.** A video (its
+  extracted features) or a Learn page is matched by Haiku against the roadmap features that share a galaxy system with
+  it; the schema enums allow only that call's refs and roadmap ids, the model labels each pair `covers` or `related`
+  (only `covers` is kept), and validation drops a match whose id is not a candidate of that ref, whose quote words do
+  not appear in order in the evidence text, or whose ref matched more than 3 features. Roadmap features get 1 to 3
+  systems from a Haiku classification on top of their area's system. Why: one area system per feature missed real
+  coverage (an Expense Agent withholding-tax video is finance, the area is copilot); without the `related` escape
+  Haiku linked evergreen Learn pages by topic (about half wrong). Measured 2026-10-06: backfill of 241 units in 64
+  calls, ~$1.65 including the one-off classification; ~$0.021 a call (one video, or 8 Learn pages). Video matches
+  are high precision; Learn matches about three quarters plausible, so they ship machine-generated and unreviewed.
+  Consequence: `data/links/roadmap.json` (+ `roadmap-systems.json`), quota `roadmap_links`, units redone only when
+  their text or their candidates change; a video feature takes the roadmap status when its roadmap features agree.

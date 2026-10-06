@@ -1,5 +1,5 @@
 {
-  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs. Quotas raised 2026-10-06 (owner) after measuring real costs (video ~$0.075, Learn page ~$0.008, hub ~$0.045) so the spend caps, not item counts, bound a night. concurrency = items (and hub calls) in flight at once; yt-dlp stays one at a time.",
+  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs. Quotas raised 2026-10-06 (owner) after measuring real costs (video ~$0.075, Learn page ~$0.008, hub ~$0.045) so the spend caps, not item counts, bound a night. concurrency = items (and hub calls) in flight at once; yt-dlp stays one at a time. roadmap_links = Haiku calls per run for roadmap coverage (one video or 8 Learn pages per call, ~$0.021; 2026-10-06 sample).",
   "window": {
     "start_local": "01:00",
     "hard_stop_local": "06:35",
@@ -43,6 +43,7 @@
     "guidelines": 20,
     "code_jobs": 1,
     "hub_refresh": 60,
+    "roadmap_links": 40,
     "opus_reviews": 10,
     "llm_calls_max": 450
   },

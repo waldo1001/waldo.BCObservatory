@@ -6,6 +6,8 @@
  * carry chapters, features with verified status evidence, quotes (checked, under 25 words) and links with t=.
  * content/videos/llms.txt lists every video page newest first. Objects are "as heard" until the code pillar
  * verifies them (M2), and the page says so.
+ * A feature that covers Microsoft 365 roadmap features (data/links/roadmap.json) takes its status from the roadmap
+ * when those roadmap features agree (D19: launch videos rarely state a status); status_source says which.
  */
 import { readdirSync } from "node:fs";
 import { join, resolve } from "node:path";
@@ -19,6 +21,10 @@ import { extractionPath, PROMPT_VERSION as EXTRACT_V, STAGE as EXTRACT_STAGE, ty
 import { summaryPath, PROMPT_VERSION as SUMMARY_V, STAGE as SUMMARY_STAGE, type VideoSummary } from "../summarize/video.js";
 import { PIPELINE_VERSION } from "../version.js";
 import type { StageContext } from "../orchestrator/execute.js";
+import type { Manifest } from "../lib/manifest.js";
+import type { RoadmapEntry } from "../ingest/roadmap.js";
+import { loadLinks, roadmapByVideoFeature } from "../link/coverage.js";
+import { featureStatus, latestRoadmap } from "./feature.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -38,8 +44,20 @@ export async function linkedHandler(item: ManifestItem, ctx: Pick<StageContext, 
   return { data: { systems: x.systems, topics: x.topics.length, objects_as_heard: x.objects.length } };
 }
 
-export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: VideoSummary, source: { name: string }, now: Date): string {
+export interface VideoRoadmap { byFeature: Map<number, string[]>; entries: Map<string, RoadmapEntry> }
+const NO_ROADMAP: VideoRoadmap = { byFeature: new Map(), entries: new Map() };
+
+/** The roadmap ids a feature covers (still on the roadmap) and the status they agree on, if they do. */
+export function roadmapStatusOf(r: VideoRoadmap, i: number, now: Date): { ids: string[]; status: string | null } {
+  const ids = (r.byFeature.get(i) ?? []).filter((id) => r.entries.has(id));
+  const statuses = new Set(ids.map((id) => featureStatus(r.entries.get(id)!, now)));
+  return { ids, status: statuses.size === 1 ? [...statuses][0] : null };
+}
+
+export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: VideoSummary, source: { name: string }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
   const id = videoIdOf(item);
+  const rm = x.features.map((_, i) => roadmapStatusOf(roadmap, i, now));
+  const statusOf = (i: number) => rm[i].status ?? x.features[i].status;
   const flags = item.flags ?? [];
   const reviewState = item.review?.state ?? (flags.length ? "flagged" : "unreviewed");
   const evidence = [
@@ -52,11 +70,14 @@ export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: Video
     review: { state: reviewState, by: item.review?.by ?? null, at: item.review?.at ?? null, flags },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [EXTRACT_STAGE]: EXTRACT_V, [SUMMARY_STAGE]: SUMMARY_V }, input_hash: item.stages.captioned?.vtt_sha256 as string ?? null },
     evidence,
-    links: { learn: [], objects: [], features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: { learn: [], objects: [], features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
     video_id: id, channel: item.source, source_name: source.name, url: item.url, published_at: item.published_at ?? null,
     duration_s: Math.round(x.duration_s), captions: item.tier === "official" ? "full" : "derived", audience: s.audience,
     chapters: x.chapters.map((c) => ({ t: Math.floor(c.t_start), title: c.title })),
-    features: x.features.map((f) => ({ name: f.name, status: f.status, t: Math.floor(f.t_start), verified: f.status_evidence_verified })),
+    features: x.features.map((f, i) => ({
+      name: f.name, status: statusOf(i), t: Math.floor(f.t_start), verified: f.status_evidence_verified,
+      status_source: rm[i].status ? "roadmap" : "video", ...(rm[i].ids.length ? { roadmap_ids: rm[i].ids } : {}),
+    })),
     objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`),
     quotes: x.quotes.map((q) => ({ t: Math.floor(q.t), text: q.text, check: q.check })),
   };
@@ -73,11 +94,14 @@ export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: Video
   if (x.chapters.length) lines.push("## Chapters", "", ...x.chapters.map((c) => `- [${hms(c.t_start)}](${at(id, c.t_start)}) ${c.title}`), "");
   if (x.features.length) {
     lines.push("## Features", "", "| Feature | Status | At | Evidence |", "|---|---|---|---|");
-    for (const f of x.features) {
+    x.features.forEach((f, i) => {
       const ev = f.status_evidence_verified && f.status_evidence_quote ? `"${cell(f.status_evidence_quote)}" ([${hms(f.status_evidence_t!)}](${at(id, f.status_evidence_t!)}))` : "";
-      lines.push(`| ${cell(f.name)} | ${STATUS_LABEL[f.status]}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) | ${ev} |`);
-    }
+      const rmLinks = rm[i].ids.map((r) => `[${r}](../features/${r}.md)`).join(", ");
+      const status = `${STATUS_LABEL[statusOf(i)]}${rm[i].ids.length ? ` (roadmap ${rmLinks})` : ""}`;
+      lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) | ${ev} |`);
+    });
     lines.push("");
+    if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku, unreviewed); other statuses need a status word in the video itself.", "");
   }
   if (x.objects.length) {
     lines.push("## AL objects mentioned", "", "As heard in the captions; not yet verified against the code pillar.", "",
@@ -97,12 +121,23 @@ export async function publishedHandler(item: ManifestItem, ctx: Pick<StageContex
   const x = readJson<VideoExtraction>(extractionPath(ctx.dataDir, id));
   const s = readJson<VideoSummary>(sPath);
   const source = ctx.sources.get(item.source) ?? { name: item.source };
-  const page = renderVideoPage(item, x, s, source, ctx.now());
+  const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id), entries: latestRoadmap(ctx.dataDir) };
+  const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap);
   const path = videoPagePath(ctx.contentDir, id);
   // regenerate only when the body or the facts changed, so a quiet night does not touch every page's generated.at
   const body = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
   if (!exists(path) || body(readText(path)) !== body(page)) writeText(path, page);
   return { output_hash: sha256(body(page)), data: { path: `content/videos/${id}.md` } };
+}
+
+/** After linking: re-render every published video page so roadmap statuses found tonight reach it. */
+export async function rerenderVideoPages(manifest: Manifest, ctx: Pick<StageContext, "dataDir" | "contentDir" | "sources" | "now">): Promise<number> {
+  let n = 0;
+  for (const item of manifest.list("video").filter((i) => i.stages.published && exists(summaryPath(ctx.dataDir, videoIdOf(i))))) {
+    await publishedHandler(item, ctx);
+    n++;
+  }
+  return n;
 }
 
 export interface VideoIndexEntry { id: string; title: string; summary: string; published_at: string | null; source_name: string; review: string }

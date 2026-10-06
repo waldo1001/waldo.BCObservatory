@@ -38,9 +38,10 @@ import { executePlan, handlerFor, type ExecutionReport, type StageHandlers } fro
 import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
-import { renderVideoIndex } from "../render/video.js";
+import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { renderTopics } from "../render/topic.js";
-import { renderFeatureIndex } from "../render/feature.js";
+import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
+import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
 import { reviewHubs } from "../review/hub.js";
@@ -93,6 +94,7 @@ export interface RunReport {
   /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
   spend?: SpendAllowance & { exhausted: boolean; override?: boolean };
   execution?: ExecutionReport;
+  roadmap_links?: Omit<LinkRun, "errors"> & { pages: number };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   items_changed: number; errors: string[];
 }
@@ -177,6 +179,10 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
     report.execution = execution;
+    report.roadmap_links = await refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
+      quota: execution.stop_reason === "done" ? quotas.roadmap_links ?? 0 : 0, deadline: new Date(execution.deadline),
+      clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+    });
     renderVideoIndex(contentDirOf(opts));
     renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     report.hubs = await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
@@ -213,6 +219,30 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
     await commitAndPush(opts.repoDir, `content: nightly ${report.date} (${label})`, opts.push, report);
   }
   return report;
+}
+
+/**
+ * Roadmap coverage (link/roadmap.ts) within its quota, then re-render published feature and video pages so links
+ * found tonight reach pages written on earlier nights. Re-rendering is deterministic and runs even with quota 0.
+ */
+async function refreshRoadmapLinks(
+  manifest: Manifest, opts: NightlyOptions, sources: SourceDef[], errors: string[],
+  n: { quota: number; deadline: Date; clock: () => Date; concurrency: number },
+): Promise<RunReport["roadmap_links"]> {
+  try {
+    const { run } = await linkRoadmap(opts.dataDir, n);
+    errors.push(...run.errors);
+    const contentDir = contentDirOf(opts);
+    const now = n.clock();
+    const pages = rerenderFeaturePages(manifest, opts.dataDir, contentDir, now)
+      + await rerenderVideoPages(manifest, { dataDir: opts.dataDir, contentDir, now: () => now, sources: new Map(sources.map((s) => [s.id, s])) });
+    log.info(`roadmap links: ${run.matched} matches from ${run.calls} calls, ${run.stale} of ${run.units} units stale (${run.stopped}); ${pages} pages re-rendered`);
+    const { errors: _e, ...rest } = run;
+    return { ...rest, rejections: run.rejections.slice(0, 10), pages };
+  } catch (e) {
+    errors.push(`roadmap links: ${(e as Error).message.slice(0, 300)}`);
+    return undefined;
+  }
 }
 
 /** Deterministic topic hubs from the Learn TOCs; a missing mirror or TOC never fails the run. */

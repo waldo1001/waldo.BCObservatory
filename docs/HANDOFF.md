@@ -71,8 +71,16 @@ Deliberate deviations from PLAN, all small:
 
 ## Next (proposed, M1 wrap-up then M2)
 
-- Link roadmap features to the videos and Learn pages that cover them (needs an LLM matcher over candidates in the
-  same system; no title matching, AGENTS.md), so launch-event video features inherit roadmap status.
+- ~~Link roadmap features to the videos and Learn pages that cover them~~ Done 2026-10-06 (D22):
+  `pipeline/link/roadmap.ts` (matcher, quota `roadmap_links`, nightly post-pass after stage execution),
+  `pipeline/link/coverage.ts` (read side), feature pages get "Covered by" + `links.videos`/`links.learn`, video
+  features get `status_source: roadmap` and `roadmap_ids`. Backfill committed in `data/links/`; 52 of 80 features
+  covered, 19 of 24 videos and 56 of 217 Learn extracts linked, 106 of 225 video features take roadmap status.
+  Pages were not re-rendered in that commit (the nightly was running); the first nightly on the new code re-renders
+  every published feature and video page. `npm run link:roadmap -- --videos N --docs N` measures on a temp copy.
+  Follow-ups: Opus review of Learn coverage (about a quarter wrong by eye); Learn "what's new" pages hit the
+  3-per-ref cap and link nothing (they cover dozens of features legitimately); ~3,400 Learn pages still to extract
+  will cost ~$9 of linking spread over nights.
 - `check:leak` + `validate:content` scripts (M0 placeholders), then community video captions into the vault (D08).
 - Weekly retry for `no-captions` skips; usage-guard token (D16) when a durable source exists.
 - M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
