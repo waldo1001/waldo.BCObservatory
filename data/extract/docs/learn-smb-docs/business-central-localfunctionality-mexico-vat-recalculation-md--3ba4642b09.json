@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/vat-recalculation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation",
+  "title": "VAT recalculation",
+  "blob": "a5de6b41c0e13cfc4f52eaed89e9d85cefadb3f4",
+  "summary": "Recalculate VAT when customers make payments in foreign currency using exchange rates at payment time in Mexico.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "vat recalculation",
+    "mexico",
+    "foreign currency",
+    "exchange rate"
+  ],
+  "objects": [],
+  "features": [
+    "VAT recalculation on payment",
+    "Currency exchange adjustment",
+    "Unrealized VAT reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003567,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "36b63e08e0633205b8ef7455b3a06b5043422dd7",
       "words": 457,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:08.574Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003567
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.364Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.365Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.365Z",
+      "page": false
     }
   },
   "input_hash": "36b63e08e0633205b8ef7455b3a06b5043422dd7",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36b63e08e0633205b8ef7455b3a06b5043422dd7"
+  "output_hash": "cfed5a3d3f29f018510efddb5967b32701f8074b29577ab92bf43f3cf41af50b"
 }

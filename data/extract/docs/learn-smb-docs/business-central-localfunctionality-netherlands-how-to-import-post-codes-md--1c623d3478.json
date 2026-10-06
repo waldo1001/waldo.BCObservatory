@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes",
+  "title": "How to Import Post Codes [NL]",
+  "blob": "9411a424b617a1817730dbdf9e59f04cb77f635c",
+  "summary": "Import post code files for marketing and relationship management activities in the Dutch version, storing data in the Post Code Range table.",
+  "systems": [
+    "crm",
+    "localization"
+  ],
+  "topics": [
+    "post codes",
+    "import",
+    "netherlands",
+    "marketing",
+    "data"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Post Codes Updates"
+    },
+    {
+      "type": "table",
+      "name": "Post Code Range"
+    },
+    {
+      "type": "table",
+      "name": "Post Code Update Log Entry Table"
+    }
+  ],
+  "features": [
+    "post code file import",
+    "marketing data",
+    "update logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

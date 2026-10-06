@@ -1,0 +1,582 @@
+{
+  "video_id": "06vgkq2EXmA",
+  "item_id": "video/yt-microsoft/06vgkq2EXmA",
+  "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
+  "duration_s": 1560,
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "copilot chat",
+    "prompt engineering",
+    "ai architecture",
+    "intent detection",
+    "data grounding",
+    "multi-turn conversation",
+    "system prompts",
+    "security",
+    "jailbreak prevention",
+    "test-driven development",
+    "harmful input detection",
+    "llm evaluation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Copilot Chat Overview",
+      "t_start": 0,
+      "t_end": 90.7
+    },
+    {
+      "title": "Copilot Chat Capabilities and Release Status",
+      "t_start": 90.7,
+      "t_end": 171.7
+    },
+    {
+      "title": "Architecture and Data Grounding",
+      "t_start": 171.7,
+      "t_end": 291.3
+    },
+    {
+      "title": "Intent Recognition and Skill Selection",
+      "t_start": 291.3,
+      "t_end": 412.7
+    },
+    {
+      "title": "Prompt Engineering Fundamentals",
+      "t_start": 412.7,
+      "t_end": 534.9
+    },
+    {
+      "title": "Testing and Development Practices",
+      "t_start": 534.9,
+      "t_end": 650.5
+    },
+    {
+      "title": "System Prompts and User Prompts",
+      "t_start": 650.5,
+      "t_end": 771.4
+    },
+    {
+      "title": "Jailbreak Prevention and Security",
+      "t_start": 771.4,
+      "t_end": 889.7
+    },
+    {
+      "title": "Testing Harmful Inputs with Simulated Datasets",
+      "t_start": 889.7,
+      "t_end": 1011
+    },
+    {
+      "title": "Automated Evaluation of AI Responses at Scale",
+      "t_start": 1011,
+      "t_end": 1112.6
+    },
+    {
+      "title": "Prompt Engineering Versus Traditional Code Development",
+      "t_start": 1112.6,
+      "t_end": 1290.6
+    },
+    {
+      "title": "Using LLMs to Improve and Refine Prompts",
+      "t_start": 1290.6,
+      "t_end": 1391.7
+    },
+    {
+      "title": "Getting Started with AI Development in Business Central",
+      "t_start": 1391.7,
+      "t_end": 1560
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Chat",
+      "description": "An open chat interface in Business Central that allows users to look up documentation, understand terminology, and find data within the system. Users can invoke the chat anywhere in the product to ask questions without being distracted from their current task.",
+      "status": "preview",
+      "status_evidence_t": 171.7,
+      "status_evidence_quote": "it's currently in a public preview um and um it's only available in US environments for now",
+      "status_evidence_verified": true,
+      "t_start": 10.3,
+      "t_end": 171.7,
+      "is_demoed": false,
+      "caveats": [
+        "Only available in US environments currently",
+        "Non-blocking and asynchronous - queries may take time to complete"
+      ],
+      "tags": [
+        "chat interface",
+        "documentation lookup",
+        "data search",
+        "multi-region rollout planned"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Marketing Text Suggestions",
+      "description": "An earlier AI feature that generated marketing text, mentioned as the starting point before Copilot Chat was developed.",
+      "status": "ga",
+      "status_evidence_t": 50.5,
+      "status_evidence_quote": "we came up with the idea for the marketing text suggestions at the start uh and obviously we then released that as a feature",
+      "status_evidence_verified": true,
+      "t_start": 50.5,
+      "t_end": 70.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "marketing",
+        "text generation",
+        "released feature"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Intent Condensation",
+      "description": "A system that takes the full conversation history and condenses it into a single chat message containing the user's current intent and relevant information, making it easier to pass to other system components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 311.5,
+      "t_end": 371.9,
+      "is_demoed": false,
+      "caveats": [
+        "Happens invisibly to the user"
+      ],
+      "tags": [
+        "conversation processing",
+        "intent detection",
+        "backend logic"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Find and Go Capability",
+      "description": "A navigational capability within Copilot Chat that queries the database to find relevant records based on user queries, such as finding sales documents for a specific customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371.9,
+      "t_end": 412.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "navigation",
+        "record search",
+        "database queries"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Prompt Engineering with Test-Driven Development",
+      "description": "An approach to developing AI features that involves creating test cases with datasets of inputs representing supported question types and scenarios, using assertions to verify the model routes to the correct skill or handles off-topic queries appropriately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 514.6,
+      "t_end": 590.3,
+      "is_demoed": false,
+      "caveats": [
+        "Model is a blackbox making testing inherently challenging"
+      ],
+      "tags": [
+        "testing",
+        "prompt design",
+        "validation",
+        "development methodology"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure AI Studio Integration",
+      "description": "A tool for prototyping and testing prompts before full implementation, allowing developers to experiment with different prompt formulations and understand model roles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 630.4,
+      "t_end": 690.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development tools",
+        "prototyping",
+        "prompt testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Meta Prompt Architecture",
+      "description": "A system where prompts not visible to end users are layered around visible conversation history and user input. The meta prompt contains system instructions that control how the conversation behaves, including conversation history and system prompts that interact with user prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.3,
+      "t_end": 791.6,
+      "is_demoed": false,
+      "caveats": [
+        "Term described as 'fluffy' - implementation details may vary"
+      ],
+      "tags": [
+        "prompt architecture",
+        "system design",
+        "hidden prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Jailbreak Prevention",
+      "description": "Security measures that prevent users from manipulating the AI model through prompt injection attacks. The system uses user roles versus system roles to distinguish trusted instructions from untrusted user input, wrapping user input in user prompts while reinforcing scope through system prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791.6,
+      "t_end": 889.7,
+      "is_demoed": false,
+      "caveats": [
+        "users can write any input in chat feature",
+        "ongoing technical challenge",
+        "Security approach described as ongoing challenge",
+        "Effectiveness not empirically proven in this discussion"
+      ],
+      "tags": [
+        "security",
+        "prompt injection",
+        "input validation",
+        "harm prevention",
+        "prompting",
+        "jailbreak",
+        "harmful content"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Harmful Input Dataset Testing",
+      "description": "A dataset of thousands of potentially harmful inputs is run through the Copilot Chat test suite to ensure the feature produces appropriate responses and does not surface undesirable outputs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 909.8,
+      "t_end": 970.6,
+      "is_demoed": false,
+      "caveats": [
+        "large portion of harmful inputs dismissed as off-topic without deep testing"
+      ],
+      "tags": [
+        "testing",
+        "safety",
+        "harmful input",
+        "dataset"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LLM-Powered Jailbreak Simulation",
+      "description": "Two LLMs are set to interact with each other - one is Copilot Chat and the other attempts to produce harmful content using known jailbreak prompts. This simulates adversarial conversations to uncover bugs before customer exposure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 950.6,
+      "t_end": 1011,
+      "is_demoed": false,
+      "caveats": [
+        "requires refining harmful inputs to Business Central context to test effectively"
+      ],
+      "tags": [
+        "testing",
+        "jailbreak",
+        "simulation",
+        "adversarial",
+        "fuzzing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated LLM-Based Response Evaluation",
+      "description": "A third LLM evaluates whether Copilot Chat responses are appropriate according to predefined harm categories, allowing automatic grading of thousands of simulated conversations without manual review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1051.4,
+      "t_end": 1112.6,
+      "is_demoed": false,
+      "caveats": [
+        "manual grading not scalable",
+        "model behavior changes with upgrades",
+        "requires automation due to rapid model release cycles"
+      ],
+      "tags": [
+        "testing",
+        "evaluation",
+        "automation",
+        "scale",
+        "grading"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Engineering for AI Features",
+      "description": "Development of Copilot Chat involves significant prompt engineering work alongside traditional code. As models improve, the ratio is expected to shift toward more prompt-based logic and less conventional code wrapping around model outputs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1112.6,
+      "t_end": 1214.6,
+      "is_demoed": false,
+      "caveats": [
+        "difficult to quantify exact time split",
+        "requires test-driven approach due to model opacity",
+        "much code currently needed to validate model output types"
+      ],
+      "tags": [
+        "development",
+        "prompt engineering",
+        "ai",
+        "code",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LLM-Assisted Prompt Improvement",
+      "description": "Users can pass their prompts through an LLM to improve language precision, fix grammatical issues, and ensure the text maps more closely to training data, resulting in better prompt performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1270.6,
+      "t_end": 1311,
+      "is_demoed": false,
+      "caveats": [
+        "technique for non-native English speakers",
+        "manual refinement still needed"
+      ],
+      "tags": [
+        "prompt engineering",
+        "language",
+        "improvement",
+        "ai"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Developer Tools",
+      "description": "A toolkit for Business Central that provides boilerplate code, model calling capabilities, and consistent UI elements aligned with Microsoft Office products. Helps developers get started with AI feature development quickly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1432.9,
+      "t_end": 1473.4,
+      "is_demoed": false,
+      "caveats": [
+        "documentation and links to be provided"
+      ],
+      "tags": [
+        "developer tools",
+        "toolkit",
+        "ai",
+        "getting started"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Storage in Key Vault",
+      "description": "For AppSource extensions, prompts can be stored in Key Vault to protect intellectual property. This prevents prompts from being visible in the extension code when distributed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1493.6,
+      "t_end": 1533.8,
+      "is_demoed": false,
+      "caveats": [
+        "prompts are considered IP and need protection",
+        "approach specific to AppSource extensions"
+      ],
+      "tags": [
+        "security",
+        "ip",
+        "key vault",
+        "appsource",
+        "distribution"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "learn.microsoft.com documentation",
+      "t": 252.6
+    },
+    {
+      "type": "other",
+      "name": "Copilot Chat",
+      "t": 811.6
+    },
+    {
+      "type": "other",
+      "name": "Copilot Developer Tools",
+      "t": 1453.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Viston Nicholas",
+      "confidence": "high"
+    },
+    {
+      "name": "Sam",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 50.5,
+      "text": "about 18 months ago uh we started like playing around with some ideas after seeing like the launch of chat GPT",
+      "why_it_matters": "Establishes the timeline of when AI feature development began at Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 90.7,
+      "text": "right now uh obviously it's like an open chat so you can type whatever but we we have kind of scoped it down to",
+      "why_it_matters": "Clarifies that while Copilot Chat appears open-ended, its capabilities are deliberately scoped and limited.",
+      "check": "exact"
+    },
+    {
+      "t": 171.7,
+      "text": "it was the last release wave so 2024 release Wave 1 yes um it's currently in a public preview um and um it's only",
+      "why_it_matters": "Establishes the release status, timing, and geographic limitations of Copilot Chat.",
+      "check": "exact"
+    },
+    {
+      "t": 232.3,
+      "text": "Bing chat and um co-pilot chat with business Central are kind of similar in the sense that they both use external data sources to",
+      "why_it_matters": "Explains the architectural difference between Copilot Chat and generic AI chat tools - it uses external data grounding.",
+      "check": "exact"
+    },
+    {
+      "t": 331.8,
+      "text": "we take the whole conversation and we actually we go to the model and and ask it to um bring condense this whole conversation",
+      "why_it_matters": "Describes the key technical process of condensing conversation history before routing to specific capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 534.9,
+      "text": "the model itself is effectively a blackbox um so the best way to do it is to you know go back to your Basics",
+      "why_it_matters": "Articulates the fundamental challenge of working with large language models and the recommended approach.",
+      "check": "exact"
+    },
+    {
+      "t": 751.3,
+      "text": "a meta prompt right now is a it's effectively a prompt that is not visible to the end user",
+      "why_it_matters": "Defines the key architectural concept of meta prompts that control system behavior behind the scenes.",
+      "check": "exact"
+    },
+    {
+      "t": 811.6,
+      "text": "if uh if it's a user role uh that that the prompt is saying like ignore the instructions the model knows that like w",
+      "why_it_matters": "Explains the security mechanism that distinguishes between system instructions and user input to prevent jailbreaks.",
+      "check": "exact"
+    },
+    {
+      "t": 811.6,
+      "text": "if it's a user role uh that that the prompt is saying like ignore the instructions the model knows that like w this is",
+      "why_it_matters": "Explains the core security mechanism of role-based prompting to prevent jailbreaks by distinguishing trusted system prompts from untrusted user input.",
+      "check": "exact"
+    },
+    {
+      "t": 929.9,
+      "text": "so it's it's like thousands of uh inputs um but but um that we know can potentially produce some harmful response or undesirable response",
+      "why_it_matters": "Quantifies the scale of harmful input testing dataset used to validate Copilot Chat behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 970.6,
+      "text": "we set two L&M to talk to each other our own our own feature the BC co-pilot chart right and we have another LM",
+      "why_it_matters": "Describes an innovative adversarial testing approach where LLMs simulate attacks to uncover vulnerabilities before production.",
+      "check": "exact"
+    },
+    {
+      "t": 1071.7,
+      "text": "so just to summarize there actually three LMS involved you say so there's one asking the question yeah to BC chat right yeah uh",
+      "why_it_matters": "Clarifies the three-LLM evaluation pipeline - one to generate questions, Copilot Chat to respond, and a third to grade appropriateness - enabling automated safety testing at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 1112.6,
+      "text": "we have to automate these things because uh we see like when model upgrades things typically do change um it's not that it's",
+      "why_it_matters": "Explains why automated testing is essential - model behavior changes with each LLM upgrade, requiring continuous validation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1173.5,
+      "text": "it's definitely it is it is very different to kind of your classical uh software engineering um because uh yeah you you have this",
+      "why_it_matters": "Acknowledges the fundamental shift in development methodology when working with LLMs compared to traditional software engineering.",
+      "check": "exact"
+    },
+    {
+      "t": 1270.6,
+      "text": "you can you can ask it like please be more concise with this language it'll fix any kind of grammatical issues and that kind",
+      "why_it_matters": "Demonstrates a meta-technique of using LLMs to improve the quality of prompts themselves, improving prompt performance.",
+      "check": "exact"
+    },
+    {
+      "t": 1493.6,
+      "text": "you could put them in the in say your key Vault if if you're an appsource extension um and that way when you distribute",
+      "why_it_matters": "Provides practical security guidance for protecting prompt intellectual property in distributed AppSource extensions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 171.7,
+      "kind": "preview",
+      "text": "it's currently in a public preview um and um it's only available in US environments for now uh but we hope over the wave to roll it out to more regions"
+    },
+    {
+      "t": 1371.4,
+      "kind": "other",
+      "text": "unfortunately that is like part of the our Microsoft uh IP uh at the moment um so uh so no"
+    },
+    {
+      "t": 1391.7,
+      "kind": "other",
+      "text": "but they're definitely not ready for production use um but it gives an idea of kind of the things you can do"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 16,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 9
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027048999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028925
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025161
+    }
+  ]
+}

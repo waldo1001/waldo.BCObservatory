@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements",
+  "title": "How to import and reconcile bank statements",
+  "blob": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
+  "summary": "Import and reconcile bank statements in the Dutch version using electronic protocols including Rabobank and SEPA CAMT formats through the Bank/Giro Journal.",
+  "systems": [
+    "finance",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "bank statements",
+    "reconciliation",
+    "import",
+    "netherlands",
+    "sepa",
+    "electronic banking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank/Giro Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    }
+  ],
+  "features": [
+    "electronic bank statement import",
+    "automatic reconciliation",
+    "Rabobank protocols",
+    "SEPA CAMT support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

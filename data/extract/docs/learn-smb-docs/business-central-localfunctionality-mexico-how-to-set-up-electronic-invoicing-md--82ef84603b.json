@@ -1,0 +1,89 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing",
+  "title": "Set Up Electronic Invoicing [MX]",
+  "blob": "3d1e2d598454cd35034793f3e7ba8ab89be6562c",
+  "summary": "Set up electronic invoicing in Mexico by configuring company information, general ledger, customer and vendor tax IDs, locations, and CFDI field mappings.",
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "electronic invoicing",
+    "mexico",
+    "cfdi",
+    "tax identification",
+    "sac certificate",
+    "pac"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "CFDI Cancellation Reasons"
+    },
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    },
+    {
+      "type": "page",
+      "name": "Units of Measure"
+    },
+    {
+      "type": "page",
+      "name": "SAT Tax Schemas"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "codeunit",
+      "name": "10145"
+    }
+  ],
+  "features": [
+    "SAT certificate configuration",
+    "PAC code setup",
+    "CFDI field mapping",
+    "PDF report inclusion",
+    "Multiple SAT certificates",
+    "Electronic invoice enabled"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003567,
+      "pages_in_call": 7
+    }
+  ]
+}

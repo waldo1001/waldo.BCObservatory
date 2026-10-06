@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9411a424b617a1817730dbdf9e59f04cb77f635c",
       "words": 138,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:07.309Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002815
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:08.585Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:08.586Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:08.587Z",
+      "page": false
     }
   },
   "input_hash": "9411a424b617a1817730dbdf9e59f04cb77f635c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9411a424b617a1817730dbdf9e59f04cb77f635c"
+  "output_hash": "890eb151b2c0feb69fa3db0d4b3217295f454d7734217a927c86dce525de3317"
 }

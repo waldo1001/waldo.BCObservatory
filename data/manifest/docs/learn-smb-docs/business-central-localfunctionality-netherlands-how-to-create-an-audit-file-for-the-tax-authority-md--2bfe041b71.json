@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
       "words": 295,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.401Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.464Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.465Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.466Z",
+      "page": false
     }
   },
   "input_hash": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96ce223429adbf0b93fb3e3dd836d41f58c519dc"
+  "output_hash": "ad3a996e4a4faea8d7129af15063c710cd7794aa21d44939897813dd4fa2470b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
       "words": 198,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:07.305Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002815
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:07.316Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:07.317Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:07.319Z",
+      "page": false
     }
   },
   "input_hash": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ac603c307bc3926d891ebc5d4c5ea63da97534b8"
+  "output_hash": "596790845f22aaad07b69de79873a3f663f5e107e7ce62a93046c420f92c7b5d"
 }

@@ -1,0 +1,88 @@
+{
+  "video_id": "NkYNL_5Zfoc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.6,
+      "end": 10.6,
+      "text": "In this video, we're going to talk about entering in general journals in Dynamics SL and compare that to the experience of entering in those same transactions in Business Central."
+    },
+    {
+      "t": 10.6,
+      "end": 25.2,
+      "text": "To begin, let's go to SL where I have already created a GL batch and entered in two different general journal entries. The first entry is for a monthly auto insurance bill for a small fleet of company vehicles."
+    },
+    {
+      "t": 25.2,
+      "end": 39.4,
+      "text": "I can see the reference number, description, as well as the accounts being debited and credited. In this same batch, I have also entered in a transaction for our monthly interest income on our savings account."
+    },
+    {
+      "t": 39.4,
+      "end": 49.6,
+      "text": "I could continue to enter in more journal entries and when complete, post the batch. Now, let's look at Business Central and see how we can enter in those same journal entries."
+    },
+    {
+      "t": 49.6,
+      "end": 67.5,
+      "text": "To begin, I'll navigate to the general journal window. This is where we can create and define batches for our journal entries. In this example, the batches are set up operationally, but you could create batches per user if you had multiple users entering in transactions"
+    },
+    {
+      "t": 67.5,
+      "end": 79,
+      "text": "onto general ledger. For our purpose, I'll go ahead and select the default batch. In the general journal, you can see much of the same information you did in SL."
+    },
+    {
+      "t": 79,
+      "end": 91.6,
+      "text": "Let's enter in the auto insurance journal entry we saw in SL. I don't always remember the account number, so I can start typing the name of the account and then the drop down will automatically filter for me."
+    },
+    {
+      "t": 91.6,
+      "end": 104,
+      "text": "I can update the description or references if I want more detail and then finish filling out the rest of the journal entry with the correct debit amount and account being credited."
+    },
+    {
+      "t": 104,
+      "end": 120.1,
+      "text": "Next, I can select to create a new document and enter in the interest income journal entry. However, instead of entering the next journal entry the same as we just did, let's look at another way you can enter in journal entries in Business Central."
+    },
+    {
+      "t": 120.1,
+      "end": 132.5,
+      "text": "Select the show more columns to get a slightly different view of how you can enter in journal entries. You can see it's showing my first document as two lines in the grid with my debit and credit amounts."
+    },
+    {
+      "t": 132.5,
+      "end": 148.7,
+      "text": "You can also enter in the journal entry in a single line. Let's do that for the interest income. You can see how it automatically filled in the document number for me and I can start entering in the savings account and of the interest earned."
+    },
+    {
+      "t": 148.7,
+      "end": 161.7,
+      "text": "Next, I can enter in the offset account that will automatically be credited. And this is an example of a quick and efficient way to enter in a lot of journal entries all at once."
+    },
+    {
+      "t": 161.7,
+      "end": 178.1,
+      "text": "Lastly, if you do have a large journal entry, you can also choose to edit in Excel, make the changes, and publish those back to Business Central. Once the information is populated in Excel, I can easily make mass changes if I had a large number of lines."
+    },
+    {
+      "t": 178.1,
+      "end": 195.3,
+      "text": "I could copy the lines and then edit them. In our example, I'll go ahead and illustrate how to make a change and push that back into Business Central. Now that the change has been published, we'll go back into Business Central and refresh the screen to see the changes."
+    },
+    {
+      "t": 195.3,
+      "end": 212.6,
+      "text": "Upon refreshing, I can see that my amount has now been updated to $300. Once all the journal entries are entered, I can select to post them. And that's a quick look at how you can easily and effectively enter in journal entries in Business Central."
+    },
+    {
+      "t": 212.6,
+      "end": 219,
+      "text": "To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 603
+}

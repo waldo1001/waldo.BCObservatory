@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals",
+  "title": "How to Print the Test Reports for Cash and Bank or Giro Journals",
+  "blob": "116a944116bf83557f581a1cdcdec051f87947d0",
+  "summary": "Print test reports for cash and bank/giro journals in the Dutch version to preview posting effects and view applied entries before posting.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "test reports",
+    "cash journal",
+    "bank journal",
+    "giro journal",
+    "netherlands",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank/Giro Journal"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Template List"
+    },
+    {
+      "type": "report",
+      "name": "CBG Posting - Test"
+    }
+  ],
+  "features": [
+    "test report printing",
+    "applied entries display",
+    "journal preview",
+    "posting validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

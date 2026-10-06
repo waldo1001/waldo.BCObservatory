@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates",
+  "title": "How to import post code updates [NL]",
+  "blob": "234558c994a33748c2ba7dedfd958002a98d14e7",
+  "summary": "Import monthly post code updates to the Post Code Range table in the Dutch version, with automatic date validation and gap checking.",
+  "systems": [
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "post codes",
+    "updates",
+    "netherlands",
+    "data import"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Post Codes Updates"
+    },
+    {
+      "type": "table",
+      "name": "Post Code Range"
+    },
+    {
+      "type": "table",
+      "name": "Post Code Update Log Entry Table"
+    }
+  ],
+  "features": [
+    "post code update import",
+    "date validation",
+    "gap detection",
+    "update logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

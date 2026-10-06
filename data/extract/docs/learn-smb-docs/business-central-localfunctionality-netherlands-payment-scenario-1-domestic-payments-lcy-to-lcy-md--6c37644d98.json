@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-",
+  "title": "Scenario 1 Domestic payments (LCY to LCY) [NL]",
+  "blob": "705edba18550e5cbee197189113ed71f5e9801e9",
+  "summary": "Walkthrough of domestic payments in local currency using telebanking in the Dutch version, covering vendor/customer setup, invoicing, proposals, and bank statement import.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "payments",
+    "telebanking",
+    "domestic",
+    "lcy",
+    "netherlands",
+    "bank statements"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank - Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Proposal"
+    },
+    {
+      "type": "page",
+      "name": "Payment History Overview"
+    },
+    {
+      "type": "page",
+      "name": "Import Protocol List"
+    }
+  ],
+  "features": [
+    "vendor/customer setup",
+    "payment proposals",
+    "payment history export",
+    "bank statement import",
+    "transaction mode configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

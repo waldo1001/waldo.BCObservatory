@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals",
+  "title": "How to Enter and Post Cash and Bank or Giro Journals",
+  "blob": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6",
+  "summary": "Enter and post cash and bank/giro journal transactions in the Dutch version with support for electronic bank statement import, payment application, and bank reconciliation.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "cash journal",
+    "bank journal",
+    "giro journal",
+    "netherlands",
+    "bank reconciliation",
+    "telebanking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank/Giro Journal"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "cash journal posting",
+    "bank journal posting",
+    "giro journal posting",
+    "electronic bank statement import",
+    "automatic reconciliation",
+    "VAT codes",
+    "payment application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002269,
+      "pages_in_call": 7
+    }
+  ]
+}

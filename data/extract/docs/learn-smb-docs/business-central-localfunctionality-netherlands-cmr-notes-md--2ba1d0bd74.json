@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/cmr-notes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes",
+  "title": "CMR Notes [NL]",
+  "blob": "2a340e0569e789b44c82614b077bde419ce794c6",
+  "summary": "Print CMR notes for sales shipments, purchase returns, and transfer shipments according to the UN CMR Convention in the Dutch version.",
+  "systems": [
+    "localization",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "cmr notes",
+    "netherlands",
+    "bill of lading",
+    "shipment"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "CMR - Sales Shipment"
+    },
+    {
+      "type": "report",
+      "name": "CMR - Purchase Return Shipment"
+    },
+    {
+      "type": "report",
+      "name": "CMR - Transfer Shipment"
+    }
+  ],
+  "features": [
+    "CMR sales shipment",
+    "CMR purchase return shipment",
+    "CMR transfer shipment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003567,
+      "pages_in_call": 7
+    }
+  ]
+}

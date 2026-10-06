@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3e3dc20707e7b5c7671c08f02b49dfd794afa769",
       "words": 168,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:08.577Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003567
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.378Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.379Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.380Z",
+      "page": false
     }
   },
   "input_hash": "3e3dc20707e7b5c7671c08f02b49dfd794afa769",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e3dc20707e7b5c7671c08f02b49dfd794afa769"
+  "output_hash": "c88c61e257486fd2192120dd0eb6acc150e54db355647eb9ca62f36de7e85d3b"
 }

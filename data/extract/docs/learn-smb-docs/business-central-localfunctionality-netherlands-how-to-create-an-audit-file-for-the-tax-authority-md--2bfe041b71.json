@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority",
+  "title": "Create an Audit File for Tax Authority [NL]",
+  "blob": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
+  "summary": "Create an audit file for the Dutch tax authority based on general ledger journal entries for a selected fiscal period to exchange data with tax inspectors.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "audit file",
+    "netherlands",
+    "tax authority",
+    "general ledger",
+    "journal entries",
+    "fiscal year"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Tax Authority - Audit File"
+    }
+  ],
+  "features": [
+    "audit file creation",
+    "period selection",
+    "begin balance exclusion",
+    "XAF export format"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002269,
+      "pages_in_call": 7
+    }
+  ]
+}

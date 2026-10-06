@@ -1,0 +1,27 @@
+{
+  "video_id": "06vgkq2EXmA",
+  "item_id": "video/yt-microsoft/06vgkq2EXmA",
+  "summary": "Copilot Chat in Business Central: how Microsoft built it, covering architecture, intent condensation, data grounding, meta prompts, jailbreak prevention, and test-driven prompt engineering. Copilot Chat is in public preview and available only in US environments, per the video.",
+  "overview": "Episode 4 of Business Central Under the Hood (published 2024-08-02, 26 minutes) walks through how the team built Copilot Chat. It started about 18 months before the recording, after the launch of ChatGPT, and followed earlier AI work such as marketing text suggestions. Copilot Chat is an open chat for looking up documentation, understanding terminology and finding data. It is in public preview, US environments only.\n\nThe speakers explain how the conversation is condensed into a single intent message, how skills are selected, and how meta prompts, system prompts and user prompts are layered. They then cover testing: test-driven prompt development, datasets of thousands of harmful inputs, two LLMs simulating jailbreak conversations, and a third LLM grading the results. They close with advice for partners who want to build their own AI features.",
+  "key_points": [
+    "Copilot Chat is in public preview and, at recording time, only available in US environments. The team hoped to roll it out to more regions during the wave.",
+    "Intent condensation sends the whole conversation to the model to produce one chat message with the user's current intent. Other components then receive that message.",
+    "Because the model is a blackbox, prompts are developed test-first. Datasets of inputs for supported question types are checked with assertions, for example that the right skill is chosen or off-topic queries are handled.",
+    "Jailbreak prevention uses user roles versus system roles. User input goes into user prompts, and scope is reinforced in system prompts. The speakers describe this as an ongoing challenge.",
+    "Security testing runs thousands of potentially harmful inputs through the test suite. Two LLMs (Copilot Chat and an attacker) converse, and a third LLM grades the responses against harm categories.",
+    "Automated grading is needed because manual grading does not scale and behavior changes when models are upgraded.",
+    "Partners can use Copilot Developer Tools for boilerplate code, model calling and consistent UI. For AppSource extensions, prompts can be stored in Key Vault to protect them as IP."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "4166e01b3a1f5cd6891b8aba23dbb252682202c4f0732216ffa86958e19f5c43",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0238084
+  }
+}

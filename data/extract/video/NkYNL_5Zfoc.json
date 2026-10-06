@@ -1,0 +1,191 @@
+{
+  "video_id": "NkYNL_5Zfoc",
+  "item_id": "video/yt-microsoft/NkYNL_5Zfoc",
+  "title": "Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central",
+  "duration_s": 219,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general journal",
+    "batch posting",
+    "account filtering",
+    "excel integration",
+    "journal entry",
+    "offset accounts"
+  ],
+  "chapters": [
+    {
+      "title": "General journal entries in Dynamics SL",
+      "t_start": 0,
+      "t_end": 39.4
+    },
+    {
+      "title": "Navigating Business Central general journal window",
+      "t_start": 39.4,
+      "t_end": 67.5
+    },
+    {
+      "title": "Entering auto insurance and interest income entries",
+      "t_start": 67.5,
+      "t_end": 104
+    },
+    {
+      "title": "Alternative entry methods: grid view and single-line entry",
+      "t_start": 104,
+      "t_end": 148.7
+    },
+    {
+      "title": "Mass editing journal entries in Excel",
+      "t_start": 148.7,
+      "t_end": 195.3
+    },
+    {
+      "title": "Posting journal entries and summary",
+      "t_start": 195.3,
+      "t_end": 219
+    }
+  ],
+  "features": [
+    {
+      "name": "General journal batch management",
+      "description": "Create and define batches for journal entries, with option to set up batches operationally or per user for multiple users entering transactions onto general ledger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.6,
+      "t_end": 67.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "batch management",
+        "journal entry",
+        "general ledger"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Account name autocomplete in journal entries",
+      "description": "When entering account numbers, users can start typing the account name and a dropdown will automatically filter results to match.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 79,
+      "t_end": 91.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "account lookup",
+        "autocomplete",
+        "usability"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Grid view with debit and credit columns",
+      "description": "Alternative view for entering journal entries showing debit and credit amounts in separate columns, providing a different perspective on journal entry data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.1,
+      "t_end": 132.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "grid view",
+        "journal entry",
+        "columns"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Single-line journal entry",
+      "description": "Efficient method to enter journal entries in a single line with automatic document number generation and offset account functionality for quick entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.5,
+      "t_end": 148.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "single-line entry",
+        "offset account",
+        "efficiency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excel integration for journal entries",
+      "description": "Users can export journal entries to Excel, make mass changes to multiple lines, and publish changes back to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.7,
+      "t_end": 195.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "mass editing",
+        "integration"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "GL batch",
+      "t": 10.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 49.6,
+      "text": "This is where we can create and define batches for our journal entries. In this example, the batches are set up operationally, but you",
+      "why_it_matters": "Shows the flexible batch setup options available in Business Central general journal compared to Dynamics SL.",
+      "check": "exact"
+    },
+    {
+      "t": 79,
+      "text": "I don't always remember the account number, so I can start typing the name of the account and then the drop down will automatically",
+      "why_it_matters": "Demonstrates the autocomplete feature that improves usability when entering account information.",
+      "check": "exact"
+    },
+    {
+      "t": 161.7,
+      "text": "If you do have a large journal entry, you can also choose to edit in Excel, make the changes, and publish those back to",
+      "why_it_matters": "Shows Excel integration capability for handling large-scale journal entry modifications efficiently.",
+      "check": "exact"
+    },
+    {
+      "t": 195.3,
+      "text": "Upon refreshing, I can see that my amount has now been updated to $300. Once all the journal entries are entered, I can select",
+      "why_it_matters": "Confirms that Excel changes are successfully synchronized back to Business Central and entries can be posted.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012724000000000001
+    }
+  ]
+}

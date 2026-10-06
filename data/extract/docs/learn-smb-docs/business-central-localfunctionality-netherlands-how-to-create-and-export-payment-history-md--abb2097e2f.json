@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history",
+  "title": "How to Create and Export Payment History [NL]",
+  "blob": "547c6018f433a581b887a638cc8c929891d321d8",
+  "summary": "Create and export payment history from proposals in the Dutch version using supported protocols BTL91, BBV, or PAYMUL for electronic bank transactions.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "payment history",
+    "netherlands",
+    "telebanking",
+    "export protocols",
+    "vendor payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank - Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Telebank Proposal"
+    },
+    {
+      "type": "page",
+      "name": "Payment History List"
+    }
+  ],
+  "features": [
+    "payment history creation",
+    "payment history export",
+    "BTL91 protocol",
+    "BBV protocol",
+    "PAYMUL protocol"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002269,
+      "pages_in_call": 7
+    }
+  ]
+}

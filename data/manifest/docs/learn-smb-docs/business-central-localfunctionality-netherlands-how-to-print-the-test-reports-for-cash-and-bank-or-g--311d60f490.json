@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "116a944116bf83557f581a1cdcdec051f87947d0",
       "words": 314,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:07.310Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002815
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:08.588Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:08.589Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:08.589Z",
+      "page": false
     }
   },
   "input_hash": "116a944116bf83557f581a1cdcdec051f87947d0",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "116a944116bf83557f581a1cdcdec051f87947d0"
+  "output_hash": "ac35aa68c9a347e0641debbaf6ce27ffe4f139013af250c5bf8f5754228160ad"
 }

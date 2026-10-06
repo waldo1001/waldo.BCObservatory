@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/docket-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports",
+  "title": "Docket Reports [NL]",
+  "blob": "3e3dc20707e7b5c7671c08f02b49dfd794afa769",
+  "summary": "Generate docket reports for Dutch telebanking to provide detailed payment information when combining ledger entries into single payment orders.",
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "docket reports",
+    "netherlands",
+    "telebanking",
+    "payments"
+  ],
+  "objects": [],
+  "features": [
+    "Docket checkbox",
+    "Payment proposal",
+    "Get Proposal Entries batch job"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003567,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "547c6018f433a581b887a638cc8c929891d321d8",
       "words": 203,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.404Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.467Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.468Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.469Z",
+      "page": false
     }
   },
   "input_hash": "547c6018f433a581b887a638cc8c929891d321d8",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "547c6018f433a581b887a638cc8c929891d321d8"
+  "output_hash": "d16b02264888a191b144c4372340a00eaa89527d850dc0a226d2f23bf789d8ce"
 }

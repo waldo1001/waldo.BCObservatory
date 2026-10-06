@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a8abf83dc9347ff6ba73dbf8e57f851eeff51516",
       "words": 62,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.397Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.427Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.428Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.437Z",
+      "page": false
     }
   },
   "input_hash": "a8abf83dc9347ff6ba73dbf8e57f851eeff51516",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8abf83dc9347ff6ba73dbf8e57f851eeff51516"
+  "output_hash": "cc234abace519ef25c4c6f5f84261bf4c5a87f1cafbf7654e1e5dfaa640cc159"
 }

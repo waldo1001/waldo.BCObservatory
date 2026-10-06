@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format",
+  "title": "Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)",
+  "blob": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
+  "summary": "Submit vendor payments electronically in SEPA ISO 20022 format in the Dutch version by creating proposals and exporting payment data through telebanking.",
+  "systems": [
+    "purchasing",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "vendor payments",
+    "sepa",
+    "iso 20022",
+    "netherlands",
+    "electronic payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank-Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Telebank Proposal"
+    }
+  ],
+  "features": [
+    "SEPA vendor payments",
+    "ISO 20022 format",
+    "payment proposals",
+    "electronic submission"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002815,
+      "pages_in_call": 8
+    }
+  ]
+}

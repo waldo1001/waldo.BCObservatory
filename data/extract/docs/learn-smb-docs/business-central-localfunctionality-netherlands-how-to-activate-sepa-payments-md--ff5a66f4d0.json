@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments",
+  "title": "Activate SEPA payments in the Dutch version",
+  "blob": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f",
+  "summary": "Enable SEPA payments in the Dutch version by configuring transaction modes with SEPA export protocols and verifying vendor payment transaction modes.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "sepa payments",
+    "netherlands",
+    "transaction modes",
+    "vendor payments",
+    "electronic payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Transaction Mode Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    }
+  ],
+  "features": [
+    "SEPA export protocol",
+    "transaction modes",
+    "SEPA ISO20022",
+    "SEPA DD",
+    "SEPA CT"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002269,
+      "pages_in_call": 7
+    }
+  ]
+}

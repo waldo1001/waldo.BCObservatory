@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6ad44ac0d134168355ec7a999099bf904578020",
       "words": 191,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:08.575Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003567
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.368Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.369Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.370Z",
+      "page": false
     }
   },
   "input_hash": "a6ad44ac0d134168355ec7a999099bf904578020",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6ad44ac0d134168355ec7a999099bf904578020"
+  "output_hash": "c0bff65928e753d779da05e8af21b2f96d99e9b71e360c03a2ddb31766995353"
 }

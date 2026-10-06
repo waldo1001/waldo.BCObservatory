@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=NkYNL_5Zfoc",
   "published_at": "2024-07-26T13:24:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -16,6 +16,47 @@
       "at": "2026-10-06T19:29:39.936Z",
       "captions": "auto:en-orig",
       "duration_s": 219
+    },
+    "captioned": {
+      "at": "2026-10-06T19:29:48.510Z",
+      "path": "data/captions/microsoft/NkYNL_5Zfoc.vtt",
+      "vtt_sha256": "c48960a767abd4d83b7d562ddd3072a6c5d5fc7dfbbb356aa4ec9ffa0f74f6b3",
+      "segments": 16,
+      "words": 603,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:04.749Z",
+      "path": "data/extract/video/NkYNL_5Zfoc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 4,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.012724
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.672Z",
+      "path": "data/summary/video/NkYNL_5Zfoc.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.010856399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.674Z",
+      "systems": [
+        "finance"
+      ],
+      "topics": 6,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.686Z",
+      "path": "content/videos/NkYNL_5Zfoc.md"
     }
   },
   "input_hash": null,
@@ -32,5 +73,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "8f4623828304004a699e1296d0f61382ce687d93f72b3304e60327c85c23ed23"
 }

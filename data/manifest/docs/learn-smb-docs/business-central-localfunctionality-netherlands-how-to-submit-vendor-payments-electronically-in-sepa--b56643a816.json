@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:07.312Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002815
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:08.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:08.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:08.596Z",
+      "page": false
     }
   },
   "input_hash": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f"
+  "output_hash": "fe6f570ed3aa4314be3a30a47b07b7e6c9ae31325f07db4b58ede7c289f1fc49"
 }

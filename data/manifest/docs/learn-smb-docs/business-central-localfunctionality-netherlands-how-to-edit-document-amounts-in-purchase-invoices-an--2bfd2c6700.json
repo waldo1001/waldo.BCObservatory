@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "badf3b50d6afed15833955ae854e8be940ad41a6",
       "words": 142,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.408Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.470Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.472Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.473Z",
+      "page": false
     }
   },
   "input_hash": "badf3b50d6afed15833955ae854e8be940ad41a6",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "badf3b50d6afed15833955ae854e8be940ad41a6"
+  "output_hash": "294040919b03fffecd65e718214a53ab776e505026842af93146f3d68f6b567b"
 }

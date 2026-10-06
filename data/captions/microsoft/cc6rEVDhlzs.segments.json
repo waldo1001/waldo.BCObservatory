@@ -1,0 +1,88 @@
+{
+  "video_id": "cc6rEVDhlzs",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.8,
+      "end": 13.5,
+      "text": "In this video, we're going to talk about classes in Dynamics SL and compare them to the experience in Business Central where you can use templates to streamline the creation of customers, vendors, and items."
+    },
+    {
+      "t": 13.5,
+      "end": 27.3,
+      "text": "In this example, we'll focus on customer class. Classes are used to group similar customers together for reporting purposes. Classes also used to supply default settings when a new record is created."
+    },
+    {
+      "t": 27.3,
+      "end": 39.9,
+      "text": "Let's go into SL and look at a customer class that I've already created. In this example, we're grouping our customers by region. And I have some preset information for customers in this class."
+    },
+    {
+      "t": 39.9,
+      "end": 51.4,
+      "text": "In my class, you can see the default receivables price class, terms, and accounts I want to default for any customers assigned to this customer class."
+    },
+    {
+      "t": 51.4,
+      "end": 63.4,
+      "text": "Next, if we go to customer maintenance, create a new customer, see how the defaults tab is populated from the retail class defaulted into the screen from AR setup."
+    },
+    {
+      "t": 63.4,
+      "end": 81.3,
+      "text": "Notice that the OM GL accounts are blank. Now, if we assign the region customer class, we can see the default information has been updated, and OM GL accounts tab has been populated with the information we entered under the region customer class setup."
+    },
+    {
+      "t": 81.3,
+      "end": 91.8,
+      "text": "Now, let's look at Business Central and how we can create templates that allow us to easily set up information we want for new customers."
+    },
+    {
+      "t": 91.8,
+      "end": 102.9,
+      "text": "First, we need to navigate to customer templates. You'll select the search icon, enter customer templates, and then choose customer templates from the search results."
+    },
+    {
+      "t": 102.9,
+      "end": 116,
+      "text": "Give the new template a name, and then start filling in the information you want to default for new or existing customers. If you've noticed, I don't see the credit limit or sales person fields on the template form."
+    },
+    {
+      "t": 116,
+      "end": 132.7,
+      "text": "I will simply select the personalized form, find the fields that I want to add, and add them onto the template window. Now that I've added the credit limit and sales person fields to the template, I will select the proper values for each."
+    },
+    {
+      "t": 132.7,
+      "end": 142.9,
+      "text": "Next, I'll set the default business and customer posting groups so that the correct sales and accounts receivable accounts are used for customers in this group."
+    },
+    {
+      "t": 142.9,
+      "end": 158.5,
+      "text": "Finally, let's set the default region dimension buying so that transactions posted to the sales account are categorized correctly. Now that we have the customer template configured, let's create a new customer and apply the template."
+    },
+    {
+      "t": 158.5,
+      "end": 172.8,
+      "text": "When I select to create a new customer, you can see the various templates I've created are displayed and I can select the region template. In the customer window, you can see how the credit limit and sales person have defaulted in front,"
+    },
+    {
+      "t": 172.8,
+      "end": 185.5,
+      "text": "as well as the right business and customer posting groups. We can also navigate to the dimension for the customer and see that the correct region has been defaulted there as well."
+    },
+    {
+      "t": 185.5,
+      "end": 200.6,
+      "text": "If you created a customer with values you want to use for another customer, you can create a template from an existing customer card. Lastly, if I had existing customers that I want to apply this template to, I could do that as well."
+    },
+    {
+      "t": 200.6,
+      "end": 214.7,
+      "text": "That's a quick look at how we can use templates in Business Central to streamline data creation and improve data accuracy. To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 545
+}

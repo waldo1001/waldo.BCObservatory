@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services",
+  "title": "Set Up PAC Web Services",
+  "blob": "36b63e08e0633205b8ef7455b3a06b5043422dd7",
+  "summary": "Set up PAC web services to enable digital stamping of electronic invoices and credit memos by uploading certificates and configuring web service details.",
+  "systems": [
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "pac web services",
+    "mexico",
+    "digital stamp",
+    "cfdi",
+    "certificates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Certificates"
+    },
+    {
+      "type": "page",
+      "name": "PAC Web Services"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "Certificate upload",
+    "PAC web service configuration",
+    "Test environment",
+    "Production environment",
+    "Digital stamp request",
+    "Document cancellation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003567,
+      "pages_in_call": 7
+    }
+  ]
+}

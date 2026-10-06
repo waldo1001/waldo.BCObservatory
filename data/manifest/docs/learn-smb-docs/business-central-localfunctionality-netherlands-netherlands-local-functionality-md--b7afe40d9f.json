@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6e48d6a51b6d34b58621d5c08310b06d536a036d",
       "words": 283,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:07.314Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002815
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:08.596Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:08.597Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:08.598Z",
+      "page": false
     }
   },
   "input_hash": "6e48d6a51b6d34b58621d5c08310b06d536a036d",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e48d6a51b6d34b58621d5c08310b06d536a036d"
+  "output_hash": "cb7cf3181d93070f118331bce6b777b3dd9665d5d05161a4574258ecd6a5d7e4"
 }

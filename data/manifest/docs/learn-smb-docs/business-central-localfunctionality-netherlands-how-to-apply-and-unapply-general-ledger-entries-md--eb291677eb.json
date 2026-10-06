@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a248c85d86956c1af1c7b259c1e11e8bf9bcafee",
       "words": 39,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:10.400Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002269
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:10.461Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:10.462Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:10.463Z",
+      "page": false
     }
   },
   "input_hash": "a248c85d86956c1af1c7b259c1e11e8bf9bcafee",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a248c85d86956c1af1c7b259c1e11e8bf9bcafee"
+  "output_hash": "352de1aad61bc40f889b9851749bf27434b5038b6456d21921fd1bfec1f6f9ef"
 }
