@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7",
       "words": 893,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.374Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.382Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.383Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.385Z",
+      "page": false
     }
   },
   "input_hash": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7"
+  "output_hash": "15da0baee298227580331d4cfa676b7e198a9d778f91dc8b05640ebd1afc9be5"
 }

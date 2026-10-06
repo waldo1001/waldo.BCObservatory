@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/update-excel-addin-configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration",
+  "title": "Update the Excel add-in configuration",
+  "blob": "68e17b26e5cfad05e86c75707345301e68291fc9",
+  "summary": "The July 2022 Excel add-in update requires changing Microsoft Entra app registration from web to spa redirect URI to maintain connection security between Excel and Business Central on premises.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "excel add-in",
+    "microsoft entra",
+    "configuration",
+    "security",
+    "redirect uri"
+  ],
+  "objects": [],
+  "features": [
+    "Excel add-in",
+    "spa redirect URI",
+    "Entra app registration",
+    "Excel integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003456,
+      "pages_in_call": 8
+    }
+  ]
+}

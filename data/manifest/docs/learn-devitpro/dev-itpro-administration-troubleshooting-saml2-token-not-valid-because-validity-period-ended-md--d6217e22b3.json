@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
       "words": 275,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.380Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.406Z",
+      "page": false
     }
   },
   "input_hash": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "202e127feccc4f6a166fb794ec59d38ad65fcbb7"
+  "output_hash": "e3c747b4f89a9caa09c9efc93c76f4465e914a8bd47a8714a87dee3e60b0b467"
 }

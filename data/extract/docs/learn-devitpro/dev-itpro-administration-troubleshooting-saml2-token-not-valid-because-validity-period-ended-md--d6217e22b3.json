@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended",
+  "title": "The SAML2 token is not valid because its validity period has ended.",
+  "blob": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
+  "summary": "SAML2 token validity errors occur when Microsoft Entra security tokens exceed their lifetime; resolve by adjusting the ExtendedSecurityTokenLifetime setting or closing and reopening the Windows client.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "authentication",
+    "saml2",
+    "microsoft entra",
+    "troubleshooting",
+    "security token"
+  ],
+  "objects": [],
+  "features": [
+    "SAML2 authentication",
+    "security token",
+    "Entra ID authentication",
+    "token lifetime"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003456,
+      "pages_in_call": 8
+    }
+  ]
+}

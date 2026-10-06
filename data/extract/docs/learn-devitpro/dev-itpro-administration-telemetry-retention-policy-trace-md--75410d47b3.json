@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-retention-policy-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace",
+  "title": "Analyzing retention policy trace telemetry",
+  "blob": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7",
+  "summary": "Retention policy trace telemetry logs operations on data retention policies including setup, enabling, applying, and deletion of expired records in Business Central tables.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "retention policy",
+    "data deletion",
+    "logging",
+    "monitoring"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Reten. Policy Telemetry Impl."
+    }
+  ],
+  "features": [
+    "retention policy telemetry",
+    "retention policy log",
+    "data deletion logging",
+    "policy application tracking"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003456,
+      "pages_in_call": 8
+    }
+  ]
+}

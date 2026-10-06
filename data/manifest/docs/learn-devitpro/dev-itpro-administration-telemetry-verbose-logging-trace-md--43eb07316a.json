@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d0f19801194a9486a786369c38070b182607695",
       "words": 448,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.375Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.386Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.388Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.389Z",
+      "page": false
     }
   },
   "input_hash": "4d0f19801194a9486a786369c38070b182607695",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d0f19801194a9486a786369c38070b182607695"
+  "output_hash": "531ca9837ea8134f44f37719ac29be65e8d1af55624b44297e94906f5e11b958"
 }

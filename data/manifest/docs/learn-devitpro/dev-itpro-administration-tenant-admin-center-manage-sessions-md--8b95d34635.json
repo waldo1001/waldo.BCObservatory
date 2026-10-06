@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
       "words": 192,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.377Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.395Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.396Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.396Z",
+      "page": false
     }
   },
   "input_hash": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a53bd897ee90438dde405fb2b9de93a58a7c526b"
+  "output_hash": "7874362e55656696096479dfb663b31297e07e0ee1ecfb10d01ceeba986e5233"
 }

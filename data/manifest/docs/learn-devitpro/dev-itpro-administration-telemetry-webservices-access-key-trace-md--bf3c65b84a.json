@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-access-key-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8",
       "words": 738,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.376Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.391Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.392Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.393Z",
+      "page": false
     }
   },
   "input_hash": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8"
+  "output_hash": "05b28a78659de1144294c3b830e4664916489cf5abdef43e3910f8fa9dc37843"
 }

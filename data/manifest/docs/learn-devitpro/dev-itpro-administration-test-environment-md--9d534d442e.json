@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/test-environment",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8e0396a33ab28cd070300995b0043dfe9fecd165",
       "words": 560,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:09.379Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:09.400Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:09.401Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:09.402Z",
+      "page": false
     }
   },
   "input_hash": "8e0396a33ab28cd070300995b0043dfe9fecd165",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8e0396a33ab28cd070300995b0043dfe9fecd165"
+  "output_hash": "f0c1e7fda8b46687f163b3fa93952bcae3071b8e49e8a2eead7e770bd02d771d"
 }
