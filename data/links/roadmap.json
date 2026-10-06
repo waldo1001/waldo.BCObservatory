@@ -1,0 +1,3296 @@
+{
+  "prompt_version": 3,
+  "units": {
+    "docs/learn-devitpro/dev-itpro/administration/administration-shell.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/administration-shell.md",
+      "hash": "73276dce27e967d7c8dea6a6cb2c45cded921580aca6240792304f48fcfe2645",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-shell",
+      "title": "Business Central Administration Shell",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md",
+      "hash": "1382e194f7fafc13ee437aeface5c700fec1cd3d4cfd2cf11ffd7a7ceb52ae1a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
+      "title": "Optional Features Now Mandatory",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/server-instance-settings.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/server-instance-settings.md",
+      "hash": "22190b6803b54d06361c6390ff0afcf8bf87766226d1e054e6be98fde18781e5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-instance-settings",
+      "title": "Business Central Server instance settings",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-agent-lifecycle-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-agent-lifecycle-trace.md",
+      "hash": "b7121eb8ae69195fd72e7d013c0ab214ebdeb2c984e6fd433b0ce05eefd3059c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace",
+      "title": "Analyze Agent Lifecycle Telemetry",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-configuration-package-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-configuration-package-trace.md",
+      "hash": "3625225a9b0765db1ea7b61c2a328b4c0f85970e30e60b22b4877a46e10a4ebe",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace",
+      "title": "Analyze Configuration Package Telemetry",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-event-ids.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-event-ids.md",
+      "hash": "6700f1645187eb42d643db147ace2f9f6e341c43747c4c9c4063742c69f33ef8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids",
+      "title": "Telemetry Event IDs in Application Insights | Microsoft Docs",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-telemetry.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-telemetry.md",
+      "hash": "ef0a5dff018002e5abb5d77964492d675e27ae336024f98d20eb5b0d0aea5a85",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry",
+      "title": "Feature telemetry",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573317",
+          "quote": "monitor app health, feature uptake and usage with advanced filtering"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md",
+      "hash": "438140726a9025ed238b63a33c7cc9afcadc7197aa1fb15d825e52389f9f3622",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace",
+      "title": "Analyze MCP configuration telemetry",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md",
+      "hash": "30eb2acf6d7f0f70189fe31ab07e789398c571daba74489153cb20121796055a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace",
+      "title": "Analyze Open in Excel telemetry",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": [
+        {
+          "roadmap_id": "573317",
+          "quote": "Open in Excel telemetry tracks when users export data from Business Central to Excel"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-reports-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-reports-trace.md",
+      "hash": "79b637ada1c847883e5cfe22307ad43afe8107817a7be45db73465a8fae3ce28",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace",
+      "title": "Report Generation Telemetry",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md",
+      "hash": "7ee3249d69991230d47276f52c5a003e93f96b93121cb608367e5bcfbc40265b",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-table-index-trace",
+      "title": "Analyze table index trace telemetry",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": [
+        {
+          "roadmap_id": "573314",
+          "quote": "Index enabled events; Index disabled events; Runtime index management"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-trace.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-trace.md",
+      "hash": "065447fae2f397c8dbfe6844770f9140cfa8ee7d2bef843c01fedbc1db0162b3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
+      "title": "Outgoing Web Service Request Trace",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md",
+      "hash": "c085b3bcc050733324cd92473741351eb86456d1da8f3a2796c02218d8f175c5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management",
+      "title": "Managing Updates in the Admin Center",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md",
+      "hash": "9e0cc9a8a9a70ed80e4f4145a5d0fedf227ec59bd5ae0b2990d779eebedf59fa",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration",
+      "title": "Configure agents programmatically (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md",
+      "hash": "2e66dd9eb791a969e5a518ef0b7831d9b35cc523c616e7a6adec143c3ee8a18f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register",
+      "title": "Define and register an agent programmatically (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md",
+      "hash": "ffb7f1a3384ef4ae360ed1268f48bf6b62e0a5e73edf664cae2ff8fc11b45614",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-overview",
+      "title": "Coding agents in AL (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md",
+      "hash": "6f8ce6d61522611e094b69eb211026e658dac6bf717dd2f57b927a40ec6d8bfa",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-setup-page",
+      "title": "Create agent setup pages (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md",
+      "hash": "532ce336ca30d1b0557f3e3a9f57f808e3efef884ae1bf94728a5810319ed67a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-tasks",
+      "title": "Managing agent tasks programmatically (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md",
+      "hash": "89d31c23abe1d07050cc22c87ce3bc528f757f139466ebbcfd41ad3555613591",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-create",
+      "title": "Create and activate an agent (preview)",
+      "at": "2026-10-06T14:11:36.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md",
+      "hash": "17ae5bacb3ec22e53f078b4b51ce43cdf71a6de975dda0fd63a3b855c8ee9f36",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-visibility",
+      "title": "Understand agent visibility (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md",
+      "hash": "c1a9edb3067c4a4e9df2dbe2f3584afa1941e074d9c99417f0bf197f7f78553e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments",
+      "title": "Attachment capabilities and limitations (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md",
+      "hash": "75bf546fc97854d52e02950b6dccdca225d54e791fc8b1051fdccc10a3f81db3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-best-practices",
+      "title": "Best practices for designing an agent (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-export-import.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-export-import.md",
+      "hash": "ab73b9ecc1c63ea7b4439fc93a5c68c35f3424cd7f9e3a2662610323fcc33340",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-export-import",
+      "title": "Export and Import an agent configuration",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-faq.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-faq.md",
+      "hash": "726ac715b979bf451248d8c5247367e40364d736d1becf9d757f687b8d4d8feb",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-faq",
+      "title": "Frequently asked questions (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instruction-keywords.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instruction-keywords.md",
+      "hash": "df093cc9a43565f4bbdba82c8a0c19494ccba5697b8658cffdf6806f3016d0c4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instruction-keywords",
+      "title": "Instruction keywords for an agent (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instructions.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instructions.md",
+      "hash": "982248c7b055f38ede85cae4125a420826ebf9686117ec9736a4bbaa8ad042a8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instructions",
+      "title": "Write effective instructions for an agent (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-iterate.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-iterate.md",
+      "hash": "93d478c1f4d5769073be7351e4393f8f501fbf96fac7f87008c0b02976ae2349",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-iterate",
+      "title": "Iterate and manage an agent (preview)",
+      "at": "2026-10-06T14:11:37.483Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-overview.md",
+      "hash": "4ad590131d80b5ec2eb4722eb501e20ad12545f1203f58131ea1df792adff98c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview",
+      "title": "Designing and coding agents (preview)",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions-profiles.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions-profiles.md",
+      "hash": "18048a83214160d10d28a4f8abbad8d5cd0561c525d6046abc5f6783fc8ef567",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions-profiles",
+      "title": "Set up agent permissions and profiles (preview)",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": [
+        {
+          "roadmap_id": "573370",
+          "quote": "Set up agent permissions via permission sets and profiles using page customization"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions.md",
+      "hash": "596a73bf0b072b1c206a09028ac16b1fc3a40735ba7a813982354e65270d7b92",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions",
+      "title": "Agent permissions (preview)",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": [
+        {
+          "roadmap_id": "573370",
+          "quote": "Configure agent access controls to govern what data and pages agents can access"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-run-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-run-agent.md",
+      "hash": "26ddf79ee6ceca1f68d10284e6565328bf2f15d7ed4fcfd45fb081a536ecd456",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-run-agent",
+      "title": "Run an agent (preview)",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-sales-validation.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-sales-validation.md",
+      "hash": "ccfe753dd142715af0f0ba4bcfae4bd0146069280a2415c1d19b51b7b1415ecd",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-sales-validation",
+      "title": "Create a Sales Validation Agent",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md",
+      "hash": "de753f607c02508d63d3614cce9619a13894484ce7cfbfc7324fa759f6ebd363",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-tasks-api",
+      "title": "Integrate with the Tasks AL API (preview)",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md",
+      "hash": "33d26b6ac529ccc5f966bf8b2f8505156ee45d041d9dd92b4a4be66b8841c091",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server",
+      "title": "Configure Business Central MCP Server",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",
+      "hash": "bd381e05179be6414077337be569d6705ba05047235802c134e612eb91a2e25e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio",
+      "title": "Create Agents in Copilot Studio that Connect to Business Central",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md",
+      "hash": "6ad7e44dc99c3d814519179cce3841b1993d86ab95ccc8b9cb09db5ff13ce1c5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview",
+      "title": "Business Central MCP Server Overview and Setup",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": [
+        {
+          "roadmap_id": "573312",
+          "quote": "Data Query Tools; view and manage records; query data"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/ai/transparency-note-ai-development-toolkit.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/transparency-note-ai-development-toolkit.md",
+      "hash": "eb41b85c8404d1787d04d6a05907340732cfe9bc59a23d04ebc5fd6744b05a7f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit",
+      "title": "Transparency Note Business Central AI development toolkit (preview)",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/transparency-note-dev-tools-for-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/transparency-note-dev-tools-for-copilot.md",
+      "hash": "283b0011c725d9e0a89fffad363a5acc06a80bc74fd872dbbe46cfea3ecbc4b2",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot",
+      "title": "Transparency Note Developer Tools for Copilot in Business Central",
+      "at": "2026-10-06T14:11:33.278Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/transparency-note-semantic-metadata-search.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/transparency-note-semantic-metadata-search.md",
+      "hash": "8294882c2679c22eca33ef73ea953b130efe01d27fd241086eac018c86bf4e0f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-semantic-metadata-search",
+      "title": "Transparency Note Semantic Metadata Search in Business Central",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-in-vscode.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-in-vscode.md",
+      "hash": "792fb5ed5ea0d86c9b762af4435c2d9acdecde540782e883542c04a9fb9931af",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-in-vscode",
+      "title": "Connect to Business Central MCP Server with Visual Studio Code",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": [
+        {
+          "roadmap_id": "573348",
+          "quote": "headerless connections; agent mode; dynamic tool mode"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-non-microsoft.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-non-microsoft.md",
+      "hash": "232d0d3e5d450b855daeb77b69aa07e173a7939dd74fb8ecf567691d26bec99a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-non-microsoft",
+      "title": "Connect Business Central MCP Server to non-Microsoft hosts",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": [
+        {
+          "roadmap_id": "573348",
+          "quote": "headerless connections; tool discovery"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav.md",
+      "hash": "da7cbfd42a27a6ec82974eefa80a556eef9f00b98971035a4e16a1dfd03a5464",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav",
+      "title": "Enabling APIs for Microsoft Dynamics 365 Business Central",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/api-reference/v2.0/index.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/index.md",
+      "hash": "06b183c1d8bde580cd1615cb5d764812bd10664d62cc82e304eff540d394fd3f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/",
+      "title": "API (v2.0) for Dynamics 365 Business Central",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/configure-help.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/configure-help.md",
+      "hash": "e974288cea9eed34f2dbdddc53dff9a67b0c6fd5f9ad4e6446f5ce7435135114",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-help",
+      "title": "Configure the Help experience",
+      "at": "2026-10-06T14:11:20.133Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v26.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v26.md",
+      "hash": "92bd03bae68ebf0c6d7a1240988e2419f81815686a011bdd01b45242d1302d66",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v26",
+      "title": "System requirements for Business Central 2025 release wave 1",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v27.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v27.md",
+      "hash": "5fc4c5cabb7d44569c8acedb71d0b5f5e05550507cac19be4862e7e38d0b558c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v27",
+      "title": "System requirements for Business Central 2025 release wave 2",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v28.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v28.md",
+      "hash": "515bd11ff2fb288427745e913e78a192feeb4902af8a0f4c0b88ee636aeccf45",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v28",
+      "title": "System requirements for Business Central 2026 release wave 1",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v29.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v29.md",
+      "hash": "65f45b9a3144fcc96a20991d14abe981f9ddcf4834656d0633366b3476aab445",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v29",
+      "title": "System requirements for Business Central 2026 release wave 2",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/update-versions-26.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/update-versions-26.md",
+      "hash": "7ba6bd76315e3e3e8357880777d657a3cea979d7d65506a72e10a9aac2763b3d",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-26",
+      "title": "Dynamics 365 Business Central On-premises 2025 Release Wave 1 Updates",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/update-versions-27.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/update-versions-27.md",
+      "hash": "d5ade9744151112ce23bfbca16fcac58be62264f73751a67238762af9b7e4aab",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-27",
+      "title": "Dynamics 365 Business Central On-premises 2025 Release wave 2 Updates",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/update-versions-28.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/update-versions-28.md",
+      "hash": "6c0d0dd04dcd9ee1b09f3eeeb2028dd027b54e49cf72e0976f2850e12d3aab56",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-28",
+      "title": "Dynamics 365 Business Central on-premises 2026 release wave 1 updates",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/deployment/update-versions-29.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/deployment/update-versions-29.md",
+      "hash": "cc7295cb5b0cb7d05be0274a66428b8327378cedac55d77e44cc84cc74862c4a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-29",
+      "title": "Dynamics 365 Business Central on-premises 2026 release wave 2 updates",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-build-capability-in-al.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-build-capability-in-al.md",
+      "hash": "0128ccd6e53b071f6f39e9cde7c77ea7598f55a4603d64fd9d1bf3d98245f751",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al",
+      "title": "Build the Copilot capability in AL",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-get-started.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-get-started.md",
+      "hash": "83766288d3f010a5b2c0e2bda693fda448c750f2420ca8a4a518727df3175c64",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-get-started",
+      "title": "Get set up with Azure OpenAI Service",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md",
+      "hash": "9e7bf620a19cd83bd3efdc431adc0c766daf8aca7fb46936fb8024d9978a6957",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources",
+      "title": "Use developer tools for Copilot in Business Central AI resources",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-extend-copilot-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-extend-copilot-overview.md",
+      "hash": "8b8abbbeafd6d97e06320c51ee7463b17925c630491c2375e8f989fefebf3566",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview",
+      "title": "What is considered an extension to Copilot?",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-agent-tests.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-agent-tests.md",
+      "hash": "2e339dc3c54eebfe157604e4c670fb42edbafec2610d47ce145434c907f673af",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests",
+      "title": "Write agent tests",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-ai-tests.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-ai-tests.md",
+      "hash": "ee31637ff22c20cac2b23d2a6e7c6f38df9ab530f1ef5d2e8e335ed0eeb148c8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-ai-tests",
+      "title": "Write AI tests",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-bestpractices.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-bestpractices.md",
+      "hash": "5eeb183fae701a7a2eb3f551eeec2e12cb63f743b0a102717327020203a34a80",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-bestpractices",
+      "title": "Best Practices for Testing the Copilot Capability in AL",
+      "at": "2026-10-06T14:11:44.093Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-datasets.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-datasets.md",
+      "hash": "b6654eba18c740f19ea0aff0d1026b7685b89bd7b40efe474e756448d44822d5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-datasets",
+      "title": "Datasets",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-testtool.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-testtool.md",
+      "hash": "f4d46f61ddd070620c3f1698392dffafb50899fb6eefd2fb111f41ca50a9f992",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-testtool",
+      "title": "Evaluation",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot.md",
+      "hash": "35bb1f2e99036672af191f0dc3f514e22362be0e0e9c1e0a17a0ec65642c0895",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot",
+      "title": "Test the Copilot Capability in AL",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md",
+      "hash": "e4552b85d257457b9ccec6d45dcd2d926070f85c0db9d80f92e9eaaad845d749",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-agent-tools-overview",
+      "title": "AI Agent Tools for AL Development",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573346",
+          "quote": "al_getnextobjectid; AL LSP server"
+        },
+        {
+          "roadmap_id": "573338",
+          "quote": "al_symbolsearch; AL LSP server; VS Code Language Model Tools"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md",
+      "hash": "c1ec45cca2577c8fa6a0cded26dbe4661157f5578f893f71a469544e312086b4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode",
+      "title": "AL Language Model Tools for Visual Studio Code",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573361",
+          "quote": "al_debug; al_snapshotdebugging"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md",
+      "hash": "26880425a8a6a893499a6848d10ca11b7e70f2f9f4918a1b49ad090a8c1beb17",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-mcp-server",
+      "title": "AL MCP Server",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573312",
+          "quote": "al_build; al_compile; al_publish; al_downloadsymbols; al_symbolsearch"
+        },
+        {
+          "roadmap_id": "573348",
+          "quote": "al_addproject; al_auth_login; al_auth_logout"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-auth.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-auth.md",
+      "hash": "247d8d9408798b52333aa331bb40164a5f6eae9ac08b181c0189066b39847fe2",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-auth",
+      "title": "Authentication tools - al_auth_login and al_auth_logout",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-build.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-build.md",
+      "hash": "e1aa6755c238cdd36b61d7fcdebec42a6bee18d4709cb441deffda08d1839e79",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-build",
+      "title": "Build AL project - al_build",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573351",
+          "quote": "code analyzers; diagnostics; CodeCop"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-compile.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-compile.md",
+      "hash": "bb1a9dcc141a88738a4cfa87a6e6a11f0972f845ee98b19e223c5ee1eafd5f70",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-compile",
+      "title": "Compile AL project - al_compile",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573351",
+          "quote": "code analysis; diagnostics filtering"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-debug.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-debug.md",
+      "hash": "7f0a338c86bad353d7ddcf451ff10a59c0110db113a4a1755e8cedb7c6988ac2",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-debug",
+      "title": "Debugging tools - al_debug, al_setbreakpoint, al_snapshotdebugging",
+      "at": "2026-10-06T14:12:07.856Z",
+      "matches": [
+        {
+          "roadmap_id": "573361",
+          "quote": "al_debug; al_snapshotdebugging; snapshot capture"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-download-symbols.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-download-symbols.md",
+      "hash": "45929306e658e4234c95461131b4294d4f6fc92448ef7efb64c91810bffdab11",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-download-symbols",
+      "title": "Download AL symbol packages - al_downloadsymbols",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics.md",
+      "hash": "cf793b1491b9bef9ce340967456dadead230cf00f4900a9a3203622cc4d01b51",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics",
+      "title": "Get AL diagnostics - al_getdiagnostics",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md",
+      "hash": "880af05b0b8d7e97ac803d80cad4c77beae148b1691c06dc0a839d378fe5e520",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id",
+      "title": "Get next object ID - al_getnextobjectid",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": [
+        {
+          "roadmap_id": "573346",
+          "quote": "al_getnextobjectid tool allocates the next available AL object ID"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-package-dependencies.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-package-dependencies.md",
+      "hash": "3de1e74831eb31a4d61fc80ff226414a543d1f1b74bf7619b4492949a6cbe275",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-package-dependencies",
+      "title": "Get package dependencies - al_getpackagedependencies",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-publish.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-publish.md",
+      "hash": "7b9b366e700c0e90caee5395272a784a7772845ea855ae01258d95927fc4f1b5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-publish",
+      "title": "Publish AL extension to Business Central - al_publish",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-symbol-search.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-symbol-search.md",
+      "hash": "a4b58eebe9809a32bc1b768f655a5b63d1321b960eabebebdad97929c7de75f8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-symbol-search",
+      "title": "Search AL symbols - al_symbolsearch",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": [
+        {
+          "roadmap_id": "573339",
+          "quote": "al_symbolsearch tool searches AL symbols across the active project, dependencies, or a connected Business Central environment"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/copilot-and-agents-influence-without-extending.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/copilot-and-agents-influence-without-extending.md",
+      "hash": "df83cd79f3460941715bd2ad8aedc973293e93819cbb9bfba78030b3f5bfad86",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending",
+      "title": "Influence Copilot and agents without extending them",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/copilot-create-promptdialog.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/copilot-create-promptdialog.md",
+      "hash": "8ecacaea606cae787fe6a537c4df7eb40bcef151932094175f93392c31166d96",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-create-promptdialog",
+      "title": "Create prompt dialog page for Copilot feature",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/copilot-customize-generate-mode.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/copilot-customize-generate-mode.md",
+      "hash": "1eef61406eca36ac0f2a461195a9da07915fe84f4844699492061efa38a986f0",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-customize-generate-mode",
+      "title": "Customize generate mode caption in Copilot",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/copilot-design-content-mode.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/copilot-design-content-mode.md",
+      "hash": "6a9195a63364931e44371b8b8b7d786d9aca7f587dc65a68d2471b983b0181a8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-content-mode",
+      "title": "Design content mode of prompt dialog page",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/copilot-design-prompt-mode.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/copilot-design-prompt-mode.md",
+      "hash": "34eb67f118447949753f8b483ba47d0beb8d47289602b26910021eb014bdcb73",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode",
+      "title": "Design the prompt mode of prompt dialog page",
+      "at": "2026-10-06T14:11:47.496Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/developer-tools-for-copilot-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/developer-tools-for-copilot-overview.md",
+      "hash": "900c2fb292e8dfac4550b0a1388605157d2e5139a491f080f680f28a58cc6dd3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview",
+      "title": "What are the developer tools for Copilot?",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-al-extension-configuration.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-al-extension-configuration.md",
+      "hash": "1f9ab7e9486c48956e731bf6bdf9993f0b44f456c4969989b7d4b8c2540ed1b1",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-extension-configuration",
+      "title": "AL Language extension configuration",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md",
+      "hash": "5403ebaa7dff7bf927f79205f0ec5c64813fb0e4e36919de609770282ba65095",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool",
+      "title": "ALTool Command-Line Reference for AL Development",
+      "at": "2026-10-06T14:12:05.634Z",
+      "matches": [
+        {
+          "roadmap_id": "573335",
+          "quote": "ALTool command-line reference for performance profiling and snapshot debugging MCP proxies that connect AI agents"
+        },
+        {
+          "roadmap_id": "573338",
+          "quote": "AL LSP server; ALMCP server; Performance profiling MCP proxy; Snapshot debugging MCP proxy"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-api-pagetype.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-api-pagetype.md",
+      "hash": "16fb648332b9e4e3f196d1ddc325f36582a57d474adb17c6a0fb51ae51545254",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype",
+      "title": "API page type",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-api-querytype.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-api-querytype.md",
+      "hash": "b320d3d49eb252b450e0ce1c009239b1e945284df359f1aa25478b7454e165f1",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype",
+      "title": "API query type",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": [
+        {
+          "roadmap_id": "573312",
+          "quote": "API query type generates web service endpoints for joining data from different sources"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-api.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-api.md",
+      "hash": "84b395172f276e6e6803989e598abb287f6bd37a8228ff10fca9eaa13a51b601",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api",
+      "title": "API developer overview",
+      "at": "2026-10-06T14:12:22.514Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-app-resources.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-app-resources.md",
+      "hash": "0b336f91f029f3d3e7d843fa8a6e41d42188bcf8c661f33b35c713b11fb46a3e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources",
+      "title": "Adding and Accessing Resources in Business Central extensions",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-choosing-runtime.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-choosing-runtime.md",
+      "hash": "9988e66146e80a7727d4749da7081074a8edecbad38d73936f432397f7224ad7",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime",
+      "title": "Choose runtime version in AL",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-code-spaces-al.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-code-spaces-al.md",
+      "hash": "be03fdf0504e91e34db77bbbc5e795c3fdec4c4d6ce218f9d5962505cd729b84",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al",
+      "title": "Use GitHub Codespaces for AL development",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-defining-action-scope-for-pages.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-defining-action-scope-for-pages.md",
+      "hash": "e435e72b92dc5e072c5ce983a418ca90ae213130d1717dd2077582eb97100d33",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-defining-action-scope-for-pages",
+      "title": "Defining Action Scope for Business Central Pages",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-designing-cardparts.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-cardparts.md",
+      "hash": "8e5824bd5b5090df5816a62f63d6f9e1a151907c1006aadf75939f1b41d64df3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts",
+      "title": "CardPart Pages in Business Central",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-develop-connect-apps.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-connect-apps.md",
+      "hash": "605c6c9852da07ac9f57783c64e646ca0f2fcb752969be87b9e227b9d53d9cc9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps",
+      "title": "Get started developing Connect apps for Dynamics 365 Business Central",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-develop-custom-api.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-custom-api.md",
+      "hash": "5b019f541ff9c9f08235e59a2257c62f777541b6be14fe33d15eefb815e9f6c9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api",
+      "title": "Developing a custom API",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-get-started.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-get-started.md",
+      "hash": "bc8c3d1c866d154bb36ea874dc2d01cc0f2739ba51b77d43d4886a39ba357f53",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-started",
+      "title": "Get started with AL",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": [
+        {
+          "roadmap_id": "573356",
+          "quote": "AL Language extension; sandbox environment setup; launch.json configuration"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md",
+      "hash": "7b0694e56492f12e0259e20ceb3206c66bef8d7eeae3e925486118426b8558c3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout",
+      "title": "Creating a Word layout report",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": [
+        {
+          "roadmap_id": "573327",
+          "quote": "Word layout reports with XML mapping, system dataitems for metadata, and Word merge functionality"
+        },
+        {
+          "roadmap_id": "573328",
+          "quote": "Word layout creation; Custom XML part; XML Mapping Pane; ReportMetadata dataitem"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-inspecting-pages.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-inspecting-pages.md",
+      "hash": "ea0a47ce7a3960f1fd0843a17be5600455d5ea1f73351ae7cfc025bc242af2b8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages",
+      "title": "Inspecting pages",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-interface-method-lifecycle.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-interface-method-lifecycle.md",
+      "hash": "e67907f54e6c2a8613da3d1e36e2e417fe8a1dff92ee7d2a5e3d2d8b18254386",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interface-method-lifecycle",
+      "title": "Interface method lifecycle",
+      "at": "2026-10-06T14:12:08.343Z",
+      "matches": [
+        {
+          "roadmap_id": "573352",
+          "quote": "Default methods; RequiredPending attribute; Obsolete lifecycle; Runtime identifier"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al.md",
+      "hash": "ccd4e2026358c6441b34e8be82c4ebf1884a4de20f0430f86667791e92b53067",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al",
+      "title": "Interfaces in AL",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": [
+        {
+          "roadmap_id": "573352",
+          "quote": "Default interface methods; RequiredPending attribute; Interface extension"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-json-files.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-json-files.md",
+      "hash": "baf6b1f0d95c49727b14d2973669b1d904a8708a3be695b0d74385517bbfabf8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-files",
+      "title": "JSON Files for AL Extension Projects",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-json-launch-file.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-json-launch-file.md",
+      "hash": "e719574f9114586a1610348a9925b5587830d356f11d43f2f95c03e47c09674e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file",
+      "title": "Launch JSON file",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-multiroot-workspaces.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-multiroot-workspaces.md",
+      "hash": "44be4e93957b0aaa97a33475d0945a803f5d2409ba84b415b027ba6d34a6ee67",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiroot-workspaces",
+      "title": "Work with multiple AL project folders within one workspace",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-namespaces-structure.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-namespaces-structure.md",
+      "hash": "9dfb8898b1999932ca18f3f49c23569a27ecde23d9a32a2ed36451332c65d16a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-structure",
+      "title": "Adopting namespaces in AL",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": [
+        {
+          "roadmap_id": "573359",
+          "quote": "fully qualified object references; runtime namespace properties"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompt-error-handling.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompt-error-handling.md",
+      "hash": "05d0fd356079d6743de33bcaf918bda125d86100f6311f06c7e9b397aed1d2bf",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompt-error-handling",
+      "title": "Error handling in prompt dialogs",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-page-promptguide.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-page-promptguide.md",
+      "hash": "8cd419bbf62cff3e00695b85a9e343927cef7d2dd680c9d19246470e0f98cfdf",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-promptguide",
+      "title": "Prompting Using a Prompt Guide",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompting-floating-actionbar.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompting-floating-actionbar.md",
+      "hash": "72e144e95ab162cc101927142fd22238e4b1e0eeeb53b15c1e2096e5b4f99e80",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar",
+      "title": "Prompting using a floating action bar",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md",
+      "hash": "536916e29d29680a079efa9ccee73ae059afa62912141f42d8fd308697427e77",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting",
+      "title": "Use the page scripting tool for acceptance testing",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": [
+        {
+          "roadmap_id": "573384",
+          "quote": "record and replay user interactions with the Business Central web client"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-page-type-promptdialog.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-page-type-promptdialog.md",
+      "hash": "75045ce1443ce581ed5e0a47831fe053c5ff3af04a6e753cdf0e873661545c39",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog",
+      "title": "The PromptDialog Page Type",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md",
+      "hash": "b49300527ab2b4d387df5180c9e0f1709bb2fba350188d5dab9bca8dec773a56",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-layout-declaration",
+      "title": "Define Report Layouts in AL for Business Central",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": [
+        {
+          "roadmap_id": "573326",
+          "quote": "Word layouts support composite rendering with separate header, footer, and theme parts"
+        },
+        {
+          "roadmap_id": "573327",
+          "quote": "Word layout subtypes (Default, Body, HeaderFooter, Theme); DefaultHeaderFooterPart; DefaultThemePart"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-streams-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-streams-overview.md",
+      "hash": "cbe199f9962f6bd47a73d9e619a08bcef416f662f4daf582b97008fb7513535e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-streams-overview",
+      "title": "Using streams in Business Central",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-table-keys.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-table-keys.md",
+      "hash": "12b3006ad53867c20c101fe6b95e931b516f31e4d01563b61424456916fbd3da",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-keys",
+      "title": "Table keys",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-table-object.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-table-object.md",
+      "hash": "0ebe45925929f4efe9e2f01b5ca3df7c2fae7d17fcaacae2be7094ba91680dba",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object",
+      "title": "Table object",
+      "at": "2026-10-06T14:12:17.802Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-table-system-fields.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-table-system-fields.md",
+      "hash": "2385abf2a358ca953438af3da470ebf74c5ea67daeaa0f4c8bb4717a35a19e9c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-system-fields",
+      "title": "Table System Fields in Business Central",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts.md",
+      "hash": "01a0b647af8b5fd8ad3546317df48e18a8d0d62dd64df4b012c30949548752df",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts",
+      "title": "Application Testing Example to Test Purchase Invoice Discounts",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md",
+      "hash": "ca1e518c68a16623d91e97631d19e111afa3716236d0c4881f73ac3669bd2037",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods",
+      "title": "Test Codeunits and Test Methods in AL",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": [
+        {
+          "roadmap_id": "573333",
+          "quote": "data-driven tests; test lifecycle callbacks"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues.md",
+      "hash": "59a8a47eee7e4308dcb9dfbdb7f0903191a1c47df6a2f48b736e9a9ea437b7f8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues",
+      "title": "Troubleshooting Device Date Causing Connectivity Issues",
+      "at": "2026-10-06T14:12:32.022Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-overview.md",
+      "hash": "4baed32b1a3814e4a4e12b4911af96a81b3aa0e2e02e0562913cd45443842bdc",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-overview",
+      "title": "Troubleshooting tools and guides overview",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": [
+        {
+          "roadmap_id": "573335",
+          "quote": "AL Profiler; snapshot debugging; telemetry analysis"
+        },
+        {
+          "roadmap_id": "573361",
+          "quote": "snapshot debugging; telemetry analysis"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-using-code-analysis-tool.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-using-code-analysis-tool.md",
+      "hash": "57708140c44efda17216a69d915f7b70c66c6f648bc3621ab02556dd34e6b946",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool",
+      "title": "Using the code analysis tool",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-work-with-translation-files.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-work-with-translation-files.md",
+      "hash": "2e9537aeaee2ea276dc7a6a82de9bea7b6018b0c978acea00c007aa4e0925584",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files",
+      "title": "Work with XLIFF Translation Files",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": [
+        {
+          "roadmap_id": "573359",
+          "quote": "namespace-aware IDs to translate UI elements and labels"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/developer/devenv-working-with-media-on-records.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/devenv-working-with-media-on-records.md",
+      "hash": "9d2cbe75432e746e1b14ccca467a5261468a2a2cdcbc46104d74b26ee2eb4d6a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records",
+      "title": "Working With Media on Records",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/ml-transparency-note.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/ml-transparency-note.md",
+      "hash": "eb12de4852766fe0c8bf5944eededa8f9671c0f84738340b275466cb65210a26",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note",
+      "title": "Transparency Note Machine Learning APIs for Business Central",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/developer/readiness/readiness-ready-to-go.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/developer/readiness/readiness-ready-to-go.md",
+      "hash": "b83f70d9da62a9631650e616de5789b922c637fdf1d4cd47c32be42030399cfb",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go",
+      "title": "Resources for partners",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/performance/performance-developer.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/performance/performance-developer.md",
+      "hash": "65fae4b0a9e40ec029c3d6b7193a6680bac29d08db7d2efb500d0790b70a0576",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer",
+      "title": "Performance Articles for AL Developers",
+      "at": "2026-10-06T14:12:16.246Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/performance/performance-work-perf-problem.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/performance/performance-work-perf-problem.md",
+      "hash": "cb0948673d5290623f99ad5e5bb5a02d1702732a335406f5089e93b4612b33e3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem",
+      "title": "How to work with a performance problem",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": [
+        {
+          "roadmap_id": "573335",
+          "quote": "Scheduled performance profiler; In-client Performance Profiler; AL Profiler"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-platform.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-platform.md",
+      "hash": "acc3aab887657e11e83b14aa6e1469328ca0438a2594f7485b07f27c325249e0",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-platform",
+      "title": "Deprecated features in the client, server, database",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrade-considerations-v26.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-considerations-v26.md",
+      "hash": "7c51e9824a33dd80c0d33bdbf5cfa1b743a750586f804587aaec1e12d9acc608",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v26",
+      "title": "Considerations before upgrading to Business Central version 26 and later",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrade-overview-v29.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-overview-v29.md",
+      "hash": "c65d74aa7b481925084943b132255b2af0bebff9e8b02773c00a73e74c595e66",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v29",
+      "title": "Upgrading to Dynamics 365 Business Central 2026 release wave 2",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrade-paths.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-paths.md",
+      "hash": "feab79a76fd2740a912c1cc7e6e214eca2fe7c823d5da3ea9ea8b72c0e6beb9a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths",
+      "title": "Supported upgrade paths to Business Central on-premises",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v29.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v29.md",
+      "hash": "4196266bc44c323c473ccac6fda843c8ea4613172168ff92c967e7f21919a122",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v29",
+      "title": "Upgrade to Business Central 2026 release wave 2 (version 29)",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrade-v14-v15-compatibility.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-v14-v15-compatibility.md",
+      "hash": "6e7cde1f457b052aaf411f487cc2730d787e9d17c62fd539568c1f7d7a2c83f9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility",
+      "title": "Business Central Upgrade Compatibility Matrix",
+      "at": "2026-10-06T14:11:24.121Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/upgrade/upgrading-cumulative-update-v29.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/upgrade/upgrading-cumulative-update-v29.md",
+      "hash": "3a29cd49373e9725bd72ba6cd77cb1639b8a76555008a4a368f685c46ff3dc82",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29",
+      "title": "Install a Business Central 2026 release wave 2 (version 29) Update",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/webservices/api-endpoint-structure.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/webservices/api-endpoint-structure.md",
+      "hash": "7de036249d69bd23b05a674205d385b84059c1847003852803ad3ed3a77f8d7d",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure",
+      "title": "API endpoint structure",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/webservices/api-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/webservices/api-overview.md",
+      "hash": "78a7d5eee1d5ff808912a74ccbb8942e62c08d1c14aa70e1de262256c2f39b54",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-overview",
+      "title": "REST API web services",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/whatsnew/overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/whatsnew/overview.md",
+      "hash": "6f7288b59db8aa65f7d7b0dd9d2507b7d8d348bc925f0c5ad60a4fec646494c5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/overview",
+      "title": "What's New or Changed in Business Central",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/whatsnew/preview-feature-details.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/whatsnew/preview-feature-details.md",
+      "hash": "c1404ea765aa39f9ecff30014a403da9be6d064d46bdca17e1ded2afce804b8d",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/preview-feature-details",
+      "title": "Feature details in update 29.0 public preview for 2026 release wave 2",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md",
+      "hash": "ac669ecf16b8ef4d9d2f4a6ebf9fb1ee64a38558dc541e969b41b327169480fb",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-0",
+      "title": "What's New or Changed in Business Central 2026 release wave 1 - Update 28.0 preview",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": [
+        {
+          "roadmap_id": "573363",
+          "quote": "Manage tasks from all agents in task pane"
+        },
+        {
+          "roadmap_id": "573364",
+          "quote": "Show avatars for record creators and modifiers"
+        },
+        {
+          "roadmap_id": "573366",
+          "quote": "Review content generated by agents on pages"
+        }
+      ]
+    },
+    "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-29-0.md": {
+      "kind": "doc",
+      "key": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-29-0.md",
+      "hash": "f725e9c83337ce7d04ee86e9940db566b6035e0970a8899f8320aff39bcc1aec",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-0",
+      "title": "What's New or Changed in Business Central 2026 release wave 2 - Update 29.0",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/across-setup-auditing.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/across-setup-auditing.md",
+      "hash": "aedcddc476b657a8fa8a928351ca6c83e1996067924c1b24e65e078aa8fa1d3a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
+      "title": "Audit changes to your setup",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573325",
+          "quote": "automatic financial report tracking; change log monitoring"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/across-setup-connections.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/across-setup-connections.md",
+      "hash": "d494fa31a67894b481d3e7d2f24de8df25899380b0117b7b02d2373dda280393",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-connections",
+      "title": "Connect Excel, Word, Outlook, OneDrive, Power BI, and more products to Business Central",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/across-store-document-attachments-externally.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/across-store-document-attachments-externally.md",
+      "hash": "f72be22b6fca193631c8573fbd06daff547b36442f1d174435d688529077f6ed",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+      "title": "External file storage for document attachments",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/ai-copilot-data-movement.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ai-copilot-data-movement.md",
+      "hash": "0ba31375c85549d114a452093549f4d09db7a2b650228b1a3dc22e35bf7a9268",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
+      "title": "Data movement across geographies for Business Central Copilot and agent capabilities",
+      "at": "2026-10-06T14:11:46.867Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/ai-copilot-troubleshooting.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ai-copilot-troubleshooting.md",
+      "hash": "11ade92f7e6d86eed705c7a08469833a5181219f869c6227e449846aa5fc26ea",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-troubleshooting",
+      "title": "Troubleshoot Copilot and agent capabilities",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/ai-in-bc.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ai-in-bc.md",
+      "hash": "a161c9f4a78781cc3caa0533741e63f218d238e1c805f5c350596bc0310073e4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ai-in-bc",
+      "title": "Business Central AI",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/ai-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ai-overview.md",
+      "hash": "59205eb77fd009059c1807300030783c95e85a44acff23a58c8efe7c854151e7",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ai-overview",
+      "title": "Marketing text suggestions with Copilot overview",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/ai-search-web-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ai-search-web-copilot.md",
+      "hash": "5deb6fcb1b46f8fc18c1039dc1dc6b66a48bf74424018ad9c756516374b7e5a7",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ai-search-web-copilot",
+      "title": "Bing Search for Copilot features in Business Central (preview)",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/analysis-assist.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/analysis-assist.md",
+      "hash": "90fc8e206e478a21ab8d7c4a75f40655d24eb2b0f4f72fa901699cccc5ad1fbb",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-assist",
+      "title": "Analyze data in lists with Copilot (preview)",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/analysis-mode.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/analysis-mode.md",
+      "hash": "ff5114d1c63b2b51d89691356f7e377921b5614979db65025eb9bbb2670214b5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-mode",
+      "title": "Analyze list page and query data using data analysis",
+      "at": "2026-10-06T14:12:18.019Z",
+      "matches": [
+        {
+          "roadmap_id": "573319",
+          "quote": "analysis views; bookmark analysis views to your Role Center"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/api-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/api-overview.md",
+      "hash": "953d58673fe2e4641c5eb1b58b33e3755d34115f8d027374d3fcb460cd377ab8",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/api-overview",
+      "title": "API Overview Page in Business Central",
+      "at": "2026-10-06T14:12:27.396Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/autofill-fields-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/autofill-fields-with-copilot.md",
+      "hash": "2098be9af64303ebe2d251bcb9c49d0b96fb8c0f91378acf49dc2a7e769bfb81",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot",
+      "title": "Autofill fields with Copilot (preview)",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/azure-openai-data.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/azure-openai-data.md",
+      "hash": "318a99211445ce3e571dfd7e6c27e1b698bbf11133b7b6dd1271bd7796a501d7",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/azure-openai-data",
+      "title": "Azure OpenAI Service and Business Central data",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/bank-reconciliation-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/bank-reconciliation-with-copilot.md",
+      "hash": "93fa80dd745ccde02cf88a41096379a9f244d6780ac7eb46c7bbbf4f0da50fa4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot",
+      "title": "Reconcile bank accounts with Copilot (preview)",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md",
+      "hash": "ea53010d5132c202479986284edb38df57d470d47dfee8ee33dac11cd8aaa0f5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot-faq",
+      "title": "Microsoft Copilot in Business Central FAQ",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": [
+        {
+          "roadmap_id": "573362",
+          "quote": "new Copilot experience that replaces Chat with Copilot"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/chat-with-copilot-legacy.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/chat-with-copilot-legacy.md",
+      "hash": "8f62a898e4bbfa89fd1b09ac8759f9ada6ae87f91f0bc8a57c9ad9396155eba6",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot-legacy",
+      "title": "Chat with Copilot (legacy)",
+      "at": "2026-10-06T14:11:56.144Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/chat-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/chat-with-copilot.md",
+      "hash": "326bf5cab418d50d068c65fa39b66bee1c8a9907ad1e4f8aec1710627d017f57",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot",
+      "title": "Use Microsoft Copilot in Business Central (preview)",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573362",
+          "quote": "Microsoft Copilot in Business Central enables users to ask questions"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/copilot-agents-region-language-availability.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/copilot-agents-region-language-availability.md",
+      "hash": "c49588514419e3d10943b826098f036160d942b56fe4e5511ef57829500ef1a5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability",
+      "title": "Copilot and agents country/region availability and supported languages",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573253",
+          "quote": "Copilot and agents country/region availability and supported languages"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/copilot-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/copilot-overview.md",
+      "hash": "fedfbbaaf6c0d675f422bddc3938735a808a0c5ddc6e5de02ebb36d1d3c34a9e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-overview",
+      "title": "Copilot FAQ",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573362",
+          "quote": "Chat with Copilot; Analysis assist; Autofill with Copilot"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/design-details-outbound-warehouse-flow.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/design-details-outbound-warehouse-flow.md",
+      "hash": "4f47fab159da1d3726e3c3f589e62a97e31afbf04997c4e8135d7361bb6812e0",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-outbound-warehouse-flow",
+      "title": "Outbound warehouse process overview",
+      "at": "2026-10-06T14:12:42.379Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/enable-ai.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/enable-ai.md",
+      "hash": "89c475fcaeb38357c2b870ef3bda09d1a60d778871d6be5b1bdfaf0711fba5e9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/enable-ai",
+      "title": "Configure Copilot and agent capabilities",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573370",
+          "quote": "Administrators configure and control Copilot and agent capabilities"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md",
+      "hash": "43106f854db392e222f57052402d4eb9e007fd8197c1e209a01a43ea5cfcac24",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
+      "title": "Approve or Send Back Expense Reports",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573255",
+          "quote": "Approvers review and manage submitted expense reports"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-configuration-page.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-configuration-page.md",
+      "hash": "f440cf3462d18817b2c9e14c07fe760269794d439321a0142f15e413c70e0b4b",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+      "title": "Set Up Expense Agent in Business Central",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-edit-expenses.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-edit-expenses.md",
+      "hash": "de092ff6efa53e190c2982b57ffe32c748ba00c41fc616c6e4aa9ee6eed732ee",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses",
+      "title": "Review and Edit Expenses in Expense Agent",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": [
+        {
+          "roadmap_id": "573262",
+          "quote": "Expense Agent lets users review, edit, and manage expense details"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-expense-reports.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-expense-reports.md",
+      "hash": "997a21a185f977d537c4573b99a4a0575f2ebfe16cd7562becd83bace81a7f30",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+      "title": "Create and Submit Expense Reports in Expense Agent",
+      "at": "2026-10-06T14:11:54.615Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-mobile-app.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-mobile-app.md",
+      "hash": "4d8c032c4421e075afa20530e2eb1e3072538158876d53ecd46ab9c6907739c3",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app",
+      "title": "Use the Expense Agent Mobile App (preview)",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md",
+      "hash": "b48bb29cd244b8c115397ed5469263df43f0477863fc700797cb0433d47b20b7",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
+      "title": "Expense Agent Overview for Business Central",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": [
+        {
+          "roadmap_id": "573255",
+          "quote": "policy compliance checking; approval workflows"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md",
+      "hash": "bd11d51815b556c3ce0af85131b0138d70af93b9d134e5359ac8c94eb747dc1e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
+      "title": "Understand Policy Compliance in Expense Agent",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": [
+        {
+          "roadmap_id": "573255",
+          "quote": "ai-assisted policy evaluation; compliance indicators; policy evaluation configuration"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-troubleshoot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-troubleshoot.md",
+      "hash": "b0a864c57668f4bda56f4bd6a233644cb1dd7162bf38358b6a6a3b86c7f9d62f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot",
+      "title": "Troubleshoot Expense Agent Issues",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md",
+      "hash": "e41eefee0b0de9cb4a75dc7db2ab81944a7cc120832cebb7f1217d6d065ebeb6",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
+      "title": "Upload Receipts and Create Mileage Expenses",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": [
+        {
+          "roadmap_id": "573254",
+          "quote": "Create mileage expenses by specifying trip start and end points, with automatic distance calculation"
+        },
+        {
+          "roadmap_id": "573262",
+          "quote": "VAT reclaim identification"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-agent.md",
+      "hash": "0c19e38a8f401cb1e4a721de27420d7a6c011f51c5fe13b436eb40d0292dc705",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
+      "title": "Expense Agent overview for Business Central",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-agent.md",
+      "hash": "247b89e9449775c3e7b796e0c57237d7bd49b0718a7709204fcaa99727e69959",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
+      "title": "How the Expense Agent Processes Emails",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md",
+      "hash": "16d633d61a0413a108c92047510459ff96d50fec31ba3b2abcead52d625b1354",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports",
+      "title": "Review and Approve Expense Reports",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": [
+        {
+          "roadmap_id": "573255",
+          "quote": "Rule violation detection; VAT reclaim review; Approval workflow"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md",
+      "hash": "a7dd7b7ba9df820c1389f8419df28be08af0142074e5aa5faa3c5baf94e0deb6",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
+      "title": "Set Up Expense Categories, Rules, and Policies",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573262",
+          "quote": "Withholding tax configuration; VAT reclaim with default percentages"
+        },
+        {
+          "roadmap_id": "573304",
+          "quote": "Withholding tax configuration"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md",
+      "hash": "310e842b825e1164596b65a66bc0e1db193d9b4ae20c761b78e0c61c20c98be9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses",
+      "title": "Create and Manage Expenses in Business Central",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573259",
+          "quote": "Project and task assignment"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-mileage-rate-setup.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-mileage-rate-setup.md",
+      "hash": "d69cb211ee66a766442f25f11168a9adfc6809a6bd991f30d02d97d3782cfe4a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup",
+      "title": "Set Up Mileage Rates for Expense Management",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-overview.md",
+      "hash": "adfe19f5f9ad918527dd41ccaee6d60f39efb0e6f39a3cdd817f5335b9e75b9d",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
+      "title": "Expense Management Overview in Business Central",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573262",
+          "quote": "VAT calculation and reclaim"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-per-diem-mileage.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-per-diem-mileage.md",
+      "hash": "92f2d6b89bd11216cbcfbce8aa3325700afc91e60e9e01101d111b497263c298",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage",
+      "title": "Set Up Per Diem and Mileage Allowances",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-post-reports.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-post-reports.md",
+      "hash": "ba421eb5018cd4dfabc5545a3f871e75206b6f3f4c99cbace0e696b0bde9773c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports",
+      "title": "Post Expense Reports in Business Central",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573262",
+          "quote": "VAT reclaim verification; general ledger posting"
+        },
+        {
+          "roadmap_id": "573304",
+          "quote": "preview posting; general ledger posting"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md",
+      "hash": "e895847514061e028c7c491d3f63098dfbaa44e3312279f2ddf93e8956ac7ec9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
+      "title": "Set Up Expense Management in Business Central",
+      "at": "2026-10-06T14:12:42.184Z",
+      "matches": [
+        {
+          "roadmap_id": "573255",
+          "quote": "AI policy evaluation; approval workflow"
+        },
+        {
+          "roadmap_id": "573262",
+          "quote": "VAT reclaim setup"
+        },
+        {
+          "roadmap_id": "573304",
+          "quote": "expense agent configuration"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md",
+      "hash": "5d7d5fea1c1d202edea3ad0acfae94e1b0877b904df56e1b926d3080189405ee",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
+      "title": "Create and Submit Expense Reports",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-travel-requisitions.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-travel-requisitions.md",
+      "hash": "b326560bd44b251c94b6a547c4beefa46e5c77189cae3b43b2a4fa257c2ce850",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
+      "title": "Manage Travel Requests in Business Central",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/expense-management-users-teams.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/expense-management-users-teams.md",
+      "hash": "da1f2f245020c8727429fa66e8a5300eb54de90dbf904ad901804a42dfec3e3e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams",
+      "title": "Set Up Expense Users and Teams",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/expense-management/faqs-expense-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/expense-management/faqs-expense-agent.md",
+      "hash": "18825cebce0131f3c3d21e86fc6d06fe0c175de0fd6a763a6739f72bc8fd8202",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent",
+      "title": "Responsible AI FAQ for Expense Agent (preview)",
+      "at": "2026-10-06T14:11:56.688Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/fa-how-acquire.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/fa-how-acquire.md",
+      "hash": "e4709e31f74cce6fb95e0d65512b915b4a6698cccc1e4ec65d2e2222d16b692e",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire",
+      "title": "Acquire fixed assets",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": [
+        {
+          "roadmap_id": "573377",
+          "quote": "asset acquisition; edit in excel; multiple asset creation; component list setup; salvage value posting; acquisition cost recording; emissions tracking"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/fa-how-depreciate-amortize.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/fa-how-depreciate-amortize.md",
+      "hash": "0551c364dce47286987888f786657ee118efa60887c36b421d38ce57b2c055e1",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-depreciate-amortize",
+      "title": "Depreciate or amortize FA",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faq-sales-suggest-sales-lines-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faq-sales-suggest-sales-lines-with-copilot.md",
+      "hash": "0f6ddbc136b4e87485583ad37a3a098a14b0ff28a206acc5482c07373e0c07cb",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot",
+      "title": "FAQ for suggest sales lines with Copilot",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faq-suggest-item-substitutions-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faq-suggest-item-substitutions-with-copilot.md",
+      "hash": "2dd8e4de567ae036a2fa4085b7de9def3d62c38f9f8a65830c01550166fdba63",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot",
+      "title": "FAQ for suggest item substitutions with Copilot",
+      "at": "2026-10-06T14:12:50.229Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faq-suggest-number-series-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faq-suggest-number-series-with-copilot.md",
+      "hash": "bd76504bb1037ee1c4bf315cba7bfc6f8bbc97b612863c5c2c5e51b268f51986",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faq-suggest-number-series-with-copilot",
+      "title": "FAQ for Suggest Number Series with Copilot",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-advanced-tell-me.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-advanced-tell-me.md",
+      "hash": "4bf802b81d49005696d580d7ba105ea3acdaca4632d38e9280b37fac1f83d07f",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-advanced-tell-me",
+      "title": "Responsible AI FAQ for Advanced Tell Me",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-analysis-assist.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-analysis-assist.md",
+      "hash": "e00697a31e602f6534572e6524583a017770a8eaf8a16d2006c812892b498f73",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-analysis-assist",
+      "title": "FAQs for analysis assist (preview)",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-bank-reconciliation.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-bank-reconciliation.md",
+      "hash": "cd671fafaee73c66471427887bb9512156cc65e7b2e5d8fcd31bf76724540b40",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-bank-reconciliation",
+      "title": "FAQ for bank account reconciliation assist with Copilot (preview)",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md",
+      "hash": "16d376b2cf57c5fb1f73b9097d5d4cf8baac61dfd1bf36cb5fef256b2c863107",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
+      "title": "Responsible AI FAQ for Chat with Copilot (preview)",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-map-edocuments.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-map-edocuments.md",
+      "hash": "9ab3498c8525a93c2e8e796db874f0cec431bea37ce6c506884b787ab3d4a302",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments",
+      "title": "FAQ for mapping e-documents with purchase orders",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-marketing-text.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-marketing-text.md",
+      "hash": "ed6a4b2da0fe3a4ce24d1e55233b06aa2c6160892bca6e57dc1d543245e28b38",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text",
+      "title": "FAQ for marketing text suggestions",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-payables-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-payables-agent.md",
+      "hash": "c9f0682dc0272bcdf8b73c2e1a6cc50855a74ebd6e45c1610cdf547f3eb6cdcf",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
+      "title": "Payables Agent Frequently Asked Questions",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-sales-order-taker-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-sales-order-taker-agent.md",
+      "hash": "abd8a9816e8a0d5a1794e386e4766a01d314eb80fd05b02fe2d07fc6008fdbf4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent",
+      "title": "FAQ for Sales Order Agent",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/faqs-summarize.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/faqs-summarize.md",
+      "hash": "6fa48e71ce3b85404563a27a7e0b966bc02a8af1252cbb2599d24807ca7fdf67",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-summarize",
+      "title": "Responsible AI FAQ for summarize (preview)",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/finance-about-calculating-standard-cost.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/finance-about-calculating-standard-cost.md",
+      "hash": "c353399b84523b98459211fe39c9ca7b218736f4011d7cd4e0575d9e8730fc10",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost",
+      "title": "About calculating standard cost",
+      "at": "2026-10-06T14:12:40.638Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/finance-how-use-edocuments-purchase.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/finance-how-use-edocuments-purchase.md",
+      "hash": "a2e5024d180694e8b077e5d354c6b7d13558c4e3b616f41218498e3b43a49987",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase",
+      "title": "Use E-Documents in the purchase process",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/item-marketing-text.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/item-marketing-text.md",
+      "hash": "8fb4ce42b66cdff0c351771e10d0144889341c570275d8a310c78734f12a82ee",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/item-marketing-text",
+      "title": "Add marketing text to items",
+      "at": "2026-10-06T14:12:50.229Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/map-edocuments-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/map-edocuments-with-copilot.md",
+      "hash": "7c7eacbec261c469fbba67e64d053657aedf3d53f55e20db04ecee71570fc365",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot",
+      "title": "Map e-documents to purchase order lines with Copilot",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md",
+      "hash": "f8b20ca5607e071506801d12515ce0547b08e97eecdbfc9cbb366e978c8b9107",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card",
+      "title": "Application Card for Microsoft Copilot in Business Central",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": [
+        {
+          "roadmap_id": "573362",
+          "quote": "Copilot integrates with Business Central to answer natural-language questions"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/payables-agent-known-senders.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/payables-agent-known-senders.md",
+      "hash": "bf3aba0b886fe065babed68c41ff3c6a993612fbd46ff648d994be71e7652d5b",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders",
+      "title": "Manage known senders for Payables Agent",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/payables-agent-setup.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/payables-agent-setup.md",
+      "hash": "5c1e4b5347d1b290322cb444653f8cf3cb64dcdeac326dcb5183c9ffe961a185",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup",
+      "title": "Set Up Payables Agent in Business Central",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": [
+        {
+          "roadmap_id": "573380",
+          "quote": "Email account setup and monitoring; Purchase document draft creation; Known senders management"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/payables-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/payables-agent.md",
+      "hash": "a068f6b262f9bfc2b0ab601e663fccdf1fce6f10968b8f3107917cfa71392de9",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
+      "title": "Payables Agent Overview in Business Central",
+      "at": "2026-10-06T14:12:50.176Z",
+      "matches": [
+        {
+          "roadmap_id": "573380",
+          "quote": "Purchase order line matching; Invoice draft creation; Supervisor review workflow"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/responsible-ai-overview.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/responsible-ai-overview.md",
+      "hash": "754a722dca4c561998f301dd79de4978473619231d6bd4027e9ec90de4f95206",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/responsible-ai-overview",
+      "title": "Responsible AI FAQs for Dynamics 365 Business Central",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/sales-order-agent-item-availability.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/sales-order-agent-item-availability.md",
+      "hash": "092fda1678d6fbb2aa8049a2dc717f194d7b4d1c0b2cda93e9c3dfcdbff9a994",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
+      "title": "Item availability in Sales Order Agent (preview)",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/sales-order-agent-process.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/sales-order-agent-process.md",
+      "hash": "2b2877dd932549abd1fa8fb71cacfd2bcc6ec94e5f3024b463721eb346500c30",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process",
+      "title": "Process sales quotes and orders with Sales Order Agent",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/sales-order-agent-setup.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/sales-order-agent-setup.md",
+      "hash": "39a7bf530a8cb7b10143f8f729c68833572a71ebd7167efbe73d6c99d1c8479b",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
+      "title": "Set up Sales Order Agent",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/sales-order-agent.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/sales-order-agent.md",
+      "hash": "ecdb092d3690549b66328ed52796f8538abd65c9f9fefb1c3b70a117c9ae98c4",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
+      "title": "Sales Order Agent overview",
+      "at": "2026-10-06T14:12:22.515Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/sales-suggest-sales-lines-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/sales-suggest-sales-lines-with-copilot.md",
+      "hash": "2858baeb3da9622f0170541bf2ee527b3285528e750c5d74649c500bd0baa173",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
+      "title": "Sales line suggestions with Copilot",
+      "at": "2026-10-06T14:12:29.773Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/shopify-tax-matching-application-card.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/shopify-tax-matching-application-card.md",
+      "hash": "0dc9ee96043db19a64fe593f950e2feced5c5ddddffb10f09897494596794a8a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card",
+      "title": "Application card for Shopify Tax Matching",
+      "at": "2026-10-06T14:12:26.614Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/shopify/shopify-tax-matching.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/shopify/shopify-tax-matching.md",
+      "hash": "93f69cdb0a7fcb11be7e6a7e2c916761489acc77e2803b04d16bebb37b0b3b17",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching",
+      "title": "Set up and use Shopify Tax Matching",
+      "at": "2026-10-06T14:12:26.614Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md",
+      "hash": "6c63f51fe87f92a1204929c17dada8050f3fbb33893a0e6be7eb895782c4f5b5",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-orders",
+      "title": "Synchronize and fulfill sales orders",
+      "at": "2026-10-06T14:12:29.773Z",
+      "matches": [
+        {
+          "roadmap_id": "573340",
+          "quote": "Configure and run Shopify order synchronization in Business Central"
+        },
+        {
+          "roadmap_id": "573343",
+          "quote": "process returns and refunds, handle gift cards, export posted sales invoices"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/suggest-item-substitutions-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/suggest-item-substitutions-copilot.md",
+      "hash": "d56a6fc47b62d4e9ce846f0d70e09a4b694a554110dfec57ac3c39c4b0a9b4fc",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot",
+      "title": "Suggest substitute items with Copilot",
+      "at": "2026-10-06T14:12:50.229Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/suggest-number-series-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/suggest-number-series-copilot.md",
+      "hash": "4bc9bc88a8d87f10ff63f393d0ee4e21ccd2815d1b5308cf0e78b2663348075c",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-number-series-copilot",
+      "title": "Suggest number series with Copilot (preview)",
+      "at": "2026-10-06T14:11:26.056Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/summarize-with-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/summarize-with-copilot.md",
+      "hash": "35e49bf0763152fa2c1ef29c10eaaf952b89ffe991cfb01e6360ab8616a04ba0",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/summarize-with-copilot",
+      "title": "Summarize a record with Copilot",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": [
+        {
+          "roadmap_id": "573366",
+          "quote": "Summarize records like customers, items, and sales orders into bullet-point insights"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/supervise-agent-tasks.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/supervise-agent-tasks.md",
+      "hash": "d5ea1f54027fe1fe800f471eb64d571faaf67109d485abb02fc7cefad75608ee",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks",
+      "title": "Supervise Agent Activities in Business Central",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": [
+        {
+          "roadmap_id": "573363",
+          "quote": "reviewing and approving their work through the Tasks pane"
+        },
+        {
+          "roadmap_id": "573369",
+          "quote": "review bar; Review agent task; Confirm and approve"
+        }
+      ]
+    },
+    "docs/learn-smb-docs/business-central/ui-search.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/ui-search.md",
+      "hash": "997778bd31f696e6825f9c3c4a70c37ce513fb95e577a839fc1207cec94a682a",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/ui-search",
+      "title": "Finding Pages and Information with Tell Me",
+      "at": "2026-10-06T14:12:33.453Z",
+      "matches": []
+    },
+    "docs/learn-smb-docs/business-central/work-with-business-central-data-in-copilot.md": {
+      "kind": "doc",
+      "key": "docs/learn-smb-docs/business-central/work-with-business-central-data-in-copilot.md",
+      "hash": "96b59c1e7cdf4a0f3ab92b797332267217f9bee9aa820a3d35ecb3709dfbb133",
+      "url": "https://learn.microsoft.com/dynamics365/business-central/work-with-business-central-data-in-copilot",
+      "title": "Work with Business Central data in Microsoft Copilot",
+      "at": "2026-10-06T14:12:02.010Z",
+      "matches": [
+        {
+          "roadmap_id": "573362",
+          "quote": "Microsoft Copilot in Business Central has read-only access to company data"
+        }
+      ]
+    },
+    "video/-vdhfNMNZQk": {
+      "kind": "video",
+      "key": "video/-vdhfNMNZQk",
+      "hash": "03a2c681f4114e160777a30ba7232fb6279da5d93db51ac6b52a42ca56e9c694",
+      "video_id": "-vdhfNMNZQk",
+      "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.289Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Composite layouts for documents",
+          "t": 6,
+          "roadmap_id": "573326",
+          "quote": "Split report layouts into reusable components - body layout for structure, themes for branding"
+        },
+        {
+          "feature": 0,
+          "name": "Composite layouts for documents",
+          "t": 6,
+          "roadmap_id": "573327",
+          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding"
+        },
+        {
+          "feature": 2,
+          "name": "Theme application",
+          "t": 87,
+          "roadmap_id": "573327",
+          "quote": "Apply themes to body layouts at runtime to add colors, fonts, and visual styling"
+        },
+        {
+          "feature": 3,
+          "name": "Header-footer layout application",
+          "t": 87,
+          "roadmap_id": "573326",
+          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report, or specific layout level"
+        },
+        {
+          "feature": 4,
+          "name": "Layered layout defaults",
+          "t": 243,
+          "roadmap_id": "573326",
+          "quote": "Set default themes and header-footer layouts at global level for all reports, at company level to override global"
+        },
+        {
+          "feature": 5,
+          "name": "Custom theme and header-footer layouts",
+          "t": 297,
+          "roadmap_id": "573326",
+          "quote": "Create custom themes and header-footer layouts through the UI or from AL code"
+        },
+        {
+          "feature": 5,
+          "name": "Custom theme and header-footer layouts",
+          "t": 297,
+          "roadmap_id": "573327",
+          "quote": "Create custom themes and header-footer layouts through the UI or from AL code"
+        },
+        {
+          "feature": 9,
+          "name": "Layout status control",
+          "t": 647,
+          "roadmap_id": "573320",
+          "quote": "Set layout status to retired or draft to hide layouts from users"
+        }
+      ]
+    },
+    "video/07G7aC14Y_w": {
+      "kind": "video",
+      "key": "video/07G7aC14Y_w",
+      "hash": "bcd3998803d98078fefa659c4a33623bda9eb299b7c77187a864838b700c2820",
+      "video_id": "07G7aC14Y_w",
+      "title": "What's new in E-Documents: Overview (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.290Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "EDI functionality in Business Central",
+          "t": 6,
+          "roadmap_id": "573305",
+          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards"
+        },
+        {
+          "feature": 1,
+          "name": "Purchase order EDI document type",
+          "t": 59,
+          "roadmap_id": "573305",
+          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format"
+        },
+        {
+          "feature": 2,
+          "name": "Sales order automatic creation from EDI",
+          "t": 91,
+          "roadmap_id": "573305",
+          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side"
+        },
+        {
+          "feature": 3,
+          "name": "Order response messaging",
+          "t": 91,
+          "roadmap_id": "573305",
+          "quote": "Seller can send back an order response (accepted or rejected) to the buyer, who will receive status updates"
+        },
+        {
+          "feature": 4,
+          "name": "Remittance advice EDI document",
+          "t": 104,
+          "roadmap_id": "573305",
+          "quote": "buyer can send a remittance advice file to the seller, enabling payment reporting through the e-documents framework"
+        },
+        {
+          "feature": 5,
+          "name": "Bidirectional EDI document direction control",
+          "t": 158,
+          "roadmap_id": "573305",
+          "quote": "Ability to configure document directions as inbound only, outbound only, or both inbound and outbound for EDI exchanges"
+        },
+        {
+          "feature": 6,
+          "name": "Electronic identifier support for EDI",
+          "t": 189,
+          "roadmap_id": "573305",
+          "quote": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
+        },
+        {
+          "feature": 8,
+          "name": "EDI message logging and tracking",
+          "t": 231,
+          "roadmap_id": "573305",
+          "quote": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed"
+        },
+        {
+          "feature": 9,
+          "name": "PPPLE format for EDI",
+          "t": 143,
+          "roadmap_id": "573305",
+          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure"
+        },
+        {
+          "feature": 12,
+          "name": "EDI purchase order to sales order linkage",
+          "t": 311,
+          "roadmap_id": "573305",
+          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders"
+        }
+      ]
+    },
+    "video/2N2NhNH7dsk": {
+      "kind": "video",
+      "key": "video/2N2NhNH7dsk",
+      "hash": "e0b49f853ac07297716fa58053dc70ae794efca942e1dc463ba28ae127cf260b",
+      "video_id": "2N2NhNH7dsk",
+      "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.290Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Layout status control",
+          "t": 31,
+          "roadmap_id": "573320",
+          "quote": "set a status on report layouts including draft, pending approval, approved, and retired"
+        },
+        {
+          "feature": 1,
+          "name": "Layout lifecycle states",
+          "t": 67,
+          "roadmap_id": "573320",
+          "quote": "Report layouts can be transitioned through states: draft, pending approval, approved, and retired"
+        },
+        {
+          "feature": 2,
+          "name": "Layout administrator control of user visibility",
+          "t": 100,
+          "roadmap_id": "573320",
+          "quote": "Users only see approved layouts in the report layout control"
+        },
+        {
+          "feature": 4,
+          "name": "Report inbox APIs",
+          "t": 183,
+          "roadmap_id": "573318",
+          "quote": "New APIs enable agents and automation tools to interact with the report inbox"
+        }
+      ]
+    },
+    "video/3Xus5tm2xKI": {
+      "kind": "video",
+      "key": "video/3Xus5tm2xKI",
+      "hash": "305a1c2b354af7164d97b2afaa72138e23158478409da1856c9c952f24d7b08f",
+      "video_id": "3Xus5tm2xKI",
+      "title": "What's new: Manage PTEs in the Admin Center (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": []
+    },
+    "video/4TE8uwIi91k": {
+      "kind": "video",
+      "key": "video/4TE8uwIi91k",
+      "hash": "5af192a6d243a650001eb1d61f95835704f7ee2bfdaf145c8131def4a001179a",
+      "video_id": "4TE8uwIi91k",
+      "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": [
+        {
+          "feature": 3,
+          "name": "Mileage expense creation on mobile",
+          "t": 133,
+          "roadmap_id": "573254",
+          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type, distance calculation"
+        }
+      ]
+    },
+    "video/5OZ0g5IgC8Q": {
+      "kind": "video",
+      "key": "video/5OZ0g5IgC8Q",
+      "hash": "934865212746c29806513a9921fa8bfcf3034b6353e978aa01870d3c8e057edf",
+      "video_id": "5OZ0g5IgC8Q",
+      "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": [
+        {
+          "feature": 6,
+          "name": "Shopify Order Number as Sales Document Number",
+          "t": 573,
+          "roadmap_id": "573340",
+          "quote": "uses the Shopify order number as the sales order document number"
+        },
+        {
+          "feature": 7,
+          "name": "Automatic Refund Document Creation",
+          "t": 597,
+          "roadmap_id": "573343",
+          "quote": "automatically creates a sales return document in Business Central"
+        }
+      ]
+    },
+    "video/Aqi8Uq2bQyI": {
+      "kind": "video",
+      "key": "video/Aqi8Uq2bQyI",
+      "hash": "800a7d8fe206bc8cd3b64b01d4657e9644634b114af4a175c130a4dedce982b8",
+      "video_id": "Aqi8Uq2bQyI",
+      "title": "What's new in Page Scripting  (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Page scripting tool",
+          "t": 20,
+          "roadmap_id": "573384",
+          "quote": "tool that allows customers and consultants to record and replay user actions"
+        },
+        {
+          "feature": 1,
+          "name": "Page scripting localization",
+          "t": 73,
+          "roadmap_id": "573384",
+          "quote": "Full localization of page scripting tool with all user-facing strings translated"
+        },
+        {
+          "feature": 2,
+          "name": "Multiple selection in grids",
+          "t": 111,
+          "roadmap_id": "573384",
+          "quote": "Support for recording the selection of multiple rows in a list"
+        },
+        {
+          "feature": 3,
+          "name": "Message and error dialogue validation",
+          "t": 122,
+          "roadmap_id": "573384",
+          "quote": "Ability to validate the text shown in messages or error dialogues during recordings"
+        }
+      ]
+    },
+    "video/cWVhWBMbXb4": {
+      "kind": "video",
+      "key": "video/cWVhWBMbXb4",
+      "hash": "8b7b2d88aa70baec67539b6d25f12ae42e3d8023b2380ed18dc787f537379fd0",
+      "video_id": "cWVhWBMbXb4",
+      "title": "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.308Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Date-range mileage allowances",
+          "t": 38,
+          "roadmap_id": "573254",
+          "quote": "Date-range mileage allowances. Mileage setup now supports configurable start and end dates"
+        },
+        {
+          "feature": 1,
+          "name": "Vehicle-type-specific mileage rates",
+          "t": 81,
+          "roadmap_id": "573254",
+          "quote": "Vehicle-type-specific mileage rates. Users can configure different mileage rates for different vehicle types"
+        },
+        {
+          "feature": 2,
+          "name": "Mileage rate setup table",
+          "t": 161,
+          "roadmap_id": "573254",
+          "quote": "New table for configuring mileage rates by date range and vehicle type"
+        }
+      ]
+    },
+    "video/D_Lur52IrIg": {
+      "kind": "video",
+      "key": "video/D_Lur52IrIg",
+      "hash": "17ac39ecf1067291c32d69cf95f3d06c2dfb3a0f873173e719598efa15329865",
+      "video_id": "D_Lur52IrIg",
+      "title": "What's new in AL and Tools (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "AL MCP (AL Management Control Platform)",
+          "t": 43,
+          "roadmap_id": "573346",
+          "quote": "AI agents can now search the connected environment to discover which app owns each object"
+        },
+        {
+          "feature": 0,
+          "name": "AL MCP (AL Management Control Platform)",
+          "t": 43,
+          "roadmap_id": "573339",
+          "quote": "AI agents can now search the connected environment to discover which app owns each object, its version"
+        },
+        {
+          "feature": 1,
+          "name": "AL language server with project awareness",
+          "t": 74,
+          "roadmap_id": "573338",
+          "quote": "New project-aware language intelligence delivered over Language Server Protocol (LSP), no longer tied to Visual Studio Code"
+        },
+        {
+          "feature": 2,
+          "name": "Symbol search with environment source parameter",
+          "t": 220,
+          "roadmap_id": "573339",
+          "quote": "AL symbol search now accepts a new 'source' parameter that can be set to 'environment'"
+        },
+        {
+          "feature": 3,
+          "name": "Get next object ID tool in AL MCP",
+          "t": 302,
+          "roadmap_id": "573346",
+          "quote": "New MCP tool that examines app.json to determine what object ID ranges are defined and available"
+        },
+        {
+          "feature": 4,
+          "name": "Interface default implementations",
+          "t": 458,
+          "roadmap_id": "573352",
+          "quote": "Interfaces can now have default method implementations, allowing extension of interfaces with new methods"
+        },
+        {
+          "feature": 8,
+          "name": "Namespace support in translation IDs",
+          "t": 636,
+          "roadmap_id": "573359",
+          "quote": "Translation files now support fully qualified namespace-based keys instead of hash-based keys"
+        },
+        {
+          "feature": 10,
+          "name": "Action tooltip inheritance from page",
+          "t": 1072,
+          "roadmap_id": "573313",
+          "quote": "Actions can now inherit their tooltip from the page's ToolTip property"
+        },
+        {
+          "feature": 12,
+          "name": "Record.IsDirty() method",
+          "t": 1202,
+          "roadmap_id": "573360",
+          "quote": "New method on record and record ref types to test whether a record has unsaved changes"
+        },
+        {
+          "feature": 13,
+          "name": "Data-driven testing framework",
+          "t": 1232,
+          "roadmap_id": "573333",
+          "quote": "New test source pattern allowing a single test method to iterate over reusable data rows"
+        },
+        {
+          "feature": 14,
+          "name": "Test handler interface for lifecycle hooks",
+          "t": 1409,
+          "roadmap_id": "573333",
+          "quote": "Test handler enum pattern providing hooks at test codeunit and individual test procedure level"
+        },
+        {
+          "feature": 15,
+          "name": "Static call graph analysis",
+          "t": 1547,
+          "roadmap_id": "573336",
+          "quote": "New agentic tool in AL.NET that performs offline static analysis to extract and query call chains"
+        },
+        {
+          "feature": 16,
+          "name": "Agent-assisted production investigation",
+          "t": 1827,
+          "roadmap_id": "573335",
+          "quote": "Coding agents can now capture performance profiles and snapshot recordings themselves through dedicated MCP tools"
+        },
+        {
+          "feature": 17,
+          "name": "Launch profiling MCP proxy",
+          "t": 1875,
+          "roadmap_id": "573335",
+          "quote": "New MCP proxy command in the al.net tool that allows agents to start and monitor profiling"
+        },
+        {
+          "feature": 18,
+          "name": "Launch snapshot MCP proxy",
+          "t": 1964,
+          "roadmap_id": "573335",
+          "quote": "MCP proxy tool that enables agents to capture snapshot recordings on a specific environment"
+        }
+      ]
+    },
+    "video/GwrMf1umTFg": {
+      "kind": "video",
+      "key": "video/GwrMf1umTFg",
+      "hash": "c6bd33482e7b182912347d7c2fd679a09f7b3541572498cd4a80d27b30638189",
+      "video_id": "GwrMf1umTFg",
+      "title": "What's new in Expense Agent: Project Handling (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.291Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Project tracking in Expense Agent web app",
+          "t": 37,
+          "roadmap_id": "573259",
+          "quote": "capability to assign projects to expenses in the web app"
+        },
+        {
+          "feature": 1,
+          "name": "Project visibility options - all projects vs assigned projects",
+          "t": 53,
+          "roadmap_id": "573259",
+          "quote": "only assigned projects to limit visibility for hundreds of projects"
+        },
+        {
+          "feature": 2,
+          "name": "Project resource assignment on project card",
+          "t": 106,
+          "roadmap_id": "573259",
+          "quote": "assigned resources section on the project card allows administrators to select which resources"
+        },
+        {
+          "feature": 3,
+          "name": "Project task level resource assignment",
+          "t": 127,
+          "roadmap_id": "573259",
+          "quote": "assign resources to specific project task lines, allowing employees to see only the tasks"
+        }
+      ]
+    },
+    "video/HixajKEd-A4": {
+      "kind": "video",
+      "key": "video/HixajKEd-A4",
+      "hash": "0841f2f6c87e9af94655d7bc79fc36c22764f72d2ef45505a208e381fa241ee4",
+      "video_id": "HixajKEd-A4",
+      "title": "What's new: Match Production Database Configuration (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.292Z",
+      "matches": []
+    },
+    "video/hNom9ZZuca0": {
+      "kind": "video",
+      "key": "video/hNom9ZZuca0",
+      "hash": "33461f20914879af8fcd3fbf563b456cf8aac86e38fc98e228807a20afc5bee6",
+      "video_id": "hNom9ZZuca0",
+      "title": "What's new: Testability Enhancements (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Data-driven Testing in AL",
+          "t": 32,
+          "roadmap_id": "573333",
+          "quote": "A new testing capability allowing a single test method to run with multiple data sets."
+        },
+        {
+          "feature": 1,
+          "name": "Test Data Source Interface",
+          "t": 155,
+          "roadmap_id": "573333",
+          "quote": "An interface for implementing custom data sources for data-driven tests."
+        },
+        {
+          "feature": 2,
+          "name": "Data-driven Testing in Visual Studio Code",
+          "t": 89,
+          "roadmap_id": "573333",
+          "quote": "Integration of data-driven testing with VS Code test explorer, allowing selective test case execution"
+        },
+        {
+          "feature": 3,
+          "name": "Data-driven Testing in AL Tooling and MCP",
+          "t": 222,
+          "roadmap_id": "573334",
+          "quote": "Support for running data-driven tests via AL tool and AL MCP connection"
+        },
+        {
+          "feature": 4,
+          "name": "Test Handlers",
+          "t": 261,
+          "roadmap_id": "573333",
+          "quote": "A mechanism for providing test setup and teardown functionality at multiple granularity levels"
+        },
+        {
+          "feature": 5,
+          "name": "Opt-in Test Handlers",
+          "t": 326,
+          "roadmap_id": "573333",
+          "quote": "Test handlers that must be explicitly declared by the test codeunit via the test handlers property."
+        },
+        {
+          "feature": 6,
+          "name": "Default Test Handlers",
+          "t": 326,
+          "roadmap_id": "573333",
+          "quote": "Global test handlers that run on every single test automatically without requiring explicit declaration."
+        },
+        {
+          "feature": 7,
+          "name": "ITestHandler Interface",
+          "t": 425,
+          "roadmap_id": "573333",
+          "quote": "Interface with hooks for before/after logic at codeunit, procedure, and test case levels."
+        },
+        {
+          "feature": 8,
+          "name": "Test Handlers Property",
+          "t": 463,
+          "roadmap_id": "573333",
+          "quote": "A property on test codeunits allowing registration of test handlers via comma-separated list."
+        },
+        {
+          "feature": 9,
+          "name": "Test Case Skipping via Test Handlers",
+          "t": 526,
+          "roadmap_id": "573333",
+          "quote": "Ability to conditionally skip test cases using test handlers."
+        }
+      ]
+    },
+    "video/i0gBrA1tx50": {
+      "kind": "video",
+      "key": "video/i0gBrA1tx50",
+      "hash": "ea44628c92c7d8a11d0320b2561c14fce71ccc9d4b71309fcd77aea86300d9b8",
+      "video_id": "i0gBrA1tx50",
+      "title": "What’s new: ALGraph (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "AL Graph",
+          "t": 5,
+          "roadmap_id": "573336",
+          "quote": "call graphs to analyze code structure, identify caller-callee relationships"
+        },
+        {
+          "feature": 1,
+          "name": "AL Graph query language",
+          "t": 98,
+          "roadmap_id": "573336",
+          "quote": "query language that allows users to construct complex queries to find callers"
+        },
+        {
+          "feature": 2,
+          "name": "AL Graph DGML export",
+          "t": 116,
+          "roadmap_id": "573336",
+          "quote": "Export format for AL Graph queries that produces graph representations"
+        },
+        {
+          "feature": 3,
+          "name": "AL Graph SARIF export",
+          "t": 116,
+          "roadmap_id": "573336",
+          "quote": "Export format for AL Graph queries in SARIF format, designed to be flat and easily consumable by agents"
+        },
+        {
+          "feature": 4,
+          "name": "AL Graph meta model extraction",
+          "t": 139,
+          "roadmap_id": "573336",
+          "quote": "meta model representation of caller-callee relationships in an app"
+        },
+        {
+          "feature": 5,
+          "name": "HTTP client caller auditing",
+          "t": 184,
+          "roadmap_id": "573336",
+          "quote": "AL Graph query capability to identify all callers to HTTP client"
+        },
+        {
+          "feature": 6,
+          "name": "Non-debuggable to debuggable boundary audit",
+          "t": 253,
+          "roadmap_id": "573336",
+          "quote": "AL Graph capability to find all callees of non-debuggable methods"
+        }
+      ]
+    },
+    "video/KNy2KujjheU": {
+      "kind": "video",
+      "key": "video/KNy2KujjheU",
+      "hash": "f9c5aa90f4c6065a73aac16e3f0bbbbbb8daa521f2ffcbc8e5a2a6923b96f66f",
+      "video_id": "KNy2KujjheU",
+      "title": "What's new: Database Export Enhancements (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.292Z",
+      "matches": []
+    },
+    "video/kOCiyVql0go": {
+      "kind": "video",
+      "key": "video/kOCiyVql0go",
+      "hash": "47563816e1e15da8d2a85aa020d9e2213843c6fd7d5806530cdae855e04f313d",
+      "video_id": "kOCiyVql0go",
+      "title": "Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": []
+    },
+    "video/M0IzeLSn7qU": {
+      "kind": "video",
+      "key": "video/M0IzeLSn7qU",
+      "hash": "53122e7aa25b458649918d927b6b94c95a429aed86911d85995bf792301646a1",
+      "video_id": "M0IzeLSn7qU",
+      "title": "What's new in Expense Agent: Improved Approval Process (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.292Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "AI-driven approval policies",
+          "t": 53,
+          "roadmap_id": "573255",
+          "quote": "AI-driven approval policies. Admin can enable AI-driven approval policies in setup to flag expenses for review"
+        },
+        {
+          "feature": 2,
+          "name": "Employee manual compliance checks",
+          "t": 167,
+          "roadmap_id": "573255",
+          "quote": "Employees can manually run AI compliance checks on their own expense reports before submission"
+        }
+      ]
+    },
+    "video/mT_0VKqdEzA": {
+      "kind": "video",
+      "key": "video/mT_0VKqdEzA",
+      "hash": "7098af6b1c64fa1b946091f7106fc11a02d45f5d53e876f7be719d7c92fa9a30",
+      "video_id": "mT_0VKqdEzA",
+      "title": "What's new in Expense Agent: Calculate WHT for Expenses (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Withholding Tax for Employee Expenses",
+          "t": 6,
+          "roadmap_id": "573304",
+          "quote": "Withholding Tax for Employee Expenses. Extended withholding tax capability from vendors to employees"
+        },
+        {
+          "feature": 1,
+          "name": "Withholding Posting Setup for Employees",
+          "t": 104,
+          "roadmap_id": "573304",
+          "quote": "UI setup section for withholding tax configuration including business posting groups, product posting groups"
+        },
+        {
+          "feature": 2,
+          "name": "Multiple Withholding Tax Groups per Category",
+          "t": 164,
+          "roadmap_id": "573304",
+          "quote": "Multiple Withholding Tax Groups per Category. Support for assigning multiple product posting groups"
+        },
+        {
+          "feature": 3,
+          "name": "Gross and Net Withholding Tax Calculation",
+          "t": 212,
+          "roadmap_id": "573304",
+          "quote": "Configurable calculation base allowing gross calculation, net calculation, or gross-up calculation methods"
+        },
+        {
+          "feature": 4,
+          "name": "Configurable Withholding Tax Thresholds",
+          "t": 212,
+          "roadmap_id": "573304",
+          "quote": "Flexible threshold configuration supporting per-record, per-category, per-period, and total-period thresholds"
+        },
+        {
+          "feature": 5,
+          "name": "Withholding Tax Entries in Preview Posting",
+          "t": 352,
+          "roadmap_id": "573304",
+          "quote": "Withholding tax entries automatically appear in the preview posting view showing GL entries"
+        },
+        {
+          "feature": 6,
+          "name": "Withholding Tax Calculation Timing (Invoice vs Payment)",
+          "t": 442,
+          "roadmap_id": "573304",
+          "quote": "Choice between calculating withholding tax at invoice time or at payment time"
+        },
+        {
+          "feature": 7,
+          "name": "Employee Card Withholding Tax Fields",
+          "t": 611,
+          "roadmap_id": "573304",
+          "quote": "New fields on employee card for withholding tax business posting group assignment and tax exemption flag"
+        },
+        {
+          "feature": 8,
+          "name": "Expense Category Withholding Tax Configuration",
+          "t": 646,
+          "roadmap_id": "573304",
+          "quote": "Expense category setup with withholding tax group assignment. Supports single group or tax group mode"
+        }
+      ]
+    },
+    "video/mXvKs6X1DNk": {
+      "kind": "video",
+      "key": "video/mXvKs6X1DNk",
+      "hash": "265098fbbfa129ab445144e2b82d10baba715c4939fd8d4189d482540eff981a",
+      "video_id": "mXvKs6X1DNk",
+      "title": "What's new: Cross-environment Master Data Management (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": []
+    },
+    "video/N_J1HB_fUCM": {
+      "kind": "video",
+      "key": "video/N_J1HB_fUCM",
+      "hash": "a4fc432f32ba8b1cdd22857d4985002b14afd00f1e070ff18417945cdd834c10",
+      "video_id": "N_J1HB_fUCM",
+      "title": "What's new in Finance: Overview (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.308Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Multiple excise taxes per item",
+          "t": 54,
+          "roadmap_id": "573306",
+          "quote": "Multiple excise taxes to a single item instead of just one"
+        },
+        {
+          "feature": 5,
+          "name": "Self-billing vendor-specific number series",
+          "t": 258,
+          "roadmap_id": "573307",
+          "quote": "Selection of specific number series for each vendor using self-billing"
+        },
+        {
+          "feature": 8,
+          "name": "Withholding tax for employees",
+          "t": 375,
+          "roadmap_id": "573308",
+          "quote": "Withholding taxes for employees with options for gross or net calculation"
+        }
+      ]
+    },
+    "video/nb_a42dmSqE": {
+      "kind": "video",
+      "key": "video/nb_a42dmSqE",
+      "hash": "f0cd83baad1ec31c2930b254b5a1c21407a5b012da30147efacc85715724db2a",
+      "video_id": "nb_a42dmSqE",
+      "title": "What's new in SCM: Migrate Italian Subcontracting (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.309Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "New global subcontracting app",
+          "t": 17,
+          "roadmap_id": "573353",
+          "quote": "New global subcontracting app. Replaces the legacy Italian subcontracting functionality"
+        },
+        {
+          "feature": 1,
+          "name": "Italian subcontracting migration app",
+          "t": 128,
+          "roadmap_id": "573353",
+          "quote": "Dedicated migration app that transfers data from legacy Italian subcontracting"
+        },
+        {
+          "feature": 2,
+          "name": "Legacy subcontracting pre-check",
+          "t": 139,
+          "roadmap_id": "573353",
+          "quote": "Legacy subcontracting pre-check. Validates the current state before migration"
+        },
+        {
+          "feature": 4,
+          "name": "Subcontracting application area toggle",
+          "t": 91,
+          "roadmap_id": "573353",
+          "quote": "Subcontracting application area toggle. Controls visibility of legacy subcontracting"
+        },
+        {
+          "feature": 5,
+          "name": "Subcontracting purchase and transfer order views",
+          "t": 497,
+          "roadmap_id": "573345",
+          "quote": "Purchase and transfer orders are consolidated into standard lists with filter views"
+        },
+        {
+          "feature": 6,
+          "name": "Vendor subcontracting field migration",
+          "t": 268,
+          "roadmap_id": "573353",
+          "quote": "Vendor-level fields including subcontractor indicator and subcontracting location"
+        },
+        {
+          "feature": 7,
+          "name": "Subcontracting prices migration",
+          "t": 268,
+          "roadmap_id": "573353",
+          "quote": "Pricing information defined for subcontractors in the legacy system is migrated"
+        }
+      ]
+    },
+    "video/QdWPlIV3Avk": {
+      "kind": "video",
+      "key": "video/QdWPlIV3Avk",
+      "hash": "47ba9c7be8816ff54a3b17691727c0c04a67737a95601f1876875eb79d3261d9",
+      "video_id": "QdWPlIV3Avk",
+      "title": "What's new in SCM: Subcontracting (2026 release wave 2)",
+      "at": "2026-10-06T14:11:27.439Z",
+      "matches": [
+        {
+          "feature": 6,
+          "name": "Subcontracting purchase order structure",
+          "t": 516,
+          "roadmap_id": "573345",
+          "quote": "Purchase order created from subcontracting includes component lines, work operation lines"
+        },
+        {
+          "feature": 9,
+          "name": "Subcontracting comments and instructions",
+          "t": 648,
+          "roadmap_id": "573345",
+          "quote": "Comment lines in subcontracting purchase order contain instructions for the subcontractor"
+        },
+        {
+          "feature": 10,
+          "name": "Line attachments for subcontracting instructions",
+          "t": 672,
+          "roadmap_id": "573345",
+          "quote": "Subcontracting purchase order lines can have attachments per line with instructions"
+        },
+        {
+          "feature": 12,
+          "name": "Subcontracting comment in routing",
+          "t": 756,
+          "roadmap_id": "573345",
+          "quote": "Production routing lines have a subcontracting comment field that contains instructions for the subcontractor"
+        },
+        {
+          "feature": 3,
+          "name": "Warehouse integration for subcontracting",
+          "t": 90,
+          "roadmap_id": "573355",
+          "quote": "Subcontracting operations now benefit from the same powerful warehouse handling processes"
+        },
+        {
+          "feature": 20,
+          "name": "Warehouse receipt for subcontracting operations",
+          "t": 1403,
+          "roadmap_id": "573355",
+          "quote": "Create warehouse receipts instead of direct purchase receipts; supports item tracking assignment"
+        },
+        {
+          "feature": 21,
+          "name": "Inventory put-away for basic warehouse locations",
+          "t": 1493,
+          "roadmap_id": "573355",
+          "quote": "For basic warehouse locations requiring put-away and pick, create inventory put-away directly from subcontracting orders"
+        },
+        {
+          "feature": 23,
+          "name": "Multiple receiving methods for subcontracting",
+          "t": 1569,
+          "roadmap_id": "573355",
+          "quote": "Subcontracting supports normal purchase document, warehouse receipt, or inventory put-away as receiving methods"
+        }
+      ]
+    },
+    "video/qs1cg-GoDeQ": {
+      "kind": "video",
+      "key": "video/qs1cg-GoDeQ",
+      "hash": "a3902918f94546216f7b403d89c2e75630d8736484138e54ae49df52a2e6c14d",
+      "video_id": "qs1cg-GoDeQ",
+      "title": "What's new: MCP Server (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.311Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Find tables tool",
+          "t": 76,
+          "roadmap_id": "573312",
+          "quote": "Find tables tool. A new system tool that enables searching for Business Central tables."
+        },
+        {
+          "feature": 1,
+          "name": "Table relations tool",
+          "t": 76,
+          "roadmap_id": "573312",
+          "quote": "Table relations tool. A system tool for understanding how tables connect to other tables in Business Central."
+        },
+        {
+          "feature": 2,
+          "name": "Table schema tool",
+          "t": 76,
+          "roadmap_id": "573312",
+          "quote": "Table schema tool. A system tool that shows fields available on Business Central tables."
+        },
+        {
+          "feature": 3,
+          "name": "Data query tool",
+          "t": 76,
+          "roadmap_id": "573312",
+          "quote": "Data query tool. A system tool that enables agents to construct and run AL queries directly."
+        }
+      ]
+    },
+    "video/Sh3ySQSTw-o": {
+      "kind": "video",
+      "key": "video/Sh3ySQSTw-o",
+      "hash": "e0381de6298282f648c664a8ba092aa99b0aca1fe48d9172fca1e653aedded6e",
+      "video_id": "Sh3ySQSTw-o",
+      "title": "What's new: Server and Database (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.308Z",
+      "matches": [
+        {
+          "feature": 3,
+          "name": "Optimized table extensions data model - zero-join",
+          "t": 117,
+          "roadmap_id": "573332",
+          "quote": "Table extension fields are now stored back on the base table instead of separate tables"
+        },
+        {
+          "feature": 4,
+          "name": "Table extension performance gains",
+          "t": 172,
+          "roadmap_id": "573332",
+          "quote": "Operations including read, delete, update, insert and modify are up to 30 percent faster"
+        },
+        {
+          "feature": 6,
+          "name": "Runtime-controlled index enablement",
+          "t": 353,
+          "roadmap_id": "573314",
+          "quote": "Indexes can now be defined with enabled equal false and controlled at runtime"
+        },
+        {
+          "feature": 7,
+          "name": "Cross-table indexes",
+          "t": 397,
+          "roadmap_id": "573315",
+          "quote": "Indexes can now span both base table and extension fields"
+        },
+        {
+          "feature": 8,
+          "name": "System fields in analysis mode",
+          "t": 447,
+          "roadmap_id": "573322",
+          "quote": "System fields like created by, created on, last modified by, last modified on are now visible in analysis mode"
+        },
+        {
+          "feature": 9,
+          "name": "System fields in profiles",
+          "t": 536,
+          "roadmap_id": "573322",
+          "quote": "System fields including modified by and modified at can now be included in profiles"
+        },
+        {
+          "feature": 11,
+          "name": "Telemetry for Excel export audit",
+          "t": 705,
+          "roadmap_id": "573317",
+          "quote": "New telemetry tag RT 0056 tracks who opens data in Excel"
+        }
+      ]
+    },
+    "video/TSLXzbeyE7Y": {
+      "kind": "video",
+      "key": "video/TSLXzbeyE7Y",
+      "hash": "20aed415e3ba14fb9be0683328300ff682ec7d7558c7610881b1b228f6674dfb",
+      "video_id": "TSLXzbeyE7Y",
+      "title": "What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)",
+      "at": "2026-10-06T14:11:14.308Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Microsoft Copilot Chat in Business Central",
+          "t": 6,
+          "roadmap_id": "573362",
+          "quote": "Microsoft Copilot Chat in Business Central, providing AI-powered chat assistance"
+        }
+      ]
+    }
+  }
+}
