@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fec88412abe5215a5552f0ddf246772c3e11244c",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:37.897Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:37.905Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:37.907Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:37.908Z",
+      "page": false
     }
   },
   "input_hash": "fec88412abe5215a5552f0ddf246772c3e11244c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fec88412abe5215a5552f0ddf246772c3e11244c"
+  "output_hash": "7da4a497027c277e170926e96f9b6e255bf818696a8fd1df5dd40da030bb35bc"
 }

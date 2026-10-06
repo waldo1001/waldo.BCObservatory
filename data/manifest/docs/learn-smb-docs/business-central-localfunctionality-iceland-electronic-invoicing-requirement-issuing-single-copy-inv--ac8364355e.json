@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ab0f5fcaac439fc4b992254e355a9248214f080e",
       "words": 172,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:36.308Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003116
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:36.415Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:36.416Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:36.417Z",
+      "page": false
     }
   },
   "input_hash": "ab0f5fcaac439fc4b992254e355a9248214f080e",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ab0f5fcaac439fc4b992254e355a9248214f080e"
+  "output_hash": "2c760f979b465cb4defc5ac228af4453568a2dda491f897e8377ce18e5a8e51a"
 }

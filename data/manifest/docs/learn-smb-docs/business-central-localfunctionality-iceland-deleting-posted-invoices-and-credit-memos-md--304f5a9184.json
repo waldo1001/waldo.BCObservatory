@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fffe19702b8fd84ad0f5ebfd788b539e1bf09cb5",
       "words": 127,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:36.299Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003116
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:36.410Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:36.412Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:36.413Z",
+      "page": false
     }
   },
   "input_hash": "fffe19702b8fd84ad0f5ebfd788b539e1bf09cb5",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fffe19702b8fd84ad0f5ebfd788b539e1bf09cb5"
+  "output_hash": "73bc8c83be3ff04c938e95810417166469884d4bea903e55b68224bd9b4f1c90"
 }

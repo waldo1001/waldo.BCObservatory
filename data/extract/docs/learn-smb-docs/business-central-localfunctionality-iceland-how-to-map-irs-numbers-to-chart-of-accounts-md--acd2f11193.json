@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts",
+  "title": "Map IRS numbers to chart of accounts [IS]",
+  "blob": "fec88412abe5215a5552f0ddf246772c3e11244c",
+  "summary": "Map IRS numbers to chart of accounts in Iceland's localization by creating Internal Revenue Service codes and mapping them to general ledger posting accounts for tax authority compliance.",
+  "systems": [
+    "localization",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "iceland",
+    "tax",
+    "irs numbers",
+    "chart of accounts",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "IRS Number"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "IRS number creation",
+    "account mapping",
+    "reverse prefix"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}

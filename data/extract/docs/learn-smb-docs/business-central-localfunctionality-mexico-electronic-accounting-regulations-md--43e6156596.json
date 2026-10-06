@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations",
+  "title": "Electronic accounting regulations in Mexico",
+  "blob": "ef5cab4383726be167e29e7269a400466a614f85",
+  "summary": "Comply with Mexico's electronic accounting regulations by exporting chart of accounts, trial balance, and journal transactions as XML files to the Mexican Tax Authority (SAT) through the Export Elect. Accounting functionality.",
+  "systems": [
+    "localization",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "mexico",
+    "electronic accounting",
+    "tax compliance",
+    "xml export",
+    "regulatory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Export Elect. Accounting"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    },
+    {
+      "type": "page",
+      "name": "Payment Method"
+    }
+  ],
+  "features": [
+    "SAT account code",
+    "trial balance export",
+    "journal transaction export",
+    "bank account setup",
+    "payment method coding"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}

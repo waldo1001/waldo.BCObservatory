@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bddd87b5a51cf82c62ed16e58b7d59e86441533f",
       "words": 18,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:37.902Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:37.925Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:37.926Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:37.927Z",
+      "page": false
     }
   },
   "input_hash": "bddd87b5a51cf82c62ed16e58b7d59e86441533f",
@@ -80,5 +99,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bddd87b5a51cf82c62ed16e58b7d59e86441533f"
+  "output_hash": "bf35492015c143cc622c3e55a124284bb1163fad70ab4e328e10df5005390458"
 }

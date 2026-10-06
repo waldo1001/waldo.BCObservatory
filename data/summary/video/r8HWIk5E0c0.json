@@ -1,0 +1,26 @@
+{
+  "video_id": "r8HWIk5E0c0",
+  "item_id": "video/yt-microsoft/r8HWIk5E0c0",
+  "summary": "Comparison of correcting and reversing journal entries in Dynamics SL and Business Central. Shows the SL reverse, reverse-and-correct and copy options on Journal transactions, then reversing a posted entry and correcting dimensions from General ledger entry in Business Central.",
+  "overview": "The 3-minute video, published 2024-07-26, walks through how to fix a posted journal entry in Dynamics SL and then in Business Central. In SL, the Journal transactions page offers three options: reverse the entry, reverse and create a correcting entry, or copy the entry to change it manually. Reversing creates an unposted batch that swaps debits and credits of the original posted batch, and that batch is then posted.\n\nIn Business Central, the reversal is started from the General ledger entry page. The system fills in the journal entry information and reverses the amounts. The video also shows correcting a dimension on a posted entry without reversing the whole transaction, including adding a missing dimension, entering a description for the change and refreshing to see the result.",
+  "key_points": [
+    "In Dynamics SL, the Journal transactions page offers three options: reverse, reverse and create a correcting entry, or copy the entry for manual changes.",
+    "Reversing in SL creates an unposted batch that fully reverses the original posted batch with debits and credits swapped; it must then be posted.",
+    "In Business Central, a posted entry is reversed from the General ledger entry page; the system pulls in the account and amounts and reverses them.",
+    "Business Central can correct a dimension on a posted entry instead of reversing the whole transaction.",
+    "The change dimension process lets you set the new dimension value, add a missing dimension, enter a description and refresh to see the result.",
+    "The video's conclusion is that reversing and correcting dimensions is quick and simple in Business Central."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "ee3904e70c64dd6da5fe3492478645f23239af10045d3b06798984164f9c409f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013304400000000001
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-local-functionality",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1593c8bb8944e515d7c423b4f664fc52a4562b92",
       "words": 130,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:37.899Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:37.913Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:37.914Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:37.914Z",
+      "page": false
     }
   },
   "input_hash": "1593c8bb8944e515d7c423b4f664fc52a4562b92",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1593c8bb8944e515d7c423b4f664fc52a4562b92"
+  "output_hash": "7f7d92b3ce7a43e50ea50658be4d39308966fbb18a80cadcd4463cf96efe0e2c"
 }

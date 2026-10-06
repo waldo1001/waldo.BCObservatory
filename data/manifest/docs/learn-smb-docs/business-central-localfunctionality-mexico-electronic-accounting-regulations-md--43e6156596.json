@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ef5cab4383726be167e29e7269a400466a614f85",
       "words": 503,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:37.900Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:37.918Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:37.919Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:37.920Z",
+      "page": false
     }
   },
   "input_hash": "ef5cab4383726be167e29e7269a400466a614f85",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef5cab4383726be167e29e7269a400466a614f85"
+  "output_hash": "3963cef5246a17cb9551791ae8d073e0f3cdcd38ea974876905da6aee7f6901f"
 }
