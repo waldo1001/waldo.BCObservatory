@@ -1,0 +1,458 @@
+{
+  "video_id": "a1LQ3-SCtPE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.8,
+      "end": 38.3,
+      "text": "welcome to this session on what's new in server and database a faster data stack this is number two out of four sessions on news in the server and data base part should we get started I think we should because we have lots of cool stuff to cover"
+    },
+    {
+      "t": 38.3,
+      "end": 58.4,
+      "text": "here let's talk a little bit about companion tables prior to this release in uh the way the data model where we store table extension data has always been um that we store each table extension in its own table and then"
+    },
+    {
+      "t": 58.4,
+      "end": 73.7,
+      "text": "at runtime we enforce a onetoone relationship between the base table and each extension table the primary key for the base is also the primary key for all companion tables that's the name we call these physical"
+    },
+    {
+      "t": 73.7,
+      "end": 94.2,
+      "text": "tables now when you when we then fetch the data from the AL runtime we will simply join all these EXT extension tables unless you use partial records and uh this means that the execution time because of these joints will grow um linearly probably"
+    },
+    {
+      "t": 94.2,
+      "end": 114.3,
+      "text": "with the number of table extensions and uh the SQL Server query Optimizer has a hidden Li limit around seven or eight joints where it will stop optimizing and simply use one uh join algorithm um and that means once you get past that step you"
+    },
+    {
+      "t": 114.3,
+      "end": 135.2,
+      "text": "might have suboptimal plans but there's nothing really you can do it about it or we can do about it it the the previous only way to get out of this join issue uh was to use partial records this would be a way to prune either um fields or joints yes"
+    },
+    {
+      "t": 135.2,
+      "end": 155.5,
+      "text": "and the reason why we actually had that model was that it made installation on installation of extensions very easy because we could basically just leave the table behind so because that would have no effect on the other tables but we decided that per for performance reasons we wanted to change this model"
+    },
+    {
+      "t": 155.5,
+      "end": 175.5,
+      "text": "exactly so there are some behaviors of this model um an nway join of one to one tables is slow um now normally if you have joints it's very often that you have a driving table which is big and some smaller tables which are have low cardinality which are lookup"
+    },
+    {
+      "t": 175.5,
+      "end": 188.6,
+      "text": "tables in this EX in this model the number of rows in the base and the the things you join to are the same and that's why this this is this can never be"
+    },
+    {
+      "t": 188.6,
+      "end": 208.7,
+      "text": "fast if you have a customer who has installed a number of apps and extensions not really any of these extensions are to blame for a performance issue because it's just built into the model and there's no really easy way to mitigate this problem you can't ask a customer to"
+    },
+    {
+      "t": 208.7,
+      "end": 229.3,
+      "text": "uninstall function it to get speed it's the only way we could solve this would be the AL runtime the platform to do it yeah and and also we sometimes heard Partners asking so should I create three extensions or one extension because it's logical for me to split it into multiple but that means it'll be"
+    },
+    {
+      "t": 229.3,
+      "end": 249.3,
+      "text": "slower now with the new model I can reveal that it doesn't really matter anymore seen from a performance point of view thanks exactly so we changed the model the data model for table extensions and now we simply have the base table and we have one"
+    },
+    {
+      "t": 249.3,
+      "end": 270.4,
+      "text": "companion table that stores the fields for all table extensions and this minimize the use of joints because you will at most have one joint instead of uh n joints and it severely affects in a good way the performance of of database operation"
+    },
+    {
+      "t": 270.4,
+      "end": 290.8,
+      "text": "delete operations two to five times faster insert performance twice as fast on the measurements we have modify can be also two times faster and read performance is definitely where we see the most impact but be careful when you measure here because the NST the server caches data"
+    },
+    {
+      "t": 290.8,
+      "end": 302,
+      "text": "so it can be hard to measure at least you need to flush all caches before you do your tests and I think yens is going to talk a little bit more about the read performance"
+    },
+    {
+      "t": 302,
+      "end": 322.2,
+      "text": "improvements so this is uh this is how the tables look prior and now in in version 20 uh 22 you see uh here in version 22 that you have the base table and then for each of the table extensions you would have their own table now in the new schema we simply have"
+    },
+    {
+      "t": 322.2,
+      "end": 342.2,
+      "text": "the base table and then we have one companion table that stores all the fields from each table EX exension and you'll also notice that in addition to only having one table and one join the database size actually also decreases quite a bit because there is only one copy of the primary key there"
+    },
+    {
+      "t": 342.2,
+      "end": 353.1,
+      "text": "is only one copy of the row version and then of course you have the individual Fields meaning that the overall storage usage is smaller"
+    },
+    {
+      "t": 353.1,
+      "end": 373.6,
+      "text": "correct so what's the expected performance impact let's look at this graph on the right you can see version 22 is the blue line and the orange line here is version 23 and you can see the read performance simply scales in the old model almost linearly"
+    },
+    {
+      "t": 373.6,
+      "end": 394,
+      "text": "with the number of table extensions whereas it it looks much flatter here for um for the new model first of all why do we see this uh this change here that's because it's of course fastest well this is because you see one join so so so there's a little bit there and then"
+    },
+    {
+      "t": 394,
+      "end": 414.4,
+      "text": "the the increase for the new model is only for the fields the extra Fields you read whereas in the old model you also get that penalty from the joints yeah and the reason why it takes longer to read more Fields is that there'll be fewer rows in each data page so normally you would"
+    },
+    {
+      "t": 414.4,
+      "end": 434.9,
+      "text": "have to read more data Pages just to get the one extension table when it grows larger yeah then why this um why don't we see a larger increase in performance for let's say modify insert delete anything that is not read this is typically"
+    },
+    {
+      "t": 434.9,
+      "end": 455.3,
+      "text": "because on the database you would see a huge impact but on on the NST and the AL runtime we often need to run events and that means that that most bulk operations will actually not be in effects um and that's that's that's the primary reason why we don't see like a huge"
+    },
+    {
+      "t": 455.3,
+      "end": 475.3,
+      "text": "benefit here and that's also why it's really hard to State how much faster will this be re does not invoke events unless of course you have an on after get record trigger but usually just in normal Al code there are no events evolved the moment you have modifications we have events"
+    },
+    {
+      "t": 475.3,
+      "end": 495.3,
+      "text": "that very often naturally determine the performance of insert modify delete so the your mileage will vary with this um we I mean you can have different field number of fields different sizes of fields triggers"
+    },
+    {
+      "t": 495.3,
+      "end": 515.6,
+      "text": "you might have different triggers running you might have tons of indexes a few indexes so whether you would get a twice or 5x or 10x really up to to how your code is organized and the data that you have yeah and also remember that if there is only one extension you won't see a"
+    },
+    {
+      "t": 515.6,
+      "end": 536.1,
+      "text": "difference it doesn't really matter until there are multiple extensions in play so what's the record we've seen in prod for number of table extensions do you remember 70 80 something 70 70 so if you are that customer with 70 table extensions you would go from a 70 way join to a one"
+    },
+    {
+      "t": 536.1,
+      "end": 556.4,
+      "text": "way join yes and I hope you are you're listening out there I sorry for that customer if it's on one of the larger tables yeah all right you might wonder but wait a minute what about Cloud migration since you're changing the schema like how can we migrate from earlier versions using"
+    },
+    {
+      "t": 556.4,
+      "end": 576.4,
+      "text": "the cloud migration tool we upgraded that so all good uh version 23 exposed the mapping from previous versions We updated the tool so these as a a data Factory clows now they know about the new and old um data models and Cloud migration is fully"
+    },
+    {
+      "t": 576.4,
+      "end": 596.4,
+      "text": "supported also from previous versions as it used to be or as it should be yes you should be aware for on premises since we are changing the data model there is quite a bit of data writing going on during upgrade so when you upgrade an un premise installation you should probably expect that to take a little"
+    },
+    {
+      "t": 596.4,
+      "end": 602.6,
+      "text": "longer than for instance the version 21 to 22 upgrade"
+    },
+    {
+      "t": 602.6,
+      "end": 622.8,
+      "text": "yeah but wait what if we are on premises and we have integrated directly to the database with data warehousing ETL tools business intelligence what do we do well first of all maybe you shouldn't because it's not supported but that's not really a good answer because of course"
+    },
+    {
+      "t": 622.8,
+      "end": 642.8,
+      "text": "if you have been involved with powerbi or other um tools it would be natural to pointed to your database on premises the way to get uh to get out of this once you are on a new model is that you can mimic the old schema with database views so it's possible to for anyone reading"
+    },
+    {
+      "t": 642.8,
+      "end": 663,
+      "text": "the data uh they don't know whether they're reading database views or the the physical model and there are already code samples out on GitHub so search for that um at the time of this recording we we don't have it on BCT Tech we might get a version of that on BCT Tech so let's uh let's see but if"
+    },
+    {
+      "t": 663,
+      "end": 674,
+      "text": "not search for code samples to create database views and I think that will probably unblock uh most of these things for you"
+    },
+    {
+      "t": 674,
+      "end": 694.2,
+      "text": "so we had a huge marketing Splash on partial records and and uh set load Fields like this is the thing that will solve everything and it did solve some things but now we've solved it in the platform for the joints so you might ask is set load field really needed"
+    },
+    {
+      "t": 694.2,
+      "end": 714.2,
+      "text": "anymore you can say that in some cases it will have much less effect if you used it to remove the joint statements then that is actually done now by the platform unless you remove the one joint to The one extension table but set load Fields"
+    },
+    {
+      "t": 714.2,
+      "end": 726.9,
+      "text": "also limit the fields loaded so that means there is less data to transfer there is less data to cache and you can actually also hit covering indexes so particularly"
+    },
+    {
+      "t": 726.9,
+      "end": 747,
+      "text": "for um tight Loops where you need to process a lot of data it'll still make a big difference particularly if you can hit an index so overall continue using setlo Fields you don't have to sprinkle it all over your code base but when you have performance critical code you want to control"
+    },
+    {
+      "t": 747,
+      "end": 767.1,
+      "text": "which fields are loaded you want that part to be as fast as possible whereas for the generic situation where you didn't optimize now the platform helps you speaking of helping we had our own app teams asking for this and it might help you as well so if you write code and you're the owner of"
+    },
+    {
+      "t": 767.1,
+      "end": 787.4,
+      "text": "the base table uh it might be that you want to be able to set the bit the to load all the base Fields so we now have a new method that allows you to do that and uh we know developers are lazy and that's a good thing that's what we want uh you to to write as much code"
+    },
+    {
+      "t": 787.4,
+      "end": 807.5,
+      "text": "with as few statements as possible so uh so maybe this uh new method will be for you as well to lower your maintenance cost on your on your code and still make it faster and there is an example here where on vat entry it's just called set-based load fields and then setting the range"
+    },
+    {
+      "t": 807.5,
+      "end": 827.8,
+      "text": "and then doing a f set and there it is looping now particularly if the code inside the loop changes then before with the set load Fields you would have to remember to go back and change which Fields you loaded if you started accessing a new field inside your Loop now this one will at least remove"
+    },
+    {
+      "t": 827.8,
+      "end": 847.8,
+      "text": "the join um but again if this is performance critical code and you really want to optimize then you can use the set load fields to minimize what is cached and loaded yeah and is this an example from the B app yes so this is actually something you can search for in in the base app"
+    },
+    {
+      "t": 847.8,
+      "end": 867.9,
+      "text": "code and see the actual example how it's being used yes so if you're in doubt you don't really know which feels but you know that this is just my code I'm not raising events then putting in a set-based load Fields is a safe way to go cool so key takeaways from this new extension schema the main thing"
+    },
+    {
+      "t": 867.9,
+      "end": 888,
+      "text": "here is there is no really no action on you right we we just made things faster for all code maybe the only action is to stop worrying about whether you should put in one or three extension that is true yeah and you would as as Yen said if you only have one table extension you won't see a difference if you have two or more you"
+    },
+    {
+      "t": 888,
+      "end": 906.3,
+      "text": "will definitely see it mainly on read maybe even on logging let's see uh we need to measure that um Cloud migration it's fine on premises you need some work uh if you if you access SQL tables"
+    },
+    {
+      "t": 906.3,
+      "end": 926.4,
+      "text": "directly yes now as part of this we also realized that if you leave data behind then it now has a performance impact because before as I mentioned it would just sit in a separate table nobody would really care about that table except if you're looking for database"
+    },
+    {
+      "t": 926.4,
+      "end": 947,
+      "text": "storage but now it is part of the extension tables row so if you've uninstalled an extension but did not delete the um actual data then it uses database capacity and it also makes joining with this extension table slightly slower so we've added the ability"
+    },
+    {
+      "t": 947,
+      "end": 967.2,
+      "text": "to remove it if you had forgotten to Mark the delete extension data when you uninstalled your extension it is placed in the installed extensions now that can actually be a little sarcastic because you're deleting stuff from the not installed extensions from the installed extensions but it was still the most natural place for us to put it"
+    },
+    {
+      "t": 967.2,
+      "end": 987.3,
+      "text": "where you can delete the ofen extensions data and then it'll show you which extensions still have Remnant in the database and you can then decide to delete it and that way it gets removed this also means that after you've done this step if you reinstall the extension then you won't have the data"
+    },
+    {
+      "t": 987.3,
+      "end": 998.4,
+      "text": "and that was actually how you have to do it before if you had forgotten to delete it you needed to reinstall delete and then uninstall again but that is no longer needed"
+    },
+    {
+      "t": 998.4,
+      "end": 1018.8,
+      "text": "cool a lot about uh data Reading Writing another part of data is locking and uh we actually also have some cool new stuff going on here yes we have enable the ability to change the Locking model to minimize"
+    },
+    {
+      "t": 1018.8,
+      "end": 1031.3,
+      "text": "or at least to automatically take fewer logs in Al and this is a thing that benefits all usage scenarios web services Integrations background jobs and interactive"
+    },
+    {
+      "t": 1031.3,
+      "end": 1051.8,
+      "text": "sessions um and of course there are two ways that you can improve the Locking situation you can lock less or you can just make your code faster so the first part we just talked about here will actually help unlocking because you hold the locks for shorter if the code is faster but what do we talk about when we talk about the new locking model well"
+    },
+    {
+      "t": 1051.8,
+      "end": 1071.9,
+      "text": "before and this may not be obvious to everyone we had the um approach that the moment we entered into a right transaction then we would start taking logs on any table that was modified so in this case here first it'll do"
+    },
+    {
+      "t": 1071.9,
+      "end": 1092.6,
+      "text": "read on committed then you do an insert into that table and then when you read from that same table type in this case the currency table then that would be read with an update lock can I say something here of course you because I think the the gotcha here is when I saw this code sample I was like what so"
+    },
+    {
+      "t": 1092.6,
+      "end": 1113.4,
+      "text": "the the lock the update lock is actually taken on a different record uh instance you can see c 2 is is uh is is a new instance of that so why would you take a lock well this is because the old Behavior was that whenever you do a change on a table"
+    },
+    {
+      "t": 1113.4,
+      "end": 1133.5,
+      "text": "then all uh new instances on the same table in the same session will inherit the lock and I think that was a gotcha for many yes it definitely was and there are some deeper lying reasons for that for instance when you pass a record from one function to another if you don't pass it by bar"
+    },
+    {
+      "t": 1133.5,
+      "end": 1154,
+      "text": "you get a new record so now if you did something down there you actually had a new record so there are some reasons why it was like this um and we've had to do some tricks in order to keep the old Behavior but with the new locking enable then after modifying and entering the after the insert statement here"
+    },
+    {
+      "t": 1154,
+      "end": 1164.4,
+      "text": "then further reads on other um record instances pointing to the same table will now be done with a read"
+    },
+    {
+      "t": 1164.4,
+      "end": 1184.8,
+      "text": "committed so for a given record type as long as you have not entered into a right transaction then all reads have the read uncommitted hint applied and then when the data has been written or some data has been written to the record type in the current transaction"
+    },
+    {
+      "t": 1184.8,
+      "end": 1205,
+      "text": "then further reads will have the read committed hint applied now you can still do lock table lock table has not changed that is your way to say well I still want this automatic application of update lock so if lock table has been called and further reads"
+    },
+    {
+      "t": 1205,
+      "end": 1225.6,
+      "text": "will have the update lock hint applied and this is important because when you look at the Bas app code right now in version 23 um there will still be a lot of lock table statements sprinkled over all over that code but we're changing that with the app teams"
+    },
+    {
+      "t": 1225.6,
+      "end": 1245.6,
+      "text": "in the in the next releases so that we will try to make the Bas app much more concurrent friendly and less locking and you should do the same for your code if you have of course you have because before this you couldn't otherwise right you would you would have lock table sprinkled over your code as well"
+    },
+    {
+      "t": 1245.6,
+      "end": 1265.7,
+      "text": "and you need to look at these critically and see do I really need to do exclusive locks with lock table or can we maybe do better and and do the the new logging re yeah you you talked about the different record instances and you can control the Locking behavior on an instance level by using"
+    },
+    {
+      "t": 1265.7,
+      "end": 1279.7,
+      "text": "the read isolation property which is one way to avoid calling lock table you can basically opt out saying I want to read this with an update lock but I don't really want it to just to do a lock table"
+    },
+    {
+      "t": 1279.7,
+      "end": 1300.2,
+      "text": "correct and here is sort of a summary of the before and after situation um we talked about the update lock versus recommitted and basically the effect is now that you'll only acquire shared lck when reading other data from that table and that means that you can"
+    },
+    {
+      "t": 1300.2,
+      "end": 1320.6,
+      "text": "read other data from that table and other session can do the same now the record that you're actually modifying will basically be just as L as before but sort of the inadvertent locking of other records is now not happening when you enable this new locking"
+    },
+    {
+      "t": 1320.6,
+      "end": 1341.1,
+      "text": "schema so when we designed this and this actually took two releases so there when you set the isolation level um that was in the wave One release we wanted to put that in for before we went to this and we were kind of oh dear are we are we breaking everything"
+    },
+    {
+      "t": 1341.1,
+      "end": 1361.4,
+      "text": "we don't know we don't think we are but just to be cautious yes so we have added this as a feature management switch so you can enable it uh and it should be noticed of course things will still work functionally there is no change you still have transactional consistency of course"
+    },
+    {
+      "t": 1361.4,
+      "end": 1382,
+      "text": "but you might get the another user has modified this in case you have certain code paths we have not seen issues with this in our base app but we cannot rule out we can think of examples where you could get in to a different Behavior where you would see"
+    },
+    {
+      "t": 1382,
+      "end": 1402,
+      "text": "this that another user has modified the record and this is part of so concurrency testing is one of the most difficult ways to test code right that's why I put in yens didn't know that but he can you can see this bcpt question mark in there because there is actually a tool that can"
+    },
+    {
+      "t": 1402,
+      "end": 1422.1,
+      "text": "help you do concurrency tests and and flesh out locking issues so one tip here is that enable this in sandboxes and make some scenarios in in this business Central performance toolkit where you are able to do concurrency tests and that might be a good way to see whether your code is actually taking"
+    },
+    {
+      "t": 1422.1,
+      "end": 1442.6,
+      "text": "fewer locks or if it's act could be that it's taking other locks or maybe having more Deadlocks but you would be able to to detect it using this bcpt tool correct and the way we're going to roll this out is the that in this release then upgraded tenants"
+    },
+    {
+      "t": 1442.6,
+      "end": 1462.6,
+      "text": "can opt in via the through the feature management page as we showed before for new tenants this is automatically enabled but you can flip this back and forth at at will um so that but it is done for all users so you don't have Kenny running with One locking scheme and Yen's"
+    },
+    {
+      "t": 1462.6,
+      "end": 1483,
+      "text": "running with another one um but it is something that can be moved back and forth for testing so you can also compare with and without just one gutcher here what yens was saying with the all users you actually need a restart of the environment yes for this for this switch to take effect"
+    },
+    {
+      "t": 1483,
+      "end": 1501.6,
+      "text": "so just be aware of that and that's in order to not mix and match yes um these from the from the next version we will enable this by default but you can still disable it and then from version 25 then the new locking will will be the way we do"
+    },
+    {
+      "t": 1501.6,
+      "end": 1521.8,
+      "text": "locking now there are a few other performance improvements in the data sty that are worth mentioning you might have seen that autoincrement Fields made very wide tables slow that has been optimized there was an inefficient parameter generation algorithm that made it worse and worse and if you had 100 Fields"
+    },
+    {
+      "t": 1521.8,
+      "end": 1543.6,
+      "text": "Auto increment would actually start taking seconds um that has been fixed and it's a lot faster now and we've also optimized the SQL queries we generate from set range um so that SQL has a better chance of picking an optimal"
+    },
+    {
+      "t": 1543.6,
+      "end": 1564,
+      "text": "index there are also a few changes that are upcoming in 2024 release way one the server settings for Force order and loop joints will be removed so that you don't have the opportunity to run run that in the old way this is how we've been running for years in the service um"
+    },
+    {
+      "t": 1564,
+      "end": 1577.9,
+      "text": "and also for on premises you might run with the ability to write to the app database we will remove that um possibility from the next"
+    },
+    {
+      "t": 1577.9,
+      "end": 1598.4,
+      "text": "release cool so Goos the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging or Deadlocks if you you maybe you don't know but maybe go and find find out if you have deleted"
+    },
+    {
+      "t": 1598.4,
+      "end": 1618.6,
+      "text": "um or often data that can be delet deleted you can save on storage you can save on performance and uh the third thing is if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid of the appdb as a concept so so that's these"
+    },
+    {
+      "t": 1618.6,
+      "end": 1639,
+      "text": "changes uh and this is one of the changes in that what else should you watch of course if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely a session worth watching"
+    },
+    {
+      "t": 1639,
+      "end": 1659.4,
+      "text": "and then specifically in this serious uh the session the fourth session in the watchs new and server and database is about reporting but under the hood we have some cool new things to talk about with cies and maybe that Cliffhanger we should just leave it here and then just refer to"
+    },
+    {
+      "t": 1659.4,
+      "end": 1679.4,
+      "text": "the business Central resources take the discussions on Yammer join the conversations on X um submit your ideas to BC ideas Etc and um hope that we will get some good feedback on this and other things and looking forward to hearing"
+    },
+    {
+      "t": 1679.4,
+      "end": 1685.8,
+      "text": "from you thank you thank"
+    },
+    {
+      "t": 1685.8,
+      "end": 1687,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.11,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4264
+}

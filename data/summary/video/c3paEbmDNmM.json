@@ -1,0 +1,27 @@
+{
+  "video_id": "c3paEbmDNmM",
+  "item_id": "video/yt-microsoft/c3paEbmDNmM",
+  "summary": "New reporting capabilities in Business Central 2023 release wave 2: data analysis on query objects, Excel layouts with multiple data sheets for parent-child data, Power Query and Power Pivot in Excel layouts, and teaching tips and help links for reports and queries. Data analysis on lists and queries is stated as generally available.",
+  "overview": "The session covers server and database reporting changes in the 2023 release wave 2. The query object now has an analysis view attached and can be opened from the UI with Run object, for example as an action on a page, with grouping and pivoting. Drill-downs run as separate queries at the server level, so large record counts can be summed and explored.\n\nFor Excel layouts, parent-child (overview-detail) data can be generated as multiple root data items in separate sheets instead of one flat data set. Power Query and Power Pivot can be used to transform data and model relationships. The video also shows teaching tips and help links on report and query request pages, and ends with advice to design around what the user is trying to do with analytics, with Power BI named as the tool of choice for KPIs.",
+  "key_points": [
+    "Query objects now have an analysis view and can be run from the UI with Run object, for example as an action on a page, with grouping and pivoting.",
+    "Server-side drill-down: each drill-down is a query by itself, which lets users sum millions of records and drill into them.",
+    "Excel layout multiple data sheets is available in version 23. You enable it with a property, and it applies only to reports that target the Excel layout type.",
+    "Excel layouts support Power Query and Power Pivot, but users may need to learn Excel modeling techniques.",
+    "Teaching tips appear on report and query request pages. They can be dismissed and recalled by hovering over the title.",
+    "Developers can create help links for reports and queries that show on request pages and in the help pane.",
+    "Design guidance: understand what the user is trying to do with analytics, and a good report data set with a good first layout often lets customers add what they need."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "510fa3ed62e09c64a5870b8ed6474bb66cace50bc632e50544b2fb06fabd7e3f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015494399999999998
+  }
+}

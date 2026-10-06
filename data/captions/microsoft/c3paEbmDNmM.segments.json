@@ -1,0 +1,211 @@
+{
+  "video_id": "c3paEbmDNmM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.2,
+      "end": 38.3,
+      "text": "welcome to this business Central launch event session watch new in server and database this is uh the fourth session in in this series and in this session we're going to talk about report in capabilities the first thing is data analysis on queries yes the query object has"
+    },
+    {
+      "t": 38.3,
+      "end": 58.9,
+      "text": "been there for 10 years and it's time that it gets a bit more prominence so now you've always been able to open the query URL now it has the new uh analysis view attached and you can also run it directly in the UI because we now have support for the Run"
+    },
+    {
+      "t": 58.9,
+      "end": 79,
+      "text": "object and it means that you can add it to pages and it in this case an item hero query and then it'll show up as an action you can invoke which will open a page showing the result of the query and from there you can do all the nice things that"
+    },
+    {
+      "t": 79,
+      "end": 99,
+      "text": "you can do in analysis views with uh grouping and pivoting and stuff like that excellent new addition can we can we talk a little bit about under the hood here yeah yeah so imagine so you can see this screenshot here with a UI on a query right this means this the a"
+    },
+    {
+      "t": 99,
+      "end": 119.2,
+      "text": "runtime is able to apparently run queries and also if you think of it pivot and filter on queries which means that we can actually under like in the a runtime not in Al API but just below that we can do Dynamic query"
+    },
+    {
+      "t": 119.2,
+      "end": 139.4,
+      "text": "capabilities yes and now it will be covered more in detail in another session another thing we've added is the ability to handle large amounts of data the way we do these queries is that each drill down is a query by itself so that you can now do the sum of millions of records and then general"
+    },
+    {
+      "t": 139.4,
+      "end": 159.5,
+      "text": "ledger entry and D do drill down using uh server side analysis views which now also works on queries so if you listen Clos here this is something interesting going on in the a runtime and we won't talk anymore about that this is not the no"
+    },
+    {
+      "t": 159.5,
+      "end": 180,
+      "text": "this is not the session you're thinking of so for Excel layouts um the Excel layouts feature did not really handle parent child overiew detail types very well because it was following the logic of RDL reports where the data set was Al always a"
+    },
+    {
+      "t": 180,
+      "end": 200.8,
+      "text": "Square data set now we've made a change so that if you have multiple root data items then the data for these can now be represented in each their sheet which gives you a much more condensed view if you look at the one to the left you will actually see that the real data"
+    },
+    {
+      "t": 200.8,
+      "end": 221.1,
+      "text": "is down along the diagonal line and the rest was filled out with other values basically the uh null value values to make it a square data set making the handling of this in Excel code quite cumbersome but if you set"
+    },
+    {
+      "t": 221.1,
+      "end": 232.4,
+      "text": "the Excel layer multiple data sheets to true then a sheet will be generated with the data item names instead of just having one square data set"
+    },
+    {
+      "t": 232.4,
+      "end": 252.4,
+      "text": "exactly now if you think about that inside Excel and maybe use some of the more modern tools in Excel modern here meaning 10 years old you have basically two interesting modeling tool inside Excel you have power query which is a way"
+    },
+    {
+      "t": 252.4,
+      "end": 272.5,
+      "text": "to modify data to transform data it's actually a small ETL language in itself and then you have power pivot which is a modeling tool inside Excel to Define relationships uh between tables and this makes this new feature is"
+    },
+    {
+      "t": 272.5,
+      "end": 292.5,
+      "text": "is you can use both of these Excel features to really make a compelling data model for your Excel layouts that allows you to do crazy things I would say not crazy we like crazy great things um so we we we really looking forward to"
+    },
+    {
+      "t": 292.5,
+      "end": 308.9,
+      "text": "seeing how will this impact the your Excel skills maybe you need to up them a little bit and learn about these new um or other ways of modeling data in Excel which by the way are the same as same engine as"
+    },
+    {
+      "t": 308.9,
+      "end": 329,
+      "text": "powerp um so the new property on reports is called Excel layout multiple data sheets available in version 23 if you set it to true you get these new multiple data sheets in your Excel uh layouts when they're being rendered and if you set this to something that does not use an Excel layout it actually"
+    },
+    {
+      "t": 329,
+      "end": 346.6,
+      "text": "has no effect but we've found that it works a lot better if you target your report to the type of layout you want whether it's RDL word or Excel so this is relevant for the reports that you're targeting to be consumed in"
+    },
+    {
+      "t": 346.6,
+      "end": 366.7,
+      "text": "Excel while we were here we uh we also worked on making teaching tips and help links available both on queries and Report request Pages the latter it was actually already there we just never talked about it and documented it so now it's it's there please help your"
+    },
+    {
+      "t": 366.7,
+      "end": 387.4,
+      "text": "users understand the the intent of reports and queries and give them some proper help links because a report and or a query is just as useful or an first class citizen as normal functionality so why shouldn't we also help the users out"
+    },
+    {
+      "t": 387.4,
+      "end": 407.4,
+      "text": "here this is how it looks uh a teaching tip on a request page and by the way um if you use the context sensitive Health page you you can make dedicated uh help links for your reports and the teaching tips um about text and title also uh comes if you"
+    },
+    {
+      "t": 407.4,
+      "end": 427.5,
+      "text": "open help so start using that and create awesome reports and create awesome reports as well uh same thing goes for queries so this is an your analyze inventory query that now has a nice nice teaching tip by the way the teaching tip is also after you you close it you"
+    },
+    {
+      "t": 427.5,
+      "end": 441.3,
+      "text": "can always just hover over the title and get it back and then the same thing applies both for teaching tips and for helpl Lings that for queries they will now now be available um in the help"
+    },
+    {
+      "t": 441.3,
+      "end": 461.4,
+      "text": "pain to kind of help you we also uh worked on the reports documentation so there's a lot more going on here so go and visit this over the next months and we'll try to to to make that better also adding ways to create robust reports and robust"
+    },
+    {
+      "t": 461.4,
+      "end": 481.4,
+      "text": "layouts something we're working on right now so that should hopefully be in the doc over the next month and specifically for Excel go to the BC Excel samples uh site where you have tips and tricks for how to design your data sets and layouts sample layout out for existing reports you can just"
+    },
+    {
+      "t": 481.4,
+      "end": 499.6,
+      "text": "try out and also see the techniques that are being used if you want to do presentations on this topic for events or conferences there are sample powerbi no PowerPoint decks here uh FAQ and list of videos If videos is the way you learn"
+    },
+    {
+      "t": 499.6,
+      "end": 520.2,
+      "text": "things so Goos for reporting the first most important thing is you need to start thinking about reporting in a different way you need to to stop just developing reports and instead understand what is the user trying to do with analytics"
+    },
+    {
+      "t": 520.2,
+      "end": 540.3,
+      "text": "and based on that start supporting whatever they want if they want a report that is being printed maybe develop a report if they just want to consume in Excel do an Excel layout if they want to consume in client write a query if they want kpis do powerbi"
+    },
+    {
+      "t": 540.3,
+      "end": 560.6,
+      "text": "which is also the next thing you probably should start learn a little bit about powerbi bi business intelligence and er are closely related ER is about business processes business intelligence is about reporting and and and getting insights into business processes they go together"
+    },
+    {
+      "t": 560.6,
+      "end": 580.8,
+      "text": "and powerbi is here to stay and it's going to be the tool of choice especially for for for kpis on business Central yeah and then you should also invest in Al queries they're not only for performance tuning you can use them to generate really good analysis views"
+    },
+    {
+      "t": 580.8,
+      "end": 600.8,
+      "text": "they are very powerful to actually join data together from multiple sources and allow the user to the freedom to slice and dice as the user wants so sometimes instead of building a report it might just mean that you should build a query instead and then use the analysis view instead of investing"
+    },
+    {
+      "t": 600.8,
+      "end": 620.9,
+      "text": "in reporting and then also learn how to design to design for Excel layouts and very often just having a good report data set and a good first layout allows the customer to add what they need in the layout because we find that there are a lot more people who"
+    },
+    {
+      "t": 620.9,
+      "end": 640.9,
+      "text": "can do excel layouts than RDL layouts surprise surprise surprise so sometimes instead of buil me report it might just mean buil me a report data set which is good for Excel reports and you know what yens I think that once you do this you would have customers that um like Wizards"
+    },
+    {
+      "t": 640.9,
+      "end": 652.1,
+      "text": "in Excel and you might learn something from your customers here I didn't know you could do that Excel it will blow your minds and you will uh learn together with your"
+    },
+    {
+      "t": 652.1,
+      "end": 672.4,
+      "text": "customer so two in at least two relevant sessions that you might want to jump to out out of this um apart from of course the serus of four there are two sessions what's new in powerbi and reporting for developers is something where we go deeper into this thinking about the analytics"
+    },
+    {
+      "t": 672.4,
+      "end": 692.9,
+      "text": "requirements and then pick different tools also we have some new cool things going on in powerbi embed so uh so if you want this content you definitely want to check this session out and the second session is about um this data analysis this feature that is now generally available on lists and queries"
+    },
+    {
+      "t": 692.9,
+      "end": 705.6,
+      "text": "this second session is much more about the how you should think of this as a functional consultant for end users and then of course we refer to the general business Central"
+    },
+    {
+      "t": 705.6,
+      "end": 722,
+      "text": "resources Yammer X U BC ideas and if you can join some of the office hours and with that thank you very much for watching"
+    },
+    {
+      "t": 722.1,
+      "end": 723,
+      "text": "thanks"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1726
+}

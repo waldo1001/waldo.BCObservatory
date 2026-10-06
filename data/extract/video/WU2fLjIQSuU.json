@@ -1,0 +1,812 @@
+{
+  "video_id": "WU2fLjIQSuU",
+  "item_id": "video/yt-microsoft/WU2fLjIQSuU",
+  "title": "What's New: AL Go for GitHub (2023 release wave 2)",
+  "duration_s": 2682,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al-go",
+    "devops",
+    "ci-cd",
+    "github",
+    "settings",
+    "code signing",
+    "hsm",
+    "deployment",
+    "environments",
+    "versioning",
+    "custom deployment",
+    "on-premises"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AL Go for GitHub",
+      "t_start": 0,
+      "t_end": 129.8
+    },
+    {
+      "title": "Session topics and agenda",
+      "t_start": 129.8,
+      "t_end": 203.6
+    },
+    {
+      "title": "Settings and configuration types",
+      "t_start": 203.6,
+      "t_end": 415.8
+    },
+    {
+      "title": "Versioning and upgrades",
+      "t_start": 415.8,
+      "t_end": 562.9
+    },
+    {
+      "title": "Code signing and HSM key storage",
+      "t_start": 562.9,
+      "t_end": 677.8
+    },
+    {
+      "title": "Deployment enhancements and environments",
+      "t_start": 677.8,
+      "t_end": 950
+    },
+    {
+      "title": "Custom deployment mechanism and on-premises support",
+      "t_start": 950,
+      "t_end": 1150
+    },
+    {
+      "title": "Pull request status check and GitHub branch protection",
+      "t_start": 1150,
+      "t_end": 1300
+    },
+    {
+      "title": "Compiler folder and Linux runner architecture",
+      "t_start": 1300,
+      "t_end": 1550
+    },
+    {
+      "title": "Performance comparison and caching optimization",
+      "t_start": 1550,
+      "t_end": 1740.2
+    },
+    {
+      "title": "Cost implications and GitHub minutes calculation",
+      "t_start": 1740.2,
+      "t_end": 1840
+    },
+    {
+      "title": "Use GH token workflow feature",
+      "t_start": 1840,
+      "t_end": 2028.6
+    },
+    {
+      "title": "BCPT test result viewer",
+      "t_start": 2028.6,
+      "t_end": 2190.4
+    },
+    {
+      "title": "Customizing AL Go for GitHub with templates",
+      "t_start": 2190.4,
+      "t_end": 2682
+    }
+  ],
+  "features": [
+    {
+      "name": "AL Go for GitHub DevOps solution",
+      "description": "A plug-and-play DevOps solution for Business Central development on GitHub that enables secure CI/CD, quality assurance, change tracking, and code validation without requiring knowledge of Docker, PowerShell, or YAML.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.7,
+      "t_end": 59.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "devops",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Settings configuration types",
+      "description": "AL Go for GitHub supports three levels of settings: repository-wide settings covering template URL, schedules, runners, and environments; project-wide settings placed in .algo folders; and workflow-specific settings for test operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 203.6,
+      "t_end": 348.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "settings",
+        "configuration",
+        "repository",
+        "project"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Version tracking in AL Go",
+      "description": "AL Go version is specified in the template URL branch (main or preview) and displayed in initialize workflow output. Current version shown is 3.2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 428.5,
+      "t_end": 490.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "template"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Update AL Go system files workflow",
+      "description": "A workflow that upgrades AL Go to the latest version. The check for updates job monitors for available updates and recommends running this workflow when new versions are available. Can also point to indirect template repositories for centralized customization management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 501.7,
+      "t_end": 546.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires a secret called GH token workflow with personal access token permissions",
+        "If settings already exist in the repository settings file, they will not be overwritten"
+      ],
+      "tags": [
+        "updates",
+        "workflow",
+        "gh-token",
+        "template inheritance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "HSM key storage for code signing",
+      "description": "Support for code signing with private keys stored in hardware security modules or HSM key storage, including Azure Key Vault HSM. This addresses the July 1st requirement for code signing certificate providers to deliver private keys in hardware modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 577.4,
+      "t_end": 665.9,
+      "is_demoed": false,
+      "caveats": [
+        "No demo available due to lack of code signing certificate"
+      ],
+      "tags": [
+        "code-signing",
+        "hsm",
+        "azure-key-vault",
+        "security"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub environments deployment",
+      "description": "Support for deploying to GitHub environments with branch policies and environment-specific configurations. Includes ability to exclude certain environments from deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 688.8,
+      "t_end": 735.3,
+      "is_demoed": false,
+      "caveats": [
+        "Environments not available in private repositories in free GitHub tier"
+      ],
+      "tags": [
+        "deployment",
+        "environments",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Deploy to environment configuration",
+      "description": "New setting called deploy to environment name (e.g., deploy to QA) that replaces secret-based environment naming. Includes options for environment type, branches, projects, sync mode, and continuous deployment flag.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 805.1,
+      "t_end": 880,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deployment",
+        "environments",
+        "configuration",
+        "settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Continuous deployment to production environments",
+      "description": "Ability to explicitly set continuous deployment to true or false regardless of environment type, allowing continuous deployment to production environments like final acceptance test environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880,
+      "t_end": 930,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deployment",
+        "continuous-deployment",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom deployment mechanism",
+      "description": "Feature allowing users to specify custom environment types (on-prem, custom, etc) and provide custom PowerShell scripts for deployment, enabling deployment to non-SaaS environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 950,
+      "t_end": 1050,
+      "is_demoed": true,
+      "caveats": [
+        "Custom deployment scripts not provided by Microsoft",
+        "ALOps external deployer module may help with on-premises deployments"
+      ],
+      "tags": [
+        "deployment",
+        "on-premises",
+        "custom",
+        "extensibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom GitHub runner support",
+      "description": "Optional ability to use a custom GitHub runner inside a firewall at a customer site for deployment to on-premises environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1049.3,
+      "t_end": 1070,
+      "is_demoed": false,
+      "caveats": [
+        "Optional",
+        "Requires GitHub runner infrastructure at customer site"
+      ],
+      "tags": [
+        "deployment",
+        "on-premises",
+        "github-runner",
+        "custom"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pull request status check job",
+      "description": "New dedicated job for pull request validation that can be used as a required status check in GitHub branch protection rules, replacing the need to reference complex CI/CD workflow matrix jobs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1170,
+      "t_end": 1300,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pull-request",
+        "branch-protection",
+        "validation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Compiler folder feature",
+      "description": "New functionality that allows AL Go to build applications without containers and enables GitHub to cache artifacts, supporting faster Linux-based builds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1338,
+      "t_end": 1500,
+      "is_demoed": true,
+      "caveats": [
+        "Currently requires manual setting configuration",
+        "Do not publish apps setting disables test running"
+      ],
+      "tags": [
+        "compiler-folder",
+        "linux",
+        "performance",
+        "caching"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Linux runner build optimization",
+      "description": "Configuration to run entire CI/CD workflow on GitHub hosted Linux runners instead of Windows, reducing costs and improving build speed through compiler folder feature. Building AL Go apps on Linux GitHub runners without Docker containers achieves faster build times by eliminating container download and creation overhead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1485,
+      "t_end": 1678.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires do not publish apps and use compiler folder settings",
+        "Test running disabled with do not publish apps setting",
+        "Requires use of compiler folder",
+        "Requires using Ubuntu GitHub runner"
+      ],
+      "tags": [
+        "linux",
+        "performance",
+        "cost-optimization",
+        "compiler-folder",
+        "containers",
+        "github-actions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central artifact caching",
+      "description": "Caching Business Central artifacts locally on runners to avoid re-downloading them on subsequent builds, reducing build time from 4 minutes 42 seconds to 3 minutes 38 seconds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1689.4,
+      "t_end": 1714.2,
+      "is_demoed": true,
+      "caveats": [
+        "Benefit only applies on subsequent builds after initial cache",
+        "Cache used with GitHub cache mechanism"
+      ],
+      "tags": [
+        "caching",
+        "performance",
+        "artifacts"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Use GH token workflow feature",
+      "description": "Checkbox option to use GH token workflow for pull requests and commits to overcome GitHub token limitations that prevent workflows from triggering other workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1840,
+      "t_end": 2024,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub actions setting to allow actions to create and approve pull requests",
+        "Only works for pull requests and commits"
+      ],
+      "tags": [
+        "github-token",
+        "workflows",
+        "pull-requests"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT test result viewer",
+      "description": "Feature to view performance test results in CI/CD workflow summary, supporting baseline comparison and regression detection for performance and SQL statements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2053,
+      "t_end": 2190.4,
+      "is_demoed": true,
+      "caveats": [
+        "Currently in draft pull request state",
+        "Test repository should be used for testing, not production",
+        "Feedback requested before final implementation"
+      ],
+      "tags": [
+        "testing",
+        "performance",
+        "ci-cd",
+        "bcpt"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Customize AL Go for GitHub",
+      "description": "Ability to customize AL Go for GitHub using template repositories to add custom jobs, settings, steps, and scripts to the CI/CD pipeline. Includes ability to add custom jobs like custom job/my job and integrate them into the CI/CD pipeline with dependencies on build and other steps. Ability to add custom steps before the build, after the build, and before deploy steps with customization stored in indirect template repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2190.4,
+      "t_end": 2452.4,
+      "is_demoed": true,
+      "caveats": [
+        "No promises on when this will be included",
+        "Requires understanding of template repository structure",
+        "Test repository use recommended before production"
+      ],
+      "tags": [
+        "customization",
+        "templates",
+        "ci-cd",
+        "custom-jobs"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC container partial script customization",
+      "description": "Custom BC container partial script that can be created to customize container creation during test runs and can be part of indirect PTE templates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2389.7,
+      "t_end": 2400.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "container scripts",
+        "customization",
+        "testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Indirect template repository for AL Go",
+      "description": "Feature allowing creation of a PTE indirect template repository that centralizes customizations and can be updated across multiple repositories using update AL Go system files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2452.4,
+      "t_end": 2635.4,
+      "is_demoed": true,
+      "caveats": [
+        "Job merging behavior: jobs with same names are overwritten from template, new unique jobs are not overwritten"
+      ],
+      "tags": [
+        "template repository",
+        "indirect",
+        "pte",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom job and step execution order",
+      "description": "Custom jobs and steps from indirect template and repository are merged with defined execution order: template before steps run first, then repository before steps, then after steps (repository first, then template).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2554.6,
+      "t_end": 2612.1,
+      "is_demoed": true,
+      "caveats": [
+        "Jobs with same name from template overwrite repository versions",
+        "Unique jobs keep their original order"
+      ],
+      "tags": [
+        "job execution",
+        "workflow order",
+        "merging"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fork alternative for AL Go customization",
+      "description": "Forks of AL Go are mentioned as an alternative approach to creating custom template repositories, with no decision yet on which strategy to recommend.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2648.4,
+      "t_end": 2663.1,
+      "is_demoed": false,
+      "caveats": [
+        "No decision made on recommended approach"
+      ],
+      "tags": [
+        "fork",
+        "al-go",
+        "strategy"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "deploy to custom",
+      "t": 1097.4
+    },
+    {
+      "type": "other",
+      "name": "deploy to Q&A",
+      "t": 1118.9
+    },
+    {
+      "type": "other",
+      "name": "ALOps settings",
+      "t": 1118.9
+    },
+    {
+      "type": "other",
+      "name": "pull request handler",
+      "t": 1183
+    },
+    {
+      "type": "other",
+      "name": "run pipeline",
+      "t": 1406.6
+    },
+    {
+      "type": "other",
+      "name": "BCBT baseline.json",
+      "t": 2135.3
+    },
+    {
+      "type": "other",
+      "name": "BC container partial script",
+      "t": 2389.7
+    },
+    {
+      "type": "other",
+      "name": "custom job/my job",
+      "t": 2352.2
+    },
+    {
+      "type": "other",
+      "name": "custom job/prepare deploy",
+      "t": 2413.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Nielsen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Freddy",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.7,
+      "text": "AL Go for GitHub is the plug-and-play DevOps solution for Business Central development on GitHub",
+      "why_it_matters": "This establishes the core definition and purpose of AL Go for GitHub as a ready-to-use DevOps platform.",
+      "check": "exact"
+    },
+    {
+      "t": 59.3,
+      "text": "You don't need any knowledge in Docker, PowerShell, or YAML, or anything like that. You don't need a dedicated DevOps engineer",
+      "why_it_matters": "Explains the key value proposition - accessibility without specialized DevOps knowledge or resources.",
+      "check": "exact"
+    },
+    {
+      "t": 241.3,
+      "text": "There are three types of settings in AL Go for GitHub really. There's repository wide settings",
+      "why_it_matters": "Defines the architectural structure of how AL Go manages configuration across different scopes.",
+      "check": "exact"
+    },
+    {
+      "t": 465,
+      "text": "AL Go for GitHub version 3.2",
+      "why_it_matters": "Establishes the current version number at the time of this presentation.",
+      "check": "exact"
+    },
+    {
+      "t": 514,
+      "text": "Every time you have a CI CD or build running, there'll be a job called check for updates",
+      "why_it_matters": "Describes the automated monitoring mechanism for keeping AL Go up to date.",
+      "check": "exact"
+    },
+    {
+      "t": 610.6,
+      "text": "that are issued by code signing by the providers of code signing certificates will have to",
+      "why_it_matters": "Establishes the regulatory requirement that drove HSM support in AL Go.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 805.1,
+      "text": "of doing this going forward is to create a new setting called deploy to an environment name",
+      "why_it_matters": "Announces a breaking change from secret-based to setting-based environment configuration.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 805.1,
+      "text": "the real way of of doing this going forward is to create a new setting called deploy to an environment name, meaning deploy to",
+      "why_it_matters": "Establishes the new configuration approach for handling environment-specific deployments without using GitHub secrets",
+      "check": "exact"
+    },
+    {
+      "t": 911,
+      "text": "you can set it to true or false, no matter whether it's a it's a production environment or a um or a sandbox environment",
+      "why_it_matters": "Demonstrates the flexibility of continuous deployment settings independent of environment classification",
+      "check": "exact"
+    },
+    {
+      "t": 950.9,
+      "text": "the reason for that is really another newcomer in in this version, which is custom deployment",
+      "why_it_matters": "Introduces custom deployment as a key new capability for non-SaaS environments",
+      "check": "exact"
+    },
+    {
+      "t": 1436.6,
+      "text": "a new functionality that allows AL Go to build apps without containers, and allowed GitHub to cache artifacts",
+      "why_it_matters": "Core technical improvement enabling faster, cheaper builds on Linux runners",
+      "check": "exact"
+    },
+    {
+      "t": 1447.1,
+      "text": "GitHub hosted runner Linux runners are half the price, and uh they are 33 approximately percent faster than the Windows runners",
+      "why_it_matters": "Quantifies cost and performance benefits of Linux runner adoption",
+      "check": "exact"
+    },
+    {
+      "t": 1615.9,
+      "text": "pulling generic image takes 4 minutes creating a container takes 7 minutes. So, 11 minutes of these 14 or 12 minutes actually goes for",
+      "why_it_matters": "Demonstrates the specific performance bottleneck that prompted moving to Linux runners without containers.",
+      "check": "exact"
+    },
+    {
+      "t": 1650.6,
+      "text": "this build actually took 4 minutes and 42 seconds. So, it's quite a bit faster, 12 minutes faster than the other build",
+      "why_it_matters": "Demonstrates real-world performance improvement with compiler folder on Linux",
+      "check": "exact"
+    },
+    {
+      "t": 1650.6,
+      "text": "we do not publish apps, use compiler folder, runs on Ubuntu and GitHub runner Ubuntu click actions and we'll see that this build actually",
+      "why_it_matters": "Shows the dramatic improvement using Linux runners, cutting build time from 16 minutes to 4 minutes 42 seconds.",
+      "check": "exact"
+    },
+    {
+      "t": 1757.6,
+      "text": "for a free skew of of GitHub, there's like 2,000 minutes included for free of of of runners. Uh that is that equals to",
+      "why_it_matters": "Quantifies the practical business impact of faster Linux builds on free GitHub tier usage.",
+      "check": "exact"
+    },
+    {
+      "t": 1863.4,
+      "text": "GitHub says that triggering a workflow from a workflow is not possible using the GitHub token. Uh meaning that if we run a workflow",
+      "why_it_matters": "Explains the technical limitation that the GH token workflow feature addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 2040.4,
+      "text": "there's no promises, no dates. I know that it looks like everything is done, but we might still like pull the plug and say",
+      "why_it_matters": "Clarifies the uncertain status of upcoming features in development.",
+      "check": "exact"
+    },
+    {
+      "t": 2201.2,
+      "text": "I think 80% of partners would not need to, like, change anything. Uh they'd be able to use AL Go for GitHub as is",
+      "why_it_matters": "Establishes the design goal that AL Go works out of the box for most users.",
+      "check": "exact"
+    },
+    {
+      "t": 2352.2,
+      "text": "I've integrated this job into my CI/CD pipeline",
+      "why_it_matters": "Demonstrates that custom jobs can be integrated directly into AL Go workflows, showing practical application of the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 2479.6,
+      "text": "added settings will also be transferred to the repo by update AL Go system files. If you already set the settings in this file,",
+      "why_it_matters": "Explains the conditional behavior of settings transfer - existing settings are preserved, only new ones are added.",
+      "check": "exact"
+    },
+    {
+      "t": 2566.3,
+      "text": "if there is already a a a job with the same name in the repository that it comes from the indirect repository, it will",
+      "why_it_matters": "Critical detail about job merging: same-named jobs from templates override repository versions.",
+      "check": "exact"
+    },
+    {
+      "t": 2578,
+      "text": "if you have like new jobs that are not named the same as as as jobs that are that are from AL Go or",
+      "why_it_matters": "Clarifies that unique, non-conflicting jobs are preserved and not lost during template updates.",
+      "check": "exact"
+    },
+    {
+      "t": 2635.4,
+      "text": "you just you decide when you want to uptake new changes to that, and these changes can then be be transferred to uh to",
+      "why_it_matters": "Highlights the central benefit of indirect template repositories - controlled, automatic propagation of changes across multiple repos.",
+      "check": "exact"
+    },
+    {
+      "t": 2648.4,
+      "text": "you could also have a fork of AL Go. Uh there are different ways of doing that and and we're not sure whether we",
+      "why_it_matters": "Indicates uncertainty about the recommended approach for AL Go customization, seeking user feedback.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 465,
+      "kind": "preview",
+      "text": "If you are running the preview version, that would the template URL would be github.com microsoft AL Go PTE at preview"
+    },
+    {
+      "t": 1470.2,
+      "kind": "coming-later",
+      "text": "At some point in time, in a future version of AL Go for GitHub, these things will be set behind the scenes"
+    },
+    {
+      "t": 1547.5,
+      "kind": "other",
+      "text": "do not publish apps will in effect disable running tests, which is the reason why we didn't like default these things"
+    },
+    {
+      "t": 2040.4,
+      "kind": "preview",
+      "text": "there's no promises, no dates... we might still like pull the plug and say we're not going to ship this at all"
+    },
+    {
+      "t": 2101.7,
+      "kind": "coming-later",
+      "text": "it's a feature that that we might add soon"
+    },
+    {
+      "t": 2248,
+      "kind": "subject-to-change",
+      "text": "there actually is a PR open now, and whether we're going to merge it or or include this functionality, I don't know"
+    },
+    {
+      "t": 2648.4,
+      "kind": "other",
+      "text": "we're not sure whether we are going to select one or the other. If you're seeing this listening to this video, uh have a look at the functionality. Give us some some some feedback on whether you think this is a good idea or whether we should just go with forks"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 21
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024645
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026441
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025806000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021252999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032904
+    }
+  ]
+}

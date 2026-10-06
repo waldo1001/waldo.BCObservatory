@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/direct-transfers-from-warehouse-enabled.html",
   "published_at": "2026-09-09T07:22:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:38:22.969Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md",
+      "words": 994
+    },
+    "extracted": {
+      "at": "2026-10-06T21:38:31.476Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006851
+    },
+    "summarized": {
+      "at": "2026-10-06T21:38:31.477Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:38:31.478Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:38:31.481Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md"
     }
   },
   "input_hash": "2026-09-09T07:22:10.280Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5011bfa638411b28edf581267668de07b1eeef76ae1ff58314e3572f2bea7afb"
 }

@@ -1,0 +1,650 @@
+{
+  "video_id": "F_pssS0FtUc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.4,
+      "end": 24.4,
+      "text": "all right Microsoft customer success day Dynamics con virtual great to be here my name is Kenny pontan and I'm the principal I'm a principal um program manager with Microsoft working with business Central every single day and my talk today is about how"
+    },
+    {
+      "t": 24.4,
+      "end": 44.6,
+      "text": "you can use data to get low Freaks and go lives and optimize your Investments with business Central using Telemetry data so now that's very scary Telemetry data what is that well the agenda for today is exactly this what is telemetry and why should I care and"
+    },
+    {
+      "t": 44.6,
+      "end": 64.9,
+      "text": "then the two main topics of course using data to get low friction business Central go lives as well as after go live how do you do more with business Central for the license you pay how to to do more with less with business Central and hopefully after this"
+    },
+    {
+      "t": 64.9,
+      "end": 85.2,
+      "text": "session you think hey I want this what should I tell my administrator to get me all this nice insights and if you even stick around to the end of this session there's going to be a live Q&A where I will stick around and ask or answer any questions that you might have might have on the topic so"
+    },
+    {
+      "t": 85.2,
+      "end": 106.1,
+      "text": "stay tuned for that but um let's dive in telemetry that's a dangerous word but actually it's not it's just a fancy word for usage data all there is to it business Central Telemetry is opt in you don't have to use it um administrators"
+    },
+    {
+      "t": 106.1,
+      "end": 126.5,
+      "text": "can set it up either you um as a tenant administrator or your partner can do it and I will show you in the end how easy it is to do and the feature itself has been designed to be privacy compliant we designed privacy into this so whatever you are under gdpr"
+    },
+    {
+      "t": 126.5,
+      "end": 141.9,
+      "text": "in European union or have any other privacy laws regulating what you are allowed to to do telem just conform to all of that if teley is enabled for a business Central"
+    },
+    {
+      "t": 141.9,
+      "end": 162.1,
+      "text": "environment we meaning business Central will lock data about the usage what do users do in business Central errors if something goes wrong performance where time is spent we're not going to talk a lot about performance in this session and changes who changed what when and then before we dive"
+    },
+    {
+      "t": 162.1,
+      "end": 182.4,
+      "text": "into the first demo the audience for this is actually it's both end users or I should say maybe the people at the customer organization who really care about the business Central is a success the implementation is a success so whether I sometimes call you"
+    },
+    {
+      "t": 182.4,
+      "end": 202.6,
+      "text": "the project sponsor because you put some of your own um of of yourself into this to make it work and therefore the more we can do to make this project work for you the better right and if you're a partner the same thing applies you want your customer to be a success"
+    },
+    {
+      "t": 202.6,
+      "end": 222.2,
+      "text": "you want this new business Central environment to shine and be something that customers users use and love so let's have the first quick tour into powerbi to just to visualize some of the things that you get with business Central"
+    },
+    {
+      "t": 222.2,
+      "end": 242.3,
+      "text": "Telemetry okay so here I am in the business Central usage app it's an app like a powerp app that just means that this is hosted you you install this from powerbi App Source but it's just a powerbi report actually it's four different reports you get"
+    },
+    {
+      "t": 242.3,
+      "end": 255.7,
+      "text": "a usage report here I will dive into that a bit more you get an error report a performance report and an Administration report that is probably mostly for"
+    },
+    {
+      "t": 255.7,
+      "end": 275.9,
+      "text": "administrators so let's take a look at a few of the pages in The usage report the first here is what we call Dow wow mow but it's just it's just the the L daily weekly and monthly users of the system now business Central Telemetry can have data"
+    },
+    {
+      "t": 275.9,
+      "end": 296.4,
+      "text": "for multiple environments or a single environment it doesn't matter for us so so this report just shows data as seen from a situation where multiple environments log telemet you to the same database it doesn't have to be the case if you only have one environment that you have Telemetry"
+    },
+    {
+      "t": 296.4,
+      "end": 316.8,
+      "text": "for you would just have only C data for one environment right so here you can see um your current daily weekly monthly usage and you can see that the last time this was updated was 18th of February and you can see the the current Dow wow Mau counts"
+    },
+    {
+      "t": 316.8,
+      "end": 336.8,
+      "text": "here are as they are but you can also see the progress of usage across um dates here you can see that um especially for for go live that you you typically during the go live phase have only a few users and then when you enroll"
+    },
+    {
+      "t": 336.8,
+      "end": 356.8,
+      "text": "the rest of the organization you will have many more users enrolled to this that also means that this Dow wow ma report over time will typically for go live just grow up to some number and if we're doing it right and if the partner is doing it right with an Eep system"
+    },
+    {
+      "t": 356.8,
+      "end": 377.1,
+      "text": "your M numbers are likely to be const because it's the chance of a user actually using business Central once a at least once a month is fairly High whatever uh however the the Dow the daily usage numbers will be different they will follow a a pattern where you see a dip during"
+    },
+    {
+      "t": 377.1,
+      "end": 394.8,
+      "text": "the the weekends and then for the weekdays you see active usage and then a dip for the weekend and so on so that's something you can see here how people how your users use the system um over the over the the day the week and the monthly"
+    },
+    {
+      "t": 394.8,
+      "end": 414.9,
+      "text": "numbers the next page here is sessions so this is showing you what types of users are logging in and what types of clients are they using are they using teams are they using phone or the web client when do they log in over the day over the week and"
+    },
+    {
+      "t": 414.9,
+      "end": 435,
+      "text": "uh and over a calendar whatever this report has been set to look data so it you can when you install this I'll show you later you will have um ability to say I only want data for seven days or two weeks or whatever you like so that will be the calendar you see here the next report"
+    },
+    {
+      "t": 435,
+      "end": 455.1,
+      "text": "here is clients so here you would be able to see what browsers do people use or what clients like tablet phone desktop and so on which green size do they use this is important if you design new functionality with new apps maybe pretended extensions together with a partner"
+    },
+    {
+      "t": 455.1,
+      "end": 469.4,
+      "text": "that may if you have users with small screens maybe small laptops you want to design the user interface in a different way than if people have wide screens so you get that information"
+    },
+    {
+      "t": 469.4,
+      "end": 489.4,
+      "text": "here um and you get statistics of which browsers people use maybe that's boring the next thing is not boring though this is the locations page here you can see from where people log into the system now my meta My Demo data here shows that people log in from Denmark because I'm from"
+    },
+    {
+      "t": 489.4,
+      "end": 509.6,
+      "text": "Denmark uh from the UK and from India so the map here shows you from where do people log in and the so that's the location and the language column you see here is showing you Which languages the users prefer in when they set up their client and"
+    },
+    {
+      "t": 509.6,
+      "end": 529.8,
+      "text": "there's also a visualization down here on user languages where you can see which are the languages that your users prefer to to have business Central set up in so just some we'll go through some of the other reports here you might say oh what about the reports and Page"
+    },
+    {
+      "t": 529.8,
+      "end": 549.8,
+      "text": "views we'll get there so I just want to show you a few more things and then go more deep into the go live part for the administration report I just want to show you two things the first one is a Change Report so how many times have you"
+    },
+    {
+      "t": 549.8,
+      "end": 570,
+      "text": "not talking been talking to someone from it and they say whenever there's something wrong or changed it's it's always a change in the system well this is what this report is for for the IT department or for for the partner organization to see whatever happened on either on"
+    },
+    {
+      "t": 570,
+      "end": 588.5,
+      "text": "the environment or an extension and so on was the environment updated was an extension installed and so on so what happened when is what this report uh shows all changes happening across all environments across these"
+    },
+    {
+      "t": 588.5,
+      "end": 608.6,
+      "text": "Dimensions the second page I want to show you here of field changes now business Central comes with a nice feature called sensitive field monitoring sensitive field monitoring allows the administrator of business Central to to say I want to track any change to"
+    },
+    {
+      "t": 608.6,
+      "end": 628.9,
+      "text": "these fields it could be a credit card Bank information whatever and if you do so this is locked to Telemetry not the data that was changed because we don't want to log customer data into Telemetry but who changed it is here when was it changed and which which field in which table"
+    },
+    {
+      "t": 628.9,
+      "end": 649,
+      "text": "was has changed so you can see that directly here in the admin report on the field changes okay let's go back to the to the presentation and dive a little bit in to the go live part so data driven low friction business Central go lives the go"
+    },
+    {
+      "t": 649,
+      "end": 669,
+      "text": "live phase has many many different things that you on the customer end and the partner on the partner end need to take care of in this presentation I I have two main tasks to discuss the first one is user acceptance testing does it work as we expect it to do and the second part is"
+    },
+    {
+      "t": 669,
+      "end": 689.1,
+      "text": "stability testing can we remove as much friction as possible before everyone is onboard it to business Central so let's see how this usage report and error and usage report can be used as a way to actually see if people"
+    },
+    {
+      "t": 689.1,
+      "end": 709.2,
+      "text": "will do user acceptions testing what do they test so let's go back to the powerbi report on the usage report and and look at a a few scenarios here so I will just go back up here to the usage report and dive into the first here is"
+    },
+    {
+      "t": 709.2,
+      "end": 729.4,
+      "text": "Page views page views is which pages in The Client uh have been visited by users so you can you can you can see see the statistics of these like this is this page of this type was um was visited by how many users and"
+    },
+    {
+      "t": 729.4,
+      "end": 750,
+      "text": "how how many times uh it was it was visited you can see over the day like when do people visit different pages and over the week so let's say that we are in this user acceptance testing phase and you have set up with users that everyone need to test things on Wednesday"
+    },
+    {
+      "t": 750,
+      "end": 770.5,
+      "text": "on and and they did you can actually see that everyone did test things on a Wednesday great like so if you have data you can see that this confirms what was supposed to happen there's also a different uh situation what if they actually didn't test let's say that the test was scheduled for a Saturday"
+    },
+    {
+      "t": 770.5,
+      "end": 791.2,
+      "text": "and everyone went out to play golf you can see here no one tested the system on Saturday actually no one did on Sunday so maybe you need to go back to the project group and find out what's going on like when when when are you going to test the functionality that that we are supposed to do uh speaking of that there's actually"
+    },
+    {
+      "t": 791.2,
+      "end": 811.6,
+      "text": "um even a place that shows you highlights of the application this is the base application which places in the base application were um touched by users so for instance here in the finance part um we can see that no one test it fixed assets item charges tax"
+    },
+    {
+      "t": 811.6,
+      "end": 832,
+      "text": "vat workflow but there were people who tested financial reporting and so on now is this good or bad it depends if your system does not use fixed assets well then there's no need to test it and this absence of data here is fine but if fixed assets were part of this implementation"
+    },
+    {
+      "t": 832,
+      "end": 842.8,
+      "text": "plan and test plan well then you need to go back to the project group and kind of ask them to test because they OB obviously didn't test this part of of the"
+    },
+    {
+      "t": 842.8,
+      "end": 863,
+      "text": "application reports reports is an important thing of ANP system to know uh to have data that guide you to take decisions in your business so here on the reports page you can see which reports have people been running you can see again uh"
+    },
+    {
+      "t": 863,
+      "end": 883,
+      "text": "over the day and over the week you can see whether they downloaded previewed print and so on this is important as well let's say that your user acceptance testing also included that you can print well the good thing for this data is yes they actually did test Out Printing and you're happy but uh"
+    },
+    {
+      "t": 883,
+      "end": 903.2,
+      "text": "if there's absence of print here well no one tried to print an invoice and maybe you need to make sure that that works feature usage every single part of the application in in business Central as well as if partners who write applications for for business Central uh"
+    },
+    {
+      "t": 903.2,
+      "end": 923.3,
+      "text": "do this um they can instrument everyone can and a developer can instrument with what we call feature Telemetry so for this particular feature this event happens this many times you can also you can use this for user exceptions testing and if Master data management was a key thing to test"
+    },
+    {
+      "t": 923.3,
+      "end": 943.8,
+      "text": "well people did actually do it so that's good finally for for business Central um any e system never is just out there on its own there will always almost every single Eep system will have Integrations where people integrate to read and"
+    },
+    {
+      "t": 943.8,
+      "end": 954.2,
+      "text": "write data or that that the apps inside the bu the AP system will call out to external services and this is what we call"
+    },
+    {
+      "t": 954.2,
+      "end": 974.6,
+      "text": "Integrations okay so here I am on the Integrations page and here you can see Integrations to and from business Central um inside the app published by Microsoft if you have installed other apps they will show up here this is important for"
+    },
+    {
+      "t": 974.6,
+      "end": 987.1,
+      "text": "your user exceptions testing because you can also test all these Integrations to external systems so this page is should be part of your user acceptance testing"
+    },
+    {
+      "t": 987.1,
+      "end": 998.8,
+      "text": "reporting great let's go back to the deck and talk about removing friction oh first I need to tell you of course that to wrap up the user acceptance"
+    },
+    {
+      "t": 998.8,
+      "end": 1018.9,
+      "text": "testing what you saw here is you can use the power Pi report the usage part and you can simply check if if key Pages reports features Integrations have been tested or touched you have data and there's no need to have status meetings to ask if people did it you can just see if they did"
+    },
+    {
+      "t": 1018.9,
+      "end": 1038.9,
+      "text": "or if they did not okay so let's talk about removing friction the error report and the error Telemetry is there for that because for go live you want to make sure that you get rid of all the annoying low hanging food errors when you only have few users on the system so"
+    },
+    {
+      "t": 1038.9,
+      "end": 1059,
+      "text": "that when you onboard the rest of the users they have a smooth experience they don't experience a lot of Errors let's see how that works uh in the error report and the error report comes with a built-in dashboard so here you have an overview of all the types of errors that"
+    },
+    {
+      "t": 1059,
+      "end": 1079.3,
+      "text": "happen in business Central or can happen you have used errors that happens where users see errors you have errors happening to Integrations to external systems as well as as system errors like setup errors or anything that could fail within business Central so for each of these let's explore"
+    },
+    {
+      "t": 1079.3,
+      "end": 1099.4,
+      "text": "a few of those and uh let's start with permission errors you actually this is a great thing to start with with your go live testing because there would be permission errors probably many different places where you don't get set up of permissions completely right the first time so let me try"
+    },
+    {
+      "t": 1099.4,
+      "end": 1119.4,
+      "text": "to find some permission error that would be fun here statistical accounts this is a new feature by the way coming in version 22 2.0 in the finance so so that's that's great if you're testing this in user exceptions testing and apparently there's something not right with permissions here so you can"
+    },
+    {
+      "t": 1119.4,
+      "end": 1139.6,
+      "text": "see in which environment it it's it's happening and then you can go sort that out um as part of go life so I think that that's that's a nice first thing to do the second thing I would do is taking care of error message feedback"
+    },
+    {
+      "t": 1139.6,
+      "end": 1159.6,
+      "text": "so whenever a user in business Central gets a use like an error dialogue we added a voting where they can say was this helpful yes or no now everyone says if if they say yes this is a great error message okay that's fine but everyone who says Nah this is not good it could"
+    },
+    {
+      "t": 1159.6,
+      "end": 1179.6,
+      "text": "be that you need to provide better training or maybe go in and tweak the system so that this error doesn't occur so for each of these I think maybe we are lucky that we have here something about one drive maybe one drive was not set up for all users so that would be nice to uh"
+    },
+    {
+      "t": 1179.6,
+      "end": 1200,
+      "text": "to take care of the last thing I want to show you for the error getting errors to zero is error dialogues whenever a user sees an error dialogue in the system this is loged to Telemetry so going back to our statistical accounts we can"
+    },
+    {
+      "t": 1200,
+      "end": 1220.2,
+      "text": "uh we can see that there were 42 errors in that during our test so it could be that we needs to go back and see if there's something that needs to be set up about statistical accounts or maybe that um users are using the feature in not the intended way maybe you need to"
+    },
+    {
+      "t": 1220.2,
+      "end": 1240.4,
+      "text": "have more training maybe the finance department need to know more about what does this feature actually do and for the for the people who maybe need to dive into more code probably the partner whenever you click on an error here you can actually see where it this error is coming from in which part of the code"
+    },
+    {
+      "t": 1240.4,
+      "end": 1258.4,
+      "text": "and who owns this code this is Microsoft code um and in in this code unit here all right so let's recap on our go live um actually not yet because if you think of this"
+    },
+    {
+      "t": 1258.4,
+      "end": 1271.2,
+      "text": "error dashboard this is just showing you all the errors that that is present is stored in Telemetry right so for go live if you want to drive these down how do you actually track progress"
+    },
+    {
+      "t": 1271.2,
+      "end": 1291.4,
+      "text": "well you you could take screenshots of this and every day you could see if numbers are changing but that's not right that's not really the way you want to work as a project manager project sponsor or a partner and by the way did I mention that we do have a live Q&A after this session"
+    },
+    {
+      "t": 1291.4,
+      "end": 1311.5,
+      "text": "so if anything I talk about if it triggers some questions just uh write them down and and we can uh we can get to them in the end now if you look closely and on some of the pages in the error report you notice might have noticed that there are kpis um called all last seven"
+    },
+    {
+      "t": 1311.5,
+      "end": 1331.5,
+      "text": "days or since yesterday these kpis are there to track changes into errors and hopefully you you can use them these to see let's say that you set up an initiative during go live to to drive error job CU errors to zero then you can see that since yesterday we actually didn't have any"
+    },
+    {
+      "t": 1331.5,
+      "end": 1351.7,
+      "text": "but we did have 25 over the last 20 seven days so you could go and and kind of monitor these on each of the pages but that's not nice as well right you don't want to go I mean how many pages in the era report 15 you don't want to have a daily routine where you every morning you go in and"
+    },
+    {
+      "t": 1351.7,
+      "end": 1372.6,
+      "text": "and you want to have someone to track this for you right so with powerbi um this powerbi report is uh for for you to use that you need a powerbi pro license that cost you 10 bucks a month $10 US dollars a month for a license um"
+    },
+    {
+      "t": 1372.6,
+      "end": 1392.7,
+      "text": "with that license come also comes a pretty cool products in my opinion that is really really good to track these things for you which is called powerbi metrics so here in the powerbi portal there's a there's a goal there's a something you can win here and this is uh this is where"
+    },
+    {
+      "t": 1392.7,
+      "end": 1413.4,
+      "text": "you create your first scorecards uh when you create a scorecard you simply you can give that a name you can have many scorecards and then you add metric metric is just a name for a number over time that's all there is to it so I created a metric called daily job Q errors"
+    },
+    {
+      "t": 1413.4,
+      "end": 1433.5,
+      "text": "and then for the for the for this I'm simply connecting this to the powerp reports this is where I get my data from and when I do that I need to select here the error report and navigate to the job C errors where I simply pick that number you just saw there uh on the on the job C errors and say I"
+    },
+    {
+      "t": 1433.5,
+      "end": 1453.7,
+      "text": "want to track the since yesterday numbers on on job use every single day and that's what the metric does it tracks a number uh for for every day and if you let that simmer for a few days you can actually see a progress here of how that number changed over"
+    },
+    {
+      "t": 1453.7,
+      "end": 1473.8,
+      "text": "time so this shows you this example here that your your um task force that made daily like job queue errors go down they actually succeeded you can see they drove down from 25 to zero and zero has been the number for the last 3"
+    },
+    {
+      "t": 1473.8,
+      "end": 1493.8,
+      "text": "days great now what's even more cool here is you can set your thresholds of what you mean by at risk on track and complete it for each of these metrics and if you do so and I think this is even more cool you get all the state changes directly"
+    },
+    {
+      "t": 1493.8,
+      "end": 1514,
+      "text": "into teams so this is daily jump queue errors is now complete completed so now I get Got a notification that is simply in teams that this is now completed but and I think I really like this this um if if you set this up during go live and keep it like that"
+    },
+    {
+      "t": 1514,
+      "end": 1534,
+      "text": "you will even get notifications if job cure Era start to climb again and then it would go up in at risk or even higher right so by setting this up during go live you have automatic projects uh surveillance of of key kpis that you really want to make sure that these never like"
+    },
+    {
+      "t": 1534,
+      "end": 1554.4,
+      "text": "degrade or regress right so for stability testing for go live just to sum summarize use the powerbi report for errors and check your key error scenarios in there and maybe set up powerbi metrics on these so that you pro track progress of these both"
+    },
+    {
+      "t": 1554.4,
+      "end": 1560.8,
+      "text": "before during and after go live"
+    },
+    {
+      "t": 1560.9,
+      "end": 1581.3,
+      "text": "right so the next part of this presentation is how can you do more with less with business Central and um I was before I joined Microsoft part of a consultancy business and I've been in many many customer meetings both as a customer and as a A salesperson"
+    },
+    {
+      "t": 1581.3,
+      "end": 1601.3,
+      "text": "what I hate about sales meetings is people wasting my time what do I mean about that here are a few examples these are hypothetical examples of course your partners would never do this with you so are you happy with the new thing we we made for you right what they're really saying if I"
+    },
+    {
+      "t": 1601.3,
+      "end": 1621.3,
+      "text": "have to be a little bit rude is I have no idea how you use the things you paid us to develop not really a nice way to go into a meeting right if if the customer thinks this H maybe we could do better here's another example did you you know that business Central now supports that end users make report"
+    },
+    {
+      "t": 1621.3,
+      "end": 1633.8,
+      "text": "layouts with Excel what they're really saying is I have no idea how you use business Central I get I I think you get the point hey do you use power automate"
+    },
+    {
+      "t": 1633.8,
+      "end": 1654.5,
+      "text": "yet that actually means I have no idea of if or how you use Power Platform or Asset Services now as a partner account manager or actually also as a project sponsor on the customer end why not use data to plan new activities together and"
+    },
+    {
+      "t": 1654.5,
+      "end": 1669.5,
+      "text": "if you do have these follow-up meetings after go live use them to provide value directly in the meeting instead of wasting people's lives and time so let's see a demo of how that could"
+    },
+    {
+      "t": 1669.5,
+      "end": 1682.2,
+      "text": "work I'll shift over to the usage report again and show you a few more tricks here so my trick number one"
+    },
+    {
+      "t": 1682.2,
+      "end": 1695.1,
+      "text": "is I just need to look at my demos here is Excel layouts so how can we how can we do that so if I go here to"
+    },
+    {
+      "t": 1695.1,
+      "end": 1715.3,
+      "text": "reports and uh I did show you this report before but I skipped these layout types um whenever you run a report in business Central you can either have a layout of type Excel rdlc is a technical thing or word right these are the three different types of reports"
+    },
+    {
+      "t": 1715.3,
+      "end": 1736.1,
+      "text": "layouts now Excel layouts was something we developed and this Fairly New Concept it's only been a year in the product with Excel layouts the end users can layout their reports with Excel so you simply have a way to to get your data out in Excel"
+    },
+    {
+      "t": 1736.1,
+      "end": 1756.3,
+      "text": "put pivot tables put put whatever you like in there and then upload that again to business Central and when you run the report that's your template so it's taking away the responsibility of the layout experience out of the hands of the developers and into the hands of endusers so there are two things you can"
+    },
+    {
+      "t": 1756.3,
+      "end": 1776.4,
+      "text": "ask yourself whenever you go into this report if you see Excel here as we have we do have reports of types Excel that's great this means that this environment here actually are using Excel layouts great maybe you can do more you can"
+    },
+    {
+      "t": 1776.4,
+      "end": 1797.3,
+      "text": "do a lot of things with Excel layouts you can use power query to join data from business Central with other data sources tons of things you can do so any skilled partner who knows about Excel or power query powerbi could maybe do workshops with you as a customer to"
+    },
+    {
+      "t": 1797.3,
+      "end": 1817.8,
+      "text": "do more with Excel you're already paying for a business Central license you're probably paying for an office license with Excel why not get more out of that um if you're already using it and with all of these the absence of data also tells you something let's say that you don't see any Excel"
+    },
+    {
+      "t": 1817.8,
+      "end": 1838.5,
+      "text": "here that actually means that you as a customer or if you are a partner this particular customer is missing completely out on Excel layouts missing out on all the self-service all the things that end users could do themselves um and that's a Pity in my opinion I think that's a that's that's a shame"
+    },
+    {
+      "t": 1838.5,
+      "end": 1858.5,
+      "text": "so data shows that they are using it you can maybe do more um they here is users absence of data is an opportunity maybe to at least introduce this capability and you as a customer can decide no I'm fine we don't need this or you can go hey I want this and I'm even pay pay for it so I want"
+    },
+    {
+      "t": 1858.5,
+      "end": 1878.8,
+      "text": "it now second thing I want to show you here is connectors the connectors report show Integrations into business Central from teams Excel powerbi power automate power apps power like all of these and again you can use this to ask"
+    },
+    {
+      "t": 1878.8,
+      "end": 1899,
+      "text": "questions about oh I can see this particular environment is using a lot of power automate great maybe we can do work workshops together with as with thect like the customer and the partner to do more with with automate automate more business processes and again"
+    },
+    {
+      "t": 1899,
+      "end": 1919.3,
+      "text": "with absence of power automate here there could be an opportunity to to actually like digitize business processes and do a lot uh business Central is growing with power automate and have more and more capabilities of using power automate together with business Central so there could be opportunity to Simply go in and"
+    },
+    {
+      "t": 1919.3,
+      "end": 1932.4,
+      "text": "digitize more business processes with Automation and the last thing I want to show in this part of the presentation is application areas we talked a little bit about it"
+    },
+    {
+      "t": 1932.4,
+      "end": 1952.4,
+      "text": "um when I when I showed you this report earlier the fixed assets report or or area here I mean most companies do have fixed assets you have bought things that maybe you should want to track uh in your Earp system so this could be an opportunity"
+    },
+    {
+      "t": 1952.4,
+      "end": 1972.5,
+      "text": "if there's no usage of fixed assets maybe this is a part of business Central where you're already paying for it you could benefit from this functionality tomorrow if you start using it and train for it so as a partner you could look for these maybe lwh hanging fruits of business Central functionality that the customer is not using and help"
+    },
+    {
+      "t": 1972.5,
+      "end": 1993,
+      "text": "them get like more bang for the buck and similarly if you from the if you're from the customer end of things if you're the project sponsor maybe there are part of this um application landscape where you you think H there's something here called fixed assets I don't know what it is but I could look it up in the documentation"
+    },
+    {
+      "t": 1993,
+      "end": 2013.3,
+      "text": "or ask my partner and maybe we could get more value out of our licensing money there are more examples of this if you go to this URL here aka.ms slbc - Telemetry D checklist it takes you to a GitHub repository of lots of"
+    },
+    {
+      "t": 2013.3,
+      "end": 2033.8,
+      "text": "things where I added um a PowerPoint presentation it's meant for for partners to do follow-ups with uh with customers if you're on the customer end you could just use this as maybe a way you would like the follow-up customer meetings to be with your partner and work together"
+    },
+    {
+      "t": 2033.8,
+      "end": 2054.1,
+      "text": "use data to to get more value out of of your investment okay finally in this presentation at least either is he not done yet I want to get coffee or I want this what should I do well you need to do at least two"
+    },
+    {
+      "t": 2054.1,
+      "end": 2074.3,
+      "text": "things but probably four the first thing is you need to create what's called an application insights resource in Asher this is where we lock this data to it's an Asher resource and you need to have a way a place to lock this data so that's the first thing I'll show you how"
+    },
+    {
+      "t": 2074.3,
+      "end": 2094.5,
+      "text": "second you need to configure business Central to actually lock Telemetry there third you need to install the powerbi apps that I have shown you here it's optional but it's definitely recommended without the powerbi content you just have data but with the powerbi content you actually have"
+    },
+    {
+      "t": 2094.5,
+      "end": 2114.7,
+      "text": "insights and things you can take actions on and then four you should set up alerts on some key events in Telemetry it's optional but definitely recommended you can either use this approach I showed you here with powerbi metrics or you can also have use different tools"
+    },
+    {
+      "t": 2114.7,
+      "end": 2134.9,
+      "text": "that uh that you can ask your partners or or you can look at documentation of how to set this up Telemetry works both for online and on premises environments so what whatever how you're hosted doesn't matter it works both places we introduced this in version 15 which is a few releases"
+    },
+    {
+      "t": 2134.9,
+      "end": 2152.9,
+      "text": "ago we are releasing version 22 here in April 2023 so the the later you are on a version like the the higher version the more data more types of data you get but it does work from all the way down to version"
+    },
+    {
+      "t": 2152.9,
+      "end": 2171.6,
+      "text": "15 this is just a screenshot from from the Asher portal when whenever you create one of these application insights this purple icon you just create click create and you can do this as a customer or you can have your partner do it and really depends who should own this"
+    },
+    {
+      "t": 2171.6,
+      "end": 2183.4,
+      "text": "data then how to set up Telemetry in business Central it is as simple as one two three first you need to go into the tenant admin Center and find your environment"
+    },
+    {
+      "t": 2183.4,
+      "end": 2203.4,
+      "text": "here then you need to click Define under application insights and that would open will open up a small dialogue where you need to copy in the application insights um connection string it's very important that you don't do this during working hours because this will do a glitch for"
+    },
+    {
+      "t": 2203.4,
+      "end": 2223.5,
+      "text": "a few minutes it will restart your environment so don't do it while people are working in business Central just do it out of of business hours and uh that's it actually that was only two right number three here here is a confirmation business Central Telemetry is now configured and business Central"
+    },
+    {
+      "t": 2223.5,
+      "end": 2244,
+      "text": "will start emitting data the powerbi app exists on uh Microsoft app Source you can either search for business Central usage analytics and install it there or you can go to this URL uh here aka.ms forward slbc"
+    },
+    {
+      "t": 2244,
+      "end": 2264.9,
+      "text": "Telemetry report that will take you through the full installation of the powerbi app when you have installed it you need to specify where is data located so so there's a small connect to your data you specify your application insights application ID where is data stored"
+    },
+    {
+      "t": 2264.9,
+      "end": 2285.2,
+      "text": "and how many days of data do you want the app to have maybe a month maybe two weeks maybe a single day depends totally on you the app will refresh every night and get the latest whatever sliding window you choose so"
+    },
+    {
+      "t": 2285.2,
+      "end": 2305.5,
+      "text": "call to action and this is the last part before we start the the live Q&A when the actual event is uh is is here so enable to limitary in your environments ask your administrator or partner to do so and they install the powerbi app um"
+    },
+    {
+      "t": 2305.5,
+      "end": 2325.6,
+      "text": "you can do it your it's maybe there's some like authorization that that need the powerbi app needs to be able to read data so maybe your administrator is the right one for that whoever sets up Telemetry and owns Telemetry Source could be you as customer or the partner"
+    },
+    {
+      "t": 2325.6,
+      "end": 2345.6,
+      "text": "same thing goes for the powerbi app it just needs to be installed by the same organization that owns the telary resource the beauty about both of these is that the other part if customer owns Telemetry and installs the powerbi app the customer can share both read access"
+    },
+    {
+      "t": 2345.6,
+      "end": 2365.7,
+      "text": "to Telemetry and read access to the powerbi report and vice versa so there's no it's just how you prefer it about who installs and who owns these resources the most important thing is that you as a customer and you as a partner taking care of your customers should use data"
+    },
+    {
+      "t": 2365.7,
+      "end": 2388,
+      "text": "to take decision on how to do more with less with business Central and with that I say thank you so much Dynamic con virtual for having me here for the Microsoft customer success day looking forward to all your questions and have a great conference thank"
+    },
+    {
+      "t": 2391,
+      "end": 2392,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.62,
+      "text": "[Music]"
+    },
+    {
+      "t": 1693.14,
+      "text": "[Music]"
+    },
+    {
+      "t": 1695.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 1695.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5985
+}

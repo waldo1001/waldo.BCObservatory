@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=c3paEbmDNmM",
-  "published_at": null,
+  "published_at": "2023-12-18T08:57:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:37:40.000Z",
+      "captions": "auto:en-orig",
+      "duration_s": 723
+    },
+    "captioned": {
+      "at": "2026-10-06T21:37:47.251Z",
+      "path": "data/captions/microsoft/c3paEbmDNmM.vtt",
+      "vtt_sha256": "24e06184a217d1e144bc17c77fc4e8f934eaacb0849437df3f16e8da3e3a12f0",
+      "segments": 38,
+      "words": 1726,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:38:15.646Z",
+      "path": "data/extract/video/c3paEbmDNmM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.02391
+    },
+    "summarized": {
+      "at": "2026-10-06T21:38:22.413Z",
+      "path": "data/summary/video/c3paEbmDNmM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.015494399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T21:38:22.414Z",
+      "systems": [
+        "reporting",
+        "development",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:38:22.425Z",
+      "path": "content/videos/c3paEbmDNmM.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 488,
-    "duration_s": 724,
-    "via": "reconcile"
-  }
+    "duration_s": 723,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "578fd60bfdd50f74132c7589eb4518614040076fcb8cb118ff0474fc5ccd8255"
 }

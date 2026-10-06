@@ -1,0 +1,286 @@
+{
+  "video_id": "c3paEbmDNmM",
+  "item_id": "video/yt-microsoft/c3paEbmDNmM",
+  "title": "What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)",
+  "duration_s": 723,
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "queries",
+    "analysis views",
+    "excel layouts",
+    "power query",
+    "power pivot",
+    "teaching tips",
+    "help links",
+    "report design",
+    "data analysis",
+    "kpis"
+  ],
+  "chapters": [
+    {
+      "title": "Data Analysis on Queries",
+      "t_start": 0,
+      "t_end": 140
+    },
+    {
+      "title": "Excel Layouts for Parent-Child Relationships",
+      "t_start": 140,
+      "t_end": 230
+    },
+    {
+      "title": "Excel Power Query and Power Pivot Integration",
+      "t_start": 230,
+      "t_end": 330
+    },
+    {
+      "title": "Teaching Tips and Help Links for Reports and Queries",
+      "t_start": 330,
+      "t_end": 440
+    },
+    {
+      "title": "Reports Documentation and Resources",
+      "t_start": 440,
+      "t_end": 500
+    },
+    {
+      "title": "Analytics Strategy and Query Design Approach",
+      "t_start": 500,
+      "t_end": 660
+    },
+    {
+      "title": "Relevant Sessions and Closing",
+      "t_start": 660,
+      "t_end": 723
+    }
+  ],
+  "features": [
+    {
+      "name": "Data Analysis on Queries",
+      "description": "The query object now has an analysis view attached and can be opened directly in the UI with Run object support, allowing users to add it as an action on pages to show query results with grouping and pivoting capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.2,
+      "t_end": 79,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "analysis",
+        "ui",
+        "drill-down"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Server-Side Analysis Views on Queries",
+      "description": "Large amounts of data can now be handled through drill-down queries that work at the server level, allowing users to sum millions of records and drill down using server-side analysis views on queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99,
+      "t_end": 140,
+      "is_demoed": false,
+      "caveats": [
+        "requires understanding of server-side query execution"
+      ],
+      "tags": [
+        "performance",
+        "scalability",
+        "large data",
+        "drill-down"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Excel Layout Multiple Data Sheets",
+      "description": "Excel layouts can now handle parent-child or overview-detail types by generating multiple root data items into separate sheets instead of creating a single square data set, providing a more condensed view for Excel modeling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.5,
+      "t_end": 330,
+      "is_demoed": true,
+      "caveats": [
+        "only applies to reports targeting Excel layout type",
+        "requires enabling the property"
+      ],
+      "tags": [
+        "excel",
+        "layouts",
+        "data-sheets",
+        "parent-child"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Power Query and Power Pivot Support",
+      "description": "Excel layouts now support Power Query for data transformation and Power Pivot for modeling relationships between tables, enabling users to create compelling data models and analytics within Excel.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.4,
+      "t_end": 310,
+      "is_demoed": true,
+      "caveats": [
+        "users may need to learn Excel modeling techniques"
+      ],
+      "tags": [
+        "excel",
+        "power-query",
+        "power-pivot",
+        "etl",
+        "modeling"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Teaching Tips on Reports and Queries",
+      "description": "Teaching tips are now available on both report and query request pages to help users understand the intent and usage of these features with visual hints that can be dismissed and recalled by hovering over titles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 346.6,
+      "t_end": 440,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teaching-tips",
+        "help",
+        "user-guidance",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Help Links for Reports and Queries",
+      "description": "Context-sensitive help links are now available for reports and queries, allowing developers to create dedicated help documentation that appears on request pages and in the help pane.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 346.6,
+      "t_end": 440,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "help-links",
+        "documentation",
+        "user-support"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data Analysis Feature on Lists and Queries",
+      "description": "A data analysis feature is now generally available on both lists and queries, enabling users to perform dynamic query capabilities and filtering for business intelligence purposes.",
+      "status": "ga",
+      "status_evidence_t": 672.4,
+      "status_evidence_quote": "this feature that is now generally available on lists and queries",
+      "status_evidence_verified": true,
+      "t_start": 652.1,
+      "t_end": 700,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis",
+        "lists",
+        "queries",
+        "bi"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "item hero query",
+      "t": 58.9
+    },
+    {
+      "type": "query",
+      "name": "analyze inventory query",
+      "t": 407.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 18.2,
+      "text": "yes the query object has been there for 10 years and it's time that it gets a bit more prominence so now you've always",
+      "why_it_matters": "Explains that queries, a long-standing feature, are now receiving enhanced prominence with new analysis view capabilities for better data exploration.",
+      "check": "snapped"
+    },
+    {
+      "t": 119.2,
+      "text": "the ability to handle large amounts of data the way we do these queries is that each drill down is a query by itself",
+      "why_it_matters": "Demonstrates a significant performance capability where drill-down queries can process millions of records efficiently through server-side execution.",
+      "check": "exact"
+    },
+    {
+      "t": 308.9,
+      "text": "Excel layout multiple data sheets available in version 23 if you set it to true you get these new multiple data sheets in your",
+      "why_it_matters": "Confirms the specific version where this feature is available and clarifies how to enable the new multiple sheet functionality for Excel layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 499.6,
+      "text": "you need to to stop just developing reports and instead understand what is the user trying to do with analytics and based on that",
+      "why_it_matters": "Reflects a strategic shift in reporting approach where understanding user analytics needs should drive the choice of tool and delivery method.",
+      "check": "snapped"
+    },
+    {
+      "t": 560.6,
+      "text": "powerbi is here to stay and it's going to be the tool of choice especially for for for kpis on business Central",
+      "why_it_matters": "States the strategic direction that Power BI is the intended long-term tool for KPI reporting in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 580.8,
+      "text": "they are very powerful to actually join data together from multiple sources and allow the user to the freedom to slice and dice as",
+      "why_it_matters": "Explains the key strength of queries in enabling multi-source data joins and flexible user-driven analysis capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 600.8,
+      "text": "very often just having a good report data set and a good first layout allows the customer to add what they need in the",
+      "why_it_matters": "Indicates a practical design philosophy that Excel layouts are more accessible to end users than RDL layouts for customization and extension.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 139.4,
+      "kind": "other",
+      "text": "this is not the session you're thinking of so for Excel layouts um the Excel layouts feature did not really handle parent child overview detail types very well"
+    },
+    {
+      "t": 441.3,
+      "kind": "other",
+      "text": "something we're working on right now so that should hopefully be in the doc over the next month"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02391
+    }
+  ]
+}

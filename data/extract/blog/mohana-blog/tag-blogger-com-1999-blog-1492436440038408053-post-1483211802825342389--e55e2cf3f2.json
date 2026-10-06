@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1483211802825342389",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/business-central-2026-wave-2-preview.html",
+  "title": "Business Central 2026 Wave 2: Preview Images Directly in the Web Client",
+  "source": "mohana-blog",
+  "published_at": "2026-09-08T07:07:56.000Z",
+  "words": 699,
+  "summary": "Business Central 2026 Wave 2 introduces native image preview functionality in the web client, allowing users to view supported image formats (JPEG, PNG, BMP, SVG, WEBP, GIF, AVIF, etc.) directly without downloading. This capability parallels existing PDF preview features and includes support for animated GIFs, clickable thumbnails, and developer access via File.ViewFromStream().",
+  "key_points": [
+    "Users can preview images directly in Business Central's web client without local downloads, similar to PDF preview experience",
+    "Supported formats include JPEG, PNG, BMP, SVG, WEBP, GIF, AVIF, and additional formats for Safari (TIFF)",
+    "Animated GIF support up to 48 frames appears in FactBoxes, and thumbnails are clickable to open preview windows",
+    "Developers can implement custom image previews using File.ViewFromStream() method for Business Central Online",
+    "Use cases include product images, quality inspections, purchase documentation, and service attachments"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "image preview",
+    "user experience",
+    "attachments",
+    "file viewing",
+    "web client",
+    "extension development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Image Test"
+    },
+    {
+      "type": "page",
+      "name": "Image Test List"
+    }
+  ],
+  "features": [
+    "Image preview in web client",
+    "Animated GIF support",
+    "Clickable image thumbnails",
+    "PDF-like zoom and navigation",
+    "File.ViewFromStream() API",
+    "Multi-format image support",
+    "Print and download from preview"
+  ],
+  "versions": [
+    "2026 Release Wave 2",
+    "BC29"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006439,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "users can open supported image attachments directly within Business Central and view them in a dedicated preview window",
+      "why_it_matters": "Describes the core benefit of seamless image viewing without requiring downloads"
+    }
+  ]
+}

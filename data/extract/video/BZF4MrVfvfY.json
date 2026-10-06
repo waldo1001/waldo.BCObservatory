@@ -1,0 +1,572 @@
+{
+  "video_id": "BZF4MrVfvfY",
+  "item_id": "video/yt-microsoft/BZF4MrVfvfY",
+  "title": "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)",
+  "duration_s": 1419,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "gl allocations",
+    "statistical accounts",
+    "cost allocation",
+    "revenue allocation",
+    "fixed allocations",
+    "variable allocations",
+    "inherit from parent",
+    "deferral integration",
+    "allocation accounts",
+    "financial reporting",
+    "share percentages",
+    "dimensions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to GL Allocations and Statistical Accounts",
+      "t_start": 0,
+      "t_end": 178
+    },
+    {
+      "title": "GL Allocation Types: Fixed, Variable, and Inherit",
+      "t_start": 178,
+      "t_end": 254.4
+    },
+    {
+      "title": "Demo: Fixed Allocation with Audit Expenses",
+      "t_start": 254.4,
+      "t_end": 429
+    },
+    {
+      "title": "Demo: Variable Allocation and Inherit from Parent",
+      "t_start": 429,
+      "t_end": 550
+    },
+    {
+      "title": "Demo: Deferrals and Purchase Invoice Allocations",
+      "t_start": 550,
+      "t_end": 639.3
+    },
+    {
+      "title": "Demo: Manual Adjustment of Allocations",
+      "t_start": 639.3,
+      "t_end": 750.6
+    },
+    {
+      "title": "Setup: Creating and Configuring Allocation Accounts",
+      "t_start": 750.6,
+      "t_end": 886.2
+    },
+    {
+      "title": "Share UI Pattern and Decimal Precision",
+      "t_start": 886.2,
+      "t_end": 970.9
+    },
+    {
+      "title": "Dimensions and Testing Fixed Allocations",
+      "t_start": 970.9,
+      "t_end": 1006.5
+    },
+    {
+      "title": "Variable Allocation Accounts Setup",
+      "t_start": 1006.5,
+      "t_end": 1103.3
+    },
+    {
+      "title": "Configuring Multiple Variable Allocation Lines",
+      "t_start": 1103.3,
+      "t_end": 1199.4
+    },
+    {
+      "title": "Inherit from Parent Account Type",
+      "t_start": 1199.4,
+      "t_end": 1240
+    },
+    {
+      "title": "Implementation Architecture and Code Structure",
+      "t_start": 1240,
+      "t_end": 1320.5
+    },
+    {
+      "title": "Integration Events and Extensibility",
+      "t_start": 1320.5,
+      "t_end": 1419
+    }
+  ],
+  "features": [
+    {
+      "name": "GL Allocations",
+      "description": "A new feature that allows distributing or allocating cost and revenue using fixed allocation types (predefined percentages), variable allocation types (based on statistical accounts), or inherit from parent type (using existing GL accounts with dynamic allocation keys).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178,
+      "t_end": 254.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gl allocations",
+        "cost allocation",
+        "revenue allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Fixed Allocation Type",
+      "description": "Allows you to define how you share a line item by assigning predefined percentages to dimensions, such as splitting rent per department based on predetermined allocation percentages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198,
+      "t_end": 218.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fixed allocation",
+        "predefined percentages",
+        "dimension-based"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Variable Allocation Type",
+      "description": "Allows dynamic allocation based on statistical accounts and dimensions, enabling allocation keys that change over time, such as using employee headcount or office space to distribute costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 218.4,
+      "t_end": 238.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "variable allocation",
+        "statistical accounts",
+        "dynamic allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Inherit from Parent Allocation Type",
+      "description": "Allows selecting any existing GL account and allocating it using a specified allocation key without needing to create a dedicated allocation account, saving setup time for accounts that are used infrequently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.8,
+      "t_end": 1240,
+      "is_demoed": true,
+      "caveats": [
+        "Destination account must remain blank",
+        "Account can only be reused for cost splits based on number of employees"
+      ],
+      "tags": [
+        "inherit from parent",
+        "existing accounts",
+        "allocation without setup",
+        "reusable allocations",
+        "account type",
+        "inheritance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Accounts with General Journals",
+      "description": "Allocation accounts work in general journals, allowing allocation of revenue and cost by selecting an allocation account and preview the split before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 254.4,
+      "t_end": 358.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "general journals",
+        "allocation preview",
+        "journal integration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Accounts with Deferrals",
+      "description": "Allocation accounts integrate with the deferral feature, allowing costs to be both allocated to dimensions and spread across multiple periods in a single transaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550,
+      "t_end": 591.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deferrals",
+        "accrual accounting",
+        "period allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Accounts with Purchase Documents",
+      "description": "Allocation accounts can be used in purchase invoices to allocate invoice amounts across dimensions and GL accounts at the time of entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 606.3,
+      "t_end": 639.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase documents",
+        "invoice allocation",
+        "document integration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Manual Adjustment of Allocations",
+      "description": "Users can modify the proposed allocation distribution before posting, including changing amounts, GL accounts, dimensions, and even deleting lines to customize the final posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 659.7,
+      "t_end": 750.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual adjustment",
+        "override allocation",
+        "user customization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Account Setup UI",
+      "description": "The allocation account setup page provides a share UI pattern that allows users to easily adjust allocation percentages while automatically ensuring they sum to 100%, and can calculate percentages from whole numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791,
+      "t_end": 926.7,
+      "is_demoed": true,
+      "caveats": [
+        "System ensures percentages always add to 100%"
+      ],
+      "tags": [
+        "ui design",
+        "percentage adjustment",
+        "setup interface",
+        "ui pattern",
+        "percentage management",
+        "data entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Statistical Accounts",
+      "description": "A feature that holds non-financial numerical data used for analysis and reporting, such as employee headcount, which can be used as allocation keys for GL allocations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.4,
+      "t_end": 157.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "statistical accounts",
+        "non-financial data",
+        "kpi reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Decimal Precision in Allocation Calculations",
+      "description": "The system calculates allocation percentages to five decimal places internally for accuracy, even though the UI displays whole percents. Amount rounding is applied when allocating to specific GL lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.3,
+      "t_end": 926.7,
+      "is_demoed": true,
+      "caveats": [
+        "Users can override calculated percentages manually",
+        "Calculations use up to five decimals internally while UI shows whole percents",
+        "Amount rounding applied when allocating to specific GL lines"
+      ],
+      "tags": [
+        "precision",
+        "rounding",
+        "decimals"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dimension Assignment in Allocations",
+      "description": "Users can define dimensions for allocation lines. When GL lines are created from a main GL line, the specified dimensions are automatically assigned and will override existing dimensions on the allocation line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 938.2,
+      "t_end": 970.9,
+      "is_demoed": true,
+      "caveats": [
+        "Defined dimensions take priority and override line-specific dimensions"
+      ],
+      "tags": [
+        "dimensions",
+        "cost allocation",
+        "business groups"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Testing Tool",
+      "description": "A testing feature that shows how allocations will distribute amounts and displays the precision being used. Users can see approximate amounts that will be posted before actually posting the allocation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 970.9,
+      "t_end": 1006.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "preview",
+        "allocation validation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Variable Allocation Accounts",
+      "description": "Allocation accounts with variable percentages calculated dynamically based on GL account balances or statistical accounts. Can use options like balance at date, fiscal year, week, quarter, or previous year to determine percentages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1006.5,
+      "t_end": 1199.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selecting calculation method (balance at date, fiscal year, week, quarter, or previous year)"
+      ],
+      "tags": [
+        "variable allocation",
+        "dynamic percentages",
+        "statistical accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Global Dimension Filtering for Allocations",
+      "description": "Users can filter allocation lines by global dimensions. For example, filter destination accounts to specific departments (administration, production, sales) to control which GL lines receive allocated amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1083,
+      "t_end": 1162.6,
+      "is_demoed": true,
+      "caveats": [
+        "Filtering applied to global dimensions only"
+      ],
+      "tags": [
+        "filtering",
+        "dimensions",
+        "department allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General Journal Account Management Integration",
+      "description": "A codeunit that handles all logic integrating allocation accounts with General Journal functionality, managing the posting process and GL line creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1260.4,
+      "t_end": 1300.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "integration",
+        "posting",
+        "general journal"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sales and Purchase Allocation Account Management",
+      "description": "Two specialized codeunits that integrate allocation accounts with sales and purchase management processes, handling allocation logic specific to each domain.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1280.4,
+      "t_end": 1300.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales allocation",
+        "purchase allocation",
+        "integration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation Account Integration Events",
+      "description": "Two integration events for extending allocation account functionality: OnBeforeCreateGeneralJournalLine for splitting custom quantities or amounts, and OnBeforeVerify for compatibility checks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1342,
+      "t_end": 1394.1,
+      "is_demoed": false,
+      "caveats": [
+        "Custom quantities or amounts require subscription to OnBeforeCreateGeneralJournalLine",
+        "OnBeforeVerify must be used to throw errors for incompatible functionality"
+      ],
+      "tags": [
+        "integration events",
+        "extensibility",
+        "custom logic"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "statistical accounts",
+      "t": 102.6
+    },
+    {
+      "type": "codeunit",
+      "name": "General Journal Account Management",
+      "t": 1280.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales Allocation Account Management",
+      "t": 1280.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Purchase Allocation Account Management",
+      "t": 1280.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    },
+    {
+      "name": "Nicola",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 62.4,
+      "text": "in last release we introduced a new feature called statistical accounts and that is a feature that can hold nonfinancial numerical data",
+      "why_it_matters": "Establishes that statistical accounts are a prerequisite feature released previously that GL allocations build upon.",
+      "check": "exact"
+    },
+    {
+      "t": 178,
+      "text": "a new feature that you can also use statistical accounts for the new feature is called allocation accounts",
+      "why_it_matters": "Confirms that GL allocations is a new feature in this release and defines its relationship to statistical accounts.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 337.8,
+      "text": "when I post it it will get split into three individual lines and of course there's a debit and credit so we end up",
+      "why_it_matters": "Illustrates how allocation creates double-entry postings for each dimension value, resulting in multiple GL lines from a single source.",
+      "check": "exact"
+    },
+    {
+      "t": 429,
+      "text": "allocation is done uh because you want better uh data for uh a later analysis of of your your business",
+      "why_it_matters": "States the primary business purpose: improving data quality for analysis and business intelligence.",
+      "check": "exact"
+    },
+    {
+      "t": 823,
+      "text": "you can change this one by defining share and this is a UI pattern that we are using in the business Central which which",
+      "why_it_matters": "Describes the specific UI mechanism for allocation setup that maintains percentages summing to 100%.",
+      "check": "exact"
+    },
+    {
+      "t": 823,
+      "text": "this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy",
+      "why_it_matters": "Explains the core design decision of the share UI pattern that makes percentage allocation user-friendly and prevents mathematical errors.",
+      "check": "exact"
+    },
+    {
+      "t": 906.3,
+      "text": "in the background we are calculating it up to five decimals so these calculations are going to be very accurate and we are also",
+      "why_it_matters": "Clarifies the precision level of the calculation engine and how rounding is handled, critical for financial accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 1062.9,
+      "text": "you can specify how you are calculating the balance it can either be a balance set date fiscal year week quarter previous year",
+      "why_it_matters": "Shows the flexibility of variable allocations and the multiple time period options available for balance calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 1199.4,
+      "text": "if you would like to use inherit from parent then we cannot Define the destination account number so these needs to be blank",
+      "why_it_matters": "Specifies the constraint for the inherit from parent account type, showing how it differs from other allocation types.",
+      "check": "exact"
+    },
+    {
+      "t": 1260.4,
+      "text": "the allocation account is actually implemented in the base app and it is going to be under Financial Management's allocation account folder",
+      "why_it_matters": "Indicates the feature is generally available as part of the base application architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 1342,
+      "text": "we have added the integration events two of them one is on before create General joural line which you can use if you are",
+      "why_it_matters": "Documents the extensibility points developers can use to customize allocation behavior for custom requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 18
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026489
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027412
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033546
+    }
+  ]
+}

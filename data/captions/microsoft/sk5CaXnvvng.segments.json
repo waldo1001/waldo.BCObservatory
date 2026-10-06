@@ -1,0 +1,226 @@
+{
+  "video_id": "sk5CaXnvvng",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.7,
+      "end": 39.2,
+      "text": "welcome to this business Central launch event session on what's new in server and database this is the third video that we have and in the agenda of this this is about web services in this particular release wave we didn't make it faster we didn't make new features but we did actually make it a lot more stable and"
+    },
+    {
+      "t": 39.2,
+      "end": 59.4,
+      "text": "and we hope that that will make the life better for customers and for you yes and the first thing that we want to talk about is probably also one of the ones that you'll see the most which is an improvement to our edit in Excel story when you publish your data now o data V before Pages evaluate"
+    },
+    {
+      "t": 59.4,
+      "end": 79.4,
+      "text": "the editable property just like the UI does before it only supported Boolean variables so what you would see sometimes for instance in the ship to code on the sales orders page which has an editable property which is calculated and not just a simple um"
+    },
+    {
+      "t": 79.4,
+      "end": 99.7,
+      "text": "Boolean then when you were publishing your data you would get an error message about the property editable and not being valid Etc meaning that a number of pages couldn't be used for edit in Excel and remember in general you should use API pages instead of"
+    },
+    {
+      "t": 99.7,
+      "end": 118.1,
+      "text": "normal Pages exposed to O data but for editing Excel we want that to mimic the UI Behavior which is why behind the scenes that uses o data on top of UI pages so it's mainly for that functionality that this is"
+    },
+    {
+      "t": 118.1,
+      "end": 138.4,
+      "text": "relevant other service calls um have also received some stability improvements we have made sure that the server now returns return code 503 if your request waits in the request queue and you end up timing out and"
+    },
+    {
+      "t": 138.4,
+      "end": 158.4,
+      "text": "you will get a retry after header back and you can then decide to retry the call later this has been backported and is available from 22.2 and this is one of the examp there will be many of these examples you need to up your game on the clients on the web service clients you write the code you write"
+    },
+    {
+      "t": 158.4,
+      "end": 178.5,
+      "text": "because we are now offering you and also expecting you toh deal with return codes to look for headers and make your clients much more stable so together with the server is giving you that information and your clients reacting on it your client"
+    },
+    {
+      "t": 178.5,
+      "end": 199.1,
+      "text": "code can simply be much much more resilient to to failures or transient things yes now another place where we've added more stability is when we have invalid metadata which for instance can be that you have duplicates"
+    },
+    {
+      "t": 199.1,
+      "end": 219.1,
+      "text": "in the uh metadata so you end up with two pages named the same stuff that can happen when you have multiple extensions in install and before it would be very obvious at least for the customer that something was wrong because all web services would fail and now the"
+    },
+    {
+      "t": 219.1,
+      "end": 239.2,
+      "text": "one that causes the failure is ignored and we emit partner Telemetry so you shouldn't rely on your customer calling you anymore you should rely on Telemetry instead and I think that's a much better story if you look in the Telemetry app you'll see that there is a new page where you can find the"
+    },
+    {
+      "t": 239.2,
+      "end": 259.7,
+      "text": "web service end points that fail at runtime and it also hints at how you can actually fix them and if if you really want to take it to the next level you you just don't just have a powerbi app but you actually alert reactively on these failures so that you know before the customer knows or"
+    },
+    {
+      "t": 259.7,
+      "end": 279.7,
+      "text": "yes and that would be even better that is of course the professional way of making use of telemetry right in Microsoft we abev at everything so we don't call it a troubleshooting guide we call it a tsg because it's much faster to say tsg and we even have a threel"
+    },
+    {
+      "t": 279.7,
+      "end": 299.7,
+      "text": "acronym for thre L acronym which is T that is correct now to make it easier for you to troubleshoot web services we added a number of tsds this is the first one um this helps you to look at HP status codes what what they mean and and"
+    },
+    {
+      "t": 299.7,
+      "end": 320,
+      "text": "what to do about them so this first tsg is about okay if I get a 400 depending on whether it is incoming or outbound web services how can I fix that so go use stocks much more and that will actually help you hopefully troubleshoot web service calls specifically for this"
+    },
+    {
+      "t": 320,
+      "end": 340.4,
+      "text": "we added a number of things in the in the powerbi apps the first is if you start putting user agent in your web service calls that actually survives all the way in Telemetry or into the server and Emitt it to Telemetry so the the first box here on uh on the right um shows you which"
+    },
+    {
+      "t": 340.4,
+      "end": 360.3,
+      "text": "web service clients are having problems right so if you use a user agent you can see it in the app and you can see oh it's this particular web service client that has the problem we also add exceptions and Al call Stacks so you can also see that together with the user agent"
+    },
+    {
+      "t": 360.3,
+      "end": 380.4,
+      "text": "the next thing is um return status codes or return codes HTTP so the apps both for incoming and outgoing web service calls now have better visuals on HP status and also better filters so you can filter on on a given status code look up in the TSD about"
+    },
+    {
+      "t": 380.4,
+      "end": 396.2,
+      "text": "what is this and then start improving that part of your code same goes for outgoing out going web services you also get this new uh filtering and status code"
+    },
+    {
+      "t": 396.2,
+      "end": 416.6,
+      "text": "visuals and then in the last release we added or actually some releases ago we added a queue for web service ingoing web service calls because if you are flooding uh the server with a lot of calls we we we want to make sure that server survives and we just can handle things"
+    },
+    {
+      "t": 416.6,
+      "end": 432,
+      "text": "as we have available resources become uh available these this queuing time is now also showing up in Telemetry so you can see Q time statistics both in Telemetry and in the power Pi"
+    },
+    {
+      "t": 432,
+      "end": 452.4,
+      "text": "reports the most effective way to not have issues with web services is to co is to write robust code so what uh we apart from tsgs we also added uh error handling best practices when you use http client out to call out to external"
+    },
+    {
+      "t": 452.4,
+      "end": 472.5,
+      "text": "services and we made actually a huge makeover of the doc documentation for HP client I'll just go through a few of these examples first of all an endtoend article on how to use uh HP client how to set up run and and check for things uh we also explain"
+    },
+    {
+      "t": 472.5,
+      "end": 492.6,
+      "text": "how HP client send calls can fail so the different ways they can do that as as well as proper copy to clipboard code on error handling for um uh the first part of setting up as well as when you pass the results um when you pass"
+    },
+    {
+      "t": 492.6,
+      "end": 512.6,
+      "text": "the result from the service you also need to check for status codes and there's also code that you can just copy and make your code resilient especially for HSP status it could be some of these um are just that external service saying hey wait a minute you need to back up a bit so you can also put uh"
+    },
+    {
+      "t": 512.6,
+      "end": 532.8,
+      "text": "in code here for retry strategies and then make your code more resilient in in case the the service you're calling is having some transient issues and then we explain as I mentioned um all the common HP error codes uh with also suggested Solutions whether you"
+    },
+    {
+      "t": 532.8,
+      "end": 552.8,
+      "text": "have inbound calls or outbound calls we also made it possible um when you call uh when you call out in case web web HP client send fails even before passing return code there are different ways it can do it maybe you"
+    },
+    {
+      "t": 552.8,
+      "end": 572.8,
+      "text": "you didn't write the correct URL or maybe you have a network error or maybe you have a certificate error so we made that easier for you to troubleshoot if you use get last error text you can now simply copy that into your um into the error message next slide here um so"
+    },
+    {
+      "t": 572.8,
+      "end": 592.9,
+      "text": "that if if customers are calling you with some problem if they copy that in you can actually get the error message and you can troubleshoot from there some examples here before if you had SSL connection failures um the error message would prior to to where"
+    },
+    {
+      "t": 592.9,
+      "end": 613,
+      "text": "version 23 would just be see inner exceptions but you had no idea about what the inner exception was so that that's kind of ha see it but we won't show you now we actually showed or at least give you a little bit more info in this case the remote certificate is invalid okay that's much easier to troubleshoot"
+    },
+    {
+      "t": 613,
+      "end": 633.2,
+      "text": "if you actually know that another example here is um also for for a certificate whereas before you would just get something but in fact the problem uh that was from the inner exception was padding is invalid and cannot be removed and and you need to fix your code so it's"
+    },
+    {
+      "t": 633.2,
+      "end": 653.4,
+      "text": "just giving you some better options to find out what's what's wrong and a small thing behind the scenes is that we've optimized our usage of sockets because before actually a large number of outgoing calls using the HTTP client could potentially start the VM for ports"
+    },
+    {
+      "t": 653.4,
+      "end": 671.2,
+      "text": "um so we're making more reuse Etc and we've backported that and that is the way we've been running even back to version 2.x and it's not something that you really need to do any changes about it's just for your information in case youve seen some of these"
+    },
+    {
+      "t": 671.2,
+      "end": 691.5,
+      "text": "issues there are also a few upcoming changes the schema version for custom apis will change its default and we are removing the support for Delta links it's already not really supported there are very very few users of this functionality"
+    },
+    {
+      "t": 691.5,
+      "end": 706.8,
+      "text": "and we will be removing that so Goos go check if you have metadata issues use to limitu to find it and fix"
+    },
+    {
+      "t": 706.8,
+      "end": 727.2,
+      "text": "it yeah and also make sure that you harden your code for interacting with web services both the incoming request where you should handle the Response Code correctly decide on a back off strategy Etc and look at the troubleshooting guide and Harden it and same thing for the outgoing"
+    },
+    {
+      "t": 727.2,
+      "end": 748,
+      "text": "calls you can hand the erors an Al code and you can provide relevant details in as detailed information and of course also there consider retrying and then stop using Delta links the feature is deprecated as Yen showed in the last slide it's going to be removed in 2024"
+    },
+    {
+      "t": 748,
+      "end": 768.1,
+      "text": "Wave 1 so you have six months to uh to stop using it and then we'll remove it from the service other sessions that could be relevant if you like this is uh the compiler and developer tools session what's new in developer tools and a new kit on the Block yeah the what's new"
+    },
+    {
+      "t": 768.1,
+      "end": 788.2,
+      "text": "in database data verse and dynamic 365 app integration part two will cover business events uh which is also tightly related to webs services and then my good friend Kenny yeah as an we also always have the watch new and Telemetry session um"
+    },
+    {
+      "t": 788.2,
+      "end": 808.2,
+      "text": "bits and bites small nuggets of things you can use to make your life easier using Telemetry yeah and of course we refer to the normal resources Yammer x bc BC ideas and join office hours if you can and with that thank you"
+    },
+    {
+      "t": 808.2,
+      "end": 814,
+      "text": "very much for watching thanks for having us"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1954
+}

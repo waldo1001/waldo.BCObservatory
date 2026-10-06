@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/business-central-2026-wave-2-preview.html",
   "published_at": "2026-09-08T07:07:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:38:33.033Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1483211802825342389--e55e2cf3f2.md",
+      "words": 699
+    },
+    "extracted": {
+      "at": "2026-10-06T21:38:41.177Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006439
+    },
+    "summarized": {
+      "at": "2026-10-06T21:38:43.157Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:38:43.159Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:38:43.162Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1483211802825342389--e55e2cf3f2.md"
     }
   },
   "input_hash": "2026-09-08T07:09:27.619Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0736713d2bae06db490dfb65d561f8d0a76075a4e74f1befc38e88cf10cdc409"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "BZF4MrVfvfY",
+  "item_id": "video/yt-microsoft/BZF4MrVfvfY",
+  "summary": "G/L allocation accounts in Business Central (2023 release wave 2): fixed, variable (based on statistical accounts) and inherit-from-parent allocation types. Covers setup, use in general journals, deferrals and purchase invoices, manual adjustment, and extensibility events.",
+  "overview": "The video presents allocation accounts, a way to split cost and revenue across dimensions and G/L accounts. Fixed allocations use predefined percentages. Variable allocations calculate shares from statistical accounts or G/L balances. Inherit from parent lets you allocate an existing G/L account with an allocation key without creating a dedicated allocation account.\n\nDemos show allocations in general journals, combined with deferrals, and on purchase invoices, including editing the proposed split before posting. The later chapters walk through setup, the share UI pattern, decimal precision, dimension handling, and the code structure and integration events for developers.",
+  "key_points": [
+    "Three allocation types: fixed (predefined percentages), variable (based on statistical accounts or G/L balances), and inherit from parent (existing G/L account plus an allocation key).",
+    "Inherit from parent requires the destination account number to be blank.",
+    "Variable allocations need a calculation method: balance at date, fiscal year, week, quarter, or previous year.",
+    "Allocation accounts work in general journals, with deferrals (allocate and spread over periods in one transaction), and in purchase invoices.",
+    "Proposed splits can be adjusted before posting: amounts, G/L accounts and dimensions can be changed, and lines deleted.",
+    "The share UI keeps percentages summing to 100%. Calculations use up to five decimals internally while the UI shows whole percents; amount rounding applies on the G/L lines.",
+    "Defined dimensions on allocation lines override dimensions on the line. Filtering is by global dimensions only."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "32a5ab149e29b7fabcec595c3230bb57df6027efb9f2a6fb33ec7df564be7b6d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0228464
+  }
+}

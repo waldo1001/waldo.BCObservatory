@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/direct-transfers-from-warehouse-enabled.html",
+  "title": "Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2",
+  "source": "mohana-blog",
+  "published_at": "2026-09-09T07:22:10.000Z",
+  "words": 994,
+  "summary": "Business Central 2026 wave 2 enables direct transfers to work with warehouse-enabled source locations by supporting outbound warehouse handling and allowing posting method configuration per transfer route instead of company-wide only.",
+  "key_points": [
+    "Direct transfers now support outbound warehouse handling (Require Pick, Require Shipment, Bin Mandatory, and Directed Put-away and Pick) at the source location",
+    "Two posting methods exist: Direct Transfer (one Posted Direct Transfer document with 2 item ledger entries) and Shipment and Receipt (separate shipment and receipt with 4 item ledger entries)",
+    "Posting method can be set at company-wide default level (Inventory Setup) or overridden per transfer route (Transfer Routes page)",
+    "Completion workflow depends on source location's warehouse configuration; destinations with bins must have valid Transfer-To Bin Code",
+    "Direct transfer posting does not create inbound receipts at destination and destination cannot use Directed Put-away and Pick"
+  ],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "direct transfers",
+    "warehouse configuration",
+    "posting methods",
+    "transfer routes",
+    "outbound handling",
+    "bin management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Routes"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Orders"
+    }
+  ],
+  "features": [
+    "Direct Transfer posting",
+    "Warehouse Shipment",
+    "Inventory Pick",
+    "Transfer Routes override",
+    "Bin Mandatory",
+    "Directed Put-away and Pick",
+    "Partial posting"
+  ],
+  "versions": [
+    "2026 wave 2",
+    "Update 29.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006851,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The transfer order uses the route setting when one exists, and falls back to the Inventory Setup default when it does not.",
+      "why_it_matters": "Explains the hierarchy of posting method configuration that allows flexibility between company-wide defaults and specific transfer routes."
+    },
+    {
+      "text": "Direct transfer posting does not create inbound warehouse receipts or inventory put-aways.",
+      "why_it_matters": "Critical limitation that defines the scope of inbound warehouse control and shapes how destinations must be configured."
+    }
+  ]
+}

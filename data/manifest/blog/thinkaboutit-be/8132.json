@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/09/quick-tip-bcquality-a-shared-quality-bar-for-al-code-built-for-agents/",
   "published_at": "2026-09-09T13:23:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:37:28.235Z",
+      "path": "vault:posts/thinkaboutit-be/8132.md",
+      "words": 744
+    },
+    "extracted": {
+      "at": "2026-10-06T21:37:37.531Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006438
+    },
+    "summarized": {
+      "at": "2026-10-06T21:37:37.532Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:37:37.533Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:37:37.537Z",
+      "path": "content/posts/thinkaboutit-be/8132.md"
     }
   },
   "input_hash": "2026-09-09T14:12:13.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "595f0d9dcb0c715503b8afc5a9623a222a5f3fc12efbf5d41dfe29b4ed960d19"
 }

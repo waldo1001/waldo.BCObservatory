@@ -1,0 +1,671 @@
+{
+  "video_id": "lClKXB8xXIE",
+  "item_id": "video/yt-microsoft/lClKXB8xXIE",
+  "title": "What's New: Troubleshooting Shopify Integration (2023 release wave 2)",
+  "duration_s": 1399,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify integration",
+    "logging",
+    "troubleshooting",
+    "order synchronization",
+    "fulfillment",
+    "api versioning",
+    "user errors",
+    "log entries",
+    "job queue",
+    "error handling",
+    "data inspection",
+    "fulfillment synchronization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Logging Overview",
+      "t_start": 0,
+      "t_end": 97.6
+    },
+    {
+      "title": "Shopify Log Entries and Error Analysis",
+      "t_start": 97.6,
+      "t_end": 206.6
+    },
+    {
+      "title": "User Errors and Logging Mode Configuration",
+      "t_start": 206.6,
+      "t_end": 296.2
+    },
+    {
+      "title": "Log Retention and Product Synchronization",
+      "t_start": 296.2,
+      "t_end": 390.7
+    },
+    {
+      "title": "Product Error Handling and Fulfillment Service",
+      "t_start": 390.7,
+      "t_end": 572.7
+    },
+    {
+      "title": "API Versioning and End of Support",
+      "t_start": 572.7,
+      "t_end": 668.2
+    },
+    {
+      "title": "Foreground and Background Synchronization",
+      "t_start": 668.2,
+      "t_end": 779.6
+    },
+    {
+      "title": "Order Synchronization and Import Buffer",
+      "t_start": 779.6,
+      "t_end": 946.2
+    },
+    {
+      "title": "Inspecting Shopify Data and Connector Parsing",
+      "t_start": 946.2,
+      "t_end": 1016.4
+    },
+    {
+      "title": "Comparing Business Central and Shopify Data via JSON",
+      "t_start": 1016.4,
+      "t_end": 1088.9
+    },
+    {
+      "title": "Demonstrating Fulfillment Synchronization Issues",
+      "t_start": 1088.9,
+      "t_end": 1203.2
+    },
+    {
+      "title": "Role Center Shipment Status and Error Resolution Workflow",
+      "t_start": 1203.2,
+      "t_end": 1310.1
+    },
+    {
+      "title": "Summary, API Versioning, and Resources",
+      "t_start": 1310.1,
+      "t_end": 1399
+    }
+  ],
+  "features": [
+    {
+      "name": "Enhanced Shopify Log Entries View",
+      "description": "The new default view in Shopify log entries displays additional columns showing request and response information to distinguish between different types of synchronization (customer, order, product), and includes an error indicator checkbox to identify failed synchronization attempts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109,
+      "t_end": 164.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "troubleshooting",
+        "ui improvement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Request ID for Shopify Support",
+      "description": "Request IDs are provided in log entries to help identify specific request-response pairs when contacting Shopify support, enabling faster identification and more detailed information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.5,
+      "t_end": 198.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "support",
+        "logging",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User Error Section in Log Responses",
+      "description": "Log responses now contain a user error section that details what failed on the Shopify side when submitting data, such as invalid phone numbers or blank required fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.4,
+      "t_end": 245.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "logging",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Logging Mode Option Field",
+      "description": "The logging mode on the Shopify shop card has been transformed from a boolean on/off toggle into an option field with three modes: disabled, fully enabled, and error only (default), which reduces log pollution by only recording errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 269.6,
+      "t_end": 296.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "configuration",
+        "ui improvement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Log Retention Policies",
+      "description": "Retention policies now automatically clean up Shopify log entries by default on a monthly basis, removing entries older than one month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 344,
+      "t_end": 373.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "retention",
+        "maintenance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Data Capture Retention Policy",
+      "description": "A retention policy for Shopify data capture logs is available but disabled by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.4,
+      "t_end": 373.7,
+      "is_demoed": false,
+      "caveats": [
+        "disabled by default"
+      ],
+      "tags": [
+        "logging",
+        "retention"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User Error Support in Product Queries",
+      "description": "Product and other entity queries have been modified to return user error sections when errors occur, helping with troubleshooting of product synchronization issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 390.7,
+      "t_end": 410.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "product sync",
+        "troubleshooting"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Business Central Fulfillment Service Support",
+      "description": "Full support for Business Central fulfillment service has been enabled, allowing Shopify to be configured to use Business Central fulfillment with external systems, supporting both multiple fulfillment locations and configurations where Shopify locations are managed entirely by Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.2,
+      "t_end": 506.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fulfillment",
+        "shopify configuration",
+        "integration"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "SKU Requirement for Fulfillment Service",
+      "description": "When Business Central fulfillment service is selected in Shopify, the SKU field is required and cannot be blank, enforcing data validation consistency between Business Central and Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 534.2,
+      "t_end": 572.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fulfillment",
+        "validation",
+        "product"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "End of Support Indicator",
+      "description": "The Shopify shop card now displays an end of support date field that informs users when their current API version will no longer be supported, encouraging timely upgrades of Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 572.7,
+      "t_end": 601.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api versioning",
+        "lifecycle",
+        "support"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify API Quarterly Versioning",
+      "description": "Shopify releases new API versions quarterly (four times per year), with each version supported for one year. Business Central updates its connector to keep up with current versions in releases and minor updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 585.2,
+      "t_end": 619.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api versioning",
+        "lifecycle"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Foreground Synchronization Debugging",
+      "description": "Users can disable background job queue synchronization and run synchronizations in the foreground to immediately see errors and copy detailed error information including call stacks for easier troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 688.4,
+      "t_end": 755,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "synchronization",
+        "error handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Orders to Import Buffer Table",
+      "description": "The Shopify orders to import feature functions as a buffer table allowing users to manually manage and control which orders are imported from Shopify, with the ability to retrieve orders modified after a specific date or reset the date from Shopify admin.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 802.2,
+      "t_end": 908.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual action to retrieve orders",
+        "Date can be reset from Shopify admin"
+      ],
+      "tags": [
+        "order sync",
+        "troubleshooting",
+        "buffer",
+        "order management",
+        "synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Get Orders to Import Action",
+      "description": "An action that retrieves orders which were modified after a specific date from Shopify. Downloads additional order information including header, payments, transactions, shipments, lines, returns, and refunds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 849.5,
+      "t_end": 946.2,
+      "is_demoed": true,
+      "caveats": [
+        "Downloads multiple types of data which takes time",
+        "Initial import is fast but full import requires additional download"
+      ],
+      "tags": [
+        "order import",
+        "data synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Has Error Field in Order Import",
+      "description": "A field in the Shopify orders to import table that displays errors encountered during order import. System shows error details at the bottom for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 916.4,
+      "t_end": 934.9,
+      "is_demoed": true,
+      "caveats": [
+        "Error reproduction depends on connector stability"
+      ],
+      "tags": [
+        "error handling",
+        "diagnostics"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Retrieve Shopify Data Inspection",
+      "description": "Functionality allowing users to inspect the exact data received from Shopify for headers, lines, shipping costs, transactions, and fulfillment. Helps determine if problems originate from Shopify data or connector parsing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 962.8,
+      "t_end": 1016.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of data structure",
+        "Mainly useful for troubleshooting rather than routine exploration"
+      ],
+      "tags": [
+        "data inspection",
+        "diagnostics",
+        "transparency"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify JSON URL Inspection Technique",
+      "description": "A method to view Shopify order data in JSON format by appending 'JSON' to the Shopify order URL. Useful for comparing Shopify data representation with Business Central data and understanding discounts and item variants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1043.9,
+      "t_end": 1082,
+      "is_demoed": true,
+      "caveats": [
+        "Requires direct access to Shopify",
+        "Helps identify whether missing data is from Shopify or configuration issue"
+      ],
+      "tags": [
+        "data comparison",
+        "shopify",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Role Center Shopify Activities Status Fields",
+      "description": "Two new fields in the Role Center Shopify activities section showing the status of shipment synchronization - whether shipments are pending or failed. Provides actionable information for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1203.2,
+      "t_end": 1232.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires exploration of underlying issues when failures occur"
+      ],
+      "tags": [
+        "role center",
+        "shipment",
+        "synchronization",
+        "status"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Fulfillment ID Field in Document",
+      "description": "A field showing the Shopify fulfillment ID on the Business Central document, which can be 0, -1 if error, or an actual value. The value -1 can be manually changed to 0 to reset error state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1268.7,
+      "t_end": 1293.5,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot be edited when it has an actual value",
+        "Changing -1 to 0 is documented but intentionally confusing"
+      ],
+      "tags": [
+        "fulfillment",
+        "error handling",
+        "document"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Improved Logging with Configurable Detail Levels",
+      "description": "Enhanced logging system providing more powerful and detailed logs when necessary, while using less space when details are not needed. Dramatically cleaner interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1311,
+      "t_end": 1323.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "diagnostics",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify API Versioning Management",
+      "description": "The Shopify connector handles API versioning automatically. Users just need to stay updated without worrying about version compatibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1323.7,
+      "t_end": 1335,
+      "is_demoed": false,
+      "caveats": [
+        "Requires keeping connector updated"
+      ],
+      "tags": [
+        "api",
+        "versioning",
+        "maintenance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multi-Shop Import Routing",
+      "description": "Users can connect multiple Business Central shop cards to a single Shopify account and route imported orders to specific shops based on filters like tags or other criteria, allowing flexible order parsing and processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 878.4,
+      "t_end": 908.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual selection of destination shop during import"
+      ],
+      "tags": [
+        "order sync",
+        "multi-shop",
+        "configuration",
+        "routing"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Shopify Log Entries",
+      "t": 97.6
+    },
+    {
+      "type": "table",
+      "name": "Shopify orders to import",
+      "t": 812.3
+    },
+    {
+      "type": "table",
+      "name": "Shopify shop",
+      "t": 269.6
+    },
+    {
+      "type": "other",
+      "name": "Role Center",
+      "t": 1215.2
+    },
+    {
+      "type": "other",
+      "name": "Shopify activities",
+      "t": 1215.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andrei Panko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 114.9,
+      "text": "With the new upgrade, the default view looks a bit better.",
+      "why_it_matters": "Indicates the log view UI has been significantly improved in this release to help with troubleshooting.",
+      "check": "exact"
+    },
+    {
+      "t": 180.5,
+      "text": "And to help you to talk to Shopify support, you need to use a request ID.",
+      "why_it_matters": "Explains the new capability to provide Shopify support with specific request identifiers for faster issue resolution.",
+      "check": "exact"
+    },
+    {
+      "t": 269.6,
+      "text": "Now logging mode transformed from the boolean on and off into the option field.",
+      "why_it_matters": "Describes a design change that gives users more granular control over log collection to reduce noise.",
+      "check": "exact"
+    },
+    {
+      "t": 471.2,
+      "text": "Be aware that already before this release in one of the minor updates, we enabled full support for business central fulfillment service.",
+      "why_it_matters": "Clarifies that fulfillment service support was delivered in an earlier minor update, not this release.",
+      "check": "exact"
+    },
+    {
+      "t": 585.2,
+      "text": "Every quarter they release a new version of the API. So, four times per year, there is a new version. And each version is",
+      "why_it_matters": "Establishes the Shopify API versioning cadence and support window that drives connector update requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 688.4,
+      "text": "If synchronization is running in the foreground, then you don't actually see any feedback when you execute synchronization.",
+      "why_it_matters": "Explains a troubleshooting technique for debugging synchronization issues in real-time rather than through job queue logs.",
+      "check": "exact"
+    },
+    {
+      "t": 812.3,
+      "text": "Shopify orders to import. It's not just a filtering opportunity. It is in reality the buffer table.",
+      "why_it_matters": "Clarifies that the orders to import feature is a buffer mechanism providing users manual control over order imports.",
+      "check": "exact"
+    },
+    {
+      "t": 812.3,
+      "text": "It's not just a filtering opportunity. It is in reality the buffer table.",
+      "why_it_matters": "Explains the dual purpose of the Shopify orders to import feature as both a filter and a working table for order troubleshooting.",
+      "check": "exact"
+    },
+    {
+      "t": 849.5,
+      "text": "If I will press it, I will get orders which were modified after some specific date.",
+      "why_it_matters": "Describes the mechanism for retrieving orders from Shopify for troubleshooting, allowing users to control what data is imported.",
+      "check": "exact"
+    },
+    {
+      "t": 946.2,
+      "text": "Header, fully payments, transactions, shipments, lines, returns, refunds, like a lot of stuff.",
+      "why_it_matters": "Specifies the comprehensive data types downloaded during order import, showing the scope of the synchronization process.",
+      "check": "exact"
+    },
+    {
+      "t": 974,
+      "text": "Now you can see like what exactly we received from Shopify. So now you can understand if it's problem about data which we received",
+      "why_it_matters": "Explains the purpose of data inspection as a diagnostic tool to isolate whether problems originate from Shopify or the Business Central connector.",
+      "check": "exact"
+    },
+    {
+      "t": 1043.9,
+      "text": "And then in the URL you just add JSON. Now you can see like representation of Shopify.",
+      "why_it_matters": "Provides a practical technique for comparing Shopify data directly with Business Central data, useful for troubleshooting discrepancies.",
+      "check": "exact"
+    },
+    {
+      "t": 1268.7,
+      "text": "And it can be 0, -1 if it's some error, or the actual value. If it has an actual value, then all good.",
+      "why_it_matters": "Defines the meaning of fulfillment ID values as a key indicator of synchronization status and error conditions.",
+      "check": "exact"
+    },
+    {
+      "t": 1323.7,
+      "text": "Shopify API versioning. No need to worry. Just stay updated.",
+      "why_it_matters": "Clarifies that API versioning is handled automatically, reducing operational burden for users maintaining the integration.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 471.2,
+      "kind": "not-in-this-release",
+      "text": "full support for business central fulfillment service already before this release in one of the minor updates"
+    },
+    {
+      "t": 1353,
+      "kind": "other",
+      "text": "I hope you will not need all these tools because connector is again more and more stable. And less issues are happening with it."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032442
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027353
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038061
+    }
+  ]
+}

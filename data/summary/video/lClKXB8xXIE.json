@@ -1,0 +1,27 @@
+{
+  "video_id": "lClKXB8xXIE",
+  "item_id": "video/yt-microsoft/lClKXB8xXIE",
+  "summary": "Troubleshooting the Business Central Shopify connector in 2023 release wave 2: log entries with request IDs and user errors, logging modes, retention, API versioning and end-of-support date, foreground sync, the orders-to-import buffer, data inspection, and fulfillment sync errors.",
+  "overview": "The video walks through the tools added to the Shopify connector for finding out why synchronization fails. It starts with the reworked Shopify log entries view, which now shows request and response columns, an error indicator and a request ID for Shopify support. Log responses include a user error section, and the logging mode on the shop card is now an option field with disabled, fully enabled and error only (default).\n\nIt then covers log retention, product error handling, Business Central fulfillment service, Shopify API versioning and the end of support date on the shop card. The demos show running synchronization in the foreground to see errors, using Shopify orders to import as a buffer table, inspecting received Shopify data, comparing it with Shopify JSON, and resolving shipment synchronization errors through the Role Center and the Shopify fulfillment ID field.",
+  "key_points": [
+    "Logging mode on the Shopify shop card is now an option field: disabled, fully enabled, or error only (default), so logs hold only errors by default.",
+    "Log entries show request and response columns and an error checkbox. The request ID can be given to Shopify support.",
+    "Log responses contain a user error section, for example invalid phone numbers or blank required fields. Product queries also return user errors.",
+    "Retention policy deletes Shopify log entries older than one month by default. The Shopify data capture retention policy is disabled by default.",
+    "To debug, disable background job queue synchronization and run it in the foreground to see errors and copy call stacks.",
+    "Shopify orders to import is a buffer table. The Get orders action retrieves orders modified after a date, and the Has Error field shows import errors. Appending JSON to a Shopify order URL shows the raw data for comparison.",
+    "The Shopify fulfillment ID on the document can be 0, -1 (error) or a real value. Changing -1 to 0 resets the error state. Business Central fulfillment service support was already enabled in an earlier minor update, and SKU is required when it is selected."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "9b0b0e076c29a601669c2576ebe7cb99aad3c28e7341d3b444168400e3ca2711",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.025586400000000002
+  }
+}
