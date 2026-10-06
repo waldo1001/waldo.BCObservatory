@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview",
+  "title": "Query Overview",
+  "blob": "78777382fb13194a8c827c43217ed3569b8be9b9",
+  "summary": "Queries enable retrieving and combining records from one or more tables into a single dataset and can perform calculations, aggregate data, and be exposed as OData web services.",
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "query object",
+    "api query",
+    "data aggregation",
+    "odata",
+    "data analysis",
+    "web services"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Customer SalesQuantity"
+    }
+  ],
+  "features": [
+    "normal query",
+    "API query",
+    "data analysis mode",
+    "web service",
+    "query totals",
+    "query grouping",
+    "query filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003414,
+      "pages_in_call": 8
+    }
+  ]
+}

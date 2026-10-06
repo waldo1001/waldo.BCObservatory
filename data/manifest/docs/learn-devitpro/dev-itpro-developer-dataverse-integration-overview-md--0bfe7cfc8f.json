@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "58152934a9addad6424343af31f2151727605982",
       "words": 371,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:25.668Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003414
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:25.678Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:25.679Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:25.680Z",
+      "page": false
     }
   },
   "input_hash": "58152934a9addad6424343af31f2151727605982",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58152934a9addad6424343af31f2151727605982"
+  "output_hash": "a4660bbda0e3625eb1804ae0c658d4234a25faee051dd8f63263eeb5eb07cbc0"
 }

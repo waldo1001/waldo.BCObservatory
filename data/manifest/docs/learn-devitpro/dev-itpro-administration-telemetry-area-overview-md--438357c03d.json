@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-area-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.003679
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:15.460Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:15.460Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:15.461Z",
+      "page": false
     }
   },
   "input_hash": "68932530811cc06aaac445cd210fa2c74fd9f647",

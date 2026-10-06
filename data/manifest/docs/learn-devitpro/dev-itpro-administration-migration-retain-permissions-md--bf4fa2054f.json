@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 2,
       "cost_usd": 0.003679
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:15.451Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:15.452Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:15.453Z",
+      "page": false
     }
   },
   "input_hash": "dc7e149679b16aeb6a956b3252ff5745950c0d76",

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-parts",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "11f65509f3b633fcc7a13c280d5be8de6b3cbbe3",
       "words": 1080,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:25.670Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003414
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:25.686Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:25.688Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:25.689Z",
+      "page": false
     }
   },
   "input_hash": "11f65509f3b633fcc7a13c280d5be8de6b3cbbe3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11f65509f3b633fcc7a13c280d5be8de6b3cbbe3"
+  "output_hash": "0ff46c159ac7dcb5388ee3d8815d103f712b81ab9377c45125080710922075b3"
 }

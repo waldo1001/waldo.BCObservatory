@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-for-teams-check-session.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-check-session",
+  "title": "Get session and environment information relevant to Teams development",
+  "blob": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0",
+  "summary": "Getting session and environment details for Teams development explains how to check if code runs in Teams context, determine Microsoft 365 license usage, and detect if M365 collaboration is enabled.",
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "teams development",
+    "session information",
+    "microsoft 365 license",
+    "teams context",
+    "client type",
+    "collaboration"
+  ],
+  "objects": [],
+  "features": [
+    "CurrentClientType method",
+    "Microsoft 365 license detection",
+    "M365 collaboration check"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003414,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-design-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2",
       "words": 674,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:25.675Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003414
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:27.490Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:27.491Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:27.492Z",
+      "page": false
     }
   },
   "input_hash": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2"
+  "output_hash": "2ceee81c370f910cdefbea96982992245a1bf5602a03a774f73f0bd752fed422"
 }

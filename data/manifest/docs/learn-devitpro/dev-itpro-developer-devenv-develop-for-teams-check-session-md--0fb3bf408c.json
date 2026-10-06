@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-check-session",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0",
       "words": 341,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:25.672Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003414
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:27.484Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:27.485Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:27.486Z",
+      "page": false
     }
   },
   "input_hash": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0"
+  "output_hash": "de7050142bc6fec1ee51f15e4bf24cdab7abd2476c19feb09b5e2b66b08764c4"
 }
