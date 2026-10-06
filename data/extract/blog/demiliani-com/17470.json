@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/17470",
+  "url": "https://demiliani.com/2026/10/05/dynamics-365-business-central-license-keys-what-changes-from-version-28/",
+  "title": "Dynamics 365 Business Central license keys: what changes from version 28.",
+  "source": "demiliani-com",
+  "published_at": "2026-10-05T13:36:31.000Z",
+  "words": 473,
+  "summary": "Starting October 1, 2026, Dynamics 365 Business Central on-premises and Dual Use Rights licenses no longer use version-specific keys. Instead, a single '28+' key family applies to all versions 28 and later, requiring administrators to download a refreshed license file before each version upgrade to unlock new objects.",
+  "key_points": [
+    "Version-specific license keys are discontinued; '28+' is the unified key for all on-premises editions and DUR licenses",
+    "A fresh 28+ key must be downloaded before upgrading to each new version, with the download date determining which objects unlock",
+    "Dual Use Rights deployments have a separate six-month key renewal requirement independent of the 28+ upgrade rule",
+    "Administrators must add license key download to upgrade checklists and track DUR key expiry dates"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "licensing",
+    "on-premises",
+    "dual use rights",
+    "license keys",
+    "version upgrades",
+    "license management"
+  ],
+  "objects": [],
+  "features": [
+    "28+ license key family",
+    "unified licensing for on-premises",
+    "dual use rights licensing",
+    "license file downloads",
+    "version-specific object unlocking"
+  ],
+  "versions": [
+    "version 28",
+    "version 30",
+    "2026 release wave"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005757,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "new releases of Dynamics 36 Business Central no longer include version-specific license keys for on-premises",
+      "why_it_matters": "Clarifies the fundamental change in licensing strategy that affects all on-premises deployments starting October 1, 2026"
+    },
+    {
+      "text": "you must download a refreshed 28+ key if you want to upgrade to the latest version",
+      "why_it_matters": "Establishes the new mandatory step in every upgrade process and the ongoing operational burden"
+    }
+  ]
+}

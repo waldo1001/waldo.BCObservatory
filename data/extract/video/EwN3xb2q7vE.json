@@ -1,0 +1,600 @@
+{
+  "video_id": "EwN3xb2q7vE",
+  "item_id": "video/yt-microsoft/EwN3xb2q7vE",
+  "title": "What's New: Coding Business Central Agents with AI Development Toolkit",
+  "duration_s": 953,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent development",
+    "al coding",
+    "agent interfaces",
+    "task management",
+    "message validation",
+    "agent setup",
+    "agent instances",
+    "multi-turn interactions",
+    "api design",
+    "agent configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Getting Started",
+      "t_start": 0,
+      "t_end": 55.7
+    },
+    {
+      "title": "Agent Type Design and Setup",
+      "t_start": 55.7,
+      "t_end": 134.4
+    },
+    {
+      "title": "Agent Interfaces and Message Validation",
+      "t_start": 134.4,
+      "t_end": 288.9
+    },
+    {
+      "title": "Agent Types versus Instances",
+      "t_start": 288.9,
+      "t_end": 374
+    },
+    {
+      "title": "Setup Pages and Configuration",
+      "t_start": 374,
+      "t_end": 524.7
+    },
+    {
+      "title": "Agent Management and KPI Pages",
+      "t_start": 524.7,
+      "t_end": 602.3
+    },
+    {
+      "title": "Tasks and Messages API",
+      "t_start": 602.3,
+      "t_end": 740.9
+    },
+    {
+      "title": "Multi-turn Interactions and Task Triggers",
+      "t_start": 740.9,
+      "t_end": 811.8
+    },
+    {
+      "title": "Getting Task Results and Agent Sessions",
+      "t_start": 811.8,
+      "t_end": 884.6
+    },
+    {
+      "title": "Exposing Agents to Other Apps",
+      "t_start": 884.6,
+      "t_end": 953
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Type Definition",
+      "description": "A blueprint for agents that defines default settings and identity through enum extensions for agent metadata provider and Copilot capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.7,
+      "t_end": 115.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent design",
+        "enum extension",
+        "metadata provider"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Factory Interface",
+      "description": "Defines default settings for agents including first time setup page, copilot capability binding, default profile, and default permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 134.4,
+      "t_end": 167.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent interface",
+        "default settings",
+        "setup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Metadata Interface",
+      "description": "Defines runtime behavior of agents including summary page, message review page, agent initials, and context-specific settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 167.2,
+      "t_end": 190.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent interface",
+        "runtime behavior"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task Execution Interface",
+      "description": "Controls message processing behavior including input/output message validation, user intervention suggestions, and context-specific settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.7,
+      "t_end": 216.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "message validation",
+        "task execution",
+        "agent interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Message Validation API",
+      "description": "Allows implementing relevance checks, adding warnings on input messages, and modifying output messages to add signatures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 216.1,
+      "t_end": 288.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "message validation",
+        "relevance checks",
+        "output modification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Instances",
+      "description": "Agents are modeled as instances which are also users in Business Central, each keeping their own permissions, profile, user settings, and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.9,
+      "t_end": 345.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent instances",
+        "user modeling",
+        "permissions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Setup Page",
+      "description": "A configuration dialog page type used to create and configure agent instances, with standard agent setup component and custom settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.2,
+      "t_end": 432.1,
+      "is_demoed": true,
+      "caveats": [
+        "Users design their own setup pages for custom agents"
+      ],
+      "tags": [
+        "setup page",
+        "configuration dialog",
+        "agent creation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Setup Codeunit",
+      "description": "Allows creating and managing instances of agents and tracking them in custom tables with agent configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 432.1,
+      "t_end": 514.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent setup",
+        "codeunit",
+        "instance management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Programmatic Agent Creation",
+      "description": "Agents can be created dynamically through the agent codeunit, tied to actions or workflows, within user sessions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 514.5,
+      "t_end": 540,
+      "is_demoed": true,
+      "caveats": [
+        "Must be in a user session"
+      ],
+      "tags": [
+        "programmatic creation",
+        "dynamic agents",
+        "codeunit"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Instructions",
+      "description": "Instructions can be loaded at any time during agent lifetime, typically loaded during agent creation from a resource.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 551.7,
+      "t_end": 572.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent instructions",
+        "agent configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent KPI Pages",
+      "description": "Display important metrics about an agent when users hover over the agent's avatar, using card part pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 572.8,
+      "t_end": 602.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "kpi pages",
+        "agent metrics",
+        "card parts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tasks API",
+      "description": "Automates task creation for agent instances using agent task and builder codeunits to build tasks and messages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 602.3,
+      "t_end": 626.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tasks api",
+        "task creation",
+        "agent task codeunit"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task and Message Model",
+      "description": "Tasks are units of work bound to agent instances with input messages providing context, and agents create output messages. Multi-turn interactions are supported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 626.3,
+      "t_end": 677,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task model",
+        "input messages",
+        "output messages",
+        "multi-turn"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Message Attachments",
+      "description": "Ability to add attachments such as PDF documents to messages, with text extraction performed by the agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 706.6,
+      "t_end": 735.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "message builder",
+        "pdf analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-turn Agent Interactions",
+      "description": "Supports continuing discussions with agents through multiple input and output messages, simulating email threads or continuous discussions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 740.9,
+      "t_end": 755.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-turn",
+        "continuous discussion",
+        "email thread"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "External ID for Messages",
+      "description": "Field on messages allowing tying messages to concepts like email threads for finding and continuing them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 755.9,
+      "t_end": 776,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "external id",
+        "message tracking",
+        "email thread"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Triggering",
+      "description": "Tasks can be triggered by embedding them in Business Central as page actions or through events and processes in AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 776,
+      "t_end": 811.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task triggering",
+        "page actions",
+        "events"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Codeunit Management",
+      "description": "Provides functions to manage agents and tasks including stopping tasks, restarting them, and other management operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 797,
+      "t_end": 811.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task management",
+        "agent task codeunit"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task Result Polling",
+      "description": "Wait for task results via polling using the agent task record status field to check completion state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 811.8,
+      "t_end": 836.6,
+      "is_demoed": true,
+      "caveats": [
+        "Good for unit testing and non-production scenarios"
+      ],
+      "tags": [
+        "polling",
+        "task results",
+        "status field"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Session Events",
+      "description": "Create events that only fire in agent sessions, allowing code to trigger after agent actions in the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 836.6,
+      "t_end": 866.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent session",
+        "events",
+        "session events"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Is Agent Session Procedure",
+      "description": "Provided by agent session codeunit to determine if current session is an agent session.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 866.6,
+      "t_end": 879.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent session codeunit",
+        "session detection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Exposing Agents via API",
+      "description": "Expose agents to other apps by creating public functions in a codeunit that other apps can call, while maintaining security boundaries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 884.6,
+      "t_end": 928.2,
+      "is_demoed": true,
+      "caveats": [
+        "By default agents are isolated to own app for security"
+      ],
+      "tags": [
+        "api exposure",
+        "cross-app",
+        "public api"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "agent metadata provider enum",
+      "t": 70.8
+    },
+    {
+      "type": "enum",
+      "name": "Copilot capability enum",
+      "t": 83.3
+    },
+    {
+      "type": "interface",
+      "name": "agent factory interface",
+      "t": 134.4
+    },
+    {
+      "type": "interface",
+      "name": "metadata interface",
+      "t": 167.2
+    },
+    {
+      "type": "interface",
+      "name": "task execution interface",
+      "t": 190.7
+    },
+    {
+      "type": "codeunit",
+      "name": "agent setup code unit",
+      "t": 448.5
+    },
+    {
+      "type": "codeunit",
+      "name": "agent code unit",
+      "t": 524.7
+    },
+    {
+      "type": "codeunit",
+      "name": "agent task code unit",
+      "t": 613.6
+    },
+    {
+      "type": "codeunit",
+      "name": "task builder code unit",
+      "t": 677
+    },
+    {
+      "type": "codeunit",
+      "name": "message builder code unit",
+      "t": 719.1
+    },
+    {
+      "type": "codeunit",
+      "name": "agent session code unit",
+      "t": 866.6
+    },
+    {
+      "type": "table",
+      "name": "setup table",
+      "t": 677
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown Speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.6,
+      "text": "Today we will see how we can use the APIs provided in Business Central to code our own agents.",
+      "why_it_matters": "Sets the core objective of the session: teaching developers to build agents using Business Central APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 302,
+      "text": "In Business Central, agents are modeled via instances which are also users in Business Central.",
+      "why_it_matters": "Clarifies the fundamental architectural model: agents are instances and users, establishing how agents are created and managed.",
+      "check": "exact"
+    },
+    {
+      "t": 432.1,
+      "text": "you will need to make your own table to track your own instances. It needs to be a table that has the user security",
+      "why_it_matters": "Specifies a key technical requirement for agent implementation - using user security ID as primary key for instance tracking.",
+      "check": "snapped"
+    },
+    {
+      "t": 626.3,
+      "text": "For tasks, you can imagine them as units of work for the agent. They are bound to a specific agent instance.",
+      "why_it_matters": "Defines the task model that developers use to assign work to agents.",
+      "check": "exact"
+    },
+    {
+      "t": 659.9,
+      "text": "Multi-turn interactions are also supported because you can insert multiple input messages, and the agent might answer multiple times.",
+      "why_it_matters": "Confirms multi-turn conversation capability enabling complex agent interactions.",
+      "check": "exact"
+    },
+    {
+      "t": 884.6,
+      "text": "By default, the AL API only supports interacting with agents defined in your own app.",
+      "why_it_matters": "Establishes default security boundary where agents are isolated to their own app.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027278399999999998
+    }
+  ]
+}

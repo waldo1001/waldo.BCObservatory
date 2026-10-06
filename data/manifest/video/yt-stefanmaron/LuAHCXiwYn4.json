@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=LuAHCXiwYn4",
   "published_at": "2026-03-16T11:02:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T18:02:35.710Z",
       "captions": "auto:en-orig",
       "duration_s": 2461
+    },
+    "captioned": {
+      "at": "2026-10-06T18:09:17.883Z",
+      "path": "vault:captions/community/yt-stefanmaron/LuAHCXiwYn4.vtt",
+      "vtt_sha256": "20d6e32a88efe2450f9dd0af72e83fdb6a2f4507c6b8ea742f3d860327b8803d",
+      "segments": 184,
+      "words": 3182,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "20d6e32a88efe2450f9dd0af72e83fdb6a2f4507c6b8ea742f3d860327b8803d"
 }

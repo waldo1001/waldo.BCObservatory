@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "e60ad00be3bdba1ae5f573d43a80892446959654",
       "words": 1990,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:10:06.972Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.023635
     }
   },
   "input_hash": "e60ad00be3bdba1ae5f573d43a80892446959654",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e60ad00be3bdba1ae5f573d43a80892446959654"
+  "output_hash": "9cac1c022474402cafa1ff813f3dd4fdc5d7d3ecd66ef47b3d5eb59e25c646eb"
 }

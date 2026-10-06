@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v24.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v24",
+  "title": "Upgrading Customized C/AL Application to Microsoft Base Application for version 24",
+  "blob": "71626936764d1defa38baca21112da85f3086039",
+  "summary": "Upgrading a customized version 14 C/AL application to version 24 using Microsoft base applications requires creating extensions, migrating tables to extension-based tables, and performing application and data upgrades through defined tasks using the destinationappsformigration setting and migration.json file.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "c/al to al migration",
+    "extension-based architecture",
+    "table migration",
+    "version 24",
+    "data upgrade",
+    "application upgrade"
+  ],
+  "objects": [],
+  "features": [
+    "destinationappsformigration server setting",
+    "migration.json file",
+    "txt2al conversion tool",
+    "table migration extension",
+    "empty extension versions",
+    "permission sets upgrade",
+    "data encryption",
+    "control add-ins",
+    "certificate-based authentication"
+  ],
+  "versions": [
+    "version 14",
+    "version 24",
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025775,
+      "pages_in_call": 1
+    }
+  ]
+}

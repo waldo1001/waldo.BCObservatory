@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/10/business-central-29-introducing-composite-document-layouts/",
   "published_at": "2026-10-05T09:38:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:09:18.675Z",
+      "path": "vault:posts/thinkaboutit-be/8250.md",
+      "words": 1251
+    },
+    "extracted": {
+      "at": "2026-10-06T18:09:40.006Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006557
+    },
+    "summarized": {
+      "at": "2026-10-06T18:09:40.007Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T18:09:40.008Z"
+    },
+    "published": {
+      "at": "2026-10-06T18:09:40.012Z",
+      "path": "content/posts/thinkaboutit-be/8250.md"
     }
   },
   "input_hash": "2026-10-05T09:38:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "054ff7b160f32fe718217f3a5bb20bfe7e3e51448bc3a66654ffd18edd3c42b2"
 }

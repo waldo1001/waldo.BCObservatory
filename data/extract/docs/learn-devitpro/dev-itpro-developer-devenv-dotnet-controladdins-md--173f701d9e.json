@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-dotnet-controladdins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins",
+  "title": ".NET control add-ins",
+  "blob": "15e6680345449f9bc9eae85ff6d769ef4d0ddf73",
+  "summary": ".NET control add-ins allow on-premises Business Central to use existing .NET and JavaScript control add-ins through AL interoperability by declaring the assembly, type, and class information.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "control add-ins",
+    ".net interoperability",
+    "javascript",
+    "assembly",
+    "al language"
+  ],
+  "objects": [],
+  "features": [
+    "Assembly declaration",
+    "ControlAddInExport attribute",
+    "ApplicationVisible attribute",
+    "type declarations",
+    ".NET control add-in usage"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01311,
+      "pages_in_call": 4
+    }
+  ]
+}

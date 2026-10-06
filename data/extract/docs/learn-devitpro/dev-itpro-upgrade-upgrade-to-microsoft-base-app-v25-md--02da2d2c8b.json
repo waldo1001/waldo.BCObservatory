@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25",
+  "title": "Upgrading Customized C/AL Application to Microsoft Base Application for version 25",
+  "blob": "eeaa3e1559a0c475d5eca7918cc61cc8f9860111",
+  "summary": "Upgrade process for converting a customized version 14 C/AL application to version 25 using Microsoft system and base applications. Covers application code migration to extensions and data upgrade phases with table ownership transfer.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "upgrade",
+    "c/al",
+    "extensions",
+    "database conversion",
+    "table migration",
+    "version 25",
+    "data upgrade"
+  ],
+  "objects": [],
+  "features": [
+    "DestinationAppsForMigration",
+    "migration.json",
+    "table migration extension",
+    "system and base applications",
+    "permission sets",
+    "txt2al conversion",
+    "data encryption management"
+  ],
+  "versions": [
+    "version 25",
+    "2024 release wave 2",
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023635,
+      "pages_in_call": 2
+    }
+  ]
+}

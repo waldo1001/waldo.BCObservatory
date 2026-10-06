@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v23.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v23",
+  "title": "Upgrading Customized C/AL Application to Microsoft Base Application for version 23",
+  "blob": "00d0e0a4a2acb948f6d21fa2b08b951aa3e4fa86",
+  "summary": "Upgrading a customized version 14 C/AL application to version 23 using the Microsoft system and base applications involves creating extensions for code customizations, migrating tables through a table migration extension, and performing a two-phase data upgrade with synchronization and installation steps.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "c/al",
+    "extension",
+    "table migration",
+    "data upgrade",
+    "version 14 to 23"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Bin Content Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Document Entry"
+    },
+    {
+      "type": "table",
+      "name": "Entry Summary"
+    },
+    {
+      "type": "table",
+      "name": "Option Lookup Buffer"
+    }
+  ],
+  "features": [
+    "DestinationAppsForMigration setting",
+    "migration.json file",
+    "table migration extension",
+    "permission sets upgrade",
+    "destinationappsformigration server setting",
+    "empty extensions",
+    "two-phase data upgrade",
+    "AL code conversion"
+  ],
+  "versions": [
+    "version 14",
+    "version 23",
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025248,
+      "pages_in_call": 1
+    }
+  ]
+}

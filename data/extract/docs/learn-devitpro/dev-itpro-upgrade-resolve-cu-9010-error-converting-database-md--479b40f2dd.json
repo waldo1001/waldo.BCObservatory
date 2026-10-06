@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-cu-9010-error-converting-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-cu-9010-error-converting-database",
+  "title": "Resolving Codeunit 9010 Compilation Error",
+  "blob": "d7ea52cbe746daf2345cb35a3d03a8158ffde2e4",
+  "summary": "Resolving Codeunit 9010 compilation errors when converting a Nav 2018 database to Business Central by replacing the Azure AD User Management code with updated implementation supporting Microsoft Entra ID.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "azure ad",
+    "microsoft entra id",
+    "codeunit 9010",
+    "database conversion",
+    "compilation error"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "9010 Microsoft Entra ID User Management"
+    }
+  ],
+  "features": [
+    "Azure AD User Management",
+    "Microsoft Entra ID authentication",
+    "user plan assignments",
+    "license management",
+    "token claims"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01311,
+      "pages_in_call": 4
+    }
+  ]
+}

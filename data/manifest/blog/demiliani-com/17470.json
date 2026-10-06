@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/10/05/dynamics-365-business-central-license-keys-what-changes-from-version-28/",
   "published_at": "2026-10-05T13:36:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:09:04.531Z",
+      "path": "vault:posts/demiliani-com/17470.md",
+      "words": 473
+    },
+    "extracted": {
+      "at": "2026-10-06T18:09:14.135Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:09:14.136Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T18:09:14.137Z"
+    },
+    "published": {
+      "at": "2026-10-06T18:09:14.140Z",
+      "path": "content/posts/demiliani-com/17470.md"
     }
   },
   "input_hash": "2026-10-05T13:36:31.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b3057fe3faee22aefbbd402b66f297134d9455daab84b460cad96cd666c1fd39"
 }

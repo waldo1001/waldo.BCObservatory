@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-cu-9010-error-converting-database",
   "published_at": "2026-06-02T11:43:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "d7ea52cbe746daf2345cb35a3d03a8158ffde2e4",
       "words": 85,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:10:08.854Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.01311
     }
   },
   "input_hash": "d7ea52cbe746daf2345cb35a3d03a8158ffde2e4",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7ea52cbe746daf2345cb35a3d03a8158ffde2e4"
+  "output_hash": "51932b78d592a5a3be55cc37922b588e856dde65de92ed4c836c3624fba1abe6"
 }

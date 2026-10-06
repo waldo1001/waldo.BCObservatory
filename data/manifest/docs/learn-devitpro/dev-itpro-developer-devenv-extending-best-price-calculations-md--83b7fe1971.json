@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations",
   "published_at": "2026-06-02T11:43:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a89772c8e881eb2ef17f7ce24f5f92fdd754e725",
       "words": 3561,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:10:08.857Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 17,
+      "cost_usd": 0.01311
     }
   },
   "input_hash": "a89772c8e881eb2ef17f7ce24f5f92fdd754e725",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a89772c8e881eb2ef17f7ce24f5f92fdd754e725"
+  "output_hash": "c0d62a55f191ea2fdabb26e3d5a3df60dd678afdce0e0624e193e08ddb3689cb"
 }

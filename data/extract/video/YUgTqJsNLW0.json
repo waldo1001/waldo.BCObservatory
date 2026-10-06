@@ -1,0 +1,96 @@
+{
+  "video_id": "YUgTqJsNLW0",
+  "item_id": "video/yt-dynamicscorner/YUgTqJsNLW0",
+  "title": "Agents on the rise and with voice, do you think BC will have an agent you can speak to?",
+  "duration_s": 42,
+  "systems": [
+    "copilot"
+  ],
+  "topics": [
+    "agents",
+    "voice conversation",
+    "conversational ai",
+    "business manager agent",
+    "strategy discussion"
+  ],
+  "chapters": [
+    {
+      "title": "Experience with conversational AI agents",
+      "t_start": 0,
+      "t_end": 18
+    },
+    {
+      "title": "Future vision for Business Central agents",
+      "t_start": 18,
+      "t_end": 42
+    }
+  ],
+  "features": [
+    {
+      "name": "Business manager agent with conversational interface",
+      "description": "A future agent for Business Central that users could have conversations with about strategy and business topics, providing conversational answers based on available context and information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18,
+      "t_end": 42,
+      "is_demoed": false,
+      "caveats": [
+        "Not currently available",
+        "Described as future capability"
+      ],
+      "tags": [
+        "agents",
+        "conversational interface",
+        "strategy",
+        "voice"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "I had a long drive, so I had to do a quick conversation about a topic, and it was just like a nice little",
+      "why_it_matters": "Illustrates existing experience with conversational AI agents for discussion and quick interactions.",
+      "check": "exact"
+    },
+    {
+      "t": 18,
+      "text": "eventually, I would think that Business Central would have that down the road where it'd be like a business manager agent in Business Central",
+      "why_it_matters": "Articulates the vision for a future agent capability in Business Central focused on strategic business conversations.",
+      "check": "exact"
+    },
+    {
+      "t": 36,
+      "text": "it's going to give you perhaps an answer, conversational answer, based on the information it has",
+      "why_it_matters": "Describes how the future agent would operate - providing context-aware conversational responses.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 18,
+      "kind": "coming-later",
+      "text": "eventually, I would think that Business Central would have that down the road"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

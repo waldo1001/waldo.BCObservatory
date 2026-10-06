@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thinkaboutit-be/8250",
+  "url": "https://thinkaboutit.be/2026/10/business-central-29-introducing-composite-document-layouts/",
+  "title": "Business Central 29: Introducing Composite Document Layouts",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-05T09:38:33.000Z",
+  "words": 1251,
+  "summary": "Business Central 2026 release wave 2 introduces Composite Document Layouts, a modular approach to Word document layouts that separates body content, visual theming, and headers/footers into reusable components combined at runtime rather than maintaining separate complete layouts for each combination.",
+  "key_points": [
+    "Composite layouts separate concerns: Body Layout (report structure), Theme (fonts and colors), and Header/Footer Layout (branding and company info) are composed at runtime into the final document",
+    "Reduces layout maintenance across multiple reports and companies by reusing components instead of creating separate layouts for each combination",
+    "Existing standalone layouts continue to work; composite layouts add a new optional model without forcing migration or changing default invoice designs after upgrade",
+    "Defaults can be configured at multiple levels (global, company, report, body layout) allowing flexible overrides and gradual introduction through layout status controls"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "document layouts",
+    "word layouts",
+    "reporting",
+    "customization",
+    "branding",
+    "reusable components",
+    "feature management"
+  ],
+  "objects": [],
+  "features": [
+    "Composite Document Layouts",
+    "Body Layout",
+    "Theme",
+    "Header/Footer Layout",
+    "Layout status control",
+    "Feature Management",
+    "Default configuration levels"
+  ],
+  "versions": [
+    "29.0",
+    "29.1",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006557,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central doesn't create another permanent Word layout for every combination. The selected components are combined when the report runs.",
+      "why_it_matters": "This runtime composition model is the core innovation that eliminates the need to maintain separate layouts for each combination of report and branding"
+    }
+  ]
+}

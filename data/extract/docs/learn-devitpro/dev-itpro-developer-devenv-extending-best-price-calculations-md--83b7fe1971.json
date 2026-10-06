@@ -1,0 +1,111 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-best-price-calculations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations",
+  "title": "Extending Price Calculations",
+  "blob": "a89772c8e881eb2ef17f7ce24f5f92fdd754e725",
+  "summary": "Price calculation architecture in Business Central with extensible setup tables, interfaces, and enums enabling custom price implementations for sales, purchases, and jobs based on product type and source.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "price calculation",
+    "discount",
+    "price list",
+    "interface",
+    "extension"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "7001 Price List Line"
+    },
+    {
+      "type": "table",
+      "name": "7002 Sales Price"
+    },
+    {
+      "type": "table",
+      "name": "7004 Sales Line Discount"
+    },
+    {
+      "type": "table",
+      "name": "7005 Price Source"
+    },
+    {
+      "type": "table",
+      "name": "7012 Purchase Price"
+    },
+    {
+      "type": "table",
+      "name": "7014 Purchase Line Discount"
+    },
+    {
+      "type": "table",
+      "name": "9004 Plan"
+    },
+    {
+      "type": "table",
+      "name": "9005 User Plan"
+    },
+    {
+      "type": "codeunit",
+      "name": "7001 Price Calculation Mgt."
+    },
+    {
+      "type": "interface",
+      "name": "Price Calculation"
+    },
+    {
+      "type": "interface",
+      "name": "Line With Price"
+    },
+    {
+      "type": "interface",
+      "name": "Price Source Group"
+    },
+    {
+      "type": "interface",
+      "name": "Price Source"
+    },
+    {
+      "type": "enum",
+      "name": "Price Type"
+    },
+    {
+      "type": "enum",
+      "name": "Price Asset Type"
+    },
+    {
+      "type": "enum",
+      "name": "Price Calculation Method"
+    },
+    {
+      "type": "enum",
+      "name": "Price Calculation Handler"
+    }
+  ],
+  "features": [
+    "Price Calculation Setup",
+    "lowest price calculation",
+    "line discounts",
+    "price sources",
+    "asset types",
+    "hierarchical pricing",
+    "price customization"
+  ],
+  "versions": [
+    "2020 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01311,
+      "pages_in_call": 4
+    }
+  ]
+}

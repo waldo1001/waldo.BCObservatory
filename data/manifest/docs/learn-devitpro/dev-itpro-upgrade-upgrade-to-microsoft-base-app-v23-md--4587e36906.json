@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v23",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "00d0e0a4a2acb948f6d21fa2b08b951aa3e4fa86",
       "words": 4180,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:10:06.969Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.025248
+    },
+    "summarized": {
+      "at": "2026-10-06T18:10:08.859Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:10:08.860Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:10:08.860Z",
+      "page": false
     }
   },
   "input_hash": "00d0e0a4a2acb948f6d21fa2b08b951aa3e4fa86",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00d0e0a4a2acb948f6d21fa2b08b951aa3e4fa86"
+  "output_hash": "6a1497bcfffa511102533aa1e072667d9fd12225b4ac28a7fa9856ee655adeea"
 }
