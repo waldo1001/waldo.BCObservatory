@@ -15,10 +15,11 @@ if [[ "$have" == "$ver" ]]; then ok "claude $ver already installed"; else
 fi
 
 existing() { [[ -f "$ENV_FILE" ]] && grep -E "^$1=" "$ENV_FILE" | head -1 | cut -d= -f2- || true; }
-read -r -s -p "CLAUDE_CODE_OAUTH_TOKEN (claude setup-token; Enter keeps current): " tok; echo
+read -r -s -p "CLAUDE_CODE_OAUTH_TOKEN (claude setup-token; Enter keeps current): " tok || tok=""; echo
 [[ -n "$tok" ]] || tok="$(existing CLAUDE_CODE_OAUTH_TOKEN)"
 [[ -n "$tok" && "$tok" != *[[:space:]]* ]] || die "no valid CLAUDE_CODE_OAUTH_TOKEN"
-read -r -s -p "BCOBS_USAGE_OAUTH_TOKEN (optional, scope user:profile; Enter keeps current or leaves unset): " usage; echo
+# Enter, Ctrl-D or an empty paste all mean "skip" for this optional token
+read -r -s -p "BCOBS_USAGE_OAUTH_TOKEN (optional, scope user:profile; Enter keeps current or leaves unset): " usage || usage=""; echo
 [[ -n "$usage" ]] || usage="$(existing BCOBS_USAGE_OAUTH_TOKEN)"
 
 umask 077
@@ -40,3 +41,4 @@ for rc in .zshrc .zprofile .bashrc .profile; do
   [[ -f "$BCOBS_HOME/$rc" ]] && grep -q 'ANTHROPIC_API_KEY' "$BCOBS_HOME/$rc" && die "ANTHROPIC_API_KEY found in $rc"
 done
 ok "$ENV_FILE written (0600, owner $BCOBS_USER); no ANTHROPIC_API_KEY anywhere"
+grep -q "^BCOBS_USAGE_OAUTH_TOKEN=" "$ENV_FILE" && ok "usage token set" || ok "usage token not set: the guard runs reduced until M1"
