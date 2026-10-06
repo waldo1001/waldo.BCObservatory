@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-oncustomdocumentmergerex-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncustomdocumentmergerex-event",
+  "title": "OnCustomDocumentMergerEx event",
+  "blob": "fefea7955239c7590a457841a56c77ee6dd4c989",
+  "summary": "OnCustomDocumentMergerEx event enables custom report rendering with dataset, layout, and report JSON payload parameters for application code to render reports into artifacts.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "events",
+    "custom rendering",
+    "report layouts",
+    "document merge",
+    "json payload"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "custom document rendering",
+    "report payload",
+    "XML dataset handling",
+    "custom layout processing",
+    "report actions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

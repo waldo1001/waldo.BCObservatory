@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-oncustomdocumentmerger-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncustomdocumentmerger-event",
+  "title": "OnCustomDocumentMerger event",
+  "blob": "4b3933a37f418801e0e38c033815236fe39037f1",
+  "summary": "OnCustomDocumentMerger event enables custom report rendering with a dataset and layout specified as Custom Layout in the report definition. This event is superseded by OnCustomDocumentMergerEx.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "events",
+    "custom rendering",
+    "report layouts",
+    "document merge"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "custom document rendering",
+    "XML dataset handling",
+    "custom layout processing",
+    "report actions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

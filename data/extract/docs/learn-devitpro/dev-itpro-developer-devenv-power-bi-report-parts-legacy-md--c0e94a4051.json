@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-power-bi-report-parts-legacy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts-legacy",
+  "title": "Adding Power BI Report Parts to Pages (legacy)",
+  "blob": "58d3eabeed74741c01a0936db6294f1d3417e4ff",
+  "summary": "Adding Power BI Report Parts to Pages (legacy) for Business Central 2022 release wave 1 and earlier versions using Power BI Report FactBox and Spinner Part pages.",
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "power bi",
+    "report parts",
+    "factbox",
+    "role center",
+    "legacy"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Power BI Report FactBox"
+    },
+    {
+      "type": "page",
+      "name": "Power BI Report Spinner Part"
+    }
+  ],
+  "features": [
+    "Power BI Report FactBox",
+    "Power BI Report Spinner Part",
+    "InitFactBox method",
+    "SetCurrentListSelection method",
+    "multiple report parts"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

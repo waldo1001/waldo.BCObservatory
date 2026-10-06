@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncustomdocumentmerger-event",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4b3933a37f418801e0e38c033815236fe39037f1",
       "words": 436,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.123Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:28.922Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:28.923Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:28.924Z",
+      "page": false
     }
   },
   "input_hash": "4b3933a37f418801e0e38c033815236fe39037f1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b3933a37f418801e0e38c033815236fe39037f1"
+  "output_hash": "4b8cd45ab8bcc10259b1aea9d5b7ad87574ff3e2b13dfa2c7dcb0c9db9699bef"
 }

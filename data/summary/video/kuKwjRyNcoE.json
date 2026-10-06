@@ -1,0 +1,26 @@
+{
+  "video_id": "kuKwjRyNcoE",
+  "item_id": "video/yt-microsoft/kuKwjRyNcoE",
+  "summary": "Journal Check in Business Central finance: a setting in General Ledger Setup that adds a Journal Check fact box to journal pages, showing consistency issues in real time, in total and for the selected line. Demoed on the General Journals page.",
+  "overview": "The video shows how to get real-time guidance on journal consistency in Business Central. The Journal Check option is turned on in General Ledger Setup with the Enable Data Check setting.\n\nOnce enabled, a Journal Check fact box appears on the right side of journal pages. It shows that there is an issue and gives the total issues. When a specific line is selected, it also lists any issues with that line, so problems can be seen while entering data.",
+  "key_points": [
+    "Enable the feature with the Enable Data Check setting in General Ledger Setup.",
+    "After enabling, a Journal Check fact box appears on the right side of journal pages such as General Journals.",
+    "The fact box shows the total number of issues in the journal.",
+    "Selecting a line shows issues specific to that line.",
+    "Validation runs in real time as you type, as an option alongside other ways of checking a journal.",
+    "The video is about 2 minutes long and was published 2024-04-17."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "3b4bc62a832218062b1f8d877bab88ca7f733e1f0b6ab7cf63a712053f7e78d5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009392399999999999
+  }
+}

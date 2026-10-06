@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-onaftersetupprinters-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onaftersetupprinters-event",
+  "title": "OnAfterSetupPrinters Event",
+  "blob": "b10a50f653bc2f4464980cd03f1dac10dbd76a72",
+  "summary": "OnAfterSetupPrinters event sets up different printers with payload configurations for paper sizes, trays, and other print settings that users can select for printing reports.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "events",
+    "report printing",
+    "printer setup",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    },
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    }
+  ],
+  "features": [
+    "printer payload structure",
+    "paper tray configuration",
+    "duplex printing",
+    "color printing",
+    "default copies",
+    "custom paper sizes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

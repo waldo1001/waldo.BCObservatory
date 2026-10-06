@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-filters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-filters",
+  "title": "Filtering in Query objects",
+  "blob": "ce7c8444a0feba409aa1eb265297a01008daa4ce",
+  "summary": "Filtering in Query objects covers multiple filtering methods including DataItemTableFilter property, ColumnFilter property, filter rows, and SetFilter/SetRange methods to restrict query results.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "filtering",
+    "data retrieval",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "DataItemTableFilter property",
+    "ColumnFilter property",
+    "filter rows",
+    "SetFilter method",
+    "SetRange method",
+    "WHERE clauses",
+    "HAVING clauses"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

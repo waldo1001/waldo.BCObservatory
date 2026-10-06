@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-onafterdocumentprintready-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentprintready-event",
+  "title": "OnAfterDocumentPrintReady Event",
+  "blob": "eabea9189fe03fdbf440913f49e47ef6680651f2",
+  "summary": "OnAfterDocumentPrintReady event is raised when a user selects print on a report request page and is used to send reports to a target extension printer.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "events",
+    "report printing",
+    "printer extensions",
+    "document handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "OnAfterDocumentPrintReady event",
+    "report payload",
+    "print action handling",
+    "printer extensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

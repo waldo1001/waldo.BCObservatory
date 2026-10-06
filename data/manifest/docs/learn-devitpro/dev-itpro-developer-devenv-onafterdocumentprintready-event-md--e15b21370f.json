@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentprintready-event",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eabea9189fe03fdbf440913f49e47ef6680651f2",
       "words": 179,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.121Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:27.132Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:27.133Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:27.135Z",
+      "page": false
     }
   },
   "input_hash": "eabea9189fe03fdbf440913f49e47ef6680651f2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eabea9189fe03fdbf440913f49e47ef6680651f2"
+  "output_hash": "9e2ad73e9d872d3480e7c89f8d4ac8b00de31bf1c468626a0743e348c124834b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onaftersetupprinters-event",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b10a50f653bc2f4464980cd03f1dac10dbd76a72",
       "words": 1230,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.122Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:27.138Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:28.918Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:28.920Z",
+      "page": false
     }
   },
   "input_hash": "b10a50f653bc2f4464980cd03f1dac10dbd76a72",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b10a50f653bc2f4464980cd03f1dac10dbd76a72"
+  "output_hash": "c65374d8f3e75dd1dc43e6c6185e62ddf40c6632cec23a1ae88ea4248db0e242"
 }

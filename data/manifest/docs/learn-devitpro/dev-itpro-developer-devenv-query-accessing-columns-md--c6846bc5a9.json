@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-accessing-columns",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "29b82895090412e7b4b4c6dcb2ba0e5d7f788d68",
       "words": 263,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.129Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:28.950Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:28.951Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:28.952Z",
+      "page": false
     }
   },
   "input_hash": "29b82895090412e7b4b4c6dcb2ba0e5d7f788d68",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29b82895090412e7b4b4c6dcb2ba0e5d7f788d68"
+  "output_hash": "1213ec0bdf65f19dbb9953a5be3bfa3a8b41323f013b81e42c14f4dba6d61cff"
 }

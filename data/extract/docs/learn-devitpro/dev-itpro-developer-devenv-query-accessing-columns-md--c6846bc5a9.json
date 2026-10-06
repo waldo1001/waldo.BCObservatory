@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-accessing-columns.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-accessing-columns",
+  "title": "Accessing Columns of a Query Dataset",
+  "blob": "29b82895090412e7b4b4c6dcb2ba0e5d7f788d68",
+  "summary": "Accessing Columns of a Query Dataset describes how to retrieve column values from the current active row of a query after opening and reading it.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "data access",
+    "dataset columns",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Customer_Sales_Quantity"
+    }
+  ],
+  "features": [
+    "column value retrieval",
+    "query reading",
+    "dataset access",
+    "data type handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005003,
+      "pages_in_call": 8
+    }
+  ]
+}

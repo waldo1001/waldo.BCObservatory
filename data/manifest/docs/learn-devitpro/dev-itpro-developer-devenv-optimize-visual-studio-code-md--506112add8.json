@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-optimize-visual-studio-code",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b715fa6408a198e0c5311b3790ecac964c9cdcd6",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.126Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:28.931Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:28.932Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:28.933Z",
+      "page": false
     }
   },
   "input_hash": "b715fa6408a198e0c5311b3790ecac964c9cdcd6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b715fa6408a198e0c5311b3790ecac964c9cdcd6"
+  "output_hash": "59ed312a09da7675a2ffed2bbcb12ce9bc1be4c7918e11ac4165ef840253dc03"
 }

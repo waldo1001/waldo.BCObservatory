@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts-legacy",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "58d3eabeed74741c01a0936db6294f1d3417e4ff",
       "words": 1163,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:27.127Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005003
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:28.934Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:28.945Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:28.948Z",
+      "page": false
     }
   },
   "input_hash": "58d3eabeed74741c01a0936db6294f1d3417e4ff",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58d3eabeed74741c01a0936db6294f1d3417e4ff"
+  "output_hash": "c4ebd72437ad9559fa15a1c0812e103f87c01c3858855437e324b290696423f8"
 }
