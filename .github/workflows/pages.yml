@@ -1,9 +1,14 @@
 name: pages
 # Token-free site build on GitHub-hosted runners, so the site deploys even when the Mini is offline.
+# The nightly pushes with GITHUB_TOKEN, and GitHub never starts workflows from such pushes, so a finished
+# nightly triggers this build through workflow_run instead.
 on:
   push:
     branches: [main]
     paths: ["content/**", "data/**", "site/**", "package-lock.json", ".github/workflows/pages.yml"]
+  workflow_run:
+    workflows: [nightly]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -15,6 +20,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
