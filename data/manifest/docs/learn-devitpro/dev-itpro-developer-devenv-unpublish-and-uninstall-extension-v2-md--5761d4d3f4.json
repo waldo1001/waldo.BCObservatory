@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-unpublish-and-uninstall-extension-v2",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8892dacf0e8533ac38b5db2f385d939ecb64e15",
       "words": 1485,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:51.802Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005417
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.833Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.834Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.835Z",
+      "page": false
     }
   },
   "input_hash": "c8892dacf0e8533ac38b5db2f385d939ecb64e15",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8892dacf0e8533ac38b5db2f385d939ecb64e15"
+  "output_hash": "d58e02c52949e2dbf8acc3a6828629c83bad500f5a00588c580c5ceb84b9d99b"
 }

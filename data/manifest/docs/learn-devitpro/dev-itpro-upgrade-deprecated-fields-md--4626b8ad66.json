@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-fields",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b228755ac1e2e3d8442a4f6344ecde83f622032d",
       "words": 646,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:49.966Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004279
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.816Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.817Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.818Z",
+      "page": false
     }
   },
   "input_hash": "b228755ac1e2e3d8442a4f6344ecde83f622032d",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b228755ac1e2e3d8442a4f6344ecde83f622032d"
+  "output_hash": "47a4561a199994287ea18fa246080d5583b4bed30f91d581af5d04a3afaa83fb"
 }

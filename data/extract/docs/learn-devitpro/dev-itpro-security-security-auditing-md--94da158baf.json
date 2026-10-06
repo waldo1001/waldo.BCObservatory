@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-auditing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing",
+  "title": "Security auditing in Business Central",
+  "blob": "3df7e7c24c5a02e8822a3c596a87b5a3adb21568",
+  "summary": "Security auditing in Business Central tracks changes to critical tables like Access Control, Permission, User, and Change Log Setup entries. Use the Data Analysis feature on the Change Log Entries page to analyze audit trail data interactively.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "auditing",
+    "change log",
+    "access control",
+    "data analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Access Control"
+    },
+    {
+      "type": "table",
+      "name": "Permission"
+    },
+    {
+      "type": "table",
+      "name": "Permission Set"
+    },
+    {
+      "type": "table",
+      "name": "User"
+    },
+    {
+      "type": "table",
+      "name": "User Property"
+    },
+    {
+      "type": "table",
+      "name": "Tenant Permission Set Rel."
+    },
+    {
+      "type": "table",
+      "name": "Change Log Setup"
+    },
+    {
+      "type": "table",
+      "name": "Change Log Setup (Field)"
+    },
+    {
+      "type": "page",
+      "name": "Change Log Entries"
+    }
+  ],
+  "features": [
+    "changelog tracking",
+    "data analysis",
+    "audit trail",
+    "security auditing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004279,
+      "pages_in_call": 8
+    }
+  ]
+}

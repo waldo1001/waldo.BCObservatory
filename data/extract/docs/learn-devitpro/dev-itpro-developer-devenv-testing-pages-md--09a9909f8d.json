@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-testing-pages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-pages",
+  "title": "Test pages",
+  "blob": "38469745f599e559d1beb65b9b063bfb454dfc12",
+  "summary": "Test pages in AL allow developers to simulate user interactions for testing, with methods to view/change field values, filter data, invoke actions, and navigate records.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "test pages",
+    "testing",
+    "al development",
+    "automation",
+    "debugging"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TestPage"
+    },
+    {
+      "type": "other",
+      "name": "TestField"
+    },
+    {
+      "type": "other",
+      "name": "TestPart"
+    },
+    {
+      "type": "other",
+      "name": "TestFilter"
+    },
+    {
+      "type": "other",
+      "name": "TestAction"
+    }
+  ],
+  "features": [
+    "page simulation",
+    "field access",
+    "subpage access",
+    "data filtering",
+    "action invocation",
+    "record navigation",
+    "page handler"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}

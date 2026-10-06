@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/Setting-Database-Owner-and-Security-Administration-Permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Setting-Database-Owner-and-Security-Administration-Permissions",
+  "title": "Granting permissions to manage databases",
+  "blob": "4804b31ae9ef5db8b1e7776c5f7b12d5ed0b10b9",
+  "summary": "Granting permissions to manage Business Central databases in SQL Server requires assigning dbcreator server role for database creation and db_owner database role for managing companies and objects using SQL Server Management Studio.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sql server",
+    "database management",
+    "permissions",
+    "administration"
+  ],
+  "objects": [],
+  "features": [
+    "dbcreator role",
+    "db_owner role",
+    "database administration",
+    "SQL Server Management Studio"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004279,
+      "pages_in_call": 8
+    }
+  ]
+}

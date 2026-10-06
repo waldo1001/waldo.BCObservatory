@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-view-table-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-view-table-data",
+  "title": "Viewing table data",
+  "blob": "455dc11fda002dbc7edfbf3c0c9d36c0b9a77fd9",
+  "summary": "Viewing table data allows developers and administrators to inspect tenant database tables including extension columns for debugging, accessible from web client or VS Code with read permissions.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "table inspection",
+    "debugging",
+    "permissions",
+    "data viewing",
+    "vs code"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System object 1350 Run table"
+    }
+  ],
+  "features": [
+    "read-only table view",
+    "permission requirements",
+    "extension column visibility",
+    "visual studio code integration",
+    "launch.json configuration"
+  ],
+  "versions": [
+    "2020 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}

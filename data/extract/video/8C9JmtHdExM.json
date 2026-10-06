@@ -1,0 +1,208 @@
+{
+  "video_id": "8C9JmtHdExM",
+  "item_id": "video/yt-microsoft/8C9JmtHdExM",
+  "title": "Allow Over Receipts of Products",
+  "duration_s": 166,
+  "systems": [
+    "purchasing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "over receipt",
+    "over receipt codes",
+    "purchase receipt",
+    "receiving",
+    "tolerance",
+    "vendor setup",
+    "item setup"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to over receipt of products",
+      "t_start": 0,
+      "t_end": 21.9
+    },
+    {
+      "title": "Over receipt codes overview",
+      "t_start": 21.9,
+      "t_end": 47.5
+    },
+    {
+      "title": "How restrictive settings work",
+      "t_start": 47.5,
+      "t_end": 72.3
+    },
+    {
+      "title": "Setting over receipt codes on items",
+      "t_start": 72.3,
+      "t_end": 101.5
+    },
+    {
+      "title": "Setting over receipt codes on vendors",
+      "t_start": 101.5,
+      "t_end": 137.2
+    },
+    {
+      "title": "Default over receipt code settings",
+      "t_start": 137.2,
+      "t_end": 166
+    }
+  ],
+  "features": [
+    {
+      "name": "Over receipt codes",
+      "description": "A feature that allows receiving more products than ordered from vendors. Over receipt codes define tolerance percentages and can be set on both items and vendors, with the most restrictive setting taking effect.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0,
+      "t_end": 47.5,
+      "is_demoed": true,
+      "caveats": [
+        "The most restrictive setting wins when over receipt codes are set on both items and vendors",
+        "A default 10% over receipt code is applied if no specific settings are configured"
+      ],
+      "tags": [
+        "over receipt",
+        "purchase receipt",
+        "tolerance",
+        "vendor management"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Over receipt code tolerance percentages",
+      "description": "Over receipt codes can be configured with specific tolerance percentages, such as 10% or 20%, to control how much over receipt is allowed for items or vendors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.9,
+      "t_end": 60.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "over receipt",
+        "tolerance",
+        "configuration"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item-level over receipt codes",
+      "description": "Over receipt codes can be set on individual item cards to define tolerance for over receipt on specific products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.8,
+      "t_end": 85.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "over receipt",
+        "item setup",
+        "product management"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Vendor-level over receipt codes",
+      "description": "Over receipt codes can be set on vendor cards in the receiving fast tab to define a general over receipt tolerance for all items from that vendor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.4,
+      "t_end": 124.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "over receipt",
+        "vendor setup",
+        "receiving"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Default over receipt code selection",
+      "description": "A default over receipt code (10%) is pre-selected for all items and vendors, allowing automatic 10% over receipt tolerance if no specific codes are configured.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.4,
+      "t_end": 156,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "over receipt",
+        "default settings",
+        "configuration"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "over receipt codes",
+      "t": 21.9
+    },
+    {
+      "type": "page",
+      "name": "item card",
+      "t": 60.8
+    },
+    {
+      "type": "page",
+      "name": "vendor card",
+      "t": 90.1
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "In Business Central, you can receive more products than you've ordered from your vendor or suppliers.",
+      "why_it_matters": "Establishes the core capability of over receipts, explaining why this feature is needed in real-world purchasing scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 47.5,
+      "text": "The most restrictive setting wins. So, if you have a setting that allows for 10% on the item and 20% over receipt on the",
+      "why_it_matters": "Clarifies the precedence rules when multiple over receipt codes are configured, critical for understanding how the system behaves.",
+      "check": "exact"
+    },
+    {
+      "t": 72.3,
+      "text": "I can now set a general over receipt code for any product from a specific vendor because I know that a specific vendor is",
+      "why_it_matters": "Explains the vendor-level use case for over receipt codes, showing practical application for recurring situations.",
+      "check": "exact"
+    },
+    {
+      "t": 143.9,
+      "text": "notice the default selection of the over receipt 10 code this means that if you",
+      "why_it_matters": "Reveals the default behavior out of the box, important for understanding the baseline tolerance without configuration.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012856
+    }
+  ]
+}

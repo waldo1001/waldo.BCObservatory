@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-view-table-data",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "455dc11fda002dbc7edfbf3c0c9d36c0b9a77fd9",
       "words": 641,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:51.805Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005417
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.843Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.844Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.845Z",
+      "page": false
     }
   },
   "input_hash": "455dc11fda002dbc7edfbf3c0c9d36c0b9a77fd9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "455dc11fda002dbc7edfbf3c0c9d36c0b9a77fd9"
+  "output_hash": "e477313ebb89e97047da1e0a09744c827fb720bf6a3f516221b935524f7c96eb"
 }

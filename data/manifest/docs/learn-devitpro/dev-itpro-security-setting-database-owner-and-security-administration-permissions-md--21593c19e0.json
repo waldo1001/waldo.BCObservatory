@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Setting-Database-Owner-and-Security-Administration-Permissions",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4804b31ae9ef5db8b1e7776c5f7b12d5ed0b10b9",
       "words": 452,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:49.965Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004279
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.813Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.814Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.815Z",
+      "page": false
     }
   },
   "input_hash": "4804b31ae9ef5db8b1e7776c5f7b12d5ed0b10b9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4804b31ae9ef5db8b1e7776c5f7b12d5ed0b10b9"
+  "output_hash": "028f4db371c401a62cdf7c9a5f853c29758065a83d37a18583dc35eb421e4a9b"
 }

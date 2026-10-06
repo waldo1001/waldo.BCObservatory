@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/technical-upgrade-fix-compilation-errors",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a98c394875e6d7e9d41c1b1aadea2803e1af447",
       "words": 893,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:49.969Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004279
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.827Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.828Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.829Z",
+      "page": false
     }
   },
   "input_hash": "7a98c394875e6d7e9d41c1b1aadea2803e1af447",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a98c394875e6d7e9d41c1b1aadea2803e1af447"
+  "output_hash": "9784a5bbbb7ae5f2e0782e6753743b437a5e5674e84488539cc31cfa8382cd51"
 }

@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/Security-Considerations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-Considerations",
+  "title": "Security considerations in Business Central",
+  "blob": "8ba548eda31a16222c74a05e704ebda7dbc53679",
+  "summary": "Security considerations for Business Central setup include creating a superuser at first login, establishing user permissions, and understanding that FlowField access requires read permission on both source and dependent tables.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "security",
+    "permissions",
+    "setup",
+    "superuser",
+    "access control"
+  ],
+  "objects": [],
+  "features": [
+    "superuser configuration",
+    "permission assignment",
+    "flowfield access"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004279,
+      "pages_in_call": 8
+    }
+  ]
+}

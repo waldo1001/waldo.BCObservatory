@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/technical-upgrade-fix-compilation-errors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/technical-upgrade-fix-compilation-errors",
+  "title": "Fixing compilation errors for technical upgrade",
+  "blob": "7a98c394875e6d7e9d41c1b1aadea2803e1af447",
+  "summary": "Fixing compilation errors during technical upgrade to version 19 or later involves removing references to deprecated .NET assemblies, removing ActionableMessage support, copying legacy add-ins (Timeline, PingPong, NavEtsWrapper), and rewriting AL code for breaking changes.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "technical upgrade",
+    "compilation errors",
+    "dotnet",
+    "add-ins",
+    "version 19"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "GlobalTriggerManagemnet"
+    },
+    {
+      "type": "page",
+      "name": "ItemAvailabilitybyTimeline"
+    }
+  ],
+  "features": [
+    "extension compilation",
+    "dotnet migration",
+    "add-in compatibility",
+    "breakingchanges"
+  ],
+  "versions": [
+    "version 19",
+    "version 21"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004279,
+      "pages_in_call": 8
+    }
+  ]
+}

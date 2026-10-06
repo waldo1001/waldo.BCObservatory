@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-supported-cipher-suites.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-supported-cipher-suites",
+  "title": "Supported cipher suites",
+  "blob": "e3845d76c2cef2cc8afdad9b08a7e09b6bb51adb",
+  "summary": "Supported cipher suites for outgoing HTTPS calls from Business Central to external APIs, listing TLS protocols and algorithms required for web service security.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "cipher suites",
+    "https",
+    "security",
+    "httpclient",
+    "tls",
+    "encryption"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HttpClient"
+    }
+  ],
+  "features": [
+    "cipher suite support",
+    "TLS protocols",
+    "HTTPS certificates",
+    "web service security"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}

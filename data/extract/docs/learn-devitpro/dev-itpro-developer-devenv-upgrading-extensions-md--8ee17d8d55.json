@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-upgrading-extensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions",
+  "title": "Upgrading Extensions",
+  "blob": "8a6864d4dd7cd41b6b9216b44960c8e2a66c77dc",
+  "summary": "Extension upgrade process includes writing upgrade code with triggers (OnCheckPreconditions, OnUpgrade, OnValidate), controlling execution via version data or upgrade tags, and running data migration.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "extension upgrade",
+    "upgrade codeunit",
+    "upgrade triggers",
+    "upgrade tags",
+    "data migration",
+    "powershell"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Upgrade Tag"
+    },
+    {
+      "type": "table",
+      "name": "Upgrade Tags"
+    }
+  ],
+  "features": [
+    "upgrade triggers",
+    "upgrade tags",
+    "version control",
+    "data upgrade",
+    "precondition checking",
+    "upgrade validation",
+    "execution context"
+  ],
+  "versions": [
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}

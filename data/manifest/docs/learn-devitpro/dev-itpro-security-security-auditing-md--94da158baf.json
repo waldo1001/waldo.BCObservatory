@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3df7e7c24c5a02e8822a3c596a87b5a3adb21568",
       "words": 265,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:49.963Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.004279
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:49.970Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:49.971Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:49.972Z",
+      "page": false
     }
   },
   "input_hash": "3df7e7c24c5a02e8822a3c596a87b5a3adb21568",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3df7e7c24c5a02e8822a3c596a87b5a3adb21568"
+  "output_hash": "795e046de62fb34f6348961281299e2e5110dfa1bc90613918b1ea3c2bccd6bf"
 }

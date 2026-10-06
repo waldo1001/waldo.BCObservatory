@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-unpublish-and-uninstall-extension-v2.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-unpublish-and-uninstall-extension-v2",
+  "title": "How to Unpublish and Uninstall an Extension",
+  "blob": "c8892dacf0e8533ac38b5db2f385d939ecb64e15",
+  "summary": "Unpublishing and uninstalling extensions involves three operations at different levels: uninstalling disables extensions on tenants, unpublishing removes from server instance, and clean-mode synchronization deletes database schema.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "extension management",
+    "uninstall",
+    "unpublish",
+    "clean mode",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "extension uninstall",
+    "extension unpublish",
+    "schema removal",
+    "clean-mode synchronization",
+    "orphaned data deletion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}

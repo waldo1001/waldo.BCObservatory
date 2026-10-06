@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/faq-win-cli",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "31731c1c2f901fbc6faba977d393cebe8db74a15",
       "words": 978,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:51.806Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005417
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:51.846Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:51.847Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:51.853Z",
+      "page": false
     }
   },
   "input_hash": "31731c1c2f901fbc6faba977d393cebe8db74a15",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "31731c1c2f901fbc6faba977d393cebe8db74a15"
+  "output_hash": "8245a43a4f750f78d27a29148c33ef7b878f22f6eb0fe768a4337a115496d234"
 }

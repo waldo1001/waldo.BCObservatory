@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-uplift-to-extensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-uplift-to-extensions",
+  "title": "Moving Custom Fields From Base Application to Extensions",
+  "blob": "3ab020e48520b45247e8f2b83d4215257d5f5f49",
+  "summary": "Moving custom base application fields to extensions involves marking fields as obsolete, creating table extensions, and migrating data through install or upgrade code.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extensions",
+    "table extension",
+    "custom fields",
+    "data migration",
+    "uplift",
+    "obsolete fields"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "table extension",
+    "field mapping",
+    "data migration",
+    "obsolete state",
+    "page extension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005417,
+      "pages_in_call": 8
+    }
+  ]
+}
