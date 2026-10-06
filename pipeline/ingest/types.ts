@@ -20,6 +20,10 @@ export interface IngestContext {
   /** Hosts of registered sources; discovery suggests only hosts outside this set. */
   knownHosts: Set<string>;
   versions: VersionsConfig;
+  /** data/state: small committed bookkeeping (e.g. when a channel was last reconciled). */
+  stateDir?: string;
+  /** Full channel listing for the weekly reconcile; tests inject a fake, production uses yt-dlp. */
+  flatPlaylist?: (channelId: string) => Promise<{ id: string; title: string; duration_s: number | null }[]>;
 }
 export interface Suggestion { host: string; count: number; sample_title: string; sample_url: string }
 export interface SourceResult {

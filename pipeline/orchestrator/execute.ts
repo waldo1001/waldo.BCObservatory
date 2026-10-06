@@ -18,6 +18,11 @@ import { quotaFor, type PlannedWork } from "../lib/queue.js";
 
 const log = logger("execute");
 
+/** The stage cannot run now for a reason outside the item (YouTube block, tool missing): leave it untouched, go on. */
+export class StageHold extends Error {
+  constructor(message: string) { super(message); this.name = "StageHold"; }
+}
+
 export interface StageResult {
   /** Stored on the stage record (counts, artifact paths, prompt version, ...). */
   data?: Record<string, unknown>;
@@ -26,13 +31,26 @@ export interface StageResult {
   flags?: string[];
   /** Ends the item as skipped (e.g. "no-captions") instead of advancing. */
   skip?: string;
+  /** Item fields learned by the stage (e.g. the real upload time from the video's metadata). */
+  patch?: Partial<Pick<ManifestItem, "published_at" | "title" | "language">> & { meta?: Record<string, unknown> };
 }
 export interface StageContext {
   now: () => Date; manifest: Manifest; dataDir: string; contentDir: string;
   sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url">>;
 }
-export type StageHandler = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
+export type StageFn = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
+/** A plain function, or one that only takes some items (e.g. official tier until the vault can be pushed). */
+export type StageHandler = StageFn | { accepts: (item: ManifestItem) => boolean; run: StageFn };
 export type StageHandlers = Partial<Record<Pillar, Partial<Record<Stage, StageHandler>>>>;
+
+/** The handler that would run this item's next stage, or null (no handler, or it declines the item). */
+export function handlerFor(handlers: StageHandlers, item: ManifestItem): StageFn | null {
+  const stage = nextStage(item);
+  const h = stage ? handlers[item.pillar]?.[stage] : undefined;
+  if (!h) return null;
+  if (typeof h === "function") return h;
+  return h.accepts(item) ? h.run : null;
+}
 
 export type StopReason = "done" | "hard-stop" | "llm-calls-max" | "spend-cap" | "guard-skip" | "aborted";
 export interface ExecutionReport {
@@ -45,6 +63,8 @@ export interface ExecutionReport {
   failed_attempts: number;
   failed_final: number;
   no_handler: number;
+  /** Items left untouched by StageHold (no attempt counted). */
+  held: number;
   quota_charged: Record<string, number>;
   regards: { at_calls: number; decision: GuardDecision["decision"]; status: string }[];
   errors: string[];
@@ -85,7 +105,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const deadline = deadlineFor(o.started, o.budget.window);
   const r: ExecutionReport = {
     stop_reason: "done", deadline: deadline.toISOString(), items_touched: 0, stages_run: {}, advanced: 0, skipped: 0,
-    failed_attempts: 0, failed_final: 0, no_handler: 0, quota_charged: {}, regards: [], errors: [],
+    failed_attempts: 0, failed_final: 0, no_handler: 0, held: 0, quota_charged: {}, regards: [], errors: [],
   };
   const every = o.budget.usage_guard.recheck_every_llm_calls;
   const callCount = o.callCount ?? (() => llmStats().calls);
@@ -118,7 +138,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     const charged = new Set<string>();
     let touched = false;
     for (let stage: Stage | null = nextStage(item); stage; stage = nextStage(item)) {
-      const handler: StageHandler | undefined = o.handlers[item.pillar]?.[stage];
+      const handler = handlerFor(o.handlers, item);
       if (!handler) { if (!touched) r.no_handler++; break; }
       const stop = await runStop();
       if (stop) { r.stop_reason = stop; break outer; }
@@ -135,12 +155,22 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
           break;
         }
         const flags: string[] | undefined = res.flags?.length ? [...new Set([...(item.flags ?? []), ...res.flags])] : item.flags;
-        item = { ...advance(item, stage, res.data ?? {}, o.clock()), ...(res.output_hash ? { output_hash: res.output_hash } : {}), ...(flags ? { flags } : {}) };
+        const { meta: metaPatch, ...fieldPatch }: NonNullable<StageResult["patch"]> = res.patch ?? {};
+        item = {
+          ...advance(item, stage, res.data ?? {}, o.clock()), ...fieldPatch,
+          ...(metaPatch ? { meta: { ...(item.meta ?? {}), ...metaPatch } } : {}),
+          ...(res.output_hash ? { output_hash: res.output_hash } : {}), ...(flags ? { flags } : {}),
+        };
         o.manifest.save(item);
         r.advanced++;
       } catch (e) {
         if (e instanceof LlmBudgetExhausted) { r.stop_reason = "spend-cap"; log.info(e.message); break outer; }
         if (e instanceof LlmInfraError) { r.stop_reason = "aborted"; r.errors.push(`${item.id} ${stage}: ${e.message}`); break outer; }
+        if (e instanceof StageHold) {
+          r.held++;
+          if (r.held === 1 || r.held % 25 === 0) r.errors.push(`held ${item.id} ${stage}: ${e.message.slice(0, 200)}`);
+          break;
+        }
         const msg = String((e as Error)?.message ?? e);
         item = fail(item, msg, o.budget.retry, o.clock());
         o.manifest.save(item);

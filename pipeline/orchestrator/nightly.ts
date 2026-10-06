@@ -30,11 +30,12 @@ import { planQueue } from "../lib/queue.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
-import { executePlan, type ExecutionReport, type StageHandlers } from "./execute.js";
+import { executePlan, handlerFor, type ExecutionReport, type StageHandlers } from "./execute.js";
 import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex } from "../render/video.js";
+import { flatPlaylist } from "../caption/ytdlp.js";
 
 const log = logger("nightly");
 export { PIPELINE_VERSION };
@@ -65,6 +66,8 @@ export interface NightlyDeps {
   handlers?: StageHandlers;
   /** Wall clock for the hard stop; defaults to real time. */
   clock?: () => Date;
+  /** Channel listing for the weekly reconcile; defaults to yt-dlp. */
+  flatPlaylist?: IngestContext["flatPlaylist"];
 }
 type GuardReport = Omit<GuardDecision, "decision"> & { decision: GuardDecision["decision"] | "disabled" };
 export interface RunReport {
@@ -127,6 +130,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     manifest, http: deps.http, now, mirrorsDir: resolve(opts.cacheDir, "git-mirrors"), roadmapDir: resolve(opts.dataDir, "roadmap"),
     repoUrl: deps.repoUrl ?? ((repo) => `https://github.com/${repo}`), knownHosts: knownHosts(deps.sources),
     versions: loadConfig<VersionsConfig>("versions"),
+    stateDir: resolve(opts.dataDir, "state"), flatPlaylist: deps.flatPlaylist ?? flatPlaylist,
   };
   const results = await runIngest(deps.sources, ctx, { pillars: opts.pillars, only: opts.only });
   const totals: Record<string, number> = { sources: results.length, failed: 0, deferred: 0 };
@@ -141,14 +145,17 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
 
   if (opts.stages === "all") {
     const quotas = capQuotas(scaleQuotas(cfg.quotas, guard), opts.quota);
-    const plan = planQueue(manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source))), quotas, new Map(deps.sources.map((s) => [s.id, s])), now);
+    const handlers = deps.handlers ?? STAGE_HANDLERS;
+    // only items whose next stage can run tonight compete for quota; the rest would only crowd them out
+    const runnable = manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source)) && handlerFor(handlers, i));
+    const plan = planQueue(runnable, quotas, new Map(deps.sources.map((s) => [s.id, s])), now);
     for (const s of plan.skips) {
       const item = manifest.get(s.id);
       if (item) manifest.save(skip(item, s.reason));
     }
     const execution = await executePlan({
       work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts),
-      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers: deps.handlers ?? STAGE_HANDLERS,
+      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
     report.execution = execution;

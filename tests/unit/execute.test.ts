@@ -8,7 +8,7 @@ import { budget } from "../../pipeline/lib/config.js";
 import { LlmBudgetExhausted, LlmInfraError } from "../../pipeline/lib/llm.js";
 import { Manifest, type ManifestItem } from "../../pipeline/lib/manifest.js";
 import { planQueue } from "../../pipeline/lib/queue.js";
-import { deadlineFor, executePlan, type ExecuteOptions, type StageHandler, type StageHandlers } from "../../pipeline/orchestrator/execute.js";
+import { deadlineFor, executePlan, StageHold, type ExecuteOptions, type StageHandler, type StageHandlers } from "../../pipeline/orchestrator/execute.js";
 
 const started = new Date("2026-10-07T00:00:00Z"); // 02:00 Brussels, inside the window
 const quotas = { captions: 10, video_extract: 10, opus_reviews: 10, llm_calls_max: 450 };
@@ -114,4 +114,22 @@ test("re-guard every N calls; a skip stops the run", async () => {
   assert.equal(r.stop_reason, "guard-skip");
   assert.equal(get(m, "VID2").state, "extracted", "the stage in flight completed");
   assert.equal(get(m, "VID1").state, "discovered");
+});
+
+test("StageHold leaves the item untouched and the run goes on; declined items never run", async () => {
+  const m = setup();
+  const r = await run(m, allVideo({ fetched: async (it) => { if (it.id.endsWith("VID2")) throw new StageHold("youtube blocked"); return {}; } }));
+  assert.deepEqual([get(m, "VID2").state, get(m, "VID2").attempts, get(m, "VID2").retry_after ?? null], ["discovered", 0, null]);
+  assert.equal(get(m, "VID1").state, "published");
+  assert.deepEqual([r.held, r.stop_reason], [1, "done"]);
+  const m2 = setup();
+  const r2 = await run(m2, { video: { fetched: { accepts: () => false, run: ok } } });
+  assert.deepEqual([r2.no_handler, get(m2, "VID1").state], [2, "discovered"]);
+});
+
+test("a stage can patch item fields it learned (e.g. the real upload time)", async () => {
+  const m = setup(1);
+  await run(m, { video: { fetched: async () => ({ patch: { published_at: "2026-09-30T08:00:00.000Z", title: "Real", meta: { duration_s: 99 } } }) } });
+  const v = get(m, "VID1");
+  assert.deepEqual([v.state, v.published_at, v.title, v.meta?.duration_s], ["fetched", "2026-09-30T08:00:00.000Z", "Real", 99]);
 });

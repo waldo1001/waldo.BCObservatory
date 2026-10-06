@@ -64,7 +64,10 @@ export function planQueue(
   candidates.sort((a, b) => {
     const ta = a.item.published_at ? Date.parse(a.item.published_at) : -Infinity;
     const tb = b.item.published_at ? Date.parse(b.item.published_at) : -Infinity;
-    return tb - ta || a.item.id.localeCompare(b.item.id);
+    // undated items from a channel reconcile keep the channel's newest-first order
+    const ra = typeof a.item.meta?.channel_rank === "number" ? a.item.meta.channel_rank : Infinity;
+    const rb = typeof b.item.meta?.channel_rank === "number" ? b.item.meta.channel_rank : Infinity;
+    return tb - ta || (ta === -Infinity && tb === -Infinity ? ra - rb : 0) || a.item.id.localeCompare(b.item.id);
   });
 
   for (const c of candidates) {
