@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-ehf.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf",
+  "title": "Set Up EHF [NO]",
+  "blob": "6525787b8c0b7348364a56d1088894680fa67c3e",
+  "summary": "Norwegian electronic invoicing setup describes configuring EHF file storage locations for sales, receivables, and service management documents. Use this to define where electronic invoice files are saved in the Norwegian version.",
+  "systems": [
+    "sales",
+    "service",
+    "localization"
+  ],
+  "topics": [
+    "ehf",
+    "electronic invoicing",
+    "norway",
+    "e-invoice",
+    "file paths"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Mgt. Setup"
+    }
+  ],
+  "features": [
+    "EHF file locations",
+    "invoice path",
+    "credit memo path",
+    "e-invoice reminder path",
+    "finance charge path"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

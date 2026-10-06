@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway",
+  "title": "Electronic invoicing in Norway",
+  "blob": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
+  "summary": "Electronic invoicing in Norway covers EHF format requirements for public sector invoices and the new E-Documents framework for external endpoint connections. Use this to set up electronic document sending, company information, customer GLN, and workflows.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "ehf",
+    "electronic invoicing",
+    "e-documents",
+    "norway",
+    "ehandel",
+    "ubl",
+    "peppol"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    }
+  ],
+  "features": [
+    "E-Documents framework",
+    "EHF invoicing",
+    "PEPPOL BIS Billing 3.0",
+    "customer GLN",
+    "VAT treatment",
+    "document exchange"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

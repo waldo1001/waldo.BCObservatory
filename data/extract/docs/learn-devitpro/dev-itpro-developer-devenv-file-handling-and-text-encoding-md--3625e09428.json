@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-file-handling-and-text-encoding.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-file-handling-and-text-encoding",
+  "title": "File handling and text encoding",
+  "blob": "2908126eb98cc3665fc92207fd3baeade5f02782",
+  "summary": "File handling and text encoding in Business Central covers methods for opening, reading, writing, and closing files, plus encoding formats for data import/export. Use this to work with files and ensure proper character representation across different systems and languages.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "file handling",
+    "text encoding",
+    "file i/o",
+    "data import",
+    "data export",
+    "unicode"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "File data type"
+    },
+    {
+      "type": "other",
+      "name": "BLOB"
+    }
+  ],
+  "features": [
+    "MS-DOS encoding",
+    "UTF-8 encoding",
+    "UTF-16 encoding",
+    "Windows encoding",
+    "XMLports",
+    "file operations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

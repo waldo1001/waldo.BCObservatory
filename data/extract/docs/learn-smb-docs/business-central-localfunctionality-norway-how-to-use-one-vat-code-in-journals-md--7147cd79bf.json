@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals",
+  "title": "Use One VAT Code in Journals [NO]",
+  "blob": "b22d0bf2a73058150e0b1589bbeee705e6d28f71",
+  "summary": "Norwegian localization feature that allows posting VAT using a single VAT Code field in journals, streamlining VAT field entry based on VAT business and product posting groups. Use this to set up and apply VAT codes in Norwegian journal entries.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "norway",
+    "journals",
+    "vat codes",
+    "vat posting",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Codes"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "VAT Code field",
+    "VAT Posting Setup",
+    "one VAT code in journals",
+    "Norwegian VAT"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

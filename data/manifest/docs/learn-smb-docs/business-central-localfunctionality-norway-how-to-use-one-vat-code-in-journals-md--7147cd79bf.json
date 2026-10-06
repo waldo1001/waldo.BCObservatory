@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals",
   "published_at": "2025-05-21T12:56:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b22d0bf2a73058150e0b1589bbeee705e6d28f71",
       "words": 336,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:42.887Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:44.604Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:44.605Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:44.605Z",
+      "page": false
     }
   },
   "input_hash": "b22d0bf2a73058150e0b1589bbeee705e6d28f71",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b22d0bf2a73058150e0b1589bbeee705e6d28f71"
+  "output_hash": "07eb62e7af8b19e8681c89b657a3b430c0c1fb6dfa9b332dd20cca8267ab5f08"
 }

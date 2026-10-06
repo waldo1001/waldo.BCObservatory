@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-events-discoverability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability",
+  "title": "Events discoverability",
+  "blob": "7e8d0218089c0c4392dd7c56b660c2493133375d",
+  "summary": "Events discoverability explains how to discover publishable events using the Event Recorder tool to capture events during scenario execution and retrieve AL code snippets. Use this to identify which events to subscribe to in your extension development.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "events",
+    "event discovery",
+    "event recorder",
+    "event subscription",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Event Recorder"
+    }
+  ],
+  "features": [
+    "Event Recorder",
+    "event recording",
+    "AL snippet generation",
+    "event discovery"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

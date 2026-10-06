@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)",
   "url": "https://www.youtube.com/watch?v=tP-0VcN7fcU",
-  "published_at": null,
+  "published_at": "2024-08-26T13:50:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:24:36.326Z",
+      "captions": "auto:en-orig",
+      "duration_s": 234
+    },
+    "captioned": {
+      "at": "2026-10-06T19:24:44.640Z",
+      "path": "data/captions/microsoft/tP-0VcN7fcU.vtt",
+      "vtt_sha256": "9786607dfbdc8274e068e3fdac82f4b85363a0b03d31c70f07649883e3917abd",
+      "segments": 17,
+      "words": 539,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 371,
     "duration_s": 234,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9786607dfbdc8274e068e3fdac82f4b85363a0b03d31c70f07649883e3917abd"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability",
   "published_at": "2025-05-21T12:00:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7e8d0218089c0c4392dd7c56b660c2493133375d",
       "words": 483,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:42.891Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:44.612Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:44.613Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:44.613Z",
+      "page": false
     }
   },
   "input_hash": "7e8d0218089c0c4392dd7c56b660c2493133375d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e8d0218089c0c4392dd7c56b660c2493133375d"
+  "output_hash": "4016f6bf384a80335f010f64b35caee2415bddf30f6f0d17fab422bb1cfb4e5c"
 }

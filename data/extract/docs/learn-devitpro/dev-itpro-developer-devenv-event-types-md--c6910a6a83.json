@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-event-types.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-event-types",
+  "title": "Event types",
+  "blob": "28990fc82f5c54f3a98f4842d1445f644e7b85ce",
+  "summary": "Event types in Business Central include business events, integration events, global events, and trigger events that enable code communication and system notifications. Use this to understand how to publish, raise, and subscribe to events for extending application behavior.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "events",
+    "business events",
+    "integration events",
+    "trigger events",
+    "al development",
+    "event publishing",
+    "event subscription"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "LoginManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "TextManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "Caption Class"
+    },
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "AutoFormatManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "GlobalTriggerManagement"
+    }
+  ],
+  "features": [
+    "business events",
+    "integration events",
+    "global events",
+    "database trigger events",
+    "page trigger events",
+    "event publishing",
+    "event subscription"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004284,
+      "pages_in_call": 8
+    }
+  ]
+}

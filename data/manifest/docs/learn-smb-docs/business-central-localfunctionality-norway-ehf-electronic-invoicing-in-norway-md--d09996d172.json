@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
       "words": 847,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:44.598Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:44.617Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:44.618Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:44.619Z",
+      "page": false
     }
   },
   "input_hash": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
@@ -72,5 +91,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6"
+  "output_hash": "0520779f13ad143b448f4fcdcf462a21400b7a62b4985e14196558f917d76d82"
 }

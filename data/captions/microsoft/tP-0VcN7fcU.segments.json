@@ -1,0 +1,93 @@
+{
+  "video_id": "tP-0VcN7fcU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.8,
+      "end": 13.2,
+      "text": "in this video we're going to talk about classes in GP and compare that to the experience in business Central where we will use templates to streamline the creation of new customers vendors and"
+    },
+    {
+      "t": 13.2,
+      "end": 33.2,
+      "text": "items to begin let's go to GP and look at a customer class that I've already created in this example we're grouping our customers by region and I have some preset information for customers in the Northeast region for example we've entered the finance charge credit limit in salesperson assigned to this"
+    },
+    {
+      "t": 33.2,
+      "end": 55,
+      "text": "region in addition if I select the accounts button I want to make sure that the sales account being posted to is for the Northeast region segment next if we go to one of the customers assigned to that class we can see that same information that we entered on the template defaulted onto the customer card for"
+    },
+    {
+      "t": 55,
+      "end": 66.2,
+      "text": "us here we can see that the correct salesperson is assigned to the customer and and again selecting that accounts button see lets us see that same Northeast region sales"
+    },
+    {
+      "t": 66.2,
+      "end": 76.4,
+      "text": "account now let's look at business Central and how we can create templates that allow us to easily set up information we want for new customers entered in the"
+    },
+    {
+      "t": 76.4,
+      "end": 87.6,
+      "text": "system to navigate to the templates we will select the search icon and enter customer templates and then choose that from the search"
+    },
+    {
+      "t": 87.6,
+      "end": 107.7,
+      "text": "results I'll first give the new template and name and then start filling in the information that they'd like to default for new or existing customers we have in the Northeast if you've noticed I don't see the credit limit or salesperson fields on the template form I can simply select to personalize the form find the fields that I"
+    },
+    {
+      "t": 107.7,
+      "end": 113.8,
+      "text": "want to add and drag them onto the template"
+    },
+    {
+      "t": 114.1,
+      "end": 124.6,
+      "text": "window now that I've added the credit limit and salesperson fields to the template I can select the proper value for"
+    },
+    {
+      "t": 127.5,
+      "end": 138,
+      "text": "each next we'll set the default business and customer posting groups so that the correct sales and accounts receivables accounts are used for customers in this"
+    },
+    {
+      "t": 138,
+      "end": 153.2,
+      "text": "group finally let's set that default region Dimension value so that transactions posted to the sales account are categorized correctly similar to using the Northeast segment value in GP"
+    },
+    {
+      "t": 155.5,
+      "end": 164.4,
+      "text": "now that we have the customer template configured let's create a new customer and apply the"
+    },
+    {
+      "t": 164.7,
+      "end": 175.4,
+      "text": "template when I select to create a new customer you can see the various templates I've created are displayed and I can select that Northeast region"
+    },
+    {
+      "t": 175.4,
+      "end": 187.6,
+      "text": "template in the customer window you can see how the credit limit and salespeople have defaulted in for me as well as the right business and customer posting"
+    },
+    {
+      "t": 187.6,
+      "end": 208.4,
+      "text": "groups we can also navigate to the dimension for the customer and see that the Northeast region has been defaulted there as well if I had existing customers that I wanted to apply this template to I could do that as well lastly if you create a customer with values you want to use another customers"
+    },
+    {
+      "t": 208.4,
+      "end": 214.1,
+      "text": "you can create a template from an existing customer"
+    },
+    {
+      "t": 214.1,
+      "end": 230.9,
+      "text": "record and that's a quick look at how we can use templates in business Central to streamline data creation and improve data accuracy to learn more about business Central see the following resources"
+    }
+  ],
+  "markers": [],
+  "word_count": 539
+}

@@ -1,0 +1,203 @@
+{
+  "video_id": "vpJg1BxIrs0",
+  "item_id": "video/yt-microsoft/vpJg1BxIrs0",
+  "title": "Comparing Segment and Dimension Transaction and Reporting between Dynamics GP and Business Central",
+  "duration_s": 239,
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "segments",
+    "dimensions",
+    "default dimensions",
+    "purchase invoices",
+    "dimension posting",
+    "trial balance reporting",
+    "migration",
+    "posting groups"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to segments and dimensions",
+      "t_start": 0,
+      "t_end": 19.2
+    },
+    {
+      "title": "Posting transactions with segments in Dynamics GP",
+      "t_start": 19.2,
+      "t_end": 60.7
+    },
+    {
+      "title": "Overview of dimensions in Business Central",
+      "t_start": 60.7,
+      "t_end": 80.7
+    },
+    {
+      "title": "Setting up default dimensions on vendors",
+      "t_start": 80.7,
+      "t_end": 113.1
+    },
+    {
+      "title": "Creating purchase invoices with default dimensions",
+      "t_start": 113.1,
+      "t_end": 159.2
+    },
+    {
+      "title": "Preview posting and posting transactions",
+      "t_start": 159.2,
+      "t_end": 189.7
+    },
+    {
+      "title": "Viewing transactions in trial balance dimension report",
+      "t_start": 189.7,
+      "t_end": 239
+    }
+  ],
+  "features": [
+    {
+      "name": "Default dimensions on vendors",
+      "description": "Ability to assign default dimension values to vendors in Business Central that automatically default onto purchase transactions, replacing the segment posting functionality from Dynamics GP.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.7,
+      "t_end": 113.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "vendors",
+        "purchase",
+        "setup"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Dimension value posting code settings",
+      "description": "Option to set dimension value posting code to mandatory to enforce that a dimension value must exist on transactions for an entity, or leave it flexible for defaulting only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.1,
+      "t_end": 132.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not demonstrated with mandatory setting applied"
+      ],
+      "tags": [
+        "dimensions",
+        "posting controls",
+        "setup"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Dimension value migration from GP",
+      "description": "Segments defined in Dynamics GP migrate to Business Central as dimensions through the cloud migration tool, allowing continuation of transaction categorization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.7,
+      "t_end": 80.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "dimensions",
+        "gp integration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Posting preview in purchase journal",
+      "description": "Ability to preview posting before submitting a journal entry in Business Central to verify correct accounts and dimension values are being posted, similar to GP distributions button.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.2,
+      "t_end": 176.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting preview",
+        "purchase",
+        "verification"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Trial balance dimension report",
+      "description": "Report in Business Central that displays amounts posted to main accounts and allows analysis of transactions by various dimensions such as division, enabling slice-and-dice reporting similar to GP segment reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 189.7,
+      "t_end": 231,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "dimensions",
+        "trial balance",
+        "analytics"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 60.7,
+      "text": "the segments we defined in GP will migrate to business Central as Dimensions allowing us to continue to slice and categorize our transactions",
+      "why_it_matters": "Explains the core mapping between GP segments and BC dimensions, which is the foundation for migrating posting logic.",
+      "check": "exact"
+    },
+    {
+      "t": 80.7,
+      "text": "I'll first go to that same vendor in business Central that I migrated from GP using the cloud migration tool I want to assign",
+      "why_it_matters": "Demonstrates how default dimensions replace segment posting, allowing automatic dimension defaulting on transactions from GP-migrated data.",
+      "check": "exact"
+    },
+    {
+      "t": 113.1,
+      "text": "if I wanted to lock the posting down further I could set the value posting to code mandatory which would indicate that a dimension",
+      "why_it_matters": "Shows dimension posting controls available in BC beyond simple defaulting for enforcing business rules.",
+      "check": "exact"
+    },
+    {
+      "t": 159.2,
+      "text": "Before posting any journal in business Central I can preview the posting to ensure that the correct accounts are being posted to similar to",
+      "why_it_matters": "Establishes feature parity with GP for verification before posting, a key usability requirement for migrating users.",
+      "check": "exact"
+    },
+    {
+      "t": 212.7,
+      "text": "the trial balance report in business Central allows me to see amounts being posted to my main accounts similar to GP as well as",
+      "why_it_matters": "Confirms that BC dimension reporting provides equivalent analytical capabilities to GP segment reporting for transaction analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013183
+    }
+  ]
+}

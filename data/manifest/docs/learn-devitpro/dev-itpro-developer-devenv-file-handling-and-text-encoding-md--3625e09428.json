@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-file-handling-and-text-encoding",
   "published_at": "2025-05-21T12:33:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2908126eb98cc3665fc92207fd3baeade5f02782",
       "words": 919,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:42.888Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:44.606Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:44.607Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:44.608Z",
+      "page": false
     }
   },
   "input_hash": "2908126eb98cc3665fc92207fd3baeade5f02782",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2908126eb98cc3665fc92207fd3baeade5f02782"
+  "output_hash": "11efd1936691bb42282c4c7fb92618c5ce152914f531746e07ea7fca1c83fca7"
 }
