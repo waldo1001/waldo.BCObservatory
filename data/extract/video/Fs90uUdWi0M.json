@@ -1,0 +1,469 @@
+{
+  "video_id": "Fs90uUdWi0M",
+  "item_id": "video/yt-microsoft/Fs90uUdWi0M",
+  "title": "What's New: Financial Analytics (2025 release wave 2)",
+  "duration_s": 1266,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "dynamic date headers",
+    "additional reporting currency",
+    "deferral analysis",
+    "late payment analysis",
+    "cash flow analytics",
+    "powerbi",
+    "account schedules",
+    "documentation",
+    "layout modernization",
+    "excel analysis",
+    "vat"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business priorities",
+      "t_start": 0,
+      "t_end": 72.3
+    },
+    {
+      "title": "Four investment areas overview",
+      "t_start": 72.3,
+      "t_end": 166.8
+    },
+    {
+      "title": "Financial reporting improvements",
+      "t_start": 166.8,
+      "t_end": 553.1
+    },
+    {
+      "title": "PowerBI for finance and cash flow analytics",
+      "t_start": 553.1,
+      "t_end": 810.8
+    },
+    {
+      "title": "Deferrals analysis and report layout modernization",
+      "t_start": 810.8,
+      "t_end": 945.9
+    },
+    {
+      "title": "New deferral line pages and finance documentation",
+      "t_start": 945.9,
+      "t_end": 1010.6
+    },
+    {
+      "title": "Finance reporting documentation and analytics landing page",
+      "t_start": 1010.6,
+      "t_end": 1103.8
+    },
+    {
+      "title": "Resources and community engagement",
+      "t_start": 1103.8,
+      "t_end": 1266
+    }
+  ],
+  "features": [
+    {
+      "name": "Dynamic date headers in financial reporting",
+      "description": "New capability to include actual dates in column headers of financial reports instead of relative period labels like 'current period'. When both text and date are shown, the date appears in parenthesis; when only the date component is present, it displays standalone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.8,
+      "t_end": 352.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "financial reporting",
+        "dynamic dates",
+        "column headers",
+        "productivity"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Additional reporting currency support in financial reports",
+      "description": "Ability to run financial reports that show amounts in both local currency and additional reporting currency in separate columns. Column definitions now include a field to enable displaying amounts in additional reporting currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 352.2,
+      "t_end": 553.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires additional currency to be set up in the system to display values"
+      ],
+      "tags": [
+        "additional currency",
+        "reporting",
+        "multi-currency",
+        "column definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Improved row definition editing in financial reporting",
+      "description": "Users can now edit row definition descriptions directly from the card view, and row definitions can be edited in Excel. When adding a single GL account to a row definition, the description is auto-completed from the account name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 422.6,
+      "t_end": 502.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "row definitions",
+        "excel integration",
+        "productivity",
+        "auto-complete"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "GL account name change notifications in financial reporting",
+      "description": "When a GL account name is changed, users receive a notification reminding them to check if that account is used in any financial reports where the name should also be updated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 502.2,
+      "t_end": 539.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "account maintenance",
+        "data consistency"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Show less/show more improvements in financial reporting",
+      "description": "Productivity improvement to financial reporting interface that hides unnecessary fields by default in report options, giving users more screen space to view the actual report content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 234.9,
+      "t_end": 267.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "productivity",
+        "ui",
+        "screen space",
+        "user experience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Late payment analysis report for receivables",
+      "description": "New PowerBI report that analyzes late payments on receivables using bubble charts. The visualization shows outstanding amounts on one axis, average days late on another, and bubble size represents payment amount. Customers with large late payments and high lateness appear in the upper right quadrant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 574.5,
+      "t_end": 735.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "late payments",
+        "receivables",
+        "cash flow",
+        "powerbi",
+        "bubble chart",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Historical average collection period trend in PowerBI",
+      "description": "Enhanced average collection period report in PowerBI now includes historical trend data, allowing users to see collection periods over time and identify patterns in accumulated accounts receivable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 755.4,
+      "t_end": 810.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "collection period",
+        "historical trends",
+        "powerbi",
+        "receivables",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Deferral analysis for posted and upcoming deferrals",
+      "description": "Enhanced ability to analyze both posted deferrals and upcoming non-posted deferrals across sales, purchase invoices, and GL level. Users can now see both historical and future deferral impacts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 810.8,
+      "t_end": 848.8,
+      "is_demoed": true,
+      "caveats": [
+        "Previously only posted deferrals could be analyzed"
+      ],
+      "tags": [
+        "deferrals",
+        "analysis",
+        "posted",
+        "upcoming",
+        "sales",
+        "purchase",
+        "gl"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Word and Excel layouts for deferral reports",
+      "description": "Deferral reports now support modern Word and Excel layouts in addition to RDLC. Users can switch between formats and set their preferred default format on the report request page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 835,
+      "t_end": 908.7,
+      "is_demoed": true,
+      "caveats": [
+        "RDLC layouts will be deprecated"
+      ],
+      "tags": [
+        "deferral reports",
+        "word",
+        "excel",
+        "layouts",
+        "modernization",
+        "rdlc"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "In-client documentation for deferrals reporting",
+      "description": "Added teaching tips and links to documentation articles within the deferral reports to help users understand how to use the reports and what they are designed for.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 848.8,
+      "t_end": 895.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "teaching tips",
+        "deferrals",
+        "help"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layout analysis across deferrals",
+      "description": "Excel layouts now enable analysis across all deferrals whether for sales, purchase, or GL, with ability to slice, dice, filter, and customize layouts to upload as defaults.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 934.3,
+      "t_end": 968.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "analysis",
+        "deferrals",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "New deferral lines pages",
+      "description": "Added three new pages for deferral lines covering sales, purchase, and GL to analyze deferral lines across all unposted documents. Previously required viewing deferral schedules individually in each invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 968.5,
+      "t_end": 1010.6,
+      "is_demoed": false,
+      "caveats": [
+        "Pages are for unposted documents only"
+      ],
+      "tags": [
+        "deferral lines",
+        "pages",
+        "sales",
+        "purchase",
+        "gl"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Comprehensive finance reports documentation",
+      "description": "New complete documentation of finance reports covering VAT, cost accounting, deferrals, consolidations, and intercompany with both learn content and in-client teaching tips, addressing previously undocumented features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1010.6,
+      "t_end": 1093,
+      "is_demoed": false,
+      "caveats": [
+        "Documentation covers previously undocumented features"
+      ],
+      "tags": [
+        "documentation",
+        "finance reports",
+        "vat",
+        "cost accounting",
+        "deferrals",
+        "consolidations",
+        "intercompany"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Collection Period Report",
+      "t": 791.9
+    },
+    {
+      "type": "report",
+      "name": "Deferral Summary",
+      "t": 858.8
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines for Sales",
+      "t": 968.5
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines for Purchase",
+      "t": 968.5
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines for GL",
+      "t": 968.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 28.3,
+      "text": "profitability and process efficiency those were both in the top five",
+      "why_it_matters": "These are the stated business priorities driving the investment areas in this finance analytics release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 72.3,
+      "text": "this is used for by more than a third of all customers uh use this",
+      "why_it_matters": "Financial reporting is highly used, justifying the focus on productivity improvements and feature enhancements for this release.",
+      "check": "exact"
+    },
+    {
+      "t": 280.5,
+      "text": "we have a new option here called include date in column header",
+      "why_it_matters": "Shows a specific new capability that addresses the limitation of not being able to specify relative periods clearly in report headers.",
+      "check": "exact"
+    },
+    {
+      "t": 362.7,
+      "text": "there's a new column here called show in uh ACY in additional reporting currency",
+      "why_it_matters": "Demonstrates the new multi-currency reporting capability that allows displaying amounts in both local and additional reporting currencies.",
+      "check": "exact"
+    },
+    {
+      "t": 591.4,
+      "text": "a completely new report late payment analysis on receivables",
+      "why_it_matters": "Identifies a significant new analytics feature for cash flow management, specifically addressing late payment visibility for CFOs and finance teams.",
+      "check": "exact"
+    },
+    {
+      "t": 821.1,
+      "text": "you now have the ability to analyze upcoming which means non-posted and existing deferrals, deferrals that are posted",
+      "why_it_matters": "Clarifies the expansion of deferral analysis to cover both historical and future deferrals, previously limited to posted deferrals only.",
+      "check": "exact"
+    },
+    {
+      "t": 835,
+      "text": "We also modernized the report layouts so that they now use Word or Excel",
+      "why_it_matters": "Indicates a significant modernization step away from RDLC layouts, giving users more flexibility to customize report formats.",
+      "check": "exact"
+    },
+    {
+      "t": 869.8,
+      "text": "RDLC is the one that will be deprecated of these layouts",
+      "why_it_matters": "Announces formal deprecation of legacy RDLC layout technology in favor of Word and Excel",
+      "check": "exact"
+    },
+    {
+      "t": 968.5,
+      "text": "Um as a new feature, we also added three new pages, deferral lines for sales, purchase and GL",
+      "why_it_matters": "Introduces three new pages as a core feature for cross-document deferral analysis",
+      "check": "exact"
+    },
+    {
+      "t": 1010.6,
+      "text": "we added both learn content and these incline teaching tips for all of that",
+      "why_it_matters": "Demonstrates commitment to documentation completeness across multiple finance reporting areas",
+      "check": "exact"
+    },
+    {
+      "t": 1046.8,
+      "text": "we as Microsoft forgot or uh forgot or didn't have time to document this",
+      "why_it_matters": "Acknowledges previous documentation gaps that are now being addressed with new comprehensive coverage",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 869.8,
+      "kind": "coming-later",
+      "text": "RDLC is the one that will be deprecated of these layouts"
+    },
+    {
+      "t": 869.8,
+      "kind": "subject-to-change",
+      "text": "RDLC is the one that will be deprecated of these layouts"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027157
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022786999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021628
+    }
+  ]
+}

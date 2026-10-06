@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-set-up-workflow-users.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-workflow-users",
+  "title": "How to set up workflow users",
+  "blob": "d6eff96805784292c094ae293559376adeea5977",
+  "summary": "Workflow users are set up on Workflow User Groups page with sequence numbers to define the order of approvals, where multiple users at the same sequence level can approve in parallel or series depending on hierarchy position.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "workflows",
+    "approval workflows",
+    "user setup",
+    "workflow users"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow User Groups"
+    },
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "workflow user groups",
+    "sequence numbers",
+    "approval workflows",
+    "approval hierarchy"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004707,
+      "pages_in_call": 8
+    }
+  ]
+}

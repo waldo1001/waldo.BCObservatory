@@ -1,0 +1,333 @@
+{
+  "video_id": "lcpk-gPfGQU",
+  "item_id": "video/yt-microsoft/lcpk-gPfGQU",
+  "title": "What's New: Excise Taxes Framework (2025 release wave 2)",
+  "duration_s": 309,
+  "systems": [
+    "finance",
+    "sustainability",
+    "manufacturing"
+  ],
+  "topics": [
+    "excise taxes",
+    "tax framework",
+    "journal",
+    "epr",
+    "cbm",
+    "extensibility",
+    "regulatory compliance",
+    "tax calculation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Business Value of Excise Tax Framework",
+      "t_start": 0,
+      "t_end": 58.6
+    },
+    {
+      "title": "Excise Tax Framework Components and Extensibility",
+      "t_start": 58.6,
+      "t_end": 134.5
+    },
+    {
+      "title": "CBM and EPR Options Built on Framework",
+      "t_start": 134.5,
+      "t_end": 157.4
+    },
+    {
+      "title": "Excise Journal Functionality and Document Sources",
+      "t_start": 157.4,
+      "t_end": 212.1
+    },
+    {
+      "title": "Configuration Sources and Calculation Options",
+      "t_start": 212.1,
+      "t_end": 245.6
+    },
+    {
+      "title": "Resources and Closing Remarks",
+      "t_start": 245.6,
+      "t_end": 309
+    }
+  ],
+  "features": [
+    {
+      "name": "Excise Tax Framework",
+      "description": "A framework delivered in 2025 release wave 2 that provides the foundation for excise tax calculations and registration. The framework is extensible and can be used for various tax types based on similar sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.4,
+      "t_end": 123.4,
+      "is_demoed": true,
+      "caveats": [
+        "Specific excise tax calculations are not covered in this release",
+        "Framework is extensible but requires custom extensions for some calculations"
+      ],
+      "tags": [
+        "tax",
+        "framework",
+        "regulatory",
+        "extensible"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise Journal",
+      "description": "A journal component where users can enter and calculate excise tax information. Includes excise journal templates and batches for collecting information before registration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.6,
+      "t_end": 95.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "journal",
+        "excise",
+        "data-entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise Tax Registration Transaction Logs",
+      "description": "Transaction logs that capture excise tax registrations once information is posted to the journal. These logs provide an audit trail of all excise tax transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.4,
+      "t_end": 95.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "registration",
+        "audit",
+        "transaction-logs"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "CBM and EPR Calculations",
+      "description": "Carbon Border Mechanism and Extended Producer Responsibility calculations built on top of the excise tax framework. Introduced as sustainability options in this release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.4,
+      "t_end": 157.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not directly related to excise taxes",
+        "Separate session required to learn about CBM and EPR implementation"
+      ],
+      "tags": [
+        "sustainability",
+        "carbon",
+        "epr",
+        "cbm"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Multiple Tax Type Options",
+      "description": "Framework supports multiple tax type options including CBM, EPR, and excises. Users can select the type to determine which fields appear in the journal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 134.5,
+      "t_end": 147.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tax-types",
+        "configuration",
+        "options"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Purchase and Sales Document Integration",
+      "description": "Excise calculations can be based on either purchase or sales documents depending on the scenario. The framework supports tracking from different document sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 170.2,
+      "t_end": 191.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documents",
+        "purchase",
+        "sales",
+        "tracking"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Item-based Tax Configuration",
+      "description": "Items serve as the primary configuration point for excise tax calculations. Taxes can be connected to specific unit of measure or other quantity-based values on item cards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 191.9,
+      "t_end": 225.5,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration options vary by country"
+      ],
+      "tags": [
+        "items",
+        "configuration",
+        "unit-of-measure"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Extended Configuration Sources",
+      "description": "Beyond items, the framework supports configuring excise taxes through resources, item charges, and fixed assets, depending on country-specific requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225.5,
+      "t_end": 245.6,
+      "is_demoed": false,
+      "caveats": [
+        "Treatment varies by country",
+        "Manual population or custom extensions currently required for some options"
+      ],
+      "tags": [
+        "resources",
+        "fixed-assets",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Future Excise Tax Calculation Options",
+      "description": "Framework will support additional excise tax calculation options in future releases beyond CBM and EPR. Users can provide feedback on priority calculations such as plastic tax or sugar tax.",
+      "status": "announced",
+      "status_evidence_t": 245.6,
+      "status_evidence_quote": "we can promise we will enable some additional option for excise taxes in a future releases",
+      "status_evidence_verified": true,
+      "t_start": 245.6,
+      "t_end": 266.2,
+      "is_demoed": false,
+      "caveats": [
+        "Specific calculations not yet committed"
+      ],
+      "tags": [
+        "future",
+        "plastic-tax",
+        "sugar-tax",
+        "roadmap"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Excise Journal",
+      "t": 58.6
+    },
+    {
+      "type": "other",
+      "name": "Excise Journal Template",
+      "t": 75.4
+    },
+    {
+      "type": "other",
+      "name": "Excise Journal Batch",
+      "t": 75.4
+    },
+    {
+      "type": "other",
+      "name": "Excise Tax Registration Transaction Logs",
+      "t": 95.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totoich",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.7,
+      "text": "this edition will deliver this as a framework. So we will not cover specific excise tax calculations",
+      "why_it_matters": "Clarifies that the 2025 wave 2 release delivers a framework foundation rather than specific tax calculations, setting expectations for what is and is not included.",
+      "check": "exact"
+    },
+    {
+      "t": 33.4,
+      "text": "with excess taxes calculation you can expect in the future different type of excess tax calculations we will provide",
+      "why_it_matters": "Describes the business value proposition - future releases will include specific calculations with compliance and accuracy benefits.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 95.4,
+      "text": "This is completely extendable. So not only for real excise taxes. This is important.",
+      "why_it_matters": "Highlights that the framework's extensibility means it can be used for other tax types beyond excise taxes, expanding its scope and value.",
+      "check": "exact"
+    },
+    {
+      "t": 123.4,
+      "text": "option we introduce cbm and epr calculation on a top of this framework",
+      "why_it_matters": "Announces that CBM and EPR sustainability features are delivered in this release as implementations on top of the excise tax framework.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 170.2,
+      "text": "excise calculations can be based on purchase on sales documents. So in some situation you will track on a purchase on some situation on",
+      "why_it_matters": "Explains the flexibility of the framework to support different tracking scenarios based on purchase or sales document sources.",
+      "check": "exact"
+    },
+    {
+      "t": 191.9,
+      "text": "item is unique place where you can configure",
+      "why_it_matters": "Identifies items as the primary configuration entity for excise tax setup, which is critical for understanding how to implement taxes in the system.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 245.6,
+      "text": "we can promise we will enable some additional option for excise taxes in a future releases",
+      "why_it_matters": "Commits to future enhancements while inviting customer feedback on priority calculations, showing the roadmap is driven by customer needs.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 17.7,
+      "kind": "preview",
+      "text": "this edition will deliver this as a framework. So we will not cover specific excise tax calculations"
+    },
+    {
+      "t": 245.6,
+      "kind": "coming-later",
+      "text": "we can promise we will enable some additional option for excise taxes in a future releases"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018893
+    }
+  ]
+}

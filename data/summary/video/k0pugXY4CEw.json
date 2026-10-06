@@ -1,0 +1,28 @@
+{
+  "video_id": "k0pugXY4CEw",
+  "item_id": "video/yt-microsoft/k0pugXY4CEw",
+  "summary": "IRS 1099 electronic filing with the IRIS portal in Business Central, 2025 release wave 2. Covers the A2A integration for cloud users, manual file upload for on-premise users, 1099 substitution forms, planned 1086 deprecation, and a demo of creating, sending, tracking and correcting 1099 forms.",
+  "overview": "The video explains how Business Central sends 1099 forms directly to the IRS IRIS portal. Cloud users get a full application-to-application integration, so forms no longer need to be printed or submitted by hand. On-premise users create files and upload them to the IRIS portal manually. The speaker says E-file direct to IRIS is officially available from 2025 release wave 2.\n\nThe demo covers setting up and creating 1099 form documents, combining released documents into one transmission, and sending it to the IRS. It then shows transmission history with IRS acknowledgement content in XML, and the correction flow after IRS acceptance. The video also covers 1099 substitution forms sent to vendors by email or mail, and the planned deprecation of the 1086 form.",
+  "key_points": [
+    "Cloud users get full A2A integration with the IRIS portal; on-premise users create files and upload them manually to IRIS.",
+    "1099 form documents calculate total payment amounts for each vendor automatically.",
+    "Several released 1099 form documents can be combined into one transmission. Business Central checks that the required data is filled in, creates the XML and sends it to the IRS.",
+    "Transmission history shows when each transmission was sent, its type and status. IRS acknowledgement content can be downloaded as XML to review statuses and errors.",
+    "To correct a form after IRS acceptance, use the allow correction action first, then reopen the document. Corrected lines are marked, and the replacement transmission carries only the corrected amounts.",
+    "1099 substitution forms are PDFs that can be emailed (optionally encrypted, with vendor consent) or printed and mailed.",
+    "The 1086 form functionality is announced for deprecation, because electronic 1089 submission removes the need for 1086."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "1b9bfd5c604ef918b917fc55cc5d98ab9708cec848eb0697bfd3e149275e456d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0159304
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "video_id": "kCTYPb5t5XQ",
+  "item_id": "video/yt-microsoft/kCTYPb5t5XQ",
+  "title": "What's New in AL-Go for GitHub: Productivity Enhancements (2025 release wave 2)",
+  "duration_s": 362,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "github",
+    "productivity",
+    "environment variables",
+    "deployment",
+    "pull requests",
+    "warnings",
+    "page scripting",
+    "workflow validation",
+    "settings schema",
+    "debug logging"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 52.1
+    },
+    {
+      "title": "Environment variables for deployment",
+      "t_start": 52.1,
+      "t_end": 114.1
+    },
+    {
+      "title": "Block pull requests on new warnings",
+      "t_start": 114.1,
+      "t_end": 150.2
+    },
+    {
+      "title": "Page scripting test visualizer",
+      "t_start": 150.2,
+      "t_end": 175.2
+    },
+    {
+      "title": "Workflow input validation",
+      "t_start": 175.2,
+      "t_end": 237.7
+    },
+    {
+      "title": "Settings schema and autocompletion",
+      "t_start": 237.7,
+      "t_end": 294.7
+    },
+    {
+      "title": "Debug logging improvements",
+      "t_start": 294.7,
+      "t_end": 362
+    }
+  ],
+  "features": [
+    {
+      "name": "Environment variables for deployment",
+      "description": "Settings can now be placed in environment variables named ALGO_environment_settings and defined for each environment, available only during deployment jobs. This helps declutter the main settings file.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.1,
+      "t_end": 114.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only available during deployment jobs",
+        "Does not support runs-on shell and continuous deployment properties",
+        "Those properties must be defined in main settings file or repository/organization settings"
+      ],
+      "tags": [
+        "environment variables",
+        "deployment",
+        "settings",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fail on new warnings for pull requests",
+      "description": "The fail-on setting now accepts a new value 'new warning' which compares warnings generated in the pull request build to the last good CI/CD build and blocks the pull request if any new warnings are introduced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 125,
+      "t_end": 150.2,
+      "is_demoed": false,
+      "caveats": [
+        "Does not run on CAC job so CAC warnings do not block CI/CD"
+      ],
+      "tags": [
+        "pull requests",
+        "warnings",
+        "quality",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page scripting test visualizer",
+      "description": "Page scripting test results can now be visualized directly in the build summary, similar to regular and performance tests. No new setting is required and works out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 150.2,
+      "t_end": 175.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only shows results if page scripting tests are running"
+      ],
+      "tags": [
+        "page scripting",
+        "testing",
+        "visualization",
+        "build summary"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow input validation",
+      "description": "A new feature that validates workflow inputs and fails workflows as early as possible if anything goes wrong. Currently implemented for create release and increment version workflows to catch issues like incorrect version number formats before the workflow partially executes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.4,
+      "t_end": 237.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently implemented only for create release and increment version workflows"
+      ],
+      "tags": [
+        "workflow validation",
+        "input validation",
+        "error handling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Settings schema and autocompletion",
+      "description": "AL-Go settings now have schema support in IDEs like Visual Studio Code, providing autocomplete suggestions, tool tips, and direct links to documentation for specific settings. This makes discovering and configuring settings much easier.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 254.2,
+      "t_end": 294.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "settings",
+        "schema",
+        "autocompletion",
+        "developer experience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Debug logging enhancements",
+      "description": "Enhanced debug logging focused on providing detailed information to help troubleshoot issues when reporting problems. Debug logs are kept separate from regular logs to avoid clutter while providing useful diagnostic information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 294.7,
+      "t_end": 351,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debug logging",
+        "troubleshooting",
+        "issue reporting"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "create release workflow",
+      "t": 209.5
+    },
+    {
+      "type": "other",
+      "name": "increment version workflow",
+      "t": 237.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sebastian",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 34.1,
+      "text": "In modern software development, even small inefficiencies can quickly add up. They can take time away from your important development work and that's why",
+      "why_it_matters": "Sets the context for the productivity improvements being discussed - reducing inefficiencies saves development time.",
+      "check": "exact"
+    },
+    {
+      "t": 67.8,
+      "text": "These should be named ALGO environment settings and can be defined for each of your environments.",
+      "why_it_matters": "Explains the naming convention and scope for the new environment variables feature.",
+      "check": "exact"
+    },
+    {
+      "t": 78.6,
+      "text": "It should be noted these are available only during deployment jobs and therefore not all of your settings should be put into this variable.",
+      "why_it_matters": "Critical limitation that users must understand about where environment variables can be used.",
+      "check": "exact"
+    },
+    {
+      "t": 125,
+      "text": "The fail on setting has existed for a while, but it now accepts a new value, new warning.",
+      "why_it_matters": "Announces the new capability to block pull requests based on new warnings introduced.",
+      "check": "exact"
+    },
+    {
+      "t": 209.5,
+      "text": "What this will do is it will still run the workflow partially, create a release and attack in your repository, but the workflow will",
+      "why_it_matters": "Describes the problem that workflow input validation solves - partial execution followed by failure requiring manual cleanup.",
+      "check": "exact"
+    },
+    {
+      "t": 237.7,
+      "text": "For now, this is implemented only for create release and increment version, but is made in a flexible way that will allow us to",
+      "why_it_matters": "Sets expectation for current scope and future expandability of workflow input validation.",
+      "check": "exact"
+    },
+    {
+      "t": 277.6,
+      "text": "You will now get also complete like shown in the screenshot which will help you discover uh settings more easily. On top of that,",
+      "why_it_matters": "Details the developer experience improvements from settings schema including autocomplete and documentation links.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020597
+    }
+  ]
+}

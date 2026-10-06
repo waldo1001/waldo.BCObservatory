@@ -1,0 +1,230 @@
+{
+  "video_id": "JT4ownMbotw",
+  "item_id": "video/yt-microsoft/JT4ownMbotw",
+  "title": "What's New: Manufacturing Analytics (2025 release wave 2)",
+  "duration_s": 575,
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "manufacturing analytics",
+    "powerbi app",
+    "capacity units",
+    "report modernization",
+    "excel layouts",
+    "discoverability",
+    "production analysis",
+    "manufacturing reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and investment rationale",
+      "t_start": 0,
+      "t_end": 75.6
+    },
+    {
+      "title": "Manufacturing modernization themes",
+      "t_start": 75.6,
+      "t_end": 106.2
+    },
+    {
+      "title": "PowerBI app improvements and capacity units",
+      "t_start": 106.2,
+      "t_end": 183
+    },
+    {
+      "title": "Built-in reports modernization approach",
+      "t_start": 183,
+      "t_end": 223.1
+    },
+    {
+      "title": "Report discoverability and in-client help",
+      "t_start": 223.1,
+      "t_end": 297.1
+    },
+    {
+      "title": "Updated and new reports released in version 27.0",
+      "t_start": 297.1,
+      "t_end": 421.7
+    },
+    {
+      "title": "Resources and learning materials",
+      "t_start": 421.7,
+      "t_end": 575
+    }
+  ],
+  "features": [
+    {
+      "name": "PowerBI app for manufacturing",
+      "description": "Updated PowerBI app that addresses feedback from business scenarios. Now shows all capacity-related measures in a universal unit of measure chosen in Business Central manufacturing setup, making it easier to spot production issues and reduce waste.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 33.5,
+      "t_end": 174.3,
+      "is_demoed": true,
+      "caveats": [
+        "PowerBI app should be installed or updated separately from built-in reports"
+      ],
+      "tags": [
+        "powerbi",
+        "capacity reporting",
+        "production visibility"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layouts for manufacturing reports",
+      "description": "Manufacturing and analytics reports now offer Excel layout options in addition to legacy layouts. Excel layouts enable end users to analyze data, change layout, filter, sort, and customize reports without requiring customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 205,
+      "t_end": 286.6,
+      "is_demoed": true,
+      "caveats": [
+        "Word layouts also available but focus in demo is on Excel"
+      ],
+      "tags": [
+        "report layouts",
+        "excel",
+        "user customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "In-client help and teaching tips for reports",
+      "description": "Manufacturing reports now include teaching tips when opening request pages, and an in-client help pane that provides information about each report with links to Microsoft Learn documentation articles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 223.1,
+      "t_end": 349.8,
+      "is_demoed": true,
+      "caveats": [
+        "Teaching tips do not need to be enabled everywhere"
+      ],
+      "tags": [
+        "discoverability",
+        "documentation",
+        "user guidance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Manufacturing reports with modernized layouts",
+      "description": "Six updated manufacturing reports and two completely new reports were modernized with Excel and Word layouts. These include Where Used (Top Level), Quantity Explosion of Bill of Material, and Production Order List. Delayed from 26.2 to ship in version 27.0.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 379.8,
+      "t_end": 421.7,
+      "is_demoed": true,
+      "caveats": [
+        "Originally planned for 26.2, postponed to 27.0",
+        "Three additional reports mentioned beyond the originally planned eight"
+      ],
+      "tags": [
+        "report modernization",
+        "bill of material",
+        "production orders"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Manufacturing analytics landing page",
+      "description": "A comprehensive landing page (aka.ms/bc-manufacturing-analytics) covering manufacturing analytics with personas, use cases, and resources for analyzing production data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 432.6,
+      "t_end": 445,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analytics",
+        "documentation",
+        "learning resources"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Where Used Top Level",
+      "t": 243.8
+    },
+    {
+      "type": "report",
+      "name": "Quantity Explosion of Bill of Material",
+      "t": 401.6
+    },
+    {
+      "type": "report",
+      "name": "Production Order List",
+      "t": 421.7
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.9,
+      "text": "using both reports and business intelligence can really help you get a better understanding of your performance and waste in your production processes",
+      "why_it_matters": "Establishes the value proposition for manufacturing analytics - understanding performance and waste reduction",
+      "check": "exact"
+    },
+    {
+      "t": 124.2,
+      "text": "every measures every number you see in the app now show data in a universal unit of measure for capacity that you choose inside",
+      "why_it_matters": "Key improvement in PowerBI app - alignment of capacity metrics with user-configured units in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 205,
+      "text": "we have chosen Excel and Word as the layout options for manufacturing and analytics reports",
+      "why_it_matters": "Design decision for modern report layouts enabling user analysis and customization without requiring IT changes",
+      "check": "exact"
+    },
+    {
+      "t": 391.6,
+      "text": "We needed to postpone that until version 27.0",
+      "why_it_matters": "Important timeline clarification - reports originally planned for 26.2 delayed to 27.0 release",
+      "check": "exact"
+    },
+    {
+      "t": 401.6,
+      "text": "all of these reports are there as well as three more so on the bottom here you can see quantity explosion of",
+      "why_it_matters": "Announces the complete set of reports in 27.0 including three additional reports beyond original plan",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 391.6,
+      "kind": "subject-to-change",
+      "text": "They were supposed to ship in 26.2 uh for some reasons I don't have to talk about here. We needed to postpone that until version 27.0."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020548
+    }
+  ]
+}

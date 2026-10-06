@@ -1,0 +1,278 @@
+{
+  "video_id": "q0TxpWfm9rc",
+  "item_id": "video/yt-microsoft/q0TxpWfm9rc",
+  "title": "What's New: Enhancements to Copilot Summaries (2025 release wave 2)",
+  "duration_s": 330,
+  "systems": [
+    "copilot",
+    "finance",
+    "crm"
+  ],
+  "topics": [
+    "copilot summaries",
+    "ai insights",
+    "multi-language support",
+    "filter awareness",
+    "interactive summaries",
+    "performance improvement",
+    "developer configuration",
+    "summary sharing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Summaries",
+      "t_start": 0,
+      "t_end": 48.9
+    },
+    {
+      "title": "Customer Card Summary Demo and 50% Faster Generation",
+      "t_start": 48.9,
+      "t_end": 103
+    },
+    {
+      "title": "New Fields and Interactive Summary Features",
+      "t_start": 103,
+      "t_end": 128.4
+    },
+    {
+      "title": "Show More Insights and Conversation with Copilot",
+      "t_start": 128.4,
+      "t_end": 171.8
+    },
+    {
+      "title": "Copy and Share Summary Capability",
+      "t_start": 171.8,
+      "t_end": 204.3
+    },
+    {
+      "title": "Chart of Accounts Example and Filter Awareness",
+      "t_start": 204.3,
+      "t_end": 241.2
+    },
+    {
+      "title": "Multi-Language Support and Custom Pages",
+      "t_start": 241.2,
+      "t_end": 271.1
+    },
+    {
+      "title": "Developer Configuration and Availability",
+      "t_start": 271.1,
+      "t_end": 330
+    }
+  ],
+  "features": [
+    {
+      "name": "50% Faster Summary Generation",
+      "description": "The summary generation process is 50% faster than the previous release, allowing users to get insights more quickly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.5,
+      "t_end": 86.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "enhancement",
+        "speed"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Interactive Summary with Field Highlighting",
+      "description": "Summaries are interactive - users can click on fields or interactions to see highlighting and open related pages where insights were obtained.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117,
+      "t_end": 128.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "interactivity",
+        "navigation",
+        "user experience"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Show More Insights",
+      "description": "Users can click show more to generate additional insights beyond those in the initial summary, with the ability to continue conversation with copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.3,
+      "t_end": 171.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "insights",
+        "expandable",
+        "conversation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copy and Share Summary",
+      "description": "Users can copy summaries and share with co-workers via teams or other media, with a formatted summary that is easily sharable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 177.3,
+      "t_end": 191.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sharing",
+        "collaboration",
+        "copy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Filter Awareness in Summaries",
+      "description": "Summaries now consider filters propagated from list view to card view, providing context-aware insights based on applied filters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 204.3,
+      "t_end": 241.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "filtering",
+        "context-aware",
+        "enhancement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Language Support for Summaries",
+      "description": "Summarize with copilot now supports 20 more languages beyond English, making it available in all languages across all regions and localizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.2,
+      "t_end": 257,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "languages",
+        "global"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Developer Configuration for Summarization",
+      "description": "Developers can now configure via AL whether summarization should be enabled on a certain page, and can impact how summaries work based on custom fields and pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 271.1,
+      "t_end": 286.3,
+      "is_demoed": false,
+      "caveats": [
+        "developers do not have direct access to influencing the summary"
+      ],
+      "tags": [
+        "developer",
+        "customization",
+        "al",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced Fields for Richer Insights",
+      "description": "New fields have been introduced on popular pages like customer card to provide copilot with more data for generating enriched insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103,
+      "t_end": 117,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data enrichment",
+        "fields",
+        "pages"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "customer card",
+      "t": 63.2
+    },
+    {
+      "type": "page",
+      "name": "chart of accounts",
+      "t": 204.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Monica Aja",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.9,
+      "text": "Copilot is your AI assistant for work and it has an ability now to summarize any record on business central",
+      "why_it_matters": "Establishes the core capability of Copilot summaries being available for any record in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 76.5,
+      "text": "one of the new enhancements that we have done is that the summary generation process is 50% faster",
+      "why_it_matters": "Quantifies a key performance improvement in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 241.2,
+      "text": "Summarize with copilot has been available in all regions and in all localizations and it is also available in all languages but only English",
+      "why_it_matters": "Specifies the expansion of language support from English only to 20+ additional languages.",
+      "check": "exact"
+    },
+    {
+      "t": 271.1,
+      "text": "from this release onwards, we are also introducing and developer way for configuring whether they want the summarization uh on a certain page uh",
+      "why_it_matters": "Introduces new developer capabilities for controlling summarization via AL code.",
+      "check": "exact"
+    },
+    {
+      "t": 296.6,
+      "text": "it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages",
+      "why_it_matters": "Confirms general availability across all regions, environments, and languages.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021110999999999998
+    }
+  ]
+}

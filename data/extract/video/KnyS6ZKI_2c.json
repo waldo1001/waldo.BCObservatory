@@ -1,0 +1,316 @@
+{
+  "video_id": "KnyS6ZKI_2c",
+  "item_id": "video/yt-microsoft/KnyS6ZKI_2c",
+  "title": "What's New: Page Scripting Enhancements (2025 release wave 2)",
+  "duration_s": 949,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page scripting",
+    "user acceptance testing",
+    "recording enhancements",
+    "steps modification",
+    "parameters",
+    "test suites",
+    "for-each loops",
+    "conditional branching",
+    "headless replay",
+    "server-side execution"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Page Scripting Tool",
+      "t_start": 0,
+      "t_end": 81.7
+    },
+    {
+      "title": "Recording Enhancements - Steps Modification",
+      "t_start": 81.7,
+      "t_end": 142.2
+    },
+    {
+      "title": "Demo - Recording, Insertion Points, and Drag-and-Drop",
+      "t_start": 142.2,
+      "t_end": 305
+    },
+    {
+      "title": "Parameters and Test Suites",
+      "t_start": 305,
+      "t_end": 481.8
+    },
+    {
+      "title": "Demo - Parameters and Suite Composition",
+      "t_start": 481.8,
+      "t_end": 567.2
+    },
+    {
+      "title": "Iterating Over List Entries with For-Each",
+      "t_start": 567.2,
+      "t_end": 651.4
+    },
+    {
+      "title": "Conditional Branching with Expressions",
+      "t_start": 651.4,
+      "t_end": 727.5
+    },
+    {
+      "title": "Server-Side Headless Script Replay",
+      "t_start": 727.5,
+      "t_end": 853.1
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 853.1,
+      "t_end": 949
+    }
+  ],
+  "features": [
+    {
+      "name": "Steps Modification in Recording",
+      "description": "Ability to define insertion points for steps, rearrange steps via drag-and-drop, and delete any step in the recording sequence rather than only from the end.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.7,
+      "t_end": 142.2,
+      "is_demoed": true,
+      "caveats": [
+        "Changing steps out of order can impact subsequent steps"
+      ],
+      "tags": [
+        "recording",
+        "steps",
+        "insertion point",
+        "drag-and-drop"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Parameters UI Editing",
+      "description": "Create, edit, and view parameters directly in the Business Central UI instead of manually editing YAML files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 305,
+      "t_end": 382.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "parameters",
+        "ui editing",
+        "modularity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Suites UI Creation",
+      "description": "Create test suites directly from the Business Central UI by composing multiple scripts together, rather than manually modifying YAML files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.9,
+      "t_end": 481.8,
+      "is_demoed": true,
+      "caveats": [
+        "Included scripts cannot be edited in the suite and must be persisted before inclusion",
+        "Relative paths must be manually specified for scripts in different directories"
+      ],
+      "tags": [
+        "test suites",
+        "composition",
+        "script inclusion"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Include Script Functionality",
+      "description": "Add a new step called 'include a script' to compose multiple scripts together and pass parameters between them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 412.4,
+      "t_end": 481.8,
+      "is_demoed": true,
+      "caveats": [
+        "Recording must be persisted before including scripts",
+        "Scripts in different directories require manually specified relative paths"
+      ],
+      "tags": [
+        "script composition",
+        "include",
+        "parameters"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "For-Each Row Iteration",
+      "description": "Ability to iterate over entries in a repeater control by right-clicking and selecting 'for each row', creating a scope where steps execute for every item in the list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 567.2,
+      "t_end": 651.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "loops",
+        "iteration",
+        "repeater",
+        "for-each"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Conditional Branching with Expression",
+      "description": "Add a conditional step evaluated by a custom expression using 'expression is true' to dynamically control step execution based on conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 651.4,
+      "t_end": 727.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conditional execution",
+        "branching",
+        "expressions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Server-Side Headless Script Replay",
+      "description": "Run page scripts headlessly on the server side during pipeline execution using the 'use server replay' parameter with BC Replay, eliminating browser overhead.",
+      "status": "preview",
+      "status_evidence_t": 763.4,
+      "status_evidence_quote": "That's why we are now adding the option to run scripts headless on the server side. This is still in preview and it is",
+      "status_evidence_verified": true,
+      "t_start": 742,
+      "t_end": 853.1,
+      "is_demoed": true,
+      "caveats": [
+        "On-premise or containers only",
+        "No video recordings produced with server replay"
+      ],
+      "tags": [
+        "headless",
+        "server-side",
+        "pipelines",
+        "replay",
+        "performance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC Replay",
+      "t": 777.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Vasil",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26.2,
+      "text": "based on user feedback this release adds improvements to the experience of recording and editing scripts that makes user",
+      "why_it_matters": "Establishes the core focus of the release on improving usability and efficiency of the page scripting experience.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 127.2,
+      "text": "But now you can define the insertion point for steps. You can rearrange the sequence of steps by using drag and drop to set",
+      "why_it_matters": "Describes a major workflow improvement eliminating the need to re-record or manually edit YAML files when modifying steps.",
+      "check": "exact"
+    },
+    {
+      "t": 335.4,
+      "text": "what is new for version 27 is that you can edit, view and create parameters through the UI.",
+      "why_it_matters": "Indicates that parameters, previously limited to YAML editing, are now accessible through the client UI.",
+      "check": "exact"
+    },
+    {
+      "t": 382.9,
+      "text": "From version 27, you can use Business Central and create suits right from the UI.",
+      "why_it_matters": "Confirms test suites can now be composed through the UI instead of requiring manual YAML modification.",
+      "check": "exact"
+    },
+    {
+      "t": 591.4,
+      "text": "with version 27 you can right click in any repeater and then uh you have the for each row option. What this would do",
+      "why_it_matters": "Describes the new capability to iterate over list entries with a built-in for-each construct rather than recording each row separately.",
+      "check": "exact"
+    },
+    {
+      "t": 684.2,
+      "text": "With version 27, you can add an additional step which is expression is true. Meaning that you can dynamically evaluate a certain expression and",
+      "why_it_matters": "Shows conditional execution is now available, enabling scripts to behave differently based on runtime conditions.",
+      "check": "exact"
+    },
+    {
+      "t": 763.4,
+      "text": "That's why we are now adding the option to run scripts headless on the server side. This is still in preview and it is",
+      "why_it_matters": "Announces server-side headless replay as a preview feature with specific platform constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 877.6,
+      "text": "the page scripting feature is still in preview, but it is production quality and there should be no reason for you to not use",
+      "why_it_matters": "Clarifies that despite preview status, the overall feature is production-ready and recommended for use.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 763.4,
+      "kind": "preview",
+      "text": "server-side headless script replay is still in preview"
+    },
+    {
+      "t": 763.4,
+      "kind": "subject-to-change",
+      "text": "server-side replay is on premise only or in containers only"
+    },
+    {
+      "t": 877.6,
+      "kind": "preview",
+      "text": "the page scripting feature is still in preview, but it is production quality"
+    },
+    {
+      "t": 888.4,
+      "kind": "not-in-this-release",
+      "text": "creating documentation or training material including screenshots is not in our immediate backlog"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027582000000000002
+    }
+  ]
+}

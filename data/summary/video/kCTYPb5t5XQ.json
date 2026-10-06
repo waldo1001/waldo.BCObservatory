@@ -1,0 +1,27 @@
+{
+  "video_id": "kCTYPb5t5XQ",
+  "item_id": "video/yt-microsoft/kCTYPb5t5XQ",
+  "summary": "AL-Go for GitHub productivity changes in the 2025 release wave 2: ALGO environment settings variables for deployment, a 'new warning' fail-on value for pull requests, page scripting results in the build summary, workflow input validation, settings schema in IDEs, and debug logging.",
+  "overview": "The video walks through six AL-Go for GitHub improvements aimed at removing small inefficiencies in development workflows. They cover deployment configuration, pull request quality gates, test result visibility, early workflow failure, settings discovery and troubleshooting.\n\nEnvironment-specific settings can be moved out of the main settings file into per-environment variables used in deployment jobs. Pull requests can be blocked on newly introduced warnings. Page scripting test results appear in the build summary. Create release and increment version workflows validate inputs up front. Settings now have schema support in Visual Studio Code, and debug logging is kept separate from regular logs. The settings schema and debug logging were demoed.",
+  "key_points": [
+    "Settings can be placed in environment variables named ALGO_environment_settings, defined per environment, to declutter the main settings file. They are available only during deployment jobs, so not all settings belong there.",
+    "The environment variables do not support the runs-on, shell and continuous deployment properties. Define those in the main settings file or in repository/organization settings.",
+    "The existing fail-on setting accepts a new value 'new warning'. It compares warnings in the pull request build to the last good CI/CD build and blocks the pull request if new warnings appear.",
+    "The new warning check does not run on the CAC job, so CAC warnings do not block CI/CD.",
+    "Page scripting test results show in the build summary like regular and performance tests. No new setting is needed, and results appear only if page scripting tests run.",
+    "Workflow input validation fails workflows early, for example on a wrong version number format. It is currently implemented only for the create release and increment version workflows.",
+    "AL-Go settings have schema support in IDEs such as Visual Studio Code, with autocomplete, tool tips and links to documentation. Debug logging gives more detail for problem reports and is kept apart from regular logs."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "b9057bef76bfafd0dc8f296b83e2d58530a84a9dc17b25212f32a8707a2997a7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0154884
+  }
+}

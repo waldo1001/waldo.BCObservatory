@@ -1,0 +1,28 @@
+{
+  "video_id": "lcpk-gPfGQU",
+  "item_id": "video/yt-microsoft/lcpk-gPfGQU",
+  "summary": "Excise Tax Framework in Business Central 2025 release wave 2: an extensible base for excise tax calculation and registration, with an excise journal, registration transaction logs, and CBM and EPR options built on it. Specific excise tax calculations are not covered in this release.",
+  "overview": "The video introduces the Excise Tax Framework delivered in 2025 release wave 2. It is a foundation for calculating and registering excise taxes, and it can be extended to other tax types that rely on similar sources. This edition delivers the framework only, so specific excise tax calculations are not covered.\n\nIt walks through the excise journal with templates and batches, the registration transaction logs that record posted entries, and the choice of tax type (CBM, EPR or excises) that controls which journal fields appear. It also covers purchase and sales documents as calculation sources, and items as the main configuration point, with resources, item charges and fixed assets as other sources that vary by country. Additional excise options are promised for future releases.",
+  "key_points": [
+    "The release delivers a framework, not specific excise tax calculations; some calculations need custom extensions.",
+    "The Excise Journal uses journal templates and batches to collect and calculate data before registration; posting writes Excise Tax Registration Transaction Logs as an audit trail.",
+    "CBM (Carbon Border Mechanism) and EPR (Extended Producer Responsibility) calculations are built on the framework as sustainability options; they are not directly excise taxes and are covered in a separate session.",
+    "The tax type selected in the journal (CBM, EPR or excises) determines which fields are shown.",
+    "Calculations can be based on purchase or sales documents depending on the scenario.",
+    "Items are the main configuration point, with taxes tied to unit of measure or other quantity values on the item card; options vary by country.",
+    "Resources, item charges and fixed assets can also be configuration sources, but some need manual population or custom extensions. More excise options are announced for future releases, and viewers can give feedback on priorities such as plastic tax or sugar tax."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "dd51a6fdc264f7c3cd70e33908a4a68b5087eb28ac5b16d471b82386a9611bb9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0164684
+  }
+}

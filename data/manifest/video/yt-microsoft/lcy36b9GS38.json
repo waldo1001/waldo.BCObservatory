@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=lcy36b9GS38",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:40.006Z",
+      "path": "data/extract/video/lcy36b9GS38.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.017073
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:46.565Z",
+      "path": "data/summary/video/lcy36b9GS38.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.013034399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:46.566Z",
+      "systems": [
+        "sustainability",
+        "purchasing",
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:25:46.577Z",
+      "path": "content/videos/lcy36b9GS38.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in Sustainability： Value Chain with Item Charges (2025 release wave 2) [lcy36b9GS38].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "0d555b90fed0e4d833090589512f5ccb20cff9a2ec7a1baeae2e893ccd545f4b"
 }

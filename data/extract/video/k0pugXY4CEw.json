@@ -1,0 +1,313 @@
+{
+  "video_id": "k0pugXY4CEw",
+  "item_id": "video/yt-microsoft/k0pugXY4CEw",
+  "title": "What's New: IRS1099 Integration with IRIS (2025 release wave 2)",
+  "duration_s": 436,
+  "systems": [
+    "finance",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "1099 forms",
+    "irs integration",
+    "iris portal",
+    "electronic filing",
+    "a2a integration",
+    "e-file",
+    "tax compliance",
+    "vendor forms",
+    "1099 substitution",
+    "transmission history"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business value",
+      "t_start": 0,
+      "t_end": 71
+    },
+    {
+      "title": "How the integration works - electronic filing",
+      "t_start": 71,
+      "t_end": 131.9
+    },
+    {
+      "title": "1099 substitution forms and 1086 deprecation",
+      "t_start": 131.9,
+      "t_end": 184.2
+    },
+    {
+      "title": "What's new in 2025 release wave 2",
+      "t_start": 184.2,
+      "t_end": 210
+    },
+    {
+      "title": "Demo - setting up and creating 1099 forms",
+      "t_start": 210,
+      "t_end": 268.9
+    },
+    {
+      "title": "Demo - sending to IRS and tracking status",
+      "t_start": 268.9,
+      "t_end": 315.1
+    },
+    {
+      "title": "Demo - correcting 1099 forms after IRS acceptance",
+      "t_start": 315.1,
+      "t_end": 375.8
+    },
+    {
+      "title": "Closing remarks and resources",
+      "t_start": 375.8,
+      "t_end": 436
+    }
+  ],
+  "features": [
+    {
+      "name": "1099 electronic filing to IRS",
+      "description": "Direct application-to-application integration with the IRS portal allowing cloud users to submit 1099 forms electronically without printing or manual submission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 120.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only for cloud users for full A2A integration",
+        "On-premise users must create files and manually upload to IRIS portal"
+      ],
+      "tags": [
+        "1099",
+        "irs",
+        "a2a integration",
+        "electronic filing",
+        "tax"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 form documents",
+      "description": "Create and manage 1099 form documents in Business Central with automatic calculation of total payment amounts for each vendor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210,
+      "t_end": 241.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "1099",
+        "forms",
+        "vendor",
+        "payment tracking"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "IRS transmission creation and sending",
+      "description": "Combine multiple released 1099 form documents into a single transmission, automatically validate data, generate XML, and send directly to the IRS portal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.8,
+      "t_end": 289.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "irs transmission",
+        "xml",
+        "electronic submission"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 correction workflow",
+      "description": "Allow documents to be reopened and corrected after IRS acceptance, mark corrected lines, and send replacement transmissions with only the corrected amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 331.1,
+      "t_end": 375.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must use allow correction action before reopening document"
+      ],
+      "tags": [
+        "1099",
+        "corrections",
+        "amended forms"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 substitution forms",
+      "description": "Create PDF 1099 substitution forms and send them to vendors via email or print hard copies and send by mail. Email transmission can be encrypted for security.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 131.9,
+      "t_end": 161.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires vendor consent for email delivery"
+      ],
+      "tags": [
+        "1099 substitution",
+        "vendor forms",
+        "pdf",
+        "email"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1086 form deprecation",
+      "description": "The 1086 form functionality is being deprecated because 1089 electronic submission eliminates the need for 1086 forms when deploying 1089 electronically.",
+      "status": "announced",
+      "status_evidence_t": 161.4,
+      "status_evidence_quote": "And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089",
+      "status_evidence_verified": true,
+      "t_start": 161.4,
+      "t_end": 172.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "1086",
+        "deprecation",
+        "1089"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Transmission history and acknowledgement tracking",
+      "description": "View transmission history showing when transmissions were sent, their type and status. Download and review IRS acknowledgement content in XML format to see statuses and errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 289.8,
+      "t_end": 315.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transmission tracking",
+        "acknowledgement",
+        "status",
+        "history"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "IRS portal A2A integration for on-premise users",
+      "description": "On-premise users can create IRF files and manually download and upload them to the IRIS portal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 95.7,
+      "t_end": 109.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual file handling for on-premise deployments"
+      ],
+      "tags": [
+        "irs",
+        "on-premise",
+        "file upload",
+        "manual process"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "iris transmissions",
+      "t": 241.8
+    },
+    {
+      "type": "page",
+      "name": "transmission history",
+      "t": 289.8
+    },
+    {
+      "type": "page",
+      "name": "1099 form document card",
+      "t": 221.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Gladco",
+      "confidence": "medium"
+    },
+    {
+      "name": "Sasha",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.5,
+      "text": "now you can save the time with the seamless integration you just need to upload to",
+      "why_it_matters": "Highlights the core benefit of electronic submission versus manual form printing and processing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 95.7,
+      "text": "For Iris submission, if you're cloud user, you will have fully A2A integration with the Iris portal.",
+      "why_it_matters": "Clarifies the different integration paths available for cloud versus on-premise users.",
+      "check": "exact"
+    },
+    {
+      "t": 161.4,
+      "text": "And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089",
+      "why_it_matters": "Announces the deprecation of 1086 forms due to electronic 1089 deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 184.2,
+      "text": "So now we have this E file direct to Oris and it is officially available from two uh 2000 release wave 2 but even",
+      "why_it_matters": "Confirms the general availability and version numbers for the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 268.9,
+      "text": "Business central will check if all the necessary data is filled in correctly, create the XML and send it to the IRS.",
+      "why_it_matters": "Describes the automated validation and transmission process to IRS.",
+      "check": "exact"
+    },
+    {
+      "t": 343.2,
+      "text": "But you cannot just do it. You firstly need to allow the document to be corrected. Select the allow correction action and reopen the",
+      "why_it_matters": "Specifies the required workflow step for correcting 1099 forms after IRS acceptance.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 161.4,
+      "kind": "coming-later",
+      "text": "the future for 1086 form, we will deprecate this functionality"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023289
+    }
+  ]
+}

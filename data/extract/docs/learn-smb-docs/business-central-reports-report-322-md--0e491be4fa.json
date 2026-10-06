@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-322.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-322",
+  "title": "Aged Accounts Payable (report)",
+  "blob": "e1bfd8b697148d3326af23160bee75f293343320",
+  "summary": "Aged Accounts Payable report shows outstanding invoice and payment amounts for vendors, calculates aging periods, and identifies the company's financial health for monitoring vendor payments and reconciling subledgers.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "aged payables",
+    "vendor payments",
+    "financial reporting",
+    "accounts payable",
+    "vendor performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Aged Accounts Payable"
+    }
+  ],
+  "features": [
+    "aging periods",
+    "vendor balance calculation",
+    "outstanding document breakdown",
+    "percentage calculations",
+    "vendor performance monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004707,
+      "pages_in_call": 8
+    }
+  ]
+}

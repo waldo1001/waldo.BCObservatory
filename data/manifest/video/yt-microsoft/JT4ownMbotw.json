@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=JT4ownMbotw",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:16.034Z",
+      "path": "data/extract/video/JT4ownMbotw.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 5,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020548
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:22.478Z",
+      "path": "data/summary/video/JT4ownMbotw.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0144304
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:22.480Z",
+      "systems": [
+        "manufacturing",
+        "reporting"
+      ],
+      "topics": 8,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:25:22.490Z",
+      "path": "content/videos/JT4ownMbotw.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Manufacturing Analytics (2025 release wave 2) [JT4ownMbotw].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "42d0b78ceaa1ec19cad65241adc2a6e3a398d554dc5f1a038e25a48a2746f421"
 }

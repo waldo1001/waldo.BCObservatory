@@ -1,0 +1,202 @@
+{
+  "video_id": "lcy36b9GS38",
+  "item_id": "video/yt-microsoft/lcy36b9GS38",
+  "title": "What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)",
+  "duration_s": 385,
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "item charges",
+    "scope three emissions",
+    "carbon footprint",
+    "value chain automation",
+    "sustainability ledger",
+    "purchase invoices",
+    "emission tracking",
+    "transport costs"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to sustainability and value chain automation",
+      "t_start": 0,
+      "t_end": 29.1
+    },
+    {
+      "title": "Evolution of sustainability features from two years ago",
+      "t_start": 29.1,
+      "t_end": 57
+    },
+    {
+      "title": "Value chain automation and item charges for scope three emissions",
+      "t_start": 57,
+      "t_end": 112.6
+    },
+    {
+      "title": "How item charges work with carbon footprint tracking",
+      "t_start": 112.6,
+      "t_end": 157.8
+    },
+    {
+      "title": "Assignment models and setup requirements",
+      "t_start": 157.8,
+      "t_end": 198
+    },
+    {
+      "title": "Creating a purchase invoice with item charges",
+      "t_start": 198,
+      "t_end": 287.4
+    },
+    {
+      "title": "Item charge assignment suggestions and methods",
+      "t_start": 287.4,
+      "t_end": 334
+    },
+    {
+      "title": "Closing remarks and resource links",
+      "t_start": 334,
+      "t_end": 385
+    }
+  ],
+  "features": [
+    {
+      "name": "Item charges for sustainability tracking",
+      "description": "Enable item charge assignment in purchase invoices to track emissions from transport and other upstream activities as part of scope three carbon footprint tracking. Item charges can be assigned by amount, weight, volume, or equally distributed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.1,
+      "t_end": 198,
+      "is_demoed": true,
+      "caveats": [
+        "Only works as carbon footprint (CO2 equivalent)",
+        "Other gas emissions are automatically calculated to carbon equivalent",
+        "Requires enabling item charge and item tracking in emissions in sustainability setup"
+      ],
+      "tags": [
+        "item charges",
+        "scope three",
+        "carbon footprint",
+        "purchase invoices"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Value chain automation for scope three",
+      "description": "Extends scope three carbon footprint tracking across multiple processes including purchase invoices, transfer orders, assembly orders, production orders, and projects. Enables end-to-end emission tracking with flexible attribution models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57,
+      "t_end": 140.4,
+      "is_demoed": false,
+      "caveats": [
+        "Previously could not assign transport costs with item charges"
+      ],
+      "tags": [
+        "scope three",
+        "value chain",
+        "emission tracking",
+        "processes"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability ledger and value entries",
+      "description": "Foundation feature that produces sustainability ledger entries from sustainability journal, general journal, and purchase invoices. Used for emission reporting across all three scopes and for impact tracking for compliance reasons.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29.1,
+      "t_end": 57,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sustainability ledger",
+        "emission reporting",
+        "compliance"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Charge",
+      "t": 220.7
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice",
+      "t": 241.8
+    },
+    {
+      "type": "page",
+      "name": "Item Charge Assignment",
+      "t": 287.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toto",
+      "confidence": "high"
+    },
+    {
+      "name": "Jacob Bang",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 92.2,
+      "text": "So now in this release, we enable item charge as well.",
+      "why_it_matters": "Marks the release status of item charge support for sustainability tracking in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 112.6,
+      "text": "So we can cover all processes providing this definitely flexible emission attribution.",
+      "why_it_matters": "Highlights the business value of comprehensive scope three tracking with flexible assignment options.",
+      "check": "exact"
+    },
+    {
+      "t": 140.4,
+      "text": "I already mentioned it works only as a carbon footprint. So that means with a carbon 2 equivalent carbon dioxide equivalent only.",
+      "why_it_matters": "Establishes the scope limitation that item charges work only for CO2 equivalent calculations, not other emissions.",
+      "check": "exact"
+    },
+    {
+      "t": 184,
+      "text": "So you can use equally by amount by weight or volume all types are covered absolutely the same.",
+      "why_it_matters": "Describes the three assignment methods available for distributing item charges and their emissions equivalently.",
+      "check": "exact"
+    },
+    {
+      "t": 198,
+      "text": "You just need to enable in a sustainability setup or procurement tab. You need to enable uh item charge and you need to enable",
+      "why_it_matters": "Specifies the setup steps required to use item charges for sustainability tracking.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017072999999999998
+    }
+  ]
+}

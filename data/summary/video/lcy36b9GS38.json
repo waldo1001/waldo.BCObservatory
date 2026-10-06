@@ -1,0 +1,27 @@
+{
+  "video_id": "lcy36b9GS38",
+  "item_id": "video/yt-microsoft/lcy36b9GS38",
+  "summary": "Item charges in Business Central sustainability for scope three emissions: how item charges on purchase invoices carry transport and other upstream emissions into carbon footprint tracking. Covers setup, CO2-equivalent-only limit, and assignment by amount, weight, volume or equally. Demoed in the 2025 release wave 2 video.",
+  "overview": "The video covers the sustainability value chain work in 2025 release wave 2. It starts with how the sustainability features have developed over the past two years, then explains that scope three tracking now extends to item charges. Before this release, transport costs could not be assigned with item charges.\n\nThe demo creates a purchase invoice with item charges and shows the Item Charge Assignment page and the suggestion methods. Emissions can be assigned by amount, weight, volume, or distributed equally. The presenter also states the setup needed and that item charge emissions work only as carbon footprint (CO2 equivalent).",
+  "key_points": [
+    "Item charges can now be used on purchase invoices to track emissions from transport and other upstream activities as part of scope three.",
+    "Setup: in the sustainability setup, on the procurement tab, enable item charge and item tracking in emissions.",
+    "Item charge emissions work only as carbon footprint (CO2 equivalent); other gas emissions are automatically calculated to carbon equivalent.",
+    "Item charge assignment can be suggested equally, by amount, by weight, or by volume, and all types behave the same way.",
+    "Value chain automation for scope three is described as covering purchase invoices, transfer orders, assembly orders, production orders and projects.",
+    "Sustainability ledger entries come from the sustainability journal, general journal and purchase invoices, and support reporting across all three scopes.",
+    "Objects shown: Item Charge, Purchase Invoice and Item Charge Assignment pages."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "081976588c645087fcd93fa84e5d1d06b523b9f16a5450dee9ec92856ede205f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013034399999999998
+  }
+}

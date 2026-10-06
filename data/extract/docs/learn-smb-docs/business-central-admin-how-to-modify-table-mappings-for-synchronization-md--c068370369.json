@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-how-to-modify-table-mappings-for-synchronization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization",
+  "title": "Mapping the tables and fields to synchronize",
+  "blob": "4215864d2716f62b9df6e0501e64adfb442b3f34",
+  "summary": "Mapping tables and fields to synchronize between Business Central and Dataverse using integration tables, field mappings, transformation rules, coupling, and filtering for data exchange and conflict resolution.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dataverse",
+    "synchronization",
+    "data mapping",
+    "table mappings",
+    "field mappings",
+    "data exchange"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "table",
+      "name": "Integration Field Mapping"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 5341"
+    }
+  ],
+  "features": [
+    "integration table mappings",
+    "field mappings",
+    "transformation rules",
+    "record coupling",
+    "automatic synchronization",
+    "conflict resolution",
+    "data filtering",
+    "configuration templates"
+  ],
+  "versions": [
+    "2025 release wave 2",
+    "2026 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004707,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-cds-missing-option-values.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-cds-missing-option-values",
+  "title": "Handling missing option values",
+  "blob": "702dcb093c532e84ff323fc92883a645c0baeff8",
+  "summary": "Handling missing option values in Dataverse synchronization by extending enums in Business Central to match Dataverse option sets and updating mappings for Payment Terms, Shipment Method, and Shipping Agent fields.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "dataverse",
+    "option mapping",
+    "enums",
+    "synchronization",
+    "data transformation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "CRM Account"
+    },
+    {
+      "type": "enum",
+      "name": "CDS Shipment Method Code"
+    },
+    {
+      "type": "enum",
+      "name": "CDS Shipping Agent Code"
+    },
+    {
+      "type": "enum",
+      "name": "CDS Payment Terms Code"
+    }
+  ],
+  "features": [
+    "enum extensions",
+    "option mapping",
+    "dataverse option sets",
+    "payment terms mapping",
+    "shipment method mapping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004707,
+      "pages_in_call": 8
+    }
+  ]
+}

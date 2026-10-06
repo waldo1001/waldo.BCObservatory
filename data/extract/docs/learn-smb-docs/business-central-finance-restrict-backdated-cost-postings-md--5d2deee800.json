@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-restrict-backdated-cost-postings.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-restrict-backdated-cost-postings",
+  "title": "Restrict backdated cost postings",
+  "blob": "d9c65047e1f0731f8859b9281a75bd5e6b6fabd6",
+  "summary": "Restrict backdated cost postings using the Earliest Allowed Valuation Date field to prevent writing costs into closed periods while allowing current invoicing and cost adjustment of existing entries.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "cost adjustment",
+    "inventory valuation",
+    "period closing",
+    "cost posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "earliest allowed valuation date",
+    "cost adjustment",
+    "inventory periods",
+    "backdated posting prevention",
+    "period closing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004707,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-workflow-users",
   "published_at": "2026-06-01T11:46:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6eff96805784292c094ae293559376adeea5977",
       "words": 481,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:55.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004707
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:57.872Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:57.873Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:57.874Z",
+      "page": false
     }
   },
   "input_hash": "d6eff96805784292c094ae293559376adeea5977",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6eff96805784292c094ae293559376adeea5977"
+  "output_hash": "ec79ac195e600af336db8fbad8190c2882561f316eb54ffeb788c0a2fb9d92e4"
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KnyS6ZKI_2c",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:27.015Z",
+      "path": "data/extract/video/KnyS6ZKI_2c.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.027582
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:33.614Z",
+      "path": "data/summary/video/KnyS6ZKI_2c.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0153124
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:33.615Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T18:25:33.627Z",
+      "path": "content/videos/KnyS6ZKI_2c.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Page Scripting Enhancements (2025 release wave 2) [KnyS6ZKI_2c].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "9b016d2aaa1fb977eb712304193ee7ad63370ddd5401df4b9083d074d099ffef"
 }

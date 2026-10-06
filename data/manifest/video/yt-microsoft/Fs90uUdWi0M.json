@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Fs90uUdWi0M",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:10.789Z",
+      "path": "data/extract/video/Fs90uUdWi0M.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 13,
+      "quotes": 11,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.071572
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:18.944Z",
+      "path": "data/summary/video/Fs90uUdWi0M.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0198524
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:18.946Z",
+      "systems": [
+        "reporting",
+        "finance"
+      ],
+      "topics": 12,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T18:25:18.959Z",
+      "path": "content/videos/Fs90uUdWi0M.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Financial Analytics (2025 release wave 2) [Fs90uUdWi0M].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "535d459830180835daf2dc611bf899d121f18edf857214368e1ead23d6aec613"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods",
   "published_at": "2026-05-27T12:43:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a05b8c125ffaecbc931c9120c574d8802294619a",
       "words": 798,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:57.859Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004707
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:57.881Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:57.882Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:57.884Z",
+      "page": false
     }
   },
   "input_hash": "a05b8c125ffaecbc931c9120c574d8802294619a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a05b8c125ffaecbc931c9120c574d8802294619a"
+  "output_hash": "d53ffd845cc9914794bdf7b9c44fd68ddb09314b2eefcc66f42402c6548ea2f3"
 }
