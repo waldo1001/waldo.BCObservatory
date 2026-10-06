@@ -1,0 +1,27 @@
+{
+  "video_id": "jdevJbGgB-k",
+  "item_id": "video/yt-microsoft/jdevJbGgB-k",
+  "summary": "Developing AI features in Business Central: how Microsoft's team designs LLM features, covering prompt techniques (few-shot, Chain of Thought, function calling, meta-prompting), the Copilot chat service architecture, hallucination and jailbreak prevention, and the AI toolkit for partners.",
+  "overview": "Episode 1 of the Under the Hood series, published 2024-02-13, explains how the Business Central team builds AI features. It mentions marketing text generation and bank reconciliation matching as shipped features, and describes a chat Copilot that focuses on guidance and navigation and is still improving in quality.\n\nThe talk then covers practical prompt engineering: few-shot learning, Chain of Thought, function calling, feeding the LLM current data to limit hallucinations, and meta-prompting against jailbreaks. It also describes the Copilot service architecture with a chat pane, orchestrator and plugin service, the difficulty of testing fuzzy inputs and outputs, and Azure OpenAI Studio as a tool for building prompts.",
+  "key_points": [
+    "Marketing text generation (generally available) creates item marketing text from keywords; bank reconciliation already uses LLMs to match bank records.",
+    "Few-shot learning shows the LLM examples of input and expected output, and makes it easy to specify formats such as JSON or XML.",
+    "Chain of Thought tells the LLM to reason step by step; it outputs intermediate steps and takes longer to respond.",
+    "Function calling gives the LLM function definitions and parameters; the LLM does not execute code, it only says what to call and with which parameters.",
+    "To limit hallucinations, always feed the LLM current data and instruct it in the prompt to answer only from the provided data.",
+    "Chat architecture: a chat pane in the client talks to a cloud Copilot service with an orchestrator for multi-turn history and context and a plugin service for skills.",
+    "Meta-prompting and Azure OpenAI content filters reduce jailbreaking, but new jailbreak techniques keep appearing; the user must stay in the loop."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "a0b59b31065539ec43ff669f64c4354785c30c16ac05dd1dd171762165e7f915",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0213384
+  }
+}

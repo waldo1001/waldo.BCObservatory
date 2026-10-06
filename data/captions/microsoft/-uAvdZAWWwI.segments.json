@@ -1,0 +1,143 @@
+{
+  "video_id": "-uAvdZAWWwI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.5,
+      "end": 17.5,
+      "text": "Welcome to this video about the environment transfers feature. Transferring environments between different Entra tenants can now be done through the tenant admin center. Customers can use this feature when they're consolidating multiple tenants into one."
+    },
+    {
+      "t": 17.5,
+      "end": 32.9,
+      "text": "For example, when organizations are merging with one another or acquiring each other. Additionally, partners can use this feature if they prepare demo environments in their own tenant, which they can then transfer to prospective customers for evaluation or testing."
+    },
+    {
+      "t": 32.9,
+      "end": 48.6,
+      "text": "Let's go straight to the demo. To transfer an environment, we open the tenant admin center of the source Entra tenant, and click on the new action button at the top of the screen called environment transfers."
+    },
+    {
+      "t": 48.6,
+      "end": 60.3,
+      "text": "We then select the option transfer environments, and from this flyout we can select one or more environments that we wish to transfer to the same Microsoft Entra tenant."
+    },
+    {
+      "t": 60.3,
+      "end": 70.2,
+      "text": "Then we must specify the the Microsoft tenant ID of the destination tenant to which we want to transfer this environments."
+    },
+    {
+      "t": 70.2,
+      "end": 76.5,
+      "text": "We have the option to select when we want the transfer to execute."
+    },
+    {
+      "t": 76.5,
+      "end": 86.9,
+      "text": "The transfer can run at most 2 weeks into the future. Let's select, for example, to run in 1 week from now"
+    },
+    {
+      "t": 87.9,
+      "end": 92.3,
+      "text": "at 3:00 p.m."
+    },
+    {
+      "t": 96.6,
+      "end": 103.6,
+      "text": "Once we have the parameters selected, then we click on transfer."
+    },
+    {
+      "t": 108.1,
+      "end": 122.5,
+      "text": "If we click again on the environment transfer action, we should see the pending outgoing transfers from the flyout. The source tenant also has the option to cancel pending outgoing transfers by clicking on the checkbox"
+    },
+    {
+      "t": 122.5,
+      "end": 136.2,
+      "text": "and selecting the cancel transfers button. It is also possible to verify that the transfer has been requested by going to the environment operations page of the source tenant admin center."
+    },
+    {
+      "t": 136.2,
+      "end": 152.3,
+      "text": "Here we see a list of environment operations and we can see a transfer request in queue status. Here we can see all the operation details such as the destination tenant ID who is to receive the environment"
+    },
+    {
+      "t": 152.3,
+      "end": 163.1,
+      "text": "and when the environment is expected to run. The second step for transferring an environment is to accept the transfer request from the destination tenant."
+    },
+    {
+      "t": 163.1,
+      "end": 174.6,
+      "text": "For this we open the tenant admin center from the destination tenant who is to receive the environments. To receive the environments we click again on the action called"
+    },
+    {
+      "t": 174.6,
+      "end": 184.7,
+      "text": "environment transfers. And we select the option receive environments. Then we must specify"
+    },
+    {
+      "t": 184.7,
+      "end": 193.2,
+      "text": "the source Microsoft Azure tenant ID from which we are expecting the environments to come."
+    },
+    {
+      "t": 194,
+      "end": 198.5,
+      "text": "Then we click next."
+    },
+    {
+      "t": 199.7,
+      "end": 205.5,
+      "text": "And we should see a list of pending incoming transfers."
+    },
+    {
+      "t": 207,
+      "end": 217.5,
+      "text": "All the incoming transfers are selected by default but can be selected at your discretion. Select the environment transfers that you want to receive"
+    },
+    {
+      "t": 217.5,
+      "end": 221.5,
+      "text": "and click on confirm."
+    },
+    {
+      "t": 221.5,
+      "end": 232,
+      "text": "If you want to verify that you have accepted the environment transfer you click again on the environment transfers action select receive environments"
+    },
+    {
+      "t": 232,
+      "end": 237.5,
+      "text": "once again specify the source and your tenant ID."
+    },
+    {
+      "t": 237.5,
+      "end": 248.4,
+      "text": "And then you can see the list of accepted incoming transfers and the time at which they are expected to execute. Here are some things that are good to know."
+    },
+    {
+      "t": 248.4,
+      "end": 262.4,
+      "text": "Environment transfers can only be requested and accepted by internal administrators. Once a transfer has been started from the source tenant, the request has to be accepted by the destination tenant within 8 hours."
+    },
+    {
+      "t": 262.4,
+      "end": 278.2,
+      "text": "The source tenant can schedule a transfer up to 14 days in the future. Additionally, the destination tenant must have a paid Business Central license and should ensure to have available environment quota."
+    },
+    {
+      "t": 278.2,
+      "end": 289.2,
+      "text": "Finally, the transfer operation is auditable in both tenants and in environment telemetry. If you want to learn more, make sure to visit our Business Central resources,"
+    },
+    {
+      "t": 289.2,
+      "end": 297.4,
+      "text": "including our documentation, Yammer, and more. Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 607
+}

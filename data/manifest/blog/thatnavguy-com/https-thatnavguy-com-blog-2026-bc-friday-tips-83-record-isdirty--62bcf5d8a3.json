@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/",
   "published_at": "2026-10-02T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:19:59.819Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md",
+      "words": 124
+    },
+    "extracted": {
+      "at": "2026-10-06T21:20:11.982Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004236
+    },
+    "summarized": {
+      "at": "2026-10-06T21:20:11.983Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:20:11.984Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:20:11.988Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "568bfc328fbed73aaafeb3d4cb84e5fc7a63f93eddaedf209e7e2f69662b7a02"
 }

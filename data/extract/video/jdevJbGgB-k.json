@@ -1,0 +1,533 @@
+{
+  "video_id": "jdevJbGgB-k",
+  "item_id": "video/yt-microsoft/jdevJbGgB-k",
+  "title": "Business Central Under the Hood episode 1: Developing AI in Business Central",
+  "duration_s": 1565,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai development",
+    "llm integration",
+    "prompt engineering",
+    "few-shot learning",
+    "chain of thought",
+    "marketing text generation",
+    "bank reconciliation",
+    "immersive features",
+    "chat copilot",
+    "testing and validation",
+    "function calling",
+    "hallucinations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the Under the Hood series",
+      "t_start": 0,
+      "t_end": 91.8
+    },
+    {
+      "title": "From web technology to AI: Michael's journey",
+      "t_start": 91.8,
+      "t_end": 193.2
+    },
+    {
+      "title": "AI features in Business Central: marketing text and chat",
+      "t_start": 193.2,
+      "t_end": 287.6
+    },
+    {
+      "title": "Immersive features and developer toolkit",
+      "t_start": 287.6,
+      "t_end": 368.8
+    },
+    {
+      "title": "Prompting and LLM architecture basics",
+      "t_start": 368.8,
+      "t_end": 490.4
+    },
+    {
+      "title": "Testing and prompt engineering challenges",
+      "t_start": 490.4,
+      "t_end": 591.4
+    },
+    {
+      "title": "Testing fuzzy inputs and outputs with LLMs",
+      "t_start": 591.4,
+      "t_end": 714
+    },
+    {
+      "title": "Few-shot learning technique",
+      "t_start": 714,
+      "t_end": 815.5
+    },
+    {
+      "title": "Chain of Thought reasoning and prompt engineering",
+      "t_start": 815.5,
+      "t_end": 976.7
+    },
+    {
+      "title": "Copilot service architecture and chat orchestration",
+      "t_start": 976.7,
+      "t_end": 1057.6
+    },
+    {
+      "title": "Function calling and hallucination prevention",
+      "t_start": 1057.6,
+      "t_end": 1259.2
+    },
+    {
+      "title": "Jailbreaking prevention, meta-prompting, and AI toolkit",
+      "t_start": 1259.2,
+      "t_end": 1502.6
+    },
+    {
+      "title": "Azure OpenAI Studio and prompt development tools",
+      "t_start": 1502.6,
+      "t_end": 1565
+    }
+  ],
+  "features": [
+    {
+      "name": "Marketing text generation",
+      "description": "AI feature that generates marketing text based on keywords for items in Business Central.",
+      "status": "ga",
+      "status_evidence_t": 213.4,
+      "status_evidence_quote": "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords for for",
+      "status_evidence_verified": true,
+      "t_start": 213.4,
+      "t_end": 233.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "marketing",
+        "item",
+        "ai-generated text"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat Copilot for Business Central",
+      "description": "A chat interface inside Business Central that helps guide users, provides help on navigating the product, and allows asking questions about data and records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 233.6,
+      "t_end": 287.6,
+      "is_demoed": false,
+      "caveats": [
+        "still learning and improving quality",
+        "focusing on guidance and navigation"
+      ],
+      "tags": [
+        "chat",
+        "copilot",
+        "navigation",
+        "data queries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bank reconciliation with LLM",
+      "description": "AI feature that uses large language models to match bank records in the bank reconciliation process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.6,
+      "t_end": 307.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bank reconciliation",
+        "matching",
+        "immersive feature"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "AI developer toolkit",
+      "description": "A toolkit for developers to create customizations in Business Central using large language models and leveraging OpenAI power.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 327.9,
+      "t_end": 348.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "toolkit",
+        "developer",
+        "openai",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Few-shot learning prompting technique",
+      "description": "A prompt engineering technique where the LLM is shown examples of input and expected output so it learns what is wanted without detailed explanations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 714,
+      "t_end": 815.5,
+      "is_demoed": true,
+      "caveats": [
+        "easily specify formatting like JSON or XML"
+      ],
+      "tags": [
+        "prompt engineering",
+        "few-shot learning",
+        "examples"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Chain of Thought prompting",
+      "description": "A prompt engineering technique where the LLM breaks down problems into smaller steps, similar to how humans think, by instructing it to reason step by step.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 815.5,
+      "t_end": 895.7,
+      "is_demoed": true,
+      "caveats": [
+        "takes longer to respond",
+        "outputs intermediate steps"
+      ],
+      "tags": [
+        "prompt engineering",
+        "chain of thought",
+        "reasoning",
+        "technique"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot service architecture",
+      "description": "A cloud-based service that runs in Business Central clusters with a chat pane in the client communicating back to the service. It includes an orchestrator component to manage multi-turn conversations and a plugin service for skill management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 915.9,
+      "t_end": 1017.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "cloud",
+        "service",
+        "orchestration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Chat orchestration",
+      "description": "A component that manages multi-turn conversations, keeps track of chat history, extracts context, and determines which skills or plugins the LLM needs to use to get additional information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 956.5,
+      "t_end": 1017.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "orchestration",
+        "multi-turn",
+        "conversation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Function calling",
+      "description": "A prompting technique where the LLM is given function definitions and parameters, and tells the user which functions to call with what parameters to answer a question. The LLM does not execute code but guides the user on what needs to be done.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1017.2,
+      "t_end": 1158.6,
+      "is_demoed": true,
+      "caveats": [
+        "LLM does not execute code, only provides guidance on what to call"
+      ],
+      "tags": [
+        "function-calling",
+        "prompting",
+        "interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Hallucination prevention through data feeding",
+      "description": "A technique to prevent LLM hallucinations by always feeding the LLM with up-to-date information and instructing it in the prompt to only use provided data to answer questions, preventing it from making up information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1158.6,
+      "t_end": 1259.2,
+      "is_demoed": false,
+      "caveats": [
+        "LLMs are eager to provide answers even without correct information"
+      ],
+      "tags": [
+        "hallucination",
+        "data-feeding",
+        "safety"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Content moderation and jailbreaking prevention",
+      "description": "Built-in content moderation systems and filtering that remove harmful content and prevent jailbreaking attempts. Techniques include content filters from Azure OpenAI services and meta-prompting with instruction sets about what not to do.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.5,
+      "t_end": 1380.4,
+      "is_demoed": false,
+      "caveats": [
+        "New jailbreak techniques come up all the time",
+        "Some filters have become permanent and cannot be turned off"
+      ],
+      "tags": [
+        "security",
+        "jailbreaking",
+        "moderation",
+        "meta-prompting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Meta-prompting technique",
+      "description": "A set of instructions at different places in the prompt that specifies what the LLM really should not do, such as harmful content or violence. Has proven hard to jailbreak but remains subject to new jailbreak techniques.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1340.1,
+      "t_end": 1380.4,
+      "is_demoed": false,
+      "caveats": [
+        "New jailbreak techniques emerge over time"
+      ],
+      "tags": [
+        "meta-prompting",
+        "security",
+        "instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI toolkit for partners and developers",
+      "description": "A toolkit being released for partners and developers to get started with LLMs and AI. Includes API components in AL and UI elements that ship with the product, helping provide consistent experience similar to native features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1380.4,
+      "t_end": 1482,
+      "is_demoed": false,
+      "caveats": [
+        "User must be kept in the loop, cannot let it run by itself"
+      ],
+      "tags": [
+        "toolkit",
+        "partners",
+        "ui-elements",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure OpenAI Studio",
+      "description": "A useful tool on Azure for constructing and testing prompts with immediate turnaround, allowing developers to refine prompts and experiment with different techniques without writing extensive code around it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1482,
+      "t_end": 1522.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "azure",
+        "openai",
+        "prompt-development",
+        "testing"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "bank reconciliation",
+      "t": 287.6
+    },
+    {
+      "type": "other",
+      "name": "Chat pane",
+      "t": 956.5
+    },
+    {
+      "type": "other",
+      "name": "Orchestrator",
+      "t": 976.7
+    },
+    {
+      "type": "other",
+      "name": "Plugin service",
+      "t": 997.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent Nicholas",
+      "confidence": "high"
+    },
+    {
+      "name": "Michael",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 10.4,
+      "text": "we are going to tell you how we develop these features how we design them how we architect them",
+      "why_it_matters": "This explains the core purpose of the video series - to discuss development practices and architecture rather than feature demonstrations.",
+      "check": "exact"
+    },
+    {
+      "t": 213.4,
+      "text": "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords",
+      "why_it_matters": "Confirms that marketing text generation is already released and generally available in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 233.6,
+      "text": "we are starting slowly we're also learning a lot by building these features turns out this is this is probably harder than we thought",
+      "why_it_matters": "Demonstrates that the Chat Copilot feature is still in early stages and the team is still learning how to achieve good quality.",
+      "check": "exact"
+    },
+    {
+      "t": 287.6,
+      "text": "we have already shipped uh bank reconciliation right try to match use llms to match bank records behind the product",
+      "why_it_matters": "Shows that LLM-based bank reconciliation matching is already shipped and available in production.",
+      "check": "exact"
+    },
+    {
+      "t": 490.4,
+      "text": "prompting is not an exact science right because it's no one let's put it that way no one can really predict exactly what the",
+      "why_it_matters": "Highlights a fundamental difference between LLM-based development and traditional software engineering - unpredictability in outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 591.4,
+      "text": "the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these",
+      "why_it_matters": "Explains why testing LLM features requires different approaches than traditional testing due to fuzzy inputs and outputs.",
+      "check": "exact"
+    },
+    {
+      "t": 734.4,
+      "text": "one of them and kind of a very successful technique is what kind of called few shot learning right and this basically that in",
+      "why_it_matters": "Describes a key prompt engineering technique used to guide LLM behavior without detailed explicit instructions.",
+      "check": "exact"
+    },
+    {
+      "t": 815.5,
+      "text": "CH for is really just like what humans does right you kind of break break down the problem you you solve small sub parts",
+      "why_it_matters": "Explains the fundamental concept of Chain of Thought reasoning as a technique that mirrors human problem-solving by breaking problems into smaller parts.",
+      "check": "snapped"
+    },
+    {
+      "t": 855.6,
+      "text": "let's think about it step by step it's really breaking down the you write that in the prompt you simply just put that in",
+      "why_it_matters": "Shows how Chain of Thought technique is implemented - by simply adding a phrase to the prompt to enable step-by-step reasoning.",
+      "check": "exact"
+    },
+    {
+      "t": 976.7,
+      "text": "a chat is like it's it's a multi-turn of or turn of questions and answers right and the user may clarify or change subject",
+      "why_it_matters": "Defines the complexity of chat orchestration, which must handle dynamic user interactions and context changes across multiple turns.",
+      "check": "exact"
+    },
+    {
+      "t": 1118.5,
+      "text": "but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a",
+      "why_it_matters": "Clarifies that function calling provides interface descriptions rather than actual executable code, guiding the system on what to invoke.",
+      "check": "exact"
+    },
+    {
+      "t": 1178.7,
+      "text": "Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to",
+      "why_it_matters": "Defines hallucination as resulting from insufficient data combined with the LLM's eagerness to provide answers, establishing the root cause of the problem.",
+      "check": "exact"
+    },
+    {
+      "t": 1259.2,
+      "text": "jailbreak the prompt in getting it to do something else then you know the developer or whoever made this prompt was intended it to",
+      "why_it_matters": "Defines jailbreaking as attempts to circumvent developer intentions and constrain prompts to perform unintended actions.",
+      "check": "exact"
+    },
+    {
+      "t": 1420.8,
+      "text": "maybe you should not start with the absolutely mind-blowing stuff unless that mind-blowing stuff is really simple I think it's good to develop a",
+      "why_it_matters": "Provides practical guidance for developers starting with AI, recommending simpler features like text generation before complex applications.",
+      "check": "exact"
+    },
+    {
+      "t": 1502.6,
+      "text": "on Azure there's also the Azure um open a studio yeah right which is also a it's very useful tool to kind of construct",
+      "why_it_matters": "Identifies Azure OpenAI Studio as a tool for rapid prompt development and testing without extensive coding, supporting developer productivity.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 173.1,
+      "kind": "not-in-this-release",
+      "text": "we don't talk about it yet we don't really talk about it yet right but but I I hope we will be able to productize this somewhat soon"
+    },
+    {
+      "t": 1400.8,
+      "kind": "other",
+      "text": "we are releasing this tool kit uh for partners and developers - describes toolkit being released for external use"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 13
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026031
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029491000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02827
+    }
+  ]
+}

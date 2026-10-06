@@ -1,0 +1,161 @@
+{
+  "video_id": "2nXR8XUpx1Y",
+  "item_id": "video/yt-microsoft/2nXR8XUpx1Y",
+  "title": "BCTalent Stories: Carcyn & Olivia from Clients First",
+  "duration_s": 114,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "career development",
+    "talent program",
+    "onboarding",
+    "work-life balance",
+    "erp implementation",
+    "supply chain",
+    "training",
+    "consulting"
+  ],
+  "chapters": [
+    {
+      "title": "Motivation to join as Business Central consultant",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "Work environment and talent program benefits",
+      "t_start": 20.2,
+      "t_end": 40.6
+    },
+    {
+      "title": "Personal interests and hobbies",
+      "t_start": 40.6,
+      "t_end": 60.8
+    },
+    {
+      "title": "Training approach and career path",
+      "t_start": 60.8,
+      "t_end": 80.9
+    },
+    {
+      "title": "Onboarding experience and work-life balance",
+      "t_start": 80.9,
+      "t_end": 114
+    }
+  ],
+  "features": [
+    {
+      "name": "Talent program",
+      "description": "A program that provides individuals and content at fingertips for self-learning and collaborative learning opportunities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.2,
+      "t_end": 32,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent development",
+        "learning",
+        "professional growth"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Training modules",
+      "description": "Self-paced training modules that allow consultants to learn gradually without being thrown into projects too early.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.8,
+      "t_end": 78,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "self-paced learning",
+        "onboarding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Clients First onboarding",
+      "description": "Onboarding process at Clients First organization that allows new hires to learn at their own pace with customized learning approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.9,
+      "t_end": 100,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "career development",
+        "work experience"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Carcyn",
+      "confidence": "low"
+    },
+    {
+      "name": "Olivia",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "I got firsthand experience as an end user with Erp implementations and really just fell in love with the process",
+      "why_it_matters": "Explains the motivation for becoming a Business Central consultant - prior hands-on experience with ERP systems.",
+      "check": "exact"
+    },
+    {
+      "t": 20.2,
+      "text": "I appreciate the talent program I'm in I always have individuals as well as content at my fingertips to be able to dive in",
+      "why_it_matters": "Demonstrates the value of the talent program in providing learning resources and support.",
+      "check": "exact"
+    },
+    {
+      "t": 60.8,
+      "text": "I really have enjoyed being able to go through the the training modules in my own time and not being thrown into projects too",
+      "why_it_matters": "Highlights the self-paced training approach that allows gradual learning before field assignments.",
+      "check": "exact"
+    },
+    {
+      "t": 80.9,
+      "text": "onboarding with clients first was really a Breeze I really got to take everything at my own pace",
+      "why_it_matters": "Indicates the effectiveness of Clients First's onboarding process in accommodating individual learning preferences.",
+      "check": "exact"
+    },
+    {
+      "t": 80.9,
+      "text": "I would strongly suggest taking a look at a career change to a business Central consultant because my work life balance has improved",
+      "why_it_matters": "Provides a compelling endorsement of the Business Central consultant career path and its work-life balance benefits.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

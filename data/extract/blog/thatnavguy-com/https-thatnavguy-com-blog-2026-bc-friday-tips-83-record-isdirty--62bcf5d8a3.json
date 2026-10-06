@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/",
+  "title": "BC Friday Tips #83 Check Whether a Record Has Changed",
+  "source": "thatnavguy-com",
+  "published_at": "2026-10-02T00:00:00.000Z",
+  "words": 124,
+  "summary": "The Record.IsDirty() method detects whether a record has been modified without requiring manual tracking. This pattern simplifies code when applying multiple field updates to a record.",
+  "key_points": [
+    "Record.IsDirty() automatically tracks changes to any field on a record",
+    "Eliminates the need to maintain a separate IsModified Boolean variable",
+    "Available from runtime 18 (BC 29); use RecordRef.IsDirty() for earlier versions",
+    "Reduces code complexity when validating and modifying multiple fields"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "record operations",
+    "code optimization",
+    "best practices"
+  ],
+  "objects": [],
+  "features": [
+    "Record.IsDirty()",
+    "RecordRef.IsDirty()",
+    "Validate method",
+    "Modify method"
+  ],
+  "versions": [
+    "BC 29",
+    "runtime 18"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004236,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Record.IsDirty() is available from runtime 18, which is BC 29.",
+      "why_it_matters": "Identifies the version availability of this feature for developers to determine compatibility with their systems"
+    },
+    {
+      "text": "No need to maintain an IsModified Boolean yourself.",
+      "why_it_matters": "Highlights the key benefit of reducing boilerplate code and manual state management"
+    }
+  ]
+}

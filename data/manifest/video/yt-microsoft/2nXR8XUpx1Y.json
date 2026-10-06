@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "BCTalent Stories: Carcyn & Olivia from Clients First",
   "url": "https://www.youtube.com/watch?v=2nXR8XUpx1Y",
-  "published_at": null,
+  "published_at": "2024-03-01T13:24:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:19:20.828Z",
+      "captions": "auto:en-orig",
+      "duration_s": 114
+    },
+    "captioned": {
+      "at": "2026-10-06T21:19:28.846Z",
+      "path": "data/captions/microsoft/2nXR8XUpx1Y.vtt",
+      "vtt_sha256": "b2bf3489840d0274ee4aac8516fbd4ec5afaeb0bcfc8a220b8c2a0cf60296807",
+      "segments": 7,
+      "words": 313,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:19:28.851Z",
+      "path": "data/extract/video/2nXR8XUpx1Y.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T21:19:28.854Z",
+      "path": "data/summary/video/2nXR8XUpx1Y.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": null
+    },
+    "linked": {
+      "at": "2026-10-06T21:19:28.855Z",
+      "systems": [
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:19:28.866Z",
+      "path": "content/videos/2nXR8XUpx1Y.md"
     }
   },
   "input_hash": null,
@@ -19,7 +65,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 460,
-    "duration_s": 115,
-    "via": "reconcile"
-  }
+    "duration_s": 114,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7857a41851858520517ce5dd1210c187d5eeb3946b56c363ed282052c041c79d"
 }

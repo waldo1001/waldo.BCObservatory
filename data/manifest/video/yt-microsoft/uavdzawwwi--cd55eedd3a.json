@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Transfer Environments",
   "url": "https://www.youtube.com/watch?v=-uAvdZAWWwI",
-  "published_at": null,
+  "published_at": "2024-02-09T14:41:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:26:12.401Z",
+      "captions": "auto:en-orig",
+      "duration_s": 299
+    },
+    "captioned": {
+      "at": "2026-10-06T21:26:20.904Z",
+      "path": "data/captions/microsoft/-uAvdZAWWwI.vtt",
+      "vtt_sha256": "dee5d05dda1760d85abfa8be84a6f04e7cab2914c80b19eb922a7aa64ac03d6f",
+      "segments": 27,
+      "words": 607,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 463,
     "duration_s": 299,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dee5d05dda1760d85abfa8be84a6f04e7cab2914c80b19eb922a7aa64ac03d6f"
 }

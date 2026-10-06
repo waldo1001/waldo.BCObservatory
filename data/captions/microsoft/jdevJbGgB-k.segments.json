@@ -1,0 +1,398 @@
+{
+  "video_id": "jdevJbGgB-k",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.4,
+      "end": 30.4,
+      "text": "welcome to this new video series under the hood of business Central so in this new series we are going to try something a little bit different we are not going to show you uh demos of the product or talk about the latest features um in the latest version of business Central but instead uh we"
+    },
+    {
+      "t": 30.4,
+      "end": 51,
+      "text": "are going to tell you how we develop these features how we design them how we architect them uh so we are going to go under the hood of business Central my name is is Vincent Nicholas I am the architect of business Central and today with me to Kickstart this new series I have Michael"
+    },
+    {
+      "t": 51,
+      "end": 71.7,
+      "text": "Michael you are working now almost exclusively on AI features um so you've been with Microsoft for many years and um and and you you uh you and I we build the first web client together remember fun days yeah yeah fun days uh so you're an expert in web Technologies yes"
+    },
+    {
+      "t": 71.7,
+      "end": 91.8,
+      "text": "but uh today you working practically only on AI yeah so tell us tell us a little bit about yourself and tell us how you came from from from web technology to uh to the yeah yes I've been working with web technology for almost 20 years exclusively and uh in the client in different teams even outside of Microsoft"
+    },
+    {
+      "t": 91.8,
+      "end": 112.1,
+      "text": "and then over time that we have the web client today is pretty established and and a complete client um and I was kind of looking for isn't there something new is going to happen and and then definitely AI suddenly happened or this whole new craze of AI happened right and uh yeah at some point"
+    },
+    {
+      "t": 112.1,
+      "end": 132.4,
+      "text": "uh we the we discovered let's say that or the world discovered the chat DBT and this is really what how it start started right and I got interested in this um I I guess like everyone else people tried chat TB a little bit in the beginning and was kind of Blown Away by what this technology suddenly could"
+    },
+    {
+      "t": 132.4,
+      "end": 152.9,
+      "text": "do uh and then I we a little while went past before we really started to dig into it it it had to kind of Shimmer a little bit in the background um at some point uh we did the hackaton yeah we did the hackaton AI hackaton in the team so that's the day where we take a out of of the calendar uh for the entire"
+    },
+    {
+      "t": 152.9,
+      "end": 173.1,
+      "text": "team at Microsoft and everybody go and do um things they you know whatever they they feel like doing like people have ideas and and it's usually a good a good thing to um to have you know new innovative ideas and people get to try out things and and in one of our Aon you you did some"
+    },
+    {
+      "t": 173.1,
+      "end": 193.2,
+      "text": "very cool things with yeah I had some as I said it had to Shimmer a little bit right and I was really thinking about how could this be used maybe in the CLI and stuff like that and then you know there was some Epiphany at some point of a new way of doing this so so we experimented this we we are not currently really working on productizing this but I hope we will soon because there's a lot of other"
+    },
+    {
+      "t": 193.2,
+      "end": 213.4,
+      "text": "things we have to kind of build before so we don't talk about it yet we don't really talk about it yet right but but I I hope we will be able to productize this somewhat soon that was very cool I remember that was a very cool thing so yeah and it was really I was also blown away that it really worked right so but it worked amazingly well but yeah you now working on AI features uh in business"
+    },
+    {
+      "t": 213.4,
+      "end": 233.6,
+      "text": "Central uh so tell us a little bit about it uh tell us a bit about uh chat with co- pilot for example or some of the things you you are currently working on yeah currently working on yes we have a different set of features right and the first one we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords for for"
+    },
+    {
+      "t": 233.6,
+      "end": 253.6,
+      "text": "for items uh and currently so so and there's other features coming like that and one of course one of the big features we're working on is to kind of have a chat inside business Central based on all this technology so that is what we are currently working on yeah a co-pilot for for business Central it will will be you know we are starting"
+    },
+    {
+      "t": 253.6,
+      "end": 267.4,
+      "text": "slowly we're also learning a lot by building these features turns out this is this is probably harder than we thought or it is definitely harder than we thought uh in the beginning uh to get to a good quality"
+    },
+    {
+      "t": 267.4,
+      "end": 287.6,
+      "text": "experience uh and and for now we we are focusing on building a chat where you can get kind of it can guide you you can kind of get help on business Central and the other one we are focusing on the other kind of capability within this is is the capability to kind of ask questions about kind of about your data but really about"
+    },
+    {
+      "t": 287.6,
+      "end": 307.7,
+      "text": "navigating around in the product and maybe see some records and and set some filters that sounds very cool yeah it's going to be pretty cool uh so we have we have already shipped uh bank reconciliation right try to match use llms to match bank records behind the product and the marketing text suggestions as you mentioned"
+    },
+    {
+      "t": 307.7,
+      "end": 327.9,
+      "text": "before right yeah and we also um um so so we also so these are immersive feat what we call immersive features so we don't we use llms but we don't uh it's not a chat kind of experience uh so we have we distinguish between these kind of uh these two kinds of features where we have"
+    },
+    {
+      "t": 327.9,
+      "end": 348.1,
+      "text": "as you mentioned chat light experience which resemble a little bit what people know from GPT right cor and then we have um what we call immersive feature where we kind of do prompting and we get back to that in a second yeah uh and then I just want to mention we also um we also shipped a um a toolkit for developers"
+    },
+    {
+      "t": 348.1,
+      "end": 368.8,
+      "text": "so if you want to go and and develop your own customization uh in business Central using llms leveraging the power of open AI we have a toolkit for that we'll put some links uh in the in the description below about uh these features and also about the tokit so you can uh you can look up the documentation on this"
+    },
+    {
+      "t": 368.8,
+      "end": 389.3,
+      "text": "um and um you talk about the prompting and we're doing some prompts so now we're getting to the Under the Hood part of of this talk right and so let's talk about that so what what's going on even though we uh for example we talk about immersive features like marketing text suggestion there is actually a a chat GPT like"
+    },
+    {
+      "t": 389.3,
+      "end": 409.5,
+      "text": "uh interactions going on under the hood right behind the scenes right it's all about really constructing this text or the prompt right which is really about constructing a text that that tells the llm what is this you what kind of information you're looking for the user doesn't see that right the user never sees that right especially not in in most of these immersive"
+    },
+    {
+      "t": 409.5,
+      "end": 429.9,
+      "text": "features right they don't really know that's happening right but but but behind the scenes it is really about generating a text uh using different techniques that that contains the right information that will you know instruct the last language model to to produce the output we looking for right and this is really a programmatic exercise and in some sense it's like"
+    },
+    {
+      "t": 429.9,
+      "end": 450,
+      "text": "it's like good old templating when the web technology started right where you were kind of generating a web page where you also use kind of templating techniques to construct HTML which is essentially just text right LMS has it's it's similar in the sense that you're generating a lot of text and then you ask the llm and the llm become a respon maybe"
+    },
+    {
+      "t": 450,
+      "end": 470,
+      "text": "you have to do multiple prompts to get to the to what you're really looking for right so it's a little bit different than than the classic software engineering that absolutely so uh so let's talk a little bit about that because you know Microsoft we're pretty good at software engineering I think it's fair to say that we have been developing software for many years and usually when we develop"
+    },
+    {
+      "t": 470,
+      "end": 490.4,
+      "text": "a feature we do the design and the architecture we write the code write some test yeah run the test and ship little bit simplified but you know in a that's that's what we've been doing for many years and we're pretty good at it but um this whole llm thing and AI thing it's actually kind of a different approach we we need to to use for"
+    },
+    {
+      "t": 490.4,
+      "end": 510.7,
+      "text": "yeah it's a different approach we need to use all those said the overall principles are the same right you are testing and testing becomes very important in this right but but the thing that's really different for most Engineers is that the prompting is not an exact science right because it's no one let's put it that way no one can really predict exactly"
+    },
+    {
+      "t": 510.7,
+      "end": 530.8,
+      "text": "what the LM is going to do up front and even you know the experts behind all of this says that yeah they don't really even understand how it works right which kind of makes sense because it's trained on this massive amount of information and how all the neurons you know align and the the weights of them and all of that so you cannot really predict what happens when you do this right"
+    },
+    {
+      "t": 530.8,
+      "end": 551.2,
+      "text": "so it's like when you if you ask you a question one day you might give me an answer but if I you the same question tomorrow I'm going to give you maybe a different answer on what you ask the both answer might still be valid though will probably be right but tell tell us a little more about prompt engineering and what you know how we How We Do It Microsoft n VC"
+    },
+    {
+      "t": 551.2,
+      "end": 571.4,
+      "text": "and uh what you know what what are the challenges with it and I understand there are some techniques there's definitely some techniques the different prompt techniques and we can we can talk about that I mean I think the the important thing to for engineers to understand right traditional Engineers right where we used to We are giving say an API we write some code we use this API"
+    },
+    {
+      "t": 571.4,
+      "end": 591.4,
+      "text": "and it's kind of very predictable what's going to come out of it right as soon as you get to the llm the approach becomes very different right because it is as I said not really that predictable um and and that really you know kind you have to kind of change your game a bit to to really get through this so how how do we test these features yeah so"
+    },
+    {
+      "t": 591.4,
+      "end": 612.1,
+      "text": "for instance testing right so again right uh the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these techniques right what the output is LM is also fuzzy right uh and and the users's input of what you're trying to solve is also fussy so so the whole thing is a bit fussy"
+    },
+    {
+      "t": 612.1,
+      "end": 632.4,
+      "text": "um so you can't just do like you can't send the prompt and get you get the answer and you can do you can't do a string compare can't really do a string compare you do a normal and and also especially when you start talking about features like chat but but actually all the features right you need kind of a fairly big input data set I mean what is the user"
+    },
+    {
+      "t": 632.4,
+      "end": 652.4,
+      "text": "asking or what is the data input to your prompt you need a fairly big data set of that that kind of have some diverse diversity in the question so it kind of represent what you want dlm to achieve right so basically you take all these inputs uh and you you run against your prompt and and then you get some"
+    },
+    {
+      "t": 652.4,
+      "end": 673.1,
+      "text": "output right and because this may not be really predictable right you actually need another prompt to to validate in many cases at least right you need another promp to validate the whether the question is really what you expected right so so you're asking back the LM you get the answer yeah and then to validate the answer you're asking back to the LM"
+    },
+    {
+      "t": 673.1,
+      "end": 693.4,
+      "text": "yeah because because whatever input right you of course kind of have an expected output right like an answer or you know other things you you want back from the llm like structured data or whatever it is right so so so you take that output you you get in this current test run and then you ask the llm is this the same right so usually"
+    },
+    {
+      "t": 693.4,
+      "end": 714,
+      "text": "the problem is something like is these two uh inputs equivalent right and answer yes or no yes right and then you get this yes or no and that you can just validate right okay true or false true or false basically right can you give us some examples of some of the prompt techniques we are using yeah I can go through some uh some few examples of this"
+    },
+    {
+      "t": 714,
+      "end": 734.4,
+      "text": "um so there's different techniques that has been devolved by like academ and been discovered in other ways right one of the and I'll go through a few that we are using there are plenty more more out there and you can clearly look up this information on the internet and we will also provide some further links to this yeah we can put some Link in the description on some of the documentation"
+    },
+    {
+      "t": 734.4,
+      "end": 754.6,
+      "text": "about that yeah so one of them and kind of a very successful technique is what kind of called few shot learning right and this basically that in your prompt you are you kind of showing LM some examples of what you of of the input and what you expect right and from this it's kind of learning what it is you want so it's a very powerful technique because you don't need to explain all the"
+    },
+    {
+      "t": 754.6,
+      "end": 774.7,
+      "text": "details instead a few examples and you know it gets going right so I have an example here right where we just trying to classify some text uh whether it's positive negative or neutral right the sentiment of it right and and basically I have a few examples here of that you give it like three in this case right and then then you ask the question what"
+    },
+    {
+      "t": 774.7,
+      "end": 794.8,
+      "text": "what is this you want to get the sentiment from right and then it would kind of you know follow that and and give you a good result right so that's few shirts that's few shirt learning right another very powerful thing about few shirt learning is that it's very easy to kind of specify if what kind of formatting you want right because of course as soon when you start using this behind the scenes often you want"
+    },
+    {
+      "t": 794.8,
+      "end": 815.5,
+      "text": "like Json or something like that so it's easy to pass and de with right so so we we are using that for some other features we are using Json we also use an XML it varies a little bit what kind of out we give some examples and this is how we expect and then yeah and yeah it helps it to do that right and then we can easily pass the outcome and and"
+    },
+    {
+      "t": 815.5,
+      "end": 835.6,
+      "text": "and validate it and also use it for for for these right for the further processing of it right this morning you you talk me about this uh Chain of Thought thing and then you out and uh tell me yeah tell a bit about it because it's pretty you know it's Prett for is kind of interesting Discovery and all of this right so CH for is really"
+    },
+    {
+      "t": 835.6,
+      "end": 855.6,
+      "text": "just like what humans does right you kind of break break down the problem you you solve small sub parts of it and and and then the LM and the LM can do something very similar this is kind of mindblowing right that you it it seems like it's thinking it's not really right but but it's what it appears to be right and uh I have a a"
+    },
+    {
+      "t": 855.6,
+      "end": 875.7,
+      "text": "very generic question here like I hold an apple I went to a bathroom where's the app right and the would generate some answer right and then the cheapest or the easiest way to get kind of chain of for to do is actually just add to the prompt or to the reply you expect let's think about it step by step it's really breaking down the you write that in the prompt you simply"
+    },
+    {
+      "t": 875.7,
+      "end": 895.7,
+      "text": "just put that in the prompt this St and this is kind of a famous you know very wide used technique right and you would already see that the LM actually takes longer to respond to you and it seems like it's thinking it seems like it's really thinking right and it will output the steps it goes through right there also ways to if you don't want that but that"
+    },
+    {
+      "t": 895.7,
+      "end": 915.9,
+      "text": "that's basically what will happen right and as you can see here now suddenly the the it reasons he puts out the reason how how it got to reply by breaking it down right so M you you're an architect so let's talk a little bit about architecture uh of how how we architected so one thing is the prompt yeah engineering that we just talked"
+    },
+    {
+      "t": 915.9,
+      "end": 936.2,
+      "text": "about and there's a lot of things there and a lot of techniques and uh it's a whole new world for if you're a developer it's a whole new world that you have to get into if you want to do AI but if you get back to just pure architecture tell us a little bit how you know under the hood of business Central how we uh you know do we have how do we do these"
+    },
+    {
+      "t": 936.2,
+      "end": 956.5,
+      "text": "thing in the cloud and we have some services and things like that tell us a little bit about it yeah so talk a little bit about what we call our co-pilot service and I can just show you a a kind of a traditional architectural block diagram uh we like those yes we like those we are good at drawing those um and and I mean maybe specifically"
+    },
+    {
+      "t": 956.5,
+      "end": 976.7,
+      "text": "if we talk about how we are Tak the the chat feature right that we're building right so yeah it's pretty traditional in some sense right the in the client there would be some kind of chat pain which communicates back to this uh co-pilot service which runs in the clusters of business Central um and uh in there we have kind of two"
+    },
+    {
+      "t": 976.7,
+      "end": 997.1,
+      "text": "subservices going on right or two sub components big sub components right in general so for the chat to work so we talk about we have kind of an orchestrator this kind of orchestrating the chat right a chat is like it's it's a multi-turn of or turn of questions and answers right and the user may clarify or change"
+    },
+    {
+      "t": 997.1,
+      "end": 1017.2,
+      "text": "subject or whatever in this chat window so the orchestration is kind of trying to deal with that right keep track of the chat history at all times trying to kind of extract what's going on right and then figuring out kind of what kind of skills or plugins or tools this has you know these terms are changing a bit kind of with plugins or tools that"
+    },
+    {
+      "t": 1017.2,
+      "end": 1037.3,
+      "text": "the llm May kind of need to use to get more information call these so so that's kind of our plugin service to kind of actually simple uh and and but there's still some Machinery there definitely some Machinery in place and kind of a whole bunch of stuff going on there behind the scen so how about function calling you you are working on that actually"
+    },
+    {
+      "t": 1037.3,
+      "end": 1057.6,
+      "text": "I know right now yeah yeah so so function calling is another technique and kind of prompting technique right but but it's a very promising one and then somewhat almost bring it a little bit more back to traditional Engineering in some sense because I think this is also kind of how this is evolving this uh prompting uh so it gets a little more grounded in the traditional"
+    },
+    {
+      "t": 1057.6,
+      "end": 1077.6,
+      "text": "techniques right so uh I can show another example of U of A of how what function calling can really be used for um so the idea is right that you give the prompt or the llm some tools or functions right that it can use and core right so for instance if I have a question like what's"
+    },
+    {
+      "t": 1077.6,
+      "end": 1098.4,
+      "text": "the weather Inc cagen if I just asked that to in in chat DBT right it it doesn't know anything right it will kind of Base it on something has happened in the past access to and it could tell you that either it doesn't know because sometimes it will do that or it could tell you that it's 10 degrees right so and and you can look outside and it's clearly"
+    },
+    {
+      "t": 1098.4,
+      "end": 1118.5,
+      "text": "and son and whatnot right now okay so so we need to do something to get that to work right so this function call means I could actually just Define a function mhm like said get current wet right and you basically Define that and and attaches that to the prompt it doesn't go into the prompt itself but it's kind of attached to the prompt and"
+    },
+    {
+      "t": 1118.5,
+      "end": 1138.6,
+      "text": "but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a function and and and tell the LM hey there's a function on you might want to be coding but it's not code is not executing Cod execute the code right and it will kind of uh take this interface use it and it's just an inter it's just make"
+    },
+    {
+      "t": 1138.6,
+      "end": 1158.6,
+      "text": "any calling so it's a little bit Miss right right uh in in the in the naming or the terms of this right but but what it will do is it will tell you which parameters you should use when you call this function right uh so basically it tells you uh you give you give it the description of one or more functions right and"
+    },
+    {
+      "t": 1158.6,
+      "end": 1178.7,
+      "text": "you ask a question yeah and then it tells you if you want to answer that question you need to call this function with these parameters maybe in that order and it tells you how to execute it doesn't actually execute the code right that's up to you but it guides you you you give it some basically some apis and some tools and and then it tells you this is"
+    },
+    {
+      "t": 1178.7,
+      "end": 1198.7,
+      "text": "how if you want to answer that question this is what you need to do and uh and hallucinations you hear all these all these those words you know so what are they yeah so Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to answer the question right it really wants to predict"
+    },
+    {
+      "t": 1198.7,
+      "end": 1218.7,
+      "text": "so it's trying so it will make up stuff based on you know what it does what it knows what it feels like or how it works right what it's been trained on right you're saying it's something that happens especially if if it doesn't have the right information to answer just like when I ask what's the weather in Copenhagen right and it doesn't right sometimes you know there may be in the prompt or the behind the scenes prompt that the user"
+    },
+    {
+      "t": 1218.7,
+      "end": 1239.2,
+      "text": "is not even seeing that we are not even seeing but there in the service that you know your data is from here you can't answer this you don't have access to real time information but you know sometimes it doesn't obey that because this happens a lot as well right and it will just make up some an this is what happens at all times that's why very important you know you always feed the data"
+    },
+    {
+      "t": 1239.2,
+      "end": 1259.2,
+      "text": "and you can instruct in the prompt that you really only use this data to kind of try to answer the question right so that's the hallucination part right so it's fair to say that it's when it's hallucinating it's because actually it's a side kind of a side effect it's very eager to provide an answer exactly exactly interesting yeah so jailbreaking is more like you're trying to to you know"
+    },
+    {
+      "t": 1259.2,
+      "end": 1279.5,
+      "text": "jailbreak the prompt in getting it to do something else then you know the developer or whoever made this prompt was intended it to do right so let's say you know we have made a prompt you should answer you know something about bank reconciliation for instance right but then you you write a long question or a simple question"
+    },
+    {
+      "t": 1279.5,
+      "end": 1299.5,
+      "text": "or whatever that you want to know something about something completely different and and that's kind of the jailbreaking part right you're breaking out of the strains that you know the developers is trying to make the prompt answer right and get it to do whatever else craziness that you can in general get a last language model to answer and do right so that's kind of the"
+    },
+    {
+      "t": 1299.5,
+      "end": 1319.7,
+      "text": "LM equivalent of the all day SQL injection in a way kind of is right kind of it but yeah kind of is right and yeah so uh what are we doing uh in BC to prevent that yeah so there's different techniques right so and there's there's all kinds of different levels of jailbreaking right and actually as you open I have kind of buil"
+    },
+    {
+      "t": 1319.7,
+      "end": 1340.1,
+      "text": "in you know content moderation systems filtering that will uh alleviate a lot of it right it will remove a lot of kind of stuff you we don't want the LM to answer like all kinds of harmful what is considered harmful so so it's building the open ey services that we have an Azure yeah another technique in jailbreaking"
+    },
+    {
+      "t": 1340.1,
+      "end": 1360.2,
+      "text": "is right can I actually get the prompt right that's different techniques you can again with Jael bra can I just get all the instructions I was given right so kind of the prom right aser open AI but also in general do that and even some of these filters you can actually no longer turn off because you them so useful but beyond that there is also"
+    },
+    {
+      "t": 1360.2,
+      "end": 1380.4,
+      "text": "what is kind of called meta prompting which essentially is just a set of instructions about that has turned out to be really hard to jailbreak but again new jailbreak techniques comes up all the time but it but has been set up like it's just a set of instruction on what you really should not do okay so that comes and it's it's kind of put the at"
+    },
+    {
+      "t": 1380.4,
+      "end": 1400.8,
+      "text": "different places and to prevent it says instruction like you know don't say things about you know harmful violence things you know for instance right or don't you know don't obey these obstructions and don't stuff like that so what what um so it seems that there's a lot of techniques and a lot of things to know about Ai and now we have"
+    },
+    {
+      "t": 1400.8,
+      "end": 1420.8,
+      "text": "as we mentioned before we have we are releasing this tool kit uh for partners and developers to uh basically get their feet wet with with LM and AI so what what advice would you give them you know if they want to get start if they want to get started with AI and start do you know mind-blowing stuff in yeah mindblowing stuff with with with the eye I I would"
+    },
+    {
+      "t": 1420.8,
+      "end": 1441.1,
+      "text": "actually say maybe you should not start with the absolutely mind-blowing stuff unless that mind-blowing stuff is really simple I think it's good to develop a maybe a little bit simpler feature initially to get your feet wet which is maybe something the llm is better for or you like generating tax or something like and by something with language for example for"
+    },
+    {
+      "t": 1441.1,
+      "end": 1461.9,
+      "text": "Generate language generating an email generating a response to stuff marketing text other features like that right I mean it's very good to start with something like just to get you started and you know feel around and also understand why testing is important and and how you do this kind of testing and stuff like that right and of course our"
+    },
+    {
+      "t": 1461.9,
+      "end": 1482,
+      "text": "uh toolkit helps you a lot especially also with the UI part of it right because this is another thing right uh in general you you need to present this information to the user you can't just let it run by itself because again we need the user in the loop to kind of you know yeah so we have we'll put some links again in the description we"
+    },
+    {
+      "t": 1482,
+      "end": 1502.6,
+      "text": "have we have some API in Al part of the toolkit but we also have some UI elements yeah that we ship with a product that uh will help you provide a consistent experience so if you use them you you will have a you know consistent U UI and u which resemble what we ship in in our ey featur well"
+    },
+    {
+      "t": 1502.6,
+      "end": 1522.6,
+      "text": "and we also have on Azure there's also the Azure um open a studio yeah right which is also a it's very useful tool to kind of construct your prompts and play around with it and try things it's like you know turnaround is immediate right and it guides you also a little bit in the different techniques yeah so you can try out your prompts without having"
+    },
+    {
+      "t": 1522.6,
+      "end": 1542.8,
+      "text": "to write a lot of codes around it right exactly it can refine your prompt and maybe with some of the techniques you talk about before and the other thing is of course to to to look at quite a lot as we were also put some links to all this information that is already on the internet on how to do some of these features right all right thanks Michael uh"
+    },
+    {
+      "t": 1542.8,
+      "end": 1563.5,
+      "text": "a lot of you know really really cool stuff um thank you for watching we hope you enjoy this talk we have uh we have um we have some ideas for some of this the topics but there are some things you want to um to to us to talk about to put it in the comments um thanks again for"
+    },
+    {
+      "t": 1563.5,
+      "end": 1565,
+      "text": "watching"
+    }
+  ],
+  "markers": [],
+  "word_count": 5171
+}

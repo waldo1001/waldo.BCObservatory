@@ -14,18 +14,17 @@
   "files": 264,
   "parse_errors": 0,
   "added": 144,
-  "replaced": 51,
+  "replaced": 50,
   "absent": [],
   "chain": [
     "w1",
     "nl"
   ],
-  "extractor": "1",
+  "extractor": "2",
   "grammar": "4.4.1",
-  "objects": 195,
+  "objects": 194,
   "by_type": {
     "codeunit": 36,
-    "dotnet": 1,
     "enum": 4,
     "interface": 1,
     "page": 36,
@@ -39,7 +38,6 @@
   },
   "shards": [
     "objects-codeunit-1.jsonl",
-    "objects-dotnet-1.jsonl",
     "objects-enum-1.jsonl",
     "objects-interface-1.jsonl",
     "objects-page-1.jsonl",

@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/waldo-be/318707",
+  "url": "https://waldo.be/2026/10/01/business-central-data-in-fabric-the-way-it-should-be/",
+  "title": "Business Central data in Fabric: the way it should be",
+  "source": "waldo-be",
+  "published_at": "2026-10-01T14:44:29.000Z",
+  "words": 947,
+  "summary": "Business Central now supports native data mirroring to Microsoft Fabric, allowing users to replicate their tables as Delta Parquet files in OneLake with SQL query access. The feature enters public preview in release wave 2 (likely version 29.1) and requires only workspace setup and table selection with no impact on BC performance or API limits.",
+  "key_points": [
+    "Native mirroring to Fabric via a new integration app eliminates the need for custom data extraction solutions",
+    "Data syncs within minutes, with deletes replicated and no field-level selection required",
+    "Monitoring pages in BC and Fabric provide sync status, error visibility, and analysis mode capabilities",
+    "BC licensing has no extra cost; Fabric costs apply only for capacity consumption, with first 1 TB free per capacity unit",
+    "Nine Power BI apps receive Fabric-based versions with multi-company options"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "fabric mirroring",
+    "data replication",
+    "onelake",
+    "analytics",
+    "release wave 2",
+    "delta parquet",
+    "power bi"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Fabric integration app"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization overview"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization details"
+    }
+  ],
+  "features": [
+    "Native Fabric mirroring",
+    "Delta Parquet format",
+    "SQL endpoint queries",
+    "Sync monitoring pages",
+    "Configuration packages",
+    "Multi-company Power BI apps",
+    "OneLake storage integration"
+  ],
+  "versions": [
+    "29.x",
+    "29.1",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "getting the data in is free, using it costs capacity",
+      "why_it_matters": "Explains the cost structure, showing BC incurs no licensing expense while Fabric consumption applies separately"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006896,
+    "posts_in_call": 1
+  }
+}

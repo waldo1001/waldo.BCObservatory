@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 1: Developing AI in Business Central",
   "url": "https://www.youtube.com/watch?v=jdevJbGgB-k",
-  "published_at": null,
+  "published_at": "2024-02-13T15:07:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:20:22.603Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1565
+    },
+    "captioned": {
+      "at": "2026-10-06T21:20:29.799Z",
+      "path": "data/captions/microsoft/jdevJbGgB-k.vtt",
+      "vtt_sha256": "bf0f81e0510ff82d17dd08f7ff22ae72b23917ea73e6c66abcf4cbb59fc7b015",
+      "segments": 78,
+      "words": 5171,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:22:57.173Z",
+      "path": "data/extract/video/jdevJbGgB-k.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 14,
+      "quotes": 15,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.083792
+    },
+    "summarized": {
+      "at": "2026-10-06T21:23:35.159Z",
+      "path": "data/summary/video/jdevJbGgB-k.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0213384
+    },
+    "linked": {
+      "at": "2026-10-06T21:23:35.161Z",
+      "systems": [
+        "copilot",
+        "development",
+        "platform"
+      ],
+      "topics": 12,
+      "objects_as_heard": 4
+    },
+    "published": {
+      "at": "2026-10-06T21:23:35.179Z",
+      "path": "content/videos/jdevJbGgB-k.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 462,
     "duration_s": 1565,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "739c690dda01bec1e390f48e1ebef3e82d0f96876a13e1663e650bc4be4f3379"
 }

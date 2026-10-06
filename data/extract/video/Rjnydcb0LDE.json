@@ -1,0 +1,136 @@
+{
+  "video_id": "Rjnydcb0LDE",
+  "item_id": "video/yt-microsoft/Rjnydcb0LDE",
+  "title": "BCTalent Stories: Thor & Oliver from Vektus",
+  "duration_s": 140,
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "career development",
+    "consultant training",
+    "microsoft talent program",
+    "work-life balance",
+    "professional development",
+    "technical skills"
+  ],
+  "chapters": [
+    {
+      "title": "Why become a Business Central consultant",
+      "t_start": 0,
+      "t_end": 29.6
+    },
+    {
+      "title": "Microsoft Talent program and knowledge development",
+      "t_start": 29.6,
+      "t_end": 69.7
+    },
+    {
+      "title": "Work-life balance and personal interests",
+      "t_start": 69.7,
+      "t_end": 110.6
+    },
+    {
+      "title": "Future outlook and career aspirations",
+      "t_start": 110.6,
+      "t_end": 140
+    }
+  ],
+  "features": [
+    {
+      "name": "Microsoft Talent Program",
+      "description": "A program that mixes theory and practice for business central consultant development. Includes structured knowledge program steps leading to the MB800 final exam.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29.6,
+      "t_end": 69.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "consultant training",
+        "professional development",
+        "talent program"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MB800 Certification Exam",
+      "description": "Final exam that candidates can take after completing the Microsoft Talent program knowledge steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.6,
+      "t_end": 69.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "certification",
+        "exam",
+        "professional development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Thor",
+      "confidence": "high"
+    },
+    {
+      "name": "Oliver",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 9.4,
+      "text": "I wanted to be a business Central consultant um primarily because of the tech side I'm a really techy person other than being a",
+      "why_it_matters": "Explains the dual motivation for pursuing a Business Central consultant career - combining technical skills with people interaction.",
+      "check": "exact"
+    },
+    {
+      "t": 29.6,
+      "text": "the thing I like about the Microsoft Talent program is uh the mix of the theory and the practice um I think it's a",
+      "why_it_matters": "Describes the value proposition of the Microsoft Talent Program combining theoretical knowledge with practical application.",
+      "check": "exact"
+    },
+    {
+      "t": 69.7,
+      "text": "take the mp800 final exam the work life balance in this profession is is really really good it's really easy to put your hours",
+      "why_it_matters": "Highlights both the certification requirement and the work-life balance benefit of the consultant role.",
+      "check": "snapped"
+    },
+    {
+      "t": 69.7,
+      "text": "I ride a lot of mountain bike I really like it because I love using my body being physical there's always kind of a",
+      "why_it_matters": "Shows how consultants can pursue active hobbies while maintaining technical interests outside work.",
+      "check": "exact"
+    },
+    {
+      "t": 110.6,
+      "text": "I would highly recommend other people becoming a business rental consultant I'm definitely looking forward to the coming years where I get chance to",
+      "why_it_matters": "Demonstrates confidence in the career path and commitment to continuous skill development.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009248
+    }
+  ]
+}

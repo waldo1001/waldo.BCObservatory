@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "BCTalent Stories: Zain from 4PS",
   "url": "https://www.youtube.com/watch?v=d1rE49YYapo",
-  "published_at": null,
+  "published_at": "2024-03-01T13:32:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:18:53.894Z",
+      "captions": "auto:en-orig",
+      "duration_s": 77
+    },
+    "captioned": {
+      "at": "2026-10-06T21:19:04.583Z",
+      "path": "data/captions/microsoft/d1rE49YYapo.vtt",
+      "vtt_sha256": "2275ccb9f29f6236565156a06cded7630fde6998b23e426d58973135cf153512",
+      "segments": 4,
+      "words": 210,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:19:04.588Z",
+      "path": "data/extract/video/d1rE49YYapo.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 0,
+      "quotes": 3,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T21:19:04.592Z",
+      "path": "data/summary/video/d1rE49YYapo.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": null
+    },
+    "linked": {
+      "at": "2026-10-06T21:19:04.593Z",
+      "systems": [
+        "development",
+        "crm"
+      ],
+      "topics": 5,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:19:04.604Z",
+      "path": "content/videos/d1rE49YYapo.md"
     }
   },
   "input_hash": null,
@@ -20,6 +67,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 459,
     "duration_s": 77,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "741a008e7d2f869bcd333b672d02d2941104920af80b3de524644e72b7568426"
 }

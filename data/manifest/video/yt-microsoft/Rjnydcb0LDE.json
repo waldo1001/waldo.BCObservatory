@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "BCTalent Stories: Thor & Oliver from Vektus",
   "url": "https://www.youtube.com/watch?v=Rjnydcb0LDE",
-  "published_at": null,
+  "published_at": "2024-03-01T12:52:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:19:39.071Z",
+      "captions": "auto:en-orig",
+      "duration_s": 140
+    },
+    "captioned": {
+      "at": "2026-10-06T21:19:53.044Z",
+      "path": "data/captions/microsoft/Rjnydcb0LDE.vtt",
+      "vtt_sha256": "085b488f0802cc27e8728371ef34ff1836def3cdda18d690568ef31f77b8139f",
+      "segments": 8,
+      "words": 353,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:20:06.101Z",
+      "path": "data/extract/video/Rjnydcb0LDE.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 2,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.009248
+    },
+    "summarized": {
+      "at": "2026-10-06T21:20:15.370Z",
+      "path": "data/summary/video/Rjnydcb0LDE.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.009426399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T21:20:15.371Z",
+      "systems": [
+        "development"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:20:15.383Z",
+      "path": "content/videos/Rjnydcb0LDE.md"
     }
   },
   "input_hash": null,
@@ -19,7 +65,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 461,
-    "duration_s": 141,
-    "via": "reconcile"
-  }
+    "duration_s": 140,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e003cfb746c670c1b6a421948e3cff0e49d5fe3082624a19485ead5ddbb7e195"
 }

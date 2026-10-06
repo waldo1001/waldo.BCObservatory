@@ -6,7 +6,7 @@
   "country": "ru",
   "layer": "overlay",
   "branch": "main",
-  "commit": "cdc571f3abe41798b980ffdd4fec9a23fc59ccba",
+  "commit": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba",
   "build": "30.0.0.0",
   "apps": [
     "Base Application"
@@ -14,18 +14,17 @@
   "files": 1069,
   "parse_errors": 0,
   "added": 633,
-  "replaced": 221,
+  "replaced": 220,
   "absent": [],
   "chain": [
     "w1",
     "ru"
   ],
-  "extractor": "1",
+  "extractor": "2",
   "grammar": "4.4.1",
-  "objects": 854,
+  "objects": 853,
   "by_type": {
     "codeunit": 116,
-    "dotnet": 1,
     "enum": 19,
     "page": 288,
     "pageextension": 2,
@@ -38,7 +37,6 @@
   },
   "shards": [
     "objects-codeunit-1.jsonl",
-    "objects-dotnet-1.jsonl",
     "objects-enum-1.jsonl",
     "objects-page-1.jsonl",
     "objects-pageextension-1.jsonl",
