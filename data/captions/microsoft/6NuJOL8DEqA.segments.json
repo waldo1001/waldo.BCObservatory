@@ -1,0 +1,178 @@
+{
+  "video_id": "6NuJOL8DEqA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.4,
+      "end": 16,
+      "text": "in 2025 release Wave 1 we are releasing a really big change or update to the manufacturing"
+    },
+    {
+      "t": 16,
+      "end": 35.2,
+      "text": "analytics um in this video I will show you what we have done in the powerbi app and there's also a different um video that is only um about the modernization of the Legacy reports in"
+    },
+    {
+      "t": 35.2,
+      "end": 55.5,
+      "text": "manufacturing so here we're going to talk about uh updated reports in the powerbi app note that all of this is coming in version 26.1 new reports surfacing in the powerbi app for manufacturing and uh and then some learn more links if you want to dive into uh the specifics"
+    },
+    {
+      "t": 55.5,
+      "end": 75.7,
+      "text": "of analytics for manufacturing but before we do that that we have some so had some guiding themes of our investment in updating the powerbi app for this release wave and that consists of three pillars we took a lot of feedback from subject"
+    },
+    {
+      "t": 75.7,
+      "end": 95.8,
+      "text": "matter experts in the partner Community um in within manufacturing and uh and then we incorporated that into the existing app second we have uh this vision of modernizing in the Legacy reports in in manufacturing and simply making as much of"
+    },
+    {
+      "t": 95.8,
+      "end": 116.2,
+      "text": "the analytical analytical power in these old reports available in power pi and then we couldn't help ourselves also adding some of the things where powerbi really shines so we added a report that give you a Gant visualization of your pro production order routing"
+    },
+    {
+      "t": 116.2,
+      "end": 136.5,
+      "text": "lines so um let's dive into first um the first part which is updated reports in the powerbi app so let's first take a look at some of the reports that we updated in the manufacturing power PI app the first is the work center load report here you can see the"
+    },
+    {
+      "t": 136.5,
+      "end": 156.5,
+      "text": "original version from last semester and here you can see the updated report another example is expected capacity need where uh the previous one here is in the left and uh the new version here is on the right and I'll demo all three so that you"
+    },
+    {
+      "t": 156.5,
+      "end": 176.5,
+      "text": "get a closer look the final one I want to show you is finished production order breakdown again you can see uh the original version here on the left and the current version now so let's dive into powerbi and just uh explore these three updated reports so the reworked work"
+    },
+    {
+      "t": 176.5,
+      "end": 196.8,
+      "text": "center report um or load report is first of all showing a better visualization across your work centers here um with color scheme of allocated time and also how much is then available after you have put in orders the new design is also"
+    },
+    {
+      "t": 196.8,
+      "end": 217,
+      "text": "um much easier if you have multiple work centers so that um it it simply fits the screen better and then we decided to put in a detailed um statistics report below here so that you can um whenever you pick a single work center here you can"
+    },
+    {
+      "t": 217,
+      "end": 237.2,
+      "text": "then um dive into the details in the table the updated expected capacity need report have a couple of enhancements first of all you can see that the report now both shows analytics or insights by work center and also show"
+    },
+    {
+      "t": 237.2,
+      "end": 252.3,
+      "text": "it by Machine Center and the second enhancement is that the details here is not only on the order but you can actually go down to the order line level as"
+    },
+    {
+      "t": 252.3,
+      "end": 272.4,
+      "text": "well the final updated report I want to show you here is the finished production order breakdown this uh new version of the report um shows first of all kpi but there's also a new focus on costs and the breakdown of cost cost by production order here you can see"
+    },
+    {
+      "t": 272.4,
+      "end": 293,
+      "text": "the actual costs uh the actual capacity overhead cost the cost Associated to overhead um the actual overhead cost and so on so um hopefully that gives you a better way to to look at your production orders uh with that view in mind um"
+    },
+    {
+      "t": 293,
+      "end": 313.3,
+      "text": "breaking down the cost for them we also added a lot of new reports some of them under not as visually appealing as what you maybe see in the sales app or other apps and that's because we Mig graded or replicated a lot of the statistical reports from Legacy"
+    },
+    {
+      "t": 313.3,
+      "end": 334,
+      "text": "power um manufacturing so that's why they're very table like in at least in the first version here we might change that in a later release Here you see the work center statistics report and note that you can see capacity in minutes uh that is something that that you can change but you have to get access"
+    },
+    {
+      "t": 334,
+      "end": 354.4,
+      "text": "to the powerbi um file for that and uh let's see if we can make that happen the second report is a machine Center statistics very similar um to the other one except this shows you also statistics on scrap"
+    },
+    {
+      "t": 354.4,
+      "end": 374.8,
+      "text": "um and uh let me actually just show you that so here is the report live you have a lot of a lot of numbers here so many that I even need to scroll to the right here uh to see things um or measures kpi such as allocated time"
+    },
+    {
+      "t": 374.8,
+      "end": 390.4,
+      "text": "Center output scrap scrap percentage uh stop time and so on so um this machine Center statistics should give you everything you need to go down on that detail in your"
+    },
+    {
+      "t": 390.4,
+      "end": 410.4,
+      "text": "tion the final report I will demo today there are actually many more is the production order rounding lines Gant chart so with this report um you can either look at your production order lines or routing lines in a visual way here whenever you"
+    },
+    {
+      "t": 410.4,
+      "end": 430.8,
+      "text": "interact with the visual Parts the table part will follow along if you think this particular visual is too small you can always make it uh bigger in the focus mode here and then uh you can interact with the different parts uh or sorry different orders and see the routing lines"
+    },
+    {
+      "t": 430.8,
+      "end": 450.8,
+      "text": "over this timeline this is not on live data this is the data that has been refreshed in the powerbi uh report so um so you might also want have to have more live versions of this but we U we we still thought it would be interesting to see the routing line in a g chart"
+    },
+    {
+      "t": 450.8,
+      "end": 471.5,
+      "text": "in the report so let us know what you think and and how how you can use this in your daily operations now this was just a sneak peek into the enhanced powerbi app for manufacturing that we ship in version 26.1 you might have noticed that I am not demoing in the embedded experience this is because"
+    },
+    {
+      "t": 471.5,
+      "end": 491.8,
+      "text": "right now and when we record this that part we're still finishing up so that's why I'm I'm showing the raw pay powerbi um in this updated app you can see here on the screen that we have updated uh these six reports um we will also likely"
+    },
+    {
+      "t": 491.8,
+      "end": 511.8,
+      "text": "deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove them in a later one and then you get new reports I you saw work center statistics machine load um a few these uh but we also and at"
+    },
+    {
+      "t": 511.8,
+      "end": 532.3,
+      "text": "the routing um again there are also task uh a task list um drill through that apparently I have twice here on the list so sorry about that um so try it out try see how it works for you give us feedback if we need to do some adjustments we'll happy to do that"
+    },
+    {
+      "t": 532.3,
+      "end": 540.4,
+      "text": "uh to make this um really useful for your manufacturing business"
+    },
+    {
+      "t": 540.4,
+      "end": 551.4,
+      "text": "if you're interested in learning more about analytics in the manufacturing area the easiest way I find is simply to have this AKA Link"
+    },
+    {
+      "t": 551.4,
+      "end": 571.4,
+      "text": "aka.ms slbc Manufacturing analytics and let's just uh go there and see what that is all about and then um you are off for this video and can go and learn some other things so the manufacturing analytics landing page follow the same structure as all the"
+    },
+    {
+      "t": 571.4,
+      "end": 592.2,
+      "text": "other functional areas I'll just scroll down a little here um so we are under manufacturing and here you have both the documentation for the powerbi app each of the pages have their own documentation page but you also here have an overview of production uh reports"
+    },
+    {
+      "t": 592.2,
+      "end": 612.8,
+      "text": "uh here both um the Legacy ones uh the ones that will likely be started a in this release wave and a lot of the new reports that if you want to see what that's about you need to go and watch the the other video on what's new in manufacturing analytics"
+    },
+    {
+      "t": 612.8,
+      "end": 627,
+      "text": "for with reporting aspects so with that I wish you a great launch event I hope you learned something here and also we'll continue learning in the other sessions thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1450
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1011.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1011",
+  "title": "Project Suggested Billing (report)",
+  "blob": "509f4026b548a63cb1ab5072b8879dd6b56f7346",
+  "summary": "The Project Suggested Billing report lists projects grouped by customer showing invoiced amounts and remaining amounts to bill.",
+  "systems": [
+    "projects",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "project billing",
+    "suggested billing",
+    "customer grouping",
+    "invoiced amounts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Suggested Billing"
+    }
+  ],
+  "features": [
+    "projects by customer",
+    "invoiced amounts",
+    "remaining to invoice",
+    "total amounts",
+    "currency selection",
+    "regional alternatives"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

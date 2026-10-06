@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1007.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1007",
+  "title": "Project Task Transaction Detail (report)",
+  "blob": "06f78d6b9c9ce24b93d3ba58ae50f53f8def0a27",
+  "summary": "The Project Task Transaction Detail report shows posted project tasks with resource and item details, costs, sales, and line discounts from project ledger entries.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project tasks",
+    "transaction detail",
+    "resources",
+    "items",
+    "project ledger"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Task Transaction Detail"
+    }
+  ],
+  "features": [
+    "posted project tasks",
+    "resources",
+    "items",
+    "total costs",
+    "total sales",
+    "line discounts",
+    "currency selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

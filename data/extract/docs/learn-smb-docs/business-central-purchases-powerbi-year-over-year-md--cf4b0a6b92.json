@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-year-over-year.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year",
+  "title": "Year-Over-Year (Power BI Report)",
+  "blob": "02ca066621ffb6acec1de72c659ddca83a2f2be2",
+  "summary": "Year-Over-Year Power BI report compares purchase amounts in the current year with previous year to analyze purchasing performance, track spending trends, and support budgeting decisions.",
+  "systems": [
+    "purchasing",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "year-over-year analysis",
+    "power bi report",
+    "purchasing trends",
+    "spending patterns",
+    "budget forecasting"
+  ],
+  "objects": [],
+  "features": [
+    "Current Year",
+    "Previous Year (Fiscal)",
+    "Purchase Amount YOY (Fiscal)",
+    "Purchase (LCY)",
+    "%GT Purchase (LCY)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

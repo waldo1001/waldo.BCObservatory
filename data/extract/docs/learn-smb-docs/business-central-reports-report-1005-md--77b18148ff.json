@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1005.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1005",
+  "title": "Project Journal - Test (report)",
+  "blob": "8eb0ccf80a9e58a6c497fbab0d69697fed6485c6",
+  "summary": "The Project Journal - Test report displays journal lines in the project journal with optional dimensions information.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project journal",
+    "journal lines",
+    "dimensions",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Journal - Test"
+    }
+  ],
+  "features": [
+    "journal lines",
+    "dimensions information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

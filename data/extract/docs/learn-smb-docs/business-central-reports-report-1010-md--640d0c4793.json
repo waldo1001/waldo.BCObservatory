@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1010.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1010",
+  "title": "Project WIP to G/L (report)",
+  "blob": "a73c77b3c1b4f7d8da4b32e9b49b58aa6e5c0108",
+  "summary": "The Project WIP to G/L report compares work in process value on selected projects to the amount posted in the general ledger.",
+  "systems": [
+    "projects",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "work in process",
+    "wip",
+    "general ledger",
+    "project valuation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project WIP to G/L"
+    }
+  ],
+  "features": [
+    "work in process",
+    "general ledger comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

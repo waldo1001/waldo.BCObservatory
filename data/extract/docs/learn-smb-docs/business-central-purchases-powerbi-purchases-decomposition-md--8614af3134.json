@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-decomposition.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition",
+  "title": "Purchases Decomposition (Power BI Report)",
+  "blob": "e1b91574a9e81dc29266ab5eb29b864edca6c727",
+  "summary": "Purchases Decomposition Power BI report breaks down total purchase amount by item categories, vendors, fiscal periods, and document types to analyze spending patterns and optimize purchasing processes.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "purchasing analytics",
+    "power bi report",
+    "cost breakdown",
+    "spending patterns",
+    "supply chain"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "%GT Purchase (LCY)",
+    "%GT Purchase Quantity",
+    "cost analysis by vendor",
+    "category breakdown"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

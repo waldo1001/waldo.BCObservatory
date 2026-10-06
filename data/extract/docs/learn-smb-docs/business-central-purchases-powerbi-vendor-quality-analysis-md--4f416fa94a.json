@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-vendor-quality-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-vendor-quality-analysis",
+  "title": "Vendor Quality Analysis (Power BI Report)",
+  "blob": "60f2e3b57255050e2781236bfcca321fe439154c",
+  "summary": "Vendor Quality Analysis Power BI report analyzes vendor performance including quality, returns, reliance, and discount trends to identify trusted vendors, manage supply chain risks, and optimize supplier relationships.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "vendor quality",
+    "power bi report",
+    "supply chain risk",
+    "supplier performance",
+    "discount analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "Return Rate (Amount)",
+    "Spend Reliance %",
+    "Item Reliance %",
+    "Purchase Value Entries Discount %",
+    "No. of Single Supplier Items"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

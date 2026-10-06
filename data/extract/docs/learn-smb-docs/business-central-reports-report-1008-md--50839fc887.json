@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1008.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1008",
+  "title": "Project Analysis (report)",
+  "blob": "86e4f47707a6dbd0e2dcece05613b1d8531d8b1c",
+  "summary": "The Project Analysis report provides financial overview of projects comparing budgeted, usage, and billable prices through customizable amount fields.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project analysis",
+    "financial overview",
+    "budgeted prices",
+    "usage prices",
+    "billable prices"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Analysis"
+    }
+  ],
+  "features": [
+    "amount fields",
+    "schedule",
+    "usage",
+    "contract",
+    "invoiced",
+    "currency selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

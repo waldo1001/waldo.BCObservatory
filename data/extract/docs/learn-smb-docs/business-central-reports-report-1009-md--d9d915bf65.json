@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1009.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1009",
+  "title": "Project Actual to Budget (report)",
+  "blob": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4",
+  "summary": "The Project Actual to Budget report compares scheduled and used amounts for projects, showing quantity, cost, and line amount for completed or in-progress projects.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "actual to budget",
+    "project comparison",
+    "scheduled amounts",
+    "used amounts",
+    "cost analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Actual to Budget"
+    }
+  ],
+  "features": [
+    "scheduled amounts",
+    "used amounts",
+    "quantity",
+    "total cost",
+    "line amount",
+    "currency selection",
+    "regional alternatives"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

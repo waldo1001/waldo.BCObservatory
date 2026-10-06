@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "02ca066621ffb6acec1de72c659ddca83a2f2be2",
       "words": 375,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:17.303Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:29.372Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:29.373Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:29.375Z",
+      "page": false
     }
   },
   "input_hash": "02ca066621ffb6acec1de72c659ddca83a2f2be2",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02ca066621ffb6acec1de72c659ddca83a2f2be2"
+  "output_hash": "2e4b4b6c7faf28ba430748be0e83c1f85c80123e8bf518f214a2f5ed8fba14be"
 }

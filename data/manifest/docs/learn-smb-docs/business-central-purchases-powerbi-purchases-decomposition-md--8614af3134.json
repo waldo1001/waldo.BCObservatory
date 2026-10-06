@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e1b91574a9e81dc29266ab5eb29b864edca6c727",
       "words": 270,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:17.299Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:29.359Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:29.361Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:29.362Z",
+      "page": false
     }
   },
   "input_hash": "e1b91574a9e81dc29266ab5eb29b864edca6c727",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e1b91574a9e81dc29266ab5eb29b864edca6c727"
+  "output_hash": "20d8337ddfb325d8a1f059aa3e75734b24f5e7b7590a523415b3ab61d5c55665"
 }

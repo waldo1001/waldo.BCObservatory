@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a5e78e98e05b5f9bfb787ffa6522c8c46a7e3601",
       "words": 273,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:17.298Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:27.593Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:27.594Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:27.596Z",
+      "page": false
     }
   },
   "input_hash": "a5e78e98e05b5f9bfb787ffa6522c8c46a7e3601",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a5e78e98e05b5f9bfb787ffa6522c8c46a7e3601"
+  "output_hash": "eb58d8c6c0a186961ad5d33fe2542018d91b35e0b641423e1863251b0e149807"
 }

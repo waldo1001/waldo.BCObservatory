@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "edbb44020294c1169f63a3d7d9fc7cbdc286eb91",
       "words": 341,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:17.301Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:29.364Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:29.365Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:29.366Z",
+      "page": false
     }
   },
   "input_hash": "edbb44020294c1169f63a3d7d9fc7cbdc286eb91",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "edbb44020294c1169f63a3d7d9fc7cbdc286eb91"
+  "output_hash": "98aad69be4cc37f7e6a23ea92c8c3055a4e2b9c685bed60299253d5b74966068"
 }

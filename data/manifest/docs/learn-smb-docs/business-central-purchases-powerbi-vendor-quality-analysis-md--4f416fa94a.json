@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-vendor-quality-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60f2e3b57255050e2781236bfcca321fe439154c",
       "words": 371,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:17.302Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:29.368Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:29.369Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:29.370Z",
+      "page": false
     }
   },
   "input_hash": "60f2e3b57255050e2781236bfcca321fe439154c",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60f2e3b57255050e2781236bfcca321fe439154c"
+  "output_hash": "4eeabc566c6dc55243b7a816a00f5c7b0a2d9dc48f66be59b9d5418d45bc4023"
 }

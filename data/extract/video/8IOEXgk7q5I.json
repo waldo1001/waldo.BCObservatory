@@ -1,0 +1,289 @@
+{
+  "video_id": "8IOEXgk7q5I",
+  "item_id": "video/yt-microsoft/8IOEXgk7q5I",
+  "title": "What's New: Cost Adjustment (2025 release wave 1)",
+  "duration_s": 424,
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "cost adjustment",
+    "inventory valuation",
+    "high-volume items",
+    "iterative adjustment",
+    "forced adjustment",
+    "self-diagnostics",
+    "cost adjustment tracer",
+    "item by item commit"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and four key enhancements",
+      "t_start": 0,
+      "t_end": 67.3
+    },
+    {
+      "title": "Iterative adjustment for high-volume items",
+      "t_start": 67.3,
+      "t_end": 132.3
+    },
+    {
+      "title": "Item by item commit mode",
+      "t_start": 132.3,
+      "t_end": 156.5
+    },
+    {
+      "title": "Forced adjustment and reprocessing entries",
+      "t_start": 156.5,
+      "t_end": 204.2
+    },
+    {
+      "title": "Self-diagnostics for detecting issues",
+      "t_start": 204.2,
+      "t_end": 267.6
+    },
+    {
+      "title": "Cost adjustment tracer tool",
+      "t_start": 267.6,
+      "t_end": 386.9
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 386.9,
+      "t_end": 424
+    }
+  ],
+  "features": [
+    {
+      "name": "Iterative adjustment for high-volume items",
+      "description": "Allows cost adjustment on a period by period basis through the inventory cost adjustment page. Users can select an item, choose a date, and run adjust cost until valuation date to handle large transaction volumes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67.3,
+      "t_end": 132.3,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to one run per period"
+      ],
+      "tags": [
+        "high-volume",
+        "performance",
+        "inventory valuation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Specific order adjustment",
+      "description": "Enables adjustment of specific production and assembly orders by selecting individual orders and choosing adjust cost for selected orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111.8,
+      "t_end": 132.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "production orders",
+        "assembly orders"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item by item commit",
+      "description": "Reduces lock times and prevents full reruns if one item fails. Activated via the adjust cost item entries report with item by item adjustment toggle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.3,
+      "t_end": 156.5,
+      "is_demoed": false,
+      "caveats": [
+        "Only available in adjust cost item entries report"
+      ],
+      "tags": [
+        "performance",
+        "reliability",
+        "locking"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Mark for adjustment action",
+      "description": "Forces rerun of cost adjustment for items that are marked as adjusted but carry incorrect costs. Mark inbound entries for adjustment to recalculate linked outbound entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.5,
+      "t_end": 193.4,
+      "is_demoed": false,
+      "caveats": [
+        "For old or highly customized environments"
+      ],
+      "tags": [
+        "forced adjustment",
+        "data correction"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Application Entries page with reset action",
+      "description": "New page allowing reset of outbound entries to reprocess them in the next cost adjustment, ensuring entries are reconsidered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 176.5,
+      "t_end": 204.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "forced adjustment",
+        "outbound entries"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost adjustment self-diagnostics",
+      "description": "Automatically scans setup and cost adjustment data to detect potential issues. Displays notifications and lists warnings about inefficiencies, settings, inventory periods, production orders, and data discrepancies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 204.2,
+      "t_end": 267.6,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot be completely disabled",
+        "Can be snoozed up to 30 days"
+      ],
+      "tags": [
+        "diagnostics",
+        "proactive",
+        "monitoring"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost adjustment tracer tool",
+      "description": "Analyzes cost adjustment process by recording events, processed entries, items, locations, variances, production and assembly orders, and cost differences. Creates a log saved to database for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.6,
+      "t_end": 386.9,
+      "is_demoed": true,
+      "caveats": [
+        "Timeout can be set up to 12 hours",
+        "Log can be too large to analyze manually"
+      ],
+      "tags": [
+        "diagnostics",
+        "troubleshooting",
+        "tracing",
+        "performance"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Cost Adjustment",
+      "t": 87.4
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries",
+      "t": 176.5
+    },
+    {
+      "type": "page",
+      "name": "Item Application Entries",
+      "t": 176.5
+    },
+    {
+      "type": "report",
+      "name": "Adjust Cost - Item Entries",
+      "t": 137.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexa Driansky",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.5,
+      "text": "adjustment is a crucial step for ensuring accurate inventory valuation in the system and we've been working a lot to making it more",
+      "why_it_matters": "Establishes the importance of cost adjustment and the three dimensions of improvement focus.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 35.6,
+      "text": "iterative adjustment for better control over a large volume of transactions forced adjustment to correct issues when needed a self diagnostics",
+      "why_it_matters": "Explicitly names the four key enhancements being delivered in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 67.3,
+      "text": "for items with large amount of transaction can be challenging and the cost adjustment might might not finish in one run to make it",
+      "why_it_matters": "Explains the problem solved by iterative adjustment for high-volume items.",
+      "check": "exact"
+    },
+    {
+      "t": 132.3,
+      "text": "we've also introduced item by item commit which helps to reduce lock times and to prevent full reruns if one of the items fail",
+      "why_it_matters": "Describes the benefit of item by item commit mode for reliability and performance.",
+      "check": "exact"
+    },
+    {
+      "t": 204.2,
+      "text": "to help you detect and uh resolve inefficiencies business Central now scans your setup and the coast adjustment data when you open the inventory",
+      "why_it_matters": "Introduces the self-diagnostics feature as proactive, automatic scanning.",
+      "check": "exact"
+    },
+    {
+      "t": 267.6,
+      "text": "the Diagnostics happens automatically but you can manually run a scan any time using run checks action if you need a break if you",
+      "why_it_matters": "Clarifies that diagnostics runs automatically, can be snoozed for up to 30 days, but cannot be disabled.",
+      "check": "exact"
+    },
+    {
+      "t": 288,
+      "text": "Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help",
+      "why_it_matters": "Explains the purpose of the tracer tool for troubleshooting long-running adjustments.",
+      "check": "exact"
+    },
+    {
+      "t": 366.7,
+      "text": "we introduced the inventory course adjustment tool a year ago and since then we have continued improving its perform performance and features",
+      "why_it_matters": "Provides context that the inventory cost adjustment tool was introduced previously and these are enhancements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017639000000000002
+    }
+  ]
+}

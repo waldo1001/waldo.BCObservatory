@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1006.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1006",
+  "title": "Project Planning Lines (report)",
+  "blob": "81e618a85c666e94be3e7d923d9fe3449a70103d",
+  "summary": "The Project Planning Lines report shows planning lines by project task including line type, quantities, unit of measure, and total costs.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project planning",
+    "planning lines",
+    "project tasks",
+    "costs"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Planning Lines"
+    }
+  ],
+  "features": [
+    "planning lines by task",
+    "line type",
+    "quantities",
+    "unit of measure",
+    "total costs",
+    "currency selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001231,
+      "pages_in_call": 8
+    }
+  ]
+}

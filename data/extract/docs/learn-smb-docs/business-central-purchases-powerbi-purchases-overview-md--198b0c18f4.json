@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview",
+  "title": "Purchases Overview (Power BI Report)",
+  "blob": "edbb44020294c1169f63a3d7d9fc7cbdc286eb91",
+  "summary": "Purchases Overview Power BI report shows total purchase amounts, outstanding liabilities, invoiced purchases, and breaks down quantities by location and item category for budget management and vendor evaluation.",
+  "systems": [
+    "purchasing",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "purchasing analytics",
+    "power bi report",
+    "budget management",
+    "vendor performance",
+    "financial analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "Outstanding Invoices (LCY)",
+    "Outstanding Orders (LCY)",
+    "Amt. Rcd. Not Invoiced (LCY)",
+    "Purchase Quantity",
+    "Purchase Amount PY (Fiscal)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

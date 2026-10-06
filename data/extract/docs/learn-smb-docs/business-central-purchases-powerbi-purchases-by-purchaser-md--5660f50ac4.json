@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-purchaser.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-purchaser",
+  "title": "Purchases by Purchaser (Power BI Report)",
+  "blob": "dfc211cfd1e961fd0b2f5fc45d5330dabb70c99f",
+  "summary": "Purchases by Purchaser Power BI report provides analysis of purchasing activities for each purchaser, including item categories, purchase amounts, and quantities bought most frequently.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "purchasing analytics",
+    "power bi report",
+    "purchaser analysis",
+    "purchasing trends",
+    "kpi tracking"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "Purchase Quantity",
+    "% GT Purchase (LCY)",
+    "% GT Purchase Quantity",
+    "No. of Posted Purchase Invoices"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}
