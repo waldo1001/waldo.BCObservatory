@@ -7,16 +7,40 @@
   "url": "https://www.youtube.com/watch?v=fWBehdiuDpE",
   "published_at": "2026-09-21T11:00:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:47:51.156Z",
+      "captions": "auto:en-orig",
+      "duration_s": 773
+    },
+    "captioned": {
+      "at": "2026-10-06T16:47:57.667Z",
+      "path": "vault:captions/community/yt-hougaard/fWBehdiuDpE.vtt",
+      "vtt_sha256": "172caf94c3ab775ec71b255ed5fa365226ef96c278bb0b3f04a17f0ca89a8ded",
+      "segments": 63,
+      "words": 1661,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw"
-  }
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 773,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "172caf94c3ab775ec71b255ed5fa365226ef96c278bb0b3f04a17f0ca89a8ded",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T16:48:22.666Z"
 }

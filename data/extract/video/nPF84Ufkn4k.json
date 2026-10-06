@@ -1,0 +1,854 @@
+{
+  "video_id": "nPF84Ufkn4k",
+  "item_id": "video/yt-microsoft/nPF84Ufkn4k",
+  "title": "Business Central Under the Hood episode 13: Inside the Agent Runtime",
+  "duration_s": 2497,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent runtime",
+    "task execution engine",
+    "logical client api",
+    "llm statelessness",
+    "agent memory",
+    "grounding",
+    "content validation",
+    "hallucination prevention",
+    "prompt engineering",
+    "loop detection",
+    "agent recovery",
+    "timeline grouping"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the Agent Runtime",
+      "t_start": 0,
+      "t_end": 52.1
+    },
+    {
+      "title": "Agent Runtime Architecture and Components",
+      "t_start": 52.1,
+      "t_end": 133.6
+    },
+    {
+      "title": "The Logical Client API and Agent Interaction",
+      "t_start": 133.6,
+      "t_end": 268.6
+    },
+    {
+      "title": "Agent Behavior and Memory Management",
+      "t_start": 268.6,
+      "t_end": 395.2
+    },
+    {
+      "title": "Agent Task Execution Workflow and State",
+      "t_start": 395.2,
+      "t_end": 626.1
+    },
+    {
+      "title": "Supporting Prompts and Content Analysis",
+      "t_start": 626.1,
+      "t_end": 739.2
+    },
+    {
+      "title": "Grounding: Validating LLM Output Against Data",
+      "t_start": 739.2,
+      "t_end": 915.4
+    },
+    {
+      "title": "Loop Detection and Agent Recovery",
+      "t_start": 915.4,
+      "t_end": 1026.6
+    },
+    {
+      "title": "Validation Error Handling and User Intervention",
+      "t_start": 1026.6,
+      "t_end": 1083.8
+    },
+    {
+      "title": "Timeline Grouping and Task Summarization",
+      "t_start": 1083.8,
+      "t_end": 1182
+    },
+    {
+      "title": "Multiple Prompts in Runtime Architecture and Model Selection",
+      "t_start": 1182,
+      "t_end": 1371.9
+    },
+    {
+      "title": "Model Evolution and Testing Strategies",
+      "t_start": 1371.9,
+      "t_end": 1679.5
+    },
+    {
+      "title": "Accuracy Testing and Non-Deterministic LLM Behavior",
+      "t_start": 1679.5,
+      "t_end": 2070.8
+    },
+    {
+      "title": "MCP Tool Integration and Cross-Task Memory",
+      "t_start": 2070.8,
+      "t_end": 2280.4
+    },
+    {
+      "title": "Future Improvements and Impact on Partners",
+      "t_start": 2280.4,
+      "t_end": 2497
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Runtime",
+      "description": "The foundation layer for agents in Business Central that includes the underlying data model for storing agent tasks, the agent task execution engine, and supporting functions like timeline view data preparation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11,
+      "t_end": 111.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "foundation",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent SDK",
+      "description": "A layer that allows developers to build custom agent applications on top of the agent runtime components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 133.6,
+      "t_end": 143.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sdk",
+        "development",
+        "extensibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Logical Client API",
+      "description": "A JSON-based API that provides information about the current page including fields, actions, and tooltips. This API was originally designed for rendering pages across Windows client, web, and mobile platforms, and is now reused for agents to interact with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.8,
+      "t_end": 254,
+      "is_demoed": false,
+      "caveats": [
+        "Pre-existing technology not originally designed for AI"
+      ],
+      "tags": [
+        "api",
+        "page representation",
+        "logical layer"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Memory System",
+      "description": "A memory mechanism that maintains context across agent operations, remembering visited pages, search results, and allowing agents to write notes for later reference in subsequent prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.2,
+      "t_end": 626.1,
+      "is_demoed": false,
+      "caveats": [
+        "Memory is partial and included in subsequent prompts"
+      ],
+      "tags": [
+        "memory",
+        "context",
+        "state management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Execute Task Prompt",
+      "description": "The core prompt that directs the LLM to decide what action to take next based on the current page representation, field values, and available actions. The most complex prompt in the runtime, growing dynamically as the agent performs more steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 321.8,
+      "t_end": 1274.3,
+      "is_demoed": true,
+      "caveats": [
+        "Dynamic growth as task progresses; highly variable in size"
+      ],
+      "tags": [
+        "prompt",
+        "task execution",
+        "llm decision making",
+        "core component",
+        "ui automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Input Content Analysis",
+      "description": "Auxiliary prompts that analyze input messages to agents (such as emails) for harmful content, including violent language and attempts to bypass agent constraints or gain unauthorized data access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 687.4,
+      "t_end": 739.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "content analysis",
+        "safety",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Output Content Validation",
+      "description": "Validation checks performed on agent-generated output messages to ensure correct language, proper number formatting, correct dates, and that any data in the output is grounded in information the agent has actually seen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 739.2,
+      "t_end": 793,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "output quality",
+        "formatting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Grounding Validation",
+      "description": "A technique using a separate LLM prompt to verify that generated content containing data actually matches the underlying data. This prevents hallucination by having an evaluator prompt check that output data is consistent with data the agent has seen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 793,
+      "t_end": 902,
+      "is_demoed": true,
+      "caveats": [
+        "Requires two LLM calls instead of one",
+        "Evaluator approach is good at matching but not perfect",
+        "Essential for ERP systems handling sensitive data like sales orders"
+      ],
+      "tags": [
+        "grounding",
+        "hallucination prevention",
+        "data validation",
+        "accuracy",
+        "llm safety"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Loop Detection in Agent Execution",
+      "description": "A runtime mechanism that detects when an agent gets stuck repeating the same tool calls or bouncing between actions in unexpected loops. The system uses prompts to identify true loops versus expected repetitive behavior and attempts to nudge the agent to recover.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 927.1,
+      "t_end": 1026.6,
+      "is_demoed": false,
+      "caveats": [
+        "Must distinguish between expected and unexpected loops"
+      ],
+      "tags": [
+        "agent control",
+        "error recovery",
+        "prompt-based detection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Intervention Prompts",
+      "description": "When loop detection identifies a stuck agent, the runtime acts as the user to provide feedback like 'Hey, I think you're in a loop. This doesn't look like you're progressing. Try to get out of it.' This gives the agent a chance to self-correct before requiring human intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1003.4,
+      "t_end": 1026.6,
+      "is_demoed": false,
+      "caveats": [
+        "User must intervene if agent cannot self-correct"
+      ],
+      "tags": [
+        "automation",
+        "fallback handling",
+        "user experience"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Validation Error Recovery",
+      "description": "When an agent sets a field with wrong format causing validation errors on pages, the runtime allows the agent to retry with different inputs. This mirrors human behavior of making mistakes, receiving errors, and trying again.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1039.9,
+      "t_end": 1070.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "retry logic",
+        "field validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Timeline Step Grouping and Summarization",
+      "description": "The runtime groups multiple individual agent steps into logical operations for display in the timeline. Uses a combination of deterministic rules and prompting to show coarse-grained operations like 'create sales quote' or 'sent mail' instead of every individual click and field fill.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1083.8,
+      "t_end": 1182,
+      "is_demoed": false,
+      "caveats": [
+        "Full granular step logs available in agent task logs but not shown by default"
+      ],
+      "tags": [
+        "ui/ux",
+        "timeline display",
+        "step summarization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Logs",
+      "description": "Detailed logs accessible in the product that capture every step the agent performed. Users can drill into these logs to see the complete execution trace, though this detailed view is not the default display experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1169.6,
+      "t_end": 1182,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "transparency",
+        "logs"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multiple Prompts in Agent Runtime",
+      "description": "The agent runtime uses approximately 20 different prompts for various functions beyond the main task execution. These range from simple small prompts for simple tasks to complex dynamic prompts, handling grounding, validation, loop detection, timeline grouping, and other control flow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1182,
+      "t_end": 1233.3,
+      "is_demoed": false,
+      "caveats": [
+        "Number has grown over time; includes prompts of varying complexity"
+      ],
+      "tags": [
+        "architecture",
+        "prompt design",
+        "runtime control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Model Runtime Strategy",
+      "description": "The agent runtime uses multiple LLM models optimized for different tasks. Simpler prompts use mini versions of model families for speed and cost, while complex prompts like execute task use full-size models for better quality, despite being slower.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1274.3,
+      "t_end": 1337,
+      "is_demoed": false,
+      "caveats": [
+        "Requires testing each prompt with mini versions to ensure capability"
+      ],
+      "tags": [
+        "model optimization",
+        "cost efficiency",
+        "performance tuning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mini vs Full Model Evaluation",
+      "description": "The runtime evaluates whether smaller mini versions of language models can handle each prompt's requirements. Tasks like summarization and grounding can often run on mini models, which are considerably faster and cheaper than full models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.3,
+      "t_end": 1361.2,
+      "is_demoed": false,
+      "caveats": [
+        "Each prompt must have tests covering scenarios where it's expected to work"
+      ],
+      "tags": [
+        "cost optimization",
+        "performance",
+        "model testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Reasoning Model Evaluation for Agent Execution",
+      "description": "The team evaluated reasoning models (GPT-o1 and GPT-5 with reasoning) for the execute task prompt but found they introduced significant latency increases. For multi-step agent execution, the improved reasoning did not provide sufficient accuracy benefits to justify the performance cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1371.9,
+      "t_end": 1484.1,
+      "is_demoed": false,
+      "caveats": [
+        "Constantly re-evaluating as new models arrive; reasoning effort levels can be tweaked"
+      ],
+      "tags": [
+        "model testing",
+        "latency tradeoff",
+        "performance analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dynamic Model Selection Strategy",
+      "description": "The runtime may eventually use a hybrid approach where reasoning is applied selectively for certain steps while using faster, cheaper small models for others, optimizing latency and cost across multi-step agent execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1529.8,
+      "t_end": 1554.8,
+      "is_demoed": false,
+      "caveats": [
+        "Under evaluation; depends on LLM landscape which moves rapidly"
+      ],
+      "tags": [
+        "optimization",
+        "future direction",
+        "hybrid approach"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Scenario-Based Testing Framework",
+      "description": "A testing system that spins up agents with specific instructions based on scenarios, runs them against test data, and validates outcomes against expectations. Tests are split into accuracy tests for regular scenarios and challenge tests for complex situations where the runtime currently struggles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1564.9,
+      "t_end": 1738.1,
+      "is_demoed": false,
+      "caveats": [
+        "Tests do not verify exact steps, only that goals are reached",
+        "Challenge test results vary by model and prompt"
+      ],
+      "tags": [
+        "testing",
+        "evaluation",
+        "quality assurance",
+        "agent runtime"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model-Specific Prompt Tuning",
+      "description": "When switching to a new model, the team tweaks prompts to ensure existing tests continue passing. Different model versions may require prompt adjustments for validation, execute task, or other functions to maintain compatibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1623.5,
+      "t_end": 1890.1,
+      "is_demoed": false,
+      "caveats": [
+        "No model upgrade has allowed completely in-place updates without any modifications",
+        "Adjustments are typically small wording changes, not complete rewrites"
+      ],
+      "tags": [
+        "prompt engineering",
+        "model updates",
+        "tuning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Tools Integration for Agents",
+      "description": "Agent developers can give agents extra tools using MCP, the common standard nowadays, to enhance agent capabilities when building custom agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2070.8,
+      "t_end": 2105.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still in evaluation phase for effectiveness",
+        "Needs testing to verify it actually improves accuracy"
+      ],
+      "tags": [
+        "tools",
+        "integration",
+        "extensibility",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cross-Task Memory for Agents",
+      "description": "A feature being explored that allows agents to remember feedback and corrections across different tasks, so if an agent makes a mistake or needs help, it does not need to ask for the same help again on subsequent tasks. Also referred to as teaching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2105.4,
+      "t_end": 2220,
+      "is_demoed": false,
+      "caveats": [
+        "Mechanism for when to remember is still TBD",
+        "Could use a checkbox when providing feedback or automatic decision",
+        "Currently only remembers within a single task"
+      ],
+      "tags": [
+        "memory",
+        "learning",
+        "agent improvement",
+        "feedback"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Knowledge Base Integration",
+      "description": "Agents will be able to consult external knowledge bases like Microsoft Learn and BC documentation to find answers without asking the user. Similar to how Copilot chat can query knowledge bases for BC documentation and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2220,
+      "t_end": 2280.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still being evaluated for whether it actually helps",
+        "Needs testing in challenge test scenarios before deployment"
+      ],
+      "tags": [
+        "knowledge management",
+        "documentation",
+        "external integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Accuracy Improvements",
+      "description": "Ongoing work to improve agent decision-making while maintaining existing test accuracy. The team runs multiple test cases across two built agents to ensure changes do not regress existing functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2351.9,
+      "t_end": 2388.1,
+      "is_demoed": false,
+      "caveats": [
+        "Changes may impact other scenarios",
+        "Requires careful testing",
+        "Balance needed between improvement and regression prevention"
+      ],
+      "tags": [
+        "accuracy",
+        "testing",
+        "llm",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tool Integration Feature",
+      "description": "New types of features for agent tools that would include UI elements and be documented in release notes, providing visible changes to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2430.8,
+      "t_end": 2468.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "tool integration",
+        "ui",
+        "agents"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Agent Runtime",
+      "t": 52.1
+    },
+    {
+      "type": "other",
+      "name": "Agent SDK",
+      "t": 133.6
+    },
+    {
+      "type": "other",
+      "name": "Logical Client API",
+      "t": 187.2
+    },
+    {
+      "type": "other",
+      "name": "execute task",
+      "t": 1649
+    },
+    {
+      "type": "other",
+      "name": "validation prompt",
+      "t": 1649
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Esteban",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 11,
+      "text": "we we have a few agents already in Business Central, the sales order agent and and the the payable agent",
+      "why_it_matters": "Establishes that the agent runtime has already shipped with multiple production agents built on top of it.",
+      "check": "exact"
+    },
+    {
+      "t": 76,
+      "text": "all the tables for storing your agents tasks, keeping track of what agents are doing",
+      "why_it_matters": "Shows that the agent runtime has a data model for persistent storage of agent state and task information.",
+      "check": "exact"
+    },
+    {
+      "t": 187.2,
+      "text": "it it has this JSON based API uh that we call the the logical client API that provides all the information necessary",
+      "why_it_matters": "Explains the fundamental technical foundation that agents use to understand and interact with Business Central pages.",
+      "check": "exact"
+    },
+    {
+      "t": 498.4,
+      "text": "when if you do a pure call to LLM LLM it's it's it's completely stateless. Like every time you do a call to an",
+      "why_it_matters": "Clarifies why the agent runtime needs its own memory layer and why chat history must be sent with each LLM call.",
+      "check": "exact"
+    },
+    {
+      "t": 575,
+      "text": "the agent runtime remembers for example where you have been, which page you come from, right?",
+      "why_it_matters": "Details specific types of information the agent memory system maintains across agent execution steps.",
+      "check": "exact"
+    },
+    {
+      "t": 806,
+      "text": "when when an llm generates content um you you want that content uh especially if it contains data to to be grounded",
+      "why_it_matters": "Defines the grounding technique that prevents hallucination in agent-generated responses containing business data.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 806,
+      "text": "grounding basically um when when an llm generates content um you you want that content uh especially if it contains data to to",
+      "why_it_matters": "This defines the core technique for ensuring generated content is accurate and tied to actual system data, critical for ERP systems.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 862.9,
+      "text": "instead of running one call to the LLM, you actually do two, right? So, you do first you do generate that content",
+      "why_it_matters": "Explains the cost-performance tradeoff of the grounding approach, requiring two LLM calls per validated output.",
+      "check": "exact"
+    },
+    {
+      "t": 902,
+      "text": "Yeah. So, this is what's called grounding because you make sure it's grounded in the in the data. Okay. Yeah, that's a very common",
+      "why_it_matters": "Emphasizes why grounding is essential for ERP contexts where data accuracy is non-negotiable.",
+      "check": "exact"
+    },
+    {
+      "t": 1193.4,
+      "text": "I believe we have all in all, correct me if I'm wrong, but the I think we have something like 11 prompts. So, is",
+      "why_it_matters": "Shows the architecture has grown significantly in complexity, with 20 different prompts managing various aspects of agent execution.",
+      "check": "exact"
+    },
+    {
+      "t": 1250,
+      "text": "Is that fair to say that the execute task prompt we talked about before, that's the more complex That's the most complex of them",
+      "why_it_matters": "Identifies the execute task prompt as the critical, most complex component driving UI automation in the agent runtime.",
+      "check": "exact"
+    },
+    {
+      "t": 1284.5,
+      "text": "We We are using We're not using only one model. Uh, the runtime is using more than one Um, yes, so we some of",
+      "why_it_matters": "Explains the multi-model strategy optimizing cost and latency by using appropriately-sized models for different prompt complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 1428,
+      "text": "what we found, uh, back then was there was a significant increase in in latency. Yeah, so it's a lot slower. Reasoning models, especially",
+      "why_it_matters": "Quantifies why newer reasoning models were not adopted despite theoretical benefits - the latency cost outweighs gains in multi-step agent execution.",
+      "check": "exact"
+    },
+    {
+      "t": 1484.1,
+      "text": "Um, so far we have not found, uh, any immediate benefit. benefit for our use case, but we are constantly evaluating and thinking, um,",
+      "why_it_matters": "Demonstrates continuous evaluation stance while acknowledging no near-term shift to newer reasoning models for this workload.",
+      "check": "exact"
+    },
+    {
+      "t": 1623.5,
+      "text": "The more important thing, first of all, is is making sure that the tests don't break when we switch to a new model, which,",
+      "why_it_matters": "Reveals that model upgrades don't automatically improve performance and can break existing functionality, requiring careful validation.",
+      "check": "exact"
+    },
+    {
+      "t": 1638.5,
+      "text": "Sometimes you you have to make some tweaks, and otherwise things that were working don't work anymore with again with our specific prompt and",
+      "why_it_matters": "Shows that model upgrades require prompt adjustments rather than being drop-in replacements, indicating a fundamental dependency between model and prompt behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 1754,
+      "text": "if we only measured on the the one which have the higher accuracy, we would we wouldn't we wouldn't know if it the model",
+      "why_it_matters": "Explains why challenge test scenarios are necessary - to detect improvements when accuracy metrics are already at ceiling levels.",
+      "check": "exact"
+    },
+    {
+      "t": 1890.1,
+      "text": "it seems to have been so far it actually seems to indicate there is there is a dependency and correlation between your prompt and",
+      "why_it_matters": "Confirms that prompt-model dependency is consistent across upgrades, not a one-time issue.",
+      "check": "exact"
+    },
+    {
+      "t": 1902.4,
+      "text": "it was when we trying gpt 5 reasoning some of our tests uh for example had a test email saying",
+      "why_it_matters": "Concrete example showing how different models behave differently with the same prompt, including unexpected reasoning about holidays.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1964,
+      "text": "it's not necessarily about us testing that it has performed the exact same steps in the exact same order. It's more that it has",
+      "why_it_matters": "Explains the design philosophy that agents should be tested on outcome achievement rather than procedural exactness.",
+      "check": "exact"
+    },
+    {
+      "t": 2134.6,
+      "text": "we are looking into is sort of this this we call it cross-task memory. You could consider it teaching or something as well, where",
+      "why_it_matters": "Describes an upcoming feature that would enable agents to learn and improve from user feedback across multiple tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 2184.4,
+      "text": "the mechanism for when to remember, whether it will ultimately be that you have a checkbox and say remember this when you're providing the",
+      "why_it_matters": "Indicates that cross-task memory design is still under evaluation with multiple potential implementations being considered.",
+      "check": "snapped"
+    },
+    {
+      "t": 2366.5,
+      "text": "every tool we give, every prompt change we make might lead to some other scenarios now the LLM making a different decision",
+      "why_it_matters": "Explains the core challenge in agent development - that optimizations in one area can have unintended consequences elsewhere",
+      "check": "exact"
+    },
+    {
+      "t": 2388.1,
+      "text": "we have also built two agents that have lots of test cases that we can always be running and making sure that are still",
+      "why_it_matters": "Shows the team has real shipping agents being used as continuous regression test suites for the runtime.",
+      "check": "exact"
+    },
+    {
+      "t": 2412.9,
+      "text": "usually changes that only impact accuracy is are are changes that are not necessarily visible",
+      "why_it_matters": "Clarifies that many agent improvements may be invisible to end users unless they involve new features",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1544.3,
+      "kind": "coming-later",
+      "text": "we might have a combination eventually, you know, where every once in a while we reason, um, and then we continue with a smaller model, and then we reason again."
+    },
+    {
+      "t": 2080.8,
+      "kind": "coming-later",
+      "text": "the ability to give the agent some tools like as as an agent developer, for example, using MCP"
+    },
+    {
+      "t": 2204.7,
+      "kind": "subject-to-change",
+      "text": "the mechanism for when to remember, whether it will ultimately be that you have a checkbox and say remember this when you're providing the feedback or we just decide for for ourselves like some other systems sometimes do, we it's it's still I would say TBD"
+    },
+    {
+      "t": 2231.8,
+      "kind": "coming-later",
+      "text": "the agent being able to consult some knowledge base like Microsoft Learn. Yeah, outside BC."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 25
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027314
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037707
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0643697
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009154
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040175
+    }
+  ]
+}

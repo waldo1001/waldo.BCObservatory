@@ -1,0 +1,235 @@
+{
+  "video_id": "WYd8Qn3wVQQ",
+  "item_id": "video/yt-hougaard/WYd8Qn3wVQQ",
+  "title": "Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)",
+  "duration_s": 553,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "gl budgets",
+    "spreadsheet editing",
+    "budget regions",
+    "formulas",
+    "dimensions",
+    "comparison periods",
+    "advanced spreadsheets and reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 25.4
+    },
+    {
+      "title": "Creating and Configuring a Budget Region",
+      "t_start": 25.4,
+      "t_end": 98.2
+    },
+    {
+      "title": "Setting Up Sales Budget Parameters",
+      "t_start": 98.2,
+      "t_end": 152.9
+    },
+    {
+      "title": "Editing Budget Data with Formulas",
+      "t_start": 152.9,
+      "t_end": 240
+    },
+    {
+      "title": "Working with Multiple Regions and Compare Periods",
+      "t_start": 240,
+      "t_end": 319.7
+    },
+    {
+      "title": "Configuring Comparison Columns and Formatting",
+      "t_start": 319.7,
+      "t_end": 392.9
+    },
+    {
+      "title": "Adding Dimension Details to Budgets",
+      "t_start": 392.9,
+      "t_end": 515.2
+    },
+    {
+      "title": "Access Control and AppSource Availability",
+      "t_start": 515.2,
+      "t_end": 553
+    }
+  ],
+  "features": [
+    {
+      "name": "Budget regions in spreadsheets",
+      "description": "Areas of a spreadsheet that are linked to Business Central data, allowing users to edit GL budgets directly in a spreadsheet interface with Excel-like functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 48.9,
+      "t_end": 152.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "budget-regions",
+        "spreadsheet-editing",
+        "gl-budgets"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Budget formulas in spreadsheets",
+      "description": "Users can enter spreadsheet formulas directly into budget cells that calculate results and update the underlying budget ledger entries in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 195.2,
+      "t_end": 240,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "formulas",
+        "budget-editing",
+        "excel-compatibility"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Comparison periods for budgets",
+      "description": "The ability to add a comparison column showing actuals from a previous period, with configurable date formulas to compare different year ranges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.7,
+      "t_end": 371.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires manual configuration of date formulas"
+      ],
+      "tags": [
+        "comparison-periods",
+        "actuals",
+        "date-formulas"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dimension support in budget regions",
+      "description": "Budget regions can be configured to show details for specific dimensions, allowing users to build out budgets with dimension breakdowns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 424.5,
+      "t_end": 515.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires manual recalculation when changing dimension settings"
+      ],
+      "tags": [
+        "dimensions",
+        "budget-details",
+        "dimension-breakdowns"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Access control for spreadsheets",
+      "description": "Users can define who has access to specific spreadsheets, enabling delegation of budget entry tasks to specific departments or individuals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 515.2,
+      "t_end": 528.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "access-control",
+        "permissions",
+        "spreadsheet-sharing"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Budget Ledger Entries",
+      "t": 189.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 25.4,
+      "text": "all your muscle memory from Excel is is working",
+      "why_it_matters": "Indicates the app is designed for Excel users and leverages existing Excel skills",
+      "check": "exact"
+    },
+    {
+      "t": 48.9,
+      "text": "region is an area of the spreadsheet that is linked into Business Central",
+      "why_it_matters": "Defines the core concept of regions as the mechanism for connecting spreadsheets to Business Central data",
+      "check": "exact"
+    },
+    {
+      "t": 211.9,
+      "text": "the formula now lives in the spreadsheet, but the result lives in the budget",
+      "why_it_matters": "Explains the architecture showing how formulas are stored in spreadsheets while data updates go to Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 344.4,
+      "text": "we'll show the uh the month uh the same period 1 year before",
+      "why_it_matters": "Describes the default comparison period behavior for budget analysis",
+      "check": "exact"
+    },
+    {
+      "t": 450.9,
+      "text": "the budget has gained lines from the dimensions",
+      "why_it_matters": "Shows how dimensions are added to budget regions to enable detailed breakdowns",
+      "check": "exact"
+    },
+    {
+      "t": 515.2,
+      "text": "You can then define who has access to to access it",
+      "why_it_matters": "Indicates access control features are available for spreadsheet-based budget management",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 14.8,
+      "kind": "preview",
+      "text": "Free to try in the sandbox"
+    },
+    {
+      "t": 541.4,
+      "kind": "other",
+      "text": "The app is available in AppSource. Uh it's free to use in sandbox."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019959
+    }
+  ]
+}

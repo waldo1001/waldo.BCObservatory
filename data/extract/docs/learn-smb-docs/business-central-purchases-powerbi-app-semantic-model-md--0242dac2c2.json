@@ -1,0 +1,114 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app-semantic-model",
+  "title": "Power BI Purchases app semantic model",
+  "blob": "f9af7b12b52f463c0a529eb16fe6a6a94397acbb",
+  "summary": "The Power BI Purchases app semantic model contains purchase budgets, invoices, credit memos, and value entries as fact tables with dimension tables for vendors, items, projects, and purchasers organized in a star schema.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "star schema",
+    "purchase transactions",
+    "procurement"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Budget Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Cr. Memo Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Cr. Memo Hdr."
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Header"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Project"
+    },
+    {
+      "type": "table",
+      "name": "Item Budget Name"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "table",
+      "name": "Return Reason"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "star schema",
+    "purchase analytics",
+    "vendor tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010063,
+      "pages_in_call": 5
+    }
+  ]
+}

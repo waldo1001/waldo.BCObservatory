@@ -1,0 +1,196 @@
+{
+  "video_id": "crDXSPsoIQ8",
+  "item_id": "video/yt-hougaard/crDXSPsoIQ8",
+  "title": "Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)",
+  "duration_s": 195,
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "spreadsheet editing",
+    "sales orders",
+    "advanced spreadsheets app",
+    "real-time updates",
+    "line items",
+    "calculations",
+    "customer configurations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to spreadsheet editing for sales orders",
+      "t_start": 0,
+      "t_end": 23.2
+    },
+    {
+      "title": "Opening sales order lines in spreadsheet",
+      "t_start": 23.2,
+      "t_end": 49.4
+    },
+    {
+      "title": "Working with spreadsheet regions and customer requirements",
+      "t_start": 49.4,
+      "t_end": 102.8
+    },
+    {
+      "title": "Real-time updates and calculations in spreadsheets",
+      "t_start": 102.8,
+      "t_end": 141.7
+    },
+    {
+      "title": "Use cases for spreadsheet editing",
+      "t_start": 141.7,
+      "t_end": 169
+    },
+    {
+      "title": "Call to action and availability",
+      "t_start": 169,
+      "t_end": 195
+    }
+  ],
+  "features": [
+    {
+      "name": "Open lines in spreadsheet",
+      "description": "Action that allows users to open sales order lines in a connected spreadsheet region within Business Central. The spreadsheet maintains a direct connection to the underlying sales order data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38,
+      "t_end": 49.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires advanced spreadsheets and reporting app"
+      ],
+      "tags": [
+        "spreadsheet",
+        "sales order",
+        "ui action"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Spreadsheet region connected to sales order",
+      "description": "A green region in the spreadsheet that is directly connected to the sales order, allowing real-time synchronization between spreadsheet edits and the sales order data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.4,
+      "t_end": 61.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "spreadsheet",
+        "sales order",
+        "connection",
+        "sync"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Real-time data synchronization",
+      "description": "Changes made in the spreadsheet are immediately reflected in the underlying sales order. Calculations and totals update automatically as users edit line items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.8,
+      "t_end": 141.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sync",
+        "real-time",
+        "calculations",
+        "spreadsheet"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Edit sales order configurations in spreadsheet",
+      "description": "Enables users to handle complex sales order scenarios such as pricing calculations, item relationships, and customer-driven configuration changes directly within a spreadsheet interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.7,
+      "t_end": 169,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "pricing",
+        "sales order",
+        "spreadsheet"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales order",
+      "t": 23.2
+    },
+    {
+      "type": "page",
+      "name": "Sales line",
+      "t": 73.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38,
+      "text": "I can go to actions and say open lines in spreadsheet.",
+      "why_it_matters": "This is the key action that enables the spreadsheet editing workflow for sales orders in the app.",
+      "check": "exact"
+    },
+    {
+      "t": 49.4,
+      "text": "the green region is a spreadsheet region. That means that this region is connected directly to that sales order.",
+      "why_it_matters": "Explains the core architectural design that enables real-time sync between spreadsheet and sales order data.",
+      "check": "exact"
+    },
+    {
+      "t": 141.7,
+      "text": "you type in the spreadsheet you work in spreadsheet, but everything behind the scene is always updated directly.",
+      "why_it_matters": "Clarifies that the spreadsheet interface does not create a separate data context - all changes immediately persist to the sales order.",
+      "check": "snapped"
+    },
+    {
+      "t": 154.6,
+      "text": "work with configurations or just if there's something related complicated or or if you need to to work on",
+      "why_it_matters": "Defines the primary use cases for this feature: handling complex configurations and pricing calculations.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 179.5,
+      "text": "You can find links below on how to uh install this app in the in the cloud sandbox, free to try.",
+      "why_it_matters": "Indicates the advanced spreadsheets and reporting app is available for trial in cloud sandbox environments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011944
+    }
+  ]
+}

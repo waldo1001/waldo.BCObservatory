@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model",
   "published_at": "2026-07-07T11:50:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f716b0eb9ed32cc0494b0a035bca7994829e88fc",
       "words": 2207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:50:33.192Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 16,
+      "cost_usd": 0.010063
+    },
+    "summarized": {
+      "at": "2026-10-06T16:50:33.204Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:50:33.205Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:50:33.206Z",
+      "page": false
     }
   },
   "input_hash": "f716b0eb9ed32cc0494b0a035bca7994829e88fc",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f716b0eb9ed32cc0494b0a035bca7994829e88fc"
+  "output_hash": "e9e7f3a790e7da3f824a48945bf8ea5d5683ec63240277280b6b49f486d304ba"
 }

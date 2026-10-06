@@ -1,0 +1,214 @@
+{
+  "video_id": "eDi32pS8eMo",
+  "item_id": "video/yt-hougaard/eDi32pS8eMo",
+  "title": "Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)",
+  "duration_s": 302,
+  "systems": [
+    "reporting",
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "advanced spreadsheets",
+    "reporting skills",
+    "ai agent",
+    "dashboard",
+    "templates",
+    "bring your own key",
+    "executive summary"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to advanced spreadsheets and reporting app",
+      "t_start": 0,
+      "t_end": 37.4
+    },
+    {
+      "title": "Skills concept and built-in templates",
+      "t_start": 37.4,
+      "t_end": 99.2
+    },
+    {
+      "title": "Creating a new spreadsheet with the agent",
+      "t_start": 99.2,
+      "t_end": 161
+    },
+    {
+      "title": "Watching the agent build the dashboard",
+      "t_start": 161,
+      "t_end": 228
+    },
+    {
+      "title": "Preview and modern templating approach",
+      "t_start": 228,
+      "t_end": 259.8
+    },
+    {
+      "title": "How to access and use the app",
+      "t_start": 259.8,
+      "t_end": 302
+    }
+  ],
+  "features": [
+    {
+      "name": "Advanced Spreadsheets and Reporting App",
+      "description": "An app for Business Central where you build spreadsheets connected with Business Central data. It comes with 15 built-in generic skills like executive summaries, GL exception dashboard, ratio dashboard, and budget versus actual.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.2,
+      "t_end": 75.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires bring your own key API key from ChatGPT, Claude or other providers to use the agent"
+      ],
+      "tags": [
+        "spreadsheet",
+        "dashboard",
+        "business central",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AI-powered Reporting Skills",
+      "description": "Instructions for AI to build reports and dashboards. Skills provide a modern templating approach where users can specify what they want a report to contain without needing to save templates manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.4,
+      "t_end": 259.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "skill",
+        "ai",
+        "templating",
+        "reporting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Built-in Skill Templates",
+      "description": "The app comes with 15 different generic skills including executive summaries, GL exception dashboard, driver BI ratio dashboard, budget versus actual, and benchmarking dashboards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.8,
+      "t_end": 75.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "skill",
+        "template",
+        "dashboard",
+        "generic"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Agent-driven Spreadsheet Building",
+      "description": "An agent works with the spreadsheet to build complex layouts with KPI boxes, financial charts, and analysis sections. Users can provide specific instructions or let the agent use the skill defaults.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.6,
+      "t_end": 228,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "kpi",
+        "spreadsheet",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bring Your Own Key Support",
+      "description": "Users can bring their own API key from ChatGPT, Claude, or other supported providers to use the agent functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 275.2,
+      "t_end": 286.2,
+      "is_demoed": false,
+      "caveats": [
+        "Required to use the agent functionality"
+      ],
+      "tags": [
+        "byok",
+        "api",
+        "authentication",
+        "ai"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 13.2,
+      "text": "here is the advanced spreadsheets and reporting app for Business Central, which is an app where you build spreadsheets that are connected with Business",
+      "why_it_matters": "Defines what the product is - a tool for building data-connected spreadsheets in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 37.4,
+      "text": "now with ai what we actually use is something called a skill and the skill is let me show you is a",
+      "why_it_matters": "Explains the shift from traditional templates to AI-driven skills as the modern approach",
+      "check": "fuzzy"
+    },
+    {
+      "t": 47.8,
+      "text": "the app comes built with I think there's 15 different generic skills, uh executive summaries, a GL exception dashboard, driver bi uh ratio dashboard,",
+      "why_it_matters": "Details the 15 built-in skills that come with the app as starting points",
+      "check": "exact"
+    },
+    {
+      "t": 161,
+      "text": "the agent is is working with the spreadsheet just as you would",
+      "why_it_matters": "Describes how the agent operates - working autonomously on spreadsheet construction",
+      "check": "exact"
+    },
+    {
+      "t": 275.2,
+      "text": "In order to use the agent, you have to we we use the concept of bring your own key. So, you will have to",
+      "why_it_matters": "Sets the requirement and flexibility for using the agent with different AI providers",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 275.2,
+      "kind": "other",
+      "text": "The app is free to use in a sandbox. In order to use the agent, you have to bring your API key from ChatGPT or Claude or whatever is your taste"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013952999999999998
+    }
+  ]
+}

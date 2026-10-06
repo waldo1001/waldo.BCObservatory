@@ -1,0 +1,189 @@
+{
+  "video_id": "B9VbZzC2p7E",
+  "item_id": "video/yt-hougaard/B9VbZzC2p7E",
+  "title": "Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)",
+  "duration_s": 139,
+  "systems": [
+    "reporting",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "ai agent",
+    "sql queries",
+    "spreadsheet",
+    "advanced spreadsheets",
+    "data retrieval",
+    "table joins",
+    "copilot assistance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AI Agent SQL Query Feature",
+      "t_start": 0,
+      "t_end": 19.2
+    },
+    {
+      "title": "Accessing the Agent via Facts Box",
+      "t_start": 19.2,
+      "t_end": 31.4
+    },
+    {
+      "title": "Creating SQL Joins with Agent Assistance",
+      "t_start": 31.4,
+      "t_end": 65.2
+    },
+    {
+      "title": "Viewing Agent-Generated Data Results",
+      "t_start": 65.2,
+      "t_end": 87.2
+    },
+    {
+      "title": "Manual SQL Region Creation Example",
+      "t_start": 87.2,
+      "t_end": 113.6
+    },
+    {
+      "title": "App Availability and Next Steps",
+      "t_start": 113.6,
+      "t_end": 139
+    }
+  ],
+  "features": [
+    {
+      "name": "AI Agent SQL Query Generation",
+      "description": "An AI agent that can automatically generate SQL statements to query data from Business Central tables and create joins between multiple tables like sales invoice header, customer, and ledger entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1,
+      "t_end": 65.2,
+      "is_demoed": true,
+      "caveats": [
+        "Agent can only be accessed through the facts box area on the right",
+        "Agent requires knowledge of table and field structures to work effectively"
+      ],
+      "tags": [
+        "ai agent",
+        "sql",
+        "copilot",
+        "data retrieval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Advanced Spreadsheets with Agent Integration",
+      "description": "The advanced spreadsheet and reporting app for Business Central integrates with an AI agent that can manipulate spreadsheet content and generate SQL regions to pull data from the database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1,
+      "t_end": 128.9,
+      "is_demoed": true,
+      "caveats": [
+        "Manual SQL entry still requires understanding of SQL syntax",
+        "Yellow validation warnings may appear intermittently"
+      ],
+      "tags": [
+        "spreadsheet",
+        "reporting",
+        "advanced spreadsheets",
+        "sql regions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "SQL Region Creation in Spreadsheets",
+      "description": "Users can manually create SQL regions within spreadsheets to define custom SQL queries that retrieve specific data from Business Central tables, such as selecting name from customer table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.3,
+      "t_end": 113.6,
+      "is_demoed": true,
+      "caveats": [
+        "Yellow validation warnings may appear while entering SQL",
+        "Requires basic SQL knowledge for manual query creation"
+      ],
+      "tags": [
+        "sql regions",
+        "spreadsheet",
+        "data queries"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "sales invoice header",
+      "t": 43.9
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 43.9
+    },
+    {
+      "type": "table",
+      "name": "ledger entries",
+      "t": 43.9
+    },
+    {
+      "type": "table",
+      "name": "customer ledger entries",
+      "t": 87.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 1,
+      "text": "How to use an agent to SQL query data inside your spreadsheet using the advanced spreadsheet and reporting app for Business Central.",
+      "why_it_matters": "States the core purpose of the video - demonstrating AI agent capability for SQL querying in spreadsheets",
+      "check": "exact"
+    },
+    {
+      "t": 53.1,
+      "text": "So, we want to take the posted sales invoices then we're going to join it with the customer and the ledger entries that goes",
+      "why_it_matters": "Describes the practical use case of joining multiple tables to retrieve comprehensive business data",
+      "check": "exact"
+    },
+    {
+      "t": 53.1,
+      "text": "Um so, the agent have the tools to manipulate everything in the spreadsheet and the agent has tools to look at fields and tables",
+      "why_it_matters": "Explains the scope of agent capabilities - it can work with spreadsheet manipulation and understand database schema",
+      "check": "exact"
+    },
+    {
+      "t": 128.9,
+      "text": "You can try this yourself. Um the app is free to use in the cloud sandbox.",
+      "why_it_matters": "Indicates the feature is available and accessible to users at no cost in sandbox environments",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011279
+    }
+  ]
+}

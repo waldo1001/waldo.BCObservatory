@@ -1,0 +1,27 @@
+{
+  "video_id": "uh5S1i7uDlo",
+  "item_id": "video/yt-microsoft/uh5S1i7uDlo",
+  "summary": "Payables agent in Business Central: a short demo of how it drafts purchase invoices from PDF invoices, suggests vendor, line types, dimensions and deferral templates using AI and historical data, and leaves review, confirmation and posting to the user.",
+  "overview": "The 2-minute video introduces the payables agent as a way to reduce manual work in vendor invoice processing. The agent extracts data from a PDF invoice, shows it in a structured format, and drafts a purchase invoice.\nThe demo then shows the review step. The agent uses AI and historical data to suggest the vendor, invoice line types, dimensions and deferral templates. The user can accept or adjust each suggestion and confirm the draft as a purchase invoice. The agent does not post anything on its own. After confirmation, the agent supervisor can send the invoice for approval or post it directly, depending on setup. The video says the manual handling of vendor invoices is \"soon a thing of the past\".",
+  "key_points": [
+    "The payables agent automatically drafts a purchase invoice from a PDF vendor invoice and presents the extracted data in a structured format.",
+    "It uses AI and historical data to suggest vendor, invoice line types, dimensions and deferral templates.",
+    "It does not post invoices automatically; every invoice needs manual review and confirmation.",
+    "Users can accept or adjust each suggestion before confirming the draft as a purchase invoice.",
+    "After confirmation, the agent supervisor can send the invoice for approval or post it directly, depending on setup.",
+    "The video describes the end-to-end automation as coming soon, and does not state a release status."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "dbc4b17f4f7db51fa448ad1f82db62822484faa87f35631554224c9a7dc44aae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012216399999999999
+  }
+}

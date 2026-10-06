@@ -1,0 +1,184 @@
+{
+  "video_id": "iqyfWujhfnE",
+  "item_id": "video/yt-hougaard/iqyfWujhfnE",
+  "title": "Add a live Chart of your Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)",
+  "duration_s": 170,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "spreadsheets",
+    "charts",
+    "data visualization",
+    "advanced spreadsheets and reporting",
+    "table regions",
+    "live data"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and spreadsheet setup",
+      "t_start": 0,
+      "t_end": 26.3
+    },
+    {
+      "title": "Creating a data table region from customer table",
+      "t_start": 26.3,
+      "t_end": 63.8
+    },
+    {
+      "title": "Adding and configuring a chart region",
+      "t_start": 63.8,
+      "t_end": 96.1
+    },
+    {
+      "title": "Mapping data and categories to the chart",
+      "t_start": 96.1,
+      "t_end": 143.6
+    },
+    {
+      "title": "Preview and conclusion",
+      "t_start": 143.6,
+      "t_end": 170
+    }
+  ],
+  "features": [
+    {
+      "name": "Live charts in spreadsheets",
+      "description": "Create live charts in spreadsheets that update when data in Business Central changes. Demonstrated by adding a chart region that displays customer sales data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.2,
+      "t_end": 143.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "charting",
+        "live data",
+        "spreadsheets",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Table regions for data display",
+      "description": "Create table regions in spreadsheets to display and grab data from Business Central tables, such as the customer table with columns for number, name, and sales.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.3,
+      "t_end": 63.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table regions",
+        "data retrieval",
+        "spreadsheets"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Advanced Spreadsheets and Reporting app",
+      "description": "An app for Business Central that enables creating spreadsheets with live charts, table regions, and data visualization capabilities. The app is free to try in a sandbox environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.7,
+      "t_end": 170,
+      "is_demoed": true,
+      "caveats": [
+        "Free to try only in sandbox cloud environments"
+      ],
+      "tags": [
+        "app",
+        "spreadsheets",
+        "reporting",
+        "charting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Column charts",
+      "description": "Support for column chart type in spreadsheets. Can be configured with data and categories to visualize customer sales information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.1,
+      "t_end": 118,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "charts",
+        "column charts",
+        "visualization"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 39.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.7,
+      "text": "How to add a live chart to your spreadsheet using the advanced spreadsheets and reporting app for Business Central.",
+      "why_it_matters": "States the core purpose and feature being demonstrated in the video.",
+      "check": "exact"
+    },
+    {
+      "t": 26.3,
+      "text": "this is just a table region meaning that we're grabbing data out of Business Central",
+      "why_it_matters": "Explains what a table region is and its purpose for retrieving Business Central data.",
+      "check": "exact"
+    },
+    {
+      "t": 63.8,
+      "text": "So this is live, right? So if anything happens, this will be updated.",
+      "why_it_matters": "Demonstrates that the spreadsheet data is connected live to Business Central and updates dynamically.",
+      "check": "exact"
+    },
+    {
+      "t": 155,
+      "text": "The app is free to try uh and use in a sandbox cloud sandbox.",
+      "why_it_matters": "Clarifies the availability and pricing model for the Advanced Spreadsheets and Reporting app.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 155,
+      "kind": "other",
+      "text": "The app is free to try and use in a sandbox cloud sandbox"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011027
+    }
+  ]
+}

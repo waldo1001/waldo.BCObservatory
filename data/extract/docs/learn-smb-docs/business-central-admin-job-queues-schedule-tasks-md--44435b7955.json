@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-job-queues-schedule-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks",
+  "title": "Schedule jobs to run automatically",
+  "blob": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb",
+  "summary": "Job Queue Entries page schedules and runs reports and codeunits one-time or recurring. Configure jobs with object type, ID, parameters, and schedule; monitor status, handle errors, and set up notifications for failures.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "job queues",
+    "scheduling",
+    "background tasks",
+    "automation",
+    "task monitoring",
+    "error handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entry Card"
+    },
+    {
+      "type": "page",
+      "name": "Scheduled Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "My Notifications"
+    }
+  ],
+  "features": [
+    "recurring job scheduling",
+    "job status tracking",
+    "error notifications",
+    "performance limits",
+    "job categorization",
+    "inactivity timeouts",
+    "telemetry monitoring",
+    "Power Automate integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009806,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model",
+  "title": "Power BI Manufacturing app semantic model",
+  "blob": "f716b0eb9ed32cc0494b0a035bca7994829e88fc",
+  "summary": "The Power BI Manufacturing app semantic model contains fact tables for capacity, production, and value entries along with dimension tables for items, routing, work centers, and machine centers organized in a star schema.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "star schema",
+    "manufacturing transactions",
+    "production"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Calendar Entry"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Capacity Need"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Machine Center"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Routing Header"
+    },
+    {
+      "type": "table",
+      "name": "Work Center Group"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "star schema",
+    "capacity tracking",
+    "production analytics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010063,
+      "pages_in_call": 5
+    }
+  ]
+}

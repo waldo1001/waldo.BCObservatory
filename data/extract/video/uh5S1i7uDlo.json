@@ -1,0 +1,186 @@
+{
+  "video_id": "uh5S1i7uDlo",
+  "item_id": "video/yt-microsoft/uh5S1i7uDlo",
+  "title": "Transform Vendor Invoice Processing With the Payables Agent in Dynamics 365 Business Central (2025)",
+  "duration_s": 91,
+  "systems": [
+    "copilot",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "payables agent",
+    "vendor invoice processing",
+    "ai automation",
+    "intelligent automation",
+    "purchase invoice",
+    "invoice approval",
+    "manual review",
+    "invoice extraction"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to intelligent automation",
+      "t_start": 0,
+      "t_end": 11.2
+    },
+    {
+      "title": "Payables agent overview and benefits",
+      "t_start": 11.2,
+      "t_end": 27.6
+    },
+    {
+      "title": "Automatic invoice drafting and AI suggestions",
+      "t_start": 27.6,
+      "t_end": 43
+    },
+    {
+      "title": "Invoice review and verification process",
+      "t_start": 43,
+      "t_end": 54.6
+    },
+    {
+      "title": "Manual control and approval workflow",
+      "t_start": 54.6,
+      "t_end": 69.5
+    },
+    {
+      "title": "Call to action and next steps",
+      "t_start": 69.5,
+      "t_end": 91
+    }
+  ],
+  "features": [
+    {
+      "name": "Payables agent",
+      "description": "An AI-powered agent that automates vendor invoice processing end-to-end by automatically drafting purchase invoices, using AI and historical data to suggest vendor details, line types, dimensions, and deferral templates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.2,
+      "t_end": 69.5,
+      "is_demoed": true,
+      "caveats": [
+        "Does not post invoices automatically",
+        "Requires manual review and confirmation before posting",
+        "Approval workflow depends on setup"
+      ],
+      "tags": [
+        "payables",
+        "ai",
+        "automation",
+        "invoice processing",
+        "vendor"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Invoice data extraction",
+      "description": "The payables agent extracts data from PDF invoices and presents it in a structured format for review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.6,
+      "t_end": 54.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data extraction",
+        "pdf processing",
+        "invoice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-powered invoice suggestions",
+      "description": "Uses AI and historical data to automatically suggest vendor information, invoice line types, dimensions, and deferral templates for vendor invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.6,
+      "t_end": 43,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "suggestions",
+        "historical data",
+        "invoice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manual invoice review and confirmation",
+      "description": "Users can review, accept, or adjust each agent suggestion before confirming the draft as a purchase invoice, maintaining full control over the process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 62.3,
+      "is_demoed": true,
+      "caveats": [
+        "Manual confirmation required for all invoices"
+      ],
+      "tags": [
+        "manual review",
+        "user control",
+        "approval"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 11.2,
+      "text": "With the payables agent, the tedious task for handling vendor invoice processing end-to-end is soon a thing of the past.",
+      "why_it_matters": "Establishes the core value proposition and scope of the payables agent feature.",
+      "check": "exact"
+    },
+    {
+      "t": 27.6,
+      "text": "the payables agent automatically drafts a purchase invoice and uses AI and historical data to suggest the vendor, invoice line types, and other information",
+      "why_it_matters": "Explains the key technical capabilities and what the agent learns from historical data.",
+      "check": "exact"
+    },
+    {
+      "t": 54.6,
+      "text": "The payables agent doesn't post anything automatically and keeps us in control. We can review, accept, or adjust each suggestion before confirming.",
+      "why_it_matters": "Clarifies a critical limitation and design decision that users maintain final approval authority.",
+      "check": "exact"
+    },
+    {
+      "t": 69.5,
+      "text": "the agent supervisor can either send it for approval or proceed directly with posting it, depending on the setup.",
+      "why_it_matters": "Shows workflow flexibility based on organizational configuration for post-confirmation actions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 11.2,
+      "kind": "coming-later",
+      "text": "the tedious task for handling vendor invoice processing end-to-end is soon a thing of the past"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011238
+    }
+  ]
+}

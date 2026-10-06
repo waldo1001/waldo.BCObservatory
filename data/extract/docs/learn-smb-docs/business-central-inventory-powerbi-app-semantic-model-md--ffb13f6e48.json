@@ -1,0 +1,131 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model",
+  "title": "Power BI Inventory app semantic model",
+  "blob": "d64d72b0d2791ec2b2c021f712cc551ad73001f4",
+  "summary": "The Power BI Inventory app semantic model organizes fact tables for inventory transactions and dimension tables for item, customer, vendor, location, and bin context using a star schema structure.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "star schema",
+    "inventory transactions",
+    "analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Assembly Header"
+    },
+    {
+      "type": "table",
+      "name": "Assembly Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Planning Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Project Planning Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Requisition Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Service Line"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Line"
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Activity Line"
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Entry"
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "ABC Analysis Setup"
+    },
+    {
+      "type": "table",
+      "name": "Bin"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Zone"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "star schema",
+    "transaction data",
+    "inventory analytics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010063,
+      "pages_in_call": 5
+    }
+  ]
+}

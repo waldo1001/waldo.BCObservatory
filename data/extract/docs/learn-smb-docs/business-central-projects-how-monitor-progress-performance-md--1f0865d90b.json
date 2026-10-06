@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-monitor-progress-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance",
+  "title": "Monitor project progress and performance",
+  "blob": "436b0114e18e2c59276afa0444f08e24db85ae6f",
+  "summary": "Work-in-process (WIP) feature estimates financial value of ongoing projects in general ledger. Calculate WIP using methods (cost value, sales value, recognizable cost, percentage of completion, completed contract), post to G/L, and monitor WIP fields on Project Card.",
+  "systems": [
+    "projects",
+    "finance"
+  ],
+  "topics": [
+    "work in process",
+    "project accounting",
+    "wip methods",
+    "project completion",
+    "financial reporting",
+    "project valuation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project WIP Methods"
+    },
+    {
+      "type": "page",
+      "name": "Projects Setup"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Project WIP Cockpit"
+    },
+    {
+      "type": "page",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Project Registers"
+    },
+    {
+      "type": "report",
+      "name": "Project Calculate WIP"
+    },
+    {
+      "type": "report",
+      "name": "Project Post WIP to G/L"
+    }
+  ],
+  "features": [
+    "WIP method definition",
+    "WIP calculation",
+    "WIP posting to G/L",
+    "project task grouping",
+    "WIP field tracking",
+    "completion entries",
+    "WIP warnings",
+    "recognized revenue and costs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009806,
+      "pages_in_call": 3
+    }
+  ]
+}

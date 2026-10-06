@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model",
   "published_at": "2026-07-07T11:50:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "77841dcd10ce2693b1086c281e6bb0988d2f9d85",
       "words": 1227,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:50:33.197Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.010063
+    },
+    "summarized": {
+      "at": "2026-10-06T16:50:33.213Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:50:33.213Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:50:33.214Z",
+      "page": false
     }
   },
   "input_hash": "77841dcd10ce2693b1086c281e6bb0988d2f9d85",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "77841dcd10ce2693b1086c281e6bb0988d2f9d85"
+  "output_hash": "13d4017a50b56748313cd5aa5cf0f197b95501bb0f5dd2ba9d880834369834f5"
 }

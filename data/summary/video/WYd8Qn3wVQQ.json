@@ -1,0 +1,27 @@
+{
+  "video_id": "WYd8Qn3wVQQ",
+  "item_id": "video/yt-hougaard/WYd8Qn3wVQQ",
+  "summary": "Editing Business Central G/L budgets in a spreadsheet using the Advanced Spreadsheets and Reporting app: budget regions, formulas that update budget ledger entries, comparison periods, dimension details and access control. Demoed in a sandbox; the app is on AppSource and free to try in sandbox.",
+  "overview": "Erik Hougaard shows how to edit G/L budgets in a spreadsheet inside Business Central. A budget region is an area of the spreadsheet linked to Business Central data, so Excel habits such as formulas carry over. He creates a region, sets up sales budget parameters, and enters formulas in budget cells.\n\nHe then works with multiple regions and a comparison column that shows actuals from the same period one year before, formatted through date formulas. He adds dimension details so the budget gains lines per dimension, and closes with access control for delegating budget entry and AppSource availability.",
+  "key_points": [
+    "A budget region is an area of the spreadsheet linked into Business Central, and it is used to edit G/L budget data.",
+    "Formulas typed into budget cells stay in the spreadsheet, while the calculated result is written to the budget (table Budget Ledger Entries).",
+    "A comparison column can show actuals from a previous period, such as the same period one year before; the date formulas must be configured manually.",
+    "Several regions can be used in one spreadsheet, each with its own compare period settings.",
+    "Budget regions can show details for specific dimensions, which adds budget lines per dimension; changing dimension settings requires a manual recalculation.",
+    "Access to a spreadsheet can be defined per user, so budget entry can be delegated to departments or individuals.",
+    "The app is available in AppSource and is free to try in a sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "59072e7eea7ea44258697c081975db550e7afdc6b3264ad34af6908eceeb840e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012830399999999999
+  }
+}

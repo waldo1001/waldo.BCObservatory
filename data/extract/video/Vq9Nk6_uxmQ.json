@@ -1,0 +1,933 @@
+{
+  "video_id": "Vq9Nk6_uxmQ",
+  "item_id": "video/yt-microsoft/Vq9Nk6_uxmQ",
+  "title": "Business Central Under the Hood episode 14: Building Agents in Business Central",
+  "duration_s": 2192,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "custom agents",
+    "agent instructions",
+    "agent profiles",
+    "permissions",
+    "prompt engineering",
+    "ui limitation",
+    "agent runtime",
+    "no-code development",
+    "profile customization",
+    "agent security",
+    "ui simplification",
+    "custom pages"
+  ],
+  "chapters": [
+    {
+      "title": "Opening",
+      "t_start": 0,
+      "t_end": 10.9
+    },
+    {
+      "title": "Introduction to Custom Agents",
+      "t_start": 10.9,
+      "t_end": 123.8
+    },
+    {
+      "title": "Custom Agents and Built-in Agents",
+      "t_start": 123.8,
+      "t_end": 181.3
+    },
+    {
+      "title": "Three Required Components: Instructions, Profile, and Permissions",
+      "t_start": 181.3,
+      "t_end": 274.9
+    },
+    {
+      "title": "Writing Agent Instructions",
+      "t_start": 274.9,
+      "t_end": 428.1
+    },
+    {
+      "title": "Instructions as Part of Larger Prompts and Security",
+      "t_start": 428.1,
+      "t_end": 626.2
+    },
+    {
+      "title": "Understanding Profiles and UI Limitation",
+      "t_start": 626.2,
+      "t_end": 730.4
+    },
+    {
+      "title": "Profile Design Principles and Implementation",
+      "t_start": 730.4,
+      "t_end": 858.9
+    },
+    {
+      "title": "Testing Profiles and Handling Third-Party Extensions",
+      "t_start": 858.9,
+      "t_end": 994
+    },
+    {
+      "title": "UI Complexity and Agent Usability",
+      "t_start": 994,
+      "t_end": 1114.1
+    },
+    {
+      "title": "Creating Custom Pages and Fixing Product Usability",
+      "t_start": 1114.1,
+      "t_end": 1223.3
+    },
+    {
+      "title": "Permission Sets and Security for Agents",
+      "t_start": 1223.3,
+      "t_end": 1402.9
+    },
+    {
+      "title": "Model Selection and Prompt Management",
+      "t_start": 1402.9,
+      "t_end": 1538.6
+    },
+    {
+      "title": "Instruction Syntax and Getting Started with Custom Agents",
+      "t_start": 1538.6,
+      "t_end": 1706.2
+    },
+    {
+      "title": "Sample Agents and When to Build Agents",
+      "t_start": 1706.2,
+      "t_end": 1787.4
+    },
+    {
+      "title": "Good Agentic Scenarios and Use Cases",
+      "t_start": 1787.4,
+      "t_end": 1852.4
+    },
+    {
+      "title": "Language Models and Variability in Agents",
+      "t_start": 1852.4,
+      "t_end": 1943.6
+    },
+    {
+      "title": "Local Knowledge and Multi-Language Support",
+      "t_start": 1943.6,
+      "t_end": 2032.7
+    },
+    {
+      "title": "Low-Frequency Agentic Scenarios and Cost",
+      "t_start": 2032.7,
+      "t_end": 2084
+    },
+    {
+      "title": "SDK, Future Development and Closing",
+      "t_start": 2084,
+      "t_end": 2192
+    }
+  ],
+  "features": [
+    {
+      "name": "Custom Agents",
+      "description": "No-code capability allowing users to build agents in sandboxes without writing code by defining instructions, profile, and permissions. Available out of the box for quick prototyping and testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.4,
+      "t_end": 87.3,
+      "is_demoed": false,
+      "caveats": [
+        "Some code may be required for advanced profile customization",
+        "Not suitable for shipping without proper instructions and testing"
+      ],
+      "tags": [
+        "no-code",
+        "prototyping",
+        "sandbox",
+        "agent building"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent",
+      "description": "Built-in agent for handling sales orders, shipped in Business Central. Used as reference for custom agent development tooling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.8,
+      "t_end": 135.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "built-in",
+        "sales",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "Built-in agent for handling payables, shipped in Business Central alongside the sales order agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.8,
+      "t_end": 135.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "built-in",
+        "payables",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Instructions",
+      "description": "Natural language instructions that define what a custom agent should do. Instructions are wrapped in a larger system prompt by the platform. Recommendation is to write minimal instructions and use natural language.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.8,
+      "t_end": 464.6,
+      "is_demoed": true,
+      "caveats": [
+        "Instructions are part of a larger prompt managed by the platform",
+        "Quality and specificity of instructions affect agent behavior unpredictably"
+      ],
+      "tags": [
+        "instructions",
+        "natural language",
+        "prompt engineering",
+        "agent behavior"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Profiles",
+      "description": "Profiles limit the agent's UI to specific functionality and determine the starting role center. Profiles existed before AI and are used to restrict access and improve agent accuracy and stability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 638.9,
+      "t_end": 763.9,
+      "is_demoed": false,
+      "caveats": [
+        "Profile maintenance can be complex when new UI is added in releases",
+        "Code may be required for advanced customization"
+      ],
+      "tags": [
+        "profiles",
+        "ui limitation",
+        "role center",
+        "access control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Profile UI Clearing Properties",
+      "description": "Three new properties added to profiles that clear all actions, fields, and saved views from a page, creating a blank page from which specific elements can be added back through code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 789.1,
+      "t_end": 810.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires code to implement",
+        "Declarative approach rather than algorithmic"
+      ],
+      "tags": [
+        "profile customization",
+        "ui clearing",
+        "code-based",
+        "declarative"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Security Handling",
+      "description": "Platform protects against prompt injections and common security attacks. Agent interactions with UI are wrapped within Business Central and users are shielded from prompt changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580.1,
+      "t_end": 626.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "prompt injection protection",
+        "attack mitigation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "UI-based profile configuration",
+      "description": "Consideration to enable profile configuration through the UI instead of requiring code, with potential agentic help to generate pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 821.8,
+      "t_end": 835.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Only under consideration"
+      ],
+      "tags": [
+        "profiles",
+        "ui configuration",
+        "future"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Profile code support for extended properties",
+      "description": "Code-based profiles support more property changes than UI-based approaches, enabling developers to modify more aspects of agent pages through code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 846.7,
+      "t_end": 858.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "profiles",
+        "code development",
+        "flexibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Configuration-based field extension for agents",
+      "description": "Fields from third-party extensions can be exposed to agents through configuration without modifying the agent profile, allowing agents to work with custom fields added by extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 898.6,
+      "t_end": 913.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration",
+        "Only for fields not already in profile"
+      ],
+      "tags": [
+        "extensions",
+        "configuration",
+        "third-party integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent response to extension mandatory fields",
+      "description": "When third-party extensions add mandatory fields, agents will attempt to set them and ask for user intervention if they cannot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 944.4,
+      "t_end": 956.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "extensions",
+        "user interaction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Item availability search page",
+      "description": "A new page created for the sales order agent that allows users to quickly find items by name and check availability without navigating through multiple pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1114.1,
+      "t_end": 1149.2,
+      "is_demoed": false,
+      "caveats": [
+        "Part of sales order agent specifically",
+        "Custom addition beyond standard profiles"
+      ],
+      "tags": [
+        "sales order agent",
+        "search",
+        "custom pages",
+        "usability"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Smarter search platform support",
+      "description": "Platform support added for smarter search on item pages that searches across all available items as the user types an item name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1139.2,
+      "t_end": 1149.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "search",
+        "items",
+        "platform feature"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent permission set intersection",
+      "description": "Agents run with permissions that are the intersection of the user-assigned permission set and the agent's own permission set, limiting agent access to what the user can do.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1261.8,
+      "t_end": 1280,
+      "is_demoed": false,
+      "caveats": [
+        "Security-critical design",
+        "Ensures agents cannot exceed user permissions"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "agents"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Indirect inherited permissions",
+      "description": "Movement toward indirect inherited permissions that are controlled through attributes as code runs, granting permissions dynamically based on the flow being executed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1374,
+      "t_end": 1402.9,
+      "is_demoed": false,
+      "caveats": [
+        "Still in development",
+        "Future enhancement"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "future"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Model abstraction for partners",
+      "description": "Microsoft controls model selection and updates, with the goal of making model changes transparent to partners so they focus on instructions rather than model specifics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1443,
+      "t_end": 1466.6,
+      "is_demoed": false,
+      "caveats": [
+        "Partner notification required for model changes",
+        "Time provided to test before switch"
+      ],
+      "tags": [
+        "model management",
+        "abstraction",
+        "partners"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page-specific instruction syntax",
+      "description": "Special syntax using curly braces and percentage symbols to include instructions that are only triggered when a specific page is open. Still plain text, not coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1588.9,
+      "t_end": 1624.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires special syntax understanding",
+        "Documentation available"
+      ],
+      "tags": [
+        "instructions",
+        "syntax",
+        "page-specific"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Timeline-reflective instructions structuring",
+      "description": "Ability to structure agent instructions in a way that reflects the timeline so users can see instructions reflected as they review things in the timeline.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1578.3,
+      "t_end": 1588.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "instructions",
+        "timeline",
+        "structuring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom agent creation wizard",
+      "description": "Simple wizard in the sandbox that helps create custom agents by defining instructions, setting permissions and profile. Accessible from a plus icon or from the agents list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1654.8,
+      "t_end": 1706.2,
+      "is_demoed": false,
+      "caveats": [
+        "Available only in sandbox",
+        "Requires UI for writing and testing"
+      ],
+      "tags": [
+        "custom-agents",
+        "wizard",
+        "setup",
+        "getting started"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Validator sample agent",
+      "description": "Sample agent that checks open sales orders to see if they are ready to release and then releases them. Available for partners and consultants to reference for understanding how to write instructions and profiles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1706.2,
+      "t_end": 1722.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sample",
+        "sales-orders"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales return agent",
+      "description": "Upcoming sample agent that processes sales returns by analyzing PDF documents, reading images, and creating credit memos. Can identify specific items to return and follow local laws and regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1722.1,
+      "t_end": 1738.2,
+      "is_demoed": true,
+      "caveats": [
+        "Still in development",
+        "Demonstrates variability handling with PDF analysis"
+      ],
+      "tags": [
+        "sample",
+        "sales-returns",
+        "pdf-analysis",
+        "credit-memos"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agentic scenarios guidance",
+      "description": "Guidance on when to use agents versus writing AL code or using copilot. Good scenarios have variability, require different approaches, are ad-hoc tasks, or involve language processing and external knowledge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1762.8,
+      "t_end": 1852.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires understanding of when agents are appropriate",
+        "Not suited for fixed algorithms"
+      ],
+      "tags": [
+        "best-practices",
+        "scenarios",
+        "guidance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "PDF document and image analysis in agents",
+      "description": "Platform capability to analyze attached PDF documents and read text from images, enabling agents to extract information and make decisions based on visual content without explicit coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1823.5,
+      "t_end": 1852.4,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on accurate OCR",
+        "Requires proper image quality"
+      ],
+      "tags": [
+        "pdf-analysis",
+        "image-reading",
+        "ocr"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Language model knowledge in agents",
+      "description": "Agents can leverage large language model knowledge about languages, local laws, regional products, and terminology without requiring explicit coding or user lookup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1898.7,
+      "t_end": 1943.6,
+      "is_demoed": true,
+      "caveats": [
+        "Knowledge may be general rather than domain-specific"
+      ],
+      "tags": [
+        "language-models",
+        "knowledge",
+        "llm"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-language email processing",
+      "description": "Sales order agent can receive emails in different languages, understand them, and reply in the user's language, combining Business Central data with external language understanding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1998.3,
+      "t_end": 2032.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "multi-language",
+        "email-processing",
+        "sales-order-agent"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Low-frequency task automation with agents",
+      "description": "Agents are effective for scenarios that run infrequently or ad-hoc, such as chasing payment reminders, with high reliability and low monthly cost (20-30 dollars per month).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2032.7,
+      "t_end": 2084,
+      "is_demoed": false,
+      "caveats": [
+        "Cost effective but requires careful design",
+        "Manual review step recommended before proceeding"
+      ],
+      "tags": [
+        "low-frequency",
+        "cost-effective",
+        "ad-hoc"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent SDK",
+      "description": "SDK being released that will allow partners to build and ship their own agents, including creating custom user experiences with review and setup flows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2097,
+      "t_end": 2112.7,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline not specified",
+        "Partners can create packaged agents"
+      ],
+      "tags": [
+        "sdk",
+        "partners",
+        "packaging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent testing capability",
+      "description": "Ability to test custom agents is being worked on and will be released soon, enabling advanced agent development beyond basic instruction writing.",
+      "status": "announced",
+      "status_evidence_t": 2112.7,
+      "status_evidence_quote": "The second item that we are going to be looking into is giving you the ability to test your agents which we will be",
+      "status_evidence_verified": true,
+      "t_start": 2112.7,
+      "t_end": 2128.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming soon but timeline not specified",
+        "More advanced than instruction-only approach"
+      ],
+      "tags": [
+        "testing",
+        "advanced",
+        "coming-soon"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "agent list",
+      "t": 74.4
+    },
+    {
+      "type": "page",
+      "name": "role center",
+      "t": 74.4
+    },
+    {
+      "type": "page",
+      "name": "sales invoice list",
+      "t": 516.4
+    },
+    {
+      "type": "page",
+      "name": "items page",
+      "t": 1007
+    },
+    {
+      "type": "page",
+      "name": "sales order",
+      "t": 1007
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Nikolai",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.4,
+      "text": "the custom agents are the agents that you can build in sandboxes out of the box without writing any code",
+      "why_it_matters": "Defines the core value proposition of custom agents - accessibility for non-developers",
+      "check": "exact"
+    },
+    {
+      "t": 305.1,
+      "text": "when we were writing the sales order agent, the instructions that we have written I think in the minimum instruction set contained three or",
+      "why_it_matters": "Shows the evolution of instruction requirements - older models needed much more detailed instructions",
+      "check": "exact"
+    },
+    {
+      "t": 378.4,
+      "text": "Now, you cannot ship with this, right? So people don't get the wrong assumptions because in half of the cases, it will post the",
+      "why_it_matters": "Critical insight about unpredictable behavior without proper instructions - demonstrates why instruction quality matters",
+      "check": "exact"
+    },
+    {
+      "t": 491.7,
+      "text": "The platform is wrapping the instructions that they write within a much larger prompt. Thus, the instructions that they provide will get additional handling",
+      "why_it_matters": "Explains architecture - user instructions are part of a system prompt, affecting behavior",
+      "check": "exact"
+    },
+    {
+      "t": 638.9,
+      "text": "the profile is needed so you can limit the agent's UI",
+      "why_it_matters": "Clarifies purpose of profiles - restricting UI complexity improves agent performance",
+      "check": "exact"
+    },
+    {
+      "t": 730.4,
+      "text": "anything that the agent is able to do, the end user should be able to do as well",
+      "why_it_matters": "Core design principle - ensures agent capabilities remain within user-accessible boundaries",
+      "check": "exact"
+    },
+    {
+      "t": 789.1,
+      "text": "we added three properties that are going to clear the action all of the actions that you have in the UI, all of the",
+      "why_it_matters": "Technical feature solving profile maintenance problems - enables stable pages across releases",
+      "check": "exact"
+    },
+    {
+      "t": 1007,
+      "text": "On the items page, there is 120 actions. Pure vanilla W1. And sales order has together with lines, it has around close to 100",
+      "why_it_matters": "Quantifies the complexity agents must navigate, justifying the need for profiles to simplify the UI for agent success and accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 1261.8,
+      "text": "When agent is running, it's going to run as the intersection of the permission sets of the user that gave it the task and",
+      "why_it_matters": "Critical security design principle that prevents agents from exceeding user permissions, fundamental to agent safety architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 1296.6,
+      "text": "We have written the negative test case where we were expecting the agent to ask for the user intervention. There was no customer and",
+      "why_it_matters": "Documents a critical security issue where overly permissive permission sets allowed agents to circumvent business rules through workarounds.",
+      "check": "exact"
+    },
+    {
+      "t": 1443,
+      "text": "they cannot control which model they will be using. The models are decided by us and we are the ones that are updating the",
+      "why_it_matters": "Clarifies partner expectations about model management, establishing that Microsoft handles model updates with goal of transparency to partners.",
+      "check": "exact"
+    },
+    {
+      "t": 1566.9,
+      "text": "if you have a complicated page and you would like to add some page-specific instructions, there is a syntax that these instructions will be",
+      "why_it_matters": "Documents advanced instruction syntax capability for handling complex scenarios without requiring code changes to profiles.",
+      "check": "exact"
+    },
+    {
+      "t": 1600.9,
+      "text": "So for page-specific instructions, it is something like curly braces percentage if page equals this",
+      "why_it_matters": "Shows how special syntax in plain text instructions triggers specific agent runtime behavior without requiring coding.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.8,
+      "text": "when you log into the sandbox, you will see a small icon with a plus that helps you to create a custom agent. It",
+      "why_it_matters": "Provides entry point for developers to get started building custom agents with UI-driven workflow for configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.8,
+      "text": "you will see a small icon with a plus that helps you to create a custom agent. It will open a simple wizard",
+      "why_it_matters": "Demonstrates the ease of entry for creating custom agents through a simple sandbox wizard interface.",
+      "check": "exact"
+    },
+    {
+      "t": 1706.2,
+      "text": "it is basically checking for the open sales orders if they are ready to release",
+      "why_it_matters": "Provides a concrete example of an available sample agent that partners can reference and learn from.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1787.4,
+      "text": "my recommendation to all of you is to use the best tool for the job, right?",
+      "why_it_matters": "Establishes the principle for choosing between AL coding, copilot, copilot studio, or agents based on scenario needs.",
+      "check": "exact"
+    },
+    {
+      "t": 1799.5,
+      "text": "it's a scenario which has a lot of variability, where you need the agent to go and to do a specific task potentially in",
+      "why_it_matters": "Defines the core characteristic that makes scenarios good candidates for agents versus traditional coding.",
+      "check": "exact"
+    },
+    {
+      "t": 1823.5,
+      "text": "Out of the box, the platform is enabling me to analyze the attached PDF documents. If the customer has attached any images, we can",
+      "why_it_matters": "Highlights a key capability of the agent platform that would be difficult to implement in traditional code.",
+      "check": "exact"
+    },
+    {
+      "t": 2084,
+      "text": "The company can make a small investment of 20-30 dollars a month and get their scenarios up and running.",
+      "why_it_matters": "Provides cost information for running low-frequency agentic scenarios, making business case for adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 2097,
+      "text": "We are also releasing the SDK and the SDK will allow partners to build and ship their own agents.",
+      "why_it_matters": "Announces upcoming capability for partners to package and distribute agents, expanding the ecosystem.",
+      "check": "exact"
+    },
+    {
+      "t": 2112.7,
+      "text": "The second item that we are going to be looking into is giving you the ability to test your agents which we will be",
+      "why_it_matters": "Indicates near-term roadmap for agent testing capability to support more advanced development.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 810.6,
+      "kind": "subject-to-change",
+      "text": "we are also considering to enable this thing through the UI. And possibly also to have some agentic help to help you to generate these pages"
+    },
+    {
+      "t": 821.8,
+      "kind": "coming-later",
+      "text": "we are also considering to enable this thing through the UI. And possibly also to have some agentic help to help you to generate these pages"
+    },
+    {
+      "t": 1374,
+      "kind": "coming-later",
+      "text": "we are also have started working on changing the way how we are writing instructions permissions and how we are handling permissions in the product. We are moving more to these indirect inherited permissions"
+    },
+    {
+      "t": 1722.1,
+      "kind": "coming-later",
+      "text": "We are working to ship more samples. And one of the samples that I'm looking at at the moment is writing these sales return agent"
+    },
+    {
+      "t": 2097,
+      "kind": "coming-later",
+      "text": "We are also releasing the SDK and the SDK will allow partners to build and ship their own agents."
+    },
+    {
+      "t": 2112.7,
+      "kind": "coming-later",
+      "text": "giving you the ability to test your agents which we will be releasing quite soon"
+    },
+    {
+      "t": 2154.1,
+      "kind": "other",
+      "text": "we have a lot of items on the backlog and we are really looking forward for your feedback what to prioritize"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 3,
+    "evidence_verified": 1,
+    "evidence_unverified": 27
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027228
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033835000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0557003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039864
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-batch-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting",
+  "title": "Post multiple documents at the same time",
+  "blob": "3116afa3d6653c5aca956d3edd4db1ae8f599014",
+  "summary": "Batch posting posts multiple sales or purchase documents immediately or on a schedule via job queues. Set up background posting in Sales & Receivables Setup, create batch post job queue entries, and monitor results on Job Queue Entries page.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "batch posting",
+    "background posting",
+    "job queues",
+    "document posting",
+    "scheduling",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Batch Post Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Error Message Register"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Assembly Orders"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Purchase Invoices"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Purchase Orders"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Purch. Credit Memos"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Purch. Ret. Orders"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Credit Memos"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Invoices"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Orders"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Return Orders"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Service Cr. Memos"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Service Invoices"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Service Orders"
+    }
+  ],
+  "features": [
+    "immediate batch posting",
+    "scheduled batch posting",
+    "background posting setup",
+    "post and print with job queue",
+    "job queue categories",
+    "posting date handling",
+    "error review"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009806,
+      "pages_in_call": 3
+    }
+  ]
+}

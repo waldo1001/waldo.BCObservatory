@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app-semantic-model",
+  "title": "Power BI Projects app semantic model",
+  "blob": "c3cd096bcf56dff3cfb441007a5e4872c4b0efe2",
+  "summary": "The Power BI Projects app semantic model stores project ledger entries, planning lines, and purchase transactions as fact tables with dimension tables for projects, resources, tasks, and customers in a star schema.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "star schema",
+    "project transactions",
+    "project analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Project Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Project Planning Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Project"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Project Task"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "star schema",
+    "project tracking",
+    "resource analytics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010063,
+      "pages_in_call": 5
+    }
+  ]
+}

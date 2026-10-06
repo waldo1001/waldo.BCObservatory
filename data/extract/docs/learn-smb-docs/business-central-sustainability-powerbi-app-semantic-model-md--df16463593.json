@@ -1,0 +1,87 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model",
+  "title": "Power BI Sustainability app semantic model",
+  "blob": "77841dcd10ce2693b1086c281e6bb0988d2f9d85",
+  "summary": "The Power BI Sustainability app semantic model organizes sustainability ledger entries, employee data, and sustainability goals as fact tables with dimension tables for accounts, employees, emission fees, and responsibility centers.",
+  "systems": [
+    "sustainability",
+    "hr",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "star schema",
+    "sustainability",
+    "environmental tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Employee Absence"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Employee Qualification"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goal"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    },
+    {
+      "type": "table",
+      "name": "Emission Fee"
+    },
+    {
+      "type": "table",
+      "name": "Employee"
+    },
+    {
+      "type": "table",
+      "name": "Responsibility Center"
+    },
+    {
+      "type": "table",
+      "name": "Sustain. Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustain. Account Subcategory"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "star schema",
+    "emissions tracking",
+    "sustainability goals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010063,
+      "pages_in_call": 5
+    }
+  ]
+}

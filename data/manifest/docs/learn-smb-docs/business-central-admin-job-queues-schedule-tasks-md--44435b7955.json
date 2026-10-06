@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks",
   "published_at": "2026-07-03T13:47:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb",
       "words": 2381,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T16:50:33.198Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.009806
+    },
+    "summarized": {
+      "at": "2026-10-06T16:50:33.215Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:50:33.216Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:50:33.217Z",
+      "page": false
     }
   },
   "input_hash": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb"
+  "output_hash": "23d08452875643da3b5375b2f51acd857af44bec38e91143d4dd798a3773b367"
 }

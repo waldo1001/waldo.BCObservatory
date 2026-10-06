@@ -1,0 +1,28 @@
+{
+  "video_id": "Vq9Nk6_uxmQ",
+  "item_id": "video/yt-microsoft/Vq9Nk6_uxmQ",
+  "summary": "Building custom agents in Business Central sandboxes without code: the three required parts (instructions, profile, permissions), how the platform wraps instructions in a larger prompt, how profiles limit the agent UI, and when an agent fits better than AL code. Also covers the sample agents and the announced agent testing capability.",
+  "overview": "Episode 14 of Business Central Under the Hood explains how custom agents are built in a sandbox. A custom agent needs instructions, a profile and a permission set. The speakers recommend short, natural-language instructions. They note that the platform wraps these in a larger prompt and protects against prompt injection. Page-specific instructions use a curly braces and percentage syntax.\n\nThe video spends time on profiles, which limit the agent's UI and set the starting role center. Three new profile properties clear actions, fields and saved views from a page, and code then adds back only what the agent needs. The talk also covers permissions as the intersection of user and agent permission sets, and the sample agents (Sales Validator, a sales return agent in development). It ends with guidance on good agentic scenarios, low cost for infrequent tasks, the upcoming SDK and agent testing.",
+  "key_points": [
+    "Custom agents are built in a sandbox without code from three parts: instructions, a profile and permissions. A wizard opens from the plus icon or the agents list.",
+    "Instructions are wrapped by the platform in a larger prompt. The recommendation is to write minimal natural-language instructions. Page-specific instructions use curly braces and percentage syntax.",
+    "Profiles limit the agent's UI and set the starting role center. Three new profile properties clear all actions, fields and saved views from a page, and code adds back what is needed. The speaker said the vanilla W1 items page has 120 actions.",
+    "An agent runs with the intersection of the permission sets of the user who gave it the task and the agent's own permission set. Anything the agent can do, the user should be able to do.",
+    "Fields from third-party extensions can be exposed to agents through configuration. If an extension adds mandatory fields the agent cannot fill, it asks for user intervention.",
+    "Agents suit scenarios with variability, ad-hoc tasks, and language or external knowledge. They do not suit fixed algorithms, where AL code fits better. The speaker cited about 20-30 dollars a month for a low-frequency scenario.",
+    "Microsoft controls model selection and partners are notified of model changes. The SDK for partners to ship agents and agent testing are both described as coming, with no dates given."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "cd87f0042bd3bed03ca37f306ddab8831cb4955decd85559027fe2224f43b76b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0312964
+  }
+}

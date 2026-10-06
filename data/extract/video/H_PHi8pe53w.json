@@ -1,0 +1,211 @@
+{
+  "video_id": "H_PHi8pe53w",
+  "item_id": "video/yt-saurav/H_PHi8pe53w",
+  "title": "Business Central 29 0 Default Implementations in AL Interfaces",
+  "duration_s": 992,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al interfaces",
+    "default implementation",
+    "required pending",
+    "method bodies",
+    "interface evolution",
+    "breaking changes",
+    "migration path",
+    "interface contract",
+    "analyzer rule",
+    "reusable extensions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the problem with evolving AL interfaces",
+      "t_start": 0,
+      "t_end": 79.9
+    },
+    {
+      "title": "The problem with interface evolution and breaking changes",
+      "t_start": 79.9,
+      "t_end": 254.7
+    },
+    {
+      "title": "Overview of default implementation feature in version 29",
+      "t_start": 254.7,
+      "t_end": 322.7
+    },
+    {
+      "title": "How default implementation works in AL interfaces",
+      "t_start": 322.7,
+      "t_end": 443.9
+    },
+    {
+      "title": "Custom implementations and fallback to default behavior",
+      "t_start": 443.9,
+      "t_end": 532.2
+    },
+    {
+      "title": "Introduction to required pending attribute",
+      "t_start": 532.2,
+      "t_end": 624.6
+    },
+    {
+      "title": "Implementing required pending with examples and warnings",
+      "t_start": 624.6,
+      "t_end": 772.1
+    },
+    {
+      "title": "Use cases and best practices for default implementation",
+      "t_start": 772.1,
+      "t_end": 888.2
+    },
+    {
+      "title": "Key takeaways and current status",
+      "t_start": 888.2,
+      "t_end": 943.3
+    },
+    {
+      "title": "Closing remarks and call to action",
+      "t_start": 943.3,
+      "t_end": 992
+    }
+  ],
+  "features": [
+    {
+      "name": "Default implementation for AL interfaces",
+      "description": "AL interfaces can now have method bodies with default implementations, allowing existing implementations to continue working when new methods are added to an interface without requiring immediate changes to all implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 254.7,
+      "t_end": 429.7,
+      "is_demoed": true,
+      "caveats": [
+        "Should only be used when there is a sensible fallback behavior for the new method",
+        "Should not be used simply to hide a requirement",
+        "Default should be treated as a migration mechanism rather than a permanent solution"
+      ],
+      "tags": [
+        "default implementation",
+        "interface evolution",
+        "method bodies",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Required pending attribute for AL interface methods",
+      "description": "A new attribute that can be added to interface methods to signal that implementations should eventually provide their own implementation, with a specified deadline and reason. Provides a migration period instead of forcing immediate changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 532.2,
+      "t_end": 759.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires specifying a version deadline before which the method must be implemented",
+        "Requires providing a tag parameter",
+        "Requires specifying a reason parameter"
+      ],
+      "tags": [
+        "required pending",
+        "interface evolution",
+        "migration path",
+        "analyzer rule"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Staged interface evolution mechanism",
+      "description": "A new approach to interface evolution that moves from immediate breaking changes to a staged process: introduce method with default implementation, provide default behavior, then signal future requirement with required pending.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 564.2,
+      "t_end": 927.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires coordination between extension providers and dependent extensions",
+        "Requires developers to understand the three-stage process"
+      ],
+      "tags": [
+        "interface evolution",
+        "breaking changes",
+        "migration",
+        "staged approach"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sar Dhani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.4,
+      "text": "with business 29.0 O introduces a new approach which is called as default implementation for AL interface",
+      "why_it_matters": "Announces the core feature that addresses the problem of evolving interfaces without breaking changes.",
+      "check": "exact"
+    },
+    {
+      "t": 213.1,
+      "text": "The problem is that the new method changes the contract of the interface and every existing implementation either in your extension or any dependent",
+      "why_it_matters": "Explains the fundamental problem that default implementation solves - the cascading requirement for all implementations to change.",
+      "check": "exact"
+    },
+    {
+      "t": 266.2,
+      "text": "allowing developer to add default method bodies to interface so that existing implementation can continue working as is",
+      "why_it_matters": "Provides the official description of how default implementation enables backward compatibility.",
+      "check": "exact"
+    },
+    {
+      "t": 564.2,
+      "text": "The idea is to introduce a method is completely way first while signaling that implementation are expected to eventually provide the method themsel",
+      "why_it_matters": "Describes the purpose of required pending - a mechanism to eventually enforce implementation without breaking existing code immediately.",
+      "check": "exact"
+    },
+    {
+      "t": 912.8,
+      "text": "required pending provides a path for introducing method that should eventually become required",
+      "why_it_matters": "States the key benefit of required pending attribute for managed interface evolution.",
+      "check": "exact"
+    },
+    {
+      "t": 943.3,
+      "text": "Business Central 29 is currently in public preview",
+      "why_it_matters": "States the current release status of the feature at the time of recording.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 943.3,
+      "kind": "preview",
+      "text": "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior once the GA is announced."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021046999999999996
+    }
+  ]
+}

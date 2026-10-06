@@ -1,0 +1,28 @@
+{
+  "video_id": "eDi32pS8eMo",
+  "item_id": "video/yt-hougaard/eDi32pS8eMo",
+  "summary": "Advanced Spreadsheets and Reporting app for Business Central: AI reporting skills let an agent build dashboards in spreadsheets connected to BC data. The app includes 15 generic skills, is free in a sandbox, and needs your own API key (ChatGPT, Claude or others) for the agent.",
+  "overview": "Erik Hougaard demonstrates the Advanced Spreadsheets and Reporting app for Business Central, where spreadsheets are connected to Business Central data. Instead of saving templates manually, users pick a skill, which is a set of instructions for the AI, and say what the report should contain.\n\nThe demo creates a new spreadsheet with the agent and shows it building a dashboard with KPI boxes, financial charts and analysis sections. The agent works with the spreadsheet the way a user would. The video closes with how to get and use the app, including the bring your own key requirement.",
+  "key_points": [
+    "The app builds spreadsheets connected with Business Central data.",
+    "It ships with about 15 generic skills, including executive summaries, GL exception dashboard, ratio dashboard, budget versus actual and benchmarking dashboards.",
+    "A skill is a set of instructions for the AI to build a report or dashboard; it replaces manually saved templates.",
+    "You can give the agent specific instructions or let it use the skill defaults.",
+    "The demo shows the agent building a dashboard with KPI boxes, financial charts and analysis sections.",
+    "The app is free to use in a sandbox.",
+    "Using the agent requires your own API key, for example from ChatGPT or Claude (bring your own key)."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "10950d0661dd8a2a7ae80fed2b6480b21c9ce9777a703732e9cf26cbd13ca5be",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0127624
+  }
+}

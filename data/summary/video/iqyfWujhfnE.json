@@ -1,0 +1,26 @@
+{
+  "video_id": "iqyfWujhfnE",
+  "item_id": "video/yt-hougaard/iqyfWujhfnE",
+  "summary": "Adding a live chart to a spreadsheet in Business Central with the Advanced Spreadsheets and Reporting app. A table region on the Customer table feeds a column chart of customer sales, and the chart updates when the data changes. The app is free to try in a sandbox cloud environment.",
+  "overview": "Erik Hougaard shows, in about three minutes, how to add a live chart to a spreadsheet using the Advanced Spreadsheets and Reporting app for Business Central. He first sets up the spreadsheet, then creates a table region from the Customer table with columns for number, name and sales.\n\nHe then adds a chart region, chooses a column chart, and maps the data and categories to show customer sales. He explains that the table region pulls data out of Business Central, so the chart is live and updates when the data changes. The app is free to try and use in a sandbox cloud environment.",
+  "key_points": [
+    "A table region grabs data from a Business Central table; the demo uses the Customer table with number, name and sales columns.",
+    "A chart region is added to the spreadsheet and configured with data and categories.",
+    "The demo uses a column chart to show customer sales.",
+    "The chart is live: it updates when the underlying Business Central data changes.",
+    "The Advanced Spreadsheets and Reporting app is free to try only in a sandbox cloud environment.",
+    "Steps shown: spreadsheet setup, table region, chart region, mapping data and categories, preview."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "5a7f2492ac7204c1d919090677d73fc117a732d6761cf0130e292f1e0800434f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0108784
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model",
   "published_at": "2026-07-07T11:50:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d64d72b0d2791ec2b2c021f712cc551ad73001f4",
       "words": 2828,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:48:27.937Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 23,
+      "cost_usd": 0.010063
+    },
+    "summarized": {
+      "at": "2026-10-06T16:50:33.201Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:50:33.202Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:50:33.203Z",
+      "page": false
     }
   },
   "input_hash": "d64d72b0d2791ec2b2c021f712cc551ad73001f4",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d64d72b0d2791ec2b2c021f712cc551ad73001f4"
+  "output_hash": "e14e93274d069ece1fde63add02b7a41a32dfb4399fd5de8f698dd5cf57ab85e"
 }
