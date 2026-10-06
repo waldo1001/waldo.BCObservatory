@@ -1,0 +1,349 @@
+{
+  "video_id": "2_yYu3RgYwo",
+  "item_id": "video/yt-microsoft/2_yYu3RgYwo",
+  "title": "What's New: Default Sustainability Information (2025 release wave 1)",
+  "duration_s": 453,
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "default values",
+    "sustainability setup",
+    "emissions",
+    "carbon equivalent",
+    "procurement",
+    "master data",
+    "gl account",
+    "item card",
+    "resource card",
+    "purchase invoice"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and sustainability setup configuration",
+      "t_start": 0,
+      "t_end": 71.4
+    },
+    {
+      "title": "Default values for GL accounts, items, resources, and machines",
+      "t_start": 71.4,
+      "t_end": 150.2
+    },
+    {
+      "title": "Demo introduction and item setup",
+      "t_start": 150.2,
+      "t_end": 185.2
+    },
+    {
+      "title": "Item sustainability configuration and carbon equivalent calculation",
+      "t_start": 185.2,
+      "t_end": 227.3
+    },
+    {
+      "title": "Resource setup and batch carbon equivalent calculation",
+      "t_start": 227.3,
+      "t_end": 271
+    },
+    {
+      "title": "GL account configuration and purchase invoice setup",
+      "t_start": 271,
+      "t_end": 307.7
+    },
+    {
+      "title": "Purchase invoice line items with default sustainability values",
+      "t_start": 307.7,
+      "t_end": 387.2
+    },
+    {
+      "title": "GL account emissions and availability on other documents",
+      "t_start": 387.2,
+      "t_end": 427.6
+    },
+    {
+      "title": "Session conclusion and sustainability resources",
+      "t_start": 427.6,
+      "t_end": 453
+    }
+  ],
+  "features": [
+    {
+      "name": "Default sustainability account on GL account",
+      "description": "Enable setup of default sustainability account values on general ledger accounts. GL accounts receive only sustainability account as default value, not emission values, since different emission values typically apply at posting time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.7,
+      "t_end": 106,
+      "is_demoed": true,
+      "caveats": [
+        "GL accounts do not support default emission values"
+      ],
+      "tags": [
+        "gl account",
+        "default values",
+        "sustainability account"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Default sustainability values on item card",
+      "description": "Enable setup of default sustainability account and gas emissions values on item cards. Fields become editable when replenishment system is set to purchase, non-editable when set to production order or assembly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106,
+      "t_end": 172.3,
+      "is_demoed": true,
+      "caveats": [
+        "Fields are non-editable for production order or assembly replenishment systems",
+        "Must use calculate carbon equivalent action for new items"
+      ],
+      "tags": [
+        "item card",
+        "default values",
+        "emissions",
+        "carbon equivalent"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Default sustainability values on resource card",
+      "description": "Enable setup of default sustainability account and gas emissions values on resource cards. Users can set default values that transfer to purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106,
+      "t_end": 241.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires calculate carbon equivalent action to populate fields"
+      ],
+      "tags": [
+        "resource card",
+        "default values",
+        "emissions"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Default sustainability values on machine center card",
+      "description": "Enable setup of default sustainability account and gas emissions values on machine center cards in manufacturing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106,
+      "t_end": 134.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "machine center",
+        "default values",
+        "emissions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Sustainability setup enablement",
+      "description": "New sustainability setup option to enable or disable default sustainability values across master data. When disabled, experience is business as usual. When enabled, new fields appear on GL accounts, items, resources, and machine centers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.3,
+      "t_end": 71.4,
+      "is_demoed": false,
+      "caveats": [
+        "Disabled by default",
+        "Optional feature"
+      ],
+      "tags": [
+        "setup",
+        "enablement",
+        "sustainability"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Item charge default sustainability values",
+      "description": "Item charge default sustainability value setup is currently disabled and will be enabled in a future wave as part of complete value chain functionality.",
+      "status": "announced",
+      "status_evidence_t": 134.4,
+      "status_evidence_quote": "Item charge is not enabled yet in this moment. It will be part of next wave because completely uh functionality about value chain is",
+      "status_evidence_verified": true,
+      "t_start": 71.4,
+      "t_end": 150.2,
+      "is_demoed": false,
+      "caveats": [
+        "Currently disabled",
+        "Value chain functionality is in public preview"
+      ],
+      "tags": [
+        "item charge",
+        "default values",
+        "value chain",
+        "future"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Calculate carbon equivalent action",
+      "description": "Action available on item and resource cards and on list views to automatically calculate and populate carbon equivalent per unit field based on setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 216.6,
+      "t_end": 271,
+      "is_demoed": true,
+      "caveats": [
+        "Must be run for new items to populate carbon equivalent fields",
+        "Available on list view to update all records at once"
+      ],
+      "tags": [
+        "carbon equivalent",
+        "action",
+        "calculation"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Default sustainability values transfer to purchase documents",
+      "description": "Default sustainability account and emissions values set on master data cards automatically transfer to purchase invoice and purchase order lines. Values are editable in documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 296.8,
+      "t_end": 416.2,
+      "is_demoed": true,
+      "caveats": [
+        "Values are defaults only and can be modified in documents",
+        "Available on purchase invoice, purchase order, purchase return order, purchase credit memo"
+      ],
+      "tags": [
+        "default values",
+        "purchase documents",
+        "transfer"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "sustainability account",
+      "t": 86.4
+    },
+    {
+      "type": "other",
+      "name": "gas emissions",
+      "t": 106
+    },
+    {
+      "type": "table",
+      "name": "item card",
+      "t": 106
+    },
+    {
+      "type": "table",
+      "name": "resource card",
+      "t": 106
+    },
+    {
+      "type": "table",
+      "name": "machine center",
+      "t": 106
+    },
+    {
+      "type": "table",
+      "name": "GL account",
+      "t": 271
+    },
+    {
+      "type": "other",
+      "name": "calculate carbon equivalent",
+      "t": 216.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Melissa",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 24.3,
+      "text": "to start with that first what do you need to do? You need to move to sustainability setup to enable these default values",
+      "why_it_matters": "Explains that enablement of default sustainability values is a deliberate setup step, not automatic.",
+      "check": "exact"
+    },
+    {
+      "t": 44.2,
+      "text": "by default it will be disabled only if you want to use you will system will automatically change us your experience and you will",
+      "why_it_matters": "Clarifies that the feature is opt-in with disabled by default behavior and business-as-usual experience unless explicitly enabled.",
+      "check": "exact"
+    },
+    {
+      "t": 86.4,
+      "text": "So what you will get on GL account you will get only sustainability account as default value.",
+      "why_it_matters": "Specifies the design decision that GL accounts support only sustainability account defaults, not emissions defaults.",
+      "check": "exact"
+    },
+    {
+      "t": 134.4,
+      "text": "Item charge is not enabled yet in this moment. It will be part of next wave because completely uh functionality about value chain is",
+      "why_it_matters": "Indicates that item charge support is announced but not available now, tied to value chain functionality in public preview.",
+      "check": "snapped"
+    },
+    {
+      "t": 185.2,
+      "text": "These default emission fields are related to replenishment system field. So if our replenishment system is set to production order or assembly, these fields",
+      "why_it_matters": "Describes behavior where field editability depends on replenishment system type, important for users to understand.",
+      "check": "exact"
+    },
+    {
+      "t": 337.1,
+      "text": "These fields are only default values, but we can modify them. So we can change sustainability account to different one and also emissions can",
+      "why_it_matters": "Confirms that default values in purchase documents are editable and can be overridden by users.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 134.4,
+      "kind": "coming-later",
+      "text": "Item charge is not enabled yet in this moment. It will be part of next wave"
+    },
+    {
+      "t": 134.4,
+      "kind": "preview",
+      "text": "completely uh functionality about value chain is currently public preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02384
+    }
+  ]
+}

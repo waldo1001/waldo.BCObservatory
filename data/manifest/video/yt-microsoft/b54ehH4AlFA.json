@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry",
   "url": "https://www.youtube.com/watch?v=b54ehH4AlFA",
-  "published_at": null,
+  "published_at": "2025-03-20T15:45:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:55:03.055Z",
+      "captions": "auto:en-orig",
+      "duration_s": 246
+    },
+    "captioned": {
+      "at": "2026-10-06T18:55:12.492Z",
+      "path": "data/captions/microsoft/b54ehH4AlFA.vtt",
+      "vtt_sha256": "119e4ceb9f75fa5d4490249ffb533b22ca363ee47d98aa79e46bcab0d5f08a0f",
+      "segments": 13,
+      "words": 510,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 289,
     "duration_s": 246,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "119e4ceb9f75fa5d4490249ffb533b22ca363ee47d98aa79e46bcab0d5f08a0f"
 }

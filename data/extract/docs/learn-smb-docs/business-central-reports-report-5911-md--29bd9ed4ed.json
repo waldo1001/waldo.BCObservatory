@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5911.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5911",
+  "title": "Service - Invoice (document report)",
+  "blob": "6a6b793093c0554e4ab911f1017fb349eac6e786",
+  "summary": "Service - Invoice report produces service invoices for customers showing invoice number, order number, posting date, payment terms, customer details, and amount due.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service invoice",
+    "document report",
+    "customer billing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service - Invoice"
+    }
+  ],
+  "features": [
+    "service invoice number",
+    "order number",
+    "posting date",
+    "due date",
+    "payment terms",
+    "customer name",
+    "VAT registration number",
+    "amount due"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001088,
+      "pages_in_call": 7
+    }
+  ]
+}

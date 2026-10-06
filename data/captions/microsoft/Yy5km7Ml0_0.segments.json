@@ -1,0 +1,493 @@
+{
+  "video_id": "Yy5km7Ml0_0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.2,
+      "end": 30.3,
+      "text": "welcome to the nth episode of under the hood so today um today we are going to be going really under the hood and you'll get some insights on some of the things we don't we don't talk very often about but are really important so we are talking we are going to talk about our Engineering Systems and all the things that um some"
+    },
+    {
+      "t": 30.3,
+      "end": 50.5,
+      "text": "of the things that that we are doing to support developers and uh you know some of the Machinery behind the scene in in our development team and today to talk about that uh I have yonas with us welcome yonas thank you Vincent so yonas tell us a little bit about yourself what's uh what are you doing uh in the in the BC team and what's"
+    },
+    {
+      "t": 50.5,
+      "end": 70.8,
+      "text": "you know what's what's your role yeah so uh I'm the engineering manager for the Engineering Systems teams and I I joined Microsoft about 15 years ago and for the past 12 years I've been running the Engineering Systems team over here in different names I think we recall Bill system one point in time and infrastructure at some point and now it's Engineering"
+    },
+    {
+      "t": 70.8,
+      "end": 91,
+      "text": "Systems infrastructure is still something that infrastructure is still something that sticks yeah sticks a little bit Yeah but it's a it's a lot more than just infrastructure what you yeah and so when we talk about infrastructure people associate that with other things like hey can you help me with my laptop or my windows isn't working or sorry I I don't know really much much about those things"
+    },
+    {
+      "t": 91,
+      "end": 111.1,
+      "text": "so just to be clear you don't do any It stuff well I do I do at home for for family you can actually fix printers yeah I well that's the one thing I cannot fix that's the one thing that that nobody can fix all right yeah okay so um yeah so your team is called Engineering Systems right uh and uh so let's start with uh"
+    },
+    {
+      "t": 111.1,
+      "end": 131.2,
+      "text": "talking a little bit about builds right because that's something that uh we do quite a bit of quite a bit of right um so how many you know how many what do we build what do you build and and and how often and you know yeah so well obviously we build the product yeah so business Central Business Central"
+    },
+    {
+      "t": 131.2,
+      "end": 151.2,
+      "text": "as a product and then we have I think we have about a 100 repositories with code bases that we build on a regular basis okay and I think my team owns about 70 different build pipelines so 100 G 100 G repositories we have that are active and turn bills more or less daily mhm and not all of them are owned by my team"
+    },
+    {
+      "t": 151.2,
+      "end": 171.5,
+      "text": "obviously but we kind of oversee the bill processes and a lot of them make sure that they work that they produce what they need to you the outputs the official bills that those bills are set up correctly securely by you know following compliance rules and like like all of these things so what are example can you give some examples of what this repo"
+    },
+    {
+      "t": 171.5,
+      "end": 191.7,
+      "text": "uh well so so so for instance there's a repository for the uh developer tools team the compiler all the visual Studio code all the visual studio code Parts there's a specific repository for the application developer team where we have the app team there's this different repository for the platform runtime pieces the"
+    },
+    {
+      "t": 191.7,
+      "end": 210.6,
+      "text": "repositories for Engineering Systems like for the bill system itself is it's own repository and its own codebase and there are like all of these different repositories like the control plane is a big part as well right we multiple repositories for the services that it takes to provision and run cloud services so that's the whole the whole machinery"
+    },
+    {
+      "t": 210.6,
+      "end": 230.6,
+      "text": "to orchestrate the cloud yeah to orchestrate whenever it yeah so when a customer signs up for a new environment to provision those environments to get it deployed when a customer connects to the environments figuring out where to connect in the back end Etc the repositories for all of these different Services some of them lump together in one repository some of them are like one"
+    },
+    {
+      "t": 230.6,
+      "end": 250.6,
+      "text": "service one repository we have a kind of a mixed model so if you if you're familiar with what what we ship on the DVD uh so the these parts are not shipped on the obviously correct so some of the some of the pieces you mentioned before like the NST and uh and and things like that the application the N the install they on the on the"
+    },
+    {
+      "t": 250.6,
+      "end": 270.7,
+      "text": "DVD and on the part that we we ship openly but all the all the code that is orchestrating the the S the SAS service yes uh is actually not shipped obviously but that's also a large part of of all code base right yeah if you look at the amount of people we have working on the product like the things we to customers that are"
+    },
+    {
+      "t": 270.7,
+      "end": 291,
+      "text": "being used by customers that's a lot of people but a lot of people's also working on the underlying infrastructure Engineering Systems and control plane to make it possible for us supp to sign up to the product and use the product and upgrade to new versions get hot fixes and Report issues and get help and support and everything so there's a lot of know code"
+    },
+    {
+      "t": 291,
+      "end": 309.7,
+      "text": "and work that goes into that part of the system as well so do you have some stats on on these bills um how many you know how many different versions are we building so we we we yeah actually you know let's let's start somewhere else we we we went to get we didn't use get all"
+    },
+    {
+      "t": 309.7,
+      "end": 329.8,
+      "text": "um from the beginning right obviously so we had another internal uh internal product which has some similar capability than git but uh I think theol git was much more mature and became an industry standard so we we moved to to kid some years ago and you were"
+    },
+    {
+      "t": 329.8,
+      "end": 349.8,
+      "text": "part of that effort which was not quite significant amount of work yes yeah yeah so can you talk a little bit about that yeah yeah so so we came from this Source control system called Source Depot which is Microsoft internally only it's not available outside of Microsoft so many years ago Microsoft purchased source code for a system called perforce also"
+    },
+    {
+      "t": 349.8,
+      "end": 370,
+      "text": "known as P4 that's a centralized Source control system which Microsoft took productized internally added some features scalability performance other features missing and then more or less entire Mark was running on Source Depot for many many years and being a centralized system you know that there are some pros and cons to that it doesn't have any"
+    },
+    {
+      "t": 370,
+      "end": 390,
+      "text": "good offline experience so you went flying or working without internet connection you could you couldn't edit files and stuff some of things were quite complicated and then kind of git came along and became an industry standard and Microsoft started adopting open source much more becoming much more friendly towards open source and kind of figured it"
+    },
+    {
+      "t": 390,
+      "end": 410.2,
+      "text": "doesn't make sense that we continue investing in our own source control system anymore so let's move to something standard and Microsoft decided to get this answer which good decision uh a couple of years later so we had to migrate this really old monor repo we had with all of the Legacy code BS for for navis at that time"
+    },
+    {
+      "t": 410.2,
+      "end": 430.2,
+      "text": "right into G and if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would take up something like 30 gigabytes on your disc for business Central for example just business Central source code so we had a ton of binaries and source code in"
+    },
+    {
+      "t": 430.2,
+      "end": 450.4,
+      "text": "that repository and git doesn't really do binaries well like it does text really well but not binaries so we had a really complicated process of moving binaries out of source Depot creating Sim links on dis to make it look like it actually was still on the dis so then moving the code into git we could build based on the code"
+    },
+    {
+      "t": 450.4,
+      "end": 470.5,
+      "text": "based init and sings to to the uh to the binaries and then gradually moving these things out into packages and redoing the code base and uh kind of moving that way into get but a long interesting product we had to replay history from all sours Depot into git to some extent so we can get history and then we had to write Bridges so people"
+    },
+    {
+      "t": 470.5,
+      "end": 490.8,
+      "text": "could go and look in and history from git all the way back to the beginning of source ape so we would go and open up the Old Source ape browser to look at history when you past the history we had in get so yeah and you still have requirements to be able to build older versions for various you know compliance but also support purposes you know like somebody"
+    },
+    {
+      "t": 490.8,
+      "end": 510.9,
+      "text": "has a bug on an old version we should be able to potentially fix it especially if it's a security b or so all the versions We support uh at least officially back in time we need to be able to at all time be able to build them uh should some for example a security incident occure uh would have to provide a patch for"
+    },
+    {
+      "t": 510.9,
+      "end": 530.9,
+      "text": "it so that that puts a lot of requirement on on on your team yeah we keep on building old versions quite a bit still to be able to do security fixes like you mentioned yeah if if needed if needed yeah yeah so so with the uh you know if you're familiar with G you know that there is this concept of branches right so we have uh we have quite a few branches"
+    },
+    {
+      "t": 530.9,
+      "end": 551,
+      "text": "in our in our repo um yeah I mean yeah definitely so it so there are many branches which we call official branches and official branch branches are branches where we publish official bills out of so those are bills we ship to customers in one way or another different shapes and forms right uh and then obviously there are tons of branches across"
+    },
+    {
+      "t": 551,
+      "end": 571.5,
+      "text": "repositories for when people do feature development they share work between teams or they do private tests Etc so but not counting that there are still a lot of branches and I actually brought a a slide we can look at yeah you have some uh some numbers and statistics on yeah a little bit of numbers on on the amount of active branches we have"
+    },
+    {
+      "t": 571.5,
+      "end": 591.8,
+      "text": "so so on the y- AIS here you can see the different branches that we maintain and are active where we produce builds and there's about 30 of them so 30 different versions where we produce builds out of U business Central so it's more or less is it fair to say that there's at least at the minimum one branch"
+    },
+    {
+      "t": 591.8,
+      "end": 612.2,
+      "text": "per version yes we have like even the minor version we have a branch for that yeah exactly and on the xax is you can see the activity in terms of official bills on these branches so how often do we produce assembled entire product and make it R for shipping MH you can see like so in the last 60 days we did that almost 800"
+    },
+    {
+      "t": 612.2,
+      "end": 632.4,
+      "text": "times in master and in the 25x branch we did it almost 600 times so what's master so master and Main is the same thing that's where we develop the next version of business okay so it's not yet it's not shipped to customers not shipped that's where all the that's where the active development happens the new stuff is happening and uh eventually we Branch"
+    },
+    {
+      "t": 632.4,
+      "end": 652.6,
+      "text": "out for releases and we ship out of release branches so we can go on hot fix issues that customers so we have Master which everybody all our developers work on yes and then when we ship say 25 then we Branch out for 25 for 25 but then everybody continues working they continue in master and then as they develop new features if some of those features"
+    },
+    {
+      "t": 652.6,
+      "end": 672.6,
+      "text": "are also shipped in a minor then they backport that from the master Branch into the 25 you know one or two br or whatever whenever they want those things to ship all right yeah and then and so and for each of these branches we build the entire product we do yeah over and over again every time we need"
+    },
+    {
+      "t": 672.6,
+      "end": 692.6,
+      "text": "it like like every day or every night or all the well I mean so if you if you look at the the main branch for instance we built it 800 times in the last two months so it's a 20 times a day or something we produce new builds new versions so every time anybody CHS the product if you check a new code to the product every single change"
+    },
+    {
+      "t": 692.6,
+      "end": 713,
+      "text": "produces a new build which we deploy to test environments run all the tests on them Etc to make sure that it works yeah and and do we build what about the the language version I mean has many language versions yeah so with every commit we rebuild every single language version so everything all 30 something languages"
+    },
+    {
+      "t": 713,
+      "end": 733.2,
+      "text": "so that's a lot of bills it we use a lot of compute Power Engineering system teams like we have up to 3,000 and machines running on a daily basis doing nothing but building and testing the product okay and it's all it's all automated it's 100% automated the developer checks in code gets it reviewed and you know eventually the bill is produced and uploaded"
+    },
+    {
+      "t": 733.2,
+      "end": 753.3,
+      "text": "and and uploaded into test environments ET so so just to be clear the the automation basically is what your team has been you know developing and maintening and and you know um so you mentioned tests um and there was there's Al some test that gets run uh also on a regular basis also in an automated fashion yeah"
+    },
+    {
+      "t": 753.3,
+      "end": 773.5,
+      "text": "so with every I also have a slide on that so let's take a look at this one so this slide shows us on the xaxis it shows us the day from January 1st to January 23rd and on the y-axis you can see the amount of tests we want on those every single day so January 1st and a a lot of people are working we just run some stability jobs"
+    },
+    {
+      "t": 773.5,
+      "end": 793.6,
+      "text": "and test and we run about 20 million test cases but then like people get back slow they get back into work etc so if you look at January 9 for instance we ran almost 80 million tests wow uh on that single day on the product so and this is a combination of running tests on different versions localizations and"
+    },
+    {
+      "t": 793.6,
+      "end": 813.8,
+      "text": "different test jobs by build jobs PR validation official jobs performance test all sorts of things so we we run yeah I think on average yeah 40 million tests every day something like that wow so what happens when one of these tests fails uh so it depends if they fail on"
+    },
+    {
+      "t": 813.8,
+      "end": 834.6,
+      "text": "your pool request validation then we reject your code changes then we say you can't check it in so we're talking about getting basically changes right so so any change that breaks the build or uh or even before that so so yeah if the build if if there's build they don't get into the build unless the test passes M"
+    },
+    {
+      "t": 834.6,
+      "end": 854.6,
+      "text": "but the uh the pr validation is quite complicated imagine like every official build runs about half a million test cases so with the pr validation we do turn based test selection so depending on what you change in the product we run different tests and use that to determine if you broke something or not so"
+    },
+    {
+      "t": 854.6,
+      "end": 874.7,
+      "text": "you have to some euristic to determine which test you'll be running depending on which part of the code yeah so we collect code coverage for all of the test that runs in the product and then we also know all of the inputs and outputs so we collect uh statistics from f system so we know every single file that's been read by any build task and all the outputs that were produced by that"
+    },
+    {
+      "t": 874.7,
+      "end": 894.8,
+      "text": "bill task so if you CH modify three files in part of your pull request we can tell these files were part of these build tasks these build jobs so now we need to rerun those and all the children of those and all the tests associated with those parts of the tasks I'm pretty impressive so rather large system so it's fair to say so you you"
+    },
+    {
+      "t": 894.8,
+      "end": 914.8,
+      "text": "you're working a lot with Automation in general so it's fair to say that your team is pretty good at that yes to yeah I mean that's what we do like a core tenant of our team is to minimize or remove any manual processes it wouldn't be scalable to have a team doing any of"
+    },
+    {
+      "t": 914.8,
+      "end": 934.9,
+      "text": "these things manually so it's most it's so everything when you you know all the thing all the things I'm talking about is is automated it's all running automated and when any of those processes fail we get signals and bugs and things like that and that's where we have sometimes have to step into the manual things when things are failing we need to investigate and mitigate or fix bucks and rerun things so then"
+    },
+    {
+      "t": 934.9,
+      "end": 955.9,
+      "text": "we might kick off a new automation process again manually then manually we started manually but then it runs automatically it just runs automatically I got it what about so uh what about security you also have a important role in ensuring we prod prod product already secure right yeah yeah so"
+    },
+    {
+      "t": 955.9,
+      "end": 976,
+      "text": "if you look at the last couple of years supply chain attack is on the rise so there are lots of examples where companies manage to compromise Engineering Systems Packaging Systems npm n get and all these things and the companies get bad code into the build environments and then attackers manage to move laterally from the"
+    },
+    {
+      "t": 976,
+      "end": 996.2,
+      "text": "bill systems ET so that's yeah so that's a different type of attack yes you know people maybe the traditional they don't attack the production in system they attack the system before it heads into production which is probably more efficient if you succeed because well if you can sneak bad code into a product you can do bad things yeah imagine I don't know"
+    },
+    {
+      "t": 996.2,
+      "end": 1016.4,
+      "text": "sales processing if you could you know charge the customer twice once for the actual merchandise they're buying and one like you know to my account or something yeah so that would be really really bad yes but then luckily you there to prevent this from happening yeah well we do our best we haven't as far as we know we haven't had any attacks but yeah we spend a significant"
+    },
+    {
+      "t": 1016.4,
+      "end": 1037,
+      "text": "amount of time on security so can you give a few examp of what these activities um are yeah so there's a lot of work currently with the safe uh future initiatives within Microsoft which has a lot of different work streams in how we lock down systems so that's part of it but then we also do other things like"
+    },
+    {
+      "t": 1037,
+      "end": 1057,
+      "text": "we Baseline all security settings we have across all our repositories who make sure nobody has permissions to anything they shouldn't have no code gets into repository without at least one full-time employee signs off on it and if it's release branches at least two different persons need to sign off on it so we manage all of these policies"
+    },
+    {
+      "t": 1057,
+      "end": 1077,
+      "text": "and make sure that nobody has access to things they shouldn't have and anytime any permissions are changed in the system we get notified and we review these new permission changes and we either roll them back or we update the baselines so I I think we review these baselines almost every day when things are changing to make sure that"
+    },
+    {
+      "t": 1077,
+      "end": 1097.2,
+      "text": "you know you don't have permissions to something shouldn't have we make sure nobody has persistent access to build pipelines release pipelines code anything like that feeds yeah if you can inject something into a build feed you get npm whatever then you can sneak in code into the build so we need to make sure that can't"
+    },
+    {
+      "t": 1097.2,
+      "end": 1118.1,
+      "text": "happen so we run component governance and all types of tools and all the packages we use to make sure they haven't been compromised and so we know exactly which component we using and where they come from and yes exactly and then we generates you know s bumps and things to indicate what's part of the build every single version that is an input for the build system what about certificates"
+    },
+    {
+      "t": 1118.1,
+      "end": 1138.2,
+      "text": "um you also you know we we're using all sorts of certificates to uh yeah so those certificates are generate by Microsoft through the onert system and they're we don't we don't have access to those they're stored in key volts only and then we have specific identities that the bill system runs under for the parts that needs those"
+    },
+    {
+      "t": 1138.2,
+      "end": 1158.2,
+      "text": "certificates that can read them from that uh keybo and then they get Auto rotated frequently so they change on a regular basis they change on a regular basis if somebody could hold of one of the certificate yeah if somebody somehow managed to find a gap and steal one of those certificates we can just rotate it immediately and it happens automatically but if we learn"
+    },
+    {
+      "t": 1158.2,
+      "end": 1169,
+      "text": "that the certificate was leaked we can rotate it as well to make sure they can't use it for anything bad so I know it's not the case anymore but um at some stage"
+    },
+    {
+      "t": 1169,
+      "end": 1189.2,
+      "text": "you had this idea of using uh using BC as a platform uh for building these tools so a lot of these tools you are talking about are automation tools but they still require uh maybe sometime some UI to do some of the for you were mentioning maybe restart an automation"
+    },
+    {
+      "t": 1189.2,
+      "end": 1209.3,
+      "text": "or restart a bill or something so so so you had this this idea at some stage so tell us a little bit about that I think that's a good story yeah so one other thing we did many years ago was that as we Microsoft became more and more Cloud our bill system moved from being an in-house hosted type of Bill system"
+    },
+    {
+      "t": 1209.3,
+      "end": 1229.4,
+      "text": "to run in the cloud itself MH and then we had to build we had to create our own bill system essentially right and when you create your own bill system we didn't really want to spend time building a UI for that bill system MH and we found out that BC is really good at datadriven UI presentation declarative data driven UI present"
+    },
+    {
+      "t": 1229.4,
+      "end": 1249.7,
+      "text": "so we essentially connected business Central on top of the bill system database and created our entities that would represent bills and jobs and these things in BC and then our Engineers could use BC kind of like dog fooding BC to look at the bill system look at the tasks running how much was left"
+    },
+    {
+      "t": 1249.7,
+      "end": 1269.7,
+      "text": "look at log files from bills and and all these things so you're basically you removed all the things in BC like there's no there was no customer yeah remove no sales ers we had our own application no no no basically no really Erp no Erp yeah so we took that at least but you still but but you use BC to manage or build"
+    },
+    {
+      "t": 1269.7,
+      "end": 1289.8,
+      "text": "resources in ense right so we got the UI for free so we didn't have to build that UI and it would work on a phone and different browsers and all these things like we're not experts on building UI and dealing with JavaScript and HTML Etc like but BC is really good at that so you yes so you can have good UI yes really good UI with filtering and"
+    },
+    {
+      "t": 1289.8,
+      "end": 1309.8,
+      "text": "sorting and like all of these things and but we don't use this anymore no unfortunately not no we don't okay so we move to some yeah more yeah so one of the things approach or well we're in integrating more and more interal devops for the internal stuff and then for the external open source things we're running on GitHub so we"
+    },
+    {
+      "t": 1309.8,
+      "end": 1330,
+      "text": "want to be as close to the you know retail experience as possible it's easier when you hire new people it's easier for our engineers if you're looking for documentation Etc so we integrate into these systems asra dubs and GitHub instead okay it makes more sense longer term to be as that makes sense retail as possible"
+    },
+    {
+      "t": 1330,
+      "end": 1350.3,
+      "text": "building your own things building main maintaining yes so can you tell us uh do you have any so what's going on right now what are you working on do you have any projects you are excited about you want to tell us about yeah so we have a couple of different ones so we do some improvements internally one of the things I'm quite excited about is something we call Project test"
+    },
+    {
+      "t": 1350.3,
+      "end": 1363,
+      "text": "tolerance as you imagine if you run 80 million test cases every day if just a single of those are unstable then you get into some issues right so this test tolerance project"
+    },
+    {
+      "t": 1363,
+      "end": 1383.1,
+      "text": "Can it can track tests across multiple different branches and different bills and different people it can detect through euristic if the failure you had on your branch is related to your changes or if it's related to some other instabilities like I don't know 29th is one of those leap years is typically a day where some"
+    },
+    {
+      "t": 1383.1,
+      "end": 1403.2,
+      "text": "tests no longer work because they never thought about Leap Years or or you go from September to October you go from a on digigit month to a two-digit month there are cases like that where developers makes mistakes in their test case test cases and one thing that's really frustrating for developers is if they try to get their code into the build and it fails but"
+    },
+    {
+      "t": 1403.2,
+      "end": 1423,
+      "text": "it doesn't fail on their code it fails on something else MH so with this we can kind of detect that things are failing multiple places for different people without changes and we no longer have to treat that as a failure we can instead ignore it and just warn about it so that's one thing test tolerance super interesting"
+    },
+    {
+      "t": 1423,
+      "end": 1443.1,
+      "text": "thing then more on the like external side of things we also work on algo for GitHub okay which is like this kind of simple engineering system but for partners they can use they can bring their own code and they can build applications and extensions to BC and one thing the team is working on that Freddy is is driving now is incremental bills so"
+    },
+    {
+      "t": 1443.1,
+      "end": 1463.2,
+      "text": "if you have a lot of projects that you're building as part of your uh your builds your cicd pipelines and you only modify one of them we would only rebuild that one and we take the outputs from the previous build for the other inputs so faster turn around time much faster turnaround time and also that means that when you deploy your changes to your test"
+    },
+    {
+      "t": 1463.2,
+      "end": 1483.2,
+      "text": "environments or to your sandbox you only have to redeploy one app instead of 10 or so the turn around time the feedback loop becomes much quicker yeah so talking about which one of the you know some of the CH of your team is also to support our developers internally like from the BC engineering team so um so yeah"
+    },
+    {
+      "t": 1483.2,
+      "end": 1503.2,
+      "text": "you're doing a lot of things for keeping them happy yeah well we try yeah yeah so what are what what are the things you you you provide you what kind of service you provide to our developers give us a few examples yeah so we listen to a lot of their feedback and we listen to what is it that they find um frustrating annoying"
+    },
+    {
+      "t": 1503.2,
+      "end": 1523.7,
+      "text": "with the engineering system so like our team owns everything from the environment where they write their code to getting the code actually shipped to customers through DVDs or install as hot fixes in SAS Etc so we get feedback around all of these things and then you know some sometimes we onboard some new services"
+    },
+    {
+      "t": 1523.7,
+      "end": 1543.8,
+      "text": "for developer environments like new Microsoft new devbox offerings then we make sure we create images that are good for our Engineers to to work on so so if if I'm a developer in DC like let's say I'm a newly hired right um why I can just start developing you know I don't I don't need to install anything or"
+    },
+    {
+      "t": 1543.8,
+      "end": 1558.4,
+      "text": "now so you so you you just go to a website and you you say Okay create Dev box you give it a name and you give a size essentially how big do you want it to be do you want 8 CPUs 16 CPUs or 32 CPUs"
+    },
+    {
+      "t": 1558.4,
+      "end": 1578.6,
+      "text": "you deploy it and the image it deploys with has all the tools installed that you need to build the code and then you can start coding right yeah you you you clone the git repository and then you can start coding directly you don't need to care about the dependence and stuff so you have cql installed there's SQL and there's compilers and like case and do code all the things that you require the things that you normally"
+    },
+    {
+      "t": 1578.6,
+      "end": 1598.7,
+      "text": "would yeah yeah I just said I can tell you an anecdote about that because U uh one of U people in our team was trying to set up a machine so basically his own laptop with the own environment then of course you can do that yourself then you need to install the product uh you need to install you know all the things the tools"
+    },
+    {
+      "t": 1598.7,
+      "end": 1618.9,
+      "text": "SLE server Visual Studio code all the sdks and all that's doable but then you know um when when compiling you know it was the our app it was really really slow to deploy right and uh so we kind of talked about it that's weird because on my death box that's that that's pretty fast and what was talking a factor I don't know 10"
+    },
+    {
+      "t": 1618.9,
+      "end": 1638.9,
+      "text": "or something maybe not 10 but from 5 minutes to to 15 minutes right and uh then we figure out that uh there's a whole bunch of uh virus scanning that happens uh on your on your laptop on your laptop so so especially you know things around the NST that get scanned uh and these"
+    },
+    {
+      "t": 1638.9,
+      "end": 1659.3,
+      "text": "are pretty big uh uh files so so uh so that we figure out that was that was kind of the the the the problem and uh yeah so when we set up these boxes we add exclusions for the virus scanner for specific folders and types of and processes based on our experiences of what needs to be done so just to be clear this is still very secure"
+    },
+    {
+      "t": 1659.3,
+      "end": 1679.5,
+      "text": "this is not we do V scanning of everything just because this is just a development environment the code doesn't ship without going through a lot of testing is and typically you are building you know we trust the code we write ourselves yes so so this is the code that not does not get scan because this is what get ex change typically when you"
+    },
+    {
+      "t": 1679.5,
+      "end": 1699.7,
+      "text": "when it gets reviewed by at least mult yeah multiple people will review your code before it gets to production yeah yeah so that's pretty cool um I just saw recently also your team just made a new uh Improvement to our deployment system so we would have uh so all developers now have a a fully deployed a share"
+    },
+    {
+      "t": 1699.7,
+      "end": 1719.7,
+      "text": "test tenant yeah share test tenant they can access practically wide away with the latest bits from from Master yeah so that's another example of such an improvement we do when we hear about the frustration around getting easy access to test deployments so all of the all of the developers can access"
+    },
+    {
+      "t": 1719.7,
+      "end": 1739.8,
+      "text": "all of the official builds get deployed and they can just go to the browsering they go to a URL and then they can pick between which bills they want to test and get signed into BC for that one automatically as opposed to before they had they would have to go through the signup flow sign up flow and it will take some time and you know before you actually had a a full environment now it's just really that's pretty cool so they can"
+    },
+    {
+      "t": 1739.8,
+      "end": 1759.8,
+      "text": "test and yeah and the same thing for private branches so if you're working on a feature in your team or yourself you can submit a test job that does this deployment for you and when that's done it shows up in this environment as well so you don't have to sign up to that as well you just go into the browser you can test your latest code I haven't tried yet but sure yeah will it was a great"
+    },
+    {
+      "t": 1759.8,
+      "end": 1780.3,
+      "text": "Improvement so um um I think quite a few of our partners out there have uh have different um you know um systems similar to to ours at different levels some of them are you know simpler some of them are quite complex yes so do you have a do you have any advice for partners in building you know Engineering"
+    },
+    {
+      "t": 1780.3,
+      "end": 1800.4,
+      "text": "Systems and you know how should they go about it is that something they should uh invest a lot I would say stay away from it if you can no I I would piggy back on one that is already out there and something like aure devops yeah so aure devops and if they're work on Al code I would probably go for something like Al go for"
+    },
+    {
+      "t": 1800.4,
+      "end": 1820.4,
+      "text": "GitHub alpaka Al you know Al devops and like there are solutions out there I would recommend building on those instead of creating your own from scratch it's become very complicated to keep these things secure and and staying up to date with all the things happening in the industry these days so unless you have very special needs and even"
+    },
+    {
+      "t": 1820.4,
+      "end": 1840.6,
+      "text": "with that I mean this this I would rather customize already available system than create my own these but when you say it's when you say it's it's a good thing to have at a minimum some automated build so you can build on a regular basis yeah I I don't understand how you would how you would be able to work in today's landscape without having automated"
+    },
+    {
+      "t": 1840.6,
+      "end": 1860.7,
+      "text": "bills tests deployments that happens Version Control you need you need builds uh you need you know a pull request or yeah a review process for looking at the code getting it reviewed you need a way to test your code and deploy it and these things with some of these systems like Al go for GitHub these"
+    },
+    {
+      "t": 1860.7,
+      "end": 1880.8,
+      "text": "things are they come out of the box even the test execution and deployment to sandboxes and these things you get that for free versus spending then you can spend your time on what is you want like business logic business value that is better off yeah we'll put some links in the comments on the documentation of Elo"
+    },
+    {
+      "t": 1880.8,
+      "end": 1900.9,
+      "text": "for get yeah yes which is by the way where we're trying to move our own application team development so we're gradually moving them out of our internal asro devop solution slowly it takes time we have a large Legacy system but eventually the goal is to have our app team dog fooding that actually yeah dog using Al go gith"
+    },
+    {
+      "t": 1900.9,
+      "end": 1921.1,
+      "text": "up dog food and U doing all of their development in the public in the open source space so contributing with partners and sharing some of the work taking contributions from them Etc all right all right you thank you for sharing all these insights on maybe another of of BC that's less known yes definely"
+    },
+    {
+      "t": 1921.1,
+      "end": 1927,
+      "text": "um I hope you enjoy this episode and thank you for watching"
+    }
+  ],
+  "markers": [],
+  "word_count": 6065
+}

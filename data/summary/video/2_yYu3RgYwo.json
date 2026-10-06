@@ -1,0 +1,27 @@
+{
+  "video_id": "2_yYu3RgYwo",
+  "item_id": "video/yt-microsoft/2_yYu3RgYwo",
+  "summary": "Default sustainability values in Business Central (2025 release wave 1): an optional setting in sustainability setup, off by default, adds default sustainability account and emission fields to GL accounts, items, resources and machine centers. Those defaults carry over to purchase document lines and can be edited there.",
+  "overview": "The video explains how to turn on default sustainability values in sustainability setup. Once enabled, new fields appear on GL accounts, item cards, resource cards and machine center cards. The presenter demos items, resources, and GL accounts, then shows the defaults flowing into purchase invoice lines.\n\nGL accounts get only a default sustainability account, not emission values. On items, the fields depend on the replenishment system. The calculate carbon equivalent action fills the carbon equivalent per unit field, on cards and on list views. Item charge defaults are not enabled yet and are planned for a later wave, with the value chain functionality that is in public preview.",
+  "key_points": [
+    "Enable the feature in sustainability setup. It is optional and disabled by default; when off, the experience is unchanged.",
+    "When enabled, new default fields appear on GL accounts, items, resources and machine centers.",
+    "GL accounts take only a default sustainability account, not emission values, because emission values usually differ at posting time.",
+    "On item cards the default fields are editable when replenishment system is purchase, and not editable for production order or assembly.",
+    "Run the calculate carbon equivalent action to populate carbon equivalent per unit on new items and on resources. It is also available on list views to update all records at once.",
+    "Defaults transfer to purchase lines (invoice, order, return order, credit memo) and can be changed in the document.",
+    "Item charge defaults are not enabled yet and are planned for the next wave; value chain functionality is in public preview."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "6aee0834f4e62062117bc7220fa3ae9a91860b6310c5088a9e2d38c4103f8010",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0158464
+  }
+}

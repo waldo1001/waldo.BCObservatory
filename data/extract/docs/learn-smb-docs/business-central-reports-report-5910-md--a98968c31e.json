@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5910.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5910",
+  "title": "Service Profit (Serv. Orders) (report)",
+  "blob": "016f1352dfa36cc42eeedeafe3e74fb51fc9b3c8",
+  "summary": "Service Profit (Serv. Orders) report shows profit information for service orders based on difference between service amount and service cost.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service profit",
+    "service orders",
+    "profitability analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Profit (Serv. Orders)"
+    }
+  ],
+  "features": [
+    "customer number",
+    "serial number",
+    "description",
+    "item number",
+    "contract number",
+    "contract amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001088,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5909.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5909",
+  "title": "Service Profit (Resp. Centers) (report)",
+  "blob": "eb45dcd384d1ca02aa0ef5c83bc88d4dfb3a8488",
+  "summary": "Service Profit (Resp. Centers) report shows profit information for responsibility centers based on difference between service amount and service cost.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service profit",
+    "responsibility centers",
+    "cost analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Service Profit (Resp. Centers)"
+    }
+  ],
+  "features": [
+    "profit calculation",
+    "responsibility centers",
+    "service amount",
+    "service cost"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001088,
+      "pages_in_call": 7
+    }
+  ]
+}

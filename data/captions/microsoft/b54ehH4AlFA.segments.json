@@ -1,0 +1,98 @@
+{
+  "video_id": "b54ehH4AlFA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.4,
+      "end": 24.4,
+      "text": "if you use financial reporting and Telemetry and have an interest in auditing let me show you what we are cooking on for the 2025 release wave 1 here on the Finance on the finance"
+    },
+    {
+      "t": 24.4,
+      "end": 35.2,
+      "text": "reporting I have uh some different reports and let me just create a new one let's say uh"
+    },
+    {
+      "t": 35.2,
+      "end": 55.2,
+      "text": "cooking cooking demo report for financial reporting we all do that let's pick a row definition a column definition I love this BBD r c r EB it's amazing there you go and we are done so I have not now created"
+    },
+    {
+      "t": 55.2,
+      "end": 76.6,
+      "text": "a new report and um let me just to do a change to my report maybe I want to change my road definition actually I want to create a new row definition let's call it cook and this is a cooking row"
+    },
+    {
+      "t": 76.6,
+      "end": 98,
+      "text": "definition okay and here's my cooking and I would I might also want to do a column definition just for fun so let me just add a new column let's say a cooking uh cooking show so let's call it a cooking show"
+    },
+    {
+      "t": 98,
+      "end": 118.4,
+      "text": "column and you kind of get the idea I have created a report I created two row column row definition and maybe I want to change the report to uh something else let me just uh do that edit report definition change this to cooking demo"
+    },
+    {
+      "t": 118.4,
+      "end": 138.6,
+      "text": "to there we go and it has been saved all good so these are all changes to financial reporting why like what's going on with Telemetry well let because I did turn on Telemetry for this environment let's switch to application insights"
+    },
+    {
+      "t": 138.6,
+      "end": 158.7,
+      "text": "and run a little query all right so here in application insights I wrote a little custo query we take traces from the last day I'm filtering on my own user telemeter ID this GID is safe you can't hack me with this this is just a GID from my test environment"
+    },
+    {
+      "t": 158.7,
+      "end": 180.2,
+      "text": "so relax uh take the latest events first and then we project timestamp message event ID and some custom dimensions and we take the first 100 let's let's run this and see what's cooking here oh look we have if I just scroll back a little bit in time"
+    },
+    {
+      "t": 180.2,
+      "end": 200.6,
+      "text": "here we go so you see we have an event financial report created where we lock the report definition code I also did a modification then I have Telemetry for the creation of report row definitions with this event"
+    },
+    {
+      "t": 200.6,
+      "end": 220.8,
+      "text": "and if I scroll here to the to the right you can see that we have the road def definition code loged there and also similar life cycle events for creating column definitions with the column defition definition code and so on and if I"
+    },
+    {
+      "t": 220.8,
+      "end": 240.4,
+      "text": "had done a little bit more in in the demo like modifying a ro column definition you would have seen that deleting a row column or report definition you would have seen that and even running a financial report you would also see the usage Telemetry now here in version 2025"
+    },
+    {
+      "t": 240.4,
+      "end": 246,
+      "text": "release wave one pretty cool eh"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.39,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.4,
+      "text": "[Music]"
+    },
+    {
+      "t": 180.95,
+      "text": "[Music]"
+    },
+    {
+      "t": 182.03,
+      "text": "[Music]"
+    },
+    {
+      "t": 182.04,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 510
+}
