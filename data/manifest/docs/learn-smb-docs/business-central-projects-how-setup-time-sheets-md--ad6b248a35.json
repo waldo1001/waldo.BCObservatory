@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3601bd109fe436e2bc297ab1b04eab10eecb595a",
       "words": 949,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.077Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:32.501Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:32.502Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:32.503Z",
+      "page": false
     }
   },
   "input_hash": "3601bd109fe436e2bc297ab1b04eab10eecb595a",
@@ -77,5 +96,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3601bd109fe436e2bc297ab1b04eab10eecb595a"
+  "output_hash": "acb93abc0c95cf3802c95bf822c85f589e5540c793dad61fb9184ef7c3aa3ea3"
 }

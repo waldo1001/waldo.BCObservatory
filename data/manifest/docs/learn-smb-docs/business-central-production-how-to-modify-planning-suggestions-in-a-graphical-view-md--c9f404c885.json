@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-modify-planning-suggestions-in-a-graphical-view",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eccff1f94cc954e6dfb51d9fea4fd75e524a2121",
       "words": 1521,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.071Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.637Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.638Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.639Z",
+      "page": false
     }
   },
   "input_hash": "eccff1f94cc954e6dfb51d9fea4fd75e524a2121",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eccff1f94cc954e6dfb51d9fea4fd75e524a2121"
+  "output_hash": "780fc1ac25943e8fe906ae1cf25be663fd2daac92f6d3f28585cd8df22147061"
 }

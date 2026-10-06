@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-invoice-jobs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-invoice-jobs",
+  "title": "Create a project sales invoice to invoice a project",
+  "blob": "efb39da5171456c7ac91dedcda32ebaec5f358fb",
+  "summary": "Create and post sales invoices for projects using batch jobs, project planning lines, or multiple projects in a single invoice. Issue credit memos for project planning lines.",
+  "systems": [
+    "projects",
+    "sales"
+  ],
+  "topics": [
+    "project invoicing",
+    "sales invoices",
+    "project planning lines",
+    "credit memos",
+    "billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project Create Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Projects"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Transfer to Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Get Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Transfer to Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "Create Project Sales Invoice action",
+    "Get Project Planning Lines action",
+    "Qty. To Transfer to Invoice field",
+    "Create Sales Invoice action",
+    "Create Sales Credit Memo action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

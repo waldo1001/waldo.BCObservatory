@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-project-supplies",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dc7d4c00050362e3e139e02d9908de2faa9b98ad",
       "words": 1614,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.076Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:32.498Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:32.499Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:32.500Z",
+      "page": false
     }
   },
   "input_hash": "dc7d4c00050362e3e139e02d9908de2faa9b98ad",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dc7d4c00050362e3e139e02d9908de2faa9b98ad"
+  "output_hash": "d34a4248c6ba372f3201c0c241ee4223b27ff845511c6951c223dc1693e83db9"
 }

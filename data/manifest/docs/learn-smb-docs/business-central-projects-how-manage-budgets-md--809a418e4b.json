@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-budgets",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "db4d36a4396ec7964241ed1d60d0256f77db9dd8",
       "words": 469,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.075Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:32.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:32.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:32.497Z",
+      "page": false
     }
   },
   "input_hash": "db4d36a4396ec7964241ed1d60d0256f77db9dd8",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db4d36a4396ec7964241ed1d60d0256f77db9dd8"
+  "output_hash": "f872665f59308e2c70359913d2431863af1cfab143ed34e3f20f68c2fe9cda55"
 }

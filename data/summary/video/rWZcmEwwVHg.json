@@ -1,0 +1,28 @@
+{
+  "video_id": "rWZcmEwwVHg",
+  "item_id": "video/yt-microsoft/rWZcmEwwVHg",
+  "summary": "Business Central 2024 release wave 2 user experience changes: access keys in more languages, full-text search rolling out by table from October, faster column resizing, a page layout URL parameter planned for 25.1, and drag-and-drop multi-file and folder attachments.",
+  "overview": "The video covers user experience updates in Business Central 2024 release wave 2, in four parts: access keys and keyboard shortcuts, search modernization, column resizing and page layout controls, and drag-and-drop file attachments.\n\nAccess keys, available since 2023 only in English, extend to additional languages. Search moves to a full-text index on designated columns, matching individual words, and is announced as a rolling deployment starting with items, customers and sales orders. A new page layout parameter for the web client is planned for 25.1. The new attachments component, demoed in the video, accepts multiple files and folders, and the legacy attachments factbox is being obsoleted.",
+  "key_points": [
+    "Access keys were available since 2023 only in English; this wave extends them to additional languages, with key combinations for system actions kept consistent.",
+    "Search uses full-text search on designated columns instead of character matching, matching individual words. It is announced as delivered in waves from October, starting with main data tables such as items, customers and sales orders, and other tables later.",
+    "Column resizing is faster and stored locally in the browser. It still depends on personalization when enabled, but now works on pages where personalization was not possible, such as copilot prompt dialogue pages.",
+    "A new web client parameter controls page layout (analysis mode, standard list, tiles, tall tiles) via direct links. It is announced for version 25.1.",
+    "The new attachments component supports drag-and-drop of multiple files or whole folders in incoming documents, the document attachments factbox and the email send dialogue.",
+    "The legacy document attachments factbox is being obsoleted. Admins can hide it through personalization once users are used to the new component.",
+    "AL developers get new action properties for multiple file uploads: allowed file extensions and a trigger to process the selected files. The video says these were explained in the 2024 release wave 1 developer tools video."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "developer"
+  ],
+  "extraction_hash": "b5eed96f1190ab98fb092f381172bee3ae69cd9feca2e658dbceabaa0112a387",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0167364
+  }
+}

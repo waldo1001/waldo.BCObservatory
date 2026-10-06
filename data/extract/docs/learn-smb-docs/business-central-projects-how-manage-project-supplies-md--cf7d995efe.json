@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-manage-project-supplies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-project-supplies",
+  "title": "Manage project supplies",
+  "blob": "dc7d4c00050362e3e139e02d9908de2faa9b98ad",
+  "summary": "Manage project supplies through manual or semi-automated purchase orders, inventory transactions, and warehouse operations while tracking supply values and posting project-related expenses.",
+  "systems": [
+    "projects",
+    "purchasing",
+    "warehouse"
+  ],
+  "topics": [
+    "project supplies",
+    "purchase orders",
+    "inventory",
+    "warehouse",
+    "project expenses",
+    "purchase invoices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Projects"
+    },
+    {
+      "type": "page",
+      "name": "Create Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Project G/L Journal"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Lines"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-aways"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    }
+  ],
+  "features": [
+    "Create Purchase Orders action",
+    "Apply Usage Link toggle",
+    "Reserve toggle",
+    "Outstanding Orders field",
+    "Amt. Rec. Not Invoiced field",
+    "Inventory Put-away",
+    "Warehouse Receipt"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-invoice-jobs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "efb39da5171456c7ac91dedcda32ebaec5f358fb",
       "words": 941,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.074Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.642Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.643Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.644Z",
+      "page": false
     }
   },
   "input_hash": "efb39da5171456c7ac91dedcda32ebaec5f358fb",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "efb39da5171456c7ac91dedcda32ebaec5f358fb"
+  "output_hash": "d9855473dcb67a2efba71d34067ff5f5df7c205c0585ac92ab0a2a7b8e8af119"
 }

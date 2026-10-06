@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-manage-budgets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-budgets",
+  "title": "Set Up and Manage a Budget for a Project",
+  "blob": "db4d36a4396ec7964241ed1d60d0256f77db9dd8",
+  "summary": "Set up and manage project budgets by estimating budgeted costs, tracking actual usage, and comparing budget amounts to actual expenses recorded in project journals.",
+  "systems": [
+    "projects",
+    "finance"
+  ],
+  "topics": [
+    "project budgets",
+    "budgeted costs",
+    "project planning lines",
+    "cost control",
+    "wip"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Projects"
+    },
+    {
+      "type": "page",
+      "name": "Project Task Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    }
+  ],
+  "features": [
+    "Line Type field",
+    "Both Budget and Billable",
+    "Budget type",
+    "Billable type",
+    "Planned Delivery Date",
+    "WIP calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

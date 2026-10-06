@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93bccf9e93d48c5e7b454f191751c3806219c90f",
       "words": 346,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.073Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.640Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.641Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.641Z",
+      "page": false
     }
   },
   "input_hash": "93bccf9e93d48c5e7b454f191751c3806219c90f",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93bccf9e93d48c5e7b454f191751c3806219c90f"
+  "output_hash": "cbf96aa9e3507fc4c1e9fa3443fb519dda5eee99a451de79e5690557872fd262"
 }

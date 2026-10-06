@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a",
       "words": 299,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.070Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.079Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.080Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.081Z",
+      "page": false
     }
   },
   "input_hash": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a"
+  "output_hash": "a678a981667ce1782a9b2407b2a85612e3bf60d40a3bd2ba8efcda3ddd583d4b"
 }

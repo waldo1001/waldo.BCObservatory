@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-setup-time-sheets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets",
+  "title": "Set up time sheets and their approval",
+  "blob": "3601bd109fe436e2bc297ab1b04eab10eecb595a",
+  "summary": "Set up time sheets for resource time registration and project tracking with approval workflows, including assisted setup guide and manual configuration options.",
+  "systems": [
+    "projects",
+    "administration"
+  ],
+  "topics": [
+    "time sheets",
+    "time registration",
+    "project tracking",
+    "approval",
+    "resources",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Resources Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "page",
+      "name": "Time Sheets"
+    },
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    }
+  ],
+  "features": [
+    "Use Time Sheet checkbox",
+    "Time Sheet by Job Approval",
+    "Time Sheet Admin checkbox",
+    "Time Sheet Owner User ID",
+    "Time Sheet Approver User ID",
+    "Use New Time Sheet Experience",
+    "Feature Management"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

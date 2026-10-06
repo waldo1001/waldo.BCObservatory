@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 3,
       "cost_usd": 0.00379
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.630Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.631Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.631Z",
+      "page": false
     }
   },
   "input_hash": "c102ec4391a2d728032bb51e881711bda82a2e6b",

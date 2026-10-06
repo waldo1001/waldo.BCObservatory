@@ -1,0 +1,201 @@
+{
+  "video_id": "lofGuQRe1BM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.7,
+      "end": 27.3,
+      "text": "hi my name is stepan B and I'm from the developer tools team in business Central for the next few minutes I'm going to go through some of the language changes that had happened in the 2024 Wave 2 release I'm not going to go into detail with all the different changes there are other sessions for that but I am going to give you that overview so you can quickly dive into the things that interest you"
+    },
+    {
+      "t": 27.3,
+      "end": 40,
+      "text": "most we have quite some things to cover so let's Dive Right into our favorite tool vs code so the first thing I want to talk about is tables let's look at what changed in"
+    },
+    {
+      "t": 40,
+      "end": 54.9,
+      "text": "tables so on tables you'll Now find a new property for Fields that's called optimized for text search the idea is that you can specify which Fields should be indexed for optimized text"
+    },
+    {
+      "t": 54.9,
+      "end": 68,
+      "text": "search you can find the same information about the field in the field ref so you have have the is optimized for search property and in the fields record you can find the optimized for search property"
+    },
+    {
+      "t": 68,
+      "end": 88.1,
+      "text": "also moving on let's start with something that you cannot use so there's a new page type called configuration dialogue it's part of our AI investment for now you cannot use it until we get this done you cannot use it but you'll see it in the code and you might try to use it and get this kind"
+    },
+    {
+      "t": 88.1,
+      "end": 100.8,
+      "text": "of error so here you see the feature is under development and cannot be used we hope to see it live very soon moving"
+    },
+    {
+      "t": 100.8,
+      "end": 113,
+      "text": "on so you'll Now find also that on pages on more pages than before on the card Pages list plus pages and document Pages you can use the prompting"
+    },
+    {
+      "t": 113,
+      "end": 123.2,
+      "text": "actions allowing you to showcase the nice uh co-pilot features that you have created in the different card"
+    },
+    {
+      "t": 123.2,
+      "end": 143.4,
+      "text": "Types on pages you can also use the style enum the page style enum the page style enum is a way for us to get away from these hardcoded favorable unfavorable and so forth style Expressions you can use the page style like this you have a a format of a certain page"
+    },
+    {
+      "t": 143.4,
+      "end": 157.5,
+      "text": "style and then that goes into a variable that you put on the field the value of the sty expression still needs to be a string because it is an expression but now you don't have to have these labels lying"
+    },
+    {
+      "t": 157.5,
+      "end": 177.8,
+      "text": "around very good profile extensions you can now extend profiles with additional customizations if you want to allowing you to build on existing profiles instead of having to copy and create new ones and for the customizations the page customizations there are new properties"
+    },
+    {
+      "t": 177.8,
+      "end": 198.3,
+      "text": "there are three new properties of Interest here the the clear layout clear actions and Clear View and they do kind of what they say the Clear layout clears all the layout in the page and you'll have to read all the fields that you feel are Irrelevant for this page so it'll be empty to begin with and then you add the additional Fields"
+    },
+    {
+      "t": 198.3,
+      "end": 218.6,
+      "text": "clear actions does the same thing clears all the actions in the page and you'll have to add all the actions that are should be available to the user and for list Pages you can also use the clear views to clear all the existing views use one caveat though if you try to use one of these clear methods on a page customization"
+    },
+    {
+      "t": 218.6,
+      "end": 233.2,
+      "text": "that is used in a roll customization then you'll get an error like this scenario here we try to use the clear layout in this page customization and then this profile extension over here will start"
+    },
+    {
+      "t": 233.2,
+      "end": 253.2,
+      "text": "failing let's undo that again so we don't have to look at that error okay moving on to query for queries you can now add tool tips the tool tips will help your users understand what the data is used for and how they should read it also of course it supports tool tip"
+    },
+    {
+      "t": 253.2,
+      "end": 274,
+      "text": "ml queries can now also be saved as Json this allows you to easily send data back and forth as Json interfaces has gone through quite a lot you can now extend interfaces so instead of having to move to a complete new interface you can now build on top of an existing interface"
+    },
+    {
+      "t": 274,
+      "end": 293.2,
+      "text": "and expand it with more methods there are new keywords is and S there's a whole session for working with uh interfaces go check that out it's very interesting to see what we can do now with interfaces and how that can build the modelization and modular code base of the"
+    },
+    {
+      "t": 293.2,
+      "end": 313.4,
+      "text": "future as part of the work with interfaces we've add list of interfaces in the last release we added list of in and outstream and file upload and now we extended with the list of interfaces naturally the next thing is to have a list of code units so we also added that one and as you can see here it's easy to Loop through a a list of"
+    },
+    {
+      "t": 313.4,
+      "end": 331.8,
+      "text": "uh code units and use them in an interface with a simple casting here if you try to assign a a code unit to an interface that doesn't Implement that interface then obviously you would get an error as we see here it cannot be converted"
+    },
+    {
+      "t": 331.8,
+      "end": 351.9,
+      "text": "moving on to some more interesting stuff for the people working with dates and times we have to ask ourselves every now and then if it is Friday in Al we can ask if it's Friday like this this is how we've been doing it for many years now we have additional properties on the date date time and time types"
+    },
+    {
+      "t": 351.9,
+      "end": 371.9,
+      "text": "that will allow us to make much easier logic here in this case we can ask if it's the fifth day so the day of week is five then it's Friday and we can find the values of the day of week here on the the net site for the system day a week type we can do lots more with these types"
+    },
+    {
+      "t": 371.9,
+      "end": 391.9,
+      "text": "we can ask uh about the month and the day and the year if we want to do some more complicated calculations here on whether or not it's Friday and of course we can always ask ourselves if it's time to go have a drink and you can look at the hour the minute the second and the millisecond on the time"
+    },
+    {
+      "t": 391.9,
+      "end": 409.5,
+      "text": "types let's look at the last part here so we've added this to the language this is a self reference so with this you can reference the object that you're currently in in this case I am in a code"
+    },
+    {
+      "t": 409.5,
+      "end": 429.8,
+      "text": "unit I'm in a code unit so I can pass myself on to another function I can also use this to qualify variables in this case I have a parameter called variable but I also have a code unit variable called variable so I can qualify this one by adding this to it"
+    },
+    {
+      "t": 429.8,
+      "end": 450.6,
+      "text": "and now we can easily see that this variable here is no longer used because I qualified this one to be referencing this variable instead there is a code analyzer if you want to force this prefixes for wherever it's needed you can choose to add it to your"
+    },
+    {
+      "t": 450.6,
+      "end": 471.6,
+      "text": "uh code rules default it's hidden but it will give you a code action that has the ability to change for a single instance and of course for document project and workspace as we are getting used to for these code fixes clicking it for this instance we'll just add this to the property here"
+    },
+    {
+      "t": 471.6,
+      "end": 491.7,
+      "text": "okay a brand new thing in this release is the resources there's a new method under the nav app type called get Source taking in a resource name and a stream that you want to have the resource data in there's a whole session on that also go check that out it's a very interesting feature that will help you ship Resources with"
+    },
+    {
+      "t": 491.7,
+      "end": 511.7,
+      "text": "your app for those of you who are Keen at spotting differences between versions you'll find that there's a new method in the session information type called AI tokens used also a part of our effort to do more AI so not quite ready yet for consumption and you'll get an"
+    },
+    {
+      "t": 511.7,
+      "end": 525.2,
+      "text": "error like the other one we saw earlier that this one is not ready for use yet so more to come later for the HP client there's a new method you can now do patch"
+    },
+    {
+      "t": 525.2,
+      "end": 545.6,
+      "text": "easily and the patch is the update part of a crot operation uh where you can send a Delta of changes to a service and then it will apply those to the resource that you're trying to patch this is just an easy way to get to that method uh so that will help you build simple Logic for that"
+    },
+    {
+      "t": 545.6,
+      "end": 558.2,
+      "text": "let's end on something that may be controversial for some the turn are operator has been added to the a language it's very common in many languages and it has a way of simplifying the if else"
+    },
+    {
+      "t": 558.2,
+      "end": 579,
+      "text": "statements uh it it consists of a condition and then something to do if it it's true and something to do if it's false so if we look at this code here we can see classic if statement here if we have some State then the expression is unfavorable and we can see the use of Turner operator here where we say"
+    },
+    {
+      "t": 579,
+      "end": 599.6,
+      "text": "the style is if some state is closed then if that's true then it's favorable if it's false then it's ambiguous so here I condensed the if statement into a single line instead of having if it's Clos and favorable else ambiguous right"
+    },
+    {
+      "t": 599.6,
+      "end": 619.8,
+      "text": "of course this can quickly become very convoluted if you misuse it and here's a small example that uh doesn't even show how complicated it can be but it does show that it can quickly become quite complicated if we look at this statement here at the bottom line if it's blocked then it's"
+    },
+    {
+      "t": 619.8,
+      "end": 639.8,
+      "text": "unfavorable if it's closed then it's favorable otherwise ambiguous just three statements here or three different values here can make this line unreadable or at least difficult to read for new people so use this feature with some consideration and with some thought on how to maintain code in the"
+    },
+    {
+      "t": 639.8,
+      "end": 651,
+      "text": "future the tary operator can be very powerful if you use it right on that Cliffhanger thank you for watching I hope you enjoyed it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1753
+}

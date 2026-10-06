@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-use-resources",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2801f8087d7f2c60797fb5e961da4dffcec786bb",
       "words": 166,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:30.078Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005229
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:32.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:32.504Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:32.505Z",
+      "page": false
     }
   },
   "input_hash": "2801f8087d7f2c60797fb5e961da4dffcec786bb",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2801f8087d7f2c60797fb5e961da4dffcec786bb"
+  "output_hash": "ba1f745fb964a3cf5cea38469bd7f9615902d255a6981be97664d432db3eb216"
 }

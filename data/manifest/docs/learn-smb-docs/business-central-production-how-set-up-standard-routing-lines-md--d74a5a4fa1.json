@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-set-up-standard-routing-lines",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 2,
       "cost_usd": 0.00379
+    },
+    "summarized": {
+      "at": "2026-10-06T19:08:30.635Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:08:30.636Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:08:30.636Z",
+      "page": false
     }
   },
   "input_hash": "6622f8d1a586455ae3102e3f56e4f71f08bdb023",

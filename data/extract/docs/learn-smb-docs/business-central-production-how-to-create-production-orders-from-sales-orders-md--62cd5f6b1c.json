@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-production-orders-from-sales-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders",
+  "title": "Create Production Orders from Sales Orders",
+  "blob": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a",
+  "summary": "Create production orders from sales orders for produced items directly using the Sales Order Planning page with options for Item Order or Project Order types.",
+  "systems": [
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "production orders",
+    "sales orders",
+    "replenishment",
+    "order-to-order links",
+    "planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Planning"
+    }
+  ],
+  "features": [
+    "Create Prod. Order action",
+    "Replenishment System field",
+    "Order-to-order links",
+    "Item Order type",
+    "Project Order type"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

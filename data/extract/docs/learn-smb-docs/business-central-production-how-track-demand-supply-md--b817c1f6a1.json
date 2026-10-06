@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-track-demand-supply.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply",
+  "title": "Track Relations Between Demand and Supply",
+  "blob": "93bccf9e93d48c5e7b454f191751c3806219c90f",
+  "summary": "Track relations between demand and supply across order networks, including order tracking, reservation systems, and untracked planning elements from production and purchase orders.",
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "topics": [
+    "order tracking",
+    "demand",
+    "supply",
+    "planning",
+    "reservation",
+    "production orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Order"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Order Tracking"
+    },
+    {
+      "type": "page",
+      "name": "Untracked Planning Elements"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    }
+  ],
+  "features": [
+    "Order Tracking action",
+    "Untracked Qty. field",
+    "Untracked Planning Elements",
+    "Order-to-order links",
+    "Safety stock",
+    "Reorder point"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005229,
+      "pages_in_call": 8
+    }
+  ]
+}

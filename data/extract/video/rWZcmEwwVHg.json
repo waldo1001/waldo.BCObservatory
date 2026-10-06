@@ -1,0 +1,296 @@
+{
+  "video_id": "rWZcmEwwVHg",
+  "item_id": "video/yt-microsoft/rWZcmEwwVHg",
+  "title": "What's New: Business Central User Experience (2024 release wave 2)",
+  "duration_s": 677,
+  "systems": [
+    "development",
+    "platform",
+    "finance"
+  ],
+  "topics": [
+    "access keys",
+    "keyboard shortcuts",
+    "full-text search",
+    "search optimization",
+    "column resizing",
+    "page layout",
+    "drag-and-drop",
+    "file attachments",
+    "personalization",
+    "analysis mode"
+  ],
+  "chapters": [
+    {
+      "title": "Access Keys and Keyboard Shortcuts",
+      "t_start": 0,
+      "t_end": 108.5
+    },
+    {
+      "title": "Search Modernization and Full-Text Search",
+      "t_start": 108.5,
+      "t_end": 234.8
+    },
+    {
+      "title": "Column Resizing and Page Layout Controls",
+      "t_start": 234.8,
+      "t_end": 371
+    },
+    {
+      "title": "Drag-and-Drop File Attachments",
+      "t_start": 371,
+      "t_end": 677
+    }
+  ],
+  "features": [
+    {
+      "name": "Access Keys for Additional Languages",
+      "description": "Extends the access keys feature which allows keyboard shortcuts to navigate actions and features in Business Central to additional languages beyond English, maintaining consistency in key combinations for system actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.5,
+      "t_end": 108.5,
+      "is_demoed": false,
+      "caveats": [
+        "only in English previously",
+        "limited to certain key combinations"
+      ],
+      "tags": [
+        "keyboard",
+        "localization",
+        "navigation",
+        "accessibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modernized Search with Full-Text Index",
+      "description": "Introduces full-text search technology for searching data, lists and filter panes instead of character matching. Matches individual words and delivers faster, more flexible search results based on a full-text index on designated columns.",
+      "status": "announced",
+      "status_evidence_t": 234.8,
+      "status_evidence_quote": "this feature is coming in waves uh it will be delivered starting from October and it will show up for multiple tables in business",
+      "status_evidence_verified": true,
+      "t_start": 108.5,
+      "t_end": 234.8,
+      "is_demoed": true,
+      "caveats": [
+        "rolling deployment by table",
+        "starts with main data tables",
+        "additional tables later"
+      ],
+      "tags": [
+        "search",
+        "full-text",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Faster Column Resizing",
+      "description": "Improves the column resizing experience to be faster than before, stored locally in the browser. Still based on personalization when enabled, but now available on pages where personalization was previously not possible, such as copilot prompt dialogue pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 255,
+      "t_end": 330.6,
+      "is_demoed": false,
+      "caveats": [
+        "based on personalization when enabled",
+        "stored locally in browser"
+      ],
+      "tags": [
+        "ui",
+        "personalization",
+        "performance",
+        "columns"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page Layout Control Parameter",
+      "description": "New parameter added to the web client that controls page layout, allowing Business Central to open in specific layouts such as analysis mode, standard list, tiles, or tall tiles via direct links.",
+      "status": "announced",
+      "status_evidence_t": 350.7,
+      "status_evidence_quote": "this feature is coming in 25.1 so you will expect that uh release a little bit uh later than than just uh at the",
+      "status_evidence_verified": true,
+      "t_start": 330.6,
+      "t_end": 371,
+      "is_demoed": false,
+      "caveats": [
+        "coming in version 25.1"
+      ],
+      "tags": [
+        "layout",
+        "analysis mode",
+        "web client",
+        "parameters"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Drag-and-Drop Multiple File Attachments",
+      "description": "Enables users to upload multiple files or entire folders through drag-and-drop functionality in attachments components. Available in incoming documents, document attachments factbox, and email send dialogue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371,
+      "t_end": 552,
+      "is_demoed": true,
+      "caveats": [
+        "replaces legacy attachment factbox",
+        "legacy factbox being obsoleted"
+      ],
+      "tags": [
+        "attachments",
+        "drag-and-drop",
+        "files",
+        "upload"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "New Document Attachments Component",
+      "description": "Modernized attachments component with improved file handling, accessible from multiple places including incoming documents, document attachments, and email dialogue. Supports single or batch file uploads and folder uploads.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 552,
+      "t_end": 612.6,
+      "is_demoed": true,
+      "caveats": [
+        "legacy document attachments factbox being obsoleted"
+      ],
+      "tags": [
+        "attachments",
+        "component",
+        "ui",
+        "files"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "File Upload Action Properties for Developers",
+      "description": "New properties on actions for AL developers to handle multiple file uploads, including allowed file extensions and a trigger to process uploaded files selected by users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 612.6,
+      "t_end": 652.7,
+      "is_demoed": false,
+      "caveats": [
+        "properties were explained in 2024 release wave 1 developer tools video"
+      ],
+      "tags": [
+        "development",
+        "al",
+        "actions",
+        "extensions"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "items",
+      "t": 234.8
+    },
+    {
+      "type": "table",
+      "name": "customers",
+      "t": 234.8
+    },
+    {
+      "type": "table",
+      "name": "sales orders",
+      "t": 234.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Baj Kota",
+      "confidence": "high"
+    },
+    {
+      "name": "Ian",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 27.5,
+      "text": "this feature was available or is already available in business Central uh since 2023 but only in English and with this wave we are",
+      "why_it_matters": "Clarifies the status of access keys expansion - existing in English since 2023, now rolling out to more languages in this wave.",
+      "check": "exact"
+    },
+    {
+      "t": 128.5,
+      "text": "we introducing a search that is based on a full text search technology rather than marching characters this allows for the search to be",
+      "why_it_matters": "Describes the fundamental change in search technology from character matching to full-text indexing for improved performance and flexibility.",
+      "check": "exact"
+    },
+    {
+      "t": 234.8,
+      "text": "this feature is coming in waves uh it will be delivered starting from October and it will show up for multiple tables in business",
+      "why_it_matters": "Establishes the phased rollout timeline and priority order for modernized search across tables, starting with October and main data entities.",
+      "check": "exact"
+    },
+    {
+      "t": 350.7,
+      "text": "this feature is coming in 25.1 so you will expect that uh release a little bit uh later than than just uh at the",
+      "why_it_matters": "Specifies the planned release version for the page layout control parameter feature, occurring later than the initial October rollout.",
+      "check": "exact"
+    },
+    {
+      "t": 371,
+      "text": "drag and drop uh functionality to attach multiple files in business Central uh makes it easier to manage files or even folders",
+      "why_it_matters": "Introduces the value proposition of drag-and-drop file attachments for simplified multi-file management.",
+      "check": "exact"
+    },
+    {
+      "t": 572.2,
+      "text": "these are basically the places where more than 90% of uh business Central users actually uses uh to upload uh files the files can",
+      "why_it_matters": "Quantifies user impact by identifying where 90% of upload activity occurs and describes the multiple upload methods now available.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 234.8,
+      "kind": "coming-later",
+      "text": "this feature is coming in waves uh it will be delivered starting from October and it will show up for multiple tables in business Central starting from the main data like items and customers and sales orders and then uh being available also for other tables later on during this wave"
+    },
+    {
+      "t": 350.7,
+      "kind": "coming-later",
+      "text": "this feature is coming in 25.1 so you will expect that uh release a little bit uh later than than just uh at the beginning of October"
+    },
+    {
+      "t": 592.3,
+      "kind": "not-in-this-release",
+      "text": "the Legacy document attachments part of the factbox is now getting obsoleted so it's perfectly fine to go to a personalization settings and once your users get used to the the new document attachments you can hide uh the old one"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024189000000000002
+    }
+  ]
+}
