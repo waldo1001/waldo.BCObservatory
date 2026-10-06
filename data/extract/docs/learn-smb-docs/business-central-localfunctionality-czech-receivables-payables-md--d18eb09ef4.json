@@ -1,0 +1,156 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/receivables-payables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
+  "title": "Payables and receivables in the Czech Version",
+  "blob": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
+  "summary": "Czech payables and receivables features include credit compensation between customers and vendors, exchange rate adjustment with test mode and detail posting, multiple receivables/payables accounts, customer/vendor reconciliation, sales credit memo types, ARES contact validation, and standardized output documents.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "receivables",
+    "payables",
+    "czech",
+    "credit compensation",
+    "exchange rates",
+    "advance payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor card"
+    },
+    {
+      "type": "page",
+      "name": "Credit Card"
+    },
+    {
+      "type": "report",
+      "name": "Adjust Exchange Rates"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Advance Letter CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Advance Invoice CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Advance Credit Memo CZ"
+    },
+    {
+      "type": "report",
+      "name": "Purchase – Advance Letter CZ"
+    },
+    {
+      "type": "report",
+      "name": "Purchase – Advance Invoice CZ"
+    },
+    {
+      "type": "report",
+      "name": "Purchase – Advance Cr. Memo CZ"
+    },
+    {
+      "type": "report",
+      "name": "Purchase – Quote CZ"
+    },
+    {
+      "type": "report",
+      "name": "Order CZ"
+    },
+    {
+      "type": "report",
+      "name": "Return Order Confirmation CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Quote CZ"
+    },
+    {
+      "type": "report",
+      "name": "Order Confirmation CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Invoice CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Credit Memo CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Shipment CZ"
+    },
+    {
+      "type": "report",
+      "name": "Sales – Return Receipt CZ"
+    },
+    {
+      "type": "report",
+      "name": "Charge Memo CZ"
+    },
+    {
+      "type": "report",
+      "name": "Reminder CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Contract CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Contract Quote"
+    },
+    {
+      "type": "report",
+      "name": "Service - Quote CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Order CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Invoice CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Credit Memo CZ"
+    },
+    {
+      "type": "report",
+      "name": "Service - Shipment CZ"
+    }
+  ],
+  "features": [
+    "credits",
+    "credit compensation",
+    "exchange rate adjustment",
+    "test mode",
+    "multiple payables/receivables accounts",
+    "customer/vendor reconciliation",
+    "sales credit memo types",
+    "ARES validation",
+    "standardized output documents"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

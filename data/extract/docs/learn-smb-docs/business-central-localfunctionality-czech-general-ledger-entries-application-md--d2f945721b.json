@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/general-ledger-entries-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application",
+  "title": "General Ledger Entries Application [CZ]",
+  "blob": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904",
+  "summary": "General ledger entries application feature for Czech companies to match temporary and transfer account entries with analytic subtotals and partial application support.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "general ledger",
+    "application",
+    "temporary accounts",
+    "transfer accounts"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed G/L Entry"
+    },
+    {
+      "type": "page",
+      "name": "G/L Entries"
+    },
+    {
+      "type": "report",
+      "name": "G/L Entry Applying"
+    }
+  ],
+  "features": [
+    "G/L entry application",
+    "partial application",
+    "detailed G/L entries",
+    "applied amount tracking",
+    "apply/unapply functions",
+    "batch application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001304,
+      "pages_in_call": 8
+    }
+  ]
+}

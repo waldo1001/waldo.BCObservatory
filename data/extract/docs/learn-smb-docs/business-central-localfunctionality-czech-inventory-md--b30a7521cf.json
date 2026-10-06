@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory",
+  "title": "Czech Local Functionality - Inventory",
+  "blob": "78215b36bdb40c4582962269bfe29e44ae0d0fca",
+  "summary": "Czech inventory localization adds posting groups for transfer orders, rounding account for inventory adjustments, enhanced G/L reconciliation, physical inventory differentiation for deficits and surpluses, and reports for inventory operations and counting.",
+  "systems": [
+    "inventory",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "inventory",
+    "czech",
+    "physical inventory",
+    "posting groups",
+    "transfer orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Transfer Route"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Movement Report"
+    },
+    {
+      "type": "report",
+      "name": "Posted Inventory Document Report"
+    },
+    {
+      "type": "report",
+      "name": "Phys. Inventory List Report"
+    },
+    {
+      "type": "report",
+      "name": "Phys. Invt. Counting Document Report"
+    }
+  ],
+  "features": [
+    "posting groups in transfer orders",
+    "rounding account",
+    "inventory G/L reconciliation",
+    "physical inventory differentiation",
+    "inventory operations documents",
+    "inventory counting document"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
   "published_at": "2025-06-18T08:05:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
       "words": 843,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:14.605Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 28,
+      "cost_usd": 0.004529
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.064Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.064Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.065Z",
+      "page": false
     }
   },
   "input_hash": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20"
+  "output_hash": "e7fcb4c8ba5543dcc0979938aaa52b6a64f8d49daad07642b088d4de1f4f6eea"
 }

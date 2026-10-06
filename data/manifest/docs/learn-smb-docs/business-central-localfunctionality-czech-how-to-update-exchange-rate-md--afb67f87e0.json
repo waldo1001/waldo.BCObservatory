@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-exchange-rate",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aa35540a3e093bf1364dd277e87953e8131d8944",
       "words": 69,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:15.374Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001002
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.091Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.092Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.093Z",
+      "page": false
     }
   },
   "input_hash": "aa35540a3e093bf1364dd277e87953e8131d8944",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa35540a3e093bf1364dd277e87953e8131d8944"
+  "output_hash": "e1a74f200a1bba60d21761eb5220af9442cbb632157cb794d7ebfd76943fc043"
 }

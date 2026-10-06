@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/cz-localization-base-pack.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cz-localization-base-pack",
+  "title": "Core Localization Base Pack [CZ]",
+  "blob": "41cedfd588fbc6175f8e782eb089e93089ebd866",
+  "summary": "Core localization pack for Czech providing accounting, tax, and regulatory compliance features including VAT statements, year-end closing, exchange rates, and multi-circuit accounting.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "localization",
+    "accounting",
+    "vat",
+    "tax",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "statutory company information",
+    "financial documents",
+    "VAT statements",
+    "VAT control report",
+    "unreliable payer",
+    "reverse charge",
+    "year closing operations",
+    "exchange rate updating",
+    "multi-circuit accounting",
+    "physical inventory",
+    "inventory documents"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001304,
+      "pages_in_call": 8
+    }
+  ]
+}

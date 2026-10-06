@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
       "words": 172,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:15.375Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001002
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.094Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.095Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.096Z",
+      "page": false
     }
   },
   "input_hash": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36b26372f08c941237a41fbda4d5eed9f0c9020d"
+  "output_hash": "30d0a33d42d46150a42908288670f6e474292c958fa18f88265b9f946a13a21c"
 }

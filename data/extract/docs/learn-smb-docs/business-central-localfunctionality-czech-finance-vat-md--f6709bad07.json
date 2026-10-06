@@ -1,0 +1,83 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/finance-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/finance-vat",
+  "title": "VAT - Czech local functionality",
+  "blob": "1cfa912af7d9ae11009c063b2512ad445c50a197",
+  "summary": "VAT features in Czech Business Central include VAT date tracking separate from posting date, VAT statement reporting with period filtering, supplementary VAT statements, VIES sales declarations, unreliable payer tracking, VAT exchange rates, and VAT control reports to comply with Czech VAT law 235/2004.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "vat",
+    "czech",
+    "tax reporting",
+    "vat settlement",
+    "vat entries",
+    "vies declaration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Balance"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Balance"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "report",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "report",
+      "name": "Calc. and Post VAT Settlement"
+    },
+    {
+      "type": "report",
+      "name": "Documentation for VAT"
+    },
+    {
+      "type": "report",
+      "name": "VAT Document List"
+    },
+    {
+      "type": "report",
+      "name": "VAT List on Sales Adv. Letter"
+    },
+    {
+      "type": "report",
+      "name": "VAT List on Purch. Adv. Letter"
+    }
+  ],
+  "features": [
+    "VAT date",
+    "VAT periods",
+    "VAT settlement",
+    "VIES reporting",
+    "unreliable payer status",
+    "VAT exchange rate",
+    "VAT control report",
+    "supplementary VAT statements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

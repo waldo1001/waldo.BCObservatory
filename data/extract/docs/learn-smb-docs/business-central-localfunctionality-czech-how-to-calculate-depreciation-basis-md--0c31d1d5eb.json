@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis",
+  "title": "Calculation of depreciation basis in fixed assets [CZ]",
+  "blob": "cb431029952440f7d9fcc9df8019fa38b806ceae",
+  "summary": "Czech fixed assets depreciation basis calculation uses the declining-balance method per Czech Income Tax Act, with annual tax depreciation calculation and Force No. of Days option for accuracy.",
+  "systems": [
+    "fixed-assets",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "czech",
+    "tax depreciation",
+    "depreciable basis"
+  ],
+  "objects": [],
+  "features": [
+    "declining-balance depreciation method",
+    "tax depreciation calculation",
+    "Force No. of Days option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001166,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "qmGxeq5FJis",
+  "item_id": "video/yt-microsoft/qmGxeq5FJis",
+  "summary": "Copilot in Dynamics 365 Business Central creates sales lines for sales orders, invoices and quotes. It reads product details pasted from customer emails or short natural language descriptions and suggests matching items from the product catalog. Short 2024 demo.",
+  "overview": "This one-minute video from the Microsoft Dynamics 365 Business Central channel (published 2024-09-03) shows how Copilot helps with order entry. Instead of typing each line, a user copies product details from a customer email and pastes them into Business Central. Copilot identifies the products and suggests matching items from the catalog.\n\nThe video also covers describing needed goods or services in a few words, and Copilot suggesting line items from the product catalog. It says Copilot can reference previous orders to find items that were sold before. The stated benefit is less time on order entry, so sales teams can spend more time on customer relationships.",
+  "key_points": [
+    "Copilot suggests sales lines for sales orders, invoices and quotes.",
+    "Product details can be copied from a customer email and pasted into Business Central; Copilot identifies the products.",
+    "Suggestions use item details, variants and attributes in the product catalog.",
+    "A few words describing goods or services are enough for Copilot to suggest matching line items.",
+    "Copilot can reference previous orders to find items sold before, which helps with repeat orders.",
+    "The email paste and natural language description were demonstrated in the video."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "292354ee3e9ac72c44344e6d6da5ead769876907a8df260d155e63f17ecd0b7e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0106604
+  }
+}

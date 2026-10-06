@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
       "words": 95,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:15.373Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001002
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.089Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.090Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.090Z",
+      "page": false
     }
   },
   "input_hash": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aec7a1a59d0ca194962114264e3f2273d5c3462e"
+  "output_hash": "b4f8011d32e6e3aadf2a8f9c7b762401b8959b65f1394b3dd5fc4c1e8375f249"
 }

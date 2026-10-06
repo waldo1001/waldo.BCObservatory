@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/finance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/finance",
+  "title": "Finance - Czech local functionality",
+  "blob": "b687ed96dbd2e369e009c73c613c096a7a94f348",
+  "summary": "Czech finance localization provides corrections posting (red storno), statutory company information, internal financial documents, accounting output reports, financial reports with shared expressions and drill-down, statutory statements, WIP extended posting, and year-end operations.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "finance",
+    "czech",
+    "corrections posting",
+    "statutory reporting",
+    "financial reports",
+    "wip posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Acc. Schedule Name"
+    },
+    {
+      "type": "table",
+      "name": "Acc. Schedule Line"
+    },
+    {
+      "type": "report",
+      "name": "General Journal – Test Report"
+    },
+    {
+      "type": "report",
+      "name": "General Ledger Document Report"
+    },
+    {
+      "type": "report",
+      "name": "Balance sheet"
+    },
+    {
+      "type": "report",
+      "name": "Income statement"
+    }
+  ],
+  "features": [
+    "corrections posting",
+    "red storno",
+    "statutory company information",
+    "internal financial documents",
+    "financial reports",
+    "statutory statements",
+    "WIP extended posting",
+    "exchange rate updating"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

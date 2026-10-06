@@ -1,0 +1,127 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/fixed-assets",
+  "title": "Czech local functionality - Fixed assets",
+  "blob": "65527cacc61ac17f4b3f94534f4f28c37d858475",
+  "summary": "Fixed asset Czech localization covers tax depreciation methods, depreciation basis calculation, depreciation holidays, two-step acquisitions, disposal posting, extended posting groups, classification codes, location and employee tracking history, and specialized reports for asset management.",
+  "systems": [
+    "fixed-assets",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "fixed assets",
+    "czech",
+    "depreciation",
+    "tax depreciation",
+    "asset disposal",
+    "asset acquisition"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Book"
+    },
+    {
+      "type": "table",
+      "name": "FA Extended Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Classification Code"
+    },
+    {
+      "type": "table",
+      "name": "FA History Entry"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "report",
+      "name": "FA Receipt"
+    },
+    {
+      "type": "report",
+      "name": "FA Disposal"
+    },
+    {
+      "type": "report",
+      "name": "FA – Analysis G/L Account"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analysis 2"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analys. Dep. Book"
+    },
+    {
+      "type": "report",
+      "name": "FA Phys. Inventory List"
+    },
+    {
+      "type": "report",
+      "name": "FA Inventory List"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Book Value 01"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Book Value 02"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – Projected Value"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset – G/L Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Maintenance – Analysis"
+    },
+    {
+      "type": "report",
+      "name": "FA Assignment/Discharge"
+    },
+    {
+      "type": "report",
+      "name": "FA History"
+    }
+  ],
+  "features": [
+    "fixed asset tax depreciation",
+    "depreciation basis calculation",
+    "depreciation holidays",
+    "two-step acquisition",
+    "disposal posting",
+    "extended posting groups",
+    "classification codes",
+    "location and employee tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

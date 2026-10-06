@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/check-of-posting-group-changing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-of-posting-group-changing",
+  "title": "Check posting group change in Customer, Vendor, Item, Bank Account [CZ]",
+  "blob": "dedb57d990aad2bba17da903e2cfc226136f15c5",
+  "summary": "Validation checks for posting group changes on customer, vendor, item, and bank account cards in Czech version, preventing changes when open entries exist.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "posting groups",
+    "validation",
+    "customers",
+    "vendors",
+    "items"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Customer Card"
+    },
+    {
+      "type": "other",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "other",
+      "name": "Item Card"
+    },
+    {
+      "type": "other",
+      "name": "Bank Account Card"
+    }
+  ],
+  "features": [
+    "posting group change validation",
+    "open entry checks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001304,
+      "pages_in_call": 8
+    }
+  ]
+}

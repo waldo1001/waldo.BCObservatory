@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence",
+  "title": "Check of output in inventory – time sequence [CZ]",
+  "blob": "a676e0e4d97676c09941e8813bb69abc5d9fdd30",
+  "summary": "Time sequence validation for warehouse operations in Czech version to ensure items cannot be delivered with posting dates prior to receipt posting dates.",
+  "systems": [
+    "localization",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "czech",
+    "warehouse",
+    "inventory",
+    "time sequence",
+    "posting date"
+  ],
+  "objects": [],
+  "features": [
+    "output inventory time sequence check",
+    "warehouse operation validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001304,
+      "pages_in_call": 8
+    }
+  ]
+}

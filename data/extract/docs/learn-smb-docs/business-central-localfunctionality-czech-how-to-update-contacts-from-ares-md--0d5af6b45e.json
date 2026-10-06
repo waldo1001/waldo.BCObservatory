@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares",
+  "title": "Czech local functionality - Update contacts from ARES",
+  "blob": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
+  "summary": "Update contacts from ARES (Access to Register of Economic Subjects) in Czech localization retrieves company information and updates contact, vendor, and customer records.",
+  "systems": [
+    "localization",
+    "crm",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "localization",
+    "ares",
+    "contacts",
+    "vendors",
+    "customers"
+  ],
+  "objects": [],
+  "features": [
+    "ARES Http service",
+    "ARES actualization",
+    "contact field updates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001002,
+      "pages_in_call": 8
+    }
+  ]
+}

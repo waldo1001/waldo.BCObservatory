@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/eet.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
+  "title": "Registration of Sales (EET) [CZ]",
+  "blob": "38468058b10d3e36d8b9452677075fffddb1f005",
+  "summary": "EET (Registration of Sales) feature for Czech companies to register cash sales and payments to tax authorities with unique transaction IDs for receipts.",
+  "systems": [
+    "localization",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "czech",
+    "eet",
+    "sales registration",
+    "tax reporting",
+    "cash",
+    "receipts"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "EET ledger entries"
+    }
+  ],
+  "features": [
+    "sales registration",
+    "online/offline processing",
+    "EET ledger entries",
+    "certificate settings",
+    "POS terminals",
+    "unique transaction ID",
+    "tax authority communication"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001304,
+      "pages_in_call": 8
+    }
+  ]
+}

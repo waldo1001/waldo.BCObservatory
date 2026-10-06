@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3b4bce55f348c0940977ba3b0ee03a02979bf552",
       "words": 28,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:15.370Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001002
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.076Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.077Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.078Z",
+      "page": false
     }
   },
   "input_hash": "3b4bce55f348c0940977ba3b0ee03a02979bf552",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3b4bce55f348c0940977ba3b0ee03a02979bf552"
+  "output_hash": "a39b7ed67db922192a8451cc8ccccc2d59004dc165e60b8769d7fa6fd6fef7d6"
 }

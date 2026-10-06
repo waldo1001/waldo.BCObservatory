@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dea4e5d45065a989de71217325e9b2e520864606",
       "words": 120,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:14.608Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004529
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.073Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.074Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.075Z",
+      "page": false
     }
   },
   "input_hash": "dea4e5d45065a989de71217325e9b2e520864606",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dea4e5d45065a989de71217325e9b2e520864606"
+  "output_hash": "228aaafe8ba8693cb1743b7d9071711c1b188464230916595188617b185636da"
 }

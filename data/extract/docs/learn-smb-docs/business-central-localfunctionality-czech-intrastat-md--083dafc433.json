@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/intrastat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/intrastat",
+  "title": "Czech local functionality - Intrastat",
+  "blob": "5dcbb183c4a2b820ab873a6e50997fef19d64a7e",
+  "summary": "Intrastat Czech localization improves data transfer to Intrastat journal with parameterized engine setup, supplementary units handling, amount calculations, mandatory field configuration, and CSV export functionality for INSTATDESK and INSTATONLINE applications.",
+  "systems": [
+    "localization",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "intrastat",
+    "czech",
+    "trade reporting",
+    "statistical reporting",
+    "export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intrastat journal"
+    }
+  ],
+  "features": [
+    "Intrastat engine setup",
+    "supplementary units of measure",
+    "statistical amount calculation",
+    "Get Intrastat Entries",
+    "CSV export",
+    "tariff numbers",
+    "item charges handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004529,
+      "pages_in_call": 8
+    }
+  ]
+}

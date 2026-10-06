@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets",
+  "title": "Czech local functionality - Fixed assets depreciation holiday",
+  "blob": "7d86271bc392b34f3abee16702a98413bc5574ef",
+  "summary": "Fixed Asset Depreciation Holidays feature allows users to pause depreciation for selected assets during specified periods per Czech Income Tax Act, supporting multiple depreciation methods and maintaining schedules after breaks.",
+  "systems": [
+    "fixed-assets",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "czech",
+    "depreciation holiday",
+    "income tax act"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "FA depreciation book"
+    }
+  ],
+  "features": [
+    "depreciation pause capability",
+    "multiple depreciation methods support",
+    "Depreciation Interrupt field",
+    "Depreciation Interrupt up to field",
+    "Keep Depr. Ending Date field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001166,
+      "pages_in_call": 8
+    }
+  ]
+}
