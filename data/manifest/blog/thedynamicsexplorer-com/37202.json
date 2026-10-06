@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2026/03/30/dynamics-365-business-central-why-isnt-payment-tolerance-being-taken-automatically-in-the-cash-receipt-journal/",
   "published_at": "2026-03-30T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:52.411Z",
+      "path": "vault:posts/thedynamicsexplorer-com/37202.md",
+      "words": 470
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:59.072Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.004966
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:59.073Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:59.074Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:59.077Z",
+      "path": "content/posts/thedynamicsexplorer-com/37202.md"
     }
   },
   "input_hash": "2026-05-01T14:42:11.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "26b669a14e2734b8ecd407cd34d0b25d10d42c1ef5b202765d0aad84c1c98cd6"
 }

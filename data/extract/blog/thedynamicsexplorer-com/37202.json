@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37202",
+  "url": "https://thedynamicsexplorer.com/2026/03/30/dynamics-365-business-central-why-isnt-payment-tolerance-being-taken-automatically-in-the-cash-receipt-journal/",
+  "title": "Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2026-03-30T09:00:00.000Z",
+  "words": 470,
+  "summary": "Payment Tolerance is a Business Central feature that automatically writes off small unpaid invoice balances, but it only works when cash receipts are entered with the Payment document type selected. The post explains common setup mistakes that prevent this functionality from triggering.",
+  "key_points": [
+    "Payment tolerance settings are configured in General Ledger Setup using a percentage of invoice value with a maximum limit",
+    "Cash receipt journal entries must have Payment as the document type for payment tolerance to apply automatically",
+    "When correctly applied, an extra GL entry posts to the payment tolerance account",
+    "Entering a cash receipt without selecting Payment as document type prevents the tolerance warning and GL posting"
+  ],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "payment tolerance",
+    "cash receipt journal",
+    "invoice application",
+    "general ledger setup",
+    "accounts receivable"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    }
+  ],
+  "features": [
+    "Payment Tolerance",
+    "Cash Receipt Journal",
+    "Invoice Application",
+    "General Ledger Setup",
+    "GL Entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004966,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

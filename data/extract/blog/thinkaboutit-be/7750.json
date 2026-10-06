@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/thinkaboutit-be/7750",
+  "url": "https://thinkaboutit.be/2026/04/how-do-i-use-the-word-add-in-for-business-central-report-layouts/",
+  "title": "How Do I: Use the Word Add-in for Business Central Report Layouts",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-04-01T12:36:08.000Z",
+  "words": 1835,
+  "summary": "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts for document reports by enabling easy field insertion, layout comments, and conditional content hiding based on data values. The add-in requires Business Central version 25 or later, with full data picker functionality in version 27 and later.",
+  "key_points": [
+    "The Word add-in provides a task pane for inserting data fields, labels, and report information into layouts without manual workarounds",
+    "Multiple hide controls automatically remove content when empty: Hide Field if Zero, Hide Empty Table, Hide Empty Table Row, and Hide Empty Table Column",
+    "Layout comments can be embedded directly in Word files to document design decisions without affecting printed output",
+    "The add-in works only with data already in the report; adding new fields or complex conditional logic requires developer involvement",
+    "Word layouts still lack advanced features found in RDLC layouts such as conditional formatting, calculated aggregations, and complex page controls"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "document reporting",
+    "add-in",
+    "conditional content"
+  ],
+  "objects": [],
+  "features": [
+    "Word add-in for report layouts",
+    "Data field insertion",
+    "Layout comments",
+    "Hide Field if Zero",
+    "Hide Empty Table",
+    "Hide Empty Table Row",
+    "Hide Empty Table Column",
+    "Data picker task pane"
+  ],
+  "versions": [
+    "25",
+    "27",
+    "28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011675,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The add-in has grown steadily since then, and this post covers what it can do today and how to use it.",
+      "why_it_matters": "Establishes that the Word add-in is an evolving feature with recent improvements worth understanding"
+    },
+    {
+      "text": "Controlling what appears and what stays hidden depending on the data in the document required either manual workarounds or developer involvement.",
+      "why_it_matters": "Explains the problem the add-in solves, making document design more accessible without developer help"
+    },
+    {
+      "text": "Word layouts are genuinely easier to work with for straightforward document design, and the add-in has made real progress.",
+      "why_it_matters": "Provides balanced perspective on when Word layouts are appropriate versus when RDLC remains necessary"
+    }
+  ]
+}

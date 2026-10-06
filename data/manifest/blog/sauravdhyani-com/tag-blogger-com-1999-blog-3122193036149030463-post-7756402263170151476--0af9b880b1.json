@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/04/how-to-group-and-consolidate-general.html",
   "published_at": "2026-04-01T04:30:00.032Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:51.445Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md",
+      "words": 715
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:59.763Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006226
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:59.764Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:59.765Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:59.770Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md"
     }
   },
   "input_hash": "2026-04-01T04:30:00.120Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7c7a94404dcd372be45228ab641b2a497538d5e3cc02e13a3b9d2f21fc10741a"
 }

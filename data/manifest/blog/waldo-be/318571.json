@@ -7,13 +7,21 @@
   "url": "https://waldo.be/2026/03/28/i-built-the-tool-but-forgot-the-skill/",
   "published_at": "2026-03-28T21:06:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:59.399Z",
+      "path": "vault:posts/waldo-be/318571.md",
+      "words": 806
     }
   },
   "input_hash": "2026-03-28T21:06:39.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6df6c701b5d1b12e504165de1aa98eaadd8c7c0ce414bcb7dbc0a9112065b1d8"
 }

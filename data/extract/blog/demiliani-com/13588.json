@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/demiliani-com/13588",
+  "url": "https://demiliani.com/2026/04/02/dynamics-365-business-central-new-strict-uri-validation-in-al-http-client/",
+  "title": "Dynamics 365 Business Central: new strict URI validation in AL Http Client",
+  "source": "demiliani-com",
+  "published_at": "2026-04-02T07:16:44.000Z",
+  "words": 986,
+  "summary": "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks by blocking HTTP requests to internal and non-routable addresses by default. Cloud environments enforce this without bypass options, while on-premises deployments offer configuration settings to whitelist trusted internal addresses when necessary.",
+  "key_points": [
+    "Strict URI validation blocks HTTP requests to localhost, private IP ranges, link-local addresses, and other non-public network addresses",
+    "SSRF protection is mandatory in cloud/SaaS environments with no bypass options available",
+    "On-premises deployments can use NavHttpClientAntiSSRFEnabled and NavHttpClientAntiSSRFAllowedAddresses settings to manage restrictions",
+    "Security enhancement is backported to versions 26.x and 27.x for consistent protection across supported versions",
+    "Extensions relying on internal integrations may need refactoring to use public APIs, Logic Apps, or other managed integration solutions"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "http client",
+    "uri validation",
+    "ssrf protection",
+    "al development",
+    "configuration",
+    "integration patterns"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HttpClient"
+    }
+  ],
+  "features": [
+    "Strict URI validation",
+    "SSRF attack prevention",
+    "NavHttpClientAntiSSRFEnabled configuration",
+    "NavHttpClientAntiSSRFAllowedAddresses configuration",
+    "Internal address blocking",
+    "URI whitelist support"
+  ],
+  "versions": [
+    "28",
+    "26.x",
+    "27.x",
+    "2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006857,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Starting with Business Central v28, outgoing HTTP calls made through the AL HttpClient are subject to hardened URI validation.",
+      "why_it_matters": "This is the core change developers need to understand and plan for when upgrading their extensions"
+    },
+    {
+      "text": "For organizations using Business Central online, there is no way to bypass this security restriction. This is intentional and non-negotiable.",
+      "why_it_matters": "Cloud customers must understand they cannot disable the protection, making extension refactoring mandatory for internal integrations"
+    }
+  ]
+}

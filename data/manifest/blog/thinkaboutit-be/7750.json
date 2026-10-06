@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/04/how-do-i-use-the-word-add-in-for-business-central-report-layouts/",
   "published_at": "2026-04-01T12:36:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:43.353Z",
+      "path": "vault:posts/thinkaboutit-be/7750.md",
+      "words": 1835
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:53.213Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.011675
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:53.214Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:53.215Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:53.221Z",
+      "path": "content/posts/thinkaboutit-be/7750.md"
     }
   },
   "input_hash": "2026-04-01T13:59:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f36fb87a2b8d2238f8dcad59c7b5cc7dff0b4fb14e53b2cff6a2bc23f62c60a"
 }

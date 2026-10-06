@@ -7,7 +7,7 @@
   "url": "https://thinkaboutit.be/2026/04/quick-tip-business-central-launch-edition-2026-wave-1-37-sessions/",
   "published_at": "2026-04-02T13:16:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T22:00:35.704Z",
       "path": "vault:posts/thinkaboutit-be/7797.md",
       "words": 321
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:43.079Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005737
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:43.080Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:43.081Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:43.085Z",
+      "path": "content/posts/thinkaboutit-be/7797.md"
     }
   },
   "input_hash": "2026-04-02T13:16:34.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e431db4ac1f6678b3c434a6c0be99b15f0178273d9da1c90ba1ca01bb92f07ff"
+  "output_hash": "e557b587c25a1ec2b34bf8d3a9d69163949e6ecb70511fb443337cb1542376ce"
 }

@@ -1,0 +1,103 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/",
+  "url": "https://blog.kine.cz/posts/bcdevelopmentserie-02b/",
+  "title": "Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production",
+  "source": "kine-cz",
+  "published_at": "2026-03-30T23:00:00.000Z",
+  "words": 3635,
+  "summary": "AI-generated Business Central code can compile and appear functional while containing hidden bugs that silently corrupt data or cause performance issues. Developers must validate AI output across architecture, performance, standard processes, testing, security, and localization before production use, requiring broad domain expertise and proper guardrails.",
+  "key_points": [
+    "AI produces plausible code that passes basic checks but silently skips business logic like Validate calls, corruption item tracking, or creates performance problems invisible until specific data conditions trigger them",
+    "Eight common validation dimensions required include architecture decisions, performance patterns, standard BC libraries recognition, AL object design, locking/concurrency, automated testing, CI/CD gates, and security",
+    "Silent bugs are especially dangerous in ERP systems where wrong ledger entries, corrupted inventory, or load issues affect entire customer companies",
+    "The correct approach encodes quality standards into AI agent instructions before code generation, rather than trying to catch problems in review",
+    "Using AI responsibly requires honest self-assessment of knowledge gaps across multiple BC domains; using it irresponsibly amplifies mistakes across larger code volumes"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "ai-assisted development",
+    "code quality",
+    "validate calls",
+    "performance",
+    "testing",
+    "security",
+    "item tracking",
+    "production readiness"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ItemTrackingManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "ReservationEngineMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "NoSeriesMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "WhseManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "GenJnlPostLine"
+    },
+    {
+      "type": "codeunit",
+      "name": "SalesPost"
+    },
+    {
+      "type": "codeunit",
+      "name": "PurchPost"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    }
+  ],
+  "features": [
+    "validate triggers",
+    "item tracking",
+    "permission sets",
+    "telemetry",
+    "error handling",
+    "API consumption",
+    "localization",
+    "JSON handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.017904,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "We are drowning not in lies - but in plausible truths.",
+      "why_it_matters": "Captures the core risk of AI-generated code: it looks correct and functions initially but contains hidden flaws that cause costly production failures in financial systems"
+    },
+    {
+      "text": "AI is not a shortcut past expertise. It is an amplifier of expertise.",
+      "why_it_matters": "Reframes AI's role as dependent on existing knowledge; poor guardrails amplify mistakes rather than reduce risk"
+    },
+    {
+      "text": "The gate must be at the input. Encode your rules before the agent writes.",
+      "why_it_matters": "Establishes that preventing problems through instructions is more effective than catching them in code review"
+    }
+  ]
+}

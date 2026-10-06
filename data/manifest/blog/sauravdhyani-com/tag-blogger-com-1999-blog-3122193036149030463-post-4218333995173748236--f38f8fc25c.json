@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/04/how-to-export-csv-files-from-business.html",
   "published_at": "2026-04-02T04:30:00.011Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:43.148Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md",
+      "words": 609
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:51.017Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005882
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:51.018Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:51.019Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:51.023Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md"
     }
   },
   "input_hash": "2026-04-02T04:30:00.140Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df707a79153b86f3b5445ff109e7fe582a19c4825907738edf8b3fcd48830aec"
 }

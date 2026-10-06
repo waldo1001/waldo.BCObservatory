@@ -1,0 +1,94 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12166",
+  "url": "https://gerardorenteria.blog/2026/03/29/%f0%9f%93%85-ics-calendar-export-extension-for-business-central-%f0%9f%92%a1/",
+  "title": "📅 Exporting ICS (Calendar) Files for Business Central 💡",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-03-29T19:38:04.000Z",
+  "words": 1236,
+  "summary": "This extension enables users to export critical time and planning information from Business Central (customer meetings, order dates, project schedules) as ICS calendar files for seamless integration with Outlook, Teams, Google Calendar, and Apple Calendar. It provides two complementary approaches: record-level contextual actions and field-level assist edits that pre-populate calendar events with relevant data.",
+  "key_points": [
+    "Bridges the disconnect between Business Central scheduling data and external calendar tools used daily by employees",
+    "Implements RFC 5545 compliant ICS format supported universally across all modern calendar platforms",
+    "Offers dual integration: record-level actions from main pages and field-level assists with visual indicators on date fields",
+    "Automatically preconfigures calendar events with business context (titles, locations, organizer emails, dates) that users can customize before exporting",
+    "Reduces duplicate work and missed deadlines by synchronizing planning information across systems without manual data entry"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "projects"
+  ],
+  "topics": [
+    "calendar integration",
+    "ics export",
+    "outlook integration",
+    "productivity",
+    "extension development",
+    "date field management",
+    "workflow automation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ICS Event Data Buffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "ICSFileGenerator"
+    },
+    {
+      "type": "codeunit",
+      "name": "ICS Business Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "ICS Assist Edit Manager"
+    },
+    {
+      "type": "page",
+      "name": "ICS Event Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order ICS Export"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card ICS Export"
+    },
+    {
+      "type": "permissionset",
+      "name": "ICSFilePermSet"
+    }
+  ],
+  "features": [
+    "ICS file generation",
+    "RFC 5545 compliance",
+    "Record-level calendar event creation",
+    "Field-level assist edit integration",
+    "Pre-populated event configuration",
+    "Multi-platform calendar compatibility",
+    "Automatic file download",
+    "Customizable event properties"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00816,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "This disconnection could result in missed deadlines for certain activities, with the resulting reduction in productivity or the execution of duplicate work.",
+      "why_it_matters": "Clearly articulates the business problem that the extension solves by keeping calendar data in sync across systems"
+    },
+    {
+      "text": "The generated ICS file automatically integrates with all modern calendar platforms, such as Microsoft Teams/Outlook Calendar or Google Calendar.",
+      "why_it_matters": "Demonstrates universal compatibility without platform lock-in, following open standards for maximum utility"
+    }
+  ]
+}

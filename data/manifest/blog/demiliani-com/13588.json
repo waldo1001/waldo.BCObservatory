@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/04/02/dynamics-365-business-central-new-strict-uri-validation-in-al-http-client/",
   "published_at": "2026-04-02T07:16:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:42.666Z",
+      "path": "vault:posts/demiliani-com/13588.md",
+      "words": 986
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:51.647Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006857
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:51.648Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:51.649Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:51.653Z",
+      "path": "content/posts/demiliani-com/13588.md"
     }
   },
   "input_hash": "2026-04-02T07:18:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "890fbb3c52fafdc7a117e3e36a86475d11e51286c5d8c6196f1063963fb8c12d"
 }
