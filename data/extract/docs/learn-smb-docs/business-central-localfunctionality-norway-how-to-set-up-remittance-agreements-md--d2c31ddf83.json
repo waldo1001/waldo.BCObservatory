@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements",
+  "title": "Set Up Remittance Agreements [NO]",
+  "blob": "c6a0462096e50b879bdcc5419d639e6c660b188d",
+  "summary": "Set up remittance agreements with Norwegian banks for electronic payments by specifying payment systems, bank details, payment file handling, and return file configuration.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "remittance",
+    "norway",
+    "electronic payments",
+    "bank agreements",
+    "vendor payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Remittance Agreement Overview"
+    },
+    {
+      "type": "page",
+      "name": "Return File Setup List"
+    }
+  ],
+  "features": [
+    "Payment System selection",
+    "Operator No.",
+    "Company/Agreement No.",
+    "BBS Customer Unit ID",
+    "Payment File Name",
+    "Save Return File",
+    "Receipt Return Required",
+    "On Hold Rejection Code"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002876,
+      "pages_in_call": 8
+    }
+  ]
+}

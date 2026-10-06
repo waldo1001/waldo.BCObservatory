@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
       "words": 210,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:08.739Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002876
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:08.759Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:08.760Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:08.761Z",
+      "page": false
     }
   },
   "input_hash": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88"
+  "output_hash": "d15b63a982aa515bfceafc368c0949faed2af480d3e475f168242ea16f38e694"
 }

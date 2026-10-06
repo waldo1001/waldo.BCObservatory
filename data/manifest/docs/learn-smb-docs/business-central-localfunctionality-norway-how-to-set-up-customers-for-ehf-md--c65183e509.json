@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
       "words": 233,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:07.023Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002876
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:08.741Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:08.742Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:08.743Z",
+      "page": false
     }
   },
   "input_hash": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb1545364b5e7c9d3057903592e96c97891e0a5c"
+  "output_hash": "3994e15fefb6f521773f6c19f4eb6a4e967a3d83db8399aa5df6732aca794723"
 }

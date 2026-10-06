@@ -1,0 +1,189 @@
+{
+  "video_id": "tP-0VcN7fcU",
+  "item_id": "video/yt-microsoft/tP-0VcN7fcU",
+  "title": "Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 231,
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "customer templates",
+    "classes",
+    "posting groups",
+    "dimensions",
+    "default values",
+    "data accuracy",
+    "customer setup"
+  ],
+  "chapters": [
+    {
+      "title": "Customer classes in Dynamics GP",
+      "t_start": 0,
+      "t_end": 66.2
+    },
+    {
+      "title": "Creating customer templates in Business Central",
+      "t_start": 66.2,
+      "t_end": 127.5
+    },
+    {
+      "title": "Configuring posting groups and dimensions",
+      "t_start": 127.5,
+      "t_end": 155.5
+    },
+    {
+      "title": "Applying templates to new and existing customers",
+      "t_start": 155.5,
+      "t_end": 231
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer templates",
+      "description": "Templates in Business Central allow users to streamline creation of new customers by pre-populating fields like credit limit, salesperson, posting groups, and dimension values based on regional or business criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.2,
+      "t_end": 214.1,
+      "is_demoed": true,
+      "caveats": [
+        "Template form requires personalization to display all desired fields"
+      ],
+      "tags": [
+        "customer templates",
+        "default values",
+        "data accuracy"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Form personalization for templates",
+      "description": "Users can personalize the template form to add custom fields like credit limit and salesperson by dragging them onto the template window.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.6,
+      "t_end": 107.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form personalization",
+        "field customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Template creation from existing customer",
+      "description": "Users can create a template from an existing customer record if they have values they want to use for other customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.6,
+      "t_end": 208.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "template creation",
+        "customer templates"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Posting groups in customer templates",
+      "description": "Customer templates can set default business and customer posting groups to ensure correct sales and accounts receivable accounts are used for customers in a group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.5,
+      "t_end": 187.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "customer setup",
+        "default values"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dimension defaults in templates",
+      "description": "Templates can set default dimension values such as region to ensure transactions posted to sales accounts are categorized correctly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 138,
+      "t_end": 155.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "default values",
+        "customer setup"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "in this video we're going to talk about classes in GP and compare that to the experience in business Central where we will use",
+      "why_it_matters": "Establishes the video's purpose as a comparison between customer classes in Dynamics GP and templates in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 13.2,
+      "text": "grouping our customers by region and I have some preset information for customers in the Northeast region",
+      "why_it_matters": "Shows how GP classes organize customer information by region with preset values",
+      "check": "exact"
+    },
+    {
+      "t": 87.6,
+      "text": "I don't see the credit limit or salesperson fields on the template form I can simply select to personalize the form find the fields",
+      "why_it_matters": "Demonstrates that Business Central template forms can be personalized to add specific fields needed for customization",
+      "check": "exact"
+    },
+    {
+      "t": 164.7,
+      "text": "when I select to create a new customer you can see the various templates I've created are displayed and I can select that Northeast",
+      "why_it_matters": "Shows how templates are accessible and easy to apply during new customer creation in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 175.4,
+      "text": "you can see how the credit limit and salespeople have defaulted in for me as well as the right business and customer posting groups",
+      "why_it_matters": "Illustrates that templates successfully populate multiple fields automatically including posting groups",
+      "check": "exact"
+    },
+    {
+      "t": 214.1,
+      "text": "how we can use templates in business Central to streamline data creation and improve data accuracy",
+      "why_it_matters": "Summarizes the key benefit of templates - streamlined setup and improved data quality",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012273000000000001
+    }
+  ]
+}

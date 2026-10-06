@@ -1,0 +1,26 @@
+{
+  "video_id": "tP-0VcN7fcU",
+  "item_id": "video/yt-microsoft/tP-0VcN7fcU",
+  "summary": "Customer templates in Business Central as the equivalent of customer classes in Dynamics GP. The demo groups customers by region (Northeast) and presets credit limit, salesperson, posting groups and dimension values, then applies the template when creating a new customer.",
+  "overview": "The video compares customer classes in Dynamics GP with customer templates in Business Central. It uses a regional grouping, with preset information for customers in the Northeast region, to show how a template can carry default values.\n\nThe demo creates a template, personalizes the template form to show the credit limit and salesperson fields, and sets business and customer posting groups and a default region dimension. It then creates a new customer and picks the Northeast template, which fills in the defaults. The stated aim is to streamline data creation and improve data accuracy.",
+  "key_points": [
+    "Business Central customer templates fill in defaults on new customers, similar in purpose to customer classes in Dynamics GP.",
+    "The template form may not show credit limit or salesperson at first; use personalization to drag those fields onto it.",
+    "A template can be created from an existing customer record if its values suit other customers.",
+    "Templates can set default business and customer posting groups so the correct sales and accounts receivable accounts are used.",
+    "Templates can set default dimension values such as region so transactions posted to sales accounts are categorized correctly.",
+    "When creating a new customer, the available templates are listed and you select one, such as Northeast, to apply its defaults."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "0a40878d3f40b6c5d408f34c7ff71fb73a6b08505a4f15cdb84d2ea76ce90091",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0113184
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents",
+  "title": "How to set up KID numbers on sales documents",
+  "blob": "f3860f4c62f9c833526de7235037a5e654d7e805",
+  "summary": "Set up KID numbers on Norwegian sales documents to identify customer and document information for payment references and electronic banking transactions.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "kid numbers",
+    "norway",
+    "payment reference",
+    "sales documents",
+    "customer identification"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "KID Setup",
+    "Document No. length",
+    "Customer No. length",
+    "Finance charge memo KID",
+    "Reminder KID"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002876,
+      "pages_in_call": 8
+    }
+  ]
+}

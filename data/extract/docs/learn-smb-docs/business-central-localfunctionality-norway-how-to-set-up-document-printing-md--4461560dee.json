@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing",
+  "title": "How to Set Up Document Printing",
+  "blob": "3a2aef8953f4e579131b20accb29df4d3b868f78",
+  "summary": "Configure paper tray settings for Norwegian sales documents to print giro and KID information on invoices, credit memos, finance charge memos, and reminders.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "document printing",
+    "norway",
+    "giro",
+    "paper tray setup",
+    "invoices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    }
+  ],
+  "features": [
+    "paper tray setup",
+    "giro printing",
+    "KID printing",
+    "first page settings",
+    "giro page settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002876,
+      "pages_in_call": 8
+    }
+  ]
+}

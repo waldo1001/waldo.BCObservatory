@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3a2aef8953f4e579131b20accb29df4d3b868f78",
       "words": 274,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:07.024Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002876
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:08.744Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:08.745Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:08.746Z",
+      "page": false
     }
   },
   "input_hash": "3a2aef8953f4e579131b20accb29df4d3b868f78",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a2aef8953f4e579131b20accb29df4d3b868f78"
+  "output_hash": "1de3ec35e50344cc73a756c7d1871bcd12f4b8ea0f05feae5e44389d2c7fd5fc"
 }

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments",
+  "title": "Set up OCR payments [NO]",
+  "blob": "6d2c03889718caf13a57abe7656911229097017d",
+  "summary": "Set up OCR payment processing in Norway to handle electronic payments from customers using predefined payment IDs and import payment transaction data.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "ocr payments",
+    "norway",
+    "electronic banking",
+    "payment processing",
+    "optical character recognition"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "OCR Setup"
+    },
+    {
+      "type": "page",
+      "name": "Gen. Journal Template"
+    }
+  ],
+  "features": [
+    "OCR file format",
+    "payment file import",
+    "balance account setup",
+    "maximum divergence",
+    "journal template configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002876,
+      "pages_in_call": 8
+    }
+  ]
+}

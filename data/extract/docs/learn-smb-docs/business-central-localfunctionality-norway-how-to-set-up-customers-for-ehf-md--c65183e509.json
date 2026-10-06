@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf",
+  "title": "Set Up Customers for EHF",
+  "blob": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
+  "summary": "Set up customers for EHF electronic invoicing in Norway by adding GLN, account code, and e-invoice settings to customer records for public sector invoicing.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "ehf",
+    "e-invoicing",
+    "norway",
+    "customer setup",
+    "electronic documents"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customers"
+    }
+  ],
+  "features": [
+    "GLN",
+    "Account Code",
+    "E-Invoice checkbox",
+    "Responsibility Center",
+    "EHF documents"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002876,
+      "pages_in_call": 8
+    }
+  ]
+}

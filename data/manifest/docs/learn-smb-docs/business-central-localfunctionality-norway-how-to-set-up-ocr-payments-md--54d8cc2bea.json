@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d2c03889718caf13a57abe7656911229097017d",
       "words": 378,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:08.734Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002876
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:08.750Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:08.751Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:08.752Z",
+      "page": false
     }
   },
   "input_hash": "6d2c03889718caf13a57abe7656911229097017d",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d2c03889718caf13a57abe7656911229097017d"
+  "output_hash": "3984f8d5564ceebba1be798c66a49ccf8de5ee44cc5d5736b61feb4aeeebc6ec"
 }
