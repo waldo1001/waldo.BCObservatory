@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-handling-lot-sizes",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "08852130f85fa9aa77b9b2d2d39776e25e441da2",
       "words": 746,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.164Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.175Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.176Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.177Z",
+      "page": false
     }
   },
   "input_hash": "08852130f85fa9aa77b9b2d2d39776e25e441da2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08852130f85fa9aa77b9b2d2d39776e25e441da2"
+  "output_hash": "59cf20ecbb4857465899c17a1e961afa72c3212600ec66a8c34980dfedec170a"
 }

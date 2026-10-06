@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "57eab007e07f5b06e581a281cde4feef50666a39",
       "words": 20,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:23.515Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0019
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:23.525Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:23.525Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:23.526Z",
+      "page": false
     }
   },
   "input_hash": "57eab007e07f5b06e581a281cde4feef50666a39",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57eab007e07f5b06e581a281cde4feef50666a39"
+  "output_hash": "d77fa57fa36b8852e999446195d239e6e6fea4d3d2269d745a212a191d82e9aa"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-company-information",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "18085a6bb1817231c4f7b5c9904e64e6fea9b140",
       "words": 121,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.171Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.193Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.194Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.195Z",
+      "page": false
     }
   },
   "input_hash": "18085a6bb1817231c4f7b5c9904e64e6fea9b140",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18085a6bb1817231c4f7b5c9904e64e6fea9b140"
+  "output_hash": "a4b3fabb53531eeb477e5bc314db0e55e0abf377149840b22751c58d2bc87a5a"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4faad920503c59ed78463555fbf0bada3afab046",
       "words": 177,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.167Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.185Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.186Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.187Z",
+      "page": false
     }
   },
   "input_hash": "4faad920503c59ed78463555fbf0bada3afab046",
@@ -83,5 +102,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4faad920503c59ed78463555fbf0bada3afab046"
+  "output_hash": "e6ec2f163a3b66e5eee0e067a9b3034c89d0a83b2f29ed299a9f66ddad2b0a91"
 }

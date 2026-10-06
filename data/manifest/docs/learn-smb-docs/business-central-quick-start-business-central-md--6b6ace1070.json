@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-business-central",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a0b35dc5f3c822726bf48b785389d6f42329a63b",
       "words": 317,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.168Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.188Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.189Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.190Z",
+      "page": false
     }
   },
   "input_hash": "a0b35dc5f3c822726bf48b785389d6f42329a63b",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a0b35dc5f3c822726bf48b785389d6f42329a63b"
+  "output_hash": "fd622235a83f1f0cebb59cc9440e096a8f79b1669a3e587d02a0c7be5e09ecba"
 }

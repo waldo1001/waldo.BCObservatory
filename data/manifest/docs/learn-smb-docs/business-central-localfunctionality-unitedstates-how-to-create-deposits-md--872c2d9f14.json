@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2",
       "words": 19,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:23.514Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0019
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:23.522Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:23.523Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:23.524Z",
+      "page": false
     }
   },
   "input_hash": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2",
@@ -85,5 +104,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2"
+  "output_hash": "3c65845d318bdec2f0ef477a55f2f4f470960a17d5fdf144ba558272cba8fbfb"
 }

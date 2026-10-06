@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-reports",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0eccedcf512cb86366c6e53a4a552096c9301bb2",
       "words": 266,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.163Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.172Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.173Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.174Z",
+      "page": false
     }
   },
   "input_hash": "0eccedcf512cb86366c6e53a4a552096c9301bb2",
@@ -93,5 +112,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0eccedcf512cb86366c6e53a4a552096c9301bb2"
+  "output_hash": "13b9631735c24c20004b6157a3605e1214cc0153f58d6cf91ce52c6ae80eadac"
 }

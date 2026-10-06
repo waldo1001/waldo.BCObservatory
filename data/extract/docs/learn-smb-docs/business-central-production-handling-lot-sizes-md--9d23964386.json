@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-handling-lot-sizes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-handling-lot-sizes",
+  "title": "Handling Lot Sizes",
+  "blob": "08852130f85fa9aa77b9b2d2d39776e25e441da2",
+  "summary": "Handling lot sizes in production explains how lot sizes on routing lines and items affect cost calculations, run time calculations, and supply planning when manufacturing doesn't correlate production quantities to sales quantities.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "lot sizes",
+    "production",
+    "routing",
+    "bill of materials",
+    "cost calculation",
+    "capacity planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
+  "features": [
+    "lot size on routing lines",
+    "lot size on items",
+    "setup time",
+    "cost allocation",
+    "Default Dampener %"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002807,
+      "pages_in_call": 8
+    }
+  ]
+}

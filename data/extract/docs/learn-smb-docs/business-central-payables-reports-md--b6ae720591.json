@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-reports",
+  "title": "Accounts payables analytics",
+  "blob": "0eccedcf512cb86366c6e53a4a552096c9301bb2",
+  "summary": "Accounts payable analytics shows how to analyze what you owe vendors using Power BI reports, Data Analysis, and the Payment Practice page to review payment timing.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "accounts payable",
+    "analytics",
+    "power bi",
+    "vendor ledger",
+    "payment practices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Aged Payables (Back Dating)"
+    },
+    {
+      "type": "page",
+      "name": "Detailed Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Payment Practice"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    }
+  ],
+  "features": [
+    "Power BI analytics",
+    "Data Analysis",
+    "Aged Payables reports",
+    "Vendor Ledger reports",
+    "Payment Practice reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002807,
+      "pages_in_call": 8
+    }
+  ]
+}

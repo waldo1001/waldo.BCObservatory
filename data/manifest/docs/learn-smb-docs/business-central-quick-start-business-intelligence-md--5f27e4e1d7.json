@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-business-intelligence",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f71d734242febe09386fb29e35e94f6abdc2962c",
       "words": 164,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:22.170Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:22.190Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:22.191Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:22.192Z",
+      "page": false
     }
   },
   "input_hash": "f71d734242febe09386fb29e35e94f6abdc2962c",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f71d734242febe09386fb29e35e94f6abdc2962c"
+  "output_hash": "5078817bcf7d5c9ada978c47ffbb3b6f7103bf53765c277b5b2a8079570c3510"
 }

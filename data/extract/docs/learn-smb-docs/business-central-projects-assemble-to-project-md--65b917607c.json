@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-assemble-to-project.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-assemble-to-project",
+  "title": "Assemble to Project",
+  "blob": "6acec301a4a026f19d5ba176e73f72d8fbd1fd2a",
+  "summary": "Assemble to project allows you to assemble items to order only when needed for project planning lines, automatically creating assembly orders based on project requirements and integrating with warehouse management.",
+  "systems": [
+    "projects",
+    "assembly",
+    "warehouse"
+  ],
+  "topics": [
+    "assemble to order",
+    "projects",
+    "assembly",
+    "inventory management",
+    "warehouse integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    }
+  ],
+  "features": [
+    "Assemble to project",
+    "Assembly order creation",
+    "Item tracking synchronization",
+    "Warehouse pick integration",
+    "Project planning integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002807,
+      "pages_in_call": 8
+    }
+  ]
+}

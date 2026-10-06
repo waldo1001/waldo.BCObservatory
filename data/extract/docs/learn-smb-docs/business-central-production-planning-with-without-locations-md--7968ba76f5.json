@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-planning-with-without-locations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-planning-with-without-locations",
+  "title": "Planning With or Without Locations",
+  "blob": "354a2db9e1aa615cb99e69cd87b77f864210434c",
+  "summary": "Planning with or without locations describes how the planning system behaves based on whether demand lines carry location codes and stockkeeping unit setup, affecting which planning parameters are used.",
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "warehouse"
+  ],
+  "topics": [
+    "supply planning",
+    "locations",
+    "stockkeeping units",
+    "demand planning",
+    "reordering policy"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Components at Location",
+    "Location Mandatory",
+    "Lot-for-Lot reordering",
+    "SKU planning parameters"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002807,
+      "pages_in_call": 8
+    }
+  ]
+}
