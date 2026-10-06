@@ -1,0 +1,252 @@
+{
+  "video_id": "gy_6QnFpiEw",
+  "item_id": "video/yt-microsoft/gy_6QnFpiEw",
+  "title": "What's New in Shopify Connector: Prices for Markets (2025 release wave 2)",
+  "duration_s": 589,
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "shopify connector",
+    "market pricing",
+    "multi-currency",
+    "price catalogs",
+    "b2b catalogs",
+    "point of sale",
+    "localized pricing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Market Expansion Overview",
+      "t_start": 0,
+      "t_end": 43.7
+    },
+    {
+      "title": "How Shopify Markets Handle Pricing and Currency",
+      "t_start": 43.7,
+      "t_end": 142.7
+    },
+    {
+      "title": "Advanced Market Scenarios and Catalogs",
+      "t_start": 142.7,
+      "t_end": 298.6
+    },
+    {
+      "title": "Market Catalog Import in Business Central",
+      "t_start": 298.6,
+      "t_end": 381
+    },
+    {
+      "title": "Syncing Prices Across Markets",
+      "t_start": 381,
+      "t_end": 445.3
+    },
+    {
+      "title": "Point of Sale and B2B Market Options",
+      "t_start": 445.3,
+      "t_end": 543.8
+    },
+    {
+      "title": "B2B Catalogs and Currency Code Field",
+      "t_start": 543.8,
+      "t_end": 589
+    }
+  ],
+  "features": [
+    {
+      "name": "Market Catalog Import",
+      "description": "New page called market catalog that imports catalogs from Shopify markets. Users can retrieve and link Shopify catalogs to Business Central, showing market names, linked markets, and currency codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325.7,
+      "t_end": 365.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Business Central in appropriate version",
+        "Works with existing Shopify market setup"
+      ],
+      "tags": [
+        "shopify",
+        "catalogs",
+        "markets",
+        "import"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Price Synchronization for Markets",
+      "description": "Sync prices button that synchronizes product prices from Shopify market catalogs to Business Central customer price groups based on market and currency configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 381,
+      "t_end": 444,
+      "is_demoed": true,
+      "caveats": [
+        "Prices are adjusted per market",
+        "Requires manual activation of toggle"
+      ],
+      "tags": [
+        "pricing",
+        "synchronization",
+        "markets"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Multi-currency Market Support",
+      "description": "Support for different currencies per market. Catalogs can be linked to multiple markets with different currencies, and Business Central displays currency codes for each catalog based on market definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 337.3,
+      "t_end": 365.6,
+      "is_demoed": true,
+      "caveats": [
+        "Works with Shopify currency configuration",
+        "Local currency displays as blank code in Business Central"
+      ],
+      "tags": [
+        "multi-currency",
+        "markets",
+        "catalogs"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Point of Sale Market Definition",
+      "description": "Ability to define markets for point of sale locations. Users can specify POS locations when creating markets and assign prices per POS location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 445.3,
+      "t_end": 477.3,
+      "is_demoed": true,
+      "caveats": [
+        "Most useful within single country",
+        "Requires proper currency alignment"
+      ],
+      "tags": [
+        "point-of-sale",
+        "markets",
+        "pricing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B Catalog Company Locations",
+      "description": "For B2B plus customers, ability to define market with company locations. Catalogs can be linked to specific company locations or directly to B2B customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 477.3,
+      "t_end": 527.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only for B for plus customers using B2B",
+        "Two options available: market company locations or direct customer linking"
+      ],
+      "tags": [
+        "b2b",
+        "company-locations",
+        "catalogs"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B Catalogs with Currency Code",
+      "description": "Renamed B2B catalogs page (previously called Catalog). Now includes currency code field for each catalog, allowing B2B catalogs to have associated currencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 562.2,
+      "t_end": 574.1,
+      "is_demoed": true,
+      "caveats": [
+        "Renamed from Catalog to B2B Catalogs",
+        "Works same as before with additional currency field"
+      ],
+      "tags": [
+        "b2b-catalogs",
+        "currency",
+        "naming-change"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "market catalog",
+      "t": 312.1
+    },
+    {
+      "type": "page",
+      "name": "B2B catalogs",
+      "t": 562.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 28.6,
+      "text": "languages, maybe domains, maybe pricing. Oh, did I say pricing? Because this is exactly what we're going to talk about in this session.",
+      "why_it_matters": "Establishes the session topic of pricing for markets in Shopify integration.",
+      "check": "exact"
+    },
+    {
+      "t": 101.5,
+      "text": "Canada. And the only thing I modified here is how to handle currencies. So now currency will be Canadian dollar instead of US dollar.",
+      "why_it_matters": "Explains how Shopify markets fundamentally change currency handling for different regions.",
+      "check": "exact"
+    },
+    {
+      "t": 227.8,
+      "text": "Something is more expensive. Something is a little bit cheaper. Both of them now are 200s. It's a market specific and I want to",
+      "why_it_matters": "Demonstrates the need for market-specific pricing control that the connector enables.",
+      "check": "exact"
+    },
+    {
+      "t": 325.7,
+      "text": "If we go here, it's empty, we press the button get market catalog, which looks very familiar to people who already using B2B functionality",
+      "why_it_matters": "Shows the new market catalog import interface and its similarity to existing B2B features.",
+      "check": "exact"
+    },
+    {
+      "t": 491.3,
+      "text": "or company locations. That is actually only available for B for plus customers who are using B2B.",
+      "why_it_matters": "Clarifies licensing requirement and audience for company location market definition feature.",
+      "check": "exact"
+    },
+    {
+      "t": 543.8,
+      "text": "So if you defined market with a company locations it will land it here in Shopify market catalog because catalog linked to market but",
+      "why_it_matters": "Explains two distinct paths for organizing catalogs in Business Central based on market definition approach.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021568999999999998
+    }
+  ]
+}

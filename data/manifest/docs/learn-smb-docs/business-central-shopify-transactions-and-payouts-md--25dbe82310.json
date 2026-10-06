@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/transactions-and-payouts",
   "published_at": "2026-06-02T10:45:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "49631c2047d8ae8f825baade89e516a1d2b2d7e1",
       "words": 1863,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:01.108Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.008777
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:03.155Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:03.156Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:03.157Z",
+      "page": false
     }
   },
   "input_hash": "49631c2047d8ae8f825baade89e516a1d2b2d7e1",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49631c2047d8ae8f825baade89e516a1d2b2d7e1"
+  "output_hash": "86ab75be4830459e9b1fd980c87c48894ec9fe307fb54092644fddc569f94eb0"
 }

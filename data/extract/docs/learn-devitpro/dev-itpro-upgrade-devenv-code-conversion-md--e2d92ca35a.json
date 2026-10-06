@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/devenv-code-conversion.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion",
+  "title": "Code Conversion from C/AL to AL",
+  "blob": "c8d512de7132aff77d7e03294ea14d4f93175293",
+  "summary": "Code Conversion from C/AL to AL guides converting customized on-premises version 14 C/AL solutions to AL code using the Txt2Al conversion tool as part of upgrading to later versions.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code conversion",
+    "c/al to al",
+    "upgrade",
+    "extension development",
+    "txt2al tool"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Company Triggers"
+    },
+    {
+      "type": "codeunit",
+      "name": "System Initialization"
+    }
+  ],
+  "features": [
+    "Txt2Al conversion tool",
+    ".NET interoperability",
+    "test library conversion",
+    "object export",
+    "AL project setup",
+    "assembly declarations",
+    "debugging object removal"
+  ],
+  "versions": [
+    "version 14",
+    "version 18",
+    "version 19",
+    "version 20"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008777,
+      "pages_in_call": 3
+    }
+  ]
+}

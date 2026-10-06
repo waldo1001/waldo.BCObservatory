@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extensible-enums.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums",
+  "title": "Extensible Enums",
+  "blob": "443d348633aa1d4309d74595f0859dd758049417",
+  "summary": "Extensible enums in AL allow creating enumeration types that other extensions can extend by adding new values. Enums can be used as table fields, variables, and parameters with sorted display order by declaration.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "enums",
+    "extensible types",
+    "al development",
+    "enumeration",
+    "extension objects",
+    "data types"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Loyalty"
+    }
+  ],
+  "features": [
+    "Extensible property",
+    "enumextension object",
+    "caption formatting",
+    "ordinal values",
+    "enum conversion",
+    "assignment compatibility"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008074,
+      "pages_in_call": 5
+    }
+  ]
+}

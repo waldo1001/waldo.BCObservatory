@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion",
   "published_at": "2026-06-02T11:41:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8d512de7132aff77d7e03294ea14d4f93175293",
       "words": 2854,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:01.106Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.008777
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:03.148Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:03.149Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:03.150Z",
+      "page": false
     }
   },
   "input_hash": "c8d512de7132aff77d7e03294ea14d4f93175293",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8d512de7132aff77d7e03294ea14d4f93175293"
+  "output_hash": "5f88f3cfae2d688f8455b8997a5418c24ae7e956c72525f5abaea5a5ccbb6eba"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments",
   "published_at": "2026-06-02T11:41:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a",
       "words": 1966,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:01.103Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 17,
+      "cost_usd": 0.008074
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:01.113Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:01.115Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:01.116Z",
+      "page": false
     }
   },
   "input_hash": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a"
+  "output_hash": "feb228f39bf9e8f17b02c8476c08654ec76f62aeed06c36a22e246df71577797"
 }

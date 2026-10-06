@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-partial-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records",
+  "title": "Using partial records",
+  "blob": "8cf2a3b7c354b16c5a9551bca02c9d34b4482390",
+  "summary": "Partial records capability allows loading a subset of table fields from SQL data sources to improve performance for reports and OData pages. Provides API methods for specifying which fields to load and methods to check loaded field status.",
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "partial records",
+    "performance optimization",
+    "field loading",
+    "record access",
+    "odata pages",
+    "sql data source"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "SetLoadFields method",
+    "AddLoadFields method",
+    "SetBaseLoadFields method",
+    "LoadFields method",
+    "AreFieldsLoaded method",
+    "JIT loading",
+    "enumerator optimization"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008074,
+      "pages_in_call": 5
+    }
+  ]
+}

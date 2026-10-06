@@ -1,0 +1,351 @@
+{
+  "video_id": "h6a8BVzvuZ4",
+  "item_id": "video/yt-microsoft/h6a8BVzvuZ4",
+  "title": "What's New: E-Documents and Clearance Model (2025 release wave 2)",
+  "duration_s": 674,
+  "systems": [
+    "finance",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "clearance model",
+    "e-documents",
+    "regulatory compliance",
+    "workflow",
+    "localization",
+    "e-invoicing",
+    "access points",
+    "qr codes"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 31.3
+    },
+    {
+      "title": "Business value of clearance model and e-documents",
+      "t_start": 31.3,
+      "t_end": 89.8
+    },
+    {
+      "title": "Multiorder vs clearance model architecture",
+      "t_start": 89.8,
+      "t_end": 175
+    },
+    {
+      "title": "Clearance model process and future features",
+      "t_start": 175,
+      "t_end": 243.2
+    },
+    {
+      "title": "Setup requirements and workflow configuration",
+      "t_start": 243.2,
+      "t_end": 297.4
+    },
+    {
+      "title": "E-document service and workflow demo setup",
+      "t_start": 297.4,
+      "t_end": 381.3
+    },
+    {
+      "title": "End-to-end clearance workflow demonstration",
+      "t_start": 381.3,
+      "t_end": 517.2
+    },
+    {
+      "title": "Framework approach and localization strategy",
+      "t_start": 517.2,
+      "t_end": 605.7
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 605.7,
+      "t_end": 674
+    }
+  ],
+  "features": [
+    {
+      "name": "Clearance model for e-documents",
+      "description": "A new framework enabling pre-approval of invoices by tax authorities or third-party partners before sending to customers. Supports three, four, or five corner models with a foundational process involving send, receiver, and government authorities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.3,
+      "t_end": 175,
+      "is_demoed": true,
+      "caveats": [
+        "Framework only, not localized by default",
+        "Receiver-side validation not yet supported",
+        "Clearance service implementation required per localization"
+      ],
+      "tags": [
+        "clearance model",
+        "e-documents",
+        "regulatory compliance",
+        "framework"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "E-document workflow orchestration",
+      "description": "Workflow-based framework to orchestrate communication between clearance service and provider service. Workflow templates guide users through setup with five defined steps from document creation to customer email delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243.2,
+      "t_end": 381.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual workflow setup for each localization",
+        "Service endpoints must be configured per implementation"
+      ],
+      "tags": [
+        "workflow",
+        "e-documents",
+        "orchestration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Clearance service and provider service setup",
+      "description": "Two separate e-document services must be configured: one for clearance submission to authorities and one for sending to customers. Services are country-specific and may need custom implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243.2,
+      "t_end": 270.1,
+      "is_demoed": true,
+      "caveats": [
+        "Clearance service does not exist in Business Central and must be built",
+        "Implementation depends on country-specific requirements"
+      ],
+      "tags": [
+        "e-documents",
+        "setup",
+        "services"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Access point support (sender and receiver)",
+      "description": "Framework supports both sender access point and receiver access point models for document transmission to government authorities and customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 215,
+      "t_end": 230.2,
+      "is_demoed": false,
+      "caveats": [
+        "Access point selection depends on country requirements"
+      ],
+      "tags": [
+        "access points",
+        "e-documents",
+        "connectivity"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "QR code support in e-documents",
+      "description": "Clearance response from authorities can include QR codes which are embedded in invoices and included in customer email attachments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145.2,
+      "t_end": 487.3,
+      "is_demoed": true,
+      "caveats": [
+        "QR code inclusion depends on localization requirements"
+      ],
+      "tags": [
+        "qr codes",
+        "e-documents",
+        "clearance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Receiver validation (future)",
+      "description": "Feature to validate documents against government office requirements when receiving invoices. Currently not supported but planned for future delivery.",
+      "status": "announced",
+      "status_evidence_t": 203.2,
+      "status_evidence_quote": "Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a",
+      "status_evidence_verified": true,
+      "t_start": 203.2,
+      "t_end": 215,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Timeline for delivery not specified"
+      ],
+      "tags": [
+        "receiver validation",
+        "clearance",
+        "future"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "E-documents localization framework",
+      "description": "Framework supporting localization for multiple countries including VeriFacTur in Spain, CFDI in Mexico, and India invoicing. Enables partner-based localization on top of the e-documents clearance model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.5,
+      "t_end": 605.7,
+      "is_demoed": false,
+      "caveats": [
+        "Framework only, no default localization included",
+        "Each country localization must be built separately",
+        "Microsoft will migrate existing India and Mexico e-invoicing to new format"
+      ],
+      "tags": [
+        "localization",
+        "e-documents",
+        "framework"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Migration of existing e-invoicing formats",
+      "description": "Microsoft plans to migrate existing India and Mexico electronic invoicing from old model to new e-documents format with clearance model. VeriFacTur 2 for Spain also planned.",
+      "status": "announced",
+      "status_evidence_t": 576,
+      "status_evidence_quote": "now we will start planning how to migrate Indian and Mexican e voicing to new e documents format and verifact 2 in Spain as",
+      "status_evidence_verified": true,
+      "t_start": 556.3,
+      "t_end": 605.7,
+      "is_demoed": false,
+      "caveats": [
+        "Still in planning phase",
+        "Timeline not specified"
+      ],
+      "tags": [
+        "localization",
+        "migration",
+        "e-documents"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "e document service page",
+      "t": 297.4
+    },
+    {
+      "type": "page",
+      "name": "e document page",
+      "t": 412.5
+    },
+    {
+      "type": "page",
+      "name": "sales invoice",
+      "t": 394.2
+    },
+    {
+      "type": "page",
+      "name": "posted sales invoice",
+      "t": 467.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    },
+    {
+      "name": "Benji",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.3,
+      "text": "Clearance model was something we missed when we deliver this functionality. This is new framework and we had some time to stabilize to create",
+      "why_it_matters": "Explains the motivation for adding clearance model support as a framework completion that was missing from initial e-documents delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 41.4,
+      "text": "many countries require that when you need to have pre-approved by tax authorities or some other third party partners your invoice",
+      "why_it_matters": "Documents the key regulatory requirement driving clearance model implementation globally.",
+      "check": "exact"
+    },
+    {
+      "t": 76.6,
+      "text": "this is now in a framework very similar as we had for other e document features this is framework this is not by default",
+      "why_it_matters": "Critical clarification that the clearance model is a framework, not a localized solution, requiring partners to build on top of it.",
+      "check": "exact"
+    },
+    {
+      "t": 120.2,
+      "text": "It require different architecture. So process is process foundational process this is different.",
+      "why_it_matters": "Highlights that clearance model requires fundamentally different architecture than multiorder model.",
+      "check": "exact"
+    },
+    {
+      "t": 203.2,
+      "text": "Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a",
+      "why_it_matters": "Identifies a gap in current clearance model implementation that will be addressed in future releases.",
+      "check": "exact"
+    },
+    {
+      "t": 617,
+      "text": "many countries require this model. This is something what really important for uh starting using e documents as a framework globally.",
+      "why_it_matters": "Emphasizes the strategic importance of clearance model for global e-documents adoption.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 76.6,
+      "kind": "not-in-this-release",
+      "text": "framework not by default localized, localizations must be built separately"
+    },
+    {
+      "t": 203.2,
+      "kind": "coming-later",
+      "text": "receiver validation not yet supported, planned for future delivery"
+    },
+    {
+      "t": 517.2,
+      "kind": "other",
+      "text": "clearance service does not exist in business central and must be built by partners"
+    },
+    {
+      "t": 556.3,
+      "kind": "coming-later",
+      "text": "will continue to build localization on top of e documents framework with clearance model for missing countries"
+    },
+    {
+      "t": 576,
+      "kind": "coming-later",
+      "text": "planning how to migrate Indian and Mexican e-invoicing to new e documents format and verifact 2 in Spain"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 2,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026914
+    }
+  ]
+}

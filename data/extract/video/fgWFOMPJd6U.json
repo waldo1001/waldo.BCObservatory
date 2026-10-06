@@ -1,0 +1,719 @@
+{
+  "video_id": "fgWFOMPJd6U",
+  "item_id": "video/yt-microsoft/fgWFOMPJd6U",
+  "title": "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot",
+  "duration_s": 1832,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "summarization with copilot",
+    "data-driven insights",
+    "multi-prompt pipeline",
+    "user context",
+    "related entities",
+    "fact boxes",
+    "statistics pages",
+    "user intent",
+    "telemetry",
+    "prompt engineering",
+    "ai testing",
+    "grounding"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AI Experiences and Summarize with Copilot",
+      "t_start": 0,
+      "t_end": 103.1
+    },
+    {
+      "title": "Feature Overview: What Summarize with Copilot Does",
+      "t_start": 103.1,
+      "t_end": 185.4
+    },
+    {
+      "title": "Under the Hood: Data Collection and Insights Generation",
+      "t_start": 185.4,
+      "t_end": 276
+    },
+    {
+      "title": "Multi-Prompt Pipeline: Find Insights and Summarize",
+      "t_start": 276,
+      "t_end": 372.1
+    },
+    {
+      "title": "Data Source Selection and Related Entities",
+      "t_start": 372.1,
+      "t_end": 508.8
+    },
+    {
+      "title": "Evolution of Summarization: From Simple to Data-Driven",
+      "t_start": 508.8,
+      "t_end": 683
+    },
+    {
+      "title": "Future Roadmap: User Intent and Enhanced Context",
+      "t_start": 683,
+      "t_end": 814.6
+    },
+    {
+      "title": "Telemetry and Show More Feature",
+      "t_start": 814.6,
+      "t_end": 895
+    },
+    {
+      "title": "Show more feature and chat experience",
+      "t_start": 895,
+      "t_end": 944.2
+    },
+    {
+      "title": "Prompt engineering and architecture for AI",
+      "t_start": 944.2,
+      "t_end": 1034.3
+    },
+    {
+      "title": "Testing strategy for AI features",
+      "t_start": 1034.3,
+      "t_end": 1150.6
+    },
+    {
+      "title": "Grounding and accuracy testing methods",
+      "t_start": 1150.6,
+      "t_end": 1239.8
+    },
+    {
+      "title": "Functional testing and quality metrics",
+      "t_start": 1239.8,
+      "t_end": 1374.4
+    },
+    {
+      "title": "Customer feedback and experimentation",
+      "t_start": 1374.4,
+      "t_end": 1519.3
+    },
+    {
+      "title": "Model selection and migration strategy",
+      "t_start": 1519.3,
+      "t_end": 1647.2
+    },
+    {
+      "title": "Small language models and extensibility",
+      "t_start": 1647.2,
+      "t_end": 1780
+    },
+    {
+      "title": "Guidance for Partners, Developers and Customers",
+      "t_start": 1780,
+      "t_end": 1832
+    }
+  ],
+  "features": [
+    {
+      "name": "Summarize with Copilot",
+      "description": "A feature that highlights what is most important and urgent for users on Business Central pages with one click, producing tailored and concise text to help users make decisions faster using AI. Shows 2-3 bullet points of highest scoring insights in a summary fact box, with option to click show more for chat experience with additional details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.1,
+      "t_end": 895,
+      "is_demoed": true,
+      "caveats": [
+        "Available on single entity pages like card documents or list pages",
+        "Works with custom partner-created pages",
+        "Shows top 2-3 most important insights in summary fact box",
+        "Show more feature has lower click-through rates"
+      ],
+      "tags": [
+        "summarization",
+        "copilot",
+        "insights",
+        "ai",
+        "user experience",
+        "adoption",
+        "fact box",
+        "chat experience"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Prompt Pipeline for Summarization",
+      "description": "The summarization feature uses a pipeline of multiple prompts: a find insights prompt that analyzes data from the current page, related pages, and fact boxes in parallel, followed by a summarize prompt that selects top insights and applies markdown formatting. Uses function calling to make output deterministic by requiring each insight reference source data IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.4,
+      "t_end": 429.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful data source selection to balance performance",
+        "Uses scoring for insights based on guiding questions and data context"
+      ],
+      "tags": [
+        "multi-prompt",
+        "pipeline",
+        "insights",
+        "performance",
+        "parallel-processing",
+        "function calling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Statistics Page Integration for Summarization",
+      "description": "The feature filters related pages to include only those containing aggregated data from statistics pages, as the team discovered through experiments that aggregated data is more performant and effective for summarization than raw ledger entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 451.2,
+      "t_end": 543,
+      "is_demoed": false,
+      "caveats": [
+        "Statistics pages must be named as such to be recognized",
+        "Relies on existing Business Central metadata structures"
+      ],
+      "tags": [
+        "statistics-pages",
+        "aggregated-data",
+        "metadata",
+        "related-entities"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User Role-Based Filtering for Insights",
+      "description": "Copilot uses user role information to filter and prioritize which insights are most relevant, such as showing business KPIs to managers or inventory details to warehouse managers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.9,
+      "t_end": 802.2,
+      "is_demoed": false,
+      "caveats": [
+        "Currently uses role as primary user context signal"
+      ],
+      "tags": [
+        "role-based",
+        "user-context",
+        "filtering"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User Intent Detection for Future Summarization",
+      "description": "A planned enhancement to track user intent through navigation patterns and frequently used pages to better understand context for what summary insights should be shown. The system is still being stabilized with future plans to expand user context tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 723.2,
+      "t_end": 802.2,
+      "is_demoed": false,
+      "caveats": [
+        "Still being stabilized",
+        "Navigation patterns and intent detection still under design",
+        "Future plans to expand beyond current version"
+      ],
+      "tags": [
+        "user-intent",
+        "roadmap",
+        "future-enhancement",
+        "navigation patterns",
+        "intent detection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "External Data Integration for Summarization",
+      "description": "A planned future enhancement to integrate external data sources like LinkedIn or OneDrive alongside Business Central database data for enriched summarization context.",
+      "status": "announced",
+      "status_evidence_t": 827,
+      "status_evidence_quote": "Right now all the sources that I mentioned are coming from the business central database itself but we could easily think of uh you",
+      "status_evidence_verified": true,
+      "t_start": 814.6,
+      "t_end": 857,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in planning stage only",
+        "Would require integration with external systems",
+        "Conceptual discussion of possibilities"
+      ],
+      "tags": [
+        "external-data",
+        "roadmap",
+        "integration",
+        "future",
+        "external data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Harm testing for AI responses",
+      "description": "Testing methodology that uses an LLM to verify AI responses do not contain harmful content against a defined set of harms available in Azure AI Foundry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1054.4,
+      "t_end": 1118.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires defined list of harms",
+        "Uses LLM to perform the testing"
+      ],
+      "tags": [
+        "testing",
+        "harm detection",
+        "safety",
+        "azure ai foundry"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Accuracy and grounding testing",
+      "description": "Testing approach to ensure AI is not hallucinating and is grounded in the provided input data. Applied at code level, data input level, and prompt level. Uses function calling to make output structure deterministic by requiring each insight reference source data IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1139.9,
+      "t_end": 1239.8,
+      "is_demoed": false,
+      "caveats": [
+        "Grounding can be applied at multiple levels",
+        "Requires careful data filtering and prompt engineering"
+      ],
+      "tags": [
+        "grounding",
+        "hallucination prevention",
+        "accuracy testing",
+        "function calling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Functional testing for summarization",
+      "description": "Testing approach that involves LLM to verify summaries contain expected insights based on role and scenario. Creates large test datasets with multiple roles and scenarios, then uses prompted evaluation to verify relevant insights appear.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1239.8,
+      "t_end": 1374.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires comprehensive test datasets",
+        "Involves multiple quality metrics beyond single pass-fail criteria"
+      ],
+      "tags": [
+        "functional testing",
+        "test datasets",
+        "role-based scenarios",
+        "llm evaluation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Summary quality metrics",
+      "description": "Multiple metrics defined to measure summary quality including presence of expected insights, certainty, brevity, and precision. Precision measures consistency of form and style across regenerations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1324.3,
+      "t_end": 1374.4,
+      "is_demoed": false,
+      "caveats": [
+        "No single right answer for quality",
+        "Requires iterative refinement with customer feedback"
+      ],
+      "tags": [
+        "quality metrics",
+        "precision",
+        "brevity",
+        "consistency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Experimentation framework for AI features",
+      "description": "Capability to run experiments testing different prompts on a small population of users to measure outcomes and verify if changes produce better results before wider rollout. Summarization identified as candidate for experiments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1396.7,
+      "t_end": 1437.2,
+      "is_demoed": false,
+      "caveats": [
+        "Full details not yet disclosed",
+        "Subject of future episode"
+      ],
+      "tags": [
+        "experimentation",
+        "a/b testing",
+        "prompt variations"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GPT-4o model usage for ground checks",
+      "description": "Previous model used for summarization ground checks and related tasks before migration to newer models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1499.3,
+      "t_end": 1519.3,
+      "is_demoed": false,
+      "caveats": [
+        "Being phased out in favor of GPT-4o mini"
+      ],
+      "tags": [
+        "model",
+        "gpt-4o",
+        "ground checks"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GPT-4o mini model adoption",
+      "description": "Small language model that is performant and faster than larger models. Used for summarization feature to provide results in a couple of seconds. All ground checks and related prompts have been migrated from GPT-4o to GPT-4o mini.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1519.3,
+      "t_end": 1556,
+      "is_demoed": false,
+      "caveats": [
+        "Still relatively large models requiring significant hardware",
+        "Some prompts may benefit from larger models with better reasoning capabilities"
+      ],
+      "tags": [
+        "model selection",
+        "gpt-4o mini",
+        "performance",
+        "small language models"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Model reasoning and selection strategy",
+      "description": "Approach to selecting models based on feature needs. Acknowledges that scoring and reasoning parts of summarization might benefit from different models like GPT-4o1 with better reasoning capabilities, while maintaining flexibility to experiment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1556,
+      "t_end": 1627,
+      "is_demoed": false,
+      "caveats": [
+        "No definitive right answer yet",
+        "Still experimenting with newer models",
+        "Trade-offs between different model capabilities"
+      ],
+      "tags": [
+        "model selection",
+        "reasoning",
+        "gpt-o1",
+        "experimentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Small language model advantages and trade-offs",
+      "description": "Small language models offer cost advantages and performance benefits over larger models. However, they require maintenance and present trade-offs between using existing models versus maintaining custom models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1647.2,
+      "t_end": 1669,
+      "is_demoed": false,
+      "caveats": [
+        "Require ongoing maintenance",
+        "Trade-offs between cost and resource investment"
+      ],
+      "tags": [
+        "model economics",
+        "cost",
+        "maintenance",
+        "trade-offs"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Summarization with multiple model support",
+      "description": "The summarization feature can use different AI models depending on the feature need. Different prompts may benefit from different models - for example, the scoring part could use models with better reasoning capabilities than 4.1 mini.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1576,
+      "t_end": 1605,
+      "is_demoed": false,
+      "caveats": [
+        "Response time increases with more capable models",
+        "Different models have different cost implications"
+      ],
+      "tags": [
+        "model-selection",
+        "llm",
+        "cost",
+        "performance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Summarization with custom entities",
+      "description": "Summarization works out of the box with custom entities. Developers can influence summarization performance through metadata, fact boxes, and descriptive captions and tooltips.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1684.5,
+      "t_end": 1750,
+      "is_demoed": false,
+      "caveats": [
+        "Not directly extensible from AL yet - developers cannot provide more data sources or override summary text directly",
+        "Limited control over summary behavior at this time"
+      ],
+      "tags": [
+        "custom-entities",
+        "extensibility",
+        "metadata",
+        "fact-boxes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Summary metadata and AI context improvements",
+      "description": "Developers can improve summarization by defining custom entities with better metadata, adding fact boxes for more data sources, and providing clear tooltips, captions and descriptive text that help LLMs understand the entity context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1712.5,
+      "t_end": 1765.7,
+      "is_demoed": false,
+      "caveats": [
+        "Developers must actively maintain this descriptive metadata"
+      ],
+      "tags": [
+        "metadata",
+        "tooltips",
+        "captions",
+        "llm-context",
+        "documentation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Monica",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 103.1,
+      "text": "So summarizing with copilot highlights what's most important and urgent for the user on almost every business central page.",
+      "why_it_matters": "This defines the core purpose and scope of the feature as a widely-applicable capability across Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 152.2,
+      "text": "So summarization with copilot is available on any business central uh single entity pages like card documents or list plus.",
+      "why_it_matters": "Clarifies the exact scope of where the feature is available within the product.",
+      "check": "exact"
+    },
+    {
+      "t": 232.4,
+      "text": "The way we build summarization, it's pretty much a three-step process.",
+      "why_it_matters": "Indicates the technical approach uses a structured multi-step methodology rather than a simple single-prompt approach.",
+      "check": "exact"
+    },
+    {
+      "t": 372.1,
+      "text": "a pipeline of i just did a major category of two but like the first prompt in itself uh we do run it",
+      "why_it_matters": "Explains the performance optimization strategy using parallel processing for multiple data sources.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 476.1,
+      "text": "we filter out only the pages that are named statistics because that's where the aggregated data exist and that's very good for summarization",
+      "why_it_matters": "Reveals a key design decision to use statistics pages specifically for better performance and effectiveness.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 531.2,
+      "text": "So we started with sending pretty much uh all the ledger entries and all and we soon realized uh it's not very performant cuz",
+      "why_it_matters": "Demonstrates the evolution from naive approach to optimized solution based on performance testing.",
+      "check": "exact"
+    },
+    {
+      "t": 814.6,
+      "text": "Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of",
+      "why_it_matters": "Indicates the feature is still in stabilization phase and has clear future expansion plans for user and data context tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 857,
+      "text": "There's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.",
+      "why_it_matters": "Provides telemetry-based evidence that the default summary insights are sufficient for most users.",
+      "check": "exact"
+    },
+    {
+      "t": 857,
+      "text": "So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show",
+      "why_it_matters": "Demonstrates strong adoption of the summarize feature but lower engagement with expanded insights, suggesting the initial summary is sufficient for most users.",
+      "check": "exact"
+    },
+    {
+      "t": 974.2,
+      "text": "what I learned more is that tests are super super important especially because you change one line of prompt and the response could be",
+      "why_it_matters": "Highlights critical AI development principle that testing is essential due to non-deterministic nature of LLM responses to prompt changes.",
+      "check": "exact"
+    },
+    {
+      "t": 1129.6,
+      "text": "Uh definitely one of the new things about uh testing with AI features is that you use AI to test AI features.",
+      "why_it_matters": "Describes innovative testing approach where LLMs evaluate other LLM outputs, a fundamental shift from traditional testing methodologies.",
+      "check": "exact"
+    },
+    {
+      "t": 1287,
+      "text": "So we came up with some tremendous large test data set containing multiple roles and multiple scenarios with different entities. uh some for example",
+      "why_it_matters": "Shows the scale and specificity of test data needed for functional testing of AI-driven features across different business scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1556,
+      "text": "Uh it depends on the need of the feature, right? Definitely. uh for for summarization specifically um we believe that 41 mini is enough",
+      "why_it_matters": "Justifies model selection based on performance requirements and cost efficiency rather than always using largest models.",
+      "check": "exact"
+    },
+    {
+      "t": 1590.4,
+      "text": "Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they",
+      "why_it_matters": "Demonstrates that model choice is feature-specific and different prompts benefit from different model capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1627,
+      "text": "definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your",
+      "why_it_matters": "Provides developer guidance on model selection strategy emphasizing the need to experiment despite initial selection confidence.",
+      "check": "exact"
+    },
+    {
+      "t": 1627,
+      "text": "start with the one that meets the closest with your need of the feature and then yes still even if the you believe this",
+      "why_it_matters": "Provides clear guidance to partners on model selection strategy - start with best fit but always test alternatives.",
+      "check": "exact"
+    },
+    {
+      "t": 1647.2,
+      "text": "Another advantage of small language or small language mod is that they're also cheaper, right? Definitely. Yes. But you need to maintain them yourself.",
+      "why_it_matters": "Highlights the cost-maintenance trade-off between smaller and larger language models.",
+      "check": "exact"
+    },
+    {
+      "t": 1684.5,
+      "text": "so the as i said summarization works ex out of the box with custom entities",
+      "why_it_matters": "States that summarization is generally available and functional for custom entities without additional setup.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1697.2,
+      "text": "Right now it is not directly extensible from AL in the sense that uh they they cannot provide for example more data sources or",
+      "why_it_matters": "Clarifies current limitations of summarization extensibility and indicates this is a planned future enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 1765.7,
+      "text": "as a minimum put good tool tips on the on the pages then you'll get probably a better summary because that",
+      "why_it_matters": "Provides actionable minimum guidance for developers to improve AI feature quality through UI metadata.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1781.5,
+      "text": "think of AI as your co-pilot. There's a reason we call it co-pilot because it is uh one of them, right?",
+      "why_it_matters": "Explains the core philosophy behind the copilot design - as an assistant that handles tedious work while humans make decisions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 723.2,
+      "kind": "other",
+      "text": "In future we do have plans of increasing both the tracks the user context track but also the data context."
+    },
+    {
+      "t": 814.6,
+      "kind": "preview",
+      "text": "we also want to stabilize uh more and more with the current version and and then in future we do have plans of increasing both the tracks the user context track but also the data context"
+    },
+    {
+      "t": 827,
+      "kind": "coming-later",
+      "text": "We could easily think of uh you know integrating with external data be it um data from LinkedIn or any other external sources"
+    },
+    {
+      "t": 1417,
+      "kind": "coming-later",
+      "text": "we're working um uh on doing what we call experimentation. I don't want to tell much about it because that's that could be a subject an entire an entire episode"
+    },
+    {
+      "t": 1590.4,
+      "kind": "preview",
+      "text": "Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they might have better reasoning capabilities and we are still figuring out"
+    },
+    {
+      "t": 1697.2,
+      "kind": "coming-later",
+      "text": "Right now it is not directly extensible from AL in the sense that uh they they cannot provide for example more data sources or they cannot override the text that they see in the summary in one way or another yet but we are working on it."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 17
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0472526
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.06242639999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012576
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033313999999999996
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "video_id": "i-MTLNYwA9o",
+  "item_id": "video/yt-microsoft/i-MTLNYwA9o",
+  "title": "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)",
+  "duration_s": 421,
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "energy tracking",
+    "esg compliance",
+    "csrd regulations",
+    "sustainability journal",
+    "emissions reporting",
+    "energy sources",
+    "kilowatt hours",
+    "sustainability accounts"
+  ],
+  "chapters": [
+    {
+      "title": "Why Energy Tracking Matters for ESG Compliance",
+      "t_start": 0,
+      "t_end": 72
+    },
+    {
+      "title": "Energy Consumption Tracking: Fields and Sources",
+      "t_start": 72,
+      "t_end": 147.4
+    },
+    {
+      "title": "Energy Source Setup and Mandatory Requirements",
+      "t_start": 147.4,
+      "t_end": 237.2
+    },
+    {
+      "title": "Posting Rules for Energy and Emissions",
+      "t_start": 237.2,
+      "t_end": 276
+    },
+    {
+      "title": "Live Demo: Setting Up and Posting Energy Data",
+      "t_start": 276,
+      "t_end": 375.3
+    },
+    {
+      "title": "Resources and Closing",
+      "t_start": 375.3,
+      "t_end": 421
+    }
+  ],
+  "features": [
+    {
+      "name": "Energy Consumption Tracking",
+      "description": "New capability to track energy consumption in kilowatt hours from sustainability journal or purchase documents. Users can enter values based on actual consumption or use default values for energy sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.4,
+      "t_end": 109.4,
+      "is_demoed": true,
+      "caveats": [
+        "Energy source values can be set as defaults at sustainability account subcategory level, not account level"
+      ],
+      "tags": [
+        "energy",
+        "sustainability",
+        "kilowatt hours",
+        "consumption"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Energy Source Selection",
+      "description": "Allows users to choose energy source information including nuclear, solar, wind, power, coal or other sources. Can be configured to require energy value entry or set as optional.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.2,
+      "t_end": 161.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured at sustainability account subcategory level"
+      ],
+      "tags": [
+        "energy source",
+        "configuration",
+        "setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Energy Value Required Field",
+      "description": "Boolean field that can be set at sustainability account subcategory level to enforce mandatory energy value entry before posting documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 184.3,
+      "t_end": 216.5,
+      "is_demoed": true,
+      "caveats": [
+        "Can be overridden if renewable energy field is also true"
+      ],
+      "tags": [
+        "validation",
+        "mandatory field",
+        "posting control"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "On-Site Energy Generation Tracking",
+      "description": "Field to specify whether energy source generation is on-site or not. Existing field in the system that can now be used in energy tracking workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.8,
+      "t_end": 172.2,
+      "is_demoed": false,
+      "caveats": [
+        "This is not a new field, it was already in the system"
+      ],
+      "tags": [
+        "on-site generation",
+        "energy source"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Renewable Energy Field",
+      "description": "Boolean field to mark whether energy is from renewable sources. Can override energy value requirements when set to true.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.2,
+      "t_end": 184.3,
+      "is_demoed": true,
+      "caveats": [
+        "Field existed from early beginning of sustainability module"
+      ],
+      "tags": [
+        "renewable energy",
+        "boolean field"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Energy Posting Without Emissions",
+      "description": "Allows posting energy consumption data even when emission values are not yet entered, enabling separate workflows for energy and emissions tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.2,
+      "t_end": 263,
+      "is_demoed": false,
+      "caveats": [
+        "Only possible if energy value was previously entered"
+      ],
+      "tags": [
+        "posting rules",
+        "emissions",
+        "decoupled tracking"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Account Subcategory",
+      "t": 109.4
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Hub",
+      "t": 276
+    },
+    {
+      "type": "page",
+      "name": "Chart of Sustainability Accounts",
+      "t": 276
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Journal",
+      "t": 329.2
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Ledger Entries",
+      "t": 363.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Jacob Pang",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.3,
+      "text": "Because of many of uh regulations, for example, CSRD and other require to report energy as well.",
+      "why_it_matters": "Explains the regulatory driver behind the energy tracking feature for ESG compliance",
+      "check": "exact"
+    },
+    {
+      "t": 84.4,
+      "text": "You can take track check your energy consumptions in kilowatt hours from sustainability journal or from purchase documents.",
+      "why_it_matters": "Defines the primary data entry points for energy tracking in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 147.4,
+      "text": "if you you can if you choose to enable energy value required you cannot post document without that.",
+      "why_it_matters": "Clarifies the enforcement mechanism for mandatory energy data entry",
+      "check": "exact"
+    },
+    {
+      "t": 194.5,
+      "text": "renewable energy is false in this case energy consumptions must have value in sustainability journal approaches documents",
+      "why_it_matters": "Explains the posting rules when energy is not renewable",
+      "check": "fuzzy"
+    },
+    {
+      "t": 237.2,
+      "text": "post energy consump consumption even when emission do not have a value in general without enabling",
+      "why_it_matters": "Shows that energy and emissions tracking can be decoupled for flexible workflows",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.5,
+      "kind": "subject-to-change",
+      "text": "Business Central launch edition 2025 release wave 2"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020086
+    }
+  ]
+}

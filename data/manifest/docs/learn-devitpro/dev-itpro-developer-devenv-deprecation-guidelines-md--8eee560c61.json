@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines",
   "published_at": "2026-06-02T11:41:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91c9e4c0be09f77234ae4b78ea43721f7ca6558b",
       "words": 397,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:25:01.102Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008074
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:01.109Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:01.111Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:25:01.112Z",
+      "page": false
     }
   },
   "input_hash": "91c9e4c0be09f77234ae4b78ea43721f7ca6558b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91c9e4c0be09f77234ae4b78ea43721f7ca6558b"
+  "output_hash": "6fc7ee6c45067b4361753defd747f93869bad273ce9d65f0545ff6cbaa802ce4"
 }

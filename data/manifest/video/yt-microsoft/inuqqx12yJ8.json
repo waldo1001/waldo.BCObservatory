@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=inuqqx12yJ8",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:24:54.630Z",
+      "path": "data/extract/video/inuqqx12yJ8.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 5,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020857
+    },
+    "summarized": {
+      "at": "2026-10-06T18:25:03.165Z",
+      "path": "data/summary/video/inuqqx12yJ8.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0143964
+    },
+    "linked": {
+      "at": "2026-10-06T18:25:03.167Z",
+      "systems": [
+        "integration",
+        "sales"
+      ],
+      "topics": 8,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T18:25:03.178Z",
+      "path": "content/videos/inuqqx12yJ8.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in Shopify Connector： Point of Sale (2025 release wave 2) [inuqqx12yJ8].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "26831da3833aca19870d9f89e7bfcb913c8ec2bc5b79b8c935064984e2ac46a1"
 }

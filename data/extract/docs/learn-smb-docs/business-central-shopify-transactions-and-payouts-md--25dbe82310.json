@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/transactions-and-payouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/transactions-and-payouts",
+  "title": "Synchronize transactions and payouts",
+  "blob": "49631c2047d8ae8f825baade89e516a1d2b2d7e1",
+  "summary": "Synchronize transactions and payouts describes how to manage Shopify payment transactions, payouts, and payment method mapping in Business Central to reconcile customer payments with bank accounts.",
+  "systems": [
+    "sales",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "shopify",
+    "payments",
+    "transactions",
+    "payouts",
+    "payment reconciliation",
+    "banking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Orders"
+    },
+    {
+      "type": "page",
+      "name": "Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Payouts"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shops"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    }
+  ],
+  "features": [
+    "Shopify Payments",
+    "transaction synchronization",
+    "payout import",
+    "payment method mapping",
+    "payment reconciliation",
+    "customer ledger entries",
+    "bank reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008777,
+      "pages_in_call": 3
+    }
+  ]
+}

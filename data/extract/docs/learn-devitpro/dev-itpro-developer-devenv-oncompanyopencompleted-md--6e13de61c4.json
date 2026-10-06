@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-oncompanyopencompleted.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncompanyopencompleted",
+  "title": "Moving from OnCompanyOpen",
+  "blob": "807439275c1211d9f7ff3959c449f16e58939e72",
+  "summary": "Moving from OnCompanyOpen explains how to migrate event subscribers from the obsolete OnCompanyOpen event to the newer OnAfterLogin isolated event to prevent sign-in failures from subscriber errors.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "events",
+    "isolated events",
+    "sign-in",
+    "onafterlogin",
+    "event subscribers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Company Triggers"
+    },
+    {
+      "type": "codeunit",
+      "name": "System Initialization"
+    }
+  ],
+  "features": [
+    "OnAfterLogin event",
+    "OnCompanyOpenCompleted event",
+    "isolated events",
+    "error handling during sign-in"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008777,
+      "pages_in_call": 3
+    }
+  ]
+}

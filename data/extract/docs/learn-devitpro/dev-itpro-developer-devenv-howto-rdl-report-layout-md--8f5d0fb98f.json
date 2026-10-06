@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-howto-rdl-report-layout.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout",
+  "title": "Creating an RDL layout report",
+  "blob": "a38bdac21dc7162456b71a2d23c2050d0d087789",
+  "summary": "Guide to creating RDL layout reports in Business Central, including dataset and layout design using SQL Server Report Builder. Covers report labels, data formatting, and rich text HTML content display in RDL reports.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "rdl reports",
+    "report layout",
+    "dataset design",
+    "report builder",
+    "formatting",
+    "html content",
+    "rich text"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "MyRdlReport"
+    }
+  ],
+  "features": [
+    "RDL layout",
+    "report dataset",
+    "column definition",
+    "data formatting",
+    "HTML content",
+    "report labels",
+    "placeholder properties"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008074,
+      "pages_in_call": 5
+    }
+  ]
+}

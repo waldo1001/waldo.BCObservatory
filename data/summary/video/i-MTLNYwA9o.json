@@ -1,0 +1,27 @@
+{
+  "video_id": "i-MTLNYwA9o",
+  "item_id": "video/yt-microsoft/i-MTLNYwA9o",
+  "summary": "Energy consumption tracking in Business Central Sustainability (2025 release wave 2): recording kilowatt hours from the sustainability journal or purchase documents, with energy source defaults and required-value rules set on the sustainability account subcategory. Includes a live demo of setup and posting.",
+  "overview": "The video explains why energy tracking matters for ESG compliance, noting that regulations such as CSRD require energy reporting. It then covers the new fields and sources for recording energy consumption in kilowatt hours, either from actual consumption or from default values for an energy source.\n\nIt walks through setting up energy sources and the mandatory-entry rules, the posting rules for energy and emissions, and a live demo of setup and posting. The content is subject to change, as stated in the launch edition 2025 release wave 2 disclaimer.",
+  "key_points": [
+    "Energy consumption in kilowatt hours can be tracked from the sustainability journal or from purchase documents.",
+    "Energy source choices include nuclear, solar, wind, power, coal or other sources, and default values are set at sustainability account subcategory level, not account level.",
+    "The Energy Value Required boolean on the sustainability account subcategory blocks posting a document without an energy value.",
+    "If the Renewable Energy field is true, the energy value requirement can be overridden; that field has existed since early in the sustainability module.",
+    "The on-site generation field is not new; it was already in the system.",
+    "Energy can be posted before emission values are entered, but only if an energy value was entered first.",
+    "Objects shown include the Sustainability Account Subcategory table and the Sustainability Journal and Sustainability Ledger Entries pages."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "c25f699ac3f8bdd037cd889399d0ea259b78667297e5d7f306b0012d275d7d21",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0136684
+  }
+}

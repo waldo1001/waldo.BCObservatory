@@ -1,0 +1,115 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extend-edocuments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments",
+  "title": "Extending the e-documents functionality",
+  "blob": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a",
+  "summary": "Framework and interfaces for extending e-documents functionality in Business Central, including document format creation, service integration, and API communication patterns. Designed for localization apps and ISV extensions to add custom e-document services and formats.",
+  "systems": [
+    "integration",
+    "localization",
+    "development"
+  ],
+  "topics": [
+    "e-documents",
+    "document formats",
+    "service integration",
+    "api",
+    "localization",
+    "extension framework",
+    "document processing"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "E-Document"
+    },
+    {
+      "type": "interface",
+      "name": "IDocumentSender"
+    },
+    {
+      "type": "interface",
+      "name": "IDocumentResponseHandler"
+    },
+    {
+      "type": "interface",
+      "name": "IDocumentReceiver"
+    },
+    {
+      "type": "interface",
+      "name": "ISentDocumentActions"
+    },
+    {
+      "type": "interface",
+      "name": "IDocumentAction"
+    },
+    {
+      "type": "codeunit",
+      "name": "E-Document Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "E-Document Error Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "E-Document Import Helper"
+    },
+    {
+      "type": "table",
+      "name": "E-Document"
+    },
+    {
+      "type": "table",
+      "name": "E-Document Service"
+    },
+    {
+      "type": "table",
+      "name": "E-Document Log"
+    },
+    {
+      "type": "enum",
+      "name": "E-Document Format"
+    },
+    {
+      "type": "enum",
+      "name": "Service Integration"
+    },
+    {
+      "type": "enum",
+      "name": "E-Document Type"
+    },
+    {
+      "type": "enum",
+      "name": "E-Document Processing Phase"
+    },
+    {
+      "type": "enum",
+      "name": "Integration Action Type"
+    }
+  ],
+  "features": [
+    "document format creation",
+    "service integration",
+    "async sending",
+    "batch processing",
+    "response handling",
+    "document receiving",
+    "approval status",
+    "cancellation status",
+    "document actions"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008074,
+      "pages_in_call": 5
+    }
+  ]
+}

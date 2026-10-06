@@ -1,0 +1,257 @@
+{
+  "video_id": "inuqqx12yJ8",
+  "item_id": "video/yt-microsoft/inuqqx12yJ8",
+  "title": "What's New in Shopify Connector: Point of Sale (2025 release wave 2)",
+  "duration_s": 520,
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "shopify pos",
+    "point of sale",
+    "cash rounding",
+    "employee tracking",
+    "salesperson mapping",
+    "shopify connector",
+    "payment methods",
+    "order synchronization"
+  ],
+  "chapters": [
+    {
+      "title": "Why in-person shopping matters",
+      "t_start": 0,
+      "t_end": 61.9
+    },
+    {
+      "title": "Introduction to Shopify POS",
+      "t_start": 61.9,
+      "t_end": 104.9
+    },
+    {
+      "title": "POS integration with Business Central and employee tracking",
+      "t_start": 104.9,
+      "t_end": 153.2
+    },
+    {
+      "title": "Cash rounding in POS transactions",
+      "t_start": 153.2,
+      "t_end": 214.7
+    },
+    {
+      "title": "Demo: Creating and viewing a POS transaction",
+      "t_start": 214.7,
+      "t_end": 289.7
+    },
+    {
+      "title": "Demo: Importing orders and configuring cash rounding",
+      "t_start": 289.7,
+      "t_end": 375.2
+    },
+    {
+      "title": "Demo: Salesperson mapping from POS to Business Central",
+      "t_start": 375.2,
+      "t_end": 453.8
+    },
+    {
+      "title": "Pricing and future capabilities",
+      "t_start": 453.8,
+      "t_end": 520
+    }
+  ],
+  "features": [
+    {
+      "name": "Shopify POS integration with Business Central",
+      "description": "Shopify POS transactions are integrated into Shopify admin as normal sales orders and can be imported into Business Central as sales documents or invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.9,
+      "t_end": 127.9,
+      "is_demoed": true,
+      "caveats": [
+        "POS orders have specific nuances related to rounding and employee tracking",
+        "Orders must be properly configured for import"
+      ],
+      "tags": [
+        "shopify",
+        "pos",
+        "order import",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cash rounding for POS transactions",
+      "description": "Automatic cash rounding applied to POS transactions in countries like Denmark and Canada where the smallest coin value requires rounding. Shopify POS handles this automatically and tracks the rounding difference.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.9,
+      "t_end": 214.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies in countries with cash rounding requirements",
+        "Rounding account must be configured in Business Central"
+      ],
+      "tags": [
+        "cash rounding",
+        "payment",
+        "localization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Staff members mapping for employee tracking",
+      "description": "New mapping table that maps Shopify POS staff members to Business Central salesperson codes. When a POS order is imported, the system automatically assigns the correct salesperson based on who performed the transaction in Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 438.6,
+      "t_end": 482.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires staff members to be registered in Shopify",
+        "Mapping must be configured"
+      ],
+      "tags": [
+        "employee tracking",
+        "salesperson",
+        "staff mapping"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Payment routing amount field",
+      "description": "New field on imported POS orders that tracks the payment method and routing information from Shopify POS transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312.4,
+      "t_end": 334.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment",
+        "field"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Cash rounding account configuration",
+      "description": "New field on the order synchronization and processing tab in Shopify shop setup to specify which G/L account should receive the cash rounding difference when POS transactions are imported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.8,
+      "t_end": 375.2,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured before creating sales documents from POS orders"
+      ],
+      "tags": [
+        "cash rounding",
+        "setup",
+        "configuration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Catalog and market-based pricing for POS",
+      "description": "New market feature allowing creation of catalogs associated with specific markets representing POS locations in specific countries or combinations, enabling impact on how pricing is defined.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 482.2,
+      "t_end": 513.8,
+      "is_demoed": false,
+      "caveats": [
+        "Details to be covered in a separate video"
+      ],
+      "tags": [
+        "pricing",
+        "catalog",
+        "market"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "staff members mapping",
+      "t": 453.8
+    },
+    {
+      "type": "other",
+      "name": "Shopify shops",
+      "t": 289.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 61.9,
+      "text": "shopify pos point of sale which allows people in store to perform transactions",
+      "why_it_matters": "Defines the core capability of Shopify POS as a solution for in-store transactions and payment processing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 104.9,
+      "text": "all transactions sales transactions performed on Shopify POS are integrated into Shopify admin store as a normal sales order",
+      "why_it_matters": "Establishes that POS transactions integrate seamlessly with Shopify and can be imported to Business Central as standard orders.",
+      "check": "exact"
+    },
+    {
+      "t": 138.6,
+      "text": "usually there is a person who performs a sales transaction. So you want to track your employees performance",
+      "why_it_matters": "Explains the motivation for employee tracking and salesperson mapping in POS transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 345.8,
+      "text": "cash rounding account is missing. Correct. We need to put this difference somewhere",
+      "why_it_matters": "Demonstrates that cash rounding requires explicit G/L account configuration to handle the rounding difference.",
+      "check": "exact"
+    },
+    {
+      "t": 453.8,
+      "text": "we have a new field or new mapping table which is called staff members mapping and",
+      "why_it_matters": "Introduces the staff members mapping feature that automatically assigns salesperson codes based on Shopify POS staff.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 502.4,
+      "kind": "coming-later",
+      "text": "about this one in the next video"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020857
+    }
+  ]
+}

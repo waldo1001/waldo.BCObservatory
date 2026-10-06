@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-deprecation-guidelines.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines",
+  "title": "Best Practices for Deprecation of AL Code",
+  "blob": "91c9e4c0be09f77234ae4b78ea43721f7ca6558b",
+  "summary": "Best practices for deprecating AL code in Business Central using preprocessor statements and obsolete attributes. Describes how Microsoft obsoletes code in the Base App and provides guidance for developers to follow similar patterns.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code deprecation",
+    "obsolete objects",
+    "preprocessor symbols",
+    "al development",
+    "clean version",
+    "backwards compatibility"
+  ],
+  "objects": [],
+  "features": [
+    "CLEAN version symbols",
+    "ObsoleteState property",
+    "ObsoleteTag property",
+    "ObsoleteReason property",
+    "preprocessor directives"
+  ],
+  "versions": [
+    "CLEAN15",
+    "CLEAN16",
+    "CLEAN17",
+    "CLEAN18"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008074,
+      "pages_in_call": 5
+    }
+  ]
+}

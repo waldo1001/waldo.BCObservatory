@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=4nFViDASGhg",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:24:21.991Z",
+      "path": "data/extract/video/4nFViDASGhg.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 10,
+      "quotes": 11,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.080999
+    },
+    "summarized": {
+      "at": "2026-10-06T18:24:28.815Z",
+      "path": "data/summary/video/4nFViDASGhg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0178724
+    },
+    "linked": {
+      "at": "2026-10-06T18:24:28.817Z",
+      "systems": [
+        "sales",
+        "copilot"
+      ],
+      "topics": 12,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:24:28.829Z",
+      "path": "content/videos/4nFViDASGhg.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Sales Order Agent Enhancements (2025 release wave 2) [4nFViDASGhg].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "6977a78eb6d05c6fdcb0264a14899ff3b01b78d313df0730abde55f5ff01052d"
 }
