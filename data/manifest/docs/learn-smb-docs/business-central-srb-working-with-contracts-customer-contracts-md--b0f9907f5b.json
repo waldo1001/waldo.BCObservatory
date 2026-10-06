@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/customer-contracts",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "820d30ceda212443a2e9d6d7eba79aab2bced1d6",
       "words": 2385,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:29.527Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.006603
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:43.137Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:43.139Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:43.140Z",
+      "page": false
     }
   },
   "input_hash": "820d30ceda212443a2e9d6d7eba79aab2bced1d6",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "820d30ceda212443a2e9d6d7eba79aab2bced1d6"
+  "output_hash": "4425601c0433bb09e849451183257a498e74e985bdd68466adebd6aa3e95e5d6"
 }

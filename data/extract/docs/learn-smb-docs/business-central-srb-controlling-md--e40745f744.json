@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/controlling.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/controlling",
+  "title": "Controlling",
+  "blob": "1672e7b105bd8a5ef7d120746ea144cdfd41b5eb",
+  "summary": "Controlling describes dimension management for customer subscription contracts, subscription lines, and related documents in subscription billing. Use this to configure automatic dimension creation and understand how dimensions flow through contracts and billing documents.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "controlling",
+    "dimensions",
+    "subscription contracts",
+    "subscription lines",
+    "recurring billing",
+    "contract deferrals",
+    "archived billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract Line"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract Line"
+    },
+    {
+      "type": "page",
+      "name": "Subscription"
+    },
+    {
+      "type": "page",
+      "name": "Sales Subscription Lines"
+    },
+    {
+      "type": "page",
+      "name": "Recurring Billing"
+    },
+    {
+      "type": "page",
+      "name": "Contract Deferrals"
+    },
+    {
+      "type": "page",
+      "name": "Archived Billing Lines"
+    }
+  ],
+  "features": [
+    "automatic dimension creation",
+    "dimension values",
+    "dimension inheritance",
+    "dimension transfer",
+    "dimension conflicts",
+    "dimension updates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006603,
+      "pages_in_call": 3
+    }
+  ]
+}

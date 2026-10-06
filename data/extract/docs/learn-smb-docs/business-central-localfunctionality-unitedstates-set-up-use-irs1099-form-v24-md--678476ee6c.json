@@ -1,0 +1,83 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24",
+  "title": "Set up IRS 1099 forms",
+  "blob": "4d2d8d3a08423e8c37a0aeec2e20d1a7c5e1399f",
+  "summary": "Set up and manage IRS 1099 tax forms in Business Central for US vendor tax reporting, including reporting periods, form configuration, vendor setup, and electronic filing.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "1099 forms",
+    "tax reporting",
+    "irs",
+    "united states",
+    "vendor payments",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "IRS Forms Setup"
+    },
+    {
+      "type": "page",
+      "name": "IRS Reporting Periods"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Forms"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Form Boxes"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Vendor Form Box Setup"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Form Documents"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Form Statement"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Form Instructions"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Suggest Vendors"
+    }
+  ],
+  "features": [
+    "1099 form setup",
+    "reporting periods",
+    "form box configuration",
+    "vendor mapping",
+    "TIN protection",
+    "electronic filing",
+    "form statements",
+    "copy setup across companies"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009844,
+      "pages_in_call": 5
+    }
+  ]
+}

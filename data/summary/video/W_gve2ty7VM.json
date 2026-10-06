@@ -1,0 +1,26 @@
+{
+  "video_id": "W_gve2ty7VM",
+  "item_id": "video/yt-microsoft/W_gve2ty7VM",
+  "summary": "AL-Go for GitHub security changes in 2025 release wave 1: Azure Trusted Signing, GitHub App authentication, secrets for install apps, and multi-branch updates of AL-Go system files (version 6.4). Also covers a deprecations website. Evidence for setup steps and limits.",
+  "overview": "The video walks through security-related changes in AL-Go for GitHub. It starts with a website that lists upcoming deprecations, including changes that stop working after October 1st and build warnings for deprecated features.\n\nIt then covers Azure Trusted Signing, which removes manual certificate rotation and secret storage for code signing. It also covers GitHub App authentication, which uses short-lived tokens in place of personal access tokens, and storing install app URLs and SAS tokens in GitHub secrets. It ends with a demo of updating AL-Go system files on multiple branches, added in version 6.4.",
+  "key_points": [
+    "Azure Trusted Signing removes manual certificate rotation and secret storage for signing. Setup needs an Azure account, identity validation, a certificate profile, a managed identity, federated credentials and trusted signing settings in the GitHub repository.",
+    "Identity validation is described as the hardest step of the Azure Trusted Signing setup.",
+    "GitHub App authentication uses an app ID and private key to create short-lived access tokens (typically about an hour), scoped to specific permissions and organizations, with no user impersonation.",
+    "GitHub App authentication does not work with GitHub Packages. A personal access token with packages reader permission is the workaround.",
+    "Install app URLs and SAS tokens can be stored in GitHub secrets, so they are not in plain text in source code or logs.",
+    "Version 6.4 can update AL-Go system files on multiple branches. A new workflow schedule setting takes a cron schedule and a list of branches.",
+    "GitHub does not allow scheduling for multiple branches that are not the default branch. Features in release notes without a version number have not been released yet."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "c3ef530e9f5987b6330b3f31f30ca77290e5c2181d5d4b4b6743a2fa280e7101",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.026724
+  }
+}

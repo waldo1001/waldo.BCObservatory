@@ -1,0 +1,90 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/customer-contracts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/customer-contracts",
+  "title": "Customer subscription contracts",
+  "blob": "820d30ceda212443a2e9d6d7eba79aab2bced1d6",
+  "summary": "Customer subscription contracts represent obligations to customers with similar structure to sales orders, containing billing information and shipping/billing address details. Use this to create and manage recurring billing contracts with customers, assign subscription lines, and generate contract invoices.",
+  "systems": [
+    "sales",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "customer contracts",
+    "subscription billing",
+    "recurring billing",
+    "invoice creation",
+    "contract management",
+    "dimensions",
+    "harmonized billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Lines without Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Extend Contract"
+    },
+    {
+      "type": "page",
+      "name": "Select Customer Subscription Contract Line"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Contract Types"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Recurring Billing"
+    }
+  ],
+  "features": [
+    "subscription contracts",
+    "contract lines",
+    "shipping and billing addresses",
+    "invoice details",
+    "contract extensions",
+    "invoice discounts",
+    "closed contract lines",
+    "merge subscription lines",
+    "harmonized billing",
+    "contract deferrals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006603,
+      "pages_in_call": 3
+    }
+  ]
+}

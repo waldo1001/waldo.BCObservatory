@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-register-new-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items",
+  "title": "Create item cards for goods or services",
+  "blob": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
+  "summary": "Create and manage item cards for goods or services, including setup of item types, costing methods, pricing, replenishment, variants, and substitutions in Business Central inventory.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "items",
+    "inventory",
+    "item setup",
+    "product management",
+    "costing",
+    "variants",
+    "pricing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Template"
+    },
+    {
+      "type": "page",
+      "name": "Item Substitution Entry"
+    },
+    {
+      "type": "page",
+      "name": "Sales Prices"
+    },
+    {
+      "type": "page",
+      "name": "Item Vendor Catalog"
+    },
+    {
+      "type": "page",
+      "name": "Default Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "Average Cost Calc. Overview"
+    }
+  ],
+  "features": [
+    "item types",
+    "costing methods",
+    "item templates",
+    "item substitutions",
+    "pricing and discounts",
+    "vendor management",
+    "inventory tracking",
+    "warehouse management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009844,
+      "pages_in_call": 5
+    }
+  ]
+}

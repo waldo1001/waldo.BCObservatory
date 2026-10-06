@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
       "words": 901,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:29.528Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006603
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:43.141Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:43.142Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:43.143Z",
+      "page": false
     }
   },
   "input_hash": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
@@ -116,5 +135,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b4041fe2610510654bdb2c2e36113040bfcfeea"
+  "output_hash": "5031f8b39679b6ca9e2995145ca781237f0e0fa22cda9b90edd154d85eacba7e"
 }

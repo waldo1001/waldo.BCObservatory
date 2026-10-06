@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a42f69d3012dc01b0970b40919e0f87870cb4229",
       "words": 548,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:29.523Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.009844
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:41.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:41.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:41.406Z",
+      "page": false
     }
   },
   "input_hash": "a42f69d3012dc01b0970b40919e0f87870cb4229",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a42f69d3012dc01b0970b40919e0f87870cb4229"
+  "output_hash": "e81b796e0d6ebad3cca59dbd3b0474c96859018b2224b17161db6bda844f1072"
 }

@@ -1,0 +1,236 @@
+{
+  "video_id": "W_gve2ty7VM",
+  "item_id": "video/yt-microsoft/W_gve2ty7VM",
+  "title": "What's New: AL-Go for GitHub on Security (2025 release wave 1)",
+  "duration_s": 715,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al-go",
+    "github",
+    "azure trusted signing",
+    "github app authentication",
+    "security",
+    "certificate rotation",
+    "secrets management",
+    "multiple branches",
+    "deprecations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Deprecations",
+      "t_start": 0,
+      "t_end": 111
+    },
+    {
+      "title": "Azure Trusted Signing Setup",
+      "t_start": 111,
+      "t_end": 236.1
+    },
+    {
+      "title": "GitHub App Authentication",
+      "t_start": 236.1,
+      "t_end": 496.5
+    },
+    {
+      "title": "Embed Secrets in Install Apps",
+      "t_start": 496.5,
+      "t_end": 606.5
+    },
+    {
+      "title": "Multiple Branches Support and Demo",
+      "t_start": 606.5,
+      "t_end": 715
+    }
+  ],
+  "features": [
+    {
+      "name": "Deprecations Website",
+      "description": "Website explaining features that will be deprecated in the future with changes that will stop working after October 1st and build warnings for deprecated features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.5,
+      "t_end": 65,
+      "is_demoed": false,
+      "caveats": [
+        "Features listed without version numbers in release notes have not been released yet"
+      ],
+      "tags": [
+        "deprecations",
+        "al-go",
+        "release notes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure Trusted Signing Integration",
+      "description": "Integration with Azure Trusted Signing service that eliminates manual certificate rotation and secret storage for code signing. Requires creating an Azure account, identity validation, certificate profile, managed identity, federated credentials, and trusted signing settings in GitHub repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111,
+      "t_end": 236.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires identity validation which is described as the hardest step"
+      ],
+      "tags": [
+        "azure",
+        "code signing",
+        "certificate management",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub App Authentication",
+      "description": "Authentication method using GitHub app ID and private key to create short-lived access tokens instead of personal access tokens. Tokens are scoped to specific permissions and organizations, with no user impersonation. Each access token only has permissions needed for its specific operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 236.1,
+      "t_end": 496.5,
+      "is_demoed": true,
+      "caveats": [
+        "Does not work with GitHub packages feature; personal access token with packages reader permission required as workaround"
+      ],
+      "tags": [
+        "github",
+        "authentication",
+        "security",
+        "access tokens",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Embed Secrets in Install Apps",
+      "description": "Feature that allows storing install app URLs and SAS tokens in GitHub secrets instead of plain text in source code. Enables installing apps without exposing sensitive URLs or tokens in logs or repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 496.5,
+      "t_end": 606.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "secrets management",
+        "install apps",
+        "security",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple Branches Workflow Support",
+      "description": "Capability added in version 6.4 to update AL-Go system files on multiple branches at a time. New workflow schedule setting allows defining cron schedule and list of branches to include when running update workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 606.5,
+      "t_end": 715,
+      "is_demoed": true,
+      "caveats": [
+        "GitHub limitation does not allow scheduling for multiple branches that are not the default branch"
+      ],
+      "tags": [
+        "al-go",
+        "workflow automation",
+        "multiple branches",
+        "scheduling"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Maria Jilelesa",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 125.7,
+      "text": "the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually",
+      "why_it_matters": "Explains the core benefit and design goal of Azure Trusted Signing integration - removing manual certificate management and secret storage",
+      "check": "exact"
+    },
+    {
+      "t": 299.3,
+      "text": "Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not",
+      "why_it_matters": "Describes the fundamental difference between GitHub app authentication and personal access tokens in terms of what credentials are stored",
+      "check": "exact"
+    },
+    {
+      "t": 309.5,
+      "text": "the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour",
+      "why_it_matters": "Specifies the security advantage of GitHub app authentication - short-lived tokens minimize exposure window",
+      "check": "exact"
+    },
+    {
+      "t": 363.7,
+      "text": "There's one scenario that doesn't work. That's GitHub packages",
+      "why_it_matters": "Documents a known limitation of GitHub app authentication requiring workaround",
+      "check": "exact"
+    },
+    {
+      "t": 533.3,
+      "text": "we should not have secrets in clear text. So what we did was we added a feature that enables you to instead of having",
+      "why_it_matters": "Explains security motivation for embed secrets feature - preventing accidental exposure of credentials in source code",
+      "check": "exact"
+    },
+    {
+      "t": 638.9,
+      "text": "And with the latest version 6.4, 4 we actually added the capability to do that to update Ago system files on multiple branches at",
+      "why_it_matters": "Announces new capability in version 6.4 for multi-branch workflow support",
+      "check": "exact"
+    },
+    {
+      "t": 659,
+      "text": "So that's why we added a new setting uh called workflow schedule where you can define your chrome schedule as well as list of",
+      "why_it_matters": "Describes workaround for GitHub limitation by introducing workflow schedule setting",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 83.4,
+      "kind": "preview",
+      "text": "If you'll find like features described on top of version 6.4, they will not be included in version 6.4, meaning that you probably have to run preview or yeah or or or they are not even in preview yet"
+    },
+    {
+      "t": 363.7,
+      "kind": "not-in-this-release",
+      "text": "There's one scenario that doesn't work. That's GitHub packages. So, uh, that's a feature that GitHub is is is missing"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0235953
+    }
+  ]
+}

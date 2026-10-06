@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-kpis",
+  "title": "Purchases KPIs and measures (Power BI)",
+  "blob": "15675892150f35128d7c4928ba8507ffde1ce1bb",
+  "summary": "Reference guide for KPIs and measures in the Power BI Purchases semantic model, including budget variances, purchase amounts, vendor analysis, and period-over-period growth calculations.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "kpi",
+    "power bi",
+    "purchases",
+    "measures",
+    "analytics",
+    "budget",
+    "vendor analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Budget"
+    },
+    {
+      "type": "table",
+      "name": "Item Budget Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Memo Line"
+    }
+  ],
+  "features": [
+    "budget amount variance",
+    "purchase quantity tracking",
+    "vendor spend analysis",
+    "pareto analysis",
+    "moving annual total",
+    "period-over-period growth",
+    "year-over-year comparison",
+    "return rate calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009844,
+      "pages_in_call": 5
+    }
+  ]
+}

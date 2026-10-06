@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-kpis",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "15675892150f35128d7c4928ba8507ffde1ce1bb",
       "words": 3743,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:29.526Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.009844
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:41.413Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:41.414Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:41.414Z",
+      "page": false
     }
   },
   "input_hash": "15675892150f35128d7c4928ba8507ffde1ce1bb",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15675892150f35128d7c4928ba8507ffde1ce1bb"
+  "output_hash": "dbaddbed9fa337f27f527465d4435fa9dc342add5dc7c0d22f86df3bcb8b7b4d"
 }

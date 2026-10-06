@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/FA_Depreciation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation",
+  "title": "FA Depreciation Calculation",
+  "blob": "a42f69d3012dc01b0970b40919e0f87870cb4229",
+  "summary": "Calculate fixed asset depreciation in India using FA blocks, additional depreciation rules, and multiple shift depreciation for manufacturing operations.",
+  "systems": [
+    "fixed-assets",
+    "manufacturing",
+    "localization"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "india",
+    "shift depreciation",
+    "income tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Shift"
+    }
+  ],
+  "features": [
+    "FA block depreciation",
+    "additional depreciation",
+    "shift depreciation",
+    "multiple production shifts",
+    "depreciation book",
+    "depreciation calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009844,
+      "pages_in_call": 5
+    }
+  ]
+}

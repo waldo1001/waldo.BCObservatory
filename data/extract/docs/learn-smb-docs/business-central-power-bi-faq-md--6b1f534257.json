@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/power-bi-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/power-bi-faq",
+  "title": "Power BI FAQ",
+  "blob": "d04a604e1df4e8526ef162e630281e48cf3ec28b",
+  "summary": "Answers common questions about using Power BI with Business Central, covering licensing, data access, report publishing, performance, and troubleshooting for analytics.",
+  "systems": [
+    "reporting",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "power bi",
+    "reporting",
+    "analytics",
+    "licensing",
+    "data access",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Vendor List"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order List"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Company Detail"
+    },
+    {
+      "type": "page",
+      "name": "Intelligent Cloud Insights"
+    }
+  ],
+  "features": [
+    "Power BI integration",
+    "report embedding",
+    "role center reports",
+    "Power BI connector",
+    "web services",
+    "API pages",
+    "data refresh",
+    "Power BI Desktop"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009844,
+      "pages_in_call": 5
+    }
+  ]
+}

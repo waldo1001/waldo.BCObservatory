@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items",
   "published_at": "2026-05-06T01:55:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
       "words": 1432,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:29.522Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.009844
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:29.530Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:29.531Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:29.533Z",
+      "page": false
     }
   },
   "input_hash": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
@@ -118,5 +137,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d2e6bb107a8be6e90fde98abb6809851dd654c9"
+  "output_hash": "e527f97e5bda4bdca4a17860299e0ebe977e23296fb9643541cb7dd0971c9dd2"
 }
