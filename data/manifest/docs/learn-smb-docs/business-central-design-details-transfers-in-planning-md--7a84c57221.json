@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-transfers-in-planning",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3dca480705d568d74c09ed2e7f8692e767a53c1b",
       "words": 1751,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:35.358Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004989
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:38.585Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:38.586Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:38.587Z",
+      "page": false
     }
   },
   "input_hash": "3dca480705d568d74c09ed2e7f8692e767a53c1b",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3dca480705d568d74c09ed2e7f8692e767a53c1b"
+  "output_hash": "112d7d4c776603a9baf3b75777b0fe3c28b2585230850c969b31abd7a7cae165"
 }

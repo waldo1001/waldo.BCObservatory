@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-variance",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "009945d0fa96cfb55266eee3d9fb571ae25959bc",
       "words": 505,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:35.359Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004989
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:38.588Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:38.589Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:38.590Z",
+      "page": false
     }
   },
   "input_hash": "009945d0fa96cfb55266eee3d9fb571ae25959bc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "009945d0fa96cfb55266eee3d9fb571ae25959bc"
+  "output_hash": "169cbf0fbe3da20f12c38ad2660d9ab906b467ad9734665ad6b392dbdd492457"
 }

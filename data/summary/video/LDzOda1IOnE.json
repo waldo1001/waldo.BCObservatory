@@ -1,0 +1,25 @@
+{
+  "video_id": "LDzOda1IOnE",
+  "item_id": "video/yt-microsoft/LDzOda1IOnE",
+  "summary": "Opening Visual Studio Code from the Business Central web client gets three additions in 2025 release wave 1: generating launch configurations, formatting and downloading extension dependencies, and symbol search in VS Code, including use with Copilot. All are demoed.",
+  "overview": "The session recaps the existing ability to open Visual Studio Code from the web client, and the attach option added to Help and Support in 2023 release wave 2 for debugging sandboxes. It then presents three new capabilities that came from feedback.\n\nDemos cover generating launch configurations from Help and Support and Extension Management, selecting extensions and copying or downloading them as dependencies, and searching symbols with Control+T. The last demo shows how symbol search gives Copilot context, for example about the customer table.",
+  "key_points": [
+    "Launch configurations matching the environment can be generated from Help and Support and from Extension Management. The VS Code project's configuration is created or updated without manual parameter editing.",
+    "Publish and attach debugger are only available for sandbox environments. Download symbols and snapshot debug work for both sandbox and production.",
+    "In Extension Management you can select extensions and format them as dependencies. Show and Copy lets you share them across projects.",
+    "Selected dependencies can be downloaded to a VS Code project with one click, so symbols are available right away.",
+    "Control+T (Go to Symbol) in VS Code lists tables, pages and other objects from apps and Microsoft dependencies. It works only where source code is available.",
+    "A special keyword in Copilot chat searches symbols and adds them to context. Copilot can then answer questions about table structures and fields, such as the customer table."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "47abc8f3db1cc921395d62d7a29c2187c1f1f74b5340b6798f6df7573f2f8863",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0132144
+  }
+}

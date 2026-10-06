@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-variance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-variance",
+  "title": "Design details variance",
+  "blob": "009945d0fa96cfb55266eee3d9fb571ae25959bc",
+  "summary": "Variance calculation measures the difference between actual and standard cost, with standard cost fixed at invoice time for purchased items and at cost adjustment for produced items, used to track cost deviations.",
+  "systems": [
+    "finance",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "variance",
+    "standard cost",
+    "actual cost",
+    "costing",
+    "inventory valuation",
+    "cost adjustment"
+  ],
+  "objects": [],
+  "features": [
+    "variance calculation",
+    "standard cost determination",
+    "cost shares",
+    "inventory costing",
+    "produced item costs",
+    "assembled item costs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

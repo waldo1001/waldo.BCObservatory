@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/setup-best-practices-global-planning-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-global-planning-setup",
+  "title": "Best practices for global planning setup",
+  "blob": "0b9442388ae61a7e658ac8a2ef3bb2db59d6976d",
+  "summary": "Global planning setup best practices define inventory and manufacturing planning parameters including forecast usage, dampener settings, and component location defaults to optimize supply planning.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "planning setup",
+    "global parameters",
+    "forecasts",
+    "dampener",
+    "reorder point",
+    "manufacturing setup"
+  ],
+  "objects": [],
+  "features": [
+    "forecast on locations",
+    "forecast on variants",
+    "overflow level",
+    "dampener period",
+    "dampener quantity",
+    "components at location"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

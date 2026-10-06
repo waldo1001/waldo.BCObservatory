@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-table-structure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-table-structure",
+  "title": "Design details - Table structure",
+  "blob": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5",
+  "summary": "Table structure for dimension sets includes Dimension Set Entry and Dimension Set Tree Node tables, with Dimension Set ID field 480 appearing across many transaction, ledger, and document tables as editable or non-editable.",
+  "systems": [
+    "finance",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "dimension sets",
+    "table structure",
+    "dimension set id",
+    "ledger entries",
+    "dimension entries"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Set Tree Node"
+    },
+    {
+      "type": "table",
+      "name": "Reclas. Dimension Set Buffer"
+    }
+  ],
+  "features": [
+    "dimension set storage",
+    "read-only tables",
+    "editable dimension fields",
+    "buffer tables"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

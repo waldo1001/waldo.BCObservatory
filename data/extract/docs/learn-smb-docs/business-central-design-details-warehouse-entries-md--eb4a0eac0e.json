@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-warehouse-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-entries",
+  "title": "Design details - Creating warehouse entries",
+  "blob": "5fdfade36d904389caa7aec36f2f172335ac9656",
+  "summary": "Warehouse entries track item movements within warehouses, created by transactions and linked to warehouse registers; concurrent posting feature key controls whether entry numbers are sequential or concurrent.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse entries",
+    "warehouse registers",
+    "item movements",
+    "concurrent posting",
+    "feature key"
+  ],
+  "objects": [],
+  "features": [
+    "warehouse transaction creation",
+    "entry numbering",
+    "ConcurrentWarehousingPosting feature",
+    "sequence numbers",
+    "warehouse register linking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

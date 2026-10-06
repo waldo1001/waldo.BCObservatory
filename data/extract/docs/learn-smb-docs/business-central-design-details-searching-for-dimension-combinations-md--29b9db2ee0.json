@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-searching-for-dimension-combinations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-searching-for-dimension-combinations",
+  "title": "Design details - Searching for dimension combinations",
+  "blob": "111933310abd9385e6c653954663693a553dccc8",
+  "summary": "Dimension combination searching uses a tree structure in tables 480 and 481 to determine if a dimension set exists and efficiently assign or retrieve dimension set IDs during editing.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "dimensions",
+    "dimension sets",
+    "search tree",
+    "dimension entries",
+    "data structure"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dimension Set Tree Node"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Value"
+    }
+  ],
+  "features": [
+    "dimension set search",
+    "tree node traversal",
+    "dimension value ID",
+    "recursive search"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

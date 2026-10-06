@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-transfers-in-planning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-transfers-in-planning",
+  "title": "Design details - Transfers in planning",
+  "blob": "3dca480705d568d74c09ed2e7f8692e767a53c1b",
+  "summary": "Transfer orders in planning act as dependent demand and supply sources across locations, requiring sequential processing by transfer level code to balance demand and manage ripple effects through supply chains.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "manufacturing"
+  ],
+  "topics": [
+    "transfers",
+    "planning",
+    "sku",
+    "dependent demand",
+    "supply chain",
+    "replenishment",
+    "transfer level"
+  ],
+  "objects": [],
+  "features": [
+    "transfer order processing",
+    "transfer level code",
+    "quantity changes with reservations",
+    "lead time calculation",
+    "serial and lot numbers",
+    "order-to-order links"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/setup-best-practices-reordering-policies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-reordering-policies",
+  "title": "Setup best practices - Reordering policies | Microsoft Docs",
+  "blob": "6b257f500d0f3aba359f1476372f101bb71e4a5c",
+  "summary": "Reordering policy best practices match ABC classification to policy type with Order for A items, Lot-for-Lot for B items, and Fixed Reorder Qty or Maximum Qty for C items to optimize inventory management.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "reordering policy",
+    "abc classification",
+    "order policy",
+    "lot-for-lot",
+    "fixed reorder quantity",
+    "maximum quantity"
+  ],
+  "objects": [],
+  "features": [
+    "Order policy",
+    "Lot-for-Lot policy",
+    "Fixed Reorder Qty policy",
+    "Maximum Qty policy",
+    "ABC classification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

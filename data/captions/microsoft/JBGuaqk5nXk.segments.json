@@ -1,0 +1,381 @@
+{
+  "video_id": "JBGuaqk5nXk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 18,
+      "text": "Welcome to busy central launch event 20125 release day one. And in this session we will show you one new amazing functionality and this is new copilot related to"
+    },
+    {
+      "t": 18,
+      "end": 29,
+      "text": "sustainability. Okay let's see why was this copilot added at all. So let's look what we have and what we had and what we have in this moment related to sustainability."
+    },
+    {
+      "t": 29,
+      "end": 42.3,
+      "text": "How you can post uh entries related to sustainability? You can use sustainability journal or from this wave general journal or purchase invoice if you have total emissions uh from some external source."
+    },
+    {
+      "t": 42.3,
+      "end": 54.4,
+      "text": "If you do not have uh total emissions, you can use only sustainability journals in combination with emission factors and embedded formulas. But now we have some challenges."
+    },
+    {
+      "t": 54.4,
+      "end": 74.6,
+      "text": "Challenges are that most emissions again do not have uh total amounts already ready. So you will not get them for example for your hotel stays for uh your flight for your uh usage of car of truck you do not have ready total emissions and then finding all these"
+    },
+    {
+      "t": 74.6,
+      "end": 86.1,
+      "text": "uh emissions and adding the library or actually in a uh sustainability subcategories. It require to to find emission factor source of auditing and this is complex."
+    },
+    {
+      "t": 86.1,
+      "end": 106.3,
+      "text": "You need to open every time subcategory by subcategory to enter uh this information even if you can find but even to get them this is not easy. So what we wanted to do we wanted to make it easier with copilot as always what copilot can do copilot can calculate total emissions update emission factors if"
+    },
+    {
+      "t": 106.3,
+      "end": 117.9,
+      "text": "you want it and add source for auditing. What does it mean? If you want in some cases you want when first time when you get uh calculated emissions you want to update for the future emission factor."
+    },
+    {
+      "t": 117.9,
+      "end": 129.3,
+      "text": "So you will not uh use LLM every time uh for the same uh source. But in some situations you do not want because you will use only only one account for different uh values."
+    },
+    {
+      "t": 129.3,
+      "end": 144.2,
+      "text": "So system will not update emission factor. This is on you. You can set up how you want to this uh system to behave. So let's look in a copilot process flow but please do not be surprised how complicated it is because this is not complicated."
+    },
+    {
+      "t": 144.2,
+      "end": 154.6,
+      "text": "We just wanted to show you all small details how system is working because this is a complex job um uh under the hood. Okay we will start with sustainability journal."
+    },
+    {
+      "t": 154.6,
+      "end": 175,
+      "text": "We do not have emissions and you need to enter some information actually the same informations as you are using if you want to use formulas account name line description country code if you have different from uh your company information if you if this is the same uh country system will use from company information then some values uh what you will use about fuel about distance"
+    },
+    {
+      "t": 175,
+      "end": 195.2,
+      "text": "whatever you want to add but what is crucial here crucial is your line description system needs to understand what you want to collect so this is not enough to say car you need to explain which car so system will find proper uh emission for this car okay then we will run copilot when we run copilot first for system"
+    },
+    {
+      "t": 195.2,
+      "end": 215.2,
+      "text": "we will check is there already emission factors uh in a system so if we have emission factors it will be showed in a copilot prompt as automated suggestion so that's good system will not run lm system will take it as we already have calculated and that's it but if there is No emission factor in"
+    },
+    {
+      "t": 215.2,
+      "end": 226.3,
+      "text": "a line. This is a uh question. So system will use LLM to find matching with your uploaded files. We will explain later what does it mean uploaded files."
+    },
+    {
+      "t": 226.3,
+      "end": 240.3,
+      "text": "If we find match good system will use emission factors from the from this file embedded formulas and when we finish system will get a recommended suggestion and proper source file description from this file."
+    },
+    {
+      "t": 240.3,
+      "end": 253.7,
+      "text": "So you will have everything necessary for auditing. If something is missing, we will have pre-processing contextual warning. So system will find what is missing and you will get uh some warning what you need to improve in the system."
+    },
+    {
+      "t": 253.7,
+      "end": 273.8,
+      "text": "So this is if we have in a file but now imagine we do not have a file or system couldn't find the file what's the system will uh work further system will try to find some somewhere publicly this information and if you find the match for this uh line and lines system will again add in the same"
+    },
+    {
+      "t": 273.8,
+      "end": 294.4,
+      "text": "recommended suggestion but this time source will be public information. Okay. What you can do as optional step if you have for example in our file two or three match so system couldn't decide instead of you you can maybe update description and then regenerate or maybe you can choose one of these two or three options"
+    },
+    {
+      "t": 294.4,
+      "end": 315.1,
+      "text": "maybe it will be easier for you you can decide which one you want to apply. So this is optional step to make it better for the usage. Then system will update all these values in a sustainability journal because you made some changes if you made some changes description and some other values and proceed with the posting."
+    },
+    {
+      "t": 315.1,
+      "end": 328.1,
+      "text": "What we will get? We will get calculated emissions in our journal. So you will have ready sustainability journal and then as I mentioned if we wanted to have updated emission factor system will update emission factor for future usage."
+    },
+    {
+      "t": 328.1,
+      "end": 343.4,
+      "text": "If no nothing and then when you post system will update emissions sustainability journal we will post and everything will be fine. Perfect. But as I said this is really complicated on the first site but what is here for you as a user."
+    },
+    {
+      "t": 343.4,
+      "end": 353.7,
+      "text": "As I said I wanted to show you how complicated it is because there are different combination even a little bit more than that. I try to simplify this chart uh what is happening under the hood."
+    },
+    {
+      "t": 353.7,
+      "end": 367.6,
+      "text": "But in general what do you need to do? You need to run your sustainability journal to provide proper description and run copilot. When you get suggestion, you need to review and you need to post and that's"
+    },
+    {
+      "t": 367.6,
+      "end": 382.5,
+      "text": "it. Okay. How to prepare uh emission factors? Uh for emission factors again as I mentioned we can option we have a option to upload uh files."
+    },
+    {
+      "t": 382.5,
+      "end": 396.4,
+      "text": "What you can do? You can prepare Excel file. You can find public information from different sources from different countries because the most of countries are publishing this uh information somewhere and the most of these information are in Excel already in Excel."
+    },
+    {
+      "t": 396.4,
+      "end": 416.6,
+      "text": "If they are not you need to move to Excel but if they are you can find them you can. Our suggestion is to cut and to organize in some specific columns because uh it can be a huge document and system cannot you know system will try to find hours and hours to to to connect uh all of them to match all of them."
+    },
+    {
+      "t": 416.6,
+      "end": 429,
+      "text": "So our suggestion is to cut them what you really need and then upload. What you can do with the uploads, you can use different types of uploads because"
+    },
+    {
+      "t": 429,
+      "end": 446.5,
+      "text": "um you can upload for example one for one main for your country. Then you will get for example you have 100 cars from one the same manufacturer and you can get table with emission factor from this car manufacturer or track manufacturing."
+    },
+    {
+      "t": 446.5,
+      "end": 459.7,
+      "text": "So you can have specific for some specific brand information then you can get with the from flight company you are traveling the most their emission factor. So you can combine and system will all the time use all of them to find the best match."
+    },
+    {
+      "t": 459.7,
+      "end": 480.6,
+      "text": "So if system find is specific uh brand track or car system will find in this file. If no system will try to find what is a common for or um comp or cars or trucks in your country and this is if you have files our recommendation is to have files because it will be much easier for you to work with that"
+    },
+    {
+      "t": 480.6,
+      "end": 496.4,
+      "text": "okay what we can do further uh you can create a line and after that you can upload file and that's it you can use as I said by country by type and um keep only important information and what"
+    },
+    {
+      "t": 496.4,
+      "end": 511.6,
+      "text": "If you have obsolated information, you can easily mark this line and remove this file. So you will not handle this obsolete information because in some situation uh information are changing from year to year and you can upload new one."
+    },
+    {
+      "t": 511.6,
+      "end": 522.8,
+      "text": "So you can easily handle with uploading the deleting files without any problems. So that's it what I wanted to show you before going directly to demo."
+    },
+    {
+      "t": 522.8,
+      "end": 533.1,
+      "text": "So now my colleague Arthur will show you how it works a practice. As I said this is not complicated as looks like in a flowchart. You can see how it is easy when we are using a demo."
+    },
+    {
+      "t": 533.1,
+      "end": 548.2,
+      "text": "Arthur uh thank you Alexander for introduction. Uh I'm going to start my demo straight from the sustainability journal. Uh as all the setup for this copilot is already done. Uh in this uh journal batch you can see uh the mix of different categories uh for the cars,"
+    },
+    {
+      "t": 548.2,
+      "end": 561.2,
+      "text": "hotels and aeroflights and you can notice a new action calculate CO2. Uh this is the co-pilot action. Uh I'm going to click it and then explore the"
+    },
+    {
+      "t": 561.2,
+      "end": 573.2,
+      "text": "results. Okay. So on this page you can find a lot of information. Let's start from top. Uh you can see that copilot suggested six lines out of six and the confidence is 100%."
+    },
+    {
+      "t": 573.2,
+      "end": 588.2,
+      "text": "It means everything was very accurate. Uh and let's uh explore the subpage. On the subpage the first field uh is a source as Alexander mentioned. Uh there could be two options either the uploaded file to business central or the public information."
+    },
+    {
+      "t": 588.2,
+      "end": 598.2,
+      "text": "Uh what you can do you can um drill down this is field and for the average petrol car we can see that copilot was able to find the right match."
+    },
+    {
+      "t": 598.2,
+      "end": 611,
+      "text": "This is the petrol car. Uh source description indicates uh the name of the file. Uh there's the high confidence for this uh match and the emission factor is taken from the file."
+    },
+    {
+      "t": 611,
+      "end": 622.6,
+      "text": "for the second line which is the diesel car. I also want to drill down the source fields and another match. This is the diesel car. Same file and the other mission factor."
+    },
+    {
+      "t": 622.6,
+      "end": 635.1,
+      "text": "Um for the third line which is the uh condos car. Uh you can notice that the file is different. Uh so this is the the file with the cars only and the match is also right."
+    },
+    {
+      "t": 635.1,
+      "end": 647.8,
+      "text": "This is exactly the category of this car. Um now you can also notice that the hotel star hotel stay uh we got two lines one line got source and the other one public information."
+    },
+    {
+      "t": 647.8,
+      "end": 658.6,
+      "text": "The reason for that that the second line or the hotels this is not for the UK this is for Germany and since our file is only for UK uh copilot didn't consider this file for Germany."
+    },
+    {
+      "t": 658.6,
+      "end": 677.1,
+      "text": "It means that there's no match from the available sources and uh the information is taken uh from the public. Uh and then for the last line airflight uh also the perfect match uh short flight from to UK uh as also defrag file and we got the emission factor."
+    },
+    {
+      "t": 677.1,
+      "end": 691,
+      "text": "Perfect. We have all the emission factors. We can also scroll a little bit on the right. We can see the final values of emission factor. Uh now what we also can take a look we can drill down the copilot suggested field."
+    },
+    {
+      "t": 691,
+      "end": 703,
+      "text": "Uh where we have six out of six lines and here extra information. So besides the emission factor and fields uh taken from the journal on the bottom page we have the calculation explanation."
+    },
+    {
+      "t": 703,
+      "end": 723.3,
+      "text": "So for each line we have the formula uh for calculation uh the values and the final result for the car. The formula is simple distance traveled multiplied by emission factor distance traveled taken from the business central emission factor taken from the file and the final result matches emission CO2 column."
+    },
+    {
+      "t": 723.3,
+      "end": 737.4,
+      "text": "Uh for example for the hotel stays the formula is a little bit different. Instead of distance we have number of hotel stays. Uh this information is also taken from business central number of nights and multiply by mission factor from the file."
+    },
+    {
+      "t": 737.4,
+      "end": 754.7,
+      "text": "Uh for airflights it's a little bit different. There is no distance in business central only the route and copilot was able to calculate the distance. uh since this is the round trip so we are talking about the distance from London to Frankfurt and back to from Frankfurt to London."
+    },
+    {
+      "t": 754.7,
+      "end": 764.8,
+      "text": "Pilot summarizes uh the distance to the total distance and then we have total distance multiplied by emission factor final value everything is accurate. Great."
+    },
+    {
+      "t": 764.8,
+      "end": 784,
+      "text": "So after I verify everything with calculation explanation I can close this window and I want to keep the results. I click EIT and when I do this the information is saved here in the emission CO2 and also in the um uh account category."
+    },
+    {
+      "t": 784,
+      "end": 799.4,
+      "text": "Now everything is perfect here because I have a good description in the line. Uh but let me show you the other batch when there are some issues with the way um how description are specified or the other uh information is not accurate."
+    },
+    {
+      "t": 799.4,
+      "end": 806,
+      "text": "I want to click calculate CO2 and then explain uh what is all"
+    },
+    {
+      "t": 806,
+      "end": 817.2,
+      "text": "about. Okay. Uh so the first line is uh highlighted differently. Let's see why. If you scroll to the right uh there is a number of warning fields."
+    },
+    {
+      "t": 817.2,
+      "end": 830.2,
+      "text": "We can drill down to this field and we can see that more than one emission factor found in the file. Okay, we have this warning. But how we can actually see uh this is the source fields that I've already presented."
+    },
+    {
+      "t": 830.2,
+      "end": 841.8,
+      "text": "If you drill down to this one, we can see that there are multiple different categories. And the reason is that because our description is not accurate. It only says motorbike and it matches different categories."
+    },
+    {
+      "t": 841.8,
+      "end": 852.9,
+      "text": "Uh what we can do, we can actually choose a specific line and then we can click okay and choose a specific a specific category, a specific emission factor. But this is something that we don't want to do."
+    },
+    {
+      "t": 852.9,
+      "end": 871.4,
+      "text": "We want to improve our description to make a really accurate match. So I want to click cancel here and I want to update description. For that I need to drill down to copilot suggested field and here I can update uh my description without getting back to journal right from here."
+    },
+    {
+      "t": 871.4,
+      "end": 883.4,
+      "text": "Uh so I want to say okay this is actually large motorbike not any other one. I want to close this page. Description uh is here. And I want to click regenerate to actually get the right match."
+    },
+    {
+      "t": 883.4,
+      "end": 895.8,
+      "text": "I click regenerate. And now you can see that the line is highlighted in green. On the right side, there is no warning. Emission CO2 is calculated."
+    },
+    {
+      "t": 895.8,
+      "end": 910.7,
+      "text": "And if I drill down to the source field, I have only one match more by large. This is exactly what I have in description. So now with this uh correction in description uh we have um a better uh result from copilot."
+    },
+    {
+      "t": 910.7,
+      "end": 926.6,
+      "text": "Now for the second line you can see that there is no source and there is a warning here. Uh if I click it I can see the distance is not provided. Uh yeah so there's only unit of measure for this line but no distance and that means that this line is not passed to the copilot."
+    },
+    {
+      "t": 926.6,
+      "end": 937,
+      "text": "So we only have one line out of two suggested for copilot. And that concludes my demo. Back to you, Alex Arthur. Thank you, Arthur, for this great demo."
+    },
+    {
+      "t": 937,
+      "end": 947.5,
+      "text": "So, you can see how good Copilot can be and how big improvement in uh collecting all emissions with sustainability can be done with copilot."
+    },
+    {
+      "t": 947.5,
+      "end": 964.7,
+      "text": "Now, just few things before we close this session. Availability um this copilot will come in 26.1 or two. So we are currently completing uh this functionality and in this first release it will be delivered as a public preview as all our copilot features."
+    },
+    {
+      "t": 964.7,
+      "end": 979,
+      "text": "So every time first release is public preview in this moment we have officially support only for English language. It doesn't mean it cannot work in other languages in during our test we tested a bit other languages."
+    },
+    {
+      "t": 979,
+      "end": 999.3,
+      "text": "So probably it can work and it can provide good information in other languages but officially we support in this release English language only and what is now ongoing effort so we want to continue uh investment in this copilot in next wave or waves depends uh how it's going minimum we want to improve some specific areas"
+    },
+    {
+      "t": 999.3,
+      "end": 1019.5,
+      "text": "we found in the meantime uh during building this copilot so we want to improve some specific areas we want to prepare everything for gen availability so It should be G as soon as possible and idea is to enable support for other languages especially uh sustainability reporting will be uh will exist"
+    },
+    {
+      "t": 1019.5,
+      "end": 1030.4,
+      "text": "in many different countries. So we want to support as more languages as possible in this moment. So for now that is everything about copilot related to sustainability."
+    },
+    {
+      "t": 1030.4,
+      "end": 1044,
+      "text": "Uh I would like to invite you to watch another sustainability session because in this V center launch event we have eight sessions completely related to sustainability and thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2929
+}

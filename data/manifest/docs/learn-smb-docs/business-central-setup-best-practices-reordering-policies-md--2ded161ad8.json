@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-reordering-policies",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b257f500d0f3aba359f1476372f101bb71e4a5c",
       "words": 580,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:35.363Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004989
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:38.599Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:38.600Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:38.601Z",
+      "page": false
     }
   },
   "input_hash": "6b257f500d0f3aba359f1476372f101bb71e4a5c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b257f500d0f3aba359f1476372f101bb71e4a5c"
+  "output_hash": "438079c4ed3549eb02a757fc65287c4accfc5bbd7dccc2f4a105dfc10a16b5c5"
 }

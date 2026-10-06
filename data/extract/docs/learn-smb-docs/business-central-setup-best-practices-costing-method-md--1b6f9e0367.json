@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/setup-best-practices-costing-method.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-costing-method",
+  "title": "Setup best practices - Costing method",
+  "blob": "31f0133c6b749f96e1e3b8183ae4876a85827060",
+  "summary": "Costing method setup determines cost flow recording and capitalization; best practices match methods to item type and business environment with FIFO for stable costs, Average for unstable, Standard for cost control.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "costing method",
+    "fifo",
+    "lifo",
+    "average",
+    "specific",
+    "standard cost",
+    "inventory valuation"
+  ],
+  "objects": [],
+  "features": [
+    "FIFO costing",
+    "LIFO costing",
+    "Average costing",
+    "Specific costing",
+    "Standard costing",
+    "cost flow"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004989,
+      "pages_in_call": 8
+    }
+  ]
+}

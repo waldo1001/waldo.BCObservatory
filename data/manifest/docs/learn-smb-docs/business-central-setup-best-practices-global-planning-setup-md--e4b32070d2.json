@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-global-planning-setup",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0b9442388ae61a7e658ac8a2ef3bb2db59d6976d",
       "words": 235,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:35.362Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004989
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:38.596Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:38.597Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:38.598Z",
+      "page": false
     }
   },
   "input_hash": "0b9442388ae61a7e658ac8a2ef3bb2db59d6976d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b9442388ae61a7e658ac8a2ef3bb2db59d6976d"
+  "output_hash": "5f4656e3d9b07f56ab634091b5c55bccd318316e757b1e94b68ac41e19c000d2"
 }

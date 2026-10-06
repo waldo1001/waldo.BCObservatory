@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-table-structure",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5",
       "words": 741,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:35.357Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004989
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:38.581Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:38.582Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:38.584Z",
+      "page": false
     }
   },
   "input_hash": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5"
+  "output_hash": "54ea430d2ffc234c0a1cc70da568d02847520418ebc109f53f6fc781440881ab"
 }
