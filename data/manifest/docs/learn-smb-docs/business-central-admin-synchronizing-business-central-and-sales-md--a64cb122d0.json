@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-synchronizing-business-central-and-sales",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d7c882c9d62dc841fe334778b4683f74c947b589",
       "words": 1244,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:29.757Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005657
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:31.941Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:31.942Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:31.943Z",
+      "page": false
     }
   },
   "input_hash": "d7c882c9d62dc841fe334778b4683f74c947b589",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7c882c9d62dc841fe334778b4683f74c947b589"
+  "output_hash": "52874d313af2c9352d94153164d7d4c48edb008ebd034ecfbfe6f605fae97a5b"
 }

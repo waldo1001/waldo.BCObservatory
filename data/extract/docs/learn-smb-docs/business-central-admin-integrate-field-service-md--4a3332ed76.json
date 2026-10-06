@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-integrate-field-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service",
+  "title": "Integrate with Microsoft Dynamics 365 Field Service",
+  "blob": "586243ea907dbc4d306f19c920e05082bd9a9839",
+  "summary": "Integrates Business Central with Dynamics 365 Field Service to streamline service operations, sync work orders with project journals, and automate invoicing and fulfillment for service organizations.",
+  "systems": [
+    "service",
+    "projects",
+    "integration"
+  ],
+  "topics": [
+    "field service integration",
+    "work order management",
+    "project synchronization",
+    "service delivery",
+    "dataverse connectivity"
+  ],
+  "objects": [],
+  "features": [
+    "work order sync",
+    "project journal posting",
+    "resource scheduling",
+    "item availability tracking",
+    "service order status management",
+    "bi-directional synchronization"
+  ],
+  "versions": [
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005657,
+      "pages_in_call": 8
+    }
+  ]
+}

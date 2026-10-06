@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-edocuments-connectors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-connectors",
+  "title": "Connect E-Documents to external access points",
+  "blob": "f15ea091c67ae239b6d075d45083cbd2b7acb61d",
+  "summary": "E-Documents connectors connect Business Central to external access points including Pagero, Avalara, Logiq, ExFlow, and B2BRouter for secure electronic document transmission.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "external connectors",
+    "document transmission",
+    "oauth setup"
+  ],
+  "objects": [],
+  "features": [
+    "pagero integration",
+    "avalara integration",
+    "logiq integration",
+    "exflow integration",
+    "b2brouter integration",
+    "oauth 2.0 authentication"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005657,
+      "pages_in_call": 8
+    }
+  ]
+}

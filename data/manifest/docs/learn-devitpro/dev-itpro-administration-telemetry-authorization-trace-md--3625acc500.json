@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace",
   "published_at": "2026-01-14T11:31:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
       "words": 2347,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.925Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006845
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:31.958Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:31.958Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:31.959Z",
+      "page": false
     }
   },
   "input_hash": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e"
+  "output_hash": "78027e53868ba7cbcae597b4d06aa20f17eb044958470706e313319ced52060c"
 }

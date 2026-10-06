@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-connectors",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f15ea091c67ae239b6d075d45083cbd2b7acb61d",
       "words": 815,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:29.760Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005657
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:31.951Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:31.952Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:31.953Z",
+      "page": false
     }
   },
   "input_hash": "f15ea091c67ae239b6d075d45083cbd2b7acb61d",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f15ea091c67ae239b6d075d45083cbd2b7acb61d"
+  "output_hash": "4f2fcf662838273625d1f669b5cb913386938414acc1a6d8818320a3f4f4e399"
 }

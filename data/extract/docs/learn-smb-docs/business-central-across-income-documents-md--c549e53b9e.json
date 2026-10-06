@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-income-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-income-documents",
+  "title": "Work with incoming documents",
+  "blob": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
+  "summary": "Incoming Documents feature manages external business documents from suppliers, with capabilities for manual entry, OCR processing, attachment, and conversion to purchase/sales documents or journal entries.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "incoming documents",
+    "document management",
+    "ocr",
+    "purchase invoices",
+    "file attachment"
+  ],
+  "objects": [],
+  "features": [
+    "Create from File",
+    "Create from Camera",
+    "OCR integration",
+    "electronic documents",
+    "attachment management",
+    "journal line creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006845,
+      "pages_in_call": 7
+    }
+  ]
+}

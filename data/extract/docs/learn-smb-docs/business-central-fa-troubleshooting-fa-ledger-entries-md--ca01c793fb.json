@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-troubleshooting-fa-ledger-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-troubleshooting-fa-ledger-entries",
+  "title": "The Troubleshooting FA Ledger Entries Extension",
+  "blob": "6ada58bd084eb28e04394b1c78522c5fafe5d133",
+  "summary": "Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts in fixed asset ledger entries to whole numbers to resolve rounding issues.",
+  "systems": [
+    "fixed-assets",
+    "administration"
+  ],
+  "topics": [
+    "fixed assets",
+    "depreciation",
+    "rounding",
+    "troubleshooting",
+    "extension"
+  ],
+  "objects": [],
+  "features": [
+    "fa ledger entry rounding",
+    "fixed asset scanning",
+    "amount validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005657,
+      "pages_in_call": 8
+    }
+  ]
+}

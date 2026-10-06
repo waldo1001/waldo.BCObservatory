@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-localization",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "896f2368587e89a8d6614c67ab83b34c011c02c3",
       "words": 232,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.926Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006845
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:31.961Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:31.961Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:31.962Z",
+      "page": false
     }
   },
   "input_hash": "896f2368587e89a8d6614c67ab83b34c011c02c3",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "896f2368587e89a8d6614c67ab83b34c011c02c3"
+  "output_hash": "cba86cabc036d39ac0128a7eb06eafe3a2a74572cdc884a1e5341bb7999c4426"
 }

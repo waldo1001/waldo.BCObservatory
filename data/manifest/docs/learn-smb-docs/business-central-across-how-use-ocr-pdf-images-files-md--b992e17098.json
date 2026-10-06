@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
       "words": 1933,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.928Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006845
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:33.706Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:33.706Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:33.707Z",
+      "page": false
     }
   },
   "input_hash": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eff4d66c616ab0abd11c11b273f0afd7cb31556c"
+  "output_hash": "c494cbad8cd30ea1544eeedb14d3f7433dd5ca894a246f4cb12e66b1fff0fa03"
 }

@@ -1,0 +1,331 @@
+{
+  "video_id": "JI9OpaBx0nk",
+  "item_id": "video/yt-microsoft/JI9OpaBx0nk",
+  "title": "Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)",
+  "duration_s": 640,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "outbound http testing",
+    "mocking",
+    "http client handler",
+    "al test",
+    "external services",
+    "test isolation",
+    "request interception",
+    "fall-through mechanism",
+    "test http request policy"
+  ],
+  "chapters": [
+    {
+      "title": "Testing challenges with external services",
+      "t_start": 0,
+      "t_end": 85.8
+    },
+    {
+      "title": "Introducing HTTP client Handler",
+      "t_start": 85.8,
+      "t_end": 146.7
+    },
+    {
+      "title": "Setting up the Handler and simulating responses",
+      "t_start": 146.7,
+      "t_end": 205.2
+    },
+    {
+      "title": "Distinguishing between different requests",
+      "t_start": 205.2,
+      "t_end": 261.2
+    },
+    {
+      "title": "Handling secret URIs and limitations",
+      "t_start": 261.2,
+      "t_end": 316
+    },
+    {
+      "title": "Fall-through mechanism for selective mocking",
+      "t_start": 316,
+      "t_end": 374
+    },
+    {
+      "title": "Live debugging demonstration",
+      "t_start": 374,
+      "t_end": 500.1
+    },
+    {
+      "title": "Test HTTP request policy and scenarios",
+      "t_start": 500.1,
+      "t_end": 640
+    }
+  ],
+  "features": [
+    {
+      "name": "HTTP client Handler",
+      "description": "A new test Handler that intercepts outbound HTTP requests during test execution and allows the programmer to mock responses or issue original requests. It enables testing of integration code without hitting actual external services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.8,
+      "t_end": 146.7,
+      "is_demoed": true,
+      "caveats": [
+        "Cookies cannot be set",
+        "Redirection status codes cannot be set",
+        "All HTTP calls during test execution are routed to the Handler if attached"
+      ],
+      "tags": [
+        "testing",
+        "http",
+        "mocking",
+        "handlers"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP client Handler attribute",
+      "description": "An attribute used to mark a procedure as an HTTP client Handler within test code units. The Handler intercepts HTTP requests and allows simulation of responses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 146.7,
+      "t_end": 164.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attribute",
+        "handler",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Handler functions attribute",
+      "description": "An attribute used to attach an HTTP client Handler to a test method, enabling interception of all HTTP requests made during test execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 164.9,
+      "t_end": 185,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attribute",
+        "handler",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Request object properties",
+      "description": "The request object has properties including request type, path, query parameters, and has secret URI property that can be analyzed to differentiate between requests and populate appropriate responses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225.3,
+      "t_end": 275.5,
+      "is_demoed": true,
+      "caveats": [
+        "When request URI is set using secret text, path and query parameters are not available"
+      ],
+      "tags": [
+        "request",
+        "properties",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fall-through mechanism",
+      "description": "Allows programmers to decide in the Handler whether to mock a response or issue the original request. Uses a Boolean return value where exit true issues the original request and exit false uses the mocked response.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 316,
+      "t_end": 353.6,
+      "is_demoed": true,
+      "caveats": [
+        "Default return value is false which blocks outbound requests and returns mocked response"
+      ],
+      "tags": [
+        "fall-through",
+        "mocking",
+        "handler"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test HTTP request policy",
+      "description": "A new property that can be added to test codeunits to specify how outbound requests should be treated during test execution. Options include allowing all requests, allowing only Handler-issued requests, or blocking all unhandled requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 500.1,
+      "t_end": 532.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "policy",
+        "testing",
+        "requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Allow all outbound requests policy",
+      "description": "Default value for test HTTP request policy. No restrictions are imposed on outbound requests during test execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 532.1,
+      "t_end": 552.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "policy",
+        "requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Allow outbound from Handler policy",
+      "description": "Restricts outbound requests to only those intercepted by an HTTP client Handler and issued to the external endpoint using exit true. Ensures no unintentional requests are made.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 572.4,
+      "t_end": 588,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "policy",
+        "requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Block outbound requests policy",
+      "description": "All outbound requests must be intercepted and handled by an HTTP client Handler. Useful to prevent automated CI/CD pipelines from hitting actual endpoints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 608.2,
+      "t_end": 628.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "policy",
+        "requests"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "document service",
+      "t": 106.4
+    },
+    {
+      "type": "codeunit",
+      "name": "test code unit",
+      "t": 126.5
+    },
+    {
+      "type": "other",
+      "name": "response object",
+      "t": 146.7
+    },
+    {
+      "type": "other",
+      "name": "request object",
+      "t": 225.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Balash",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 4.7,
+      "text": "if we connect to the actual service we need to consider how that service will be impacted by running tests will it impact production",
+      "why_it_matters": "Establishes the core problem this feature solves: testing integration code without side effects on real external services.",
+      "check": "snapped"
+    },
+    {
+      "t": 85.8,
+      "text": "to address many of these challenges we have introduced a new test Handler in this release the HTTP client Handler",
+      "why_it_matters": "Announces the new feature being introduced in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 126.5,
+      "text": "however this setup requires that the external service is up and running instead we can define an HTTP client hander to intercept the request",
+      "why_it_matters": "Explains the benefit of using the Handler - eliminates dependency on external service availability.",
+      "check": "exact"
+    },
+    {
+      "t": 261.2,
+      "text": "it is important to mention that as of now it is not possible to set cookies or redirection status codes so far so good",
+      "why_it_matters": "Documents current limitations of the HTTP client Handler feature.",
+      "check": "exact"
+    },
+    {
+      "t": 316,
+      "text": "we have implemented a fall through mechanism that allows the programmer to decide in the Handler whether they want to Mark the response for",
+      "why_it_matters": "Describes the fall-through capability enabling selective mocking versus pass-through of requests.",
+      "check": "exact"
+    },
+    {
+      "t": 353.6,
+      "text": "keep in mind that the default return value is false therefore a completely empty hander procedure would still block the outbound request and return",
+      "why_it_matters": "Critical implementation detail: empty handlers block requests by default rather than passing them through.",
+      "check": "exact"
+    },
+    {
+      "t": 511.2,
+      "text": "you can add it to test code units to specify how outbound request should be treated during test executions by default all requests are",
+      "why_it_matters": "Explains the purpose and default behavior of the new test HTTP request policy property.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 261.2,
+      "kind": "other",
+      "text": "as of now it is not possible to set cookies or redirection status codes"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024971
+    }
+  ]
+}

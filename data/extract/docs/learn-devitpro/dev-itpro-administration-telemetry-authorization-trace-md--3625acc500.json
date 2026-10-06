@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-authorization-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace",
+  "title": "Authorization Trace | Microsoft Docs",
+  "blob": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
+  "summary": "Authorization Trace telemetry analyzes user sign-in authorization events and company access, providing dimensions and custom metrics to troubleshoot authentication failures in Business Central.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "authorization",
+    "sign-in",
+    "authentication",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Authorization Succeeded (Pre Open Company)",
+    "Authorization Failed (Pre Open Company)",
+    "Authorization Succeeded (Open Company)",
+    "Authorization Failed (Open Company)",
+    "user entitlements",
+    "security group validation"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16.1",
+    "version 25",
+    "version 26"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006845,
+      "pages_in_call": 7
+    }
+  ]
+}

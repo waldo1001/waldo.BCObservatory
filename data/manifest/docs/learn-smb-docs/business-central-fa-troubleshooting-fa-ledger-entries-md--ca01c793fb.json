@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-troubleshooting-fa-ledger-entries",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ada58bd084eb28e04394b1c78522c5fafe5d133",
       "words": 242,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:29.759Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005657
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:31.948Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:31.949Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:31.950Z",
+      "page": false
     }
   },
   "input_hash": "6ada58bd084eb28e04394b1c78522c5fafe5d133",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ada58bd084eb28e04394b1c78522c5fafe5d133"
+  "output_hash": "300b0d6ad86b31f66d45d0f08e26a7c07856ad71d2d951efbc12717276099e96"
 }

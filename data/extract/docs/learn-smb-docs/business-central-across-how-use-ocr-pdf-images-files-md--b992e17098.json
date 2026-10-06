@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-use-ocr-pdf-images-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files",
+  "title": "Use OCR to turn PDF into e-invoices",
+  "blob": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
+  "summary": "OCR service integration converts PDF and image documents into electronic records within Business Central, enabling automatic invoice processing, error correction, and service training for improved recognition.",
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "topics": [
+    "ocr",
+    "optical character recognition",
+    "incoming documents",
+    "invoice processing"
+  ],
+  "objects": [],
+  "features": [
+    "OCR service",
+    "PDF processing",
+    "image recognition",
+    "text-to-account mapping",
+    "error handling",
+    "OCR training",
+    "job queue processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006845,
+      "pages_in_call": 7
+    }
+  ]
+}

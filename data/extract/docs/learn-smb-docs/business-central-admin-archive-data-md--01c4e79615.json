@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-archive-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-archive-data",
+  "title": "The Data Archive Extension",
+  "blob": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
+  "summary": "The Data Archive Extension provides a framework for archiving data during date compression, consolidating related entries instead of deleting them. Use it to manage business data accumulation, reduce storage costs, and maintain historical records for later analysis.",
+  "systems": [
+    "administration",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "data archiving",
+    "date compression",
+    "storage management",
+    "data backup",
+    "batch jobs",
+    "extension"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Data Archive List"
+    }
+  ],
+  "features": [
+    "Archive Deleted Entries toggle",
+    "Excel export",
+    "CSV export",
+    "10,000 records per archive",
+    "Tenant Media storage",
+    "date compression integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003453,
+      "pages_in_call": 1
+    }
+  ]
+}

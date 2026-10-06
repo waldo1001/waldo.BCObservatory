@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c639ea5f7f31e4644ec61460c776cb45e1062caa",
       "words": 2835,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.927Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006845
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:33.702Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:33.704Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:33.705Z",
+      "page": false
     }
   },
   "input_hash": "c639ea5f7f31e4644ec61460c776cb45e1062caa",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c639ea5f7f31e4644ec61460c776cb45e1062caa"
+  "output_hash": "f0df10c66b88be85a939d4483c180f836f869a278c649107e97fafa0ca755065"
 }

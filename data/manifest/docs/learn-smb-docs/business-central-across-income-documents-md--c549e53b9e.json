@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-income-documents",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
       "words": 869,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.929Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006845
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:33.708Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:33.709Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:33.710Z",
+      "page": false
     }
   },
   "input_hash": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7"
+  "output_hash": "db11a23d8890640c6e51df5890b873ae2f5af631cba61f3078d51fd6fca7a999"
 }

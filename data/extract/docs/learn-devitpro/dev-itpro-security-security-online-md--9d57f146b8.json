@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-online.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-online",
+  "title": "Security in Business Central",
+  "blob": "9bc01fda2af2de1166adaf1b7a0e948382e3f0a8",
+  "summary": "Security in Business Central online deployment covers authentication, access control, data protection, encryption, Privileged Identity Management, auditing, and integrated security practices for cloud-based tenants.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "authentication",
+    "encryption",
+    "access control",
+    "data protection",
+    "compliance",
+    "multifactor authentication",
+    "privileged access"
+  ],
+  "objects": [],
+  "features": [
+    "Conditional Access",
+    "multifactor authentication",
+    "data isolation",
+    "Transparent Data Encryption",
+    "customer-managed encryption key",
+    "Customer Lockbox",
+    "Approval Workflows",
+    "audit logs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006845,
+      "pages_in_call": 7
+    }
+  ]
+}

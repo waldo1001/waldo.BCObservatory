@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-archive-data",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
       "words": 457,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:31.931Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003453
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:33.714Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:33.715Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:33.716Z",
+      "page": false
     }
   },
   "input_hash": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53ac854a9b2be7864fea3ed60b61e3558efbe433"
+  "output_hash": "8148f461f068e39d6573169dd2cda7482f95f11755be5f2e72561202e061bbc5"
 }
