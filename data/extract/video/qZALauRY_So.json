@@ -1,0 +1,276 @@
+{
+  "video_id": "qZALauRY_So",
+  "item_id": "video/yt-microsoft/qZALauRY_So",
+  "title": "Introducing: Approvals for the Expense Agent (2026 release wave 1)",
+  "duration_s": 682,
+  "systems": [
+    "copilot",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "approvals",
+    "expense agent",
+    "ai-first",
+    "workflow",
+    "notification",
+    "policy compliance",
+    "business central licensing",
+    "team-based approvals",
+    "expense reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Approvals for the Expense Agent",
+      "t_start": 0,
+      "t_end": 49.5
+    },
+    {
+      "title": "Design Principles and AI-First Approach",
+      "t_start": 49.5,
+      "t_end": 123.2
+    },
+    {
+      "title": "Approval Process Overview",
+      "t_start": 123.2,
+      "t_end": 253.3
+    },
+    {
+      "title": "Approval Workflow Demo",
+      "t_start": 253.3,
+      "t_end": 463
+    },
+    {
+      "title": "Setup and Configuration in Business Central",
+      "t_start": 463,
+      "t_end": 553.3
+    },
+    {
+      "title": "Licensing Requirements",
+      "t_start": 553.3,
+      "t_end": 628
+    },
+    {
+      "title": "Closing Remarks and Resources",
+      "t_start": 628,
+      "t_end": 682
+    }
+  ],
+  "features": [
+    {
+      "name": "Approvals for the Expense Agent",
+      "description": "A new approval workflow system for expense reports submitted through the AI-powered expense agent. Approvers receive notifications via email or Copilot chat and can approve, reject, or request changes to expense reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.7,
+      "t_end": 449.4,
+      "is_demoed": true,
+      "caveats": [
+        "Approvers must have a Business Central license",
+        "UI may be tweaked before final release"
+      ],
+      "tags": [
+        "approvals",
+        "expense agent",
+        "workflow",
+        "notification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Pre-approval AI Suggestions",
+      "description": "The AI model makes decisions and suggestions on whether a receipt follows company policy before the expense report is submitted for approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.5,
+      "t_end": 175.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pre-approval",
+        "ai",
+        "policy",
+        "policy compliance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense User Configuration",
+      "description": "A new page in Business Central called the Expense Users page where admins can define expense users and mark them as approvers with a can approve flag.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 473.4,
+      "t_end": 527.8,
+      "is_demoed": true,
+      "caveats": [
+        "The UI is not fully final so we might tweak a few things around"
+      ],
+      "tags": [
+        "expense users",
+        "setup",
+        "configuration",
+        "approver"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Team-based Approval Setup",
+      "description": "Support for setting up expense approval through teams where a team manager can approve expenses for their team members.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 527.8,
+      "t_end": 553.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "teams",
+        "approvals",
+        "team-based"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approval Notifications via Email and Copilot Chat",
+      "description": "Approvers receive notifications about pending expense reports through email or Copilot chat when reports are submitted for approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192.3,
+      "t_end": 216,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "email",
+        "copilot",
+        "messaging"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Report Rejection and Revision",
+      "description": "Approvers can reject or send back expense reports requesting additional information or changes from the submitter, who can then revise and resubmit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 202.9,
+      "t_end": 449.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "rejection",
+        "revision",
+        "workflow",
+        "send-back"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approval Registration in Business Central",
+      "description": "Once approved, the approval decision is registered in Business Central and all financial consequences including posting data to GL reports are handled within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 228.5,
+      "t_end": 239.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "registration",
+        "financial",
+        "gl",
+        "posting"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Users",
+      "t": 473.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Blazej Kotelko",
+      "confidence": "high"
+    },
+    {
+      "name": "Enrico Csimitan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.9,
+      "text": "users of the expense agent are quite often outside of Business Central. They will be working on mobile devices.",
+      "why_it_matters": "Explains the core design philosophy that expense users are mobile-first and may not be in Business Central, informing the approval workflow design.",
+      "check": "exact"
+    },
+    {
+      "t": 82.3,
+      "text": "the whole project has been done in model model first or AI first approach where AI is helping us guide the user and and",
+      "why_it_matters": "States the fundamental AI-first design principle that drives how the approval process works with AI suggestions and guidance.",
+      "check": "exact"
+    },
+    {
+      "t": 503.4,
+      "text": "The UI is not fully final so we might tweak a few things around",
+      "why_it_matters": "Indicates the Expense Users page UI is still subject to change before release.",
+      "check": "exact"
+    },
+    {
+      "t": 568.8,
+      "text": "we don't require users of the expense agent, users who are submitting expenses, submitting reports to actually have a Business Central license",
+      "why_it_matters": "Critical licensing detail showing expense submitters don't need Business Central licenses, only approvers do.",
+      "check": "exact"
+    },
+    {
+      "t": 596.6,
+      "text": "when you are approving the report, there is some there are some financial consequences in Business Central data, and that includes also posting data",
+      "why_it_matters": "Explains why approvers must have Business Central licenses - they are performing financial transactions with GL posting consequences.",
+      "check": "exact"
+    },
+    {
+      "t": 612.8,
+      "text": "users who are approving expense reports, even if they are doing that from outside of Business Central, just just as you have seen in",
+      "why_it_matters": "Key licensing requirement stating approvers must have Business Central licenses regardless of where they perform approvals.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 503.4,
+      "kind": "subject-to-change",
+      "text": "The UI is not fully final so we might tweak a few things around"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023385999999999997
+    }
+  ]
+}

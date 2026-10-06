@@ -1,0 +1,27 @@
+{
+  "video_id": "qZALauRY_So",
+  "item_id": "video/yt-microsoft/qZALauRY_So",
+  "summary": "Approvals for the Expense Agent in Business Central (2026 release wave 1): approvers get email or Copilot chat notifications and can approve, reject or request changes. Covers setup on the Expense Users page, team-based approval, and the licensing requirement for approvers.",
+  "overview": "The video introduces an approval workflow for expense reports submitted through the expense agent. Submitters often work outside Business Central, on mobile devices, and do not need a Business Central license. The design follows a model-first, AI-first approach, where AI suggests whether a receipt follows company policy before the report is submitted for approval.\n\nThe demo shows an approver being notified by email or Copilot chat, then approving or rejecting a report. A rejected report goes back to the submitter, who can revise and resubmit. Once approved, the decision is registered in Business Central, including financial consequences such as posting to GL reports. Setup is done on a new Expense Users page. The presenter says the UI is not final and may be tweaked.",
+  "key_points": [
+    "Approvers receive notifications about pending expense reports by email or Copilot chat, and can approve, reject, or request changes.",
+    "Rejected or sent-back reports can be revised and resubmitted by the submitter.",
+    "Admins define expense users on the new Expense Users page and mark approvers with a can approve flag.",
+    "Team-based setup is supported: a team manager can approve expenses for their team members.",
+    "Users who submit expense reports do not need a Business Central license; approvers must have one.",
+    "An approval is registered in Business Central, and financial consequences such as GL posting are handled there.",
+    "The presenter says the UI is not final and may change before release."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "431f2fc6813b9ed14edb00287432e14384dc6afa8b0b5f3e1780fd67310af6ae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135084
+  }
+}
