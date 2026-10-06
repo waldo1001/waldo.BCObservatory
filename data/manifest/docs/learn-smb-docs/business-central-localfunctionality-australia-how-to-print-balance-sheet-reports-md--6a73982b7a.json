@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0877f320c1bef714be625b61aece62a99359356a",
       "words": 27,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.364Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.442Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.444Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.445Z",
+      "page": false
     }
   },
   "input_hash": "0877f320c1bef714be625b61aece62a99359356a",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0877f320c1bef714be625b61aece62a99359356a"
+  "output_hash": "c16434a5029fc3b2387b1013e1595aaf14e1084d16fa43bbef4b08ee434c115b"
 }

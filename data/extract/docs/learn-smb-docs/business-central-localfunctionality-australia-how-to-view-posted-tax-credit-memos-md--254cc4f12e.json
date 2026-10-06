@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-credit-memos.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-credit-memos",
+  "title": "View posted tax credit memos [AU]",
+  "blob": "2242ff5cdf45117ecfb3819f69ba243e5d84a63e",
+  "summary": "Posted Sales Tax Credit Memo and Posted Purchase Tax Credit Memo pages allow viewing details of posted sales and purchase tax credit memos in the Australian version, including general, invoicing, shipping, and foreign trade information.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax credit memos",
+    "posted documents",
+    "australian tax",
+    "credit memo details"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Tax Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Tax Credit Memo"
+    }
+  ],
+  "features": [
+    "Tax credit memo viewing",
+    "General information display",
+    "Invoicing details",
+    "Shipping information",
+    "Foreign trade information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002182,
+      "pages_in_call": 7
+    }
+  ]
+}

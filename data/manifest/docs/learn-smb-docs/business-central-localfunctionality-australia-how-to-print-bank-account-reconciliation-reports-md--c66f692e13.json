@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0d6f86963dee390b27f4064ec688887f8cf04aed",
       "words": 17,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.365Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.446Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.447Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.448Z",
+      "page": false
     }
   },
   "input_hash": "0d6f86963dee390b27f4064ec688887f8cf04aed",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0d6f86963dee390b27f4064ec688887f8cf04aed"
+  "output_hash": "c75e586031ba1ede797af3ef262fd3cea27f86788e2a9227c4d16db467d515b0"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6166aa38a0ddfcbf1b1f0a51f065640cd9cd3b7a",
       "words": 171,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:00.309Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.240Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.242Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.243Z",
+      "page": false
     }
   },
   "input_hash": "6166aa38a0ddfcbf1b1f0a51f065640cd9cd3b7a",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6166aa38a0ddfcbf1b1f0a51f065640cd9cd3b7a"
+  "output_hash": "4672553a20e886843ccd026013ef5ba2310de6dd73c9bcdcb94ec05d359296fc"
 }

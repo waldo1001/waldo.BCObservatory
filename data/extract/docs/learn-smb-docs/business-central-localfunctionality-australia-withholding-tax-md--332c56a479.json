@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax",
+  "title": "Withholding Tax in the Australian version",
+  "blob": "a3e26bd65869846f7200e957ab6f0d51bfaded05",
+  "summary": "Withholding Tax in the Australian version describes WHT as tax withheld from vendor payments, requiring setup of WHT Business Posting Groups and WHT Product Posting Groups with calculation rules, minimum invoice amounts, rates, and revenue types.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendor payments",
+    "australian tax",
+    "tax setup",
+    "posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "WHT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "WHT Revenue Types"
+    }
+  ],
+  "features": [
+    "WHT calculation rules",
+    "WHT minimum invoice amount",
+    "WHT percentage",
+    "Realized WHT type",
+    "Payable WHT account",
+    "Revenue type classification",
+    "Non-ABN supplier withholding",
+    "Foreign supplier withholding"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002182,
+      "pages_in_call": 7
+    }
+  ]
+}

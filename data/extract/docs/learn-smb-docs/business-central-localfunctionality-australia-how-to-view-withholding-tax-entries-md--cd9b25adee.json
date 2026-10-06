@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries",
+  "title": "View Withholding Tax Entries [AU]",
+  "blob": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
+  "summary": "WHT Entry page displays withholding tax entries posted to a general ledger register in the Australian version, showing base amount, calculated WHT amount, calculation method, and unrealized WHT amount.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "withholding tax",
+    "posted entries",
+    "australian tax",
+    "tax calculations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "WHT Entry"
+    },
+    {
+      "type": "page",
+      "name": "G/L Registers"
+    }
+  ],
+  "features": [
+    "Withholding tax viewing",
+    "Base amount display",
+    "WHT calculation details",
+    "Unrealized WHT amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002182,
+      "pages_in_call": 7
+    }
+  ]
+}

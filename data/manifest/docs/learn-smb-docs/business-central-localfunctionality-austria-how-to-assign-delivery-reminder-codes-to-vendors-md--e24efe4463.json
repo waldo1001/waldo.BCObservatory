@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ee4b3364f030c0399bb911eee8a72b7ff9f29a9",
       "words": 39,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:05.230Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002182
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.299Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.306Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.313Z",
+      "page": false
     }
   },
   "input_hash": "5ee4b3364f030c0399bb911eee8a72b7ff9f29a9",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ee4b3364f030c0399bb911eee8a72b7ff9f29a9"
+  "output_hash": "8a9c362cdc4ed07c33403ce10f868d4722defafe6d1303a21681446371777fa5"
 }

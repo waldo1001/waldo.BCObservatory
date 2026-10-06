@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b871a20aeb6093fd194f527f0034f379efd22f39",
       "words": 322,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:00.310Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.001171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.244Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.245Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.246Z",
+      "page": false
     }
   },
   "input_hash": "b871a20aeb6093fd194f527f0034f379efd22f39",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b871a20aeb6093fd194f527f0034f379efd22f39"
+  "output_hash": "eaf1bda3871a925241e262f6fd08860bff88c663370b2e04ebecfe25801e4831"
 }

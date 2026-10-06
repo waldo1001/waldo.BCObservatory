@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-withholding-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7052b94cc47dc6082aa8f04700fbaf1d2868217b",
       "words": 249,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:00.314Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.255Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.256Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.257Z",
+      "page": false
     }
   },
   "input_hash": "7052b94cc47dc6082aa8f04700fbaf1d2868217b",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7052b94cc47dc6082aa8f04700fbaf1d2868217b"
+  "output_hash": "1c4ad1df55e42c3815e9c6518f8aad8a516a64ffeae81e951b736a8d55e44d04"
 }

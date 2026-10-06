@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
       "words": 15,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.360Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.430Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.432Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.433Z",
+      "page": false
     }
   },
   "input_hash": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bcd881ecad7426df24ff82aa3e78d045f6d4902"
+  "output_hash": "6b201cbb4ef863c2636a1fbddae0402303cabc7bc9b27fb471726494ed7e896b"
 }

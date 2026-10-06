@@ -1,0 +1,88 @@
+{
+  "video_id": "6WVsS3j-HTw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.5,
+      "end": 14,
+      "text": "In this video we're going to look at how to enter in receivables, cash receipts in Dynamics SL, and compare that to the experience of entering those customer payments in Dynamics 365 Business Central."
+    },
+    {
+      "t": 14,
+      "end": 25.2,
+      "text": "In my SL system, I'll go to accounts receivable and the payment application screen to enter a cash receipt and apply that payment we received from one of our customers."
+    },
+    {
+      "t": 25.2,
+      "end": 44.2,
+      "text": "I'll go ahead and select the customer that sent us the payment. Enter the customer payment number as well as the payment amount. I can then select the auto apply tab and auto apply button, or I can find the invoice or invoices the customer is paying in the grid below."
+    },
+    {
+      "t": 44.2,
+      "end": 53.9,
+      "text": "Once I have found the invoice, I can enter the amount to apply in the grid and then save and release the batch."
+    },
+    {
+      "t": 56.4,
+      "end": 63,
+      "text": "Now let's see how we can enter in cash receipts in Business Central."
+    },
+    {
+      "t": 63,
+      "end": 76.2,
+      "text": "To create customer payments in Business Central, we'll select the search icon and enter in the cash receipts journals. Once the search result appears, we can go ahead and select it from the list."
+    },
+    {
+      "t": 76.2,
+      "end": 87.5,
+      "text": "In the cash receipts journal, we can record a payment for a specific customer, Trey Research. Change the account type to customer and select our customer, Trey Research."
+    },
+    {
+      "t": 87.5,
+      "end": 101,
+      "text": "Once I've selected the customer, I can navigate over to the apply to documents number column by selecting the lookup. Here I can see all of the outstanding invoices the customer currently has with us."
+    },
+    {
+      "t": 101,
+      "end": 113.4,
+      "text": "I can go ahead and find the invoice, select it, and then choose okay. You can see how the payment amount has automatically defaulted in for us, and I can post my cash receipt."
+    },
+    {
+      "t": 113.4,
+      "end": 122.6,
+      "text": "In addition to cash receipts journals, you can also use the customer register payments window to record customer payments."
+    },
+    {
+      "t": 122.6,
+      "end": 134.6,
+      "text": "Again, I'll select the search icon and this time type in customer register payments and select it from the search results. In this window, we can see all outstanding invoices for all of our customers."
+    },
+    {
+      "t": 134.6,
+      "end": 145.4,
+      "text": "However, we want to filter the list down to just see the outstanding invoices for Trey Research. I'll select Trey Research and then filter on that value."
+    },
+    {
+      "t": 145.4,
+      "end": 160.6,
+      "text": "Now we can see only the invoices for Trey Research. I can find and select a single invoice that the customer sent a payment for. Select the checkbox and it will automatically enter in the amount and date received."
+    },
+    {
+      "t": 160.6,
+      "end": 171.6,
+      "text": "Then I go ahead and post the payment once everything has been entered correctly. If the customer was sending a payment for more than one invoice, I can select multiple invoices"
+    },
+    {
+      "t": 171.6,
+      "end": 188.3,
+      "text": "in the window and then back under posting select to post as a lump sum payment. In this video, we've seen how Business Central provides a simple and easy way to record customer payments, allowing for a more streamlined cash receipt process."
+    },
+    {
+      "t": 188.3,
+      "end": 194.6,
+      "text": "To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 485
+}

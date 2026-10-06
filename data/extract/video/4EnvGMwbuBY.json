@@ -1,0 +1,217 @@
+{
+  "video_id": "4EnvGMwbuBY",
+  "item_id": "video/yt-microsoft/4EnvGMwbuBY",
+  "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
+  "duration_s": 256,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "subaccount segments",
+    "dimensions",
+    "chart of accounts",
+    "gl setup",
+    "migration",
+    "reporting analysis",
+    "dimension values",
+    "flex key"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to subaccount segments",
+      "t_start": 0,
+      "t_end": 40
+    },
+    {
+      "title": "Subaccount segments in Dynamics SL",
+      "t_start": 40,
+      "t_end": 79.2
+    },
+    {
+      "title": "Segment values and lookup",
+      "t_start": 79.2,
+      "t_end": 102.9
+    },
+    {
+      "title": "Migration to Business Central dimensions",
+      "t_start": 102.9,
+      "t_end": 141.9
+    },
+    {
+      "title": "Global and shortcut dimensions setup",
+      "t_start": 141.9,
+      "t_end": 186.4
+    },
+    {
+      "title": "Dimension values and chart of accounts",
+      "t_start": 186.4,
+      "t_end": 219.3
+    },
+    {
+      "title": "Analysis and drill-back functionality",
+      "t_start": 219.3,
+      "t_end": 256
+    }
+  ],
+  "features": [
+    {
+      "name": "Subaccount segments in Dynamics SL",
+      "description": "Dynamics SL allows up to eight subaccount segments defined in the flex key definition screen. Each segment has a specific position and length, used in combination with main accounts to report and record financial data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53,
+      "t_end": 79.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subaccount segments",
+        "flex key",
+        "dynamics sl"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Segment migration to Business Central",
+      "description": "The SL company migration configuration tool allows selection of which segments should be migrated as global dimensions in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.9,
+      "t_end": 129.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "global dimensions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Global and shortcut dimensions",
+      "description": "Business Central has two global dimensions for the most common segments, which can be easily sorted and filtered. Remaining segments are migrated as shortcut dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.5,
+      "t_end": 141.9,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to two global dimensions"
+      ],
+      "tags": [
+        "global dimensions",
+        "shortcut dimensions",
+        "filtering"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General ledger setup for dimensions",
+      "description": "Business Central general ledger setup window displays configured global dimensions. Reporting unit and company segment are shown as global dimensions after migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 153.5,
+      "t_end": 186.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gl setup",
+        "global dimensions",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dimension values management",
+      "description": "Business Central allows viewing and creating dimension values. Users can navigate to a specific dimension and see all segment values, with the ability to add new ones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.4,
+      "t_end": 212.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimension values",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Chart of accounts analysis with dimensions",
+      "description": "Business Central chart of accounts displays main accounts migrated from SL with balances broken out by dimensions like reporting unit and company segment, enabling drill-back analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.3,
+      "t_end": 242.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "chart of accounts",
+        "analysis",
+        "drill-back"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 23.6,
+      "text": "Companies may want to categorize revenue by region and market segments and expenses by department and projects.",
+      "why_it_matters": "Illustrates common use cases for segments in analyzing profit and loss accounts by multiple business dimensions.",
+      "check": "exact"
+    },
+    {
+      "t": 53,
+      "text": "There can be up to eight sub account segments defined in the flex key definition screen in Dynamics SL.",
+      "why_it_matters": "Establishes the maximum number of segments available in Dynamics SL for chart of accounts analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 102.9,
+      "text": "In the SL company migration configuration tool, you can include which segments you would like to be global dimensions.",
+      "why_it_matters": "Shows that segment-to-dimension mapping is configurable during migration, giving control over which segments become global dimensions.",
+      "check": "exact"
+    },
+    {
+      "t": 117.1,
+      "text": "Dimensions in Business Central let you categorize and analyze transactions posted to the chart of accounts instead of creating separate ledger accounts.",
+      "why_it_matters": "Explains the functional equivalence between SL subaccount segments and BC dimensions in reducing chart of accounts complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 141.9,
+      "text": "dimensions the remainder of your segments will be migrated as shortcut dimensions",
+      "why_it_matters": "Key design decision: Business Central is limited to two global dimensions with excess segments becoming shortcut dimensions, a structural difference from SL.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013916
+    }
+  ]
+}

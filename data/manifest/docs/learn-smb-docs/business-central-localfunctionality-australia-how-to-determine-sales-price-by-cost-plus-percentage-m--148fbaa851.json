@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2a538a61ccfcb15f6e500a8509c4c97b04de2da7",
       "words": 19,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.361Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.435Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.436Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.437Z",
+      "page": false
     }
   },
   "input_hash": "2a538a61ccfcb15f6e500a8509c4c97b04de2da7",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a538a61ccfcb15f6e500a8509c4c97b04de2da7"
+  "output_hash": "38a8e246db486048b297b5d5193b9939b5c128c5401a5b3540a6e3b60fcf316e"
 }

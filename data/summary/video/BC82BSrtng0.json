@@ -1,0 +1,26 @@
+{
+  "video_id": "BC82BSrtng0",
+  "item_id": "video/yt-microsoft/BC82BSrtng0",
+  "summary": "Dynamics SL subaccount segments compared with Business Central dimensions: segments migrate as dimensions via the cloud migration tool. The video demos default dimensions on vendors, automatic defaulting on purchase invoices, posting preview, and the Trial Balance Dimension Report.",
+  "overview": "The video, a 4-minute walkthrough published 2024-07-26, compares how Dynamics SL posts transactions using subaccount segments with how Business Central uses dimensions. In SL, the batch control report shows debit and credit accounts with their sub account segments.\n\nIt then shows the Business Central side: segments defined in SL migrate as dimensions, default dimensions are set on a vendor, and those values populate on purchase invoices. It finishes with previewing a posting before the journal is posted and analyzing results in the trial balance report by dimension.",
+  "key_points": [
+    "Segments defined in Dynamics SL migrate to Business Central as dimensions using the cloud migration tool.",
+    "Default dimensions can be assigned on vendor records and populate automatically on transactions for that vendor.",
+    "Setting the value posting to code mandatory enforces that a dimension value exists on transactions; this is optional based on business needs.",
+    "On a purchase invoice, defaulted dimension values show in the fact box without manual entry.",
+    "Posting preview in Business Central lets you check the accounts before posting a journal, similar to the distributions button in SL.",
+    "The Trial Balance Dimension Report shows amounts posted to main accounts and can be filtered by dimensions such as reporting unit and company segment."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "88d6bcb89c22472c2efaec87a9d4678a706f6206935a5e5bc6324aaa95f856c8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013630399999999997
+  }
+}

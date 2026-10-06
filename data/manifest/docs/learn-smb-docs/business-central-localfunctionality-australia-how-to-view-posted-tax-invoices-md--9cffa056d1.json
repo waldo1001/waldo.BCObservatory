@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "980189fc7faad76017c4229e41b1bcfa4597f13b",
       "words": 141,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:05.226Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002182
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.259Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.260Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.261Z",
+      "page": false
     }
   },
   "input_hash": "980189fc7faad76017c4229e41b1bcfa4597f13b",
@@ -63,5 +82,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "980189fc7faad76017c4229e41b1bcfa4597f13b"
+  "output_hash": "14ab13375aeed219517497fa33705dbac7d438452125299107efdfc7c0d6d160"
 }

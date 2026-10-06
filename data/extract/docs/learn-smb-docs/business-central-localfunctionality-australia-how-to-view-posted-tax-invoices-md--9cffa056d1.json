@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices",
+  "title": "View Posted Tax Invoices [AU]",
+  "blob": "980189fc7faad76017c4229e41b1bcfa4597f13b",
+  "summary": "Posted Sales Tax Invoice and Posted Purchase Tax Invoice pages enable viewing details of posted sales and purchase tax invoices in the Australian version, with sections for general, invoicing, shipping, and foreign trade information.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax invoices",
+    "posted documents",
+    "australian tax",
+    "invoice details"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Tax Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Tax Invoice"
+    }
+  ],
+  "features": [
+    "Tax invoice viewing",
+    "General information display",
+    "Invoicing details",
+    "Shipping information",
+    "Foreign trade information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002182,
+      "pages_in_call": 7
+    }
+  ]
+}

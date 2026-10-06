@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "44788386d75118f440dafecfe65c288cfb36b5d6",
       "words": 19,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.359Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.428Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.428Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.429Z",
+      "page": false
     }
   },
   "input_hash": "44788386d75118f440dafecfe65c288cfb36b5d6",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44788386d75118f440dafecfe65c288cfb36b5d6"
+  "output_hash": "0b30b0bee621e2140a225b2f71643df2b3c17e98e934da7f2c937cf2f2946421"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
       "words": 138,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:05.227Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002182
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.262Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.264Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.265Z",
+      "page": false
     }
   },
   "input_hash": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c132866e7ce50fde96acf2b702e6844e55a7dcf"
+  "output_hash": "d594b260e9c156a6e070283b395fcd6d8f25a794580579ab7a0bd5873d95a01c"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7",
       "words": 16,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:00.307Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:00.315Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:00.316Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:00.316Z",
+      "page": false
     }
   },
   "input_hash": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7"
+  "output_hash": "f25c2292fb6150ee5f28546f4c7a987a7bcfb029ed56045164c1f25d03679eed"
 }

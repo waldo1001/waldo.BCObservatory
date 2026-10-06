@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "812283f7e95ee84a97b465ab737e56233644a13f",
       "words": 71,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:00.311Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.247Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.249Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.250Z",
+      "page": false
     }
   },
   "input_hash": "812283f7e95ee84a97b465ab737e56233644a13f",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "812283f7e95ee84a97b465ab737e56233644a13f"
+  "output_hash": "bbc99649823bcca9c528349404076b398299bc1ccddb93660f82e8c8a8501e72"
 }

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-print-income-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements",
+  "title": "Print income statements [AU]",
+  "blob": "6166aa38a0ddfcbf1b1f0a51f065640cd9cd3b7a",
+  "summary": "Print the annual income statement report required for auditing accounts in the Australian version, showing revenues and expenses for current and prior years.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "australia",
+    "income statement",
+    "financial reporting",
+    "audit"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Income Statement"
+    }
+  ],
+  "features": [
+    "rounding to nearest unit",
+    "additional reporting currency display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001171,
+      "pages_in_call": 7
+    }
+  ]
+}

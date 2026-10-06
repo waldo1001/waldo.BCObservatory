@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1e86627a9de11f83afc3b9972fa7c2da1558c6fb",
       "words": 100,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.356Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:48.366Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:48.367Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:48.368Z",
+      "page": false
     }
   },
   "input_hash": "1e86627a9de11f83afc3b9972fa7c2da1558c6fb",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1e86627a9de11f83afc3b9972fa7c2da1558c6fb"
+  "output_hash": "d2099bb7bb3fd78645050b666b8df76bb843bdfb7b20c8388a4c372f4a96ac86"
 }

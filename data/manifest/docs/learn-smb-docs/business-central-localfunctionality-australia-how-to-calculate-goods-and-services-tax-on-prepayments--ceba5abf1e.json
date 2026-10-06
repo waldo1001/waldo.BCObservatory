@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a7dcdc352850bd3893bfd7ef5594d39d5f78de2a",
       "words": 21,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:48.357Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.000953
+    },
+    "summarized": {
+      "at": "2026-10-06T19:30:49.425Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:30:49.426Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:30:49.427Z",
+      "page": false
     }
   },
   "input_hash": "a7dcdc352850bd3893bfd7ef5594d39d5f78de2a",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7dcdc352850bd3893bfd7ef5594d39d5f78de2a"
+  "output_hash": "e07f63128738579f450c0acd1cb60ca4c051e37767dca913c2302c03660232fc"
 }

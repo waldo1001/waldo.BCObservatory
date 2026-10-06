@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a3e26bd65869846f7200e957ab6f0d51bfaded05",
       "words": 570,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:05.228Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002182
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:05.272Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:05.274Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:05.281Z",
+      "page": false
     }
   },
   "input_hash": "a3e26bd65869846f7200e957ab6f0d51bfaded05",
@@ -96,5 +115,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3e26bd65869846f7200e957ab6f0d51bfaded05"
+  "output_hash": "5ac00968a4b2eb64c6903a67838c68337a44f459f1a9e8dab88dc3eee0877391"
 }

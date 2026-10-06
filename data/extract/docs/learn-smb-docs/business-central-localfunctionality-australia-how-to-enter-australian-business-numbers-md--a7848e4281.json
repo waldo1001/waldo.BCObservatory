@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers",
+  "title": "How to Enter Australian Business Numbers in the Australian version",
+  "blob": "9d86d1ea393b33ad14905ca0fc54acb637080949",
+  "summary": "Enter Australian Business Numbers (ABN) in company and vendor records with validation by the local tax office algorithm.",
+  "systems": [
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "australian business number",
+    "abn",
+    "registration",
+    "australia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "ABN entry",
+    "ABN validation",
+    "ABN division part number",
+    "business registration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.000953,
+      "pages_in_call": 8
+    }
+  ]
+}

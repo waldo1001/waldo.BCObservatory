@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements",
+  "title": "Calculate and Post Withholding Tax Settlements (AU)",
+  "blob": "1e86627a9de11f83afc3b9972fa7c2da1558c6fb",
+  "summary": "Calculate and post withholding tax (WHT) settlements for Australian tax reporting, closing open WHT entries and transferring amounts to settlement accounts with rounding adjustments.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "withholding tax",
+    "tax settlement",
+    "australia",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Calc. and Post WHT Settlement"
+    }
+  ],
+  "features": [
+    "withholding tax settlement",
+    "WHT entry closure",
+    "rounding account",
+    "tax authority reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.000953,
+      "pages_in_call": 8
+    }
+  ]
+}
