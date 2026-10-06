@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.feature.json",
+  "title": "Frontmatter of a feature page (content/features/<roadmapId>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "roadmap_id",
+    "wave",
+    "status",
+    "roadmap_status",
+    "ga_date",
+    "preview_date",
+    "area"
+  ],
+  "properties": {
+    "type": {
+      "const": "feature"
+    },
+    "roadmap_id": {
+      "type": "string",
+      "pattern": "^\\d+$"
+    },
+    "wave": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "e.g. 2026 release wave 2, derived from the GA month"
+    },
+    "status": {
+      "enum": [
+        "preview",
+        "ga",
+        "announced",
+        "unclear"
+      ]
+    },
+    "roadmap_status": {
+      "type": "string",
+      "description": "the M365 roadmap's own status text"
+    },
+    "release_phase": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ga_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "month as YYYY-MM"
+    },
+    "preview_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "area": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "whatsnew_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "localizations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objects_touched": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

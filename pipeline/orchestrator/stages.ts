@@ -11,12 +11,14 @@ import { captionedHandler, fetchedHandler } from "../caption/fetch.js";
 import { extractedHandler } from "../extract/video.js";
 import { gitPageFetched } from "../fetch/git-page.js";
 import { docsExtractedHandler, passThrough } from "../extract/docs.js";
+import { featurePublished } from "../render/feature.js";
 import { linkedHandler, publishedHandler } from "../render/video.js";
 import { reviewedHandler } from "../review/video.js";
 import { summarizedHandler } from "../summarize/video.js";
 import type { StageHandlers } from "./execute.js";
 
 export const STAGE_HANDLERS: StageHandlers = {
+  roadmap: { fetched: passThrough({ from: "snapshot" }), linked: passThrough({}), published: featurePublished() },
   docs: {
     fetched: gitPageFetched(),
     extracted: docsExtractedHandler(),

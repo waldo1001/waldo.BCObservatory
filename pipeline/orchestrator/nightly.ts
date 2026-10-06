@@ -37,6 +37,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex } from "../render/video.js";
 import { renderTopics } from "../render/topic.js";
+import { renderFeatureIndex } from "../render/feature.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
 import { flatPlaylist } from "../caption/ytdlp.js";
@@ -167,6 +168,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     });
     report.execution = execution;
     renderVideoIndex(contentDirOf(opts));
+    renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     report.hubs = await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: report.execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
     });

@@ -1,25 +1,300 @@
 {
-  "$comment": "Galaxy systems. Every hub belongs to exactly one system (node.group). Aliases help the Haiku classifier and the Learn TOC mapper.",
+  "$comment": "Galaxy systems. Every hub belongs to exactly one system (node.group). Aliases help the Haiku classifier and the Learn TOC mapper. roadmap_areas maps M365 roadmap area names (as Microsoft spells them, typos included) to systems; unknown areas fall back to alias matching.",
   "systems": [
-    { "id": "finance", "label": "Finance", "aliases": ["general ledger", "g/l", "accounting", "vat", "bank", "cash flow", "dimensions", "posting groups", "cost accounting", "consolidation", "intercompany"] },
-    { "id": "sales", "label": "Sales & Receivables", "aliases": ["sales order", "customer", "quote", "invoice", "credit memo", "prices", "discounts", "receivables", "reminders"] },
-    { "id": "purchasing", "label": "Purchasing & Payables", "aliases": ["purchase order", "vendor", "payables", "requisition", "approval"] },
-    { "id": "inventory", "label": "Inventory", "aliases": ["item", "item tracking", "costing", "planning", "mrp", "stockkeeping", "transfer order", "availability"] },
-    { "id": "warehouse", "label": "Warehouse", "aliases": ["bin", "pick", "put-away", "shipment", "receipt", "wms", "directed put-away"] },
-    { "id": "manufacturing", "label": "Manufacturing", "aliases": ["production order", "bom", "routing", "capacity", "work center", "subcontracting"] },
-    { "id": "projects", "label": "Projects", "aliases": ["job", "jobs", "project", "resource", "time sheet", "wip"] },
-    { "id": "service", "label": "Service Management", "aliases": ["service order", "service contract", "service item"] },
-    { "id": "assembly", "label": "Assembly", "aliases": ["assembly order", "assemble-to-order", "kit"] },
-    { "id": "fixed-assets", "label": "Fixed Assets", "aliases": ["fa", "depreciation", "insurance", "maintenance"] },
-    { "id": "crm", "label": "Relationship Management", "aliases": ["contact", "campaign", "opportunity", "segment", "interaction", "outlook"] },
-    { "id": "hr", "label": "Human Resources", "aliases": ["employee", "absence"] },
-    { "id": "sustainability", "label": "Sustainability", "aliases": ["esg", "emissions", "carbon", "csrd"] },
-    { "id": "reporting", "label": "Reporting & Analytics", "aliases": ["report", "power bi", "financial reports", "account schedules", "analysis mode", "excel", "word layout", "query"] },
-    { "id": "copilot", "label": "Copilot & Agents", "aliases": ["copilot", "agent", "ai", "mcp", "sales order agent", "payables agent", "chat", "prompt", "azure openai", "autofill", "summarize"] },
-    { "id": "integration", "label": "Integration & APIs", "aliases": ["api", "odata", "web service", "dataverse", "dynamics 365 sales", "shopify", "e-document", "edi", "power automate", "power apps", "fabric", "data mirroring", "connector"] },
-    { "id": "administration", "label": "Administration & Setup", "aliases": ["admin center", "tenant", "environment", "company", "permission", "security group", "setup", "assisted setup", "data migration", "retention", "profile", "role center"] },
-    { "id": "localization", "label": "Localizations", "aliases": ["country", "local functionality", "intrastat", "sepa", "e-invoicing", "tax", "1099", "gdpdu", "qr-bill"] },
-    { "id": "development", "label": "AL Development", "aliases": ["al", "extension", "codeunit", "table", "page", "event", "interface", "namespace", "al language", "vs code", "analyzer", "compiler", "testability", "permission set"] },
-    { "id": "platform", "label": "Platform, DevOps & Performance", "aliases": ["al-go", "pipeline", "docker", "container", "telemetry", "application insights", "performance", "database", "sql", "upgrade", "update", "release", "wave", "deprecation", "obsolete", "web client", "user experience"] }
-  ]
+    {
+      "id": "finance",
+      "label": "Finance",
+      "aliases": [
+        "general ledger",
+        "g/l",
+        "accounting",
+        "vat",
+        "bank",
+        "cash flow",
+        "dimensions",
+        "posting groups",
+        "cost accounting",
+        "consolidation",
+        "intercompany"
+      ]
+    },
+    {
+      "id": "sales",
+      "label": "Sales & Receivables",
+      "aliases": [
+        "sales order",
+        "customer",
+        "quote",
+        "invoice",
+        "credit memo",
+        "prices",
+        "discounts",
+        "receivables",
+        "reminders"
+      ]
+    },
+    {
+      "id": "purchasing",
+      "label": "Purchasing & Payables",
+      "aliases": [
+        "purchase order",
+        "vendor",
+        "payables",
+        "requisition",
+        "approval"
+      ]
+    },
+    {
+      "id": "inventory",
+      "label": "Inventory",
+      "aliases": [
+        "item",
+        "item tracking",
+        "costing",
+        "planning",
+        "mrp",
+        "stockkeeping",
+        "transfer order",
+        "availability"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "label": "Warehouse",
+      "aliases": [
+        "bin",
+        "pick",
+        "put-away",
+        "shipment",
+        "receipt",
+        "wms",
+        "directed put-away"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "aliases": [
+        "production order",
+        "bom",
+        "routing",
+        "capacity",
+        "work center",
+        "subcontracting"
+      ]
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "aliases": [
+        "job",
+        "jobs",
+        "project",
+        "resource",
+        "time sheet",
+        "wip"
+      ]
+    },
+    {
+      "id": "service",
+      "label": "Service Management",
+      "aliases": [
+        "service order",
+        "service contract",
+        "service item"
+      ]
+    },
+    {
+      "id": "assembly",
+      "label": "Assembly",
+      "aliases": [
+        "assembly order",
+        "assemble-to-order",
+        "kit"
+      ]
+    },
+    {
+      "id": "fixed-assets",
+      "label": "Fixed Assets",
+      "aliases": [
+        "fa",
+        "depreciation",
+        "insurance",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "crm",
+      "label": "Relationship Management",
+      "aliases": [
+        "contact",
+        "campaign",
+        "opportunity",
+        "segment",
+        "interaction",
+        "outlook"
+      ]
+    },
+    {
+      "id": "hr",
+      "label": "Human Resources",
+      "aliases": [
+        "employee",
+        "absence"
+      ]
+    },
+    {
+      "id": "sustainability",
+      "label": "Sustainability",
+      "aliases": [
+        "esg",
+        "emissions",
+        "carbon",
+        "csrd"
+      ]
+    },
+    {
+      "id": "reporting",
+      "label": "Reporting & Analytics",
+      "aliases": [
+        "report",
+        "power bi",
+        "financial reports",
+        "account schedules",
+        "analysis mode",
+        "excel",
+        "word layout",
+        "query"
+      ]
+    },
+    {
+      "id": "copilot",
+      "label": "Copilot & Agents",
+      "aliases": [
+        "copilot",
+        "agent",
+        "ai",
+        "mcp",
+        "sales order agent",
+        "payables agent",
+        "chat",
+        "prompt",
+        "azure openai",
+        "autofill",
+        "summarize"
+      ]
+    },
+    {
+      "id": "integration",
+      "label": "Integration & APIs",
+      "aliases": [
+        "api",
+        "odata",
+        "web service",
+        "dataverse",
+        "dynamics 365 sales",
+        "shopify",
+        "e-document",
+        "edi",
+        "power automate",
+        "power apps",
+        "fabric",
+        "data mirroring",
+        "connector"
+      ]
+    },
+    {
+      "id": "administration",
+      "label": "Administration & Setup",
+      "aliases": [
+        "admin center",
+        "tenant",
+        "environment",
+        "company",
+        "permission",
+        "security group",
+        "setup",
+        "assisted setup",
+        "data migration",
+        "retention",
+        "profile",
+        "role center"
+      ]
+    },
+    {
+      "id": "localization",
+      "label": "Localizations",
+      "aliases": [
+        "country",
+        "local functionality",
+        "intrastat",
+        "sepa",
+        "e-invoicing",
+        "tax",
+        "1099",
+        "gdpdu",
+        "qr-bill"
+      ]
+    },
+    {
+      "id": "development",
+      "label": "AL Development",
+      "aliases": [
+        "al",
+        "extension",
+        "codeunit",
+        "table",
+        "page",
+        "event",
+        "interface",
+        "namespace",
+        "al language",
+        "vs code",
+        "analyzer",
+        "compiler",
+        "testability",
+        "permission set"
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform, DevOps & Performance",
+      "aliases": [
+        "al-go",
+        "pipeline",
+        "docker",
+        "container",
+        "telemetry",
+        "application insights",
+        "performance",
+        "database",
+        "sql",
+        "upgrade",
+        "update",
+        "release",
+        "wave",
+        "deprecation",
+        "obsolete",
+        "web client",
+        "user experience"
+      ]
+    }
+  ],
+  "roadmap_areas": {
+    "Adapt faster with Power Platform": "integration",
+    "Copilot and agents": "copilot",
+    "Development": "development",
+    "E-Documents": "integration",
+    "Ecommerce": "integration",
+    "Expense Agent": "copilot",
+    "Finance": "finance",
+    "Governance and administration": "administration",
+    "Reporting and data analysis": "reporting",
+    "Service and platform": "platform",
+    "Supply Chain Management": "inventory",
+    "Sustainability Management": "sustainability",
+    "Sustainabilty Management": "sustainability",
+    "User experience": "platform",
+    "User experiences": "platform"
+  }
 }
