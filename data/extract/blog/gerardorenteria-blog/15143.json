@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15143",
+  "url": "https://gerardorenteria.blog/2026/08/09/%f0%9f%a7%a9-deriving-dimensions-in-business-central-beyond-default-dimensions/",
+  "title": "🧩 Deriving dimensions in Business Central beyond Default Dimensions",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-08-09T15:01:49.000Z",
+  "words": 2869,
+  "summary": "The OnAfterGetRecDefaultDimIDProcedure integration event in the DimensionManagement codeunit fires after Business Central calculates default dimensions, allowing you to extend or modify dimension sets with custom logic. This approach demonstrates five scenarios: deriving dimensions from document fields, other dimensions, related tables, historical data, and overriding with higher-priority rules.",
+  "key_points": [
+    "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code",
+    "Use two helper procedures: StageDim to prepare dimensions in a temporary buffer and CommitStagedDims to merge them into the document's dimension set",
+    "Derive dimensions from multiple sources: document fields, already-calculated dimensions, related table lookups, and historical customer data",
+    "Force dimension recalculation by subscribing to field OnAfterValidateEvent when Business Central doesn't automatically recalculate",
+    "Override previously derived dimensions with higher-priority rules in the same event to implement conditional logic"
+  ],
+  "systems": [
+    "sales",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "dimensions",
+    "integration events",
+    "sales documents",
+    "al development",
+    "dimension set management",
+    "custom logic",
+    "event subscribers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "DimensionManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGCustomerDimSubs"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGDerivedDimMgt"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    }
+  ],
+  "features": [
+    "dimension derivation",
+    "integration events",
+    "default dimensions",
+    "dimension set modification",
+    "custom dimension logic",
+    "dimension value inheritance",
+    "dimension recalculation triggering",
+    "dimension override rules"
+  ],
+  "versions": [],
+  "language": "es",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.021843,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "La idea es sencilla: primero preparas en memoria lo que quieres cambiar, luego lo aplicas de golpe sobre el set real.",
+      "why_it_matters": "Describes the two-step pattern (StageDim then CommitStagedDims) that avoids repeating logic across scenarios"
+    }
+  ]
+}

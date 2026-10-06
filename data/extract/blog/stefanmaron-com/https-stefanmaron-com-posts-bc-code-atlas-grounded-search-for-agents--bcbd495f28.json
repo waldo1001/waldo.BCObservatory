@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
+  "url": "https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
+  "title": "Introducing bc-code-atlas: Real BC Source for Coding Agents, Not a Guess",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-10T05:00:00.000Z",
+  "words": 1023,
+  "summary": "bc-code-atlas is an MCP server that provides AI coding agents with grounded, verifiable access to BC's Base Application source code across versions and countries, eliminating hallucinations by linking every result back to real AL files through semantic search and exact-source lookups.",
+  "key_points": [
+    "Addresses AI agent hallucination by ensuring all code results are verifiable against actual BC source files",
+    "Offers semantic search for behavior-based discovery and exact structural graph analysis for precise call tracing",
+    "Supports diffing symbols across BC versions and country variants to track real code changes",
+    "Built on graphify-al for AL language parsing and tree-sitter-al integration"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "ai agents",
+    "source code search",
+    "al development",
+    "code verification",
+    "mcp server",
+    "base application"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SalesLineReserve"
+    },
+    {
+      "type": "table",
+      "name": "SalesLine"
+    }
+  ],
+  "features": [
+    "Semantic search by meaning",
+    "Exact structural graph analysis",
+    "Version and country variant diffing",
+    "Procedure body lookup",
+    "Object source retrieval",
+    "MCP server integration"
+  ],
+  "versions": [
+    "BC 28.1",
+    "BC 28.2",
+    "multiple major versions (10-11)"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006064,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

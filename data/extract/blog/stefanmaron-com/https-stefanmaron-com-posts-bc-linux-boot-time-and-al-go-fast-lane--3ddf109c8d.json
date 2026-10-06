@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/",
+  "url": "https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/",
+  "title": "BC on Linux: A Working Web Client, Faster Boots, Local Dev on Mac and Linux, and a Fast Lane in AL-Go",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-10T05:00:00.000Z",
+  "words": 1307,
+  "summary": "Running Business Central on Linux now supports a working web client for local development, achieving cold boot times of 79 seconds and test runs of 1,067 tests in 69 seconds. The project includes AL-Go integration with a Linux fast lane for pull requests and snapshot-based caching for even faster development cycles.",
+  "key_points": [
+    "Web client works on Linux with field edits persisting and direct URL navigation, enabling true local development without Windows",
+    "Cold boot time reduced from 209 to 79 seconds by fixing cache lookup paths; persistent test connections run 1,067 tests in 69 seconds",
+    "BC 29 supported with proper .NET runtime selection; artifact downloads now consistent with parallel downloading and automatic retry",
+    "AL-Go fork offers linuxFastLane setting for PR builds on Linux without Windows runners; snapshot mode restores BC in as little as 16 seconds for local setups"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "linux",
+    "local development",
+    "web client",
+    "performance",
+    "al-go",
+    "testing",
+    "docker",
+    "ci/cd"
+  ],
+  "objects": [],
+  "features": [
+    "web client on Linux",
+    "persistent test connections",
+    "snapshot mode",
+    "linuxFastLane",
+    "automatic caching",
+    "parallel artifact downloading",
+    "BC 29 support"
+  ],
+  "versions": [
+    "BC 29"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006742,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "1,067 tests across 151 codeunits, all passing, in 69 seconds total.",
+      "why_it_matters": "Demonstrates real-world performance gains from persistent connections across test runs in production scenarios."
+    }
+  ]
+}

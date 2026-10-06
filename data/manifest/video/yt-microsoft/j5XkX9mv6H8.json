@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Enable Telemetry in Online Business Central Environments",
   "url": "https://www.youtube.com/watch?v=j5XkX9mv6H8",
-  "published_at": null,
+  "published_at": "2023-12-05T11:06:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:47.139Z",
+      "captions": "auto:en-orig",
+      "duration_s": 127
+    },
+    "captioned": {
+      "at": "2026-10-06T21:44:03.266Z",
+      "path": "data/captions/microsoft/j5XkX9mv6H8.vtt",
+      "vtt_sha256": "34e8e6190147286ae04760f00e2fb484a8624534b1c5ac526c8155a331665304",
+      "segments": 10,
+      "words": 285,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 500,
-    "duration_s": 128,
-    "via": "reconcile"
-  }
+    "duration_s": 127,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34e8e6190147286ae04760f00e2fb484a8624534b1c5ac526c8155a331665304"
 }

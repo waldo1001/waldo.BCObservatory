@@ -1,0 +1,136 @@
+{
+  "video_id": "5zXQ_aIT03s",
+  "item_id": "video/yt-microsoft/5zXQ_aIT03s",
+  "title": "Control When People Can Post to the General Ledger",
+  "duration_s": 104,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "posting control",
+    "general ledger setup",
+    "accounting periods",
+    "user permissions",
+    "posting dates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to posting control",
+      "t_start": 0,
+      "t_end": 15.2
+    },
+    {
+      "title": "General ledger setup overview",
+      "t_start": 15.2,
+      "t_end": 26.5
+    },
+    {
+      "title": "Company-wide posting period settings",
+      "t_start": 26.5,
+      "t_end": 51.4
+    },
+    {
+      "title": "User-level posting exceptions",
+      "t_start": 51.4,
+      "t_end": 76
+    },
+    {
+      "title": "Summary and use case",
+      "t_start": 76,
+      "t_end": 104
+    }
+  ],
+  "features": [
+    {
+      "name": "Allow posting from and allow posting to fields",
+      "description": "Fields in general ledger setup that control the date range during which posting to the general ledger is permitted company-wide. Can be set to specific months like November through December.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.5,
+      "t_end": 51.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting control",
+        "general ledger setup",
+        "accounting periods"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "User-level posting period override",
+      "description": "The ability to override company-wide posting date restrictions at the user setup page, allowing specific users like accountants to post in periods when others cannot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.4,
+      "t_end": 76,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user permissions",
+        "posting control",
+        "accounting periods"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "general ledger setup",
+      "t": 15.2
+    },
+    {
+      "type": "page",
+      "name": "user setup page",
+      "t": 51.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 26.5,
+      "text": "you'll see that I've allowed posting with these two fields, allow posting from and allow posting to, to happen in the month of November",
+      "why_it_matters": "Explains the core feature for setting company-wide posting date ranges in general ledger setup",
+      "check": "exact"
+    },
+    {
+      "t": 38.4,
+      "text": "since we're now closing down November, I don't want people to post in November anymore. So, what I'm going to do is I is",
+      "why_it_matters": "Shows a practical use case for tightening posting restrictions as accounting periods close",
+      "check": "exact"
+    },
+    {
+      "t": 51.4,
+      "text": "I still want to allow some people to post in November. And this can then be overwritten at the user setup page",
+      "why_it_matters": "Demonstrates that user-level exceptions can override company-wide posting restrictions",
+      "check": "exact"
+    },
+    {
+      "t": 76,
+      "text": "lock a posting or a period down for a for the entire company while opening up for a few select people who are in",
+      "why_it_matters": "Describes the design pattern for maintaining control while allowing selective exceptions for accountants",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009330999999999999
+    }
+  ]
+}

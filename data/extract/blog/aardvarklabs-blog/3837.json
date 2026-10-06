@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3837",
+  "url": "https://aardvarklabs.blog/2026/08/07/background-page-tasks-in-business-central-explained/",
+  "title": "Background Page Tasks in Business Central Explained",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-08-07T12:00:00.000Z",
+  "words": 982,
+  "summary": "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete. Introduced in Business Central 2019 Wave 2, they prevent users from repeatedly refreshing pages while waiting for operations to finish by using the OnPageBackgroundTaskCompleted trigger to update data and UI automatically.",
+  "key_points": [
+    "Background page tasks were introduced in BC 15.2 (2019 Wave 2) and handle periodic page refreshes without user intervention",
+    "Architecture requires a static Card page with an embedded ListPart that performs the refresh, coordinated through the StartRefresh procedure",
+    "The OnPageBackgroundTaskCompleted trigger fires when a background task finishes, allowing re-queuing of tasks and automatic data refresh via the RefreshData procedure",
+    "Beyond auto-refresh, background tasks excel at monitoring long-running work like posting routines, displaying messages, navigating pages, or triggering AI processes upon completion",
+    "Task tracking uses an integer variable (PbtTaskId) to ensure the correct background task result is processed without intercepting other tasks"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "background tasks",
+    "page refresh",
+    "page design",
+    "auto-refresh",
+    "long-running processes",
+    "sales orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ARD_Order Monitor"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ReleasedSalesOrder"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_AutoRefreshDelay"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    }
+  ],
+  "features": [
+    "Page background tasks",
+    "OnPageBackgroundTaskCompleted trigger",
+    "EnqueueBackgroundTask method",
+    "Auto-refresh capability",
+    "ListPart embedding",
+    "Long-running process monitoring"
+  ],
+  "versions": [
+    "15.2",
+    "2019 Wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007371,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "When ANY page background task is completed the OnPageBackgroundTaskCompleted trigger fires.",
+      "why_it_matters": "This is the core mechanism that enables automatic response to background task completion without user action."
+    },
+    {
+      "text": "The auto refresh example is fine, but the start long running work and auto refresh when complete is a much better use case.",
+      "why_it_matters": "Identifies the practical value of background tasks beyond simple refresh scenarios, such as monitoring posting routines or long-running operations."
+    }
+  ]
+}

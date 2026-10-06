@@ -1,0 +1,58 @@
+{
+  "video_id": "j5XkX9mv6H8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0,
+      "end": 13.8,
+      "text": "How to enable telemetry in Business Central online environments. To enable telemetry for a Business Central online environment, you go to the tenant admin center and pick the environment."
+    },
+    {
+      "t": 13.8,
+      "end": 25.8,
+      "text": "In this case, I have an environment called DK Sandbox. And in the details menu here, I have an ability to set application insights connection string."
+    },
+    {
+      "t": 25.8,
+      "end": 41.3,
+      "text": "Let me click this define. And this opens up a new menu where I can put in a connection string that will allow Business Central to start emitting telemetry to this application insights resource."
+    },
+    {
+      "t": 41.3,
+      "end": 51.3,
+      "text": "Be aware that this will trigger if if you save this, it will trigger restart of the environment. So, please don't do this during working hours."
+    },
+    {
+      "t": 51.3,
+      "end": 67.7,
+      "text": "But I will just click enable application insights and then I need to supply a connection string. How do I get that? Well, we simply need to go to the Azure portal to our application insights resource and get it there."
+    },
+    {
+      "t": 67.7,
+      "end": 82.6,
+      "text": "Let's do that. So, here in the Azure portal on the front page of my application insights resource, I have a menu called essentials on the front page and here I have connection string."
+    },
+    {
+      "t": 82.6,
+      "end": 95.3,
+      "text": "So, I simply go to the right and click copy to clipboard. And this is the connection string I need to put into the tenant admin center. So, let's go back there."
+    },
+    {
+      "t": 95.3,
+      "end": 105.8,
+      "text": "I click connection string field and I paste my connection string in here. And when I click save, again important, this will trigger an environment"
+    },
+    {
+      "t": 105.8,
+      "end": 116.8,
+      "text": "uh restart. When I click save, this will inject the connection string into Business Central and within a few minutes, you now start getting data."
+    },
+    {
+      "t": 116.8,
+      "end": 125.3,
+      "text": "That's how easy it is to enable telemetry on a Business Central environment."
+    }
+  ],
+  "markers": [],
+  "word_count": 285
+}

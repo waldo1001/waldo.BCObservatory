@@ -7,13 +7,39 @@
   "url": "https://freddysblog.com/2026/08/05/the-pricing-of-fkh/",
   "published_at": "2026-08-05T10:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:00.709Z",
+      "path": "vault:posts/freddysblog/https-freddysblog-com-2026-08-05-the-pricing-of-fkh--e248e34869.md",
+      "words": 3766
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:10.467Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.018986
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:10.468Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:10.469Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:10.472Z",
+      "path": "content/posts/freddysblog/https-freddysblog-com-2026-08-05-the-pricing-of-fkh--e248e34869.md"
     }
   },
   "input_hash": "2026-08-05T10:00:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fbaabda51c14a71970093b1024c18dc4519ec8bf716a536b408e9787a15782b0"
 }

@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal",
+  "url": "https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal/",
+  "title": "Accessing Fkh containers using a terminal",
+  "source": "freddysblog",
+  "published_at": "2026-08-06T10:00:00.000Z",
+  "words": 1261,
+  "summary": "Fkh provides secure, just-in-time terminal access to Business Central containers running in Kubernetes clusters through three methods: kubectl with PowerShell, WinRM access via CLI, or WinRM access via VS Code. Each approach prioritizes security by avoiding public exposure and standing credentials.",
+  "key_points": [
+    "Containers run as Kubernetes pods in Azure subscriptions, not exposed publicly, requiring secure tunneling for access",
+    "Two primary options: kubectl exec for admins with cluster access, or WinRM with GitHub authentication scoped to user IP and time-limited",
+    "WinRM is the recommended Fkh-native approach offering the same secure, just-in-time model as database access without requiring kubectl installation",
+    "Windows account lockout policy after three failed attempts in 15 minutes protects against brute-force attacks",
+    "VS Code integration allows WinRM access from the editor with automatic output showing connection details"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "kubernetes",
+    "container access",
+    "security",
+    "devops",
+    "fkh",
+    "winrm",
+    "terminal",
+    "authentication"
+  ],
+  "objects": [],
+  "features": [
+    "Just-in-time terminal access",
+    "WinRM session management",
+    "kubectl integration",
+    "VS Code container terminals",
+    "GitHub authentication",
+    "IP-scoped access",
+    "Time-limited tunnels",
+    "PowerShell remoting"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006623,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

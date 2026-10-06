@@ -7,7 +7,7 @@
   "url": "https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/",
   "published_at": "2026-08-10T05:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:43:35.654Z",
       "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-bc-linux-boot-time-and-al-go-fast-lane--3ddf109c8d.md",
       "words": 1307
+    },
+    "extracted": {
+      "at": "2026-10-06T21:43:44.451Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006742
+    },
+    "summarized": {
+      "at": "2026-10-06T21:43:44.452Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:43:44.453Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:43:44.457Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-bc-linux-boot-time-and-al-go-fast-lane--3ddf109c8d.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e85f5d2d0bc55d660259ed5f326bd80dd3a8d8cbc49e302744d5c63b69f06617"
+  "output_hash": "5ac84f96b05810466f5989e9d9ce4c5e45735af54787cba5ff569868aad2004d"
 }

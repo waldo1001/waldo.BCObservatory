@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/08/07/background-page-tasks-in-business-central-explained/",
   "published_at": "2026-08-07T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:53.882Z",
+      "path": "vault:posts/aardvarklabs-blog/3837.md",
+      "words": 982
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:03.554Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.007371
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:03.555Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:03.556Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:03.560Z",
+      "path": "content/posts/aardvarklabs-blog/3837.md"
     }
   },
   "input_hash": "2026-07-22T01:25:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a07b9ae0ce39eb97f8805f48d466fb136861bea775366c1c1269f90ef8b936a"
 }

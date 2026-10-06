@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/",
   "published_at": "2026-08-07T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:43:54.146Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md",
+      "words": 110
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:00.496Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004147
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:00.499Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:00.502Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:00.515Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "178507ad53e5c3d3a9fb3a0652aae65d3d56f76b97800216b539aeeb3ed54e37"
 }
