@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f73467c3f1a0281289a48fb1b2b2d6f0bbdb3a7",
       "words": 261,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:22.527Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.287Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.289Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.290Z",
+      "page": false
     }
   },
   "input_hash": "0f73467c3f1a0281289a48fb1b2b2d6f0bbdb3a7",
@@ -73,5 +92,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f73467c3f1a0281289a48fb1b2b2d6f0bbdb3a7"
+  "output_hash": "4bc4b6601f4756023ac2ef52c75ff3d7f3917718129dfdfd3597842aa01ecbfb"
 }

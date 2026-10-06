@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/remittance-errors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors",
+  "title": "Remittance errors [NO]",
+  "blob": "0f73467c3f1a0281289a48fb1b2b2d6f0bbdb3a7",
+  "summary": "Remittance errors for Norwegian payments occur during data transfer or after sending to the bank and are reported on the Return Error page, with types including transfer errors and rejections.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "payment",
+    "remittance",
+    "error handling",
+    "norway",
+    "bank transfer",
+    "vendor"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Return Error"
+    },
+    {
+      "type": "page",
+      "name": "Waiting Journal"
+    }
+  ],
+  "features": [
+    "transfer errors",
+    "payment rejections",
+    "remittance agreements",
+    "error codes",
+    "payment cancellation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

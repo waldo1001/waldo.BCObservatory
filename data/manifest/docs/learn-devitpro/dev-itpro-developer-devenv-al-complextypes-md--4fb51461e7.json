@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-complextypes",
   "published_at": "2025-05-19T10:54:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d097958c881a89b30259fdb7de6c0190a060b007",
       "words": 211,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:24.285Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.368Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.369Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.376Z",
+      "page": false
     }
   },
   "input_hash": "d097958c881a89b30259fdb7de6c0190a060b007",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d097958c881a89b30259fdb7de6c0190a060b007"
+  "output_hash": "9c301d6c45d41aeb888c5e1542e9b7d7465cfb88aea03b78ef98675ae3b3ba09"
 }

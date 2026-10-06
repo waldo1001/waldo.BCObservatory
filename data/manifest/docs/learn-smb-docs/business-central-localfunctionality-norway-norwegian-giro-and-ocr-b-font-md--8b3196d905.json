@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "585df8c280a090c176611527f10ea7295393e84e",
       "words": 126,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:20.903Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.300Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.301Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.302Z",
+      "page": false
     }
   },
   "input_hash": "585df8c280a090c176611527f10ea7295393e84e",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "585df8c280a090c176611527f10ea7295393e84e"
+  "output_hash": "d96b9ef3a80e2b44e71b1c3260efea701ea56c3f55f6557bf2deaa895b778811"
 }

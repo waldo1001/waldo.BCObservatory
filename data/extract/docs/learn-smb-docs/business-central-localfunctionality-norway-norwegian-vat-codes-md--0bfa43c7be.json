@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/norwegian-vat-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes",
+  "title": "Norwegian VAT Codes",
+  "blob": "fe8937002bbf5e2ac0fff4e2d6be3665a4a9bb0b",
+  "summary": "Norwegian VAT codes provide standard codes to simplify VAT setup in Business Central using single field selection instead of separate posting group fields.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "vat codes",
+    "norway",
+    "tax setup",
+    "posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Codes"
+    },
+    {
+      "type": "table",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "VAT Codes",
+    "VAT Code field",
+    "VAT Bus. Posting Group",
+    "VAT Prod. Posting Group",
+    "standard Norwegian VAT codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002792,
+      "pages_in_call": 8
+    }
+  ]
+}

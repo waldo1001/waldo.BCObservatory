@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/privacy-developers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/privacy-developers",
+  "title": "Business Central privacy for AL developers",
+  "blob": "7b1aee64692c42ae7cc8ccfae3d211bc3d2caaf6",
+  "summary": "Business Central privacy for AL developers covers data classification of fields, telemetry privacy considerations, and personal data handling to comply with privacy regulations.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "privacy",
+    "data classification",
+    "telemetry",
+    "al development",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "DataClassification property",
+    "AppSourceCop rule AS00016",
+    "telemetry",
+    "data sensitivity classification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

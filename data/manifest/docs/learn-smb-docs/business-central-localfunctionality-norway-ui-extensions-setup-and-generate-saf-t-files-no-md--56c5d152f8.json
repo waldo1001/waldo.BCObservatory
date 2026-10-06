@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b",
       "words": 1404,
       "forms": 17
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:22.530Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.322Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.323Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.324Z",
+      "page": false
     }
   },
   "input_hash": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b",
@@ -127,5 +146,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b"
+  "output_hash": "c226dae6b562b0db09f1977485f618a5ae64eaf077289b32aef19eb058dde3bc"
 }

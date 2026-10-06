@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
       "words": 332,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:20.904Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.307Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.308Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.309Z",
+      "page": false
     }
   },
   "input_hash": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f1308bb4b5c718fe5478c9912daa17bbce61b72f"
+  "output_hash": "94d7a840fd9ff4fb7cbca6dad67698c146a826da1b042da6e2cc1e13f2b531b2"
 }

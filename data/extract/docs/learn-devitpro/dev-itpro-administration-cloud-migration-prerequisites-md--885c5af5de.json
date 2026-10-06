@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites",
+  "title": "Cloud migration prerequisites for Business Central",
+  "blob": "b61ad74da9b74c47c130ee7f033a067e7ea41861",
+  "summary": "Cloud migration prerequisites for Business Central online require SUPER permissions, migration apps installation, Business Central version 25.0 or later on-premises, SQL Server 2016 SP1 or later, and a self-hosted integration runtime for on-premises databases.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cloud migration",
+    "prerequisites",
+    "deployment",
+    "sql server",
+    "on-premises"
+  ],
+  "objects": [],
+  "features": [
+    "Intelligent Cloud Base extension",
+    "Business Central Intelligent Cloud extension",
+    "customization extensions",
+    "SQL Server authentication",
+    "self-hosted integration runtime"
+  ],
+  "versions": [
+    "version 25.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

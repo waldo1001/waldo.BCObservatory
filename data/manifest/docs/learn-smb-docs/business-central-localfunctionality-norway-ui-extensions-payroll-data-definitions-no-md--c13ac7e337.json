@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d79f70d8a3113c77dd3959e8553969272c14e631",
       "words": 273,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:22.529Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.319Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.320Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.321Z",
+      "page": false
     }
   },
   "input_hash": "d79f70d8a3113c77dd3959e8553969272c14e631",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d79f70d8a3113c77dd3959e8553969272c14e631"
+  "output_hash": "5e9bd0ee81548a56c5cd1e583e57eed4a5cf6311d25421994b330058ad139efb"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/privacy-developers",
   "published_at": "2025-05-19T13:19:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7b1aee64692c42ae7cc8ccfae3d211bc3d2caaf6",
       "words": 380,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:24.283Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.354Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.355Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.356Z",
+      "page": false
     }
   },
   "input_hash": "7b1aee64692c42ae7cc8ccfae3d211bc3d2caaf6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b1aee64692c42ae7cc8ccfae3d211bc3d2caaf6"
+  "output_hash": "01247ffdb374f61794373ed75795870b0f3bb392dba5d12e5c4421dc04ee38bf"
 }

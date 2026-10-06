@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no",
+  "title": "Setup and generate SAF-T files",
+  "blob": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b",
+  "summary": "The SAF-T extension for Norwegian Business Central enables setup, generation, and export of Standard Audit Files - Tax required by Norwegian authorities, with support for SAF-T versions 1.20 and 1.30 starting in version 25.3.",
+  "systems": [
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "saf-t",
+    "tax",
+    "audit",
+    "compliance",
+    "norway",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SAF-T Setup"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Exports"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Export"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Mapping Setup Card"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Export File"
+    }
+  ],
+  "features": [
+    "SAF-T version selection",
+    "chart of accounts mapping",
+    "VAT code mapping",
+    "dimension export control",
+    "parallel processing",
+    "split by date",
+    "multiple zip files"
+  ],
+  "versions": [
+    "version 25.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

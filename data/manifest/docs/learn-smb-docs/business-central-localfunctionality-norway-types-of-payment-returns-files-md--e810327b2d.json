@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
       "words": 406,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:22.528Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.316Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.317Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.318Z",
+      "page": false
     }
   },
   "input_hash": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
@@ -72,5 +91,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f"
+  "output_hash": "cfb0a9bc6820606a59a31abe9c7ece0db33fdcfc699adb9fb705618db833a1f0"
 }

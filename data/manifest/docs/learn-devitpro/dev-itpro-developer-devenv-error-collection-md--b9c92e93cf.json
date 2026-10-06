@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-collection",
   "published_at": "2025-05-19T13:30:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7bef52214e0548ceddf3f1db0a56fc810be0a040",
       "words": 321,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:22.533Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.343Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.352Z",
+      "page": false
     }
   },
   "input_hash": "7bef52214e0548ceddf3f1db0a56fc810be0a040",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bef52214e0548ceddf3f1db0a56fc810be0a040"
+  "output_hash": "3a16fda59da662acd9533671586c42c9f0c8ac1344591274585eef6c3a80949e"
 }

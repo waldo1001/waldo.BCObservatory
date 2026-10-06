@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments",
+  "title": "Test Remittance Payments [NO]",
+  "blob": "850efc03f369a22b0ae923e3e86fb235b3fafa09",
+  "summary": "Test remittance payments in Norwegian Business Central using the Remittance Test report to verify payment journal lines for errors before posting and transferring to the bank.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "remittance",
+    "payment testing",
+    "norway",
+    "journal validation",
+    "error checking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "report",
+      "name": "Remittance Test"
+    }
+  ],
+  "features": [
+    "Remittance Test report",
+    "Show Dimensions",
+    "error detection",
+    "payment validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002792,
+      "pages_in_call": 8
+    }
+  ]
+}

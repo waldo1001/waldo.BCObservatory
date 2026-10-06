@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7545cc96ca1dbe96fd830756971e1d5714008575",
       "words": 784,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:20.900Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:20.907Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:20.907Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:20.908Z",
+      "page": false
     }
   },
   "input_hash": "7545cc96ca1dbe96fd830756971e1d5714008575",
@@ -72,5 +91,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7545cc96ca1dbe96fd830756971e1d5714008575"
+  "output_hash": "ff75a7bae1831bd598dde1e587727c28676051cd280cfcf0a6139fc9f2e2c83c"
 }

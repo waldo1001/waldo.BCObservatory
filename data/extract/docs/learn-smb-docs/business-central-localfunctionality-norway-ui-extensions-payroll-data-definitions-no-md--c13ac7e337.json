@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no",
+  "title": "Payroll Data Definitions [NO]",
+  "blob": "d79f70d8a3113c77dd3959e8553969272c14e631",
+  "summary": "The Payroll Data Definitions extension for Norwegian Business Central enables import of payroll transactions from Huldt & Lillevik Lønn and Visma service providers through data exchange definitions mapped to general ledger accounts.",
+  "systems": [
+    "hr",
+    "localization"
+  ],
+  "topics": [
+    "payroll",
+    "norway",
+    "data import",
+    "integration",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "payroll transaction import",
+    "payroll file mapping",
+    "general ledger posting",
+    "data exchange definitions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fe8937002bbf5e2ac0fff4e2d6be3665a4a9bb0b",
       "words": 651,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:20.903Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.304Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.305Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.306Z",
+      "page": false
     }
   },
   "input_hash": "fe8937002bbf5e2ac0fff4e2d6be3665a4a9bb0b",
@@ -64,5 +83,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe8937002bbf5e2ac0fff4e2d6be3665a4a9bb0b"
+  "output_hash": "415bfe0b2f3ebd01da8061ef74afad7ea83308d15497bcca38e0026d3d423178"
 }

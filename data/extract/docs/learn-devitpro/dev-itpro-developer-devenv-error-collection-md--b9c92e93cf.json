@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-error-collection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-collection",
+  "title": "Collecting Errors",
+  "blob": "7bef52214e0548ceddf3f1db0a56fc810be0a040",
+  "summary": "Collectible errors in AL allow procedures to gather multiple validation errors instead of stopping on the first error, then display all errors together to users for simplified error handling and validation scenarios.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "error handling",
+    "validation",
+    "error collection",
+    "coding"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "DoPost"
+    },
+    {
+      "type": "page",
+      "name": "Error Messages"
+    }
+  ],
+  "features": [
+    "ErrorBehavior attribute",
+    "error collection API",
+    "custom error UI",
+    "error dialog"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003699,
+      "pages_in_call": 8
+    }
+  ]
+}

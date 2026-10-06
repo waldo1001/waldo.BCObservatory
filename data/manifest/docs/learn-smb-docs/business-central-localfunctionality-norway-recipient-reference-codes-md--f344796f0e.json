@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "33ecdcdefb18708258745a18c8f4cf0428f36ab0",
       "words": 227,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:20.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:24.310Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:24.311Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:24.312Z",
+      "page": false
     }
   },
   "input_hash": "33ecdcdefb18708258745a18c8f4cf0428f36ab0",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33ecdcdefb18708258745a18c8f4cf0428f36ab0"
+  "output_hash": "bfde1eaebde8dd5d727ffb57e8428e0b430bcd996d8af4ffac3a6588d72b96f1"
 }
