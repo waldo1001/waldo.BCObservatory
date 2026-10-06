@@ -1,0 +1,701 @@
+{
+  "video_id": "no1mmnPfyNY",
+  "item_id": "video/yt-areopa/no1mmnPfyNY",
+  "title": "20260615 - Are We There Yet? The Journey from NAV to Business Central",
+  "duration_s": 3064,
+  "systems": [
+    "development",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "navision to bc migration",
+    "extensions history",
+    "partner ecosystem",
+    "value-based selling",
+    "saas transition",
+    "technology priorities",
+    "al language",
+    "developer productivity",
+    "consulting models",
+    "recurring revenue model",
+    "cost-plus vs value-based pricing",
+    "product-based solutions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 153.1
+    },
+    {
+      "title": "Speaker introduction and methodology",
+      "t_start": 153.1,
+      "t_end": 229
+    },
+    {
+      "title": "Extensions history from 1993",
+      "t_start": 229,
+      "t_end": 305.8
+    },
+    {
+      "title": "Pricing model shift and partner ecosystem evolution",
+      "t_start": 305.8,
+      "t_end": 383
+    },
+    {
+      "title": "From Navision to SaaS transition 2009-2014",
+      "t_start": 383,
+      "t_end": 472
+    },
+    {
+      "title": "The 2018 dinosaur presentation and technology shift",
+      "t_start": 472,
+      "t_end": 556.1
+    },
+    {
+      "title": "Days of Knowledge 2019 and presentation approach",
+      "t_start": 556.1,
+      "t_end": 685.9
+    },
+    {
+      "title": "WinMine story and investment in tools versus delivery",
+      "t_start": 685.9,
+      "t_end": 826.9
+    },
+    {
+      "title": "Code and tooling differences between Navision and BC",
+      "t_start": 826.9,
+      "t_end": 942.4
+    },
+    {
+      "title": "Business model shift: from Navision to BC partner",
+      "t_start": 942.4,
+      "t_end": 1108
+    },
+    {
+      "title": "Becoming a BC partner: the right path",
+      "t_start": 1108,
+      "t_end": 1205.9
+    },
+    {
+      "title": "Revenue model and partner transformation",
+      "t_start": 1205.9,
+      "t_end": 1644.6
+    },
+    {
+      "title": "Cost management and service model shifts",
+      "t_start": 1644.6,
+      "t_end": 1953.3
+    },
+    {
+      "title": "Customer onboarding, support costs and employee burnout",
+      "t_start": 1953.3,
+      "t_end": 2165.3
+    },
+    {
+      "title": "Timesheet transition and dual business model challenges",
+      "t_start": 2165.3,
+      "t_end": 2522.9
+    },
+    {
+      "title": "Cultural change and customer conversion strategy",
+      "t_start": 2522.9,
+      "t_end": 2867.8
+    },
+    {
+      "title": "Customer adoption resistance and closing remarks",
+      "t_start": 2867.8,
+      "t_end": 3064
+    }
+  ],
+  "features": [
+    {
+      "name": "Extensions concept",
+      "description": "Extensions were introduced in Navision 1993 as a way to add functionality without modifying core code. These bolt-on extensions used triggers to extend functionality separately from the underlying code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.5,
+      "t_end": 293,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensions",
+        "architecture",
+        "history"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "App Store model",
+      "description": "Partner ecosystem split in 1997 between Navision Solution Centers that sell product and Independent Software Houses that develop extensions for resale, creating an early app store model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.2,
+      "t_end": 383,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "app store",
+        "partner model",
+        "ecosystem"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SaaS version of Navision",
+      "description": "A SaaS version of Navision was demonstrated at the Microsoft Azure Summit in Abu Dhabi in 2014, representing early cloud strategy before Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 434.7,
+      "t_end": 472,
+      "is_demoed": true,
+      "caveats": [
+        "This was SaaS version of Navision, not BC"
+      ],
+      "tags": [
+        "saas",
+        "cloud",
+        "navision"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Navision to BC transition model",
+      "description": "By 2018, the business model shifted away from monolithic development focused on individual developer productivity toward distributed, consultancy-driven implementations with BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 485.8,
+      "t_end": 556.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "navision",
+        "business central",
+        "transition"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Value-based selling",
+      "description": "Beginning in 1995, the industry shifted from hourly billing to value-based selling as a core business model change for partners.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 321.8,
+      "t_end": 334.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business model",
+        "pricing",
+        "value selling"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Recurring revenue model for BC partners",
+      "description": "Shift from licensing-based one-time revenue to ongoing monthly payments based on customer happiness. Partners invest risk upfront and customers pay continuously only while satisfied, replacing the legacy Navision upfront payment model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 942.4,
+      "t_end": 1005.5,
+      "is_demoed": false,
+      "caveats": [
+        "Fixed price divided over months is not true recurring model",
+        "Requires shift from selling hours to selling products"
+      ],
+      "tags": [
+        "business model",
+        "recurring revenue",
+        "saas",
+        "partner strategy"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Product-based BC partner model",
+      "description": "Partners should sell vertical solutions and apps rather than custom services. The model involves blending customer requirements into average products that work for most customers rather than exceptional customizations for each.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1015.8,
+      "t_end": 1108,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot serve all market segments equally",
+        "Must ignore exceptionally demanding and bland customers"
+      ],
+      "tags": [
+        "apps",
+        "vertical solutions",
+        "product strategy"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Value-based pricing instead of cost-plus",
+      "description": "BC partners should charge customers based on the value delivered rather than the cost incurred. Move away from calculating price based on partner labor costs and instead focus on customer outcomes and value received.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1350.2,
+      "t_end": 1388,
+      "is_demoed": false,
+      "caveats": [
+        "Difficult to shift established cost-plus mindset",
+        "Requires understanding customer value not partner cost"
+      ],
+      "tags": [
+        "pricing",
+        "value delivery",
+        "partner model"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Outcomes-based delivery over hours",
+      "description": "Partners should shift from selling billable hours to delivering repeatable outcomes. With outcomes-based systems, customer risk is stable and partners own the process efficiency, rather than charging for time spent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1388,
+      "t_end": 1504.2,
+      "is_demoed": false,
+      "caveats": [
+        "Partners must absorb cost overruns",
+        "Requires highly repeatable processes"
+      ],
+      "tags": [
+        "delivery model",
+        "outcomes",
+        "risk management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Faster project timelines benefit partner revenue",
+      "description": "With recurring revenue models, partners make money only after go-live. The faster the go-live, the sooner revenue starts. This creates alignment where shorter project timelines increase partner revenue rather than the Navision model where longer projects meant more billable hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1518,
+      "t_end": 1588.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires end-to-end process efficiency",
+        "Depends on repeatable implementation methodology"
+      ],
+      "tags": [
+        "project timelines",
+        "go-live",
+        "revenue incentives"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Specialization required in BC partner teams",
+      "description": "Partner teams must move from generalist 10X developers to specialized production lines. Future BC implementations will require 10-15 specialists even for basic systems, with each person contributing their specialty rather than all-around knowledge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1599.6,
+      "t_end": 1644.6,
+      "is_demoed": false,
+      "caveats": [
+        "Significant organizational change required",
+        "Skills are changing too fast for generalists"
+      ],
+      "tags": [
+        "team structure",
+        "specialization",
+        "skills"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Product manager cost tracking model",
+      "description": "Shift from project manager billing timesheets to product manager tracking of product-wide costs including automated testing and quality assurance that customers don't directly pay for.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1671.9,
+      "t_end": 1762.2,
+      "is_demoed": false,
+      "caveats": [
+        "Less than 5% of partners have full control over this model",
+        "Only handful have truly adopted product manager approach"
+      ],
+      "tags": [
+        "product management",
+        "cost management",
+        "billing model"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Continuous version updates model",
+      "description": "Technical approach where everyone stays on the latest version to reduce technical debt from custom developments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1818,
+      "t_end": 1864.1,
+      "is_demoed": false,
+      "caveats": [
+        "Technical skills required are being resolved well"
+      ],
+      "tags": [
+        "version management",
+        "technical debt",
+        "saas model"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Customer data ownership responsibility",
+      "description": "Shift from partners cleaning customer data to customers ensuring data quality before import, with external audit verification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1905.7,
+      "t_end": 1953.3,
+      "is_demoed": false,
+      "caveats": [
+        "Good for customer responsibility but may lead to employee burnout"
+      ],
+      "tags": [
+        "data quality",
+        "customer onboarding",
+        "implementation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Self-service customer support model",
+      "description": "Business Central customers perform more self-service tasks like data cleanup and onboarding, shifting work from paid support to customer staff.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1874.8,
+      "t_end": 2109.8,
+      "is_demoed": false,
+      "caveats": [
+        "Causing employee burnout in customer organizations",
+        "Customers unaware of workload implications",
+        "Reduces paid support costs but increases internal customer work"
+      ],
+      "tags": [
+        "customer support",
+        "self-service",
+        "employee burnout"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Recurring monthly billing model",
+      "description": "A shift from hourly time-and-materials billing to a fixed monthly subscription model for customers. Partners charge customers a consistent monthly fee per user for all support and services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2340.2,
+      "t_end": 2867.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires mindset shift across entire partner organization",
+        "Demands upfront decision to commit to new model",
+        "Takes significant time to convert existing customer base"
+      ],
+      "tags": [
+        "billing",
+        "pricing",
+        "business model",
+        "nav partner",
+        "bc partner"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Timesheet elimination",
+      "description": "Eliminating internal timesheet tracking systems when transitioning to recurring billing. Once customers convert to monthly billing, partners can remove the entire infrastructure for time tracking and project billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2534.1,
+      "t_end": 2973.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires full customer conversion to recurring model",
+        "Still requires timesheet systems until all customers are converted",
+        "Cannot be done selectively across different team members"
+      ],
+      "tags": [
+        "operations",
+        "billing systems",
+        "project management",
+        "cost reduction"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Customer conversion strategy",
+      "description": "A phased approach to converting existing customers from hourly billing to monthly recurring revenue. Approach involves selecting pilot customers, setting clear timelines, and gradually rolling out to remaining customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2678.2,
+      "t_end": 2867.8,
+      "is_demoed": false,
+      "caveats": [
+        "Process took 5 years but could be done in 1 year with proper knowledge",
+        "Initial delay between first and second customer conversion was over a year",
+        "Subsequent conversions became easier and faster",
+        "Conversion can be accelerated with proper strategy"
+      ],
+      "tags": [
+        "partner strategy",
+        "customer management",
+        "business transformation",
+        "nav to bc"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "WinMine",
+      "t": 737
+    },
+    {
+      "type": "other",
+      "name": "Mythos",
+      "t": 816.3
+    },
+    {
+      "type": "other",
+      "name": "Navision",
+      "t": 860.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "David Singleton",
+      "confidence": "high"
+    },
+    {
+      "name": "Henrik Helgason",
+      "confidence": "high"
+    },
+    {
+      "name": "Eric",
+      "confidence": "low"
+    },
+    {
+      "name": "Henrik",
+      "confidence": "medium"
+    },
+    {
+      "name": "David",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 252.5,
+      "text": "the first time I saw a demonstration of extensions was in 1993",
+      "why_it_matters": "Establishes that extensions concept predates BC by 30 years, making AL and extension-based architecture not a major change from Navision.",
+      "check": "exact"
+    },
+    {
+      "t": 321.8,
+      "text": "we have to break from hourly billing. We hourly billing is has no future, we have to start selling value.",
+      "why_it_matters": "Shows value-based selling was mandated 31 years ago, making the shift away from time sheets an old business model change not specific to BC.",
+      "check": "exact"
+    },
+    {
+      "t": 556.1,
+      "text": "2018 was when we had that line where the Navision model had to die and the BC model came across",
+      "why_it_matters": "Marks the critical inflection point where Navision's monolithic developer model ended and BC's consultancy-driven model began.",
+      "check": "exact"
+    },
+    {
+      "t": 816.3,
+      "text": "By the time you've if you spend 3 months learning it, within the first week it will already be outdated and gone.",
+      "why_it_matters": "Illustrates the shift from investing in deep tool mastery toward focusing on customer delivery as technology now changes weekly.",
+      "check": "exact"
+    },
+    {
+      "t": 816.3,
+      "text": "3 months learning Mythos to write new agentic agents. By the time you've if you spend 3 months learning it, within the first week",
+      "why_it_matters": "Illustrates that investment in specific tools has short ROI windows in modern development, changing the approach partners should take to training.",
+      "check": "exact"
+    },
+    {
+      "t": 839.7,
+      "text": "We need to focus more on what we deliver to the customer and not the mechanism and the tools we use to get it",
+      "why_it_matters": "Core philosophy shift: delivering customer value matters more than specific technical tools or skills.",
+      "check": "exact"
+    },
+    {
+      "t": 860.3,
+      "text": "I don't see very much difference between writing code for writing a table or developing a code unit or developing a page in the",
+      "why_it_matters": "Argues that core development mechanics have not substantially changed between Navision and BC, contradicting perception of major technical shifts.",
+      "check": "exact"
+    },
+    {
+      "t": 942.4,
+      "text": "In the BC world, in this new world that we've come through now, your model has to work on saying, ...",
+      "why_it_matters": "Defines the fundamental Business Central partner business model difference: partners assume upfront risk instead of customers.",
+      "check": "exact"
+    },
+    {
+      "t": 1265.4,
+      "text": "The revenue model of a a Navision partner is cost plus. How you work out the cost is up to you, but somehow you're",
+      "why_it_matters": "Explains the legacy Navision pricing approach based on partner costs, which must change for BC partners.",
+      "check": "exact"
+    },
+    {
+      "t": 1375.9,
+      "text": "A Business Central partner charges the customer based on the value it gives to the customer.",
+      "why_it_matters": "Clear definition of the required pricing paradigm shift from cost-based to value-based delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 1558,
+      "text": "In a Business Central, it's the opposite. You the the the faster goes, the more revenue the partner will make.",
+      "why_it_matters": "Key incentive alignment: faster implementations directly increase partner revenue in the recurring model, unlike Navision.",
+      "check": "exact"
+    },
+    {
+      "t": 1614.1,
+      "text": "I will guarantee you in 5 years time, there won't be any one person in any Business Central partner that could deliver deliver Business",
+      "why_it_matters": "Predicts fundamental shift toward specialized teams rather than generalist developers for BC implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 1628,
+      "text": "It'll take 10 or 15 people even to deliver the most basic system. Even if each person only spends an hour on it.",
+      "why_it_matters": "Illustrates the fundamental shift in partner team structure from generalists to specialists, a key difference in development models.",
+      "check": "exact"
+    },
+    {
+      "t": 1762.2,
+      "text": "I would say it's less than 5% of partners that have got that fully under control.",
+      "why_it_matters": "Quantifies adoption of the timesheet-to-value billing shift, showing this transformation is still immature among partners.",
+      "check": "exact"
+    },
+    {
+      "t": 1905.7,
+      "text": "when we did a Navision implementation, automatically, it was an expectation that the partner would be responsible for the cleanliness of the data.",
+      "why_it_matters": "Defines the core difference between Navision and Business Central implementation philosophy regarding data responsibility.",
+      "check": "exact"
+    },
+    {
+      "t": 2368.5,
+      "text": "there are still at least close on 100,000. It might be down to about 80,000, but there's probably about 80,000 ...",
+      "why_it_matters": "Provides quantitative data on remaining Navision customer base, indicating ongoing business opportunity for NAV partners.",
+      "check": "exact"
+    },
+    {
+      "t": 2584.7,
+      "text": "the absolute zeroeth importance of being a BC partner is AL and DevOps and code because those are all handled somehow.",
+      "why_it_matters": "Clarifies that technical AL development is not the primary differentiator or focus for BC partners; business model and customer relationships matter more.",
+      "check": "exact"
+    },
+    {
+      "t": 2603.9,
+      "text": "biggest change is the cultural change of how your business interacts with its customers and the switch from adding adding profit to your",
+      "why_it_matters": "Defines the core transformation required for NAV partners transitioning to BC: moving from cost-plus to value-based pricing models.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2823.4,
+      "text": "it took 5 years. If I knowing what I know now, um I could do it in a year.",
+      "why_it_matters": "Demonstrates the time investment required for business model transformation, but also shows it could be accelerated with proper guidance.",
+      "check": "exact"
+    },
+    {
+      "t": 2937.3,
+      "text": "How many customers said no? How many customers came back, pushed back? Well, that was the biggest shock. Not one.",
+      "why_it_matters": "Reveals that customers overwhelmingly preferred recurring billing once offered, with zero customer rejection of the new model.",
+      "check": "exact"
+    },
+    {
+      "t": 2973.7,
+      "text": "no, every customer likes it. No no customer likes timesheets because all timesheets do is push risk onto the customer.",
+      "why_it_matters": "Explains the customer preference for recurring billing: it removes risk transfer and provides predictability, beneficial for end customers.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1118.1,
+      "kind": "subject-to-change",
+      "text": "I didn't edit this presentation for today, because I just wanted it in its raw form. But maybe this wouldn't ..."
+    },
+    {
+      "t": 1658.3,
+      "kind": "subject-to-change",
+      "text": "I think this is, for me, the hardest thing to explain. I understand what I mean when I say this, ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 3,
+    "evidence_verified": 0,
+    "evidence_unverified": 18
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

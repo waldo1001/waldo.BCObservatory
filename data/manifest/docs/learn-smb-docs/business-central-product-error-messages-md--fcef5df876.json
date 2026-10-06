@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/product-error-messages",
   "published_at": "2026-06-19T01:30:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cdeedb46470dc0106f596b0c96fe7c638e36baf7",
       "words": 816,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:19.187Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004125
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:21.010Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:21.011Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:21.012Z",
+      "page": false
     }
   },
   "input_hash": "cdeedb46470dc0106f596b0c96fe7c638e36baf7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdeedb46470dc0106f596b0c96fe7c638e36baf7"
+  "output_hash": "8f9a8fc11842ad9e84c464cdbdc163bd28b886141c9ea29999ea9a6461b7d27f"
 }

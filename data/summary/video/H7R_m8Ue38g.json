@@ -1,0 +1,27 @@
+{
+  "video_id": "H7R_m8Ue38g",
+  "item_id": "video/yt-saurav/H7R_m8Ue38g",
+  "summary": "Business Central v29 exposes system audit fields (created by, modified by, created at, modified at) as flow fields. They can be added through profile customization and used in analysis mode, showing usernames instead of GUIDs. Client personalization does not support them yet.",
+  "overview": "The video explains why system audit fields matter for tracking who created or changed a record and when. It describes the version 28 situation, where these fields could not be used in analysis mode, and shows what changed in version 29.",
+  "key_points": [
+    "In v29, created by, modified by, created at and modified at are available as flow fields that can be added to pages without showing the ID.",
+    "The fields show the actual username instead of the GUID tied to the record.",
+    "Administrators can add the fields through profile customization (page profiles); they then apply to all users assigned to that profile, with no page extension or manual flow field needed.",
+    "In analysis mode, the fields can be used to slice data by created by, modified by, creation date and modified date, without adding them to a page.",
+    "Client personalization does not support these fields yet; access is only through profile customization or analysis mode.",
+    "Analysis mode must be enabled to use the fields there.",
+    "The demo used the customer card and customer list pages."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "78c674b8dd8656a3377cd8fbd31fde577a1e309fb151a7d35405fa3f3752612e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0109144
+  }
+}

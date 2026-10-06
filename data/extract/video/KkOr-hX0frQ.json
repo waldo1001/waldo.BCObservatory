@@ -1,0 +1,441 @@
+{
+  "video_id": "KkOr-hX0frQ",
+  "item_id": "video/yt-saurav/KkOr-hX0frQ",
+  "title": "How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview",
+  "duration_s": 1413,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "big integer migration",
+    "integer overflow",
+    "field type change",
+    "schema synchronization",
+    "code cop",
+    "destructive change",
+    "table relations",
+    "data loss prevention",
+    "al compiler",
+    "runtime version requirement",
+    "extension dependency",
+    "narrowing conversion"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Problem Statement",
+      "t_start": 0,
+      "t_end": 97
+    },
+    {
+      "title": "Big Integer Field Migration Feature Overview",
+      "t_start": 97,
+      "t_end": 184.7
+    },
+    {
+      "title": "Business Impact and Real-World Scenarios",
+      "t_start": 184.7,
+      "t_end": 262.8
+    },
+    {
+      "title": "Technical Architecture and Implementation",
+      "t_start": 262.8,
+      "t_end": 401.3
+    },
+    {
+      "title": "Demo Setup and Table Configuration",
+      "t_start": 401.3,
+      "t_end": 511.8
+    },
+    {
+      "title": "Field Type Change and Code Cop Validation",
+      "t_start": 511.8,
+      "t_end": 689.8
+    },
+    {
+      "title": "Publishing and Version Comparison Setup",
+      "t_start": 689.8,
+      "t_end": 782.2
+    },
+    {
+      "title": "Deployment Comparison: Version 28 vs Version 29",
+      "t_start": 782.2,
+      "t_end": 918.5
+    },
+    {
+      "title": "Developer Considerations and Migration Strategy",
+      "t_start": 918.5,
+      "t_end": 1000.4
+    },
+    {
+      "title": "Selective Migration Approach and Best Practices",
+      "t_start": 1000.4,
+      "t_end": 1144.3
+    },
+    {
+      "title": "Extension Dependency Validation",
+      "t_start": 1144.3,
+      "t_end": 1230.2
+    },
+    {
+      "title": "Common Mistakes and Frequently Asked Questions",
+      "t_start": 1230.2,
+      "t_end": 1328.9
+    },
+    {
+      "title": "Summary and Recommendations",
+      "t_start": 1328.9,
+      "t_end": 1413
+    }
+  ],
+  "features": [
+    {
+      "name": "Big Integer Field Migration",
+      "description": "A new compiler and runtime feature in Business Central version 29 that allows changing an existing table field from integer to big integer without considering it a destructive change, with automatic SQL column updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.4,
+      "t_end": 1328.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires runtime 18.0 or later",
+        "Compiler warnings for code that might narrow or overflow big integer values",
+        "Table relations pointing to integer fields need to be updated",
+        "Cannot reverse migration back to integer without destructive steps",
+        "Only migrate fields that genuinely need 64-bit capacity"
+      ],
+      "tags": [
+        "field migration",
+        "integer to biginteger",
+        "schema sync",
+        "data preservation",
+        "non-destructive",
+        "compiler protection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Compiler Validation for Integer to BigInteger Conversion",
+      "description": "The AL compiler validates field type changes from integer to big integer when targeted at runtime 18.0 or later, allowing this conversion without treating it as destructive.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.2,
+      "t_end": 173.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only available for runtime 18.0 and later"
+      ],
+      "tags": [
+        "compiler",
+        "schema change",
+        "runtime 18.0"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "App Source Cop Warnings for BigInteger Dependencies",
+      "description": "The compiler and app source cop now warn when dependent code might narrow or overflow big integer values, protecting against overflow scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 163,
+      "t_end": 184.7,
+      "is_demoed": true,
+      "caveats": [
+        "Warnings available for app source extensions",
+        "PTE code cop warnings not fully available in preview version tested",
+        "Warnings for table relations may not be complete in this release"
+      ],
+      "tags": [
+        "code cop",
+        "app source cop",
+        "warnings",
+        "overflow protection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Runtime Schema Synchronization for BigInteger",
+      "description": "The runtime schema synchronization service automatically converts SQL columns from int to big int without data loss when field type is changed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 370.2,
+      "t_end": 401.3,
+      "is_demoed": true,
+      "caveats": [
+        "Version 28 deployment fails with destructive change error",
+        "Version 29 accepts the change without destructive change warning"
+      ],
+      "tags": [
+        "schema sync",
+        "sql conversion",
+        "non-destructive"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Schema Sync Mode Changes in Version 29",
+      "description": "Version 29 introduces new schema sync mode behavior that allows adding and migrating field types, in contrast to Version 28 where such changes are destructive.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 787.8,
+      "t_end": 862,
+      "is_demoed": true,
+      "caveats": [
+        "Version 28 treats this as destructive change and fails deployment"
+      ],
+      "tags": [
+        "schema sync",
+        "deployment",
+        "version comparison"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Compiler Narrowing Conversion Detection",
+      "description": "The compiler in Version 29 detects and warns about narrowing conversions when biginteger values are assigned to integer fields, preventing runtime overflow errors.",
+      "status": "ga",
+      "status_evidence_t": 1120.2,
+      "status_evidence_quote": "As the GA will announce, I'm hoping the compiler warnings will be there. Address each compiler warning",
+      "status_evidence_verified": true,
+      "t_start": 1120.2,
+      "t_end": 1132.2,
+      "is_demoed": false,
+      "caveats": [
+        "Compiler warnings for related fields and calc formulas not yet present in preview",
+        "Warnings expected at GA announcement"
+      ],
+      "tags": [
+        "compiler",
+        "narrowing conversion",
+        "error prevention"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "No Upgrade Codeunit Required for Integer to BigInteger Migration",
+      "description": "Migration of fields from integer to biginteger does not require an upgrade codeunit. The platform handles data conversion and related record updates automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1284.7,
+      "t_end": 1299.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "upgrade",
+        "automation",
+        "data preservation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Runtime Version 18.0 Requirement for BigInteger Support",
+      "description": "Integer to biginteger migration requires target runtime version 18.0 or later. Extensions must update their runtime version to support this change.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1080.9,
+      "t_end": 1104.9,
+      "is_demoed": true,
+      "caveats": [
+        "Customers with runtime below 18.0 cannot perform this migration until runtime is updated"
+      ],
+      "tags": [
+        "runtime",
+        "version requirement",
+        "backward compatibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Irreversibility of BigInteger to Integer Conversion",
+      "description": "Once a field is migrated from integer to biginteger, conversion back to integer requires destructive migration steps including moving data to separate table, emptying the table, and moving data back.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.9,
+      "t_end": 1318.7,
+      "is_demoed": false,
+      "caveats": [
+        "Reverse migration is destructive and complex"
+      ],
+      "tags": [
+        "data migration",
+        "irreversible",
+        "limitation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "demo table",
+      "t": 418.4
+    },
+    {
+      "type": "table",
+      "name": "vendor table",
+      "t": 463.2
+    },
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 649.3
+    },
+    {
+      "type": "codeunit",
+      "name": "get next entry function",
+      "t": 538
+    },
+    {
+      "type": "table",
+      "name": "entry number",
+      "t": 848.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 110.4,
+      "text": "Big integral feed migration is a new compiler and a runtime feature in Business Central version 29",
+      "why_it_matters": "Defines when this feature is available",
+      "check": "exact"
+    },
+    {
+      "t": 124.4,
+      "text": "the platform updates the SQL column for you without considering it as a destructive change",
+      "why_it_matters": "Key benefit - no destructive change designation",
+      "check": "exact"
+    },
+    {
+      "t": 204.7,
+      "text": "They have a custom transaction log table with an entry number field defined as integer. At some point the entry number gets uncomfortably close",
+      "why_it_matters": "Illustrates real-world business scenario where feature is needed",
+      "check": "exact"
+    },
+    {
+      "t": 827.2,
+      "text": "Whereas in version 29 based on the new changes of shifting from integer to big integer it'll easily update it",
+      "why_it_matters": "Establishes that Version 29 handles integer to biginteger conversion as non-destructive, contrasting with Version 28 failures",
+      "check": "exact"
+    },
+    {
+      "t": 848.6,
+      "text": "The field entry number has changed the length of data type from 4 to 8 means integer to begin integer. Changing length of data",
+      "why_it_matters": "Shows version 28 rejection of the change, contrast with version 29 acceptance",
+      "check": "exact"
+    },
+    {
+      "t": 873.9,
+      "text": "here it'll get deployed as is without warning me to have a destructive change and also my data will remain as is not just",
+      "why_it_matters": "Confirms that Version 29 preserves data across related tables without destructive warnings during deployment",
+      "check": "exact"
+    },
+    {
+      "t": 954.6,
+      "text": "while we are recording this on 15th 9 15th September 2026 there is no compiler warning on the related tables or fields",
+      "why_it_matters": "Documents a known limitation in the preview: compiler warnings for related fields are missing and expected at GA",
+      "check": "exact"
+    },
+    {
+      "t": 1070.5,
+      "text": "First only migrate field that genuinely needs 64bit cap bit capacity. Don't go and change everything",
+      "why_it_matters": "Establishes best practice to be selective about which fields to migrate, not converting all integers unnecessarily",
+      "check": "exact"
+    },
+    {
+      "t": 1092.7,
+      "text": "29 your runtime is 18 0 so it'll only support from 18 0 0 and higher",
+      "why_it_matters": "Specifies the minimum runtime version requirement for biginteger migration support",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1339.4,
+      "text": "This migration is nondestructive. It is supported in runtime 18.0 and later and the compiler protects you by warning about narrowing convergence",
+      "why_it_matters": "Provides definitive summary of migration safety, runtime requirement, and compiler protection mechanisms",
+      "check": "exact"
+    },
+    {
+      "t": 1355.6,
+      "text": "If you maintain high volume tables, start identifying tables of field that may need this migration and add them into your road map",
+      "why_it_matters": "Provides actionable guidance for extension developers to plan and prepare for biginteger migration",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 13.2,
+      "kind": "preview",
+      "text": "this is a big change. I'm going to take a good amount of time for it"
+    },
+    {
+      "t": 552.6,
+      "kind": "preview",
+      "text": "as per the documentation the code cop is only available for app source app"
+    },
+    {
+      "t": 634.3,
+      "kind": "preview",
+      "text": "there is a table relation to an integer with a big integer. So there should be a warning and I'm ..."
+    },
+    {
+      "t": 966.2,
+      "kind": "coming-later",
+      "text": "hopefully when the version 29GA is announced next month this will be this will be fixed"
+    },
+    {
+      "t": 1037,
+      "kind": "preview",
+      "text": "I'm pretty sure not in the I haven't seen it in the preview release but hopefully in some cumulative update Microsoft may change"
+    },
+    {
+      "t": 1120.2,
+      "kind": "coming-later",
+      "text": "As the GA will announce, I'm hoping the compiler warnings will be there"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

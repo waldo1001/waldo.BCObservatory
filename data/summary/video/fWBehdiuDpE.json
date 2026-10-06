@@ -1,0 +1,26 @@
+{
+  "video_id": "fWBehdiuDpE",
+  "item_id": "video/yt-hougaard/fWBehdiuDpE",
+  "summary": "Erik Hougaard shows how to translate a Business Central app's labels with Claude through the AL Build tool, using XLIFF files, system prompts, a local Microsoft translation database and developer comments. The demo covers Danish and German. Feature status is not stated.",
+  "overview": "Erik Hougaard explains why he used an LLM to translate Business Central apps and walks through the setup in a Hello World app. Translatable text must be defined as labels, and the \"translate file\" feature must be turned on in app.json so that XLIFF files are generated with source text and empty target entries.",
+  "key_points": [
+    "Only text defined as labels, not plain strings, gets translated.",
+    "Turn on the 'translate file' feature in app.json to generate XLIFF files with source text and target placeholders.",
+    "The Python-based AL Build tool runs a translation task that updates the app version, compiles and calls the LLM with a system prompt.",
+    "A Claude API key is required, and AL Build must be set up first.",
+    "The system prompt describes the app, its purpose and target users (for example a finance controller) to guide translation quality.",
+    "A local database stores Microsoft translations for recognized labels, such as customer number, and translations the tool has already produced, which avoids repeated LLM calls.",
+    "Comments on labels are now passed to the LLM as extra context or instructions, such as tone or domain guidance."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "f8dd21fcc37a04a21252f66cd500f8b34ce2a680d25fbf2a49d05509f44ea12b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0130484
+  }
+}

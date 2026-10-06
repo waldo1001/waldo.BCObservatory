@@ -1,0 +1,1357 @@
+{
+  "video_id": "nbGw2g3KMXI",
+  "item_id": "video/yt-areopa/nbGw2g3KMXI",
+  "title": "20260713 - From Zero to Agent Building agents in Business Central",
+  "duration_s": 2988,
+  "systems": [
+    "copilot",
+    "development",
+    "inventory"
+  ],
+  "topics": [
+    "agents",
+    "custom agents",
+    "agent building",
+    "inventory check",
+    "permissions",
+    "prompting",
+    "sandbox environment",
+    "agent model",
+    "audit trail",
+    "agent configuration",
+    "agent architecture",
+    "task messages"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and webinar housekeeping",
+      "t_start": 0,
+      "t_end": 161.4
+    },
+    {
+      "title": "Speaker introduction and agenda overview",
+      "t_start": 161.4,
+      "t_end": 230
+    },
+    {
+      "title": "What is an agent and existing agents in Business Central",
+      "t_start": 230,
+      "t_end": 374.2
+    },
+    {
+      "title": "Requirements and setup for building custom agents",
+      "t_start": 374.2,
+      "t_end": 496.3
+    },
+    {
+      "title": "Creating a custom agent - configuration and templates",
+      "t_start": 496.3,
+      "t_end": 579.4
+    },
+    {
+      "title": "Live demo - inventory check agent scenario",
+      "t_start": 579.4,
+      "t_end": 882.9
+    },
+    {
+      "title": "Agent-created purchase orders and task architecture",
+      "t_start": 882.9,
+      "t_end": 1106.3
+    },
+    {
+      "title": "Code units for agent tasks - task builder and message builder",
+      "t_start": 1106.3,
+      "t_end": 1241.4
+    },
+    {
+      "title": "Background orchestration and external orchestrator",
+      "t_start": 1241.4,
+      "t_end": 1406
+    },
+    {
+      "title": "Agent instructions, prompting, and memory management",
+      "t_start": 1406,
+      "t_end": 1748.1
+    },
+    {
+      "title": "Agent access control, permissions, and consumption monitoring",
+      "t_start": 1748.1,
+      "t_end": 2116.8
+    },
+    {
+      "title": "Agent debugging, testing, and code-based creation",
+      "t_start": 2116.8,
+      "t_end": 2453.8
+    },
+    {
+      "title": "Agent configuration, KPI tracking, and AL development",
+      "t_start": 2453.8,
+      "t_end": 2763.4
+    },
+    {
+      "title": "Q&A: Sandbox, attachments, multi-agent, and security",
+      "t_start": 2763.4,
+      "t_end": 2988
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales order agent",
+      "description": "Agent that takes emails from customers requesting items, checks inventory, creates quotes, and sends them to customers without human intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 289,
+      "t_end": 323.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "existing agent",
+        "email automation",
+        "customer request",
+        "quote generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables agent",
+      "description": "Agent that processes incoming invoices, captures data, imports information, and posts invoices in the payables process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 336.5,
+      "t_end": 359.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "existing agent",
+        "invoice processing",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense agent",
+      "description": "Agent for handling expense-related tasks that was recently released.",
+      "status": "ga",
+      "status_evidence_t": 289,
+      "status_evidence_quote": "now also we have the expense agent that is released recently",
+      "status_evidence_verified": true,
+      "t_start": 289,
+      "t_end": 306.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "existing agent",
+        "expense management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom agent creation",
+      "description": "Capability to build custom agents inside Business Central for specific business scenarios, requiring sandbox environment and minimum version 27.4.",
+      "status": "preview",
+      "status_evidence_t": 478.1,
+      "status_evidence_quote": "but please be aware it's uh currently possible inside production because it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 359.8,
+      "t_end": 496.3,
+      "is_demoed": true,
+      "caveats": [
+        "sandbox environment only",
+        "not in production",
+        "requires billing setup",
+        "minimum version 27.4"
+      ],
+      "tags": [
+        "custom agents",
+        "preview",
+        "sandbox only",
+        "prototyping"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent permissions",
+      "description": "Agents require specific permissions similar to real users, with ability to restrict actions like creating or modifying customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 547.7,
+      "t_end": 562.8,
+      "is_demoed": false,
+      "caveats": [
+        "permissions must be carefully configured"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "agent configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent instructions and prompting",
+      "description": "Agents can be configured with instructions that tell them what tasks to perform and steps to take inside Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 562.8,
+      "t_end": 1665.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "prompting",
+        "agent configuration",
+        "instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent model selection",
+      "description": "Ability to choose the AI model for agent behavior, with current options including Auto, GPT-4.1, and GPT-5.3, with more models to be available from Microsoft.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 579.4,
+      "t_end": 2057.5,
+      "is_demoed": true,
+      "caveats": [
+        "more models coming later"
+      ],
+      "tags": [
+        "agent model",
+        "gpt",
+        "ai model selection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent testing and execution",
+      "description": "Agents can be tested by executing them step-by-step to validate behavior and configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599.9,
+      "t_end": 2678.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "agent execution",
+        "validation",
+        "ui testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Inventory check agent",
+      "description": "Custom agent scenario that processes incoming emails, checks item availability in stock, creates purchase orders when items are unavailable, and sends replies to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 620.2,
+      "t_end": 882.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom agent",
+        "inventory",
+        "purchase order",
+        "email automation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Agent audit trail",
+      "description": "All agent actions and steps are logged in an audit trail that can be traced and reviewed, including confirmations and instructions provided by users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 783.8,
+      "t_end": 960.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "audit trail",
+        "logging",
+        "traceability",
+        "transparency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent billing and credits",
+      "description": "Agent actions consume credits from Microsoft billing. Free credits are available but amount is unknown; billing must be set up to prevent agents from getting stuck when credits reach zero.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.4,
+      "t_end": 438.5,
+      "is_demoed": false,
+      "caveats": [
+        "billing setup is required",
+        "free credits amount unknown",
+        "agents will not function if credits depleted"
+      ],
+      "tags": [
+        "billing",
+        "credits",
+        "cost"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Purchase order creation by agent",
+      "description": "Agent can automatically create purchase orders based on inventory checks. The created purchase order is visible in Business Central and agents' updates trigger notifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 882.9,
+      "t_end": 916.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase order",
+        "automation",
+        "agent"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Task and task message architecture",
+      "description": "Agent execution is based on tasks and task messages. A task can contain multiple task messages from both the user and the agent. Messages are linked through conversation IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1017.2,
+      "t_end": 1090.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "task",
+        "message",
+        "conversation id"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent task builder codeunit",
+      "description": "Codeunit used to initialize and create agent tasks with requirements and messages. Part of the three key codeunits for triggering agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1145.5,
+      "t_end": 1207,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "codeunit",
+        "agent task builder",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent task message builder codeunit",
+      "description": "Codeunit to create task messages from agent tasks. Handles adding or ignoring attachments, setting message external IDs, and other message properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1190.8,
+      "t_end": 1207,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "codeunit",
+        "message builder",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "External orchestrator",
+      "description": "A separate component outside Business Central that reads tasks and executes them. Iterates through the environment like a real user and can run tasks in parallel asynchronously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1241.4,
+      "t_end": 1303.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "orchestrator",
+        "async",
+        "parallel execution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Job queue integration for email processing",
+      "description": "Job queue is used to read email boxes and trigger agents. Also used to execute outgoing messages when they are in reviewed status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1118.4,
+      "t_end": 1406,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "email",
+        "integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Human-in-loop intervention",
+      "description": "Agents can request assistance from humans or send review requests when they encounter issues like items not found or need human decision.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1547.8,
+      "t_end": 1599.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "human in loop",
+        "review",
+        "assistance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent memory",
+      "description": "Agent can memorize every single action performed, though not the state. Instructions can tell the agent to keep specific values in memory for later retrieval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1599.5,
+      "t_end": 1655.1,
+      "is_demoed": true,
+      "caveats": [
+        "does not memorize state, only actions",
+        "Must be explicitly instructed via prompts"
+      ],
+      "tags": [
+        "memory",
+        "action history",
+        "agent memory",
+        "state management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent tools per page type",
+      "description": "Extra tools can be provided to agents through instructions. Different tools are available per page type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1655.1,
+      "t_end": 1701,
+      "is_demoed": true,
+      "caveats": [
+        "Tool availability varies by page type"
+      ],
+      "tags": [
+        "tools",
+        "page type",
+        "configuration",
+        "page tools",
+        "agent actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page-Specific Instructions",
+      "description": "Agents can have page-specific instructions defined using task tags that execute only when a particular page ID is opened, useful for managing long instruction sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1701,
+      "t_end": 1730.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires task tag syntax",
+        "Rarely used in practice"
+      ],
+      "tags": [
+        "page-specific instructions",
+        "task tags"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Role Center Limitation",
+      "description": "Agents can be limited by creating a specific role center that restricts which pages they can access. The agent sees only the pages, items, and tiles configured in that role center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1748.1,
+      "t_end": 1792.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual role center creation"
+      ],
+      "tags": [
+        "role center",
+        "access limitation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page Column Limitation",
+      "description": "Agents can be restricted to see only specific columns in list pages through UI customization, preventing confusion with unnecessary fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1808.5,
+      "t_end": 1829.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires page customization",
+        "Does not affect backend access"
+      ],
+      "tags": [
+        "column limitation",
+        "ui customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tell Me Search Restriction",
+      "description": "Agents do not have access to the Tell Me search feature and cannot navigate using search instructions, limiting navigation to explicitly configured actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1843,
+      "t_end": 1863.2,
+      "is_demoed": false,
+      "caveats": [
+        "Architectural limitation",
+        "Requires explicit navigation configuration"
+      ],
+      "tags": [
+        "tell me search",
+        "navigation restriction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page Customization with Boolean Flags",
+      "description": "Developers can use page customization to control field visibility for agents, setting fields like quantity to true and location to false to restrict what the agent can see or interact with.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1873.4,
+      "t_end": 1904.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires technical page customization",
+        "Different from permission-based restrictions"
+      ],
+      "tags": [
+        "page customization",
+        "field visibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Permission Model",
+      "description": "Agent permissions are combined with user permissions. When a user approves an agent action through a review dialog, the agent is elevated to the combined permissions of the user and the agent profile for that specific action.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1925.2,
+      "t_end": 1957.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user approval for elevation",
+        "Applies per action"
+      ],
+      "tags": [
+        "permissions",
+        "permission elevation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Consumption Tracking",
+      "description": "Developers can view agent consumption data showing how many credits each action consumes, enabling billing predictions and cost management for customer deployments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1989,
+      "t_end": 2035.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires billing setup configuration"
+      ],
+      "tags": [
+        "consumption",
+        "billing",
+        "credits"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task and Subtask Execution",
+      "description": "Each agent task consists of multiple subtasks that can be viewed individually, showing the execution steps performed by the agent with detailed step tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2057.5,
+      "t_end": 2069.8,
+      "is_demoed": true,
+      "caveats": [
+        "Shows execution trail for debugging"
+      ],
+      "tags": [
+        "task tracking",
+        "subtasks"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent JSON Representation and Visibility",
+      "description": "Developers can view the JSON representation of pages as the agent sees them, including field names, tool tips, and available tools, enabling debugging of agent perception.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2132.2,
+      "t_end": 2181,
+      "is_demoed": true,
+      "caveats": [
+        "Shows agent's perspective only",
+        "Includes tool tips but not developer descriptions"
+      ],
+      "tags": [
+        "json representation",
+        "debugging",
+        "agent visibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tool Tips and Error Messages for Agents",
+      "description": "Agents can read tool tips on fields and will read error messages to retry operations. Clear UI design with understandable tool tips and error messages is critical for agent success.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2148.2,
+      "t_end": 2246.9,
+      "is_demoed": true,
+      "caveats": [
+        "Agent behavior dependent on message clarity",
+        "Tool tips are read, not field descriptions"
+      ],
+      "tags": [
+        "tool tips",
+        "error messages",
+        "ui design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Testing in UI",
+      "description": "Developers should test agents by reading instructions, following clicks in the UI as a real user would navigate, ensuring the UI works as expected for agent automation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2258.3,
+      "t_end": 2286.8,
+      "is_demoed": false,
+      "caveats": [
+        "Manual testing approach",
+        "Requires UI navigation understanding"
+      ],
+      "tags": [
+        "testing",
+        "ui testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Factory Codeunit",
+      "description": "The Agent Factory codeunit is used to create agents from code in AL, providing methods to set display name, default profile, and other agent configuration properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2298.5,
+      "t_end": 2318.5,
+      "is_demoed": true,
+      "caveats": [
+        "Part of agent development framework"
+      ],
+      "tags": [
+        "agent factory",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Beta Data Interface",
+      "description": "The Agent Beta Data interface allows developers to configure page ID, instructions, summary, and other agent properties when creating agents programmatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2298.5,
+      "t_end": 2338.6,
+      "is_demoed": false,
+      "caveats": [
+        "Interface-based configuration"
+      ],
+      "tags": [
+        "agent beta data",
+        "interface"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Configuration Dialogue Page Type",
+      "description": "A new page type for agent configuration that acts as a setup page for guided experience, allowing configuration of settings like email address and message limits per agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2338.6,
+      "t_end": 2400.4,
+      "is_demoed": true,
+      "caveats": [
+        "Source table must be temporary",
+        "Primary key must include user security ID",
+        "Separate from guided experience pages"
+      ],
+      "tags": [
+        "configuration dialogue",
+        "setup page"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Capability Registration",
+      "description": "Agents must register their capabilities with status levels of early preview, preview, or production, and must mark the copilot billing type as build to track credit usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2415,
+      "t_end": 2433.1,
+      "is_demoed": true,
+      "caveats": [
+        "Billing type must always be marked build"
+      ],
+      "tags": [
+        "capability registration",
+        "copilot billing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Creation Codeunit with Activate Function",
+      "description": "A codeunit with a create and activate function is used to create agents and set instructions, allowing instruction updates when delivered to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2433.1,
+      "t_end": 2463.8,
+      "is_demoed": true,
+      "caveats": [
+        "Instructions must be managed through code unit or key vault",
+        "Instructions are critical to agent behavior"
+      ],
+      "tags": [
+        "codeunit",
+        "instructions",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent KPI Page",
+      "description": "A KPI page that generates statistics for agents including number of emails received, replies, and tasks created. The table must have user security ID for proper tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2475.9,
+      "t_end": 2524.4,
+      "is_demoed": true,
+      "caveats": [
+        "Table must have user security ID",
+        "KPI calculation is based on specific metrics"
+      ],
+      "tags": [
+        "kpi",
+        "statistics",
+        "tracking",
+        "time savings"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL Agent Development",
+      "description": "Agents can be developed using AL language with full Business Central context. AL agents have advantages including full access to pages, limited API exposure needed, use of existing extension distribution infrastructure, and version control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2543,
+      "t_end": 2611.1,
+      "is_demoed": true,
+      "caveats": [
+        "Currently prototyping only on sandbox",
+        "Requires coding in AL",
+        "Must test with multiple variants"
+      ],
+      "tags": [
+        "al development",
+        "extension",
+        "api design",
+        "appsource"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Studio vs AL Agent Comparison",
+      "description": "Copilot Studio provides chat UI but limited to single customer distribution. AL agents integrate with Business Central using full context and pages, requiring no API exposure, with existing app source distribution and version control infrastructure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2543,
+      "t_end": 2611.1,
+      "is_demoed": false,
+      "caveats": [
+        "Copilot Studio is single customer focused",
+        "AL agents currently sandbox only"
+      ],
+      "tags": [
+        "copilot studio",
+        "al comparison",
+        "distribution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot-AL Agent Interaction",
+      "description": "On the roadmap, copilot agents will be able to interact with AL agents for enhanced orchestration capabilities.",
+      "status": "announced",
+      "status_evidence_t": 2611.1,
+      "status_evidence_quote": "later on the road map there will be also that copilot agents can interact with AL agents",
+      "status_evidence_verified": true,
+      "t_start": 2611.1,
+      "t_end": 2631.7,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available",
+        "Still in planning phase"
+      ],
+      "tags": [
+        "roadmap",
+        "agent interaction",
+        "orchestration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sandbox-Only Development",
+      "description": "Agent development is currently limited to prototyping on sandbox environments only, with no production availability yet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2631.7,
+      "t_end": 2700.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in production",
+        "Testing required with multiple variants",
+        "Need comprehensive testing"
+      ],
+      "tags": [
+        "sandbox",
+        "prototyping",
+        "testing",
+        "limitations"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent Testing Requirements",
+      "description": "Agents must be tested with multiple variants to ensure correct performance. Testing is required as code, and must be repeated when the model changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2644.2,
+      "t_end": 2678.9,
+      "is_demoed": false,
+      "caveats": [
+        "Model changes require re-testing",
+        "Comprehensive variance testing needed"
+      ],
+      "tags": [
+        "testing",
+        "quality assurance",
+        "agent validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Attachment Handling",
+      "description": "Custom integration is required to retrieve and read attachments from email, Azure blob storage, SharePoint or other sources as part of agent tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2763.4,
+      "t_end": 2791.7,
+      "is_demoed": false,
+      "caveats": [
+        "No built-in attachment retrieval",
+        "Requires custom coding",
+        "Must attach via task message builder"
+      ],
+      "tags": [
+        "attachments",
+        "integration",
+        "email",
+        "storage"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Single Agent Context Limitation",
+      "description": "Agents are only aware of their own context and cannot directly call other agents. Multi-agent workflows require separate task messages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2804.1,
+      "t_end": 2851.2,
+      "is_demoed": false,
+      "caveats": [
+        "No direct agent-to-agent calls",
+        "Must use task messages for orchestration"
+      ],
+      "tags": [
+        "agent orchestration",
+        "task messages",
+        "multi-agent limitation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Injection Prevention",
+      "description": "Security guards in agent instructions are required to prevent prompt injection attacks. Price modifications and other sensitive operations must be restricted in instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2864.6,
+      "t_end": 2895.2,
+      "is_demoed": false,
+      "caveats": [
+        "Meta prompt from Microsoft not visible",
+        "Must test for prompt injections",
+        "Instructions must enforce guards"
+      ],
+      "tags": [
+        "security",
+        "prompt injection",
+        "instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL Agent Project Template",
+      "description": "Microsoft provides a ready-made template in VS Code through the AL new project agent command in the command palette for starting agent development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2895.2,
+      "t_end": 2920.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al template",
+        "vs code",
+        "development tools"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales validation agent template",
+      "t": 515.9
+    },
+    {
+      "type": "other",
+      "name": "Inventory check agent",
+      "t": 620.2
+    },
+    {
+      "type": "codeunit",
+      "name": "agent task",
+      "t": 1145.5
+    },
+    {
+      "type": "codeunit",
+      "name": "agent task builder",
+      "t": 1145.5
+    },
+    {
+      "type": "codeunit",
+      "name": "agent task message builder",
+      "t": 1145.5
+    },
+    {
+      "type": "page",
+      "name": "item list",
+      "t": 1486.6
+    },
+    {
+      "type": "page",
+      "name": "purchase order list",
+      "t": 1512.2
+    },
+    {
+      "type": "other",
+      "name": "Agent Factory",
+      "t": 2298.5
+    },
+    {
+      "type": "interface",
+      "name": "Agent Beta Data",
+      "t": 2298.5
+    },
+    {
+      "type": "page",
+      "name": "Configuration Dialogue",
+      "t": 2361.3
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Creation Codeunit",
+      "t": 2433.1
+    },
+    {
+      "type": "page",
+      "name": "setup page",
+      "t": 2349.8
+    },
+    {
+      "type": "page",
+      "name": "KPI page",
+      "t": 2475.9
+    },
+    {
+      "type": "codeunit",
+      "name": "create activate",
+      "t": 2433.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Tobias Fencler",
+      "confidence": "high"
+    },
+    {
+      "name": "Bat Fabake",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 230,
+      "text": "an agent is more like an a piece of software that can perform task on behalf of your self it it will listen to",
+      "why_it_matters": "Defines what an agent is in the context of AI-driven business automation.",
+      "check": "exact"
+    },
+    {
+      "t": 289,
+      "text": "The sales order agents that was the first agents for it. The purchase agent and now we have a merchant or purchase agent it's",
+      "why_it_matters": "Lists existing Microsoft-provided agents currently available in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 374.2,
+      "text": "it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it ...",
+      "why_it_matters": "Establishes key technical requirements for custom agent development - sandbox-only and version constraint.",
+      "check": "exact"
+    },
+    {
+      "t": 389.4,
+      "text": "You need to have an agent admin and an agent diagnostic. And it's quite important that you have to have set up your billing",
+      "why_it_matters": "Specifies required permissions and critical billing setup requirement to enable agent functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 478.1,
+      "text": "but please be aware it's uh currently possible inside production because it's still in preview",
+      "why_it_matters": "Clarifies that custom agents are preview-only and not yet production-ready.",
+      "check": "exact"
+    },
+    {
+      "t": 562.8,
+      "text": "You have to set up instructions. So in that case that tells the agent what he needs to do inside this central what kind",
+      "why_it_matters": "Explains the importance of agent prompting and instruction configuration for agent behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 814.9,
+      "text": "every audit trail every step is locked inside the framework and I can trace it later",
+      "why_it_matters": "Highlights the audit and traceability capabilities built into the agent framework.",
+      "check": "exact"
+    },
+    {
+      "t": 960.6,
+      "text": "nothing is done secretly. It's all visible and auditable in that case",
+      "why_it_matters": "Emphasizes that all agent-made changes are transparent and visible in Business Central, preventing hidden modifications.",
+      "check": "exact"
+    },
+    {
+      "t": 1041.4,
+      "text": "a task can consist multiple task messages because a user can reply on it or uh the agent can send a message out",
+      "why_it_matters": "Explains the fundamental data model for agent-user interaction - tasks can be multi-turn conversations with multiple messages.",
+      "check": "exact"
+    },
+    {
+      "t": 1159,
+      "text": "um code units are quite important to trigger those agents",
+      "why_it_matters": "Identifies the critical developer components needed to build agents - the task, task builder, and task message builder codeunits.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1252.5,
+      "text": "there is an external orchestrator that's separately from B central that is just reading all those task",
+      "why_it_matters": "Clarifies the architecture - agents run outside Business Central in an external orchestrator component that reads and executes tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 1486.6,
+      "text": "You can treat it as in junior employee that agent. So for example, step two, check item inventory",
+      "why_it_matters": "Describes the prompting approach - instructions should be written as if training a new employee with step-by-step guidance.",
+      "check": "exact"
+    },
+    {
+      "t": 1565.1,
+      "text": "if for example if items are not found then ask for assistance if the agency is seeing that he will ask you for assistance",
+      "why_it_matters": "Shows the human-in-loop pattern where agents can stop and ask for help when they encounter situations requiring human judgment.",
+      "check": "exact"
+    },
+    {
+      "t": 1616.2,
+      "text": "the agent will memorize every single action that is performed by the by the agent",
+      "why_it_matters": "Establishes that agent memory is a core capability for tracking execution history, essential for debugging and understanding agent behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 1748.1,
+      "text": "You can limit it by the UI. Uh you need to build a specific RO center and you can limit those the pages in",
+      "why_it_matters": "Shows the primary mechanism for controlling agent access scope through role center configuration, a key security and UX design pattern.",
+      "check": "exact"
+    },
+    {
+      "t": 1843,
+      "text": "he cannot or the agent don't have access to the tell me search so he cannot uh cannot give him instruction for going to",
+      "why_it_matters": "Documents a key architectural limitation that agents cannot use Tell Me search, requiring explicit UI navigation configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1957.6,
+      "text": "You will elevate the the age permissions on top of the the user permissions. So then it is for that action a combined user",
+      "why_it_matters": "Explains the permission elevation model where user approval grants combined permissions, critical for security and governance understanding.",
+      "check": "snapped"
+    },
+    {
+      "t": 2246.9,
+      "text": "if the agent is uh getting an error we will read the error message and try it again until some point he reachs",
+      "why_it_matters": "Shows that agents actively interpret error messages to retry operations, making clear error messaging a requirement for agent design.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2298.5,
+      "text": "There are two uh important uh code units for it. the agent factory",
+      "why_it_matters": "Identifies the primary codeunit for programmatic agent creation, essential for developers building agents in AL.",
+      "check": "exact"
+    },
+    {
+      "t": 2338.6,
+      "text": "every agent uh has his own setup page and this is a new page so here I can set for everybody in the check",
+      "why_it_matters": "Introduces the new agent configuration dialogue page type, showing the guided experience pattern for agent setup.",
+      "check": "exact"
+    },
+    {
+      "t": 2372.8,
+      "text": "The source table uh must be uh temporary true and also very important the source table needs to have an user security ID set",
+      "why_it_matters": "Establishes critical technical requirements for agent configuration table design.",
+      "check": "exact"
+    },
+    {
+      "t": 2415,
+      "text": "you can set it to early preview or preview or in in in production but the copilot billing type must always be marked build",
+      "why_it_matters": "States the billing type requirement and capability status options, essential for agent governance and cost tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 2415,
+      "text": "you need to also register uh capability um hey there u copility then that that is your your agent capabilities you can set it",
+      "why_it_matters": "Defines the agent capability registration process and available modes.",
+      "check": "exact"
+    },
+    {
+      "t": 2563,
+      "text": "with copite studio can write a nice chat experience in in this central you can only have your your pain but it's really of",
+      "why_it_matters": "Clarifies the architectural difference between Copilot Studio and AL agents regarding scope and context.",
+      "check": "exact"
+    },
+    {
+      "t": 2631.7,
+      "text": "Currently, what I said before, it is prototyping only. It's working only on an sandbox for it.",
+      "why_it_matters": "Explicitly states the current sandbox-only limitation for agent development.",
+      "check": "exact"
+    },
+    {
+      "t": 2723.6,
+      "text": "It is still on on on preview. They are really testing right now from what is happening. Is the the platform stable enough and",
+      "why_it_matters": "Confirms preview status with no announced timeline for production availability.",
+      "check": "exact"
+    },
+    {
+      "t": 2840.6,
+      "text": "currently it is not possible to have um uh one agent calling another agent. uh the agent is only aware of its own context.",
+      "why_it_matters": "Clarifies a key architectural limitation in agent orchestration.",
+      "check": "exact"
+    },
+    {
+      "t": 2875,
+      "text": "you need to really uh also prevent that for example you cannot modify the the price etc all that kind of stuff you need",
+      "why_it_matters": "Establishes security requirements for agent instructions to prevent injection attacks.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 374.2,
+      "kind": "preview",
+      "text": "it cannot be implemented inside the production uh the minimum version is 27.4"
+    },
+    {
+      "t": 438.1,
+      "kind": "preview",
+      "text": "it's currently is just for prototyping because it's only working in in sandbox"
+    },
+    {
+      "t": 478.1,
+      "kind": "preview",
+      "text": "please be aware it's uh currently possible inside production because it's still in preview"
+    },
+    {
+      "t": 2298.5,
+      "kind": "preview",
+      "text": "Agent Factory codeunit and Agent Beta Data interface - part of agent development framework"
+    },
+    {
+      "t": 2361.3,
+      "kind": "preview",
+      "text": "Configuration Dialogue page type is a new page type for agent setup"
+    },
+    {
+      "t": 2611.1,
+      "kind": "coming-later",
+      "text": "later on the road map there will be also that copilot agents can interact with AL agents"
+    },
+    {
+      "t": 2631.7,
+      "kind": "preview",
+      "text": "it is prototyping only. It's working only on an sandbox for it"
+    },
+    {
+      "t": 2700.2,
+      "kind": "not-in-this-release",
+      "text": "agents are only available on sandbox environments at the moment"
+    },
+    {
+      "t": 2723.6,
+      "kind": "preview",
+      "text": "It is still on on on preview. They are really testing right now"
+    },
+    {
+      "t": 2723.6,
+      "kind": "coming-later",
+      "text": "there is no end date from or there's sorry no date from when it will be available for uh production environments"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 28,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 43
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

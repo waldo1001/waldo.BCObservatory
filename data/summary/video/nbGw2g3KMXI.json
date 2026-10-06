@@ -1,0 +1,27 @@
+{
+  "video_id": "nbGw2g3KMXI",
+  "item_id": "video/yt-areopa/nbGw2g3KMXI",
+  "summary": "Building custom agents in Business Central, shown with an inventory check agent demo. Covers setup, instructions, permissions, task architecture, billing and AL-based agent creation. Custom agent creation is in preview, sandbox only, minimum version 27.4.",
+  "overview": "An Areopa webinar that explains what agents are, lists the existing agents (sales order, payables, expense), and then walks through building a custom agent. A live demo uses an inventory check scenario: the agent reads an email, checks stock, creates a purchase order when items are missing, and replies, with human-in-the-loop requests and an audit trail.\n\nThe second half is aimed at developers. It covers the task, task builder and task message builder codeunits, the external orchestrator, job queue use for email, instructions and memory, role center and page restrictions, permission elevation, consumption monitoring, and creating agents in AL with the Agent Factory, configuration dialogue pages, capability registration and a KPI page. Custom agent creation is in preview and works only in sandbox, with no production date given.",
+  "key_points": [
+    "Custom agent creation is in preview, works only in sandbox, not production, and needs version 27.4 or higher.",
+    "Billing must be set up because agent actions consume credits; if credits run out, agents stop working. Agent admin and agent diagnostic permissions are needed.",
+    "Agent execution is based on tasks and task messages linked by conversation IDs; the agent task builder and task message builder codeunits create them, and an external orchestrator runs tasks.",
+    "Instructions drive agent behavior. Memory holds actions, not state, and must be requested in the prompt. Instructions need guards against prompt injection, such as blocking price changes.",
+    "Restrict agents with a dedicated role center and page customization. Agents have no Tell Me search, and they read tool tips and error messages, so clear UI text matters.",
+    "When a user approves an agent action in a review dialog, the agent gets the combined permissions of the user and the agent for that action.",
+    "In AL, use the Agent Factory codeunit and Agent Beta Data interface, register capabilities with billing type build, and test with many variants again after any model change."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "e5091f6508aa99db3dbe99eaa77678c897856d721f86afa6ce3ab164320b1660",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0393784
+  }
+}

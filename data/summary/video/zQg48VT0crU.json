@@ -1,0 +1,27 @@
+{
+  "video_id": "zQg48VT0crU",
+  "item_id": "video/yt-dynamicscorner/zQg48VT0crU",
+  "summary": "Dynamics Corner episode 522 is a practitioner conversation about using AI models for AL development: benchmarking models on AL tasks, gaps in AL syntax knowledge, multi-model and agentic workflows with Claude Code and MCP servers, and shifting review effort from code to tests.",
+  "overview": "In this podcast episode a developer-tooling MVP (Tom) describes benchmarking AI models on AL tasks. He says the models now score so well that his test set is saturated and needs redoing, and that the harness matters more than the model. He also covers safeguards in the Fable model that triggered on simple AL tests, and knowledge gaps such as GPT models and interfaces, since AL is a younger language than TypeScript or Python.\n\nThe discussion then moves to workflows: routing planning, review and coding to different models, an advisory model in Claude Code, the PAL MCP for cross-model feedback, and an AL MCP server that lets Claude publish to a sandbox, run tests and fix errors. It ends with views on test-first verification, local and open-source models for lower token costs, per-use pricing, and how far developers will still look at code in future.",
+  "key_points": [
+    "Benchmarking of AL tasks shows top models score near perfectly, so the test set is saturated and new tests and metrics are needed to tell models apart.",
+    "Fable safeguards were triggered by simple AL tests and could fall back to Opus or other models, which makes measuring Fable's own ability harder.",
+    "GPT models are reported to have trouble with AL interfaces. Models trained on older AL syntax miss newer features.",
+    "Guideline markdown files added to prompts can raise all models to the same AL baseline. Benchmark results split by concept (interfaces, tables, records) show where context is needed.",
+    "One demonstrated ISV pipeline has 13 stages and uses Opus for planning, Fable for review and Sonnet for coding. It may not suit partners or VS Code users.",
+    "With an AL MCP server, Claude can compile, publish to a sandbox, run tests, fix failures and re-test. The speaker calls this the point where the benefit becomes clear.",
+    "The speaker spends more time reviewing tests than code. This applies mainly to automated and simpler tasks, not new features."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "a78cb3a9c37dd8d97a3679c4fe15ec1b349cf7ed1e37751c591131dc7b39661f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0329044
+  }
+}

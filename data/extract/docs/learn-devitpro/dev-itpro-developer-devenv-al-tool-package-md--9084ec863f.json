@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool-package.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool-package",
+  "title": "AL Development Tools package",
+  "blob": "9b4d132fecda6dabbd00a6bbcae9ca47ae577b48",
+  "summary": "AL Development Tools package provides cross-platform command-line utilities for compiling, packaging, and managing AL extensions with CI/CD integration and ALTool support.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "al development",
+    "command-line tools",
+    "ci/cd",
+    "extensions",
+    "altool",
+    "nuget"
+  ],
+  "objects": [],
+  "features": [
+    "ALTool command-line utility",
+    "CI/CD integration",
+    "NuGet package",
+    "compile",
+    "packaging",
+    "manifest retrieval",
+    "symbol packages"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004125,
+      "pages_in_call": 8
+    }
+  ]
+}

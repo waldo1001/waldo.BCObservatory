@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview",
+  "title": "Cloud migration setup overview",
+  "blob": "01c3350ea847f7b2b100576684fd3260458063f7",
+  "summary": "Cloud migration setup establishes the connection and pipeline between on-premises and online Business Central databases through integration runtime and Azure Data Factory preparation and replication pipelines.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "setup",
+    "on-premises",
+    "data pipeline",
+    "azure data factory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "table",
+      "name": "Active Session"
+    }
+  ],
+  "features": [
+    "integration runtime",
+    "preparation pipeline",
+    "replication pipeline",
+    "compatibility checks",
+    "table mapping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004125,
+      "pages_in_call": 8
+    }
+  ]
+}

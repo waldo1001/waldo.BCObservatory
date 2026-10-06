@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-service-metadata-edmx-document",
   "published_at": "2026-06-18T12:08:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "df94cadf77c36574220c2c403f9fd8001cfafd09",
       "words": 323,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:19.192Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004125
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:21.023Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:21.024Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:21.025Z",
+      "page": false
     }
   },
   "input_hash": "df94cadf77c36574220c2c403f9fd8001cfafd09",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df94cadf77c36574220c2c403f9fd8001cfafd09"
+  "output_hash": "21239a30bcdc54325a929c76418ecd79ea7b688434f88f18c33ab93f3de0fb56"
 }

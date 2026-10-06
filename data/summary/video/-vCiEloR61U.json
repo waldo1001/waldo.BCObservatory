@@ -1,0 +1,26 @@
+{
+  "video_id": "-vCiEloR61U",
+  "item_id": "video/yt-saurav/-vCiEloR61U",
+  "summary": "ModuleInfo in Business Central 29 (Runtime 18.0 or later) gets four new properties: help, ULA, privacy statement and context sensitive help URL. They expose app manifest metadata to AL code. The video demos reading them with NavApp.GetCurrentModuleInfo and NavApp.GetModuleInfo, and compares this with version 28.",
+  "overview": "The video explains ModuleInfo, the AL type that returns information about an application or extension. In Business Central 29 it has four new properties: help, ULA, privacy statement and context sensitive help URL. They return links taken from the app metadata, so the values do not need to be hardcoded and are refreshed when the extension is updated.\n\nThe presenter shows how to get a ModuleInfo for the current app with NavApp.GetCurrentModuleInfo, or for a specific app by GUID with NavApp.GetModuleInfo. A demo compares the version 28 approach with the version 29 one. The ModuleDependencyInfo type is also shown for inspecting the dependencies listed in app.json.",
+  "key_points": [
+    "Version 29 adds four ModuleInfo properties: help, ULA, privacy statement and context sensitive help URL.",
+    "The new properties require Runtime 18.0 or later.",
+    "The help property returns the help link of the specified application. The ULA property returns the end user license agreement link. The privacy statement property returns the privacy statement link.",
+    "The context sensitive help URL property gives the help URL in the user locale.",
+    "The values come from application metadata, which is refreshed when the extension is updated, so they need not be hardcoded.",
+    "NavApp.GetCurrentModuleInfo needs no app GUID. NavApp.GetModuleInfo takes an app GUID for a specific app.",
+    "ModuleDependencyInfo lets AL code iterate over the dependencies defined in app.json."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "8574302fad64b82e207810ab5e03f673accb1ca5626aca38c7e759bc555a49e2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0149124
+  }
+}

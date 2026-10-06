@@ -1,0 +1,27 @@
+{
+  "video_id": "KkOr-hX0frQ",
+  "item_id": "video/yt-saurav/KkOr-hX0frQ",
+  "summary": "Changing a Business Central table field from integer to BigInteger in version 29 (preview) is not treated as a destructive change when the extension targets runtime 18.0 or later. The video demos the same change failing in version 28 and deploying in version 29, with compiler warnings for narrowing.",
+  "overview": "The video explains a new compiler and runtime feature in Business Central version 29 that lets developers change an existing table field from integer to BigInteger. The platform updates the SQL column from int to bigint without data loss and without flagging a destructive change. The motivating case is a high-volume custom transaction log table whose entry number field is getting close to the integer limit.\n\nThe demo changes a field type, shows the code cop validation, and deploys the same change to version 28 and version 29 for comparison. Version 28 fails with a destructive change error, while version 29 deploys and keeps the data. The presenter also covers selective migration, extension dependencies, and common mistakes. Several compiler warnings, for table relations, related fields and calc formulas, were not yet present in the preview at the time of recording (15 September 2026).",
+  "key_points": [
+    "The integer to BigInteger change requires the extension to target runtime 18.0 or later; extensions on a lower runtime must update it first.",
+    "No upgrade codeunit is needed: the platform converts the SQL column and handles the data and related records.",
+    "In the demo, version 28 rejects the change as destructive, while version 29 deploys it as is and keeps the data.",
+    "The compiler warns when a BigInteger value may be narrowed or overflow, for example when assigned to an integer field.",
+    "In the preview, warnings for table relations, related fields and calc formulas were missing, and the presenter hopes they arrive by GA. Table relations pointing to integer fields need manual updating.",
+    "Going back from BigInteger to integer is destructive: move data to another table, empty the table, then move the data back.",
+    "Migrate only fields that need 64-bit capacity, and start listing high-volume tables that may need it for your roadmap."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "721e5fc2aff24fc0a80e3320c9d1cf1fc3b933a123b0fa9e394162d26d5f0455",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0194424
+  }
+}

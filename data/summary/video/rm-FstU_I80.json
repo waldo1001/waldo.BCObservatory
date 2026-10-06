@@ -1,0 +1,27 @@
+{
+  "video_id": "rm-FstU_I80",
+  "item_id": "video/yt-areopa/rm-FstU_I80",
+  "summary": "Business Central MCP server (standard, public preview from 27.1) used with Copilot Studio: dynamic vs static tool configuration, read-only default, connection string reuse, VS Code, an experimental unsupported proxy, and the admin MCP. Demos show read queries; write operations need static configuration.",
+  "overview": "The Areopa webinar explains the Model Context Protocol, an open standard created by Anthropic, and how Business Central implements it as an MCP server. In Copilot Studio only the tools component is supported for Business Central. Resources are being worked on and are expected in later minor versions.\n\nThe presenter demos adding the Business Central MCP server in Copilot Studio by choosing environment, MCP server configuration and company. The default dynamic configuration exposes search, describe and invoke and is read-only. Write scenarios need a static configuration with explicitly chosen APIs and permissions. The session also covers the validate feature, connection string reuse, VS Code with mcp.json, configuration export and import, query exposure, an experimental proxy for cloud tools, and an MCP for administrators.",
+  "key_points": [
+    "The standard Business Central MCP server is in public preview from 27.1. In Copilot Studio only tools are supported, not resources.",
+    "The default configuration is read-only, for security. Dynamic mode exposes three tools: search, describe and invoke.",
+    "Write scenarios (customers, sales orders, purchase orders) need static configuration. You pick the APIs and actions and set permissions for each.",
+    "Adding the server in Copilot Studio asks for three inputs: environment, MCP server configuration and company. Only active configurations can be selected.",
+    "The MCP connection string can be copied and reused outside Copilot Studio, for example in VS Code via mcp.json. Configurations can be exported from sandbox and imported to production.",
+    "The MCP proxy for cloud tools is experimental and not supported by Microsoft. Query exposure was described as not yet working perfectly.",
+    "Advice: do not expose all APIs. Custom fields need custom APIs, with tooltips and captions that give the agent context."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "98c78d08bfe60cf0879f6bff7bb056a60af8d004022b16813bbb7927f3fc1f05",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0338664
+  }
+}

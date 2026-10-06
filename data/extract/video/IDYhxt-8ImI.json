@@ -1,0 +1,1080 @@
+{
+  "video_id": "IDYhxt-8ImI",
+  "item_id": "video/yt-areopa/IDYhxt-8ImI",
+  "title": "20260629 - AI Enabled Delivery for Consultants",
+  "duration_s": 3669,
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "ai-enabled delivery",
+    "requirements gathering",
+    "functional consulting",
+    "copilot",
+    "workshop notes",
+    "project lifecycle",
+    "business process analysis",
+    "documentation automation",
+    "ai prompts",
+    "requirements analysis",
+    "test case generation",
+    "solution design"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 180.1
+    },
+    {
+      "title": "Speaker introduction and topic overview",
+      "t_start": 180.1,
+      "t_end": 217.4
+    },
+    {
+      "title": "AI-enabled delivery context and consultant benefits",
+      "t_start": 217.4,
+      "t_end": 396.2
+    },
+    {
+      "title": "Project lifecycle framework",
+      "t_start": 396.2,
+      "t_end": 427
+    },
+    {
+      "title": "Requirements gathering and AI tooling overview",
+      "t_start": 427,
+      "t_end": 548.4
+    },
+    {
+      "title": "Microsoft 365 Copilot for requirements extraction",
+      "t_start": 548.4,
+      "t_end": 680.2
+    },
+    {
+      "title": "Practical demonstration of requirements extraction from workshop notes",
+      "t_start": 680.2,
+      "t_end": 891
+    },
+    {
+      "title": "Analysis phase: identifying gaps and patterns",
+      "t_start": 891,
+      "t_end": 1095.1
+    },
+    {
+      "title": "Transitioning to implementation phase",
+      "t_start": 1095.1,
+      "t_end": 1141.5
+    },
+    {
+      "title": "Solution design and critique using AI",
+      "t_start": 1141.5,
+      "t_end": 1316.3
+    },
+    {
+      "title": "Test case generation and UAT scenarios",
+      "t_start": 1316.3,
+      "t_end": 1444.4
+    },
+    {
+      "title": "Demonstrating test case creation and documentation",
+      "t_start": 1444.4,
+      "t_end": 1702.8
+    },
+    {
+      "title": "Standardizing documentation style and Copilot personalization",
+      "t_start": 1702.8,
+      "t_end": 1891.9
+    },
+    {
+      "title": "Issue triage, root cause analysis and AI-assisted documentation",
+      "t_start": 1891.9,
+      "t_end": 2112.2
+    },
+    {
+      "title": "Copilot capabilities in Business Central and AI agents",
+      "t_start": 2112.2,
+      "t_end": 2458.4
+    },
+    {
+      "title": "MCP configuration and questions for AI adoption",
+      "t_start": 2458.4,
+      "t_end": 2638.4
+    },
+    {
+      "title": "AI literacy, human responsibility and output validation",
+      "t_start": 2638.4,
+      "t_end": 2863.6
+    },
+    {
+      "title": "Integrating AI throughout project phases and consultant roles",
+      "t_start": 2863.6,
+      "t_end": 3081
+    },
+    {
+      "title": "Q&A: Copilot costs, AI models, and development use cases",
+      "t_start": 3081,
+      "t_end": 3240.6
+    },
+    {
+      "title": "AI code generation improvements and automating requirements gathering",
+      "t_start": 3240.6,
+      "t_end": 3524.3
+    },
+    {
+      "title": "Final discussion and closing remarks",
+      "t_start": 3524.3,
+      "t_end": 3669
+    }
+  ],
+  "features": [
+    {
+      "name": "Accelerated requirements gathering with AI",
+      "description": "Using AI tooling to draft requirement statements quickly with high accuracy and gain early insight into gaps from workshop notes and documentation, freeing up consultant time for higher value work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 484.7,
+      "t_end": 530.2,
+      "is_demoed": true,
+      "caveats": [
+        "Consultant remains fully responsible for accuracy",
+        "Not meant for final solution design yet, just early insight"
+      ],
+      "tags": [
+        "requirements",
+        "workshop notes",
+        "copilot",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Microsoft 365 Copilot for requirements extraction",
+      "description": "Using Copilot in Excel and Microsoft 365 applications to extract and formalize requirements from workshop notes, identifying gaps, open questions, and creating structured requirement lists with business central mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 573.9,
+      "t_end": 853.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires access to workshop notes and templates",
+        "Works best with structured input data"
+      ],
+      "tags": [
+        "copilot",
+        "excel",
+        "requirements",
+        "automation",
+        "workshop"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-powered requirements analysis and gap detection",
+      "description": "Using Copilot to analyze requirements for completeness, detect gaps and assumptions, check against business central functionality, and identify ambiguous or unanswered questions to support the consultant's work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 647.2,
+      "t_end": 680.2,
+      "is_demoed": true,
+      "caveats": [
+        "Can access Microsoft Learn and organizational documentation if ISV",
+        "Consultant validation remains essential"
+      ],
+      "tags": [
+        "gap detection",
+        "requirements",
+        "analysis",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power Platform for process mockups",
+      "description": "Using Power Apps as a rapid prototyping tool to mock up new processes and user experience designs without intending to deliver the Power App, purely for systems design and user understanding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 622.2,
+      "t_end": 636.4,
+      "is_demoed": false,
+      "caveats": [
+        "Mentioned as a possibility, not demonstrated",
+        "Intended as a design aid, not final delivery"
+      ],
+      "tags": [
+        "prototyping",
+        "power platform",
+        "ux",
+        "design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Requirements worksheet generation with Copilot",
+      "description": "Microsoft 365 Copilot creates a structured worksheet with functional requirements, Business Central interpretations, source mappings, and open questions section to identify ambiguities in customer requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.1,
+      "t_end": 865.8,
+      "is_demoed": true,
+      "caveats": [
+        "User remains fully responsible for accuracy and actioning items",
+        "Requires proper linking to standard Business Central"
+      ],
+      "tags": [
+        "copilot",
+        "requirements",
+        "ai-assisted",
+        "worksheet",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Process simplification and requirement analysis",
+      "description": "AI-driven prompts to summarize customer processes, identify inconsistencies in requirements, detect implicit or missing requirements, and spot gaps that are difficult to identify manually when reviewing large volumes of requirements entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 876.2,
+      "t_end": 1095.1,
+      "is_demoed": false,
+      "caveats": [
+        "Difficult to spot inconsistencies without AI assistance on large requirement sets",
+        "Requires user to define prompts and personas"
+      ],
+      "tags": [
+        "ai prompts",
+        "requirements",
+        "process simplification",
+        "risk assessment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Persona-based prompting for Copilot",
+      "description": "Copilot can adopt different personas such as functional consultant, solution architect, or other roles to provide context-specific analysis and recommendations. Prompts should define persona, context, scope, and instructions for best results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1050.8,
+      "t_end": 1095.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires user to articulate persona and context clearly"
+      ],
+      "tags": [
+        "copilot",
+        "ai prompts",
+        "persona",
+        "solution-architect"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Solution design critique and alternatives with Copilot",
+      "description": "Copilot can critique proposed solution designs, identify risks, suggest alternative approaches, and evaluate whether custom development is necessary or if standard Business Central features could achieve the requirement through alternative pathways.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1141.5,
+      "t_end": 1278.4,
+      "is_demoed": false,
+      "caveats": [
+        "User must understand Business Central to evaluate alternatives",
+        "Performance risks may be introduced by certain design choices"
+      ],
+      "tags": [
+        "copilot",
+        "solution design",
+        "design review",
+        "business central knowledge"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Code review capability in Copilot for consultants",
+      "description": "Consultants who are reasonably proficient in reading code can use Copilot in coding tools to understand what code pieces and functions are doing, including validation checks, without necessarily being developers or writing their own code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1207,
+      "t_end": 1233.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires user to be reasonably well-versed in reading and interpreting code",
+        "Only useful if consultant has coding literacy"
+      ],
+      "tags": [
+        "copilot",
+        "code review",
+        "development",
+        "consultant tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "UAT test case generation from requirements",
+      "description": "Copilot generates functional test cases based on requirements, including preconditions, test data, testing steps, expected results, variations, and coverage mapping to link test cases back to original requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1316.3,
+      "t_end": 1397.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires clear requirement documentation as input",
+        "Coverage mapping helps track test-to-requirement relationships"
+      ],
+      "tags": [
+        "copilot",
+        "test generation",
+        "uat",
+        "edge cases",
+        "requirements traceability"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Negative and edge case test scenario generation",
+      "description": "Copilot can generate test scenarios for unusual configurations and failure modes, complementing standard happy path testing to improve test coverage and catch less common problem scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1329.4,
+      "t_end": 1444.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of what edge cases are relevant to the business"
+      ],
+      "tags": [
+        "copilot",
+        "testing",
+        "edge cases",
+        "negative testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-role test scenario creation",
+      "description": "Test scenarios can be generated from multiple user perspectives such as site manager, accounts payable, or project accountant to ensure different roles' workflows are covered in UAT.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1420,
+      "t_end": 1444.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires understanding of different user roles in the business process"
+      ],
+      "tags": [
+        "copilot",
+        "uat",
+        "test scenarios",
+        "multi-role"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot documentation generation",
+      "description": "Copilot can generate documentation including user guides, create multiple audience-specific variations, handle rewrites for different roles such as end users versus administrators, and leverage project artifacts from SharePoint and other sources based on user permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1589.5,
+      "t_end": 1702.8,
+      "is_demoed": false,
+      "caveats": [
+        "Access to SharePoint artifacts depends on user permissions",
+        "Quality depends on provided prompts and source material"
+      ],
+      "tags": [
+        "documentation",
+        "content generation",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot documentation standardization",
+      "description": "Copilot can standardize documentation across multiple authors by applying consistent structure and style, including standardized sections like introduction, business process reference, prerequisites, steps, and expected results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1702.8,
+      "t_end": 1828.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires clear guidance from user on desired structure"
+      ],
+      "tags": [
+        "documentation",
+        "standardization",
+        "style guide"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Microsoft 365 Copilot custom instructions",
+      "description": "Users can store custom instructions in Microsoft 365 Copilot settings under personalization to guide content generation, such as writing style preferences, use of active voice, consistent terminology, and structure requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1800.2,
+      "t_end": 1876.2,
+      "is_demoed": false,
+      "caveats": [
+        "Custom instructions can be toggled on or off per task",
+        "Requires deliberate setup by the user"
+      ],
+      "tags": [
+        "personalization",
+        "copilot",
+        "custom instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Microsoft 365 Copilot saved memories",
+      "description": "Copilot can save general memories about the user such as their audience, documentation approach, and default assumptions to avoid restating context in every prompt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1800.2,
+      "t_end": 1862.9,
+      "is_demoed": false,
+      "caveats": [
+        "Saved memories can be toggled on or off",
+        "More general in nature than custom instructions"
+      ],
+      "tags": [
+        "personalization",
+        "copilot",
+        "context memory"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot issue summarization",
+      "description": "Copilot can quickly summarize issues and lengthy conversations by synthesizing email threads, chats, and project history to provide rapid context for consultants joining an issue resolution effort.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1925.8,
+      "t_end": 2000.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires access to relevant communication channels and documents"
+      ],
+      "tags": [
+        "issue resolution",
+        "summarization",
+        "support"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot root cause hypothesis generation",
+      "description": "Copilot can generate hypotheses for root causes framed in the context of Business Central, identify patterns in issue logs and telemetry, and reference recurring issues from previous projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1977.2,
+      "t_end": 2093,
+      "is_demoed": false,
+      "caveats": [
+        "Requires access to issue logs, telemetry, and project history",
+        "User must frame context appropriately for BC-specific analysis"
+      ],
+      "tags": [
+        "root cause analysis",
+        "issue diagnostics",
+        "patterns"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot root cause analysis documentation",
+      "description": "Copilot can structure root cause analysis documents including issue summaries, change correlation analysis, and suggestions for corrective and preventive actions based on support tickets and system configuration history.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2035,
+      "t_end": 2093,
+      "is_demoed": false,
+      "caveats": [
+        "Requires structured access to support tickets and configuration documentation"
+      ],
+      "tags": [
+        "root cause analysis",
+        "documentation",
+        "preventive actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Number series suggestions",
+      "description": "Business Central has an inbuilt Copilot capability to suggest number series setup, reducing the time and effort required to configure number series.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2156.5,
+      "t_end": 2167,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "number series",
+        "copilot"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Autofill field suggestions",
+      "description": "Business Central offers autofill field suggestions to help users understand unfamiliar fields and provide example values based on context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2156.5,
+      "t_end": 2180.3,
+      "is_demoed": false,
+      "caveats": [
+        "Helpful for field discovery but should not be the sole source of validation"
+      ],
+      "tags": [
+        "field assistance",
+        "autofill",
+        "ui help"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Analysis assist",
+      "description": "Business Central's analysis assist feature allows users to group and analyze data using natural language queries to identify anomalies and unexpected combinations in datasets, useful for data migration validation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2180.3,
+      "t_end": 2224.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires users to understand what anomalies to look for"
+      ],
+      "tags": [
+        "analysis",
+        "data validation",
+        "natural language"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Model Context Protocol (MCP)",
+      "description": "MCP is a standard way for AI agents to interact with Business Central APIs without requiring direct integrations. It allows AI agents to discover available data and actions, read Business Central data, and perform configured actions where permissions allow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2245.6,
+      "t_end": 2441.7,
+      "is_demoed": false,
+      "caveats": [
+        "Setup is configurable by administrators",
+        "Limited to entities and actions exposed by MCP configuration",
+        "Requires permissions to be properly configured"
+      ],
+      "tags": [
+        "mcp",
+        "api",
+        "ai agents",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Studio agents for Business Central",
+      "description": "Copilot Studio allows building AI agents that can query Business Central data using MCP, supporting interactions for customer support, ordering, and other business processes. Agents can access live Business Central data for finance, sales, purchase, service, or project processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2302.8,
+      "t_end": 2513.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires MCP to be properly configured",
+        "Functional consultants should understand scope of data access required",
+        "Depends on appropriate permissions setup"
+      ],
+      "tags": [
+        "ai agents",
+        "copilot studio",
+        "customer support"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Future agentic scenarios",
+      "description": "AI agents will increasingly help execute repeatable business tasks in Business Central, and consultants may need to help define what data agents should be allowed to access.",
+      "status": "announced",
+      "status_evidence_t": 2441.7,
+      "status_evidence_quote": "future agentic scenarios future it could be very near future the speed that these these agentic capabilities are developing at where AI helps execute",
+      "status_evidence_verified": true,
+      "t_start": 2441.7,
+      "t_end": 2458.4,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline is described as potentially very near future",
+        "Scope and capabilities not yet fully defined"
+      ],
+      "tags": [
+        "ai agents",
+        "automation",
+        "future roadmap"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Microsoft 365 Copilot Premium Work Edition",
+      "description": "Subscription-based AI assistant that integrates with Microsoft 365 tools, using OpenAI models. Provides access to work resources and web content for document summarization, requirement rewriting, workflow documentation, and risk identification. Costs approximately $30 per user per month, though pricing varies by country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3037,
+      "t_end": 3151.8,
+      "is_demoed": false,
+      "caveats": [
+        "Approximately $30 per user per month (varies by country)",
+        "Cost structure may shift toward token consumption limits with fair-use policies"
+      ],
+      "tags": [
+        "m365 copilot",
+        "subscription",
+        "cost",
+        "licensing",
+        "pricing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-Assisted Code Review and Refactoring",
+      "description": "AI assistance for suggesting changes to complex Business Central code, including business logic changes and refactoring for extensions beyond standard functionality. Performance has improved significantly since early 2026.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3170.8,
+      "t_end": 3240.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires developer judgment and validation",
+        "Works better on vanilla installations and well-componentized code",
+        "Personal experience with complex customizations varies",
+        "Performance uplift observed since start of 2026"
+      ],
+      "tags": [
+        "code generation",
+        "refactoring",
+        "complex scenarios",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated test case suggestions",
+      "description": "Copilot capability to automatically generate test case drafts from requirements workshops. Can produce approximately 30 test points in about one minute with attention to prerequisites, data setup, and variations. Outputs are first-draft level requiring manual refinement but save 40-50% of time compared to manual creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3310.7,
+      "t_end": 3406.2,
+      "is_demoed": true,
+      "caveats": [
+        "Outputs are first-draft level requiring manual refinement",
+        "Saves 40-50% of time compared to manual creation",
+        "Requires human review for quality control"
+      ],
+      "tags": [
+        "test-generation",
+        "automation",
+        "quality-assurance",
+        "time-saving"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Studio agents for document processing",
+      "description": "Capability to use Copilot Studio agents for automated requirements gathering and document interpretation. Agents can process files, transcripts, and audio recordings from workshops with strict instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3434.3,
+      "t_end": 3513.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires proper setup and configuration",
+        "Benefits from shared organizational resources"
+      ],
+      "tags": [
+        "copilot-studio",
+        "agent",
+        "automation",
+        "document-processing",
+        "requirements-gathering"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-assisted documentation generation",
+      "description": "Copilot capability to accelerate creation of documentation first drafts. Works well when generating documentation alongside test cases and requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3579.4,
+      "t_end": 3607.7,
+      "is_demoed": true,
+      "caveats": [
+        "First draft quality, requires human refinement"
+      ],
+      "tags": [
+        "documentation",
+        "ai-generation",
+        "accelerated-drafting"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot",
+      "t": 573.9
+    },
+    {
+      "type": "other",
+      "name": "Power Apps",
+      "t": 622.2
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Learn",
+      "t": 667.2
+    },
+    {
+      "type": "other",
+      "name": "worksheet",
+      "t": 799
+    },
+    {
+      "type": "other",
+      "name": "Excel workbook",
+      "t": 1455
+    },
+    {
+      "type": "other",
+      "name": "UAT test cases worksheet",
+      "t": 1536.6
+    },
+    {
+      "type": "other",
+      "name": "Copilot Studio",
+      "t": 3457
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Luke",
+      "confidence": "high"
+    },
+    {
+      "name": "Nile McGovern",
+      "confidence": "high"
+    },
+    {
+      "name": "Eager",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 266.8,
+      "text": "some very practical techniques you can apply immediately to enhance your productivity as a functional consultant through the use of AI",
+      "why_it_matters": "Sets the core purpose of the session - providing immediately actionable AI techniques for consultants rather than theoretical speculation.",
+      "check": "exact"
+    },
+    {
+      "t": 329,
+      "text": "show me how this AI stuff can actually help me survive real world workshop specs testing and indeed go live pressure",
+      "why_it_matters": "Defines the practical, real-world focus of the content addressing actual consultant pain points.",
+      "check": "exact"
+    },
+    {
+      "t": 484.7,
+      "text": "accelerated requirements gathering is is an area where AI can definitely assist you",
+      "why_it_matters": "Directly states that AI can assist with one of the most time-consuming consultant tasks early in projects.",
+      "check": "exact"
+    },
+    {
+      "t": 530.2,
+      "text": "A lot of it is just working through very well identified and known stuff. But really, if you use AI tooling, you should be",
+      "why_it_matters": "Explains the time-saving mechanism - automating routine templated work to enable higher-value consulting activities.",
+      "check": "exact"
+    },
+    {
+      "t": 799,
+      "text": "Microsoft 365 copilot can see obviously external sources but it can also see anything within my business that I have access to in terms",
+      "why_it_matters": "Establishes that Copilot has access to enterprise data sources beyond public information, enabling it to reference internal business context in analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 853.1,
+      "text": "You're still fully responsible for making sure that this is accurate and that you action these properly, but at least it should speed things",
+      "why_it_matters": "Establishes the consultant's responsibility for validation and accuracy while acknowledging speed benefits of AI-assisted requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 914.9,
+      "text": "if it looks like it's requirements are deviating away from standard business central for example, you might be able to use um AI based",
+      "why_it_matters": "Demonstrates how Copilot can identify non-standard requirements and alert consultants to areas likely requiring custom development versus standard configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1050.8,
+      "text": "in every case as well with the prompts, you're starting I'm using it to basically define a persona first because ...",
+      "why_it_matters": "Introduces the technique of persona-based prompting as a best practice for getting more relevant and contextual responses from Copilot.",
+      "check": "exact"
+    },
+    {
+      "t": 1152.2,
+      "text": "Have I thought this through properly? Here's my proposed solution. Critique it. You know, are there alternative ways that I could have solved for",
+      "why_it_matters": "Shows how consultants can use Copilot as a design review peer to identify oversights and explore alternative solution approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 1343.6,
+      "text": "What happens when things go wrong? sort of negative tests and um should reduce manual effort",
+      "why_it_matters": "Emphasizes that Copilot-generated test cases should include failure scenarios, not just happy path testing, and can reduce manual test preparation work.",
+      "check": "exact"
+    },
+    {
+      "t": 1493,
+      "text": "generate functional test cases include these topics for each point. So some preconditions are set up um test data steps expected results and at",
+      "why_it_matters": "Specifies the structured format that effective test case generation should include, with variations and traceability back to requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 1616.7,
+      "text": "this is probably quite a familiar um area with with if you are using co-pilot this is you know documentation ...",
+      "why_it_matters": "Establishes that Copilot documentation generation is a mature, commonly-used capability for implementation projects.",
+      "check": "exact"
+    },
+    {
+      "t": 1639.1,
+      "text": "you can produce different variations of um same subject matter but for different audiences or different purposes which is also quite a timeconsuming task",
+      "why_it_matters": "Highlights how Copilot saves time by generating multiple versions of documentation for different stakeholders automatically.",
+      "check": "exact"
+    },
+    {
+      "t": 1713,
+      "text": "when you're writing process documentation, every time it starts with a introduction, a business process reference, prerequisites, then steps, then expected results in exactly",
+      "why_it_matters": "Demonstrates how Copilot can enforce consistent documentation structure across multiple authors and projects.",
+      "check": "exact"
+    },
+    {
+      "t": 1811.7,
+      "text": "So you can set them up, but then if you don't need them for a particular task, you can just turn them off, turn",
+      "why_it_matters": "Shows that Copilot personalization features in Microsoft 365 are flexible and can be toggled per task rather than being permanent.",
+      "check": "exact"
+    },
+    {
+      "t": 1977.2,
+      "text": "It can also generate hypotheses for root causes um framed in the context of business central. So again if you if you tell it",
+      "why_it_matters": "Indicates that Copilot can provide BC-specific root cause analysis rather than generic suggestions.",
+      "check": "exact"
+    },
+    {
+      "t": 2245.6,
+      "text": "MCP is a standard way for AI and for AI agents to work with Business Central. It stands for model context protocol and essentially",
+      "why_it_matters": "Defines MCP as the standard for AI agent integration with Business Central rather than requiring custom integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 2408.4,
+      "text": "an administrator can set up which entities to expose uh to the MCP server. you will need to have APIs uh in the background",
+      "why_it_matters": "Clarifies that MCP setup is configurable and controlled by administrators to limit data exposure based on business needs.",
+      "check": "exact"
+    },
+    {
+      "t": 2458.4,
+      "text": "as a consultant you might need to help define what the agent should be allowed to see and do. So what is the scope",
+      "why_it_matters": "Establishes that functional consultants will play a role in defining data scope and permissions for AI agents.",
+      "check": "exact"
+    },
+    {
+      "t": 2471.8,
+      "text": "you should always er on the side of you know less is more when it comes to giving external access to data",
+      "why_it_matters": "Key guidance for consultants on security best practices when configuring AI agents for Business Central data access.",
+      "check": "exact"
+    },
+    {
+      "t": 2543.8,
+      "text": "which BC data does the agent need? Uh should this be readon or action taking who approves exceptions or risky outputs?",
+      "why_it_matters": "Identifies critical questions consultants must ask before implementing MCP, including permission scope and governance.",
+      "check": "exact"
+    },
+    {
+      "t": 2772.8,
+      "text": "You're always still in in charge of the judgment and the decisions. So what the AI tooling has done for you is given you",
+      "why_it_matters": "Clarifies that AI remains a tool for consultant judgment, not a replacement for consultant decision-making.",
+      "check": "exact"
+    },
+    {
+      "t": 2828.6,
+      "text": "Always validate AI output against business central reality as well. You can tell it not to hallucinate. You can you can guide it in",
+      "why_it_matters": "Critical responsibility for consultants to verify AI suggestions against actual BC behavior rather than trusting AI output uncritically.",
+      "check": "exact"
+    },
+    {
+      "t": 3131.7,
+      "text": "for the sort of the vast vast majority of what I covered today is covered within Microsoft 365 co-pilot which ...",
+      "why_it_matters": "Provides pricing information for M365 Copilot Premium Work Edition, the primary AI tool discussed for consultant delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 3131.7,
+      "text": "the vast vast majority of what i covered today is covered within microsoft 365 co pilot which is uh a monthly per user",
+      "why_it_matters": "Establishes the pricing model for Copilot functionality at approximately $30 per user per month, clarifying licensing approach.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3220.6,
+      "text": "in the last six months particularly I'm hearing uh from developers a kind of a real uplift in you know at first I was",
+      "why_it_matters": "Demonstrates significant improvements in AI code generation quality since early 2026, indicating maturation of the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 3268.2,
+      "text": "if you're on a vanilla type installation the more vanilla it is the better the results you will get or if you're in a",
+      "why_it_matters": "Clarifies that code generation quality depends on codebase structure and complexity, with vanilla installs producing better results.",
+      "check": "exact"
+    },
+    {
+      "t": 3310.7,
+      "text": "I think they're a they're a first draft is how I would value them. Um but a first draft that was literally generated in",
+      "why_it_matters": "Quantifies test case generation capability: 30 test points in one minute, establishing efficiency baseline.",
+      "check": "exact"
+    },
+    {
+      "t": 3406.2,
+      "text": "in in a matter of minutes rather than hours. So it's a timesaver while maintaining what I would consider to be an acceptable level",
+      "why_it_matters": "Establishes that AI-generated test cases provide 40-50% completion in minutes versus hours manually, with acceptable quality.",
+      "check": "snapped"
+    },
+    {
+      "t": 3457,
+      "text": "A copilot studio agent would be ideal for that where it's it's given strict instructions where its purpose is to take a file and",
+      "why_it_matters": "Identifies Copilot Studio agents as recommended solution for automating requirements gathering from documents and files.",
+      "check": "exact"
+    },
+    {
+      "t": 3557.1,
+      "text": "My personal experience for complex customizations has not been very good. You have to guide it and takes more time than doing yourself often",
+      "why_it_matters": "Notes significant limitation: AI generation for complex customizations requires extensive guidance and may be slower than manual coding.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 291.7,
+      "kind": "other",
+      "text": "This is not going to be a deeply technical session. It's not going to be about cutting edge possibilities and ..."
+    },
+    {
+      "t": 853.1,
+      "kind": "other",
+      "text": "You're still fully responsible for making sure that this is accurate and that you action these properly"
+    },
+    {
+      "t": 2441.7,
+      "kind": "coming-later",
+      "text": "future agentic scenarios future it could be very near future where AI helps execute repeatable business tasks"
+    },
+    {
+      "t": 3151.8,
+      "kind": "other",
+      "text": "not aware of any any indications that that's going to change regarding copilot pricing"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 31,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 29
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

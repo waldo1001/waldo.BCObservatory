@@ -1,0 +1,1106 @@
+{
+  "video_id": "rm-FstU_I80",
+  "item_id": "video/yt-areopa/rm-FstU_I80",
+  "title": "20260831 - Business Central MCP Server, standard and custom",
+  "duration_s": 3491,
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "model context protocol",
+    "mcp server",
+    "copilot studio",
+    "business central integration",
+    "reusability",
+    "standardization",
+    "ai integration",
+    "llm connectivity",
+    "api exposure",
+    "configuration",
+    "dynamic vs static",
+    "read-only operations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 156.8
+    },
+    {
+      "title": "Presenter Introduction and Session Overview",
+      "t_start": 156.8,
+      "t_end": 330.1
+    },
+    {
+      "title": "What is Model Context Protocol (MCP) and Open Standard",
+      "t_start": 330.1,
+      "t_end": 597.1
+    },
+    {
+      "title": "MCP as Open Standard and Reusability",
+      "t_start": 597.1,
+      "t_end": 708.3
+    },
+    {
+      "title": "MCP Components and Copilot Studio Support",
+      "t_start": 708.3,
+      "t_end": 887.9
+    },
+    {
+      "title": "MCP architecture and server options",
+      "t_start": 887.9,
+      "t_end": 1111
+    },
+    {
+      "title": "MCP server types and status",
+      "t_start": 1111,
+      "t_end": 1261.6
+    },
+    {
+      "title": "MCP configuration strategies",
+      "t_start": 1261.6,
+      "t_end": 1370.2
+    },
+    {
+      "title": "Dynamic and static tool configuration",
+      "t_start": 1370.2,
+      "t_end": 1673.5
+    },
+    {
+      "title": "Security, authentication and MCP server integration",
+      "t_start": 1673.5,
+      "t_end": 1842.6
+    },
+    {
+      "title": "MCP Server Integration with Copilot Studio and tool discovery",
+      "t_start": 1842.6,
+      "t_end": 2040.6
+    },
+    {
+      "title": "MCP server configuration and agent query execution",
+      "t_start": 2040.6,
+      "t_end": 2280
+    },
+    {
+      "title": "Visualizations, write operations limitations and MCP design",
+      "t_start": 2280,
+      "t_end": 2443.8
+    },
+    {
+      "title": "MCP advantages, disadvantages and validate feature",
+      "t_start": 2443.8,
+      "t_end": 2596.2
+    },
+    {
+      "title": "MCP in VS Code, query exposure and configuration management",
+      "t_start": 2596.2,
+      "t_end": 2825.1
+    },
+    {
+      "title": "MCP proxy, cloud integration and cross-platform usage",
+      "t_start": 2825.1,
+      "t_end": 3100.9
+    },
+    {
+      "title": "Business Central admin MCP and future roadmap",
+      "t_start": 3100.9,
+      "t_end": 3233.5
+    },
+    {
+      "title": "Q&A and closing remarks",
+      "t_start": 3233.5,
+      "t_end": 3491
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central MCP Server",
+      "description": "A Model Context Protocol server implementation for Business Central that allows standardized connection between AI models and Business Central data sources. Enables tools exposure for creating orders and reading system information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 167.2,
+      "t_end": 250.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only tools are currently supported in Copilot Studio, not resources",
+        "Resources support is being worked on for future versions"
+      ],
+      "tags": [
+        "mcp",
+        "integration",
+        "ai",
+        "copilot",
+        "business central"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Resources Component",
+      "description": "MCP protocol component for exposing resources such as documents. Microsoft is working on adding resources support to Business Central MCP server in Copilot Studio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.9,
+      "t_end": 887.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available in Copilot Studio",
+        "Expected in future minor versions"
+      ],
+      "tags": [
+        "mcp",
+        "resources",
+        "copilot studio",
+        "roadmap"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Tools Component",
+      "description": "MCP protocol component that allows exposure of tools to perform actions on data sources such as creating orders or reading system information. Currently the only supported component for Business Central in Copilot Studio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.8,
+      "t_end": 785.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "tools",
+        "data integration",
+        "actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Context Protocol (MCP)",
+      "description": "An open standard protocol created by Anthropic that standardizes connectivity between AI models and multiple data sources using a single protocol rather than requiring custom integration for each source. Acts as a universal connector similar to USB.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.1,
+      "t_end": 597.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "protocol",
+        "standardization",
+        "integration",
+        "reusability",
+        "anthropic"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP Prompts Component",
+      "description": "MCP protocol component for reusing different prompts in LLM solutions. Part of the standard MCP protocol but not heavily utilized.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.8,
+      "t_end": 756.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not very popular",
+        "Limited adoption"
+      ],
+      "tags": [
+        "mcp",
+        "prompts",
+        "llm"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Sampling, Elicitation and Apps",
+      "description": "Newer MCP protocol components for creating apps and user input directly in MCPs. Not widely adopted yet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 756.2,
+      "t_end": 785.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not very popular",
+        "Not widely used in current solutions"
+      ],
+      "tags": [
+        "mcp",
+        "apps",
+        "experimental"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Server Standard for Business Central",
+      "description": "A standardized protocol to open Business Central entities externally for creating agents and providing business value through model context protocol.",
+      "status": "preview",
+      "status_evidence_t": 1177.9,
+      "status_evidence_quote": "The MCP server standard uh is in public preview from 27.1",
+      "status_evidence_verified": true,
+      "t_start": 1122.3,
+      "t_end": 1209.1,
+      "is_demoed": true,
+      "caveats": [
+        "Increasing functionality with each version",
+        "Only tools supported in Copilot Studio, not resources yet"
+      ],
+      "tags": [
+        "mcp",
+        "preview",
+        "standardized protocol",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Server Proxy",
+      "description": "An experimental MCP server option for use with cloud environments, not officially supported by Microsoft.",
+      "status": "preview",
+      "status_evidence_t": 1209.1,
+      "status_evidence_quote": "This is very important. Experimental. If you want to use the MCP server with cloud up to you, but it's experimental. It's not supported",
+      "status_evidence_verified": true,
+      "t_start": 1209.1,
+      "t_end": 1231.7,
+      "is_demoed": false,
+      "caveats": [
+        "Not supported by Microsoft",
+        "Only informational guidance provided"
+      ],
+      "tags": [
+        "mcp",
+        "experimental",
+        "cloud",
+        "unsupported"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Server for Administration",
+      "description": "An MCP server component for managing environments, applications, and apps within your Business Central environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1247.8,
+      "t_end": 1261.6,
+      "is_demoed": false,
+      "caveats": [
+        "Functionality to be shown later"
+      ],
+      "tags": [
+        "mcp",
+        "administration",
+        "environment management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dynamic Tool Configuration",
+      "description": "A configuration mode that exposes three standard tools (search, describe, invoke) without explicitly adding API pages, allowing LLM to dynamically select the best API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1396.8,
+      "t_end": 1658.3,
+      "is_demoed": true,
+      "caveats": [
+        "Read-only access only",
+        "Limited to three tools: search, describe, invoke"
+      ],
+      "tags": [
+        "configuration",
+        "dynamic",
+        "tools",
+        "read-only"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Static Configuration Mode",
+      "description": "A configuration approach needed for write scenarios to explicitly specify which APIs and actions should be exposed for create, update, and delete operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1658.3,
+      "t_end": 1786.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires explicit API selection",
+        "Requires manual permission configuration for each API",
+        "More complex than dynamic tool"
+      ],
+      "tags": [
+        "configuration",
+        "static",
+        "write scenarios"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Default Read-Only Access",
+      "description": "The default MCP server configuration provides read-only access to Business Central data. Write operations require explicit configuration with appropriate permissions per table and action.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1786.6,
+      "t_end": 1842.6,
+      "is_demoed": false,
+      "caveats": [
+        "Default provides read-only access",
+        "Write permissions must be explicitly granted",
+        "Security tied to user permissions"
+      ],
+      "tags": [
+        "mcp",
+        "security",
+        "permissions",
+        "read-only"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP Server Connection in Copilot Studio",
+      "description": "Copilot Studio can integrate MCP servers for Business Central by selecting the MCP server configuration, specifying environment, MCP server configuration, and company. This enables AI agents to access Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1842.6,
+      "t_end": 1958.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selection of environment",
+        "Requires selection of MCP server configuration",
+        "Requires selection of company"
+      ],
+      "tags": [
+        "mcp",
+        "copilot-studio",
+        "integration",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Context Protocol (MCP) Discovery in Copilot Studio",
+      "description": "Copilot Studio tool management allows users to discover and add available Model Context Protocol implementations, including the Business Central MCP server, from a centralized catalog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1958.5,
+      "t_end": 2040.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selecting from available MCPs"
+      ],
+      "tags": [
+        "mcp",
+        "discovery",
+        "copilot-studio",
+        "tools"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Server Configuration Selection in Copilot",
+      "description": "When adding an MCP server connection in Copilot Studio, users can select from available MCP server configurations defined in Business Central, with three configurable inputs: environment, MCP server configuration, and company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2040.6,
+      "t_end": 2148.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only active configurations are available for selection",
+        "Requires company selection"
+      ],
+      "tags": [
+        "mcp",
+        "configuration",
+        "copilot-studio",
+        "environment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Tool Search, Describe, and Invoke Actions",
+      "description": "The MCP server exposes three core actions through Copilot Studio: search to find data, describe to get metadata about objects, and invoke to perform operations. These tools refresh based on the selected MCP configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2148.6,
+      "t_end": 2201.4,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to three actions",
+        "Can be disabled to avoid confusion"
+      ],
+      "tags": [
+        "mcp",
+        "actions",
+        "tools",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Agent Query Execution Against Business Central",
+      "description": "Copilot agents can execute natural language queries against Business Central via the MCP server, retrieving customer lists and other data directly from the specified company and environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2201.4,
+      "t_end": 2280,
+      "is_demoed": true,
+      "caveats": [
+        "Response format can be customized",
+        "Limited to read operations by default"
+      ],
+      "tags": [
+        "copilot",
+        "agent",
+        "query",
+        "business-central"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-Generated Visualizations in Copilot Studio",
+      "description": "Copilot Studio can create pie charts and Excel files based on Business Central data retrieved through the MCP server, enabling agents to generate formatted visualizations and reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2301.8,
+      "t_end": 2372.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Copilot Studio features"
+      ],
+      "tags": [
+        "copilot",
+        "visualization",
+        "charts",
+        "excel"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Read-Only Constraint for Write Operations",
+      "description": "The MCP server with default or read-only configuration cannot execute write operations such as creating sales orders. Create, modify, and delete operations are not available in read-only mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2372.9,
+      "t_end": 2410.2,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to read-only by default",
+        "Write operations require separate configuration"
+      ],
+      "tags": [
+        "mcp",
+        "read-only",
+        "limitation",
+        "write-operations"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP Native AI Tool Design",
+      "description": "The MCP is designed specifically as a native AI tool, distinguishing it from other Business Central connectors which are not optimized for AI operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2417.2,
+      "t_end": 2462.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "ai",
+        "native-tool",
+        "design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Validate feature for API exposure",
+      "description": "Validate is a new feature that allows deciding which related entities to expose when exposing sales lines, such as header data, ensuring complete information is available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2532.8,
+      "t_end": 2569.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "data exposure",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Connection string configuration",
+      "description": "A new feature allowing users to copy and reuse the MCP connection string across different customers, solutions, and cloud environments beyond just Copilot Studio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2569.7,
+      "t_end": 2596.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "connection",
+        "reusability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP integration with VS Code",
+      "description": "The MCP can be configured in VS Code using mcp.json file to query Business Central data, such as item lists, directly from the development environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2596.2,
+      "t_end": 2677.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "integration",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query exposure in MCP",
+      "description": "New capability to expose queries through MCP server configuration, allowing AI tools to access custom and standard queries from Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2702.6,
+      "t_end": 2738.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not working perfectly yet",
+        "Still in testing phase"
+      ],
+      "tags": [
+        "query",
+        "api",
+        "preview"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Page and API selection for exposure",
+      "description": "Users can choose which pages and APIs to expose through the MCP, including both standard and custom APIs from Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2738.2,
+      "t_end": 2758.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "customization",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Configuration export and import",
+      "description": "New buttons allow exporting MCP configuration from sandbox environments and importing it to production, streamlining deployment processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2800.7,
+      "t_end": 2825.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "deployment",
+        "export",
+        "import"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP proxy for cloud solutions",
+      "description": "An experimental solution enabling MCP to work with cloud platforms like cloud.ai and other solutions beyond Copilot Studio through a proxy mechanism.",
+      "status": "preview",
+      "status_evidence_t": 2881.2,
+      "status_evidence_quote": "Here you have them um MCP proxy. Um this is the experimental solution, right? This Remember, this is the experimental. It's not supported by",
+      "status_evidence_verified": true,
+      "t_start": 2881.2,
+      "t_end": 2948,
+      "is_demoed": true,
+      "caveats": [
+        "Experimental",
+        "Not supported by Microsoft",
+        "Requires manual proxy setup"
+      ],
+      "tags": [
+        "cloud",
+        "integration",
+        "experimental"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP for administrators",
+      "description": "A specialized MCP allowing administrators to query tenant and environment information, such as listing environments and checking sandbox versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3065.3,
+      "t_end": 3183.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin",
+        "tenant",
+        "environments"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Business Central admin MCP",
+      "description": "An MCP server that allows querying Business Central environments through natural language. The admin MCP can retrieve information about the three environments in the system and is accessible via the admin center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3126.3,
+      "t_end": 3183.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "admin",
+        "environments",
+        "api"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot Studio tool selections",
+      "description": "New tool selections from Copilot Studio that are being created by Microsoft for use with the MCP. These are not yet public and not available in all environments, but can be used.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3195.4,
+      "t_end": 3233.5,
+      "is_demoed": false,
+      "caveats": [
+        "not public",
+        "not in all environments"
+      ],
+      "tags": [
+        "copilot studio",
+        "tools",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP server in VS Code",
+      "description": "The MCP server can be used within VS Code to introduce data to or receive data from Business Central. This enables a development workflow for agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3291.7,
+      "t_end": 3320.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "vs code",
+        "development",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power BI integration with MCP agents",
+      "description": "Agents can obtain information and pass it to Power BI through the MCP server, enabling data visualization capabilities for agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3338.8,
+      "t_end": 3362.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "data visualization",
+        "agents",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom APIs for custom fields",
+      "description": "When custom fields are added to Business Central, custom APIs must be exposed to allow agents to learn about and access these fields. Tool tips and captions in the APIs provide context for the agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3362.6,
+      "t_end": 3413.6,
+      "is_demoed": false,
+      "caveats": [
+        "requires custom API exposure",
+        "needs proper documentation in tool tips and captions"
+      ],
+      "tags": [
+        "custom fields",
+        "api",
+        "agents",
+        "documentation"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Model Context Protocol configuration",
+      "t": 1383.4
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 2040.6
+    },
+    {
+      "type": "other",
+      "name": "mcp.json",
+      "t": 2607.4
+    },
+    {
+      "type": "api",
+      "name": "Business Central admin API",
+      "t": 3126.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Fred Hector",
+      "confidence": "high"
+    },
+    {
+      "name": "Roberto Corella",
+      "confidence": "high"
+    },
+    {
+      "name": "Roberto",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 425,
+      "text": "protocol is something similar to that we have the same protocol to connect every item every model large language",
+      "why_it_matters": "Explains the fundamental value proposition of MCP as a standardized connection method",
+      "check": "fuzzy"
+    },
+    {
+      "t": 597.1,
+      "text": "The MCP is an open protocol. Remember that the MCP was created by Anthropic.",
+      "why_it_matters": "Establishes MCP's origin and open nature, clarifying it is not Microsoft-proprietary but industry-standard",
+      "check": "exact"
+    },
+    {
+      "t": 821.5,
+      "text": "components that we can use in copilot studio are resources and tools",
+      "why_it_matters": "Establishes current limitations of Copilot Studio's MCP support compared to the full protocol",
+      "check": "fuzzy"
+    },
+    {
+      "t": 831.9,
+      "text": "if you want to use business central with copilot the mcp server for business central",
+      "why_it_matters": "Clarifies the current state of Business Central MCP Server support in Copilot Studio, limited to tools only",
+      "check": "fuzzy"
+    },
+    {
+      "t": 831.9,
+      "text": "if you want to use Business Central with Copilot the MCP server for Business Central uh in Copilot Studio, you only can use tools",
+      "why_it_matters": "Clarifies the current limitation of MCP Server support in Copilot Studio: only tools are supported, not resources, which is a key constraint for integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 923.2,
+      "text": "the LLM need to decide which is the tool, which is the door that need to open. What is the best door to open?",
+      "why_it_matters": "Explains the core design principle of MCP: the LLM autonomously selects the appropriate tool, unlike direct API usage where humans decide.",
+      "check": "exact"
+    },
+    {
+      "t": 1177.9,
+      "text": "The MCP server standard uh is in public preview from 27.1. Uh this is the uh the solution, but in ...",
+      "why_it_matters": "Establishes the status and release timeline of the standard MCP server, indicating ongoing development with increasing capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1220,
+      "text": "If you want to use the MCP server with cloud up to you, but it's experimental. It's not supported by Microsoft.",
+      "why_it_matters": "Critical distinction that the MCP Server Proxy is experimental and unsupported, meaning customers should use the standard version for production.",
+      "check": "exact"
+    },
+    {
+      "t": 1466.8,
+      "text": "When you are using the default configuration, you are using something only to read. Especially for security.",
+      "why_it_matters": "Identifies a critical security-driven limitation: default dynamic configuration is read-only to prevent unauthorized modifications to Business Central data.",
+      "check": "exact"
+    },
+    {
+      "t": 1519.5,
+      "text": "this three tools are three tools that microsoft create only to use with the mcp",
+      "why_it_matters": "Specifies the three standard MCP tools that the dynamic configuration exposes, which forms the foundation of LLM-driven API discovery.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1613.3,
+      "text": "The MCB decide what is the best to use, right? This is the dynamic tool.",
+      "why_it_matters": "Explains the core differentiator of the dynamic tool - it automatically selects the best API without manual configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1658.3,
+      "text": "but what happen if I would need write scenarios? If I need to write a customer, write an order, write an purchase order?",
+      "why_it_matters": "Identifies a fundamental limitation of the dynamic tool and introduces the need for static configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1802.8,
+      "text": "this is the default configuration is only um read access, right? Only um read access for the MCP customers.",
+      "why_it_matters": "Establishes that MCP defaults to read-only access, requiring explicit configuration for write operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1866,
+      "text": "when you create an object in Copilot Studio, you decide that you want to add an NCP and an NCP server for Business Central,",
+      "why_it_matters": "Documents the three required parameters for MCP integration in Copilot Studio.",
+      "check": "exact"
+    },
+    {
+      "t": 2077.4,
+      "text": "we have here the, um, the, the MCPS server, and we have three inputs directly, uh, in the configuration. Environment, MCPS server configuration, and",
+      "why_it_matters": "Reinforces the three-parameter model for MCP configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 2184.7,
+      "text": "Search, describe, and invoke. Remember? as I told you before, this is the three the three options that we have directly on the configuration",
+      "why_it_matters": "Confirms the three core MCP actions exposed to agents.",
+      "check": "exact"
+    },
+    {
+      "t": 2385.7,
+      "text": "if I say, do you want to create imagine that you want to create a a question sales order, it's not possible because it's",
+      "why_it_matters": "Demonstrates the practical limitation that MCP cannot create write operations in read-only mode.",
+      "check": "exact"
+    },
+    {
+      "t": 2443.8,
+      "text": "The MCP was created specifically for the AI tools, not not for the the the rest of the connectors are not for that.",
+      "why_it_matters": "Clarifies that MCP is purpose-built for AI while other connectors serve different functions.",
+      "check": "exact"
+    },
+    {
+      "t": 2462.4,
+      "text": "Uh we have very low latency. Um it's flexible, clean, obviously. But, the cons, um it's something new.",
+      "why_it_matters": "Summarizes the key advantages and trade-offs of MCP - performance and design benefits offset by newness and immaturity.",
+      "check": "exact"
+    },
+    {
+      "t": 2532.8,
+      "text": "Validate is the possibility to decide that if you are exposing sales lines, probably you need to expose also uh purchase header lines.",
+      "why_it_matters": "Describes a new feature that allows smart selection of related data entities when exposing APIs, ensuring complete data context for AI agents.",
+      "check": "exact"
+    },
+    {
+      "t": 2582.4,
+      "text": "I can use this connection string to copy and use the MCP in other um customer, not only in Copilot Studio.",
+      "why_it_matters": "Shows the portability of MCP configurations across different platforms and customer instances, increasing flexibility and reusability.",
+      "check": "exact"
+    },
+    {
+      "t": 2724.5,
+      "text": "for me it's not uh working uh for now it's not working um perfectly, but um uh of course, in in the future we",
+      "why_it_matters": "Indicates that query exposure is still in preview status and not fully functional, setting expectations about current maturity level.",
+      "check": "exact"
+    },
+    {
+      "t": 2881.2,
+      "text": "Here you have them um MCP proxy. Um this is the experimental solution, right? This Remember, this is the experimental. It's not supported by",
+      "why_it_matters": "Clarifies the unsupported and experimental nature of the MCP proxy feature for cloud integrations, important for production consideration.",
+      "check": "exact"
+    },
+    {
+      "t": 3077.4,
+      "text": "how many environments I have in in my tenant? How many in which version is the sandbox? Or can I update the sandbox to",
+      "why_it_matters": "Explains the use cases and capabilities of the admin MCP for managing environments and versions at the tenant level.",
+      "check": "snapped"
+    },
+    {
+      "t": 3168.1,
+      "text": "This is the MCP for admin and you can see the three environments that I have in my um, system.",
+      "why_it_matters": "Demonstrates that the admin MCP is functional and can retrieve actual environment information from Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 3221.9,
+      "text": "new tool selections from uh, from Copilot Studio is not public. It's not uh in all the environments, but you can use it.",
+      "why_it_matters": "Clarifies that Copilot Studio tool selections for MCP are still in preview stage and not universally available.",
+      "check": "exact"
+    },
+    {
+      "t": 3233.5,
+      "text": "Start to use the MCP server as soon as possible to create your first agent. Try to create your small agents um with a",
+      "why_it_matters": "Key recommendation for adoption strategy - start small with MCP server integration.",
+      "check": "exact"
+    },
+    {
+      "t": 3258.2,
+      "text": "Do not expose all the APIs. Try to reduce the number of APIs. It's you you don't want to open the the the all",
+      "why_it_matters": "Critical security best practice for API exposure when using MCP servers and agents.",
+      "check": "exact"
+    },
+    {
+      "t": 3306.6,
+      "text": "Uh yes, it's possible from VS Code to to introduce data uh to or receive.",
+      "why_it_matters": "Confirms that MCP server can be used within VS Code development environment for agent development.",
+      "check": "exact"
+    },
+    {
+      "t": 3350,
+      "text": "Yes, you can obtain information and pass the information to the MCP for the the Power BI.",
+      "why_it_matters": "Indicates that agents can leverage Power BI through MCP for enhanced data visualization capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 3362.6,
+      "text": "When the custom fields are added to the Business Central and exposed to via agent API, um all the um the agent learn about",
+      "why_it_matters": "Explains that agents automatically adapt to custom fields when proper APIs are exposed.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 860.7,
+      "kind": "coming-later",
+      "text": "I suppose in a couple of versions or minor versions, probably you can use the resources because the team is working in use this resources, but for now we only can use tools"
+    },
+    {
+      "t": 1190.4,
+      "kind": "preview",
+      "text": "The MCP server standard uh is in public preview from 27.1"
+    },
+    {
+      "t": 1209.1,
+      "kind": "preview",
+      "text": "Experimental. If you want to use the MCP server with cloud up to you, but it's experimental"
+    },
+    {
+      "t": 1220,
+      "kind": "other",
+      "text": "It's not supported by Microsoft"
+    },
+    {
+      "t": 2473.5,
+      "kind": "preview",
+      "text": "it's not it's still maturing. Um it's not something very um tested"
+    },
+    {
+      "t": 2713.8,
+      "kind": "preview",
+      "text": "it's not uh working uh for now it's not working um perfectly"
+    },
+    {
+      "t": 2881.2,
+      "kind": "preview",
+      "text": "this is the experimental solution, right? This Remember, this is the experimental. It's not supported by Microsoft."
+    },
+    {
+      "t": 3221.9,
+      "kind": "preview",
+      "text": "new tool selections from uh, from Copilot Studio is not public. It's not uh in all the environments"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 31,
+    "quotes_dropped": 3,
+    "evidence_verified": 3,
+    "evidence_unverified": 27
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

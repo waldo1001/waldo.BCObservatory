@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/understanding-session-timeouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/understanding-session-timeouts",
+  "title": "Configure Session Timeout",
+  "blob": "93e4a3dd1456d66e2b666355b13ba4f84ea01f58",
+  "summary": "Session timeout configuration controls when Business Central client sessions close due to inactivity or connection loss through server and web client settings.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "session timeout",
+    "configuration",
+    "inactivity",
+    "connection",
+    "settings"
+  ],
+  "objects": [],
+  "features": [
+    "ClientServicesIdleClientTimeout",
+    "SessionTimeout",
+    "ClientServicesReconnectPeriod",
+    "ClientServicesKeepAliveInterval",
+    "reconnection"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004125,
+      "pages_in_call": 8
+    }
+  ]
+}

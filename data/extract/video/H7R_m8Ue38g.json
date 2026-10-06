@@ -1,0 +1,216 @@
+{
+  "video_id": "H7R_m8Ue38g",
+  "item_id": "video/yt-saurav/H7R_m8Ue38g",
+  "title": "Business Central v29: System Audit Fields Now Available in Analysis Mode",
+  "duration_s": 925,
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "system audit fields",
+    "analysis mode",
+    "profile customization",
+    "page extensions",
+    "flow fields",
+    "data auditing",
+    "record history",
+    "user tracking"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of auditing improvements",
+      "t_start": 0,
+      "t_end": 69.8
+    },
+    {
+      "title": "System audit fields explained and their importance",
+      "t_start": 69.8,
+      "t_end": 156.3
+    },
+    {
+      "title": "Version 28 limitations and historical context",
+      "t_start": 156.3,
+      "t_end": 312.9
+    },
+    {
+      "title": "Version 29 flow fields and accessibility improvements",
+      "t_start": 312.9,
+      "t_end": 423.6
+    },
+    {
+      "title": "Profile customization for audit fields",
+      "t_start": 423.6,
+      "t_end": 676.2
+    },
+    {
+      "title": "Using audit fields in analysis mode",
+      "t_start": 676.2,
+      "t_end": 816.8
+    },
+    {
+      "title": "Benefits and impact of the feature",
+      "t_start": 816.8,
+      "t_end": 864.8
+    },
+    {
+      "title": "Conclusion and call to engagement",
+      "t_start": 864.8,
+      "t_end": 925
+    }
+  ],
+  "features": [
+    {
+      "name": "System audit fields as flow fields",
+      "description": "In version 29, system audit fields (created by, modified by, created at, modified at) are now available as flow fields that can be added to pages without showing the ID. This allows displaying the actual username rather than just the GUID associated with the record.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312.9,
+      "t_end": 346.9,
+      "is_demoed": true,
+      "caveats": [
+        "Not available for personalization on the client yet",
+        "Only available through profile customization or analysis mode"
+      ],
+      "tags": [
+        "audit fields",
+        "flow fields",
+        "version 29",
+        "ga"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Audit fields in profile customization",
+      "description": "Administrators can now add system audit fields to pages through profile customization, making these fields available to all users with that profile without requiring page extensions or manual flow field creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.6,
+      "t_end": 676.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not available through client personalization yet",
+        "Applies to all users assigned to that profile"
+      ],
+      "tags": [
+        "profile customization",
+        "audit fields",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Audit fields in analysis mode",
+      "description": "System audit fields can now be used directly in analysis mode, allowing users to slice and dice data based on created by, modified by, creation date, and modified date without adding these fields to pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 676.2,
+      "t_end": 816.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires analysis mode to be enabled"
+      ],
+      "tags": [
+        "analysis mode",
+        "audit fields",
+        "data analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "customer",
+      "t": 108.8
+    },
+    {
+      "type": "page",
+      "name": "customer list",
+      "t": 508.5
+    },
+    {
+      "type": "page",
+      "name": "profiles",
+      "t": 439.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Arto Dyani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.4,
+      "text": "Did you knew that one of the most requested auditing improvement in Business Central is finally arrived in version 29?",
+      "why_it_matters": "Establishes that audit fields in analysis mode and profiles is a major feature request that has been fulfilled.",
+      "check": "exact"
+    },
+    {
+      "t": 30.8,
+      "text": "this update will save you time and reduce customization.",
+      "why_it_matters": "Highlights the key benefit of the feature - eliminating the need for custom page extensions to expose audit information.",
+      "check": "exact"
+    },
+    {
+      "t": 85.4,
+      "text": "We'll look at how system audit fields can now be used in analysis mode and profile customization. Something that wasn't possible in previous version.",
+      "why_it_matters": "Clearly states the status change from previous versions to version 29.",
+      "check": "exact"
+    },
+    {
+      "t": 270.9,
+      "text": "uh there was a very huge requirement or request to add these field into analysis mode but that was not available till version 28.",
+      "why_it_matters": "Explains the historical limitation that version 29 resolves.",
+      "check": "exact"
+    },
+    {
+      "t": 312.9,
+      "text": "What Microsoft have done is made these field available as flow fields so that they can be added into the page.",
+      "why_it_matters": "Describes the technical implementation approach in version 29.",
+      "check": "exact"
+    },
+    {
+      "t": 676.2,
+      "text": "The only condition as of today is that you should be using profile customization at that moment.",
+      "why_it_matters": "States a key limitation - audit fields are only available through profile customization, not client personalization.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 44.4,
+      "kind": "other",
+      "text": "Now, when you think it from a developer perspective, there might be a little gap which I would like to ..."
+    },
+    {
+      "t": 366.4,
+      "kind": "other",
+      "text": "But now, how you access these? Because still today, they're not available on the client. Uh you can't just go ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

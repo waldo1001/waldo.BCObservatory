@@ -1,0 +1,90 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting",
+  "title": "Enable embedded VERIFACTU mode [ES]",
+  "blob": "31ba8c2a0826ccc85e5edbe3dde0af389957ee67",
+  "summary": "VERI*FACTU is Spain's embedded e-invoicing standard that enables real-time invoice reporting to AEAT with digital signatures, hash chaining, and QR codes for compliance.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "verifactu",
+    "e-invoicing",
+    "spain",
+    "tax reporting",
+    "aeat",
+    "qr code"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Verifactu Setup"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Document Sending Profiles"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Post Codes"
+    },
+    {
+      "type": "page",
+      "name": "Verifactu Document"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Card"
+    }
+  ],
+  "features": [
+    "digital signing",
+    "QR code generation",
+    "real-time reporting",
+    "AEAT submission",
+    "invoice validation",
+    "e-document framework",
+    "certificate support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004125,
+      "pages_in_call": 8
+    }
+  ]
+}

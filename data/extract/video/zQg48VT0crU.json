@@ -1,0 +1,936 @@
+{
+  "video_id": "zQg48VT0crU",
+  "item_id": "video/yt-dynamicscorner/zQg48VT0crU",
+  "title": "Episode 522: What Was Your Eureka Moment with AI? Smarter Workflows for BC Development",
+  "duration_s": 3565,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ai models",
+    "al development",
+    "benchmarking",
+    "model testing",
+    "developer tooling",
+    "ai safeguards",
+    "al syntax",
+    "code generation",
+    "claude code",
+    "mcp servers",
+    "al-go",
+    "token usage"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and BC Tech Days discussion",
+      "t_start": 0,
+      "t_end": 212.3
+    },
+    {
+      "title": "Guest introduction - Tom, MVP, and developer tooling focus",
+      "t_start": 212.3,
+      "t_end": 318.6
+    },
+    {
+      "title": "AI model improvements and benchmarking challenges",
+      "t_start": 318.6,
+      "t_end": 420.7
+    },
+    {
+      "title": "Fable model safeguards and fallback mechanisms",
+      "t_start": 420.7,
+      "t_end": 553.8
+    },
+    {
+      "title": "Benchmarking methodology and baseline testing",
+      "t_start": 553.8,
+      "t_end": 696.9
+    },
+    {
+      "title": "AL language knowledge gaps in AI models",
+      "t_start": 696.9,
+      "t_end": 849.4
+    },
+    {
+      "title": "Measuring model awareness of AL syntax and features",
+      "t_start": 849.4,
+      "t_end": 987.8
+    },
+    {
+      "title": "Using multiple AI models for different development tasks",
+      "t_start": 987.8,
+      "t_end": 1170.8
+    },
+    {
+      "title": "Cost optimization and workflow automation with agents",
+      "t_start": 1170.8,
+      "t_end": 1312.9
+    },
+    {
+      "title": "Advisory models and Claude Code features for development",
+      "t_start": 1312.9,
+      "t_end": 1454.1
+    },
+    {
+      "title": "Setting up agentic workflows and MCP servers for developers",
+      "t_start": 1454.1,
+      "t_end": 1696.2
+    },
+    {
+      "title": "Creating custom MCP servers for debugging and AI as co-founder",
+      "t_start": 1696.2,
+      "t_end": 1863.1
+    },
+    {
+      "title": "Rethinking software development value and problem-solving paradigm",
+      "t_start": 1863.1,
+      "t_end": 2042.9
+    },
+    {
+      "title": "Gotchas in AI-assisted AL development and shift to test verification",
+      "t_start": 2042.9,
+      "t_end": 3565
+    }
+  ],
+  "features": [
+    {
+      "name": "Central gauge benchmarking tool",
+      "description": "A tool that measures and benchmarks all AI models for AL development tasks. Tom has found that models are now so good at AL tasks that the test set is saturated with near-perfect results, requiring new creative testing approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.8,
+      "t_end": 420.7,
+      "is_demoed": false,
+      "caveats": [
+        "Test set is saturated - models perform too well on existing tests",
+        "New metrics and test approaches are needed to differentiate model performance"
+      ],
+      "tags": [
+        "benchmarking",
+        "ai models",
+        "al development",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fable model with safeguard fallback",
+      "description": "Fable AI model includes safeguards that trigger on AL tasks, refusing to work on certain tasks. The model can fall back to Opus or other models when safeguards are triggered, making it harder to benchmark actual Fable performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 376.5,
+      "t_end": 462.6,
+      "is_demoed": true,
+      "caveats": [
+        "Safeguards can block legitimate AL testing tasks",
+        "Fallback behavior makes true model capability assessment difficult",
+        "Models may have automatic mode for selecting which model to use for different task types"
+      ],
+      "tags": [
+        "safeguards",
+        "fallback",
+        "fable",
+        "al tasks"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Microsoft AL harness for model evaluation",
+      "description": "Microsoft provides a harness framework for evaluating AI models on AL development tasks. Tom is working with the Microsoft creator of this tool and creating his own fork to test additional metrics beyond what Microsoft currently supports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 596.2,
+      "t_end": 640.5,
+      "is_demoed": false,
+      "caveats": [
+        "Microsoft does not currently accept pull requests on their repository",
+        "Custom fork being developed to add extra metrics"
+      ],
+      "tags": [
+        "harness",
+        "testing framework",
+        "al development",
+        "microsoft tool"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL language syntax knowledge gaps in AI models",
+      "description": "GPT models have documented issues with understanding AL language concepts, particularly interfaces. Models trained on different languages like TypeScript can create code but do not understand AL-specific syntax and format requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 710.1,
+      "t_end": 839,
+      "is_demoed": false,
+      "caveats": [
+        "Models trained on older AL syntax versions don't know newer features",
+        "AL is a younger language with more frequent changes than C, TypeScript, or Python"
+      ],
+      "tags": [
+        "al language",
+        "training data",
+        "syntax",
+        "model knowledge"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Model-agnostic baseline augmentation through guidelines",
+      "description": "Custom guideline files can be created and added to prompt instructions via markdown files to raise all models to the same baseline knowledge level by teaching them about AL concepts they lack in their training data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 745.8,
+      "t_end": 791.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual identification of knowledge gaps through benchmarking",
+        "Guideline files may not be fully public"
+      ],
+      "tags": [
+        "guidelines",
+        "baseline",
+        "prompting",
+        "knowledge augmentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Subsection-based model capability reporting",
+      "description": "Benchmarking data divided into subsections by AL concept including interfaces, tables, records, field reports to help developers understand which AL language features a model is aware of and where additional context needs to be provided.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 872.4,
+      "t_end": 934.9,
+      "is_demoed": false,
+      "caveats": [
+        "Information is available but not immediately prominent on Tom's site",
+        "Requires users to know what to look for",
+        "test data is public on GitHub so could influence future model training"
+      ],
+      "tags": [
+        "reporting",
+        "benchmarking",
+        "al concepts",
+        "model awareness"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Advisory model selection in Claude Code",
+      "description": "Feature to set an advisory model like Fable in Claude Code that the main model can consult for additional perspective and feedback during development tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1312.9,
+      "t_end": 1343.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "claude code",
+        "advisory model",
+        "fable"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-model workflow orchestration",
+      "description": "Ability to route different development tasks to different AI models based on their strengths - using Opus for planning, Fable for review, Sonnet for coding to optimize cost and performance. Demonstrated through a pipeline with 13 stages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1064.4,
+      "t_end": 1227.7,
+      "is_demoed": true,
+      "caveats": [
+        "workflow is ISV-specific and may not work for partners or VS Code users"
+      ],
+      "tags": [
+        "multi-model",
+        "workflow",
+        "cost optimization",
+        "opus",
+        "fable",
+        "sonnet"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "PAL MCP for consensus feedback",
+      "description": "MCP server called PAL that adds other AI providers like OpenAI GPT-5.5 Pro and Gemini 3.1 Pro preview for cross-model consensus and additional feedback during development tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1119.4,
+      "t_end": 1143.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "multi-provider",
+        "consensus",
+        "pal"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic code compilation and testing in agentic workflows",
+      "description": "Agentic workflow capability where AI automatically compiles, deploys, runs tests, detects failures, fixes them and re-tests iteratively without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1488.1,
+      "t_end": 1555.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "agentic",
+        "testing",
+        "deployment",
+        "compilation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL MCP server integration with Claude",
+      "description": "MCP server for AL that Claude can use to execute AL-specific tasks including publishing to sandbox, running tests, analyzing source code with source code analyzers, and fixing compilation errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1572.7,
+      "t_end": 1634.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al mcp",
+        "sandbox",
+        "testing",
+        "source code analysis",
+        "warnings"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Simplified MCP server setup via AI",
+      "description": "Users can provide an MCP server GitHub repo to Claude and ask it to set up the server without needing to understand JSON format or configuration details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1646.3,
+      "t_end": 1679.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "setup",
+        "ease of use"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom MCP for BC performance and debugging",
+      "description": "Developer created custom MCP server for instrumental profiling analysis and performance debugging of Business Central, including converter for MTC files to Firefox profiler format without dependency on Microsoft files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1696.2,
+      "t_end": 1765.9,
+      "is_demoed": true,
+      "caveats": [
+        "Created by developer, not a standard tool"
+      ],
+      "tags": [
+        "performance analysis",
+        "debugging",
+        "profiling",
+        "custom tools"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AI-assisted driver development",
+      "description": "Developer used Claude with access to GitHub and Wireshark to create a Linux kernel driver for fingerprint sensor by recording Windows traffic and analyzing encryption patterns, completed in approximately 8 hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1815.1,
+      "t_end": 1863.1,
+      "is_demoed": true,
+      "caveats": [
+        "Demonstrates capability but outside Business Central scope"
+      ],
+      "tags": [
+        "linux driver",
+        "ai assistance",
+        "problem solving"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test-first code verification approach",
+      "description": "Developer reports spending more time reviewing tests than code, focusing on scenario validation rather than code inspection. As long as tests pass and no performance regression, code quality is acceptable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2137.4,
+      "t_end": 2196.9,
+      "is_demoed": false,
+      "caveats": [
+        "Applies mainly to automated and simpler tasks, not new features"
+      ],
+      "tags": [
+        "testing",
+        "code review",
+        "verification",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Future AI-native development without language visibility",
+      "description": "Speculation that future development will operate at higher abstraction where developers work only with questions and answers, letting AI create executable code without human visibility into the language used.",
+      "status": "announced",
+      "status_evidence_t": 2345.9,
+      "status_evidence_quote": "I can't see why not. It's still going to be for the next foreseeable future. We will still look at the inner workings of",
+      "status_evidence_verified": true,
+      "t_start": 2345.9,
+      "t_end": 2426.6,
+      "is_demoed": false,
+      "caveats": [
+        "Speculative vision",
+        "May still require visibility for regulatory or concurrent posting requirements"
+      ],
+      "tags": [
+        "future direction",
+        "abstraction",
+        "ai-native development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI abstraction layer for financial postings",
+      "description": "Discussion of how AI could abstract away code inspection for regulatory compliance, while still ensuring regulatory requirements like concurrent postings and number series handling are maintained through tests rather than manual code review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2384.5,
+      "t_end": 2426.6,
+      "is_demoed": false,
+      "caveats": [
+        "regulatory compliance still required",
+        "testing still needed"
+      ],
+      "tags": [
+        "abstraction",
+        "regulatory",
+        "testing",
+        "finance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Multi-model AI orchestration workflow",
+      "description": "Strategy to use different AI models for different tasks - using larger models for spec creation and review, while offloading coding tasks to cheaper open-source or local models to minimize token costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3052.9,
+      "t_end": 3085.5,
+      "is_demoed": false,
+      "caveats": [
+        "hypothetical workflow",
+        "requires manual implementation",
+        "depends on model availability"
+      ],
+      "tags": [
+        "orchestration",
+        "cost-optimization",
+        "model-selection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Open-source model evaluation for AL coding",
+      "description": "Testing of open-source models like GLM and Llama for AL code generation as potential replacements for commercial models. Plans to add local models and open-router options to a website for performance and cost comparison.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2853,
+      "t_end": 2941.3,
+      "is_demoed": false,
+      "caveats": [
+        "not yet tested in real AL programming",
+        "only small tests conducted",
+        "reasoning tasks still require different models"
+      ],
+      "tags": [
+        "open-source",
+        "local-models",
+        "cost-reduction",
+        "al-coding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Local model hosting for reduced token costs",
+      "description": "Discussion of using local models on hardware to reduce ongoing API token costs, even if processing takes longer, particularly for background tasks like CI/CD pipelines that do not require immediate results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2976.8,
+      "t_end": 3028,
+      "is_demoed": false,
+      "caveats": [
+        "requires hardware investment",
+        "processing time increases",
+        "not suitable for real-time tasks"
+      ],
+      "tags": [
+        "local-models",
+        "cost-reduction",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Per-use pricing for GitHub Copilot and AI services",
+      "description": "Reference to Microsoft moving to per-use billing model for GitHub Copilot, with prediction that other AI providers including Anthropic will follow suit after going public.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3085.5,
+      "t_end": 3116.5,
+      "is_demoed": false,
+      "caveats": [
+        "prediction based on market trends",
+        "timing uncertain"
+      ],
+      "tags": [
+        "pricing-models",
+        "copilot",
+        "cost-management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI model harness for workflow management",
+      "description": "Concept of a unified harness to manage and orchestrate multiple AI models, controlling how data flows between them, handling input/output, and processing. Could be self-hosted locally to avoid recurring API costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3202.9,
+      "t_end": 3230.1,
+      "is_demoed": false,
+      "caveats": [
+        "not yet implemented",
+        "requires development effort",
+        "different use cases may have different requirements"
+      ],
+      "tags": [
+        "harness",
+        "orchestration",
+        "infrastructure",
+        "workflow"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Local open source AI models",
+      "description": "Discussion of local open source models getting more attention for specific tasks, with potential cost savings through local hardware versus paid cloud subscriptions.",
+      "status": "announced",
+      "status_evidence_t": 3151.6,
+      "status_evidence_quote": "my prediction for 2027 will be you'll see a lot of these local models getting or these open source local models getting a little",
+      "status_evidence_verified": true,
+      "t_start": 3151.6,
+      "t_end": 3202.9,
+      "is_demoed": false,
+      "caveats": [
+        "Prediction for future adoption",
+        "Effectiveness depends on local harness implementation"
+      ],
+      "tags": [
+        "local models",
+        "cost optimization",
+        "prediction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Fable AI",
+      "description": "A new AI tool that was rapidly benchmarked after release. Had usage limits and rate resets, with updates to availability extended to July 12th.",
+      "status": "ga",
+      "status_evidence_t": 3317.4,
+      "status_evidence_quote": "I think I had the benchmark ready like an hour after Fable was released",
+      "status_evidence_verified": true,
+      "t_start": 3307,
+      "t_end": 3341.4,
+      "is_demoed": true,
+      "caveats": [
+        "Has usage limits per account",
+        "Resets on schedule",
+        "Availability extended through July 12th"
+      ],
+      "tags": [
+        "fable",
+        "benchmarking",
+        "ai tool"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "test code unit",
+      "t": 567.9
+    },
+    {
+      "type": "other",
+      "name": "PAL",
+      "t": 1119.4
+    },
+    {
+      "type": "other",
+      "name": "AL MCP",
+      "t": 1454.4
+    },
+    {
+      "type": "other",
+      "name": "BC quality",
+      "t": 1454.1
+    },
+    {
+      "type": "other",
+      "name": "AL tool",
+      "t": 1464.4
+    },
+    {
+      "type": "other",
+      "name": "ALC.exe",
+      "t": 1464.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Chris",
+      "confidence": "high"
+    },
+    {
+      "name": "Brad",
+      "confidence": "high"
+    },
+    {
+      "name": "Torbin Leth",
+      "confidence": "high"
+    },
+    {
+      "name": "Tom",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 339.8,
+      "text": "the models are getting so good now that I need to redo my entire test set for like uh the central gauge thing where",
+      "why_it_matters": "Indicates that AI model capabilities for AL development have advanced significantly, making existing benchmarks obsolete and highlighting the rapid pace of model improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 365,
+      "text": "now it's more about the harness. The models are even not the top models are like good enough",
+      "why_it_matters": "Shows a paradigm shift in AI tooling focus from raw model capabilities to the frameworks and harnesses that guide model behavior for AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 387.9,
+      "text": "some of their um safeguards are triggered by my simple AL tests like oh no this is uh dangerous I am not allowed to",
+      "why_it_matters": "Reveals that newer AI models have safety mechanisms that can interfere with legitimate AL development testing and benchmarking activities.",
+      "check": "exact"
+    },
+    {
+      "t": 683,
+      "text": "I don't do that because what I want to test is the model's own training data It's like the baseline",
+      "why_it_matters": "Explains Tom's benchmarking philosophy - testing models without context injection to measure their native knowledge of the AL language.",
+      "check": "exact"
+    },
+    {
+      "t": 710.1,
+      "text": "the GPT models have a sort of an issue with interfaces in AL. It's not always they know about that concept in AL languages",
+      "why_it_matters": "Identifies a specific knowledge gap in mainstream AI models regarding AL language features, highlighting the need for augmentation when using AI for AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 818.6,
+      "text": "language is also it's not an old language like c and as you'd mentioned typescript and python where there was has been a",
+      "why_it_matters": "Explains why AI models have less comprehensive training on AL versus mature languages - there is simply less AL code in the training data.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 818.6,
+      "text": "you have these models that haven't been trained on the latest AAL syntax because that language is also it's not an old language like",
+      "why_it_matters": "Explains the core challenge that AI models lack training on recent AL language changes compared to mature languages with abundant training data.",
+      "check": "exact"
+    },
+    {
+      "t": 892.6,
+      "text": "there's already tasks like divided into subsections of like this is tasks about interfaces, this is tasks about tables and this is about rec",
+      "why_it_matters": "Describes the publicly available benchmarking system for determining which models understand specific AL language features.",
+      "check": "exact"
+    },
+    {
+      "t": 1005,
+      "text": "I read something about models and you talk about Fable where you can have Fable be an adviser now, right? Or I think before",
+      "why_it_matters": "Clarifies the evolution from auto mode model selection to manual advisory model configuration for specific tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 1196.5,
+      "text": "I have my own entire pipeline where I have different stages and in a planning stage it's the opus in the coding stage and",
+      "why_it_matters": "Demonstrates practical multi-model orchestration with 13 pipeline stages using different models to optimize cost and quality.",
+      "check": "snapped"
+    },
+    {
+      "t": 1291,
+      "text": "the coding is no longer the bottleneck in a lot of cases. It's the review",
+      "why_it_matters": "Identifies how AI automation shifts development bottlenecks from coding to code review and design decisions.",
+      "check": "exact"
+    },
+    {
+      "t": 1499.3,
+      "text": "you have your setup set up so that it can automatically compile deploy and run tests that's when you get your eureka moment",
+      "why_it_matters": "Defines the key milestone for developer productivity - automated compilation, deployment, and testing creating the Eureka moment.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1596.9,
+      "text": "it will publish it to a sandbox. it will run the tests um like it runs the test a couple different ways and it",
+      "why_it_matters": "Demonstrates the comprehensive AL MCP capabilities including sandbox deployment, multi-method testing, and warning analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 1657.8,
+      "text": "here is a GitHub repo with an MCP server I want to use. Make it so and then it thinks for a couple minutes",
+      "why_it_matters": "Shows how AI simplifies MCP server setup, removing barriers to adopting development tools without technical configuration knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 1657.8,
+      "text": "just uh here is a GitHub repo with an MCP server I want to use. Make it so and then it thinks for a",
+      "why_it_matters": "Shows the simplified workflow for adding new developer tools through natural language instructions to AI.",
+      "check": "exact"
+    },
+    {
+      "t": 2137.4,
+      "text": "I spend sometimes I spend more time looking at the test just to make sure it's testing properly than I do with the code.",
+      "why_it_matters": "Indicates a shift in developer priorities when using AI-assisted code generation, favoring test verification over code inspection.",
+      "check": "exact"
+    },
+    {
+      "t": 2196.9,
+      "text": "code is cheap now. So if we need to add a new feature next week, well let's add that and fix it.",
+      "why_it_matters": "Reflects changed economics of software development where code generation cost is minimal with AI assistance.",
+      "check": "exact"
+    },
+    {
+      "t": 2233.5,
+      "text": "everyone looked how the compiler which kind of assembly it made now it's only the few guys that actually want to microoptimize their assembly",
+      "why_it_matters": "Historical precedent for how developers stop concerning themselves with lower-level implementation details as abstractions improve.",
+      "check": "exact"
+    },
+    {
+      "t": 2345.9,
+      "text": "I can't see why not. It's still going to be for the next foreseeable future. We will still look at the inner workings of",
+      "why_it_matters": "Acknowledges the path toward AI-native development while noting near-term continued visibility needs.",
+      "check": "exact"
+    },
+    {
+      "t": 2384.5,
+      "text": "finance is that there are some things about how postings there has to be concurrent or there can't be any polls and like number",
+      "why_it_matters": "Highlights regulatory constraints that must be maintained even as AI abstracts away code inspection, showing that AI adoption has limits in regulated systems.",
+      "check": "exact"
+    },
+    {
+      "t": 2502.2,
+      "text": "the advances in AI are still there, but it's the leaps are not that big anymore because the issue was they were so dumb",
+      "why_it_matters": "Captures the market reality that AI model improvements have plateaued from major jumps to incremental gains as models mature.",
+      "check": "exact"
+    },
+    {
+      "t": 2658.8,
+      "text": "the partners that are still just using the free version of ChattPG to just ask a question here and there, they're going to be",
+      "why_it_matters": "Emphasizes competitive pressure in the Business Central partner ecosystem where AI adoption is becoming a necessity rather than an option.",
+      "check": "exact"
+    },
+    {
+      "t": 2720.4,
+      "text": "now you need documentation in a sense for requirements so that the AI knows what to write. So even now if you do make",
+      "why_it_matters": "Shows how AI reverses the traditional documentation burden, making comprehensive documentation an input to generate better solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 2922.5,
+      "text": "what is the best model for coding in a performance price calculation and then Kimmy X might actually be the best because you can",
+      "why_it_matters": "Demonstrates emerging model selection strategy where cost-performance tradeoffs become important for sustainable AI workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 3063.8,
+      "text": "use Opus to come up with a spec, Fable to review the spec, and then offload the development to like you said, you could",
+      "why_it_matters": "Articulates a concrete multi-model orchestration approach for cost optimization that could define future developer workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 3130.3,
+      "text": "once you have that ipo then you have a fiduciary responsibility to in essence generate revenue it's it's not you can still have",
+      "why_it_matters": "Explains the reasoning for why commercial AI providers will shift to per-use pricing after going public, impacting development costs.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3151.6,
+      "text": "my prediction for 2027 will be you'll see a lot of these local models getting or these open source local models getting a little",
+      "why_it_matters": "This is a forward-looking prediction about AI model adoption strategy for the development community, suggesting local models will become more relevant.",
+      "check": "exact"
+    },
+    {
+      "t": 3202.9,
+      "text": "if we can come up if someone can come up with a harness to manage the use of these models because that's the difference.",
+      "why_it_matters": "Identifies the key insight that competitive advantage will shift from model selection to workflow orchestration and harness architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 3216.2,
+      "text": "The models are the same across every harness. It's how they work with it and how they feed it and how they um process",
+      "why_it_matters": "This explains the key differentiator between AI implementations is not the models themselves but the harness architecture that manages them.",
+      "check": "exact"
+    },
+    {
+      "t": 3230.1,
+      "text": "that you don't need to pay for in essence again you're going to pay for it with",
+      "why_it_matters": "Identifies the cost trade-off calculation between cloud subscription services and local hardware investment for AI workloads.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3265.7,
+      "text": "those that need to spend a lot of time doing work as you said like 8 hour uh workflow or 16 hour workflow you'll",
+      "why_it_matters": "Quantifies the economic limit for cloud-based AI for intensive, long-running development workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 3317.4,
+      "text": "I think I had the benchmark ready like an hour after Fable was released. I was like sitting there now. It's ready. Let's benchmark",
+      "why_it_matters": "Demonstrates rapid adoption and testing of new AI tools, showing how quickly community members evaluate emerging capabilities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 420.7,
+      "kind": "subject-to-change",
+      "text": "depending on how soul or the next opening eye model if they are going to have safeguards due it's going ..."
+    },
+    {
+      "t": 482.6,
+      "kind": "subject-to-change",
+      "text": "it could be like uh depending on how soul or the next opening eye model if they are going to have safeguards"
+    },
+    {
+      "t": 1325.1,
+      "kind": "preview",
+      "text": "that's also a new feature I don't how many knows about in claw code you can set an advis advisory model"
+    },
+    {
+      "t": 1407,
+      "kind": "subject-to-change",
+      "text": "there was a bug in cloud code that fixed that now uh there was actually an an optin. They by ..."
+    },
+    {
+      "t": 2873.3,
+      "kind": "coming-later",
+      "text": "I'm going to add a lot of local models both uh open models hosted and like open router but also ..."
+    },
+    {
+      "t": 2941.3,
+      "kind": "subject-to-change",
+      "text": "I haven't tested it yet in in real A programming. It's only been in small tests here and there. nothing concrete yet"
+    },
+    {
+      "t": 3151.6,
+      "kind": "coming-later",
+      "text": "my prediction for 2027 will be you'll see a lot of these local models getting or these open source local ..."
+    },
+    {
+      "t": 3317.4,
+      "kind": "subject-to-change",
+      "text": "they pushed it out till July 12th"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 32,
+    "quotes_dropped": 2,
+    "evidence_verified": 3,
+    "evidence_unverified": 19
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

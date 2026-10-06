@@ -1,0 +1,27 @@
+{
+  "video_id": "IDYhxt-8ImI",
+  "item_id": "video/yt-areopa/IDYhxt-8ImI",
+  "summary": "AI-enabled delivery for Business Central functional consultants, mainly with Microsoft 365 Copilot. Covers requirements extraction from workshop notes, gap analysis, solution critique, UAT test case generation, documentation, issue triage, and MCP and Copilot Studio agents. Outputs are first drafts the consultant must validate.",
+  "overview": "This Areopa webinar (61 minutes, published 2026-06-30) shows how a functional consultant can use AI across the project lifecycle. Demos use Microsoft 365 Copilot to turn workshop notes into a requirements worksheet with Business Central interpretations and open questions, and to generate UAT test cases with coverage mapping, negative cases and multiple user roles.\n\nThe session also covers critiquing solution designs, standardizing documentation with custom instructions and saved memories, and issue summarization and root cause analysis. It then introduces Business Central's built-in Copilot features, MCP, and Copilot Studio agents. The speaker stresses that the consultant stays responsible for validating output. The Q&A covers Copilot cost and AI code generation.",
+  "key_points": [
+    "Copilot in Excel and Microsoft 365 turned workshop notes into a requirements worksheet with Business Central interpretations, source mappings and an open questions section; the consultant remains responsible for accuracy.",
+    "Prompts work best when they define a persona, context, scope and instructions; Copilot can also critique a proposed solution and suggest alternatives, including standard features instead of custom development.",
+    "Copilot generated test cases with preconditions, test data, steps, expected results, variations and coverage mapping to requirements. Roughly 30 test points took about a minute, and the speaker puts the time saving at 40-50% for first drafts.",
+    "Custom instructions and saved memories in Microsoft 365 Copilot personalization can enforce a consistent documentation structure and style, and can be toggled on or off per task.",
+    "MCP lets AI agents work with Business Central APIs; an administrator chooses which entities to expose. Consultants may need to define which data an agent can see and do, and whether it is read-only or can take actions.",
+    "Microsoft 365 Copilot costs about $30 per user per month, varying by country; most of what was shown runs in it.",
+    "On code, the speaker reports better AI results since early 2026 on vanilla or well-componentized code, but a poor experience with complex customizations."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "5a2ecd4d90858b298a21d47aeca298e35383d3f28d05a042cb46799e9962467c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0373864
+  }
+}

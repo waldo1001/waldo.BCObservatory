@@ -1,0 +1,427 @@
+{
+  "video_id": "qABlX4AL3GM",
+  "item_id": "video/yt-saurav/qABlX4AL3GM",
+  "title": "Business Central 29.0: Major Change to Table Extensions & SQL.",
+  "duration_s": 2104,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table extensions",
+    "sql storage model",
+    "database performance",
+    "indexes",
+    "data modeling",
+    "al development",
+    "extension architecture",
+    "companion tables",
+    "partial loading",
+    "set load field",
+    "direct sql",
+    "apis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of table extensions changes",
+      "t_start": 0,
+      "t_end": 103.9
+    },
+    {
+      "title": "Business Central 29 table extension data model changes",
+      "t_start": 103.9,
+      "t_end": 163.1
+    },
+    {
+      "title": "Historical evolution of table extension storage",
+      "t_start": 163.1,
+      "t_end": 240.7
+    },
+    {
+      "title": "Stage one: separate SQL storage for extension data",
+      "t_start": 240.7,
+      "t_end": 377.3
+    },
+    {
+      "title": "Stage two: extension companion table model",
+      "t_start": 377.3,
+      "t_end": 556.9
+    },
+    {
+      "title": "Stage three: Business Central 29 unified table model",
+      "t_start": 556.9,
+      "t_end": 645.8
+    },
+    {
+      "title": "Why Microsoft changed the data model",
+      "t_start": 645.8,
+      "t_end": 751.9
+    },
+    {
+      "title": "Benefits: index capabilities and performance improvements",
+      "t_start": 751.9,
+      "t_end": 896.2
+    },
+    {
+      "title": "Partial loading and set load field best practices",
+      "t_start": 896.2,
+      "t_end": 1182.6
+    },
+    {
+      "title": "SQL query examples with and without partial load",
+      "t_start": 1182.6,
+      "t_end": 1291.1
+    },
+    {
+      "title": "Why to avoid direct SQL and use APIs instead",
+      "t_start": 1291.1,
+      "t_end": 1474.3
+    },
+    {
+      "title": "Detecting table approaching SQL column limit warning",
+      "t_start": 1474.3,
+      "t_end": 1685.1
+    },
+    {
+      "title": "Table extension changes in BC29 - FAQ and implications",
+      "t_start": 1685.1,
+      "t_end": 1880.5
+    },
+    {
+      "title": "Summary - architectural lessons and closing",
+      "t_start": 1880.5,
+      "t_end": 2104
+    }
+  ],
+  "features": [
+    {
+      "name": "Unified table storage for extensions",
+      "description": "Business Central 29 introduces a major change where fields from table extensions are stored in the same database table as the base table, replacing the previous extension companion table model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.9,
+      "t_end": 1840.6,
+      "is_demoed": false,
+      "caveats": [
+        "Developers should treat physical SQL schema as implementation detail",
+        "May change in future versions"
+      ],
+      "tags": [
+        "table extensions",
+        "data model",
+        "sql storage",
+        "unified tables",
+        "storage",
+        "companion tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cross-field indexes spanning base and extension tables",
+      "description": "Developers can now define indexes that span fields from both a base table and its extension tables, which was not possible under the previous companion table model due to SQL storage constraints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.9,
+      "t_end": 1862.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires unified table storage model",
+        "Limitation previously existed in prior two models"
+      ],
+      "tags": [
+        "indexes",
+        "keys",
+        "fields",
+        "extension tables",
+        "indexing",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Improved database operation performance for extensions",
+      "description": "Database operations involving table extensions can benefit from faster data loading because all fields are now stored in a single table instead of requiring joins across companion tables. Get, find and other operations fetch from one table instead of multiple.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.9,
+      "t_end": 1880.5,
+      "is_demoed": false,
+      "caveats": [
+        "Performance gains dependent on query complexity",
+        "Applies specifically to extension field access",
+        "Requires proper use of partial load and other optimization parameters"
+      ],
+      "tags": [
+        "performance",
+        "data loading",
+        "database operations",
+        "sql queries",
+        "joins"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Partial record loading with set load field",
+      "description": "Developers should continue using set load field (partial loading) even with version 29. Instead of fetching all fields from SQL server, specify only needed fields to reduce query size and execution time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 932.5,
+      "t_end": 1182.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires developer discipline",
+        "Underlying model changes do not eliminate the need"
+      ],
+      "tags": [
+        "performance optimization",
+        "al development",
+        "best practices",
+        "partial loading"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Avoid direct SQL operations",
+      "description": "Microsoft has made clear that there should be no direct SQL inserts, reads, writes or deletes directly from SQL. Developers should use AL code, Business Central APIs, or queries instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1291.1,
+      "t_end": 1474.3,
+      "is_demoed": false,
+      "caveats": [
+        "Direct SQL may initially appear faster but maintenance costs are higher",
+        "Model changes require query updates"
+      ],
+      "tags": [
+        "sql",
+        "best practices",
+        "api",
+        "maintenance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Compiler warnings for table column limit",
+      "description": "Business Central 29 introduces compiler warnings when tables or table extensions with many normal fields approach SQL column limits. Helps developers identify data models reaching SQL extension limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1474.3,
+      "t_end": 1685.1,
+      "is_demoed": false,
+      "caveats": [
+        "Exact threshold not documented",
+        "Behavior on different field types unclear",
+        "Unclear if applies to base tables and extension tables equally",
+        "Behavior when limit is exceeded not specified"
+      ],
+      "tags": [
+        "compiler warnings",
+        "column limits",
+        "table design",
+        "compiler",
+        "warnings",
+        "diagnostics",
+        "sql",
+        "limits"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "item table",
+      "t": 265.4
+    },
+    {
+      "type": "table",
+      "name": "item ledger entry",
+      "t": 1019.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 103.9,
+      "text": "business 29 introduces a major change to the data model used for table extensions",
+      "why_it_matters": "Establishes that Business Central 29 makes a fundamental change to how table extensions store data at the SQL level.",
+      "check": "exact"
+    },
+    {
+      "t": 114.3,
+      "text": "fields from table extensions are stored in the same database table as the base table instead of being stored",
+      "why_it_matters": "Explains the core architectural change from companion tables to unified storage, which affects all extension development.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 151.1,
+      "text": "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.",
+      "why_it_matters": "Clarifies the status of the feature and warns that details may change before final release.",
+      "check": "exact"
+    },
+    {
+      "t": 603.8,
+      "text": "one business central table, AL table is equivalent to one SQL table. No companion table, no table per extension.",
+      "why_it_matters": "Provides a clear conceptual summary of the new unified model versus the previous multi-table approach.",
+      "check": "exact"
+    },
+    {
+      "t": 751.9,
+      "text": "developers can define indexes that span fields from a base table and its extension table",
+      "why_it_matters": "Highlights a new capability previously unavailable due to SQL storage constraints in prior models.",
+      "check": "exact"
+    },
+    {
+      "t": 780.4,
+      "text": "finds will work faster because it is it doesn't have to create a join on multiple or one companion table",
+      "why_it_matters": "Explains how the unified model improves query performance by eliminating joins across companion tables.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 780.4,
+      "text": "now all the data relies on one single table. So your finds, your gets not gets for sure but finds will work faster",
+      "why_it_matters": "Explains the core benefit of version 29's unified table model - faster find operations due to eliminated joins.",
+      "check": "exact"
+    },
+    {
+      "t": 834.9,
+      "text": "because all the data is relied and all the fields are in the same table, you'll be able to create these indexes or keys",
+      "why_it_matters": "Demonstrates how the unified storage removes previous limitations on index and key creation across base and extension fields.",
+      "check": "exact"
+    },
+    {
+      "t": 834.9,
+      "text": "now because all the data is relied and all the fields are in the same table, you'll be able to create these indexes or",
+      "why_it_matters": "Documents removal of a previous limitation on composite keys mixing base and extension fields.",
+      "check": "exact"
+    },
+    {
+      "t": 1055.2,
+      "text": "I'll argue that even today with the newer model of version 29 you still need to use set load field which is called partial",
+      "why_it_matters": "Clarifies that partial loading remains essential best practice despite the new data model changes.",
+      "check": "exact"
+    },
+    {
+      "t": 1301.7,
+      "text": "Microsoft have made it very clear after the announcement of business central that there should not be any direct SQL for sure",
+      "why_it_matters": "Reinforces Microsoft's firm position against direct SQL access, critical guidance for developers.",
+      "check": "exact"
+    },
+    {
+      "t": 1348.6,
+      "text": "Microsoft have changed it twice and I'll not be surprised to be very fair if this model changes to a better model into the",
+      "why_it_matters": "Acknowledges that the underlying architecture has changed multiple times, suggesting future changes are possible.",
+      "check": "exact"
+    },
+    {
+      "t": 1567,
+      "text": "Microsoft states that developer will receive compiler warnings when tables or table extensions containing many normal fields would reach to a point where the",
+      "why_it_matters": "Announces new feature in version 29 to proactively warn developers about approaching SQL column limits.",
+      "check": "exact"
+    },
+    {
+      "t": 1789.9,
+      "text": "Business 29 introduces the new data model where fields contributeed by the table extension are stored in the same database table as the base",
+      "why_it_matters": "Explains the fundamental architectural change in BC29 that replaces companion tables with unified storage, affecting how extensions and indexes work.",
+      "check": "exact"
+    },
+    {
+      "t": 1818.5,
+      "text": "developers should treat their physical SQL schema as implementation detail rather than something that they have to change.",
+      "why_it_matters": "Key guidance that the underlying SQL structure is internal implementation, not a stable contract, to prevent reliance on direct SQL.",
+      "check": "exact"
+    },
+    {
+      "t": 1862.7,
+      "text": "Now does a new model make business handle faster? Of course, as in because it's one table, your all your gets uh finds and",
+      "why_it_matters": "Quantifies the performance benefit of the unified table model by eliminating joins needed with separate companion tables.",
+      "check": "exact"
+    },
+    {
+      "t": 1973.3,
+      "text": "the table extension change in business central 29 is the most or important change in terms of a platform change and it optimizes so",
+      "why_it_matters": "Emphasizes the significance of this release's table extension model as a major platform-level architectural shift with broad optimization benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 2000.3,
+      "text": "Don't build your business center solution around assumptions about the physical SQL database.",
+      "why_it_matters": "Core architectural principle establishing that developers should rely on AL abstractions and supported APIs rather than SQL schema details.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 151.1,
+      "kind": "preview",
+      "text": "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability."
+    },
+    {
+      "t": 568.2,
+      "kind": "preview",
+      "text": "Business center 29 onrem version is not available and on business center cloud I don't have access to the SQL server"
+    },
+    {
+      "t": 1540.1,
+      "kind": "other",
+      "text": "it'll be able to detect table approaching SQL column limit. Now this is very interesting. It is as new to ..."
+    },
+    {
+      "t": 1642.4,
+      "kind": "other",
+      "text": "I'm very sure that they would not have taken this decision in isolation of changing the underlying architecture. But I ..."
+    },
+    {
+      "t": 1685.1,
+      "kind": "other",
+      "text": "the Microsoft learn document or the release note very clearly says that it'll give you a compiler warning as it ..."
+    },
+    {
+      "t": 1704.6,
+      "kind": "other",
+      "text": "I don't know what's the exact threshold what kind of compiler warning will be generated does a warning apply appears ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}
