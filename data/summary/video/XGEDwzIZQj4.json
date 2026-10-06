@@ -1,0 +1,27 @@
+{
+  "video_id": "XGEDwzIZQj4",
+  "item_id": "video/yt-microsoft/XGEDwzIZQj4",
+  "summary": "BC-Bench is a benchmarking tool for AI coding agents fixing real Business Central AL bugs from Microsoft's backlog. The video covers how it works, the leaderboard metrics (mean resolution rate, pass at five, execution time), and how to access or fork the MIT-licensed GitHub repository.",
+  "overview": "The video presents BC-Bench, a reproducible evaluation framework that tests which combination of LLM model, MCP server, instructions and agent harness works best for AL development. General coding benchmarks such as SWE-bench do not reflect what a Business Central developer faces, and the AL dataset is smaller (330 tasks at recording time). Each task is built from a real bug and includes the problem statement, the unit test written by the BC developer, and the expected fix.\n\nThe presenter explains the leaderboard: results are aggregated over five runs because language models are non-deterministic. Overlapping confidence intervals mean two setups cannot be confidently ranked. The video also covers the source repository, the supported harnesses, model comparison across Anthropic and OpenAI models, and how to contribute or fork with a custom dataset.",
+  "key_points": [
+    "BC-Bench tests combinations of LLM model, MCP server, instructions and agent harness on real Business Central bugs from Microsoft's backlog.",
+    "Each benchmark task contains the bug description and repro steps as the problem statement, the BC developer's unit test, and the expected fix.",
+    "Mean resolution rate is averaged over five runs and shown with a 95% confidence interval; one example setup reached 68.5%.",
+    "If confidence intervals overlap, the setups cannot be confidently compared, since the difference could be a fluke.",
+    "Pass at five measures how consistently the agent resolves the same tasks across all five runs; average execution time is also reported.",
+    "Only Cloud Code and GitHub Copilot harnesses are supported currently; trying it needs a GitHub account and a subscription to one of them.",
+    "The repository is public under the MIT license. You can contribute tasks or fork it and replace the Microsoft-based dataset with your own to benchmark private code."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "9d38ecfe140adbb7cb65fbc4d5b881de1e968b11cff6076a423289130315eb12",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0178444
+  }
+}

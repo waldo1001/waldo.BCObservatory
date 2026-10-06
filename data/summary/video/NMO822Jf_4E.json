@@ -1,0 +1,27 @@
+{
+  "video_id": "NMO822Jf_4E",
+  "item_id": "video/yt-microsoft/NMO822Jf_4E",
+  "summary": "Shopify connector in Business Central: a new currency handling setting on the Shopify shop card lets sales documents be created in the presentment currency instead of the shop currency. Covers the default behavior, the new processed currency field on orders, and switching between modes.",
+  "overview": "The video from the 2026 release wave 1 explains how Business Central handles currencies for Shopify orders. Shopify markets can sell in local currencies, but Business Central used to import both the store and presentment currency and create sales documents only in the store currency.\n\nA demo shows the new currency handling field in the order processing section of the Shopify shop card, synchronizing orders, and creating sales documents in the presentment currency. It also shows the processed currency field on orders, and how to unlink a processed document and switch between currency modes.",
+  "key_points": [
+    "The Shopify shop card has a new currency handling field in the order processing section; click 'show more' to see it.",
+    "Options are shop currency (default) or presentment currency. The default stays shop currency so upgrades cause no sudden changes.",
+    "The presentment currency is the currency the customer sees at checkout. Before this change, sales documents were created only in the store currency.",
+    "Orders get a new processed currency field, populated only after the order is processed. It shows whether the store or presentment currency was used.",
+    "The presentment currency field on an order is not editable once populated.",
+    "To change modes, switch the setting between shop and presentment currency, unlink the processed document and recreate it.",
+    "The video presents presentment-currency order creation as a logical step after defining currencies in catalogs linked to markets, which builds on the earlier price synchronization for market catalogs."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "5091fb8d3e4780bfe3eaa98af96e20c340256ac3c10e75d14b0ff79d080070fd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012438399999999999
+  }
+}

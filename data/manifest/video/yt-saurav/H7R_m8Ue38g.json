@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=H7R_m8Ue38g",
   "published_at": "2026-09-09T17:41:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:01:47.413Z",
+      "captions": "auto:en-orig",
+      "duration_s": 925
+    },
+    "captioned": {
+      "at": "2026-10-06T17:03:59.640Z",
+      "path": "vault:captions/community/yt-saurav/H7R_m8Ue38g.vtt",
+      "vtt_sha256": "5548b5e080718279486a2fab9725bfd6698f90c2b3a831f00185682e25bd6a15",
+      "segments": 71,
+      "words": 2215,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC2SnEeamdCLN98MXFprKd_w"
-  }
+    "channel_id": "UC2SnEeamdCLN98MXFprKd_w",
+    "duration_s": 925,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5548b5e080718279486a2fab9725bfd6698f90c2b3a831f00185682e25bd6a15"
 }

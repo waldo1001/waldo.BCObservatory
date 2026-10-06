@@ -1,0 +1,27 @@
+{
+  "video_id": "U1dAdtUjidc",
+  "item_id": "video/yt-microsoft/U1dAdtUjidc",
+  "summary": "Admin Center MCP Server (in public preview, 2026 release wave 1) lets an MCP client such as VS Code query and manage Business Central environments through the Admin Center API using natural language. The video demos setup, update queries and failed-update analysis, and lists preview limitations.",
+  "overview": "The video shows the Admin Center MCP Server, which exposes the Admin Center API to MCP-compatible clients. It is connected in VS Code and uses standard Entra authentication, the same as the Admin API. The demo asks natural language questions, such as listing environments and checking their pending updates, and the server picks the tools and API endpoints to call.\n\nIt also shows analyzing a failed update, where the failure message pointed to AL logic failing during data upgrade. Root cause analysis works best when the source code of the extension involved is available in the same context. The server is in public preview, so some Admin Center API endpoints are not yet known to it, and destructive operations are blocked.",
+  "key_points": [
+    "The Admin Center MCP Server is in public preview and can be connected to VS Code and other MCP-compatible clients.",
+    "Authentication uses standard Entra authentication, the same mechanism as the Admin API.",
+    "Natural language questions can list environments and show their pending updates; the server chooses the API endpoints to call.",
+    "Failed update analysis can identify root causes, especially when the source code of the failing extension is in the same context.",
+    "It cannot run destructive operations: deleting or renaming environments, or uninstalling apps. In the demo the agent said no uninstall tool exists.",
+    "It cannot manage security group settings, and settings for linked Power Platform environments are not available yet.",
+    "Some Admin Center API endpoints are not yet known to the MCP server during the preview."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "eecda8295b5b5ef625d1ef02f24ad040fdff6f84381c60680125bad723233ad9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014360399999999999
+  }
+}

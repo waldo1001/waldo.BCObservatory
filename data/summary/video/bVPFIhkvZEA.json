@@ -1,0 +1,27 @@
+{
+  "video_id": "bVPFIhkvZEA",
+  "item_id": "video/yt-saurav/bVPFIhkvZEA",
+  "summary": "SIFT index management in Business Central: administrators can turn SIFT indexes on or off from the client, extending the index management introduced in 2026 release wave 1. Covers the Index Management page, company-level control, enable/disable timing, and guidance on when to disable.",
+  "overview": "The video explains SIFT (sum index field technology), which makes certain aggregate calculations faster but has costs, so it should not be added to every table. It describes how 2026 release wave 1 introduced application-level index management through the table information page, and how 2026 release wave 2 extends this to SIFT indexes.\n\nIt demos the Index Management page, which shows index type, whether an index is AL-defined or platform-defined, and statistics such as fragmentation, size, seeks, scans, lookups and last update. It also covers company-level control in multi-company setups, the roles of administrators, consultants and developers, and best practices for deciding whether to disable an index.",
+  "key_points": [
+    "SIFT stands for sum index field technology and speeds up certain aggregate calculations, but it has a cost, so its value depends on the workload.",
+    "2026 release wave 1 added application-level index management through the table information page, without changing AL code.",
+    "2026 release wave 2 extends this so administrators can turn SIFT indexes on or off from table information or the Index Management page.",
+    "Primary keys, unique keys and platform-defined indexes (such as system ID) cannot be toggled.",
+    "Indexes can be enabled or disabled at company level, so companies in a multi-company environment can have different configurations.",
+    "Disabling an index happens immediately. Enabling is deferred to the next overnight maintenance cycle in tenant local time.",
+    "A SIFT index with low usage should not be disabled automatically; judge it against the particular workload and storage needs."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "8c166cc5c077ba0fa44375db92eb21f4439156b62fb1be366cdf776f1d6afbbb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0158724
+  }
+}

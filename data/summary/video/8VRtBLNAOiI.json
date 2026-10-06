@@ -1,0 +1,26 @@
+{
+  "video_id": "8VRtBLNAOiI",
+  "item_id": "video/yt-microsoft/8VRtBLNAOiI",
+  "summary": "Self-billing invoices in Business Central (2026 release wave 1): the customer creates the purchase invoice on behalf of the vendor. Covers the vendor card agreement field, the posted self-billing invoice number series, report selection, and a demo. Electronic invoicing based on self-billing is planned for the next release.",
+  "overview": "The video introduces self-billing, a process where the customer, not the vendor, creates the invoice for goods or services received. The stated business value is lower operational workload and faster processing. The presenter says the functionality is available from 2026 release wave 1.\n\nThe video walks through setup and then demos it: the vendor card, a purchase invoice, posting, the self-billing invoice output, and a purchase order. It closes with the roadmap: electronic invoicing based on self-billing invoices is not covered yet and is planned for the next release, after feedback on how the first version works.",
+  "key_points": [
+    "Self-billing means the customer creates the invoice instead of the vendor, for goods or services received.",
+    "Enable the self-billing agreement boolean field on the invoicing fast tab of the vendor card to turn it on for that vendor.",
+    "Set a posted self-billing invoice number series in Purchase and Payable Setup; it is filled in automatically as the external document number.",
+    "Add report selection for self-billing invoices in Purchase report selection, using report 413 (self-billing invoice).",
+    "The demo covers vendor card, purchase invoice, posting, invoice output and a purchase order.",
+    "Electronic invoicing based on self-billing invoices is not covered yet; it is planned for the next release, after feedback."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "9038d627702ebd78e8107707032e391d8fb7a7ffce7f82d5f949252aa55f46f0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0129584
+  }
+}

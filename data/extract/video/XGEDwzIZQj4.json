@@ -1,0 +1,305 @@
+{
+  "video_id": "XGEDwzIZQj4",
+  "item_id": "video/yt-microsoft/XGEDwzIZQj4",
+  "title": "What's New: BC-Bench (2026 release wave 1)",
+  "duration_s": 785,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ai coding agents",
+    "benchmarking",
+    "bug fixing",
+    "mcp servers",
+    "llm models",
+    "performance measurement",
+    "business central development",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to BC Bench and its purpose",
+      "t_start": 0,
+      "t_end": 94.3
+    },
+    {
+      "title": "Why Business Central needs its own benchmark",
+      "t_start": 94.3,
+      "t_end": 166.7
+    },
+    {
+      "title": "How BC Bench works with bug-fixing methodology",
+      "t_start": 166.7,
+      "t_end": 286.6
+    },
+    {
+      "title": "Getting started with BC Bench and accessing the tool",
+      "t_start": 286.6,
+      "t_end": 376.6
+    },
+    {
+      "title": "Leaderboard results and interpreting the metrics",
+      "t_start": 376.6,
+      "t_end": 609.6
+    },
+    {
+      "title": "Model improvements over time and customization options",
+      "t_start": 609.6,
+      "t_end": 785
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Bench benchmarking tool",
+      "description": "A reproducible evaluation framework for AI coding agents working on real-world AL development tasks. It measures the performance of different AI models and agent configurations on real Business Central bugs from Microsoft's backlog, testing which combination of LLM model, MCP server, instructions, and agent harness produces the best results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.8,
+      "t_end": 286.6,
+      "is_demoed": true,
+      "caveats": [
+        "Results aggregated across five runs due to non-deterministic nature of language models",
+        "Currently supports only Cloud Code and GitHub Copilot agent harnesses",
+        "Dataset drawn from Microsoft repositories, not representative of all solution-specific challenges"
+      ],
+      "tags": [
+        "ai agents",
+        "benchmarking",
+        "bug fixing",
+        "al development",
+        "performance measurement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC Bench bug-fixing dataset",
+      "description": "A collection of real Business Central bugs from Microsoft's backlog converted into benchmark tasks. Each task includes the bug description, repository steps as problem statements, the unit test developed by the BC developer, and the expected fix.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 240.9,
+      "t_end": 286.6,
+      "is_demoed": true,
+      "caveats": [
+        "Dataset is drawn from Microsoft repositories",
+        "Not representative of all solution-specific challenges",
+        "Can be forked and replaced with custom datasets"
+      ],
+      "tags": [
+        "dataset",
+        "bug fixing",
+        "benchmarking",
+        "business central"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Mean resolution rate with confidence intervals",
+      "description": "A metric showing the percentage of tasks an agent setup resolves on average across five runs, with a 95% confidence interval to account for non-deterministic variance in language models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 422.2,
+      "t_end": 470.8,
+      "is_demoed": true,
+      "caveats": [
+        "Fluctuations occur between runs due to non-deterministic nature of AI models",
+        "Overlapping confidence intervals mean setups cannot be confidently compared"
+      ],
+      "tags": [
+        "metrics",
+        "accuracy",
+        "confidence interval",
+        "performance measurement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pass at five consistency metric",
+      "description": "A metric measuring how reliably the coding agent resolves the same tasks consistently across all five benchmark runs, indicating the reliability of the coding agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 562.5,
+      "t_end": 594.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "metrics",
+        "consistency",
+        "reliability",
+        "performance measurement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Average execution time metric",
+      "description": "Measures how long it takes for an agent setup to resolve all tasks on average, providing engineers with performance data to choose between setups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 598.4,
+      "t_end": 624.4,
+      "is_demoed": true,
+      "caveats": [
+        "Execution time influences engineers' decisions on setup choice"
+      ],
+      "tags": [
+        "metrics",
+        "performance",
+        "execution time"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub repository access for BC Bench",
+      "description": "BC Bench source code, leaderboard results, and benchmarking data are publicly available on GitHub with MIT license. Users can access the repository, explore results, and fork to create custom benchmarks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297,
+      "t_end": 750.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub account to experiment",
+        "Requires subscription to GitHub Copilot or Cloud Code agent harnesses",
+        "Repository is MIT-licensed and public"
+      ],
+      "tags": [
+        "github",
+        "open source",
+        "public access",
+        "benchmarking tool"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Model comparison across AI providers",
+      "description": "BC Bench supports evaluation of multiple LLM models from different providers including Anthropic Claude models and OpenAI GPT models through different agent harnesses (Cloud Code and GitHub Copilot).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 388.1,
+      "t_end": 422.2,
+      "is_demoed": true,
+      "caveats": [
+        "Currently limited to Cloud Code and GitHub Copilot harnesses"
+      ],
+      "tags": [
+        "model comparison",
+        "anthropic",
+        "openai",
+        "ai agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom dataset contribution capability",
+      "description": "Users can contribute solution-specific challenges to the BC Bench dataset or fork the repository and replace the dataset with their own to benchmark against private codebases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 722,
+      "t_end": 750.8,
+      "is_demoed": false,
+      "caveats": [
+        "Default dataset drawn from Microsoft repositories",
+        "Custom datasets allow private benchmarking",
+        "MIT license allows forking"
+      ],
+      "tags": [
+        "customization",
+        "dataset",
+        "community contribution",
+        "benchmarking"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Joost",
+      "confidence": "high"
+    },
+    {
+      "name": "Horan",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 40.8,
+      "text": "To find out which combination is the best, we've developed a benchmarking tool that lets us test all these combinations as an agent solves",
+      "why_it_matters": "Establishes the core purpose of BC Bench - to determine optimal combinations of models, MCP servers, and instructions for AI coding agents in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 141.4,
+      "text": "The reality here is that general coding benchmarks like SweetBench do not reflect the realities that a Business Central developer faces every day.",
+      "why_it_matters": "Explains why Business Central needs its own benchmarking tool rather than relying on general-purpose coding benchmarks, due to domain-specific requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 181.2,
+      "text": "Whereas in AL, we only have 330 as of the time of this recording.",
+      "why_it_matters": "Quantifies the size difference between Python (2+ million repositories) and AL (330) open-source repositories, justifying need for domain-specific benchmarking.",
+      "check": "exact"
+    },
+    {
+      "t": 447,
+      "text": "This specific setup managed to achieve 68.5% resolution rate on average, meaning on average of five runs, it resolved 68% of the all the",
+      "why_it_matters": "Demonstrates how BC Bench measures agent performance with concrete accuracy metrics aggregated across multiple runs.",
+      "check": "exact"
+    },
+    {
+      "t": 527.8,
+      "text": "We cannot confidently say which one of the setup is better because, well, it could be a fluke because of those five runs.",
+      "why_it_matters": "Explains the importance of confidence intervals and statistical rigor when comparing different AI agent configurations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 21.4,
+      "kind": "other",
+      "text": "As more and more development in Business Central AL is done by agents or assisted by agents, there's a need to find out which model which MCP servers, which instructions, and which agent harness is the best combination."
+    },
+    {
+      "t": 470.8,
+      "kind": "other",
+      "text": "There are lots of fluctuations on the accuracy between runs because AI models or language models are non-deterministic."
+    },
+    {
+      "t": 639.3,
+      "kind": "other",
+      "text": "By the time you are watching this video, you will be exactly a year before GPT-4o model was released."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026851999999999997
+    }
+  ]
+}

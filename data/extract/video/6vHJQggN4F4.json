@@ -1,0 +1,303 @@
+{
+  "video_id": "6vHJQggN4F4",
+  "item_id": "video/yt-microsoft/6vHJQggN4F4",
+  "title": "What's New: Product Information Management in Shopify Connector (2026 release wave 1)",
+  "duration_s": 471,
+  "systems": [
+    "integration",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "shopify connector",
+    "product information management",
+    "item variants",
+    "item attributes",
+    "product collections",
+    "tax override",
+    "image export",
+    "marketing text",
+    "price synchronization"
+  ],
+  "chapters": [
+    {
+      "title": "Item Variants and Attributes in Shopify Export",
+      "t_start": 0,
+      "t_end": 99.3
+    },
+    {
+      "title": "Item Attributes Configuration for Shopify Export",
+      "t_start": 99.3,
+      "t_end": 151
+    },
+    {
+      "title": "Custom Product Collections and Tax Override",
+      "t_start": 151,
+      "t_end": 254.2
+    },
+    {
+      "title": "Adding Items as Shopify Variants",
+      "t_start": 254.2,
+      "t_end": 373.4
+    },
+    {
+      "title": "Importing Products from Shopify to Business Central",
+      "t_start": 373.4,
+      "t_end": 434.4
+    },
+    {
+      "title": "Summary and Additional Resources",
+      "t_start": 434.4,
+      "t_end": 471
+    }
+  ],
+  "features": [
+    {
+      "name": "Item Variant Image Export to Shopify",
+      "description": "Item variants now have images that are exported to Shopify along with the product. Each variant can have its own image which displays on the online store.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.4,
+      "t_end": 88.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item variants",
+        "image export",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Item Attributes for Shopify Options",
+      "description": "Item attributes can now be configured to export as Shopify options. A new column appears in the item attributes setup page when Shopify connector is installed, allowing selection of which attributes to export as product options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.3,
+      "t_end": 137,
+      "is_demoed": true,
+      "caveats": [
+        "Only visible when Shopify connector is installed with stores connected",
+        "Not all attributes are exported, some are only added as description"
+      ],
+      "tags": [
+        "item attributes",
+        "shopify options",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Custom Product Collections",
+      "description": "Items can be automatically assigned to Shopify collections based on Business Central item categories. Collections are configured in the Shopify shop card and rules determine which items are added to which collections during export.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.4,
+      "t_end": 242,
+      "is_demoed": true,
+      "caveats": [
+        "Collections must be imported from Shopify first or manually configured"
+      ],
+      "tags": [
+        "collections",
+        "product categories",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Tax Override via Collections",
+      "description": "Items with reduced or non-standard tax rates can be added to specific Shopify collections configured as tax override to help Shopify apply correct taxation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 216.4,
+      "t_end": 242,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "tax override",
+        "collections"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Add Item as Shopify Variant Function",
+      "description": "A function to add individual Business Central items as variants of a parent item in Shopify. This allows a flat item list in Business Central to be presented as variants with options in Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.8,
+      "t_end": 346.6,
+      "is_demoed": true,
+      "caveats": [
+        "Useful when Business Central has flat item structure but Shopify needs variants",
+        "Applies when item-specific fields are not available on variants"
+      ],
+      "tags": [
+        "item as variant",
+        "shopify",
+        "variants"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Variant Price Synchronization",
+      "description": "Prices for individual items added as Shopify variants are synchronized, allowing different variants to have different prices based on their Business Central item records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 346.6,
+      "t_end": 373.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "variants",
+        "synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Product Image Synchronization from Shopify",
+      "description": "When importing products from Shopify to Business Central, product images are synchronized to the newly created items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.7,
+      "t_end": 422.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "image synchronization",
+        "product import",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Marketing Text Import from Shopify",
+      "description": "When importing products from Shopify to Business Central, marketing text can now be synchronized to the newly created items. This requires a toggle to be enabled in the Shopify shop card settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.7,
+      "t_end": 422.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires explicit toggle configuration in Shopify shop card"
+      ],
+      "tags": [
+        "marketing text",
+        "product import",
+        "shopify"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item list",
+      "t": 6.6
+    },
+    {
+      "type": "page",
+      "name": "item attributes",
+      "t": 99.3
+    },
+    {
+      "type": "page",
+      "name": "Shopify shops",
+      "t": 174.4
+    },
+    {
+      "type": "page",
+      "name": "Shopify shop card",
+      "t": 174.4
+    },
+    {
+      "type": "page",
+      "name": "list of products",
+      "t": 242
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 61.4,
+      "text": "this item has four variants. And each variant has image. So, yeah, this image is now exported to Shopify as well",
+      "why_it_matters": "Confirms that item variant images are now exported to Shopify, a new capability in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 99.3,
+      "text": "you can see the new column. It's only visible if you have Shopify uh connector installed with uh uh some stores connected",
+      "why_it_matters": "Introduces a new column in item attributes page for configuring Shopify exports, visible only when connector is active.",
+      "check": "exact"
+    },
+    {
+      "t": 186.1,
+      "text": "you can decide which collection you want to assign to items as soon as they exported to Shopify from Business Central",
+      "why_it_matters": "Explains the new custom product collections feature that automatically categorizes items during export.",
+      "check": "exact"
+    },
+    {
+      "t": 228.4,
+      "text": "you can add item to specific collection, which is configured as a tax override",
+      "why_it_matters": "Describes a use case for collections - enabling tax rate overrides for specific items in Shopify.",
+      "check": "exact"
+    },
+    {
+      "t": 332,
+      "text": "we can utilize function which is called add item as a Shopify variant, and add couple of more items",
+      "why_it_matters": "Introduces functionality to convert individual Business Central items into Shopify variants for flexible catalog management.",
+      "check": "exact"
+    },
+    {
+      "t": 385.4,
+      "text": "you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided",
+      "why_it_matters": "Shows that bidirectional synchronization is supported - items can be created in Business Central from Shopify products.",
+      "check": "exact"
+    },
+    {
+      "t": 422.4,
+      "text": "Now we got the marketing text as well. Because we have a toggle about marketing text, now you can get it from Shopify as",
+      "why_it_matters": "Marketing text is a new field that can be imported from Shopify when creating items in Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 109.4,
+      "kind": "other",
+      "text": "It's only visible if you have Shopify uh connector installed with uh uh some stores connected. You need to enable connector"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023325
+    }
+  ]
+}

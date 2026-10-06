@@ -1,0 +1,192 @@
+{
+  "video_id": "NMO822Jf_4E",
+  "item_id": "video/yt-microsoft/NMO822Jf_4E",
+  "title": "What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)",
+  "duration_s": 293,
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "shopify",
+    "presentment currency",
+    "multi-currency",
+    "price synchronization",
+    "markets",
+    "sales documents",
+    "order processing"
+  ],
+  "chapters": [
+    {
+      "title": "Background: Markets, currencies, and the problem",
+      "t_start": 0,
+      "t_end": 73.2
+    },
+    {
+      "title": "New currency handling setting in Shopify shop card",
+      "t_start": 73.2,
+      "t_end": 110.5
+    },
+    {
+      "title": "Synchronizing orders and viewing store currency",
+      "t_start": 110.5,
+      "t_end": 142.1
+    },
+    {
+      "title": "Creating sales documents in presentment currency",
+      "t_start": 142.1,
+      "t_end": 177
+    },
+    {
+      "title": "Editing documents and switching between currency modes",
+      "t_start": 177,
+      "t_end": 235.6
+    },
+    {
+      "title": "Summary and next steps",
+      "t_start": 235.6,
+      "t_end": 293
+    }
+  ],
+  "features": [
+    {
+      "name": "Presentment currency support in Shopify order processing",
+      "description": "Allows sales documents to be created in the presentment currency (the currency shown to the customer at checkout) instead of only the store currency. Previously, Business Central only imported both currencies but created sales documents in the store currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.2,
+      "t_end": 167.1,
+      "is_demoed": true,
+      "caveats": [
+        "Presentment currency field is not editable once populated",
+        "Default behavior remains shop currency to avoid sudden changes on upgrade",
+        "Users can change between shop currency and presentment currency modes and recreate documents"
+      ],
+      "tags": [
+        "shopify",
+        "currency",
+        "sales documents",
+        "multi-currency"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Currency handling field on Shopify shop card",
+      "description": "New field in Shopify shop card order processing section with two options: shop currency (default) or presentment currency. Allows users to control how orders are created in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 73.2,
+      "t_end": 110.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires clicking 'show more' to see the field",
+        "Default is shop currency for backward compatibility"
+      ],
+      "tags": [
+        "shopify",
+        "configuration",
+        "currency"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Processed currency field in orders",
+      "description": "New field populated after document processing that shows which currency was used to create the sales document, either store currency or presentment currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 152.8,
+      "t_end": 177,
+      "is_demoed": true,
+      "caveats": [
+        "Only populated after processing the order"
+      ],
+      "tags": [
+        "shopify",
+        "currency",
+        "order processing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Price synchronization for catalogs linked to markets",
+      "description": "Previous release capability to synchronize prices for catalogs associated with different markets (regions), allowing different tax, price, and localization rules per market.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7.1,
+      "t_end": 35.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "pricing",
+        "markets",
+        "localization"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 20.7,
+      "text": "it's all for often very important to allow user or buyer in the local market to buy in local currency",
+      "why_it_matters": "Explains the business need for presentment currency support - customers in different markets need to transact in their local currency",
+      "check": "exact"
+    },
+    {
+      "t": 56.2,
+      "text": "Currency used at the checkout time. In the Business Central, we used to import both of them but create sales documents only in the",
+      "why_it_matters": "Clarifies the problem being solved: previously only store currency was used for documents even though presentment currency was imported",
+      "check": "exact"
+    },
+    {
+      "t": 88.8,
+      "text": "The currency handling, the new field. It has two options, shop currency, the default one, to make sure that there are no sudden changes",
+      "why_it_matters": "Documents the new configuration field and explains backward compatibility approach",
+      "check": "exact"
+    },
+    {
+      "t": 152.8,
+      "text": "Because we configured uh orders to be created in presentment currency you can see the new field here, processed currency",
+      "why_it_matters": "Shows how the new processed currency field tracks which currency was used when creating the sales document",
+      "check": "exact"
+    },
+    {
+      "t": 189.5,
+      "text": "I cannot change this presentment currency, it's not editable, but I can always unlink processed document",
+      "why_it_matters": "Explains the workflow constraint: presentment currency is read-only but users can unlink and recreate documents with different currency settings",
+      "check": "exact"
+    },
+    {
+      "t": 252.5,
+      "text": "creation orders in the presentment currency it's a safe and a logical step after defining currencies in the catalogs linked to the markets",
+      "why_it_matters": "Connects this feature to the previous market-based catalog pricing feature, showing how they work together",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01271
+    }
+  ]
+}

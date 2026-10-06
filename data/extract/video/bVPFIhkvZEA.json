@@ -1,0 +1,343 @@
+{
+  "video_id": "bVPFIhkvZEA",
+  "item_id": "video/yt-saurav/bVPFIhkvZEA",
+  "title": "Business Central: Turn SIFT Indexes on or Off",
+  "duration_s": 1255,
+  "systems": [
+    "platform",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "sift indexes",
+    "index management",
+    "database performance",
+    "aggregate calculations",
+    "index statistics",
+    "multi-company environments",
+    "performance tuning",
+    "administrators",
+    "index on-off control",
+    "workload optimization",
+    "maintenance cycles"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and SIFT Overview",
+      "t_start": 0,
+      "t_end": 75.3
+    },
+    {
+      "title": "What SIFT Does and Performance Trade-offs",
+      "t_start": 75.3,
+      "t_end": 238.9
+    },
+    {
+      "title": "SIFT Technical Implementation and AL Definition",
+      "t_start": 238.9,
+      "t_end": 348.5
+    },
+    {
+      "title": "Index Management in 2026 Release Wave 1",
+      "t_start": 348.5,
+      "t_end": 433.3
+    },
+    {
+      "title": "New SIFT Management in 2026 Release Wave 2",
+      "t_start": 433.3,
+      "t_end": 557.8
+    },
+    {
+      "title": "Index Management Page Features and Statistics",
+      "t_start": 557.8,
+      "t_end": 704.4
+    },
+    {
+      "title": "Multi-Company Index Control and Business Benefits",
+      "t_start": 704.4,
+      "t_end": 860.8
+    },
+    {
+      "title": "Impact on Administrators and Consultants",
+      "t_start": 860.8,
+      "t_end": 946.2
+    },
+    {
+      "title": "Role of Developers in SIFT Index Management",
+      "t_start": 946.2,
+      "t_end": 1008.7
+    },
+    {
+      "title": "Timing of Index Enable and Disable Operations",
+      "t_start": 1008.7,
+      "t_end": 1061.2
+    },
+    {
+      "title": "Best Practices for SIFT Index Decisions",
+      "t_start": 1061.2,
+      "t_end": 1122.2
+    },
+    {
+      "title": "Key Takeaways and Feature Releases",
+      "t_start": 1122.2,
+      "t_end": 1194.1
+    },
+    {
+      "title": "Closing Remarks and Summary",
+      "t_start": 1194.1,
+      "t_end": 1255
+    }
+  ],
+  "features": [
+    {
+      "name": "Turn SIFT indexes on or off from Business Central client",
+      "description": "Administrators can now manage SIFT indexes directly from the Business Central application, turning them on or off based on performance analysis and storage requirements. This capability extends the index management experience introduced in 2026 Release Wave 1.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.8,
+      "t_end": 433.3,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot disable primary keys",
+        "Cannot disable platform-defined indexes",
+        "SIFT management is application-level, not direct SQL Server modification"
+      ],
+      "tags": [
+        "index management",
+        "sift",
+        "administrator control",
+        "database performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index Management page",
+      "description": "A dedicated page where administrators can view all indexes for tables, including statistics such as fragmentation, size, seeks, scans, lookups, and last update times. Provides information on whether indexes are AL-defined or platform-defined, and whether they are enabled in the database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 487.2,
+      "t_end": 639.8,
+      "is_demoed": true,
+      "caveats": [
+        "Shows AL-defined and platform-defined indexes",
+        "Unique keys and primary keys cannot be toggled"
+      ],
+      "tags": [
+        "index management",
+        "table information",
+        "database statistics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index type classification",
+      "description": "The index management experience now shows the type of index - either a secondary key in SQL Server or a SIFT which is an aggregation of numeric values against a key.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 639.8,
+      "t_end": 659.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "index type",
+        "sift",
+        "secondary index"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Company-level index control",
+      "description": "Administrators can enable or disable indexes at the company level, allowing different companies in a multi-company environment to have different index configurations based on their specific workloads and performance requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 727.8,
+      "t_end": 860.8,
+      "is_demoed": true,
+      "caveats": [
+        "Provides granular control but requires understanding of company-specific workloads"
+      ],
+      "tags": [
+        "multi-company",
+        "index control",
+        "company-specific"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database index management at application level",
+      "description": "2026 release wave 1 introduced application level database index management through table information, allowing administrators to manage indexes without needing to modify AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.5,
+      "t_end": 1181.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "index management",
+        "application level",
+        "database management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Immediate index disable with deferred enable",
+      "description": "Disabling a SIFT or index happens immediately, but enabling an index is deferred to the next overnight maintenance cycle in local time to avoid slowing down operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1008.7,
+      "t_end": 1047.9,
+      "is_demoed": true,
+      "caveats": [
+        "Enable operations are not immediate",
+        "Timing depends on tenant local time"
+      ],
+      "tags": [
+        "maintenance cycles",
+        "index operations",
+        "performance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GL Entry",
+      "t": 254.5
+    },
+    {
+      "type": "page",
+      "name": "table information",
+      "t": 1169.7
+    },
+    {
+      "type": "page",
+      "name": "index management page",
+      "t": 1181.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sav Dhani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 85.9,
+      "text": "Shift stand for sum index field technology. The purpose of shift is simple. Make certain aggregate calculations faster.",
+      "why_it_matters": "Defines what SIFT is and its core purpose - accelerating aggregate calculations in the database.",
+      "check": "exact"
+    },
+    {
+      "t": 175.2,
+      "text": "Shift isn't free as in it doesn't mean that for every table you start introducing shift and we'll see how that happens. But it",
+      "why_it_matters": "Establishes the performance trade-off concept that is central to the decision to enable or disable SIFT indexes.",
+      "check": "exact"
+    },
+    {
+      "t": 238.9,
+      "text": "The correct question isn't are shift indexes good or bad. The better question is are these shift indexes valuable enough for the particular workload.",
+      "why_it_matters": "Articulates the design principle for the new feature - SIFT value is workload-dependent, not absolute.",
+      "check": "exact"
+    },
+    {
+      "t": 359.8,
+      "text": "In 2026 release one, Microsoft introduced application level management of database index through table information experience.",
+      "why_it_matters": "Marks the first instance of application-level index management, establishing the foundation for the new SIFT control feature.",
+      "check": "exact"
+    },
+    {
+      "t": 433.3,
+      "text": "In business 2026 release wave 2, Microsoft have added that administrator can turn shift indexes on or off whenever they need it",
+      "why_it_matters": "Directly states the new capability introduced in this release - administrators now have control over SIFT indexes.",
+      "check": "exact"
+    },
+    {
+      "t": 659.8,
+      "text": "The system ID which is a platform defined so you'll see that it is not AL defined and it's a unique key so you",
+      "why_it_matters": "Describes the safeguards - certain platform-defined indexes cannot be disabled to protect system integrity.",
+      "check": "exact"
+    },
+    {
+      "t": 804.6,
+      "text": "For customers the biggest benefit is more flexibility in performance tuning",
+      "why_it_matters": "Explains the primary value proposition of the SIFT index control feature to end customers",
+      "check": "exact"
+    },
+    {
+      "t": 960.5,
+      "text": "Developers still define the application data model. They still work with keys, some index field, maintain shift indexes, flow fields, queries, performance sensitive data",
+      "why_it_matters": "Clarifies that developer responsibility for index design remains unchanged despite the new administrative controls",
+      "check": "exact"
+    },
+    {
+      "t": 1071.8,
+      "text": "Not automatically. Seeing a shift index with low uses doesn't mean you should immediately disable it",
+      "why_it_matters": "Warns against hasty index disabling decisions based solely on usage metrics",
+      "check": "exact"
+    },
+    {
+      "t": 1142.8,
+      "text": "shift stand for some index field technology and help business central performs aggregate calculation efficiently",
+      "why_it_matters": "Defines what SIFT is and its primary function in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 1169.7,
+      "text": "2026 release web 1 introduces introduced an application level database index management through table information",
+      "why_it_matters": "Marks the release date and mechanism of the initial index management capability",
+      "check": "exact"
+    },
+    {
+      "t": 1181.3,
+      "text": "2026 release wave 2 extended this capability to shift indexes from the table information page or from an index management page",
+      "why_it_matters": "Identifies when SIFT index control was specifically added as an extension of the general index management feature",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 500.3,
+      "kind": "preview",
+      "text": "Get into your preview environment if you have and search for table information"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022007
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018011
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014269
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "video_id": "dUpixjiNaGY",
+  "item_id": "video/yt-saurav/dUpixjiNaGY",
+  "title": "Preview Images Directly in Business Central Web Client",
+  "duration_s": 611,
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "image preview",
+    "web client",
+    "file handling",
+    "attachment viewer",
+    "developer methods",
+    "user experience",
+    "supported formats"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 29.5
+    },
+    {
+      "title": "Previous Behavior and New Experience",
+      "t_start": 29.5,
+      "t_end": 97
+    },
+    {
+      "title": "Supported Image Formats",
+      "t_start": 97,
+      "t_end": 184.8
+    },
+    {
+      "title": "Demo of Version 28 vs Version 29",
+      "t_start": 184.8,
+      "t_end": 319.6
+    },
+    {
+      "title": "Where the Feature Works",
+      "t_start": 319.6,
+      "t_end": 374.5
+    },
+    {
+      "title": "Developer Implementation Guide",
+      "t_start": 374.5,
+      "t_end": 476.1
+    },
+    {
+      "title": "Summary and Recommendations",
+      "t_start": 476.1,
+      "t_end": 611
+    }
+  ],
+  "features": [
+    {
+      "name": "Image Preview in Web Client",
+      "description": "Users can now preview supported image attachments directly in the Business Central web client without downloading the file first. Images are displayed in a dedicated viewer similar to existing PDF preview experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.1,
+      "t_end": 97,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with supported image formats",
+        "Not yet added to incoming documents",
+        "GIF animation support limited to 48 frames"
+      ],
+      "tags": [
+        "image preview",
+        "web client",
+        "attachment viewer",
+        "user experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Supported Image Formats",
+      "description": "The image preview experience supports JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, and AVIF formats. GIF and AVIF support includes animated versions. TIFF and TIFF images are also supported only on Safari browsers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 115.9,
+      "t_end": 184.8,
+      "is_demoed": false,
+      "caveats": [
+        "TIFF support is Safari-only",
+        "Animated GIF limited to 48 frames"
+      ],
+      "tags": [
+        "image formats",
+        "browser support",
+        "animated gif"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "File View From Stream Method",
+      "description": "For Business Central online, developers should use the new FileViewFromStream method to load files into a stream and display preview. This replaces the older FileDownload approach and provides UCI compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 374.5,
+      "t_end": 476.1,
+      "is_demoed": true,
+      "caveats": [
+        "OnPrem developers should use FileViewFromStream instead of the older FileView method to avoid UCI compliance issues"
+      ],
+      "tags": [
+        "developer method",
+        "file handling",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Document Attachment Preview",
+      "description": "Document attachments now support image preview through a view action that displays the image output directly in the client without downloading.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 319.6,
+      "t_end": 349.4,
+      "is_demoed": true,
+      "caveats": [
+        "Feature not yet added to incoming documents"
+      ],
+      "tags": [
+        "document attachment",
+        "preview",
+        "view action"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Image Preview Across Business Central Areas",
+      "description": "The image preview feature works across multiple Business Central areas including agents, emails, and custom extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.4,
+      "t_end": 363.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cross-application",
+        "agents",
+        "emails",
+        "extensions"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Document Attachment Detail Fact",
+      "t": 411.8
+    },
+    {
+      "type": "page",
+      "name": "1173",
+      "t": 424.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.1,
+      "text": "What if if you could open an image attachment in Business Central without downloading the file first?",
+      "why_it_matters": "States the core problem the feature solves - eliminating unnecessary downloads for viewing attachments.",
+      "check": "exact"
+    },
+    {
+      "t": 52.5,
+      "text": "previously when you encountered an image attachment in Business Central till version 28, you often had to download the file before you can view",
+      "why_it_matters": "Establishes the previous behavior and the version where it changed, providing context for the improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 76.4,
+      "text": "now images can also be opened directly in Business Central web client. The image is displayed in the dedicated viewer",
+      "why_it_matters": "Confirms the new functionality is available in the web client with dedicated viewer support.",
+      "check": "exact"
+    },
+    {
+      "t": 129,
+      "text": "The image preview experience support a broad range of format from JPEG, JPG, PNG, BMP, SVG, WBP, ICO, GIF and AVIF",
+      "why_it_matters": "Documents the comprehensive list of supported image formats for developers and users.",
+      "check": "exact"
+    },
+    {
+      "t": 386.8,
+      "text": "For Business Central online, there is a new addition for file view from stream and for onremise there is a file dot view",
+      "why_it_matters": "Specifies the different methods required for cloud vs on-premise implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 519.1,
+      "text": "GIF animation uh support up to 48 frames",
+      "why_it_matters": "Documents a specific limitation of animated GIF support that developers and users should know.",
+      "check": "exact"
+    },
+    {
+      "t": 557.8,
+      "text": "this is a relatively small user experience improvement but one that can remove a surprisingly unnecessary steps and unnecessary files downloaded on user computer",
+      "why_it_matters": "Summarizes the practical benefit of eliminating unnecessary file downloads and workflow steps.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 332.2,
+      "kind": "coming-later",
+      "text": "it's not yet added on the incoming documents, but I'm pretty sure sooner than later, it'll also be available there"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020508
+    }
+  ]
+}

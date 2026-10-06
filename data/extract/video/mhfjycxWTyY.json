@@ -1,0 +1,381 @@
+{
+  "video_id": "mhfjycxWTyY",
+  "item_id": "video/yt-saurav/mhfjycxWTyY",
+  "title": "Business Central Gets a New Microsoft Copilot Chat Experience",
+  "duration_s": 916,
+  "systems": [
+    "copilot",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "copilot chat",
+    "unified experience",
+    "conversational ai",
+    "licensing",
+    "admin enablement",
+    "web search integration",
+    "business data context",
+    "agent ecosystem",
+    "natural language interaction",
+    "preview features"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Unified Copilot Chat",
+      "t_start": 0,
+      "t_end": 38.6
+    },
+    {
+      "title": "What is the New Copilot Chat Experience",
+      "t_start": 38.6,
+      "t_end": 90.2
+    },
+    {
+      "title": "Evolution from Previous Copilot Implementation",
+      "t_start": 90.2,
+      "t_end": 167.2
+    },
+    {
+      "title": "Three Information Sources: Data, Web, and AI Knowledge",
+      "t_start": 167.2,
+      "t_end": 262.9
+    },
+    {
+      "title": "Access and Licensing",
+      "t_start": 262.9,
+      "t_end": 365
+    },
+    {
+      "title": "Administrator Enablement and Configuration",
+      "t_start": 365,
+      "t_end": 468.6
+    },
+    {
+      "title": "Implications for Developers and Consultants",
+      "t_start": 468.6,
+      "t_end": 554
+    },
+    {
+      "title": "Copilot in Broader Microsoft Ecosystem",
+      "t_start": 554,
+      "t_end": 689.8
+    },
+    {
+      "title": "Live Demonstration of Chat Interface",
+      "t_start": 689.8,
+      "t_end": 835.4
+    },
+    {
+      "title": "Summary and Conclusion",
+      "t_start": 835.4,
+      "t_end": 916
+    }
+  ],
+  "features": [
+    {
+      "name": "Unified Copilot Chat Experience",
+      "description": "A new modern chat interface for Business Central that combines business data, web search results, and general AI knowledge in a single conversational experience, consistent across web, mobile, and desktop platforms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.8,
+      "t_end": 167.2,
+      "is_demoed": true,
+      "caveats": [
+        "Very little information available as it's in preview",
+        "Documentation and feature detail are subject to change",
+        "Will be available over coming days or months as GA is announced"
+      ],
+      "tags": [
+        "conversational ai",
+        "chat interface",
+        "business context",
+        "web integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central Data Integration in Chat",
+      "description": "The chat experience can access and reason across Business Central business data, allowing users to ask questions about their data without navigating to specific pages or reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.4,
+      "t_end": 262.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires appropriate licensing and permissions",
+        "Additional benefits available with Microsoft Copilot license"
+      ],
+      "tags": [
+        "business data",
+        "context",
+        "reasoning",
+        "query"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Web Search Integration in Copilot Chat",
+      "description": "The unified chat experience can retrieve and incorporate web search results into conversations, combining external information with business context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.4,
+      "t_end": 262.9,
+      "is_demoed": false,
+      "caveats": [
+        "Information retrieval depends on appropriate query context",
+        "Subject to change during preview"
+      ],
+      "tags": [
+        "web search",
+        "external data",
+        "information retrieval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and Agent Capabilities Settings Page",
+      "description": "An administrative page where administrators can enable or disable copilot chat and other capabilities on a per-company basis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 365,
+      "t_end": 449.5,
+      "is_demoed": true,
+      "caveats": [
+        "Chat capability shows as production ready preview on the page",
+        "Availability varies by region and environment"
+      ],
+      "tags": [
+        "administration",
+        "enablement",
+        "settings",
+        "permissions"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Microsoft Copilot License Additional Benefits",
+      "description": "Users with Microsoft Copilot licenses receive additional benefits and capabilities beyond what is available with a standard Business Central license, including access to work IQ and additional agent capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 291.4,
+      "t_end": 348.2,
+      "is_demoed": false,
+      "caveats": [
+        "Specific additional benefits not fully detailed",
+        "Benefits will be learned over time as feature develops",
+        "Eligible for Microsoft 365 business customers"
+      ],
+      "tags": [
+        "licensing",
+        "copilot pro",
+        "benefits",
+        "work iq"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Conversational Interaction Model",
+      "description": "A new interaction model for Business Central that enables users to ask questions in natural language through the chat interface rather than navigating pages, reports, or using APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 478.6,
+      "t_end": 554,
+      "is_demoed": true,
+      "caveats": [
+        "Represents a fundamental shift in user interaction patterns",
+        "Requires rethinking of UI and UX design approaches",
+        "Still in early stages of development"
+      ],
+      "tags": [
+        "natural language",
+        "user interaction",
+        "conversational",
+        "design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Store Integration",
+      "description": "The Business Central chat experience integrates with the Microsoft agent store, allowing users to access and interact with various agents (Microsoft 365 agents and others) directly within the Business Central environment without leaving to copilot web experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 639.4,
+      "t_end": 689.8,
+      "is_demoed": true,
+      "caveats": [
+        "Noted as coming to full app",
+        "Limited availability in current preview"
+      ],
+      "tags": [
+        "agents",
+        "integration",
+        "ecosystem",
+        "agent store"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Selection in Chat",
+      "description": "The chat interface includes options for users to select different AI models for their conversations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 689.8,
+      "t_end": 729.8,
+      "is_demoed": true,
+      "caveats": [
+        "Specific model options not detailed",
+        "Subject to change during preview period"
+      ],
+      "tags": [
+        "model selection",
+        "ai configuration",
+        "settings"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-step Reasoning in Chat",
+      "description": "The chat experience performs multi-step reasoning across Business Central data to answer complex queries, as demonstrated when retrieving the most recent invoice for a customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 729.8,
+      "t_end": 835.4,
+      "is_demoed": true,
+      "caveats": [
+        "Reasoning steps and accuracy may vary",
+        "Performance depends on available data and permissions"
+      ],
+      "tags": [
+        "reasoning",
+        "multi-step",
+        "query processing",
+        "business logic"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot and Agent Capabilities",
+      "t": 395
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Saravani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38.6,
+      "text": "Microsoft have introduced a new unified copilot chat experience for Dynamics 365 Business Central as a part of 2026 release wave 2 which is",
+      "why_it_matters": "Establishes the feature status as public preview and its inclusion in the 2026 wave 2 release timeline.",
+      "check": "exact"
+    },
+    {
+      "t": 65.5,
+      "text": "The interesting part is that it isn't simply about asking questions on your Business Central. The experience combines three important sources of information.",
+      "why_it_matters": "Clarifies that the unified chat is not limited to Business Central data alone but integrates multiple information sources.",
+      "check": "exact"
+    },
+    {
+      "t": 291.4,
+      "text": "According to published Microsoft documentation, the feature is available to a user with business central license.",
+      "why_it_matters": "Specifies the licensing requirement and access model for the new feature.",
+      "check": "exact"
+    },
+    {
+      "t": 306.7,
+      "text": "However, Microsoft also says that user with a Microsoft copilot license receives additional benefit.",
+      "why_it_matters": "Clarifies the tiered access model with additional capabilities for those with separate Copilot licenses.",
+      "check": "exact"
+    },
+    {
+      "t": 365,
+      "text": "Microsoft says that this feature becomes available over the coming days or months as GA is announced.",
+      "why_it_matters": "Indicates the gradual rollout plan from preview to general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 468.6,
+      "text": "Um as because this is pre-release functionality, Microsoft says that the documentation and feature detail are subject to change.",
+      "why_it_matters": "Important disclaimer about the preview nature and potential changes during development.",
+      "check": "exact"
+    },
+    {
+      "t": 509.9,
+      "text": "user can increasingly accept expect to ask questions in natural language rather than always navigating to a page or to a report.",
+      "why_it_matters": "Describes the fundamental shift in user interaction model from traditional navigation to conversational.",
+      "check": "exact"
+    },
+    {
+      "t": 578.3,
+      "text": "This is about making business center experience more consistent with the broader Microsoft copilot ecosystem and that has a bigger implication.",
+      "why_it_matters": "Explains the strategic direction and broader implications of integrating Business Central with the Microsoft Copilot ecosystem.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 38.6,
+      "kind": "preview",
+      "text": "new unified copilot chat experience for Dynamics 365 Business Central as a part of 2026 release wave 2 which is still in public preview"
+    },
+    {
+      "t": 211.4,
+      "kind": "preview",
+      "text": "Now there's very little information available as it's in preview"
+    },
+    {
+      "t": 376.7,
+      "kind": "coming-later",
+      "text": "this feature becomes available over the coming days or months as GA is announced"
+    },
+    {
+      "t": 468.6,
+      "kind": "subject-to-change",
+      "text": "as because this is pre-release functionality, Microsoft says that the documentation and feature detail are subject to change"
+    },
+    {
+      "t": 614.6,
+      "kind": "preview",
+      "text": "I think we are at very early stage with the co-pilot here but it's a preview feature"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029119
+    }
+  ]
+}

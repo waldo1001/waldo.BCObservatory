@@ -1,0 +1,233 @@
+{
+  "video_id": "8VRtBLNAOiI",
+  "item_id": "video/yt-microsoft/8VRtBLNAOiI",
+  "title": "Introducing: Self-Billing Invoices (2026 release wave 1)",
+  "duration_s": 471,
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "self-billing",
+    "purchase invoice",
+    "vendor setup",
+    "invoicing process",
+    "number series",
+    "report selection",
+    "purchase order",
+    "document posting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Self-Billing Definition",
+      "t_start": 0,
+      "t_end": 41.9
+    },
+    {
+      "title": "Self-Billing Process and Business Value",
+      "t_start": 41.9,
+      "t_end": 95.9
+    },
+    {
+      "title": "Setup Requirements and Configuration",
+      "t_start": 95.9,
+      "t_end": 186.2
+    },
+    {
+      "title": "Demo: Vendor Card and Purchase Invoice Setup",
+      "t_start": 186.2,
+      "t_end": 310.5
+    },
+    {
+      "title": "Demo: Posting and Self-Billing Invoice Output",
+      "t_start": 310.5,
+      "t_end": 377.7
+    },
+    {
+      "title": "Demo: Purchase Order and System Overview",
+      "t_start": 377.7,
+      "t_end": 410.2
+    },
+    {
+      "title": "Electronic Invoicing Roadmap and Closing",
+      "t_start": 410.2,
+      "t_end": 471
+    }
+  ],
+  "features": [
+    {
+      "name": "Self-Billing Invoices",
+      "description": "A new functionality that allows customers to create invoices on behalf of their vendors for goods or services received, reducing manual processing steps and improving accuracy and compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7,
+      "t_end": 447.3,
+      "is_demoed": true,
+      "caveats": [
+        "Electronic invoicing based on self-billing invoice is not yet covered and planned for next release"
+      ],
+      "tags": [
+        "self-billing",
+        "purchase",
+        "invoicing",
+        "customer-created-invoice"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Self-Billing Agreement Field on Vendor Card",
+      "description": "A new boolean field on the invoicing fast tab of the vendor card that enables automatic self-billing invoice creation when toggled on.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.2,
+      "t_end": 213.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor-card",
+        "setup",
+        "invoicing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Posted Self-Billing Invoice Number Series",
+      "description": "A new number series configuration in Purchase and Payable Setup that serves as the external document number for self-billing invoices, automatically populated without manual entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 144.6,
+      "t_end": 174.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number-series",
+        "setup",
+        "configuration"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Self-Billing Invoice Report Selection",
+      "description": "New report selection for self-billing invoices in Purchase report selection, using report 413 (self-billing invoice) to format and print customer-created invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.2,
+      "t_end": 252.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report-selection",
+        "report-413",
+        "printing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Electronic Invoicing for Self-Billing",
+      "description": "Electronic invoicing capability based on self-billing invoices is planned for a future release after initial feedback is gathered on the self-billing functionality.",
+      "status": "announced",
+      "status_evidence_t": 427.6,
+      "status_evidence_quote": "this is something what we plan to deliver uh next release",
+      "status_evidence_verified": true,
+      "t_start": 410.2,
+      "t_end": 427.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available; planned for subsequent release"
+      ],
+      "tags": [
+        "e-invoicing",
+        "roadmap",
+        "electronic-documents"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "self-billing invoice",
+      "t": 252.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovic",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.6,
+      "text": "this is a process where the customer, instead of the vendor, create the invoice for goods or service received",
+      "why_it_matters": "Defines the core concept of self-billing invoicing and its fundamental business process difference from traditional vendor invoicing.",
+      "check": "exact"
+    },
+    {
+      "t": 80.7,
+      "text": "the main business values we will reduce operational workload and faster processing",
+      "why_it_matters": "Articulates the key business benefits driving the implementation of this feature.",
+      "check": "exact"
+    },
+    {
+      "t": 127.2,
+      "text": "you will find on a uh invoicing fast tab on a vendor card, self-billing agreement uh boolean field. You just need to enable it",
+      "why_it_matters": "Demonstrates the simplicity of setup - a single field activation enables the entire self-billing functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 410.2,
+      "text": "Currently, we deliver this functionality, so this is uh available from uh 26 release wave 1",
+      "why_it_matters": "Confirms the feature's general availability status in the 2026 Wave 1 release.",
+      "check": "exact"
+    },
+    {
+      "t": 410.2,
+      "text": "we do not have covered electronic invoicing basing on self-billing invoice",
+      "why_it_matters": "Important caveat regarding what is not included in this release, managing customer expectations.",
+      "check": "exact"
+    },
+    {
+      "t": 427.6,
+      "text": "this is something what we plan to deliver uh next release because first we want to get the feedback how it works",
+      "why_it_matters": "Explains the roadmap strategy for electronic invoicing, prioritizing user feedback before expanding functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 410.2,
+      "kind": "not-in-this-release",
+      "text": "we do not have covered electronic invoicing basing on self-billing invoice"
+    },
+    {
+      "t": 427.6,
+      "kind": "coming-later",
+      "text": "this is something what we plan to deliver uh next release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019548
+    }
+  ]
+}

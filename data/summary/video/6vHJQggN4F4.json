@@ -1,0 +1,27 @@
+{
+  "video_id": "6vHJQggN4F4",
+  "item_id": "video/yt-microsoft/6vHJQggN4F4",
+  "summary": "Product information management changes in the Business Central Shopify connector (2026 release wave 1): variant image export, item attributes as Shopify options, collections and tax override, adding items as Shopify variants, and importing images and marketing text from Shopify.",
+  "overview": "The video walks through product information management updates in the Shopify connector. It covers what is exported from Business Central to Shopify: item variant images, item attributes as product options, and automatic assignment to collections based on item categories, including collections used for tax override.\n\nIt then shows the \"add item as Shopify variant\" function, which presents a flat Business Central item list as variants with options in Shopify, with per-variant prices synchronized. Last, it shows importing products from Shopify, where images are synchronized and marketing text can be brought in when a toggle on the Shopify shop card is enabled.",
+  "key_points": [
+    "Item variants can have images, and these are exported to Shopify with the product so each variant shows its own image in the online store.",
+    "The item attributes setup page gets a new column for choosing which attributes export as Shopify options. It only shows when the Shopify connector is installed with stores connected.",
+    "Not every attribute is exported as an option. Some are only added to the product description.",
+    "Collections are configured on the Shopify shop card. Item categories determine which collections items are assigned to on export. Collections must be imported from Shopify first or set up manually.",
+    "Items with reduced or non-standard tax rates can be put in a collection configured as tax override, so Shopify applies the correct tax.",
+    "The 'add item as Shopify variant' function turns separate items into variants of a parent item. Their prices are synchronized, so variants can have different prices.",
+    "Importing products from Shopify synchronizes images. Marketing text is imported only if the marketing text toggle is enabled on the Shopify shop card."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "1e2445bfa72f975fa5839fe5b8b39e0e9c01ebde7d48f558278a6c1f8cf1fc3d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015348400000000002
+  }
+}
