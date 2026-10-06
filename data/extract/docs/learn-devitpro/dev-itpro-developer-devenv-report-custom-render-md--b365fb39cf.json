@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-custom-render.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render",
+  "title": "Developing a Custom Report Render",
+  "blob": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2",
+  "summary": "Developer guide for creating custom report rendering layouts in AL using the OnCustomDocumentMergerEx event to manage report dataset rendering with custom layout types and file format handling.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "custom report render",
+    "al development",
+    "document merging",
+    "layout declaration",
+    "mime type"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "Document Report Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    }
+  ],
+  "features": [
+    "Custom document merger event handler",
+    "Multiple layout support for reports",
+    "Word template rendering",
+    "PDF and HTML conversion",
+    "MIME type and file extension resolution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009865,
+      "pages_in_call": 5
+    }
+  ]
+}

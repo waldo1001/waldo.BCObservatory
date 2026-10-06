@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pte-merge-conflict",
   "published_at": "2026-02-27T13:48:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bef5ed62c0dac9fb84deb1d03a7983efc2391748",
       "words": 1132,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.403Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006278
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:31.435Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:31.436Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:31.437Z",
+      "page": false
     }
   },
   "input_hash": "bef5ed62c0dac9fb84deb1d03a7983efc2391748",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bef5ed62c0dac9fb84deb1d03a7983efc2391748"
+  "output_hash": "cd67b01d14da607d659e6963acf81f64ffec392cf5a5fbf79dc1c99a3b333028"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render",
   "published_at": "2026-03-03T10:19:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2",
       "words": 362,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.397Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:31.415Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:31.416Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:31.418Z",
+      "page": false
     }
   },
   "input_hash": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2"
+  "output_hash": "42e29800dece6a53a48e4b3ca158e9260f84619391138c8fbabb9697f7fd497b"
 }

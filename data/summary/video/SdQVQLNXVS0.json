@@ -1,0 +1,27 @@
+{
+  "video_id": "SdQVQLNXVS0",
+  "item_id": "video/yt-microsoft/SdQVQLNXVS0",
+  "summary": "Business Central 2025 release wave 1 usability changes in manufacturing production order handling: bulk status change, safety lead time buffer, attachments, default posting group, routing link code updates, item tracking in consumption and output journals, and barcode labels for tracked items.",
+  "overview": "This 3-minute video from the Business Central channel (published 2025-04-01) walks through usability improvements in production order handling for the 2025 release wave 1. It covers status changes, scheduling, attachments, posting groups, component availability, routings, journals and label printing.\n\nMost items are demoed. Production orders can be moved between statuses in bulk, and rescheduling no longer has to change the due date. Consumption and output journals gain item tracking and lines like the item journal, with Edit in Excel support. Barcode labels can be printed for tracked items from released and finished production orders.",
+  "key_points": [
+    "Production orders can be bulk moved between statuses: select all and use change status. Orders that do not convert need analysis and action.",
+    "Production orders show a buffer between due date and end date based on safety lead time, set on the manufacturing setup or the item card. The manual scheduling field must be activated on the manufacturing setup page.",
+    "Orders can be rescheduled without changing the due date. Moving the end date beyond the due date prompts a confirmation.",
+    "Attachments are now available in production order headers and lines, which are populated with information about items, bills of material and routing.",
+    "The business posting group code in a production order can default from the default general business posting group field on the manufacturing setup page.",
+    "Routing link code can be updated within routings, which affects the start date of connected components. The overview of activities and routings is also enhanced.",
+    "Consumption and output journals now have item tracking and lines like the item journal. Edit in Excel can populate item tracking details. Barcode labels can be printed for tracked items from released and finished production orders."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "c57f81feb8e6bb98a31964b9dbfa3e1c5e8f2ffb3dee6632cc6cc530369da21d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015026399999999999
+  }
+}

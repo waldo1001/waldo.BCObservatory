@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-customer-retention-history.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history",
+  "title": "Customer Retention History (Power BI report)",
+  "blob": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
+  "summary": "Customer Retention History Power BI report provides historical analysis of customer retention trends including new, lost, returning, and recovered customers with sales metrics over time.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "analytics",
+    "power bi",
+    "customer retention",
+    "reporting",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Retention History"
+    }
+  ],
+  "features": [
+    "Customer retention analysis",
+    "New customer tracking",
+    "Lost customer recovery",
+    "Returning customer metrics",
+    "Sales demographics",
+    "Customer loyalty analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

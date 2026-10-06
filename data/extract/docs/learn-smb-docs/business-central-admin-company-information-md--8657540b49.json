@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-company-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-company-information",
+  "title": "Company information overview",
+  "blob": "0fde67b2abd92462afd1ab39061997673d771593",
+  "summary": "Set up company information including headquarters and warehouse addresses, company badges for identification, display names, and experience levels for Business Central environments.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "company setup",
+    "configuration",
+    "organization",
+    "branding"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "Company name and address",
+    "Warehouse location setup",
+    "Company badge customization",
+    "Company switcher",
+    "Experience selection",
+    "Multiple company management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

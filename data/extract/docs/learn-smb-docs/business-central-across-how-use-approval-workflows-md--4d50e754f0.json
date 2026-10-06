@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-use-approval-workflows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-approval-workflows",
+  "title": "Approve or reject documents in workflows",
+  "blob": "2969672880e82e308cbec83fdd82910a73ce86ce",
+  "summary": "Approval workflows enable users to send approval requests for records like purchase documents, sales documents, and customer cards, with approvers able to approve, reject, or delegate requests through the Requests to Approve page.",
+  "systems": [
+    "administration",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "approval workflows",
+    "document approval",
+    "workflow requests",
+    "delegation",
+    "approval notifications"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Approval Request Entries"
+    },
+    {
+      "type": "page",
+      "name": "Requests to Approve"
+    },
+    {
+      "type": "page",
+      "name": "Overdue Approval Requests"
+    }
+  ],
+  "features": [
+    "send approval request",
+    "cancel approval request",
+    "approve or reject",
+    "delegate approval",
+    "overdue approval notifications"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006278,
+      "pages_in_call": 3
+    }
+  ]
+}

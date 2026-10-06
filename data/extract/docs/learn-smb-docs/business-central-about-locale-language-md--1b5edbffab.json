@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/about-locale-language.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/about-locale-language",
+  "title": "Multilanguage and localization",
+  "blob": "7ad3eb2061972b9f302b54b0e0603b3657ddc689",
+  "summary": "Configure language and region settings for Business Central users, set default document languages per company, customize address formats by country, and access help content in multiple languages.",
+  "systems": [
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "language",
+    "localization",
+    "region",
+    "address formats",
+    "settings"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "My Settings"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    }
+  ],
+  "features": [
+    "User interface language selection",
+    "Default document language per company",
+    "Region settings",
+    "Custom address formats",
+    "Character set support",
+    "Help content localization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

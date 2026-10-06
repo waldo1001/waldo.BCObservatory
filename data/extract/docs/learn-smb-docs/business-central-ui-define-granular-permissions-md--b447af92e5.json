@@ -1,0 +1,85 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-define-granular-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions",
+  "title": "Define granular permissions",
+  "blob": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b",
+  "summary": "Define granular permissions by creating permission sets with read, insert, modify, delete, and execute access levels for database objects, including support for security filters and record-level access control.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "permissions",
+    "security",
+    "user access",
+    "permission sets",
+    "roles"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Permission Sets"
+    },
+    {
+      "type": "page",
+      "name": "Permission Set"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    },
+    {
+      "type": "page",
+      "name": "Effective Permissions"
+    },
+    {
+      "type": "page",
+      "name": "Permissions Overview"
+    },
+    {
+      "type": "page",
+      "name": "Permission Set by User"
+    },
+    {
+      "type": "page",
+      "name": "Security Groups"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "User Group Member"
+    },
+    {
+      "type": "table",
+      "name": "User Group Permission Set"
+    }
+  ],
+  "features": [
+    "Permission set creation",
+    "Read/insert/modify/delete/execute permissions",
+    "Indirect permissions",
+    "Security filters",
+    "Record-level security",
+    "Permission import/export",
+    "Permission recording",
+    "User groups"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

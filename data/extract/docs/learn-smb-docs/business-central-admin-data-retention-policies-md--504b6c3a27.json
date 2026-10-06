@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-data-retention-policies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-retention-policies",
+  "title": "Clean up data with retention policies",
+  "blob": "43015153c91d7a7a51ac3bda49b3425f89a71e0b",
+  "summary": "Administrator guide for defining and applying retention policies to automatically or manually delete outdated data in log entry and archived record tables, with filter criteria and mandatory retention period enforcement.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "data retention",
+    "retention policies",
+    "data cleanup",
+    "log entries",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Retention Policies"
+    },
+    {
+      "type": "page",
+      "name": "Retention Policy Log"
+    },
+    {
+      "type": "codeunit",
+      "name": "Reten. Pol. Allowed Tables"
+    }
+  ],
+  "features": [
+    "Retention period configuration",
+    "Table-level data deletion policies",
+    "Filter-based retention rules",
+    "Automatic job queue execution",
+    "Manual policy application",
+    "Retention policy logging and audit trail"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009865,
+      "pages_in_call": 5
+    }
+  ]
+}

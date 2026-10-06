@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis",
+  "title": "Sales KPIs and measures (Power BI)",
+  "blob": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41",
+  "summary": "Power BI semantic model for sales KPIs describing formulas and data sources for customer, opportunity, sales document, Pareto, project ledger, and budget-related measures used in sales analytics reporting.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales kpis",
+    "customer metrics",
+    "opportunity analysis",
+    "profitability measures",
+    "sales forecasting"
+  ],
+  "objects": [],
+  "features": [
+    "Customer KPIs (lost, new, recovered, returning customers)",
+    "Opportunity entry measures and win/loss tracking",
+    "Sales document analytics (invoices, credit memos, returns)",
+    "Pareto analysis for customer profitability",
+    "Budget variance tracking and forecasting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009865,
+      "pages_in_call": 5
+    }
+  ]
+}

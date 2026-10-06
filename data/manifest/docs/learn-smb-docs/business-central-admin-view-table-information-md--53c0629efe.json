@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information",
   "published_at": "2026-03-03T14:50:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5c25f80fa9e6054d384bcf21c9620651d290f6ea",
       "words": 452,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.897Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006205
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:33.663Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:33.664Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:33.665Z",
+      "page": false
     }
   },
   "input_hash": "5c25f80fa9e6054d384bcf21c9620651d290f6ea",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c25f80fa9e6054d384bcf21c9620651d290f6ea"
+  "output_hash": "cd69c4ddd93a993304a44a9a8a4677928ad885201fd8cf99606079bc5dc707a5"
 }

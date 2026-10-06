@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history",
   "published_at": "2026-03-03T15:01:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
       "words": 289,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.895Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006205
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:33.657Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:33.658Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:33.659Z",
+      "page": false
     }
   },
   "input_hash": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e933c687b7569e53e11b14fabdf7364a2ac5177d"
+  "output_hash": "2d6350aaccf140ecde1bb764803433dadbc136f2e126300bfcb2574e272dce98"
 }

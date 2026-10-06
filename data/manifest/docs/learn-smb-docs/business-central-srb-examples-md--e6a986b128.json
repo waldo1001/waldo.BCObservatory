@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/examples",
   "published_at": "2026-03-04T08:55:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2",
       "words": 469,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.895Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006205
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:33.655Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:33.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:33.657Z",
+      "page": false
     }
   },
   "input_hash": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2"
+  "output_hash": "3b05abd5332123e0156e90f8b7490fb71f0685d6e6d0c3d04e87bfcd0e3803b9"
 }

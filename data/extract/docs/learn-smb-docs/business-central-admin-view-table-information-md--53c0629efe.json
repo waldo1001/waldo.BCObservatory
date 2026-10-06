@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-view-table-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information",
+  "title": "View table information",
+  "blob": "5c25f80fa9e6054d384bcf21c9620651d290f6ea",
+  "summary": "Table Information page displays record counts, data sizes, index sizes, and compression types for system and business tables to support performance troubleshooting and database optimization.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "database",
+    "performance",
+    "tables",
+    "indexes",
+    "administration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Table Information"
+    }
+  ],
+  "features": [
+    "Record count display",
+    "Data size reporting",
+    "Index size management",
+    "Compression type identification",
+    "Performance analysis",
+    "Index management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

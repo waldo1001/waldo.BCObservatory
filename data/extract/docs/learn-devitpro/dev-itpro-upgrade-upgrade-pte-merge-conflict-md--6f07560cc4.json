@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-pte-merge-conflict.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pte-merge-conflict",
+  "title": "Upgrading Per-Tenant Extensions that conflicts with other extensions",
+  "blob": "bef5ed62c0dac9fb84deb1d03a7983efc2391748",
+  "summary": "Upgrading per-tenant extensions that conflict with other extensions requires resolving naming conflicts in AL objects and fields by uninstalling the conflicting extension, removing conflicting elements, and reinstalling to avoid database schema errors.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "per-tenant extensions",
+    "extension conflicts",
+    "al objects",
+    "namespace",
+    "deployment",
+    "schema"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    }
+  ],
+  "features": [
+    "object naming conflicts",
+    "field naming conflicts",
+    "extension uninstallation",
+    "data export",
+    "RapidStart",
+    "marketplace app compatibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006278,
+      "pages_in_call": 3
+    }
+  ]
+}

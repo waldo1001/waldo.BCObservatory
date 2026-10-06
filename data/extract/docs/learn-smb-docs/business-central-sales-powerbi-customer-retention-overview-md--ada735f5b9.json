@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-customer-retention-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview",
+  "title": "Customer Retention Overview (Power BI report)",
+  "blob": "a3bda6a8738c4b9067962a799c859b54dde79cd9",
+  "summary": "Customer Retention Overview Power BI report analyzes customer sales behaviors and retention trends by location, time periods, and customer segments for strategic sales decision-making.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "analytics",
+    "power bi",
+    "customer retention",
+    "reporting",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Retention Overview"
+    }
+  ],
+  "features": [
+    "Customer retention analysis",
+    "Geographic retention by location",
+    "Retention over time trends",
+    "Customer loyalty metrics",
+    "Sales by customer segment",
+    "Fiscal year filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006205,
+      "pages_in_call": 8
+    }
+  ]
+}

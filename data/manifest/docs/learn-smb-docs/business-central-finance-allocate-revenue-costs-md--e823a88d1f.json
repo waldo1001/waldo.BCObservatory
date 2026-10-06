@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs",
   "published_at": "2026-03-02T13:21:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3",
       "words": 1111,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.398Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:31.420Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:31.422Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:31.423Z",
+      "page": false
     }
   },
   "input_hash": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3"
+  "output_hash": "740831e2e51a9f3747b93b0e2a19999e8cde42f49806b57b3146255bb05d9dfb"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-retention-policies",
   "published_at": "2026-03-02T11:43:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "43015153c91d7a7a51ac3bda49b3425f89a71e0b",
       "words": 995,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.399Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:31.424Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:31.425Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:31.427Z",
+      "page": false
     }
   },
   "input_hash": "43015153c91d7a7a51ac3bda49b3425f89a71e0b",
@@ -87,5 +106,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43015153c91d7a7a51ac3bda49b3425f89a71e0b"
+  "output_hash": "39dac6116eadba0a29abbd19238935a009f14761737b5532bff8537517dc27d6"
 }

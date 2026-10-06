@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis",
   "published_at": "2026-03-03T14:29:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41",
       "words": 5763,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.394Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:31.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:31.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:31.406Z",
+      "page": false
     }
   },
   "input_hash": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41"
+  "output_hash": "350717e9698170045c4923ece916e1064118b697bf1321b97ee05bbce728f756"
 }

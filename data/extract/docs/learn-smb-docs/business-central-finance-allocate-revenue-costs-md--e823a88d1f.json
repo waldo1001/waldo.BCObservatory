@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-allocate-revenue-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs",
+  "title": "Allocate revenue and costs to multiple general ledger accounts",
+  "blob": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3",
+  "summary": "Finance feature for allocating revenue and costs across multiple G/L accounts using fixed or variable distribution methods, with support for deferrals and automated allocation setup.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "revenue allocation",
+    "expense allocation",
+    "general ledger accounts",
+    "fixed allocation",
+    "variable allocation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Allocation Account"
+    },
+    {
+      "type": "page",
+      "name": "Allocation Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Change Allocations"
+    }
+  ],
+  "features": [
+    "Fixed share or percentage allocation",
+    "Variable allocation based on statistical accounts",
+    "Ad-hoc allocation with inherit from parent option",
+    "Allocation with dimensions",
+    "Test allocation functionality",
+    "Posting preview for allocation verification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009865,
+      "pages_in_call": 5
+    }
+  ]
+}

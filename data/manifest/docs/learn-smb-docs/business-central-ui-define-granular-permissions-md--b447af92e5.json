@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions",
   "published_at": "2026-03-04T14:42:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b",
       "words": 3723,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:31.892Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.006205
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:33.646Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:33.647Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:33.648Z",
+      "page": false
     }
   },
   "input_hash": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b",
@@ -115,5 +134,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b"
+  "output_hash": "77443f2c7fc78d8bd05cec7ee160e829206e903bd8c7e6d28e5b48c730d9b278"
 }

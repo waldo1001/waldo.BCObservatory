@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-1",
+  "title": "Update 27.1 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2",
+  "blob": "b6572f4c829669f386281ea8b1fbbba49db1dfd6",
+  "summary": "Update 27.1 for Business Central 2025 release wave 2 introduces copilot agents for payables and sales automation, e-documents enhancements, SEPA file support, digital product pass reporting, and cloud migration features for recurring purchase and sales lines from Dynamics GP.",
+  "systems": [
+    "copilot",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "update 27.1",
+    "2025 release wave 2",
+    "payables agent",
+    "sales order agent",
+    "e-documents",
+    "copilot",
+    "cloud migration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
+  "features": [
+    "payables agent",
+    "sales order agent",
+    "e-documents processing",
+    "SEPA CAMT053",
+    "audit trail report",
+    "digital product pass reporting",
+    "concealed text field type",
+    "recurring purchase lines",
+    "recurring sales lines"
+  ],
+  "versions": [
+    "27.1",
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006278,
+      "pages_in_call": 3
+    }
+  ]
+}
