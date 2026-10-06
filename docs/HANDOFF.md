@@ -95,7 +95,9 @@ Deliberate deviations from PLAN, all small:
   BE/NL narratives wired (D31); they appear once 80% of their Learn LocalFunctionality pages are extracted (the
   unlimited run is working through the docs backlog). Next: deprecation radar in the weekly digest (M4), object family
   narratives, Learn reference pages (methods, diagnostics) as object hubs.
-- 2026-10-06 19:20: unlimited nightly on the Mini (run 37502595502), concurrency 6, batch commits every 50 item stages.
+- 2026-10-06 evening: unlimited nightly on the Mini, concurrency 6, batch commits every 50 item stages. Two fixes
+  made it actually parallel: incremental checkpoint leak gate (D26) and workers that stay until the plan is drained
+  (D33). After it ends, the scheduled 01:00 nightly runs with normal caps.
 
 ## Execution notes (2026-10-06)
 
