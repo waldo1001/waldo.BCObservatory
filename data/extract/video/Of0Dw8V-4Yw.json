@@ -1,0 +1,196 @@
+{
+  "video_id": "Of0Dw8V-4Yw",
+  "item_id": "video/yt-microsoft/Of0Dw8V-4Yw",
+  "title": "Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 256,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "trial balance report",
+    "aging report",
+    "accounts receivable",
+    "general ledger",
+    "report filtering",
+    "excel export",
+    "variance analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Trial balance and aging reports in Dynamics GP",
+      "t_start": 0,
+      "t_end": 45.3
+    },
+    {
+      "title": "Detailed trial balance report in Business Central",
+      "t_start": 45.3,
+      "t_end": 103.3
+    },
+    {
+      "title": "Summary trial balance report and export options",
+      "t_start": 103.3,
+      "t_end": 175.4
+    },
+    {
+      "title": "Aging reports for accounts receivable",
+      "t_start": 175.4,
+      "t_end": 256
+    }
+  ],
+  "features": [
+    {
+      "name": "Detailed trial balance report",
+      "description": "Shows balance information and detailed transactions posted to each account, with option to print new page per GL account and filter by specific account or range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.3,
+      "t_end": 103.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "trial balance",
+        "general ledger",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Summary trial balance report",
+      "description": "Compares current year balances to prior year or budgeted amounts, displays variance as percentage, supports rounding options, and allows filtering by account range and date range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.3,
+      "t_end": 175.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires budgets to be configured for budget comparison"
+      ],
+      "tags": [
+        "trial balance",
+        "variance analysis",
+        "budget comparison"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report export to Excel",
+      "description": "Allows exporting trial balance reports to Excel format to perform additional analysis and create different visuals for the data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.3,
+      "t_end": 175.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "excel",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Aging report for accounts receivable",
+      "description": "Shows aging information for customers with options to age by transaction date or due date, select aging date, print in detail format, and filter by customer or customer class using posting groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175.4,
+      "t_end": 231.3,
+      "is_demoed": true,
+      "caveats": [
+        "requires customer class information to be migrated as posting groups for filtering"
+      ],
+      "tags": [
+        "aging report",
+        "accounts receivable",
+        "customer analysis"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance",
+      "t": 45.3
+    },
+    {
+      "type": "report",
+      "name": "Detailed Trial Balance",
+      "t": 45.3
+    },
+    {
+      "type": "report",
+      "name": "Summary Trial Balance",
+      "t": 103.3
+    },
+    {
+      "type": "report",
+      "name": "Aging Report",
+      "t": 187.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.6,
+      "text": "I've printed out the detail trial balance for a specific period of time and included all accounts I can easily see balance information as",
+      "why_it_matters": "Explains the core functionality of trial balance reports in Dynamics GP that is being compared to Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 27.8,
+      "text": "I've also printed out the historical age trial balance in receivables allowing me to easily see aging information for each of my customers",
+      "why_it_matters": "Describes aging reports for customers in GP that Business Central aims to replicate.",
+      "check": "exact"
+    },
+    {
+      "t": 65.9,
+      "text": "In the detail trial balance report options window I've indicated that I'd like a new page per GL account also in the filter area",
+      "why_it_matters": "Shows configurable options available in Business Central's detailed trial balance report.",
+      "check": "exact"
+    },
+    {
+      "t": 113.3,
+      "text": "I have the ability to compare values from from last year or if I configured budgets in business Central I could compare to the",
+      "why_it_matters": "Explains the comparison and budgeting capabilities of the summary trial balance report.",
+      "check": "exact"
+    },
+    {
+      "t": 148.3,
+      "text": "you can see on the summary trial balance how it Compares this year's balance to last year as well as displaying the variance as",
+      "why_it_matters": "Demonstrates the variance analysis feature of the summary trial balance report.",
+      "check": "exact"
+    },
+    {
+      "t": 195,
+      "text": "I can select a date that I want to age the report as of and if I want to age by transaction date or",
+      "why_it_matters": "Details the configuration options available in the aging report for customers.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012525000000000001
+    }
+  ]
+}

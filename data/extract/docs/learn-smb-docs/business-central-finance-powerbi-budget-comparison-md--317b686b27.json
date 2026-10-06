@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-budget-comparison.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-budget-comparison",
+  "title": "Budget Comparison",
+  "blob": "f78ec0767fa4c3ce645402fbe68b4a6e45e8a619",
+  "summary": "Budget Comparison Power BI report provides comparative view of financial performance against budgeted targets organized by month and account type.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "budget comparison",
+    "power bi",
+    "financial performance",
+    "variance analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Budget Entry"
+    }
+  ],
+  "features": [
+    "Budget Comparison report",
+    "variance metrics",
+    "financial performance monitoring",
+    "filtering by budget and dimension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00367,
+      "pages_in_call": 8
+    }
+  ]
+}

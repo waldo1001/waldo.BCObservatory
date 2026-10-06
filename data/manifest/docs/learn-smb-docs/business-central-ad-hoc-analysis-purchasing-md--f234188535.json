@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
       "words": 1065,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:14.984Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:14.993Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:14.994Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:14.995Z",
+      "page": false
     }
   },
   "input_hash": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e3acb3fc7b8eeb0626349dd745730b2257ac233"
+  "output_hash": "e85f3b604fe09808b664850ff0332e00b0429508abd51f41dfe8912e9b6c84a2"
 }

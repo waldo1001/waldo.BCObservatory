@@ -1,0 +1,26 @@
+{
+  "video_id": "r3h_nM1Foyo",
+  "item_id": "video/yt-microsoft/r3h_nM1Foyo",
+  "summary": "Comparison of entering a payables transaction in Dynamics GP versus Business Central, using the purchase journal and purchase invoices to register purchase costs and track accounts payable. Useful for GP users moving to Business Central.",
+  "overview": "The video, published 2024-08-26 and about 3 minutes long, first creates an AP invoice in Dynamics GP. It then shows the two Business Central options for the same task: the purchase journal and the purchase invoice.\n\nThe purchase journal is used to register expenses for items not tracked in inventory, with GL account selection. The purchase invoice can hold several line types, including inventory items, non-inventoried items, fixed assets and freight expenses. In both cases a preview of the GL accounts is available before posting, comparable to the distributions button in GP.",
+  "key_points": [
+    "Business Central offers the purchase journal and purchase invoices to register purchase costs and track accounts payable.",
+    "Purchase journals register expenses for things not tracked in inventory, and you pick the GL account.",
+    "Purchase invoices can combine inventory items, non-inventoried items, fixed assets and freight expenses with GL account selection.",
+    "Before posting, a preview shows the GL accounts the transaction will post to, similar to the distributions button in Dynamics GP.",
+    "Selecting a vendor on a purchase invoice fills in vendor information automatically from the vendor record.",
+    "The video starts with creating an AP invoice in Dynamics GP as the baseline for the comparison."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "partner"
+  ],
+  "extraction_hash": "6b479078c57c8b6f631f674f7d7044e1687c1730f25243323d641352610a50da",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0116064
+  }
+}

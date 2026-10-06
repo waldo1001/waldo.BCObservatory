@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b",
       "words": 1566,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:14.983Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:14.991Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:14.991Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:14.992Z",
+      "page": false
     }
   },
   "input_hash": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b"
+  "output_hash": "0ab11e4371289ce04fe059c371e6e9286130c4fff507bdb4b630bfbe4c4d3246"
 }

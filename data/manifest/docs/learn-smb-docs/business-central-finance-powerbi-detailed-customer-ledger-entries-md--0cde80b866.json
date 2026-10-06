@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-customer-ledger-entries",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "093bd92aab564dabf51353595502eb1c12da6860",
       "words": 235,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:14.989Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:15.009Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:15.010Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:15.011Z",
+      "page": false
     }
   },
   "input_hash": "093bd92aab564dabf51353595502eb1c12da6860",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "093bd92aab564dabf51353595502eb1c12da6860"
+  "output_hash": "b08d40ca5f3108ba86a23cc805bfbb4141309bbb03c2508a01547889b2b2e475"
 }

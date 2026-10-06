@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0659373bfbf3305ffc46a8936971707e692387c2",
       "words": 257,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:14.985Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:14.996Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:14.997Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:14.998Z",
+      "page": false
     }
   },
   "input_hash": "0659373bfbf3305ffc46a8936971707e692387c2",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0659373bfbf3305ffc46a8936971707e692387c2"
+  "output_hash": "5ef05eeb988bb597d8169042545419a0fdbfaef8ac23d36884f268ab4b6d1b35"
 }

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-purchasing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
+  "title": "Ad-hoc analyses in purchasing",
+  "blob": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
+  "summary": "Ad-hoc analysis in purchasing using the Data Analysis feature to analyze purchase orders, invoices, and vendor ledger entries without running reports.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "ad-hoc analysis",
+    "data analysis",
+    "purchasing",
+    "goods received not invoiced",
+    "vendor analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase lines"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Data Analysis",
+    "GRNI overview",
+    "Pivot Mode",
+    "Analysis Filters",
+    "payment analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00367,
+      "pages_in_call": 8
+    }
+  ]
+}

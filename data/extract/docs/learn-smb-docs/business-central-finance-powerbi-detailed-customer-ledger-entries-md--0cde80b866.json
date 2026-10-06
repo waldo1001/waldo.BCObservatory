@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-detailed-customer-ledger-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-customer-ledger-entries",
+  "title": "Detailed Customer Ledger Entries (Power BI report)",
+  "blob": "093bd92aab564dabf51353595502eb1c12da6860",
+  "summary": "Detailed Customer Ledger Entries Power BI report provides view of individual customer transactions with detailed entry information for reconciliation and audits.",
+  "systems": [
+    "finance",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "customer ledger",
+    "power bi",
+    "transaction tracking",
+    "reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Detailed Customer Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries"
+    }
+  ],
+  "features": [
+    "Detailed Customer Ledger Entries report",
+    "transaction tracking",
+    "month-end closing",
+    "reconciliation support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00367,
+      "pages_in_call": 8
+    }
+  ]
+}

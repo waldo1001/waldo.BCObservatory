@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-balance-sheet.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet",
+  "title": "Balance Sheet by Month",
+  "blob": "a2ca63bc6780ed46de4316885302e5cf45d36f3a",
+  "summary": "Balance Sheet by Month Power BI report provides month-to-month view of balance sheet accounts with drill-through to underlying ledger entries.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "balance sheet",
+    "power bi",
+    "financial statements",
+    "monthly analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    }
+  ],
+  "features": [
+    "Balance Sheet report",
+    "month-to-month view",
+    "drill-through",
+    "hierarchical navigation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00367,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-budget-comparison",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f78ec0767fa4c3ce645402fbe68b4a6e45e8a619",
       "words": 220,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:14.988Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:15.006Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:15.007Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:15.008Z",
+      "page": false
     }
   },
   "input_hash": "f78ec0767fa4c3ce645402fbe68b4a6e45e8a619",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f78ec0767fa4c3ce645402fbe68b4a6e45e8a619"
+  "output_hash": "e9b2e167ec094cb7d28aa421365bb10f37d51b41d7926e1b491784ccaeb605b8"
 }
