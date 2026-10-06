@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions",
+  "title": "Customizing Business Central online using apps",
+  "blob": "686858a45e11bd66c0ded1d19a3df8ad8f2ce0bf",
+  "summary": "Customizing Business Central online using apps describes how to install and manage extensions that add functionality to the application through the Extension Management page and Marketplace.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "extensions",
+    "apps",
+    "customization",
+    "marketplace",
+    "installation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Connectivity Apps"
+    },
+    {
+      "type": "page",
+      "name": "Banking Apps"
+    },
+    {
+      "type": "page",
+      "name": "Recommended Apps"
+    }
+  ],
+  "features": [
+    "Extension Management",
+    "Marketplace apps",
+    "Connectivity Apps",
+    "Banking Apps",
+    "Recommended Apps",
+    "per-tenant extensions"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

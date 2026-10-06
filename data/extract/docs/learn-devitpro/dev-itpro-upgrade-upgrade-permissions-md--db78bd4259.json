@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions",
+  "title": "Upgrading Permission Sets and Permissions",
+  "blob": "57956f993eb74d3e0910be426ad1c571db6753b0",
+  "summary": "Upgrading permission sets and permissions describes transitioning to AL object-based permissions model from legacy data-based permissions, including identifying customizations and creating new AL objects.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "permission sets",
+    "upgrade",
+    "al objects",
+    "security"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Permissions Sets"
+    }
+  ],
+  "features": [
+    "Permission Set object",
+    "Permission Set Extension object",
+    "AL object-based permissions",
+    "legacy data-based permissions"
+  ],
+  "versions": [
+    "version 18",
+    "version 19"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

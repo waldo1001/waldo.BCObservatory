@@ -1,0 +1,282 @@
+{
+  "video_id": "xJ8gYzvWnTI",
+  "item_id": "video/yt-microsoft/xJ8gYzvWnTI",
+  "title": "What's New: Business Central User Experience and Productivity (2026 release wave 1)",
+  "duration_s": 400,
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "agent task pane",
+    "sales order agent",
+    "payables agent",
+    "review bar",
+    "system columns",
+    "agent tasks management",
+    "feedback experience",
+    "custom agents"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Business Central icon updates",
+      "t_start": 0,
+      "t_end": 51.4
+    },
+    {
+      "title": "Agent task pane and system columns",
+      "t_start": 51.4,
+      "t_end": 148.2
+    },
+    {
+      "title": "Review bar and demo of agent features",
+      "t_start": 148.2,
+      "t_end": 267
+    },
+    {
+      "title": "Cancel all agent tasks action",
+      "t_start": 267,
+      "t_end": 325
+    },
+    {
+      "title": "Feedback experience improvements",
+      "t_start": 325,
+      "t_end": 400
+    }
+  ],
+  "features": [
+    {
+      "name": "Updated Business Central icon",
+      "description": "New Business Central icon aligned with Microsoft design updates across all products, visible in browser, mobile app, and Teams app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.2,
+      "t_end": 51.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "icon",
+        "ui",
+        "branding"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dedicated agent task pane",
+      "description": "New task pane separated from the main experience for managing agent activities, including built-in sales order and payables agents and custom agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.8,
+      "t_end": 148.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "task pane",
+        "ui",
+        "agent management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales order agent",
+      "description": "Built-in agent for sales orders that can be used directly in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.1,
+      "t_end": 91.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "sales",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Payables agent",
+      "description": "Built-in agent for payables that can be used directly in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.1,
+      "t_end": 91.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "payables",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Custom agents capability",
+      "description": "Ability to build custom agents in Business Central through partners or users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.1,
+      "t_end": 91.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "extensibility",
+        "customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Created/updated by system columns",
+      "description": "New system columns on lists showing who created and who modified records, particularly useful for documents created by agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.2,
+      "t_end": 148.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "system columns",
+        "audit",
+        "agent tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Review bar for agent changes",
+      "description": "Review bar that appears when a document requires human review or was changed by an agent, showing what was changed and when.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.6,
+      "t_end": 224.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "review bar",
+        "agent changes",
+        "human review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cancel all agent tasks action",
+      "description": "New action in the task pane to cancel all agent tasks at once, useful if an agent is misconfigured or stuck with many tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.1,
+      "t_end": 312.5,
+      "is_demoed": false,
+      "caveats": [
+        "more actions coming in future updates"
+      ],
+      "tags": [
+        "agent management",
+        "task control",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enhanced feedback experience",
+      "description": "New feedback button in product areas allowing customers to provide detailed comments, attach screenshots and documents to send feedback about their Business Central experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325,
+      "t_end": 374.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "customer experience",
+        "ui"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Blazej Kotelko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 7,
+      "text": "we'll talk about user experience and changes that you see on your screen when working with Business Central",
+      "why_it_matters": "Sets the scope of the session on UI and UX improvements for the 2026 release.",
+      "check": "exact"
+    },
+    {
+      "t": 51.4,
+      "text": "we mostly have uh focused on uh working with agents on on experience when you are working with agents in Business Central",
+      "why_it_matters": "Indicates agent-related UX is the main focus of this release's user experience improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 66.8,
+      "text": "You will see a new task pane for agents and dedicated task pane that right now is uh separated from the rest of the",
+      "why_it_matters": "Describes a significant architectural change to how agents are managed in the UI.",
+      "check": "exact"
+    },
+    {
+      "t": 78.1,
+      "text": "agents that are built in in the product sales order and payables agents but also those custom agents that can be now built by",
+      "why_it_matters": "Confirms which agents are available as built-in and highlights extensibility for custom agents.",
+      "check": "exact"
+    },
+    {
+      "t": 312.5,
+      "text": "we are actually also working on some changes related to this task pane and we'll be adding more actions like that",
+      "why_it_matters": "Indicates planned future enhancements to agent task pane functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 354.2,
+      "text": "in some uh areas of the product you will see this new uh feedback button where you can provide a more detailed comments and",
+      "why_it_matters": "Details the new feedback capability allowing richer customer input with attachments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 312.5,
+      "kind": "coming-later",
+      "text": "we are actually also working on some changes related to this task pane and we'll be adding more actions"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020922
+    }
+  ]
+}

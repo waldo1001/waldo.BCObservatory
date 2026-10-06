@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions",
   "published_at": "2026-06-25T13:58:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "57956f993eb74d3e0910be426ad1c571db6753b0",
       "words": 1093,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:36:15.554Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:36:15.577Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:36:15.578Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:36:15.580Z",
+      "page": false
     }
   },
   "input_hash": "57956f993eb74d3e0910be426ad1c571db6753b0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57956f993eb74d3e0910be426ad1c571db6753b0"
+  "output_hash": "764ea588181f95ecfd3bc46c13c0b1e10e5cabe07aae293f106415960742ee6d"
 }

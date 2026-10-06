@@ -6,10 +6,141 @@
   "title": "microsoft/BCApps main (BC30)",
   "url": "https://github.com/microsoft/BCApps/tree/main",
   "published_at": null,
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:36:15.605Z",
+      "commit": "25a567013e0c9e112670c52e4dd6bdac9c4343d4",
+      "branch": "main"
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:13.920Z",
+      "commit": "25a567013e0c9e112670c52e4dd6bdac9c4343d4",
+      "w1_objects": 9457,
+      "app_objects": 6924,
+      "files": 9591,
+      "parse_errors": 0,
+      "countries": {
+        "at": {
+          "added": 125,
+          "replaced": 47,
+          "absent": 0
+        },
+        "au": {
+          "added": 169,
+          "replaced": 121,
+          "absent": 0
+        },
+        "be": {
+          "added": 107,
+          "replaced": 80,
+          "absent": 0
+        },
+        "ca": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        },
+        "ch": {
+          "added": 223,
+          "replaced": 118,
+          "absent": 0
+        },
+        "cz": {
+          "added": 2,
+          "replaced": 8,
+          "absent": 0
+        },
+        "de": {
+          "added": 128,
+          "replaced": 63,
+          "absent": 1
+        },
+        "dk": {
+          "added": 0,
+          "replaced": 0,
+          "absent": 0
+        },
+        "es": {
+          "added": 387,
+          "replaced": 143,
+          "absent": 0
+        },
+        "fi": {
+          "added": 42,
+          "replaced": 50,
+          "absent": 0
+        },
+        "fr": {
+          "added": 98,
+          "replaced": 71,
+          "absent": 0
+        },
+        "gb": {
+          "added": 49,
+          "replaced": 55,
+          "absent": 0
+        },
+        "in": {
+          "added": 0,
+          "replaced": 0,
+          "absent": 0
+        },
+        "is": {
+          "added": 7,
+          "replaced": 6,
+          "absent": 0
+        },
+        "it": {
+          "added": 323,
+          "replaced": 196,
+          "absent": 0
+        },
+        "mx": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        },
+        "nl": {
+          "added": 144,
+          "replaced": 51,
+          "absent": 0
+        },
+        "no": {
+          "added": 159,
+          "replaced": 75,
+          "absent": 0
+        },
+        "nz": {
+          "added": 169,
+          "replaced": 109,
+          "absent": 0
+        },
+        "ru": {
+          "added": 633,
+          "replaced": 221,
+          "absent": 0
+        },
+        "se": {
+          "added": 4,
+          "replaced": 25,
+          "absent": 0
+        },
+        "us": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        }
+      }
+    },
+    "linked": {
+      "at": "2026-10-06T17:43:13.921Z"
+    },
+    "published": {
+      "at": "2026-10-06T17:43:13.922Z"
     }
   },
   "input_hash": "25a567013e0c9e112670c52e4dd6bdac9c4343d4",
@@ -19,5 +150,8 @@
     "major": "30",
     "branch": "main",
     "sha": "25a567013e0c9e112670c52e4dd6bdac9c4343d4"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25a567013e0c9e112670c52e4dd6bdac9c4343d4"
 }

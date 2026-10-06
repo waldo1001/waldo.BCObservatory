@@ -1,0 +1,493 @@
+{
+  "video_id": "sqjb_gsXqM8",
+  "item_id": "video/yt-microsoft/sqjb_gsXqM8",
+  "title": "What's New: Supply Chain Management - overview (2026 release wave 1)",
+  "duration_s": 1049,
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "purchasing"
+  ],
+  "topics": [
+    "quality management",
+    "drop shipment",
+    "purchase order matching",
+    "document management",
+    "approvals",
+    "item tracking",
+    "subcontracting",
+    "production orders",
+    "item variants",
+    "inventory posting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Supply Chain Management",
+      "t_start": 0,
+      "t_end": 56.5
+    },
+    {
+      "title": "Quality Management Extension",
+      "t_start": 56.5,
+      "t_end": 102.6
+    },
+    {
+      "title": "Drop Shipment Process Enhancements",
+      "t_start": 102.6,
+      "t_end": 217.8
+    },
+    {
+      "title": "Purchase Order Matching and Filters",
+      "t_start": 217.8,
+      "t_end": 342.5
+    },
+    {
+      "title": "Document Management Enhancements",
+      "t_start": 342.5,
+      "t_end": 445.6
+    },
+    {
+      "title": "Approval Workflows for Journals",
+      "t_start": 445.6,
+      "t_end": 508.5
+    },
+    {
+      "title": "Product Information Management",
+      "t_start": 508.5,
+      "t_end": 570.1
+    },
+    {
+      "title": "Manufacturing and Production Enhancements",
+      "t_start": 570.1,
+      "t_end": 850.9
+    },
+    {
+      "title": "Subcontracting Capabilities",
+      "t_start": 850.9,
+      "t_end": 1007.9
+    },
+    {
+      "title": "Closing Remarks and Resources",
+      "t_start": 1007.9,
+      "t_end": 1049
+    }
+  ],
+  "features": [
+    {
+      "name": "Quality Management Extension",
+      "description": "New extension available to automate quality management processes and ensure industry and legal compliance. Checks goods when received or produced with flexible and customizable steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.5,
+      "t_end": 102.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires separate video for detailed usage information"
+      ],
+      "tags": [
+        "quality",
+        "compliance",
+        "inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Drop Shipment Process Enhancements",
+      "description": "More ways to create purchase documents for drop shipment sales documents. Includes new toggle to indicate drop shipment lines, flexible order posting, and undo capability for mistakes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.6,
+      "t_end": 206.4,
+      "is_demoed": true,
+      "caveats": [
+        "Standard create purchase order action works for both normal and drop shipment scenarios"
+      ],
+      "tags": [
+        "drop shipment",
+        "purchasing",
+        "sales"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Purchase Order Matching",
+      "description": "Ability to receive invoices before orders are received and link purchase invoices to purchase orders. Supports linking single invoice line to multiple purchase orders and receipts, and posting marked orders as received.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 217.8,
+      "t_end": 284.4,
+      "is_demoed": true,
+      "caveats": [
+        "Not all documents allow these scenarios - check documentation for specifics",
+        "Requires settings configuration on specific documents"
+      ],
+      "tags": [
+        "purchase",
+        "invoice",
+        "matching",
+        "receipts"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Filter Support for Get Receipt Lines",
+      "description": "New filter support in vendor order, vendor shipment, and vendor item number fields for get receipt lines processes. Same enhancement available for get shipment and service shipment lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 305.6,
+      "t_end": 342.5,
+      "is_demoed": false,
+      "caveats": [
+        "Service shipment lines have fewer fields available for filtering"
+      ],
+      "tags": [
+        "filters",
+        "receipts",
+        "shipments"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Sending Posted Sales Documents",
+      "description": "Ability to send posted sales shipments and posted sales credit returns via email with attachment support. New attachment effect box for documents without configured emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 354.8,
+      "t_end": 368.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "documents",
+        "email"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Purchase Quote without Vendor",
+      "description": "Create purchase quotes without creating vendors upfront. Vendor is created automatically when quote is converted to order, similar to sales quote process. Requires vendor template for automatic creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 368.6,
+      "t_end": 406.5,
+      "is_demoed": false,
+      "caveats": [
+        "Vendor template required for automatic vendor creation",
+        "Contact information still needed"
+      ],
+      "tags": [
+        "purchase",
+        "quotes",
+        "vendors"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Service Order Creation by Item Toggle",
+      "description": "Toggle activation that allows batch job to create separate service orders per service item in service contracts. Previously only created single order even with multiple contract items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 417.7,
+      "t_end": 445.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "service",
+        "orders",
+        "contracts"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Approval Workflows for Item Journals and Requisition Worksheets",
+      "description": "Support for approvals in item journals and requisition worksheets. Uses workflow templates with new actions to send to approval, cancel, and see status. Focuses on batches not individual lines for performance reasons.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 445.6,
+      "t_end": 508.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only batches supported not individual lines due to performance",
+        "Also available via Power Automate"
+      ],
+      "tags": [
+        "approvals",
+        "workflows",
+        "journals"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Statistics with Copilot Summarization",
+      "description": "Enhanced item statistics page showing numbers across different categories and periods with drill down capability. Copilot summarization promotes interesting numbers in the summary view.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 508.5,
+      "t_end": 559.6,
+      "is_demoed": false,
+      "caveats": [
+        "Also used in Shopify connectivity"
+      ],
+      "tags": [
+        "item",
+        "statistics",
+        "copilot",
+        "shopify"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Variants with Pictures and Attributes",
+      "description": "Item variants now support pictures and attributes, going deeper than item level. Used by Shopify connector as well for enhanced product information management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 559.6,
+      "t_end": 570.1,
+      "is_demoed": false,
+      "caveats": [
+        "Also integrated with Shopify connector"
+      ],
+      "tags": [
+        "item variants",
+        "pictures",
+        "attributes",
+        "shopify"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Description Two Field in BOM and Routings",
+      "description": "New Description Two field added to production BOM and routings, propagated to related tables like planning orders and production order components. Copies value from item, work center, or machine center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 570.1,
+      "t_end": 614.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bom",
+        "routing",
+        "description",
+        "manufacturing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing Status Change Notification",
+      "description": "User notification warning when closing routing without changing status to indicate completion. Settings available in My Notifications to control warning display per user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 625.7,
+      "t_end": 657.4,
+      "is_demoed": false,
+      "caveats": [
+        "User configurable in My Notifications"
+      ],
+      "tags": [
+        "routing",
+        "notifications",
+        "status"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Item Tracking on Manufacturing Journals",
+      "description": "Item tracking support on manufacturing output journals with serial number assignment. Explode routing action now splits output operations into multiple lines when serial tracking required, one line per unit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 668,
+      "t_end": 733.6,
+      "is_demoed": true,
+      "caveats": [
+        "Excel support also added",
+        "Explode routing action behavior changed for serial tracked items"
+      ],
+      "tags": [
+        "item tracking",
+        "serial numbers",
+        "manufacturing",
+        "output"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work In Progress Account Posting Improvement",
+      "description": "Eliminated need for blank location in inventory posting setup for WIP accounting. Now posts capacity and output to WIP account using actual production order location, allowing per-location WIP accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 750.6,
+      "t_end": 850.9,
+      "is_demoed": false,
+      "caveats": [
+        "More complex setup but enables per-location WIP accounts"
+      ],
+      "tags": [
+        "wip",
+        "inventory posting",
+        "location",
+        "manufacturing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Subcontracting Production Support",
+      "description": "New subcontracting capabilities for manufacturing including production order routing subcontracting details fact box, create subcontracting purchase documents, transfer orders for materials, warehouse receipts, and item charge allocation.",
+      "status": "announced",
+      "status_evidence_t": 861.4,
+      "status_evidence_quote": "It's not something you can see on April 1st or 2nd because it will be uh become available later in the season",
+      "status_evidence_verified": true,
+      "t_start": 850.9,
+      "t_end": 993.7,
+      "is_demoed": true,
+      "caveats": [
+        "Not available on April 1-2",
+        "More details to follow as release approaches"
+      ],
+      "tags": [
+        "subcontracting",
+        "production orders",
+        "purchase",
+        "warehouse"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Production BOM",
+      "t": 585.6
+    },
+    {
+      "type": "table",
+      "name": "Production Order Component",
+      "t": 601.3
+    },
+    {
+      "type": "table",
+      "name": "Planning Order",
+      "t": 601.3
+    },
+    {
+      "type": "table",
+      "name": "Inventory Posting Setup",
+      "t": 733.6
+    },
+    {
+      "type": "table",
+      "name": "Production Order",
+      "t": 874
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.5,
+      "text": "we have a range of features and tools from procurement to production to distribution logistics, everything we call supply chain management",
+      "why_it_matters": "Defines the scope of supply chain management in Business Central covering end-to-end processes",
+      "check": "exact"
+    },
+    {
+      "t": 127.8,
+      "text": "there are more ways to create purchase documents for drop shipment sales documents",
+      "why_it_matters": "Announces expanded drop shipment capabilities as a major feature in this release",
+      "check": "exact"
+    },
+    {
+      "t": 274.3,
+      "text": "Of course, there is a setting for this one for this on specific documents because not all documents allow these scenarios",
+      "why_it_matters": "Important caveat that purchase order matching scenarios have configuration limitations",
+      "check": "exact"
+    },
+    {
+      "t": 456.2,
+      "text": "highly voted product suggestions to actually support approvals in the item journals and uh requisition worksheets",
+      "why_it_matters": "Highlights customer-driven feature request addressing approval workflows in journal processes",
+      "check": "exact"
+    },
+    {
+      "t": 494.9,
+      "text": "we only focus on batches, not lines. Performance reason because we have too many lines",
+      "why_it_matters": "Explains design decision limiting approval batch processing to performance constraints",
+      "check": "exact"
+    },
+    {
+      "t": 825.3,
+      "text": "for each location, you can now use different work in progress account and accumulate the cost in different accounts",
+      "why_it_matters": "Describes capability allowing per-location WIP account tracking and cost accumulation",
+      "check": "exact"
+    },
+    {
+      "t": 861.4,
+      "text": "It's not something you can see on April 1st or 2nd because it will be uh become available later in the season",
+      "why_it_matters": "Confirms subcontracting will not be available at wave 1 launch but coming later",
+      "check": "exact"
+    },
+    {
+      "t": 980.8,
+      "text": "each operation can also have a different price tag. So, the same item produced on different vendors or different quantities will have a different",
+      "why_it_matters": "Shows how subcontracting enables accurate costing for items produced via different vendors",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 861.4,
+      "kind": "coming-later",
+      "text": "It will be uh become available later in the season"
+    },
+    {
+      "t": 993.7,
+      "kind": "coming-later",
+      "text": "you need to wait for it and more details will follow as soon as we are close to the release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 14
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03555
+    }
+  ]
+}

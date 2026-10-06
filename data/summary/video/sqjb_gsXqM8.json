@@ -1,0 +1,27 @@
+{
+  "video_id": "sqjb_gsXqM8",
+  "item_id": "video/yt-microsoft/sqjb_gsXqM8",
+  "summary": "Supply Chain Management changes in Business Central 2026 release wave 1: quality management extension, drop shipment and purchase order matching, approvals for item journals and requisition worksheets, item variants, manufacturing and WIP posting changes, and subcontracting (announced, later in the season).",
+  "overview": "A 17-minute overview from the Business Central team covering supply chain features in the 2026 release wave 1, from procurement through production and distribution. Chapters cover quality management, drop shipment, purchase order matching, document management, journal approvals, product information, manufacturing and subcontracting.\n\nSeveral features are demoed, including drop shipment purchase creation, purchase order matching, sending posted sales documents, journal batch approvals, item tracking on output journals and subcontracting. Subcontracting is described as arriving later in the season, not on April 1-2.",
+  "key_points": [
+    "Drop shipment: more ways to create purchase documents for drop shipment sales lines, a new toggle marks drop shipment lines, order posting is more flexible, and mistakes can be undone.",
+    "Purchase order matching: invoices can be received before orders and linked to purchase orders, including one invoice line to several orders and receipts. It needs settings on specific documents, and not all documents allow it.",
+    "Approvals now cover item journals and requisition worksheets through workflow templates, for batches only and not lines (performance). Also available via Power Automate.",
+    "Item tracking works on manufacturing output journals. Explode routing splits output operations into one line per unit when serial tracking is required.",
+    "WIP posting no longer needs a blank location in inventory posting setup. Capacity and output post using the production order location, allowing a WIP account per location, with a more complex setup.",
+    "Purchase quotes can be created without a vendor. The vendor is created on conversion to an order, which needs a vendor template and contact information.",
+    "Subcontracting for production orders (fact box, purchase documents, transfer orders, warehouse receipts, item charges) was announced as arriving later in the season."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "6d0c820d13286b3f2b2cad80a31f6dc975aaa247095e340051e57a4661c2468b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0203164
+  }
+}

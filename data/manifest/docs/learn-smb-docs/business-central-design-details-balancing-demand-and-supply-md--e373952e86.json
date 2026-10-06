@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-balancing-demand-and-supply",
   "published_at": "2026-06-26T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9be4be3ae438c588b7063167cce6164ab2fd2130",
       "words": 3795,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:36:15.544Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:36:15.566Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:36:15.567Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:36:15.568Z",
+      "page": false
     }
   },
   "input_hash": "9be4be3ae438c588b7063167cce6164ab2fd2130",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9be4be3ae438c588b7063167cce6164ab2fd2130"
+  "output_hash": "cf7bb57db6daf7d290784b0bf75d8338bc04fca8013a0699da1c5c9552a52307"
 }

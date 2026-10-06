@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-handling-reordering-policies",
   "published_at": "2026-06-26T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "864d4cd5414d78c5f7f3caa4783fb92979d51b51",
       "words": 3311,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:36:15.547Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T17:36:15.570Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:36:15.571Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:36:15.572Z",
+      "page": false
     }
   },
   "input_hash": "864d4cd5414d78c5f7f3caa4783fb92979d51b51",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "864d4cd5414d78c5f7f3caa4783fb92979d51b51"
+  "output_hash": "bfd97920ecab7bc34eb77adecf25c214e4bdcf182ca14a8dcf0f6ca4db824e94"
 }

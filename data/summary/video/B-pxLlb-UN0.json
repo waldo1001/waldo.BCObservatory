@@ -1,0 +1,27 @@
+{
+  "video_id": "B-pxLlb-UN0",
+  "item_id": "video/yt-microsoft/B-pxLlb-UN0",
+  "summary": "Shopify connector changes in Business Central 2026 release wave 1: variant images and attributes, collections import, separate product and price updates, unit cost sync, presentment currency, fulfillment limits removed, tax code field removed, and the Shopify API upgrade to the January 2026 version.",
+  "overview": "The video covers what is new in the Shopify connector for 2026 release wave 1, grouped into product information management and document processing. Product changes include variant images and attributes used as Shopify options, import of manual collections, meta field support with a new article type, and separate control of product and price updates.\n\nOn the order side, it covers presentment currency in imported sales documents, a troubleshooting action for fulfillment details, and removal of earlier fulfillment limitations. It also covers removal of the tax code field, a changed field for return information, and the upgrade to the Shopify API version released in January 2026, valid through December 2026.",
+  "key_points": [
+    "Item variants now support images and item attributes. Attributes sync to Shopify and can be set up as product options.",
+    "Custom (manual) collections can be imported from Shopify, not automatic ones. On export, filter pages and item category codes decide which collections an item joins.",
+    "Unit cost is now part of regular price synchronization, so updated cost is sent even if the price is unchanged. Merchants commonly use average unit cost.",
+    "The tax code field is no longer supported because of Shopify API updates. Check whether other Shopify extensions use it.",
+    "Presentment currency is supported in imported sales documents. Upgraded stores must change the setting manually, and it works with market catalogs for country-specific prices.",
+    "Earlier fulfillment limits are removed: quantity increases, Buy X Get Y discounts with the same items, and assembly bundles now work. A new action shows fulfillment details received with an order.",
+    "The connector moves to the Shopify API version released in January 2026, valid through December 2026. Upgrading in April is recommended. Items with up to 2000 variants are supported, and testing is advised if you manage many variants."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "803b8b38a180c27aadbf8139216836b7c2f5e1cc26f4301cfb1fa69cc1aad33f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0176984
+  }
+}

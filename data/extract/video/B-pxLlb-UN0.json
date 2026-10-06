@@ -1,0 +1,398 @@
+{
+  "video_id": "B-pxLlb-UN0",
+  "item_id": "video/yt-microsoft/B-pxLlb-UN0",
+  "title": "What's New: Shopify Connector - Overview (2026 release wave 1)",
+  "duration_s": 685,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "product information management",
+    "item variants",
+    "presentment currency",
+    "price synchronization",
+    "fulfillment",
+    "meta fields",
+    "collections",
+    "marketplace integration",
+    "shopify api"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 56.5
+    },
+    {
+      "title": "Product Information Management Enhancements",
+      "t_start": 56.5,
+      "t_end": 159.1
+    },
+    {
+      "title": "Item Management and Shopify Enhancements",
+      "t_start": 159.1,
+      "t_end": 243.7
+    },
+    {
+      "title": "Price Synchronization and Field Updates",
+      "t_start": 243.7,
+      "t_end": 328.3
+    },
+    {
+      "title": "Presentment Currency and Document Processing",
+      "t_start": 328.3,
+      "t_end": 456.3
+    },
+    {
+      "title": "Fulfillment and API Changes",
+      "t_start": 456.3,
+      "t_end": 578.4
+    },
+    {
+      "title": "Shopify API Updates and Conclusion",
+      "t_start": 578.4,
+      "t_end": 685
+    }
+  ],
+  "features": [
+    {
+      "name": "Item variant images and attributes support",
+      "description": "Support for images and item attributes in variants, which can be synchronized with Shopify and configured as product options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.5,
+      "t_end": 87.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "product information",
+        "variants",
+        "images",
+        "attributes"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Shopify collections import and mapping",
+      "description": "Import custom collections from Shopify and map items during export using filter pages and item category codes to determine collection inclusion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.2,
+      "t_end": 159.1,
+      "is_demoed": true,
+      "caveats": [
+        "Manual collections only, not automatic collections"
+      ],
+      "tags": [
+        "collections",
+        "product mapping",
+        "export"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Item import from Shopify with product details",
+      "description": "Import items from Shopify to Business Central including images, descriptions, title, price, cost, and marketing text as description.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.1,
+      "t_end": 198,
+      "is_demoed": false,
+      "caveats": [
+        "Complex HTML layouts in marketing text may not transfer correctly"
+      ],
+      "tags": [
+        "item import",
+        "product data",
+        "synchronization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Meta field support including article links",
+      "description": "Support for Shopify meta fields including new article type that links to blog posts, available in Business Central APIs for import and export.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198,
+      "t_end": 234.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "meta fields",
+        "product attributes",
+        "blog integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Separated product and price update controls",
+      "description": "Ability to isolate product information and price synchronization processes, allowing independent control over when each is updated to Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243.7,
+      "t_end": 262.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "price synchronization",
+        "product updates",
+        "control"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Unit cost in price synchronization",
+      "description": "Unit cost is now included in regular price synchronization to Shopify, sending updated cost information even when price has not changed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 262.2,
+      "t_end": 294.2,
+      "is_demoed": true,
+      "caveats": [
+        "Average unit cost commonly used by merchants"
+      ],
+      "tags": [
+        "pricing",
+        "cost management",
+        "synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Tax code field removal",
+      "description": "Tax code field is no longer supported in the connector due to Shopify API updates requiring removal of this field.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 294.2,
+      "t_end": 314.2,
+      "is_demoed": false,
+      "caveats": [
+        "Check if other Shopify extensions depend on this field"
+      ],
+      "tags": [
+        "tax",
+        "api update",
+        "breaking change"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Presentment currency in sales documents",
+      "description": "Support for presentment currency (local checkout currency) in sales documents imported from Shopify, allowing customers to pay in local currency while storing conversion information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.8,
+      "t_end": 409.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual setting change for upgraded stores to use presentment currency",
+        "Works with market catalogs for different prices by country"
+      ],
+      "tags": [
+        "currency",
+        "sales documents",
+        "multi-market"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Fulfillment troubleshooting information",
+      "description": "New action added to get additional information about fulfillment details received with orders for troubleshooting purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 456.3,
+      "t_end": 493.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fulfillment",
+        "troubleshooting",
+        "debugging"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Fulfillment limitations removed",
+      "description": "Previous limitations on fulfillment have been resolved, including support for quantity increases, Buy X Get Y discounts with same items, and assembly bundles in Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.6,
+      "t_end": 549.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fulfillment",
+        "discounts",
+        "bundles",
+        "quality improvement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify API field changes for return information",
+      "description": "Shopify updated their API to use a new field for return information, which Business Central now imports to a different field location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 563,
+      "t_end": 578.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires awareness of field location change"
+      ],
+      "tags": [
+        "api update",
+        "returns",
+        "field mapping"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify API version upgrade to January 2026 release",
+      "description": "Upgrade to Shopify API version released in January with validity through December 2026, including improvements to inventory availability, bulk operations, and variant support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 588.6,
+      "t_end": 627.2,
+      "is_demoed": false,
+      "caveats": [
+        "Recommended to upgrade in April for smooth operations through year end"
+      ],
+      "tags": [
+        "api version",
+        "inventory",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Product variant support for 2000 variants",
+      "description": "Support for items with up to 2000 product variants in Shopify, with recommendations to test if managing items with large variant counts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 615.4,
+      "t_end": 638.8,
+      "is_demoed": false,
+      "caveats": [
+        "Should test if managing items with many variants"
+      ],
+      "tags": [
+        "variants",
+        "scalability",
+        "performance"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 7.3,
+      "text": "It's difficult to believe, but it's more than three years since we partnered with Shopify and start to include Shopify connector into the business",
+      "why_it_matters": "Establishes the history and maturity of the Shopify integration partnership with Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 29.8,
+      "text": "We again added more functionality added to the two major areas. Product information management yeah what we are selling and the document processing how",
+      "why_it_matters": "Defines the scope of enhancements in this release focused on two main feature areas",
+      "check": "exact"
+    },
+    {
+      "t": 72.6,
+      "text": "the item attributes they're not here for decoration purposes they actually also used in Shopify uh as a definition of options",
+      "why_it_matters": "Explains the functional purpose of item attributes and their bidirectional use between Business Central and Shopify",
+      "check": "exact"
+    },
+    {
+      "t": 349.8,
+      "text": "In the Shopify shop uh cart, we have a new setting under order processing fast which instructs business central how you deal with the",
+      "why_it_matters": "Key feature announcement about new presentment currency handling in sales documents",
+      "check": "exact"
+    },
+    {
+      "t": 514,
+      "text": "we are removing them because they're not applicable anymore. So now uh you can increase quantity. You can use buy X get Y discount",
+      "why_it_matters": "Announces removal of previous fulfillment limitations and expanded discount scenario support",
+      "check": "exact"
+    },
+    {
+      "t": 588.6,
+      "text": "In January they release a new version which will be valid till end of the very December 2026",
+      "why_it_matters": "Specifies Shopify API version timeline and upgrade deadline for Business Central users",
+      "check": "exact"
+    },
+    {
+      "t": 627.2,
+      "text": "product variant supports uh 2,000 variants. So there are some uh some enhancements in this area as well.",
+      "why_it_matters": "Defines a specific technical limit improvement for handling items with many variants",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 314.2,
+      "kind": "other",
+      "text": "double check with other extensions you have on Shopify site if they use this field somehow and uh need to find replacement"
+    },
+    {
+      "t": 409.6,
+      "kind": "subject-to-change",
+      "text": "for upgraded stores you will need to uh change this setting uh manually"
+    },
+    {
+      "t": 483,
+      "kind": "other",
+      "text": "it's not that uh that uh often required"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0190087
+    }
+  ]
+}

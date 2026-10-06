@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-handling-reordering-policies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-handling-reordering-policies",
+  "title": "Design details - Handling reordering policies",
+  "blob": "864d4cd5414d78c5f7f3caa4783fb92979d51b51",
+  "summary": "Design details - Handling reordering policies documents four reordering policies (Fixed Reorder Qty., Maximum Qty., Order, Lot-for-Lot) and how the planning system monitors inventory levels against reorder points.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "reordering policies",
+    "reorder point",
+    "inventory planning",
+    "safety stock",
+    "time buckets"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Fixed Reorder Qty.",
+    "Maximum Qty. policy",
+    "Order policy",
+    "Lot-for-Lot policy",
+    "reorder point",
+    "safety stock",
+    "overflow level"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

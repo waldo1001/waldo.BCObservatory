@@ -6,10 +6,141 @@
   "title": "microsoft/BCApps releases/29.x (BC29)",
   "url": "https://github.com/microsoft/BCApps/tree/releases/29.x",
   "published_at": null,
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:36:15.599Z",
+      "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+      "branch": "releases/29.x"
+    },
+    "extracted": {
+      "at": "2026-10-06T17:39:45.909Z",
+      "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+      "w1_objects": 9435,
+      "app_objects": 6883,
+      "files": 9569,
+      "parse_errors": 0,
+      "countries": {
+        "at": {
+          "added": 125,
+          "replaced": 47,
+          "absent": 0
+        },
+        "au": {
+          "added": 169,
+          "replaced": 121,
+          "absent": 0
+        },
+        "be": {
+          "added": 107,
+          "replaced": 80,
+          "absent": 0
+        },
+        "ca": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        },
+        "ch": {
+          "added": 223,
+          "replaced": 118,
+          "absent": 0
+        },
+        "cz": {
+          "added": 2,
+          "replaced": 8,
+          "absent": 0
+        },
+        "de": {
+          "added": 128,
+          "replaced": 63,
+          "absent": 1
+        },
+        "dk": {
+          "added": 0,
+          "replaced": 0,
+          "absent": 0
+        },
+        "es": {
+          "added": 389,
+          "replaced": 145,
+          "absent": 0
+        },
+        "fi": {
+          "added": 42,
+          "replaced": 49,
+          "absent": 0
+        },
+        "fr": {
+          "added": 98,
+          "replaced": 71,
+          "absent": 0
+        },
+        "gb": {
+          "added": 49,
+          "replaced": 54,
+          "absent": 0
+        },
+        "in": {
+          "added": 0,
+          "replaced": 0,
+          "absent": 0
+        },
+        "is": {
+          "added": 7,
+          "replaced": 6,
+          "absent": 0
+        },
+        "it": {
+          "added": 327,
+          "replaced": 196,
+          "absent": 0
+        },
+        "mx": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        },
+        "nl": {
+          "added": 144,
+          "replaced": 51,
+          "absent": 0
+        },
+        "no": {
+          "added": 159,
+          "replaced": 75,
+          "absent": 0
+        },
+        "nz": {
+          "added": 169,
+          "replaced": 109,
+          "absent": 0
+        },
+        "ru": {
+          "added": 633,
+          "replaced": 221,
+          "absent": 0
+        },
+        "se": {
+          "added": 4,
+          "replaced": 25,
+          "absent": 0
+        },
+        "us": {
+          "added": 495,
+          "replaced": 148,
+          "absent": 0
+        }
+      }
+    },
+    "linked": {
+      "at": "2026-10-06T17:39:45.910Z"
+    },
+    "published": {
+      "at": "2026-10-06T17:39:45.911Z"
     }
   },
   "input_hash": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
@@ -19,5 +150,8 @@
     "major": "29",
     "branch": "releases/29.x",
     "sha": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
 }
