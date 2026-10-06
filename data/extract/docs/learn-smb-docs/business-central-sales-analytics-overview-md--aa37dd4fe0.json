@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-analytics-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview",
+  "title": "Sales analytics",
+  "blob": "6c8046a0caa317448f18a159d2508d9ed4e557bf",
+  "summary": "Sales analytics in Business Central enables sales managers and teams to analyze sales performance data through Power BI reports, ad-hoc analysis, financial reporting, and built-in reports to monitor KPIs like gross profit, sales by period, and customer acquisition.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "analytics",
+    "power bi",
+    "sales performance",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Quotes"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales Return Orders"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "Power BI reports",
+    "Ad-hoc analysis",
+    "Financial reporting",
+    "Dimension analysis",
+    "Consolidation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

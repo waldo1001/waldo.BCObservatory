@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "be906e297fa2d204dffeb424fb1601d9db8a7399",
       "words": 721,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.955Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:38.988Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:38.990Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.000Z",
+      "page": false
     }
   },
   "input_hash": "be906e297fa2d204dffeb424fb1601d9db8a7399",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be906e297fa2d204dffeb424fb1601d9db8a7399"
+  "output_hash": "78ef20124b7423577a6bb93900f30567859cc1afe05a1ddb92599b60b06217c8"
 }

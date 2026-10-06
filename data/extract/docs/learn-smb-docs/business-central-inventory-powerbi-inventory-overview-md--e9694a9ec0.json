@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview",
+  "title": "Inventory Overview (Power BI report)",
+  "blob": "b1d2fa3f13e6110571f9a02529b5acdf4db774eb",
+  "summary": "Inventory Overview Power BI report provides high-level summary of inventory showing key metrics like quantities, scheduled receipts, gross requirements, and projected available balance. Use it for leadership and management to assess stock levels across locations.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "inventory overview",
+    "stock levels",
+    "supply planning",
+    "management dashboard"
+  ],
+  "objects": [],
+  "features": [
+    "Inventory (Quantity) KPI",
+    "Scheduled Receipt KPI",
+    "Planned Order Receipt KPI",
+    "Gross Requirement KPI",
+    "Projected Available Balance KPI",
+    "cross-document quantity tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

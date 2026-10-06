@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e26f1ba3187acc097c0f4d0f7914bfbcdffd983b",
       "words": 1095,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.961Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:39.045Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:39.046Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.047Z",
+      "page": false
     }
   },
   "input_hash": "e26f1ba3187acc097c0f4d0f7914bfbcdffd983b",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e26f1ba3187acc097c0f4d0f7914bfbcdffd983b"
+  "output_hash": "114e53f82325bc3e275864f60181162857c5608d106134e077cbf300b1c3d516"
 }

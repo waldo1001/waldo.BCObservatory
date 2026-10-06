@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-view-database-locks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks",
+  "title": "View Database Locks",
+  "blob": "496301a786e5170f1d3a931a33352764566792c7",
+  "summary": "The Database Locks page in Business Central allows administrators to view a snapshot of all current database locks to monitor and troubleshoot transaction blocking issues.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database",
+    "locking",
+    "monitoring",
+    "administration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Database Locks"
+    }
+  ],
+  "features": [
+    "Database lock monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

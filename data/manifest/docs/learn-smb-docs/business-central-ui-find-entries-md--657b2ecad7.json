@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-find-entries",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
       "words": 440,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.964Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:39.048Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:39.049Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.050Z",
+      "page": false
     }
   },
   "input_hash": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6"
+  "output_hash": "07f43f02993ba08a216d5d8bdbe59811535bcef9cd5752f9a5eb95a2c56983fa"
 }

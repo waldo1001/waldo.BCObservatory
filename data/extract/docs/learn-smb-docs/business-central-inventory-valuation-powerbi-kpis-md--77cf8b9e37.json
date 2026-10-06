@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis",
+  "title": "Inventory Valuation KPIs and measures (Power BI)",
+  "blob": "a50309de2918fb5846d7a14bda390b5081de29db",
+  "summary": "This reference page describes all Key Performance Indicators and measures included in the semantic model for the Power BI Inventory Valuation report, including formulas and data sources for calculating inventory balance, costs, quantities, and variances.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "kpi",
+    "inventory valuation",
+    "measures"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Value Entry"
+    }
+  ],
+  "features": [
+    "Beginning Balance G/L",
+    "Cost Amount",
+    "Cost Posted to G/L",
+    "Ending Balance Value",
+    "Invoiced Quantity",
+    "Variance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

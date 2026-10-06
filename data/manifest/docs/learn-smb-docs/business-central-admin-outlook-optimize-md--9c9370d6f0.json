@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ee4c9bc15edbbfb6620c82d5044f20142658f0e",
       "words": 374,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:37.202Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003631
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:38.924Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:38.925Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:38.926Z",
+      "page": false
     }
   },
   "input_hash": "6ee4c9bc15edbbfb6620c82d5044f20142658f0e",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ee4c9bc15edbbfb6620c82d5044f20142658f0e"
+  "output_hash": "85fb2f073930b27a6c9cdf009e541d8dc22b10fa85ddd5f34f5aec1f021b4668"
 }

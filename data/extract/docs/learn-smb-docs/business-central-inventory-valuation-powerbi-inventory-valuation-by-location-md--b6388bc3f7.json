@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-by-location.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location",
+  "title": "Inventory Valuation by Location (Power BI report)",
+  "blob": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc",
+  "summary": "The Inventory Valuation by Location Power BI report shows item values on a location-by-location basis, displaying beginning balance value, increases/decreases, and ending balance value for a specified period to help identify high-value locations.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "inventory valuation",
+    "location analysis",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Value Entries"
+    }
+  ],
+  "features": [
+    "Beginning Balance Value",
+    "Increases Value",
+    "Decrease Qty.",
+    "Ending Balance Value"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

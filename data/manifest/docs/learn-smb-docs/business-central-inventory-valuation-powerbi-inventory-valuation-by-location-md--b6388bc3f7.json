@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc",
       "words": 242,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:37.197Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003631
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:37.206Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:37.207Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:38.911Z",
+      "page": false
     }
   },
   "input_hash": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc"
+  "output_hash": "3c0b5587745f14cee522dcae4132bf7933bf1948b0f16c6432f2053103fa9205"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "43bf08a5ad1536da93037251f2d22f64e8a6a76b",
       "words": 254,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:34.976Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:34.989Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:34.990Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:34.991Z",
+      "page": false
     }
   },
   "input_hash": "43bf08a5ad1536da93037251f2d22f64e8a6a76b",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43bf08a5ad1536da93037251f2d22f64e8a6a76b"
+  "output_hash": "e97cc6295d0bb34c794c8c19ee80168789c49f4b675f0c60e654a776091cd2fa"
 }

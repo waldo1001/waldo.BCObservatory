@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview",
+  "title": "Inventory Valuation Overview (Power BI report)",
+  "blob": "dce0c90c7784a42048a5ef791207e4ae6adfa6ac",
+  "summary": "The Inventory Valuation Overview Power BI report provides a high-level view of key inventory valuation data and movements for the organization, helping executives and managers understand total inventory value and make strategic decisions.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "inventory valuation",
+    "overview",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Value Entries"
+    }
+  ],
+  "features": [
+    "Ending Balance Value",
+    "Ending Balance Posted to G/L",
+    "Variance",
+    "Invoiced Quantity",
+    "Increases Quantity",
+    "Decrease Qty."
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

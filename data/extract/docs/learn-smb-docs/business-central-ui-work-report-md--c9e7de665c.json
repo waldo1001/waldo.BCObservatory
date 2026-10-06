@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-work-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report",
+  "title": "Run and print reports in Business Central",
+  "blob": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40",
+  "summary": "Explains how to run, preview, print, and schedule reports in Business Central, including setting filters, saving to files, selecting layouts, and changing language and format settings.",
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "report",
+    "print",
+    "preview",
+    "schedule",
+    "filter",
+    "export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    },
+    {
+      "type": "page",
+      "name": "My Settings"
+    },
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    },
+    {
+      "type": "page",
+      "name": "Report Layout Selection"
+    }
+  ],
+  "features": [
+    "report preview",
+    "print reports",
+    "schedule reports",
+    "save to PDF/Word/Excel",
+    "filter options",
+    "predefined settings",
+    "language selection",
+    "format region",
+    "job queue management"
+  ],
+  "versions": [
+    "2020 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003855,
+      "pages_in_call": 8
+    }
+  ]
+}

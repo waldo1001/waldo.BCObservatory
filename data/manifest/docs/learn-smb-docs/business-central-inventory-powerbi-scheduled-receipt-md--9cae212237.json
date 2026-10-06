@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "accca140ee8c8681da95e776e8e6ce6929375c6d",
       "words": 266,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:34.977Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:34.994Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:34.995Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:34.996Z",
+      "page": false
     }
   },
   "input_hash": "accca140ee8c8681da95e776e8e6ce6929375c6d",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "accca140ee8c8681da95e776e8e6ce6929375c6d"
+  "output_hash": "ce4f77d01d83b30e66a50b248bc1b7ab96ee1faa0624591523f00a4ca9354d95"
 }

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-by-item.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item",
+  "title": "Inventory Valuation by Item (Power BI report)",
+  "blob": "cb5fe73019d4f55ffb2b866c255b07a50b41dfdf",
+  "summary": "The Inventory Valuation by Item Power BI report shows item values on an item-by-item basis, displaying beginning balance value, increases/decreases, and ending balance value for a specified period to help executives and managers identify high-value items.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "inventory valuation",
+    "item analysis",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Value Entries"
+    }
+  ],
+  "features": [
+    "Ending Balance Quantity",
+    "Beginning Balance Value",
+    "Ending Balance Value",
+    "Increases Value",
+    "Decreases Value"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003631,
+      "pages_in_call": 8
+    }
+  ]
+}

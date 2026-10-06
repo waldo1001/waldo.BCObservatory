@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3f8e572212eceb223994b36b200f15fc63e20c30",
       "words": 217,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:34.974Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:34.983Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:34.984Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:34.985Z",
+      "page": false
     }
   },
   "input_hash": "3f8e572212eceb223994b36b200f15fc63e20c30",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f8e572212eceb223994b36b200f15fc63e20c30"
+  "output_hash": "080a5b242fc10afbe8e75ee8af6bc0e473cc4cf226a33810355fd41bbe713db1"
 }

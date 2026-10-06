@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-au-einvoice",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "94e893433bf4cfc57b5f6c562611185942b69ad3",
       "words": 202,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.987Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:39.058Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:39.059Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.060Z",
+      "page": false
     }
   },
   "input_hash": "94e893433bf4cfc57b5f6c562611185942b69ad3",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94e893433bf4cfc57b5f6c562611185942b69ad3"
+  "output_hash": "82de84a67a91c031eca28e2a736538f03a13d63c07e1480aee34d7b0a7e61cb8"
 }

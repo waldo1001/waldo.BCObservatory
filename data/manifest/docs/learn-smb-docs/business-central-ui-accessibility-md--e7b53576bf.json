@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f84e6a8041536cb18b56da203fcabeecb7b18dbc",
       "words": 658,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.960Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:39.038Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:39.042Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.043Z",
+      "page": false
     }
   },
   "input_hash": "f84e6a8041536cb18b56da203fcabeecb7b18dbc",
@@ -117,5 +136,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f84e6a8041536cb18b56da203fcabeecb7b18dbc"
+  "output_hash": "e804ac8573e82c49b2171b341d4ab066b8472719ee4d1eaca236a66a0520c623"
 }

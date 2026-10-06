@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c8046a0caa317448f18a159d2508d9ed4e557bf",
       "words": 1165,
       "forms": 31
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:37.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003631
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:38.921Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:38.922Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:38.923Z",
+      "page": false
     }
   },
   "input_hash": "6c8046a0caa317448f18a159d2508d9ed4e557bf",
@@ -196,5 +215,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c8046a0caa317448f18a159d2508d9ed4e557bf"
+  "output_hash": "dcc8bce9b237544857a5976b94d01f53c527ee321fab34b7db47e623897bc9d5"
 }

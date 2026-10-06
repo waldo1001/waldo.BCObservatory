@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
+  "title": "Inventory valuation landing page (Power BI report)",
+  "blob": "d90a1e6c91c23a548a6f8d2d21526ce68b57b04f",
+  "summary": "Power BI Inventory Valuation app provides business leaders key information about inventory value across the organization through reports on valuation by location and item. Use it for executives to identify locations with most stock value and make informed cost decisions.",
+  "systems": [
+    "inventory",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power bi app",
+    "inventory valuation",
+    "costing",
+    "business intelligence",
+    "leadership dashboard"
+  ],
+  "objects": [],
+  "features": [
+    "Inventory Valuation Overview report",
+    "Inventory Valuation by Item report",
+    "Inventory Valuation by Location report",
+    "value tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

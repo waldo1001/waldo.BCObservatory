@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-scheduled-receipt.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt",
+  "title": "Scheduled Receipt (Power BI report)",
+  "blob": "accca140ee8c8681da95e776e8e6ce6929375c6d",
+  "summary": "Scheduled Receipt Power BI report shows inbound inventory for items from purchase orders, production, assembly, and transfers. Use it for managers and warehouse staff to know when to expect inventory and optimize purchasing and production levels.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "manufacturing"
+  ],
+  "topics": [
+    "power bi report",
+    "scheduled receipts",
+    "inbound inventory",
+    "warehouse planning",
+    "production coordination"
+  ],
+  "objects": [],
+  "features": [
+    "Scheduled Receipt KPI",
+    "Projected Available Balance KPI",
+    "FP Order Receipt KPI",
+    "Rel. Order Receipt KPI",
+    "inbound tracking from multiple sources"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

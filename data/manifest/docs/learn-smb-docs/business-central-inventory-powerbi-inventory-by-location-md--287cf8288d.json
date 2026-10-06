@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2e61549cd45c2b5584f2f42b1eac454c04eb2e7f",
       "words": 218,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:34.972Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:34.978Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:34.979Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:34.979Z",
+      "page": false
     }
   },
   "input_hash": "2e61549cd45c2b5584f2f42b1eac454c04eb2e7f",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e61549cd45c2b5584f2f42b1eac454c04eb2e7f"
+  "output_hash": "55a0ebe7022ca964369431c7cf4c0fee5c508a4d1940e52a42ea0afbf50aba00"
 }

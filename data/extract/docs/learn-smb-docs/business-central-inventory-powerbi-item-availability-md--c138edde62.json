@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-item-availability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability",
+  "title": "Item Availability (Power BI report)",
+  "blob": "43bf08a5ad1536da93037251f2d22f64e8a6a76b",
+  "summary": "Item Availability Power BI report shows availability of each item in terms of supply and demand. Use it for customer service and inventory management to identify items where demand exceeds supply and avoid delayed orders.",
+  "systems": [
+    "inventory",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "item availability",
+    "supply and demand",
+    "stock coordination",
+    "customer service"
+  ],
+  "objects": [],
+  "features": [
+    "Projected Available Balance KPI",
+    "Inventory (Quantity) KPI",
+    "Gross Requirement KPI",
+    "Scheduled Receipt KPI",
+    "Planned Order Receipt KPI",
+    "Planned Order Release KPI"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-validate-vat-registration-number.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
+  "title": "Validate VAT Registration Numbers",
+  "blob": "be906e297fa2d204dffeb424fb1601d9db8a7399",
+  "summary": "Validate VAT registration numbers for customers, vendors, and contacts using the EU VAT Reg. No. Validation Service, which integrates with the VIES service and supports optional validation templates for additional company information.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "validation",
+    "compliance",
+    "eu",
+    "service connection",
+    "registration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Connections"
+    },
+    {
+      "type": "page",
+      "name": "VAT Registration Log"
+    },
+    {
+      "type": "page",
+      "name": "VAT Reg. No. Validation Templates"
+    },
+    {
+      "type": "page",
+      "name": "EU VAT Registration No. Validation Service Setup"
+    },
+    {
+      "type": "page",
+      "name": "Validation Details"
+    }
+  ],
+  "features": [
+    "VAT number validation",
+    "VIES integration",
+    "validation templates",
+    "validation history",
+    "service endpoint configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003855,
+      "pages_in_call": 8
+    }
+  ]
+}

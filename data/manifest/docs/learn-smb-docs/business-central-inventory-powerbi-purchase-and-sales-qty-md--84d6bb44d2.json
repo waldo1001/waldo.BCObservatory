@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e",
       "words": 260,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:34.976Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00256
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:34.992Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:34.992Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:34.993Z",
+      "page": false
     }
   },
   "input_hash": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e"
+  "output_hash": "05e7b192f60f20d2fe9e4ea3d437cfac462ffc990400b7bc4107d82911307947"
 }

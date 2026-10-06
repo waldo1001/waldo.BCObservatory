@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-purchase-and-sales-qty.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty",
+  "title": "Purchase and Sales Quantity (Power BI report)",
+  "blob": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e",
+  "summary": "Purchase and Sales Quantity Power BI report shows purchase and sales quantities for items and item categories. Use it for leadership and managers to track inventory flow, align purchasing with demand, and monitor sales performance.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "power bi report",
+    "purchase quantities",
+    "sales quantities",
+    "item tracking",
+    "demand planning"
+  ],
+  "objects": [],
+  "features": [
+    "Net Qty. Purchased KPI",
+    "Net Qty. Sold KPI",
+    "Quantity KPI",
+    "Inventory (Quantity) KPI",
+    "Gross Requirement KPI",
+    "Scheduled Receipt KPI",
+    "strategic planning insights"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

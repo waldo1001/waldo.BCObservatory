@@ -1,0 +1,27 @@
+{
+  "video_id": "Of0Dw8V-4Yw",
+  "item_id": "video/yt-microsoft/Of0Dw8V-4Yw",
+  "summary": "Trial balance and accounts receivable aging reports in Business Central compared with Dynamics GP: detailed and summary trial balance, filtering, Excel export, and customer aging options. A 4-minute demo published 2024-08-26.",
+  "overview": "The video starts with a detail trial balance and a historical aged trial balance for receivables in Dynamics GP. It then shows how to get the same information in Business Central.\n\nIn Business Central it covers the detailed trial balance, the summary trial balance with prior year or budget comparison, export to Excel, and the aging report for customers. Filtering options are shown for each report.",
+  "key_points": [
+    "The Detailed Trial Balance report shows balances and the transactions posted to each account. It has an option to print a new page per GL account and can be filtered to one account or a range.",
+    "The Summary Trial Balance report compares current year balances to prior year or to budgeted amounts, and shows the variance as a percentage.",
+    "Budget comparison in the summary trial balance needs budgets to be configured in Business Central.",
+    "The summary report supports rounding options and filters by account range and date range.",
+    "Trial balance reports can be exported to Excel for further analysis and different visuals.",
+    "The Aging Report for receivables can age by transaction date or due date, uses a selectable aging date, and can print in detail format.",
+    "Filtering the aging report by customer class relies on customer class information having been migrated as posting groups."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "b623806edac7ecf95e017a7fda94375209d53786954397878d3861351e91b29b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0114224
+  }
+}

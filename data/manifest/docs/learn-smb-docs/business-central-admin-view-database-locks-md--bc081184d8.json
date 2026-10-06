@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "496301a786e5170f1d3a931a33352764566792c7",
       "words": 129,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:37.203Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003631
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:38.927Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:38.928Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:38.928Z",
+      "page": false
     }
   },
   "input_hash": "496301a786e5170f1d3a931a33352764566792c7",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "496301a786e5170f1d3a931a33352764566792c7"
+  "output_hash": "74b3a7ead23d8d96f1889205e3c13d2b2d411defd7a50608d56f8e23bd7d927e"
 }

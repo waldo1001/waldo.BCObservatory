@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-lot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot",
+  "title": "Inventory by Lot No. (Power BI report)",
+  "blob": "bf55dfc3e72d561f6bb2a7fc7b54f972fb3a54f9",
+  "summary": "Inventory by Lot No. Power BI report shows total inventory broken down per lot for lot-tracked items. Use it to optimize stock levels per lot, identify slow-moving inventory, and track lot expiration dates.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "lot tracking",
+    "inventory management",
+    "expiration tracking",
+    "warehouse operations"
+  ],
+  "objects": [],
+  "features": [
+    "Quantity KPI",
+    "Inventory (Quantity) KPI",
+    "Expired Inventory KPI",
+    "lot-by-lot performance tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00256,
+      "pages_in_call": 8
+    }
+  ]
+}

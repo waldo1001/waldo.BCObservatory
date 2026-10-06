@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40",
       "words": 2315,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:38.966Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003855
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:39.051Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:39.053Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:39.054Z",
+      "page": false
     }
   },
   "input_hash": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40"
+  "output_hash": "e9a3572a18a2e24c72e80115b546acfa666b22c937a85e7a1dd0beb02a161da9"
 }
