@@ -1,0 +1,69 @@
+---
+/**
+ * The information page skeleton (HANDOFF 3): breadcrumb, identity row, title, summary, stat tiles, actions, then main and
+ * side columns. The side column ends with the locator and the provenance list.
+ */
+import Base from "./Base.astro";
+import Badges from "../components/Badges.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+import { openInClaude, pageSystem, systemLabel } from "../lib/page";
+interface Stat { n: number | string; label: string; href?: string }
+interface Props {
+  fm: Record<string, any>; kind: string; path: string; section: string;
+  crumbs?: { label: string; href?: string }[]; stats?: Stat[]; context?: { label: string; href: string }; ns?: string; summary?: string | null;
+}
+const { fm, kind, path, section, crumbs = [], stats = [], context, ns, summary = fm.summary } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const site = new URL(base, Astro.site ?? "https://waldo1001.github.io").href;
+const mdUrl = `${base}${path}.md`;
+const mdName = `${path.split("/").pop()}.md`;
+const system = pageSystem(fm);
+const sysCrumb = system ? [{ label: systemLabel(system)!, href: `${base}#system=${system}` }] : [];
+const all = [{ label: "Galaxy", href: base }, ...sysCrumb, ...crumbs.filter((c) => !sysCrumb.some((s) => s.label === c.label)), { label: fm.title }];
+const long = String(fm.title).length > 38;
+const g = fm.generated ?? {};
+---
+<Base title={`${fm.title} · BC Observatory`} description={fm.summary} markdown={mdUrl} section={section}>
+  <main class="wrap page">
+    <Breadcrumb crumbs={all} />
+    <div class="identity">
+      <span class="type-label" style={system ? `color: var(--sys-${system})` : undefined}>{kind}</span>
+      <Badges tier={fm.tier} review={fm.review?.state} status={fm.type === "feature" ? fm.status : null} />
+      {fm.obsolete?.state && <span class="badge obsolete">obsolete - {String(fm.obsolete.state).toLowerCase()}</span>}
+    </div>
+    <h1 class={long ? "long" : undefined}>{fm.title}</h1>
+    {ns && <p class="ns">{ns}</p>}
+    {summary && <p class="lead">{summary}</p>}
+    {stats.length > 0 && (
+      <ul class="stats">{stats.map((s) => <li>{s.href ? <a href={s.href}><b>{typeof s.n === "number" ? s.n.toLocaleString("en") : s.n}</b>{s.label}</a> : <span><b>{typeof s.n === "number" ? s.n.toLocaleString("en") : s.n}</b>{s.label}</span>}</li>)}</ul>
+    )}
+    <div class="actions">
+      <a class="btn primary" href={openInClaude(String(fm.title), new URL(`${path}.md`, site).href)} rel="noopener">Open in Claude</a>
+      <a class="btn mono" href={mdUrl} type="text/markdown">{mdName}</a>
+      {context && <a class="btn" href={context.href} rel="noopener">{context.label}</a>}
+    </div>
+    <div class="columns">
+      <div class="main"><slot /></div>
+      <aside class="side" aria-label="About this page">
+        <slot name="side" />
+        {system && (
+          <section>
+            <h2>In the galaxy</h2>
+            <a class="chip-sys" style={`--dot: var(--sys-${system})`} href={`${base}#system=${system}`}>{systemLabel(system)}</a>
+          </section>
+        )}
+        <section>
+          <h2>Provenance</h2>
+          <dl class="prov">
+            <dt>Tier</dt><dd>{fm.tier}</dd>
+            <dt>Review</dt><dd>{fm.review?.state ?? "unreviewed"}{fm.review?.by ? ` by ${fm.review.by}` : ""}</dd>
+            {g.at && <><dt>Generated</dt><dd>{String(g.at).slice(0, 10)}</dd></>}
+            {g.pipeline && <><dt>Pipeline</dt><dd>{g.pipeline}</dd></>}
+            {g.input_hash && <><dt>Input</dt><dd title={g.input_hash}>{String(g.input_hash).slice(0, 12)}</dd></>}
+            <dt>Id</dt><dd>{fm.id}</dd>
+          </dl>
+        </section>
+      </aside>
+    </div>
+  </main>
+</Base>

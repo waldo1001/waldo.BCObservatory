@@ -1,14 +1,25 @@
 ---
-import { getCollection, render } from "astro:content";
-import Base from "../../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import Page from "../../../layouts/Page.astro";
+import { siteLinks } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
 export async function getStaticPaths() {
   return (await getCollection("features")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
-const { Content } = await render(entry);
 const base = import.meta.env.BASE_URL;
+const fm = entry.data;
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `features/${entry.id}`));
+const roadmap = (fm.evidence ?? []).find((e: any) => e.kind === "roadmap");
+const L = fm.links ?? {};
+const stats = [
+  ...(fm.ga_date ? [{ n: String(fm.ga_date).slice(0, 7), label: "GA" }] : []),
+  ...(fm.preview_date ? [{ n: String(fm.preview_date).slice(0, 7), label: "preview" }] : []),
+  { n: L.videos?.length ?? 0, label: "videos", href: "#covered-by" },
+  { n: L.learn?.length ?? 0, label: "Learn pages", href: "#covered-by" },
+];
 ---
-<Base title={`${entry.data.title} · BC Observatory`} description={entry.data.summary} markdown={`${base}features/${entry.id}.md`}>
-  <p class="eyebrow">Feature · {entry.data.tier} · <a href={`${base}features/${entry.id}.md`}>markdown</a></p>
-  <Content />
-</Base>
+<Page fm={fm} kind="roadmap feature" path={`features/${entry.id}`} section="features" crumbs={[{ label: "Roadmap", href: `${base}features/` }]} stats={stats}
+  context={roadmap ? { label: "Microsoft 365 roadmap", href: roadmap.url } : undefined}>
+  <div class="prose" set:html={html} />
+</Page>

@@ -18,6 +18,9 @@ import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY
 import matter from "gray-matter";
 import { loadSources, taxonomy } from "../lib/config.js";
 import { exists, listFiles, readText, removeIfExists, writeText } from "../lib/fsx.js";
+import { objectSystem } from "../lib/systems.js";
+
+export { objectSystem };
 
 export const TOP_OBJECTS = 300;
 export const LAYOUT = "d3-force@seed:42";
@@ -25,21 +28,6 @@ const TICKS = 300;
 
 export interface GNode extends SimulationNodeDatum { id: string; type: string; label: string; tier: string; group: string; weight: number; url: string; lit_at: string | null; x?: number; y?: number }
 export interface GEdge { s: string; t: string; type: string; w?: number }
-
-/** Namespace → galaxy system for object pages (first segment after Microsoft that maps). */
-const NS_SYSTEM: Record<string, string> = {
-  finance: "finance", bank: "finance", sales: "sales", purchases: "purchasing", inventory: "inventory", warehouse: "warehouse",
-  manufacturing: "manufacturing", projects: "projects", service: "service", assembly: "assembly", fixedassets: "fixed-assets",
-  crm: "crm", humanresources: "hr", sustainability: "sustainability", integration: "integration", api: "integration",
-  edocument: "integration", eservices: "integration", agents: "copilot", copilot: "copilot", "ai": "copilot",
-  utilities: "platform", foundation: "platform", system: "platform", upgrade: "platform", environment: "administration",
-  security: "administration", "systemadmin": "administration", reporting: "reporting", powerbi: "reporting",
-};
-export function objectSystem(namespace: string | null | undefined): string {
-  const parts = String(namespace ?? "").toLowerCase().split(".");
-  for (const p of parts.slice(1)) if (NS_SYSTEM[p]) return NS_SYSTEM[p];
-  return "development";
-}
 
 const h32 = (s: string) => createHash("sha256").update(s).digest().readUInt32BE(0);
 

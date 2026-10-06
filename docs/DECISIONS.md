@@ -210,3 +210,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Lanes get a capacity (`lanes`): blog fetches 3 at a time, yt-dlp stays at 1 (D15). Why: one unlimited window a day
   would leave the Mini idle once the week's spend cap binds, while the Learn, video and blog backlog needs about two
   to three days of continuous work.
+- **D42 The site follows the Claude Design handoff ("Deep field").** `design/tokens.json` and `design/HANDOFF.md`
+  (owner 2026-10-06) drive the Astro site: `site/src/lib/tokens.ts` maps tokens.json to CSS variables, served once
+  as `/tokens.css`, and fills the values the handoff left undesigned (light badges, mixed tier, video, blog and
+  roadmap evidence, roadmap status, removed diff lines) with AA stand-ins until a design pass adds them to
+  tokens.json. Dark first, light on `prefers-color-scheme` or the header toggle. Fonts are self-hosted through
+  Fontsource (Bricolage Grotesque, JetBrains Mono). One name: "BC Observatory" (owner, 2026-10-06), no second
+  "Business Central Galaxy" title. Every information page shares the handoff's skeleton (`layouts/Page.astro`), and
+  the markdown body stays the main column, so the page and its markdown twin never diverge.

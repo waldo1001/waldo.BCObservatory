@@ -1,12 +1,12 @@
 ---
 import { getCollection } from "astro:content";
-import Base from "../../layouts/Base.astro";
+import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("posts")).sort((a, b) => String(b.data.published_at ?? "").localeCompare(String(a.data.published_at ?? "")));
 ---
-<Base title="Community posts · BC Observatory" description="Business Central blog posts as derived evidence.">
+<List section="posts" title="Community posts · BC Observatory" description="Business Central blog posts as derived evidence.">
   <p class="eyebrow">Community posts</p>
   <h1>{all.length} posts</h1>
   <p class="lede">Summaries, key points and short quotes from Business Central blogs, linking to the original. Agents: <a href={`${base}posts/llms.txt`}>llms.txt</a>.</p>
   <ul>{all.map((e) => <li><a href={`${base}posts/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.source_name} · {String(e.data.published_at ?? "").slice(0, 10)}</span></li>)}</ul>
-</Base>
+</List>

@@ -1,12 +1,12 @@
 ---
 import { getCollection } from "astro:content";
-import Base from "../../layouts/Base.astro";
+import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("localizations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
-<Base title="Localizations · BC Observatory" description="What each country layer of Business Central adds to or changes in W1.">
+<List section="localizations" title="Localizations · BC Observatory" description="What each country layer of Business Central adds to or changes in W1.">
   <p class="eyebrow">Localizations</p>
   <h1>{all.length} country layers</h1>
   <p class="lede">From the code: objects of their own, W1 objects they change, fields and events they add. Agents: <a href={`${base}localizations/llms.txt`}>llms.txt</a>.</p>
   <ul>{all.map((e) => <li><a href={`${base}localizations/${e.id}/`}>{e.data.title}</a> <span class="meta">BC{e.data.version} · {e.data.added_objects} own, {e.data.replaced_objects} changed</span></li>)}</ul>
-</Base>
+</List>

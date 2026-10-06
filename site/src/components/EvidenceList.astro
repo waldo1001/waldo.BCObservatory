@@ -1,0 +1,30 @@
+---
+/** Evidence chips (HANDOFF 4): kind tag, title (mono for file paths), right-aligned meta; each links to the source. */
+import { evidenceMeta, evidenceTitle, type Evidence } from "../lib/page";
+/** total: the full count when the page carries only part of the evidence (topic hubs keep 40 of N Learn pages). */
+interface Props { evidence: Evidence[]; title?: string; noun?: string; limit?: number; id?: string; total?: number }
+const { evidence, title = "Evidence", noun = "sources", limit = 8, id = "evidence", total } = Astro.props;
+const count = Math.max(total ?? 0, evidence.length);
+const shown = evidence.slice(0, limit), rest = evidence.slice(limit);
+const chip = (e: Evidence) => ({ e, meta: evidenceMeta(e), text: evidenceTitle(e), path: e.kind === "code" });
+---
+{evidence.length > 0 && (
+  <section aria-labelledby={id}>
+    <h2 class="section-title" id={id}>{title} <small>{shown.length < count ? `${shown.length} of ${count} ${noun}` : `${count} ${noun}`}</small></h2>
+    <ul class="evidence">
+      {shown.map(chip).map(({ e, meta, text, path }) => (
+        <li><a class="ev" href={e.url} rel="noopener"><span class={`kind ${e.kind}`}>{e.kind}</span><span class={`t${path ? " path" : ""}`}>{text}</span>{meta && <span class="m">{meta}</span>}</a></li>
+      ))}
+    </ul>
+    {rest.length > 0 && (
+      <details class="more">
+        <summary>Show {rest.length} more</summary>
+        <ul class="evidence">
+          {rest.map(chip).map(({ e, meta, text, path }) => (
+            <li><a class="ev" href={e.url} rel="noopener"><span class={`kind ${e.kind}`}>{e.kind}</span><span class={`t${path ? " path" : ""}`}>{text}</span>{meta && <span class="m">{meta}</span>}</a></li>
+          ))}
+        </ul>
+      </details>
+    )}
+  </section>
+)}

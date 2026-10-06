@@ -1,11 +1,11 @@
 ---
 import { getCollection } from "astro:content";
-import Base from "../../layouts/Base.astro";
+import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("digests")).sort((a, b) => b.id.localeCompare(a.id));
 ---
-<Base title="Weekly digests · BC Observatory" description="What changed in Business Central each week.">
+<List section="digests" title="Weekly digests · BC Observatory" description="What changed in Business Central each week.">
   <p class="eyebrow">Weekly digests · <a href={`${base}rss.xml`}>RSS</a></p>
   <h1>{all.length} weeks</h1>
   <ul>{all.map((e) => <li><a href={`${base}digests/${e.id}/`}>{e.id}</a> <span class="meta">{e.data.range.start} to {e.data.range.end} · {e.data.sections.videos} videos, {e.data.sections.posts} posts, {e.data.sections.docs} Learn commits</span></li>)}</ul>
-</Base>
+</List>

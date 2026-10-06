@@ -1,0 +1,14 @@
+---
+/** Section index pages: header, breadcrumb, then the page's own list markup in one column. */
+import Base from "./Base.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+interface Props { title: string; description?: string; section?: string; crumb?: string }
+const { title, description, section, crumb } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<Base title={title} description={description} section={section}>
+  <main class="wrap page list-page">
+    <Breadcrumb crumbs={[{ label: "Galaxy", href: base }, { label: crumb ?? title.replace(/ · BC Observatory$/, "") }]} />
+    <slot />
+  </main>
+</Base>

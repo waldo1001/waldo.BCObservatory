@@ -1,14 +1,17 @@
 ---
-import { getCollection, render } from "astro:content";
-import Base from "../../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import Page from "../../../layouts/Page.astro";
+import { siteLinks } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
 export async function getStaticPaths() {
   return (await getCollection("videos")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
-const { Content } = await render(entry);
 const base = import.meta.env.BASE_URL;
+const fm = entry.data;
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `videos/${entry.id}`));
 ---
-<Base title={`${entry.data.title} · BC Observatory`} description={entry.data.summary} markdown={`${base}videos/${entry.id}.md`}>
-  <p class="eyebrow">Video · {entry.data.tier} · <a href={`${base}videos/${entry.id}.md`}>markdown</a></p>
-  <Content />
-</Base>
+<Page fm={fm} kind="video" path={`videos/${entry.id}`} section="videos" crumbs={[{ label: "Videos", href: `${base}videos/` }]}
+  context={{ label: "Watch on YouTube", href: `https://www.youtube.com/watch?v=${entry.id}` }}>
+  <div class="prose" set:html={html} />
+</Page>

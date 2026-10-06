@@ -1,0 +1,10 @@
+---
+/** Tier and review badges (HANDOFF 4): plain wording, review dashed while unreviewed, never red, never an icon. */
+interface Props { tier?: string; review?: string | null; status?: string | null }
+const { tier, review, status } = Astro.props;
+const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
+const STATUS: Record<string, string> = { ga: "generally available", preview: "in preview" };
+---
+{tier && <span class={`badge ${tier}`}>{TIER[tier] ?? tier}</span>}
+{review && <span class={`badge ${review === "reviewed" ? "reviewed" : "unreviewed"}`}>{review === "reviewed" ? "reviewed - checked by Opus" : "unreviewed - machine-generated"}</span>}
+{status && <span class={`badge status-${status in STATUS ? status : "other"}`}>{STATUS[status] ?? status}</span>}

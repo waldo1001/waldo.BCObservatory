@@ -1,17 +1,30 @@
 ---
 import { getCollection } from "astro:content";
-import { posix } from "node:path";
-import Base from "../../../layouts/Base.astro";
+import Page from "../../../layouts/Page.astro";
+import EvidenceList from "../../../components/EvidenceList.astro";
+import { siteLinks } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
 export async function getStaticPaths() {
-  return (await getCollection("topics")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+  const all = await getCollection("topics");
+  const titles = new Map(all.map((e) => [`topic/${e.id}`, String(e.data.title)]));
+  return all.map((entry) => ({ params: { id: entry.id }, props: { entry, parentTitle: titles.get(entry.data.parent) ?? null } }));
 }
-const { entry } = Astro.props;
+const { entry, parentTitle } = Astro.props;
 const base = import.meta.env.BASE_URL;
-// the markdown links topic pages relatively (works on GitHub); on the site each page is a directory URL
-const html = (entry.rendered?.html ?? "").replace(/href="([^":#?]+)\.md"/g, (_m: string, rel: string) =>
-  `href="${base}topics/${posix.normalize(posix.join(posix.dirname(entry.id), rel))}/"`);
+const fm = entry.data;
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `topics/${entry.id}`));
+const learn = (fm.evidence ?? []).filter((e: any) => e.kind === "learn");
+const L = fm.links ?? {};
+const crumbs = [{ label: "Topics", href: `${base}topics/` }, ...(fm.parent && parentTitle ? [{ label: parentTitle, href: `${base}topics/${String(fm.parent).replace(/^topic\//, "")}/` }] : [])];
+const stats = [
+  { n: fm.coverage?.learn ?? learn.length, label: "Learn pages", href: "#evidence" },
+  ...(fm.children?.length ? [{ n: fm.children.length, label: "subtopics", href: "#subtopics" }] : []),
+  ...(L.videos?.length ? [{ n: L.videos.length, label: "videos" }] : []),
+  ...(L.features?.length ? [{ n: L.features.length, label: "roadmap features" }] : []),
+  ...(L.objects?.length ? [{ n: L.objects.length, label: "AL objects" }] : []),
+];
 ---
-<Base title={`${entry.data.title} · BC Observatory`} description={entry.data.summary} markdown={`${base}topics/${entry.id}.md`}>
-  <p class="eyebrow">Topic · {entry.data.system ?? "no system"} · <a href={`${base}topics/${entry.id}.md`}>markdown</a></p>
-  <article set:html={html} />
-</Base>
+<Page fm={fm} kind="topic hub" path={`topics/${entry.id}`} section="topics" crumbs={crumbs} stats={stats}>
+  <div class="prose" set:html={html} />
+  <EvidenceList evidence={learn} title="What Learn documents here" noun="Learn pages" total={fm.coverage?.learn} />
+</Page>

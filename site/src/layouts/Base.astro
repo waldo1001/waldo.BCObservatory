@@ -1,7 +1,16 @@
 ---
-interface Props { title: string; description?: string; markdown?: string }
-const { title, description, markdown } = Astro.props;
+import "@fontsource-variable/bricolage-grotesque/opsz.css";
+import "@fontsource/jetbrains-mono/400.css";
+import "@fontsource/jetbrains-mono/500.css";
+import "../styles/site.css";
+interface Props { title: string; description?: string; markdown?: string; section?: string; bare?: boolean }
+const { title, description, markdown, section, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const repo = "https://github.com/waldo1001/waldo.BCObservatory";
+const nav = [
+  ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
+  ["videos", "Videos"], ["posts", "Posts"], ["digests", "Weekly"], ["sources", "Sources"],
+];
 ---
 <html lang="en">
   <head>
@@ -9,31 +18,54 @@ const base = import.meta.env.BASE_URL;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <meta name="color-scheme" content="dark light" />
     <link rel="alternate" type="text/plain" href={`${base}llms.txt`} title="llms.txt" />
     {markdown && <link rel="alternate" type="text/markdown" href={markdown} title="Markdown" />}
+    <link rel="alternate" type="application/rss+xml" href={`${base}rss.xml`} title="BC Observatory weekly" />
+    <link rel="stylesheet" href={`${base}tokens.css`} />
+    <script is:inline>
+      try { const t = localStorage.getItem("bcobs-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+    </script>
   </head>
   <body>
-    <header><a href={base}>BC Observatory</a> · <a href={`${base}topics/`}>Topics</a> · <a href={`${base}features/`}>Features</a> · <a href={`${base}videos/`}>Videos</a> · <a href={`${base}posts/`}>Posts</a> · <a href={`${base}objects/`}>Objects</a> · <a href={`${base}localizations/`}>Localizations</a> · <a href={`${base}digests/`}>Weekly</a> · <a href={`${base}sources/`}>Sources</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a></header>
-    <main><slot /></main>
-    <style is:global>
-      :root { color-scheme: light dark; --bg: #fbfbfd; --fg: #1d1d22; --muted: #5b5b66; --line: #e2e2ea; --accent: #3a5bd9; --warn: #9a5b00; }
-      @media (prefers-color-scheme: dark) { :root { --bg: #0d0f17; --fg: #e9e9f0; --muted: #a0a0b2; --line: #262a3a; --accent: #8ea6ff; --warn: #f0b45a; } }
-      body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-      header { max-width: 46rem; margin: 0 auto; padding: 1rem 1rem 0; color: var(--muted); font-size: .9rem; }
-      main { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; overflow-wrap: anywhere; }
-      .eyebrow { color: var(--muted); font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin: 0; }
-      h1 { font-size: 2.1rem; line-height: 1.2; margin: .25rem 0 1rem; }
-      h2 { font-size: 1.15rem; margin-top: 2.5rem; }
-      .lede, blockquote { font-size: 1.1rem; color: var(--muted); }
-      blockquote { margin: 0 0 1rem; padding-left: 1rem; border-left: 3px solid var(--line); }
-      a { color: var(--accent); }
-      table { border-collapse: collapse; width: 100%; font-size: .92rem; display: block; overflow-x: auto; }
-      th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
-      .num td:last-child, .num th:last-child { text-align: right; }
-      ul.list { list-style: none; padding: 0; }
-      ul.list li { padding: .75rem 0; border-bottom: 1px solid var(--line); }
-      .meta { color: var(--muted); font-size: .88rem; }
-      .badge { font-size: .75rem; padding: .05rem .45rem; border-radius: 1rem; border: 1px solid currentColor; color: var(--warn); }
-    </style>
+    <a class="skip" href="#content">Skip to content</a>
+    {!bare && (
+      <header class="site-header">
+        <div class="wrap">
+          <a class="wordmark" href={base}>BC Observatory<small>unofficial, made by waldo</small></a>
+          <nav class="site-nav" aria-label="Sections">
+            {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
+          </nav>
+          <form class="site-search" role="search" action={`${base}search/`} method="get">
+            <label class="skip" for="q">Search the knowledge base</label>
+            <input id="q" name="q" type="search" placeholder="Search: table 18, Sales-Post, BE" autocomplete="off" />
+            <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme" title="Switch theme">◐</button>
+          </form>
+        </div>
+      </header>
+    )}
+    <div id="content"><slot /></div>
+    {!bare && (
+      <footer class="site-footer">
+        <div class="wrap">
+          <p>BC Observatory is unofficial and not affiliated with Microsoft. Made by waldo, rebuilt every night.</p>
+          <p>
+            <a href={repo}>Repository</a> · code MIT, content CC BY 4.0 · <a href={`${base}llms.txt`}>llms.txt</a> ·
+            MCP: <code>npx bc-observatory</code> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
+            <a href={`${base}rss.xml`}>RSS</a> · <a href={`${repo}/issues`}>Report a problem</a>
+          </p>
+        </div>
+      </footer>
+    )}
+    <script is:inline>
+      for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {
+        const root = document.documentElement;
+        const now = root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        const next = now === "light" ? "dark" : "light";
+        root.dataset.theme = next;
+        try { localStorage.setItem("bcobs-theme", next); } catch {}
+        dispatchEvent(new Event("bcobs-theme"));
+      });
+    </script>
   </body>
 </html>
