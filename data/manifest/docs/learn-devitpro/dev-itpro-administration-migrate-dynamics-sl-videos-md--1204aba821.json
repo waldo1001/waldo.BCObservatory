@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos",
   "published_at": "2025-05-06T19:27:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cd96c0d63657e0341bad535df69ef92924c9d21c",
       "words": 333,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.611Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.777Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.779Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.780Z",
+      "page": false
     }
   },
   "input_hash": "cd96c0d63657e0341bad535df69ef92924c9d21c",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd96c0d63657e0341bad535df69ef92924c9d21c"
+  "output_hash": "9104da2a699eac48f7af92fd73d46eb4010b51b0646dfe4d8d33ef9f7e696536"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-multilist-pages",
   "published_at": "2025-05-06T19:27:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ef65ce2b9030f6d773fc68e722e8a3717cc4db5a",
       "words": 33,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.605Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.752Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.753Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.755Z",
+      "page": false
     }
   },
   "input_hash": "ef65ce2b9030f6d773fc68e722e8a3717cc4db5a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef65ce2b9030f6d773fc68e722e8a3717cc4db5a"
+  "output_hash": "ca01d3da32215b3dbae358ff2d0d6b928b8626ad99bc0c651584ec7d5a6cff48"
 }

@@ -1,0 +1,121 @@
+{
+  "video_id": "Zm_qlPtUhNM",
+  "item_id": "video/yt-microsoft/Zm_qlPtUhNM",
+  "title": "BCTalent Stories: Sabre Limited",
+  "duration_s": 110,
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "talent acquisition",
+    "workforce development",
+    "reskill program",
+    "training and coaching",
+    "partner ecosystem",
+    "digital natives"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sabre Limited",
+      "t_start": 0,
+      "t_end": 17.4
+    },
+    {
+      "title": "The talent shortage in the Business Central ecosystem",
+      "t_start": 17.4,
+      "t_end": 31.5
+    },
+    {
+      "title": "Need for digital natives and new perspectives",
+      "t_start": 31.5,
+      "t_end": 54.3
+    },
+    {
+      "title": "Reskill program addressing the talent gap",
+      "t_start": 54.3,
+      "t_end": 74.5
+    },
+    {
+      "title": "Value of combined recruiting, training and mentoring",
+      "t_start": 74.5,
+      "t_end": 110
+    }
+  ],
+  "features": [
+    {
+      "name": "Reskill program",
+      "description": "A program that combines recruiting, training, onboarding and mentoring of candidates to help fill the talent gap in the Business Central ecosystem. Helps partners find and develop qualified staff more efficiently than doing it independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.3,
+      "t_end": 90.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "training",
+        "recruiting",
+        "onboarding",
+        "mentoring"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Rob Jolof",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.4,
+      "text": "business Central is one of the fastest growing Erp systems in the cloud today and that growth is causing a problem where there just",
+      "why_it_matters": "Establishes the core problem driving the need for talent development programs in the Business Central ecosystem.",
+      "check": "exact"
+    },
+    {
+      "t": 31.5,
+      "text": "business Central is a new technology we need a new mindset we need a new perspective and Millennials and younger people are bringing that",
+      "why_it_matters": "Highlights the mindset shift needed for Business Central adoption and the value younger talent brings to implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 54.3,
+      "text": "two months to have res skill find that candidate was about what it might have taken us but the effort was much much less",
+      "why_it_matters": "Quantifies the efficiency gain from using Reskill versus internal recruiting efforts.",
+      "check": "exact"
+    },
+    {
+      "t": 54.3,
+      "text": "the most valuable component of res skill is the training and coaching",
+      "why_it_matters": "Identifies training and coaching as the key differentiator of the Reskill program value proposition.",
+      "check": "snapped"
+    },
+    {
+      "t": 90.4,
+      "text": "the fact that res skill is combining both the recruiting and the training and onboarding and mentoring of those candidates is a huge advantage",
+      "why_it_matters": "Emphasizes the integrated approach of Reskill as a competitive advantage for partners managing talent.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008588
+    }
+  ]
+}

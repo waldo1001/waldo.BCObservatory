@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-handling-guidelines",
   "published_at": "2025-05-06T19:28:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "07552b61f8146f3830f2357c1b722cb13727a388",
       "words": 1045,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.349Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011392
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.400Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.401Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.402Z",
+      "page": false
     }
   },
   "input_hash": "07552b61f8146f3830f2357c1b722cb13727a388",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07552b61f8146f3830f2357c1b722cb13727a388"
+  "output_hash": "48bf24f3eccc0757a0421c58ef49a8e27b6da0cef06706666343c7334c6c13c5"
 }

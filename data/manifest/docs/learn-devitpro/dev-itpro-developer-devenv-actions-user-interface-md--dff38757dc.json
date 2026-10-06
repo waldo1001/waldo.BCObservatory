@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-user-interface",
   "published_at": "2025-05-06T19:28:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ad9f8782532481406ac8455c9f79b92cd683de89",
       "words": 1176,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.350Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011392
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.403Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.404Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.405Z",
+      "page": false
     }
   },
   "input_hash": "ad9f8782532481406ac8455c9f79b92cd683de89",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad9f8782532481406ac8455c9f79b92cd683de89"
+  "output_hash": "4e8d93081fdbce889a013df50fdfa92131fef3f4595f691d8b35515d48ee55d2"
 }

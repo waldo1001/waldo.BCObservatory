@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action",
   "published_at": "2025-05-06T19:28:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "70c6fe7b343cd4618a1d315980b98178f94de808",
       "words": 246,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.335Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.011392
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.378Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.379Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.381Z",
+      "page": false
     }
   },
   "input_hash": "70c6fe7b343cd4618a1d315980b98178f94de808",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "70c6fe7b343cd4618a1d315980b98178f94de808"
+  "output_hash": "837f950c45486a026a1d0b5277715b43dfd6cf3d8ee7f77b893769e4c3681e38"
 }

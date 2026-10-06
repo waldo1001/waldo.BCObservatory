@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-ext-object",
   "published_at": "2025-05-06T19:28:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b014f8deeca2b3a6898a6943b8396a76929d92c",
       "words": 251,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.348Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.011392
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.397Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.398Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.399Z",
+      "page": false
     }
   },
   "input_hash": "1b014f8deeca2b3a6898a6943b8396a76929d92c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b014f8deeca2b3a6898a6943b8396a76929d92c"
+  "output_hash": "88dd56155445f68fb2d126ca0e9917563da2c3b808442750c74be6d75c6b5799"
 }

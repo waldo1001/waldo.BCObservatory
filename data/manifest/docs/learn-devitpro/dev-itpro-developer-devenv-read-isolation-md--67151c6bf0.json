@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-read-isolation",
   "published_at": "2025-05-06T19:28:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "28d3e8f1232128b38df6e84b878208a4c2fa38ee",
       "words": 762,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.331Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004493
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.351Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.352Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.362Z",
+      "page": false
     }
   },
   "input_hash": "28d3e8f1232128b38df6e84b878208a4c2fa38ee",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "28d3e8f1232128b38df6e84b878208a4c2fa38ee"
+  "output_hash": "edafe79fdb6fa5bdde61540e3562d0957a888715b51ee0989b67bb94f04eeaac"
 }

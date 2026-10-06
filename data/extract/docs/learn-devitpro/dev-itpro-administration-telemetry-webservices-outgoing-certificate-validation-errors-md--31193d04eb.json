@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
+  "title": "Server certificate validation errors for outgoing web service requests",
+  "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
+  "summary": "Analyze server certificate validation errors in outgoing web service requests using HTTPClient to identify certificate issues on remote endpoints.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "ssl certificate",
+    "http client",
+    "web services"
+  ],
+  "objects": [],
+  "features": [
+    "certificate validation",
+    "HTTP request monitoring",
+    "certificate chain analysis",
+    "endpoint validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003903,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration",
   "published_at": "2025-05-06T19:28:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cabc2fb3c7df553db7b6a5b425717704d040dfd1",
       "words": 570,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.346Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011392
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.382Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.383Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.394Z",
+      "page": false
     }
   },
   "input_hash": "cabc2fb3c7df553db7b6a5b425717704d040dfd1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cabc2fb3c7df553db7b6a5b425717704d040dfd1"
+  "output_hash": "456d1f9eff49f9c2659d0fb4823cea2d839e6400fc68a1de2ebf465278ec53f3"
 }

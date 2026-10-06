@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens",
   "published_at": "2025-05-06T19:27:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee43ccebb7c5353350c8d2e437c17c5a689e5e63",
       "words": 546,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.604Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.744Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.747Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.750Z",
+      "page": false
     }
   },
   "input_hash": "ee43ccebb7c5353350c8d2e437c17c5a689e5e63",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee43ccebb7c5353350c8d2e437c17c5a689e5e63"
+  "output_hash": "1cc1f74a63c171051d4eee5a77d36a7c9dc8499b32900ef61496c65a0a374d42"
 }

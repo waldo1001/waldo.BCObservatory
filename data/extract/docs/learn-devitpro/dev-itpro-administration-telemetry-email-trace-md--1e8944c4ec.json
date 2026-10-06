@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-email-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace",
+  "title": "Analyze email trace telemetry",
+  "blob": "59f14a7af695451520523c6a9b6d54d853fead89",
+  "summary": "Analyze email telemetry to monitor email sending success and failures, including SMTP authentication and connection events.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "telemetry",
+    "email",
+    "smtp",
+    "monitoring"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Email Dispatcher"
+    }
+  ],
+  "features": [
+    "email sending",
+    "SMTP authentication",
+    "SMTP connection",
+    "email outbox",
+    "email connectors"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003903,
+      "pages_in_call": 8
+    }
+  ]
+}

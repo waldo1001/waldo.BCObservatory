@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-filter-tokens.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens",
+  "title": "Adding Custom Filter Tokens",
+  "blob": "ee43ccebb7c5353350c8d2e437c17c5a689e5e63",
+  "summary": "Creating custom filter tokens in AL to allow users to enter special words that resolve to filter values in list filtering, reducing the need to look up values manually.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "filter tokens",
+    "al development",
+    "event subscribers",
+    "custom filters"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Filter Tokens"
+    },
+    {
+      "type": "codeunit",
+      "name": "MyAccountFilterTokenSimple"
+    }
+  ],
+  "features": [
+    "filter tokens",
+    "text filter resolution",
+    "event subscription",
+    "OnResolveTextFilterToken event"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003878,
+      "pages_in_call": 8
+    }
+  ]
+}

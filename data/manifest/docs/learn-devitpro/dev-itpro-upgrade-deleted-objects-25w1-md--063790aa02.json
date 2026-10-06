@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1",
   "published_at": "2025-05-06T19:28:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "725ca3e384d445c7aefaeecca52db48ad1217fbc",
       "words": 15612,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:28.334Z",
+      "prompt": "extract-docs@1",
+      "parts": 3,
+      "objects": 104,
+      "cost_usd": 0.107297
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.373Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.375Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.377Z",
+      "page": false
     }
   },
   "input_hash": "725ca3e384d445c7aefaeecca52db48ad1217fbc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "725ca3e384d445c7aefaeecca52db48ad1217fbc"
+  "output_hash": "e3ae2b7b2710111a74b455709b55c5b6abed5b9e5ad8cd79f57c2ecbdf3b18f8"
 }
