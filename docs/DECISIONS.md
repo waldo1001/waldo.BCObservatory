@@ -273,3 +273,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (`?ns=`), and a filterable table lists what is in view. The per-type pages and llms.txt stay for agents and links.
   Why: 16k objects in id-sorted lists of 4,000 rows gave no sense of where the code is, what changes, or what is
   documented; the atlas answers those at a glance and in the galaxy's visual language.
+- **D48 Version lens and deprecation radar pages.** `/code/versions/` renders the W1 version diffs
+  (data/code/diffs/version) by area (first namespace segment, from index/objects.json) with the member changes of
+  each object under a disclosure; `/code/deprecations/` renders the current major's deprecations as a cleanup
+  calendar by CLEAN version (what Microsoft removes in which release) with client-side filters by area, kind and
+  state, and serves the JSON at `/code/deprecations/<major>.json`. Both are static HTML over data the pipeline
+  already wrote (D31) and nothing read; the weekly digest links to the radar. Why: partners act on "what breaks my
+  extension in BC31" and "what changed in Sales between 28 and 29", and the data sat unused in the repo.

@@ -1,0 +1,91 @@
+---
+/** Deprecation radar (D48): every obsolete object, field, value and procedure of the current major as a cleanup calendar. */
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import List from "../../../layouts/List.astro";
+import { area, objectsIndex, titleOf } from "../../../lib/objects";
+interface Dep { key: string; object: string; member: string | null; kind: string; state: string | null; tag: string | null; reason: string | null; clean: string[]; clean_version: string | null }
+interface File { major: string; count: number; by_tag: Record<string, number>; items: Dep[] }
+const versions = JSON.parse(readFileSync(resolve(process.cwd(), "..", "config", "versions.json"), "utf8")) as { narrative_order: string[] };
+const dir = resolve(process.cwd(), "..", "data", "code", "deprecations");
+const major = versions.narrative_order.find((m) => existsSync(resolve(dir, `${m}.json`))) ?? null;
+const file: File | null = major ? JSON.parse(readFileSync(resolve(dir, `${major}.json`), "utf8")) : null;
+const base = import.meta.env.BASE_URL;
+const idx = objectsIndex();
+const info = (key: string) => idx.get(key) ?? null;
+const items = file?.items ?? [];
+const byClean = new Map<string, Dep[]>();
+for (const d of items) { const k = d.clean_version ? `CLEAN${d.clean_version}` : "no cleanup guard"; byClean.set(k, [...(byClean.get(k) ?? []), d]); }
+const cleanKeys = [...byClean.keys()].sort((a, b) => (a.startsWith("CLEAN") && b.startsWith("CLEAN") ? Number(a.slice(5)) - Number(b.slice(5)) : a.startsWith("CLEAN") ? -1 : 1));
+const max = Math.max(1, ...[...byClean.values()].map((l) => l.length));
+const states = [...new Set(items.map((d) => d.state ?? "guarded"))].sort();
+const kinds = [...new Set(items.map((d) => d.kind))].sort();
+const label = (d: Dep) => { const i = info(d.key); return i ? titleOf(i) : `${d.key} "${d.object}"`; };
+const link = (d: Dep) => (info(d.key) ? `${base}objects/${d.key}/` : null);
+---
+<List section="objects" title="Deprecation radar · BC Observatory" description={`Every obsolete object, field, value and procedure of Business Central BC${major ?? ""}, as a cleanup calendar by CLEAN version.`} crumb="Deprecation radar">
+  <p class="eyebrow">AL objects · deprecations</p>
+  <h1>Deprecation radar</h1>
+  <p class="lede">{file ? `${file.count.toLocaleString("en")} obsolete elements in the BC${major} W1 code: objects, fields, enum values and procedures with an ObsoleteState, or wrapped in a #if not CLEANxx guard. The CLEAN version is when Microsoft removes the code; "what breaks my extension in BC31" is the CLEAN31 group.` : "No deprecation data yet."} Agents: <a href={`${base}code/deprecations/${major}.json`}>{major ? `${major}.json` : "json"}</a>.</p>
+  {file && (
+    <section class="radar" aria-label="Cleanup calendar">
+      <h2 class="section-title">Cleanup calendar <small>elements per CLEAN version</small></h2>
+      <ol class="cal">
+        {cleanKeys.map((k) => <li><a href={`#${k.replace(/\W/g, "-")}`}><span class="cal-k">{k}</span><span class="cal-bar" style={`--w: ${(100 * byClean.get(k)!.length / max).toFixed(1)}%`}></span><span class="mono-meta">{byClean.get(k)!.length}</span></a></li>)}
+      </ol>
+      <form class="radar-bar" onsubmit="return false">
+        <label>Area or object <input type="search" name="q" placeholder="Sales, Customer, Microsoft.Finance" /></label>
+        <label>Kind <select name="kind"><option value="">all</option>{kinds.map((k) => <option value={k}>{k}</option>)}</select></label>
+        <label>State <select name="state"><option value="">all</option>{states.map((s) => <option value={s}>{s}</option>)}</select></label>
+        <span class="radar-count mono-meta"></span>
+      </form>
+      {cleanKeys.map((k) => (
+        <section class="radar-group" id={k.replace(/\W/g, "-")}>
+          <h3>{k} <span class="mono-meta">{byClean.get(k)!.length}</span></h3>
+          <ul class="rows">
+            {byClean.get(k)!.sort((a, b) => a.key.localeCompare(b.key, "en", { numeric: true }) || (a.member ?? "").localeCompare(b.member ?? "")).map((d) => {
+              const i = info(d.key);
+              return (
+                <li data-kind={d.kind} data-state={d.state ?? "guarded"} data-text={`${i ? `${area(i)} ${i.ns ?? ""} ${i.app ?? ""}` : ""} ${d.object} ${d.member ?? ""}`.toLowerCase()}>
+                  <span class="mono-meta">{d.kind}</span> {link(d) ? <a href={link(d)!}>{label(d)}</a> : <span>{label(d)}</span>}{d.member && <> · <b>{d.member}</b></>}
+                  <span class="row-meta"><span class={`badge status-${d.state === "Removed" ? "other" : "preview"}`}>{d.state ?? "guarded"}{d.tag ? ` ${d.tag}` : ""}</span>{d.clean.length ? <span class="mono-meta">#if not {d.clean.join(", ")}</span> : null}{i?.ns ? <span class="mono-meta">{i.ns}</span> : null}</span>
+                  {d.reason && <p class="meta">{d.reason}</p>}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </section>
+  )}
+</List>
+<script>
+  const form = document.querySelector<HTMLFormElement>(".radar-bar");
+  if (form) {
+    const q = form.querySelector<HTMLInputElement>("[name=q]")!, kind = form.querySelector<HTMLSelectElement>("[name=kind]")!, state = form.querySelector<HTMLSelectElement>("[name=state]")!, count = form.querySelector<HTMLElement>(".radar-count")!;
+    const rows = [...document.querySelectorAll<HTMLElement>(".radar-group li")];
+    const apply = () => {
+      const needle = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const li of rows) {
+        const ok = (!needle || (li.dataset.text ?? "").includes(needle)) && (!kind.value || li.dataset.kind === kind.value) && (!state.value || li.dataset.state === state.value);
+        li.hidden = !ok; if (ok) shown++;
+      }
+      for (const g of document.querySelectorAll<HTMLElement>(".radar-group")) g.hidden = ![...g.querySelectorAll("li")].some((li) => !(li as HTMLElement).hidden);
+      count.textContent = needle || kind.value || state.value ? `${shown} of ${rows.length} shown` : "";
+    };
+    let t = 0; q.addEventListener("input", () => { clearTimeout(t); t = window.setTimeout(apply, 120); });
+    kind.addEventListener("change", apply); state.addEventListener("change", apply);
+  }
+</script>
+<style>
+  .cal { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 4px; max-width: 560px; }
+  .cal a { display: grid; grid-template-columns: 110px 1fr 48px; gap: 10px; align-items: center; text-decoration: none; color: var(--text); font-size: 14px; }
+  .cal-k { font: 500 13px var(--font-mono); }
+  .cal-bar { height: 10px; border-radius: 2px; background: linear-gradient(90deg, var(--accent) var(--w), var(--surface-raised) var(--w)); }
+  .radar-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; margin: 8px 0 16px; }
+  .radar-bar label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+  .radar-bar select, .radar-bar input { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 7px 9px; min-height: 36px; }
+  .radar-group h3 { font-size: 17px; margin: 28px 0 8px; }
+  .radar-group li p { margin: 2px 0 0; font-size: 13px; }
+</style>

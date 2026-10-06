@@ -105,7 +105,8 @@ Deliberate deviations from PLAN, all small:
 - Galaxy captions follow zoom and the header search lights up the galaxy (D44). Relations between AL objects are
   derived and on every object page (D45), with a one-hop neighbourhood diagram (`site/src/components/Neighbourhood.astro`,
   inline SVG at build time from data/code/relations); a 2-hop view is deferred because it would ship the 6.9 MB
-  relations file to the browser (per-type shards would fix that). Objects index + Ctrl+K finder (D46) and the codebase atlas on /objects/ (D47) done. Next from the 2026-10-07 plan: version lens + deprecation radar pages, the event explorer, the country heatmap.
+  relations file to the browser (per-type shards would fix that). Objects index + Ctrl+K finder (D46) the codebase atlas on /objects/ (D47) and the version lens + deprecation radar pages (D48) done. Next from the
+  2026-10-07 plan: version lens + deprecation radar pages, the event explorer, the country heatmap.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
 - M4 weekly digest + RSS done (D36).
