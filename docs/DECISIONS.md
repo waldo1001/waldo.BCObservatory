@@ -40,3 +40,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   ca-certificates under the running Jarvis processes. Consequence: `infra/mini/35-tools.sh`; re-run it to upgrade yt-dlp.
 - **D16 Usage-guard token deferred to M1.** The setup-token lacks `user:profile` and Jarvis's login token is static
   with no refresh. Consequence: the guard runs `reduced` until a durable token source exists; M0 makes no LLM calls.
+- **D17 Own metering caps LLM spend.** Until the usage guard has a durable token, every call is metered from its
+  `claude -p` envelope and the nightly stops at per-night and per-week caps in `config/budget.json`. Why: works today
+  without a new credential. Consequence: it sees only our calls, not Jarvis's or the owner's.
+- **D18 Videos are the first M1 pillar.** Why: 84 seed VTTs exist and the extraction loop is proven on them, so it is
+  the shortest path to real pages. Learn docs follow, then roadmap stubs and the first Opus-reviewed hubs.

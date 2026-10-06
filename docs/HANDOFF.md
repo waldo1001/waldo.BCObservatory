@@ -22,14 +22,21 @@ Deliberate deviations from PLAN, all small:
 - Six WordPress.com-hosted blogs use `public-api.wordpress.com/wp/v2/sites/<host>/posts` (their `/wp-json` 404s);
   dvlprlife.com is feed-only.
 
-## Next steps (M1)
+## Next steps (M1, in order; agreed with the owner 2026-10-06)
 
-1. Usage token for the guard (deferred, D16): find a `user:profile` token source that does not silently expire,
-   before M1 spends tokens. Until then the guard reports `reduced` (half quotas).
-2. Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`, id resolution +
-   override map), Microsoft channel reconcile (`yt-dlp --flat-playlist`) + captions.
-3. Stage execution in the orchestrator: fetched, captioned, extracted (Haiku), summarized (Sonnet), linked; then
-   Learn fetched stage + topic hubs from `TOC.md`, roadmap feature stubs, first Opus-reviewed hubs; render to `content/`.
+1. **Budget metering (D17).** Meter every `claude -p` call from its own envelope (`total_cost_usd`, `modelUsage`
+   tokens) and enforce per-night and per-week caps from `config/budget.json`. The weekly sum comes from the committed
+   run reports in `data/manifest/_runs/`. Propose cap values to the owner before the first LLM night. The usage-guard
+   token (D16) is added on top later, when a source exists that does not silently expire.
+2. **Stage executor** in `pipeline/orchestrator/nightly.ts`: run planned items through their next stages within
+   quotas, re-guard every 25 LLM calls, hard stop 06:35 local, `fail()` backoff per item, infra errors abort.
+3. **Videos first (D18).** Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`,
+   46 carry `[videoId]`, 38 need id resolution + an override map), Microsoft channel reconcile
+   (`yt-dlp --flat-playlist`) + caption fetch, Haiku extraction (port `prev/pipeline/02-extract`), quote check,
+   Sonnet summary, video pages in `content/videos/` + their `llms.txt` section.
+4. Learn docs: fetched stage (frontmatter, `ms.search.form`), topic hubs seeded from `TOC.md`, hub narratives from
+   member summaries.
+5. Roadmap feature stubs (deterministic) and first Opus-reviewed hubs; unreviewed pages ship with a badge.
 
 ## Facts you will need
 
