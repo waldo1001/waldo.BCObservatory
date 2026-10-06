@@ -14,6 +14,10 @@
  *   vault/posts/<source>/<key>.{md,txt,html,json}            post bodies (json: every string value)
  * The vault is required as soon as any community item has stored raw text (a captioned video or a fetched post);
  * before that a missing vault only skips the scan.
+ *
+ * Incremental mode (`changedOnly`): only files that differ from HEAD (modified, staged or untracked) are scanned and
+ * quote-checked; the nightly's checkpoint commits use it, because everything already committed passed an earlier
+ * gate and a full scan of ~1 GB blocks the process for tens of seconds. The night's final commit scans everything.
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
@@ -152,6 +156,24 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
 
 // ---------------------------------------------------------------------------------------------- the check
 
+/** Files that differ from HEAD (modified, staged, untracked-not-ignored, renamed targets), relative to repoDir. */
+export function changedFiles(repoDir: string): string[] {
+  try {
+    const out = execFileSync("git", ["status", "--porcelain", "-z", "-uall"], { cwd: repoDir, maxBuffer: 256 * 1024 * 1024 }).toString("utf8").split("\0");
+    const files: string[] = [];
+    for (let i = 0; i < out.length; i++) {
+      const e = out[i];
+      if (!e) continue;
+      const code = e.slice(0, 2), path = e.slice(3);
+      if (code.startsWith("R") || code.startsWith("C")) i++; // -z: the rename source follows as its own entry
+      if (!code.includes("D") && existsSync(join(repoDir, path))) files.push(path);
+    }
+    return files;
+  } catch {
+    return committableFiles(repoDir);
+  }
+}
+
 /** Files git would commit: tracked plus untracked-not-ignored, relative to repoDir. Falls back to a walk without git. */
 export function committableFiles(repoDir: string): string[] {
   try {
@@ -162,11 +184,12 @@ export function committableFiles(repoDir: string): string[] {
   }
 }
 
-export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: string; vaultDir: string; sources: SourceDef[]; policyOnly?: boolean }): LeakReport {
+export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: string; vaultDir: string; sources: SourceDef[]; policyOnly?: boolean; changedOnly?: boolean }): LeakReport {
   const dataDir = o.dataDir ?? resolve(o.repoDir, "data");
   const contentDir = o.contentDir ?? resolve(o.repoDir, "content");
   const findings: LeakFinding[] = [];
-  const files = committableFiles(o.repoDir);
+  const files = o.changedOnly ? changedFiles(o.repoDir) : committableFiles(o.repoDir);
+  const fileSet = o.changedOnly ? new Set(files.map((f) => resolve(o.repoDir, f))) : null;
   const optedIn = new Set(o.sources.filter((s) => s.tier === "official" || s.full_text).map((s) => s.id));
 
   // structure
@@ -193,7 +216,7 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
   }
 
   // quotes on pages that are not official
-  for (const p of listFiles(contentDir, ".md")) {
+  for (const p of fileSet ? listFiles(contentDir, ".md").filter((f) => fileSet.has(f)) : listFiles(contentDir, ".md")) {
     const fm = matter(readFileSync(p, "utf8")).data as any;
     if (!fm.tier || fm.tier === "official") continue;
     const source = fm.channel ?? fm.source;

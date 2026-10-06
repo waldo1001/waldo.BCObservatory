@@ -115,6 +115,17 @@ test("check:leak shingles: 25 consecutive community words anywhere fail, 24 pass
   assert.deepEqual(r.findings.map((f) => `${f.kind} ${f.path}`).sort(), ["shingle content/videos/leak.md", "shingle data/captions/microsoft/AAAAAAAAAA1.vtt"]);
 });
 
+test("check:leak changedOnly scans only what differs from HEAD", () => {
+  const { dir, g, vault } = gitRepo();
+  writeJson(join(vault, "captions/community/yt-comm/CCCCCCCCCC1.segments.json"), { segments: [{ text: words(40) }] });
+  writeText(join(dir, "data/old.json"), words(30)); // committed before: the full scan still sees it
+  g("add", "-A"); g("-c", "user.name=t", "-c", "user.email=t@e", "commit", "-q", "-m", "x");
+  assert.equal(checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES, changedOnly: true }).findings.length, 0);
+  assert.equal(checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES }).findings.length, 1);
+  writeText(join(dir, "content/videos/new.md"), words(30, 2));
+  assert.deepEqual(checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES, changedOnly: true }).findings.map((f) => f.path), ["content/videos/new.md"]);
+});
+
 test("check:leak: the vault is required once community raw text exists", () => {
   const { dir } = gitRepo();
   const missing = join(dir, "no-vault");

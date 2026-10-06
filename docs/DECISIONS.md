@@ -99,7 +99,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   staged. `run-nightly.sh` pushes the vault even when the nightly exits non-zero. Why: a subscription-limit stop
   already committed, but a killed run (job timeout, reboot, cancel) lost everything because the next checkout cleans
   the workspace; long unlimited runs (`--unlimited`, workflow input `unlimited`) also produced one huge commit with
-  no visible progress.
+  no visible progress. Checkpoints scan only files that differ from HEAD (119 ms instead of ~23 s once the code pillar
+  and object pages grew the tree): a synchronous full scan every 50 items stalled the whole run. The night's final
+  commit still scans everything.
 - **D27 AL extractor: labelled-node walker on web-tree-sitter, shipped preprocessor branch, CLEAN tags.**
   `pipeline/code/extract.ts` walks the tree-sitter-al grammar's labelled nodes (object_id, object_name, base_object,
   field id/name/type, procedure parameters/return_type/modifier) instead of per-construct `.scm` queries: one place,

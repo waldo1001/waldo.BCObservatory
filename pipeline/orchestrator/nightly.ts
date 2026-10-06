@@ -372,9 +372,9 @@ function capOverrideArg(night?: string, week?: string): Pick<NightlyOptions, "ca
   return { capOverride: Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined)) };
 }
 
-/** Leak findings as lines, for the recovery commit. */
-function leakGate(opts: NightlyOptions, sources: SourceDef[]): string[] {
-  return checkLeak({ repoDir: opts.repoDir, dataDir: opts.dataDir, contentDir: contentDirOf(opts), vaultDir: opts.vaultDir ?? VAULT_DIR, sources })
+/** Leak findings as lines, for the recovery and checkpoint commits; `changedOnly` scans only what differs from HEAD. */
+function leakGate(opts: NightlyOptions, sources: SourceDef[], changedOnly = false): string[] {
+  return checkLeak({ repoDir: opts.repoDir, dataDir: opts.dataDir, contentDir: contentDirOf(opts), vaultDir: opts.vaultDir ?? VAULT_DIR, sources, changedOnly })
     .findings.map((f) => `${f.kind} ${f.path}: ${f.detail}`);
 }
 
@@ -465,8 +465,11 @@ export function startCheckpoints(opts: NightlyOptions, sources: SourceDef[], dat
     if (advanced !== undefined) lastAt = advanced;
     busy = (async () => {
       try {
-        const problems = leakGate(opts, sources);
-        if (problems.length) { log.warn(`checkpoint skipped: check:leak found ${problems.length} problems`); return; }
+        // incremental: what is already committed passed an earlier gate; the final commit scans the whole tree
+        const t0 = Date.now();
+        const problems = leakGate(opts, sources, true);
+        log.info(`checkpoint leak gate: ${problems.length} findings in ${Date.now() - t0} ms`);
+        if (problems.length) { log.warn(`checkpoint skipped: check:leak found ${problems.length} problems: ${problems[0]}`); return; }
         if (await commitTracked(opts.repoDir, `content: nightly ${date} checkpoint ${n + 1}`, opts.push)) n++;
         await pushVault(opts.vaultDir ?? VAULT_DIR, `vault: nightly ${date} checkpoint`);
       } catch (e) {
