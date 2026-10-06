@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6314d907e5a52bdf02615e66ad98f4f3e0c008ee",
       "words": 1218,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.657Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.670Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.671Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.672Z",
+      "page": false
     }
   },
   "input_hash": "6314d907e5a52bdf02615e66ad98f4f3e0c008ee",
@@ -79,5 +98,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6314d907e5a52bdf02615e66ad98f4f3e0c008ee"
+  "output_hash": "ca8b507e8f7adcb954b3a1bc307f4f2dae405e32a2966bf0065cbf1fed87a948"
 }

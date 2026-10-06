@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86cc590744111ca09f6e812cae34b092fdc9a1c4",
       "words": 412,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.655Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.667Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.668Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.669Z",
+      "page": false
     }
   },
   "input_hash": "86cc590744111ca09f6e812cae34b092fdc9a1c4",
@@ -67,5 +86,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86cc590744111ca09f6e812cae34b092fdc9a1c4"
+  "output_hash": "05c1d149260ed0a6e05781f481704e06521b7ea08a57f834ec2b53ac4b50731a"
 }

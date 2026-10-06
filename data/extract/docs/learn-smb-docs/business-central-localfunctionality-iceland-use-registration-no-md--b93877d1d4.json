@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/use-registration-no.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no",
+  "title": "Registration numbers in the Icelandic localization",
+  "blob": "4841ff7e0b46620932893f824c5b40ee9aabe30e",
+  "summary": "Registration numbers in Icelandic localization allows users to add Registration No. and Sender Reg. No. fields to sales documents and payment export data when activated from version 24.0.",
+  "systems": [
+    "localization",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "iceland",
+    "localization",
+    "registration number",
+    "payment export"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Payment Export Data"
+    }
+  ],
+  "features": [
+    "Registration No. field",
+    "Sender Reg. No. field",
+    "sales invoice",
+    "sales order",
+    "sales credit memo",
+    "payment export"
+  ],
+  "versions": [
+    "24.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003271,
+      "pages_in_call": 8
+    }
+  ]
+}

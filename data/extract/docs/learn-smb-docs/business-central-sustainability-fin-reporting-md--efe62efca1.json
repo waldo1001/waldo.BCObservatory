@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-fin-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting",
+  "title": "Sustainability financial reporting",
+  "blob": "a07c1158256c01cc6dd123f77b56bb500bf25ddf",
+  "summary": "Sustainability financial reporting enables analysis of sustainability entries, carbon fees, and CO2e data within financial reports alongside financial and statistical data using row and column definitions.",
+  "systems": [
+    "sustainability",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "sustainability",
+    "financial reports",
+    "co2e",
+    "carbon fees",
+    "sustainability accounts",
+    "emissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "Emission Fees"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entries"
+    }
+  ],
+  "features": [
+    "financial reports",
+    "sustainability accounts",
+    "CO2e reporting",
+    "carbon fee analysis",
+    "row definitions",
+    "column definitions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003271,
+      "pages_in_call": 8
+    }
+  ]
+}

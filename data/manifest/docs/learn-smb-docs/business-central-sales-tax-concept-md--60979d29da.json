@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-tax-concept",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1c99681b902e16b194135fd8aec3ecb1bba455ca",
       "words": 188,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.658Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.673Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.674Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.674Z",
+      "page": false
     }
   },
   "input_hash": "1c99681b902e16b194135fd8aec3ecb1bba455ca",
@@ -85,5 +104,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c99681b902e16b194135fd8aec3ecb1bba455ca"
+  "output_hash": "4865ed7e2b1e0a0d4617ac473926ff86dfa6661f8a59f324c6f17254d5fced05"
 }

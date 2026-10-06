@@ -1,0 +1,27 @@
+{
+  "video_id": "W3xWt6j4-Ms",
+  "item_id": "video/yt-microsoft/W3xWt6j4-Ms",
+  "summary": "Account schedules in Business Central as the replacement for GP financial reporting. Covers the eight built-in schedules, account categories carried over by the GP cloud migration tool, row formulas, column layouts, dimension filtering, drill-down, and Excel export and cross-company import.",
+  "overview": "A 5-minute demo from August 2024 for GP users moving to Business Central. It shows how financial statements are built with account schedules, which use account subcategories from general ledger accounts. Business Central includes eight account schedules out of the box.\n\nThe demo covers how accounts and their categories come across with the cloud migration tool, and how to create categories for accounts that were not assigned one. It then goes through row numbering and formulas, column layouts and date ranges, filtering by dimension (a sales department example), drilling down into amounts, and exporting schedules to Excel or to other companies.",
+  "key_points": [
+    "Business Central ships with eight account schedules out of the box.",
+    "Account schedules build financial statements from account subcategories assigned to general ledger accounts.",
+    "Accounts without an assigned category are not included on account schedules; the chart of accounts shows which ones are unassigned.",
+    "With the cloud migration tool from GP, accounts and their assigned categories are moved to Business Central.",
+    "After creating or changing account categories, update the account schedules so new accounts appear.",
+    "Each row is numbered so formulas can sum multiple accounts or divide values; bold, italics and page breaks are available.",
+    "Schedules can be filtered by dimension, drilled down into amounts, exported to Excel, and exported and imported between companies."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "8da44fa7633f525b3c61e292a03d73c7b7ce9fd69cc2bc7a28ff35633a6e0c10",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0139124
+  }
+}

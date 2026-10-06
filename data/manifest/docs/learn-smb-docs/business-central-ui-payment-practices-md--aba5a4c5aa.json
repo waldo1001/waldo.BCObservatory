@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "77eddc75add1ddd34f9b2a042dcfbc53bfa0369b",
       "words": 529,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.660Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.678Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.679Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.679Z",
+      "page": false
     }
   },
   "input_hash": "77eddc75add1ddd34f9b2a042dcfbc53bfa0369b",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "77eddc75add1ddd34f9b2a042dcfbc53bfa0369b"
+  "output_hash": "b2d2ad6671892a149ba8efc94bc46d8b07b661393d2ad9e15539399a853e34f6"
 }

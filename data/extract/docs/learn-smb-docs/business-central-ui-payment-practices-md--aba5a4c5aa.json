@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-payment-practices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices",
+  "title": "Payment practices report",
+  "blob": "77eddc75add1ddd34f9b2a042dcfbc53bfa0369b",
+  "summary": "Payment practices report tracks payment times to vendors based on agreed versus actual payment periods and percentage of on-time payments, required by authorities in multiple countries for large companies.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "payment practices",
+    "vendor payments",
+    "reporting",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Practices"
+    },
+    {
+      "type": "page",
+      "name": "Company Sizes"
+    },
+    {
+      "type": "page",
+      "name": "Payment Practice Data List"
+    }
+  ],
+  "features": [
+    "payment practices report",
+    "average payment period",
+    "actual payment terms",
+    "on-time payment percentage",
+    "vendor grouping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003271,
+      "pages_in_call": 8
+    }
+  ]
+}

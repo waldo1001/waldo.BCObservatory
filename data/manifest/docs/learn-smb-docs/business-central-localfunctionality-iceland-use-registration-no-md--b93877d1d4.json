@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4841ff7e0b46620932893f824c5b40ee9aabe30e",
       "words": 104,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.654Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.664Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.665Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.666Z",
+      "page": false
     }
   },
   "input_hash": "4841ff7e0b46620932893f824c5b40ee9aabe30e",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4841ff7e0b46620932893f824c5b40ee9aabe30e"
+  "output_hash": "eff6a57f0ca8e4c637e07ae400ae72ab28246b58ea60548550e3fd115758e2c6"
 }

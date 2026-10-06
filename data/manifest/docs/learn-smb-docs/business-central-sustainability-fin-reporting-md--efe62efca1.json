@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a07c1158256c01cc6dd123f77b56bb500bf25ddf",
       "words": 811,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:04.659Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003271
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:04.675Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:04.676Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:04.677Z",
+      "page": false
     }
   },
   "input_hash": "a07c1158256c01cc6dd123f77b56bb500bf25ddf",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a07c1158256c01cc6dd123f77b56bb500bf25ddf"
+  "output_hash": "18f60b70d079c5ec4c8c62ef1d1a7f601fa2b02e0d56949b6e65795ff44f4de2"
 }
