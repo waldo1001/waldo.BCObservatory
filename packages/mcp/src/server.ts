@@ -19,7 +19,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import MiniSearch from "minisearch";
 import { z } from "zod";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
