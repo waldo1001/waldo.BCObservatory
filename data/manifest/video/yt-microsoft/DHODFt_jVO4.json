@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=DHODFt_jVO4",
   "published_at": "2025-04-01T15:00:15.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,27 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.014308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:54.390Z",
+      "path": "data/summary/video/DHODFt_jVO4.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.013430399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:56.186Z",
+      "systems": [
+        "manufacturing",
+        "finance",
+        "inventory"
+      ],
+      "topics": 8,
+      "objects_as_heard": 6
+    },
+    "published": {
+      "at": "2026-10-06T18:51:56.198Z",
+      "path": "content/videos/DHODFt_jVO4.md"
     }
   },
   "input_hash": null,
@@ -55,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c42292bba28242e9e0cba50200758dfd6451dec55c5848879df6899dda6b60a"
+  "output_hash": "fac13038bc4742d3dcfd2e4fc0edac839faa9972da393df43c91738c1972952c"
 }

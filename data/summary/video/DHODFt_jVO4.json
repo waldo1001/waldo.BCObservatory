@@ -1,0 +1,27 @@
+{
+  "video_id": "DHODFt_jVO4",
+  "item_id": "video/yt-microsoft/DHODFt_jVO4",
+  "summary": "Manufacturing costing changes in Business Central 2025 release wave 1: production BOM and routing on stock keeping units, standard cost calculated per SKU, and non-inventory costs included in production cost calculation. Both are shown in a short demo.",
+  "overview": "The video covers two costing areas in manufacturing. First, a production bill of material or routing can be defined on a stock keeping unit, which helps when a SKU represents a product variant or a location-specific way of producing an item. Standard cost for items produced for that variant or location is then taken from the SKU instead of the item card, using a new function that calculates production standard cost at SKU level.\n\nSecond, non-inventory costs can be included in the production cost calculation. The demo shows new columns for rolled up material non-inventory cost and single level material non-inventory cost on the cost shares page and in production order statistics. Both features need to be activated in manufacturing setup.",
+  "key_points": [
+    "A production bill of material or routing can be defined on the stock keeping unit, for variants or location-specific production. It requires activation in manufacturing setup.",
+    "Standard cost for items produced for a specific variant or location is copied from the SKU instead of the item card.",
+    "SKU-based standard cost applies only when the SKU has a routing or bill of material defined.",
+    "A new function calculates production standard cost at the SKU level.",
+    "In the demo, two items share the same bill of material and have identical material cost, but for the SKUs subcontracting costs replace part of the cost, so total cost differs.",
+    "Non-inventory costs can be included in the production cost calculation after enabling this in manufacturing setup.",
+    "The cost shares page and production order statistics show new columns: rolled up material non-inventory cost and single level material non-inventory cost."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "2c42292bba28242e9e0cba50200758dfd6451dec55c5848879df6899dda6b60a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013430399999999999
+  }
+}
