@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-insert-modify-modifyall-delete-and-deleteall-methods",
   "published_at": "2025-09-30T07:51:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "edb389e296c6455e1172e72e7a12bc8ada942075",
       "words": 1164,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.429Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:13.642Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:13.643Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:13.644Z",
+      "page": false
     }
   },
   "input_hash": "edb389e296c6455e1172e72e7a12bc8ada942075",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "edb389e296c6455e1172e72e7a12bc8ada942075"
+  "output_hash": "447fdd07ab165356a1eef77dbd61b165c14a6857d51afe2f360a114197f9ef0f"
 }

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/powerplatform/powerplat-entity-modeling.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-entity-modeling",
+  "title": "Working with Virtual Tables",
+  "blob": "2b12ba07f581614767b362848ac4275ff543f85c",
+  "summary": "Virtual tables enable creating customer-facing solutions by operating on data shared between virtual tables in Dataverse and native tables in Business Central. Explains relational modeling concepts, data type mapping, primary keys, relations, enums, OData actions, and error handling for virtual table development.",
+  "systems": [
+    "integration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "virtual tables",
+    "dataverse",
+    "entity modeling",
+    "data types",
+    "relationships",
+    "odata",
+    "api"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Available Virtual Tables – Dataverse"
+    },
+    {
+      "type": "page",
+      "name": "Available Business Central tables"
+    }
+  ],
+  "features": [
+    "Virtual table generation",
+    "Data type mapping",
+    "Primary key handling",
+    "Table relationships (1:n, n:1)",
+    "Enum to OptionSet conversion",
+    "OData actions",
+    "Localization and labels",
+    "Calculated fields"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

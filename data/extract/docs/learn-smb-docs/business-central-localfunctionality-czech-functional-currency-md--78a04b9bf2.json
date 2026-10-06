@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/functional-currency.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency",
+  "title": "Functional Currency in the Czech version",
+  "blob": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
+  "summary": "Explains functional currency implementation in Czech version per accounting legislation amendment effective January 2024, allowing foreign currency accounting with Czech currency reporting via additional reporting currencies.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "functional currency",
+    "czech localization",
+    "accounting",
+    "vat reporting",
+    "exchange rates"
+  ],
+  "objects": [],
+  "features": [
+    "Functional currency support",
+    "Additional reporting currencies",
+    "VAT statement in CZK",
+    "VAT control reporting",
+    "VIES declaration",
+    "Currency rate adjustment fields",
+    "Document report modifications"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

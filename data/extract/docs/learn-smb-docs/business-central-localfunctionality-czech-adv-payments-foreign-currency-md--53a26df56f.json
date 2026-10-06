@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-foreign-currency.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-foreign-currency",
+  "title": "Advance in a foreign currency",
+  "blob": "5ad04e9ce631d250a27551347aab294deec9a374",
+  "summary": "Documents advance payment processing in foreign currencies for the Czech version, including payment procedures, invoice linking, and year-end revaluation requirements using unified currency throughout the process.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance payments",
+    "foreign currency",
+    "czech localization",
+    "vat",
+    "exchange rates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Advance Letters"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "report",
+      "name": "Adjust Advance Letter Exchange Rates"
+    }
+  ],
+  "features": [
+    "Foreign currency advance payments",
+    "VAT document generation",
+    "Exchange rate adjustment",
+    "Year-end revaluation",
+    "Advance invoice linking",
+    "VAT adjustment entries",
+    "Unrealized gain/loss entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

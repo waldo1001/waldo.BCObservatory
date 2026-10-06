@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "13315adff9eb2afedba47ad4ab7d91deaee2923e",
       "words": 706,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.432Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:13.649Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:13.650Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:13.651Z",
+      "page": false
     }
   },
   "input_hash": "13315adff9eb2afedba47ad4ab7d91deaee2923e",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13315adff9eb2afedba47ad4ab7d91deaee2923e"
+  "output_hash": "8a1a5ef6e8295e1710dda70944525f070977d82460aa3306ec3bae5a6306896d"
 }

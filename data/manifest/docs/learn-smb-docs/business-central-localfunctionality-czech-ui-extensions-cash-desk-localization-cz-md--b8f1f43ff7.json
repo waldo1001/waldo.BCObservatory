@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "977caa23200166e83cd63f4f1b266c6e4b60c6a7",
       "words": 974,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.435Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.437Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.437Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.438Z",
+      "page": false
     }
   },
   "input_hash": "977caa23200166e83cd63f4f1b266c6e4b60c6a7",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "977caa23200166e83cd63f4f1b266c6e4b60c6a7"
+  "output_hash": "aa5cb225617545dced7dccdec9886543f50118deaee95fa8301e25ce4aac6ef1"
 }

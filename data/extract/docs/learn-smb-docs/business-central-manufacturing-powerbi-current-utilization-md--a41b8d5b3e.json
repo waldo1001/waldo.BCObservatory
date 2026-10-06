@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-current-utilization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization",
+  "title": "Current Utilization",
+  "blob": "0f464e876314ef5fb584a5bb61ea369d91a58f88",
+  "summary": "Current Utilization is a Power BI report for business leaders and manufacturing teams to monitor manufacturing capacity use percentage, track resource allocation, and optimize machine and work center scheduling.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "capacity utilization",
+    "resource allocation",
+    "production planning",
+    "work centers"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Calendar Entry"
+    },
+    {
+      "type": "table",
+      "name": "Production Order Routing Line"
+    }
+  ],
+  "features": [
+    "capacity utilization gauges",
+    "work center load tracking",
+    "hourly capacity analysis",
+    "threshold monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
       "words": 282,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.433Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:13.652Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:13.653Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.432Z",
+      "page": false
     }
   },
   "input_hash": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "662cb7f1cebb8549c527ae1c47539b5fca8b336c"
+  "output_hash": "d0414a2363b00f693553f6423dede01719a12e0bbe5ff17bcc7a49bbd1e2d156"
 }

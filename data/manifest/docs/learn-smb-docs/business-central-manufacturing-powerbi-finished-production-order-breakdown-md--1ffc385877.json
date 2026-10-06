@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bd895d97bbd1a189d6df0c85bc8a0f96e7e16d0d",
       "words": 266,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.632Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.451Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.452Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.453Z",
+      "page": false
     }
   },
   "input_hash": "bd895d97bbd1a189d6df0c85bc8a0f96e7e16d0d",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd895d97bbd1a189d6df0c85bc8a0f96e7e16d0d"
+  "output_hash": "b61d117e7c929b4d3995f083ddf6c725e089ea632f3e1a9abfa53e0478ee6915"
 }

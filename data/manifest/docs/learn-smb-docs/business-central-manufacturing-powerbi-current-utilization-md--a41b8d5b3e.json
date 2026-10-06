@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f464e876314ef5fb584a5bb61ea369d91a58f88",
       "words": 298,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.630Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.444Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.445Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.447Z",
+      "page": false
     }
   },
   "input_hash": "0f464e876314ef5fb584a5bb61ea369d91a58f88",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f464e876314ef5fb584a5bb61ea369d91a58f88"
+  "output_hash": "3b72e116552c4edb74735f3d4cac6d190f8775b36892fd745b7d5ab6b744914e"
 }

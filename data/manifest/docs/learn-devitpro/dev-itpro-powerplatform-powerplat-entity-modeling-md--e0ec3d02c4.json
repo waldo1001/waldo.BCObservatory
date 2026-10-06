@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-entity-modeling",
   "published_at": "2025-09-30T09:39:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2b12ba07f581614767b362848ac4275ff543f85c",
       "words": 2518,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.427Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:12.436Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:12.437Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:12.438Z",
+      "page": false
     }
   },
   "input_hash": "2b12ba07f581614767b362848ac4275ff543f85c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2b12ba07f581614767b362848ac4275ff543f85c"
+  "output_hash": "ed3c5ced31c26300f6117448d2ef4cfe48d6266044b5119622abf0aa22429007"
 }

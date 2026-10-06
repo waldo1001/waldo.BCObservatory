@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments",
+  "title": "Set up advance payments in the Czech version",
+  "blob": "13315adff9eb2afedba47ad4ab7d91deaee2923e",
+  "summary": "Describes setup configuration for advance payments in the Czech version including advance letter templates, VAT posting setup, report selections, and VAT statement configuration.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance payments",
+    "czech localization",
+    "setup",
+    "vat posting",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Advance Letter Templates"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Purchase"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "report",
+      "name": "Purchase – Invoice with Advance"
+    },
+    {
+      "type": "report",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Advance letter templates",
+    "Sales and purchase advance setup",
+    "G/L account configuration",
+    "VAT posting group mapping",
+    "Automatic VAT document posting",
+    "Non-deductible VAT posting",
+    "Reverse charge VAT posting",
+    "Number series configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-historical-utilization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization",
+  "title": "Historical Utilization",
+  "blob": "55a54c1a5286b2b34ec7fe80df2e22672cac232b",
+  "summary": "Historical Utilization is a Power BI report for business leaders and manufacturing teams to analyze historic resource and machinery usage over time, identify bottlenecks, and improve capacity planning.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "utilization analysis",
+    "capacity planning",
+    "resource optimization",
+    "bottleneck identification"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Calendar Entry"
+    },
+    {
+      "type": "table",
+      "name": "Production Order Routing Line"
+    }
+  ],
+  "features": [
+    "historic utilization tracking",
+    "downtime identification",
+    "busy period analysis",
+    "resource efficiency measurement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "55a54c1a5286b2b34ec7fe80df2e22672cac232b",
       "words": 287,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.632Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.454Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.455Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.456Z",
+      "page": false
     }
   },
   "input_hash": "55a54c1a5286b2b34ec7fe80df2e22672cac232b",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55a54c1a5286b2b34ec7fe80df2e22672cac232b"
+  "output_hash": "e4ef8d25f87e419b4092cc84e5f8dd51148511346a92a9a11c56bd2537a38d5d"
 }

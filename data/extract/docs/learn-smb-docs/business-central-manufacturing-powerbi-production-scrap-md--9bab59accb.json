@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-scrap.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
+  "title": "Production Scrap (Power BI report)",
+  "blob": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
+  "summary": "Production Scrap is a Power BI report for business leaders and manufacturing managers to analyze scrap rates by work center, machine center, and production order to identify and reduce waste.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "scrap analysis",
+    "quality control",
+    "waste reduction",
+    "production efficiency"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Machine Center"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    }
+  ],
+  "features": [
+    "scrap rate tracking",
+    "scrap quantity by work center",
+    "machine center analysis",
+    "scrap trend visualization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

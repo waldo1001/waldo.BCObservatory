@@ -1,0 +1,79 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz",
+  "title": "Cash Desk Localization for Czech (Extension)",
+  "blob": "977caa23200166e83cd63f4f1b266c6e4b60c6a7",
+  "summary": "Cash desk extension for Czech Business Central enabling physical cash receipt and withdrawal operations with cash desk cases, user authorization, inventory management, and payment application with customer/vendor entries.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cash desk",
+    "czech localization",
+    "payments",
+    "accounting",
+    "inventory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Desk Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cash Desk Users"
+    },
+    {
+      "type": "page",
+      "name": "Cash Desk Events Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cash Document"
+    },
+    {
+      "type": "page",
+      "name": "Cash Desk Inventory"
+    },
+    {
+      "type": "page",
+      "name": "Currency Nominal Values"
+    },
+    {
+      "type": "report",
+      "name": "Cash Desk Account Book"
+    },
+    {
+      "type": "report",
+      "name": "Cash Desk Book"
+    },
+    {
+      "type": "report",
+      "name": "Cash Desk Hand Over"
+    }
+  ],
+  "features": [
+    "Cash desk definition and setup",
+    "Receipt and withdrawal documents",
+    "Cash desk user authorization",
+    "Number series for documents",
+    "Cash desk events/cases",
+    "Payment application",
+    "Advance invoice payment",
+    "Cash desk reconciliation",
+    "Cash desk inventory",
+    "Nominal value management",
+    "EET transaction marking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

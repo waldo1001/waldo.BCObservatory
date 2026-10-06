@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz",
+  "title": "Advance Payments Localization for Czech (Extension)",
+  "blob": "7688e56d579f4e990f14ae2805bc1f4b382271a9",
+  "summary": "Extension for Czech Business Central providing advance payment functionality for sales and purchases, including VAT documents, foreign currency support, and advance lifecycle management with regulatory compliance.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "advance payments",
+    "czech localization",
+    "vat",
+    "sales",
+    "purchasing"
+  ],
+  "objects": [],
+  "features": [
+    "Sales and purchase advances",
+    "Advance invoices",
+    "VAT documents and credit notes",
+    "Foreign currency handling",
+    "Advance linking to orders",
+    "Cash desk integration",
+    "Advance closing and settlement",
+    "Exchange rate difference handling",
+    "Responsibility center support",
+    "Advance reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}

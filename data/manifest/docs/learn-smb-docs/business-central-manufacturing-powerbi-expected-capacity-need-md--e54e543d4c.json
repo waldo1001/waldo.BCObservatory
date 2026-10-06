@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
       "words": 270,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.631Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.448Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.449Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.450Z",
+      "page": false
     }
   },
   "input_hash": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10"
+  "output_hash": "9daa9fa11a92cc544a6053c8adc3ba584aa6ea4bfe480e42a2e0acbe948f4272"
 }

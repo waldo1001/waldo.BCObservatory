@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-faq",
   "published_at": "2025-09-30T09:34:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8f591b13002f62e65a2e755878517768a1a9797f",
       "words": 566,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:12.428Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005253
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:13.639Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:13.640Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:13.641Z",
+      "page": false
     }
   },
   "input_hash": "8f591b13002f62e65a2e755878517768a1a9797f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8f591b13002f62e65a2e755878517768a1a9797f"
+  "output_hash": "48cc8db52483f88c8112bcae7a3e369146d5369612f8b0771f0ce562251aa316"
 }

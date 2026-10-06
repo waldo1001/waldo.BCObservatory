@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
       "words": 468,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.634Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:15.458Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:15.459Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:15.460Z",
+      "page": false
     }
   },
   "input_hash": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97"
+  "output_hash": "4a1c59d1fcbd2737ab914ff768fb80711c8e77e8f7e7b946ced4a23b777544f5"
 }

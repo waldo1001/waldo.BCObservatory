@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-released-production-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders",
+  "title": "Released Production Orders",
+  "blob": "6282037d4ec2dc90ca1603fc00fa953e9de46d2b",
+  "summary": "Released Production Orders is a Power BI report for manufacturing managers and supervisors to track released production orders with expected versus finished quantities and cost variances.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "production orders",
+    "quantity tracking",
+    "cost variance",
+    "progress monitoring"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    }
+  ],
+  "features": [
+    "order status tracking",
+    "quantity comparison",
+    "cost variance analysis",
+    "completion percentage monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

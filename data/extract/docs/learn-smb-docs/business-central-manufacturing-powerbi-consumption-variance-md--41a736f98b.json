@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-consumption-variance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance",
+  "title": "Consumption Variance (Power BI report)",
+  "blob": "f574f8e44388b9954d6f9000643677a403e0a147",
+  "summary": "Consumption Variance is a Power BI report for manufacturing managers and supervisors to track variance between expected and actual consumption costs monthly and optimize production processes.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "consumption costs",
+    "variance analysis",
+    "production optimization",
+    "cost management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    }
+  ],
+  "features": [
+    "material cost tracking",
+    "monthly variance analysis",
+    "consumption monitoring",
+    "KPI metrics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

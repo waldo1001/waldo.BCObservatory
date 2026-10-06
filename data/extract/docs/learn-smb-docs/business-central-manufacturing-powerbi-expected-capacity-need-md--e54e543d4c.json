@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-expected-capacity-need.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
+  "title": "Expected Capacity Need (Power BI report)",
+  "blob": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
+  "summary": "Expected Capacity Need is a Power BI report for manufacturing managers and supervisors to view expected capacity requirements by work center and allocate resources efficiently to meet production demands.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "capacity planning",
+    "resource allocation",
+    "production orders",
+    "work centers"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Production Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    }
+  ],
+  "features": [
+    "capacity need forecasting",
+    "work center allocation",
+    "production order backlog",
+    "resource planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

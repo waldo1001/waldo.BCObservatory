@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4b702255c4f504d694d00567e97287199644c518",
       "words": 283,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:13.627Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002771
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:13.636Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:13.637Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:13.638Z",
+      "page": false
     }
   },
   "input_hash": "4b702255c4f504d694d00567e97287199644c518",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b702255c4f504d694d00567e97287199644c518"
+  "output_hash": "9e42df87aa0f9af016a39f9938226e12f3c9ca6adc0ca4f3f061f018e373b39d"
 }

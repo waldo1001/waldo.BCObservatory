@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-capacity-variance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance",
+  "title": "Capacity Variance",
+  "blob": "4b702255c4f504d694d00567e97287199644c518",
+  "summary": "Capacity Variance is a Power BI report for manufacturing managers and supervisors to track variance between expected and actual capacity costs monthly, identify cost overruns, and optimize production processes.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi report",
+    "capacity costs",
+    "variance analysis",
+    "production optimization",
+    "cost management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Production Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    }
+  ],
+  "features": [
+    "capacity cost tracking",
+    "monthly variance analysis",
+    "cost overrun identification",
+    "KPI metrics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002771,
+      "pages_in_call": 8
+    }
+  ]
+}

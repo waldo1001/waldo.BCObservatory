@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-insert-modify-modifyall-delete-and-deleteall-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-insert-modify-modifyall-delete-and-deleteall-methods",
+  "title": "Insert, Modify, ModifyAll, Delete, and DeleteAll Methods",
+  "blob": "edb389e296c6455e1172e72e7a12bc8ada942075",
+  "summary": "Documents AL methods for maintaining databases: Insert, Modify, ModifyAll, Delete, DeleteAll, and Truncate. Explains syntax, return values, usage scenarios, and when to use Truncate for high-performance bulk deletions versus DeleteAll.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al methods",
+    "database operations",
+    "record management",
+    "bulk operations"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Record"
+    }
+  ],
+  "features": [
+    "Insert method with SystemId",
+    "Modify method",
+    "ModifyAll bulk updates",
+    "Delete method",
+    "DeleteAll method",
+    "Truncate high-performance deletion",
+    "Filter-based operations",
+    "RunTrigger parameter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005253,
+      "pages_in_call": 8
+    }
+  ]
+}
