@@ -1,0 +1,172 @@
+{
+  "video_id": "D2KPQEbO40Q",
+  "item_id": "video/yt-microsoft/D2KPQEbO40Q",
+  "title": "Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights",
+  "duration_s": 156,
+  "systems": [
+    "copilot",
+    "sustainability",
+    "crm"
+  ],
+  "topics": [
+    "autofill",
+    "ai",
+    "copilot",
+    "summarize",
+    "scope 3 emissions",
+    "carbon dioxide",
+    "sustainability reporting",
+    "data enrichment"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Autofill Overview",
+      "t_start": 0,
+      "t_end": 32
+    },
+    {
+      "title": "Autofill Demo and Capabilities",
+      "t_start": 32,
+      "t_end": 52
+    },
+    {
+      "title": "Summarize Capability with Copilot",
+      "t_start": 52,
+      "t_end": 72.7
+    },
+    {
+      "title": "Summary Insights and Quick Links",
+      "t_start": 72.7,
+      "t_end": 92.7
+    },
+    {
+      "title": "Scope 3 Value Chain Process Automation",
+      "t_start": 92.7,
+      "t_end": 112.8
+    },
+    {
+      "title": "Scope 3 Emissions Measurement and Reporting",
+      "t_start": 112.8,
+      "t_end": 156
+    }
+  ],
+  "features": [
+    {
+      "name": "Autofill",
+      "description": "AI-powered feature that suggests customer information when creating new records by searching the web for addresses, suggesting frequently used answers, and accelerating data capture in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.9,
+      "t_end": 52,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "autofill",
+        "data entry",
+        "productivity"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Summarize with Copilot",
+      "description": "A new capability that presents instant summaries powered by copilot on the most used pages in Business Central, showing important information and urgent items from the current page and related pages including custom fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52,
+      "t_end": 92.7,
+      "is_demoed": true,
+      "caveats": [
+        "only available on most used pages"
+      ],
+      "tags": [
+        "copilot",
+        "summarize",
+        "insights",
+        "role-tailored"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Scope 3 Value Chain Process Automation",
+      "description": "Feature that automatically calculates carbon dioxide equivalent for finished goods using raw material emissions data from purchase documents and emissions from manufacturing operations, providing figures for indirect emissions reporting across upstream and downstream value chains.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.7,
+      "t_end": 133.7,
+      "is_demoed": false,
+      "caveats": [
+        "requires raw material emissions data from purchase documents"
+      ],
+      "tags": [
+        "scope 3",
+        "carbon emissions",
+        "sustainability",
+        "value chain"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 11.9,
+      "text": "we're making it easier to get crucial information into business Central and intelligent insights out",
+      "why_it_matters": "States the core value proposition of the 2025 Release Wave 1, emphasizing data capture and intelligence",
+      "check": "exact"
+    },
+    {
+      "t": 32,
+      "text": "autofill is a huge productivity booster and Time Saver using the power of AI grounded in business Central data",
+      "why_it_matters": "Describes autofill's business impact and clarifies it uses AI grounded in Business Central data, not just external sources",
+      "check": "exact"
+    },
+    {
+      "t": 52,
+      "text": "with a new summarized capability you can do just that on the most used pages in business Central you can now see an instant",
+      "why_it_matters": "Introduces the new summarize capability and its availability scope",
+      "check": "exact"
+    },
+    {
+      "t": 72.7,
+      "text": "it's not just servicing what's important or urgently needs your attention from that page but also from related Pages including information from Custom Fields",
+      "why_it_matters": "Explains that summaries span multiple pages and custom fields, providing comprehensive insights",
+      "check": "exact"
+    },
+    {
+      "t": 92.7,
+      "text": "scope 3 value chain process automation is now embedded across the standard business Central Erp processes",
+      "why_it_matters": "Indicates that scope 3 functionality is now integrated into standard Business Central workflows",
+      "check": "exact"
+    },
+    {
+      "t": 112.8,
+      "text": "the feature will automatically calculate the carbon dioxide equivalent for your finished goods by using raw material emissions data from purchase documents and adding",
+      "why_it_matters": "Details the technical scope of how scope 3 emissions are calculated, covering both upstream and operational sources",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01119
+    }
+  ]
+}

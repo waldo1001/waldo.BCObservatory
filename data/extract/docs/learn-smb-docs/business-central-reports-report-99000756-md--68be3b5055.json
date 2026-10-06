@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000756.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756",
+  "title": "Detailed Calculation (report)",
+  "blob": "42d723a1cdc6750fc305f3e8b7e0d5fd99156ac7",
+  "summary": "Detailed Calculation report shows single-level manufacturing cost breakdown for items, including BOM components, routing operations, and scrap costs.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "cost calculation",
+    "production",
+    "bill of materials",
+    "routing",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Detailed Calculation"
+    }
+  ],
+  "features": [
+    "BOM breakdown",
+    "unit costs",
+    "work center types",
+    "setup times",
+    "run times",
+    "scrap costs",
+    "future calculation date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00121,
+      "pages_in_call": 8
+    }
+  ]
+}

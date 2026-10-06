@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "07b53cc50de4faa5e0257cefde01871e570b0641",
       "words": 347,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:55:57.645Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002277
+    },
+    "summarized": {
+      "at": "2026-10-06T18:55:59.480Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:55:59.481Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:55:59.482Z",
+      "page": false
     }
   },
   "input_hash": "07b53cc50de4faa5e0257cefde01871e570b0641",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07b53cc50de4faa5e0257cefde01871e570b0641"
+  "output_hash": "89cf8ffe35b44c0989f7e80d57a3040c7a7c0eea7a379a191b43fd398570904c"
 }

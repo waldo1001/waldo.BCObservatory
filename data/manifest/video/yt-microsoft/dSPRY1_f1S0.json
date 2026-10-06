@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "AL Go for GitHub February Office Hour",
   "url": "https://www.youtube.com/watch?v=dSPRY1_f1S0",
-  "published_at": null,
+  "published_at": "2025-03-06T16:28:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:55:52.330Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3359
+    },
+    "captioned": {
+      "at": "2026-10-06T18:55:59.760Z",
+      "path": "data/captions/microsoft/dSPRY1_f1S0.vtt",
+      "vtt_sha256": "6b305474b9efc5b2bb45ea0e239743f09d2d0b457c36812090c15190fccbc120",
+      "segments": 186,
+      "words": 6704,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 292,
     "duration_s": 3359,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b305474b9efc5b2bb45ea0e239743f09d2d0b457c36812090c15190fccbc120"
 }

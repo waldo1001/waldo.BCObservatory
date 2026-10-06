@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000755.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000755",
+  "title": "Single-Level Cost Shares (report)",
+  "blob": "802ea1ae5a89b3ff720aa13d43c2731fc7aa680b",
+  "summary": "Single-Level Cost Shares report shows detailed unit cost information for items, broken down by material, capacity, subcontract, and overhead costs.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "cost calculation",
+    "production",
+    "reporting",
+    "unit costs"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Single-Level Cost Shares"
+    }
+  ],
+  "features": [
+    "material cost",
+    "capacity cost",
+    "subcontract cost",
+    "overhead cost",
+    "unit cost calculation date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00121,
+      "pages_in_call": 8
+    }
+  ]
+}
