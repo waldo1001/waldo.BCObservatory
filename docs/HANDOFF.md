@@ -24,10 +24,11 @@ Deliberate deviations from PLAN, all small:
 
 ## Next steps (M1, in order; agreed with the owner 2026-10-06)
 
-1. **Budget metering (D17).** Meter every `claude -p` call from its own envelope (`total_cost_usd`, `modelUsage`
-   tokens) and enforce per-night and per-week caps from `config/budget.json`. The weekly sum comes from the committed
-   run reports in `data/manifest/_runs/`. Propose cap values to the owner before the first LLM night. The usage-guard
-   token (D16) is added on top later, when a source exists that does not silently expire.
+1. ~~**Budget metering (D17).**~~ Done 2026-10-06 (`04f191d`). `llm.ts` meters every call's `total_cost_usd` and
+   per-model tokens; the nightly allows `min(night cap - spent today, week cap - spent over 7 run dates)` and
+   `complete()` throws `LlmBudgetExhausted` once that is used up. Caps agreed with the owner: **$10/night, $50/week**
+   (API-equivalent dollars, `config/budget.json` `spend_caps`). The usage-guard token (D16) is added on top later,
+   when a source exists that does not silently expire.
 2. **Stage executor** in `pipeline/orchestrator/nightly.ts`: run planned items through their next stages within
    quotas, re-guard every 25 LLM calls, hard stop 06:35 local, `fail()` backoff per item, infra errors abort.
 3. **Videos first (D18).** Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`,
