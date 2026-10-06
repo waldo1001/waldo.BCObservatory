@@ -1,0 +1,378 @@
+{
+  "video_id": "PrGBqzTDsLw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0,
+      "end": 14.8,
+      "text": "Hi, this video explains how to profile customers and prospects on your website to give them a great and tailored trial and onboarding experience. It's a clip from a launch event video for 2023 release week two, but it's equally relevant today."
+    },
+    {
+      "t": 14.8,
+      "end": 29.5,
+      "text": "Let's turn it over to Søren who tells me more about it. To show this in a more schematic way, what happens is you have your questionnaire on your website, the prospects fills in the answers depending on what kind of questions that you ask them,"
+    },
+    {
+      "t": 29.5,
+      "end": 42.6,
+      "text": "they click a button, they're redirected to the standard trial sign up at dynamics.com. We then spin up the standard trial and then we add the app that you have told us to add."
+    },
+    {
+      "t": 42.6,
+      "end": 59.6,
+      "text": "We then store the information from the questionnaire, the answers in a system table inside Business Central and you can use those before the sign-in happens to pivot, add more things to the experience based on what those answers are."
+    },
+    {
+      "t": 59.6,
+      "end": 70.4,
+      "text": "This is a really great way to make it customer-centric. So, end of the day, from a user perspective, what they see, they sign up and they see an experience."
+    },
+    {
+      "t": 70.4,
+      "end": 82.4,
+      "text": "They don't see that anything else has been added, they just see it as one coherent experience that has your special sauce in it. So, here you see a website. This is my partner website."
+    },
+    {
+      "t": 82.4,
+      "end": 96.5,
+      "text": "Actually, this is just a power app that I quickly made to show this, but it will represent a website. So, here I want to ask new prospects to find my website some questions because I want to give them the right experience from from day one."
+    },
+    {
+      "t": 96.5,
+      "end": 108.2,
+      "text": "So, I ask them about what they're interested in doing with Business Central, I ask them about what system they're currently using, and I ask them about their company size, how many do you think will be using Business Central."
+    },
+    {
+      "t": 108.2,
+      "end": 120.2,
+      "text": "And in this case, uh the the prospect selects uh they're interested in biodiversity and luckily we We a solution just for that, for tracking biodiversity progress."
+    },
+    {
+      "t": 120.2,
+      "end": 134.1,
+      "text": "They also said that they're interested in Excel, or that they come from Excel, sorry. Uh they're used to working with Excel, and there are 10 to 20 of users that use Business Central. So, we can see why that they've grown out of using that Excel spreadsheet."
+    },
+    {
+      "t": 134.1,
+      "end": 147.1,
+      "text": "Now, what happens here when they start to trial is that I need to construct the right information to pass along to Business Central in order for Business Central to spin up the right at the right solution."
+    },
+    {
+      "t": 147.1,
+      "end": 162,
+      "text": "It means that the combination of these choices imply a collection of onboarding elements, checklist tasks, banner, role center, what have you, in a coherent experience that that's bundled together in an AppSource app."
+    },
+    {
+      "t": 162,
+      "end": 175.1,
+      "text": "And I want to load that app. So, when they have chosen these specific things, I might want to load my solution A. But had they chosen, for example, these three things, I wanted to load solution B."
+    },
+    {
+      "t": 175.1,
+      "end": 191.5,
+      "text": "And so on. And you will be the one who can decide for your company which solutions do we want to load. So, I click the start trial button as a prospect, I I'm directed to the normal sign-up process, where I sign in to my tenant or sign up to a new tenant."
+    },
+    {
+      "t": 191.5,
+      "end": 202,
+      "text": "And then, the important part here is that all of that context, where you came from, the outcome of the questionnaire, is passed along to Business Central in this case."
+    },
+    {
+      "t": 202,
+      "end": 213.5,
+      "text": "So, now we load Business Central, we create the environment with the standard trial on top, but we add your special sauce, we add your AppSource app and its dependencies."
+    },
+    {
+      "t": 213.5,
+      "end": 226.7,
+      "text": "And now is the point where your app is ready to say, \"Oh, they chose Excel as the previous system that they come from.\" Hey, I might want to load a checklist item that describes why BC is great for Excel users."
+    },
+    {
+      "t": 226.7,
+      "end": 239.4,
+      "text": "That kind of thinking. So, let's see how that plays out. So, let's actually go and see see that app. I landed in Business Central after going through the sign-up and asking or answering some some questions."
+    },
+    {
+      "t": 239.4,
+      "end": 252.7,
+      "text": "And I already see a product here that is much more relevant than the standard trial. I see that it has my name on it, so I feel welcome. I also see that it's loaded with an app called biodiversity management."
+    },
+    {
+      "t": 252.7,
+      "end": 269.3,
+      "text": "So, already now, this just speaks my language. It speaks to my expectations. So, and I see there's a clear call to action here. I'm I landed here in an evaluation company, and what I what we're about to show you here are some examples of what you can do in terms of onboarding."
+    },
+    {
+      "t": 269.3,
+      "end": 282.7,
+      "text": "So, we're going to talk through some of the onboarding elements in this checklist. This checklist is not intended to be the great checklist for you to onboard a customer, but it's intended to give you inspiration to what kind of elements can you use here."
+    },
+    {
+      "t": 282.7,
+      "end": 303,
+      "text": "So, first of all, use a video. In this case, I know that this prospect was interested in biodiversity. So, I want to play them a video that will tell them maybe a snack-sized video that will tell them exactly why BC plus this biodiversity management app is just fantastic for their business."
+    },
+    {
+      "t": 303,
+      "end": 317.2,
+      "text": "Let's assume that we watched that video for now. We just we skip this. Maybe you also want to guide them through setup. And for some kinds of modules, for some kind of solutions, the checklist itself is not,"
+    },
+    {
+      "t": 317.2,
+      "end": 331.4,
+      "text": "you know, really geared to handle many setup elements. We should really strive to have a fairly short checklist. So, what we can do is actually we can spin off, we can branch off the checklist, and run, let's say,"
+    },
+    {
+      "t": 331.4,
+      "end": 341.7,
+      "text": "a sub checklist here. So, what you saw me doing here was actually call the assisted setup list page, but it's filtered now only to contain my setup elements."
+    },
+    {
+      "t": 341.7,
+      "end": 355.7,
+      "text": "And that's a great way to say, \"Hey, here are just a number of steps you need to go through to have this module set up.\" In this case, I just want to show you an example of calling one of these. So, here I have an assisted setup that says for this biodiversity solution,"
+    },
+    {
+      "t": 355.7,
+      "end": 368.5,
+      "text": "I need to import some plants. So, now it's plants. It could be the chart of accounts. It could be posting groups. It could be whatever you want to import in terms of data as an alternative to using configuration packages."
+    },
+    {
+      "t": 368.5,
+      "end": 385.2,
+      "text": "So, this case, and you can see I've even branded this assisted setup. I want to import a list of plants from GitHub. So, I know that I have a JSON file with plants that I open source on GitHub because I want the community to contribute to this list of plants."
+    },
+    {
+      "t": 385.2,
+      "end": 396.1,
+      "text": "I click next. And now we see it's actually now listed in sort of a temporary state. So, when I click next, they will actually be imported. This is just a way for me to sort of validate that it looks fine."
+    },
+    {
+      "t": 396.1,
+      "end": 409.9,
+      "text": "I This is This is the list that I expect to to import. So, we'll do that. And we'll click finish. So, you see how using an assisted setup I could even ask more questions here to clarify which data do I want to load."
+    },
+    {
+      "t": 409.9,
+      "end": 420.9,
+      "text": "So, you can imagine if a customer is not using doing projects, for example, just leave those accounts out of the chart of accounts or something else where you don't want to load data that is not used."
+    },
+    {
+      "t": 420.9,
+      "end": 438.5,
+      "text": "So, think about loading data in a just-in-time fashion this way. So, let's just close this one and say that we we did this kind of setup for now. Now, the user also said, \"We use Excel today.\" I want to speak to that because we have some very cool Excel integrations."
+    },
+    {
+      "t": 438.5,
+      "end": 450.8,
+      "text": "So, what I want to do is I want to open a page on that plant data that I just imported, and I want to show a great spotlight tour that that spotlight the Excel integration capabilities."
+    },
+    {
+      "t": 450.8,
+      "end": 461.7,
+      "text": "So, I call the spotlight tour here. I can You as a partner can modify this text, of course, and say, \"Why is this great on this entity to use edit in Excel?\""
+    },
+    {
+      "t": 461.7,
+      "end": 475.6,
+      "text": "So, I call out Excel here and say, \"Hey, for example, you can edit this list of plants in Excel and import it back into BC.\" We're not going to do that right now, but this is just a great way to call out these standard integrations like share to teams and edit in Excel."
+    },
+    {
+      "t": 475.6,
+      "end": 488.4,
+      "text": "Let me go back here to to the checklist. Now, we also added new things in this release. So, if I start now, and this is actually is a report that I'm starting."
+    },
+    {
+      "t": 488.4,
+      "end": 498.7,
+      "text": "I wanted to provide a super cool report out of the box that is based on Excel layouts. I want them to see a nice graph of all the plants they just imported."
+    },
+    {
+      "t": 498.7,
+      "end": 509.6,
+      "text": "The new thing here is you see the teaching tip popping up for the request page for the report request page educating me about what can I expect from this report? Why does it exist?"
+    },
+    {
+      "t": 509.6,
+      "end": 525.6,
+      "text": "Uh maybe there could be some hints about how to best filter it to get the best experience with this report. But, in this case, I just want to see that nice looking report. And what we'll see it it will open in in Excel, and it shows me already the plant occurrences last year."
+    },
+    {
+      "t": 525.6,
+      "end": 540.5,
+      "text": "So, remember we're tracking biodiversity. I want to keep track of how often has this been reported has been spotted in the wild. So, I can see here my list of plants. This is an Excel layout that I provide with my app."
+    },
+    {
+      "t": 540.5,
+      "end": 552,
+      "text": "So, the customer hasn't even, you know, needed to do anything. They don't need to do this. When we print this Excel layout, uh or print this report, we will update the data set, and the graph will automatically update."
+    },
+    {
+      "t": 552,
+      "end": 562,
+      "text": "This is a super cool way to do alternative reports for your for your customers. And you can imagine all kinds of uh complex or less complex Excel layouts."
+    },
+    {
+      "t": 562,
+      "end": 572.6,
+      "text": "Let's mark that as complete as well. Now, I can also, of course, manage my plants. So, I can start that list of plants at I as I had before."
+    },
+    {
+      "t": 572.6,
+      "end": 583.6,
+      "text": "And one extra cool thing that we added in this release, you already know the teaching tips. You know that you can add markdown Uh to do bold and italics inside teaching tips and we can also link."
+    },
+    {
+      "t": 583.6,
+      "end": 596.7,
+      "text": "So here we link to the insects page. We haven't tracked any insects yet. But I want to take the tour. And here it says I can analyze my top plants. And basically what this does, it opens a query"
+    },
+    {
+      "t": 596.7,
+      "end": 607.5,
+      "text": "in analysis mode saying that hey, here's some great data for you. And now we have a teaching tip that educates the user about what is this analysis all about?"
+    },
+    {
+      "t": 607.5,
+      "end": 619,
+      "text": "What is it that you're seeing here? Because now this is fairly simple and I can see that it's sorted by number of occurrences, but it could be a more complex thing. So it could be great that I would be educated about this."
+    },
+    {
+      "t": 619,
+      "end": 633,
+      "text": "And of course, in this release, as I'm sure you'll see, uh now you can for example duplicate it to give it another name. Uh let me just call it test. And you can copy a link to this specific analysis and send this to a colleague,"
+    },
+    {
+      "t": 633,
+      "end": 647.1,
+      "text": "send it in Teams, and when they open it, they'll go directly into this analysis because you've just spent a weekend doing it and uh it's just a perfect analysis. So use teaching tips to educate users about what are they seeing here."
+    },
+    {
+      "t": 647.1,
+      "end": 666.4,
+      "text": "All right, let's go back here. And let's actually go back to the checklist. So let's skip this for now. Finally, in my example here, I actually want the user to go to my website because we have the perfect place for them to land after they've gone through the experience,"
+    },
+    {
+      "t": 666.4,
+      "end": 677.2,
+      "text": "where we can take them a step further. But you could also imagine you could take them into my company, start setting things up for real, uh add the data,"
+    },
+    {
+      "t": 677.2,
+      "end": 688.8,
+      "text": "add more videos that guide them through processes, and then go live. So this was just one way to sort of stitch together some onboarding pieces."
+    },
+    {
+      "t": 688.8,
+      "end": 701.6,
+      "text": "You get the idea with all these elements. It's up to you to think about you can stitch them together. Now, the great thing about what you just saw here is that this app that I loaded here is available on GitHub."
+    },
+    {
+      "t": 701.6,
+      "end": 715,
+      "text": "It's the onboarding sample app, and you can go fork it today and use that as a template to hit the ground running for your onboarding experiences. So, that you will know which events do you have to subscribe to, where do you do this, and where do you do that."
+    },
+    {
+      "t": 715,
+      "end": 726.6,
+      "text": "Let's just go through the most important ones now. So, what was actually customer-centric to this experience that you just saw? Well, first of all, we loaded a customer role center."
+    },
+    {
+      "t": 726.6,
+      "end": 740.9,
+      "text": "There's a few things that's important for doing that. So, we loaded a customer role center, we attached it to a role, and we set that role for the current user before they signed in. So, you see here the events that that are necessary to subscribe to to make that happen."
+    },
+    {
+      "t": 740.9,
+      "end": 757,
+      "text": "You can also see that in the in the code of the sample app. We also changed the welcome banner text, and again, to Sarah's point before, it's just super important to greet them with the most relevant uh text and greeting once you see the product."
+    },
+    {
+      "t": 757,
+      "end": 768.7,
+      "text": "It literally is the first thing that you see. And you see here which event you need to subscribe to to do that. And speaking about relevance,"
+    },
+    {
+      "t": 768.7,
+      "end": 780,
+      "text": "it's really is the checklist tasks that are uh you know, doing the work. The The This is your stage to lead the customer through"
+    },
+    {
+      "t": 780,
+      "end": 793.2,
+      "text": "uh that first experience. What is it you think they should get excited about? This is where you can do even pre-sale stuff. If they spin up uh spin up a new trial, you can use this for of course for the real onboarding scenario as well, and you can do both."
+    },
+    {
+      "t": 793.2,
+      "end": 797.8,
+      "text": "That really is up to you."
+    },
+    {
+      "t": 797.8,
+      "end": 813.5,
+      "text": "Branch off checklists to do more elaborate setups. You saw me uh opening the assisted setup list filtered to your custom category, and you do that by calling the open assisted setup function in the guide experience item."
+    },
+    {
+      "t": 813.5,
+      "end": 824.2,
+      "text": "And what we talked about before about using assist setups to ask more questions, to clarify which data do you have to load here? In my example, I just loaded the plants."
+    },
+    {
+      "t": 824.2,
+      "end": 835.3,
+      "text": "It could be that I wanted to ask the user about, \"Hey, are you interested in trees or flowers only?\" And then only load that data. You get the idea for your data. Consider open-sourcing that data."
+    },
+    {
+      "t": 835.3,
+      "end": 848.2,
+      "text": "If you have data that you build but many others also build, would it make sense to pull your resources and and open-source it? Could be. GitHub is a great source for those kind of things."
+    },
+    {
+      "t": 848.2,
+      "end": 860.6,
+      "text": "Again, call out the spotlight tours. Shine a big bright spotlight on those core integrations, Excel and Teams for your custom entities. It's a great way to generate some excitement."
+    },
+    {
+      "t": 860.6,
+      "end": 869.2,
+      "text": "And one of the reasons we hear customers investing in Business Central is the whole ecosystem of surrounding apps from Microsoft."
+    },
+    {
+      "t": 869.2,
+      "end": 879.6,
+      "text": "Educate users with teaching tips on reports. It's a great way to give them some hints about what this list report all about. Why should they care about it?"
+    },
+    {
+      "t": 879.6,
+      "end": 892.8,
+      "text": "And how should they maybe uh set some initial filters to get the best outcome? And with other like with other teaching tips, you can use the about title and about text properties to do that in AL."
+    },
+    {
+      "t": 892.8,
+      "end": 906.7,
+      "text": "Again, use Excel layouts. You can do stunning layouts and provide the Excel layout file out of the box with your app, so the customer doesn't have to do anything except but print the report."
+    },
+    {
+      "t": 906.7,
+      "end": 916.9,
+      "text": "There's some great examples and there's more guidance at this link. Check out the guidance there for more samples and some tips and tricks."
+    },
+    {
+      "t": 916.9,
+      "end": 929.9,
+      "text": "And the final thing I want to call out here is use teaching tips on query objects as well. It's It's a good experience to get some guidance on, \"Hey, what is this analysis that I just just opened directly from another page?"
+    },
+    {
+      "t": 929.9,
+      "end": 936.8,
+      "text": "What is it all about?\" To learn more, visit aka.ms/bconboarding."
+    },
+    {
+      "t": 936.8,
+      "end": 941.2,
+      "text": "Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 2801
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-https-and-certificates-mobile-app",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "afa694c156b7774492df5629453111f8c3d32f47",
       "words": 134,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:33.217Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005608
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:34.917Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:34.918Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:34.919Z",
+      "page": false
     }
   },
   "input_hash": "afa694c156b7774492df5629453111f8c3d32f47",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afa694c156b7774492df5629453111f8c3d32f47"
+  "output_hash": "41753a274bcba43b51a44e4e58a74d8a47f858acca552ed915132b96e64254ae"
 }

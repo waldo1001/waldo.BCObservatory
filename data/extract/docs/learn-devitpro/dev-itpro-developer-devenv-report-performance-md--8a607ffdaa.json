@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-performance",
+  "title": "Report performance",
+  "blob": "939c6bad03d1e5328802ba75c1a512ebce5c88df",
+  "summary": "Provides strategies for analyzing report performance using telemetry data including execution time, SQL statements, row consumption, and optimization techniques.",
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "report performance",
+    "telemetry",
+    "optimization",
+    "query tuning"
+  ],
+  "objects": [],
+  "features": [
+    "report telemetry",
+    "execution time analysis",
+    "dataset generation",
+    "read scale-out",
+    "background scheduling",
+    "query optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006418,
+      "pages_in_call": 7
+    }
+  ]
+}

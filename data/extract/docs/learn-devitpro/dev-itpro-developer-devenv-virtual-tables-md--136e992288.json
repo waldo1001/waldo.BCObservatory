@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-virtual-tables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-virtual-tables",
+  "title": "Virtual tables",
+  "blob": "85ce987afd772066e04600abf1c09fd6c83407b0",
+  "summary": "Virtual tables contain read-only system information computed at runtime, not stored in the database. Used to access integers, dates, OS files, disk drives, and database storage information.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "virtual tables",
+    "system information",
+    "read-only",
+    "runtime"
+  ],
+  "objects": [],
+  "features": [
+    "virtual tables",
+    "date virtual table",
+    "integer range",
+    "file overview",
+    "disk drives"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005608,
+      "pages_in_call": 8
+    }
+  ]
+}

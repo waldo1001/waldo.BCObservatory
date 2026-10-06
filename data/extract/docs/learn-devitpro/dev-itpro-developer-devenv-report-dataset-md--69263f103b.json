@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-dataset.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset",
+  "title": "Report dataset",
+  "blob": "a4ebed261fdc19dec7cddca33ccc7d03a90e2d80",
+  "summary": "Defines report datasets using data items (tables) and columns (fields, variables, expressions) to extract and organize data from Business Central database tables.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "reports",
+    "dataset",
+    "data model",
+    "report design"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer List"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    }
+  ],
+  "features": [
+    "report dataset",
+    "data items",
+    "columns",
+    "table relations",
+    "field formatting",
+    "include captions",
+    "query as datasource"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006418,
+      "pages_in_call": 7
+    }
+  ]
+}

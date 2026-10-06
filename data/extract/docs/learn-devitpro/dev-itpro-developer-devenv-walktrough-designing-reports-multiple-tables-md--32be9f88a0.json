@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables",
+  "title": "Walkthrough - Designing a report from multiple tables",
+  "blob": "0dce62792f7d2227526d750f760d4ba766a72a08",
+  "summary": "Walkthrough for designing RDL reports from multiple tables with datasets, visual layouts, filtering, and totaling. Covers report definition, Visual Studio Report Designer, and Excel export layouts.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "reports",
+    "rdl",
+    "multiple tables",
+    "dataset",
+    "layout"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "report",
+      "name": "Report for Multiple Tables"
+    }
+  ],
+  "features": [
+    "RDL layout",
+    "Excel layout",
+    "filtering",
+    "request pages",
+    "aggregation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005608,
+      "pages_in_call": 8
+    }
+  ]
+}

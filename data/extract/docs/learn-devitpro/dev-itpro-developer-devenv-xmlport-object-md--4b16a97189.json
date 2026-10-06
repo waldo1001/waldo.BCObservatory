@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-xmlport-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object",
+  "title": "XMLport object",
+  "blob": "0cb53e4d6f96df34ab8fe900af837d3c9e1fac26",
+  "summary": "XMLport objects export and import data between external sources and Business Central in XML format. Can include request pages for filtering, sorting, and choosing export or import operations.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "xmlport",
+    "import",
+    "export",
+    "xml",
+    "data exchange"
+  ],
+  "objects": [
+    {
+      "type": "xmlport",
+      "name": "ExportPermissionSet"
+    },
+    {
+      "type": "table",
+      "name": "Aggregate Permission Set"
+    },
+    {
+      "type": "table",
+      "name": "Tenant Permission"
+    }
+  ],
+  "features": [
+    "XML export",
+    "XML import",
+    "request pages",
+    "data exchange"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005608,
+      "pages_in_call": 8
+    }
+  ]
+}

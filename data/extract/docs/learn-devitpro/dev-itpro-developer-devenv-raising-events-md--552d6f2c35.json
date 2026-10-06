@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-raising-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-raising-events",
+  "title": "Raising Events",
+  "blob": "08da913c829b281dca3f1ce5c9aa7a77be329060",
+  "summary": "Describes raising events in AL code by calling event publisher methods, which triggers all subscribed event subscriber methods.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "events",
+    "event raising",
+    "event subscribers",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "MyCustomerExt"
+    }
+  ],
+  "features": [
+    "event raising",
+    "event subscriber methods",
+    "page extensions",
+    "field triggers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006418,
+      "pages_in_call": 7
+    }
+  ]
+}

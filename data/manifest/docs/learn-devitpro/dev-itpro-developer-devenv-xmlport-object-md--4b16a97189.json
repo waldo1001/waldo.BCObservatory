@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "0cb53e4d6f96df34ab8fe900af837d3c9e1fac26",
       "words": 180,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:34.916Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005608
     }
   },
   "input_hash": "0cb53e4d6f96df34ab8fe900af837d3c9e1fac26",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0cb53e4d6f96df34ab8fe900af837d3c9e1fac26"
+  "output_hash": "cc6691a4daf7aafb2eab723a68c01e33dd6b94133bd0e5db5ab096a9e1c118c9"
 }

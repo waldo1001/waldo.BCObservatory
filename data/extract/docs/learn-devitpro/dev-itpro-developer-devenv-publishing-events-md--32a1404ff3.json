@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-publishing-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publishing-events",
+  "title": "Publishing Events",
+  "blob": "3a8233a28d6eb8363ee39b60aa932790e5ef1472",
+  "summary": "Describes publishing business and integration events by creating event publisher methods in AL objects like codeunits, pages, and tables.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "events",
+    "event publishing",
+    "business events",
+    "integration events"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyPublishers"
+    }
+  ],
+  "features": [
+    "event publisher methods",
+    "integration event attribute",
+    "business event attribute",
+    "event parameters"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006418,
+      "pages_in_call": 7
+    }
+  ]
+}

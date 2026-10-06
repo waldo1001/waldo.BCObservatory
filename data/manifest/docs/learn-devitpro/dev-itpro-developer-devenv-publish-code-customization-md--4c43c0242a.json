@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publish-code-customization",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2340ef191c41b52d36d695576a4746a44a82f8c8",
       "words": 743,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:25.043Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006418
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:25.053Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:25.054Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:25.055Z",
+      "page": false
     }
   },
   "input_hash": "2340ef191c41b52d36d695576a4746a44a82f8c8",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2340ef191c41b52d36d695576a4746a44a82f8c8"
+  "output_hash": "ca09e9cc4fdd965da0bc5e2197336cbc6e4b121e039c19b0a47b7be39a9a0dbd"
 }

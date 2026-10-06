@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-protected-variables",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c71419e520a60f60dee87a3aa15eaf9858b451a5",
       "words": 90,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:25.042Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006418
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:25.050Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:25.051Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:25.052Z",
+      "page": false
     }
   },
   "input_hash": "c71419e520a60f60dee87a3aa15eaf9858b451a5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c71419e520a60f60dee87a3aa15eaf9858b451a5"
+  "output_hash": "fe1beff95843487037cd98a82d3ebcc3acc87d06856eaf6919843aef4682e42e"
 }

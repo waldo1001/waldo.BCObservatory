@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-request-pages-for-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports",
+  "title": "Using request pages with reports",
+  "blob": "765368a19fe7788ccf78405cabde786e5930ba2d",
+  "summary": "Request pages allow users to specify options and filters before reports execute using properties like RequestFilterFields and SaveValues.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "request pages",
+    "reports",
+    "filtering",
+    "report design"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "request page filtering",
+    "RequestFilterFields property",
+    "SaveValues property",
+    "teaching tips",
+    "help links",
+    "saved settings",
+    "AllowScheduling property"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006418,
+      "pages_in_call": 7
+    }
+  ]
+}

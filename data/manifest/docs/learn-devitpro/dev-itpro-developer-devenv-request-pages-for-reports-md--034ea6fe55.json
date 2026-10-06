@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "765368a19fe7788ccf78405cabde786e5930ba2d",
       "words": 1089,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:25.047Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006418
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:25.068Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:25.068Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:25.069Z",
+      "page": false
     }
   },
   "input_hash": "765368a19fe7788ccf78405cabde786e5930ba2d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "765368a19fe7788ccf78405cabde786e5930ba2d"
+  "output_hash": "25fb618025c5a83d9c1a6228d527a7e4bb00845f803ec4d89096ceb6a6076aab"
 }

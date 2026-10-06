@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-views.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views",
+  "title": "Views",
+  "blob": "a4e3bfdbfd13ff1711b910100ec6b81d30f778a3",
+  "summary": "Views on list pages define alternative data views with filtering, sorting, and layout changes. Views can be defined on pages, page extensions, and page customization objects.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "views",
+    "list pages",
+    "filtering",
+    "sorting",
+    "layout"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page"
+    },
+    {
+      "type": "page",
+      "name": "Page Extension"
+    },
+    {
+      "type": "page",
+      "name": "Page Customization"
+    }
+  ],
+  "features": [
+    "filtering",
+    "sorting",
+    "layout changes",
+    "shared layout",
+    "custom layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005608,
+      "pages_in_call": 8
+    }
+  ]
+}

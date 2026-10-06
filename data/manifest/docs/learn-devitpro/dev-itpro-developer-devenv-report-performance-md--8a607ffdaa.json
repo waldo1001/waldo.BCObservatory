@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-performance",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "939c6bad03d1e5328802ba75c1a512ebce5c88df",
       "words": 542,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:25.047Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006418
+    },
+    "summarized": {
+      "at": "2026-10-06T19:36:25.065Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:36:25.066Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:36:25.067Z",
+      "page": false
     }
   },
   "input_hash": "939c6bad03d1e5328802ba75c1a512ebce5c88df",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "939c6bad03d1e5328802ba75c1a512ebce5c88df"
+  "output_hash": "0141e7a3122ea5aee9f2360ce5d9e6f026428da6e7bfdedac966a6310d7a3916"
 }

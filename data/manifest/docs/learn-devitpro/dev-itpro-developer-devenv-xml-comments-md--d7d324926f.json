@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xml-comments",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "41320f6b55577c0636fdf345c3598b34f3a7bdd7",
       "words": 756,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:34.915Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005608
     }
   },
   "input_hash": "41320f6b55577c0636fdf345c3598b34f3a7bdd7",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41320f6b55577c0636fdf345c3598b34f3a7bdd7"
+  "output_hash": "03c22554c1cb3cc23303a755f0ac2210725e2a39bc20f7776d6f320b091d7f42"
 }

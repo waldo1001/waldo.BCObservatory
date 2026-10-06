@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client",
+  "title": "Develop a Sales Rep Role Center for the Tablet Client",
+  "blob": "4589fdfee79f92e86de5abab518faf8f8d179ed0",
+  "summary": "Walkthrough for developing a Sales Rep Role Center for the Business Central tablet client by combining existing pages and actions for tablet use.",
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "role center",
+    "tablet client",
+    "sales representative",
+    "design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Rep Role Center"
+    }
+  ],
+  "features": [
+    "role center",
+    "tablet client",
+    "KPIs",
+    "sales quotes"
+  ],
+  "versions": [
+    "2020 Release Wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005608,
+      "pages_in_call": 8
+    }
+  ]
+}
