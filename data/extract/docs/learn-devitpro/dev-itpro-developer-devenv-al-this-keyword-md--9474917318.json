@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-this-keyword.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-this-keyword",
+  "title": "Use the this keyword for codeunit self-reference",
+  "blob": "1365feb837a27dee58d0693b9e03781ddcd9950b",
+  "summary": "The 'this' keyword in AL codeunits enables self-reference for passing the current object as arguments and improves code readability by distinguishing global from local scope.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "this keyword",
+    "codeunit reference",
+    "code readability",
+    "codecop",
+    "code actions"
+  ],
+  "objects": [],
+  "features": [
+    "this keyword reference",
+    "method argument passing",
+    "scope indication",
+    "CodeCop rule AA0248"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

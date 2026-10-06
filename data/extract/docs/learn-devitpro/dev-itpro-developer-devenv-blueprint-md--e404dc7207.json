@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-blueprint.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint",
+  "title": "Module Architecture",
+  "blob": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
+  "summary": "Module architecture defines design principles for separating modules into independent projects with public facades, managing dependencies across functional layers, and ensuring consistency through internal implementation patterns.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "module architecture",
+    "packaging",
+    "layering",
+    "dependencies",
+    "facade codeunits",
+    "extensibility",
+    "testing",
+    "documentation"
+  ],
+  "objects": [],
+  "features": [
+    "module dependencies",
+    "object accessibility",
+    "facade codeunits",
+    "business logic implementation",
+    "extensibility controls",
+    "access modifiers",
+    "documentation standards",
+    "testing requirements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

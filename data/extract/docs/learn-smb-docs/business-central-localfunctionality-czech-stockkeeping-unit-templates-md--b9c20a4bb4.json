@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates",
+  "title": "Czech local templates for inventory operations – Stock keeping unit templates",
+  "blob": "19cc076ad1b252e002f78ebcb82fc01b0173ebce",
+  "summary": "Stock keeping unit templates allow Czech companies to define SKU creation templates by item category and location, with automatic copying of replenishment and reordering parameters to new stock keeping unit cards.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "stock keeping unit",
+    "templates",
+    "item category",
+    "location",
+    "czech"
+  ],
+  "objects": [],
+  "features": [
+    "SKU template definition",
+    "replenishment system configuration",
+    "reordering policy",
+    "automatic parameter copying"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00133,
+      "pages_in_call": 7
+    }
+  ]
+}

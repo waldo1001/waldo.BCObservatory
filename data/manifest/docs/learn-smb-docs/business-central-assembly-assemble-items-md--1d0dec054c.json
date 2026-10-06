@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-items",
   "published_at": "2025-06-10T12:17:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91e7fb0c82e2a75024d8a1064a3e071c88b7f015",
       "words": 576,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:10.895Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.762Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.763Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.764Z",
+      "page": false
     }
   },
   "input_hash": "91e7fb0c82e2a75024d8a1064a3e071c88b7f015",
@@ -144,5 +163,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91e7fb0c82e2a75024d8a1064a3e071c88b7f015"
+  "output_hash": "e4ea9638bd8f88b2bd7c07732e99e2b8ac4a299c0e8e8613636b6e1c2981f0c5"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint",
   "published_at": "2025-06-16T12:25:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
       "words": 1005,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:10.886Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:10.897Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:10.899Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:10.901Z",
+      "page": false
     }
   },
   "input_hash": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2"
+  "output_hash": "e834c44b6d804cba93ac072448d517cd1437451f75df6ebc75eac8c72ebec002"
 }

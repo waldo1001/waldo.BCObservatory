@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts",
   "published_at": "2025-06-10T12:17:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b051ea8e13278d30028e855498b1a05fd3acb98a",
       "words": 2931,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:12.779Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.833Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.840Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.846Z",
+      "page": false
     }
   },
   "input_hash": "b051ea8e13278d30028e855498b1a05fd3acb98a",
@@ -95,5 +114,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b051ea8e13278d30028e855498b1a05fd3acb98a"
+  "output_hash": "23dd8cb579d5c5839d3c77aebaf64dbb071a00e2a90e586e01c40107ae51c48c"
 }

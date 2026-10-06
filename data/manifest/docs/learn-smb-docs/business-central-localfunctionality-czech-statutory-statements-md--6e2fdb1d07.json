@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "425bc6ea5531ad3c026362b533f78ee790349d8e",
       "words": 194,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:57.665Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00133
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:10.917Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:10.919Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:10.921Z",
+      "page": false
     }
   },
   "input_hash": "425bc6ea5531ad3c026362b533f78ee790349d8e",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "425bc6ea5531ad3c026362b533f78ee790349d8e"
+  "output_hash": "98442ebac42b4ad5074eeeb574807f21bedc6f3454acbfb623cfaa952d571a8c"
 }

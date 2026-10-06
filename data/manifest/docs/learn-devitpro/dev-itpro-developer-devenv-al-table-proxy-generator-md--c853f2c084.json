@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator",
   "published_at": "2025-06-16T09:05:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3b993148daef411843038e4671913a8b482309dc",
       "words": 678,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:10.890Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.750Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.751Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.752Z",
+      "page": false
     }
   },
   "input_hash": "3b993148daef411843038e4671913a8b482309dc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3b993148daef411843038e4671913a8b482309dc"
+  "output_hash": "9bab54e47617b8fb620ca4018da1db70d26b131ef2f7c63a3ff6cd689eba2d35"
 }

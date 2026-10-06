@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/supplementary-vat-statement",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "abd214eb844a198d15677240c4924d292843c1a3",
       "words": 118,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:57.667Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00133
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.738Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.739Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.740Z",
+      "page": false
     }
   },
   "input_hash": "abd214eb844a198d15677240c4924d292843c1a3",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abd214eb844a198d15677240c4924d292843c1a3"
+  "output_hash": "cd4d5d9378317bca43ab4def4fdaf0808f2f10f1267fca619831139883e75056"
 }

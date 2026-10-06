@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ongetfilename-event",
   "published_at": "2025-06-16T09:55:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f541e0036ad5804b6240ae56263c28f8abd0523",
       "words": 252,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:10.888Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.747Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.748Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.748Z",
+      "page": false
     }
   },
   "input_hash": "0f541e0036ad5804b6240ae56263c28f8abd0523",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f541e0036ad5804b6240ae56263c28f8abd0523"
+  "output_hash": "4bb1c290c59708e6fddc3bb7c517773402971e786dba57880d7b67287ce83405"
 }

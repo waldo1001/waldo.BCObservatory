@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/statutory-company-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-company-information",
+  "title": "Czech local functionality - Statutory company information [CZ]",
+  "blob": "488716991cf246cec562e37ad7d20df80202d99a",
+  "summary": "Statutory company information feature enables Czech companies to define company officials, document footers in multiple languages, and store registration numbers for use in internal and external documents.",
+  "systems": [
+    "finance",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "company information",
+    "statutory requirements",
+    "document footers",
+    "registration numbers",
+    "czech"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "company officials designation",
+    "multilingual document footers",
+    "registration number storage",
+    "general manager",
+    "accounting manager",
+    "finance manager"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00133,
+      "pages_in_call": 7
+    }
+  ]
+}

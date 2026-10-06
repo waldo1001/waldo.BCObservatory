@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format",
   "published_at": "2025-06-04T07:37:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7c85a24da788f17ec5377c3f493cd16fa3d8df72",
       "words": 341,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:12.788Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.858Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.860Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.862Z",
+      "page": false
     }
   },
   "input_hash": "7c85a24da788f17ec5377c3f493cd16fa3d8df72",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c85a24da788f17ec5377c3f493cd16fa3d8df72"
+  "output_hash": "83cb69ce7b3492997d385f206da88995894783ec5d7fec21314dc3d54a0ac063"
 }

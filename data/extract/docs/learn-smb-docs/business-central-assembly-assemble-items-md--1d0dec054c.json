@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-assemble-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-items",
+  "title": "Assembly Management",
+  "blob": "91e7fb0c82e2a75024d8a1064a3e071c88b7f015",
+  "summary": "Assembly Management enables companies to supply products by combining components with support for assemble-to-order, assemble-to-stock, and integrated warehouse and sales features.",
+  "systems": [
+    "assembly",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "assembly management",
+    "assemble to order",
+    "assembly bom",
+    "component assembly",
+    "product customization"
+  ],
+  "objects": [],
+  "features": [
+    "assembly orders",
+    "assembly BOMs",
+    "assemble-to-order",
+    "assemble-to-stock",
+    "just-in-time assembly",
+    "sales integration",
+    "warehouse activities",
+    "inventory picks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

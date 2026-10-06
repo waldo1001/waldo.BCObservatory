@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-how-setup-bank-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts",
+  "title": "Set up bank accounts",
+  "blob": "b051ea8e13278d30028e855498b1a05fd3acb98a",
+  "summary": "Bank account setup in Business Central tracks banking transactions, enables payment reconciliation and bank reconciliation, and supports import/export of bank files with features for both local and foreign currencies.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "bank accounts",
+    "payment reconciliation",
+    "bank reconciliation",
+    "bank statements",
+    "currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    }
+  ],
+  "features": [
+    "multi-currency support",
+    "payment reconciliation",
+    "bank reconciliation",
+    "bank file import/export",
+    "direct debit",
+    "SEPA credit transfer",
+    "opening balance posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003091,
+      "pages_in_call": 8
+    }
+  ]
+}

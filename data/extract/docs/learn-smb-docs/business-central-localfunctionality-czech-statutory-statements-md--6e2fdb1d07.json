@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/statutory-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements",
+  "title": "Czech Local Functionality - Statutory Statements [CZ]",
+  "blob": "425bc6ea5531ad3c026362b533f78ee790349d8e",
+  "summary": "Statutory Statements feature provides Balance Sheet and Income Statement reports for Czech companies complying with Accounting Law 563/1991, using financial report structure with customizable Excel layouts.",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "statutory statements",
+    "balance sheet",
+    "income statement",
+    "financial reporting",
+    "czech"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Acc. Schedule Name"
+    },
+    {
+      "type": "table",
+      "name": "Acc. Schedule Line"
+    }
+  ],
+  "features": [
+    "balance sheet report",
+    "income statement",
+    "row correction",
+    "assets/liabilities type",
+    "calculation options",
+    "excel layout customization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00133,
+      "pages_in_call": 7
+    }
+  ]
+}

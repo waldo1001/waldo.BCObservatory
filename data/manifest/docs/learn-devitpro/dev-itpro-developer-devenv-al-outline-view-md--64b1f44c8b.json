@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-outline-view",
   "published_at": "2025-06-13T12:35:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "24b9d6f871ea6e45c2b56212d8e5ea83da8ae4bb",
       "words": 246,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:10.891Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.753Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.754Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.755Z",
+      "page": false
     }
   },
   "input_hash": "24b9d6f871ea6e45c2b56212d8e5ea83da8ae4bb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "24b9d6f871ea6e45c2b56212d8e5ea83da8ae4bb"
+  "output_hash": "e65d825e2c59dec8abee1c790aa5d71aca39c0464c4471b0c3e63ba612eda306"
 }

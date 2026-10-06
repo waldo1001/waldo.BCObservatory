@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-table-proxy-generator.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator",
+  "title": "AL Table Proxy Generator",
+  "blob": "3b993148daef411843038e4671913a8b482309dc",
+  "summary": "AL Table Proxy Generator tool creates integration or proxy tables in Business Central to represent tables from Microsoft Dataverse for data synchronization.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "dataverse integration",
+    "proxy tables",
+    "table generation",
+    "cds integration",
+    "crm integration"
+  ],
+  "objects": [],
+  "features": [
+    "AL table proxy generation",
+    "Dataverse table mapping",
+    "integration tables",
+    "entity synchronization",
+    "field mapping",
+    "authentication",
+    "table relationships"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

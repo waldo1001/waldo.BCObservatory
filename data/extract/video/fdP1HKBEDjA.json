@@ -1,0 +1,223 @@
+{
+  "video_id": "fdP1HKBEDjA",
+  "item_id": "video/yt-microsoft/fdP1HKBEDjA",
+  "title": "Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)",
+  "duration_s": 305,
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "receivables transactions",
+    "invoices",
+    "credit memos",
+    "sales journals",
+    "posting",
+    "customer transactions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction - Comparing GP and Business Central",
+      "t_start": 0,
+      "t_end": 16.5
+    },
+    {
+      "title": "Entering invoices in Dynamics GP",
+      "t_start": 16.5,
+      "t_end": 39
+    },
+    {
+      "title": "Entering credit memos in Dynamics GP",
+      "t_start": 39,
+      "t_end": 79.8
+    },
+    {
+      "title": "Entering invoices in Business Central using sales journals",
+      "t_start": 79.8,
+      "t_end": 154.3
+    },
+    {
+      "title": "Entering credit memos in Business Central using sales journals",
+      "t_start": 154.3,
+      "t_end": 214.1
+    },
+    {
+      "title": "Creating sales invoices in Business Central",
+      "t_start": 214.1,
+      "t_end": 272.8
+    },
+    {
+      "title": "Summary - Multiple options for receivables in Business Central",
+      "t_start": 272.8,
+      "t_end": 305
+    }
+  ],
+  "features": [
+    {
+      "name": "Receivables transaction entry in Dynamics GP",
+      "description": "Enter invoices for services provided to customers by selecting customer, entering amount, and posting the invoice using the receivables transaction entry window.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.5,
+      "t_end": 38,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gp",
+        "invoices",
+        "receivables"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Credit memo application in Dynamics GP",
+      "description": "Enter credit memos for customers and apply them to original invoices using the apply sales document window to select outstanding invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39,
+      "t_end": 79.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gp",
+        "credit memos",
+        "receivables"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales journals for receivables invoices in Business Central",
+      "description": "Create receivables invoices in Business Central by navigating to sales journals, creating batches with default sales accounts, selecting document type of invoice, entering customer information and amounts, with ability to preview GL entries before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 94.4,
+      "t_end": 154,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales journals",
+        "invoices",
+        "posting accounts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Credit memos in sales journals in Business Central",
+      "description": "Enter credit memos in Business Central using sales journal batches with separate number series, select credit memo document type, apply to invoices using apply entry process, and post the document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.3,
+      "t_end": 214,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales journals",
+        "credit memos",
+        "apply entry"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales invoices document in Business Central",
+      "description": "Create sales invoices in Business Central as an alternative to sales journals, allowing tracking of services and items, with ability to include GL accounts and inventory items on the same transaction for combined billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214.1,
+      "t_end": 292.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales invoices",
+        "services",
+        "inventory items"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Receivables Transaction Entry",
+      "t": 16.5
+    },
+    {
+      "type": "page",
+      "name": "Apply Sales Document",
+      "t": 58.7
+    },
+    {
+      "type": "page",
+      "name": "Sales Journals",
+      "t": 94.4
+    },
+    {
+      "type": "page",
+      "name": "GL Entry",
+      "t": 133.1
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices",
+      "t": 228.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 2.4,
+      "text": "in this video we're going to look at how to enter in receivables invoices and credit memos in Dynamics GP and compare that to",
+      "why_it_matters": "Clearly states the video's purpose is to compare the two products' receivables transaction workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 94.4,
+      "text": "to create receivables invoices in business Central I'll navigate to my sales journals in my sales Journal window I can see I've created several",
+      "why_it_matters": "Demonstrates that sales journals are the primary method for entering receivables invoices in Business Central, with support for batches.",
+      "check": "exact"
+    },
+    {
+      "t": 133.1,
+      "text": "if I want to look at the posting accounts before posting I can go into the GL entry and see the accounts receivable and",
+      "why_it_matters": "Shows that Business Central provides GL entry preview capability before posting transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 214.1,
+      "text": "sales invoices can also be used to track sales of services and items in inventory to create a sales invoice",
+      "why_it_matters": "Indicates that Business Central offers multiple document types for receivables, not just sales journals.",
+      "check": "exact"
+    },
+    {
+      "t": 272.8,
+      "text": "because the sales invoice allows for additional flexibility it can also include items that I track in inventory on this document perhaps a customer",
+      "why_it_matters": "Highlights a key advantage of sales invoices in Business Central - ability to combine services and inventory items on one document.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014088
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-ongetfilename-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ongetfilename-event",
+  "title": "OnGetFilename Event",
+  "blob": "0f541e0036ad5804b6240ae56263c28f8abd0523",
+  "summary": "The OnGetFilename event allows customizing report export filenames for PDF, Excel, or Word by subscribing to this integration event in codeunit 44 ReportManagement.",
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "ongetfilename event",
+    "report export",
+    "filename customization",
+    "file naming",
+    "report management"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "filename customization",
+    "export naming",
+    "PDF export",
+    "Excel export",
+    "Word export",
+    "user-friendly naming",
+    "compliance requirements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}
