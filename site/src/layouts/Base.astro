@@ -1,0 +1,39 @@
+---
+interface Props { title: string; description?: string; markdown?: string }
+const { title, description, markdown } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="alternate" type="text/plain" href={`${base}llms.txt`} title="llms.txt" />
+    {markdown && <link rel="alternate" type="text/markdown" href={markdown} title="Markdown" />}
+  </head>
+  <body>
+    <header><a href={base}>BC Observatory</a> · <a href={`${base}videos/`}>Videos</a></header>
+    <main><slot /></main>
+    <style is:global>
+      :root { color-scheme: light dark; --bg: #fbfbfd; --fg: #1d1d22; --muted: #5b5b66; --line: #e2e2ea; --accent: #3a5bd9; --warn: #9a5b00; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #0d0f17; --fg: #e9e9f0; --muted: #a0a0b2; --line: #262a3a; --accent: #8ea6ff; --warn: #f0b45a; } }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+      header { max-width: 46rem; margin: 0 auto; padding: 1rem 1rem 0; color: var(--muted); font-size: .9rem; }
+      main { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; overflow-wrap: anywhere; }
+      .eyebrow { color: var(--muted); font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin: 0; }
+      h1 { font-size: 2.1rem; line-height: 1.2; margin: .25rem 0 1rem; }
+      h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+      .lede, blockquote { font-size: 1.1rem; color: var(--muted); }
+      blockquote { margin: 0 0 1rem; padding-left: 1rem; border-left: 3px solid var(--line); }
+      a { color: var(--accent); }
+      table { border-collapse: collapse; width: 100%; font-size: .92rem; display: block; overflow-x: auto; }
+      th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+      .num td:last-child, .num th:last-child { text-align: right; }
+      ul.list { list-style: none; padding: 0; }
+      ul.list li { padding: .75rem 0; border-bottom: 1px solid var(--line); }
+      .meta { color: var(--muted); font-size: .88rem; }
+      .badge { font-size: .75rem; padding: .05rem .45rem; border-radius: 1rem; border: 1px solid currentColor; color: var(--warn); }
+    </style>
+  </body>
+</html>

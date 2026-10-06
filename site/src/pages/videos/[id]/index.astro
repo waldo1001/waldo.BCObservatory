@@ -1,0 +1,14 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+export async function getStaticPaths() {
+  return (await getCollection("videos")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+---
+<Base title={`${entry.data.title} · BC Observatory`} description={entry.data.summary} markdown={`${base}videos/${entry.id}.md`}>
+  <p class="eyebrow">Video · {entry.data.tier} · <a href={`${base}videos/${entry.id}.md`}>markdown</a></p>
+  <Content />
+</Base>
