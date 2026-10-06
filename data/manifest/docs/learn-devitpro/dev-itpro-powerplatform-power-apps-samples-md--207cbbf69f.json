@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "30e28ea5ba2bcee285d7d449dce0f09ecc302cdc",
       "words": 310,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:30:22.532Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T18:30:22.540Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:30:22.541Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:30:22.541Z",
+      "page": false
     }
   },
   "input_hash": "30e28ea5ba2bcee285d7d449dce0f09ecc302cdc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "30e28ea5ba2bcee285d7d449dce0f09ecc302cdc"
+  "output_hash": "173cbc5d9bee3763c4a0d40ae18068b67ce27fafc0e3c4421889646eb9207942"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-analyze-gl-entries",
   "published_at": "2026-05-20T14:23:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "17941f55bac5485b1aa4a938e62e2065909c5f0b",
       "words": 271,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:30:22.536Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T18:30:22.552Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:30:22.552Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:30:22.553Z",
+      "page": false
     }
   },
   "input_hash": "17941f55bac5485b1aa4a938e62e2065909c5f0b",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "17941f55bac5485b1aa4a938e62e2065909c5f0b"
+  "output_hash": "9d0aca2b513a6a15033976bda8ca857be91b8c7ccd87ffcbfcc529f59961440c"
 }

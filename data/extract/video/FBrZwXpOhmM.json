@@ -1,0 +1,157 @@
+{
+  "video_id": "FBrZwXpOhmM",
+  "item_id": "video/yt-microsoft/FBrZwXpOhmM",
+  "title": "What's Cooking in Business Central: Agent Reasoning and Transparency",
+  "duration_s": 115,
+  "systems": [
+    "copilot",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "agent reasoning",
+    "transparency",
+    "payables agent",
+    "trust",
+    "ai adoption",
+    "field suggestions",
+    "gl account",
+    "deferral code"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Agent Reasoning Feature",
+      "t_start": 0,
+      "t_end": 23.1
+    },
+    {
+      "title": "Trust and Transparency in AI Adoption",
+      "t_start": 23.1,
+      "t_end": 35.8
+    },
+    {
+      "title": "Purchase Document Draft with Agent Suggestions",
+      "t_start": 35.8,
+      "t_end": 46.7
+    },
+    {
+      "title": "Viewing Agent Reasoning for GL Account",
+      "t_start": 46.7,
+      "t_end": 65.4
+    },
+    {
+      "title": "Reviewing Additional Field Suggestions",
+      "t_start": 65.4,
+      "t_end": 77.8
+    },
+    {
+      "title": "Reasoning Display for All Agent Suggestions",
+      "t_start": 77.8,
+      "t_end": 92.3
+    },
+    {
+      "title": "Building User Trust Through Transparency",
+      "t_start": 92.3,
+      "t_end": 115
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Reasoning Display",
+      "description": "A feature that surfaces the payables agent's reasoning to users through an info icon, allowing them to see why the agent suggested a specific field value such as GL account or deferral code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.4,
+      "t_end": 92.3,
+      "is_demoed": true,
+      "caveats": [
+        "Currently shown for payables agent",
+        "Will potentially expand to other features"
+      ],
+      "tags": [
+        "transparency",
+        "payables agent",
+        "trust",
+        "reasoning",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "An AI agent that assists with payables processing by suggesting field values such as GL accounts and deferral codes in purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.4,
+      "t_end": 92.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "payables",
+        "2025 wave 2"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "chart of accounts",
+      "t": 46.7
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.4,
+      "text": "for the payable agent in the 2025 wave 2 major release and potentially for other features down the road",
+      "why_it_matters": "Establishes the timeline and scope - this feature targets 2025 wave 2 with potential for broader application",
+      "check": "exact"
+    },
+    {
+      "t": 23.1,
+      "text": "For users to adopt AI, it's important that they trust AI. Therefore, we're surfacing the payables agents reasoning to the user so they know",
+      "why_it_matters": "Explains the core design principle - transparency and trust are essential drivers for AI adoption",
+      "check": "exact"
+    },
+    {
+      "t": 46.7,
+      "text": "And you'll now notice the small I icon next to the account number. And this is where we're surfacing the agent's reasoning.",
+      "why_it_matters": "Describes the UI implementation - users access reasoning through a clickable info icon",
+      "check": "exact"
+    },
+    {
+      "t": 92.3,
+      "text": "this goes regardless if it suggest counts or an item uses item references whatever it does",
+      "why_it_matters": "Indicates the reasoning display applies universally across all types of agent suggestions, not just GL accounts",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.4,
+      "kind": "preview",
+      "text": "we're cooking up to assist users working with agents and AI. First, for the payable agent in the 2025 wave 2 major release and potentially for other features down the road"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010173999999999999
+    }
+  ]
+}

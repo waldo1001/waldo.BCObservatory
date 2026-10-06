@@ -1,0 +1,27 @@
+{
+  "video_id": "FBrZwXpOhmM",
+  "item_id": "video/yt-microsoft/FBrZwXpOhmM",
+  "summary": "Agent reasoning display for the payables agent in Business Central: an info icon next to a suggested field value, such as a GL account or deferral code, shows why the agent suggested it. Described for the 2025 wave 2 major release, possibly extending to other features later.",
+  "overview": "This short \"What's Cooking\" video from the Business Central team explains why agent reasoning is being surfaced. The stated premise is that users need to trust AI to adopt it, so the payables agent now shows the reasoning behind its suggestions.\n\nThe demo opens a purchase document draft containing agent suggestions. A small I icon appears next to the account number, and selecting it shows the agent's reasoning for the GL account. The same display is available for other suggested fields, such as the deferral code, and applies whatever the agent suggests, including accounts or items that use item references. The video is labelled as a preview of what is being built.",
+  "key_points": [
+    "The feature is described for the payables agent in the 2025 wave 2 major release, and may come to other features later.",
+    "In a purchase document draft with agent suggestions, a small I icon next to the account number shows the agent's reasoning.",
+    "Reasoning can also be viewed for other suggested fields, such as the deferral code.",
+    "The reasoning display applies regardless of what the agent suggests, including accounts or items that use item references.",
+    "The stated purpose is trust: users adopt AI more readily when they can see why it suggested a value.",
+    "The video is labelled a preview of work in progress, so details may change."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "63a1a2f462d79cf4e7737a34f52b2e310edab7995874552076332354f21073fa",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010946399999999998
+  }
+}

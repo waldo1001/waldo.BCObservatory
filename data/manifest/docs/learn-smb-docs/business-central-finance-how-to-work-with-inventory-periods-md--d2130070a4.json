@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-work-with-inventory-periods",
   "published_at": "2026-05-20T14:23:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "215723dd05ad5d8c8136e59a8438d6034e2f9d0e",
       "words": 568,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:30:22.537Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T18:30:22.554Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:30:22.555Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:30:22.556Z",
+      "page": false
     }
   },
   "input_hash": "215723dd05ad5d8c8136e59a8438d6034e2f9d0e",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "215723dd05ad5d8c8136e59a8438d6034e2f9d0e"
+  "output_hash": "b67a942ab8cba595c428464775151b500e6bb25ac8c90f0be3984f4cc1854204"
 }

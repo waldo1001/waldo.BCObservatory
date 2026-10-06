@@ -1,0 +1,260 @@
+{
+  "video_id": "Qmd6_5vYKDg",
+  "item_id": "video/yt-microsoft/Qmd6_5vYKDg",
+  "title": "Less Searching More Selling with Sales Order Agent (2025)",
+  "duration_s": 162,
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales order agent",
+    "natural language processing",
+    "item search",
+    "email processing",
+    "customer communication",
+    "intelligent matching",
+    "item attributes",
+    "item variants"
+  ],
+  "chapters": [
+    {
+      "title": "The Problem: Deciphering Customer Emails",
+      "t_start": 0,
+      "t_end": 16.2
+    },
+    {
+      "title": "Introducing the Sales Order Agent Solution",
+      "t_start": 16.2,
+      "t_end": 26.7
+    },
+    {
+      "title": "Agent Capabilities: Processing and Results",
+      "t_start": 26.7,
+      "t_end": 41.1
+    },
+    {
+      "title": "Search Parameters and Data Sources",
+      "t_start": 41.1,
+      "t_end": 51.2
+    },
+    {
+      "title": "Item Attributes and Variants Search",
+      "t_start": 51.2,
+      "t_end": 81.4
+    },
+    {
+      "title": "Item Identifiers and References",
+      "t_start": 81.4,
+      "t_end": 104.6
+    },
+    {
+      "title": "Extended Text and Translations",
+      "t_start": 104.6,
+      "t_end": 128.8
+    },
+    {
+      "title": "Natural Language Understanding and Benefits",
+      "t_start": 128.8,
+      "t_end": 162
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An AI agent that processes customer emails and suggests sales orders by intelligently matching customer requests to items in Business Central using natural language understanding and multiple search parameters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.2,
+      "t_end": 140.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "email processing",
+        "intelligent matching",
+        "natural language"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-parameter Item Search",
+      "description": "The agent searches items using multiple parameters including description, additional description, GTN number, item category code and description, item attributes, variants, identifiers, references, extended text and translations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.2,
+      "t_end": 128.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "search",
+        "item matching",
+        "data sources"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item Attributes Search",
+      "description": "The agent searches through item attributes such as material, size, color, weight, or dimensions to help match customer requests that specify these characteristics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.4,
+      "t_end": 81.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item attributes",
+        "supplemental data"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item Variants Matching",
+      "description": "The agent searches among item variants, different versions of the same item in Business Central, such as stationary or mobile models, or variations in size, color, or style.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.4,
+      "t_end": 93.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item variants",
+        "matching"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item Identifiers and Alternative Codes Search",
+      "description": "The agent searches item identifiers and alternative codes used for items, such as vendor numbers, barcodes, or customer-specific codes that uniquely identify items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.3,
+      "t_end": 104.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item identifiers",
+        "alternative codes"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item References Matching",
+      "description": "The agent searches through item references, additional links in Business Central such as customer item numbers or vendor item numbers that help match the way different parties refer to the same item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.6,
+      "t_end": 116.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item references",
+        "cross-party matching"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Extended Text and Translations Search",
+      "description": "The search includes information captured in extended text and translations, ensuring that detailed descriptions or requests in different languages are analyzed to find the right item match.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.6,
+      "t_end": 128.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extended text",
+        "multilingual"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Natural Language Understanding for Item Recognition",
+      "description": "The agent uses natural language understanding to recognize and find requested items where customers use their own codes or other ways of naming items, interpret details, and match them against data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.8,
+      "t_end": 140.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "natural language",
+        "ai",
+        "nlp"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 16.2,
+      "text": "That's exactly the kind of challenge the sales order agent was built to handle.",
+      "why_it_matters": "Establishes the core purpose of the sales order agent - to solve the problem of deciphering complex customer emails.",
+      "check": "exact"
+    },
+    {
+      "t": 26.7,
+      "text": "Inside Business Central, the sales order agent carefully processes the email and presents a suggested result directly in the agent pane.",
+      "why_it_matters": "Describes where and how the agent delivers its results within the Business Central interface.",
+      "check": "exact"
+    },
+    {
+      "t": 51.2,
+      "text": "The agent uses multiple search parameters across many sources to deliver the best results such as the description, additional description, GTN number, and the",
+      "why_it_matters": "Enumerates the specific search parameters the agent uses for item matching, showing its sophisticated approach.",
+      "check": "exact"
+    },
+    {
+      "t": 65.4,
+      "text": "In its search, it considers item attributes like material, size, color, weight, or dimensions, which are especially helpful when customers get specific in their",
+      "why_it_matters": "Highlights how the agent handles detailed customer specifications through attribute matching.",
+      "check": "exact"
+    },
+    {
+      "t": 81.4,
+      "text": "It also searches among item variants, different versions of the same item in Business Central, for example, stationary or mobile models, or variations in",
+      "why_it_matters": "Shows the agent's ability to distinguish between variants of items to find the exact match.",
+      "check": "exact"
+    },
+    {
+      "t": 128.8,
+      "text": "With its advanced search capabilities powered by natural language understanding, the agent can easily recognize and find the requested items where customers use their",
+      "why_it_matters": "Emphasizes the natural language processing capability that allows the agent to understand customer terminology.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016141
+    }
+  ]
+}

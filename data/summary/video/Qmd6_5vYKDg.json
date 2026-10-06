@@ -1,0 +1,28 @@
+{
+  "video_id": "Qmd6_5vYKDg",
+  "item_id": "video/yt-microsoft/Qmd6_5vYKDg",
+  "summary": "Sales order agent in Business Central: processes customer emails and suggests sales orders in the agent pane. Covers which item data it searches (descriptions, GTN, category, attributes, variants, identifiers, references, extended text, translations) using natural language understanding.",
+  "overview": "A 3-minute demo from the Microsoft Dynamics 365 Business Central channel (published 2025-09-01). It starts with the problem of working out which items a customer means in an email, then shows the sales order agent reading the email and presenting a suggested result in the agent pane.\n\nThe video lists the data the agent uses to match requested items: description fields, GTN number, item category, item attributes, variants, identifiers, item references, extended text and translations. It closes on how natural language understanding lets the agent recognize items when customers use their own codes or other names.",
+  "key_points": [
+    "The sales order agent processes a customer email and presents a suggested result in the agent pane inside Business Central.",
+    "Item search uses several parameters: description, additional description, GTN number, and item category code and description.",
+    "Item attributes such as material, size, color, weight or dimensions are searched, which helps when customers give specific details.",
+    "Item variants (for example stationary or mobile models, or size, color and style differences) are searched.",
+    "Item identifiers (vendor numbers, barcodes, customer-specific codes) and item references (customer or vendor item numbers) are used for matching.",
+    "Extended text and translations are included, so requests in different languages can be matched.",
+    "Natural language understanding lets the agent recognize items when customers use their own codes or other ways of naming them."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "eb94c22d972e95521a61281b2d5a0fa09268bc1fa4010f1bcab32aea481533a2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013482399999999999
+  }
+}

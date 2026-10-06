@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=ZH-uUKN7HoE",
   "published_at": "2025-09-01T17:01:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T18:30:07.814Z",
       "captions": "auto:en-orig",
       "duration_s": 1487
+    },
+    "captioned": {
+      "at": "2026-10-06T18:30:17.185Z",
+      "path": "vault:captions/community/yt-bcmusings/ZH-uUKN7HoE.vtt",
+      "vtt_sha256": "cddcdf986e9ff306e9ece38be47a8df7ec63be92c830553662efb760cef51a9b",
+      "segments": 117,
+      "words": 2848,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,8 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "cddcdf986e9ff306e9ece38be47a8df7ec63be92c830553662efb760cef51a9b",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T18:31:18.789Z"
 }

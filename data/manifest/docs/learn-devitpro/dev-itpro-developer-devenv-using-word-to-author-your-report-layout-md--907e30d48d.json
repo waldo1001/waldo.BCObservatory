@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-word-to-author-your-report-layout",
   "published_at": "2026-05-21T11:08:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8cd144a8fbd141f9b452e13e3360b087c4329423",
       "words": 3073,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:30:22.534Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T18:30:22.546Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:30:22.547Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:30:22.548Z",
+      "page": false
     }
   },
   "input_hash": "8cd144a8fbd141f9b452e13e3360b087c4329423",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8cd144a8fbd141f9b452e13e3360b087c4329423"
+  "output_hash": "bbf9d2de5d5cecd7527054fe9eed2e1db2c38607836b595851a097a1da30eac5"
 }

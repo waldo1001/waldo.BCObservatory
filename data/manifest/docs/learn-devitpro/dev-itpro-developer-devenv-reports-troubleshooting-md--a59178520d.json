@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting",
   "published_at": "2026-05-21T11:08:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f0bb240f73c1cd16b0e8bff82e99e7e9654c698",
       "words": 781,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:30:22.533Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T18:30:22.543Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:30:22.544Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:30:22.545Z",
+      "page": false
     }
   },
   "input_hash": "9f0bb240f73c1cd16b0e8bff82e99e7e9654c698",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f0bb240f73c1cd16b0e8bff82e99e7e9654c698"
+  "output_hash": "387e38cac8264e2e7d45ab67d09f6ba5d128a37baa4871f16b49216b37fd9a1e"
 }

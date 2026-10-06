@@ -1,0 +1,25 @@
+{
+  "video_id": "asSSBl8Cj34",
+  "item_id": "video/yt-microsoft/asSSBl8Cj34",
+  "summary": "Replace permission sets upon import is announced for the Business Central 2025 wave 2 release. The Import permission sets action can now overwrite existing permissions instead of merging them, by answering no at the update prompt. A short demo shows the result.",
+  "overview": "The video covers a change to the Import permission sets action. In earlier versions, the system asked whether to update existing permissions, and answering yes merged permissions from the test and production environments.\n\nThe 2025 wave 2 release adds a replace option. When the user selects no at the prompt, the existing permissions are overwritten with the imported definition. In the demo, the vendor table permission was removed and contacts were added exactly as defined in the import, with no merge.",
+  "key_points": [
+    "Replace permission sets upon import is announced for the 2025 wave 2 release.",
+    "In earlier versions, the Import permission sets action asked whether to update, and yes merged permissions from test and production.",
+    "To replace instead of merge, select no when prompted to update existing permissions.",
+    "In the demo, after choosing no, the vendor table permission was removed and contacts were added exactly as defined in the import.",
+    "The use case is moving permission sets between environments, such as test to production, where the imported definition should be the final result."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "0c0ad71ba1e9dae396e40230d000ad558429d64dfccd01d0206ef4380140597f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009780399999999998
+  }
+}

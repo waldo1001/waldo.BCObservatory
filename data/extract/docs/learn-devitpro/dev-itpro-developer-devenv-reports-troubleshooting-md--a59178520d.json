@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-reports-troubleshooting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting",
+  "title": "Troubleshooting reports",
+  "blob": "9f0bb240f73c1cd16b0e8bff82e99e7e9654c698",
+  "summary": "Troubleshooting reports describes strategies for analyzing report telemetry, identifying root causes of report errors or slow performance, and resolving common reporting exceptions in Business Central.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "reports",
+    "troubleshooting",
+    "telemetry",
+    "performance",
+    "debugging"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report Object"
+    }
+  ],
+  "features": [
+    "report limits",
+    "report telemetry",
+    "RDL layouts",
+    "Excel/Word layouts",
+    "report performance",
+    "debugging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-multi-tenant-smtp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-multi-tenant-smtp",
+  "title": "Use SMTP for email in a multitenant environment",
+  "blob": "c852b0bfc75be725de2491721d8ca96534195326",
+  "summary": "Use SMTP for email in a multitenant environment explains how to configure Business Central to send emails through SMTP Connector using OAuth 2.0 client credentials flow with Exchange Online in cross-tenant scenarios.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "smtp",
+    "email",
+    "oauth 2.0",
+    "multitenant",
+    "exchange online"
+  ],
+  "objects": [],
+  "features": [
+    "SMTP OAuth 2.0 authentication",
+    "cross-tenant email",
+    "app registration",
+    "client secret",
+    "mailbox permissions",
+    "service principal"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

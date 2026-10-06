@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-using-word-to-author-your-report-layout.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-word-to-author-your-report-layout",
+  "title": "Tips for Using Word to Author Your Report Layout",
+  "blob": "8cd144a8fbd141f9b452e13e3360b087c4329423",
+  "summary": "Tips for Using Word to Author Your Report Layout explains how to use Microsoft Word features to design Business Central report layouts, including headers, tables, data repeaters, conditional formatting, sections, and watermarks.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "formatting",
+    "data display",
+    "document design"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Image Handler Management"
+    }
+  ],
+  "features": [
+    "headers and footers",
+    "tables for alignment",
+    "pictures and compression",
+    "simple repeaters",
+    "nested repeaters",
+    "subtotals",
+    "conditional formatting",
+    "hyperlinks",
+    "sections",
+    "watermarks",
+    "fonts",
+    "office themes"
+  ],
+  "versions": [
+    "24.1",
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

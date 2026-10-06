@@ -1,0 +1,145 @@
+{
+  "video_id": "asSSBl8Cj34",
+  "item_id": "video/yt-microsoft/asSSBl8Cj34",
+  "title": "What's Cooking in Business Central: Replace Permission Sets Upon Import",
+  "duration_s": 189,
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permission sets",
+    "import",
+    "replace",
+    "merge",
+    "production",
+    "test environment",
+    "2025 wave 2"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and permission sets use case",
+      "t_start": 0,
+      "t_end": 50.3
+    },
+    {
+      "title": "Import behavior in previous versions - merge approach",
+      "t_start": 50.3,
+      "t_end": 81.4
+    },
+    {
+      "title": "Alternative use case - replacing instead of merging",
+      "t_start": 81.4,
+      "t_end": 126
+    },
+    {
+      "title": "New replace functionality demonstrated",
+      "t_start": 126,
+      "t_end": 154.8
+    },
+    {
+      "title": "Summary and benefits",
+      "t_start": 154.8,
+      "t_end": 189
+    }
+  ],
+  "features": [
+    {
+      "name": "Replace permission sets upon import",
+      "description": "New capability in 2025 wave 2 release that allows users to replace existing permission sets with imported ones instead of merging them. When selecting no during import prompt, the system replaces existing permissions entirely.",
+      "status": "announced",
+      "status_evidence_t": 5.5,
+      "status_evidence_quote": "what's coming in the 2025 wave 2 release",
+      "status_evidence_verified": true,
+      "t_start": 5.5,
+      "t_end": 154.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selecting no when prompted to update existing permissions"
+      ],
+      "tags": [
+        "permission sets",
+        "import",
+        "replace",
+        "workflow"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Import permission sets action",
+      "description": "Existing action that imports permission sets from files. Previous versions merged permissions from test and production environments when confirming yes. Now provides option to replace instead of merge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.9,
+      "t_end": 154.8,
+      "is_demoed": true,
+      "caveats": [
+        "Previously only supported merge behavior"
+      ],
+      "tags": [
+        "permission sets",
+        "import",
+        "action"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.5,
+      "text": "If you frequently work with permission sets, you'll be interested to hear what's coming in the 2025 wave 2 release.",
+      "why_it_matters": "Establishes that this feature is a forthcoming capability in 2025 wave 2, not yet available.",
+      "check": "exact"
+    },
+    {
+      "t": 58.9,
+      "text": "When using the action import permission sets in previous version of Business Central, the system would ask whether we want to update it.",
+      "why_it_matters": "Documents the existing behavior and the upgrade path for this feature.",
+      "check": "exact"
+    },
+    {
+      "t": 69.8,
+      "text": "If we confirmed with yes, the system would behave as expected, merging permissions from the test and production environment.",
+      "why_it_matters": "Explains the previous default behavior of merging rather than replacing permissions.",
+      "check": "exact"
+    },
+    {
+      "t": 139.8,
+      "text": "To overrite the existing permissions instead of merging them we must select no when prompted.",
+      "why_it_matters": "Describes the new mechanism: selecting no enables replace instead of merge behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 154.8,
+      "text": "After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined",
+      "why_it_matters": "Demonstrates the replace functionality working as designed, with exact matching of imported permissions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.5,
+      "kind": "coming-later",
+      "text": "what's coming in the 2025 wave 2 release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009648
+    }
+  ]
+}
