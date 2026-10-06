@@ -1,0 +1,28 @@
+{
+  "video_id": "-q8Gm7u7R2A",
+  "item_id": "video/yt-microsoft/-q8Gm7u7R2A",
+  "summary": "Business Central integration with Dataverse in 2024 release wave 1: data sync changes (linked environments, table and field mappings on existing integration tables, troubleshooting fact box), synthetic relationships, multi-company virtual tables with mapping plugins, and business event monitoring with Application Insights.",
+  "overview": "The session covers four ways Business Central and Dataverse interact: data sync, virtual tables, data change events and business events. For data sync, it covers linking a Business Central environment to a specific Dataverse environment, adding table mappings to existing integration tables, adding field mappings, a new troubleshooting fact box, and cleanup of sync data when a company or environment is copied. Connection setup pages were also renamed.\n\nThe second half covers synthetic relationships between synced tables and virtual tables, and multi-company access to virtual tables. Company can be set globally, per user, or overridden by a custom mapping plugin using the Dataverse shared BC Company ID execution variable. It ends with Power Automate triggers, the new business event subscription pages, and sending events to Application Insights as partner telemetry.",
+  "key_points": [
+    "Admins can link a Business Central environment to only a specific Dataverse environment.",
+    "New table mappings can be added to existing integration tables, but existing mappings cannot be remapped, duplicated or customized because they are defined in code. Field mappings are inserted as disabled by default.",
+    "Field mappings support most simple data types. Lookup fields and custom logic need developer help.",
+    "Synthetic relationships link synced Dataverse tables to Business Central virtual tables. They require virtual tables to be enabled and a configured virtual table API page.",
+    "Virtual table company targeting: a global company setting applies to all users and apps, and a user-specific setting overrides it. A mapping plugin and mapping table can set the Dataverse shared BC Company ID variable per user, app and portal.",
+    "The mapping plugin must be registered with the plugin registration tool. Its example code is to be published after the launch event.",
+    "New business event UI pages show subscriptions, notifications, activity logs and retries. Events can also be sent to Application Insights, which must be set up in the admin center."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "d04db54307fcb6cf51a2aad12cac0b02011d9e068218dbe17c5735168b1e5bc6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

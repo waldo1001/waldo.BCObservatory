@@ -1,0 +1,959 @@
+{
+  "video_id": "c91E6IykUnk",
+  "item_id": "video/yt-dynamicscorner/c91E6IykUnk",
+  "title": "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?",
+  "duration_s": 3223,
+  "systems": [
+    "copilot",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "ai development",
+    "expense management agent",
+    "github copilot",
+    "bc quality workflow",
+    "partner adoption",
+    "code review",
+    "agenting",
+    "ai-assisted development",
+    "workflow consistency",
+    "al development",
+    "multi-agent workflows",
+    "documentation automation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and guest background",
+      "t_start": 0,
+      "t_end": 268.8
+    },
+    {
+      "title": "Neil Johnson's background and role as MVP",
+      "t_start": 268.8,
+      "t_end": 365.7
+    },
+    {
+      "title": "Expense management agent and AI-developed features",
+      "t_start": 365.7,
+      "t_end": 488.8
+    },
+    {
+      "title": "BC quality workflow and agenting in development",
+      "t_start": 488.8,
+      "t_end": 604.2
+    },
+    {
+      "title": "AI development timeline and partner adoption challenges",
+      "t_start": 604.2,
+      "t_end": 723.6
+    },
+    {
+      "title": "Partner investment and workflow consistency",
+      "t_start": 723.6,
+      "t_end": 831.6
+    },
+    {
+      "title": "Personal AI tool experience and GitHub Copilot",
+      "t_start": 831.6,
+      "t_end": 945.7
+    },
+    {
+      "title": "Game-based AI learning and code generation workflow",
+      "t_start": 945.7,
+      "t_end": 1041.8
+    },
+    {
+      "title": "GitHub Copilot setup and usage statistics",
+      "t_start": 1041.8,
+      "t_end": 1159.4
+    },
+    {
+      "title": "Agent-based development workflow and multi-model exploration",
+      "t_start": 1159.4,
+      "t_end": 1320.1
+    },
+    {
+      "title": "Agent review process, documentation automation, and Playwright",
+      "t_start": 1320.1,
+      "t_end": 1573.7
+    },
+    {
+      "title": "Time management and productivity gains with AI tools",
+      "t_start": 1573.7,
+      "t_end": 1704
+    },
+    {
+      "title": "German market work and AI performance with report layouts",
+      "t_start": 1704,
+      "t_end": 1850
+    },
+    {
+      "title": "Check formats, customer requirements, and report layout evolution",
+      "t_start": 1850,
+      "t_end": 2045.9
+    },
+    {
+      "title": "Claude AI capabilities for Word layouts and reporting",
+      "t_start": 2045.9,
+      "t_end": 2189.8
+    },
+    {
+      "title": "RDLC to Word migration strategy and AI performance analysis",
+      "t_start": 2189.8,
+      "t_end": 2378.3
+    },
+    {
+      "title": "Telemetry tools, MCP integration, and AI agents for analysis",
+      "t_start": 2378.3,
+      "t_end": 2576.6
+    },
+    {
+      "title": "Telemetry benefits for partners and development teams",
+      "t_start": 2576.6,
+      "t_end": 2688.8
+    },
+    {
+      "title": "AI tools beyond Business Central: Claude, GitHub Copilot, and personal applications",
+      "t_start": 2688.8,
+      "t_end": 2810
+    },
+    {
+      "title": "Cognitive effects of AI reliance and future of programming languages",
+      "t_start": 2810,
+      "t_end": 3091.9
+    },
+    {
+      "title": "Closing remarks and presenter contact information",
+      "t_start": 3091.9,
+      "t_end": 3223
+    }
+  ],
+  "features": [
+    {
+      "name": "Expense management agent",
+      "description": "An AI feature that was developed completely using AI and released in a very short period of time. The expense agent was written approximately 90 percent by AI with a development timeline from idea to release of about 6 months.",
+      "status": "ga",
+      "status_evidence_t": 419.7,
+      "status_evidence_quote": "when it's released in the wild when people start using it",
+      "status_evidence_verified": true,
+      "t_start": 394.8,
+      "t_end": 474.4,
+      "is_demoed": false,
+      "caveats": [
+        "adoption timeline uncertain",
+        "real-world effectiveness needs validation"
+      ],
+      "tags": [
+        "ai",
+        "agent",
+        "expense management",
+        "erp feature"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "BC quality workflow with agenting and code review",
+      "description": "A new workflow for development that includes agenting triage, code review, and AI-assisted processes. It incorporates both Microsoft community instructions and allows partners to add their own custom instructions for code monitoring.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 488.8,
+      "t_end": 582.4,
+      "is_demoed": false,
+      "caveats": [
+        "requires understanding of AI behavior",
+        "partner adoption may take time",
+        "proper testing still required",
+        "not suitable for all scenarios"
+      ],
+      "tags": [
+        "code review",
+        "agenting",
+        "workflow",
+        "quality",
+        "ai-assisted"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot",
+      "description": "An AI tool being used for development work, currently employed by developers for developing partner projects and other development efforts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 868.4,
+      "t_end": 880.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai tool",
+        "development",
+        "code generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cloud Code",
+      "description": "An AI development tool that developers have experimented with alongside GitHub Copilot for development work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 868.4,
+      "t_end": 880.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai tool",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot for AL development",
+      "description": "Developers using GitHub Copilot for writing AL code in Business Central extensions and projects. One developer reports 95% of code generated by Copilot, achieving less buggy results than manual coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880.1,
+      "t_end": 1041.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires MVP access to Pro Plus version for professional credits",
+        "Effectiveness depends on proper requirements writing"
+      ],
+      "tags": [
+        "github copilot",
+        "code generation",
+        "al development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-agent workflow for development",
+      "description": "Framework using multiple specialized agents for different development phases: planning agent, working agent, and reviewing agent. Developers can assign different tasks to different models and consolidate results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1159.4,
+      "t_end": 1387.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual review of generated code before submission",
+        "Token consumption is high when switching between models"
+      ],
+      "tags": [
+        "ai agents",
+        "multi-agent",
+        "development workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Gamified AL training approach",
+      "description": "Game-based learning methodology discussed at conference for teaching AL development practices. Involves creating game mechanics to reinforce development patterns and best practices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 911.9,
+      "t_end": 976.6,
+      "is_demoed": false,
+      "caveats": [
+        "Emerging practice, not yet widely implemented"
+      ],
+      "tags": [
+        "training",
+        "gamification",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Instruction files and sub-agents for Copilot",
+      "description": "Advanced Copilot features including instruction files, sub-agents, and skills to customize and specialize agent behavior. Recommended to start without these and learn basics first.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1132.2,
+      "t_end": 1208.2,
+      "is_demoed": false,
+      "caveats": [
+        "Learning curve requires understanding basic Copilot functionality first",
+        "Can be overwhelming for new users"
+      ],
+      "tags": [
+        "github copilot",
+        "instruction files",
+        "sub-agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated screenshot generation with Playwright",
+      "description": "Using Playwright and page scripting to automatically generate screenshots and documentation. Enables agents to autonomously create user guides with visual examples from interface interactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1454.7,
+      "t_end": 1545.3,
+      "is_demoed": false,
+      "caveats": [
+        "Manual fine-tuning still needed for 100% accuracy",
+        "Requires page scripting knowledge"
+      ],
+      "tags": [
+        "documentation",
+        "playwright",
+        "automation",
+        "screenshots"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-driven documentation generation",
+      "description": "Using AI agents to automatically generate user documentation including detailed step-by-step guides. Results are typically 90% complete and require minor adjustments by humans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1320.1,
+      "t_end": 1545.3,
+      "is_demoed": false,
+      "caveats": [
+        "May require 10% adjustment for complete accuracy"
+      ],
+      "tags": [
+        "documentation",
+        "automation",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Professional credits token allocation",
+      "description": "MVP access to GitHub Copilot Pro Plus version includes professional credits for token consumption across multiple projects and reasoning models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1143.8,
+      "t_end": 1159.4,
+      "is_demoed": false,
+      "caveats": [
+        "Credits are consumed quickly when switching between models"
+      ],
+      "tags": [
+        "github copilot",
+        "token management",
+        "licensing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI assistance for RDL report creation",
+      "description": "AI can create RDL formatted reports with reasonable quality, leveraging the HTML-like structure of RDL format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1773.7,
+      "t_end": 1789.4,
+      "is_demoed": false,
+      "caveats": [
+        "RDL conversion success rate approximately 60-70%",
+        "Mapping fields in Word layouts has not been successfully completed yet",
+        "Produces RDL that sometimes cannot be compiled"
+      ],
+      "tags": [
+        "report-generation",
+        "rdl",
+        "ai-assisted"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AI assistance for Word layout design",
+      "description": "AI can create visually appealing Word layouts for invoices and other documents when provided with sample data and requirements, but field mapping remains incomplete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1789.4,
+      "t_end": 1838.8,
+      "is_demoed": false,
+      "caveats": [
+        "Field mapping is the trickier part and not yet fully functional",
+        "Workflow for Word layout generation is incomplete",
+        "Requires significant manual finishing work beyond AI generation"
+      ],
+      "tags": [
+        "word-layouts",
+        "document-design",
+        "ai-assisted",
+        "preview"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Microsoft shift from RDLC to Word layouts",
+      "description": "Microsoft is changing the direction to move standard customer-facing documents from RDLC layout format to Word layout format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1729.5,
+      "t_end": 1750.6,
+      "is_demoed": false,
+      "caveats": [
+        "Hard cut not yet complete, transition is ongoing",
+        "RDLC will continue to be supported alongside Word layouts"
+      ],
+      "tags": [
+        "migration",
+        "word-layouts",
+        "rdlc"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "RDLC layout continued support",
+      "description": "RDLC reports will continue to work and can still be created, though Microsoft is not actively improving the technology as it's managed by a different team.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2200.7,
+      "t_end": 2234.7,
+      "is_demoed": false,
+      "caveats": [
+        "RDLC maintenance is not a Business Central team responsibility",
+        "No active improvements planned for RDLC technology",
+        "Likely to be phased out over time as technology advances"
+      ],
+      "tags": [
+        "rdlc",
+        "legacy-support",
+        "deprecation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AI-powered performance analysis for profiler data",
+      "description": "AI tools can analyze performance profiler data and telemetry to identify non-performant code and suggest improvements without requiring manual analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2245,
+      "t_end": 2295.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still requires exploration and testing",
+        "Multiple initiatives underway but not yet fully mature"
+      ],
+      "tags": [
+        "performance",
+        "telemetry",
+        "code-analysis",
+        "ai-assisted"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP integration for telemetry log analysis",
+      "description": "Ability to read telemetry logs through MCP without requiring manual KQL queries, enabling faster analysis of performance data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2426.1,
+      "t_end": 2440.6,
+      "is_demoed": false,
+      "caveats": [
+        "Speaker plans to set up next week, indicating early adoption phase",
+        "Not yet widely used across the partner community"
+      ],
+      "tags": [
+        "telemetry",
+        "mcp",
+        "performance-analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "XRechnung and ZUGFeRD e-invoice support",
+      "description": "Support for German electronic invoice exchange formats (XRechnung and ZUGFeRD) with fixes related to local format application.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1716.5,
+      "t_end": 1729.5,
+      "is_demoed": false,
+      "caveats": [
+        "Specific to German market implementation"
+      ],
+      "tags": [
+        "e-invoicing",
+        "germany",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Telemetry analysis through MCP",
+      "description": "Using AI-powered Model Context Protocol to read telemetry logs without needing KQL expertise, enabling easier performance analysis and issue identification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2426.1,
+      "t_end": 2440.6,
+      "is_demoed": false,
+      "caveats": [
+        "Still being implemented",
+        "Requires proper dashboard and query setup"
+      ],
+      "tags": [
+        "telemetry",
+        "mcp",
+        "ai-assisted",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AI-powered proactive telemetry monitoring",
+      "description": "Using AI agents to analyze telemetry patterns, identify performance issues, detect non-performant code, and automatically create GitHub issues for action without manual review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2497.1,
+      "t_end": 2565,
+      "is_demoed": false,
+      "caveats": [
+        "Currently manual process",
+        "Requires proper AI setup and integration"
+      ],
+      "tags": [
+        "telemetry",
+        "ai-agents",
+        "automation",
+        "issue-tracking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Telemetry for code refactoring identification",
+      "description": "Using telemetry data to proactively identify code that needs refactoring, improvements, and other optimization opportunities for internal development teams and partners.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2553.8,
+      "t_end": 2592.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires proper telemetry collection",
+        "Many partners not yet utilizing this capability"
+      ],
+      "tags": [
+        "telemetry",
+        "code-quality",
+        "refactoring",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AI development assistants (Claude, GitHub Copilot, Gemini)",
+      "description": "Multiple AI tools available for developers including Claude Web App and Code, GitHub Copilot, and Gemini for writing code, documentation, and non-development tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2645.3,
+      "t_end": 2676.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires subscriptions",
+        "Quality varies by tool and use case"
+      ],
+      "tags": [
+        "ai-tools",
+        "development",
+        "coding-assistance",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI agents creating custom languages for efficiency",
+      "description": "Future capability where AI agents may create their own optimized languages for inter-agent communication when human languages become inefficient, as observed in recent research.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3043.3,
+      "t_end": 3069.4,
+      "is_demoed": false,
+      "caveats": [
+        "Based on external research, not Business Central specific",
+        "Speculative for business applications"
+      ],
+      "tags": [
+        "ai-agents",
+        "future-technology",
+        "optimization",
+        "research"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC quality",
+      "t": 503.9
+    },
+    {
+      "type": "other",
+      "name": "Playwright",
+      "t": 1465.3
+    },
+    {
+      "type": "other",
+      "name": "RDL",
+      "t": 1773.7
+    },
+    {
+      "type": "other",
+      "name": "Word layout",
+      "t": 1740.1
+    },
+    {
+      "type": "other",
+      "name": "RDLC",
+      "t": 1948.7
+    },
+    {
+      "type": "other",
+      "name": "XRechnung",
+      "t": 1716.5
+    },
+    {
+      "type": "other",
+      "name": "ZUGFeRD",
+      "t": 1716.5
+    },
+    {
+      "type": "other",
+      "name": "KQL",
+      "t": 2426.1
+    },
+    {
+      "type": "other",
+      "name": "MCP",
+      "t": 2426.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Neil Johnson",
+      "confidence": "high"
+    },
+    {
+      "name": "Chris",
+      "confidence": "high"
+    },
+    {
+      "name": "Brad",
+      "confidence": "high"
+    },
+    {
+      "name": "Kristoff",
+      "confidence": "high"
+    },
+    {
+      "name": "Tynan Stark",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    },
+    {
+      "name": "Twilio",
+      "confidence": "medium"
+    },
+    {
+      "name": "Torben",
+      "confidence": "medium"
+    },
+    {
+      "name": "Milan",
+      "confidence": "medium"
+    },
+    {
+      "name": "KB",
+      "confidence": "low"
+    },
+    {
+      "name": "Tine",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 394.8,
+      "text": "the expense management agent. And I'm looking forward to seeing it and to seeing how it actually works.",
+      "why_it_matters": "Identifies the expense management agent as a key highlight for 2026 wave one, indicating major business impact.",
+      "check": "exact"
+    },
+    {
+      "t": 419.7,
+      "text": "it was developed completely using AI and it was developed at faster pace than the other features",
+      "why_it_matters": "Shows the significant acceleration in feature development enabled by AI, a notable shift in product development methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 604.2,
+      "text": "the expense agent was written I think it was 90% by AI was what they had mentioned",
+      "why_it_matters": "Quantifies the extent of AI involvement in feature development, demonstrating AI's capability for complex business logic.",
+      "check": "exact"
+    },
+    {
+      "t": 620.8,
+      "text": "the period of time it took to develop was 6 months. And that period of time or from like idea to release, I think.",
+      "why_it_matters": "Establishes the actual development timeline for a full-featured agent, providing context for AI-accelerated development impact.",
+      "check": "exact"
+    },
+    {
+      "t": 648.1,
+      "text": "it it does show how you can expedite the development process of features within the ERP or for PTEs for customers",
+      "why_it_matters": "Explains the business value of AI-assisted development for both standard features and partner customizations.",
+      "check": "exact"
+    },
+    {
+      "t": 665.3,
+      "text": "not everything can be done fully by AI at this point, but it it's nice with the assisted development",
+      "why_it_matters": "Sets realistic expectations about AI capabilities, acknowledging both potential and current limitations.",
+      "check": "exact"
+    },
+    {
+      "t": 747.1,
+      "text": "as a partner, you have to at least have one person and say, Okay, this is what you need to learn. You 30 days",
+      "why_it_matters": "Identifies the resource commitment needed for partners to adopt new AI-assisted workflows effectively.",
+      "check": "exact"
+    },
+    {
+      "t": 800.2,
+      "text": "if people are using AI in development in your organization, you want them to follow the same flow",
+      "why_it_matters": "Highlights the importance of process standardization when implementing AI tools across teams to avoid workflow fragmentation.",
+      "check": "exact"
+    },
+    {
+      "t": 1025.8,
+      "text": "my code is less buggy when the AI does it and I think I'm at the mark that probably 95% of my code is",
+      "why_it_matters": "Demonstrates that AI-generated code can produce better quality than manual coding, showing measurable productivity gains",
+      "check": "exact"
+    },
+    {
+      "t": 1118.9,
+      "text": "I will say a year ago, if you hadn't started with it, you had some time. I think we're at the point now this",
+      "why_it_matters": "Establishes the current state of AI adoption as essential for staying competitive in development",
+      "check": "exact"
+    },
+    {
+      "t": 1208.2,
+      "text": "I would recommend everybody who's starting to try without setup because it works actually also without the setup",
+      "why_it_matters": "Provides guidance for beginners to start with basic Copilot functionality before learning advanced features like instruction files",
+      "check": "exact"
+    },
+    {
+      "t": 1294.6,
+      "text": "I am I I you I'll say I'm almost near 100%. And I use the near 100% because sometimes things will come back that",
+      "why_it_matters": "Shows that near-complete automation is achievable while acknowledging the need for human review of AI-generated code",
+      "check": "exact"
+    },
+    {
+      "t": 1529.8,
+      "text": "documentation it's five minute documentation than I've ever created or any other developer that I've created",
+      "why_it_matters": "Demonstrates dramatic time savings in documentation creation using AI agents compared to traditional manual approaches",
+      "check": "exact"
+    },
+    {
+      "t": 1604.4,
+      "text": "everyone thinks like oh there's this AI supposed to do all these things for you. I think I think a lot of us that",
+      "why_it_matters": "Explains why AI tools don't necessarily free up time - users are motivated to explore new capabilities and build more",
+      "check": "exact"
+    },
+    {
+      "t": 1740.1,
+      "text": "the direction is set towards swapping the layout document layouts with word layouts.",
+      "why_it_matters": "Confirms Microsoft's strategic direction away from RDLC toward Word layouts, a significant shift in reporting architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 1773.7,
+      "text": "Yeah, I did. And my impression is it can already do RDL quite decently because RDL is already HTML formatted.",
+      "why_it_matters": "Establishes that AI performs reasonably well with RDL format due to its HTML-like structure, providing a baseline for AI report capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1804,
+      "text": "i would say the workflow is not 100 covered yet because i think the al development is already covered",
+      "why_it_matters": "Clarifies the current limitations of AI for Word layout field mapping, indicating this is a gap that needs to be addressed.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1986,
+      "text": "Yeah, so I tried it out. It's I would rate it like I don't know, 60-70% success rate.",
+      "why_it_matters": "Provides concrete quantification of AI's effectiveness in converting or creating report layouts, showing meaningful but incomplete capability.",
+      "check": "exact"
+    },
+    {
+      "t": 2062.3,
+      "text": "Claude can already do quite a lot with PowerPoint, Word, and so on. The missing link is, you know, connect it properly.",
+      "why_it_matters": "Indicates Claude's capability with document formats is strong but needs proper integration and field mapping functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 2224.7,
+      "text": "it's not the Business Central team that's maintaining it. So, I would say it's probably a bit out of their hand.",
+      "why_it_matters": "Explains why RDLC support will likely decline over time - maintenance is not controlled by the Business Central team.",
+      "check": "exact"
+    },
+    {
+      "t": 2265.6,
+      "text": "Imagine yourself solving performance problem by giving, you know, the food to some of the tools which will tell you what to improve right",
+      "why_it_matters": "Articulates the vision for AI-assisted telemetry analysis to automatically identify performance improvements without manual analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 2358.1,
+      "text": "customers will be happier with the performance of the product because I think we've all heard this is slow. This takes too long",
+      "why_it_matters": "Establishes the ongoing performance concerns that motivate investment in telemetry and analysis tools for Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 2426.1,
+      "text": "to be able to read the telemetry logs through the MCP is exciting.",
+      "why_it_matters": "Expresses enthusiasm for MCP-based telemetry analysis as an emerging capability that simplifies performance diagnostics.",
+      "check": "exact"
+    },
+    {
+      "t": 2426.1,
+      "text": "to be able to read the telemetry logs through the MCP is exciting",
+      "why_it_matters": "Indicates announced capability to simplify telemetry access through MCP without requiring KQL expertise.",
+      "check": "exact"
+    },
+    {
+      "t": 2478.9,
+      "text": "You can identify many issues quickly within telemetry. Uh with identifying code that's non-performant or identifying other issues.",
+      "why_it_matters": "Articulates the core value of telemetry for proactive problem identification in development.",
+      "check": "exact"
+    },
+    {
+      "t": 2527.6,
+      "text": "create automatically create GitHub issues and say hey look, based on telemetry we see these weird patterns that's happening around this time.",
+      "why_it_matters": "Describes future AI-driven automation of issue creation based on telemetry analysis, reducing manual work.",
+      "check": "exact"
+    },
+    {
+      "t": 2698,
+      "text": "I primarily use Opus and Sonnet at this point for my tasks.",
+      "why_it_matters": "Shows practitioner preference for specific Claude models in development work outside Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 3020.2,
+      "text": "I do think we will get to that point where the human language will be what you speak to a tool and that tool",
+      "why_it_matters": "Presents vision of future programming where natural language replaces traditional code syntax.",
+      "check": "exact"
+    },
+    {
+      "t": 3058.4,
+      "text": "they created their own language. I I'm pretty sure there's an article that I read about that. And I thought it was pretty fascinating",
+      "why_it_matters": "References research showing AI agents optimizing communication through self-created languages, relevant to future development paradigms.",
+      "check": "exact"
+    },
+    {
+      "t": 3118.8,
+      "text": "I have a blog. Just go to my blog to the contact form, or send me an email uh on milanrs@altos.com",
+      "why_it_matters": "Provides contact information for Milan, the guest expert on AI and report layouts, for community follow-up.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 419.7,
+      "kind": "coming-later",
+      "text": "I'm really wondering how will it be accepted and how will it work out at the end you know in the wild when it's released in the wild"
+    },
+    {
+      "t": 1763,
+      "kind": "preview",
+      "text": "that area in which AI help to create new layouts is not yet fully covered in AI workflow yet. But I think that might also change"
+    },
+    {
+      "t": 1804,
+      "kind": "preview",
+      "text": "the workflow is not 100% covered yet because I think the AL development is already covered. And this area is not yet covered."
+    },
+    {
+      "t": 2009.3,
+      "kind": "preview",
+      "text": "The mapping in word layout I haven't succeeded yet. we're not made the complete journey yet."
+    },
+    {
+      "t": 2440.6,
+      "kind": "coming-later",
+      "text": "set that up next week um is is my plan. Uh cuz I'm going to bring back an initiative"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 30,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 21
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

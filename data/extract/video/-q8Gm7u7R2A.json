@@ -1,0 +1,728 @@
+{
+  "video_id": "-q8Gm7u7R2A",
+  "item_id": "video/yt-microsoft/-q8Gm7u7R2A",
+  "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
+  "duration_s": 2459,
+  "systems": [
+    "integration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "dataverse integration",
+    "data synchronization",
+    "virtual tables",
+    "data change events",
+    "business events",
+    "linked environments",
+    "table mappings",
+    "field mappings",
+    "synthetic relationships",
+    "power automate",
+    "multi-company mapping",
+    "mapping plugins"
+  ],
+  "chapters": [
+    {
+      "title": "Dataverse Integration Overview",
+      "t_start": 0,
+      "t_end": 135.8
+    },
+    {
+      "title": "Four Complementary Integration Interactions",
+      "t_start": 135.8,
+      "t_end": 216.3
+    },
+    {
+      "title": "Data Sync Improvements and Linked Environments",
+      "t_start": 216.3,
+      "t_end": 297
+    },
+    {
+      "title": "Table and Field Mappings Configuration",
+      "t_start": 297,
+      "t_end": 437.1
+    },
+    {
+      "title": "Data Sync Robustness and Troubleshooting",
+      "t_start": 437.1,
+      "t_end": 580.5
+    },
+    {
+      "title": "Synthetic Relationships and Virtual Tables",
+      "t_start": 580.5,
+      "t_end": 660.6
+    },
+    {
+      "title": "Demo: Creating Integration Table Mappings Part 1",
+      "t_start": 660.6,
+      "t_end": 789.4
+    },
+    {
+      "title": "Integration Table Mapping and Synthetic Relations Setup",
+      "t_start": 789.4,
+      "t_end": 1067.6
+    },
+    {
+      "title": "Virtual Tables Multi-Company Support and Mapping Plugins",
+      "t_start": 1067.6,
+      "t_end": 1370.2
+    },
+    {
+      "title": "Creating and Registering Mapping Plugins and Tables",
+      "t_start": 1370.2,
+      "t_end": 1511.9
+    },
+    {
+      "title": "Demo of Company-Specific Virtual Table Access in Power Apps",
+      "t_start": 1511.9,
+      "t_end": 1847.1
+    },
+    {
+      "title": "Business Events Overview and Power Automate Integration",
+      "t_start": 1847.1,
+      "t_end": 2117.6
+    },
+    {
+      "title": "Live Demonstration and Business Event Monitoring",
+      "t_start": 2117.6,
+      "t_end": 2459
+    }
+  ],
+  "features": [
+    {
+      "name": "Linked Environments for Dataverse Integration",
+      "description": "Capability for admins to link a specific Business Central environment only with a specific Dataverse environment, ensuring data safety and security within privacy boundaries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.6,
+      "t_end": 297,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "linked environments",
+        "security",
+        "dataverse",
+        "admin"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table Mappings for Existing Integration Tables",
+      "description": "Ability to add new table mappings to existing integration tables by defining synchronization direction, filters, and configuration templates that apply when data moves between Business Central and Dataverse.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297,
+      "t_end": 887.5,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot remap or duplicate existing integration table mappings as these are defined in code",
+        "Existing table mappings cannot be customized",
+        "field mappings are inserted as disabled by default",
+        "affects existing integration table mappings that may have running jobs"
+      ],
+      "tags": [
+        "table mappings",
+        "data sync",
+        "dataverse",
+        "integration table mapping",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Field Mappings Configuration",
+      "description": "Capability to add field mappings to new or existing integration table mappings by specifying transformation rules, validation rules, and application conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 337.3,
+      "t_end": 887.5,
+      "is_demoed": true,
+      "caveats": [
+        "Developer assistance required for lookup field mappings or additional custom logic",
+        "Supports most simple data types but not complex types without developer help",
+        "field mappings are inserted as disabled by default"
+      ],
+      "tags": [
+        "field mappings",
+        "data sync",
+        "transformation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Integration Troubleshooting Fact Box",
+      "description": "New troubleshooting fact box in table integration mappings that enables admins to quickly identify and mitigate synchronization issues without reviewing extensive logs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 457.4,
+      "t_end": 477.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "diagnostics",
+        "admin"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Company and Environment Copy Cleanup",
+      "description": "Improvement to copy company and copy environment operations to properly clean up synchronization data, preventing erroneous coupling status and synchronization errors from source company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 498.3,
+      "t_end": 519.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copy operations",
+        "data cleanup",
+        "admin"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dataverse Connection Setup Page Rename",
+      "description": "Connection setup pages have been renamed for clarity: Dynamics 365 connection setup renamed to Dynamics 365 sales integration setup, with separate setup for field service integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 539.4,
+      "t_end": 559.6,
+      "is_demoed": false,
+      "caveats": [
+        "Pages still searchable via Tell Me with original names"
+      ],
+      "tags": [
+        "setup pages",
+        "ui",
+        "dataverse"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Synthetic Relationships",
+      "description": "Capability to create relationships between synchronized tables and virtual tables from Business Central APIs in Dataverse without requiring developers to customize and add to synchronized data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580.5,
+      "t_end": 1067.6,
+      "is_demoed": true,
+      "caveats": [
+        "requires virtual tables to be enabled",
+        "requires virtual table API page configuration",
+        "Requires proper configuration of relationships between tables"
+      ],
+      "tags": [
+        "synthetic relationships",
+        "virtual tables",
+        "dataverse",
+        "no-code",
+        "relationships"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Sync Overview",
+      "description": "Data synchronization capability that replicates data changes when data is created, updated, or deleted between overlapping tables in Business Central and Dataverse.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.8,
+      "t_end": 156,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data sync",
+        "synchronization",
+        "dataverse"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Virtual Tables",
+      "description": "Virtual table capability that enables inbound interaction from Dataverse into Business Central using a Business Central API but without duplicating data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156,
+      "t_end": 1847.1,
+      "is_demoed": true,
+      "caveats": [
+        "requires virtual tables to be enabled",
+        "Requires BC configuration app installation",
+        "Mapping table needs to be created for app-level overrides"
+      ],
+      "tags": [
+        "virtual tables",
+        "dataverse",
+        "api",
+        "general availability",
+        "power pages",
+        "multi-company",
+        "power apps"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Change Events",
+      "description": "Outbound notification capability from Business Central to notify other Dataverse apps of data changes, enabling scenarios like starting Power Automate flows with when a row is added modified or deleted trigger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 176.1,
+      "t_end": 2117.6,
+      "is_demoed": true,
+      "caveats": [
+        "Flows require proper trigger configuration for different event types"
+      ],
+      "tags": [
+        "data change events",
+        "notifications",
+        "power automate",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Events",
+      "description": "Outbound notification capability from Business Central to notify that actions are performed, enabling other Dataverse apps to react using Power Automate when an action is performed trigger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196.3,
+      "t_end": 2439.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "notifications",
+        "power automate",
+        "troubleshooting",
+        "monitoring",
+        "ui pages",
+        "telemetry",
+        "application insights",
+        "partner"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multi-company Support for Virtual Tables via Global Company Settings",
+      "description": "Global company settings that apply to all users and all apps accessing virtual tables, providing a standard company context for Dataverse environments that lack a company concept.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1128,
+      "t_end": 1847.1,
+      "is_demoed": true,
+      "caveats": [
+        "global setting applies to all users and apps uniformly"
+      ],
+      "tags": [
+        "multi-company",
+        "global settings",
+        "virtual tables",
+        "dataverse"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User-specific Company Settings for Virtual Tables",
+      "description": "User-level company settings that override global company settings, allowing individual users to target different companies across all apps and portals they use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1128,
+      "t_end": 1370.2,
+      "is_demoed": false,
+      "caveats": [
+        "applies uniformly to all apps and portals for a single user"
+      ],
+      "tags": [
+        "user-specific settings",
+        "virtual tables",
+        "company targeting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dataverse Shared BC Company ID Execution Variable",
+      "description": "New execution variable introduced in wave 1 that allows virtual table plugins to override both global and user-specific company settings for specific combinations of users, apps, and portals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1208.7,
+      "t_end": 1511.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires custom mapping plugin and mapping table to implement"
+      ],
+      "tags": [
+        "execution variable",
+        "company mapping",
+        "dataverse",
+        "virtual tables"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Mapping Plugins and Tables for Company Targeting",
+      "description": "Custom Dataverse plugins and tables that intercept virtual table API requests and dynamically set the BC Company ID shared variable based on combinations of user, app, and portal, enabling granular multi-company access control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1249.7,
+      "t_end": 1847.1,
+      "is_demoed": true,
+      "caveats": [
+        "requires plugin registration using plugin registration tool",
+        "requires custom code development",
+        "example code will be published after launch event",
+        "requires documentation for Dataverse plugins"
+      ],
+      "tags": [
+        "mapping plugins",
+        "mapping tables",
+        "plugin registration",
+        "multi-company"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Events UI Pages for Troubleshooting",
+      "description": "New UI pages added in 24 Wave 1 release for troubleshooting and monitoring business events, showing subscriptions and sent notifications with activity logs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1847.1,
+      "t_end": 2361.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "troubleshooting",
+        "monitoring",
+        "ui pages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced Custom Dimensions for Partner Telemetry",
+      "description": "Business events now send additional information in custom dimensions for partner telemetry in Application Insights, including event name and version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1847.1,
+      "t_end": 2439.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Application Insights setup in admin center"
+      ],
+      "tags": [
+        "telemetry",
+        "business events",
+        "application insights",
+        "monitoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Event Subscription Page",
+      "description": "New Business Event Subscription page shows subscribed events, notification history, activity logs, and retry information for monitoring event delivery and troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2281.7,
+      "t_end": 2361.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "monitoring",
+        "subscriptions",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Partner Telemetry via Application Insights",
+      "description": "Business events can be logged to Azure Application Insights with custom dimensions containing event metadata, enabling partners to query and monitor event streams in real-time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2361.5,
+      "t_end": 2439.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Application Insights setup with telemetry string in admin center"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "monitoring",
+        "partner"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Work Type",
+      "t": 681.2
+    },
+    {
+      "type": "table",
+      "name": "Pay Type",
+      "t": 681.2
+    },
+    {
+      "type": "table",
+      "name": "Field Service Resource Pay Type",
+      "t": 708.4
+    },
+    {
+      "type": "table",
+      "name": "sales shipment virtual table",
+      "t": 929.1
+    },
+    {
+      "type": "table",
+      "name": "sales invoice virtual table",
+      "t": 1309.9
+    },
+    {
+      "type": "table",
+      "name": "mapping table",
+      "t": 1330
+    },
+    {
+      "type": "other",
+      "name": "virtual table API page",
+      "t": 961.5
+    },
+    {
+      "type": "other",
+      "name": "BC configuration app",
+      "t": 1659
+    },
+    {
+      "type": "table",
+      "name": "app name company mappings",
+      "t": 1754.3
+    },
+    {
+      "type": "table",
+      "name": "user table",
+      "t": 1699.3
+    },
+    {
+      "type": "page",
+      "name": "business event subscription",
+      "t": 2301.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sarco",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ivan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ian",
+      "confidence": "high"
+    },
+    {
+      "name": "Sandy",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 57.8,
+      "text": "dataverse is a data storage and management layer for business application built on Power Platform that includes Dynamic 365 sales marketing field service and",
+      "why_it_matters": "Establishes what Dataverse is and its role in the Microsoft ecosystem, clarifying it is a platform capability, not specific to Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 115.7,
+      "text": "Business Central and those data app can be integrated in such a way that they can enhance each other essentially living up to the",
+      "why_it_matters": "Describes the strategic value of Business Central-Dataverse integration as mutually enhancing applications.",
+      "check": "exact"
+    },
+    {
+      "t": 256.6,
+      "text": "admins now have a way of ensuring that that specific business Central uh environment can be linked only with a specific uh data verse",
+      "why_it_matters": "Explains the security benefit of linked environments feature, restricting which Dataverse environment can connect to a Business Central instance.",
+      "check": "exact"
+    },
+    {
+      "t": 297,
+      "text": "we've added a capability to add uh table mappings to existing integration tables that has been a recurring request from uh our partners and",
+      "why_it_matters": "Indicates that table mapping extensibility was a customer-requested feature now being delivered.",
+      "check": "exact"
+    },
+    {
+      "t": 396.8,
+      "text": "we do support uh most of the simple data type uh in the mappings but you will still need a developer assistance in case",
+      "why_it_matters": "Clarifies the limitations of field mappings without developer involvement, specifically for complex lookup fields.",
+      "check": "snapped"
+    },
+    {
+      "t": 580.5,
+      "text": "we have actually enabled the use of synthetic relationships uh from business Central",
+      "why_it_matters": "Announces the new synthetic relationships capability that allows linking synced and virtual tables without developers customizing sync data.",
+      "check": "exact"
+    },
+    {
+      "t": 620.5,
+      "text": "you can now actually use the existing apis to sort of supplement uh that data that has been uh that has been synced",
+      "why_it_matters": "Explains the practical benefit of synthetic relationships in leveraging existing APIs without expanding synchronized data.",
+      "check": "exact"
+    },
+    {
+      "t": 814,
+      "text": "mappings are by default going to be in u um inserted as disabled",
+      "why_it_matters": "Explains the design decision to disable field mappings by default to provide control over when new fields are enabled in existing integration table mappings.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1107.5,
+      "text": "we have entered General availability for virtual table in the last release which is uh 23 Wave 2",
+      "why_it_matters": "Establishes that virtual tables reached GA status in the previous release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 1148.2,
+      "text": "there is no company Concept in data verse so we actually have to support um um um a way for power page uh power",
+      "why_it_matters": "Identifies the core business problem that multi-company support for virtual tables solves.",
+      "check": "exact"
+    },
+    {
+      "t": 1208.7,
+      "text": "we introduced with this release a data verse shared BC Company ID execution variable that will be used by rever virual table plugin to",
+      "why_it_matters": "Announces the new feature in wave 1 that enables granular multi-company control beyond global and user settings.",
+      "check": "exact"
+    },
+    {
+      "t": 1451.4,
+      "text": "in the mapping table you can create an entry that match your um uh user and apps so in this case um in a",
+      "why_it_matters": "Describes the practical implementation approach for configuring company mappings by user and app.",
+      "check": "snapped"
+    },
+    {
+      "t": 1511.9,
+      "text": "this will be published after the uh launch event so you can essentially cut and paste it and modify it right",
+      "why_it_matters": "Indicates that sample mapping plugin code will be made available post-launch for customer implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1592.6,
+      "text": "the mapping plugin and M mapping table that uh we built can actually Target different companies",
+      "why_it_matters": "Demonstrates that virtual tables support multi-company scenarios, a key capability for organizations with multiple business units in Dataverse integration.",
+      "check": "exact"
+    },
+    {
+      "t": 1867.4,
+      "text": "what's new in this release in 24 Wave 1 is actually a new UI Pages for troubleshooting minist events",
+      "why_it_matters": "Identifies the new troubleshooting UI pages feature in the 24 Wave 1 release for business events management.",
+      "check": "exact"
+    },
+    {
+      "t": 1907.7,
+      "text": "Power automate flows that triggered by data cut uh change update uh create update and delete and also business event",
+      "why_it_matters": "Shows that Power Automate supports both data change triggers and business event triggers for comprehensive integration scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1986.9,
+      "text": "you can see there are two synthatic relation that relates a native account in data verse with sales credit memo virtual tables",
+      "why_it_matters": "Explains how synthetic relations enable enrichment of native Dataverse tables with Business Central virtual table data.",
+      "check": "exact"
+    },
+    {
+      "t": 2281.7,
+      "text": "there's a page uh a new page which is called business event subscription here you can see that um I have multiple events that",
+      "why_it_matters": "Introduces the new Business Event Subscription UI page for monitoring and managing event subscriptions.",
+      "check": "snapped"
+    },
+    {
+      "t": 2341.2,
+      "text": "those events are also pushed into partner tary in app Insight uh we have I have set up uh my app insight in this",
+      "why_it_matters": "Confirms that business events can be sent to Application Insights for partner telemetry tracking and monitoring.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1511.9,
+      "kind": "coming-later",
+      "text": "code of the mapping plugin will be published after the uh launch event"
+    },
+    {
+      "t": 1847.1,
+      "kind": "preview",
+      "text": "business event was uh uh released in public preview for about two releases ago 23rd wave 1 release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 19,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 19
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

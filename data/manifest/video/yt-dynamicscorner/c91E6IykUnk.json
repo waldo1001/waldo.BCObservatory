@@ -7,18 +7,72 @@
   "url": "https://www.youtube.com/watch?v=c91E6IykUnk",
   "published_at": "2026-05-28T15:21:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:17:46.842Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3224
+    },
+    "captioned": {
+      "at": "2026-10-06T21:17:54.578Z",
+      "path": "vault:captions/community/yt-dynamicscorner/c91E6IykUnk.vtt",
+      "vtt_sha256": "5c5e29fb305b313bec6e8ca5a5844faec770af609f69c388a3563851c19f5dab",
+      "segments": 247,
+      "words": 9225,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:54.865Z",
+      "path": "data/extract/video/c91E6IykUnk.json",
+      "prompt": "extract-video@1",
+      "windows": 4,
+      "features": 23,
+      "quotes": 30,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:54.890Z",
+      "path": "data/summary/video/c91E6IykUnk.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": null
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:54.892Z",
+      "systems": [
+        "copilot",
+        "development",
+        "reporting"
+      ],
+      "topics": 12,
+      "objects_as_heard": 9
+    },
+    "published": {
+      "at": "2026-10-06T21:17:54.913Z",
+      "path": "content/videos/c91E6IykUnk.md"
     }
   },
   "input_hash": null,
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ"
+    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ",
+    "duration_s": 3224,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
   },
-  "last_error": "yt-dlp timeout after 180000 ms",
-  "retry_after": "2026-10-06T19:43:13.929Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31e57150eba37cca4c63141e927c5a58ffc830b36881da825fc246d27a431462"
 }

@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/thinkaboutit-be/8229",
+  "url": "https://thinkaboutit.be/2026/10/business-central-data-mirroring-to-microsoft-fabric-is-coming/",
+  "title": "Business Central Data Mirroring to Microsoft Fabric Is Coming",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-02T13:32:18.000Z",
+  "words": 1301,
+  "summary": "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric, a new analytical data path that synchronizes selected tables and companies to Fabric's OneLake for analytics consumption. This simplifies analytics architecture by eliminating the need to repeatedly extract transactional data through APIs, making it easier to build enterprise data platforms combining Business Central with other sources.",
+  "key_points": [
+    "Simple three-step setup: create mirrored database in Fabric, connect Business Central, select tables and companies to synchronize",
+    "Configuration packages allow Power BI apps and ISV solutions to define required tables, enabling repeatable implementations",
+    "Fabric abstracts the underlying Delta-Parquet storage through SQL endpoints, allowing SQL queries against mirrored tables without direct file access",
+    "Shifts analytics architecture focus from 'how to extract data' to 'what data we need and how to model it' for multi-company analysis and enterprise data platforms",
+    "Monitoring available through Business Central pages, dedicated APIs, and Fabric SQL endpoints with permission sets controlling access"
+  ],
+  "systems": [
+    "integration",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "data mirroring",
+    "microsoft fabric",
+    "analytics",
+    "data synchronization",
+    "onelake",
+    "power bi",
+    "multi-company",
+    "enterprise data platform"
+  ],
+  "objects": [],
+  "features": [
+    "Data mirroring to Microsoft Fabric",
+    "Open Mirroring database synchronization",
+    "Configuration packages for table selection",
+    "Multi-company Power BI apps",
+    "SQL endpoint for mirrored data access",
+    "Synchronization monitoring and APIs",
+    "Fabric integration permission sets"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "29.x (likely 29.1)"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007238,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central is getting a new data path specifically for analytics.",
+      "why_it_matters": "Clarifies that Fabric mirroring is not just another connector but a fundamental architectural change for analytics workloads"
+    },
+    {
+      "text": "Your analytical consumers no longer need to retrieve Business Central data directly through APIs. The selected data is already available in the analytical platform.",
+      "why_it_matters": "Explains the key advantage: pre-synchronized data eliminates repeated API extraction for analytics"
+    }
+  ]
+}

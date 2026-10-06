@@ -1,0 +1,27 @@
+{
+  "video_id": "ADXkUFI_VWI",
+  "item_id": "video/yt-microsoft/ADXkUFI_VWI",
+  "summary": "AL compiler internals and history, from the C/SIDE era to today: Roslyn-based design, partial compilation and LSP for Visual Studio Code, transpiling AL to C#, and the unsupported, undocumented state of the compiler API. Also covers prototype VS Code designers and AL Explorer.",
+  "overview": "Episode 2 of Business Central Under the Hood (published 2024-03-27, 29 minutes) walks through how the AL compiler came about and how it works. It starts with C/SIDE and its two-tier architecture, the prototype that wrapped the old base app in symbol references, and the years of early previews before the first AL compiler shipped without a preview mark in 2019 wave two.\n\nIt then covers the design: Roslyn concepts, a compiler-as-a-service that also drives the language server, partial compilation with error recovery, and the Language Service Protocol used with Visual Studio Code. It explains why AL was built instead of reusing an existing language, why AL is transpiled to C#, and what moving to text files meant. It closes with the VS Code designers prototype, AL Explorer, AL Home, and the status of the compiler API.",
+  "key_points": [
+    "The AL compiler uses Roslyn architecture concepts. The same base compiler serves command-line compilation and the background compilation that runs in the editor.",
+    "Partial compilation with error recovery gives intellisense while code is incomplete. Results are reused to keep memory use down and avoid recompiling unchanged code.",
+    "The editor and the AL language server communicate through the Language Service Protocol.",
+    "AL is transpiled to C#, and the generated C# is compiled with the regular C# compiler. Metadata is stored in XML and the database.",
+    "A sandbox language was one stated reason for AL, because third-party code runs on Microsoft's servers.",
+    "Moving to text-file source enabled Git and standard source control, but C/SIDE visual designers and the direct database connection were lost.",
+    "The compiler API is not officially supported or documented, and may change at any time. Partners already use it in unsupported ways."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "bf5e3bf25a7a3a18ffb48dea4e637f586d6767b794ce94e2bc7bb98f4cfc4a19",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

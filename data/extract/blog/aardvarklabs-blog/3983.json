@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3983",
+  "url": "https://aardvarklabs.blog/2026/10/02/business-central-v29-sql-table-extensions-redesign-explained/",
+  "title": "Business Central v29: SQL Table Extensions Redesign Explained",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-10-02T12:00:00.000Z",
+  "words": 381,
+  "summary": "Business Central v29 completes a redesign of table extensions by storing all custom fields directly in the primary SQL table instead of creating separate extension tables, eliminating JOIN operations and improving performance. This architectural change simplifies indexing and reduces overhead for heavily customized systems but introduces a 1024-column SQL Server limit constraint.",
+  "key_points": [
+    "Pre-v23 created separate SQL tables for each extension, requiring multiple JOINs and hindering performance and indexing",
+    "v23 consolidated all extension fields into a single extension table per base table, reducing to one JOIN",
+    "v29 eliminates extension tables entirely by storing custom fields directly in the primary table",
+    "SQL Server's 1024-column limit per table now applies as a practical constraint, with compiler warnings and errors when exceeded",
+    "Best practices like avoiding unnecessary page fields and careful index design remain critical despite architectural improvements"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "sql table extensions",
+    "performance optimization",
+    "schema design",
+    "customization",
+    "database architecture",
+    "column limits"
+  ],
+  "objects": [],
+  "features": [
+    "table extensions redesign",
+    "direct field storage in primary tables",
+    "column limit warnings",
+    "schema consolidation",
+    "performance optimization"
+  ],
+  "versions": [
+    "v29",
+    "v23",
+    "Pre-v23"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005152,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "All custom fields are now stored directly within the primary SQL table. No extension tables are created.",
+      "why_it_matters": "This fundamental architectural change eliminates JOIN operations and is the core improvement in v29."
+    },
+    {
+      "text": "SQL Server enforces a maximum of 1024 columns per table.",
+      "why_it_matters": "Organizations must be aware of this hard constraint when planning customizations to avoid compilation errors."
+    },
+    {
+      "text": "Business Central continues to be a write heavy application.",
+      "why_it_matters": "This context helps developers make informed decisions about indexing strategies despite architectural improvements."
+    }
+  ]
+}

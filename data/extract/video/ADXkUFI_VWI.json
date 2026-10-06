@@ -1,0 +1,524 @@
+{
+  "video_id": "ADXkUFI_VWI",
+  "item_id": "video/yt-microsoft/ADXkUFI_VWI",
+  "title": "Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler",
+  "duration_s": 1751,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al compiler",
+    "compiler architecture",
+    "roslyn",
+    "language service protocol",
+    "visual studio code",
+    "c-side history",
+    "symbol references",
+    "partial compilation",
+    "intellisense",
+    "background compilation",
+    "transpiler",
+    "c# code generation"
+  ],
+  "chapters": [
+    {
+      "title": "History: C-side and the 2T architecture",
+      "t_start": 0,
+      "t_end": 122.2
+    },
+    {
+      "title": "Challenges with C-side and the modernization vision",
+      "t_start": 122.2,
+      "t_end": 233.6
+    },
+    {
+      "title": "The prototype and symbol reference strategy",
+      "t_start": 233.6,
+      "t_end": 363.5
+    },
+    {
+      "title": "Early previews and the journey to GA",
+      "t_start": 363.5,
+      "t_end": 429.6
+    },
+    {
+      "title": "Roslyn architecture and the compiler design",
+      "t_start": 429.6,
+      "t_end": 549.9
+    },
+    {
+      "title": "AL language concepts and the perfect storm timing",
+      "t_start": 549.9,
+      "t_end": 672.8
+    },
+    {
+      "title": "Visual Studio Code adoption and language service architecture",
+      "t_start": 672.8,
+      "t_end": 797.6
+    },
+    {
+      "title": "Partial compilation, LSP protocol, and extensibility",
+      "t_start": 797.6,
+      "t_end": 927.2
+    },
+    {
+      "title": "Why AL instead of existing languages",
+      "t_start": 927.2,
+      "t_end": 1008.8
+    },
+    {
+      "title": "AL transpiler and code generation to C#",
+      "t_start": 1008.8,
+      "t_end": 1154
+    },
+    {
+      "title": "Migration from C/SIDE to AL and text-based development",
+      "t_start": 1154,
+      "t_end": 1326.5
+    },
+    {
+      "title": "Visual Studio Code designers and AL Explorer",
+      "t_start": 1326.5,
+      "t_end": 1553.4
+    },
+    {
+      "title": "Compiler API exposure and getting started",
+      "t_start": 1553.4,
+      "t_end": 1751
+    }
+  ],
+  "features": [
+    {
+      "name": "AL compiler",
+      "description": "A new compiler for the AL language built using Roslyn architecture concepts and designed as a compiler-as-a-service with language server support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 8.8,
+      "t_end": 429.6,
+      "is_demoed": false,
+      "caveats": [
+        "Took several years to compile the full base app",
+        "Required conversion of internal code before full release"
+      ],
+      "tags": [
+        "compiler",
+        "al language",
+        "roslyn-inspired"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Partial compilation and recovery",
+      "description": "The AL compiler performs partial compilations with error recovery to enable intellisense and developer experience even when code is incomplete. It reuses compilation results to maintain memory efficiency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 783.4,
+      "t_end": 927.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires recovery mechanisms for incomplete source",
+        "memory efficiency achieved through result reuse",
+        "performance sensitive to avoid recompiling unchanged code"
+      ],
+      "tags": [
+        "compiler",
+        "intellisense",
+        "performance",
+        "partial compilation",
+        "error-recovery"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Language Service Protocol support",
+      "description": "Implementation of LSP for communication between the AL language server and editors like Visual Studio Code, allowing intellisense and cross-references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.5,
+      "t_end": 914.4,
+      "is_demoed": false,
+      "caveats": [
+        "requires adherence to LSP standard for language/editor communication"
+      ],
+      "tags": [
+        "lsp",
+        "language-server",
+        "intellisense",
+        "extensibility",
+        "language-service-protocol",
+        "visual-studio-code",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Symbol reference information wrapping",
+      "description": "A transitional strategy that wrapped the old C-side base app in symbol reference format to allow the new AL compiler to work on top of legacy code without full rewriting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 233.6,
+      "t_end": 429.6,
+      "is_demoed": false,
+      "caveats": [
+        "Required years to fully compile and convert the base app"
+      ],
+      "tags": [
+        "migration-strategy",
+        "symbol-references",
+        "backwards-compatibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL transpiler to C#",
+      "description": "The AL compiler transpiles AL code to C# rather than compiling to IL directly. The generated C# is then compiled using the regular C# compiler, with metadata stored in XML and database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1008.8,
+      "t_end": 1154,
+      "is_demoed": false,
+      "caveats": [
+        "not producing executable bits directly on operating system",
+        "requires C# compilation step"
+      ],
+      "tags": [
+        "transpiler",
+        "c#",
+        "code-generation",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Text-based source code storage",
+      "description": "Migration from C/SIDE repository-based storage to text-file based artifacts, enabling use of standard source control tools like Git and syntax highlighting in repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1154,
+      "t_end": 1326.5,
+      "is_demoed": false,
+      "caveats": [
+        "lost visual designers from C/SIDE",
+        "lost direct database connection capability"
+      ],
+      "tags": [
+        "text-based",
+        "source-control",
+        "migration",
+        "git"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Explorer",
+      "description": "A Visual Studio Code web view feature showing application objects with information from running compilation. Allows code navigation and updates in real-time when editing files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.5,
+      "t_end": 1553.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "explorer",
+        "navigation",
+        "visual-studio-code",
+        "web-view"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Home",
+      "description": "A news feed feature in Visual Studio Code for Business Central AL developers, providing direct communication channel from Microsoft to developers about updates and announcements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.5,
+      "t_end": 1553.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "news-feed",
+        "communication",
+        "visual-studio-code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Visual Studio Code designers",
+      "description": "Prototype designers for table and page objects in Visual Studio Code, built on the custom designer model which visualizes source code and updates it when changes are made through the designer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1516.8,
+      "t_end": 1553.4,
+      "is_demoed": true,
+      "caveats": [
+        "still prototype status",
+        "not prioritized yet"
+      ],
+      "tags": [
+        "designers",
+        "table-designer",
+        "page-designer",
+        "prototype"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Compiler API exposure",
+      "description": "Expose the AL compiler as an API for external use. Partners are already using it in an unsupported way. The compiler service was envisioned as a service from the beginning but has not been officially opened or documented for external use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1553.4,
+      "t_end": 1635.3,
+      "is_demoed": false,
+      "caveats": [
+        "not officially supported",
+        "not documented",
+        "API subject to change",
+        "used by partners in unsupported ways"
+      ],
+      "tags": [
+        "compiler",
+        "api",
+        "partners",
+        "unsupported"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL extensions in Visual Studio Code marketplace",
+      "description": "AL related extensions available in Visual Studio Code Marketplace, demonstrating partner creativity and ideas in the development area.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1635.3,
+      "t_end": 1751,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensions",
+        "marketplace",
+        "visual studio code",
+        "partners"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "safe post code unit",
+      "t": 258.4
+    },
+    {
+      "type": "other",
+      "name": "AL Explorer",
+      "t": 1452.8
+    },
+    {
+      "type": "other",
+      "name": "AL Home",
+      "t": 1488.8
+    },
+    {
+      "type": "other",
+      "name": "Visual Studio Code Marketplace",
+      "t": 1635.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Espen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 399.9,
+      "text": "In 2019, in wave two, we shipped the first AL compiler without the preview mark on it, and then at that time we could",
+      "why_it_matters": "Marks the official GA release of the AL compiler after years of preview and development, showing when the compiler was ready for production use.",
+      "check": "exact"
+    },
+    {
+      "t": 466.6,
+      "text": "they realized that they already have a. They have one compiler for a command line and almost a similar compiler that were used inside",
+      "why_it_matters": "Explains the key insight from Roslyn that influenced AL compiler architecture: unifying the compilation pipeline for both CLI and IDE use.",
+      "check": "exact"
+    },
+    {
+      "t": 490.1,
+      "text": "the same compiler, the same base part of the compiler that serves the command line compilation is also the one that constantly runs in",
+      "why_it_matters": "Describes the compiler-as-a-service architecture that enables consistent development experience across different interfaces.",
+      "check": "exact"
+    },
+    {
+      "t": 549.9,
+      "text": "i mean rosslyn already contains the b net c and also f based on the same core libraries but it's they",
+      "why_it_matters": "Clarifies that AL could not directly reuse Roslyn code because AL is not a true .NET language, only its architectural concepts.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 563.1,
+      "text": "we have way more concepts than C# for instance. So in some some sense we are more complicated because we have I mean 7-8",
+      "why_it_matters": "Shows that the AL language has greater complexity than C# due to domain-specific concepts like pages and tables beyond standard programming constructs.",
+      "check": "exact"
+    },
+    {
+      "t": 687.6,
+      "text": "we also realized that we could easily repurpose A compiler to another environment if we had to. But turned out that best decision ever",
+      "why_it_matters": "Documents the strategic decision to use Visual Studio Code as the development environment and the long-term benefits that decision provided.",
+      "check": "exact"
+    },
+    {
+      "t": 804.7,
+      "text": "it's textbook to create a compiler that has a perfect source, but but having a source where you are typing something in the middle",
+      "why_it_matters": "Explains a fundamental architectural challenge in building a modern compiler: maintaining IDE features during incomplete code entry.",
+      "check": "exact"
+    },
+    {
+      "t": 868.2,
+      "text": "They actually invented what is called the Language Service Protocol exactly for this",
+      "why_it_matters": "Describes the architectural standard (LSP) that the AL language server implements for editor communication",
+      "check": "exact"
+    },
+    {
+      "t": 941.2,
+      "text": "One of the reasons is that we we we need a sandbox language. Since we are running third party code on our servers, we",
+      "why_it_matters": "Explains the security rationale for creating AL as a sandboxed language rather than using existing languages",
+      "check": "exact"
+    },
+    {
+      "t": 1008.8,
+      "text": "This is a language that's been written for for ERP and for Business Central. Exactly. But the most important part of this was that",
+      "why_it_matters": "Justifies AL language choice by highlighting partner investment and language design for ERP domain",
+      "check": "exact"
+    },
+    {
+      "t": 1088.6,
+      "text": "We are converting AL to C#. Is that a good idea? Yes, I think for us it is",
+      "why_it_matters": "Describes the transpilation strategy and explains why direct IL compilation was not chosen",
+      "check": "exact"
+    },
+    {
+      "t": 1190.3,
+      "text": "compiler the code is actually saved in text file like any like many other languages",
+      "why_it_matters": "Highlights the paradigm shift from database repository storage to text-based source files",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1540.2,
+      "text": "That's still a prototype. Right, still a prototype. I would love us to prioritize them, but again, we need to prioritize.",
+      "why_it_matters": "Clarifies that Visual Studio Code designers remain in prototype status despite demonstrated feasibility",
+      "check": "exact"
+    },
+    {
+      "t": 1574.7,
+      "text": "They would like to be able to use it to do all sorts of things and some people actually doing it already in a",
+      "why_it_matters": "Shows demand from the community to use the compiler API for various purposes, with some partners already using it informally.",
+      "check": "exact"
+    },
+    {
+      "t": 1588.9,
+      "text": "It's envisioned as a service we haven't officially opened up for. New for for external use means that we haven't documented it",
+      "why_it_matters": "States the official position on compiler API exposure - envisioned but not officially supported or documented",
+      "check": "exact"
+    },
+    {
+      "t": 1611.2,
+      "text": "We're not preventing it. We're not just supporting it and we we reserve ourselves the right to change it at any time.",
+      "why_it_matters": "Defines the official policy - undocumented partner use is tolerated but unsupported and subject to breaking changes.",
+      "check": "exact"
+    },
+    {
+      "t": 1635.3,
+      "text": "Already incredibly many AL related extensions in the Visual Studio Code Marketplace, which is amazing to see",
+      "why_it_matters": "Highlights the thriving ecosystem of AL development tools and partner-created extensions in the marketplace.",
+      "check": "exact"
+    },
+    {
+      "t": 1671,
+      "text": "There's of course our own documentation on Ms. learning, which is both a combination of reference documentation but also getting started documentation.",
+      "why_it_matters": "Points to official documentation resources available for new developers on Microsoft Learn.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 363.5,
+      "kind": "preview",
+      "text": "early previews of it. And we did that for a couple of years, and the initial one was only we could create simple code units, simple tables, pages."
+    },
+    {
+      "t": 1540.2,
+      "kind": "preview",
+      "text": "That's still a prototype"
+    },
+    {
+      "t": 1553.4,
+      "kind": "preview",
+      "text": "It's still the prototype label"
+    },
+    {
+      "t": 1588.9,
+      "kind": "preview",
+      "text": "It's envisioned as a service we haven't officially opened up for. New for for external use means that we haven't documented it"
+    },
+    {
+      "t": 1611.2,
+      "kind": "subject-to-change",
+      "text": "We reserve ourselves the right to change it at any time"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

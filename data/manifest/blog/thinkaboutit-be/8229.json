@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/10/business-central-data-mirroring-to-microsoft-fabric-is-coming/",
   "published_at": "2026-10-02T13:32:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:17:50.057Z",
+      "path": "vault:posts/thinkaboutit-be/8229.md",
+      "words": 1301
+    },
+    "extracted": {
+      "at": "2026-10-06T21:18:07.753Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.007238
+    },
+    "summarized": {
+      "at": "2026-10-06T21:18:07.754Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:18:07.755Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:18:07.760Z",
+      "path": "content/posts/thinkaboutit-be/8229.md"
     }
   },
   "input_hash": "2026-10-02T13:30:11.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "469697ca68cde0b43ae05dcbd47a715fef3323916f3a35609786e8c41bfbcc77"
 }

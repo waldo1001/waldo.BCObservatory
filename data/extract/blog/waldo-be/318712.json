@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/waldo-be/318712",
+  "url": "https://waldo.be/2026/10/02/the-business-central-2026-release-wave-2-docs-nobody-asked-for/",
+  "title": "The Business Central 2026 release wave 2 docs nobody asked for ..",
+  "source": "waldo-be",
+  "published_at": "2026-10-02T11:37:59.000Z",
+  "words": 1356,
+  "summary": "Waldo created an interactive navigation tool for the Business Central 2026 Wave 2 release event videos, mapping 319 features across 38 videos with direct timestamps to help users find specific announcements without watching all 7+ hours. The site uses AI to extract features and quotes from auto-captions and cross-references them with official documentation to highlight gaps or conflicts.",
+  "key_points": [
+    "319 features identified from 38 videos (7 hours 9 minutes) with developer tools receiving 89 minutes of airtime",
+    "Interactive zoomable wheel organizes features by 10 functional areas, with clickable timestamps linking to exact seconds in YouTube videos",
+    "Discovered 22 documented features not shown in videos and 178 shown but not documented, plus 46 status conflicts between video announcements and official docs",
+    "Site built using AI to process 68,000 words of YouTube captions, extract features and quotes, and create a searchable index across all videos"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "release wave 2",
+    "documentation",
+    "video navigation",
+    "feature discovery",
+    "agents and copilot",
+    "ai-generated content"
+  ],
+  "objects": [],
+  "features": [
+    "developer tools",
+    "expense agent",
+    "transfer wip item and wip ledger entry in subcontracting",
+    "copilot chat"
+  ],
+  "versions": [
+    "2026 Wave 2",
+    "update 29.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "I let a bunch of agents watch the whole thing for me.",
+      "why_it_matters": "Demonstrates the practical use of AI agents to process and structure large volumes of video content automatically."
+    },
+    {
+      "text": "Think of it as a table of contents for 7 hours of video. An index. A map.",
+      "why_it_matters": "Clarifies the tool's purpose as a navigation aid to the source videos rather than a replacement for official documentation."
+    },
+    {
+      "text": "Every single thing on the site exists to get you to the right video, at the right second, as fast as possible.",
+      "why_it_matters": "Explains the core design philosophy of optimizing user navigation to specific content rather than consuming full-length videos."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006541,
+    "posts_in_call": 1
+  }
+}

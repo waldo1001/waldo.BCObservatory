@@ -1,0 +1,406 @@
+{
+  "video_id": "Ry9QvV6D7lg",
+  "item_id": "video/yt-microsoft/Ry9QvV6D7lg",
+  "title": "Dynamics GP Cloud Migration - Moving to Business Central",
+  "duration_s": 861,
+  "systems": [
+    "finance",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "gp migration",
+    "cloud migration",
+    "data migration",
+    "configuration pages",
+    "posting groups",
+    "dimensions",
+    "gl summary",
+    "unreconciled transactions",
+    "fiscal periods",
+    "master data"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of GP Migration Enhancements",
+      "t_start": 0,
+      "t_end": 58.6
+    },
+    {
+      "title": "Migration Setup Wizard and Configuration Page Changes",
+      "t_start": 58.6,
+      "t_end": 118
+    },
+    {
+      "title": "New Features and Enhancements in Recent Updates",
+      "t_start": 118,
+      "t_end": 218.8
+    },
+    {
+      "title": "Wave 2 2022 Release Expectations and GL Summary Improvements",
+      "t_start": 218.8,
+      "t_end": 293.3
+    },
+    {
+      "title": "Accessing and Starting the Migration Tool",
+      "t_start": 293.3,
+      "t_end": 346.6
+    },
+    {
+      "title": "GP Configuration Page Module and Data Selection Options",
+      "t_start": 346.6,
+      "t_end": 462.9
+    },
+    {
+      "title": "Company-Level Tweaks and Global Dimensions Setup",
+      "t_start": 462.9,
+      "t_end": 544.8
+    },
+    {
+      "title": "GL Summary Limits and Migration Process Overview",
+      "t_start": 544.8,
+      "t_end": 638.7
+    },
+    {
+      "title": "Running Migration and Viewing Migrated Data",
+      "t_start": 638.7,
+      "t_end": 699
+    },
+    {
+      "title": "Data Validation Examples and Fiscal Period Migration",
+      "t_start": 699,
+      "t_end": 861
+    }
+  ],
+  "features": [
+    {
+      "name": "GP Configuration Page",
+      "description": "New page providing more flexibility in choosing what data to migrate from GP to Business Central, replacing the all-or-nothing approach of the migration setup wizard.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.7,
+      "t_end": 218.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "configuration",
+        "modules"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Module-Level Selection in Migration",
+      "description": "Ability to choose which modules to bring over from GP, such as GL, AP, AR, or Bank, rather than migrating all modules together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 218.8,
+      "t_end": 238.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selection in GP configuration page"
+      ],
+      "tags": [
+        "modules",
+        "migration",
+        "flexibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inactive Checkbook and Bank Account Filtering",
+      "description": "New option to exclude inactive checkbooks and bank accounts from migration, allowing customers to avoid bringing old accounts to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.9,
+      "t_end": 138,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inactive records",
+        "bank accounts",
+        "filtering"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Unreconciled Bank Transaction Migration",
+      "description": "Capability to migrate unreconciled bank transactions, eliminating the requirement to reconcile bank accounts before migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 138,
+      "t_end": 158,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bank transactions",
+        "reconciliation",
+        "migration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Fiscal Period Information Migration",
+      "description": "Automatic migration of fiscal period setup from GP to Business Central accounting periods, eliminating manual reconfiguration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158,
+      "t_end": 178.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "accounting periods",
+        "fiscal periods",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor Bank Account Information Migration",
+      "description": "Option to automatically migrate bank account information associated with vendors from GP to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158,
+      "t_end": 178.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vendor setup",
+        "bank accounts",
+        "migration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Classes to Posting Groups Conversion",
+      "description": "Ability to migrate GP classes for customers, items, and vendors as posting groups in Business Central with proper assignments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.6,
+      "t_end": 198.8,
+      "is_demoed": true,
+      "caveats": [
+        "Optional selection",
+        "Posting groups created based on GP classes"
+      ],
+      "tags": [
+        "classes",
+        "posting groups",
+        "migration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "GL Year Limitation for Migration",
+      "description": "New option to limit the number of GL years migrated by specifying a starting year, with automatic creation of beginning balances.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.8,
+      "t_end": 218.8,
+      "is_demoed": true,
+      "caveats": [
+        "Automatically creates beginning balances for the starting year"
+      ],
+      "tags": [
+        "gl summary",
+        "year selection",
+        "data reduction"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Master Data Only Migration Option",
+      "description": "Ability to select individual modules to bring only master data records without transaction information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.8,
+      "t_end": 259,
+      "is_demoed": true,
+      "caveats": [
+        "Available per module basis"
+      ],
+      "tags": [
+        "master data",
+        "transaction data",
+        "selective migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Discontinued Items Filtering",
+      "description": "New option to exclude discontinued or inactive items from migration during the GP to Business Central process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.8,
+      "t_end": 259,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inactive items",
+        "discontinued items",
+        "inventory"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Unique GL Summary Document Numbering",
+      "description": "Enhancement that increments document numbers for individual GL summary records during migration to prevent reconciliation issues when reversing specific transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 259,
+      "t_end": 279,
+      "is_demoed": false,
+      "caveats": [
+        "Addresses reconciliation and transaction reversal challenges"
+      ],
+      "tags": [
+        "gl summary",
+        "document numbering",
+        "reconciliation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Global Dimensions Configuration",
+      "description": "Setup of global dimensions where GP segments are mapped to Business Central dimensions, with main account segment as natural account and two segments as global dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 503.6,
+      "t_end": 544.8,
+      "is_demoed": true,
+      "caveats": [
+        "Segments beyond two become shortcut dimensions",
+        "Configuration per company for different dimension structures"
+      ],
+      "tags": [
+        "dimensions",
+        "segments",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Company-Level Migration Tweaks",
+      "description": "Ability to override global migration settings at the individual company level when migrating multiple companies with different requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 462.9,
+      "t_end": 483.4,
+      "is_demoed": true,
+      "caveats": [
+        "Correlated options automatically unmark if related option is deselected"
+      ],
+      "tags": [
+        "company selection",
+        "configuration",
+        "flexibility"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Casey Meer",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 58.6,
+      "text": "many of you are familiar with the existing migration tool Setup Wizard where you had just a few options to migrate it was really",
+      "why_it_matters": "Establishes the baseline for understanding the new configuration page improvements and increased flexibility compared to previous versions.",
+      "check": "exact"
+    },
+    {
+      "t": 78.7,
+      "text": "you have many more options to choose for what you want to bring over from your GP system into business Central",
+      "why_it_matters": "Core value proposition of the new GP configuration page, emphasizing the shift from all-or-nothing to granular selection.",
+      "check": "exact"
+    },
+    {
+      "t": 218.8,
+      "text": "as part of wave 2 2022 what you can expect is that new gp configuration page",
+      "why_it_matters": "Confirms the GA status and availability of the new configuration page as part of Wave 2 2022 release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 259,
+      "text": "everything was being assigned with the same document number which made it difficult to reconcile or if you needed to reverse a specific transaction",
+      "why_it_matters": "Explains the business problem that prompted the unique GL summary document numbering enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 293.3,
+      "text": "you can still access the tool like you always have by going up to the search and",
+      "why_it_matters": "Demonstrates the intuitive access method for the migration tool within Business Central interface.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 346.6,
+      "text": "in the cloud migration management page there will be a new option that you can select called configure GP migration",
+      "why_it_matters": "Shows how users access the new GP configuration page from the migration management interface.",
+      "check": "exact"
+    },
+    {
+      "t": 578.4,
+      "text": "by default we default it to zero which means it's going to bring everything over from your GP system",
+      "why_it_matters": "Clarifies the default behavior for GL year limits, showing that bringing all years is the default unless explicitly limited.",
+      "check": "exact"
+    },
+    {
+      "t": 638.7,
+      "text": "the first step is to run the migration now which takes all of the information from your GP tables moves those into staging tables",
+      "why_it_matters": "Describes the two-step migration process that remains consistent across versions, providing clarity on the technical workflow.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 427,
+      "kind": "coming-later",
+      "text": "very soon you'll be able to pick if you don't want to bring over inactive items or discontinued items"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

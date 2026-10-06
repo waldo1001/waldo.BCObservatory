@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/10/02/business-central-v29-sql-table-extensions-redesign-explained/",
   "published_at": "2026-10-02T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:18:22.026Z",
+      "path": "vault:posts/aardvarklabs-blog/3983.md",
+      "words": 381
+    },
+    "extracted": {
+      "at": "2026-10-06T21:18:38.403Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005152
+    },
+    "summarized": {
+      "at": "2026-10-06T21:18:40.307Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:18:40.308Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:18:40.315Z",
+      "path": "content/posts/aardvarklabs-blog/3983.md"
     }
   },
   "input_hash": "2026-09-23T02:12:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a602bc6ec6403d4b94af0ffad123b5f74cea673a001e337ea39621c0f68d9612"
 }

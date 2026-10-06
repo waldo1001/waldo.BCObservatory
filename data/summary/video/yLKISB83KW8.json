@@ -1,0 +1,25 @@
+{
+  "video_id": "yLKISB83KW8",
+  "item_id": "video/yt-microsoft/yLKISB83KW8",
+  "summary": "Setting the local currency (LCY) in Business Central on the General Ledger Setup page: LCY code, symbol and description, with USD as the example. The currencies table should not list the local currency, and order currency codes should be left empty for local currency.",
+  "overview": "The video shows how to set up the local currency, meaning the currency used in the country or region where the business trades domestically. The setup is done on the General Ledger Setup page, using the Tell Me search to open it.\n\nIn the demo, the LCY code is set to USD, and the local currency symbol and currency description are filled in. The video then covers creating orders, where the currency code should only be set when it differs from the local currency, and checks the Currencies table to confirm that only foreign trading currencies are listed.",
+  "key_points": [
+    "Open the General Ledger Setup page (via Tell Me search) to configure the local currency.",
+    "Set the LCY code on General Ledger Setup; the demo uses USD.",
+    "Set the local currency symbol, which is displayed in various places around the system.",
+    "Set a currency description to name the currency.",
+    "On orders, do not specify a currency code unless it differs from the local currency, for example when trading in a foreign currency.",
+    "Make sure the local currency is not listed in the Currencies table; only foreign currencies you trade in should appear there."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "ea11955f6b72f887dec71fe19e79256307266acd3211e68433706f3900f3d9c0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

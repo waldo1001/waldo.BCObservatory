@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2026/10/02/the-business-central-2026-release-wave-2-docs-nobody-asked-for/",
   "published_at": "2026-10-02T11:37:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:18:18.960Z",
+      "path": "vault:posts/waldo-be/318712.md",
+      "words": 1356
+    },
+    "extracted": {
+      "at": "2026-10-06T21:18:35.620Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006541
+    },
+    "summarized": {
+      "at": "2026-10-06T21:18:35.621Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:18:35.622Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:18:35.627Z",
+      "path": "content/posts/waldo-be/318712.md"
     }
   },
   "input_hash": "2026-10-02T14:59:11.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0beda5bb8161f0e672d69e1f6fd31764f749a341f92c3f580eea02c9fff516f8"
 }

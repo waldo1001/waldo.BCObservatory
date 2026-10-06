@@ -1,0 +1,237 @@
+{
+  "video_id": "yLKISB83KW8",
+  "item_id": "video/yt-microsoft/yLKISB83KW8",
+  "title": "Set Up Your Local Currency (2024)",
+  "duration_s": 108,
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "local currency",
+    "lcy code",
+    "general ledger setup",
+    "currency setup",
+    "configuration",
+    "tell me search"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Local Currency Setup",
+      "t_start": 0,
+      "t_end": 13.3
+    },
+    {
+      "title": "Accessing General Ledger Setup",
+      "t_start": 13.3,
+      "t_end": 30.4
+    },
+    {
+      "title": "Configuring LCY Code and Symbol",
+      "t_start": 30.4,
+      "t_end": 47.6
+    },
+    {
+      "title": "Setting Currency Description",
+      "t_start": 47.6,
+      "t_end": 57.9
+    },
+    {
+      "title": "Creating Orders with Local Currency",
+      "t_start": 57.9,
+      "t_end": 70.2
+    },
+    {
+      "title": "Verifying Currency in Table",
+      "t_start": 70.2,
+      "t_end": 84.2
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 84.2,
+      "t_end": 108
+    }
+  ],
+  "features": [
+    {
+      "name": "Local Currency Setup",
+      "description": "Ability to configure the local currency (LCY) that a business uses in the country or region where it trades domestically through the General Ledger Setup page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.4,
+      "t_end": 47.6,
+      "is_demoed": true,
+      "caveats": [
+        "LCY should not be listed among the currencies in the currencies table"
+      ],
+      "tags": [
+        "local currency",
+        "lcy code",
+        "general ledger setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "LCY Code Configuration",
+      "description": "Setting the LCY code (local currency code) in General Ledger Setup, demonstrated with USD example, which identifies the local currency used by the business.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.4,
+      "t_end": 47.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lcy code",
+        "currency code",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Local Currency Symbol Configuration",
+      "description": "Setting the local currency symbol that will display at various places around the system to represent the configured local currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.4,
+      "t_end": 47.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency symbol",
+        "display",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Currency Description",
+      "description": "Ability to describe and name the currency in General Ledger Setup, allowing users to specify what the currency is called.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.6,
+      "t_end": 57.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency description",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Currency Code in Orders",
+      "description": "When creating orders, users should not specify the currency code unless it is different from the local currency, such as when trading in a foreign currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.9,
+      "t_end": 70.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only specify currency code when different from local currency"
+      ],
+      "tags": [
+        "order creation",
+        "currency code",
+        "best practice"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Currencies Table Verification",
+      "description": "Checking that the local currency is not listed among the currencies in the currencies table, ensuring only foreign currencies in which the business trades are included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.2,
+      "t_end": 84.2,
+      "is_demoed": true,
+      "caveats": [
+        "LCY should not appear in the currencies table"
+      ],
+      "tags": [
+        "currencies table",
+        "verification",
+        "configuration"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup",
+      "t": 13.3
+    },
+    {
+      "type": "table",
+      "name": "Currencies",
+      "t": 70.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.4,
+      "text": "you can set up your local currency that is the currency that you use in the country or region where you trade domestically",
+      "why_it_matters": "Defines the purpose and scope of local currency setup in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 30.4,
+      "text": "I'll find the lcy code which is the local currency code it's set to US dollar so USD which is what I want",
+      "why_it_matters": "Demonstrates how to configure the LCY code in General Ledger Setup",
+      "check": "exact"
+    },
+    {
+      "t": 30.4,
+      "text": "I also set the local currency symol which is what will display at various places around the system",
+      "why_it_matters": "Explains the currency symbol configuration and its system-wide display impact",
+      "check": "exact"
+    },
+    {
+      "t": 57.9,
+      "text": "it's important that you don't specify the currency code unless it's different from your local currency for example if you trade in a foreign",
+      "why_it_matters": "Key best practice for order creation regarding currency code specification",
+      "check": "exact"
+    },
+    {
+      "t": 70.2,
+      "text": "make sure that your currency is not listed among the currencies in the currencies table let's just check that",
+      "why_it_matters": "Critical requirement to prevent local currency from appearing in the currencies table",
+      "check": "exact"
+    },
+    {
+      "t": 84.2,
+      "text": "only the currencies in which I also trade are listed",
+      "why_it_matters": "Confirms that currencies table should contain only foreign trading currencies",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}
