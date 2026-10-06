@@ -1,0 +1,27 @@
+{
+  "video_id": "5qWLFUqFsi0",
+  "item_id": "video/yt-hougaard/5qWLFUqFsi0",
+  "summary": "Page regions in Advanced Spreadsheets (reporting app) for Business Central: defining regions, tabbed preview mode, one printed page per region, read-only sharing by the owner, and slicers that work on live data. Demonstrated by Erik Hougaard in a 5-minute video.",
+  "overview": "Erik Hougaard shows how to define regions in a spreadsheet so the spreadsheet can be presented as a set of areas. He looks at an example with four regions, creates a new one, and then opens preview mode, where each region shows as a tab at the bottom.\n\nHe also covers printing, where each region becomes its own page, and permissions, where the owner gives other users read-only access. A user with read-only access sees only the spreadsheets shared with them. Slicers can be used in preview mode, and the data is live from Business Central. The apps are free to use in the cloud sandbox.",
+  "key_points": [
+    "Regions are defined inside a spreadsheet and can have background colors. The demo spreadsheet had four regions.",
+    "Region order follows the ID assigned to each region.",
+    "In preview mode, regions appear as tabs at the bottom, and scrolling stays within the current region's area.",
+    "When printed, each region becomes a separate page.",
+    "A spreadsheet must always have an owner. The owner can grant other users read-only access, and those users see only the spreadsheets shared with them.",
+    "Slicers can be used for filtering in preview mode but cannot be edited there.",
+    "Spreadsheet data is live from Business Central with no staging or sync delay. The apps are free in the cloud sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "af7a469b3965f9423d41ab59238489315f27e5e37a4f6c0ee7e334e299d507d6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0131224
+  }
+}

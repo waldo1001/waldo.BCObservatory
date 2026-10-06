@@ -1,0 +1,346 @@
+{
+  "video_id": "1QuV_vkbNVU",
+  "item_id": "video/yt-hougaard/1QuV_vkbNVU",
+  "title": "Introducing Spreadsheets for Business Central",
+  "duration_s": 1006,
+  "systems": [
+    "reporting",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "spreadsheets",
+    "regions",
+    "data connectivity",
+    "virtual fields",
+    "charts",
+    "permissions",
+    "ai agent",
+    "queries",
+    "excel integration",
+    "preview mode"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to spreadsheets in Business Central",
+      "t_start": 0,
+      "t_end": 50.5
+    },
+    {
+      "title": "Excel muscle memory and spreadsheet basics",
+      "t_start": 50.5,
+      "t_end": 116.2
+    },
+    {
+      "title": "Business Central functions and cell formatting",
+      "t_start": 116.2,
+      "t_end": 199.2
+    },
+    {
+      "title": "Regions and data connectivity types",
+      "t_start": 199.2,
+      "t_end": 338.2
+    },
+    {
+      "title": "Working with tables and editing data",
+      "t_start": 338.2,
+      "t_end": 487.2
+    },
+    {
+      "title": "Virtual fields and calculations",
+      "t_start": 487.2,
+      "t_end": 631.8
+    },
+    {
+      "title": "Charts and page regions for presentation",
+      "t_start": 631.8,
+      "t_end": 753.6
+    },
+    {
+      "title": "Sharing and permissions management",
+      "t_start": 753.6,
+      "t_end": 816.1
+    },
+    {
+      "title": "AI agent for query generation",
+      "t_start": 816.1,
+      "t_end": 951.8
+    },
+    {
+      "title": "Additional features and access information",
+      "t_start": 951.8,
+      "t_end": 1006
+    }
+  ],
+  "features": [
+    {
+      "name": "Spreadsheets for Business Central",
+      "description": "A new spreadsheet application integrated within Business Central that combines Excel muscle memory with Business Central data connectivity and functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.8,
+      "t_end": 50.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "spreadsheets",
+        "excel",
+        "integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Regions",
+      "description": "A feature that connects Business Central data directly into the spreadsheet. Regions can have different types including tables, charts, financial reports, pages, KPI cards, budgets, queries, reports, pivot tables, flow fields, images, and journal functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.7,
+      "t_end": 338.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "regions",
+        "data-connectivity",
+        "tables",
+        "charts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Virtual Fields",
+      "description": "Columns added to tables that can contain formulas without modifying the underlying Business Central table. They allow calculations based on other fields in the spreadsheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 511.4,
+      "t_end": 603.7,
+      "is_demoed": true,
+      "caveats": [
+        "Virtual fields contain formulas that do not modify the underlying Business Central data"
+      ],
+      "tags": [
+        "virtual-fields",
+        "formulas",
+        "calculations"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Page Regions",
+      "description": "A type of region that defines an area for printing and preview mode presentation. When preview mode is enabled, the spreadsheet displays as a non-spreadsheet-looking web page without the defined page regions being shown.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 700.8,
+      "t_end": 766.6,
+      "is_demoed": true,
+      "caveats": [
+        "Content outside of page regions is not included in preview or print"
+      ],
+      "tags": [
+        "page-regions",
+        "preview-mode",
+        "printing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Permissions and Sharing",
+      "description": "A feature that allows control over who can access sheets and how they can access them. Users can be given read-only access or full edit access based on their role. Edit functionality requires specific permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 792.4,
+      "t_end": 816.1,
+      "is_demoed": true,
+      "caveats": [
+        "Edit functionality requires user permissions to be configured"
+      ],
+      "tags": [
+        "permissions",
+        "sharing",
+        "access-control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AI Agent",
+      "description": "An AI agent integrated into the spreadsheet app that can generate SQL queries and regions based on natural language requests. It supports bring-your-own-key concept with multiple AI providers including Anthropic Claude, Azure OpenAI, Chat, Grok, and Google.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 827.8,
+      "t_end": 951.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration of an AI provider using bring-your-own-key concept"
+      ],
+      "tags": [
+        "ai-agent",
+        "copilot",
+        "query-generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chart Regions",
+      "description": "A type of region that allows creation of charts within spreadsheets. Charts can be created by specifying data and category ranges with various visualization options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 631.8,
+      "t_end": 677.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "charts",
+        "visualization",
+        "regions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Business Central Functions",
+      "description": "Spreadsheet cells support Business Central functions including TODAY, WORKDATE, and CALCDATE for date calculations, providing integration with Business Central's date logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 126.8,
+      "t_end": 165.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "functions",
+        "date-functions",
+        "business-central-integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scenarios",
+      "description": "A feature that allows freezing the current state of a spreadsheet and then reverting back to different saved scenarios after making changes to numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 961,
+      "t_end": 973.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "scenarios",
+        "versioning"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Conditional Formatting",
+      "description": "A feature that allows applying conditional formatting to spreadsheet cells for visual presentation of data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 973.4,
+      "t_end": 985.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "conditional-formatting",
+        "formatting"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Payment Terms",
+      "t": 224.7
+    },
+    {
+      "type": "table",
+      "name": "Posted Sales Headers",
+      "t": 892.6
+    },
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 906
+    },
+    {
+      "type": "table",
+      "name": "Ledger Entries",
+      "t": 906
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 13.1,
+      "text": "a spreadsheet that is running inside Business Central and it's a spreadsheet that have Business Central in it",
+      "why_it_matters": "Defines the core value proposition - it's not just a spreadsheet, but one integrated within Business Central with data connectivity.",
+      "check": "exact"
+    },
+    {
+      "t": 90.8,
+      "text": "I operate this exactly like you I would type this exactly the same way as I would do it in Excel",
+      "why_it_matters": "Establishes that users maintain Excel familiarity despite the application being built within Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 211.7,
+      "text": "A region is where we connect Business Central directly into the into the spreadsheet",
+      "why_it_matters": "Introduces the key architectural concept that enables data connectivity between Business Central and the spreadsheet.",
+      "check": "exact"
+    },
+    {
+      "t": 462.6,
+      "text": "Very important. So, you can configure whether a user have permissions to to use the right back functionality or not",
+      "why_it_matters": "Highlights that write-back functionality requires explicit permission configuration for data integrity.",
+      "check": "exact"
+    },
+    {
+      "t": 838.8,
+      "text": "the bring your own key concept, so you can choose where where you want to get your AI from",
+      "why_it_matters": "Shows flexibility in AI provider selection, allowing customers to choose their preferred AI service.",
+      "check": "exact"
+    },
+    {
+      "t": 985.3,
+      "text": "It's free to use in a cloud sandbox. So, you can try it out without having anything, no nagging, no no time limits",
+      "why_it_matters": "Indicates the app is generally available and accessible for trial with no restrictions in the cloud sandbox environment.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028337
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "yE6lNV3ALb4",
+  "item_id": "video/yt-hougaard/yE6lNV3ALb4",
+  "summary": "Pivot tables with live data in Business Central spreadsheets, using the advanced spreadsheets and reporting app. The demo builds a pivot table on item ledger entries, shows refresh on open, drilldown to source records, and changing date buckets to quarters.",
+  "overview": "Erik Hougaard shows in about three minutes how to add a pivot table region to a spreadsheet in Business Central with the advanced spreadsheets and reporting app. He picks item ledger entries as the data source, adds a filter, and sets row and column fields and the values to aggregate.\n\nOnce built, the pivot table shows live data. It refreshes whenever the spreadsheet is opened and can be refreshed by hand. Control-clicking a cell opens the item ledger entries behind the number. The structure can be changed, for example by switching date buckets to quarters, and the result stays spreadsheet data that can feed other calculations. A link to try it in a cloud sandbox is given.",
+  "key_points": [
+    "Pivot tables with live data require the advanced spreadsheets and reporting app.",
+    "A new pivot table region is created in the spreadsheet, then a data source (item ledger entries in the demo) is chosen and can be filtered.",
+    "Row fields, column fields and aggregation values are configured in the pivot table setup.",
+    "Date fields can be bucketed, for example changed to quarters, after the pivot table is built.",
+    "The data refreshes whenever the spreadsheet is opened and can also be refreshed manually.",
+    "Control-click a pivot cell to drill down to the underlying item ledger entries.",
+    "Pivot table output stays spreadsheet data, so it can serve as input for other calculations."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "be1f41725875b988564489efe6e4d7104ad96af7a65015b2c6eb0c485b2b1443",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0130224
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "6dEZQlmBlyI",
+  "item_id": "video/yt-hougaard/6dEZQlmBlyI",
+  "summary": "Embedding report data in a spreadsheet with the Advanced Spreadsheets and reporting app for Business Central. Shows a report region (report 111 customer top 10), a donut chart built from it, live recalculation and filtering. Query regions are also mentioned.",
+  "overview": "Erik Hougaard shows how to add a report region to a spreadsheet in the Advanced Spreadsheets and reporting app for Business Central. In the region you choose the report, set a maximum number of rows and decide whether to include headers. The demo uses the customer top 10 report (report 111).\n\nHe then builds a donut chart of top customers from the report data, with customer names as categories. The report is recalculated each time the spreadsheet is opened, and a button recalculates it on demand. Filters work like normal report filters and can reference spreadsheet cells. Query regions work in a similar way. The app is free to use in a Cloud Sandbox.",
+  "key_points": [
+    "A report region embeds report data in the spreadsheet. You pick the report, a maximum number of rows, and whether to include headers.",
+    "The demo uses report 111 (customer top 10) as the data source.",
+    "A donut chart of top customers was built from the report data, with categories set to customer names.",
+    "The report is recalculated every time the spreadsheet is opened, and a button recalculates it manually.",
+    "Filters on an embedded report work like normal report filters, and the video says they can reference cells in the spreadsheet. This was mentioned but not fully demonstrated.",
+    "Query regions let you pull data from a query that calculates something into the spreadsheet.",
+    "The app is free to use in a Cloud Sandbox, so you can try it there."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "6abb6379b9e451d8fb403eb0037ecf5d7504c79189cf0775037b3e3307e9ba7c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0125624
+  }
+}

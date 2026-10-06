@@ -1,0 +1,28 @@
+{
+  "video_id": "1QuV_vkbNVU",
+  "item_id": "video/yt-hougaard/1QuV_vkbNVU",
+  "summary": "Spreadsheets for Business Central, a spreadsheet app running inside Business Central, is demoed with regions that connect BC data (tables, charts, queries, pages), virtual fields, permissions for sharing and editing, and an AI agent that generates SQL queries and regions.",
+  "overview": "Erik Hougaard introduces a spreadsheet that runs inside Business Central and keeps Excel-style typing and formulas. Business Central data is brought in through regions, which can be tables, charts, financial reports, pages, KPI cards, budgets, queries, reports, pivot tables, flow fields, images and journals.\n\nThe demo covers Business Central date functions in cells (TODAY, WORKDATE, CALCDATE), editing table data, virtual fields with formulas, chart regions, and page regions for preview and printing. It also covers sharing with read-only or edit access, and an AI agent that builds queries from natural language using a bring-your-own-key AI provider. The video states it is free to use in a cloud sandbox.",
+  "key_points": [
+    "A region is how Business Central data is connected into the spreadsheet; region types include table, chart, financial report, page, KPI card, budget, query, report, pivot table, flow field, image and journal.",
+    "Cells support the Business Central functions TODAY, WORKDATE and CALCDATE.",
+    "Virtual fields add formula columns to a table region without changing the underlying Business Central table.",
+    "Page regions define what is printed and shown in preview mode; content outside them is not included.",
+    "Sharing can be read-only or full edit. Writing data back requires the user to have the permission configured.",
+    "The AI agent generates SQL queries and regions from natural language. It needs an AI provider configured with bring-your-own-key (Anthropic Claude, Azure OpenAI, Chat, Grok and Google are named).",
+    "Scenarios (freeze a sheet state and revert to saved scenarios) and conditional formatting are mentioned. The video says the app is free in a cloud sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "developer"
+  ],
+  "extraction_hash": "a200edbcbda0e83ae109c1c0df4ee9adf91bd054f7207f2484b9aa4b1f8c30a6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0165284
+  }
+}

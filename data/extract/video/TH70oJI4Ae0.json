@@ -1,0 +1,553 @@
+{
+  "video_id": "TH70oJI4Ae0",
+  "item_id": "video/yt-saurav/TH70oJI4Ae0",
+  "title": "Business Central 29: How Many Fields Can a Table Really Have?",
+  "duration_s": 2024,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table extensions",
+    "field limits",
+    "sql server columns",
+    "data types",
+    "platform fields",
+    "record size",
+    "compiler warnings",
+    "al development",
+    "table field limits",
+    "record size constraints",
+    "data types and bytes",
+    "sql server limits"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and context about field limits",
+      "t_start": 0,
+      "t_end": 51.1
+    },
+    {
+      "title": "Overview of Business Central 29 changes",
+      "t_start": 51.1,
+      "t_end": 78.2
+    },
+    {
+      "title": "Detect table approaching SQL column limit warning",
+      "t_start": 78.2,
+      "t_end": 189
+    },
+    {
+      "title": "Table extension storage model change",
+      "t_start": 189,
+      "t_end": 270.2
+    },
+    {
+      "title": "Investigating field limit numbers",
+      "t_start": 270.2,
+      "t_end": 377.8
+    },
+    {
+      "title": "Microsoft documentation and SQL limitations",
+      "t_start": 377.8,
+      "t_end": 556.1
+    },
+    {
+      "title": "Testing with field types and platform fields",
+      "t_start": 556.1,
+      "t_end": 815.6
+    },
+    {
+      "title": "Publishing and data type implications",
+      "t_start": 815.6,
+      "t_end": 1087.9
+    },
+    {
+      "title": "Testing warning thresholds and field counts",
+      "t_start": 1087.9,
+      "t_end": 1362.6
+    },
+    {
+      "title": "Companion table behavior and iterative testing",
+      "t_start": 1362.6,
+      "t_end": 1679.2
+    },
+    {
+      "title": "Testing SQL limit and schema best practices",
+      "t_start": 1679.2,
+      "t_end": 1884.4
+    },
+    {
+      "title": "Summary and conclusions",
+      "t_start": 1884.4,
+      "t_end": 2024
+    }
+  ],
+  "features": [
+    {
+      "name": "Detect table approaching SQL column limit warning",
+      "description": "A compiler warning introduced in Business Central 29 that alerts AL developers when tables or table extensions containing many normal fields are approaching the SQL extensibility limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.2,
+      "t_end": 114.7,
+      "is_demoed": true,
+      "caveats": [
+        "Warning appears at 300+ fields",
+        "Does not mean the limit is absolute",
+        "Different data types affect the calculation"
+      ],
+      "tags": [
+        "compiler warning",
+        "field limits",
+        "al development",
+        "table extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "New table extension data model",
+      "description": "Business Central 29 changed how table extension fields are stored - they are now stored in the same SQL server table as base table fields instead of in a separate companion table, improving database performance by approximately 30%.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.1,
+      "t_end": 270.2,
+      "is_demoed": false,
+      "caveats": [
+        "Changes how field limits are calculated",
+        "Eliminates companion table approach",
+        "Requires understanding of new storage model"
+      ],
+      "tags": [
+        "table extensions",
+        "performance",
+        "data model",
+        "sql storage"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "300 field warning threshold",
+      "description": "The system generates a warning when a table with extensions reaches 300 combined fields total (293 user-defined fields plus 6-7 system platform fields), indicating developers should not add more fields to that table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 496.6,
+      "t_end": 1122.6,
+      "is_demoed": true,
+      "caveats": [
+        "300 is a warning threshold, not a hard limit",
+        "Different from SQL Server's 500 column maximum",
+        "Actual limit depends on data types and record size",
+        "Allows publishing with more than 300 fields",
+        "Warning threshold appears to vary based on field types used"
+      ],
+      "tags": [
+        "field limits",
+        "warning threshold",
+        "table extensions",
+        "build warning",
+        "field count"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SQL Server column and record size limits",
+      "description": "SQL Server has a maximum of 500 fields in a record with various constraints including 16 GB maximum record size, 2 GB maximum blob size, and 2048 character maximum for text/code fields. Variable length text fields consume 26 bytes per record.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 377.8,
+      "t_end": 923.9,
+      "is_demoed": true,
+      "caveats": [
+        "Limit is not just about column count but also record size",
+        "Different data types consume different byte amounts",
+        "Record size constraints are as important as column count",
+        "Does not include flow fields or flow filters",
+        "Runtime error occurs at publish time, not compile time"
+      ],
+      "tags": [
+        "sql server limits",
+        "field limits",
+        "record size",
+        "constraints",
+        "hard limit"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Platform system fields",
+      "description": "Business Central automatically adds 6 system fields to every table: system ID, system created at, system created by, system modified at, system modified by, and row version, which count toward the field limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 582,
+      "t_end": 676.2,
+      "is_demoed": true,
+      "caveats": [
+        "These fields are mandatory and count toward limits",
+        "Not visible in standard table designer view",
+        "Automatically added by system"
+      ],
+      "tags": [
+        "platform fields",
+        "audit fields",
+        "field limits"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Record size byte limit",
+      "description": "The maximum record size in bytes for each record is 8060 bytes at the SQL server level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 912.7,
+      "t_end": 1921.4,
+      "is_demoed": true,
+      "caveats": [
+        "Applies to all fields combined in a table",
+        "Can prevent reaching 500 field limit",
+        "Platform-defined fields count toward this limit",
+        "Actual field count limit depends on data types"
+      ],
+      "tags": [
+        "record size",
+        "byte limit",
+        "sql server",
+        "constraints",
+        "platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Data type byte consumption",
+      "description": "Different field data types consume different amounts of bytes: decimal takes 17 bytes while integer takes 4 bytes, affecting how many fields can fit in a table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 948.6,
+      "t_end": 988.9,
+      "is_demoed": true,
+      "caveats": [
+        "Text and code types vary based on length"
+      ],
+      "tags": [
+        "data types",
+        "byte consumption",
+        "field design"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Decimal field maximum calculation",
+      "description": "A single table can contain a maximum of approximately 474 decimal fields before exceeding the 8060 byte record size limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1031.8,
+      "t_end": 1087.9,
+      "is_demoed": true,
+      "caveats": [
+        "Assumes only decimal fields plus primary key",
+        "Actual limit depends on system-generated fields"
+      ],
+      "tags": [
+        "decimal",
+        "field calculation",
+        "limits"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Version 29 table extension storage change",
+      "description": "Starting in version 29, table extensions no longer create separate companion tables in SQL server; instead they are stored in the same physical table with base table fields, subject to combined record size limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1466.1,
+      "t_end": 1511.4,
+      "is_demoed": true,
+      "caveats": [
+        "Changes how field limits are calculated for extensions",
+        "No longer provides separate space allocation"
+      ],
+      "tags": [
+        "version 29",
+        "table extensions",
+        "storage model"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Field count warning at 293 fields",
+      "description": "Business Central 29 shows a warning message when a table reaches 293 fields, regardless of data type. This warning appears before the hard SQL limit is reached.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1746.6,
+      "t_end": 1798.6,
+      "is_demoed": true,
+      "caveats": [
+        "Warning disappears after 499 fields",
+        "Does not prevent build compilation",
+        "Early indicator before hard limit"
+      ],
+      "tags": [
+        "warnings",
+        "field limits",
+        "schema",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Base table and extension table storage consolidation",
+      "description": "Base tables and extension tables are now stored in the same table in SQL Server, meaning field limits apply to the combined set of fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1974.7,
+      "t_end": 1984.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful schema design when extending tables",
+        "Field limits apply to combined fields from base and extension"
+      ],
+      "tags": [
+        "extensions",
+        "schema",
+        "tables",
+        "development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "SDH max field",
+      "t": 508.4
+    },
+    {
+      "type": "other",
+      "name": "field 470",
+      "t": 1209.9
+    },
+    {
+      "type": "other",
+      "name": "field 469",
+      "t": 1265
+    },
+    {
+      "type": "other",
+      "name": "field 465",
+      "t": 1538.8
+    },
+    {
+      "type": "other",
+      "name": "row version",
+      "t": 1162
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sad Dhani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 129.1,
+      "text": "a new data model where fields from al table and its table extension are stored in same sql server table",
+      "why_it_matters": "This explains the fundamental change in BC29 that makes the field limit question relevant, as fields now count against the same total instead of being separated into companion tables.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 229.7,
+      "text": "Microsoft says that with new table extension data model all field from AL table are stored in the same database table and it makes",
+      "why_it_matters": "Clarifies the performance benefit driving the architectural change and establishes that field limits became stricter as a trade-off.",
+      "check": "exact"
+    },
+    {
+      "t": 284.2,
+      "text": "I have read some numbers 300 somebody said 400 somebody said 500. Now this is where I wanted to be careful. I've seen the",
+      "why_it_matters": "Demonstrates confusion around actual limits in the community and establishes that there is no single definitive number without proper investigation.",
+      "check": "exact"
+    },
+    {
+      "t": 284.2,
+      "text": "I don't want to tell you that 300 is the definitive maximum limit because I haven't found Microsoft documentation saying that 300 is the",
+      "why_it_matters": "Clarifies that 300 is not an absolute maximum but rather a warning threshold, distinguishing between warning and true limits.",
+      "check": "snapped"
+    },
+    {
+      "t": 334.2,
+      "text": "the maximum number of records or fields in a record is 500. The same documentation also says about the record size.",
+      "why_it_matters": "Establishes the SQL Server baseline limit that applies to BC tables, setting an upper bound for field counts.",
+      "check": "exact"
+    },
+    {
+      "t": 412.6,
+      "text": "each variable length a text field accounts for 26 byt in a record. And this is important because it tells you that SQL limitation",
+      "why_it_matters": "Reveals that field limits depend on both column count and record size consumption, not just counting fields.",
+      "check": "exact"
+    },
+    {
+      "t": 702.5,
+      "text": "when you say 300 only read about 300. 300 is that threshold when system starts generating that warning message that you should not be",
+      "why_it_matters": "Defines what 300 means - it is a warning threshold indicating developers should stop adding fields, not a hard limit.",
+      "check": "exact"
+    },
+    {
+      "t": 900.2,
+      "text": "the maximum number of field in a record is 500. So you cannot go beyond 500 records 500 fields in a table",
+      "why_it_matters": "Establishes the hard field count limit that cannot be exceeded regardless of data type.",
+      "check": "exact"
+    },
+    {
+      "t": 912.7,
+      "text": "the maximum record size in bytes for each record is 8060",
+      "why_it_matters": "Defines the other critical constraint: the total byte size of all fields in a record cannot exceed 8060 bytes.",
+      "check": "exact"
+    },
+    {
+      "t": 948.6,
+      "text": "decimal is a pretty interesting one because it takes 17 bytes whereas integer only takes four by",
+      "why_it_matters": "Explains why field data type choice dramatically affects how many fields can fit in a table.",
+      "check": "exact"
+    },
+    {
+      "t": 1031.8,
+      "text": "in the decimal, I cannot add I should not be able to add more than 474 decimal fields in a table because that crosses",
+      "why_it_matters": "Quantifies the practical maximum for a specific data type, showing the byte consumption constraint takes precedence.",
+      "check": "exact"
+    },
+    {
+      "t": 1098.6,
+      "text": "the warning is reaching to a threshold of 400 oh sorry 300. So as soon as I reach to 300 the system starts prompting",
+      "why_it_matters": "Documents the warning threshold that alerts developers before they approach actual limits.",
+      "check": "exact"
+    },
+    {
+      "t": 1466.1,
+      "text": "till version 28 it was not a problem as soon as you add a table extension it goes and creates a companion table in",
+      "why_it_matters": "Highlights a major architectural change in version 29 that affects how field limits apply to table extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1478.1,
+      "text": "you are never restricted to a table size limit or I should say that your extension uh have including other extension to a base",
+      "why_it_matters": "Explains that before version 29, extensions had their own separate allocation effectively doubling available space.",
+      "check": "exact"
+    },
+    {
+      "t": 1589.8,
+      "text": "as soon as I'm here now, oh now it shows me that I have 471 field",
+      "why_it_matters": "Demonstrates exceeding the 500 field limit in testing to understand warning and error behavior",
+      "check": "exact"
+    },
+    {
+      "t": 1667.4,
+      "text": "as soon as you hit the SQL limit of 500 fields and then if you have 51 field which is 495",
+      "why_it_matters": "Identifies the exact SQL Server hard limit that affects table design",
+      "check": "exact"
+    },
+    {
+      "t": 1810.9,
+      "text": "as soon as you reach to field 293 on a new table irrespective of database uh sorry data type the system will show you",
+      "why_it_matters": "Establishes the warning threshold that applies across all data types",
+      "check": "exact"
+    },
+    {
+      "t": 1824.5,
+      "text": "at 500 or 499 or somewhere around that uh let's see that yeah 499 system will stop showing you the warning and it is",
+      "why_it_matters": "Clarifies that exceeding limits causes runtime errors at publish time, not compile time",
+      "check": "exact"
+    },
+    {
+      "t": 1897.2,
+      "text": "Microsoft document says 500 fields per table. Uh 500 fields in a table and it also says that 8060 byte for maximum record size",
+      "why_it_matters": "States official Microsoft documentation limits for table design constraints",
+      "check": "exact"
+    },
+    {
+      "t": 1963.8,
+      "text": "The limit is 293. After 293, you start getting warning. The limit is 500.",
+      "why_it_matters": "Provides clear summary of the two critical field count thresholds",
+      "check": "exact"
+    },
+    {
+      "t": 1974.7,
+      "text": "the base table remember and the extension table are now stored in the same table in SQL server and be very cautious while you're",
+      "why_it_matters": "Warns about storage consolidation impact on field limit calculations for extensions",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 13.4,
+      "kind": "other",
+      "text": "Business Central 29 changed how table extension fields are stored which we have discussed in an earlier video"
+    },
+    {
+      "t": 1466.1,
+      "kind": "subject-to-change",
+      "text": "starting version 29, you'll have to keep that in mind of thinking about the data type that you're choosing"
+    },
+    {
+      "t": 1849.9,
+      "kind": "other",
+      "text": "early warning necessary means that you should rethink about the fields that you are adding"
+    },
+    {
+      "t": 1933.2,
+      "kind": "other",
+      "text": "I still need to understand uh what happens and at what point it kind of allows me to publish that extension"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024404000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024702
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018963
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026787
+    }
+  ]
+}

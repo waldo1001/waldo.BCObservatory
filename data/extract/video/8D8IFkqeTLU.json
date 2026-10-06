@@ -1,0 +1,209 @@
+{
+  "video_id": "8D8IFkqeTLU",
+  "item_id": "video/yt-hougaard/8D8IFkqeTLU",
+  "title": "Use FlowFields directly inside your Spreadsheet inside Business Central  (Advanced Spreadsheets)",
+  "duration_s": 346,
+  "systems": [
+    "reporting",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "flowfields",
+    "advanced spreadsheets",
+    "date ranges",
+    "filters",
+    "slicers",
+    "cell references",
+    "item sales",
+    "spreadsheet regions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to FlowFields in Spreadsheets",
+      "t_start": 0,
+      "t_end": 21.8
+    },
+    {
+      "title": "Creating a FlowField Region for Item Sales",
+      "t_start": 21.8,
+      "t_end": 73.2
+    },
+    {
+      "title": "Adding Date Ranges to Filter Data",
+      "t_start": 73.2,
+      "t_end": 145.2
+    },
+    {
+      "title": "Connecting Date Filters with Cell References",
+      "t_start": 145.2,
+      "t_end": 202.2
+    },
+    {
+      "title": "Spreadsheet Behavior with Relative References",
+      "t_start": 202.2,
+      "t_end": 275.4
+    },
+    {
+      "title": "Using Slicers to Filter FlowField Results",
+      "t_start": 275.4,
+      "t_end": 309.3
+    },
+    {
+      "title": "Benefits and Conclusion",
+      "t_start": 309.3,
+      "t_end": 346
+    }
+  ],
+  "features": [
+    {
+      "name": "FlowFields in Spreadsheets",
+      "description": "Ability to use flow fields directly inside spreadsheets with the advanced spreadsheet and reporting app. Users can pull flow fields from anywhere in the Business Central system and reference them in spreadsheet regions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11,
+      "t_end": 55.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flowfields",
+        "spreadsheet",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Date Range Regions",
+      "description": "Ability to create date range regions in spreadsheets that automatically calculate date ranges based on formulas like the current year or intervals. Users can specify start dates, intervals, and the number of periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.6,
+      "t_end": 145.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date-ranges",
+        "spreadsheet-regions",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Cell References in Filters",
+      "description": "Ability to insert cell references directly into filter formulas within spreadsheet regions. References use square brackets notation and behave like normal spreadsheet references with relative addressing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.2,
+      "t_end": 215,
+      "is_demoed": true,
+      "caveats": [
+        "relative references update as they move down rows"
+      ],
+      "tags": [
+        "cell-references",
+        "filters",
+        "spreadsheet-regions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Slicers in Spreadsheets",
+      "description": "Ability to create slicers in spreadsheets that act as selectors for filtering data. Slicers are defined with a question mark prefix and can filter by date, dimension, field list, or range, allowing users to dynamically filter flowfield calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238,
+      "t_end": 309.3,
+      "is_demoed": true,
+      "caveats": [
+        "slicers must be connected to flowfield regions using absolute references"
+      ],
+      "tags": [
+        "slicers",
+        "selectors",
+        "filters",
+        "spreadsheet"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "item",
+      "t": 45
+    },
+    {
+      "type": "table",
+      "name": "item table",
+      "t": 249.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 11,
+      "text": "in this video I'm going to show you how you can actually take a specific flow field from anywhere in the system and use",
+      "why_it_matters": "Establishes the core capability of pulling flowfields from anywhere in Business Central into spreadsheet regions.",
+      "check": "exact"
+    },
+    {
+      "t": 73.2,
+      "text": "now you see I have 12 um flow fields here. They're all calculating the same and basically they're just calculating how many items I",
+      "why_it_matters": "Demonstrates that flowfields calculate aggregate business data without querying millions of records directly.",
+      "check": "exact"
+    },
+    {
+      "t": 108.4,
+      "text": "You specify a start date or formula. Uh and then an interval and how many. So, in this case it says minus CY means",
+      "why_it_matters": "Shows the formula syntax for date ranges using relative date references like current year minus offset.",
+      "check": "exact"
+    },
+    {
+      "t": 191.8,
+      "text": "whenever you're working with references in in regions, it's always from from the first one. So, I'll I'll select that. So, we have now",
+      "why_it_matters": "Explains how cell references in regions use square bracket notation and relative addressing behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 202.2,
+      "text": "it will take the D5 cell. Um but because this is just D5, it will actually, if we go back, now we can see",
+      "why_it_matters": "Illustrates that relative references in spreadsheet regions behave like normal spreadsheet formulas, updating as they move down.",
+      "check": "exact"
+    },
+    {
+      "t": 319.5,
+      "text": "you can you can get any number out of Business Central this way of the big calculated numbers without necessarily querying the the you",
+      "why_it_matters": "Highlights the key benefit of using flowfields: efficient calculation of aggregate numbers without full record queries.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018267
+    }
+  ]
+}

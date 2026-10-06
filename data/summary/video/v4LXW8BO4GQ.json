@@ -1,0 +1,27 @@
+{
+  "video_id": "v4LXW8BO4GQ",
+  "item_id": "video/yt-hougaard/v4LXW8BO4GQ",
+  "summary": "Opening a Business Central financial report as a spreadsheet with \"open as a spreadsheet\" from Home, using the Advanced Spreadsheets app. It covers slicers, live recalculation, editing, combining reports and distributing spreadsheets that recalculate when opened.",
+  "overview": "Erik Hougaard shows how to open a financial report in Business Central as a spreadsheet instead of exporting a static copy. The spreadsheet has a title and slicers such as period, department and customer group, and the report is calculated live inside it.\nHe explains that values can be edited and calculated on like in any spreadsheet, and that recalculation happens whenever an action forces it. Several reports can be combined with other data using the advanced spreadsheet app, with formatting. Spreadsheets can be given to other users and calculate with live data when opened. Date slicers update as time passes. The facts mention preview mode.",
+  "key_points": [
+    "From Home, choose \"open as a spreadsheet\" to open a financial report as a spreadsheet.",
+    "The spreadsheet comes with slicers, for example period, department and customer group.",
+    "The report runs as live calculations and recalculates when filters change or an action forces a recalculation, so it is not a static snapshot.",
+    "You can edit values and calculate in the spreadsheet; it is still a spreadsheet on top of the live data.",
+    "Multiple financial reports can be combined with other data in the advanced spreadsheet app, with formatting options.",
+    "Distributed spreadsheets calculate with live data whenever a user opens them.",
+    "Date slicers update automatically over time, so the report stays valid for current and future periods."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "157ea73ebd87962eae95aac02cd2b030c77352aa3c3e3f7c85a8446b4ba9b05c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013066399999999999
+  }
+}

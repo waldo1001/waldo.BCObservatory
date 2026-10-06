@@ -7,16 +7,72 @@
   "url": "https://www.youtube.com/watch?v=22duXC6j_No",
   "published_at": "2026-09-28T11:00:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:38:31.473Z",
+      "captions": "auto:en-orig",
+      "duration_s": 673
+    },
+    "captioned": {
+      "at": "2026-10-06T16:38:38.124Z",
+      "path": "vault:captions/community/yt-hougaard/22duXC6j_No.vtt",
+      "vtt_sha256": "e9b6e315dc9c644157e06b2630ddfd0a9ba52fa0786b82c526b8318e504d56a4",
+      "segments": 58,
+      "words": 1449,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T16:39:26.216Z",
+      "path": "data/extract/video/22duXC6j_No.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 8,
+      "quotes": 6,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.041806
+    },
+    "summarized": {
+      "at": "2026-10-06T16:39:33.168Z",
+      "path": "data/summary/video/22duXC6j_No.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.014322399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T16:39:33.169Z",
+      "systems": [
+        "administration",
+        "development",
+        "platform"
+      ],
+      "topics": 9,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T16:39:33.194Z",
+      "path": "content/videos/22duXC6j_No.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw"
-  }
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 673,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a76ea4be823d8a8274808739160df809957ae54528aa74cf55e1fb391804e7e2"
 }

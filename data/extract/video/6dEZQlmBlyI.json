@@ -1,0 +1,212 @@
+{
+  "video_id": "6dEZQlmBlyI",
+  "item_id": "video/yt-hougaard/6dEZQlmBlyI",
+  "title": "Use Data from a Report inside your Spreadsheet with Business Central  (Advanced Spreadsheets)",
+  "duration_s": 173,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "advanced spreadsheets",
+    "report regions",
+    "query regions",
+    "live data",
+    "filtering",
+    "charting",
+    "data visualization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 18
+    },
+    {
+      "title": "Creating a Report Region in Spreadsheet",
+      "t_start": 18,
+      "t_end": 41.5
+    },
+    {
+      "title": "Selecting and Displaying Report Data",
+      "t_start": 41.5,
+      "t_end": 74.4
+    },
+    {
+      "title": "Creating a Chart from Report Data",
+      "t_start": 74.4,
+      "t_end": 126.4
+    },
+    {
+      "title": "Live Report Features and Filtering",
+      "t_start": 126.4,
+      "t_end": 163.1
+    },
+    {
+      "title": "Conclusion and Next Steps",
+      "t_start": 163.1,
+      "t_end": 173
+    }
+  ],
+  "features": [
+    {
+      "name": "Report Region in Advanced Spreadsheets",
+      "description": "Allows users to embed report data directly inside a spreadsheet. Users can select a report region, choose which report to display, set maximum rows, and include headers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18,
+      "t_end": 62.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report regions",
+        "spreadsheets",
+        "data embedding"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Query Region in Advanced Spreadsheets",
+      "description": "Similar to report regions, users can also embed data from queries inside their spreadsheet. If a query inside the system calculates something, that data can be retrieved and displayed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29.2,
+      "t_end": 40.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "query regions",
+        "spreadsheets",
+        "data embedding"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Chart Creation from Report Data",
+      "description": "Users can create charts directly from report data embedded in spreadsheets. Demonstrated with a donut chart showing top customers with data pulled from a report and categories set to customer names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.4,
+      "t_end": 116.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "charting",
+        "data visualization",
+        "donut chart"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Live Report Calculation and Refresh",
+      "description": "Reports embedded in spreadsheets are calculated and refreshed dynamically. Each time the spreadsheet is opened, the report is recalculated. Users can trigger manual recalculation with a button.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 126.4,
+      "t_end": 141,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "live data",
+        "refresh",
+        "calculation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Filtering in Spreadsheets",
+      "description": "Users can set filters on embedded reports inside spreadsheets, functioning the same as normal report filtering. Filters can reference cells in the spreadsheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 126.4,
+      "t_end": 151.8,
+      "is_demoed": false,
+      "caveats": [
+        "cell reference capability mentioned but not fully demonstrated"
+      ],
+      "tags": [
+        "filtering",
+        "cell references",
+        "dynamic filters"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "111 customer top 10",
+      "t": 51.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.7,
+      "text": "How to use data from a report inside your spreadsheet using the advanced spreadsheet and reporting app for Business Central.",
+      "why_it_matters": "Establishes the core topic - embedding report data directly into spreadsheets.",
+      "check": "exact"
+    },
+    {
+      "t": 29.2,
+      "text": "if you have a query inside your system that calculates something, you can get the data from a query inside your spreadsheet also.",
+      "why_it_matters": "Shows that both reports and queries can be embedded in spreadsheets.",
+      "check": "exact"
+    },
+    {
+      "t": 126.4,
+      "text": "Every time you open the spreadsheet, the report is calculated. If you hit the the thingy, then the report is recalculated.",
+      "why_it_matters": "Demonstrates that embedded reports update automatically on file open and can be manually refreshed.",
+      "check": "exact"
+    },
+    {
+      "t": 141,
+      "text": "you can still reference cells in filters.",
+      "why_it_matters": "Shows advanced filtering capability where spreadsheet cells can drive report filters.",
+      "check": "exact"
+    },
+    {
+      "t": 151.8,
+      "text": "a live report inside your spreadsheet.",
+      "why_it_matters": "Summarizes the key benefit - reports function as live, dynamic data sources within spreadsheets.",
+      "check": "exact"
+    },
+    {
+      "t": 163.1,
+      "text": "You can try this out yourself in a Cloud Sandbox. Uh the app is free to to use in Cloud Sandbox.",
+      "why_it_matters": "Indicates the feature is available for trial in Cloud Sandbox environments and the app is free.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013005000000000001
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "video_id": "5qWLFUqFsi0",
+  "item_id": "video/yt-hougaard/5qWLFUqFsi0",
+  "title": "Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)",
+  "duration_s": 325,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "page regions",
+    "spreadsheets",
+    "reporting app",
+    "preview mode",
+    "permissions",
+    "read-only access",
+    "slicers",
+    "print functionality",
+    "tabs"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and app overview",
+      "t_start": 0,
+      "t_end": 24.9
+    },
+    {
+      "title": "Spreadsheet demo and regions concept",
+      "t_start": 24.9,
+      "t_end": 49.6
+    },
+    {
+      "title": "Examining existing regions",
+      "t_start": 49.6,
+      "t_end": 85.2
+    },
+    {
+      "title": "Creating a new region",
+      "t_start": 85.2,
+      "t_end": 122.2
+    },
+    {
+      "title": "Preview mode and tab navigation",
+      "t_start": 122.2,
+      "t_end": 156.2
+    },
+    {
+      "title": "Print functionality and region ordering",
+      "t_start": 156.2,
+      "t_end": 193.5
+    },
+    {
+      "title": "Permissions and read-only access",
+      "t_start": 193.5,
+      "t_end": 256.3
+    },
+    {
+      "title": "Slicers and live data comparison",
+      "t_start": 256.3,
+      "t_end": 307.2
+    },
+    {
+      "title": "Call to action and sandbox availability",
+      "t_start": 307.2,
+      "t_end": 325
+    }
+  ],
+  "features": [
+    {
+      "name": "Page regions for spreadsheet presentation",
+      "description": "Ability to define multiple regions within a spreadsheet that appear as separate tabbed areas in preview mode. Regions can have background colors and are ordered by their assigned IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.9,
+      "t_end": 156.2,
+      "is_demoed": true,
+      "caveats": [
+        "Region order is based on the ID assigned to each region"
+      ],
+      "tags": [
+        "page regions",
+        "spreadsheets",
+        "tabs",
+        "presentation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Preview mode with tabbed navigation",
+      "description": "When previewing a spreadsheet, regions are displayed as tabs at the bottom, allowing users to switch between different regions. Scrolling is limited to within each region's area.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 133.7,
+      "t_end": 156.2,
+      "is_demoed": true,
+      "caveats": [
+        "Scrolling is limited to the area within each region"
+      ],
+      "tags": [
+        "preview mode",
+        "tabs",
+        "navigation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Print functionality for regions",
+      "description": "Each region in a spreadsheet becomes a separate page when printed, allowing users to print spreadsheets with multiple regions in a structured format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.5,
+      "t_end": 193.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "print",
+        "regions",
+        "page breaks"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Spreadsheet permissions and read-only access",
+      "description": "Owner can control who has access to spreadsheets by granting read-only permissions to other users. Users with read-only access can view the spreadsheet in preview mode but cannot edit it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.5,
+      "t_end": 244.4,
+      "is_demoed": true,
+      "caveats": [
+        "A spreadsheet must always have an owner",
+        "Read-only users can only see spreadsheets they have been granted access to"
+      ],
+      "tags": [
+        "permissions",
+        "read-only",
+        "access control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Slicers in preview mode",
+      "description": "Slicers in spreadsheets remain available and functional in preview mode, allowing users to interact with and filter data by selecting values like dates or counts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.3,
+      "t_end": 282.3,
+      "is_demoed": false,
+      "caveats": [
+        "Slicers cannot be edited in preview mode, only used for filtering"
+      ],
+      "tags": [
+        "slicers",
+        "filtering",
+        "interactivity"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Real-time data in spreadsheets",
+      "description": "Spreadsheets display live, real-time data directly from Business Central with no staging or syncing delays, providing instant access to current data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.3,
+      "t_end": 307.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "real-time",
+        "live data",
+        "instant"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38.9,
+      "text": "if we check the regions, we can see that I have four different regions defined",
+      "why_it_matters": "Establishes that spreadsheets can have multiple regions, a core feature for organizing data presentation",
+      "check": "exact"
+    },
+    {
+      "t": 133.7,
+      "text": "If I now go to preview, the screen changes. And the way it changes is that we have now tabs down here.",
+      "why_it_matters": "Shows how regions are presented to users in preview mode as a tabbed interface",
+      "check": "exact"
+    },
+    {
+      "t": 177,
+      "text": "every one of these areas becomes a separate page",
+      "why_it_matters": "Describes how regions are handled in print output, with each region becoming a separate page",
+      "check": "exact"
+    },
+    {
+      "t": 209.5,
+      "text": "there always has to be an owner of a spreadsheet but i also got this",
+      "why_it_matters": "States the ownership requirement and demonstrates permission granting capabilities",
+      "check": "fuzzy"
+    },
+    {
+      "t": 222.9,
+      "text": "if I change over here's an in private session. So this is now her access. So she goes to spreadsheet she only sees two",
+      "why_it_matters": "Shows how read-only users have limited visibility based on their granted permissions",
+      "check": "snapped"
+    },
+    {
+      "t": 294.8,
+      "text": "everything you see here is live. It it's instant. It it's real time. There's no delay because this is Business Central.",
+      "why_it_matters": "States a key advantage of using Business Central spreadsheets over other reporting tools like Power BI",
+      "check": "exact"
+    },
+    {
+      "t": 317.2,
+      "text": "all our apps are free to use in the cloud sandbox",
+      "why_it_matters": "Provides information about sandbox availability and pricing model for the app",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015477999999999999
+    }
+  ]
+}

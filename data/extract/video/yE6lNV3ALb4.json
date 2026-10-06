@@ -1,0 +1,212 @@
+{
+  "video_id": "yE6lNV3ALb4",
+  "item_id": "video/yt-hougaard/yE6lNV3ALb4",
+  "title": "Add a Pivot Table with Live Data in your Spreadsheet inside Business Central (Advanced Spreadsheets)",
+  "duration_s": 165,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "pivot tables",
+    "live data",
+    "advanced spreadsheets",
+    "data analysis",
+    "interactive reporting",
+    "item ledger entries",
+    "data visualization",
+    "spreadsheet automation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to pivot tables with live data",
+      "t_start": 0,
+      "t_end": 13.1
+    },
+    {
+      "title": "Creating a new pivot table region",
+      "t_start": 13.1,
+      "t_end": 37.2
+    },
+    {
+      "title": "Configuring data source and pivot table fields",
+      "t_start": 37.2,
+      "t_end": 76.4
+    },
+    {
+      "title": "Completing the pivot table and viewing results",
+      "t_start": 76.4,
+      "t_end": 102.1
+    },
+    {
+      "title": "Interacting with live data and drilldown capability",
+      "t_start": 102.1,
+      "t_end": 130.6
+    },
+    {
+      "title": "Modifying pivot table structure and data reusability",
+      "t_start": 130.6,
+      "t_end": 152.7
+    },
+    {
+      "title": "Conclusion and sandbox trial",
+      "t_start": 152.7,
+      "t_end": 165
+    }
+  ],
+  "features": [
+    {
+      "name": "Pivot tables with live data in spreadsheets",
+      "description": "Create pivot tables within spreadsheets that display live data from Business Central. The pivot tables automatically refresh when opened and can be manually refreshed, providing dynamic data visualization based on real-time information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.8,
+      "t_end": 152.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires the advanced spreadsheets and reporting app"
+      ],
+      "tags": [
+        "pivot tables",
+        "live data",
+        "spreadsheets",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Pivot table field configuration",
+      "description": "Configure pivot tables by selecting data source, defining row and column fields, and specifying aggregation values. Users can select date bucketing options (such as quarters) for date fields to organize data hierarchically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.2,
+      "t_end": 130.6,
+      "is_demoed": true,
+      "caveats": [
+        "Date bucketing options appear to depend on field type"
+      ],
+      "tags": [
+        "configuration",
+        "data fields",
+        "date bucketing",
+        "aggregation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Drilldown from pivot table to source data",
+      "description": "Click on pivot table cells to drill down and view the underlying source records from Business Central. Users can control-click to access the original item ledger entries or other source data that composed the aggregated value.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.1,
+      "t_end": 116.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "drilldown",
+        "navigation",
+        "data exploration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Spreadsheet-based pivot table data reusability",
+      "description": "Pivot table data remains as spreadsheet data that can be used as input for other spreadsheet calculations or analyses. Users can modify and manipulate the pivot table data within the spreadsheet environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.8,
+      "t_end": 141.2,
+      "is_demoed": true,
+      "caveats": [
+        "Data manipulation depends on spreadsheet formula capabilities"
+      ],
+      "tags": [
+        "data reusability",
+        "spreadsheet integration",
+        "analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "item ledger entries",
+      "t": 37.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "How to add a pivot table with live data in your spreadsheet using the advanced spreadsheets and reporting app for Business Central?",
+      "why_it_matters": "Establishes the core topic and identifies the feature as part of the advanced spreadsheets and reporting app.",
+      "check": "exact"
+    },
+    {
+      "t": 37.2,
+      "text": "With live data. Let's go for item ledger entries. And maybe let's add a filter here.",
+      "why_it_matters": "Demonstrates the data source selection and live data capability for pivot tables.",
+      "check": "exact"
+    },
+    {
+      "t": 89.2,
+      "text": "And this is live data. So if if you hit the the refresh it will be refreshed. Whenever you open it, it's refreshed.",
+      "why_it_matters": "Clarifies that pivot tables contain live data that automatically refreshes on open and manual refresh.",
+      "check": "exact"
+    },
+    {
+      "t": 102.1,
+      "text": "I control click and I get the item ledger entries. That'd be the thousand to take we worked on.",
+      "why_it_matters": "Shows the drilldown capability to view underlying source records from the pivot table.",
+      "check": "exact"
+    },
+    {
+      "t": 130.6,
+      "text": "We can go in and and we can say, \"Okay, hang on. Let's change the buckets to be quarters instead.\" And now we have",
+      "why_it_matters": "Demonstrates dynamic modification of pivot table date bucketing from months to quarters.",
+      "check": "exact"
+    },
+    {
+      "t": 141.2,
+      "text": "So, you can build a pivot table. You can have that as as the the data for something else you're building because it's your",
+      "why_it_matters": "Emphasizes that pivot table data can be reused as input for further spreadsheet analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 152.7,
+      "kind": "other",
+      "text": "What you can do is click the link below and you can try this out for free in a cloud sandbox."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013322999999999998
+    }
+  ]
+}

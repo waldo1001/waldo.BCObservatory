@@ -7,16 +7,72 @@
   "url": "https://www.youtube.com/watch?v=8D8IFkqeTLU",
   "published_at": "2026-09-21T19:14:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:42:01.248Z",
+      "captions": "auto:en-orig",
+      "duration_s": 346
+    },
+    "captioned": {
+      "at": "2026-10-06T16:42:09.794Z",
+      "path": "vault:captions/community/yt-hougaard/8D8IFkqeTLU.vtt",
+      "vtt_sha256": "f69aa31bb4428f45d5a177f665121346940b72c33ab196c3e653cd2c6a050a39",
+      "segments": 30,
+      "words": 860,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T16:42:28.769Z",
+      "path": "data/extract/video/8D8IFkqeTLU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.018267
+    },
+    "summarized": {
+      "at": "2026-10-06T16:42:35.274Z",
+      "path": "data/summary/video/8D8IFkqeTLU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.012580399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T16:42:35.276Z",
+      "systems": [
+        "reporting",
+        "finance",
+        "inventory"
+      ],
+      "topics": 8,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T16:44:37.247Z",
+      "path": "content/videos/8D8IFkqeTLU.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw"
-  }
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 346,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6972a9f7bebb7c41b6146fe73eade066087dff698a6266a71b993ce083c753f5"
 }

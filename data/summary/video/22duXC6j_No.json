@@ -1,0 +1,27 @@
+{
+  "video_id": "22duXC6j_No",
+  "item_id": "video/yt-hougaard/22duXC6j_No",
+  "summary": "Business Central Admin Center app management walkthrough: the all apps view with update actions, dependency-driven \"action required\" status, scheduling and force sync options, dev apps and PTE filtering, installing and uninstalling apps, and monitoring installs on the Operations page.",
+  "overview": "Erik Hougaard shows how Admin Center is moving from a place administrators rarely visit to the main place for managing apps and updates. He walks through the environments list, the all apps view, and the update actions now available there.\n\nThe demo covers updating apps that have dependencies, scheduling updates and installs, separating dev apps and PTEs, installing a new app, and following progress on the Operations page. He says this is the expected future way to manage apps and notes the PTE name may change.",
+  "key_points": [
+    "The all apps view in Admin Center now includes the update action directly. Before, you had to select global apps to update applications. The speaker says this was added about a week before recording and may not be in all environments.",
+    "An update shows 'action required' when the app depends on other apps that must be updated first. In the demo, Toolbox could not be updated because two apps it depends on were not updated.",
+    "Updating a dependency requires acknowledging the app provider's terms of use and privacy policy specified on AppSource.",
+    "Installs can be scheduled for right now, the next update window (tonight), the next minor version, or the next major version.",
+    "Force sync as a sync mode option lets you install without accepting breaking changes, but only on data, not on structural changes.",
+    "Dev apps and PTEs can be filtered and managed separately. Apps can be installed and uninstalled from Admin Center without going to extension management.",
+    "The Operations page shows installation progress. A typical PTE install took about 1 minute 20 seconds in the demo."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "3d4e4523a2c70b8246a6ee224948ee2a015ef3974a626613a372a6a626bb73e6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014322399999999999
+  }
+}

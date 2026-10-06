@@ -1,0 +1,292 @@
+{
+  "video_id": "22duXC6j_No",
+  "item_id": "video/yt-hougaard/22duXC6j_No",
+  "title": "Manage all your Apps And Updates in Admin Center for Business Central",
+  "duration_s": 673,
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "admin center",
+    "app management",
+    "extensions",
+    "pte",
+    "dependencies",
+    "updates",
+    "app installation",
+    "operations monitoring",
+    "sync mode"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Admin Center transition",
+      "t_start": 0,
+      "t_end": 31.4
+    },
+    {
+      "title": "Accessing Admin Center and viewing environments",
+      "t_start": 31.4,
+      "t_end": 77.4
+    },
+    {
+      "title": "All apps view and update availability",
+      "t_start": 77.4,
+      "t_end": 165.5
+    },
+    {
+      "title": "Action required vs install update status",
+      "t_start": 165.5,
+      "t_end": 265
+    },
+    {
+      "title": "Dependency management and update scheduling",
+      "t_start": 265,
+      "t_end": 334.9
+    },
+    {
+      "title": "Dev apps and PTEs management",
+      "t_start": 334.9,
+      "t_end": 389.7
+    },
+    {
+      "title": "Installing new apps from Admin Center",
+      "t_start": 389.7,
+      "t_end": 471.4
+    },
+    {
+      "title": "Monitoring installation progress in Operations",
+      "t_start": 471.4,
+      "t_end": 607.5
+    },
+    {
+      "title": "Future of app management in Admin Center",
+      "t_start": 607.5,
+      "t_end": 673
+    }
+  ],
+  "features": [
+    {
+      "name": "All apps view with update actions",
+      "description": "The all apps view in Admin Center now includes the update action directly, previously requiring selection of global apps to update applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99,
+      "t_end": 126.7,
+      "is_demoed": true,
+      "caveats": [
+        "View includes both publishable and non-publishable apps",
+        "Sorting may be by app ID"
+      ],
+      "tags": [
+        "app management",
+        "updates",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Action required status for dependent apps",
+      "description": "Updates show action required status when an app has dependencies on other apps that need updating first, indicating a dependency chain that must be resolved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.5,
+      "t_end": 240.8,
+      "is_demoed": true,
+      "caveats": [
+        "User must acknowledge app provider's terms and privacy policy before updating dependencies"
+      ],
+      "tags": [
+        "dependencies",
+        "app updates",
+        "action required"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Installation scheduling options",
+      "description": "Users can schedule app installations with multiple timing options: right now, next update window (tonight), next minor, or next major version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 400,
+      "t_end": 423.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "app installation",
+        "scheduling",
+        "updates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Force sync option for app installation",
+      "description": "A sync mode option that allows installing apps without accepting breaking changes, only on data level, not on structural changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.3,
+      "t_end": 447.2,
+      "is_demoed": true,
+      "caveats": [
+        "Force sync is only on data, not structural changes"
+      ],
+      "tags": [
+        "sync",
+        "app installation",
+        "breaking changes"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dev apps and PTE filtering",
+      "description": "Ability to filter and separately view dev apps and PTEs (PermissionSet Enabled Extensions) in Admin Center, with options to manage each type independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 334.9,
+      "t_end": 375.2,
+      "is_demoed": true,
+      "caveats": [
+        "PTE naming may change in future"
+      ],
+      "tags": [
+        "pte",
+        "dev apps",
+        "filtering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "App installation from Admin Center",
+      "description": "Users can install new apps directly from Admin Center without going to extension management, choosing installation timing and sync mode options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.7,
+      "t_end": 423.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "app installation",
+        "admin center",
+        "extension management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Operations page for installation monitoring",
+      "description": "The Operations page displays real-time progress of app installations, showing status and allowing users to monitor what is happening during the installation process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.4,
+      "t_end": 540.4,
+      "is_demoed": true,
+      "caveats": [
+        "Installation times vary; typical PTE installation takes around 1 minute 20 seconds"
+      ],
+      "tags": [
+        "operations",
+        "monitoring",
+        "installation progress"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Uninstall apps from Admin Center",
+      "description": "Users can uninstall both PTE and regular apps directly from the Admin Center interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 375.2,
+      "t_end": 389.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "app management",
+        "uninstall"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "admin center is going through a transition uh from becoming something that you rarely visit",
+      "why_it_matters": "Sets the strategic direction - Admin Center is evolving from a rarely-used setup tool to the primary app management interface",
+      "check": "fuzzy"
+    },
+    {
+      "t": 111.4,
+      "text": "until like a week ago this one did not include the update action here. So, you before that and maybe not all environments then",
+      "why_it_matters": "Indicates recent usability improvements to app update workflow in Admin Center",
+      "check": "exact"
+    },
+    {
+      "t": 216.8,
+      "text": "We cannot update toolbox because toolbox has a dependency to two other apps that are not updated either",
+      "why_it_matters": "Demonstrates how Admin Center handles dependency management and prevents incomplete updates",
+      "check": "exact"
+    },
+    {
+      "t": 240.8,
+      "text": "I can click update to the latest and I acknowledge the app provider's terms of use and privacy policy specified on AppSource aka Microsoft",
+      "why_it_matters": "Shows the legal acknowledgment required when updating apps with dependencies in Admin Center",
+      "check": "exact"
+    },
+    {
+      "t": 505.7,
+      "text": "A typical PT takes around a minute and 20 seconds to be installed",
+      "why_it_matters": "Provides baseline performance expectations for PTE installation times",
+      "check": "exact"
+    },
+    {
+      "t": 633.8,
+      "text": "expect this to be your future way of managing apps with with Business Central admin center. So, you you get get used to being",
+      "why_it_matters": "Confirms that Admin Center app management is the strategic future direction for Business Central administration",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 347.7,
+      "kind": "subject-to-change",
+      "text": "At some point we need to get a new name for this"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0418061
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "video_id": "v4LXW8BO4GQ",
+  "item_id": "video/yt-hougaard/v4LXW8BO4GQ",
+  "title": "Work with your Financial Reports in a Spreadsheet inside Business Central (Advanced Spreadsheets)",
+  "duration_s": 201,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reports",
+    "spreadsheet export",
+    "advanced spreadsheets",
+    "live data",
+    "slicers",
+    "dimensions",
+    "report regions",
+    "excel integration"
+  ],
+  "chapters": [
+    {
+      "title": "Opening Financial Reports in Spreadsheet View",
+      "t_start": 0,
+      "t_end": 35.7
+    },
+    {
+      "title": "Understanding Spreadsheet Structure and Components",
+      "t_start": 35.7,
+      "t_end": 85.4
+    },
+    {
+      "title": "Live Report Calculations and Spreadsheet Functionality",
+      "t_start": 85.4,
+      "t_end": 124.5
+    },
+    {
+      "title": "Formatting and Combining Multiple Reports",
+      "t_start": 124.5,
+      "t_end": 156.3
+    },
+    {
+      "title": "Live Data Updates and Distribution Options",
+      "t_start": 156.3,
+      "t_end": 201
+    }
+  ],
+  "features": [
+    {
+      "name": "Open Financial Reports as Spreadsheet",
+      "description": "Users can open financial reports from Business Central and export them as spreadsheets using the open as a spreadsheet function, making the data more accessible and easier to work with.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.6,
+      "t_end": 48.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "financial reports",
+        "spreadsheet",
+        "export"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Spreadsheet Slicers for Filtering",
+      "description": "Financial report spreadsheets include slicers for dimensions like period, department, customer group, and region, allowing users to filter data directly within the spreadsheet interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.8,
+      "t_end": 85.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "slicers",
+        "filtering",
+        "dimensions",
+        "global dimensions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Live Report Calculations in Spreadsheet",
+      "description": "Financial reports run as live calculations within the spreadsheet, recalculating automatically when filters are applied or changes are made, providing real-time data rather than a static point-in-time snapshot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.4,
+      "t_end": 112,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "live data",
+        "recalculation",
+        "real-time"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Spreadsheet Editing and Calculation Capabilities",
+      "description": "Users can edit values within the spreadsheet and perform calculations directly, treating the financial report as a standard spreadsheet while maintaining its underlying live data connection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112,
+      "t_end": 124.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "editing",
+        "calculations",
+        "spreadsheet functionality"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Combining Multiple Financial Reports",
+      "description": "Users can combine multiple financial reports with other data using the advanced spreadsheet app to create custom presentations for users, with formatting options available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.5,
+      "t_end": 156.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "multiple reports",
+        "formatting",
+        "custom presentations"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Live Data Distribution to Users",
+      "description": "Financial report spreadsheets can be distributed to different users and will recalculate with live data whenever opened, ensuring users always see current data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.3,
+      "t_end": 170,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "distribution",
+        "live data",
+        "sharing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Automatic Date-Based Slicer Updates",
+      "description": "Date slicers in financial report spreadsheets automatically update as time progresses, ensuring reports remain valid for current and future periods without manual updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 170,
+      "t_end": 184.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date slicer",
+        "temporal updates",
+        "automation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 35.7,
+      "text": "So, what we can do instead is that we go to home and say open as a spreadsheet.",
+      "why_it_matters": "Establishes the core feature of converting financial reports to spreadsheets through a simple menu action.",
+      "check": "exact"
+    },
+    {
+      "t": 60.8,
+      "text": "we received a a spreadsheet with the title and there are some slicers, so there's a period slicer, department and a customer group.",
+      "why_it_matters": "Describes the key components that enable filtering and analysis within the exported spreadsheet.",
+      "check": "exact"
+    },
+    {
+      "t": 85.4,
+      "text": "every time you hit this thing or you do something that will otherwise force a recalculation it will get recalculated",
+      "why_it_matters": "Clarifies that the feature provides live, current data rather than static snapshots, which is critical for financial decision-making.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 124.5,
+      "text": "It's still just a spreadsheet on top of that.",
+      "why_it_matters": "Emphasizes that despite being connected to live data, users retain full spreadsheet editing and calculation capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 156.3,
+      "text": "whenever somebody opens this they they will get this calculated",
+      "why_it_matters": "Confirms that distributed spreadsheets automatically recalculate with live data for each user, ensuring data accuracy.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 136.2,
+      "kind": "preview",
+      "text": "in the in preview mode"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015246000000000001
+    }
+  ]
+}

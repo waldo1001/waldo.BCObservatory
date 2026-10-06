@@ -1,0 +1,27 @@
+{
+  "video_id": "8D8IFkqeTLU",
+  "item_id": "video/yt-hougaard/8D8IFkqeTLU",
+  "summary": "Using FlowFields directly in Business Central Advanced Spreadsheets: building a FlowField region for item sales, adding date range regions, referencing cells in filters, and connecting slicers. Demonstrated with item sales calculated per period.",
+  "overview": "Erik Hougaard shows how to take a specific FlowField from anywhere in Business Central and use it inside a spreadsheet with the advanced spreadsheet and reporting app. The demo builds a FlowField region on the item table for item sales, then adds a date range region so the same calculation runs across 12 periods.\n\nHe then connects the date filters to spreadsheet cells with cell references, explains how relative references behave as they move down rows, and adds slicers to filter the FlowField results interactively. The approach lets you get large calculated numbers out of Business Central without querying them in the usual way.",
+  "key_points": [
+    "A FlowField from any table, such as the item table, can be used in a spreadsheet region in the advanced spreadsheet and reporting app.",
+    "Date range regions take a start date or formula, an interval and a count. A formula based on the current year can generate the periods.",
+    "In the demo, 12 FlowFields calculate the same item sales figure, each over a different date range.",
+    "Cell references go into filter formulas in square brackets and behave like normal spreadsheet references, so relative references update as they move down rows.",
+    "When referencing cells inside regions, the reference is always from the first row of the region.",
+    "Slicers are defined with a question mark prefix and can filter by date, dimension, field list or range.",
+    "A slicer must be connected to the FlowField region using absolute references."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "developer"
+  ],
+  "extraction_hash": "b56119d408956b0dc313e77cf613e496c07ef168a65735b03fcbbc5e51a32043",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012580399999999999
+  }
+}
