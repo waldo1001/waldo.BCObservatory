@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-312.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-312",
+  "title": "Purchase statistics (report)",
+  "blob": "b23a1390d2df169a685af4e3d1899424321c4442",
+  "summary": "Purchase statistics report provides vendor purchase history, payment discounts taken and lost, and other vendor transaction data for performance monitoring and cash flow forecasting.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vendor performance",
+    "purchase analysis",
+    "payment discounts",
+    "cash flow",
+    "accounts payable"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Purchase statistics"
+    }
+  ],
+  "features": [
+    "vendor performance monitoring",
+    "discount tracking",
+    "payment history",
+    "cash flow forecasting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

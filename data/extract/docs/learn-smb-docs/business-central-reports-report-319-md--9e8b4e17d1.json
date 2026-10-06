@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-319.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-319",
+  "title": "Payments on Hold (report)",
+  "blob": "33306a5dfd437cfa98bba39a09554cfd4a280f18",
+  "summary": "Payments on Hold report shows all vendor ledger entries with the On Hold field populated, helping procurement coordinators, accounts payable specialists, and controllers manage vendor disputes and streamline invoice processing.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor disputes",
+    "payment holds",
+    "vendor ledger entries",
+    "invoice processing",
+    "vendor performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Payments on Hold"
+    }
+  ],
+  "features": [
+    "on hold field filtering",
+    "vendor dispute management",
+    "invoice processing transparency",
+    "vendor performance evaluation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002228,
+      "pages_in_call": 8
+    }
+  ]
+}

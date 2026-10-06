@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-32.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-32",
+  "title": "VAT Registration No. Check (report)",
+  "blob": "23412c748ab304c389a7d62ef7364506a16460f9",
+  "summary": "VAT Registration No. Check report verifies validity of VAT numbers for customers and vendors by cross-referencing with EU VIES system to ensure compliance in cross-border transactions and prevent VAT reporting issues.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "vat compliance",
+    "vat validation",
+    "eu regulations",
+    "cross-border transactions",
+    "vat reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Registration No. Check"
+    }
+  ],
+  "features": [
+    "vat number verification",
+    "vies system integration",
+    "customer vat validation",
+    "vendor vat validation",
+    "compliance checking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002228,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-33.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-33",
+  "title": "Reconcile Cust. and Vend. Accs. (report)",
+  "blob": "12616465b7db7fa0e57733d8273363bbe85e8c62",
+  "summary": "Reconcile Cust. and Vend. Accs. report lists general ledger accounts for customer and vendor posting groups, comparing total net changes to identify reconciliation differences and foreign currency gains/losses.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "reconciliation",
+    "general ledger",
+    "customer accounts",
+    "vendor accounts",
+    "foreign currency"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Reconcile Cust. and Vend. Accs."
+    }
+  ],
+  "features": [
+    "posting group reconciliation",
+    "currency comparison",
+    "realized gains and losses",
+    "discrepancy identification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002228,
+      "pages_in_call": 8
+    }
+  ]
+}

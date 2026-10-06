@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-36.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-36",
+  "title": "Fiscal Year Balance (report)",
+  "blob": "de3baaac23ae5b1c491825954ad4968a8eda1a80",
+  "summary": "Fiscal Year Balance report displays opening and closing balances for each general ledger account within a selected fiscal year to support year-end close and reconciliation across periods.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "fiscal year",
+    "general ledger",
+    "account balances",
+    "reconciliation",
+    "year-end close"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fiscal Year Balance"
+    }
+  ],
+  "features": [
+    "opening and closing balances",
+    "fiscal year filtering",
+    "account type filtering",
+    "balance carry forward verification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002228,
+      "pages_in_call": 8
+    }
+  ]
+}

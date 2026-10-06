@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-329.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-329",
+  "title": "Vendor - Trial Balance (report)",
+  "blob": "590ffe6e3a1d1e545255c94a22387ce2fb874c62",
+  "summary": "Vendor - Trial Balance report shows beginning balance and net change for vendors segmented by vendor posting group to support reconciliation against general ledger payables accounts.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor balances",
+    "trial balance",
+    "posting groups",
+    "reconciliation",
+    "fiscal year"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Trial Balance"
+    }
+  ],
+  "features": [
+    "vendor posting group segmentation",
+    "beginning balance",
+    "net change calculation",
+    "year-to-date amounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002228,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-305.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-305",
+  "title": "Vendor - Summary Aging (report)",
+  "blob": "a4ca54c1d7fd04e7701d689d1697d187242dca0a",
+  "summary": "Vendor - Summary Aging is a legacy aged accounts payable report; the page recommends using Aged Accounts Payable report instead for current analysis.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "aged payables",
+    "accounts payable",
+    "vendor aging",
+    "legacy report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Summary Aging"
+    }
+  ],
+  "features": [
+    "period length selection",
+    "overdue date calculation",
+    "aged payables analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

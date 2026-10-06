@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-311.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-311",
+  "title": "Vendor - Top 10 List (report)",
+  "blob": "2f4a9481fef48c8ef953f41954603b5ea14e7256",
+  "summary": "Vendor - Top 10 List report ranks vendors by transaction volume in a selected period and benchmarks them against total purchases across all vendors.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vendor analysis",
+    "purchase volume",
+    "vendor ranking",
+    "vendor performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Top 10 List"
+    }
+  ],
+  "features": [
+    "top vendor ranking",
+    "purchase amount sorting",
+    "balance overview",
+    "transaction volume analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

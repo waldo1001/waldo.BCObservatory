@@ -1,0 +1,28 @@
+{
+  "video_id": "8037fdtrU1o",
+  "item_id": "video/yt-microsoft/8037fdtrU1o",
+  "summary": "Contoso Demo Tool redesign in 2025 release wave 1: demo data moves from monolithic Rapid Start packages to modular, code-based codeunits with layers, translation files and dynamic historical data. Code is in a GitHub app extensions repository, and the video says it is already available as part of 25.3.",
+  "overview": "The video explains why the old Contoso demo data approach was replaced. Packages were all-or-nothing, so a demo of a small feature needed everything, and a demo in another country or language needed a copy of the package.\n\nThe new tool splits demo data into independent modules that follow Business Central namespaces and can have dependencies. Data is defined in codeunits, which fits source control and versioning. Modules are layered into setup data, master data and historical transactions. Translations use translation files as applications do. Historical data can be coded to adjust to the current date. The code is in GitHub for now, with a plan to move it into BC apps and open source it fully.",
+  "key_points": [
+    "Old approach: demo data came in monolithic packages, so you brought everything or nothing, and a different country or language needed a copy of the package.",
+    "New modules follow Business Central namespaces, can be installed independently, and can declare dependencies on other modules.",
+    "Demo data is defined as code in codeunits (for example, one that creates a unit of measure), which is easier to read, maintain, extend and keep in source control.",
+    "Modules are split into layers: setup data, master data and historical transactions, each developed and expanded independently.",
+    "Translations are handled with translation files, as in applications, instead of maintaining multiple package versions.",
+    "Historical data can be coded to follow current dates, for example keeping posted documents in the same fiscal quarter whenever the demo is run.",
+    "The code is in a GitHub app extensions repository; the video says it is already available as part of 25.3 because flexible update management needed it, and that moving it into BC apps as open source is planned."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "50f8890f44c459e0fa38f089be2c1dc224f15d21a172bf4302ef2c0a19404ee9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013812399999999999
+  }
+}

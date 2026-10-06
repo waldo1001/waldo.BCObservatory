@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-31.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-31",
+  "title": "VAT Exceptions (report)",
+  "blob": "333d1f78c93c890e4f3aac648b8fd942de2b7200",
+  "summary": "VAT Exceptions report identifies posted transactions where VAT was expected but not calculated or posted, helping validate VAT setup before filing returns.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat compliance",
+    "tax reporting",
+    "posted transactions",
+    "vat validation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Exceptions"
+    }
+  ],
+  "features": [
+    "missing vat detection",
+    "vat setup validation",
+    "compliance checking",
+    "tax return preparation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

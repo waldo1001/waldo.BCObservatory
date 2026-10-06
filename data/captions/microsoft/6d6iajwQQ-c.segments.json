@@ -1,0 +1,201 @@
+{
+  "video_id": "6d6iajwQQ-c",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 26.4,
+      "text": "welcome to B Central launch event 20125 release way one I will talk in this session about new feature related to sustainability about value chain this is one of uh a few videos related to Value chain and this one is related to Value chain and scope 3 automation"
+    },
+    {
+      "t": 26.4,
+      "end": 46.5,
+      "text": "related to production okay let's see what we have related to Value chain let's remind what we had earlier so earlier uh we supported only reporting to sustainability Ledger entry so we we could report uh officially uh requirements to specific governments and authorities and we"
+    },
+    {
+      "t": 46.5,
+      "end": 66.8,
+      "text": "could use as a source sustainability journal and from this wave general journal and also purchase invoice or credit memo as well so this is what we uh used earlier but now with New Wave we enable Absol Ely new functionality related to Value chain so what we have there we have sustainability value entries this is"
+    },
+    {
+      "t": 66.8,
+      "end": 87,
+      "text": "very similar as we have costing method earlier for items so now we have similar functionality with value entries but this is sustainability value entry so what is happening when you post document from purchase purchase document only item in this moment not item charge system will collect all this information about items"
+    },
+    {
+      "t": 87,
+      "end": 107.1,
+      "text": "and we will have sustainability value entry and then what whatever we are handling with these items with the new items with the transfer orders with assembly order production order and so on so on we will increase and we will change uh this sustainability value uh related to these items and on the end idea is to have everything proper in your sales invoices"
+    },
+    {
+      "t": 107.1,
+      "end": 127.5,
+      "text": "in this wave we do not have print out for that but you can find information about final um gas emissions related to items you want to sell so I will be focused in this uh video to production order or production features so what we have there first we need to start with two default"
+    },
+    {
+      "t": 127.5,
+      "end": 147.8,
+      "text": "values what we have in a no purchase we have items and we have work machine centers in the center so when we start with items we create uh some uh emissions carbon equivalent there and when we create production B materials system will use all these items emissions and move to production Billow materials"
+    },
+    {
+      "t": 147.8,
+      "end": 167.9,
+      "text": "and then when we create purchase or production order system will move all this information from production Bill materials to production order components and the same apply for work machine centers with routing when we create routing syst will collect emissions from work machine Center and then when we create production order system will collect all"
+    },
+    {
+      "t": 167.9,
+      "end": 188,
+      "text": "this information from routing to production order routings so this is how system is working with default values now what is important to know it works only with carbon equivalent so whatever you enter your purchase documents system will automatically in a background calculate to carbon equivalent based on your uh emissions and emission fee"
+    },
+    {
+      "t": 188,
+      "end": 208.2,
+      "text": "uh configuration and then that's it you can just proceed with your production orders and when you come to production orders you can post emissions using production Journal consumption Journal output Journal so all journals related to production can be used for posting what does it mean in consumption you will post"
+    },
+    {
+      "t": 208.2,
+      "end": 226.6,
+      "text": "your consumption your items in output you will get final um emission related to your finished good in production Journal you will get combination both of demo consumption and output so this is the same as it appli for items and work machine Center only you will get new values related to"
+    },
+    {
+      "t": 226.6,
+      "end": 247.2,
+      "text": "emissions again one more thing to uh important to remember calculation will be done only for items where replenishment system is not purchase so if this is a purchase you will get this information from your purchase invoice but if this is production order and assembly order as well system will calculate"
+    },
+    {
+      "t": 247.2,
+      "end": 267.7,
+      "text": "uh from your production and assembly uh documents what you will get on the end you will get sustainability value entry related to in this case to production documents and what is important to remember currently we support only average method so stability value entries is very similar with value entry but we are supporting"
+    },
+    {
+      "t": 267.7,
+      "end": 288,
+      "text": "in this wave only average method uh in this moment we will wait your feedback to see what you need so maybe we will extend in future but for now we didn't plan okay how you can start first what do you need to know you need to start with sustainability setup so if you want to see default values on item"
+    },
+    {
+      "t": 288,
+      "end": 308,
+      "text": "Emissions on uh uh work machine centers you need to enable these fields item emissions work machine center emissions but this is only to see uh default values on these cards but if you want to use them in production uh process you need to enable this enable value chain tracking and once when you"
+    },
+    {
+      "t": 308,
+      "end": 328.3,
+      "text": "enable this value chain tracking you will get this warning message because this uh value chain completely functionality is in public preview in this moment as I mentioned for example we do not have it charge so some of features are still missing so our suggestion will be first tested in a send box before you start with production and what is important"
+    },
+    {
+      "t": 328.3,
+      "end": 348.3,
+      "text": "because all documents are related only to sustainability value entry except one first document related with purchase uh docu purchase invoice is related to both of uh sustainability Ledger entry and sustainability value entry so if you didn't enable um this field system will post only sustainability Ledger entry"
+    },
+    {
+      "t": 348.3,
+      "end": 359.9,
+      "text": "so if you want to have posted in value entry as well you must enable value uh chain tracking here and now let's look first one of item cards"
+    },
+    {
+      "t": 359.9,
+      "end": 379.9,
+      "text": "on this item card you already have stock uh you didn't start using a value sustainability value chain because you couldn't use it we didn't have it earlier and now you until you get new invoice you need to handle with these documents so when you look all information are empty so you do not have"
+    },
+    {
+      "t": 379.9,
+      "end": 400,
+      "text": "emission for carbon for methan so all emissions are empty what you can do uh instead of uh waiting first purchase the voice you can enter manual information there so you can get all these default values on your production Bill materials but what you need to do if you are enter manual information you need to run calculate uh carbon"
+    },
+    {
+      "t": 400,
+      "end": 420.1,
+      "text": "equivalent so when you run it system will calculate carbon equivalent per unit based on your emission and emission fees so this is only if you want to start working without getting first purchase invoice but when you start to work in general you will work only you will start all the time with the purchase documents so let's make a look one"
+    },
+    {
+      "t": 420.1,
+      "end": 440.2,
+      "text": "already posted purchase invoice so you will have sustainability account you will have emissions all related so everything is here so if you look in the find entries you will find both sustainability Ledger entry and sustainability value entry so if you open sustainability value entry you will get information related"
+    },
+    {
+      "t": 440.2,
+      "end": 460.6,
+      "text": "to these four items in a purchase process so all of them they got some carbon equivalent per unit so far so good we have something we can start with then let's move to production Billow material as I said if you enable this functionality it will be visible here in in production B material if you didn't enable"
+    },
+    {
+      "t": 460.6,
+      "end": 481,
+      "text": "it will be busy as usual you we will not change anything in your user experience so only if you want to use value chain it will show this new field car equivalent per unit so if you have enabled yes you will get this information and I want to remind you as you are creating for the first time system cannot update automatically so you need to"
+    },
+    {
+      "t": 481,
+      "end": 501.3,
+      "text": "um run uh you need to change the status and to run calculate CO2 e this is first time when you enabling after that system will work automatically so you have information here and that's it the same applies for routing if you open routing you will find a same New Field carbon equivalent"
+    },
+    {
+      "t": 501.3,
+      "end": 521.4,
+      "text": "per unit again from your work centers so let's make a look because I already show how it's look like in items let's make a look what we have from work centers if you open one of work centers you will find sustainability fast tab in this sustainability fast tab you can find default sustainability account and again three different"
+    },
+    {
+      "t": 521.4,
+      "end": 541.4,
+      "text": "emissions so you will see there are different emissions so you can enter all of them and again you can run calculate co2e to get calculated equivalent for future usage you can run this uh calculate only for one uh work or work and machine Center this is the same applies for both"
+    },
+    {
+      "t": 541.4,
+      "end": 561.7,
+      "text": "of them or you can run from the list for all of them without any filter already predefined so that's it and now let's switch to release production order when you open release production order by default you will gets their total carbon equivalent empty because completely line is empty we didn't refresh"
+    },
+    {
+      "t": 561.7,
+      "end": 581.9,
+      "text": "but when we run refresh production order then we will get already calculated carbon equivalent so for this line we have completely calculation everything the same as you're running uh regular refresh production order for regular manufacturing so only what is difference you will get these two new Fields you will get sustainability account number"
+    },
+    {
+      "t": 581.9,
+      "end": 602,
+      "text": "and you will get total carbon equivalent information for this item this is based on information we have in a uh production build materials and routing so you can change during posting so now I will not show you all consumption output in production Jour so I will show you only how it look like in production Journal because this is the same applies to all"
+    },
+    {
+      "t": 602,
+      "end": 622,
+      "text": "of them and um I will not explain production process I will show you only what you have new here and new is sustainability account number syst will copy so you do not need to change anything you can change if you want but there is not any necessity to change because everything is um related to default values on your items and"
+    },
+    {
+      "t": 622,
+      "end": 642.2,
+      "text": "work machine centers then you will find uh carbon equivalent per unit already calculated and total carbon carbon equivalent so that's it when you post system will post and you will get final total carbon equivalent in your production order you can uh change the status to finish and"
+    },
+    {
+      "t": 642.2,
+      "end": 662.2,
+      "text": "now you can find new sustainability value entries from your production order and when you open you will see everything what is related to Output to consumption order all these details what do I want to emphasize you will get one new column in capacity Ledger entry where you will get only sustainability account because all other"
+    },
+    {
+      "t": 662.2,
+      "end": 682.5,
+      "text": "informations are here is sustainability value entries so only this one link to sustainability value entry with the uh sustainability account will exist in a capacity Ledger entry so if we move uh now to our uh finished good uh what we wanted to create with this production order you will find that we have"
+    },
+    {
+      "t": 682.5,
+      "end": 702.5,
+      "text": "now disabled all these values because if you remember from the beginning of session I mentioned you can enter manually only if replenishment policy is a purchase so in this case this is production order so you cannot enter manually and we have already calculated carpo equivalent per unit based on all this calculation in production"
+    },
+    {
+      "t": 702.5,
+      "end": 724,
+      "text": "order so this is everything about using um value chain and scope three automation related to production order please watch another videos related to sustainability especially other ones related to uh value chain is this is important to understand completely functionality how it's working thank you for watching this video"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.349,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.359,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1990
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-307.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-307",
+  "title": "Vendor - Order Summary (report)",
+  "blob": "cb98c77672a84e82458f79a9b17598e7a223de9e",
+  "summary": "Vendor - Order Summary report shows purchase order details and quantities not yet received for each vendor across three 30-day periods, supporting purchasing and warehouse planning.",
+  "systems": [
+    "purchasing",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "purchase orders",
+    "vendor management",
+    "procurement",
+    "warehouse planning",
+    "cost forecasting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Order Summary"
+    }
+  ],
+  "features": [
+    "purchase order details",
+    "outstanding quantity tracking",
+    "30-day period analysis",
+    "delivery date forecast"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

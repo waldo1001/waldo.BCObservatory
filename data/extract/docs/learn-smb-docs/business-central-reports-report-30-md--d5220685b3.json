@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-30.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-30",
+  "title": "Check Value Posting (report)",
+  "blob": "a01539ca64c4d7272020e983230d42e9738125a0",
+  "summary": "Dimension Check Value Posting report verifies that value entries such as inventory and cost postings are correctly recorded to the general ledger, supporting financial accuracy and system integrity.",
+  "systems": [
+    "finance",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "posting verification",
+    "general ledger",
+    "inventory",
+    "cost accounting",
+    "implementation",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Dimension Check Value Posting"
+    }
+  ],
+  "features": [
+    "value entry verification",
+    "general ledger posting validation",
+    "audit support",
+    "implementation quality checks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}

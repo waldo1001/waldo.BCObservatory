@@ -1,0 +1,233 @@
+{
+  "video_id": "6B6F38AswE8",
+  "item_id": "video/yt-microsoft/6B6F38AswE8",
+  "title": "What's Next: AL-Go for GitHub (2025 release wave 1)",
+  "duration_s": 438,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "github",
+    "security",
+    "indirect templates",
+    "nuget",
+    "testing",
+    "bc container helper",
+    "devops",
+    "cicd"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Security Overview",
+      "t_start": 0,
+      "t_end": 86.5
+    },
+    {
+      "title": "Security Investments and AL-Go Benefits",
+      "t_start": 86.5,
+      "t_end": 124.8
+    },
+    {
+      "title": "Indirect Templates and Customizations",
+      "t_start": 124.8,
+      "t_end": 225.4
+    },
+    {
+      "title": "NuGet Support and Package Publishing",
+      "t_start": 225.4,
+      "t_end": 266.1
+    },
+    {
+      "title": "Testing on Online Environments",
+      "t_start": 266.1,
+      "t_end": 322.8
+    },
+    {
+      "title": "Moving Away from BC Container Helper",
+      "t_start": 322.8,
+      "t_end": 438
+    }
+  ],
+  "features": [
+    {
+      "name": "Indirect Templates and Customizations",
+      "description": "Allows partners to create indirect or private templates for repositories to enable customer-specific customizations without modifying final repositories. The feature will merge custom jobs and custom steps into templates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.8,
+      "t_end": 225.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still finalizing settings handling",
+        "Currently in PR stage being tested by partners"
+      ],
+      "tags": [
+        "templates",
+        "customization",
+        "private-templates"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NuGet Support - Generate and Publish Runtime Packages",
+      "description": "Enable efficient generation and publishing of runtime packages as NuGet, addressing a frequently heard partner request for an efficient way to share apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246,
+      "t_end": 266.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires more testing and adoption across partners"
+      ],
+      "tags": [
+        "nuget",
+        "packages",
+        "publishing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Running Tests on Online Environments",
+      "description": "Ability to run tests and page scripting tests on online environments when publishing to sandbox or QA environments, integrated as part of the publishing effort.",
+      "status": "ga",
+      "status_evidence_t": 282.6,
+      "status_evidence_quote": "in this release we have released a functionality that can publish test and test apps and stuff like that to online environments",
+      "status_evidence_verified": true,
+      "t_start": 266.1,
+      "t_end": 322.8,
+      "is_demoed": false,
+      "caveats": [
+        "Page scripting tests as part of publishing, not core CI/CD pipeline"
+      ],
+      "tags": [
+        "testing",
+        "online-environments",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Move Away from BC Container Helper",
+      "description": "AL-Go for GitHub will transition away from using BC Container Helper and move DevOps-relevant features into PowerShell modules or GitHub actions. The process is expected to take two to three years.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.8,
+      "t_end": 420.3,
+      "is_demoed": false,
+      "caveats": [
+        "Long migration timeline of 2-3 years",
+        "Partners managing own DevOps will need to migrate",
+        "BC Container Helper will remain in PowerShell gallery during transition"
+      ],
+      "tags": [
+        "container-helper",
+        "devops",
+        "migration",
+        "modules"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Security Recommendations Implementation",
+      "description": "AL-Go for GitHub will benefit from Microsoft's security investments and provide a secure and reliable platform. Monthly security updates from Microsoft teams are implemented in DevOps pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.5,
+      "t_end": 124.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "compliance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.9,
+      "text": "we definitely need to listen to partner feedback we definitely need to follow new security recommendations so some of these things are musthaves",
+      "why_it_matters": "Establishes that security and partner feedback are core priorities driving development decisions.",
+      "check": "exact"
+    },
+    {
+      "t": 225.4,
+      "text": "I expect this one to to make it in in probably April or May I said no dates oh I just gave a date",
+      "why_it_matters": "Shows uncertainty about timeline for indirect templates feature and indicates speaker recognizes tension between no-dates disclaimer and actual scheduling.",
+      "check": "exact"
+    },
+    {
+      "t": 246,
+      "text": "generate and publish runtime packages as new get uh that part is something that I very frequently hear from Partners they miss",
+      "why_it_matters": "Confirms NuGet package publishing is a high-demand partner request that will be addressed.",
+      "check": "exact"
+    },
+    {
+      "t": 282.6,
+      "text": "in this release we have released a functionality that can publish test and test apps and stuff like that to online environments",
+      "why_it_matters": "Confirms that testing on online environments is already released in current version.",
+      "check": "exact"
+    },
+    {
+      "t": 383.1,
+      "text": "there's a long way probably two three years before we we're going to get through with all of these things",
+      "why_it_matters": "Establishes the extended timeline for BC Container Helper migration away from AL-Go.",
+      "check": "exact"
+    },
+    {
+      "t": 400.3,
+      "text": "Partners move to a managed devop solution if they have if if partners are running right now A devop solution that they're managing themselves",
+      "why_it_matters": "Strong recommendation for partners to migrate from self-managed DevOps solutions to managed platforms.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 26.5,
+      "kind": "other",
+      "text": "no promises no dates"
+    },
+    {
+      "t": 225.4,
+      "kind": "coming-later",
+      "text": "I expect this one to to make it in in probably April or May"
+    },
+    {
+      "t": 383.1,
+      "kind": "coming-later",
+      "text": "there's a long way probably two three years before we we're going to get through with all of these things"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0319218
+    }
+  ]
+}

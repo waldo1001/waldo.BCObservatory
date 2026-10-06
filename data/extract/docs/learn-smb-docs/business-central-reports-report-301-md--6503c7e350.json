@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-301.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-301",
+  "title": "Vendor - List (report)",
+  "blob": "903d5cf52e9dbd931b1f6a4aef84b483b8c2d78f",
+  "summary": "Vendor - List report displays vendor master data including posting groups, payment terms, discounts, priority levels, default currency, and current balance.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vendor management",
+    "accounts payable",
+    "procurement",
+    "vendor performance",
+    "payment terms"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - List"
+    }
+  ],
+  "features": [
+    "vendor posting group",
+    "payment information",
+    "discount data",
+    "priority level",
+    "vendor balance",
+    "currency"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002091,
+      "pages_in_call": 8
+    }
+  ]
+}
