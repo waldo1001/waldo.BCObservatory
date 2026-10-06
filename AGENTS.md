@@ -60,6 +60,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 npm ci
 npm run validate:sources          # schema + policy check of sources.yaml
 npm run typecheck && npm test     # no network, no LLM
+npm run llm:ping                  # one uncached claude -p call: proves subscription auth + model family
 npm run ingest                    # discovery only (git, RSS, APIs), writes data/manifest
 npm run nightly -- --dry-run      # full orchestrator with LLM_CACHE_ONLY=1
 ```

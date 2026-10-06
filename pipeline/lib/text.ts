@@ -41,3 +41,16 @@ function sortKeys(v: unknown): unknown {
 export function isoNow(): string {
   return new Date().toISOString();
 }
+/** Normalize spoken or written text for containment checks (quotes vs source): lowercase, no punctuation, no [markers]. */
+export function normalizeSpeech(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[‘’ʼ`]/g, "'")
+    .replace(/\[[^\]]*\]/g, " ")
+    .replace(/[^a-z0-9' ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+export function words(s: string): string[] {
+  return normalizeSpeech(s).split(" ").filter(Boolean);
+}
