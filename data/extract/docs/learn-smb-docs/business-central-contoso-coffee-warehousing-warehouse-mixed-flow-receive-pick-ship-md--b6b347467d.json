@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship",
+  "title": "Receiving, puting-away, picking, and shipping in a mixed warehouse configuration",
+  "blob": "25eec29d744466e4caf9521a6d6c04a4ccfea05d",
+  "summary": "Walkthrough of mixed warehouse configuration with basic inbound (Order-by-Order) and advanced outbound flows using Contoso Coffee YELLOW location demo data.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "mixed warehouse",
+    "basic inbound",
+    "advanced outbound",
+    "warehouse configurations",
+    "contoso coffee"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Employees"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Picks"
+    }
+  ],
+  "features": [
+    "Inbound Flow",
+    "Outbound Flow",
+    "Over-Receipt Code",
+    "Warehouse Receipts",
+    "Warehouse Shipments",
+    "Warehouse Picks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 8
+    }
+  ]
+}

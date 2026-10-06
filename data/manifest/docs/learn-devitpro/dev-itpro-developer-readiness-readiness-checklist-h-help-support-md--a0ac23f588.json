@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-h-help-support",
   "published_at": "2025-05-06T19:28:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "705ef29ac1471fa3e6a32590b030388023d3a65a",
       "words": 345,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:41.465Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004578
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:41.479Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:41.480Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:41.481Z",
+      "page": false
     }
   },
   "input_hash": "705ef29ac1471fa3e6a32590b030388023d3a65a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "705ef29ac1471fa3e6a32590b030388023d3a65a"
+  "output_hash": "850c2959915be050f7a04793f637260ddcca70d304b3ef85301e3c98d9213286"
 }

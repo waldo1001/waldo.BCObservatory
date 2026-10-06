@@ -1,0 +1,86 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/warehouse-directed-flow.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow",
+  "title": "Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration",
+  "blob": "831141a2f6f57a34a0367e4a40e8f093669d2f7b",
+  "summary": "Walkthrough of inbound and outbound flows in advanced warehouse configuration with directed put-away and pick using Contoso Coffee WHITE location demo data.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "advanced warehouse",
+    "directed put-away",
+    "directed pick",
+    "cross-dock",
+    "bin replenishment",
+    "contoso coffee"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-Away"
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Movements"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Picks"
+    }
+  ],
+  "features": [
+    "Cross-Dock",
+    "Bin Replenishment",
+    "Break-Bulk",
+    "Warehouse Receipts",
+    "Warehouse Put-aways",
+    "Warehouse Picks",
+    "Warehouse Movements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 8
+    }
+  ]
+}

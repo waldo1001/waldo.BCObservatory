@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-richtext-content-controls",
   "published_at": "2025-05-06T19:28:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5a15a95990934f83ef936020cf5ccce75bf4b8e2",
       "words": 619,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:41.469Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004578
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:41.490Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:41.490Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:41.491Z",
+      "page": false
     }
   },
   "input_hash": "5a15a95990934f83ef936020cf5ccce75bf4b8e2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a15a95990934f83ef936020cf5ccce75bf4b8e2"
+  "output_hash": "83c2f2febcb6fa7d3354d2da91116db8d9f6d5836597f3f22404a1c3bc398459"
 }

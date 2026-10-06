@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f2094678c94beb3f313047501d0f4a3d0f322d4b",
       "words": 417,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.293Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:42.308Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:44.041Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:44.043Z",
+      "page": false
     }
   },
   "input_hash": "f2094678c94beb3f313047501d0f4a3d0f322d4b",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2094678c94beb3f313047501d0f4a3d0f322d4b"
+  "output_hash": "86ec1be6492fe1d13d01c26d948362ec836c6188af0110ebf1c23be40d286110"
 }

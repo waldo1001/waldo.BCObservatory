@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro",
+  "title": "Introduction to Contoso Coffee",
+  "blob": "f2094678c94beb3f313047501d0f4a3d0f322d4b",
+  "summary": "Introduction to Contoso Coffee warehousing demo data with three warehouse locations for different configuration scenarios: basic with bins, advanced without bins, and advanced with directed put-away and pick.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehousing",
+    "bins",
+    "locations",
+    "put-away",
+    "pick",
+    "contoso coffee"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contoso Demo Tool"
+    }
+  ],
+  "features": [
+    "Warehouse Configurations",
+    "Bin Management",
+    "Demo Data Setup",
+    "Location Configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 8
+    }
+  ]
+}

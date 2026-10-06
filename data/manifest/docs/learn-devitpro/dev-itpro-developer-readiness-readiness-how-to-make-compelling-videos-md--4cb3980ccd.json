@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-how-to-make-compelling-videos",
   "published_at": "2025-05-06T19:28:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8e1d5b834f92c01e26f60c56e8099d16aad219c0",
       "words": 1828,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:41.467Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004578
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:41.484Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:41.485Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:41.486Z",
+      "page": false
     }
   },
   "input_hash": "8e1d5b834f92c01e26f60c56e8099d16aad219c0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8e1d5b834f92c01e26f60c56e8099d16aad219c0"
+  "output_hash": "96c47549f3d88df37e4d02638a1f8394f62922b821e17872173981305f4f39f4"
 }

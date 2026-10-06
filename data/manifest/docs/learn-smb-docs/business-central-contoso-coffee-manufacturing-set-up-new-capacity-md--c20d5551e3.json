@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a51c2eccd1e76d804f25889ea63da0338c78f043",
       "words": 499,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.292Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:42.303Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:42.305Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:42.307Z",
+      "page": false
     }
   },
   "input_hash": "a51c2eccd1e76d804f25889ea63da0338c78f043",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a51c2eccd1e76d804f25889ea63da0338c78f043"
+  "output_hash": "f2f89832f86615e4452eb12b9ec7cbf8b2248652250ca4a50c4de50c81cb9f32"
 }

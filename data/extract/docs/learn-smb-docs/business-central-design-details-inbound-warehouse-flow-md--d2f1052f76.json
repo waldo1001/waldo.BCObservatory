@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-inbound-warehouse-flow.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inbound-warehouse-flow",
+  "title": "Design Details - Inbound Warehouse Flow",
+  "blob": "0e496dc6fc30f02163a3f8070700bb4eb6574956",
+  "summary": "Design details explaining the inbound warehouse flow processes and four methods to receive and put away items based on warehouse configuration complexity level.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "inbound flow",
+    "warehouse receipt",
+    "put-away",
+    "warehouse design",
+    "receiving"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Put-away Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Inbound Flow",
+    "Receipt Methods",
+    "Put-away Methods",
+    "Warehouse Configuration",
+    "Warehouse Entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 8
+    }
+  ]
+}

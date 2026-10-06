@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply",
+  "title": "Use Order Planning to Create and Reserve Supply",
+  "blob": "4e6dc93c71e9bdb4d28bbe9ee08ddf490956a23c",
+  "summary": "Walkthrough using Order Planning to create production orders for subassemblies and reserve their output to fulfill specific parent order requirements in Contoso Coffee demo data.",
+  "systems": [
+    "manufacturing",
+    "projects"
+  ],
+  "topics": [
+    "order planning",
+    "production orders",
+    "supply planning",
+    "reservations",
+    "contoso coffee"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Order"
+    }
+  ],
+  "features": [
+    "Order Planning",
+    "Calculate Plan",
+    "Make Orders",
+    "Reserve",
+    "Production Orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 8
+    }
+  ]
+}

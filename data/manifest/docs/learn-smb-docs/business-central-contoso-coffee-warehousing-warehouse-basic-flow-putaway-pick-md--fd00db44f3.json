@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fd2313a71d257fc704eba9af662697408ccc190e",
       "words": 1332,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.294Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:44.044Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:44.045Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:44.046Z",
+      "page": false
     }
   },
   "input_hash": "fd2313a71d257fc704eba9af662697408ccc190e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd2313a71d257fc704eba9af662697408ccc190e"
+  "output_hash": "a13c6a5542bfde0576e3488c8f068ef94332aefdb6eadfcbd24b73941a476929"
 }

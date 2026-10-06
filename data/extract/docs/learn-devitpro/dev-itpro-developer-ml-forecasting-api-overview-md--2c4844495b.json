@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ml-forecasting-api-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-forecasting-api-overview",
+  "title": "Forecasting API overview",
+  "blob": "35be528431ad7dd44af3427953ab25bc1a75db40",
+  "summary": "The Forecasting API (Time Series API) predicts future values of business indicators using historical time-ordered data through algorithms like ARIMA, ETS, and TBATS.",
+  "systems": [
+    "copilot",
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "forecasting",
+    "machine learning",
+    "time series",
+    "prediction",
+    "api"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Time Series Management"
+    }
+  ],
+  "features": [
+    "forecasting model",
+    "time series algorithm",
+    "ARIMA",
+    "ETS",
+    "STL",
+    "TBATS",
+    "confidence level",
+    "data preparation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004578,
+      "pages_in_call": 8
+    }
+  ]
+}

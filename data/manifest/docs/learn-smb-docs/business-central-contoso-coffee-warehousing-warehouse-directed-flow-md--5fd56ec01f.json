@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "831141a2f6f57a34a0367e4a40e8f093669d2f7b",
       "words": 1263,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.294Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:44.047Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:44.048Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:44.049Z",
+      "page": false
     }
   },
   "input_hash": "831141a2f6f57a34a0367e4a40e8f093669d2f7b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "831141a2f6f57a34a0367e4a40e8f093669d2f7b"
+  "output_hash": "f485d57b5ed5cfc54591d2d2e6dbb49486c7b929bb080077c17384b042a62abd"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-application-design",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "55af66591abcefb2783093ef957f572b8391bd1d",
       "words": 276,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.297Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:44.053Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:44.054Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:44.055Z",
+      "page": false
     }
   },
   "input_hash": "55af66591abcefb2783093ef957f572b8391bd1d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55af66591abcefb2783093ef957f572b8391bd1d"
+  "output_hash": "6bc0bf33a1db6b0124e1c023f7f971b4ccbd6b5c384344f5693e038ff500c4c5"
 }

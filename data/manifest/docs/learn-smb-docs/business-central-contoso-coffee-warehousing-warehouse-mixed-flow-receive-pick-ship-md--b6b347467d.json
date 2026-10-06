@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "25eec29d744466e4caf9521a6d6c04a4ccfea05d",
       "words": 1309,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:42.296Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:44.050Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:44.051Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:44.051Z",
+      "page": false
     }
   },
   "input_hash": "25eec29d744466e4caf9521a6d6c04a4ccfea05d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25eec29d744466e4caf9521a6d6c04a4ccfea05d"
+  "output_hash": "009ba84992473596dc30c989be5489763305cf12541fc6dd743f5c2829a7bde5"
 }

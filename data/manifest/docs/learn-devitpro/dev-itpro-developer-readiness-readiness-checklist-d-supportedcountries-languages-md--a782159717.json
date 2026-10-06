@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-d-supportedcountries-languages",
   "published_at": "2025-05-06T19:28:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e1b12c7fec7a31d4402065a030e5f8623d43cb6e",
       "words": 99,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:41.464Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004578
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:41.476Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:41.477Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:41.478Z",
+      "page": false
     }
   },
   "input_hash": "e1b12c7fec7a31d4402065a030e5f8623d43cb6e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e1b12c7fec7a31d4402065a030e5f8623d43cb6e"
+  "output_hash": "70ec7774b388dcedb34c9b415f4be5843c1e991b9df1df7126e4e8f470151465"
 }
