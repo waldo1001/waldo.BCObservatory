@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-about-calculating-unit-cost.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-unit-cost",
+  "title": "About unit cost calculation",
+  "blob": "ed82073a8fc873c05433d440230ec99d279b2641",
+  "summary": "Unit cost calculation in Business Central based on costing methods (Standard, FIFO, LIFO, Specific, Average), covering how unit costs update for purchases and sales transactions.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "unit cost",
+    "costing method",
+    "fifo",
+    "lifo",
+    "average cost",
+    "inventory",
+    "cost calculation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Standard costing",
+    "FIFO costing",
+    "LIFO costing",
+    "Specific costing",
+    "Average costing",
+    "Cost adjustment",
+    "Last direct cost"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "video_id": "FUtePZVZLKs",
+  "item_id": "video/yt-dynamicscorner/FUtePZVZLKs",
+  "title": "AI consuming AI output. #businesscentral #bc #msdyn365bc",
+  "duration_s": 38,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai output consumption",
+    "documentation generation",
+    "extension development",
+    "business process documentation",
+    "ai-driven workflows"
+  ],
+  "chapters": [
+    {
+      "title": "Documentation and development expansion",
+      "t_start": 0,
+      "t_end": 18.1
+    },
+    {
+      "title": "Scaling concerns and AI consumption",
+      "t_start": 18.1,
+      "t_end": 29.3
+    },
+    {
+      "title": "Question on necessity of human-readable content",
+      "t_start": 29.3,
+      "t_end": 38
+    }
+  ],
+  "features": [
+    {
+      "name": "AI consuming developer-generated content",
+      "description": "Discussion of AI systems consuming documentation, development documents, extension documents, and business process documents created by developers and users, raising questions about whether humans need to consume this content if AI does.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0,
+      "t_end": 29.3,
+      "is_demoed": false,
+      "caveats": [
+        "Presented as an open question rather than a confirmed capability",
+        "No clear confirmation of whether this is implemented or planned"
+      ],
+      "tags": [
+        "ai consumption",
+        "documentation",
+        "extension development",
+        "content generation"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "creating you know development documents or extension documents that no one ever used thought to create before and they're far better than anyone",
+      "why_it_matters": "Demonstrates that AI-assisted documentation creation is producing higher quality content than human-written alternatives.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 18.1,
+      "text": "And then there's people creating business process documents, right? And then everyone's creating extensions, creating applications.",
+      "why_it_matters": "Shows the expanded scope of content generation including business process documentation and application development.",
+      "check": "exact"
+    },
+    {
+      "t": 18.1,
+      "text": "Is there ever a point where there's just too much stuff for us to be able to consume?",
+      "why_it_matters": "Raises the fundamental question of whether the volume of generated content exceeds human consumption capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 29.3,
+      "text": "And if AI is going to be the one consuming it, do we even need it in a sense, right?",
+      "why_it_matters": "Questions the necessity of human-readable content if AI systems are the primary consumers of developer-generated material.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007421
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-deploy-excel-addin.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin",
+  "title": "Getting the Business Central add-in for Excel",
+  "blob": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f",
+  "summary": "Deploy and configure the Microsoft Dynamics Office Add-in for Excel to enable users to edit Business Central data directly in Excel. Covers individual acquisition, centralized deployment through Microsoft 365, manual installation, and troubleshooting.",
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "excel integration",
+    "add-in deployment",
+    "centralized deployment",
+    "office marketplace",
+    "edit in excel",
+    "configuration",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Excel Add-in Centralized Deployment"
+    },
+    {
+      "type": "page",
+      "name": "Web Services"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Ship-to Address List"
+    },
+    {
+      "type": "page",
+      "name": "Project Journal"
+    }
+  ],
+  "features": [
+    "Edit in Excel action",
+    "Centralized Deployment",
+    "Individual acquisition",
+    "Manual installation",
+    "Server URL configuration",
+    "Environment and company selection",
+    "Exclude Non-Editable FlowFields",
+    "Exclude Fields Outside of the Repeater"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016028,
+      "pages_in_call": 1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-chart-of-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts",
+  "title": "Understanding the Chart of Accounts",
+  "blob": "ffccf1e8826703d147bf2e2fb67920f4234f31fc",
+  "summary": "Chart of accounts structure and management in Business Central, including account types, hierarchy, dimensions, and best practices for organizing financial data.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "chart of accounts",
+    "general ledger",
+    "accounts",
+    "account categories",
+    "financial reporting",
+    "hierarchy"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts Overview"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    }
+  ],
+  "features": [
+    "Account hierarchy",
+    "Posting accounts",
+    "Heading accounts",
+    "Total accounts",
+    "Account categories",
+    "Dimensions integration",
+    "Change log auditing",
+    "Account deletion protection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

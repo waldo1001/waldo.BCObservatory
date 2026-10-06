@@ -1,0 +1,106 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-warehouse-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-management",
+  "title": "Manage warehouse activities",
+  "blob": "5cde2277f4d5ceca257021043ad9db6bf5f06991",
+  "summary": "Warehouse management overview covering configuration options, document types, bin types, and workflows for handling inventory receipt, picking, shipping, and internal movements.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse",
+    "bins",
+    "inventory",
+    "picking",
+    "shipment",
+    "inbound",
+    "outbound",
+    "workflows"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Bin Creation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Bin Content Creation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Picks"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Movement"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Picks"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Item Journal"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Item Reclassification Journal"
+    }
+  ],
+  "features": [
+    "Bin management",
+    "Directed put-away and pick",
+    "Warehouse receipts",
+    "Warehouse shipments",
+    "Bin types",
+    "Bin ranking",
+    "FEFO picking",
+    "Put-away templates",
+    "Zones",
+    "Warehouse classes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

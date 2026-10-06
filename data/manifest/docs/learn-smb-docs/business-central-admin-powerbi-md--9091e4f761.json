@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b90fc94b21f9e242ddfecc0b2df13711079670d7",
       "words": 712,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.942Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.065Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.066Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.067Z",
+      "page": false
     }
   },
   "input_hash": "b90fc94b21f9e242ddfecc0b2df13711079670d7",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b90fc94b21f9e242ddfecc0b2df13711079670d7"
+  "output_hash": "8576ab16516d8352ef5df0bff8ff5628f4a47367f8dea41bd96193365ee30a7d"
 }

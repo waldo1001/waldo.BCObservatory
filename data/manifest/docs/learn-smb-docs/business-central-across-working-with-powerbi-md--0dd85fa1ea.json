@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "af4b12f995ee3ba978b0f56b9e56d1fbb604fdff",
       "words": 2071,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:54:44.114Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006011
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:52.965Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:52.966Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:52.967Z",
+      "page": false
     }
   },
   "input_hash": "af4b12f995ee3ba978b0f56b9e56d1fbb604fdff",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af4b12f995ee3ba978b0f56b9e56d1fbb604fdff"
+  "output_hash": "4d7268677be89246738b06109d47be73c727a8e1f26e758c2a8856be55009c0a"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "jWJc_D67Vfw",
+  "item_id": "video/yt-areopa/jWJc_D67Vfw",
+  "summary": "Areopa webinar (May 2026) in which Nabil, CEO of Azure Services, describes how a Business Central consultant adopted AI using the habits he used to learn NAV: go deep on one tool for 90 days, give AI full context, and work as a director. Shows an AI-built invoice layout.",
+  "overview": "Nabil compares learning AI to learning NAV by reading all 400 pages of documentation. He describes moving from privacy-first caution to using ChatGPT with real company and project context, then testing Claude Desktop with MCP and using Claude Code (a research preview) for full-stack work.\n\nHe presents a framework: pick one tool and go deep for 90 days, treat AI as a co-worker who needs context, and act as a director who sets standards and verifies output. A demo shows a Business Central print layout skill that builds an invoice layout from a PDF mockup, produced in one long conversation, which he calls a marathon. The session ends with Q&A on tools and deep learning approaches.",
+  "key_points": [
+    "Pick one AI tool and go deep for 90 days. Do not evaluate competitors until you hit a real ceiling.",
+    "Use a marathon conversation instead of one-off questions: explain the full task and context, define a good result, and work end to end in one conversation.",
+    "In the demo, a Business Central print layout skill built an invoice layout from a PDF mockup (brand colors, columns, fonts), with field mapping and measurements to the millimeter. The user still verifies the result before deployment.",
+    "Director mindset: AI can hallucinate confidently, so always verify. Direct a code review agent to audit another AI's work for cross-platform issues and edge cases.",
+    "Claude Code was described as a research preview. Mac vs Linux grep errors came up, so the developer needs to direct error catching.",
+    "Claude Desktop supports MCP connections to tools like an Obsidian vault and Airtable.",
+    "Meta prompting: ask AI to help improve your prompts. Poor results usually come from unclear context."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "decision maker"
+  ],
+  "extraction_hash": "c6847363a1f23886251b6baf4a58aed1fdffd3d135d9183a7f7d262b480dfc4d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0232364
+  }
+}

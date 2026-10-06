@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0ef55e056a92a2298e3582bd8e21b6e7abd0a50c",
       "words": 1438,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.943Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.068Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.069Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.070Z",
+      "page": false
     }
   },
   "input_hash": "0ef55e056a92a2298e3582bd8e21b6e7abd0a50c",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ef55e056a92a2298e3582bd8e21b6e7abd0a50c"
+  "output_hash": "8efd12f24848d3ac1496a40506948283fe9b088b6302bf008a47a9398aa336d9"
 }

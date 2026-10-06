@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-log-changes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-log-changes",
+  "title": "Auditing changes",
+  "blob": "00797df536df179395b34fa2115650503983f731",
+  "summary": "Track and audit changes to Business Central data using change log, field monitoring, and data analysis features to identify who changed what and when.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "audit",
+    "change log",
+    "data monitoring",
+    "field monitoring",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Change Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "Change Log Setup"
+    },
+    {
+      "type": "page",
+      "name": "Monitor Field Change Setup"
+    },
+    {
+      "type": "page",
+      "name": "Monitored Fields Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "Monitored Fields Worksheet"
+    }
+  ],
+  "features": [
+    "Change log tracking",
+    "Field monitoring",
+    "Data analysis",
+    "Sensitive field monitoring",
+    "Retention policies",
+    "Activity logs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006011,
+      "pages_in_call": 7
+    }
+  ]
+}

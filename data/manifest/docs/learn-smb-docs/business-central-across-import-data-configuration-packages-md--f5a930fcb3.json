@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
       "words": 657,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:54:44.110Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006011
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:52.953Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:52.954Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:52.956Z",
+      "page": false
     }
   },
   "input_hash": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d57fc66bb846b71b5ad799c04eb5bad17e413b70"
+  "output_hash": "26ccdc1264995efd69389bdae0f64dc8d70a924bea997eafecc93e0eb9dc91f8"
 }

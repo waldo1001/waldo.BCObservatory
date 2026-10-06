@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f",
       "words": 2972,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:54:44.117Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.016028
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.062Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.064Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.064Z",
+      "page": false
     }
   },
   "input_hash": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f"
+  "output_hash": "bebd00ae56740dad925b56dfa8d221be741e8e4c2867f6719c9be3121d5dfc77"
 }

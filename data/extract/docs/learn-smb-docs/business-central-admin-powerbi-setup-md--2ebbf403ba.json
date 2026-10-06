@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-powerbi-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup",
+  "title": "Enabling Power BI integration with Business Central",
+  "blob": "e45490aa399eb9b6f5edff2b98f3d884538a6ce8",
+  "summary": "Power BI integration setup for Business Central, covering licensing, data exposure through APIs and OData web services, and configuration for online and on-premises deployments.",
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "api pages",
+    "odata",
+    "licensing",
+    "integration",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Web Services"
+    }
+  ],
+  "features": [
+    "Power BI free license",
+    "Power BI Pro license",
+    "API pages",
+    "OData web services",
+    "Dataflows",
+    "Power BI apps",
+    "Report embedding"
+  ],
+  "versions": [
+    "2022"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

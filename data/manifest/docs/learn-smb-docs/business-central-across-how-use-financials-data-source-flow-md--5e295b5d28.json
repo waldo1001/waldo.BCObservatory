@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ebe7dbaeeb11203702bd9e49efa17fa858c74023",
       "words": 1531,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:54:44.109Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006011
+    },
+    "summarized": {
+      "at": "2026-10-06T17:54:44.118Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:54:44.119Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:54:44.120Z",
+      "page": false
     }
   },
   "input_hash": "ebe7dbaeeb11203702bd9e49efa17fa858c74023",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ebe7dbaeeb11203702bd9e49efa17fa858c74023"
+  "output_hash": "3dc7a6dc0130b776723e8c8c65c0fb667d55071ba93d75276b918609391f1905"
 }

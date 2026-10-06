@@ -1,0 +1,425 @@
+{
+  "video_id": "uxQRfChp96c",
+  "item_id": "video/yt-microsoft/uxQRfChp96c",
+  "title": "What's New: Enhanced Financial Reporting (2026 release wave 1)",
+  "duration_s": 1299,
+  "systems": [
+    "reporting",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "financial reporting",
+    "tile view",
+    "report categories",
+    "lifecycle status",
+    "company defaults",
+    "dimension perspectives",
+    "report scheduling",
+    "audit logging",
+    "negative number format",
+    "report templates",
+    "analysis mode",
+    "partner resources"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of financial reporting enhancements",
+      "t_start": 0,
+      "t_end": 90.8
+    },
+    {
+      "title": "Tile view and navigation for all users",
+      "t_start": 90.8,
+      "t_end": 163.6
+    },
+    {
+      "title": "Features for report authors: categories, lifecycle status, and company defaults",
+      "t_start": 163.6,
+      "t_end": 471.8
+    },
+    {
+      "title": "Dimension perspectives for running multi-value reports",
+      "t_start": 471.8,
+      "t_end": 745
+    },
+    {
+      "title": "Report scheduling and audit logs",
+      "t_start": 745,
+      "t_end": 854.2
+    },
+    {
+      "title": "Audit log for administrators and analysis mode",
+      "t_start": 854.2,
+      "t_end": 925.7
+    },
+    {
+      "title": "Documentation and learning resources",
+      "t_start": 925.7,
+      "t_end": 1007.2
+    },
+    {
+      "title": "Related sessions and video conclusion",
+      "t_start": 1007.2,
+      "t_end": 1057.4
+    },
+    {
+      "title": "General Business Central resources for partners",
+      "t_start": 1057.4,
+      "t_end": 1190.6
+    },
+    {
+      "title": "LinkedIn and YouTube channels",
+      "t_start": 1190.6,
+      "t_end": 1299
+    }
+  ],
+  "features": [
+    {
+      "name": "Tile view for financial reports",
+      "description": "A new tile-based visualization for financial reports replacing the traditional list view, showing category, name, code, status, last run time, and description for each report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.8,
+      "t_end": 131.5,
+      "is_demoed": true,
+      "caveats": [
+        "Data fields are blank if no data is present",
+        "Description field appears blank if not entered"
+      ],
+      "tags": [
+        "user-interface",
+        "navigation",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report categories",
+      "description": "Ability to categorize financial reports into predefined or custom categories for better navigation. Includes 10 default categories like assets, liabilities, and profitability analysis, with option to create custom categories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 177.8,
+      "t_end": 228.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "organization",
+        "navigation",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Life cycle status for report definitions",
+      "description": "A status system for report definitions, row definitions, and column definitions with states: active, draft, and retired. Blocked states prevent usage of report definitions in certain states.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 228.3,
+      "t_end": 340.3,
+      "is_demoed": true,
+      "caveats": [
+        "Draft and retired states are considered blocked and prevent report usage"
+      ],
+      "tags": [
+        "workflow",
+        "status-management",
+        "validation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Company-specific default properties",
+      "description": "Ability to set default values in General Ledger Setup for four report properties: view by, negative number format, company logo position, and status. These defaults inherit to all report definitions that use the default setting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 372.2,
+      "t_end": 461.6,
+      "is_demoed": true,
+      "caveats": [
+        "Individual reports can override inherited defaults"
+      ],
+      "tags": [
+        "defaults",
+        "setup",
+        "formatting",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dimension perspectives",
+      "description": "Feature to define dimension perspectives once and reuse them across reports. Supports simple perspectives that run a report for each value in a dimension, custom perspectives selecting specific dimension values, and cross-dimensional perspectives combining values from multiple dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.8,
+      "t_end": 745,
+      "is_demoed": true,
+      "caveats": [
+        "Perspective overrides available at runtime on request page"
+      ],
+      "tags": [
+        "dimensions",
+        "filtering",
+        "automation",
+        "multi-value"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report scheduling",
+      "description": "Ability to create and schedule automated report generation with configurable frequency, export formats (Excel and PDF), distribution to inboxes and email, custom filters, and recipient groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 745,
+      "t_end": 854.2,
+      "is_demoed": true,
+      "caveats": [
+        "Schedule logs available to view execution history"
+      ],
+      "tags": [
+        "automation",
+        "distribution",
+        "scheduling",
+        "email"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report recurrence formula",
+      "description": "Users can set weekly recurrence formulas for scheduled report delivery and specify recipients who should receive the scheduled reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 789.2,
+      "t_end": 802.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report scheduling",
+        "recipients",
+        "automation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Custom filters for scheduled reports",
+      "description": "Report schedules can include custom filters to control request page values, allowing different schedule configurations with different filter values for the same report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 813.9,
+      "t_end": 833.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report scheduling",
+        "custom filters",
+        "request page"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Schedule logs for reports",
+      "description": "Users can view schedule logs showing which reports were run, when they were run, and can navigate to report inbox or sent emails for further information on delivered artifacts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 833.8,
+      "t_end": 854.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "schedule logs",
+        "report inbox",
+        "audit trail"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Audit log for financial reporting",
+      "description": "New audit log feature for administrators and controllers to track report usage, showing who ran reports, when, which format was used, and which reports were executed. Includes predefined and custom filters for different time ranges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 854.2,
+      "t_end": 925.7,
+      "is_demoed": true,
+      "caveats": [
+        "Filters available for last 30 days, year to date, and custom ranges"
+      ],
+      "tags": [
+        "audit log",
+        "administrator",
+        "usage reporting",
+        "filters",
+        "auditing",
+        "compliance",
+        "user-tracking",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Analysis mode for audit logs",
+      "description": "Audit logs can be taken into analysis mode to create custom reports on financial reporting usage, showing who ran what and when.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 915.4,
+      "t_end": 925.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "audit log",
+        "usage analytics"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup",
+      "t": 382.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eddie",
+      "confidence": "high"
+    },
+    {
+      "name": "Mike",
+      "confidence": "high"
+    },
+    {
+      "name": "Lucas",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.1,
+      "text": "If we allow controllers and the finance department to have to work better with financial reporting, we are actually helping every single customer Business",
+      "why_it_matters": "Sets the strategic rationale for financial reporting investment across all Business Central customers.",
+      "check": "exact"
+    },
+    {
+      "t": 204,
+      "text": "The types of categories are where we ship, I think, 10 different types of categories from assets and liabilities all the way down to",
+      "why_it_matters": "Quantifies the default category options provided out of the box for report organization.",
+      "check": "exact"
+    },
+    {
+      "t": 270.4,
+      "text": "The most important thing here is that you can define whether a report's in a given state and this is actually not only reports,",
+      "why_it_matters": "Clarifies that lifecycle status applies across all definition types, not just reports.",
+      "check": "exact"
+    },
+    {
+      "t": 413,
+      "text": "If you do it like this, then you control the negative if all your report definition use the default here, then you control that",
+      "why_it_matters": "Shows how company defaults provide centralized control over formatting across all reports.",
+      "check": "exact"
+    },
+    {
+      "t": 558.6,
+      "text": "You have 15 pages, but over here when you look at the page, it's page one of three. So how come there's 15 pages",
+      "why_it_matters": "Illustrates how dimension perspectives create separate report iterations merged into one PDF output.",
+      "check": "exact"
+    },
+    {
+      "t": 618.1,
+      "text": "Basically we get the report run by each value of the this dimension and then merged together in one PDF. This also works for",
+      "why_it_matters": "Confirms dimension perspectives work across output formats including Excel.",
+      "check": "exact"
+    },
+    {
+      "t": 789.2,
+      "text": "I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh",
+      "why_it_matters": "Shows scheduling flexibility including recipient group management for report distribution.",
+      "check": "exact"
+    },
+    {
+      "t": 789.2,
+      "text": "i can set the recurrence formula here weekly i can even set recipients so i can",
+      "why_it_matters": "Demonstrates the capability to configure recurring report delivery with specific recipients.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 813.9,
+      "text": "the request page values for this particular invocation so in case you have special way like you i",
+      "why_it_matters": "Clarifies that users can maintain multiple schedule variants of the same report with different filter configurations.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 866,
+      "text": "The audit log is let's go back to the tile here. Um and you can get the audit log either in context of a",
+      "why_it_matters": "Explains that administrators can view audit logs at both individual report and system-wide levels.",
+      "check": "exact"
+    },
+    {
+      "t": 899.3,
+      "text": "We also created filters on this page so you can you can um easily dive into all logs last 30 days and year to",
+      "why_it_matters": "Shows that pre-built time-based filters are available for quick audit log navigation along with custom filter capability.",
+      "check": "exact"
+    },
+    {
+      "t": 942.8,
+      "text": "If you want to learn more about this and other things related to financial analytics aka.ms/bcfinanceanalytics is the overview page",
+      "why_it_matters": "Provides the primary resource URL for comprehensive financial reporting and analytics documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 976.8,
+      "text": "If it's too much maybe you can use the summarize feature in Microsoft Learn and simply get a summary of each",
+      "why_it_matters": "Indicates Microsoft Learn includes a summarize feature to help users navigate extensive documentation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

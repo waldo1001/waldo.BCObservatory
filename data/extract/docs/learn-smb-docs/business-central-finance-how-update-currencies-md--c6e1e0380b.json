@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-update-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies",
+  "title": "Update currency exchange rates",
+  "blob": "6345eef3f5c9be44ddca4ea6a2656847e20b9917",
+  "summary": "Currency exchange rate management in Business Central, including manual and automatic updates, exchange rate adjustments for posted transactions, and integration with external rate services.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "currency",
+    "exchange rates",
+    "foreign exchange",
+    "adjustment",
+    "conversion",
+    "multi-currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rate Service"
+    },
+    {
+      "type": "report",
+      "name": "Exch. Rates Adjustment"
+    }
+  ],
+  "features": [
+    "Exchange rate management",
+    "Automatic rate updates",
+    "Manual rate adjustment",
+    "Currency exchange rate service",
+    "Realized gains/losses",
+    "Unrealized gains/losses",
+    "Multi-currency reporting",
+    "Triangular currency calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

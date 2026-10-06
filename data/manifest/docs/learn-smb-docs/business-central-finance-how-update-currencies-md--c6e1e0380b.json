@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6345eef3f5c9be44ddca4ea6a2656847e20b9917",
       "words": 1569,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.949Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.083Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.084Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.085Z",
+      "page": false
     }
   },
   "input_hash": "6345eef3f5c9be44ddca4ea6a2656847e20b9917",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6345eef3f5c9be44ddca4ea6a2656847e20b9917"
+  "output_hash": "fa12979e635a35198069f77a9929ec50ef86575b12be9c6759691f8cbf6ed91c"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-set-up-workflows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-set-up-workflows",
+  "title": "Set up approval workflows",
+  "blob": "16fb0b6c1a097f620376363d595dae310b96ed2e",
+  "summary": "Set up approval workflows in Business Central by configuring workflow users, notifications, and workflow steps to connect business-process tasks performed by different users.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "approval workflows",
+    "workflow setup",
+    "notifications",
+    "user configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow"
+    }
+  ],
+  "features": [
+    "Workflow users",
+    "Approval users",
+    "Workflow notifications",
+    "Email notifications",
+    "Workflow templates",
+    "Workflow events and responses"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006011,
+      "pages_in_call": 7
+    }
+  ]
+}

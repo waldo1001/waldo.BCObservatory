@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-unit-cost",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ed82073a8fc873c05433d440230ec99d279b2641",
       "words": 890,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.946Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.077Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.078Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.078Z",
+      "page": false
     }
   },
   "input_hash": "ed82073a8fc873c05433d440230ec99d279b2641",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ed82073a8fc873c05433d440230ec99d279b2641"
+  "output_hash": "076c30b10ffd115d7eaa36a7b535a020246025391a81152a5f7700516448bd22"
 }

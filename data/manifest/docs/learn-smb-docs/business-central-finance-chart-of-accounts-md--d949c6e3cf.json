@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ffccf1e8826703d147bf2e2fb67920f4234f31fc",
       "words": 1415,
       "forms": 17
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.948Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.080Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.081Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.082Z",
+      "page": false
     }
   },
   "input_hash": "ffccf1e8826703d147bf2e2fb67920f4234f31fc",
@@ -125,5 +144,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ffccf1e8826703d147bf2e2fb67920f4234f31fc"
+  "output_hash": "f0a19d6390a313ab3d9cd6fecff8ba5099d29f6fff77fec61dc5107f2c081c1f"
 }

@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-users-profiles-roles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles",
+  "title": "Manage users and roles",
+  "blob": "0ef55e056a92a2298e3582bd8e21b6e7abd0a50c",
+  "summary": "User profile and role management in Business Central, enabling administrators to create, assign, and customize profiles that control access and page layouts for different user roles.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "profiles",
+    "roles",
+    "permissions",
+    "user management",
+    "access control",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Profiles (Roles)"
+    },
+    {
+      "type": "page",
+      "name": "User Settings"
+    },
+    {
+      "type": "page",
+      "name": "My Settings"
+    },
+    {
+      "type": "page",
+      "name": "User Personalization Card"
+    },
+    {
+      "type": "page",
+      "name": "Personalized Pages"
+    }
+  ],
+  "features": [
+    "Profile creation",
+    "User assignment",
+    "Page customization",
+    "Role centers",
+    "Profile export/import",
+    "Personalization management",
+    "Role explorer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006506,
+      "pages_in_call": 8
+    }
+  ]
+}

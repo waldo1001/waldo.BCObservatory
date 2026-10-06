@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-management",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5cde2277f4d5ceca257021043ad9db6bf5f06991",
       "words": 2564,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:55:52.944Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 15,
+      "cost_usd": 0.006506
+    },
+    "summarized": {
+      "at": "2026-10-06T17:55:55.071Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:55:55.072Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:55:55.072Z",
+      "page": false
     }
   },
   "input_hash": "5cde2277f4d5ceca257021043ad9db6bf5f06991",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5cde2277f4d5ceca257021043ad9db6bf5f06991"
+  "output_hash": "a04c5d9f658ee66574f919f3db058c45cc2f11af9f01003ea7dc8e097e6654c3"
 }

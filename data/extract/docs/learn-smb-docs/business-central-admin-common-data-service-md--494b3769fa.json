@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-common-data-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service",
+  "title": "Integrate with Microsoft Dataverse via data sync",
+  "blob": "0388f94b412d04508fb756147231169b2907ea18",
+  "summary": "Integrate Business Central with Microsoft Dataverse to synchronize data bidirectionally with other Dynamics 365 applications like Customer Engagement for unified data management.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dataverse",
+    "data synchronization",
+    "dynamics 365",
+    "integration",
+    "customer engagement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dataverse Connection Setup"
+    }
+  ],
+  "features": [
+    "Bidirectional data sync",
+    "Entity mapping",
+    "Base Integration Solution",
+    "Currency synchronization",
+    "Company copying with integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006011,
+      "pages_in_call": 7
+    }
+  ]
+}
