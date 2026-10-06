@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/handling-ui-interaction-when-working-with-web-Services",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a59db564e18371eca22dc17a269711e57b7233b",
       "words": 265,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:21.904Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002339
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:23.652Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:23.653Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:23.654Z",
+      "page": false
     }
   },
   "input_hash": "7a59db564e18371eca22dc17a269711e57b7233b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a59db564e18371eca22dc17a269711e57b7233b"
+  "output_hash": "a303eb26d4395e43b77ec791d4212c2059365cb70894e6d2ab11f9c5b8def469"
 }

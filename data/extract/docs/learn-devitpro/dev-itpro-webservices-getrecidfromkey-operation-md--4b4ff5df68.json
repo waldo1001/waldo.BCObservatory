@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/GetRecIdFromKey-operation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/GetRecIdFromKey-operation",
+  "title": "GetRecIdFromKey",
+  "blob": "7e214085ac9b1f34fbbe18154a5115579e26c958",
+  "summary": "GetRecIdFromKey converts a bookmark key containing primary key and concurrency information into a record ID for use in web service operations.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "web services",
+    "record identification",
+    "keys",
+    "bookmarks"
+  ],
+  "objects": [],
+  "features": [
+    "GetRecIdFromKey operation",
+    "key conversion",
+    "record ID retrieval"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002339,
+      "pages_in_call": 8
+    }
+  ]
+}

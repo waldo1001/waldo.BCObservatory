@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/Delete-Operation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Delete-Operation",
+  "title": "Delete Operation",
+  "blob": "17235a266737c59cf2fbea174956851e7a0f9889",
+  "summary": "Delete Operation describes how web services delete records by invoking OnDeleteRecord and OnDelete triggers, with concurrency checks and return values indicating deletion success.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "web services",
+    "soap operations",
+    "delete",
+    "triggers",
+    "concurrency"
+  ],
+  "objects": [],
+  "features": [
+    "Delete operation",
+    "OnDeleteRecord trigger",
+    "OnDelete trigger",
+    "concurrency management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002339,
+      "pages_in_call": 8
+    }
+  ]
+}

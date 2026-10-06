@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrading-cumulative-update-v24.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v24",
+  "title": "Install a version 24 update",
+  "blob": "2e680f3ff7baf8c1268c1c33a771b2efa4016579",
+  "summary": "Installing a version 24 update for Business Central on-premises involves platform conversion and application updates through database conversion, extension publishing, and data synchronization.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrading",
+    "on-premises",
+    "platform update",
+    "application update",
+    "extensions",
+    "database conversion",
+    "powershell"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "System tables"
+    }
+  ],
+  "features": [
+    "Platform update",
+    "Application update",
+    "Database conversion",
+    "Extension publishing",
+    "Extension recompilation",
+    "System Application",
+    "Business Foundation",
+    "Base Application"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "version 24"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007508,
+      "pages_in_call": 4
+    }
+  ]
+}

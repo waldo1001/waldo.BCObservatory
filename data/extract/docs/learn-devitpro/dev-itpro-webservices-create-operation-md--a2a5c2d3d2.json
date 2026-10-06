@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/Create-Operation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Create-Operation",
+  "title": "Create Operation",
+  "blob": "4b6dedd08ae4a915e58688c6bfc7ad34aa1968a3",
+  "summary": "Create Operation describes the web service method to create a single record via SOAP, accepting an entity object and returning the inserted record with server-generated values.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "web services",
+    "soap operations",
+    "create",
+    "crud"
+  ],
+  "objects": [],
+  "features": [
+    "Create operation",
+    "SOAP method",
+    "entity insertion",
+    "key constraint validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002339,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/Basic-Page-Operations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Basic-Page-Operations",
+  "title": "Basic page operations",
+  "blob": "1a744d69cd4dc85fd4db1c00595802b8d170efba",
+  "summary": "SOAP web services expose default page operations matching user interactions including Create, Read, Update, Delete, and filtering operations with atomic transaction behavior.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "soap web services",
+    "page operations",
+    "api",
+    "entities",
+    "crud"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Pages published as SOAP web services"
+    }
+  ],
+  "features": [
+    "Create operation",
+    "CreateMultiple operation",
+    "Read operation",
+    "ReadMultiple operation",
+    "Update operation",
+    "UpdateMultiple operation",
+    "Delete operation",
+    "IsUpdated operation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007508,
+      "pages_in_call": 4
+    }
+  ]
+}

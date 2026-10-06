@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/CreateMultiple-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22faa2016ce2845b8bade0918a89a6eef3dcf333",
       "words": 166,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:21.900Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002339
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:23.639Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:23.640Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:23.642Z",
+      "page": false
     }
   },
   "input_hash": "22faa2016ce2845b8bade0918a89a6eef3dcf333",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22faa2016ce2845b8bade0918a89a6eef3dcf333"
+  "output_hash": "a48dd4fe9cb67401d300009d7596b21c6e88647108a3cdff2870b25951966f79"
 }

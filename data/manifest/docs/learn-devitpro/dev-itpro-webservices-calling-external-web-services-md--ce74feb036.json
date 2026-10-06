@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Calling-External-Web-Services",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d9fc571d57f31c3360d1b0507bfab9a3eb2d8562",
       "words": 119,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:21.898Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002339
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:21.906Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:21.907Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:23.634Z",
+      "page": false
     }
   },
   "input_hash": "d9fc571d57f31c3360d1b0507bfab9a3eb2d8562",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d9fc571d57f31c3360d1b0507bfab9a3eb2d8562"
+  "output_hash": "572a69cbcaf9423bc79f4964d4bd348bfd09bb13c0e7ecfb667697b0dd07c495"
 }

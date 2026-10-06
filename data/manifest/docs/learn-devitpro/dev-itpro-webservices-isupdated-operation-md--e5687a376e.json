@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/IsUpdated-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb0ed60b1ffea18ae022929a4f464ba24cb1e70a",
       "words": 124,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:21.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002339
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:23.655Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:23.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:23.657Z",
+      "page": false
     }
   },
   "input_hash": "eb0ed60b1ffea18ae022929a4f464ba24cb1e70a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb0ed60b1ffea18ae022929a4f464ba24cb1e70a"
+  "output_hash": "df9440623da2658cc50c1e0b8eb49f9d6970dbe1311fa85098e337c58bcf2d82"
 }

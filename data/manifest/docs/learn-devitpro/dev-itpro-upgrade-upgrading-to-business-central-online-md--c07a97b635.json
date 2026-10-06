@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-to-business-central-online",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eeb478bdbeb79fc95b9c4d763e56480e92f6749a",
       "words": 321,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:19.271Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007508
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:19.291Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:19.293Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:19.294Z",
+      "page": false
     }
   },
   "input_hash": "eeb478bdbeb79fc95b9c4d763e56480e92f6749a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eeb478bdbeb79fc95b9c4d763e56480e92f6749a"
+  "output_hash": "72a867b461f01db7efc5462cd2c4bfb43ef12227923ccc2a854e4e4013099492"
 }

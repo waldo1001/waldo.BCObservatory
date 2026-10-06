@@ -1,0 +1,27 @@
+{
+  "video_id": "PrGBqzTDsLw",
+  "item_id": "video/yt-microsoft/PrGBqzTDsLw",
+  "summary": "Profiling customers for Business Central trial onboarding: a website questionnaire stores answers in a system table, and those answers drive AppSource apps, role center, welcome banner, checklist, assisted setup, teaching tips and Excel layouts. A sample onboarding app on GitHub is shown as a template.",
+  "overview": "The video shows how a partner can tailor a Business Central trial to each prospect. A questionnaire on the partner's website collects interests, current systems and company size. The answers are stored in a system table inside Business Central, and the combination of choices selects a set of onboarding elements.",
+  "key_points": [
+    "Questionnaire answers are stored in a system table in Business Central, and can be used before the user signs in.",
+    "Different AppSource apps and solutions can be loaded during trial setup based on the combination of answers.",
+    "A customer role center can be loaded, attached to a role and set for the current user before sign-in, and the welcome banner text can be changed.",
+    "Checklist tasks lead the first experience with videos, setup steps and calls to action. The presenter says the sample checklist is an example for inspiration, not a template to copy as is.",
+    "The assisted setup list can be filtered to a custom category so customers see only setup steps relevant to the solution.",
+    "Teaching tips support markdown (bold, italics) and links. They can be added to report request pages and to query objects opened in analysis mode.",
+    "Reports can ship with Excel layouts that refresh data and graphs on print. A sample onboarding app on GitHub can be forked, and more is at aka.ms/bconboarding."
+  ],
+  "audience": [
+    "partner",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "58f44b3f7d0444945c697056c53ea3a0948e6eaebd30f8a0c627bc6774520ba7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0175484
+  }
+}

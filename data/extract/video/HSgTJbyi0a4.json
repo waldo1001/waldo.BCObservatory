@@ -1,0 +1,160 @@
+{
+  "video_id": "HSgTJbyi0a4",
+  "item_id": "video/yt-microsoft/HSgTJbyi0a4",
+  "title": "The Human Aspect of Onboarding",
+  "duration_s": 148,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "onboarding",
+    "user experience",
+    "new users",
+    "guidance",
+    "first-time experience",
+    "partner enablement"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to onboarding importance",
+      "t_start": 0,
+      "t_end": 21.1
+    },
+    {
+      "title": "Defining onboarding and its philosophy",
+      "t_start": 21.1,
+      "t_end": 38.2
+    },
+    {
+      "title": "Hotel analogy for new user experience",
+      "t_start": 38.2,
+      "t_end": 58.5
+    },
+    {
+      "title": "Uncertainty and information overwhelm",
+      "t_start": 58.5,
+      "t_end": 78.8
+    },
+    {
+      "title": "Designing for different user types",
+      "t_start": 78.8,
+      "t_end": 98.8
+    },
+    {
+      "title": "Scaling onboarding for partners",
+      "t_start": 98.8,
+      "t_end": 119
+    },
+    {
+      "title": "Conclusion and resources",
+      "t_start": 119,
+      "t_end": 148
+    }
+  ],
+  "features": [
+    {
+      "name": "Onboarding framework",
+      "description": "A framework designed for Business Central that caters to both exploratory users and those needing guided handholding, providing relevant in-context guidance without blocking user paths.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.8,
+      "t_end": 98.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "user experience",
+        "guidance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Personalized onboarding experience",
+      "description": "An onboarding approach that recognizes different user types - some prefer independent exploration while others need more guidance - and provides a clear indication of where to start.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.5,
+      "t_end": 78.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "user types",
+        "guidance",
+        "first-time experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Scalable partner onboarding",
+      "description": "Capability for partners to scale onboarding experiences to more customers while ensuring relevant onboarding content tailored to specific customer business needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.8,
+      "t_end": 119,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner enablement",
+        "onboarding",
+        "scalability"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38.2,
+      "text": "he's a little uncertain if he's at the right place but hopefully he will get a warm and personal welcome and he will feel",
+      "why_it_matters": "Establishes the emotional and psychological framework for understanding user onboarding needs beyond functional requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 58.5,
+      "text": "trying out a new product for the first time can be a bit similar you can be a little uncertain if you're at the",
+      "why_it_matters": "Articulates the core challenge of new user onboarding - uncertainty and information overload when encountering Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 78.8,
+      "text": "some users like to go and explore on their own right away others might need a little more handholding along the way",
+      "why_it_matters": "Identifies the key design principle that onboarding must accommodate diverse user preferences and learning styles.",
+      "check": "exact"
+    },
+    {
+      "t": 98.8,
+      "text": "it was crucial for us to really cater for both of these two types of users ensuring we didn't block the path to anyone",
+      "why_it_matters": "Describes the deliberate design philosophy of the Business Central onboarding framework balancing freedom and guidance.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010716
+    }
+  ]
+}

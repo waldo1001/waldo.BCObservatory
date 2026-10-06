@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Delete-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "17235a266737c59cf2fbea174956851e7a0f9889",
       "words": 276,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:21.901Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002339
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:23.644Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:23.645Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:23.647Z",
+      "page": false
     }
   },
   "input_hash": "17235a266737c59cf2fbea174956851e7a0f9889",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "17235a266737c59cf2fbea174956851e7a0f9889"
+  "output_hash": "c7a7032e9cdf86aa243df3bc2147a7a6a9e8b622a7e6a10796ac0931dbbad906"
 }
