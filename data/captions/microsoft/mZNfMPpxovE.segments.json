@@ -1,0 +1,98 @@
+{
+  "video_id": "mZNfMPpxovE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.2,
+      "end": 20.5,
+      "text": "in this video we're going to look at the GP snapshot feature that's part of the GP Cloud migration tool the GP snapshot allows you to bring over transactional information from GP into business Central in extension tables the data can be viewed in list Pages Bound in business Central let's take a closer look at how you can configure"
+    },
+    {
+      "t": 20.5,
+      "end": 36.2,
+      "text": "the GP snapshot Once you walk through the cloud migration wizard you are presented with the GP company migration configuration page this page can also be navigated to from the cloud migration management"
+    },
+    {
+      "t": 36.2,
+      "end": 56.5,
+      "text": "page if we scroll to the bottom we can see a section called historical snapshot you can indicate what module transactions you would like migrated to business Central once you select the module transactions you can indicate how far back you want to bring over the transactional data the system will default in the year"
+    },
+    {
+      "t": 56.5,
+      "end": 77.8,
+      "text": "that you indicated for your GL summary however you can certainly tweak that if you want that to be different for example you may want to bring over the last 3 years of GL summary inform information but maybe you want to go back seven years for the snapshot information you simply need to select and enter in a different year to bring over the snapshot"
+    },
+    {
+      "t": 77.8,
+      "end": 96.4,
+      "text": "data once you complete the information in the GP company migration configuration page you can begin the migration the GP snapshot will run automatically once the migration is complete you can monitor the progress of the snapshot by looking at the tiles in the cloud migration management"
+    },
+    {
+      "t": 96.4,
+      "end": 116.4,
+      "text": "page once the snapshot process is finished you can view the data in business Central next let's look at some of the snapshot data that was migrated we'll first begin by viewing GL detail information to navigate to that we'll go to the chart of"
+    },
+    {
+      "t": 116.4,
+      "end": 136.6,
+      "text": "accounts under the chart of accounts you can navigate under account and then see an option for GP detail snapshot there are two options to select in here they both show the same data the second one just organizes the data by the account number if I go into the all detail transactions you can see a lot of the information"
+    },
+    {
+      "t": 136.6,
+      "end": 156.6,
+      "text": "that was migrated over from GP to business Central in here you can see this information comes from the GP 20,000 and 30,000 tables so that is the detailed tables in GP for both your open and history you can see the account numbers the account string that users are familiar with in"
+    },
+    {
+      "t": 156.6,
+      "end": 176.7,
+      "text": "GP as well as the debit and credit amounts like any list page in business Central you can export this information out to excel you can also filter on it and search for anything so for example if you were searching for a specific journal entry number you could enter that into the search and then the the page will automatically"
+    },
+    {
+      "t": 176.7,
+      "end": 191.3,
+      "text": "filter so you can see these are all the accounts that were post posted to with the debit and credit amounts for this journal entry number if the transaction came from a subledger you can drill back on that journal entry number to see that subledger"
+    },
+    {
+      "t": 191.3,
+      "end": 211.4,
+      "text": "transactions in this case this was a sales orderer processing invoice so at the top you can see this is the Header information for my sales transaction and then down below you can see all the transaction lines that were associated with the invoice if any of these items were track had Seri Lot number tracking you could drill back on the quantity"
+    },
+    {
+      "t": 211.4,
+      "end": 232,
+      "text": "and see their serial or lot information next let's take a look at customer transactions if I navigate to my customer list in business Central there will be a very similar option that I saw in the chart of accounts if I navigate under customer I'll see the same option GP detail snapshot"
+    },
+    {
+      "t": 232,
+      "end": 252,
+      "text": "this is where I can see my receivables and sales order processing transactions if I navigate to the forums through this way I will see transaction for all customers if however you want to see transactions for a specific customer select that customer for the list and then choose one of the tiles on the right side I'll go ahead and select the"
+    },
+    {
+      "t": 252,
+      "end": 272.3,
+      "text": "receivables transactions now the list will filter to just the transactions for Aaron Fitz electrical again you can drill back to see more information about the individual transaction so in this case I can drill back and see that receivables transaction information I can also see if any payments were applied to this invoice"
+    },
+    {
+      "t": 272.3,
+      "end": 292.4,
+      "text": "so the snapshot will also include apply information for both receivables and payables documents the very same information can be seen for vendors so if I navigate under vendors there's another option for the historical snapshot for your"
+    },
+    {
+      "t": 292.4,
+      "end": 312.4,
+      "text": "vendors here I can see my payables information as well as any purchase receiving transactions again and if I navigate through the navigation here I will see it for all vendors there are also tiles on the right hand side again which will filter based on the vendor selected finally we can see information"
+    },
+    {
+      "t": 312.4,
+      "end": 331.7,
+      "text": "about items so if I navigate under items snapshot information is also brought over for my inventory transactions since there isn't tiles for the item list you can navigate to it only under items and then the DP GP detail snapshot"
+    },
+    {
+      "t": 333,
+      "end": 354.5,
+      "text": "and that's a quick look at the GP snapshot feature that's available in the GP Cloud migration tool to learn more about business Central check out the training modules at aka.ms slbc learn there are also additional resources available to Partners"
+    }
+  ],
+  "markers": [],
+  "word_count": 934
+}

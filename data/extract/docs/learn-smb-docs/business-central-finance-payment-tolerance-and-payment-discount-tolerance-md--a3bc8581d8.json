@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-payment-tolerance-and-payment-discount-tolerance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance",
+  "title": "Payment tolerance and payment discount tolerance",
+  "blob": "2377ad449e33dfc77c210f98c56eab4494b0d2ad",
+  "summary": "Payment tolerances allow invoices to close with minor payment differences, and payment discount tolerances permit discounts after the discount date, both configurable by percentage and amount.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "payment-tolerances",
+    "discounts",
+    "receivables",
+    "payables",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Change Payment Tolerance"
+    }
+  ],
+  "features": [
+    "payment tolerance setup by amount and percentage",
+    "payment discount tolerance grace period",
+    "tolerance warning notification",
+    "multi-document tolerance application",
+    "tolerance blocking per customer/vendor",
+    "currency-specific tolerance configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

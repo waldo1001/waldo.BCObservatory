@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d8c78152b074c8d41e25afc84a743938eb5d8407",
       "words": 1431,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:04.129Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003605
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.769Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.770Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.770Z",
+      "page": false
     }
   },
   "input_hash": "d8c78152b074c8d41e25afc84a743938eb5d8407",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d8c78152b074c8d41e25afc84a743938eb5d8407"
+  "output_hash": "e29a5cda4c4324cc052387dbf56a130efa38f6ba91ea8db814df921d1de8bc95"
 }

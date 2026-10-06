@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
+  "title": "Set up a VAT statement",
+  "blob": "2f1f4f17e9404dcf7703ebb1fc229487e36287be",
+  "summary": "Set up VAT statement templates and names to define VAT calculations for different periods and handle tax requirement changes. Use VAT statements to calculate settlement amounts and reconcile VAT entries with general ledger accounts.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat statement",
+    "vat settlement",
+    "tax compliance",
+    "vat entries",
+    "account reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement Names"
+    },
+    {
+      "type": "report",
+      "name": "G/L - VAT Reconciliation"
+    }
+  ],
+  "features": [
+    "vat statement templates",
+    "vat entry totaling",
+    "account totaling",
+    "row totaling",
+    "unrealized vat",
+    "preview vat statement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

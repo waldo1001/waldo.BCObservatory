@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6dc3bf713ab498d81690c74190209a337b4b6bb8",
       "words": 1922,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.269Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:47.281Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:47.283Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:47.285Z",
+      "page": false
     }
   },
   "input_hash": "6dc3bf713ab498d81690c74190209a337b4b6bb8",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6dc3bf713ab498d81690c74190209a337b4b6bb8"
+  "output_hash": "981b2ea3416e1d52c1746e161d64d375fe47393e90d4eed4a70b633e7d7f4669"
 }

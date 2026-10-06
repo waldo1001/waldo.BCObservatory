@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-prepayments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments",
+  "title": "Set up prepayments",
+  "blob": "11905e5a1d412ab203509012aace32bfc958c2fc",
+  "summary": "Prepayments require upfront customer or vendor deposits against orders, with configurable percentages per item, customer, or vendor, automatic posting to prepayment accounts, and automatic sales order release when payments are applied.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "prepayments",
+    "deposits",
+    "customer-setup",
+    "vendor-setup",
+    "invoicing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Sales Prepayment Percentages"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    }
+  ],
+  "features": [
+    "prepayment percentage setup by item and customer",
+    "prepayment account configuration",
+    "number series for prepayment documents",
+    "prepayment invoice creation",
+    "automatic sales order release",
+    "prepayment validation on posting",
+    "prepayment percentage priority rules"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

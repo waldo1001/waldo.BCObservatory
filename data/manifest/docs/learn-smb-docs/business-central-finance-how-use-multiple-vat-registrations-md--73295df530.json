@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
       "words": 860,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:10.945Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006645
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:10.962Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:10.963Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:10.964Z",
+      "page": false
     }
   },
   "input_hash": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9"
+  "output_hash": "e8358e4772924025d14e0bc8c6e818eb3077ac5f3f69d2a70eb14f10c174595b"
 }

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-positive-pay.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay",
+  "title": "Export positive pay files",
+  "blob": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2",
+  "summary": "Positive pay export generates files with vendor and check details for bank validation before clearing. Configure export format per bank account and reexport files as needed with confirmation tracking.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "positive pay",
+    "check validation",
+    "bank security",
+    "payment verification",
+    "file export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Positive Pay Entries"
+    },
+    {
+      "type": "page",
+      "name": "Positive Pay Entry Details"
+    }
+  ],
+  "features": [
+    "positive pay file export",
+    "export format selection",
+    "payment validation",
+    "confirmation tracking",
+    "file reexport"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

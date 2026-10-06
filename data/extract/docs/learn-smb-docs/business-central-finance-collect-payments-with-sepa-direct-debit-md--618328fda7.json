@@ -1,0 +1,75 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-collect-payments-with-sepa-direct-debit.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+  "title": "SEPA Direct Debit in Business Central",
+  "blob": "6dc3bf713ab498d81690c74190209a337b4b6bb8",
+  "summary": "SEPA Direct Debit enables collection of customer payments directly from bank accounts in the EURO currency through the SEPA format. Set up bank export formats, payment methods, mandates, and create collection entries to export XML files to your bank for processing.",
+  "systems": [
+    "sales",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "sepa direct debit",
+    "payment collection",
+    "bank files",
+    "customer payments",
+    "euro currency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Direct Debit Collections"
+    },
+    {
+      "type": "page",
+      "name": "Direct Debit Collect. Entries"
+    },
+    {
+      "type": "page",
+      "name": "SEPA Direct Debit Mandates"
+    },
+    {
+      "type": "page",
+      "name": "Payment Registration"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journals"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account List"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "codeunit",
+      "name": "Create Standard Cust. Invoices"
+    }
+  ],
+  "features": [
+    "SEPA Direct Debit export format",
+    "Direct debit mandate management",
+    "XML file export",
+    "payment receipt posting",
+    "bank reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2",
       "words": 425,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.278Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.752Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.753Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.754Z",
+      "page": false
     }
   },
   "input_hash": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2",
@@ -59,5 +78,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2"
+  "output_hash": "a1342c1fc64a616ad048dc014551fdee6e4700cf40584dbeb018591007b2961d"
 }

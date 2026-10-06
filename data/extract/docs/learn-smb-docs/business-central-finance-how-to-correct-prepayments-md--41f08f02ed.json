@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-correct-prepayments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-correct-prepayments",
+  "title": "Correct prepayments",
+  "blob": "b260878a5e266c85eec796850eeb5e4564f1f83e",
+  "summary": "Correct prepayments by issuing prepayment credit memos to cancel or adjust invoiced prepayments for sales orders, and post additional prepayment invoices when needed.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "prepayment",
+    "credit memo",
+    "sales order",
+    "correction"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "prepayment credit memo",
+    "prepayment invoice",
+    "prepayment correction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

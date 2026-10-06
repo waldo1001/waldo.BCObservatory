@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-create-cost-budgets",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "910b1e7959507359d034886a763850538d36c7a3",
       "words": 202,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.271Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:10.965Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:10.966Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:10.967Z",
+      "page": false
     }
   },
   "input_hash": "910b1e7959507359d034886a763850538d36c7a3",
@@ -86,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "910b1e7959507359d034886a763850538d36c7a3"
+  "output_hash": "8a2caa07ad3da87d2b41a3c81aeb93191934ad0f7a3bc3caf931f443c9f5257e"
 }

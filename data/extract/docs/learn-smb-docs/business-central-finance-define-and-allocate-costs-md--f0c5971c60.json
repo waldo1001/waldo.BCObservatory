@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-define-and-allocate-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-define-and-allocate-costs",
+  "title": "Defining and allocating costs",
+  "blob": "a754c288ce1bd39f72bb9ba6cd2855b2a0722e31",
+  "summary": "Cost allocations move costs and revenues between cost types, cost centers, and cost objects using static or dynamic allocation bases. Define allocation sources and targets with different methods including employee counts and sales figures.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost allocation",
+    "cost accounting",
+    "allocation bases",
+    "static allocation",
+    "dynamic allocation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cost Allocation"
+    }
+  ],
+  "features": [
+    "allocation source setup",
+    "allocation target definition",
+    "static allocation bases",
+    "dynamic allocation bases",
+    "allocation calculation",
+    "allocation key calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

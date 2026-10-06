@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-correct-prepayments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b260878a5e266c85eec796850eeb5e4564f1f83e",
       "words": 310,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:04.126Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003605
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.760Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.761Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.763Z",
+      "page": false
     }
   },
   "input_hash": "b260878a5e266c85eec796850eeb5e4564f1f83e",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b260878a5e266c85eec796850eeb5e4564f1f83e"
+  "output_hash": "6eec69dd9ed19bc0a73872e4cc48be4ad8791c856a16b012ee4d400a19e97960"
 }

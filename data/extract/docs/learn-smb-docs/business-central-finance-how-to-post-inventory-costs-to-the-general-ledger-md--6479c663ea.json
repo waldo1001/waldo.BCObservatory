@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger",
+  "title": "Reconcile inventory costs with the general ledger",
+  "blob": "d8c78152b074c8d41e25afc84a743938eb5d8407",
+  "summary": "Post inventory costs to the general ledger to reflect inventory value changes and reconcile inventory accounts with general ledger by running the Post Inventory Cost to G/L batch job and using the Inventory - G/L Reconciliation page.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "inventory cost",
+    "general ledger",
+    "reconciliation",
+    "cost posting",
+    "value entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Post Inventory Cost to G/L"
+    },
+    {
+      "type": "page",
+      "name": "Inventory - G/L Reconciliation"
+    },
+    {
+      "type": "report",
+      "name": "Post Invt. Cost to G/L - Test"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Valuation"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Valuation - WIP"
+    },
+    {
+      "type": "report",
+      "name": "Invt. Valuation - Cost Spec."
+    },
+    {
+      "type": "report",
+      "name": "Cost Shares Breakdown"
+    }
+  ],
+  "features": [
+    "automatic cost posting",
+    "inventory cost posting",
+    "cost adjustment",
+    "reconciliation",
+    "expected cost posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-define-and-allocate-costs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a754c288ce1bd39f72bb9ba6cd2855b2a0722e31",
       "words": 1506,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.273Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:10.968Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:10.969Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:10.970Z",
+      "page": false
     }
   },
   "input_hash": "a754c288ce1bd39f72bb9ba6cd2855b2a0722e31",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a754c288ce1bd39f72bb9ba6cd2855b2a0722e31"
+  "output_hash": "dd406990c425338869250d17505841a6c2be47868469172afe50caed377fd327"
 }

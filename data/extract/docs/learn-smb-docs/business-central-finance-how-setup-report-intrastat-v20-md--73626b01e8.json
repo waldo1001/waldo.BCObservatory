@@ -1,0 +1,85 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-report-intrastat-v20.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-report-intrastat-v20",
+  "title": "Set up and report Intrastat",
+  "blob": "e5d919bea43cbe85d513e87e8d249c15a63b5421",
+  "summary": "Intrastat reporting documents EU trade transactions with other member states for tax and statistical authorities. Set up commodity codes, transaction types, transport methods, and mandatory fields before monthly journal reporting.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "intrastat",
+    "eu trade reporting",
+    "customs codes",
+    "transaction types",
+    "statistical reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intrastat Journal"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Setup"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Checklist Setup"
+    },
+    {
+      "type": "page",
+      "name": "Transport Methods"
+    },
+    {
+      "type": "page",
+      "name": "Commodity Codes"
+    },
+    {
+      "type": "page",
+      "name": "Transaction Nature Codes"
+    },
+    {
+      "type": "page",
+      "name": "Tariff Numbers"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "report",
+      "name": "Intrastat – Form"
+    },
+    {
+      "type": "report",
+      "name": "Prints Intrastat Journal"
+    }
+  ],
+  "features": [
+    "intrastat journal creation",
+    "commodity code setup",
+    "transaction type codes",
+    "transport method codes",
+    "mandatory field enforcement",
+    "intrastat checklist",
+    "file creation and export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

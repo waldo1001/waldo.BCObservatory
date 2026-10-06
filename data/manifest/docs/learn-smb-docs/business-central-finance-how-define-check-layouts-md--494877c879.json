@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "81aeaadf786b5b886762ef140cc72a4008406ba4",
       "words": 647,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.274Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:10.971Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:10.973Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:10.974Z",
+      "page": false
     }
   },
   "input_hash": "81aeaadf786b5b886762ef140cc72a4008406ba4",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "81aeaadf786b5b886762ef140cc72a4008406ba4"
+  "output_hash": "cb0bfe706cbfcdc5b54e030e3af3bf6bcf906581e746f0a06f46c24268ae58c0"
 }

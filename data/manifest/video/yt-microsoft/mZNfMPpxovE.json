@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Historical Snapshot (2024)",
   "url": "https://www.youtube.com/watch?v=mZNfMPpxovE",
-  "published_at": null,
+  "published_at": "2024-10-18T06:50:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:05:51.780Z",
+      "captions": "auto:en-orig",
+      "duration_s": 356
+    },
+    "captioned": {
+      "at": "2026-10-06T19:05:59.786Z",
+      "path": "data/captions/microsoft/mZNfMPpxovE.vtt",
+      "vtt_sha256": "f7134aabee64a04998f4756e50d6c83bd80239030240b5f1a92f4ea77efb2862",
+      "segments": 18,
+      "words": 934,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 320,
     "duration_s": 356,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7134aabee64a04998f4756e50d6c83bd80239030240b5f1a92f4ea77efb2862"
 }

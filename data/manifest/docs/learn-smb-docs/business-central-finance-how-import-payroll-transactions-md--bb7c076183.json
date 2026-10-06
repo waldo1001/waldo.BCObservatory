@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-import-payroll-transactions",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "80153732cefd6cc334d51e395ec5785082035c6e",
       "words": 296,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.277Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.749Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.750Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.751Z",
+      "page": false
     }
   },
   "input_hash": "80153732cefd6cc334d51e395ec5785082035c6e",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80153732cefd6cc334d51e395ec5785082035c6e"
+  "output_hash": "9435ce319a2a7583cc22689d8e3150d512d19bd90aa9f4a799f2bcb39ba11082"
 }

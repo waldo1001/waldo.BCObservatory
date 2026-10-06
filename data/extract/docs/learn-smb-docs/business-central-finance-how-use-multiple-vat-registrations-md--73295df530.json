@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-use-multiple-vat-registrations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
+  "title": "Multiple VAT registration numbers",
+  "blob": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
+  "summary": "Multiple VAT registration numbers allows businesses with warehouses in multiple EU countries to set up different VAT numbers per location and automatically apply the correct VAT registration and posting groups when creating sales documents.",
+  "systems": [
+    "finance",
+    "localization",
+    "sales"
+  ],
+  "topics": [
+    "vat",
+    "tax-compliance",
+    "multi-country",
+    "customer-setup",
+    "eu-regulations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Alternative Customer VAT Registration"
+    },
+    {
+      "type": "page",
+      "name": "Ship-to Address List"
+    },
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    }
+  ],
+  "features": [
+    "alternative VAT registration per country",
+    "ship-to address VAT handling",
+    "automatic VAT posting group assignment",
+    "custom address VAT mapping",
+    "sales credit memo VAT inheritance"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

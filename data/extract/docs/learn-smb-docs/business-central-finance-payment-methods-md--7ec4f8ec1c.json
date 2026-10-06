@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-payment-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-payment-methods",
+  "title": "Set up payment methods",
+  "blob": "4f2f81876a25b084c5ba9592bd27b8e343505bfe",
+  "summary": "Payment methods define how customers and vendors are paid or pay you, and can be assigned as defaults to customers or vendors with the ability to override per document.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "payments",
+    "customer-setup",
+    "vendor-setup",
+    "payment-methods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "table",
+      "name": "Payment Method"
+    }
+  ],
+  "features": [
+    "default payment method assignment",
+    "customer payment method defaults",
+    "vendor payment method defaults",
+    "document-level payment method override"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

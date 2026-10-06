@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-enable-application-ledger-entries-different-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies",
+  "title": "Apply Entries in Different Currencies",
+  "blob": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c",
+  "summary": "Application of ledger entries in different currencies enables matching payments and invoices across currency boundaries. Set up currency application rules and rounding difference accounts for vendors and customers.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "currency application",
+    "ledger entries",
+    "multi-currency",
+    "rounding differences",
+    "currency conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    }
+  ],
+  "features": [
+    "application between currencies",
+    "EMU currency application",
+    "currency rounding accounts",
+    "ledger entry application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

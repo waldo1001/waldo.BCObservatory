@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "11905e5a1d412ab203509012aace32bfc958c2fc",
       "words": 1238,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:10.961Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.006645
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.808Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.809Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.818Z",
+      "page": false
     }
   },
   "input_hash": "11905e5a1d412ab203509012aace32bfc958c2fc",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11905e5a1d412ab203509012aace32bfc958c2fc"
+  "output_hash": "06985ba61e2363db84eac03ce794b14cfc6bbf9a2f44b5e0e5770d1030e0824e"
 }

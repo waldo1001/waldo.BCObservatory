@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-use-service-declaration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-use-service-declaration",
+  "title": "Set Up and Use the Service Declaration Extension",
+  "blob": "0ea531ed5b46597f7f60425161ef41730b864f04",
+  "summary": "Set up and use the Service Declaration extension to collect and report service trade information to EU authorities. Configure the extension, set up service transaction types, items, resources, and item charges, then create and submit service declarations.",
+  "systems": [
+    "finance",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "service declaration",
+    "intrastat",
+    "eu compliance",
+    "vat reporting",
+    "data exchange"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Service Declaration Line"
+    },
+    {
+      "type": "page",
+      "name": "Service Declaration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Transaction Types"
+    },
+    {
+      "type": "page",
+      "name": "Service Declarations"
+    },
+    {
+      "type": "page",
+      "name": "Data Exchange Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "page",
+      "name": "Item Charges"
+    }
+  ],
+  "features": [
+    "service declaration",
+    "intrastat for services",
+    "data exchange framework",
+    "file creation",
+    "service transaction types",
+    "exclude from service declaration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

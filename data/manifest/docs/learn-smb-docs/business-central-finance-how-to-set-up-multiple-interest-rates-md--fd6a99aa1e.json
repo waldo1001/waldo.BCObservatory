@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-multiple-interest-rates",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "544de2ca11eabb2fff72951b5b5c01edaab73066",
       "words": 301,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:04.131Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003605
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.775Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.776Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.776Z",
+      "page": false
     }
   },
   "input_hash": "544de2ca11eabb2fff72951b5b5c01edaab73066",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "544de2ca11eabb2fff72951b5b5c01edaab73066"
+  "output_hash": "cf9d5b4e263618373311ee8fd4c9c689b4e6a5484abe26c5b17023621fba00e9"
 }

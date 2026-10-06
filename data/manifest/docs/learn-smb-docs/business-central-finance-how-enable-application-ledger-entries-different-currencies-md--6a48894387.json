@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c",
       "words": 291,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:47.275Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005377
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:10.976Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:10.977Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:10.978Z",
+      "page": false
     }
   },
   "input_hash": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c"
+  "output_hash": "35af50399ee3858c2842dcd048c01121d8194d37cce5be9b85f6c7e3fe279e8c"
 }

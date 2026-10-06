@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-delete-cost-budget-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-delete-cost-budget-entries",
+  "title": "Delete cost budget entries",
+  "blob": "232fbb737107c8ab8bb2f86f081d99cc2e594dd0",
+  "summary": "Delete cost budget entries using the batch job to cancel entries from the cost budget register while preventing gaps in the register sequence.",
+  "systems": [
+    "finance",
+    "manufacturing"
+  ],
+  "topics": [
+    "cost budget",
+    "cost accounting",
+    "batch job",
+    "deletion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Delete Cost Budget Entries"
+    },
+    {
+      "type": "page",
+      "name": "Cost Budget Registers"
+    }
+  ],
+  "features": [
+    "delete cost budget entries",
+    "cost budget register",
+    "closed register entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

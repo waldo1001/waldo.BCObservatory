@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-set-up-multiple-interest-rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-multiple-interest-rates",
+  "title": "Set Up Multiple Interest Rates for Delayed Payment",
+  "blob": "544de2ca11eabb2fff72951b5b5c01edaab73066",
+  "summary": "Set up multiple interest rates for different periods to calculate penalty fees and finance charges for delayed payments in finance charge terms and reminder terms.",
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "interest rates",
+    "finance charges",
+    "delayed payment",
+    "reminder terms",
+    "penalty"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Finance Charge Terms"
+    },
+    {
+      "type": "page",
+      "name": "Reminder Terms"
+    },
+    {
+      "type": "page",
+      "name": "Reminder Levels"
+    }
+  ],
+  "features": [
+    "multiple interest rates",
+    "interest rates",
+    "finance charge terms",
+    "reminder terms",
+    "calculate interest"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003605,
+      "pages_in_call": 8
+    }
+  ]
+}

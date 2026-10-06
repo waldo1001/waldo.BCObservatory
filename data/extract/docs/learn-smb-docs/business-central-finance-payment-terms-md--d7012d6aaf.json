@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-payment-terms.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms",
+  "title": "Set up payment terms",
+  "blob": "5edf68ee4deecf7e5c95137c62a9393146674298",
+  "summary": "Payment terms set due dates and payment discount calculations for customers and vendors using date formulas, with discounts automatically calculated on invoices and credit memos.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "payment-terms",
+    "discounts",
+    "due-dates",
+    "customer-setup",
+    "vendor-setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "table",
+      "name": "Payment Terms"
+    }
+  ],
+  "features": [
+    "date formula payment terms",
+    "payment discount calculation",
+    "credit memo discount handling",
+    "discount application to credit memos",
+    "partial payment support in local versions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

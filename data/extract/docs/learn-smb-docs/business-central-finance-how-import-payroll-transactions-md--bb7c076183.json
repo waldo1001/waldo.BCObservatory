@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-import-payroll-transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-import-payroll-transactions",
+  "title": "Import payroll transactions",
+  "blob": "80153732cefd6cc334d51e395ec5785082035c6e",
+  "summary": "Payroll transaction import enables importing payroll files from providers into the General Journal and mapping external accounts to G/L accounts. Supports Ceridian and Quickbooks payroll formats for automated salary posting.",
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "payroll import",
+    "payroll transactions",
+    "general journal",
+    "account mapping",
+    "salary payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "payroll file import",
+    "account mapping",
+    "Ceridian Payroll extension",
+    "Quickbooks Payroll File Import extension",
+    "transaction posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b76f03e4a896c9e8296fc4416cda69a3a79cc4e",
       "words": 407,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:04.128Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003605
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.766Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.766Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.768Z",
+      "page": false
     }
   },
   "input_hash": "6b76f03e4a896c9e8296fc4416cda69a3a79cc4e",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b76f03e4a896c9e8296fc4416cda69a3a79cc4e"
+  "output_hash": "55ff0731f999a06e25a91952bff4ffeb8a0516c2eaa359f575975de7761d6cef"
 }

@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer",
+  "title": "Make payments with AMC banking (US) or SEPA credit transfer (EU)",
+  "blob": "744739f817bebba43c8204ab3b13ec1234caedb6",
+  "summary": "Payment export functionality enables vendors to be paid by exporting payment information to SEPA Credit Transfer format or AMC Banking 365 Fundamentals extension for electronic processing through banks.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "payments",
+    "bank-transfers",
+    "sepa",
+    "electronic-payments",
+    "vendor-payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Credit Transfer Registers"
+    }
+  ],
+  "features": [
+    "SEPA Credit Transfer format support",
+    "AMC Banking 365 Fundamentals extension",
+    "payment file export",
+    "bank data conversion",
+    "credit transfer registration tracking",
+    "payment export history"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

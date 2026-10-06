@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-invoice-rounding",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9461d6067a701ae7be1efba27d300a582fd42acf",
       "words": 525,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:10.960Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.006645
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:12.793Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:12.799Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:12.800Z",
+      "page": false
     }
   },
   "input_hash": "9461d6067a701ae7be1efba27d300a582fd42acf",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9461d6067a701ae7be1efba27d300a582fd42acf"
+  "output_hash": "0e0bc06e2bc007fe6b2a3f0c2634da8acfab282f45e4def5c5f300e73164a90f"
 }

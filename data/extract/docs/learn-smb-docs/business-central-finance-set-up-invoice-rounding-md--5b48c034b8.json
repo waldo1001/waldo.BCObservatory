@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-invoice-rounding.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-invoice-rounding",
+  "title": "Set up invoice rounding",
+  "blob": "9461d6067a701ae7be1efba27d300a582fd42acf",
+  "summary": "Invoice rounding automatically rounds invoice amounts to a specified precision and posts the difference to a designated G/L account, with separate setup for local and foreign currencies.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "invoicing",
+    "rounding",
+    "currency",
+    "posting-setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "automatic invoice rounding",
+    "rounding account assignment",
+    "amount rounding precision",
+    "unit-amount rounding precision",
+    "foreign currency rounding",
+    "rounding type selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}

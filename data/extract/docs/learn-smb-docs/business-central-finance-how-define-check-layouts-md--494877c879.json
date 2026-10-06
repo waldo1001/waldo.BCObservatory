@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-define-check-layouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
+  "title": "Specify the Layout of a Check",
+  "blob": "81aeaadf786b5b886762ef140cc72a4008406ba4",
+  "summary": "Check layout specification allows selecting predefined check formats for printing in different stub configurations and setting up MICR and security fonts. Choose from default and specialized check report layouts for North American standard formats.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "check printing",
+    "check layout",
+    "micr fonts",
+    "security fonts",
+    "bank checks"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Selection - Bank Acc."
+    },
+    {
+      "type": "report",
+      "name": "Check"
+    },
+    {
+      "type": "report",
+      "name": "Check (Stub/Stub/Check)"
+    },
+    {
+      "type": "report",
+      "name": "Check (Stub/Check/Stub)"
+    },
+    {
+      "type": "report",
+      "name": "Three Checks per Page"
+    }
+  ],
+  "features": [
+    "check layout selection",
+    "MICR E-13B fonts",
+    "MICR CMC-7 fonts",
+    "security font support",
+    "check stub formats"
+  ],
+  "versions": [
+    "update 15.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

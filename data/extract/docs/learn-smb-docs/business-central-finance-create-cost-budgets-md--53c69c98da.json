@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-create-cost-budgets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-create-cost-budgets",
+  "title": "Creating cost budgets",
+  "blob": "910b1e7959507359d034886a763850538d36c7a3",
+  "summary": "Cost budgeting in Business Central allows creating and analyzing budgets based on cost types for a fiscal period. Use batch jobs to copy, allocate, and report cost budgets with comparisons against actual costs.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost budgets",
+    "cost accounting",
+    "budget allocation",
+    "budget reporting",
+    "cost types"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cost Budget Registers"
+    },
+    {
+      "type": "page",
+      "name": "Cost Allocation"
+    },
+    {
+      "type": "report",
+      "name": "Copy G-L Budget to Cost Acctg."
+    },
+    {
+      "type": "report",
+      "name": "Copy Cost Budget"
+    },
+    {
+      "type": "report",
+      "name": "Cost Acctg. Balance-Budget"
+    },
+    {
+      "type": "report",
+      "name": "Cost Acctg. Statement-Budget"
+    },
+    {
+      "type": "report",
+      "name": "Cost Budget by Cost Center"
+    },
+    {
+      "type": "report",
+      "name": "Cost Budget by Cost Object"
+    }
+  ],
+  "features": [
+    "cost budget creation",
+    "budget copying",
+    "budget allocation",
+    "cost budget reporting",
+    "budget comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005377,
+      "pages_in_call": 8
+    }
+  ]
+}

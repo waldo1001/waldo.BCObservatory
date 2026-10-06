@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-use-vat-rate-change-tool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool",
+  "title": "Managing VAT rate changes",
+  "blob": "fee5c2c88f98b259a8fbba26c5ddf044d8c89f0c",
+  "summary": "The VAT Rate Change tool helps manage VAT rate updates by converting rates on master data, journals, and orders, though it has limitations for certain document types and requires careful preparation and testing.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "tax-rates",
+    "master-data",
+    "compliance",
+    "data-conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Rate Change Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Rate Change Log Entry"
+    }
+  ],
+  "features": [
+    "VAT product posting group conversion",
+    "general product posting group conversion",
+    "unit price update for items and resources",
+    "test conversion capability",
+    "conversion logging and tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006645,
+      "pages_in_call": 8
+    }
+  ]
+}
