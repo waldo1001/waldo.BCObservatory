@@ -39,17 +39,26 @@ export interface StageContext {
   sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url">>;
 }
 export type StageFn = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
-/** A plain function, or one that only takes some items (e.g. official tier until the vault can be pushed). */
-export type StageHandler = StageFn | { accepts: (item: ManifestItem) => boolean; run: StageFn };
+/** One call for several items of the same stage (e.g. 8 short Learn pages per Haiku call); an Error per failed item. */
+export type BatchFn = (items: ManifestItem[], ctx: StageContext) => Promise<Map<string, StageResult | Error>>;
+/**
+ * A plain function; or `run` / `batch` with an optional `accepts` (e.g. official tier only). Items that a handler
+ * declines never compete for quota.
+ */
+export type StageHandler = StageFn
+  | { accepts?: (item: ManifestItem) => boolean; run: StageFn }
+  | { accepts?: (item: ManifestItem) => boolean; batch: { size: number; run: BatchFn } };
 export type StageHandlers = Partial<Record<Pillar, Partial<Record<Stage, StageHandler>>>>;
+export interface ResolvedHandler { run?: StageFn; batch?: { size: number; run: BatchFn } }
 
 /** The handler that would run this item's next stage, or null (no handler, or it declines the item). */
-export function handlerFor(handlers: StageHandlers, item: ManifestItem): StageFn | null {
+export function handlerFor(handlers: StageHandlers, item: ManifestItem): ResolvedHandler | null {
   const stage = nextStage(item);
   const h = stage ? handlers[item.pillar]?.[stage] : undefined;
   if (!h) return null;
-  if (typeof h === "function") return h;
-  return h.accepts(item) ? h.run : null;
+  if (typeof h === "function") return { run: h };
+  if (h.accepts && !h.accepts(item)) return null;
+  return "batch" in h ? { batch: h.batch } : { run: h.run };
 }
 
 export type StopReason = "done" | "hard-stop" | "llm-calls-max" | "spend-cap" | "guard-skip" | "aborted";
@@ -133,55 +142,90 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     return null;
   };
 
-  outer: for (const w of o.work) {
-    let item: ManifestItem | null = o.manifest.get(w.id);
-    if (!item) continue;
-    const charged = new Set<string>();
-    let touched = false;
-    for (let stage: Stage | null = nextStage(item); stage; stage = nextStage(item)) {
-      const handler = handlerFor(o.handlers, item);
-      if (!handler) { if (!touched) r.no_handler++; break; }
-      const stop = await runStop();
-      if (stop) { r.stop_reason = stop; break outer; }
-      if (!charge(quotaFor(item.pillar, stage), charged)) break;
-      touched = true;
-      const key = `${item.pillar}:${stage}`;
-      try {
-        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir, contentDir: o.contentDir, mirrorsDir: o.mirrorsDir ?? "", sources: o.sources });
-        r.stages_run[key] = (r.stages_run[key] ?? 0) + 1;
-        if (res.skip) {
-          item = skip(item, res.skip);
-          o.manifest.save(item);
-          r.skipped++;
-          break;
-        }
-        const flags: string[] | undefined = res.flags?.length ? [...new Set([...(item.flags ?? []), ...res.flags])] : item.flags;
-        const { meta: metaPatch, ...fieldPatch }: NonNullable<StageResult["patch"]> = res.patch ?? {};
-        item = {
-          ...advance(item, stage, res.data ?? {}, o.clock()), ...fieldPatch,
-          ...(metaPatch ? { meta: { ...(item.meta ?? {}), ...metaPatch } } : {}),
-          ...(res.output_hash ? { output_hash: res.output_hash } : {}), ...(flags ? { flags } : {}),
-        };
-        o.manifest.save(item);
-        r.advanced++;
-      } catch (e) {
-        if (e instanceof LlmBudgetExhausted) { r.stop_reason = "spend-cap"; log.info(e.message); break outer; }
-        if (e instanceof LlmInfraError) { r.stop_reason = "aborted"; r.errors.push(`${item.id} ${stage}: ${e.message}`); break outer; }
-        if (e instanceof StageHold) {
-          r.held++;
-          if (r.held === 1 || r.held % 25 === 0) r.errors.push(`held ${item.id} ${stage}: ${e.message.slice(0, 200)}`);
-          break;
-        }
-        const msg = String((e as Error)?.message ?? e);
-        item = fail(item, msg, o.budget.retry, o.clock());
-        o.manifest.save(item);
-        if (item.state === "failed") r.failed_final++; else r.failed_attempts++;
-        r.errors.push(`${item.id} ${stage}: ${msg.slice(0, 300)}`);
-        log.warn(`${item.id} ${stage} failed (attempt ${item.attempts}): ${msg.slice(0, 200)}`);
-        break;
+  const ctx: StageContext = { now: o.clock, manifest: o.manifest, dataDir: o.dataDir, contentDir: o.contentDir, mirrorsDir: o.mirrorsDir ?? "", sources: o.sources };
+  const chargedBy = new Map<string, Set<string>>();
+  const chargedOf = (id: string) => { let c = chargedBy.get(id); if (!c) chargedBy.set(id, (c = new Set())); return c; };
+  const touched = new Set<string>();
+  /** Items whose run ended this night (failed, held, skipped): never picked up again in the same run. */
+  const ended = new Set<string>();
+  let stop: StopReason | null = null;
+
+  /** Record one item's outcome for one stage. Returns the item if it may continue with its next stage. */
+  const settle = (item: ManifestItem, stage: Stage, out: StageResult | Error): ManifestItem | null => {
+    const key = `${item.pillar}:${stage}`;
+    if (out instanceof Error) {
+      if (out instanceof LlmBudgetExhausted) { stop = "spend-cap"; log.info(out.message); return null; }
+      if (out instanceof LlmInfraError) { stop = "aborted"; r.errors.push(`${item.id} ${stage}: ${out.message}`); return null; }
+      ended.add(item.id);
+      if (out instanceof StageHold) {
+        r.held++;
+        if (r.held === 1 || r.held % 25 === 0) r.errors.push(`held ${item.id} ${stage}: ${out.message.slice(0, 200)}`);
+        return null;
       }
+      const msg = String(out.message ?? out);
+      const failed = fail(item, msg, o.budget.retry, o.clock());
+      o.manifest.save(failed);
+      if (failed.state === "failed") r.failed_final++; else r.failed_attempts++;
+      r.errors.push(`${item.id} ${stage}: ${msg.slice(0, 300)}`);
+      log.warn(`${item.id} ${stage} failed (attempt ${failed.attempts}): ${msg.slice(0, 200)}`);
+      return null;
     }
-    if (touched) r.items_touched++;
+    r.stages_run[key] = (r.stages_run[key] ?? 0) + 1;
+    if (out.skip) { o.manifest.save(skip(item, out.skip)); r.skipped++; ended.add(item.id); return null; }
+    const flags: string[] | undefined = out.flags?.length ? [...new Set([...(item.flags ?? []), ...out.flags])] : item.flags;
+    const { meta: metaPatch, ...fieldPatch }: NonNullable<StageResult["patch"]> = out.patch ?? {};
+    const next: ManifestItem = {
+      ...advance(item, stage, out.data ?? {}, o.clock()), ...fieldPatch,
+      ...(metaPatch ? { meta: { ...(item.meta ?? {}), ...metaPatch } } : {}),
+      ...(out.output_hash ? { output_hash: out.output_hash } : {}), ...(flags ? { flags } : {}),
+    };
+    o.manifest.save(next);
+    r.advanced++;
+    return next;
+  };
+  const asError = (e: unknown) => (e instanceof Error ? e : new Error(String(e)));
+
+  outer: for (let wi = 0; wi < o.work.length; wi++) {
+    if (ended.has(o.work[wi].id)) continue;
+    let item: ManifestItem | null = o.manifest.get(o.work[wi].id);
+    if (!item) continue;
+    for (let stage: Stage | null = nextStage(item); item && stage; stage = item ? nextStage(item) : null) {
+      const h = handlerFor(o.handlers, item);
+      if (!h) { if (!touched.has(item.id)) r.no_handler++; break; }
+      const s = await runStop();
+      if (s) { stop = s; break outer; }
+      const q = quotaFor(item.pillar, stage);
+      if (!charge(q, chargedOf(item.id))) break;
+      touched.add(item.id);
+      if (h.run) {
+        let out: StageResult | Error;
+        try { out = await h.run(item, ctx); } catch (e) { out = asError(e); }
+        item = settle(item, stage, out);
+      } else {
+        // fill the batch with later planned items waiting for the same stage and handler
+        const group: ManifestItem[] = [item];
+        for (let j = wi + 1; j < o.work.length && group.length < h.batch!.size; j++) {
+          if (ended.has(o.work[j].id)) continue;
+          const peer = o.manifest.get(o.work[j].id);
+          if (!peer || peer.pillar !== item.pillar || nextStage(peer) !== stage || handlerFor(o.handlers, peer)?.batch?.run !== h.batch!.run) continue;
+          if (!charge(q, chargedOf(peer.id))) break;
+          touched.add(peer.id);
+          group.push(peer);
+        }
+        let results: Map<string, StageResult | Error>;
+        try { results = await h.batch!.run(group, ctx); } catch (e) { results = new Map(group.map((g) => [g.id, asError(e)])); }
+        let mine: ManifestItem | null = null;
+        for (const g of group) {
+          const after = settle(g, stage, results.get(g.id) ?? new Error("batch returned no result for this item"));
+          if (g.id === item.id) mine = after;
+          if (stop) break;
+        }
+        item = mine;
+      }
+      if (stop) break outer;
+    }
   }
+  if (stop) r.stop_reason = stop;
+  r.items_touched = touched.size;
   return r;
 }

@@ -133,3 +133,30 @@ test("a stage can patch item fields it learned (e.g. the real upload time)", asy
   const v = get(m, "VID1");
   assert.deepEqual([v.state, v.published_at, v.title, v.meta?.duration_s], ["fetched", "2026-09-30T08:00:00.000Z", "Real", 99]);
 });
+
+test("batch handlers: one call for up to N planned items, per-item quota and outcomes, then items go on alone", async () => {
+  const m = setup(5);
+  const calls: string[][] = [];
+  const batch = { size: 2, run: async (items: ManifestItem[]) => {
+    calls.push(items.map((i) => i.id.slice(-4)));
+    return new Map(items.map((i) => [i.id, i.id.endsWith("VID4") ? new Error("bad page") : { data: { batched: items.length } }]));
+  } };
+  const r = await run(m, { video: { fetched: { batch }, captioned: ok } }, { quotas: { ...quotas, captions: 5 } });
+  assert.deepEqual(calls, [["VID5", "VID4"], ["VID3", "VID2"], ["VID1"]], "newest first, grouped in plan order");
+  assert.deepEqual([get(m, "VID5").state, get(m, "VID5").stages.fetched?.batched], ["captioned", 2]);
+  assert.deepEqual([get(m, "VID4").state, get(m, "VID4").attempts], ["discovered", 1]);
+  assert.equal(get(m, "VID1").state, "captioned");
+  assert.deepEqual([r.items_touched, r.failed_attempts, r.quota_charged.captions], [5, 1, 5]);
+});
+
+test("batch handlers: quota caps the group; a thrown StageHold holds the whole group", async () => {
+  const m = setup(3);
+  const sizes: number[] = [];
+  const batch = { size: 8, run: async (items: ManifestItem[]) => { sizes.push(items.length); return new Map(items.map((i) => [i.id, {}])); } };
+  await run(m, { video: { fetched: { batch } } }, { quotas: { ...quotas, captions: 2 } });
+  assert.deepEqual(sizes, [2]);
+  assert.equal(get(m, "VID1").state, "discovered");
+  const m2 = setup(3);
+  const r = await run(m2, { video: { fetched: { batch: { size: 8, run: async () => { throw new StageHold("mirror busy"); } } } } });
+  assert.deepEqual([r.held, get(m2, "VID3").attempts], [3, 0]);
+});
