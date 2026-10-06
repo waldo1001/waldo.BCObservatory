@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations",
+  "title": "Electronic VAT and ICP Declarations [NL]",
+  "blob": "b77bcb3ecd1fdf093615fadcf5cab5ed2a4ac61b",
+  "summary": "Setting up electronic VAT and ICP declarations for the Dutch version requires configuring Digipoort endpoints, uploading PKIoverheid and service certificates, and entering tax authority information to enable secure communication with tax offices.",
+  "systems": [
+    "localization",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "electronic tax declaration",
+    "digipoort",
+    "certificates",
+    "netherlands",
+    "setup",
+    "endpoint"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Elec. Tax Declaration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Certificates"
+    }
+  ],
+  "features": [
+    "Digipoort setup",
+    "certificate configuration",
+    "endpoint URLs",
+    "PKIoverheid certificate",
+    "service certificate",
+    "fiscal entity setup",
+    "VAT contact type"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

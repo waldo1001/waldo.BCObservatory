@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup",
   "published_at": "2026-05-20T10:41:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "05d44479d531b38cb35fedcec99ea0f5968ca720",
       "words": 1116,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.393Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.401Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.402Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.403Z",
+      "page": false
     }
   },
   "input_hash": "05d44479d531b38cb35fedcec99ea0f5968ca720",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05d44479d531b38cb35fedcec99ea0f5968ca720"
+  "output_hash": "26b83524052a7b3a1108e2585d51c2f79775dd9974f2002dc13ce0dd35a92a3e"
 }

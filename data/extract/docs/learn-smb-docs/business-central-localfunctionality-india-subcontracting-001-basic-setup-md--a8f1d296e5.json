@@ -1,0 +1,75 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup",
+  "title": "Setting Up Subcontracting",
+  "blob": "05d44479d531b38cb35fedcec99ea0f5968ca720",
+  "summary": "Setting up subcontracting for Indian localization enables manufacturing organizations to send raw materials to subcontractors via delivery challans, manage GST liability based on return periods, and track job work stock registers.",
+  "systems": [
+    "manufacturing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "subcontracting",
+    "job work",
+    "delivery challan",
+    "gst liability",
+    "india",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    },
+    {
+      "type": "page",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Work Center"
+    },
+    {
+      "type": "page",
+      "name": "Routing"
+    }
+  ],
+  "features": [
+    "subcontracting location setup",
+    "subcontracting vendor setup",
+    "subcontracting item setup",
+    "job work return period",
+    "GST liability",
+    "delivery challan",
+    "stock register for job work",
+    "multiple subcontracting orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

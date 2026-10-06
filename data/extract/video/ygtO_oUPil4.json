@@ -1,0 +1,113 @@
+{
+  "video_id": "ygtO_oUPil4",
+  "item_id": "video/yt-microsoft/ygtO_oUPil4",
+  "title": "Copilot Managing Complaints by Trimit",
+  "duration_s": 65,
+  "systems": [
+    "copilot",
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "copilot",
+    "complaint management",
+    "email processing",
+    "keyword extraction",
+    "complaint order",
+    "process automation",
+    "customer service"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Complaint Management",
+      "t_start": 0,
+      "t_end": 15.9
+    },
+    {
+      "title": "Email Upload and Processing",
+      "t_start": 15.9,
+      "t_end": 28.7
+    },
+    {
+      "title": "Complaint Order Generation",
+      "t_start": 28.7,
+      "t_end": 41.1
+    },
+    {
+      "title": "Benefits and Time Savings",
+      "t_start": 41.1,
+      "t_end": 65
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Complaint Management",
+      "description": "A new feature that allows users to upload customer emails into Business Central. Copilot analyzes the email text, extracts key elements and keywords, then generates a complaint order automatically from the customer feedback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.2,
+      "t_end": 41.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "complaint",
+        "email",
+        "automation",
+        "customer service"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Trimit",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 2.2,
+      "text": "We've created a new feature in uh Business Central which allows the users to upload an email into the system and then copilot will",
+      "why_it_matters": "Establishes the core capability - email-to-complaint automation using copilot and keyword extraction.",
+      "check": "exact"
+    },
+    {
+      "t": 28.7,
+      "text": "Two of these items were ordered and there was some paint peeling off and another one got damaged during shipment.",
+      "why_it_matters": "Demonstrates the types of issues copilot extracts from customer emails to populate complaint details.",
+      "check": "exact"
+    },
+    {
+      "t": 41.1,
+      "text": "When I press generate, Copilot is going to find all the key elements in this mail and present them to us so we can",
+      "why_it_matters": "Highlights the workflow efficiency and time savings benefit of the automated complaint creation process.",
+      "check": "exact"
+    },
+    {
+      "t": 57.4,
+      "text": "This is an area that our customers usually want to spend the least amount of time on.",
+      "why_it_matters": "Emphasizes the importance of complaint management automation for customer priorities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007972
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing",
   "published_at": "2026-05-14T06:34:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "216c33b802d92a9f545f347bdfd536b9f22eaccd",
       "words": 2518,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.399Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.419Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.421Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.422Z",
+      "page": false
     }
   },
   "input_hash": "216c33b802d92a9f545f347bdfd536b9f22eaccd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "216c33b802d92a9f545f347bdfd536b9f22eaccd"
+  "output_hash": "4ce5674542825adfb574e3beeb86705ee851a5a86df29c777489a476924067f2"
 }

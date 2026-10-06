@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types",
   "published_at": "2026-05-18T09:32:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "28228614ff69781a4dabf447b041c76c853196c3",
       "words": 855,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.398Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.416Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.417Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.418Z",
+      "page": false
     }
   },
   "input_hash": "28228614ff69781a4dabf447b041c76c853196c3",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "28228614ff69781a4dabf447b041c76c853196c3"
+  "output_hash": "238607d3853a7b9373fb989ee848c6fb5e89437202290508facaf7d7c68604f4"
 }

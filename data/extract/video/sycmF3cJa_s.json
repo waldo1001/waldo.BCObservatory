@@ -1,0 +1,138 @@
+{
+  "video_id": "sycmF3cJa_s",
+  "item_id": "video/yt-microsoft/sycmF3cJa_s",
+  "title": "Copilot Assisted Scheduling by PrintVis",
+  "duration_s": 75,
+  "systems": [
+    "manufacturing",
+    "copilot"
+  ],
+  "topics": [
+    "scheduling",
+    "optimization",
+    "production planning",
+    "machine scheduling",
+    "copilot assistance",
+    "print shop operations",
+    "constraint solving"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to PrintVis Copilot Scheduling",
+      "t_start": 0,
+      "t_end": 17.4
+    },
+    {
+      "title": "Selecting machines and date range",
+      "t_start": 17.4,
+      "t_end": 29
+    },
+    {
+      "title": "Setting optimization options",
+      "t_start": 29,
+      "t_end": 40
+    },
+    {
+      "title": "Generating and loading optimized schedule",
+      "t_start": 40,
+      "t_end": 75
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Assisted Scheduling",
+      "description": "PrintVis Copilot functionality that optimizes job scheduling across multiple machines. Users select machines, date range, and optimization criteria, then Copilot generates an optimized schedule.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.2,
+      "t_end": 55.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only demonstrated for print shop scheduling"
+      ],
+      "tags": [
+        "scheduling",
+        "optimization",
+        "machine planning",
+        "copilot"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Optimization Options",
+      "description": "Configuration options for scheduling optimization such as avoiding paper changes on machines. Users can select specific criteria based on their business needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29,
+      "t_end": 40,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "optimization",
+        "constraints",
+        "configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Schedule Loading",
+      "description": "Feature to load the Copilot-generated optimized schedule into the planning board for execution. Applies optimization across multiple machines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.7,
+      "t_end": 75,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "loading",
+        "planning board"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.2,
+      "text": "This is a demonstration of the print viz co-pilot assisted scheduling functionality.",
+      "why_it_matters": "Clearly identifies the feature being demonstrated and its role in print shop operations.",
+      "check": "exact"
+    },
+    {
+      "t": 29,
+      "text": "These are reasons why different print shops want to place certain jobs on one machine as opposed to another.",
+      "why_it_matters": "Explains the business rationale behind optimization options, showing Copilot addresses real print shop constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 40,
+      "text": "Clicking optimize sends the information to co-pilot so it can generate a optimize schedule across these three machines.",
+      "why_it_matters": "Describes the core workflow - user input flows to Copilot which generates the optimized schedule.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012813999999999999
+    }
+  ]
+}

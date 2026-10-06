@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-pick-for-production.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-production",
+  "title": "Pick or move items for production, assembly, or projects in basic warehouse configurations",
+  "blob": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d",
+  "summary": "Picking for production, assembly, or projects in basic warehouse configurations uses inventory picks and inventory movements, with picks posting consumption immediately while movements require separate consumption posting.",
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "inventory pick",
+    "inventory movement",
+    "flushing",
+    "bin",
+    "consumption"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Order"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "page",
+      "name": "Output Journal"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    }
+  ],
+  "features": [
+    "inventory pick",
+    "inventory movement",
+    "consumption posting",
+    "component flushing",
+    "over-picking",
+    "bin mandatory"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

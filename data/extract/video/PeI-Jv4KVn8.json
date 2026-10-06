@@ -1,0 +1,155 @@
+{
+  "video_id": "PeI-Jv4KVn8",
+  "item_id": "video/yt-microsoft/PeI-Jv4KVn8",
+  "title": "Copilot Managing Maintenance Intake by Zig",
+  "duration_s": 70,
+  "systems": [
+    "service",
+    "copilot",
+    "fixed-assets"
+  ],
+  "topics": [
+    "maintenance intake",
+    "copilot",
+    "natural language",
+    "image analysis",
+    "maintenance request",
+    "wizard",
+    "ai-powered"
+  ],
+  "chapters": [
+    {
+      "title": "Problem statement and copilot solution overview",
+      "t_start": 0,
+      "t_end": 13.1
+    },
+    {
+      "title": "Copilot capabilities for maintenance intake",
+      "t_start": 13.1,
+      "t_end": 23.8
+    },
+    {
+      "title": "Starting maintenance intake with image",
+      "t_start": 23.8,
+      "t_end": 35.8
+    },
+    {
+      "title": "Copilot analysis and task generation",
+      "t_start": 35.8,
+      "t_end": 46.6
+    },
+    {
+      "title": "Viewing results and attachments",
+      "t_start": 46.6,
+      "t_end": 70
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot-powered maintenance intake",
+      "description": "A copilot solution that handles maintenance intake based on natural language, images, or a combination of both. It analyzes the input and creates a maintenance request with possible solutions for the fix.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.1,
+      "t_end": 57.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "maintenance",
+        "intake",
+        "copilot",
+        "ai",
+        "natural language",
+        "image analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Image-based maintenance issue analysis",
+      "description": "Copilot can analyze images of maintenance issues to determine the problem and suggest appropriate solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 35.8,
+      "t_end": 46.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "image analysis",
+        "maintenance",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Maintenance request attachments and AI explanation",
+      "description": "The system stores the image and provides an explanation of what the AI is seeing in the image when viewing the maintenance request attachments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.6,
+      "t_end": 57.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "maintenance request",
+        "transparency"
+      ],
+      "system": "service"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Zig",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 1.8,
+      "text": "for the reporting of an issue in around the house by a tenant. Uh we have an intake or sick operations that is done",
+      "why_it_matters": "Establishes the problem being solved - complex manual intake process that requires significant technical knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 13.1,
+      "text": "What we've created is a co-pilot solution that can do the intake based on natural language, an image or a combination both to uptake",
+      "why_it_matters": "Describes the core copilot capability using natural language and images to automate intake and generate solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 35.8,
+      "text": "copilot can look at the image, analyze it, and see what possible uh solutions there are.",
+      "why_it_matters": "Explains the technical capability of AI image analysis for determining maintenance issues and solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 57.6,
+      "text": "see a little bit of an explanation what the AI is seeing on the image to give a little bit of a of a",
+      "why_it_matters": "Shows transparency feature that helps users understand AI reasoning for maintenance request decisions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009945
+    }
+  ]
+}

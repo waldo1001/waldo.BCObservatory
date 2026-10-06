@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change",
+  "title": "Create a firm planned production order and change it",
+  "blob": "77bf1394587e1d1005d6884310c3ced58473bb41",
+  "summary": "This walkthrough shows how to create firm planned production orders using Contoso Coffee demo data, including backward and forward scheduling to manage order quantities and realistic start dates.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production order",
+    "scheduling",
+    "planning",
+    "contoso coffee",
+    "firm planned"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Firm Planned Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    }
+  ],
+  "features": [
+    "firm planned production order",
+    "backward scheduling",
+    "forward scheduling",
+    "order refresh",
+    "quantity management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

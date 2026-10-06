@@ -1,0 +1,27 @@
+{
+  "video_id": "K8nFVw5M-Po",
+  "item_id": "video/yt-microsoft/K8nFVw5M-Po",
+  "summary": "Vibe coding for AL in VS Code agent mode: demos of generating AL objects from natural language and specifications, context and model choices, MCP servers, and the stated roadmap for compile, publish and test tools. Presented as usable for production-grade coding as a productivity tool.",
+  "overview": "The session explains vibe coding as using AI, through agent mode in VS Code, to generate AL code from natural language requests and written specifications. It starts with a small demo that adds a shoe size field to the Customer table, where the agent reads app.json to pick the right ID range, then moves to a property rental example. There the agent asks clarifying questions, writes a specification and generates tables, pages, codeunits and permissions.\n\nThe presenters cover how to give the agent context (file references, symbols, readme files, chat instructions), how to pick among models such as GPT-5 preview, and how compiler diagnostics feed into generation. They also describe MCP servers, including a Business Central documentation server, and say that compile, publish and test tools and an environment metadata MCP server are still being worked on.",
+  "key_points": [
+    "Agent mode in VS Code reads app.json to resolve ID ranges and creates table extensions, page extensions and other scaffolding from a natural language request.",
+    "The agent can be asked to produce 10 or more clarifying questions and then a specification before it writes code; specs can be saved in files.",
+    "Context can be narrowed with file references, symbols, documentation and readme files, and chat instructions or prompt files can hold company coding rules and naming conventions.",
+    "Generated code can contain errors and may not follow guidelines perfectly. The agent has no compile method to call and relies on diagnostics produced while it builds, so error messages sometimes have to be fed back by hand.",
+    "Checkpoints let you review each stage and restore an earlier one if the agent goes off track.",
+    "A Business Central documentation MCP server was shown, and you can add your own MCP servers. An environment metadata MCP server, a compile tool, and publish and test tools were described as planned or in development.",
+    "The presenters recommend it for production-grade coding as a productivity tool for scaffolding and tedious tasks. It is harder to use on complex existing applications with many years of development."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "09277779393ae45246eaff3b2ec2b7f0d681c29e01cf6e55f9d8908ab2bf9c68",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.026574399999999998
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-production",
   "published_at": "2026-05-14T06:34:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d",
       "words": 1823,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.400Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.423Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.423Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.424Z",
+      "page": false
     }
   },
   "input_hash": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d"
+  "output_hash": "e4c135651058437b17358b7cdb9139b26623ce31aeca19fbf5febfc3eed8996c"
 }

@@ -1,0 +1,704 @@
+{
+  "video_id": "K8nFVw5M-Po",
+  "item_id": "video/yt-microsoft/K8nFVw5M-Po",
+  "title": "Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding",
+  "duration_s": 2117,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "vibe coding",
+    "ai-assisted development",
+    "agent mode",
+    "github copilot",
+    "al code generation",
+    "specification-driven development",
+    "context management",
+    "extension development",
+    "validation logic",
+    "table extensions",
+    "prompt engineering",
+    "compiler tools"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Vibe Coding",
+      "t_start": 0,
+      "t_end": 72.5
+    },
+    {
+      "title": "Vibe Coding vs GitHub Copilot and Agent Mode",
+      "t_start": 72.5,
+      "t_end": 114.5
+    },
+    {
+      "title": "Hello World Demo: Adding Shoe Size to Customer",
+      "t_start": 114.5,
+      "t_end": 270
+    },
+    {
+      "title": "Vibe Coding Capabilities and AL Support",
+      "t_start": 270,
+      "t_end": 354.3
+    },
+    {
+      "title": "Validation Example and Developer Mindset",
+      "t_start": 354.3,
+      "t_end": 442.1
+    },
+    {
+      "title": "Real World Application and Scenario Selection",
+      "t_start": 442.1,
+      "t_end": 556.9
+    },
+    {
+      "title": "Context and Specification Approach",
+      "t_start": 556.9,
+      "t_end": 637.2
+    },
+    {
+      "title": "Property Rental Specification Example and Agent Reasoning",
+      "t_start": 637.2,
+      "t_end": 890
+    },
+    {
+      "title": "Agent specification generation for property management",
+      "t_start": 890,
+      "t_end": 1009.2
+    },
+    {
+      "title": "Agent code generation and vibe coding approach",
+      "t_start": 1009.2,
+      "t_end": 1104.9
+    },
+    {
+      "title": "Iterative vibe coding versus traditional coding",
+      "t_start": 1104.9,
+      "t_end": 1240.7
+    },
+    {
+      "title": "Production code quality, debugging, and compiler enhancements",
+      "t_start": 1240.7,
+      "t_end": 1553.7
+    },
+    {
+      "title": "Model Context Protocol, configuration, and future of vibe coding",
+      "t_start": 1553.7,
+      "t_end": 2117
+    }
+  ],
+  "features": [
+    {
+      "name": "Vibe Coding with Agent Mode",
+      "description": "AI-powered agent mode in VS Code that understands natural language requests and generates AL code. The agent reasons over project context including app.json to create table extensions, page extensions, and other scaffolding automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.5,
+      "t_end": 296.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires agent mode enabled in VS Code",
+        "Works best for scaffolding and boilerplate code",
+        "Difficult with complex existing applications with years of development"
+      ],
+      "tags": [
+        "ai",
+        "al",
+        "agent mode",
+        "copilot",
+        "extension development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GPT-5 Preview Model Selection",
+      "description": "Option to use GPT-5 preview as the underlying model for vibe coding agent, noted as one of the newest models available with flexibility to choose from other models.",
+      "status": "preview",
+      "status_evidence_t": 166.5,
+      "status_evidence_quote": "I like the GT5 preview right now uh because that's one of the newest models",
+      "status_evidence_verified": true,
+      "t_start": 154.6,
+      "t_end": 186.6,
+      "is_demoed": true,
+      "caveats": [
+        "User must select appropriate model for their use case"
+      ],
+      "tags": [
+        "ai",
+        "gpt-5",
+        "model selection"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic ID Range Resolution",
+      "description": "Agent automatically reads app.json to determine correct ID ranges for creating new objects, mimicking what a developer would manually do when extending Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.6,
+      "t_end": 236.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "id range",
+        "app.json",
+        "scaffolding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Checkpoint and Rollback System",
+      "description": "Agent version includes checkpoints that allow developers to review changes at each stage and restore previous checkpoints if the agent goes off track, providing safety and iteration capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.5,
+      "t_end": 421.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "checkpoints",
+        "rollback",
+        "iteration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Context-Aware Code Generation",
+      "description": "Agent accepts file references, symbols, documentation, and readme files to narrow context for more accurate code generation. Developers can specify tables, create documentation, and add markdown to guide the agent's implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 556.9,
+      "t_end": 627.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual context setup for complex projects"
+      ],
+      "tags": [
+        "context",
+        "symbols",
+        "documentation",
+        "readme"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Specification-First Development Approach",
+      "description": "Developers write formal specifications and prompts to guide agent implementation rather than focusing on code details. Specs can be saved in files and include functional requirements, guidelines, and questions to clarify requirements before coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 637.2,
+      "t_end": 745.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires discipline to focus on spec rather than implementation details"
+      ],
+      "tags": [
+        "specification",
+        "requirements",
+        "spec-driven development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Question Generation",
+      "description": "Agent can be prompted to generate clarifying questions about a solution before coding. The agent combines user prompts with Business Central knowledge to suggest 10 plus questions about tenant tables, customer linkage, and other design considerations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 814.4,
+      "t_end": 877.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "question generation",
+        "clarification",
+        "requirements gathering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central Product Knowledge Integration",
+      "description": "AI agent has training data that includes Business Central knowledge such as core tables (customer table), permission sets, permission set management, and design patterns, allowing it to reason about domain-specific architecture.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 830.2,
+      "t_end": 877.6,
+      "is_demoed": true,
+      "caveats": [
+        "Knowledge limited to what was in training data"
+      ],
+      "tags": [
+        "business central",
+        "domain knowledge",
+        "training"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Prompt Refinement",
+      "description": "The agent can refine simple prompts into detailed specifications by asking clarifying questions and incorporating Business Central knowledge to suggest relevant tables, fields, and integration patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 794.8,
+      "t_end": 863,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user to review and answer clarifying questions",
+        "May need additional context for deep Business Central integration"
+      ],
+      "tags": [
+        "prompt engineering",
+        "specification generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Code Generation",
+      "description": "The agent can generate complete AL code including tables, pages, codeunits, and permissions specifications based on refined requirements, generating multiple objects simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1009.2,
+      "t_end": 1077.2,
+      "is_demoed": true,
+      "caveats": [
+        "Output quality depends on model version",
+        "May not always follow guidelines perfectly",
+        "Sometimes produces code with errors requiring manual fixes"
+      ],
+      "tags": [
+        "code generation",
+        "al guidelines",
+        "vibe coding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Iterative Vibe Coding Workflow",
+      "description": "Vibe coding is an iterative process where developers work with the agent to incrementally build and refine code through multiple rounds of requests rather than one-off code generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1104.9,
+      "t_end": 1205,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user engagement and understanding",
+        "Still requires some manual code review"
+      ],
+      "tags": [
+        "iterative development",
+        "workflow",
+        "vibe coding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Compiler Integration with Agents",
+      "description": "The agent can monitor compilation feedback and diagnostics during code generation, automatically adjusting code when errors or warnings are detected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1323.6,
+      "t_end": 1468,
+      "is_demoed": true,
+      "caveats": [
+        "Not all compilation signals are captured in real-time",
+        "Sometimes requires manual feeding back of error messages",
+        "Diagnostics may be delayed or incomplete"
+      ],
+      "tags": [
+        "compiler integration",
+        "error handling",
+        "feedback loop"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent Compilation Tool",
+      "description": "Enhancement in progress to provide agents with a compile method to call directly, enabling better error detection and handling during code generation rather than relying only on post-generation diagnostics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1489.5,
+      "t_end": 1543,
+      "is_demoed": false,
+      "caveats": [
+        "Still in development",
+        "Part of broader roadmap for agent tools"
+      ],
+      "tags": [
+        "compiler",
+        "agent tools",
+        "future enhancement"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent Publish and Test Execution Tools",
+      "description": "Future capability under development to enable agents to not only compile and publish extensions but also write and execute tests, creating a complete feedback loop for automated development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1519.7,
+      "t_end": 1553.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in development scope",
+        "Not yet available"
+      ],
+      "tags": [
+        "testing",
+        "publishing",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Model Context Protocol Integration",
+      "description": "MCP is an open-source standard that exposes tools and capabilities to AI agents through a discovery mechanism, allowing agents to access external resources like documentation and APIs intelligently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1553.7,
+      "t_end": 1628.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of MCP protocol",
+        "Server availability depends on third-party implementation"
+      ],
+      "tags": [
+        "mcp",
+        "protocol",
+        "agent context"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central Documentation MCP Server",
+      "description": "An MCP server is available that provides agents access to the complete Business Central documentation through an API, allowing the agent to search and reference documentation when writing code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1614.6,
+      "t_end": 1698.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper MCP server installation",
+        "Documentation search quality depends on API implementation"
+      ],
+      "tags": [
+        "documentation",
+        "mcp server",
+        "agent context"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Environment Metadata MCP Server",
+      "description": "A planned MCP server that will give access to environment metadata on the server, providing information about what symbols exist, and enabling more advanced development capabilities with metadata awareness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1698.8,
+      "t_end": 1730.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented"
+      ],
+      "tags": [
+        "metadata",
+        "mcp",
+        "symbols",
+        "planned"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom MCP Servers",
+      "description": "Users can add their own MCP servers for company-specific documentation, development resources, and context. Companies can expose their own tools through MCP protocol for use in Vibe Coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1751.1,
+      "t_end": 1763.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom",
+        "mcp",
+        "configuration",
+        "extensibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Chat Configuration and Custom Instructions",
+      "description": "Users can configure chat instructions, prompt files, and coding guidelines in the configuration to provide context to the AI model. Custom instructions can be added for coding standards, naming conventions, documentation requirements, and other company-specific rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1773.7,
+      "t_end": 1830.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "instructions",
+        "guidelines",
+        "prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Vibe Coding for Production",
+      "description": "Vibe Coding is suitable for production-grade coding. It functions as a productivity tool that helps with scaffolding, tedious tasks, and enables developers to be more productive while focusing on the right things.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1845.8,
+      "t_end": 1882.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vibe-coding",
+        "production",
+        "productivity",
+        "recommendation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multiple AI Model Support",
+      "description": "VS Code supports multiple AI models for Vibe Coding including GPT-4, GPT-5, and Claude. Users can switch between models, try different models for different scenarios, and change models at any time during coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1905.7,
+      "t_end": 1962.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "models",
+        "ai",
+        "gpt-4",
+        "gpt-5",
+        "claude",
+        "choice"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 144.3
+    },
+    {
+      "type": "other",
+      "name": "app JSON",
+      "t": 196.8
+    },
+    {
+      "type": "table",
+      "name": "Customer table",
+      "t": 843
+    },
+    {
+      "type": "other",
+      "name": "properties leases",
+      "t": 938.3
+    },
+    {
+      "type": "page",
+      "name": "pages",
+      "t": 1048.6
+    },
+    {
+      "type": "codeunit",
+      "name": "code units",
+      "t": 1048.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "unknown speaker 1",
+      "confidence": "low"
+    },
+    {
+      "name": "unknown speaker 2",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 57.6,
+      "text": "basically it's just uh using AI to help you code, right? So help you get started with your coding and get get things going.",
+      "why_it_matters": "Defines vibe coding fundamentally as AI-assisted coding rather than traditional code completion",
+      "check": "exact"
+    },
+    {
+      "t": 86.4,
+      "text": "we're taking it one step further using the agent mode in in VS code here or in other tools and we are letting the",
+      "why_it_matters": "Explains the key difference between vibe coding and previous GitHub Copilot suggestions - agents reason over data rather than just completing code",
+      "check": "exact"
+    },
+    {
+      "t": 166.5,
+      "text": "I like the GT5 preview right now uh because that's one of the newest models you can choose from a lot of other models",
+      "why_it_matters": "Shows that GPT-5 preview is available as a model option for vibe coding",
+      "check": "exact"
+    },
+    {
+      "t": 510.4,
+      "text": "going in and manipulating small details that are in your existing application that maybe has a lot of years on it or complex design,",
+      "why_it_matters": "Identifies a key limitation of agents with complex legacy applications",
+      "check": "exact"
+    },
+    {
+      "t": 647.5,
+      "text": "that's where you get to the true vibe coding where you don't need to look at the actual code. You talk about the spec.",
+      "why_it_matters": "Defines the mindset shift required for effective vibe coding - focus on specification rather than implementation details",
+      "check": "exact"
+    },
+    {
+      "t": 1519.7,
+      "text": "compile is one of them we also are thinking maybe we should add the ability to",
+      "why_it_matters": "Announces planned improvements to agent capabilities including compile and publish tools to create more complete development feedback loops.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1566.9,
+      "text": "So what we are working alo on also is adding MCP servers. So the model context protocol for giving the agents more context to",
+      "why_it_matters": "States the core initiative to enhance agent capabilities through Model Context Protocol servers for better context awareness.",
+      "check": "exact"
+    },
+    {
+      "t": 1583.2,
+      "text": "It's basically a standard um it's an open source standard right uh and it's um it's it's mostly a discovery mechanism that allows agents",
+      "why_it_matters": "Explains that MCP is an open source standard and discovery mechanism that agents are trained to understand, foundational to the architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 1698.8,
+      "text": "we are thinking about adding even more like the one we have for business central is more about getting access to the customer data",
+      "why_it_matters": "Indicates future plans to expand MCP capabilities with environment metadata access, showing product direction.",
+      "check": "exact"
+    },
+    {
+      "t": 1845.8,
+      "text": "Is that something that uh you you would recommend people use also for production uh production grade coding? Yes. Yeah, absolutely.",
+      "why_it_matters": "Confirms Vibe Coding is recommended for production use, not just experimentation, which is significant for adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 1867.8,
+      "text": "This is a productivity tool. It will help you do all the tedious, the scaffolding, all the the things that you have to do",
+      "why_it_matters": "Defines Vibe Coding's purpose and value proposition as handling repetitive tasks and scaffolding.",
+      "check": "exact"
+    },
+    {
+      "t": 1916.4,
+      "text": "different tools you should try you should try which one actually works for you there's a bit of a of you know a taste",
+      "why_it_matters": "Recommends experimentation with different AI models as each has different strengths and user preferences.",
+      "check": "exact"
+    },
+    {
+      "t": 2022.3,
+      "text": "if if you're just working on creating permission sets this might replace that but i think we as developers are",
+      "why_it_matters": "Addresses job security concerns by acknowledging some specific tasks might be automated while arguing that developer problem-solving remains essential.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 166.5,
+      "kind": "preview",
+      "text": "I like the GT5 preview right now uh because that's one of the newest models"
+    },
+    {
+      "t": 1453.2,
+      "kind": "other",
+      "text": "there is no compile method for the agent to call it relies on the diagnostics to be produced while it's building"
+    },
+    {
+      "t": 1508.6,
+      "kind": "coming-later",
+      "text": "We need to give the agent more tools compile is one of them We also are thinking maybe we should add the ability to publish"
+    },
+    {
+      "t": 1698.8,
+      "kind": "coming-later",
+      "text": "we are thinking about adding even more like the one we have for business central is more about getting access to the customer data right but we need to add an MCP server that gives you access to the the environment metadata"
+    },
+    {
+      "t": 1719.5,
+      "kind": "coming-later",
+      "text": "we want to broaden that out so you can actually develop even more with this metadata MCP server"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 9,
+    "evidence_verified": 1,
+    "evidence_unverified": 20
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028829
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033013
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025655
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03945470000000001
+    }
+  ]
+}

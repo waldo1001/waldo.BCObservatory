@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing",
   "published_at": "2026-05-20T09:24:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e463da56bdeec4558047156348cff016966abb7b",
       "words": 808,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.394Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.406Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.407Z",
+      "page": false
     }
   },
   "input_hash": "e463da56bdeec4558047156348cff016966abb7b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e463da56bdeec4558047156348cff016966abb7b"
+  "output_hash": "4e8031fa553b641c82e2b1e91997af9d57cd65331c5eb602b0d2bcabcff2a0f6"
 }

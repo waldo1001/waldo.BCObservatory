@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing",
+  "title": "Pick for internal operations in advanced warehouse configurations",
+  "blob": "216c33b802d92a9f545f347bdfd536b9f22eaccd",
+  "summary": "Picking for production, assembly, or projects in advanced warehouse configurations uses warehouse pick documents created in push or pull fashion, with directed put-away and pick determining bin selection and component flushing methods affecting workflow.",
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "warehouse pick",
+    "directed put-away",
+    "flushing",
+    "bin",
+    "internal operations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Order"
+    },
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Picks"
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
+      "name": "Project Journal"
+    },
+    {
+      "type": "page",
+      "name": "Output Journal"
+    }
+  ],
+  "features": [
+    "warehouse pick",
+    "directed put-away and pick",
+    "bin ranking",
+    "cross-dock bin",
+    "component flushing",
+    "over-picking",
+    "make-to-order production",
+    "warehouse movement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

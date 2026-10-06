@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations",
+  "title": "Submit electronic VAT & ICP declarations [NL]",
+  "blob": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7",
+  "summary": "Submitting electronic VAT and ICP declarations in the Dutch version involves creating XBRL-formatted declarations, managing certificates, and communicating with tax authorities through Digipoort to report monthly/quarterly VAT and quarterly ICP transactions.",
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "vat declaration",
+    "icp declaration",
+    "netherlands",
+    "digipoort",
+    "electronic filing",
+    "xbrl"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Elec. Tax Declaration List"
+    },
+    {
+      "type": "page",
+      "name": "Elec. Tax Declaration Card"
+    },
+    {
+      "type": "page",
+      "name": "Elec. Tax Decl. Response Msgs."
+    }
+  ],
+  "features": [
+    "electronic VAT declaration",
+    "ICP declaration",
+    "Digipoort submission",
+    "XBRL format",
+    "certificate management",
+    "response message processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005677,
+      "pages_in_call": 8
+    }
+  ]
+}

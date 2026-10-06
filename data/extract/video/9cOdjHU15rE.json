@@ -1,0 +1,266 @@
+{
+  "video_id": "9cOdjHU15rE",
+  "item_id": "video/yt-microsoft/9cOdjHU15rE",
+  "title": "#BCTalent and AI: A Learner’s Guide",
+  "duration_s": 971,
+  "systems": [
+    "copilot",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "ai careers",
+    "bc talent",
+    "copilot",
+    "erp",
+    "small medium business",
+    "smb",
+    "consultant skills",
+    "developer skills",
+    "prompt engineering",
+    "adaptive ux"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and BC Talent Program",
+      "t_start": 0,
+      "t_end": 38.6
+    },
+    {
+      "title": "Dona Sarkar and AI Experience",
+      "t_start": 38.6,
+      "t_end": 117.8
+    },
+    {
+      "title": "AI Career Path and Business Central Context",
+      "t_start": 117.8,
+      "t_end": 185.7
+    },
+    {
+      "title": "Business Central in Microsoft Ecosystem",
+      "t_start": 185.7,
+      "t_end": 304.8
+    },
+    {
+      "title": "AI Capabilities and Product Positioning",
+      "t_start": 304.8,
+      "t_end": 375.2
+    },
+    {
+      "title": "AI Features and User Experience",
+      "t_start": 375.2,
+      "t_end": 462.4
+    },
+    {
+      "title": "Career Evolution for Consultants and Developers",
+      "t_start": 462.4,
+      "t_end": 564
+    },
+    {
+      "title": "Required Skills and Diverse Career Pathways",
+      "t_start": 564,
+      "t_end": 693
+    },
+    {
+      "title": "AI Industry Maturity and Future UX Evolution",
+      "t_start": 693,
+      "t_end": 779.5
+    },
+    {
+      "title": "Career Preparation and Call to Action",
+      "t_start": 779.5,
+      "t_end": 971
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Copilot for item description generation",
+      "description": "The BC copilot automatically generates item copy and descriptions based on existing copy already written in the system, eliminating the need for manual text entry for new inventory items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407.1,
+      "t_end": 418.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "inventory",
+        "automation",
+        "item management"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "BC Sales Agent",
+      "description": "An AI agent integrated into Business Central that provides inbox copilot and AI capabilities for sales-related tasks, mentioned as one of the first places in the BizApps world to get this functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 291.6,
+      "t_end": 304.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "sales",
+        "agent",
+        "ai"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Copilot Studio integration",
+      "description": "Business Central can now connect with Copilot Studio to enable chatbots on websites that pull data from BC, expanding the connectivity with other Microsoft ecosystem products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 840.4,
+      "t_end": 857.1,
+      "is_demoed": false,
+      "caveats": [
+        "Security and guardrails are concerns"
+      ],
+      "tags": [
+        "copilot",
+        "integration",
+        "chatbot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Adaptive UX based on AI interaction",
+      "description": "Future evolution where the user experience in Business Central will adjust dynamically based on user interactions, such as different starting points for uploading versus viewing items, making processes more efficient.",
+      "status": "announced",
+      "status_evidence_t": 741.3,
+      "status_evidence_quote": "the UX will be adjusted based on the interaction that you're having. So, uploading an item will be a different experience than showing someone",
+      "status_evidence_verified": true,
+      "t_start": 741.3,
+      "t_end": 768.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ux",
+        "adaptive",
+        "ai",
+        "future"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple AI copilot features throughout BC",
+      "description": "Various AI and copilot experiences are being added throughout the Business Central application, with new features continuously being added that users may not be fully aware of.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 448.3,
+      "t_end": 462.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "features",
+        "automation"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Project Sophia",
+      "t": 317.4
+    },
+    {
+      "type": "other",
+      "name": "Business Results Analyst",
+      "t": 329
+    },
+    {
+      "type": "other",
+      "name": "Copilot Studio",
+      "t": 840.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sam Cook",
+      "confidence": "high"
+    },
+    {
+      "name": "Dona Sarkar",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 227.4,
+      "text": "BC is one of the most special products we have because it serves a very large audience that is usually underserved. So, what we",
+      "why_it_matters": "Establishes Business Central's strategic focus on small and medium businesses (99% of world businesses) rather than just enterprises.",
+      "check": "exact"
+    },
+    {
+      "t": 291.6,
+      "text": "BC sales agent. So, BC was one of the first places in the BizApps world that got inbox AI and co-pilots integrated into it.",
+      "why_it_matters": "Demonstrates BC's early adoption and leadership position in AI/copilot integration within the Dynamics portfolio.",
+      "check": "exact"
+    },
+    {
+      "t": 407.1,
+      "text": "when I bring on new inventory, that copy is just generated based on existing copy I'd already written. And it just kind of does",
+      "why_it_matters": "Shows practical, tangible benefit of copilot reducing manual work in everyday Business Central tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 601.8,
+      "text": "one of the things I think will be very important is being able to connect dots. So, someone has to be able to first",
+      "why_it_matters": "Identifies critical skill for AI era professionals: framing problems and asking effective questions rather than just technical knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 693,
+      "text": "We are at the Nokia flip phone era. We are not very far along at all. We're still doing that thing where when phones",
+      "why_it_matters": "Contextualizes AI maturity as early stage, challenging perception that opportunities have passed.",
+      "check": "exact"
+    },
+    {
+      "t": 731.1,
+      "text": "This is not the end. That's not the end. This is the very beginning. It's step one. It's teaching people to prompt because the",
+      "why_it_matters": "Reinforces that AI integration is nascent stage, with significant evolution ahead for Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 879.3,
+      "text": "in this moment in tech, we all have to look at the where we are in the stack and get one level deeper. And",
+      "why_it_matters": "Prescriptive career advice emphasizing continuous learning and skill advancement as essential for long-term viability.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 741.3,
+      "kind": "coming-later",
+      "text": "the UX will be adjusted based on the interaction that you're having. So, uploading an item will be a different experience than showing someone an item. One might start a gallery, one might start at upload."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027815
+    }
+  ]
+}

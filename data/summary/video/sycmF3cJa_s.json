@@ -1,0 +1,27 @@
+{
+  "video_id": "sycmF3cJa_s",
+  "item_id": "video/yt-microsoft/sycmF3cJa_s",
+  "summary": "PrintVis Copilot Assisted Scheduling, demonstrated in a one-minute video for print shop scheduling. The user picks machines, a date range and optimization options, and Copilot generates an optimized schedule across the selected machines that can be loaded into the planning board.",
+  "overview": "The video is a short demonstration of the PrintVis Copilot assisted scheduling functionality. It walks through selecting machines and a date range, setting optimization options, and generating an optimized schedule.\n\nThe optimization options reflect reasons why different print shops place certain jobs on one machine rather than another, for example avoiding paper changes on a machine. Clicking optimize sends the information to Copilot, which produces a schedule across the three machines selected in the demo. The result is then loaded into the planning board.",
+  "key_points": [
+    "Copilot Assisted Scheduling is a PrintVis feature that optimizes job scheduling across multiple machines.",
+    "The user selects the machines and a date range before optimizing.",
+    "Optimization options let users choose criteria that fit their business, such as avoiding paper changes on machines.",
+    "Clicking optimize sends the selections to Copilot, which generates an optimized schedule across the selected machines (three in the demo).",
+    "The generated schedule is loaded into the planning board for execution.",
+    "The demo covers print shop scheduling only."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "696c8a4126f7049f61cd9647bdd703b6613a74515f2b9f5fd013b6f8fc074c63",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010030399999999998
+  }
+}

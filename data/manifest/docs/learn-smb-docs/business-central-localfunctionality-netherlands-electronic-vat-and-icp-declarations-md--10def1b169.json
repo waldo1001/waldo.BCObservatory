@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations",
   "published_at": "2026-05-18T11:13:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7",
       "words": 961,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:32:16.396Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005677
+    },
+    "summarized": {
+      "at": "2026-10-06T18:32:16.411Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:32:16.412Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:32:16.413Z",
+      "page": false
     }
   },
   "input_hash": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7"
+  "output_hash": "e8fe0c48cf910a17a36731ca2da91f801b4681181cf86bc3cf474b8a88a7812a"
 }

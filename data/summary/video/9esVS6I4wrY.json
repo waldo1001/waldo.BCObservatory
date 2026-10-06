@@ -1,0 +1,27 @@
+{
+  "video_id": "9esVS6I4wrY",
+  "item_id": "video/yt-microsoft/9esVS6I4wrY",
+  "summary": "Configuring pay-as-you-go billing for Business Central agents: create an Azure resource group, set up a billing plan in Power Platform admin center, create a Dataverse environment and link it to Business Central, then monitor consumption and set Azure budgets.",
+  "overview": "The video shows how to keep agents running after the evaluation capacity is used up. Agent consumption is charged to an Azure subscription through a billing plan set up in Power Platform admin center.\n\nIt walks through the setup in order: Azure resource group, billing plan, new Dataverse environment, and the link to Business Central. It then shows how to verify the setup, monitor message consumption, and track costs and set budgets in Azure. Consumption data can take up to 24 hours to appear on the monitoring pages.",
+  "key_points": [
+    "After some time a banner may say the evaluation capacity has been used up; pay-as-you-go billing enables more agent usage.",
+    "Agent consumption is charged to your Azure subscription.",
+    "The billing plan is configured in Power Platform admin center; select the pay as you go with Azure option and pick the billing policy or plan you created.",
+    "Setup steps shown: Azure resource group, billing plan, new Dataverse environment, link Dataverse to Business Central.",
+    "Monitor agent message consumption in Power Platform admin center under Copilot Studio environments.",
+    "Consumption data may take up to 24 hours to propagate to the monitoring pages.",
+    "Track costs with cost analysis on the Azure resource group, and create a budget with optional email alerts for pay-as-you-go messages."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "ac9afc52d62bf2209dbf567524a785a19a27aa73cbe8e6d09b0801229e560858",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012126399999999999
+  }
+}
