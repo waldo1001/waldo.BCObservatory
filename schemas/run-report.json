@@ -107,7 +107,7 @@
     },
     "captions_retried": { "type": "integer" },
     "checkpoints": { "type": "integer" },
-    "code": { "type": "object", "properties": { "version_diffs": { "type": "integer" }, "country_diffs": { "type": "integer" }, "timelines": { "type": "integer" }, "deprecations": { "type": "integer" }, "written": { "type": "integer" }, "docs_objects": { "type": "object" }, "pages": { "type": "object" } } },
+    "code": { "type": "object", "properties": { "version_diffs": { "type": "integer" }, "country_diffs": { "type": "integer" }, "timelines": { "type": "integer" }, "deprecations": { "type": "integer" }, "written": { "type": "integer" }, "docs_objects": { "type": "object" }, "pages": { "type": "object" }, "narratives": { "type": "object" } } },
     "content": { "type": "object", "required": ["pages", "errors"], "properties": { "pages": { "type": "integer" }, "errors": { "type": "integer" } } },
     "roadmap_links": {
       "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],

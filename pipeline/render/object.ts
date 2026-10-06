@@ -25,6 +25,7 @@ import { readSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import type { DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
 
 const TYPE_LABEL: Record<string, string> = {
   table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report",
@@ -177,15 +178,18 @@ function memberSummary(d: ObjectDiff): string {
     n(d.procedures, "changed") ? `${n(d.procedures, "changed")} procedures changed` : "", d.properties?.length ? `${d.properties.length} properties` : ""].filter(Boolean).join(", ") || "body changes only";
 }
 
-export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: string; summary: Record<string, unknown> }[], hasObjectPage: (key: string) => string | null, topic: string | null, now: Date): string {
+export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: string; summary: Record<string, unknown> }[], hasObjectPage: (key: string) => string | null, topic: string | null, now: Date, narrative: LocalizationNarrative | null = null): string {
   const name = countryNames()[cc.toUpperCase()] ?? cc.toUpperCase();
   const added = d.objects.filter((o) => o.change === "added"), replaced = d.objects.filter((o) => o.change === "replaced"), removed = d.objects.filter((o) => o.change === "removed");
   const fieldsAdded = Number(d.summary.fields_added ?? 0), eventsAdded = Number(d.summary.events_added ?? 0);
-  const summary = `${name} (${cc.toUpperCase()}) localization of Business Central in BC${d.to.version}: ${added.length} objects of its own, ${replaced.length} W1 objects changed (${fieldsAdded} fields and ${eventsAdded} events added)${removed.length ? `, ${removed.length} W1 objects dropped` : ""}. From the code; country apps outside the Base Application are not included yet.`;
+  const facts = `${name} (${cc.toUpperCase()}) localization of Business Central in BC${d.to.version}: ${added.length} objects of its own, ${replaced.length} W1 objects changed (${fieldsAdded} fields and ${eventsAdded} events added)${removed.length ? `, ${removed.length} W1 objects dropped` : ""}. From the code; country apps outside the Base Application are not included yet.`;
+  // a narrative only for the version it was written from
+  const n = narrative && narrative.version === d.to.version ? narrative : null;
+  const summary = n?.summary ?? facts;
   const fm = {
     id: `localization/${cc}`, type: "localization", title: `${name} (${cc.toUpperCase()})`, summary, tier: "official", language: "en", tags: ["localization", cc],
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify([d.from, d.to, d.summary])) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: n ? { [LOC_STAGE]: LOC_V } : {}, input_hash: sha256(JSON.stringify([d.from, d.to, d.summary, n?.input_hash ?? null])) },
     evidence: [{ kind: "code", url: `https://github.com/microsoft/BCApps`, title: `country diff ${d.to.version}-${cc}`, date: null, commit: d.to.commit, t: null, quote: null }],
     links: { learn: [], objects: replaced.map((o) => hasObjectPage(o.key)).filter((x): x is string => !!x).map((p) => `object/${p}`), features: [], topics: topic ? [topic] : [], localizations: [], videos: [], posts: [], guidelines: [] },
     country: cc.toUpperCase(), version: d.to.version, w1_version: d.from.version, added_objects: added.length, replaced_objects: replaced.length, removed_objects: removed.length,
@@ -193,7 +197,9 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
   };
   validateOrThrow("frontmatter.localization", fm, `localization page ${cc}`);
   const lines = [`# ${name} (${cc.toUpperCase()})`, "", `> ${summary}`, "",
-    `BC${d.to.version} · country layer against W1 · ${topic ? `Learn: [local functionality](../topics/${topic.replace(/^topic\//, "")}.md)` : "no Learn local functionality hub found"}`, ""];
+    `BC${d.to.version} · country layer against W1 · ${topic ? `Learn: [local functionality](../topics/${topic.replace(/^topic\//, "")}.md)` : "no Learn local functionality hub found"}${n ? " · narrative **unreviewed** (machine-written)" : ""}`, ""];
+  if (n) lines.push("## Overview", "", n.overview, "", "## Key points", "", ...n.key_points.map((k) => `- ${k}`), "",
+    `Narrative written by Sonnet from the code diff and ${n.learn_pages_used} Learn page summaries. In numbers: ${facts}`, "");
   if (replaced.length) {
     lines.push("## W1 objects this country changes", "", "| Object | Changes |", "|---|---|");
     for (const o of replaced) { const p = hasObjectPage(o.key); lines.push(`| ${p ? `[${cell(o.key)} "${cell(o.name)}"](../objects/${p}.md)` : `${cell(o.key)} "${cell(o.name)}"`} | ${memberSummary(o)} |`); }
@@ -256,7 +262,7 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
   for (const [cc, list] of byCountry) {
     const [newest, ...older] = list;
     const d = readJson<AlDiff>(newest.path);
-    const page = renderLocalizationPage(cc, d, older.map((x) => ({ major: x.major, summary: readJson<AlDiff>(x.path).summary })), (key) => pageKeys.get(key) ?? null, topicFor(cc), now);
+    const page = renderLocalizationPage(cc, d, older.map((x) => ({ major: x.major, summary: readJson<AlDiff>(x.path).summary })), (key) => pageKeys.get(key) ?? null, topicFor(cc), now, loadLocalizationNarrative(dataDir, cc));
     if (writeIfChanged(resolve(contentDir, "localizations", `${cc}.md`), page)) run.written++;
     run.localizations++;
   }

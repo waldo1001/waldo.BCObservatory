@@ -138,3 +138,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   objects get no page (ids repeat across countries); they are listed on their localization page. No LLM; Sonnet
   narratives for BE/NL localization hubs come later. Site routes `/objects/`, `/objects/<type>/`, `/localizations/`;
   the site builds 17,268 pages in ~20 s. The deprecation radar has no page of its own until the weekly digest (M4).
+- **D31 Localization narratives: Sonnet over the country diff and Learn summaries, priority countries first.**
+  `pipeline/summarize/localization.ts` writes `data/hubs/localizations/<cc>.json` for `narrative_priority` (BE, NL)
+  from the country's code diff and the summaries of its Learn LocalFunctionality pages (D12: never raw pages or
+  code), once 80% of those pages are extracted, and again only when its input hash changes. The localization page
+  then leads with the narrative (badged unreviewed) and keeps the numbers. Runs in the nightly code post-pass when
+  stage execution finished, within the deadline and spend cap; ~2 Sonnet calls.
