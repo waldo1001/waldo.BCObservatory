@@ -1,0 +1,235 @@
+{
+  "video_id": "BC82BSrtng0",
+  "item_id": "video/yt-microsoft/BC82BSrtng0",
+  "title": "Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics",
+  "duration_s": 217,
+  "systems": [
+    "finance",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "segments",
+    "dimensions",
+    "default dimensions",
+    "posting",
+    "reporting",
+    "migration",
+    "vendor setup",
+    "trial balance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Segments and Dimensions",
+      "t_start": 0,
+      "t_end": 21.5
+    },
+    {
+      "title": "Posting Transactions in Dynamics SL",
+      "t_start": 21.5,
+      "t_end": 58.7
+    },
+    {
+      "title": "Segments Migrating as Dimensions to Business Central",
+      "t_start": 58.7,
+      "t_end": 85.2
+    },
+    {
+      "title": "Setting Default Dimensions on Vendors",
+      "t_start": 85.2,
+      "t_end": 124.8
+    },
+    {
+      "title": "Entering Purchase Invoices with Dimension Defaults",
+      "t_start": 124.8,
+      "t_end": 160.6
+    },
+    {
+      "title": "Preview Posting Before Journal Entry",
+      "t_start": 160.6,
+      "t_end": 171.6
+    },
+    {
+      "title": "Analyzing Transactions with Trial Balance Report",
+      "t_start": 171.6,
+      "t_end": 217
+    }
+  ],
+  "features": [
+    {
+      "name": "Segment Posting in Dynamics SL",
+      "description": "In Dynamics SL, vendors and transactions can be posted with designated sub account segments that control which accounts and reporting categories transactions post to. The batch control report shows the debit and credit posting accounts along with the designated sub account segments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.5,
+      "t_end": 56,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "segments",
+        "posting",
+        "dynamics sl",
+        "batch control"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Segment to Dimension Migration",
+      "description": "Segments defined in Dynamics SL automatically migrate to Business Central as dimensions using the cloud migration tool, allowing users to continue slicing and categorizing transactions when posting to the main account.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.1,
+      "t_end": 83,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "segments",
+        "dimensions",
+        "cloud migration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Default Dimensions on Vendor Records",
+      "description": "Users can assign default dimensions to vendor records in Business Central. These default dimensions automatically populate on transactions for that vendor, with an optional posting value code set to mandatory to enforce dimension values exist on transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.2,
+      "t_end": 122,
+      "is_demoed": true,
+      "caveats": [
+        "Mandatory posting can be enforced but is optional based on business needs"
+      ],
+      "tags": [
+        "default dimensions",
+        "vendor",
+        "posting"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Automatic Dimension Defaulting on Transactions",
+      "description": "When entering purchase invoices in Business Central, dimension values that are set as defaults on vendor records automatically populate in the fact box area of the transaction without requiring manual entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.8,
+      "t_end": 147,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "purchase invoice",
+        "defaulting"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Posting Preview",
+      "description": "Before posting journals in Business Central, users can preview the posting to verify correct accounts are being posted to, similar to the distributions button functionality in Dynamics SL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.2,
+      "t_end": 170,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting preview",
+        "verification",
+        "journal"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Trial Balance Dimension Report",
+      "description": "The trial balance report in Business Central allows analysis of transactions by various dimensions, showing amounts posted to main accounts and enabling filtering by specific dimensions like reporting unit and company segment for detailed financial analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.6,
+      "t_end": 200.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "trial balance",
+        "dimensions",
+        "reporting",
+        "analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance Dimension Report",
+      "t": 171.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.6,
+      "text": "We're going to talk about segments when posting transactions in Dynamics SL and compare that to the experience in Dynamics 365 Business Central.",
+      "why_it_matters": "Establishes the core comparison purpose of the video between two systems' approaches to posting with segments.",
+      "check": "exact"
+    },
+    {
+      "t": 69.1,
+      "text": "the segments we defined in SL will migrate to Business Central as dimensions, allowing us to continue to slice and categorize our transactions",
+      "why_it_matters": "Clarifies the migration path from Dynamics SL segments to Business Central dimensions, showing functional continuity.",
+      "check": "exact"
+    },
+    {
+      "t": 99.5,
+      "text": "If I wanted to lock the posting down further, I could set the value posting to code mandatory, which would indicate that a dimension",
+      "why_it_matters": "Demonstrates optional enforcement mechanism for dimensions, showing flexibility in how strict dimension requirements can be configured.",
+      "check": "exact"
+    },
+    {
+      "t": 136,
+      "text": "You can see in the fact box area the dimension value has automatically defaulted onto the transaction for me.",
+      "why_it_matters": "Shows how default dimensions reduce manual data entry by automatically populating transaction fields.",
+      "check": "exact"
+    },
+    {
+      "t": 148.2,
+      "text": "Before posting any journal in Business Central, I can preview the posting to ensure that the correct accounts are being posted to",
+      "why_it_matters": "Highlights a key control feature that allows verification before financial transactions are committed.",
+      "check": "exact"
+    },
+    {
+      "t": 186,
+      "text": "The trial balance report in Business Central allows me to see amounts being posted to my main accounts, similar to Dynamics SL, as well",
+      "why_it_matters": "Demonstrates that Business Central reporting provides functional parity with SL while supporting dimensional analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014791
+    }
+  ]
+}

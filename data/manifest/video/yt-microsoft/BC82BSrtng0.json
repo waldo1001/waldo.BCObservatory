@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=BC82BSrtng0",
   "published_at": "2024-07-26T13:24:24.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 553,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:30:41.128Z",
+      "path": "data/extract/video/BC82BSrtng0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.014791
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b1e071ab80fd50c06ef53d2315978b4bde27c0f765e42568f35479762832a5e"
+  "output_hash": "88d6bcb89c22472c2efaec87a9d4678a706f6206935a5e5bc6324aaa95f856c8"
 }

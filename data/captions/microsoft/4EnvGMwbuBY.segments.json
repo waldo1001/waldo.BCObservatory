@@ -1,0 +1,108 @@
+{
+  "video_id": "4EnvGMwbuBY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.1,
+      "end": 11.1,
+      "text": "In this video, we're going to talk about sub account segments and accounts in Dynamics SL and then look at how that information can be used in Business Central."
+    },
+    {
+      "t": 11.1,
+      "end": 23.6,
+      "text": "An organization's chart of accounts is made up of a list of natural accounts, sometimes called main accounts. Most companies want to be able to analyze transactions that are posted to their natural accounts."
+    },
+    {
+      "t": 23.6,
+      "end": 40,
+      "text": "Categorizing transactions can help to better understand a company's expenses and revenues, primarily their profit and loss accounts. Companies may want to categorize revenue by region and market segments and expenses by department and projects."
+    },
+    {
+      "t": 40,
+      "end": 53,
+      "text": "This can be done through the use of sub accounts in Dynamics SL. First, let's go to the sub account maintenance screen in SL to see the sub accounts that have been defined."
+    },
+    {
+      "t": 53,
+      "end": 68.1,
+      "text": "There can be up to eight sub account segments defined in the flex key definition screen in Dynamics SL. The main account and sub account combinations are used to report and record on financial data."
+    },
+    {
+      "t": 68.1,
+      "end": 79.2,
+      "text": "In this example, the sub account is broken into six different segments, including reporting unit, company segment, location, group, and sales type and region."
+    },
+    {
+      "t": 79.2,
+      "end": 89.2,
+      "text": "Each have a specific position and length in the format. Next, let's look at the segment and what the values are for those segments."
+    },
+    {
+      "t": 89.2,
+      "end": 99.9,
+      "text": "If I select a segment, I can then click on the look up to see all the various values that I've set up in my organization."
+    },
+    {
+      "t": 102.9,
+      "end": 117.1,
+      "text": "Now, let's look at how the main account and segments can be migrated in Business Central. In the SL company migration configuration tool, you can include which segments you would like to be global dimensions."
+    },
+    {
+      "t": 117.1,
+      "end": 129.5,
+      "text": "Similar to segments, dimensions in Business Central let you categorize and analyze transactions posted to the chart of accounts instead of creating separate ledger accounts for each division or department."
+    },
+    {
+      "t": 129.5,
+      "end": 141.9,
+      "text": "Dimensions can be used in combination with your main account to analyze information and reduce the need for a large and complex chart of accounts. Business Central has two global dimensions."
+    },
+    {
+      "t": 141.9,
+      "end": 153.5,
+      "text": "These should be the most common segments as you easily sort and filter on these dimensions. The remainder of your segments will be migrated as shortcut dimensions."
+    },
+    {
+      "t": 153.5,
+      "end": 170.4,
+      "text": "In Business Central, let's see where those global and shortcut dimensions are defined. To navigate to the general ledger setup, we will select the search icon and enter general ledger setup and choose that from the search results."
+    },
+    {
+      "t": 171.3,
+      "end": 186.4,
+      "text": "In the setup window, we can see that the reporting unit and company segment has been set up as global dimensions. If I had more than those segments in SL, the remaining segments would come over as shortcut dimensions in Business Central."
+    },
+    {
+      "t": 186.4,
+      "end": 198.8,
+      "text": "Next, let's navigate to the dimension window where you can see the existing dimensions and create new ones later on should you want to start analyzing additional information in Business Central."
+    },
+    {
+      "t": 198.8,
+      "end": 212.4,
+      "text": "If I select my reporting unit dimension and go to dimension values, I can see all of my segment values. I could also create additional ones in the future."
+    },
+    {
+      "t": 212.4,
+      "end": 219.3,
+      "text": "Finally, let's see how the chart of accounts looks in Business Central."
+    },
+    {
+      "t": 219.3,
+      "end": 229.4,
+      "text": "In my chart of accounts, all of the main accounts as defined in SL can be migrated to Business Central and I can see all of my balances for each account."
+    },
+    {
+      "t": 229.4,
+      "end": 242.4,
+      "text": "If I want to drill back on the balances, I can see all of my reporting unit and company segments with the amounts broken out for each. Similar to how it looks in Dynamics SL."
+    },
+    {
+      "t": 242.4,
+      "end": 255.8,
+      "text": "That's a quick look at segments and dimensions in Dynamics SL and Business Central. To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 605
+}
