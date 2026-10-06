@@ -7,16 +7,33 @@
   "url": "https://www.youtube.com/watch?v=2N2NhNH7dsk",
   "published_at": "2026-10-01T15:00:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T11:51:47.857Z",
+      "seed": true
+    },
+    "captioned": {
+      "at": "2026-10-06T11:51:47.857Z",
+      "path": "data/captions/microsoft/2N2NhNH7dsk.vtt",
+      "vtt_sha256": "cb65aabe26311fd39ad2b669800b839a5c88e3bbd3bfc7724b198782c14b3797",
+      "segments": 22,
+      "words": 689,
+      "lang": "en-orig",
+      "seed": true,
+      "id_via": "override"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA"
-  }
+    "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
+    "seed_file": "2026-10-01 - BCLE - What's new in reporting： Layout Management and Report Inbox API's (2026 release wave 2).vtt"
+  },
+  "last_error": null,
+  "retry_after": null
 }

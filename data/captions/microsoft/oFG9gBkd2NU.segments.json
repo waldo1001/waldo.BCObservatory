@@ -1,0 +1,191 @@
+{
+  "video_id": "oFG9gBkd2NU",
+  "source": "seed",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 19.5,
+      "text": "Hi, my name is Julia and I'm here today with Eritton to talk to you about what's new in Copilot Chat. This wave in Copilot Chat, we see big enhancements."
+    },
+    {
+      "t": 19.5,
+      "end": 36.2,
+      "text": "Now, Copilot can answer users question using documentation from installed thirdparty add-ons, meaning that it broadened it knowledge from just Microsoft learn to now also partners uh partner and other installed applications."
+    },
+    {
+      "t": 36.2,
+      "end": 50.2,
+      "text": "It works out of the box with only one step setup enabling Bing search. No extra configuration needed. Copilot then automatically searches relevant partner extension documentation to support users."
+    },
+    {
+      "t": 50.2,
+      "end": 62.1,
+      "text": "Users can now on board faster, get unblocked quicker, and make smarter decisions. All thanks to improved out ofthe-box copilot experience."
+    },
+    {
+      "t": 62.1,
+      "end": 72.9,
+      "text": "So let's see what changed. As you can see here, I have an extension installed called fabric project management. So let's ask copilot chat"
+    },
+    {
+      "t": 72.9,
+      "end": 78.2,
+      "text": "what is fabric and project management."
+    },
+    {
+      "t": 79.4,
+      "end": 90.5,
+      "text": "As you can see with previous experience copilot chat could not find the answers to questions about something that wasn't uh Microsoft or wasn't documented in Microsoft learn documentation."
+    },
+    {
+      "t": 90.5,
+      "end": 102.5,
+      "text": "But now administrators can enable bing search on the copilot and agent capabilities page. So if I were to enable it, Erton, can you show us how that story would look like?"
+    },
+    {
+      "t": 102.5,
+      "end": 116,
+      "text": ">> Okay, so now that we've enabled Bing search, let's try that search again. Um, and hopefully we'll get some answers about the extension that Julia has installed. So what is Fabricam"
+    },
+    {
+      "t": 116,
+      "end": 120.7,
+      "text": "project management?"
+    },
+    {
+      "t": 121.7,
+      "end": 133.4,
+      "text": "Brilliant. So we can see this time that I get an answer. Fabric and project management adds lightweight project task resource pool roll and allocation management to Dynamics 365 Business Central."
+    },
+    {
+      "t": 133.4,
+      "end": 145.8,
+      "text": "And you might be wondering where did this answer come from. So now if I check the references, we can see instead of the usual Microsoft learn sources, we see a Fabricom project management source with the icon of the extension."
+    },
+    {
+      "t": 145.8,
+      "end": 160.2,
+      "text": "And when I click through to this, it's going to take me to Fabricom's website. Um and we can see on the website it says fabric and project management as lightweight task project resource pool and allocation management to dynamics 365 business central."
+    },
+    {
+      "t": 160.2,
+      "end": 172.6,
+      "text": "So the content that was in the copilot chat answer was pulled directly from this website content. So now let's get started using this extension. I want to create a project so that Julia can work on it."
+    },
+    {
+      "t": 172.6,
+      "end": 188.4,
+      "text": "So the first question I'm going to ask is how do I create a project? So just like with normal copilot chat when it answers questions on Microsoft learn I get detailed list of steps instructing me on how to perform this task and those steps are also drawn from the partner website."
+    },
+    {
+      "t": 188.4,
+      "end": 204,
+      "text": "You can see in the bottom of this answer it says powered by Bing and that's because the results that power these answers are pulled directly from the Bing search index. So now if I was to go to bing.com and search for how do I create a project in fabric and project management"
+    },
+    {
+      "t": 204,
+      "end": 217,
+      "text": "then we can see the search result here and when I click this it takes me to the partner website. So as of release wave 2 now um copilot chat will be able to draw content from the bing index."
+    },
+    {
+      "t": 217,
+      "end": 227.3,
+      "text": "Cool. So let's try to follow these steps and see how far we get. So if I type in fabric projects"
+    },
+    {
+      "t": 228.6,
+      "end": 238.6,
+      "text": "and now I can create a new project. And step three says select a project template to apply a default budget and duration. So I'm going to select a template code."
+    },
+    {
+      "t": 238.6,
+      "end": 249.1,
+      "text": "And you can see that it's filled in the budget amount. And I would continue to fill out these fields until I get stuck on pool code. What does pool code mean? But I can ask Copilot Chat this question too."
+    },
+    {
+      "t": 249.1,
+      "end": 256.9,
+      "text": "So now let's ask what is the pool code field for?"
+    },
+    {
+      "t": 257.1,
+      "end": 270.3,
+      "text": "So we can see the answer here. The pool code field links the project to a default resource pool for the planning context. And if I click through to this page, I can see the app's reference content which gives more detailed information about how different fields work."
+    },
+    {
+      "t": 270.3,
+      "end": 286.6,
+      "text": "Um, this is an example of how you can provide targeted help content to address users commonly asked questions so that they can be unblocked by co-pilot without having to contact your custom support line. So, finally, I would like to assign readonly access to these projects to Julia so that she can see what everybody is working on."
+    },
+    {
+      "t": 286.6,
+      "end": 299.4,
+      "text": "So, now I'm going to ask um what permissions do I need to assign to users to grant read only access to projects."
+    },
+    {
+      "t": 301.7,
+      "end": 314.6,
+      "text": "So we can see in copilot's answer that I need to assign the FPM project viewer permission set. So finally I'm going to click through to this source and I can see that copilot has drawn this answer from which content this table is on this page."
+    },
+    {
+      "t": 314.6,
+      "end": 328.7,
+      "text": "So you can format the content in a way that is readable for users on your website. But copilot chat is also going to be able to pick up this content to surface answers within the product. And for more information about how to prepare your content, you can see other sessions on our YouTube channel."
+    },
+    {
+      "t": 328.7,
+      "end": 339.6,
+      "text": ">> So remember, starting this wave, administrators can turn on enable Bing search switch on copilot and agent capabilities page to get this enabled out of the box."
+    },
+    {
+      "t": 339.6,
+      "end": 353.4,
+      "text": "It will work for automatically for apps source extensions that had provided link to their documentation. And if you install a PTE extension, you have to provide that uh documentation as well within the help URL."
+    },
+    {
+      "t": 353.4,
+      "end": 366.5,
+      "text": "Let's spend a moment addressing some common questions about a Bing search and copilot chat. Is it safe? Inputs and outputs go through various checks for safety"
+    },
+    {
+      "t": 366.5,
+      "end": 380.4,
+      "text": "both from security standpoint and uh to reduce risks of AI harms. Copilot can connect to the web. However, the web cannot connect to the copilot."
+    },
+    {
+      "t": 380.4,
+      "end": 391.6,
+      "text": "So where does my data go? The Bing service is in the US and the data is uh goes to there and is not stored for longer than a day."
+    },
+    {
+      "t": 391.6,
+      "end": 403.7,
+      "text": "What is passed to Bing search is a curated search terms uh derived from the user query to our copilot chat. Does it cost more at this point?"
+    },
+    {
+      "t": 403.7,
+      "end": 424.2,
+      "text": "Using Bing Search within Copilot Chat does not cost more and you do not incur any one-time or service costs when using Bing Search within Copilot Chat in Business Central. So that's it from us and you can watch more videos on our YouTube channel to learn more both how to prepare your content and about other awesome things that are coming this wave."
+    },
+    {
+      "t": 424.2,
+      "end": 427.7,
+      "text": "Thank you for watching. >> Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1120
+}

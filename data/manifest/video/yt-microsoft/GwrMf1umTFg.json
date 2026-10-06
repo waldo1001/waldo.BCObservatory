@@ -7,16 +7,33 @@
   "url": "https://www.youtube.com/watch?v=GwrMf1umTFg",
   "published_at": "2026-10-01T13:04:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T11:51:47.857Z",
+      "seed": true
+    },
+    "captioned": {
+      "at": "2026-10-06T11:51:47.857Z",
+      "path": "data/captions/microsoft/GwrMf1umTFg.vtt",
+      "vtt_sha256": "621ab8536360fcfe05364d46a6d89c2ded2b998f37ffe29c7147b6b3231ea5a0",
+      "segments": 33,
+      "words": 1144,
+      "lang": "en-orig",
+      "seed": true,
+      "id_via": "override"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA"
-  }
+    "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
+    "seed_file": "2026-10-01 - BCLE - What's new in Expense Agent： Project Handling (2026 release wave 2).vtt"
+  },
+  "last_error": null,
+  "retry_after": null
 }
