@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv events discoverability",
+  "title": "Events discoverability",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability",
   "published_at": "2025-05-21T12:00:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.995Z",
+      "blob": "7e8d0218089c0c4392dd7c56b660c2493133375d",
+      "words": 483,
+      "forms": 0
     }
   },
   "input_hash": "7e8d0218089c0c4392dd7c56b660c2493133375d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-events-discoverability.md"
-  }
+    "path": "dev-itpro/developer/devenv-events-discoverability.md",
+    "description": "Using the Event Recorder, you can record the events that are published and raised while performing the actions of your scenario.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 483
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e8d0218089c0c4392dd7c56b660c2493133375d"
 }

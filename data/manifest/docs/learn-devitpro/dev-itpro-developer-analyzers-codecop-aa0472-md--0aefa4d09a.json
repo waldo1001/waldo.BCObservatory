@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0472",
+  "title": "CodeCop Info AA0472",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0472",
   "published_at": "2025-08-05T14:04:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.775Z",
+      "blob": "63d8aa05bcb3425ea92b2d05ffe074807cd1262c",
+      "words": 69,
+      "forms": 0
     }
   },
   "input_hash": "63d8aa05bcb3425ea92b2d05ffe074807cd1262c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0472.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0472.md",
+    "description": "Page control fields that have amount AutoFormatType defined, must have the property AutoFormatExpression specified.",
+    "ms_date": "2025-08-05",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 69
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63d8aa05bcb3425ea92b2d05ffe074807cd1262c"
 }

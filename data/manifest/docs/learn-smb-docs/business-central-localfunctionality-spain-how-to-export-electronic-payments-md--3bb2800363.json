@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to export electronic payments",
+  "title": "How to Export Electronic Payments [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments",
   "published_at": "2025-07-13T08:00:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.228Z",
+      "blob": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
+      "words": 1064,
+      "forms": 0
     }
   },
   "input_hash": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-export-electronic-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-export-electronic-payments.md",
+    "description": "In Business Central, you can export payment journal entries to files using four different payment standards, each supported by specific pages.",
+    "ms_date": "2025-05-27",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "export payment journal entries",
+      "export electronic payments",
+      "payment standards",
+      "cartera module",
+      "payment journal",
+      "payment orders",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 1064
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al244",
+  "title": "Compiler Error AL0244",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al244",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.384Z",
+      "blob": "d73a7589e6a5cfb4d77aaeefff1926d718b36519",
+      "words": 103,
+      "forms": 0
     }
   },
   "input_hash": "d73a7589e6a5cfb4d77aaeefff1926d718b36519",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al244.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al244.md",
+    "description": "The signature of procedure '{0}' does not match the signature required by attribute '{1}': return value is expected to be of type '{2}' but found type '{3}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 103
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d73a7589e6a5cfb4d77aaeefff1926d718b36519"
 }

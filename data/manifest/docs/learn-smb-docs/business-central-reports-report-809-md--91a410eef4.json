@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 809",
+  "title": "Where-used list (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-809",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.771Z",
+      "blob": "47c343af98ba01d42ad48ef141ba2c1b6373ccf0",
+      "words": 262,
+      "forms": 1
     }
   },
   "input_hash": "47c343af98ba01d42ad48ef141ba2c1b6373ccf0",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-809.md"
-  }
+    "path": "business-central/reports/report-809.md",
+    "description": "Get a list of the bill of materials (BOMs) that the selected items are components of. Use the report in case you must change a component in a BOM. For example, if your vendor can no longer deliver a specific item that you used for your assembly/production.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_809_Primary",
+        "id": 809,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 262
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "47c343af98ba01d42ad48ef141ba2c1b6373ccf0"
 }

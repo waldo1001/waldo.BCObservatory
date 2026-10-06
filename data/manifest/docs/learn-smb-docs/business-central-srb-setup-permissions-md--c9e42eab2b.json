@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "permissions",
+  "title": "Permissions in subscription billing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.281Z",
+      "blob": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804",
+      "words": 180,
+      "forms": 1
     }
   },
   "input_hash": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/setup/permissions.md"
-  }
+    "path": "business-central/SRB/setup/permissions.md",
+    "description": "Learn about the permission settings for subscription billing.",
+    "ms_date": "2025-05-06",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8059",
+        "id": 8059,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 180
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "use modern search cz",
+  "title": "Use modern search in the Czech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-modern-search-cz",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.892Z",
+      "blob": "13df486e731d836a11900848d20e63a9d756048d",
+      "words": 79,
+      "forms": 0
     }
   },
   "input_hash": "13df486e731d836a11900848d20e63a9d756048d",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/use-modern-search-cz.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/use-modern-search-cz.md",
+    "description": "This feature enables fast, precise data access with modern search in the Czech localization. Switch between legacy and optimized full-text search for better user satisfaction and productivity.",
+    "ms_date": "2025-09-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "VAT",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 79
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13df486e731d836a11900848d20e63a9d756048d"
 }

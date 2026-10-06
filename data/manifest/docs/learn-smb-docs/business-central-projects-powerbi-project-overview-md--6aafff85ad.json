@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects powerbi project overview",
+  "title": "Project Overview (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.295Z",
+      "blob": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
+      "words": 261,
+      "forms": 1
     }
   },
   "input_hash": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-powerbi-project-overview.md"
-  }
+    "path": "business-central/projects-powerbi-project-overview.md",
+    "description": "The Project Overview report highlights key high-level information about your organization's project activity.",
+    "ms_date": "2025-09-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37033_Primary",
+        "id": 37033,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 261
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff896bb9cbd2b449e4642dd79fab66714c64ec43"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "environment types",
+  "title": "Production and Sandbox Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types",
   "published_at": "2026-05-18T09:32:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.681Z",
+      "blob": "28228614ff69781a4dabf447b041c76c853196c3",
+      "words": 855,
+      "forms": 0
     }
   },
   "input_hash": "28228614ff69781a4dabf447b041c76c853196c3",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/environment-types.md"
-  }
+    "path": "dev-itpro/administration/environment-types.md",
+    "description": "Learn about the differences between production and sandbox environments for Dynamics 365 Business Central.",
+    "ms_date": "2024-11-12",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox"
+    ],
+    "ai_usage": null,
+    "words": 855
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "28228614ff69781a4dabf447b041c76c853196c3"
 }

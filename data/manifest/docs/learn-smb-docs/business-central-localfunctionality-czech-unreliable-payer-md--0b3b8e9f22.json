@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "unreliable payer",
+  "title": "Czech local functionality - Unreliable payer [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.200Z",
+      "blob": "f6086efcc71a2790c0a3e427235524a0fcd37224",
+      "words": 272,
+      "forms": 0
     }
   },
   "input_hash": "f6086efcc71a2790c0a3e427235524a0fcd37224",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/unreliable-payer.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/unreliable-payer.md",
+    "description": "Learn how the Czech Unreliable Payer feature uses the treasury department service to obtain published information and indicate the payer status on vendor cards and purchase documents.",
+    "ms_date": "2025-09-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "CZ",
+      "Czech",
+      "unreliable payer",
+      "unreliable VAT payer",
+      "unreliable payer check",
+      "treasury department",
+      "unreliable payer service"
+    ],
+    "ai_usage": null,
+    "words": 272
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6086efcc71a2790c0a3e427235524a0fcd37224"
 }

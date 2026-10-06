@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "textconst contains method",
+  "title": "TextConst.Contains(Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textconst/textconst-contains-method",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.971Z",
+      "blob": "39d65b50d7caff015c7077e5ec67043205480771",
+      "words": 97,
+      "forms": 0
     }
   },
   "input_hash": "39d65b50d7caff015c7077e5ec67043205480771",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/textconst/textconst-contains-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/textconst/textconst-contains-method.md",
+    "description": "Returns a value indicating whether a specified substring occurs within this string.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 97
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "39d65b50d7caff015c7077e5ec67043205480771"
 }

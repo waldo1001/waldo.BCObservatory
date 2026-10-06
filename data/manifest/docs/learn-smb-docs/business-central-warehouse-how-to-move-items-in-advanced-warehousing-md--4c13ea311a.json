@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to move items in advanced warehousing",
+  "title": "Move items in warehouses that use directed put-away and pick",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.137Z",
+      "blob": "569266e302e41301640e411178ed76ee48400566",
+      "words": 1479,
+      "forms": 1
     }
   },
   "input_hash": "569266e302e41301640e411178ed76ee48400566",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-move-items-in-advanced-warehousing.md"
-  }
+    "path": "business-central/warehouse-how-to-move-items-in-advanced-warehousing.md",
+    "description": "This article explains how to move items in locations that use directed put-away and pick.",
+    "ms_date": "2024-04-23",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7351",
+        "id": 7351,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1479
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "569266e302e41301640e411178ed76ee48400566"
 }

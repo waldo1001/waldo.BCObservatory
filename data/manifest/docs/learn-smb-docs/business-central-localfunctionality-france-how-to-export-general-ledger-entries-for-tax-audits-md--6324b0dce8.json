@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to export general ledger entries for tax audits",
+  "title": "Export General Ledger Entries Tax Audits [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.233Z",
+      "blob": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
+      "words": 435,
+      "forms": 0
     }
   },
   "input_hash": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md"
-  }
+    "path": "business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md",
+    "description": "Learn how to export general ledger entries to a text file for a tax audit.",
+    "ms_date": "2025-04-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "tax audit",
+      "audit file",
+      "tax audit file",
+      "export general ledger entries",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 435
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38"
 }

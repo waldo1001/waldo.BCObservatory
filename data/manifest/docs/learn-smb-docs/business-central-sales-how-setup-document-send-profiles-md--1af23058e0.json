@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales how setup document send profiles",
+  "title": "Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-document-send-profiles",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.920Z",
+      "blob": "1bbdd1c033613c48dca416a135f8dc01d68d6ced",
+      "words": 268,
+      "forms": 0
     }
   },
   "input_hash": "1bbdd1c033613c48dca416a135f8dc01d68d6ced",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-how-setup-document-send-profiles.md"
-  }
+    "path": "business-central/sales-how-setup-document-send-profiles.md",
+    "description": "Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "email",
+      "PDF",
+      "electronic document"
+    ],
+    "ai_usage": null,
+    "words": 268
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1bbdd1c033613c48dca416a135f8dc01d68d6ced"
 }

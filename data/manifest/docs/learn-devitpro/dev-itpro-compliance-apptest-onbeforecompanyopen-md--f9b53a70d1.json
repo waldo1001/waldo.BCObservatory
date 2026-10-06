@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "apptest onbeforecompanyopen",
+  "title": "Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-onbeforecompanyopen",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.871Z",
+      "blob": "5835f9fac8213a41f2f3ab475a39b9e270c5e1f9",
+      "words": 242,
+      "forms": 0
     }
   },
   "input_hash": "5835f9fac8213a41f2f3ab475a39b9e270c5e1f9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/compliance/apptest-onbeforecompanyopen.md"
-  }
+    "path": "dev-itpro/compliance/apptest-onbeforecompanyopen.md",
+    "description": "Describes how to replace OnBeforeCompanyOpen and OnAfterCompanyOpen events.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 242
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5835f9fac8213a41f2f3ab475a39b9e270c5e1f9"
 }

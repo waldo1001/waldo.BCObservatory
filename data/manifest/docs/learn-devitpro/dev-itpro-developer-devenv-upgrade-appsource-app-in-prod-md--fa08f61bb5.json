@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv upgrade appsource app in prod",
+  "title": "Upgrading Marketplace Apps in Production",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-appsource-app-in-prod",
   "published_at": "2026-02-20T12:50:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.862Z",
+      "blob": "0fb8c54d205bc50ba12d5314f7585673000c3388",
+      "words": 157,
+      "forms": 0
     }
   },
   "input_hash": "0fb8c54d205bc50ba12d5314f7585673000c3388",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-upgrade-appsource-app-in-prod.md"
-  }
+    "path": "dev-itpro/developer/devenv-upgrade-appsource-app-in-prod.md",
+    "description": "Describes how to upgrade apps available on Marketplace that are already in running in production.",
+    "ms_date": "2021-08-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 157
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0fb8c54d205bc50ba12d5314f7585673000c3388"
 }

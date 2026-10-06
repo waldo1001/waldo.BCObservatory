@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1078",
+  "title": "Compiler Warning (future error) AL1078",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1078",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.598Z",
+      "blob": "ed0661087ebc85f54c75b5c046529eec77cf84a4",
+      "words": 83,
+      "forms": 0
     }
   },
   "input_hash": "ed0661087ebc85f54c75b5c046529eec77cf84a4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1078.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1078.md",
+    "description": "Key vault URL is not a valid Azure key vault URL.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 83
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ed0661087ebc85f54c75b5c046529eec77cf84a4"
 }

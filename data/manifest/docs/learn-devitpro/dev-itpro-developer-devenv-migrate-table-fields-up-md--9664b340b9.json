@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv migrate table fields up",
+  "title": "Moving Tables and Fields to Extensions Up the Dependency Graph",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-up",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.558Z",
+      "blob": "206daed307bb0caa4dbb090f8e25144b48f68646",
+      "words": 1376,
+      "forms": 0
     }
   },
   "input_hash": "206daed307bb0caa4dbb090f8e25144b48f68646",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-migrate-table-fields-up.md"
-  }
+    "path": "dev-itpro/developer/devenv-migrate-table-fields-up.md",
+    "description": "Explains how to move tables and fields from an extension to another extension that is up the dependency graph",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1376
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "206daed307bb0caa4dbb090f8e25144b48f68646"
 }

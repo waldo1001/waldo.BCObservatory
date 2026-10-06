@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to enable workflows",
+  "title": "How to enable approval workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-enable-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.213Z",
+      "blob": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2",
+      "words": 146,
+      "forms": 0
     }
   },
   "input_hash": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-enable-workflows.md"
-  }
+    "path": "business-central/across-how-to-enable-workflows.md",
+    "description": "After creating a workflow and confirming it is ready, you must enable it to begin using the workflow.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "approval workflow",
+      "enable workflow",
+      "enable approval workflow"
+    ],
+    "ai_usage": null,
+    "words": 146
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2"
 }

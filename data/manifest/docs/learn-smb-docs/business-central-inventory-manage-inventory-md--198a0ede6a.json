@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory manage inventory",
+  "title": "Managing inventory",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-manage-inventory",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.313Z",
+      "blob": "1b7c934d26070ca6a727043e8e0f58ab35abe624",
+      "words": 779,
+      "forms": 0
     }
   },
   "input_hash": "1b7c934d26070ca6a727043e8e0f58ab35abe624",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-manage-inventory.md"
-  }
+    "path": "business-central/inventory-manage-inventory.md",
+    "description": "This article describes how to manage the physical products you trade in by creating an inventory item card.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "warehouse",
+      "stock"
+    ],
+    "ai_usage": null,
+    "words": 779
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b7c934d26070ca6a727043e8e0f58ab35abe624"
 }

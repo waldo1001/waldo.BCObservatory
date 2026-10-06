@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "delivery reminders",
+  "title": "Delivery Reminders [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.877Z",
+      "blob": "7241b6f992db661a4d86b65dd0095623a3d1978a",
+      "words": 45,
+      "forms": 2
     }
   },
   "input_hash": "7241b6f992db661a4d86b65dd0095623a3d1978a",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/delivery-reminders.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/delivery-reminders.md",
+    "description": "Learn how to use delivery reminders to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version.",
+    "ms_date": "2025-04-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5005270",
+        "id": 5005270,
+        "kind": null
+      },
+      {
+        "raw": "5005272",
+        "id": 5005272,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "delivery reminders",
+      "Swiss version",
+      "overdue deliveries",
+      "vendor shipments",
+      "track vendor shipments",
+      "remind vendors"
+    ],
+    "ai_usage": null,
+    "words": 45
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7241b6f992db661a4d86b65dd0095623a3d1978a"
 }

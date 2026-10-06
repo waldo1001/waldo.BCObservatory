@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "tenant admin center telemetry",
+  "title": "Environment Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.773Z",
+      "blob": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
+      "words": 499,
+      "forms": 0
     }
   },
   "input_hash": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/tenant-admin-center-telemetry.md"
-  }
+    "path": "dev-itpro/administration/tenant-admin-center-telemetry.md",
+    "description": "Learn how the Business Central admin center provides telemetry for each environment.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 499
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d323eea6fe08db956e80c6c6733f9ac7ce276790"
 }

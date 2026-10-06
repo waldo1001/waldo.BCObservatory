@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payables agent setup",
+  "title": "Set Up Payables Agent in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.441Z",
+      "blob": "1b0461f412459b1de497dc181edc3ea5b359ba68",
+      "words": 3080,
+      "forms": 2
     }
   },
   "input_hash": "1b0461f412459b1de497dc181edc3ea5b359ba68",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/payables-agent-setup.md"
-  }
+    "path": "business-central/payables-agent-setup.md",
+    "description": "Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "3304_Primary",
+        "id": 3304,
+        "kind": "Primary"
+      },
+      {
+        "raw": "3313",
+        "id": 3313,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 3080
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b0461f412459b1de497dc181edc3ea5b359ba68"
 }

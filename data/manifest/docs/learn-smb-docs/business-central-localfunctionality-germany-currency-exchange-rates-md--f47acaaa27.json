@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "currency exchange rates",
+  "title": "Currency Exchange Rates [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/currency-exchange-rates",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.335Z",
+      "blob": "e8aedaec1837208bad50eee138aff426fe7312c9",
+      "words": 457,
+      "forms": 0
     }
   },
   "input_hash": "e8aedaec1837208bad50eee138aff426fe7312c9",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/currency-exchange-rates.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/currency-exchange-rates.md",
+    "description": "At fiscal year-end, adjust currency exchange rates for payables and receivables to ensure accurate annual balance valuation.",
+    "ms_date": "2025-03-10",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "adjust exchange rates",
+      "currency exchange rates",
+      "valuation methods",
+      "German version",
+      "Germany"
+    ],
+    "ai_usage": null,
+    "words": 457
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e8aedaec1837208bad50eee138aff426fe7312c9"
 }

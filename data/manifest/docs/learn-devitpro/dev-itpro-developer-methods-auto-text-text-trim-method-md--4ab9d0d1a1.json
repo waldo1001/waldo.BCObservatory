@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "text trim method",
+  "title": "Text.Trim() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-trim-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.906Z",
+      "blob": "f9b12148a8f9ba922d51b2a623eeb9166dfeace4",
+      "words": 109,
+      "forms": 0
     }
   },
   "input_hash": "f9b12148a8f9ba922d51b2a623eeb9166dfeace4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/text/text-trim-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/text/text-trim-method.md",
+    "description": "Returns a new Text in which all leading and trailing white-space characters from the current Text object are removed.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 109
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f9b12148a8f9ba922d51b2a623eeb9166dfeace4"
 }

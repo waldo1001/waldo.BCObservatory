@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "fieldtype option",
+  "title": "FieldType system option",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/fieldtype/fieldtype-option",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.656Z",
+      "blob": "6a74d52af64ad930419a2edff6246975be21b9c9",
+      "words": 636,
+      "forms": 0
     }
   },
   "input_hash": "6a74d52af64ad930419a2edff6246975be21b9c9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/fieldtype/fieldtype-option.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/fieldtype/fieldtype-option.md",
+    "description": "Represents the type of a table field.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 636
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a74d52af64ad930419a2edff6246975be21b9c9"
 }

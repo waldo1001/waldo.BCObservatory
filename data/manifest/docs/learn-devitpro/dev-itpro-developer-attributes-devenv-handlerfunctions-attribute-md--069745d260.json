@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv handlerfunctions attribute",
+  "title": "HandlerFunctions attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-handlerfunctions-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.129Z",
+      "blob": "7b83abb015a29d7a29a33be4c67a9f390535fe77",
+      "words": 271,
+      "forms": 0
     }
   },
   "input_hash": "7b83abb015a29d7a29a33be4c67a9f390535fe77",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-handlerfunctions-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-handlerfunctions-attribute.md",
+    "description": "Specifies the handler methods that are used by the test method.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 271
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7b83abb015a29d7a29a33be4c67a9f390535fe77"
 }

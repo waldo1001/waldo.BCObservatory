@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics extensionupload create",
+  "title": "(Automation API) Create extensionUpload",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_extensionupload_create",
   "published_at": "2026-08-18T10:12:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.281Z",
+      "blob": "1662ccffdcddf0de361e092003da7b802a9656a2",
+      "words": 127,
+      "forms": 0
     }
   },
   "input_hash": "1662ccffdcddf0de361e092003da7b802a9656a2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/api/dynamics_extensionupload_create.md"
-  }
+    "path": "dev-itpro/administration/api/dynamics_extensionupload_create.md",
+    "description": "Learn how to create an extensionUpload object using the Automation API in Dynamics 365 Business Central. Explore HTTP requests, headers, and examples.",
+    "ms_date": "2026-07-07",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 127
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1662ccffdcddf0de361e092003da7b802a9656a2"
 }

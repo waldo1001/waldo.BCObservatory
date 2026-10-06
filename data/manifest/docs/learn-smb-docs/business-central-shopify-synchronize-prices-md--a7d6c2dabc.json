@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "synchronize prices",
+  "title": "Synchronize prices with Shopify",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-prices",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.300Z",
+      "blob": "086477db23a26ab7118c6b90fc405fa43fd52359",
+      "words": 2570,
+      "forms": 4
     }
   },
   "input_hash": "086477db23a26ab7118c6b90fc405fa43fd52359",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/synchronize-prices.md"
-  }
+    "path": "business-central/shopify/synchronize-prices.md",
+    "description": "Set up and manage price synchronization between Business Central and Shopify, including B2B pricing, market-specific pricing, and how tax settings affect exported prices.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30126",
+        "id": 30126,
+        "kind": null
+      },
+      {
+        "raw": "30127",
+        "id": 30127,
+        "kind": null
+      },
+      {
+        "raw": "30159",
+        "id": 30159,
+        "kind": null
+      },
+      {
+        "raw": "30174",
+        "id": 30174,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2570
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "086477db23a26ab7118c6b90fc405fa43fd52359"
 }

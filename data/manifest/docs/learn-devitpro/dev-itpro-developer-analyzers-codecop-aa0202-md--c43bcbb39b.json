@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0202",
+  "title": "CodeCop Warning AA0202",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0202",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.665Z",
+      "blob": "6ee1b217e76b402dc60bbf5cd3cabbec76ad0266",
+      "words": 82,
+      "forms": 0
     }
   },
   "input_hash": "6ee1b217e76b402dc60bbf5cd3cabbec76ad0266",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0202.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0202.md",
+    "description": "To avoid confusion, do not give local variables the same name as fields, methods, or actions in the same scope.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 82
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ee1b217e76b402dc60bbf5cd3cabbec76ad0266"
 }

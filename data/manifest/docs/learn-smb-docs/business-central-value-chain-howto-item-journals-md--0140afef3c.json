@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "value chain howto item journals",
+  "title": "Sustainability value chain in item journals",
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-item-journals",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.429Z",
+      "blob": "7e3633f9cc7db130de58e863c0d8d9133f8385a6",
+      "words": 522,
+      "forms": 0
     }
   },
   "input_hash": "7e3633f9cc7db130de58e863c0d8d9133f8385a6",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/value-chain-howto-item-journals.md"
-  }
+    "path": "business-central/value-chain-howto-item-journals.md",
+    "description": "Learn how item journals and item reclassification journals affect sustainability value chain entries and item emissions.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Sustainability",
+      "scope 3",
+      "emission",
+      "GHG",
+      "carbon",
+      "CO2",
+      "CO2e",
+      "value chain",
+      "item journal",
+      "item reclassification journal",
+      "adjust emissions"
+    ],
+    "ai_usage": null,
+    "words": 522
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e3633f9cc7db130de58e863c0d8d9133f8385a6"
 }

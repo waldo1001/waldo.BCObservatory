@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "types of payment returns files",
+  "title": "Types of payment returns files [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.172Z",
+      "blob": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
+      "words": 406,
+      "forms": 6
     }
   },
   "input_hash": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
@@ -18,6 +24,53 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/types-of-payment-returns-files.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/types-of-payment-returns-files.md",
+    "description": "The Norwegian Business Central allows importing receipt returns and settlement returns payment files.",
+    "ms_date": "2025-05-16",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "15000000",
+        "id": 15000000,
+        "kind": null
+      },
+      {
+        "raw": "15000002",
+        "id": 15000002,
+        "kind": null
+      },
+      {
+        "raw": "15000004",
+        "id": 15000004,
+        "kind": null
+      },
+      {
+        "raw": "15000006",
+        "id": 15000006,
+        "kind": null
+      },
+      {
+        "raw": "15000007",
+        "id": 15000007,
+        "kind": null
+      },
+      {
+        "raw": "15000010",
+        "id": 15000010,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "receipt returns",
+      "settlement returns",
+      "payment files types",
+      "payment files",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 406
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f"
 }

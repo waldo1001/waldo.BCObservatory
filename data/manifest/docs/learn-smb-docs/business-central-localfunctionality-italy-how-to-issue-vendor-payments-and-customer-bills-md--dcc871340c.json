@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to issue vendor payments and customer bills",
+  "title": "Issue Vendor Payments and Customer Bills (IT)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.875Z",
+      "blob": "5f7ee30d08b220557bdd3d329602ecf97fbbf116",
+      "words": 433,
+      "forms": 11
     }
   },
   "input_hash": "5f7ee30d08b220557bdd3d329602ecf97fbbf116",
@@ -18,6 +24,81 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md",
+    "description": "The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.",
+    "ms_date": "2025-05-20",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12102",
+        "id": 12102,
+        "kind": null
+      },
+      {
+        "raw": "12175",
+        "id": 12175,
+        "kind": null
+      },
+      {
+        "raw": "12176",
+        "id": 12176,
+        "kind": null
+      },
+      {
+        "raw": "12178",
+        "id": 12178,
+        "kind": null
+      },
+      {
+        "raw": "12180",
+        "id": 12180,
+        "kind": null
+      },
+      {
+        "raw": "12181",
+        "id": 12181,
+        "kind": null
+      },
+      {
+        "raw": "12182",
+        "id": 12182,
+        "kind": null
+      },
+      {
+        "raw": "12184",
+        "id": 12184,
+        "kind": null
+      },
+      {
+        "raw": "12185",
+        "id": 12185,
+        "kind": null
+      },
+      {
+        "raw": "12186",
+        "id": 12186,
+        "kind": null
+      },
+      {
+        "raw": "12190",
+        "id": 12190,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "vendor and customer bill pay feature",
+      "issue vendor payments",
+      "issue customer bills",
+      "SEPA credit transfer",
+      "SEPA direct debit",
+      "vendor bill payment",
+      "customer bill payment",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 433
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5f7ee30d08b220557bdd3d329602ecf97fbbf116"
 }

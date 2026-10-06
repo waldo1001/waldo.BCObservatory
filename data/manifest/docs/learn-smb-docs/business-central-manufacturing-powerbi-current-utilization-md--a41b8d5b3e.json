@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi current utilization",
+  "title": "Current Utilization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.248Z",
+      "blob": "0f464e876314ef5fb584a5bb61ea369d91a58f88",
+      "words": 298,
+      "forms": 1
     }
   },
   "input_hash": "0f464e876314ef5fb584a5bb61ea369d91a58f88",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-current-utilization.md"
-  }
+    "path": "business-central/manufacturing-powerbi-current-utilization.md",
+    "description": "The Current Utilization report provides insights into the manufacturing capacity use and helps with capacity planning.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37040_Primary",
+        "id": 37040,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 298
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f464e876314ef5fb584a5bb61ea369d91a58f88"
 }

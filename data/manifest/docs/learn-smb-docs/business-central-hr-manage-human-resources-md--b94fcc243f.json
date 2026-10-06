@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "hr manage human resources",
+  "title": "Manage human resources",
   "url": "https://learn.microsoft.com/dynamics365/business-central/hr-manage-human-resources",
   "published_at": "2025-10-10T07:42:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.735Z",
+      "blob": "7bac5fce5af24deee4faa0f68a736231b8b6c777",
+      "words": 143,
+      "forms": 10
     }
   },
   "input_hash": "7bac5fce5af24deee4faa0f68a736231b8b6c777",
@@ -18,6 +24,73 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/hr-manage-human-resources.md"
-  }
+    "path": "business-central/hr-manage-human-resources.md",
+    "description": "Register and manage employee records, maintain employment details, and track and analyze absences.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5200",
+        "id": 5200,
+        "kind": null
+      },
+      {
+        "raw": "5201",
+        "id": 5201,
+        "kind": null
+      },
+      {
+        "raw": "5204",
+        "id": 5204,
+        "kind": null
+      },
+      {
+        "raw": "5206",
+        "id": 5206,
+        "kind": null
+      },
+      {
+        "raw": "5208",
+        "id": 5208,
+        "kind": null
+      },
+      {
+        "raw": "5209",
+        "id": 5209,
+        "kind": null
+      },
+      {
+        "raw": "5211",
+        "id": 5211,
+        "kind": null
+      },
+      {
+        "raw": "5212",
+        "id": 5212,
+        "kind": null
+      },
+      {
+        "raw": "5221",
+        "id": 5221,
+        "kind": null
+      },
+      {
+        "raw": "5228",
+        "id": 5228,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "personnel",
+      "people",
+      "employee",
+      "staff",
+      "HR"
+    ],
+    "ai_usage": null,
+    "words": 143
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7bac5fce5af24deee4faa0f68a736231b8b6c777"
 }

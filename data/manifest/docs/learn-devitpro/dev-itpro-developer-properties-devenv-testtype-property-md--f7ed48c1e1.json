@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv testtype property",
+  "title": "TestType property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-testtype-property",
   "published_at": "2025-08-19T10:57:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.239Z",
+      "blob": "a864793ee1274bf5026e03d009c0cd3edec93c39",
+      "words": 220,
+      "forms": 0
     }
   },
   "input_hash": "a864793ee1274bf5026e03d009c0cd3edec93c39",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-testtype-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-testtype-property.md",
+    "description": "Specifies the type of test implemented in the codeunit, such as unit test.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 220
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a864793ee1274bf5026e03d009c0cd3edec93c39"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Service Management",
+  "title": "GST on Service Management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.088Z",
+      "blob": "030671ba97b4bcc298305f9cc03d122e66066cf4",
+      "words": 368,
+      "forms": 0
     }
   },
   "input_hash": "030671ba97b4bcc298305f9cc03d122e66066cf4",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Service-Management.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Service-Management.md",
+    "description": "Learn how GST is applied to service management processes in Business Central for India, including service orders, invoices, and credit memos.",
+    "ms_date": "2025-06-24",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "service management",
+      "service order",
+      "service invoice",
+      "service credit memo"
+    ],
+    "ai_usage": null,
+    "words": 368
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "030671ba97b4bcc298305f9cc03d122e66066cf4"
 }

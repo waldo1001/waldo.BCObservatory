@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al145",
+  "title": "Compiler Error AL0145",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al145",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.130Z",
+      "blob": "5a8c50cc1e6ab54c0ad059fde5be8409c01c2fd8",
+      "words": 60,
+      "forms": 0
     }
   },
   "input_hash": "5a8c50cc1e6ab54c0ad059fde5be8409c01c2fd8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al145.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al145.md",
+    "description": "Direct assignment is not valid for arrays.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 60
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a8c50cc1e6ab54c0ad059fde5be8409c01c2fd8"
 }

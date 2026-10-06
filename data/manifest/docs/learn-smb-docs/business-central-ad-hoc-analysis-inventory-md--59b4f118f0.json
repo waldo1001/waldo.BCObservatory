@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ad hoc analysis inventory",
+  "title": "Ad-hoc analysis of inventory data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
   "published_at": "2026-04-01T11:11:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.358Z",
+      "blob": "ab593add5d9e7c851a5644fa5852058fe29621f2",
+      "words": 1618,
+      "forms": 5
     }
   },
   "input_hash": "ab593add5d9e7c851a5644fa5852058fe29621f2",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ad-hoc-analysis-inventory.md"
-  }
+    "path": "business-central/ad-hoc-analysis-inventory.md",
+    "description": "Learn how to use the data analysis mode to analyze inventory data.",
+    "ms_date": "2026-04-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "516",
+        "id": 516,
+        "kind": null
+      },
+      {
+        "raw": "9300",
+        "id": 9300,
+        "kind": null
+      },
+      {
+        "raw": "5119",
+        "id": 5119,
+        "kind": null
+      },
+      {
+        "raw": "9301",
+        "id": 9301,
+        "kind": null
+      },
+      {
+        "raw": "9305",
+        "id": 9305,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1618
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ab593add5d9e7c851a5644fa5852058fe29621f2"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance powerbi liquidity",
+  "title": "Liquidity",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.518Z",
+      "blob": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
+      "words": 295,
+      "forms": 1
     }
   },
   "input_hash": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-powerbi-liquidity.md"
-  }
+    "path": "business-central/finance-powerbi-liquidity.md",
+    "description": "The Liquidity report shows key liquidity metrics used to analyze an organization's ability to meet current liabilities.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "36988_Primary",
+        "id": 36988,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8c30e2e56ac6024936c464e64b86ae7c99cf463"
 }

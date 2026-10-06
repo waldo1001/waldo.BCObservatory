@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi production scrap",
+  "title": "Production Scrap (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.265Z",
+      "blob": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
+      "words": 468,
+      "forms": 1
     }
   },
   "input_hash": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-production-scrap.md"
-  }
+    "path": "business-central/manufacturing-powerbi-production-scrap.md",
+    "description": "The Production Scrap report shows the quantity of capacity scrap each month, with a breakdown by code, location, and item category.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37055_Primary",
+        "id": 37055,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 468
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97"
 }

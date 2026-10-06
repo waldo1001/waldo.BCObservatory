@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv programming in al",
+  "title": "Programming in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.848Z",
+      "blob": "d96993d49cf5865551d22a152fa0fbd82702b26f",
+      "words": 576,
+      "forms": 0
     }
   },
   "input_hash": "d96993d49cf5865551d22a152fa0fbd82702b26f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-programming-in-al.md"
-  }
+    "path": "dev-itpro/developer/devenv-programming-in-al.md",
+    "description": "AL is the programming language used for manipulating data such as retrieving, inserting, and modifying records in a Business Central database. It controls the execution of the various application objects, such as pages, reports, or codeunits.",
+    "ms_date": "2025-01-16",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 576
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d96993d49cf5865551d22a152fa0fbd82702b26f"
 }

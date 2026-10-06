@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin job queues schedule tasks",
+  "title": "Schedule jobs to run automatically",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks",
   "published_at": "2026-07-03T13:47:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.896Z",
+      "blob": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb",
+      "words": 2381,
+      "forms": 4
     }
   },
   "input_hash": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-job-queues-schedule-tasks.md"
-  }
+    "path": "business-central/admin-job-queues-schedule-tasks.md",
+    "description": "Learn how to use job queue entries to run reports and codeunits.",
+    "ms_date": "2026-07-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "672",
+        "id": 672,
+        "kind": null
+      },
+      {
+        "raw": "673",
+        "id": 673,
+        "kind": null
+      },
+      {
+        "raw": "674",
+        "id": 674,
+        "kind": null
+      },
+      {
+        "raw": "671",
+        "id": 671,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2381
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e9bd7551360f1e2dc99bbd257f416ff59af39fb"
 }

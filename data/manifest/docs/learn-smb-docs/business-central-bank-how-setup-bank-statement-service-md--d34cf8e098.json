@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bank how setup bank statement service",
+  "title": "Set Up Yodlee Bank Feeds",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.592Z",
+      "blob": "5539e16ff2a62ba91aa4fac91593392f40061170",
+      "words": 1592,
+      "forms": 2
     }
   },
   "input_hash": "5539e16ff2a62ba91aa4fac91593392f40061170",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bank-how-setup-bank-statement-service.md"
-  }
+    "path": "business-central/bank-how-setup-bank-statement-service.md",
+    "description": "You can convert payment information to any data format that your bank requires and enable the export or import of bank files.",
+    "ms_date": "2024-03-20",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1280",
+        "id": 1280,
+        "kind": null
+      },
+      {
+        "raw": "1290",
+        "id": 1290,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Yodlee",
+      "feed",
+      "stream",
+      "payment process"
+    ],
+    "ai_usage": null,
+    "words": 1592
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5539e16ff2a62ba91aa4fac91593392f40061170"
 }

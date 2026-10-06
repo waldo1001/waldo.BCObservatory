@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv transactionmodel attribute",
+  "title": "TransactionModel attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-transactionmodel-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.245Z",
+      "blob": "f07ec8d8efe46e818b7ee62b4bd3cafe938493db",
+      "words": 737,
+      "forms": 0
     }
   },
   "input_hash": "f07ec8d8efe46e818b7ee62b4bd3cafe938493db",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-transactionmodel-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-transactionmodel-attribute.md",
+    "description": "Specifies whether data is committed to the database during execution of a test method and whether transactions are rolled back at the end of a test method.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 737
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f07ec8d8efe46e818b7ee62b4bd3cafe938493db"
 }

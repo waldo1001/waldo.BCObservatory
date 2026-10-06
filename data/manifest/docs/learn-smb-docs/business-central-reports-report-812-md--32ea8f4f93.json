@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 812",
+  "title": "Assembly BOM - End Items (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-812",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.784Z",
+      "blob": "257b6bd319b3c1b795ac6fa587bbbd8517ebbc2c",
+      "words": 186,
+      "forms": 1
     }
   },
   "input_hash": "257b6bd319b3c1b795ac6fa587bbbd8517ebbc2c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-812.md"
-  }
+    "path": "business-central/reports/report-812.md",
+    "description": "Get a list of items or bill of materials (BOMs) that are not components of any other BOMs.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_812_Primary",
+        "id": 812,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 186
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "257b6bd319b3c1b795ac6fa587bbbd8517ebbc2c"
 }

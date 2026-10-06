@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to run mps and mrp",
+  "title": "Run Full Planning, MPS, or MRP",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.171Z",
+      "blob": "91eccbadc26b54df668e409b82dbc30ace32f225",
+      "words": 1906,
+      "forms": 2
     }
   },
   "input_hash": "91eccbadc26b54df668e409b82dbc30ace32f225",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-run-mps-and-mrp.md"
-  }
+    "path": "business-central/production-how-to-run-mps-and-mrp.md",
+    "description": "The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000852",
+        "id": 99000852,
+        "kind": null
+      },
+      {
+        "raw": "99000860",
+        "id": 99000860,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1906
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91eccbadc26b54df668e409b82dbc30ace32f225"
 }

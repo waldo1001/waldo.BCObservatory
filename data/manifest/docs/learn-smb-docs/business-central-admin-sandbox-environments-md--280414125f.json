@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin sandbox environments",
+  "title": "Sandbox environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-sandbox-environments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.546Z",
+      "blob": "552cfbe46214c34ce616f0d9ed89d21d817ee1b9",
+      "words": 624,
+      "forms": 0
     }
   },
   "input_hash": "552cfbe46214c34ce616f0d9ed89d21d817ee1b9",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-sandbox-environments.md"
-  }
+    "path": "business-central/admin-sandbox-environments.md",
+    "description": "Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.",
+    "ms_date": "2021-12-20",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [
+      "sandbox",
+      "demo",
+      "develop"
+    ],
+    "ai_usage": null,
+    "words": 624
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "552cfbe46214c34ce616f0d9ed89d21d817ee1b9"
 }

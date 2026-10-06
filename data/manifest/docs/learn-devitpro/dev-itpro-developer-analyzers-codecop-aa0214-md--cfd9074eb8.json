@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0214",
+  "title": "CodeCop Warning AA0214",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0214",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.711Z",
+      "blob": "5b2707e69e4c3768aeffdaad941cf2a712e000a1",
+      "words": 64,
+      "forms": 0
     }
   },
   "input_hash": "5b2707e69e4c3768aeffdaad941cf2a712e000a1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0214.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0214.md",
+    "description": "The local record should be modified before saving to the database.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 64
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b2707e69e4c3768aeffdaad941cf2a712e000a1"
 }

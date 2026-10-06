@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "use odata to modify data",
+  "title": "OData Web Services Data Modification",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-to-modify-data",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.236Z",
+      "blob": "827018ba223a17b4fecd1e7e074f9279b2e9d120",
+      "words": 421,
+      "forms": 0
     }
   },
   "input_hash": "827018ba223a17b4fecd1e7e074f9279b2e9d120",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/use-odata-to-modify-data.md"
-  }
+    "path": "dev-itpro/webservices/use-odata-to-modify-data.md",
+    "description": "Write to the database using an OData web service that exposes a writable page and implement it in on Microsoft SharePoint Online.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 421
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "827018ba223a17b4fecd1e7e074f9279b2e9d120"
 }

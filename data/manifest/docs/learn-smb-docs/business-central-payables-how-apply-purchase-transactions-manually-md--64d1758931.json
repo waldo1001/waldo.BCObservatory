@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payables how apply purchase transactions manually",
+  "title": "Reconcile vendor payment receipts or refunds in the payment journal",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-apply-purchase-transactions-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.807Z",
+      "blob": "13283b57536d2c06511a2af0db3a6f67f5146bf2",
+      "words": 1389,
+      "forms": 4
     }
   },
   "input_hash": "13283b57536d2c06511a2af0db3a6f67f5146bf2",
@@ -18,6 +24,41 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/payables-how-apply-purchase-transactions-manually.md"
-  }
+    "path": "business-central/payables-how-apply-purchase-transactions-manually.md",
+    "description": "To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.",
+    "ms_date": "2024-07-19",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "62",
+        "id": 62,
+        "kind": null
+      },
+      {
+        "raw": "233",
+        "id": 233,
+        "kind": null
+      },
+      {
+        "raw": "522",
+        "id": 522,
+        "kind": null
+      },
+      {
+        "raw": "623",
+        "id": 623,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment application",
+      "payment processing",
+      "match payments"
+    ],
+    "ai_usage": null,
+    "words": 1389
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13283b57536d2c06511a2af0db3a6f67f5146bf2"
 }

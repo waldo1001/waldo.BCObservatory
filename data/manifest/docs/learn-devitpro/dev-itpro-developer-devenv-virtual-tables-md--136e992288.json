@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv virtual tables",
+  "title": "Virtual tables",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-virtual-tables",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.896Z",
+      "blob": "85ce987afd772066e04600abf1c09fd6c83407b0",
+      "words": 193,
+      "forms": 0
     }
   },
   "input_hash": "85ce987afd772066e04600abf1c09fd6c83407b0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-virtual-tables.md"
-  }
+    "path": "dev-itpro/developer/devenv-virtual-tables.md",
+    "description": "Virtual tables are system tables in AL for Dynamics 365 Business Central",
+    "ms_date": "2025-01-08",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 193
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "85ce987afd772066e04600abf1c09fd6c83407b0"
 }

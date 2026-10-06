@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv flowcaption property",
+  "title": "FlowCaption property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-flowcaption-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.679Z",
+      "blob": "7ee514949a42b48087e2cab1b0756b3483f595a0",
+      "words": 59,
+      "forms": 0
     }
   },
   "input_hash": "7ee514949a42b48087e2cab1b0756b3483f595a0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-flowcaption-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-flowcaption-property.md",
+    "description": "Sets the default caption of the new flow.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 59
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ee514949a42b48087e2cab1b0756b3483f595a0"
 }

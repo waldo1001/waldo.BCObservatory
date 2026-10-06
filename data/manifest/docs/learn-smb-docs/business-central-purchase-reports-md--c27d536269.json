@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchase reports",
+  "title": "Purchasing reports and analytical tasks",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchase-reports",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.605Z",
+      "blob": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6",
+      "words": 87,
+      "forms": 14
     }
   },
   "input_hash": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6",
@@ -18,6 +24,89 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchase-reports.md"
-  }
+    "path": "business-central/purchase-reports.md",
+    "description": "Learn which purchase reports are available in the standard version of Business Central so that you can keep track of your business.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_307",
+        "id": 307,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_308",
+        "id": 308,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_311",
+        "id": 311,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_312",
+        "id": 312,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_313",
+        "id": 313,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_320",
+        "id": 320,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_709",
+        "id": 709,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_707",
+        "id": 707,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_709",
+        "id": 709,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_714",
+        "id": 714,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_716",
+        "id": 716,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_720",
+        "id": 720,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_1322",
+        "id": 1322,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_2502",
+        "id": 2502,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 87
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff335671ad7c6e8c6aeb29d284a81268fe9b0ae6"
 }

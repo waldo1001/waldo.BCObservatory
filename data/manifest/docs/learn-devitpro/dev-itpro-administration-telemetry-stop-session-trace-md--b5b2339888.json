@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry stop session trace",
+  "title": "Analyzing Stopped Session Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
   "published_at": "2026-06-02T11:42:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.162Z",
+      "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
+      "words": 531,
+      "forms": 0
     }
   },
   "input_hash": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-stop-session-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-stop-session-trace.md",
+    "description": "Learn about analyzing stop session telemetry in Business Central.",
+    "ms_date": "2022-07-26",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 531
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4be759c3b43bd1f6d311cc03e81eeb7e39147908"
 }

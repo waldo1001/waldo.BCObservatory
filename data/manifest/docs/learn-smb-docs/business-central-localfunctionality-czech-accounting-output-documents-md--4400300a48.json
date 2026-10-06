@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "accounting output documents",
+  "title": "Czech Local Functionality - Accounting output documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/accounting-output-documents",
   "published_at": "2025-06-17T15:55:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.246Z",
+      "blob": "370a54eda299e2722b345b0a2534cb9c845eaf23",
+      "words": 99,
+      "forms": 0
     }
   },
   "input_hash": "370a54eda299e2722b345b0a2534cb9c845eaf23",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/accounting-output-documents.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/accounting-output-documents.md",
+    "description": "Learn about accounting output documents available in the Czech version of Business Central, including local reporting features and compliance requirements.",
+    "ms_date": "2025-06-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "Localization",
+      "CZ",
+      "Czech version"
+    ],
+    "ai_usage": null,
+    "words": 99
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "370a54eda299e2722b345b0a2534cb9c845eaf23"
 }

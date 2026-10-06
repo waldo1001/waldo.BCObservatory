@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv random test data",
+  "title": "Random Test Data for Application Tests",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-random-test-data",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.074Z",
+      "blob": "cdf9c739cd9a60b3a671a67bdf7a2e4822a59745",
+      "words": 360,
+      "forms": 0
     }
   },
   "input_hash": "cdf9c739cd9a60b3a671a67bdf7a2e4822a59745",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-random-test-data.md"
-  }
+    "path": "dev-itpro/developer/devenv-random-test-data.md",
+    "description": "Learn how to generate random data for application tests in Business Central, and how to seed random values so you can reproduce and fix test failures.",
+    "ms_date": "2026-08-24",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 360
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cdf9c739cd9a60b3a671a67bdf7a2e4822a59745"
 }

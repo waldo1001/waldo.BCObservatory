@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bi how work account schedule",
+  "title": "Build financial reports using financial data and account categories",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule",
   "published_at": "2026-03-17T15:58:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.539Z",
+      "blob": "4643d35f681dc7bd6dccddd44811929dfe77b05f",
+      "words": 2614,
+      "forms": 14
     }
   },
   "input_hash": "4643d35f681dc7bd6dccddd44811929dfe77b05f",
@@ -18,6 +24,94 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bi-how-work-account-schedule.md"
-  }
+    "path": "business-central/bi-how-work-account-schedule.md",
+    "description": "Describes how to use financial reports to create various views and reports for analyzing financial performance data.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Report_25_Primary",
+        "id": 25,
+        "kind": "Report Primary"
+      },
+      {
+        "raw": "103",
+        "id": 103,
+        "kind": null
+      },
+      {
+        "raw": "104",
+        "id": 104,
+        "kind": null
+      },
+      {
+        "raw": "108_Primary",
+        "id": 108,
+        "kind": "Primary"
+      },
+      {
+        "raw": "195",
+        "id": 195,
+        "kind": null
+      },
+      {
+        "raw": "196",
+        "id": 196,
+        "kind": null
+      },
+      {
+        "raw": "197",
+        "id": 197,
+        "kind": null
+      },
+      {
+        "raw": "198",
+        "id": 198,
+        "kind": null
+      },
+      {
+        "raw": "488",
+        "id": 488,
+        "kind": null
+      },
+      {
+        "raw": "489",
+        "id": 489,
+        "kind": null
+      },
+      {
+        "raw": "490_Primary",
+        "id": 490,
+        "kind": "Primary"
+      },
+      {
+        "raw": "764",
+        "id": 764,
+        "kind": null
+      },
+      {
+        "raw": "765",
+        "id": 765,
+        "kind": null
+      },
+      {
+        "raw": "766",
+        "id": 766,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report"
+    ],
+    "ai_usage": null,
+    "words": 2614
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4643d35f681dc7bd6dccddd44811929dfe77b05f"
 }

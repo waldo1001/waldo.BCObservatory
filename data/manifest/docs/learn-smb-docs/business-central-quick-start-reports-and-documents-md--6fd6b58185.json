@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "quick start reports and documents",
+  "title": "Basic reports and documents output quick start",
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-reports-and-documents",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.263Z",
+      "blob": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43",
+      "words": 646,
+      "forms": 0
     }
   },
   "input_hash": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/quick-start-reports-and-documents.md"
-  }
+    "path": "business-central/quick-start-reports-and-documents.md",
+    "description": "Business Central offers built-in templates for reports and documents, with many customization options to adapt them to your company's needs.",
+    "ms_date": "2026-09-09",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "quickstart"
+    ],
+    "ai_usage": null,
+    "words": 646
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43"
 }

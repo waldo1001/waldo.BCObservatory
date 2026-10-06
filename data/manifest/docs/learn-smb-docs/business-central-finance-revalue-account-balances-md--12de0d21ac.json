@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance revalue account balances",
+  "title": "Revalue general ledger account balances",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances",
   "published_at": "2026-10-01T12:38:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.474Z",
+      "blob": "7e076c80f7642384cfbb87254fe4db8c8c1d495d",
+      "words": 1752,
+      "forms": 0
     }
   },
   "input_hash": "7e076c80f7642384cfbb87254fe4db8c8c1d495d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-revalue-account-balances.md"
-  }
+    "path": "business-central/finance-revalue-account-balances.md",
+    "description": "Learn how to revalue general ledger account balances before you produce your financial statements.",
+    "ms_date": "2026-09-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1752
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e076c80f7642384cfbb87254fe4db8c8c1d495d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics vendor get",
+  "title": "Get vendors (Beta)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_vendor_get",
   "published_at": "2026-06-15T09:23:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.794Z",
+      "blob": "be3185434ee1e8f558e0cab90dde23468847ba3b",
+      "words": 89,
+      "forms": 0
     }
   },
   "input_hash": "be3185434ee1e8f558e0cab90dde23468847ba3b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/financereportsapi/api/dynamics_vendor_get.md"
-  }
+    "path": "dev-itpro/administration/financereportsapi/api/dynamics_vendor_get.md",
+    "description": "Gets a vendor object in Dynamics 365 Business Central (Beta).",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 89
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be3185434ee1e8f558e0cab90dde23468847ba3b"
 }

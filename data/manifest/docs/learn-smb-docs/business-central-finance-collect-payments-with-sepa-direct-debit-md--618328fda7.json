@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance collect payments with sepa direct debit",
+  "title": "SEPA Direct Debit in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.623Z",
+      "blob": "6dc3bf713ab498d81690c74190209a337b4b6bb8",
+      "words": 1922,
+      "forms": 7
     }
   },
   "input_hash": "6dc3bf713ab498d81690c74190209a337b4b6bb8",
@@ -18,6 +24,52 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-collect-payments-with-sepa-direct-debit.md"
-  }
+    "path": "business-central/finance-collect-payments-with-sepa-direct-debit.md",
+    "description": "With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.",
+    "ms_date": "2024-07-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "371",
+        "id": 371,
+        "kind": null
+      },
+      {
+        "raw": "423",
+        "id": 423,
+        "kind": null
+      },
+      {
+        "raw": "424",
+        "id": 424,
+        "kind": null
+      },
+      {
+        "raw": "427",
+        "id": 427,
+        "kind": null
+      },
+      {
+        "raw": "1208",
+        "id": 1208,
+        "kind": null
+      },
+      {
+        "raw": "1207",
+        "id": 1207,
+        "kind": null
+      },
+      {
+        "raw": "1230",
+        "id": 1230,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1922
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6dc3bf713ab498d81690c74190209a337b4b6bb8"
 }

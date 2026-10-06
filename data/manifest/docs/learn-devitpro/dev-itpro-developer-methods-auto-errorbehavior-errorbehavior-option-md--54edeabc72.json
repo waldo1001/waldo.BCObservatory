@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "errorbehavior option",
+  "title": "ErrorBehavior system option",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/errorbehavior/errorbehavior-option",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.620Z",
+      "blob": "726e004d8f66bb6ca69af2a89e334f62253cc893",
+      "words": 99,
+      "forms": 0
     }
   },
   "input_hash": "726e004d8f66bb6ca69af2a89e334f62253cc893",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/errorbehavior/errorbehavior-option.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/errorbehavior/errorbehavior-option.md",
+    "description": "Specifies whether errors will be collected within the scope of the method.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 99
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "726e004d8f66bb6ca69af2a89e334f62253cc893"
 }

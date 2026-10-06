@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "debugger enablesqltrace method",
+  "title": "Debugger.EnableSqlTrace(Integer [, Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/debugger/debugger-enablesqltrace-method",
   "published_at": "2025-02-18T14:24:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.479Z",
+      "blob": "e995e483ada0b59140277c51220b6a3ce11f324b",
+      "words": 326,
+      "forms": 0
     }
   },
   "input_hash": "e995e483ada0b59140277c51220b6a3ce11f324b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/debugger/debugger-enablesqltrace-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/debugger/debugger-enablesqltrace-method.md",
+    "description": "Enables or verifies SQL tracing.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 326
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e995e483ada0b59140277c51220b6a3ce11f324b"
 }

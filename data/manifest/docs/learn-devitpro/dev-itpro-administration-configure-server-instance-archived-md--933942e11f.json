@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "configure server instance archived",
+  "title": "Configuring Business Central Server for outdated versions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance-archived",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.369Z",
+      "blob": "c0446c075ceca7ec7d3fe8593570fd9df58241fa",
+      "words": 15771,
+      "forms": 0
     }
   },
   "input_hash": "c0446c075ceca7ec7d3fe8593570fd9df58241fa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/configure-server-instance-archived.md"
-  }
+    "path": "dev-itpro/administration/configure-server-instance-archived.md",
+    "description": "Configure and modify settings in the Setup or Installed Business Central Server using the Administration Console and PowerShell Cmdlets.",
+    "ms_date": "2024-06-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 15771
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0446c075ceca7ec7d3fe8593570fd9df58241fa"
 }

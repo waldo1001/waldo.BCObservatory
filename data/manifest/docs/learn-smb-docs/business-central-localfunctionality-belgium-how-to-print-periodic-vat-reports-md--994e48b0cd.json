@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print periodic vat reports",
+  "title": "How to print periodic VAT reports [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.949Z",
+      "blob": "6176f7eabfee3ad68e05aedfb22be777c23c008b",
+      "words": 659,
+      "forms": 3
     }
   },
   "input_hash": "6176f7eabfee3ad68e05aedfb22be777c23c008b",
@@ -18,6 +24,39 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md",
+    "description": "The VAT reporting feature lets you print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.",
+    "ms_date": "2025-04-24",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "11306",
+        "id": 11306,
+        "kind": null
+      },
+      {
+        "raw": "11307",
+        "id": 11307,
+        "kind": null
+      },
+      {
+        "raw": "11308",
+        "id": 11308,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT reporting feature",
+      "VAT transaction details",
+      "Belgian tax authorities",
+      "VAT VIES",
+      "VAT annual listing",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 659
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6176f7eabfee3ad68e05aedfb22be777c23c008b"
 }

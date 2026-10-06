@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al882",
+  "title": "Compiler Error AL0882",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al882",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.263Z",
+      "blob": "17d3c740e8449c1e7ff099f3ada18d686060b28c",
+      "words": 59,
+      "forms": 0
     }
   },
   "input_hash": "17d3c740e8449c1e7ff099f3ada18d686060b28c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al882.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al882.md",
+    "description": "Pages with SubType set to UserControlHost must specify at most one field of type Text in the Navigation Area.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 59
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17d3c740e8449c1e7ff099f3ada18d686060b28c"
 }

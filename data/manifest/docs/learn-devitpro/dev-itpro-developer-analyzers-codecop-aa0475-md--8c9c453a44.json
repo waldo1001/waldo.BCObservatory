@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0475",
+  "title": "CodeCop Error AA0475",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0475",
   "published_at": "2025-08-08T11:51:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.375Z",
+      "blob": "ea58f53a3cfa67722881ad708fe0ea41c4c61e41",
+      "words": 87,
+      "forms": 0
     }
   },
   "input_hash": "ea58f53a3cfa67722881ad708fe0ea41c4c61e41",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0475.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0475.md",
+    "description": "Truncate can only be used on normal tables and not on system tables, temporary tables, or tables with media fields.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 87
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea58f53a3cfa67722881ad708fe0ea41c4c61e41"
 }

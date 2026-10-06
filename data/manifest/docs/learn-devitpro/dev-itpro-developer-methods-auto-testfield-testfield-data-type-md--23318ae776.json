@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testfield data type",
+  "title": "TestField data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testfield/testfield-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.898Z",
+      "blob": "a954c206d3b319e32f82a6191ce2e65acbc72eb0",
+      "words": 337,
+      "forms": 0
     }
   },
   "input_hash": "a954c206d3b319e32f82a6191ce2e65acbc72eb0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testfield/testfield-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testfield/testfield-data-type.md",
+    "description": "Represents a testable field on a page.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 337
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a954c206d3b319e32f82a6191ce2e65acbc72eb0"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics inventoryprodordercomponentline",
+  "title": "inventoryProdOrderComponentLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_inventoryprodordercomponentline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.912Z",
+      "blob": "2d47e5609af3c7d1c8b9fb688b8e78d823eb07c4",
+      "words": 93,
+      "forms": 0
     }
   },
   "input_hash": "2d47e5609af3c7d1c8b9fb688b8e78d823eb07c4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_inventoryprodordercomponentline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_inventoryprodordercomponentline.md",
+    "description": "Represents a inventoryProdOrderComponentLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 93
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d47e5609af3c7d1c8b9fb688b8e78d823eb07c4"
 }

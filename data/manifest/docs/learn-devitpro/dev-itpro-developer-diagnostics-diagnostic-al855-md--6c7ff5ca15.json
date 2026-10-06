@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al855",
+  "title": "Compiler Error AL0855",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al855",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.132Z",
+      "blob": "fdaf398ed108deaafe53f6ce1e27d94617ed9363",
+      "words": 46,
+      "forms": 0
     }
   },
   "input_hash": "fdaf398ed108deaafe53f6ce1e27d94617ed9363",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al855.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al855.md",
+    "description": "The variable name cannot be empty.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 46
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fdaf398ed108deaafe53f6ce1e27d94617ed9363"
 }

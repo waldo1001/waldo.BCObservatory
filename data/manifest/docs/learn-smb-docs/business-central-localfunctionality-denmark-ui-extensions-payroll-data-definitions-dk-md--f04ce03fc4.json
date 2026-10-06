@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions payroll data definitions dk",
+  "title": "Payroll Data Definitions [DK]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.072Z",
+      "blob": "60873674e6b67daf5e5dd2bf85803f96570141ce",
+      "words": 274,
+      "forms": 1
     }
   },
   "input_hash": "60873674e6b67daf5e5dd2bf85803f96570141ce",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md"
-  }
+    "path": "business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md",
+    "description": "This article explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.",
+    "ms_date": "2025-03-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "13640",
+        "id": 13640,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payroll data definitions",
+      "Denmark",
+      "payroll service providers"
+    ],
+    "ai_usage": null,
+    "words": 274
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60873674e6b67daf5e5dd2bf85803f96570141ce"
 }

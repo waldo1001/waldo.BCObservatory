@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across setup connections",
+  "title": "Connect Excel, Word, Outlook, OneDrive, Power BI, and more products to Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-connections",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.915Z",
+      "blob": "6da28f0c60be0e49b5b9f783390a9f2d31b9dfb1",
+      "words": 150,
+      "forms": 0
     }
   },
   "input_hash": "6da28f0c60be0e49b5b9f783390a9f2d31b9dfb1",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-setup-connections.md"
-  }
+    "path": "business-central/across-setup-connections.md",
+    "description": "Learn how to set up connections to Business Central.",
+    "ms_date": "2025-10-20",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Excel",
+      "Word",
+      "Outlook",
+      "Onedrive",
+      "Power BI"
+    ],
+    "ai_usage": null,
+    "words": 150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6da28f0c60be0e49b5b9f783390a9f2d31b9dfb1"
 }

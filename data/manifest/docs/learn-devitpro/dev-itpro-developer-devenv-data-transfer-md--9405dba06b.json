@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv data transfer",
+  "title": "Transferring data between tables using DataTransfer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer",
   "published_at": "2026-06-02T11:41:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.371Z",
+      "blob": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c",
+      "words": 1144,
+      "forms": 0
     }
   },
   "input_hash": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-data-transfer.md"
-  }
+    "path": "dev-itpro/developer/devenv-data-transfer.md",
+    "description": "Learn about the DataTransfer object type and how to use it to move data between tables.",
+    "ms_date": "2023-03-07",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1144
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c"
 }

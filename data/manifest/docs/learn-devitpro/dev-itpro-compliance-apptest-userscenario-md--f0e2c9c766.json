@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "apptest userscenario",
+  "title": "User scenario documentation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-userscenario",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.889Z",
+      "blob": "48f1119bf4927e8db1db93926d7d550bce9f1d18",
+      "words": 651,
+      "forms": 0
     }
   },
   "input_hash": "48f1119bf4927e8db1db93926d7d550bce9f1d18",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/compliance/apptest-userscenario.md"
-  }
+    "path": "dev-itpro/compliance/apptest-userscenario.md",
+    "description": "Describing how to generate the required scenario document to get your app approved for Marketplace.",
+    "ms_date": "2023-04-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 651
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "48f1119bf4927e8db1db93926d7d550bce9f1d18"
 }

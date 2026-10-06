@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "ai system app token counting",
+  "title": "Token counting in AI",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-token-counting",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.721Z",
+      "blob": "75055a7c77621fd6151e621a9f299b0da3f2c47c",
+      "words": 276,
+      "forms": 0
     }
   },
   "input_hash": "75055a7c77621fd6151e621a9f299b0da3f2c47c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/ai-system-app-token-counting.md"
-  }
+    "path": "dev-itpro/developer/ai-system-app-token-counting.md",
+    "description": "Learn how to count the number of tokens in your input before sending a request to Azure OpenAI",
+    "ms_date": "2026-10-02",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 276
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "75055a7c77621fd6151e621a9f299b0da3f2c47c"
 }

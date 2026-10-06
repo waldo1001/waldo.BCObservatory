@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "quick start business intelligence",
+  "title": "Business intelligence quick start",
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-business-intelligence",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.130Z",
+      "blob": "f71d734242febe09386fb29e35e94f6abdc2962c",
+      "words": 164,
+      "forms": 0
     }
   },
   "input_hash": "f71d734242febe09386fb29e35e94f6abdc2962c",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/quick-start-business-intelligence.md"
-  }
+    "path": "business-central/quick-start-business-intelligence.md",
+    "description": "Learn how Business Central helps you transform company data into actionable insights using business intelligence reports and dashboards.",
+    "ms_date": "2024-05-15",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "quickstart"
+    ],
+    "ai_usage": null,
+    "words": 164
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f71d734242febe09386fb29e35e94f6abdc2962c"
 }

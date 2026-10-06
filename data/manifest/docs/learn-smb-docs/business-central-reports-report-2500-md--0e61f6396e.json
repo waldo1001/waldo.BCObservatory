@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 2500",
+  "title": "Day Book VAT Entry (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2500",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.211Z",
+      "blob": "2bf59c6635feecf854fb2e4c1f4d260c4bd237fd",
+      "words": 207,
+      "forms": 1
     }
   },
   "input_hash": "2bf59c6635feecf854fb2e4c1f4d260c4bd237fd",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-2500.md"
-  }
+    "path": "business-central/reports/report-2500.md",
+    "description": "Lists all VAT entries by document date in a register-style format. Use this report to review or audit tax postings across sales and purchase documents. Helpful for reconciliation and historical reference.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_2500_Primary",
+        "id": 2500,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "tax",
+      "audit",
+      "reconciliation",
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bf59c6635feecf854fb2e4c1f4d260c4bd237fd"
 }

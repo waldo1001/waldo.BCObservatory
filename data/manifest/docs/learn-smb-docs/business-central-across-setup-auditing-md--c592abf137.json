@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across setup auditing",
+  "title": "Audit changes to your setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.909Z",
+      "blob": "27b7a03196b37aa9e103cf418d95b4b0b9105b26",
+      "words": 427,
+      "forms": 3
     }
   },
   "input_hash": "27b7a03196b37aa9e103cf418d95b4b0b9105b26",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-setup-auditing.md"
-  }
+    "path": "business-central/across-setup-auditing.md",
+    "description": "Learn how to track the changes people make to your setup.",
+    "ms_date": "2026-09-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "103",
+        "id": 103,
+        "kind": null
+      },
+      {
+        "raw": "108",
+        "id": 108,
+        "kind": null
+      },
+      {
+        "raw": "488",
+        "id": 488,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "auditing",
+      "audit changes",
+      "set up changes"
+    ],
+    "ai_usage": null,
+    "words": 427
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27b7a03196b37aa9e103cf418d95b4b0b9105b26"
 }

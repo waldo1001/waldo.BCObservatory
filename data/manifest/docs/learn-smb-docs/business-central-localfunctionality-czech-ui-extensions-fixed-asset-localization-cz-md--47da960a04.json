@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions fixed asset localization cz",
+  "title": "Fixed asset localization for Czech (Extension)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.467Z",
+      "blob": "e50800f275ca06d906099ce86a86995b33b49469",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "e50800f275ca06d906099ce86a86995b33b49469",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md",
+    "description": "Enhance Business Central in the Czech Republic with localized Fixed Asset features.",
+    "ms_date": "2025-06-09",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Fixed Asset",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e50800f275ca06d906099ce86a86995b33b49469"
 }

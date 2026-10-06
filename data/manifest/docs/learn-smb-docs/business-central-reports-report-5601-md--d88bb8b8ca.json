@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5601",
+  "title": "Fixed Asset List (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5601",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.465Z",
+      "blob": "cedbfad564ec8b45ef8722ee9482e7b66c73e10d",
+      "words": 514,
+      "forms": 1
     }
   },
   "input_hash": "cedbfad564ec8b45ef8722ee9482e7b66c73e10d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5601.md"
-  }
+    "path": "business-central/reports/report-5601.md",
+    "description": "Get a comprehensive list of all fixed assets that an organization owned at a specific point in time.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5601_Primary",
+        "id": 5601,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 514
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cedbfad564ec8b45ef8722ee9482e7b66c73e10d"
 }

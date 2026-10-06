@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance powerbi aged payables back dating",
+  "title": "Aged Payables (Back Dating)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.472Z",
+      "blob": "0659373bfbf3305ffc46a8936971707e692387c2",
+      "words": 257,
+      "forms": 1
     }
   },
   "input_hash": "0659373bfbf3305ffc46a8936971707e692387c2",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-powerbi-aged-payables-back-dating.md"
-  }
+    "path": "business-central/finance-powerbi-aged-payables-back-dating.md",
+    "description": "The Aged Payables (Back Dating) report provides an overview of outstanding vendor invoices categorized by payment terms and grouped into aging buckets.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "36994_Primary",
+        "id": 36994,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 257
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0659373bfbf3305ffc46a8936971707e692387c2"
 }

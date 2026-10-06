@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "pertenantextensioncop pte0026",
+  "title": "PerTenantExtensionCop Hidden PTE0026",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0026",
   "published_at": "2025-09-03T08:47:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.432Z",
+      "blob": "75bd989e4d6b4c79c5bbafaad4bfe93ffd32b0bc",
+      "words": 98,
+      "forms": 0
     }
   },
   "input_hash": "75bd989e4d6b4c79c5bbafaad4bfe93ffd32b0bc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0026.md"
-  }
+    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0026.md",
+    "description": "Table fields should use the AllowInCustomizations property and its value must be different from ToBeClassified and Always.",
+    "ms_date": "2025-09-02",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 98
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "75bd989e4d6b4c79c5bbafaad4bfe93ffd32b0bc"
 }

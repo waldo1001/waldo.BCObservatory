@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 25",
+  "title": "Financial Reporting (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-25",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.207Z",
+      "blob": "e408d8b8217bded9f77c2f48f55b88e28280c6bc",
+      "words": 167,
+      "forms": 1
     }
   },
   "input_hash": "e408d8b8217bded9f77c2f48f55b88e28280c6bc",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-25.md"
-  }
+    "path": "business-central/reports/report-25.md",
+    "description": "Analyze your chart of accounts with a configurable view of general ledger accounts. Simplifies reporting for typical scenarios such as balance sheets, income statements, and cash flow statements.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_25_Primary",
+        "id": 25,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 167
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e408d8b8217bded9f77c2f48f55b88e28280c6bc"
 }

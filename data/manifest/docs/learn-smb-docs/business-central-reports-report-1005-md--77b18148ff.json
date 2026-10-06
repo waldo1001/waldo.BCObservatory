@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1005",
+  "title": "Project Journal - Test (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1005",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.026Z",
+      "blob": "8eb0ccf80a9e58a6c497fbab0d69697fed6485c6",
+      "words": 129,
+      "forms": 1
     }
   },
   "input_hash": "8eb0ccf80a9e58a6c497fbab0d69697fed6485c6",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1005.md"
-  }
+    "path": "business-central/reports/report-1005.md",
+    "description": "Review the results of posting before you post to the projects ledger. Edit the journal lines if there are errors to correct.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1005_Primary",
+        "id": 1005,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 129
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8eb0ccf80a9e58a6c497fbab0d69697fed6485c6"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "list data type",
+  "title": "List data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/list/list-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.748Z",
+      "blob": "ee815952677fc6031b6c529330f67637de90d2b1",
+      "words": 630,
+      "forms": 0
     }
   },
   "input_hash": "ee815952677fc6031b6c529330f67637de90d2b1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/list/list-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/list/list-data-type.md",
+    "description": "Represents a strongly typed list of ordered objects that can be accessed by index.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 630
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee815952677fc6031b6c529330f67637de90d2b1"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics complextypes",
+  "title": "(v1.0) complex types JSON",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/resources/dynamics_complextypes",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.311Z",
+      "blob": "39229aed739a23e958c8494b1332c2b3fad0ea59",
+      "words": 363,
+      "forms": 0
     }
   },
   "input_hash": "39229aed739a23e958c8494b1332c2b3fad0ea59",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/resources/dynamics_complextypes.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/resources/dynamics_complextypes.md",
+    "description": "(v1.0) Complex data types in JSON for Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 363
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "39229aed739a23e958c8494b1332c2b3fad0ea59"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv object specifications limitations",
+  "title": "Object Specifications and Limitations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-object-specifications-limitations",
   "published_at": "2026-09-22T11:26:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.489Z",
+      "blob": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d",
+      "words": 388,
+      "forms": 0
     }
   },
   "input_hash": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-object-specifications-limitations.md"
-  }
+    "path": "dev-itpro/developer/devenv-object-specifications-limitations.md",
+    "description": "Explore the specifications and limitations for database and application objects in Microsoft's Dynamics 365 Business Central. Learn about SQL Server 2017's maximum capacities.",
+    "ms_date": "2026-09-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 388
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e567dc11cd9250296e1764b53d0b9c13fc78e8d"
 }

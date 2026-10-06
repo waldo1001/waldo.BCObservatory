@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how enable application ledger entries different currencies",
+  "title": "Apply Entries in Different Currencies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.640Z",
+      "blob": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c",
+      "words": 291,
+      "forms": 3
     }
   },
   "input_hash": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-enable-application-ledger-entries-different-currencies.md"
-  }
+    "path": "business-central/finance-how-enable-application-ledger-entries-different-currencies.md",
+    "description": "You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "148",
+        "id": 148,
+        "kind": null
+      },
+      {
+        "raw": "460",
+        "id": 460,
+        "kind": null
+      },
+      {
+        "raw": "25",
+        "id": 25,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "multiple currencies",
+      "payment",
+      "reconcile"
+    ],
+    "ai_usage": null,
+    "words": 291
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7395ab46ad9a0c88573e30c6e8bac13249ab6f4c"
 }

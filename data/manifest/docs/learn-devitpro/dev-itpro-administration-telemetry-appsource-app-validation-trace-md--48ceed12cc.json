@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry appsource app validation trace",
+  "title": "Analyzing Marketplace app breaking changes validation telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-app-validation-trace",
   "published_at": "2026-03-12T11:57:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.779Z",
+      "blob": "5b3976815c483a5fab8191a5feb4f5c529d7e852",
+      "words": 1068,
+      "forms": 0
     }
   },
   "input_hash": "5b3976815c483a5fab8191a5feb4f5c529d7e852",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-appsource-app-validation-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-appsource-app-validation-trace.md",
+    "description": "Learn about the telemetry for breaking changes validation of Marketplace apps in Business Central.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1068
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b3976815c483a5fab8191a5feb4f5c529d7e852"
 }

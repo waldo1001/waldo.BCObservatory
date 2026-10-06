@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al755",
+  "title": "Compiler Warning (future error) AL0755",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al755",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.011Z",
+      "blob": "0f318197478606694da2ef91afa97941970bf20a",
+      "words": 96,
+      "forms": 0
     }
   },
   "input_hash": "0f318197478606694da2ef91afa97941970bf20a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al755.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al755.md",
+    "description": "The '{0}' already defines a built-in member called '{1}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 96
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f318197478606694da2ef91afa97941970bf20a"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5068",
+  "title": "Opportunity - Details (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5068",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.448Z",
+      "blob": "bf0be82165cf6f27c1667fe24dde3df7e233e6db",
+      "words": 117,
+      "forms": 1
     }
   },
   "input_hash": "bf0be82165cf6f27c1667fe24dde3df7e233e6db",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5068.md"
-  }
+    "path": "business-central/reports/report-5068.md",
+    "description": "Get an overview of sales stages, to-dos, and planned to-dos for an opportunity.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5068_Primary",
+        "id": 5068,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 117
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf0be82165cf6f27c1667fe24dde3df7e233e6db"
 }

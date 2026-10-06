@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv httpcertvalid feature key",
+  "title": "HttpServerCertificateValidation feature key",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpcertvalid-feature-key",
   "published_at": "2025-08-05T10:45:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.797Z",
+      "blob": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24",
+      "words": 120,
+      "forms": 0
     }
   },
   "input_hash": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-httpcertvalid-feature-key.md"
-  }
+    "path": "dev-itpro/developer/devenv-httpcertvalid-feature-key.md",
+    "description": "Learn about the HttpServerCertificateValidation feature key.",
+    "ms_date": "2025-08-05",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24"
 }

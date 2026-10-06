@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "functional currency",
+  "title": "Functional Currency in the Czech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.187Z",
+      "blob": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
+      "words": 282,
+      "forms": 1
     }
   },
   "input_hash": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/functional-currency.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/functional-currency.md",
+    "description": "Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.",
+    "ms_date": "2025-09-29",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "CZ",
+      "Czech",
+      "Currency",
+      "Finance",
+      "Accounting",
+      "Functional Currency",
+      "Exchange Rates"
+    ],
+    "ai_usage": null,
+    "words": 282
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "662cb7f1cebb8549c527ae1c47539b5fca8b336c"
 }

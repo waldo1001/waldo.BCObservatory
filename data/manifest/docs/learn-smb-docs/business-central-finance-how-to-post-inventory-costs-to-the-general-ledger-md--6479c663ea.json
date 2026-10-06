@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to post inventory costs to the general ledger",
+  "title": "Reconcile inventory costs with the general ledger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.678Z",
+      "blob": "d8c78152b074c8d41e25afc84a743938eb5d8407",
+      "words": 1431,
+      "forms": 1
     }
   },
   "input_hash": "d8c78152b074c8d41e25afc84a743938eb5d8407",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-post-inventory-costs-to-the-general-ledger.md"
-  }
+    "path": "business-central/finance-how-to-post-inventory-costs-to-the-general-ledger.md",
+    "description": "At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value.",
+    "ms_date": "2024-07-31",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9297",
+        "id": 9297,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "warehouse",
+      "stock"
+    ],
+    "ai_usage": null,
+    "words": 1431
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8c78152b074c8d41e25afc84a743938eb5d8407"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "synchronize tenant database and application database",
+  "title": "Synchronize the Tenant Database with the Application Database",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/synchronize-tenant-database-and-application-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.424Z",
+      "blob": "970706cd86300bcb056d82224d528e7f3e273c02",
+      "words": 201,
+      "forms": 0
     }
   },
   "input_hash": "970706cd86300bcb056d82224d528e7f3e273c02",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/synchronize-tenant-database-and-application-database.md"
-  }
+    "path": "dev-itpro/administration/synchronize-tenant-database-and-application-database.md",
+    "description": "This article describes how to synchronize the business data (tenant) database schema with the application database in a single tenant or multitenant deployment environment",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 201
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "970706cd86300bcb056d82224d528e7f3e273c02"
 }

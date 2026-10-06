@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details active versus historic item tracking entries",
+  "title": "Design details - Active versus historic item tracking entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.548Z",
+      "blob": "689e9713ad804e00500d78e6ed00147a7a69c566",
+      "words": 283,
+      "forms": 0
     }
   },
   "input_hash": "689e9713ad804e00500d78e6ed00147a7a69c566",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-active-versus-historic-item-tracking-entries.md"
-  }
+    "path": "business-central/design-details-active-versus-historic-item-tracking-entries.md",
+    "description": "When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 283
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "689e9713ad804e00500d78e6ed00147a7a69c566"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service basic flow order",
+  "title": "Walkthrough of service orders for service items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order",
   "published_at": "2025-02-18T11:22:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.589Z",
+      "blob": "b18b63354125dee6617c54ef837358a1834ab59a",
+      "words": 615,
+      "forms": 0
     }
   },
   "input_hash": "b18b63354125dee6617c54ef837358a1834ab59a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/contoso-coffee/service/service-basic-flow-order.md"
-  }
+    "path": "business-central/contoso-coffee/service/service-basic-flow-order.md",
+    "description": "This article guides you through several core processes that involve service orders and items.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 615
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b18b63354125dee6617c54ef837358a1834ab59a"
 }

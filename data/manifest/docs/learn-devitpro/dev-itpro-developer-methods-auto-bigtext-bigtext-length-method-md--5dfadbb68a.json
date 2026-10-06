@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "bigtext length method",
+  "title": "BigText.Length() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/bigtext/bigtext-length-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.029Z",
+      "blob": "a8dce81e762fe8a26e19b9d7ca3077dd5f06649d",
+      "words": 167,
+      "forms": 0
     }
   },
   "input_hash": "a8dce81e762fe8a26e19b9d7ca3077dd5f06649d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/bigtext/bigtext-length-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/bigtext/bigtext-length-method.md",
+    "description": "Retrieves the length of the text stored in this BigText instance.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 167
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8dce81e762fe8a26e19b9d7ca3077dd5f06649d"
 }

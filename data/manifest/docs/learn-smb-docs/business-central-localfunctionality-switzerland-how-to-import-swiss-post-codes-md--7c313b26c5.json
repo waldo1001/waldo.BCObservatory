@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import swiss post codes",
+  "title": "How to import Swiss post codes [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.921Z",
+      "blob": "4337e23cec30b0f9a105677b27698947a5408bf1",
+      "words": 279,
+      "forms": 0
     }
   },
   "input_hash": "4337e23cec30b0f9a105677b27698947a5408bf1",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md",
+    "description": "Learn how to import the latest Swiss post code file to update the Post Code table and define post codes for customers or vendors efficiently.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "post code file",
+      "define post codes",
+      "import post codes",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 279
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4337e23cec30b0f9a105677b27698947a5408bf1"
 }

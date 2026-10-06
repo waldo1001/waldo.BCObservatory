@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv al formatter",
+  "title": "AL Formatter",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-formatter",
   "published_at": "2025-08-08T08:48:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.392Z",
+      "blob": "ca3978c2aff27518c07740d8295194549bef89d1",
+      "words": 230,
+      "forms": 0
     }
   },
   "input_hash": "ca3978c2aff27518c07740d8295194549bef89d1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-al-formatter.md"
-  }
+    "path": "dev-itpro/developer/devenv-al-formatter.md",
+    "description": "The AL formatter can help you insert and remove space from AL code.",
+    "ms_date": "2024-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 230
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ca3978c2aff27518c07740d8295194549bef89d1"
 }

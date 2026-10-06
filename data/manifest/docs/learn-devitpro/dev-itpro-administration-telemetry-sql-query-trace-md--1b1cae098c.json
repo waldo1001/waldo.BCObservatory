@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry sql query trace",
+  "title": "Analyze SQL query trace telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-sql-query-trace",
   "published_at": "2026-06-22T12:57:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.123Z",
+      "blob": "65e4513ea38b44f6ca7e9f71a21370a1c25f2fb8",
+      "words": 353,
+      "forms": 0
     }
   },
   "input_hash": "65e4513ea38b44f6ca7e9f71a21370a1c25f2fb8",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-sql-query-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-sql-query-trace.md",
+    "description": "Learn about SQL query trace telemetry in Business Central",
+    "ms_date": "2026-05-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 353
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "65e4513ea38b44f6ca7e9f71a21370a1c25f2fb8"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "deprecated features na bank rec",
+  "title": "Deprecated bank reconciliation and deposits features in the North American version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec",
   "published_at": "2025-05-06T19:27:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.478Z",
+      "blob": "b97f0788e686207379639027de3a02cfccde4218",
+      "words": 560,
+      "forms": 0
     }
   },
   "input_hash": "b97f0788e686207379639027de3a02cfccde4218",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/deprecated-features-na-bank-rec.md"
-  }
+    "path": "dev-itpro/upgrade/deprecated-features-na-bank-rec.md",
+    "description": "If you're using the deprecated Bank Reconciliation Worksheet and Deposits features in the US, CA, and MX versions, this article can help you understand what to do after you upgrade to 2023 release wave 2.",
+    "ms_date": "2023-09-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "deprecated",
+      "Dutch",
+      "NL",
+      "Netherlands",
+      "local functionality"
+    ],
+    "ai_usage": null,
+    "words": 560
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b97f0788e686207379639027de3a02cfccde4218"
 }

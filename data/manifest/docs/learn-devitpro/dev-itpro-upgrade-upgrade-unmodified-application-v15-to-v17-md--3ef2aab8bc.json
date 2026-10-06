@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade unmodified application v15 to v17",
+  "title": "Upgrading Version 15 Base Application to Version 17",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v15-to-v17",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.124Z",
+      "blob": "6cdcd7a644a2ef14ec51601d527c3b282d0dbc06",
+      "words": 2226,
+      "forms": 0
     }
   },
   "input_hash": "6cdcd7a644a2ef14ec51601d527c3b282d0dbc06",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-unmodified-application-v15-to-v17.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-unmodified-application-v15-to-v17.md",
+    "description": "Describes how to upgrade an unmodified Business Central 15 application to version 17",
+    "ms_date": "2024-04-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2226
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6cdcd7a644a2ef14ec51601d527c3b282d0dbc06"
 }

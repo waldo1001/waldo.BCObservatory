@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "httpclient useresponsecookies method",
+  "title": "HttpClient.UseResponseCookies(Boolean) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-useresponsecookies-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.197Z",
+      "blob": "16fb9e559cd030c8f8bbb10c2b20175891ed7a4b",
+      "words": 161,
+      "forms": 0
     }
   },
   "input_hash": "16fb9e559cd030c8f8bbb10c2b20175891ed7a4b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-useresponsecookies-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-useresponsecookies-method.md",
+    "description": "If true, the client automatically attaches cookies received in the response to all subsequent requests.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16fb9e559cd030c8f8bbb10c2b20175891ed7a4b"
 }

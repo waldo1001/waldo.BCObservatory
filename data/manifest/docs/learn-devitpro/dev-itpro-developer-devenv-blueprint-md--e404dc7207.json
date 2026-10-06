@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv blueprint",
+  "title": "Module Architecture",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint",
   "published_at": "2025-06-16T12:25:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.526Z",
+      "blob": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
+      "words": 1005,
+      "forms": 0
     }
   },
   "input_hash": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-blueprint.md"
-  }
+    "path": "dev-itpro/developer/devenv-blueprint.md",
+    "description": "Learn about the internal components of modules in the System Application.",
+    "ms_date": "2025-06-16",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1005
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2"
 }

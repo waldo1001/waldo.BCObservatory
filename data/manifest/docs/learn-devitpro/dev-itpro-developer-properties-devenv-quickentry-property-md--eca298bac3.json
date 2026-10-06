@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv quickentry property",
+  "title": "QuickEntry property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-quickentry-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.041Z",
+      "blob": "ea90766bbdf6869e9a1d685a5de92e4d8b374dd9",
+      "words": 384,
+      "forms": 0
     }
   },
   "input_hash": "ea90766bbdf6869e9a1d685a5de92e4d8b374dd9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-quickentry-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-quickentry-property.md",
+    "description": "Specifies if the page control should have input focus.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 384
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea90766bbdf6869e9a1d685a5de92e4d8b374dd9"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance chart of accounts",
+  "title": "Understanding the Chart of Accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.368Z",
+      "blob": "ffccf1e8826703d147bf2e2fb67920f4234f31fc",
+      "words": 1415,
+      "forms": 17
     }
   },
   "input_hash": "ffccf1e8826703d147bf2e2fb67920f4234f31fc",
@@ -18,6 +24,106 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-chart-of-accounts.md"
-  }
+    "path": "business-central/finance-chart-of-accounts.md",
+    "description": "Describes the chart of accounts, how to set it up, and how to use it.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1",
+        "id": 1,
+        "kind": "Report"
+      },
+      {
+        "raw": "18",
+        "id": 18,
+        "kind": null
+      },
+      {
+        "raw": "20",
+        "id": 20,
+        "kind": null
+      },
+      {
+        "raw": "37",
+        "id": 37,
+        "kind": null
+      },
+      {
+        "raw": "65",
+        "id": 65,
+        "kind": null
+      },
+      {
+        "raw": "99_Primary",
+        "id": 99,
+        "kind": "Primary"
+      },
+      {
+        "raw": "312",
+        "id": 312,
+        "kind": null
+      },
+      {
+        "raw": "314",
+        "id": 314,
+        "kind": null
+      },
+      {
+        "raw": "313",
+        "id": 313,
+        "kind": null
+      },
+      {
+        "raw": "395",
+        "id": 395,
+        "kind": null
+      },
+      {
+        "raw": "552",
+        "id": 552,
+        "kind": null
+      },
+      {
+        "raw": "569",
+        "id": 569,
+        "kind": null
+      },
+      {
+        "raw": "570",
+        "id": 570,
+        "kind": null
+      },
+      {
+        "raw": "634",
+        "id": 634,
+        "kind": null
+      },
+      {
+        "raw": "790",
+        "id": 790,
+        "kind": null
+      },
+      {
+        "raw": "791",
+        "id": 791,
+        "kind": null
+      },
+      {
+        "raw": "1158",
+        "id": 1158,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "analysis",
+      "history",
+      "track"
+    ],
+    "ai_usage": null,
+    "words": 1415
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ffccf1e8826703d147bf2e2fb67920f4234f31fc"
 }

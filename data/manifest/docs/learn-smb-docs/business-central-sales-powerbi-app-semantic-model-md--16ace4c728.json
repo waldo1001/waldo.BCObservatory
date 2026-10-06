@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi app semantic model",
+  "title": "Power BI Sales app semantic model",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
   "published_at": "2026-05-07T03:20:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.877Z",
+      "blob": "7d27af050dad34fe7026a9a4aa7daac8f885cc0d",
+      "words": 2330,
+      "forms": 20
     }
   },
   "input_hash": "7d27af050dad34fe7026a9a4aa7daac8f885cc0d",
@@ -18,6 +24,119 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-app-semantic-model.md"
-  }
+    "path": "business-central/sales-powerbi-app-semantic-model.md",
+    "description": "Get an overview of all tables and fields in the Sales App Semantic Model.",
+    "ms_date": "2025-10-07",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "36998",
+        "id": 36998,
+        "kind": null
+      },
+      {
+        "raw": "36999",
+        "id": 36999,
+        "kind": null
+      },
+      {
+        "raw": "37000",
+        "id": 37000,
+        "kind": null
+      },
+      {
+        "raw": "37001",
+        "id": 37001,
+        "kind": null
+      },
+      {
+        "raw": "37002",
+        "id": 37002,
+        "kind": null
+      },
+      {
+        "raw": "37003",
+        "id": 37003,
+        "kind": null
+      },
+      {
+        "raw": "37004",
+        "id": 37004,
+        "kind": null
+      },
+      {
+        "raw": "37005",
+        "id": 37005,
+        "kind": null
+      },
+      {
+        "raw": "37006",
+        "id": 37006,
+        "kind": null
+      },
+      {
+        "raw": "37007",
+        "id": 37007,
+        "kind": null
+      },
+      {
+        "raw": "37008",
+        "id": 37008,
+        "kind": null
+      },
+      {
+        "raw": "37066",
+        "id": 37066,
+        "kind": null
+      },
+      {
+        "raw": "37100",
+        "id": 37100,
+        "kind": null
+      },
+      {
+        "raw": "37101",
+        "id": 37101,
+        "kind": null
+      },
+      {
+        "raw": "37102",
+        "id": 37102,
+        "kind": null
+      },
+      {
+        "raw": "37103",
+        "id": 37103,
+        "kind": null
+      },
+      {
+        "raw": "37104",
+        "id": 37104,
+        "kind": null
+      },
+      {
+        "raw": "37105",
+        "id": 37105,
+        "kind": null
+      },
+      {
+        "raw": "37109",
+        "id": 37109,
+        "kind": null
+      },
+      {
+        "raw": "37119",
+        "id": 37119,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 2330
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d27af050dad34fe7026a9a4aa7daac8f885cc0d"
 }

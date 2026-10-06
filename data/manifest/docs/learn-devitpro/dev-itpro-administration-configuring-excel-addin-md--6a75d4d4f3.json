@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "configuring excel addin",
+  "title": "Setting up the Excel Add-In for Editing Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.914Z",
+      "blob": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
+      "words": 1646,
+      "forms": 0
     }
   },
   "input_hash": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/configuring-excel-addin.md"
-  }
+    "path": "dev-itpro/administration/configuring-excel-addin.md",
+    "description": "Learn about how to configure the Excel add-in so users can edit data in Excel and push back to Business Central.",
+    "ms_date": "2024-09-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1646
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d01722eee649f6b1452ec364ee8bf5f312e70bf1"
 }

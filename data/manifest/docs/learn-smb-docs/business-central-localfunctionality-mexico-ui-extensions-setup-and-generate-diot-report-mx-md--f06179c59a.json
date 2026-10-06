@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions setup and generate diot report mx",
+  "title": "Set up and generate DIOT reports | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx",
   "published_at": "2025-06-30T08:42:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.138Z",
+      "blob": "94774a65f679c9196ce1711ea11810f359a6ed8c",
+      "words": 1082,
+      "forms": 5
     }
   },
   "input_hash": "94774a65f679c9196ce1711ea11810f359a6ed8c",
@@ -18,6 +24,50 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md"
-  }
+    "path": "business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md",
+    "description": "Use this extension to set up and generate DIOT declarations in Business Central for the Mexican authorities.",
+    "ms_date": "2025-06-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "27030",
+        "id": 27030,
+        "kind": null
+      },
+      {
+        "raw": "27031",
+        "id": 27031,
+        "kind": null
+      },
+      {
+        "raw": "27032",
+        "id": 27032,
+        "kind": null
+      },
+      {
+        "raw": "27033",
+        "id": 27033,
+        "kind": null
+      },
+      {
+        "raw": "27034",
+        "id": 27034,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "extension",
+      "DIOT",
+      "authorities",
+      "export",
+      "compliance",
+      "DIOT declarations",
+      "DIOT reports"
+    ],
+    "ai_usage": null,
+    "words": 1082
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94774a65f679c9196ce1711ea11810f359a6ed8c"
 }

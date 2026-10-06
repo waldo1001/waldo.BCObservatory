@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "vat ledgers",
+  "title": "VAT ledgers in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat-ledgers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.741Z",
+      "blob": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
+      "words": 308,
+      "forms": 0
     }
   },
   "input_hash": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/vat-ledgers.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/vat-ledgers.md",
+    "description": "Russian localization provides features for managing and reporting VAT ledgers.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "VAT ledgers",
+      "VAT purchase ledger",
+      "VAT sales ledger",
+      "VAT purchase ledger additional sheet",
+      "VAT sales ledger additional sheet",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 308
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ce07513dcc06463f6a7d4a1336582e3e57ab472"
 }

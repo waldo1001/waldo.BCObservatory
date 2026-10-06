@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance transfer and post cost entries",
+  "title": "Transferring and posting cost entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.742Z",
+      "blob": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20",
+      "words": 995,
+      "forms": 6
     }
   },
   "input_hash": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-transfer-and-post-cost-entries.md"
-  }
+    "path": "business-central/finance-transfer-and-post-cost-entries.md",
+    "description": "Before you define cost allocations, you must understand the various sources that cost entries come from.",
+    "ms_date": "2024-07-26",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1100",
+        "id": 1100,
+        "kind": null
+      },
+      {
+        "raw": "1103",
+        "id": 1103,
+        "kind": null
+      },
+      {
+        "raw": "1104",
+        "id": 1104,
+        "kind": null
+      },
+      {
+        "raw": "1108",
+        "id": 1108,
+        "kind": null
+      },
+      {
+        "raw": "1113",
+        "id": 1113,
+        "kind": null
+      },
+      {
+        "raw": "1135",
+        "id": 1135,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 995
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20"
 }

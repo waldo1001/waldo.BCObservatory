@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up goods and service tax posting",
+  "title": "Set up goods and services tax posting [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.776Z",
+      "blob": "812283f7e95ee84a97b465ab737e56233644a13f",
+      "words": 71,
+      "forms": 1
     }
   },
   "input_hash": "812283f7e95ee84a97b465ab737e56233644a13f",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md",
+    "description": "Learn how to apply goods and services tax (GST) to goods and services for the Australian Taxation Office (ATO).",
+    "ms_date": "2025-03-26",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "28043",
+        "id": 28043,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "goods and services tax",
+      "GST",
+      "Australian taxation office",
+      "ATO",
+      "Australian version",
+      "business activity statement",
+      "BAS"
+    ],
+    "ai_usage": null,
+    "words": 71
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "812283f7e95ee84a97b465ab737e56233644a13f"
 }

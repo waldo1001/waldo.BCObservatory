@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS Calculation for Customer",
+  "title": "TDS calculation for Customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.146Z",
+      "blob": "b7bb0b35c928430d12571fce31b5b77e4243073d",
+      "words": 502,
+      "forms": 0
     }
   },
   "input_hash": "b7bb0b35c928430d12571fce31b5b77e4243073d",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TDS-Calculation-for-Customer.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TDS-Calculation-for-Customer.md",
+    "description": "Describes the process for calculating and tracking TDS on customer transactions.",
+    "ms_date": "2025-06-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TDS for customer",
+      "TDS certificate"
+    ],
+    "ai_usage": null,
+    "words": 502
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b7bb0b35c928430d12571fce31b5b77e4243073d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system evaluate method",
+  "title": "System.Evaluate(var Any, Text [, Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-evaluate-method",
   "published_at": "2024-12-02T13:29:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.493Z",
+      "blob": "e6b1d224938661b24085afc2ca34ea10f29a4904",
+      "words": 366,
+      "forms": 0
     }
   },
   "input_hash": "e6b1d224938661b24085afc2ca34ea10f29a4904",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-evaluate-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-evaluate-method.md",
+    "description": "Evaluates a string representation of a value into its typical representation.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 366
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6b1d224938661b24085afc2ca34ea10f29a4904"
 }

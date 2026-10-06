@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects how use time sheets",
+  "title": "Use time sheets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets",
   "published_at": "2025-11-07T15:02:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.083Z",
+      "blob": "09275e4cac2f3ddd670c6d43b74e987c942193c9",
+      "words": 2582,
+      "forms": 3
     }
   },
   "input_hash": "09275e4cac2f3ddd670c6d43b74e987c942193c9",
@@ -18,6 +24,38 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-how-use-time-sheets.md"
-  }
+    "path": "business-central/projects-how-use-time-sheets.md",
+    "description": "Learn how to create, submit, approve, and post time sheets for resources, projects, and services.",
+    "ms_date": "2025-11-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "950",
+        "id": 950,
+        "kind": null
+      },
+      {
+        "raw": "951",
+        "id": 951,
+        "kind": null
+      },
+      {
+        "raw": "973",
+        "id": 973,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "project management",
+      "capacity",
+      "staff",
+      "resource",
+      "time sheets"
+    ],
+    "ai_usage": null,
+    "words": 2582
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09275e4cac2f3ddd670c6d43b74e987c942193c9"
 }

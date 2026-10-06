@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to remove and reapply item entries",
+  "title": "Remove and reapply item entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.659Z",
+      "blob": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d",
+      "words": 1170,
+      "forms": 3
     }
   },
   "input_hash": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-remove-and-reapply-item-entries.md"
-  }
+    "path": "business-central/finance-how-to-remove-and-reapply-item-entries.md",
+    "description": "You can view and manually change certain item application entries that are created automatically during inventory transactions.",
+    "ms_date": "2024-07-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "506",
+        "id": 506,
+        "kind": null
+      },
+      {
+        "raw": "521",
+        "id": 521,
+        "kind": null
+      },
+      {
+        "raw": "9125",
+        "id": 9125,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1170
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a518f1d13eb75a8e7d22860d69b6e67c7d2b605d"
 }

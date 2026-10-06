@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry field monitoring trace",
+  "title": "Analyzing Field Monitoring Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.950Z",
+      "blob": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
+      "words": 670,
+      "forms": 0
     }
   },
   "input_hash": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-field-monitoring-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-field-monitoring-trace.md",
+    "description": "Learn about the telemetry for monitoring changes to sensitive data in Business Central",
+    "ms_date": "2021-05-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry",
+      "data",
+      "sensitive"
+    ],
+    "ai_usage": null,
+    "words": 670
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade"
 }

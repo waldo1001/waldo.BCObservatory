@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin fabric",
+  "title": "Introduction to Microsoft Fabric and Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.892Z",
+      "blob": "51ca754e29c2d2f56846715a9d5fa1f7aad1a5ec",
+      "words": 358,
+      "forms": 2
     }
   },
   "input_hash": "51ca754e29c2d2f56846715a9d5fa1f7aad1a5ec",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-fabric.md"
-  }
+    "path": "business-central/admin-fabric.md",
+    "description": "Get an overview of using Microsoft Fabric to get insight, business intelligence, and KPIs from your Business Central data.",
+    "ms_date": "2024-04-24",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "6316",
+        "id": 6316,
+        "kind": null
+      },
+      {
+        "raw": "6317",
+        "id": 6317,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "account schedule",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 358
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51ca754e29c2d2f56846715a9d5fa1f7aad1a5ec"
 }

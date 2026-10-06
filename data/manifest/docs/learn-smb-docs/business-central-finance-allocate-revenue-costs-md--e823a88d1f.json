@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance allocate revenue costs",
+  "title": "Allocate revenue and costs to multiple general ledger accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs",
   "published_at": "2026-03-02T13:21:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.765Z",
+      "blob": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3",
+      "words": 1111,
+      "forms": 3
     }
   },
   "input_hash": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-allocate-revenue-costs.md"
-  }
+    "path": "business-central/finance-allocate-revenue-costs.md",
+    "description": "Learn how to allocate costs to one or more accounts in your general ledger.",
+    "ms_date": "2026-03-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "2673_primary",
+        "id": 2673,
+        "kind": "primary"
+      },
+      {
+        "raw": "2670",
+        "id": 2670,
+        "kind": null
+      },
+      {
+        "raw": "2674",
+        "id": 2674,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "allocate",
+      "allocation",
+      "accounts"
+    ],
+    "ai_usage": null,
+    "words": 1111
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23f72b7a6e3b0fa3df74c8b83bf4554e4cee71c3"
 }

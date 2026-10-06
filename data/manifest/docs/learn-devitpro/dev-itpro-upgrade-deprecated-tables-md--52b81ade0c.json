@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "deprecated tables",
+  "title": "Deprecated Tables",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-tables",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.733Z",
+      "blob": "15ab48da87b5d0ee61a73088cdfec96a0c3b83cd",
+      "words": 179,
+      "forms": 0
     }
   },
   "input_hash": "15ab48da87b5d0ee61a73088cdfec96a0c3b83cd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/deprecated-tables.md"
-  }
+    "path": "dev-itpro/upgrade/deprecated-tables.md",
+    "description": "Shows the tables that have been marked as removed in the various versions of Business Central.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 179
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15ab48da87b5d0ee61a73088cdfec96a0c3b83cd"
 }

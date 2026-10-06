@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to make manual corrections to vat",
+  "title": "How to Make Manual Corrections to VAT [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.936Z",
+      "blob": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
+      "words": 351,
+      "forms": 0
     }
   },
   "input_hash": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md",
+    "description": "You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries.",
+    "ms_date": "2025-04-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT correction",
+      "VAT manual correction",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 351
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86578ac387ba81064802f44aa2fc80a5fe0c418e"
 }

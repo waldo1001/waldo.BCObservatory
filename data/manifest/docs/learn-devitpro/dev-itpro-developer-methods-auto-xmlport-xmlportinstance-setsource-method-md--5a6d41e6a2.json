@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlportinstance setsource method",
+  "title": "Xmlport.SetSource(var InStream) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlport/xmlportinstance-setsource-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.514Z",
+      "blob": "c0e315649d2550df70bfe84cf45870e5281a726b",
+      "words": 89,
+      "forms": 0
     }
   },
   "input_hash": "c0e315649d2550df70bfe84cf45870e5281a726b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlport/xmlportinstance-setsource-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlport/xmlportinstance-setsource-method.md",
+    "description": "Sets the source InStream of the XmlPort.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 89
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0e315649d2550df70bfe84cf45870e5281a726b"
 }

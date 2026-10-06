@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create an audit file for the tax authority",
+  "title": "Create an Audit File for Tax Authority [NL]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.552Z",
+      "blob": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
+      "words": 295,
+      "forms": 0
     }
   },
   "input_hash": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md",
+    "description": "Learn how to create an audit file for the tax authority with the Dutch version of Business Central.",
+    "ms_date": "2025-03-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "audit file",
+      "Dutch version",
+      "Netherlands",
+      "tax authority",
+      "create audit file",
+      "basis transactions"
+    ],
+    "ai_usage": null,
+    "words": 295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "96ce223429adbf0b93fb3e3dd836d41f58c519dc"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonvalue asinteger method",
+  "title": "JsonValue.AsInteger() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-asinteger-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.088Z",
+      "blob": "faaf59e7609d4d2714ba801e5d22f81b886a2caa",
+      "words": 104,
+      "forms": 0
     }
   },
   "input_hash": "faaf59e7609d4d2714ba801e5d22f81b886a2caa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-asinteger-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-asinteger-method.md",
+    "description": "Converts the value in a JsonValue to an Integer data type.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 104
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "faaf59e7609d4d2714ba801e5d22f81b886a2caa"
 }

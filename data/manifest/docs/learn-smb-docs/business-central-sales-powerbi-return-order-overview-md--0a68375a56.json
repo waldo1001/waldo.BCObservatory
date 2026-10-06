@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi return order overview",
+  "title": "Return Order Overview (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.863Z",
+      "blob": "07b53cc50de4faa5e0257cefde01871e570b0641",
+      "words": 347,
+      "forms": 1
     }
   },
   "input_hash": "07b53cc50de4faa5e0257cefde01871e570b0641",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-return-order-overview.md"
-  }
+    "path": "business-central/sales-powerbi-return-order-overview.md",
+    "description": "The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.",
+    "ms_date": "2025-10-07",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37105_Primary",
+        "id": 37105,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 347
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07b53cc50de4faa5e0257cefde01871e570b0641"
 }

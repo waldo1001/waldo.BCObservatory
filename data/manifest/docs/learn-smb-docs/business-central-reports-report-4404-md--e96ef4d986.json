@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 4404",
+  "title": "Vendor - Top 10 List Excel (Excel report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4404",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.322Z",
+      "blob": "53012b34fbfd715e2031ef0a2763c02f433437df",
+      "words": 605,
+      "forms": 1
     }
   },
   "input_hash": "53012b34fbfd715e2031ef0a2763c02f433437df",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-4404.md"
-  }
+    "path": "business-central/reports/report-4404.md",
+    "description": "Analyze the effect of vendors on cash flow, and prioritize vendor payments.",
+    "ms_date": "2024-12-15",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_4404_Primary",
+        "id": 4404,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 605
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53012b34fbfd715e2031ef0a2763c02f433437df"
 }

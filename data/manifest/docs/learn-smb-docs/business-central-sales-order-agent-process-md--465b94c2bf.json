@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales order agent process",
+  "title": "Process sales quotes and orders with Sales Order Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.476Z",
+      "blob": "a5a38b2ff1658bd61423b7853689df94ecdc39b5",
+      "words": 2018,
+      "forms": 2
     }
   },
   "input_hash": "a5a38b2ff1658bd61423b7853689df94ecdc39b5",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-order-agent-process.md"
-  }
+    "path": "business-central/sales-order-agent-process.md",
+    "description": "Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "4400",
+        "id": 4400,
+        "kind": null
+      },
+      {
+        "raw": "4410",
+        "id": 4410,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2018
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5a38b2ff1658bd61423b7853689df94ecdc39b5"
 }

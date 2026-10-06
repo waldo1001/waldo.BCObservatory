@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlnamespacemanager lookupprefix method",
+  "title": "XmlNamespaceManager.LookupPrefix(Text, var Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlnamespacemanager/xmlnamespacemanager-lookupprefix-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.259Z",
+      "blob": "b0460f453a19be983583f92a1037bc479cd6d821",
+      "words": 133,
+      "forms": 0
     }
   },
   "input_hash": "b0460f453a19be983583f92a1037bc479cd6d821",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlnamespacemanager/xmlnamespacemanager-lookupprefix-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlnamespacemanager/xmlnamespacemanager-lookupprefix-method.md",
+    "description": "Finds the prefix declared for the given namespace URI.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 133
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0460f453a19be983583f92a1037bc479cd6d821"
 }

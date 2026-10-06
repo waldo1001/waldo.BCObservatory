@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions idealpostcodes",
+  "title": "Ideal Postcodes extension [UK]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
   "published_at": "2026-04-09T11:29:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.174Z",
+      "blob": "5dca4b69e85d0326c6d0ccc24c79655930285ccd",
+      "words": 165,
+      "forms": 1
     }
   },
   "input_hash": "5dca4b69e85d0326c6d0ccc24c79655930285ccd",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md",
+    "description": "Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the Ideal Postcodes service.",
+    "ms_date": "2026-02-09",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "9142",
+        "id": 9142,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "postcodes",
+      "postal",
+      "address",
+      "extension"
+    ],
+    "ai_usage": null,
+    "words": 165
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5dca4b69e85d0326c6d0ccc24c79655930285ccd"
 }

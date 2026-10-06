@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 4409",
+  "title": "Customer - Top 10 List Excel (Excel report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4409",
   "published_at": "2026-05-07T03:20:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.873Z",
+      "blob": "75d98c0c252571a81b402b389c82c4c7c2cafde9",
+      "words": 649,
+      "forms": 1
     }
   },
   "input_hash": "75d98c0c252571a81b402b389c82c4c7c2cafde9",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-4409.md"
-  }
+    "path": "business-central/reports/report-4409.md",
+    "description": "Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.",
+    "ms_date": "2024-12-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_4409_Primary",
+        "id": 4409,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 649
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "75d98c0c252571a81b402b389c82c4c7c2cafde9"
 }

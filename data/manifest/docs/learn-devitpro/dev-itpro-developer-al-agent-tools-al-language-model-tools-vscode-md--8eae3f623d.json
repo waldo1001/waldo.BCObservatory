@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "al language model tools vscode",
+  "title": "AL Language Model Tools for Visual Studio Code",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.762Z",
+      "blob": "175358240c573933005796e7f2e74953d66ae829",
+      "words": 636,
+      "forms": 0
     }
   },
   "input_hash": "175358240c573933005796e7f2e74953d66ae829",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md"
-  }
+    "path": "dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md",
+    "description": "Learn about the AL Language Model Tools available for AL development, including how to use them in Visual Studio Code with GitHub Copilot and through the AL MCP Server for headless environments and CI/CD pipelines.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 636
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "175358240c573933005796e7f2e74953d66ae829"
 }

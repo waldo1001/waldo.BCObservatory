@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5606",
+  "title": "Fixed Asset Book Value 02 (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5606",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.489Z",
+      "blob": "f1695eef421eec7dc80a48038c6e5bcdaa35f342",
+      "words": 615,
+      "forms": 1
     }
   },
   "input_hash": "f1695eef421eec7dc80a48038c6e5bcdaa35f342",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5606.md"
-  }
+    "path": "business-central/reports/report-5606.md",
+    "description": "View the movement in valuation of assets over a period time with a breakdown of values under additions and disposals during the period.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5606_Primary",
+        "id": 5606,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 615
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f1695eef421eec7dc80a48038c6e5bcdaa35f342"
 }

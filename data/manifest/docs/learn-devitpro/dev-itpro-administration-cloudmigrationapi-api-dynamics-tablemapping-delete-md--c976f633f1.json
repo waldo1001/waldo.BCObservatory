@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics tablemapping delete",
+  "title": "(cloudMigration API) Delete tableMappings",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/api/dynamics_tablemapping_delete",
   "published_at": "2026-06-15T09:23:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.702Z",
+      "blob": "6e41b85e89f312b6075269d7f497431504816a23",
+      "words": 122,
+      "forms": 0
     }
   },
   "input_hash": "6e41b85e89f312b6075269d7f497431504816a23",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloudmigrationapi/api/dynamics_tablemapping_delete.md"
-  }
+    "path": "dev-itpro/administration/cloudmigrationapi/api/dynamics_tablemapping_delete.md",
+    "description": "Deletes a table mapping object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 122
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e41b85e89f312b6075269d7f497431504816a23"
 }

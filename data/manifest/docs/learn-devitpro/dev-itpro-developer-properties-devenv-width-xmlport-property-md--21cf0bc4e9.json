@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv width xmlport property",
+  "title": "Width Property for XMLport Elements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-width-xmlport-property",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.093Z",
+      "blob": "b4c667bef20869d84de657bac3e576d8d3468625",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "b4c667bef20869d84de657bac3e576d8d3468625",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-width-xmlport-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-width-xmlport-property.md",
+    "description": "Learn how the Width property sets the number of characters in fixed-text XMLport elements and attributes in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4c667bef20869d84de657bac3e576d8d3468625"
 }

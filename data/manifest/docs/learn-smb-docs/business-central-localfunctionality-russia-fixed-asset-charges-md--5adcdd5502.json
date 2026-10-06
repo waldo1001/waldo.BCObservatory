@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fixed asset charges",
+  "title": "Fixed asset charges in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-charges",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.852Z",
+      "blob": "a8830c174016dbc4897f631221b9b4e9623a6f75",
+      "words": 116,
+      "forms": 0
     }
   },
   "input_hash": "a8830c174016dbc4897f631221b9b4e9623a6f75",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/fixed-asset-charges.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/fixed-asset-charges.md",
+    "description": "Russian localization adds support for fixed asset charges, enabling additional costs to be included in asset acquisition.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "fixed asset charges",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 116
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8830c174016dbc4897f631221b9b4e9623a6f75"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al887",
+  "title": "Compiler Error AL0887",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al887",
   "published_at": "2025-08-08T11:58:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.329Z",
+      "blob": "99e42858377a471dad4cccf9208bf9f21ba2a61f",
+      "words": 65,
+      "forms": 0
     }
   },
   "input_hash": "99e42858377a471dad4cccf9208bf9f21ba2a61f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al887.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al887.md",
+    "description": "A member of type {0} named '{1}' conflicts with a similarly named member '{2}' of {3} {4}.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 65
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "99e42858377a471dad4cccf9208bf9f21ba2a61f"
 }

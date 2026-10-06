@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to set up electronic document sending and receiving",
+  "title": "How to set up electronic document sending and receiving | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-electronic-document-sending-and-receiving",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.236Z",
+      "blob": "cfc56ee8dc38130806d261cdfe5d636ad21df38f",
+      "words": 2049,
+      "forms": 0
     }
   },
   "input_hash": "cfc56ee8dc38130806d261cdfe5d636ad21df38f",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md"
-  }
+    "path": "business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md",
+    "description": "Send and receive business documents electronically, providing an alternative to emailing file attachments.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "electronic document",
+      "e-document",
+      "edocuments"
+    ],
+    "ai_usage": null,
+    "words": 2049
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cfc56ee8dc38130806d261cdfe5d636ad21df38f"
 }

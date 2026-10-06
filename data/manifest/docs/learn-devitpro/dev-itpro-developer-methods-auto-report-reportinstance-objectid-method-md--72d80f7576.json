@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "reportinstance objectid method",
+  "title": "Report.ObjectId([Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-objectid-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.708Z",
+      "blob": "9639250a3c9dce15776a234fbcdc3c622037da18",
+      "words": 111,
+      "forms": 0
     }
   },
   "input_hash": "9639250a3c9dce15776a234fbcdc3c622037da18",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/report/reportinstance-objectid-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/report/reportinstance-objectid-method.md",
+    "description": "Gets or sets the name or number of the report.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 111
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9639250a3c9dce15776a234fbcdc3c622037da18"
 }

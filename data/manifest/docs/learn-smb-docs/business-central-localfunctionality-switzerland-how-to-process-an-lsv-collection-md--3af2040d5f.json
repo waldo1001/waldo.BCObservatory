@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to process an lsv collection",
+  "title": "Process an LSV collection [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.959Z",
+      "blob": "bb4c784a81d76968626179bacca196054906432f",
+      "words": 448,
+      "forms": 5
     }
   },
   "input_hash": "bb4c784a81d76968626179bacca196054906432f",
@@ -18,6 +24,49 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md",
+    "description": "Learn how to create and process payments using LSV journals for Lastschrift Verfahren (LSV+) customers in the Swiss version of Business Central.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "3010830",
+        "id": 3010830,
+        "kind": null
+      },
+      {
+        "raw": "3010831",
+        "id": 3010831,
+        "kind": null
+      },
+      {
+        "raw": "3010832",
+        "id": 3010832,
+        "kind": null
+      },
+      {
+        "raw": "3010834",
+        "id": 3010834,
+        "kind": null
+      },
+      {
+        "raw": "3010835",
+        "id": 3010835,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "process LSV collection",
+      "create LSV collection",
+      "LSV collection",
+      "LSV journal",
+      "LSV",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 448
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb4c784a81d76968626179bacca196054906432f"
 }

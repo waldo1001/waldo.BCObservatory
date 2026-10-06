@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing how create segment",
+  "title": "Create Segments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.569Z",
+      "blob": "f3a49d342df6afd1a42b0fd104e623fd5d9ce87f",
+      "words": 121,
+      "forms": 2
     }
   },
   "input_hash": "f3a49d342df6afd1a42b0fd104e623fd5d9ce87f",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-how-create-segment.md"
-  }
+    "path": "business-central/marketing-how-create-segment.md",
+    "description": "Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5091",
+        "id": 5091,
+        "kind": null
+      },
+      {
+        "raw": "5093",
+        "id": 5093,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "relationship",
+      "prospect"
+    ],
+    "ai_usage": null,
+    "words": 121
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3a49d342df6afd1a42b0fd104e623fd5d9ce87f"
 }

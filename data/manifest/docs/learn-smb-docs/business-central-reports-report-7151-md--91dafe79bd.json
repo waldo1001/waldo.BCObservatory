@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 7151",
+  "title": "Item Dimensions - Total (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7151",
   "published_at": "2026-03-12T02:19:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.808Z",
+      "blob": "eec5e79e68077e7d4547ccfb5ca87d43c1a79e6f",
+      "words": 506,
+      "forms": 1
     }
   },
   "input_hash": "eec5e79e68077e7d4547ccfb5ca87d43c1a79e6f",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-7151.md"
-  }
+    "path": "business-central/reports/report-7151.md",
+    "description": "Analyze item entries with dimension totals by building groups of dimensions for combinations of dimension values. View a calculated total based on columns you define. For example, net change, balance at date, and actual vs. budget.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_7151_Primary",
+        "id": 7151,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 506
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eec5e79e68077e7d4547ccfb5ca87d43c1a79e6f"
 }

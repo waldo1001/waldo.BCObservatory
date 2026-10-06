@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sepa credit transfer payments",
+  "title": "SEPA credit transfer payments (FI)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.121Z",
+      "blob": "2a2095804e81c3486d1ca8166a06a07645faa6ac",
+      "words": 102,
+      "forms": 0
     }
   },
   "input_hash": "2a2095804e81c3486d1ca8166a06a07645faa6ac",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments.md",
+    "description": "Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.",
+    "ms_date": "2025-02-13",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Single Euro Payments Area",
+      "SEPA",
+      "credit transfer files",
+      "vendor payments"
+    ],
+    "ai_usage": null,
+    "words": 102
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a2095804e81c3486d1ca8166a06a07645faa6ac"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "outlook addins setup naa modification",
+  "title": "Modifying Outlook add-in setup for Nested App Authentication (NAA).",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins-setup-naa-modification",
   "published_at": "2025-01-31T13:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.331Z",
+      "blob": "d6150a015dc7637d35fc2a931044d5de510c907f",
+      "words": 338,
+      "forms": 0
     }
   },
   "input_hash": "d6150a015dc7637d35fc2a931044d5de510c907f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/outlook-addins-setup-naa-modification.md"
-  }
+    "path": "dev-itpro/administration/outlook-addins-setup-naa-modification.md",
+    "description": "Learn how to modify your Outlook add-in setup in Business Central to support  Nested App Authentication (NAA).",
+    "ms_date": "2025-01-30",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 338
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6150a015dc7637d35fc2a931044d5de510c907f"
 }

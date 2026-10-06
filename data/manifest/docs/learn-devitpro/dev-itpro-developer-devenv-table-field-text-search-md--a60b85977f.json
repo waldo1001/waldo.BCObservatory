@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv table field text search",
+  "title": "Enable optimized text search on table fields",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.597Z",
+      "blob": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec",
+      "words": 445,
+      "forms": 0
     }
   },
   "input_hash": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-table-field-text-search.md"
-  }
+    "path": "dev-itpro/developer/devenv-table-field-text-search.md",
+    "description": "Learn how to allow text search on table fields.",
+    "ms_date": "2024-10-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 445
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec"
 }

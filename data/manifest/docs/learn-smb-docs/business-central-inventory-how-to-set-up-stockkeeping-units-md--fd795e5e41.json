@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory how to set up stockkeeping units",
+  "title": "How to set up stockkeeping units",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-set-up-stockkeeping-units",
   "published_at": "2026-06-02T14:30:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.868Z",
+      "blob": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce",
+      "words": 574,
+      "forms": 0
     }
   },
   "input_hash": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-how-to-set-up-stockkeeping-units.md"
-  }
+    "path": "business-central/inventory-how-to-set-up-stockkeeping-units.md",
+    "description": "Use stockkeeping units to record information about your items for a specific location or a specific variant.",
+    "ms_date": "2026-06-05",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 574
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce"
 }

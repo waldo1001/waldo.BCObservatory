@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance setup vat",
+  "title": "Set up value-added tax",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.255Z",
+      "blob": "6f383928efa537fe1777e8676f71dd4a909d8b62",
+      "words": 4235,
+      "forms": 11
     }
   },
   "input_hash": "6f383928efa537fe1777e8676f71dd4a909d8b62",
@@ -18,6 +24,77 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-setup-vat.md"
-  }
+    "path": "business-central/finance-setup-vat.md",
+    "description": "Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10",
+        "id": 10,
+        "kind": null
+      },
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "391",
+        "id": 391,
+        "kind": null
+      },
+      {
+        "raw": "470",
+        "id": 470,
+        "kind": null
+      },
+      {
+        "raw": "471",
+        "id": 471,
+        "kind": null
+      },
+      {
+        "raw": "472",
+        "id": 472,
+        "kind": null
+      },
+      {
+        "raw": "575",
+        "id": 575,
+        "kind": null
+      },
+      {
+        "raw": "734",
+        "id": 734,
+        "kind": null
+      },
+      {
+        "raw": "747",
+        "id": 747,
+        "kind": null
+      },
+      {
+        "raw": "748",
+        "id": 748,
+        "kind": null
+      },
+      {
+        "raw": "1877",
+        "id": 1877,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "posting",
+      "tax",
+      "value-added tax"
+    ],
+    "ai_usage": null,
+    "words": 4235
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f383928efa537fe1777e8676f71dd4a909d8b62"
 }

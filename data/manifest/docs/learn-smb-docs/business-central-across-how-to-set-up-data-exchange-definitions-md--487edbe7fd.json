@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to set up data exchange definitions",
+  "title": "Define how data is exchanged electronically",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.231Z",
+      "blob": "1377c4c43ed779ed0389074fc8f13a4cc269e846",
+      "words": 3415,
+      "forms": 7
     }
   },
   "input_hash": "1377c4c43ed779ed0389074fc8f13a4cc269e846",
@@ -18,6 +24,56 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-set-up-data-exchange-definitions.md"
-  }
+    "path": "business-central/across-how-to-set-up-data-exchange-definitions.md",
+    "description": "Define how Business Central exchange data with external files like electronic documents, bank data, item catalogs and more.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1210",
+        "id": 1210,
+        "kind": null
+      },
+      {
+        "raw": "1211",
+        "id": 1211,
+        "kind": null
+      },
+      {
+        "raw": "1213",
+        "id": 1213,
+        "kind": null
+      },
+      {
+        "raw": "1214",
+        "id": 1214,
+        "kind": null
+      },
+      {
+        "raw": "1215",
+        "id": 1215,
+        "kind": null
+      },
+      {
+        "raw": "1216",
+        "id": 1216,
+        "kind": null
+      },
+      {
+        "raw": "1217",
+        "id": 1217,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "data exchange",
+      "data exchange definition",
+      "data exchange mapping"
+    ],
+    "ai_usage": null,
+    "words": 3415
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1377c4c43ed779ed0389074fc8f13a4cc269e846"
 }

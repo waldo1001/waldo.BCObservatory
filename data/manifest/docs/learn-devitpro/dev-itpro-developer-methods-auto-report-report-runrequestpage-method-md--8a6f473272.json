@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "report runrequestpage method",
+  "title": "Report.RunRequestPage(Integer [, Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-runrequestpage-method",
   "published_at": "2026-05-04T13:22:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.972Z",
+      "blob": "af1641acad1d5920c76c6190d5c4ac4a2af24200",
+      "words": 433,
+      "forms": 0
     }
   },
   "input_hash": "af1641acad1d5920c76c6190d5c4ac4a2af24200",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/report/report-runrequestpage-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/report/report-runrequestpage-method.md",
+    "description": "Runs the request page for a report without running the report.",
+    "ms_date": "2026-05-04",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 433
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af1641acad1d5920c76c6190d5c4ac4a2af24200"
 }

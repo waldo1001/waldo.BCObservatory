@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to set up bin contents",
+  "title": "Create Bin Contents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.162Z",
+      "blob": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
+      "words": 687,
+      "forms": 1
     }
   },
   "input_hash": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-set-up-bin-contents.md"
-  }
+    "path": "business-central/warehouse-how-to-set-up-bin-contents.md",
+    "description": "After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7374",
+        "id": 7374,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 687
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "828e1fa3c63c198f028e8281febc335fcd7d7a2b"
 }

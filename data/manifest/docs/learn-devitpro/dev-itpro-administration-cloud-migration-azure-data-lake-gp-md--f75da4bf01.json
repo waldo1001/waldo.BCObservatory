@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "cloud migration azure data lake gp",
+  "title": "Move Dynamics GP database to Azure Data Lake",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.502Z",
+      "blob": "d3024e936d70e248448833ecb574c204c4c98529",
+      "words": 591,
+      "forms": 0
     }
   },
   "input_hash": "d3024e936d70e248448833ecb574c204c4c98529",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloud-migration-azure-data-lake-gp.md"
-  }
+    "path": "dev-itpro/administration/cloud-migration-azure-data-lake-gp.md",
+    "description": "Learn how to create a copy of the Dynamics GP database in Azure Data Lake so that you have it for future reference after the migration.",
+    "ms_date": "2024-02-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 591
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3024e936d70e248448833ecb574c204c4c98529"
 }

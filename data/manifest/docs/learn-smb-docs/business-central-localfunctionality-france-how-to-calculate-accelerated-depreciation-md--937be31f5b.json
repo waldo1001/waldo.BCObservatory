@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to calculate accelerated depreciation",
+  "title": "How to Calculate Accelerated Depreciation [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.211Z",
+      "blob": "bf8f9809b55183be6c195c5a054fea492bc9022d",
+      "words": 508,
+      "forms": 2
     }
   },
   "input_hash": "bf8f9809b55183be6c195c5a054fea492bc9022d",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md"
-  }
+    "path": "business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md",
+    "description": "In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job.",
+    "ms_date": "2025-04-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5610",
+        "id": 5610,
+        "kind": null
+      },
+      {
+        "raw": "5611",
+        "id": 5611,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "periodic depreciation",
+      "fixed assets",
+      "calculate depreciation",
+      "accelerated depreciation",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 508
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf8f9809b55183be6c195c5a054fea492bc9022d"
 }

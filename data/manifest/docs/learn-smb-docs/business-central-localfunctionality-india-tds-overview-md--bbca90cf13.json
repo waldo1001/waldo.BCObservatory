@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS Overview",
+  "title": "Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Overview",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.077Z",
+      "blob": "b1c7e74871c44172276e1c099cb08be57a539973",
+      "words": 1695,
+      "forms": 0
     }
   },
   "input_hash": "b1c7e74871c44172276e1c099cb08be57a539973",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TDS-Overview.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TDS-Overview.md",
+    "description": "Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.",
+    "ms_date": "2025-06-30",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TDS setup",
+      "state code",
+      "company information",
+      "location master",
+      "Vendor Card",
+      "vendor master",
+      "rounding precision",
+      "posting setup",
+      "act applicable",
+      "remittances",
+      "concessional codes",
+      "TDS section",
+      "assessee code",
+      "T.A.N",
+      "accounting period",
+      "TDS rates"
+    ],
+    "ai_usage": null,
+    "words": 1695
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b1c7e74871c44172276e1c099cb08be57a539973"
 }

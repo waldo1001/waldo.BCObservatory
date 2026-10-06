@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1416",
+  "title": "Compiler Designer customization information AL1416",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1416",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.687Z",
+      "blob": "ad417fac71a895c3133803d341aec3cc6d4d6b3e",
+      "words": 93,
+      "forms": 0
     }
   },
   "input_hash": "ad417fac71a895c3133803d341aec3cc6d4d6b3e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1416.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1416.md",
+    "description": "The {0} '{1}' cannot be moved relatively to '{2}' because '{2}' is missing.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 93
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad417fac71a895c3133803d341aec3cc6d4d6b3e"
 }

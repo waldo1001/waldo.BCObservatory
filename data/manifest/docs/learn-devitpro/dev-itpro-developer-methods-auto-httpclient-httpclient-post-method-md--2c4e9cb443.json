@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "httpclient post method",
+  "title": "HttpClient.Post(Text, HttpContent, var HttpResponseMessage) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-post-method",
   "published_at": "2025-03-14T08:30:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.115Z",
+      "blob": "f09e6927b9477b97b6331c184903234817b45cf3",
+      "words": 534,
+      "forms": 0
     }
   },
   "input_hash": "f09e6927b9477b97b6331c184903234817b45cf3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-post-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-post-method.md",
+    "description": "Sends a POST request to the specified URI as an asynchronous operation.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 534
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f09e6927b9477b97b6331c184903234817b45cf3"
 }

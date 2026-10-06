@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST TCS and GST on Sales Transaction",
+  "title": "Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.104Z",
+      "blob": "37202e792c399a6656c51437fb6270544214ddb0",
+      "words": 246,
+      "forms": 0
     }
   },
   "input_hash": "37202e792c399a6656c51437fb6270544214ddb0",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md",
+    "description": "Learn how to calculate TCS under the Income Tax Act, 1961, and GST on sales transactions in Business Central.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TCS",
+      "IT Act",
+      "Income Tax Act",
+      "sales transactions"
+    ],
+    "ai_usage": null,
+    "words": 246
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37202e792c399a6656c51437fb6270544214ddb0"
 }

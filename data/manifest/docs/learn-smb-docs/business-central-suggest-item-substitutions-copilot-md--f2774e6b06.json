@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "suggest item substitutions copilot",
+  "title": "Suggest substitute items with Copilot",
   "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.515Z",
+      "blob": "b0eb6e2bdab9f3611e722877265661c222735b06",
+      "words": 497,
+      "forms": 3
     }
   },
   "input_hash": "b0eb6e2bdab9f3611e722877265661c222735b06",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/suggest-item-substitutions-copilot.md"
-  }
+    "path": "business-central/suggest-item-substitutions-copilot.md",
+    "description": "Assign substitute items faster with assistance from Copilot.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      },
+      {
+        "raw": "31",
+        "id": 31,
+        "kind": null
+      },
+      {
+        "raw": "5716_Primary",
+        "id": 5716,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 497
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0eb6e2bdab9f3611e722877265661c222735b06"
 }

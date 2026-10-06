@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to find your warehouse assignments",
+  "title": "Find Your Warehouse Assignments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-find-your-warehouse-assignments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.128Z",
+      "blob": "1d21ba1baabaec3300f5a924854c913912ce5c4c",
+      "words": 229,
+      "forms": 1
     }
   },
   "input_hash": "1d21ba1baabaec3300f5a924854c913912ce5c4c",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-find-your-warehouse-assignments.md"
-  }
+    "path": "business-central/warehouse-how-to-find-your-warehouse-assignments.md",
+    "description": "This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.",
+    "ms_date": "2021-06-24",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9000",
+        "id": 9000,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 229
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d21ba1baabaec3300f5a924854c913912ce5c4c"
 }

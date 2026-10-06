@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry overview",
+  "title": "Monitoring and Analyzing Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.963Z",
+      "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
+      "words": 630,
+      "forms": 0
     }
   },
   "input_hash": "6281096014f0669bcee7f855d732d3a1e8b79758",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-overview.md"
-  }
+    "path": "dev-itpro/administration/telemetry-overview.md",
+    "description": "Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.",
+    "ms_date": "2025-06-20",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 630
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6281096014f0669bcee7f855d732d3a1e8b79758"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "non deductible VAT",
+  "title": "Non-deductible VAT",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT",
   "published_at": "2025-10-20T08:53:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.392Z",
+      "blob": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
+      "words": 3239,
+      "forms": 0
     }
   },
   "input_hash": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/non-deductible-VAT.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/non-deductible-VAT.md",
+    "description": "Learn about the features for using non-deductible VAT in the Czech version, including the setup, posting principles, and reporting requirements.",
+    "ms_date": "2025-09-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Non-Deductible VAT",
+      "Localization"
+    ],
+    "ai_usage": null,
+    "words": 3239
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6bd2abadfaf7166e243a5a7da2de51894779ae3"
 }

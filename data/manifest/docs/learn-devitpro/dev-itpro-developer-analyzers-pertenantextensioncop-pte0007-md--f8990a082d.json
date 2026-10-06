@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "pertenantextensioncop pte0007",
+  "title": "PerTenantExtensionCop Error PTE0007",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0007",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.860Z",
+      "blob": "770ab130e13cdc604392669fba482da219c16594",
+      "words": 75,
+      "forms": 0
     }
   },
   "input_hash": "770ab130e13cdc604392669fba482da219c16594",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0007.md"
-  }
+    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0007.md",
+    "description": "Test assertion functions are not allowed in a non-test context.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 75
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "770ab130e13cdc604392669fba482da219c16594"
 }

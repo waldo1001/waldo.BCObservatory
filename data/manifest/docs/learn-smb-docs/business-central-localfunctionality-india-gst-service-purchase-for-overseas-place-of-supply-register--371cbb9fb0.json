@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Service Purchase for Overseas Place of supply Registered Vendor",
+  "title": "Purchase of Services for Overseas Place of Supply from Registered Vendor",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.093Z",
+      "blob": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
+      "words": 303,
+      "forms": 0
     }
   },
   "input_hash": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md",
+    "description": "Learn how to process the purchase of services from a registered vendor in India when the place of supply is overseas, including GST calculation and accounting entries.",
+    "ms_date": "2025-06-24",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "service purchase",
+      "registered vendor",
+      "overseas place of supply"
+    ],
+    "ai_usage": null,
+    "words": 303
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9"
 }

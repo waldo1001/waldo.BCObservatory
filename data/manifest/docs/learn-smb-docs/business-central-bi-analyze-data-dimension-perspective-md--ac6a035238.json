@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bi analyze data dimension perspective",
+  "title": "Analyze data for some or all values of a dimension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-analyze-data-dimension-perspective",
   "published_at": "2026-03-18T12:24:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.526Z",
+      "blob": "a77a75adce90e098632ae9d9e276f9d6834d39f6",
+      "words": 401,
+      "forms": 1
     }
   },
   "input_hash": "a77a75adce90e098632ae9d9e276f9d6834d39f6",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bi-analyze-data-dimension-perspective.md"
-  }
+    "path": "business-central/bi-analyze-data-dimension-perspective.md",
+    "description": "Learn how to set up dimension perspectives that let you analyze data for all dimension values in one financial report.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "8364_Primary",
+        "id": 8364,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report"
+    ],
+    "ai_usage": null,
+    "words": 401
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a77a75adce90e098632ae9d9e276f9d6834d39f6"
 }

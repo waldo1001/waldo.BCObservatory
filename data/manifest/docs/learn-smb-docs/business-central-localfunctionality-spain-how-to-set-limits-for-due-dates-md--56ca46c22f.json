@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set limits for due dates",
+  "title": "How to Set Limits for Due Dates",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.710Z",
+      "blob": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
+      "words": 300,
+      "forms": 0
     }
   },
   "input_hash": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md",
+    "description": "Learn how to set maximum limits on the number of days allowed between delivery and payment by configuring payment terms in Business Central.",
+    "ms_date": "2025-05-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "payment terms",
+      "due date limits",
+      "set limits",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 300
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd"
 }

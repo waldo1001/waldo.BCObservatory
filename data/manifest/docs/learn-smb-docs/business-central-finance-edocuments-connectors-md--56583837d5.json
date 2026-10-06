@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance edocuments connectors",
+  "title": "Connect E-Documents to external access points",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-connectors",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.596Z",
+      "blob": "f15ea091c67ae239b6d075d45083cbd2b7acb61d",
+      "words": 815,
+      "forms": 0
     }
   },
   "input_hash": "f15ea091c67ae239b6d075d45083cbd2b7acb61d",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-edocuments-connectors.md"
-  }
+    "path": "business-central/finance-edocuments-connectors.md",
+    "description": "Learn how to set up E-Documents in Business Central to send and receive electronic documents with different external access points.",
+    "ms_date": "2025-07-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "electronic document",
+      "electronic invoice",
+      "e-document",
+      "e-invoice",
+      "access-point",
+      "endpoint",
+      "connector",
+      "Peppol"
+    ],
+    "ai_usage": null,
+    "words": 815
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f15ea091c67ae239b6d075d45083cbd2b7acb61d"
 }

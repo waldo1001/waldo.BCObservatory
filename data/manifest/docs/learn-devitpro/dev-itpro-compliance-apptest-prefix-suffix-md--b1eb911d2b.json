@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "apptest prefix suffix",
+  "title": "Prefix and suffix for naming in extensions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-prefix-suffix",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.880Z",
+      "blob": "61ada5623e69384401af079b8060e4fd2304aa86",
+      "words": 818,
+      "forms": 0
     }
   },
   "input_hash": "61ada5623e69384401af079b8060e4fd2304aa86",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/compliance/apptest-prefix-suffix.md"
-  }
+    "path": "dev-itpro/compliance/apptest-prefix-suffix.md",
+    "description": "Use a prefix or suffix for names in your extension. This rule applies to all objects, including tables, pages, and codeunits. This topic explains the benefits and guidelines for using a prefix or suffix.\"",
+    "ms_date": "2023-04-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 818
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61ada5623e69384401af079b8060e4fd2304aa86"
 }

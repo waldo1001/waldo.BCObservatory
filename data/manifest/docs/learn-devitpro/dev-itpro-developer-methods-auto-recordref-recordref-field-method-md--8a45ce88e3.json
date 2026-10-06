@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref field method",
+  "title": "RecordRef.Field(Integer) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-field-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.395Z",
+      "blob": "601e152f1ab89bb93d4e8e82be65cb840f3c5db8",
+      "words": 315,
+      "forms": 0
     }
   },
   "input_hash": "601e152f1ab89bb93d4e8e82be65cb840f3c5db8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-field-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-field-method.md",
+    "description": "Gets a FieldRef for the field that has the number FieldNo in the table that is currently selected.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 315
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "601e152f1ab89bb93d4e8e82be65cb840f3c5db8"
 }

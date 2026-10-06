@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "faqs bank reconciliation",
+  "title": "FAQ for bank account reconciliation assist with Copilot (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-bank-reconciliation",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.374Z",
+      "blob": "e4e87f4040c7201cf0126e604fe5e1093839252f",
+      "words": 923,
+      "forms": 0
     }
   },
   "input_hash": "e4e87f4040c7201cf0126e604fe5e1093839252f",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/faqs-bank-reconciliation.md"
-  }
+    "path": "business-central/faqs-bank-reconciliation.md",
+    "description": "This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [
+      "copilot",
+      "AI"
+    ],
+    "ai_usage": null,
+    "words": 923
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e4e87f4040c7201cf0126e604fe5e1093839252f"
 }

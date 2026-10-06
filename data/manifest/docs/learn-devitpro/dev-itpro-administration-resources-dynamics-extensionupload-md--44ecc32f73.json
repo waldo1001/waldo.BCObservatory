@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics extensionupload",
+  "title": "extensionUpload resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extensionupload",
   "published_at": "2026-08-18T10:12:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.290Z",
+      "blob": "f061cede044f8d0d6c35928f501fcc77b02feb4f",
+      "words": 172,
+      "forms": 0
     }
   },
   "input_hash": "f061cede044f8d0d6c35928f501fcc77b02feb4f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_extensionupload.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_extensionupload.md",
+    "description": "Learn how the extensionUpload resource type works in Business Central. Review methods, the upload bound action, and properties for managing per-tenant extensions.",
+    "ms_date": "2026-07-07",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f061cede044f8d0d6c35928f501fcc77b02feb4f"
 }

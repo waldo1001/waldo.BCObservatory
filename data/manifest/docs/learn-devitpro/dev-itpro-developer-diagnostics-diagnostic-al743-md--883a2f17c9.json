@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al743",
+  "title": "Compiler Warning (future error) AL0743",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al743",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.989Z",
+      "blob": "7cd05ebcc677eab6c21d60313fcca22f711684d9",
+      "words": 72,
+      "forms": 0
     }
   },
   "input_hash": "7cd05ebcc677eab6c21d60313fcca22f711684d9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al743.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al743.md",
+    "description": "The property '{0}' is not valid for action '{1}' defined in control '{2}' of type '{3}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 72
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7cd05ebcc677eab6c21d60313fcca22f711684d9"
 }

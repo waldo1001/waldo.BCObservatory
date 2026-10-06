@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "year prepare close statement",
+  "title": "Overview of reports to help prepare closing statements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.192Z",
+      "blob": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
+      "words": 205,
+      "forms": 0
     }
   },
   "input_hash": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/year-prepare-close-statement.md"
-  }
+    "path": "business-central/year-prepare-close-statement.md",
+    "description": "Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.",
+    "ms_date": "2024-08-05",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "year closing",
+      "close accounting period",
+      "close fiscal year",
+      "aging",
+      "creditor payments",
+      "vendor payments",
+      "assets",
+      "liabilities",
+      "equity",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "BI",
+      "Power Bi",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 205
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0243eb4e45a24e69972957b3e1430c76cdd526e5"
 }

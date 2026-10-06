@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000760",
+  "title": "Machine Center List (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.826Z",
+      "blob": "36e5a61c241151e69fb558b6f8a1ec739124c2cc",
+      "words": 91,
+      "forms": 1
     }
   },
   "input_hash": "36e5a61c241151e69fb558b6f8a1ec739124c2cc",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000760.md"
-  }
+    "path": "business-central/reports/report-99000760.md",
+    "description": "Get a list of the machine center setup in your company, which can help you manage and schedule production activities efficiently.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000760_Primary",
+        "id": 99000760,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 91
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36e5a61c241151e69fb558b6f8a1ec739124c2cc"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0069",
+  "title": "AppSourceCop Error AS0069",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0069",
   "published_at": "2025-08-08T11:51:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.315Z",
+      "blob": "6a0cd6c22530a196dde107cba3c607d89d86e19f",
+      "words": 243,
+      "forms": 0
     }
   },
   "input_hash": "6a0cd6c22530a196dde107cba3c607d89d86e19f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0069.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0069.md",
+    "description": "An enum field replacing an option field should have at least the same number of values as the number of options members defined on the field in the previous version of the extension.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 243
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a0cd6c22530a196dde107cba3c607d89d86e19f"
 }

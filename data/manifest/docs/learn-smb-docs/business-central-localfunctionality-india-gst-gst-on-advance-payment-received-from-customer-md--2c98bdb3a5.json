@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST GST on Advance Payment received from Customer",
+  "title": "GST on advance payment received from customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.947Z",
+      "blob": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
+      "words": 322,
+      "forms": 0
     }
   },
   "input_hash": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md",
+    "description": "Learn how GST is calculated and reported on advance payments received from customers in Business Central for India.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "GST on advance payment",
+      "cash receipt voucher",
+      "advance payment reversal create general journal"
+    ],
+    "ai_usage": null,
+    "words": 322
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1"
 }

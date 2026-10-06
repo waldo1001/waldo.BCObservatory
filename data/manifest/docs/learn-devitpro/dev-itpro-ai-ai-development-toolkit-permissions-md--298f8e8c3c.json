@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "ai development toolkit permissions",
+  "title": "Agent permissions (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.634Z",
+      "blob": "86b055a3bfdad2ded555739fb4a072720e675fc9",
+      "words": 1085,
+      "forms": 0
     }
   },
   "input_hash": "86b055a3bfdad2ded555739fb4a072720e675fc9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/ai/ai-development-toolkit-permissions.md"
-  }
+    "path": "dev-itpro/ai/ai-development-toolkit-permissions.md",
+    "description": "Learn about permissions and access control for AI agents in Dynamics 365 Business Central.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1085
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86b055a3bfdad2ded555739fb4a072720e675fc9"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import and reconcile bank statements",
+  "title": "How to import and reconcile bank statements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.575Z",
+      "blob": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
+      "words": 198,
+      "forms": 0
     }
   },
   "input_hash": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md",
+    "description": "Banks offer electronic statements detailing all your financial transactions. These statements can be imported into the bank or giro journals.",
+    "ms_date": "2025-03-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "giro journals",
+      "bank journals",
+      "Dutch version",
+      "Netherlands",
+      "electronic statements",
+      "import bank statements"
+    ],
+    "ai_usage": null,
+    "words": 198
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ac603c307bc3926d891ebc5d4c5ea63da97534b8"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up vat ledgers",
+  "title": "Setting Up VAT Ledgers in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.623Z",
+      "blob": "08fbc067465c6c0cf362df78afe66eb9f380ef35",
+      "words": 379,
+      "forms": 0
     }
   },
   "input_hash": "08fbc067465c6c0cf362df78afe66eb9f380ef35",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md",
+    "description": "Learn how to configure VAT ledgers in Russia for tracking VAT transactions on goods, services, and imports.",
+    "ms_date": "2025-07-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT ledgers",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 379
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08fbc067465c6c0cf362df78afe66eb9f380ef35"
 }

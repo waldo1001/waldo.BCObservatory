@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across powerbi configure week based calendar",
+  "title": "Configure a week-based calendar",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-configure-week-based-calendar",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.783Z",
+      "blob": "b10407f5ba2342f12ca2d32fcbc0c8b61b18db4f",
+      "words": 867,
+      "forms": 1
     }
   },
   "input_hash": "b10407f5ba2342f12ca2d32fcbc0c8b61b18db4f",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-powerbi-configure-week-based-calendar.md"
-  }
+    "path": "business-central/across-powerbi-configure-week-based-calendar.md",
+    "description": "Learn how to configure a week based calendar for your Power BI Semantic Models.",
+    "ms_date": "2026-02-19",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "36951",
+        "id": 36951,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "analysis",
+      "reporting",
+      "business intelligence",
+      "KPI",
+      "installation",
+      "administration"
+    ],
+    "ai_usage": null,
+    "words": 867
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b10407f5ba2342f12ca2d32fcbc0c8b61b18db4f"
 }

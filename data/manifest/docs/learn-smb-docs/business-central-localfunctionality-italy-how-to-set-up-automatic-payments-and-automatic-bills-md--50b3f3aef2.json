@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up automatic payments and automatic bills",
+  "title": "Automatic Payments and Automatic Bills [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills",
   "published_at": "2025-05-27T05:37:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.836Z",
+      "blob": "313f31be756dd998d83ae19e4839ca4e3bed6875",
+      "words": 526,
+      "forms": 2
     }
   },
   "input_hash": "313f31be756dd998d83ae19e4839ca4e3bed6875",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md",
+    "description": "Learn how to set up automatic payments and bills in the Italian version of Business Central.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12203",
+        "id": 12203,
+        "kind": null
+      },
+      {
+        "raw": "12204",
+        "id": 12204,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "automatic payments",
+      "automatic bills",
+      "set up automatic payments",
+      "set up automatic bills",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 526
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "313f31be756dd998d83ae19e4839ca4e3bed6875"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to assign base calendars",
+  "title": "Set up base calendars",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-assign-base-calendars",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.195Z",
+      "blob": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a",
+      "words": 1252,
+      "forms": 4
     }
   },
   "input_hash": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-assign-base-calendars.md"
-  }
+    "path": "business-central/across-how-to-assign-base-calendars.md",
+    "description": "Assign a base calendar to your company and business partners to calculate delivery and receipt dates based on defined working days.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7600",
+        "id": 7600,
+        "kind": null
+      },
+      {
+        "raw": "7601",
+        "id": 7601,
+        "kind": null
+      },
+      {
+        "raw": "7602",
+        "id": 7602,
+        "kind": null
+      },
+      {
+        "raw": "5703",
+        "id": 5703,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a"
 }

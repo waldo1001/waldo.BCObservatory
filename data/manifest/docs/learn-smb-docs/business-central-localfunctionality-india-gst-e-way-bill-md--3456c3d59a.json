@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST E Way Bill",
+  "title": "E-Way Bill",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.928Z",
+      "blob": "16c41d9927cf173522545b50853ffa42075bde45",
+      "words": 305,
+      "forms": 0
     }
   },
   "input_hash": "16c41d9927cf173522545b50853ffa42075bde45",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-E-Way-Bill.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-E-Way-Bill.md",
+    "description": "Learn how to generate and manage E-Way Bills for goods transportation in India using Business Central.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "E-Way bill",
+      "template generation"
+    ],
+    "ai_usage": null,
+    "words": 305
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16c41d9927cf173522545b50853ffa42075bde45"
 }

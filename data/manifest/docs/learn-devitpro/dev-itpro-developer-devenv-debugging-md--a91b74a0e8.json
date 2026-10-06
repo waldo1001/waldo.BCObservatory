@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv debugging",
+  "title": "Debugging in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.473Z",
+      "blob": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
+      "words": 1909,
+      "forms": 0
     }
   },
   "input_hash": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-debugging.md"
-  }
+    "path": "dev-itpro/developer/devenv-debugging.md",
+    "description": "Debugging in AL with Visual Studio Code and the AL Language extension.",
+    "ms_date": "2025-08-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1909
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f"
 }

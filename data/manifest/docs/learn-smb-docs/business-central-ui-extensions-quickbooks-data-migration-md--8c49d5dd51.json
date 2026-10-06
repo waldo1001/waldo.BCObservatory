@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions quickbooks data migration",
+  "title": "QuickBooks Data Migration Extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-data-migration",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.989Z",
+      "blob": "390b43b3df3354d8816ff4eb9710923b5001aab5",
+      "words": 604,
+      "forms": 8
     }
   },
   "input_hash": "390b43b3df3354d8816ff4eb9710923b5001aab5",
@@ -18,6 +24,64 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-quickbooks-data-migration.md"
-  }
+    "path": "business-central/ui-extensions-quickbooks-data-migration.md",
+    "description": "Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.",
+    "ms_date": "2021-06-24",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "1911",
+        "id": 1911,
+        "kind": null
+      },
+      {
+        "raw": "1912",
+        "id": 1912,
+        "kind": null
+      },
+      {
+        "raw": "1913",
+        "id": 1913,
+        "kind": null
+      },
+      {
+        "raw": "1914",
+        "id": 1914,
+        "kind": null
+      },
+      {
+        "raw": "1915",
+        "id": 1915,
+        "kind": null
+      },
+      {
+        "raw": "1916",
+        "id": 1916,
+        "kind": null
+      },
+      {
+        "raw": "1918",
+        "id": 1918,
+        "kind": null
+      },
+      {
+        "raw": "1919",
+        "id": 1919,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "app",
+      "add-in",
+      "manifest",
+      "customize",
+      "import",
+      "implement"
+    ],
+    "ai_usage": null,
+    "words": 604
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "390b43b3df3354d8816ff4eb9710923b5001aab5"
 }

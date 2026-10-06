@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0122",
+  "title": "AppSourceCop Warning AS0122",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0122",
   "published_at": "2026-03-11T10:06:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.557Z",
+      "blob": "f0906cd5a6fbfec31314f012dbd31db77cbf68f2",
+      "words": 223,
+      "forms": 0
     }
   },
   "input_hash": "f0906cd5a6fbfec31314f012dbd31db77cbf68f2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0122.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0122.md",
+    "description": "The source symbol for this moved symbol cannot be found in the package with the given AppId.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 223
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f0906cd5a6fbfec31314f012dbd31db77cbf68f2"
 }

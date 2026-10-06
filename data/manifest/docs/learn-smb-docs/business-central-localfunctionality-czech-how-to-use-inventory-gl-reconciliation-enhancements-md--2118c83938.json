@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use inventory gl reconciliation enhancements",
+  "title": "Czech local functionality - G/L reconciliation enhancements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.398Z",
+      "blob": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
+      "words": 65,
+      "forms": 0
     }
   },
   "input_hash": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md",
+    "description": "According to Czech-specific requirements, the Inventory – G/L Reconciliation matrix form must take into account the Czech-specific inventory posting accounts.",
+    "ms_date": "2025-06-05",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 65
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16"
 }

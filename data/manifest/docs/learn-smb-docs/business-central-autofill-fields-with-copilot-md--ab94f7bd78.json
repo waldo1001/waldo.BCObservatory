@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "autofill fields with copilot",
+  "title": "Autofill fields with Copilot (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.240Z",
+      "blob": "d3f238dc7f5f49b164ba91072b4d51483d375c69",
+      "words": 1059,
+      "forms": 0
     }
   },
   "input_hash": "d3f238dc7f5f49b164ba91072b4d51483d375c69",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/autofill-fields-with-copilot.md"
-  }
+    "path": "business-central/autofill-fields-with-copilot.md",
+    "description": "Learn how to use Copilot's autofill feature to assist you in filling in fields on card and document pages.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1059
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3f238dc7f5f49b164ba91072b4d51483d375c69"
 }

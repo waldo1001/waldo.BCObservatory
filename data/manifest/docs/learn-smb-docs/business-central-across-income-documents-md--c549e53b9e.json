@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across income documents",
+  "title": "Work with incoming documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-income-documents",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.557Z",
+      "blob": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
+      "words": 869,
+      "forms": 0
     }
   },
   "input_hash": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-income-documents.md"
-  }
+    "path": "business-central/across-income-documents.md",
+    "description": "Manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "electronic document",
+      "e-invoice",
+      "incoming document",
+      "OCR",
+      "ecommerce",
+      "document exchange",
+      "import invoice"
+    ],
+    "ai_usage": null,
+    "words": 869
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7"
 }

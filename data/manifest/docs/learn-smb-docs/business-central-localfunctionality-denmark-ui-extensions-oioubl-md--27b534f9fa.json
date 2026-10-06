@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions oioubl",
+  "title": "OIOUBL Extension for Electronic Invoicing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.067Z",
+      "blob": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
+      "words": 209,
+      "forms": 3
     }
   },
   "input_hash": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
@@ -18,6 +24,38 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md"
-  }
+    "path": "business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md",
+    "description": "The OIOUBL extension simplifies the process of sending sales documents electronically to customers in the Danish public sector using the OIOUBL format.",
+    "ms_date": "2025-04-24",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "13645",
+        "id": 13645,
+        "kind": null
+      },
+      {
+        "raw": "13646",
+        "id": 13646,
+        "kind": null
+      },
+      {
+        "raw": "13647",
+        "id": 13647,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "OIOUBL",
+      "public sector",
+      "electronic invoicing",
+      "sales documents",
+      "Denmark"
+    ],
+    "ai_usage": null,
+    "words": 209
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91"
 }

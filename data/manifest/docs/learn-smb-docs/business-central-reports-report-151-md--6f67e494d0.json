@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 151",
+  "title": "Balance Sheet (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-151",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.165Z",
+      "blob": "936c3e230d41b470d5a59d7127fe3e9058287454",
+      "words": 90,
+      "forms": 1
     }
   },
   "input_hash": "936c3e230d41b470d5a59d7127fe3e9058287454",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-151.md"
-  }
+    "path": "business-central/reports/report-151.md",
+    "description": "Get an overview of your financials across assets, liabilities, and equity.",
+    "ms_date": "2025-06-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_151_Primary",
+        "id": 151,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "936c3e230d41b470d5a59d7127fe3e9058287454"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to post output quantity",
+  "title": "Batch post production output and run times",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-output-quantity",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.661Z",
+      "blob": "78e1a9534f422adb8d9e146cfc0b861eeff3570e",
+      "words": 713,
+      "forms": 4
     }
   },
   "input_hash": "78e1a9534f422adb8d9e146cfc0b861eeff3570e",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-post-output-quantity.md"
-  }
+    "path": "business-central/production-how-to-post-output-quantity.md",
+    "description": "Learn how to post completed quantities, scrap, setup time, and run time for one or more released production orders.",
+    "ms_date": "2026-07-15",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000773",
+        "id": 99000773,
+        "kind": null
+      },
+      {
+        "raw": "99000778",
+        "id": 99000778,
+        "kind": null
+      },
+      {
+        "raw": "99000823",
+        "id": 99000823,
+        "kind": null
+      },
+      {
+        "raw": "99000827",
+        "id": 99000827,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 713
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78e1a9534f422adb8d9e146cfc0b861eeff3570e"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 33",
+  "title": "Reconcile Cust. and Vend. Accs. (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-33",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.288Z",
+      "blob": "12616465b7db7fa0e57733d8273363bbe85e8c62",
+      "words": 552,
+      "forms": 1
     }
   },
   "input_hash": "12616465b7db7fa0e57733d8273363bbe85e8c62",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-33.md"
-  }
+    "path": "business-central/reports/report-33.md",
+    "description": "Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.",
+    "ms_date": "2025-06-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_33_Primary",
+        "id": 33,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 552
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12616465b7db7fa0e57733d8273363bbe85e8c62"
 }

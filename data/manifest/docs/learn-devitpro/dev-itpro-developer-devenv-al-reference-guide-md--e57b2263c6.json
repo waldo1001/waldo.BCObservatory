@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv al reference guide",
+  "title": "AL reference guide",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-reference-guide",
   "published_at": "2025-08-08T08:48:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.397Z",
+      "blob": "6f01be331c9cd30e903c6ac3f3ccdb2437705744",
+      "words": 172,
+      "forms": 0
     }
   },
   "input_hash": "6f01be331c9cd30e903c6ac3f3ccdb2437705744",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-al-reference-guide.md"
-  }
+    "path": "dev-itpro/developer/devenv-al-reference-guide.md",
+    "description": "Explore the comprehensive AL Reference Guide for Dynamics 365 Business Central, detailing methods, method attributes, data types, properties, diagnostics, and triggers.",
+    "ms_date": "2025-01-08",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f01be331c9cd30e903c6ac3f3ccdb2437705744"
 }

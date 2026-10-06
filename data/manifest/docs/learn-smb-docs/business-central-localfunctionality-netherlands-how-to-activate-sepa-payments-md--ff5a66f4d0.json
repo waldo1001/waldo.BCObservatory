@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to activate sepa payments",
+  "title": "Activate SEPA payments in the Dutch version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.543Z",
+      "blob": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f",
+      "words": 230,
+      "forms": 0
     }
   },
   "input_hash": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md",
+    "description": "To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.",
+    "ms_date": "2025-03-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "submit vendor payments",
+      "SEPA",
+      "enable SEPA payments",
+      "electronic vendor payments",
+      "Dutch version",
+      "Netherlands"
+    ],
+    "ai_usage": null,
+    "words": 230
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f"
 }

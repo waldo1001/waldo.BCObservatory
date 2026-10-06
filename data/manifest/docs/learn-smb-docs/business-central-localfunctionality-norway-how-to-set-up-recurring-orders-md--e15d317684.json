@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up recurring orders",
+  "title": "How to Set Up Recurring Orders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.116Z",
+      "blob": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
+      "words": 210,
+      "forms": 0
     }
   },
   "input_hash": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders.md",
+    "description": "Learn how to set up recurring orders by adding a recurring group to a blanket sales order.",
+    "ms_date": "2025-05-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "recurring order",
+      "blanket sales order",
+      "recurring group",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 210
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88"
 }

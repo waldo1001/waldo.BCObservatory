@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up vat categories",
+  "title": "How to Set Up VAT Categories",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.593Z",
+      "blob": "a4bb7a6d3c358b3a6551db4b3cf477429cb7ad4a",
+      "words": 296,
+      "forms": 0
     }
   },
   "input_hash": "a4bb7a6d3c358b3a6551db4b3cf477429cb7ad4a",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md",
+    "description": "Learn how to set up VAT category codes for all XML elements required in the electronic VAT declaration.",
+    "ms_date": "2025-03-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT category codes",
+      "VAT XML elements",
+      "electronic VAT declaration",
+      "Dutch version",
+      "Netherlands"
+    ],
+    "ai_usage": null,
+    "words": 296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a4bb7a6d3c358b3a6551db4b3cf477429cb7ad4a"
 }

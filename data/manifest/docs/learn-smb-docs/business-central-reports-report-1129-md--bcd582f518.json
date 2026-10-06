@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1129",
+  "title": "Cost Allocations (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1129",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.136Z",
+      "blob": "656b5c48b560b2c5a7b5f6a3cf4d6af489d5fba3",
+      "words": 169,
+      "forms": 1
     }
   },
   "input_hash": "656b5c48b560b2c5a7b5f6a3cf4d6af489d5fba3",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1129.md"
-  }
+    "path": "business-central/reports/report-1129.md",
+    "description": "Displays how costs were split or assigned based on allocation rules. Use with cost centers or allocation bases. Explains cost distribution across entities using set allocation methods, ideal for cost control.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1129_Primary",
+        "id": 1129,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "cost accounting",
+      "cost allocations",
+      "cost centers",
+      "allocation rules",
+      "cost control"
+    ],
+    "ai_usage": null,
+    "words": 169
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "656b5c48b560b2c5a7b5f6a3cf4d6af489d5fba3"
 }

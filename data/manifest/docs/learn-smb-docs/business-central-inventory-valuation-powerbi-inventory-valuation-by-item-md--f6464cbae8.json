@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory valuation powerbi inventory valuation by item",
+  "title": "Inventory Valuation by Item (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.579Z",
+      "blob": "cb5fe73019d4f55ffb2b866c255b07a50b41dfdf",
+      "words": 250,
+      "forms": 1
     }
   },
   "input_hash": "cb5fe73019d4f55ffb2b866c255b07a50b41dfdf",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-valuation-powerbi-inventory-valuation-by-item.md"
-  }
+    "path": "business-central/inventory-valuation-powerbi-inventory-valuation-by-item.md",
+    "description": "The Inventory Valuation by Item report shows item values on an item by item basis.",
+    "ms_date": "2024-10-30",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37057_Primary",
+        "id": 37057,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 250
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb5fe73019d4f55ffb2b866c255b07a50b41dfdf"
 }

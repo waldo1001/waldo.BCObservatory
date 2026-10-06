@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "year allocate costs income",
+  "title": "Overview of tasks to allocate costs and income",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.183Z",
+      "blob": "7aceddaa31222c144bd30e7c0d84b676c7482180",
+      "words": 554,
+      "forms": 2
     }
   },
   "input_hash": "7aceddaa31222c144bd30e7c0d84b676c7482180",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/year-allocate-costs-income.md"
-  }
+    "path": "business-central/year-allocate-costs-income.md",
+    "description": "Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.",
+    "ms_date": "2024-12-06",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "283",
+        "id": 283,
+        "kind": null
+      },
+      {
+        "raw": "5629",
+        "id": 5629,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 554
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7aceddaa31222c144bd30e7c0d84b676c7482180"
 }

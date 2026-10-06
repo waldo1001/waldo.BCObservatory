@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics itemoutstandingpurchaseline",
+  "title": "itemOutstandingPurchaseLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_itemoutstandingpurchaseline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.945Z",
+      "blob": "8112ff0d3ed9e500faffd26118b8973738648f7e",
+      "words": 116,
+      "forms": 0
     }
   },
   "input_hash": "8112ff0d3ed9e500faffd26118b8973738648f7e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_itemoutstandingpurchaseline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_itemoutstandingpurchaseline.md",
+    "description": "Represents a itemOutstandingPurchaseLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 116
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8112ff0d3ed9e500faffd26118b8973738648f7e"
 }

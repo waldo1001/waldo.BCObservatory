@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details inbound warehouse flow",
+  "title": "Design Details - Inbound Warehouse Flow",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inbound-warehouse-flow",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.270Z",
+      "blob": "0e496dc6fc30f02163a3f8070700bb4eb6574956",
+      "words": 1338,
+      "forms": 0
     }
   },
   "input_hash": "0e496dc6fc30f02163a3f8070700bb4eb6574956",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-inbound-warehouse-flow.md"
-  }
+    "path": "business-central/design-details-inbound-warehouse-flow.md",
+    "description": "Learn how to receive items at your warehouse, and register and match them to inbound source documents.",
+    "ms_date": "2023-09-18",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "warehouse"
+    ],
+    "ai_usage": null,
+    "words": 1338
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e496dc6fc30f02163a3f8070700bb4eb6574956"
 }

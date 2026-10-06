@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "requirements for reporting declaration of trade in goods",
+  "title": "Requirements for Reporting Declaration of Trade in Goods [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.331Z",
+      "blob": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07",
+      "words": 525,
+      "forms": 0
     }
   },
   "input_hash": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md"
-  }
+    "path": "business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md",
+    "description": "Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.",
+    "ms_date": "2025-04-16",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "declaration of trade",
+      "DEB report",
+      "trade in goods",
+      "declaration reporting requirements",
+      "validate intrastat lines",
+      "intrastat",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 525
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07"
 }

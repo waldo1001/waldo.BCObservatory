@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to edocuments nemhadel",
+  "title": "Set up electronic invoicing with NemHandel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.673Z",
+      "blob": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
+      "words": 515,
+      "forms": 4
     }
   },
   "input_hash": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md"
-  }
+    "path": "business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md",
+    "description": "Learn how to set up E-documents functionality with Nemhadel in Denmark.",
+    "ms_date": "2025-03-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "359",
+        "id": 359,
+        "kind": null
+      },
+      {
+        "raw": "360",
+        "id": 360,
+        "kind": null
+      },
+      {
+        "raw": "6103",
+        "id": 6103,
+        "kind": null
+      },
+      {
+        "raw": "6133",
+        "id": 6133,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic document",
+      "electronic invoice",
+      "e-document",
+      "e-invoice",
+      "access-point",
+      "endpoint",
+      "nemhandel",
+      "denmark",
+      "dk"
+    ],
+    "ai_usage": null,
+    "words": 515
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5f2284a2bd6c8043471f4de9eefd72b403c21b30"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv type report property",
+  "title": "Type Property for Report Layouts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-type-report-property",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.066Z",
+      "blob": "affef8ecd1f2d703607c8b62f56c98d23f59a0d2",
+      "words": 79,
+      "forms": 0
     }
   },
   "input_hash": "affef8ecd1f2d703607c8b62f56c98d23f59a0d2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-type-report-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-type-report-property.md",
+    "description": "Learn how the Type property specifies the format of a report layout in Dynamics 365 Business Central and review the supported values.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 79
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "affef8ecd1f2d703607c8b62f56c98d23f59a0d2"
 }

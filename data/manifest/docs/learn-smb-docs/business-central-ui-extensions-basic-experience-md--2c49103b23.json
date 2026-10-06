@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions basic experience",
+  "title": "Basic Experience extension | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-basic-experience",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.331Z",
+      "blob": "c0b9071608b558aa6676f03d2171f112986d73df",
+      "words": 360,
+      "forms": 1
     }
   },
   "input_hash": "c0b9071608b558aa6676f03d2171f112986d73df",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-basic-experience.md"
-  }
+    "path": "business-central/ui-extensions-basic-experience.md",
+    "description": "This extension is a modernized alternative to Microsoft Dynamics C5.",
+    "ms_date": "2023-11-10",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "20600",
+        "id": 20600,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "C5",
+      "financials",
+      "extension"
+    ],
+    "ai_usage": null,
+    "words": 360
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0b9071608b558aa6676f03d2171f112986d73df"
 }

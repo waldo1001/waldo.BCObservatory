@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how request quotes",
+  "title": "Create a purchase quote to request an offer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes",
   "published_at": "2026-03-27T13:55:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.422Z",
+      "blob": "55922400175858498b17cebfe5fc5f66664e5256",
+      "words": 396,
+      "forms": 4
     }
   },
   "input_hash": "55922400175858498b17cebfe5fc5f66664e5256",
@@ -18,6 +24,39 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-request-quotes.md"
-  }
+    "path": "business-central/purchasing-how-request-quotes.md",
+    "description": "Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.",
+    "ms_date": "2026-03-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "49",
+        "id": 49,
+        "kind": null
+      },
+      {
+        "raw": "97",
+        "id": 97,
+        "kind": null
+      },
+      {
+        "raw": "9306",
+        "id": 9306,
+        "kind": null
+      },
+      {
+        "raw": "9346",
+        "id": 9346,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "rfq"
+    ],
+    "ai_usage": null,
+    "words": 396
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "55922400175858498b17cebfe5fc5f66664e5256"
 }

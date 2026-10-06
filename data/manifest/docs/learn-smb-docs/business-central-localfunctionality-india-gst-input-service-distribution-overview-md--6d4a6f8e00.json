@@ -7,10 +7,16 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview",
   "published_at": "2025-10-16T15:05:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.616Z",
+      "blob": "d9e7f13dd6286cf3a3b23aae730e693e6aed1ed9",
+      "words": 502,
+      "forms": 0
     }
   },
   "input_hash": "d9e7f13dd6286cf3a3b23aae730e693e6aed1ed9",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md",
+    "description": "Overview of GST Input Service Distribution functionality in Business Central for India, including setup steps and configuration requirements.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "input service distribution",
+      "ISD on location",
+      "ISD on general ledger setup",
+      "ISD on source code setup",
+      "ISD on GST posting setup"
+    ],
+    "ai_usage": null,
+    "words": 502
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9e7f13dd6286cf3a3b23aae730e693e6aed1ed9"
 }

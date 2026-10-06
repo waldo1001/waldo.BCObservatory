@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "learn accounting bookkeeping guide",
+  "title": "Accounting and bookkeeping",
   "url": "https://learn.microsoft.com/dynamics365/business-central/learn-accounting-bookkeeping-guide",
   "published_at": "2026-03-09T11:32:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.677Z",
+      "blob": "a1d5c99b03b262f537e157150f56d3cab57c54ea",
+      "words": 1694,
+      "forms": 3
     }
   },
   "input_hash": "a1d5c99b03b262f537e157150f56d3cab57c54ea",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/learn-accounting-bookkeeping-guide.md"
-  }
+    "path": "business-central/learn-accounting-bookkeeping-guide.md",
+    "description": "This article provides information that can help you use Microsoft Dynamics 365 Business Central to do accounting and bookkeeping for your company.",
+    "ms_date": "2026-03-09",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "16",
+        "id": 16,
+        "kind": null
+      },
+      {
+        "raw": "39",
+        "id": 39,
+        "kind": null
+      },
+      {
+        "raw": "108",
+        "id": 108,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "accounting",
+      "bookkeeping"
+    ],
+    "ai_usage": null,
+    "words": 1694
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a1d5c99b03b262f537e157150f56d3cab57c54ea"
 }

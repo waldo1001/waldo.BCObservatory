@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ehf electronic invoicing in norway",
+  "title": "Electronic invoicing in Norway",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.003Z",
+      "blob": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
+      "words": 847,
+      "forms": 6
     }
   },
   "input_hash": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
@@ -18,6 +24,53 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md",
+    "description": "Learn how to electronically send sales invoices and credit memos to the Norwegian public sector using EHF, which is based on Universal Business Language (UBL).",
+    "ms_date": "2025-05-12",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "459",
+        "id": 459,
+        "kind": null
+      },
+      {
+        "raw": "359",
+        "id": 359,
+        "kind": null
+      },
+      {
+        "raw": "360",
+        "id": 360,
+        "kind": null
+      },
+      {
+        "raw": "6103",
+        "id": 6103,
+        "kind": null
+      },
+      {
+        "raw": "6133",
+        "id": 6133,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "EHF",
+      "UBL",
+      "electronic invoicing",
+      "e-invoicing",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 847
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6"
 }

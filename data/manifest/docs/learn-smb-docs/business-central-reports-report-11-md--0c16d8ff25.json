@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 11",
+  "title": "G/L - VAT Reconciliation (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-11",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.084Z",
+      "blob": "a3d89ceaf456107a79447d59cdb317edb82942f7",
+      "words": 221,
+      "forms": 1
     }
   },
   "input_hash": "a3d89ceaf456107a79447d59cdb317edb82942f7",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-11.md"
-  }
+    "path": "business-central/reports/report-11.md",
+    "description": "Reconciles VAT amounts from the general ledger with VAT entries to ensure accurate tax filings. Use during VAT periods to validate that posted VAT entries match G/L amounts. Apply posting date and VAT period filters for precision.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_11_Primary",
+        "id": 11,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "VAT reconciliation",
+      "tax reconciliation",
+      "G/L",
+      "audit",
+      "filing"
+    ],
+    "ai_usage": null,
+    "words": 221
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3d89ceaf456107a79447d59cdb317edb82942f7"
 }

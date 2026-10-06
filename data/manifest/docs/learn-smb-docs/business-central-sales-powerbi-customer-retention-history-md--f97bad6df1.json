@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi customer retention history",
+  "title": "Customer Retention History (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history",
   "published_at": "2026-03-03T15:01:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.734Z",
+      "blob": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
+      "words": 289,
+      "forms": 1
     }
   },
   "input_hash": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-customer-retention-history.md"
-  }
+    "path": "business-central/sales-powerbi-customer-retention-history.md",
+    "description": "The Customer Retention History page provides historical insights into customer retention metrics, allowing analysis of trends over time.",
+    "ms_date": "2026-03-03",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37114_Primary",
+        "id": 37114,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 289
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e933c687b7569e53e11b14fabdf7364a2ac5177d"
 }

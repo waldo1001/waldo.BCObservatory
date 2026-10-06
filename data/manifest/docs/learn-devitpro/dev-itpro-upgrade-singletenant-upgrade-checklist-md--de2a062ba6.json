@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "singletenant upgrade checklist",
+  "title": "Single-Tenant Full Upgrade Quick Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/singletenant-upgrade-checklist",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.778Z",
+      "blob": "6298e890b7992d3fc5e9c5da09e97f514dfbd766",
+      "words": 289,
+      "forms": 0
     }
   },
   "input_hash": "6298e890b7992d3fc5e9c5da09e97f514dfbd766",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/singletenant-upgrade-checklist.md"
-  }
+    "path": "dev-itpro/upgrade/singletenant-upgrade-checklist.md",
+    "description": "Get an overview of the steps required to upgrade from one version of Business Central on-premises to the next.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 289
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6298e890b7992d3fc5e9c5da09e97f514dfbd766"
 }

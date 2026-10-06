@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry faq",
+  "title": "Telemetry FAQ (Frequently Asked Questions)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.958Z",
+      "blob": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
+      "words": 990,
+      "forms": 0
     }
   },
   "input_hash": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-faq.md"
-  }
+    "path": "dev-itpro/administration/telemetry-faq.md",
+    "description": "See frequently asked questions we get on telemetry in Business Central",
+    "ms_date": "2024-07-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 990
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "47658d2dabb8ea5dff8b9119bb6e383a3220d512"
 }

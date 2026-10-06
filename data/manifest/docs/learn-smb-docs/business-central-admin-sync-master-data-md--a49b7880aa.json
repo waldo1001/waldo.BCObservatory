@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin sync master data",
+  "title": "Manage master data synchronization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.186Z",
+      "blob": "e0d56bf8ba9de2266d19296e520870966ea39601",
+      "words": 1008,
+      "forms": 6
     }
   },
   "input_hash": "e0d56bf8ba9de2266d19296e520870966ea39601",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-sync-master-data.md"
-  }
+    "path": "business-central/admin-sync-master-data.md",
+    "description": "Learn how to manage master data synchronization.",
+    "ms_date": "2025-02-26",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "7230",
+        "id": 7230,
+        "kind": null
+      },
+      {
+        "raw": "7233",
+        "id": 7233,
+        "kind": null
+      },
+      {
+        "raw": "5338",
+        "id": 5338,
+        "kind": null
+      },
+      {
+        "raw": "7236",
+        "id": 7236,
+        "kind": null
+      },
+      {
+        "raw": "672",
+        "id": 672,
+        "kind": null
+      },
+      {
+        "raw": "7234",
+        "id": 7234,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1008
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0d56bf8ba9de2266d19296e520870966ea39601"
 }

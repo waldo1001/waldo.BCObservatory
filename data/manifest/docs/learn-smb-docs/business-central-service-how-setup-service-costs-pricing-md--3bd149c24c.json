@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how setup service costs pricing",
+  "title": "Set up pricing and costs for services",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-costs-pricing",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.451Z",
+      "blob": "32e0b89b7825eb1c158ed534f288060b5e9aff90",
+      "words": 602,
+      "forms": 0
     }
   },
   "input_hash": "32e0b89b7825eb1c158ed534f288060b5e9aff90",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-setup-service-costs-pricing.md"
-  }
+    "path": "business-central/service-how-setup-service-costs-pricing.md",
+    "description": "Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "service",
+      "cost",
+      "service order"
+    ],
+    "ai_usage": null,
+    "words": 602
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "32e0b89b7825eb1c158ed534f288060b5e9aff90"
 }

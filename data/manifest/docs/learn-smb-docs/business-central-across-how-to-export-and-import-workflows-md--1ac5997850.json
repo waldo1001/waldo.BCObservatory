@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to export and import workflows",
+  "title": "How to export and import approval workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-export-and-import-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.217Z",
+      "blob": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a",
+      "words": 228,
+      "forms": 0
     }
   },
   "input_hash": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-export-and-import-workflows.md"
-  }
+    "path": "business-central/across-how-to-export-and-import-workflows.md",
+    "description": "Export and import workflows to easily transfer them between Business Central databases and streamline the creation of new workflows.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "export approval workflow",
+      "import approval workflow",
+      "export workflow",
+      "import workflow"
+    ],
+    "ai_usage": null,
+    "words": 228
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a"
 }

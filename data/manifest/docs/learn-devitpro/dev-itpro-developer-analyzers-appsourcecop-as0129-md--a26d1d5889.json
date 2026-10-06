@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0129",
+  "title": "AppSourceCop Error AS0129",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0129",
   "published_at": "2025-08-08T11:51:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.371Z",
+      "blob": "2ce7d5baa24c64640411db297342640c9d1251b8",
+      "words": 259,
+      "forms": 0
     }
   },
   "input_hash": "2ce7d5baa24c64640411db297342640c9d1251b8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0129.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0129.md",
+    "description": "An interface must not be added to the list of extended interfaces on an interface that has been published, because dependent extensions may break",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 259
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ce7d5baa24c64640411db297342640c9d1251b8"
 }

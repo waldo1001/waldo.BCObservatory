@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory",
+  "title": "Inventory in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.652Z",
+      "blob": "272a58f9cf94f0f674ed699f58065215d854f714",
+      "words": 40,
+      "forms": 0
     }
   },
   "input_hash": "272a58f9cf94f0f674ed699f58065215d854f714",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/inventory.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/inventory.md",
+    "description": "Additional inventory features are available in the Russian version to support local requirements.",
+    "ms_date": "2025-07-17",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "inventory",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 40
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "272a58f9cf94f0f674ed699f58065215d854f714"
 }

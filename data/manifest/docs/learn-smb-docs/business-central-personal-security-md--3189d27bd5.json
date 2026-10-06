@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "personal security",
+  "title": "Personal Security Best Practices for Business Central Users",
   "url": "https://learn.microsoft.com/dynamics365/business-central/personal-security",
   "published_at": "2025-12-16T14:41:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.761Z",
+      "blob": "35ed4117890e989314c822d753607695262ad2f9",
+      "words": 316,
+      "forms": 0
     }
   },
   "input_hash": "35ed4117890e989314c822d753607695262ad2f9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/personal-security.md"
-  }
+    "path": "business-central/personal-security.md",
+    "description": "Learn essential personal security practices for Business Central users to protect data, prevent phishing, and secure your organization. Start safeguarding today.",
+    "ms_date": "2025-12-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 316
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "35ed4117890e989314c822d753607695262ad2f9"
 }

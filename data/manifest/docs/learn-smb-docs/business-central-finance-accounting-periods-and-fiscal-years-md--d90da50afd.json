@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance accounting periods and fiscal years",
+  "title": "Working with accounting periods and fiscal years",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years",
   "published_at": "2026-01-12T08:48:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.657Z",
+      "blob": "36c6ce016a4de03918eafc0e195877d4ee4389a8",
+      "words": 889,
+      "forms": 1
     }
   },
   "input_hash": "36c6ce016a4de03918eafc0e195877d4ee4389a8",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-accounting-periods-and-fiscal-years.md"
-  }
+    "path": "business-central/finance-accounting-periods-and-fiscal-years.md",
+    "description": "Learn how to work with accounting periods to define when your company reports financial performance.",
+    "ms_date": "2026-01-12",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "100_Primary",
+        "id": 100,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 889
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36c6ce016a4de03918eafc0e195877d4ee4389a8"
 }

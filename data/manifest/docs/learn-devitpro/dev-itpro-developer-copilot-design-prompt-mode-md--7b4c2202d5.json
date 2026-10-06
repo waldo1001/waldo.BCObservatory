@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "copilot design prompt mode",
+  "title": "Design the prompt mode of prompt dialog page",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.850Z",
+      "blob": "cce2f0630852bbe8894519074b1beda670715795",
+      "words": 1178,
+      "forms": 0
     }
   },
   "input_hash": "cce2f0630852bbe8894519074b1beda670715795",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/copilot-design-prompt-mode.md"
-  }
+    "path": "dev-itpro/developer/copilot-design-prompt-mode.md",
+    "description": "Learn how to define the screen of a Copilot prompt dialog page where users can add input that the AI generation logic uses for producing results.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1178
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cce2f0630852bbe8894519074b1beda670715795"
 }

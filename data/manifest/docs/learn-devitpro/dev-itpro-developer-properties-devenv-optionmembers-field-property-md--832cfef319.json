@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv optionmembers field property",
+  "title": "OptionMembers Property for Table Fields",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-optionmembers-field-property",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.943Z",
+      "blob": "0d47b7434d627a2375072d1eda43c51ad82a7706",
+      "words": 73,
+      "forms": 0
     }
   },
   "input_hash": "0d47b7434d627a2375072d1eda43c51ad82a7706",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-optionmembers-field-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-optionmembers-field-property.md",
+    "description": "Learn how the OptionMembers property defines the available values for an Option field in Dynamics 365 Business Central and see an example.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 73
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d47b7434d627a2375072d1eda43c51ad82a7706"
 }

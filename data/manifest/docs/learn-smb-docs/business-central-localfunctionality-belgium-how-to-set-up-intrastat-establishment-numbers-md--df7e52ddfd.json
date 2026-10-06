@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up intrastat establishment numbers",
+  "title": "How to Set Up Intrastat Establishment Numbers [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.987Z",
+      "blob": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
+      "words": 96,
+      "forms": 0
     }
   },
   "input_hash": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md",
+    "description": "Learn how to set up the Intrastat establishment number, a company identification number used in the Intrastat declaration.",
+    "ms_date": "2025-04-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "intrastat establishment number",
+      "establishment number",
+      "company identification number",
+      "intrastat declaration",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 96
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0"
 }

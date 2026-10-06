@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "suppliers",
+  "title": "Usage data suppliers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/suppliers",
   "published_at": "2025-07-11T12:23:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.255Z",
+      "blob": "da5d9eca1e32df71be970e923e44e248b658d960",
+      "words": 405,
+      "forms": 3
     }
   },
   "input_hash": "da5d9eca1e32df71be970e923e44e248b658d960",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/masterdata/suppliers.md"
-  }
+    "path": "business-central/UBB/masterdata/suppliers.md",
+    "description": "You can use suppliers in usage-based billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8044_Primary",
+        "id": 8044,
+        "kind": "Primary"
+      },
+      {
+        "raw": "8041",
+        "id": 8041,
+        "kind": null
+      },
+      {
+        "raw": "8038",
+        "id": 8038,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 405
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da5d9eca1e32df71be970e923e44e248b658d960"
 }

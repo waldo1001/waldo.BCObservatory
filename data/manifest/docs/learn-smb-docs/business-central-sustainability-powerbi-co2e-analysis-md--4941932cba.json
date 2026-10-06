@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sustainability powerbi co2e analysis",
+  "title": "CO2e Analysis",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.881Z",
+      "blob": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
+      "words": 237,
+      "forms": 0
     }
   },
   "input_hash": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sustainability-powerbi-co2e-analysis.md"
-  }
+    "path": "business-central/sustainability-powerbi-co2e-analysis.md",
+    "description": "The CO2e Analysis report provides detailed insight into your CO2e emissions and how you're purchasing carbon credit.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 237
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6c510ff15269af5c5afef95f126ada8fd1cd139"
 }

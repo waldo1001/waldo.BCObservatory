@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 709",
+  "title": "Inventory Purchase Orders (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-709",
   "published_at": "2026-03-12T01:10:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.843Z",
+      "blob": "9a76f8e7eea9452e449016e94ff84af1783c951f",
+      "words": 417,
+      "forms": 1
     }
   },
   "input_hash": "9a76f8e7eea9452e449016e94ff84af1783c951f",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-709.md"
-  }
+    "path": "business-central/reports/report-709.md",
+    "description": "Analyze your outstanding purchase orders to understand your expected purchase volume by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.",
+    "ms_date": "2024-10-14",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_709_Primary",
+        "id": 709,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 417
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9a76f8e7eea9452e449016e94ff84af1783c951f"
 }

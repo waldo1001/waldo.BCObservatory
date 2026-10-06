@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to pick items with inventory picks",
+  "title": "How to pick items with inventory picks",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.469Z",
+      "blob": "9e13da78d2385970b59bfa32f61615c3946f9169",
+      "words": 1329,
+      "forms": 0
     }
   },
   "input_hash": "9e13da78d2385970b59bfa32f61615c3946f9169",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-pick-items-with-inventory-picks.md"
-  }
+    "path": "business-central/warehouse-how-to-pick-items-with-inventory-picks.md",
+    "description": "Learn how to use inventory picks to record and post picking and shipping info for source documents.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1329
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e13da78d2385970b59bfa32f61615c3946f9169"
 }

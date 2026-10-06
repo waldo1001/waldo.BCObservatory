@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0024",
+  "title": "AppSourceCop Error AS0024",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0024",
   "published_at": "2026-06-02T11:42:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.268Z",
+      "blob": "fe834029281e29f60f9f70c846f79df070e34aef",
+      "words": 341,
+      "forms": 0
     }
   },
   "input_hash": "fe834029281e29f60f9f70c846f79df070e34aef",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0024.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0024.md",
+    "description": "Parameters cannot be removed or added in external procedures, because it will break dependent extensions.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 341
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe834029281e29f60f9f70c846f79df070e34aef"
 }

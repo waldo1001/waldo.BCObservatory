@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create templates for telematic vat statements in xml file format",
+  "title": "Create templates for telematic VAT statements in XML format (ES)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format",
   "published_at": "2025-06-04T07:37:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.613Z",
+      "blob": "7c85a24da788f17ec5377c3f493cd16fa3d8df72",
+      "words": 341,
+      "forms": 1
     }
   },
   "input_hash": "7c85a24da788f17ec5377c3f493cd16fa3d8df72",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md",
+    "description": "Learn how to create templates for telematic VAT statements in XML format in the Spanish version of Business Central to enable electronic submission.",
+    "ms_date": "2025-05-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10710",
+        "id": 10710,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT statement template",
+      "telematic VAT statement",
+      "XML file format",
+      "electronic submission",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 341
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7c85a24da788f17ec5377c3f493cd16fa3d8df72"
 }

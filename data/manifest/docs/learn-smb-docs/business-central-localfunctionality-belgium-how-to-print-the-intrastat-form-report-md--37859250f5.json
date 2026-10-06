@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print the intrastat form report",
+  "title": "How to Print the Intrastat Form Report [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.953Z",
+      "blob": "cdaab6efe6132282fc5e6620bdf4f4bb4e48d340",
+      "words": 245,
+      "forms": 0
     }
   },
   "input_hash": "cdaab6efe6132282fc5e6620bdf4f4bb4e48d340",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md",
+    "description": "The Intrastat Form report is used in Belgium for monthly reporting of goods movement. This report must be sent to both the statistics authorities and tax authorities.",
+    "ms_date": "2025-04-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "intrastat form report",
+      "intrastat report",
+      "intrastat declaration",
+      "statistics authorities",
+      "tax authorities",
+      "monthly reporting",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 245
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cdaab6efe6132282fc5e6620bdf4f4bb4e48d340"
 }

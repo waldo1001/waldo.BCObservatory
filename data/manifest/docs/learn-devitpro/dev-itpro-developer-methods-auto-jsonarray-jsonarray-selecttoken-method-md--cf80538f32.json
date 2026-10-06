@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonarray selecttoken method",
+  "title": "JsonArray.SelectToken(Text, var JsonToken) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-selecttoken-method",
   "published_at": "2026-06-02T11:42:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.166Z",
+      "blob": "c659dbbec1f7ad285b86ed40bdde28c563aff245",
+      "words": 229,
+      "forms": 0
     }
   },
   "input_hash": "c659dbbec1f7ad285b86ed40bdde28c563aff245",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-selecttoken-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-selecttoken-method.md",
+    "description": "Selects a JsonToken using a JPath expression.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 229
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c659dbbec1f7ad285b86ed40bdde28c563aff245"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across powerbi business central apps",
+  "title": "Use the Business Central apps in Power BI",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.766Z",
+      "blob": "973a01c398d9751a77e189815137b2f5d8f7ff09",
+      "words": 1377,
+      "forms": 1
     }
   },
   "input_hash": "973a01c398d9751a77e189815137b2f5d8f7ff09",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-powerbi-business-central-apps.md"
-  }
+    "path": "business-central/across-powerbi-business-central-apps.md",
+    "description": "Easily gain insights, business intelligence, and KPIs from your Business Central data using the Business Central apps for Power BI.",
+    "ms_date": "2025-10-17",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "36951",
+        "id": 36951,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "account schedule",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1377
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "973a01c398d9751a77e189815137b2f5d8f7ff09"
 }

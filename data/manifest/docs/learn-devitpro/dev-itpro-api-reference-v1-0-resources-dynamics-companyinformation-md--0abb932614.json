@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics companyinformation",
+  "title": "(v1.0) companyInformation resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/resources/dynamics_companyinformation",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.307Z",
+      "blob": "6c0b3fcda693df5fe2b92f48410b0a173568231f",
+      "words": 175,
+      "forms": 0
     }
   },
   "input_hash": "6c0b3fcda693df5fe2b92f48410b0a173568231f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/resources/dynamics_companyinformation.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/resources/dynamics_companyinformation.md",
+    "description": "(v1.0) Company information in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 175
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6c0b3fcda693df5fe2b92f48410b0a173568231f"
 }

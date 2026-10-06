@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 155",
+  "title": "Statement of Cashflows (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-155",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.173Z",
+      "blob": "a45c0b75900a6d6d33fc47928d55f658acde4893",
+      "words": 92,
+      "forms": 1
     }
   },
   "input_hash": "a45c0b75900a6d6d33fc47928d55f658acde4893",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-155.md"
-  }
+    "path": "business-central/reports/report-155.md",
+    "description": "Get an Statement of Cashflows that shows an overview of operating activities, investment activities, and finance activities.",
+    "ms_date": "2025-06-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_155_Primary",
+        "id": 155,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 92
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a45c0b75900a6d6d33fc47928d55f658acde4893"
 }

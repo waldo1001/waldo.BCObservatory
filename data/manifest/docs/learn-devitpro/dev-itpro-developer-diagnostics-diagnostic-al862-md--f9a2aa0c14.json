@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al862",
+  "title": "Compiler Error AL0862",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al862",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.164Z",
+      "blob": "536be7413b346275efbd907ca5063043ca3c486c",
+      "words": 48,
+      "forms": 0
     }
   },
   "input_hash": "536be7413b346275efbd907ca5063043ca3c486c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al862.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al862.md",
+    "description": "There are multiple resources with the name {0}.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 48
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "536be7413b346275efbd907ca5063043ca3c486c"
 }

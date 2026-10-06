@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv query links joins",
+  "title": "Data Item Links",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-links-joins",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.462Z",
+      "blob": "a39b0adc39cb3f6dc42e10dac753f21a256b54af",
+      "words": 3269,
+      "forms": 0
     }
   },
   "input_hash": "a39b0adc39cb3f6dc42e10dac753f21a256b54af",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-query-links-joins.md"
-  }
+    "path": "dev-itpro/developer/devenv-query-links-joins.md",
+    "description": "Using queries, retrieve records from one or more tables and combine the records into rows in a single dataset.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3269
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a39b0adc39cb3f6dc42e10dac753f21a256b54af"
 }

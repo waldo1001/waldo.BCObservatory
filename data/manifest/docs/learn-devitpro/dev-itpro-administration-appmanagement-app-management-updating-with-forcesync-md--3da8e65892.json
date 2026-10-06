@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "app management updating with forcesync",
+  "title": "Updating an App Version by Using ForceSync",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-updating-with-forcesync",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.662Z",
+      "blob": "81b2793d051f05d6ea0fd0ef2791163146d413be",
+      "words": 366,
+      "forms": 0
     }
   },
   "input_hash": "81b2793d051f05d6ea0fd0ef2791163146d413be",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/appmanagement/app-management-updating-with-forcesync.md"
-  }
+    "path": "dev-itpro/administration/appmanagement/app-management-updating-with-forcesync.md",
+    "description": "Learn how to synchronize a new app version that includes breaking changes.",
+    "ms_date": "2021-06-10",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 366
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81b2793d051f05d6ea0fd0ef2791163146d413be"
 }

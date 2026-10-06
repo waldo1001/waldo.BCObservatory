@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Sale to Registered Customer Overseas POS",
+  "title": "Sale of Services to Overseas Place of Supply to registered customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.037Z",
+      "blob": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
+      "words": 246,
+      "forms": 0
     }
   },
   "input_hash": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md",
+    "description": "Explains how to process sales of services to registered customers when the place of supply is overseas, under GST regulations in India.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "sale of services",
+      "overseas place of supply"
+    ],
+    "ai_usage": null,
+    "words": 246
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9"
 }

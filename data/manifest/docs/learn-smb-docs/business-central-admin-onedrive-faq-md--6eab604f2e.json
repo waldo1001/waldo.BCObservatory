@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin onedrive faq",
+  "title": "OneDrive in Business Central FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-faq",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.575Z",
+      "blob": "0583ef1a4c888c30e4311a27c391635eb6da42cc",
+      "words": 1088,
+      "forms": 0
     }
   },
   "input_hash": "0583ef1a4c888c30e4311a27c391635eb6da42cc",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-onedrive-faq.md"
-  }
+    "path": "business-central/admin-onedrive-faq.md",
+    "description": "Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.",
+    "ms_date": "2025-01-28",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "OneDrive",
+      "integration",
+      "share",
+      "browser"
+    ],
+    "ai_usage": null,
+    "words": 1088
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0583ef1a4c888c30e4311a27c391635eb6da42cc"
 }

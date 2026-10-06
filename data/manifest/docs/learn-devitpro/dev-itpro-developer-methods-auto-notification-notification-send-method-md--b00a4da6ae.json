@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "notification send method",
+  "title": "Notification.Send() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/notification/notification-send-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.519Z",
+      "blob": "9b96649251760cb8e5d41db6d4fddc222b20a2a8",
+      "words": 150,
+      "forms": 0
     }
   },
   "input_hash": "9b96649251760cb8e5d41db6d4fddc222b20a2a8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/notification/notification-send-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/notification/notification-send-method.md",
+    "description": "Sends the notification to the client, where it will display in the UI.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b96649251760cb8e5d41db6d4fddc222b20a2a8"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv embed web client pages in websites",
+  "title": "Embed the Web Client Pages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-embed-web-client-pages-in-websites",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.044Z",
+      "blob": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805",
+      "words": 1230,
+      "forms": 0
     }
   },
   "input_hash": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-embed-web-client-pages-in-websites.md"
-  }
+    "path": "dev-itpro/developer/devenv-embed-web-client-pages-in-websites.md",
+    "description": "Deploy the Web client as an independent website in an internal company portal containing data from Business Central including document handling, newsfeed etc.",
+    "ms_date": "2023-01-10",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1230
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805"
 }

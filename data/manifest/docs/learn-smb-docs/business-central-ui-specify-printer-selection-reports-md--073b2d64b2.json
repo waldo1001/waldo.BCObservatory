@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui specify printer selection reports",
+  "title": "Specify a Default Printer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.042Z",
+      "blob": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03",
+      "words": 768,
+      "forms": 6
     }
   },
   "input_hash": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03",
@@ -18,6 +24,52 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-specify-printer-selection-reports.md"
-  }
+    "path": "business-central/ui-specify-printer-selection-reports.md",
+    "description": "Learn about the different ways to set up printers to be used by default for print jobs.",
+    "ms_date": "2024-11-05",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "2650",
+        "id": 2650,
+        "kind": null
+      },
+      {
+        "raw": "2750",
+        "id": 2750,
+        "kind": null
+      },
+      {
+        "raw": "2752",
+        "id": 2752,
+        "kind": null
+      },
+      {
+        "raw": "2753",
+        "id": 2753,
+        "kind": null
+      },
+      {
+        "raw": "2754",
+        "id": 2754,
+        "kind": null
+      },
+      {
+        "raw": "8900",
+        "id": 8900,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "online printing",
+      "email printing",
+      "cloud printing",
+      "Universal Print"
+    ],
+    "ai_usage": null,
+    "words": 768
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03"
 }

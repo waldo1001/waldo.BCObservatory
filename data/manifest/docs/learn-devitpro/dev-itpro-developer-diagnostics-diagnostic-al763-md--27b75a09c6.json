@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al763",
+  "title": "Compiler Error AL0763",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al763",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.181Z",
+      "blob": "eb1992fbb7441e4c3ff0cbf63767760769ccb453",
+      "words": 55,
+      "forms": 0
     }
   },
   "input_hash": "eb1992fbb7441e4c3ff0cbf63767760769ccb453",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al763.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al763.md",
+    "description": "{0} can contain only underscores and alphanumeric characters.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 55
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb1992fbb7441e4c3ff0cbf63767760769ccb453"
 }

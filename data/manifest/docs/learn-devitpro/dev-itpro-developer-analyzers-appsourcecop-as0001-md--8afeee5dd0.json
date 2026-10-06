@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0001",
+  "title": "AppSourceCop Error AS0001",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0001",
   "published_at": "2025-03-25T12:55:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.099Z",
+      "blob": "1384fe0e60010496d21810ac1164c6ee8ce07d7e",
+      "words": 331,
+      "forms": 0
     }
   },
   "input_hash": "1384fe0e60010496d21810ac1164c6ee8ce07d7e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0001.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0001.md",
+    "description": "Tables and table extensions that have been published must not be deleted.",
+    "ms_date": "2025-03-25",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 331
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1384fe0e60010496d21810ac1164c6ee8ce07d7e"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onbeforerenameevent table trigger",
+  "title": "OnBeforeRenameEvent (Table) trigger event",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/events/table/devenv-onbeforerenameevent-table-trigger",
   "published_at": "2024-08-27T10:52:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.933Z",
+      "blob": "13445b55720fafd44033b9a4b7b0991c78f5e6bb",
+      "words": 115,
+      "forms": 0
     }
   },
   "input_hash": "13445b55720fafd44033b9a4b7b0991c78f5e6bb",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/events/table/devenv-onbeforerenameevent-table-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/events/table/devenv-onbeforerenameevent-table-trigger.md",
+    "description": "Executed before a record is renamed in a table.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 115
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13445b55720fafd44033b9a4b7b0991c78f5e6bb"
 }

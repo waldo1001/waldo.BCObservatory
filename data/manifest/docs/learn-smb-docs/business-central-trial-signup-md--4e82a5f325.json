@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "trial signup",
+  "title": "Sign up for a free trial",
   "url": "https://learn.microsoft.com/dynamics365/business-central/trial-signup",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.429Z",
+      "blob": "e8069f6679aefad7fbd9a6931059a21c3a6c4442",
+      "words": 583,
+      "forms": 0
     }
   },
   "input_hash": "e8069f6679aefad7fbd9a6931059a21c3a6c4442",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/trial-signup.md"
-  }
+    "path": "business-central/trial-signup.md",
+    "description": "Learn how to quickly sign up for and start a free Dynamics 365 Business Central trial. Explore the app with tours and videos, and find more learning resources.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 583
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e8069f6679aefad7fbd9a6931059a21c3a6c4442"
 }

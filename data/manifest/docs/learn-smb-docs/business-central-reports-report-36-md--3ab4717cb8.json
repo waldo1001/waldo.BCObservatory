@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 36",
+  "title": "Fiscal Year Balance (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-36",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.293Z",
+      "blob": "de3baaac23ae5b1c491825954ad4968a8eda1a80",
+      "words": 173,
+      "forms": 1
     }
   },
   "input_hash": "de3baaac23ae5b1c491825954ad4968a8eda1a80",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-36.md"
-  }
+    "path": "business-central/reports/report-36.md",
+    "description": "Review opening and closing balances for each general ledger account within a selected fiscal year. Use this report to support fiscal year-end closing, reconciliation, and trend analysis.",
+    "ms_date": "2025-06-21",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_36_Primary",
+        "id": 36,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting",
+      "fiscal year",
+      "general ledger",
+      "reconciliation"
+    ],
+    "ai_usage": null,
+    "words": 173
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "de3baaac23ae5b1c491825954ad4968a8eda1a80"
 }

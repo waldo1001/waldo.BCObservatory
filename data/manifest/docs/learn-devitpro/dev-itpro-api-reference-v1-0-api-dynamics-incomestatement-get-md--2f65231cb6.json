@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics incomestatement get",
+  "title": "(v1.0) Get incomeStatement",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_incomestatement_get",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.793Z",
+      "blob": "814cc0c4f8e0caebcb1520953eb4eb452664a599",
+      "words": 120,
+      "forms": 0
     }
   },
   "input_hash": "814cc0c4f8e0caebcb1520953eb4eb452664a599",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/api/dynamics_incomestatement_get.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/api/dynamics_incomestatement_get.md",
+    "description": "(v1.0) Gets an income statement object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "814cc0c4f8e0caebcb1520953eb4eb452664a599"
 }

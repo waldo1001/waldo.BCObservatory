@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "proportional vat",
+  "title": "Proportional VAT [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.153Z",
+      "blob": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
+      "words": 332,
+      "forms": 4
     }
   },
   "input_hash": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/proportional-vat.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/proportional-vat.md",
+    "description": "Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.",
+    "ms_date": "2025-05-15",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "10602",
+        "id": 10602,
+        "kind": null
+      },
+      {
+        "raw": "10697",
+        "id": 10697,
+        "kind": null
+      },
+      {
+        "raw": "10698",
+        "id": 10698,
+        "kind": null
+      },
+      {
+        "raw": "10604",
+        "id": 10604,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT calculation",
+      "deductible VAT",
+      "non-deductible VAT",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 332
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f1308bb4b5c718fe5478c9912daa17bbce61b72f"
 }

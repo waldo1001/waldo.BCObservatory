@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "faqs sales order taker agent",
+  "title": "FAQ for Sales Order Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.396Z",
+      "blob": "519193a9a2d749db3dcfa98b444f7d8326a313cf",
+      "words": 2135,
+      "forms": 0
     }
   },
   "input_hash": "519193a9a2d749db3dcfa98b444f7d8326a313cf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/faqs-sales-order-taker-agent.md"
-  }
+    "path": "business-central/faqs-sales-order-taker-agent.md",
+    "description": "This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2135
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "519193a9a2d749db3dcfa98b444f7d8326a313cf"
 }

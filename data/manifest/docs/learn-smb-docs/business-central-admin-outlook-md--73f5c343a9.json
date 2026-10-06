@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin outlook",
+  "title": "Get the Business Central Add-in for Outlook",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook",
   "published_at": "2026-03-16T11:16:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.753Z",
+      "blob": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a",
+      "words": 1161,
+      "forms": 2
     }
   },
   "input_hash": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-outlook.md"
-  }
+    "path": "business-central/admin-outlook.md",
+    "description": "Learn how to install the Business Central add-in for Outlook for your organization or for your own use.",
+    "ms_date": "2026-03-10",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1831",
+        "id": 1831,
+        "kind": null
+      },
+      {
+        "raw": "1832",
+        "id": 1832,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "SMTP",
+      "mail",
+      "Microsoft 365",
+      "Outlook"
+    ],
+    "ai_usage": null,
+    "words": 1161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a"
 }

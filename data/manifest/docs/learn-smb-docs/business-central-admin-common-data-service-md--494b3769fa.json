@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin common data service",
+  "title": "Integrate with Microsoft Dataverse via data sync",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.330Z",
+      "blob": "0388f94b412d04508fb756147231169b2907ea18",
+      "words": 1006,
+      "forms": 1
     }
   },
   "input_hash": "0388f94b412d04508fb756147231169b2907ea18",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-common-data-service.md"
-  }
+    "path": "business-central/admin-common-data-service.md",
+    "description": "Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7214_Primary",
+        "id": 7214,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1006
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0388f94b412d04508fb756147231169b2907ea18"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv using namespaces with xmlports",
+  "title": "Use Namespaces with XMLports in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-namespaces-with-xmlports",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.112Z",
+      "blob": "435d6c1ae8805390973b15cc393b5a1faa995b8e",
+      "words": 358,
+      "forms": 0
     }
   },
   "input_hash": "435d6c1ae8805390973b15cc393b5a1faa995b8e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-using-namespaces-with-xmlports.md"
-  }
+    "path": "dev-itpro/developer/devenv-using-namespaces-with-xmlports.md",
+    "description": "Learn how to declare namespaces on an XMLport in Business Central and apply namespace prefixes to text, table, and field elements in the XML schema.",
+    "ms_date": "2026-08-24",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 358
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "435d6c1ae8805390973b15cc393b5a1faa995b8e"
 }

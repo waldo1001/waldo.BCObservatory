@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "walkthrough setting up and invoicing sales prepayments",
+  "title": "Set up and invoicing sales prepayments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments",
   "published_at": "2026-06-20T02:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.205Z",
+      "blob": "9f96aecd10b52d93549763bbdb4633d7eaad2650",
+      "words": 1888,
+      "forms": 0
     }
   },
   "input_hash": "9f96aecd10b52d93549763bbdb4633d7eaad2650",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/walkthrough-setting-up-and-invoicing-sales-prepayments.md"
-  }
+    "path": "business-central/walkthrough-setting-up-and-invoicing-sales-prepayments.md",
+    "description": "Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.",
+    "ms_date": "2024-01-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1888
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9f96aecd10b52d93549763bbdb4633d7eaad2650"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry extension update trace",
+  "title": "Extension Update Trace Telemetry | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.953Z",
+      "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
+      "words": 906,
+      "forms": 0
     }
   },
   "input_hash": "7f22208631103e3d8274d742e48410409f2ce58a",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-extension-update-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-extension-update-trace.md",
+    "description": "Learn about the extension upgrade telemetry in Business Central",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 906
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f22208631103e3d8274d742e48410409f2ce58a"
 }

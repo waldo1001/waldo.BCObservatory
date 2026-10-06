@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "subscription powerbi customer deferrals",
+  "title": "Customer Deferrals (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-customer-deferrals",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.757Z",
+      "blob": "84c8457a5992b80d573de6cbb53df68f42f7ffbf",
+      "words": 275,
+      "forms": 0
     }
   },
   "input_hash": "84c8457a5992b80d573de6cbb53df68f42f7ffbf",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/analytics/subscription-powerbi-customer-deferrals.md"
-  }
+    "path": "business-central/SRB/analytics/subscription-powerbi-customer-deferrals.md",
+    "description": "The Customer Deferrals report details deferred revenue by customer and schedule.",
+    "ms_date": "2026-05-12",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 275
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84c8457a5992b80d573de6cbb53df68f42f7ffbf"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv obsolete objects",
+  "title": "Obsolete objects, methods, and symbols in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-obsolete-objects",
   "published_at": "2025-08-25T09:19:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.493Z",
+      "blob": "dbfcc9e6a04d92c480559749a63ca7572cc32db7",
+      "words": 918,
+      "forms": 0
     }
   },
   "input_hash": "dbfcc9e6a04d92c480559749a63ca7572cc32db7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-obsolete-objects.md"
-  }
+    "path": "dev-itpro/developer/devenv-obsolete-objects.md",
+    "description": "Description of how you use the obsoletion properties and attributes to obsolete an object, a method, or other symbols used in AL for Business Central.",
+    "ms_date": "2025-08-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 918
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dbfcc9e6a04d92c480559749a63ca7572cc32db7"
 }

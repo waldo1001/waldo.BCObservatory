@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to close open item ledger entries resulting from fixed application in the item journal",
+  "title": "Close item ledger entries that came from using fixed application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.654Z",
+      "blob": "59f7703b14a4b52c65fe5def6d75fd32bc521c35",
+      "words": 340,
+      "forms": 1
     }
   },
   "input_hash": "59f7703b14a4b52c65fe5def6d75fd32bc521c35",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md"
-  }
+    "path": "business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md",
+    "description": "Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.",
+    "ms_date": "2024-07-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "40",
+        "id": 40,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 340
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59f7703b14a4b52c65fe5def6d75fd32bc521c35"
 }

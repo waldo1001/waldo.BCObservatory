@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Purchase from Foreign Vendor",
+  "title": "Import from Foreign Vendor",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.975Z",
+      "blob": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
+      "words": 733,
+      "forms": 0
     }
   },
   "input_hash": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md",
+    "description": "Learn how to process imports from foreign vendors in India, including GST and reverse charge procedures for goods and services.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "foreign vendor import"
+    ],
+    "ai_usage": null,
+    "words": 733
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9076f2c66584036d1fe3d8d93487a39f8ac8119e"
 }

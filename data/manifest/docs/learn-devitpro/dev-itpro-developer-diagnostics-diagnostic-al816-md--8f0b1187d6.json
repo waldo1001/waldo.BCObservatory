@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al816",
+  "title": "Compiler Warning (future error) AL0816",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al816",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.065Z",
+      "blob": "1d0fcd2f11f2c70bca5fd1638d52444c94d38412",
+      "words": 70,
+      "forms": 0
     }
   },
   "input_hash": "1d0fcd2f11f2c70bca5fd1638d52444c94d38412",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al816.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al816.md",
+    "description": "The property '{0}' cannot be set if the property '{1}' is set to '{2}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 70
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d0fcd2f11f2c70bca5fd1638d52444c94d38412"
 }

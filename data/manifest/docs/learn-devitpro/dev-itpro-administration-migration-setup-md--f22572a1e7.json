@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migration setup",
+  "title": "Run Cloud Migration Setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.927Z",
+      "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
+      "words": 1202,
+      "forms": 0
     }
   },
   "input_hash": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migration-setup.md"
-  }
+    "path": "dev-itpro/administration/migration-setup.md",
+    "description": "This article explains how to run the Cloud Migration Setup assisted setup guide to configure the components and connection for migrating data from a Business Central on-premises database to Business Central online environment.",
+    "ms_date": "2024-03-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1202
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2"
 }

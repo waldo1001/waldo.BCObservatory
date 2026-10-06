@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics cloudmigrationstatusdetail",
+  "title": "(cloudMigration API) cloudMigrationStatusDetail resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/resources/dynamics_cloudmigrationstatusdetail",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.515Z",
+      "blob": "9dc25245c10f2e99538a2eb42826de84e0134069",
+      "words": 258,
+      "forms": 0
     }
   },
   "input_hash": "9dc25245c10f2e99538a2eb42826de84e0134069",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_cloudmigrationstatusdetail.md"
-  }
+    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_cloudmigrationstatusdetail.md",
+    "description": "A cloud migration status detail object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 258
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9dc25245c10f2e99538a2eb42826de84e0134069"
 }

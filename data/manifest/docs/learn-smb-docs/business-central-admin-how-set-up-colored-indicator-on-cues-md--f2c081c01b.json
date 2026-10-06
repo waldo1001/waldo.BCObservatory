@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin how set up colored indicator on cues",
+  "title": "Set up your customized colored indicators for a Cue's activity",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.516Z",
+      "blob": "6988768e59718beeff583ed2f86a4a091463b5b2",
+      "words": 692,
+      "forms": 2
     }
   },
   "input_hash": "6988768e59718beeff583ed2f86a4a091463b5b2",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-how-set-up-colored-indicator-on-cues.md"
-  }
+    "path": "business-central/admin-how-set-up-colored-indicator-on-cues.md",
+    "description": "As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9701",
+        "id": 9701,
+        "kind": null
+      },
+      {
+        "raw": "9702",
+        "id": 9702,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 692
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6988768e59718beeff583ed2f86a4a091463b5b2"
 }

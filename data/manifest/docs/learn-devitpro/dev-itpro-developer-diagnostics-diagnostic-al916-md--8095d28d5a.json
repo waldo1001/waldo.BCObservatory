@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al916",
+  "title": "Compiler Warning AL0916",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al916",
   "published_at": "2026-04-21T08:20:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.142Z",
+      "blob": "d5bac1a49e7fcc04c9a61b29993039e775f4bbff",
+      "words": 110,
+      "forms": 0
     }
   },
   "input_hash": "d5bac1a49e7fcc04c9a61b29993039e775f4bbff",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al916.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al916.md",
+    "description": "The call is ambiguous between the built-in methods '{0}' and '{1}'.",
+    "ms_date": "2026-04-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 110
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5bac1a49e7fcc04c9a61b29993039e775f4bbff"
 }

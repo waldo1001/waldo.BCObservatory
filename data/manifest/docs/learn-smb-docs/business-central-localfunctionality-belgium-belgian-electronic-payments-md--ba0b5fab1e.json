@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "belgian electronic payments",
+  "title": "Belgian electronic payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.872Z",
+      "blob": "da74b5fe7c15a7cd59f4b3122a8668fcc296413a",
+      "words": 794,
+      "forms": 1
     }
   },
   "input_hash": "da74b5fe7c15a7cd59f4b3122a8668fcc296413a",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/belgian-electronic-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/belgian-electronic-payments.md",
+    "description": "The electronic banking module in the Belgian version of Business Central enables users to process domestic, international, SEPA, and non-Euro SEPA electronic payments.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "2000006",
+        "id": 2000006,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic banking",
+      "Belgian version",
+      "electronic payments",
+      "SEPA",
+      "non-Euro SEPA",
+      "domestic payments",
+      "international payments"
+    ],
+    "ai_usage": null,
+    "words": 794
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da74b5fe7c15a7cd59f4b3122a8668fcc296413a"
 }

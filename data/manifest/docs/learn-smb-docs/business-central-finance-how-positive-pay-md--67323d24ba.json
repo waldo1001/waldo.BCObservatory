@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how positive pay",
+  "title": "Export positive pay files",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.648Z",
+      "blob": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2",
+      "words": 425,
+      "forms": 4
     }
   },
   "input_hash": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2",
@@ -18,6 +24,40 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-positive-pay.md"
-  }
+    "path": "business-central/finance-how-positive-pay.md",
+    "description": "You can ensure your bank only clears validated checks and amounts by exporting a positive pay file that contains vendor and payment information.",
+    "ms_date": "2024-12-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1231",
+        "id": 1231,
+        "kind": null
+      },
+      {
+        "raw": "1232",
+        "id": 1232,
+        "kind": null
+      },
+      {
+        "raw": "1233",
+        "id": 1233,
+        "kind": null
+      },
+      {
+        "raw": "1234",
+        "id": 1234,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "check",
+      "clearing"
+    ],
+    "ai_usage": null,
+    "words": 425
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a66ad84fb3bbde49e60cbb52e8b6752a7c1874c2"
 }

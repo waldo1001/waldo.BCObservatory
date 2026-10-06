@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "optimize sql data access",
+  "title": "Data Access",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-data-access",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.715Z",
+      "blob": "9448a60574066183bc6d546a52428abc17018987",
+      "words": 964,
+      "forms": 0
     }
   },
   "input_hash": "9448a60574066183bc6d546a52428abc17018987",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/optimize-sql-data-access.md"
-  }
+    "path": "dev-itpro/administration/optimize-sql-data-access.md",
+    "description": "Learn how to improve data access performance in Business Central.",
+    "ms_date": "2022-03-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "data access",
+      "sql",
+      "partitioning",
+      "constraints"
+    ],
+    "ai_usage": null,
+    "words": 964
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9448a60574066183bc6d546a52428abc17018987"
 }

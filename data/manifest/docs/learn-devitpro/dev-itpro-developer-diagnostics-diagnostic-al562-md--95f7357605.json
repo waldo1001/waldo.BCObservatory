@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al562",
+  "title": "Compiler Warning (future error) AL0562",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al562",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.825Z",
+      "blob": "df31e69fe8bd8df633f2e6c9bb3efeaf16f75f23",
+      "words": 71,
+      "forms": 0
     }
   },
   "input_hash": "df31e69fe8bd8df633f2e6c9bb3efeaf16f75f23",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al562.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al562.md",
+    "description": "The value assigned to the SystemPart type is not valid.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 71
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df31e69fe8bd8df633f2e6c9bb3efeaf16f75f23"
 }

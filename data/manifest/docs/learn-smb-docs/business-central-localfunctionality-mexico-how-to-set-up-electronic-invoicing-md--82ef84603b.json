@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up electronic invoicing",
+  "title": "Set Up Electronic Invoicing [MX]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.503Z",
+      "blob": "3d1e2d598454cd35034793f3e7ba8ab89be6562c",
+      "words": 2000,
+      "forms": 0
     }
   },
   "input_hash": "3d1e2d598454cd35034793f3e7ba8ab89be6562c",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md"
-  }
+    "path": "business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md",
+    "description": "To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.",
+    "ms_date": "2025-05-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "identification numbers",
+      "CFDI"
+    ],
+    "ai_usage": null,
+    "words": 2000
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d1e2d598454cd35034793f3e7ba8ab89be6562c"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics user",
+  "title": "user resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_user",
   "published_at": "2024-10-23T07:22:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.609Z",
+      "blob": "ea5f856d682c7ebe1701655353859e48dc61a7d2",
+      "words": 231,
+      "forms": 0
     }
   },
   "input_hash": "ea5f856d682c7ebe1701655353859e48dc61a7d2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_user.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_user.md",
+    "description": "A user object in Dynamics 365 Business Central.",
+    "ms_date": "2024-09-02",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 231
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea5f856d682c7ebe1701655353859e48dc61a7d2"
 }

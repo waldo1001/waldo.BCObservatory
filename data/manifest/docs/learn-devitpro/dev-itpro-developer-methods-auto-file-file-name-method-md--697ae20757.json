@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "file name method",
+  "title": "File.Name() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-name-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.943Z",
+      "blob": "fcc67e7d70ddb001c6bcc1f882d4085223e80b1f",
+      "words": 180,
+      "forms": 0
     }
   },
   "input_hash": "fcc67e7d70ddb001c6bcc1f882d4085223e80b1f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/file/file-name-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/file/file-name-method.md",
+    "description": "Gets the name of an ASCII or binary file.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 180
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fcc67e7d70ddb001c6bcc1f882d4085223e80b1f"
 }

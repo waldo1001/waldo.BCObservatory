@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to post a negative entry",
+  "title": "How to post a negative entry [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.399Z",
+      "blob": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
+      "words": 174,
+      "forms": 0
     }
   },
   "input_hash": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry.md",
+    "description": "Use the Correction field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account to meet legal requirements.",
+    "ms_date": "2025-03-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "correction field",
+      "post negative debit",
+      "post negative credit",
+      "German version",
+      "negative entry"
+    ],
+    "ai_usage": null,
+    "words": 174
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8"
 }

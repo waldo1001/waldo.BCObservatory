@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "advances",
+  "title": "Advance Payments and Invoices [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advances",
   "published_at": "2025-06-18T08:05:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.210Z",
+      "blob": "4b79cece0d4150705cbbc00bb22583ec074950c6",
+      "words": 868,
+      "forms": 0
     }
   },
   "input_hash": "4b79cece0d4150705cbbc00bb22583ec074950c6",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/advances.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/advances.md",
+    "description": "Learn about Czech-specific functionality for advance payments and invoices, including document types, VAT handling, and process workflows.",
+    "ms_date": "2025-06-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Advance payment",
+      "Advance invoices",
+      "Payables",
+      "Finance",
+      "CZ",
+      "Cash",
+      "tax documents",
+      "tax credit memo",
+      "life cycle",
+      "deduction of advance",
+      "linking tool",
+      "factboxes",
+      "internal documents",
+      "output documents printout",
+      "Czech local functionality",
+      "Czech version"
+    ],
+    "ai_usage": null,
+    "words": 868
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b79cece0d4150705cbbc00bb22583ec074950c6"
 }

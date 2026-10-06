@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "calculating distribution amounts",
+  "title": "Calculating Distribution Amounts [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.710Z",
+      "blob": "953b4049f20d6e6c96783aa17997e05b21873798",
+      "words": 17,
+      "forms": 1
     }
   },
   "input_hash": "953b4049f20d6e6c96783aa17997e05b21873798",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/calculating-distribution-amounts.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/calculating-distribution-amounts.md",
+    "description": "In the Australian version, you can reallocate amounts between general ledger accounts to keep account balances proportionate.",
+    "ms_date": "2025-03-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "17101",
+        "id": 17101,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Australian version",
+      "reallocate amounts",
+      "account balances proportionate",
+      "calculating distribution amounts"
+    ],
+    "ai_usage": null,
+    "words": 17
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "953b4049f20d6e6c96783aa17997e05b21873798"
 }

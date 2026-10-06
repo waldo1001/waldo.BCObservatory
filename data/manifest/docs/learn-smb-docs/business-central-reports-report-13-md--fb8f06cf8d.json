@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 13",
+  "title": "VAT Register (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-13",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.157Z",
+      "blob": "57e5e0498be331bddb91a825070c8ca7690bc0ff",
+      "words": 193,
+      "forms": 1
     }
   },
   "input_hash": "57e5e0498be331bddb91a825070c8ca7690bc0ff",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-13.md"
-  }
+    "path": "business-central/reports/report-13.md",
+    "description": "Use this report to review individual VAT entries before filing, or when investigating discrepancies in tax calculations. Displays all VAT entries from posted sales, purchases, and journals. Use filters such as posting date, VAT business posting group, or document number to drill into specific transactions.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_13_Primary",
+        "id": 13,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "tax",
+      "VAT",
+      "reporting",
+      "finance"
+    ],
+    "ai_usage": null,
+    "words": 193
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57e5e0498be331bddb91a825070c8ca7690bc0ff"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv snapshot debugging",
+  "title": "Snapshot debugging",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging",
   "published_at": "2026-08-21T12:53:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.103Z",
+      "blob": "757b9f0614767b43edd0cf8325926efe639e719f",
+      "words": 3785,
+      "forms": 0
     }
   },
   "input_hash": "757b9f0614767b43edd0cf8325926efe639e719f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-snapshot-debugging.md"
-  }
+    "path": "dev-itpro/developer/devenv-snapshot-debugging.md",
+    "description": "Overview of how snapshot debugging allows recording running AL code for Business Central.",
+    "ms_date": "2026-08-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3785
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "757b9f0614767b43edd0cf8325926efe639e719f"
 }

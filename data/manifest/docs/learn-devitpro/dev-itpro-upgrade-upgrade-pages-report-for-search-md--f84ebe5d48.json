@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade pages report for search",
+  "title": "Making Pages and Reports in the MenuSuite Searchable After Upgrade",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pages-report-for-search",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.649Z",
+      "blob": "f172dbca6d732c4e93151231cdc00826f86c91d9",
+      "words": 382,
+      "forms": 0
     }
   },
   "input_hash": "f172dbca6d732c4e93151231cdc00826f86c91d9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-pages-report-for-search.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-pages-report-for-search.md",
+    "description": "Explains how to make pages and reports searchable in the Web Client after an upgrade to the Business Central platform from Dynamics NAV.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 382
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f172dbca6d732c4e93151231cdc00826f86c91d9"
 }

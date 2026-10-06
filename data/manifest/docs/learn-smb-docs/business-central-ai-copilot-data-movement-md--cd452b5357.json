@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ai copilot data movement",
+  "title": "Data movement across geographies for Business Central Copilot and agent capabilities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.207Z",
+      "blob": "531c6347d49d3dd1fbd3ddb2d37cf2e2ff1c93c9",
+      "words": 1346,
+      "forms": 1
     }
   },
   "input_hash": "531c6347d49d3dd1fbd3ddb2d37cf2e2ff1c93c9",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ai-copilot-data-movement.md"
-  }
+    "path": "business-central/ai-copilot-data-movement.md",
+    "description": "Learn how data that's used in copilot features in Dynamics 365 Business Central moves across geographies where Azure OpenAI Service isn't available by default.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "7775",
+        "id": 7775,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1346
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "531c6347d49d3dd1fbd3ddb2d37cf2e2ff1c93c9"
 }

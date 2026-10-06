@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "so service commitments",
+  "title": "Planned subscription lines in subscriptions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/so-service-commitments",
   "published_at": "2026-01-23T18:10:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.471Z",
+      "blob": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2",
+      "words": 453,
+      "forms": 2
     }
   },
   "input_hash": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/working-with-contracts/so-service-commitments.md"
-  }
+    "path": "business-central/SRB/working-with-contracts/so-service-commitments.md",
+    "description": "You can use planned subscription lines with subscriptions in subscription billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8014",
+        "id": 8014,
+        "kind": null
+      },
+      {
+        "raw": "8004_Primary",
+        "id": 8004,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 453
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2"
 }

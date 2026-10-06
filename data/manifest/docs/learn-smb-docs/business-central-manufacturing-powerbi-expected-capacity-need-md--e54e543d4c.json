@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi expected capacity need",
+  "title": "Expected Capacity Need (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.252Z",
+      "blob": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
+      "words": 270,
+      "forms": 1
     }
   },
   "input_hash": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-expected-capacity-need.md"
-  }
+    "path": "business-central/manufacturing-powerbi-expected-capacity-need.md",
+    "description": "The Expected Capacity Need report provides insights into the capacity you expect to require for each work center.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37044_Primary",
+        "id": 37044,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 270
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10"
 }

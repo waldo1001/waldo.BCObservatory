@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to set up multiple interest rates",
+  "title": "Set Up Multiple Interest Rates for Delayed Payment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-multiple-interest-rates",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.686Z",
+      "blob": "544de2ca11eabb2fff72951b5b5c01edaab73066",
+      "words": 301,
+      "forms": 4
     }
   },
   "input_hash": "544de2ca11eabb2fff72951b5b5c01edaab73066",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-set-up-multiple-interest-rates.md"
-  }
+    "path": "business-central/finance-how-to-set-up-multiple-interest-rates.md",
+    "description": "This topic tells you how to calculate finance charges with multiple interest rates for a specific period.",
+    "ms_date": "2021-06-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "6",
+        "id": 6,
+        "kind": null
+      },
+      {
+        "raw": "431",
+        "id": 431,
+        "kind": null
+      },
+      {
+        "raw": "432",
+        "id": 432,
+        "kind": null
+      },
+      {
+        "raw": "572",
+        "id": 572,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 301
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "544de2ca11eabb2fff72951b5b5c01edaab73066"
 }

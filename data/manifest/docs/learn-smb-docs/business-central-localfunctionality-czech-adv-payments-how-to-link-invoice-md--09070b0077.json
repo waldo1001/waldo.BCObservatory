@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "adv payments how to link invoice",
+  "title": "Link an advance invoice to a final document",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice",
   "published_at": "2025-09-18T07:41:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.356Z",
+      "blob": "0ccac283d932eab5f89455a83bfe5654e0b419eb",
+      "words": 669,
+      "forms": 0
     }
   },
   "input_hash": "0ccac283d932eab5f89455a83bfe5654e0b419eb",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice.md",
+    "description": "This article describes how to link an invoice to a final document using Advance Payments in the Czech version.",
+    "ms_date": "2025-09-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Advance Payments",
+      "Localization"
+    ],
+    "ai_usage": null,
+    "words": 669
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ccac283d932eab5f89455a83bfe5654e0b419eb"
 }

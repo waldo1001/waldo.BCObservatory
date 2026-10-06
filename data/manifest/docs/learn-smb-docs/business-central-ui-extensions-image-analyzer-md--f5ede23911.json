@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions image analyzer",
+  "title": "The Image Analyzer Extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.640Z",
+      "blob": "babf3ef4177e55b8a4b6666b36540abb9e474dd8",
+      "words": 1078,
+      "forms": 3
     }
   },
   "input_hash": "babf3ef4177e55b8a4b6666b36540abb9e474dd8",
@@ -18,6 +24,41 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-image-analyzer.md"
-  }
+    "path": "business-central/ui-extensions-image-analyzer.md",
+    "description": "This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.",
+    "ms_date": "2021-05-19",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "2026",
+        "id": 2026,
+        "kind": null
+      },
+      {
+        "raw": "2027",
+        "id": 2027,
+        "kind": null
+      },
+      {
+        "raw": "2029",
+        "id": 2029,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "API",
+      "extension",
+      "Cognitive Services",
+      "image",
+      "computer vision",
+      "attribute",
+      "tag",
+      "recognition"
+    ],
+    "ai_usage": null,
+    "words": 1078
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "babf3ef4177e55b8a4b6666b36540abb9e474dd8"
 }

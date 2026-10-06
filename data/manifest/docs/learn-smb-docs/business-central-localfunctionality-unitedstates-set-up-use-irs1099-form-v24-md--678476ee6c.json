@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "set up use irs1099 form v24",
+  "title": "Set up IRS 1099 forms",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.946Z",
+      "blob": "4d2d8d3a08423e8c37a0aeec2e20d1a7c5e1399f",
+      "words": 1928,
+      "forms": 5
     }
   },
   "input_hash": "4d2d8d3a08423e8c37a0aeec2e20d1a7c5e1399f",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md",
+    "description": "Learn how to set up the 1099 tax forms so that you can calculate and submit the required reports.",
+    "ms_date": "2025-12-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "26",
+        "id": 26,
+        "kind": null
+      },
+      {
+        "raw": "10030",
+        "id": 10030,
+        "kind": null
+      },
+      {
+        "raw": "10031",
+        "id": 10031,
+        "kind": null
+      },
+      {
+        "raw": "10033",
+        "id": 10033,
+        "kind": null
+      },
+      {
+        "raw": "10034",
+        "id": 10034,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1099",
+      "IRS",
+      "Tax"
+    ],
+    "ai_usage": null,
+    "words": 1928
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d2d8d3a08423e8c37a0aeec2e20d1a7c5e1399f"
 }

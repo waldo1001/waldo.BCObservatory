@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al425",
+  "title": "Compiler Error AL0425",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al425",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:44.055Z",
+      "blob": "1584b658c45906b4de14881bd7b96d32ad802169",
+      "words": 57,
+      "forms": 0
     }
   },
   "input_hash": "1584b658c45906b4de14881bd7b96d32ad802169",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al425.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al425.md",
+    "description": "The '{0}' trigger can only be used on codeunits that have the Subtype property set to '{1}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 57
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1584b658c45906b4de14881bd7b96d32ad802169"
 }

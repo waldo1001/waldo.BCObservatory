@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extract data",
+  "title": "Extract data from Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data",
   "published_at": "2026-01-14T12:40:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.528Z",
+      "blob": "5fb0d085e557fa763d51accad76e5b3478699459",
+      "words": 1184,
+      "forms": 0
     }
   },
   "input_hash": "5fb0d085e557fa763d51accad76e5b3478699459",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-extract-data.md"
-  }
+    "path": "dev-itpro/developer/devenv-extract-data.md",
+    "description": "Explains how to extract data from Business Central with different tools",
+    "ms_date": "2025-12-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "Power BI",
+      "reports",
+      "data",
+      "data warehouse",
+      "etl"
+    ],
+    "ai_usage": null,
+    "words": 1184
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fb0d085e557fa763d51accad76e5b3478699459"
 }

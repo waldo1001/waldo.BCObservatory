@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "delivery reminders",
+  "title": "Delivery reminders in the Austrian version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/delivery-reminders",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.814Z",
+      "blob": "3d9c0a5429d3e2cbf87792a05007ae85f3cde99c",
+      "words": 45,
+      "forms": 7
     }
   },
   "input_hash": "3d9c0a5429d3e2cbf87792a05007ae85f3cde99c",
@@ -18,6 +24,58 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Austria/delivery-reminders.md"
-  }
+    "path": "business-central/LocalFunctionality/Austria/delivery-reminders.md",
+    "description": "Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries in the Austrian version.",
+    "ms_date": "2025-03-05",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5005270",
+        "id": 5005270,
+        "kind": null
+      },
+      {
+        "raw": "5005272",
+        "id": 5005272,
+        "kind": null
+      },
+      {
+        "raw": "5005273",
+        "id": 5005273,
+        "kind": null
+      },
+      {
+        "raw": "5005274",
+        "id": 5005274,
+        "kind": null
+      },
+      {
+        "raw": "5005275",
+        "id": 5005275,
+        "kind": null
+      },
+      {
+        "raw": "5005276",
+        "id": 5005276,
+        "kind": null
+      },
+      {
+        "raw": "5005280",
+        "id": 5005280,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "delivery reminders",
+      "vendor shipments",
+      "overdue deliveries",
+      "track shipments",
+      "Austrian version"
+    ],
+    "ai_usage": null,
+    "words": 45
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d9c0a5429d3e2cbf87792a05007ae85f3cde99c"
 }

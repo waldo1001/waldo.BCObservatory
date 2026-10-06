@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics rate limits",
+  "title": "Working with API limits in Dynamics 365 Business Central (v1.0)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-rate-limits",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.256Z",
+      "blob": "a17a8254e0380ff117e0009e9c46a8bed7d0d79b",
+      "words": 518,
+      "forms": 0
     }
   },
   "input_hash": "a17a8254e0380ff117e0009e9c46a8bed7d0d79b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/dynamics-rate-limits.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/dynamics-rate-limits.md",
+    "description": "Describes working with current API limits in Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 518
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a17a8254e0380ff117e0009e9c46a8bed7d0d79b"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory powerbi inventory by serial no",
+  "title": "Inventory by Serial No (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.551Z",
+      "blob": "3f8e572212eceb223994b36b200f15fc63e20c30",
+      "words": 217,
+      "forms": 1
     }
   },
   "input_hash": "3f8e572212eceb223994b36b200f15fc63e20c30",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-powerbi-inventory-by-serial-no.md"
-  }
+    "path": "business-central/inventory-powerbi-inventory-by-serial-no.md",
+    "description": "The Inventory by Serial No. report shows your total inventory broken down per serial number.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37030_Primary",
+        "id": 37030,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 217
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f8e572212eceb223994b36b200f15fc63e20c30"
 }

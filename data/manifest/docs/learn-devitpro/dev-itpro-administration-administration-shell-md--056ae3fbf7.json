@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration shell",
+  "title": "Business Central Administration Shell",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-shell",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.940Z",
+      "blob": "3d7445355ff52d241d6e2e47fd1ab8b88e3f3d63",
+      "words": 682,
+      "forms": 0
     }
   },
   "input_hash": "3d7445355ff52d241d6e2e47fd1ab8b88e3f3d63",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-shell.md"
-  }
+    "path": "dev-itpro/administration/administration-shell.md",
+    "description": "Read about the PowerShell cmdlets managing Business Central Server instances and extensions for on-premises deployments.",
+    "ms_date": "2026-09-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 682
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d7445355ff52d241d6e2e47fd1ab8b88e3f3d63"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics dataverseentitychange",
+  "title": "Dataverse Entity Change Resource for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-dataverse/resources/dynamics_dataverseentitychange",
   "published_at": "2026-09-21T09:07:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.581Z",
+      "blob": "83ac8170d707be984b93c7240ff60c66991d70fe",
+      "words": 115,
+      "forms": 0
     }
   },
   "input_hash": "83ac8170d707be984b93c7240ff60c66991d70fe",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-dataverse/resources/dynamics_dataverseentitychange.md"
-  }
+    "path": "dev-itpro/api-dataverse/resources/dynamics_dataverseentitychange.md",
+    "description": "Learn about the Dataverse entity change resource that notifies Business Central when a synchronized table changes in Microsoft Dataverse.",
+    "ms_date": "2026-09-10",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 115
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83ac8170d707be984b93c7240ff60c66991d70fe"
 }

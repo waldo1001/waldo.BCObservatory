@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui experiences",
+  "title": "Enable Premium features",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-experiences",
   "published_at": "2026-07-17T13:46:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.713Z",
+      "blob": "c110a89766fe8df54d483b5ddd232a6355c99723",
+      "words": 346,
+      "forms": 1
     }
   },
   "input_hash": "c110a89766fe8df54d483b5ddd232a6355c99723",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-experiences.md"
-  }
+    "path": "business-central/ui-experiences.md",
+    "description": "Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.",
+    "ms_date": "2026-07-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1",
+        "id": 1,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Premium",
+      "activate Premium",
+      "enable Premium",
+      "Premium experience",
+      "Company Information",
+      "Manufacturing",
+      "Service Management",
+      "trial",
+      "essential",
+      "user interface",
+      "application area",
+      "experience"
+    ],
+    "ai_usage": null,
+    "words": 346
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c110a89766fe8df54d483b5ddd232a6355c99723"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi work center statistics",
+  "title": "Work Center Statistics",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.922Z",
+      "blob": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef",
+      "words": 537,
+      "forms": 1
     }
   },
   "input_hash": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-work-center-statistics.md"
-  }
+    "path": "business-central/manufacturing-powerbi-work-center-statistics.md",
+    "description": "The Work Center Statistics report shows key performance indicators for each work center.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37094_Primary",
+        "id": 37094,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 537
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef"
 }

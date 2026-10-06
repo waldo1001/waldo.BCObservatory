@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5051",
+  "title": "Contact - Company Summary (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5051",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.362Z",
+      "blob": "e42ef7c70fb53b28e6c87098c370705f84d28d11",
+      "words": 138,
+      "forms": 1
     }
   },
   "input_hash": "e42ef7c70fb53b28e6c87098c370705f84d28d11",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5051.md"
-  }
+    "path": "business-central/reports/report-5051.md",
+    "description": "Get an overview about your contact companies, including related interactions and to-dos.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5051_Primary",
+        "id": 5051,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 138
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e42ef7c70fb53b28e6c87098c370705f84d28d11"
 }

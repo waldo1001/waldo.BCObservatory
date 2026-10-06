@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system importstreamwithurlaccess method",
+  "title": "System.ImportStreamWithUrlAccess(InStream, Text [, Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-importstreamwithurlaccess-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.213Z",
+      "blob": "06d86a6c3fb1496da509f29f6000a8599ce5057d",
+      "words": 150,
+      "forms": 0
     }
   },
   "input_hash": "06d86a6c3fb1496da509f29f6000a8599ce5057d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-importstreamwithurlaccess-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-importstreamwithurlaccess-method.md",
+    "description": "Imports an object into a media container to be used in a temporary URL with a default expiration time.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06d86a6c3fb1496da509f29f6000a8599ce5057d"
 }

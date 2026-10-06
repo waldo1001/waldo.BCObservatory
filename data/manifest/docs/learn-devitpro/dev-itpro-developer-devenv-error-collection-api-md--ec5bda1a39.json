@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv error collection api",
+  "title": "Collectible errors API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-collection-api",
   "published_at": "2025-05-20T09:21:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.196Z",
+      "blob": "1fb55eb13d02313ba3efc480a6b835debde2a869",
+      "words": 307,
+      "forms": 0
     }
   },
   "input_hash": "1fb55eb13d02313ba3efc480a6b835debde2a869",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-error-collection-api.md"
-  }
+    "path": "dev-itpro/developer/devenv-error-collection-api.md",
+    "description": "Master AL programming with collectible error handling.",
+    "ms_date": "2023-12-25",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 307
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1fb55eb13d02313ba3efc480a6b835debde2a869"
 }

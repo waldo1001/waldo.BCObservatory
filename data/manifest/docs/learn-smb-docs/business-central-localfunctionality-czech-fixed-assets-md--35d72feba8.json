@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fixed assets",
+  "title": "Czech local functionality - Fixed assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/fixed-assets",
   "published_at": "2025-06-18T08:05:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.228Z",
+      "blob": "65527cacc61ac17f4b3f94534f4f28c37d858475",
+      "words": 1172,
+      "forms": 0
     }
   },
   "input_hash": "65527cacc61ac17f4b3f94534f4f28c37d858475",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/fixed-assets.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/fixed-assets.md",
+    "description": "Describes Czech local functionality for fixed assets, including tax depreciation and related features.",
+    "ms_date": "2025-06-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "finance",
+      "CZ",
+      "Fixed Assets"
+    ],
+    "ai_usage": null,
+    "words": 1172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "65527cacc61ac17f4b3f94534f4f28c37d858475"
 }

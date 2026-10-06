@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to upgrade a .dtd definition file",
+  "title": "How to upgrade a .DTD definition file [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.435Z",
+      "blob": "c5021bdb86e837f45f8c040ce5ca132ed6ba49b9",
+      "words": 119,
+      "forms": 0
     }
   },
   "input_hash": "c5021bdb86e837f45f8c040ce5ca132ed6ba49b9",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md",
+    "description": "Validate a .dtd file after importing it to resolve upgrade issues in the German version.",
+    "ms_date": "2025-03-12",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [
+      "dtd file validation",
+      "import dtd file",
+      "resolve upgrade issues",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 119
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c5021bdb86e837f45f8c040ce5ca132ed6ba49b9"
 }

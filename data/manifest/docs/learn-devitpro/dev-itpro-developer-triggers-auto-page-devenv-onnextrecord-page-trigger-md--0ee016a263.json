@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onnextrecord page trigger",
+  "title": "OnNextRecord (Page) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/page/devenv-onnextrecord-page-trigger",
   "published_at": "2025-08-08T11:57:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.377Z",
+      "blob": "391fe34ec841871b22c2fce2d354503e2299061e",
+      "words": 127,
+      "forms": 0
     }
   },
   "input_hash": "391fe34ec841871b22c2fce2d354503e2299061e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/page/devenv-onnextrecord-page-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/page/devenv-onnextrecord-page-trigger.md",
+    "description": "Determines the next record to be displayed.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 127
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "391fe34ec841871b22c2fce2d354503e2299061e"
 }

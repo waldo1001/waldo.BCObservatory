@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "set up standard company configuration packages",
+  "title": "Set Up Company Configuration Packages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
   "published_at": "2025-12-10T09:24:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.788Z",
+      "blob": "4f9285b746fbadeacaa4215ec4ae29afecccd7e7",
+      "words": 2190,
+      "forms": 6
     }
   },
   "input_hash": "4f9285b746fbadeacaa4215ec4ae29afecccd7e7",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/set-up-standard-company-configuration-packages.md"
-  }
+    "path": "dev-itpro/administration/set-up-standard-company-configuration-packages.md",
+    "description": "Streamline your implementation process by turning a set of company types you use with most customers into company configuration packages available for reuse.",
+    "ms_date": "2025-12-10",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "8610",
+        "id": 8610,
+        "kind": null
+      },
+      {
+        "raw": "8613",
+        "id": 8613,
+        "kind": null
+      },
+      {
+        "raw": "8614",
+        "id": 8614,
+        "kind": null
+      },
+      {
+        "raw": "8615",
+        "id": 8615,
+        "kind": null
+      },
+      {
+        "raw": "8620",
+        "id": 8620,
+        "kind": null
+      },
+      {
+        "raw": "8632",
+        "id": 8632,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2190
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f9285b746fbadeacaa4215ec4ae29afecccd7e7"
 }

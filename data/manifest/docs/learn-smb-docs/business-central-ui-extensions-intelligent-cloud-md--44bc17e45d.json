@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions intelligent cloud",
+  "title": "Cloud migration base extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-intelligent-cloud",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.771Z",
+      "blob": "459c747d8422dba056b9b287a0339d656fd6be17",
+      "words": 86,
+      "forms": 0
     }
   },
   "input_hash": "459c747d8422dba056b9b287a0339d656fd6be17",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-intelligent-cloud.md"
-  }
+    "path": "business-central/ui-extensions-intelligent-cloud.md",
+    "description": "Use the Cloud Migration Base extension to connect your on-premises solution with Business Central online.",
+    "ms_date": "2023-12-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 86
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "459c747d8422dba056b9b287a0339d656fd6be17"
 }

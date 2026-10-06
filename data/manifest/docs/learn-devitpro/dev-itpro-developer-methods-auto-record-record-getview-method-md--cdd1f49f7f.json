@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "record getview method",
+  "title": "Record.GetView([Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-getview-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.018Z",
+      "blob": "876bd109e1082fab7fe10693dd2ed6c75c6f8ac4",
+      "words": 151,
+      "forms": 0
     }
   },
   "input_hash": "876bd109e1082fab7fe10693dd2ed6c75c6f8ac4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/record/record-getview-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/record/record-getview-method.md",
+    "description": "Gets a string that describes the current sort order, key, and filters on a table.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 151
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "876bd109e1082fab7fe10693dd2ed6c75c6f8ac4"
 }

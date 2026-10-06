@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions",
+  "title": "Customizing Business Central online using apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions",
   "published_at": "2026-06-26T09:24:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.003Z",
+      "blob": "686858a45e11bd66c0ded1d19a3df8ad8f2ce0bf",
+      "words": 1012,
+      "forms": 4
     }
   },
   "input_hash": "686858a45e11bd66c0ded1d19a3df8ad8f2ce0bf",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions.md"
-  }
+    "path": "business-central/ui-extensions.md",
+    "description": "Learn all about adding functionality and customizing Business Central by installing apps in this article.",
+    "ms_date": "2026-06-24",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "2500",
+        "id": 2500,
+        "kind": null
+      },
+      {
+        "raw": "2502",
+        "id": 2502,
+        "kind": null
+      },
+      {
+        "raw": "20350",
+        "id": 20350,
+        "kind": null
+      },
+      {
+        "raw": "20353",
+        "id": 20353,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "app",
+      "add-in",
+      "manifest",
+      "customize"
+    ],
+    "ai_usage": null,
+    "words": 1012
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "686858a45e11bd66c0ded1d19a3df8ad8f2ce0bf"
 }

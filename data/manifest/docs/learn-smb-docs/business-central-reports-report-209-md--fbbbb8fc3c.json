@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 209",
+  "title": "Sales Reservation Avail. (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-209",
   "published_at": "2026-02-02T17:34:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.398Z",
+      "blob": "4401238efa9a3c388b4b9786546df2c2d59ccdfc",
+      "words": 471,
+      "forms": 1
     }
   },
   "input_hash": "4401238efa9a3c388b4b9786546df2c2d59ccdfc",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-209.md"
-  }
+    "path": "business-central/reports/report-209.md",
+    "description": "Get an overview of which items are available to fulfill sales orders, and help ensure that inventory reservations are accurate.",
+    "ms_date": "2026-02-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_209_Primary",
+        "id": 209,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 471
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4401238efa9a3c388b4b9786546df2c2d59ccdfc"
 }

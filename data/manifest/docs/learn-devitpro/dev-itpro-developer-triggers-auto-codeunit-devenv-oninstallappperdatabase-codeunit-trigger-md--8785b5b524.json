@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv oninstallappperdatabase codeunit trigger",
+  "title": "OnInstallAppPerDatabase (Codeunit) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/codeunit/devenv-oninstallappperdatabase-codeunit-trigger",
   "published_at": "2024-08-27T10:52:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.812Z",
+      "blob": "16e07cd6693a017f0f64baee48118b0c24eb0627",
+      "words": 96,
+      "forms": 0
     }
   },
   "input_hash": "16e07cd6693a017f0f64baee48118b0c24eb0627",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/codeunit/devenv-oninstallappperdatabase-codeunit-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/codeunit/devenv-oninstallappperdatabase-codeunit-trigger.md",
+    "description": "Runs during the installation or reinstallation of an extension.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 96
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16e07cd6693a017f0f64baee48118b0c24eb0627"
 }

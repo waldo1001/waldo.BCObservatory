@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics accountingperiod get",
+  "title": "Get accountingPeriods (Beta)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_accountingperiod_get",
   "published_at": "2026-06-15T09:23:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.715Z",
+      "blob": "1081c807bd4f811595b72ee36c30a6e05b640a93",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "1081c807bd4f811595b72ee36c30a6e05b640a93",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/financereportsapi/api/dynamics_accountingperiod_get.md"
-  }
+    "path": "dev-itpro/administration/financereportsapi/api/dynamics_accountingperiod_get.md",
+    "description": "Gets an accounting period object in Dynamics 365 Business Central (Beta).",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1081c807bd4f811595b72ee36c30a6e05b640a93"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "moduledependencyinfo data type",
+  "title": "ModuleDependencyInfo data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/moduledependencyinfo/moduledependencyinfo-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.760Z",
+      "blob": "edc5f83ae4446bc8e2bf24bc9d320a9f0e7f1c9f",
+      "words": 91,
+      "forms": 0
     }
   },
   "input_hash": "edc5f83ae4446bc8e2bf24bc9d320a9f0e7f1c9f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/moduledependencyinfo/moduledependencyinfo-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/moduledependencyinfo/moduledependencyinfo-data-type.md",
+    "description": "Provides information about a dependent module.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 91
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "edc5f83ae4446bc8e2bf24bc9d320a9f0e7f1c9f"
 }

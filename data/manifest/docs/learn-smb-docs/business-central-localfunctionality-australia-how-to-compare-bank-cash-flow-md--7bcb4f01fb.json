@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to compare bank cash flow",
+  "title": "Compare bank cash flow [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.732Z",
+      "blob": "44788386d75118f440dafecfe65c288cfb36b5d6",
+      "words": 19,
+      "forms": 0
     }
   },
   "input_hash": "44788386d75118f440dafecfe65c288cfb36b5d6",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md",
+    "description": "Use the Bank Detail Cashflow Compare report to compare the cash flow within a specific bank for a specified period in the Australian version.",
+    "ms_date": "2025-03-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "bank detail cashflow compare report",
+      "cash flow",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 19
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44788386d75118f440dafecfe65c288cfb36b5d6"
 }

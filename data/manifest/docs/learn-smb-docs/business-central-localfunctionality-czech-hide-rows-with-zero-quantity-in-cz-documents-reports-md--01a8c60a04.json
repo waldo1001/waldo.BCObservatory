@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "hide rows with zero quantity in cz documents reports",
+  "title": "Hide rows with zero quantity in document reports in the Chech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.888Z",
+      "blob": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
+      "words": 66,
+      "forms": 0
     }
   },
   "input_hash": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md",
+    "description": "This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.",
+    "ms_date": "2025-09-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "VAT",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 66
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba796327c9c7e472ca48750d7cdc6f005d90e268"
 }

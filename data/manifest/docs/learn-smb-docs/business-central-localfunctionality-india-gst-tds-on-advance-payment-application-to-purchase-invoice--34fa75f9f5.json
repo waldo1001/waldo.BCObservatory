@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST TDS on Advance Payment Application to Purchase Invoice",
+  "title": "GST and TDS on Vendor Advance Payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice",
   "published_at": "2025-08-08T14:20:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.274Z",
+      "blob": "3a9be0878cee82d3fe67e81882b47d3f3a154d66",
+      "words": 544,
+      "forms": 0
     }
   },
   "input_hash": "3a9be0878cee82d3fe67e81882b47d3f3a154d66",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md",
+    "description": "Learn how GST and TDS are applied to vendor advance payments in Business Central.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TDS",
+      "vendor advance payments"
+    ],
+    "ai_usage": null,
+    "words": 544
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3a9be0878cee82d3fe67e81882b47d3f3a154d66"
 }

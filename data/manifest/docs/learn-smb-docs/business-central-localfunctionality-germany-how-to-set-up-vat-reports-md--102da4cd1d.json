@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up vat reports",
+  "title": "How to Set Up VAT Reports [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.430Z",
+      "blob": "f312b0ce0983588a6bc62bbe682d6345399a9c4c",
+      "words": 263,
+      "forms": 0
     }
   },
   "input_hash": "f312b0ce0983588a6bc62bbe682d6345399a9c4c",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports.md",
+    "description": "Learn how to set up report parameters in Business Central to file a VAT report under the ELMA5 system.",
+    "ms_date": "2025-03-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "report parameters",
+      "ELMA5 system",
+      "VAT report setup",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 263
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f312b0ce0983588a6bc62bbe682d6345399a9c4c"
 }

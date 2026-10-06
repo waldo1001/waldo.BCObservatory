@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Troubleshooting saml2 token not valid because validity period ended",
+  "title": "The SAML2 token is not valid because its validity period has ended.",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.992Z",
+      "blob": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
+      "words": 275,
+      "forms": 0
     }
   },
   "input_hash": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended.md"
-  }
+    "path": "dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended.md",
+    "description": "Troubleshooting guidelines for SAML2 token errors that can occur when using Microsoft Entra ID or Office authentication",
+    "ms_date": "2021-04-01",
+    "ms_topic": "troubleshooting-general",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 275
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "202e127feccc4f6a166fb794ec59d38ad65fcbb7"
 }

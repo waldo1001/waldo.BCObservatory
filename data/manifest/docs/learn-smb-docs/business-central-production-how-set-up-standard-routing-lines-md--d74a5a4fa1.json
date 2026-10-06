@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how set up standard routing lines",
+  "title": "Set Up Standard Tasks for Operations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-set-up-standard-routing-lines",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.824Z",
+      "blob": "6622f8d1a586455ae3102e3f56e4f71f08bdb023",
+      "words": 163,
+      "forms": 5
     }
   },
   "input_hash": "6622f8d1a586455ae3102e3f56e4f71f08bdb023",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-set-up-standard-routing-lines.md"
-  }
+    "path": "business-central/production-how-set-up-standard-routing-lines.md",
+    "description": "Learn about how to set up standard tasks and add standard tasks to operations to simplify the maintenance of routings.",
+    "ms_date": "2021-06-22",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000799",
+        "id": 99000799,
+        "kind": null
+      },
+      {
+        "raw": "99000803",
+        "id": 99000803,
+        "kind": null
+      },
+      {
+        "raw": "99000804",
+        "id": 99000804,
+        "kind": null
+      },
+      {
+        "raw": "99000805",
+        "id": 99000805,
+        "kind": null
+      },
+      {
+        "raw": "99000807",
+        "id": 99000807,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 163
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6622f8d1a586455ae3102e3f56e4f71f08bdb023"
 }

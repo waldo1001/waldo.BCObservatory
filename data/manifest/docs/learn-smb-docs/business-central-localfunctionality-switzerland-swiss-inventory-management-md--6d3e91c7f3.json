@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "swiss inventory management",
+  "title": "Swiss inventory management [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.994Z",
+      "blob": "25ac2d856d67a87e6240b679f62fc8a020b16812",
+      "words": 265,
+      "forms": 0
     }
   },
   "input_hash": "25ac2d856d67a87e6240b679f62fc8a020b16812",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/swiss-inventory-management.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/swiss-inventory-management.md",
+    "description": "This article describes Swiss enhancements to special inventory management features in Business Central.",
+    "ms_date": "2025-04-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Swiss inventory management",
+      "inventory management",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25ac2d856d67a87e6240b679f62fc8a020b16812"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1702",
+  "title": "Deferral Summary - Purchasing (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1702",
   "published_at": "2026-09-10T14:37:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.901Z",
+      "blob": "0e516f2786c9a46856605e3ad24afdca84945f94",
+      "words": 306,
+      "forms": 1
     }
   },
   "input_hash": "0e516f2786c9a46856605e3ad24afdca84945f94",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1702.md"
-  }
+    "path": "business-central/reports/report-1702.md",
+    "description": "Review deferred purchasing expenses by vendor and posting period to verify accrual accuracy.",
+    "ms_date": "2026-09-10",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1702_Primary",
+        "id": 1702,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 306
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e516f2786c9a46856605e3ad24afdca84945f94"
 }

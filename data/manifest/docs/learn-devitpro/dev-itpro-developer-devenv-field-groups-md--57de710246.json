@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv field groups",
+  "title": "Field groups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-field-groups",
   "published_at": "2025-11-25T12:30:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.870Z",
+      "blob": "8243d47d4c7c4a74233fdedaa1236cafd88a5985",
+      "words": 455,
+      "forms": 0
     }
   },
   "input_hash": "8243d47d4c7c4a74233fdedaa1236cafd88a5985",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-field-groups.md"
-  }
+    "path": "dev-itpro/developer/devenv-field-groups.md",
+    "description": "Discover how to use the `fieldgroups` keyword to configure DropDown and Brick field groups in table and table extension objects.",
+    "ms_date": "2025-12-25",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 455
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8243d47d4c7c4a74233fdedaa1236cafd88a5985"
 }

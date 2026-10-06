@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print deposit slip reports",
+  "title": "Print deposit slip reports [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.758Z",
+      "blob": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7",
+      "words": 16,
+      "forms": 0
     }
   },
   "input_hash": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md",
+    "description": "In the Australian version, use the Deposit Slip report to view cash and check details in a format required by the bank.",
+    "ms_date": "2025-03-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "deposit slip report",
+      "deposit slip",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 16
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7"
 }

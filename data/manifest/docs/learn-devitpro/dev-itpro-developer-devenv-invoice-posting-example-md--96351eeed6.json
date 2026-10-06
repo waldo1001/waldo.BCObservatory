@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv invoice posting example",
+  "title": "Extending G/L entry aggregations when posting invoices",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example",
   "published_at": "2025-05-06T19:26:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.944Z",
+      "blob": "235cfc786d28cec13e717b81141add8f479a44dd",
+      "words": 578,
+      "forms": 0
     }
   },
   "input_hash": "235cfc786d28cec13e717b81141add8f479a44dd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-invoice-posting-example.md"
-  }
+    "path": "dev-itpro/developer/devenv-invoice-posting-example.md",
+    "description": "Explore an example of how to extend the posting process for sales, purchase, and service documents.",
+    "ms_date": "2024-01-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 578
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "235cfc786d28cec13e717b81141add8f479a44dd"
 }

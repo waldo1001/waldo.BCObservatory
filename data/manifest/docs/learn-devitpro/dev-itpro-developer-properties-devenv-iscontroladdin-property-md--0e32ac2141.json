@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv iscontroladdin property",
+  "title": "IsControlAddIn property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-iscontroladdin-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.808Z",
+      "blob": "c8174693d3c2c5875982c7e34b1bc16bdfd7a338",
+      "words": 65,
+      "forms": 0
     }
   },
   "input_hash": "c8174693d3c2c5875982c7e34b1bc16bdfd7a338",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-iscontroladdin-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-iscontroladdin-property.md",
+    "description": "Sets a value that indicates whether the .NET type represents a control add-in.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 65
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8174693d3c2c5875982c7e34b1bc16bdfd7a338"
 }

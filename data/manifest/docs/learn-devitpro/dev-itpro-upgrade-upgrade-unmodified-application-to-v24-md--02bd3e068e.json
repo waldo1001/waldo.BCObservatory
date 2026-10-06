@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade unmodified application to v24",
+  "title": "Upgrading Microsoft System and Base Application to Version 24",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v24",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.035Z",
+      "blob": "0c55b942d228290252d63a7d76b6049d99a2bc8d",
+      "words": 2253,
+      "forms": 0
     }
   },
   "input_hash": "0c55b942d228290252d63a7d76b6049d99a2bc8d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-unmodified-application-to-v24.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-unmodified-application-to-v24.md",
+    "description": "Describes how to upgrade an unmodified Business Central versions 14 through 23 to version 24",
+    "ms_date": "2024-03-06",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2253
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c55b942d228290252d63a7d76b6049d99a2bc8d"
 }

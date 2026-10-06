@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "textconst padright method",
+  "title": "TextConst.PadRight(Integer [, Char]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textconst/textconst-padright-method",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.008Z",
+      "blob": "31467056355e348b4046e004f5815918a89db81e",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "31467056355e348b4046e004f5815918a89db81e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/textconst/textconst-padright-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/textconst/textconst-padright-method.md",
+    "description": "Returns a new string that left-aligns the characters in this string by padding them with spaces on the right, for a specified total length.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31467056355e348b4046e004f5815918a89db81e"
 }

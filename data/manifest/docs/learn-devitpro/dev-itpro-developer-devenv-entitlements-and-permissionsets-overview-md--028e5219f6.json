@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv entitlements and permissionsets overview",
+  "title": "Entitlements and permission sets overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.600Z",
+      "blob": "fd6f538a675e9222af35f9e8e6354986108ae5c4",
+      "words": 1211,
+      "forms": 0
     }
   },
   "input_hash": "fd6f538a675e9222af35f9e8e6354986108ae5c4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-entitlements-and-permissionsets-overview.md"
-  }
+    "path": "dev-itpro/developer/devenv-entitlements-and-permissionsets-overview.md",
+    "description": "Learn about the different built-in methods to control which users can do what so that you can design the Business Central permission sets more precisely.",
+    "ms_date": "2024-11-18",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1211
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd6f538a675e9222af35f9e8e6354986108ae5c4"
 }

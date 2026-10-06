@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrading to business central on premises",
+  "title": "Upgrading to On-Premises v.14",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-to-business-central-on-premises",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.085Z",
+      "blob": "1d6df5e188562de953b48bf193dcb07d1db8df87",
+      "words": 467,
+      "forms": 0
     }
   },
   "input_hash": "1d6df5e188562de953b48bf193dcb07d1db8df87",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrading-to-business-central-on-premises.md"
-  }
+    "path": "dev-itpro/upgrade/upgrading-to-business-central-on-premises.md",
+    "description": "Gives an overview of the different upgrade paths to On-Premises Spring 2019 from older versions.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 467
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d6df5e188562de953b48bf193dcb07d1db8df87"
 }

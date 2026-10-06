@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv ellipsis property",
+  "title": "Ellipsis property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-ellipsis-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.565Z",
+      "blob": "fea21fb5f6fbfff76e2c2ee947a416d0f393d59b",
+      "words": 103,
+      "forms": 0
     }
   },
   "input_hash": "fea21fb5f6fbfff76e2c2ee947a416d0f393d59b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-ellipsis-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-ellipsis-property.md",
+    "description": "Sets a value that specifies whether an ellipsis (...) is appended to the caption on a command button or menu item.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 103
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fea21fb5f6fbfff76e2c2ee947a416d0f393d59b"
 }

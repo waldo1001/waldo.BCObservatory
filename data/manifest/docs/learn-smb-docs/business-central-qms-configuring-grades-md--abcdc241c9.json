@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "qms configuring grades",
+  "title": "Configure quality inspection results",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-configuring-grades",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.192Z",
+      "blob": "107302c1f3f452222941b3f17bfcfb0c76bd66c9",
+      "words": 494,
+      "forms": 0
     }
   },
   "input_hash": "107302c1f3f452222941b3f17bfcfb0c76bd66c9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/qms-configuring-grades.md"
-  }
+    "path": "business-central/qms-configuring-grades.md",
+    "description": "Learn how to configure and manage quality inspection results, including result setup, priority rules, and business process integration.",
+    "ms_date": "2026-09-07",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 494
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "107302c1f3f452222941b3f17bfcfb0c76bd66c9"
 }

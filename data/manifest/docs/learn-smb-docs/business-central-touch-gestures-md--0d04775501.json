@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "touch gestures",
+  "title": "Touch and pen gestures",
   "url": "https://learn.microsoft.com/dynamics365/business-central/touch-gestures",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.621Z",
+      "blob": "37dcb46acb518b9176e7eb4bcd5685f4da8d6cda",
+      "words": 204,
+      "forms": 0
     }
   },
   "input_hash": "37dcb46acb518b9176e7eb4bcd5685f4da8d6cda",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/touch-gestures.md"
-  }
+    "path": "business-central/touch-gestures.md",
+    "description": "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones.",
+    "ms_date": "2021-04-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "accessibility",
+      "shortcuts",
+      "charts",
+      "tiles"
+    ],
+    "ai_usage": null,
+    "words": 204
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37dcb46acb518b9176e7eb4bcd5685f4da8d6cda"
 }

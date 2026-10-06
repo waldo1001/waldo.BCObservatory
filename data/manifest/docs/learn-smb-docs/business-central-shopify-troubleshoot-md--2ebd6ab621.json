@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "troubleshoot",
+  "title": "Troubleshooting the Shopify and Business Central synchronization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.306Z",
+      "blob": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
+      "words": 2627,
+      "forms": 5
     }
   },
   "input_hash": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/troubleshoot.md"
-  }
+    "path": "business-central/shopify/troubleshoot.md",
+    "description": "Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30118",
+        "id": 30118,
+        "kind": null
+      },
+      {
+        "raw": "30119",
+        "id": 30119,
+        "kind": null
+      },
+      {
+        "raw": "30120",
+        "id": 30120,
+        "kind": null
+      },
+      {
+        "raw": "30101",
+        "id": 30101,
+        "kind": null
+      },
+      {
+        "raw": "30102",
+        "id": 30102,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2627
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32"
 }

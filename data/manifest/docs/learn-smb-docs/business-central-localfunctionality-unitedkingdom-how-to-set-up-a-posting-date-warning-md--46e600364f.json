@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up a posting date warning",
+  "title": "Set up a posting date warning [GB]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning",
   "published_at": "2025-06-19T13:25:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.186Z",
+      "blob": "076cd5f7ad338217c968966dab5eb4fce7baef39",
+      "words": 174,
+      "forms": 2
     }
   },
   "input_hash": "076cd5f7ad338217c968966dab5eb4fce7baef39",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md",
+    "description": "Learn to set up the warning message displayed when posting sales and purchase documents with a posting date different from the work date.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "459",
+        "id": 459,
+        "kind": null
+      },
+      {
+        "raw": "460",
+        "id": 460,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "set up warning message",
+      "posting sales",
+      "posting purchase",
+      "posting date",
+      "work date"
+    ],
+    "ai_usage": null,
+    "words": 174
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "076cd5f7ad338217c968966dab5eb4fce7baef39"
 }

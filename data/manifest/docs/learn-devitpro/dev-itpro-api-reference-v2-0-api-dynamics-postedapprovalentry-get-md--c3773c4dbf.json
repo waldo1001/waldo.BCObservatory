@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics postedapprovalentry get",
+  "title": "Get Posted Approval Entries with the Business Central API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_postedapprovalentry_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.908Z",
+      "blob": "390a7630ce98838da06e7b642ba2f684b52930e2",
+      "words": 119,
+      "forms": 0
     }
   },
   "input_hash": "390a7630ce98838da06e7b642ba2f684b52930e2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_postedapprovalentry_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_postedapprovalentry_get.md",
+    "description": "Use the Business Central API to retrieve posted approval entries, including document details, approvers, final status, amounts, and history.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 119
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "390a7630ce98838da06e7b642ba2f684b52930e2"
 }

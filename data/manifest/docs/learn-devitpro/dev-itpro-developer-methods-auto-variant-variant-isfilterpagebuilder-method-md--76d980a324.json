@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "variant isfilterpagebuilder method",
+  "title": "Variant.IsFilterPageBuilder() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/variant/variant-isfilterpagebuilder-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:53.090Z",
+      "blob": "5ed34dd9276f65053dc1791f4a51af0bc6e99ae2",
+      "words": 119,
+      "forms": 0
     }
   },
   "input_hash": "5ed34dd9276f65053dc1791f4a51af0bc6e99ae2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/variant/variant-isfilterpagebuilder-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/variant/variant-isfilterpagebuilder-method.md",
+    "description": "Indicates whether an AL variant contains a FilterPageBuilder variable.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 119
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ed34dd9276f65053dc1791f4a51af0bc6e99ae2"
 }

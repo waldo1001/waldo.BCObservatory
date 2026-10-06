@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "telebanking",
+  "title": "Telebanking",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.635Z",
+      "blob": "1967f2407e5d46db40fb987e1bc3491a940e78fd",
+      "words": 410,
+      "forms": 0
     }
   },
   "input_hash": "1967f2407e5d46db40fb987e1bc3491a940e78fd",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/telebanking.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/telebanking.md",
+    "description": "Telebanking allows you to electronically generate and exchange payments and collections with your bank based on sales and purchase transactions.",
+    "ms_date": "2025-03-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "telebanking",
+      "Dutch version",
+      "Netherlands",
+      "payment history",
+      "exchange protocols"
+    ],
+    "ai_usage": null,
+    "words": 410
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1967f2407e5d46db40fb987e1bc3491a940e78fd"
 }

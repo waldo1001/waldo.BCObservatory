@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "PrivacyFAQ",
+  "title": "Privacy FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/PrivacyFAQ",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.571Z",
+      "blob": "0a784d908b7809e45f5e1dacdcc0d95b2177096a",
+      "words": 146,
+      "forms": 0
     }
   },
   "input_hash": "0a784d908b7809e45f5e1dacdcc0d95b2177096a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/security/PrivacyFAQ.md"
-  }
+    "path": "dev-itpro/security/PrivacyFAQ.md",
+    "description": "Find useful links and other answers to frequently asked questions about privacy in Dynamics 365 Business Central.",
+    "ms_date": "2024-08-12",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 146
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0a784d908b7809e45f5e1dacdcc0d95b2177096a"
 }

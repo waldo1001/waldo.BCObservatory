@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "australian business numbers and adjustment notes",
+  "title": "Australian Business Numbers and Adjustment Notes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.705Z",
+      "blob": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f",
+      "words": 370,
+      "forms": 0
     }
   },
   "input_hash": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md",
+    "description": "An Australian Business Number (ABN) is a single identifier for all business dealings with the tax office and for dealings with other government departments and agencies.",
+    "ms_date": "2025-03-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Australian business numbers",
+      "ABN",
+      "adjustment notes",
+      "TFN",
+      "BAS adjustment"
+    ],
+    "ai_usage": null,
+    "words": 370
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f"
 }

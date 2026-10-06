@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "How to Export the Application Tables to a Dedicated Database",
+  "title": "How to: Export the Application Tables to a Dedicated Database",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database",
   "published_at": "2026-06-02T11:43:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.082Z",
+      "blob": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f",
+      "words": 883,
+      "forms": 0
     }
   },
   "input_hash": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database.md"
-  }
+    "path": "dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database.md",
+    "description": "Learn how to export application tables from one database to a dedicated database.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 883
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "specify journal template mandatory",
+  "title": "Make Journal Templates Mandatory [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.663Z",
+      "blob": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
+      "words": 318,
+      "forms": 0
     }
   },
   "input_hash": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory.md",
+    "description": "Learn how to make the use of journal templates required in the Belgian version.",
+    "ms_date": "2025-04-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "journal templates",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 318
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "de17b30616e2934381c5aa69819d06bfdecf6ba5"
 }

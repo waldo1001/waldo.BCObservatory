@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade to microsoft base app v20",
+  "title": "Upgrading customized C/AL application to Microsoft Base Application for version 20",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.903Z",
+      "blob": "a673fb4d87ccd51733f6f09ec8f46948898792db",
+      "words": 4150,
+      "forms": 0
     }
   },
   "input_hash": "a673fb4d87ccd51733f6f09ec8f46948898792db",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20.md",
+    "description": "Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 20.",
+    "ms_date": "2024-01-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 4150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a673fb4d87ccd51733f6f09ec8f46948898792db"
 }

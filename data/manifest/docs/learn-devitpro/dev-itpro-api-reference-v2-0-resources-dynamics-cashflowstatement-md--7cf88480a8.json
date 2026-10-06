@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics cashflowstatement",
+  "title": "cashFlowStatement resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_cashflowstatement",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.499Z",
+      "blob": "720fa637b490ff68e03ce217e426b7b7d0b9c0fc",
+      "words": 114,
+      "forms": 0
     }
   },
   "input_hash": "720fa637b490ff68e03ce217e426b7b7d0b9c0fc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_cashflowstatement.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_cashflowstatement.md",
+    "description": "A cash flow statement object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 114
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "720fa637b490ff68e03ce217e426b7b7d0b9c0fc"
 }

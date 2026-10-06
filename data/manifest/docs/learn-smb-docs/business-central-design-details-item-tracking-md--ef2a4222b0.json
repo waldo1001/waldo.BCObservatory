@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details item tracking",
+  "title": "Design details - Item tracking",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.663Z",
+      "blob": "7cc00f7a6949272f414455a81a434c3ae029dd6a",
+      "words": 174,
+      "forms": 0
     }
   },
   "input_hash": "7cc00f7a6949272f414455a81a434c3ae029dd6a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-item-tracking.md"
-  }
+    "path": "business-central/design-details-item-tracking.md",
+    "description": "The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling.",
+    "ms_date": "2026-01-30",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 174
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7cc00f7a6949272f414455a81a434c3ae029dd6a"
 }

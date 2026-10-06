@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "walkthrough tracing serial lot numbers",
+  "title": "Walkthrough - Tracing Serial-Lot Numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-tracing-serial-lot-numbers",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.095Z",
+      "blob": "3fed9a623300b4ef637bc86ca896d81c5d447939",
+      "words": 2686,
+      "forms": 0
     }
   },
   "input_hash": "3fed9a623300b4ef637bc86ca896d81c5d447939",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/walkthrough-tracing-serial-lot-numbers.md"
-  }
+    "path": "business-central/walkthrough-tracing-serial-lot-numbers.md",
+    "description": "This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.",
+    "ms_date": "2021-06-24",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2686
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3fed9a623300b4ef637bc86ca896d81c5d447939"
 }

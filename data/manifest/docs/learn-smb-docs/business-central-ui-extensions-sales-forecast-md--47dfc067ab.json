@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions sales forecast",
+  "title": "Using the Sales and Inventory Forecast extension to manage inventory",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.215Z",
+      "blob": "1d1f15cde1846132dd68188bb6e430de862320f3",
+      "words": 821,
+      "forms": 3
     }
   },
   "input_hash": "1d1f15cde1846132dd68188bb6e430de862320f3",
@@ -18,6 +24,38 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-sales-forecast.md"
-  }
+    "path": "business-central/ui-extensions-sales-forecast.md",
+    "description": "This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.",
+    "ms_date": "2026-04-06",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1850",
+        "id": 1850,
+        "kind": null
+      },
+      {
+        "raw": "1851",
+        "id": 1851,
+        "kind": null
+      },
+      {
+        "raw": "1853",
+        "id": 1853,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "app",
+      "add-in",
+      "manifest",
+      "customize",
+      "budget"
+    ],
+    "ai_usage": null,
+    "words": 821
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d1f15cde1846132dd68188bb6e430de862320f3"
 }

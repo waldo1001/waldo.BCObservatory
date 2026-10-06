@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "uicop aw0004",
+  "title": "UICop Warning AW0004",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop-aw0004",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.940Z",
+      "blob": "3d1a2aa74e6e10a27bb284ebfee2c8a47efbd357",
+      "words": 68,
+      "forms": 0
     }
   },
   "input_hash": "3d1a2aa74e6e10a27bb284ebfee2c8a47efbd357",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/uicop-aw0004.md"
-  }
+    "path": "dev-itpro/developer/analyzers/uicop-aw0004.md",
+    "description": "A Blob cannot be used as a source expression for a page field.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 68
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d1a2aa74e6e10a27bb284ebfee2c8a47efbd357"
 }

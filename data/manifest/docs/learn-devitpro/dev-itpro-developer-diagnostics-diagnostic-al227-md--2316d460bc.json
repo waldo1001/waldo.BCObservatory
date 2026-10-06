@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al227",
+  "title": "Compiler Error AL0227",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al227",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.296Z",
+      "blob": "0e038c73da51ebb469a02c3691e6c5a8df9c390e",
+      "words": 61,
+      "forms": 0
     }
   },
   "input_hash": "0e038c73da51ebb469a02c3691e6c5a8df9c390e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al227.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al227.md",
+    "description": "A key with ID {0} is already defined.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 61
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e038c73da51ebb469a02c3691e6c5a8df9c390e"
 }

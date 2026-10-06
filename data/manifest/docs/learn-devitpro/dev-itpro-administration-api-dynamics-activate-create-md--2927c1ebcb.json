@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics activate create",
+  "title": "(automation API) Create activate",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_activate_create",
   "published_at": "2025-09-30T12:43:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.143Z",
+      "blob": "71f42574937dec23be2c16da1418d8e258de754d",
+      "words": 99,
+      "forms": 0
     }
   },
   "input_hash": "71f42574937dec23be2c16da1418d8e258de754d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/api/dynamics_activate_create.md"
-  }
+    "path": "dev-itpro/administration/api/dynamics_activate_create.md",
+    "description": "Creates an activate object in Dynamics 365 Business Central.",
+    "ms_date": "2025-08-22",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 99
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71f42574937dec23be2c16da1418d8e258de754d"
 }

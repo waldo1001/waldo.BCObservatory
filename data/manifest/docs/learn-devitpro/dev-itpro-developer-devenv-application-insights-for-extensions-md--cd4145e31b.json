@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv application insights for extensions",
+  "title": "Setting up telemetry in an app/extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.210Z",
+      "blob": "60888629dd279ad66dc60f33b1f4eb320b743331",
+      "words": 611,
+      "forms": 0
     }
   },
   "input_hash": "60888629dd279ad66dc60f33b1f4eb320b743331",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-application-insights-for-extensions.md"
-  }
+    "path": "dev-itpro/developer/devenv-application-insights-for-extensions.md",
+    "description": "Describes how to configure an extension to send telemetry data to Azure Application Insights.",
+    "ms_date": "2024-02-09",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 611
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60888629dd279ad66dc60f33b1f4eb320b743331"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to create prepayment invoices",
+  "title": "Create prepayment invoices",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices",
   "published_at": "2025-10-20T08:49:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.401Z",
+      "blob": "bd50e9e2e641f0cd745b1b003da9885d3aee4664",
+      "words": 965,
+      "forms": 4
     }
   },
   "input_hash": "bd50e9e2e641f0cd745b1b003da9885d3aee4664",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-create-prepayment-invoices.md"
-  }
+    "path": "business-central/finance-how-to-create-prepayment-invoices.md",
+    "description": "Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.",
+    "ms_date": "2025-10-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "42",
+        "id": 42,
+        "kind": null
+      },
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "9305",
+        "id": 9305,
+        "kind": null
+      },
+      {
+        "raw": "9307",
+        "id": 9307,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 965
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd50e9e2e641f0cd745b1b003da9885d3aee4664"
 }

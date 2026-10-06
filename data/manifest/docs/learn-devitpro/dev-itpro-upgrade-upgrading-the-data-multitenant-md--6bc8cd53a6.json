@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Upgrading the Data Multitenant",
+  "title": "Upgrading the Database to in a Multitenant Deployment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data-Multitenant",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.944Z",
+      "blob": "574f4362d82d05e9d67befb59e9c87d53decff9d",
+      "words": 2079,
+      "forms": 0
     }
   },
   "input_hash": "574f4362d82d05e9d67befb59e9c87d53decff9d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/Upgrading-the-Data-Multitenant.md"
-  }
+    "path": "dev-itpro/upgrade/Upgrading-the-Data-Multitenant.md",
+    "description": "This article describes the tasks required for upgrade the data when you have a multitenant deployment.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2079
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "574f4362d82d05e9d67befb59e9c87d53decff9d"
 }

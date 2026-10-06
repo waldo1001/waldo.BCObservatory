@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5935",
+  "title": "Service Items (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5935",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.629Z",
+      "blob": "6bb7624aa59e0c59e3958bcaf90ba7be1fb5c569",
+      "words": 135,
+      "forms": 1
     }
   },
   "input_hash": "6bb7624aa59e0c59e3958bcaf90ba7be1fb5c569",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5935.md"
-  }
+    "path": "business-central/reports/report-5935.md",
+    "description": "Get an overview of registered service items, grouped by customer.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5935_Primary",
+        "id": 5935,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 135
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6bb7624aa59e0c59e3958bcaf90ba7be1fb5c569"
 }

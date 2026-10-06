@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1425",
+  "title": "Compiler Designer customization warning AL1425",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1425",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.724Z",
+      "blob": "0db4423b93fae6b66a8c176b9710eba3d5aee6a5",
+      "words": 68,
+      "forms": 0
     }
   },
   "input_hash": "0db4423b93fae6b66a8c176b9710eba3d5aee6a5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1425.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1425.md",
+    "description": "The field with ID '{0}' and name '{1}' cannot be used as source expression in the page customization '{2}' targeting page '{3}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 68
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0db4423b93fae6b66a8c176b9710eba3d5aee6a5"
 }

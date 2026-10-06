@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv runonclient attribute",
+  "title": "RunOnClient attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-runonclient-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.203Z",
+      "blob": "eb47ac165caa6a0e752eba9c521f9223b1d109a9",
+      "words": 196,
+      "forms": 0
     }
   },
   "input_hash": "eb47ac165caa6a0e752eba9c521f9223b1d109a9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-runonclient-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-runonclient-attribute.md",
+    "description": "Sets whether a .NET object that is defined by a variable is run on the Business Central Web client or Dynamics 365 Business Central service.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 196
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb47ac165caa6a0e752eba9c521f9223b1d109a9"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic banking in finland",
+  "title": "Electronic banking in Finland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.086Z",
+      "blob": "d35601391253f9c0d076a5e126db013bc41daa07",
+      "words": 397,
+      "forms": 6
     }
   },
   "input_hash": "d35601391253f9c0d076a5e126db013bc41daa07",
@@ -18,6 +24,52 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/electronic-banking-in-finland.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/electronic-banking-in-finland.md",
+    "description": "The electronic banking feature allows processing domestic and foreign payments. Set up bank reference files first to export or import electronic payments.",
+    "ms_date": "2025-02-12",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "32000000",
+        "id": 32000000,
+        "kind": null
+      },
+      {
+        "raw": "32000001",
+        "id": 32000001,
+        "kind": null
+      },
+      {
+        "raw": "32000002",
+        "id": 32000002,
+        "kind": null
+      },
+      {
+        "raw": "32000004",
+        "id": 32000004,
+        "kind": null
+      },
+      {
+        "raw": "32000005",
+        "id": 32000005,
+        "kind": null
+      },
+      {
+        "raw": "32000006",
+        "id": 32000006,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic banking",
+      "customer payments",
+      "vendor payments",
+      "reference number"
+    ],
+    "ai_usage": null,
+    "words": 397
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d35601391253f9c0d076a5e126db013bc41daa07"
 }

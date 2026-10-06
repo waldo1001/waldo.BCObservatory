@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "quick start financial information",
+  "title": "Financial Information Quick Start",
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-financial-information",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.141Z",
+      "blob": "301860df47c344f95b2b0bf07a8113ba5bcb9281",
+      "words": 527,
+      "forms": 0
     }
   },
   "input_hash": "301860df47c344f95b2b0bf07a8113ba5bcb9281",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/quick-start-financial-information.md"
-  }
+    "path": "business-central/quick-start-financial-information.md",
+    "description": "Get your company ready for business by setting up the financial information in Business Central.",
+    "ms_date": "2022-08-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "quickstart"
+    ],
+    "ai_usage": null,
+    "words": 527
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "301860df47c344f95b2b0bf07a8113ba5bcb9281"
 }

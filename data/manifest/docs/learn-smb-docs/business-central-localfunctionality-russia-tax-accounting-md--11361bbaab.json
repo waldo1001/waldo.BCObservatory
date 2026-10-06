@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "tax accounting",
+  "title": "Tax accounting in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-accounting",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.720Z",
+      "blob": "035b456824736830491ba9ee2f8d48794741befe",
+      "words": 380,
+      "forms": 0
     }
   },
   "input_hash": "035b456824736830491ba9ee2f8d48794741befe",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/tax-accounting.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/tax-accounting.md",
+    "description": "Provides information about tax accounting features and enhancements for Russia in Business Central.",
+    "ms_date": "2025-07-21",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "tax accounting",
+      "tax registers",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 380
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "035b456824736830491ba9ee2f8d48794741befe"
 }

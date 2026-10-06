@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv page type configuration dialog",
+  "title": "The ConfigurationDialog Page Type (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-configuration-dialog",
   "published_at": "2026-05-03T09:57:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.058Z",
+      "blob": "279a18ad952bc32bab3569379efd3dc4e50fc1b1",
+      "words": 1212,
+      "forms": 0
     }
   },
   "input_hash": "279a18ad952bc32bab3569379efd3dc4e50fc1b1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-page-type-configuration-dialog.md"
-  }
+    "path": "dev-itpro/developer/devenv-page-type-configuration-dialog.md",
+    "description": "Learn how to use the `ConfigurationDialog` page type to create focused configuration dialogs for managing agent settings in Dynamics 365 Business Central.",
+    "ms_date": "2026-05-03",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1212
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "279a18ad952bc32bab3569379efd3dc4e50fc1b1"
 }

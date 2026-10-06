@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "optimize sql table keys and performance",
+  "title": "Table Keys and Performance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-table-keys-and-performance",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.733Z",
+      "blob": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
+      "words": 353,
+      "forms": 0
     }
   },
   "input_hash": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/optimize-sql-table-keys-and-performance.md"
-  }
+    "path": "dev-itpro/administration/optimize-sql-table-keys-and-performance.md",
+    "description": "AL code searches through a subset of the record in a table, consider what keys define the tables and write code that optimizes the keys.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 353
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d9c996d096b568d08ee25b0c57affc81c5bf536"
 }

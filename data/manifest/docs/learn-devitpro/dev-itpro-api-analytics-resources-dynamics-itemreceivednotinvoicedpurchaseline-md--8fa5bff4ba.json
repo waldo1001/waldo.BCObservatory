@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics itemreceivednotinvoicedpurchaseline",
+  "title": "itemReceivedNotInvoicedPurchaseLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_itemreceivednotinvoicedpurchaseline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.955Z",
+      "blob": "a13175f3e9636db441653ff9d67c12e338233e3f",
+      "words": 118,
+      "forms": 0
     }
   },
   "input_hash": "a13175f3e9636db441653ff9d67c12e338233e3f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_itemreceivednotinvoicedpurchaseline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_itemreceivednotinvoicedpurchaseline.md",
+    "description": "Represents a itemReceivedNotInvoicedPurchaseLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 118
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a13175f3e9636db441653ff9d67c12e338233e3f"
 }

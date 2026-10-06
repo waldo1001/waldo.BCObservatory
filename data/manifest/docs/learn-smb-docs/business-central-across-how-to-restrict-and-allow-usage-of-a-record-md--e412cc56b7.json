@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to restrict and allow usage of a record",
+  "title": "How to restrict and allow usage of a record",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.222Z",
+      "blob": "f4f7f21900e79dd0f2b6d4386b223db947bc7123",
+      "words": 339,
+      "forms": 0
     }
   },
   "input_hash": "f4f7f21900e79dd0f2b6d4386b223db947bc7123",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-restrict-and-allow-usage-of-a-record.md"
-  }
+    "path": "business-central/across-how-to-restrict-and-allow-usage-of-a-record.md",
+    "description": "Learn how to use workflow responses to restrict or allow the usage of a record in Business Central.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "restrict record usage",
+      "allow record usage",
+      "using records",
+      "record usage"
+    ],
+    "ai_usage": null,
+    "words": 339
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4f7f21900e79dd0f2b6d4386b223db947bc7123"
 }

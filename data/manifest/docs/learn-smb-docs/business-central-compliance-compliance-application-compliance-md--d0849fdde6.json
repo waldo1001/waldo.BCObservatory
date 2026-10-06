@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "compliance application compliance",
+  "title": "Application Compliance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.406Z",
+      "blob": "6c2254753f5d727dfc3efcb755c29804fae12d53",
+      "words": 1104,
+      "forms": 0
     }
   },
   "input_hash": "6c2254753f5d727dfc3efcb755c29804fae12d53",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/compliance/compliance-application-compliance.md"
-  }
+    "path": "business-central/compliance/compliance-application-compliance.md",
+    "description": "This article explains how Business Central complies with international financial reporting standards, local functionality, and privacy laws and regulations.",
+    "ms_date": "2024-06-18",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1104
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6c2254753f5d727dfc3efcb755c29804fae12d53"
 }

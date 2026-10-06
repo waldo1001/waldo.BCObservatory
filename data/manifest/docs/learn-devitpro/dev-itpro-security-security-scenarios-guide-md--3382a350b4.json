@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "security scenarios guide",
+  "title": "Security scenarios Guide by Persona",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-scenarios-guide",
   "published_at": "2026-02-26T10:02:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.796Z",
+      "blob": "0092ed40e5dfb37be0cacfb4dc48530550ab260f",
+      "words": 3718,
+      "forms": 0
     }
   },
   "input_hash": "0092ed40e5dfb37be0cacfb4dc48530550ab260f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/security/security-scenarios-guide.md"
-  }
+    "path": "dev-itpro/security/security-scenarios-guide.md",
+    "description": "Practical security scenarios and best practices for partners, administrators, auditors, and developers working with Dynamics 365 Business Central.",
+    "ms_date": "2025-12-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3718
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0092ed40e5dfb37be0cacfb4dc48530550ab260f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv role center behaviors",
+  "title": "Role Center Behaviors on Tablet and Phone",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-center-behaviors",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.079Z",
+      "blob": "035494120bb76b62c8da74bb7ae6133be7ff77b1",
+      "words": 434,
+      "forms": 0
     }
   },
   "input_hash": "035494120bb76b62c8da74bb7ae6133be7ff77b1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-role-center-behaviors.md"
-  }
+    "path": "dev-itpro/developer/devenv-role-center-behaviors.md",
+    "description": "Learn how Role Center pages behave differently in the Business Central tablet and phone clients compared to the web client, and how that affects design.",
+    "ms_date": "2026-08-24",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 434
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "035494120bb76b62c8da74bb7ae6133be7ff77b1"
 }

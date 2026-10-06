@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up tax register sections",
+  "title": "Setting up tax register sections in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.619Z",
+      "blob": "c1e43cc86e464d5c005d735d137d25de3dcf865b",
+      "words": 885,
+      "forms": 0
     }
   },
   "input_hash": "c1e43cc86e464d5c005d735d137d25de3dcf865b",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md",
+    "description": "Russian localization includes features for setting up and managing tax register sections.",
+    "ms_date": "2025-07-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "tax register sections",
+      "tax register setup",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 885
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1e43cc86e464d5c005d735d137d25de3dcf865b"
 }

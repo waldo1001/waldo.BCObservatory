@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0032",
+  "title": "AppSourceCop Error AS0032",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0032",
   "published_at": "2026-06-02T11:42:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.282Z",
+      "blob": "3f8e419dfcf11b2175a2aa751dc88aeec78ec4a0",
+      "words": 383,
+      "forms": 0
     }
   },
   "input_hash": "3f8e419dfcf11b2175a2aa751dc88aeec78ec4a0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0032.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0032.md",
+    "description": "Controls that have been published must not be deleted, because it will break dependent extensions.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 383
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f8e419dfcf11b2175a2aa751dc88aeec78ec4a0"
 }

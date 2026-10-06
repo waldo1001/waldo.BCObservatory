@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv dataitemtableview property",
+  "title": "DataItemTableView property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.510Z",
+      "blob": "00e02ba9dc6b602549912c5a5532257aeb820528",
+      "words": 267,
+      "forms": 0
     }
   },
   "input_hash": "00e02ba9dc6b602549912c5a5532257aeb820528",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-dataitemtableview-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-dataitemtableview-property.md",
+    "description": "Sets the key on which to sort, the sort order, and the filters for the data item.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 267
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00e02ba9dc6b602549912c5a5532257aeb820528"
 }

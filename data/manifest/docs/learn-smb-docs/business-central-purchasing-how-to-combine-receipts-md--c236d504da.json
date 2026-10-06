@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how to combine receipts",
+  "title": "Combine Receipts or PO Lines on a Single Invoice",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.187Z",
+      "blob": "41da97c2414b42e3991fe873481d6dbed9a77d24",
+      "words": 886,
+      "forms": 4
     }
   },
   "input_hash": "41da97c2414b42e3991fe873481d6dbed9a77d24",
@@ -18,6 +24,46 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-to-combine-receipts.md"
-  }
+    "path": "business-central/purchasing-how-to-combine-receipts.md",
+    "description": "Use the Combine Receipts function to invoice multiple purchase receipts from the same vendor on a single purchase invoice.",
+    "ms_date": "2026-09-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "136",
+        "id": 136,
+        "kind": null
+      },
+      {
+        "raw": "145",
+        "id": 145,
+        "kind": null
+      },
+      {
+        "raw": "146",
+        "id": 146,
+        "kind": null
+      },
+      {
+        "raw": "9308",
+        "id": 9308,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "combine receipts",
+      "single invoice",
+      "purchase invoice",
+      "purchase receipt",
+      "purchase order",
+      "blanket purchase order",
+      "post purchase invoice",
+      "get receipt lines"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 886
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "41da97c2414b42e3991fe873481d6dbed9a77d24"
 }

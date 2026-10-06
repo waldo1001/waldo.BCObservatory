@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic funds transfer eft",
+  "title": "Electronic Funds Transfer (EFT) [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.714Z",
+      "blob": "0796c294a1177dc677238efefe8c2386b199e67f",
+      "words": 35,
+      "forms": 1
     }
   },
   "input_hash": "0796c294a1177dc677238efefe8c2386b199e67f",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-.md",
+    "description": "Pay vendors by using the electronic funds transfer (EFT) system in Australia.",
+    "ms_date": "2025-03-25",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11615",
+        "id": 11615,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic funds transfer",
+      "EFT",
+      "vendor payment",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 35
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0796c294a1177dc677238efefe8c2386b199e67f"
 }

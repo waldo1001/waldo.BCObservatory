@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1307",
+  "title": "Standard Sales Credit Memo report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1307",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.654Z",
+      "blob": "ff7524c14c6d3543c49aad7ac48f9946a6277c53",
+      "words": 252,
+      "forms": 1
     }
   },
   "input_hash": "ff7524c14c6d3543c49aad7ac48f9946a6277c53",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1307.md"
-  }
+    "path": "business-central/reports/report-1307.md",
+    "description": "Print or email a posted sales credit memo that shows customer information, credited items, VAT details, and document totals.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1307",
+        "id": 1307,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff7524c14c6d3543c49aad7ac48f9946a6277c53"
 }

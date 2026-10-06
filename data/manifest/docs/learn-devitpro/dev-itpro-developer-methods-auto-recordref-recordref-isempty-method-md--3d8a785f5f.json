@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref isempty method",
+  "title": "RecordRef.IsEmpty() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-isempty-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.488Z",
+      "blob": "9ed93670b2b1613ccbc53c20150167ef49d39961",
+      "words": 257,
+      "forms": 0
     }
   },
   "input_hash": "9ed93670b2b1613ccbc53c20150167ef49d39961",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-isempty-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-isempty-method.md",
+    "description": "Determines whether any records exist in a filtered set of records in a table.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 257
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ed93670b2b1613ccbc53c20150167ef49d39961"
 }

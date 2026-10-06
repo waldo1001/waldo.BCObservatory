@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlelement removeattribute xmlattribute method",
+  "title": "XmlElement.RemoveAttribute(XmlAttribute) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlelement/xmlelement-removeattribute-xmlattribute-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.184Z",
+      "blob": "b62d1d6066ee29cd57f78d2188ba0ecf3f19df46",
+      "words": 75,
+      "forms": 0
     }
   },
   "input_hash": "b62d1d6066ee29cd57f78d2188ba0ecf3f19df46",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-removeattribute-xmlattribute-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-removeattribute-xmlattribute-method.md",
+    "description": "Removes the specified attribute from this element.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 75
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b62d1d6066ee29cd57f78d2188ba0ecf3f19df46"
 }

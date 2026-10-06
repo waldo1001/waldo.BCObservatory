@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0048",
+  "title": "AppSourceCop Error AS0048",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0048",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.371Z",
+      "blob": "6f173206dff5b2060254a4be661eac7d86635c01",
+      "words": 77,
+      "forms": 0
     }
   },
   "input_hash": "6f173206dff5b2060254a4be661eac7d86635c01",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0048.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0048.md",
+    "description": "The extension publisher length must not exceed the limit of 50 characters.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 77
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f173206dff5b2060254a4be661eac7d86635c01"
 }

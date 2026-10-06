@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "shopify tax matching application card",
+  "title": "Application card for Shopify Tax Matching",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.504Z",
+      "blob": "b4290a1be970775f6beebf1834433ca44365fdae",
+      "words": 3136,
+      "forms": 0
     }
   },
   "input_hash": "b4290a1be970775f6beebf1834433ca44365fdae",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify-tax-matching-application-card.md"
-  }
+    "path": "business-central/shopify-tax-matching-application-card.md",
+    "description": "Learn how Shopify Tax Matching uses AI, how Microsoft evaluated the feature, its limitations, and how to use it responsibly.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 3136
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4290a1be970775f6beebf1834433ca44365fdae"
 }

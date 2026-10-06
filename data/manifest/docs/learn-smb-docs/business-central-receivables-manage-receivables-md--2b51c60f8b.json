@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "receivables manage receivables",
+  "title": "Overview of tasks to manage receivables",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.968Z",
+      "blob": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b",
+      "words": 660,
+      "forms": 0
     }
   },
   "input_hash": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/receivables-manage-receivables.md"
-  }
+    "path": "business-central/receivables-manage-receivables.md",
+    "description": "This article outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.",
+    "ms_date": "2024-07-08",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "customer payment",
+      "debtor",
+      "balance due",
+      "AR"
+    ],
+    "ai_usage": null,
+    "words": 660
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b"
 }

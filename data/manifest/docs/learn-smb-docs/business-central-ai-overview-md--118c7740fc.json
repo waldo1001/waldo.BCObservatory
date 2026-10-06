@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ai overview",
+  "title": "Marketing text suggestions with Copilot overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-overview",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.224Z",
+      "blob": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e",
+      "words": 598,
+      "forms": 0
     }
   },
   "input_hash": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ai-overview.md"
-  }
+    "path": "business-central/ai-overview.md",
+    "description": "Get an overview of the AI content-generating capabilities in Business Central.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 598
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b14b0b435ed6e55e4fb765a8dc3830f31e1e994e"
 }

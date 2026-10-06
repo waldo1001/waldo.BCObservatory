@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al202",
+  "title": "Compiler Error AL0202",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al202",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.229Z",
+      "blob": "4b19f39465e6d9af1d763c4fc14930f58a864489",
+      "words": 81,
+      "forms": 0
     }
   },
   "input_hash": "4b19f39465e6d9af1d763c4fc14930f58a864489",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al202.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al202.md",
+    "description": "The {0} FlowField is not an Integer field.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 81
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b19f39465e6d9af1d763c4fc14930f58a864489"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0050",
+  "title": "AppSourceCop Error AS0050",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0050",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.376Z",
+      "blob": "1878744380878fe13b292ee90b1155fd82b1af48",
+      "words": 412,
+      "forms": 0
     }
   },
   "input_hash": "1878744380878fe13b292ee90b1155fd82b1af48",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0050.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0050.md",
+    "description": "The extensibility of an application object cannot be removed.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 412
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1878744380878fe13b292ee90b1155fd82b1af48"
 }

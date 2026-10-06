@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics setupcloudmigration",
+  "title": "(cloudMigration API) setupCloudMigration resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/resources/dynamics_setupcloudmigration",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.196Z",
+      "blob": "af4441e3cad7fc317af2d63e36ac9f13a2d76d3a",
+      "words": 426,
+      "forms": 0
     }
   },
   "input_hash": "af4441e3cad7fc317af2d63e36ac9f13a2d76d3a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_setupcloudmigration.md"
-  }
+    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_setupcloudmigration.md",
+    "description": "A setup cloud migration object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 426
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af4441e3cad7fc317af2d63e36ac9f13a2d76d3a"
 }

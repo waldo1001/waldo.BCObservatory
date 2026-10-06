@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi actual vs budget",
+  "title": "Actual vs Budget (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
   "published_at": "2025-09-26T06:29:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.217Z",
+      "blob": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
+      "words": 377,
+      "forms": 1
     }
   },
   "input_hash": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-actual-vs-budget.md"
-  }
+    "path": "business-central/sales-powerbi-actual-vs-budget.md",
+    "description": "The Actual vs. Budget report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.",
+    "ms_date": "2024-10-26",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37007_Primary",
+        "id": 37007,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 377
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575"
 }

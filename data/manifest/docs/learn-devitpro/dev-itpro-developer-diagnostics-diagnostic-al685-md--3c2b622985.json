@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al685",
+  "title": "Compiler Warning (future error) AL0685",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al685",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.413Z",
+      "blob": "42f421b2e1b7e9f25a01aa6dc3e400c777c83efb",
+      "words": 87,
+      "forms": 0
     }
   },
   "input_hash": "42f421b2e1b7e9f25a01aa6dc3e400c777c83efb",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al685.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al685.md",
+    "description": "The length '{0}' of the calculation formula's target field '{1}' is greater than the length '{2}' of the source flow field '{3}'.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 87
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42f421b2e1b7e9f25a01aa6dc3e400c777c83efb"
 }

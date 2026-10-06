@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1302",
+  "title": "Standard Sales Pro Forma Invoice report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1302",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.634Z",
+      "blob": "f13978d19b7a8311724ea246a36fc275bbe685a4",
+      "words": 253,
+      "forms": 1
     }
   },
   "input_hash": "f13978d19b7a8311724ea246a36fc275bbe685a4",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1302.md"
-  }
+    "path": "business-central/reports/report-1302.md",
+    "description": "Print a pro forma invoice for a sales order to give customers cost and customs details before the actual invoice is issued.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1302",
+        "id": 1302,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 253
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f13978d19b7a8311724ea246a36fc275bbe685a4"
 }

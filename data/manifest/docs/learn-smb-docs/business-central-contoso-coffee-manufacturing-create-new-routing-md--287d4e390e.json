@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "create new routing",
+  "title": "Create a New Routing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.230Z",
+      "blob": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7",
+      "words": 229,
+      "forms": 0
     }
   },
   "input_hash": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/contoso-coffee/manufacturing/create-new-routing.md"
-  }
+    "path": "business-central/contoso-coffee/manufacturing/create-new-routing.md",
+    "description": "Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.",
+    "ms_date": "2022-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 229
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7"
 }

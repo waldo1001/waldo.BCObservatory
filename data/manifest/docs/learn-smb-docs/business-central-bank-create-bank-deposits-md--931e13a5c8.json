@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bank create bank deposits",
+  "title": "Create bank deposits",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.584Z",
+      "blob": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
+      "words": 1651,
+      "forms": 9
     }
   },
   "input_hash": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
@@ -18,6 +24,65 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bank-create-bank-deposits.md"
-  }
+    "path": "business-central/bank-create-bank-deposits.md",
+    "description": "You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.",
+    "ms_date": "2024-09-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10140",
+        "id": 10140,
+        "kind": null
+      },
+      {
+        "raw": "10141",
+        "id": 10141,
+        "kind": null
+      },
+      {
+        "raw": "10143",
+        "id": 10143,
+        "kind": null
+      },
+      {
+        "raw": "10144",
+        "id": 10144,
+        "kind": null
+      },
+      {
+        "raw": "10146",
+        "id": 10146,
+        "kind": null
+      },
+      {
+        "raw": "10147",
+        "id": 10147,
+        "kind": null
+      },
+      {
+        "raw": "10148",
+        "id": 10148,
+        "kind": null
+      },
+      {
+        "raw": "36646",
+        "id": 36646,
+        "kind": null
+      },
+      {
+        "raw": "1690_Primary",
+        "id": 1690,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "bank",
+      "deposit"
+    ],
+    "ai_usage": null,
+    "words": 1651
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6d3c5aafa355dd5dd590d47352a3122a34309ab"
 }

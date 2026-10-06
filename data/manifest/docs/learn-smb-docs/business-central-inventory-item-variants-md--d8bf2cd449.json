@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory item variants",
+  "title": "Manage product variants",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.955Z",
+      "blob": "d4c57f2e3534543f8fc769189bccdc8004f1a868",
+      "words": 993,
+      "forms": 16
     }
   },
   "input_hash": "d4c57f2e3534543f8fc769189bccdc8004f1a868",
@@ -18,6 +24,109 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-item-variants.md"
-  }
+    "path": "business-central/inventory-item-variants.md",
+    "description": "Learn how you can record products that are almost identical but vary in color, size, or material as item variants.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      },
+      {
+        "raw": "5717",
+        "id": 5717,
+        "kind": null
+      },
+      {
+        "raw": "31",
+        "id": 31,
+        "kind": null
+      },
+      {
+        "raw": "32",
+        "id": 32,
+        "kind": null
+      },
+      {
+        "raw": "346",
+        "id": 346,
+        "kind": null
+      },
+      {
+        "raw": "9091",
+        "id": 9091,
+        "kind": null
+      },
+      {
+        "raw": "5718",
+        "id": 5718,
+        "kind": null
+      },
+      {
+        "raw": "5716",
+        "id": 5716,
+        "kind": null
+      },
+      {
+        "raw": "5720",
+        "id": 5720,
+        "kind": null
+      },
+      {
+        "raw": "1384",
+        "id": 1384,
+        "kind": null
+      },
+      {
+        "raw": "1383",
+        "id": 1383,
+        "kind": null
+      },
+      {
+        "raw": "35",
+        "id": 35,
+        "kind": null
+      },
+      {
+        "raw": "5404",
+        "id": 5404,
+        "kind": null
+      },
+      {
+        "raw": "1378",
+        "id": 1378,
+        "kind": null
+      },
+      {
+        "raw": "5719",
+        "id": 5719,
+        "kind": null
+      },
+      {
+        "raw": "5401_Primary",
+        "id": 5401,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "item",
+      "variant",
+      "finished good",
+      "component",
+      "raw material",
+      "assembly item",
+      "item substitution",
+      "item reference",
+      "item translation",
+      "stockkeeping unit",
+      "SKU"
+    ],
+    "ai_usage": null,
+    "words": 993
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d4c57f2e3534543f8fc769189bccdc8004f1a868"
 }

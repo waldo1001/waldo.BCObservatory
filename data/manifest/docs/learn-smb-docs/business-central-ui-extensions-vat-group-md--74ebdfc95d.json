@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions vat group",
+  "title": "The VAT Group Management extension for the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.335Z",
+      "blob": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce",
+      "words": 2304,
+      "forms": 9
     }
   },
   "input_hash": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce",
@@ -18,6 +24,66 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-vat-group.md"
-  }
+    "path": "business-central/ui-extensions-vat-group.md",
+    "description": "You can engage with other businesses to form a VAT group where all members report VAT in a single return.",
+    "ms_date": "2024-06-03",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "4700",
+        "id": 4700,
+        "kind": null
+      },
+      {
+        "raw": "4701",
+        "id": 4701,
+        "kind": null
+      },
+      {
+        "raw": "4703",
+        "id": 4703,
+        "kind": null
+      },
+      {
+        "raw": "4704",
+        "id": 4704,
+        "kind": null
+      },
+      {
+        "raw": "4705",
+        "id": 4705,
+        "kind": null
+      },
+      {
+        "raw": "4706",
+        "id": 4706,
+        "kind": null
+      },
+      {
+        "raw": "4707",
+        "id": 4707,
+        "kind": null
+      },
+      {
+        "raw": "4708",
+        "id": 4708,
+        "kind": null
+      },
+      {
+        "raw": "4709",
+        "id": 4709,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "value added tax",
+      "report"
+    ],
+    "ai_usage": null,
+    "words": 2304
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce"
 }

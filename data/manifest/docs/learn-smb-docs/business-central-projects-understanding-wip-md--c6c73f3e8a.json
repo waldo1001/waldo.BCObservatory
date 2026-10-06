@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects understanding wip",
+  "title": "WIP methods for calculating and recording project progress",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.260Z",
+      "blob": "3f580d961a11c09a023ceba66cc4646226cbc729",
+      "words": 1055,
+      "forms": 1
     }
   },
   "input_hash": "3f580d961a11c09a023ceba66cc4646226cbc729",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-understanding-wip.md"
-  }
+    "path": "business-central/projects-understanding-wip.md",
+    "description": "Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for projects that are in progress.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1010",
+        "id": 1010,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "work in process",
+      "work in progress",
+      "calculate project WIP"
+    ],
+    "ai_usage": null,
+    "words": 1055
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f580d961a11c09a023ceba66cc4646226cbc729"
 }

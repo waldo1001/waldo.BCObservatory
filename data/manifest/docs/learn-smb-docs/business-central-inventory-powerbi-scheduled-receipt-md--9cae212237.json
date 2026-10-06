@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory powerbi scheduled receipt",
+  "title": "Scheduled Receipt (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.570Z",
+      "blob": "accca140ee8c8681da95e776e8e6ce6929375c6d",
+      "words": 266,
+      "forms": 1
     }
   },
   "input_hash": "accca140ee8c8681da95e776e8e6ce6929375c6d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-powerbi-scheduled-receipt.md"
-  }
+    "path": "business-central/inventory-powerbi-scheduled-receipt.md",
+    "description": "The Scheduled Receipt report lets you view inbound inventory per document type.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37028_Primary",
+        "id": 37028,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 266
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "accca140ee8c8681da95e776e8e6ce6929375c6d"
 }

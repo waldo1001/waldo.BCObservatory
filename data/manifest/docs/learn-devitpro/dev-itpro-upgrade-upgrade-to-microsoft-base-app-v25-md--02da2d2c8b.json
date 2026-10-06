@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade to microsoft base app v25",
+  "title": "Upgrading Customized C/AL Application to Microsoft Base Application for version 25",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.930Z",
+      "blob": "eeaa3e1559a0c475d5eca7918cc61cc8f9860111",
+      "words": 4374,
+      "forms": 0
     }
   },
   "input_hash": "eeaa3e1559a0c475d5eca7918cc61cc8f9860111",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25.md",
+    "description": "Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 25.",
+    "ms_date": "2024-09-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 4374
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eeaa3e1559a0c475d5eca7918cc61cc8f9860111"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migration skip api data upgrade",
+  "title": "Skip API data upgrade in cloud migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
   "published_at": "2024-01-02T09:59:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.731Z",
+      "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
+      "words": 527,
+      "forms": 0
     }
   },
   "input_hash": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migration-skip-api-data-upgrade.md"
-  }
+    "path": "dev-itpro/administration/migration-skip-api-data-upgrade.md",
+    "description": "This article explains things you can skip the API data upgrade during cloud migration and complete it after going live",
+    "ms_date": "2023-12-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 527
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517"
 }

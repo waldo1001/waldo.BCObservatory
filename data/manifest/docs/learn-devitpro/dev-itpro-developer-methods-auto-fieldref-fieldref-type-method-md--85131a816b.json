@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "fieldref type method",
+  "title": "FieldRef.Type() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/fieldref/fieldref-type-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.874Z",
+      "blob": "7ee0df9e15afe5b356e06080b022984bc733c0dc",
+      "words": 139,
+      "forms": 0
     }
   },
   "input_hash": "7ee0df9e15afe5b356e06080b022984bc733c0dc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/fieldref/fieldref-type-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/fieldref/fieldref-type-method.md",
+    "description": "Gets the data type of the field that is currently selected.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 139
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ee0df9e15afe5b356e06080b022984bc733c0dc"
 }

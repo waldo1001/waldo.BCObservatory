@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "record getfilter method",
+  "title": "Record.GetFilter(Any) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-getfilter-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.997Z",
+      "blob": "8325a9b04414e377ecccf59d788ff4ae2c1ef983",
+      "words": 89,
+      "forms": 0
     }
   },
   "input_hash": "8325a9b04414e377ecccf59d788ff4ae2c1ef983",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/record/record-getfilter-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/record/record-getfilter-method.md",
+    "description": "Gets a list of the filters within the current filter group that are applied to a field.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 89
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8325a9b04414e377ecccf59d788ff4ae2c1ef983"
 }

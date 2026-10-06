@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to determine sales price by cost plus percentage",
+  "title": "Determine Sales Price by Cost Plus Percentage (NZ)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.253Z",
+      "blob": "668e84919662a7616c71b2b10a675bcd2824e633",
+      "words": 21,
+      "forms": 0
     }
   },
   "input_hash": "668e84919662a7616c71b2b10a675bcd2824e633",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md"
-  }
+    "path": "business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md",
+    "description": "Learn how to use the cost plus percentage function to set a sales price based on the cost of an item.",
+    "ms_date": "2025-05-05",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "cost plus percentage",
+      "set sales price",
+      "sales price calculation",
+      "sales price by cost",
+      "New Zealand version"
+    ],
+    "ai_usage": null,
+    "words": 21
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "668e84919662a7616c71b2b10a675bcd2824e633"
 }

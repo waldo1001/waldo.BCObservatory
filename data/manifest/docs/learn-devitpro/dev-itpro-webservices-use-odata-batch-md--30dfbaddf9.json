@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "use odata batch",
+  "title": "Using OData transactional $batch requests",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-batch",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.231Z",
+      "blob": "65ad5e2f20d113e2b1283b143970e4cc1d1009aa",
+      "words": 303,
+      "forms": 0
     }
   },
   "input_hash": "65ad5e2f20d113e2b1283b143970e4cc1d1009aa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/use-odata-batch.md"
-  }
+    "path": "dev-itpro/webservices/use-odata-batch.md",
+    "description": "How to specify that all inner requests in a certain OData $batch request are processed in a transactional way in Business Central.",
+    "ms_date": "2023-04-25",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 303
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "65ad5e2f20d113e2b1283b143970e4cc1d1009aa"
 }

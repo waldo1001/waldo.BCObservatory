@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how correct cancel unpaid purchase invoices",
+  "title": "Amend or cancel unpaid purchase invoices",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.637Z",
+      "blob": "c27134b0af840c968f55520406a911b6748bf182",
+      "words": 496,
+      "forms": 3
     }
   },
   "input_hash": "c27134b0af840c968f55520406a911b6748bf182",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices.md"
-  }
+    "path": "business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices.md",
+    "description": "Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "138",
+        "id": 138,
+        "kind": null
+      },
+      {
+        "raw": "140",
+        "id": 140,
+        "kind": null
+      },
+      {
+        "raw": "146",
+        "id": 146,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "undo",
+      "credit memo",
+      "return"
+    ],
+    "ai_usage": null,
+    "words": 496
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c27134b0af840c968f55520406a911b6748bf182"
 }

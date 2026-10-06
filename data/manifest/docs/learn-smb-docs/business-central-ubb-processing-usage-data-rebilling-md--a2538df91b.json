@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "rebilling",
+  "title": "Rebilling usage data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/rebilling",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.005Z",
+      "blob": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653",
+      "words": 481,
+      "forms": 1
     }
   },
   "input_hash": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/processing-usage-data/rebilling.md"
-  }
+    "path": "business-central/UBB/processing-usage-data/rebilling.md",
+    "description": "Business Central automatically rebills usage data that arrives for an already-invoiced period.",
+    "ms_date": "2026-08-13",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8096",
+        "id": 8096,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 481
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00ce8f9e672cac52e2ee9c25dda3bd7a80d73653"
 }

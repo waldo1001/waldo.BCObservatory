@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "posting vat on sales",
+  "title": "Posting VAT on sales in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/posting-vat-on-sales",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.678Z",
+      "blob": "97eb285870f510f9197a3205c6f29380ce393335",
+      "words": 318,
+      "forms": 0
     }
   },
   "input_hash": "97eb285870f510f9197a3205c6f29380ce393335",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/posting-vat-on-sales.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/posting-vat-on-sales.md",
+    "description": "Enhancements for Russia provide support for VAT processing on sales documents.",
+    "ms_date": "2025-07-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT on sales",
+      "VAT posting",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 318
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "97eb285870f510f9197a3205c6f29380ce393335"
 }

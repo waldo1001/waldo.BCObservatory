@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "statutory statements",
+  "title": "Czech Local Functionality - Statutory Statements [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.454Z",
+      "blob": "425bc6ea5531ad3c026362b533f78ee790349d8e",
+      "words": 194,
+      "forms": 0
     }
   },
   "input_hash": "425bc6ea5531ad3c026362b533f78ee790349d8e",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/statutory-statements.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/statutory-statements.md",
+    "description": "Generate statutory financial reports, including Balance Sheet and Income Statement, for Czech legal compliance.",
+    "ms_date": "2025-06-06",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 194
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "425bc6ea5531ad3c026362b533f78ee790349d8e"
 }

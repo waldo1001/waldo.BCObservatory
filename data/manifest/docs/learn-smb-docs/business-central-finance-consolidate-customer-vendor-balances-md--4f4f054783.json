@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance consolidate customer vendor balances",
+  "title": "Consolidate Balances for a Company that is a Customer and a Vendor",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances",
   "published_at": "2026-05-06T01:55:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.923Z",
+      "blob": "afaee485cc8037a17d17c2b86cf1be29065402a7",
+      "words": 623,
+      "forms": 3
     }
   },
   "input_hash": "afaee485cc8037a17d17c2b86cf1be29065402a7",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-consolidate-customer-vendor-balances.md"
-  }
+    "path": "business-central/finance-consolidate-customer-vendor-balances.md",
+    "description": "Describes how to consolidate balances for a customer that is also a vendor.",
+    "ms_date": "2024-06-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5052",
+        "id": 5052,
+        "kind": null
+      },
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "5050",
+        "id": 5050,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment process",
+      "cash receipt"
+    ],
+    "ai_usage": null,
+    "words": 623
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "afaee485cc8037a17d17c2b86cf1be29065402a7"
 }

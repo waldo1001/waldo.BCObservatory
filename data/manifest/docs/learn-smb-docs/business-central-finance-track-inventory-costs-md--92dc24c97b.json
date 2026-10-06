@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance track inventory costs",
+  "title": "Track item cost adjustments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs",
   "published_at": "2025-04-09T17:48:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.061Z",
+      "blob": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401",
+      "words": 1807,
+      "forms": 0
     }
   },
   "input_hash": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-track-inventory-costs.md"
-  }
+    "path": "business-central/finance-track-inventory-costs.md",
+    "description": "Learn how tracking adjustments to item costs can help you keep your item cost data accurate.",
+    "ms_date": "2025-04-08",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1807
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401"
 }

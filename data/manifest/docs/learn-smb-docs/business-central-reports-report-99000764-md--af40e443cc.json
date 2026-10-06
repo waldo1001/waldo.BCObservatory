@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000764",
+  "title": "Prod. Order - Precalc. Time (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.835Z",
+      "blob": "1bf47a145e69d2a62a6e6300563b27d0436d543c",
+      "words": 205,
+      "forms": 1
     }
   },
   "input_hash": "1bf47a145e69d2a62a6e6300563b27d0436d543c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000764.md"
-  }
+    "path": "business-central/reports/report-99000764.md",
+    "description": "Helps plan and schedule production activities by estimating the time needed to complete each production order based on factors such as work centers, machine centers, and routing information.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000764_Primary",
+        "id": 99000764,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 205
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1bf47a145e69d2a62a6e6300563b27d0436d543c"
 }

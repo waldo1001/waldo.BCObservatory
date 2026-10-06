@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "external document numbers fiscal years",
+  "title": "External Document Numbers and Fiscal Years (ES)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.648Z",
+      "blob": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
+      "words": 105,
+      "forms": 0
     }
   },
   "input_hash": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years.md",
+    "description": "Learn how you can reuse External Document Numbers in different fiscal years in the Spanish version of Business Central.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "external document numbers",
+      "external document",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 105
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "46c70f301dc0499467e0e1ea7897f517c1a9bd35"
 }

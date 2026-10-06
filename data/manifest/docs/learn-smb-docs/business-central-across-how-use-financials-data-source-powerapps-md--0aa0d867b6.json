@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how use financials data source powerapps",
+  "title": "Use your data to create an app| Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.262Z",
+      "blob": "e4e8ea0b734bbb5e3a5c3e6a937abbc5c633c042",
+      "words": 648,
+      "forms": 0
     }
   },
   "input_hash": "e4e8ea0b734bbb5e3a5c3e6a937abbc5c633c042",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-use-financials-data-source-powerapps.md"
-  }
+    "path": "business-central/across-how-use-financials-data-source-powerapps.md",
+    "description": "Make your Business Central data available as a data source in Power Apps by specifying the OData URL of your web services to build custom business apps.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "OData",
+      "Power App",
+      "SOAP"
+    ],
+    "ai_usage": null,
+    "words": 648
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e4e8ea0b734bbb5e3a5c3e6a937abbc5c633c042"
 }

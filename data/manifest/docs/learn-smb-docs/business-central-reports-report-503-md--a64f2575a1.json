@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 503",
+  "title": "Foreign Currency Balance (report 503)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-503",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.353Z",
+      "blob": "c551e58a3d97d39c8c61760e41f98c494f10be13",
+      "words": 177,
+      "forms": 1
     }
   },
   "input_hash": "c551e58a3d97d39c8c61760e41f98c494f10be13",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-503.md"
-  }
+    "path": "business-central/reports/report-503.md",
+    "description": "Displays account balances in both local and foreign currencies for G/L, customer, or vendor accounts. Use it for monitoring and reconciling multi-currency transactions, especially during revaluation or when reviewing exchange rate impacts.",
+    "ms_date": "2025-06-21",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_503_Primary",
+        "id": 503,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting",
+      "currency",
+      "revaluation",
+      "foreign exchange"
+    ],
+    "ai_usage": null,
+    "words": 177
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c551e58a3d97d39c8c61760e41f98c494f10be13"
 }

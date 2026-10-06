@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics dimensionvalue get",
+  "title": "Get dimensionValues (Beta)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_dimensionvalue_get",
   "published_at": "2026-06-15T09:23:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.752Z",
+      "blob": "a98a9744c417e93c77ab887766b3e9df6364f9a6",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "a98a9744c417e93c77ab887766b3e9df6364f9a6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/financereportsapi/api/dynamics_dimensionvalue_get.md"
-  }
+    "path": "dev-itpro/administration/financereportsapi/api/dynamics_dimensionvalue_get.md",
+    "description": "Gets a dimension value object in Dynamics 365 Business Central (Beta).",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a98a9744c417e93c77ab887766b3e9df6364f9a6"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv requiredtestisolation property",
+  "title": "RequiredTestIsolation property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-requiredtestisolation-property",
   "published_at": "2025-08-19T10:57:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.231Z",
+      "blob": "7f60b31e11ccd563b9cd34af9817998ce56b9108",
+      "words": 200,
+      "forms": 0
     }
   },
   "input_hash": "7f60b31e11ccd563b9cd34af9817998ce56b9108",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-requiredtestisolation-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-requiredtestisolation-property.md",
+    "description": "Sets the required TestIsolation for tests in this codeunit to run in.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 200
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f60b31e11ccd563b9cd34af9817998ce56b9108"
 }

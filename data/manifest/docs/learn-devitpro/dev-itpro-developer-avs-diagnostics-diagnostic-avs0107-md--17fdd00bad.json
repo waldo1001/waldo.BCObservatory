@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic avs0107",
+  "title": "AVS Error AVS0107",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0107",
   "published_at": "2025-01-30T11:09:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.397Z",
+      "blob": "96e5d173caab852a3ee96e058c41880ed2ba8c0f",
+      "words": 72,
+      "forms": 0
     }
   },
   "input_hash": "96e5d173caab852a3ee96e058c41880ed2ba8c0f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0107.md"
-  }
+    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0107.md",
+    "description": "The extension '{0}' by '{1}' (version '{2}') has already been uploaded to Business Central for the country/region '{3}' with different content. Remove this extension from your submission, use the same .app file as the one that has already been uploaded to Business Central, or increase the version in the app.json.",
+    "ms_date": "2025-01-30",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 72
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "96e5d173caab852a3ee96e058c41880ed2ba8c0f"
 }

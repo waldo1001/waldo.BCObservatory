@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv api",
+  "title": "API developer overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.182Z",
+      "blob": "f42818a5f438b2f292a5432249a4c34b48a8eb02",
+      "words": 388,
+      "forms": 0
     }
   },
   "input_hash": "f42818a5f438b2f292a5432249a4c34b48a8eb02",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-api.md"
-  }
+    "path": "dev-itpro/developer/devenv-api.md",
+    "description": "Use APIs to expose information from the database into versioned, OData v4 enabled REST web services.",
+    "ms_date": "2025-02-07",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 388
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f42818a5f438b2f292a5432249a4c34b48a8eb02"
 }

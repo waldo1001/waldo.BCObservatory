@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to lend receive loaners",
+  "title": "How to lend service items as substitutes | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-lend-receive-loaners",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.500Z",
+      "blob": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe",
+      "words": 258,
+      "forms": 0
     }
   },
   "input_hash": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-lend-receive-loaners.md"
-  }
+    "path": "business-central/service-how-to-lend-receive-loaners.md",
+    "description": "Lend customers loaner items to temporarily substitute service items received for servicing.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "loaner items",
+      "lend loaner items",
+      "receive loaner items",
+      "service items",
+      "service management"
+    ],
+    "ai_usage": null,
+    "words": 258
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe"
 }

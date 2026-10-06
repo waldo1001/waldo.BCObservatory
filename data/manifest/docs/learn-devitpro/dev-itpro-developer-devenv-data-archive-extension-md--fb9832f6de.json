@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv data archive extension",
+  "title": "Extending the Data Archive extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-archive-extension",
   "published_at": "2025-05-06T19:26:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.930Z",
+      "blob": "af602df543df82ca0ffcbc0a17c908740589386d",
+      "words": 573,
+      "forms": 0
     }
   },
   "input_hash": "af602df543df82ca0ffcbc0a17c908740589386d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-data-archive-extension.md"
-  }
+    "path": "dev-itpro/developer/devenv-data-archive-extension.md",
+    "description": "Overview and examples of how to enable your app to archive data.",
+    "ms_date": "2023-12-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 573
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af602df543df82ca0ffcbc0a17c908740589386d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across powerbi apps by functional area",
+  "title": "Power BI apps/reports for functional areas",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area",
   "published_at": "2026-09-22T09:23:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.499Z",
+      "blob": "e0fe3459c56137df23d5cbfde6cdbd4a4cd8f0a7",
+      "words": 372,
+      "forms": 1
     }
   },
   "input_hash": "e0fe3459c56137df23d5cbfde6cdbd4a4cd8f0a7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-powerbi-apps-by-functional-area.md"
-  }
+    "path": "business-central/across-powerbi-apps-by-functional-area.md",
+    "description": "Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.",
+    "ms_date": "2026-09-14",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "36951",
+        "id": 36951,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "feature overview"
+    ],
+    "ai_usage": null,
+    "words": 372
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0fe3459c56137df23d5cbfde6cdbd4a4cd8f0a7"
 }

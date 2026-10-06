@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extension errors recommendations",
+  "title": "Extending error messages with recommendations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-errors-recommendations",
   "published_at": "2025-11-17T08:53:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.033Z",
+      "blob": "1d7b03037e9b719566707794a6dc3efc0a1a3f51",
+      "words": 664,
+      "forms": 0
     }
   },
   "input_hash": "1d7b03037e9b719566707794a6dc3efc0a1a3f51",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-extension-errors-recommendations.md"
-  }
+    "path": "dev-itpro/developer/devenv-extension-errors-recommendations.md",
+    "description": "Overview of how you can extend the error messages with recommendations framework to reduce friction for users of Business Central.",
+    "ms_date": "2025-11-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 664
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d7b03037e9b719566707794a6dc3efc0a1a3f51"
 }

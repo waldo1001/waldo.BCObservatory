@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject clone method",
+  "title": "JsonObject.Clone() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-clone-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.897Z",
+      "blob": "f118bef897874fdb874c7f9cdcc468c9e48c3217",
+      "words": 83,
+      "forms": 0
     }
   },
   "input_hash": "f118bef897874fdb874c7f9cdcc468c9e48c3217",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-clone-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-clone-method.md",
+    "description": "Creates a deep-copy of the JsonToken value.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 83
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f118bef897874fdb874c7f9cdcc468c9e48c3217"
 }

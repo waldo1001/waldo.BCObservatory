@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv al tool package",
+  "title": "AL Development Tools package",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool-package",
   "published_at": "2026-06-18T12:42:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.271Z",
+      "blob": "9b4d132fecda6dabbd00a6bbcae9ca47ae577b48",
+      "words": 332,
+      "forms": 0
     }
   },
   "input_hash": "9b4d132fecda6dabbd00a6bbcae9ca47ae577b48",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-al-tool-package.md"
-  }
+    "path": "dev-itpro/developer/devenv-al-tool-package.md",
+    "description": "Streamline AL extension development with the AL Development Tools package. Access powerful command-line utilities for compiling, packaging, and automating workflows.",
+    "ms_date": "2026-01-15",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 332
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b4d132fecda6dabbd00a6bbcae9ca47ae577b48"
 }

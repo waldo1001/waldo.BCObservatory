@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onafteraction actionextension trigger",
+  "title": "OnAfterAction (Action Extension) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/actionextension/devenv-onafteraction-actionextension-trigger",
   "published_at": "2024-08-27T10:52:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.784Z",
+      "blob": "9128e990bbe6b1409ddace88e4ef2db87bf89caa",
+      "words": 55,
+      "forms": 0
     }
   },
   "input_hash": "9128e990bbe6b1409ddace88e4ef2db87bf89caa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/actionextension/devenv-onafteraction-actionextension-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/actionextension/devenv-onafteraction-actionextension-trigger.md",
+    "description": "Runs after an action is run.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 55
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9128e990bbe6b1409ddace88e4ef2db87bf89caa"
 }

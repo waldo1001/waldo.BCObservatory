@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use clasification code for fixed assets",
+  "title": "Czech Local Functionality - Classification codes for fixed assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.372Z",
+      "blob": "a8bc992decf721050bea1b5fbb0c7eb4958e9b44",
+      "words": 63,
+      "forms": 0
     }
   },
   "input_hash": "a8bc992decf721050bea1b5fbb0c7eb4958e9b44",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets.md",
+    "description": "The new Classification Code table and the Classification Code field are added. The field is used for FA classification to the tax group.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Fixed Asset",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 63
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8bc992decf721050bea1b5fbb0c7eb4958e9b44"
 }

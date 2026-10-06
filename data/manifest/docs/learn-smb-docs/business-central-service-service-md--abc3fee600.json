@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service service",
+  "title": "Service management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-service",
   "published_at": "2026-07-17T13:46:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.704Z",
+      "blob": "b67792589f2969de814678e72e9ab99ba87c6f72",
+      "words": 216,
+      "forms": 0
     }
   },
   "input_hash": "b67792589f2969de814678e72e9ab99ba87c6f72",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-service.md"
-  }
+    "path": "business-central/service-service.md",
+    "description": "Learn to use features in Business Central designed to support service operations.",
+    "ms_date": "2026-07-16",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "service management",
+      "service orders",
+      "service items",
+      "service contracts",
+      "service pricing",
+      "service personnel",
+      "service estimates",
+      "service invoices"
+    ],
+    "ai_usage": null,
+    "words": 216
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b67792589f2969de814678e72e9ab99ba87c6f72"
 }

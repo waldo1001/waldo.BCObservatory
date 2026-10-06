@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5902",
+  "title": "Service Quote (document report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5902",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.588Z",
+      "blob": "4f5f3be444465d63e77a7323211a4219bf1a376a",
+      "words": 143,
+      "forms": 1
     }
   },
   "input_hash": "4f5f3be444465d63e77a7323211a4219bf1a376a",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5902.md"
-  }
+    "path": "business-central/reports/report-5902.md",
+    "description": "Generate a service quote document that you can send to your customer.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5902_Primary",
+        "id": 5902,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 143
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f5f3be444465d63e77a7323211a4219bf1a376a"
 }

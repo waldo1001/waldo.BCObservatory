@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5908",
+  "title": "Service Order - Response Time (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5908",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.597Z",
+      "blob": "cd7d98ee3184b5ea27ef7dd68802b8f20ff3f293",
+      "words": 140,
+      "forms": 1
     }
   },
   "input_hash": "cd7d98ee3184b5ea27ef7dd68802b8f20ff3f293",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5908.md"
-  }
+    "path": "business-central/reports/report-5908.md",
+    "description": "Analyze response times for service orders that were shipped.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5908_Primary",
+        "id": 5908,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd7d98ee3184b5ea27ef7dd68802b8f20ff3f293"
 }

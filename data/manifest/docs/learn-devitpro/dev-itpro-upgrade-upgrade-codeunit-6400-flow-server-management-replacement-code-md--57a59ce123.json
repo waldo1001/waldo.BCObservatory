@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade codeunit 6400 flow server management replacement code",
+  "title": "Codeunit 6400 Flow Server Management Replacement Code for C/AL to AL conversion",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code",
   "published_at": "2026-06-02T11:43:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.024Z",
+      "blob": "60771ae28f5b9df035dd9ca2e7963789b57f6345",
+      "words": 58,
+      "forms": 0
     }
   },
   "input_hash": "60771ae28f5b9df035dd9ca2e7963789b57f6345",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code.md",
+    "description": "The article includes replacement code for Page 6401 Flow Selector for fixing compilation errors when converting a Business Central version 14 application to version 15 AL.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 58
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60771ae28f5b9df035dd9ca2e7963789b57f6345"
 }

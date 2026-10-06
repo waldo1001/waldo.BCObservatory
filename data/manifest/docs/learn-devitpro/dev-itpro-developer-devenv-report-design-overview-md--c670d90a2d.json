@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv report design overview",
+  "title": "Report Design Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-design-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.601Z",
+      "blob": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2",
+      "words": 674,
+      "forms": 0
     }
   },
   "input_hash": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-report-design-overview.md"
-  }
+    "path": "dev-itpro/developer/devenv-report-design-overview.md",
+    "description": "Design a report by defining the dataset and designing the layout. Report object is composed of dataset, layout, request page, properties, triggers and code.",
+    "ms_date": "2023-12-08",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 674
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f8bdc557d1e8cf0d9bc3904857fd7b6a09d55a2"
 }

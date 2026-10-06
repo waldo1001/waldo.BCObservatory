@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "disable logging events windows application log",
+  "title": "Disable Logging Events to the Windows Application Log",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-logging-events-windows-application-log",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.356Z",
+      "blob": "00e247e0daf48351272a78e12586b6a54dba30ed",
+      "words": 314,
+      "forms": 0
     }
   },
   "input_hash": "00e247e0daf48351272a78e12586b6a54dba30ed",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/disable-logging-events-windows-application-log.md"
-  }
+    "path": "dev-itpro/administration/disable-logging-events-windows-application-log.md",
+    "description": "For Business Central on-premises, you can configure the event logs.",
+    "ms_date": "2024-04-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 314
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00e247e0daf48351272a78e12586b6a54dba30ed"
 }

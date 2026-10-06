@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance about cost accounting",
+  "title": "About cost accounting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-cost-accounting",
   "published_at": "2025-08-21T10:50:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.200Z",
+      "blob": "c7f5511d2d2dc96fc2179ad042d5e72cc98dfbc7",
+      "words": 749,
+      "forms": 8
     }
   },
   "input_hash": "c7f5511d2d2dc96fc2179ad042d5e72cc98dfbc7",
@@ -18,6 +24,57 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-about-cost-accounting.md"
-  }
+    "path": "business-central/finance-about-cost-accounting.md",
+    "description": "Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze various issues.",
+    "ms_date": "2024-07-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "1101",
+        "id": 1101,
+        "kind": null
+      },
+      {
+        "raw": "1103",
+        "id": 1103,
+        "kind": null
+      },
+      {
+        "raw": "1105",
+        "id": 1105,
+        "kind": null
+      },
+      {
+        "raw": "1108",
+        "id": 1108,
+        "kind": null
+      },
+      {
+        "raw": "1111",
+        "id": 1111,
+        "kind": null
+      },
+      {
+        "raw": "1112",
+        "id": 1112,
+        "kind": null
+      },
+      {
+        "raw": "1124",
+        "id": 1124,
+        "kind": null
+      },
+      {
+        "raw": "1123",
+        "id": 1123,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 749
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c7f5511d2d2dc96fc2179ad042d5e72cc98dfbc7"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlwriteoptions data type",
+  "title": "XmlWriteOptions data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlwriteoptions/xmlwriteoptions-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.198Z",
+      "blob": "b23f1485174b33165f7d00da00a7a9dff84852df",
+      "words": 87,
+      "forms": 0
     }
   },
   "input_hash": "b23f1485174b33165f7d00da00a7a9dff84852df",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlwriteoptions/xmlwriteoptions-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlwriteoptions/xmlwriteoptions-data-type.md",
+    "description": "Represents the options configuring how XML is saved.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 87
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b23f1485174b33165f7d00da00a7a9dff84852df"
 }

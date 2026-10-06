@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "contoso coffee intro",
+  "title": "Introduction to Contoso Coffee Demo Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.221Z",
+      "blob": "8aea8c3a04e19e0fb296d563a51bad4e6c60a35e",
+      "words": 301,
+      "forms": 1
     }
   },
   "input_hash": "8aea8c3a04e19e0fb296d563a51bad4e6c60a35e",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/contoso-coffee/contoso-coffee-intro.md"
-  }
+    "path": "business-central/contoso-coffee/contoso-coffee-intro.md",
+    "description": "Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.",
+    "ms_date": "2023-09-20",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "5194",
+        "id": 5194,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 301
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8aea8c3a04e19e0fb296d563a51bad4e6c60a35e"
 }

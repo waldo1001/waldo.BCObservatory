@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 30",
+  "title": "Check Value Posting (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-30",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.229Z",
+      "blob": "a01539ca64c4d7272020e983230d42e9738125a0",
+      "words": 171,
+      "forms": 1
     }
   },
   "input_hash": "a01539ca64c4d7272020e983230d42e9738125a0",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-30.md"
-  }
+    "path": "business-central/reports/report-30.md",
+    "description": "Verify whether value entries, such as inventory or cost postings, are correctly posted to the general ledger. Use this report to validate document posting behavior during implementation or troubleshooting.",
+    "ms_date": "2025-06-21",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_30_Primary",
+        "id": 30,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting",
+      "value posting",
+      "general ledger",
+      "validation"
+    ],
+    "ai_usage": null,
+    "words": 171
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a01539ca64c4d7272020e983230d42e9738125a0"
 }

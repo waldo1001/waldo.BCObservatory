@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "faq migrate data",
+  "title": "FAQ about Migrating to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.239Z",
+      "blob": "f4a5f68b135246cf6e321af2ddafe888f5e0e65f",
+      "words": 1235,
+      "forms": 0
     }
   },
   "input_hash": "f4a5f68b135246cf6e321af2ddafe888f5e0e65f",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/faq-migrate-data.md"
-  }
+    "path": "dev-itpro/administration/faq-migrate-data.md",
+    "description": "Get answers to frequently asked questions about migrating to Business Central online from on-premises solutions, including supported versions and data limits.",
+    "ms_date": "2026-05-27",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [
+      "cloud",
+      "edge",
+      "migration",
+      "faq"
+    ],
+    "ai_usage": null,
+    "words": 1235
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4a5f68b135246cf6e321af2ddafe888f5e0e65f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to fiscally close accounting periods",
+  "title": "How to Fiscally Close Accounting Periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.270Z",
+      "blob": "794bba4f3ef5f1d0d694eec959294222805f3502",
+      "words": 151,
+      "forms": 0
     }
   },
   "input_hash": "794bba4f3ef5f1d0d694eec959294222805f3502",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md"
-  }
+    "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md",
+    "description": "Learn how to fiscally close the accounting period to make sure that no more general ledger entries can be posted.",
+    "ms_date": "2025-04-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "close accounting period",
+      "fiscal period",
+      "close fiscal period",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 151
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "794bba4f3ef5f1d0d694eec959294222805f3502"
 }

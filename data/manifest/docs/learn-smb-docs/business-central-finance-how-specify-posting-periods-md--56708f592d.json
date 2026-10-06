@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how specify posting periods",
+  "title": "Specify posting periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-specify-posting-periods",
   "published_at": "2026-03-18T14:28:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.522Z",
+      "blob": "efd64e2a76d0fba452183fd66be9076cac6dbda6",
+      "words": 590,
+      "forms": 1
     }
   },
   "input_hash": "efd64e2a76d0fba452183fd66be9076cac6dbda6",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-specify-posting-periods.md"
-  }
+    "path": "business-central/finance-how-specify-posting-periods.md",
+    "description": "You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.",
+    "ms_date": "2026-03-18",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "118_Primary",
+        "id": 118,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "user setup"
+    ],
+    "ai_usage": null,
+    "words": 590
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efd64e2a76d0fba452183fd66be9076cac6dbda6"
 }

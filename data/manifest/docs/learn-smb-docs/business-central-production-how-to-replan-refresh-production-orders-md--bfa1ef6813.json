@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to replan refresh production orders",
+  "title": "Replan or refresh production orders directly",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-replan-refresh-production-orders",
   "published_at": "2026-09-04T14:06:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.970Z",
+      "blob": "8fbe236d07b4c44c6c5d4f9049e1065362e54bc5",
+      "words": 1016,
+      "forms": 5
     }
   },
   "input_hash": "8fbe236d07b4c44c6c5d4f9049e1065362e54bc5",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-replan-refresh-production-orders.md"
-  }
+    "path": "business-central/production-how-to-replan-refresh-production-orders.md",
+    "description": "This article outlines the procedures for how to replan production orders and refresh production orders directly.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "99000842",
+        "id": 99000842,
+        "kind": null
+      },
+      {
+        "raw": "99000843",
+        "id": 99000843,
+        "kind": null
+      },
+      {
+        "raw": "99000861",
+        "id": 99000861,
+        "kind": null
+      },
+      {
+        "raw": "99000862",
+        "id": 99000862,
+        "kind": null
+      },
+      {
+        "raw": "99000863",
+        "id": 99000863,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1016
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8fbe236d07b4c44c6c5d4f9049e1065362e54bc5"
 }

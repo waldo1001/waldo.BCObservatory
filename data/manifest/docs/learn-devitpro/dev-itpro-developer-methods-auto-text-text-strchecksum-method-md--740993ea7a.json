@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "text strchecksum method",
+  "title": "Text.StrCheckSum(Text [, Text] [, Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strchecksum-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.884Z",
+      "blob": "59021b9e517c82ca73697efc6f5e7ee2c640bdd6",
+      "words": 425,
+      "forms": 0
     }
   },
   "input_hash": "59021b9e517c82ca73697efc6f5e7ee2c640bdd6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/text/text-strchecksum-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/text/text-strchecksum-method.md",
+    "description": "Calculates a checksum for a string that contains a number.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 425
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59021b9e517c82ca73697efc6f5e7ee2c640bdd6"
 }

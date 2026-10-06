@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "fieldref getenumvaluename method",
+  "title": "FieldRef.GetEnumValueName(Integer) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/fieldref/fieldref-getenumvaluename-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.621Z",
+      "blob": "25ca3121582de25ef2dbbfe39202ec7a32471464",
+      "words": 118,
+      "forms": 0
     }
   },
   "input_hash": "25ca3121582de25ef2dbbfe39202ec7a32471464",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/fieldref/fieldref-getenumvaluename-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/fieldref/fieldref-getenumvaluename-method.md",
+    "description": "Gets an Enum value (or Option member) name from the Enum metadata for the field that is currently selected.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 118
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25ca3121582de25ef2dbbfe39202ec7a32471464"
 }

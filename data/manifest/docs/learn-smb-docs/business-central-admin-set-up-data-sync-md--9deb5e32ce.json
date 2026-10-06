@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin set up data sync",
+  "title": "Set up companies to synchronize master data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.550Z",
+      "blob": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
+      "words": 1478,
+      "forms": 10
     }
   },
   "input_hash": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
@@ -18,6 +24,67 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-set-up-data-sync.md"
-  }
+    "path": "business-central/admin-set-up-data-sync.md",
+    "description": "Learn how to set up one or more companies to synchronize master data.",
+    "ms_date": "2025-06-10",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7230",
+        "id": 7230,
+        "kind": null
+      },
+      {
+        "raw": "7233",
+        "id": 7233,
+        "kind": null
+      },
+      {
+        "raw": "5338",
+        "id": 5338,
+        "kind": null
+      },
+      {
+        "raw": "7236",
+        "id": 7236,
+        "kind": null
+      },
+      {
+        "raw": "672",
+        "id": 672,
+        "kind": null
+      },
+      {
+        "raw": "7234",
+        "id": 7234,
+        "kind": null
+      },
+      {
+        "raw": "7230_Primary",
+        "id": 7230,
+        "kind": "Primary"
+      },
+      {
+        "raw": "7233_Primary",
+        "id": 7233,
+        "kind": "Primary"
+      },
+      {
+        "raw": "7234_Primary",
+        "id": 7234,
+        "kind": "Primary"
+      },
+      {
+        "raw": "7236_Primary",
+        "id": 7236,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1478
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60cd7482a53b56c244dd657d85e821d5e8dc5706"
 }

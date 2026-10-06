@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Payroll",
+  "title": "Payroll in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.674Z",
+      "blob": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
+      "words": 703,
+      "forms": 0
     }
   },
   "input_hash": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Payroll.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Payroll.md",
+    "description": "Russian localization offers payroll management with salary calculation, deductions, tax processing, and compliance with local regulations.",
+    "ms_date": "2025-07-18",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "payroll",
+      "salary",
+      "wages",
+      "deductions",
+      "tax",
+      "bonus",
+      "income tax",
+      "tax deduction",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 703
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39"
 }

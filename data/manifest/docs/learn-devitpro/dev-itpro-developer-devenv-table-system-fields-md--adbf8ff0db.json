@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv table system fields",
+  "title": "Table System Fields in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-system-fields",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.329Z",
+      "blob": "254097ff724926196e526e005ef7d568b4d3faf3",
+      "words": 1402,
+      "forms": 0
     }
   },
   "input_hash": "254097ff724926196e526e005ef7d568b4d3faf3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-table-system-fields.md"
-  }
+    "path": "dev-itpro/developer/devenv-table-system-fields.md",
+    "description": "Learn how Business Central adds system fields for record IDs, data auditing, and timestamps to tables, including their behavior and use in AL code.",
+    "ms_date": "2026-08-25",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1402
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "254097ff724926196e526e005ef7d568b4d3faf3"
 }

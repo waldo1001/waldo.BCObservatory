@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics cloudmigrationcompany update",
+  "title": "(cloudMigration API) Update cloudMigrationCompanies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/api/dynamics_cloudmigrationcompany_update",
   "published_at": "2026-06-15T09:23:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.641Z",
+      "blob": "4aff43cb2ea81c3046e39cdab8d2a0d8dad7b4a7",
+      "words": 165,
+      "forms": 0
     }
   },
   "input_hash": "4aff43cb2ea81c3046e39cdab8d2a0d8dad7b4a7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloudmigrationapi/api/dynamics_cloudmigrationcompany_update.md"
-  }
+    "path": "dev-itpro/administration/cloudmigrationapi/api/dynamics_cloudmigrationcompany_update.md",
+    "description": "Updates a cloud migration company object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 165
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4aff43cb2ea81c3046e39cdab8d2a0d8dad7b4a7"
 }

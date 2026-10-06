@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory setup inventory",
+  "title": "Setting up inventory",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-setup-inventory",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.696Z",
+      "blob": "eceb8b7e3e22e3b5c8fd1a318162fefa3b77b9ff",
+      "words": 323,
+      "forms": 2
     }
   },
   "input_hash": "eceb8b7e3e22e3b5c8fd1a318162fefa3b77b9ff",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-setup-inventory.md"
-  }
+    "path": "business-central/inventory-setup-inventory.md",
+    "description": "Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.",
+    "ms_date": "2024-06-13",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      },
+      {
+        "raw": "461",
+        "id": 461,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "warehouse",
+      "stock"
+    ],
+    "ai_usage": null,
+    "words": 323
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eceb8b7e3e22e3b5c8fd1a318162fefa3b77b9ff"
 }

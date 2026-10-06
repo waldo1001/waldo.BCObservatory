@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print an inventory picking list from a sales order",
+  "title": "Print an Inventory Picking List from a Sales Order in Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.934Z",
+      "blob": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
+      "words": 159,
+      "forms": 0
     }
   },
   "input_hash": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md",
+    "description": "Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "inventory picking list",
+      "print picking list",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 159
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d98448e8a0f419b39ed7a402eb187b3a23b398a6"
 }

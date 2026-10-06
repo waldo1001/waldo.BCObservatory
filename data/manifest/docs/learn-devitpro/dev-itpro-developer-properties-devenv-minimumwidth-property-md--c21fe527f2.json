@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv minimumwidth property",
+  "title": "MinimumWidth property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-minimumwidth-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.898Z",
+      "blob": "b4b282fe097f0d617fe9bde0286aeb6c74ea1e8a",
+      "words": 126,
+      "forms": 0
     }
   },
   "input_hash": "b4b282fe097f0d617fe9bde0286aeb6c74ea1e8a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-minimumwidth-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-minimumwidth-property.md",
+    "description": "Specifies the minimum width that the control add-in can be shrunk to.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 126
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4b282fe097f0d617fe9bde0286aeb6c74ea1e8a"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bank how reconcile bank accounts separately",
+  "title": "Reconcile bank accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.287Z",
+      "blob": "b80065b3e27c9b52b39da3e5cacd29d5877506a5",
+      "words": 4599,
+      "forms": 0
     }
   },
   "input_hash": "b80065b3e27c9b52b39da3e5cacd29d5877506a5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bank-how-reconcile-bank-accounts-separately.md"
-  }
+    "path": "business-central/bank-how-reconcile-bank-accounts-separately.md",
+    "description": "Learn how to reconcile transactions in Business Central with transactions in statements from your bank.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 4599
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b80065b3e27c9b52b39da3e5cacd29d5877506a5"
 }

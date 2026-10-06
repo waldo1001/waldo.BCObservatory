@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import and export account schedules",
+  "title": "Importing and Exporting Financial Reports in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.540Z",
+      "blob": "969e0ef1af274692694cf721277c4df10172809d",
+      "words": 97,
+      "forms": 0
     }
   },
   "input_hash": "969e0ef1af274692694cf721277c4df10172809d",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules.md",
+    "description": "Russian localization allows you to import and export financial reports between companies and databases.",
+    "ms_date": "2025-07-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "financial reports",
+      "import financial report",
+      "export financial report",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 97
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "969e0ef1af274692694cf721277c4df10172809d"
 }

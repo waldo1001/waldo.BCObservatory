@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui how add fields word report layout",
+  "title": "Map Data Fields in Word Layouts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.362Z",
+      "blob": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
+      "words": 1003,
+      "forms": 0
     }
   },
   "input_hash": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-how-add-fields-word-report-layout.md"
-  }
+    "path": "business-central/ui-how-add-fields-word-report-layout.md",
+    "description": "Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.",
+    "ms_date": "2026-09-09",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "Word layout",
+      "XML Mapping Pane",
+      "custom XML part",
+      "content control",
+      "report field"
+    ],
+    "ai_usage": null,
+    "words": 1003
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "517d4c856c6634efa3c49038d61e0dd38ec7c637"
 }

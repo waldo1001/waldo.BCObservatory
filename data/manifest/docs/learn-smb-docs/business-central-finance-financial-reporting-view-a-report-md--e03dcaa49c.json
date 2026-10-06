@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance financial reporting view a report",
+  "title": "View a financial report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-view-a-report",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.034Z",
+      "blob": "e10861cbf7f21f3f309df34040f3a2896b2f78ca",
+      "words": 1258,
+      "forms": 2
     }
   },
   "input_hash": "e10861cbf7f21f3f309df34040f3a2896b2f78ca",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-financial-reporting-view-a-report.md"
-  }
+    "path": "business-central/finance-financial-reporting-view-a-report.md",
+    "description": "Describes how to view a financial report on-screen, as a PDF, or in Excel.",
+    "ms_date": "2026-09-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Report_25_Primary",
+        "id": 25,
+        "kind": "Report Primary"
+      },
+      {
+        "raw": "490",
+        "id": 490,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report"
+    ],
+    "ai_usage": null,
+    "words": 1258
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e10861cbf7f21f3f309df34040f3a2896b2f78ca"
 }

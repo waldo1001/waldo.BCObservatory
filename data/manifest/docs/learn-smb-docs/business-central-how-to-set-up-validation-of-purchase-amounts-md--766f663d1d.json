@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up validation of purchase amounts",
+  "title": "Set up validation of purchase amounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.746Z",
+      "blob": "e236b1d609611d90321abf511ef325262405f82e",
+      "words": 405,
+      "forms": 0
     }
   },
   "input_hash": "e236b1d609611d90321abf511ef325262405f82e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/how-to-set-up-validation-of-purchase-amounts.md"
-  }
+    "path": "business-central/how-to-set-up-validation-of-purchase-amounts.md",
+    "description": "You can validate the total amount on purchase invoices and credit memos before you post the documents.",
+    "ms_date": "2025-03-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 405
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e236b1d609611d90321abf511ef325262405f82e"
 }

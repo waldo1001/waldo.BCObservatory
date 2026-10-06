@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv validatetablerelation property",
+  "title": "ValidateTableRelation property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-validatetablerelation-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.281Z",
+      "blob": "d5ecc609d77577491cd19a3b87126b295eb5424a",
+      "words": 487,
+      "forms": 0
     }
   },
   "input_hash": "d5ecc609d77577491cd19a3b87126b295eb5424a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-validatetablerelation-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-validatetablerelation-property.md",
+    "description": "Sets whether to validate a table relationship.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 487
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5ecc609d77577491cd19a3b87126b295eb5424a"
 }

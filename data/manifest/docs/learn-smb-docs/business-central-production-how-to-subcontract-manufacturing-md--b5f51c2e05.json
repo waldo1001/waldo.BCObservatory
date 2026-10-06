@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to subcontract manufacturing",
+  "title": "Subcontracting overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-subcontract-manufacturing",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.730Z",
+      "blob": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3",
+      "words": 570,
+      "forms": 1
     }
   },
   "input_hash": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-subcontract-manufacturing.md"
-  }
+    "path": "business-central/production-how-to-subcontract-manufacturing.md",
+    "description": "Get an overview of subcontracting capabilities for manufacturing, including subcontractor prices, component posting, transfer orders, and location management.",
+    "ms_date": "2026-07-08",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "99000886",
+        "id": 99000886,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "subcontracting",
+      "manufacturing",
+      "production",
+      "vendor",
+      "prices"
+    ],
+    "ai_usage": null,
+    "words": 570
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3"
 }

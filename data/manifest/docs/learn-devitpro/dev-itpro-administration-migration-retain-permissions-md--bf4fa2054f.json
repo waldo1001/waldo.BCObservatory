@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migration retain permissions",
+  "title": "Retain permissions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.545Z",
+      "blob": "dc7e149679b16aeb6a956b3252ff5745950c0d76",
+      "words": 265,
+      "forms": 0
     }
   },
   "input_hash": "dc7e149679b16aeb6a956b3252ff5745950c0d76",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migration-retain-permissions.md"
-  }
+    "path": "dev-itpro/administration/migration-retain-permissions.md",
+    "description": "Learn how to keep the permissions assigned to existing online users so they can continue to work as usual during cloud migration.",
+    "ms_date": "2024-02-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc7e149679b16aeb6a956b3252ff5745950c0d76"
 }

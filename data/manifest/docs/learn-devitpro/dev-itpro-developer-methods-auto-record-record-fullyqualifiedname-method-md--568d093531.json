@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "record fullyqualifiedname method",
+  "title": "Record.FullyQualifiedName() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-fullyqualifiedname-method",
   "published_at": "2026-03-11T10:16:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.986Z",
+      "blob": "2bd52a6c94a8f202e0771b3fc3b9230ec79a5085",
+      "words": 88,
+      "forms": 0
     }
   },
   "input_hash": "2bd52a6c94a8f202e0771b3fc3b9230ec79a5085",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/record/record-fullyqualifiedname-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/record/record-fullyqualifiedname-method.md",
+    "description": "Gets the fully qualified name of a table.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 88
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bd52a6c94a8f202e0771b3fc3b9230ec79a5085"
 }

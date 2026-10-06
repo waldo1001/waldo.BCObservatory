@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics company get",
+  "title": "Get a Company with the Business Central Dataverse API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-dataverse/api/dynamics_company_get",
   "published_at": "2026-09-21T09:07:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.536Z",
+      "blob": "b814963323e8cb0be92867e45ac3e04ffb9560b4",
+      "words": 88,
+      "forms": 0
     }
   },
   "input_hash": "b814963323e8cb0be92867e45ac3e04ffb9560b4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-dataverse/api/dynamics_company_get.md"
-  }
+    "path": "dev-itpro/api-dataverse/api/dynamics_company_get.md",
+    "description": "Retrieve a Business Central company through the Dataverse API route so you can identify the company used for entity change operations.",
+    "ms_date": "2026-09-10",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 88
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b814963323e8cb0be92867e45ac3e04ffb9560b4"
 }

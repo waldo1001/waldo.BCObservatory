@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic banking in norway",
+  "title": "Electronic banking in Norway",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.007Z",
+      "blob": "c16dc1f2f1f4225e1b5ea2b294a7d9a607710e63",
+      "words": 196,
+      "forms": 0
     }
   },
   "input_hash": "c16dc1f2f1f4225e1b5ea2b294a7d9a607710e63",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/electronic-banking-in-norway.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/electronic-banking-in-norway.md",
+    "description": "Learn about the Norwegian-specific enhancements in Business Central for managing electronic banking operations efficiently.",
+    "ms_date": "2025-05-12",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Norwegian enhancements",
+      "manage electronic banking",
+      "KID",
+      "Kunde ID"
+    ],
+    "ai_usage": null,
+    "words": 196
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c16dc1f2f1f4225e1b5ea2b294a7d9a607710e63"
 }

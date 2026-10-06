@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "job queue",
+  "title": "Job queue",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.276Z",
+      "blob": "04caaddcd966742b3695c4fd7b51f7f0ae831569",
+      "words": 70,
+      "forms": 1
     }
   },
   "input_hash": "04caaddcd966742b3695c4fd7b51f7f0ae831569",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/setup/job-queue.md"
-  }
+    "path": "business-central/SRB/setup/job-queue.md",
+    "description": "You can use job queue entries in subscription billing.",
+    "ms_date": "2025-05-06",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8059",
+        "id": 8059,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 70
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04caaddcd966742b3695c4fd7b51f7f0ae831569"
 }

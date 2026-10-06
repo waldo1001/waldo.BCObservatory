@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to pick for production",
+  "title": "Pick or move items for production, assembly, or projects in basic warehouse configurations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-production",
   "published_at": "2026-05-14T06:34:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.691Z",
+      "blob": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d",
+      "words": 1823,
+      "forms": 0
     }
   },
   "input_hash": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-pick-for-production.md"
-  }
+    "path": "business-central/warehouse-how-to-pick-for-production.md",
+    "description": "When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.",
+    "ms_date": "2025-03-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1823
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "65abafe3d49a74a3bb30162baeef5d3f6edaeb5d"
 }

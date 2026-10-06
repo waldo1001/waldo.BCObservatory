@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance analyze cash flow",
+  "title": "Analyze cash flows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.646Z",
+      "blob": "773a64f789cf89c201f83785e3f593333aebf783",
+      "words": 378,
+      "forms": 20
     }
   },
   "input_hash": "773a64f789cf89c201f83785e3f593333aebf783",
@@ -18,6 +24,123 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-analyze-cash-flow.md"
-  }
+    "path": "business-central/finance-analyze-cash-flow.md",
+    "description": "Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.",
+    "ms_date": "2024-07-31",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "762",
+        "id": 762,
+        "kind": null
+      },
+      {
+        "raw": "840",
+        "id": 840,
+        "kind": null
+      },
+      {
+        "raw": "841",
+        "id": 841,
+        "kind": null
+      },
+      {
+        "raw": "847",
+        "id": 847,
+        "kind": null
+      },
+      {
+        "raw": "848",
+        "id": 848,
+        "kind": null
+      },
+      {
+        "raw": "849",
+        "id": 849,
+        "kind": null
+      },
+      {
+        "raw": "850",
+        "id": 850,
+        "kind": null
+      },
+      {
+        "raw": "851",
+        "id": 851,
+        "kind": null
+      },
+      {
+        "raw": "857",
+        "id": 857,
+        "kind": null
+      },
+      {
+        "raw": "858",
+        "id": 858,
+        "kind": null
+      },
+      {
+        "raw": "859",
+        "id": 859,
+        "kind": null
+      },
+      {
+        "raw": "860",
+        "id": 860,
+        "kind": null
+      },
+      {
+        "raw": "862",
+        "id": 862,
+        "kind": null
+      },
+      {
+        "raw": "863",
+        "id": 863,
+        "kind": null
+      },
+      {
+        "raw": "865",
+        "id": 865,
+        "kind": null
+      },
+      {
+        "raw": "866",
+        "id": 866,
+        "kind": null
+      },
+      {
+        "raw": "867",
+        "id": 867,
+        "kind": null
+      },
+      {
+        "raw": "868",
+        "id": 868,
+        "kind": null
+      },
+      {
+        "raw": "869",
+        "id": 869,
+        "kind": null
+      },
+      {
+        "raw": "1818",
+        "id": 1818,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "money flow",
+      "expense and income",
+      "liquidity",
+      "cash receipts minus cash payments",
+      "Cartera"
+    ],
+    "ai_usage": null,
+    "words": 378
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "773a64f789cf89c201f83785e3f593333aebf783"
 }

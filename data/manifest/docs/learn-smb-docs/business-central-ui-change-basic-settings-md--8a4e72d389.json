@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui change basic settings",
+  "title": "Change basic settings for the current user",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
   "published_at": "2026-05-07T03:20:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.882Z",
+      "blob": "40854c40ab11b4625c1d6b57c28ec43b31f83447",
+      "words": 1252,
+      "forms": 17
     }
   },
   "input_hash": "40854c40ab11b4625c1d6b57c28ec43b31f83447",
@@ -18,6 +24,108 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-change-basic-settings.md"
-  }
+    "path": "business-central/ui-change-basic-settings.md",
+    "description": "Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.",
+    "ms_date": "2025-03-26",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9022",
+        "id": 9022,
+        "kind": null
+      },
+      {
+        "raw": "9019",
+        "id": 9019,
+        "kind": null
+      },
+      {
+        "raw": "9027",
+        "id": 9027,
+        "kind": null
+      },
+      {
+        "raw": "9020",
+        "id": 9020,
+        "kind": null
+      },
+      {
+        "raw": "9026",
+        "id": 9026,
+        "kind": null
+      },
+      {
+        "raw": "9030",
+        "id": 9030,
+        "kind": null
+      },
+      {
+        "raw": "9000",
+        "id": 9000,
+        "kind": null
+      },
+      {
+        "raw": "9009",
+        "id": 9009,
+        "kind": null
+      },
+      {
+        "raw": "9004",
+        "id": 9004,
+        "kind": null
+      },
+      {
+        "raw": "9005",
+        "id": 9005,
+        "kind": null
+      },
+      {
+        "raw": "9006",
+        "id": 9006,
+        "kind": null
+      },
+      {
+        "raw": "9007",
+        "id": 9007,
+        "kind": null
+      },
+      {
+        "raw": "9010",
+        "id": 9010,
+        "kind": null
+      },
+      {
+        "raw": "9016",
+        "id": 9016,
+        "kind": null
+      },
+      {
+        "raw": "9017",
+        "id": 9017,
+        "kind": null
+      },
+      {
+        "raw": "3563_Primary",
+        "id": 3563,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9024_Primary",
+        "id": 9024,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "change Role Center",
+      "notification",
+      "change company",
+      "change work date",
+      "decimal separator"
+    ],
+    "ai_usage": null,
+    "words": 1252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40854c40ab11b4625c1d6b57c28ec43b31f83447"
 }

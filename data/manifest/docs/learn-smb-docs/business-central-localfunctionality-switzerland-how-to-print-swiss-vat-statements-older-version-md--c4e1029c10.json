@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print swiss vat statements older version",
+  "title": "How to Print Swiss VAT Statements (older version)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.946Z",
+      "blob": "8f61f07a333fabef79a0c4d1946c2ac449a27d70",
+      "words": 363,
+      "forms": 0
     }
   },
   "input_hash": "8f61f07a333fabef79a0c4d1946c2ac449a27d70",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md",
+    "description": "Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "Swiss VAT statement",
+      "VAT statement",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 363
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f61f07a333fabef79a0c4d1946c2ac449a27d70"
 }

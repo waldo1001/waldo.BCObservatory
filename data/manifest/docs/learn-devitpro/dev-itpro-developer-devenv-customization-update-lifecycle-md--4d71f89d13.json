@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv customization update lifecycle",
+  "title": "Update Lifecycle for Tenant Customizations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.103Z",
+      "blob": "90d1e89e097bd52efb3f717d5d801ac66bac5c67",
+      "words": 443,
+      "forms": 0
     }
   },
   "input_hash": "90d1e89e097bd52efb3f717d5d801ac66bac5c67",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-customization-update-lifecycle.md"
-  }
+    "path": "dev-itpro/developer/devenv-customization-update-lifecycle.md",
+    "description": "Overview of the process of ensuring extension compatibility with update versions",
+    "ms_date": "2021-04-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 443
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90d1e89e097bd52efb3f717d5d801ac66bac5c67"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv robust coding practices",
+  "title": "Failure modeling and robust coding practices",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-robust-coding-practices",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.592Z",
+      "blob": "b047f8e70a1a2767bf92c2d773f9c489fcd88d51",
+      "words": 1851,
+      "forms": 0
     }
   },
   "input_hash": "b047f8e70a1a2767bf92c2d773f9c489fcd88d51",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-robust-coding-practices.md"
-  }
+    "path": "dev-itpro/developer/devenv-robust-coding-practices.md",
+    "description": "Describes how to reason over errors and handle them in code.",
+    "ms_date": "2024-01-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1851
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b047f8e70a1a2767bf92c2d773f9c489fcd88d51"
 }

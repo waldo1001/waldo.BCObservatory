@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across link doc dates to posting dates",
+  "title": "Updating document dates with posting dates",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.280Z",
+      "blob": "6c7eb9e048e4188669c9402a1cfe8af93c189e61",
+      "words": 13,
+      "forms": 0
     }
   },
   "input_hash": "6c7eb9e048e4188669c9402a1cfe8af93c189e61",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-link-doc-dates-to-posting-dates.md"
-  }
+    "path": "business-central/across-link-doc-dates-to-posting-dates.md",
+    "description": "Learn how to make sure that document dates on sales and purchase documents match their posting dates.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 13
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6c7eb9e048e4188669c9402a1cfe8af93c189e61"
 }

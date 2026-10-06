@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0090",
+  "title": "AppSourceCop Error AS0090",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0090",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.411Z",
+      "blob": "4659d65a5cf20c7b145d5d2ecb48bbe8c75d9c83",
+      "words": 82,
+      "forms": 0
     }
   },
   "input_hash": "4659d65a5cf20c7b145d5d2ecb48bbe8c75d9c83",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0090.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0090.md",
+    "description": "Objects than can be referenced and which have been published must not be renamed because it might break the upgrade of existing installations and dependent extensions.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 82
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4659d65a5cf20c7b145d5d2ecb48bbe8c75d9c83"
 }

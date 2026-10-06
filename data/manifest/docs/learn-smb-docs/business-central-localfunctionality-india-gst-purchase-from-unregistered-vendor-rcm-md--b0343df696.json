@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Purchase from Unregistered Vendor RCM",
+  "title": "Purchase of Goods from an Unregistered Vendor (Reverse Charge)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.991Z",
+      "blob": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
+      "words": 542,
+      "forms": 0
     }
   },
   "input_hash": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md",
+    "description": "Learn how to process purchases from unregistered vendors in India under the GST reverse charge mechanism in Dynamics 365 Business Central.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "reverse charge",
+      "unregistered vendor",
+      "create purchase invoice"
+    ],
+    "ai_usage": null,
+    "words": 542
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be"
 }

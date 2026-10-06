@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi month to date",
+  "title": "Sales Month-to-Date (MTD) (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
   "published_at": "2025-05-06T19:35:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.402Z",
+      "blob": "d6a95aba0fd0682193a484a654650196d8b09de0",
+      "words": 355,
+      "forms": 1
     }
   },
   "input_hash": "d6a95aba0fd0682193a484a654650196d8b09de0",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-month-to-date.md"
-  }
+    "path": "business-central/sales-powerbi-month-to-date.md",
+    "description": "The *Month-to-Date (MTD)* report allows you to monitor the progress of their sales revenue for the current month",
+    "ms_date": "2024-10-26",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37003_Primary",
+        "id": 37003,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 355
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6a95aba0fd0682193a484a654650196d8b09de0"
 }

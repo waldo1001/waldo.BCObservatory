@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "synchronize items",
+  "title": "Synchronize items with Shopify",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.294Z",
+      "blob": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
+      "words": 5758,
+      "forms": 2
     }
   },
   "input_hash": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/synchronize-items.md"
-  }
+    "path": "business-central/shopify/synchronize-items.md",
+    "description": "Set up and run synchronizations of items, products, images, and variants between Shopify and Business Central.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30126",
+        "id": 30126,
+        "kind": null
+      },
+      {
+        "raw": "30127",
+        "id": 30127,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 5758
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b7be656e5c87dc0f5940928da1efbbe9364dcced"
 }

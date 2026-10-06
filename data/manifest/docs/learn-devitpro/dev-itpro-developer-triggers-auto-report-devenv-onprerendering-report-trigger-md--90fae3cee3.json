@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onprerendering report trigger",
+  "title": "OnPreRendering (Report) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/report/devenv-onprerendering-report-trigger",
   "published_at": "2026-01-05T08:18:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.688Z",
+      "blob": "0618a359ad24bcb5313e816aafdd1ec28b71d47a",
+      "words": 499,
+      "forms": 0
     }
   },
   "input_hash": "0618a359ad24bcb5313e816aafdd1ec28b71d47a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/report/devenv-onprerendering-report-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/report/devenv-onprerendering-report-trigger.md",
+    "description": "Runs when a report dataset has been finalized and before the output artifact has been rendered.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 499
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0618a359ad24bcb5313e816aafdd1ec28b71d47a"
 }

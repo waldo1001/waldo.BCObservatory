@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 322",
+  "title": "Aged Accounts Payable (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-322",
   "published_at": "2026-06-02T10:44:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.429Z",
+      "blob": "e1bfd8b697148d3326af23160bee75f293343320",
+      "words": 698,
+      "forms": 1
     }
   },
   "input_hash": "e1bfd8b697148d3326af23160bee75f293343320",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-322.md"
-  }
+    "path": "business-central/reports/report-322.md",
+    "description": "Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.",
+    "ms_date": "2024-12-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_322_Primary",
+        "id": 322,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 698
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1bfd8b697148d3326af23160bee75f293343320"
 }

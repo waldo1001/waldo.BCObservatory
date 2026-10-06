@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "synchronize orders",
+  "title": "Synchronize and fulfill sales orders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-orders",
   "published_at": "2026-10-02T12:36:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.896Z",
+      "blob": "0d800e020aecfaa88d2bb689979c55643bbdb9e1",
+      "words": 8740,
+      "forms": 16
     }
   },
   "input_hash": "0d800e020aecfaa88d2bb689979c55643bbdb9e1",
@@ -18,6 +24,97 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/synchronize-orders.md"
-  }
+    "path": "business-central/shopify/synchronize-orders.md",
+    "description": "Set up and run import and processing of sales orders from Shopify.",
+    "ms_date": "2026-09-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30110",
+        "id": 30110,
+        "kind": null
+      },
+      {
+        "raw": "30111",
+        "id": 30111,
+        "kind": null
+      },
+      {
+        "raw": "30112",
+        "id": 30112,
+        "kind": null
+      },
+      {
+        "raw": "30113",
+        "id": 30113,
+        "kind": null
+      },
+      {
+        "raw": "30114",
+        "id": 30114,
+        "kind": null
+      },
+      {
+        "raw": "30115",
+        "id": 30115,
+        "kind": null
+      },
+      {
+        "raw": "30121",
+        "id": 30121,
+        "kind": null
+      },
+      {
+        "raw": "30122",
+        "id": 30122,
+        "kind": null
+      },
+      {
+        "raw": "30123",
+        "id": 30123,
+        "kind": null
+      },
+      {
+        "raw": "30128",
+        "id": 30128,
+        "kind": null
+      },
+      {
+        "raw": "30129",
+        "id": 30129,
+        "kind": null
+      },
+      {
+        "raw": "30150",
+        "id": 30150,
+        "kind": null
+      },
+      {
+        "raw": "30151",
+        "id": 30151,
+        "kind": null
+      },
+      {
+        "raw": "30145",
+        "id": 30145,
+        "kind": null
+      },
+      {
+        "raw": "30147",
+        "id": 30147,
+        "kind": null
+      },
+      {
+        "raw": "30168",
+        "id": 30168,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 8740
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d800e020aecfaa88d2bb689979c55643bbdb9e1"
 }

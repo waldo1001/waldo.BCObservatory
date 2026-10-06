@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to create service quotes",
+  "title": "How to create service quotes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-quotes",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.495Z",
+      "blob": "332ce5241b0c06817d117dc6b9455520ebc34c4c",
+      "words": 259,
+      "forms": 0
     }
   },
   "input_hash": "332ce5241b0c06817d117dc6b9455520ebc34c4c",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-create-service-quotes.md"
-  }
+    "path": "business-central/service-how-to-create-service-quotes.md",
+    "description": "Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "service management",
+      "service",
+      "service quote",
+      "service quotes",
+      "create service quote",
+      "create service quotes"
+    ],
+    "ai_usage": null,
+    "words": 259
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "332ce5241b0c06817d117dc6b9455520ebc34c4c"
 }

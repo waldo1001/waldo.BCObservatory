@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory act of receivables and payables inv 17",
+  "title": "Inventory act of receivables and payables INV-17 in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.644Z",
+      "blob": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f",
+      "words": 653,
+      "forms": 0
     }
   },
   "input_hash": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md",
+    "description": "Provides guidance on using the INV-17 and Supplement to INV-17 reports as part of Russian localization in Business Central.",
+    "ms_date": "2025-07-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "inventory acts",
+      "inventory act card",
+      "inventory act processing",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 653
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics purchaseorder get",
+  "title": "Get purchaseOrders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchaseorder_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.018Z",
+      "blob": "2bde3cc12f6e6a4e7fa25e0920687d0c9f67c3ab",
+      "words": 93,
+      "forms": 0
     }
   },
   "input_hash": "2bde3cc12f6e6a4e7fa25e0920687d0c9f67c3ab",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_purchaseorder_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_purchaseorder_get.md",
+    "description": "Gets a purchase order object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 93
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bde3cc12f6e6a4e7fa25e0920687d0c9f67c3ab"
 }

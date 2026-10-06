@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin how setup email",
+  "title": "Set up email in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-setup-email",
   "published_at": "2026-06-17T06:49:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.455Z",
+      "blob": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a",
+      "words": 3864,
+      "forms": 8
     }
   },
   "input_hash": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a",
@@ -18,6 +24,62 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-how-setup-email.md"
-  }
+    "path": "business-central/admin-how-setup-email.md",
+    "description": "Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.",
+    "ms_date": "2026-03-12",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "1805",
+        "id": 1805,
+        "kind": null
+      },
+      {
+        "raw": "9813",
+        "id": 9813,
+        "kind": null
+      },
+      {
+        "raw": "9814",
+        "id": 9814,
+        "kind": null
+      },
+      {
+        "raw": "1262",
+        "id": 1262,
+        "kind": null
+      },
+      {
+        "raw": "1263",
+        "id": 1263,
+        "kind": null
+      },
+      {
+        "raw": "8898_Primary",
+        "id": 8898,
+        "kind": "Primary"
+      },
+      {
+        "raw": "8897_Primary",
+        "id": 8897,
+        "kind": "Primary"
+      },
+      {
+        "raw": "8893_Primary",
+        "id": 8893,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "SMTP",
+      "email",
+      "Office 365",
+      "connector"
+    ],
+    "ai_usage": null,
+    "words": 3864
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a"
 }

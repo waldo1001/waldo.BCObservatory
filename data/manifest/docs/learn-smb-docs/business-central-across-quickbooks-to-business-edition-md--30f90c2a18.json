@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across quickbooks to business edition",
+  "title": "Transfer data from a QuickBooks app",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.298Z",
+      "blob": "b3265b0ae6b33da2d21d014764a701a636575386",
+      "words": 181,
+      "forms": 1
     }
   },
   "input_hash": "b3265b0ae6b33da2d21d014764a701a636575386",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-quickbooks-to-business-edition.md"
-  }
+    "path": "business-central/across-quickbooks-to-business-edition.md",
+    "description": "Migrate your customers, vendors, inventory items, and general ledger accounts from QuickBooks Desktop or Online to Dynamics 365 Business Central.",
+    "ms_date": "2025-10-17",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "1808",
+        "id": 1808,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "app",
+      "import",
+      "migrate",
+      "data",
+      "transfer",
+      "QuickBooks",
+      "customize"
+    ],
+    "ai_usage": null,
+    "words": 181
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b3265b0ae6b33da2d21d014764a701a636575386"
 }

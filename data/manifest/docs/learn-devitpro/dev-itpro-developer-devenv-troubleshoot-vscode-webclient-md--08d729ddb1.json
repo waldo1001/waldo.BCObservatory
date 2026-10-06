@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv troubleshoot vscode webclient",
+  "title": "Troubleshoot in Visual Studio Code directly from the web client",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshoot-vscode-webclient",
   "published_at": "2025-03-31T08:15:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.090Z",
+      "blob": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87",
+      "words": 1520,
+      "forms": 0
     }
   },
   "input_hash": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-troubleshoot-vscode-webclient.md"
-  }
+    "path": "dev-itpro/developer/devenv-troubleshoot-vscode-webclient.md",
+    "description": "Opening Visual Studio Code directly from the Business Central web client to perform troubleshooting.",
+    "ms_date": "2025-03-26",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1520
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87"
 }

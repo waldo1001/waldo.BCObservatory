@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa how dispose retire",
+  "title": "Dispose or retire FA",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-dispose-retire",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.014Z",
+      "blob": "1300542a8c4022fb5b6fdc3789849e64c4529a84",
+      "words": 510,
+      "forms": 5
     }
   },
   "input_hash": "1300542a8c4022fb5b6fdc3789849e64c4529a84",
@@ -18,6 +24,46 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-how-dispose-retire.md"
-  }
+    "path": "business-central/fa-how-dispose-retire.md",
+    "description": "Post the disposal value when selling or retiring a fixed asset to calculate and record any gain or loss.",
+    "ms_date": "2026-08-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5628",
+        "id": 5628,
+        "kind": null
+      },
+      {
+        "raw": "5610",
+        "id": 5610,
+        "kind": null
+      },
+      {
+        "raw": "5611",
+        "id": 5611,
+        "kind": null
+      },
+      {
+        "raw": "5629",
+        "id": 5629,
+        "kind": null
+      },
+      {
+        "raw": "5633",
+        "id": 5633,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "scrap",
+      "dispose fixed assets",
+      "retire fixed assets"
+    ],
+    "ai_usage": null,
+    "words": 510
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1300542a8c4022fb5b6fdc3789849e64c4529a84"
 }

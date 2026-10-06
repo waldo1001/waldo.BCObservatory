@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "us sales tax",
+  "title": "Sales tax in the US Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-sales-tax",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.083Z",
+      "blob": "df76626b42e1639c1eb9758bab243290c24d72fc",
+      "words": 325,
+      "forms": 8
     }
   },
   "input_hash": "df76626b42e1639c1eb9758bab243290c24d72fc",
@@ -18,6 +24,61 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/us-sales-tax.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/us-sales-tax.md",
+    "description": "Understand the setup of sales tax, including how tax groups, tax areas (such as states, counties, cities, and localities), tax jurisdictions, and tax details work.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "315",
+        "id": 315,
+        "kind": null
+      },
+      {
+        "raw": "466",
+        "id": 466,
+        "kind": null
+      },
+      {
+        "raw": "467",
+        "id": 467,
+        "kind": null
+      },
+      {
+        "raw": "468",
+        "id": 468,
+        "kind": null
+      },
+      {
+        "raw": "469",
+        "id": 469,
+        "kind": null
+      },
+      {
+        "raw": "10015",
+        "id": 10015,
+        "kind": null
+      },
+      {
+        "raw": "10016",
+        "id": 10016,
+        "kind": null
+      },
+      {
+        "raw": "10101",
+        "id": 10101,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "sales tax",
+      "tax group"
+    ],
+    "ai_usage": null,
+    "words": 325
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df76626b42e1639c1eb9758bab243290c24d72fc"
 }

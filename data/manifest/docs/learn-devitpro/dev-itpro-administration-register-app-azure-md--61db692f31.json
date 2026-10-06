@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "register app azure",
+  "title": "Register Business Central On-Premises in Microsoft Entra ID",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/register-app-azure",
   "published_at": "2026-07-30T22:07:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.622Z",
+      "blob": "e189ec6489c3440aa9c838c97bff337b13f5bf49",
+      "words": 1949,
+      "forms": 0
     }
   },
   "input_hash": "e189ec6489c3440aa9c838c97bff337b13f5bf49",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/register-app-azure.md"
-  }
+    "path": "dev-itpro/administration/register-app-azure.md",
+    "description": "Register Business Central on-premises in Microsoft Entra ID to integrate with online services like Power BI and Universal Print.",
+    "ms_date": "2025-06-20",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1949
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e189ec6489c3440aa9c838c97bff337b13f5bf49"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "ai dev tools get started",
+  "title": "Get set up with Azure OpenAI Service",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-get-started",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.701Z",
+      "blob": "f4cedb7595cb8661c6b9a195849f987899beeacd",
+      "words": 238,
+      "forms": 0
     }
   },
   "input_hash": "f4cedb7595cb8661c6b9a195849f987899beeacd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/ai-dev-tools-get-started.md"
-  }
+    "path": "dev-itpro/developer/ai-dev-tools-get-started.md",
+    "description": "Learn about the tasks that must be completed so that you can start integrating Azure OpenAI Service in your extensions to create Copilot experiences in Business Central",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 238
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4cedb7595cb8661c6b9a195849f987899beeacd"
 }

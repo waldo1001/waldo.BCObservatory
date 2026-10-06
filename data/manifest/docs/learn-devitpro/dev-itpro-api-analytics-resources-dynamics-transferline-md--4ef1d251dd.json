@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics transferline",
+  "title": "transferLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_transferline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.224Z",
+      "blob": "a01be94ddf86614c5e5f12f799091b4a42cb9c75",
+      "words": 108,
+      "forms": 0
     }
   },
   "input_hash": "a01be94ddf86614c5e5f12f799091b4a42cb9c75",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_transferline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_transferline.md",
+    "description": "Represents a transferLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 108
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a01be94ddf86614c5e5f12f799091b4a42cb9c75"
 }

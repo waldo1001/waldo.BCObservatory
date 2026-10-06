@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv export data for extension",
+  "title": "Adding data for Extensions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension",
   "published_at": "2025-06-18T13:05:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.205Z",
+      "blob": "ee5994f40b9988708b06f5ee10276588e1a43de4",
+      "words": 526,
+      "forms": 0
     }
   },
   "input_hash": "ee5994f40b9988708b06f5ee10276588e1a43de4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-export-data-for-extension.md"
-  }
+    "path": "dev-itpro/developer/devenv-export-data-for-extension.md",
+    "description": "How you can add data such as permisisons, web services, and table data for an extension.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 526
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee5994f40b9988708b06f5ee10276588e1a43de4"
 }

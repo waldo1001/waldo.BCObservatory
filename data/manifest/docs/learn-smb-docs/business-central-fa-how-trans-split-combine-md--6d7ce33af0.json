@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa how trans split combine",
+  "title": "Reclassify fixed assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-trans-split-combine",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.019Z",
+      "blob": "57cb3c47e5be77691e0bbee591726ab6b443dcbb",
+      "words": 854,
+      "forms": 5
     }
   },
   "input_hash": "57cb3c47e5be77691e0bbee591726ab6b443dcbb",
@@ -18,6 +24,48 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-how-trans-split-combine.md"
-  }
+    "path": "business-central/fa-how-trans-split-combine.md",
+    "description": "Reclassify a fixed asset to move it to another department, split acquisition cost and depreciation among multiple assets, or combine assets into one.",
+    "ms_date": "2026-08-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5638",
+        "id": 5638,
+        "kind": null
+      },
+      {
+        "raw": "5636",
+        "id": 5636,
+        "kind": null
+      },
+      {
+        "raw": "5640",
+        "id": 5640,
+        "kind": null
+      },
+      {
+        "raw": "5637",
+        "id": 5637,
+        "kind": null
+      },
+      {
+        "raw": "Report_5606",
+        "id": 5606,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reclassify",
+      "fixed assets",
+      "transfer",
+      "split",
+      "combine"
+    ],
+    "ai_usage": null,
+    "words": 854
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57cb3c47e5be77691e0bbee591726ab6b443dcbb"
 }

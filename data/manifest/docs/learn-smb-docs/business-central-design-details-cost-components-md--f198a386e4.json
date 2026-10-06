@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details cost components",
+  "title": "Design details - Cost components",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-cost-components",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.579Z",
+      "blob": "96367b61d575e5e8fa2212800d065fd17ce1ad91",
+      "words": 317,
+      "forms": 0
     }
   },
   "input_hash": "96367b61d575e5e8fa2212800d065fd17ce1ad91",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-cost-components.md"
-  }
+    "path": "business-central/design-details-cost-components.md",
+    "description": "Cost components are different types of costs that make up the value of an inventory increase or decrease.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 317
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "96367b61d575e5e8fa2212800d065fd17ce1ad91"
 }

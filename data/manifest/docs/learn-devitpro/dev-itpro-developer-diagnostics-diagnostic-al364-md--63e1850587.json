@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al364",
+  "title": "Compiler Error AL0364",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al364",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.337Z",
+      "blob": "33fec1e3bbe3733bfd770ee5d1ca496db28d9e71",
+      "words": 56,
+      "forms": 0
     }
   },
   "input_hash": "33fec1e3bbe3733bfd770ee5d1ca496db28d9e71",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al364.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al364.md",
+    "description": "Option members must be accessed with '::' (e.g., MyEnum::Value).",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 56
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "33fec1e3bbe3733bfd770ee5d1ca496db28d9e71"
 }

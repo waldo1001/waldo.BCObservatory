@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin upgrade sales to cds",
+  "title": "Upgrading an Integration with Dynamics 365 Sales",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-upgrade-sales-to-cds",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.195Z",
+      "blob": "fd14b19bdb31a67b3fd4c0a7dd2771487acbccc1",
+      "words": 341,
+      "forms": 0
     }
   },
   "input_hash": "fd14b19bdb31a67b3fd4c0a7dd2771487acbccc1",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-upgrade-sales-to-cds.md"
-  }
+    "path": "business-central/admin-upgrade-sales-to-cds.md",
+    "description": "This topic tells you how to move your Dynamics 365 Business Central integration with Dynamics 365 Sales to the latest version.",
+    "ms_date": "2021-06-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "sales",
+      "crm",
+      "integration",
+      "integrating"
+    ],
+    "ai_usage": null,
+    "words": 341
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd14b19bdb31a67b3fd4c0a7dd2771487acbccc1"
 }

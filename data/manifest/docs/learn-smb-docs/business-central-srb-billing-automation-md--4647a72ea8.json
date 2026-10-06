@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "billing automation",
+  "title": "Billing automation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/billing-automation",
   "published_at": "2026-01-12T09:29:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.653Z",
+      "blob": "f70e744e6309297cd708a8f555150aada11b951d",
+      "words": 693,
+      "forms": 1
     }
   },
   "input_hash": "f70e744e6309297cd708a8f555150aada11b951d",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/billing-automation.md"
-  }
+    "path": "business-central/SRB/billing-automation.md",
+    "description": "Automate recurring billing up to a configured degree.",
+    "ms_date": "2025-12-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "8067_Primary",
+        "id": 8067,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 693
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f70e744e6309297cd708a8f555150aada11b951d"
 }

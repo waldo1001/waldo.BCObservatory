@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry job queue lifecycle trace",
+  "title": "Analyzing Job Queue Lifecycle Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
   "published_at": "2026-05-04T01:20:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.039Z",
+      "blob": "41bf01f70f7798cdf1e2a395c31a222706ea983b",
+      "words": 1408,
+      "forms": 0
     }
   },
   "input_hash": "41bf01f70f7798cdf1e2a395c31a222706ea983b",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-job-queue-lifecycle-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-job-queue-lifecycle-trace.md",
+    "description": "Learn about the telemetry for job queue entries in Business Central",
+    "ms_date": "2023-08-21",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 1408
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "41bf01f70f7798cdf1e2a395c31a222706ea983b"
 }

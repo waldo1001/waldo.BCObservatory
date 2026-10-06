@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 4",
+  "title": "Detail Trial Balance (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.307Z",
+      "blob": "90c28231af5ac55e082a3e54f14e523ff863a81d",
+      "words": 441,
+      "forms": 1
     }
   },
   "input_hash": "90c28231af5ac55e082a3e54f14e523ff863a81d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-4.md"
-  }
+    "path": "business-central/reports/report-4.md",
+    "description": "Audit and reconcile your general ledger balances at the end of the period by viewing the net change, opening balance, each transaction in the period and the closing balance grouped by G/L account.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_4_Primary",
+        "id": 4,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 441
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90c28231af5ac55e082a3e54f14e523ff863a81d"
 }

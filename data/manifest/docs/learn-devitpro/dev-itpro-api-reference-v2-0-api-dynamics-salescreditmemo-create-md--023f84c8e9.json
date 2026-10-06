@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics salesCreditMemo create",
+  "title": "Create salesCreditMemos",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_salesCreditMemo_create",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.057Z",
+      "blob": "a06a7ee9c53370ac4c384aba6edc23bbffaa7f14",
+      "words": 124,
+      "forms": 0
     }
   },
   "input_hash": "a06a7ee9c53370ac4c384aba6edc23bbffaa7f14",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesCreditMemo_create.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesCreditMemo_create.md",
+    "description": "Creates a sales credit memo object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 124
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a06a7ee9c53370ac4c384aba6edc23bbffaa7f14"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "price calculation",
+  "title": "Sales price calculation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/price-calculation",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.268Z",
+      "blob": "61fe77a64d3f0286ebea998a1ddcc07a7f43ff8e",
+      "words": 311,
+      "forms": 1
     }
   },
   "input_hash": "61fe77a64d3f0286ebea998a1ddcc07a7f43ff8e",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/sales/price-calculation.md"
-  }
+    "path": "business-central/SRB/sales/price-calculation.md",
+    "description": "You can use sales price calculation in subscription billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8059",
+        "id": 8059,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 311
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61fe77a64d3f0286ebea998a1ddcc07a7f43ff8e"
 }

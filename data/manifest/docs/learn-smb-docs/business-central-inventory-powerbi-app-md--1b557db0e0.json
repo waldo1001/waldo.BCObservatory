@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory powerbi app",
+  "title": "Inventory Power BI App Page (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
   "published_at": "2026-05-27T10:12:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.492Z",
+      "blob": "5b1ec25f9a56bdfd619b70240b2adc957183a597",
+      "words": 655,
+      "forms": 13
     }
   },
   "input_hash": "5b1ec25f9a56bdfd619b70240b2adc957183a597",
@@ -18,6 +24,84 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-powerbi-app.md"
-  }
+    "path": "business-central/inventory-powerbi-app.md",
+    "description": "The Inventory Power BI contains different reports for an organizations inventory reporting needs",
+    "ms_date": "2024-10-28",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37064_Primary",
+        "id": 37064,
+        "kind": "Primary"
+      },
+      {
+        "raw": "37022",
+        "id": 37022,
+        "kind": null
+      },
+      {
+        "raw": "37024",
+        "id": 37024,
+        "kind": null
+      },
+      {
+        "raw": "37023",
+        "id": 37023,
+        "kind": null
+      },
+      {
+        "raw": "37025",
+        "id": 37025,
+        "kind": null
+      },
+      {
+        "raw": "37026",
+        "id": 37026,
+        "kind": null
+      },
+      {
+        "raw": "37027",
+        "id": 37027,
+        "kind": null
+      },
+      {
+        "raw": "37028",
+        "id": 37028,
+        "kind": null
+      },
+      {
+        "raw": "37029",
+        "id": 37029,
+        "kind": null
+      },
+      {
+        "raw": "37030",
+        "id": 37030,
+        "kind": null
+      },
+      {
+        "raw": "37031",
+        "id": 37031,
+        "kind": null
+      },
+      {
+        "raw": "37032",
+        "id": 37032,
+        "kind": null
+      },
+      {
+        "raw": "37110",
+        "id": 37110,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 655
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b1ec25f9a56bdfd619b70240b2adc957183a597"
 }

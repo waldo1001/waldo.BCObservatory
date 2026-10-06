@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory how count adjust reclassify",
+  "title": "Count, adjust, and reclassify inventory",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.393Z",
+      "blob": "03fcd33df3cf41a38690fad4ac2b55fb89445680",
+      "words": 2436,
+      "forms": 0
     }
   },
   "input_hash": "03fcd33df3cf41a38690fad4ac2b55fb89445680",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-how-count-adjust-reclassify.md"
-  }
+    "path": "business-central/inventory-how-count-adjust-reclassify.md",
+    "description": "Learn how to do physical counting and make adjustments and reclassifications.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2436
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03fcd33df3cf41a38690fad4ac2b55fb89445680"
 }

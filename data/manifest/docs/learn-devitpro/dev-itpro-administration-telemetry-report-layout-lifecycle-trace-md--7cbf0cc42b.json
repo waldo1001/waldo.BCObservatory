@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry report layout lifecycle trace",
+  "title": "Analyzing report layout lifecycle telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.764Z",
+      "blob": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
+      "words": 642,
+      "forms": 0
     }
   },
   "input_hash": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-report-layout-lifecycle-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-report-layout-lifecycle-trace.md",
+    "description": "Learn about report layout lifecycle telemetry in Business Central",
+    "ms_date": "2024-11-06",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 642
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490"
 }

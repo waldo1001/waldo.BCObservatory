@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance setup finance",
+  "title": "Set up financial processes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance",
   "published_at": "2026-03-16T15:34:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.744Z",
+      "blob": "2fca05581790929c8a323dbf982619e5729b8309",
+      "words": 823,
+      "forms": 1
     }
   },
   "input_hash": "2fca05581790929c8a323dbf982619e5729b8309",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-setup-finance.md"
-  }
+    "path": "business-central/finance-setup-finance.md",
+    "description": "Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.",
+    "ms_date": "2025-06-10",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "118_Primary",
+        "id": 118,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "accounting",
+      "auditing",
+      "bookkeeping"
+    ],
+    "ai_usage": null,
+    "words": 823
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2fca05581790929c8a323dbf982619e5729b8309"
 }

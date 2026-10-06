@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "coda bank statements",
+  "title": "Belgian CODA Bank Statements [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/coda-bank-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.885Z",
+      "blob": "0eee9526038cca378ef1f4c8814178489f4aef98",
+      "words": 510,
+      "forms": 5
     }
   },
   "input_hash": "0eee9526038cca378ef1f4c8814178489f4aef98",
@@ -18,6 +24,50 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/coda-bank-statements.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/coda-bank-statements.md",
+    "description": "The Coded Statement of Account is a national banking standard, designed by the Belgian Banker's Association to automatically process electronic bank statements.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "2000040",
+        "id": 2000040,
+        "kind": null
+      },
+      {
+        "raw": "2000041",
+        "id": 2000041,
+        "kind": null
+      },
+      {
+        "raw": "2000042",
+        "id": 2000042,
+        "kind": null
+      },
+      {
+        "raw": "2000043",
+        "id": 2000043,
+        "kind": null
+      },
+      {
+        "raw": "2000045",
+        "id": 2000045,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Coded Statement of Account",
+      "CODA",
+      "Belgian version",
+      "national banking standard",
+      "banking standard",
+      "electronic bank statements",
+      "banker's association"
+    ],
+    "ai_usage": null,
+    "words": 510
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0eee9526038cca378ef1f4c8814178489f4aef98"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across prices and discounts",
+  "title": "Set up prices and discounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts",
   "published_at": "2026-08-26T07:23:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.201Z",
+      "blob": "1527624436cda34b74533e82574f7acba257a25e",
+      "words": 2348,
+      "forms": 8
     }
   },
   "input_hash": "1527624436cda34b74533e82574f7acba257a25e",
@@ -18,6 +24,66 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-prices-and-discounts.md"
-  }
+    "path": "business-central/across-prices-and-discounts.md",
+    "description": "Describes how to define standard and special price and discount agreements for sales and purchases.",
+    "ms_date": "2026-08-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "459",
+        "id": 459,
+        "kind": null
+      },
+      {
+        "raw": "460",
+        "id": 460,
+        "kind": null
+      },
+      {
+        "raw": "7001",
+        "id": 7001,
+        "kind": null
+      },
+      {
+        "raw": "7011",
+        "id": 7011,
+        "kind": null
+      },
+      {
+        "raw": "7015",
+        "id": 7015,
+        "kind": null
+      },
+      {
+        "raw": "7016",
+        "id": 7016,
+        "kind": null
+      },
+      {
+        "raw": "7017",
+        "id": 7017,
+        "kind": null
+      },
+      {
+        "raw": "7018",
+        "id": 7018,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "price",
+      "pricing",
+      "discount",
+      "discounting",
+      "rebate",
+      "sale",
+      "purchase",
+      "invoice"
+    ],
+    "ai_usage": null,
+    "words": 2348
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1527624436cda34b74533e82574f7acba257a25e"
 }

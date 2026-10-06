@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to void electronic payments",
+  "title": "How to Void Electronic Payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-void-electronic-payments",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.734Z",
+      "blob": "6aed3b4d1a8e47d95bfa52a9248e40e9d94baf2f",
+      "words": 167,
+      "forms": 0
     }
   },
   "input_hash": "6aed3b4d1a8e47d95bfa52a9248e40e9d94baf2f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-void-electronic-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-void-electronic-payments.md",
+    "description": "In Business Central, you can void an exported payment file, which deletes the entire payment journal associated with that file.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "void electronic payments",
+      "void payment file",
+      "cartera module",
+      "delete payment journal",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 167
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6aed3b4d1a8e47d95bfa52a9248e40e9d94baf2f"
 }

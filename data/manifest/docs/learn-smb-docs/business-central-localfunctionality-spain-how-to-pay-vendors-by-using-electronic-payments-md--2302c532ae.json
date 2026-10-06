@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to pay vendors by using electronic payments",
+  "title": "Pay vendors using electronic payments [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.691Z",
+      "blob": "cefa1f362eed65c032e5982545b55539ba1a89aa",
+      "words": 226,
+      "forms": 0
     }
   },
   "input_hash": "cefa1f362eed65c032e5982545b55539ba1a89aa",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md",
+    "description": "Learn how to pay vendors electronically by exporting payment files and sending them to your bank for processing.",
+    "ms_date": "2025-05-27",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "electronic vendor payment",
+      "electronic payments",
+      "vendor payment",
+      "pay vendor electronically",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 226
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cefa1f362eed65c032e5982545b55539ba1a89aa"
 }

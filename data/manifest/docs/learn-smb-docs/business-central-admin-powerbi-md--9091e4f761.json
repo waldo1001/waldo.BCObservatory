@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin powerbi",
+  "title": "Introduction to Business Central and Power BI",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.344Z",
+      "blob": "b90fc94b21f9e242ddfecc0b2df13711079670d7",
+      "words": 712,
+      "forms": 2
     }
   },
   "input_hash": "b90fc94b21f9e242ddfecc0b2df13711079670d7",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-powerbi.md"
-  }
+    "path": "business-central/admin-powerbi.md",
+    "description": "Get an overview of using Power BI to get insights from your Business Central data.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "6316",
+        "id": 6316,
+        "kind": null
+      },
+      {
+        "raw": "6317",
+        "id": 6317,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "account schedule",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 712
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b90fc94b21f9e242ddfecc0b2df13711079670d7"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv page ext object",
+  "title": "Page extension object",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.799Z",
+      "blob": "add3795fb2df25feed3ea1492cd8844d8a295ce8",
+      "words": 704,
+      "forms": 0
     }
   },
   "input_hash": "add3795fb2df25feed3ea1492cd8844d8a295ce8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-page-ext-object.md"
-  }
+    "path": "dev-itpro/developer/devenv-page-ext-object.md",
+    "description": "Extend page objects with page extension objects in AL for Business Central.",
+    "ms_date": "2024-11-13",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 704
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "add3795fb2df25feed3ea1492cd8844d8a295ce8"
 }

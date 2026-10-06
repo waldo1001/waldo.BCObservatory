@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "special data output and reports for the tax authority",
+  "title": "Special data output and reports for the tax authorities in Iceland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.479Z",
+      "blob": "c2cb79a16436827b850d995057a5cc8de40b211d",
+      "words": 116,
+      "forms": 0
     }
   },
   "input_hash": "c2cb79a16436827b850d995057a5cc8de40b211d",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md"
-  }
+    "path": "business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md",
+    "description": "In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.",
+    "ms_date": "2025-02-06",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "data file",
+      "data file format",
+      "data file output",
+      "tax authorities"
+    ],
+    "ai_usage": null,
+    "words": 116
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c2cb79a16436827b850d995057a5cc8de40b211d"
 }

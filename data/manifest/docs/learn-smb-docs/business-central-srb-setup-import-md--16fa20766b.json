@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "import",
+  "title": "Import subscription contracts and contract lines",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.272Z",
+      "blob": "c64b96f39183cd684d3697c72e20f1881bfe6e46",
+      "words": 2176,
+      "forms": 3
     }
   },
   "input_hash": "c64b96f39183cd684d3697c72e20f1881bfe6e46",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/setup/import.md"
-  }
+    "path": "business-central/SRB/setup/import.md",
+    "description": "You can use import contracts and contract lines in subscription billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8013",
+        "id": 8013,
+        "kind": null
+      },
+      {
+        "raw": "8008",
+        "id": 8008,
+        "kind": null
+      },
+      {
+        "raw": "8009",
+        "id": 8009,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2176
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c64b96f39183cd684d3697c72e20f1881bfe6e46"
 }

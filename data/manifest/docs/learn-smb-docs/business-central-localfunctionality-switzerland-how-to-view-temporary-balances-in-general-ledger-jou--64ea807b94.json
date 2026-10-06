@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to view temporary balances in general ledger journals",
+  "title": "View temporary balances in GL journals [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.972Z",
+      "blob": "c36769188667143ed6101366e51efc5ea2606830",
+      "words": 206,
+      "forms": 1
     }
   },
   "input_hash": "c36769188667143ed6101366e51efc5ea2606830",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md",
+    "description": "Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.",
+    "ms_date": "2025-04-30",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "11500",
+        "id": 11500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "temporary balances",
+      "G/L account balances",
+      "general ledger journals",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 206
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c36769188667143ed6101366e51efc5ea2606830"
 }

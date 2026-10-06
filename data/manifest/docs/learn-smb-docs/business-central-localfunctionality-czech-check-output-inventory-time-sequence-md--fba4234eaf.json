@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "check output inventory time sequence",
+  "title": "Check of output in inventory – time sequence [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.269Z",
+      "blob": "a676e0e4d97676c09941e8813bb69abc5d9fdd30",
+      "words": 60,
+      "forms": 0
     }
   },
   "input_hash": "a676e0e4d97676c09941e8813bb69abc5d9fdd30",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence.md",
+    "description": "Learn about the local functionality for checking the time sequence of inventory outputs in the Czech version of Business Central.",
+    "ms_date": "2025-06-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Inventory",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 60
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a676e0e4d97676c09941e8813bb69abc5d9fdd30"
 }

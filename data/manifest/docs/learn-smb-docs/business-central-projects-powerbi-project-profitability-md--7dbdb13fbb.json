@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects powerbi project profitability",
+  "title": "Project Profitability (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.305Z",
+      "blob": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
+      "words": 191,
+      "forms": 1
     }
   },
   "input_hash": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-powerbi-project-profitability.md"
-  }
+    "path": "business-central/projects-powerbi-project-profitability.md",
+    "description": "The Project Profitability report highlights cost and pricing information for each project.",
+    "ms_date": "2025-09-25",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37035_Primary",
+        "id": 37035,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca"
 }

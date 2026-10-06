@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al903",
+  "title": "Compiler Error AL0903",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al903",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.475Z",
+      "blob": "0584933e8d07482111eb199afa853e0c83539567",
+      "words": 63,
+      "forms": 0
     }
   },
   "input_hash": "0584933e8d07482111eb199afa853e0c83539567",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al903.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al903.md",
+    "description": "The DefinitionFile '{0}' is already being used.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 63
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0584933e8d07482111eb199afa853e0c83539567"
 }

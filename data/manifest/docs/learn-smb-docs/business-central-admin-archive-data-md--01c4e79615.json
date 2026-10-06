@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin archive data",
+  "title": "The Data Archive Extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-archive-data",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.566Z",
+      "blob": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
+      "words": 457,
+      "forms": 1
     }
   },
   "input_hash": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-archive-data.md"
-  }
+    "path": "business-central/admin-archive-data.md",
+    "description": "Archiving data creates a low-cost backup of your records.",
+    "ms_date": "2023-01-30",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "630",
+        "id": 630,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 457
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53ac854a9b2be7864fea3ed60b61e3558efbe433"
 }

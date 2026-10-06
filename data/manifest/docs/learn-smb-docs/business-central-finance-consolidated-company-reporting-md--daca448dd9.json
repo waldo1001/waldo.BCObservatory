@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance consolidated company reporting",
+  "title": "Consolidate data from multiple companies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.245Z",
+      "blob": "6ca9a6ad52243cf53ace8361af1dcf2187082b68",
+      "words": 1521,
+      "forms": 7
     }
   },
   "input_hash": "6ca9a6ad52243cf53ace8361af1dcf2187082b68",
@@ -18,6 +24,56 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-consolidated-company-reporting.md"
-  }
+    "path": "business-central/finance-consolidated-company-reporting.md",
+    "description": "This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "240_Primary",
+        "id": 240,
+        "kind": "Primary"
+      },
+      {
+        "raw": "Report_16",
+        "id": 16,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_17",
+        "id": 17,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_18",
+        "id": 18,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_4410",
+        "id": 4410,
+        "kind": "Report"
+      },
+      {
+        "raw": "1826",
+        "id": 1826,
+        "kind": null
+      },
+      {
+        "raw": "1827",
+        "id": 1827,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "consolidation",
+      "subsidiaries",
+      "consolidate"
+    ],
+    "ai_usage": null,
+    "words": 1521
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ca9a6ad52243cf53ace8361af1dcf2187082b68"
 }

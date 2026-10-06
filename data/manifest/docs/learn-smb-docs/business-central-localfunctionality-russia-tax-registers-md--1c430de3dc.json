@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "tax registers",
+  "title": "Tax registers in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-registers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.733Z",
+      "blob": "12649255b1bd69982efc8b32f964e3c419354bfd",
+      "words": 123,
+      "forms": 0
     }
   },
   "input_hash": "12649255b1bd69982efc8b32f964e3c419354bfd",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/tax-registers.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/tax-registers.md",
+    "description": "Tax registers in Russia help track and manage taxable profits and losses according to local tax accounting requirements.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "tax registers",
+      "tax register types",
+      "tax accounting",
+      "tax register setup",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 123
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12649255b1bd69982efc8b32f964e3c419354bfd"
 }

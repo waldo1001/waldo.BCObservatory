@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv instrument application for telemetry",
+  "title": "Developing telemetry into your Business Central application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.384Z",
+      "blob": "82fbdea7d33f9b3e890d53973858a7660c0153db",
+      "words": 589,
+      "forms": 0
     }
   },
   "input_hash": "82fbdea7d33f9b3e890d53973858a7660c0153db",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry.md"
-  }
+    "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry.md",
+    "description": "This article describes how to add code to application objects that enables you to gather telemetry.",
+    "ms_date": "2024-02-09",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 589
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82fbdea7d33f9b3e890d53973858a7660c0153db"
 }

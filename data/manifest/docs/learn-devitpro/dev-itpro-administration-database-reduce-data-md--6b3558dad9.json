@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "database reduce data",
+  "title": "Keeping Database Size Under the Limit",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-reduce-data",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.683Z",
+      "blob": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
+      "words": 528,
+      "forms": 0
     }
   },
   "input_hash": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/database-reduce-data.md"
-  }
+    "path": "dev-itpro/administration/database-reduce-data.md",
+    "description": "Learn about the best ways to reduce data stored in Business Central databases.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 528
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6690b88fbff8f7419ca7d4d273b66f6c0034472"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to disregard payment discounts",
+  "title": "How to Disregard Payment Discounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.092Z",
+      "blob": "21815f1586ecca4546892c848615a35ecd9e19e1",
+      "words": 149,
+      "forms": 0
     }
   },
   "input_hash": "21815f1586ecca4546892c848615a35ecd9e19e1",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts.md",
+    "description": "Use the disregard payment discount at full payment feature to accept payments when certain conditions are true.",
+    "ms_date": "2025-02-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "disregard payment discounts",
+      "payment discounts"
+    ],
+    "ai_usage": null,
+    "words": 149
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21815f1586ecca4546892c848615a35ecd9e19e1"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales order agent",
+  "title": "Sales Order Agent overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.492Z",
+      "blob": "27cca88380835cce1075af4321c8966b8607aea2",
+      "words": 2744,
+      "forms": 2
     }
   },
   "input_hash": "27cca88380835cce1075af4321c8966b8607aea2",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-order-agent.md"
-  }
+    "path": "business-central/sales-order-agent.md",
+    "description": "Learn about the sales order Copilot agent in Business Central.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "4400",
+        "id": 4400,
+        "kind": null
+      },
+      {
+        "raw": "4410",
+        "id": 4410,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2744
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27cca88380835cce1075af4321c8966b8607aea2"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics customerpayment get",
+  "title": "(v1.0) Get customerPayments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_customerpayment_get",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.691Z",
+      "blob": "575e511100326fda6c9484933d7124ba87c00127",
+      "words": 128,
+      "forms": 0
     }
   },
   "input_hash": "575e511100326fda6c9484933d7124ba87c00127",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/api/dynamics_customerpayment_get.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/api/dynamics_customerpayment_get.md",
+    "description": "(v1.0) Gets a customer payment object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 128
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "575e511100326fda6c9484933d7124ba87c00127"
 }

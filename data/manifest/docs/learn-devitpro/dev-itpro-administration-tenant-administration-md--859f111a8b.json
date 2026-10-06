@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "tenant administration",
+  "title": "Administration of Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration",
   "published_at": "2025-11-14T09:36:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.048Z",
+      "blob": "a0555b3772936f295d3066930a673aba83078b42",
+      "words": 1166,
+      "forms": 0
     }
   },
   "input_hash": "a0555b3772936f295d3066930a673aba83078b42",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/tenant-administration.md"
-  }
+    "path": "dev-itpro/administration/tenant-administration.md",
+    "description": "Learn about how you as the internal administrator or as a reselling partner can manage online tenants of Dynamics 365 Business Central.",
+    "ms_date": "2025-11-14",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment"
+    ],
+    "ai_usage": null,
+    "words": 1166
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a0555b3772936f295d3066930a673aba83078b42"
 }

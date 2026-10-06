@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "contoso coffee manufacturing intro",
+  "title": "Introduction to Contoso Coffee Manufacturing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro",
   "published_at": "2026-08-13T11:24:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.317Z",
+      "blob": "4b09282df57e1bfdd5207c2b4361ae44096f9b63",
+      "words": 428,
+      "forms": 1
     }
   },
   "input_hash": "4b09282df57e1bfdd5207c2b4361ae44096f9b63",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md"
-  }
+    "path": "business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md",
+    "description": "Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.",
+    "ms_date": "2026-07-16",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "4765",
+        "id": 4765,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 428
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b09282df57e1bfdd5207c2b4361ae44096f9b63"
 }

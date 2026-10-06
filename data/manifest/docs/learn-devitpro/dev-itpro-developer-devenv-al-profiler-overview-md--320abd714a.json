@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv al profiler overview",
+  "title": "AL Profiler overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview",
   "published_at": "2026-06-02T11:42:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.222Z",
+      "blob": "bafdd84fa676a1b092b1ea72132d17062b71b562",
+      "words": 2057,
+      "forms": 0
     }
   },
   "input_hash": "bafdd84fa676a1b092b1ea72132d17062b71b562",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-al-profiler-overview.md"
-  }
+    "path": "dev-itpro/developer/devenv-al-profiler-overview.md",
+    "description": "Description of how to use the AL profiler and the Performance Profiler to analyze performance in code written for Business Central.",
+    "ms_date": "2025-09-03",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2057
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bafdd84fa676a1b092b1ea72132d17062b71b562"
 }

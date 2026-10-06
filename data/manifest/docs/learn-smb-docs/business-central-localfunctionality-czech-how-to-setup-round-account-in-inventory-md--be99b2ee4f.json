@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to setup round account in inventory",
+  "title": "Rounding account in inventory [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.345Z",
+      "blob": "79d38cb49257901bb66ff76ee3371756912b59c6",
+      "words": 67,
+      "forms": 0
     }
   },
   "input_hash": "79d38cb49257901bb66ff76ee3371756912b59c6",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md",
+    "description": "Use the Rounding Account in Inventory feature to post all rounded costs to a separate General Ledger Account rather than the Inventory Adjustment Account.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 67
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79d38cb49257901bb66ff76ee3371756912b59c6"
 }

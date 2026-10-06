@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic avs0005",
+  "title": "AVS Error AVS0005",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0005",
   "published_at": "2025-01-30T11:09:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.363Z",
+      "blob": "92daf7e3992762d12cc50935494707db3f31e55e",
+      "words": 51,
+      "forms": 0
     }
   },
   "input_hash": "92daf7e3992762d12cc50935494707db3f31e55e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0005.md"
-  }
+    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0005.md",
+    "description": "A package with publisher '{0}', name '{1}', and a version compatible with '{2}' could not be found.",
+    "ms_date": "2025-01-30",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 51
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "92daf7e3992762d12cc50935494707db3f31e55e"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000756",
+  "title": "Detailed Calculation (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.812Z",
+      "blob": "42d723a1cdc6750fc305f3e8b7e0d5fd99156ac7",
+      "words": 362,
+      "forms": 1
     }
   },
   "input_hash": "42d723a1cdc6750fc305f3e8b7e0d5fd99156ac7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000756.md"
-  }
+    "path": "business-central/reports/report-99000756.md",
+    "description": "Analyze the manufacturing costs for an item, including details from bills of materials, routing operations, and associated expenses. Scrap costs are accounted for, which gives you an accurate total cost for producing items.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000756_Primary",
+        "id": 99000756,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 362
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42d723a1cdc6750fc305f3e8b7e0d5fd99156ac7"
 }

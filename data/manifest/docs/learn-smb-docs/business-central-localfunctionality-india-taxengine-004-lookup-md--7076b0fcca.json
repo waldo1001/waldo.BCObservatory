@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TaxEngine 004 Lookup",
+  "title": "Tax Engine - Lookup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-004-Lookup",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.320Z",
+      "blob": "b42ad4f6e9abec6c863bfff2d7e33f78137006d0",
+      "words": 381,
+      "forms": 0
     }
   },
   "input_hash": "b42ad4f6e9abec6c863bfff2d7e33f78137006d0",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TaxEngine-004-Lookup.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TaxEngine-004-Lookup.md",
+    "description": "Provides an overview of the Lookup utility in the Tax Engine for fetching values from various sources in Business Central (India).",
+    "ms_date": "2025-06-27",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "tax engine",
+      "tax engine lookup"
+    ],
+    "ai_usage": null,
+    "words": 381
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b42ad4f6e9abec6c863bfff2d7e33f78137006d0"
 }

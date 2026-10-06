@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0142",
+  "title": "AppSourceCop Error AS0142",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0142",
   "published_at": "2026-03-11T10:06:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.571Z",
+      "blob": "138e52adb6479558fdfd5a561dc0d3f53ce0a7ac",
+      "words": 87,
+      "forms": 0
     }
   },
   "input_hash": "138e52adb6479558fdfd5a561dc0d3f53ce0a7ac",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0142.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0142.md",
+    "description": "A table with a published SQL schema cannot be moved between apps.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 87
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "138e52adb6479558fdfd5a561dc0d3f53ce0a7ac"
 }

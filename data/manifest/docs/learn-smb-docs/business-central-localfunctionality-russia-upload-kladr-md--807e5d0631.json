@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Upload KLADR",
+  "title": "Upload KLADR in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Upload-KLADR",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.431Z",
+      "blob": "16cd8687327006ab8640219e876f923c91bee325",
+      "words": 82,
+      "forms": 0
     }
   },
   "input_hash": "16cd8687327006ab8640219e876f923c91bee325",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Upload-KLADR.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Upload-KLADR.md",
+    "description": "Learn how to upload and use the KLADR address classifier for Russian localization in Business Central.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "KLADR",
+      "Russian address classifier",
+      "upload addresses",
+      "tax inspection",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 82
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16cd8687327006ab8640219e876f923c91bee325"
 }

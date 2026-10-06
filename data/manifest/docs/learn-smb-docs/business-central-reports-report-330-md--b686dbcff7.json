@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 330",
+  "title": "Audit Trail (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-330",
   "published_at": "2026-05-11T13:05:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.822Z",
+      "blob": "ae845150e2c5882961b8c1cb7bd6b559c209634b",
+      "words": 553,
+      "forms": 1
     }
   },
   "input_hash": "ae845150e2c5882961b8c1cb7bd6b559c209634b",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-330.md"
-  }
+    "path": "business-central/reports/report-330.md",
+    "description": "Review the audit trail of G/L registers and entries, including creation dates, user IDs, reversed entries, and transaction details for auditing and compliance.",
+    "ms_date": "2026-05-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_330_Primary",
+        "id": 330,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 553
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae845150e2c5882961b8c1cb7bd6b559c209634b"
 }

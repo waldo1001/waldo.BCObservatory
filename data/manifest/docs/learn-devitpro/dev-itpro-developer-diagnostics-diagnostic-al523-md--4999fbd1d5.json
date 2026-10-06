@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al523",
+  "title": "Compiler Warning (future error) AL0523",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al523",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.775Z",
+      "blob": "e88c4502848e10b39daa7c3145ea6fb731d2424f",
+      "words": 65,
+      "forms": 0
     }
   },
   "input_hash": "e88c4502848e10b39daa7c3145ea6fb731d2424f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al523.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al523.md",
+    "description": "The {0} '{1}' already defines a method called '{2}' with the same parameter types in '{3}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 65
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e88c4502848e10b39daa7c3145ea6fb731d2424f"
 }

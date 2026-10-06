@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects how invoice jobs",
+  "title": "Create a project sales invoice to invoice a project",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-invoice-jobs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.842Z",
+      "blob": "efb39da5171456c7ac91dedcda32ebaec5f358fb",
+      "words": 941,
+      "forms": 2
     }
   },
   "input_hash": "efb39da5171456c7ac91dedcda32ebaec5f358fb",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-how-invoice-jobs.md"
-  }
+    "path": "business-central/projects-how-invoice-jobs.md",
+    "description": "Describes how to invoice customers for project expenses as a project progresses and costs accumulate.",
+    "ms_date": "2025-03-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1002",
+        "id": 1002,
+        "kind": null
+      },
+      {
+        "raw": "1007",
+        "id": 1007,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "project invoice"
+    ],
+    "ai_usage": null,
+    "words": 941
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efb39da5171456c7ac91dedcda32ebaec5f358fb"
 }

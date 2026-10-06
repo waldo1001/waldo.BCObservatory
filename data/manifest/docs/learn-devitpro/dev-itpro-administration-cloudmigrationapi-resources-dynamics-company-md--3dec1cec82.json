@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics company",
+  "title": "(cloudMigration API) company resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/resources/dynamics_company",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.519Z",
+      "blob": "2c78483d4c36926eaafc406c8244ae1ac9577b71",
+      "words": 251,
+      "forms": 0
     }
   },
   "input_hash": "2c78483d4c36926eaafc406c8244ae1ac9577b71",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_company.md"
-  }
+    "path": "dev-itpro/administration/cloudmigrationapi/resources/dynamics_company.md",
+    "description": "A company object in the cloudMigration API for Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 251
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c78483d4c36926eaafc406c8244ae1ac9577b71"
 }

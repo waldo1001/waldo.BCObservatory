@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print general ledger setup information",
+  "title": "Print General Ledger Setup Information [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.942Z",
+      "blob": "5ca7ed9907881f4fa39d50868725842d2a026bb1",
+      "words": 296,
+      "forms": 0
     }
   },
   "input_hash": "5ca7ed9907881f4fa39d50868725842d2a026bb1",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md",
+    "description": "Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [
+      "G/L setup information",
+      "G/L setup",
+      "general setup information",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ca7ed9907881f4fa39d50868725842d2a026bb1"
 }

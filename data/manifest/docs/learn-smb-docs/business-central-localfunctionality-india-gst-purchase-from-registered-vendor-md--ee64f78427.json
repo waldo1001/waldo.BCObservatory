@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Purchase from Registered Vendor",
+  "title": "Purchase from Registered Vendors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.980Z",
+      "blob": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
+      "words": 786,
+      "forms": 0
     }
   },
   "input_hash": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md",
+    "description": "Learn how to process purchases from registered vendors in India, including GST setup, invoice creation, and accounting entries in Dynamics 365 Business Central.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "purchase process",
+      "registered vendor"
+    ],
+    "ai_usage": null,
+    "words": 786
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2"
 }

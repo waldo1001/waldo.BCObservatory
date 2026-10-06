@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv adding actions to a page",
+  "title": "Adding actions to a page",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-actions-to-a-page",
   "published_at": "2026-06-02T11:42:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.217Z",
+      "blob": "29931d69e90328338251197d5f080003c8a08c99",
+      "words": 1178,
+      "forms": 0
     }
   },
   "input_hash": "29931d69e90328338251197d5f080003c8a08c99",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-adding-actions-to-a-page.md"
-  }
+    "path": "dev-itpro/developer/devenv-adding-actions-to-a-page.md",
+    "description": "Create and display actions in the ribbon of all pages and group them together under Actions, Navigate, Reports tabs and preview it in the Windows Client.",
+    "ms_date": "2025-11-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1178
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "29931d69e90328338251197d5f080003c8a08c99"
 }

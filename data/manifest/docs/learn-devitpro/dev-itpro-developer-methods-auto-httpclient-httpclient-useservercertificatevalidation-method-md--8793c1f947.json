@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "httpclient useservercertificatevalidation method",
+  "title": "HttpClient.UseServerCertificateValidation(Boolean) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-useservercertificatevalidation-method",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.686Z",
+      "blob": "d42779271018e5572fb97787e8f2533134fb85ae",
+      "words": 255,
+      "forms": 0
     }
   },
   "input_hash": "d42779271018e5572fb97787e8f2533134fb85ae",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-useservercertificatevalidation-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/httpclient/httpclient-useservercertificatevalidation-method.md",
+    "description": "If true, the client validates the server certificate for all HTTP requests.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 255
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d42779271018e5572fb97787e8f2533134fb85ae"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "chromium browser issue affecting business central",
+  "title": "Chromium browser issue affecting Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/chromium-browser-issue-affecting-business-central",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.570Z",
+      "blob": "d6e27b08186c14e8772c82e4b81dfe4f28877e8b",
+      "words": 751,
+      "forms": 0
     }
   },
   "input_hash": "d6e27b08186c14e8772c82e4b81dfe4f28877e8b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/chromium-browser-issue-affecting-business-central.md"
-  }
+    "path": "dev-itpro/deployment/chromium-browser-issue-affecting-business-central.md",
+    "description": "Learn how to workaround the Chromium browser issues that are causing problems for Business Central users.",
+    "ms_date": "2022-07-12",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 751
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6e27b08186c14e8772c82e4b81dfe4f28877e8b"
 }

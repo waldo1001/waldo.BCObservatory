@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "text toupper method",
+  "title": "Text.ToUpper() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-toupper-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.901Z",
+      "blob": "323b96e7b909dad7577a3560ba717be850521c3d",
+      "words": 95,
+      "forms": 0
     }
   },
   "input_hash": "323b96e7b909dad7577a3560ba717be850521c3d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/text/text-toupper-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/text/text-toupper-method.md",
+    "description": "Returns a copy of this string converted to uppercase.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 95
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "323b96e7b909dad7577a3560ba717be850521c3d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic avs0001",
+  "title": "AVS Error AVS0001",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0001",
   "published_at": "2025-01-30T11:09:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.345Z",
+      "blob": "16f2d657e6cf6ea2d70c0ecde64fa015d88fb096",
+      "words": 41,
+      "forms": 0
     }
   },
   "input_hash": "16f2d657e6cf6ea2d70c0ecde64fa015d88fb096",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0001.md"
-  }
+    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0001.md",
+    "description": "The 'app.json' could not be found in the specified package.",
+    "ms_date": "2024-02-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 41
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16f2d657e6cf6ea2d70c0ecde64fa015d88fb096"
 }

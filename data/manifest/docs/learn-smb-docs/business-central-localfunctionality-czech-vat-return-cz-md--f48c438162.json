@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "vat return cz",
+  "title": "VAT returns in the Czech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.392Z",
+      "blob": "31624ca0734d240413ba14c88db67d86658805c8",
+      "words": 584,
+      "forms": 0
     }
   },
   "input_hash": "31624ca0734d240413ba14c88db67d86658805c8",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/vat-return-cz.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/vat-return-cz.md",
+    "description": "Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.",
+    "ms_date": "2026-03-30",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "VAT",
+      "VAT Return",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 584
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31624ca0734d240413ba14c88db67d86658805c8"
 }

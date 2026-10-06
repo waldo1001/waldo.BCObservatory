@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al246",
+  "title": "Compiler Error AL0246",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al246",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.252Z",
+      "blob": "6d85c391ba2027a5dc764d2c2f26548d3c1015e6",
+      "words": 54,
+      "forms": 0
     }
   },
   "input_hash": "6d85c391ba2027a5dc764d2c2f26548d3c1015e6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al246.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al246.md",
+    "description": "The property '{0}' cannot be customized.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 54
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6d85c391ba2027a5dc764d2c2f26548d3c1015e6"
 }

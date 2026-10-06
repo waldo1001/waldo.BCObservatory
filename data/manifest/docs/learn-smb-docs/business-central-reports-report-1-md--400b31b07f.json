@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1",
+  "title": "Chart of Accounts (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.016Z",
+      "blob": "e912a21c16c3b79836ba615b373c82d0d9c17b2e",
+      "words": 150,
+      "forms": 1
     }
   },
   "input_hash": "e912a21c16c3b79836ba615b373c82d0d9c17b2e",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1.md"
-  }
+    "path": "business-central/reports/report-1.md",
+    "description": "Review and manage your company’s general ledger structure by listing all G/L accounts with their types, balances, and categories.",
+    "ms_date": "2025-06-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1_Primary",
+        "id": 1,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e912a21c16c3b79836ba615b373c82d0d9c17b2e"
 }

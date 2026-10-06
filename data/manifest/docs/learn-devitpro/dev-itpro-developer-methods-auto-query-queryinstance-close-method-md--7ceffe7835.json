@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "queryinstance close method",
+  "title": "Query.Close() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/query/queryinstance-close-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.770Z",
+      "blob": "63fb6ed0fe515168ec306c8fbe5150a5b52d50cf",
+      "words": 323,
+      "forms": 0
     }
   },
   "input_hash": "63fb6ed0fe515168ec306c8fbe5150a5b52d50cf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/query/queryinstance-close-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/query/queryinstance-close-method.md",
+    "description": "Closes a query data set and returns the query instance to the initialized state.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 323
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63fb6ed0fe515168ec306c8fbe5150a5b52d50cf"
 }

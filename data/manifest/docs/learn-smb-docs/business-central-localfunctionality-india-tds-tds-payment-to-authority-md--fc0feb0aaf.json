@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS TDS Payment to Authority",
+  "title": "Payment of TDS to Government Authorities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.156Z",
+      "blob": "c8376e20f7870cc1558275a854bed7c94960e245",
+      "words": 155,
+      "forms": 0
     }
   },
   "input_hash": "c8376e20f7870cc1558275a854bed7c94960e245",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md",
+    "description": "Learn how to pay Tax Deducted at Source (TDS) to government authorities in Business Central.",
+    "ms_date": "2025-06-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TDS payment"
+    ],
+    "ai_usage": null,
+    "words": 155
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8376e20f7870cc1558275a854bed7c94960e245"
 }

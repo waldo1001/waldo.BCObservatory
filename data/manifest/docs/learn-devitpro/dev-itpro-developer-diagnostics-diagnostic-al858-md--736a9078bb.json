@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al858",
+  "title": "Compiler Error AL0858",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al858",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.146Z",
+      "blob": "159043f1ca4c75901ebd9dd784bad03cf75721eb",
+      "words": 60,
+      "forms": 0
     }
   },
   "input_hash": "159043f1ca4c75901ebd9dd784bad03cf75721eb",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al858.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al858.md",
+    "description": "The total size of all resource files exceeds the maximum allowed size limit of '{0}' MB.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 60
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "159043f1ca4c75901ebd9dd784bad03cf75721eb"
 }

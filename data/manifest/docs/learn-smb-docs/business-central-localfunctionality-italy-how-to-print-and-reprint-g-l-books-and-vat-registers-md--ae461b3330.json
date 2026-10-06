@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print and reprint g l books and vat registers",
+  "title": "Print and reprint G-L books VAT registers [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.884Z",
+      "blob": "4937784fe89cf96c4bd1de080f881cbf174020b6",
+      "words": 592,
+      "forms": 4
     }
   },
   "input_hash": "4937784fe89cf96c4bd1de080f881cbf174020b6",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md",
+    "description": "Submit two fiscal reports—the G/L Book - Print report and the VAT Register - Print report—that list all posted ledger entries, as required by tax authorities.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12141",
+        "id": 12141,
+        "kind": null
+      },
+      {
+        "raw": "12143",
+        "id": 12143,
+        "kind": null
+      },
+      {
+        "raw": "12149",
+        "id": 12149,
+        "kind": null
+      },
+      {
+        "raw": "12150",
+        "id": 12150,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "print GL books",
+      "reprint GL books",
+      "VAT registers",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 592
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4937784fe89cf96c4bd1de080f881cbf174020b6"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 713",
+  "title": "Inventory Customer Sales (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-713",
   "published_at": "2026-03-10T06:44:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.643Z",
+      "blob": "37f6af900183fb1f56047552e5d1538917b067b6",
+      "words": 397,
+      "forms": 1
     }
   },
   "input_hash": "37f6af900183fb1f56047552e5d1538917b067b6",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-713.md"
-  }
+    "path": "business-central/reports/report-713.md",
+    "description": "Analyze your customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_713_Primary",
+        "id": 713,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 397
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37f6af900183fb1f56047552e5d1538917b067b6"
 }

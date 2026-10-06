@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to include company registration numbers on sales reports and purchase reports",
+  "title": "Include Company Registration Numbers on Sales and Purchase Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.391Z",
+      "blob": "262607c1d16d3994ebb2b264cc7277a03b08d021",
+      "words": 155,
+      "forms": 0
     }
   },
   "input_hash": "262607c1d16d3994ebb2b264cc7277a03b08d021",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md",
+    "description": "Print company registration numbers on specific sales reports and purchase reports.",
+    "ms_date": "2025-03-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "print registration numbers",
+      "company registration numbers",
+      "registration numbers",
+      "sales reports",
+      "purchase reports",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 155
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "262607c1d16d3994ebb2b264cc7277a03b08d021"
 }

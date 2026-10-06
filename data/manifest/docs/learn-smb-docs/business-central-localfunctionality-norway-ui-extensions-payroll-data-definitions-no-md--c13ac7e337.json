@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions payroll data definitions no",
+  "title": "Payroll Data Definitions [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.176Z",
+      "blob": "d79f70d8a3113c77dd3959e8553969272c14e631",
+      "words": 273,
+      "forms": 0
     }
   },
   "input_hash": "d79f70d8a3113c77dd3959e8553969272c14e631",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no.md",
+    "description": "Learn how the Payroll Data Definitions extension simplifies data exchange with payroll service providers in Norway.",
+    "ms_date": "2025-05-16",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "payroll data definitions",
+      "data exchange definitions",
+      "payroll transactions",
+      "import payment file",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 273
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d79f70d8a3113c77dd3959e8553969272c14e631"
 }

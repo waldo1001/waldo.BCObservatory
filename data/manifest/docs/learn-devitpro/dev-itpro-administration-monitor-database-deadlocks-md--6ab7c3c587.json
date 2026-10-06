@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "monitor database deadlocks",
+  "title": "Monitoring SQL Database Deadlocks",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.681Z",
+      "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
+      "words": 1278,
+      "forms": 0
     }
   },
   "input_hash": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/monitor-database-deadlocks.md"
-  }
+    "path": "dev-itpro/administration/monitor-database-deadlocks.md",
+    "description": "Read about how you can configure Business Central on-premises to log deadlocks that occur in the SQL database.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1278
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84"
 }

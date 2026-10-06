@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics salesQuote create",
+  "title": "Create salesQuotes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_salesQuote_create",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.190Z",
+      "blob": "6cf5acadb57674238fe19717601dca82b489c9ee",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "6cf5acadb57674238fe19717601dca82b489c9ee",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesQuote_create.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesQuote_create.md",
+    "description": "Creates a sales quote object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6cf5acadb57674238fe19717601dca82b489c9ee"
 }

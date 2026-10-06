@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration pte disclaimer",
+  "title": "Per-tenant Extension (PTE) Disclaimer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-pte-disclaimer",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.662Z",
+      "blob": "dd25cce64546dfaa1e71cd3a2fb4313860ab07f1",
+      "words": 320,
+      "forms": 0
     }
   },
   "input_hash": "dd25cce64546dfaa1e71cd3a2fb4313860ab07f1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-pte-disclaimer.md"
-  }
+    "path": "dev-itpro/administration/administration-pte-disclaimer.md",
+    "description": "Per-tenant Extension (PTE) disclaimer for Business Central",
+    "ms_date": "2024-01-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 320
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd25cce64546dfaa1e71cd3a2fb4313860ab07f1"
 }

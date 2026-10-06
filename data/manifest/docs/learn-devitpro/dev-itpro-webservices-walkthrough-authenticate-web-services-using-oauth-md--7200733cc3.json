@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "walkthrough authenticate web services using oauth",
+  "title": "Walkthrough: Creating a console application that use OAuth to Authenticate Business Central Web Services (OData and SOAP)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.559Z",
+      "blob": "6105f8120f73263d2233ee6f286c5e2fede12bae",
+      "words": 1824,
+      "forms": 0
     }
   },
   "input_hash": "6105f8120f73263d2233ee6f286c5e2fede12bae",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth.md"
-  }
+    "path": "dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth.md",
+    "description": "Learn how to use OAuth to authenticate Business Central web services (OData and SOAP) through a step-by-step guide",
+    "ms_date": "2022-01-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1824
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6105f8120f73263d2233ee6f286c5e2fede12bae"
 }

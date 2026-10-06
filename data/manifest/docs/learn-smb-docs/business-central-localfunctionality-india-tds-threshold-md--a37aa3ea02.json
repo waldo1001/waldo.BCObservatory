@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS Threshold",
+  "title": "TDS calculation considering Threshold limits",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.161Z",
+      "blob": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
+      "words": 319,
+      "forms": 0
     }
   },
   "input_hash": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TDS-Threshold.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TDS-Threshold.md",
+    "description": "Explains how TDS is calculated when threshold limits are applied, including examples and GL entries.",
+    "ms_date": "2025-06-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TDS threshold"
+    ],
+    "ai_usage": null,
+    "words": 319
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8597f5f4f1fe6ad591478105eed2ac91c9967dda"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 9",
+  "title": "Trial Balance/Budget (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-9",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.789Z",
+      "blob": "77f51df0b7a2b75c0ff4444105c796b9db71f27b",
+      "words": 155,
+      "forms": 1
     }
   },
   "input_hash": "77f51df0b7a2b75c0ff4444105c796b9db71f27b",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-9.md"
-  }
+    "path": "business-central/reports/report-9.md",
+    "description": "View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the budget.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_9_Primary",
+        "id": 9,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 155
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "77f51df0b7a2b75c0ff4444105c796b9db71f27b"
 }

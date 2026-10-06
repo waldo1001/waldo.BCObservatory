@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv permissionset composing",
+  "title": "Composing Permission Sets from Other Permission Sets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.576Z",
+      "blob": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc",
+      "words": 867,
+      "forms": 0
     }
   },
   "input_hash": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-permissionset-composing.md"
-  }
+    "path": "dev-itpro/developer/devenv-permissionset-composing.md",
+    "description": "Learn how to create a permission set from one or more existing permission sets in AL code for Business Central.",
+    "ms_date": "2024-11-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 867
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc"
 }

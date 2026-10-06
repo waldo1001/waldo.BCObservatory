@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv creating flowfields and flowfilters",
+  "title": "Creating FlowFields and FlowFilters",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-flowfields-and-flowfilters",
   "published_at": "2026-06-02T11:41:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.366Z",
+      "blob": "82b9d83d0b9f902d98a2470bb99377e86d3cd6fc",
+      "words": 440,
+      "forms": 0
     }
   },
   "input_hash": "82b9d83d0b9f902d98a2470bb99377e86d3cd6fc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-creating-flowfields-and-flowfilters.md"
-  }
+    "path": "dev-itpro/developer/devenv-creating-flowfields-and-flowfilters.md",
+    "description": "Examples of FlowFields and FlowFilters that are used to display the result of the calculation described in the CalcFormula property.",
+    "ms_date": "2024-06-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 440
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82b9d83d0b9f902d98a2470bb99377e86d3cd6fc"
 }

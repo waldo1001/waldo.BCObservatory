@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "walkthrough setting up and using shopify",
+  "title": "Set up and use the Shopify Connector",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify",
   "published_at": "2026-06-12T03:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.817Z",
+      "blob": "80134fb64b7f473e0f4305b00b545a48b6e39cc5",
+      "words": 3403,
+      "forms": 9
     }
   },
   "input_hash": "80134fb64b7f473e0f4305b00b545a48b6e39cc5",
@@ -18,6 +24,62 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/walkthrough-setting-up-and-using-shopify.md"
-  }
+    "path": "business-central/shopify/walkthrough-setting-up-and-using-shopify.md",
+    "description": "Various integration scenarios for demonstrating workflow between Shopify and Business Central",
+    "ms_date": "2025-07-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30101",
+        "id": 30101,
+        "kind": null
+      },
+      {
+        "raw": "30102",
+        "id": 30102,
+        "kind": null
+      },
+      {
+        "raw": "30106",
+        "id": 30106,
+        "kind": null
+      },
+      {
+        "raw": "30107",
+        "id": 30107,
+        "kind": null
+      },
+      {
+        "raw": "30113",
+        "id": 30113,
+        "kind": null
+      },
+      {
+        "raw": "30115",
+        "id": 30115,
+        "kind": null
+      },
+      {
+        "raw": "30126",
+        "id": 30126,
+        "kind": null
+      },
+      {
+        "raw": "30156",
+        "id": 30156,
+        "kind": null
+      },
+      {
+        "raw": "30157",
+        "id": 30157,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3403
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80134fb64b7f473e0f4305b00b545a48b6e39cc5"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate gp validation",
+  "title": "Migration validation overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation",
   "published_at": "2026-05-11T21:05:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.812Z",
+      "blob": "184e870b22ca084fd56253e300b15cf21bda7c76",
+      "words": 571,
+      "forms": 0
     }
   },
   "input_hash": "184e870b22ca084fd56253e300b15cf21bda7c76",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-gp-validation.md"
-  }
+    "path": "dev-itpro/administration/migrate-gp-validation.md",
+    "description": "Learn about the migration validation feature that verifies data migrated from Dynamics GP to Business Central.",
+    "ms_date": "2025-01-09",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 571
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "184e870b22ca084fd56253e300b15cf21bda7c76"
 }

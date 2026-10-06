@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system globallanguage method",
+  "title": "System.GlobalLanguage([Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-globallanguage-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.196Z",
+      "blob": "45f4671765e439b44ce1e256666445d8007d014c",
+      "words": 140,
+      "forms": 0
     }
   },
   "input_hash": "45f4671765e439b44ce1e256666445d8007d014c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-globallanguage-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-globallanguage-method.md",
+    "description": "Gets and sets the current global language setting.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "45f4671765e439b44ce1e256666445d8007d014c"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics orderserviceline",
+  "title": "orderServiceLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_orderserviceline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.042Z",
+      "blob": "887b5c161d12820e68d0ae29cc4a96dec2631c73",
+      "words": 85,
+      "forms": 0
     }
   },
   "input_hash": "887b5c161d12820e68d0ae29cc4a96dec2631c73",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_orderserviceline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_orderserviceline.md",
+    "description": "Represents a orderServiceLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 85
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "887b5c161d12820e68d0ae29cc4a96dec2631c73"
 }

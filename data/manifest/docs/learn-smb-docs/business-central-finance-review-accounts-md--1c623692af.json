@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance review accounts",
+  "title": "Review general ledger accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.667Z",
+      "blob": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443",
+      "words": 687,
+      "forms": 2
     }
   },
   "input_hash": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-review-accounts.md"
-  }
+    "path": "business-central/finance-review-accounts.md",
+    "description": "You can track your progress when you review amounts in general ledger accounts.",
+    "ms_date": "2024-08-06",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "20",
+        "id": 20,
+        "kind": null
+      },
+      {
+        "raw": "22207",
+        "id": 22207,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 687
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e1f92d43aa6215cbff2b1f0beeb3b46ad1a0443"
 }

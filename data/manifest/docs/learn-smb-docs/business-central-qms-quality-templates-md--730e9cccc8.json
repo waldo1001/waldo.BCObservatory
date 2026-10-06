@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "qms quality templates",
+  "title": "Create quality inspection templates",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-quality-templates",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.238Z",
+      "blob": "0a06da4d52fa765c65d7f6c6893515fba10061fb",
+      "words": 877,
+      "forms": 5
     }
   },
   "input_hash": "0a06da4d52fa765c65d7f6c6893515fba10061fb",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/qms-quality-templates.md"
-  }
+    "path": "business-central/qms-quality-templates.md",
+    "description": "Learn how to create and configure quality inspection templates to streamline quality testing processes and ensure compliance with quality standards.",
+    "ms_date": "2026-09-09",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "20400",
+        "id": 20400,
+        "kind": null
+      },
+      {
+        "raw": "20408",
+        "id": 20408,
+        "kind": null
+      },
+      {
+        "raw": "20404",
+        "id": 20404,
+        "kind": null
+      },
+      {
+        "raw": "20402",
+        "id": 20402,
+        "kind": null
+      },
+      {
+        "raw": "20416",
+        "id": 20416,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 877
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0a06da4d52fa765c65d7f6c6893515fba10061fb"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how use approval workflows",
+  "title": "Approve or reject documents in workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-approval-workflows",
   "published_at": "2026-03-01T14:51:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.773Z",
+      "blob": "2969672880e82e308cbec83fdd82910a73ce86ce",
+      "words": 780,
+      "forms": 4
     }
   },
   "input_hash": "2969672880e82e308cbec83fdd82910a73ce86ce",
@@ -18,6 +24,45 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-use-approval-workflows.md"
-  }
+    "path": "business-central/across-how-use-approval-workflows.md",
+    "description": "Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "654_Primary",
+        "id": 654,
+        "kind": "Primary"
+      },
+      {
+        "raw": "662_Primary",
+        "id": 662,
+        "kind": "Primary"
+      },
+      {
+        "raw": "666_Primary",
+        "id": 666,
+        "kind": "Primary"
+      },
+      {
+        "raw": "1500",
+        "id": 1500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "reject",
+      "delegate",
+      "request",
+      "approval",
+      "approval workflows",
+      "record approval",
+      "approval requests"
+    ],
+    "ai_usage": null,
+    "words": 780
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2969672880e82e308cbec83fdd82910a73ce86ce"
 }

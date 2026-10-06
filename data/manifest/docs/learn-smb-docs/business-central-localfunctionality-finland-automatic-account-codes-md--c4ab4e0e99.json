@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "automatic account codes",
+  "title": "Automatic account codes in the Finnish version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.081Z",
+      "blob": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
+      "words": 23,
+      "forms": 2
     }
   },
   "input_hash": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/automatic-account-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/automatic-account-codes.md",
+    "description": "You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Finnish version.",
+    "ms_date": "2025-02-12",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11207",
+        "id": 11207,
+        "kind": null
+      },
+      {
+        "raw": "11208",
+        "id": 11208,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "posting groups",
+      "customized posting groups",
+      "automatic account codes",
+      "recurring transactions",
+      "sales documents",
+      "journals",
+      "purchase documents"
+    ],
+    "ai_usage": null,
+    "words": 23
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e5b2a45521bba0e89527a8635457fa57fd9966c"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv getimageresource method",
+  "title": "GetImageResource Method for Control Add-ins",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-getimageresource-method",
   "published_at": "2026-10-05T10:53:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.195Z",
+      "blob": "40841227a56fa6cfae3cb8eadbfe970f0bb77738",
+      "words": 120,
+      "forms": 0
     }
   },
   "input_hash": "40841227a56fa6cfae3cb8eadbfe970f0bb77738",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods/devenv-getimageresource-method.md"
-  }
+    "path": "dev-itpro/developer/methods/devenv-getimageresource-method.md",
+    "description": "Use the GetImageResource method in a Business Central control add-in to retrieve the URL of an image declared in the control add-in manifest.",
+    "ms_date": "2026-10-05",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40841227a56fa6cfae3cb8eadbfe970f0bb77738"
 }

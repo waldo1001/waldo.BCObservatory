@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref writepermission method",
+  "title": "RecordRef.WritePermission() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-writepermission-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.615Z",
+      "blob": "f66847f57799e8620051e80c862fa52a1553c19f",
+      "words": 332,
+      "forms": 0
     }
   },
   "input_hash": "f66847f57799e8620051e80c862fa52a1553c19f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-writepermission-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-writepermission-method.md",
+    "description": "Determines if you can write to a table.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 332
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f66847f57799e8620051e80c862fa52a1553c19f"
 }

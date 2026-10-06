@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1308",
+  "title": "Standard Sales - Shipment (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1308",
   "published_at": "2026-09-10T14:37:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.878Z",
+      "blob": "0da1397353b864cbf98fe13d2e53659a4ce89d03",
+      "words": 318,
+      "forms": 1
     }
   },
   "input_hash": "0da1397353b864cbf98fe13d2e53659a4ce89d03",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1308.md"
-  }
+    "path": "business-central/reports/report-1308.md",
+    "description": "Print or email a formatted posted sales shipment document that shows shipped items, quantities, and optional lot or serial number tracking.",
+    "ms_date": "2026-09-10",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1308_Primary",
+        "id": 1308,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 318
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0da1397353b864cbf98fe13d2e53659a4ce89d03"
 }

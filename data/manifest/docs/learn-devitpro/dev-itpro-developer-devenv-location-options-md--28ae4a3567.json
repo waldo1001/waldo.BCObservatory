@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv location options",
+  "title": "LocationOptions Overview for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-location-options",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.064Z",
+      "blob": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a",
+      "words": 92,
+      "forms": 0
     }
   },
   "input_hash": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-location-options.md"
-  }
+    "path": "dev-itpro/developer/devenv-location-options.md",
+    "description": "Learn about the LocationOptions that you can pass to RequestLocationAsync in AL, including EnableHighAccuracy, Timeout, and MaximumAge, in Business Central.",
+    "ms_date": "2026-08-24",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 92
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40a33eebe5e72b6a3e18cc542dc74008e6ff681a"
 }

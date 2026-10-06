@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0064",
+  "title": "AppSourceCop Error AS0064",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0064",
   "published_at": "2025-08-08T11:51:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.302Z",
+      "blob": "e1caaccf770a4b60e01d446e9ae9f3475f888077",
+      "words": 152,
+      "forms": 0
     }
   },
   "input_hash": "e1caaccf770a4b60e01d446e9ae9f3475f888077",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0064.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0064.md",
+    "description": "An interface implementation that has been published must not be deleted, because dependent extensions may break.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 152
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1caaccf770a4b60e01d446e9ae9f3475f888077"
 }

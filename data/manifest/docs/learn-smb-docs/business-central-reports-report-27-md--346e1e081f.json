@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 27",
+  "title": "Dimensions - Total (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-27",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.215Z",
+      "blob": "80291656b70a7f967b1ebb80d5ab5930021d3905",
+      "words": 528,
+      "forms": 1
     }
   },
   "input_hash": "80291656b70a7f967b1ebb80d5ab5930021d3905",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-27.md"
-  }
+    "path": "business-central/reports/report-27.md",
+    "description": "Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_27_Primary",
+        "id": 27,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 528
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80291656b70a7f967b1ebb80d5ab5930021d3905"
 }

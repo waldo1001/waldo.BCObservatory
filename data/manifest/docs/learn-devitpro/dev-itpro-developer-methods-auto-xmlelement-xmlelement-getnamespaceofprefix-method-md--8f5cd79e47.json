@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlelement getnamespaceofprefix method",
+  "title": "XmlElement.GetNamespaceOfPrefix(Text, var Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlelement/xmlelement-getnamespaceofprefix-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.121Z",
+      "blob": "8f6edbf6fcb259e0ec8204a7b84dff4e888d7516",
+      "words": 134,
+      "forms": 0
     }
   },
   "input_hash": "8f6edbf6fcb259e0ec8204a7b84dff4e888d7516",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-getnamespaceofprefix-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-getnamespaceofprefix-method.md",
+    "description": "Gets the namespace associated with a particular prefix for this element.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 134
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f6edbf6fcb259e0ec8204a7b84dff4e888d7516"
 }

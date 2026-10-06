@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales tax goods services",
+  "title": "Reporting GST/HST in Canada",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.034Z",
+      "blob": "40f30cf0df66628405eee67e3b52f8097c5748ab",
+      "words": 214,
+      "forms": 0
     }
   },
   "input_hash": "40f30cf0df66628405eee67e3b52f8097c5748ab",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Canada/sales-tax-goods-services.md"
-  }
+    "path": "business-central/LocalFunctionality/Canada/sales-tax-goods-services.md",
+    "description": "Learn how to report local sales tax, goods and services tax in Canada.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "sales tax",
+      "local"
+    ],
+    "ai_usage": null,
+    "words": 214
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40f30cf0df66628405eee67e3b52f8097c5748ab"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics pdfDocument",
+  "title": "pdfDocument resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_pdfDocument",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.678Z",
+      "blob": "4d7f8a0543caf1ac266a375f8a5a9ea548fd4d6b",
+      "words": 201,
+      "forms": 0
     }
   },
   "input_hash": "4d7f8a0543caf1ac266a375f8a5a9ea548fd4d6b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_pdfDocument.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_pdfDocument.md",
+    "description": "A pdf document object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 201
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d7f8a0543caf1ac266a375f8a5a9ea548fd4d6b"
 }

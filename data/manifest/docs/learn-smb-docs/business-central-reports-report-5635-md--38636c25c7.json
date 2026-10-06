@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5635",
+  "title": "Maintenance - Next Service (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5635",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.561Z",
+      "blob": "42dc5e51e74bb2d0d129b981d6dc5c973aaa33a4",
+      "words": 202,
+      "forms": 1
     }
   },
   "input_hash": "42dc5e51e74bb2d0d129b981d6dc5c973aaa33a4",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5635.md"
-  }
+    "path": "business-central/reports/report-5635.md",
+    "description": "Get an overview of when service and repairs are planned for your fixed assets.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5635_Primary",
+        "id": 5635,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 202
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42dc5e51e74bb2d0d129b981d6dc5c973aaa33a4"
 }

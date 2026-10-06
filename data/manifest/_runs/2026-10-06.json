@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T12:16:08.507Z",
-  "finished_at": "2026-10-06T12:18:10.923Z",
+  "started_at": "2026-10-06T12:26:06.692Z",
+  "finished_at": "2026-10-06T12:26:54.737Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -20,95 +20,84 @@
   "ingest": {
     "sources": [
       {
-        "id": "yt-microsoft",
-        "kind": "youtube",
+        "id": "learn-smb-docs",
+        "kind": "docs-git",
         "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 2157,
           "removed": 0
         },
-        "note": "15 feed entries; reconcile added 444",
-        "duration_ms": 5588
+        "note": "2157 pages at bf5ffffa9b02",
+        "duration_ms": 2237
+      },
+      {
+        "id": "learn-devitpro",
+        "kind": "docs-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 5893,
+          "removed": 0
+        },
+        "note": "5893 pages at f928288ee840",
+        "duration_ms": 2058
       }
     ],
     "totals": {
-      "sources": 1,
+      "sources": 2,
       "failed": 0,
       "deferred": 0,
       "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 15,
+      "unchanged": 8050,
       "removed": 0
     }
   },
   "plan": {
     "quotas": {
-      "captions": 2,
-      "video_extract": 2,
-      "docs": 2,
-      "posts": 2,
-      "guidelines": 2,
+      "captions": 40,
+      "video_extract": 25,
+      "docs": 60,
+      "posts": 40,
+      "guidelines": 20,
       "code_jobs": 1,
-      "hub_refresh": 2,
-      "opus_reviews": 2,
+      "hub_refresh": 15,
+      "opus_reviews": 10,
       "llm_calls_max": 450
     },
-    "work": 4,
-    "executed": 4,
+    "work": 8050,
+    "executed": 8050,
     "skips": 0,
     "quota_use": {
-      "video_extract": {
-        "selected": 2,
-        "available": 82,
-        "limit": 2
-      },
-      "captions": {
-        "selected": 2,
-        "available": 444,
-        "limit": 2
+      "unlimited": {
+        "selected": 8050,
+        "available": 8050,
+        "limit": null
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 4,
+    "calls": 0,
     "cache_hits": 0,
     "failures": 0,
-    "by_model": {
-      "claude-haiku-4-5-20251001": 2,
-      "claude-sonnet-5-5": 2
-    },
-    "cost_usd": 0.1696624,
-    "tokens_by_model": {
-      "claude-haiku-4-5-20251001": {
-        "calls": 2,
-        "input": 6,
-        "output": 7274,
-        "cache_read": 0,
-        "cache_creation": 21113,
-        "cost_usd": 0.07860199999999999
-      },
-      "claude-sonnet-5-5": {
-        "calls": 2,
-        "input": 4,
-        "output": 1625,
-        "cache_read": 1812,
-        "cache_creation": 18610,
-        "cost_usd": 0.0910604
-      }
-    },
+    "by_model": {},
+    "cost_usd": 0,
+    "tokens_by_model": {},
     "day_cost_usd": 0.254432
   },
   "spend": {
-    "today_usd": 0.08477,
+    "today_usd": 0.254432,
     "week_before_usd": 0,
     "night_cap_usd": 10,
     "week_cap_usd": 50,
-    "allowance_usd": 9.91523,
+    "allowance_usd": 9.745568,
     "binding": "night",
     "exhausted": false
   },
@@ -116,26 +105,18 @@
   "errors": [],
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-06T17:51:00.000Z",
-    "items_touched": 4,
+    "deadline": "2026-10-06T18:01:00.000Z",
+    "items_touched": 8050,
     "stages_run": {
-      "video:extracted": 2,
-      "video:summarized": 2,
-      "video:linked": 2,
-      "video:published": 2,
-      "video:fetched": 2,
-      "video:captioned": 2
+      "docs:fetched": 8050
     },
-    "advanced": 12,
+    "advanced": 8050,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "quota_charged": {
-      "video_extract": 2,
-      "captions": 2
-    },
+    "quota_charged": {},
     "regards": [],
     "errors": []
   }

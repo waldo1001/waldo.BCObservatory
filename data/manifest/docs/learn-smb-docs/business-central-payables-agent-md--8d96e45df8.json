@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payables agent",
+  "title": "Payables Agent Overview in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.449Z",
+      "blob": "e872579bccdc5dccd142390d5e17dc7701a8437c",
+      "words": 2346,
+      "forms": 2
     }
   },
   "input_hash": "e872579bccdc5dccd142390d5e17dc7701a8437c",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/payables-agent.md"
-  }
+    "path": "business-central/payables-agent.md",
+    "description": "Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "4400",
+        "id": 4400,
+        "kind": null
+      },
+      {
+        "raw": "4410",
+        "id": 4410,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 2346
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e872579bccdc5dccd142390d5e17dc7701a8437c"
 }

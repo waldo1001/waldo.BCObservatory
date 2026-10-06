@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up customers for ehf",
+  "title": "Set Up Customers for EHF",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.088Z",
+      "blob": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
+      "words": 233,
+      "forms": 2
     }
   },
   "input_hash": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md",
+    "description": "Learn how to create Elektronisk Handelsformat (EHF) documents for customers in the public sector.",
+    "ms_date": "2025-05-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "459",
+        "id": 459,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "EHF documents",
+      "create EHF documents",
+      "public sector customers",
+      "add EHF information",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 233
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fb1545364b5e7c9d3057903592e96c97891e0a5c"
 }

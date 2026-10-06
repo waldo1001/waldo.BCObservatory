@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin optimize text search language",
+  "title": "Configure text search language for multilingual environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-optimize-text-search-language",
   "published_at": "2026-06-11T12:16:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.831Z",
+      "blob": "f112cb5f955f7982073ddf4971c11c9f173c5cf9",
+      "words": 353,
+      "forms": 3
     }
   },
   "input_hash": "f112cb5f955f7982073ddf4971c11c9f173c5cf9",
@@ -18,6 +24,39 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-optimize-text-search-language.md"
-  }
+    "path": "business-central/admin-optimize-text-search-language.md",
+    "description": "Learn how to optimize modern search performance by configuring the text search language for your Business Central environment.",
+    "ms_date": "2026-06-09",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_9234",
+        "id": 9234,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9202",
+        "id": 9202,
+        "kind": null
+      },
+      {
+        "raw": "9235",
+        "id": 9235,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "search",
+      "modern search",
+      "full-text search",
+      "indexing",
+      "language",
+      "multilingual"
+    ],
+    "ai_usage": null,
+    "words": 353
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f112cb5f955f7982073ddf4971c11c9f173c5cf9"
 }

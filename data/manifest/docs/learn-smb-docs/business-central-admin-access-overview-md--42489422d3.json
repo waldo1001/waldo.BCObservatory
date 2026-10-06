@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin access overview",
+  "title": "Manage Access to Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-overview",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.295Z",
+      "blob": "869e92a0a255cedfe8407e88ea1436d05ec2ed34",
+      "words": 635,
+      "forms": 0
     }
   },
   "input_hash": "869e92a0a255cedfe8407e88ea1436d05ec2ed34",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-access-overview.md"
-  }
+    "path": "business-central/admin-access-overview.md",
+    "description": "Administrators use a layered approach to controlling access to Business Central and its capabilities.",
+    "ms_date": "2023-04-04",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 635
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "869e92a0a255cedfe8407e88ea1436d05ec2ed34"
 }

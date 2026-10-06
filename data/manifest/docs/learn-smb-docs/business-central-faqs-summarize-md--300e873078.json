@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "faqs summarize",
+  "title": "Responsible AI FAQ for summarize (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-summarize",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.404Z",
+      "blob": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed",
+      "words": 742,
+      "forms": 0
     }
   },
   "input_hash": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/faqs-summarize.md"
-  }
+    "path": "business-central/faqs-summarize.md",
+    "description": "Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [
+      "copilot",
+      "AI",
+      "chat"
+    ],
+    "ai_usage": null,
+    "words": 742
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance posting groups",
+  "title": "Posting group setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
   "published_at": "2025-08-13T11:04:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.261Z",
+      "blob": "b6f9f25693cdb6915f1b6229c04148e656690bea",
+      "words": 2009,
+      "forms": 2
     }
   },
   "input_hash": "b6f9f25693cdb6915f1b6229c04148e656690bea",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-posting-groups.md"
-  }
+    "path": "business-central/finance-posting-groups.md",
+    "description": "Learn how to use posting groups to save time and avoid mistakes when you post transactions.",
+    "ms_date": "2025-08-13",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [
+      {
+        "raw": "312",
+        "id": 312,
+        "kind": null
+      },
+      {
+        "raw": "313",
+        "id": 313,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "posting setup",
+      "initialize"
+    ],
+    "ai_usage": null,
+    "words": 2009
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6f9f25693cdb6915f1b6229c04148e656690bea"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi sales demographics",
+  "title": "Sales Demographics (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics",
   "published_at": "2026-05-01T01:15:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.095Z",
+      "blob": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b",
+      "words": 347,
+      "forms": 1
     }
   },
   "input_hash": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-sales-demographics.md"
-  }
+    "path": "business-central/sales-powerbi-sales-demographics.md",
+    "description": "The Sales Demographics provides a comprehensive analysis of sales performance across different demographic segments, offering valuable insights into customer behavior and preferences to optimize sales strategies.",
+    "ms_date": "2025-10-07",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37100_Primary",
+        "id": 37100,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 347
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv directive pragma",
+  "title": "Pragma directive in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma",
   "published_at": "2025-06-02T13:18:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.792Z",
+      "blob": "0792bd3675a8cf2242fe99e2424e6481f9b6c51c",
+      "words": 78,
+      "forms": 0
     }
   },
   "input_hash": "0792bd3675a8cf2242fe99e2424e6481f9b6c51c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/directives/devenv-directive-pragma.md"
-  }
+    "path": "dev-itpro/developer/directives/devenv-directive-pragma.md",
+    "description": "Types of pragma directives supported in AL for Business Central.",
+    "ms_date": "2025-06-02",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 78
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0792bd3675a8cf2242fe99e2424e6481f9b6c51c"
 }

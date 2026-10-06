@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui bookmarks",
+  "title": "Bookmark link to page or report on role center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.743Z",
+      "blob": "ae4dac22e0679dfb62267cb7ab7627d75c671b22",
+      "words": 919,
+      "forms": 0
     }
   },
   "input_hash": "ae4dac22e0679dfb62267cb7ab7627d75c671b22",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-bookmarks.md"
-  }
+    "path": "business-central/ui-bookmarks.md",
+    "description": "Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.",
+    "ms_date": "2024-07-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 919
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae4dac22e0679dfb62267cb7ab7627d75c671b22"
 }

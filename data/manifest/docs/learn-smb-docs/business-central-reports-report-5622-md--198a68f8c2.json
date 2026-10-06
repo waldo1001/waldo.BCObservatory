@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5622",
+  "title": "Insurance Journal - Test (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5622",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.522Z",
+      "blob": "6df6118477d6a7f40f167c4a7768508136182a32",
+      "words": 178,
+      "forms": 1
     }
   },
   "input_hash": "6df6118477d6a7f40f167c4a7768508136182a32",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5622.md"
-  }
+    "path": "business-central/reports/report-5622.md",
+    "description": "Review the journal lines in a fixed asset insurance journal. You can use the report to check the lines before you post the journal.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5622_Primary",
+        "id": 5622,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 178
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6df6118477d6a7f40f167c4a7768508136182a32"
 }

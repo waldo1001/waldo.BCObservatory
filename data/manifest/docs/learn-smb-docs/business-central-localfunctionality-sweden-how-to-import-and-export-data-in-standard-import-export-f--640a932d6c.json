@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import and export data in standard import export format",
+  "title": "Import and Export Data in SIE [SE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.849Z",
+      "blob": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
+      "words": 424,
+      "forms": 1
     }
   },
   "input_hash": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md"
-  }
+    "path": "business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md",
+    "description": "You can import and export general ledger data according to the standard import export (SIE) format explained in this article.",
+    "ms_date": "2025-02-06",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "11212",
+        "id": 11212,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "import",
+      "export",
+      "standard import export",
+      "SIE",
+      "general ledger data"
+    ],
+    "ai_usage": null,
+    "words": 424
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "139ca1ff90a66b8a36c8de5570df74e7bac441f7"
 }

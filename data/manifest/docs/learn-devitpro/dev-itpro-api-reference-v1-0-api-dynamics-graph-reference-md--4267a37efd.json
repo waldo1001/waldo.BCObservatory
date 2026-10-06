@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics graph reference",
+  "title": "(v1.0) Microsoft Graph Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_graph_reference",
   "published_at": "2024-10-28T12:21:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.551Z",
+      "blob": "274713b1a633def573487a30f4b56c8ded48c8da",
+      "words": 146,
+      "forms": 0
     }
   },
   "input_hash": "274713b1a633def573487a30f4b56c8ded48c8da",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/api/dynamics_graph_reference.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/api/dynamics_graph_reference.md",
+    "description": "(v1.0) API documentation for integration with Microsoft Graph",
+    "ms_date": "2024-05-01",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 146
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "274713b1a633def573487a30f4b56c8ded48c8da"
 }

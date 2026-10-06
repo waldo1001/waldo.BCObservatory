@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "swiss general ledger accounts",
+  "title": "Swiss General Ledger Accounts [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.990Z",
+      "blob": "a2127316488a166c701bdc11c335be47b42cf553",
+      "words": 363,
+      "forms": 1
     }
   },
   "input_hash": "a2127316488a166c701bdc11c335be47b42cf553",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md",
+    "description": "This article explains enhancements to the Swiss General Ledger Accounts and General Journals.",
+    "ms_date": "2025-04-30",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11500",
+        "id": 11500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Swiss General Ledger Accounts",
+      "General Ledger Accounts enhancements",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 363
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2127316488a166c701bdc11c335be47b42cf553"
 }

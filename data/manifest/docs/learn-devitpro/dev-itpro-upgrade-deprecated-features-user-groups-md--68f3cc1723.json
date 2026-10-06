@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "deprecated features user groups",
+  "title": "Migrate from User Groups to Permission Sets or Security Groups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-user-groups",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.077Z",
+      "blob": "73a00adc01b6cc092a7a268dff00219422af6100",
+      "words": 684,
+      "forms": 0
     }
   },
   "input_hash": "73a00adc01b6cc092a7a268dff00219422af6100",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/deprecated-features-user-groups.md"
-  }
+    "path": "dev-itpro/upgrade/deprecated-features-user-groups.md",
+    "description": "This article describes why we've deprecated user groups, and provides developers with examples of how they can uptake the change in their extensions.",
+    "ms_date": "2023-08-24",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 684
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "73a00adc01b6cc092a7a268dff00219422af6100"
 }

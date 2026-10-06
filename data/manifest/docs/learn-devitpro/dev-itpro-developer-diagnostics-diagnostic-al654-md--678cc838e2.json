@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al654",
+  "title": "Compiler Error AL0654",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al654",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:44.854Z",
+      "blob": "d592f1e0a03de0b4de4ce7e2b57383c03837dc85",
+      "words": 54,
+      "forms": 0
     }
   },
   "input_hash": "d592f1e0a03de0b4de4ce7e2b57383c03837dc85",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al654.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al654.md",
+    "description": "The property value contains an unexpected file extension: {0}.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 54
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d592f1e0a03de0b4de4ce7e2b57383c03837dc85"
 }

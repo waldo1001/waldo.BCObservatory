@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv encoding property",
+  "title": "Encoding property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-encoding-property",
   "published_at": "2026-03-11T10:08:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.543Z",
+      "blob": "1f252f0c903ade6655c13757f391d8329e890244",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "1f252f0c903ade6655c13757f391d8329e890244",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-encoding-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-encoding-property.md",
+    "description": "Sets a value that specifies which system is applied to the XmlPort for character encoding.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f252f0c903ade6655c13757f391d8329e890244"
 }

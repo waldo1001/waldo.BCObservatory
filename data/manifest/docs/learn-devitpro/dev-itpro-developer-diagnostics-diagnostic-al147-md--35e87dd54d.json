@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al147",
+  "title": "Compiler Error AL0147",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al147",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.134Z",
+      "blob": "8e1ed4a611497808431e92dbd4e3a35b80ec4ec4",
+      "words": 59,
+      "forms": 0
     }
   },
   "input_hash": "8e1ed4a611497808431e92dbd4e3a35b80ec4ec4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al147.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al147.md",
+    "description": "An array dimension must be a positive number.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 59
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8e1ed4a611497808431e92dbd4e3a35b80ec4ec4"
 }

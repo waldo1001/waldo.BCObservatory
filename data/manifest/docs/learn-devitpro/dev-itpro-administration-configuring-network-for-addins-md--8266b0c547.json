@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "configuring network for addins",
+  "title": "Preparing your network for the Excel Add-In",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins",
   "published_at": "2025-05-06T19:27:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.482Z",
+      "blob": "c6b166902ee1a628ed9e6cef048154aefad07c9a",
+      "words": 204,
+      "forms": 0
     }
   },
   "input_hash": "c6b166902ee1a628ed9e6cef048154aefad07c9a",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/configuring-network-for-addins.md"
-  }
+    "path": "dev-itpro/administration/configuring-network-for-addins.md",
+    "description": "This article includes information that helps administrators configure advanced device and network settings for the Excel add-in for Business Central.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "configure",
+      "port",
+      "firewall",
+      "proxy"
+    ],
+    "ai_usage": null,
+    "words": 204
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6b166902ee1a628ed9e6cef048154aefad07c9a"
 }

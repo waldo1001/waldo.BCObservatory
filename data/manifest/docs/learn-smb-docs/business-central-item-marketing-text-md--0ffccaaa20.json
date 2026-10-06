@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "item marketing text",
+  "title": "Add marketing text to items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/item-marketing-text",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.411Z",
+      "blob": "ecda9f2719202c66575e2317ec3abd7133a65f76",
+      "words": 1510,
+      "forms": 1
     }
   },
   "input_hash": "ecda9f2719202c66575e2317ec3abd7133a65f76",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/item-marketing-text.md"
-  }
+    "path": "business-central/item-marketing-text.md",
+    "description": "Write marketing text for items in Business Central.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5839_Primary",
+        "id": 5839,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1510
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ecda9f2719202c66575e2317ec3abd7133a65f76"
 }

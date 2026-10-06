@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "depreciation bonus",
+  "title": "Depreciation bonus in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/depreciation-bonus",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.452Z",
+      "blob": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
+      "words": 416,
+      "forms": 0
     }
   },
   "input_hash": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/depreciation-bonus.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/depreciation-bonus.md",
+    "description": "Learn about the depreciation bonus feature for fixed assets in Russian tax accounting.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "depreciation",
+      "depreciation bonus",
+      "bonus calculation",
+      "selecting depreciation bonus",
+      "canceling depreciation bonus",
+      "bonus transactions",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 416
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee1285f58f33216e8452ccd82e38fe95177c12c3"
 }

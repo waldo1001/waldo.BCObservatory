@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al571",
+  "title": "Compiler Warning (future error) AL0571",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al571",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.841Z",
+      "blob": "f87d4553d779c97380a7bdd85606b207b2da8e24",
+      "words": 69,
+      "forms": 0
     }
   },
   "input_hash": "f87d4553d779c97380a7bdd85606b207b2da8e24",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al571.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al571.md",
+    "description": "The property 'Description' should only be used for internal comments.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 69
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f87d4553d779c97380a7bdd85606b207b2da8e24"
 }

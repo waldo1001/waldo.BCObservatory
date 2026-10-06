@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "year end processes overview",
+  "title": "Year End Processes Overview [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/year-end-processes-overview",
   "published_at": "2025-04-22T15:09:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.039Z",
+      "blob": "006966612402811251d1a8a11d7ea63de8527271",
+      "words": 299,
+      "forms": 0
     }
   },
   "input_hash": "006966612402811251d1a8a11d7ea63de8527271",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/year-end-processes-overview.md"
-  }
+    "path": "business-central/LocalFunctionality/France/year-end-processes-overview.md",
+    "description": "Overview of the fiscal year-end closing processes in the French version of Business Central, including compliance with French regulations.",
+    "ms_date": "2025-04-16",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "fiscal closing process",
+      "year-end closing",
+      "year end process",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 299
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "006966612402811251d1a8a11d7ea63de8527271"
 }

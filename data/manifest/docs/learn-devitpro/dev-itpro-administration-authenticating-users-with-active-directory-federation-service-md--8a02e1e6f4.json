@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "authenticating users with active directory federation service",
+  "title": "Authenticating Users with Active Directory Federation Services",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-active-directory-federation-service",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.187Z",
+      "blob": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
+      "words": 1893,
+      "forms": 0
     }
   },
   "input_hash": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/authenticating-users-with-active-directory-federation-service.md"
-  }
+    "path": "dev-itpro/administration/authenticating-users-with-active-directory-federation-service.md",
+    "description": "Learn how to configure Business Central on-premises to use AD FS authentication.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1893
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cdf98910bf819fe3c24273dca51ae9f808beaf8f"
 }

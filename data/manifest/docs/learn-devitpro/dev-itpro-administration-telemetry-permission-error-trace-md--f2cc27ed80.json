@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry permission error trace",
+  "title": "Analyzing Permission Error Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace",
   "published_at": "2026-03-25T12:36:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.464Z",
+      "blob": "a66c7da4f5f70839b98e59a8f92703268c61b252",
+      "words": 369,
+      "forms": 0
     }
   },
   "input_hash": "a66c7da4f5f70839b98e59a8f92703268c61b252",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-permission-error-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-permission-error-trace.md",
+    "description": "Learn about the permission error telemetry in Business Central",
+    "ms_date": "2022-07-27",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 369
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a66c7da4f5f70839b98e59a8f92703268c61b252"
 }

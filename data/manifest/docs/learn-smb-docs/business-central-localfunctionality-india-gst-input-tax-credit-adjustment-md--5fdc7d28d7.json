@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Input Tax Credit Adjustment",
+  "title": "GST Input Tax Credit Adjustments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.965Z",
+      "blob": "36c4fe413e2801506991595a9804c2ab07fbd297",
+      "words": 1205,
+      "forms": 0
     }
   },
   "input_hash": "36c4fe413e2801506991595a9804c2ab07fbd297",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md",
+    "description": "Learn how to manage and adjust GST input tax credit in Business Central for India, including credit reversals, reavailment, and reverse charge transactions.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "input tax credit adjustments",
+      "credit adjustment journal",
+      "reverse charge transactions"
+    ],
+    "ai_usage": null,
+    "words": 1205
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36c4fe413e2801506991595a9804c2ab07fbd297"
 }

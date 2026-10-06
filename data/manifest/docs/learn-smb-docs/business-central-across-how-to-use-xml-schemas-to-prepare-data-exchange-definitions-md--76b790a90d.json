@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to use xml schemas to prepare data exchange definitions",
+  "title": "XML schemas to prepare data exchange definitions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.249Z",
+      "blob": "188a087604c9f49b6f767e8e0fab8bee144837b6",
+      "words": 853,
+      "forms": 0
     }
   },
   "input_hash": "188a087604c9f49b6f767e8e0fab8bee144837b6",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md"
-  }
+    "path": "business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md",
+    "description": "Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "xml schemas",
+      "data exchange"
+    ],
+    "ai_usage": null,
+    "words": 853
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "188a087604c9f49b6f767e8e0fab8bee144837b6"
 }

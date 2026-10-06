@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to allocate resources",
+  "title": "How to allocate resources | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-allocate-resources",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.471Z",
+      "blob": "a7d3e44c46922af25a2a5b684f2681edb388d31d",
+      "words": 1913,
+      "forms": 0
     }
   },
   "input_hash": "a7d3e44c46922af25a2a5b684f2681edb388d31d",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-allocate-resources.md"
-  }
+    "path": "business-central/service-how-to-allocate-resources.md",
+    "description": "Adjust the annual amount on a service contract or contract quote to ensure the correct amount is invoiced each year.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "annual amount",
+      "service contract",
+      "contract quote",
+      "adjust annual amount",
+      "allocate resources",
+      "resource allocation"
+    ],
+    "ai_usage": null,
+    "words": 1913
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7d3e44c46922af25a2a5b684f2681edb388d31d"
 }

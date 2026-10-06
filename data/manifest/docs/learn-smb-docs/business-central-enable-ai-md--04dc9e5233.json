@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "enable ai",
+  "title": "Configure Copilot and agent capabilities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/enable-ai",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.276Z",
+      "blob": "2210b85711db1f8a37311cb3cd9dd94c59086ec3",
+      "words": 1769,
+      "forms": 3
     }
   },
   "input_hash": "2210b85711db1f8a37311cb3cd9dd94c59086ec3",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/enable-ai.md"
-  }
+    "path": "business-central/enable-ai.md",
+    "description": "Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7771",
+        "id": 7771,
+        "kind": null
+      },
+      {
+        "raw": "7772_Primary",
+        "id": 7772,
+        "kind": "Primary"
+      },
+      {
+        "raw": "7775_Primary",
+        "id": 7775,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1769
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2210b85711db1f8a37311cb3cd9dd94c59086ec3"
 }

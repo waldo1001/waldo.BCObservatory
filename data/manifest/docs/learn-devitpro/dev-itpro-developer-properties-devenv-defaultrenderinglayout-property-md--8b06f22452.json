@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv defaultrenderinglayout property",
+  "title": "DefaultRenderingLayout property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-defaultrenderinglayout-property",
   "published_at": "2024-10-08T09:23:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.646Z",
+      "blob": "7065efcbbc59d7dba38ed5b6e317896357973f4b",
+      "words": 81,
+      "forms": 0
     }
   },
   "input_hash": "7065efcbbc59d7dba38ed5b6e317896357973f4b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-defaultrenderinglayout-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-defaultrenderinglayout-property.md",
+    "description": "Sets the default layout that should be used for this report.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 81
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7065efcbbc59d7dba38ed5b6e317896357973f4b"
 }

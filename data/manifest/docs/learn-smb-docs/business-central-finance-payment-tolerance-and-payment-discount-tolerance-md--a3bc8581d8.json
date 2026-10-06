@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance payment tolerance and payment discount tolerance",
+  "title": "Payment tolerance and payment discount tolerance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.712Z",
+      "blob": "2377ad449e33dfc77c210f98c56eab4494b0d2ad",
+      "words": 2527,
+      "forms": 3
     }
   },
   "input_hash": "2377ad449e33dfc77c210f98c56eab4494b0d2ad",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-payment-tolerance-and-payment-discount-tolerance.md"
-  }
+    "path": "business-central/finance-payment-tolerance-and-payment-discount-tolerance.md",
+    "description": "This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.",
+    "ms_date": "2024-07-05",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "314",
+        "id": 314,
+        "kind": null
+      },
+      {
+        "raw": "395",
+        "id": 395,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2527
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2377ad449e33dfc77c210f98c56eab4494b0d2ad"
 }

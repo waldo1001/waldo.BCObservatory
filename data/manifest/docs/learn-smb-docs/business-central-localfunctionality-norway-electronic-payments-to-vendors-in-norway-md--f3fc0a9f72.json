@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic payments to vendors in norway",
+  "title": "Electronic Payments to Vendors in Norway",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.012Z",
+      "blob": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8",
+      "words": 431,
+      "forms": 0
     }
   },
   "input_hash": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md",
+    "description": "Learn about the Norwegian enhancements that simplify vendor payments, enabling invoice searches, bank transactions, status updates, and electronic payments in various formats.",
+    "ms_date": "2025-05-12",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "vendor payments",
+      "invoice searches",
+      "electronic payments",
+      "telepay",
+      "remittance payment",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 431
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8"
 }

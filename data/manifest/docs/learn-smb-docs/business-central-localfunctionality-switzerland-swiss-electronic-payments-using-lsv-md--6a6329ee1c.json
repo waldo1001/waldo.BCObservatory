@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "swiss electronic payments using lsv",
+  "title": "Swiss electronic payments using LSV+ [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.980Z",
+      "blob": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
+      "words": 335,
+      "forms": 5
     }
   },
   "input_hash": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md",
+    "description": "Learn about the LSV+, or direct debit, which is an electronic payment method that permits companies to retrieve payments directly from their customers' bank accounts.",
+    "ms_date": "2025-04-30",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "3010830",
+        "id": 3010830,
+        "kind": null
+      },
+      {
+        "raw": "3010831",
+        "id": 3010831,
+        "kind": null
+      },
+      {
+        "raw": "3010832",
+        "id": 3010832,
+        "kind": null
+      },
+      {
+        "raw": "3010834",
+        "id": 3010834,
+        "kind": null
+      },
+      {
+        "raw": "3010835",
+        "id": 3010835,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "LSV+",
+      "direct debit",
+      "direct payment retrieval",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 335
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07c1d183b7df71dfa870456b500ffa2fd2f450bf"
 }

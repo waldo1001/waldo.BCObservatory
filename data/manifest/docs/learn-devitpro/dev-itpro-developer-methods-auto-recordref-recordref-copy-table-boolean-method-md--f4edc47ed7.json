@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref copy table boolean method",
+  "title": "RecordRef.Copy(var Record [, Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-copy-table-boolean-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.336Z",
+      "blob": "1915f7b4f714ba52150de9bf09b038bf316f3214",
+      "words": 185,
+      "forms": 0
     }
   },
   "input_hash": "1915f7b4f714ba52150de9bf09b038bf316f3214",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-copy-table-boolean-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-copy-table-boolean-method.md",
+    "description": "Copies a specified record's filters, views, automatically calculated FlowFields, marks, fields, and keys that are associated with the record from a table or creates a reference to a record.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 185
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1915f7b4f714ba52150de9bf09b038bf316f3214"
 }

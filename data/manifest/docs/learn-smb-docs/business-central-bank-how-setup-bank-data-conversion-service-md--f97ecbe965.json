@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bank how setup bank data conversion service",
+  "title": "Set Up Bank Data Conversion",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-data-conversion-service",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.588Z",
+      "blob": "e074f37b3306cd941dff4586b4a1d52acdd60758",
+      "words": 700,
+      "forms": 7
     }
   },
   "input_hash": "e074f37b3306cd941dff4586b4a1d52acdd60758",
@@ -18,6 +24,65 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bank-how-setup-bank-data-conversion-service.md"
-  }
+    "path": "business-central/bank-how-setup-bank-data-conversion-service.md",
+    "description": "You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "304",
+        "id": 304,
+        "kind": null
+      },
+      {
+        "raw": "20106",
+        "id": 20106,
+        "kind": null
+      },
+      {
+        "raw": "20105",
+        "id": 20105,
+        "kind": null
+      },
+      {
+        "raw": "20100",
+        "id": 20100,
+        "kind": null
+      },
+      {
+        "raw": "20101",
+        "id": 20101,
+        "kind": null
+      },
+      {
+        "raw": "20107",
+        "id": 20107,
+        "kind": null
+      },
+      {
+        "raw": "20109",
+        "id": 20109,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Yodlee",
+      "feed",
+      "stream",
+      "data exchange",
+      "AMC",
+      "bank file import",
+      "bank file export",
+      "re-export",
+      "bank transfer",
+      "AMC",
+      "AMC Banking 365 Fundamentals extension",
+      "funds transfer"
+    ],
+    "ai_usage": null,
+    "words": 700
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e074f37b3306cd941dff4586b4a1d52acdd60758"
 }

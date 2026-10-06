@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to apply and unapply general ledger entries",
+  "title": "Apply and Unapply General Ledger Entries [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.898Z",
+      "blob": "da7ac9011bed43dd91bd2ef9202a54e511f21d81",
+      "words": 25,
+      "forms": 0
     }
   },
   "input_hash": "da7ac9011bed43dd91bd2ef9202a54e511f21d81",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md",
+    "description": "Learn how to apply and unapply general ledger entries in the Belgian version of Business Central, to allow working with temporary and transfer accounts in the general ledger.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "apply general ledger entries",
+      "unapply general ledger entries",
+      "temporary accounts",
+      "transfer accounts"
+    ],
+    "ai_usage": null,
+    "words": 25
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da7ac9011bed43dd91bd2ef9202a54e511f21d81"
 }

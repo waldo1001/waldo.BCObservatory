@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up bank ccc codes",
+  "title": "Set up bank CCC codes [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.720Z",
+      "blob": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
+      "words": 275,
+      "forms": 0
     }
   },
   "input_hash": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md",
+    "description": "The Código Cuenta Cliente (CCC) is a unique account code assigned by Spanish banks to customer accounts, appearing on documents, such as checks and statements.",
+    "ms_date": "2025-05-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "CCC",
+      "unique account code",
+      "set up ccc",
+      "enter ccc",
+      "set up bank codes",
+      "bank codes",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 275
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42"
 }

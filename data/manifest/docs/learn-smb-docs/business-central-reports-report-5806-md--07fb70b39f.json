@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5806",
+  "title": "Item Charges - Specification (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5806",
   "published_at": "2026-03-12T02:19:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.800Z",
+      "blob": "81d451585e239be3ff80b5febe1b2c14e1086aea",
+      "words": 406,
+      "forms": 1
     }
   },
   "input_hash": "81d451585e239be3ff80b5febe1b2c14e1086aea",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5806.md"
-  }
+    "path": "business-central/reports/report-5806.md",
+    "description": "Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5806_Primary",
+        "id": 5806,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 406
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81d451585e239be3ff80b5febe1b2c14e1086aea"
 }

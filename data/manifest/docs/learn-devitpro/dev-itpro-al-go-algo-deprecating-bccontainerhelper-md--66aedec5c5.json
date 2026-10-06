@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "algo deprecating bccontainerhelper",
+  "title": "Deprecating BcContainerHelper",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/al-go/algo-deprecating-bccontainerhelper",
   "published_at": "2025-03-20T14:04:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.105Z",
+      "blob": "6ec2a800302346c7d1866b2f8aefd4e0663ac0e8",
+      "words": 164,
+      "forms": 0
     }
   },
   "input_hash": "6ec2a800302346c7d1866b2f8aefd4e0663ac0e8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/al-go/algo-deprecating-bccontainerhelper.md"
-  }
+    "path": "dev-itpro/al-go/algo-deprecating-bccontainerhelper.md",
+    "description": "Learn about the deprecation of BcContainerHelper and its replacement in AL-Go for GitHub.",
+    "ms_date": "2025-03-20",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 164
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ec2a800302346c7d1866b2f8aefd4e0663ac0e8"
 }

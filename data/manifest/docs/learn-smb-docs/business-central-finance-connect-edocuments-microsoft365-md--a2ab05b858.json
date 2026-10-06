@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance connect edocuments microsoft365",
+  "title": "Connect e-documents to Microsoft 365 applications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-connect-edocuments-microsoft365",
   "published_at": "2026-09-02T09:00:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.126Z",
+      "blob": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0",
+      "words": 578,
+      "forms": 0
     }
   },
   "input_hash": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-connect-edocuments-microsoft365.md"
-  }
+    "path": "business-central/finance-connect-edocuments-microsoft365.md",
+    "description": "Learn how to integrate e-documents with Microsoft 365 applications.",
+    "ms_date": "2026-09-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "e-documents",
+      "Microsoft 365"
+    ],
+    "ai_usage": null,
+    "words": 578
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5d41a30a62fe7177ad1b0dee8545c17350ead7f0"
 }

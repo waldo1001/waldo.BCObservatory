@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5971",
+  "title": "Service Contract-Detail (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5971",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.665Z",
+      "blob": "8565fae7756f6bb728081f13b5c43e61e7e1d28c",
+      "words": 130,
+      "forms": 1
     }
   },
   "input_hash": "8565fae7756f6bb728081f13b5c43e61e7e1d28c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5971.md"
-  }
+    "path": "business-central/reports/report-5971.md",
+    "description": "Get an overview of your service contracts.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5971_Primary",
+        "id": 5971,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 130
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8565fae7756f6bb728081f13b5c43e61e7e1d28c"
 }

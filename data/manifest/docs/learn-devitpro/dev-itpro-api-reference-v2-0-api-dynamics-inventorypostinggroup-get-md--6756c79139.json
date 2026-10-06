@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics inventorypostinggroup get",
+  "title": "Get inventoryPostingGroups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_inventorypostinggroup_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.679Z",
+      "blob": "c77e3021cdb3b9e57d37c3cc231d0d6a0dd69aec",
+      "words": 88,
+      "forms": 0
     }
   },
   "input_hash": "c77e3021cdb3b9e57d37c3cc231d0d6a0dd69aec",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_inventorypostinggroup_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_inventorypostinggroup_get.md",
+    "description": "Gets an inventory posting group object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 88
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c77e3021cdb3b9e57d37c3cc231d0d6a0dd69aec"
 }

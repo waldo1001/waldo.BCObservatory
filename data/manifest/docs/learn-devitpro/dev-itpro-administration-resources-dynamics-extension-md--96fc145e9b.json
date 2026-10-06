@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics extension",
+  "title": "extension resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extension",
   "published_at": "2026-06-02T11:43:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.037Z",
+      "blob": "2f28754ac83e0b39a324382039f77829b851b19a",
+      "words": 276,
+      "forms": 0
     }
   },
   "input_hash": "2f28754ac83e0b39a324382039f77829b851b19a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_extension.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_extension.md",
+    "description": "An extension object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 276
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f28754ac83e0b39a324382039f77829b851b19a"
 }

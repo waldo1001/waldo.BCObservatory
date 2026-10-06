@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to manually transfer and post coda statements",
+  "title": "Manually Transfer and Post CODA Statements [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.941Z",
+      "blob": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
+      "words": 160,
+      "forms": 0
     }
   },
   "input_hash": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md",
+    "description": "After applying and processing all CODA statement lines, you can manually transfer them to a financial journal.",
+    "ms_date": "2025-04-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "CODA statement lines",
+      "CODA statement",
+      "manual transfer",
+      "financial journal",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 160
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71361ac1bd93fcbf4a3d63498818ec08dd579849"
 }

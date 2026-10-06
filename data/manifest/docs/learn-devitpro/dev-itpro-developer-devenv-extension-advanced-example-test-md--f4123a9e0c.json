@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extension advanced example test",
+  "title": "Test the advanced sample extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example-test",
   "published_at": "2026-07-09T03:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.758Z",
+      "blob": "4ac404b47d4bee073ae526f18b373b88e8e6ca9e",
+      "words": 3348,
+      "forms": 0
     }
   },
   "input_hash": "4ac404b47d4bee073ae526f18b373b88e8e6ca9e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-extension-advanced-example-test.md"
-  }
+    "path": "dev-itpro/developer/devenv-extension-advanced-example-test.md",
+    "description": "Includes test code for the advanced example extension.",
+    "ms_date": "2026-03-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3348
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ac404b47d4bee073ae526f18b373b88e8e6ca9e"
 }

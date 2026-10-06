@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al410",
+  "title": "Compiler Error AL0410",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al410",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.991Z",
+      "blob": "fe38c8e8f0d45400f0e324a9e6b61a94eaff831c",
+      "words": 48,
+      "forms": 0
     }
   },
   "input_hash": "fe38c8e8f0d45400f0e324a9e6b61a94eaff831c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al410.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al410.md",
+    "description": "The report '{0}' doesn't contain a Request Page.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 48
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe38c8e8f0d45400f0e324a9e6b61a94eaff831c"
 }

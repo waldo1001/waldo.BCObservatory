@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales order agent item availability",
+  "title": "Item availability in Sales Order Agent (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.467Z",
+      "blob": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
+      "words": 1114,
+      "forms": 2
     }
   },
   "input_hash": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-order-agent-item-availability.md"
-  }
+    "path": "business-central/sales-order-agent-item-availability.md",
+    "description": "Learn how Sales Order Agent checks item availability and prices, test the results, and troubleshoot price-calculation failures.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "4400",
+        "id": 4400,
+        "kind": null
+      },
+      {
+        "raw": "4410_Primary",
+        "id": 4410,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1114
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84dafb3931811ca967f135d5bb298c20d3cd37a4"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration center api authorizedaadapps",
+  "title": "Business Central Admin Center API - Authorized Microsoft Entra Apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_authorizedaadapps",
   "published_at": "2025-11-19T10:42:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.977Z",
+      "blob": "6a89ff5401cad5f560c8e26f46ab0285594f5c12",
+      "words": 308,
+      "forms": 0
     }
   },
   "input_hash": "6a89ff5401cad5f560c8e26f46ab0285594f5c12",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-center-api_authorizedaadapps.md"
-  }
+    "path": "dev-itpro/administration/administration-center-api_authorizedaadapps.md",
+    "description": "Learn about the Business Central administration center API for authorizing Microsoft Entra apps.",
+    "ms_date": "2025-11-17",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 308
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a89ff5401cad5f560c8e26f46ab0285594f5c12"
 }

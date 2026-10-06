@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate nav",
+  "title": "Migrate Dynamics NAV to Business Central online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.257Z",
+      "blob": "1d504bc44da560ef908596e1138ddd3059224f5f",
+      "words": 958,
+      "forms": 0
     }
   },
   "input_hash": "1d504bc44da560ef908596e1138ddd3059224f5f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-nav.md"
-  }
+    "path": "dev-itpro/administration/migrate-nav.md",
+    "description": "Learn how to migrate from Dynamics NAV on-premises to Business Central online, including supported upgrade paths and key considerations.",
+    "ms_date": "2026-05-23",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 958
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d504bc44da560ef908596e1138ddd3059224f5f"
 }

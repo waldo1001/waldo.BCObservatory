@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up standard coa",
+  "title": "Standard chart of accounts in Denmark",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa",
   "published_at": "2025-12-16T06:30:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.775Z",
+      "blob": "e456b5b64af666d20dcf255828f514a20294dee7",
+      "words": 284,
+      "forms": 4
     }
   },
   "input_hash": "e456b5b64af666d20dcf255828f514a20294dee7",
@@ -18,6 +24,41 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md"
-  }
+    "path": "business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md",
+    "description": "This article explains how to set up a standard chart of accounts in Denmark.",
+    "ms_date": "2025-12-16",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5264",
+        "id": 5264,
+        "kind": null
+      },
+      {
+        "raw": "5266",
+        "id": 5266,
+        "kind": null
+      },
+      {
+        "raw": "5267",
+        "id": 5267,
+        "kind": null
+      },
+      {
+        "raw": "5270",
+        "id": 5270,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "chart of accounts",
+      "Denmark",
+      "standard chart of accounts"
+    ],
+    "ai_usage": null,
+    "words": 284
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e456b5b64af666d20dcf255828f514a20294dee7"
 }

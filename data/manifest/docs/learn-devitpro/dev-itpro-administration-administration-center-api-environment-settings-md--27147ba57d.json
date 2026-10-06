@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration center api environment settings",
+  "title": "Business Central Admin Center API - Environment Settings",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_settings",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.907Z",
+      "blob": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f",
+      "words": 1365,
+      "forms": 0
     }
   },
   "input_hash": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-center-api_environment_settings.md"
-  }
+    "path": "dev-itpro/administration/administration-center-api_environment_settings.md",
+    "description": "Configure Business Central environment settings via Admin Center API, including update windows, App Insights, security groups, and access controls.",
+    "ms_date": "2025-11-17",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 1365
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f"
 }

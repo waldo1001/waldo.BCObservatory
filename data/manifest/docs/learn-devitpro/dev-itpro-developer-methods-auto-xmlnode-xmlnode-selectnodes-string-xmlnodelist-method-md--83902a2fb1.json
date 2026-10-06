@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlnode selectnodes string xmlnodelist method",
+  "title": "XmlNode.SelectNodes(Text, var XmlNodeList) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlnode/xmlnode-selectnodes-string-xmlnodelist-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.406Z",
+      "blob": "080ead571b1480596add3b872448a9b8cd462a6f",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "080ead571b1480596add3b872448a9b8cd462a6f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlnode/xmlnode-selectnodes-string-xmlnodelist-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlnode/xmlnode-selectnodes-string-xmlnodelist-method.md",
+    "description": "Selects a list of nodes matching the XPath expression.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "080ead571b1480596add3b872448a9b8cd462a6f"
 }

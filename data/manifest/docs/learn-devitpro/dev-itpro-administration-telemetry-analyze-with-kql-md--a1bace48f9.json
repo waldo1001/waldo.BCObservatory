@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry analyze with kql",
+  "title": "Analyze and monitor telemetry with KQL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
   "published_at": "2024-12-19T13:30:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.480Z",
+      "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
+      "words": 1380,
+      "forms": 0
     }
   },
   "input_hash": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-analyze-with-kql.md"
-  }
+    "path": "dev-itpro/administration/telemetry-analyze-with-kql.md",
+    "description": "Learn how to query Business Central telemetry with KQL.",
+    "ms_date": "2024-12-19",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 1380
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590"
 }

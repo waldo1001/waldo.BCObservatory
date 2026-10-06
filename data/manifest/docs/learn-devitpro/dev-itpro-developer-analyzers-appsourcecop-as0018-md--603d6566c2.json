@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0018",
+  "title": "AppSourceCop Error AS0018",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0018",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.341Z",
+      "blob": "2a4ec3620d92a8aa29af1fa6f4decc5d9cfab980",
+      "words": 404,
+      "forms": 0
     }
   },
   "input_hash": "2a4ec3620d92a8aa29af1fa6f4decc5d9cfab980",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0018.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0018.md",
+    "description": "A procedure that belongs to the public API cannot be removed, because it will break dependent extensions calling this procedure.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 404
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a4ec3620d92a8aa29af1fa6f4decc5d9cfab980"
 }

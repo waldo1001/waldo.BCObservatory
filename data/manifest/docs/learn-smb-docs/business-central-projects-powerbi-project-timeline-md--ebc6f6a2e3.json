@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects powerbi project timeline",
+  "title": "Project Timeline (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.931Z",
+      "blob": "63e19e464a4f6651a3f0573d0d496d12275e9d69",
+      "words": 228,
+      "forms": 1
     }
   },
   "input_hash": "63e19e464a4f6651a3f0573d0d496d12275e9d69",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-powerbi-project-timeline.md"
-  }
+    "path": "business-central/projects-powerbi-project-timeline.md",
+    "description": "The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37106_Primary",
+        "id": 37106,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 228
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63e19e464a4f6651a3f0573d0d496d12275e9d69"
 }

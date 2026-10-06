@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bi how create analysis views reports",
+  "title": "Create analysis reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.614Z",
+      "blob": "15b5af60d34222c858ccddebdc0c183325b090f9",
+      "words": 1174,
+      "forms": 7
     }
   },
   "input_hash": "15b5af60d34222c858ccddebdc0c183325b090f9",
@@ -18,6 +24,57 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bi-how-create-analysis-views-reports.md"
-  }
+    "path": "business-central/bi-how-create-analysis-views-reports.md",
+    "description": "Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.",
+    "ms_date": "2024-04-08",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "555",
+        "id": 555,
+        "kind": null
+      },
+      {
+        "raw": "556",
+        "id": 556,
+        "kind": null
+      },
+      {
+        "raw": "557",
+        "id": 557,
+        "kind": null
+      },
+      {
+        "raw": "558",
+        "id": 558,
+        "kind": null
+      },
+      {
+        "raw": "9372",
+        "id": 9372,
+        "kind": null
+      },
+      {
+        "raw": "9370",
+        "id": 9370,
+        "kind": null
+      },
+      {
+        "raw": "9371",
+        "id": 9371,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1174
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15b5af60d34222c858ccddebdc0c183325b090f9"
 }

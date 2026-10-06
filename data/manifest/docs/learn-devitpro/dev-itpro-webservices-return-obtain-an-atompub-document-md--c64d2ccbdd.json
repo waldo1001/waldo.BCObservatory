@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "return obtain an atompub document",
+  "title": "How to: Use OData to Return-Obtain an AtomPub Document",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-an-atompub-document",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.176Z",
+      "blob": "f97e0745f36c3bae99d218e56a2746363fc7ad38",
+      "words": 605,
+      "forms": 0
     }
   },
   "input_hash": "f97e0745f36c3bae99d218e56a2746363fc7ad38",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/return-obtain-an-atompub-document.md"
-  }
+    "path": "dev-itpro/webservices/return-obtain-an-atompub-document.md",
+    "description": "Learn how OData V3 clients can use Atom Publishing Protocol documents to interact with Business Central data",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 605
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f97e0745f36c3bae99d218e56a2746363fc7ad38"
 }

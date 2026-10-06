@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv deprecation timeline",
+  "title": "Microsoft Timeline for Deprecating Code in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-timeline",
   "published_at": "2025-11-04T12:29:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.108Z",
+      "blob": "cc9a9784ea4673ad44dd0720b0197773da179cb7",
+      "words": 387,
+      "forms": 0
     }
   },
   "input_hash": "cc9a9784ea4673ad44dd0720b0197773da179cb7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-deprecation-timeline.md"
-  }
+    "path": "dev-itpro/developer/devenv-deprecation-timeline.md",
+    "description": "Description of the timeline for deprecating code in Business Central.",
+    "ms_date": "2025-05-19",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 387
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc9a9784ea4673ad44dd0720b0197773da179cb7"
 }

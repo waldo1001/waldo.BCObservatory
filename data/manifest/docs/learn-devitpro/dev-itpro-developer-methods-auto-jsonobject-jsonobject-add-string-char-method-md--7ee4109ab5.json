@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject add string char method",
+  "title": "JsonObject.Add(Text, Char) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-add-string-char-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.836Z",
+      "blob": "ba172e5b6d017550f04d2c2d408a9576ee3a8494",
+      "words": 124,
+      "forms": 0
     }
   },
   "input_hash": "ba172e5b6d017550f04d2c2d408a9576ee3a8494",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-add-string-char-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-add-string-char-method.md",
+    "description": "Adds a new property to a JsonObject.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 124
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba172e5b6d017550f04d2c2d408a9576ee3a8494"
 }

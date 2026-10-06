@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service multiple contracts",
+  "title": "Multiple contracts | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-multiple-contracts",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.509Z",
+      "blob": "a62101a55b0fc9355c1669bfe0f172832927d585",
+      "words": 342,
+      "forms": 0
     }
   },
   "input_hash": "a62101a55b0fc9355c1669bfe0f172832927d585",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-multiple-contracts.md"
-  }
+    "path": "business-central/service-multiple-contracts.md",
+    "description": "You may need to manage a service item under multiple service contracts based on your agreements with customers.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "service management",
+      "service item",
+      "service contract",
+      "service order",
+      "service level agreement",
+      "SLA",
+      "multiple contracts"
+    ],
+    "ai_usage": null,
+    "words": 342
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a62101a55b0fc9355c1669bfe0f172832927d585"
 }

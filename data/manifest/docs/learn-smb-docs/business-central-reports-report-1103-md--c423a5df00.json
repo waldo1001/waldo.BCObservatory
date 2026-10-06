@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1103",
+  "title": "Resource Register (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1103",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.093Z",
+      "blob": "430a4825c19c615a640d4b26d99e36753c26eac6",
+      "words": 71,
+      "forms": 1
     }
   },
   "input_hash": "430a4825c19c615a640d4b26d99e36753c26eac6",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1103.md"
-  }
+    "path": "business-central/reports/report-1103.md",
+    "description": "Document a resource register's contents for internal or external audits.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1103_Primary",
+        "id": 1103,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 71
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "430a4825c19c615a640d4b26d99e36753c26eac6"
 }

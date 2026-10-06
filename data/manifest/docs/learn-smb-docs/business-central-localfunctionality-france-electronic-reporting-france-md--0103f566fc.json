@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic reporting france",
+  "title": "Use the E-Document Format for E-Reporting [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france",
   "published_at": "2026-08-31T11:27:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.154Z",
+      "blob": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
+      "words": 925,
+      "forms": 0
     }
   },
   "input_hash": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/electronic-reporting-france.md"
-  }
+    "path": "business-central/LocalFunctionality/France/electronic-reporting-france.md",
+    "description": "Learn how to send French e-reporting transactions by using the E-Reporting FR format and an e-document service.",
+    "ms_date": "2026-06-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "e-document format",
+      "e-reporting",
+      "e-document service",
+      "Pagero",
+      "Avalara",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 925
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241"
 }

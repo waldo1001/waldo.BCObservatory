@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics purchaseinvoiceline update",
+  "title": "(v1.0) Update purchaseInvoiceLines",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_purchaseinvoiceline_update",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.966Z",
+      "blob": "cd4ca213db935eafcba61bbfe52f90bd4e00bd28",
+      "words": 201,
+      "forms": 0
     }
   },
   "input_hash": "cd4ca213db935eafcba61bbfe52f90bd4e00bd28",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/api/dynamics_purchaseinvoiceline_update.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/api/dynamics_purchaseinvoiceline_update.md",
+    "description": "(v1.0) Updates a purchase invoice line object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 201
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd4ca213db935eafcba61bbfe52f90bd4e00bd28"
 }

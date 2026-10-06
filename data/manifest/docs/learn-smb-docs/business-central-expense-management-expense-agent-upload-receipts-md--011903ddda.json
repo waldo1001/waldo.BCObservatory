@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent upload receipts",
+  "title": "Upload Receipts and Create Mileage Expenses",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.331Z",
+      "blob": "1bc60749e249617d2150907d9306a4d0f0b83673",
+      "words": 1388,
+      "forms": 0
     }
   },
   "input_hash": "1bc60749e249617d2150907d9306a4d0f0b83673",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent-upload-receipts.md"
-  }
+    "path": "business-central/expense-management/expense-agent-upload-receipts.md",
+    "description": "Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1388
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1bc60749e249617d2150907d9306a4d0f0b83673"
 }

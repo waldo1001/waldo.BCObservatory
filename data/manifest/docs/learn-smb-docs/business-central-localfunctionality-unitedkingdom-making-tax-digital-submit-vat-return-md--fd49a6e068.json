@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "making tax digital submit vat return",
+  "title": "Making Tax Digital - Submitting VAT Returns",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return",
   "published_at": "2026-02-09T13:28:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.367Z",
+      "blob": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
+      "words": 2131,
+      "forms": 7
     }
   },
   "input_hash": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
@@ -18,6 +24,56 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md",
+    "description": "Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.",
+    "ms_date": "2025-02-20",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "743",
+        "id": 743,
+        "kind": null
+      },
+      {
+        "raw": "10530",
+        "id": 10530,
+        "kind": null
+      },
+      {
+        "raw": "10531",
+        "id": 10531,
+        "kind": null
+      },
+      {
+        "raw": "10532",
+        "id": 10532,
+        "kind": null
+      },
+      {
+        "raw": "10537",
+        "id": 10537,
+        "kind": null
+      },
+      {
+        "raw": "10538",
+        "id": 10538,
+        "kind": null
+      },
+      {
+        "raw": "10539",
+        "id": 10539,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "making tax digital",
+      "VAT",
+      "HMRC"
+    ],
+    "ai_usage": null,
+    "words": 2131
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de"
 }

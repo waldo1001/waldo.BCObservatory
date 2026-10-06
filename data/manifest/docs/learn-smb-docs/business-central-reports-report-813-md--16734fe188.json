@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 813",
+  "title": "Inventory Picking List (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-813",
   "published_at": "2026-03-10T06:32:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.669Z",
+      "blob": "a2356fc9c8fbe7ebbbf0148e2a80645bf3155433",
+      "words": 337,
+      "forms": 1
     }
   },
   "input_hash": "a2356fc9c8fbe7ebbbf0148e2a80645bf3155433",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-813.md"
-  }
+    "path": "business-central/reports/report-813.md",
+    "description": "View which sales orders are covered when collecting items from inventory.",
+    "ms_date": "2024-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_813_Primary",
+        "id": 813,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 337
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2356fc9c8fbe7ebbbf0148e2a80645bf3155433"
 }

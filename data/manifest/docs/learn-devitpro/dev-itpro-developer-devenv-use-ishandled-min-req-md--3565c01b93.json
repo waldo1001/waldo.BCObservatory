@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv use ishandled min req",
+  "title": "Minimum requirements for new IsHandled events",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req",
   "published_at": "2025-09-01T09:11:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.466Z",
+      "blob": "d7e36a757c982a8e0a8d731c710bebc578fb4193",
+      "words": 461,
+      "forms": 0
     }
   },
   "input_hash": "d7e36a757c982a8e0a8d731c710bebc578fb4193",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-use-ishandled-min-req.md"
-  }
+    "path": "dev-itpro/developer/devenv-use-ishandled-min-req.md",
+    "description": "Provides the minimum information that must accompany a request for adding a new IsHandled event.",
+    "ms_date": "2025-08-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 461
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7e36a757c982a8e0a8d731c710bebc578fb4193"
 }

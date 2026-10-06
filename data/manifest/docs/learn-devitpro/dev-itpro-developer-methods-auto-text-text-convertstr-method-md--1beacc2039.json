@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "text convertstr method",
+  "title": "Text.ConvertStr(Text, Text, Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-convertstr-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.793Z",
+      "blob": "37c17151871c7ebb00ffb7871e3e709c164163d1",
+      "words": 265,
+      "forms": 0
     }
   },
   "input_hash": "37c17151871c7ebb00ffb7871e3e709c164163d1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/text/text-convertstr-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/text/text-convertstr-method.md",
+    "description": "Replaces all chars in source found in FromCharacters with the corresponding char in ToCharacters and returns the converted string.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37c17151871c7ebb00ffb7871e3e709c164163d1"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TaxEngine 003.1 Tax Configuration",
+  "title": "Tax Engine - Tax Configuration 02",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.315Z",
+      "blob": "f6d23573d4e0a1338ea3516ea22726495787dbdf",
+      "words": 506,
+      "forms": 0
     }
   },
   "input_hash": "f6d23573d4e0a1338ea3516ea22726495787dbdf",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md",
+    "description": "Provides details about configuring tax use cases in the Tax Engine for India localization in Business Central.",
+    "ms_date": "2025-06-27",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "tax engine",
+      "tax engine configuration",
+      "attribute mapping",
+      "rate parameter mapping"
+    ],
+    "ai_usage": null,
+    "words": 506
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6d23573d4e0a1338ea3516ea22726495787dbdf"
 }

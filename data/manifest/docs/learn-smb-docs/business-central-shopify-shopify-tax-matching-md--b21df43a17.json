@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "shopify tax matching",
+  "title": "Set up and use Shopify Tax Matching",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.509Z",
+      "blob": "25537669872f3ed27100defd247ee9820062e871",
+      "words": 746,
+      "forms": 0
     }
   },
   "input_hash": "25537669872f3ed27100defd247ee9820062e871",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/shopify-tax-matching.md"
-  }
+    "path": "business-central/shopify/shopify-tax-matching.md",
+    "description": "Learn how to set up Shopify Tax Matching, review suggested tax jurisdiction matches, and approve tax setup for imported orders.",
+    "ms_date": "2026-09-30",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 746
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25537669872f3ed27100defd247ee9820062e871"
 }

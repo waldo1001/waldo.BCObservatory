@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent policy compliance",
+  "title": "Understand Policy Compliance in Expense Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.322Z",
+      "blob": "ea162174a73c9933d638d1da3b34f6f344080046",
+      "words": 810,
+      "forms": 0
     }
   },
   "input_hash": "ea162174a73c9933d638d1da3b34f6f344080046",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent-policy-compliance.md"
-  }
+    "path": "business-central/expense-management/expense-agent-policy-compliance.md",
+    "description": "Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 810
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea162174a73c9933d638d1da3b34f6f344080046"
 }

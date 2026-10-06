@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system geturl clienttype string objecttype integer table boolean string method",
+  "title": "System.GetUrl(ClientType [, Text] [, ObjectType] [, Integer] [, Record] [, Boolean] [, Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-geturl-clienttype-string-objecttype-integer-table-boolean-string-method",
   "published_at": "2025-03-11T11:53:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.418Z",
+      "blob": "62b100727cdc1aaca3d3e9779f3314c142c85c37",
+      "words": 377,
+      "forms": 0
     }
   },
   "input_hash": "62b100727cdc1aaca3d3e9779f3314c142c85c37",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-geturl-clienttype-string-objecttype-integer-table-boolean-string-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-geturl-clienttype-string-objecttype-integer-table-boolean-string-method.md",
+    "description": "Generates a URL for the specified client target that is based on the configuration of the server instance.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 377
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62b100727cdc1aaca3d3e9779f3314c142c85c37"
 }

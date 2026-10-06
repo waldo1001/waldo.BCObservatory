@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "record fielderror joker errorinfo method",
+  "title": "Record.FieldError(Any, ErrorInfo) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-fielderror-joker-errorinfo-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.942Z",
+      "blob": "042694c047e26f063b3477f6f8394681f0b59d9a",
+      "words": 277,
+      "forms": 0
     }
   },
   "input_hash": "042694c047e26f063b3477f6f8394681f0b59d9a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/record/record-fielderror-joker-errorinfo-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/record/record-fielderror-joker-errorinfo-method.md",
+    "description": "Stops the execution of the code causing a run-time error, and creates an error message for a field.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 277
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "042694c047e26f063b3477f6f8394681f0b59d9a"
 }

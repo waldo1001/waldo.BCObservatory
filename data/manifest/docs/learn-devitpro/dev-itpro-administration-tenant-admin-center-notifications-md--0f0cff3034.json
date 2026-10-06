@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "tenant admin center notifications",
+  "title": "Manage Tenant-Specific Notifications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.982Z",
+      "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
+      "words": 1736,
+      "forms": 0
     }
   },
   "input_hash": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/tenant-admin-center-notifications.md"
-  }
+    "path": "dev-itpro/administration/tenant-admin-center-notifications.md",
+    "description": "Learn about how an internal admin and a delegated admin can get notified of changes for Business Central tenants.",
+    "ms_date": "2025-10-20",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "notifications"
+    ],
+    "ai_usage": null,
+    "words": 1736
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a601574ef6d6680d4ec3b69bd77025df5f8d3982"
 }

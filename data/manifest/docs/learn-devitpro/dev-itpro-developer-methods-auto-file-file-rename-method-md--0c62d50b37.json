@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "file rename method",
+  "title": "File.Rename(Text, Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-rename-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.960Z",
+      "blob": "4198e66b94734fbbac525f9de7e25e6f36da7a39",
+      "words": 361,
+      "forms": 0
     }
   },
   "input_hash": "4198e66b94734fbbac525f9de7e25e6f36da7a39",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/file/file-rename-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/file/file-rename-method.md",
+    "description": "Renames an ASCII or binary file.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 361
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4198e66b94734fbbac525f9de7e25e6f36da7a39"
 }

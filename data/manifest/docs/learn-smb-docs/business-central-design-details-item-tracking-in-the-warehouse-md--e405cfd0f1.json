@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details item tracking in the warehouse",
+  "title": "Design details - Item tracking in the warehouse",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.650Z",
+      "blob": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1",
+      "words": 244,
+      "forms": 0
     }
   },
   "input_hash": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-item-tracking-in-the-warehouse.md"
-  }
+    "path": "business-central/design-details-item-tracking-in-the-warehouse.md",
+    "description": "Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.",
+    "ms_date": "2026-03-15",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "design",
+      "item",
+      "tracking",
+      "serial number",
+      "lot number",
+      "outbound documents"
+    ],
+    "ai_usage": null,
+    "words": 244
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1"
 }

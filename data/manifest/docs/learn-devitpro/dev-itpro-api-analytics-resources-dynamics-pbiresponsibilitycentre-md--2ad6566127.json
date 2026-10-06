@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics pbiresponsibilitycentre",
+  "title": "pbiResponsibilityCentre resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_pbiresponsibilitycentre",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.082Z",
+      "blob": "50631790f0f36ba3ed54ebea721f3d7cd51c297f",
+      "words": 55,
+      "forms": 0
     }
   },
   "input_hash": "50631790f0f36ba3ed54ebea721f3d7cd51c297f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_pbiresponsibilitycentre.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_pbiresponsibilitycentre.md",
+    "description": "Represents a pbiResponsibilityCentre entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 55
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "50631790f0f36ba3ed54ebea721f3d7cd51c297f"
 }

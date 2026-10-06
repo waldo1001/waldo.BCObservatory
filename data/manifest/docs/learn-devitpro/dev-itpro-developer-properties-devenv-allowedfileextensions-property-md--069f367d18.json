@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv allowedfileextensions property",
+  "title": "AllowedFileExtensions property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowedfileextensions-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.351Z",
+      "blob": "2a7bb65872dc656c487b1b424ad24bc14a54a8be",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "2a7bb65872dc656c487b1b424ad24bc14a54a8be",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-allowedfileextensions-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-allowedfileextensions-property.md",
+    "description": "Specifies the list of allowed file extensions.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a7bb65872dc656c487b1b424ad24bc14a54a8be"
 }

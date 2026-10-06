@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "resolve cu 700 error converting database",
+  "title": "Resolving Coduenit 700 compilation error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-cu-700-error-converting-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.761Z",
+      "blob": "ef658b29998e625f572efecf36d68bc12eebe8fa",
+      "words": 56,
+      "forms": 0
     }
   },
   "input_hash": "ef658b29998e625f572efecf36d68bc12eebe8fa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/resolve-cu-700-error-converting-database.md"
-  }
+    "path": "dev-itpro/upgrade/resolve-cu-700-error-converting-database.md",
+    "description": "Explains how to resolve the compilation error that you get for Codeunit 700 when converting a database from Dynamics NAV to Business Central.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 56
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ef658b29998e625f572efecf36d68bc12eebe8fa"
 }

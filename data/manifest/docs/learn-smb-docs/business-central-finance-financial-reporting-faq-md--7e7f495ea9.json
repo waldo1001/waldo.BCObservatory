@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance financial reporting faq",
+  "title": "Financial Reporting FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-faq",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.030Z",
+      "blob": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d",
+      "words": 402,
+      "forms": 14
     }
   },
   "input_hash": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d",
@@ -18,6 +24,94 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-financial-reporting-faq.md"
-  }
+    "path": "business-central/finance-financial-reporting-faq.md",
+    "description": "FAQ for the Financial Reporting feature in Business Central.",
+    "ms_date": "2026-02-27",
+    "ms_topic": "get-started",
+    "search_form": [
+      {
+        "raw": "Report_25",
+        "id": 25,
+        "kind": "Report"
+      },
+      {
+        "raw": "103",
+        "id": 103,
+        "kind": null
+      },
+      {
+        "raw": "104",
+        "id": 104,
+        "kind": null
+      },
+      {
+        "raw": "108",
+        "id": 108,
+        "kind": null
+      },
+      {
+        "raw": "195",
+        "id": 195,
+        "kind": null
+      },
+      {
+        "raw": "196",
+        "id": 196,
+        "kind": null
+      },
+      {
+        "raw": "197",
+        "id": 197,
+        "kind": null
+      },
+      {
+        "raw": "198",
+        "id": 198,
+        "kind": null
+      },
+      {
+        "raw": "488",
+        "id": 488,
+        "kind": null
+      },
+      {
+        "raw": "489",
+        "id": 489,
+        "kind": null
+      },
+      {
+        "raw": "490",
+        "id": 490,
+        "kind": null
+      },
+      {
+        "raw": "764",
+        "id": 764,
+        "kind": null
+      },
+      {
+        "raw": "765",
+        "id": 765,
+        "kind": null
+      },
+      {
+        "raw": "766",
+        "id": 766,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report"
+    ],
+    "ai_usage": null,
+    "words": 402
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d"
 }

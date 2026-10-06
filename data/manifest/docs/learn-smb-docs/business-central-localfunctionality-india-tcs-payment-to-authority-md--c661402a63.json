@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TCS Payment to Authority",
+  "title": "Payment of TCS to the Government Authorities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.342Z",
+      "blob": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
+      "words": 154,
+      "forms": 0
     }
   },
   "input_hash": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/TCS-Payment-to-Authority.md"
-  }
+    "path": "business-central/LocalFunctionality/India/TCS-Payment-to-Authority.md",
+    "description": "Learn how to deposit Tax Collected at Source (TCS) payments to government authorities in Business Central.",
+    "ms_date": "2025-06-27",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TCS",
+      "TCS payment"
+    ],
+    "ai_usage": null,
+    "words": 154
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be40aa81b0fa15eec54a9d4869301f4619f573ea"
 }

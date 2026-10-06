@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to create production orders from sales orders",
+  "title": "Create Production Orders from Sales Orders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.829Z",
+      "blob": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a",
+      "words": 299,
+      "forms": 2
     }
   },
   "input_hash": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-create-production-orders-from-sales-orders.md"
-  }
+    "path": "business-central/production-how-to-create-production-orders-from-sales-orders.md",
+    "description": "Learn different ways to create production orders for produced items directly from sales orders.",
+    "ms_date": "2023-02-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000883",
+        "id": 99000883,
+        "kind": null
+      },
+      {
+        "raw": "99000884",
+        "id": 99000884,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 299
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4bc2d9583b740ee7c1b572c06846f10bf3e1747a"
 }

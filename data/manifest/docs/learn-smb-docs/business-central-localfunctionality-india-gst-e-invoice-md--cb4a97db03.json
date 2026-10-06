@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST E Invoice",
+  "title": "E-Invoice",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.923Z",
+      "blob": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f",
+      "words": 563,
+      "forms": 0
     }
   },
   "input_hash": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-E-Invoice.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-E-Invoice.md",
+    "description": "Learn about the E-Invoice feature in Business Central for India, including how to generate, export, import, and manage e-invoices in compliance with GST requirements.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "e-invoice"
+    ],
+    "ai_usage": null,
+    "words": 563
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonarray gettext method",
+  "title": "JsonArray.GetText(Integer) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-gettext-method",
   "published_at": "2025-03-11T11:53:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.206Z",
+      "blob": "471dfd763517da8fd87d03a4e06e383744bac1a6",
+      "words": 104,
+      "forms": 0
     }
   },
   "input_hash": "471dfd763517da8fd87d03a4e06e383744bac1a6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-gettext-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-gettext-method.md",
+    "description": "Retrieves the value at the given index in the JsonArray.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 104
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "471dfd763517da8fd87d03a4e06e383744bac1a6"
 }

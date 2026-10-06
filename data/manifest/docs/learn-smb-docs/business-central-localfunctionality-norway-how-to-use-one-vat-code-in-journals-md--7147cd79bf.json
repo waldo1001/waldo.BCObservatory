@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use one vat code in journals",
+  "title": "Use One VAT Code in Journals [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals",
   "published_at": "2025-05-21T12:56:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.982Z",
+      "blob": "b22d0bf2a73058150e0b1589bbeee705e6d28f71",
+      "words": 336,
+      "forms": 4
     }
   },
   "input_hash": "b22d0bf2a73058150e0b1589bbeee705e6d28f71",
@@ -18,6 +24,43 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md",
+    "description": "Learn how to use one VAT code in journals within the Norwegian version of Business Central to simplify VAT posting.",
+    "ms_date": "2025-05-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10602",
+        "id": 10602,
+        "kind": null
+      },
+      {
+        "raw": "10697",
+        "id": 10697,
+        "kind": null
+      },
+      {
+        "raw": "10698",
+        "id": 10698,
+        "kind": null
+      },
+      {
+        "raw": "10604",
+        "id": 10604,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "one VAT code",
+      "VAT code",
+      "VAT posting",
+      "VAT posting setup",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 336
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b22d0bf2a73058150e0b1589bbeee705e6d28f71"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to update vat transactions data",
+  "title": "Update VAT transactions data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.937Z",
+      "blob": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868",
+      "words": 402,
+      "forms": 0
     }
   },
   "input_hash": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data.md",
+    "description": "Learn how to prepare and update VAT transaction data using the Update VAT Transaction Data report before creating your first VAT transaction report.",
+    "ms_date": "2025-05-22",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "first VAT transaction report",
+      "prepare VAT data",
+      "update VAT data",
+      "VAT transaction data report",
+      "VAT transaction report",
+      "create VAT transaction report",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 402
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868"
 }

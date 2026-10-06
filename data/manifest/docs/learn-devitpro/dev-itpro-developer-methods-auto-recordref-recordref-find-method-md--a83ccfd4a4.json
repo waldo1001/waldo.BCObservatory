@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref find method",
+  "title": "RecordRef.Find([Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-find-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.416Z",
+      "blob": "6e39b294bd5d5f1c4e543f1a7f7ab582466af3cd",
+      "words": 400,
+      "forms": 0
     }
   },
   "input_hash": "6e39b294bd5d5f1c4e543f1a7f7ab582466af3cd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-find-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-find-method.md",
+    "description": "Finds a record in a table based on the values stored in the key fields.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 400
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e39b294bd5d5f1c4e543f1a7f7ab582466af3cd"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonarray readfrom string method",
+  "title": "JsonArray.ReadFrom(Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-readfrom-string-method",
   "published_at": "2026-06-02T11:43:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.953Z",
+      "blob": "73193c4bc6e6a26f3d16ed8ec59b5129039af6fa",
+      "words": 186,
+      "forms": 0
     }
   },
   "input_hash": "73193c4bc6e6a26f3d16ed8ec59b5129039af6fa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-readfrom-string-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-readfrom-string-method.md",
+    "description": "Reads the JSON data from the string into a JsonArray variable.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 186
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "73193c4bc6e6a26f3d16ed8ec59b5129039af6fa"
 }

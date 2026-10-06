@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration center api  telemetry",
+  "title": "Business Central Admin Center API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_ telemetry",
   "published_at": "2025-11-20T16:22:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.937Z",
+      "blob": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
+      "words": 206,
+      "forms": 0
     }
   },
   "input_hash": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-center-api_ telemetry.md"
-  }
+    "path": "dev-itpro/administration/administration-center-api_ telemetry.md",
+    "description": "Learn about the Business Central administration center API for logging telemetry (this is a duplicate, through).",
+    "ms_date": "2024-05-29",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 206
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0767a5ee7fb15071ff6bed477c8c398ee2895902"
 }

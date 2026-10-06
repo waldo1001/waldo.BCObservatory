@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to generate delivery reminders",
+  "title": "How to generate delivery reminders [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.908Z",
+      "blob": "18e82750ac31080013bd566db135363533fcadd9",
+      "words": 31,
+      "forms": 0
     }
   },
   "input_hash": "18e82750ac31080013bd566db135363533fcadd9",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md",
+    "description": "Learn how to generate delivery reminders in Business Central for overdue deliveries or create single reminders manually in the Swiss version.",
+    "ms_date": "2025-04-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "generate delivery reminders",
+      "single delivery reminder",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 31
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "18e82750ac31080013bd566db135363533fcadd9"
 }

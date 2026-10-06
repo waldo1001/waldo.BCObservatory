@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "shopify connector overview",
+  "title": "Shopify Connector Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview",
   "published_at": "2026-08-26T08:39:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.191Z",
+      "blob": "53f3002d1c52a905c2fb82527886bf866bf764b2",
+      "words": 772,
+      "forms": 0
     }
   },
   "input_hash": "53f3002d1c52a905c2fb82527886bf866bf764b2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/shopify-connector-overview.md"
-  }
+    "path": "business-central/shopify/shopify-connector-overview.md",
+    "description": "Learn to use Shopify Connector to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.",
+    "ms_date": "2025-10-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 772
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53f3002d1c52a905c2fb82527886bf866bf764b2"
 }

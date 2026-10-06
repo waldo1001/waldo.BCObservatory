@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how use financials data source flow",
+  "title": "Use Power Automate flows in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.300Z",
+      "blob": "ebe7dbaeeb11203702bd9e49efa17fa858c74023",
+      "words": 1531,
+      "forms": 1
     }
   },
   "input_hash": "ebe7dbaeeb11203702bd9e49efa17fa858c74023",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-use-financials-data-source-flow.md"
-  }
+    "path": "business-central/across-how-use-financials-data-source-flow.md",
+    "description": "Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1500",
+        "id": 1500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "workflow",
+      "OData",
+      "Power App",
+      "SOAP",
+      "Power Automate",
+      "instant flow"
+    ],
+    "ai_usage": null,
+    "words": 1531
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ebe7dbaeeb11203702bd9e49efa17fa858c74023"
 }

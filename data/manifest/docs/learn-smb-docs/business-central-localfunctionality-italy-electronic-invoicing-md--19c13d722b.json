@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic invoicing",
+  "title": "Electronic Invoicing [FatturaPA]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.846Z",
+      "blob": "015178100b8e6de900eea93170299282f72b7dbf",
+      "words": 281,
+      "forms": 0
     }
   },
   "input_hash": "015178100b8e6de900eea93170299282f72b7dbf",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/electronic-invoicing.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/electronic-invoicing.md",
+    "description": "Business Central enables you to export sales invoices and credit memos as electronic documents (FatturaPA) in compliance with Italian regulations.",
+    "ms_date": "2025-05-20",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "FatturaPA",
+      "electronic invoicing setup",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 281
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "015178100b8e6de900eea93170299282f72b7dbf"
 }

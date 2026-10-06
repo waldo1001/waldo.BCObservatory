@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0476",
+  "title": "CodeCop Error AA0476",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0476",
   "published_at": "2026-03-11T10:06:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.579Z",
+      "blob": "abd56b027f84d46975d2ea6de1123a0a2ae2a4c5",
+      "words": 56,
+      "forms": 0
     }
   },
   "input_hash": "abd56b027f84d46975d2ea6de1123a0a2ae2a4c5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0476.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0476.md",
+    "description": "The AI test configuration is not valid.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 56
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "abd56b027f84d46975d2ea6de1123a0a2ae2a4c5"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up iblc blwi transaction codes",
+  "title": "Set Up IBLC-BLWI Transaction Codes [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.983Z",
+      "blob": "6e40fa6092fab71436253e33f919ad1c700abdd4",
+      "words": 110,
+      "forms": 1
     }
   },
   "input_hash": "6e40fa6092fab71436253e33f919ad1c700abdd4",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md",
+    "description": "In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute.",
+    "ms_date": "2025-04-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "2000002",
+        "id": 2000002,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "process electronic payments",
+      "electronic payments",
+      "Belgian version",
+      "set up transaction codes",
+      "transaction codes",
+      "Belgian-Luxembourg Exchange Institute",
+      "IBLC-BLWI"
+    ],
+    "ai_usage": null,
+    "words": 110
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e40fa6092fab71436253e33f919ad1c700abdd4"
 }

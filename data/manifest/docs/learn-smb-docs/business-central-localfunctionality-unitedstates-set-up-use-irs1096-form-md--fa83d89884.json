@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "set up use irs1096 form",
+  "title": "Set up and use the IRS 1096 form [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.959Z",
+      "blob": "23722d984837bcc6215ba382b3ec17057a884c9f",
+      "words": 1225,
+      "forms": 3
     }
   },
   "input_hash": "23722d984837bcc6215ba382b3ec17057a884c9f",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md",
+    "description": "Learn how to set up the 1096 tax form boxes so that you can submit the required reports.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10019",
+        "id": 10019,
+        "kind": null
+      },
+      {
+        "raw": "10020",
+        "id": 10020,
+        "kind": null
+      },
+      {
+        "raw": "10021",
+        "id": 10021,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1096",
+      "IRS"
+    ],
+    "ai_usage": null,
+    "words": 1225
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23722d984837bcc6215ba382b3ec17057a884c9f"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui security groups",
+  "title": "Control Access Using Security Groups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-security-groups",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.269Z",
+      "blob": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521",
+      "words": 631,
+      "forms": 19
     }
   },
   "input_hash": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521",
@@ -18,6 +24,117 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-security-groups.md"
-  }
+    "path": "business-central/ui-security-groups.md",
+    "description": "This article describes how to use security groups to define user permissions.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1",
+        "id": 1,
+        "kind": null
+      },
+      {
+        "raw": "119",
+        "id": 119,
+        "kind": null
+      },
+      {
+        "raw": "8930",
+        "id": 8930,
+        "kind": null
+      },
+      {
+        "raw": "9800",
+        "id": 9800,
+        "kind": null
+      },
+      {
+        "raw": "9807",
+        "id": 9807,
+        "kind": null
+      },
+      {
+        "raw": "9808",
+        "id": 9808,
+        "kind": null
+      },
+      {
+        "raw": "9830",
+        "id": 9830,
+        "kind": null
+      },
+      {
+        "raw": "9831",
+        "id": 9831,
+        "kind": null
+      },
+      {
+        "raw": "9802",
+        "id": 9802,
+        "kind": null
+      },
+      {
+        "raw": "9855",
+        "id": 9855,
+        "kind": null
+      },
+      {
+        "raw": "9862",
+        "id": 9862,
+        "kind": null
+      },
+      {
+        "raw": "9875_Primary",
+        "id": 9875,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9874_Primary",
+        "id": 9874,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9873_Primary",
+        "id": 9873,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9872_Primary",
+        "id": 9872,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9877_Primary",
+        "id": 9877,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9869_Primary",
+        "id": 9869,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9868_Primary",
+        "id": 9868,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9871_Primary",
+        "id": 9871,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "access",
+      "right",
+      "security",
+      "permissions"
+    ],
+    "ai_usage": null,
+    "words": 631
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521"
 }

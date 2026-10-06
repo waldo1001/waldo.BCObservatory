@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "receivables how reconcile payments auto application",
+  "title": "Reconcile payments using automatic application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.881Z",
+      "blob": "3ec6f8237f59406a059537e6f5eaa99b5050828f",
+      "words": 1913,
+      "forms": 4
     }
   },
   "input_hash": "3ec6f8237f59406a059537e6f5eaa99b5050828f",
@@ -18,6 +24,43 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/receivables-how-reconcile-payments-auto-application.md"
-  }
+    "path": "business-central/receivables-how-reconcile-payments-auto-application.md",
+    "description": "Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.",
+    "ms_date": "2024-06-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "389",
+        "id": 389,
+        "kind": null
+      },
+      {
+        "raw": "1290",
+        "id": 1290,
+        "kind": null
+      },
+      {
+        "raw": "1294",
+        "id": 1294,
+        "kind": null
+      },
+      {
+        "raw": "1287",
+        "id": 1287,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment process",
+      "direct payment posting",
+      "reconcile payment",
+      "expenses",
+      "cash receipts"
+    ],
+    "ai_usage": null,
+    "words": 1913
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ec6f8237f59406a059537e6f5eaa99b5050828f"
 }

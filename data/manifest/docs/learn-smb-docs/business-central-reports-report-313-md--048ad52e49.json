@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 313",
+  "title": "Vendor/Item Purchases (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-313",
   "published_at": "2025-05-28T03:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.832Z",
+      "blob": "0d131c2d4be159d613f0a57e3d46fbbc63759db3",
+      "words": 413,
+      "forms": 1
     }
   },
   "input_hash": "0d131c2d4be159d613f0a57e3d46fbbc63759db3",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-313.md"
-  }
+    "path": "business-central/reports/report-313.md",
+    "description": "Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.",
+    "ms_date": "2024-10-14",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "Report_313_Primary",
+        "id": 313,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 413
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d131c2d4be159d613f0a57e3d46fbbc63759db3"
 }

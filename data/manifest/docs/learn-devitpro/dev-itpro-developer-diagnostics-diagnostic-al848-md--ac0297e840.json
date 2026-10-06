@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al848",
+  "title": "Compiler Warning AL0848",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al848",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.103Z",
+      "blob": "8ee4fe31980b4ee3753ae3505a06d54421d09744",
+      "words": 58,
+      "forms": 0
     }
   },
   "input_hash": "8ee4fe31980b4ee3753ae3505a06d54421d09744",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al848.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al848.md",
+    "description": "'{0}' is a keyword from version '{1}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 58
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ee4fe31980b4ee3753ae3505a06d54421d09744"
 }

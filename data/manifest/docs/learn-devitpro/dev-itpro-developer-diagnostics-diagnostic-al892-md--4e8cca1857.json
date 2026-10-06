@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al892",
+  "title": "Compiler Error AL0892",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al892",
   "published_at": "2025-08-08T11:58:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.351Z",
+      "blob": "161c80c89dfcf44c84c6ccffd4aa21da94f13ebd",
+      "words": 52,
+      "forms": 0
     }
   },
   "input_hash": "161c80c89dfcf44c84c6ccffd4aa21da94f13ebd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al892.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al892.md",
+    "description": "Fields set as ExtendedDataType '{0}' cannot be referenced on {1} type pages.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 52
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "161c80c89dfcf44c84c6ccffd4aa21da94f13ebd"
 }

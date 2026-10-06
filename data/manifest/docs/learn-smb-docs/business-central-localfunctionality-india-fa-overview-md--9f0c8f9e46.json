@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "FA Overview",
+  "title": "Setting up Fixed Asset for depreciation calculation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.875Z",
+      "blob": "b7909afbd528c77bc7e52636254c59f4b06201d3",
+      "words": 442,
+      "forms": 0
     }
   },
   "input_hash": "b7909afbd528c77bc7e52636254c59f4b06201d3",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/FA_Overview.md"
-  }
+    "path": "business-central/LocalFunctionality/India/FA_Overview.md",
+    "description": "Describes the essential setup steps for calculating fixed asset depreciation.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "fixed asset setup",
+      "depreciation calculation",
+      "depreciation books"
+    ],
+    "ai_usage": null,
+    "words": 442
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b7909afbd528c77bc7e52636254c59f4b06201d3"
 }

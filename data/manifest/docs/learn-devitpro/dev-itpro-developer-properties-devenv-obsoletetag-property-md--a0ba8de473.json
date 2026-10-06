@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv obsoletetag property",
+  "title": "ObsoleteTag property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-obsoletetag-property",
   "published_at": "2025-08-21T08:53:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.214Z",
+      "blob": "226d46977c5d9bf0fcc1f86545cd8f680986c9cd",
+      "words": 236,
+      "forms": 0
     }
   },
   "input_hash": "226d46977c5d9bf0fcc1f86545cd8f680986c9cd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-obsoletetag-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-obsoletetag-property.md",
+    "description": "Specifies a free-form text to support tracking of where and when the object was marked as obsolete, for example, branch, build, or date of obsoleting the object.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "226d46977c5d9bf0fcc1f86545cd8f680986c9cd"
 }

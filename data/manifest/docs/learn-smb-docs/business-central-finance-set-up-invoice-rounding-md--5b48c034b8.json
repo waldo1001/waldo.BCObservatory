@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance set up invoice rounding",
+  "title": "Set up invoice rounding",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-invoice-rounding",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.716Z",
+      "blob": "9461d6067a701ae7be1efba27d300a582fd42acf",
+      "words": 525,
+      "forms": 6
     }
   },
   "input_hash": "9461d6067a701ae7be1efba27d300a582fd42acf",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-set-up-invoice-rounding.md"
-  }
+    "path": "business-central/finance-set-up-invoice-rounding.md",
+    "description": "If you need to round invoice amounts when you create invoices, you can use the automatic rounding function explained here.",
+    "ms_date": "2024-06-10",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5",
+        "id": 5,
+        "kind": null
+      },
+      {
+        "raw": "16",
+        "id": 16,
+        "kind": null
+      },
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "459",
+        "id": 459,
+        "kind": null
+      },
+      {
+        "raw": "460",
+        "id": 460,
+        "kind": null
+      },
+      {
+        "raw": "495",
+        "id": 495,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 525
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9461d6067a701ae7be1efba27d300a582fd42acf"
 }

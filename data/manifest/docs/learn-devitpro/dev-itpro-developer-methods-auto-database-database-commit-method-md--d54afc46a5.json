@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "database commit method",
+  "title": "Database.Commit() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/database/database-commit-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.148Z",
+      "blob": "6748dc8be6ae0be4abff428a4fd9ecae13c4faff",
+      "words": 209,
+      "forms": 0
     }
   },
   "input_hash": "6748dc8be6ae0be4abff428a4fd9ecae13c4faff",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/database/database-commit-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/database/database-commit-method.md",
+    "description": "Ends the current write transaction.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 209
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6748dc8be6ae0be4abff428a4fd9ecae13c4faff"
 }

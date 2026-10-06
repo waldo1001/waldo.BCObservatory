@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create a credit memo for a fixed asset charge",
+  "title": "Creating credit memos in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.492Z",
+      "blob": "09402838bf9d6d755c6fff37b134d5224bb134fd",
+      "words": 126,
+      "forms": 0
     }
   },
   "input_hash": "09402838bf9d6d755c6fff37b134d5224bb134fd",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md",
+    "description": "In Russia, you can create credit memos for fixed asset charges to correct errors on posted invoices.",
+    "ms_date": "2025-07-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "credit memo",
+      "fixed asset charge",
+      "invoice correction",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 126
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09402838bf9d6d755c6fff37b134d5224bb134fd"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to declare vat vies tax",
+  "title": "How to Declare VAT-VIES Tax [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.371Z",
+      "blob": "cbd4b50ebc8d59b4d7c318fa4691b901fc514bc4",
+      "words": 391,
+      "forms": 0
     }
   },
   "input_hash": "cbd4b50ebc8d59b4d7c318fa4691b901fc514bc4",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md",
+    "description": "Learn to create the VAT-VIES report for submitting sales transaction details with other EU countries or regions.",
+    "ms_date": "2025-04-24",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT-VIES tax",
+      "VAT-VIES declaration",
+      "sales transactions",
+      "VAT-VIES declaration report"
+    ],
+    "ai_usage": null,
+    "words": 391
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cbd4b50ebc8d59b4d7c318fa4691b901fc514bc4"
 }

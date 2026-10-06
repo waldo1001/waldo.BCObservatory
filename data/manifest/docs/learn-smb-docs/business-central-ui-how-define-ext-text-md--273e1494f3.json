@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui how define ext text",
+  "title": "Add extended text",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-define-ext-text",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.803Z",
+      "blob": "5769767d5191dd4542dd676ae4349afcbe43c5b8",
+      "words": 305,
+      "forms": 2
     }
   },
   "input_hash": "5769767d5191dd4542dd676ae4349afcbe43c5b8",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-how-define-ext-text.md"
-  }
+    "path": "business-central/ui-how-define-ext-text.md",
+    "description": "You can add extra lines to extend the standard text that describes an item, a G/L account, and other data.",
+    "ms_date": "2024-08-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "391",
+        "id": 391,
+        "kind": null
+      },
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 305
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5769767d5191dd4542dd676ae4349afcbe43c5b8"
 }

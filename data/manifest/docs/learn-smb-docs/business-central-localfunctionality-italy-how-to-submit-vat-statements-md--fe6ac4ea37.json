@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to submit vat statements",
+  "title": "How to Submit VAT Statements [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.933Z",
+      "blob": "63e974ebb5330a694fc709bf9942dbe7ebb49c3f",
+      "words": 364,
+      "forms": 2
     }
   },
   "input_hash": "63e974ebb5330a694fc709bf9942dbe7ebb49c3f",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-submit-vat-statements.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-submit-vat-statements.md",
+    "description": "Learn how to review, print, submit VAT statements, and settle and post VAT transactions in the Italian version of Business Central.",
+    "ms_date": "2025-05-22",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12121",
+        "id": 12121,
+        "kind": null
+      },
+      {
+        "raw": "12123",
+        "id": 12123,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "deduct VAT",
+      "VAT deduction",
+      "submit VAT statements",
+      "review VAT statements",
+      "print VAT statements",
+      "settle VAT transactions",
+      "post VAT transactions",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 364
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63e974ebb5330a694fc709bf9942dbe7ebb49c3f"
 }

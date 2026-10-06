@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al639",
+  "title": "Compiler Warning (future error) AL0639",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al639",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.908Z",
+      "blob": "070bd4ed9c72f3b12fc2e36dc862557aa01113c4",
+      "words": 80,
+      "forms": 0
     }
   },
   "input_hash": "070bd4ed9c72f3b12fc2e36dc862557aa01113c4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al639.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al639.md",
+    "description": "'Variant' is not a valid column type for column '{0}' in report '{1}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 80
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "070bd4ed9c72f3b12fc2e36dc862557aa01113c4"
 }

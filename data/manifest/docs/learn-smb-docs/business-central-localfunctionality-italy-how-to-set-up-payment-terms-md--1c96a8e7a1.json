@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up payment terms",
+  "title": "Set Up Payment Terms (IT)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.929Z",
+      "blob": "67964aa07aca0c26ef82f6612a627de1e2820a2c",
+      "words": 353,
+      "forms": 5
     }
   },
   "input_hash": "67964aa07aca0c26ef82f6612a627de1e2820a2c",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms.md",
+    "description": "In Business Central for Italy, you can define payment terms that allow payments in one or multiple installments, specifying details for each installment as needed.",
+    "ms_date": "2025-05-22",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12170",
+        "id": 12170,
+        "kind": null
+      },
+      {
+        "raw": "12171",
+        "id": 12171,
+        "kind": null
+      },
+      {
+        "raw": "12172",
+        "id": 12172,
+        "kind": null
+      },
+      {
+        "raw": "12173",
+        "id": 12173,
+        "kind": null
+      },
+      {
+        "raw": "12174",
+        "id": 12174,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "define payment terms",
+      "payment installments",
+      "set up payment terms",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 353
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67964aa07aca0c26ef82f6612a627de1e2820a2c"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv multiplenewlines property",
+  "title": "MultipleNewLines property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-multiplenewlines-property",
   "published_at": "2025-02-18T14:04:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.551Z",
+      "blob": "c9cdc0ca49a703db622b8386704430f1023fa662",
+      "words": 84,
+      "forms": 0
     }
   },
   "input_hash": "c9cdc0ca49a703db622b8386704430f1023fa662",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-multiplenewlines-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-multiplenewlines-property.md",
+    "description": "Sets a value that determines whether users can add multiple new lines between records.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 84
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c9cdc0ca49a703db622b8386704430f1023fa662"
 }

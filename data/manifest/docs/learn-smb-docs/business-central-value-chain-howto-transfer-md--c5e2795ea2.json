@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "value chain howto transfer",
+  "title": "Sustainability value chain in transfers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-transfer",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.464Z",
+      "blob": "28a0c8c49c338215ab705c106c1a4fbe33743eea",
+      "words": 351,
+      "forms": 1
     }
   },
   "input_hash": "28a0c8c49c338215ab705c106c1a4fbe33743eea",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/value-chain-howto-transfer.md"
-  }
+    "path": "business-central/value-chain-howto-transfer.md",
+    "description": "Learn how to work with transfer orders and their effect on the sustainability value chain process.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5740",
+        "id": 5740,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Sustainability",
+      "scope 3",
+      "emission",
+      "GHG",
+      "CSRD",
+      "carbon",
+      "CO2",
+      "value chain",
+      "transfer"
+    ],
+    "ai_usage": null,
+    "words": 351
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "28a0c8c49c338215ab705c106c1a4fbe33743eea"
 }

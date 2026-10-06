@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service allocation status and repair status",
+  "title": "Allocation status and repair status | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status",
   "published_at": "2026-06-25T03:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.045Z",
+      "blob": "f7cd7371f2466205f39b4face06814d99f01546f",
+      "words": 765,
+      "forms": 0
     }
   },
   "input_hash": "f7cd7371f2466205f39b4face06814d99f01546f",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-allocation-status-and-repair-status.md"
-  }
+    "path": "business-central/service-allocation-status-and-repair-status.md",
+    "description": "Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "resources",
+      "allocation",
+      "status",
+      "repairs"
+    ],
+    "ai_usage": null,
+    "words": 765
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7cd7371f2466205f39b4face06814d99f01546f"
 }

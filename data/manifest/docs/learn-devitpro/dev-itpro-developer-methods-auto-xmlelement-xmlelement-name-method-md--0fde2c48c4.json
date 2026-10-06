@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmlelement name method",
+  "title": "XmlElement.Name() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlelement/xmlelement-name-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.159Z",
+      "blob": "8ab1e4be8e33e013ccae953e942af406d3e978ce",
+      "words": 91,
+      "forms": 0
     }
   },
   "input_hash": "8ab1e4be8e33e013ccae953e942af406d3e978ce",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-name-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmlelement/xmlelement-name-method.md",
+    "description": "Gets the fully qualified name of this element.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 91
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ab1e4be8e33e013ccae953e942af406d3e978ce"
 }

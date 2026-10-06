@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 6166",
+  "title": "Posted Sales Invoice with QR report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6166",
   "published_at": "2026-09-18T09:25:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.692Z",
+      "blob": "61692e59d5a6cde9fdc343063889363d60e2bb37",
+      "words": 282,
+      "forms": 1
     }
   },
   "input_hash": "61692e59d5a6cde9fdc343063889363d60e2bb37",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-6166.md"
-  }
+    "path": "business-central/reports/report-6166.md",
+    "description": "Add a payment QR code to the posted sales invoice layout so customers can pay directly from the printed or PDF document.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_6166_Primary",
+        "id": 6166,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 282
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61692e59d5a6cde9fdc343063889363d60e2bb37"
 }

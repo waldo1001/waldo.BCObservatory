@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "isolatedstorage contains string datascope method",
+  "title": "IsolatedStorage.Contains(Text [, DataScope]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-contains-string-datascope-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.454Z",
+      "blob": "86d10298bb3c69f31a252a0aef6ecd9a304fc7b3",
+      "words": 126,
+      "forms": 0
     }
   },
   "input_hash": "86d10298bb3c69f31a252a0aef6ecd9a304fc7b3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-contains-string-datascope-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-contains-string-datascope-method.md",
+    "description": "Determines whether the storage contains a value with the specified key.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 126
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86d10298bb3c69f31a252a0aef6ecd9a304fc7b3"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across browser settings",
+  "title": "Setting up your browser",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-browser-settings",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.126Z",
+      "blob": "a8e0daa80a1b242d0815b639f6645385eab55263",
+      "words": 493,
+      "forms": 0
     }
   },
   "input_hash": "a8e0daa80a1b242d0815b639f6645385eab55263",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-browser-settings.md"
-  }
+    "path": "business-central/across-browser-settings.md",
+    "description": "Describes how to set up browsers to work with Business Central and products that integrate with it.",
+    "ms_date": "2025-10-13",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "Teams",
+      "web client",
+      "troubleshooting",
+      "errors"
+    ],
+    "ai_usage": null,
+    "words": 493
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8e0daa80a1b242d0815b639f6645385eab55263"
 }

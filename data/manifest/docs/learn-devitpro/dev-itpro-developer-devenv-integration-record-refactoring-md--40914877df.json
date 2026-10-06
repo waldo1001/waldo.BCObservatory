@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv integration record refactoring",
+  "title": "Integration Management Refactoring Guidance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integration-record-refactoring",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.116Z",
+      "blob": "4dbcb841673cd7031f12042e76e88ece7a2b697e",
+      "words": 874,
+      "forms": 0
     }
   },
   "input_hash": "4dbcb841673cd7031f12042e76e88ece7a2b697e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-integration-record-refactoring.md"
-  }
+    "path": "dev-itpro/developer/devenv-integration-record-refactoring.md",
+    "description": "This article offers guidance for refactoring the code in your Marketplace app or per-tenant extension to use system fields rather than integration records.",
+    "ms_date": "2022-12-08",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 874
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4dbcb841673cd7031f12042e76e88ece7a2b697e"
 }

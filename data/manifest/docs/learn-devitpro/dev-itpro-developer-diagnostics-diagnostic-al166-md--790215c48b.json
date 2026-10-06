@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al166",
+  "title": "Compiler Error AL0166",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al166",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.182Z",
+      "blob": "ce3c438b9553b6d4925708aca8ef1e522d7e5b1a",
+      "words": 55,
+      "forms": 0
     }
   },
   "input_hash": "ce3c438b9553b6d4925708aca8ef1e522d7e5b1a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al166.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al166.md",
+    "description": "Argument {0}: must be a member (field, property, or variable), not an expression or constant.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 55
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ce3c438b9553b6d4925708aca8ef1e522d7e5b1a"
 }

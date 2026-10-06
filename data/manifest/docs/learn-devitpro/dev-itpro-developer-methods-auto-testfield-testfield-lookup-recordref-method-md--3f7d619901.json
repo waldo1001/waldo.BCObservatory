@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testfield lookup recordref method",
+  "title": "TestField.Lookup(RecordRef) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testfield/testfield-lookup-recordref-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.414Z",
+      "blob": "c93fb104157714dd6124ed62d394e0fa17db4ae1",
+      "words": 80,
+      "forms": 0
     }
   },
   "input_hash": "c93fb104157714dd6124ed62d394e0fa17db4ae1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testfield/testfield-lookup-recordref-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testfield/testfield-lookup-recordref-method.md",
+    "description": "Calls the OnAfterLook trigger with the selected record",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 80
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c93fb104157714dd6124ed62d394e0fa17db4ae1"
 }

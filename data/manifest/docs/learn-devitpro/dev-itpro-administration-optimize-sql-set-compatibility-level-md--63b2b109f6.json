@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "optimize sql set compatibility level",
+  "title": "Setting SQL Compatibility Level to Optimize Database Performance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.729Z",
+      "blob": "2b637556fb5aaa8fb9e8f2a3dd5475ac4faf5795",
+      "words": 218,
+      "forms": 0
     }
   },
   "input_hash": "2b637556fb5aaa8fb9e8f2a3dd5475ac4faf5795",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/optimize-sql-set-compatibility-level.md"
-  }
+    "path": "dev-itpro/administration/optimize-sql-set-compatibility-level.md",
+    "description": "Enable query optimizer features in a database by setting the compatibility level",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 218
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b637556fb5aaa8fb9e8f2a3dd5475ac4faf5795"
 }

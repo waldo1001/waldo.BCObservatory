@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate data",
+  "title": "Migrate on-premises data to Business Central online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.253Z",
+      "blob": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
+      "words": 316,
+      "forms": 2
     }
   },
   "input_hash": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-data.md"
-  }
+    "path": "dev-itpro/administration/migrate-data.md",
+    "description": "Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.",
+    "ms_date": "2026-05-23",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [
+      {
+        "raw": "2502",
+        "id": 2502,
+        "kind": null
+      },
+      {
+        "raw": "4003",
+        "id": 4003,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "edge"
+    ],
+    "ai_usage": null,
+    "words": 316
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f"
 }

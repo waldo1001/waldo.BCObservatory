@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv obsolete attribute",
+  "title": "Obsolete attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-obsolete-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.180Z",
+      "blob": "5fcc9dc4a6653e442001f30c67b3381bb61de7b7",
+      "words": 155,
+      "forms": 0
     }
   },
   "input_hash": "5fcc9dc4a6653e442001f30c67b3381bb61de7b7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-obsolete-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-obsolete-attribute.md",
+    "description": "Specifies that the annotated symbol will be deprecated.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 155
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fcc9dc4a6653e442001f30c67b3381bb61de7b7"
 }

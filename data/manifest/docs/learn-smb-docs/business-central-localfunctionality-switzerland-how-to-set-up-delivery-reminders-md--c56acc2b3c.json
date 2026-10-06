@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up delivery reminders",
+  "title": "Set up delivery reminders (CH)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.967Z",
+      "blob": "cddce34cb297d0e2d6928f949d48f09b9716a7af",
+      "words": 33,
+      "forms": 2
     }
   },
   "input_hash": "cddce34cb297d0e2d6928f949d48f09b9716a7af",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md",
+    "description": "Learn how to use purchase delivery reminders to remind vendors about overdue deliveries.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5005270",
+        "id": 5005270,
+        "kind": null
+      },
+      {
+        "raw": "5005272",
+        "id": 5005272,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "purchase delivery reminders",
+      "overdue deliveries",
+      "vendor reminders",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 33
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cddce34cb297d0e2d6928f949d48f09b9716a7af"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to reopen accounting periods",
+  "title": "Reopen Accounting Periods [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.298Z",
+      "blob": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
+      "words": 152,
+      "forms": 0
     }
   },
   "input_hash": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/how-to-reopen-accounting-periods.md"
-  }
+    "path": "business-central/LocalFunctionality/France/how-to-reopen-accounting-periods.md",
+    "description": "Learn how to reopen a fiscally closed accounting period to post general ledger entries in the French version of Business Central.",
+    "ms_date": "2025-04-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "reopen accounting periods",
+      "reopen fiscal period",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 152
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f868ad78825d32cbf8f8c74b21111e908415ddc0"
 }

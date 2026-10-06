@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how setup digital vouchers",
+  "title": "Set up digital vouchers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-digital-vouchers",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.181Z",
+      "blob": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9",
+      "words": 944,
+      "forms": 3
     }
   },
   "input_hash": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-setup-digital-vouchers.md"
-  }
+    "path": "business-central/across-how-setup-digital-vouchers.md",
+    "description": "Learn how to configure and use enforced digital vouchers in Microsoft Dynamics 365 Business Central to ensure documents are attached to transactions for better compliance and audit trails.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5579",
+        "id": 5579,
+        "kind": null
+      },
+      {
+        "raw": "5582",
+        "id": 5582,
+        "kind": null
+      },
+      {
+        "raw": "5587",
+        "id": 5587,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "digital voucher",
+      "voucher",
+      "attachment",
+      "setup"
+    ],
+    "ai_usage": null,
+    "words": 944
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up remittance agreements",
+  "title": "Set Up Remittance Agreements [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.121Z",
+      "blob": "c6a0462096e50b879bdcc5419d639e6c660b188d",
+      "words": 625,
+      "forms": 6
     }
   },
   "input_hash": "c6a0462096e50b879bdcc5419d639e6c660b188d",
@@ -18,6 +24,51 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements.md",
+    "description": "Learn how to set up remittance agreements with your bank for electronic payments in the Norwegian version of Business Central.",
+    "ms_date": "2025-05-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "15000000",
+        "id": 15000000,
+        "kind": null
+      },
+      {
+        "raw": "15000002",
+        "id": 15000002,
+        "kind": null
+      },
+      {
+        "raw": "15000004",
+        "id": 15000004,
+        "kind": null
+      },
+      {
+        "raw": "15000006",
+        "id": 15000006,
+        "kind": null
+      },
+      {
+        "raw": "15000007",
+        "id": 15000007,
+        "kind": null
+      },
+      {
+        "raw": "15000010",
+        "id": 15000010,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "remittance agreement",
+      "remittance agreement setup",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 625
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6a0462096e50b879bdcc5419d639e6c660b188d"
 }

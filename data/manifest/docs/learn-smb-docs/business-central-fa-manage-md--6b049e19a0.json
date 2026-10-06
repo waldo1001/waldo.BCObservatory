@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa manage",
+  "title": "Manage fixed assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-manage",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.358Z",
+      "blob": "130111fb51aa21a13d52ef216de1511f19893b52",
+      "words": 1212,
+      "forms": 16
     }
   },
   "input_hash": "130111fb51aa21a13d52ef216de1511f19893b52",
@@ -18,6 +24,101 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-manage.md"
-  }
+    "path": "business-central/fa-manage.md",
+    "description": "Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5601_Primary",
+        "id": 5601,
+        "kind": "Primary"
+      },
+      {
+        "raw": "5604",
+        "id": 5604,
+        "kind": null
+      },
+      {
+        "raw": "5606",
+        "id": 5606,
+        "kind": null
+      },
+      {
+        "raw": "5664",
+        "id": 5664,
+        "kind": null
+      },
+      {
+        "raw": "5601",
+        "id": 5601,
+        "kind": null
+      },
+      {
+        "raw": "5602",
+        "id": 5602,
+        "kind": null
+      },
+      {
+        "raw": "5658",
+        "id": 5658,
+        "kind": null
+      },
+      {
+        "raw": "5603",
+        "id": 5603,
+        "kind": null
+      },
+      {
+        "raw": "5671",
+        "id": 5671,
+        "kind": null
+      },
+      {
+        "raw": "5641",
+        "id": 5641,
+        "kind": null
+      },
+      {
+        "raw": "5629",
+        "id": 5629,
+        "kind": null
+      },
+      {
+        "raw": "5633",
+        "id": 5633,
+        "kind": null
+      },
+      {
+        "raw": "5634",
+        "id": 5634,
+        "kind": null
+      },
+      {
+        "raw": "5649",
+        "id": 5649,
+        "kind": null
+      },
+      {
+        "raw": "5622",
+        "id": 5622,
+        "kind": null
+      },
+      {
+        "raw": "5650",
+        "id": 5650,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "machinery",
+      "buildings",
+      "fixed assets"
+    ],
+    "ai_usage": null,
+    "words": 1212
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "130111fb51aa21a13d52ef216de1511f19893b52"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance powerbi income statement",
+  "title": "Income Statement by Month",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.509Z",
+      "blob": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8",
+      "words": 275,
+      "forms": 1
     }
   },
   "input_hash": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-powerbi-income-statement.md"
-  }
+    "path": "business-central/finance-powerbi-income-statement.md",
+    "description": "The Income Statement by Month report provides a month-to-month view of the net change for all income statement accounts.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "36985_Primary",
+        "id": 36985,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 275
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8"
 }

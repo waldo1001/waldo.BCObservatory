@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how use powerbi reports factbox",
+  "title": "Display custom Power BI reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.267Z",
+      "blob": "3200166a918a4c25459d2117c956da1a88dc87cf",
+      "words": 1085,
+      "forms": 0
     }
   },
   "input_hash": "3200166a918a4c25459d2117c956da1a88dc87cf",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-use-powerbi-reports-factbox.md"
-  }
+    "path": "business-central/across-how-use-powerbi-reports-factbox.md",
+    "description": "Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "business intelligence",
+      "KPI",
+      "Odata",
+      "Power App",
+      "SOAP",
+      "analysis"
+    ],
+    "ai_usage": null,
+    "words": 1085
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3200166a918a4c25459d2117c956da1a88dc87cf"
 }

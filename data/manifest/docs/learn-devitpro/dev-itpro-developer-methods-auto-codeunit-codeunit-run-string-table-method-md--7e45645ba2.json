@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codeunit run string table method",
+  "title": "Codeunit.Run(Text [, var Record]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/codeunit/codeunit-run-string-table-method",
   "published_at": "2026-03-11T10:16:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.890Z",
+      "blob": "a297f7f439394f1bfa39273c7872785e453a0d71",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "a297f7f439394f1bfa39273c7872785e453a0d71",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/codeunit/codeunit-run-string-table-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/codeunit/codeunit-run-string-table-method.md",
+    "description": "Loads and runs the unit of AL code you specify.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a297f7f439394f1bfa39273c7872785e453a0d71"
 }

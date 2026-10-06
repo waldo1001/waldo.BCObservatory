@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 7",
+  "title": "Trial Balance/Previous Year (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.748Z",
+      "blob": "b4aff530501b0e3dce208c98f22beda1ce2c4c36",
+      "words": 533,
+      "forms": 1
     }
   },
   "input_hash": "b4aff530501b0e3dce208c98f22beda1ce2c4c36",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-7.md"
-  }
+    "path": "business-central/reports/report-7.md",
+    "description": "View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the same period in the previous year.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_7_Primary",
+        "id": 7,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 533
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4aff530501b0e3dce208c98f22beda1ce2c4c36"
 }

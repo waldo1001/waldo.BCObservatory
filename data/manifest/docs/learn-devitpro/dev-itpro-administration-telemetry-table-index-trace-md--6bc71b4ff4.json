@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry table index trace",
+  "title": "Analyze table index trace telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-table-index-trace",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.985Z",
+      "blob": "70a0622912586590f634376e08be414a4dbc3310",
+      "words": 1198,
+      "forms": 0
     }
   },
   "input_hash": "70a0622912586590f634376e08be414a4dbc3310",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-table-index-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-table-index-trace.md",
+    "description": "Learn about the telemetry for changes made to table indexes",
+    "ms_date": "2026-09-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry",
+      "table keys",
+      "indexes",
+      "keys",
+      "indexes"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 1198
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70a0622912586590f634376e08be414a4dbc3310"
 }

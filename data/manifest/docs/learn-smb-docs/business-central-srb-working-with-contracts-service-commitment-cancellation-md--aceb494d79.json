@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service commitment cancellation",
+  "title": "Cancel planned subscription lines",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-commitment-cancellation",
   "published_at": "2025-11-27T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.844Z",
+      "blob": "df1e7deead6f195e5c04daa995ac141cc0de78eb",
+      "words": 629,
+      "forms": 1
     }
   },
   "input_hash": "df1e7deead6f195e5c04daa995ac141cc0de78eb",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/working-with-contracts/service-commitment-cancellation.md"
-  }
+    "path": "business-central/SRB/working-with-contracts/service-commitment-cancellation.md",
+    "description": "You can cancel planned subscription lines in subscription billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "8004",
+        "id": 8004,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 629
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df1e7deead6f195e5c04daa995ac141cc0de78eb"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv eventsubscriberinstance property",
+  "title": "EventSubscriberInstance property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-eventsubscriberinstance-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.612Z",
+      "blob": "9aa9ccdfdae6c4ee8e3c5762674bc2f940bb22c1",
+      "words": 772,
+      "forms": 0
     }
   },
   "input_hash": "9aa9ccdfdae6c4ee8e3c5762674bc2f940bb22c1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-eventsubscriberinstance-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-eventsubscriberinstance-property.md",
+    "description": "Specifies how event subscriber functions in a codeunit are bound to the codeunit instance and the events that they subscribe to.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 772
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9aa9ccdfdae6c4ee8e3c5762674bc2f940bb22c1"
 }

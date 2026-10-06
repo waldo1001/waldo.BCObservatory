@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Purchase Return to Composite Vendor",
+  "title": "Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.996Z",
+      "blob": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
+      "words": 297,
+      "forms": 0
     }
   },
   "input_hash": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md",
+    "description": "Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact",
+    "ms_date": "2025-06-23",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "composite vendor",
+      "purchase return"
+    ],
+    "ai_usage": null,
+    "words": 297
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c"
 }

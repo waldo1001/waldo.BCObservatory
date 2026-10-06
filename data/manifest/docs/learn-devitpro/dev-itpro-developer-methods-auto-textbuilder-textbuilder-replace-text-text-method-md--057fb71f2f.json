@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "textbuilder replace text text method",
+  "title": "TextBuilder.Replace(Text, Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textbuilder/textbuilder-replace-text-text-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.960Z",
+      "blob": "c30411b4be56dd9652e0c99b3ed64c10e4f6e613",
+      "words": 130,
+      "forms": 0
     }
   },
   "input_hash": "c30411b4be56dd9652e0c99b3ed64c10e4f6e613",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/textbuilder/textbuilder-replace-text-text-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/textbuilder/textbuilder-replace-text-text-method.md",
+    "description": "Replaces all occurrences of a specified string in this TextBuilder instance with another specified string.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 130
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c30411b4be56dd9652e0c99b3ed64c10e4f6e613"
 }

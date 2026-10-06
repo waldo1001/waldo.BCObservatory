@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics pbiemployeeledgerentry",
+  "title": "pbiEmployeeLedgerEntry resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_pbiemployeeledgerentry",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.073Z",
+      "blob": "d5c380742229dbd5660db6b124fba9ec402fc01f",
+      "words": 86,
+      "forms": 0
     }
   },
   "input_hash": "d5c380742229dbd5660db6b124fba9ec402fc01f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_pbiemployeeledgerentry.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_pbiemployeeledgerentry.md",
+    "description": "Represents a pbiEmployeeLedgerEntry entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 86
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5c380742229dbd5660db6b124fba9ec402fc01f"
 }

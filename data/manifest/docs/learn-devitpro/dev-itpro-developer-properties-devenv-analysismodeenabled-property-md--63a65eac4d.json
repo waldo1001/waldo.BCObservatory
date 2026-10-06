@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv analysismodeenabled property",
+  "title": "AnalysisModeEnabled property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.364Z",
+      "blob": "46bb03b1aac807789646843ad11443d048b1d65f",
+      "words": 147,
+      "forms": 0
     }
   },
   "input_hash": "46bb03b1aac807789646843ad11443d048b1d65f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-analysismodeenabled-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-analysismodeenabled-property.md",
+    "description": "Sets a value that specifies whether analysis mode on the page is allowed.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 147
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "46bb03b1aac807789646843ad11443d048b1d65f"
 }

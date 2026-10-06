@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details changing costing methods",
+  "title": "Design details - Changing costing methods for items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-changing-costing-methods",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.570Z",
+      "blob": "3528b81f8c620806637c656beb5c4f8d9c766fe4",
+      "words": 2099,
+      "forms": 1
     }
   },
   "input_hash": "3528b81f8c620806637c656beb5c4f8d9c766fe4",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-changing-costing-methods.md"
-  }
+    "path": "business-central/design-details-changing-costing-methods.md",
+    "description": "Learn how to assign a different costing method to an item although you have already used the item in transactions.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "8645",
+        "id": 8645,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "costing methods",
+      "costing",
+      "item cost"
+    ],
+    "ai_usage": null,
+    "words": 2099
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3528b81f8c620806637c656beb5c4f8d9c766fe4"
 }

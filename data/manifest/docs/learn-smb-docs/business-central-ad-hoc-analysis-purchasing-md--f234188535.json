@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ad hoc analysis purchasing",
+  "title": "Ad-hoc analyses in purchasing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.467Z",
+      "blob": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
+      "words": 1065,
+      "forms": 4
     }
   },
   "input_hash": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ad-hoc-analysis-purchasing.md"
-  }
+    "path": "business-central/ad-hoc-analysis-purchasing.md",
+    "description": "Learn how to use the data analysis mode to analyze data in purchasing.",
+    "ms_date": "2024-04-29",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "9306",
+        "id": 9306,
+        "kind": null
+      },
+      {
+        "raw": "9307",
+        "id": 9307,
+        "kind": null
+      },
+      {
+        "raw": "518",
+        "id": 518,
+        "kind": null
+      },
+      {
+        "raw": "29",
+        "id": 29,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1065
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e3acb3fc7b8eeb0626349dd745730b2257ac233"
 }

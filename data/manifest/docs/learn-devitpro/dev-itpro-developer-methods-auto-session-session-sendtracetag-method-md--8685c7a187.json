@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "session sendtracetag method",
+  "title": "Session.SendTraceTag(Text, Text, Verbosity, Text [, DataClassification]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-sendtracetag-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.921Z",
+      "blob": "1d338ce90490ef9d3472e0b9528af3bcd658b299",
+      "words": 316,
+      "forms": 0
     }
   },
   "input_hash": "1d338ce90490ef9d3472e0b9528af3bcd658b299",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/session/session-sendtracetag-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/session/session-sendtracetag-method.md",
+    "description": "Send a trace tag to the telemetry service.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 316
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d338ce90490ef9d3472e0b9528af3bcd658b299"
 }

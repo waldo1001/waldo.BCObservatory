@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "imports processing",
+  "title": "Import data in usage-based billing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/imports-processing",
   "published_at": "2026-09-22T12:30:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.484Z",
+      "blob": "be0e57edbd8d33837bf213d8048a3d1750d4e626",
+      "words": 3184,
+      "forms": 6
     }
   },
   "input_hash": "be0e57edbd8d33837bf213d8048a3d1750d4e626",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/processing-usage-data/imports-processing.md"
-  }
+    "path": "business-central/UBB/processing-usage-data/imports-processing.md",
+    "description": "You can import and process data in usage-based billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "8042",
+        "id": 8042,
+        "kind": null
+      },
+      {
+        "raw": "8044",
+        "id": 8044,
+        "kind": null
+      },
+      {
+        "raw": "8035",
+        "id": 8035,
+        "kind": null
+      },
+      {
+        "raw": "8038",
+        "id": 8038,
+        "kind": null
+      },
+      {
+        "raw": "8036",
+        "id": 8036,
+        "kind": null
+      },
+      {
+        "raw": "8041_Primary",
+        "id": 8041,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3184
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be0e57edbd8d33837bf213d8048a3d1750d4e626"
 }

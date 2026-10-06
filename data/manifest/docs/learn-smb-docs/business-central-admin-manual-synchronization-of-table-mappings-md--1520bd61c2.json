@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin manual synchronization of table mappings",
+  "title": "Manual Synchronization of Table Mappings | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manual-synchronization-of-table-mappings",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.531Z",
+      "blob": "cc50f5930458176f16874cebc426b10d257a5591",
+      "words": 935,
+      "forms": 0
     }
   },
   "input_hash": "cc50f5930458176f16874cebc426b10d257a5591",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-manual-synchronization-of-table-mappings.md"
-  }
+    "path": "business-central/admin-manual-synchronization-of-table-mappings.md",
+    "description": "The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "sales",
+      "crm",
+      "integration",
+      "sync",
+      "synchronize"
+    ],
+    "ai_usage": null,
+    "words": 935
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc50f5930458176f16874cebc426b10d257a5591"
 }

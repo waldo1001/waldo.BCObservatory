@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui how preview post results",
+  "title": "Preview Entries Before You Post a Document or Journal",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.003Z",
+      "blob": "629ceeb373858553ab1ea60447efc3464c649e4c",
+      "words": 120,
+      "forms": 0
     }
   },
   "input_hash": "629ceeb373858553ab1ea60447efc3464c649e4c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-how-preview-post-results.md"
-  }
+    "path": "business-central/ui-how-preview-post-results.md",
+    "description": "You can make sure that entries for documents and journals are accurate before you post them to the general ledger.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "629ceeb373858553ab1ea60447efc3464c649e4c"
 }

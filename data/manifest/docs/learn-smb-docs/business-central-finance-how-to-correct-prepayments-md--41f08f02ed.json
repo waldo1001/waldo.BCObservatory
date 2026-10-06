@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how to correct prepayments",
+  "title": "Correct prepayments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-correct-prepayments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.665Z",
+      "blob": "b260878a5e266c85eec796850eeb5e4564f1f83e",
+      "words": 310,
+      "forms": 7
     }
   },
   "input_hash": "b260878a5e266c85eec796850eeb5e4564f1f83e",
@@ -18,6 +24,52 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-to-correct-prepayments.md"
-  }
+    "path": "business-central/finance-how-to-correct-prepayments.md",
+    "description": "You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.",
+    "ms_date": "2024-07-24",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "44",
+        "id": 44,
+        "kind": null
+      },
+      {
+        "raw": "48",
+        "id": 48,
+        "kind": null
+      },
+      {
+        "raw": "42",
+        "id": 42,
+        "kind": null
+      },
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "52",
+        "id": 52,
+        "kind": null
+      },
+      {
+        "raw": "9305",
+        "id": 9305,
+        "kind": null
+      },
+      {
+        "raw": "9307",
+        "id": 9307,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 310
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b260878a5e266c85eec796850eeb5e4564f1f83e"
 }

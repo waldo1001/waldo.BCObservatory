@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui mail merge",
+  "title": "Using Word templates for bulk communications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.032Z",
+      "blob": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
+      "words": 1297,
+      "forms": 0
     }
   },
   "input_hash": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-mail-merge.md"
-  }
+    "path": "business-central/ui-mail-merge.md",
+    "description": "Word templates can make it easy to bulk create documents that are personalized for specific entities.",
+    "ms_date": "2024-11-13",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1297
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0"
 }

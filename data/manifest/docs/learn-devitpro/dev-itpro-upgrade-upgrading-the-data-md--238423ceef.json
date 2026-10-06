@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Upgrading the Data",
+  "title": "Upgrading the Data to in Single-Tenant Deployment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.153Z",
+      "blob": "4f46652f87184d05c4131c5b41b15f969de07c16",
+      "words": 3922,
+      "forms": 0
     }
   },
   "input_hash": "4f46652f87184d05c4131c5b41b15f969de07c16",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/Upgrading-the-Data.md"
-  }
+    "path": "dev-itpro/upgrade/Upgrading-the-Data.md",
+    "description": "This article describes the tasks required for upgrade the data to version 14 when you have a single-tenant deployment.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3922
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f46652f87184d05c4131c5b41b15f969de07c16"
 }

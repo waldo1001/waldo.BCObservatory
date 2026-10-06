@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "deploy database azure sql database",
+  "title": "Running a Business Central Database to Azure SQL Database",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-database-azure-sql-database",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.828Z",
+      "blob": "b51e2f6019fa6025086aa06d706b1adb904e29b0",
+      "words": 1514,
+      "forms": 0
     }
   },
   "input_hash": "b51e2f6019fa6025086aa06d706b1adb904e29b0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/deploy-database-azure-sql-database.md"
-  }
+    "path": "dev-itpro/deployment/deploy-database-azure-sql-database.md",
+    "description": "Learn how to deploy a Business Central database to Azure SQL Database",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1514
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b51e2f6019fa6025086aa06d706b1adb904e29b0"
 }

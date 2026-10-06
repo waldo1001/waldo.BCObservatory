@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Stale Check",
+  "title": "Setting up and how to stale check",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.062Z",
+      "blob": "1c63768a66327157f47420854772c18af6d8940c",
+      "words": 437,
+      "forms": 0
     }
   },
   "input_hash": "1c63768a66327157f47420854772c18af6d8940c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/Stale-Check.md"
-  }
+    "path": "business-central/LocalFunctionality/India/Stale-Check.md",
+    "description": "Describes the setup steps and process for handling stale checks in Business Central for India.",
+    "ms_date": "2025-06-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "stale check",
+      "stale check setup",
+      "manage stale cheques"
+    ],
+    "ai_usage": null,
+    "words": 437
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c63768a66327157f47420854772c18af6d8940c"
 }

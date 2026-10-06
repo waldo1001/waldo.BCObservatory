@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics generalledgerbudgetentry",
+  "title": "generalLedgerBudgetEntry resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_generalledgerbudgetentry",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.888Z",
+      "blob": "02652f1d53b2e48fa10daa2f0143f7365188892a",
+      "words": 74,
+      "forms": 0
     }
   },
   "input_hash": "02652f1d53b2e48fa10daa2f0143f7365188892a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_generalledgerbudgetentry.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_generalledgerbudgetentry.md",
+    "description": "Represents a generalLedgerBudgetEntry entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 74
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "02652f1d53b2e48fa10daa2f0143f7365188892a"
 }

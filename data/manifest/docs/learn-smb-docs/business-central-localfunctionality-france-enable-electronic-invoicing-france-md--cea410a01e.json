@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "enable electronic invoicing france",
+  "title": "Enable electronic invoicing with UBL 2.1 and Factur-X [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
   "published_at": "2026-06-24T07:25:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.063Z",
+      "blob": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
+      "words": 2067,
+      "forms": 0
     }
   },
   "input_hash": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md"
-  }
+    "path": "business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md",
+    "description": "Enable French e-invoicing in Business Central with UBL 2.1 (PEPPOL BIS 3.0) and Factur-X, ensuring DGFIP B2B compliance.",
+    "ms_date": "2026-06-23",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "e-invoicing",
+      "electronic invoicing",
+      "France",
+      "Factur-X",
+      "UBL",
+      "PEPPOL",
+      "CII",
+      "PDP",
+      "DGFIP",
+      "SIRET",
+      "SIREN",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 2067
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d1707f79834068c66b47ff92d1caf34c3acc2cb"
 }

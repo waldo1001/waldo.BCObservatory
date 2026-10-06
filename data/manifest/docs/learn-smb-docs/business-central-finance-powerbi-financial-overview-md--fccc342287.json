@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance powerbi financial overview",
+  "title": "Financial Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-financial-overview",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.501Z",
+      "blob": "42dd64bff7433800f3a419dba40a58ced2462f01",
+      "words": 237,
+      "forms": 1
     }
   },
   "input_hash": "42dd64bff7433800f3a419dba40a58ced2462f01",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-powerbi-financial-overview.md"
-  }
+    "path": "business-central/finance-powerbi-financial-overview.md",
+    "description": "The Financial Overview report gives a clear picture of your organization's finance activities.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "36984_Primary",
+        "id": 36984,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 237
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42dd64bff7433800f3a419dba40a58ced2462f01"
 }

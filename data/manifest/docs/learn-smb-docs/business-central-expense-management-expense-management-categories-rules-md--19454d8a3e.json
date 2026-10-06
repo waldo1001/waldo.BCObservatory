@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense management categories rules",
+  "title": "Set Up Expense Categories, Rules, and Policies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.952Z",
+      "blob": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
+      "words": 2146,
+      "forms": 11
     }
   },
   "input_hash": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
@@ -18,6 +24,72 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-management-categories-rules.md"
-  }
+    "path": "business-central/expense-management/expense-management-categories-rules.md",
+    "description": "Learn how to create expense categories, subcategories, groups, rules, and AI-evaluated policies that control employee expenses in Business Central.",
+    "ms_date": "2026-09-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_6945",
+        "id": 6945,
+        "kind": "Primary"
+      },
+      {
+        "raw": "Primary_7127",
+        "id": 7127,
+        "kind": "Primary"
+      },
+      {
+        "raw": "6900",
+        "id": 6900,
+        "kind": null
+      },
+      {
+        "raw": "6901",
+        "id": 6901,
+        "kind": null
+      },
+      {
+        "raw": "6920",
+        "id": 6920,
+        "kind": null
+      },
+      {
+        "raw": "6930",
+        "id": 6930,
+        "kind": null
+      },
+      {
+        "raw": "6937",
+        "id": 6937,
+        "kind": null
+      },
+      {
+        "raw": "6945",
+        "id": 6945,
+        "kind": null
+      },
+      {
+        "raw": "6946",
+        "id": 6946,
+        "kind": null
+      },
+      {
+        "raw": "6952",
+        "id": 6952,
+        "kind": null
+      },
+      {
+        "raw": "6973",
+        "id": 6973,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 2146
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3"
 }

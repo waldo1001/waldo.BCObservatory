@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui work report inbox",
+  "title": "Share and Export Reports with the Report Inbox",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.822Z",
+      "blob": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4",
+      "words": 504,
+      "forms": 1
     }
   },
   "input_hash": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-work-report-inbox.md"
-  }
+    "path": "business-central/ui-work-report-inbox.md",
+    "description": "Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.",
+    "ms_date": "2024-09-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "680",
+        "id": 680,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "task",
+      "process",
+      "report",
+      "print",
+      "schedule",
+      "save",
+      "Excel",
+      "PDF",
+      "dataset",
+      "export",
+      "report inbox",
+      "onedrive"
+    ],
+    "ai_usage": null,
+    "words": 504
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4"
 }

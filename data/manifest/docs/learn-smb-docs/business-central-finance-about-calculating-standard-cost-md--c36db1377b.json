@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance about calculating standard cost",
+  "title": "About calculating standard cost",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost",
   "published_at": "2026-10-02T13:52:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.890Z",
+      "blob": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a",
+      "words": 4252,
+      "forms": 1
     }
   },
   "input_hash": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-about-calculating-standard-cost.md"
-  }
+    "path": "business-central/finance-about-calculating-standard-cost.md",
+    "description": "A standard cost system determines inventory unit cost based on reasonable historical or expected cost.",
+    "ms_date": "2026-10-01",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "5841",
+        "id": 5841,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 4252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a"
 }

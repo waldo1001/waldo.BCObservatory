@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "examples",
+  "title": "Examples for subscription billing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/examples",
   "published_at": "2026-03-04T08:55:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.730Z",
+      "blob": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2",
+      "words": 469,
+      "forms": 2
     }
   },
   "input_hash": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/examples.md"
-  }
+    "path": "business-central/SRB/examples.md",
+    "description": "The examples in this article describe some typical use cases that subscription billing features support.",
+    "ms_date": "2026-03-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "8067",
+        "id": 8067,
+        "kind": null
+      },
+      {
+        "raw": "8084",
+        "id": 8084,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 469
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e6cfe5724acf4772906cfa9979a25d753c7a4c2"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics extensiondeploymentstatus",
+  "title": "extensionDeploymentStatus resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extensiondeploymentstatus",
   "published_at": "2026-06-02T11:43:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.041Z",
+      "blob": "3c9256ef2cf6c570fced97860795a0a4eda4280f",
+      "words": 119,
+      "forms": 0
     }
   },
   "input_hash": "3c9256ef2cf6c570fced97860795a0a4eda4280f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_extensiondeploymentstatus.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_extensiondeploymentstatus.md",
+    "description": "An extension deployment status object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 119
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3c9256ef2cf6c570fced97860795a0a4eda4280f"
 }

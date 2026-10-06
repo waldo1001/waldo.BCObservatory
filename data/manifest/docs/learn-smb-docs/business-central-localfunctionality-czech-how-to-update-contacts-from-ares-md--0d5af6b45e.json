@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to update contacts from ares",
+  "title": "Czech local functionality - Update contacts from ARES",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.354Z",
+      "blob": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
+      "words": 95,
+      "forms": 0
     }
   },
   "input_hash": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares.md",
+    "description": "Learn how to update contact information in Business Central using ARES, the Czech system for retrieving data on registered economic entities.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "CZ",
+      "Czech",
+      "Advance payment",
+      "Advance invoices",
+      "Payables",
+      "Finance",
+      "Cash",
+      "EET",
+      "Cash Desk"
+    ],
+    "ai_usage": null,
+    "words": 95
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aec7a1a59d0ca194962114264e3f2273d5c3462e"
 }

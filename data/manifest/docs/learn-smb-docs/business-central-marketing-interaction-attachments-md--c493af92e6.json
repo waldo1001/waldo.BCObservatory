@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing interaction attachments",
+  "title": "Attachments for interactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments",
   "published_at": "2025-10-18T14:43:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.612Z",
+      "blob": "0fb578c1960ff79286c8670a51af3cfa12620b92",
+      "words": 225,
+      "forms": 0
     }
   },
   "input_hash": "0fb578c1960ff79286c8670a51af3cfa12620b92",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-interaction-attachments.md"
-  }
+    "path": "business-central/marketing-interaction-attachments.md",
+    "description": "Learn how to attach files, such as Word documents, to add details about an interaction.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "relationship",
+      "prospect"
+    ],
+    "ai_usage": null,
+    "words": 225
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0fb578c1960ff79286c8670a51af3cfa12620b92"
 }

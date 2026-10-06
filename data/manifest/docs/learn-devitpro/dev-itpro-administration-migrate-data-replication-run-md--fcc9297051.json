@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate data replication run",
+  "title": "Run and manage data replication",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run",
   "published_at": "2026-02-11T08:28:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.349Z",
+      "blob": "3d274b99de8d052bac03247091f30661d1e52440",
+      "words": 490,
+      "forms": 0
     }
   },
   "input_hash": "3d274b99de8d052bac03247091f30661d1e52440",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-data-replication-run.md"
-  }
+    "path": "dev-itpro/administration/migrate-data-replication-run.md",
+    "description": "This article explains how to run data replication to move data from Business Central on-premises database to on line.",
+    "ms_date": "2024-12-20",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 490
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d274b99de8d052bac03247091f30661d1e52440"
 }

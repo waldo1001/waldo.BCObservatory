@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al120",
+  "title": "Compiler Error AL0120",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al120",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.037Z",
+      "blob": "195a81eae54bbb96303e7af4758dbf32dd59b3aa",
+      "words": 95,
+      "forms": 0
     }
   },
   "input_hash": "195a81eae54bbb96303e7af4758dbf32dd59b3aa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al120.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al120.md",
+    "description": "A local or parameter named '{0}' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 95
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "195a81eae54bbb96303e7af4758dbf32dd59b3aa"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how create income document records",
+  "title": "Create incoming document records",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-create-income-document-records",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.163Z",
+      "blob": "ba9a3b0b7642fe6314ccf08b119b0f5022bbc849",
+      "words": 599,
+      "forms": 0
     }
   },
   "input_hash": "ba9a3b0b7642fe6314ccf08b119b0f5022bbc849",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-create-income-document-records.md"
-  }
+    "path": "business-central/across-how-create-income-document-records.md",
+    "description": "Use different functions on the Incoming Documents page to review expense receipts, manage OCR tasks, convert incoming document files and attach external files.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "electronic document",
+      "e-invoice",
+      "incoming document",
+      "OCR",
+      "ecommerce",
+      "document exchange",
+      "import invoice"
+    ],
+    "ai_usage": null,
+    "words": 599
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba9a3b0b7642fe6314ccf08b119b0f5022bbc849"
 }

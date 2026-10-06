@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv al menusuite functionality",
+  "title": "Add pages and reports to Tell me",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality",
   "published_at": "2025-05-15T14:54:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.219Z",
+      "blob": "d4240c50e6bee30ed9705aa0e8ca264d247dc64f",
+      "words": 724,
+      "forms": 0
     }
   },
   "input_hash": "d4240c50e6bee30ed9705aa0e8ca264d247dc64f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-al-menusuite-functionality.md"
-  }
+    "path": "dev-itpro/developer/devenv-al-menusuite-functionality.md",
+    "description": "Description of how you use AL to add pages and reports so that they're discoverable through search in the client.",
+    "ms_date": "2025-05-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 724
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d4240c50e6bee30ed9705aa0e8ca264d247dc64f"
 }

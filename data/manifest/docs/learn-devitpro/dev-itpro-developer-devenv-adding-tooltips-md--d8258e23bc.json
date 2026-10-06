@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv adding tooltips",
+  "title": "Add tooltips to table and page fields",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips",
   "published_at": "2025-07-02T08:05:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.112Z",
+      "blob": "8518266087cc72f32d199d2655deb28264c7209d",
+      "words": 373,
+      "forms": 0
     }
   },
   "input_hash": "8518266087cc72f32d199d2655deb28264c7209d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-adding-tooltips.md"
-  }
+    "path": "dev-itpro/developer/devenv-adding-tooltips.md",
+    "description": "Description of how you use AL to add tooltips to table and page fields so that they're available when users hover over fields in the client.",
+    "ms_date": "2024-03-13",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 373
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8518266087cc72f32d199d2655deb28264c7209d"
 }

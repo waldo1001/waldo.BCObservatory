@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to cancel payments",
+  "title": "Cancel payments [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.026Z",
+      "blob": "048e4282060880dbe746dea3fdc58c71c23c4c75",
+      "words": 285,
+      "forms": 6
     }
   },
   "input_hash": "048e4282060880dbe746dea3fdc58c71c23c4c75",
@@ -18,6 +24,53 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-cancel-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-cancel-payments.md",
+    "description": "Learn how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.",
+    "ms_date": "2025-05-12",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "15000000",
+        "id": 15000000,
+        "kind": null
+      },
+      {
+        "raw": "15000002",
+        "id": 15000002,
+        "kind": null
+      },
+      {
+        "raw": "15000004",
+        "id": 15000004,
+        "kind": null
+      },
+      {
+        "raw": "15000006",
+        "id": 15000006,
+        "kind": null
+      },
+      {
+        "raw": "15000007",
+        "id": 15000007,
+        "kind": null
+      },
+      {
+        "raw": "15000010",
+        "id": 15000010,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment cancellation",
+      "cancel payment",
+      "cancel remittance",
+      "remittance cancellation",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 285
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "048e4282060880dbe746dea3fdc58c71c23c4c75"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al869",
+  "title": "Compiler Warning AL0869",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al869",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.202Z",
+      "blob": "3539135a085b4a69763fe5a664f26ac38dd4ee07",
+      "words": 89,
+      "forms": 0
     }
   },
   "input_hash": "3539135a085b4a69763fe5a664f26ac38dd4ee07",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al869.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al869.md",
+    "description": "'{0}' '{1}' was expected to be found in app '{2}' but was instead found in app '{3}', which is propagating its dependencies to '{2}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 89
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3539135a085b4a69763fe5a664f26ac38dd4ee07"
 }

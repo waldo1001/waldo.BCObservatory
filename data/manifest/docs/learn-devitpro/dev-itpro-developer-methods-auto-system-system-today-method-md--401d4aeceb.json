@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system today method",
+  "title": "System.Today() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-today-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.268Z",
+      "blob": "7a3c2db96212626e29da3efcf0dc481576d0163b",
+      "words": 218,
+      "forms": 0
     }
   },
   "input_hash": "7a3c2db96212626e29da3efcf0dc481576d0163b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-today-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-today-method.md",
+    "description": "Gets the current date set in the operating system.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 218
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a3c2db96212626e29da3efcf0dc481576d0163b"
 }

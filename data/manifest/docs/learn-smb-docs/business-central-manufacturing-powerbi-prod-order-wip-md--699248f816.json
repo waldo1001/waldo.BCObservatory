@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi prod order wip",
+  "title": "Production Order WIP",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-wip",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.913Z",
+      "blob": "337cd33b95648c9de451204b408f003675b668a7",
+      "words": 244,
+      "forms": 1
     }
   },
   "input_hash": "337cd33b95648c9de451204b408f003675b668a7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-prod-order-wip.md"
-  }
+    "path": "business-central/manufacturing-powerbi-prod-order-wip.md",
+    "description": "Learn how to benefit from using the Production Order WIP report.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37107_Primary",
+        "id": 37107,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 244
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "337cd33b95648c9de451204b408f003675b668a7"
 }

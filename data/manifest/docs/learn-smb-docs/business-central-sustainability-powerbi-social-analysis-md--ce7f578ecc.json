@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sustainability powerbi social analysis",
+  "title": "Social Analysis",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.918Z",
+      "blob": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
+      "words": 219,
+      "forms": 0
     }
   },
   "input_hash": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sustainability-powerbi-social-analysis.md"
-  }
+    "path": "business-central/sustainability-powerbi-social-analysis.md",
+    "description": "The Social Analysis report displays employee details as part of Social reporting for ESG.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 219
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3cccbe3600c32819c12c03bc95cdec374bc99fd"
 }

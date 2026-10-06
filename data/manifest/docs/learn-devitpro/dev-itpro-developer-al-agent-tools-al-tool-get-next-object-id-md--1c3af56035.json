@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "al tool get next object id",
+  "title": "Get next object ID - al_getnextobjectid",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.806Z",
+      "blob": "e79a39f1b5c30c143596fc4653d6d3dfedc78944",
+      "words": 784,
+      "forms": 0
     }
   },
   "input_hash": "e79a39f1b5c30c143596fc4653d6d3dfedc78944",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md"
-  }
+    "path": "dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md",
+    "description": "Learn about the al_getnextobjectid tool for AL development and how to use it in Visual Studio Code and the AL MCP Server to allocate free object IDs.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 784
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e79a39f1b5c30c143596fc4653d6d3dfedc78944"
 }

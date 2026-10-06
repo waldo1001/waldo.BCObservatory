@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv develop for teams check session",
+  "title": "Get session and environment information relevant to Teams development",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-check-session",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.592Z",
+      "blob": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0",
+      "words": 341,
+      "forms": 0
     }
   },
   "input_hash": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-develop-for-teams-check-session.md"
-  }
+    "path": "dev-itpro/developer/devenv-develop-for-teams-check-session.md",
+    "description": "Learn about AL code for getting session information that you cn use to influence runtime behavior of a Business Central card or tab in Teams.",
+    "ms_date": "2023-12-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 341
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cf63be088b23ac8908c9b83e40b7b4949de5c9f0"
 }

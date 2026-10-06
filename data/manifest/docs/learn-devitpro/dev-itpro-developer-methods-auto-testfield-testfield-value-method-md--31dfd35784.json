@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testfield value method",
+  "title": "TestField.Value([Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testfield/testfield-value-method",
   "published_at": "2024-12-02T13:41:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.489Z",
+      "blob": "6b46773a9b4e81c8504d2349e968fded95850bef",
+      "words": 116,
+      "forms": 0
     }
   },
   "input_hash": "6b46773a9b4e81c8504d2349e968fded95850bef",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testfield/testfield-value-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testfield/testfield-value-method.md",
+    "description": "Gets or sets the value of this field.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 116
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b46773a9b4e81c8504d2349e968fded95850bef"
 }

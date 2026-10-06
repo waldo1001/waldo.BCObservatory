@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "subcontract location management",
+  "title": "Set up locations for subcontracting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-location-management",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.744Z",
+      "blob": "cab9be97f550b28a13a5789b957e3ddd1173135e",
+      "words": 455,
+      "forms": 2
     }
   },
   "input_hash": "cab9be97f550b28a13a5789b957e3ddd1173135e",
@@ -18,6 +24,31 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/subcontract-location-management.md"
-  }
+    "path": "business-central/subcontract-location-management.md",
+    "description": "Learn how to configure subcontracting locations on vendor cards and set up transfer routes between your warehouse and subcontractor locations.",
+    "ms_date": "2026-05-20",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000788",
+        "id": 99000788,
+        "kind": null
+      },
+      {
+        "raw": "99000818",
+        "id": 99000818,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "subcontracting",
+      "location",
+      "transfer routes"
+    ],
+    "ai_usage": null,
+    "words": 455
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cab9be97f550b28a13a5789b957e3ddd1173135e"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migration setup gp",
+  "title": "Run cloud migration setup for Dynamics GP migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
   "published_at": "2026-05-07T16:44:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.859Z",
+      "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
+      "words": 1019,
+      "forms": 0
     }
   },
   "input_hash": "3b3907dc52a1797465e2eab86497549e750d891e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migration-setup-gp.md"
-  }
+    "path": "dev-itpro/administration/migration-setup-gp.md",
+    "description": "This article explains how to run the Cloud Migration Setup assisted setup guide to configure the components and connection for migrating data from a Dynamics GP on-premises database to Business Central online environment.",
+    "ms_date": "2024-02-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1019
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b3907dc52a1797465e2eab86497549e750d891e"
 }

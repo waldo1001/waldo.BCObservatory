@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "report performance issue",
+  "title": "Report a performance issue",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-performance-issue",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.931Z",
+      "blob": "f92785e672025e0117db76dafcc5584582da509e",
+      "words": 541,
+      "forms": 0
     }
   },
   "input_hash": "f92785e672025e0117db76dafcc5584582da509e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/report-performance-issue.md"
-  }
+    "path": "dev-itpro/administration/report-performance-issue.md",
+    "description": "Learn about how to report a performance issue on behalf of your Business Central online customers as the delegated administrator.",
+    "ms_date": "2024-01-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 541
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f92785e672025e0117db76dafcc5584582da509e"
 }

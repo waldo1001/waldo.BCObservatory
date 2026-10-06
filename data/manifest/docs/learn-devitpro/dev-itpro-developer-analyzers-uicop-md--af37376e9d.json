@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "uicop",
+  "title": "UICop analyzer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop",
   "published_at": "2025-08-08T11:51:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.384Z",
+      "blob": "83ddc7efb02430630c5ef1dea8324f320150da63",
+      "words": 294,
+      "forms": 0
     }
   },
   "input_hash": "83ddc7efb02430630c5ef1dea8324f320150da63",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/uicop.md"
-  }
+    "path": "dev-itpro/developer/analyzers/uicop.md",
+    "description": "UICop is an analyzer that enforces rules that must be respected by extensions meant to customize the Web Client.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 294
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83ddc7efb02430630c5ef1dea8324f320150da63"
 }

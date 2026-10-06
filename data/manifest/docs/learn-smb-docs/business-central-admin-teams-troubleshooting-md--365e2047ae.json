@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin teams troubleshooting",
+  "title": "Troubleshooting Microsoft Teams Integration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-troubleshooting",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.322Z",
+      "blob": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
+      "words": 1715,
+      "forms": 0
     }
   },
   "input_hash": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-teams-troubleshooting.md"
-  }
+    "path": "business-central/admin-teams-troubleshooting.md",
+    "description": "Learn about what you can do as an administrator to control Microsoft Teams integration and fix problems.",
+    "ms_date": "2025-01-06",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "Teams",
+      "MS Teams",
+      "Microsoft Teams",
+      "Skype",
+      "Link",
+      "Microsoft 365",
+      "collaborate",
+      "collaboration",
+      "teamwork",
+      "troubleshooting",
+      "errors"
+    ],
+    "ai_usage": null,
+    "words": 1715
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4076615d2ee9053d59c925e4d10335adcde2e4b4"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "report outage",
+  "title": "Report Customer Outages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-outage",
   "published_at": "2025-10-14T08:34:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.709Z",
+      "blob": "e9af37fa451ad50947233d9282094bc46e155156",
+      "words": 374,
+      "forms": 0
     }
   },
   "input_hash": "e9af37fa451ad50947233d9282094bc46e155156",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/report-outage.md"
-  }
+    "path": "dev-itpro/administration/report-outage.md",
+    "description": "Learn about how to report a suspected service outage on behalf of your Business Central online customers as the delegated administrator.",
+    "ms_date": "2025-10-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 374
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e9af37fa451ad50947233d9282094bc46e155156"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing integrate dynamicscrm",
+  "title": "Manage customers using Dynamics 365 Sales",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.578Z",
+      "blob": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",
+      "words": 2059,
+      "forms": 0
     }
   },
   "input_hash": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-integrate-dynamicscrm.md"
-  }
+    "path": "business-central/marketing-integrate-dynamicscrm.md",
+    "description": "Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "integration",
+      "synchronize",
+      "map",
+      "Sales"
+    ],
+    "ai_usage": null,
+    "words": 2059
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e"
 }

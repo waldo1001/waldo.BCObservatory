@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "onboarding welcome banner",
+  "title": "Onboard new users with the Welcome banner",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-welcome-banner",
   "published_at": "2025-05-06T19:27:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.461Z",
+      "blob": "5a193cb8d4ca809fa697d47b69f17d30e1b83219",
+      "words": 694,
+      "forms": 0
     }
   },
   "input_hash": "5a193cb8d4ca809fa697d47b69f17d30e1b83219",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/onboarding-welcome-banner.md"
-  }
+    "path": "dev-itpro/administration/onboarding-welcome-banner.md",
+    "description": "Learn about the banner that displays when a user signs into a new company for the first time.",
+    "ms_date": "2025-01-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 694
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a193cb8d4ca809fa697d47b69f17d30e1b83219"
 }

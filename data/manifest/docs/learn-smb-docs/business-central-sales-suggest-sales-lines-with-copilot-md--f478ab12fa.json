@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales suggest sales lines with copilot",
+  "title": "Sales line suggestions with Copilot",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.498Z",
+      "blob": "db383c4daae07314f3b79c50c3a2c0916fa36251",
+      "words": 892,
+      "forms": 0
     }
   },
   "input_hash": "db383c4daae07314f3b79c50c3a2c0916fa36251",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-suggest-sales-lines-with-copilot.md"
-  }
+    "path": "business-central/sales-suggest-sales-lines-with-copilot.md",
+    "description": "Learn how to suggest lines on sales orders with Copilot.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "Copilot",
+      "AI",
+      "sell"
+    ],
+    "ai_usage": null,
+    "words": 892
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db383c4daae07314f3b79c50c3a2c0916fa36251"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "product and architecture overview",
+  "title": "Component and System Topology",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/product-and-architecture-overview",
   "published_at": "2026-03-23T13:20:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.484Z",
+      "blob": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf",
+      "words": 667,
+      "forms": 0
     }
   },
   "input_hash": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/product-and-architecture-overview.md"
-  }
+    "path": "dev-itpro/deployment/product-and-architecture-overview.md",
+    "description": "The Business Central architecture includes of three core components, and various additional tools and components.",
+    "ms_date": "2022-08-31",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 667
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to setup and post reverse charge",
+  "title": "Czech local functionality - Reverse charge in setup and posting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.312Z",
+      "blob": "0afda5fe5da6714041eff79653d49c935c782ee2",
+      "words": 126,
+      "forms": 0
     }
   },
   "input_hash": "0afda5fe5da6714041eff79653d49c935c782ee2",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md",
+    "description": "Learn how to set up and post reverse charge transactions in the Czech version of Business Central, including configuration of tax liability regimes and VAT reporting.",
+    "ms_date": "2025-06-03",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [
+      "CZ",
+      "Czech",
+      "Advance payment",
+      "Advance invoices",
+      "Payables",
+      "Finance",
+      "Cash",
+      "EET",
+      "Cash Desk"
+    ],
+    "ai_usage": null,
+    "words": 126
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0afda5fe5da6714041eff79653d49c935c782ee2"
 }

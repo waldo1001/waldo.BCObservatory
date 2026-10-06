@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics accountingperiod",
+  "title": "accountingPeriod resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_accountingperiod",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.445Z",
+      "blob": "cd9aac2ed7cba11d39e615d8d3fce8921284e0c6",
+      "words": 80,
+      "forms": 0
     }
   },
   "input_hash": "cd9aac2ed7cba11d39e615d8d3fce8921284e0c6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_accountingperiod.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/resources/dynamics_accountingperiod.md",
+    "description": "An accounting period object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 80
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd9aac2ed7cba11d39e615d8d3fce8921284e0c6"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al385",
+  "title": "Compiler Error AL0385",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al385",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.908Z",
+      "blob": "87072ef3fdadf8d0779c765103e043810b9e3039",
+      "words": 57,
+      "forms": 0
     }
   },
   "input_hash": "87072ef3fdadf8d0779c765103e043810b9e3039",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al385.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al385.md",
+    "description": "IncludeCaption can be set to true only if the source of the column is a named field.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 57
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87072ef3fdadf8d0779c765103e043810b9e3039"
 }

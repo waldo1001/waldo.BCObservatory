@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to calculate goods and services tax on prepayments",
+  "title": "Calculate goods and services tax on prepayments (NZ)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments",
   "published_at": "2025-05-07T13:37:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.286Z",
+      "blob": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
+      "words": 23,
+      "forms": 4
     }
   },
   "input_hash": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md"
-  }
+    "path": "business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md",
+    "description": "Learn how to calculate Goods and Services Tax (GST) for prepayments or partial payments based on the total invoice amount rather than just the partial payment.",
+    "ms_date": "2025-05-05",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "28164",
+        "id": 28164,
+        "kind": null
+      },
+      {
+        "raw": "28165",
+        "id": 28165,
+        "kind": null
+      },
+      {
+        "raw": "28166",
+        "id": 28166,
+        "kind": null
+      },
+      {
+        "raw": "28167",
+        "id": 28167,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "calculate GST",
+      "GST prepayment",
+      "GST partial payment",
+      "New Zealand version"
+    ],
+    "ai_usage": null,
+    "words": 23
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22a76ffe253a05bed14cb2cb586a9d090a8093b6"
 }

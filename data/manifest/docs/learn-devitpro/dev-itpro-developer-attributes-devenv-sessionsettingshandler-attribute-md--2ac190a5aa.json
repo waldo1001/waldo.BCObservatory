@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv sessionsettingshandler attribute",
+  "title": "SessionSettingsHandler attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-sessionsettingshandler-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.221Z",
+      "blob": "393ec5d4771578067d4d74d73d16833ac7e9a68e",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "393ec5d4771578067d4d74d73d16833ac7e9a68e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-sessionsettingshandler-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-sessionsettingshandler-attribute.md",
+    "description": "Specifies a SessionSettingsHandler method, which handles RequestSessionUpdate statements.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "393ec5d4771578067d4d74d73d16833ac7e9a68e"
 }

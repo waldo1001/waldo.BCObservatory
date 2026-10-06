@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details cost adjustment",
+  "title": "Design details - Cost adjustment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.575Z",
+      "blob": "561070a2c604ed5bc885cd9236999c1bb843bac7",
+      "words": 1600,
+      "forms": 0
     }
   },
   "input_hash": "561070a2c604ed5bc885cd9236999c1bb843bac7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-cost-adjustment.md"
-  }
+    "path": "business-central/design-details-cost-adjustment.md",
+    "description": "Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1600
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "561070a2c604ed5bc885cd9236999c1bb843bac7"
 }

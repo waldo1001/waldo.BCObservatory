@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance financial reporting auditing",
+  "title": "Auditing and financial reporting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-auditing",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.025Z",
+      "blob": "9e9e3d8ba03b55729dd1beef409b93de42ce1215",
+      "words": 381,
+      "forms": 4
     }
   },
   "input_hash": "9e9e3d8ba03b55729dd1beef409b93de42ce1215",
@@ -18,6 +24,41 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-financial-reporting-auditing.md"
-  }
+    "path": "business-central/finance-financial-reporting-auditing.md",
+    "description": "Learn how to track the changes people make to your financial reports.",
+    "ms_date": "2026-09-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Report_25",
+        "id": 25,
+        "kind": "Report"
+      },
+      {
+        "raw": "103",
+        "id": 103,
+        "kind": null
+      },
+      {
+        "raw": "108",
+        "id": 108,
+        "kind": null
+      },
+      {
+        "raw": "488",
+        "id": 488,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "account schedule",
+      "financial report",
+      "auditing"
+    ],
+    "ai_usage": null,
+    "words": 381
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e9e3d8ba03b55729dd1beef409b93de42ce1215"
 }

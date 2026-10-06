@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "m365 integration overview",
+  "title": "Integrating with Office apps and Microsoft 365",
   "url": "https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview",
   "published_at": "2026-06-19T13:58:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.214Z",
+      "blob": "7e06639c49556d3cf7ba210230e64a709f812545",
+      "words": 947,
+      "forms": 0
     }
   },
   "input_hash": "7e06639c49556d3cf7ba210230e64a709f812545",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/m365-integration-overview.md"
-  }
+    "path": "business-central/m365-integration-overview.md",
+    "description": "Learn how to integrate Business Central with Office apps and Microsoft 365.",
+    "ms_date": "2026-06-19",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 947
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e06639c49556d3cf7ba210230e64a709f812545"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1015",
+  "title": "Project Register (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1015",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.072Z",
+      "blob": "02f27840b48a5fad27c1a1fae4474f72eb96b2ab",
+      "words": 164,
+      "forms": 1
     }
   },
   "input_hash": "02f27840b48a5fad27c1a1fae4474f72eb96b2ab",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1015.md"
-  }
+    "path": "business-central/reports/report-1015.md",
+    "description": "Document a project register's contents for internal or external audits.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1015_Primary",
+        "id": 1015,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 164
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "02f27840b48a5fad27c1a1fae4474f72eb96b2ab"
 }

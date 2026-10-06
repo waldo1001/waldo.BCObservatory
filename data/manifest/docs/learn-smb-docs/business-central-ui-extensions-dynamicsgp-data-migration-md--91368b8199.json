@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions dynamicsgp data migration",
+  "title": "Migrate Data from Dynamics GP before 15.3",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-dynamicsgp-data-migration",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.761Z",
+      "blob": "f46e39d5823a30b9559d239c376eef530440e738",
+      "words": 98,
+      "forms": 0
     }
   },
   "input_hash": "f46e39d5823a30b9559d239c376eef530440e738",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-dynamicsgp-data-migration.md"
-  }
+    "path": "business-central/ui-extensions-dynamicsgp-data-migration.md",
+    "description": "Before update 15.3, you could use the Dynamics GP Data Migration extension to migrate customers, vendors, and more from Dynamics GP to Business Central.",
+    "ms_date": "2021-06-23",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 98
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f46e39d5823a30b9559d239c376eef530440e738"
 }

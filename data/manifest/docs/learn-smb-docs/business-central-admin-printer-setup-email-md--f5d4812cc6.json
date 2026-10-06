@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin printer setup email",
+  "title": "Set Up Email Printers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.541Z",
+      "blob": "8ed1f32eb3725d480dbe37a084f28360ac896f49",
+      "words": 328,
+      "forms": 0
     }
   },
   "input_hash": "8ed1f32eb3725d480dbe37a084f28360ac896f49",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-printer-setup-email.md"
-  }
+    "path": "business-central/admin-printer-setup-email.md",
+    "description": "How-to description",
+    "ms_date": "2023-01-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 328
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ed1f32eb3725d480dbe37a084f28360ac896f49"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across controladdin resiliency",
+  "title": "Control add-in resiliency in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-controladdin-resiliency",
   "published_at": "2026-07-01T13:07:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.917Z",
+      "blob": "25236267b5f60a76696b1e99ba84f532169e06bd",
+      "words": 192,
+      "forms": 0
     }
   },
   "input_hash": "25236267b5f60a76696b1e99ba84f532169e06bd",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-controladdin-resiliency.md"
-  }
+    "path": "business-central/across-controladdin-resiliency.md",
+    "description": "Guidance for addressing issues when control add-ins or custom controls cause reduced functionality in Business Central.",
+    "ms_date": "2026-06-24",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "resiliency",
+      "control add-in",
+      "custom control",
+      "performance",
+      "slow",
+      "unresponsive"
+    ],
+    "ai_usage": null,
+    "words": 192
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25236267b5f60a76696b1e99ba84f532169e06bd"
 }

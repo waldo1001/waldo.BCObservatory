@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin prepare dynamics 365 for sales for integration",
+  "title": "Integrating with Dynamics 365 Sales",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration",
   "published_at": "2026-04-08T11:03:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.225Z",
+      "blob": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8",
+      "words": 3754,
+      "forms": 0
     }
   },
   "input_hash": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-prepare-dynamics-365-for-sales-for-integration.md"
-  }
+    "path": "business-central/admin-prepare-dynamics-365-for-sales-for-integration.md",
+    "description": "Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.",
+    "ms_date": "2026-04-08",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "sales",
+      "crm",
+      "integration",
+      "integrating"
+    ],
+    "ai_usage": null,
+    "words": 3754
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8"
 }

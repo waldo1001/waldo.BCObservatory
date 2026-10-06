@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "receivables payables",
+  "title": "Payables and receivables in the Czech Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
   "published_at": "2025-06-18T08:05:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.242Z",
+      "blob": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
+      "words": 843,
+      "forms": 0
     }
   },
   "input_hash": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/receivables-payables.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/receivables-payables.md",
+    "description": "Learn about payables and receivables features specific to the Czech version, including credits, exchange rate adjustments, and local reporting requirements.",
+    "ms_date": "2025-06-05",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Receivables",
+      "Payables",
+      "Finance",
+      "CZ",
+      "Cash"
+    ],
+    "ai_usage": null,
+    "words": 843
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20"
 }

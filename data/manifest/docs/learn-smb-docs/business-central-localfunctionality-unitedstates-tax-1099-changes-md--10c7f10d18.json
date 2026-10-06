@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "tax 1099 changes",
+  "title": "Regulatory 1099 format changes and details",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/tax-1099-changes",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.078Z",
+      "blob": "208d9d0dc2e7a9a5642f68cabaeabbdfd519357d",
+      "words": 618,
+      "forms": 9
     }
   },
   "input_hash": "208d9d0dc2e7a9a5642f68cabaeabbdfd519357d",
@@ -18,6 +24,65 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/tax-1099-changes.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/tax-1099-changes.md",
+    "description": "Learn about the changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "10015",
+        "id": 10015,
+        "kind": null
+      },
+      {
+        "raw": "10016",
+        "id": 10016,
+        "kind": null
+      },
+      {
+        "raw": "10018",
+        "id": 10018,
+        "kind": null
+      },
+      {
+        "raw": "10900",
+        "id": 10900,
+        "kind": null
+      },
+      {
+        "raw": "315",
+        "id": 315,
+        "kind": null
+      },
+      {
+        "raw": "466",
+        "id": 466,
+        "kind": null
+      },
+      {
+        "raw": "467",
+        "id": 467,
+        "kind": null
+      },
+      {
+        "raw": "468",
+        "id": 468,
+        "kind": null
+      },
+      {
+        "raw": "469",
+        "id": 469,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1099"
+    ],
+    "ai_usage": null,
+    "words": 618
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "208d9d0dc2e7a9a5642f68cabaeabbdfd519357d"
 }

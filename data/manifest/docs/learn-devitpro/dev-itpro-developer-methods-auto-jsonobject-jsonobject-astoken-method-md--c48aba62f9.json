@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject astoken method",
+  "title": "JsonObject.AsToken() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-astoken-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.893Z",
+      "blob": "fe86175e0f69499b5d3f0ca9ed6c8a5b11e68fb5",
+      "words": 97,
+      "forms": 0
     }
   },
   "input_hash": "fe86175e0f69499b5d3f0ca9ed6c8a5b11e68fb5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-astoken-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-astoken-method.md",
+    "description": "Converts the value in a JsonObject to a JsonToken data type.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 97
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe86175e0f69499b5d3f0ca9ed6c8a5b11e68fb5"
 }

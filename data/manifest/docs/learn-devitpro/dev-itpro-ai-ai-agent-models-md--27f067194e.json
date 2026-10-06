@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "ai agent models",
+  "title": "AI Models for Agents (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models",
   "published_at": "2026-06-02T12:16:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.882Z",
+      "blob": "7f390018a42fad77148cf7baead4ec4d08f23624",
+      "words": 675,
+      "forms": 0
     }
   },
   "input_hash": "7f390018a42fad77148cf7baead4ec4d08f23624",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/ai/ai-agent-models.md"
-  }
+    "path": "dev-itpro/ai/ai-agent-models.md",
+    "description": "Learn about AI model availability, lifecycle, and how to select models for agents in Dynamics 365 Business Central.",
+    "ms_date": "2026-06-02",
+    "ms_topic": "conceptual",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 675
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f390018a42fad77148cf7baead4ec4d08f23624"
 }

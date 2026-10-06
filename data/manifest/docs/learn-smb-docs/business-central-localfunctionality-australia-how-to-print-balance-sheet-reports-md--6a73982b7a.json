@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print balance sheet reports",
+  "title": "Print balance sheet reports [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.749Z",
+      "blob": "0877f320c1bef714be625b61aece62a99359356a",
+      "words": 27,
+      "forms": 0
     }
   },
   "input_hash": "0877f320c1bef714be625b61aece62a99359356a",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md",
+    "description": "Use the Balance Sheet report to view the company's balance sheet in the Australian version.",
+    "ms_date": "2025-03-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "balance sheet",
+      "balance sheet report",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 27
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0877f320c1bef714be625b61aece62a99359356a"
 }

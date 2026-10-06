@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance financial reporting report selection",
+  "title": "Report selection for finance reports in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
   "published_at": "2025-08-26T08:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.483Z",
+      "blob": "777ff6df7c3a69b144fa09a7cbc6829a51cd2b54",
+      "words": 203,
+      "forms": 5
     }
   },
   "input_hash": "777ff6df7c3a69b144fa09a7cbc6829a51cd2b54",
@@ -18,6 +24,51 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-financial-reporting-report-selection.md"
-  }
+    "path": "business-central/finance-financial-reporting-report-selection.md",
+    "description": "Describes how to setup which financial report definitions should be used for the core finance reports such as Balance Sheet, Income Statement, and Retained Earnings.",
+    "ms_date": "2025-08-22",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "Report_151",
+        "id": 151,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_154",
+        "id": 154,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_155",
+        "id": 155,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_156",
+        "id": 156,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "bi",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report",
+      "Balance Sheet",
+      "Income Statement",
+      "and Retained Earnings"
+    ],
+    "ai_usage": null,
+    "words": 203
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "777ff6df7c3a69b144fa09a7cbc6829a51cd2b54"
 }

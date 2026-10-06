@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onfindrecord requestpage trigger",
+  "title": "OnFindRecord (Request Page) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/requestpage/devenv-onfindrecord-requestpage-trigger",
   "published_at": "2025-08-08T11:57:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.417Z",
+      "blob": "36898131258c3bf93d8dbc570e99fe09a65f90e4",
+      "words": 158,
+      "forms": 0
     }
   },
   "input_hash": "36898131258c3bf93d8dbc570e99fe09a65f90e4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/requestpage/devenv-onfindrecord-requestpage-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/requestpage/devenv-onfindrecord-requestpage-trigger.md",
+    "description": "Overrides the default page behavior and enables you to specify which record you want to display when the page opens.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 158
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36898131258c3bf93d8dbc570e99fe09a65f90e4"
 }

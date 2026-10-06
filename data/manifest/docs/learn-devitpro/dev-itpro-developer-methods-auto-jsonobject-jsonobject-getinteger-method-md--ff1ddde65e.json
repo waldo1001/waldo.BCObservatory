@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject getinteger method",
+  "title": "JsonObject.GetInteger(Text [, Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-getinteger-method",
   "published_at": "2025-03-11T11:53:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.257Z",
+      "blob": "69c7f0ee2b8689fb2e447295faafe2b2a3335074",
+      "words": 144,
+      "forms": 0
     }
   },
   "input_hash": "69c7f0ee2b8689fb2e447295faafe2b2a3335074",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-getinteger-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-getinteger-method.md",
+    "description": "Retrieves the value of a property with a given key from a JsonObject as an Integer.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 144
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "69c7f0ee2b8689fb2e447295faafe2b2a3335074"
 }

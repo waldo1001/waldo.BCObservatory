@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "help aldoc generate help",
+  "title": "Generating help with the ALDoc tool",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/help-aldoc-generate-help",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.635Z",
+      "blob": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99",
+      "words": 780,
+      "forms": 0
     }
   },
   "input_hash": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/help/help-aldoc-generate-help.md"
-  }
+    "path": "dev-itpro/help/help-aldoc-generate-help.md",
+    "description": "This article describes how to download and use the ALDoc tool to generate reference help for first party apps for Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 780
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99"
 }

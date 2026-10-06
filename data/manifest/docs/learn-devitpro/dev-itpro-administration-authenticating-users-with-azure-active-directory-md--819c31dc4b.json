@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "authenticating users with azure active directory",
+  "title": "User Authentication with Microsoft Entra ID for Single Sign-on",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.901Z",
+      "blob": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
+      "words": 4610,
+      "forms": 0
     }
   },
   "input_hash": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/authenticating-users-with-azure-active-directory.md"
-  }
+    "path": "dev-itpro/administration/authenticating-users-with-azure-active-directory.md",
+    "description": "Associate an existing Microsoft account with user account to achieve single sign-on between the Web client and Microsoft 365.",
+    "ms_date": "2024-04-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 4610
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297"
 }

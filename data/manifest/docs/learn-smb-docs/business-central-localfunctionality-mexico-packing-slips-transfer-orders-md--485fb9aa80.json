@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "packing slips transfer orders",
+  "title": "Carta de Porte packing slips and transfer orders [MX]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.512Z",
+      "blob": "26c87e2cf8be2057afef209303f53e3e3f923daf",
+      "words": 971,
+      "forms": 0
     }
   },
   "input_hash": "26c87e2cf8be2057afef209303f53e3e3f923daf",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders.md"
-  }
+    "path": "business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders.md",
+    "description": "Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.",
+    "ms_date": "2025-02-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "CFDI",
+      "packing slips",
+      "transfer orders",
+      "Carta de Porte"
+    ],
+    "ai_usage": null,
+    "words": 971
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "26c87e2cf8be2057afef209303f53e3e3f923daf"
 }

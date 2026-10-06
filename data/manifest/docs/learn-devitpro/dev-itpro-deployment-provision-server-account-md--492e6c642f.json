@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "provision server account",
+  "title": "Provisioning the Dynamics 365 Business Central Server Service Account",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/provision-server-account",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.869Z",
+      "blob": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd",
+      "words": 2207,
+      "forms": 0
     }
   },
   "input_hash": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/provision-server-account.md"
-  }
+    "path": "dev-itpro/deployment/provision-server-account.md",
+    "description": "The service account is used by Business Central clients to log on to the server instance.",
+    "ms_date": "2021-10-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd"
 }

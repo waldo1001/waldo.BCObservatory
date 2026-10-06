@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "optimize sql al Database methods and performance on server",
+  "title": "AL database methods and performance on SQL Server",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server",
   "published_at": "2025-05-26T15:16:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.969Z",
+      "blob": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
+      "words": 1032,
+      "forms": 0
     }
   },
   "input_hash": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server.md"
-  }
+    "path": "dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server.md",
+    "description": "Read about the relationship between basic database methods in AL and SQL statements in Business Central.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1032
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0814d94f15e4bf6c1834fa90a86294d3c47a898"
 }

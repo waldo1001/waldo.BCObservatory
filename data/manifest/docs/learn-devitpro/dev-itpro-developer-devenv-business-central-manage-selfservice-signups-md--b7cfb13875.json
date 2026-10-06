@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv business central manage selfservice signups",
+  "title": "Enable and disable Business Central self-service signups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.034Z",
+      "blob": "c1a4ee56f70a8e117bf1ecd95b550999df7749c7",
+      "words": 304,
+      "forms": 0
     }
   },
   "input_hash": "c1a4ee56f70a8e117bf1ecd95b550999df7749c7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-business-central-manage-selfservice-signups.md"
-  }
+    "path": "dev-itpro/developer/devenv-business-central-manage-selfservice-signups.md",
+    "description": "Learn how to prevent Microsoft Entra tenant users from self-service sign ups",
+    "ms_date": "2024-11-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 304
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1a4ee56f70a8e117bf1ecd95b550999df7749c7"
 }

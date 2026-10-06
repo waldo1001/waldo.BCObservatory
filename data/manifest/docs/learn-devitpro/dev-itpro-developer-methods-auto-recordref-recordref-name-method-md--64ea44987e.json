@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref name method",
+  "title": "RecordRef.Name() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-name-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.519Z",
+      "blob": "3c5adad00368fcba2dc607342d4653bd2efc4d79",
+      "words": 149,
+      "forms": 0
     }
   },
   "input_hash": "3c5adad00368fcba2dc607342d4653bd2efc4d79",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-name-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-name-method.md",
+    "description": "Identifies the name of the table",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 149
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3c5adad00368fcba2dc607342d4653bd2efc4d79"
 }

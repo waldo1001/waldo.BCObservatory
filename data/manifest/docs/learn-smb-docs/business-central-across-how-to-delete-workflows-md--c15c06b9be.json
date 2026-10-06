@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to delete workflows",
+  "title": "How to delete approval workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-delete-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.208Z",
+      "blob": "98e0037c602c9d676faaa1620a2d165fde2e0b04",
+      "words": 208,
+      "forms": 1
     }
   },
   "input_hash": "98e0037c602c9d676faaa1620a2d165fde2e0b04",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-delete-workflows.md"
-  }
+    "path": "business-central/across-how-to-delete-workflows.md",
+    "description": "You can delete a workflow if it's no longer needed and all its step instances have a **Completed** status.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1500",
+        "id": 1500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "approval workflow",
+      "delete workflow",
+      "delete approval workflow"
+    ],
+    "ai_usage": null,
+    "words": 208
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "98e0037c602c9d676faaa1620a2d165fde2e0b04"
 }

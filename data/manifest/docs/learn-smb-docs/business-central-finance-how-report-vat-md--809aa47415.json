@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how report vat",
+  "title": "Submit VAT reports to tax authorities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat",
   "published_at": "2026-01-30T07:49:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.411Z",
+      "blob": "8803317937d9221ce474254d29ab3043972210ee",
+      "words": 2101,
+      "forms": 17
     }
   },
   "input_hash": "8803317937d9221ce474254d29ab3043972210ee",
@@ -18,6 +24,108 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-report-vat.md"
-  }
+    "path": "business-central/finance-how-report-vat.md",
+    "description": "Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.",
+    "ms_date": "2026-01-28",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "315_Primary",
+        "id": 315,
+        "kind": "Primary"
+      },
+      {
+        "raw": "321",
+        "id": 321,
+        "kind": null
+      },
+      {
+        "raw": "322",
+        "id": 322,
+        "kind": null
+      },
+      {
+        "raw": "323",
+        "id": 323,
+        "kind": null
+      },
+      {
+        "raw": "474",
+        "id": 474,
+        "kind": null
+      },
+      {
+        "raw": "475",
+        "id": 475,
+        "kind": null
+      },
+      {
+        "raw": "739",
+        "id": 739,
+        "kind": null
+      },
+      {
+        "raw": "740",
+        "id": 740,
+        "kind": null
+      },
+      {
+        "raw": "741",
+        "id": 741,
+        "kind": null
+      },
+      {
+        "raw": "742",
+        "id": 742,
+        "kind": null
+      },
+      {
+        "raw": "743",
+        "id": 743,
+        "kind": null
+      },
+      {
+        "raw": "744",
+        "id": 744,
+        "kind": null
+      },
+      {
+        "raw": "745",
+        "id": 745,
+        "kind": null
+      },
+      {
+        "raw": "746",
+        "id": 746,
+        "kind": null
+      },
+      {
+        "raw": "747",
+        "id": 747,
+        "kind": null
+      },
+      {
+        "raw": "748",
+        "id": 748,
+        "kind": null
+      },
+      {
+        "raw": "9401",
+        "id": 9401,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "tax",
+      "report",
+      "EC sales list",
+      "statement"
+    ],
+    "ai_usage": null,
+    "words": 2101
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8803317937d9221ce474254d29ab3043972210ee"
 }

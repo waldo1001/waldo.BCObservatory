@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testpage expand method",
+  "title": "TestPage.Expand(Boolean) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testpage/testpage-expand-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.483Z",
+      "blob": "085b838c7983da3440fbbe15d7bc806248870f01",
+      "words": 81,
+      "forms": 0
     }
   },
   "input_hash": "085b838c7983da3440fbbe15d7bc806248870f01",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testpage/testpage-expand-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testpage/testpage-expand-method.md",
+    "description": "Expands rows on a test page.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 81
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "085b838c7983da3440fbbe15d7bc806248870f01"
 }

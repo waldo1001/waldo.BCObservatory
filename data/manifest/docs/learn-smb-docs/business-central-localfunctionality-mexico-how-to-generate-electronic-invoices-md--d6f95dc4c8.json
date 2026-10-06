@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to generate electronic invoices",
+  "title": "Generate electronic invoices [MX]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices",
   "published_at": "2025-03-03T13:09:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.465Z",
+      "blob": "d503c00f7d13ff731d0ced95138669cfd873d166",
+      "words": 858,
+      "forms": 2
     }
   },
   "input_hash": "d503c00f7d13ff731d0ced95138669cfd873d166",
@@ -18,6 +24,31 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md"
-  }
+    "path": "business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md",
+    "description": "After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.",
+    "ms_date": "2025-02-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "132",
+        "id": 132,
+        "kind": null
+      },
+      {
+        "raw": "25",
+        "id": 25,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic invoice",
+      "sales invoice",
+      "Mexican version"
+    ],
+    "ai_usage": null,
+    "words": 858
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d503c00f7d13ff731d0ced95138669cfd873d166"
 }

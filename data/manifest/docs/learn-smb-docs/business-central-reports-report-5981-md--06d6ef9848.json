@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5981",
+  "title": "Contr. Gain/Loss - Resp. Ctr. (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5981",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.702Z",
+      "blob": "a3bab674992fd5b197a203fbb8a3bd9acbdab9b2",
+      "words": 163,
+      "forms": 1
     }
   },
   "input_hash": "a3bab674992fd5b197a203fbb8a3bd9acbdab9b2",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5981.md"
-  }
+    "path": "business-central/reports/report-5981.md",
+    "description": "Analyze gains and losses made on contracts attached to the different responsibility centers.",
+    "ms_date": "2024-11-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5981_Primary",
+        "id": 5981,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 163
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3bab674992fd5b197a203fbb8a3bd9acbdab9b2"
 }

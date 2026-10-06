@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent",
+  "title": "Expense Agent overview for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.336Z",
+      "blob": "6a97a00d68b78ef0d75814d89111e5d216712275",
+      "words": 1280,
+      "forms": 2
     }
   },
   "input_hash": "6a97a00d68b78ef0d75814d89111e5d216712275",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent.md"
-  }
+    "path": "business-central/expense-management/expense-agent.md",
+    "description": "Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "4400",
+        "id": 4400,
+        "kind": null
+      },
+      {
+        "raw": "4410",
+        "id": 4410,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1280
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a97a00d68b78ef0d75814d89111e5d216712275"
 }

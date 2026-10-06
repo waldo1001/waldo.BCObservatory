@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "compliance certifications",
+  "title": "Certifications of the service",
   "url": "https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-certifications",
   "published_at": "2025-07-23T12:21:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.820Z",
+      "blob": "918c51d144c32075d97a1366a45cae1983fcabd8",
+      "words": 213,
+      "forms": 0
     }
   },
   "input_hash": "918c51d144c32075d97a1366a45cae1983fcabd8",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/compliance/compliance-certifications.md"
-  }
+    "path": "business-central/compliance/compliance-certifications.md",
+    "description": "This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "compliance certification",
+      "compliance",
+      "certifications"
+    ],
+    "ai_usage": null,
+    "words": 213
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "918c51d144c32075d97a1366a45cae1983fcabd8"
 }

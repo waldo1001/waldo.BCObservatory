@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0083",
+  "title": "AppSourceCop Error AS0083",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0083",
   "published_at": "2024-09-04T12:22:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.747Z",
+      "blob": "a5f04b929a9b576a3f0b82ad3ff44e166883de93",
+      "words": 213,
+      "forms": 0
     }
   },
   "input_hash": "a5f04b929a9b576a3f0b82ad3ff44e166883de93",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0083.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0083.md",
+    "description": "Deleting an enum value is not allowed, unless the enum is marked as obsolete.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 213
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5f04b929a9b576a3f0b82ad3ff44e166883de93"
 }

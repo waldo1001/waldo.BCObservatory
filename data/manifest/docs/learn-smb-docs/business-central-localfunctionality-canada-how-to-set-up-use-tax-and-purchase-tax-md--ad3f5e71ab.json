@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up use tax and purchase tax",
+  "title": "How to Set Up Use Tax and Purchase Tax [CA]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.030Z",
+      "blob": "f455fe16edbb941c2226f6622865af98c757a903",
+      "words": 28,
+      "forms": 0
     }
   },
   "input_hash": "f455fe16edbb941c2226f6622865af98c757a903",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md"
-  }
+    "path": "business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md",
+    "description": "Sales and purchase tax includes taxes that companies pay for using items in the Canadian version.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "use tax",
+      "purchase tax",
+      "tax setup"
+    ],
+    "ai_usage": null,
+    "words": 28
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f455fe16edbb941c2226f6622865af98c757a903"
 }

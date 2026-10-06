@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payables how assign item charges",
+  "title": "Use item charges to account for extra trade costs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges",
   "published_at": "2026-07-23T12:26:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.640Z",
+      "blob": "f465e566c0d5551936868b8611f9ee62246833fa",
+      "words": 2041,
+      "forms": 4
     }
   },
   "input_hash": "f465e566c0d5551936868b8611f9ee62246833fa",
@@ -18,6 +24,45 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/payables-how-assign-item-charges.md"
-  }
+    "path": "business-central/payables-how-assign-item-charges.md",
+    "description": "Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.",
+    "ms_date": "2026-07-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5709",
+        "id": 5709,
+        "kind": null
+      },
+      {
+        "raw": "5800",
+        "id": 5800,
+        "kind": null
+      },
+      {
+        "raw": "5805",
+        "id": 5805,
+        "kind": null
+      },
+      {
+        "raw": "5814",
+        "id": 5814,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "transportation",
+      "added cost",
+      "landed cost",
+      "freight",
+      "customs duty",
+      "insurance",
+      "import cost"
+    ],
+    "ai_usage": null,
+    "words": 2041
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f465e566c0d5551936868b8611f9ee62246833fa"
 }

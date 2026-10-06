@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv instrument application for telemetry app insights",
+  "title": "Creating custom telemetry events for Azure Application Insights",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.478Z",
+      "blob": "c1483396f7329b8324e0c7a10f79c9cf53051e33",
+      "words": 1579,
+      "forms": 0
     }
   },
   "input_hash": "c1483396f7329b8324e0c7a10f79c9cf53051e33",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights.md"
-  }
+    "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights.md",
+    "description": "This article describes how to add code to application objects that enables you to log  telemetry.",
+    "ms_date": "2024-02-09",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1579
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1483396f7329b8324e0c7a10f79c9cf53051e33"
 }

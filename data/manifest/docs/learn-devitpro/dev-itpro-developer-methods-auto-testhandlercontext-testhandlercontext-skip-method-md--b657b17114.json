@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testhandlercontext skip method",
+  "title": "TestHandlerContext.Skip(Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testhandlercontext/testhandlercontext-skip-method",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.743Z",
+      "blob": "dac3bcb4e9d74d02fc30bb68b751fbdfd8f6077f",
+      "words": 124,
+      "forms": 0
     }
   },
   "input_hash": "dac3bcb4e9d74d02fc30bb68b751fbdfd8f6077f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testhandlercontext/testhandlercontext-skip-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testhandlercontext/testhandlercontext-skip-method.md",
+    "description": "Marks the current test case or procedure to be skipped.",
+    "ms_date": "2026-08-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 124
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dac3bcb4e9d74d02fc30bb68b751fbdfd8f6077f"
 }

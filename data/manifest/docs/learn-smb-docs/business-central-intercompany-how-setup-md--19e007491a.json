@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "intercompany how setup",
+  "title": "Set up intercompany transaction posting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-setup",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.309Z",
+      "blob": "7e4eff69da7ba1ef61ee9d2021826a540d93f333",
+      "words": 4014,
+      "forms": 16
     }
   },
   "input_hash": "7e4eff69da7ba1ef61ee9d2021826a540d93f333",
@@ -18,6 +24,103 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/intercompany-how-setup.md"
-  }
+    "path": "business-central/intercompany-how-setup.md",
+    "description": "Learn how to set up an intercompany partnership.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "605",
+        "id": 605,
+        "kind": null
+      },
+      {
+        "raw": "613",
+        "id": 613,
+        "kind": null
+      },
+      {
+        "raw": "617",
+        "id": 617,
+        "kind": null
+      },
+      {
+        "raw": "620",
+        "id": 620,
+        "kind": null
+      },
+      {
+        "raw": "602",
+        "id": 602,
+        "kind": null
+      },
+      {
+        "raw": "603",
+        "id": 603,
+        "kind": null
+      },
+      {
+        "raw": "601",
+        "id": 601,
+        "kind": null
+      },
+      {
+        "raw": "600",
+        "id": 600,
+        "kind": null
+      },
+      {
+        "raw": "652",
+        "id": 652,
+        "kind": null
+      },
+      {
+        "raw": "653",
+        "id": 653,
+        "kind": null
+      },
+      {
+        "raw": "606",
+        "id": 606,
+        "kind": null
+      },
+      {
+        "raw": "607",
+        "id": 607,
+        "kind": null
+      },
+      {
+        "raw": "609",
+        "id": 609,
+        "kind": null
+      },
+      {
+        "raw": "608",
+        "id": 608,
+        "kind": null
+      },
+      {
+        "raw": "621",
+        "id": 621,
+        "kind": null
+      },
+      {
+        "raw": "653_Primary",
+        "id": 653,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "IC",
+      "group",
+      "consolidation",
+      "affiliate",
+      "subsidiary"
+    ],
+    "ai_usage": null,
+    "words": 4014
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e4eff69da7ba1ef61ee9d2021826a540d93f333"
 }

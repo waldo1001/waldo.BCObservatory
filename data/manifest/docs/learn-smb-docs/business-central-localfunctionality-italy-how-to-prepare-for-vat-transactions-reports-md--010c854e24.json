@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to prepare for vat transactions reports",
+  "title": "Prepare for VAT transactions reports [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.879Z",
+      "blob": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
+      "words": 384,
+      "forms": 0
     }
   },
   "input_hash": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md",
+    "description": "Learn how to prepare and submit periodic VAT Transactions reports to the Italian tax authorities, including setup steps and required information.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT transaction reports",
+      "periodic VAT transaction reports",
+      "VAT transaction amount",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 384
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6"
 }

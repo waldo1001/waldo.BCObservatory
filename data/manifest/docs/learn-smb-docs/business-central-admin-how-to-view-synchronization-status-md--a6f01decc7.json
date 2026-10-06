@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin how to view synchronization status",
+  "title": "View the Status of Synchronization Jobs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.526Z",
+      "blob": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
+      "words": 593,
+      "forms": 1
     }
   },
   "input_hash": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-how-to-view-synchronization-status.md"
-  }
+    "path": "business-central/admin-how-to-view-synchronization-status.md",
+    "description": "Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.",
+    "ms_date": "2021-06-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "6250",
+        "id": 6250,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "sales",
+      "crm",
+      "integration",
+      "sync",
+      "synchronize"
+    ],
+    "ai_usage": null,
+    "words": 593
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0139783e78dd7e309441c6e0bc2347bc316b17d9"
 }

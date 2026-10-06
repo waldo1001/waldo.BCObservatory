@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui find entries",
+  "title": "Finding Related Entries for Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-find-entries",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.638Z",
+      "blob": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
+      "words": 440,
+      "forms": 1
     }
   },
   "input_hash": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-find-entries.md"
-  }
+    "path": "business-central/ui-find-entries.md",
+    "description": "Learn how to find documents, business contacts, and item entries that are related to each other.",
+    "ms_date": "2022-05-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "344_Primary",
+        "id": 344,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "find"
+    ],
+    "ai_usage": null,
+    "words": 440
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6"
 }

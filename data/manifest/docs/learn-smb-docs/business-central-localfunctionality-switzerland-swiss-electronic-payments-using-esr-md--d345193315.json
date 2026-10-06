@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "swiss electronic payments using esr",
+  "title": "Swiss Electronic Payments Using ESR [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.976Z",
+      "blob": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
+      "words": 241,
+      "forms": 2
     }
   },
   "input_hash": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md",
+    "description": "Learn about the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.",
+    "ms_date": "2025-04-30",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "3010531",
+        "id": 3010531,
+        "kind": null
+      },
+      {
+        "raw": "3010532",
+        "id": 3010532,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "ESR",
+      "ESR payment",
+      "ESR electronic payment",
+      "ESR payment method",
+      "debtor service",
+      "bill open invoices",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 241
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d7c5729c6eded2800be7c6ede9f8592882a9524"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "resolve page 2500 error converting database",
+  "title": "Resolving Page 2500 Compilation Error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-page-2500-error-converting-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.765Z",
+      "blob": "eb1183c04657e97eda6cc65b89ee074d02abf2a3",
+      "words": 56,
+      "forms": 0
     }
   },
   "input_hash": "eb1183c04657e97eda6cc65b89ee074d02abf2a3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/resolve-page-2500-error-converting-database.md"
-  }
+    "path": "dev-itpro/upgrade/resolve-page-2500-error-converting-database.md",
+    "description": "Explains how to resolve the compilation errors that you get for Page 2500 when converting a database from Dynamics NAV to Business Central.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 56
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb1183c04657e97eda6cc65b89ee074d02abf2a3"
 }

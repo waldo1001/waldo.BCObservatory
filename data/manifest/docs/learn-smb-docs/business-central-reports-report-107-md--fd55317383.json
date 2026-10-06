@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 107",
+  "title": "Customer - Order Summary (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-107",
   "published_at": "2026-09-10T14:37:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.867Z",
+      "blob": "4bf5a05b1ae253adf2956d7bdc7c8688939da292",
+      "words": 261,
+      "forms": 1
     }
   },
   "input_hash": "4bf5a05b1ae253adf2956d7bdc7c8688939da292",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-107.md"
-  }
+    "path": "business-central/reports/report-107.md",
+    "description": "See outstanding sales order amounts by customer, grouped into 30-day shipment periods, to gauge expected sales volume.",
+    "ms_date": "2026-09-10",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_107_Primary",
+        "id": 107,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 261
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4bf5a05b1ae253adf2956d7bdc7c8688939da292"
 }

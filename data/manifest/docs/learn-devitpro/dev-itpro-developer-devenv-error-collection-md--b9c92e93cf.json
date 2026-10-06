@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv error collection",
+  "title": "Collecting Errors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-collection",
   "published_at": "2025-05-19T13:30:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.200Z",
+      "blob": "7bef52214e0548ceddf3f1db0a56fc810be0a040",
+      "words": 321,
+      "forms": 0
     }
   },
   "input_hash": "7bef52214e0548ceddf3f1db0a56fc810be0a040",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-error-collection.md"
-  }
+    "path": "dev-itpro/developer/devenv-error-collection.md",
+    "description": "Learn how to write AL code that returns more than one error and presents users with more detailed error information.",
+    "ms_date": "2025-05-19",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 321
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7bef52214e0548ceddf3f1db0a56fc810be0a040"
 }

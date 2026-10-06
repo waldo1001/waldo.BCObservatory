@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "about locale language",
+  "title": "Multilanguage and localization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-locale-language",
   "published_at": "2026-03-04T13:14:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.722Z",
+      "blob": "7ad3eb2061972b9f302b54b0e0603b3657ddc689",
+      "words": 1069,
+      "forms": 16
     }
   },
   "input_hash": "7ad3eb2061972b9f302b54b0e0603b3657ddc689",
@@ -18,6 +24,104 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/about-locale-language.md"
-  }
+    "path": "business-central/about-locale-language.md",
+    "description": "Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.",
+    "ms_date": "2026-03-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "1",
+        "id": 1,
+        "kind": null
+      },
+      {
+        "raw": "9020",
+        "id": 9020,
+        "kind": null
+      },
+      {
+        "raw": "9022",
+        "id": 9022,
+        "kind": null
+      },
+      {
+        "raw": "9026",
+        "id": 9026,
+        "kind": null
+      },
+      {
+        "raw": "9027",
+        "id": 9027,
+        "kind": null
+      },
+      {
+        "raw": "9030",
+        "id": 9030,
+        "kind": null
+      },
+      {
+        "raw": "9000",
+        "id": 9000,
+        "kind": null
+      },
+      {
+        "raw": "9009",
+        "id": 9009,
+        "kind": null
+      },
+      {
+        "raw": "9004",
+        "id": 9004,
+        "kind": null
+      },
+      {
+        "raw": "9005",
+        "id": 9005,
+        "kind": null
+      },
+      {
+        "raw": "9024",
+        "id": 9024,
+        "kind": null
+      },
+      {
+        "raw": "9006",
+        "id": 9006,
+        "kind": null
+      },
+      {
+        "raw": "9007",
+        "id": 9007,
+        "kind": null
+      },
+      {
+        "raw": "9010",
+        "id": 9010,
+        "kind": null
+      },
+      {
+        "raw": "9016",
+        "id": 9016,
+        "kind": null
+      },
+      {
+        "raw": "9017",
+        "id": 9017,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "language",
+      "locale",
+      "localization",
+      "culture",
+      "region",
+      "regional settings"
+    ],
+    "ai_usage": null,
+    "words": 1069
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ad3eb2061972b9f302b54b0e0603b3657ddc689"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across setting up workflow notifications",
+  "title": "Setting up approval workflow notifications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.315Z",
+      "blob": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5",
+      "words": 463,
+      "forms": 0
     }
   },
   "input_hash": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-setting-up-workflow-notifications.md"
-  }
+    "path": "business-central/across-setting-up-workflow-notifications.md",
+    "description": "Learn how to set up workflow notifications to alert a user to an event that they must react to.",
+    "ms_date": "2025-10-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "workflow",
+      "approval workflow",
+      "workflow notifications"
+    ],
+    "ai_usage": null,
+    "words": 463
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "pertenantextensioncop pte0011",
+  "title": "PerTenantExtensionCop Error PTE0011",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0011",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.877Z",
+      "blob": "8b036a32245a1b3485e114a9a81fea77cb0c51a4",
+      "words": 73,
+      "forms": 0
     }
   },
   "input_hash": "8b036a32245a1b3485e114a9a81fea77cb0c51a4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0011.md"
-  }
+    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0011.md",
+    "description": "The extension publisher length must not exceed the limit of 50 characters.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 73
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b036a32245a1b3485e114a9a81fea77cb0c51a4"
 }

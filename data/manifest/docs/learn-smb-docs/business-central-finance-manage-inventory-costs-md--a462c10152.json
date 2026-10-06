@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance manage inventory costs",
+  "title": "Managing inventory costs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-inventory-costs",
   "published_at": "2026-07-23T12:26:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.635Z",
+      "blob": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842",
+      "words": 974,
+      "forms": 0
     }
   },
   "input_hash": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-manage-inventory-costs.md"
-  }
+    "path": "business-central/finance-manage-inventory-costs.md",
+    "description": "Cost management is concerned with recording and reporting business operating costs and includes the reporting of manufacturing costs and inventory costs.",
+    "ms_date": "2026-07-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "landed cost",
+      "item charges",
+      "inventory valuation",
+      "cost of goods sold",
+      "COGS",
+      "freight",
+      "true cost"
+    ],
+    "ai_usage": null,
+    "words": 974
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842"
 }

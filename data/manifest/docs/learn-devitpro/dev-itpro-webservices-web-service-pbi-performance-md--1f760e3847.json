@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "web service pbi performance",
+  "title": "Power BI Dataset Load Performance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-pbi-performance",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.601Z",
+      "blob": "ef0db18dee3a6c39ed4fad14b35c9dd2bca722ad",
+      "words": 217,
+      "forms": 0
     }
   },
   "input_hash": "ef0db18dee3a6c39ed4fad14b35c9dd2bca722ad",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/web-service-pbi-performance.md"
-  }
+    "path": "dev-itpro/webservices/web-service-pbi-performance.md",
+    "description": "Learn about how to tune the performance of Power BI dataset load time based on Business Central web services and APIs",
+    "ms_date": "2023-08-18",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 217
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ef0db18dee3a6c39ed4fad14b35c9dd2bca722ad"
 }

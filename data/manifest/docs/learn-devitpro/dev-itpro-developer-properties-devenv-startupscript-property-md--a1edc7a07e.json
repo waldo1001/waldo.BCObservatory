@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv startupscript property",
+  "title": "StartupScript property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-startupscript-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.166Z",
+      "blob": "7d722562f15d46ef456abdf615a4fe29cbc0a4f9",
+      "words": 168,
+      "forms": 0
     }
   },
   "input_hash": "7d722562f15d46ef456abdf615a4fe29cbc0a4f9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-startupscript-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-startupscript-property.md",
+    "description": "Specifies the script which is invoked when web page with the control add-in is loaded.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 168
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d722562f15d46ef456abdf615a4fe29cbc0a4f9"
 }

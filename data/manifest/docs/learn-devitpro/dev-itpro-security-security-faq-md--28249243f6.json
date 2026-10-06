@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "security faq",
+  "title": "Security FAQ for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-faq",
   "published_at": "2025-12-05T10:50:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.810Z",
+      "blob": "ff6583b73eefc4212bb3f9aff834137ce0040bdf",
+      "words": 335,
+      "forms": 0
     }
   },
   "input_hash": "ff6583b73eefc4212bb3f9aff834137ce0040bdf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/security/security-faq.md"
-  }
+    "path": "dev-itpro/security/security-faq.md",
+    "description": "Find useful links and other answers to frequently asked questions about security in Dynamics 365 Business Central.",
+    "ms_date": "2025-12-11",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 335
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff6583b73eefc4212bb3f9aff834137ce0040bdf"
 }

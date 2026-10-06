@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to issue delivery reminders",
+  "title": "Issue delivery reminders in the German version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.395Z",
+      "blob": "4220077ae81506e9fc830b1afe4a3223e18f6865",
+      "words": 27,
+      "forms": 5
     }
   },
   "input_hash": "4220077ae81506e9fc830b1afe4a3223e18f6865",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders.md",
+    "description": "Learn how to issue and print delivery reminders to vendors in the German version of Business Central.",
+    "ms_date": "2025-03-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5005272",
+        "id": 5005272,
+        "kind": null
+      },
+      {
+        "raw": "5005273",
+        "id": 5005273,
+        "kind": null
+      },
+      {
+        "raw": "5005274",
+        "id": 5005274,
+        "kind": null
+      },
+      {
+        "raw": "5005275",
+        "id": 5005275,
+        "kind": null
+      },
+      {
+        "raw": "5005276",
+        "id": 5005276,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "issue delivery reminders",
+      "print delivery reminders",
+      "delivery reminders",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 27
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4220077ae81506e9fc830b1afe4a3223e18f6865"
 }

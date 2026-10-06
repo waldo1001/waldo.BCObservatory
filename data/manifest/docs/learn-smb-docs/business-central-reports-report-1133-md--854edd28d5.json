@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1133",
+  "title": "Cost Acctg. Statement/Budget (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1133",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.140Z",
+      "blob": "dad4339d3f3f301d332443ef915ab19f8b6b0605",
+      "words": 200,
+      "forms": 1
     }
   },
   "input_hash": "dad4339d3f3f301d332443ef915ab19f8b6b0605",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1133.md"
-  }
+    "path": "business-central/reports/report-1133.md",
+    "description": "Compares cost statements to budgeted amounts by cost center, showing variance by amount and percentage. Use this report to identify gaps between projected and actual costs and improve budgeting effectiveness.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1133_Primary",
+        "id": 1133,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "cost accounting",
+      "budgeting",
+      "variance analysis"
+    ],
+    "ai_usage": null,
+    "words": 200
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dad4339d3f3f301d332443ef915ab19f8b6b0605"
 }

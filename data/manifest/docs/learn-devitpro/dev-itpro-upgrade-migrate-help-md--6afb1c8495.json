@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate help",
+  "title": "Migrate legacy help to the Business Central format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/migrate-help",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.603Z",
+      "blob": "f9c5f2fa7b11c60fccf5377f9a087652e9db804f",
+      "words": 993,
+      "forms": 0
     }
   },
   "input_hash": "f9c5f2fa7b11c60fccf5377f9a087652e9db804f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/migrate-help.md"
-  }
+    "path": "dev-itpro/upgrade/migrate-help.md",
+    "description": "Reuse your existing Help content from Dynamics NAV or other products, and make it available to your Business Central solution.",
+    "ms_date": "2023-12-29",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 993
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f9c5f2fa7b11c60fccf5377f9a087652e9db804f"
 }

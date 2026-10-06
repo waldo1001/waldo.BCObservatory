@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales how register new customers",
+  "title": "Register new customers by creating a Customer Card",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.424Z",
+      "blob": "139a74e2f076b8ad2158d06ef7acd189bfc6f172",
+      "words": 969,
+      "forms": 24
     }
   },
   "input_hash": "139a74e2f076b8ad2158d06ef7acd189bfc6f172",
@@ -18,6 +24,141 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-how-register-new-customers.md"
-  }
+    "path": "business-central/sales-how-register-new-customers.md",
+    "description": "Describes how to create a customer card to register information about each new customer or client you sell to.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7",
+        "id": 7,
+        "kind": null
+      },
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "22",
+        "id": 22,
+        "kind": null
+      },
+      {
+        "raw": "33",
+        "id": 33,
+        "kind": null
+      },
+      {
+        "raw": "42",
+        "id": 42,
+        "kind": null
+      },
+      {
+        "raw": "43",
+        "id": 43,
+        "kind": null
+      },
+      {
+        "raw": "367",
+        "id": 367,
+        "kind": null
+      },
+      {
+        "raw": "368",
+        "id": 368,
+        "kind": null
+      },
+      {
+        "raw": "369",
+        "id": 369,
+        "kind": null
+      },
+      {
+        "raw": "461",
+        "id": 461,
+        "kind": null
+      },
+      {
+        "raw": "512",
+        "id": 512,
+        "kind": null
+      },
+      {
+        "raw": "785",
+        "id": 785,
+        "kind": null
+      },
+      {
+        "raw": "1330",
+        "id": 1330,
+        "kind": null
+      },
+      {
+        "raw": "1380",
+        "id": 1380,
+        "kind": null
+      },
+      {
+        "raw": "1381",
+        "id": 1381,
+        "kind": null
+      },
+      {
+        "raw": "1382",
+        "id": 1382,
+        "kind": null
+      },
+      {
+        "raw": "1627",
+        "id": 1627,
+        "kind": null
+      },
+      {
+        "raw": "2107",
+        "id": 2107,
+        "kind": null
+      },
+      {
+        "raw": "7177",
+        "id": 7177,
+        "kind": null
+      },
+      {
+        "raw": "9080",
+        "id": 9080,
+        "kind": null
+      },
+      {
+        "raw": "9081",
+        "id": 9081,
+        "kind": null
+      },
+      {
+        "raw": "9084",
+        "id": 9084,
+        "kind": null
+      },
+      {
+        "raw": "9301",
+        "id": 9301,
+        "kind": null
+      },
+      {
+        "raw": "9305",
+        "id": 9305,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "client",
+      "customer",
+      "credit"
+    ],
+    "ai_usage": null,
+    "words": 969
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "139a74e2f076b8ad2158d06ef7acd189bfc6f172"
 }

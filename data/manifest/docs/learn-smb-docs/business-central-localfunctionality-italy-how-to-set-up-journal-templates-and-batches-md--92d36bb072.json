@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up journal templates and batches",
+  "title": "Set Up Journal Templates and Batches (IT)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.925Z",
+      "blob": "409588e47adb2af972fef77f97085df5d70e0189",
+      "words": 414,
+      "forms": 3
     }
   },
   "input_hash": "409588e47adb2af972fef77f97085df5d70e0189",
@@ -18,6 +24,40 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md",
+    "description": "Learn how the Italian version of Business Central helps EU companies meet the requirement to submit Intrastat reports to the customs office.",
+    "ms_date": "2025-05-22",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12119",
+        "id": 12119,
+        "kind": null
+      },
+      {
+        "raw": "12132",
+        "id": 12132,
+        "kind": null
+      },
+      {
+        "raw": "12140",
+        "id": 12140,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "intrastat reports",
+      "submit intrastat reports",
+      "set up journal templates",
+      "journal templates",
+      "set up journal batches",
+      "journal batches",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 414
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "409588e47adb2af972fef77f97085df5d70e0189"
 }

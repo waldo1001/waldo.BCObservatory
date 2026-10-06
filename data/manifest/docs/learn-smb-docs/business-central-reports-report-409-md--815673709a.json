@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 409",
+  "title": "Purchase Reservation Availability (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-409",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.312Z",
+      "blob": "ad852842c162c3f87bf3f3d36902c7f348008206",
+      "words": 430,
+      "forms": 1
     }
   },
   "input_hash": "ad852842c162c3f87bf3f3d36902c7f348008206",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-409.md"
-  }
+    "path": "business-central/reports/report-409.md",
+    "description": "View the availability of items for shipment on purchase documents, such as return orders.",
+    "ms_date": "2024-10-14",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_409_Primary",
+        "id": 409,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 430
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad852842c162c3f87bf3f3d36902c7f348008206"
 }

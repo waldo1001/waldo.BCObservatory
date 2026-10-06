@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv arrange fields in rows and columns using fixedlayout control",
+  "title": "Arranging Fields in Rows and Columns Using a fixed Control",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.284Z",
+      "blob": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
+      "words": 730,
+      "forms": 0
     }
   },
   "input_hash": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control.md"
-  }
+    "path": "dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control.md",
+    "description": "A fixed control is used to arrange page fields in rows and columns, similar to a matrix-like format, which is typically used to display statistical data.",
+    "ms_date": "2023-02-06",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 730
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7"
 }

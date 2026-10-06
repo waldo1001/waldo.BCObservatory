@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print remittance advice",
+  "title": "Print Remittance Advice [GB]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.034Z",
+      "blob": "44bfd1d37bef189430b2280d56a177042e62be1d",
+      "words": 152,
+      "forms": 1
     }
   },
   "input_hash": "44bfd1d37bef189430b2280d56a177042e62be1d",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md",
+    "description": "You can print remittance advice both before posting a payment journal and subsequent to posting a payment.",
+    "ms_date": "2025-02-19",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "256",
+        "id": 256,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "remittance advice",
+      "payment journal"
+    ],
+    "ai_usage": null,
+    "words": 152
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44bfd1d37bef189430b2280d56a177042e62be1d"
 }

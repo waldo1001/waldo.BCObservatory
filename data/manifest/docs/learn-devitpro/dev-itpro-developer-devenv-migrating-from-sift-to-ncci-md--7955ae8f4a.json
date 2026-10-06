@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv migrating from sift to ncci",
+  "title": "Migrating from SIFT to Nonclustered Columnstore Indexes (NCCIs)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrating-from-sift-to-ncci",
   "published_at": "2026-01-11T11:42:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.670Z",
+      "blob": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5",
+      "words": 243,
+      "forms": 0
     }
   },
   "input_hash": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-migrating-from-sift-to-ncci.md"
-  }
+    "path": "dev-itpro/developer/devenv-migrating-from-sift-to-ncci.md",
+    "description": "Explains how you can change from using SIFT keys to nonclustered columnstore indexes in Business Central tables.",
+    "ms_date": "2022-01-28",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 243
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5"
 }

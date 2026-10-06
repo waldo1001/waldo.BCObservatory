@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "file uploadintostream string string string text instream method",
+  "title": "File.UploadIntoStream(Text, Text, Text, var Text, var InStream) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-uploadintostream-string-string-string-text-instream-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.989Z",
+      "blob": "6ac29792c96f90ec82d17cc45e3c7989d108dfb9",
+      "words": 308,
+      "forms": 0
     }
   },
   "input_hash": "6ac29792c96f90ec82d17cc45e3c7989d108dfb9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/file/file-uploadintostream-string-string-string-text-instream-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/file/file-uploadintostream-string-string-string-text-instream-method.md",
+    "description": "Sends a file from the client computer to the corresponding server.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 308
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ac29792c96f90ec82d17cc45e3c7989d108dfb9"
 }

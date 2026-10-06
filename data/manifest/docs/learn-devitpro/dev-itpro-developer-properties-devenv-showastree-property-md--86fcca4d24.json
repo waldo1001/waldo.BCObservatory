@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv showastree property",
+  "title": "ShowAsTree property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-showastree-property",
   "published_at": "2025-04-24T09:59:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.029Z",
+      "blob": "e60a781358c1e659418da76c2de922cdeea9736b",
+      "words": 192,
+      "forms": 0
     }
   },
   "input_hash": "e60a781358c1e659418da76c2de922cdeea9736b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-showastree-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-showastree-property.md",
+    "description": "Sets the indentation of rows on a List Page to Tree View.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 192
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e60a781358c1e659418da76c2de922cdeea9736b"
 }

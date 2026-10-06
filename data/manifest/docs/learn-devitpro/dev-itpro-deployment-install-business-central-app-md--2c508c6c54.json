@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "install business central app",
+  "title": "Install the Business Central Mobile app",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/install-business-central-app",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.020Z",
+      "blob": "370f8e7e56179218af1a5572a57c025647dc09a7",
+      "words": 507,
+      "forms": 0
     }
   },
   "input_hash": "370f8e7e56179218af1a5572a57c025647dc09a7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/install-business-central-app.md"
-  }
+    "path": "dev-itpro/deployment/install-business-central-app.md",
+    "description": "Learn about prerequisites for using Business Central on-premises on mobile devices.",
+    "ms_date": "2024-01-08",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 507
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "370f8e7e56179218af1a5572a57c025647dc09a7"
 }

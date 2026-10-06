@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv adding a factbox to page",
+  "title": "Adding a FactBox to a page",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
   "published_at": "2025-10-03T11:02:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.879Z",
+      "blob": "846ea4efd81a170bcda86b90fb71173502df579e",
+      "words": 1481,
+      "forms": 0
     }
   },
   "input_hash": "846ea4efd81a170bcda86b90fb71173502df579e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-adding-a-factbox-to-page.md"
-  }
+    "path": "dev-itpro/developer/devenv-adding-a-factbox-to-page.md",
+    "description": "A FactBox is located on the right-most side of a page. This area is used to display related facts about the current record including charts, data from related tables, Notes, and Links.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1481
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "846ea4efd81a170bcda86b90fb71173502df579e"
 }

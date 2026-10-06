@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 20",
+  "title": "Calculate and Post Tax Settlement (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-20",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.199Z",
+      "blob": "ac13049f165dd1243fe2418ebf8f5d60a88b7ed0",
+      "words": 230,
+      "forms": 1
     }
   },
   "input_hash": "ac13049f165dd1243fe2418ebf8f5d60a88b7ed0",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-20.md"
-  }
+    "path": "business-central/reports/report-20.md",
+    "description": "Used at the end of a VAT period to calculate and post the amount payable or receivable for tax filing. Calculates VAT based on posted entries and creates a journal to record the VAT settlement. Typically run monthly or quarterly depending on filing frequency.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_20_Primary",
+        "id": 20,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "tax",
+      "settlement",
+      "reporting",
+      "finance"
+    ],
+    "ai_usage": null,
+    "words": 230
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ac13049f165dd1243fe2418ebf8f5d60a88b7ed0"
 }

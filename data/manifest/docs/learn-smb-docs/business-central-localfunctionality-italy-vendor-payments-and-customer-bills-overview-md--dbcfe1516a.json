@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "vendor payments and customer bills overview",
+  "title": "Vendor Payments Customer Bills Overview [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.964Z",
+      "blob": "820581e0b7f6f068d28406b3946a9cb5476046e8",
+      "words": 233,
+      "forms": 7
     }
   },
   "input_hash": "820581e0b7f6f068d28406b3946a9cb5476046e8",
@@ -18,6 +24,60 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md",
+    "description": "Manage automatic customer bills and vendor payments in the Italian version of Business Central.",
+    "ms_date": "2025-05-23",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "12183",
+        "id": 12183,
+        "kind": null
+      },
+      {
+        "raw": "12188",
+        "id": 12188,
+        "kind": null
+      },
+      {
+        "raw": "12192",
+        "id": 12192,
+        "kind": null
+      },
+      {
+        "raw": "12193",
+        "id": 12193,
+        "kind": null
+      },
+      {
+        "raw": "12194",
+        "id": 12194,
+        "kind": null
+      },
+      {
+        "raw": "12195",
+        "id": 12195,
+        "kind": null
+      },
+      {
+        "raw": "12195",
+        "id": 12195,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "automatic bills",
+      "automatic customer bills",
+      "automatic vendor bills",
+      "SEPA credit transfer",
+      "customer bills",
+      "vendor bills",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 233
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "820581e0b7f6f068d28406b3946a9cb5476046e8"
 }

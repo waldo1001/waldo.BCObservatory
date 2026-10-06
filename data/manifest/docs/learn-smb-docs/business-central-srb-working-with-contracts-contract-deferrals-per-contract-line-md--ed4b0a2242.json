@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "contract deferrals per contract line",
+  "title": "Deferrals per contract line",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line",
   "published_at": "2025-12-05T07:13:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.827Z",
+      "blob": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d",
+      "words": 580,
+      "forms": 1
     }
   },
   "input_hash": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line.md"
-  }
+    "path": "business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line.md",
+    "description": "Control deferral creation per contract line",
+    "ms_date": "2025-12-05",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "8067_Primary",
+        "id": 8067,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 580
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d"
 }

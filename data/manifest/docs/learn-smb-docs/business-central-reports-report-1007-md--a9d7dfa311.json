@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1007",
+  "title": "Project Task Transaction Detail (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1007",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.036Z",
+      "blob": "06f78d6b9c9ce24b93d3ba58ae50f53f8def0a27",
+      "words": 223,
+      "forms": 1
     }
   },
   "input_hash": "06f78d6b9c9ce24b93d3ba58ae50f53f8def0a27",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1007.md"
-  }
+    "path": "business-central/reports/report-1007.md",
+    "description": "Get an overview of posted project tasks, such as resources and items.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1007_Primary",
+        "id": 1007,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 223
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06f78d6b9c9ce24b93d3ba58ae50f53f8def0a27"
 }

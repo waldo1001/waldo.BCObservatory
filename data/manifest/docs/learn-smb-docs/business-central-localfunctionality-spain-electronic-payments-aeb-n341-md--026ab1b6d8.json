@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "electronic payments aeb n341",
+  "title": "Electronic payments – AEB N34.1 - [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.639Z",
+      "blob": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
+      "words": 225,
+      "forms": 0
     }
   },
   "input_hash": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341.md",
+    "description": "Learn how to use electronic payments to pay vendors by exporting payments in the standard AEB N34.1 file format used by banks in Spain.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "AEB N34.1",
+      "electronic payments",
+      "vendor payments",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 225
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9788cdbbea807f8c972a54bf1a2de08522bddd31"
 }

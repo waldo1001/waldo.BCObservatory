@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5872",
+  "title": "BOM Cost Share Distribution (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5872",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.575Z",
+      "blob": "d1be8386458b56a7987b95138bf447771fe7405f",
+      "words": 542,
+      "forms": 1
     }
   },
   "input_hash": "d1be8386458b56a7987b95138bf447771fe7405f",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5872.md"
-  }
+    "path": "business-central/reports/report-5872.md",
+    "description": "This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5872_Primary",
+        "id": 5872,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 542
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d1be8386458b56a7987b95138bf447771fe7405f"
 }

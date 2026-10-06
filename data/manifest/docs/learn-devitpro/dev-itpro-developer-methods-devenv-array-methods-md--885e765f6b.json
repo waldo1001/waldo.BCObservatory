@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv array methods",
+  "title": "Array Data Type and Methods in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-array-methods",
   "published_at": "2026-10-05T10:53:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.157Z",
+      "blob": "38b126447a6b182992ead86220e723a0a112b516",
+      "words": 369,
+      "forms": 0
     }
   },
   "input_hash": "38b126447a6b182992ead86220e723a0a112b516",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods/devenv-array-methods.md"
-  }
+    "path": "dev-itpro/developer/methods/devenv-array-methods.md",
+    "description": "Use arrays in AL for Business Central, including declaration syntax, dimensions, index ranges, size limits, supported element types, and array methods.",
+    "ms_date": "2026-10-05",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 369
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38b126447a6b182992ead86220e723a0a112b516"
 }

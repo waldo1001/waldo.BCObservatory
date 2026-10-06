@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testfilterfield data type",
+  "title": "TestFilterField data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testfilterfield/testfilterfield-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.907Z",
+      "blob": "8c0701212db739a571e0aa9f3166f643e6677e3c",
+      "words": 66,
+      "forms": 0
     }
   },
   "input_hash": "8c0701212db739a571e0aa9f3166f643e6677e3c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testfilterfield/testfilterfield-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testfilterfield/testfilterfield-data-type.md",
+    "description": "Represents the type of a field filter in a test filter on a page or on a request page.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 66
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c0701212db739a571e0aa9f3166f643e6677e3c"
 }

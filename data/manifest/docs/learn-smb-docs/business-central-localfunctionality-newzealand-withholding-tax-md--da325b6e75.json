@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "withholding tax",
+  "title": "Withholding Tax in the New Zealand version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.272Z",
+      "blob": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
+      "words": 576,
+      "forms": 10
     }
   },
   "input_hash": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
@@ -18,6 +24,72 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/NewZealand/withholding-tax.md"
-  }
+    "path": "business-central/LocalFunctionality/NewZealand/withholding-tax.md",
+    "description": "Learn about withholding tax (WHT) scenarios in New Zealand and how to manage them effectively.",
+    "ms_date": "2025-05-07",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "11600",
+        "id": 11600,
+        "kind": null
+      },
+      {
+        "raw": "28040",
+        "id": 28040,
+        "kind": null
+      },
+      {
+        "raw": "28041",
+        "id": 28041,
+        "kind": null
+      },
+      {
+        "raw": "28042",
+        "id": 28042,
+        "kind": null
+      },
+      {
+        "raw": "28043",
+        "id": 28043,
+        "kind": null
+      },
+      {
+        "raw": "28044",
+        "id": 28044,
+        "kind": null
+      },
+      {
+        "raw": "28164",
+        "id": 28164,
+        "kind": null
+      },
+      {
+        "raw": "28165",
+        "id": 28165,
+        "kind": null
+      },
+      {
+        "raw": "28166",
+        "id": 28166,
+        "kind": null
+      },
+      {
+        "raw": "28167",
+        "id": 28167,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "withholding tax scenarios",
+      "BAS submission",
+      "IRD number",
+      "New Zealand version"
+    ],
+    "ai_usage": null,
+    "words": 576
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migration clean data",
+  "title": "Clean data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data",
   "published_at": "2023-08-07T10:40:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.735Z",
+      "blob": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
+      "words": 594,
+      "forms": 0
     }
   },
   "input_hash": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migration-clean-data.md"
-  }
+    "path": "dev-itpro/administration/migration-clean-data.md",
+    "description": "This article discusses tasks to do on data in Business Central on-premises database before you run cloud migration.",
+    "ms_date": "2023-03-24",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 594
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2c29dadb2871c1980f0b2e5ca3645997c314aab"
 }

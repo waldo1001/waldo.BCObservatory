@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1127",
+  "title": "Cost Acctg. Analysis (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1127",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.127Z",
+      "blob": "2bbbe14c7e50d958d96fb515e0836e8c36074c17",
+      "words": 166,
+      "forms": 1
     }
   },
   "input_hash": "2bbbe14c7e50d958d96fb515e0836e8c36074c17",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1127.md"
-  }
+    "path": "business-central/reports/report-1127.md",
+    "description": "Presents a comparison of actual versus expected cost values. Choose the appropriate period and budget version before running. Highlights deviations between budgeted and actual cost performance to inform better forecasting.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1127_Primary",
+        "id": 1127,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "cost accounting",
+      "variance analysis",
+      "budget comparison"
+    ],
+    "ai_usage": null,
+    "words": 166
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bbbe14c7e50d958d96fb515e0836e8c36074c17"
 }

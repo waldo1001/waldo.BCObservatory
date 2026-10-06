@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry error message voting trace",
+  "title": "Analyzing Error Message Vote Telemetry | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace",
   "published_at": "2026-06-02T11:43:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.074Z",
+      "blob": "a413d9fc3f33d329798789f685b0920eab9c9f16",
+      "words": 522,
+      "forms": 0
     }
   },
   "input_hash": "a413d9fc3f33d329798789f685b0920eab9c9f16",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-error-message-voting-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-error-message-voting-trace.md",
+    "description": "Learn about error message vote telemetry in Business Central",
+    "ms_date": "2022-03-22",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 522
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a413d9fc3f33d329798789f685b0920eab9c9f16"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "faqs chat with copilot",
+  "title": "Responsible AI FAQ for Chat with Copilot (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.379Z",
+      "blob": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
+      "words": 1296,
+      "forms": 0
     }
   },
   "input_hash": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/faqs-chat-with-copilot.md"
-  }
+    "path": "business-central/faqs-chat-with-copilot.md",
+    "description": "This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [
+      "copilot",
+      "AI",
+      "chat"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 1296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv httpclient mock outbound calls",
+  "title": "Mock outbound HttpClient web service calls during testing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient-mock-outbound-calls",
   "published_at": "2025-06-02T09:20:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.807Z",
+      "blob": "dac2b19a35128232caf13fd28b6df149ea807391",
+      "words": 728,
+      "forms": 0
     }
   },
   "input_hash": "dac2b19a35128232caf13fd28b6df149ea807391",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-httpclient-mock-outbound-calls.md"
-  }
+    "path": "dev-itpro/developer/devenv-httpclient-mock-outbound-calls.md",
+    "description": "Learn about how to test HttpClient web calls to external services without invoking the live/actual/remote service.",
+    "ms_date": "2025-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 728
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dac2b19a35128232caf13fd28b6df149ea807391"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to setup vat correction local currency",
+  "title": "Czech Local Functionality VAT correction in Local Currency",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.375Z",
+      "blob": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
+      "words": 252,
+      "forms": 0
     }
   },
   "input_hash": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md",
+    "description": "Learn how to use the VAT correction in local currency feature in the Czech version of Business Central.",
+    "ms_date": "2026-03-30",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "VAT",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to split warehouse activity lines",
+  "title": "How to Split Warehouse Activity Lines",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-split-warehouse-activity-lines",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.007Z",
+      "blob": "30f7f5dc6913e0ddcc88f467ca8597eb6b3b57fa",
+      "words": 295,
+      "forms": 0
     }
   },
   "input_hash": "30f7f5dc6913e0ddcc88f467ca8597eb6b3b57fa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-split-warehouse-activity-lines.md"
-  }
+    "path": "business-central/warehouse-how-to-split-warehouse-activity-lines.md",
+    "description": "Learn how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient.",
+    "ms_date": "2023-01-25",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30f7f5dc6913e0ddcc88f467ca8597eb6b3b57fa"
 }

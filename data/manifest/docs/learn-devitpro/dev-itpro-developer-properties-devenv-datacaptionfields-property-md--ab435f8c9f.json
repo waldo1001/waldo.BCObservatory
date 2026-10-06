@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv datacaptionfields property",
+  "title": "DataCaptionFields property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-datacaptionfields-property",
   "published_at": "2025-04-09T12:17:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.065Z",
+      "blob": "38d359250d0252e44ab08b59b65650a3039c1a22",
+      "words": 432,
+      "forms": 0
     }
   },
   "input_hash": "38d359250d0252e44ab08b59b65650a3039c1a22",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-datacaptionfields-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-datacaptionfields-property.md",
+    "description": "Sets the fields that appear to the left of the caption on pages that display the contents of this table.",
+    "ms_date": "2025-04-09",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 432
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38d359250d0252e44ab08b59b65650a3039c1a22"
 }

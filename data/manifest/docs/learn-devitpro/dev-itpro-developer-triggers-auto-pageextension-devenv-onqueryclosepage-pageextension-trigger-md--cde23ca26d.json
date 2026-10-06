@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onqueryclosepage pageextension trigger",
+  "title": "OnQueryClosePage (Page Extension) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/pageextension/devenv-onqueryclosepage-pageextension-trigger",
   "published_at": "2025-08-08T11:57:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.398Z",
+      "blob": "abf041f1bedac889d3ad38394442db3e31879fe0",
+      "words": 211,
+      "forms": 0
     }
   },
   "input_hash": "abf041f1bedac889d3ad38394442db3e31879fe0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/pageextension/devenv-onqueryclosepage-pageextension-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/pageextension/devenv-onqueryclosepage-pageextension-trigger.md",
+    "description": "Runs when a page closes and before the OnClosePage trigger executes.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 211
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "abf041f1bedac889d3ad38394442db3e31879fe0"
 }

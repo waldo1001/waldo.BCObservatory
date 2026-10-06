@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv businessevent attribute",
+  "title": "BusinessEvent attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-businessevent-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.108Z",
+      "blob": "1d50f6349ccef2c5fecdbcebdae26238e63c5f81",
+      "words": 200,
+      "forms": 0
     }
   },
   "input_hash": "1d50f6349ccef2c5fecdbcebdae26238e63c5f81",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-businessevent-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-businessevent-attribute.md",
+    "description": "Specifies that the method is published as a business type event.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 200
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d50f6349ccef2c5fecdbcebdae26238e63c5f81"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmltext writeto text method",
+  "title": "XmlText.WriteTo(var Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmltext/xmltext-writeto-text-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:54.687Z",
+      "blob": "395101e683e50a74e7600e559c57f6ed6f94a3ba",
+      "words": 123,
+      "forms": 0
     }
   },
   "input_hash": "395101e683e50a74e7600e559c57f6ed6f94a3ba",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmltext/xmltext-writeto-text-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmltext/xmltext-writeto-text-method.md",
+    "description": "Serializes and saves the current node to the given variable.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 123
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "395101e683e50a74e7600e559c57f6ed6f94a3ba"
 }

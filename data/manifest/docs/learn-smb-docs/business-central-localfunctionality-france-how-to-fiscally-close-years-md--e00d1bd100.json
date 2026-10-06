@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to fiscally close years",
+  "title": "How to Fiscally Close Years",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-years",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.275Z",
+      "blob": "572c669b667bd309ef7315357489ebd775821653",
+      "words": 210,
+      "forms": 0
     }
   },
   "input_hash": "572c669b667bd309ef7315357489ebd775821653",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-years.md"
-  }
+    "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-years.md",
+    "description": "Learn the process of fiscally closing periods in a fiscal year to prevent further general ledger postings.",
+    "ms_date": "2025-04-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "fiscal closing",
+      "close fiscal period",
+      "close accounting period",
+      "close fiscal year",
+      "French version"
+    ],
+    "ai_usage": null,
+    "words": 210
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "572c669b667bd309ef7315357489ebd775821653"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry extension key vault trace",
+  "title": "App Key Vault Secret Trace Telemetry | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
   "published_at": "2025-09-25T15:24:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.278Z",
+      "blob": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2",
+      "words": 1357,
+      "forms": 0
     }
   },
   "input_hash": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-extension-key-vault-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-extension-key-vault-trace.md",
+    "description": "Learn about app key vault secret trace telemetry in Business Central",
+    "ms_date": "2025-09-25",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 1357
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2"
 }

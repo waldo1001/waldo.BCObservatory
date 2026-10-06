@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse use automated data capture systems adcs",
+  "title": "Use Automated Data Capture Systems (ADCS) foundation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-use-automated-data-capture-systems-adcs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.179Z",
+      "blob": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b",
+      "words": 1026,
+      "forms": 8
     }
   },
   "input_hash": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b",
@@ -18,6 +24,57 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-use-automated-data-capture-systems-adcs.md"
-  }
+    "path": "business-central/warehouse-use-automated-data-capture-systems-adcs.md",
+    "description": "Learn how to use your automatic data capture system (ADCS) to register the movement of items in the warehouse.",
+    "ms_date": "2023-01-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7700",
+        "id": 7700,
+        "kind": null
+      },
+      {
+        "raw": "7703",
+        "id": 7703,
+        "kind": null
+      },
+      {
+        "raw": "7704",
+        "id": 7704,
+        "kind": null
+      },
+      {
+        "raw": "7706",
+        "id": 7706,
+        "kind": null
+      },
+      {
+        "raw": "7707",
+        "id": 7707,
+        "kind": null
+      },
+      {
+        "raw": "7710",
+        "id": 7710,
+        "kind": null
+      },
+      {
+        "raw": "9813",
+        "id": 9813,
+        "kind": null
+      },
+      {
+        "raw": "9814",
+        "id": 9814,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1026
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b"
 }

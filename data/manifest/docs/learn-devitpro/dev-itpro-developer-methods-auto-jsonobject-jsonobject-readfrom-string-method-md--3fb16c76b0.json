@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject readfrom string method",
+  "title": "JsonObject.ReadFrom(Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-readfrom-string-method",
   "published_at": "2026-06-02T11:43:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.963Z",
+      "blob": "916e00ca0aa519efef2fd2b9db0f7382eb9b0737",
+      "words": 186,
+      "forms": 0
     }
   },
   "input_hash": "916e00ca0aa519efef2fd2b9db0f7382eb9b0737",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-readfrom-string-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-readfrom-string-method.md",
+    "description": "Reads the JSON data from the string into a JsonObject variable.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 186
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "916e00ca0aa519efef2fd2b9db0f7382eb9b0737"
 }

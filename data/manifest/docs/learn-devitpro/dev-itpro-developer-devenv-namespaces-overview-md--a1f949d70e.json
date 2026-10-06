@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv namespaces overview",
+  "title": "Namespaces in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview",
   "published_at": "2025-12-08T12:35:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.802Z",
+      "blob": "f54d0819c5a8bffaa4fe7781658629177d82bd45",
+      "words": 803,
+      "forms": 0
     }
   },
   "input_hash": "f54d0819c5a8bffaa4fe7781658629177d82bd45",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-namespaces-overview.md"
-  }
+    "path": "dev-itpro/developer/devenv-namespaces-overview.md",
+    "description": "Namespaces in AL provide a way to organize your code into logical units and avoid naming conflicts.",
+    "ms_date": "2024-03-06",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 803
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f54d0819c5a8bffaa4fe7781658629177d82bd45"
 }

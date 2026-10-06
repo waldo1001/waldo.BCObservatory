@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "mcp overview",
+  "title": "Business Central MCP Server Overview and Setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.665Z",
+      "blob": "53b78a895bf5f382f82fb6f66c91b62912fabc91",
+      "words": 796,
+      "forms": 0
     }
   },
   "input_hash": "53b78a895bf5f382f82fb6f66c91b62912fabc91",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/ai/mcp-overview.md"
-  }
+    "path": "dev-itpro/ai/mcp-overview.md",
+    "description": "Learn how to set up and use the Business Central MCP server to enable AI clients like GitHub Copilot and ChatGPT to interact with your Business Central data.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 796
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53b78a895bf5f382f82fb6f66c91b62912fabc91"
 }

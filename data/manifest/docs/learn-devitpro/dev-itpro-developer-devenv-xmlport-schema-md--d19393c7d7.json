@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv xmlport schema",
+  "title": "Defining an XMLport Schema in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-schema",
   "published_at": "2026-09-02T10:31:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.122Z",
+      "blob": "62ca2a334f86297769b7355aa4c688748db67eab",
+      "words": 464,
+      "forms": 0
     }
   },
   "input_hash": "62ca2a334f86297769b7355aa4c688748db67eab",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-xmlport-schema.md"
-  }
+    "path": "dev-itpro/developer/devenv-xmlport-schema.md",
+    "description": "An XMLport schema determines which data is exported from or imported to Dynamics 365 Business Central database tables and the format and structure of the files used.",
+    "ms_date": "2026-08-24",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 464
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62ca2a334f86297769b7355aa4c688748db67eab"
 }

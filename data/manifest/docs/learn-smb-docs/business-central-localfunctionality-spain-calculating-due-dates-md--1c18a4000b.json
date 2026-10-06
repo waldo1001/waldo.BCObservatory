@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "calculating due dates",
+  "title": "Calculating Due Dates [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates",
   "published_at": "2026-06-24T07:25:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.067Z",
+      "blob": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
+      "words": 613,
+      "forms": 1
     }
   },
   "input_hash": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/calculating-due-dates.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/calculating-due-dates.md",
+    "description": "Learn how to submit an annual report of purchases and sales for payments that were made before or after the due date.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "7000048",
+        "id": 7000048,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "submit annual report",
+      "due date calculation",
+      "payment terms",
+      "overdue payments",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 613
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3"
 }

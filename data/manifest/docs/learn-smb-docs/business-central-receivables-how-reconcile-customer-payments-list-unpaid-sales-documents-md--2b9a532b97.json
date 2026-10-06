@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "receivables how reconcile customer payments list unpaid sales documents",
+  "title": "Apply payments to unpaid sales documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.877Z",
+      "blob": "aa496cd1871ffac6e64c646bbb9fa40026507282",
+      "words": 2338,
+      "forms": 3
     }
   },
   "input_hash": "aa496cd1871ffac6e64c646bbb9fa40026507282",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md"
-  }
+    "path": "business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md",
+    "description": "You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.",
+    "ms_date": "2024-07-08",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1290",
+        "id": 1290,
+        "kind": null
+      },
+      {
+        "raw": "1294",
+        "id": 1294,
+        "kind": null
+      },
+      {
+        "raw": "1287",
+        "id": 1287,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment process",
+      "cash receipts",
+      "customer payment"
+    ],
+    "ai_usage": null,
+    "words": 2338
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aa496cd1871ffac6e64c646bbb9fa40026507282"
 }

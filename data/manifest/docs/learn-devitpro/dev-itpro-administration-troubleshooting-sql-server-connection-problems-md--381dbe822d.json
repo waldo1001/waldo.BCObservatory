@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "troubleshooting sql server connection problems",
+  "title": "Troubleshooting: SQL Server Connection Problems",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshooting-sql-server-connection-problems",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.690Z",
+      "blob": "c170bf4677e572d307a0ecc77ca83622a610b19a",
+      "words": 525,
+      "forms": 0
     }
   },
   "input_hash": "c170bf4677e572d307a0ecc77ca83622a610b19a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/troubleshooting-sql-server-connection-problems.md"
-  }
+    "path": "dev-itpro/administration/troubleshooting-sql-server-connection-problems.md",
+    "description": "Learn how to configure and troubleshoot SQL Server connections to Business Central.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "troubleshooting-general",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 525
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c170bf4677e572d307a0ecc77ca83622a610b19a"
 }

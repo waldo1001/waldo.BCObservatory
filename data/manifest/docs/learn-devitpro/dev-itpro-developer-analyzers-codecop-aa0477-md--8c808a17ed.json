@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0477",
+  "title": "CodeCop Info AA0477",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0477",
   "published_at": "2026-03-11T10:06:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.583Z",
+      "blob": "cfe246eedecc4d5346b0e3a8ed4e34a805c21b2a",
+      "words": 51,
+      "forms": 0
     }
   },
   "input_hash": "cfe246eedecc4d5346b0e3a8ed4e34a805c21b2a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0477.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0477.md",
+    "description": "Using statements are not ordered alphabetically.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 51
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cfe246eedecc4d5346b0e3a8ed4e34a805c21b2a"
 }

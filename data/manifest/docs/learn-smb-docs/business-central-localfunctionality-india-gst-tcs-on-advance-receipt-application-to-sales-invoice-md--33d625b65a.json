@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST TCS on Advance Receipt Application to Sales Invoice",
+  "title": "GST and TCS on Advance Customer Payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.286Z",
+      "blob": "98015d34e382035c772fc9c34b6743130996f03f",
+      "words": 465,
+      "forms": 0
     }
   },
   "input_hash": "98015d34e382035c772fc9c34b6743130996f03f",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md",
+    "description": "Learn how GST and TCS are applied to advance customer payments in Business Central for India, including calculation and posting details.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "TCS",
+      "advance customer payments"
+    ],
+    "ai_usage": null,
+    "words": 465
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "98015d34e382035c772fc9c34b6743130996f03f"
 }

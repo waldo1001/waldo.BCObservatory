@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory valuation powerbi app",
+  "title": "Inventory valuation landing page (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.574Z",
+      "blob": "d90a1e6c91c23a548a6f8d2d21526ce68b57b04f",
+      "words": 270,
+      "forms": 4
     }
   },
   "input_hash": "d90a1e6c91c23a548a6f8d2d21526ce68b57b04f",
@@ -18,6 +24,39 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-valuation-powerbi-app.md"
-  }
+    "path": "business-central/inventory-valuation-powerbi-app.md",
+    "description": "The Inventory Landing Page gives an overview of how the Inventory Report works.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37065_Primary",
+        "id": 37065,
+        "kind": "Primary"
+      },
+      {
+        "raw": "37056",
+        "id": 37056,
+        "kind": null
+      },
+      {
+        "raw": "37057",
+        "id": 37057,
+        "kind": null
+      },
+      {
+        "raw": "37058",
+        "id": 37058,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 270
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d90a1e6c91c23a548a6f8d2d21526ce68b57b04f"
 }

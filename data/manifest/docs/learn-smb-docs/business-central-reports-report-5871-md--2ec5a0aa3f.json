@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5871",
+  "title": "Item - Able to Make (Time) (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5871",
   "published_at": "2026-03-10T10:21:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.614Z",
+      "blob": "25a8e59613cd65b44a9a12927a70c7e3ca20d720",
+      "words": 507,
+      "forms": 1
     }
   },
   "input_hash": "25a8e59613cd65b44a9a12927a70c7e3ca20d720",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5871.md"
-  }
+    "path": "business-central/reports/report-5871.md",
+    "description": "Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5871_Primary",
+        "id": 5871,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 507
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25a8e59613cd65b44a9a12927a70c7e3ca20d720"
 }

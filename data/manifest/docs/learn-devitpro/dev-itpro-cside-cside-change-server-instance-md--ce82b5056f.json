@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "cside change server instance",
+  "title": "Change the Server Instance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-change-server-instance",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.782Z",
+      "blob": "b2a52d8e02f5188b0f79e181531ba5861948c77f",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "b2a52d8e02f5188b0f79e181531ba5861948c77f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/cside/cside-change-server-instance.md"
-  }
+    "path": "dev-itpro/cside/cside-change-server-instance.md",
+    "description": "Change the currently used Server instance by specifying the server instance from a list, or the field in the Database options window.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2a52d8e02f5188b0f79e181531ba5861948c77f"
 }

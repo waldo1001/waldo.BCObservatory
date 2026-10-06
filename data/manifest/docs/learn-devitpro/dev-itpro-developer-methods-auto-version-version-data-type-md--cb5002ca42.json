@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "version data type",
+  "title": "Version data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/version/version-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.112Z",
+      "blob": "7e9f7b064fb5c5cbe40ac0c0a4935c28f046f450",
+      "words": 186,
+      "forms": 0
     }
   },
   "input_hash": "7e9f7b064fb5c5cbe40ac0c0a4935c28f046f450",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/version/version-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/version/version-data-type.md",
+    "description": "Represents a version matching the format: Major.Minor.Build.Revision .",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 186
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e9f7b064fb5c5cbe40ac0c0a4935c28f046f450"
 }

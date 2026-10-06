@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "company hub troubleshooting",
+  "title": "Troubleshooting your company hub",
   "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub-troubleshooting",
   "published_at": "2025-10-10T07:42:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.722Z",
+      "blob": "5cf8bfb542c2dd7b3c1b0f554ca41c5906b31cb1",
+      "words": 329,
+      "forms": 1
     }
   },
   "input_hash": "5cf8bfb542c2dd7b3c1b0f554ca41c5906b31cb1",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/company-hub-troubleshooting.md"
-  }
+    "path": "business-central/company-hub-troubleshooting.md",
+    "description": "Troubleshoot common connectivity and data-refresh issues when using the company hub in Dynamics 365 Business Central to manage multiple companies.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "troubleshooting-general",
+    "search_form": [
+      {
+        "raw": "1151",
+        "id": 1151,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "accountant",
+      "accounting",
+      "troubleshoot",
+      "company hub"
+    ],
+    "ai_usage": null,
+    "words": 329
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5cf8bfb542c2dd7b3c1b0f554ca41c5906b31cb1"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "welcome",
+  "title": "Overview of usage-based billing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/welcome",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.738Z",
+      "blob": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789",
+      "words": 613,
+      "forms": 0
     }
   },
   "input_hash": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/welcome.md"
-  }
+    "path": "business-central/UBB/welcome.md",
+    "description": "Get an overview of the features for usage-based billing.",
+    "ms_date": "2025-05-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 613
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789"
 }

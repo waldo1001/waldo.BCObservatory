@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al240",
+  "title": "Compiler Error AL0240",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al240",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.361Z",
+      "blob": "dae53a4713c6bef5e7e0f87294b7adcf486d3ed9",
+      "words": 103,
+      "forms": 0
     }
   },
   "input_hash": "dae53a4713c6bef5e7e0f87294b7adcf486d3ed9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al240.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al240.md",
+    "description": "The signature of procedure '{0}' does not match the signature required by attribute '{1}': parameter {2} is expected to be of type '{3}' but found type '{4}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 103
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dae53a4713c6bef5e7e0f87294b7adcf486d3ed9"
 }

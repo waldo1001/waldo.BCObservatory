@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "vat reports",
+  "title": "VAT Reports [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.773Z",
+      "blob": "048eabc61f48585d48eee29cad74dc8640baf1e3",
+      "words": 288,
+      "forms": 0
     }
   },
   "input_hash": "048eabc61f48585d48eee29cad74dc8640baf1e3",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/vat-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/vat-reports.md",
+    "description": "Provides detailed information about VAT functionality for transactions involving goods and services in Spain, including imports.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "VAT functionality",
+      "VAT reports",
+      "equivalence charge",
+      "EC percentage",
+      "telematic VAT",
+      "VAT-VIES declaration",
+      "VAT statement",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 288
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "048eabc61f48585d48eee29cad74dc8640baf1e3"
 }

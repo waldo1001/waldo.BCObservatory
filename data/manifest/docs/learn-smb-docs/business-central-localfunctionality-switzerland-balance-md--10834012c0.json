@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "balance",
+  "title": "G/L balance [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.873Z",
+      "blob": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
+      "words": 139,
+      "forms": 1
     }
   },
   "input_hash": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/balance.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/balance.md",
+    "description": "Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.",
+    "ms_date": "2025-04-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11500",
+        "id": 11500,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "provisional balance",
+      "G/L balance",
+      "G/L account balance",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 139
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a"
 }

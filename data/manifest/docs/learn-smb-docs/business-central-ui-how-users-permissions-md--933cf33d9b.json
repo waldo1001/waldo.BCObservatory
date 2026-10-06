@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui how users permissions",
+  "title": "Create users according to licenses",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions",
   "published_at": "2026-07-17T13:46:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.718Z",
+      "blob": "580140854b6b06494455974c61e0088ddbf54dda",
+      "words": 2523,
+      "forms": 19
     }
   },
   "input_hash": "580140854b6b06494455974c61e0088ddbf54dda",
@@ -18,6 +24,116 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-how-users-permissions.md"
-  }
+    "path": "business-central/ui-how-users-permissions.md",
+    "description": "Describes how to add users to Business Central online or on-premises based on licenses.",
+    "ms_date": "2026-07-16",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "119",
+        "id": 119,
+        "kind": null
+      },
+      {
+        "raw": "774_Primary",
+        "id": 774,
+        "kind": "Primary"
+      },
+      {
+        "raw": "6300",
+        "id": 6300,
+        "kind": null
+      },
+      {
+        "raw": "6301",
+        "id": 6301,
+        "kind": null
+      },
+      {
+        "raw": "6302",
+        "id": 6302,
+        "kind": null
+      },
+      {
+        "raw": "8930",
+        "id": 8930,
+        "kind": null
+      },
+      {
+        "raw": "9061",
+        "id": 9061,
+        "kind": null
+      },
+      {
+        "raw": "9062",
+        "id": 9062,
+        "kind": null
+      },
+      {
+        "raw": "9069",
+        "id": 9069,
+        "kind": null
+      },
+      {
+        "raw": "9173",
+        "id": 9173,
+        "kind": null
+      },
+      {
+        "raw": "9800_Primary",
+        "id": 9800,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9807_Primary",
+        "id": 9807,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9808",
+        "id": 9808,
+        "kind": null
+      },
+      {
+        "raw": "9830",
+        "id": 9830,
+        "kind": null
+      },
+      {
+        "raw": "9831",
+        "id": 9831,
+        "kind": null
+      },
+      {
+        "raw": "9838",
+        "id": 9838,
+        "kind": null
+      },
+      {
+        "raw": "9816",
+        "id": 9816,
+        "kind": null
+      },
+      {
+        "raw": "9818",
+        "id": 9818,
+        "kind": null
+      },
+      {
+        "raw": "9874",
+        "id": 9874,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "access",
+      "right",
+      "security"
+    ],
+    "ai_usage": null,
+    "words": 2523
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "580140854b6b06494455974c61e0088ddbf54dda"
 }

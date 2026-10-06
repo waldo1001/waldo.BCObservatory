@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ai copilot troubleshooting",
+  "title": "Troubleshoot Copilot and agent capabilities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-troubleshooting",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.213Z",
+      "blob": "9c4c391a83a11307a38c543bf67db14ced1e3f29",
+      "words": 286,
+      "forms": 0
     }
   },
   "input_hash": "9c4c391a83a11307a38c543bf67db14ced1e3f29",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ai-copilot-troubleshooting.md"
-  }
+    "path": "business-central/ai-copilot-troubleshooting.md",
+    "description": "Learn how to fix common issues that you might encounter while working with Copilot and agent capabilities in Business Central.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "troubleshooting",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 286
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c4c391a83a11307a38c543bf67db14ced1e3f29"
 }

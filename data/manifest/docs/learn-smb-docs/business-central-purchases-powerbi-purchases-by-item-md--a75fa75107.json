@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchases powerbi purchases by item",
+  "title": "Purchases by Item (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.976Z",
+      "blob": "5320af27820999ae1b3b2f37f88125b28a028b1c",
+      "words": 254,
+      "forms": 1
     }
   },
   "input_hash": "5320af27820999ae1b3b2f37f88125b28a028b1c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchases-powerbi-purchases-by-item.md"
-  }
+    "path": "business-central/purchases-powerbi-purchases-by-item.md",
+    "description": "The Purchases by Item report gives a clear picture of your organization's item purchases.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37016_Primary",
+        "id": 37016,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 254
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5320af27820999ae1b3b2f37f88125b28a028b1c"
 }

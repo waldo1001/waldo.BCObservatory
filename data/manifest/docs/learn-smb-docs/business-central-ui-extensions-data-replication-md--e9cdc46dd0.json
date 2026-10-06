@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions data replication",
+  "title": "Cloud Migration Extensions for Migrating to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-data-replication",
   "published_at": "2026-04-08T06:42:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.235Z",
+      "blob": "ede12c66b4bd34cf7f583e853db3d87c21635a04",
+      "words": 231,
+      "forms": 12
     }
   },
   "input_hash": "ede12c66b4bd34cf7f583e853db3d87c21635a04",
@@ -18,6 +24,84 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-data-replication.md"
-  }
+    "path": "business-central/ui-extensions-data-replication.md",
+    "description": "Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud.",
+    "ms_date": "2026-04-08",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "4021",
+        "id": 4021,
+        "kind": null
+      },
+      {
+        "raw": "4026",
+        "id": 4026,
+        "kind": null
+      },
+      {
+        "raw": "4031",
+        "id": 4031,
+        "kind": null
+      },
+      {
+        "raw": "4090",
+        "id": 4090,
+        "kind": null
+      },
+      {
+        "raw": "4091",
+        "id": 4091,
+        "kind": null
+      },
+      {
+        "raw": "4092",
+        "id": 4092,
+        "kind": null
+      },
+      {
+        "raw": "4093",
+        "id": 4093,
+        "kind": null
+      },
+      {
+        "raw": "4094",
+        "id": 4094,
+        "kind": null
+      },
+      {
+        "raw": "4095",
+        "id": 4095,
+        "kind": null
+      },
+      {
+        "raw": "4096",
+        "id": 4096,
+        "kind": null
+      },
+      {
+        "raw": "4097",
+        "id": 4097,
+        "kind": null
+      },
+      {
+        "raw": "40027",
+        "id": 40027,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "app",
+      "add-in",
+      "manifest",
+      "customize",
+      "import",
+      "implement"
+    ],
+    "ai_usage": null,
+    "words": 231
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ede12c66b4bd34cf7f583e853db3d87c21635a04"
 }

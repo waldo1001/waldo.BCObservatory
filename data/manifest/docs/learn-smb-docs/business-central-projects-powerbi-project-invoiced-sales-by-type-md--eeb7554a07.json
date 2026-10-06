@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "projects powerbi project invoiced sales by type",
+  "title": "Project Invoiced Sales by Type (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.291Z",
+      "blob": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
+      "words": 188,
+      "forms": 1
     }
   },
   "input_hash": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/projects-powerbi-project-invoiced-sales-by-type.md"
-  }
+    "path": "business-central/projects-powerbi-project-invoiced-sales-by-type.md",
+    "description": "The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.",
+    "ms_date": "2025-09-25",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37038_Primary",
+        "id": 37038,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 188
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98"
 }

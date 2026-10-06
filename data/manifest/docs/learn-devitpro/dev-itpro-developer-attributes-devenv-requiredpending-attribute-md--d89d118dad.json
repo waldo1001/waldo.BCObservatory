@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv requiredpending attribute",
+  "title": "RequiredPending attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-requiredpending-attribute",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.130Z",
+      "blob": "e1393d6418ed2d92bd43cb80d3e58021f511b57f",
+      "words": 488,
+      "forms": 0
     }
   },
   "input_hash": "e1393d6418ed2d92bd43cb80d3e58021f511b57f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-requiredpending-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-requiredpending-attribute.md",
+    "description": "Specifies that the annotated method will be required.",
+    "ms_date": "2026-08-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 488
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1393d6418ed2d92bd43cb80d3e58021f511b57f"
 }

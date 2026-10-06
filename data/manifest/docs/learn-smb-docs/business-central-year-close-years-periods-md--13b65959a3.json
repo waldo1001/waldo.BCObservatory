@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "year close years periods",
+  "title": "Close fiscal years and accounting periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods",
   "published_at": "2025-05-06T19:34:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.725Z",
+      "blob": "67515d7c3512af03e52b6519333f7e90595e344d",
+      "words": 271,
+      "forms": 1
     }
   },
   "input_hash": "67515d7c3512af03e52b6519333f7e90595e344d",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/year-close-years-periods.md"
-  }
+    "path": "business-central/year-close-years-periods.md",
+    "description": "Outlines the tasks to close a fiscal year or an accounting period, such as ensuring documents and journals are posted and verifying bank balances.",
+    "ms_date": "2024-08-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "100",
+        "id": 100,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "year closing",
+      "close accounting period",
+      "close fiscal year",
+      "bank account detailed trial balance"
+    ],
+    "ai_usage": null,
+    "words": 271
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67515d7c3512af03e52b6519333f7e90595e344d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui role explorer",
+  "title": "Finding Pages and Reports with the Role Explorer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer",
   "published_at": "2026-06-12T06:48:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.813Z",
+      "blob": "b9a002e9319a8f62a06d9ea03b7afc5737668996",
+      "words": 909,
+      "forms": 5
     }
   },
   "input_hash": "b9a002e9319a8f62a06d9ea03b7afc5737668996",
@@ -18,6 +24,46 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-role-explorer.md"
-  }
+    "path": "business-central/ui-role-explorer.md",
+    "description": "You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.",
+    "ms_date": "2026-06-12",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "RoleExplorer",
+        "id": null,
+        "kind": "RoleExplorer"
+      },
+      {
+        "raw": "9020",
+        "id": 9020,
+        "kind": null
+      },
+      {
+        "raw": "9022",
+        "id": 9022,
+        "kind": null
+      },
+      {
+        "raw": "9027",
+        "id": 9027,
+        "kind": null
+      },
+      {
+        "raw": "9024",
+        "id": 9024,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "role explorer",
+      "find features",
+      "navigate"
+    ],
+    "ai_usage": null,
+    "words": 909
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b9a002e9319a8f62a06d9ea03b7afc5737668996"
 }

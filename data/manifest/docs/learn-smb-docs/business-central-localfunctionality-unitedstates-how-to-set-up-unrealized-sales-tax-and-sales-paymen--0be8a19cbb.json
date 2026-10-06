@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up unrealized sales tax and sales payment discounts",
+  "title": "Unrealized sales tax and sales payment discounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.068Z",
+      "blob": "ee59062bb06735debc4487e8f05587e7c8ad6011",
+      "words": 32,
+      "forms": 5
     }
   },
   "input_hash": "ee59062bb06735debc4487e8f05587e7c8ad6011",
@@ -18,6 +24,45 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md",
+    "description": "You can use the General Ledger Setup page to set up unrealized sales tax in the US version.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "315",
+        "id": 315,
+        "kind": null
+      },
+      {
+        "raw": "466",
+        "id": 466,
+        "kind": null
+      },
+      {
+        "raw": "467",
+        "id": 467,
+        "kind": null
+      },
+      {
+        "raw": "468",
+        "id": 468,
+        "kind": null
+      },
+      {
+        "raw": "469",
+        "id": 469,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "unrealized sales tax",
+      "sales payment discounts"
+    ],
+    "ai_usage": null,
+    "words": 32
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee59062bb06735debc4487e8f05587e7c8ad6011"
 }

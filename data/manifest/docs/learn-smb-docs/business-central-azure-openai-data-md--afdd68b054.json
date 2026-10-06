@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "azure openai data",
+  "title": "Azure OpenAI Service and Business Central data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/azure-openai-data",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.245Z",
+      "blob": "181e55564d7e8d22ed1c1f8a95f02a924bb00be7",
+      "words": 558,
+      "forms": 0
     }
   },
   "input_hash": "181e55564d7e8d22ed1c1f8a95f02a924bb00be7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/azure-openai-data.md"
-  }
+    "path": "business-central/azure-openai-data.md",
+    "description": "Understand how Azure OpenAI Service processes Business Central data when using Copilot. Learn security, privacy, and compliance aspects.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 558
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "181e55564d7e8d22ed1c1f8a95f02a924bb00be7"
 }

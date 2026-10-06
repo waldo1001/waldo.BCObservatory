@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory how import item pictures",
+  "title": "Import Multiple Item Pictures",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-import-item-pictures",
   "published_at": "2026-01-19T11:06:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.512Z",
+      "blob": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7",
+      "words": 342,
+      "forms": 2
     }
   },
   "input_hash": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-how-import-item-pictures.md"
-  }
+    "path": "business-central/inventory-how-import-item-pictures.md",
+    "description": "To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.",
+    "ms_date": "2026-01-09",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      },
+      {
+        "raw": "461",
+        "id": 461,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "product",
+      "image"
+    ],
+    "ai_usage": null,
+    "words": 342
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2399c61788bb05114b6181c1af05c8fcbbfcd1e7"
 }

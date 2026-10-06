@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how setup fault reporting",
+  "title": "Set up fault reporting in Service Management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-fault-reporting",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.428Z",
+      "blob": "b3e5ee0b46e756f0b0a190ddbd6b1eca074ac522",
+      "words": 503,
+      "forms": 0
     }
   },
   "input_hash": "b3e5ee0b46e756f0b0a190ddbd6b1eca074ac522",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-setup-fault-reporting.md"
-  }
+    "path": "business-central/service-how-setup-fault-reporting.md",
+    "description": "Set up fault reporting to standardize how you record faults, symptoms, reasons, and resolutions for service items using fault codes and related codes.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "fault reporting",
+      "fault codes",
+      "symptom codes",
+      "fault area codes",
+      "fault reason codes",
+      "service management"
+    ],
+    "ai_usage": null,
+    "words": 503
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b3e5ee0b46e756f0b0a190ddbd6b1eca074ac522"
 }

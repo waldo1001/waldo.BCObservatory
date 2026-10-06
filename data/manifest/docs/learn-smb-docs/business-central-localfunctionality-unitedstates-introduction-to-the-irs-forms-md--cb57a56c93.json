@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "introduction to the irs forms",
+  "title": "Introduction to the IRS 1099 tax forms [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms",
   "published_at": "2026-02-04T17:33:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.380Z",
+      "blob": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
+      "words": 502,
+      "forms": 4
     }
   },
   "input_hash": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md",
+    "description": "Discover the purposes and methods for using IRS 1099 Tax Forms in the US.",
+    "ms_date": "2026-02-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "10030",
+        "id": 10030,
+        "kind": null
+      },
+      {
+        "raw": "10031",
+        "id": 10031,
+        "kind": null
+      },
+      {
+        "raw": "10036",
+        "id": 10036,
+        "kind": null
+      },
+      {
+        "raw": "10037",
+        "id": 10037,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1099",
+      "IRS",
+      "tax"
+    ],
+    "ai_usage": null,
+    "words": 502
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e9c8d71adc7f7939fbba8546d203142d03b3499d"
 }

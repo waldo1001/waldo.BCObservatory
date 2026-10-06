@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create delivery reminders manually",
+  "title": "How to create delivery reminders manually [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.900Z",
+      "blob": "cd9287b0360b29754aa3e4992f1d829f68cbcc7a",
+      "words": 45,
+      "forms": 0
     }
   },
   "input_hash": "cd9287b0360b29754aa3e4992f1d829f68cbcc7a",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually.md",
+    "description": "Learn how to manually create delivery reminders in Business Central for undelivered purchases in the Swiss version.",
+    "ms_date": "2025-04-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "create delivery reminders",
+      "undelivered purchases",
+      "manual delivery reminders",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 45
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd9287b0360b29754aa3e4992f1d829f68cbcc7a"
 }

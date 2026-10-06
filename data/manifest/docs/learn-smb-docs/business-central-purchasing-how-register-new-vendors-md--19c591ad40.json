@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how register new vendors",
+  "title": "Register a new vendor",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.177Z",
+      "blob": "d763642cca73ee7178811aecf826650715c3341a",
+      "words": 1161,
+      "forms": 12
     }
   },
   "input_hash": "d763642cca73ee7178811aecf826650715c3341a",
@@ -18,6 +24,88 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-register-new-vendors.md"
-  }
+    "path": "business-central/purchasing-how-register-new-vendors.md",
+    "description": "Learn how to register vendors, save vendor cards as templates, and set up vendor-specific number series for self-billed purchase invoices.",
+    "ms_date": "2026-08-26",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_26",
+        "id": 26,
+        "kind": "Primary"
+      },
+      {
+        "raw": "27",
+        "id": 27,
+        "kind": null
+      },
+      {
+        "raw": "34",
+        "id": 34,
+        "kind": null
+      },
+      {
+        "raw": "456",
+        "id": 456,
+        "kind": null
+      },
+      {
+        "raw": "457",
+        "id": 457,
+        "kind": null
+      },
+      {
+        "raw": "460",
+        "id": 460,
+        "kind": null
+      },
+      {
+        "raw": "461",
+        "id": 461,
+        "kind": null
+      },
+      {
+        "raw": "786",
+        "id": 786,
+        "kind": null
+      },
+      {
+        "raw": "1379",
+        "id": 1379,
+        "kind": null
+      },
+      {
+        "raw": "1385",
+        "id": 1385,
+        "kind": null
+      },
+      {
+        "raw": "1386",
+        "id": 1386,
+        "kind": null
+      },
+      {
+        "raw": "1628",
+        "id": 1628,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "supplier",
+      "register vendor",
+      "vendor card",
+      "vendor template",
+      "create vendor",
+      "add vendor",
+      "new vendor",
+      "self-billing",
+      "self-billed invoice",
+      "vendor number series"
+    ],
+    "ai_usage": null,
+    "words": 1161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d763642cca73ee7178811aecf826650715c3341a"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1316",
+  "title": "Customer Statement (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1316",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.161Z",
+      "blob": "676c26ceb4d64dad227acf04bce5606ded43d238",
+      "words": 602,
+      "forms": 1
     }
   },
   "input_hash": "676c26ceb4d64dad227acf04bce5606ded43d238",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1316.md"
-  }
+    "path": "business-central/reports/report-1316.md",
+    "description": "Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1316_Primary",
+        "id": 1316,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 602
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "676c26ceb4d64dad227acf04bce5606ded43d238"
 }

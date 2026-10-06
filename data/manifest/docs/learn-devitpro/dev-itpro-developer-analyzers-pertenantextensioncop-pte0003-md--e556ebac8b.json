@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "pertenantextensioncop pte0003",
+  "title": "PerTenantExtensionCop Error PTE0003",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0003",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.843Z",
+      "blob": "f48fa93e2adaa0658adfc94cf58e2ddda5aed4df",
+      "words": 81,
+      "forms": 0
     }
   },
   "input_hash": "f48fa93e2adaa0658adfc94cf58e2ddda5aed4df",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0003.md"
-  }
+    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0003.md",
+    "description": "Procedures must not subscribe to CompanyOpen events because it can increase the login time for Dynamics 365 Business Central.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 81
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f48fa93e2adaa0658adfc94cf58e2ddda5aed4df"
 }

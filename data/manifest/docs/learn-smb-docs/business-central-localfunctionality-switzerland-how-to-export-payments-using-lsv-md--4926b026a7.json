@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to export payments using lsv",
+  "title": "Export Payments Using LSV [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.904Z",
+      "blob": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
+      "words": 188,
+      "forms": 5
     }
   },
   "input_hash": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md",
+    "description": "Learn how to export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.",
+    "ms_date": "2025-04-28",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "3010830",
+        "id": 3010830,
+        "kind": null
+      },
+      {
+        "raw": "3010831",
+        "id": 3010831,
+        "kind": null
+      },
+      {
+        "raw": "3010832",
+        "id": 3010832,
+        "kind": null
+      },
+      {
+        "raw": "3010834",
+        "id": 3010834,
+        "kind": null
+      },
+      {
+        "raw": "3010835",
+        "id": 3010835,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "LSV files",
+      "export LSV files",
+      "write LSV files",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 188
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5"
 }

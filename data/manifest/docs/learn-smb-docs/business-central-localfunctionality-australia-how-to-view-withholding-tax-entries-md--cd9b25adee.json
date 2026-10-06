@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to view withholding tax entries",
+  "title": "View Withholding Tax Entries [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.805Z",
+      "blob": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
+      "words": 138,
+      "forms": 1
     }
   },
   "input_hash": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries.md",
+    "description": "In the Australian version, view entries that are posted with withholding tax (WHT) for a specified general ledger register.",
+    "ms_date": "2025-03-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "28043",
+        "id": 28043,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "withholding tax",
+      "WHT",
+      "general ledger register",
+      "WHT entry",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 138
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c132866e7ce50fde96acf2b702e6844e55a7dcf"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payments in cash",
+  "title": "Payments in Cash",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-in-cash",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.744Z",
+      "blob": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
+      "words": 218,
+      "forms": 0
     }
   },
   "input_hash": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/payments-in-cash.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/payments-in-cash.md",
+    "description": "Spanish companies must submit an annual summary for each customer if cash payments exceed EUR 6,000.00.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "annual summary",
+      "payment summary",
+      "reporting payments",
+      "reporting payments in cash",
+      "applying payments",
+      "340 payments",
+      "cash declaration",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 218
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec"
 }

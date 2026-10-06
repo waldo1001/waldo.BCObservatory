@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "file view method",
+  "title": "File.View(Text [, Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-view-method",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.597Z",
+      "blob": "099fca7844614c67dba9382361819d9e010561a1",
+      "words": 301,
+      "forms": 0
     }
   },
   "input_hash": "099fca7844614c67dba9382361819d9e010561a1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/file/file-view-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/file/file-view-method.md",
+    "description": "Opens a file from server computer on the client computer in preview mode.",
+    "ms_date": "2025-04-15",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 301
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "099fca7844614c67dba9382361819d9e010561a1"
 }

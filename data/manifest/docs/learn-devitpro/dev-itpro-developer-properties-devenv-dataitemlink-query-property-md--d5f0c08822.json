@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv dataitemlink query property",
+  "title": "DataItemLink Property for Queries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-query-property",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.901Z",
+      "blob": "dad0efc6f21f36ae0cb774ecbf44074f54961996",
+      "words": 233,
+      "forms": 0
     }
   },
   "input_hash": "dad0efc6f21f36ae0cb774ecbf44074f54961996",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-dataitemlink-query-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-dataitemlink-query-property.md",
+    "description": "Learn how the DataItemLink property joins query data items by matching fields in their source tables in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 233
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dad0efc6f21f36ae0cb774ecbf44074f54961996"
 }

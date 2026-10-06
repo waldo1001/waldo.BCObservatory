@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "al tool build",
+  "title": "Build AL project - al_build",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-build",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.777Z",
+      "blob": "e6af4db3145a1d088865b8f8a9a15403d84ffc71",
+      "words": 497,
+      "forms": 0
     }
   },
   "input_hash": "e6af4db3145a1d088865b8f8a9a15403d84ffc71",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/al-agent-tools/al-tool-build.md"
-  }
+    "path": "dev-itpro/developer/al-agent-tools/al-tool-build.md",
+    "description": "Learn about the al_build tool available for AL development, including how to use it in Visual Studio Code with GitHub Copilot and through the AL MCP Server for headless environments and CI/CD pipelines.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 497
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6af4db3145a1d088865b8f8a9a15403d84ffc71"
 }

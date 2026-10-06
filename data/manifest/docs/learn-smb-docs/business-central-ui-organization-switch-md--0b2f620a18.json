@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui organization switch",
+  "title": "Switching to Another Company or Environment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch",
   "published_at": "2026-05-05T03:08:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.967Z",
+      "blob": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
+      "words": 901,
+      "forms": 15
     }
   },
   "input_hash": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
@@ -18,6 +24,97 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-organization-switch.md"
-  }
+    "path": "business-central/ui-organization-switch.md",
+    "description": "If you do work for multiple organizations, you can quickly switch between the environments and companies.",
+    "ms_date": "2024-04-24",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9020",
+        "id": 9020,
+        "kind": null
+      },
+      {
+        "raw": "9022",
+        "id": 9022,
+        "kind": null
+      },
+      {
+        "raw": "9026",
+        "id": 9026,
+        "kind": null
+      },
+      {
+        "raw": "9027",
+        "id": 9027,
+        "kind": null
+      },
+      {
+        "raw": "9030",
+        "id": 9030,
+        "kind": null
+      },
+      {
+        "raw": "9000",
+        "id": 9000,
+        "kind": null
+      },
+      {
+        "raw": "9009",
+        "id": 9009,
+        "kind": null
+      },
+      {
+        "raw": "9004",
+        "id": 9004,
+        "kind": null
+      },
+      {
+        "raw": "9005",
+        "id": 9005,
+        "kind": null
+      },
+      {
+        "raw": "9024",
+        "id": 9024,
+        "kind": null
+      },
+      {
+        "raw": "9006",
+        "id": 9006,
+        "kind": null
+      },
+      {
+        "raw": "9007",
+        "id": 9007,
+        "kind": null
+      },
+      {
+        "raw": "9010",
+        "id": 9010,
+        "kind": null
+      },
+      {
+        "raw": "9016",
+        "id": 9016,
+        "kind": null
+      },
+      {
+        "raw": "9017",
+        "id": 9017,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "environments",
+      "companies",
+      "tenants",
+      "organization"
+    ],
+    "ai_usage": null,
+    "words": 901
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0b4041fe2610510654bdb2c2e36113040bfcfeea"
 }

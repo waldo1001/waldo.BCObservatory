@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "api get environments",
+  "title": "Get a List of Business Central Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments",
   "published_at": "2025-12-12T08:45:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.779Z",
+      "blob": "305c19c8715b1b97c8fee92d30e849ebec934ef6",
+      "words": 117,
+      "forms": 0
     }
   },
   "input_hash": "305c19c8715b1b97c8fee92d30e849ebec934ef6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/api-get-environments.md"
-  }
+    "path": "dev-itpro/webservices/api-get-environments.md",
+    "description": "Describing how to get a list of Business Central environments when working with APIs.",
+    "ms_date": "2025-12-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 117
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "305c19c8715b1b97c8fee92d30e849ebec934ef6"
 }

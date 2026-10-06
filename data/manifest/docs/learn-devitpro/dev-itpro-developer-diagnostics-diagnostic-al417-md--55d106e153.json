@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al417",
+  "title": "Compiler Error AL0417",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al417",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:44.021Z",
+      "blob": "d2c637f304d3eae1ca76bb84456770c5f182eea1",
+      "words": 45,
+      "forms": 0
     }
   },
   "input_hash": "d2c637f304d3eae1ca76bb84456770c5f182eea1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al417.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al417.md",
+    "description": "Control add-in '{0}' not found.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 45
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2c637f304d3eae1ca76bb84456770c5f182eea1"
 }

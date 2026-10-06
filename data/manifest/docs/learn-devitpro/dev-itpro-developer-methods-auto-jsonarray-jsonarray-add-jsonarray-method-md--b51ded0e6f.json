@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonarray add jsonarray method",
+  "title": "JsonArray.Add(JsonArray) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-add-jsonarray-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.537Z",
+      "blob": "aaed3b19f9fa0e04f809135a18ccc508b63ba1f2",
+      "words": 74,
+      "forms": 0
     }
   },
   "input_hash": "aaed3b19f9fa0e04f809135a18ccc508b63ba1f2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-add-jsonarray-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-add-jsonarray-method.md",
+    "description": "Adds a new value at the end of the JsonArray.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 74
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aaed3b19f9fa0e04f809135a18ccc508b63ba1f2"
 }

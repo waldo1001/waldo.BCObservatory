@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service setup service",
+  "title": "Setting up service management | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-setup-service",
   "published_at": "2026-07-17T13:46:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.709Z",
+      "blob": "671c691310df754db688acfe5044fbd8030d07cf",
+      "words": 444,
+      "forms": 0
     }
   },
   "input_hash": "671c691310df754db688acfe5044fbd8030d07cf",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-setup-service.md"
-  }
+    "path": "business-central/service-setup-service.md",
+    "description": "Overview of tasks to set up Service Management to suit the way that your organizations manages its services.",
+    "ms_date": "2026-07-16",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "service",
+      "service items",
+      "repairs",
+      "maintenance",
+      "fix"
+    ],
+    "ai_usage": null,
+    "words": 444
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "671c691310df754db688acfe5044fbd8030d07cf"
 }

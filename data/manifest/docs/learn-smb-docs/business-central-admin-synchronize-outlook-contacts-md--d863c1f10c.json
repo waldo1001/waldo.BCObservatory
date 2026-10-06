@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin synchronize outlook contacts",
+  "title": "Synchronize Contacts in Business Central with Contacts in Microsoft Outlook (legacy)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-synchronize-outlook-contacts",
   "published_at": "2026-03-16T07:40:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.771Z",
+      "blob": "234ed4031e46b54e55da5824606342db6e4275f0",
+      "words": 645,
+      "forms": 14
     }
   },
   "input_hash": "234ed4031e46b54e55da5824606342db6e4275f0",
@@ -18,6 +24,90 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-synchronize-outlook-contacts.md"
-  }
+    "path": "business-central/admin-synchronize-outlook-contacts.md",
+    "description": "This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "6700",
+        "id": 6700,
+        "kind": null
+      },
+      {
+        "raw": "5320",
+        "id": 5320,
+        "kind": null
+      },
+      {
+        "raw": "5300",
+        "id": 5300,
+        "kind": null
+      },
+      {
+        "raw": "5301",
+        "id": 5301,
+        "kind": null
+      },
+      {
+        "raw": "5302",
+        "id": 5302,
+        "kind": null
+      },
+      {
+        "raw": "5303",
+        "id": 5303,
+        "kind": null
+      },
+      {
+        "raw": "5304",
+        "id": 5304,
+        "kind": null
+      },
+      {
+        "raw": "5305",
+        "id": 5305,
+        "kind": null
+      },
+      {
+        "raw": "5306",
+        "id": 5306,
+        "kind": null
+      },
+      {
+        "raw": "5307",
+        "id": 5307,
+        "kind": null
+      },
+      {
+        "raw": "5308",
+        "id": 5308,
+        "kind": null
+      },
+      {
+        "raw": "5309",
+        "id": 5309,
+        "kind": null
+      },
+      {
+        "raw": "5310",
+        "id": 5310,
+        "kind": null
+      },
+      {
+        "raw": "5311",
+        "id": 5311,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "contacts",
+      "Microsoft 365"
+    ],
+    "ai_usage": null,
+    "words": 645
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "234ed4031e46b54e55da5824606342db6e4275f0"
 }

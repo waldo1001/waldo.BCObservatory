@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "faq win cli",
+  "title": "FAQ about Windows Client and Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/faq-win-cli",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.561Z",
+      "blob": "31731c1c2f901fbc6faba977d393cebe8db74a15",
+      "words": 978,
+      "forms": 0
     }
   },
   "input_hash": "31731c1c2f901fbc6faba977d393cebe8db74a15",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/faq-win-cli.md"
-  }
+    "path": "dev-itpro/faq-win-cli.md",
+    "description": "Get answers to why the Windows client is no longer supported with Business Central.",
+    "ms_date": "2024-12-30",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 978
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31731c1c2f901fbc6faba977d393cebe8db74a15"
 }

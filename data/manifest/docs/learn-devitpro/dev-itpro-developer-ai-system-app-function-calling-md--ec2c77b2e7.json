@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "ai system app function calling",
+  "title": "Function calling in AI",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-function-calling",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.716Z",
+      "blob": "9209642bdb39e73d8d529ade7f5ca629ba93acbc",
+      "words": 484,
+      "forms": 0
     }
   },
   "input_hash": "9209642bdb39e73d8d529ade7f5ca629ba93acbc",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/ai-system-app-function-calling.md"
-  }
+    "path": "dev-itpro/developer/ai-system-app-function-calling.md",
+    "description": "Learn how to call functions in Azure OpenAI.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 484
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9209642bdb39e73d8d529ade7f5ca629ba93acbc"
 }

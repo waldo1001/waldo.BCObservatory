@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to define accounting periods for straight line depreciation of fixed assets",
+  "title": "Straight-Line Depreciation of Fixed Assets in the UK",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.019Z",
+      "blob": "0621ec07b3496cac6980dea7e3eeace8afa341c5",
+      "words": 292,
+      "forms": 3
     }
   },
   "input_hash": "0621ec07b3496cac6980dea7e3eeace8afa341c5",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md",
+    "description": "Define 13 accounting periods to calculate straight-line depreciation in the UK version. Calculate daily depreciation and distribute it across these periods appropriately.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5610",
+        "id": 5610,
+        "kind": null
+      },
+      {
+        "raw": "5611",
+        "id": 5611,
+        "kind": null
+      },
+      {
+        "raw": "5619",
+        "id": 5619,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "straight line depreciation",
+      "fixed assets"
+    ],
+    "ai_usage": null,
+    "words": 292
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0621ec07b3496cac6980dea7e3eeace8afa341c5"
 }

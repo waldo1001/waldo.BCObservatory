@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print vendor payments list reports",
+  "title": "Print vendor payments list reports in the German version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.412Z",
+      "blob": "b75c39bcbccf9e286fccfb5909364059aa6a4fde",
+      "words": 217,
+      "forms": 0
     }
   },
   "input_hash": "b75c39bcbccf9e286fccfb5909364059aa6a4fde",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md",
+    "description": "The Vendor Payments List report lists payments for each vendor in the German version. It can sort payments chronologically or by vendor.",
+    "ms_date": "2025-03-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "vendor payments list",
+      "sort payments chronologically",
+      "sort payments by vendor",
+      "vendor payments list report"
+    ],
+    "ai_usage": null,
+    "words": 217
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b75c39bcbccf9e286fccfb5909364059aa6a4fde"
 }

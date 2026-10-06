@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details searching for dimension combinations",
+  "title": "Design details - Searching for dimension combinations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-searching-for-dimension-combinations",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.705Z",
+      "blob": "111933310abd9385e6c653954663693a553dccc8",
+      "words": 436,
+      "forms": 0
     }
   },
   "input_hash": "111933310abd9385e6c653954663693a553dccc8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-searching-for-dimension-combinations.md"
-  }
+    "path": "business-central/design-details-searching-for-dimension-combinations.md",
+    "description": "When you close a page after you edit a set of dimensions, Business Central evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 436
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "111933310abd9385e6c653954663693a553dccc8"
 }

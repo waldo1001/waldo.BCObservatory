@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "preview environments",
+  "title": "Prepare for Major Updates with Preview Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments",
   "published_at": "2026-06-23T07:40:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.094Z",
+      "blob": "d01c10e597f1ab25ddd86595cdf26180fce4cddd",
+      "words": 1067,
+      "forms": 0
     }
   },
   "input_hash": "d01c10e597f1ab25ddd86595cdf26180fce4cddd",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/preview-environments.md"
-  }
+    "path": "dev-itpro/administration/preview-environments.md",
+    "description": "Learn how to use preview sandboxes to help prepare for the next major update of Business Central online.",
+    "ms_date": "2025-11-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "update"
+    ],
+    "ai_usage": null,
+    "words": 1067
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d01c10e597f1ab25ddd86595cdf26180fce4cddd"
 }

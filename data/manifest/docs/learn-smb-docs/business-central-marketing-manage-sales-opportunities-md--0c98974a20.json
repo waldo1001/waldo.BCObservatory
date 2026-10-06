@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing manage sales opportunities",
+  "title": "Manage sales opportunities and leads",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.595Z",
+      "blob": "5e24a7639f70309bd6ca6b17625c895d488a76a3",
+      "words": 160,
+      "forms": 0
     }
   },
   "input_hash": "5e24a7639f70309bd6ca6b17625c895d488a76a3",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-manage-sales-opportunities.md"
-  }
+    "path": "business-central/marketing-manage-sales-opportunities.md",
+    "description": "Explains how to capture and manage incoming leads and sales opportunities in Business Central, assign them to salespeople, and track expected value and likelihood of conversion.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "relationship",
+      "prospect"
+    ],
+    "ai_usage": null,
+    "words": 160
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e24a7639f70309bd6ca6b17625c895d488a76a3"
 }

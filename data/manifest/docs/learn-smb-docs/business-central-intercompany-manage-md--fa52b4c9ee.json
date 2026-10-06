@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "intercompany manage",
+  "title": "Manage intercompany transactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-manage",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.388Z",
+      "blob": "8706bde699b73eecb8b55b3c2d63682a0bb57304",
+      "words": 660,
+      "forms": 6
     }
   },
   "input_hash": "8706bde699b73eecb8b55b3c2d63682a0bb57304",
@@ -18,6 +24,53 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/intercompany-manage.md"
-  }
+    "path": "business-central/intercompany-manage.md",
+    "description": "With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "605",
+        "id": 605,
+        "kind": null
+      },
+      {
+        "raw": "611",
+        "id": 611,
+        "kind": null
+      },
+      {
+        "raw": "613",
+        "id": 613,
+        "kind": null
+      },
+      {
+        "raw": "615",
+        "id": 615,
+        "kind": null
+      },
+      {
+        "raw": "617",
+        "id": 617,
+        "kind": null
+      },
+      {
+        "raw": "Report_512",
+        "id": 512,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "IC",
+      "group",
+      "consolidation",
+      "affiliate",
+      "subsidiary"
+    ],
+    "ai_usage": null,
+    "words": 660
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8706bde699b73eecb8b55b3c2d63682a0bb57304"
 }

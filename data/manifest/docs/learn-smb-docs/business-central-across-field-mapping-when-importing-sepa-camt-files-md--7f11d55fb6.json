@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across field mapping when importing sepa camt files",
+  "title": "Field mapping when importing SEPA CAMT files | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-importing-sepa-camt-files",
   "published_at": "2025-12-16T09:22:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.766Z",
+      "blob": "f36c23dcdd5e0175cd969c401976f1779e064e55",
+      "words": 714,
+      "forms": 0
     }
   },
   "input_hash": "f36c23dcdd5e0175cd969c401976f1779e064e55",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-field-mapping-when-importing-sepa-camt-files.md"
-  }
+    "path": "business-central/across-field-mapping-when-importing-sepa-camt-files.md",
+    "description": "Import bank statement files in the regional SEPA (Single Euro Payments Area) format for European markets.",
+    "ms_date": "2025-11-27",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "field mapping",
+      "SEPA CAMT",
+      "SEPA bank statements",
+      "CAMT format",
+      "data exchange definition"
+    ],
+    "ai_usage": null,
+    "words": 714
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f36c23dcdd5e0175cd969c401976f1779e064e55"
 }

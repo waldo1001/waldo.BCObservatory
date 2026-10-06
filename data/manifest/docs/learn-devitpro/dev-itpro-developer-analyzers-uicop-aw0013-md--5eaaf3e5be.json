@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "uicop aw0013",
+  "title": "UICop Warning AW0013",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop-aw0013",
   "published_at": "2026-06-02T11:42:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.180Z",
+      "blob": "01dfc339094f0eba42925dbbf830309a92006fad",
+      "words": 566,
+      "forms": 0
     }
   },
   "input_hash": "01dfc339094f0eba42925dbbf830309a92006fad",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/uicop-aw0013.md"
-  }
+    "path": "dev-itpro/developer/analyzers/uicop-aw0013.md",
+    "description": "From Business Central 2022 Wave 2, promoted actions defined in a hidden group are rendered on the promoted side of the action bar only if the 'Modern Action Bar' feature is disabled for the environment.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 566
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "01dfc339094f0eba42925dbbf830309a92006fad"
 }

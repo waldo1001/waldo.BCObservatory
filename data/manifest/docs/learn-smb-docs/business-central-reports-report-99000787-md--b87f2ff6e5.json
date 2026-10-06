@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000787",
+  "title": "Routing Sheet (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787",
   "published_at": "2025-05-06T19:35:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.393Z",
+      "blob": "754f27ef3b32a13de817e1abb9e5fa7faf580c06",
+      "words": 248,
+      "forms": 1
     }
   },
   "input_hash": "754f27ef3b32a13de817e1abb9e5fa7faf580c06",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000787.md"
-  }
+    "path": "business-central/reports/report-99000787.md",
+    "description": "Get an overview of the operations to do to build an item, including information on the work center, machine center, personnel, and tools involved.",
+    "ms_date": "2024-11-04",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000787_Primary",
+        "id": 99000787,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 248
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "754f27ef3b32a13de817e1abb9e5fa7faf580c06"
 }

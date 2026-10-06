@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi sales quote overview",
+  "title": "Sales Quote Overview (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.877Z",
+      "blob": "212a1000e717dbf099c40bd0a8e734138c500157",
+      "words": 323,
+      "forms": 1
     }
   },
   "input_hash": "212a1000e717dbf099c40bd0a8e734138c500157",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-sales-quote-overview.md"
-  }
+    "path": "business-central/sales-powerbi-sales-quote-overview.md",
+    "description": "The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities.",
+    "ms_date": "2025-10-07",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37104_Primary",
+        "id": 37104,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 323
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "212a1000e717dbf099c40bd0a8e734138c500157"
 }

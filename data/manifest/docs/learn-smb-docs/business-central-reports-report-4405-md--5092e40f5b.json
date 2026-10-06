@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 4405",
+  "title": "Trial Balance (Excel report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4405",
   "published_at": "2025-06-12T11:55:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.556Z",
+      "blob": "0d88d216ad16db8ea32e9d5bc191e32d79ce065f",
+      "words": 780,
+      "forms": 1
     }
   },
   "input_hash": "0d88d216ad16db8ea32e9d5bc191e32d79ce065f",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-4405.md"
-  }
+    "path": "business-central/reports/report-4405.md",
+    "description": "Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.",
+    "ms_date": "2025-06-15",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_4405_Primary",
+        "id": 4405,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 780
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d88d216ad16db8ea32e9d5bc191e32d79ce065f"
 }

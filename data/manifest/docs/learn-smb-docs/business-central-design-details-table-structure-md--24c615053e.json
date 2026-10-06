@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details table structure",
+  "title": "Design details - Table structure",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-table-structure",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.710Z",
+      "blob": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5",
+      "words": 741,
+      "forms": 0
     }
   },
   "input_hash": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-table-structure.md"
-  }
+    "path": "business-central/design-details-table-structure.md",
+    "description": "To understand how the dimension entry storing and posting is redesigned, it's important to understand the table structure.",
+    "ms_date": "2026-03-08",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 741
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1818a4f6ab2a5116a0b106ea41195cb54e8d21a5"
 }

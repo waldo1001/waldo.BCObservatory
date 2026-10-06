@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0136",
+  "title": "AppSourceCop Warning AS0136",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0136",
   "published_at": "2026-02-26T14:36:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.791Z",
+      "blob": "fdd9047b57f0da6d5df6b32494d080f691a0935f",
+      "words": 155,
+      "forms": 0
     }
   },
   "input_hash": "fdd9047b57f0da6d5df6b32494d080f691a0935f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0136.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0136.md",
+    "description": "The field must be pending for obsoletion so that its ID can change.",
+    "ms_date": "2026-02-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 155
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fdd9047b57f0da6d5df6b32494d080f691a0935f"
 }

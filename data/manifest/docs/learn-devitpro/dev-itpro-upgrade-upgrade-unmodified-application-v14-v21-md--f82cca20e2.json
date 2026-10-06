@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade unmodified application v14 v21",
+  "title": "Upgrading Unmodified C/AL Application to Version 21",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v21",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.040Z",
+      "blob": "4226b47883d259046cac14057a436d268a10e551",
+      "words": 3053,
+      "forms": 0
     }
   },
   "input_hash": "4226b47883d259046cac14057a436d268a10e551",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-unmodified-application-v14-v21.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-unmodified-application-v14-v21.md",
+    "description": "Describes how to upgrade an unmodified Business Central 14 application to version 21",
+    "ms_date": "2024-01-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 3053
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4226b47883d259046cac14057a436d268a10e551"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how setup additional currencies",
+  "title": "Set up additional currencies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies",
   "published_at": "2025-09-10T10:46:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.394Z",
+      "blob": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972",
+      "words": 1697,
+      "forms": 6
     }
   },
   "input_hash": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972",
@@ -18,6 +24,50 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-setup-additional-currencies.md"
-  }
+    "path": "business-central/finance-how-setup-additional-currencies.md",
+    "description": "Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.",
+    "ms_date": "2024-06-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5",
+        "id": 5,
+        "kind": null
+      },
+      {
+        "raw": "16",
+        "id": 16,
+        "kind": null
+      },
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "483",
+        "id": 483,
+        "kind": null
+      },
+      {
+        "raw": "495",
+        "id": 495,
+        "kind": null
+      },
+      {
+        "raw": "Report_86_Primary",
+        "id": 86,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "multiple currencies",
+      "foreign exchange rates"
+    ],
+    "ai_usage": null,
+    "words": 1697
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ba6e5e4aa4bd6d3630f7dd98d477aa91bd19972"
 }

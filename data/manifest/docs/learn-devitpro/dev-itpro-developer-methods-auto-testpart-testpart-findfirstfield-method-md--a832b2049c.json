@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testpart findfirstfield method",
+  "title": "TestPart.FindFirstField(TestField, Any) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testpart/testpart-findfirstfield-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.613Z",
+      "blob": "8c6a998b33f08dec101a6a8b830bd0551500fd5e",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "8c6a998b33f08dec101a6a8b830bd0551500fd5e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testpart/testpart-findfirstfield-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testpart/testpart-findfirstfield-method.md",
+    "description": "Finds the first field in the data set that is displayed on a test page.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c6a998b33f08dec101a6a8b830bd0551500fd5e"
 }

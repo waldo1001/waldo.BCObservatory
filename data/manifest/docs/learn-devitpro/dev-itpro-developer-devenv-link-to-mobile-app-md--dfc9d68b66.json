@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv link to mobile app",
+  "title": "Linking to the Dynamics 365 Business Central App",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-link-to-mobile-app",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.049Z",
+      "blob": "150d29a85f830ba19aab2eb354021ec111cd8434",
+      "words": 1140,
+      "forms": 0
     }
   },
   "input_hash": "150d29a85f830ba19aab2eb354021ec111cd8434",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-link-to-mobile-app.md"
-  }
+    "path": "dev-itpro/developer/devenv-link-to-mobile-app.md",
+    "description": "Learn how you can construct a URL for starting the Dynamics 365 Business Central app on a device, such as a phone or tablet. You can then distribute this URL by e-mail or from a Web page to the users.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "150d29a85f830ba19aab2eb354021ec111cd8434"
 }

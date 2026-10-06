@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 512",
+  "title": "Intercompany Transactions (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-512",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.455Z",
+      "blob": "7f96adc219ce5a999ce1c07568bb2582fcd79c2d",
+      "words": 175,
+      "forms": 1
     }
   },
   "input_hash": "7f96adc219ce5a999ce1c07568bb2582fcd79c2d",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-512.md"
-  }
+    "path": "business-central/reports/report-512.md",
+    "description": "Lists all posted intercompany sales, purchases, and journal entries between internal entities. Use it for reviewing and reconciling intercompany activity before financial consolidation to ensure transparency and balance across companies.",
+    "ms_date": "2025-06-21",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_512_Primary",
+        "id": 512,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting",
+      "intercompany",
+      "consolidation"
+    ],
+    "ai_usage": null,
+    "words": 175
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f96adc219ce5a999ce1c07568bb2582fcd79c2d"
 }

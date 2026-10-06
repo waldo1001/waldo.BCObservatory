@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "recordref next method",
+  "title": "RecordRef.Next([Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/recordref/recordref-next-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.523Z",
+      "blob": "36023bdcc3d6b8297269bc49f98515df7a048221",
+      "words": 385,
+      "forms": 0
     }
   },
   "input_hash": "36023bdcc3d6b8297269bc49f98515df7a048221",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/recordref/recordref-next-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/recordref/recordref-next-method.md",
+    "description": "Steps through a specified number of records and retrieves a record.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 385
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36023bdcc3d6b8297269bc49f98515df7a048221"
 }

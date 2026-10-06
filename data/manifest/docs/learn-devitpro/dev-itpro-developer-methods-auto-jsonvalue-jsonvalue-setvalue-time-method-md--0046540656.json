@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonvalue setvalue time method",
+  "title": "JsonValue.SetValue(Time) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-setvalue-time-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.182Z",
+      "blob": "d71778db56a3bf20342bb2114d2b45b92fb13c14",
+      "words": 129,
+      "forms": 0
     }
   },
   "input_hash": "d71778db56a3bf20342bb2114d2b45b92fb13c14",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-setvalue-time-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-setvalue-time-method.md",
+    "description": "Set the contents of the JsonValue variable to the JSON representation of the given value.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 129
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d71778db56a3bf20342bb2114d2b45b92fb13c14"
 }

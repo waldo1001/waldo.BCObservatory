@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 743",
+  "title": "VAT Reconciliation Report (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-743",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.762Z",
+      "blob": "680bd710f3d8529b57898deaac20f7d6602a3d82",
+      "words": 227,
+      "forms": 1
     }
   },
   "input_hash": "680bd710f3d8529b57898deaac20f7d6602a3d82",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-743.md"
-  }
+    "path": "business-central/reports/report-743.md",
+    "description": "Use before tax filing to ensure that VAT amounts calculated on documents match what was posted to the general ledger. This report compares VAT calculated from documents with the amounts posted to the VAT G/L accounts. Use during tax preparation.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_743_Primary",
+        "id": 743,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "tax",
+      "reconciliation",
+      "general ledger",
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 227
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "680bd710f3d8529b57898deaac20f7d6602a3d82"
 }

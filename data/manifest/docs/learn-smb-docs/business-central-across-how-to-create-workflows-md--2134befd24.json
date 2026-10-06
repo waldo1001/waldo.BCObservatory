@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how to create workflows",
+  "title": "Create approval workflows to connect tasks",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.204Z",
+      "blob": "4e4acc1d6a14f07152dcfaa6cb0e3f06cb2dbe5a",
+      "words": 2051,
+      "forms": 0
     }
   },
   "input_hash": "4e4acc1d6a14f07152dcfaa6cb0e3f06cb2dbe5a",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-to-create-workflows.md"
-  }
+    "path": "business-central/across-how-to-create-workflows.md",
+    "description": "Learn how to create workflows that connect tasks performed by different people in business processes.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "workflows",
+      "create workflow",
+      "connect tasks",
+      "business process"
+    ],
+    "ai_usage": null,
+    "words": 2051
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e4acc1d6a14f07152dcfaa6cb0e3f06cb2dbe5a"
 }

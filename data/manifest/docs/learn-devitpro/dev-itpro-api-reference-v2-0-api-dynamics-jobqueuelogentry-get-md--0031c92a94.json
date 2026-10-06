@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics jobqueuelogentry get",
+  "title": "Get jobQueueLogEntries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_jobqueuelogentry_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.764Z",
+      "blob": "cd2ca1af77bc5de9263e40329bf715e84fcfb5bd",
+      "words": 88,
+      "forms": 0
     }
   },
   "input_hash": "cd2ca1af77bc5de9263e40329bf715e84fcfb5bd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_jobqueuelogentry_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_jobqueuelogentry_get.md",
+    "description": "Gets a job queue log entry object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 88
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd2ca1af77bc5de9263e40329bf715e84fcfb5bd"
 }

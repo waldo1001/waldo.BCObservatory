@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade paths",
+  "title": "Supported upgrade paths to Business Central on-premises",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.849Z",
+      "blob": "72925d0e6e8b6241462725fa87a3168bc7f99321",
+      "words": 911,
+      "forms": 0
     }
   },
   "input_hash": "72925d0e6e8b6241462725fa87a3168bc7f99321",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-paths.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-paths.md",
+    "description": "Provides an overview of the different upgrade paths for Business Central on-premises across versions.",
+    "ms_date": "2026-08-31",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 911
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "72925d0e6e8b6241462725fa87a3168bc7f99321"
 }

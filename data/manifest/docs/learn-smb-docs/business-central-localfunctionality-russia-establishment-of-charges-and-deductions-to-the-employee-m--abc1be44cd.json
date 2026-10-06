@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Establishment of charges and deductions to the employee",
+  "title": "Establishment of charges and deductions in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.456Z",
+      "blob": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
+      "words": 642,
+      "forms": 0
     }
   },
   "input_hash": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md",
+    "description": "Russian localization provides tools for managing employee charges and deductions in Business Central.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "employee deductions",
+      "establishing charges",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 642
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "534268c10e19bf5b51616b41c5b3b52cd52a4f94"
 }

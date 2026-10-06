@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 32",
+  "title": "VAT Registration No. Check (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-32",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.271Z",
+      "blob": "23412c748ab304c389a7d62ef7364506a16460f9",
+      "words": 190,
+      "forms": 1
     }
   },
   "input_hash": "23412c748ab304c389a7d62ef7364506a16460f9",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-32.md"
-  }
+    "path": "business-central/reports/report-32.md",
+    "description": "Cross-check VAT registration numbers against the EU VAT Information Exchange System (VIES). Best used before submitting EU sales reports. Ensures the accuracy of VAT numbers, helping prevent compliance issues with cross-border VAT reporting.",
+    "ms_date": "2025-06-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_32_Primary",
+        "id": 32,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "tax compliance",
+      "EU sales",
+      "VIES",
+      "cross-border"
+    ],
+    "ai_usage": null,
+    "words": 190
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23412c748ab304c389a7d62ef7364506a16460f9"
 }

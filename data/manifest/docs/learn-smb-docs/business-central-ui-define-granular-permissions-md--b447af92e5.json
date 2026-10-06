@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui define granular permissions",
+  "title": "Define granular permissions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions",
   "published_at": "2026-03-04T14:42:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.717Z",
+      "blob": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b",
+      "words": 3723,
+      "forms": 15
     }
   },
   "input_hash": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b",
@@ -18,6 +24,96 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-define-granular-permissions.md"
-  }
+    "path": "business-central/ui-define-granular-permissions.md",
+    "description": "This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.",
+    "ms_date": "2026-03-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "119",
+        "id": 119,
+        "kind": null
+      },
+      {
+        "raw": "8930",
+        "id": 8930,
+        "kind": null
+      },
+      {
+        "raw": "9800",
+        "id": 9800,
+        "kind": null
+      },
+      {
+        "raw": "9802",
+        "id": 9802,
+        "kind": null
+      },
+      {
+        "raw": "9807",
+        "id": 9807,
+        "kind": null
+      },
+      {
+        "raw": "9808",
+        "id": 9808,
+        "kind": null
+      },
+      {
+        "raw": "9816_Primary",
+        "id": 9816,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9830",
+        "id": 9830,
+        "kind": null
+      },
+      {
+        "raw": "9831",
+        "id": 9831,
+        "kind": null
+      },
+      {
+        "raw": "9855_Primary",
+        "id": 9855,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9862_Primary",
+        "id": 9862,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9874_Primary",
+        "id": 9874,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9878_Primary",
+        "id": 9878,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9865_Primary",
+        "id": 9865,
+        "kind": "Primary"
+      },
+      {
+        "raw": "9883_Primary",
+        "id": 9883,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "access",
+      "right",
+      "security"
+    ],
+    "ai_usage": null,
+    "words": 3723
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9f60958c5e1e55e5b7313b4c465b79fe43369a7b"
 }

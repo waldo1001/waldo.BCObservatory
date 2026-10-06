@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000755",
+  "title": "Single-Level Cost Shares (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000755",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.808Z",
+      "blob": "802ea1ae5a89b3ff720aa13d43c2731fc7aa680b",
+      "words": 191,
+      "forms": 1
     }
   },
   "input_hash": "802ea1ae5a89b3ff720aa13d43c2731fc7aa680b",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000755.md"
-  }
+    "path": "business-central/reports/report-99000755.md",
+    "description": "Get a detailed breakdown of the costs associated with manufactured items at each level of the bill of materials (BOM). The report shows the cost contributions of materials, labor, and overheads for each individual component within the BOM.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000755_Primary",
+        "id": 99000755,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "802ea1ae5a89b3ff720aa13d43c2731fc7aa680b"
 }

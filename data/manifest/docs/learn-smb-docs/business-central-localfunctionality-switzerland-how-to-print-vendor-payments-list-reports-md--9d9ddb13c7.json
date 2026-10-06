@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print vendor payments list reports",
+  "title": "Print Vendor Payments List Reports [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.955Z",
+      "blob": "49cc52917f70369251df2672c4d8866dc9bd9ab5",
+      "words": 223,
+      "forms": 0
     }
   },
   "input_hash": "49cc52917f70369251df2672c4d8866dc9bd9ab5",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md",
+    "description": "Learn how to generate the Vendor Payments List report, which provides a detailed overview of payments for each vendor, sorted either chronologically or by vendor grouping.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "vendor payments list",
+      "vendor payments report",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 223
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "49cc52917f70369251df2672c4d8866dc9bd9ab5"
 }

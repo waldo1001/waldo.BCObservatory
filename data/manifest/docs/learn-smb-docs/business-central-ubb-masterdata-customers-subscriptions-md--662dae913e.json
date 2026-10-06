@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "customers subscriptions",
+  "title": "Usage-based billing customers and subscriptions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions",
   "published_at": "2025-07-11T12:23:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.246Z",
+      "blob": "1a7b10e531483dc53ef10d713be1957e4be79faf",
+      "words": 647,
+      "forms": 3
     }
   },
   "input_hash": "1a7b10e531483dc53ef10d713be1957e4be79faf",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/masterdata/customers-subscriptions.md"
-  }
+    "path": "business-central/UBB/masterdata/customers-subscriptions.md",
+    "description": "You can use customer subscriptions in usage-based billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8037",
+        "id": 8037,
+        "kind": null
+      },
+      {
+        "raw": "8044",
+        "id": 8044,
+        "kind": null
+      },
+      {
+        "raw": "8042",
+        "id": 8042,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 647
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a7b10e531483dc53ef10d713be1957e4be79faf"
 }

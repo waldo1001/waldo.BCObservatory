@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "httpheaders getvalues method",
+  "title": "HttpHeaders.GetValues(String, Array of [Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/httpheaders/httpheaders-getvalues-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.278Z",
+      "blob": "c15cee6323c403ed1c62f7d7b5955753aa6eb06d",
+      "words": 124,
+      "forms": 0
     }
   },
   "input_hash": "c15cee6323c403ed1c62f7d7b5955753aa6eb06d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/httpheaders/httpheaders-getvalues-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/httpheaders/httpheaders-getvalues-method.md",
+    "description": "Gets the values for the specified key.",
+    "ms_date": "2021-07-07",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 124
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c15cee6323c403ed1c62f7d7b5955753aa6eb06d"
 }

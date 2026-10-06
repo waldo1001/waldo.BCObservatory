@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa how setup general",
+  "title": "Set Up General Fixed Assets (FA) Information",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-general",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.779Z",
+      "blob": "27187cbe746f1d0a8f2683e76d48e2b3b4d9bb05",
+      "words": 1295,
+      "forms": 19
     }
   },
   "input_hash": "27187cbe746f1d0a8f2683e76d48e2b3b4d9bb05",
@@ -18,6 +24,121 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-how-setup-general.md"
-  }
+    "path": "business-central/fa-how-setup-general.md",
+    "description": "Configure default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes before using fixed assets.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5623",
+        "id": 5623,
+        "kind": null
+      },
+      {
+        "raw": "5615_Primary",
+        "id": 5615,
+        "kind": "Primary"
+      },
+      {
+        "raw": "5616_Primary",
+        "id": 5616,
+        "kind": "Primary"
+      },
+      {
+        "raw": "5661",
+        "id": 5661,
+        "kind": null
+      },
+      {
+        "raw": "5662",
+        "id": 5662,
+        "kind": null
+      },
+      {
+        "raw": "5627",
+        "id": 5627,
+        "kind": null
+      },
+      {
+        "raw": "5620",
+        "id": 5620,
+        "kind": null
+      },
+      {
+        "raw": "5629",
+        "id": 5629,
+        "kind": null
+      },
+      {
+        "raw": "5633",
+        "id": 5633,
+        "kind": null
+      },
+      {
+        "raw": "5609",
+        "id": 5609,
+        "kind": null
+      },
+      {
+        "raw": "5631",
+        "id": 5631,
+        "kind": null
+      },
+      {
+        "raw": "5630",
+        "id": 5630,
+        "kind": null
+      },
+      {
+        "raw": "5617",
+        "id": 5617,
+        "kind": null
+      },
+      {
+        "raw": "5612",
+        "id": 5612,
+        "kind": null
+      },
+      {
+        "raw": "5613",
+        "id": 5613,
+        "kind": null
+      },
+      {
+        "raw": "5608",
+        "id": 5608,
+        "kind": null
+      },
+      {
+        "raw": "5609",
+        "id": 5609,
+        "kind": null
+      },
+      {
+        "raw": "5635",
+        "id": 5635,
+        "kind": null
+      },
+      {
+        "raw": "9277",
+        "id": 9277,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "fixed assets",
+      "G/L accounts",
+      "posting groups",
+      "allocation keys",
+      "journal templates",
+      "journal batches",
+      "class codes",
+      "subclass codes"
+    ],
+    "ai_usage": null,
+    "words": 1295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27187cbe746f1d0a8f2683e76d48e2b3b4d9bb05"
 }

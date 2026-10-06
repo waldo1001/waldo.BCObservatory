@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1130",
+  "title": "Compiler Error AL1130",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1130",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.993Z",
+      "blob": "fabb18f1e885b80df6385063aeecdd3bd6c9398f",
+      "words": 53,
+      "forms": 0
     }
   },
   "input_hash": "fabb18f1e885b80df6385063aeecdd3bd6c9398f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1130.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1130.md",
+    "description": "The format of property '{0}' must be a timeout duration specified as '[d.]hh:mm:ss[.fffffff]'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 53
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fabb18f1e885b80df6385063aeecdd3bd6c9398f"
 }

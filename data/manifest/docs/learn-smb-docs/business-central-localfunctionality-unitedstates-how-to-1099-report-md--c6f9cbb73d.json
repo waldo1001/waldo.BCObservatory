@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to 1099 report",
+  "title": "Report and submit the IRS 1099 form [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report",
   "published_at": "2026-05-06T13:29:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.897Z",
+      "blob": "f8b30ab49a5478087d64a640d0108e1c74249700",
+      "words": 2386,
+      "forms": 5
     }
   },
   "input_hash": "f8b30ab49a5478087d64a640d0108e1c74249700",
@@ -18,6 +24,49 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/how-to-1099-report.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/how-to-1099-report.md",
+    "description": "Learn how to submit and report the 1099 tax form in the United States version.",
+    "ms_date": "2026-05-06",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "100136",
+        "id": 100136,
+        "kind": null
+      },
+      {
+        "raw": "10037",
+        "id": 10037,
+        "kind": null
+      },
+      {
+        "raw": "10048",
+        "id": 10048,
+        "kind": null
+      },
+      {
+        "raw": "10050",
+        "id": 10050,
+        "kind": null
+      },
+      {
+        "raw": "10051",
+        "id": 10051,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1099",
+      "tax",
+      "IRS",
+      "IRIS",
+      "FIRE"
+    ],
+    "ai_usage": null,
+    "words": 2386
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f8b30ab49a5478087d64a640d0108e1c74249700"
 }

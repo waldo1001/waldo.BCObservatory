@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics salesshipmentline get",
+  "title": "GET salesShipmentLines",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_salesshipmentline_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.233Z",
+      "blob": "a222f43e77f3b9ef6e5c0aeac6ab73908a733b10",
+      "words": 86,
+      "forms": 0
     }
   },
   "input_hash": "a222f43e77f3b9ef6e5c0aeac6ab73908a733b10",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesshipmentline_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_salesshipmentline_get.md",
+    "description": "Gets a salesShipmentLine object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 86
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a222f43e77f3b9ef6e5c0aeac6ab73908a733b10"
 }

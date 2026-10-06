@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Currency information Import currency rates",
+  "title": "Currency information in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates",
   "published_at": "2026-05-04T02:42:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.020Z",
+      "blob": "1a876dce691715a50099f7b429e71f146f1cd45f",
+      "words": 184,
+      "forms": 0
     }
   },
   "input_hash": "1a876dce691715a50099f7b429e71f146f1cd45f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates.md",
+    "description": "Russian localization provides features for importing currency rates in Business Central.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "currency information",
+      "currency rates",
+      "import currency rates",
+      "import currencies",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 184
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a876dce691715a50099f7b429e71f146f1cd45f"
 }

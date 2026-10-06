@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "page enqueuebackgroundtask method",
+  "title": "Page.EnqueueBackgroundTask(var Integer, Integer [, var Dictionary of [Text, Text]] [, Integer] [, PageBackgroundTaskErrorLevel]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/page/page-enqueuebackgroundtask-method",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.525Z",
+      "blob": "b69f445553f833cda8fb7e21497b18026895d40a",
+      "words": 666,
+      "forms": 0
     }
   },
   "input_hash": "b69f445553f833cda8fb7e21497b18026895d40a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/page/page-enqueuebackgroundtask-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/page/page-enqueuebackgroundtask-method.md",
+    "description": "Creates and queues a background task that runs the specified codeunit (without a UI) in a read-only child session of the page session.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 666
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b69f445553f833cda8fb7e21497b18026895d40a"
 }

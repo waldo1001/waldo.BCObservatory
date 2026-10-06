@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print withholding tax reports",
+  "title": "Print withholding tax reports (IT)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.898Z",
+      "blob": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
+      "words": 162,
+      "forms": 1
     }
   },
   "input_hash": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md",
+    "description": "Learn how to print the Withholding Taxes report for Italy, showing all withholding taxes payable to the government.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "12103",
+        "id": 12103,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "withholding tax",
+      "print withholding tax reports",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 162
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv flowfields",
+  "title": "FlowFields overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfields",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.828Z",
+      "blob": "10ed170af4a408f48cfb821eeab7624bd4ceb466",
+      "words": 682,
+      "forms": 0
     }
   },
   "input_hash": "10ed170af4a408f48cfb821eeab7624bd4ceb466",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-flowfields.md"
-  }
+    "path": "dev-itpro/developer/devenv-flowfields.md",
+    "description": "Learn how FlowFields in Business Central enhance performance by dynamically calculating data at runtime. Discover types, examples, and optimization tips.",
+    "ms_date": "2026-07-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 682
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10ed170af4a408f48cfb821eeab7624bd4ceb466"
 }

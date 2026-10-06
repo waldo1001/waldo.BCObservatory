@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "deprecated fields",
+  "title": "Fields that are Moved, Removed, or Replaced",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-fields",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.589Z",
+      "blob": "b228755ac1e2e3d8442a4f6344ecde83f622032d",
+      "words": 646,
+      "forms": 0
     }
   },
   "input_hash": "b228755ac1e2e3d8442a4f6344ecde83f622032d",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/deprecated-fields.md"
-  }
+    "path": "dev-itpro/upgrade/deprecated-fields.md",
+    "description": "We're constantly streamlining and adjusting our app in-step with market developments. Read about the fields that you want to refactor your code for.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "deprecated",
+      "obsolete"
+    ],
+    "ai_usage": null,
+    "words": 646
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b228755ac1e2e3d8442a4f6344ecde83f622032d"
 }

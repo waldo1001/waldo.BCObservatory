@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al568",
+  "title": "Compiler Warning (future error) AL0568",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al568",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.833Z",
+      "blob": "5756c654f8e8117c97b626a2d00a801ef76e977d",
+      "words": 68,
+      "forms": 0
     }
   },
   "input_hash": "5756c654f8e8117c97b626a2d00a801ef76e977d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al568.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al568.md",
+    "description": "Groups defined in the action area '{0}' should only contain actions or groups.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 68
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5756c654f8e8117c97b626a2d00a801ef76e977d"
 }

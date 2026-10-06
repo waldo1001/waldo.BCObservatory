@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extend edocuments",
+  "title": "Extending the e-documents functionality",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments",
   "published_at": "2026-06-02T11:41:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.380Z",
+      "blob": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a",
+      "words": 1966,
+      "forms": 2
     }
   },
   "input_hash": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-extend-edocuments.md"
-  }
+    "path": "dev-itpro/developer/devenv-extend-edocuments.md",
+    "description": "Learn how to extend e-documents functionality with specific requirements.",
+    "ms_date": "2025-01-27",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "6103",
+        "id": 6103,
+        "kind": null
+      },
+      {
+        "raw": "6133",
+        "id": 6133,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "electronic document",
+      "electronic invoice",
+      "e-documents",
+      "e-invoice",
+      "customization",
+      "development",
+      "extend"
+    ],
+    "ai_usage": null,
+    "words": 1966
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4ab2d44da83b893947c0bfe5d2b0a45c90b043a"
 }

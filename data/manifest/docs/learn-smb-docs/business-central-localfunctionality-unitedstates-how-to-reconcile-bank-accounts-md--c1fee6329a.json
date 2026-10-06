@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to reconcile bank accounts",
+  "title": "Reconciling Bank Accounts [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.063Z",
+      "blob": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
+      "words": 1001,
+      "forms": 15
     }
   },
   "input_hash": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
@@ -18,6 +24,97 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md",
+    "description": "This article describes how to reconcile bank account ledger entries with bank statements in the North American version.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "389",
+        "id": 389,
+        "kind": null
+      },
+      {
+        "raw": "10120",
+        "id": 10120,
+        "kind": null
+      },
+      {
+        "raw": "10121",
+        "id": 10121,
+        "kind": null
+      },
+      {
+        "raw": "10122",
+        "id": 10122,
+        "kind": null
+      },
+      {
+        "raw": "10123",
+        "id": 10123,
+        "kind": null
+      },
+      {
+        "raw": "10124",
+        "id": 10124,
+        "kind": null
+      },
+      {
+        "raw": "10125",
+        "id": 10125,
+        "kind": null
+      },
+      {
+        "raw": "10126",
+        "id": 10126,
+        "kind": null
+      },
+      {
+        "raw": "10127",
+        "id": 10127,
+        "kind": null
+      },
+      {
+        "raw": "10128",
+        "id": 10128,
+        "kind": null
+      },
+      {
+        "raw": "10129",
+        "id": 10129,
+        "kind": null
+      },
+      {
+        "raw": "10130",
+        "id": 10130,
+        "kind": null
+      },
+      {
+        "raw": "10131",
+        "id": 10131,
+        "kind": null
+      },
+      {
+        "raw": "10133",
+        "id": 10133,
+        "kind": null
+      },
+      {
+        "raw": "10134",
+        "id": 10134,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bank account ledger",
+      "bank reconciliation",
+      "reconciliation reports",
+      "bank account reconcile"
+    ],
+    "ai_usage": null,
+    "words": 1001
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78d63fdd9d1a83531add5532b0a4da267bbfb41b"
 }

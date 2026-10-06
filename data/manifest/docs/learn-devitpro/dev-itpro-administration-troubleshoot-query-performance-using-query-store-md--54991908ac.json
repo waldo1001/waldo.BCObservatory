@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "troubleshoot query performance using query store",
+  "title": "Troubleshooting: Using Query Store to Monitor Query Performance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.562Z",
+      "blob": "af1d31bacb11c69a80c65d18c886e3d0c09b1ed2",
+      "words": 231,
+      "forms": 0
     }
   },
   "input_hash": "af1d31bacb11c69a80c65d18c886e3d0c09b1ed2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/troubleshoot-query-performance-using-query-store.md"
-  }
+    "path": "dev-itpro/administration/troubleshoot-query-performance-using-query-store.md",
+    "description": "Use SQL Server Query Store to troubleshoot query performance. SQL Server Query Store feature provides insight on database query plan choice and performance.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "troubleshooting",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 231
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af1d31bacb11c69a80c65d18c886e3d0c09b1ed2"
 }

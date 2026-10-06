@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa how setup insurance",
+  "title": "Set Up FA Insurance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-insurance",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.783Z",
+      "blob": "234ee21d437192c7756993590163e6266391e631",
+      "words": 373,
+      "forms": 4
     }
   },
   "input_hash": "234ee21d437192c7756993590163e6266391e631",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-how-setup-insurance.md"
-  }
+    "path": "business-central/fa-how-setup-insurance.md",
+    "description": "Configure insurance cards and policy details to manage fixed-asset insurance coverage.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5607",
+        "id": 5607,
+        "kind": null
+      },
+      {
+        "raw": "5648",
+        "id": 5648,
+        "kind": null
+      },
+      {
+        "raw": "5644",
+        "id": 5644,
+        "kind": null
+      },
+      {
+        "raw": "5651",
+        "id": 5651,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "policy",
+      "coverage",
+      "fixed asset",
+      "insurance"
+    ],
+    "ai_usage": null,
+    "words": 373
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "234ee21d437192c7756993590163e6266391e631"
 }

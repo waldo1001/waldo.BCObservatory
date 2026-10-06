@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 8008",
+  "title": "Contract Standard Sales Inv. report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-8008",
   "published_at": "2026-09-18T09:25:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.711Z",
+      "blob": "f605447300c40a78cce4590255877ef7ab9c4e3c",
+      "words": 315,
+      "forms": 1
     }
   },
   "input_hash": "f605447300c40a78cce4590255877ef7ab9c4e3c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-8008.md"
-  }
+    "path": "business-central/reports/report-8008.md",
+    "description": "Print or export a standard sales invoice that also lists the subscription billing details behind each contract-related invoice line.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_8008_Primary",
+        "id": 8008,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 315
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f605447300c40a78cce4590255877ef7ab9c4e3c"
 }

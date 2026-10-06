@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics apicategoryroutes",
+  "title": "apicategoryroutes resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_apicategoryroutes",
   "published_at": "2024-10-23T07:22:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.570Z",
+      "blob": "bc007e919ec04774a638b94a6d19b032d2f46317",
+      "words": 77,
+      "forms": 0
     }
   },
   "input_hash": "bc007e919ec04774a638b94a6d19b032d2f46317",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_apicategoryroutes.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_apicategoryroutes.md",
+    "description": "An apicategoryroutes object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 77
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bc007e919ec04774a638b94a6d19b032d2f46317"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "code data type",
+  "title": "Code data type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/code/code-data-type",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.507Z",
+      "blob": "8cac4ab026e1cde81566b1b70d183de277a280c6",
+      "words": 238,
+      "forms": 0
     }
   },
   "input_hash": "8cac4ab026e1cde81566b1b70d183de277a280c6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/code/code-data-type.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/code/code-data-type.md",
+    "description": "Denotes a special type of string that is converted to uppercase and removes any trailing or leading spaces.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 238
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8cac4ab026e1cde81566b1b70d183de277a280c6"
 }

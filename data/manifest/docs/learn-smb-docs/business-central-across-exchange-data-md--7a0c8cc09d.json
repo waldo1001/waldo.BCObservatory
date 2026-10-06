@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across exchange data",
+  "title": "Exchanging data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-exchange-data",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.145Z",
+      "blob": "b183a0c662adce14f9776a652199e5e417a3be49",
+      "words": 442,
+      "forms": 0
     }
   },
   "input_hash": "b183a0c662adce14f9776a652199e5e417a3be49",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-exchange-data.md"
-  }
+    "path": "business-central/across-exchange-data.md",
+    "description": "Exchange electronic business documents, for example bank files, between Business Central and external parties.",
+    "ms_date": "2025-10-14",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "exchange data",
+      "external files",
+      "electronic documents",
+      "AMC Banking",
+      "OCT",
+      "SEPA"
+    ],
+    "ai_usage": null,
+    "words": 442
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b183a0c662adce14f9776a652199e5e417a3be49"
 }

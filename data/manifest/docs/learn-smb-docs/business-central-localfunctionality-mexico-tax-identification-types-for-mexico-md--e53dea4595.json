@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "tax identification types for mexico",
+  "title": "Tax Identification Types for Mexico",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.516Z",
+      "blob": "a6ad44ac0d134168355ec7a999099bf904578020",
+      "words": 191,
+      "forms": 0
     }
   },
   "input_hash": "a6ad44ac0d134168355ec7a999099bf904578020",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico.md"
-  }
+    "path": "business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico.md",
+    "description": "All customers and vendors must have a federal tax identification number. This article covers the tax identification types in the Mexican version.",
+    "ms_date": "2025-02-26",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "federal tax identification number",
+      "tax identification number"
+    ],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6ad44ac0d134168355ec7a999099bf904578020"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv query totals grouping",
+  "title": "Aggregating data in query objects",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-totals-grouping",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.471Z",
+      "blob": "93a4f94106d78a4edf817176685c8776f0903731",
+      "words": 1233,
+      "forms": 0
     }
   },
   "input_hash": "93a4f94106d78a4edf817176685c8776f0903731",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-query-totals-grouping.md"
-  }
+    "path": "dev-itpro/developer/devenv-query-totals-grouping.md",
+    "description": "Do calculations on the fields of a column and return the calculated value in the dataset. Know the Dynamics NAV Total methods for running queries.",
+    "ms_date": "2024-05-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1233
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "93a4f94106d78a4edf817176685c8776f0903731"
 }

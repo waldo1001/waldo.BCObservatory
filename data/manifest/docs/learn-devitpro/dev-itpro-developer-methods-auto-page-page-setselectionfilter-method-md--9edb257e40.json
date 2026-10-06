@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "page setselectionfilter method",
+  "title": "Page.SetSelectionFilter(var Record) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/page/page-setselectionfilter-method",
   "published_at": "2025-05-07T06:43:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.374Z",
+      "blob": "e016fd1ea36786ae739363ad41082e44ce50b3f4",
+      "words": 316,
+      "forms": 0
     }
   },
   "input_hash": "e016fd1ea36786ae739363ad41082e44ce50b3f4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/page/page-setselectionfilter-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/page/page-setselectionfilter-method.md",
+    "description": "Notes the records that the user has selected on the page, marks those records in the table specified, and sets the filter to marked only.",
+    "ms_date": "2025-05-07",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 316
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e016fd1ea36786ae739363ad41082e44ce50b3f4"
 }

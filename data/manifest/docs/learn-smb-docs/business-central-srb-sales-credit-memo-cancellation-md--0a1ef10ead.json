@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "credit memo cancellation",
+  "title": "Credit memos and cancellation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/credit-memo-cancellation",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.259Z",
+      "blob": "9895cf0d2d87176e45229d1d0611747f03cffbc9",
+      "words": 440,
+      "forms": 1
     }
   },
   "input_hash": "9895cf0d2d87176e45229d1d0611747f03cffbc9",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/sales/credit-memo-cancellation.md"
-  }
+    "path": "business-central/SRB/sales/credit-memo-cancellation.md",
+    "description": "You can use credit memos in subscription billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8059",
+        "id": 8059,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 440
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9895cf0d2d87176e45229d1d0611747f03cffbc9"
 }

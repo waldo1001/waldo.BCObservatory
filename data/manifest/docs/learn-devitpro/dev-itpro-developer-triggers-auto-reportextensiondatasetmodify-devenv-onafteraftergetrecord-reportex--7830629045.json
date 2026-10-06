@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onafteraftergetrecord reportextensiondatasetmodify trigger",
+  "title": "OnAfterAfterGetRecord (Report Extension Data Set Modify) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/reportextensiondatasetmodify/devenv-onafteraftergetrecord-reportextensiondatasetmodify-trigger",
   "published_at": "2024-08-27T10:52:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.090Z",
+      "blob": "13f9c4852d6c0a91d301a3dcd3711083e0fd38c8",
+      "words": 120,
+      "forms": 0
     }
   },
   "input_hash": "13f9c4852d6c0a91d301a3dcd3711083e0fd38c8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/reportextensiondatasetmodify/devenv-onafteraftergetrecord-reportextensiondatasetmodify-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/reportextensiondatasetmodify/devenv-onafteraftergetrecord-reportextensiondatasetmodify-trigger.md",
+    "description": "Runs after the OnAfterGetRecord trigger of the base data item.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13f9c4852d6c0a91d301a3dcd3711083e0fd38c8"
 }

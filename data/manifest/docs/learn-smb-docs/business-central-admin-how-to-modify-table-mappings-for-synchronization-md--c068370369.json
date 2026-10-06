@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin how to modify table mappings for synchronization",
+  "title": "Mapping the tables and fields to synchronize",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization",
   "published_at": "2026-06-02T10:20:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.434Z",
+      "blob": "4215864d2716f62b9df6e0501e64adfb442b3f34",
+      "words": 2114,
+      "forms": 0
     }
   },
   "input_hash": "4215864d2716f62b9df6e0501e64adfb442b3f34",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-how-to-modify-table-mappings-for-synchronization.md"
-  }
+    "path": "business-central/admin-how-to-modify-table-mappings-for-synchronization.md",
+    "description": "Learn how to map tables and fields for synchronizing data between Business Central and Microsoft Dataverse.",
+    "ms_date": "2026-03-27",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "sales",
+      "crm",
+      "integration",
+      "sync",
+      "synchronize",
+      "table mapping"
+    ],
+    "ai_usage": null,
+    "words": 2114
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4215864d2716f62b9df6e0501e64adfb442b3f34"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across import data configuration packages",
+  "title": "Use Excel to import data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.305Z",
+      "blob": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
+      "words": 657,
+      "forms": 0
     }
   },
   "input_hash": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-import-data-configuration-packages.md"
-  }
+    "path": "business-central/across-import-data-configuration-packages.md",
+    "description": "Use the default configuration package to add customer data in Excel and import the data back into Business Central.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "migration",
+      "Excel",
+      "business data import"
+    ],
+    "ai_usage": null,
+    "words": 657
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d57fc66bb846b71b5ad799c04eb5bad17e413b70"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics jobplanningline",
+  "title": "jobPlanningLine resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_jobplanningline",
   "published_at": "2026-06-18T11:11:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.987Z",
+      "blob": "c93b80987d5f1736c34d5ec0f71063c7a31de1b5",
+      "words": 121,
+      "forms": 0
     }
   },
   "input_hash": "c93b80987d5f1736c34d5ec0f71063c7a31de1b5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-analytics/resources/dynamics_jobplanningline.md"
-  }
+    "path": "dev-itpro/api-analytics/resources/dynamics_jobplanningline.md",
+    "description": "Represents a jobPlanningLine entity in Dynamics 365 Business Central analytics API.",
+    "ms_date": "2026-06-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 121
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c93b80987d5f1736c34d5ec0f71063c7a31de1b5"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "eu sales list in germany",
+  "title": "EU Sales List in Germany",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.345Z",
+      "blob": "d732ac61b274268ca511cce163d6849a880aa6ef",
+      "words": 144,
+      "forms": 0
     }
   },
   "input_hash": "d732ac61b274268ca511cce163d6849a880aa6ef",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/eu-sales-list-in-germany.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/eu-sales-list-in-germany.md",
+    "description": "In Germany, the EU sales list is submitted to the Bundeszentralamt für Steuern (BZSt) through the ELMA5 interface on the BZSt Online Portal.",
+    "ms_date": "2025-03-10",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "BZSt",
+      "EU sales list",
+      "ELMAS",
+      "ELMAS interface",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 144
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d732ac61b274268ca511cce163d6849a880aa6ef"
 }

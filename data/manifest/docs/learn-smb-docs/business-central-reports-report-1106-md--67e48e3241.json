@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1106",
+  "title": "Resource Utilization (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1106",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.101Z",
+      "blob": "8a05909e4db739dcf6cea36c4ef17660e27ce408",
+      "words": 62,
+      "forms": 1
     }
   },
   "input_hash": "8a05909e4db739dcf6cea36c4ef17660e27ce408",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1106.md"
-  }
+    "path": "business-central/reports/report-1106.md",
+    "description": "Analyze capacity and usage for each project resource for a prior period and check the balance remaining to determine if each resource was under or over utilized.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1106_Primary",
+        "id": 1106,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 62
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a05909e4db739dcf6cea36c4ef17660e27ce408"
 }

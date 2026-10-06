@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "al tool compile",
+  "title": "Compile AL project - al_compile",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-compile",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.783Z",
+      "blob": "8376d83775e2a1b9f4d1b5f0a2475c675162d791",
+      "words": 359,
+      "forms": 0
     }
   },
   "input_hash": "8376d83775e2a1b9f4d1b5f0a2475c675162d791",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/al-agent-tools/al-tool-compile.md"
-  }
+    "path": "dev-itpro/developer/al-agent-tools/al-tool-compile.md",
+    "description": "Learn about the al_compile tool available for AL development, including how to use it in Visual Studio Code with GitHub Copilot and through the AL MCP Server for headless environments and CI/CD pipelines.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 359
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8376d83775e2a1b9f4d1b5f0a2475c675162d791"
 }

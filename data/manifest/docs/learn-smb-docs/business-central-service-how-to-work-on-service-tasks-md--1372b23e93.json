@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to work on service tasks",
+  "title": "How to work on service tasks",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-work-on-service-tasks",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.504Z",
+      "blob": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358",
+      "words": 1233,
+      "forms": 0
     }
   },
   "input_hash": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-work-on-service-tasks.md"
-  }
+    "path": "business-central/service-how-to-work-on-service-tasks.md",
+    "description": "Manage service tasks in Business Central. Track orders, register spare parts, and maintain inventory from the centralized Service Tasks page.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "service tasks",
+      "service orders",
+      "service quotes",
+      "service item lines",
+      "resource allocation",
+      "spare parts registration",
+      "inventory management"
+    ],
+    "ai_usage": null,
+    "words": 1233
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358"
 }

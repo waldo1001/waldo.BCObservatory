@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "transparent data encryption",
+  "title": "Data Encryption at Rest, Transparent Data Encryption, and BitLocker",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/transparent-data-encryption",
   "published_at": "2026-01-12T07:18:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.666Z",
+      "blob": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9",
+      "words": 777,
+      "forms": 0
     }
   },
   "input_hash": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/security/transparent-data-encryption.md"
-  }
+    "path": "dev-itpro/security/transparent-data-encryption.md",
+    "description": "Learn how to secure your data at rest using TDE and BitLocker on Business Central. Protect your SQL Server and Azure SQL Database files.",
+    "ms_date": "2025-06-20",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 777
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv getenvironment method",
+  "title": "GetEnvironment Method for Control Add-ins",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-getenvironment-method",
   "published_at": "2026-10-05T10:53:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.189Z",
+      "blob": "f98e06fa1063c26e50385dac849da5d1c6b35989",
+      "words": 334,
+      "forms": 0
     }
   },
   "input_hash": "f98e06fa1063c26e50385dac849da5d1c6b35989",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods/devenv-getenvironment-method.md"
-  }
+    "path": "dev-itpro/developer/methods/devenv-getenvironment-method.md",
+    "description": "Use the GetEnvironment method in a Business Central control add-in to read user, company, client platform, interaction mode, and busy-state details.",
+    "ms_date": "2026-10-05",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 334
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f98e06fa1063c26e50385dac849da5d1c6b35989"
 }

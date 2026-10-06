@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "about export data",
+  "title": "Export your Business Central data to Excel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-export-data",
   "published_at": "2026-04-19T09:45:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.151Z",
+      "blob": "2fff24a6936737d19690e61236647c03872f1674",
+      "words": 503,
+      "forms": 1
     }
   },
   "input_hash": "2fff24a6936737d19690e61236647c03872f1674",
@@ -18,6 +24,29 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/about-export-data.md"
-  }
+    "path": "business-central/about-export-data.md",
+    "description": "You can export your financial reports and business intelligence data from Business Central to Excel, or open your data in Excel.",
+    "ms_date": "2025-04-07",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "9901",
+        "id": 9901,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "BI",
+      "Excel"
+    ],
+    "ai_usage": null,
+    "words": 503
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2fff24a6936737d19690e61236647c03872f1674"
 }

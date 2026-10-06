@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin onedrive integration",
+  "title": "Managing OneDrive Integration with Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.536Z",
+      "blob": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
+      "words": 915,
+      "forms": 1
     }
   },
   "input_hash": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-onedrive-integration.md"
-  }
+    "path": "business-central/admin-onedrive-integration.md",
+    "description": "Learn about things you can do to manage an integration between Business Central and OneDrive for Business.",
+    "ms_date": "2024-06-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "9553_Primary",
+        "id": 9553,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "OneDrive",
+      "share",
+      "browser"
+    ],
+    "ai_usage": null,
+    "words": 915
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6e5af45425619c9a8bc2f53951483fe4a1cca49"
 }

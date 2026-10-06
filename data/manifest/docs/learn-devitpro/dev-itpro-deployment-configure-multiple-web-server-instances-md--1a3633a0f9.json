@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "configure multiple web server instances",
+  "title": "Set Up Multiple Business Central Web Server Instances using PowerShell",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-multiple-web-server-instances",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.561Z",
+      "blob": "f46c8f17df0252edefd09a772012697cdbb73918",
+      "words": 866,
+      "forms": 0
     }
   },
   "input_hash": "f46c8f17df0252edefd09a772012697cdbb73918",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/deployment/configure-multiple-web-server-instances.md"
-  }
+    "path": "dev-itpro/deployment/configure-multiple-web-server-instances.md",
+    "description": "Learn how to use Windows PowerShell to set up more than one web server instance on Internet Information Service (IIS) for the Business Central web client.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 866
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f46c8f17df0252edefd09a772012697cdbb73918"
 }

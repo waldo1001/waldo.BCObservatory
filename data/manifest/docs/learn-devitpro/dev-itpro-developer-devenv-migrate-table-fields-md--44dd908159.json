@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv migrate table fields",
+  "title": "Migrating Tables and Fields Between Extensions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.393Z",
+      "blob": "cda1905a6c546d0c75f5b73d41d2856315662bf4",
+      "words": 812,
+      "forms": 0
     }
   },
   "input_hash": "cda1905a6c546d0c75f5b73d41d2856315662bf4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-migrate-table-fields.md"
-  }
+    "path": "dev-itpro/developer/devenv-migrate-table-fields.md",
+    "description": "Explains how to migrate tables and fields from one extension to another.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 812
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cda1905a6c546d0c75f5b73d41d2856315662bf4"
 }

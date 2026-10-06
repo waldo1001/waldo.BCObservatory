@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0016",
+  "title": "AppSourceCop Error AS0016",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0016",
   "published_at": "2026-06-02T11:42:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.259Z",
+      "blob": "42191398d0c6ce860f09323bdd7046f5cc8902fd",
+      "words": 250,
+      "forms": 0
     }
   },
   "input_hash": "42191398d0c6ce860f09323bdd7046f5cc8902fd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0016.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0016.md",
+    "description": "Fields of field class 'Normal' must use the DataClassification property and its value must be different from ToBeClassified.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 250
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42191398d0c6ce860f09323bdd7046f5cc8902fd"
 }

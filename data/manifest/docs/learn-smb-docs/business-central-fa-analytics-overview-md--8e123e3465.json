@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa analytics overview",
+  "title": "Fixed assets analytics",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.740Z",
+      "blob": "d251d2d7dee8be1d124d56c345e599ff357a8867",
+      "words": 1137,
+      "forms": 14
     }
   },
   "input_hash": "d251d2d7dee8be1d124d56c345e599ff357a8867",
@@ -18,6 +24,92 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-analytics-overview.md"
-  }
+    "path": "business-central/fa-analytics-overview.md",
+    "description": "Learn how to gather, analyze, and share data about fixed assets for business intelligence.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5601",
+        "id": 5601,
+        "kind": null
+      },
+      {
+        "raw": "5600",
+        "id": 5600,
+        "kind": null
+      },
+      {
+        "raw": "5615",
+        "id": 5615,
+        "kind": null
+      },
+      {
+        "raw": "5616",
+        "id": 5616,
+        "kind": null
+      },
+      {
+        "raw": "5617",
+        "id": 5617,
+        "kind": null
+      },
+      {
+        "raw": "Report_5600",
+        "id": 5600,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5601",
+        "id": 5601,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5603",
+        "id": 5603,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5604",
+        "id": 5604,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5605",
+        "id": 5605,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5606",
+        "id": 5606,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5607",
+        "id": 5607,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5608",
+        "id": 5608,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5610",
+        "id": 5610,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1137
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d251d2d7dee8be1d124d56c345e599ff357a8867"
 }

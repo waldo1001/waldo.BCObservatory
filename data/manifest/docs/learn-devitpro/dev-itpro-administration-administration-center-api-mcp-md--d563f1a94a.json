@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "administration center api mcp",
+  "title": "Business Central Administration Center API MCP Server (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp",
   "published_at": "2026-09-01T06:48:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.150Z",
+      "blob": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
+      "words": 321,
+      "forms": 0
     }
   },
   "input_hash": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/administration-center-api-mcp.md"
-  }
+    "path": "dev-itpro/administration/administration-center-api-mcp.md",
+    "description": "Get introduced to the Business Central Admin Center API MCP Server",
+    "ms_date": "2026-03-25",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "telemetry",
+      "mcp",
+      "ai"
+    ],
+    "ai_usage": null,
+    "words": 321
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254"
 }

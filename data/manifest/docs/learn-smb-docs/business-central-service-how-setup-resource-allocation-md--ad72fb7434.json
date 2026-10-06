@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how setup resource allocation",
+  "title": "Set up resource allocation | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-resource-allocation",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.437Z",
+      "blob": "bdc31c12b07eab1184854df86c59cbdc8ccfacb5",
+      "words": 612,
+      "forms": 0
     }
   },
   "input_hash": "bdc31c12b07eab1184854df86c59cbdc8ccfacb5",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-setup-resource-allocation.md"
-  }
+    "path": "business-central/service-how-setup-resource-allocation.md",
+    "description": "Learn how the system can help ensure that you assign someone who has the skills required to provide a service.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "resource",
+      "skill",
+      "service",
+      "zones"
+    ],
+    "ai_usage": null,
+    "words": 612
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdc31c12b07eab1184854df86c59cbdc8ccfacb5"
 }

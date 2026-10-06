@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv code conversion",
+  "title": "Code Conversion from C/AL to AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion",
   "published_at": "2026-06-02T11:41:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.414Z",
+      "blob": "c8d512de7132aff77d7e03294ea14d4f93175293",
+      "words": 2854,
+      "forms": 0
     }
   },
   "input_hash": "c8d512de7132aff77d7e03294ea14d4f93175293",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/devenv-code-conversion.md"
-  }
+    "path": "dev-itpro/upgrade/devenv-code-conversion.md",
+    "description": "Description of the conversion process from C/AL to AL.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2854
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8d512de7132aff77d7e03294ea14d4f93175293"
 }

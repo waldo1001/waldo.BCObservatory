@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "monitor server events windows event log",
+  "title": "Monitoring Business Central Server Events in Event Viewer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.405Z",
+      "blob": "9884e5c8937429e3892410141f02a258e065195c",
+      "words": 975,
+      "forms": 0
     }
   },
   "input_hash": "9884e5c8937429e3892410141f02a258e065195c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/monitor-server-events-windows-event-log.md"
-  }
+    "path": "dev-itpro/administration/monitor-server-events-windows-event-log.md",
+    "description": "Learn about using event viewer to monitor Business Central Server instances",
+    "ms_date": "2021-06-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 975
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9884e5c8937429e3892410141f02a258e065195c"
 }

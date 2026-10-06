@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "subcontract wip transfers",
+  "title": "Transfer WIP items between subcontractors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-wip-transfers",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.323Z",
+      "blob": "f4d6d365bc9d91b8d0b2e7f23b6c713ad36f39af",
+      "words": 2118,
+      "forms": 2
     }
   },
   "input_hash": "f4d6d365bc9d91b8d0b2e7f23b6c713ad36f39af",
@@ -18,6 +24,35 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/subcontract-wip-transfers.md"
-  }
+    "path": "business-central/subcontract-wip-transfers.md",
+    "description": "Learn how to transfer work-in-progress (WIP) items between subcontractors using transfer orders, track WIP quantities in a dedicated ledger, and adjust or clean up WIP quantities.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99001560",
+        "id": 99001560,
+        "kind": null
+      },
+      {
+        "raw": "99001561",
+        "id": 99001561,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "subcontracting",
+      "WIP",
+      "work-in-progress",
+      "transfer order",
+      "WIP ledger",
+      "WIP adjustment",
+      "multi-stage"
+    ],
+    "ai_usage": null,
+    "words": 2118
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4d6d365bc9d91b8d0b2e7f23b6c713ad36f39af"
 }

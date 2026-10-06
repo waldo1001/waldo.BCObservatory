@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al874",
+  "title": "Compiler Error AL0874",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al874",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.224Z",
+      "blob": "915583604b15eb0e0355fd2a84cc1617051f1a81",
+      "words": 58,
+      "forms": 0
     }
   },
   "input_hash": "915583604b15eb0e0355fd2a84cc1617051f1a81",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al874.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al874.md",
+    "description": "Pages with SubType set to UserControlHost must specify exactly one control of type usercontrol in the Content Area.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 58
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "915583604b15eb0e0355fd2a84cc1617051f1a81"
 }

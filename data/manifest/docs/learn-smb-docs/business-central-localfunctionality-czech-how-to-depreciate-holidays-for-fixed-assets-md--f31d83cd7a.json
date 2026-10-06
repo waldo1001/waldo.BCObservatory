@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to depreciate holidays for fixed assets",
+  "title": "Czech local functionality - Fixed assets depreciation holiday",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.303Z",
+      "blob": "7d86271bc392b34f3abee16702a98413bc5574ef",
+      "words": 140,
+      "forms": 0
     }
   },
   "input_hash": "7d86271bc392b34f3abee16702a98413bc5574ef",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md",
+    "description": "This feature allows users to discontinue depreciation for specific fixed assets during defined periods.",
+    "ms_date": "2025-06-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Fixed Asset",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d86271bc392b34f3abee16702a98413bc5574ef"
 }

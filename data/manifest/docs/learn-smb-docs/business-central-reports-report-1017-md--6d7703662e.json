@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1017",
+  "title": "Job Task Quote report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1017",
   "published_at": "2026-09-18T12:05:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.624Z",
+      "blob": "b52256e3f3e270ee843796329736652b3004ec45",
+      "words": 236,
+      "forms": 1
     }
   },
   "input_hash": "b52256e3f3e270ee843796329736652b3004ec45",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1017.md"
-  }
+    "path": "business-central/reports/report-1017.md",
+    "description": "Generate a printable quote for a project task that lists planning lines, quantities, prices, and discounts along with the total project value.",
+    "ms_date": "2026-09-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1017",
+        "id": 1017,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b52256e3f3e270ee843796329736652b3004ec45"
 }

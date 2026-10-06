@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details inventory valuation",
+  "title": "Design details - Inventory valuation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-valuation",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.620Z",
+      "blob": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909",
+      "words": 528,
+      "forms": 0
     }
   },
   "input_hash": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-inventory-valuation.md"
-  }
+    "path": "business-central/design-details-inventory-valuation.md",
+    "description": "Inventory valuation is the determination of the cost of an inventory item.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 528
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909"
 }

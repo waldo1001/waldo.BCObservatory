@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create check installments",
+  "title": "Create check installments [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.736Z",
+      "blob": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
+      "words": 15,
+      "forms": 4
     }
   },
   "input_hash": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-create-check-installments.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-create-check-installments.md",
+    "description": "Learn how to create check installments for postdated checks, define the number of installments, interest percent, and the period for the checks in the Australian version",
+    "ms_date": "2025-03-25",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "28090",
+        "id": 28090,
+        "kind": null
+      },
+      {
+        "raw": "28091",
+        "id": 28091,
+        "kind": null
+      },
+      {
+        "raw": "28092",
+        "id": 28092,
+        "kind": null
+      },
+      {
+        "raw": "28093",
+        "id": 28093,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "create check installments",
+      "postdated checks",
+      "interest percent",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 15
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1bcd881ecad7426df24ff82aa3e78d045f6d4902"
 }

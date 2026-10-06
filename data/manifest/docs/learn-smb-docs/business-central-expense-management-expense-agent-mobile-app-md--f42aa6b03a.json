@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent mobile app",
+  "title": "Use the Expense Agent Mobile App (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.311Z",
+      "blob": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
+      "words": 1980,
+      "forms": 0
     }
   },
   "input_hash": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent-mobile-app.md"
-  }
+    "path": "business-central/expense-management/expense-agent-mobile-app.md",
+    "description": "Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1980
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0"
 }

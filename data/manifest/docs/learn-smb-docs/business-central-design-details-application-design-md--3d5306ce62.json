@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details application design",
+  "title": "Application design details",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-application-design",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.266Z",
+      "blob": "55af66591abcefb2783093ef957f572b8391bd1d",
+      "words": 276,
+      "forms": 0
     }
   },
   "input_hash": "55af66591abcefb2783093ef957f572b8391bd1d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-application-design.md"
-  }
+    "path": "business-central/design-details-application-design.md",
+    "description": "This content contains detailed technical information about complex application features in Business Central.",
+    "ms_date": "2024-06-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 276
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "55af66591abcefb2783093ef957f572b8391bd1d"
 }

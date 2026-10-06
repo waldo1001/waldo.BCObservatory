@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory powerbi inventory by lot",
+  "title": "Inventory by Lot No. (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.546Z",
+      "blob": "bf55dfc3e72d561f6bb2a7fc7b54f972fb3a54f9",
+      "words": 219,
+      "forms": 1
     }
   },
   "input_hash": "bf55dfc3e72d561f6bb2a7fc7b54f972fb3a54f9",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-powerbi-inventory-by-lot.md"
-  }
+    "path": "business-central/inventory-powerbi-inventory-by-lot.md",
+    "description": "The Inventory by Lot No. report shows total inventory broken down per lot.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37029_Primary",
+        "id": 37029,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 219
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf55dfc3e72d561f6bb2a7fc7b54f972fb3a54f9"
 }

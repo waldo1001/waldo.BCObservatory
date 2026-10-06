@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate business central on premises",
+  "title": "Business Central on-premises to online migration overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.248Z",
+      "blob": "d8a0b824d978e9ae73b02439e4e8d9e0667a39da",
+      "words": 2709,
+      "forms": 0
     }
   },
   "input_hash": "d8a0b824d978e9ae73b02439e4e8d9e0667a39da",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-business-central-on-premises.md"
-  }
+    "path": "dev-itpro/administration/migrate-business-central-on-premises.md",
+    "description": "This article provides an overview of how the migration works from Business Central on-premises and the necessary tasks for completing the migration.",
+    "ms_date": "2026-05-23",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "cloud",
+      "migrate",
+      "saas",
+      "online"
+    ],
+    "ai_usage": null,
+    "words": 2709
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8a0b824d978e9ae73b02439e4e8d9e0667a39da"
 }

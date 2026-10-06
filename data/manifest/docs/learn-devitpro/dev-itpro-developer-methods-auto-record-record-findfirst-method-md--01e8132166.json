@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "record findfirst method",
+  "title": "Record.FindFirst() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-findfirst-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.974Z",
+      "blob": "ea98335ca8fee60f6d14f8777d03b04a75e48324",
+      "words": 241,
+      "forms": 0
     }
   },
   "input_hash": "ea98335ca8fee60f6d14f8777d03b04a75e48324",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/record/record-findfirst-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/record/record-findfirst-method.md",
+    "description": "Finds the first record in a table based on the current key and filter.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 241
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea98335ca8fee60f6d14f8777d03b04a75e48324"
 }

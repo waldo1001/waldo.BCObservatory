@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic avs0102",
+  "title": "AVS Error AVS0102",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0102",
   "published_at": "2025-01-30T11:09:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.380Z",
+      "blob": "d5506a273d6566ada87ee534e4289e42b2901ed7",
+      "words": 46,
+      "forms": 0
     }
   },
   "input_hash": "d5506a273d6566ada87ee534e4289e42b2901ed7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0102.md"
-  }
+    "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0102.md",
+    "description": "A package with publisher '{0}', name '{1}', and a version compatible with '{2}' could not be loaded.",
+    "ms_date": "2025-01-30",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 46
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5506a273d6566ada87ee534e4289e42b2901ed7"
 }

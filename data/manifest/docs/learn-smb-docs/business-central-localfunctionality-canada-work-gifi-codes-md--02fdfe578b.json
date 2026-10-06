@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "work gifi codes",
+  "title": "GIFI Codes in Canada",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/work-gifi-codes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.039Z",
+      "blob": "843a0b02c55951db3f5ff1bf18b74f5870bc514e",
+      "words": 551,
+      "forms": 1
     }
   },
   "input_hash": "843a0b02c55951db3f5ff1bf18b74f5870bc514e",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Canada/work-gifi-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Canada/work-gifi-codes.md",
+    "description": "In Canada, you can set up General Index of Financial Information (GIFI) codes and assign them to posting accounts.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "10017",
+        "id": 10017,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "GIFI",
+      "posting accounts"
+    ],
+    "ai_usage": null,
+    "words": 551
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "843a0b02c55951db3f5ff1bf18b74f5870bc514e"
 }

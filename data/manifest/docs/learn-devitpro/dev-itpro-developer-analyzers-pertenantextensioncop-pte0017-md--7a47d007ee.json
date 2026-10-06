@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "pertenantextensioncop pte0017",
+  "title": "PerTenantExtensionCop Warning PTE0017",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0017",
   "published_at": "2024-08-27T10:50:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.902Z",
+      "blob": "8fa1da22244fbc792315333bab5433d9dce95e4d",
+      "words": 77,
+      "forms": 0
     }
   },
   "input_hash": "8fa1da22244fbc792315333bab5433d9dce95e4d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0017.md"
-  }
+    "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0017.md",
+    "description": "Permission set extensions should not include permission sets from another application.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 77
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8fa1da22244fbc792315333bab5433d9dce95e4d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service service order status and repair status",
+  "title": "Service order status and repair status",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-order-status-and-repair-status",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.528Z",
+      "blob": "962751725f74088066578efc21d8720402520680",
+      "words": 674,
+      "forms": 0
     }
   },
   "input_hash": "962751725f74088066578efc21d8720402520680",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-service-order-status-and-repair-status.md"
-  }
+    "path": "business-central/service-service-order-status-and-repair-status.md",
+    "description": "The service order status shows the overall repair status of all service items included in the order.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "service order status",
+      "repair status",
+      "repair status code",
+      "service item status"
+    ],
+    "ai_usage": null,
+    "words": 674
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "962751725f74088066578efc21d8720402520680"
 }

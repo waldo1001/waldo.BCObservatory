@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0047",
+  "title": "AppSourceCop Error AS0047",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0047",
   "published_at": "2026-07-30T13:23:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.626Z",
+      "blob": "56de680d34d0060b19f757f29ee0fc80bc3956d6",
+      "words": 77,
+      "forms": 0
     }
   },
   "input_hash": "56de680d34d0060b19f757f29ee0fc80bc3956d6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0047.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0047.md",
+    "description": "The extension name length must not exceed the limit of 200 characters.",
+    "ms_date": "2026-07-30",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 77
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "56de680d34d0060b19f757f29ee0fc80bc3956d6"
 }

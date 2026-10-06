@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv datacaptionexpression property",
+  "title": "DataCaptionExpression property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-datacaptionexpression-property",
   "published_at": "2025-02-18T14:04:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.520Z",
+      "blob": "e61bf318aa25f3efa12097f52f4f478926da2582",
+      "words": 90,
+      "forms": 0
     }
   },
   "input_hash": "e61bf318aa25f3efa12097f52f4f478926da2582",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-datacaptionexpression-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-datacaptionexpression-property.md",
+    "description": "Sets an AL expression that is evaluated and displayed to the left of the page caption.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 90
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e61bf318aa25f3efa12097f52f4f478926da2582"
 }

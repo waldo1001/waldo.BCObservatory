@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 6",
+  "title": "Trial Balance (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.735Z",
+      "blob": "d83fd27834c38bec5b19d849a1485c7f6b0194f3",
+      "words": 160,
+      "forms": 1
     }
   },
   "input_hash": "d83fd27834c38bec5b19d849a1485c7f6b0194f3",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-6.md"
-  }
+    "path": "business-central/reports/report-6.md",
+    "description": "View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_6_Primary",
+        "id": 6,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 160
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d83fd27834c38bec5b19d849a1485c7f6b0194f3"
 }

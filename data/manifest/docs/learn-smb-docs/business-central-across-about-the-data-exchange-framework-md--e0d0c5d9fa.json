@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across about the data exchange framework",
+  "title": "About the Data Exchange Framework",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.122Z",
+      "blob": "bedf4ee12e8c8112acdff22dea9811fbda8d4737",
+      "words": 1157,
+      "forms": 1
     }
   },
   "input_hash": "bedf4ee12e8c8112acdff22dea9811fbda8d4737",
@@ -18,6 +24,30 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-about-the-data-exchange-framework.md"
-  }
+    "path": "business-central/across-about-the-data-exchange-framework.md",
+    "description": "Learn how the Data Exchange Framework enables you to exchange business documents, such as invoices, with partners and authorities in Business Central.",
+    "ms_date": "2025-10-13",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "189",
+        "id": 189,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Data exchange framework",
+      "data files",
+      "data exchange",
+      "electronic document",
+      "invoice",
+      "standard-compliant file",
+      "OCR"
+    ],
+    "ai_usage": null,
+    "words": 1157
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bedf4ee12e8c8112acdff22dea9811fbda8d4737"
 }

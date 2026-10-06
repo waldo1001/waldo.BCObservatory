@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0096",
+  "title": "AppSourceCop Error AS0096",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0096",
   "published_at": "2026-06-02T11:42:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.304Z",
+      "blob": "71e55693378df5e372d45f0fc8e8ac33f4d4f40e",
+      "words": 254,
+      "forms": 0
     }
   },
   "input_hash": "71e55693378df5e372d45f0fc8e8ac33f4d4f40e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0096.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0096.md",
+    "description": "The name of an extension cannot be changed for extensions targeting a runtime version lower than '8.0' in their app.json file.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 254
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71e55693378df5e372d45f0fc8e8ac33f4d4f40e"
 }

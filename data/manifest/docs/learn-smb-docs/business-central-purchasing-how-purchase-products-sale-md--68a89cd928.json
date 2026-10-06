@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how purchase products sale",
+  "title": "Purchase items for a sale",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.654Z",
+      "blob": "631b881f9cd3fd780894a12c1ee600ed4ea098d8",
+      "words": 604,
+      "forms": 4
     }
   },
   "input_hash": "631b881f9cd3fd780894a12c1ee600ed4ea098d8",
@@ -18,6 +24,41 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-purchase-products-sale.md"
-  }
+    "path": "business-central/purchasing-how-purchase-products-sale.md",
+    "description": "Create a purchase invoice for a vendor or supplier directly from a sales invoice to buy products needed for a sale.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "51",
+        "id": 51,
+        "kind": null
+      },
+      {
+        "raw": "56",
+        "id": 56,
+        "kind": null
+      },
+      {
+        "raw": "9308",
+        "id": 9308,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "supply planning",
+      "sales demand",
+      "replenish"
+    ],
+    "ai_usage": null,
+    "words": 604
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "631b881f9cd3fd780894a12c1ee600ed4ea098d8"
 }

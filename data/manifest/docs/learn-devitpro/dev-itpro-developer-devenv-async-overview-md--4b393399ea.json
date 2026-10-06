@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv async overview",
+  "title": "Async processing Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.579Z",
+      "blob": "48a6276fa6887ed6e4284142b0fa178f3b8a2993",
+      "words": 118,
+      "forms": 0
     }
   },
   "input_hash": "48a6276fa6887ed6e4284142b0fa178f3b8a2993",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-async-overview.md"
-  }
+    "path": "dev-itpro/developer/devenv-async-overview.md",
+    "description": "Overview on the different ways an AL developer can do asynchronous (async) processing.",
+    "ms_date": "2023-10-04",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 118
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "48a6276fa6887ed6e4284142b0fa178f3b8a2993"
 }

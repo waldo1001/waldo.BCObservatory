@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how use multiple vat registrations",
+  "title": "Multiple VAT registration numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.691Z",
+      "blob": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
+      "words": 860,
+      "forms": 2
     }
   },
   "input_hash": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-use-multiple-vat-registrations.md"
-  }
+    "path": "business-central/finance-how-use-multiple-vat-registrations.md",
+    "description": "Learn about the functionality for multiple (alternative) value-added tax (VAT) registration numbers.",
+    "ms_date": "2024-08-21",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "212",
+        "id": 212,
+        "kind": null
+      },
+      {
+        "raw": "301",
+        "id": 301,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "multiple",
+      "alternative",
+      "customer",
+      "tax",
+      "value-added tax"
+    ],
+    "ai_usage": null,
+    "words": 860
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9"
 }

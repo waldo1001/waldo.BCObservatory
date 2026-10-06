@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1057",
+  "title": "Compiler Error AL1057",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1057",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.879Z",
+      "blob": "c2258829683cf59ffb36e77d4ac266f066431cda",
+      "words": 63,
+      "forms": 0
     }
   },
   "input_hash": "c2258829683cf59ffb36e77d4ac266f066431cda",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1057.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1057.md",
+    "description": "The module specification is not valid.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 63
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c2258829683cf59ffb36e77d4ac266f066431cda"
 }

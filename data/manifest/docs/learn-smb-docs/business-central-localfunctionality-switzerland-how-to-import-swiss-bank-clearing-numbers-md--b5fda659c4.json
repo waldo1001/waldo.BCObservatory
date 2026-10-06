@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import swiss bank clearing numbers",
+  "title": "Import Swiss Bank Clearing Numbers [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.917Z",
+      "blob": "1308ae88c14c726fd1c1b4e59592b2f86b021744",
+      "words": 405,
+      "forms": 1
     }
   },
   "input_hash": "1308ae88c14c726fd1c1b4e59592b2f86b021744",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md",
+    "description": "Learn how to import Swiss Bank Clearing Numbers using the Swiss version of Business Central.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "11501",
+        "id": 11501,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "clearing numbers",
+      "bank clearing numbers",
+      "import bank clearing numbers",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 405
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1308ae88c14c726fd1c1b4e59592b2f86b021744"
 }

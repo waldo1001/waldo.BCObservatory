@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin powerbi setup",
+  "title": "Enabling Power BI integration with Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.339Z",
+      "blob": "e45490aa399eb9b6f5edff2b98f3d884538a6ce8",
+      "words": 1425,
+      "forms": 0
     }
   },
   "input_hash": "e45490aa399eb9b6f5edff2b98f3d884538a6ce8",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-powerbi-setup.md"
-  }
+    "path": "business-central/admin-powerbi-setup.md",
+    "description": "Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "Power BI",
+      "setup",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 1425
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e45490aa399eb9b6f5edff2b98f3d884538a6ce8"
 }

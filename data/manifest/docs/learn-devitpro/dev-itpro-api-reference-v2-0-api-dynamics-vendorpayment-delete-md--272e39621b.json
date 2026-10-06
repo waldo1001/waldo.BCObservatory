@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics vendorpayment delete",
+  "title": "DELETE vendorPayments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendorpayment_delete",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.395Z",
+      "blob": "c81882e36c9b6c22a871a72ef8e57c774cc43f53",
+      "words": 108,
+      "forms": 0
     }
   },
   "input_hash": "c81882e36c9b6c22a871a72ef8e57c774cc43f53",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_vendorpayment_delete.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_vendorpayment_delete.md",
+    "description": "Deletes vendorPayment  in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 108
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c81882e36c9b6c22a871a72ef8e57c774cc43f53"
 }

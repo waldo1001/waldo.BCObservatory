@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions microsoft pay payments",
+  "title": "Microsoft Pay Standard",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-microsoft-pay-payments",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.775Z",
+      "blob": "32fe4ddbf0c096b14f5c9244498dfab6dd31c794",
+      "words": 370,
+      "forms": 6
     }
   },
   "input_hash": "32fe4ddbf0c096b14f5c9244498dfab6dd31c794",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-microsoft-pay-payments.md"
-  }
+    "path": "business-central/ui-extensions-microsoft-pay-payments.md",
+    "description": "The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.",
+    "ms_date": "2023-12-12",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "1080",
+        "id": 1080,
+        "kind": null
+      },
+      {
+        "raw": "1081",
+        "id": 1081,
+        "kind": null
+      },
+      {
+        "raw": "1083",
+        "id": 1083,
+        "kind": null
+      },
+      {
+        "raw": "1085",
+        "id": 1085,
+        "kind": null
+      },
+      {
+        "raw": "1087",
+        "id": 1087,
+        "kind": null
+      },
+      {
+        "raw": "1089",
+        "id": 1089,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 370
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "32fe4ddbf0c096b14f5c9244498dfab6dd31c794"
 }

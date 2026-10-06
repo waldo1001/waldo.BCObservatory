@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5065",
+  "title": "Segment - Labels (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5065",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.426Z",
+      "blob": "a4add32f3b8143f4f9e47099e40e2c8f0cb2d3f5",
+      "words": 150,
+      "forms": 1
     }
   },
   "input_hash": "a4add32f3b8143f4f9e47099e40e2c8f0cb2d3f5",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5065.md"
-  }
+    "path": "business-central/reports/report-5065.md",
+    "description": "Print labels with the names and addresses of contacts for your segments.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5065_Primary",
+        "id": 5065,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 150
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a4add32f3b8143f4f9e47099e40e2c8f0cb2d3f5"
 }

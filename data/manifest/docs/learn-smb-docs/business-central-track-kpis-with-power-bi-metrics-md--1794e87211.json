@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "track kpis with power bi metrics",
+  "title": "Track your business KPIs with Power BI metrics",
   "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.994Z",
+      "blob": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
+      "words": 263,
+      "forms": 2
     }
   },
   "input_hash": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/track-kpis-with-power-bi-metrics.md"
-  }
+    "path": "business-central/track-kpis-with-power-bi-metrics.md",
+    "description": "Get an overview of using Power BI to get business intelligence and KPIs from your Business Central data.",
+    "ms_date": "2024-04-24",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "6316",
+        "id": 6316,
+        "kind": null
+      },
+      {
+        "raw": "6317",
+        "id": 6317,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "account schedule",
+      "analysis",
+      "reporting",
+      "financial report",
+      "business intelligence",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 263
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a1b5701e2669cd8ac23cd0784449908f8c469a3d"
 }

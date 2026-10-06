@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv post process report pdf",
+  "title": "Attach Files, Append, and Protect Report PDFs with AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-post-process-report-pdf",
   "published_at": "2025-12-22T15:48:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.727Z",
+      "blob": "27eb2afc8020457e6a8132e087b65466a96fe7e4",
+      "words": 1036,
+      "forms": 0
     }
   },
   "input_hash": "27eb2afc8020457e6a8132e087b65466a96fe7e4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-post-process-report-pdf.md"
-  }
+    "path": "dev-itpro/developer/devenv-post-process-report-pdf.md",
+    "description": "Learn to attach files, append PDFs, and password protect report PDFs in AL. Follow best practices for compliance and secure document handling.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1036
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27eb2afc8020457e6a8132e087b65466a96fe7e4"
 }

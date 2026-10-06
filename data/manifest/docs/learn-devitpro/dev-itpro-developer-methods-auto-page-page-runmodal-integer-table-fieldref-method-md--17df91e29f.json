@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "page runmodal integer table fieldref method",
+  "title": "Page.RunModal(Integer, Record, FieldRef) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/page/page-runmodal-integer-table-fieldref-method",
   "published_at": "2025-08-20T13:59:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.218Z",
+      "blob": "1d69aac193bb32f2f3c79c01c8f0eefef0766ccd",
+      "words": 217,
+      "forms": 0
     }
   },
   "input_hash": "1d69aac193bb32f2f3c79c01c8f0eefef0766ccd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/page/page-runmodal-integer-table-fieldref-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/page/page-runmodal-integer-table-fieldref-method.md",
+    "description": "Creates, opens, and closes a page that you specify.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 217
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d69aac193bb32f2f3c79c01c8f0eefef0766ccd"
 }

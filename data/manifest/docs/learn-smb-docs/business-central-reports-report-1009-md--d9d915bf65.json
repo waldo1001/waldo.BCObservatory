@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1009",
+  "title": "Project Actual to Budget (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1009",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.045Z",
+      "blob": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4",
+      "words": 242,
+      "forms": 1
     }
   },
   "input_hash": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1009.md"
-  }
+    "path": "business-central/reports/report-1009.md",
+    "description": "Get an overview of actual vs. budgeted amounts for selected projects.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1009_Primary",
+        "id": 1009,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 242
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4"
 }

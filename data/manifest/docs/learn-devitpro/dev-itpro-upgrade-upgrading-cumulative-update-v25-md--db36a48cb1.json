@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrading cumulative update v25",
+  "title": "Install a version 25 update",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v25",
   "published_at": "2026-06-25T13:58:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.036Z",
+      "blob": "1d57b75acf933d3810cbf71448d56b5e74ffebd4",
+      "words": 2855,
+      "forms": 0
     }
   },
   "input_hash": "1d57b75acf933d3810cbf71448d56b5e74ffebd4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrading-cumulative-update-v25.md"
-  }
+    "path": "dev-itpro/upgrade/upgrading-cumulative-update-v25.md",
+    "description": "This article describes the tasks required for getting the monthly version 25 update applied to your Dynamics 365 Business Central on-premises.",
+    "ms_date": "2025-01-10",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2855
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d57b75acf933d3810cbf71448d56b5e74ffebd4"
 }

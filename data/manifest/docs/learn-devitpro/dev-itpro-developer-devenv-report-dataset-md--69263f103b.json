@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv report dataset",
+  "title": "Report dataset",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.835Z",
+      "blob": "a4ebed261fdc19dec7cddca33ccc7d03a90e2d80",
+      "words": 599,
+      "forms": 0
     }
   },
   "input_hash": "a4ebed261fdc19dec7cddca33ccc7d03a90e2d80",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-report-dataset.md"
-  }
+    "path": "dev-itpro/developer/devenv-report-dataset.md",
+    "description": "The dataset determines the data extracted to print or display the information from the database.",
+    "ms_date": "2024-01-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 599
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a4ebed261fdc19dec7cddca33ccc7d03a90e2d80"
 }

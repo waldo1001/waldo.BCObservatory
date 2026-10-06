@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing date calculation for purchases",
+  "title": "Calculate dates for purchases",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.629Z",
+      "blob": "f3cfd5e2828564b672032104222e15e44765b092",
+      "words": 509,
+      "forms": 0
     }
   },
   "input_hash": "f3cfd5e2828564b672032104222e15e44765b092",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-date-calculation-for-purchases.md"
-  }
+    "path": "business-central/purchasing-date-calculation-for-purchases.md",
+    "description": "Learn how to calculate purchase dates to optimize inventory planning and streamline procurement processes.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "purchase order",
+      "purchase",
+      "date",
+      "receipt",
+      "delivery",
+      "lead time"
+    ],
+    "ai_usage": null,
+    "words": 509
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3cfd5e2828564b672032104222e15e44765b092"
 }

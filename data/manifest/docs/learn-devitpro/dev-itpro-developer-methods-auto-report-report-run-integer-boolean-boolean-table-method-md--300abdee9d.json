@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "report run integer boolean boolean table method",
+  "title": "Report.Run(Integer [, Boolean] [, Boolean] [, var Record]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-run-integer-boolean-boolean-table-method",
   "published_at": "2026-03-11T10:16:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.020Z",
+      "blob": "4f2d910600f2fd481e634b9a2e837282a8343f5f",
+      "words": 151,
+      "forms": 0
     }
   },
   "input_hash": "4f2d910600f2fd481e634b9a2e837282a8343f5f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/report/report-run-integer-boolean-boolean-table-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/report/report-run-integer-boolean-boolean-table-method.md",
+    "description": "Loads and executes the report that you specify.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 151
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f2d910600f2fd481e634b9a2e837282a8343f5f"
 }

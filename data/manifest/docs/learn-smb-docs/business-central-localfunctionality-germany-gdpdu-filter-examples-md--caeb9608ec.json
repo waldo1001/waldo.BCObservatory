@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "gdpdu filter examples",
+  "title": "GoBD filter examples [DE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.349Z",
+      "blob": "395a611e54d2fc266e5ebdce216e930d25d369d3",
+      "words": 433,
+      "forms": 9
     }
   },
   "input_hash": "395a611e54d2fc266e5ebdce216e930d25d369d3",
@@ -18,6 +24,69 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/gdpdu-filter-examples.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/gdpdu-filter-examples.md",
+    "description": "Learn how to use filter types when you set up your GoBD exports.",
+    "ms_date": "2025-03-10",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11002",
+        "id": 11002,
+        "kind": null
+      },
+      {
+        "raw": "11003",
+        "id": 11003,
+        "kind": null
+      },
+      {
+        "raw": "11004",
+        "id": 11004,
+        "kind": null
+      },
+      {
+        "raw": "11007",
+        "id": 11007,
+        "kind": null
+      },
+      {
+        "raw": "11008",
+        "id": 11008,
+        "kind": null
+      },
+      {
+        "raw": "11009",
+        "id": 11009,
+        "kind": null
+      },
+      {
+        "raw": "11014",
+        "id": 11014,
+        "kind": null
+      },
+      {
+        "raw": "11026",
+        "id": 11026,
+        "kind": null
+      },
+      {
+        "raw": "11027",
+        "id": 11027,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "GoBD exports",
+      "filter types",
+      "German version",
+      "set up export record source",
+      "table filter",
+      "date filter handling"
+    ],
+    "ai_usage": null,
+    "words": 433
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "395a611e54d2fc266e5ebdce216e930d25d369d3"
 }

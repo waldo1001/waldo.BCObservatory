@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "connect subscription service object",
+  "title": "Link supplier subscriptions with subscriptions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/connect-subscription-service-object",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.995Z",
+      "blob": "1b960861355e4e7cdf914725675351bace038167",
+      "words": 355,
+      "forms": 2
     }
   },
   "input_hash": "1b960861355e4e7cdf914725675351bace038167",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/processing-usage-data/connect-subscription-service-object.md"
-  }
+    "path": "business-central/UBB/processing-usage-data/connect-subscription-service-object.md",
+    "description": "You can link supplier subscriptions with subscriptions in usage-based billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8031",
+        "id": 8031,
+        "kind": null
+      },
+      {
+        "raw": "8042",
+        "id": 8042,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 355
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b960861355e4e7cdf914725675351bace038167"
 }

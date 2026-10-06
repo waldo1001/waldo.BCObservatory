@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "combine automatic manual flushing",
+  "title": "Combine Automatic and Manual Flushing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing",
   "published_at": "2026-05-20T09:24:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.662Z",
+      "blob": "e463da56bdeec4558047156348cff016966abb7b",
+      "words": 808,
+      "forms": 0
     }
   },
   "input_hash": "e463da56bdeec4558047156348cff016966abb7b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing.md"
-  }
+    "path": "business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing.md",
+    "description": "Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.",
+    "ms_date": "2026-05-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 808
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e463da56bdeec4558047156348cff016966abb7b"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "configure server instance",
+  "title": "Configure Business Central Server",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.374Z",
+      "blob": "9332bb481c053dc3a279480beb2db72b57c64aaf",
+      "words": 756,
+      "forms": 0
     }
   },
   "input_hash": "9332bb481c053dc3a279480beb2db72b57c64aaf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/configure-server-instance.md"
-  }
+    "path": "dev-itpro/administration/configure-server-instance.md",
+    "description": "Configure and modify settings in the Setup or Installed Business Central Server using PowerShell Cmdlets.",
+    "ms_date": "2026-08-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 756
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9332bb481c053dc3a279480beb2db72b57c64aaf"
 }

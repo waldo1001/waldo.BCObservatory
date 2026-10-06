@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "belgian intrastat reporting",
+  "title": "Belgian Intrastat Reporting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.876Z",
+      "blob": "efc3522b7601c370f2abc9917d032d2e1257641e",
+      "words": 126,
+      "forms": 0
     }
   },
   "input_hash": "efc3522b7601c370f2abc9917d032d2e1257641e",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting.md",
+    "description": "Companies in the European Union (EU) must report trade within the EU via Intrastat reporting or VAT Information Exchange System.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Intrastat reporting",
+      "VAT Information Exchange System",
+      "Belgian version",
+      "VIES",
+      "trade reporting"
+    ],
+    "ai_usage": null,
+    "words": 126
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efc3522b7601c370f2abc9917d032d2e1257641e"
 }

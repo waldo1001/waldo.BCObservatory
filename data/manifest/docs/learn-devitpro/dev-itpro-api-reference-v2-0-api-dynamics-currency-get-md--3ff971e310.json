@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics currency get",
+  "title": "GET currencies",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_currency_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.380Z",
+      "blob": "3d10047e1dff28e8b6a71e4ed5f4c4e7e199c760",
+      "words": 114,
+      "forms": 0
     }
   },
   "input_hash": "3d10047e1dff28e8b6a71e4ed5f4c4e7e199c760",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_currency_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_currency_get.md",
+    "description": "Gets a currency object in Dynamics 365 Business Central.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 114
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d10047e1dff28e8b6a71e4ed5f4c4e7e199c760"
 }

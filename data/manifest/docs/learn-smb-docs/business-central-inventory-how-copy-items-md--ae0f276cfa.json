@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory how copy items",
+  "title": "How to Copy Existing Items to New Items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-copy-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.776Z",
+      "blob": "cbbd29d4890354d3fad91df42e383a9854fd2985",
+      "words": 176,
+      "forms": 0
     }
   },
   "input_hash": "cbbd29d4890354d3fad91df42e383a9854fd2985",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-how-copy-items.md"
-  }
+    "path": "business-central/inventory-how-copy-items.md",
+    "description": "When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 176
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cbbd29d4890354d3fad91df42e383a9854fd2985"
 }

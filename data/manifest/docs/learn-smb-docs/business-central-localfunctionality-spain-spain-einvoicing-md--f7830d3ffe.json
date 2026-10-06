@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "spain einvoicing",
+  "title": "Electronic invoicing in Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/spain-einvoicing",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.763Z",
+      "blob": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
+      "words": 353,
+      "forms": 0
     }
   },
   "input_hash": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/spain-einvoicing.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/spain-einvoicing.md",
+    "description": "Learn how to set up and work with the Spanish localization of the E-Document framework.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Spanish localization",
+      "Spanish local functionality",
+      "e-documents framework",
+      "e-documents",
+      "framework setup",
+      "local formats setup",
+      "e-invoices",
+      "credit memos corrections",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 353
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983"
 }

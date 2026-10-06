@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "system compressarray method",
+  "title": "System.CompressArray(Array of [Text]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-compressarray-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.060Z",
+      "blob": "7ad6069bdb879b414ef383080c163e4743d8bea8",
+      "words": 345,
+      "forms": 0
     }
   },
   "input_hash": "7ad6069bdb879b414ef383080c163e4743d8bea8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/system/system-compressarray-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/system/system-compressarray-method.md",
+    "description": "Moves all non-empty strings (text) in an array to the beginning of the array.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 345
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ad6069bdb879b414ef383080c163e4743d8bea8"
 }

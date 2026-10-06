@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics generalledgerbudgets",
+  "title": "generalLedgerBudgets resource type (Beta)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_generalledgerbudgets",
   "published_at": "2026-06-22T08:22:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.182Z",
+      "blob": "8a6558a17a117495a370b7820e273585b106327d",
+      "words": 145,
+      "forms": 0
     }
   },
   "input_hash": "8a6558a17a117495a370b7820e273585b106327d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/financereportsapi/resources/dynamics_generalledgerbudgets.md"
-  }
+    "path": "dev-itpro/administration/financereportsapi/resources/dynamics_generalledgerbudgets.md",
+    "description": "A general ledger budgets object in Dynamics 365 Business Central (Beta).",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 145
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a6558a17a117495a370b7820e273585b106327d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use tax depreciation for fixed assets",
+  "title": "Czech local functionality - Tax depreciation for fixed assets | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.419Z",
+      "blob": "09096ec69b4c0a0e12adf0ad4ca7903c1477d070",
+      "words": 159,
+      "forms": 0
     }
   },
   "input_hash": "09096ec69b4c0a0e12adf0ad4ca7903c1477d070",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets.md",
+    "description": "Use the Fixed Assets Tax Depreciation feature to calculate and posts tax depreciation for fixed assets in accordance with the Czech Income Tax Act.",
+    "ms_date": "2025-06-05",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Fixed Asset",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 159
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09096ec69b4c0a0e12adf0ad4ca7903c1477d070"
 }

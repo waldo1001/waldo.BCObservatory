@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "italian vat",
+  "title": "Italian VAT",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.951Z",
+      "blob": "bf0b183ee3bb934465f324dc9340a52295254102",
+      "words": 1295,
+      "forms": 18
     }
   },
   "input_hash": "bf0b183ee3bb934465f324dc9340a52295254102",
@@ -18,6 +24,116 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/italian-vat.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/italian-vat.md",
+    "description": "In the Italian version, companies can deduct VAT on goods or services purchased if they're used to generate business income.",
+    "ms_date": "2025-05-22",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "12100",
+        "id": 12100,
+        "kind": null
+      },
+      {
+        "raw": "12104",
+        "id": 12104,
+        "kind": null
+      },
+      {
+        "raw": "12105",
+        "id": 12105,
+        "kind": null
+      },
+      {
+        "raw": "12111",
+        "id": 12111,
+        "kind": null
+      },
+      {
+        "raw": "12112",
+        "id": 12112,
+        "kind": null
+      },
+      {
+        "raw": "12113",
+        "id": 12113,
+        "kind": null
+      },
+      {
+        "raw": "12122",
+        "id": 12122,
+        "kind": null
+      },
+      {
+        "raw": "12126",
+        "id": 12126,
+        "kind": null
+      },
+      {
+        "raw": "12127",
+        "id": 12127,
+        "kind": null
+      },
+      {
+        "raw": "12133",
+        "id": 12133,
+        "kind": null
+      },
+      {
+        "raw": "12135",
+        "id": 12135,
+        "kind": null
+      },
+      {
+        "raw": "12151",
+        "id": 12151,
+        "kind": null
+      },
+      {
+        "raw": "12158",
+        "id": 12158,
+        "kind": null
+      },
+      {
+        "raw": "12187",
+        "id": 12187,
+        "kind": null
+      },
+      {
+        "raw": "12189",
+        "id": 12189,
+        "kind": null
+      },
+      {
+        "raw": "12198",
+        "id": 12198,
+        "kind": null
+      },
+      {
+        "raw": "12199",
+        "id": 12199,
+        "kind": null
+      },
+      {
+        "raw": "12202",
+        "id": 12202,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Italian VAT",
+      "VAT codes",
+      "VAT rates",
+      "VAT computation",
+      "non-deductible VAT",
+      "service tariffs",
+      "VAT transaction reports",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 1295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf0b183ee3bb934465f324dc9340a52295254102"
 }

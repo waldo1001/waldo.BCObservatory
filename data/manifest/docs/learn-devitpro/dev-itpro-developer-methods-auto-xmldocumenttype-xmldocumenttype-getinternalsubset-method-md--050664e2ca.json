@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "xmldocumenttype getinternalsubset method",
+  "title": "XmlDocumentType.GetInternalSubset(var Text) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmldocumenttype/xmldocumenttype-getinternalsubset-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:53.954Z",
+      "blob": "640fdb77d0946b3700c134c6a889ad914870fabb",
+      "words": 121,
+      "forms": 0
     }
   },
   "input_hash": "640fdb77d0946b3700c134c6a889ad914870fabb",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/xmldocumenttype/xmldocumenttype-getinternalsubset-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/xmldocumenttype/xmldocumenttype-getinternalsubset-method.md",
+    "description": "Gets the internal subset for this Document Type Definition (DTD).",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 121
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "640fdb77d0946b3700c134c6a889ad914870fabb"
 }

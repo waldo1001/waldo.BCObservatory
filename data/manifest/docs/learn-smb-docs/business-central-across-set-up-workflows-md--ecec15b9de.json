@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across set up workflows",
+  "title": "Set up approval workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-set-up-workflows",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.315Z",
+      "blob": "16fb0b6c1a097f620376363d595dae310b96ed2e",
+      "words": 379,
+      "forms": 0
     }
   },
   "input_hash": "16fb0b6c1a097f620376363d595dae310b96ed2e",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-set-up-workflows.md"
-  }
+    "path": "business-central/across-set-up-workflows.md",
+    "description": "Set up workflows, workflow users, and approval users to connect business-process system tasks performed by these different users.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "workflow",
+      "approval workflow",
+      "workflow users"
+    ],
+    "ai_usage": null,
+    "words": 379
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16fb0b6c1a097f620376363d595dae310b96ed2e"
 }

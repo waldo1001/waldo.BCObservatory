@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry mcp configuration trace",
+  "title": "Analyze MCP configuration telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.971Z",
+      "blob": "46eedd0411be5e1df19a33c15e5848e607fc8c9e",
+      "words": 677,
+      "forms": 0
     }
   },
   "input_hash": "46eedd0411be5e1df19a33c15e5848e607fc8c9e",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-mcp-configuration-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-mcp-configuration-trace.md",
+    "description": "Learn about the MCP (Model Context Protocol) configuration telemetry in Business Central",
+    "ms_date": "2026-04-29",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry",
+      "MCP",
+      "AI",
+      "Copilot"
+    ],
+    "ai_usage": null,
+    "words": 677
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "46eedd0411be5e1df19a33c15e5848e607fc8c9e"
 }

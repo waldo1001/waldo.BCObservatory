@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1417",
+  "title": "Compiler Designer customization information AL1417",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1417",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.412Z",
+      "blob": "061a72c3d762b5f939d33d8950e4afae6822d54a",
+      "words": 91,
+      "forms": 0
     }
   },
   "input_hash": "061a72c3d762b5f939d33d8950e4afae6822d54a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1417.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1417.md",
+    "description": "The {0} '{1}' cannot be added relatively to '{2}' because '{2}' is missing.",
+    "ms_date": "2026-08-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 91
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "061a72c3d762b5f939d33d8950e4afae6822d54a"
 }

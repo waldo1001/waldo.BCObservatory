@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "product requirements",
+  "title": "Minimum requirements in using Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/product-requirements",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.156Z",
+      "blob": "9ed1182f01ea7410e03bb8ba1b756a1b65509a9a",
+      "words": 539,
+      "forms": 0
     }
   },
   "input_hash": "9ed1182f01ea7410e03bb8ba1b756a1b65509a9a",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/product-requirements.md"
-  }
+    "path": "business-central/product-requirements.md",
+    "description": "Learn about the minimum system and version requirements for using Business Central online outlined below.",
+    "ms_date": "2026-09-11",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "version"
+    ],
+    "ai_usage": null,
+    "words": 539
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ed1182f01ea7410e03bb8ba1b756a1b65509a9a"
 }

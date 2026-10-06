@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "payables how post payments refunds",
+  "title": "Record payments and refunds in payment journals",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.816Z",
+      "blob": "c102ec4391a2d728032bb51e881711bda82a2e6b",
+      "words": 693,
+      "forms": 4
     }
   },
   "input_hash": "c102ec4391a2d728032bb51e881711bda82a2e6b",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/payables-how-post-payments-refunds.md"
-  }
+    "path": "business-central/payables-how-post-payments-refunds.md",
+    "description": "Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.",
+    "ms_date": "2024-07-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "256",
+        "id": 256,
+        "kind": null
+      },
+      {
+        "raw": "233",
+        "id": 233,
+        "kind": null
+      },
+      {
+        "raw": "624",
+        "id": 624,
+        "kind": null
+      },
+      {
+        "raw": "1228",
+        "id": 1228,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment journal",
+      "print check",
+      "vendor payment",
+      "customer refund",
+      "refund check",
+      "creditor",
+      "debt",
+      "balance due",
+      "AP"
+    ],
+    "ai_usage": null,
+    "words": 693
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c102ec4391a2d728032bb51e881711bda82a2e6b"
 }

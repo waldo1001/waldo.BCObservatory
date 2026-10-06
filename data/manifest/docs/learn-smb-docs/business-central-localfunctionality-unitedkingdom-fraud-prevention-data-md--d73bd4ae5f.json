@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fraud prevention data",
+  "title": "Send Fraud Prevention Data (UK)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.011Z",
+      "blob": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
+      "words": 1216,
+      "forms": 2
     }
   },
   "input_hash": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
@@ -18,6 +24,33 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data.md",
+    "description": "Business Central supports the British requirement to submit fraud prevention data to HMRC as part of Making Tax Digital. This article explains how to set up the headers.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "10539",
+        "id": 10539,
+        "kind": null
+      },
+      {
+        "raw": "743",
+        "id": 743,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "fraud prevention",
+      "making tax digital",
+      "making tax digital software",
+      "HMRC",
+      "tax"
+    ],
+    "ai_usage": null,
+    "words": 1216
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7"
 }

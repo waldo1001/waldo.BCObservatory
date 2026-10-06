@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ad hoc analysis fa",
+  "title": "Ad-hoc analysis of fixed assets data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.458Z",
+      "blob": "27aa924893f139abced2ed74dec4abe2c3b6121b",
+      "words": 914,
+      "forms": 3
     }
   },
   "input_hash": "27aa924893f139abced2ed74dec4abe2c3b6121b",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ad-hoc-analysis-fa.md"
-  }
+    "path": "business-central/ad-hoc-analysis-fa.md",
+    "description": "Learn how to use the data analysis mode to analyze fixed assets data.",
+    "ms_date": "2025-03-10",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "5604",
+        "id": 5604,
+        "kind": null
+      },
+      {
+        "raw": "20",
+        "id": 20,
+        "kind": null
+      },
+      {
+        "raw": "Query_123_Primary",
+        "id": 123,
+        "kind": "Query Primary"
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI"
+    ],
+    "ai_usage": null,
+    "words": 914
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27aa924893f139abced2ed74dec4abe2c3b6121b"
 }

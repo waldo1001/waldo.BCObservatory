@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 129",
+  "title": "Customer - Trial Balance (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-129",
   "published_at": "2026-03-10T06:32:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.656Z",
+      "blob": "b53da3a63c720aed961979d9fe1d28b2f4081f17",
+      "words": 557,
+      "forms": 1
     }
   },
   "input_hash": "b53da3a63c720aed961979d9fe1d28b2f4081f17",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-129.md"
-  }
+    "path": "business-central/reports/report-129.md",
+    "description": "Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.",
+    "ms_date": "2024-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_129_Primary",
+        "id": 129,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 557
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b53da3a63c720aed961979d9fe1d28b2f4081f17"
 }

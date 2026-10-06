@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 317",
+  "title": "Vendor Pre-Payment Journal (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-317",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.263Z",
+      "blob": "34f5f8fb9c96e6794bc46c2e4744b75a47f1c8e9",
+      "words": 370,
+      "forms": 1
     }
   },
   "input_hash": "34f5f8fb9c96e6794bc46c2e4744b75a47f1c8e9",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-317.md"
-  }
+    "path": "business-central/reports/report-317.md",
+    "description": "The report can be used to check payments before creating payment files and posting the journal.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_317_Primary",
+        "id": 317,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 370
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34f5f8fb9c96e6794bc46c2e4744b75a47f1c8e9"
 }

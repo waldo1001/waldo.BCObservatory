@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sustainability powerbi co2e decomposition tree",
+  "title": "CO2e Decomposition Tree",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.886Z",
+      "blob": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
+      "words": 222,
+      "forms": 0
     }
   },
   "input_hash": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sustainability-powerbi-co2e-decomposition-tree.md"
-  }
+    "path": "business-central/sustainability-powerbi-co2e-decomposition-tree.md",
+    "description": "The CO2e Decomposition Tree report breaks down CO2e emission metrics into its key contributing components to help users understand what is driving changes in CO2 emissions and why.",
+    "ms_date": "2025-05-26",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 222
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi allocated hours",
+  "title": "Allocated Hours",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.231Z",
+      "blob": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
+      "words": 262,
+      "forms": 1
     }
   },
   "input_hash": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-allocated-hours.md"
-  }
+    "path": "business-central/manufacturing-powerbi-allocated-hours.md",
+    "description": "The Allocated Hours report provides an overview of the allocated time, in hours, for each work center.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37043_Primary",
+        "id": 37043,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 262
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to apply general ledger entries in closed periods",
+  "title": "How to Apply General Ledger Entries in Closed Periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.016Z",
+      "blob": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
+      "words": 162,
+      "forms": 0
     }
   },
   "input_hash": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md",
+    "description": "Learn to post entries after a closed posting period, even without performing any actual postings during that time.",
+    "ms_date": "2025-05-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "closed period",
+      "apply entries",
+      "apply general ledger entries",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 162
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8c37359f7bf2e8d3f1ba52630b611f43e988473"
 }

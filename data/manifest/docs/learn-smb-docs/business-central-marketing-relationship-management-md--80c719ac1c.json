@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing relationship management",
+  "title": "Relationship management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.600Z",
+      "blob": "416ba1080ef39063683c896b8b579bc717aae128",
+      "words": 279,
+      "forms": 0
     }
   },
   "input_hash": "416ba1080ef39063683c896b8b579bc717aae128",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-relationship-management.md"
-  }
+    "path": "business-central/marketing-relationship-management.md",
+    "description": "Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "contact",
+      "prospect",
+      "client"
+    ],
+    "ai_usage": null,
+    "words": 279
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "416ba1080ef39063683c896b8b579bc717aae128"
 }

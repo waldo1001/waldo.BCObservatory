@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance set up cost accounting",
+  "title": "Set up cost accounting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.672Z",
+      "blob": "0d4316e7001f4eee7eccffaa6e02416ab14d3373",
+      "words": 2255,
+      "forms": 4
     }
   },
   "input_hash": "0d4316e7001f4eee7eccffaa6e02416ab14d3373",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-set-up-cost-accounting.md"
-  }
+    "path": "business-central/finance-set-up-cost-accounting.md",
+    "description": "Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.",
+    "ms_date": "2024-07-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1100",
+        "id": 1100,
+        "kind": null
+      },
+      {
+        "raw": "1112",
+        "id": 1112,
+        "kind": null
+      },
+      {
+        "raw": "1113",
+        "id": 1113,
+        "kind": null
+      },
+      {
+        "raw": "1122",
+        "id": 1122,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2255
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d4316e7001f4eee7eccffaa6e02416ab14d3373"
 }

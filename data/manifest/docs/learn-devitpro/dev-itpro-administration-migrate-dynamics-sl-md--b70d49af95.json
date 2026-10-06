@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate dynamics sl",
+  "title": "Dynamics SL Data Migrated to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl",
   "published_at": "2025-08-04T09:44:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.810Z",
+      "blob": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
+      "words": 1199,
+      "forms": 1
     }
   },
   "input_hash": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
@@ -18,6 +24,27 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-dynamics-sl.md"
-  }
+    "path": "dev-itpro/administration/migrate-dynamics-sl.md",
+    "description": "Learn how to migrate to the cloud from Dynamics SL using an assisted setup guide in Business Central online.",
+    "ms_date": "2025-08-04",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [
+      {
+        "raw": "4003",
+        "id": 4003,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "edge",
+      "SL",
+      "migration"
+    ],
+    "ai_usage": null,
+    "words": 1199
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d08f6525793f8d1c883faa819a39bd54c7c77b6c"
 }

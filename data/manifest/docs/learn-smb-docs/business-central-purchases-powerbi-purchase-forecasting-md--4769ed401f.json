@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchases powerbi purchase forecasting",
+  "title": "Purchase Forecasting (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-forecasting",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.962Z",
+      "blob": "772eada81e7ec9846b0032cb7fbc710b41350898",
+      "words": 296,
+      "forms": 1
     }
   },
   "input_hash": "772eada81e7ec9846b0032cb7fbc710b41350898",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchases-powerbi-purchase-forecasting.md"
-  }
+    "path": "business-central/purchases-powerbi-purchase-forecasting.md",
+    "description": "The Purchase Forecasting report predicts future purchasing trends to anticipate supply chain requirements.",
+    "ms_date": "2025-09-30",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37112_Primary",
+        "id": 37112,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "772eada81e7ec9846b0032cb7fbc710b41350898"
 }

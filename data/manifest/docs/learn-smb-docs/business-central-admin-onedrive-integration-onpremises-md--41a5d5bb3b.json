@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin onedrive integration onpremises",
+  "title": "Configuring OneDrive integration with Business Central on-premises",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration-onpremises",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.314Z",
+      "blob": "083b2c19f78ea1a45e8a19d541a77df3238ef828",
+      "words": 1815,
+      "forms": 0
     }
   },
   "input_hash": "083b2c19f78ea1a45e8a19d541a77df3238ef828",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-onedrive-integration-onpremises.md"
-  }
+    "path": "business-central/admin-onedrive-integration-onpremises.md",
+    "description": "Learn about how to set up Business Central on-premises to integrate with OneDrive for work or school (formerly known as OneDrive for Business).",
+    "ms_date": "2024-09-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "OneDrive",
+      "share",
+      "browser"
+    ],
+    "ai_usage": null,
+    "words": 1815
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "083b2c19f78ea1a45e8a19d541a77df3238ef828"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "resolve table 8620 error converting database",
+  "title": "Resolving Table 8620 Compilation Error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-table-8620-error-converting-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.774Z",
+      "blob": "80463259216b36303250559192299e9dedb78f56",
+      "words": 61,
+      "forms": 0
     }
   },
   "input_hash": "80463259216b36303250559192299e9dedb78f56",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/resolve-table-8620-error-converting-database.md"
-  }
+    "path": "dev-itpro/upgrade/resolve-table-8620-error-converting-database.md",
+    "description": "Explains how to resolve the compilation error that you get for Table 8620 when converting a database from Dynamics NAV to Business Central.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 61
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80463259216b36303250559192299e9dedb78f56"
 }

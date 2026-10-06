@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 7320",
+  "title": "Warehouse Adjustment Bin (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7320",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.758Z",
+      "blob": "379d2b732a8d1b476f9cc8e7035ae52dbc659f0d",
+      "words": 558,
+      "forms": 1
     }
   },
   "input_hash": "379d2b732a8d1b476f9cc8e7035ae52dbc659f0d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-7320.md"
-  }
+    "path": "business-central/reports/report-7320.md",
+    "description": "Get an overview of adjustment bin usage (for advanced warehouse scenarios).",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_7320_Primary",
+        "id": 7320,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 558
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "379d2b732a8d1b476f9cc8e7035ae52dbc659f0d"
 }

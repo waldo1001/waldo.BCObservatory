@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv definitionfile property",
+  "title": "DefinitionFile property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-definitionfile-property",
   "published_at": "2026-03-11T10:08:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.538Z",
+      "blob": "454880ac6fb662ddb8e8e36d6561c663a86fd223",
+      "words": 59,
+      "forms": 0
     }
   },
   "input_hash": "454880ac6fb662ddb8e8e36d6561c663a86fd223",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-definitionfile-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-definitionfile-property.md",
+    "description": "The filename of the analysis view definition file.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 59
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "454880ac6fb662ddb8e8e36d6561c663a86fd223"
 }

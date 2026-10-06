@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory powerbi gross requirement",
+  "title": "Gross Requirement (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.879Z",
+      "blob": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
+      "words": 293,
+      "forms": 1
     }
   },
   "input_hash": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-powerbi-gross-requirement.md"
-  }
+    "path": "business-central/inventory-powerbi-gross-requirement.md",
+    "description": "The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item.",
+    "ms_date": "2024-10-28",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37027_Primary",
+        "id": 37027,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 293
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "837dd86cfd3628de3a016119d570c0bc2cb69e9d"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa depreciation methods",
+  "title": "Depreciation methods for fixed assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-depreciation-methods",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.744Z",
+      "blob": "a1a60c80b46b46704a10fa53c983f90ee98d1828",
+      "words": 2404,
+      "forms": 3
     }
   },
   "input_hash": "a1a60c80b46b46704a10fa53c983f90ee98d1828",
@@ -18,6 +24,36 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-depreciation-methods.md"
-  }
+    "path": "business-central/fa-depreciation-methods.md",
+    "description": "Learn about the different built-in methods to depreciate or write-down fixed assets.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "5611",
+        "id": 5611,
+        "kind": null
+      },
+      {
+        "raw": "5629",
+        "id": 5629,
+        "kind": null
+      },
+      {
+        "raw": "5633",
+        "id": 5633,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "write down",
+      "depreciate",
+      "depreciation"
+    ],
+    "ai_usage": null,
+    "words": 2404
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a1a60c80b46b46704a10fa53c983f90ee98d1828"
 }

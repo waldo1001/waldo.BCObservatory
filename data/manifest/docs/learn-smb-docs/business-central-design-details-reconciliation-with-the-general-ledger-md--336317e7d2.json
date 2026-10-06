@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details reconciliation with the general ledger",
+  "title": "Design details - Reconciliation with the general ledger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-reconciliation-with-the-general-ledger",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.688Z",
+      "blob": "91538c8dcc792ba7c45d80f504c8d5ccb8701e72",
+      "words": 1125,
+      "forms": 0
     }
   },
   "input_hash": "91538c8dcc792ba7c45d80f504c8d5ccb8701e72",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-reconciliation-with-the-general-ledger.md"
-  }
+    "path": "business-central/design-details-reconciliation-with-the-general-ledger.md",
+    "description": "This article describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.",
+    "ms_date": "2025-08-13",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "design",
+      "reconciliation",
+      "general ledger",
+      "inventory"
+    ],
+    "ai_usage": null,
+    "words": 1125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91538c8dcc792ba7c45d80f504c8d5ccb8701e72"
 }

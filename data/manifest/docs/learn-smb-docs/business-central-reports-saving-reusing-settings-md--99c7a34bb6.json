@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "reports saving reusing settings",
+  "title": "Manage Saved Settings for Reports and Batch Jobs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.894Z",
+      "blob": "2b99ad537b546a9c244f0677173a56312e14d0f3",
+      "words": 572,
+      "forms": 0
     }
   },
   "input_hash": "2b99ad537b546a9c244f0677173a56312e14d0f3",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports-saving-reusing-settings.md"
-  }
+    "path": "business-central/reports-saving-reusing-settings.md",
+    "description": "Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.",
+    "ms_date": "2021-12-21",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "customization",
+      "personalization"
+    ],
+    "ai_usage": null,
+    "words": 572
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b99ad537b546a9c244f0677173a56312e14d0f3"
 }

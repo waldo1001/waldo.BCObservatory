@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 711",
+  "title": "Inventory Top 10 List (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-711",
   "published_at": "2026-03-12T01:10:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.847Z",
+      "blob": "a792f5372c13667b3559dba62cf6af0f8317c5c9",
+      "words": 439,
+      "forms": 1
     }
   },
   "input_hash": "a792f5372c13667b3559dba62cf6af0f8317c5c9",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-711.md"
-  }
+    "path": "business-central/reports/report-711.md",
+    "description": "Review the highest or lowest selling items based on quantity and amount over a selected period.",
+    "ms_date": "2024-10-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_711_Primary",
+        "id": 711,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 439
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a792f5372c13667b3559dba62cf6af0f8317c5c9"
 }

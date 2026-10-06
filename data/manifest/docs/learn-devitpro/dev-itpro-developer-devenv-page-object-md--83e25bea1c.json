@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv page object",
+  "title": "Page object",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.673Z",
+      "blob": "b603cc6de5d5ae0c52a14e1b9156ce062d8334be",
+      "words": 424,
+      "forms": 0
     }
   },
   "input_hash": "b603cc6de5d5ae0c52a14e1b9156ce062d8334be",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-page-object.md"
-  }
+    "path": "dev-itpro/developer/devenv-page-object.md",
+    "description": "Description of the page object and its syntax in AL for Business Central.",
+    "ms_date": "2024-04-26",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 424
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b603cc6de5d5ae0c52a14e1b9156ce062d8334be"
 }

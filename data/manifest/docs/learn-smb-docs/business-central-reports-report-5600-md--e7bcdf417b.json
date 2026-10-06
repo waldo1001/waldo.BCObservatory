@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 5600",
+  "title": "Fixed Asset Analysis (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5600",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.460Z",
+      "blob": "b21a85a32c6849aafb0096409be6dfe25882c619",
+      "words": 654,
+      "forms": 1
     }
   },
   "input_hash": "b21a85a32c6849aafb0096409be6dfe25882c619",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-5600.md"
-  }
+    "path": "business-central/reports/report-5600.md",
+    "description": "This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values. You can also see information only for sold fixed assets.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_5600_Primary",
+        "id": 5600,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 654
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b21a85a32c6849aafb0096409be6dfe25882c619"
 }

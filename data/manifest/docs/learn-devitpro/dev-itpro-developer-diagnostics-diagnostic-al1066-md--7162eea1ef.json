@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1066",
+  "title": "Compiler Error AL1066",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1066",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.922Z",
+      "blob": "b68f885ea7f7a03a5dd1e670ccd11f22ea7614e3",
+      "words": 74,
+      "forms": 0
     }
   },
   "input_hash": "b68f885ea7f7a03a5dd1e670ccd11f22ea7614e3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1066.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1066.md",
+    "description": "Duplicate package dependency with application ID '{0}', publisher '{1}', and name '{2}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 74
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b68f885ea7f7a03a5dd1e670ccd11f22ea7614e3"
 }

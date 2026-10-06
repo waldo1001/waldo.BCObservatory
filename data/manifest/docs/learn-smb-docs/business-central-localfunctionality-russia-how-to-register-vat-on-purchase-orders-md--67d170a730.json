@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to register vat on purchase orders",
+  "title": "Register VAT on Purchase Orders in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.568Z",
+      "blob": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
+      "words": 208,
+      "forms": 0
     }
   },
   "input_hash": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders.md",
+    "description": "Learn how to register VAT on purchase orders in Russia using Business Central's enhanced tracking features to maintain accurate VAT invoice records",
+    "ms_date": "2025-07-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT registration",
+      "purchase orders",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 208
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a"
 }

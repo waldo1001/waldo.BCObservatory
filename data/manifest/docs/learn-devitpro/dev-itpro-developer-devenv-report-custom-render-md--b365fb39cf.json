@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv report custom render",
+  "title": "Developing a Custom Report Render",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render",
   "published_at": "2026-03-03T10:19:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.760Z",
+      "blob": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2",
+      "words": 362,
+      "forms": 0
     }
   },
   "input_hash": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-report-custom-render.md"
-  }
+    "path": "dev-itpro/developer/devenv-report-custom-render.md",
+    "description": "Describe the custom report render logic and how to implement it in AL code.",
+    "ms_date": "2026-03-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 362
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "072ff8471b89f61d8725ebef6e4d10f5c48b61b2"
 }

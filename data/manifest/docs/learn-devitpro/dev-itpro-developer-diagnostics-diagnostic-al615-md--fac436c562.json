@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al615",
+  "title": "Compiler Warning (future error) AL0615",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al615",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.895Z",
+      "blob": "06e0bc7769ab74cdd872bb2589040a7224ef368e",
+      "words": 94,
+      "forms": 0
     }
   },
   "input_hash": "06e0bc7769ab74cdd872bb2589040a7224ef368e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al615.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al615.md",
+    "description": "Field '{0}' is not specified as a source expression on page '{1}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 94
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06e0bc7769ab74cdd872bb2589040a7224ef368e"
 }

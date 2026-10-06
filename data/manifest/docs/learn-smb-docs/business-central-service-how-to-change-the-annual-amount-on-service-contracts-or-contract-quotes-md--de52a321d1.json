@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to change the annual amount on service contracts or contract quotes",
+  "title": "Change the annual amount on service contracts or contract quotes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.476Z",
+      "blob": "539cc4ea16153ac0a5962ce4f53958d15e5f5ecf",
+      "words": 1481,
+      "forms": 0
     }
   },
   "input_hash": "539cc4ea16153ac0a5962ce4f53958d15e5f5ecf",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md"
-  }
+    "path": "business-central/service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md",
+    "description": "Learn how to update the annual invoiced amount on service contracts or contract quotes in Business Central.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "service contracts",
+      "contract quotes",
+      "annual amount"
+    ],
+    "ai_usage": null,
+    "words": 1481
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "539cc4ea16153ac0a5962ce4f53958d15e5f5ecf"
 }

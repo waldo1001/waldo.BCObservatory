@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry open in excel trace",
+  "title": "Analyze Open in Excel telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.976Z",
+      "blob": "331a591f319696cf931eabb9eb7722ff7a9de504",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "331a591f319696cf931eabb9eb7722ff7a9de504",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-open-in-excel-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-open-in-excel-trace.md",
+    "description": "Learn about the Open in Excel telemetry in Business Central",
+    "ms_date": "2026-09-22",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "331a591f319696cf931eabb9eb7722ff7a9de504"
 }

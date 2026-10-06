@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "purchasing how setup purchasers",
+  "title": "Set up purchasers and assign purchasers to vendors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.661Z",
+      "blob": "d61307c69410b013dc841197a2712224cfa8dd28",
+      "words": 139,
+      "forms": 2
     }
   },
   "input_hash": "d61307c69410b013dc841197a2712224cfa8dd28",
@@ -18,6 +24,34 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/purchasing-how-setup-purchasers.md"
-  }
+    "path": "business-central/purchasing-how-setup-purchasers.md",
+    "description": "Organize purchasers or purchasing agents in your company to enable efficient tracking and statistical analysis.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "14",
+        "id": 14,
+        "kind": null
+      },
+      {
+        "raw": "5116",
+        "id": 5116,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "purchasing agent",
+      "set up purchasing agent",
+      "assign purchasing agent",
+      "purchaser code",
+      "purchaser setup",
+      "purchaser assignment"
+    ],
+    "ai_usage": null,
+    "words": 139
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d61307c69410b013dc841197a2712224cfa8dd28"
 }

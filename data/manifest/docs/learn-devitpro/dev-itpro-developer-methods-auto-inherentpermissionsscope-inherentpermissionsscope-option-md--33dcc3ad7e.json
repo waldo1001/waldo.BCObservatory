@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "inherentpermissionsscope option",
+  "title": "InherentPermissionsScope system option",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/inherentpermissionsscope/inherentpermissionsscope-option",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.714Z",
+      "blob": "e4d8d80a2c9b63f217b9c4837c215402bc9de967",
+      "words": 132,
+      "forms": 0
     }
   },
   "input_hash": "e4d8d80a2c9b63f217b9c4837c215402bc9de967",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/inherentpermissionsscope/inherentpermissionsscope-option.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/inherentpermissionsscope/inherentpermissionsscope-option.md",
+    "description": "The different types of scope that the InherentPermissions attribute can apply to.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 132
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e4d8d80a2c9b63f217b9c4837c215402bc9de967"
 }

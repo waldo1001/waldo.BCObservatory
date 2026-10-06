@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "iceland global core app",
+  "title": "Iceland W1 core app setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-global-core-app",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.694Z",
+      "blob": "3342c668c7c854e6c4994b3f1efd021a5fbff11c",
+      "words": 185,
+      "forms": 0
     }
   },
   "input_hash": "3342c668c7c854e6c4994b3f1efd021a5fbff11c",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Iceland/iceland-global-core-app.md"
-  }
+    "path": "business-central/LocalFunctionality/Iceland/iceland-global-core-app.md",
+    "description": "This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.",
+    "ms_date": "2025-02-06",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [
+      "delocalization",
+      "core app",
+      "core app setup"
+    ],
+    "ai_usage": null,
+    "words": 185
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3342c668c7c854e6c4994b3f1efd021a5fbff11c"
 }

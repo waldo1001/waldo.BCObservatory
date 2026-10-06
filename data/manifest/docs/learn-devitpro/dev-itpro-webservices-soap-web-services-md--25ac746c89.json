@@ -7,10 +7,16 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/SOAP-Web-Services",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.206Z",
+      "blob": "fc16ec345cf036252ffa585e5d441341e134cb0a",
+      "words": 127,
+      "forms": 0
     }
   },
   "input_hash": "fc16ec345cf036252ffa585e5d441341e134cb0a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/webservices/SOAP-Web-Services.md"
-  }
+    "path": "dev-itpro/webservices/SOAP-Web-Services.md",
+    "description": "Learn how to use SOAP web services for operation-centric services in Business Central. Note: SOAP is being deprecated, consider OData or APIs.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 127
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fc16ec345cf036252ffa585e5d441341e134cb0a"
 }

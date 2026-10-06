@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "teams faq",
+  "title": "Teams FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.635Z",
+      "blob": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
+      "words": 5083,
+      "forms": 0
     }
   },
   "input_hash": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/teams-faq.md"
-  }
+    "path": "business-central/teams-faq.md",
+    "description": "Get answers for some typical questions about working with Teams and Business Central.",
+    "ms_date": "2025-01-06",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [
+      "Teams",
+      "MS Teams",
+      "Microsoft Teams",
+      "Skype",
+      "Link",
+      "Microsoft 365",
+      "collaborate",
+      "collaboration",
+      "teamwork",
+      "faq",
+      "errors"
+    ],
+    "ai_usage": null,
+    "words": 5083
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e54eec604e9c65a5422bf670538a0c9c0b43b891"
 }

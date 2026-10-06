@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory how setup item tracking",
+  "title": "Set up item tracking with serial, lot, and package numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking",
   "published_at": "2026-06-25T03:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.041Z",
+      "blob": "efe8ce65411e556efe6edd12317ac4b0cafb16f7",
+      "words": 886,
+      "forms": 0
     }
   },
   "input_hash": "efe8ce65411e556efe6edd12317ac4b0cafb16f7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-how-setup-item-tracking.md"
-  }
+    "path": "business-central/inventory-how-setup-item-tracking.md",
+    "description": "Set up item tracking with serial numbers, lot numbers, and package numbers",
+    "ms_date": "2025-07-14",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 886
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efe8ce65411e556efe6edd12317ac4b0cafb16f7"
 }

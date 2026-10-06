@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry permission dependency cycle trace",
+  "title": "Analyzing permission dependency cycle trace telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.760Z",
+      "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
+      "words": 327,
+      "forms": 0
     }
   },
   "input_hash": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md",
+    "description": "Learn about the permission dependency cycle trace  telemetry in Business Central",
+    "ms_date": "2023-12-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "dependency cycle",
+      "permission set",
+      "telemetry"
+    ],
+    "ai_usage": null,
+    "words": 327
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ec27a94c1b464a5ebeb49354d2c626a864977af"
 }

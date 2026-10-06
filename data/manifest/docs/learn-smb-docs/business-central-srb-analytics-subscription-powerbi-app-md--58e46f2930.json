@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "subscription powerbi app",
+  "title": "Power BI Subscription Billing app",
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app",
   "published_at": "2026-09-14T11:24:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.844Z",
+      "blob": "86ee5cbe5b417359c75699fa1a011c368f821b1e",
+      "words": 265,
+      "forms": 1
     }
   },
   "input_hash": "86ee5cbe5b417359c75699fa1a011c368f821b1e",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/SRB/analytics/subscription-powerbi-app.md"
-  }
+    "path": "business-central/SRB/analytics/subscription-powerbi-app.md",
+    "description": "The Power BI Subscription app provides comprehensive subscription billing analytics to stakeholders at all levels of your organization.",
+    "ms_date": "2026-05-12",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "36951",
+        "id": 36951,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86ee5cbe5b417359c75699fa1a011c368f821b1e"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to 1099 use",
+  "title": "Track data and use the IRS 1099 form",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use",
   "published_at": "2026-05-06T13:32:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.892Z",
+      "blob": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f",
+      "words": 1595,
+      "forms": 6
     }
   },
   "input_hash": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f",
@@ -18,6 +24,53 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/how-to-1099-use.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/how-to-1099-use.md",
+    "description": "Learn how to post documents to calculate information for your 1099 tax forms.",
+    "ms_date": "2026-05-06",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "51",
+        "id": 51,
+        "kind": null
+      },
+      {
+        "raw": "132",
+        "id": 132,
+        "kind": null
+      },
+      {
+        "raw": "10036",
+        "id": 10036,
+        "kind": null
+      },
+      {
+        "raw": "10037",
+        "id": 10037,
+        "kind": null
+      },
+      {
+        "raw": "10049",
+        "id": 10049,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "local",
+      "1099",
+      "tax",
+      "taxes",
+      "IRS"
+    ],
+    "ai_usage": null,
+    "words": 1595
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f"
 }

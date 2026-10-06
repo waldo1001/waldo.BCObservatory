@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bank how setup bank accounts",
+  "title": "Set up bank accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts",
   "published_at": "2025-06-10T12:17:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.598Z",
+      "blob": "b051ea8e13278d30028e855498b1a05fd3acb98a",
+      "words": 2931,
+      "forms": 11
     }
   },
   "input_hash": "b051ea8e13278d30028e855498b1a05fd3acb98a",
@@ -18,6 +24,76 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bank-how-setup-bank-accounts.md"
-  }
+    "path": "business-central/bank-how-setup-bank-accounts.md",
+    "description": "Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.",
+    "ms_date": "2025-06-10",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "370",
+        "id": 370,
+        "kind": null
+      },
+      {
+        "raw": "371",
+        "id": 371,
+        "kind": null
+      },
+      {
+        "raw": "372",
+        "id": 372,
+        "kind": null
+      },
+      {
+        "raw": "373",
+        "id": 373,
+        "kind": null
+      },
+      {
+        "raw": "375",
+        "id": 375,
+        "kind": null
+      },
+      {
+        "raw": "423",
+        "id": 423,
+        "kind": null
+      },
+      {
+        "raw": "424",
+        "id": 424,
+        "kind": null
+      },
+      {
+        "raw": "425",
+        "id": 425,
+        "kind": null
+      },
+      {
+        "raw": "426",
+        "id": 426,
+        "kind": null
+      },
+      {
+        "raw": "1240",
+        "id": 1240,
+        "kind": null
+      },
+      {
+        "raw": "1280",
+        "id": 1280,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Yodlee",
+      "feed",
+      "stream"
+    ],
+    "ai_usage": null,
+    "words": 2931
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b051ea8e13278d30028e855498b1a05fd3acb98a"
 }

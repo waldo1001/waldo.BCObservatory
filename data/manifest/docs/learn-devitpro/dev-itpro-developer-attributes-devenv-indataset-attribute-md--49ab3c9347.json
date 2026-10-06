@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv indataset attribute",
+  "title": "InDataSet attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-indataset-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.138Z",
+      "blob": "3ae724cbfbe17dc805608f1d632130d2a219723e",
+      "words": 149,
+      "forms": 0
     }
   },
   "input_hash": "3ae724cbfbe17dc805608f1d632130d2a219723e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-indataset-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-indataset-attribute.md",
+    "description": "Sets whether the AL variable's value is included in the dataset.",
+    "ms_date": "2026-08-19",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 149
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ae724cbfbe17dc805608f1d632130d2a219723e"
 }

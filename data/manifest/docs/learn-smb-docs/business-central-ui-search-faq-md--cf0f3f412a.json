@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui search faq",
+  "title": "Frequently Asked Questions about Tell Me",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-search-faq",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.391Z",
+      "blob": "d69b2773a9c2caf7e425d3a99284b86c04e6250e",
+      "words": 550,
+      "forms": 1
     }
   },
   "input_hash": "d69b2773a9c2caf7e425d3a99284b86c04e6250e",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-search-faq.md"
-  }
+    "path": "business-central/ui-search-faq.md",
+    "description": "This article provides answers to questions that our partners and customers often ask about the Tell Me feature.",
+    "ms_date": "2026-09-21",
+    "ms_topic": "faq",
+    "search_form": [
+      {
+        "raw": "TellMe",
+        "id": null,
+        "kind": "TellMe"
+      }
+    ],
+    "keywords": [
+      "find",
+      "search",
+      "Tell Me"
+    ],
+    "ai_usage": null,
+    "words": 550
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d69b2773a9c2caf7e425d3a99284b86c04e6250e"
 }

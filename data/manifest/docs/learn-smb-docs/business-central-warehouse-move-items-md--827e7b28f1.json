@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse move items",
+  "title": "Move Items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-move-items",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.835Z",
+      "blob": "76088ce33f3c754fc1fa8979ce673d43c284cb65",
+      "words": 247,
+      "forms": 12
     }
   },
   "input_hash": "76088ce33f3c754fc1fa8979ce673d43c284cb65",
@@ -18,6 +24,77 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-move-items.md"
-  }
+    "path": "business-central/warehouse-move-items.md",
+    "description": "Learn about moving items between bins in your warehouse.",
+    "ms_date": "2023-01-25",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "7315",
+        "id": 7315,
+        "kind": null
+      },
+      {
+        "raw": "7349",
+        "id": 7349,
+        "kind": null
+      },
+      {
+        "raw": "7351",
+        "id": 7351,
+        "kind": null
+      },
+      {
+        "raw": "7382",
+        "id": 7382,
+        "kind": null
+      },
+      {
+        "raw": "7384",
+        "id": 7384,
+        "kind": null
+      },
+      {
+        "raw": "7386",
+        "id": 7386,
+        "kind": null
+      },
+      {
+        "raw": "7387",
+        "id": 7387,
+        "kind": null
+      },
+      {
+        "raw": "7399",
+        "id": 7399,
+        "kind": null
+      },
+      {
+        "raw": "7400",
+        "id": 7400,
+        "kind": null
+      },
+      {
+        "raw": "9314",
+        "id": 9314,
+        "kind": null
+      },
+      {
+        "raw": "9330",
+        "id": 9330,
+        "kind": null
+      },
+      {
+        "raw": "9345",
+        "id": 9345,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 247
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76088ce33f3c754fc1fa8979ce673d43c284cb65"
 }

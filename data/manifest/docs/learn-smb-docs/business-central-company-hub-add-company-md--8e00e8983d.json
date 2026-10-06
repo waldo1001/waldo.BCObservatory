@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "company hub add company",
+  "title": "Add companies to your company hub",
   "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company",
   "published_at": "2026-06-24T02:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.086Z",
+      "blob": "dfd4b420aafc84c029fc210bf8a506eb6f1ad837",
+      "words": 462,
+      "forms": 4
     }
   },
   "input_hash": "dfd4b420aafc84c029fc210bf8a506eb6f1ad837",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/company-hub-add-company.md"
-  }
+    "path": "business-central/company-hub-add-company.md",
+    "description": "Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1151",
+        "id": 1151,
+        "kind": null
+      },
+      {
+        "raw": "1155",
+        "id": 1155,
+        "kind": null
+      },
+      {
+        "raw": "1166",
+        "id": 1166,
+        "kind": null
+      },
+      {
+        "raw": "1165",
+        "id": 1165,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "accountant",
+      "accounting",
+      "company hub",
+      "add companies"
+    ],
+    "ai_usage": null,
+    "words": 462
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dfd4b420aafc84c029fc210bf8a506eb6f1ad837"
 }

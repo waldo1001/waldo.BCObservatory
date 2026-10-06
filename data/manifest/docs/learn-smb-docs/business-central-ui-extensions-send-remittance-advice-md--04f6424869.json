@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions send remittance advice",
+  "title": "Send Remittance Advice Extension | Microsoft Docs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.784Z",
+      "blob": "5a545bbac72cb71e0087ddf96923b7365e7bf271",
+      "words": 191,
+      "forms": 0
     }
   },
   "input_hash": "5a545bbac72cb71e0087ddf96923b7365e7bf271",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-send-remittance-advice.md"
-  }
+    "path": "business-central/ui-extensions-send-remittance-advice.md",
+    "description": "Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.",
+    "ms_date": "2021-07-06",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "app",
+      "add-in",
+      "manifest",
+      "customize",
+      "stream",
+      "remittance",
+      "advice"
+    ],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a545bbac72cb71e0087ddf96923b7365e7bf271"
 }

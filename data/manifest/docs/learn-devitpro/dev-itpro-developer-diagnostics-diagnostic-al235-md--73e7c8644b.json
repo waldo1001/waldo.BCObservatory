@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al235",
+  "title": "Compiler Warning AL0235",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al235",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.335Z",
+      "blob": "b94e09aeccff7a7871e6509d1e0acd3fe6e19083",
+      "words": 78,
+      "forms": 0
     }
   },
   "input_hash": "b94e09aeccff7a7871e6509d1e0acd3fe6e19083",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al235.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al235.md",
+    "description": "The expression CONST() on the option value '{0}' is obsolete.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 78
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b94e09aeccff7a7871e6509d1e0acd3fe6e19083"
 }

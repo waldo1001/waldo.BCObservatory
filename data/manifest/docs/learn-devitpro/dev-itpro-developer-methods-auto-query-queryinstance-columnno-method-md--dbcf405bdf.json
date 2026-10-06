@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "queryinstance columnno method",
+  "title": "Query.ColumnNo(Any) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/query/queryinstance-columnno-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.784Z",
+      "blob": "d24389f3c280d0399931769aaed01337f6eb9559",
+      "words": 109,
+      "forms": 0
     }
   },
   "input_hash": "d24389f3c280d0399931769aaed01337f6eb9559",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/query/queryinstance-columnno-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/query/queryinstance-columnno-method.md",
+    "description": "Returns the ID that is assigned to a query column in the query definition.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 109
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d24389f3c280d0399931769aaed01337f6eb9559"
 }

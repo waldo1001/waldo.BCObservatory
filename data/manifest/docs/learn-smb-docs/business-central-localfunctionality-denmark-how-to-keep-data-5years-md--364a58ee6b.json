@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to keep data 5years",
+  "title": "Keep transactional data for five years in Denmark",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-keep-data-5years",
   "published_at": "2025-11-17T12:37:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.019Z",
+      "blob": "f545b316f625d413b89be5b7204fd4abe797debe",
+      "words": 413,
+      "forms": 0
     }
   },
   "input_hash": "f545b316f625d413b89be5b7204fd4abe797debe",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Denmark/how-to-keep-data-5years.md"
-  }
+    "path": "business-central/LocalFunctionality/Denmark/how-to-keep-data-5years.md",
+    "description": "This article describes how to automatically keep data based on the Danish bookkeeping act.",
+    "ms_date": "2025-11-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "retain data",
+      "bookkeeping act",
+      "dk",
+      "denmark",
+      "cvr number"
+    ],
+    "ai_usage": null,
+    "words": 413
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f545b316f625d413b89be5b7204fd4abe797debe"
 }

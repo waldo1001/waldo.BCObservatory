@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory valuation powerbi inventory valuation overview",
+  "title": "Inventory Valuation Overview (Power BI report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.588Z",
+      "blob": "dce0c90c7784a42048a5ef791207e4ae6adfa6ac",
+      "words": 214,
+      "forms": 1
     }
   },
   "input_hash": "dce0c90c7784a42048a5ef791207e4ae6adfa6ac",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-valuation-powerbi-inventory-valuation-overview.md"
-  }
+    "path": "business-central/inventory-valuation-powerbi-inventory-valuation-overview.md",
+    "description": "The Inventory Valuation Overview report shows item values on a location by location basis.",
+    "ms_date": "2024-10-30",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37056_Primary",
+        "id": 37056,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 214
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dce0c90c7784a42048a5ef791207e4ae6adfa6ac"
 }

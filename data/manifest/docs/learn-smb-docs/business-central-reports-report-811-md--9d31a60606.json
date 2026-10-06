@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 811",
+  "title": "About the BOM - Sub-Assemblies (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-811",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.780Z",
+      "blob": "b1bcae38f908126a9378ab65c9e8db5dbe6ed97c",
+      "words": 193,
+      "forms": 1
     }
   },
   "input_hash": "b1bcae38f908126a9378ab65c9e8db5dbe6ed97c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-811.md"
-  }
+    "path": "business-central/reports/report-811.md",
+    "description": "Get an overview of the components in a subassembly bill of materials, for both assembly and production.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_811_Primary",
+        "id": 811,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 193
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b1bcae38f908126a9378ab65c9e8db5dbe6ed97c"
 }

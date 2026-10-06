@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense management overview",
+  "title": "Expense Management Overview in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:18.967Z",
+      "blob": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6",
+      "words": 1141,
+      "forms": 5
     }
   },
   "input_hash": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-management-overview.md"
-  }
+    "path": "business-central/expense-management/expense-management-overview.md",
+    "description": "Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.",
+    "ms_date": "2026-09-26",
+    "ms_topic": "overview",
+    "search_form": [
+      {
+        "raw": "6903",
+        "id": 6903,
+        "kind": null
+      },
+      {
+        "raw": "6933",
+        "id": 6933,
+        "kind": null
+      },
+      {
+        "raw": "6987",
+        "id": 6987,
+        "kind": null
+      },
+      {
+        "raw": "6989",
+        "id": 6989,
+        "kind": null
+      },
+      {
+        "raw": "6997",
+        "id": 6997,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1141
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6"
 }

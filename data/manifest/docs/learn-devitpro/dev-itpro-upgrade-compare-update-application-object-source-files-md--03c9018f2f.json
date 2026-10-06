@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "compare update application object source files",
+  "title": "Compare and update application object source files",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/compare-update-application-object-source-files",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.719Z",
+      "blob": "9bce40900333ee16ff6a0304e9ff778fac70c419",
+      "words": 598,
+      "forms": 0
     }
   },
   "input_hash": "9bce40900333ee16ff6a0304e9ff778fac70c419",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/compare-update-application-object-source-files.md"
-  }
+    "path": "dev-itpro/upgrade/compare-update-application-object-source-files.md",
+    "description": "Compare the different set of Dynamics NAV application objects using Windows PowerShell cmdlets and apply all or some differences to the target solution.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 598
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9bce40900333ee16ff6a0304e9ff778fac70c419"
 }

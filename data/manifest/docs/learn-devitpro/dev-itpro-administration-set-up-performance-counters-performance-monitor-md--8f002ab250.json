@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "set up performance counters performance monitor",
+  "title": "Set up performance counters in Windows Performance Monitor",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-performance-counters-performance-monitor",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.419Z",
+      "blob": "814e4d8cc8155ae1d5666187420ed54e24c444ae",
+      "words": 192,
+      "forms": 0
     }
   },
   "input_hash": "814e4d8cc8155ae1d5666187420ed54e24c444ae",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/set-up-performance-counters-performance-monitor.md"
-  }
+    "path": "dev-itpro/administration/set-up-performance-counters-performance-monitor.md",
+    "description": "This article describes how to use Windows Performance Monitor to collect and view data from the performance counters.",
+    "ms_date": "2024-01-08",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 192
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "814e4d8cc8155ae1d5666187420ed54e24c444ae"
 }

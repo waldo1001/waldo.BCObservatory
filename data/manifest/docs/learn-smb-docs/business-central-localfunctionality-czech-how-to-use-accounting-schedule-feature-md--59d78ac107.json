@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use accounting schedule feature",
+  "title": "Czech local functionality - Financial report feature",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.363Z",
+      "blob": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
+      "words": 172,
+      "forms": 0
     }
   },
   "input_hash": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md",
+    "description": "Enhancements to financial reports in the Czech version, including shared expressions, result saving, formula drill-down, and expanded data sources.",
+    "ms_date": "2025-06-04",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Finance",
+      "Localization",
+      "CZ"
+    ],
+    "ai_usage": null,
+    "words": 172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36b26372f08c941237a41fbda4d5eed9f0c9020d"
 }

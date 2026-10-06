@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across data exchange",
+  "title": "Electronic documents in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-data-exchange",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.131Z",
+      "blob": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92",
+      "words": 214,
+      "forms": 0
     }
   },
   "input_hash": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-data-exchange.md"
-  }
+    "path": "business-central/across-data-exchange.md",
+    "description": "Overview of using the Data Exchange Framework in Business Central to exchange business documents, including bank files and currency exchange rates.",
+    "ms_date": "2025-10-13",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "Data exchange framework",
+      "data files",
+      "data exchange",
+      "electronic document",
+      "invoice",
+      "standard-compliant file"
+    ],
+    "ai_usage": null,
+    "words": 214
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "131042d7694169fdced3dcbb24d9e0c2dd9c3a92"
 }

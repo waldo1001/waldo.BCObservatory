@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fiscal deny list",
+  "title": "Fiscal denial list",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-deny-list",
   "published_at": "2026-05-07T03:20:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.868Z",
+      "blob": "8d955b53eb46188693e7c99b1ab33aff258ababa",
+      "words": 173,
+      "forms": 0
     }
   },
   "input_hash": "8d955b53eb46188693e7c99b1ab33aff258ababa",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/fiscal-deny-list.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/fiscal-deny-list.md",
+    "description": "Learn how to set up and report vendors from fiscally denied countries or regions in the Italian version of Business Central.",
+    "ms_date": "2025-05-20",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "fiscal denial list",
+      "denied countries",
+      "denied regions",
+      "Italian version"
+    ],
+    "ai_usage": null,
+    "words": 173
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d955b53eb46188693e7c99b1ab33aff258ababa"
 }

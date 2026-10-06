@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al1039",
+  "title": "Compiler Error AL1039",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1039",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.808Z",
+      "blob": "efd5c2af361a476981b8828ca9d2d2d12ebf9b61",
+      "words": 62,
+      "forms": 0
     }
   },
   "input_hash": "efd5c2af361a476981b8828ca9d2d2d12ebf9b61",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al1039.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al1039.md",
+    "description": "The version number '{0}' for the property '{1}' does not match the expected format: X.Y where X and Y represent positive integers.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 62
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efd5c2af361a476981b8828ca9d2d2d12ebf9b61"
 }

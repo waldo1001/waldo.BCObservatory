@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales date calculation for sales",
+  "title": "Delivery date calculation for sales",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.180Z",
+      "blob": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469",
+      "words": 343,
+      "forms": 0
     }
   },
   "input_hash": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-date-calculation-for-sales.md"
-  }
+    "path": "business-central/sales-date-calculation-for-sales.md",
+    "description": "The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.",
+    "ms_date": "2024-03-06",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 343
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469"
 }

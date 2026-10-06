@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "powerplat entity modeling",
+  "title": "Working with Virtual Tables",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-entity-modeling",
   "published_at": "2025-09-30T09:39:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.165Z",
+      "blob": "2b12ba07f581614767b362848ac4275ff543f85c",
+      "words": 2518,
+      "forms": 0
     }
   },
   "input_hash": "2b12ba07f581614767b362848ac4275ff543f85c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/powerplatform/powerplat-entity-modeling.md"
-  }
+    "path": "dev-itpro/powerplatform/powerplat-entity-modeling.md",
+    "description": "Relational modeling between Microsoft Dataverse tables used in Business Central",
+    "ms_date": "2025-09-17",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2518
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b12ba07f581614767b362848ac4275ff543f85c"
 }

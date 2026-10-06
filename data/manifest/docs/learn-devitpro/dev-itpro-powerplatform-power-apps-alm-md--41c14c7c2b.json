@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "power apps alm",
+  "title": "Application lifecycle management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm",
   "published_at": "2026-02-20T12:56:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.831Z",
+      "blob": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f",
+      "words": 599,
+      "forms": 0
     }
   },
   "input_hash": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/powerplatform/power-apps-alm.md"
-  }
+    "path": "dev-itpro/powerplatform/power-apps-alm.md",
+    "description": "Learn how to use AL-Go to implement application lifecycle management (ALM) for your Power Apps",
+    "ms_date": "2023-04-21",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 599
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f"
 }

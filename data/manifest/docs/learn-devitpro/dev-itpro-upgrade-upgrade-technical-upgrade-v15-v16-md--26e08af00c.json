@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade technical upgrade v15 v16",
+  "title": "Technical upgrade from version 15 to version 16",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v15-v16",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.106Z",
+      "blob": "dd574e924afd2e50ebd80c6157e7dc65b85cda0c",
+      "words": 1511,
+      "forms": 0
     }
   },
   "input_hash": "dd574e924afd2e50ebd80c6157e7dc65b85cda0c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-technical-upgrade-v15-v16.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-technical-upgrade-v15-v16.md",
+    "description": "Upgrade from Business Central 2019 (v15) to 2020 (v16) with our comprehensive guide. Learn about prerequisites, database preparation, and post-upgrade tasks.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1511
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd574e924afd2e50ebd80c6157e7dc65b85cda0c"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui define customer vendor document layouts",
+  "title": "Assign document layouts to customers or vendors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.965Z",
+      "blob": "5bd70d910e773c6c348d42f2542cb9a05f82fa30",
+      "words": 670,
+      "forms": 2
     }
   },
   "input_hash": "5bd70d910e773c6c348d42f2542cb9a05f82fa30",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-define-customer-vendor-document-layouts.md"
-  }
+    "path": "business-central/ui-define-customer-vendor-document-layouts.md",
+    "description": "Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.",
+    "ms_date": "2024-11-28",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "9650",
+        "id": 9650,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "customized report",
+      "document layout",
+      "logo",
+      "personalize"
+    ],
+    "ai_usage": null,
+    "words": 670
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5bd70d910e773c6c348d42f2542cb9a05f82fa30"
 }

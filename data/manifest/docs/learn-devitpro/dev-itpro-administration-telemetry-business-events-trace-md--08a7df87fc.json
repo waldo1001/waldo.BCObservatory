@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry business events trace",
+  "title": "Analyze business events telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-business-events-trace",
   "published_at": "2026-06-29T10:18:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.959Z",
+      "blob": "b21428cc9825bd390489d442a14ac15ef897028c",
+      "words": 696,
+      "forms": 0
     }
   },
   "input_hash": "b21428cc9825bd390489d442a14ac15ef897028c",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-business-events-trace.md"
-  }
+    "path": "dev-itpro/administration/telemetry-business-events-trace.md",
+    "description": "Learn about business events telemetry in Business Central",
+    "ms_date": "2026-05-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "telemetry"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 696
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b21428cc9825bd390489d442a14ac15ef897028c"
 }

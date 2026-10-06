@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 99000757",
+  "title": "Where-Used (Top Level) (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757",
   "published_at": "2026-03-10T10:21:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.618Z",
+      "blob": "da602089409045acb0ea2c3d59b95844c8d28efb",
+      "words": 322,
+      "forms": 1
     }
   },
   "input_hash": "da602089409045acb0ea2c3d59b95844c8d28efb",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-99000757.md"
-  }
+    "path": "business-central/reports/report-99000757.md",
+    "description": "Get an overview of where, and in what quantities, you use items in the product structure of other items.",
+    "ms_date": "2024-10-23",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_99000757_Primary",
+        "id": 99000757,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 322
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da602089409045acb0ea2c3d59b95844c8d28efb"
 }

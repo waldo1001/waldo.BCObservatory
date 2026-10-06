@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "faqs expense agent",
+  "title": "Responsible AI FAQ for Expense Agent (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.345Z",
+      "blob": "5ca5336c4a73b71bfa4be94cfe5d8998cc753ae3",
+      "words": 1409,
+      "forms": 0
     }
   },
   "input_hash": "5ca5336c4a73b71bfa4be94cfe5d8998cc753ae3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/faqs-expense-agent.md"
-  }
+    "path": "business-central/expense-management/faqs-expense-agent.md",
+    "description": "Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1409
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ca5336c4a73b71bfa4be94cfe5d8998cc753ae3"
 }

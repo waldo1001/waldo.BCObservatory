@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details inventory posting",
+  "title": "Design details - Inventory posting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-posting",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.615Z",
+      "blob": "17a312e8dc1e48bdce4baaee113ae7ea44676b7b",
+      "words": 642,
+      "forms": 0
     }
   },
   "input_hash": "17a312e8dc1e48bdce4baaee113ae7ea44676b7b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-inventory-posting.md"
-  }
+    "path": "business-central/design-details-inventory-posting.md",
+    "description": "Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 642
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17a312e8dc1e48bdce4baaee113ae7ea44676b7b"
 }

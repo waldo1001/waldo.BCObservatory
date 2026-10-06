@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "migrate bc14 reimplementation",
+  "title": "Business Central 14 Reimplementation tool for cloud migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:23.243Z",
+      "blob": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
+      "words": 552,
+      "forms": 0
     }
   },
   "input_hash": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/migrate-bc14-reimplementation.md"
-  }
+    "path": "dev-itpro/administration/migrate-bc14-reimplementation.md",
+    "description": "Learn about the Business Central 14 reimplementation tool that migrates only essential data from Business Central 14 on-premises to Business Central online.",
+    "ms_date": "2026-05-23",
+    "ms_topic": "conceptual",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 552
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1"
 }

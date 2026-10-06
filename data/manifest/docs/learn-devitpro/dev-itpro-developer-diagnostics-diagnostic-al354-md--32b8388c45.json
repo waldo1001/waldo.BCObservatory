@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al354",
+  "title": "Compiler Error AL0354",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al354",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.805Z",
+      "blob": "6118710ba8d8e096d441c9bf5b3281cc74fff905",
+      "words": 50,
+      "forms": 0
     }
   },
   "input_hash": "6118710ba8d8e096d441c9bf5b3281cc74fff905",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al354.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al354.md",
+    "description": "Cannot move element '{0}' relative to itself in page '{1}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 50
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6118710ba8d8e096d441c9bf5b3281cc74fff905"
 }

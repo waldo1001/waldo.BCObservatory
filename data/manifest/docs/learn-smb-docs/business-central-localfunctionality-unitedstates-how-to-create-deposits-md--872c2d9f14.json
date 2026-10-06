@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create deposits",
+  "title": "Create deposits [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.054Z",
+      "blob": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2",
+      "words": 19,
+      "forms": 9
     }
   },
   "input_hash": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2",
@@ -18,6 +24,66 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/how-to-create-deposits.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/how-to-create-deposits.md",
+    "description": "You can make deposits to maintain a transaction record. This record contains information that can be applied to outstanding invoices and credit memos in the US version.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "1692",
+        "id": 1692,
+        "kind": null
+      },
+      {
+        "raw": "10140",
+        "id": 10140,
+        "kind": null
+      },
+      {
+        "raw": "10141",
+        "id": 10141,
+        "kind": null
+      },
+      {
+        "raw": "10143",
+        "id": 10143,
+        "kind": null
+      },
+      {
+        "raw": "10144",
+        "id": 10144,
+        "kind": null
+      },
+      {
+        "raw": "10146",
+        "id": 10146,
+        "kind": null
+      },
+      {
+        "raw": "10147",
+        "id": 10147,
+        "kind": null
+      },
+      {
+        "raw": "10148",
+        "id": 10148,
+        "kind": null
+      },
+      {
+        "raw": "36646",
+        "id": 36646,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "create deposits",
+      "transaction record",
+      "credit memos"
+    ],
+    "ai_usage": null,
+    "words": 19
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2"
 }

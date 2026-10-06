@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv setcurrentkey setrange setfilter getrangemin and getrangemax methods",
+  "title": "Filtering records with the SetRange, SetFilter, GetRangeMin, and GetRangeMax methods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-setcurrentkey-setrange-setfilter-getrangemin-and-getrangemax-methods",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.687Z",
+      "blob": "3f2b092c478ff5441238a993480505533db0ded6",
+      "words": 365,
+      "forms": 0
     }
   },
   "input_hash": "3f2b092c478ff5441238a993480505533db0ded6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-setcurrentkey-setrange-setfilter-getrangemin-and-getrangemax-methods.md"
-  }
+    "path": "dev-itpro/developer/devenv-setcurrentkey-setrange-setfilter-getrangemin-and-getrangemax-methods.md",
+    "description": "Describes methods that set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.",
+    "ms_date": "2024-04-18",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 365
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f2b092c478ff5441238a993480505533db0ded6"
 }

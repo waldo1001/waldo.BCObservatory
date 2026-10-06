@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al823",
+  "title": "Compiler Warning AL0823",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al823",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.383Z",
+      "blob": "c778b48ddf964ca8aa2a5525f7b883a2d44ec16e",
+      "words": 66,
+      "forms": 0
     }
   },
   "input_hash": "c778b48ddf964ca8aa2a5525f7b883a2d44ec16e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al823.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al823.md",
+    "description": "Field '{0}' is marked as PendingMove and cannot be used in an active key.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 66
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c778b48ddf964ca8aa2a5525f7b883a2d44ec16e"
 }

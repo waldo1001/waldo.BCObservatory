@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance invoice prepayments",
+  "title": "Invoice prepayments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.663Z",
+      "blob": "47bbdbb07a5f79e4f2331fef81d74be8944f5342",
+      "words": 192,
+      "forms": 7
     }
   },
   "input_hash": "47bbdbb07a5f79e4f2331fef81d74be8944f5342",
@@ -18,6 +24,52 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-invoice-prepayments.md"
-  }
+    "path": "business-central/finance-invoice-prepayments.md",
+    "description": "Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central.",
+    "ms_date": "2024-07-19",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "42",
+        "id": 42,
+        "kind": null
+      },
+      {
+        "raw": "42",
+        "id": 42,
+        "kind": null
+      },
+      {
+        "raw": "48",
+        "id": 48,
+        "kind": null
+      },
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "52",
+        "id": 52,
+        "kind": null
+      },
+      {
+        "raw": "9305",
+        "id": 9305,
+        "kind": null
+      },
+      {
+        "raw": "9307",
+        "id": 9307,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 192
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "47bbdbb07a5f79e4f2331fef81d74be8944f5342"
 }

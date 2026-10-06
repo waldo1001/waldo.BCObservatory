@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "extend contract",
+  "title": "Extend contract",
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/extend-contract",
   "published_at": "2026-09-04T10:57:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:20.000Z",
+      "blob": "0378b2821160adff19d610c0d3e29178af06f63b",
+      "words": 296,
+      "forms": 3
     }
   },
   "input_hash": "0378b2821160adff19d610c0d3e29178af06f63b",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/UBB/processing-usage-data/extend-contract.md"
-  }
+    "path": "business-central/UBB/processing-usage-data/extend-contract.md",
+    "description": "You can extend contracts in usage-based billing.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "8042",
+        "id": 8042,
+        "kind": null
+      },
+      {
+        "raw": "8053",
+        "id": 8053,
+        "kind": null
+      },
+      {
+        "raw": "8041",
+        "id": 8041,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0378b2821160adff19d610c0d3e29178af06f63b"
 }

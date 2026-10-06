@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv edit in excel lists",
+  "title": "Controlling Edit in Excel on list pages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-edit-in-excel-lists",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.559Z",
+      "blob": "48b60f90127f643b36104077fb798e5b5092fd7b",
+      "words": 252,
+      "forms": 0
     }
   },
   "input_hash": "48b60f90127f643b36104077fb798e5b5092fd7b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-edit-in-excel-lists.md"
-  }
+    "path": "dev-itpro/developer/devenv-edit-in-excel-lists.md",
+    "description": "This article explains how to control the Edit in Excel system action on list pages.",
+    "ms_date": "2024-05-02",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "48b60f90127f643b36104077fb798e5b5092fd7b"
 }

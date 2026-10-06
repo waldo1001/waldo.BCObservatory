@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up operation codes",
+  "title": "How to Set Up Operation Codes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.724Z",
+      "blob": "38a9227839925ff01799915efc9592363b10383b",
+      "words": 360,
+      "forms": 0
     }
   },
   "input_hash": "38a9227839925ff01799915efc9592363b10383b",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes.md",
+    "description": "You can add any number of operation codes to the table, except for the system-created codes C, D, and I, which are already available in Business Central.",
+    "ms_date": "2025-05-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "operation codes",
+      "set up operation codes",
+      "link operation code",
+      "general product posting groups",
+      "posting groups",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 360
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38a9227839925ff01799915efc9592363b10383b"
 }

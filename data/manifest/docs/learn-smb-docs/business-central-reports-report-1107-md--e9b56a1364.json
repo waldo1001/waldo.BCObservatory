@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1107",
+  "title": "Resource - Cost Breakdown (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1107",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.105Z",
+      "blob": "ecde7768dadb6ad91522464d3d3a67e09805bede",
+      "words": 76,
+      "forms": 1
     }
   },
   "input_hash": "ecde7768dadb6ad91522464d3d3a67e09805bede",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1107.md"
-  }
+    "path": "business-central/reports/report-1107.md",
+    "description": "Analyze the costs and incurred costs for each project resource in a period.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1107_Primary",
+        "id": 1107,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 76
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ecde7768dadb6ad91522464d3d3a67e09805bede"
 }

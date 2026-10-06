@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing contacts",
+  "title": "Create and manage company contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-contacts",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.546Z",
+      "blob": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db",
+      "words": 189,
+      "forms": 0
     }
   },
   "input_hash": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-contacts.md"
-  }
+    "path": "business-central/marketing-contacts.md",
+    "description": "Record every external person or organization you interact with—such as prospects, customers, vendors, and consultants—as contacts to track relationship details and communications.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "relationship",
+      "prospect"
+    ],
+    "ai_usage": null,
+    "words": 189
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db"
 }

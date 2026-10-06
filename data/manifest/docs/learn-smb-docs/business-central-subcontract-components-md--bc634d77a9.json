@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "subcontract components",
+  "title": "Manage components in subcontracting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-components",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.735Z",
+      "blob": "db0cda15663d135b19eb07623404a87ac6c0a691",
+      "words": 2073,
+      "forms": 4
     }
   },
   "input_hash": "db0cda15663d135b19eb07623404a87ac6c0a691",
@@ -18,6 +24,45 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/subcontract-components.md"
-  }
+    "path": "business-central/subcontract-components.md",
+    "description": "Learn how component supply methods determine how you handle components, assign locations, create transfer orders and returns, and how flushing works.",
+    "ms_date": "2026-07-08",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000886",
+        "id": 99000886,
+        "kind": null
+      },
+      {
+        "raw": "99000818",
+        "id": 99000818,
+        "kind": null
+      },
+      {
+        "raw": "99001503",
+        "id": 99001503,
+        "kind": null
+      },
+      {
+        "raw": "99000788",
+        "id": 99000788,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "subcontracting",
+      "components",
+      "production BOM",
+      "routing",
+      "flushing",
+      "transfer order",
+      "location"
+    ],
+    "ai_usage": null,
+    "words": 2073
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db0cda15663d135b19eb07623404a87ac6c0a691"
 }

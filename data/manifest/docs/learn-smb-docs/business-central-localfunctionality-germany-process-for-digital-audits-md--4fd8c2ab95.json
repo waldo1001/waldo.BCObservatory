@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "process for digital audits",
+  "title": "Digital audits (GoBD/GDPdU)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.439Z",
+      "blob": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
+      "words": 981,
+      "forms": 9
     }
   },
   "input_hash": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
@@ -18,6 +24,69 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/process-for-digital-audits.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/process-for-digital-audits.md",
+    "description": "Export data according to the digital audit process (GoBD/GDPdU) based on German tax law.",
+    "ms_date": "2024-05-04",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11002",
+        "id": 11002,
+        "kind": null
+      },
+      {
+        "raw": "11003",
+        "id": 11003,
+        "kind": null
+      },
+      {
+        "raw": "11004",
+        "id": 11004,
+        "kind": null
+      },
+      {
+        "raw": "11007",
+        "id": 11007,
+        "kind": null
+      },
+      {
+        "raw": "11008",
+        "id": 11008,
+        "kind": null
+      },
+      {
+        "raw": "11009",
+        "id": 11009,
+        "kind": null
+      },
+      {
+        "raw": "11014",
+        "id": 11014,
+        "kind": null
+      },
+      {
+        "raw": "11026",
+        "id": 11026,
+        "kind": null
+      },
+      {
+        "raw": "11027",
+        "id": 11027,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "data export",
+      "digital audit process",
+      "GoBD",
+      "GDPdU",
+      "German tax law",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 981
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45"
 }

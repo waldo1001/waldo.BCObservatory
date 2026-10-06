@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "report execute method",
+  "title": "Report.Execute(Integer, Text [, RecordRef]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-execute-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:51.619Z",
+      "blob": "e48fb6eb01e69f26c8b3ada1805ff75d7666caf4",
+      "words": 376,
+      "forms": 0
     }
   },
   "input_hash": "e48fb6eb01e69f26c8b3ada1805ff75d7666caf4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/report/report-execute-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/report/report-execute-method.md",
+    "description": "Runs a report in preview or processing-only mode without showing the request page in the client.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 376
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e48fb6eb01e69f26c8b3ada1805ff75d7666caf4"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin how to couple and synchronize records manually",
+  "title": "Coupling and synchronizing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.521Z",
+      "blob": "114352a480d43cfc9f6c6d922faa47632c848b22",
+      "words": 954,
+      "forms": 1
     }
   },
   "input_hash": "114352a480d43cfc9f6c6d922faa47632c848b22",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-how-to-couple-and-synchronize-records-manually.md"
-  }
+    "path": "business-central/admin-how-to-couple-and-synchronize-records-manually.md",
+    "description": "Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.",
+    "ms_date": "2025-04-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "6250",
+        "id": 6250,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "crm",
+      "sales",
+      "couple",
+      "decouple",
+      "synchronize"
+    ],
+    "ai_usage": null,
+    "words": 954
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "114352a480d43cfc9f6c6d922faa47632c848b22"
 }

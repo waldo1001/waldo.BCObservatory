@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extendeddatatype property",
+  "title": "ExtendedDatatype property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-extendeddatatype-property",
   "published_at": "2026-01-16T10:14:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.523Z",
+      "blob": "608b05c3b13165e27e8dec6ee1f916f2c59bf9b8",
+      "words": 516,
+      "forms": 0
     }
   },
   "input_hash": "608b05c3b13165e27e8dec6ee1f916f2c59bf9b8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-extendeddatatype-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-extendeddatatype-property.md",
+    "description": "Sets the extended data type of a control.",
+    "ms_date": "2026-01-16",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 516
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "608b05c3b13165e27e8dec6ee1f916f2c59bf9b8"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print account book reports",
+  "title": "How to print account book reports [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.700Z",
+      "blob": "cc05880bcc5f4a7ce279af79d985a3415365f884",
+      "words": 401,
+      "forms": 0
     }
   },
   "input_hash": "cc05880bcc5f4a7ce279af79d985a3415365f884",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-print-account-book-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-print-account-book-reports.md",
+    "description": "Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.",
+    "ms_date": "2025-05-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "print account book reports",
+      "official account book",
+      "official account summarized book",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 401
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc05880bcc5f4a7ce279af79d985a3415365f884"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Cess Basic Setup",
+  "title": "Setting up GST Compensation Cess",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Basic-Setup",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.913Z",
+      "blob": "8a8c5d0eae81ac1e558b7f7a0e30c12b66067f49",
+      "words": 710,
+      "forms": 0
     }
   },
   "input_hash": "8a8c5d0eae81ac1e558b7f7a0e30c12b66067f49",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Cess-Basic-Setup.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Cess-Basic-Setup.md",
+    "description": "Describes the essential configurations needed to set up GST Compensation Cess.",
+    "ms_date": "2025-06-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "GST compensation cess",
+      "GST posting setup",
+      "tax rates",
+      "GST groups"
+    ],
+    "ai_usage": null,
+    "words": 710
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a8c5d0eae81ac1e558b7f7a0e30c12b66067f49"
 }

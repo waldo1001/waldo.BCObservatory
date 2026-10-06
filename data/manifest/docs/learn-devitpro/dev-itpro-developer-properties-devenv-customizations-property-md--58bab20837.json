@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv customizations property",
+  "title": "Customizations property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-customizations-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.492Z",
+      "blob": "91333290361fc964e6a7ad16d1f3e29c0a80e7e2",
+      "words": 145,
+      "forms": 0
     }
   },
   "input_hash": "91333290361fc964e6a7ad16d1f3e29c0a80e7e2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-customizations-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-customizations-property.md",
+    "description": "Specifies the Page Customizations which are applied with this profile.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 145
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91333290361fc964e6a7ad16d1f3e29c0a80e7e2"
 }

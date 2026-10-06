@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv provider property",
+  "title": "Provider property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-provider-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:47.025Z",
+      "blob": "406f0c05922d985d4bf0f5412f0400647030c102",
+      "words": 89,
+      "forms": 0
     }
   },
   "input_hash": "406f0c05922d985d4bf0f5412f0400647030c102",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-provider-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-provider-property.md",
+    "description": "Sets the provider for a FactBox.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 89
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "406f0c05922d985d4bf0f5412f0400647030c102"
 }

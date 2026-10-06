@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to post and print all transactions for a period",
+  "title": "How to Post and Print All Transactions for a Period",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.695Z",
+      "blob": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
+      "words": 313,
+      "forms": 0
     }
   },
   "input_hash": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md",
+    "description": "Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.",
+    "ms_date": "2025-05-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "annual reports",
+      "group transaction entries",
+      "post transactions",
+      "print transactions",
+      "periodic transactions posting",
+      "periodic printing of transactions",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 313
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7"
 }

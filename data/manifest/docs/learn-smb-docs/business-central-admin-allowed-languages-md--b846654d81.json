@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin allowed languages",
+  "title": "Specify available languages in your environment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.562Z",
+      "blob": "1d60003508f255fc256c65dbdf7876fcc2746973",
+      "words": 218,
+      "forms": 0
     }
   },
   "input_hash": "1d60003508f255fc256c65dbdf7876fcc2746973",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-allowed-languages.md"
-  }
+    "path": "business-central/admin-allowed-languages.md",
+    "description": "Learn how to build a list of the languages that are available in your Business Central environment.",
+    "ms_date": "2025-02-19",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 218
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1d60003508f255fc256c65dbdf7876fcc2746973"
 }

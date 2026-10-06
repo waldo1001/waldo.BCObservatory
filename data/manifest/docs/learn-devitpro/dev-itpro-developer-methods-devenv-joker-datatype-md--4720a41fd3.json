@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv joker datatype",
+  "title": "Joker Data Type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-joker-datatype",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.705Z",
+      "blob": "5d7eda3c49f6d25dac30bac48d6b7ca3da001ef7",
+      "words": 81,
+      "forms": 0
     }
   },
   "input_hash": "5d7eda3c49f6d25dac30bac48d6b7ca3da001ef7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods/devenv-joker-datatype.md"
-  }
+    "path": "dev-itpro/developer/methods/devenv-joker-datatype.md",
+    "description": "The Joker data type is an internal type, a wildcard, not exposed to AL developers.",
+    "ms_date": "2024-04-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 81
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5d7eda3c49f6d25dac30bac48d6b7ca3da001ef7"
 }

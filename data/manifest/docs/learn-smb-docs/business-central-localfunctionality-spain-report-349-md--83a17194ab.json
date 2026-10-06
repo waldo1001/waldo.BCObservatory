@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 349",
+  "title": "Report 349 [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-349",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.759Z",
+      "blob": "db314ddc3f65e4ef3ad44792865808d436dd0ead",
+      "words": 615,
+      "forms": 0
     }
   },
   "input_hash": "db314ddc3f65e4ef3ad44792865808d436dd0ead",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/report-349.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/report-349.md",
+    "description": "Learn how to use Business Central to prepare and submit Report 349, the periodic declaration of trade with other EU countries/regions required by Spanish tax authorities.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "report 349",
+      "delivery operation codes",
+      "item setup",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 615
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db314ddc3f65e4ef3ad44792865808d436dd0ead"
 }

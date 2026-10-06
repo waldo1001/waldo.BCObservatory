@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin checklist",
+  "title": "Onboard Users with Checklists",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-checklist",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.502Z",
+      "blob": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
+      "words": 152,
+      "forms": 7
     }
   },
   "input_hash": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
@@ -18,6 +24,56 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-checklist.md"
-  }
+    "path": "business-central/admin-checklist.md",
+    "description": "Learn how to set up checklists that help users get started in Business Central.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "checklist",
+    "search_form": [
+      {
+        "raw": "1992",
+        "id": 1992,
+        "kind": null
+      },
+      {
+        "raw": "1993",
+        "id": 1993,
+        "kind": null
+      },
+      {
+        "raw": "1994",
+        "id": 1994,
+        "kind": null
+      },
+      {
+        "raw": "1995",
+        "id": 1995,
+        "kind": null
+      },
+      {
+        "raw": "1990",
+        "id": 1990,
+        "kind": null
+      },
+      {
+        "raw": "1997",
+        "id": 1997,
+        "kind": null
+      },
+      {
+        "raw": "1801",
+        "id": 1801,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "setup",
+      "wizard",
+      "checklist"
+    ],
+    "ai_usage": null,
+    "words": 152
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9dbe21e38c140d974b3e36f166db1e317384b3b2"
 }

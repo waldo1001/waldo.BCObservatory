@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "production how to view the load on work centers",
+  "title": "View Load on Work and Machine Centers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.682Z",
+      "blob": "5e90995aec2b660e31f183eaed907c4ca40777ea",
+      "words": 662,
+      "forms": 8
     }
   },
   "input_hash": "5e90995aec2b660e31f183eaed907c4ca40777ea",
@@ -18,6 +24,57 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/production-how-to-view-the-load-on-work-centers.md"
-  }
+    "path": "business-central/production-how-to-view-the-load-on-work-centers.md",
+    "description": "Learn how to compare resource load and capacity, identify bottlenecks, use finite scheduling, and review the Work Center Task List.",
+    "ms_date": "2026-07-15",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "99000887",
+        "id": 99000887,
+        "kind": null
+      },
+      {
+        "raw": "99000888",
+        "id": 99000888,
+        "kind": null
+      },
+      {
+        "raw": "99000889",
+        "id": 99000889,
+        "kind": null
+      },
+      {
+        "raw": "99000890",
+        "id": 99000890,
+        "kind": null
+      },
+      {
+        "raw": "99000891",
+        "id": 99000891,
+        "kind": null
+      },
+      {
+        "raw": "99000892",
+        "id": 99000892,
+        "kind": null
+      },
+      {
+        "raw": "99000915",
+        "id": 99000915,
+        "kind": null
+      },
+      {
+        "raw": "99000916",
+        "id": 99000916,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 662
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e90995aec2b660e31f183eaed907c4ca40777ea"
 }

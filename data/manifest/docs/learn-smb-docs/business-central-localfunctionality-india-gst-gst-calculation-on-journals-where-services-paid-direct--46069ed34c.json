@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST GST Calculation on Journals where Services paid directly through CashBank",
+  "title": "GST on Journals where Services paid directly through Cash or Bank",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank",
   "published_at": "2025-10-16T15:02:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.621Z",
+      "blob": "1f74c0c310ad561b1498d1f65fcda0030eb3f675",
+      "words": 372,
+      "forms": 0
     }
   },
   "input_hash": "1f74c0c310ad561b1498d1f65fcda0030eb3f675",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md",
+    "description": "Explains GST calculation on journals for services paid directly via cash or bank in Business Central India localization.",
+    "ms_date": "2025-10-16",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English. GST on journals"
+    ],
+    "ai_usage": null,
+    "words": 372
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f74c0c310ad561b1498d1f65fcda0030eb3f675"
 }

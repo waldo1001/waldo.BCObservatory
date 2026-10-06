@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv file handling and text encoding",
+  "title": "File handling and text encoding",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-file-handling-and-text-encoding",
   "published_at": "2025-05-21T12:33:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.987Z",
+      "blob": "2908126eb98cc3665fc92207fd3baeade5f02782",
+      "words": 919,
+      "forms": 0
     }
   },
   "input_hash": "2908126eb98cc3665fc92207fd3baeade5f02782",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-file-handling-and-text-encoding.md"
-  }
+    "path": "dev-itpro/developer/devenv-file-handling-and-text-encoding.md",
+    "description": "Understand how files are handled and text is encoded in Business Central.",
+    "ms_date": "2025-05-21",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 919
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2908126eb98cc3665fc92207fd3baeade5f02782"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al389",
+  "title": "Compiler Error AL0389",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al389",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.924Z",
+      "blob": "f38ca662a3d27c4a4d87e476a3d57eb19f6958ac",
+      "words": 60,
+      "forms": 0
     }
   },
   "input_hash": "f38ca662a3d27c4a4d87e476a3d57eb19f6958ac",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al389.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al389.md",
+    "description": "The date formula '{0}' contains a number that is too large.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 60
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f38ca662a3d27c4a4d87e476a3d57eb19f6958ac"
 }

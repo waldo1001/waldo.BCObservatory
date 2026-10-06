@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "embed app application access management",
+  "title": "Application access management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-application-access-management",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.064Z",
+      "blob": "083b15b46d409e5df3edc08c544c10023eb92983",
+      "words": 984,
+      "forms": 0
     }
   },
   "input_hash": "083b15b46d409e5df3edc08c544c10023eb92983",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/embedapps/embed-app-application-access-management.md"
-  }
+    "path": "dev-itpro/embedapps/embed-app-application-access-management.md",
+    "description": "Learn how application access management works as an Embed App ISV and VAR.",
+    "ms_date": "2024-01-02",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "application",
+      "tenant",
+      "management",
+      "access",
+      "API"
+    ],
+    "ai_usage": null,
+    "words": 984
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "083b15b46d409e5df3edc08c544c10023eb92983"
 }

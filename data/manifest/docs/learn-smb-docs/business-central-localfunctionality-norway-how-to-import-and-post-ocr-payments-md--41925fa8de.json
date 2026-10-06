@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to import and post ocr payments",
+  "title": "Import and post OCR payments [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.065Z",
+      "blob": "d0b49d155e54f203832b53622936ef74873232dc",
+      "words": 236,
+      "forms": 2
     }
   },
   "input_hash": "d0b49d155e54f203832b53622936ef74873232dc",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md",
+    "description": "Learn how to prepare for and receive optical character recognition (OCR) payments in the Norwegian version of Business Central.",
+    "ms_date": "2025-05-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "15000100",
+        "id": 15000100,
+        "kind": null
+      },
+      {
+        "raw": "255",
+        "id": 255,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "OCR",
+      "Optical Character Recognition",
+      "OCR payments",
+      "Norwegian version"
+    ],
+    "ai_usage": null,
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d0b49d155e54f203832b53622936ef74873232dc"
 }

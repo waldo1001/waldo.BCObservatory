@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "belgian vat",
+  "title": "Belgian VAT",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.880Z",
+      "blob": "4e025c19b1a0eeb157d11f95f82249978f506aa5",
+      "words": 593,
+      "forms": 6
     }
   },
   "input_hash": "4e025c19b1a0eeb157d11f95f82249978f506aa5",
@@ -18,6 +24,51 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/belgian-vat.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/belgian-vat.md",
+    "description": "Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.",
+    "ms_date": "2025-04-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "11300",
+        "id": 11300,
+        "kind": null
+      },
+      {
+        "raw": "11301",
+        "id": 11301,
+        "kind": null
+      },
+      {
+        "raw": "11303",
+        "id": 11303,
+        "kind": null
+      },
+      {
+        "raw": "11306",
+        "id": 11306,
+        "kind": null
+      },
+      {
+        "raw": "11307",
+        "id": 11307,
+        "kind": null
+      },
+      {
+        "raw": "11308",
+        "id": 11308,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT reporting feature",
+      "print VAT transaction details",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 593
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e025c19b1a0eeb157d11f95f82249978f506aa5"
 }

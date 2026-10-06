@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui document status",
+  "title": "Status Field on Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-document-status",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.747Z",
+      "blob": "1056bbe7d8a7e23f114b397bb05f966f9e07079c",
+      "words": 484,
+      "forms": 0
     }
   },
   "input_hash": "1056bbe7d8a7e23f114b397bb05f966f9e07079c",
@@ -18,6 +24,26 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-document-status.md"
-  }
+    "path": "business-central/ui-document-status.md",
+    "description": "Learn about the 'Open' and 'Released' status on quote, order, or credit memo documents.",
+    "ms_date": "2022-09-19",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "document",
+      "status",
+      "quote",
+      "order",
+      "credit memo",
+      "released",
+      "open",
+      "pending approval",
+      "pending prepayment"
+    ],
+    "ai_usage": null,
+    "words": 484
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1056bbe7d8a7e23f114b397bb05f966f9e07079c"
 }

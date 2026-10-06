@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fa reports",
+  "title": "Fixed assets reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-reports",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.797Z",
+      "blob": "3f078b4f60b4ff7e7757213fc29925635167cf8e",
+      "words": 120,
+      "forms": 10
     }
   },
   "input_hash": "3f078b4f60b4ff7e7757213fc29925635167cf8e",
@@ -18,6 +24,72 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fa-reports.md"
-  }
+    "path": "business-central/fa-reports.md",
+    "description": "Explore the standard reports in Business Central that can help you track and manage your fixed assets.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "Report_5600",
+        "id": 5600,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5601",
+        "id": 5601,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5603",
+        "id": 5603,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5604",
+        "id": 5604,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5605",
+        "id": 5605,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5606",
+        "id": 5606,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5607",
+        "id": 5607,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5608",
+        "id": 5608,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5610",
+        "id": 5610,
+        "kind": "Report"
+      },
+      {
+        "raw": "Report_5611",
+        "id": 5611,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "reporting",
+      "fixed assets",
+      "report explorer",
+      "maintenance reports"
+    ],
+    "ai_usage": null,
+    "words": 120
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f078b4f60b4ff7e7757213fc29925635167cf8e"
 }

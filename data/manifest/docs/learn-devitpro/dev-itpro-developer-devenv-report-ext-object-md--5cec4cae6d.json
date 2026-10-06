@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv report ext object",
+  "title": "Report extension object",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object",
   "published_at": "2024-11-15T11:56:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.529Z",
+      "blob": "a325a146f61cf20af39cd93f8ad337328bd0d927",
+      "words": 544,
+      "forms": 0
     }
   },
   "input_hash": "a325a146f61cf20af39cd93f8ad337328bd0d927",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-report-ext-object.md"
-  }
+    "path": "dev-itpro/developer/devenv-report-ext-object.md",
+    "description": "The report extension object in AL for Business Central allows you to create an extension of an existing report.",
+    "ms_date": "2024-11-11",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 544
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a325a146f61cf20af39cd93f8ad337328bd0d927"
 }

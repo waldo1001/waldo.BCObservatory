@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al506",
+  "title": "Compiler Error AL0506",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al506",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.771Z",
+      "blob": "4ff1fc4281802b99d041ae41cfb72acb3a6a0490",
+      "words": 56,
+      "forms": 0
     }
   },
   "input_hash": "4ff1fc4281802b99d041ae41cfb72acb3a6a0490",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al506.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al506.md",
+    "description": "The area '{0}' can only directly contain groups.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 56
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ff1fc4281802b99d041ae41cfb72acb3a6a0490"
 }

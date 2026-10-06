@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance multi site organizations",
+  "title": "Business Central for multi-site and international organizations",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-multi-site-organizations",
   "published_at": "2026-01-19T15:17:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.503Z",
+      "blob": "a6c2fb4f649062efb12c4932cc71cb859a7227cf",
+      "words": 1108,
+      "forms": 0
     }
   },
   "input_hash": "a6c2fb4f649062efb12c4932cc71cb859a7227cf",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-multi-site-organizations.md"
-  }
+    "path": "business-central/finance-multi-site-organizations.md",
+    "description": "Business Central provides capabilities that support a hub-and-spoke business model.",
+    "ms_date": "2026-01-19",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "hub-and-spoke",
+      "multi-site",
+      "headquarter",
+      "sites"
+    ],
+    "ai_usage": null,
+    "words": 1108
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6c2fb4f649062efb12c4932cc71cb859a7227cf"
 }

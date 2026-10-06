@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv onaction fileuploadaction trigger",
+  "title": "OnAction (File Upload Action) trigger",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/fileuploadaction/devenv-onaction-fileuploadaction-trigger",
   "published_at": "2024-08-27T10:52:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.960Z",
+      "blob": "c247f451fc9416b8354c800339f896b28b225331",
+      "words": 70,
+      "forms": 0
     }
   },
   "input_hash": "c247f451fc9416b8354c800339f896b28b225331",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/triggers-auto/fileuploadaction/devenv-onaction-fileuploadaction-trigger.md"
-  }
+    "path": "dev-itpro/developer/triggers-auto/fileuploadaction/devenv-onaction-fileuploadaction-trigger.md",
+    "description": "Runs when a user uploads files on a page.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 70
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c247f451fc9416b8354c800339f896b28b225331"
 }

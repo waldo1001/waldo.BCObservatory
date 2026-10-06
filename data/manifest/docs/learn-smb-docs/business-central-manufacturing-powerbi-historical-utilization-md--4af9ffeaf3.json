@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "manufacturing powerbi historical utilization",
+  "title": "Historical Utilization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.261Z",
+      "blob": "55a54c1a5286b2b34ec7fe80df2e22672cac232b",
+      "words": 287,
+      "forms": 1
     }
   },
   "input_hash": "55a54c1a5286b2b34ec7fe80df2e22672cac232b",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/manufacturing-powerbi-historical-utilization.md"
-  }
+    "path": "business-central/manufacturing-powerbi-historical-utilization.md",
+    "description": "The Historical Utilization report provides insights into the historical utilization of manufacturing resources and machinery equipment over time.",
+    "ms_date": "2024-11-01",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "37041_Primary",
+        "id": 37041,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 287
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "55a54c1a5286b2b34ec7fe80df2e22672cac232b"
 }

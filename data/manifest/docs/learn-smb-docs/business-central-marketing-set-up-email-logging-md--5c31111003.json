@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "marketing set up email logging",
+  "title": "Set up email logging",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:28.326Z",
+      "blob": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
+      "words": 1805,
+      "forms": 3
     }
   },
   "input_hash": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/marketing-set-up-email-logging.md"
-  }
+    "path": "business-central/marketing-set-up-email-logging.md",
+    "description": "Learn how to turn email interactions between salespeople and customers into real sales opportunities.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "1680",
+        "id": 1680,
+        "kind": null
+      },
+      {
+        "raw": "1811",
+        "id": 1811,
+        "kind": null
+      },
+      {
+        "raw": "5076",
+        "id": 5076,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "relationship",
+      "prospect",
+      "opportunity",
+      "email"
+    ],
+    "ai_usage": null,
+    "words": 1805
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4"
 }

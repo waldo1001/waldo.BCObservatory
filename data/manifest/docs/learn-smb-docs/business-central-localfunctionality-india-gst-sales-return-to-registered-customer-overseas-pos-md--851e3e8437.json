@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Sales Return to Registered Customer Overseas POS",
+  "title": "Sales returns from registered customers for goods with an overseas place of supply",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.047Z",
+      "blob": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e",
+      "words": 296,
+      "forms": 0
     }
   },
   "input_hash": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md"
-  }
+    "path": "business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md",
+    "description": "Process for handling sales returns or issuing credit notes for services supplied overseas to registered customers in India.",
+    "ms_date": "2025-06-23",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "India",
+      "local",
+      "IN",
+      "English",
+      "sales returns",
+      "registered customers",
+      "overseas place of supply"
+    ],
+    "ai_usage": null,
+    "words": 296
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e"
 }

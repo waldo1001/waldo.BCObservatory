@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "quick start procurement",
+  "title": "Procurement Quick Start",
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-procurement",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.146Z",
+      "blob": "286a00ded8af0954b115be7cf8a8c88e5b2e53e0",
+      "words": 695,
+      "forms": 4
     }
   },
   "input_hash": "286a00ded8af0954b115be7cf8a8c88e5b2e53e0",
@@ -18,6 +24,39 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/quick-start-procurement.md"
-  }
+    "path": "business-central/quick-start-procurement.md",
+    "description": "Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.",
+    "ms_date": "2021-09-29",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "26",
+        "id": 26,
+        "kind": null
+      },
+      {
+        "raw": "27",
+        "id": 27,
+        "kind": null
+      },
+      {
+        "raw": "50",
+        "id": 50,
+        "kind": null
+      },
+      {
+        "raw": "56",
+        "id": 56,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "quickstart"
+    ],
+    "ai_usage": null,
+    "words": 695
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "286a00ded8af0954b115be7cf8a8c88e5b2e53e0"
 }

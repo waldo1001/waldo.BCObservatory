@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "us tax setup",
+  "title": "Basic Tax Setup in the US Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.088Z",
+      "blob": "9abbb20c13d29b700ac6d485969f62ef8c6e458e",
+      "words": 217,
+      "forms": 1
     }
   },
   "input_hash": "9abbb20c13d29b700ac6d485969f62ef8c6e458e",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/UnitedStates/us-tax-setup.md"
-  }
+    "path": "business-central/LocalFunctionality/UnitedStates/us-tax-setup.md",
+    "description": "Learn how to set basic tax data and apply default accounts for posting calculated tax information.",
+    "ms_date": "2025-02-04",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [
+      {
+        "raw": "485",
+        "id": 485,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "tax",
+      "setup"
+    ],
+    "ai_usage": null,
+    "words": 217
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9abbb20c13d29b700ac6d485969f62ef8c6e458e"
 }

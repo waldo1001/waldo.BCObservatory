@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to print vat information on invoices",
+  "title": "How to print VAT information on invoices [FI]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.102Z",
+      "blob": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
+      "words": 127,
+      "forms": 0
     }
   },
   "input_hash": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md",
+    "description": "This article explains how you can use posting groups to print VAT information for each item on the sales invoice.",
+    "ms_date": "2025-02-13",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT",
+      "posting groups",
+      "sales invoice",
+      "print VAT information"
+    ],
+    "ai_usage": null,
+    "words": 127
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4cd923a8e7008a79c548453f3d31cc92910cad2d"
 }

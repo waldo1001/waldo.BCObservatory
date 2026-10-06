@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin manage appsource apps",
+  "title": "Manage Marketplace apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-appsource-apps",
   "published_at": "2026-06-15T08:38:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.803Z",
+      "blob": "83a1379e40d410e5e4d42d05f766c96badcca299",
+      "words": 218,
+      "forms": 1
     }
   },
   "input_hash": "83a1379e40d410e5e4d42d05f766c96badcca299",
@@ -18,6 +24,28 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-manage-appsource-apps.md"
-  }
+    "path": "business-central/admin-manage-appsource-apps.md",
+    "description": "Learn how to browse and install Marketplace apps from Business Central.",
+    "ms_date": "2025-04-08",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "2515_Primary",
+        "id": 2515,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "app",
+      "apps",
+      "install",
+      "integration",
+      "Marketplace"
+    ],
+    "ai_usage": null,
+    "words": 218
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83a1379e40d410e5e4d42d05f766c96badcca299"
 }

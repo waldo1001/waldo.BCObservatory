@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv report ext example",
+  "title": "Report Extension Example",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-example",
   "published_at": "2025-08-05T06:39:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.801Z",
+      "blob": "14f449c98ba29bdeda95a56a5e39aec082313cde",
+      "words": 423,
+      "forms": 0
     }
   },
   "input_hash": "14f449c98ba29bdeda95a56a5e39aec082313cde",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-report-ext-example.md"
-  }
+    "path": "dev-itpro/developer/devenv-report-ext-example.md",
+    "description": "Reports are used to print or display information from a database.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 423
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "14f449c98ba29bdeda95a56a5e39aec082313cde"
 }

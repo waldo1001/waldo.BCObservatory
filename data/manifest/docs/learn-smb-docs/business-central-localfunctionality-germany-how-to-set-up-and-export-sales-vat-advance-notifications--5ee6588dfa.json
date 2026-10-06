@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to set up and export sales vat advance notifications",
+  "title": "Set up and export sales VAT advance notifications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.433Z",
+      "blob": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
+      "words": 793,
+      "forms": 0
     }
   },
   "input_hash": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications.md"
-  }
+    "path": "business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications.md",
+    "description": "Learn how to set up and export sales VAT advance notifications in Business Central by configuring the necessary declaration and setup pages.",
+    "ms_date": "2025-03-12",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT advance notifications",
+      "sales VAT notifications",
+      "export VAT notifications",
+      "German version"
+    ],
+    "ai_usage": null,
+    "words": 793
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd"
 }

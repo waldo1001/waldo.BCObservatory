@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv actions user interface",
+  "title": "Actions in the user interface",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-user-interface",
   "published_at": "2025-05-06T19:28:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.408Z",
+      "blob": "ad9f8782532481406ac8455c9f79b92cd683de89",
+      "words": 1176,
+      "forms": 0
     }
   },
   "input_hash": "ad9f8782532481406ac8455c9f79b92cd683de89",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-actions-user-interface.md"
-  }
+    "path": "dev-itpro/developer/devenv-actions-user-interface.md",
+    "description": "Learn about the guidelines for organizing actions when creating, extending, and customizing pages in Business Central.",
+    "ms_date": "2025-01-07",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1176
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad9f8782532481406ac8455c9f79b92cd683de89"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "inventory responsibility centers",
+  "title": "How to work with responsibility centers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-responsibility-centers",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.803Z",
+      "blob": "ad4204e97cb7456aef4b21189b5842851ab6dbd0",
+      "words": 575,
+      "forms": 0
     }
   },
   "input_hash": "ad4204e97cb7456aef4b21189b5842851ab6dbd0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/inventory-responsibility-centers.md"
-  }
+    "path": "business-central/inventory-responsibility-centers.md",
+    "description": "Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.",
+    "ms_date": "2024-05-16",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 575
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad4204e97cb7456aef4b21189b5842851ab6dbd0"
 }

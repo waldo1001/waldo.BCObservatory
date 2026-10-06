@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv pagehandler attribute",
+  "title": "PageHandler attribute",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-pagehandler-attribute",
   "published_at": "2026-08-20T08:34:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.185Z",
+      "blob": "d495c1ba292db4634de923f6a8df20824f28a4be",
+      "words": 253,
+      "forms": 0
     }
   },
   "input_hash": "d495c1ba292db4634de923f6a8df20824f28a4be",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/attributes/devenv-pagehandler-attribute.md"
-  }
+    "path": "dev-itpro/developer/attributes/devenv-pagehandler-attribute.md",
+    "description": "Specifies that the method is a PageHandler method, which handles specific pages that are not run modally.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 253
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d495c1ba292db4634de923f6a8df20824f28a4be"
 }

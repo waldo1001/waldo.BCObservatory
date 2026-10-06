@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "codecop aa0473",
+  "title": "CodeCop Info AA0473",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0473",
   "published_at": "2025-08-05T14:04:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.779Z",
+      "blob": "ca118da3591ff0b4cd3290b6befb1422e2851892",
+      "words": 66,
+      "forms": 0
     }
   },
   "input_hash": "ca118da3591ff0b4cd3290b6befb1422e2851892",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/codecop-aa0473.md"
-  }
+    "path": "dev-itpro/developer/analyzers/codecop-aa0473.md",
+    "description": "Table control fields of type 'Decimal' must have the property AutoFormatType specified.",
+    "ms_date": "2025-08-05",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 66
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ca118da3591ff0b4cd3290b6befb1422e2851892"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance powerbi balance sheet",
+  "title": "Balance Sheet by Month",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.480Z",
+      "blob": "a2ca63bc6780ed46de4316885302e5cf45d36f3a",
+      "words": 224,
+      "forms": 1
     }
   },
   "input_hash": "a2ca63bc6780ed46de4316885302e5cf45d36f3a",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-powerbi-balance-sheet.md"
-  }
+    "path": "business-central/finance-powerbi-balance-sheet.md",
+    "description": "The Balance Sheet by Month report provides a month-to-month view of the balance at date for all balance sheet accounts.",
+    "ms_date": "2024-10-31",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "36986_Primary",
+        "id": 36986,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 224
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2ca63bc6780ed46de4316885302e5cf45d36f3a"
 }

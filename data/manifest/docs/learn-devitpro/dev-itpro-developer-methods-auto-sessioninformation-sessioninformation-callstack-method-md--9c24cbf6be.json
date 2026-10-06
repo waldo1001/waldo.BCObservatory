@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "sessioninformation callstack method",
+  "title": "SessionInformation.Callstack() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/sessioninformation/sessioninformation-callstack-method",
   "published_at": "2025-03-11T11:53:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.409Z",
+      "blob": "cb644e5d552cef3fee36b348db78244f7b091abd",
+      "words": 72,
+      "forms": 0
     }
   },
   "input_hash": "cb644e5d552cef3fee36b348db78244f7b091abd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/sessioninformation/sessioninformation-callstack-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/sessioninformation/sessioninformation-callstack-method.md",
+    "description": "Gets the current callstack.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 72
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb644e5d552cef3fee36b348db78244f7b091abd"
 }

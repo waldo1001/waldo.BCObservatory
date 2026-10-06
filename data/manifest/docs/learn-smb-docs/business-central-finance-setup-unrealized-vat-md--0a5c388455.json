@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance setup unrealized vat",
+  "title": "Set up unrealized value added tax",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.738Z",
+      "blob": "14841d9d638351bd8cbf7d8c6c01db51635f3c89",
+      "words": 506,
+      "forms": 3
     }
   },
   "input_hash": "14841d9d638351bd8cbf7d8c6c01db51635f3c89",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-setup-unrealized-vat.md"
-  }
+    "path": "business-central/finance-setup-unrealized-vat.md",
+    "description": "If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.",
+    "ms_date": "2024-08-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "118",
+        "id": 118,
+        "kind": null
+      },
+      {
+        "raw": "472",
+        "id": 472,
+        "kind": null
+      },
+      {
+        "raw": "473",
+        "id": 473,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "cash",
+      "VAT",
+      "unrealized",
+      "cash-based"
+    ],
+    "ai_usage": null,
+    "words": 506
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "14841d9d638351bd8cbf7d8c6c01db51635f3c89"
 }

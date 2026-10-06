@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "intercompany how manage intercompany inbox",
+  "title": "Manage the Intercompany Inbox and Outbox",
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.755Z",
+      "blob": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1",
+      "words": 1014,
+      "forms": 28
     }
   },
   "input_hash": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1",
@@ -18,6 +24,159 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/intercompany-how-manage-intercompany-inbox.md"
-  }
+    "path": "business-central/intercompany-how-manage-intercompany-inbox.md",
+    "description": "Intercompany transactions you receive from your partners are listed in the intercompany inbox, where you process them manually or automatically.",
+    "ms_date": "2025-07-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "600",
+        "id": 600,
+        "kind": null
+      },
+      {
+        "raw": "605",
+        "id": 605,
+        "kind": null
+      },
+      {
+        "raw": "611_Primary",
+        "id": 611,
+        "kind": "Primary"
+      },
+      {
+        "raw": "613_Primary",
+        "id": 613,
+        "kind": "Primary"
+      },
+      {
+        "raw": "615_Primary",
+        "id": 615,
+        "kind": "Primary"
+      },
+      {
+        "raw": "617_Primary",
+        "id": 617,
+        "kind": "Primary"
+      },
+      {
+        "raw": "618",
+        "id": 618,
+        "kind": null
+      },
+      {
+        "raw": "650",
+        "id": 650,
+        "kind": null
+      },
+      {
+        "raw": "651",
+        "id": 651,
+        "kind": null
+      },
+      {
+        "raw": "648",
+        "id": 648,
+        "kind": null
+      },
+      {
+        "raw": "649",
+        "id": 649,
+        "kind": null
+      },
+      {
+        "raw": "614",
+        "id": 614,
+        "kind": null
+      },
+      {
+        "raw": "642",
+        "id": 642,
+        "kind": null
+      },
+      {
+        "raw": "643",
+        "id": 643,
+        "kind": null
+      },
+      {
+        "raw": "640",
+        "id": 640,
+        "kind": null
+      },
+      {
+        "raw": "641",
+        "id": 641,
+        "kind": null
+      },
+      {
+        "raw": "616",
+        "id": 616,
+        "kind": null
+      },
+      {
+        "raw": "646",
+        "id": 646,
+        "kind": null
+      },
+      {
+        "raw": "647",
+        "id": 647,
+        "kind": null
+      },
+      {
+        "raw": "644",
+        "id": 644,
+        "kind": null
+      },
+      {
+        "raw": "645",
+        "id": 645,
+        "kind": null
+      },
+      {
+        "raw": "619",
+        "id": 619,
+        "kind": null
+      },
+      {
+        "raw": "612",
+        "id": 612,
+        "kind": null
+      },
+      {
+        "raw": "638",
+        "id": 638,
+        "kind": null
+      },
+      {
+        "raw": "639",
+        "id": 639,
+        "kind": null
+      },
+      {
+        "raw": "636",
+        "id": 636,
+        "kind": null
+      },
+      {
+        "raw": "637",
+        "id": 637,
+        "kind": null
+      },
+      {
+        "raw": "Report_512",
+        "id": 512,
+        "kind": "Report"
+      }
+    ],
+    "keywords": [
+      "incoming document"
+    ],
+    "ai_usage": null,
+    "words": 1014
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fiscal inventory valuation",
+  "title": "Fiscal Inventory Valuation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.850Z",
+      "blob": "a7bb2cd208456ba39aca28537a73430268a510ca",
+      "words": 370,
+      "forms": 5
     }
   },
   "input_hash": "a7bb2cd208456ba39aca28537a73430268a510ca",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Italy/fiscal-inventory-valuation.md"
-  }
+    "path": "business-central/LocalFunctionality/Italy/fiscal-inventory-valuation.md",
+    "description": "Submit an annual report detailing the monetary value of inventory items for the fiscal year.",
+    "ms_date": "2025-05-20",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "12117",
+        "id": 12117,
+        "kind": null
+      },
+      {
+        "raw": "12188",
+        "id": 12188,
+        "kind": null
+      },
+      {
+        "raw": "12128",
+        "id": 12128,
+        "kind": null
+      },
+      {
+        "raw": "12130",
+        "id": 12130,
+        "kind": null
+      },
+      {
+        "raw": "12137",
+        "id": 12137,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "submit annual report",
+      "monetary value",
+      "inventory items",
+      "fiscal inventory valuation"
+    ],
+    "ai_usage": null,
+    "words": 370
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7bb2cd208456ba39aca28537a73430268a510ca"
 }

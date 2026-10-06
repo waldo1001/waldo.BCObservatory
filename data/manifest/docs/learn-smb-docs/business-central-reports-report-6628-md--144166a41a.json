@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 6628",
+  "title": "Lot No Label Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6628",
   "published_at": "2026-09-16T11:17:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.745Z",
+      "blob": "87e5bc5c8404e52296f966f5d5950b86167cffad",
+      "words": 221,
+      "forms": 1
     }
   },
   "input_hash": "87e5bc5c8404e52296f966f5d5950b86167cffad",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-6628.md"
-  }
+    "path": "business-central/reports/report-6628.md",
+    "description": "Print labels that show item numbers and descriptions and encode lot numbers as Code 39 barcodes and QR codes for reliable scanning.",
+    "ms_date": "2026-09-16",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_6628_Primary",
+        "id": 6628,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 221
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87e5bc5c8404e52296f966f5d5950b86167cffad"
 }

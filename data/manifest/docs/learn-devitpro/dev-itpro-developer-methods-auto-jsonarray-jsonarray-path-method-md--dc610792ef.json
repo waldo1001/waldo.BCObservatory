@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonarray path method",
+  "title": "JsonArray.Path() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-path-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:49.727Z",
+      "blob": "99974fcd3155131f5fde90d1e7d41241ddbdb6b2",
+      "words": 117,
+      "forms": 0
     }
   },
   "input_hash": "99974fcd3155131f5fde90d1e7d41241ddbdb6b2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-path-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonarray/jsonarray-path-method.md",
+    "description": "Retrieves the JSON path of the array relative to the root of its containing tree.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 117
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "99974fcd3155131f5fde90d1e7d41241ddbdb6b2"
 }

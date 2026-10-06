@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "background",
+  "title": "Run tasks in the background and recurrently",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/background",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.278Z",
+      "blob": "776ef81b05296b0797d9ac7a04f0ff9ba28ef0f2",
+      "words": 798,
+      "forms": 0
     }
   },
   "input_hash": "776ef81b05296b0797d9ac7a04f0ff9ba28ef0f2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/shopify/background.md"
-  }
+    "path": "business-central/shopify/background.md",
+    "description": "Configure synchronization of data between Business Central and Shopify in the background.",
+    "ms_date": "2026-09-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 798
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "776ef81b05296b0797d9ac7a04f0ff9ba28ef0f2"
 }

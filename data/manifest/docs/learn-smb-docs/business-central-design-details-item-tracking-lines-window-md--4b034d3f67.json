@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details item tracking lines window",
+  "title": "Design details - Item Tracking Lines page",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-lines-window",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.654Z",
+      "blob": "22118709fa5069da9c708cbac74f150498526595",
+      "words": 461,
+      "forms": 0
     }
   },
   "input_hash": "22118709fa5069da9c708cbac74f150498526595",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-item-tracking-lines-window.md"
-  }
+    "path": "business-central/design-details-item-tracking-lines-window.md",
+    "description": "Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "design",
+      "inventory",
+      "item",
+      "tracking",
+      "serial number",
+      "lot number"
+    ],
+    "ai_usage": null,
+    "words": 461
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22118709fa5069da9c708cbac74f150498526595"
 }

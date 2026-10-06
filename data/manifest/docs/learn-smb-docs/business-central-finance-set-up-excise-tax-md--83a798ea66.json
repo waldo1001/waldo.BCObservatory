@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance set up excise tax",
+  "title": "Set up excise tax",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.060Z",
+      "blob": "52f26b050db6a36b2eb1c0778a3129c14bb584d5",
+      "words": 849,
+      "forms": 5
     }
   },
   "input_hash": "52f26b050db6a36b2eb1c0778a3129c14bb584d5",
@@ -18,6 +24,42 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-set-up-excise-tax.md"
-  }
+    "path": "business-central/finance-set-up-excise-tax.md",
+    "description": "Learn how to set up excise tax types, assign one or more excise taxes to items, configure fixed assets, and prepare excise journals.",
+    "ms_date": "2026-08-26",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_7414",
+        "id": 7414,
+        "kind": "Primary"
+      },
+      {
+        "raw": "7416",
+        "id": 7416,
+        "kind": null
+      },
+      {
+        "raw": "30",
+        "id": 30,
+        "kind": null
+      },
+      {
+        "raw": "5600",
+        "id": 5600,
+        "kind": null
+      },
+      {
+        "raw": "6285",
+        "id": 6285,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 849
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "52f26b050db6a36b2eb1c0778a3129c14bb584d5"
 }

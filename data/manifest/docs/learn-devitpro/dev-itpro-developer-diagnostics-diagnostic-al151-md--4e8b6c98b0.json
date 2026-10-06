@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al151",
+  "title": "Compiler Error AL0151",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al151",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.143Z",
+      "blob": "cb50c2890b5dc925e4b0e7f126e52a8ae481e79e",
+      "words": 53,
+      "forms": 0
     }
   },
   "input_hash": "cb50c2890b5dc925e4b0e7f126e52a8ae481e79e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al151.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al151.md",
+    "description": "Expression must be an Option type.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 53
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb50c2890b5dc925e4b0e7f126e52a8ae481e79e"
 }

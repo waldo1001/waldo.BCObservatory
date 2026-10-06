@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al175",
+  "title": "Compiler Error AL0175",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al175",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.161Z",
+      "blob": "ae037dcf7370826ee3e26c8a6ed1fe4e1cfffbb3",
+      "words": 63,
+      "forms": 0
     }
   },
   "input_hash": "ae037dcf7370826ee3e26c8a6ed1fe4e1cfffbb3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al175.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al175.md",
+    "description": "Operator '{0}' cannot be applied to operands of type '{1}' and '{2}'.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 63
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae037dcf7370826ee3e26c8a6ed1fe4e1cfffbb3"
 }

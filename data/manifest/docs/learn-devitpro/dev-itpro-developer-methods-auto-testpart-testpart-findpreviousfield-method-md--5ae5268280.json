@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "testpart findpreviousfield method",
+  "title": "TestPart.FindPreviousField(TestField, Any) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/testpart/testpart-findpreviousfield-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.622Z",
+      "blob": "2a1d30d9d3080568ff4a04c3e5817ae377d946f6",
+      "words": 125,
+      "forms": 0
     }
   },
   "input_hash": "2a1d30d9d3080568ff4a04c3e5817ae377d946f6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/testpart/testpart-findpreviousfield-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/testpart/testpart-findpreviousfield-method.md",
+    "description": "Finds the previous field in the data set that is displayed on a test page.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 125
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a1d30d9d3080568ff4a04c3e5817ae377d946f6"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent expense reports",
+  "title": "Create and Submit Expense Reports in Expense Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.306Z",
+      "blob": "25ec5ada8a60303815fdf95d8c0f9461e3d1e827",
+      "words": 619,
+      "forms": 0
     }
   },
   "input_hash": "25ec5ada8a60303815fdf95d8c0f9461e3d1e827",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent-expense-reports.md"
-  }
+    "path": "business-central/expense-management/expense-agent-expense-reports.md",
+    "description": "Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 619
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25ec5ada8a60303815fdf95d8c0f9461e3d1e827"
 }

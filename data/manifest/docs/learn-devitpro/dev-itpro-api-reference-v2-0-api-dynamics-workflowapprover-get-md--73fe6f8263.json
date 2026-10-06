@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics workflowapprover get",
+  "title": "Get Workflow Approvers with the Business Central API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_workflowapprover_get",
   "published_at": "2026-08-24T07:56:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:21.434Z",
+      "blob": "124a0fe52cf24ed6e5e362cd00d99d2deb49b37f",
+      "words": 103,
+      "forms": 0
     }
   },
   "input_hash": "124a0fe52cf24ed6e5e362cd00d99d2deb49b37f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v2.0/api/dynamics_workflowapprover_get.md"
-  }
+    "path": "dev-itpro/api-reference/v2.0/api/dynamics_workflowapprover_get.md",
+    "description": "Use the Business Central API to retrieve workflow approvers, including workflow details, approver types, approval limit types, users, and sequences.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 103
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "124a0fe52cf24ed6e5e362cd00d99d2deb49b37f"
 }

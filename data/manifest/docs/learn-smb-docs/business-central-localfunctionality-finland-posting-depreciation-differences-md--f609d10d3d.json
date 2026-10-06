@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "posting depreciation differences",
+  "title": "Posting Depreciation Differences [FI]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.116Z",
+      "blob": "3df72e62249072d89f09ce42afd6ae5d55164058",
+      "words": 70,
+      "forms": 0
     }
   },
   "input_hash": "3df72e62249072d89f09ce42afd6ae5d55164058",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Finland/posting-depreciation-differences.md"
-  }
+    "path": "business-central/LocalFunctionality/Finland/posting-depreciation-differences.md",
+    "description": "Calculate and post the difference in accumulated depreciation between different depreciation methods in the general ledger.",
+    "ms_date": "2025-02-13",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [
+      "accumulated depreciation",
+      "depreciation methods"
+    ],
+    "ai_usage": null,
+    "words": 70
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3df72e62249072d89f09ce42afd6ae5d55164058"
 }

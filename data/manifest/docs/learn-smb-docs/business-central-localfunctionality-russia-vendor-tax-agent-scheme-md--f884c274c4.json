@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor Tax Agent scheme",
+  "title": "Vendor tax agent scheme in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.444Z",
+      "blob": "358ede4277b4351fde1724d970662c2701fbd7e7",
+      "words": 460,
+      "forms": 0
     }
   },
   "input_hash": "358ede4277b4351fde1724d970662c2701fbd7e7",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md",
+    "description": "Learn about vendor tax agent schemes in Russia, including enhancements for VAT processing and payment workflows.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "vendor tax agent",
+      "tax agent scheme",
+      "VAT processing",
+      "payment workflow",
+      "vendor funds",
+      "VAT payment",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 460
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "358ede4277b4351fde1724d970662c2701fbd7e7"
 }

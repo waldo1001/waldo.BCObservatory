@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv autoformatexpression property",
+  "title": "AutoFormatExpression property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-autoformatexpression-property",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.853Z",
+      "blob": "08acdbaacaa6bbfd36f5daa9eb263f86e8d03d7b",
+      "words": 276,
+      "forms": 0
     }
   },
   "input_hash": "08acdbaacaa6bbfd36f5daa9eb263f86e8d03d7b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-autoformatexpression-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-autoformatexpression-property.md",
+    "description": "Sets an AL expression that specifies how to format data.",
+    "ms_date": "2025-01-29",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 276
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08acdbaacaa6bbfd36f5daa9eb263f86e8d03d7b"
 }

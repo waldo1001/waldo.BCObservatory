@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "qms manual test creation",
+  "title": "Work with quality inspections",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.208Z",
+      "blob": "5fb21c280998a1eda58905ce4eaa65e93d01b2b3",
+      "words": 1334,
+      "forms": 3
     }
   },
   "input_hash": "5fb21c280998a1eda58905ce4eaa65e93d01b2b3",
@@ -18,6 +24,32 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/qms-manual-test-creation.md"
-  }
+    "path": "business-central/qms-manual-test-creation.md",
+    "description": "Learn how to create, assign, complete, print, reopen, and repeat quality inspections in Business Central.",
+    "ms_date": "2026-09-09",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "20406",
+        "id": 20406,
+        "kind": null
+      },
+      {
+        "raw": "20407",
+        "id": 20407,
+        "kind": null
+      },
+      {
+        "raw": "20408",
+        "id": 20408,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1334
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fb21c280998a1eda58905ce4eaa65e93d01b2b3"
 }

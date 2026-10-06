@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Forming and changing Staff List Order Staff Arrangement",
+  "title": "Forming and changing staff in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.461Z",
+      "blob": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
+      "words": 440,
+      "forms": 0
     }
   },
   "input_hash": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
@@ -18,6 +24,21 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md",
+    "description": "Learn how to form and update staff lists and arrangements in Business Central for Russia.",
+    "ms_date": "2025-07-11",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "staff list",
+      "staff list order",
+      "staff arrangement",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 440
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79c05226d1cd0fd4d501b22ea312d1a894f461a4"
 }

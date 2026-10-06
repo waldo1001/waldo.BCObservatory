@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv publish code customization",
+  "title": "Publishing a code-customized Base Application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publish-code-customization",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.822Z",
+      "blob": "2340ef191c41b52d36d695576a4746a44a82f8c8",
+      "words": 743,
+      "forms": 0
     }
   },
   "input_hash": "2340ef191c41b52d36d695576a4746a44a82f8c8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-publish-code-customization.md"
-  }
+    "path": "dev-itpro/developer/devenv-publish-code-customization.md",
+    "description": "Description of the process of publishing a code customization for Dynamics 365 Business Central on-prem.",
+    "ms_date": "2021-04-01",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 743
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2340ef191c41b52d36d695576a4746a44a82f8c8"
 }

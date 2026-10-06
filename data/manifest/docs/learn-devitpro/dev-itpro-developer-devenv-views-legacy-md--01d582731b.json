@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv views legacy",
+  "title": "Migrating to modern list views",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.701Z",
+      "blob": "e90da443df6d1d02c488d8102e8fa777052e92aa",
+      "words": 750,
+      "forms": 0
     }
   },
   "input_hash": "e90da443df6d1d02c488d8102e8fa777052e92aa",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-views-legacy.md"
-  }
+    "path": "dev-itpro/developer/devenv-views-legacy.md",
+    "description": "Explains how to move from legacy views to modern list views in Business Central.",
+    "ms_date": "2024-06-20",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 750
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e90da443df6d1d02c488d8102e8fa777052e92aa"
 }

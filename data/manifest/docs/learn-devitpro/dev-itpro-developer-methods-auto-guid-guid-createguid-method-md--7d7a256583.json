@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "guid createguid method",
+  "title": "Guid.CreateGuid() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/guid/guid-createguid-method",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.673Z",
+      "blob": "77e3f02cfdd5c432278f2a8404ba9491c945da24",
+      "words": 96,
+      "forms": 0
     }
   },
   "input_hash": "77e3f02cfdd5c432278f2a8404ba9491c945da24",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/guid/guid-createguid-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/guid/guid-createguid-method.md",
+    "description": "Creates a new unique GUID.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 96
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "77e3f02cfdd5c432278f2a8404ba9491c945da24"
 }

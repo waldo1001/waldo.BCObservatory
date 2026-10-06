@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv namespaces property",
+  "title": "Namespaces property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-namespaces-property",
   "published_at": "2025-01-31T09:18:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.341Z",
+      "blob": "bb347157f087aa22d029e8812a703d622657a976",
+      "words": 204,
+      "forms": 0
     }
   },
   "input_hash": "bb347157f087aa22d029e8812a703d622657a976",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-namespaces-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-namespaces-property.md",
+    "description": "Specifies namespaces on the XmlPort.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 204
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb347157f087aa22d029e8812a703d622657a976"
 }

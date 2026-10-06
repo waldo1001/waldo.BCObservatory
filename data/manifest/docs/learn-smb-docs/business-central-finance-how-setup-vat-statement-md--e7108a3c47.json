@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how setup vat statement",
+  "title": "Set up a VAT statement",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.661Z",
+      "blob": "2f1f4f17e9404dcf7703ebb1fc229487e36287be",
+      "words": 566,
+      "forms": 5
     }
   },
   "input_hash": "2f1f4f17e9404dcf7703ebb1fc229487e36287be",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-setup-vat-statement.md"
-  }
+    "path": "business-central/finance-how-setup-vat-statement.md",
+    "description": "This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.",
+    "ms_date": "2024-08-13",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "315",
+        "id": 315,
+        "kind": null
+      },
+      {
+        "raw": "317",
+        "id": 317,
+        "kind": null
+      },
+      {
+        "raw": "318",
+        "id": 318,
+        "kind": null
+      },
+      {
+        "raw": "320",
+        "id": 320,
+        "kind": null
+      },
+      {
+        "raw": "474",
+        "id": 474,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "posting",
+      "tax",
+      "value-added tax"
+    ],
+    "ai_usage": null,
+    "words": 566
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f1f4f17e9404dcf7703ebb1fc229487e36287be"
 }

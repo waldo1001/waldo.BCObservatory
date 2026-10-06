@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "executioncontext option",
+  "title": "ExecutionContext system option",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/executioncontext/executioncontext-option",
   "published_at": "2025-08-08T11:55:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.636Z",
+      "blob": "bcfc26e09957372615706a584c90814985abdb52",
+      "words": 99,
+      "forms": 0
     }
   },
   "input_hash": "bcfc26e09957372615706a584c90814985abdb52",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/executioncontext/executioncontext-option.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/executioncontext/executioncontext-option.md",
+    "description": "Represents the context in which a session is running.",
+    "ms_date": "2025-08-08",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 99
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bcfc26e09957372615706a584c90814985abdb52"
 }

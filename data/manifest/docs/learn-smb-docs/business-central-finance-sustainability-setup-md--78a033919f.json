@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance sustainability setup",
+  "title": "Set up sustainability features",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-setup",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.082Z",
+      "blob": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2",
+      "words": 2007,
+      "forms": 3
     }
   },
   "input_hash": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2",
@@ -18,6 +24,47 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-sustainability-setup.md"
-  }
+    "path": "business-central/finance-sustainability-setup.md",
+    "description": "Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.",
+    "ms_date": "2026-08-21",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_6221",
+        "id": 6221,
+        "kind": "Primary"
+      },
+      {
+        "raw": "6235",
+        "id": 6235,
+        "kind": null
+      },
+      {
+        "raw": "6245",
+        "id": 6245,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Sustainability",
+      "ESG",
+      "emission",
+      "GHG",
+      "CSRD",
+      "equivalent",
+      "CO2e",
+      "CO2",
+      "carbon",
+      "water",
+      "waste",
+      "value chain",
+      "role center",
+      "fees"
+    ],
+    "ai_usage": null,
+    "words": 2007
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2"
 }

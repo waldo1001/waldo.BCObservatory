@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics usergroup",
+  "title": "userGroup resource type",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_usergroup",
   "published_at": "2024-10-23T07:22:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.614Z",
+      "blob": "ba7ce606a1249bf947b05d8be215fb78961358df",
+      "words": 191,
+      "forms": 0
     }
   },
   "input_hash": "ba7ce606a1249bf947b05d8be215fb78961358df",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/resources/dynamics_usergroup.md"
-  }
+    "path": "dev-itpro/administration/resources/dynamics_usergroup.md",
+    "description": "An user group object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-31",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba7ce606a1249bf947b05d8be215fb78961358df"
 }

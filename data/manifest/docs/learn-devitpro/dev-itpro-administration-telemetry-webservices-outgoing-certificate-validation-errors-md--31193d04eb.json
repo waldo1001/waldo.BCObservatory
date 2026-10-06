@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "telemetry webservices outgoing certificate validation errors",
+  "title": "Server certificate validation errors for outgoing web service requests",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.549Z",
+      "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
+      "words": 312,
+      "forms": 0
     }
   },
   "input_hash": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md"
-  }
+    "path": "dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md",
+    "description": "Learn about telemetry for server certificate validation errors for outgoing web service requests in Business Central",
+    "ms_date": "2025-03-20",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 312
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02"
 }

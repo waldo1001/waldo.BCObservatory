@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across edit posted document",
+  "title": "Edit posted sales and purchase documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.135Z",
+      "blob": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
+      "words": 270,
+      "forms": 8
     }
   },
   "input_hash": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
@@ -18,6 +24,67 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-edit-posted-document.md"
-  }
+    "path": "business-central/across-edit-posted-document.md",
+    "description": "Learn how to update posted sales and purchase documents, such as shipments or invoices, when details like tracking numbers or payment references need to be changed.",
+    "ms_date": "2025-10-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "130",
+        "id": 130,
+        "kind": null
+      },
+      {
+        "raw": "138",
+        "id": 138,
+        "kind": null
+      },
+      {
+        "raw": "142",
+        "id": 142,
+        "kind": null
+      },
+      {
+        "raw": "146",
+        "id": 146,
+        "kind": null
+      },
+      {
+        "raw": "6660",
+        "id": 6660,
+        "kind": null
+      },
+      {
+        "raw": "6662",
+        "id": 6662,
+        "kind": null
+      },
+      {
+        "raw": "6650",
+        "id": 6650,
+        "kind": null
+      },
+      {
+        "raw": "6652",
+        "id": 6652,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Posted document",
+      "editable",
+      "posted sales shipment",
+      "posted purchase invoice",
+      "posted return shipment",
+      "posted return receipt",
+      "edit posted document",
+      "update posted document",
+      "change posted document"
+    ],
+    "ai_usage": null,
+    "words": 270
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a2c426d387d01b6198c3033c2708fc50a09f0e7"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "reports adhoc analysis",
+  "title": "Ad-hoc data analysis",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.976Z",
+      "blob": "81e241e71f2db413ffe91522427cfbca0e8b19b4",
+      "words": 161,
+      "forms": 0
     }
   },
   "input_hash": "81e241e71f2db413ffe91522427cfbca0e8b19b4",
@@ -18,6 +24,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports-adhoc-analysis.md"
-  }
+    "path": "business-central/reports-adhoc-analysis.md",
+    "description": "Provides an overview of features that support ad-hoc data analyses in Business Central.",
+    "ms_date": "2024-04-30",
+    "ms_topic": "get-started",
+    "search_form": [],
+    "keywords": [
+      "feature overview"
+    ],
+    "ai_usage": null,
+    "words": 161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81e241e71f2db413ffe91522427cfbca0e8b19b4"
 }

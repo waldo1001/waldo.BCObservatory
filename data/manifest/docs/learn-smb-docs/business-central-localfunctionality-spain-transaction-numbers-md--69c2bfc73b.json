@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "transaction numbers",
+  "title": "Transaction numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:36.768Z",
+      "blob": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
+      "words": 152,
+      "forms": 0
     }
   },
   "input_hash": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Spain/transaction-numbers.md"
-  }
+    "path": "business-central/LocalFunctionality/Spain/transaction-numbers.md",
+    "description": "Use transaction numbers to group and balance entries that share the same document number and date.",
+    "ms_date": "2025-05-29",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "transaction numbers",
+      "Spanish version"
+    ],
+    "ai_usage": null,
+    "words": 152
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd"
 }

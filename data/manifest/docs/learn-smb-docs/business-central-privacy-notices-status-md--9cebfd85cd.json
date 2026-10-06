@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "privacy notices status",
+  "title": "Privacy Notices Status in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/privacy-notices-status",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.097Z",
+      "blob": "f7a6016ed4e7e36d4013678a99eafe498593b015",
+      "words": 419,
+      "forms": 1
     }
   },
   "input_hash": "f7a6016ed4e7e36d4013678a99eafe498593b015",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/privacy-notices-status.md"
-  }
+    "path": "business-central/privacy-notices-status.md",
+    "description": "An overview of the Privacy Notices Status page in Business Central",
+    "ms_date": "2022-07-21",
+    "ms_topic": "reference",
+    "search_form": [
+      {
+        "raw": "1565",
+        "id": 1565,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 419
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7a6016ed4e7e36d4013678a99eafe498593b015"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "service scalability",
+  "title": "Service scalability for Business Central online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-scalability",
   "published_at": "2025-05-06T19:29:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:39.318Z",
+      "blob": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0",
+      "words": 1710,
+      "forms": 0
     }
   },
   "input_hash": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/service-scalability.md"
-  }
+    "path": "dev-itpro/service-scalability.md",
+    "description": "Learn about Business Central's online ability to provide resource elasticity through real-time, data-driven autoscaling and dynamic load distribution to support these needs.",
+    "ms_date": "2024-02-22",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1710
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0"
 }

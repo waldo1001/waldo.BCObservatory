@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "sales powerbi moving annual total",
+  "title": "Moving Annual Total (Power BI Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
   "published_at": "2025-09-26T06:29:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.226Z",
+      "blob": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
+      "words": 418,
+      "forms": 1
     }
   },
   "input_hash": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/sales-powerbi-moving-annual-total.md"
-  }
+    "path": "business-central/sales-powerbi-moving-annual-total.md",
+    "description": "The Moving Annual Total report provides a total of sales over the last 12 months.",
+    "ms_date": "2024-10-26",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "37001_Primary",
+        "id": 37001,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 418
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al757",
+  "title": "Compiler Error AL0757",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al757",
   "published_at": "2026-04-21T08:20:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.124Z",
+      "blob": "118a79433c88f442bf7e22c581047c699ddd1628",
+      "words": 131,
+      "forms": 0
     }
   },
   "input_hash": "118a79433c88f442bf7e22c581047c699ddd1628",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al757.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al757.md",
+    "description": "The metadata name of {0} '{1}' conflicts with {2} '{3}' defined in {4} '{5}' by the extension '{6}'.",
+    "ms_date": "2026-04-21",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 131
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "118a79433c88f442bf7e22c581047c699ddd1628"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "jsonobject getdate method",
+  "title": "JsonObject.GetDate(Text [, Boolean]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-getdate-method",
   "published_at": "2025-03-11T11:53:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.238Z",
+      "blob": "a90fd1fd91c0e44b2a01fb1d0204b48256a27e24",
+      "words": 144,
+      "forms": 0
     }
   },
   "input_hash": "a90fd1fd91c0e44b2a01fb1d0204b48256a27e24",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-getdate-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/jsonobject/jsonobject-getdate-method.md",
+    "description": "Retrieves the value of a property with a given key from a JsonObject as a Date.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 144
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a90fd1fd91c0e44b2a01fb1d0204b48256a27e24"
 }

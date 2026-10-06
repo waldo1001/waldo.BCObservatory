@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui how add link to record",
+  "title": "Add attachments, links, and notes on records",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:19.367Z",
+      "blob": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9",
+      "words": 1085,
+      "forms": 1
     }
   },
   "input_hash": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-how-add-link-to-record.md"
-  }
+    "path": "business-central/ui-how-add-link-to-record.md",
+    "description": "Attach a hyperlink to a document or a website to a specific record, such as a customer or document.",
+    "ms_date": "2026-09-14",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "8896",
+        "id": 8896,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1085
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9"
 }

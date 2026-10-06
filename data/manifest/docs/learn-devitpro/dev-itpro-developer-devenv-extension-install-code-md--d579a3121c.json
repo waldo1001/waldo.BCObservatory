@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv extension install code",
+  "title": "Writing extensions installation code",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:40.355Z",
+      "blob": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89",
+      "words": 434,
+      "forms": 0
     }
   },
   "input_hash": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-extension-install-code.md"
-  }
+    "path": "dev-itpro/developer/devenv-extension-install-code.md",
+    "description": "Describes how to add code to run to initialize data when an extension is installed.",
+    "ms_date": "2022-02-04",
+    "ms_topic": "install-set-up-deploy",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 434
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89"
 }

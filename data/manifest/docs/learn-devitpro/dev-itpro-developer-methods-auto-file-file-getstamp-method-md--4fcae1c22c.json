@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "file getstamp method",
+  "title": "File.GetStamp(Text, var Date [, var Time]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-getstamp-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:48.930Z",
+      "blob": "177ab1ac642395e1555773480fa9b3472a955870",
+      "words": 262,
+      "forms": 0
     }
   },
   "input_hash": "177ab1ac642395e1555773480fa9b3472a955870",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/file/file-getstamp-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/file/file-getstamp-method.md",
+    "description": "Gets the exact time that a file was last written to.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 262
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "177ab1ac642395e1555773480fa9b3472a955870"
 }

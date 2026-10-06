@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "year how complete period end processes",
+  "title": "Optional activities for closing periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:41.016Z",
+      "blob": "7fe3bc3a7889dce296f561110002c0b0926d144f",
+      "words": 257,
+      "forms": 0
     }
   },
   "input_hash": "7fe3bc3a7889dce296f561110002c0b0926d144f",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/year-how-complete-period-end-processes.md"
-  }
+    "path": "business-central/year-how-complete-period-end-processes.md",
+    "description": "This article outlines the optional processes and activities for closing accounting periods in Business Central.",
+    "ms_date": "2024-08-02",
+    "ms_topic": "overview",
+    "search_form": [],
+    "keywords": [
+      "year closing",
+      "close accounting period",
+      "close fiscal year",
+      "aging",
+      "creditor payments",
+      "vendor payments"
+    ],
+    "ai_usage": null,
+    "words": 257
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7fe3bc3a7889dce296f561110002c0b0926d144f"
 }

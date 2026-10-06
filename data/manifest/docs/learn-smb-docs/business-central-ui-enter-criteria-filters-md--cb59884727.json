@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui enter criteria filters",
+  "title": "Sort, search, and filter data in lists, reports, or XMLports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.435Z",
+      "blob": "7a2fc9e5ee41cbf26c98673c5d5ccff874afb0b4",
+      "words": 3560,
+      "forms": 0
     }
   },
   "input_hash": "7a2fc9e5ee41cbf26c98673c5d5ccff874afb0b4",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-enter-criteria-filters.md"
-  }
+    "path": "business-central/ui-enter-criteria-filters.md",
+    "description": "Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.",
+    "ms_date": "2026-06-09",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "delimit",
+      "FlowFilter",
+      "totals",
+      "limit",
+      "advanced"
+    ],
+    "ai_usage": null,
+    "words": 3560
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a2fc9e5ee41cbf26c98673c5d5ccff874afb0b4"
 }

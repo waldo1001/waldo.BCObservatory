@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to create payment journal templates and batches",
+  "title": "Payment Journal Templates and Batches [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.915Z",
+      "blob": "0c1a8618157686bd54396ae14732a16427ae93d7",
+      "words": 420,
+      "forms": 8
     }
   },
   "input_hash": "0c1a8618157686bd54396ae14732a16427ae93d7",
@@ -18,6 +24,63 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md"
-  }
+    "path": "business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md",
+    "description": "Payment suggestions are generated and posted in payment journals, using a structure similar to other journal types.",
+    "ms_date": "2025-04-02",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "256",
+        "id": 256,
+        "kind": null
+      },
+      {
+        "raw": "11300",
+        "id": 11300,
+        "kind": null
+      },
+      {
+        "raw": "2000000",
+        "id": 2000000,
+        "kind": null
+      },
+      {
+        "raw": "2000001",
+        "id": 2000001,
+        "kind": null
+      },
+      {
+        "raw": "2000003",
+        "id": 2000003,
+        "kind": null
+      },
+      {
+        "raw": "2000020",
+        "id": 2000020,
+        "kind": null
+      },
+      {
+        "raw": "2000021",
+        "id": 2000021,
+        "kind": null
+      },
+      {
+        "raw": "2000022",
+        "id": 2000022,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "payment journal",
+      "journal types",
+      "payment suggestions",
+      "journal templates",
+      "Belgian version"
+    ],
+    "ai_usage": null,
+    "words": 420
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c1a8618157686bd54396ae14732a16427ae93d7"
 }

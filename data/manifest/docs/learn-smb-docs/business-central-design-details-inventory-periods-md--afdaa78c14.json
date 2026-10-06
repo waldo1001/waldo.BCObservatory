@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "design details inventory periods",
+  "title": "Design details - Inventory periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-periods",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.611Z",
+      "blob": "e8d440cbfb66767d075b2a3e495821fd6b68809a",
+      "words": 315,
+      "forms": 0
     }
   },
   "input_hash": "e8d440cbfb66767d075b2a3e495821fd6b68809a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/design-details-inventory-periods.md"
-  }
+    "path": "business-central/design-details-inventory-periods.md",
+    "description": "Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.",
+    "ms_date": "2026-03-17",
+    "ms_topic": "concept-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 315
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e8d440cbfb66767d075b2a3e495821fd6b68809a"
 }

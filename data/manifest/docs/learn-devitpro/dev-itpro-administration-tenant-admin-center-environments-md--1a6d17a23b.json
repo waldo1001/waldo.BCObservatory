@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "tenant admin center environments",
+  "title": "Managing Production and Sandbox Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "published_at": "2026-08-18T10:41:58.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:22.272Z",
+      "blob": "e09212ac5efcff3df8eafa7514d527290649c775",
+      "words": 1330,
+      "forms": 0
     }
   },
   "input_hash": "e09212ac5efcff3df8eafa7514d527290649c775",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/administration/tenant-admin-center-environments.md"
-  }
+    "path": "dev-itpro/administration/tenant-admin-center-environments.md",
+    "description": "Learn how to use Business Central admin center to manage tenant environments, both sandbox and production.",
+    "ms_date": "2026-07-28",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "administration",
+      "tenant",
+      "admin",
+      "environment",
+      "sandbox",
+      "restore",
+      "backup"
+    ],
+    "ai_usage": null,
+    "words": 1330
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e09212ac5efcff3df8eafa7514d527290649c775"
 }

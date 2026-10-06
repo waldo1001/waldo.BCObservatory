@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al108",
+  "title": "Compiler Error AL0108",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al108",
   "published_at": "2026-03-11T10:11:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:27.048Z",
+      "blob": "7c55e9dc9c89aed2ea92bcb5527d1558a7d19eb6",
+      "words": 58,
+      "forms": 0
     }
   },
   "input_hash": "7c55e9dc9c89aed2ea92bcb5527d1558a7d19eb6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al108.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al108.md",
+    "description": "Indexers must have at least one value.",
+    "ms_date": "2026-03-11",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 58
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7c55e9dc9c89aed2ea92bcb5527d1558a7d19eb6"
 }

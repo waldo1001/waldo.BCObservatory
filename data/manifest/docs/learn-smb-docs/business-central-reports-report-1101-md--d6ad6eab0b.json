@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "report 1101",
+  "title": "Resource – List (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1101",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:29.089Z",
+      "blob": "d8d33da522ef4c200c6d68a31d61d45157ffba2c",
+      "words": 46,
+      "forms": 1
     }
   },
   "input_hash": "d8d33da522ef4c200c6d68a31d61d45157ffba2c",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/reports/report-1101.md"
-  }
+    "path": "business-central/reports/report-1101.md",
+    "description": "Analyze resource data to ensure it's accurate and up-to-date.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "Report_1101_Primary",
+        "id": 1101,
+        "kind": "Report Primary"
+      }
+    ],
+    "keywords": [
+      "reporting"
+    ],
+    "ai_usage": null,
+    "words": 46
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8d33da522ef4c200c6d68a31d61d45157ffba2c"
 }

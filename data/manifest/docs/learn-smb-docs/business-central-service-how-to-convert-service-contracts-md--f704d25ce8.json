@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "service how to convert service contracts",
+  "title": "How to convert service contracts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-convert-service-contracts",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.480Z",
+      "blob": "973666ec0a733da27c6296ec953e77ac124b0c73",
+      "words": 621,
+      "forms": 0
     }
   },
   "input_hash": "973666ec0a733da27c6296ec953e77ac124b0c73",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/service-how-to-convert-service-contracts.md"
-  }
+    "path": "business-central/service-how-to-convert-service-contracts.md",
+    "description": "Learn how to manually convert service contracts that include VAT amounts using various alternative methods.",
+    "ms_date": "2025-10-03",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "service contract",
+      "service contracts",
+      "convert service contract",
+      "convert service contracts",
+      "VAT",
+      "VAT rate change"
+    ],
+    "ai_usage": null,
+    "words": 621
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "973666ec0a733da27c6296ec953e77ac124b0c73"
 }

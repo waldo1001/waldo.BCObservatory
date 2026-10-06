@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across how find posted documents without income document records",
+  "title": "Find posted documents without incoming documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.167Z",
+      "blob": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
+      "words": 365,
+      "forms": 0
     }
   },
   "input_hash": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
@@ -18,6 +24,24 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-how-find-posted-documents-without-income-document-records.md"
-  }
+    "path": "business-central/across-how-find-posted-documents-without-income-document-records.md",
+    "description": "Search for general ledger entries of posted purchase and sales documents that lack associated incoming electronic documents, such as imported invoices.",
+    "ms_date": "2025-10-15",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "electronic document",
+      "e-invoice",
+      "incoming document",
+      "OCR",
+      "ecommerce",
+      "document exchange",
+      "import invoice"
+    ],
+    "ai_usage": null,
+    "words": 365
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7b61771e95ae81ac3c4e0fae229b37251b3737a"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "upgrade technical upgrade v19",
+  "title": "Technical upgrade to version 19",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v19",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:35.875Z",
+      "blob": "22ead940b285eb2c4da0d69017253edbbdc17737",
+      "words": 2351,
+      "forms": 0
     }
   },
   "input_hash": "22ead940b285eb2c4da0d69017253edbbdc17737",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/upgrade/upgrade-technical-upgrade-v19.md"
-  }
+    "path": "dev-itpro/upgrade/upgrade-technical-upgrade-v19.md",
+    "description": "Describes how to do a technical upgrade from Business Central 16, and 17, and V18 to V19",
+    "ms_date": "2024-04-18",
+    "ms_topic": "upgrade-and-migration-article",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2351
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22ead940b285eb2c4da0d69017253edbbdc17737"
 }

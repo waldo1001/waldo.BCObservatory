@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to post lsv payments",
+  "title": "How to Post LSV+ payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.929Z",
+      "blob": "384e417c4b84c962b323586d7071a3b703dee21e",
+      "words": 252,
+      "forms": 5
     }
   },
   "input_hash": "384e417c4b84c962b323586d7071a3b703dee21e",
@@ -18,6 +24,46 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments.md"
-  }
+    "path": "business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments.md",
+    "description": "Learn how to post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.",
+    "ms_date": "2025-04-29",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "3010830",
+        "id": 3010830,
+        "kind": null
+      },
+      {
+        "raw": "3010831",
+        "id": 3010831,
+        "kind": null
+      },
+      {
+        "raw": "3010832",
+        "id": 3010832,
+        "kind": null
+      },
+      {
+        "raw": "3010834",
+        "id": 3010834,
+        "kind": null
+      },
+      {
+        "raw": "3010835",
+        "id": 3010835,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "post LSV+ payments",
+      "LSV+ payment advice",
+      "Swiss version"
+    ],
+    "ai_usage": null,
+    "words": 252
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "384e417c4b84c962b323586d7071a3b703dee21e"
 }

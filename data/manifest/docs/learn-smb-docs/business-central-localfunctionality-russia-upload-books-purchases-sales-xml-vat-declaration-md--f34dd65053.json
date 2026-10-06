@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "upload books purchases sales xml vat declaration",
+  "title": "Upload books of purchases and sales in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration",
   "published_at": "2026-05-04T02:42:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.029Z",
+      "blob": "79bb550855712f6b96231830fb93a01cc010d5b0",
+      "words": 551,
+      "forms": 0
     }
   },
   "input_hash": "79bb550855712f6b96231830fb93a01cc010d5b0",
@@ -18,6 +24,25 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md",
+    "description": "Russian enhancements include books of purchases and sales VAT in XML format.",
+    "ms_date": "2025-07-22",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "VAT declaration",
+      "VAT report",
+      "XML",
+      "upload books",
+      "purchases",
+      "sales",
+      "additional sheets",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 551
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79bb550855712f6b96231830fb93a01cc010d5b0"
 }

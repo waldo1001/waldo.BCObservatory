@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance automate reminders",
+  "title": "Automate reminders in collections",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-automate-reminders",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.240Z",
+      "blob": "1a995deebde9902875a341756c98c777b73e0a0b",
+      "words": 863,
+      "forms": 0
     }
   },
   "input_hash": "1a995deebde9902875a341756c98c777b73e0a0b",
@@ -18,6 +24,19 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-automate-reminders.md"
-  }
+    "path": "business-central/finance-automate-reminders.md",
+    "description": "Save time in collections by automating the processes of creating, issuing, and sending reminders to customers.",
+    "ms_date": "2026-04-07",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "collection",
+      "reminders"
+    ],
+    "ai_usage": null,
+    "words": 863
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a995deebde9902875a341756c98c777b73e0a0b"
 }

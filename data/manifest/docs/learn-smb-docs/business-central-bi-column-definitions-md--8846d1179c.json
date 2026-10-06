@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "bi column definitions",
+  "title": "Column definitions in Financial Reporting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions",
   "published_at": "2026-03-17T15:58:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:26.535Z",
+      "blob": "adc335c247a592cc407fbfa2b237e2205fb769be",
+      "words": 1916,
+      "forms": 11
     }
   },
   "input_hash": "adc335c247a592cc407fbfa2b237e2205fb769be",
@@ -18,6 +24,79 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/bi-column-definitions.md"
-  }
+    "path": "business-central/bi-column-definitions.md",
+    "description": "Describes how column definitions in financial reporting work.",
+    "ms_date": "2026-02-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "103",
+        "id": 103,
+        "kind": null
+      },
+      {
+        "raw": "104",
+        "id": 104,
+        "kind": null
+      },
+      {
+        "raw": "195",
+        "id": 195,
+        "kind": null
+      },
+      {
+        "raw": "196",
+        "id": 196,
+        "kind": null
+      },
+      {
+        "raw": "197",
+        "id": 197,
+        "kind": null
+      },
+      {
+        "raw": "198",
+        "id": 198,
+        "kind": null
+      },
+      {
+        "raw": "488_Primary",
+        "id": 488,
+        "kind": "Primary"
+      },
+      {
+        "raw": "489_Primary",
+        "id": 489,
+        "kind": "Primary"
+      },
+      {
+        "raw": "764",
+        "id": 764,
+        "kind": null
+      },
+      {
+        "raw": "765",
+        "id": 765,
+        "kind": null
+      },
+      {
+        "raw": "766",
+        "id": 766,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bi",
+      "power BI",
+      "analysis",
+      "KPI",
+      "account schedule",
+      "financial report"
+    ],
+    "ai_usage": null,
+    "words": 1916
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "adc335c247a592cc407fbfa2b237e2205fb769be"
 }

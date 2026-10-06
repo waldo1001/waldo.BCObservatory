@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "outstream write biginteger integer method",
+  "title": "OutStream.Write(BigInteger [, Integer]) Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/outstream/outstream-write-biginteger-integer-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:50.562Z",
+      "blob": "d835f0ed0e5146f65b0f59513e388135f6b8c089",
+      "words": 247,
+      "forms": 0
     }
   },
   "input_hash": "d835f0ed0e5146f65b0f59513e388135f6b8c089",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/outstream/outstream-write-biginteger-integer-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/outstream/outstream-write-biginteger-integer-method.md",
+    "description": "Writes a specified number of bytes to the stream.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 247
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d835f0ed0e5146f65b0f59513e388135f6b8c089"
 }

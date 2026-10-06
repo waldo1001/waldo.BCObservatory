@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al121",
+  "title": "Compiler Error AL0121",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al121",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:43.041Z",
+      "blob": "e02d1401a653466127eb96c64ee01e66aff698de",
+      "words": 60,
+      "forms": 0
     }
   },
   "input_hash": "e02d1401a653466127eb96c64ee01e66aff698de",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al121.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al121.md",
+    "description": "The variable name '{0}' is already defined.",
+    "ms_date": "2024-05-14",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 60
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e02d1401a653466127eb96c64ee01e66aff698de"
 }

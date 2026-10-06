@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "statutory reports",
+  "title": "Statutory reports in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/statutory-reports",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.716Z",
+      "blob": "fe322a781a87346a6711bd96cb80586ccf6d0863",
+      "words": 383,
+      "forms": 0
     }
   },
   "input_hash": "fe322a781a87346a6711bd96cb80586ccf6d0863",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/statutory-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/statutory-reports.md",
+    "description": "Russian localization provides features for statutory reporting compliance.",
+    "ms_date": "2025-07-21",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "statutory report",
+      "tax report",
+      "tax reporting",
+      "tax compliance",
+      "financial report",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 383
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe322a781a87346a6711bd96cb80586ccf6d0863"
 }

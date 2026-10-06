@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "time millisecond method",
+  "title": "Time.Millisecond() Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/time/time-millisecond-method",
   "published_at": "2024-08-27T10:48:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:52.976Z",
+      "blob": "fcd96e03339f13eea95a01dc7d77da438d0c3ac4",
+      "words": 98,
+      "forms": 0
     }
   },
   "input_hash": "fcd96e03339f13eea95a01dc7d77da438d0c3ac4",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/methods-auto/time/time-millisecond-method.md"
-  }
+    "path": "dev-itpro/developer/methods-auto/time/time-millisecond-method.md",
+    "description": "Gets the milliseconds component of the time represented by this instance.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 98
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fcd96e03339f13eea95a01dc7d77da438d0c3ac4"
 }

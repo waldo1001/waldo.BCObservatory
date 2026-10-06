@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to submit vendor payments electronically in sepa iso 20022 payment format",
+  "title": "Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.598Z",
+      "blob": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md"
-  }
+    "path": "business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md",
+    "description": "In the Dutch version of Business Central, you can electronically create and submit vendor payments in the Single Euro Payments Area (SEPA) ISO 20022 format.",
+    "ms_date": "2025-03-18",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [
+      "create vendor payments",
+      "submit vendor payments",
+      "SEPA ISO 20022",
+      "Dutch version",
+      "Netherlands"
+    ],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f"
 }

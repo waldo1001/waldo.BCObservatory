@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "finance how validate vat registration number",
+  "title": "Validate VAT Registration Numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
   "published_at": "2025-05-06T19:34:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.616Z",
+      "blob": "be906e297fa2d204dffeb424fb1601d9db8a7399",
+      "words": 721,
+      "forms": 3
     }
   },
   "input_hash": "be906e297fa2d204dffeb424fb1601d9db8a7399",
@@ -18,6 +24,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/finance-how-validate-vat-registration-number.md"
-  }
+    "path": "business-central/finance-how-validate-vat-registration-number.md",
+    "description": "Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.",
+    "ms_date": "2021-06-16",
+    "ms_topic": "article",
+    "search_form": [
+      {
+        "raw": "249",
+        "id": 249,
+        "kind": null
+      },
+      {
+        "raw": "575",
+        "id": 575,
+        "kind": null
+      },
+      {
+        "raw": "1279",
+        "id": 1279,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "VAT",
+      "posting",
+      "tax",
+      "value-added tax"
+    ],
+    "ai_usage": null,
+    "words": 721
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be906e297fa2d204dffeb424fb1601d9db8a7399"
 }

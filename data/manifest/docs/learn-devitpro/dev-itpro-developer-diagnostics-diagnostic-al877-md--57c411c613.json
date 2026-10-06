@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al877",
+  "title": "Compiler Error AL0877",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al877",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.239Z",
+      "blob": "c64972fa780923798992701a915b733dd14f0ccf",
+      "words": 59,
+      "forms": 0
     }
   },
   "input_hash": "c64972fa780923798992701a915b733dd14f0ccf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al877.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al877.md",
+    "description": "The {0} '{1}' cannot be used if the property '{2}' is set with any of the values of: '{3}'.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 59
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c64972fa780923798992701a915b733dd14f0ccf"
 }

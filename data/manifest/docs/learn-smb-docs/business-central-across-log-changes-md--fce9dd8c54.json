@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across log changes",
+  "title": "Auditing changes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-log-changes",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:24.310Z",
+      "blob": "00797df536df179395b34fa2115650503983f731",
+      "words": 1860,
+      "forms": 9
     }
   },
   "input_hash": "00797df536df179395b34fa2115650503983f731",
@@ -18,6 +24,67 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-log-changes.md"
-  }
+    "path": "business-central/across-log-changes.md",
+    "description": "Track changes to data in selected tables and monitor user activities with change logs and activity logs in Business Central.",
+    "ms_date": "2026-06-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "592_Primary",
+        "id": 592,
+        "kind": "Primary"
+      },
+      {
+        "raw": "593_Primary",
+        "id": 593,
+        "kind": "Primary"
+      },
+      {
+        "raw": "594_Primary",
+        "id": 594,
+        "kind": "Primary"
+      },
+      {
+        "raw": "595_Primary",
+        "id": 595,
+        "kind": "Primary"
+      },
+      {
+        "raw": "710",
+        "id": 710,
+        "kind": null
+      },
+      {
+        "raw": "1366_Primary",
+        "id": 1366,
+        "kind": "Primary"
+      },
+      {
+        "raw": "1367_Primary",
+        "id": 1367,
+        "kind": "Primary"
+      },
+      {
+        "raw": "1368_Primary",
+        "id": 1368,
+        "kind": "Primary"
+      },
+      {
+        "raw": "1369_Primary",
+        "id": 1369,
+        "kind": "Primary"
+      }
+    ],
+    "keywords": [
+      "user log",
+      "user activity",
+      "tracking",
+      "audit changes"
+    ],
+    "ai_usage": null,
+    "words": 1860
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00797df536df179395b34fa2115650503983f731"
 }

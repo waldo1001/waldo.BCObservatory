@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "diagnostic al775",
+  "title": "Compiler Warning (future error) AL0775",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al775",
   "published_at": "2025-02-18T10:20:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:42.024Z",
+      "blob": "01d6ace35d5a99a3d264a3583455273ae7e2b470",
+      "words": 85,
+      "forms": 0
     }
   },
   "input_hash": "01d6ace35d5a99a3d264a3583455273ae7e2b470",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/diagnostics/diagnostic-al775.md"
-  }
+    "path": "dev-itpro/developer/diagnostics/diagnostic-al775.md",
+    "description": "Try methods should not specify an explicit return value, because the value will be discarded.",
+    "ms_date": "2025-02-18",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 85
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "01d6ace35d5a99a3d264a3583455273ae7e2b470"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense management agent",
+  "title": "How the Expense Agent Processes Emails",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:17.341Z",
+      "blob": "d182c0e7266656fe5ab7cfe462a26b467f7beaba",
+      "words": 413,
+      "forms": 1
     }
   },
   "input_hash": "d182c0e7266656fe5ab7cfe462a26b467f7beaba",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-management-agent.md"
-  }
+    "path": "business-central/expense-management/expense-management-agent.md",
+    "description": "Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.",
+    "ms_date": "2026-10-02",
+    "ms_topic": "concept-article",
+    "search_form": [
+      {
+        "raw": "6996",
+        "id": 6996,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 413
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d182c0e7266656fe5ab7cfe462a26b467f7beaba"
 }

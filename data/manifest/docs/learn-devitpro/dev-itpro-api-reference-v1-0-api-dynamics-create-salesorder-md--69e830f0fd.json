@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "dynamics create salesorder",
+  "title": "(v1.0) Create salesOrders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_create_salesorder",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:34.599Z",
+      "blob": "90035f8ae8d87dea42921419b776ce6137e4e9df",
+      "words": 97,
+      "forms": 0
     }
   },
   "input_hash": "90035f8ae8d87dea42921419b776ce6137e4e9df",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/api-reference/v1.0/api/dynamics_create_salesorder.md"
-  }
+    "path": "dev-itpro/api-reference/v1.0/api/dynamics_create_salesorder.md",
+    "description": "(v1.0) Creates a sales order object in Dynamics 365 Business Central.",
+    "ms_date": "2024-05-01",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 97
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90035f8ae8d87dea42921419b776ce6137e4e9df"
 }

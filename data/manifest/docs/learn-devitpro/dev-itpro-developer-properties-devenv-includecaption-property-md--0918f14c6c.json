@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv includecaption property",
+  "title": "IncludeCaption property",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-includecaption-property",
   "published_at": "2024-08-27T10:51:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:46.758Z",
+      "blob": "3664f1b382a80b7e594a9196333f038cb05d6f2b",
+      "words": 243,
+      "forms": 0
     }
   },
   "input_hash": "3664f1b382a80b7e594a9196333f038cb05d6f2b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/properties/devenv-includecaption-property.md"
-  }
+    "path": "dev-itpro/developer/properties/devenv-includecaption-property.md",
+    "description": "Sets whether to include the caption of a field in the data set of a report.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 243
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3664f1b382a80b7e594a9196333f038cb05d6f2b"
 }

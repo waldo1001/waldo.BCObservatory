@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Settlement VAT",
+  "title": "VAT settlement in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Settlement-VAT",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:33.708Z",
+      "blob": "97e047d8ea31e6d6313bb914d00c3a88b25c067c",
+      "words": 295,
+      "forms": 0
     }
   },
   "input_hash": "97e047d8ea31e6d6313bb914d00c3a88b25c067c",
@@ -18,6 +24,23 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Russia/Settlement-VAT.md"
-  }
+    "path": "business-central/LocalFunctionality/Russia/Settlement-VAT.md",
+    "description": "Learn about VAT settlement in Russia, including setup, manual settlement, and VAT allocation features in Business Central.",
+    "ms_date": "2025-07-21",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "VAT",
+      "VAT settlement",
+      "VAT allocation",
+      "VAT posting setup",
+      "VAT settlement worksheet",
+      "Russia"
+    ],
+    "ai_usage": null,
+    "words": 295
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "97e047d8ea31e6d6313bb914d00c3a88b25c067c"
 }

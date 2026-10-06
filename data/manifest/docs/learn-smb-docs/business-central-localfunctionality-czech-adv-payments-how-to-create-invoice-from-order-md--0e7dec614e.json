@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "adv payments how to create invoice from order",
+  "title": "Create an advance letter from an order",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order",
   "published_at": "2025-09-18T07:41:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.347Z",
+      "blob": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
+      "words": 202,
+      "forms": 0
     }
   },
   "input_hash": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order.md",
+    "description": "This article describes how to create an advance letter from a sales or purchase order in the Czech version.",
+    "ms_date": "2025-09-17",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Advance Payments",
+      "Localization"
+    ],
+    "ai_usage": null,
+    "words": 202
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119"
 }

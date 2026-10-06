@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to view posted tax invoices",
+  "title": "View Posted Tax Invoices [AU]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:38.801Z",
+      "blob": "980189fc7faad76017c4229e41b1bcfa4597f13b",
+      "words": 141,
+      "forms": 4
     }
   },
   "input_hash": "980189fc7faad76017c4229e41b1bcfa4597f13b",
@@ -18,6 +24,44 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices.md"
-  }
+    "path": "business-central/LocalFunctionality/Australia/how-to-view-posted-tax-invoices.md",
+    "description": "Use the Posted Sales Tax Invoice page and Posted Purchase Tax Invoice page to view the details of posted sales tax invoices and posted purchase tax invoices.",
+    "ms_date": "2025-03-27",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "28071",
+        "id": 28071,
+        "kind": null
+      },
+      {
+        "raw": "28073",
+        "id": 28073,
+        "kind": null
+      },
+      {
+        "raw": "28081",
+        "id": 28081,
+        "kind": null
+      },
+      {
+        "raw": "28082",
+        "id": 28082,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Posted Sales Tax Invoice",
+      "Posted Purchase Tax Invoice",
+      "view posted tax invoices",
+      "view posted sales tax invoices",
+      "view posted purchase tax invoices",
+      "Australian version"
+    ],
+    "ai_usage": null,
+    "words": 141
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "980189fc7faad76017c4229e41b1bcfa4597f13b"
 }

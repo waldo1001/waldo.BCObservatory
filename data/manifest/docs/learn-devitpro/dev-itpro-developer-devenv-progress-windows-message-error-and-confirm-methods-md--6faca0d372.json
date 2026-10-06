@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "devenv progress windows message error and confirm methods",
+  "title": "Progress Windows, Message, Error, and Confirm Methods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods",
   "published_at": "2026-05-27T12:43:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:25.467Z",
+      "blob": "a05b8c125ffaecbc931c9120c574d8802294619a",
+      "words": 798,
+      "forms": 0
     }
   },
   "input_hash": "a05b8c125ffaecbc931c9120c574d8802294619a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods.md"
-  }
+    "path": "dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods.md",
+    "description": "Using specialized methods in AL for Business Central to display messages and gather input from the user.",
+    "ms_date": "2026-05-27",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 798
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a05b8c125ffaecbc931c9120c574d8802294619a"
 }

@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "appsourcecop as0067",
+  "title": "AppSourceCop Error AS0067",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0067",
   "published_at": "2024-08-28T09:27:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:45.757Z",
+      "blob": "92588bfc59ba564c5f076ed87de9d49e3da991df",
+      "words": 312,
+      "forms": 0
     }
   },
   "input_hash": "92588bfc59ba564c5f076ed87de9d49e3da991df",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
-    "path": "dev-itpro/developer/analyzers/appsourcecop-as0067.md"
-  }
+    "path": "dev-itpro/developer/analyzers/appsourcecop-as0067.md",
+    "description": "Adding an interface to an enum that has been published must have a default implementation, because dependent enum extensions don't implement the new interface and may break.",
+    "ms_date": "2024-08-26",
+    "ms_topic": "reference",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 312
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "92588bfc59ba564c5f076ed87de9d49e3da991df"
 }

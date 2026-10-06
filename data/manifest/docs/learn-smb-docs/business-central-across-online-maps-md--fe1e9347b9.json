@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "across online maps",
+  "title": "Use online maps to find locations and directions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-online-maps",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:30.294Z",
+      "blob": "6d697dc2780eb48eae112d0f51234af55abaf540",
+      "words": 221,
+      "forms": 12
     }
   },
   "input_hash": "6d697dc2780eb48eae112d0f51234af55abaf540",
@@ -18,6 +24,77 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/across-online-maps.md"
-  }
+    "path": "business-central/across-online-maps.md",
+    "description": "Learn about using address data in Business Central to get an online map with route directions.",
+    "ms_date": "2025-10-17",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "21",
+        "id": 21,
+        "kind": null
+      },
+      {
+        "raw": "26",
+        "id": 26,
+        "kind": null
+      },
+      {
+        "raw": "76",
+        "id": 76,
+        "kind": null
+      },
+      {
+        "raw": "86",
+        "id": 86,
+        "kind": null
+      },
+      {
+        "raw": "88",
+        "id": 88,
+        "kind": null
+      },
+      {
+        "raw": "300",
+        "id": 300,
+        "kind": null
+      },
+      {
+        "raw": "370",
+        "id": 370,
+        "kind": null
+      },
+      {
+        "raw": "800",
+        "id": 800,
+        "kind": null
+      },
+      {
+        "raw": "804",
+        "id": 804,
+        "kind": null
+      },
+      {
+        "raw": "5050",
+        "id": 5050,
+        "kind": null
+      },
+      {
+        "raw": "5200",
+        "id": 5200,
+        "kind": null
+      },
+      {
+        "raw": "5703",
+        "id": 5703,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 221
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6d697dc2780eb48eae112d0f51234af55abaf540"
 }

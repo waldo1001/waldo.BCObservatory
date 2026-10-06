@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "ui extensions amc banking",
+  "title": "Using the AMC banking 365 fundamentals extension",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.970Z",
+      "blob": "be3fff8426d6eaf0a0c33a7ec26753727c070922",
+      "words": 880,
+      "forms": 7
     }
   },
   "input_hash": "be3fff8426d6eaf0a0c33a7ec26753727c070922",
@@ -18,6 +24,56 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/ui-extensions-amc-banking.md"
-  }
+    "path": "business-central/ui-extensions-amc-banking.md",
+    "description": "Learn how to easily exchange data with your banks by transforming data into the format that they require.",
+    "ms_date": "2024-07-18",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "20100",
+        "id": 20100,
+        "kind": null
+      },
+      {
+        "raw": "20101",
+        "id": 20101,
+        "kind": null
+      },
+      {
+        "raw": "20102",
+        "id": 20102,
+        "kind": null
+      },
+      {
+        "raw": "20105",
+        "id": 20105,
+        "kind": null
+      },
+      {
+        "raw": "20106",
+        "id": 20106,
+        "kind": null
+      },
+      {
+        "raw": "20107",
+        "id": 20107,
+        "kind": null
+      },
+      {
+        "raw": "20109",
+        "id": 20109,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "bank",
+      "format",
+      "data"
+    ],
+    "ai_usage": null,
+    "words": 880
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be3fff8426d6eaf0a0c33a7ec26753727c070922"
 }

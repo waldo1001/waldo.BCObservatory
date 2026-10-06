@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "warehouse how to set up bin types",
+  "title": "Set Up Bin Types",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-types",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:32.167Z",
+      "blob": "22140bf2dc4d6ed4ca5254b13b8c7a42bc76be5a",
+      "words": 571,
+      "forms": 1
     }
   },
   "input_hash": "22140bf2dc4d6ed4ca5254b13b8c7a42bc76be5a",
@@ -18,6 +24,22 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/warehouse-how-to-set-up-bin-types.md"
-  }
+    "path": "business-central/warehouse-how-to-set-up-bin-types.md",
+    "description": "Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.",
+    "ms_date": "2021-06-25",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "7367",
+        "id": 7367,
+        "kind": null
+      }
+    ],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 571
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22140bf2dc4d6ed4ca5254b13b8c7a42bc76be5a"
 }

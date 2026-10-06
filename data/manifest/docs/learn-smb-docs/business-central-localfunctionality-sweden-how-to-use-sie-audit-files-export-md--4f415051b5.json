@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "how to use sie audit files export",
+  "title": "Import and export data in the standard import export (SIE) format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:37.703Z",
+      "blob": "86cc590744111ca09f6e812cae34b092fdc9a1c4",
+      "words": 412,
+      "forms": 5
     }
   },
   "input_hash": "86cc590744111ca09f6e812cae34b092fdc9a1c4",
@@ -18,6 +24,48 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export.md"
-  }
+    "path": "business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export.md",
+    "description": "This article explains how to import and export general ledger data according to the standard import export (SIE) format for Sweden.",
+    "ms_date": "2025-02-07",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "5264",
+        "id": 5264,
+        "kind": null
+      },
+      {
+        "raw": "5266",
+        "id": 5266,
+        "kind": null
+      },
+      {
+        "raw": "5267",
+        "id": 5267,
+        "kind": null
+      },
+      {
+        "raw": "5270",
+        "id": 5270,
+        "kind": null
+      },
+      {
+        "raw": "5315",
+        "id": 5315,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "import data",
+      "export data",
+      "SIE",
+      "standard import export",
+      "audit files export"
+    ],
+    "ai_usage": null,
+    "words": 412
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86cc590744111ca09f6e812cae34b092fdc9a1c4"
 }

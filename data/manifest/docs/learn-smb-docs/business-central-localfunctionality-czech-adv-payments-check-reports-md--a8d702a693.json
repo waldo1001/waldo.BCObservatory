@@ -3,14 +3,20 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "adv payments check reports",
+  "title": "Advance Payments activation and upgrade",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-check-reports",
   "published_at": "2025-09-17T18:56:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:26:31.368Z",
+      "blob": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
+      "words": 232,
+      "forms": 0
     }
   },
   "input_hash": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
@@ -18,6 +24,20 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/LocalFunctionality/Czech/adv-payments-check-reports.md"
-  }
+    "path": "business-central/LocalFunctionality/Czech/adv-payments-check-reports.md",
+    "description": "This section describes the basic control reports for Advance Payments in the Czech version.",
+    "ms_date": "2025-09-17",
+    "ms_topic": "article",
+    "search_form": [],
+    "keywords": [
+      "Czech",
+      "Advance Payments",
+      "Localization"
+    ],
+    "ai_usage": null,
+    "words": 232
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5aa75252fb9be3b894744c5dfac6571f55b0f082"
 }
