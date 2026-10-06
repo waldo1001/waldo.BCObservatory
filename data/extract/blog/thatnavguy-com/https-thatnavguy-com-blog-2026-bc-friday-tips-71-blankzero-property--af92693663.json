@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/",
+  "title": "BC Friday Tips #71 BlankZero Property",
+  "source": "thatnavguy-com",
+  "published_at": "2026-05-08T00:00:00.000Z",
+  "words": 84,
+  "summary": "The BlankZero property on numeric fields can be set to true to display empty values instead of zero, reducing visual clutter and helping users focus on meaningful data in optional fields.",
+  "key_points": [
+    "BlankZero property controls whether numeric fields display 0 or remain empty by default",
+    "Setting BlankZero to true improves UI cleanliness for optional numeric fields",
+    "Users can better distinguish between meaningful data and default zero values",
+    "This is a simple property change that enhances overall usability"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ui design",
+    "numeric fields",
+    "property settings",
+    "user experience",
+    "development tips"
+  ],
+  "objects": [],
+  "features": [
+    "BlankZero property",
+    "numeric field display",
+    "optional field handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003948,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Set BlankZero = true to display empty instead of zero.",
+      "why_it_matters": "This is the core action developers can take to improve field display behavior"
+    },
+    {
+      "text": "Cleaner UI, less clutter. Helps users focus on meaningful data.",
+      "why_it_matters": "These are the key benefits that explain why developers should use this property"
+    }
+  ]
+}

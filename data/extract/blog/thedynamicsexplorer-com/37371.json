@@ -1,0 +1,90 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37371",
+  "url": "https://thedynamicsexplorer.com/2026/05/18/dynamics-365-business-central-some-considerations-when-changing-standard-cost-on-an-item-card/",
+  "title": "Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2026-05-18T10:59:00.000Z",
+  "words": 662,
+  "summary": "Changing standard cost directly on an item card in Business Central has two critical side effects: stock keeping units are not automatically updated, and existing inventory is not revalued. Understanding these considerations is essential before making cost changes to avoid unexpected cost adjustments during sales transactions.",
+  "key_points": [
+    "Updating standard cost on the item card does not automatically update standard costs on related stock keeping units for specific locations",
+    "Existing on-hand inventory retains its original cost and is not revalued when you change the standard cost",
+    "When you sell items after a cost change, the system initially uses the new cost but cost adjustment reverts it to the original cost based on value entries",
+    "The Standard Cost Worksheet is the proper tool to use if you need to revalue existing inventory",
+    "Automatic cost adjustment must be set to 'Always' or you must manually run 'Adjust Cost - Item Entries' to see cost adjustments"
+  ],
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "standard costing",
+    "item card",
+    "stock keeping units",
+    "cost adjustment",
+    "inventory valuation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Value Entries"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "standard costing method",
+    "item card management",
+    "stock keeping units",
+    "item journal posting",
+    "cost adjustment",
+    "sales invoice processing",
+    "automatic cost adjustment"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006466,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The system doesn't update the standard cost of any Stock Keeping Units.",
+      "why_it_matters": "This is a critical gotcha when changing costs on the item card with location-specific SKUs, requiring manual updates to avoid posting at incorrect costs"
+    },
+    {
+      "text": "Existing on-hand inventory is not revalued when you change the Standard Cost on the Item Card.",
+      "why_it_matters": "This explains why sold items revert to original costs through adjustment, a common source of confusion in standard costing implementations"
+    },
+    {
+      "text": "If you need your on-hand stock revalued to the new cost, the Standard Cost Worksheet is the tool for the job.",
+      "why_it_matters": "Provides the correct procedural guidance for users who need to actually revalue existing inventory rather than just change the cost"
+    }
+  ]
+}

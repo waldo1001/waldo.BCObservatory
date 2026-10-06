@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/",
   "published_at": "2026-05-08T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:21.307Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663.md",
+      "words": 84
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:29.913Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.003948
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:29.914Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:29.915Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:29.918Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd9e714b6dac884f6cf3d804afcb025675bf9d0a866131adf0a0ef21afd90f09"
 }

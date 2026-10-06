@@ -1,0 +1,28 @@
+{
+  "video_id": "7rIHz0zrgWU",
+  "item_id": "video/yt-microsoft/7rIHz0zrgWU",
+  "summary": "Business Central telemetry changes released since May 2023 (2023 release wave 2): AI-assisted performance analysis in Power BI reports, better web service, job queue, email and feature module error telemetry, and upcoming signals for change lock and pending extensions. It also covers the Usage Analytics Power BI app, KQL documentation and alerting options.",
+  "overview": "The session walks through telemetry additions since May 2023. Performance reporting gets AI assistance on each page, including key influencers, top segments, decomposition trees and a top 10 slowest pages view. Telemetry also adds API queuing time, total and exclusive time and SQL statistics for long running AL, job queue entry descriptions and report performance data.\n\nOn the error side, it covers web service troubleshooting guides by HTTP status code, user agent tracking, exceptions with AL call stack, Azure functions and SMTP email telemetry, and job queue retry and non-retriable exception reporting. Later parts cover upcoming signals (change lock lifecycle, pending extensions validation, business events in version 23), onboarding telemetry, the Business Central Usage Analytics Power BI app, KQL walkthroughs at aka.ms/bc-telemetry, and no-code and low-code alerting.",
+  "key_points": [
+    "Each page of the performance report has AI assistance (summaries, key influencers, top segments, decomposition tree). Summary quality depends on having enough varied data.",
+    "Web service telemetry has HTTP status code filtering, troubleshooting guides and user agent tracking. The calling client must set a user agent for it to show in the Power BI error report.",
+    "From version 22.X, a web service metadata error fails only the affected service calls, not the whole web service stack for the environment.",
+    "SMTP email error telemetry is available from version 22.3. Job queue reports now show non-retriable exceptions and entries that exceeded the maximum retries.",
+    "Upcoming: change lock lifecycle events and pending extensions validation signals, both likely within a few months. The online service will also try to compile pending extensions against the next major version (service only, not on-premises). Business events get telemetry coverage in version 23.",
+    "The free Business Central Usage Analytics app on AppSource needs a Power BI Pro license to consume and refresh. KQL walkthroughs are at aka.ms/bc-telemetry.",
+    "Alerting options: Power BI metrics scorecards with Teams alerts (no code), or KQL conditions with Power Automate or Logic Apps (low code)."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "5bcb053e440a80f99632c9a88bfa072fde0041b7ecf177758e7c450837dcceae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0283904
+  }
+}

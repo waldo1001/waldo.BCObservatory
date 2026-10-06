@@ -7,13 +7,39 @@
   "url": "https://katson.com/spec-driven-development-the-way-to-build-apps-with-agents/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=spec-driven-development-the-way-to-build-apps-with-agents",
   "published_at": "2026-05-17T08:35:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:56.045Z",
+      "path": "vault:posts/katson-com/4756.md",
+      "words": 933
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:03.833Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006036
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:03.835Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:03.836Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:03.839Z",
+      "path": "content/posts/katson-com/4756.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0639dfbafe51e803831666ca78dc3d2fb675e8ede9154b1883baf46cfb4bfd8a"
 }

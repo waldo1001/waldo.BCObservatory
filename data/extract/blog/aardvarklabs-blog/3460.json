@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3460",
+  "url": "https://aardvarklabs.blog/2026/05/15/native-sftp-support-in-business-central-28/",
+  "title": "Native SFTP Support in Business Central 28",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-05-15T12:00:00.000Z",
+  "words": 1571,
+  "summary": "Native SFTP support was briefly introduced in Business Central 28 via a new SFTP Client codeunit, enabling asynchronous file operations with external servers. However, Microsoft removed this feature due to security hardening concerns, requiring users to use Azure Functions as an alternative for SFTP connectivity.",
+  "key_points": [
+    "SFTP Client codeunit (ID 9762) provided native SFTP operations: list files, upload, download, and delete",
+    "Feature was removed after initial release due to platform hardening requirements and scope concerns",
+    "Sensitive FTP credentials should be stored using Isolated Storage with SecretText for passwords",
+    "SFTP connections require server fingerprint validation using SHA256 before initializing the client"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sftp",
+    "external systems",
+    "file transfer",
+    "security",
+    "isolated storage",
+    "asynchronous integration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SFTP Client"
+    },
+    {
+      "type": "table",
+      "name": "SFTP Folder Content"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_SFTPServerSettings"
+    },
+    {
+      "type": "page",
+      "name": "ARD_FTPHandler"
+    },
+    {
+      "type": "page",
+      "name": "ARD_FTPFileList"
+    }
+  ],
+  "features": [
+    "SFTP Client codeunit",
+    "List Files operation",
+    "Upload File operation",
+    "Download File operation",
+    "Delete File operation",
+    "Fingerprint validation",
+    "Isolated Storage for credentials"
+  ],
+  "versions": [
+    "Business Central 28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013868,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The FTP system only supports 4 commands. List Files, Upload File, Download File, and Delete File.",
+      "why_it_matters": "Defines the complete scope of SFTP operations available before removal, helping developers understand feature limitations"
+    }
+  ]
+}

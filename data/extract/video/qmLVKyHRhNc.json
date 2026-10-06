@@ -1,0 +1,675 @@
+{
+  "video_id": "qmLVKyHRhNc",
+  "item_id": "video/yt-microsoft/qmLVKyHRhNc",
+  "title": "Introducing: Analyze Data on Lists and Queries (2023 release wave 2)",
+  "duration_s": 1747,
+  "systems": [
+    "reporting",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "data analysis",
+    "ad hoc reporting",
+    "analytics",
+    "list pages",
+    "query objects",
+    "no-code analysis",
+    "data visualization",
+    "pivoting data",
+    "grouping and filtering",
+    "query discoverability",
+    "analysis definitions",
+    "click-once"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda overview",
+      "t_start": 0,
+      "t_end": 61.4
+    },
+    {
+      "title": "Context: changing world of analytics and reporting",
+      "t_start": 61.4,
+      "t_end": 198.6
+    },
+    {
+      "title": "Vision for analytics and reporting in Business Central",
+      "t_start": 198.6,
+      "t_end": 291
+    },
+    {
+      "title": "Feature overview: analyze data on lists and queries",
+      "t_start": 291,
+      "t_end": 493
+    },
+    {
+      "title": "Demo: analyzing data on customer ledger entries",
+      "t_start": 493,
+      "t_end": 763.6
+    },
+    {
+      "title": "Query objects and inventory analysis demo",
+      "t_start": 763.6,
+      "t_end": 960.6
+    },
+    {
+      "title": "Query discoverability and role explorer",
+      "t_start": 960.6,
+      "t_end": 1012
+    },
+    {
+      "title": "Analytical content vision for business central",
+      "t_start": 1012,
+      "t_end": 1069.2
+    },
+    {
+      "title": "Sharing analysis definitions with coworkers",
+      "t_start": 1069.2,
+      "t_end": 1142.1
+    },
+    {
+      "title": "Click-once installers and data analysis persistence",
+      "t_start": 1142.1,
+      "t_end": 1326.7
+    },
+    {
+      "title": "Data analysis permission control",
+      "t_start": 1326.7,
+      "t_end": 1387.9
+    },
+    {
+      "title": "Sample scenarios and resources",
+      "t_start": 1387.9,
+      "t_end": 1444.4
+    },
+    {
+      "title": "Analytical requirements, reporting strategy, and AL queries",
+      "t_start": 1444.4,
+      "t_end": 1653.2
+    },
+    {
+      "title": "Additional resources and learning paths",
+      "t_start": 1653.2,
+      "t_end": 1693.7
+    },
+    {
+      "title": "Community engagement and closing remarks",
+      "t_start": 1693.7,
+      "t_end": 1747
+    }
+  ],
+  "features": [
+    {
+      "name": "Analyze data on list pages",
+      "description": "Enables self-service data analysis directly in the Business Central client on list pages. Users can quickly extract insights, design analysis with different tabs, apply grouping, filters, and save analysis for later use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 291,
+      "t_end": 493,
+      "is_demoed": true,
+      "caveats": [
+        "Data size limitation of 100,000 rows removed in this release",
+        "Feature can be turned off by developer or permission settings"
+      ],
+      "tags": [
+        "data analysis",
+        "list pages",
+        "no-code",
+        "ad hoc reporting",
+        "self-service"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Share data analysis",
+      "description": "Users can share their data analysis definitions with coworkers and friends after saving them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.4,
+      "t_end": 451.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sharing",
+        "collaboration",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis menu persistence",
+      "description": "The state of analysis menus (open or closed) and analysis mode choice are now persisted per list page, making features easier to discover.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.9,
+      "t_end": 451.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui discovery",
+        "persistence",
+        "user experience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Remove data size limitation",
+      "description": "In 2023 release Wave 2, the 100,000 row data size limitation on analyze data mode was completely removed, allowing users to analyze as much data as desired.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 451.6,
+      "t_end": 472.3,
+      "is_demoed": false,
+      "caveats": [
+        "Large datasets may take longer to load"
+      ],
+      "tags": [
+        "scalability",
+        "performance",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analyze data on query objects",
+      "description": "Extends data analysis capability to query objects, not just list pages. Query objects can now be used as the data foundation for ad hoc analysis and reporting with the same analysis UI as lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 763.6,
+      "t_end": 891.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query objects",
+        "data analysis",
+        "no-code",
+        "ad hoc reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Query objects as data foundation for analysis",
+      "description": "Queries can now be used as the data foundation for ad hoc analysis with the same analysis UI. Users can join queries with related tables to create rich analysis scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 784,
+      "t_end": 817.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "data foundation",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis on queries with same UI as lists",
+      "description": "Analysis on queries now comes with the same analysis UI as data analysis on lists, providing a consistent user experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 797.1,
+      "t_end": 837.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "ui consistency"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Query documentation with teaching tips and links",
+      "description": "Developers can add teaching tips and specific documentation links to queries to help users find and understand queries more easily.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 850.9,
+      "t_end": 891.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "documentation",
+        "teaching tips"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Join related table data in queries",
+      "description": "Queries can join related table data to provide more meaningful information in analysis, such as location names instead of location codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 871.2,
+      "t_end": 946.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "joins",
+        "data enrichment"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Queries in report and role explorer",
+      "description": "Queries are now searchable in Tell Me and show up in role explorer and report explorer as other UI elements, making them more discoverable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 971.1,
+      "t_end": 1012,
+      "is_demoed": false,
+      "caveats": [
+        "Some features came in late and are likely available in version 23.1"
+      ],
+      "tags": [
+        "queries",
+        "discoverability",
+        "role explorer"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report and role explorer for content discoverability",
+      "description": "New role explorer and report explorer concepts make reporting content more discoverable in business central, addressing feedback that business central comes with many hidden reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1012,
+      "t_end": 1052.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "report explorer",
+        "discoverability",
+        "role explorer"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Built-in analytical content vision",
+      "description": "Vision to build in analytical content for every use case or main feature in business central, with queries and reports being added to fulfill this.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1052.3,
+      "t_end": 1069.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analytics",
+        "vision",
+        "content"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Share analysis definitions with coworkers",
+      "description": "Users can share analysis definitions with coworkers through links that can be placed in teams, web pages, or other locations. The shared link creates a copy of the analysis for the recipient.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1069.2,
+      "t_end": 1142.1,
+      "is_demoed": true,
+      "caveats": [
+        "Shared definitions are independent copies, not live-linked"
+      ],
+      "tags": [
+        "sharing",
+        "analysis",
+        "collaboration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Company-specific and company-agnostic analysis links",
+      "description": "When sharing analysis definitions, users can choose whether the link is for a specific company or works across all companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1121.9,
+      "t_end": 1142.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sharing",
+        "company",
+        "multi-company"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Click-once installers for analysis",
+      "description": "Pre-built click-once scenarios allow users to create analysis definitions with a single click, with example scenarios covering finance, sales, inventory and compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1142.1,
+      "t_end": 1225.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only work in 2023 release wave 2"
+      ],
+      "tags": [
+        "click-once",
+        "analysis",
+        "quick start"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data analysis persistence of UI state",
+      "description": "Business central persists the user's menu choices in data analysis, remembering which analysis tabs were used previously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1265.9,
+      "t_end": 1306.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "persistence",
+        "ui state",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data analysis execute permission",
+      "description": "New system permission called Data analysis execute controls whether users can perform data analysis. Users with this permission can analyze on objects they have permission for.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.7,
+      "t_end": 1387.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "security",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sample click-once scenarios repository",
+      "description": "Open source repository at aka.ms/bc data analysis containing 15 different sample scenarios showing how to use data analysis and click-ones across finance, sales, inventory and compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1387.9,
+      "t_end": 1444.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "sample code",
+        "scenarios"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AL Queries for analytics",
+      "description": "AL queries are being invested in as a powerful tool for data measurement and analysis, moving beyond just performance tuning. Instead of building reports, developers can build queries to support analytical needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1612.4,
+      "t_end": 1632.9,
+      "is_demoed": false,
+      "caveats": [
+        "requires learning shift from report-building mindset"
+      ],
+      "tags": [
+        "al queries",
+        "analytics",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data sets for Excel layouts",
+      "description": "Data sets are being promoted for Excel layouts as an alternative to traditional report building, allowing developers to create data sets that can be consumed by Excel.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1632.9,
+      "t_end": 1653.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data sets",
+        "excel",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Ad hoc analysis on list pages",
+      "description": "Adding existing table fields to optimize PE allows for ad hoc analysis directly on list pages, providing a way to support analytical needs without building formal reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1673.6,
+      "t_end": 1693.7,
+      "is_demoed": false,
+      "caveats": [
+        "limited to existing table fields"
+      ],
+      "tags": [
+        "ad hoc analysis",
+        "list pages",
+        "analytics"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger entries",
+      "t": 513.2
+    },
+    {
+      "type": "query",
+      "name": "analyze your invent inventory",
+      "t": 850.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 78.9,
+      "text": "the word reporting in business Central means three different things analytical reports processing only reports and printable documents",
+      "why_it_matters": "Establishes the scope of the presentation: it covers only analytical reports, not document reporting or processing reports.",
+      "check": "exact"
+    },
+    {
+      "t": 198.6,
+      "text": "analytics is build for online consumption not for print",
+      "why_it_matters": "States a fundamental design principle for the analytics vision in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 239.3,
+      "text": "business Central to have outof thee boox reporting and and analytics solutions for the Core Business scenarios",
+      "why_it_matters": "Describes the first pillar of the analytics vision: out-of-the-box solutions for core scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 363.7,
+      "text": "this was in public preview in 2023 release wave one and you needed to enable it under feature Management in this release wave this",
+      "why_it_matters": "Confirms that analyze data on list pages moved from public preview to general availability (GA) in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 472.3,
+      "text": "with the with 23 2023 release Wave 2 we removed completely this limitation and you can allow you can analyze as much data as",
+      "why_it_matters": "Announces removal of the 100,000 row data size limitation, a significant enhancement from the previous release.",
+      "check": "snapped"
+    },
+    {
+      "t": 722.5,
+      "text": "many users would actually see data analysis as reporting tool and they would call these my sales report",
+      "why_it_matters": "Illustrates user perception: data analysis features are seen as reporting tools for business scenarios.",
+      "check": "snapped"
+    },
+    {
+      "t": 742.9,
+      "text": "it uh it's on live data no replicated data security model is preserved and uh totally no code analysis ad hoc analysis on your",
+      "why_it_matters": "Highlights key technical benefits: live data, preserved security model, and no-code capability.",
+      "check": "snapped"
+    },
+    {
+      "t": 784,
+      "text": "you can use a query object as the data foundation for this new way of doing ad hoc analysis or reporting",
+      "why_it_matters": "Establishes that queries are now a primary vehicle for analysis in business central, not just a performance tuning tool.",
+      "check": "exact"
+    },
+    {
+      "t": 797.1,
+      "text": "the new thing is that this now comes with the same analysis chle and it opens the same UI now on queries",
+      "why_it_matters": "Shows that queries benefit from the same analysis UI as lists, creating a consistent user experience across different data sources.",
+      "check": "exact"
+    },
+    {
+      "t": 971.1,
+      "text": "queries are just any other UI element that will now show up in report or role Explorer and they are also searchable in tell",
+      "why_it_matters": "Confirms queries are now discoverable like reports and pages, improving their visibility to end users.",
+      "check": "exact"
+    },
+    {
+      "t": 1052.3,
+      "text": "build in analytical content for every use case or every main feature in business Central",
+      "why_it_matters": "States the overarching vision for expanding built-in analytical capabilities across the entire product.",
+      "check": "exact"
+    },
+    {
+      "t": 1172.8,
+      "text": "these only work in the in 2023 release Wave 2 uh but here are some different scenarios",
+      "why_it_matters": "Clarifies that click-once scenarios are specific to this release wave and not available in earlier versions.",
+      "check": "exact"
+    },
+    {
+      "t": 1347.2,
+      "text": "we added a new permission uh a new system permission called Data analysis exec or execute",
+      "why_it_matters": "Introduces a new permission control allowing administrators to restrict data analysis capabilities for specific users.",
+      "check": "exact"
+    },
+    {
+      "t": 1568.9,
+      "text": "understand analytics requirements stop developing reports and start supporting analytical needs",
+      "why_it_matters": "Calls for a paradigm shift in how consultants and developers approach reporting, emphasizing customer needs over technical implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1579.7,
+      "text": "business intelligence and er they go together ER is about processing supporting business processes business's intelligence about insights on business processes",
+      "why_it_matters": "Explains the relationship between ERP systems and business intelligence as complementary capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1612.4,
+      "text": "if you thought Al queries was just about performance tuning it's not anymore we're changing the game for this we're investing more in queries",
+      "why_it_matters": "Announces a strategic shift in AL queries from a performance tool to a primary data modeling and analysis capability.",
+      "check": "exact"
+    },
+    {
+      "t": 1612.4,
+      "text": "we're changing the game for this we're investing more in queries over the next years",
+      "why_it_matters": "Signals major investment and strategic shift for AL queries beyond performance tuning.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1632.9,
+      "text": "instead of buil me a report it's it's going to be buil me a report data set",
+      "why_it_matters": "Shows evolving customer request patterns, moving from reports to data sets as the primary artifact.",
+      "check": "exact"
+    },
+    {
+      "t": 1673.6,
+      "text": "adding existing uh table fields to optimize PES is is also a way to do ad hog analysis",
+      "why_it_matters": "Identifies list page fields optimization as a lightweight alternative for ad hoc analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 363.7,
+      "kind": "preview",
+      "text": "this was in public preview in 2023 release wave one"
+    },
+    {
+      "t": 960.6,
+      "kind": "coming-later",
+      "text": "a few features came in a bit late in our release so they are likely available in version 23.1"
+    },
+    {
+      "t": 1172.8,
+      "kind": "subject-to-change",
+      "text": "these only work in the in 2023 release Wave 2"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 19,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 21
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021761
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030045999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010322000000000001
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028976000000000002
+    }
+  ]
+}

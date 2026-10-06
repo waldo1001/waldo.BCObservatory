@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/05/16/visualize-al-objects-tree-view-filter-navigate-vscode/",
   "published_at": "2026-05-16T18:02:05.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:56.557Z",
+      "path": "vault:posts/gerardorenteria-blog/14610.md",
+      "words": 1202
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:03.458Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006417
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:03.459Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:03.460Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:03.463Z",
+      "path": "content/posts/gerardorenteria-blog/14610.md"
     }
   },
   "input_hash": "2026-05-16T18:14:59.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ce85812e34af8a7a35f4c9a59072b88fd60771e47f68af2d9cc5daeacf12a324"
 }

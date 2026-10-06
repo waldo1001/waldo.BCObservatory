@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3267",
+  "url": "https://aardvarklabs.blog/2026/05/08/overcoming-integer-limits-in-business-central-with-biginteger/",
+  "title": "Overcoming Integer Limits in Business Central with BigInteger",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-05-08T12:00:00.000Z",
+  "words": 451,
+  "summary": "Business Central's integer data type maxes out at 2.1 billion records, a limit some implementations have hit. AL Version 18 (Business Central 2026 Wave 1) now supports migrating integer fields to BigInteger, which extends the range to 9.2 quintillion values, with compiler warnings to prevent overflow issues.",
+  "key_points": [
+    "Integer in Business Central AL is a signed 32-bit type limited to about 2.1 billion positive values when used as a row ID",
+    "BigInteger is a signed 64-bit type supporting 9.2 quintillion values, solving the capacity problem for large datasets",
+    "Data type changes from Integer to BigInteger were unsupported until AL Version 18, which now permits gradual migration with new AppSourceCop rule warnings",
+    "The compiler emits warnings for narrowing conversions (BigInteger to Integer) to alert developers about potential overflow risks"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "integer limits",
+    "biginteger",
+    "data types",
+    "field migration",
+    "compiler support",
+    "performance"
+  ],
+  "objects": [],
+  "features": [
+    "BigInteger field migration",
+    "Integer to BigInteger conversion",
+    "AppSourceCop rule AS0141",
+    "CalcFormula support for BigInteger",
+    "Property context warnings"
+  ],
+  "versions": [
+    "AL Version 18",
+    "Business Central 2026 Wave 1",
+    "runtime version 18.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005551,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Changing an existing table field from Integer to BigInteger is now supported when targeting runtime version 18.0 (Fall 2026) or later.",
+      "why_it_matters": "This is the key enabler for solving the 2.1 billion record limit that some implementations have already hit."
+    },
+    {
+      "text": "The compiler now supports gradual migration between Integer and BigInteger field types.",
+      "why_it_matters": "Gradual migration means existing systems can transition without complete rewrites, reducing implementation risk."
+    },
+    {
+      "text": "Many Business Central implementation have hit that limit.",
+      "why_it_matters": "Confirms that the integer overflow problem is a real issue affecting current customers, not a theoretical concern."
+    }
+  ]
+}

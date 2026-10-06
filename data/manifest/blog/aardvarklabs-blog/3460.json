@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/05/15/native-sftp-support-in-business-central-28/",
   "published_at": "2026-05-15T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:03.971Z",
+      "path": "vault:posts/aardvarklabs-blog/3460.md",
+      "words": 1571
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:11.571Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.013868
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:11.572Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:11.573Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:11.576Z",
+      "path": "content/posts/aardvarklabs-blog/3460.md"
     }
   },
   "input_hash": "2026-06-10T00:57:15.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe8bb145dd80346e7ff212b5818af612d0fb2933caa6020aaeca14aa9ed6f844"
 }

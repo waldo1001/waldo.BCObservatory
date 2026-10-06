@@ -1,0 +1,28 @@
+{
+  "video_id": "qmLVKyHRhNc",
+  "item_id": "video/yt-microsoft/qmLVKyHRhNc",
+  "summary": "Analyze data on lists and queries in Business Central 2023 release wave 2: no-code ad hoc analysis on live data, now extended to query objects, with the 100,000 row limit removed, shareable analysis definitions, click-once sample scenarios and a new Data analysis execute permission.",
+  "overview": "The session places data analysis within Microsoft's vision for analytics and reporting in Business Central. It separates analytical reports, processing-only reports and printable documents, and says analytics is built for online consumption. It demos analysis on customer ledger entries and on an inventory query that joins related tables.\n\nIt then covers query discoverability in Tell Me and the role and report explorers, sharing analysis definitions through links, click-once sample scenarios, and the permission that controls analysis. It closes with guidance for developers: build queries and data sets for analytical needs rather than building more reports.",
+  "key_points": [
+    "Analyze data mode on list pages was in public preview in 2023 release wave 1 and needed enabling in feature management. The video does not state a status for wave 2.",
+    "The 100,000 row limit on analyze data mode is removed in 2023 release wave 2. Large datasets may load more slowly.",
+    "Query objects can be the data foundation for analysis and open the same analysis UI as lists. Joining related tables lets you show location names instead of codes.",
+    "Analysis definitions can be shared by link, for one company or for all companies. The recipient gets an independent copy, not a live link.",
+    "A new system permission, Data analysis execute, controls who can analyze. A developer can also turn the feature off.",
+    "Click-once sample scenarios (15, covering finance, sales, inventory and compliance) are at aka.ms/bc data analysis and work only in 2023 release wave 2.",
+    "Query discoverability in Tell Me and the role and report explorers came late in the release and is likely available in version 23.1."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "4fdee4f47567aa4c41a8e9bb9d90fbbc4c6fd885b6190d48f139610c4049cce5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0230004
+  }
+}

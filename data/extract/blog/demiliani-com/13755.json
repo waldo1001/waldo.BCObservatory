@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/13755",
+  "url": "https://demiliani.com/2026/05/10/dynamics-365-business-central-agents-announcing-new-updates/",
+  "title": "Dynamics 365 Business Central agents: announcing new updates.",
+  "source": "demiliani-com",
+  "published_at": "2026-05-10T17:27:43.000Z",
+  "words": 174,
+  "summary": "Business Central update 28.1 enables deploying custom agents to production environments and introduces GPT-5.3-chat as the default model for Copilot, rolling out from May to June. A new UI setting lets users view and select models for custom agents, with programmatic control via AL methods coming soon.",
+  "key_points": [
+    "Custom Business Central agents can now be deployed to production starting with update 28.1",
+    "GPT-5.3-chat becomes the default model for Copilot, rolling out gradually across regions",
+    "New UI on the Agents page displays current model usage and allows model selection",
+    "Model selection can be controlled programmatically through AL methods",
+    "Existing agents automatically use the new model when available in the tenant"
+  ],
+  "systems": [
+    "copilot",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "copilot",
+    "ai models",
+    "gpt-5.3",
+    "production deployment",
+    "model selection"
+  ],
+  "objects": [],
+  "features": [
+    "Agents page",
+    "model selector UI",
+    "programmatic model selection",
+    "GPT-5.3-chat integration",
+    "custom agent deployment"
+  ],
+  "versions": [
+    "28.1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004698,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Dynamics 365 Business Central update 28.1 will allow you to deploy your own Business Central agents to production environments.",
+      "why_it_matters": "This marks a key milestone for agent capabilities, moving from preview to production-ready custom agents."
+    },
+    {
+      "text": "You will be able also to control model selection programmatically from AL (new method to do that will be soon available).",
+      "why_it_matters": "Developers gain programmatic control over AI models, enabling customization and integration with AL solutions."
+    }
+  ]
+}

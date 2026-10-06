@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/05/how-do-i-manage-and-postpone-bc-updates-in-the-admin-center/",
   "published_at": "2026-05-08T08:49:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:19.942Z",
+      "path": "vault:posts/thinkaboutit-be/7897.md",
+      "words": 1109
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:29.905Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.005875
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:29.906Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:29.907Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:29.910Z",
+      "path": "content/posts/thinkaboutit-be/7897.md"
     }
   },
   "input_hash": "2026-05-08T08:54:40.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e25ad40a0634521ee5fb36494133e2804da7861d2f6fc28ca28ddfa2d839f2c6"
 }

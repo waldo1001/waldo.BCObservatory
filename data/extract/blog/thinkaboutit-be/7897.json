@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/thinkaboutit-be/7897",
+  "url": "https://thinkaboutit.be/2026/05/how-do-i-manage-and-postpone-bc-updates-in-the-admin-center/",
+  "title": "How Do I: Manage and Postpone BC Updates in the Admin Center",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-05-08T08:49:25.000Z",
+  "words": 1109,
+  "summary": "Managing Business Central SaaS updates in the Admin Center allows you to schedule, delay, and respond to rollout pauses. This matters because environments upgraded to a problematic version cannot be rolled back, while postponement controls and notification setup help you avoid becoming the test cohort for production issues.",
+  "key_points": [
+    "Major updates occur twice yearly with a staged rollout, and Microsoft pauses when critical issues occur mid-rollout",
+    "Environments already upgraded during a pause are not rolled back and remain stuck with the issue, while unupgraded ones are rescheduled seven days after the original date",
+    "Set up notification recipients to receive proactive alerts about version availability, scheduled updates, failures, pauses, and extension compatibility warnings",
+    "Schedule updates toward the end of the allowed window rather than immediately at GA to avoid early production issues",
+    "You can control the update window timing and scheduled date but cannot skip major updates"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "updates",
+    "admin center",
+    "rollout management",
+    "saas",
+    "postponement",
+    "maintenance planning",
+    "notification recipients"
+  ],
+  "objects": [],
+  "features": [
+    "Update scheduling",
+    "Update window configuration",
+    "Notification recipients setup",
+    "Rollout pause handling",
+    "Version targeting",
+    "Update postponement",
+    "Environment update control"
+  ],
+  "versions": [
+    "BC28",
+    "BC25"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005875,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

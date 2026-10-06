@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/thinkaboutit-be/7920",
+  "url": "https://thinkaboutit.be/2026/05/quick-tip-whats-in-business-central-update-28-1/",
+  "title": "Quick Tip: What’s in Business Central Update 28.1",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-05-13T08:07:28.000Z",
+  "words": 1003,
+  "summary": "Business Central Update 28.1 introduces the Expense Agent in public preview, a new Expense Management module for submitting and processing receipts, and expands Agent Designer to production environments. Additional features reaching general availability include excise tax calculation, report layout lifecycle control, and various fixes for deferrals, inventory posting, and localization.",
+  "key_points": [
+    "Expense Agent automates receipt extraction, categorization, per diem calculation, mileage routing, and approval workflows at 50 Copilot Credits per receipt and requires explicit Anthropic enablement",
+    "Agent Designer now available on production environments with evaluation tools, previously limited to sandbox",
+    "Report layout administrators can assign statuses (Draft, Pending Approval, Approved, Retired) to control which layouts users see",
+    "Multiple features reaching general availability including excise tax, investment boost for fixed assets, deferrals reports, and approval workflow APIs",
+    "Over 100 application fixes and 13 platform fixes address issues like deferral calculations, VAT on credit memos, inventory posting loops, and browser compatibility"
+  ],
+  "systems": [
+    "copilot",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "expense management",
+    "ai agents",
+    "agent designer",
+    "report layouts",
+    "excise tax",
+    "fixed assets",
+    "approval workflow",
+    "e-invoicing"
+  ],
+  "objects": [],
+  "features": [
+    "Expense Agent",
+    "Expense Management module",
+    "Agent Designer",
+    "Report layout lifecycle control",
+    "Excise tax calculation",
+    "Investment Boost for fixed assets",
+    "Audit user and group permissions",
+    "Enhanced deferrals reports"
+  ],
+  "versions": [
+    "28.1",
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006669,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Processing is billed on a consumption basis: 50 Copilot Credits per receipt, covering the full cycle from extraction through posting.",
+      "why_it_matters": "Cost structure that must be factored into customer conversations before implementing Expense Agent"
+    },
+    {
+      "text": "The public preview is English only and limited to the US. Australia, New Zealand, and the UK are added in July 2026.",
+      "why_it_matters": "Geographic and language constraints important for deployment planning outside the US market"
+    }
+  ]
+}

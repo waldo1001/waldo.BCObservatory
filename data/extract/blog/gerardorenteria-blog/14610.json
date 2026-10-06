@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14610",
+  "url": "https://gerardorenteria.blog/2026/05/16/visualize-al-objects-tree-view-filter-navigate-vscode/",
+  "title": "🔍 Visualize your AL objects in a tree view, filter and navigate directly in VS Code",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-05-16T18:02:05.000Z",
+  "words": 1202,
+  "summary": "AL Object Visualizer is a VS Code extension that displays AL objects in a filterable tree view with customizable badges and colors, helping developers navigate and manage multiple files across projects efficiently.",
+  "key_points": [
+    "Automatically decorates AL files with Unicode badges and colors in the Explorer based on object type",
+    "Groups all workspace objects by type in a statistics panel with configurable folder nesting levels",
+    "Supports real-time text and regex filtering to quickly locate specific AL objects",
+    "Allows direct file opening from filtered results and provides quick picker selection by object type"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "vs code extension",
+    "code navigation",
+    "workspace management",
+    "object visualization"
+  ],
+  "objects": [],
+  "features": [
+    "Explorer decorations with badges and colors",
+    "Statistics panel with object grouping",
+    "Real-time text filtering",
+    "Regular expression filtering",
+    "Quick Pick selector",
+    "Automatic refresh on file save",
+    "Configurable folder grouping depth",
+    "Customizable badges and colors"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006417,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "displays all AL objects classified by type in a tree, decorates them with Unicode badges and colors to identify them at a glance",
+      "why_it_matters": "Core feature enabling quick visual identification of object types across large workspaces"
+    }
+  ]
+}

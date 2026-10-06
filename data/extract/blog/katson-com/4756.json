@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/katson-com/4756",
+  "url": "https://katson.com/spec-driven-development-the-way-to-build-apps-with-agents/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=spec-driven-development-the-way-to-build-apps-with-agents",
+  "title": "Spec-Driven Development — The Way to Build Apps with Agents",
+  "source": "katson-com",
+  "published_at": "2026-05-17T08:35:52.000Z",
+  "words": 933,
+  "summary": "Spec-Driven Development is a methodology for building Business Central extensions with AI agents, where structured specifications capture architecture decisions before code is written. This approach maintains consistency across multiple development sessions and prevents agents from reinventing patterns or making conflicting decisions.",
+  "key_points": [
+    "SDD uses a project constitution including brief.md, tech-design.md, roadmap.md, and AGENTS.md to maintain project memory across agent sessions",
+    "Developers write feature specifications with requirements and acceptance criteria before asking agents to code, staying in control of architecture decisions",
+    "One chat per feature keeps context clean, and consistent coding rules ensure coherent output regardless of which developer or AI model works on the codebase",
+    "The approach prevents vibe-coding chaos where multiple agents or developers produce inconsistent code by establishing the spec as the authoritative brain"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "agentic development",
+    "spec-driven development",
+    "al coding",
+    "ai agents",
+    "codebase consistency",
+    "workflow methodology"
+  ],
+  "objects": [],
+  "features": [
+    "Spec-Driven Development",
+    "feature specifications",
+    "project constitution",
+    "coding rules",
+    "session management",
+    "architecture documentation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006036,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The spec is the brain, the agent is the muscle.",
+      "why_it_matters": "Encapsulates the core principle that humans provide strategic direction and decisions while agents handle implementation"
+    },
+    {
+      "text": "The specs survive session resets. The agent forgets everything when you create new the chat. The spec doesn't.",
+      "why_it_matters": "Explains why written specifications are essential when working with AI agents that lose context between sessions"
+    }
+  ]
+}

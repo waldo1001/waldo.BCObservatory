@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/",
+  "title": "BC Friday Tips #72 Inlay Hints",
+  "source": "thatnavguy-com",
+  "published_at": "2026-05-15T00:00:00.000Z",
+  "words": 119,
+  "summary": "Inlay Hints in VS Code display inline parameter names and return types while coding in AL, helping developers understand function signatures without hovering or jumping to definitions. This feature is particularly useful for procedures with many parameters and can be configured to appear on demand to keep the editor clean.",
+  "key_points": [
+    "Inlay Hints show parameter names and return types directly in the editor while coding",
+    "Enable using VS Code settings: editor.inlayHints.enabled and al.inlayhints parameters",
+    "Using offUnlessPressed mode keeps the editor clean and reveals hints only when needed",
+    "Reduces mistakes when calling procedures and eliminates need to memorize parameter order"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "vs code",
+    "editor productivity",
+    "code hints",
+    "developer tools"
+  ],
+  "objects": [],
+  "features": [
+    "Inlay Hints",
+    "parameter name display",
+    "return type display",
+    "VS Code integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004294,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Inlay Hints display extra context directly in the editor.",
+      "why_it_matters": "Explains the core feature that improves developer experience by providing inline information without interrupting workflow"
+    },
+    {
+      "text": "I personally use offUnlessPressed. It keeps the editor clean and lets me quickly reveal hints only when needed.",
+      "why_it_matters": "Demonstrates the recommended configuration approach that balances information availability with visual cleanliness"
+    }
+  ]
+}

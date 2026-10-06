@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/",
   "published_at": "2026-05-15T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:04.280Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-72-inlay-hints--09aec26d55.md",
+      "words": 119
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:10.553Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004294
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:10.554Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:10.555Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:10.558Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-72-inlay-hints--09aec26d55.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2fb5a1618b78be8a09e6d6d23268ef9e75a138f13b32f9ae7e55472c5577aa6b"
 }

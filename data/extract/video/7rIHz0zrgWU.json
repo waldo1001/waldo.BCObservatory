@@ -1,0 +1,836 @@
+{
+  "video_id": "7rIHz0zrgWU",
+  "item_id": "video/yt-microsoft/7rIHz0zrgWU",
+  "title": "What's New: Telemetry (2023 release wave 2)",
+  "duration_s": 1478,
+  "systems": [
+    "reporting",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "performance analysis",
+    "ai insights",
+    "error troubleshooting",
+    "web services",
+    "job queue",
+    "power bi",
+    "change lock",
+    "pending extensions",
+    "business events",
+    "kql",
+    "alerting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to telemetry insights",
+      "t_start": 0,
+      "t_end": 94.9
+    },
+    {
+      "title": "AI-assisted performance analysis",
+      "t_start": 94.9,
+      "t_end": 302.2
+    },
+    {
+      "title": "Performance telemetry enhancements",
+      "t_start": 302.2,
+      "t_end": 439.8
+    },
+    {
+      "title": "Web service error troubleshooting",
+      "t_start": 439.8,
+      "t_end": 560.2
+    },
+    {
+      "title": "Additional error telemetry features",
+      "t_start": 560.2,
+      "t_end": 667.4
+    },
+    {
+      "title": "Job queue and email telemetry",
+      "t_start": 667.4,
+      "t_end": 795.2
+    },
+    {
+      "title": "Feature module error troubleshooting and error page improvements",
+      "t_start": 795.2,
+      "t_end": 855.6
+    },
+    {
+      "title": "Upcoming telemetry features: change lock lifecycle and pending extensions",
+      "t_start": 855.6,
+      "t_end": 932.9
+    },
+    {
+      "title": "Pending extensions validation and upgrade blocker detection",
+      "t_start": 932.9,
+      "t_end": 1009.8
+    },
+    {
+      "title": "Business events coverage and onboarding telemetry insights",
+      "t_start": 1009.8,
+      "t_end": 1081.3
+    },
+    {
+      "title": "PowerBI apps and KQL documentation resources",
+      "t_start": 1081.3,
+      "t_end": 1165
+    },
+    {
+      "title": "KQL walkthrough examples and alerting strategies",
+      "t_start": 1165,
+      "t_end": 1283.7
+    },
+    {
+      "title": "Implementation roadmap, data-driven decision making, and closing remarks",
+      "t_start": 1283.7,
+      "t_end": 1478
+    }
+  ],
+  "features": [
+    {
+      "name": "AI assisted performance analysis",
+      "description": "Each page in the performance report now has AI assistance with generated summaries, key insights, and analysis to help identify performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.4,
+      "t_end": 114.9,
+      "is_demoed": true,
+      "caveats": [
+        "data availability affects summary quality",
+        "requires sufficient data variety for useful insights"
+      ],
+      "tags": [
+        "ai",
+        "performance",
+        "power bi",
+        "insights"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Key influencers analysis",
+      "description": "AI visual that analyzes performance data to pick up patterns and identify performance regressions across applications, allowing users to investigate further.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.2,
+      "t_end": 196,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "performance",
+        "analysis",
+        "patterns"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Top segments analysis",
+      "description": "AI segmentation analysis that clusters data and presents patterns in different segments, allowing users to filter and investigate specific performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196,
+      "t_end": 216.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "segmentation",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Decomposition tree analysis",
+      "description": "AI-assisted root cause analysis using decomposition trees that suggests high or low values influencing page load times and other metrics to help identify performance bottlenecks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.1,
+      "t_end": 270.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "root cause",
+        "analysis",
+        "performance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Top 10 slowest pages report",
+      "description": "Convenience feature showing the top 10 most urgent performance issues in both tabular and graph form for quick identification of performance problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270.6,
+      "t_end": 302.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "reporting",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "API queuing telemetry",
+      "description": "Telemetry tracking for API calls showing how much time an API call spent in the server queue, helping identify queuing delays for O-Data and API calls.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.2,
+      "t_end": 322.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "performance",
+        "queuing",
+        "telemetry"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Long running AL telemetry - total and exclusive time",
+      "description": "Telemetry now includes both total and exclusive time for long running AL code, allowing users to filter out time spent in modal dialogues and see tuning potential.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.1,
+      "t_end": 362.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al",
+        "performance",
+        "telemetry",
+        "long-running"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Long running AL SQL statistics",
+      "description": "SQL statistics now included in long running AL telemetry to help identify whether performance issues are due to long-running SQL operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 362.5,
+      "t_end": 382.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al",
+        "sql",
+        "performance",
+        "telemetry"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job queue entry description telemetry",
+      "description": "Job queue performance reports now include job queue entry descriptions in telemetry, providing a hierarchy view by object name, ID, type, and description.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.7,
+      "t_end": 403.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "performance",
+        "telemetry"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Report performance telemetry",
+      "description": "Telemetry now tracks report generation performance including dataset generation time and report rendering time to help diagnose report performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 403.1,
+      "t_end": 423.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "performance",
+        "power bi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Web service error troubleshooting guides",
+      "description": "Improved error telemetry for web services with new troubleshooting guides in documentation for HTTP status codes, supporting identification and resolution of web service errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 439.8,
+      "t_end": 479.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "error",
+        "troubleshooting",
+        "documentation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "HTTP status code filtering and visuals",
+      "description": "Improved filtering on HTTP status codes with visuals showing errors in incoming web service requests based on status codes, integrated with troubleshooting guides.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 459.8,
+      "t_end": 479.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "error",
+        "http",
+        "reporting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User agent support for web service calls",
+      "description": "User agent tracking for web service calls allows identification of which client is making the call, helping troubleshoot issues specific to particular web service clients.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.9,
+      "t_end": 540.1,
+      "is_demoed": true,
+      "caveats": [
+        "user agent must be set when calling Business Central"
+      ],
+      "tags": [
+        "web services",
+        "error",
+        "user agent",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Web service exceptions and diagnostics",
+      "description": "Web service telemetry now includes server exceptions, diagnostics messages, and AL call stack to help developers troubleshoot web service issues more effectively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 540.1,
+      "t_end": 560.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "error",
+        "diagnostics",
+        "al"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Web service metadata error isolation",
+      "description": "From version 22.X, web service metadata errors only fail the specific service calls with metadata problems instead of failing the entire web service stack for an environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 573.7,
+      "t_end": 608.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "metadata",
+        "error isolation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Outgoing web service error filtering",
+      "description": "Outgoing web service pages now have improved filtering on status codes and new visuals showing status codes based on endpoint use for better error diagnosis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 608.2,
+      "t_end": 628.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "error",
+        "outgoing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure functions telemetry",
+      "description": "Telemetry support for Azure functions usage and errors, with a supporting report to show errors and enable alerting for Azure function calls from AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 628.4,
+      "t_end": 649.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "azure functions",
+        "error",
+        "telemetry"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SMTP email error telemetry",
+      "description": "New telemetry data from version 22.3 for SMTP email errors, reflected in the email error report to help troubleshoot and alert on email integration problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 667.4,
+      "t_end": 699.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "email",
+        "smtp",
+        "error",
+        "telemetry"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Non-retriable job queue exceptions reporting",
+      "description": "New visuals and filtering to identify non-retriable job queue exceptions that cause the server to stop a job queue, helping find and fix job queue failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 699.7,
+      "t_end": 754.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "error",
+        "non-retriable"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job queue retry limit reporting",
+      "description": "Job queue entries that exceed the maximum number of retries are now shown in the job queue error report, allowing users to identify and fix repeatable job queue failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 754.8,
+      "t_end": 795.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "error",
+        "retries"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Feature module lock error function enhancements",
+      "description": "The lock error function in the feature module now shows AL code stack and top and bottom of the stack to help identify what code failed and where the failure occurred.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 795.4,
+      "t_end": 835.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feature module",
+        "debugging",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error page no data indicator",
+      "description": "When there is no data to show on error pages, a green banner appears stating no data is available to indicate successful status and rule out connectivity errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 835.6,
+      "t_end": 855.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error reporting",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Change lock lifecycle events",
+      "description": "Upcoming feature to provide notifications or events whenever a table or field is added or removed from change lock, allowing setup of alerts when telemetry is enabled on multiple items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 875.6,
+      "t_end": 913.7,
+      "is_demoed": false,
+      "caveats": [
+        "Likely within the next few months"
+      ],
+      "tags": [
+        "change lock",
+        "lifecycle events",
+        "alerting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pending extensions validation signals",
+      "description": "New UI validation signals for when administrators upload pending extensions directly in the client, allowing alerts on failed validations to help troubleshoot issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 932.9,
+      "t_end": 952.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pending extensions",
+        "validation",
+        "ui"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pending extensions upgrade validation",
+      "description": "Online service validates pending extensions against the next major version by attempting to compile them, providing telemetry on success or failure to alert on customers blocked from upgrading.",
+      "status": "announced",
+      "status_evidence_t": 952.9,
+      "status_evidence_quote": "we also in the service not on premises validate um pended extensions on environment against next major so we actually try to compile them",
+      "status_evidence_verified": true,
+      "t_start": 952.9,
+      "t_end": 1009.8,
+      "is_demoed": false,
+      "caveats": [
+        "Service only, not on-premises"
+      ],
+      "tags": [
+        "pending extensions",
+        "upgrade",
+        "validation",
+        "blockers"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business events telemetry coverage",
+      "description": "Business events will have telemetry coverage in version 23, allowing monitoring of business events usage and errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1009.8,
+      "t_end": 1030.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "telemetry",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Onboarding telemetry page and PowerBI follow-up",
+      "description": "New onboarding signal page in Business Central with PowerBI follow-up capability to track and analyze environment onboarding starts and completions across all customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1041.1,
+      "t_end": 1081.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "telemetry",
+        "powerbi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Administration report inventory page version tracking",
+      "description": "Administration report inventory page now displays which major version of Business Central an app is installed on, helping ISVs see customer base versions and identify needed fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1061.2,
+      "t_end": 1081.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "administration",
+        "app inventory",
+        "version tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central Usage Analytics PowerBI app",
+      "description": "Free PowerBI app available on AppSource providing insights into telemetry data including usage, errors, performance, and environment or app changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1095.8,
+      "t_end": 1134.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires PowerBI Pro license to consume and refresh"
+      ],
+      "tags": [
+        "powerbi",
+        "analytics",
+        "usage",
+        "free"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KQL walkthrough documentation",
+      "description": "Documentation added under aka.ms/bc-telemetry with KQL walkthrough examples that guide users from basic to writing simple reports, making KQL more accessible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1165,
+      "t_end": 1205.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "kql",
+        "documentation",
+        "walkthrough",
+        "query language"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PowerBI metrics alerting",
+      "description": "No-code alerting approach using PowerBI metrics to set up scorecards for tracking certain metrics with Teams alerts, no developer involvement required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1225.3,
+      "t_end": 1245.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "alerting",
+        "powerbi",
+        "no-code",
+        "metrics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Low-code KQL alerting",
+      "description": "Low-code alerting using KQL expressed conditions with Power Automate, Logic Apps or other tools to set up automated alerts based on telemetry data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1245.5,
+      "t_end": 1283.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "alerting",
+        "kql",
+        "low-code",
+        "automation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 39.4,
+      "text": "talking a little bit about a new data that is coming soon in wave in 20 version 23 or later",
+      "why_it_matters": "Signals that some features discussed are coming in future minor versions beyond wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 54.4,
+      "text": "for performance since the last launch event video for wave one we added ai assisted performance analysis to the",
+      "why_it_matters": "Establishes that AI assisted performance analysis is a new feature added in this release wave, showing status as generally available.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 74.4,
+      "text": "what you see here in this session is what ever was released since May 2023",
+      "why_it_matters": "Clarifies the scope and timing of all features discussed in this presentation.",
+      "check": "exact"
+    },
+    {
+      "t": 499.9,
+      "text": "when you call business Central because if you do so these user agents will then show up in your powerbi error report on web",
+      "why_it_matters": "Explains an important requirement and benefit of setting user agent in web service calls for troubleshooting.",
+      "check": "exact"
+    },
+    {
+      "t": 560.2,
+      "text": "this was backported so it's already available in 22.X",
+      "why_it_matters": "Indicates that web service client information feature was backported to version 22.X, showing broader availability.",
+      "check": "exact"
+    },
+    {
+      "t": 573.7,
+      "text": "from version 22.X we will only fail the actual service calls that where there's a metadata problem",
+      "why_it_matters": "Marks the shift from failing entire web service stack to isolated failures, showing when this change was implemented.",
+      "check": "exact"
+    },
+    {
+      "t": 815.4,
+      "text": "lock error function in the feature module uh we now also show you not only the al cold stack but",
+      "why_it_matters": "Demonstrates improved debugging capability for AL developers using the feature module's lock error function to identify code failures.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 855.6,
+      "text": "we ship tet whenever it's ready in the Sur um so there's no need to postpone to the next major",
+      "why_it_matters": "Explains Microsoft's approach to telemetry releases independent of major release cycles.",
+      "check": "exact"
+    },
+    {
+      "t": 855.6,
+      "text": "there's no need to postpone to the next major if something can be uh put in in in a minor update or even a",
+      "why_it_matters": "Shows the strategy for delivering telemetry features - they ship whenever ready rather than waiting for major releases.",
+      "check": "exact"
+    },
+    {
+      "t": 952.9,
+      "text": "we also in the service not on premises validate um pended extensions on environment against next major so we actually try to compile them",
+      "why_it_matters": "Explains how pending extensions are proactively validated to identify upgrade blockers before customers attempt major version upgrades.",
+      "check": "snapped"
+    },
+    {
+      "t": 1095.8,
+      "text": "the the powerp app on environments is available on appsource it's called business Central usage analytics um and the counterpart for isvs is the",
+      "why_it_matters": "Announces free PowerBI apps on AppSource for analyzing telemetry data, making insights accessible without additional licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 1225.3,
+      "text": "it's called powerbi metrics you can set up a scorecard you can follow certain metrics you can get alerted in teams no developer is",
+      "why_it_matters": "Describes a no-code alerting option using PowerBI metrics, making telemetry-based alerting accessible to non-technical users.",
+      "check": "exact"
+    },
+    {
+      "t": 1283.7,
+      "text": "most important thing if you haven't enabled Cy go do it in deploy an a application resource make sure that you have your cost",
+      "why_it_matters": "Emphasizes the critical first step - enabling telemetry collection and managing costs through proper configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1345,
+      "text": "you can use Telemetry data to get data driven on your pre-sales on your go lives on your operations support and ongoing sales for",
+      "why_it_matters": "Illustrates the broad applicability of telemetry data across the entire customer lifecycle, from pre-sales through ongoing support.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 39.4,
+      "kind": "coming-later",
+      "text": "new data that is coming soon in wave in 20 version 23 or later"
+    },
+    {
+      "t": 875.6,
+      "kind": "coming-later",
+      "text": "these are Telemetry things that is likely to come within the next few months"
+    },
+    {
+      "t": 932.9,
+      "kind": "coming-later",
+      "text": "pended extensions validation signal - likely to come within the next few months"
+    },
+    {
+      "t": 973,
+      "kind": "coming-later",
+      "text": "pended extensions on environment against next major - service not on premises"
+    },
+    {
+      "t": 1009.8,
+      "kind": "coming-later",
+      "text": "business events will have coverage with Telemetry for version 23"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 31
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03887
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0527673
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0485868
+    }
+  ]
+}
