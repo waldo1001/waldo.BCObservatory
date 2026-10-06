@@ -7,16 +7,72 @@
   "url": "https://www.youtube.com/watch?v=Ir5BCNHgLm8",
   "published_at": "2026-02-23T03:31:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:14:04.411Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1487
+    },
+    "captioned": {
+      "at": "2026-10-06T18:14:13.458Z",
+      "path": "vault:captions/community/yt-bcmusings/Ir5BCNHgLm8.vtt",
+      "vtt_sha256": "b822f57e54004cf7d3f948cb31d4ce7eca11422883529145fca559735521b6b1",
+      "segments": 127,
+      "words": 2824,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:15:55.978Z",
+      "path": "data/extract/video/Ir5BCNHgLm8.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "trimmed_for_policy": 1,
+      "features": 11,
+      "quotes": 13,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.083352
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:03.770Z",
+      "path": "data/summary/video/Ir5BCNHgLm8.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0186424
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:03.771Z",
+      "systems": [
+        "development",
+        "copilot"
+      ],
+      "topics": 12,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T18:16:03.783Z",
+      "path": "content/videos/Ir5BCNHgLm8.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcjRDxd_tl4UckLy-30pt3g"
-  }
+    "channel_id": "UCcjRDxd_tl4UckLy-30pt3g",
+    "duration_s": 1487,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "453337c3009d6308be34cd5d0b6589de2cdc36ebeab2b1ecc1e044a8ec48cb73"
 }

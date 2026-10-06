@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database",
   "published_at": "2026-06-02T11:43:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f",
       "words": 883,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:14:15.279Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:05.470Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:05.471Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:16:05.472Z",
+      "page": false
     }
   },
   "input_hash": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f"
+  "output_hash": "342b05bf562f189507419a8b2971b9685db8ab1b3d66babea4fdcdfc07f58a4b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-client-performance",
   "published_at": "2026-06-02T11:43:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8d0d0ad95d13204ca33bce58ef42aca4839b47b5",
       "words": 836,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:14:15.274Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.012873
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:03.784Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:03.785Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:16:03.786Z",
+      "page": false
     }
   },
   "input_hash": "8d0d0ad95d13204ca33bce58ef42aca4839b47b5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d0d0ad95d13204ca33bce58ef42aca4839b47b5"
+  "output_hash": "1699904bc2a4cc952ace29d5a3ab04621a2dfbc7241ef923bec139729ba4757d"
 }

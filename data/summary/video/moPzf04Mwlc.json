@@ -1,0 +1,28 @@
+{
+  "video_id": "moPzf04Mwlc",
+  "item_id": "video/yt-microsoft/moPzf04Mwlc",
+  "summary": "Creating a custom agent in Business Central with the no-code wizard, shown through a sales return agent that reads customer emails and attachments and creates credit memos. Covers profile and permissions, instructions, task monitoring, copilot credits and instruction versioning.",
+  "overview": "The video, published 2026-02-27, shows how to define a first agent in a Business Central sandbox without code. The agent creation wizard asks for a name, a profile, permissions and instructions. The demo builds a sales return agent that handles customer returns and creates credit memos.\n\nThe demo then creates a task with attachments (PDF and image), follows the agent in the task log, and reviews the result on the credit memo page. It also covers the agent asking for human help, updating instructions and repeating the task, checking copilot credits consumed, and viewing saved instruction versions.",
+  "key_points": [
+    "The agent creation wizard needs a name, a profile, permissions and instructions; no code is written. The demo is in a sandbox.",
+    "Profile-based permissions with a dedicated profile are recommended as best practice.",
+    "Agent permissions never exceed those of the user giving it tasks, even if the agent has a super permission set.",
+    "Agents can read PDF attachments and extract text from images to understand a customer request.",
+    "The task log shows each step the agent takes, with a description and the reason; fields the agent filled are marked with eye icons and a justification.",
+    "An agent can request human assistance, and the user answers through a review pane so the agent can continue.",
+    "Instruction changes are saved as versions automatically and can be compared and downloaded; a task can be repeated with the same input data and attachments. Copilot credits used appear at the bottom of the task screen."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "end user"
+  ],
+  "extraction_hash": "c34eb955ab4fbd89eee10f366a60b7177f0d869bc172799c503cc026183df404",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0161144
+  }
+}

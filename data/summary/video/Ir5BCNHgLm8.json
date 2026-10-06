@@ -1,0 +1,27 @@
+{
+  "video_id": "Ir5BCNHgLm8",
+  "item_id": "video/yt-bcmusings/Ir5BCNHgLm8",
+  "summary": "Learn AL with Claude is an interactive course in which students write AL code in VS Code alongside Claude as a tutor, with no videos or slides. The video demos the lesson flow, coding standards, a fictional equipment rental scenario and the markdown and JSON framework behind the course.",
+  "overview": "The presenter shows a course that teaches AL by pair programming with Claude in the terminal. Students work through lessons launched with commands like slash start 1.1. Claude reads company context and scenario documents, explains concepts step by step, and pauses at stop points to ask whether the content makes sense. It can redo a section if needed.\n\nThe learning project is a Business Central extension for Nordic Outdoor Adventures, a fictional outdoor equipment rental company with 12 locations in Norway, Sweden and Denmark. The video also covers how the course is built: lesson markdown scripts, a course.json file, a reference code folder, a starter extension template and a company context folder with coding standards. The presenter says the framework could be adapted to teach other code topics.",
+  "key_points": [
+    "The course has no videos or slides. Students write AL in VS Code while Claude guides them in the terminal.",
+    "Each lesson is a markdown file that tells Claude what to read and do. Lessons start with commands such as slash start 1.1.",
+    "The scenario is a six-week project to build an equipment tracking, rental and maintenance extension for a fictional company with 12 Scandinavian locations.",
+    "The company context folder holds coding standards, extension requirements and scenario documentation. These cover object naming ranges, Pascal case, file naming and field grouping.",
+    "Claude can generate AL object files such as enums and tables. This can be switched off so students create the files manually.",
+    "Stop points let students ask for a section to be redone. A reference code folder serves as a cheat sheet if they get stuck.",
+    "Phase two, covering rental bookings and maintenance tracking, is not yet part of the course."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "3cd301c88c536e9a3599219ba59e7a3f4aa2f9370ee23ca78e03e2a4a6ea689b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0186424
+  }
+}

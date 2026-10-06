@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-lifecycle-trace",
   "published_at": "2026-06-02T11:43:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6ae32c51edb95ccf6226b9ddf0d4a1f731b71c2",
       "words": 4935,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:14:15.273Z",
+      "prompt": "extract-docs@1",
+      "parts": 2,
+      "objects": 0,
+      "cost_usd": 0.06298
+    },
+    "summarized": {
+      "at": "2026-10-06T18:14:15.281Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:14:15.282Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:14:15.283Z",
+      "page": false
     }
   },
   "input_hash": "b6ae32c51edb95ccf6226b9ddf0d4a1f731b71c2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6ae32c51edb95ccf6226b9ddf0d4a1f731b71c2"
+  "output_hash": "fdea23811bb40267c7b0505866134025c15b77b4bc49061b9dba7a8844497e0f"
 }

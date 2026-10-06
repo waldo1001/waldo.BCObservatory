@@ -1,0 +1,355 @@
+{
+  "video_id": "moPzf04Mwlc",
+  "item_id": "video/yt-microsoft/moPzf04Mwlc",
+  "title": "What's New: How To Create Agents in Business Central",
+  "duration_s": 460,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "agent creation",
+    "no-code configuration",
+    "task execution",
+    "instructions",
+    "permissions",
+    "copilot credits",
+    "file attachments",
+    "task monitoring"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agent Creation Overview",
+      "t_start": 0,
+      "t_end": 23.8
+    },
+    {
+      "title": "Accessing the Agent Creation Wizard",
+      "t_start": 23.8,
+      "t_end": 59.8
+    },
+    {
+      "title": "Configuring Agent Profile and Permissions",
+      "t_start": 59.8,
+      "t_end": 102.6
+    },
+    {
+      "title": "Setting Agent Instructions and Initial Setup",
+      "t_start": 102.6,
+      "t_end": 137.2
+    },
+    {
+      "title": "Creating and Preparing a Task for the Agent",
+      "t_start": 137.2,
+      "t_end": 193.4
+    },
+    {
+      "title": "Monitoring Agent Task Execution",
+      "t_start": 193.4,
+      "t_end": 266.6
+    },
+    {
+      "title": "Reviewing Agent Results and Credit Memo Creation",
+      "t_start": 266.6,
+      "t_end": 308.8
+    },
+    {
+      "title": "Refining Instructions and Repeating Tasks",
+      "t_start": 308.8,
+      "t_end": 403.2
+    },
+    {
+      "title": "Monitoring Credits and Instruction History",
+      "t_start": 403.2,
+      "t_end": 444.5
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 444.5,
+      "t_end": 460
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Creation Wizard",
+      "description": "A guided wizard in Business Central that allows users to create agents from scratch by providing a name, selecting a profile, setting permissions, and defining instructions without writing code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.8,
+      "t_end": 137.2,
+      "is_demoed": true,
+      "caveats": [
+        "Profile-based permissions recommended",
+        "Requires dedicated profile for best practices"
+      ],
+      "tags": [
+        "wizard",
+        "no-code",
+        "agent creation",
+        "business central"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Execution with File Attachments",
+      "description": "Agents can process tasks with attachments including PDF files and images, automatically extracting text from images and reading PDF content to understand customer requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.2,
+      "t_end": 193.4,
+      "is_demoed": true,
+      "caveats": [
+        "Text extraction from images supported",
+        "PDF reading capability"
+      ],
+      "tags": [
+        "file attachments",
+        "pdf",
+        "image extraction",
+        "task input"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task Log and Execution Tracking",
+      "description": "Users can track agent task execution in real-time through a task log pane that shows all steps the agent is taking, descriptions of actions, and reasons for those actions to enable faster troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.4,
+      "t_end": 266.6,
+      "is_demoed": true,
+      "caveats": [
+        "Task log can be maximized for more space"
+      ],
+      "tags": [
+        "task monitoring",
+        "execution tracking",
+        "troubleshooting",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Action Justification and Audit Trail",
+      "description": "When an agent completes actions like filling fields or creating records, the UI displays eye icons and justifications showing which fields were modified by the agent and why, providing transparency and auditability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 277.9,
+      "t_end": 308.8,
+      "is_demoed": true,
+      "caveats": [
+        "Eye icons indicate agent-modified fields"
+      ],
+      "tags": [
+        "audit trail",
+        "transparency",
+        "field justification",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task Repeat and Iterative Improvement",
+      "description": "Users can update agent instructions and repeat the same task with identical input data and attachments, allowing for iterative refinement and testing of agent behavior without recreating the entire task.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 323.5,
+      "t_end": 403.2,
+      "is_demoed": true,
+      "caveats": [
+        "Repeats with same input data and attachments"
+      ],
+      "tags": [
+        "instruction refinement",
+        "iterative testing",
+        "task repeat"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Request for Human Assistance",
+      "description": "During task execution, agents can request human assistance when they encounter situations they cannot resolve, and users can provide guidance through a review pane to unblock the agent and allow it to continue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 369.2,
+      "t_end": 403.2,
+      "is_demoed": true,
+      "caveats": [
+        "Agent requests human assistance when needed",
+        "Users can provide instructions via review pane"
+      ],
+      "tags": [
+        "human assistance",
+        "task blocking",
+        "review pane",
+        "user guidance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Credits Consumption Tracking",
+      "description": "The UI displays copilot credits consumed at the bottom of the task screen, allowing users to see in real-time how many credits a specific task is using.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 403.2,
+      "t_end": 415.2,
+      "is_demoed": true,
+      "caveats": [
+        "Credits shown at bottom of UI"
+      ],
+      "tags": [
+        "copilot credits",
+        "billing",
+        "monitoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Instruction Versioning and History",
+      "description": "The system automatically saves all versions of agent instructions as users edit them, and users can view instruction history, compare versions, and download instructions for backup purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 415.2,
+      "t_end": 444.5,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple versions saved automatically"
+      ],
+      "tags": [
+        "instruction history",
+        "versioning",
+        "backup",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Return Agent Creation",
+      "description": "A specific agent use case demonstrated in this video that helps with customer returns and creates credit memos by reading customer emails and attachments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 35.4,
+      "t_end": 308.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales returns",
+        "credit memos",
+        "customer service",
+        "demo"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent Permission Inheritance from User",
+      "description": "Agent permissions are always limited to the permission set of the user interacting with the agent, meaning even with a super permission set assigned to the agent, it cannot exceed the user's permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.5,
+      "t_end": 102.6,
+      "is_demoed": false,
+      "caveats": [
+        "Agents limited to user's permissions"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "access control"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "credit memo",
+      "t": 277.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicolola Kukria",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.3,
+      "text": "how you can define your first agent in Business Central in sandboxes without using any code",
+      "why_it_matters": "Establishes that agents can be created through UI without code, lowering barrier to entry",
+      "check": "exact"
+    },
+    {
+      "t": 87.5,
+      "text": "even though the agent has a super permission set, it is not going to have more permissions than the user giving it tasks",
+      "why_it_matters": "Critical security design detail showing agent permissions are constrained by user permissions",
+      "check": "exact"
+    },
+    {
+      "t": 170.1,
+      "text": "Agents are able to read the PDF files and extract text from the images which you will see in the demo",
+      "why_it_matters": "Defines agent capability to process common business documents and extract information automatically",
+      "check": "exact"
+    },
+    {
+      "t": 227.6,
+      "text": "You can see the description of the task that the agent did. Also, you can see the reason why it did it. So, this",
+      "why_it_matters": "Shows agents provide transparency through action descriptions and reasoning for troubleshooting",
+      "check": "exact"
+    },
+    {
+      "t": 288.3,
+      "text": "you can see with the little eye icons and justification why this one was done. An indication that this field was actually filled by",
+      "why_it_matters": "Demonstrates audit trail showing which fields were modified by agents and their reasoning",
+      "check": "exact"
+    },
+    {
+      "t": 403.2,
+      "text": "you also have a quick insight to how many copilot credits you have consumed. The information is shown at the bottom and you can",
+      "why_it_matters": "Shows copilot credit consumption is tracked and visible per task for cost monitoring",
+      "check": "exact"
+    },
+    {
+      "t": 430.5,
+      "text": "we have saved the two versions that I have edited. The first version is without checking for the credit memo and the second one",
+      "why_it_matters": "Demonstrates automatic versioning of instructions enables iterative refinement and change management",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025817
+    }
+  ]
+}

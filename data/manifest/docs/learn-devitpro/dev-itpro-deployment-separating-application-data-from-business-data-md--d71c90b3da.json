@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Separating-Application-Data-from-Business-Data",
   "published_at": "2026-06-02T11:43:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "125ac474b28517cc3189157a91ddf5cd23c5a56d",
       "words": 1524,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:14:15.280Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:05.473Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:05.474Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:16:05.474Z",
+      "page": false
     }
   },
   "input_hash": "125ac474b28517cc3189157a91ddf5cd23c5a56d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "125ac474b28517cc3189157a91ddf5cd23c5a56d"
+  "output_hash": "9f2f2cf0b8dc195941ce7653dd0c1fb8b2c58d7e5b170c27c994042a4757959c"
 }

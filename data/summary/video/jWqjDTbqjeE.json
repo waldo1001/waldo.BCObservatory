@@ -1,0 +1,29 @@
+{
+  "video_id": "jWqjDTbqjeE",
+  "item_id": "video/yt-microsoft/jWqjDTbqjeE",
+  "summary": "Business Central agents: how the Sales Order Agent and Payables Agent work, the agent framework with human-in-the-loop review, security and admin controls, and two ways to build agents. The Agent Designer in the web client is in preview and works in sandboxes. Agents can also be created in code with the AI development toolkit.",
+  "overview": "The video covers the agentic AI approach in Business Central. It starts with the two existing agents, the Sales Order Agent and the Payables Agent, and then explains the framework behind them. Users see agent tasks in a prominent pane with a timeline, reasoning tooltips and processed documents. Agents navigate the UI like users do.\n\nFrom an administration standpoint, agents are treated like users, with permissions and profile assignments. They are distributed as apps and enabled or disabled the same way as other apps. The video then shows two ways to build agents. The Agent Designer in the web client is in preview and lets consultants, product owners, domain specialists and makers design proof-of-concept agents in a sandbox. The AI development toolkit lets developers create agents in code. It closes with use cases and adoption paths, including upcoming evaluation tooling and calling BC agents from Copilot Studio via MCP.",
+  "key_points": [
+    "The Sales Order Agent processes requests for quotes and creates sales orders. The Payables Agent processes vendor invoices and matches them to purchase orders. Both were demoed.",
+    "Human-in-the-loop: new agent tasks appear in a prominent pane. Users can see the timeline of agent activity, reasoning tooltips and processed documents, and can navigate to verify decisions.",
+    "Agents are built like users for administration. You assign a profile and limit access with permissions, and explicit access controls define which tables and UI elements they can reach.",
+    "Agents are distributed as apps and enabled or disabled with the same mechanism administrators already know.",
+    "The Agent Designer in the web client is in preview. It is a wizard supported in sandboxes, for proof-of-concept agents with instructions, profile, permissions and manual trigger simulation.",
+    "In the preview, agents created in code with the AI development toolkit deploy to sandboxes only. Production deployment is stated as coming later.",
+    "Evaluation of agent results is stated as coming soon. Calling BC agents via MCP from Copilot Studio is a future capability."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "3b99b3045686944a1ed8e13482c79c01d8982fd473cf30afa924a2302b3f9fea",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0195584
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "video_id": "Ir5BCNHgLm8",
+  "item_id": "video/yt-bcmusings/Ir5BCNHgLm8",
+  "title": "I Built an AI Course That Writes AL Code With You — Here's What It Looks Like",
+  "duration_s": 1487,
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "al learning",
+    "ai-assisted coding",
+    "claude integration",
+    "coding standards",
+    "al objects",
+    "interactive course",
+    "business central extension",
+    "equipment rental scenario",
+    "course framework",
+    "lesson structure",
+    "stop points",
+    "code generation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and course overview",
+      "t_start": 0,
+      "t_end": 47
+    },
+    {
+      "title": "Course structure and coding standards",
+      "t_start": 47,
+      "t_end": 173.5
+    },
+    {
+      "title": "Learning project and scenario setup",
+      "t_start": 173.5,
+      "t_end": 327.2
+    },
+    {
+      "title": "Course content and lesson framework",
+      "t_start": 327.2,
+      "t_end": 440.2
+    },
+    {
+      "title": "Interactive lesson flow and Claude integration",
+      "t_start": 440.2,
+      "t_end": 567.9
+    },
+    {
+      "title": "First lesson walkthrough and environment setup",
+      "t_start": 567.9,
+      "t_end": 652.7
+    },
+    {
+      "title": "App configuration and extension requirements",
+      "t_start": 652.7,
+      "t_end": 745.4
+    },
+    {
+      "title": "Creating objects and AI-assisted code generation demo",
+      "t_start": 745.4,
+      "t_end": 972.6
+    },
+    {
+      "title": "Course feedback and interactive learning",
+      "t_start": 972.6,
+      "t_end": 1016.9
+    },
+    {
+      "title": "Framework architecture overview",
+      "t_start": 1016.9,
+      "t_end": 1126.8
+    },
+    {
+      "title": "Course resources and structure",
+      "t_start": 1126.8,
+      "t_end": 1188.7
+    },
+    {
+      "title": "AI-taught vs traditional courses",
+      "t_start": 1188.7,
+      "t_end": 1259.7
+    },
+    {
+      "title": "Course configuration and JSON structure",
+      "t_start": 1259.7,
+      "t_end": 1375
+    },
+    {
+      "title": "Starting the course, requirements, and conclusion",
+      "t_start": 1375,
+      "t_end": 1487
+    }
+  ],
+  "features": [
+    {
+      "name": "Learn AL with Claude course",
+      "description": "An interactive course that teaches AL programming by having students write code alongside Claude AI in VS Code, with no videos or slides. Students learn concepts one by one through pair programming-like interaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.1,
+      "t_end": 591.4,
+      "is_demoed": true,
+      "caveats": [
+        "Phase two covering rental bookings and maintenance tracking not yet part of the course"
+      ],
+      "tags": [
+        "al",
+        "learning",
+        "claude",
+        "interactive course"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Claude AI pair programming assistant",
+      "description": "Claude acts as an interactive tutor in the terminal, guiding students through lessons, asking for user input, and explaining concepts step by step. Described as having infinite patience for pair programming.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.8,
+      "t_end": 640.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "claude",
+        "ai tutor",
+        "pair programming",
+        "terminal-based"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Lesson command framework",
+      "description": "Each lesson has a markdown file with instructions for Claude on actions to take, such as reading company context, scenario documentation, and highlighting stakeholders. Lessons are launched with commands like slash start 1.1.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.8,
+      "t_end": 440.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lesson structure",
+        "claude instructions",
+        "markdown"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Company context and coding standards folder",
+      "description": "A structured folder containing coding standards, extension requirements, and scenario documentation that students must follow. Includes object naming ranges, Pascal case conventions, file naming standards, and field grouping rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 71.3,
+      "t_end": 161.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "coding standards",
+        "al conventions",
+        "extension requirements"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Equipment rental scenario for Nordic Outdoor Adventures",
+      "description": "A realistic business scenario where students build a Business Central extension for a fictional outdoor equipment rental company with 12 locations across Scandinavia. The company uses BC for financials, purchasing, and sales but needs unified equipment tracking, rental processes, and maintenance scheduling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 228.8,
+      "t_end": 327.2,
+      "is_demoed": true,
+      "caveats": [
+        "Six weeks delivery timeframe for first version"
+      ],
+      "tags": [
+        "scenario",
+        "equipment rental",
+        "nordic outdoor adventures",
+        "business context"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Object creation with Claude file generation",
+      "description": "Students can ask Claude to create AL object files such as enums and tables by having Claude generate the content as a cut command. This option can be toggled to speed up learning or to have students create files manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 763.8,
+      "t_end": 913.4,
+      "is_demoed": true,
+      "caveats": [
+        "Can be configured to require manual file creation instead",
+        "Requires Claude with understanding of AL language"
+      ],
+      "tags": [
+        "code generation",
+        "file creation",
+        "teaching flexibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interactive course with stopping points",
+      "description": "Course structure includes stopping points where students are asked if content makes sense, and Claude can redo sections if clarification is needed. Creates a one-on-one tutoring experience with real-time interaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 972.6,
+      "t_end": 1016.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "course design",
+        "interactive",
+        "stopping points",
+        "feedback",
+        "adaptive learning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Lesson script framework",
+      "description": "Course uses markdown files with structured lesson scripts containing teaching rules for AI, stop points, and interactive prompts to guide Claude through teaching specific AL concepts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1028.6,
+      "t_end": 1115.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "framework",
+        "lesson design",
+        "markdown",
+        "script"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Course configuration in JSON",
+      "description": "Course.json file defines modules, lessons, and course metadata with objects for course info, modules with IDs/names/descriptions, and scenario with company context, role, goal, and solution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1320.2,
+      "t_end": 1364.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "json",
+        "configuration",
+        "course structure",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Reusable reference code library",
+      "description": "Reference code folder acts as a cheat sheet for students, containing solutions for common tasks like creating enums and tables for quick reference if stuck.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1126.8,
+      "t_end": 1151.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reference",
+        "code library",
+        "examples",
+        "learning resource"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Starter extension template",
+      "description": "Blank canvas AL project template with launch.json and app.json files that students use as a starting point, with additional files created during the course.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1151.3,
+      "t_end": 1175.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "template",
+        "starter project",
+        "al project",
+        "blank canvas"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "maintenance",
+      "t": 745.4
+    },
+    {
+      "type": "table",
+      "name": "table",
+      "t": 745.4
+    },
+    {
+      "type": "enum",
+      "name": "Enum",
+      "t": 913.4
+    },
+    {
+      "type": "page",
+      "name": "Cart Page",
+      "t": 939.3
+    },
+    {
+      "type": "page",
+      "name": "List Page",
+      "t": 962.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Claude",
+      "confidence": "high"
+    },
+    {
+      "name": "Course creator",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.1,
+      "text": "creating a course and uh allowing uh users to learn uh the concepts explained in the course together with code",
+      "why_it_matters": "Defines the core value proposition of the course - learning AL concepts and code simultaneously rather than separately.",
+      "check": "exact"
+    },
+    {
+      "t": 86.3,
+      "text": "this course is about teaching someone learn AL. So obviously that someone is going to join a company and is going to have to",
+      "why_it_matters": "Establishes the realistic context for learning - new developers must follow organizational standards, which the course covers systematically.",
+      "check": "exact"
+    },
+    {
+      "t": 252.2,
+      "text": "They operate 12 locations across Norway, Sweden, Denmark offering guided tours, equipment rental and adventure packages.",
+      "why_it_matters": "Provides concrete business context for the learning scenario to make the project realistic and meaningful.",
+      "check": "exact"
+    },
+    {
+      "t": 372.3,
+      "text": "You have six weeks to deliver the first version of this extension.",
+      "why_it_matters": "Establishes project timeline constraint and real-world deadline pressure for the learning exercise.",
+      "check": "exact"
+    },
+    {
+      "t": 567.9,
+      "text": "No videos at all. Everything happens right here in the terminal. Instead of watching someone else write code on a screen, you'll write the",
+      "why_it_matters": "Explains the unique delivery method and pedagogical approach - active learning through terminal-based interaction rather than passive video watching.",
+      "check": "exact"
+    },
+    {
+      "t": 723.5,
+      "text": "Six five tables, six pages, three ensues, one report.",
+      "why_it_matters": "Specifies the scope of objects to be built in the extension - quantifiable learning objectives.",
+      "check": "exact"
+    },
+    {
+      "t": 858.6,
+      "text": "Focus on the uh locking in the code versus text differences. Um code fields are for identifiers. They are always uppercase and trimmed.",
+      "why_it_matters": "Demonstrates key AL coding conventions that the AI course teaches to students for proper field type usage.",
+      "check": "exact"
+    },
+    {
+      "t": 983.5,
+      "text": "We get to interact with CL. um who's the instructor in this uh context in this course. Uh we have stopping points.",
+      "why_it_matters": "Explains the interactive nature of the AI course and how stopping points enable feedback-driven learning.",
+      "check": "exact"
+    },
+    {
+      "t": 1073.2,
+      "text": "Claude MD then uh we tell Claude to read the script instructions on how to teach and begin teaching immediately.",
+      "why_it_matters": "Describes the framework mechanism for controlling AI behavior through markdown scripts.",
+      "check": "exact"
+    },
+    {
+      "t": 1137.9,
+      "text": "Reference quad folder is like think of it like a cheat sheet. Um if you if the student gets stuck on creating an enams",
+      "why_it_matters": "Shows the course structure includes reference materials to help students when they get stuck.",
+      "check": "exact"
+    },
+    {
+      "t": 1201,
+      "text": "Uh AI adapts with the student, interacts with the student. Um you get instant help, you get question uh answers to your and to",
+      "why_it_matters": "Highlights the key advantage of AI-taught courses over traditional video courses - real-time adaptation and help.",
+      "check": "exact"
+    },
+    {
+      "t": 1332.2,
+      "text": "Constructor.json. It's a it's a JSON object with uh with an object course and main code version output website uh ...",
+      "why_it_matters": "Documents the JSON configuration structure that defines the course organization and metadata.",
+      "check": "exact"
+    },
+    {
+      "t": 1446.4,
+      "text": "you can adapt uh the structure of the framework of the course for basically teaching anything with code and I'm pretty sure uh copilot",
+      "why_it_matters": "Suggests the framework is generalizable beyond AL and could apply to other programming languages with Copilot.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 206,
+      "kind": "not-in-this-release",
+      "text": "which is going to in the future. Uh it's not part of this course as of yet"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023968999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024259999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035123
+    }
+  ]
+}

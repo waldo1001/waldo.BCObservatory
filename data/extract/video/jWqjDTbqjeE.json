@@ -1,0 +1,397 @@
+{
+  "video_id": "jWqjDTbqjeE",
+  "item_id": "video/yt-microsoft/jWqjDTbqjeE",
+  "title": "Introducing: Envision, Design and Code Business Central Agents",
+  "duration_s": 1114,
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "agents",
+    "agentic ai",
+    "sales order agent",
+    "payables agent",
+    "human in the loop",
+    "agent framework",
+    "permissions",
+    "profiles",
+    "instructions",
+    "agent design",
+    "web client",
+    "ai development toolkit"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Agentic AI and Current Agents",
+      "t_start": 0,
+      "t_end": 125.8
+    },
+    {
+      "title": "Agent Framework and Human-in-the-Loop Experience",
+      "t_start": 125.8,
+      "t_end": 246
+    },
+    {
+      "title": "Agent Navigation, Security and Administrative Controls",
+      "t_start": 246,
+      "t_end": 414
+    },
+    {
+      "title": "Agent Extensibility and Partner Opportunities",
+      "t_start": 414,
+      "t_end": 561.4
+    },
+    {
+      "title": "Designing Agents in the Web Client",
+      "t_start": 561.4,
+      "t_end": 743.5
+    },
+    {
+      "title": "AI Development Toolkit and Code-Based Agent Creation",
+      "t_start": 743.5,
+      "t_end": 839.3
+    },
+    {
+      "title": "Agent Use Cases and Scenarios",
+      "t_start": 839.3,
+      "t_end": 1026.2
+    },
+    {
+      "title": "Adoption Paths and Getting Started",
+      "t_start": 1026.2,
+      "t_end": 1114
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An agent that captures and processes requests for quotes and creates sales orders, performing multiple tasks including analyzing documents and making decisions during the quoting process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.3,
+      "t_end": 100.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order",
+        "agent",
+        "automation",
+        "quotes"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "An agent that captures and processes vendor invoices, matches them to purchase orders, and performs multiple invoice processing tasks that users would otherwise do manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.4,
+      "t_end": 100.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payables",
+        "vendor invoices",
+        "agent",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Human-in-the-Loop Agent Experience",
+      "description": "A framework feature that propagates new agent tasks to a prominent pane, allowing users to see the entire timeline of agent activities, view reasoning tooltips, inspect processed documents, and navigate to verify agent decisions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 144.3,
+      "t_end": 231.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "human in the loop",
+        "trust",
+        "transparency",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent UI Navigation Framework",
+      "description": "A framework that enables agents to navigate Business Central UI like users do, handling lookups, drill-downs, and search invocations securely and reliably, using LLMs to reason over UI elements and data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246,
+      "t_end": 337,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "navigation",
+        "ui automation",
+        "llm reasoning",
+        "framework"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Security and Access Control",
+      "description": "Agents are built like users from an administration standpoint, with permissions, profile assignments, and explicit access controls defining what tables and UI elements each agent can access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.5,
+      "t_end": 392.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "security",
+        "permissions",
+        "administration",
+        "profiles"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent App Distribution",
+      "description": "Agents are distributed as applications within Business Central, using the same enablement and disablement mechanism known by administrators for enabling or disabling agents based on needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414,
+      "t_end": 434.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "app distribution",
+        "administration",
+        "enablement"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent Designer in Web Client",
+      "description": "An in-client, sandbox-supported experience allowing users to design proof-of-concept Business Central agents using a wizard. Includes agent creation, instruction definition, profile and permission assignment, and manual simulation of agent triggers.",
+      "status": "preview",
+      "status_evidence_t": 561.4,
+      "status_evidence_quote": "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of",
+      "status_evidence_verified": true,
+      "t_start": 561.4,
+      "t_end": 743.5,
+      "is_demoed": true,
+      "caveats": [
+        "supported in sandboxes",
+        "incline experience"
+      ],
+      "tags": [
+        "agent designer",
+        "wizard",
+        "proof of concept",
+        "no-code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI Development Toolkit - Agent Code Creation",
+      "description": "Ability to create agents from within code in the AI development toolkit, including configuration options, instructions, profiles, permissions, custom integrations, and new functionality to improve agent accuracy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 743.5,
+      "t_end": 794.1,
+      "is_demoed": true,
+      "caveats": [
+        "preview supports deployment to sandboxes only",
+        "production deployment coming later"
+      ],
+      "tags": [
+        "ai development toolkit",
+        "code",
+        "al",
+        "extensions",
+        "integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Extension Deployment",
+      "description": "Ability to deploy agent extensions to Business Central environments, initially supporting sandboxes with production deployment coming later.",
+      "status": "announced",
+      "status_evidence_t": 794.1,
+      "status_evidence_quote": "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions",
+      "status_evidence_verified": true,
+      "t_start": 794.1,
+      "t_end": 810,
+      "is_demoed": false,
+      "caveats": [
+        "currently sandbox only",
+        "production support coming later"
+      ],
+      "tags": [
+        "deployment",
+        "extensions",
+        "production"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent Evaluation Framework",
+      "description": "Coming soon capability to automate evaluation of agent results and measure the impact of iterating on agent instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 822.5,
+      "t_end": 839.3,
+      "is_demoed": false,
+      "caveats": [
+        "coming soon"
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "iterations"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Agent Integration",
+      "description": "Future capability to call Business Central agents via MCP from within Copilot Studio, enabling cross-system and conversational experiences alongside native Business Central agents.",
+      "status": "announced",
+      "status_evidence_t": 1059,
+      "status_evidence_quote": "in the future even call BC agents uh via MCP from within copilot studio",
+      "status_evidence_verified": true,
+      "t_start": 1026.2,
+      "t_end": 1059,
+      "is_demoed": false,
+      "caveats": [
+        "future capability"
+      ],
+      "tags": [
+        "copilot studio",
+        "mcp",
+        "integration",
+        "future"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales Order Processor profile",
+      "t": 673
+    },
+    {
+      "type": "other",
+      "name": "Adatim Corporation",
+      "t": 727.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Dmitri Richard",
+      "confidence": "high"
+    },
+    {
+      "name": "Peter Boring",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 47.3,
+      "text": "For a while now, two fantastic agents are helping two of your teams, the sales team and the payables team to enhance their operations.",
+      "why_it_matters": "Establishes that two production agents currently exist and are deployed to enhance sales and payables operations.",
+      "check": "exact"
+    },
+    {
+      "t": 561.4,
+      "text": "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of",
+      "why_it_matters": "Clearly marks the agent designer capability as preview status and identifies the target audience for building agents.",
+      "check": "exact"
+    },
+    {
+      "t": 590.6,
+      "text": "you can assign a profile to the agent. You can limit its access by giving it permissions.",
+      "why_it_matters": "Demonstrates the security model for agents, showing administrators can control agent capabilities through profiles and permissions.",
+      "check": "exact"
+    },
+    {
+      "t": 794.1,
+      "text": "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions",
+      "why_it_matters": "Clarifies the current sandbox-only limitation for agent extension deployment and signals future production support.",
+      "check": "exact"
+    },
+    {
+      "t": 850.2,
+      "text": "scenarios where you need to handle unstructured inputs. That's an obvious candidate. Um AI and LLMs are great at natural language, emails, documents, etc.",
+      "why_it_matters": "Identifies key use case categories for agents, starting with unstructured data handling.",
+      "check": "exact"
+    },
+    {
+      "t": 902.5,
+      "text": "Agents work really well when they can act as a user. Uh having the permissions like a user, restricted access to to data, etc.",
+      "why_it_matters": "Explains the fundamental design principle of agents operating with user-like permissions and access controls.",
+      "check": "exact"
+    },
+    {
+      "t": 1026.2,
+      "text": "you have a choice of both native BC agents as well as uh no and low code copilot studio agents and this is really",
+      "why_it_matters": "Establishes the multi-path adoption strategy for agents, letting customers choose between native BC agents and Copilot Studio agents.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 561.4,
+      "kind": "preview",
+      "text": "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of concept business central agents"
+    },
+    {
+      "t": 629.9,
+      "kind": "preview",
+      "text": "this experience is an incline experience and it's supported in sandboxes"
+    },
+    {
+      "t": 794.1,
+      "kind": "coming-later",
+      "text": "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions to production environments"
+    },
+    {
+      "t": 822.5,
+      "kind": "coming-later",
+      "text": "we will also soon give you the means to actually go and evaluate the agents so that you can automate evaluating the results"
+    },
+    {
+      "t": 1059,
+      "kind": "coming-later",
+      "text": "in the future even call BC agents uh via MCP from within copilot studio"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032029
+    }
+  ]
+}

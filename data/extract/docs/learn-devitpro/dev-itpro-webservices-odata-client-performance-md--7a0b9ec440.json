@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/odata-client-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-client-performance",
+  "title": "OData/API web service client performance",
+  "blob": "8d0d0ad95d13204ca33bce58ef42aca4839b47b5",
+  "summary": "OData/API web service client performance provides guidelines for optimizing REST API and OData requests including read-only data access, batch operations, filtering, column selection, paging, and performance measurement.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "web services",
+    "odata",
+    "api",
+    "performance",
+    "optimization",
+    "rest"
+  ],
+  "objects": [],
+  "features": [
+    "Data-Access-Intent ReadOnly",
+    "OData transactional batch requests",
+    "$select clause",
+    "$filter clause",
+    "$top query option",
+    "server-driven paging",
+    "LastModifiedOn filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012873,
+      "pages_in_call": 4
+    }
+  ]
+}

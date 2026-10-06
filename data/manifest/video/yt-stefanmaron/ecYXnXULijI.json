@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=ecYXnXULijI",
   "published_at": "2026-02-20T03:28:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:14:24.181Z",
+      "captions": "auto:en-orig",
+      "duration_s": 4982
+    },
+    "captioned": {
+      "at": "2026-10-06T18:14:31.947Z",
+      "path": "vault:captions/community/yt-stefanmaron/ecYXnXULijI.vtt",
+      "vtt_sha256": "1e2d7d1979b5432e15f1a6324fceb74c11a43c4d7dadd200df5f34b6b48f6cf5",
+      "segments": 338,
+      "words": 5797,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ"
-  }
+    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ",
+    "duration_s": 4982,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1e2d7d1979b5432e15f1a6324fceb74c11a43c4d7dadd200df5f34b6b48f6cf5"
 }

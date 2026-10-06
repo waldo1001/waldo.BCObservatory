@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-with-powershell",
   "published_at": "2026-06-02T11:43:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3c5477a59d387cb99a91cbb64471f2ab9d71369a",
       "words": 551,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:14:15.278Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006456
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:05.467Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:05.468Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:16:05.469Z",
+      "page": false
     }
   },
   "input_hash": "3c5477a59d387cb99a91cbb64471f2ab9d71369a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c5477a59d387cb99a91cbb64471f2ab9d71369a"
+  "output_hash": "f82fe3f959706faa569beeeef59957d0207ef8096a14dc77dfa6af0fafb0036e"
 }

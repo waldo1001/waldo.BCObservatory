@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server-events-with-powershell.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-with-powershell",
+  "title": "Monitoring Business Central Server Events with PowerShell",
+  "blob": "3c5477a59d387cb99a91cbb64471f2ab9d71369a",
+  "summary": "Use Windows PowerShell Get-WinEvent cmdlet to view Business Central server instance and trace events in event logs and event tracing files.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "powershell",
+    "monitoring",
+    "event logs",
+    "server events",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Get-WinEvent cmdlet",
+    "Admin logs",
+    "Operational logs",
+    "Debug logs",
+    "event filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 4
+    }
+  ]
+}

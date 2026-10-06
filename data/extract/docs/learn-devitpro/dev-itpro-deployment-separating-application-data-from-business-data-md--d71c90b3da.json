@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/Separating-Application-Data-from-Business-Data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Separating-Application-Data-from-Business-Data",
+  "title": "Separating Application Data from Business Data",
+  "blob": "125ac474b28517cc3189157a91ddf5cd23c5a56d",
+  "summary": "Separate application tables into a dedicated application database from business data databases using Export-NAVApplication and Remove-NAVApplication PowerShell cmdlets to support multitenancy.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database",
+    "multitenancy",
+    "application tables",
+    "powershell",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "Export-NAVApplication cmdlet",
+    "Remove-NAVApplication cmdlet",
+    "Mount-NAVApplication cmdlet",
+    "Mount-NAVTenant cmdlet",
+    "application database",
+    "business data database"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 4
+    }
+  ]
+}

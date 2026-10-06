@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-environment-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-lifecycle-trace",
+  "title": "Analyzing Environment Lifecycle Trace Telemetry",
+  "blob": "b6ae32c51edb95ccf6226b9ddf0d4a1f731b71c2",
+  "summary": "Environment lifecycle telemetry captures trace events for operations on Business Central environments including updates, start/stop/restart, copy, restore, and transfers to other tenants, with details on success or failure reasons. Environment lifecycle trace telemetry documents events for updating, deleting, recovering, and renaming environments, plus app hotfix operations, with custom dimensions for diagnostics.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "telemetry",
+    "environment lifecycle",
+    "trace events",
+    "diagnostics",
+    "admin center",
+    "monitoring",
+    "configuration keys",
+    "update window",
+    "deletion",
+    "recovery"
+  ],
+  "objects": [],
+  "features": [
+    "environment updates",
+    "start/stop/restart operations",
+    "environment copy",
+    "point-in-time restore",
+    "tenant transfer",
+    "session cancellation",
+    "database export",
+    "configuration updates",
+    "environment configuration key updates",
+    "environment update window modification",
+    "environment soft delete",
+    "environment hard delete"
+  ],
+  "versions": [],
+  "parts": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.050107,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012873,
+      "pages_in_call": 4
+    }
+  ]
+}

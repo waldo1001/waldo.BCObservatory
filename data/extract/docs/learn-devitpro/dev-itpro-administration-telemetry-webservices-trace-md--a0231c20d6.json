@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace",
+  "title": "Web Service Request Trace",
+  "blob": "67b4bd02b1085d7775e0589cba7eb8dda10100b9",
+  "summary": "Web service request trace telemetry captures SOAP, OData, and REST API call metrics including endpoint, response time, HTTP status, SQL statements, and diagnostics for performance and stability analysis.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "web services",
+    "odata",
+    "rest api",
+    "soap",
+    "performance",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP status codes",
+    "HTTP headers logging",
+    "execution time metrics",
+    "SQL statement tracking",
+    "failure reason logging",
+    "request queue time",
+    "httpStatusCode dimension"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "version 22.0",
+    "version 16.3",
+    "version 26.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012873,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/How-to--Export-the-Application-Tables-to-a-Dedicated-Database",
+  "title": "How to: Export the Application Tables to a Dedicated Database",
+  "blob": "f36a4a38c58ec78b3833b08106fefd518aaf9b3f",
+  "summary": "Export application tables from Business Central to a dedicated database using Windows PowerShell cmdlets to separate application metadata from business data.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database",
+    "application tables",
+    "multitenancy",
+    "powershell",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "Export-NAVApplication cmdlet",
+    "Remove-NAVApplication cmdlet",
+    "Mount-NAVApplication cmdlet",
+    "Mount-NAVTenant cmdlet",
+    "application database separation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006456,
+      "pages_in_call": 4
+    }
+  ]
+}

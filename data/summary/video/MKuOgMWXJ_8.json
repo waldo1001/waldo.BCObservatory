@@ -1,0 +1,28 @@
+{
+  "video_id": "MKuOgMWXJ_8",
+  "item_id": "video/yt-microsoft/MKuOgMWXJ_8",
+  "summary": "Sales Validation sample agent in Business Central: a sample agent shipped out of the box that checks open sales orders against release criteria and releases them for shipment. The video demos setup, profile, permissions, instructions, task tracking, message review and credit usage. More samples are announced.",
+  "overview": "The video shows the Sales Validation sample agent, which is included out of the box and is meant to show how to build an agent in Business Central. The agent looks at open sales orders and decides whether they can be released to be shipped.\n\nThe demo covers opening the agent setup, reviewing its dedicated profile, reduced permission set and instructions, and preparing data before running it. It then starts the agent with a task, follows the task steps in the tracking UI, reviews the outgoing summary message, and checks how many credits the run used. Microsoft says it plans to build more sample agents that will appear in the same list.",
+  "key_points": [
+    "The Sales Validation agent is a sample shipped out of the box; it is the only sample currently in the setup wizard, and more are planned.",
+    "It checks open sales orders and determines whether they can be released for shipment, then summarizes the actions taken.",
+    "The agent has a dedicated limited UI profile and a reduced permission set limited to its tasks.",
+    "Instructions can be edited to tweak behavior and should follow the documented format; for this agent the task is 'run process' plus a shipment date.",
+    "Prepare the sales order data before running the agent.",
+    "The task tracking UI shows the steps as the agent runs, and the outgoing message can be reviewed. It lists which orders were released and which did not meet criteria.",
+    "Credit usage for a run is shown, so the cost of checking all open sales orders can be monitored."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "decision maker"
+  ],
+  "extraction_hash": "332817d839a6be92d1049905dd8be1006e5ec72a38bc54dff3028e13fa0790b6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014294399999999999
+  }
+}

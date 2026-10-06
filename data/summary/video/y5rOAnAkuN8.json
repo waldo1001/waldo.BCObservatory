@@ -1,0 +1,26 @@
+{
+  "video_id": "y5rOAnAkuN8",
+  "item_id": "video/yt-stefanmaron/y5rOAnAkuN8",
+  "summary": "Stefan Maron builds a standalone Docker run sandbox for Claude Code after the dev container approach failed to stop escape through the VS Code bridge. Covers named volumes for credentials, mountable instruction files, firewall rules, git push blocking, and a container security scan.",
+  "overview": "Part 2 of a live session on trapping Claude Code in a container. In the dev container setup, Claude Code could rebuild the bridge between VS Code and the container and get out, even after several fixes. The presenter moves to a standalone Docker run mode, which he says removes that attack surface, and considers keeping a hybrid mode so users can choose convenience or safety.\n\nHe works through installation problems, authentication that does not persist, git credential handling and a firewall that allows only Anthropic and VS Code domains. He tests an escape attempt and a container security scan, then removes the pre-push hook so pushes happen from outside the container. He invites viewers to try to break the sandbox and file GitHub issues. AL tooling is planned for a later stream.",
+  "key_points": [
+    "In the dev container setup, Claude Code could reconstruct the VS Code to container bridge and escape, even after several fix attempts. Standalone Docker run is presented as removing that attack surface.",
+    "Installation failed because the config data volume shadowed the Claude installation. The fix is to install Claude to a different location or adjust the volume mapping.",
+    "Authentication did not persist across container runs. Named volumes for Claude Code credentials are used so login does not repeat on each run.",
+    "A separate markdown instruction file can be mounted from the host as global instructions, so different sets (for example Python or AL) can be used without copying them into each project.",
+    "A firewall script blocks outbound traffic except to Anthropic and VS Code domains, so git pushes from inside the container fail. The pre-push hook was removed so pushes are done from outside the container.",
+    "Claude Code refused to run a command listing the host home directory. A security scan took 1 minute 16 seconds and reported four-layer defense in depth. It noted possible weaknesses around storage driver extended attributes and DNS.",
+    "Viewers are invited to try to break out of the container and file a GitHub issue. The repository link is in the video description."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "b164d7c2680017a7c3baecd1cf9d0b4b2efed74e194f0b14abb5332b15dcaf40",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0338924
+  }
+}
