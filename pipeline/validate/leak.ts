@@ -162,7 +162,7 @@ export function committableFiles(repoDir: string): string[] {
   }
 }
 
-export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: string; vaultDir: string; sources: SourceDef[] }): LeakReport {
+export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: string; vaultDir: string; sources: SourceDef[]; policyOnly?: boolean }): LeakReport {
   const dataDir = o.dataDir ?? resolve(o.repoDir, "data");
   const contentDir = o.contentDir ?? resolve(o.repoDir, "content");
   const findings: LeakFinding[] = [];
@@ -207,6 +207,7 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
 
   // shingles
   const report: LeakReport = { files_scanned: 0, shingles: 0, raw_docs: 0, vault: "not-needed", findings };
+  if (o.policyOnly) return report; // PR CI: no vault there by design; the Mini's nightly gate runs the scan
   if (!existsSync(o.vaultDir)) {
     const why = communityRawExpected(dataDir, o.sources);
     if (why) { report.vault = "missing"; findings.push({ kind: "vault-missing", path: o.vaultDir, detail: `community raw text exists (${why.slice(resolve(o.repoDir).length + 1)}) but the vault is not here, so the scan cannot run` }); }

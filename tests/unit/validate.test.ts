@@ -122,6 +122,7 @@ test("check:leak: the vault is required once community raw text exists", () => {
   writeJson(join(dir, "data/manifest/video/yt-comm/dddddddddd1--1.json"), { id: "video/yt-comm/DDDDDDDDDD1", stages: { captioned: { at: "x" } } });
   const r = checkLeak({ repoDir: dir, vaultDir: missing, sources: SOURCES });
   assert.deepEqual([r.vault, r.findings.map((f) => f.kind)], ["missing", ["vault-missing"]]);
+  assert.deepEqual(checkLeak({ repoDir: dir, vaultDir: missing, sources: SOURCES, policyOnly: true }).findings, [], "PR CI: policy checks only");
 });
 
 test("shingle hashing: every window of SHINGLE words, same key for the same words", () => {

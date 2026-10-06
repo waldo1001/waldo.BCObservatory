@@ -30,4 +30,4 @@ jobs:
       - run: npm run lint:workflows
       - run: npm run validate:content
       # no vault on GitHub-hosted runners: policy checks only; the Mini runs the shingle scan before every commit
-      - run: npm run check:leak
+      - run: npm run check:leak -- --policy-only
