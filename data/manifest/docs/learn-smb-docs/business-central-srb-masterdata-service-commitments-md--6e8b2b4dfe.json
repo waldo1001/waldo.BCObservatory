@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments",
   "published_at": "2026-02-18T15:29:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb4c123d0add24ad498fddca01e034139da17f17",
       "words": 1963,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:41.415Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:43.233Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:43.234Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:43.235Z",
+      "page": false
     }
   },
   "input_hash": "eb4c123d0add24ad498fddca01e034139da17f17",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb4c123d0add24ad498fddca01e034139da17f17"
+  "output_hash": "220e4f9f2664d378e09f3738af9bc75ea0ea6aad4fbf15047093a9ca1bc7920a"
 }

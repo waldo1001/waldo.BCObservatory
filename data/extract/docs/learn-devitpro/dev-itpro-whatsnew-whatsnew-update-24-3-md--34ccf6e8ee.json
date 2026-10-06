@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-24-3.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-3",
+  "title": "Update 24.3 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1",
+  "blob": "50fe28b50b512f75233f4cc9535ed3b99c5c2e60",
+  "summary": "Update 24.3 for Business Central 2024 Release Wave 1 provides hotfixes, localization updates for multiple countries, and new SEPA format support. Use this page to learn about regulatory and banking features added in this update.",
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "update 24.3",
+    "hotfixes",
+    "localization",
+    "sepa formats",
+    "banking",
+    "intrastat"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "File SEPA 001.001.09 Pmts"
+    },
+    {
+      "type": "report",
+      "name": "File FCY SEPA 001.001.09 Pmts"
+    },
+    {
+      "type": "xmlport",
+      "name": "SEPA DD pain.008.001.02.ch03"
+    },
+    {
+      "type": "codeunit",
+      "name": "Exp. SEPA CT pain.001.001.09"
+    },
+    {
+      "type": "report",
+      "name": "Exp. SEPA CT pain.001.001.09"
+    },
+    {
+      "type": "report",
+      "name": "SEPA ISO20022 Pain 008.001.08"
+    },
+    {
+      "type": "report",
+      "name": "SEPA ISO20022 Pain 001.001.09"
+    }
+  ],
+  "features": [
+    "SEPA formats CT pain.001.001.09",
+    "SEPA formats DD pain.008.001.08",
+    "SchemeID in PEPPOL",
+    "Vendor exemption export",
+    "Intrastat reporting"
+  ],
+  "versions": [
+    "24.3",
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008773,
+      "pages_in_call": 5
+    }
+  ]
+}

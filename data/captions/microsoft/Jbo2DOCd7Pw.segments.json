@@ -1,0 +1,166 @@
+{
+  "video_id": "Jbo2DOCd7Pw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 19.9,
+      "text": "Welcome. My name is Buaj Kotayoko. In this session, we will talk about integration between business central and field service. Both of those products coming from Dynamics 365 family uh from Microsoft."
+    },
+    {
+      "t": 19.9,
+      "end": 40.4,
+      "text": "Of course, Dynamics 365 field service is a leading product for frontline workers, for technicians, for companies who operate in the field and has fantastic set of features uh related to operating service management doing service management in the field."
+    },
+    {
+      "t": 40.4,
+      "end": 57.5,
+      "text": "Business Central is connected to field service through an integration that gives you uh improved efficiency uh reduced cost of operations and of course ma makes sure that uh information between field service and business central uh is in sync."
+    },
+    {
+      "t": 57.5,
+      "end": 67.8,
+      "text": "Uh that integration is included uh out of the box in business central and that of course reduces implementation costs uh for you and for your company."
+    },
+    {
+      "t": 67.8,
+      "end": 80.6,
+      "text": "We also have attractive pricing because with Business Central premium license you have a right to buy an attach license for field service for just"
+    },
+    {
+      "t": 80.6,
+      "end": 91.2,
+      "text": "$20. Integration between Business Central and field service was already announced and released last year. This was the basic integration for projects."
+    },
+    {
+      "t": 91.2,
+      "end": 105.4,
+      "text": "In this wave, we are releasing additional functionality that uh includes uh integration with service model in business central and that's why uh a premium license for business central is required."
+    },
+    {
+      "t": 105.4,
+      "end": 119,
+      "text": "You might have seen videos talking about both of those integrations released last year information circulating on social media. Uh and um this is all now finally coming to you in 25"
+    },
+    {
+      "t": 119,
+      "end": 139.6,
+      "text": "uh wave 1. This integration is based on data vers data sync technology. So you need to enable that in your business central instance and of course you need dynamics 365 sales integration and then field service integration both types project and services in order to see everything."
+    },
+    {
+      "t": 139.6,
+      "end": 158.1,
+      "text": "Uh also you need virtual tables enabled in your environment meaning that you can see data from business central directly in data versse. This might sound overwhelming, but there is actually a very easy wizard in assisted setup that guides you through the whole process."
+    },
+    {
+      "t": 158.1,
+      "end": 173.5,
+      "text": "And at the end, when you install a field service and you want to enable it, you will see uh a screen like this showing you two types of integration, projects, and that was the the standard feature released last year,"
+    },
+    {
+      "t": 173.5,
+      "end": 185.7,
+      "text": "and services and projects, which is what we are releasing right now. Along the way, you will be asked to download the field service integration app from AppSource."
+    },
+    {
+      "t": 185.7,
+      "end": 198,
+      "text": "Uh, and of course, that is needed. This is an extension that is not installed directly in Business Central. You have to install it from AppSource to to have all of those uh field service features built in."
+    },
+    {
+      "t": 198,
+      "end": 208.2,
+      "text": "And of course, the best way uh is to see it in the demo. This is my business central and it's already set up with field service."
+    },
+    {
+      "t": 208.2,
+      "end": 221.2,
+      "text": "I don't want to show you how it is done because it's it takes a little bit of time but I just wanted to point you to this assisted setup wizard for field service. This is what needs to be done in order to set it up."
+    },
+    {
+      "t": 221.2,
+      "end": 236.2,
+      "text": "This company uh is offering coffee machines and sold some coffee machines through Trey uh research. So this is the coffee machine that was sold to this company and uh as you can see Business Central already created a service item."
+    },
+    {
+      "t": 236.2,
+      "end": 256.3,
+      "text": "I have also created a service order for this is the last one here for uh tray research and for this particular coffee machine and I can see in the service lines some coffee beans replacement filter and some repair one hour of work to"
+    },
+    {
+      "t": 256.3,
+      "end": 267.5,
+      "text": "provide some maintenance so it's all on the business center side and this service order is already synchronized here with field service. Clicking this button work order."
+    },
+    {
+      "t": 267.5,
+      "end": 280,
+      "text": "I can go to field service directly and see it over there. So let's try it. Here I'm in Dynamics 5 field service and I can see this uh work order."
+    },
+    {
+      "t": 280,
+      "end": 291,
+      "text": "Um I can see that it has the replacement parts that I needed and I also see the services here and I can see that this work order"
+    },
+    {
+      "t": 291,
+      "end": 309.3,
+      "text": "uh is one of the unscheduled ones. So I can go to schedule board here and in a nice visual way I can see all of those uh orders that are already assigned to my uh employees to my service people and then I can see also unscheduled work orders here."
+    },
+    {
+      "t": 309.3,
+      "end": 321.3,
+      "text": "So let's take this this one for tray research and I would like to assign it to Lena. So, I will drag and drop it here and schedule"
+    },
+    {
+      "t": 321.3,
+      "end": 331.9,
+      "text": "uh this repair and this visit with a customer uh for Lena later today. It's all good. And now I can go back to my work orders."
+    },
+    {
+      "t": 331.9,
+      "end": 343.3,
+      "text": "And I can see that this uh work order is already scheduled to be uh actioned by Lena. And of course, she can rebook, she can uh move it to someone else."
+    },
+    {
+      "t": 343.3,
+      "end": 353.3,
+      "text": "And then uh when done mark it as completed and it will all already be indicated here in field service. That's it for the quick demo."
+    },
+    {
+      "t": 353.3,
+      "end": 363.9,
+      "text": "We have plenty of information about this integration published in our documentation. So please have a look. We also have published a field service integration pitch deck."
+    },
+    {
+      "t": 363.9,
+      "end": 379,
+      "text": "So this is mostly for our partners where you can also find more information and and uh ready to to use material uh for your for your operations. And then we also have already videos as mentioned published last year."
+    },
+    {
+      "t": 379,
+      "end": 390.4,
+      "text": "So I was I would highly recommend you to have a look and view those videos as well on top of the the one that you just uh just saw right now. All right, this is it."
+    },
+    {
+      "t": 390.4,
+      "end": 394,
+      "text": "Thank you very much for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.55,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.5600000000000005,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 969
+}

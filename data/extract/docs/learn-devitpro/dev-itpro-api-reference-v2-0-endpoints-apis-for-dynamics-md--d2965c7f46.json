@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/endpoints-apis-for-dynamics.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/endpoints-apis-for-dynamics",
+  "title": "Endpoints for the APIs for Microsoft Dynamics 365 Business Central",
+  "blob": "8610928152432d120bb4fd4d950f5fc40743a6f2",
+  "summary": "Access Business Central APIs through multiple endpoints: Microsoft Graph, common endpoint service, or direct tenant connection for online; or direct installation for on-premises. Use this to integrate external applications with Business Central data and functionality.",
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "api endpoints",
+    "rest api",
+    "integration",
+    "oauth2",
+    "authentication",
+    "web services"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Graph endpoint",
+    "common endpoint service",
+    "direct tenant endpoint",
+    "OData API",
+    "extension APIs",
+    "basic authentication"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

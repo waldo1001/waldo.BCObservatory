@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-basic-experience",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c0b9071608b558aa6676f03d2171f112986d73df",
       "words": 360,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:35.260Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005672
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:41.433Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:41.435Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:41.436Z",
+      "page": false
     }
   },
   "input_hash": "c0b9071608b558aa6676f03d2171f112986d73df",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0b9071608b558aa6676f03d2171f112986d73df"
+  "output_hash": "a46cb9ee65c7ff3b661bb18317300759ffb35f4fa36aeb7e93851fd07de60d76"
 }

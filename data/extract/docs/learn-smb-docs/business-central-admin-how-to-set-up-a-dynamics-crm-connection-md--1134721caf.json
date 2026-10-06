@@ -1,0 +1,80 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-how-to-set-up-a-dynamics-crm-connection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
+  "title": "Connect to Microsoft Dataverse",
+  "blob": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a",
+  "summary": "Explains how to set up and manage a connection between Business Central and Microsoft Dataverse for integrating with other Dynamics 365 applications, including authentication, data synchronization, and record coupling.",
+  "systems": [
+    "integration",
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "dataverse connection",
+    "dynamics 365 integration",
+    "data synchronization",
+    "authentication",
+    "record coupling",
+    "currency handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dataverse Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Dataverse Full Synch. Review"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
+    }
+  ],
+  "features": [
+    "Dataverse connection",
+    "Data synchronization",
+    "Match-based coupling",
+    "Ownership model",
+    "Certificate-based authentication",
+    "Multi-currency support",
+    "Full synchronization",
+    "Integration table mappings",
+    "Record coupling",
+    "Data encryption"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010525,
+      "pages_in_call": 3
+    }
+  ]
+}

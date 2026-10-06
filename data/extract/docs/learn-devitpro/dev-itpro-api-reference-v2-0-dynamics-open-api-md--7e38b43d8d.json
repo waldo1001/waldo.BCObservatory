@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/dynamics-open-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-open-api",
+  "title": "OpenAPI specification version 1.0 for Dynamics 365 Business Central",
+  "blob": "2b7272be153f3a5520c7511132784a9c053ee179",
+  "summary": "OpenAPI Specification 1.0 for Business Central provides a standard RESTful API interface with downloadable YAML contract and tools for previewing and editing. Use this for API documentation and integration development with standard OpenAPI tooling.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "openapi",
+    "swagger",
+    "api specification",
+    "rest api",
+    "oauth2",
+    "rest"
+  ],
+  "objects": [],
+  "features": [
+    "OpenAPI specification",
+    "YAML contract download",
+    "SwaggerUI preview",
+    "OAuth2 configuration",
+    "standard API interface"
+  ],
+  "versions": [
+    "1.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

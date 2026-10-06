@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-set-up-email-logging.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
+  "title": "Set up email logging",
+  "blob": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
+  "summary": "Set up email logging to track email exchanges between salespeople and contacts in Business Central by configuring Exchange Online with shared mailbox and mail flow rules. Use this to maintain interaction logs and manage sales opportunities from email communications.",
+  "systems": [
+    "crm",
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "email logging",
+    "exchange online",
+    "interaction log",
+    "sales opportunities",
+    "contact management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Interaction Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "Email Logging"
+    },
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Setup Email Logging"
+    }
+  ],
+  "features": [
+    "email logging setup",
+    "exchange online integration",
+    "shared mailbox configuration",
+    "mail flow rules",
+    "interaction tracking",
+    "opportunity creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

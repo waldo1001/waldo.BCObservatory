@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-teams-troubleshooting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-troubleshooting",
+  "title": "Troubleshooting Microsoft Teams Integration",
+  "blob": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
+  "summary": "Troubleshoot Microsoft Teams integration issues in Business Central including sign-in problems, card expansion failures, permissions errors, and Teams settings. Use this to resolve common user and administrator problems with the Teams app.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "teams integration",
+    "troubleshooting",
+    "sign-in",
+    "card expansion",
+    "permissions",
+    "contact search"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Page Summary Provider"
+    }
+  ],
+  "features": [
+    "Teams app installation",
+    "contact search",
+    "card expansion",
+    "settings management",
+    "link previews",
+    "browser compatibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

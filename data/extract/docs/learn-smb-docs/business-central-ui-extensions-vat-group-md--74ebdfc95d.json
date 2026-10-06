@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-vat-group.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group",
+  "title": "The VAT Group Management extension for the United Kingdom",
+  "blob": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce",
+  "summary": "The VAT Group Management extension for the United Kingdom enables multiple businesses to combine VAT reporting under a single registration number through a VAT group arrangement with a representative. Use this to coordinate VAT returns for UK-based company groups.",
+  "systems": [
+    "finance",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "vat group",
+    "vat reporting",
+    "united kingdom",
+    "tax compliance",
+    "multi-company",
+    "hmrc"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Set Up VAT Group Management"
+    },
+    {
+      "type": "page",
+      "name": "VAT Group Submissions"
+    },
+    {
+      "type": "page",
+      "name": "VAT Returns"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    },
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    }
+  ],
+  "features": [
+    "VAT group setup",
+    "VAT return submission",
+    "member company management",
+    "group settlement",
+    "OAuth2 authentication",
+    "HMRC integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

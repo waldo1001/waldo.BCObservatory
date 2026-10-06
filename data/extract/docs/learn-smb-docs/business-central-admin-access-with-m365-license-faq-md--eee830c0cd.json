@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-access-with-m365-license-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq",
+  "title": "Access with Microsoft 365 Licenses FAQ",
+  "blob": "d1c78edc8b45ad87712563438c3c2e8585463537",
+  "summary": "Answers frequently asked questions about accessing Business Central data in Microsoft Teams using Microsoft 365 licenses, covering permissions, setup, licensing, and usage.",
+  "systems": [
+    "administration",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "microsoft 365 license",
+    "teams access",
+    "permissions",
+    "licensing",
+    "user groups",
+    "read-only access"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "License Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    },
+    {
+      "type": "page",
+      "name": "Profiles (Roles)"
+    },
+    {
+      "type": "page",
+      "name": "User Groups"
+    }
+  ],
+  "features": [
+    "Microsoft 365 license access",
+    "Teams data access",
+    "Permission sets",
+    "Employee profile",
+    "Microsoft Teams Internal Users group",
+    "Row-level security",
+    "Security groups",
+    "License enforcement"
+  ],
+  "versions": [
+    "21.1",
+    "Update 21.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010525,
+      "pages_in_call": 3
+    }
+  ]
+}

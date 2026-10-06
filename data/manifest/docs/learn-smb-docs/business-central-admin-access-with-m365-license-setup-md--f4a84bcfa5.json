@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c19e928762b023d0683611f96cbeefddfaf32ef9",
       "words": 1205,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:41.419Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.010525
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:43.244Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:43.245Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:43.246Z",
+      "page": false
     }
   },
   "input_hash": "c19e928762b023d0683611f96cbeefddfaf32ef9",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c19e928762b023d0683611f96cbeefddfaf32ef9"
+  "output_hash": "6a9f7c5dfeb1863c2ab73b0da236e596185ca77b9d70c812a81977026c100aaa"
 }

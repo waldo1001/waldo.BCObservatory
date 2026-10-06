@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-onedrive-integration-onpremises.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration-onpremises",
+  "title": "Configuring OneDrive integration with Business Central on-premises",
+  "blob": "083b2c19f78ea1a45e8a19d541a77df3238ef828",
+  "summary": "Configure OneDrive integration with Business Central on-premises by registering an application in Microsoft Entra ID, setting up the connection, and enabling OneDrive features. Use this when deploying on-premises Business Central that needs cloud-based file storage and collaboration.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "onedrive",
+    "sharepoint",
+    "file storage",
+    "cloud integration",
+    "authentication",
+    "microsoft entra id"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "OneDrive Setup"
+    },
+    {
+      "type": "page",
+      "name": "SharePoint Connections Setup"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft SharePoint Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Privacy Notices Status"
+    },
+    {
+      "type": "page",
+      "name": "VAT Group Approved Members"
+    },
+    {
+      "type": "table",
+      "name": "Document Service Scenario"
+    }
+  ],
+  "features": [
+    "OneDrive integration",
+    "file handling configuration",
+    "connection testing",
+    "legacy SharePoint migration",
+    "Entra ID authentication"
+  ],
+  "versions": [
+    "2021 release wave 2 (version 19)",
+    "2022 release wave 1 (version 20)",
+    "2022 release wave 2 (version 21)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005672,
+      "pages_in_call": 8
+    }
+  ]
+}

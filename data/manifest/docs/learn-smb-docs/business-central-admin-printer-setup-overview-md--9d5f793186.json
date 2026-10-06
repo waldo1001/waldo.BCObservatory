@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c486bc03ce1081fa36159cd546b4fc476c4b7673",
       "words": 357,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:35.258Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005672
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:41.423Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:41.424Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:41.425Z",
+      "page": false
     }
   },
   "input_hash": "c486bc03ce1081fa36159cd546b4fc476c4b7673",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c486bc03ce1081fa36159cd546b4fc476c4b7673"
+  "output_hash": "08de5b61e1c40f75505bad66c701410f89181a81e1d45b4bd8cede48337dc357"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a",
       "words": 3031,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:41.420Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.010525
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:43.248Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:43.249Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:43.250Z",
+      "page": false
     }
   },
   "input_hash": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a"
+  "output_hash": "6cb70b5bd22ce43c2fc69d544c6071503da50b004df1c9a677be9aa20970893f"
 }

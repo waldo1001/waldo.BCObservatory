@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-overview",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "869e92a0a255cedfe8407e88ea1436d05ec2ed34",
       "words": 635,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:41.417Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:43.235Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:43.236Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:43.238Z",
+      "page": false
     }
   },
   "input_hash": "869e92a0a255cedfe8407e88ea1436d05ec2ed34",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "869e92a0a255cedfe8407e88ea1436d05ec2ed34"
+  "output_hash": "07faf7cb7665adfc35623a6422d8620c873c7f9b34e8f6d08d3e7accff842e2b"
 }

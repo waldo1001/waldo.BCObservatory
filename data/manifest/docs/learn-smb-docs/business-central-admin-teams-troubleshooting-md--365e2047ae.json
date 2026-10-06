@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-troubleshooting",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
       "words": 1715,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:35.258Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005672
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:41.426Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:41.427Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:41.428Z",
+      "page": false
     }
   },
   "input_hash": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4076615d2ee9053d59c925e4d10335adcde2e4b4"
+  "output_hash": "ca17d8442a8d1415da4cae889f12067e98f127b66631417a35b9e3590c77385c"
 }

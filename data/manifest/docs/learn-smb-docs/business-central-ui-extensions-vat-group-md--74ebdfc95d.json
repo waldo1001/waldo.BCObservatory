@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce",
       "words": 2304,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:35.261Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005672
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:41.437Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:41.438Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:41.439Z",
+      "page": false
     }
   },
   "input_hash": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce",
@@ -85,5 +104,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91cfcea9d8c5966b00df7da06d016f0aad4b62ce"
+  "output_hash": "86f8cf79b35d2e3d7c0033b770bd34934ef512fa06092c3e4443cddb1ad5398a"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
   "published_at": "2026-02-18T13:55:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
       "words": 1805,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:35.259Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005672
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:41.429Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:41.430Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:41.431Z",
+      "page": false
     }
   },
   "input_hash": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4"
+  "output_hash": "1695976be5657c2e0b92cd4484b8d8ac73dd340d2fba713849e1a38939903d6b"
 }

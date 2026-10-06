@@ -1,0 +1,27 @@
+{
+  "video_id": "GM0DNxu39LM",
+  "item_id": "video/yt-microsoft/GM0DNxu39LM",
+  "summary": "E-Documents connectors in Business Central 2025 release wave 1: new Logic and Signup connectors (public preview from 26.0, general availability from 26.1), a Continue connector planned for about 26.2, and installing connectors from AppSource through the E Document Services page.",
+  "overview": "The video covers Microsoft's strategy of offering several globally available e-document connectors so customers can choose one. Earlier releases had Pag and Avalara. Wave 1 2025 adds Logic and Signup, and Continue is expected later.\n\nIt also shows a change in delivery. First-party connectors used to be pre-installed. They are now installed from AppSource, starting from the E Document Services page. The demo then configures a service with provider details. The speaker says all connectors share the same user experience.",
+  "key_points": [
+    "Logic and Signup e-document connectors are available from Business Central 26.0: public preview for 1 month from the April release, then general availability from 26.1.",
+    "A Continue connector is probably coming in 26.2, with code review nearly complete. It will be published on AppSource.",
+    "Earlier releases had Pag and Avalara connectors. Wave 1 2025 adds Logic and Signup.",
+    "Connectors were pre-installed before this release. They are now installed from AppSource, with one click.",
+    "To install, open the E Document Services list page first and browse the Microsoft-published connector apps.",
+    "Setup uses the same interface for every connector, but the details depend on the provider. Logic and Signup need their service provider details.",
+    "Local connectors are available only through AppSource, from local providers."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "0b631445c6fe819d6c0633cec8c93490bb3499bf9c008da11f31edd98d567a80",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013172399999999999
+  }
+}

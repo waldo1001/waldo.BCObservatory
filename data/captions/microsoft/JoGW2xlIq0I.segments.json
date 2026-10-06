@@ -1,0 +1,226 @@
+{
+  "video_id": "JoGW2xlIq0I",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 26.5,
+      "text": "Welcome to Business Center launch event 20125 release wave 1. I want to show you new uh piece of functionality related to value chain and this time I will explain how value chain and scope tree automation impacts your assembly order functionality."
+    },
+    {
+      "t": 26.5,
+      "end": 46.8,
+      "text": "So let's look what we have and what is value chain scope at all. First before we started with value chain we had only sustainability ledger entries for uh final uh environmental impact reporting based to uh to authorities and we could report all entries coming from sustainability journal"
+    },
+    {
+      "t": 46.8,
+      "end": 58.1,
+      "text": "and from this wave from general journal and purchasing voices. This is what we had. But now from this wave we introduce new functionality related to uh value chain. And what does it mean?"
+    },
+    {
+      "t": 58.1,
+      "end": 75.5,
+      "text": "We have now new functionality. We have sustain sustainability value entry. And this is very very similar what we have in the existing value entries inside the business central. But only difference is that value entry is related with the item costs and the sustainability value entry is related with item emissions."
+    },
+    {
+      "t": 75.5,
+      "end": 88,
+      "text": "So everything is started with the purchase document. you will get this first uh incoming emission from purchase documents in this wave only for items. So uh item charge cannot be applied in this wave."
+    },
+    {
+      "t": 88,
+      "end": 106.9,
+      "text": "This is something what we are planning for the future and then all these different internal documents transfer assembly or the production order can have an impact uh what you're doing to your sustainability value entries with a final idea to get all this information on your finished or assembly goods uh on your sales invoice."
+    },
+    {
+      "t": 106.9,
+      "end": 118.7,
+      "text": "In this way, we do not support uh different printouts. We have this information on post sales invoice document. But if you want to to print them, you need to add them manually to your printouts."
+    },
+    {
+      "t": 118.7,
+      "end": 130.6,
+      "text": "In the future, we will see based on your feedback how you would like to have this uh intro introduced in printouts. So in this session, I will be focused on assembly orders."
+    },
+    {
+      "t": 130.6,
+      "end": 151,
+      "text": "And let's see how it impacts. First I want to emphasize all value chain works only with the carbon equivalent. So whatever you enter as your uh beginning on purchase documents if you enter carbon and metan and natrium system will automatically calculate your carbon equivalent based on this emissions and emission fee configuration"
+    },
+    {
+      "t": 151,
+      "end": 161,
+      "text": "and in the future system will use carbon equivalent for all these value chain calculations. Okay. In assembling everything is starting with items and resources."
+    },
+    {
+      "t": 161,
+      "end": 181,
+      "text": "So you can configure your sustainability account and your emissions both of item and resources. And then when you create assembly order all these uh emissions will be transferred to your assembly item and then when you post you will get information on assembly order header calculation and"
+    },
+    {
+      "t": 181,
+      "end": 197.4,
+      "text": "we will use all this information incoming information on uh assembly lines. So this is very easy how system is working. Final solution is final uh result is that we will get sustainability value entry used for calculation"
+    },
+    {
+      "t": 197.4,
+      "end": 213.7,
+      "text": "uh of item emission. In this moment system work only with average method. Okay let's see how it's starting. First you need to start with sustainability setup to find proc procurement fast tab and then you need to enable these default values."
+    },
+    {
+      "t": 213.7,
+      "end": 225.8,
+      "text": "So you will use in purchase documents. You will find default values on items on resources and what is the most important you need to enable value chain tracking field."
+    },
+    {
+      "t": 225.8,
+      "end": 240.2,
+      "text": "Without enabling this one what is important when you post purchase invoice system will create only per uh sustainability ledger entry. If you want to get create a sustainability value entry together, you need to enable you need you must enable this field."
+    },
+    {
+      "t": 240.2,
+      "end": 251.3,
+      "text": "Without enabling system will behave as earlier you will not see any difference in user experience. But when you enable because this completed functionality about value chain is in this moment in public review."
+    },
+    {
+      "t": 251.3,
+      "end": 263.4,
+      "text": "You will get this warning message that our suggestion will be first try this functionality in your sandbox and after you confirm everything work based on your expectation you can switch to production"
+    },
+    {
+      "t": 263.4,
+      "end": 274.4,
+      "text": "environment. Okay, let's look how is working in a practice. We are starting with one item. We will use this item in assembly document and we already have stock."
+    },
+    {
+      "t": 274.4,
+      "end": 287,
+      "text": "We didn't get purchase document and you can see that we have empty fields in all emissions here. So what you can do before that you can uh enter emissions manually."
+    },
+    {
+      "t": 287,
+      "end": 300.6,
+      "text": "Maybe you got a detail emission related to this item by phone by some other sources. You can enter manually and you can run calculate CO2 action. This action applies only if you didn't have a purchase document."
+    },
+    {
+      "t": 300.6,
+      "end": 318.6,
+      "text": "So only if you want to enter information in your already existing items without purchase documents. But once when you create purchase documents system will automatically collect information from your purchase invoice posted purchase invoice and use automatically calculation on your carbon equivalent in the background."
+    },
+    {
+      "t": 318.6,
+      "end": 330.2,
+      "text": "So let's make a look how it's look like in a uh purchase document. When you open our purchase documents, you will get your sustainability account as default defaulted for these items."
+    },
+    {
+      "t": 330.2,
+      "end": 341.8,
+      "text": "And what do you need to do? You need to get uh information about your uh carbon about uh metan. And again, it doesn't need that you need to have all three gas emissions. You can use only carbon if you want."
+    },
+    {
+      "t": 341.8,
+      "end": 359.9,
+      "text": "It depends what you want to track. So okay, you will uh enter all of them or one of them. And then you will post a document one. When you post document, when you open posted purchase invoice, you will find that we have now sustainability ledger entry as earlier and plus sustainability value entry."
+    },
+    {
+      "t": 359.9,
+      "end": 375.1,
+      "text": "When we look in sustainability value entry, you can see as we had two lines on the purchase invoice, we will get two lines here. First line is um uh for uh this item for 60 and another for 10."
+    },
+    {
+      "t": 375.1,
+      "end": 389.1,
+      "text": "So you will get recalculated uh carbon accurate per unit. So everything is here. Okay, you can see all the details and let's switch now back to this item when we had empty values."
+    },
+    {
+      "t": 389.1,
+      "end": 400.6,
+      "text": "And you can see as we had 110 110 and one uh values for gas emissions on our purchase document system used them and already recalculated"
+    },
+    {
+      "t": 400.6,
+      "end": 412,
+      "text": "uh to get carbon equivalent. In my case emission fee is uh carbon equate emission fee is 111. So I wanted to make it easier for you to understand uh final calculation."
+    },
+    {
+      "t": 412,
+      "end": 430.2,
+      "text": "So we just got summarized information in carbon equivalent. So now we can proceed with our assembly order. We have assembly order with these two items we purchase and we have third line with resources and I already set it up the same way as we have in um emissions for this resource."
+    },
+    {
+      "t": 430.2,
+      "end": 449.2,
+      "text": "So everything is already configured before uh I created assembly order. So now you can see we have this uh this new columns total carbo equivalent and this is keep in mind this is total not per unit this is total and then you can look in the quantity and quantity to assembly quantity is 10."
+    },
+    {
+      "t": 449.2,
+      "end": 464,
+      "text": "So this total is related to this 10. This is what we will consume based on our total uh quantity what we are planning to consume to to get uh this final quantity of 10 assembly items."
+    },
+    {
+      "t": 464,
+      "end": 479.5,
+      "text": "But as we have only five, you can remember some of these values. And once when we post it, you will see our total consumption will be less because we didn't consume all this carbon equivalent."
+    },
+    {
+      "t": 479.5,
+      "end": 490.2,
+      "text": "So we consumed only half of that. So this is what system did. System calculated only what is applying for this assembly quantity."
+    },
+    {
+      "t": 490.2,
+      "end": 508.3,
+      "text": "Okay, this is what we uh used in this assembly order. But let's look what we have here. If you look even in our summary, you can find that this is 1,700 something uh carbon a total carbon equivalent uh consume in this assembly order."
+    },
+    {
+      "t": 508.3,
+      "end": 523,
+      "text": "If you click, you can see in our posting uh fast tab, the total uh CO2E is 1,726 and per unit because we produced we assembled five of them."
+    },
+    {
+      "t": 523,
+      "end": 539.9,
+      "text": "This is 345.20 and we already have sustainability account number. So this is what system is doing in the background. system will consume what you have from your assembly lines recalculate and in your new assembly item"
+    },
+    {
+      "t": 539.9,
+      "end": 559.5,
+      "text": "uh will be uh will get a new emission value. If you look now in this item assembly item 1920 25 so if you look there you will see that we have carbo equivalent per unit as I already show you this assembly order fastab 345.20 20."
+    },
+    {
+      "t": 559.5,
+      "end": 577.4,
+      "text": "So this is what we have there. And you can see that other default emissions for carbon, metan are empty because I said we are using only carbon equivalent and they are disabled because you cannot enter either of these values if replenishment tab is"
+    },
+    {
+      "t": 577.4,
+      "end": 589.3,
+      "text": "uh not purchased. So in this case this is assembly order replenishment policy. So you can uh get carbon equivalent per unit only calculated in your assembly orders."
+    },
+    {
+      "t": 589.3,
+      "end": 608.4,
+      "text": "So this is how system is working with uh value chain scope tree automation and assembly orders. Um I am inviting you to watch another sustainability videos because now we have eight sustainability videos in this this busy center launch event but especially three of them related to value chain automation."
+    },
+    {
+      "t": 608.4,
+      "end": 621,
+      "text": "If if you want to understand full scope of value chain scope three automation you should uh watch all three of them. Thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.39,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.4,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1604
+}
