@@ -95,8 +95,12 @@ Deliberate deviations from PLAN, all small:
   BE/NL narratives wired (D31); they appear once 80% of their Learn LocalFunctionality pages are extracted (the
   unlimited run is working through the docs backlog). Next: deprecation radar in the weekly digest (M4), object family
   narratives, Learn reference pages (methods, diagnostics) as object hubs.
-- M3 graph + galaxy home page done (D37); design brief generated (D38, `npm run design:brief`). Waiting on the owner:
-  run Claude Design with docs/brief/PROMPT-design.md, put tokens.json + HANDOFF.md in design/. Then the Astro UI.
+- M3 graph + galaxy home page done (D37); design brief generated (D38). Claude Design handoff in design/ (tokens.json,
+  HANDOFF.md) and applied (D42): tokens as CSS variables, one page skeleton for every page type, version timeline and
+  member change markers on objects, single-column country diff, source flight path, the galaxy (spiral layout, three
+  zoom levels, side panel, keyboard, reduced motion), home and search. Still undesigned (stand-ins in
+  site/src/lib/tokens.ts): light badges, mixed tier, video/blog/roadmap evidence, roadmap status, filters, galaxy
+  level 4 (star to page). A visual pass by the owner on the live site is the next step.
   Source footprints and coverage heatmap done (D39).
 - M4 weekly digest + RSS done (D36).
 - M4 MCP server + plugin done (D35). npm: bc-observatory@0.1.0 published 2026-10-06 (first publish by

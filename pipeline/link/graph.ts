@@ -6,8 +6,9 @@
  * - edges: topic-subtopic (relates), feature-video (demonstrates), object-topic (documents), object-localization
  *   (localizes), extension-base object (extends), video/post-source (authored), page-system (via group)
  * - group = galaxy system: the page's `system`, for objects their namespace (Microsoft.Sales.* -> sales)
- * - layout: d3-force with fixed start positions around each system's centre and a fixed number of ticks, so the same
- *   input gives the same picture night after night (`layout: d3-force@seed:42`)
+ * - layout: system centres on a two-arm spiral with seeded jitter (design/tokens.json galaxy.systemLayout, D42), then
+ *   d3-force with fixed start positions around each system's centre and a fixed number of ticks, so the same input
+ *   gives the same picture night after night (`layout: spiral+d3-force@seed:42`)
  *
  * Writes data/graph/summary.json (systems + summary nodes with x/y, ≤ ~500 KB), data/graph/full.jsonl (every edge) and
  * data/graph/ego/<node id>.json (one hop) for the summary nodes. Rewritten only when the graph changes.
@@ -23,7 +24,9 @@ import { objectSystem } from "../lib/systems.js";
 export { objectSystem };
 
 export const TOP_OBJECTS = 300;
-export const LAYOUT = "d3-force@seed:42";
+export const LAYOUT = "spiral+d3-force@seed:42";
+/** World units per design unit: the handoff's spiral (r = 85 + 30k) scaled so neighbouring systems keep ~200 apart. */
+const SPIRAL_SCALE = 4.5;
 const TICKS = 300;
 
 export interface GNode extends SimulationNodeDatum { id: string; type: string; label: string; tier: string; group: string; weight: number; url: string; lit_at: string | null; x?: number; y?: number }
@@ -93,11 +96,25 @@ export function summaryNodes(g: Graph): Set<string> {
   return keep;
 }
 
-/** Deterministic force layout: systems on a ring, nodes start near their system by hash, fixed tick count. */
+/**
+ * System centres on a two-arm spiral (HANDOFF 5): k = i >> 1, r = 85 + 30k (±10), angle = (i % 2)·π + 0.55k − 0.6
+ * (±0.15), y squashed by 0.8. The jitter comes from a hash of the system id, so it is stable. Taxonomy order decides
+ * who sits near the core.
+ */
+export function spiral(ids: string[]): { x: number; y: number }[] {
+  return ids.map((id, i) => {
+    const k = i >> 1, h = h32(`spiral:${id}`);
+    const jr = ((h % 2001) / 1000 - 1) * 10, ja = (((h >>> 11) % 2001) / 1000 - 1) * 0.15;
+    const r = (85 + 30 * k + jr) * SPIRAL_SCALE, a = (i % 2) * Math.PI + 0.55 * k - 0.6 + ja;
+    return { x: Math.round(r * Math.cos(a)), y: Math.round(r * Math.sin(a) * 0.8) };
+  });
+}
+
+/** Deterministic force layout: systems on the spiral, nodes start near their system by hash, fixed tick count. */
 export function layout(g: Graph, keep: Set<string>): Graph {
-  const R = 1000;
   const sys = g.systems;
-  sys.forEach((s, i) => { const a = (2 * Math.PI * i) / sys.length; s.x = Math.round(R * Math.cos(a)); s.y = Math.round(R * Math.sin(a)); });
+  const centres = spiral(sys.map((s) => s.id));
+  sys.forEach((s, i) => { s.x = centres[i].x; s.y = centres[i].y; });
   const centre = new Map(sys.map((s) => [s.id, s]));
   const nodes = g.nodes.filter((n) => keep.has(n.id)).map((n) => {
     const c = centre.get(n.group) ?? { x: 0, y: 0 };
@@ -119,8 +136,8 @@ export function layout(g: Graph, keep: Set<string>): Graph {
   for (const s of sys) {
     const mine = nodes.filter((n) => n.group === s.id);
     const d = mine.map((n) => Math.hypot(n.x! - s.x, n.y! - s.y)).sort((a, b) => a - b);
-    // 90th percentile (outliers do not inflate it), capped so neighbouring systems on the ring never overlap
-    const cap = R * Math.sin(Math.PI / sys.length) * 0.95;
+    // 90th percentile (outliers do not inflate it), capped so neighbouring systems never overlap
+    const cap = 0.45 * Math.min(...sys.filter((o) => o !== s).map((o) => Math.hypot(o.x - s.x, o.y - s.y)));
     s.r = d.length ? Math.round(Math.min(cap, d[Math.floor(d.length * 0.9)] + 20)) : 0;
   }
   const placed = new Map(nodes.map((n) => [n.id, n]));

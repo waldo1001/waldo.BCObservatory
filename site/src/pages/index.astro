@@ -1,123 +1,109 @@
 ---
 import { getCollection } from "astro:content";
-import { latestRun, pillarCounts } from "../lib/state";
-const videos = (await getCollection("videos")).sort((a, b) => String(b.data.published_at ?? "").localeCompare(String(a.data.published_at ?? "")));
-const run = latestRun();
-const pillars = pillarCounts();
+import Base from "../layouts/Base.astro";
+import Galaxy from "../components/Galaxy.astro";
+import Badges from "../components/Badges.astro";
+import { latestRun } from "../lib/state";
+import { pageSystem, systemLabel } from "../lib/page";
+const [topics, features, objects, localizations, videos, posts, digests, sources] = await Promise.all(
+  ["topics", "features", "objects", "localizations", "videos", "posts", "digests", "sources"].map((c) => getCollection(c as any)),
+);
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
+const run = latestRun();
+const digest = [...digests].sort((a, b) => b.id.localeCompare(a.id))[0];
+// newly lit: the newest videos and posts
+const dated = [...videos.map((e) => ({ e, dir: "videos" })), ...posts.map((e) => ({ e, dir: "posts" }))]
+  .filter(({ e }) => e.data.published_at).sort((a, b) => String(b.e.data.published_at).localeCompare(String(a.e.data.published_at))).slice(0, 6);
+const n = (x: number) => x.toLocaleString("en");
+const sections = [
+  { id: "topics", label: "Topic hubs", count: topics.length, text: "Seeded from the Microsoft Learn tables of contents. What Learn documents per topic, linked to Learn." },
+  { id: "objects", label: "AL objects", count: objects.length, text: "Every W1 and first-party app object of BC28 to BC30, from the code: fields, events, procedures, versions, countries." },
+  { id: "localizations", label: "Localizations", count: localizations.length, text: "What each country layer adds to or changes in W1, down to the field." },
+  { id: "features", label: "Roadmap", count: features.length, text: "Business Central on the Microsoft 365 roadmap, with the videos and Learn pages that cover each feature." },
+  { id: "videos", label: "Videos", count: videos.length, text: "Sessions as timestamped evidence: chapters, key points, quotes that deep-link to the second." },
+  { id: "posts", label: "Community posts", count: posts.length, text: "Blog posts as derived summaries with short quotes and a link to the original." },
+  { id: "digests", label: "Weekly", count: digests.length, text: "What changed each week, with a deprecation radar. Also as RSS." },
+  { id: "sources", label: "Sources", count: sources.length, text: "Each blog and channel with its footprint and flight path through the galaxy." },
+];
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BC Observatory</title>
-    <meta name="description" content="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central." />
-    <link rel="alternate" type="text/plain" href={`${base}llms.txt`} title="llms.txt" />
-  </head>
-  <body>
-    <main>
-      <p class="eyebrow">Milestone M3 · the galaxy</p>
-      <h1>BC Observatory</h1>
-      <p class="lede">
-        Official docs, source code, guidelines, videos and community blogs about Microsoft Dynamics 365 Business Central,
-        woven into one cross-referenced knowledge base for AI agents first and people right after.
+<Base title="BC Observatory" description="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, rebuilt every night.">
+  <main>
+    <section class="wrap hero">
+      <p class="type-label">unofficial, made by waldo · rebuilt every night</p>
+      <h1 class="display">BC Observatory</h1>
+      <p class="lead">
+        Business Central from every angle at once: Microsoft Learn, the actual code, the roadmap, the sessions and the community
+        blogs, woven into one knowledge base. Every claim points at its evidence. Built for AI agents first, and for you.
       </p>
-      <section class="galaxy-wrap">
-        <canvas id="galaxy" data-base={base} aria-label="Galaxy map of Business Central: systems, topics, features, objects, localizations and sources"></canvas>
-        <p class="meta" id="galaxy-tip">Systems are domains; stars are topic hubs, roadmap features, the most connected AL objects, localizations and sources. Drag to pan, scroll to zoom, click a star to open its page.</p>
-      </section>
-      <section>
-        <h2>Sections</h2>
-        <ul>
-          <li><a href={`${base}topics/`}>Topics</a> · <a href={`${base}features/`}>Features</a> · <a href={`${base}objects/`}>AL objects</a> · <a href={`${base}localizations/`}>Localizations</a> · <a href={`${base}videos/`}>Videos</a> · <a href={`${base}posts/`}>Posts</a> · <a href={`${base}digests/`}>Weekly</a> (<a href={`${base}rss.xml`}>RSS</a>)</li>
-          <li>Agents: <a href={`${base}llms.txt`}>llms.txt</a>, or the MCP server <code>npx bc-observatory</code></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Pipeline</h2>
-        {run ? (
-          <p>Last nightly <strong>{run.date}</strong>: {run.status}, guard {run.guard.decision}, {run.items_changed} items new or changed, {run.plan.work} queued for processing.</p>
-        ) : (
-          <p>No nightly run has been committed yet.</p>
-        )}
-        {pillars.length > 0 && (
-          <table>
-            <thead><tr><th scope="col">Pillar</th><th scope="col">Items tracked</th></tr></thead>
-            <tbody>{pillars.map((p) => <tr><td>{p.pillar}</td><td>{p.items.toLocaleString("en")}</td></tr>)}</tbody>
-          </table>
-        )}
-      </section>
-      {videos.length > 0 && (
-        <section>
-          <h2>Latest videos</h2>
-          <ul>{videos.slice(0, 5).map((v) => <li><a href={`${base}videos/${v.id}/`}>{v.data.title}</a></li>)}</ul>
-          <p><a href={`${base}videos/`}>All {videos.length} videos</a></p>
-        </section>
-      )}
-      <section>
-        <h2>Follow along</h2>
-        <ul>
-          <li><a href={repo}>Repository</a> (code MIT, content CC BY 4.0)</li>
-          <li><a href={`${repo}/blob/main/AGENTS.md`}>AGENTS.md</a>: how agents use this knowledge base</li>
-          <li><a href={`${repo}/blob/main/docs/PLAN.md`}>The plan</a> and <a href={`${repo}/blob/main/sources.yaml`}>the source registry</a></li>
-        </ul>
-      </section>
-    </main>
-    <script is:inline>
-      (async () => {
-        const c = document.getElementById("galaxy"); if (!c) return;
-        const base = c.dataset.base || "/";
-        const g = await (await fetch(`${base}graph/summary.json`)).json();
-        if (!g.nodes || !g.nodes.length) return;
-        const ctx = c.getContext("2d"), dpr = window.devicePixelRatio || 1;
-        const hue = new Map(g.systems.map((s, i) => [s.id, Math.round((360 * i) / g.systems.length)]));
-        const urlOf = (n) => n.url ?? `${n.id.slice(0, n.id.indexOf("/"))}s/${n.id.slice(n.id.indexOf("/") + 1)}/`;
-        const xs = g.nodes.map((n) => n.x), ys = g.nodes.map((n) => n.y);
-        const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-        let scale = 1, ox = 0, oy = 0, hover = null;
-        const fit = () => { const w = c.clientWidth, h = c.clientHeight; c.width = w * dpr; c.height = h * dpr; scale = Math.min(w / (maxX - minX + 80), h / (maxY - minY + 80)); ox = w / 2 - scale * (minX + maxX) / 2; oy = h / 2 - scale * (minY + maxY) / 2; };
-        const P = (x, y) => [x * scale + ox, y * scale + oy];
-        const dark = matchMedia("(prefers-color-scheme: dark)").matches;
-        const draw = () => {
-          ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, c.width, c.height);
-          for (const s of g.systems) { const [x, y] = P(s.x, s.y); ctx.beginPath(); ctx.arc(x, y, Math.max(8, s.r * scale), 0, 7); ctx.fillStyle = `hsla(${hue.get(s.id)},60%,${dark ? 30 : 85}%,.18)`; ctx.fill();
-            ctx.fillStyle = dark ? "#c8c8d8" : "#44445a"; ctx.font = "12px system-ui"; ctx.textAlign = "center"; ctx.fillText(s.label, x, y - Math.max(8, s.r * scale) * 0.8); }
-          const pos = new Map(g.nodes.map((n) => [n.id, P(n.x, n.y)]));
-          ctx.strokeStyle = dark ? "rgba(200,200,255,.06)" : "rgba(40,40,90,.06)"; ctx.lineWidth = 1;
-          for (const e of g.edges) { const a = pos.get(e.s), b = pos.get(e.t); if (!a || !b) continue; ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke(); }
-          for (const n of g.nodes) { const [x, y] = pos.get(n.id); const r = Math.max(1.5, Math.min(9, Math.sqrt(n.weight) * .8)) * Math.sqrt(scale * 2);
-            ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fillStyle = `hsl(${hue.get(n.group) ?? 0},${n.tier === "community" ? 45 : 70}%,${dark ? 65 : 45}%)`; ctx.fill();
-            if (n === hover) { ctx.strokeStyle = dark ? "#fff" : "#000"; ctx.stroke(); } }
-          if (hover) { const [x, y] = pos.get(hover.id); ctx.fillStyle = dark ? "#fff" : "#000"; ctx.font = "13px system-ui"; ctx.textAlign = "left"; ctx.fillText(`${hover.label} (${hover.type})`, x + 10, y - 10); }
-        };
-        const nodeAt = (mx, my) => { let best = null, bd = 144; for (const n of g.nodes) { const [x, y] = P(n.x, n.y); const d = (x - mx) ** 2 + (y - my) ** 2; if (d < bd) { bd = d; best = n; } } return best; };
-        let drag = null;
-        c.addEventListener("mousedown", (e) => { drag = { x: e.offsetX, y: e.offsetY, ox, oy, moved: false }; });
-        addEventListener("mouseup", () => { setTimeout(() => (drag = null)); });
-        c.addEventListener("mousemove", (e) => { if (drag) { ox = drag.ox + e.offsetX - drag.x; oy = drag.oy + e.offsetY - drag.y; drag.moved ||= Math.abs(e.offsetX - drag.x) + Math.abs(e.offsetY - drag.y) > 4; } else hover = nodeAt(e.offsetX, e.offsetY); c.style.cursor = hover ? "pointer" : "grab"; draw(); });
-        c.addEventListener("click", (e) => { if (drag?.moved) return; const n = nodeAt(e.offsetX, e.offsetY); if (n && n.type !== "source") location.href = base + urlOf(n); else if (n?.url) location.href = n.url; });
-        c.addEventListener("wheel", (e) => { e.preventDefault(); const k = Math.exp(-e.deltaY * .0015); ox = e.offsetX - (e.offsetX - ox) * k; oy = e.offsetY - (e.offsetY - oy) * k; scale *= k; draw(); }, { passive: false });
-        addEventListener("resize", () => { fit(); draw(); });
-        fit(); draw();
-      })();
-    </script>
-    <style is:global>
-      :root { color-scheme: light dark; --bg: #fbfbfd; --fg: #1d1d22; --muted: #5b5b66; --line: #e2e2ea; --accent: #3a5bd9; }
-      @media (prefers-color-scheme: dark) { :root { --bg: #0d0f17; --fg: #e9e9f0; --muted: #a0a0b2; --line: #262a3a; --accent: #8ea6ff; } }
-      body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-      main { max-width: 42rem; margin: 0 auto; padding: 4rem 1rem; }
-      .galaxy-wrap { margin: 2rem calc(50% - 50vw) 0; padding: 0 1rem; }
-      #galaxy { width: 100%; height: min(78vh, 900px); display: block; border: 1px solid var(--line); border-radius: 12px; cursor: grab; }
-      #galaxy-tip { max-width: 42rem; margin: .5rem auto 0; }
-      .eyebrow { color: var(--muted); font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin: 0; }
-      h1 { font-size: 2.4rem; margin: .25rem 0 1rem; }
-      h2 { font-size: 1.1rem; margin-top: 2.5rem; }
-      .lede { font-size: 1.15rem; color: var(--muted); }
-      a { color: var(--accent); }
-      table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
-      th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--line); }
-      td:last-child, th:last-child { text-align: right; }
-    </style>
-  </body>
-</html>
+      <ul class="stats">
+        <li><a href={`${base}objects/`}><b>{n(objects.length)}</b>AL objects</a></li>
+        <li><a href={`${base}topics/`}><b>{n(topics.length)}</b>topic hubs</a></li>
+        <li><a href={`${base}localizations/`}><b>{n(localizations.length)}</b>localizations</a></li>
+        <li><a href={`${base}features/`}><b>{n(features.length)}</b>roadmap features</a></li>
+        <li><a href={`${base}videos/`}><b>{n(videos.length)}</b>videos</a></li>
+        <li><a href={`${base}posts/`}><b>{n(posts.length)}</b>community posts</a></li>
+      </ul>
+      <div class="actions">
+        <a class="btn primary" href="#galaxy">Explore the galaxy</a>
+        <a class="btn" href={`${base}search/`}>Search</a>
+        <a class="btn mono" href={`${base}llms.txt`}>llms.txt</a>
+      </div>
+    </section>
+
+    <div id="galaxy"><Galaxy /></div>
+    <p class="wrap meta g-help">Systems are domains, stars are hubs (topics, roadmap features, the most connected AL objects, localizations, sources). Click a system to fly in, a star for its connections. Esc goes back out; the arrow keys step through systems.</p>
+
+    <section class="wrap block" aria-labelledby="lit">
+      <h2 class="section-title" id="lit">Newly lit {digest && <small><a href={`${base}digests/${digest.id}/`}>{digest.id}</a></small>}</h2>
+      {digest && <p class="meta">{digest.data.summary}</p>}
+      <ul class="rows">
+        {dated.map(({ e, dir }) => {
+          const sys = pageSystem(e.data);
+          return (
+            <li>
+              <a class="row-title" href={`${base}${dir}/${e.id}/`}>{e.data.title}</a>
+              <span class="row-meta">
+                <span class="mono-meta">{String(e.data.published_at).slice(0, 10)}</span>
+                <span class="type-label">{dir === "videos" ? "video" : "community post"}</span>
+                {sys && <span class="chip-sys" style={`--dot: var(--sys-${sys})`}>{systemLabel(sys)}</span>}
+                <Badges tier={e.data.tier} />
+                <span class="mono-meta">{e.data.source_name ?? ""}</span>
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section class="wrap block" aria-labelledby="sections">
+      <h2 class="section-title" id="sections">Sections</h2>
+      <ul class="cards">
+        {sections.map((s) => <li><a href={`${base}${s.id}/`}><b>{s.label}</b><span class="mono-meta">{n(s.count)}</span><p>{s.text}</p></a></li>)}
+      </ul>
+    </section>
+
+    <section class="wrap block agents" aria-labelledby="agents">
+      <h2 class="section-title" id="agents">For your agent</h2>
+      <p>Every page has a markdown twin, every section an <a href={`${base}llms.txt`}>llms.txt</a>, and there is an MCP server over the same files.</p>
+      <pre><code>claude mcp add bc-observatory -- npx -y bc-observatory@latest
+claude plugin marketplace add waldo1001/waldo.BCObservatory</code></pre>
+      <p class="meta">
+        {run ? <>Last nightly {run.date}: {run.status}, {n(run.items_changed)} items new or changed. </> : null}
+        Open source: <a href={repo}>the repository</a>, <a href={`${repo}/blob/main/AGENTS.md`}>AGENTS.md</a>, <a href={`${repo}/blob/main/sources.yaml`}>the source registry</a>.
+      </p>
+    </section>
+  </main>
+</Base>
+<style>
+  .hero { padding-top: 48px; padding-bottom: 32px; }
+  .display { font-size: clamp(44px, 8vw, 88px); line-height: .95; letter-spacing: -0.035em; margin: 12px 0 20px; }
+  .g-help { margin-top: 10px; }
+  .block { margin-top: var(--section-gap-home); }
+  .cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .cards a { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; height: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); color: var(--text); text-decoration: none; }
+  .cards a:hover { border-color: var(--line-strong); }
+  .cards b { font-size: 17px; }
+  .cards p { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: 14px; }
+  .agents pre { max-width: 760px; }
+</style>

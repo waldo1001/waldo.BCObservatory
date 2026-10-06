@@ -217,4 +217,6 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   tokens.json. Dark first, light on `prefers-color-scheme` or the header toggle. Fonts are self-hosted through
   Fontsource (Bricolage Grotesque, JetBrains Mono). One name: "BC Observatory" (owner, 2026-10-06), no second
   "Business Central Galaxy" title. Every information page shares the handoff's skeleton (`layouts/Page.astro`), and
-  the markdown body stays the main column, so the page and its markdown twin never diverge.
+  the markdown body stays the main column, so the page and its markdown twin never diverge. The galaxy's system
+  centres follow the handoff's two-arm spiral (taxonomy order from the core, seeded jitter, `SPIRAL_SCALE` 4.5 so
+  neighbours keep apart); zoom levels are fitted to each system's radius instead of the prototype's fixed 4.4 / 8.

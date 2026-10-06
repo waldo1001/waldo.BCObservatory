@@ -1,0 +1,74 @@
+---
+/**
+ * The galaxy (HANDOFF 5). `compact`: the home band, where a click opens the full galaxy instead of zooming in place.
+ * The canvas is drawn by scripts/galaxy.ts from graph/summary.json.
+ */
+interface Props { compact?: boolean; height?: string; label?: string }
+const { compact = false, height = "min(78vh, 860px)", label = "Galaxy map of Business Central" } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<section class:list={["galaxy", { compact }]} data-base={base} data-compact={String(compact)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
+  <canvas aria-hidden="true"></canvas>
+  <div class="g-labels"></div>
+  <div class="g-tip" hidden></div>
+  <nav class="g-crumbs" aria-label="Galaxy position"></nav>
+  <div class="g-nav">
+    <button type="button" class="icon-btn" data-g-prev hidden aria-label="Previous system">←</button>
+    <button type="button" class="icon-btn" data-g-next hidden aria-label="Next system">→</button>
+  </div>
+  <p class="g-level mono-meta" aria-live="polite"></p>
+  <aside class="g-panel" hidden aria-label="Galaxy details"></aside>
+  <noscript><p class="g-noscript">The galaxy needs JavaScript. Browse by section instead: <a href={`${base}topics/`}>topics</a>, <a href={`${base}objects/`}>AL objects</a>, <a href={`${base}features/`}>roadmap</a>.</p></noscript>
+</section>
+<script>
+  import { mountGalaxy } from "../scripts/galaxy";
+  for (const el of document.querySelectorAll<HTMLElement>("section.galaxy")) mountGalaxy(el);
+</script>
+<style>
+  .galaxy { position: relative; height: var(--g-h); overflow: hidden; background: var(--g-bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); outline: none; }
+  .galaxy canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .g-labels { position: absolute; inset: 0; pointer-events: none; }
+  .galaxy :global(.g-sys) {
+    position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap;
+    display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; min-height: 28px;
+    font: 600 12px var(--font-ui); color: var(--text); background: color-mix(in srgb, var(--g-bg) 70%, transparent);
+    border: 1px solid transparent; border-radius: var(--r-badge); transition: opacity 600ms;
+  }
+  .galaxy :global(.g-sys::before) { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot); }
+  .galaxy :global(.g-sys:hover), .galaxy :global(.g-sys:focus-visible) { border-color: var(--line-strong); }
+  .galaxy :global(.g-sys.dim) { opacity: .4; }
+  .galaxy :global(.g-star-label), .g-tip {
+    position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap; max-width: 260px; overflow: hidden; text-overflow: ellipsis;
+    font: 600 12px var(--font-ui); color: var(--text); background: color-mix(in srgb, var(--g-bg) 80%, transparent); padding: 2px 6px; border-radius: var(--r-badge);
+  }
+  .g-crumbs { position: absolute; left: 16px; top: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); max-width: calc(100% - 32px); }
+  .g-crumbs :global(button) { background: none; border: 0; padding: 4px 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .g-crumbs :global([aria-current]) { color: var(--text); }
+  .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
+  .g-nav .icon-btn { background: var(--surface); }
+  .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; }
+  .g-panel {
+    position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; overflow-y: auto; padding: 56px 20px 20px;
+    background: color-mix(in srgb, var(--surface) 94%, transparent); border-left: 1px solid var(--line);
+    animation: g-slide var(--t-panel) var(--ease-fly);
+  }
+  @keyframes g-slide { from { transform: translateX(40px); opacity: 0; } }
+  .g-panel :global(h2) { font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin: 4px 0 8px; outline: none; }
+  .g-panel :global(h3) { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 20px 0 8px; }
+  .g-panel :global(.g-kicker) { font: 500 12px var(--font-mono); margin: 0; }
+  .g-panel :global(.g-meta) { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .g-panel :global(.g-list) { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  .g-panel :global(.g-list button) {
+    width: 100%; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; min-height: 36px;
+    background: none; border: 0; border-radius: var(--r-card); padding: 6px 8px; color: var(--text); font: 400 14px var(--font-ui); cursor: pointer;
+  }
+  .g-panel :global(.g-list button:hover) { background: var(--surface-raised); }
+  .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
+  .g-panel :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
+  .compact .g-panel, .compact .g-nav, .compact .g-level, .compact .g-crumbs { display: none; }
+  .g-noscript { position: absolute; inset: auto 16px 16px; }
+  @media (max-width: 720px) {
+    .g-panel { top: auto; height: 55%; width: 100%; border-left: 0; border-top: 1px solid var(--line); padding-top: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .g-panel { animation: none; } }
+</style>
