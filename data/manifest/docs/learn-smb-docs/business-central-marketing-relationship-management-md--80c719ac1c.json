@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "416ba1080ef39063683c896b8b579bc717aae128",
       "words": 279,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:21.952Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003362
     }
   },
   "input_hash": "416ba1080ef39063683c896b8b579bc717aae128",
@@ -39,5 +46,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "416ba1080ef39063683c896b8b579bc717aae128"
+  "output_hash": "4b685a4560668da672e38fcd26c6866b69bffc79dc55f71c554f140c1bac7094"
 }

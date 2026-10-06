@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-integrate-dynamicscrm.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm",
+  "title": "Manage customers using Dynamics 365 Sales",
+  "blob": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",
+  "summary": "Integrate Dynamics 365 Sales with Business Central to synchronize customer data, handle sales orders and quotes, manage pricing, and track invoices and payments across both platforms.",
+  "systems": [
+    "crm",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "dynamics 365 sales integration",
+    "data synchronization",
+    "sales orders",
+    "quotes",
+    "pricing",
+    "invoices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customers list"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders - Dynamics 365 for Sales"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quotes - Dynamics 365 Sales"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Sales Price List"
+    }
+  ],
+  "features": [
+    "sales order synchronization",
+    "quote processing",
+    "pricing synchronization",
+    "invoice creation",
+    "customer coupling",
+    "full synchronization",
+    "job queue scheduling"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003362,
+      "pages_in_call": 8
+    }
+  ]
+}

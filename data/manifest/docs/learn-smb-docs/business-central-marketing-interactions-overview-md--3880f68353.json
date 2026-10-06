@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions-overview",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "3f28575f07856b079e677c8084323f0696d5fc60",
       "words": 142,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:21.950Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003362
     }
   },
   "input_hash": "3f28575f07856b079e677c8084323f0696d5fc60",
@@ -38,5 +45,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f28575f07856b079e677c8084323f0696d5fc60"
+  "output_hash": "99c8551781451b7bcea0c7d55c772c87e38ae27c079844360f328e14de14b114"
 }

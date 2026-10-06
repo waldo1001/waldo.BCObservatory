@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-how-setup-opportunity-sales-cycles-stages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages",
+  "title": "Set up opportunity sales cycles and cycle stages",
+  "blob": "50b4bba346156612abce41b888436bfa1f112f79",
+  "summary": "Set up opportunity sales cycles and cycle stages to manage the progression of sales opportunities through defined stages, with support for activity tasks and interactions.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "sales opportunities",
+    "sales cycles",
+    "stages",
+    "activities",
+    "tasks",
+    "contacts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Cycles"
+    },
+    {
+      "type": "page",
+      "name": "Sales Cycle Stages"
+    },
+    {
+      "type": "page",
+      "name": "Opportunities"
+    },
+    {
+      "type": "page",
+      "name": "Activities"
+    },
+    {
+      "type": "page",
+      "name": "Task List"
+    }
+  ],
+  "features": [
+    "sales cycles",
+    "cycle stages",
+    "opportunity tracking",
+    "activities",
+    "task assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003362,
+      "pages_in_call": 8
+    }
+  ]
+}

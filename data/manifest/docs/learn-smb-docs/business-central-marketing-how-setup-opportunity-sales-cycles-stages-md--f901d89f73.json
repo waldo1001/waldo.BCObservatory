@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "50b4bba346156612abce41b888436bfa1f112f79",
       "words": 627,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:20.200Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003362
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:21.955Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:21.955Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:21.956Z",
+      "page": false
     }
   },
   "input_hash": "50b4bba346156612abce41b888436bfa1f112f79",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "50b4bba346156612abce41b888436bfa1f112f79"
+  "output_hash": "a114f12bab38c8da963fdd6592a2a6e742d392a910a56e52ee7d61e2a0264b42"
 }

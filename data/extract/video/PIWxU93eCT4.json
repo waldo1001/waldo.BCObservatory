@@ -1,0 +1,162 @@
+{
+  "video_id": "PIWxU93eCT4",
+  "item_id": "video/yt-microsoft/PIWxU93eCT4",
+  "title": "What's Cooking in Business Central: Edit Sales Price Lists in Excel",
+  "duration_s": 191,
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales price lists",
+    "excel integration",
+    "edit prices",
+    "feature management",
+    "2025 wave 1",
+    "community contribution"
+  ],
+  "chapters": [
+    {
+      "title": "What's Cooking in Business Central series introduction",
+      "t_start": 0,
+      "t_end": 33.6
+    },
+    {
+      "title": "Series format and episode preview",
+      "t_start": 33.6,
+      "t_end": 56.9
+    },
+    {
+      "title": "Enabling the edit sales price list feature",
+      "t_start": 56.9,
+      "t_end": 78.4
+    },
+    {
+      "title": "Creating and testing a sales price list rule",
+      "t_start": 78.4,
+      "t_end": 110.9
+    },
+    {
+      "title": "Demonstrating the new edit in Excel button",
+      "t_start": 110.9,
+      "t_end": 131.8
+    },
+    {
+      "title": "Editing prices in Excel and syncing changes",
+      "t_start": 131.8,
+      "t_end": 151.4
+    },
+    {
+      "title": "Feature origin and open source contribution",
+      "t_start": 151.4,
+      "t_end": 191
+    }
+  ],
+  "features": [
+    {
+      "name": "Edit sales price list in Excel",
+      "description": "A new capability to edit sales price lists directly in Excel with automatic syncing of data between Business Central and Excel spreadsheets.",
+      "status": "ga",
+      "status_evidence_t": 56.9,
+      "status_evidence_quote": "which will ship with businessle 2025 Wave 1",
+      "status_evidence_verified": true,
+      "t_start": 56.9,
+      "t_end": 151.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales price lists",
+        "excel",
+        "bulk editing",
+        "pricing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "New sales price experience",
+      "description": "A feature in the feature management system that enables the new sales price list editing capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.9,
+      "t_end": 78.4,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled via feature management"
+      ],
+      "tags": [
+        "feature management",
+        "sales pricing"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "sales press list",
+      "t": 78.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "stepan Sage",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 56.9,
+      "text": "edit sales price list in Excel capability which will ship with businessle 2025 Wave 1",
+      "why_it_matters": "Establishes the release timeline and name of the feature being demonstrated.",
+      "check": "exact"
+    },
+    {
+      "t": 110.9,
+      "text": "if we go up here you will see a new button edit in Excel which wasn't there previously",
+      "why_it_matters": "Highlights the new user interface element that enables the core functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 131.8,
+      "text": "how it syns our data from business Central to excel",
+      "why_it_matters": "Demonstrates the bidirectional data synchronization between systems.",
+      "check": "exact"
+    },
+    {
+      "t": 151.4,
+      "text": "this was highly requested on bcas 151 votes",
+      "why_it_matters": "Shows customer demand and community-driven feature prioritization.",
+      "check": "exact"
+    },
+    {
+      "t": 171.5,
+      "text": "stepan Sage uh took the opportunity and took on this task wrote the code that is necessary to enable this feature",
+      "why_it_matters": "Credits the open source contributor who implemented the community-requested feature.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 56.9,
+      "kind": "preview",
+      "text": "will ship with businessle 2025 Wave 1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009888000000000001
+    }
+  ]
+}

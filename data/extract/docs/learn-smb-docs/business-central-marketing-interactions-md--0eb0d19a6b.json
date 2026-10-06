@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-interactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions",
+  "title": "Manage interactions with your contacts",
+  "blob": "733c1bfef6d2674268503a4bb6553d16604ee803",
+  "summary": "Record, manage, and view interactions with contacts using interaction templates, including manual creation, automatic recording for documents, and interaction log entries.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "interactions",
+    "contacts",
+    "interaction templates",
+    "communication",
+    "logging"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Interaction Templates"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Log Entries"
+    }
+  ],
+  "features": [
+    "interaction templates",
+    "manual interaction recording",
+    "automatic interaction recording",
+    "interaction attachments",
+    "interaction management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003362,
+      "pages_in_call": 8
+    }
+  ]
+}

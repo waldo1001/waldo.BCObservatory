@@ -1,0 +1,63 @@
+{
+  "video_id": "PIWxU93eCT4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.8,
+      "end": 21,
+      "text": "welcome to the first ever episode of what's cooking in business Central in the series The Business Central developers themselves both internal and external we'll present some of the latest product additions shipping with the upcoming major release yes because during the business central two major release events a lot of information is being shared and it can"
+    },
+    {
+      "t": 21,
+      "end": 33.6,
+      "text": "sometimes be difficult to spot some of the smaller improvements that we've made but with what's cooking our developers get to Showcase their features right after completion hopefully spot some excitement what's about to come your"
+    },
+    {
+      "t": 33.6,
+      "end": 53.3,
+      "text": "way every week we hope to offer you a glimpse of what's cooking in business Central celebrate the completion of features with us take them for a spin our public previews and let us know what you think about our latest work are you ready welcome to what"
+    },
+    {
+      "t": 56.9,
+      "end": 78.4,
+      "text": "cooking for this first demo let's look into the edit sales price list in Excel capability which will ship with businessle 2025 Wave 1 for this demo we need to make sure that the feature is enabled so we go into feature management we find our feature new sales price experience and we see that it is"
+    },
+    {
+      "t": 78.4,
+      "end": 98.5,
+      "text": "enabled now let's try out if the feature works so we go to sales press list and we addit our existing default sales press list and for the sake of this demo let's just say that if you sell more than 10 ath desks the price will be reduced from 1,000 to 800 verify that the lines are okay done"
+    },
+    {
+      "t": 98.5,
+      "end": 110.9,
+      "text": "let's quickly give this a try let's go into a sales invoice and um there we go let's add our Essence"
+    },
+    {
+      "t": 110.9,
+      "end": 131.8,
+      "text": "desk uh and if we have8 eth desks the price is 1,000 if we adjust that to 10 we see that it's now discounted to 800 so everything works as it's supposed to nothing new so far but now if we go up here you will see a new button edit in Excel which wasn't there previously let's click on that"
+    },
+    {
+      "t": 131.8,
+      "end": 151.4,
+      "text": "so now it will create our Excel spreadsheet how it syns our data from business Central to excel there we have our line and we can find our unit price let's just say we reduce it further we only want to charge 700 so now if we publish this this price"
+    },
+    {
+      "t": 151.4,
+      "end": 171.5,
+      "text": "and we go back and we will quickly refresh our browser here we'll see that the price was updated to 700 so this makes it easier to edit prices now this was highly requested on bcas 151 votes uh and it was also mentioned that this could be an open source contribution on GitHub that it was open"
+    },
+    {
+      "t": 171.5,
+      "end": 191,
+      "text": "for that and actually stepan Sage uh took the opportunity and took on this task wrote the code that is necessary to enable this feature and next thing you know this thing ships with 2025 wave 1 thanks for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 53.6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 490
+}

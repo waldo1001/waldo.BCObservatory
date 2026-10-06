@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-interaction-segments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments",
+  "title": "Keep track of segments and related interactions",
+  "blob": "d2c986bf998d8aae6d724d6d7e7827755b4eb2f1",
+  "summary": "Create and manage segments to group contacts by criteria, log interactions with segment members, and record marketing and sales communications for tracking purposes.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "segments",
+    "contacts",
+    "interactions",
+    "marketing",
+    "segmentation",
+    "communication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Segment"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Log Entry"
+    },
+    {
+      "type": "page",
+      "name": "Logged Segments"
+    }
+  ],
+  "features": [
+    "segment creation",
+    "contact selection",
+    "interaction logging",
+    "document merging",
+    "segment follow-up"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003362,
+      "pages_in_call": 8
+    }
+  ]
+}
