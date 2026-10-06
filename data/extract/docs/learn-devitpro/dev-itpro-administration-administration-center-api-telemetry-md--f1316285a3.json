@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api_ telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_ telemetry",
+  "title": "Business Central Admin Center API",
+  "blob": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
+  "summary": "Business Central Admin Center API Telemetry endpoint returns AL events and errors from the service for troubleshooting tenant environment issues.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "admin center api",
+    "telemetry",
+    "troubleshooting",
+    "events",
+    "error logging"
+  ],
+  "objects": [],
+  "features": [
+    "Environment telemetry retrieval",
+    "Start and end date filtering",
+    "Log category filtering",
+    "Error code handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003637,
+      "pages_in_call": 8
+    }
+  ]
+}

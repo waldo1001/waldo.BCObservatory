@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-use-edocuments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments",
+  "title": "Use e-documents in sales",
+  "blob": "b4d99725dc9e613e8d46fd4a6ad464a05bc33ba5",
+  "summary": "Use e-documents in the sales process to create and send electronic invoices and credit memos using configured Peppol formats, with support for viewing e-document status and logs.",
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "sales invoices",
+    "peppol",
+    "electronic delivery"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "E-Documents"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Service Status"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Logs"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Communication Logs"
+    }
+  ],
+  "features": [
+    "E-invoice creation",
+    "E-document status tracking",
+    "E-document logs",
+    "Service integration",
+    "Email attachment sending"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004408,
+      "pages_in_call": 8
+    }
+  ]
+}

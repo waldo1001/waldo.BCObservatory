@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-onpremises.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-onpremises",
+  "title": "Security in Business Central (on-premises)",
+  "blob": "74a7e735e81d6a13df78d303c27ce0a9ac8daf1c",
+  "summary": "Security in Business Central on-premises covers authentication methods, server hardening, client/database/network security, and recommendations for using secure admin devices.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "on-premises",
+    "authentication",
+    "hardening",
+    "certificates"
+  ],
+  "objects": [],
+  "features": [
+    "Authentication configuration",
+    "SSL configuration",
+    "Database encryption",
+    "Security certificates",
+    "TLS 1.2 support",
+    "SQL Server security"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004408,
+      "pages_in_call": 8
+    }
+  ]
+}

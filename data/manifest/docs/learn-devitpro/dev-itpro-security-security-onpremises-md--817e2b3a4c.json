@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-onpremises",
   "published_at": "2025-11-18T16:34:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "74a7e735e81d6a13df78d303c27ce0a9ac8daf1c",
       "words": 362,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:34.389Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004408
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:34.405Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:34.406Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:34.407Z",
+      "page": false
     }
   },
   "input_hash": "74a7e735e81d6a13df78d303c27ce0a9ac8daf1c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "74a7e735e81d6a13df78d303c27ce0a9ac8daf1c"
+  "output_hash": "8fb472405909743be8643e1f0502018e5f7f2755acab4d67bbca336e93d2c3e1"
 }

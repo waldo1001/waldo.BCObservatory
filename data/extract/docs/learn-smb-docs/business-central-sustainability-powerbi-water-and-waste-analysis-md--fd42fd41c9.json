@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-water-and-waste-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis",
+  "title": "Water and Waste Analysis",
+  "blob": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72",
+  "summary": "Water and Waste Analysis Power BI report provides detailed water and waste usage analysis by facility and location with year-over-year and day-over-day comparisons.",
+  "systems": [
+    "sustainability",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "water",
+    "waste",
+    "facility management",
+    "sustainability reporting"
+  ],
+  "objects": [],
+  "features": [
+    "Water Realized %",
+    "Water Intensity vs Baseline %",
+    "Waste Realized %",
+    "Waste Intensity vs Baseline %",
+    "Discharged Into Water vs Baseline %",
+    "Water Intensity",
+    "Water Available",
+    "Facility Capacity"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003637,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
       "words": 219,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:21.890Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003637
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:21.897Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:21.898Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:21.899Z",
+      "page": false
     }
   },
   "input_hash": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3cccbe3600c32819c12c03bc95cdec374bc99fd"
+  "output_hash": "cfd9c1c24e023fefbd1ead39a6b1dd2368557a58e1cf00f98696c4fa63d67bb4"
 }

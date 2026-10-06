@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-sustainability-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview",
+  "title": "Sustainability Overview",
+  "blob": "90257bc6df6d1142d602c1b8cb60cddfa5126342",
+  "summary": "Sustainability Overview Power BI report provides high-level emissions, water, and waste usage metrics organized by category, scope, and month for sustainability managers and executives.",
+  "systems": [
+    "sustainability",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "emissions",
+    "water",
+    "waste",
+    "sustainability reporting",
+    "esg"
+  ],
+  "objects": [],
+  "features": [
+    "CO2 Realized %",
+    "CH4 Realized %",
+    "N2O Realized %",
+    "Water Realized %",
+    "Waste Realized %",
+    "CO2e Emissions",
+    "CO2 Baseline",
+    "CO2 Current Value"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003637,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "90257bc6df6d1142d602c1b8cb60cddfa5126342",
       "words": 278,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:21.891Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003637
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:30.972Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:30.973Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:30.974Z",
+      "page": false
     }
   },
   "input_hash": "90257bc6df6d1142d602c1b8cb60cddfa5126342",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90257bc6df6d1142d602c1b8cb60cddfa5126342"
+  "output_hash": "b8e8c9fb400462c552b7f05b3a7aac060ba95ecaee5a680ea55f734ea1f52c2c"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al",
   "published_at": "2025-11-17T10:28:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5fda1a2196eb04c860a3c1cf373df04b94569c8a",
       "words": 678,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:34.391Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004408
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:34.411Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:34.412Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:34.413Z",
+      "page": false
     }
   },
   "input_hash": "5fda1a2196eb04c860a3c1cf373df04b94569c8a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5fda1a2196eb04c860a3c1cf373df04b94569c8a"
+  "output_hash": "23c0f56c9d94c36fcb4dceed33882c30b6e4605bf0013862a0a0f1eb83ac94e8"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments",
   "published_at": "2025-11-19T15:54:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b4d99725dc9e613e8d46fd4a6ad464a05bc33ba5",
       "words": 1163,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:34.388Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004408
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:34.403Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:34.403Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:34.404Z",
+      "page": false
     }
   },
   "input_hash": "b4d99725dc9e613e8d46fd4a6ad464a05bc33ba5",
@@ -83,5 +102,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b4d99725dc9e613e8d46fd4a6ad464a05bc33ba5"
+  "output_hash": "4e75e612749b512456848b1ef54e1aa8fd7d17c6eb281d3b99d7f3678538aa32"
 }

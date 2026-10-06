@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-social-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis",
+  "title": "Social Analysis",
+  "blob": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
+  "summary": "Social Analysis Power BI report shows employee-related ESG metrics including absences, gender distributions, qualifications, and union memberships for HR managers and executives.",
+  "systems": [
+    "sustainability",
+    "hr",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "esg",
+    "social metrics",
+    "employee data",
+    "sustainability reporting"
+  ],
+  "objects": [],
+  "features": [
+    "Male Employee %",
+    "Female Employee %",
+    "Other Employee %",
+    "Absence Hours %",
+    "Employee Amount",
+    "No. of Employees",
+    "Employee Qualifications"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003637,
+      "pages_in_call": 8
+    }
+  ]
+}

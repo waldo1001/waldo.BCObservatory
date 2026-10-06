@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-3.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-3",
+  "title": "Update 26.3 for Microsoft Dynamics 365 Business Central 2025 Release Wave 1",
+  "blob": "bcf69d3ca9f5de7613afe80e976ffc0732cd8d76",
+  "summary": "Update 26.3 for Business Central 2025 release wave 1 introduces Copilot enhancements, VAT settlement by Activity Code for Italy, and new e-document formats (ZUGFeRD, Peppol BIS3) for Germany and Belgium.",
+  "systems": [
+    "copilot",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "release updates",
+    "copilot features",
+    "e-documents",
+    "localization",
+    "vat settlement"
+  ],
+  "objects": [],
+  "features": [
+    "Chat with Copilot for add-on apps",
+    "Payables Agent",
+    "Sales Order Agent",
+    "Summarize with Copilot",
+    "Autofill with Copilot",
+    "VAT settlement by Activity Code",
+    "ZUGFeRD format",
+    "Peppol BIS3"
+  ],
+  "versions": [
+    "2025 release wave 1",
+    "version 26.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004408,
+      "pages_in_call": 8
+    }
+  ]
+}

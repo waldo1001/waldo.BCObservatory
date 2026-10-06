@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72",
       "words": 267,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:21.892Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003637
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:30.975Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:30.976Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:30.977Z",
+      "page": false
     }
   },
   "input_hash": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72"
+  "output_hash": "866bd8a270a1566fa8b283da2d3ca8360308e346b150f63bf1a68b203a858f76"
 }

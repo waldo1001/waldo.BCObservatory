@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier",
   "url": "https://www.youtube.com/watch?v=DvZd6y69sWk",
-  "published_at": null,
+  "published_at": "2025-03-06T13:05:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:56:10.524Z",
+      "captions": "auto:en-orig",
+      "duration_s": 75
+    },
+    "captioned": {
+      "at": "2026-10-06T18:56:14.071Z",
+      "path": "data/captions/microsoft/DvZd6y69sWk.vtt",
+      "vtt_sha256": "e80e1a6525bf0651821cb4feccd970df8cd17d88ef728fb33c57179a3111af53",
+      "segments": 5,
+      "words": 154,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:24.592Z",
+      "path": "data/extract/video/DvZd6y69sWk.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 2,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.008426
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:30.959Z",
+      "path": "data/summary/video/DvZd6y69sWk.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0087624
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:30.961Z",
+      "systems": [
+        "purchasing",
+        "sales",
+        "development"
+      ],
+      "topics": 5,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:56:30.971Z",
+      "path": "content/videos/DvZd6y69sWk.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 293,
-    "duration_s": 76,
-    "via": "reconcile"
-  }
+    "duration_s": 75,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad6e3d284534868817d360cfaabece9a6ed834b6dda8d808adf73c2b7516e9a9"
 }

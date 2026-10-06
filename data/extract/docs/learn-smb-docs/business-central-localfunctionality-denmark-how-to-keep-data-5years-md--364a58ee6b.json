@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-keep-data-5years.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-keep-data-5years",
+  "title": "Keep transactional data for five years in Denmark",
+  "blob": "f545b316f625d413b89be5b7204fd4abe797debe",
+  "summary": "Keep transactional data for five years in Denmark by using Business Central's automatic daily export to Azure Blob Storage to meet Danish bookkeeping law requirements for data retention and integrity.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "localization",
+    "denmark",
+    "compliance",
+    "data retention",
+    "audit trail"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "Daily data export to Azure Blob Storage",
+    "CVR number validation",
+    "Immutable transaction storage",
+    "Five-year retention"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004408,
+      "pages_in_call": 8
+    }
+  ]
+}

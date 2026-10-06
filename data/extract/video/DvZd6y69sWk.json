@@ -1,0 +1,128 @@
+{
+  "video_id": "DvZd6y69sWk",
+  "item_id": "video/yt-microsoft/DvZd6y69sWk",
+  "title": "What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier",
+  "duration_s": 75,
+  "systems": [
+    "purchasing",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "email editing",
+    "purchase orders",
+    "send by email",
+    "community contributions",
+    "2025 wave 1"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to email editing feature",
+      "t_start": 0,
+      "t_end": 16.6
+    },
+    {
+      "title": "New Send by Email button in purchase orders",
+      "t_start": 16.6,
+      "t_end": 30.4
+    },
+    {
+      "title": "Email editor functionality and workflow",
+      "t_start": 30.4,
+      "t_end": 46.9
+    },
+    {
+      "title": "Community contribution and 2025 Wave 1 release",
+      "t_start": 46.9,
+      "t_end": 75
+    }
+  ],
+  "features": [
+    {
+      "name": "Edit purchase order emails before sending",
+      "description": "New ability to edit purchase document emails before sending them to suppliers, with access to an email editor where users can modify email content and add attachments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.9,
+      "t_end": 46.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase orders",
+        "email",
+        "supplier communication"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Send by Email button in purchase documents",
+      "description": "New Send by Email button added to the Print/Send menu in purchase orders, matching the functionality already available in sales documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.6,
+      "t_end": 30.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase orders",
+        "ui",
+        "email"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 4.9,
+      "text": "we will be looking at the ability to edit your purchase document emails before sending them",
+      "why_it_matters": "Directly states the main feature being demonstrated in the video.",
+      "check": "exact"
+    },
+    {
+      "t": 16.6,
+      "text": "if you click on print send you'll find a new button just like you find in the sales documents which is sent by email",
+      "why_it_matters": "Explains the user interface change and parity with sales documents.",
+      "check": "exact"
+    },
+    {
+      "t": 30.4,
+      "text": "you'll get the familiar experience of the email editor where you can edit the email in whatever way you like add attachments and so",
+      "why_it_matters": "Describes the key capabilities available in the email editing experience.",
+      "check": "exact"
+    },
+    {
+      "t": 46.9,
+      "text": "this Nifty little Edition was built by a Community member through the code development initiative",
+      "why_it_matters": "Demonstrates that the feature originated from community contributions.",
+      "check": "exact"
+    },
+    {
+      "t": 61.9,
+      "text": "this now can release with 2025 wave 1",
+      "why_it_matters": "Confirms the release status and timeline for this feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008426
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-errors-recommendations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-errors-recommendations",
+  "title": "Extending error messages with recommendations",
+  "blob": "1d7b03037e9b719566707794a6dc3efc0a1a3f51",
+  "summary": "Extending error messages with recommendations in Business Central enables actionable error messages on the Error Messages page by implementing the ErrorMessageFix interface and subscribing to error events.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "user experience",
+    "error messages",
+    "recommendations"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ErrorMessageManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "ErrorMessagesActionHandler"
+    },
+    {
+      "type": "codeunit",
+      "name": "Execute Error Action"
+    },
+    {
+      "type": "interface",
+      "name": "ErrorMessageFix"
+    },
+    {
+      "type": "enum",
+      "name": "Error Msg. Fix Implementation"
+    },
+    {
+      "type": "page",
+      "name": "Error Messages"
+    }
+  ],
+  "features": [
+    "Error message recommendations",
+    "Actionable error messages",
+    "Error message actions",
+    "Sub-contextual information",
+    "Error drill-down"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004408,
+      "pages_in_call": 8
+    }
+  ]
+}

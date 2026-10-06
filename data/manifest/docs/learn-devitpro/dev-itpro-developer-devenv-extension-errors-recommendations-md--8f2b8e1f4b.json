@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-errors-recommendations",
   "published_at": "2025-11-17T08:53:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1d7b03037e9b719566707794a6dc3efc0a1a3f51",
       "words": 664,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:34.392Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004408
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:34.414Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:34.415Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:34.416Z",
+      "page": false
     }
   },
   "input_hash": "1d7b03037e9b719566707794a6dc3efc0a1a3f51",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d7b03037e9b719566707794a6dc3efc0a1a3f51"
+  "output_hash": "9d0e120ab9c9c2014d01eb5062e268dc990832290bf0885a7a740deea0585880"
 }

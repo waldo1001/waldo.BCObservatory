@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-lists-as-tiles",
   "published_at": "2025-11-20T16:22:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9da10b2ac3766d7ffb119ccfff3eb36b59412717",
       "words": 953,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:21.894Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003637
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:30.984Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:30.985Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:30.985Z",
+      "page": false
     }
   },
   "input_hash": "9da10b2ac3766d7ffb119ccfff3eb36b59412717",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9da10b2ac3766d7ffb119ccfff3eb36b59412717"
+  "output_hash": "5da183ac89ce67fcdb9e95ea00052bfe6de144ae8d0875bccee8180e342537c6"
 }

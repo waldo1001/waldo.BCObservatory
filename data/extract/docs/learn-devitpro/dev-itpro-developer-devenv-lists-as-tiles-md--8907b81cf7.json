@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-lists-as-tiles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-lists-as-tiles",
+  "title": "Display Data as Tiles",
+  "blob": "9da10b2ac3766d7ffb119ccfff3eb36b59412717",
+  "summary": "Display Data as Tiles describes how to customize tile view for list pages by defining a Brick field group in the source table.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "tile view",
+    "list pages",
+    "field groups",
+    "ui customization",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "MyTable"
+    },
+    {
+      "type": "page",
+      "name": "MyListPage"
+    }
+  ],
+  "features": [
+    "Brick field group",
+    "Tile view customization",
+    "Tall Tiles",
+    "Media display in tiles",
+    "Verbose text in tiles",
+    "Tile styling",
+    "Interactive tiles"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003637,
+      "pages_in_call": 8
+    }
+  ]
+}
