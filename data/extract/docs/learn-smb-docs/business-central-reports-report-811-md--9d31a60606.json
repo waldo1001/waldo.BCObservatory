@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-811.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-811",
+  "title": "About the BOM - Sub-Assemblies (report)",
+  "blob": "b1bcae38f908126a9378ab65c9e8db5dbe6ed97c",
+  "summary": "The BOM - Sub-Assemblies report provides an overview of subassembly components, showing base unit of measure, inventory, unit costs, and alternative items.",
+  "systems": [
+    "assembly",
+    "manufacturing"
+  ],
+  "topics": [
+    "bill of materials",
+    "sub-assemblies",
+    "component analysis",
+    "inventory",
+    "bom"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "About BOM - Sub-Assemblies"
+    }
+  ],
+  "features": [
+    "bill of materials",
+    "subassembly overview",
+    "base unit of measure",
+    "unit costs",
+    "alternative items"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}

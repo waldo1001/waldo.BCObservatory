@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-810.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-810",
+  "title": "BOM - Raw Materials (report)",
+  "blob": "371da946eb373c54185c250f80bc9d15a2b763e0",
+  "summary": "The BOM - Raw Materials report displays components in item bills of materials for assembly and production, including inventory levels, units of measure, vendors, and lead times.",
+  "systems": [
+    "assembly",
+    "manufacturing"
+  ],
+  "topics": [
+    "bill of materials",
+    "raw materials",
+    "component analysis",
+    "inventory",
+    "bom"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "BOM - Raw Materials"
+    }
+  ],
+  "features": [
+    "bill of materials",
+    "inventory levels",
+    "base unit of measure",
+    "vendor information",
+    "lead time"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}

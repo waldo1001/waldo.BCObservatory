@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000754.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000754",
+  "title": "Rolled-up Cost Shares (report)",
+  "blob": "be34d0353a3f8cb33afb348dfbc19fa12fdf59ca",
+  "summary": "The Rolled-up Cost Shares report shows how costs from items in a bill of materials accumulate to the parent item, organized by BOM structure and cost type.",
+  "systems": [
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "bill of materials",
+    "cost analysis",
+    "cost accumulation",
+    "bom structure",
+    "manufacturing costs"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Rolled-up Cost Shares"
+    }
+  ],
+  "features": [
+    "bill of materials",
+    "cost rollup",
+    "material cost",
+    "capacity cost",
+    "overhead cost",
+    "bom structure"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}

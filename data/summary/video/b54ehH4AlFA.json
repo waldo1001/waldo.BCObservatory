@@ -1,0 +1,27 @@
+{
+  "video_id": "b54ehH4AlFA",
+  "item_id": "video/yt-microsoft/b54ehH4AlFA",
+  "summary": "Telemetry events for Business Central financial reporting, viewed in Application Insights: creation of financial reports, row definitions and column definitions, with definition codes logged. Also mentions modification, deletion and report-run events. A disclaimer in the facts says preview, version 2025 release wave one.",
+  "overview": "The video is the second part of a \"What's Cooking\" series on financial reporting enhancements. After a short demo of creating and editing financial reports, row definitions and column definitions, it moves to the telemetry those actions produce.\n\nThe presenter had telemetry turned on for the demo environment. In Application Insights, they query traces from the last day, filtered on their own user telemetry ID. The results show a financial report created event with the report definition code, similar events for row definitions and column definitions, and a modification event. The presenter also says there are events for modifying and deleting these objects, and for running reports. These were not demonstrated. The target audience is anyone who uses financial reporting and cares about auditing.",
+  "key_points": [
+    "Creating a financial report logs a 'financial report created' event with the report definition code and a timestamp in Application Insights.",
+    "Row definition lifecycle events log the row definition code in custom dimensions.",
+    "Column definition lifecycle events log the column definition code.",
+    "Modification and deletion events for reports, row definitions and column definitions are mentioned but not demonstrated.",
+    "Events for report execution (usage) are mentioned but not demonstrated.",
+    "The demo queries Application Insights traces from the last day, filtered by the user's telemetry ID.",
+    "Telemetry must be turned on for the environment to see these events. The presenter turned it on for the demo."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "543b3827ec86f742e974f3a118ebad2b4278f3a22ceb39a423549098a0b59caa",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012556399999999999
+  }
+}

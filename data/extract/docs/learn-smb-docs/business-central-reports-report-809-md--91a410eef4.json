@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-809.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-809",
+  "title": "Where-used list (report)",
+  "blob": "47c343af98ba01d42ad48ef141ba2c1b6373ccf0",
+  "summary": "The Where-used list report shows which bills of materials contain the selected items as components, allowing you to analyze component usage across BOMs.",
+  "systems": [
+    "assembly",
+    "manufacturing"
+  ],
+  "topics": [
+    "bill of materials",
+    "component analysis",
+    "assembly reports",
+    "where-used",
+    "bom"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Where-used list"
+    }
+  ],
+  "features": [
+    "bill of materials",
+    "component filtering",
+    "BOM analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}

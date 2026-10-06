@@ -1,0 +1,217 @@
+{
+  "video_id": "b54ehH4AlFA",
+  "item_id": "video/yt-microsoft/b54ehH4AlFA",
+  "title": "What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry",
+  "duration_s": 246,
+  "systems": [
+    "reporting",
+    "platform",
+    "finance"
+  ],
+  "topics": [
+    "telemetry",
+    "financial reporting",
+    "application insights",
+    "row definitions",
+    "column definitions",
+    "report lifecycle events",
+    "auditing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Financial Reporting Enhancements",
+      "t_start": 0,
+      "t_end": 35.2
+    },
+    {
+      "title": "Demo: Creating and Editing Financial Reports",
+      "t_start": 35.2,
+      "t_end": 98
+    },
+    {
+      "title": "Transition to Telemetry Overview",
+      "t_start": 98,
+      "t_end": 138.6
+    },
+    {
+      "title": "Application Insights Query Setup",
+      "t_start": 138.6,
+      "t_end": 180.2
+    },
+    {
+      "title": "Telemetry Events for Financial Reporting",
+      "t_start": 180.2,
+      "t_end": 220.8
+    },
+    {
+      "title": "Summary of Telemetry Capabilities",
+      "t_start": 220.8,
+      "t_end": 246
+    }
+  ],
+  "features": [
+    {
+      "name": "Financial Report Creation Telemetry",
+      "description": "Telemetry events that track when financial reports are created, capturing the report definition code and timestamp in Application Insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.2,
+      "t_end": 200.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "auditing",
+        "lifecycle events"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Row Definition Telemetry",
+      "description": "Telemetry events that capture the creation and modification of row definitions for financial reports, including the definition code in custom dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.2,
+      "t_end": 200.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "row definitions",
+        "lifecycle events"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Column Definition Telemetry",
+      "description": "Telemetry events that track the creation and modification of column definitions for financial reports, with the column definition code logged.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.6,
+      "t_end": 220.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "column definitions",
+        "lifecycle events"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Report Modification Telemetry",
+      "description": "Telemetry events for tracking modifications to financial reports, row definitions, and column definitions, including deletion events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.8,
+      "t_end": 240.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not demonstrated in the video but mentioned as capability"
+      ],
+      "tags": [
+        "telemetry",
+        "modification",
+        "deletion",
+        "lifecycle events"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Report Usage Telemetry",
+      "description": "Telemetry events that capture when financial reports are executed and run, providing usage analytics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.8,
+      "t_end": 240.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not demonstrated in the video but mentioned as capability"
+      ],
+      "tags": [
+        "telemetry",
+        "usage",
+        "auditing"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Application Insights",
+      "t": 118.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.4,
+      "text": "if you use financial reporting and Telemetry and have an interest in auditing let me show you what we are cooking on for the",
+      "why_it_matters": "Establishes the scope and purpose of the video - demonstrating telemetry capabilities for financial reporting auditing in the 2025 release wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 118.4,
+      "text": "these are all changes to financial reporting why like what's going on with Telemetry well let because I did turn on Telemetry for this",
+      "why_it_matters": "Explains how telemetry is enabled and viewed through Application Insights, bridging the demo to the telemetry infrastructure.",
+      "check": "exact"
+    },
+    {
+      "t": 138.6,
+      "text": "take traces from the last day I'm filtering on my own user telemeter ID this GID is safe you can't hack me with this",
+      "why_it_matters": "Describes how telemetry queries are structured and emphasizes the security of telemetry identifiers in Application Insights.",
+      "check": "exact"
+    },
+    {
+      "t": 180.2,
+      "text": "we have an event financial report created where we lock the report definition code I also did a modification then I have Telemetry for",
+      "why_it_matters": "Shows specific telemetry events captured for financial report and row definition lifecycle operations.",
+      "check": "exact"
+    },
+    {
+      "t": 200.6,
+      "text": "we have the road def definition code loged there and also similar life cycle events for creating column definitions with the column defition definition",
+      "why_it_matters": "Demonstrates that column definition telemetry follows the same pattern as row definitions with event and code logging.",
+      "check": "exact"
+    },
+    {
+      "t": 220.8,
+      "text": "modifying a ro column definition you would have seen that deleting a row column or report definition you would have seen that and even",
+      "why_it_matters": "Comprehensive overview of all lifecycle and usage telemetry events available for financial reporting artifacts.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 220.8,
+      "kind": "preview",
+      "text": "now here in version 2025 release wave one"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013531
+    }
+  ]
+}

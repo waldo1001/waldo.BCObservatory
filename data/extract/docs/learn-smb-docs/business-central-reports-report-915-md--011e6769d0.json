@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-915.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-915",
+  "title": "About Assemble to order - Sales (report)",
+  "blob": "75f5bc6b75d0e7eed2aefc8f5b0ec8f0d96439f5",
+  "summary": "The Assemble to order - Sales report shows key sales figures for assembly component items sold both as assembly parts and separately from inventory.",
+  "systems": [
+    "assembly",
+    "sales"
+  ],
+  "topics": [
+    "assemble to order",
+    "sales analysis",
+    "assembly components",
+    "component sales",
+    "profit margin"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "About Assemble to order - Sales"
+    }
+  ],
+  "features": [
+    "assemble to order sales",
+    "component sales figures",
+    "assembly details",
+    "profit margin calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}

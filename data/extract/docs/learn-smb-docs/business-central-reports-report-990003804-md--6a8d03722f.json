@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-990003804.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804",
+  "title": "Production Forecast (report)",
+  "blob": "256d1479018c21fa3b9aef4b1c787d7f43d338af",
+  "summary": "The Production Forecast report displays quantities and dates used by planning worksheets, showing item details, locations, and demand types for sales or components.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "production forecast",
+    "planning",
+    "demand planning",
+    "inventory",
+    "quantities"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Production Forecast"
+    }
+  ],
+  "features": [
+    "production quantities",
+    "forecast dates",
+    "planning worksheet",
+    "sales type",
+    "component demand"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001227,
+      "pages_in_call": 8
+    }
+  ]
+}
