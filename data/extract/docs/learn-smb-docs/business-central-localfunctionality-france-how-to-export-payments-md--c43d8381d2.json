@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-export-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments",
+  "title": "How to Export Payments",
+  "blob": "856afacc3b252f07178458e0ff9033a1d28a3a7c",
+  "summary": "Export Payments in French localization sends payment data electronically via text files or XMLports. Use this to configure payment export settings for different payment classes and methods.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "payment export",
+    "payment management",
+    "french localization",
+    "electronic payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Slip Setup"
+    },
+    {
+      "type": "page",
+      "name": "Payment Class"
+    },
+    {
+      "type": "page",
+      "name": "Payment Step"
+    },
+    {
+      "type": "page",
+      "name": "Payment Step Card"
+    }
+  ],
+  "features": [
+    "Payment Step configuration",
+    "Action Type selection",
+    "Export Type option",
+    "Report export",
+    "XMLport export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

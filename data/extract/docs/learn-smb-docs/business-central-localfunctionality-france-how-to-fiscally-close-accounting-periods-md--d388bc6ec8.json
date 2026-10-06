@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods",
+  "title": "How to Fiscally Close Accounting Periods",
+  "blob": "794bba4f3ef5f1d0d694eec959294222805f3502",
+  "summary": "Fiscally Close Accounting Periods in French localization prevents posting to closed periods. Use this after closing periods to ensure no additional general ledger entries can be posted.",
+  "systems": [
+    "finance",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "fiscal period",
+    "period close",
+    "accounting",
+    "french localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
+  "features": [
+    "Close Fiscal Period action",
+    "Fiscally Closed field",
+    "Fiscal Closing Date field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

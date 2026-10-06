@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters",
+  "title": "Export or Import Payment Management Setup Parameters",
+  "blob": "03fb741fb081daf0eb6e68297a11d2b461e5484b",
+  "summary": "Export or Import Payment Management Setup Parameters in French localization transfers payment configuration between companies. Use this to replicate payment management settings across multiple companies with similar requirements.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "payment management",
+    "setup parameters",
+    "import export",
+    "french localization",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Slip Setup"
+    },
+    {
+      "type": "page",
+      "name": "Payment Class"
+    }
+  ],
+  "features": [
+    "Export Parameters action",
+    "Import Parameter action",
+    "Payment setup transfer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central",
   "url": "https://www.youtube.com/watch?v=O2RPBlr_GiE",
-  "published_at": null,
+  "published_at": "2024-07-26T13:24:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:28:48.549Z",
+      "captions": "auto:en-orig",
+      "duration_s": 214
+    },
+    "captioned": {
+      "at": "2026-10-06T19:28:55.151Z",
+      "path": "data/captions/microsoft/O2RPBlr_GiE.vtt",
+      "vtt_sha256": "573b84c33caf384414f3ce53bb22ab5c3fa63960171f99d6da473a7312224170",
+      "segments": 16,
+      "words": 560,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 383,
     "duration_s": 214,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "573b84c33caf384414f3ce53bb22ab5c3fa63960171f99d6da473a7312224170"
 }

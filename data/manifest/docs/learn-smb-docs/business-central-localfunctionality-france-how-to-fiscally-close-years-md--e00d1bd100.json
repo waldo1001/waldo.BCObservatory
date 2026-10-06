@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-years",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "572c669b667bd309ef7315357489ebd775821653",
       "words": 210,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:55.051Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002643
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:55.074Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:55.075Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:55.076Z",
+      "page": false
     }
   },
   "input_hash": "572c669b667bd309ef7315357489ebd775821653",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "572c669b667bd309ef7315357489ebd775821653"
+  "output_hash": "d88696442d6124e9c291485e8bddc0fdd078aa4dcd8e3010d15f570497c8d69a"
 }

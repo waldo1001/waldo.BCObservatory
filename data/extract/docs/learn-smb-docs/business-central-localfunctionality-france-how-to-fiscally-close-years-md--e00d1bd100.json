@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-fiscally-close-years.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-years",
+  "title": "How to Fiscally Close Years",
+  "blob": "572c669b667bd309ef7315357489ebd775821653",
+  "summary": "Fiscally Close Years in French localization prevents posting to closed fiscal years after closing all periods. Use this as the final step after closing the fiscal year to permanently lock it.",
+  "systems": [
+    "finance",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "fiscal year",
+    "year-end close",
+    "accounting",
+    "french localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
+  "features": [
+    "Fiscally Close Year checkbox",
+    "Fiscally Closed field",
+    "Journal line management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

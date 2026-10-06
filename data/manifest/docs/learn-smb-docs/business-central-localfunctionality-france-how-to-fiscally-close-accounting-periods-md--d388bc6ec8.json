@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "794bba4f3ef5f1d0d694eec959294222805f3502",
       "words": 151,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:55.050Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002643
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:55.070Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:55.071Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:55.072Z",
+      "page": false
     }
   },
   "input_hash": "794bba4f3ef5f1d0d694eec959294222805f3502",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "794bba4f3ef5f1d0d694eec959294222805f3502"
+  "output_hash": "a9c7bfe03cdbad90afeae2f13c24bc29002e793172e18031c1eb84406afe6efc"
 }

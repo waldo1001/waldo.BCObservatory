@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
+  "title": "Export General Ledger Entries Tax Audits [FR]",
+  "blob": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
+  "summary": "Export General Ledger Entries for Tax Audits in French localization generates audit files with posted entries and opening balances. Use this to comply with French tax authority reporting requirements for corporate tax and VAT audits.",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "tax audit",
+    "general ledger export",
+    "opening balances",
+    "french localization",
+    "corporate tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Export G/L Entries – Tax Audit"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    }
+  ],
+  "features": [
+    "Opening balances",
+    "Detailed Balance checkbox",
+    "Starting Date",
+    "Ending Date",
+    "Include Opening Balances option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

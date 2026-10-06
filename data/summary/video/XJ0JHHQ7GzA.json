@@ -1,0 +1,27 @@
+{
+  "video_id": "XJ0JHHQ7GzA",
+  "item_id": "video/yt-microsoft/XJ0JHHQ7GzA",
+  "summary": "Posting groups in Business Central compared with default posting accounts in Dynamics SL. Covers business posting groups, product posting groups, general posting setup, customer posting groups and inventory posting groups, and how they tie customers, vendors and items to GL accounts.",
+  "overview": "The video starts with how default posting accounts are set up in Dynamics SL, where they help reduce errors and inconsistencies when posting transactions. It then explains that Business Central uses posting groups to tie customers, vendors and items to GL accounts.\n\nIt walks through business posting groups (who you buy from and sell to), product posting groups (what you buy and sell), and general posting setup, where the two are combined. It then shows the customer card assignments and the inventory posting group, and ends by previewing how posting and accounts flow.",
+  "key_points": [
+    "Business Central uses posting groups to tie customers, vendors and items to GL accounts.",
+    "Business posting groups focus on who you buy from and sell to, such as regions, segments or industries.",
+    "Product posting groups focus on what you buy and sell, such as product lines or use cases like manufacturing, retail or services.",
+    "General posting setup combines business and product posting groups to define sales, cost of goods sold and other accounts.",
+    "On the customer card, the general business posting group and the customer posting group are assigned; the customer posting group defines AR and discount accounts.",
+    "The inventory posting group defines accounts based on item classification and location, and the accounts are pulled into transactions at posting.",
+    "The video presents the SL default posting accounts, including other AR and AP setup, as the comparison point."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "03c196f45be7b3a0d20b222d55d2a0bb12642b73de170af122c8d75e3786da12",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012346399999999999
+  }
+}

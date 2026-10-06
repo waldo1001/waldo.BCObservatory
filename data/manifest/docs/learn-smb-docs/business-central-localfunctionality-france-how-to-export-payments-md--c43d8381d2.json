@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "856afacc3b252f07178458e0ff9033a1d28a3a7c",
       "words": 165,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:55.049Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002643
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:55.068Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:55.069Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:55.069Z",
+      "page": false
     }
   },
   "input_hash": "856afacc3b252f07178458e0ff9033a1d28a3a7c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "856afacc3b252f07178458e0ff9033a1d28a3a7c"
+  "output_hash": "57e17c070f50fa32cff5ca3a3013dca6e162b37b3fb12b535b6bd8b23318cf7f"
 }

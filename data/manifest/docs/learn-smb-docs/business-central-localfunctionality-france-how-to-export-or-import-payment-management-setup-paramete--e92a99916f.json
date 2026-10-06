@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "03fb741fb081daf0eb6e68297a11d2b461e5484b",
       "words": 137,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:55.048Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002643
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:55.065Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:55.066Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:55.067Z",
+      "page": false
     }
   },
   "input_hash": "03fb741fb081daf0eb6e68297a11d2b461e5484b",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "03fb741fb081daf0eb6e68297a11d2b461e5484b"
+  "output_hash": "5b23fd03d26f13a235a2cadc23daef65be0ccf1bdd7062dd6d1385a06e953a15"
 }

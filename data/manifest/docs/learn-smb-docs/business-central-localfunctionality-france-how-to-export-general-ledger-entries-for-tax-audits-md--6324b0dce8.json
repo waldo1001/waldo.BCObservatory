@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
       "words": 435,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:55.046Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002643
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:55.059Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:55.060Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:55.060Z",
+      "page": false
     }
   },
   "input_hash": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38"
+  "output_hash": "cd2c502bbfd7c543ca0bac718f4937d24cb21a2e8bb7348f64820280c9bf6f1a"
 }

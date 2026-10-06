@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-create-payment-slips.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips",
+  "title": "Create Payment Slips [FR]",
+  "blob": "2904afe0564d819d58c3320775e87074dfa788b7",
+  "summary": "Create Payment Slips in French localization manages vendor and customer payments through payment classes and SEPA export. Use this to generate payment slips and electronic payment files for vendors and customers.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "payment slips",
+    "vendor payments",
+    "customer payments",
+    "sepa",
+    "french localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Slip"
+    },
+    {
+      "type": "page",
+      "name": "Payment Class List"
+    },
+    {
+      "type": "page",
+      "name": "Select – Vendor Account List"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account List"
+    }
+  ],
+  "features": [
+    "Payment Class selection",
+    "SEPA payment setup",
+    "Suggest Vendor Payments",
+    "Generate file",
+    "Payment file export",
+    "RIB Bank details",
+    "SWIFT Code",
+    "IBAN"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002643,
+      "pages_in_call": 8
+    }
+  ]
+}

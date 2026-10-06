@@ -1,0 +1,215 @@
+{
+  "video_id": "XJ0JHHQ7GzA",
+  "item_id": "video/yt-microsoft/XJ0JHHQ7GzA",
+  "title": "Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent",
+  "duration_s": 228,
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "posting groups",
+    "posting setup",
+    "general posting setup",
+    "business posting groups",
+    "product posting groups",
+    "inventory posting group",
+    "customer posting group",
+    "default accounts",
+    "gl accounts",
+    "account defaults"
+  ],
+  "chapters": [
+    {
+      "title": "Posting setup in Dynamics SL",
+      "t_start": 0,
+      "t_end": 56.7
+    },
+    {
+      "title": "Introduction to posting groups in Business Central",
+      "t_start": 56.7,
+      "t_end": 91.6
+    },
+    {
+      "title": "Business posting groups and product posting groups",
+      "t_start": 91.6,
+      "t_end": 118.4
+    },
+    {
+      "title": "General posting setup and customer assignment",
+      "t_start": 118.4,
+      "t_end": 162
+    },
+    {
+      "title": "Inventory posting groups",
+      "t_start": 162,
+      "t_end": 183.9
+    },
+    {
+      "title": "Previewing posting and account flow",
+      "t_start": 183.9,
+      "t_end": 208
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 208,
+      "t_end": 228
+    }
+  ],
+  "features": [
+    {
+      "name": "Business posting groups",
+      "description": "Posting groups in Business Central that focus on who you are buying and selling to, allowing customers, vendors, and items to be grouped by regions, segments, industries, or other business categories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 68.4,
+      "t_end": 91.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "master data",
+        "categorization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Product posting groups",
+      "description": "Posting groups that focus on what you are buying and selling, allowing distinction by product lines or use cases like manufacturing, retail, or services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.7,
+      "t_end": 106.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "product classification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General posting setup",
+      "description": "The configuration where business posting groups and product posting groups are combined together, allowing you to define sales accounts, cost of goods sold accounts, and other relevant accounts by combining who with what.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.4,
+      "t_end": 141.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting setup",
+        "gl accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer posting groups",
+      "description": "Posting groups on the customer card where you can assign the general business posting group and customer posting group, with the customer posting group used to define AR and discount accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.8,
+      "t_end": 162,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer",
+        "ar accounts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Inventory posting group",
+      "description": "Posting group for items that allows definition of accounts based on item classification and location, with accounts being pulled into transactions during posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162,
+      "t_end": 183.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory",
+        "item classification"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AP setup",
+      "t": 17.9
+    },
+    {
+      "type": "other",
+      "name": "AR setup",
+      "t": 17.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.4,
+      "text": "Setting up default posting accounts in SL helps simplify and reduce errors and inconsistencies when posting transactions.",
+      "why_it_matters": "Establishes the purpose and benefit of posting setup in reducing posting errors",
+      "check": "exact"
+    },
+    {
+      "t": 68.4,
+      "text": "Business Central uses posting groups to tie customers, vendors, and items to GL accounts.",
+      "why_it_matters": "Core design principle of how Business Central differs from SL in implementing posting defaults",
+      "check": "exact"
+    },
+    {
+      "t": 80.7,
+      "text": "Business posting groups focus on who you are buying and selling to. Product posting groups focus on what you are buying and selling.",
+      "why_it_matters": "Defines the two key dimensions of Business Central's posting group taxonomy",
+      "check": "exact"
+    },
+    {
+      "t": 118.4,
+      "text": "General posting setup is where you will put these two concepts together, combining the who with the what.",
+      "why_it_matters": "Explains how the two posting group types work together in the general posting setup",
+      "check": "exact"
+    },
+    {
+      "t": 141.8,
+      "text": "On my customer card, I can see I have assigned the enterprise general business posting group and the customer posting domestic.",
+      "why_it_matters": "Demonstrates practical assignment of multiple posting groups to a customer",
+      "check": "exact"
+    },
+    {
+      "t": 175.6,
+      "text": "The inventory posting group is where you can define accounts based on item classification and location.",
+      "why_it_matters": "Shows the dimensional aspects of inventory posting group configuration",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012938999999999999
+    }
+  ]
+}
