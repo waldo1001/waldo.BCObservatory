@@ -1,0 +1,793 @@
+{
+  "video_id": "KbXzMR4n4h8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15,
+      "end": 35.2,
+      "text": "hey everybody Welcome to yet another session of the business Central launch event in this session we're going to explain a little bit more about what's new and how you as an isv can monetize your business Central apps using the Microsoft commercial Marketplace when say we it's basically Peter and myself both of us are product managers within the business Central"
+    },
+    {
+      "t": 35.2,
+      "end": 55.3,
+      "text": "team and we're super excited to having you here with us to talk a little bit more about what we're doing for RVs to enable them to sell and monetize their apps so that they can really focus on their Core Business while we help them on how you can basically bring your apps to market the way that we're going to structure this session is first of all I'll"
+    },
+    {
+      "t": 55.3,
+      "end": 75.4,
+      "text": "be setting the scene um tell a little bit more about some of the background the video um the road map and from there on Peter's actually going to go through a couple of walkthroughs the very first walkr is going to explain a little bit more of the fundamentals because you might have seen some sessions from us already on this topic uh but basically we're"
+    },
+    {
+      "t": 75.4,
+      "end": 95.8,
+      "text": "going to repeat that so you don't really need to go back to see it we're really going to talk about how you as an IV transact on appsource from there on we're going to talk about the side by side licensing and side by-side licensing is really if you want to use our licensing and monetization mechanisms together with the ones that you have"
+    },
+    {
+      "t": 95.8,
+      "end": 116.5,
+      "text": "and from there on we're going to really zoom in on how isvs can really use the partner channel to bring their solutions to customers because that's what we want to focus most of the session on for this M for this moment this is really what we have been focusing on for this release and then we'll end up with some road map and some resources all right"
+    },
+    {
+      "t": 116.5,
+      "end": 137.4,
+      "text": "let's get started let's start with setting the scene and for that what we want to do is we want to zoom in a little bit more on the opportunity and let's be honest cloud has really been the fabric out there which connects all business and all departments at any every customer cloud has really been there at every department"
+    },
+    {
+      "t": 137.4,
+      "end": 157.6,
+      "text": "and has really been enabling all departments to be much more productive and much more efficient that's also why every Department also needs more software basically means the business application opportunity is gigantic in fact IDC calculated that the cloud demand out"
+    },
+    {
+      "t": 157.6,
+      "end": 177.9,
+      "text": "there by 2026 is going to be 1 trillion think about that 1 trillion is an amazing amount and an amazing opportunity for all of us but the way that this software has been sold is also going to be different than the traditional sales mechanisms customers really want to explore want to find information"
+    },
+    {
+      "t": 177.9,
+      "end": 198,
+      "text": "online want to research want to see reference cases want to U engage and try software without really talking to uh the IVs and that's where basically marketplaces come in because with marketplaces prospects can really understand what you're offering and that's basically what we want to"
+    },
+    {
+      "t": 198,
+      "end": 210,
+      "text": "um help you prepare for as well because what we see is in the Futures marketplaces are going to be the primary way of how software will be sold"
+    },
+    {
+      "t": 210,
+      "end": 230.5,
+      "text": "now when we zoom in on that like what's the Microsoft vision of that of course we have our commercial Marketplace vision and centrally about that appsource is going to be at its core because um we have the most Vibrant Community out there if you go to appsource at this moment in time you will find more than 5,000"
+    },
+    {
+      "t": 230.5,
+      "end": 250.8,
+      "text": "apps and we should be really proud about that that we have such an Vibrant Community but it really is a place where Partners have been used to start um submitting and Publishing apps Partners can build towards appsource they can publish it but it's also a way for them to engage with customers we do a lot of efforts"
+    },
+    {
+      "t": 250.8,
+      "end": 271.5,
+      "text": "to drive customers and Prospects towards appsource and from there on customers can really research as I explained it but they can also try uh apps from there on and then from there on customers can deploy it and give feedback to you so this is really at its core which is the Microsoft commercial Marketplace or what for us means Microsoft of appsource"
+    },
+    {
+      "t": 271.5,
+      "end": 291.5,
+      "text": "but there's more to it and basically I want to show that by using this picture because this is very um important for you to understand if we think about the next pieces of the software we really want you to understand all the platforms and all the tools how they work together at Microsoft and at its core if you look"
+    },
+    {
+      "t": 291.5,
+      "end": 312.3,
+      "text": "to the bullseye of this uh picture there's one catalog and in one catalog what we do is we basically making sure that all the Microsoft skes are going to be made available into that catalog so if you think about business Central but also the Asia Services M365 they're all being placed into that one catalog"
+    },
+    {
+      "t": 312.3,
+      "end": 333.1,
+      "text": "but on top of that we're also adding in third party IV Solutions in in that so that it's all parked in that one catalog now on top of that we're going to put some rules like for example which can which Q can be transacted where at what price with which Partners can basically use it"
+    },
+    {
+      "t": 333.1,
+      "end": 353.1,
+      "text": "next to those rules if we really start focusing on the right side of the picture there you can see who can actually buy that skew from within that one catalog and if we zoom in on the top you can see that the solution once it in the in the one catalog it can be made available through appsource"
+    },
+    {
+      "t": 353.1,
+      "end": 368.1,
+      "text": "but we're also opening up for potential experiences in the product where um that skew which is made available in the one catalog is now also been made available within the product so we can Bas build some in product purchase"
+    },
+    {
+      "t": 368.1,
+      "end": 388.2,
+      "text": "experiences and the other thing that we can do with it is and that's what you see on the right bottom of the uh of the circle is that that solution can be made available through a network of resellers the CSP Channel and that's what we want to make available today so you define it once and once it available in the one catalog"
+    },
+    {
+      "t": 388.2,
+      "end": 408.4,
+      "text": "it can be made available on appsource Direct so customers can buy directly from the isv but it can also made available through the CSP reseller Channel if we go and look to the left side of the slide that's where the publisher the isv is basically able to configure how the solution is going to be"
+    },
+    {
+      "t": 408.4,
+      "end": 428.5,
+      "text": "made available where it's going to be made available but also the commercial information the monetization information that comes with it so partner Center is that basically um uh core platform that everybody's going to use to configure their Solutions all right so we've explained how partner Center appsource basically comes"
+    },
+    {
+      "t": 428.5,
+      "end": 449,
+      "text": "together um the other thing that we want to explain to you is what we've basically learned from our ecosystem because uh before we started working on the whole monetization topic Peter and myself had the opportunity to talk to quite a bit of isvs out there and we've learned a couple of really interesting things for them the very first thing that we learned is that"
+    },
+    {
+      "t": 449,
+      "end": 469.1,
+      "text": "no I V out there is really interested to build out um code IP on how to monetize and how to license isva telling us that it's basically um not really differentiating them it requires quite a lot of Maintenance and they're basically asking uh Microsoft to really come and help"
+    },
+    {
+      "t": 469.1,
+      "end": 489.3,
+      "text": "on how to monetize and how to license uh Solutions so they're really asking help on this one the other thing that we've seen is that uh from a pricing model perspective our isvs have been really creative because some isvs sell the solution based on a per user pricing model others are selling"
+    },
+    {
+      "t": 489.3,
+      "end": 509.5,
+      "text": "it for example on a per company or onetime fee and another batch of partners are basically selling it based up on U what we call Custom meters and that could be for example uh per pay slip per transport order per transaction Etc and then we've got another category of"
+    },
+    {
+      "t": 509.5,
+      "end": 530.5,
+      "text": "patterns which are basically combining these things like for example they use a silver gold diamond offering in combination with for example custom reading for example documents processed so it's pretty complex the things that we will have to go and uh support to ensure that all isvs out there can use our licensing and monetization"
+    },
+    {
+      "t": 530.5,
+      "end": 550.7,
+      "text": "platform lastly we also see quite a bit of isvs telling us that they want to use not only appsource but then also the CSP um uh Network out there to bring their Market solutions to Market and we do see that some have a preference to only use one and others they basically want to use the combination of"
+    },
+    {
+      "t": 550.7,
+      "end": 570.7,
+      "text": "it I've explained you at the beginning that we're basically not really at the start of this because uh already 6 months ago we will launch the very first version of our transact ability and in that version what we did is isvs were now able to sell this Solutions directly"
+    },
+    {
+      "t": 570.7,
+      "end": 590.8,
+      "text": "to the End customer so a customer could go in and buy the solution immediately from the isv today we see that multiple dozens of isvs have already using uh that functionality and actually give us really good feedback on the fact that they can now monetize directly their Solutions and they don't have to invest in Solutions"
+    },
+    {
+      "t": 590.8,
+      "end": 611.4,
+      "text": "themselves in fact we've got one of the isvs out there which is basically Western computers that told us like listen we didn't want to go to appsource before Microsoft offered us a licensing and a monetization platform but now that they have it they really feel strong that this was the best thing for them uh and they really feel happy with"
+    },
+    {
+      "t": 611.4,
+      "end": 631.6,
+      "text": "this okay now you might ask what's this going to cost me um if I jump into this and this is where Microsoft really wants to take up a leadership role because we're basically saying like there's going to be a three% flat transaction fee for every for every transaction that you do with that 3% % what you get is quite a bit"
+    },
+    {
+      "t": 631.6,
+      "end": 644.9,
+      "text": "so first of all we're going to ensure that that platform that we're building uh that we made available that that's available for you so you don't need to invest in it on top of that you need to don't need to worry about"
+    },
+    {
+      "t": 644.9,
+      "end": 664.9,
+      "text": "um uh renting Azure services to to host your Solutions because again it will run your Solutions will run on uh the business Central platform and the ecosystem on top of that what you're going to get is as well is that um you know from a from a credit perspective and from a a uh monetization"
+    },
+    {
+      "t": 664.9,
+      "end": 678.2,
+      "text": "perspective you don't really need to go and Chase your customer because we will make sure that the money is collected and basically comes into your bank account automatically so that's what you get from a 3% transaction"
+    },
+    {
+      "t": 678.2,
+      "end": 698.4,
+      "text": "fee all right so let's go to the road map because we're making we're basically supporting isvs in this in a couple of ways and we've done two waves at this moment in time and Peter is going to show um the first wave of the things that we've made available um so approximately 6 months"
+    },
+    {
+      "t": 698.4,
+      "end": 718.5,
+      "text": "ago what we've done in October 2023 we've made sure that customers can buy Solutions directly from an IV using their credit card or using a Microsoft building system and that's what Peter is going to explain about uh as a very first step and then we're going to move on to the next Milestone which is basically the CSP"
+    },
+    {
+      "t": 718.5,
+      "end": 738.5,
+      "text": "and enablement and we'll show that a little bit um later on and with that Peter are you ready to take over to gift people a tour of appsource transact ability yes thank you Kurt yes I'm I'm really happy uh to be able to show these transact capabilities that Kurt mentioned some of our partners"
+    },
+    {
+      "t": 738.5,
+      "end": 758.8,
+      "text": "are already using uh and which makes it much easier for partners to resell and for customers to purchase apps so let's let's see that experience folds out both for the partners uh or the Publishers the isvs as well as the customers and the resellers but let's begin in partner Center"
+    },
+    {
+      "t": 758.8,
+      "end": 779.2,
+      "text": "where you manage your offers as a publisher or as an isv right so those are the apps that you have in appsource um and in the market uh Place office uh let's have a look at a sample app that we have you might be familiar with it uh it's it's on our kop repo or sample repo that's the convert"
+    },
+    {
+      "t": 779.2,
+      "end": 799.3,
+      "text": "temperature uh sample app and uh on the offer now in business sorry in partner Center isvs can select to sell their offer through Microsoft right um and um that transact capability is applicable to add-ons only so you might be familiar"
+    },
+    {
+      "t": 799.3,
+      "end": 818.9,
+      "text": "with that we also have another concept which is based solely on using out of the box apis we call them connect apps there in that case there's no app really so there's nothing to transact on so this is for the for the scenarios um the majority of the scenarios where there is an actual app in"
+    },
+    {
+      "t": 818.9,
+      "end": 839.2,
+      "text": "appsource now I highlight this section here under the offer setup where you can opt into sell through Microsoft and you then have to select the option that you would like to sell through Microsoft in this case this app is already opted in so that's why it's it's great out here okay so that is the first step once you do that then in"
+    },
+    {
+      "t": 839.2,
+      "end": 859.4,
+      "text": "the uh tab section in uh the offer setup you will see a new tab called the plan overview and in the uh plan overview uh you can view your current plans as well as create new plans and you can see in this scenario as Kurt talked about before we have a gold and a silver and a bronze uh"
+    },
+    {
+      "t": 859.4,
+      "end": 879.7,
+      "text": "plan and you might wonder what are plans right what what are they and you can think of them as variations over your skew or your offer right so one example could be this um level of functionality like the gold the silver and the bronze but another way of looking at plans or using plans could be to"
+    },
+    {
+      "t": 879.7,
+      "end": 900.4,
+      "text": "uh provide waterfall pricing so basically that you give a discount based on the amount of licenses that your customers purchase um at a you know a single transaction basically and maybe you also could have differences between countries or markets in this in this context and speaking of markets"
+    },
+    {
+      "t": 900.4,
+      "end": 920.4,
+      "text": "uh when uh you are selling your plans or creating your plans the um country setup has now moved from the offer to the plan so you can have um you can have plans that are country specific and you know they can have different pricing Etc um if you're not opting"
+    },
+    {
+      "t": 920.4,
+      "end": 933,
+      "text": "into transacting through appsource you will normally have the countries on the offer that's what you have today but once you opt in they move to the plan and that's that's an important uh difference to be aware"
+    },
+    {
+      "t": 933,
+      "end": 949.4,
+      "text": "of then for the plant of course we support the the markets that we also support on the office and they are aligned with the business Central Markets and then this example we decided that this plan was to be sold through UK and uh United"
+    },
+    {
+      "t": 949.4,
+      "end": 969.4,
+      "text": "States now once you then have defined a a plan in this case we picked a gold example then you can decide as we talked about before whether you're pricing as a waterfall model so basically you can have a minimum amount of users that you need to purchase for this plan or a maximum amount of users allowed for that plan and then the pricing structure for that but"
+    },
+    {
+      "t": 969.4,
+      "end": 979.7,
+      "text": "in this case uh we create plans based on functionality uh so that's the gold plan and we will not specify a an sort of user license"
+    },
+    {
+      "t": 979.7,
+      "end": 994.5,
+      "text": "interval then when it comes to billing we support either a monthly billing or a yearly billing and then of course you can give a discount if the customer must selects a yearly uh billing um or yearly"
+    },
+    {
+      "t": 994.5,
+      "end": 1014.5,
+      "text": "subscription uh you can also as an i we uh select to provide a trial of your application or your plan um and we support a month of trial and the customer or the purchaser still needs to uh Supply a credit card information in this process and if"
+    },
+    {
+      "t": 1014.5,
+      "end": 1034.6,
+      "text": "they are not canceling that subscription then the trial will roll over into a a PID a subscription then there's also the option to choose whether your plan is visible or not we also call that public or private and um what is what is that what is you know private plans versus public plans so by default"
+    },
+    {
+      "t": 1034.6,
+      "end": 1054.6,
+      "text": "the plans are public and when you submit them as part of your app in in app Source everyone can view those plans basically the price list in appsource Marketplace but if you choose to make them private then you can decide yourself as a publisher which customers should be able to see them and then it's"
+    },
+    {
+      "t": 1054.6,
+      "end": 1066.5,
+      "text": "only those customers when they log into appsource that will see those plans and that is what private plans uh imply so you basically extend it to specific aad tenants or inter"
+    },
+    {
+      "t": 1066.5,
+      "end": 1079.4,
+      "text": "tenants um now when you set the price for a plan the price is set in US dollar but um partner Center will convert"
+    },
+    {
+      "t": 1079.4,
+      "end": 1099.6,
+      "text": "with today's currency exchange rate convert the prices to the markets that you define for the plan automatically if you would like to and probably you will set the price yourself for different countries you can of course do that you can export the pricing set the pricing you know differently in UK versus us and then you can reimport those"
+    },
+    {
+      "t": 1099.6,
+      "end": 1120.2,
+      "text": "prices in on the plan so that it fits you know price differentiation across uh the local markets so uh once you set up your plans you can review the plans and you can then uh submit them or publish them and then they will appear in appsource so this is the review"
+    },
+    {
+      "t": 1120.2,
+      "end": 1140.3,
+      "text": "uh process this is just basically what you always do when you modify your apps in partner Center you review the changes before you go and publish them so once they're published now what is the purchasing experience uh for a uh customer or a partner a reseller acting on behalf of a customer now in this example"
+    },
+    {
+      "t": 1140.3,
+      "end": 1161,
+      "text": "we looked at the convert temperature app so we can go to appsource and and have a look how that looks and you see that there's a couple of things that changed once an app UPS into transacting through appsource Marketplace first of all you will see that there's a buy now button that actually allows the customer to purchase transact inside of appsource"
+    },
+    {
+      "t": 1161,
+      "end": 1181,
+      "text": "you also see that there's a new tab for the app called plan and plans and pricing and there the customer can actually see the different options for purchasing your apps the different plans you know the different um functional skews or the different water uh water fall pricing for example in this case again we have gold silver and bronze and we"
+    },
+    {
+      "t": 1181,
+      "end": 1201.4,
+      "text": "can see that for the bronze option we have a free trial so let's try to buy and see what what happens right that leads to a checkout process and as a customer I can then choose which plan I want to select and in this case h we're going to uh splurch on gold and select gold and proceed in the"
+    },
+    {
+      "t": 1201.4,
+      "end": 1221.5,
+      "text": "checkout then I select whether I want to have a monthly or a one-year subscription and I can also choose what I want to have a recurring billing once or recurring subscription once it elapses right do I just want to have it automatically renew or do I want to manually handle that and then"
+    },
+    {
+      "t": 1221.5,
+      "end": 1232.3,
+      "text": "of course you can choose the amount of licenses that you want to purchase in this transaction and then you can move on and review your order and have the billing information"
+    },
+    {
+      "t": 1232.3,
+      "end": 1253.2,
+      "text": "Etc um use your credit card to purchase it complete the transact in this case it's succeeded and what the system will tell you now is that you purchase licenses but you still need to assign those licenses to users and so the way you do that is that you go to the Microsoft admin Center"
+    },
+    {
+      "t": 1253.2,
+      "end": 1263.9,
+      "text": "and you assign licenses there and that's what uh these different sort of blue dialogues they Notch you towards go there and U manage"
+    },
+    {
+      "t": 1263.9,
+      "end": 1284.1,
+      "text": "that so there's another thing to to be aware of and that is that um you know maybe as a indifferent to sort of a mobile phone app uh uh purchase experience then what happens here is that you only purchased the licenses right and as I mentioned you have to assign"
+    },
+    {
+      "t": 1284.1,
+      "end": 1300.6,
+      "text": "those to the users but you also have to install the app in your business Central in the customers business Central environment so that is something that can be done either from appsource as of you know today but also from within the Microsoft admin sensor"
+    },
+    {
+      "t": 1300.6,
+      "end": 1320.9,
+      "text": "itself so let's see how that actually is then done in the Microsoft admin Center and this could be an experience for the customer admin or for the delegated admin from the partner reseller now you manage uh the purchased products and the licenses of these customers in their admin uh Center portal right and here we can see"
+    },
+    {
+      "t": 1320.9,
+      "end": 1340.9,
+      "text": "an overview of the products that they have purchased now in this example is actually a different scenario than what I just showed before but it's a hello world 4 sample app and we can see that we purchased in this case 10 licenses right that's the overview of of our U product licenses and"
+    },
+    {
+      "t": 1340.9,
+      "end": 1361.8,
+      "text": "we can go in and see the details on that again we see 10 licenses we see none of them have been assigned we can see the subscription details about uh when it expires we can purchase more licens if licenses if we want to do that we can cancel the license from within here and we can also see the invoice at any point in time"
+    },
+    {
+      "t": 1361.8,
+      "end": 1383.4,
+      "text": "we can also go and actually use these licenses right so we can assign it uh to a new user so we can go to the licenses tab go to the assign licenses and as part of that process pick a user and we can see here in this scenario I now assign it to a a user and I have nine licenses"
+    },
+    {
+      "t": 1383.4,
+      "end": 1404,
+      "text": "left talked about that from within the admin Center you could see the the bill and one of the advantages of this is that for a customer they can then see or get a combined bill of all of the apps as well as the first party license cost for business Central in one uh single invoice right that makes it a lot easier for the customer"
+    },
+    {
+      "t": 1404,
+      "end": 1424.2,
+      "text": "to get the overview of the expenses for this solution as a reseller you obviously sorry as a as a publisher as the isv you obviously want to have an understanding of uh how many customers have you sold to H what is the license Revenue Etc so partner"
+    },
+    {
+      "t": 1424.2,
+      "end": 1435.6,
+      "text": "Center will offer some insights for you where you can actually go and see those details like the orders um like the S licenses Etc and there's a lot more insights"
+    },
+    {
+      "t": 1435.6,
+      "end": 1455.7,
+      "text": "available so this was an overview of uh how to set up selling your appsource apps through the Microsoft uh commercial marketplace right but we there's an important part here because we only set up the parts in partner Center and making app Source um you know surface that but before you even get there you"
+    },
+    {
+      "t": 1455.7,
+      "end": 1475.7,
+      "text": "need to have your app in place and in the app you have to Define what we call entitlements and as Kurt talked about before you also need to think about if you have existing customers how to you know continue serving or or making sure that the app works for them and we call that the sidebyside support I'm going to go through both"
+    },
+    {
+      "t": 1475.7,
+      "end": 1495.8,
+      "text": "of these now so we're going to H begin with the entitlements and we're going to sort of um embark on the journey that the developers at the Publishers would need to go through so this is an isv partner you know it could be you who made an app shipped it to appsource um to"
+    },
+    {
+      "t": 1495.8,
+      "end": 1516,
+      "text": "the marketplace and have several very happy customers today and they get a great idea right why not sell licenses for the app through appsource and using the appsource transability that should be pretty pretty easy so the partner goes and creates a new plan in partner"
+    },
+    {
+      "t": 1516,
+      "end": 1528.7,
+      "text": "Center just like we saw some minutes ago but before they do that right before they actually submit that they need to create now these entitlements"
+    },
+    {
+      "t": 1528.7,
+      "end": 1542.5,
+      "text": "that basically Maps the license that the user gets with the functionality that they have access to in business Central and that is controlled through"
+    },
+    {
+      "t": 1542.5,
+      "end": 1558.5,
+      "text": "permissions and that's then the mapping basically um on one side you have the roles or the license that that the what can the customer having the the user having a certain license"
+    },
+    {
+      "t": 1558.5,
+      "end": 1571.4,
+      "text": "they could be a role a group or a service plan that they're member of um what functionality or tangible objects do they have access to in a business"
+    },
+    {
+      "t": 1571.4,
+      "end": 1591.6,
+      "text": "Central so this is a an example of a you know simple simple entitlement and how it could look right so in this case we have an entitlement for a great plan in our coffee app and we see that the type for that entitlement would be per user offer plan and that would be the sort of the normal setup"
+    },
+    {
+      "t": 1591.6,
+      "end": 1611.6,
+      "text": "for this it also has an ID and I'm not going to talk too much about that but basically in partner Center uh 10 minutes ago I talked about defining the plans and in there you can see the ID of the plan and that's what you put into the ID here so the business Central knows that if as a user you log in and you have"
+    },
+    {
+      "t": 1611.6,
+      "end": 1632.5,
+      "text": "this plan assigned um as you saw before you assigned in the admin Center then we know know in business Central that you should have access to these permissions which you put into the object entitlements here you see that you get the coffee app full permission if you have this a great plan so it's as simple as"
+    },
+    {
+      "t": 1632.5,
+      "end": 1652.8,
+      "text": "that uh one important thing to understand here is that this is the maximum amount of permissions that you have access to if you have a certain license expressed in the uh in the entitlement here but the admin in business CER still needs to grant that specific user those permissions"
+    },
+    {
+      "t": 1652.8,
+      "end": 1673,
+      "text": "right you can still have the license it will map to permissions but maybe the user doesn't have access to what that those permissions give access to unless an admin has also granted the user those permissions now after this uh the uh developer comes back and says it it doesn't work for the developer right often you want the developer to be able to have"
+    },
+    {
+      "t": 1673,
+      "end": 1693.1,
+      "text": "access to test out functionality and and run with that right but um before you jump on transact ability and use entitlements basically any user have uh implicit entitlements to everything right they have access and you have to roll your own custom licensing today if you"
+    },
+    {
+      "t": 1693.1,
+      "end": 1713.2,
+      "text": "want to gate access to functionality but as soon as you opt into using entitlements we will start to expect and enforce entitlements for any user and a developer is not part of the the customers entra um or aad so by default"
+    },
+    {
+      "t": 1713.2,
+      "end": 1733.3,
+      "text": "they would be locked out as soon as you opt into to using entitlements so you know what what can you do about that well you could purchase licenses for the developers right that's an option absolutely and maybe you should do that just to test out that functionality yourself right but you don't really want to start purchasing licenses for"
+    },
+    {
+      "t": 1733.3,
+      "end": 1753.6,
+      "text": "for all of your uh developers right so what you can do is that you can also create an additional entitlement that grants its users membership through being part of a group so all of your developers could be part of a group and then you give that group some license rights"
+    },
+    {
+      "t": 1753.6,
+      "end": 1773.7,
+      "text": "right so let's have an example of that uh in the uh office admin Center or the Microsoft admin Center you can uh create or find uh these groups so maybe we have a coffee developers group in this case and then in your app you can add an entitlement that then entitles any user who's"
+    },
+    {
+      "t": 1773.7,
+      "end": 1789.4,
+      "text": "part of that group to have certain permissions right and that could be different permissions to what your you know normal customers would have access to maybe you want to have super full permissions for a developer"
+    },
+    {
+      "t": 1789.4,
+      "end": 1809.4,
+      "text": "okay so now the developer is happy you know the license work let's ship it um but then you know new customers they are super happy they purchase licenses and appsource uh they will grant you know get them assigned in the admin Center and everything works but now we get to the side by side uh part"
+    },
+    {
+      "t": 1809.4,
+      "end": 1829.5,
+      "text": "right the existing customers might not be that happy because it used to work for them the app maybe you had your own custom licensing as soon as you opted into setting through uh app Source then we start enforcing in the platform that all users needs to have entitlements but all of the existing customers who didn't purchase licenses through appsource will now"
+    },
+    {
+      "t": 1829.5,
+      "end": 1849.8,
+      "text": "be locked out unless you adopt side by side which of course you have to do then and so um you know the way you do that um is that instead of forcing all of those customers to purchase licenses immediately you can create a special kind of entitlement which we call"
+    },
+    {
+      "t": 1849.8,
+      "end": 1869,
+      "text": "unlicensed and that basically means that if we determine that a certain user the logs in does not have any license we can give away the responsibility to your code to determine further whether they should still have access for example because"
+    },
+    {
+      "t": 1869,
+      "end": 1889.2,
+      "text": "your current custom licensing shows that there are indeed a customer right and uh the way you do that is that uh you again as we talked about create this entitlement in the entitlement you map to some permissions that are required"
+    },
+    {
+      "t": 1889.2,
+      "end": 1909.9,
+      "text": "to run the code that those existing customers should use that's probably all of the app but then within the app you can write um in important places just like you do today in your custom licensing the same places you then check whether the customer is unlicensed and if they are unlicensed you can go and check in your own custom licensing"
+    },
+    {
+      "t": 1909.9,
+      "end": 1929.9,
+      "text": "call back you know you can hardcore based on the customer's entry ID or maybe you have your own internal web service uh API that you can call to track whether these customers are your own customers or not but you can do that from within code to basically allow customers to proceed just as if they had you know a license"
+    },
+    {
+      "t": 1929.9,
+      "end": 1934.4,
+      "text": "in your own custom"
+    },
+    {
+      "t": 1936.1,
+      "end": 1956.3,
+      "text": "licensing okay now uh for the uh existing customers everything is working as well but then we get a call from the customer administrator that cannot set up the the app you know what are what are they going to do well again they could buy a license but that's an option but probably they you know just want to get access sometimes and it's kind of"
+    },
+    {
+      "t": 1956.3,
+      "end": 1976.3,
+      "text": "like a waste of of a license right but what we can also do is that again we can use entitlements to um to entitle local administrators to get access to certain functionality for example setup so in the Microsoft system app you can see some examples of two roles uh"
+    },
+    {
+      "t": 1976.3,
+      "end": 1996.4,
+      "text": "for for that that's the Dynamics 65 administrator and also the internal administrator and then in your app you can add entitlements for them and Grant them access to various app functionality maybe just setup functionality right so that avoids uh having to buy a license and the administrators are now"
+    },
+    {
+      "t": 1996.4,
+      "end": 2017.2,
+      "text": "happy likewise you know Partners come back and say our delegated admins do not have access so what can we do you can buy a license well actually not so easy because you know there could be businessto business invites between the entra tenants and so the the partner could be part of the customers"
+    },
+    {
+      "t": 2017.2,
+      "end": 2037.3,
+      "text": "um uh tenant but as a real delegated uh delegated user you normally don't get access right so instead you can again give them an entitlement based on their role and their role is a delegated admin in this case uh so again in the system app you can see some examples of this of the delegated admin"
+    },
+    {
+      "t": 2037.3,
+      "end": 2055.6,
+      "text": "uh or the delegated help desk uh user types or roles and again grant them certain uh access in the app for instance for setting up so now it's working for everyone it's working for the developers new and existing customers local as well as delegated uh"
+    },
+    {
+      "t": 2055.6,
+      "end": 2076.1,
+      "text": "users finally you can actually also um based on whether users have other licenses like business Central first party license es you can decide whether you want to have special functionality enabled based on that right so for instance in our system app"
+    },
+    {
+      "t": 2076.1,
+      "end": 2088.6,
+      "text": "we have um entitlements for premium and for embed those are probably the most uh interesting uh ones and uh you can use those again in your"
+    },
+    {
+      "t": 2088.6,
+      "end": 2108.6,
+      "text": "entitlements then from within code uh in this scenario you can actually instead of doing just the entitlement mapping you can also just encode call uh using the is entitled method to see if the current user have a certain license and then you can decide what to do based on that"
+    },
+    {
+      "t": 2108.6,
+      "end": 2124.5,
+      "text": "okay just to conclude you use entitlements uh to do a mapping between the license uh or the role that a certain user has and what access they need to have in your application right"
+    },
+    {
+      "t": 2124.5,
+      "end": 2145.4,
+      "text": "um You can mix those scenarios and you can call all apis in code I added a link here at the bottom if you want to read more and see more examples of how entitlements work so a lot of technical details Curt over to you to talk a little bit more about the road map going forward"
+    },
+    {
+      "t": 2145.4,
+      "end": 2165.5,
+      "text": "absolutely so Peter has been uh explaining quite a bit and let me recap quickly uh what we covered so far uh Peter has explained that we've laid the fundament in quite a bit of our platforms we've talked about about the changes we've implemented in partner Center in the admin Center but also uh on Microsoft appsource on top of"
+    },
+    {
+      "t": 2165.5,
+      "end": 2185.6,
+      "text": "Peter explained is that with side by side you basically we've enabled that you as a partner can can basically do really your own monetization system next to the the monetization system which has been made available by Microsoft but we get a lot of feedback that that's not enough yet because the way that the solution has been sold is through"
+    },
+    {
+      "t": 2185.6,
+      "end": 2206,
+      "text": "Partners through resellers and resellers typically have special conditions they have specific margins and that's what we're going to focus on on this release so the release which is made available in April 2024 this is exactly what we're going to focus on at this moment in time that's the extra new capabilities that we're making available and that Peter is going to show"
+    },
+    {
+      "t": 2206,
+      "end": 2226.1,
+      "text": "in a second but before we go there I want to explain a little bit of some of the CSP Basics because we do believe that it's important for you to fully understand how it works there's two different CSP models available inside Microsoft the very first model is a direct model in a direct model a customer will buy"
+    },
+    {
+      "t": 2226.1,
+      "end": 2246.4,
+      "text": "from a partner and the partner will buy from Microsoft in an indirect model a customer will buy from a reseller the reseller will buy the license specifically from an indirect provider and the indirect provider will buy from Microsoft so there's there's there's an extra step in here everything that Peter"
+    },
+    {
+      "t": 2246.4,
+      "end": 2260.1,
+      "text": "is going to show you here here is basically what you can see in the sad box because um this is the interface the user experience that we make available to CSP directs or CSP indirect"
+    },
+    {
+      "t": 2260.1,
+      "end": 2273.6,
+      "text": "providers indirect providers think of like for example TD synic also compal and there's so many more they have their own ordering system that they make available towards their"
+    },
+    {
+      "t": 2273.6,
+      "end": 2293.6,
+      "text": "resellers but everything that Peter is going to talk about is also a Pi enabled and that basically means that those CSP indirect providers the platform the ordering platforms the marketplaces that they have that they should also enable the functionality that is going to be shown by Peter as well so if you're an indirect reseller you probably want to"
+    },
+    {
+      "t": 2293.6,
+      "end": 2312.7,
+      "text": "have a conversation with your indirect provider on what's been supported by today but know that everything is supported to apis and is actually uh being uh uh able to be used um Peter back to you yes thank you Kurt so let's take another tour this time uh on the uh CSP"
+    },
+    {
+      "t": 2312.7,
+      "end": 2324.6,
+      "text": "experience so this is just going to be sort of a high level conceptual uh flow through the the the processes for the isv and the CSV Partners right"
+    },
+    {
+      "t": 2324.6,
+      "end": 2343.3,
+      "text": "so first as an isv you need to have an app that is already enable to transact that's what we've been talking about the last 20 30 minutes right so that's an that's a prerequisite for this and then you can take that offer and opt into selling through"
+    },
+    {
+      "t": 2343.3,
+      "end": 2362.6,
+      "text": "csps so the way you do that is as a publish or isv you head to a partner Center and there you under resell through CSP you can opt into selling through either any partner in the CSP program or specific uh Partners"
+    },
+    {
+      "t": 2362.6,
+      "end": 2383.5,
+      "text": "right once You' done that enabled your offer for being uh sold through CSP you need to go and create a private offer which is basically um a variant or a wrapping of your offer in CSP right so we go back to uh partner Center"
+    },
+    {
+      "t": 2383.5,
+      "end": 2403.7,
+      "text": "and you can now go into the private office Tab and within there you can uh head to the CSP subtab and create a new uh offer and what an off private offer here is is it's it's basically where you set the the the rules or the terms for that specific offer"
+    },
+    {
+      "t": 2403.7,
+      "end": 2424.3,
+      "text": "uh which plan you want to resell which margin you want to extend Etc and you can of course have multiple private offers that you sell through CSP and here we have an example of the setup uh for such a private offer where you can Define for example the period that it's available in a start and and stop date you can set"
+    },
+    {
+      "t": 2424.3,
+      "end": 2444.7,
+      "text": "uh of course the price uh for this and the way you do that is that that you create a margin or a discount that the reseller will be getting or you know can purchase this private offer from and then you can also decide whether you want to uh sell you know who you want to sell this to right so you provide a list of the CSP partners that you"
+    },
+    {
+      "t": 2444.7,
+      "end": 2464.8,
+      "text": "want should have access to this private office so here's the example of our convert temperature from before where we created such an offer to sell this through CSP with a 20% % margin right so that basically means that CSP can go in and purchase this at 20% discount and then resell it"
+    },
+    {
+      "t": 2464.8,
+      "end": 2485.1,
+      "text": "uh to their customers at a hopefully higher price than what they purchase it for now when you're done as an isv you uh submit this uh private offer and that makes it available uh for the csps to actually go and view those uh in their CSP uh catalog"
+    },
+    {
+      "t": 2485.1,
+      "end": 2505.6,
+      "text": "and there's as you know different uh kind of CP csps as Kurt talked about so the experience here depends a little bit about which CSP you are so you could be a um a CSP direct bill um uh partner and then you would use partner Center probably most of you would be using an indirect CSP"
+    },
+    {
+      "t": 2505.6,
+      "end": 2525.6,
+      "text": "partner portal to do this which would be based on top of the apis that Kurt uh mentioned so that means that that experience will probably be different now we don't have access to those so we can't go go through that experience and as I said it will vary between the partners but conceptually it will be aligned right because the apis are aligned with"
+    },
+    {
+      "t": 2525.6,
+      "end": 2545.8,
+      "text": "the experience I'm showing in a moment but anyway as a CSP uh direct uh Bill partner here you can go in uh to uh your partner center right and look at the offers the private offers that are made available to you you can see then the margins that have"
+    },
+    {
+      "t": 2545.8,
+      "end": 2566,
+      "text": "been extended to you you so that's basically the the price list or the catalog that as a CSP reseller you have available uh then you would want to purchase then one of those offers on behalf of your customer right so again you will go into the partner Center and"
+    },
+    {
+      "t": 2566,
+      "end": 2586,
+      "text": "you would start by finding your customer right because you're working on behalf of a customer you have to be a a delegated admin of this customer H and once you selected your customer uh you can actually go into the subscriptions for that customer and see the list of the available different private offers in there and create a new"
+    },
+    {
+      "t": 2586,
+      "end": 2606.4,
+      "text": "subscription and uh then you search for one of the subscriptions it could be the convert temperature we saw before uh you would see sort of the price for that the margin uh that you have on that and then you can review it and commit to purchasing it and basically what that does is that it will"
+    },
+    {
+      "t": 2606.4,
+      "end": 2618,
+      "text": "uh you know transfer the licenses to the customers um and then you as a partner will be built right and you will be build by Microsoft"
+    },
+    {
+      "t": 2618,
+      "end": 2637.2,
+      "text": "um and of course with the with the price after the margin is uh is applied and then the publisher will receive money from Microsoft uh or payment from Microsoft and then the CSP direct Bill uh partner can then charge the customer"
+    },
+    {
+      "t": 2637.2,
+      "end": 2657.2,
+      "text": "outside of the CSP Marketplace that's what Kurt showed as well that's completely independent from how this is working and they can choose whether they want to you know what price they want to set according to the customer but you know it's probably going to be the same or less than the publicsource price for that uh plan so Kurt can you talk a little bit about"
+    },
+    {
+      "t": 2657.2,
+      "end": 2677.3,
+      "text": "uh the road map and resources absolutely um so again Peter has showed quite a bit of stuff and we've been basically been giving you lots and lots of of of functionality here but let me just do again a quick recap we've showed how you as an isv can make your solution available not only directly to customers"
+    },
+    {
+      "t": 2677.3,
+      "end": 2697.4,
+      "text": "but now also through that reseller Network there's now more than there's thousands of resellers that you can sell your solution to true and you can basically give them special conditions as well um so that's the functionality which has been made available but we also fully understand that you know we need to continue investing into this um the things that that we"
+    },
+    {
+      "t": 2697.4,
+      "end": 2717.5,
+      "text": "have top of of top of mind is that we need to make sure that we also support different pricing models like not only the per user model which is uh available today but also that we have a per site uh license like a onetime fee and on top of that the custom metas and then probably also still combinations of the two as I also explained"
+    },
+    {
+      "t": 2717.5,
+      "end": 2737.5,
+      "text": "into the beginning that's stuff that we are working on um we are influencing all the teams at this moment in time we don't really have set dates for when that's going to be but rest assured that we are really committed and ensuring that we will get some answers for you very very soon but we're also very convinced that what's available today is already very useful for lots and lots of"
+    },
+    {
+      "t": 2737.5,
+      "end": 2757.5,
+      "text": "isvs out there so if you want to sell your solution in a per user model directly on appsource or through your reseller Channel then we do have a couple of tips for you right um so what would be the call to action yes so first off um you look at the apps that you have today uh and think"
+    },
+    {
+      "t": 2757.5,
+      "end": 2777.6,
+      "text": "about which of those makes sense or you can enable uh to sell in the commercial marketplace right so that could be transact um and CSP and so that of course depends on how the licensing model fits your application but that's that's the first step look at the fit for your app and how you can get those"
+    },
+    {
+      "t": 2777.6,
+      "end": 2797.8,
+      "text": "apps onto transact the second thing is like you've got this recording which already gave you a high level overview of uh all the things and all the platforms which are available but rest assured we've got everything documented step by step and very much detailed so if you would go to AK BC app transact that's where you'll"
+    },
+    {
+      "t": 2797.8,
+      "end": 2817.8,
+      "text": "find all the detailed information on how you can get started with making sure that your apps are transactable yes and then uh practice on a separate app first I mean you can submit an app um where you don't have this is especially important if you have existing customers on the app that you"
+    },
+    {
+      "t": 2817.8,
+      "end": 2837.9,
+      "text": "want to um to to to take into transact but but even if it's a new app you know you can practice uh on a test app to understand especially how these entitlements work and and get that right sort of in the first time but most important if you have existing customers and that leads perfectly to the"
+    },
+    {
+      "t": 2837.9,
+      "end": 2858.4,
+      "text": "next point because basically you talked about entitlements what you really need to think of is like not only how the customers will use their app but also how will your teams internally use the app so the whole the the the side byid uh which Peter just explained is something that you really want to uh reflect on internally on how you're going to use it and how you're going to set it up yes and speaking of side by side"
+    },
+    {
+      "t": 2858.4,
+      "end": 2878.6,
+      "text": "if you have existing customers you need to um to work on the Side by Side Story before you go into transact right because otherwise you have a risk of locking out your customers you know as soon as you get that in place it's it's not a problem H but you need to make sure that that you test"
+    },
+    {
+      "t": 2878.6,
+      "end": 2898.6,
+      "text": "that out first uh with the test apps I we talked about before for instance but that's super important and then next it's really nice to know as well that everything that we've shown at this moment in time is really proven because we've been had the opportunity to work together with dozens of Partners out there to really test all the platform capabilities that we've just been shown"
+    },
+    {
+      "t": 2898.6,
+      "end": 2918.6,
+      "text": "and we've created a yamama site for that where you can ask questions where you can basically engage with that isv Community as well to see on how they have done some stuff and maybe maybe share some best practices with them so engage with us in the Viva engage platform or on the yamama platform because um the partners are there and we are there as well to help you respond"
+    },
+    {
+      "t": 2918.6,
+      "end": 2938.6,
+      "text": "to any questions that you might have yes and we showed uh today sort of two different uh tracks right there was the enablement of transact in the appsource marketplace and it was then taking that offer and extending it selling it through CSP and um you know start by making your apps transactable in appsource before"
+    },
+    {
+      "t": 2938.6,
+      "end": 2959,
+      "text": "you move over to CSP get it working with sort of normal transact and then move over to CSP so let's um you know end this with the usual um overview our resources if you have any uh questions you know go and ask them on yamama give us feedback on improvements on ideas"
+    },
+    {
+      "t": 2959,
+      "end": 2973,
+      "text": "side um join the office hours Etc so thanks a lot uh for taking your time uh to view this session also thank you for me look forward to seeing you on appsource with your transactable apps"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 8322
+}

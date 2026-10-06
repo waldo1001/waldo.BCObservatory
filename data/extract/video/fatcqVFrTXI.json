@@ -1,0 +1,188 @@
+{
+  "video_id": "fatcqVFrTXI",
+  "item_id": "video/yt-microsoft/fatcqVFrTXI",
+  "title": "Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central",
+  "duration_s": 265,
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "accounts receivable",
+    "sales invoices",
+    "credit memos",
+    "invoice posting",
+    "payment application",
+    "transaction entry"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 15.1
+    },
+    {
+      "title": "Entering invoice and credit memo in Dynamics SL",
+      "t_start": 15.1,
+      "t_end": 73.9
+    },
+    {
+      "title": "Applying credit memo to invoice in Dynamics SL",
+      "t_start": 73.9,
+      "t_end": 118.2
+    },
+    {
+      "title": "Entering sales invoice in Business Central",
+      "t_start": 118.2,
+      "t_end": 188.5
+    },
+    {
+      "title": "Entering and applying credit memo in Business Central",
+      "t_start": 188.5,
+      "t_end": 265
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales invoice entry in Business Central",
+      "description": "Enter a single customer invoice using the sales invoice screen by navigating from the role center, selecting the customer, and entering line items for various options including items and services in a single invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132,
+      "t_end": 167.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "invoice",
+        "customer",
+        "transaction entry"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales credit memo entry in Business Central",
+      "description": "Enter a credit memo in the sales credit memo screen and apply it to a specific invoice using the applies to doc type and applies to doc number fields in one entry, eliminating the need for separate payment application steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.5,
+      "t_end": 244.7,
+      "is_demoed": true,
+      "caveats": [
+        "Allows application in one entry versus separate payment application step"
+      ],
+      "tags": [
+        "credit memo",
+        "applies-to",
+        "sales",
+        "transaction entry"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Preview posting in Business Central",
+      "description": "Verify posting entries prior to the posting process by selecting post and then preview posting to confirm entries are being applied correctly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 167.5,
+      "t_end": 178.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting",
+        "preview",
+        "verification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sales journal alternative entry method",
+      "description": "Enter multiple entries for multiple customers using the sales journal from the role center, which provides an alternative to entering single customer invoices through the sales invoice screen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.2,
+      "t_end": 132,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales journal",
+        "multiple entries",
+        "transaction entry"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "sales invoice",
+      "t": 132
+    },
+    {
+      "type": "page",
+      "name": "sales journals",
+      "t": 118.2
+    },
+    {
+      "type": "page",
+      "name": "sales credit memo",
+      "t": 201.8
+    },
+    {
+      "type": "page",
+      "name": "sales journal",
+      "t": 118.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.7,
+      "text": "In this video, we will look at how to enter an accounts receivable invoice and credit memo in Dynamics SL and compare that process",
+      "why_it_matters": "States the core purpose and scope of the comparison between the two systems.",
+      "check": "exact"
+    },
+    {
+      "t": 156.1,
+      "text": "Notice you can enter an invoice line for several options allowing you to invoice for items and services in a single invoice.",
+      "why_it_matters": "Describes the flexibility of Business Central invoices to handle multiple line types in one transaction.",
+      "check": "exact"
+    },
+    {
+      "t": 167.5,
+      "text": "From the top action menu, select post and then preview posting. If you want to verify the posting entries prior to the posting process.",
+      "why_it_matters": "Demonstrates the preview posting capability available in Business Central before committing transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 216.9,
+      "text": "You can see the fields available to select the applies to doc type and applies to doc number. This allows you to enter and",
+      "why_it_matters": "Highlights a key workflow difference - Business Central allows application in one step versus separate payment application in Dynamics SL.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012060000000000001
+    }
+  ]
+}
