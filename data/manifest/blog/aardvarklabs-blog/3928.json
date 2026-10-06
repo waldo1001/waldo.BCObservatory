@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/09/04/understanding-business-centrals-format-address-codeunit/",
   "published_at": "2026-09-04T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:43.845Z",
+      "path": "vault:posts/aardvarklabs-blog/3928.md",
+      "words": 984
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:52.895Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.00687
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:52.896Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:52.897Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:52.900Z",
+      "path": "content/posts/aardvarklabs-blog/3928.md"
     }
   },
   "input_hash": "2026-08-19T03:26:49.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a57564037e7481f2328d3363ab31d37fd1ccfe0911098c0d195c3dfc4f43143"
 }

@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/09/quick-tip-its-time-to-move-to-the-word-add-in-data-picker/",
   "published_at": "2026-09-01T12:03:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:02.879Z",
+      "path": "vault:posts/thinkaboutit-be/8096.md",
+      "words": 650
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:10.101Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005658
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:10.102Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:10.103Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:10.106Z",
+      "path": "content/posts/thinkaboutit-be/8096.md"
     }
   },
   "input_hash": "2026-09-01T12:03:46.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60ef04bfe3e41159aa1d9c64497ff392cc2dc2d2778067c4c53d58f693313b67"
 }

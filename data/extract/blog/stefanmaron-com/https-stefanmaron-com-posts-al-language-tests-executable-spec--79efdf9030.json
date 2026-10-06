@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-language-tests-executable-spec/",
+  "url": "https://stefanmaron.com/posts/al-language-tests-executable-spec/",
+  "title": "AL Language Tests: An Executable Spec for How BC Actually Behaves",
+  "source": "stefanmaron-com",
+  "published_at": "2026-09-03T04:00:00.000Z",
+  "words": 977,
+  "summary": "The BusinessCentral.AL.Language.Tests repository creates an executable specification of AL language behavior by running tests against real BC service tiers across multiple versions. It ensures AL Runner (an AL emulator) behaves accurately and provides a reference for undocumented AL features verified by CI.",
+  "key_points": [
+    "AL Runner is an emulator that speeds up tests but must match real BC behavior to be trustworthy",
+    "The test repository runs CI against actual BC service tiers (versions 27.0 through 28.4) to verify language behavior",
+    "Tests are written against real BC first, then used to fix the emulator, preventing fixes from targeting incorrect assumptions",
+    "The CI matrix expanded from two versions to eight to catch version-specific bugs that only appear in certain BC releases",
+    "The repository serves as executable documentation and catches when Microsoft changes existing behavior"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "testing",
+    "al runner",
+    "emulator",
+    "ci",
+    "behavior verification",
+    "documentation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "BusinessCentral.AL.Language.Tests"
+    }
+  ],
+  "features": [
+    "AL language emulation",
+    "automated testing",
+    "CI/CD validation",
+    "cross-version testing",
+    "record behavior validation",
+    "xRec snapshot handling",
+    "nested validate trigger handling"
+  ],
+  "versions": [
+    "27.0",
+    "27.3",
+    "27.5",
+    "28.3",
+    "28.4"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006737,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The test gets written and verified against real BC before touching the emulator's code, so the fix targets confirmed behavior, not a guess.",
+      "why_it_matters": "Explains the critical workflow ensuring fixes are based on actual BC behavior, not assumptions"
+    }
+  ]
+}

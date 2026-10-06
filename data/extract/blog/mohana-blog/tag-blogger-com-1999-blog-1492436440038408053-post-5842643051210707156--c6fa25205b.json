@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/public-preview-for-business-central-290.html",
+  "title": "Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here",
+  "source": "mohana-blog",
+  "published_at": "2026-09-03T11:53:27.000Z",
+  "words": 583,
+  "summary": "Business Central 2026 release wave 2 (version 29.0) preview environments are now available for testing. Partners and customers should test their AL extensions, integrations, and customizations against the new version before it becomes production to catch breaking changes and issues early.",
+  "key_points": [
+    "Preview environments let you test extensions, integrations, and customizations against version 29.0 before general availability",
+    "Test by recompiling AL extensions against 29.0 symbols to find deprecations and breaking changes as compile errors",
+    "Report bugs and feedback via the preview bug channel with version, localization, reproduction steps, and whether it occurs on a clean environment",
+    "Preview builds are temporary sandboxes only; they are not for production use or long-term projects",
+    "Test localizations relevant to your customers, as support for multiple countries requires testing per deployment region"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "preview",
+    "release wave 2",
+    "version 29.0",
+    "testing",
+    "extensions",
+    "breaking changes",
+    "bug reporting"
+  ],
+  "objects": [],
+  "features": [
+    "AL extensions compilation",
+    "API pages",
+    "OData endpoints",
+    "web services",
+    "preview environment creation",
+    "sandbox deployment"
+  ],
+  "versions": [
+    "29.0",
+    "2026 Release Wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005737,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Preview environments are temporary. Do not build anything on one that you expect to keep.",
+      "why_it_matters": "Clarifies that preview sandboxes are not persistent and should only be used for testing, not development"
+    },
+    {
+      "text": "The people who find the interesting problems during preview are the ones running real extensions against real data. That is you.",
+      "why_it_matters": "Explains why partner feedback during preview is critical; Microsoft cannot test all real-world combinations of ISV apps and custom code"
+    }
+  ]
+}

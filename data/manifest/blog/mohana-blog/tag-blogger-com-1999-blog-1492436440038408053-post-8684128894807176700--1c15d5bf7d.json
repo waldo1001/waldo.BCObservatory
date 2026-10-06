@@ -7,7 +7,7 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/recently-used-lookup-values-improve.html",
   "published_at": "2026-09-07T04:27:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:39:36.652Z",
       "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8684128894807176700--1c15d5bf7d.md",
       "words": 498
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:43.398Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005212
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:43.399Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:43.399Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:43.402Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8684128894807176700--1c15d5bf7d.md"
     }
   },
   "input_hash": "2026-09-07T04:27:35.640Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1d30f68f2977c38b931834d1f0515af32950db0bd5bf7c90a537725d080bb79"
+  "output_hash": "550646b523542ecf7bb408580bac90ccac0eb1286f9b96f67e0ccb5736e25e98"
 }

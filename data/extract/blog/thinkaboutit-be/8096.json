@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thinkaboutit-be/8096",
+  "url": "https://thinkaboutit.be/2026/09/quick-tip-its-time-to-move-to-the-word-add-in-data-picker/",
+  "title": "Quick Tip: It’s Time to Move to the Word Add-in Data Picker",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-09-01T12:03:46.000Z",
+  "words": 650,
+  "summary": "The classic XML Mapping pane for Word report layouts in Business Central has started rejecting newly inserted fields as of August 2026, though existing mapped fields remain functional. Microsoft recommends switching to the newer Word add-in data picker, available since Business Central 2025 wave 2, which offers a more modern interface and avoids legacy XML mapping issues.",
+  "key_points": [
+    "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026, showing placeholder text instead of actual values",
+    "The issue appears to be in Word's XML mapping layer rather than Business Central itself",
+    "The Word add-in data picker provides a cleaner alternative by inserting mapped fields directly without using the legacy XML Mapping pane",
+    "The add-in approach represents Microsoft's strategic direction for report layout development and avoids exposure to legacy mapping layer problems",
+    "Developers should default to the Word add-in data picker for all new report layout work rather than waiting for the XML Mapping pane to cause more issues"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "word add-in",
+    "report layouts",
+    "word data picker",
+    "xml mapping",
+    "business central 2025 wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "Word add-in data picker",
+    "Word add-in for report layouts",
+    "Add Data field insertion",
+    "conditional visibility controls",
+    "developer tab elimination"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005658,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "as of August 2026, newly inserted fields stop getting mapped. The content control shows the literal placeholder text instead of the value",
+      "why_it_matters": "Identifies the specific regression affecting Word report layout development when using the classic XML Mapping pane"
+    }
+  ]
+}

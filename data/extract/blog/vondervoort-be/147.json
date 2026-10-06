@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/vondervoort-be/147",
+  "url": "https://www.vondervoort.be/index.php/2026/09/06/alcops-the-story-so-far/",
+  "title": "ALCops: The Story So Far",
+  "source": "vondervoort-be",
+  "published_at": "2026-09-06T08:54:29.000Z",
+  "words": 621,
+  "summary": "ALCops is a community-driven collection of code analyzers for AL that reached v1.0 after six months of development with over 480 merged pull requests. It provides focused specialized analyzers for language correctness, code smells, formatting, documentation, and testing, now integrated with AI assistants through an MCP server and replacing the earlier LinterCop project by October 2026.",
+  "key_points": [
+    "ALCops evolved from v0.5 to v1.0 through community contributions and refinements of false positives and edge cases",
+    "The project is organized into six specialized analyzers: PlatformCop, ApplicationCop, LinterCop, FormattingCop, DocumentationCop, and TestAutomationCop, each addressing specific domains",
+    "ALCops now integrates with AI assistants like Claude, Codex, and Cursor via an MCP server to provide code analysis in agent-driven workflows",
+    "BusinessCentral.LinterCop is being deprecated with an October 2026 deadline, with users expected to migrate to ALCops"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code analyzers",
+    "al language",
+    "linting",
+    "code quality",
+    "best practices",
+    "ai integration",
+    "community development"
+  ],
+  "objects": [],
+  "features": [
+    "PlatformCop",
+    "ApplicationCop",
+    "LinterCop",
+    "FormattingCop",
+    "DocumentationCop",
+    "TestAutomationCop",
+    "MCP server",
+    "VS Code extension"
+  ],
+  "versions": [
+    "v0.5.0",
+    "v1.0.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006484,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Deprecated - action required before October 2026.",
+      "why_it_matters": "Critical migration deadline for users still on BusinessCentral.LinterCop to switch to ALCops"
+    }
+  ]
+}

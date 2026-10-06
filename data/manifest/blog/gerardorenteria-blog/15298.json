@@ -7,13 +7,21 @@
   "url": "https://gerardorenteria.blog/2026/08/31/%f0%9f%9a%a9-evidence-flags-more-trust-signal-fewer-words/",
   "published_at": "2026-08-31T13:27:16.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:40:10.638Z",
+      "path": "vault:posts/gerardorenteria-blog/15298.md",
+      "words": 1163
     }
   },
   "input_hash": "2026-08-31T13:34:57.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20c8fb66d0f22ed73856c86ecb6e2797ad295329e4e2c5c9b523804d572e8d8e"
 }

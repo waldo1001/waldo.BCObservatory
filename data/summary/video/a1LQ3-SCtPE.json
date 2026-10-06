@@ -1,0 +1,27 @@
+{
+  "video_id": "a1LQ3-SCtPE",
+  "item_id": "video/yt-microsoft/a1LQ3-SCtPE",
+  "summary": "Business Central 2023 release wave 2 server and database changes: table extensions move to a single companion table, cutting n-way joins to one and speeding reads, inserts, modifies and deletes. Also covers SetLoadFields guidance, the new read committed locking model, and upcoming removals.",
+  "overview": "The session explains why table extensions stored in separate tables caused n-way joins, and how the new schema keeps one companion table for all extension fields. It reports read performance as the biggest gain, with smaller gains for modify, insert and delete. Gains depend on the number of extensions and on code organization, and a single extension shows little difference.\n\nIt then covers cloud migration support in version 23, database views for on-premises ETL and BI tools, SetLoadFields and a new method for base table owners, cleanup of orphaned extension data, and a new locking model based on read committed. It closes with upcoming changes and a recommendation to test with BCPT.",
+  "key_points": [
+    "Table extension fields are now stored in one companion table per base table, so a read needs one join instead of n. A customer with 70 extensions goes from a 70-way join to a one-way join.",
+    "Reported gains: reads scale nearly flat as extensions increase, modify up to 2x faster, insert about 2x, delete 2 to 5x. The benefit is visible mainly with 2 or more extensions. Server caches must be flushed when measuring reads.",
+    "Version 23 includes cloud migration support from earlier versions to the new schema. On-premises upgrades write more data and may take longer.",
+    "On-premises ETL or BI tools with direct database access can keep working through database views that mimic the new schema. Direct database access is not officially supported, and code samples are on GitHub.",
+    "SetLoadFields is still useful for limiting loaded fields and hitting covering indexes. A new method lets base table owners set all base fields at once, shown on the VAT Entry table.",
+    "The new locking model uses read committed instead of update lock for new record instances. It is on by default for new tenants. Existing tenants opt in via feature management and restart the environment. Test it with BCPT for errors, logging issues and deadlocks.",
+    "Orphaned extension data left after uninstall now affects performance and capacity, and can be deleted in installed extensions. Force Order and Loop Joins server settings are removed in 2024 release wave one. On-premises writes to the app database stop in the next release."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "b9f229455b0201bf2052049a0b2d114ca47694d06c4df070c293d9dab3e0234f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0276224
+  }
+}

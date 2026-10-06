@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/al-language-tests-executable-spec/",
   "published_at": "2026-09-03T04:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:48.163Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-al-language-tests-executable-spec--79efdf9030.md",
+      "words": 977
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:57.522Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006737
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:57.524Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:57.525Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:57.528Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-al-language-tests-executable-spec--79efdf9030.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "74150515af7bf5303fb19b74f76458cab096b571bba6b8e5178aea6936cc10e7"
 }

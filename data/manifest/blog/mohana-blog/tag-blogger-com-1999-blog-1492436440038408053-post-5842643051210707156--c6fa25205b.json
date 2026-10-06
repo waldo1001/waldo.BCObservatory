@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/public-preview-for-business-central-290.html",
   "published_at": "2026-09-03T11:53:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:46.919Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md",
+      "words": 583
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:54.767Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005737
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:54.769Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:54.770Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:54.773Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md"
     }
   },
   "input_hash": "2026-09-03T11:53:27.180Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0f17c98edd514fbbc90f52977ba38f1751df774a0d629dd1078a4c538bb0fb19"
 }

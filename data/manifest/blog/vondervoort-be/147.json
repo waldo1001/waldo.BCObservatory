@@ -7,13 +7,39 @@
   "url": "https://www.vondervoort.be/index.php/2026/09/06/alcops-the-story-so-far/",
   "published_at": "2026-09-06T08:54:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:40.248Z",
+      "path": "vault:posts/vondervoort-be/147.md",
+      "words": 621
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:47.731Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006484
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:47.734Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:47.735Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:47.739Z",
+      "path": "content/posts/vondervoort-be/147.md"
     }
   },
   "input_hash": "2026-09-06T08:54:30.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "43125a10983dbfe22065b45c07153f48d9b0b930afe92d767bce206ee814dc98"
 }

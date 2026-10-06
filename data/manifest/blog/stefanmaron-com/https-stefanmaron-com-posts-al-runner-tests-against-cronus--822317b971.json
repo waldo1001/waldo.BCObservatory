@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/al-runner-tests-against-cronus/",
   "published_at": "2026-09-01T16:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:53.520Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-tests-against-cronus--822317b971.md",
+      "words": 1615
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:04.042Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.008299
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:04.043Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:04.044Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:04.047Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-tests-against-cronus--822317b971.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c2798301b9e124c40c2649dcbed729d975c22c283876ee03e33d57cf956a4d8"
 }

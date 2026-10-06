@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=a1LQ3-SCtPE",
   "published_at": "2023-12-18T08:59:18.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,27 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.099895
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:45.214Z",
+      "path": "data/summary/video/a1LQ3-SCtPE.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0276224
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:45.216Z",
+      "systems": [
+        "platform",
+        "development",
+        "finance"
+      ],
+      "topics": 12,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:39:45.231Z",
+      "path": "content/videos/a1LQ3-SCtPE.md"
     }
   },
   "input_hash": null,
@@ -55,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9f229455b0201bf2052049a0b2d114ca47694d06c4df070c293d9dab3e0234f"
+  "output_hash": "93bfe3a98d577e70e18af195d801b7be1991062714639e3d3515913c2aecca04"
 }

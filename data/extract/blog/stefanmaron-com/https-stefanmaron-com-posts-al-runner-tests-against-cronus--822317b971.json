@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-tests-against-cronus/",
+  "url": "https://stefanmaron.com/posts/al-runner-tests-against-cronus/",
+  "title": "AL Runner: Testing Against Real Cronus Data, Debugging Restored, and Mutation-Ready Coverage",
+  "source": "stefanmaron-com",
+  "published_at": "2026-09-01T16:30:00.000Z",
+  "words": 1615,
+  "summary": "AL Runner, a testing tool for Business Central AL code, now supports testing against real Cronus demo data via the --test-data flag, restores breakpoint debugging through Debug Adapter Protocol, enables per-test coverage attribution for mutation testing, and introduces TDD mode for agentic development workflows.",
+  "key_points": [
+    "The --test-data flag hydrates the in-memory test database with 39,231 real rows from the Cronus backup (344 tables), enabling tests to find bugs that only appear with real setup data present.",
+    "Breakpoint debugging restored via --dap protocol with precise pause boundaries aligned to AL statement execution, supporting next/stepIn/stepOut operations.",
+    "Per-test coverage tracking (perTestCoverage field) enables mutation testing tools to narrow down which tests actually exercise a mutated line, reducing test suite execution time from ~5 hours to minutes.",
+    "--tdd mode allows tests referencing unimplemented symbols to fail gracefully rather than causing compilation errors, with inference generating stubs for inferable signatures.",
+    "Behavior change in v2.8.0: compilation now fails when BC's compiler reports errors, matching real BC service tier behavior."
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testing",
+    "debugging",
+    "code quality",
+    "mutation testing",
+    "al runner",
+    "tdd",
+    "coverage"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "bcdb"
+    },
+    {
+      "type": "other",
+      "name": "ALchemist"
+    },
+    {
+      "type": "other",
+      "name": "LethAL"
+    }
+  ],
+  "features": [
+    "Real Cronus data testing",
+    "Breakpoint debugging with Debug Adapter Protocol",
+    "Per-test coverage attribution",
+    "Mutation testing support",
+    "TDD mode",
+    "Watch mode with TDD",
+    "Localized demo data via --country",
+    "NumberSequence support"
+  ],
+  "versions": [
+    "2.10.0",
+    "2.8.0",
+    "2.2",
+    "2.3",
+    "28.1",
+    "27.5"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008299,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/dynamics-nav-gp-and-sl-why-i-think.html",
+  "title": "Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now",
+  "source": "mohana-blog",
+  "published_at": "2026-09-01T15:02:04.000Z",
+  "words": 1100,
+  "summary": "Migration from Dynamics NAV, GP, or SL to Business Central should be planned early rather than waiting until lifecycle deadlines. The post emphasizes that successful migration requires assessing the current environment, deciding what to migrate, cleaning up unnecessary complexity, and redesigning processes for Business Central's architecture rather than simply converting everything.",
+  "key_points": [
+    "Start migration planning early even if you don't migrate immediately, as understanding your current environment takes time",
+    "Use migration as an opportunity to evaluate what actually matters versus unnecessary customizations and historical data",
+    "Business Central's different architecture means existing NAV customizations may need redesign rather than conversion",
+    "Having migration tools like those for GP cloud migration doesn't eliminate the need for business decisions about what to migrate",
+    "Assessment and preparation activities like data cleanup, testing options, and mock migrations reduce surprises in production"
+  ],
+  "systems": [
+    "finance",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "migration",
+    "planning",
+    "dynamics nav",
+    "dynamics gp",
+    "data migration",
+    "customization",
+    "lifecycle"
+  ],
+  "objects": [],
+  "features": [
+    "cloud migration capabilities",
+    "data migration",
+    "historical data migration",
+    "customization assessment",
+    "integration planning"
+  ],
+  "versions": [
+    "NAV 2017",
+    "GP 2015 and later",
+    "Business Central"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006097,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The difficult part is deciding what should be migrated in the first place.",
+      "why_it_matters": "Identifies that the real migration challenge is business analysis, not technical data movement"
+    },
+    {
+      "text": "Migration Is an Opportunity to Clean Things Up",
+      "why_it_matters": "Reframes migration as a chance to eliminate unnecessary complexity and technical debt"
+    }
+  ]
+}

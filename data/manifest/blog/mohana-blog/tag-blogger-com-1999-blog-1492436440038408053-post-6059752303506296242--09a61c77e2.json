@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/dynamics-nav-gp-and-sl-why-i-think.html",
   "published_at": "2026-09-01T15:02:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:55.545Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6059752303506296242--09a61c77e2.md",
+      "words": 1100
+    },
+    "extracted": {
+      "at": "2026-10-06T21:40:02.708Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006097
+    },
+    "summarized": {
+      "at": "2026-10-06T21:40:02.709Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:40:02.710Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:40:02.714Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6059752303506296242--09a61c77e2.md"
     }
   },
   "input_hash": "2026-09-01T15:19:17.450Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4eb25391cbf0796f77c44fb8d2b01578b2b1e8f75ab978e22117c21100e1c554"
 }

@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3928",
+  "url": "https://aardvarklabs.blog/2026/09/04/understanding-business-centrals-format-address-codeunit/",
+  "title": "Understanding Business Central’s Format Address Codeunit",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-09-04T12:00:00.000Z",
+  "words": 984,
+  "summary": "Codeunit 365 (Format Address) handles address formatting across Business Central for customers, vendors, and contacts, applying global postal rules based on country configuration. The post explains its architecture, extensibility through integration events, and demonstrates how to extend it with custom logic for compliance or data correction.",
+  "key_points": [
+    "Format Address reads country-specific formatting rules from the Country Region table, making behavior configurable and safe for localization",
+    "The codeunit is highly extensible with OnBefore integration events on each record-specific procedure, allowing custom logic without modifying core behavior",
+    "Each formatted address returns an array of 8 text elements, with the 8th element intentionally left empty for extension use",
+    "Custom extensions can hook into the formatting process to clean data, add location details, or apply region-specific rules without editing reports"
+  ],
+  "systems": [
+    "platform",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "address formatting",
+    "codeunit architecture",
+    "integration events",
+    "extensibility",
+    "global postal rules",
+    "country-specific logic"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Format Address"
+    },
+    {
+      "type": "table",
+      "name": "Country Region"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Contact"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "address formatting",
+    "country-specific postal rules",
+    "integration events",
+    "extensibility hooks",
+    "data validation",
+    "location-based details",
+    "multi-record type support"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00687,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}
