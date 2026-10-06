@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication",
   "published_at": "2024-01-29T14:53:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
       "words": 729,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:39.992Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002917
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:40.062Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:40.063Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:40.064Z",
+      "page": false
     }
   },
   "input_hash": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3657c20b06320ee42b0bf0dfdc06dba02dceade6"
+  "output_hash": "5f88b150a6717e8b0aaa602218fa66b7a81e434b8b21b1ce0b3fa8c1c60674e8"
 }

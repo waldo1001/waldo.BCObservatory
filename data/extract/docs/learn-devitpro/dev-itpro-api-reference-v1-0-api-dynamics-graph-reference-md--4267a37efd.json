@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v1.0/api/dynamics_graph_reference.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/api/dynamics_graph_reference",
+  "title": "(v1.0) Microsoft Graph Reference",
+  "blob": "274713b1a633def573487a30f4b56c8ded48c8da",
+  "summary": "API reference documentation for Microsoft Graph resource types available in Business Central, including items, customers, vendors, sales/purchase documents, accounts, financial statements, and employees.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "api reference",
+    "microsoft graph",
+    "resource types",
+    "odata",
+    "rest"
+  ],
+  "objects": [],
+  "features": [
+    "item resource type",
+    "customer resource type",
+    "vendor resource type",
+    "sales invoice",
+    "purchase invoice",
+    "general ledger",
+    "financial statements"
+  ],
+  "versions": [
+    "v1.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002917,
+      "pages_in_call": 8
+    }
+  ]
+}

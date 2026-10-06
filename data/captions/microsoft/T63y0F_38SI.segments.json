@@ -1,0 +1,138 @@
+{
+  "video_id": "T63y0F_38SI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.6,
+      "end": 39.5,
+      "text": "welcome my name is baj Koto and my name is monicaa and we together work at the Microsoft Development Center in Copenhagen working on business Central and integration between business Central and Power Platform and today specifically we will be talking about our new feature uh in our integration with power automate"
+    },
+    {
+      "t": 39.5,
+      "end": 60.4,
+      "text": "a feature that allows you to build flows using copilot I will talk about Power Platform and AI feature and of course our integration with power automate and how you can now use the new uh capability to create flows so let's dive into this is into this feature Power Platform already as you know"
+    },
+    {
+      "t": 60.4,
+      "end": 81,
+      "text": "of different tools allowing you to build um experiences without development using lowco development tools as they call it and it is already infused with AI actually Power Platform already started uh adding features related to AI uh in 2019"
+    },
+    {
+      "t": 81,
+      "end": 101.6,
+      "text": "we have multiple different features right now in Power Platform and multiple Integrations that exist uh to date and of course the the the product that we'll be looking at in this session is power automate allowing you to build flows build automations this tool is already quite nicely integrated with business Central"
+    },
+    {
+      "t": 101.6,
+      "end": 121.6,
+      "text": "and allows you to build approval flows automated flows and custom actions we have separate recording in this event that talks about improvements that we made in this particular area uh in this this wave so please tune into that into that recording when we talk to Partners and our"
+    },
+    {
+      "t": 121.6,
+      "end": 141.8,
+      "text": "customers about how they use business Central and power automate we keep hearing about some challenges uh first of all creators are offered a a list of templates and as we know we have plenty of those isn't that correct mon yes we have more than 70 templates for business Central so we have a lot but still it is not enough it covers some"
+    },
+    {
+      "t": 141.8,
+      "end": 161.8,
+      "text": "scenarios but not everything and of course as an alternative you can start from scratch you can build your flow but it might be challenging you don't know what where where you are looking uh what you are looking for and especially if you are connecting business Central to different other systems you want to send a notification to teams send an"
+    },
+    {
+      "t": 161.8,
+      "end": 181.8,
+      "text": "email uh save something on SharePoint uh act when someone added a new line to an Excel file it is all perfectly possible and easy to do in power automate but you have to know where to start so this new feature is allowing you to add a new flow using just natural"
+    },
+    {
+      "t": 181.8,
+      "end": 202,
+      "text": "language imagine creating a flow with copilot in power automate built directly inside business Central Let's uh talk about how it works Monica can you explain what is needed in order to create that flow yes this is a very simple process so now we have a new Option under the power automate group"
+    },
+    {
+      "t": 202,
+      "end": 222,
+      "text": "that allows you to create flow using co-pilot and power automate so the way it starts is that the user starts by describing what what is that what they want to automate once they have described in a natural language let's say for example they want to automate that whenever a item is created in business Central you also"
+    },
+    {
+      "t": 222,
+      "end": 242.1,
+      "text": "create a new item in a SharePoint list then this input is given to the power automate and then power automate suggest the flow steps that are needed to create this automation once power automate suggest the flow steps so when a record is created add an item in point then the user can"
+    },
+    {
+      "t": 242.1,
+      "end": 262.8,
+      "text": "actually go ahead and fill the necessary parameters that are needed and complete the flow so it's such a simple three-step process super thanks a lot Monica and of course we have video showing you how it is done the best way is to see it in action can we see a demo of course we can so let's just go to the automate"
+    },
+    {
+      "t": 262.8,
+      "end": 273.4,
+      "text": "menu and now we have a new action that allows you to create flows using co-pilot let's see how it looks"
+    },
+    {
+      "t": 273.8,
+      "end": 294,
+      "text": "like so here you have an option to describe what you want to automate and you also have the examples but let's just go ahead and start typing the scenario so in this case I want to say when a new product is added in business Central"
+    },
+    {
+      "t": 294,
+      "end": 304.2,
+      "text": "create a new item in the SharePoint list then the power automate is suggesting the steps to do this"
+    },
+    {
+      "t": 304.2,
+      "end": 324.5,
+      "text": "flow let's go ahead and click next and now it recognizes all the connections that we need to run this flow so of course for the business Central and for SharePoint and the steps are suggested so let's just go ahead and finish the flow so then we just go ahead and fill the parameters that are"
+    },
+    {
+      "t": 324.5,
+      "end": 340.3,
+      "text": "missing so we'll select for example the marketing site and and the products list where we want to add an item whenever a new item is added in business Central and we'll give a"
+    },
+    {
+      "t": 340.3,
+      "end": 360.3,
+      "text": "title and then we'll create flow as you can see the workflow has been added successfully let's see how the flow looks in power automate so this is the flow that has been created using co-pilot and power automate and as you can see the flow has the steps that was suggested and all the parameter that were"
+    },
+    {
+      "t": 360.3,
+      "end": 381.1,
+      "text": "filled and the flow works fine we also have the co-pilot chat so that you can use to add more things in this flow if needed and if you want you can also edit Advanced parameters which were not filled or not required while creating the flow from copilot so that's how easy it was to create a flow using copilot"
+    },
+    {
+      "t": 381.1,
+      "end": 401.6,
+      "text": "thank you Monica we can't wait to see what you guys will build with this feature when it is available for you later in this wave so what what is important this feature is coming as preview later in this wave later in 2024 it will be available for or initially available for business Central"
+    },
+    {
+      "t": 401.6,
+      "end": 421.6,
+      "text": "uh set as English as a language and for power automate environments that are based in USA but later on of course this will change we will be adding this feature making it available uh in other regions as well and of course as always in this event you have multiple other recording that are relevant we have an"
+    },
+    {
+      "t": 421.6,
+      "end": 441.9,
+      "text": "a fantastic recording about integration with power platforms that we actually uh did together uh we have also a a a session about integration with data verse that talks about the data verse virtual tables also important for Power Platform and we also have a session that talks about changes in documentation"
+    },
+    {
+      "t": 441.9,
+      "end": 462.1,
+      "text": "and more stuff around um around integration with with third party systems as always please go to our resources aka. msbc all to find all the links to different uh different tools and setups that you need to cooperate with us uh send us ideas using BC"
+    },
+    {
+      "t": 462.1,
+      "end": 484,
+      "text": "ideas uh work and talk to us using Yammer join our open uh open Office hour sessions uh every now and then we're doing that for Power Platform as well and of course if you are joining us at directions and we will be able talk to talk in person thank you very much that was it for today thank you very"
+    },
+    {
+      "t": 484,
+      "end": 485,
+      "text": "much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1234
+}

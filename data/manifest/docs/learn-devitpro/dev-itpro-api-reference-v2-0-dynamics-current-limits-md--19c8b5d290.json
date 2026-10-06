@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-current-limits",
   "published_at": "2024-10-28T12:05:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c7de1588ce9c007c38e48256c289e44d445296ad",
       "words": 111,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:39.985Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002917
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:39.998Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:39.999Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:40.002Z",
+      "page": false
     }
   },
   "input_hash": "c7de1588ce9c007c38e48256c289e44d445296ad",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7de1588ce9c007c38e48256c289e44d445296ad"
+  "output_hash": "e570b7d8a8e3ac87730b0bd1116b948d35efb441f80133e3d801fb87c4afdf75"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=T63y0F_38SI",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:45:25.387Z",
+      "captions": "auto:en-orig",
+      "duration_s": 485
+    },
+    "captioned": {
+      "at": "2026-10-06T19:45:32.518Z",
+      "path": "data/captions/microsoft/T63y0F_38SI.vtt",
+      "vtt_sha256": "d5bded02d463a15f9cd528cab41dd0e44f2f6155350a78c301acd826eb4bb707",
+      "segments": 25,
+      "words": 1234,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 431,
-    "duration_s": 486,
-    "via": "reconcile"
-  }
+    "duration_s": 485,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5bded02d463a15f9cd528cab41dd0e44f2f6155350a78c301acd826eb4bb707"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v22",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.004076
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:19.950Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:19.951Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:19.959Z",
+      "page": false
     }
   },
   "input_hash": "ac3458e8ceea2ba2137089336aef75f72f19490b",

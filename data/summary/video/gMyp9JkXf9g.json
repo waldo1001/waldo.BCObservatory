@@ -1,0 +1,28 @@
+{
+  "video_id": "gMyp9JkXf9g",
+  "item_id": "video/yt-microsoft/gMyp9JkXf9g",
+  "summary": "Excel reports for finance and sales in Business Central, 2024 release wave 1: trial balance (in preview), receivables and payables aging and customer top list (generally available), plus Copilot in Excel data analysis (in preview). Covers aggregation limits, roadmap and a Copilot outlier detection demo.",
+  "overview": "The session covers the Excel reports released in the April 2024 wave, where eight reports were released across trial balance, payables and receivables. It shows how to find the reports, then walks through the trial balance report, the accounts receivable aging report and the customer top list.\n\nIt also explains data limits: the reports use aggregated data, not transaction-level detail. The session lists reports planned for later, then demos Copilot in Excel, including outlier detection. It closes with the point that Copilot suggestions need human review.",
+  "key_points": [
+    "The trial balance Excel report is in preview. The presenter says it is fully functional but may have design changes.",
+    "Trial balance data is aggregated at account and period level, with no daily totals, and is limited to about 100,000 rows for performance.",
+    "Trial balance uses dimensions and account categories as slicers, and has local currency and additional reporting currency versions.",
+    "The accounts receivable aging report is generally available. It filters by due date, period length and count, and shows data aggregated per customer per period, not at transaction level.",
+    "The customer top list report is generally available. It shows top customers by sales or balance with a chart, and the top count can be changed, for example to 100.",
+    "The accounts payable aging report is generally available. It can skip vendors with zero balance and shows aggregated data per vendor per period.",
+    "Copilot in Excel (in preview) can analyze report data and detect outliers with machine learning. It needs larger datasets than the demo data, and its suggestions need human verification."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "458a97244bf6f7b03ded71bcbb847cf77d788d914b7a02d040db8267b25f8c86",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015504399999999998
+  }
+}

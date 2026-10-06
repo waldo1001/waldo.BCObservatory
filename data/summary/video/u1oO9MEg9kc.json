@@ -1,0 +1,27 @@
+{
+  "video_id": "u1oO9MEg9kc",
+  "item_id": "video/yt-microsoft/u1oO9MEg9kc",
+  "summary": "G/L account revaluation in Business Central (2024 release wave 1): a batch job that adjusts G/L balances per currency, plus controls for which currencies can post to an account. Shows single and multiple currency demos and compares it with the standard currency exchange rate adjustment batch job.",
+  "overview": "The video covers the 2024 release wave 1 changes for multi-currency G/L accounts. The original currency code can now be stored on G/L entries, which the presenter says was a top request for over 5 years with more than 500 votes. Accounts can also be set to allow a single currency, multiple currencies, or any currency.\n\nThe demos turn on the feature in feature management, set up a revaluation account, and run the revaluation for a euro loan and then a Canadian dollar scenario with multiple currencies configured on the account. The video then compares G/L revaluation with the standard currency exchange rate adjustment batch job and gives recommendations on when to use each.",
+  "key_points": [
+    "Turn the feature on in feature management with the setting 'Enable use of GL currency revaluation'.",
+    "G/L revaluation adjusts the balance per currency, not each entry.",
+    "Allowed currencies are set per G/L account: blank, a single currency, or multiple currencies through the related Source currencies table.",
+    "The presenter recommends one currency per account; multiple currencies were shown for demo purposes.",
+    "Do not use G/L revaluation for bank, customer or vendor accounts, which have their own adjustment mechanisms.",
+    "The standard currency exchange rate adjustment batch job is separate. It handles customers, vendors, employees and bank accounts, and can now adjust per entry.",
+    "Check that per-balance revaluation meets your reporting requirements before adopting it."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "b0eec6b99600b3fe04ff980d1c66fb325a053dacecc1d515753380b549222fe7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015230400000000002
+  }
+}

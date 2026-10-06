@@ -1,0 +1,335 @@
+{
+  "video_id": "gMyp9JkXf9g",
+  "item_id": "video/yt-microsoft/gMyp9JkXf9g",
+  "title": "What's New: Excel Reports for Finance and Sales (2024 release wave 1)",
+  "duration_s": 1099,
+  "systems": [
+    "finance",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "excel reports",
+    "trial balance",
+    "accounts receivable",
+    "accounts payable",
+    "aging reports",
+    "copilot in excel",
+    "data analysis",
+    "report discovery",
+    "customer top list"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 57.6
+    },
+    {
+      "title": "Discovering Excel reports",
+      "t_start": 57.6,
+      "t_end": 118.2
+    },
+    {
+      "title": "Finance reports - trial balance",
+      "t_start": 118.2,
+      "t_end": 280.6
+    },
+    {
+      "title": "Excel report limitations and data aggregation",
+      "t_start": 280.6,
+      "t_end": 352.8
+    },
+    {
+      "title": "Sales reports - receivables and top customers",
+      "t_start": 352.8,
+      "t_end": 563.4
+    },
+    {
+      "title": "Roadmap and upcoming reports",
+      "t_start": 563.4,
+      "t_end": 685
+    },
+    {
+      "title": "Copilot capabilities introduction",
+      "t_start": 685,
+      "t_end": 720.7
+    },
+    {
+      "title": "Copilot in Excel demo - outlier detection",
+      "t_start": 720.7,
+      "t_end": 900.1
+    },
+    {
+      "title": "Key takeaways and user recommendations",
+      "t_start": 900.1,
+      "t_end": 981.4
+    },
+    {
+      "title": "Additional resources and closing",
+      "t_start": 981.4,
+      "t_end": 1099
+    }
+  ],
+  "features": [
+    {
+      "name": "Trial balance Excel report",
+      "description": "Excel report showing trial balance data with dimensions and account categories as slicers for easy filtering. Includes both local currency and additional reporting currency versions. Laid out as a printable report template with raw data for pivot tables and charting.",
+      "status": "preview",
+      "status_evidence_t": 78.1,
+      "status_evidence_quote": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional",
+      "status_evidence_verified": true,
+      "t_start": 118.2,
+      "t_end": 259.9,
+      "is_demoed": true,
+      "caveats": [
+        "Aggregated at account and period level without daily totals",
+        "Data limited to approximately 100,000 rows for performance"
+      ],
+      "tags": [
+        "trial balance",
+        "finance",
+        "aggregated data",
+        "dimensions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Accounts receivable aging report",
+      "description": "Excel report showing customer aging with filtering by due date, period length and count. Offers multiple views by period, local currency, functional currency, and breakdown by currency. Includes detail per customer per period with dimensional breakdown.",
+      "status": "ga",
+      "status_evidence_t": 583.5,
+      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status_evidence_verified": true,
+      "t_start": 352.8,
+      "t_end": 523,
+      "is_demoed": true,
+      "caveats": [
+        "Aggregated data, not detailed customer transaction level",
+        "Finer granularity available in future releases"
+      ],
+      "tags": [
+        "accounts receivable",
+        "aging",
+        "sales",
+        "customers"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Customer top list report",
+      "description": "Simple Excel report showing top customers by sales or balance with included chart. Allows customization of top count (e.g. top 100 instead of just top 10) and filtering.",
+      "status": "ga",
+      "status_evidence_t": 583.5,
+      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status_evidence_verified": true,
+      "t_start": 352.8,
+      "t_end": 424.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer",
+        "top list",
+        "sales",
+        "ranking"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Accounts payable aging report",
+      "description": "Excel report for vendor aging showing payable aging by due date with period length and count filtering. Includes ability to skip vendors with zero balance. Multiple worksheets show printable format and aggregated data views.",
+      "status": "ga",
+      "status_evidence_t": 583.5,
+      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status_evidence_verified": true,
+      "t_start": 352.8,
+      "t_end": 523,
+      "is_demoed": false,
+      "caveats": [
+        "Aggregated data per vendor per period",
+        "Detailed transaction level data coming in future releases"
+      ],
+      "tags": [
+        "accounts payable",
+        "aging",
+        "vendors",
+        "payables"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copilot in Excel - data analysis",
+      "description": "Copilot integration with Excel reports for deeper data analysis. Allows users to ask questions about data, identify patterns and insights. Features outlier detection using machine learning to identify suspicious patterns in datasets.",
+      "status": "preview",
+      "status_evidence_t": 720.7,
+      "status_evidence_quote": "right now in preview as of April or March 2024",
+      "status_evidence_verified": true,
+      "t_start": 720.7,
+      "t_end": 900.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires larger datasets beyond demo data to function effectively",
+        "Copilot suggestions require human verification and analysis"
+      ],
+      "tags": [
+        "copilot",
+        "excel",
+        "ai",
+        "outlier detection",
+        "data analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Open in Excel functionality",
+      "description": "Capability to open Business Central data directly in Excel for analysis, complementing the new Excel reports functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 685,
+      "t_end": 705.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "data export",
+        "analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial balance",
+      "t": 138.3
+    },
+    {
+      "type": "report",
+      "name": "Age receivables",
+      "t": 138.3
+    },
+    {
+      "type": "report",
+      "name": "Age payables",
+      "t": 138.3
+    },
+    {
+      "type": "report",
+      "name": "Top list",
+      "t": 138.3
+    },
+    {
+      "type": "report",
+      "name": "Customer top report",
+      "t": 373
+    },
+    {
+      "type": "report",
+      "name": "Consolidation reports",
+      "t": 603.5
+    },
+    {
+      "type": "report",
+      "name": "Closing trial balances",
+      "t": 603.5
+    },
+    {
+      "type": "report",
+      "name": "Balance to date reports",
+      "t": 603.5
+    },
+    {
+      "type": "report",
+      "name": "Asset list",
+      "t": 644
+    },
+    {
+      "type": "page",
+      "name": "Report Explorer",
+      "t": 78.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nilson",
+      "confidence": "high"
+    },
+    {
+      "name": "Kenny Pontop",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 78.1,
+      "text": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional",
+      "why_it_matters": "Clarifies that preview reports are fully operational despite potential design iterations before GA release.",
+      "check": "exact"
+    },
+    {
+      "t": 280.6,
+      "text": "for the trial balance uh we have decided that the aggregation level is of course accounts the",
+      "why_it_matters": "Explains key design decisions for Excel reports based on platform limitations and the 100,000 row performance threshold.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 300.8,
+      "text": "we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there",
+      "why_it_matters": "Shows how aggregated data is structured with dimensional breakdown to enable slicing and dicing.",
+      "check": "snapped"
+    },
+    {
+      "t": 583.5,
+      "text": "in this release in in in the first wave uh April wave we have released eight reports the trial balances and payables and receivables",
+      "why_it_matters": "Confirms the exact set of reports delivered in the 2024 release wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 583.5,
+      "text": "we want to include uh more Finance reports the consolidation reports the uh closing trial balances uh we want to include more reports for",
+      "why_it_matters": "Details the roadmap for upcoming Excel reports in future waves.",
+      "check": "exact"
+    },
+    {
+      "t": 720.7,
+      "text": "right now in preview as of April or March 2024 U there's also new things coming in Excel and since Excel reports are in",
+      "why_it_matters": "Confirms Copilot in Excel is in preview and available as of April 2024, with integration to Excel reports.",
+      "check": "exact"
+    },
+    {
+      "t": 881.6,
+      "text": "we have machine learning on AI to suggest something for a human being to go and control so I'm always in the loop I",
+      "why_it_matters": "Emphasizes the human-in-the-loop design of AI features where copilot suggests but users verify findings.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 78.1,
+      "kind": "preview",
+      "text": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional"
+    },
+    {
+      "t": 720.7,
+      "kind": "preview",
+      "text": "right now in preview as of April or March 2024"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028228
+    }
+  ]
+}

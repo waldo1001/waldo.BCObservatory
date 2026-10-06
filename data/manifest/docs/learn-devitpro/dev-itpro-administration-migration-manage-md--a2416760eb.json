@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage",
   "published_at": "2024-03-01T07:49:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
       "words": 1543,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:39.991Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002917
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:40.060Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:40.060Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:40.061Z",
+      "page": false
     }
   },
   "input_hash": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e657795608b4615d25fe58a921aa55c3bdbdb69"
+  "output_hash": "6bbba853a68fafcc29c915ec7c3e32e7fb0df6ac8e896dc59a02c5f776db4e1b"
 }
