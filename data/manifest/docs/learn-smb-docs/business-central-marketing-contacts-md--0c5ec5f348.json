@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-contacts",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db",
       "words": 189,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:01.902Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:01.932Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.940Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.948Z",
+      "page": false
     }
   },
   "input_hash": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db"
+  "output_hash": "bd62f93d0d4567a4ac53596521c26046fe25d0a2b581996dc53e65736f7d763c"
 }

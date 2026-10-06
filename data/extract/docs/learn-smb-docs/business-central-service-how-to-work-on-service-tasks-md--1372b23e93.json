@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-to-work-on-service-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-work-on-service-tasks",
+  "title": "How to work on service tasks",
+  "blob": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358",
+  "summary": "Work on service tasks by allocating resources, registering service operations, spare parts, fault/resolution codes, and updating repair status on service item worksheets.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service tasks",
+    "repair",
+    "spare parts",
+    "service operations",
+    "allocation status",
+    "repair status",
+    "fault codes",
+    "service items"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Lines"
+    },
+    {
+      "type": "page",
+      "name": "Fault/Resolution Codes Relationships"
+    }
+  ],
+  "features": [
+    "work on service tasks",
+    "register service operations",
+    "register spare parts",
+    "replace service item components",
+    "change response time",
+    "register fault/resolution codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002875,
+      "pages_in_call": 8
+    }
+  ]
+}

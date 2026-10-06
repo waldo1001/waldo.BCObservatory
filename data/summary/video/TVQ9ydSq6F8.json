@@ -1,0 +1,26 @@
+{
+  "video_id": "TVQ9ydSq6F8",
+  "item_id": "video/yt-microsoft/TVQ9ydSq6F8",
+  "summary": "Adding resources (test data, sample data, configuration files, images) to Business Central AL extensions, using NAV App resource functions and a resourceFolders property in app.json. Covers size limits and access scope. Demo uses a recipe app and Business Central 25.2 or later.",
+  "overview": "The video shows how to package files inside an AL extension and read them at runtime. A recipe demo stores data in a table and displays it on a page, with the data coming from a JSON resource file. Resource folders are declared in app.json, and the NAV App functions read the files as resource, text, JSON, or blob data.\n\nIt also covers the limits. Resources are only accessible from the app that owns them, individual files and total size are capped, and resources are treated as code for source download policies. The presenter says the limits may change as usage data is collected.",
+  "key_points": [
+    "The speaker introduces the feature for Business Central 25.2 or later.",
+    "app.json has a new resource folders property that takes an array, so several folders can hold resources.",
+    "NAV App.Get Resource As Json reads a resource file as JSON; related functions are get Resource, get Resource as text, and list resources.",
+    "NAV App List Resources filters by pattern or folder, such as *.jpg, and returns all resources if no pattern is given.",
+    "Resources can only be accessed within the app that owns them, so a dependent app cannot read them.",
+    "Limits: 16 MB per resource file, 256 MB total per extension, and at most 256 files. The presenter says these may change.",
+    "Resources are treated as code: with allow downloading enabled they are downloaded with source code, and with it disabled they are not included."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "6abaaacd4092a15bbd99d872667e425ca710b72ebbaae5e9420bcb5a63eaa2d5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0126204
+  }
+}

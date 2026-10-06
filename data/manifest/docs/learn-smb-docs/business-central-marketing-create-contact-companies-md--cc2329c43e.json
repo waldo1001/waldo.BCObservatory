@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a",
       "words": 1368,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:01.904Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:01.955Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.957Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.969Z",
+      "page": false
     }
   },
   "input_hash": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a"
+  "output_hash": "79e28c6403cff57032578c107624f261e8bdf1f3b7c38c1d925a855bd936f63d"
 }

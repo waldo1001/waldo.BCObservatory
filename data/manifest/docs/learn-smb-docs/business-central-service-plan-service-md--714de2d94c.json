@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-plan-service",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "538d31892964e43aadefc6956862c8ecaa208cc1",
       "words": 209,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:59.987Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:00.013Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.872Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.874Z",
+      "page": false
     }
   },
   "input_hash": "538d31892964e43aadefc6956862c8ecaa208cc1",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "538d31892964e43aadefc6956862c8ecaa208cc1"
+  "output_hash": "be69adb8d7330d2eda49a043142b32db2205b726eceaf8b8b32fa335e910552a"
 }

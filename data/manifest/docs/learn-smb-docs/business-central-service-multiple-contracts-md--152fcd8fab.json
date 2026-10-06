@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-multiple-contracts",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a62101a55b0fc9355c1669bfe0f172832927d585",
       "words": 342,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:59.985Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:00.001Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:00.004Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:00.006Z",
+      "page": false
     }
   },
   "input_hash": "a62101a55b0fc9355c1669bfe0f172832927d585",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a62101a55b0fc9355c1669bfe0f172832927d585"
+  "output_hash": "79550b8d88b4a936eed713a0e5336d29ca8c4277f8b246799d7a0325162e5751"
 }

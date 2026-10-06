@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-create-contact-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies",
+  "title": "Create business contacts",
+  "blob": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a",
+  "summary": "Create and manage contact cards for people and companies, synchronize contact data with customers, vendors, employees and banks, and link contacts to existing business entities.",
+  "systems": [
+    "crm",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "contacts",
+    "contact creation",
+    "business relations",
+    "data synchronization",
+    "customer conversion",
+    "vendors"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Business Relations"
+    }
+  ],
+  "features": [
+    "contact type selection",
+    "person contacts",
+    "company contacts",
+    "create contacts from customers",
+    "create contacts from vendors",
+    "create contacts from bank accounts",
+    "synchronize contacts",
+    "link existing entities",
+    "inheritance settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003171,
+      "pages_in_call": 8
+    }
+  ]
+}

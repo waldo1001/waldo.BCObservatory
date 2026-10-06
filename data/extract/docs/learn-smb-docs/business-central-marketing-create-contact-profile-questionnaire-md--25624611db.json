@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-create-contact-profile-questionnaire.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire",
+  "title": "Use profiles to classify contacts",
+  "blob": "f7b06f9191293fdadd9789a58b8e554ca7853bd9",
+  "summary": "Set up profile questionnaires to classify and rate business contacts according to custom criteria and point values, enabling targeted marketing campaigns.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "contacts",
+    "questionnaires",
+    "classification",
+    "rating",
+    "profiling",
+    "campaigns"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Questionnaire Setup"
+    },
+    {
+      "type": "page",
+      "name": "Profile Questionnaire Setup"
+    },
+    {
+      "type": "page",
+      "name": "Profile Question Details"
+    },
+    {
+      "type": "page",
+      "name": "Answer Points"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    }
+  ],
+  "features": [
+    "profile questionnaires",
+    "automatic classification",
+    "answer points",
+    "rating system",
+    "contact categorization",
+    "auto contact classification",
+    "custom questions",
+    "prospect segmentation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003171,
+      "pages_in_call": 8
+    }
+  ]
+}

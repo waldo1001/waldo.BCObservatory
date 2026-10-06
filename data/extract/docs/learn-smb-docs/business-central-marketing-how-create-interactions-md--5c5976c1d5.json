@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-how-create-interactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-interactions",
+  "title": "Create interactions on contacts and segments",
+  "blob": "c3aea68f871d67c52d7398b80a5d4a7c2400b4d7",
+  "summary": "Record communications with contacts and segments by creating interactions through an assisted setup guide, tracking email, phone calls, meetings, and other contact activities.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "interactions",
+    "communications",
+    "contact logging",
+    "segments",
+    "activity tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Salesperson"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Log Entry"
+    },
+    {
+      "type": "page",
+      "name": "Segments"
+    },
+    {
+      "type": "page",
+      "name": "Log Segment"
+    },
+    {
+      "type": "page",
+      "name": "Logged Segment"
+    },
+    {
+      "type": "page",
+      "name": "Postponed Interactions"
+    }
+  ],
+  "features": [
+    "Create Interaction action",
+    "interaction templates",
+    "segment interactions",
+    "postponed interactions",
+    "interaction personalization",
+    "Log action",
+    "Resume action",
+    "Create Follow-up Segment checkbox"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003171,
+      "pages_in_call": 8
+    }
+  ]
+}

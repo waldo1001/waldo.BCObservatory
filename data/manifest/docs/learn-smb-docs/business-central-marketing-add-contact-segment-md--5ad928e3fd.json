@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0af3ec5de060ef1895f9c7ad19ab52024d45d3f3",
       "words": 450,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:01.900Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:01.914Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.915Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.917Z",
+      "page": false
     }
   },
   "input_hash": "0af3ec5de060ef1895f9c7ad19ab52024d45d3f3",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0af3ec5de060ef1895f9c7ad19ab52024d45d3f3"
+  "output_hash": "e2361558d68cd29daea8ef48160070350d08b327701c2c75186a22ceed5a4ed5"
 }

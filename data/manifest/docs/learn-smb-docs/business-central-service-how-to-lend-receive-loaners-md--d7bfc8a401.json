@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-lend-receive-loaners",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe",
       "words": 258,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:59.982Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:59.992Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:59.994Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:59.995Z",
+      "page": false
     }
   },
   "input_hash": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe"
+  "output_hash": "0220115adf76ec5d7c114e5da284b27b5dbd7a908a64735eaa70d3204cc0e61f"
 }

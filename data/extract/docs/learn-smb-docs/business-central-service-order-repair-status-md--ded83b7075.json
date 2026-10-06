@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-order-repair-status.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-order-repair-status",
+  "title": "Set up statuses for service orders and repairs | Microsoft Docs",
+  "blob": "0e4cca19a24e6f9009483e1d4244d97d66ee94df",
+  "summary": "Set up repair status codes and service order status options with priority levels to track progress of service item repair and maintenance in service orders.",
+  "systems": [
+    "service",
+    "administration"
+  ],
+  "topics": [
+    "repair status",
+    "service order status",
+    "status priorities",
+    "posting allowed",
+    "service setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Order Status"
+    },
+    {
+      "type": "page",
+      "name": "Repair Status"
+    }
+  ],
+  "features": [
+    "repair status setup",
+    "service order status configuration",
+    "priority levels",
+    "posting allowed control",
+    "pending status allowed"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002875,
+      "pages_in_call": 8
+    }
+  ]
+}

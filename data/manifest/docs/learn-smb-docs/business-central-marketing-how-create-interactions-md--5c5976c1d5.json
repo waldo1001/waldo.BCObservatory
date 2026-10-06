@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-interactions",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c3aea68f871d67c52d7398b80a5d4a7c2400b4d7",
       "words": 336,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:01.906Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003171
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:01.981Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.983Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.984Z",
+      "page": false
     }
   },
   "input_hash": "c3aea68f871d67c52d7398b80a5d4a7c2400b4d7",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3aea68f871d67c52d7398b80a5d4a7c2400b4d7"
+  "output_hash": "1efe246cba3149402b564a377cda7ab5f382174f35c683ff4dc5233c0ed445ef"
 }

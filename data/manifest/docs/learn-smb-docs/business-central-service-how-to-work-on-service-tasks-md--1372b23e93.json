@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-work-on-service-tasks",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358",
       "words": 1233,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:59.984Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:59.997Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:59.998Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:00.000Z",
+      "page": false
     }
   },
   "input_hash": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7f3a406e467e5eca863d0c0f6d8c3a0ea251358"
+  "output_hash": "f6dfd69b86af59cf5cd7fedb4c9fa6b58b9c56455e78d3c2e49eb2a72a6ceab9"
 }

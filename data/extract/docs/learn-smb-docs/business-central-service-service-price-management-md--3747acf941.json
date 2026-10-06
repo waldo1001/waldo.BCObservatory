@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-service-price-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-price-management",
+  "title": "Service price management",
+  "blob": "0c13648459c06a79398c2d8ae90e5ee19c6eda15",
+  "summary": "Service price management applies best prices to service orders through price groups, price adjustment structures, and price calculations for items, resources, and costs.",
+  "systems": [
+    "service",
+    "finance"
+  ],
+  "topics": [
+    "service pricing",
+    "price management",
+    "price groups",
+    "price adjustment",
+    "customer pricing",
+    "service profitability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Items"
+    },
+    {
+      "type": "page",
+      "name": "Project Resource Prices"
+    },
+    {
+      "type": "page",
+      "name": "Project Item Prices"
+    },
+    {
+      "type": "page",
+      "name": "Project G/L Account Prices"
+    }
+  ],
+  "features": [
+    "service price groups",
+    "service price adjustment",
+    "price adjustment types",
+    "fixed price",
+    "maximum price",
+    "minimum price",
+    "VAT and discount management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002875,
+      "pages_in_call": 8
+    }
+  ]
+}

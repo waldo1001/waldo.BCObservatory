@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-add-contact-segment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment",
+  "title": "Add contacts to segments",
+  "blob": "0af3ec5de060ef1895f9c7ad19ab52024d45d3f3",
+  "summary": "Add contacts to segments using the Add Contacts batch job, and refine or reduce segment contacts using filters and actions to manage targeted communication groups.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "contacts",
+    "segments",
+    "marketing",
+    "filtering",
+    "batch jobs"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Segment"
+    },
+    {
+      "type": "page",
+      "name": "Add Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Remove Contacts - Refine"
+    },
+    {
+      "type": "page",
+      "name": "Remove Contacts - Reduce"
+    }
+  ],
+  "features": [
+    "Add Contacts action",
+    "Refine Contacts action",
+    "Reduce Contacts action",
+    "Go Back action",
+    "filter criteria"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003171,
+      "pages_in_call": 8
+    }
+  ]
+}

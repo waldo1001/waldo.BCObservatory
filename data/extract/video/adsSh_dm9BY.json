@@ -1,0 +1,172 @@
+{
+  "video_id": "adsSh_dm9BY",
+  "item_id": "video/yt-microsoft/adsSh_dm9BY",
+  "title": "What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)",
+  "duration_s": 292,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "report definitions",
+    "internal description",
+    "introductory paragraphs",
+    "closing paragraphs",
+    "negative amount format",
+    "pdf export",
+    "accounting format",
+    "balance sheet"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to 2025 financial reporting enhancements",
+      "t_start": 0,
+      "t_end": 27.4
+    },
+    {
+      "title": "Internal description field for report authors",
+      "t_start": 27.4,
+      "t_end": 68
+    },
+    {
+      "title": "Introductory and closing paragraphs feature",
+      "t_start": 68,
+      "t_end": 153.5
+    },
+    {
+      "title": "Negative amount formatting for accountants",
+      "t_start": 153.5,
+      "t_end": 226.1
+    },
+    {
+      "title": "Export and formatting options summary",
+      "t_start": 226.1,
+      "t_end": 292
+    }
+  ],
+  "features": [
+    {
+      "name": "Internal description field",
+      "description": "A new field that allows report authors to add internal descriptions to financial reports. This description is separate from the regular description column which appears as a heading in the report.",
+      "status": "announced",
+      "status_evidence_t": 7,
+      "status_evidence_quote": "we have a few things coming up in the 2025 release",
+      "status_evidence_verified": true,
+      "t_start": 7,
+      "t_end": 68,
+      "is_demoed": true,
+      "caveats": [
+        "Internal description should not be used for content that will appear as a heading in the report"
+      ],
+      "tags": [
+        "report authoring",
+        "metadata",
+        "definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Edit introductory and closing paragraphs",
+      "description": "A new menu action that allows users to add text above and below financial reports. This text is displayed when exporting to PDF or Excel, useful for noting report status or approvals.",
+      "status": "announced",
+      "status_evidence_t": 7,
+      "status_evidence_quote": "we have a few things coming up in the 2025 release",
+      "status_evidence_verified": true,
+      "t_start": 68,
+      "t_end": 153.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report export",
+        "pdf",
+        "excel",
+        "text formatting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Negative amount format option",
+      "description": "A new formatting option called negative amount format that allows displaying negative numbers using parenthesis notation instead of minus signs. This is common accounting practice and applies to both screen view and PDF exports.",
+      "status": "announced",
+      "status_evidence_t": 7,
+      "status_evidence_quote": "we have a few things coming up in the 2025 release",
+      "status_evidence_verified": true,
+      "t_start": 153.5,
+      "t_end": 266.3,
+      "is_demoed": true,
+      "caveats": [
+        "Formatting is available as an option on the request page that can be selected per export"
+      ],
+      "tags": [
+        "negative amounts",
+        "formatting",
+        "accounting standards",
+        "export"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "balance sheet",
+      "t": 47.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 7,
+      "text": "if you work with financial reporting in business Central we have a few things coming up in the 2025 release",
+      "why_it_matters": "Establishes the timeframe and scope - these are announced features for the 2025 release",
+      "check": "exact"
+    },
+    {
+      "t": 27.4,
+      "text": "this allows you as a report author to describe what this report is for as an internal description",
+      "why_it_matters": "Clarifies the purpose and audience of the new internal description field",
+      "check": "exact"
+    },
+    {
+      "t": 88.1,
+      "text": "edit introductory and closing paragraphs this allows you to put some text",
+      "why_it_matters": "Describes a key new feature for adding contextual information to exported reports",
+      "check": "fuzzy"
+    },
+    {
+      "t": 208,
+      "text": "a new a new part of this menu is called negative amount format I can choose parenthesis instead",
+      "why_it_matters": "Introduces the new formatting capability that addresses standard accounting practices",
+      "check": "exact"
+    },
+    {
+      "t": 266.3,
+      "text": "we have a lot more here so you'll have to wait for another video to see that maybe in what's cooking",
+      "why_it_matters": "Indicates this is part 1 of a multi-part discussion, with more features to come",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 7,
+      "kind": "coming-later",
+      "text": "we have a few things coming up in the 2025 release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011054
+    }
+  ]
+}

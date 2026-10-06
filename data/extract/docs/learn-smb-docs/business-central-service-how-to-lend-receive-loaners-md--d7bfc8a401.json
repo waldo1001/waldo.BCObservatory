@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-to-lend-receive-loaners.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-lend-receive-loaners",
+  "title": "How to lend service items as substitutes | Microsoft Docs",
+  "blob": "9982037d10ee84f5a9c56d84ec408b1e0d7a61fe",
+  "summary": "Lend and receive service loaners to temporarily replace customer items being serviced, register loaner comments, and manage the loan process through service orders.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "loaners",
+    "service items",
+    "customer service",
+    "temporary replacement",
+    "service operations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Loaner Card"
+    },
+    {
+      "type": "page",
+      "name": "General Service Comment Sheet"
+    },
+    {
+      "type": "page",
+      "name": "Loaners"
+    }
+  ],
+  "features": [
+    "lend loaner items",
+    "receive loaners",
+    "register loaner comments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002875,
+      "pages_in_call": 8
+    }
+  ]
+}

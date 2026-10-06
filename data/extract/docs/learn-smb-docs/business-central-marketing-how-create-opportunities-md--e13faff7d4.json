@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-how-create-opportunities.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-opportunities",
+  "title": "Create Sales Opportunities",
+  "blob": "5eb39c434fdaab1a4a784ec347a3c859920a95c4",
+  "summary": "Create and manage sales opportunities assigned to salespeople and contacts, tracking potential deals through opportunity sales cycles and stages.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "opportunities",
+    "sales pipeline",
+    "contacts",
+    "salespeople",
+    "opportunity management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Opportunity List"
+    },
+    {
+      "type": "page",
+      "name": "Salespeople"
+    },
+    {
+      "type": "page",
+      "name": "Contacts"
+    }
+  ],
+  "features": [
+    "create opportunities",
+    "opportunity sales cycles",
+    "opportunity stages",
+    "salesperson assignment",
+    "contact association"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003171,
+      "pages_in_call": 8
+    }
+  ]
+}

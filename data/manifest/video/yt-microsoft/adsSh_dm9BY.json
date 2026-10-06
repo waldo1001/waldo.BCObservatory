@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)",
   "url": "https://www.youtube.com/watch?v=adsSh_dm9BY",
-  "published_at": null,
+  "published_at": "2025-01-16T13:30:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:00:37.904Z",
+      "captions": "auto:en-orig",
+      "duration_s": 292
+    },
+    "captioned": {
+      "at": "2026-10-06T19:00:42.633Z",
+      "path": "data/captions/microsoft/adsSh_dm9BY.vtt",
+      "vtt_sha256": "3d959526ab3accc27bf80c37d456cc4fbfad5d00ce59da67bdf566a626059812",
+      "segments": 17,
+      "words": 590,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:57.090Z",
+      "path": "data/extract/video/adsSh_dm9BY.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.011054
     }
   },
   "input_hash": null,
@@ -20,6 +47,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 305,
     "duration_s": 292,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07f1ed77c7d4c90a8854765b5337dfa99cab3700310f9b45ddc09075c28d2593"
 }

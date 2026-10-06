@@ -1,0 +1,225 @@
+{
+  "video_id": "TVQ9ydSq6F8",
+  "item_id": "video/yt-microsoft/TVQ9ydSq6F8",
+  "title": "What's Cooking in Business Central: Adding Resources to AL Applications",
+  "duration_s": 379,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al resources",
+    "resource folders",
+    "blob data",
+    "json parsing",
+    "extension packaging",
+    "data pre-population"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Recipe Demo",
+      "t_start": 0,
+      "t_end": 57.8
+    },
+    {
+      "title": "Understanding Resources in AL Code",
+      "t_start": 57.8,
+      "t_end": 118.8
+    },
+    {
+      "title": "NAV App Resource Functions and Configuration",
+      "t_start": 118.8,
+      "t_end": 180
+    },
+    {
+      "title": "Working with JSON and Blob Data",
+      "t_start": 180,
+      "t_end": 253.7
+    },
+    {
+      "title": "Resource Limitations and Scope",
+      "t_start": 253.7,
+      "t_end": 308.2
+    },
+    {
+      "title": "Resource Limits and Summary",
+      "t_start": 308.2,
+      "t_end": 379
+    }
+  ],
+  "features": [
+    {
+      "name": "Resources in AL Extensions",
+      "description": "New capability to package data in Business Central extensions, including test data, sample data, configuration files, and blob data like images. Accessed via NAV App resource functions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.9,
+      "t_end": 57.8,
+      "is_demoed": true,
+      "caveats": [
+        "Resources can only be accessed within the app that owns them",
+        "Single resource file limited to 16 megabytes",
+        "Total resource files per extension limited to 256 megabytes",
+        "Maximum 256 files per extension"
+      ],
+      "tags": [
+        "resources",
+        "packaging",
+        "data",
+        "extension",
+        "blob"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NAV App Get Resource As Json",
+      "description": "Function to read resource files in JSON format. Part of convenience functions for resource interaction alongside get Resource, get Resource as text, and list resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.8,
+      "t_end": 139.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "function",
+        "json",
+        "resource",
+        "nav app"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource Folders Configuration",
+      "description": "New property in app.json called resource folders that allows developers to specify which folders contain resources. Accepts an array to support multiple resource folders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.8,
+      "t_end": 180,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "app.json",
+        "folders"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NAV App List Resources",
+      "description": "Function to list and filter resources by pattern or folder. Supports wildcard patterns like *.jpg or folder paths. Returns all resources if no pattern is specified.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.1,
+      "t_end": 233.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "function",
+        "listing",
+        "pattern matching",
+        "resource"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource Source Code Exposure Policies",
+      "description": "Resources are treated as code. When allow downloading is enabled, resources are downloaded with source code. When disabled, resources are not included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288,
+      "t_end": 328.8,
+      "is_demoed": false,
+      "caveats": [
+        "Additional limitations exist but not fully detailed in demo"
+      ],
+      "tags": [
+        "security",
+        "source code",
+        "exposure policy"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Recipe data storage table",
+      "t": 98.8
+    },
+    {
+      "type": "page",
+      "name": "Recipe display page",
+      "t": 98.8
+    },
+    {
+      "type": "other",
+      "name": "recipe index Json",
+      "t": 139.1
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 26.3,
+      "text": "if you are using business Central 25.2 or later um and to illustrate how this works uh let me show you I have this",
+      "why_it_matters": "Establishes the minimum version requirement for resources feature availability",
+      "check": "exact"
+    },
+    {
+      "t": 98.8,
+      "text": "the first thing here is this function nav app.get Resource as Json um and this is how we interact with resources",
+      "why_it_matters": "Identifies the primary API for accessing resources in JSON format within extensions",
+      "check": "exact"
+    },
+    {
+      "t": 159.8,
+      "text": "in the app. Json there is a new property called resource folders and you just specify whichever folder you want",
+      "why_it_matters": "Shows how developers configure resource locations in their extension configuration",
+      "check": "exact"
+    },
+    {
+      "t": 268,
+      "text": "resources can only be accessed within the app that owns them this means if I have another app that depends on this app I",
+      "why_it_matters": "Critical limitation preventing cross-app resource access",
+      "check": "exact"
+    },
+    {
+      "t": 328.8,
+      "text": "any single resource file can be up to 16 megabytes the total size of all resource files has to be under 256 for a",
+      "why_it_matters": "Defines exact technical limits developers must follow when packaging resources",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 348.8,
+      "kind": "subject-to-change",
+      "text": "we may change this as we collect uh data on usage just to optimize our system but this is what the limits are for now"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01768
+    }
+  ]
+}

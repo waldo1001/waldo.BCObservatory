@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-order-status-and-repair-status",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "962751725f74088066578efc21d8720402520680",
       "words": 674,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:59.989Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:01.879Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:01.880Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:01.882Z",
+      "page": false
     }
   },
   "input_hash": "962751725f74088066578efc21d8720402520680",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "962751725f74088066578efc21d8720402520680"
+  "output_hash": "41673c17d7fafb181158502ae4e587b02b78f304ac2cc65237db7da5394be2dd"
 }
