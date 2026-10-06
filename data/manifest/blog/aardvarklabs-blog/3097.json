@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/04/03/step-by-step-guide-create-agents-in-al-code/",
   "published_at": "2026-04-03T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:29.539Z",
+      "path": "vault:posts/aardvarklabs-blog/3097.md",
+      "words": 2696
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:42.268Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.022812
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:42.269Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:42.270Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:42.272Z",
+      "path": "content/posts/aardvarklabs-blog/3097.md"
     }
   },
   "input_hash": "2026-04-22T00:09:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d3420464b85730977d270c4fa847a8e7908b39993a889588ac16e2e16ac4233"
 }

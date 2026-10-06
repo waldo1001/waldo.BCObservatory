@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/",
+  "title": "BC Friday Tips #69 Item Blocked Fields",
+  "source": "thatnavguy-com",
+  "published_at": "2026-04-10T00:00:00.000Z",
+  "words": 109,
+  "summary": "The Item table in Business Central has multiple blocked fields (Blocked, Sales Blocked, Purchasing Blocked, Service Blocked) that control item restrictions. Checking only the main Blocked field can miss module-specific restrictions and cause logic errors.",
+  "key_points": [
+    "Item table contains multiple separate blocked fields for different modules",
+    "Checking only the generic Blocked field can allow restricted actions like sales on sales-blocked items",
+    "Item Variant and other tables also have multiple blocked fields",
+    "Developers should validate against all relevant blocked fields based on context",
+    "Ignoring module-specific fields creates bugs that only appear in certain scenarios"
+  ],
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item management",
+    "blocked fields",
+    "data validation",
+    "development best practices",
+    "business logic"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Variant"
+    }
+  ],
+  "features": [
+    "Item blocking",
+    "Sales blocking",
+    "Purchasing blocking",
+    "Service blocking"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00399,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If your code only checks the Blocked field, your logic can break.",
+      "why_it_matters": "Highlights the critical risk of incomplete validation that leads to unintended behavior"
+    },
+    {
+      "text": "You may allow actions that should be restricted, such as sales on items that are blocked for sales.",
+      "why_it_matters": "Demonstrates the specific consequence of ignoring module-specific blocked fields"
+    }
+  ]
+}

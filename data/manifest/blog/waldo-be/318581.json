@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2026/04/07/bc-telemetry-buddy-now-with-community-knowledge/",
   "published_at": "2026-04-07T05:36:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:25.357Z",
+      "path": "vault:posts/waldo-be/318581.md",
+      "words": 1069
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:34.664Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.006638
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:34.665Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:34.666Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:34.669Z",
+      "path": "content/posts/waldo-be/318581.md"
     }
   },
   "input_hash": "2026-04-07T05:36:12.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9de27bc7a13d6bcdc16a5413bd3b78fb35bf80d509e8302d1e9568f03fbcec0e"
 }

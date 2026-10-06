@@ -7,7 +7,7 @@
   "url": "https://thedynamicsexplorer.com/2026/04/13/dynamics-365-business-central-how-to-proportionally-split-costs-across-dimensions-using-statistical-accounts-and-allocation-accounts/",
   "published_at": "2026-04-13T09:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T22:00:10.918Z",
       "path": "vault:posts/thedynamicsexplorer-com/37257.md",
       "words": 839
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:18.610Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.005894
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:18.612Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:18.613Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:18.617Z",
+      "path": "content/posts/thedynamicsexplorer-com/37257.md"
     }
   },
   "input_hash": "2026-04-11T08:09:14.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "74ab2958d92a73b64afa890f9d3bbb3938a1e56ea24d04b1c40aa816ff063ed4"
+  "output_hash": "5d2cda3db4f83e69bd7e3ad18e3f2c0c98215b33756b0b23a61a5ed8f3b2e39c"
 }

@@ -7,13 +7,39 @@
   "url": "https://www.kauffmann.nl/2026/04/03/install-agent-designer-if-it-is-missing/",
   "published_at": "2026-04-03T12:50:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:00:25.803Z",
+      "path": "vault:posts/kauffmann-nl/8459.md",
+      "words": 223
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:33.084Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005252
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:33.085Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:33.086Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:33.089Z",
+      "path": "content/posts/kauffmann-nl/8459.md"
     }
   },
   "input_hash": "2026-04-03T12:50:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e8a2772d46be4e58d1200410a7d9defff8fb4a54c11f888f45f4cf3328057a7f"
 }

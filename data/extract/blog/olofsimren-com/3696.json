@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/olofsimren-com/3696",
+  "url": "https://www.olofsimren.com/quality-management-in-business-central-version-28/",
+  "title": "Quality Management in Business Central Version 28",
+  "source": "olofsimren-com",
+  "published_at": "2026-04-08T12:24:46.000Z",
+  "words": 1395,
+  "summary": "Business Central version 28 introduces native quality management functionality that enables inspection of goods across purchase receipts, production, assembly, and sales returns. Organizations can define inspection templates, generate inspections automatically or manually, record results, and enforce quarantine processes - eliminating the need for third-party add-ons for basic quality control requirements.",
+  "key_points": [
+    "Quality inspections can be triggered automatically when posting receipts, completing production orders, or finishing assemblies, or created manually for ad-hoc checks",
+    "Inspection templates define parameters (weight, dimensions, visual checks) and accepted values; generation rules link templates to items, vendors, customers, and processes via table filters",
+    "Quality inspection results control what actions are allowed on inventory (sell, consume, etc.), and workflows can move rejected items to quarantine locations or trigger notifications",
+    "Built-in printouts include Certificate of Analysis, Non Conformance Report, and Inspection Report; inspections can be conducted by item, lot, serial number, or package number",
+    "This native module provides a simpler alternative to existing third-party solutions for organizations with standard quality management needs"
+  ],
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "quality management",
+    "inspection",
+    "quarantine",
+    "compliance",
+    "manufacturing",
+    "process control",
+    "version 28"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Quality Inspection Templates"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection Generation Rules"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection Results"
+    },
+    {
+      "type": "page",
+      "name": "Quality Workflow"
+    },
+    {
+      "type": "report",
+      "name": "Certificate of Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Non Conformance Report"
+    },
+    {
+      "type": "report",
+      "name": "Inspection Report"
+    }
+  ],
+  "features": [
+    "Quality Inspection Templates",
+    "Quality Inspection Generation Rules",
+    "Automatic Inspection Triggering",
+    "Quarantine Control",
+    "Quality Workflows",
+    "Certificate Printing",
+    "Lot and Serial Number Tracking"
+  ],
+  "versions": [
+    "version 28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007898,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

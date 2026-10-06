@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/kauffmann-nl/8459",
+  "url": "https://www.kauffmann.nl/2026/04/03/install-agent-designer-if-it-is-missing/",
+  "title": "Install Agent Designer if it is missing",
+  "source": "kauffmann-nl",
+  "published_at": "2026-04-03T12:50:42.000Z",
+  "words": 223,
+  "summary": "The Agent Designer is included in the 27.4 monthly update and automatically installs in upgraded sandboxes but not production environments. When copying a post-v27.4 production environment to a sandbox, you can manually install the Agent Designer using a specific AppSource URL with its app ID.",
+  "key_points": [
+    "Agent Designer is part of the v27.4 monthly update and auto-installs in upgraded sandboxes",
+    "Production environments do not automatically receive the Agent Designer",
+    "Sandboxes copied from pre-v27.4 production environments need to be upgraded to v27.4 to get the Agent Designer",
+    "Sandboxes copied from post-v27.4 production environments do not auto-receive the Agent Designer but can be manually installed via AppSource URL",
+    "The Agent Designer app ID is 00155c68-8cdd-4d60-a451-2034ad094223"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent designer",
+    "sandbox setup",
+    "installation",
+    "app deployment",
+    "v27.4 update"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Designer",
+    "AppSource installation",
+    "Sandbox environment management"
+  ],
+  "versions": [
+    "27.4",
+    "27.3"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005252,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The Agent Designer is part of the 27.4 monthly update.",
+      "why_it_matters": "Identifies the version where the feature was introduced"
+    },
+    {
+      "text": "Production environments will not get the Agent Designer.",
+      "why_it_matters": "Clarifies that manual installation may be needed for production testing scenarios"
+    }
+  ]
+}

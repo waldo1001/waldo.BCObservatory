@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345",
+  "url": "https://www.sauravdhyani.com/2026/04/untangling-your-books-understanding.html",
+  "title": "Untangling Your Books: Understanding Application of Entries in Business Central",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-04-03T05:30:00.045Z",
+  "words": 651,
+  "summary": "Application of entries is the process of matching transactions like invoices and payments in Business Central to maintain accurate financial records. The post explains what open entries are, why matching is critical for accounting accuracy, and describes two main application methods: manual application and applying during payment posting.",
+  "key_points": [
+    "Open entries are unmatched transactions (lonely socks) such as unpaid invoices or unapplied payments that remain in the system until paired",
+    "Correct application ensures accurate outstanding balances, identifies overdue items, prevents double-counting, and keeps ledgers clean",
+    "Two main application approaches: manual application for complex scenarios and automatic application during payment posting for efficiency",
+    "Item ledger entries often apply automatically when items are sold, but customer and vendor entries typically require manual or configured auto-apply rules"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "application of entries",
+    "open entries",
+    "payment matching",
+    "invoice reconciliation",
+    "ledger entries",
+    "financial accuracy"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entries"
+    }
+  ],
+  "features": [
+    "Application of Entries",
+    "Manual Application",
+    "Auto-Application",
+    "Payment Journals",
+    "Customer Ledger",
+    "Vendor Ledger",
+    "Item Ledger",
+    "Open Entry Tracking"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006127,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Application of entries is not optional - it is fundamental to reliable financial data.",
+      "why_it_matters": "Establishes that application is a core requirement for accurate financial reporting and decision-making, not a nice-to-have feature"
+    }
+  ]
+}

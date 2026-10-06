@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/waldo-be/318581",
+  "url": "https://waldo.be/2026/04/07/bc-telemetry-buddy-now-with-community-knowledge/",
+  "title": "BC Telemetry Buddy .. now with (community) knowledge",
+  "source": "waldo-be",
+  "published_at": "2026-04-07T05:36:07.000Z",
+  "words": 1069,
+  "summary": "BC Telemetry Buddy now includes a two-layer knowledge base that shares telemetry troubleshooting patterns and investigation playbooks across the community. The tool stores both shared community knowledge and local customer-specific insights as markdown files, allowing the AI to start problem-solving with context rather than from scratch.",
+  "key_points": [
+    "Knowledge base has two layers: community articles that ship with the tool and local articles stored in your workspace",
+    "Users can ask the AI to save new telemetry patterns and solutions back to the knowledge base after investigations",
+    "Community articles can be individually excluded if you disagree with their advice",
+    "Knowledge base works across all AI clients (VS Code, Claude Desktop, Cursor, Copilot Chat) at the server level",
+    "Articles are plain markdown files stored in GitHub, encouraging community contributions of proven KQL patterns and playbooks"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "knowledge base",
+    "troubleshooting",
+    "ai agents",
+    "community",
+    "performance",
+    "kql patterns"
+  ],
+  "objects": [],
+  "features": [
+    "community knowledge base",
+    "local knowledge base",
+    "telemetry investigation playbooks",
+    "KQL pattern sharing",
+    "article exclusion",
+    "knowledge base management UI",
+    "GitHub integration",
+    "markdown-based storage"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006638,
+    "posts_in_call": 1
+  }
+}

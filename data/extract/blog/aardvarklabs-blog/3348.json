@@ -1,0 +1,124 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3348",
+  "url": "https://aardvarklabs.blog/2026/04/10/step-by-step-guide-to-secure-business-central-agent-implementations-in-al/",
+  "title": "Step-by-Step Guide to Secure Business Central Agent Implementations in AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-04-10T12:00:00.000Z",
+  "words": 1856,
+  "summary": "This post demonstrates how to secure AI agents in Business Central by implementing restrictive profiles, page customizations, and permission sets. It shows the security risks of overly permissive agent configurations and provides step-by-step AL code examples to limit what agents can see and do.",
+  "key_points": [
+    "Agents should be treated like users and restricted with profiles and permissions following least-privilege principles",
+    "Profile restrictions prevent agents from seeing restricted pages; permission restrictions prevent data modifications",
+    "Page customizations combined with custom role centers limit the UI elements and pages available to agents",
+    "Permission sets should grant only read access to data tables and execute access to necessary pages and codeunits",
+    "Testing is essential to verify agents cannot be tricked into accessing out-of-scope data or modifying protected records"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agent security",
+    "permissions",
+    "profiles",
+    "al development",
+    "access control",
+    "least privilege"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ARD_CashFlowAgentSetup"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CashFlowAgentMetadata"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CashFlowAgentKPILogging"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CashFlowAgentFactory"
+    },
+    {
+      "type": "page",
+      "name": "ARD_CashFlowAgentRoleCenter"
+    },
+    {
+      "type": "page",
+      "name": "ARD_Cash Flow Agent Setup"
+    },
+    {
+      "type": "page",
+      "name": "ARD_Cash Flow Agent KPI"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Vendor List"
+    },
+    {
+      "type": "page",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "ARD_CashFlowAgentKPI"
+    },
+    {
+      "type": "table",
+      "name": "ARD_CashflowAgentSetup"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entry"
+    },
+    {
+      "type": "permissionset",
+      "name": "ARD_CashFlowAgent"
+    }
+  ],
+  "features": [
+    "agent permissions",
+    "profile restrictions",
+    "page customizations",
+    "role centers",
+    "permission sets",
+    "data access scoping",
+    "least privilege access"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.017552,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "We have to assume that if the Agent can do something the agent will do that thing. It is like Murphy's Law.",
+      "why_it_matters": "Justifies implementing least-privilege security design where agents get only minimum necessary permissions"
+    },
+    {
+      "text": "Even with all this effort, you must still test your agents. Can they be tricked into misbehaving? Can it access out of scope data?",
+      "why_it_matters": "Emphasizes that security implementation must be verified through comprehensive testing to catch vulnerabilities"
+    }
+  ]
+}

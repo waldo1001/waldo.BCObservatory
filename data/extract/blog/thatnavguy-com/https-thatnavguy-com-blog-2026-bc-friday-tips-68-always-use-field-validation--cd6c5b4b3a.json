@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/",
+  "title": "BC Friday Tips #68 Always Use Field Validation",
+  "source": "thatnavguy-com",
+  "published_at": "2026-04-03T00:00:00.000Z",
+  "words": 124,
+  "summary": "Field validation in Business Central extensions ensures all business logic runs and prevents data corruption when other apps subscribe to validation events. Bypassing validation can create hidden bugs by skipping trigger logic even when fields appear correct.",
+  "key_points": [
+    "Always validate fields to ensure all business logic executes properly",
+    "Bypassing validation skips trigger logic and can silently corrupt related data",
+    "Other apps can subscribe to field validation events in the extension model",
+    "Valid exceptions exist for temporary records and test data",
+    "AI-generated code may assign values directly without validation, requiring review"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "field validation",
+    "al development",
+    "business logic",
+    "data integrity",
+    "extensions",
+    "best practices"
+  ],
+  "objects": [],
+  "features": [
+    "field validation",
+    "trigger logic",
+    "extension model",
+    "data validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004298,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If you bypass validation, you skip trigger logic.",
+      "why_it_matters": "Explains the core risk of skipping validation and how it breaks the extension architecture"
+    },
+    {
+      "text": "Prevents silent data corruption. Respects integration with other apps.",
+      "why_it_matters": "Highlights the business impact and multi-app ecosystem considerations"
+    },
+    {
+      "text": "It may assign values directly without validation. Trust, but verify.",
+      "why_it_matters": "Warns about AI-generated code risks, relevant for modern development practices"
+    }
+  ]
+}

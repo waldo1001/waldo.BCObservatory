@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37257",
+  "url": "https://thedynamicsexplorer.com/2026/04/13/dynamics-365-business-central-how-to-proportionally-split-costs-across-dimensions-using-statistical-accounts-and-allocation-accounts/",
+  "title": "Dynamics 365 Business Central – How to proportionally split costs across Dimensions using Statistical Accounts and Allocation Accounts",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2026-04-13T09:00:00.000Z",
+  "words": 839,
+  "summary": "This post explains how to automatically split costs across cost center dimensions in Business Central using Statistical Accounts and Allocation Accounts. It demonstrates a scenario where heating expenses are distributed proportionally to departments based on square footage, streamlining accurate cost allocation without manual intervention.",
+  "key_points": [
+    "Statistical Accounts store non-financial metrics like square footage that drive cost allocation calculations",
+    "Allocation Accounts use Statistical Account data to automatically distribute costs across selected dimensions",
+    "When posting purchase invoices to an Allocation Account, the system proportionally splits amounts based on dimension values stored in the Statistical Account",
+    "Updating the Statistical Account journal automatically applies new allocation proportions to future transactions without reconfiguring the Allocation Account"
+  ],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost allocation",
+    "statistical accounts",
+    "allocation accounts",
+    "dimensions",
+    "purchase invoices",
+    "cost centers"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Statistical Accounts"
+    },
+    {
+      "type": "other",
+      "name": "Allocation Accounts"
+    },
+    {
+      "type": "other",
+      "name": "Statistical Accounts Journal"
+    },
+    {
+      "type": "other",
+      "name": "Breakdown account balance filters"
+    }
+  ],
+  "features": [
+    "Statistical Account configuration",
+    "Allocation Account setup",
+    "Dimension-based cost splitting",
+    "Purchase invoice allocation",
+    "Cost distribution automation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005894,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

@@ -7,7 +7,7 @@
   "url": "https://demiliani.com/2026/04/13/dynamics-365-business-central-using-sftp-from-al-the-native-way/",
   "published_at": "2026-04-13T07:50:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T22:00:15.328Z",
       "path": "vault:posts/demiliani-com/13640.md",
       "words": 682
+    },
+    "extracted": {
+      "at": "2026-10-06T22:00:25.631Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006121
+    },
+    "summarized": {
+      "at": "2026-10-06T22:00:25.632Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:00:25.632Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:00:25.636Z",
+      "path": "content/posts/demiliani-com/13640.md"
     }
   },
   "input_hash": "2026-05-04T06:36:43.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b9b12ae35c32c0c264df5aa907554e0654627afa4e425ec00c8504a18d8a98e"
+  "output_hash": "2a671fba54731d404586b98849ef758062ac0e0e245999d1bde04dab0c49e5a2"
 }

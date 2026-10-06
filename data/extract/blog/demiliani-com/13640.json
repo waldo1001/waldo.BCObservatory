@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/demiliani-com/13640",
+  "url": "https://demiliani.com/2026/04/13/dynamics-365-business-central-using-sftp-from-al-the-native-way/",
+  "title": "Dynamics 365 Business Central: using SFTP from AL (the native way)",
+  "source": "demiliani-com",
+  "published_at": "2026-04-13T07:50:43.000Z",
+  "words": 682,
+  "summary": "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers from AL code with multiple authentication methods, though Microsoft announced in April 2026 that this module would be removed due to platform hardening requirements.",
+  "key_points": [
+    "SFTP Client codeunit in System Application uses SSH.NET library for both synchronous and asynchronous SFTP operations",
+    "Supported authentication methods include username/password, username/private key with or without passphrase",
+    "Server fingerprint (SHA256 hash of public key) must be verified before connecting to prevent man-in-the-middle attacks",
+    "Available methods include GetFileAsStream for downloads, ListFiles for directory listing, and DeleteFile for remote file deletion",
+    "Connection is stateful and must be explicitly closed with SFTPClient.Disconnect()"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sftp",
+    "al code",
+    "authentication",
+    "file transfer",
+    "security",
+    "ssh"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SFTP Client"
+    },
+    {
+      "type": "interface",
+      "name": "ISFTP File"
+    },
+    {
+      "type": "codeunit",
+      "name": "SFTP Operation Response"
+    }
+  ],
+  "features": [
+    "SFTP Client module",
+    "SSH-2 library integration",
+    "Public key authentication",
+    "Password authentication",
+    "Keyboard-interactive authentication",
+    "File download via GetFileAsStream",
+    "Directory listing via ListFiles",
+    "File deletion via DeleteFile"
+  ],
+  "versions": [
+    "2026 Wave 1",
+    "v28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006121,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "With Dynamics 365 Business Central 2026 Wave 1 release (v28) Microsoft introduced a new SFTP Client module in System Application",
+      "why_it_matters": "Establishes that this is a new native capability added in the 2026 Wave 1 release"
+    },
+    {
+      "text": "You must always add the fingerprint of the server you want to connect to, before connecting.",
+      "why_it_matters": "Critical security requirement for establishing trusted SFTP connections"
+    }
+  ]
+}
