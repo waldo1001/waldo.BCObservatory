@@ -56,6 +56,10 @@ export interface Budget {
   headroom_scale: { min_headroom_pct: number; factor: number; facts_only?: boolean }[];
   reduced_factor: number;
   concurrency?: number;
+  /** D41: until this run date (inclusive) every nightly runs without quotas or spend caps, also the extra daytime runs. */
+  catch_up?: { until: string | null };
+  /** D41: items a lane may run at once (blog fetches "web"); lanes not listed run one at a time. */
+  lanes?: Record<string, number>;
   /** Checkpoint commits during stage execution (D26): after this many advanced item stages... */
   checkpoint_items?: number;
   /** ...or after this many minutes, whichever comes first; both 0 = only the final commit. */

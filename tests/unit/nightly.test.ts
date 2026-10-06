@@ -8,7 +8,7 @@ import type { PlanUsage } from "../../pipeline/lib/budget.js";
 import { budget, type SourceDef } from "../../pipeline/lib/config.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import { acquireLock } from "../../pipeline/orchestrator/lock.js";
-import { parseArgs, recoverPartialRun, runDate, runNightly, startCheckpoints, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
+import { parseArgs, recoverPartialRun, runDate, runNightly, skipScheduled, startCheckpoints, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
 import type { StageHandlers } from "../../pipeline/orchestrator/execute.js";
 
 const now = new Date("2026-10-07T01:00:00Z");
@@ -29,7 +29,7 @@ function repo(): string {
   return dir;
 }
 function opts(dir: string, over: Partial<NightlyOptions> = {}): NightlyOptions {
-  return { dryRun: false, commit: false, push: false, guard: true, stages: "all", dataDir: join(dir, "data"), cacheDir: join(dir, ".cache"), repoDir: dir, vaultDir: join(dir, "vault"), now, ...over };
+  return { dryRun: false, commit: false, push: false, guard: true, stages: "all", dataDir: join(dir, "data"), cacheDir: join(dir, ".cache"), repoDir: dir, vaultDir: join(dir, "vault"), now, catchUp: false, ...over };
 }
 const lastCommit = (dir: string) => execFileSync("git", ["log", "-1", "--format=%s"], { cwd: dir }).toString().trim();
 const report = (dir: string) => JSON.parse(readFileSync(join(dir, "data/manifest/_runs/2026-10-07.json"), "utf8"));
@@ -142,6 +142,25 @@ test("checkpoints commit every batch of advanced items (or on a timer); a leak f
   await new Promise((r) => setTimeout(r, 120)); // the timer fallback fires, the leak gate skips it
   await blocked.stop();
   assert.deepEqual([blocked.count(), lastCommit(dir)], [0, "content: nightly 2026-10-07 checkpoint 1"]);
+});
+
+test("catch-up mode: every run is unlimited until the configured date, and the report says so", async () => {
+  const dir = repo();
+  const r = await runNightly(opts(dir, { catchUp: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.deepEqual([r.plan.quotas.video_extract, r.spend?.night_cap_usd, r.catch_up !== undefined], [100_000, 100_000, true]);
+  assert.ok(validate("run-report", report(dir)).ok);
+  const capped = await runNightly(opts(dir, { catchUp: true, capOverride: { night_usd: 3 } }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.equal(capped.spend?.night_cap_usd, 3, "a run that sets its own caps is not switched to catch-up");
+});
+
+test("scheduled runs outside the night window skip themselves unless catch-up is on", () => {
+  const cfg = { ...budget(), catch_up: { until: "2026-10-10" } };
+  const day = new Date("2026-10-12T10:00:00Z"), night = new Date("2026-10-12T00:30:00Z"); // 12:00 and 02:30 Brussels
+  assert.equal(skipScheduled({ scheduled: false }, day, cfg), null, "manual dispatches always run");
+  assert.match(skipScheduled({ scheduled: true }, day, cfg) ?? "", /outside the night window/);
+  assert.equal(skipScheduled({ scheduled: true }, night, cfg), null);
+  assert.equal(skipScheduled({ scheduled: true }, new Date("2026-10-08T10:00:00Z"), cfg), null, "catch-up: daytime runs too");
+  assert.equal(parseArgs(["--scheduled"]).scheduled, true);
 });
 
 test("lock: a live holder blocks, a dead holder is taken over", () => {

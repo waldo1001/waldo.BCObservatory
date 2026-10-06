@@ -102,6 +102,8 @@ Deliberate deviations from PLAN, all small:
 - M4 MCP server + plugin done (D35). npm: publish workflow ready (D40); waiting on the owner to add the trusted
   publisher on npmjs.com and dispatch `publish-mcp`. Announcement drafts: docs/announcement/v0.1-draft.md.
 - M3 blogs pillar done (D34): 601 discovered posts flow through fetched (vault) → extracted (Haiku) → published.
+- Catch-up mode until 2026-10-10 (D41): every scheduled run (00/06/12/18 UTC) is unlimited. To end it early, set
+  `catch_up.until` to a past date in config/budget.json.
 - 2026-10-06 evening: unlimited nightly on the Mini, concurrency 6, batch commits every 50 item stages. Two fixes
   made it actually parallel: incremental checkpoint leak gate (D26) and workers that stay until the plan is drained
   (D33). After it ends, the scheduled 01:00 nightly runs with normal caps.

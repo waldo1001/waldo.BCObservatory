@@ -11,8 +11,9 @@
  * - `concurrency` workers share the plan (quota charging is synchronous, so it cannot race). An item in a batch in
  *   flight is claimed and handed back for its next stages when the batch returns. Run-level checks happen before each
  *   call starts, so a cap can be exceeded by at most the calls already in flight.
- * - Lanes: a handler with `lane` (yt-dlp: "youtube") runs one item at a time. A worker never waits on a busy lane:
- *   the item is parked and comes back first when the lane frees, so caption fetches overlap LLM work.
+ * - Lanes: a handler with `lane` (yt-dlp: "youtube") runs one item at a time, or `laneCapacity[lane]` items (blog
+ *   fetches: "web", D41). A worker never waits on a full lane: the item is parked and comes back first when a slot
+ *   frees, so caption and post fetches overlap LLM work.
  */
 import type { Budget, SourceDef } from "../lib/config.js";
 import { decideGuard, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
@@ -103,6 +104,8 @@ export interface ExecuteOptions {
   readUsage?: () => Promise<PlanUsage | PlanUsageUnavailable>;
   /** Called after every item stage that advanced, with the running count (checkpoint commits, D26). */
   onProgress?: (advanced: number) => void;
+  /** Items a lane may run at once; a lane not listed runs one at a time (D41). */
+  laneCapacity?: Record<string, number>;
   /** LLM CLI calls so far; defaults to llmStats().calls. */
   callCount?: () => number;
   /** Items worked on at the same time (each runs its stages in order). Default 1. */
@@ -211,7 +214,8 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   /** Items already handed to a worker or claimed by a batch: the cursor never hands them out again. */
   const visited = new Set<string>();
   /** Lanes in use, and items parked until their lane is free (they come back first through `requeue`). */
-  const laneBusy = new Set<string>();
+  const laneBusy = new Map<string, number>();
+  const laneFull = (lane: string) => (laneBusy.get(lane) ?? 0) >= Math.max(1, o.laneCapacity?.[lane] ?? 1);
   const parked = new Map<string, string[]>();
   const nextId = (): string | null => {
     if (requeue.length) return requeue.shift()!;
@@ -235,7 +239,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     /** Free the lane this item holds and hand it to the first parked item, which runs next. */
     const release = () => {
       if (!holding) return;
-      laneBusy.delete(holding);
+      laneBusy.set(holding, Math.max(0, (laneBusy.get(holding) ?? 1) - 1));
       const waiting = parked.get(holding);
       if (waiting?.length) { requeue.unshift(waiting.shift()!); wakeWorker(); }
       holding = null;
@@ -246,14 +250,14 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
         if (!h) { if (!touched.has(item.id)) r.no_handler++; break; }
         if (h.lane !== holding) release(); // keep a lane across consecutive stages of the same lane
         if (h.lane && holding !== h.lane) {
-          if (laneBusy.has(h.lane)) {
+          if (laneFull(h.lane)) {
             // never wait on a busy lane: park the item and let this worker do other work
             if (!parked.has(h.lane)) parked.set(h.lane, []);
             parked.get(h.lane)!.push(item.id);
             r.parked++;
             break;
           }
-          laneBusy.add(h.lane);
+          laneBusy.set(h.lane, (laneBusy.get(h.lane) ?? 0) + 1);
           holding = h.lane;
         }
         const s = await runStop();

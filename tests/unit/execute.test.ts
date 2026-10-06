@@ -242,6 +242,14 @@ test("lanes: idle workers stay for parked items, so items leaving the lane reach
   assert.ok(llmPeak >= 3, `the LLM stage ran ${llmPeak} at a time; workers must not leave while parked items wait`);
 });
 
+test("lanes: a lane with capacity 3 runs three items at once", async () => {
+  const m = setup(6);
+  let lane = 0, peak = 0;
+  const web: StageFn = async () => { lane++; peak = Math.max(peak, lane); await new Promise((r) => setTimeout(r, 20)); lane--; return {}; };
+  await run(m, allVideo({ fetched: { lane: "web", run: web } }), { concurrency: 6, laneCapacity: { web: 3 } });
+  assert.equal(peak, 3);
+});
+
 test("lanes: concurrency 1 runs everything in plan order without parking", async () => {
   const m = setup(3);
   const order: string[] = [];

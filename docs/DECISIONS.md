@@ -203,3 +203,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `bc-observatory` with provenance; no npm token exists anywhere. Owner approved 2026-10-06. Setup on npmjs.com is the
   owner's (trusted publisher: this repo, this workflow); if npm needs the package to exist first, one manual
   `npm publish` precedes it. Announcement drafts in `docs/announcement/`; the owner publishes them.
+- **D41 Catch-up mode: unlimited runs four times a day until the backlog is in.** `config/budget.json`
+  `catch_up.until` (2026-10-10, owner 2026-10-06): until that run date every nightly behaves as `--unlimited` and its
+  report carries `catch_up`. `nightly.yml` adds cron runs at 06, 12 and 18 UTC (`--scheduled`); outside catch-up a
+  scheduled run outside the night window exits at once (no report, no commit), so normal weeks keep one run a night.
+  Lanes get a capacity (`lanes`): blog fetches 3 at a time, yt-dlp stays at 1 (D15). Why: one unlimited window a day
+  would leave the Mini idle once the week's spend cap binds, while the Learn, video and blog backlog needs about two
+  to three days of continuous work.

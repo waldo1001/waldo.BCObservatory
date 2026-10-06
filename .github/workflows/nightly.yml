@@ -4,6 +4,10 @@ name: nightly
 on:
   schedule:
     - cron: "0 0 * * *" # 01:00 CET / 02:00 CEST
+    # D41: extra runs during catch-up (config/budget.json catch_up.until); outside catch-up they exit at once
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       stages:
@@ -45,6 +49,7 @@ jobs:
           PILLARS: ${{ inputs.pillars }}
           ONLY: ${{ inputs.only }}
           UNLIMITED: ${{ inputs.unlimited }}
+          EVENT: ${{ github.event_name }}
         run: |
           set -euo pipefail
           [[ "$STAGES" == all || "$STAGES" == ingest ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }
@@ -53,6 +58,7 @@ jobs:
           if [[ -n "$PILLARS" ]]; then args+=(--pillars "$PILLARS"); fi
           if [[ -n "$ONLY" ]]; then args+=(--only "$ONLY"); fi
           if [[ "$UNLIMITED" == "true" ]]; then args+=(--unlimited); fi
+          if [[ "$EVENT" == "schedule" ]]; then args+=(--scheduled); fi
           infra/mini/run-nightly.sh "${args[@]}"
       - name: Run summary
         if: always()

@@ -10,6 +10,8 @@
  * --night-cap USD / --week-cap USD replace the spend caps for this run only (owner-requested catch-up runs);
  *   the run report records the override. The scheduled nightly never passes them.
  * --concurrency N overrides config/budget.json concurrency (items and hub calls in flight at once).
+ * --scheduled marks a cron-triggered run: outside the night window and outside catch-up it exits at once (D41).
+ * Catch-up (config/budget.json catch_up.until, D41): until that run date every run behaves as --unlimited.
  * --unlimited (owner-requested catch-up runs): every quota and both spend caps are set to UNLIMITED; the run still
  *   stops at its time window, at a subscription limit (LlmInfraError) and through the usage guard when it can read
  *   usage. The run report shows the quotas and the cap override. The scheduled nightly never passes it.
@@ -79,6 +81,10 @@ export interface NightlyOptions {
   capOverride?: { night_usd?: number; week_usd?: number };
   /** Quotas and spend caps set to UNLIMITED for this run (owner-requested catch-up). */
   unlimited?: boolean;
+  /** Triggered by the workflow's cron (not a manual dispatch). */
+  scheduled?: boolean;
+  /** Catch-up on or off for this run; undefined = from config/budget.json catch_up.until (D41). */
+  catchUp?: boolean;
   /** Items in flight at once; defaults to config/budget.json concurrency. */
   concurrency?: number;
   dataDir: string;
@@ -117,6 +123,8 @@ export interface RunReport {
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
   code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; narratives?: Omit<LocalizationRun, "errors"> };
+  /** Run date up to which catch-up mode (no quotas, no caps) is on, when this run used it (D41). */
+  catch_up?: string;
   /** Checkpoint commits made during stage execution (D26). */
   checkpoints?: number;
   /** check:leak before the commit (D08); findings block the commit. */
@@ -142,12 +150,16 @@ export async function runNightly(opts: NightlyOptions, deps: NightlyDeps): Promi
   }
 }
 
-async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> {
+async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport> {
+  let opts = opts0;
   const started = new Date();
   const now = opts.now ?? started;
   const cfg = budget();
   const date = runDate(now, cfg.window.timezone);
   const errors: string[] = [];
+  // D41 catch-up: until the configured run date every run is unlimited, unless this run set its own caps
+  const catchUp = (opts.catchUp ?? (!!cfg.catch_up?.until && date <= cfg.catch_up.until)) && !opts.capOverride && !opts.dryRun;
+  if (catchUp) { opts = { ...opts, unlimited: true, capOverride: { night_usd: UNLIMITED, week_usd: UNLIMITED } }; log.warn(`catch-up mode until ${cfg.catch_up?.until ?? date}: no quotas, no spend caps`); }
   const caps = { ...cfg.spend_caps, ...(opts.capOverride ?? {}) };
   const spend = spendAllowance(caps, readSpendHistory(resolve(opts.dataDir, "manifest", "_runs"), date));
   if (opts.capOverride) log.warn(`spend caps overridden for this run: night $${caps.night_usd}, week $${caps.week_usd}`);
@@ -165,6 +177,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     runner: { node: process.version, ...(process.env.RUNNER_NAME ? { runner_name: process.env.RUNNER_NAME } : {}) },
     guard, ingest: { sources: [], totals: {} }, plan: { quotas: {}, work: 0, executed: 0 },
     llm: llmStats(), spend: { ...spend, exhausted: spend.allowance_usd <= 0, ...(opts.capOverride ? { override: true } : {}) }, items_changed: 0, errors,
+    ...(catchUp ? { catch_up: cfg.catch_up?.until ?? date } : {}),
   };
   const manifest = new Manifest(resolve(opts.dataDir, "manifest"));
 
@@ -213,7 +226,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       ? startCheckpoints(opts, deps.sources, date, { everyMs: (cfg.checkpoint_minutes ?? 0) * 60_000, everyItems: cfg.checkpoint_items ?? 0 }) : null;
     const execution = await executePlan({
       work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts), mirrorsDir,
-      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers, concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers, concurrency: opts.concurrency ?? cfg.concurrency ?? 1, laneCapacity: cfg.lanes,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
       ...(ck ? { onProgress: ck.progress } : {}),
     });
@@ -524,7 +537,7 @@ export function parseArgs(argv: string[]): NightlyOptions {
   const stages = val("--stages") ?? "all";
   if (stages !== "ingest" && stages !== "all") throw new Error(`--stages must be ingest or all, got ${stages}`);
   return {
-    dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages,
+    dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages, scheduled: has("--scheduled"),
     pillars: list("--pillars") as Pillar[] | undefined, only: list("--only"),
     ...(val("--quota") !== undefined ? { quota: Number(val("--quota")) } : {}),
     ...(has("--unlimited") ? { unlimited: true, capOverride: { night_usd: UNLIMITED, week_usd: UNLIMITED } } : capOverrideArg(val("--night-cap"), val("--week-cap"))),
@@ -534,8 +547,23 @@ export function parseArgs(argv: string[]): NightlyOptions {
   };
 }
 
+/** D41: a cron run outside the night window has nothing to do unless catch-up is on (no report, no commit). */
+export function skipScheduled(opts: Pick<NightlyOptions, "scheduled">, now: Date, cfg = budget()): string | null {
+  if (!opts.scheduled) return null;
+  const date = runDate(now, cfg.window.timezone);
+  if (cfg.catch_up?.until && date <= cfg.catch_up.until) return null;
+  const toMin = (hhmm: string) => { const [h, m] = hhmm.split(":").map(Number); return h * 60 + m; };
+  const parts = new Intl.DateTimeFormat("en-GB", { timeZone: cfg.window.timezone, hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(now);
+  const local = Number(parts.find((p) => p.type === "hour")!.value) * 60 + Number(parts.find((p) => p.type === "minute")!.value);
+  const start = toMin(cfg.window.start_local), stop = toMin(cfg.window.hard_stop_local);
+  const inside = start <= stop ? local >= start && local < stop : local >= start || local < stop;
+  return inside ? null : `scheduled run at ${String(Math.floor(local / 60)).padStart(2, "0")}:${String(local % 60).padStart(2, "0")} is outside the night window and catch-up is off`;
+}
+
 async function main(): Promise<void> {
   const opts = parseArgs(process.argv.slice(2));
+  const off = skipScheduled(opts, new Date());
+  if (off) { log.info(`${off}: nothing to do`); process.exit(0); }
   if (opts.dryRun) process.env.LLM_CACHE_ONLY = "1";
   if (opts.dryRun) log.info(`dry run: data dir ${opts.dataDir}`);
   const report = await runNightly(opts, {
