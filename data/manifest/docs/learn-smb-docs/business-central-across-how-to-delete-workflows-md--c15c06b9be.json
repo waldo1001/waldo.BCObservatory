@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-delete-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98e0037c602c9d676faaa1620a2d165fde2e0b04",
       "words": 208,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.118Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:54.127Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:54.129Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:54.130Z",
+      "page": false
     }
   },
   "input_hash": "98e0037c602c9d676faaa1620a2d165fde2e0b04",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98e0037c602c9d676faaa1620a2d165fde2e0b04"
+  "output_hash": "3f03c65ac1e15f28bfe86e55ab68b2b768fca9ec13649cce1cdd0b715e57d896"
 }

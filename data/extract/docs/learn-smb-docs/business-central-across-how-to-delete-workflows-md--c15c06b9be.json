@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-delete-workflows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-delete-workflows",
+  "title": "How to delete approval workflows",
+  "blob": "98e0037c602c9d676faaa1620a2d165fde2e0b04",
+  "summary": "Delete approval workflows from Business Central when they're no longer needed. All workflow step instances must have Completed status before deletion.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "workflows",
+    "approval",
+    "deletion",
+    "workflow management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow"
+    }
+  ],
+  "features": [
+    "Delete workflow",
+    "Disable workflow",
+    "Workflow step instances"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004862,
+      "pages_in_call": 8
+    }
+  ]
+}

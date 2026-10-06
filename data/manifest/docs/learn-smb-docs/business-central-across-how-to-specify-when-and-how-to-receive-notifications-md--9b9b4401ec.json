@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6eef3e892e5b1801c16042d83cb8436cee8902b4",
       "words": 831,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.126Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:08.781Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:08.782Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:08.783Z",
+      "page": false
     }
   },
   "input_hash": "6eef3e892e5b1801c16042d83cb8436cee8902b4",
@@ -59,5 +78,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6eef3e892e5b1801c16042d83cb8436cee8902b4"
+  "output_hash": "387a8b9579302b7c1d973a82d7b74388397b79fd7be1c79c5e729587534c421c"
 }

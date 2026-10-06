@@ -1,0 +1,101 @@
+{
+  "video_id": "oN0XfuCe6Qg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6,
+      "end": 26.3,
+      "text": "welcome to a new episode of what's cooking today we'll be looking at a code contribution that actually almost was two years in the making back in 20123 I only decided that it was time to create an API that makes it easier to store your data outside of business Central for instance in an Azure blob storage"
+    },
+    {
+      "t": 26.3,
+      "end": 37.5,
+      "text": "Azure file share or SharePoint online so he went ahead and created a system application module that allows it to connect to these external file storage"
+    },
+    {
+      "t": 37.5,
+      "end": 60,
+      "text": "systems now with 2025 wave 1 this new SST application module is ready for release it is important to notice that there is no uptake of it yet so the base application as such does not use it but you as a developer can use this new API to easily store data outside of business Central"
+    },
+    {
+      "t": 60,
+      "end": 75.6,
+      "text": "as this is a what's cooking uh recording we are mostly going to give you a teaser here so this is not like a thorough in-depth review of the API um but let me just show you what this new capability looks like when it"
+    },
+    {
+      "t": 75.6,
+      "end": 90.7,
+      "text": "ships so here in business Central if you go into file accounts you'll see a view that is actually familiar to you to you maybe from the email accounts it's kind of built up in the same pattern if you will"
+    },
+    {
+      "t": 90.7,
+      "end": 110.9,
+      "text": "um so in here you can um set up a file account for Block storage file share or SharePoint for the sake of this demo let's just use blob storage so we're going to enter a name can be any name then we need the storage account name of the blob storage you want to connect to in this case it's my yes special BL storage I use the share key"
+    },
+    {
+      "t": 110.9,
+      "end": 131.8,
+      "text": "which I paste in and here I can just scroll down to find my container and that's really all it takes now um we can look at file scenarios just like we have them in email scenarios given we only have a single account of course it's the default and given there is"
+    },
+    {
+      "t": 131.8,
+      "end": 136.8,
+      "text": "uh no uptake there are no scenarios"
+    },
+    {
+      "t": 136.8,
+      "end": 154.4,
+      "text": "yet all right so now we can actually start using this uh and for that I've had a short a little code snippet here um so we're just going to add an action uh to which saves the order confirmation uh on the sales order"
+    },
+    {
+      "t": 154.4,
+      "end": 174.7,
+      "text": "page and we extend the file scenario enum with our scenario which is save the order confirmation and then the code that we need to actually um save the file is rather simple so first we create a PDF file"
+    },
+    {
+      "t": 174.7,
+      "end": 194.7,
+      "text": "that doesn't really have anything to do with this feature we just create the file and now what we need to to store the this file is that we initialize our external file file storage um with our scenario um we open a file a save file dialogue to get the path where on the uh Azure blob St we want to save"
+    },
+    {
+      "t": 194.7,
+      "end": 216,
+      "text": "it and then we invoke create file and that is it with this code these two lines um we can now store a file outside of business Central so we now have the file scenario we can say that there the save order confirmation uh should be stored in a blob"
+    },
+    {
+      "t": 216,
+      "end": 236.3,
+      "text": "storage and now if we go into a sales order we open the sales order we can find the action that our little app introduced which was save order confirmation and when we invoke this action we get the file dialogue so let's just save it in the root folder here of our blob storage and call it test and that's it"
+    },
+    {
+      "t": 236.3,
+      "end": 248.3,
+      "text": "uh now when we go to file accounts and we open the new storage browser we can see that our test PDF was put into our account"
+    },
+    {
+      "t": 248.3,
+      "end": 269,
+      "text": "and there we have it so that's pretty powerful stuff um of course we will be looking into uptaking some of these capabilities in business Central in the upcoming waves but we didn't want to hold this back um from you I mean this is ready to be used"
+    },
+    {
+      "t": 269,
+      "end": 279,
+      "text": "so go ahead and enjoy this new API and store your files outside of business Central thanks for listening"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.03,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.04,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 713
+}

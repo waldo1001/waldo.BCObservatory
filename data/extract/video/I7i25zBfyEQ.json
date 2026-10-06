@@ -1,0 +1,243 @@
+{
+  "video_id": "I7i25zBfyEQ",
+  "item_id": "video/yt-microsoft/I7i25zBfyEQ",
+  "title": "Sales Order Agent for Dynamics 365 Business Central (2025)",
+  "duration_s": 347,
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "sales order agent",
+    "autonomous agents",
+    "email integration",
+    "quote creation",
+    "approval workflow",
+    "customer engagement",
+    "order processing automation",
+    "outlook integration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and setup of the sales order agent",
+      "t_start": 0,
+      "t_end": 68.5
+    },
+    {
+      "title": "Customer scenario - Ian's office furniture request",
+      "t_start": 68.5,
+      "t_end": 108.9
+    },
+    {
+      "title": "Agent email engagement and draft response",
+      "t_start": 108.9,
+      "t_end": 158.3
+    },
+    {
+      "title": "Reviewing and approving agent-generated email",
+      "t_start": 158.3,
+      "t_end": 215.4
+    },
+    {
+      "title": "Quote creation and delivery to customer",
+      "t_start": 215.4,
+      "t_end": 301.5
+    },
+    {
+      "title": "Benefits and business impact summary",
+      "t_start": 301.5,
+      "t_end": 347
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An autonomous agent that processes customer emails requesting quotes and sales orders. The agent maps emails to customer accounts, generates draft responses, creates quotes with product details and pricing, and handles back-and-forth communication with customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7.2,
+      "t_end": 342.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user approval before sending email responses",
+        "Requires user review and confirmation before quote delivery",
+        "Agent can clarify vague customer requirements"
+      ],
+      "tags": [
+        "sales order agent",
+        "autonomous agent",
+        "email-based",
+        "quote generation",
+        "approval workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent email mapping to customer accounts",
+      "description": "The agent automatically maps incoming customer emails to the correct customer account in Business Central based on email address.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.3,
+      "t_end": 178.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email mapping",
+        "customer identification",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent-generated quote creation",
+      "description": "The agent creates sales quotes with rich details including product selection, SKU mapping, pricing, sales tax, delivery dates, and external purchase order numbers from customer emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.9,
+      "t_end": 290.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user review and confirmation before sending to customer"
+      ],
+      "tags": [
+        "quote creation",
+        "product mapping",
+        "pricing",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent setup and configuration",
+      "description": "The sales order agent can be set up in Business Central by adding a shared customer email address, managing user access for approval, and activating the agent with no additional configuration needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.3,
+      "t_end": 68.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "user access management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Outlook email integration for agent",
+      "description": "The sales order agent integrates with Outlook, where it monitors a shared customer email mailbox and automatically processes incoming customer requests for quotes and orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 68.5,
+      "t_end": 108.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "outlook integration",
+        "email processing",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Agent approval workflow in Business Central",
+      "description": "Users can review and approve agent-generated emails and quotes in Business Central before they are sent to customers. The workflow allows flexible approval - users can check and approve multiple requests at once or approve as replies are generated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.3,
+      "t_end": 301.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual user approval before sending",
+        "Team must manage approval frequency and timing"
+      ],
+      "tags": [
+        "approval workflow",
+        "user control",
+        "quality assurance"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "sales order icon",
+      "t": 17.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 7.2,
+      "text": "Microsoft has just announced a series of new autonomous agents",
+      "why_it_matters": "Establishes that the sales order agent is a newly announced autonomous agent capability from Microsoft.",
+      "check": "exact"
+    },
+    {
+      "t": 17.3,
+      "text": "this is very simple I'm in business Central and if we go ahead and click on the sales order icon this is where I",
+      "why_it_matters": "Demonstrates that agent setup is straightforward with a dedicated sales order icon in Business Central's interface.",
+      "check": "exact"
+    },
+    {
+      "t": 68.5,
+      "text": "no additional configuration needed that was quick",
+      "why_it_matters": "Shows that the agent requires minimal setup and configuration beyond adding email and users.",
+      "check": "snapped"
+    },
+    {
+      "t": 129,
+      "text": "my team can work with the agent however they would like they can reserve a few times per day to check the agent and",
+      "why_it_matters": "Indicates flexible approval workflows where teams can choose approval frequency and batch processing.",
+      "check": "exact"
+    },
+    {
+      "t": 228.6,
+      "text": "normally creating a quote would take several minutes for each individual customer times up by the number of requests",
+      "why_it_matters": "Quantifies the time savings benefit by emphasizing the manual effort that quote creation normally requires.",
+      "check": "exact"
+    },
+    {
+      "t": 252.9,
+      "text": "I love this attention to detail it's picked up the products that he chose mapped them to the skew numbers and pulled in lots",
+      "why_it_matters": "Demonstrates the agent's capability to extract multiple data points from customer emails and map them to correct product SKUs with pricing.",
+      "check": "exact"
+    },
+    {
+      "t": 321.8,
+      "text": "the sales order agent is a team agent helping reduce order processing time meaning customers get an improved experience and faster delivery",
+      "why_it_matters": "Defines the core value proposition of the sales order agent - reduced processing time and improved customer experience.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015148000000000002
+    }
+  ]
+}

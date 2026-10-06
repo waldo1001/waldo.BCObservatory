@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1377c4c43ed779ed0389074fc8f13a4cc269e846",
       "words": 3415,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.124Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:08.776Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:08.777Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:08.778Z",
+      "page": false
     }
   },
   "input_hash": "1377c4c43ed779ed0389074fc8f13a4cc269e846",
@@ -75,5 +94,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1377c4c43ed779ed0389074fc8f13a4cc269e846"
+  "output_hash": "3eb5ab13288b2a4510ed2a7bf497d0c7a6e753bf199f65c5a8c5304300720a08"
 }

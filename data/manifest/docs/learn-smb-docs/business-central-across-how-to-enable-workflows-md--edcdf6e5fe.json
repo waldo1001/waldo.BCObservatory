@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-enable-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2",
       "words": 146,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.119Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:07.037Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:07.037Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:07.038Z",
+      "page": false
     }
   },
   "input_hash": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d6fc6e9ed8d97d86443f4e01c9424a791ff62d2"
+  "output_hash": "64070cc54526e1c9ac15b950c6d292cf8b9c803bce318900f496a8186f60efad"
 }

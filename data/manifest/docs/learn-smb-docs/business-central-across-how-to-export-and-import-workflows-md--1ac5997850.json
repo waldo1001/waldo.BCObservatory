@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-export-and-import-workflows",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a",
       "words": 228,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.120Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:07.039Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:08.767Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:08.768Z",
+      "page": false
     }
   },
   "input_hash": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7f1b09e7fd164591f7403690090c6cba9a6e9a9a"
+  "output_hash": "57739fac8c9d4b18695610d0ade469fc1f9ee8d45f4560bafbbaa14e800f0a0b"
 }

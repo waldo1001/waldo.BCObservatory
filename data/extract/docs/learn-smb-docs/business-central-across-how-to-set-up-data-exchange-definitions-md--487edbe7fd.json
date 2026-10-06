@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-set-up-data-exchange-definitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions",
+  "title": "Define how data is exchanged electronically",
+  "blob": "1377c4c43ed779ed0389074fc8f13a4cc269e846",
+  "summary": "Set up data exchange definitions to exchange data between Business Central and external files in XML, delimited, fixed-width, or JSON formats.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "data exchange",
+    "definitions",
+    "file formats",
+    "field mapping"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Data Exchange Definition"
+    },
+    {
+      "type": "page",
+      "name": "Data Exchange Mapping"
+    }
+  ],
+  "features": [
+    "Column definitions",
+    "Line definitions",
+    "Transformation rules",
+    "Field mapping",
+    "XML schema support",
+    "Field grouping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004862,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-a-document-exchange-service",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d686dc0ebbb6a6424b2ddc54b56b1ea4b7a12aff",
       "words": 832,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.122Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:08.773Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:08.774Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:08.775Z",
+      "page": false
     }
   },
   "input_hash": "d686dc0ebbb6a6424b2ddc54b56b1ea4b7a12aff",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d686dc0ebbb6a6424b2ddc54b56b1ea4b7a12aff"
+  "output_hash": "e54701e75a3eecb02454d48246ca353238ab1943887ab00a14cb252c07ed10b8"
 }

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-specify-when-and-how-to-receive-notifications.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications",
+  "title": "Specify when and how to receive workflow notifications",
+  "blob": "6eef3e892e5b1801c16042d83cb8436cee8902b4",
+  "summary": "Specify when and how approval users receive workflow notifications via email or internal notes on recurring schedules.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "workflows",
+    "notifications",
+    "approval users",
+    "notification setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Notification Setup"
+    },
+    {
+      "type": "page",
+      "name": "Notification Schedule"
+    }
+  ],
+  "features": [
+    "Notification type",
+    "Notification method",
+    "Notification schedule",
+    "Email notifications",
+    "Internal notes",
+    "Recurrence patterns"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004862,
+      "pages_in_call": 8
+    }
+  ]
+}

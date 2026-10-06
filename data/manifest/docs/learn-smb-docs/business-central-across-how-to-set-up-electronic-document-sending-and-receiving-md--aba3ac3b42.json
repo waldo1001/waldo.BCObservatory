@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-electronic-document-sending-and-receiving",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cfc56ee8dc38130806d261cdfe5d636ad21df38f",
       "words": 2049,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:54.125Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004862
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:08.779Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:08.780Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:08.780Z",
+      "page": false
     }
   },
   "input_hash": "cfc56ee8dc38130806d261cdfe5d636ad21df38f",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfc56ee8dc38130806d261cdfe5d636ad21df38f"
+  "output_hash": "ae9582ec2116a3fc30f666ef9354ddd277de9b41be137f805e8ca1329df90b86"
 }

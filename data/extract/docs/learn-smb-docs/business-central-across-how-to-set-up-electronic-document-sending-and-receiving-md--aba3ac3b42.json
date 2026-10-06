@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-electronic-document-sending-and-receiving",
+  "title": "How to set up electronic document sending and receiving | Microsoft Docs",
+  "blob": "cfc56ee8dc38130806d261cdfe5d636ad21df38f",
+  "summary": "Set up electronic document sending and receiving in Business Central using PEPPOL format for invoices and credit memos before 2023 release wave 2.",
+  "systems": [
+    "integration",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "electronic documents",
+    "peppol",
+    "document exchange",
+    "e-invoicing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    }
+  ],
+  "features": [
+    "PEPPOL format",
+    "OCR service",
+    "Company information setup",
+    "VAT posting setup",
+    "Item configuration",
+    "Unit of measure setup"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004862,
+      "pages_in_call": 8
+    }
+  ]
+}

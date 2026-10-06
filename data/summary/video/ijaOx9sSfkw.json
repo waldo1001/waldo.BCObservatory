@@ -1,0 +1,24 @@
+{
+  "video_id": "ijaOx9sSfkw",
+  "item_id": "video/yt-microsoft/ijaOx9sSfkw",
+  "summary": "Filtering on aggregated (totaled) columns in Business Central's data analysis mode, shown on an accounts receivable report by removing zero amounts with a \"greater than zero\" filter. The filter can be saved as part of the analysis definition.",
+  "overview": "A one-minute \"What's Cooking in Business Central\" clip from February 2025. It starts from the known ability to filter fields in the data analysis feature, then shows that totals can be filtered as well, like in normal reports.\n\nIn the demo, an accounts receivable report in analysis mode contains rows with zero amounts. The presenter applies a filter on the aggregated column, setting it to greater than zero, and the zero rows disappear. The filtered setup can then be saved as part of the data analysis definition.",
+  "key_points": [
+    "Data analysis mode already lets you filter fields; you can also filter on totals.",
+    "Totals filtering works on the aggregated (summed) column, similar to filtering in normal reports.",
+    "Demo: in an accounts receivable report, a 'greater than zero' filter on the total removes rows with zero amounts.",
+    "The filtered setup can be saved as part of the data analysis definition for reuse.",
+    "The clip is about one minute long and does not state a feature status or version."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant"
+  ],
+  "extraction_hash": "20a5818b624955d970bafebc8bf178ee85fde7c116060eafb76583e175f66058",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0092284
+  }
+}
