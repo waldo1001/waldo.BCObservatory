@@ -188,3 +188,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `full.jsonl` and the one-hop `ego/<id>.json` files. Layout: d3-force from hash-seeded starts around each system on
   a ring, fixed ticks; links across systems barely pull and system radii are capped so systems never overlap. The
   home page draws it on a canvas (pan, zoom, hover, click-through) until the Claude Design pass restyles it.
+- **D38 The Claude Design brief is generated from the live knowledge base.** `npm run design:brief` writes
+  `docs/brief/PROMPT-design.md` in the release-wave brief's shape with real counts and real excerpts (topic hub, table
+  18, BE localization, a source footprint, a one-system galaxy excerpt); the release-wave tokens and handoff are in
+  `design/seed/` as the starting point. The owner runs Claude Design; its `design/tokens.json` and `design/HANDOFF.md`
+  then drive the Astro components (M3 UI).

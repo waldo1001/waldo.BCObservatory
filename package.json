@@ -20,6 +20,7 @@
     "llm:ping": "tsx scripts/llm-ping.ts",
     "seed:videos": "tsx pipeline/caption/import-seed.ts",
     "lint:workflows": "tsx scripts/check-workflows.ts",
+    "design:brief": "tsx pipeline/render/design-brief.ts",
     "link:roadmap": "tsx scripts/link-roadmap.ts"
   },
   "license": "MIT",

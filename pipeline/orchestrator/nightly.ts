@@ -436,7 +436,7 @@ async function commitTracked(repoDir: string, message: string, push: boolean): P
   // never a half-written temp file, even in a checkout without the repo's .gitignore
   await git(["add", "-A", "--", ...dirs, ":(exclude,glob)**/*.tmp"], repoDir);
   const changed = !!(await git(["diff", "--cached", "--name-only"], repoDir)).trim();
-  if (changed) {
+  if (changed && message) {
     await git(["commit", "-q", "-m", message], repoDir);
     log.info(`committed: ${message}`);
   }
@@ -484,7 +484,9 @@ export function startCheckpoints(opts: NightlyOptions, sources: SourceDef[], dat
         const problems = leakGate(opts, sources, true);
         log.info(`checkpoint leak gate: ${problems.length} findings in ${Date.now() - t0} ms`);
         if (problems.length) { log.warn(`checkpoint skipped: check:leak found ${problems.length} problems: ${problems[0]}`); return; }
-        if (await commitTracked(opts.repoDir, `content: nightly ${date} checkpoint ${n + 1}`, opts.push)) n++;
+        // count the commit itself: a push that loses a race is retried by the next checkpoint, which pushes both
+        try { if (await commitTracked(opts.repoDir, `content: nightly ${date} checkpoint ${n + 1}`, false)) n++; }
+        finally { if (opts.push) await commitTracked(opts.repoDir, "", true).catch((e) => log.warn(`checkpoint push failed, next one retries: ${(e as Error).message.slice(0, 200)}`)); }
         await pushVault(opts.vaultDir ?? VAULT_DIR, `vault: nightly ${date} checkpoint`);
       } catch (e) {
         log.warn(`checkpoint failed: ${(e as Error).message.slice(0, 300)}`);
