@@ -198,3 +198,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   quarter (the flight path), recent items (`frontmatter.source`). `data/index/coverage.json`: galaxy system ×
   pillar (Learn pages, objects, videos, posts, features), drawn on `/coverage/` as a heatmap. Per-topic coverage is
   left out: only Learn and code attach to topics so far.
+- **D40 npm via Trusted Publishing from GitHub Actions.** `.github/workflows/publish-mcp.yml` (ubuntu-latest, manual
+  dispatch, `id-token: write`, Node 22 + npm ≥ 11.5.1) typechecks, runs the MCP smoke test, builds and publishes
+  `bc-observatory` with provenance; no npm token exists anywhere. Owner approved 2026-10-06. Setup on npmjs.com is the
+  owner's (trusted publisher: this repo, this workflow); if npm needs the package to exist first, one manual
+  `npm publish` precedes it. Announcement drafts in `docs/announcement/`; the owner publishes them.

@@ -1,0 +1,33 @@
+name: publish-mcp
+# Publishes packages/mcp (`bc-observatory`) to npm with Trusted Publishing (OIDC, no token stored anywhere) and
+# provenance. GitHub-hosted only (npm does not accept self-hosted runners), manual dispatch only (D40).
+# Owner setup once: npmjs.com > bc-observatory > Settings > Trusted publisher: GitHub Actions,
+# waldo1001/waldo.BCObservatory, workflow publish-mcp.yml.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: publish-mcp
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      LLM_CACHE_ONLY: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - run: npm install -g npm@^11.5.1
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npx tsx --test tests/unit/mcp.test.ts
+      - run: npm run build --workspace=bc-observatory
+      - run: npm publish --workspace=bc-observatory --access public
