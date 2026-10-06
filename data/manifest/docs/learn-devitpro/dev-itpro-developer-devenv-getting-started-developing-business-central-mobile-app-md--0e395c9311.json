@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started-developing-business-central-mobile-app",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2fdcf01b5beead02cd8e17898a0cbef2cf3f386a",
       "words": 553,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:36.445Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:36.458Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:36.459Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:36.460Z",
+      "page": false
     }
   },
   "input_hash": "2fdcf01b5beead02cd8e17898a0cbef2cf3f386a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2fdcf01b5beead02cd8e17898a0cbef2cf3f386a"
+  "output_hash": "7c79f961dfe14ef574c8d6fd2b411debe08e12e8d4a6484a3d1b30cd224d6ec8"
 }

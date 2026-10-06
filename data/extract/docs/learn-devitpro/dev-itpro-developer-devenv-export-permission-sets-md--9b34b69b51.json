@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-export-permission-sets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-permission-sets",
+  "title": "Export Permission Sets to XML",
+  "blob": "ae9acd402aa9f63d101c66871e9e61dee1ae06ee",
+  "summary": "Permission sets from Business Central can be exported as XML and packaged into extensions. Visual Studio Code can generate permission set XML files containing default permissions for all extension objects.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "permission sets",
+    "xml export",
+    "security"
+  ],
+  "objects": [],
+  "features": [
+    "permission export",
+    "permission sets",
+    "XML generation",
+    "tenant permissions",
+    "system permissions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003305,
+      "pages_in_call": 8
+    }
+  ]
+}

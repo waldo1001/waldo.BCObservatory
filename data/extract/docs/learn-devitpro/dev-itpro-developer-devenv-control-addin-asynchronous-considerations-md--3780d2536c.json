@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-control-addin-asynchronous-considerations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-asynchronous-considerations",
+  "title": "Asynchronous considerations for control add-ins",
+  "blob": "41857e3cc5ef7be7c77ffb3311fa81ea98a5fa6d",
+  "summary": "Control add-ins must handle asynchronous communication between AL server code and browser script methods. Methods must be void and results transfer through callback methods or events.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "control add-ins",
+    "asynchronous communication",
+    "web client",
+    "extensibility"
+  ],
+  "objects": [],
+  "features": [
+    "asynchronous methods",
+    "void methods",
+    "callback methods",
+    "extensibility methods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003305,
+      "pages_in_call": 8
+    }
+  ]
+}

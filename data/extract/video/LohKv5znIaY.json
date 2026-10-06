@@ -1,0 +1,123 @@
+{
+  "video_id": "LohKv5znIaY",
+  "item_id": "video/yt-microsoft/LohKv5znIaY",
+  "title": "Use Actionable Error Messages to Unblock Users",
+  "duration_s": 93,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "onboarding",
+    "user experience",
+    "actionable errors",
+    "friction reduction",
+    "productivity",
+    "field-level errors"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to actionable error messages",
+      "t_start": 0,
+      "t_end": 20.5
+    },
+    {
+      "title": "Onboarding framework and friction reduction",
+      "t_start": 20.5,
+      "t_end": 40.6
+    },
+    {
+      "title": "Improved error handling and actionable errors",
+      "t_start": 40.6,
+      "t_end": 60.8
+    },
+    {
+      "title": "Resources and documentation",
+      "t_start": 60.8,
+      "t_end": 93
+    }
+  ],
+  "features": [
+    {
+      "name": "Actionable error messages",
+      "description": "Improved error handling that provides actionable errors at the field level, allowing users to unblock themselves through recommended actions such as refreshing the page or accepting suggested fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.6,
+      "t_end": 60.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error-handling",
+        "user-experience",
+        "field-level",
+        "onboarding"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Onboarding framework",
+      "description": "A framework designed to remove friction and avoid blocking users from having a successful start with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.5,
+      "t_end": 40.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "friction-reduction",
+        "user-success"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "the importance of Designing actionable error messages into your apps so users can unblock themselves",
+      "why_it_matters": "States the core value proposition - actionable errors enable self-service issue resolution without support intervention",
+      "check": "exact"
+    },
+    {
+      "t": 20.5,
+      "text": "one of our main goals with the onboarding framework has been to remove as much friction as possible",
+      "why_it_matters": "Clarifies the strategic objective behind onboarding improvements in reducing user friction",
+      "check": "exact"
+    },
+    {
+      "t": 40.6,
+      "text": "providing an easier way for users to unblock themselves in context at the field level",
+      "why_it_matters": "Describes the scope and placement of actionable errors - field-level, contextual guidance for users",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00833
+    }
+  ]
+}

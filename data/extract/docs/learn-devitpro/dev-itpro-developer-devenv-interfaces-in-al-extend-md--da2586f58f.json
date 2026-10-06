@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al-extend.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al-extend",
+  "title": "Extend interfaces in AL",
+  "blob": "320f65afa6effcdb9d83d92eb6670f00df3d2190",
+  "summary": "Extensible interfaces in AL allow interfaces to extend other interfaces and inherit methods, supporting dynamic type checking with is and as operators for flexible extension development.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "interfaces",
+    "extensible interfaces",
+    "al language",
+    "inheritance",
+    "type casting"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "IFoo"
+    },
+    {
+      "type": "interface",
+      "name": "IBar"
+    },
+    {
+      "type": "interface",
+      "name": "IFooBar"
+    },
+    {
+      "type": "codeunit",
+      "name": "TheImplementor"
+    }
+  ],
+  "features": [
+    "interface inheritance",
+    "method implementation",
+    "type testing operators",
+    "casting operators"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al-extend",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "320f65afa6effcdb9d83d92eb6670f00df3d2190",
       "words": 289,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:36.449Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:36.469Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:36.469Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:36.470Z",
+      "page": false
     }
   },
   "input_hash": "320f65afa6effcdb9d83d92eb6670f00df3d2190",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "320f65afa6effcdb9d83d92eb6670f00df3d2190"
+  "output_hash": "00217e616a5622d317785a44d469451612512f382b3e129917404853102589d5"
 }

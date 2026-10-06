@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-application-areas.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas",
+  "title": "Extending Application Areas",
+  "blob": "98d09d14f81a2484fd2a815f7aa6203d2cece139",
+  "summary": "Application areas represent features enabling differentiated user experiences by mapping controls to show or hide functionality. Extend them by adding fields to Application Area Setup table and subscribing to experience tier events.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "application areas",
+    "experience tiers",
+    "user experience",
+    "control visibility"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Application Area Setup"
+    }
+  ],
+  "features": [
+    "application areas",
+    "experience tiers",
+    "OnGetExperienceAppArea event",
+    "OnValidateApplicationAreas event",
+    "Advanced application area"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003305,
+      "pages_in_call": 8
+    }
+  ]
+}

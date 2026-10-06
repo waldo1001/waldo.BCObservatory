@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-report-parameters-with-virtual-tables",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b162602d72f5e13da827d9162f745e53285e32aa",
       "words": 169,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:34.690Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:36.455Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:36.455Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:36.456Z",
+      "page": false
     }
   },
   "input_hash": "b162602d72f5e13da827d9162f745e53285e32aa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b162602d72f5e13da827d9162f745e53285e32aa"
+  "output_hash": "56f5f4836684a5b69929897ead2c9cad6d357084430b2f39ad11281cbf3dd625"
 }

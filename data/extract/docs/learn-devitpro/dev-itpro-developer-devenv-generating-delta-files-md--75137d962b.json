@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-generating-delta-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-generating-delta-files",
+  "title": "Generating Delta files",
+  "blob": "8fc63181f5b275ce386e4998fd29cd5db04fa2f6",
+  "summary": "The Compare-NAVApplicationObject PowerShell cmdlet generates .delta files from application object versions, with the ExportToNewSyntax flag required for converting to extensions via the Txt2Al conversion tool.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "delta files",
+    "powershell",
+    "extensions",
+    "conversion",
+    "txt2al"
+  ],
+  "objects": [],
+  "features": [
+    "Compare-NAVApplicationObject cmdlet",
+    "ExportToNewSyntax flag",
+    "delta file generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

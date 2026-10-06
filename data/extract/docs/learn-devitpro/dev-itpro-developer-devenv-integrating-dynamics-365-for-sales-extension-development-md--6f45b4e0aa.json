@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-integrating-dynamics-365-for-sales-extension-development.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integrating-dynamics-365-for-sales-extension-development",
+  "title": "Enabling Microsoft Dataverse Tables for Extension Development",
+  "blob": "d8a90154206a8a80e54d48dc672dc74115058901",
+  "summary": "Extension development for Microsoft Dataverse integration uses TableType, ExternalName, ExternalAccess, and ExternalType properties to enable field mapping and synchronize CDS data with Business Central.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "dataverse",
+    "cds",
+    "table integration",
+    "field mapping",
+    "extensions",
+    "external tables"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "SalesIntegration"
+    }
+  ],
+  "features": [
+    "TableType property",
+    "ExternalName property",
+    "ExternalAccess property",
+    "ExternalType property",
+    "AL Table Proxy Generator"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

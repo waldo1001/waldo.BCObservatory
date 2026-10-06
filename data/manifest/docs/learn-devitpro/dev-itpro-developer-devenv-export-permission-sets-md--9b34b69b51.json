@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-permission-sets",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ae9acd402aa9f63d101c66871e9e61dee1ae06ee",
       "words": 442,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:25.353Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003305
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:25.378Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:25.379Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:25.380Z",
+      "page": false
     }
   },
   "input_hash": "ae9acd402aa9f63d101c66871e9e61dee1ae06ee",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae9acd402aa9f63d101c66871e9e61dee1ae06ee"
+  "output_hash": "3c6ae02dd785ce46ed331090fb37cda67c8e36bdd4e9b4929c860a8ecaa18e7b"
 }

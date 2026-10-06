@@ -1,0 +1,28 @@
+{
+  "video_id": "snVsG69X-kw",
+  "item_id": "video/yt-microsoft/snVsG69X-kw",
+  "summary": "Business Central cloud scaling and performance: how VM scale sets, load balancing with a 60% CPU threshold, automatic scale-out and scale-in, and database scaling work, plus tools for finding performance problems. Says users are rarely limited by capacity; locking and AL code are the usual limits.",
+  "overview": "Episode 3 of Business Central Under the Hood (31 minutes, published 2024-05-31) explains how many users Business Central can handle in the cloud. It describes the cloud topology: a cluster of Azure VMs in a virtual machine scale set, each hosting web server and NST components, with a load balancer that understands BC sessions. Clusters typically start at five VMs and can grow to 30 or more. The presenters show real cluster examples for scale-out and VM provisioning time, and explain how database capacity is monitored and increased automatically. The speakers note that some of this machinery is not publicly documented.\n\nThe second half covers sources of performance problems and the tools to investigate them: the in-client profiler, the database locks page, the missing indexes page and Application Insights telemetry. It closes with user scalability (customers with hundreds or thousands of users), the scalability guide, and the performance toolkit for testing large customers before go-live.",
+  "key_points": [
+    "The cloud runs on an Azure VM scale set. Clusters typically start at five VMs and can scale to 30 or more.",
+    "The load balancer stops sending new sessions to a VM above 60% CPU. Existing sessions stay on that VM. When all VMs exceed the threshold, more VMs are added. Scale-in is intentionally slower than scale-out.",
+    "Database CPU, IO, data IO and log IO are monitored, and database capacity is increased automatically when thresholds are exceeded.",
+    "Capacity is rarely the cause of a performance problem. Many short queries are typically worse in the cloud because of datacenter latency, usually under a millisecond.",
+    "Diagnostic tools: in-client profiler, database locks page (refresh with F5), database missing indexes page (needs several days of running), and Application Insights telemetry. By default only SQL queries slower than 750 ms are emitted.",
+    "There is no hard user limit. Customers have hundreds or thousands of users. Locking between concurrent users, which depends on AL code, is the main constraint.",
+    "The performance toolkit can simulate up to 1,000 users in a cloud environment before go-live. The partner configures the scenarios. The scalability guide includes a real example of 5,000 sales invoices posted in one hour."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "f421569b4cd7f7b96307f7023ddfb680bfe934c4215bc327d31f9e57f4abc923",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.025086400000000002
+  }
+}

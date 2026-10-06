@@ -1,0 +1,162 @@
+{
+  "video_id": "8hz-uNsKQbk",
+  "item_id": "video/yt-microsoft/8hz-uNsKQbk",
+  "title": "How partners responds to the #BCTalent initiative: Reskill",
+  "duration_s": 116,
+  "systems": [
+    "hr",
+    "integration"
+  ],
+  "topics": [
+    "talent acquisition",
+    "reskill program",
+    "partner ecosystem",
+    "onboarding",
+    "mentoring",
+    "microsoft partnership",
+    "recruiting",
+    "business central adoption"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction - Talent acquisition challenges",
+      "t_start": 0,
+      "t_end": 13.9
+    },
+    {
+      "title": "The problem and the Reskill program launch",
+      "t_start": 13.9,
+      "t_end": 34.4
+    },
+    {
+      "title": "Program experience and learning process",
+      "t_start": 34.4,
+      "t_end": 54.4
+    },
+    {
+      "title": "Program value - recruiting, training, onboarding and mentoring",
+      "t_start": 54.4,
+      "t_end": 74.8
+    },
+    {
+      "title": "Business Central ecosystem and partner benefits",
+      "t_start": 74.8,
+      "t_end": 95
+    },
+    {
+      "title": "Call to action - why partners should join",
+      "t_start": 95,
+      "t_end": 116
+    }
+  ],
+  "features": [
+    {
+      "name": "Reskill program",
+      "description": "Microsoft initiative combining recruiting, training, onboarding and mentoring of new talent candidates to help partners develop skilled consultants for the Business Central ecosystem.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.4,
+      "t_end": 95,
+      "is_demoed": false,
+      "caveats": [
+        "Candidates become billable after 12 weeks"
+      ],
+      "tags": [
+        "talent",
+        "partner program",
+        "recruiting",
+        "training"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Partner-Microsoft collaboration on talent",
+      "description": "Microsoft working with partners to recruit and develop the next generation talent pool needed to grow the Business Central ecosystem.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.8,
+      "t_end": 95,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partnership",
+        "ecosystem",
+        "talent development"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Partner consultant 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Partner consultant 2",
+      "confidence": "low"
+    },
+    {
+      "name": "Program participant",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 13.9,
+      "text": "finding the right Talent with the right skill sets whether both technical or even on the business side has always been a struggle for",
+      "why_it_matters": "Establishes the core problem partners face in the Business Central ecosystem - difficulty recruiting skilled talent.",
+      "check": "exact"
+    },
+    {
+      "t": 34.4,
+      "text": "if Microsoft comes with a new initiative and you want to jump on the wagon and it aligned with the kind of consultant we're",
+      "why_it_matters": "Shows why partners were excited about the Reskill program and how it aligned with their hiring strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 54.4,
+      "text": "the fact that res skill is combining both the recruiting and the training and onboarding and mentoring of those candidates is a huge advantage",
+      "why_it_matters": "Highlights the key value proposition of the program - integrated end-to-end talent development.",
+      "check": "exact"
+    },
+    {
+      "t": 74.8,
+      "text": "after 12 weeks they started being billable which is a very big Advantage for us as a company",
+      "why_it_matters": "Quantifies the tangible business benefit of the program with a specific timeline.",
+      "check": "exact"
+    },
+    {
+      "t": 74.8,
+      "text": "it would be much more expensive if we had to do all of this ourselves this is",
+      "why_it_matters": "Demonstrates the cost-effectiveness and ROI of the Microsoft partnership model versus in-house development.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 95,
+      "text": "the future is business Central the time to switch is now and the res skill program has been a great help",
+      "why_it_matters": "Statement of confidence in Business Central's future and endorsement of the Reskill program benefits.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010203
+    }
+  ]
+}

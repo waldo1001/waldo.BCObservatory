@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-using-grid-and-fixed-controls",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fec941299bfe31061190e953ff508da014f3b7de",
       "words": 589,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:25.346Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003305
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:25.355Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:25.356Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:25.357Z",
+      "page": false
     }
   },
   "input_hash": "fec941299bfe31061190e953ff508da014f3b7de",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fec941299bfe31061190e953ff508da014f3b7de"
+  "output_hash": "65a14203ee20295ea9a304dfa7ed8e93dc709eee91e8737f09b3197786f25cbf"
 }

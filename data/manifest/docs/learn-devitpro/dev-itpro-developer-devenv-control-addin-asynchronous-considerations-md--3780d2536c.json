@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-asynchronous-considerations",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "41857e3cc5ef7be7c77ffb3311fa81ea98a5fa6d",
       "words": 199,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:25.348Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003305
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:25.362Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:25.363Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:25.365Z",
+      "page": false
     }
   },
   "input_hash": "41857e3cc5ef7be7c77ffb3311fa81ea98a5fa6d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41857e3cc5ef7be7c77ffb3311fa81ea98a5fa6d"
+  "output_hash": "443d0d791c622b52f1c6ba1cbf32889777e3f45724c6a1a2aa01506e228db5da"
 }

@@ -1,0 +1,604 @@
+{
+  "video_id": "snVsG69X-kw",
+  "item_id": "video/yt-microsoft/snVsG69X-kw",
+  "title": "Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?",
+  "duration_s": 1875,
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "cloud topology",
+    "load balancing",
+    "vm scaling",
+    "performance monitoring",
+    "database scaling",
+    "capacity management",
+    "azure infrastructure",
+    "session management",
+    "performance profiling",
+    "database locking",
+    "query optimization",
+    "cloud scalability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Cloud Evolution",
+      "t_start": 0,
+      "t_end": 89.4
+    },
+    {
+      "title": "Topology: On-Premises vs Cloud Architecture",
+      "t_start": 89.4,
+      "t_end": 170
+    },
+    {
+      "title": "Load Balancing and Session Management",
+      "t_start": 170,
+      "t_end": 230
+    },
+    {
+      "title": "VM Load Thresholds and Capacity Management",
+      "t_start": 230,
+      "t_end": 311
+    },
+    {
+      "title": "Scaling Out and Scaling In Strategy",
+      "t_start": 311,
+      "t_end": 392
+    },
+    {
+      "title": "Real-World US Cluster Example",
+      "t_start": 392,
+      "t_end": 553
+    },
+    {
+      "title": "Real-World Sweden Cluster Scaling",
+      "t_start": 553,
+      "t_end": 674
+    },
+    {
+      "title": "VM Provisioning Time and Performance Buffers",
+      "t_start": 674,
+      "t_end": 755
+    },
+    {
+      "title": "Database Scaling and Monitoring",
+      "t_start": 755,
+      "t_end": 897
+    },
+    {
+      "title": "Sources of Performance Problems",
+      "t_start": 897,
+      "t_end": 1019.1
+    },
+    {
+      "title": "Cloud vs On-Premises Performance Patterns",
+      "t_start": 1019.1,
+      "t_end": 1079.5
+    },
+    {
+      "title": "Performance Troubleshooting Tools Overview",
+      "t_start": 1079.5,
+      "t_end": 1152.8
+    },
+    {
+      "title": "Performance Profiling and Database Locks",
+      "t_start": 1152.8,
+      "t_end": 1335.2
+    },
+    {
+      "title": "Missing Indexes Page and Analysis",
+      "t_start": 1335.2,
+      "t_end": 1449.5
+    },
+    {
+      "title": "Application Insights and Telemetry",
+      "t_start": 1449.5,
+      "t_end": 1590.9
+    },
+    {
+      "title": "User Capacity and Scalability Examples",
+      "t_start": 1590.9,
+      "t_end": 1752.2
+    },
+    {
+      "title": "Performance Toolkit and Testing in Cloud",
+      "t_start": 1752.2,
+      "t_end": 1875
+    }
+  ],
+  "features": [
+    {
+      "name": "Virtual Machine Scale Set",
+      "description": "Business Central cloud runs on Azure virtual machine scale sets with a cluster of VMs hosting both the web server and NST components. Clusters typically start with a minimum of five VMs and can scale up to 30 or more based on demand.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109.5,
+      "t_end": 149.7,
+      "is_demoed": true,
+      "caveats": [
+        "Architecture details are not publicly documented"
+      ],
+      "tags": [
+        "azure",
+        "infrastructure",
+        "vm cluster"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Load Balancer",
+      "description": "A load balancer understands Business Central sessions and routes requests to appropriate VMs. It monitors CPU load and other metrics to decide which VM handles each request. Existing UI sessions remain on the same VM, but new sessions are directed based on current load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.7,
+      "t_end": 189.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "load balancing",
+        "session management",
+        "routing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "CPU Load Threshold at 60%",
+      "description": "The system sets a 60% CPU load threshold for individual VMs. When a VM exceeds this threshold, the load balancer stops sending new sessions to it, allowing existing sessions to complete while new traffic routes to other VMs. The 60% threshold is a compromise between reaction time and efficient resource utilization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 230.3,
+      "t_end": 291,
+      "is_demoed": true,
+      "caveats": [
+        "Threshold may be tuned over time"
+      ],
+      "tags": [
+        "load balancing",
+        "cpu monitoring",
+        "thresholds"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic VM Scale-Out",
+      "description": "When all VMs in a cluster exceed the 60% threshold, the system automatically adds more VMs. This happens continuously and clusters can have practically infinite VMs in Azure cloud. Scale-out is done aggressively when needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 311,
+      "t_end": 351.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "auto-scaling",
+        "capacity",
+        "azure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic VM Scale-In",
+      "description": "After periods of high activity, VMs are gradually removed when the overall cluster has sustained low load for an extended time. Scale-in happens more slowly than scale-out to avoid aggressive capacity reductions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.2,
+      "t_end": 392.1,
+      "is_demoed": true,
+      "caveats": [
+        "Scale-in is intentionally slower than scale-out"
+      ],
+      "tags": [
+        "auto-scaling",
+        "capacity management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database Scaling and Monitoring",
+      "description": "The system continuously monitors database CPU load, IO, data IO, and log IO metrics. When thresholds are exceeded, database capacity is automatically increased. An algorithm determines when and how much to scale the database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 755.2,
+      "t_end": 856.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "database monitoring",
+        "auto-scaling",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "In-client performance profiler",
+      "description": "A built-in tool available in the product that any user can open without installation. Users can start the profiler, run a slow scenario, and stop to see timing details showing which methods and code are consuming time, with call stack views to pinpoint exact performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1099.8,
+      "t_end": 1213.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance profiling",
+        "troubleshooting",
+        "al code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Database locks page",
+      "description": "A page in the product that shows currently held locks and sessions waiting for locks. Users can refresh with F5 to get a point-in-time view of which users hold locks on which records and which triggers or code is responsible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1234,
+      "t_end": 1335.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "locking",
+        "database",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database missing indexes page",
+      "description": "A page that queries SQL for index recommendations. SQL Server monitors the database and performs thought experiments to recommend indexes that would improve performance and calculate the maintenance cost of those indexes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1335.2,
+      "t_end": 1449.5,
+      "is_demoed": true,
+      "caveats": [
+        "requires running for several days to accumulate recommendations"
+      ],
+      "tags": [
+        "indexes",
+        "database optimization",
+        "sql server"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Application insights telemetry",
+      "description": "Integration with Microsoft Application Insights to monitor BC environments. The system emits events for SQL statements and other interesting activities. Partners can enable additional logging in a session to see all SQL statements being executed with timing details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1449.5,
+      "t_end": 1590.9,
+      "is_demoed": true,
+      "caveats": [
+        "by default only emits SQL queries slower than 750 milliseconds to avoid overflowing the service"
+      ],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "troubleshooting",
+        "application insights"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "User scalability in Business Central cloud",
+      "description": "Business Central can handle hundreds or thousands of concurrent users in the cloud through horizontal scaling. The main constraint is locking when multiple users work simultaneously, which depends on AL code optimization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1590.9,
+      "t_end": 1631,
+      "is_demoed": false,
+      "caveats": [
+        "locking can become a bottleneck with many concurrent users",
+        "depends heavily on how AL code is written",
+        "no hard limit specified"
+      ],
+      "tags": [
+        "scalability",
+        "user concurrency",
+        "cloud"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central scalability guide",
+      "description": "A published guide containing real customer examples and scalability benchmarks, including examples like 5,000 sales invoices posted in one hour and information about API call capacity.",
+      "status": "ga",
+      "status_evidence_t": 1671.2,
+      "status_evidence_quote": "scalability guide that we released recently",
+      "status_evidence_verified": true,
+      "t_start": 1631,
+      "t_end": 1711.6,
+      "is_demoed": false,
+      "caveats": [
+        "customer identities are not disclosed"
+      ],
+      "tags": [
+        "scalability guide",
+        "performance benchmarks",
+        "documentation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Performance toolkit",
+      "description": "A toolkit for simulating what-if scenarios to test Business Central performance with specific user counts and workloads before deploying large customers to the cloud. Allows testing with up to 1,000 users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1752.2,
+      "t_end": 1813,
+      "is_demoed": false,
+      "caveats": [
+        "requires cloud environment to run tests",
+        "partner responsibility to configure scenarios"
+      ],
+      "tags": [
+        "performance testing",
+        "simulation",
+        "toolkit",
+        "cloud"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database lock space monitoring",
+      "description": "A tool that allows users to observe which locks are being held on the database during performance tests, helping to diagnose locking issues and optimize code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1813,
+      "t_end": 1833,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "database locks",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry and performance logging",
+      "description": "Telemetry data can be viewed during performance testing to understand system behavior and performance characteristics under load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1833,
+      "t_end": 1853.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "performance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "database locks page",
+      "t": 1254.6
+    },
+    {
+      "type": "page",
+      "name": "database missing indexes page",
+      "t": 1335.4
+    },
+    {
+      "type": "table",
+      "name": "mixer table",
+      "t": 1294.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Christian",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 28.9,
+      "text": "we are going to answer that question and to help him with that have Christian with me",
+      "why_it_matters": "Introduces the expert who will explain cloud scaling capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 129.5,
+      "text": "we have a VM cluster technically it's a virtual machine scale set that has a number of VMS and all our VMS are configured",
+      "why_it_matters": "Explains the minimum cluster size and core infrastructure components.",
+      "check": "exact"
+    },
+    {
+      "t": 250.6,
+      "text": "we have set a threshold at 60% and if VM goes above 60% CPU load we say it's it's getting starting to become overloaded",
+      "why_it_matters": "Defines the key threshold for triggering load balancer actions.",
+      "check": "exact"
+    },
+    {
+      "t": 311,
+      "text": "if all VMS get busy like if there's really a lot of activi everybody's working you know hard doing a lot of sales order",
+      "why_it_matters": "Clarifies automatic scaling strategy when all VMs reach capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 674.7,
+      "text": "at a12 we say we need three more VMS again the algorithm which we change from time to time it in this case it",
+      "why_it_matters": "Shows the algorithm determines how many VMs to add based on conditions.",
+      "check": "exact"
+    },
+    {
+      "t": 674.7,
+      "text": "we can see in this case it took 10 minutes and then 11 minutes before we got the last two VM so okay after",
+      "why_it_matters": "Quantifies VM provisioning time, critical for understanding capacity response delays.",
+      "check": "exact"
+    },
+    {
+      "t": 755.2,
+      "text": "uh we we are pretty mature in this area and uh yeah capacity is rarely the source of a performance problem",
+      "why_it_matters": "Key statement indicating infrastructure scaling is not the bottleneck for performance.",
+      "check": "exact"
+    },
+    {
+      "t": 876.9,
+      "text": "how come we hear reports every now and then that uh our customers they have you know they think they experience BC as being",
+      "why_it_matters": "Indicates performance issues stem from factors beyond infrastructure capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 897,
+      "text": "the source of a performance problem can be uh a million things okay but uh we have some uh things we see all the",
+      "why_it_matters": "Establishes that performance issues in cloud BC are not single-cause but typically related to AL code and database queries.",
+      "check": "snapped"
+    },
+    {
+      "t": 978.7,
+      "text": "many short queries so for example if you iterate over you have maybe thousands of sales orders or sales lines and somehow in your",
+      "why_it_matters": "Identifies a specific high-impact pattern where iterating over many records with individual database calls causes performance degradation.",
+      "check": "exact"
+    },
+    {
+      "t": 1019.1,
+      "text": "the third category many short queries I would say it's probably typically worse in the cloud",
+      "why_it_matters": "Reveals that cloud deployments have a distinct performance disadvantage versus on-premises due to network latency multiplied across many queries.",
+      "check": "exact"
+    },
+    {
+      "t": 1039.4,
+      "text": "in the cloud with buildings Data Center buildings far apart there can be a latency typically less than a millisecond but it's there yeah",
+      "why_it_matters": "Quantifies the cloud performance impact - sub-millisecond latencies multiply across thousands of database calls into significant delays.",
+      "check": "exact"
+    },
+    {
+      "t": 1490,
+      "text": "normally we would not emit these events when a SQL query takes less than 750 milliseconds because if we did we would just overflow",
+      "why_it_matters": "Explains the design decision to filter telemetry events, indicating the volume of database operations in BC environments.",
+      "check": "exact"
+    },
+    {
+      "t": 1590.9,
+      "text": "we don't have a hard limit so you can have we have customers with hundreds or thousands of users",
+      "why_it_matters": "Directly answers the question of user capacity - BC has no fixed upper limit on concurrent users in the cloud.",
+      "check": "exact"
+    },
+    {
+      "t": 1590.9,
+      "text": "we have customers with hundreds or thousands of users um adding more users it's not really a problem because we just scale out and",
+      "why_it_matters": "Establishes that Business Central can handle significant user loads through horizontal scaling in the cloud.",
+      "check": "exact"
+    },
+    {
+      "t": 1611,
+      "text": "the more users you have yeah that work at the same time the more likely they are to step on each other's toes",
+      "why_it_matters": "Clarifies that locking contention is the primary scalability constraint, not infrastructure capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 1611,
+      "text": "that work at the same time the more likely they are to step on each other's toes and uh",
+      "why_it_matters": "Identifies locking as the primary scalability constraint when multiple users operate concurrently.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1651.1,
+      "text": "we have customers with more than thousand of us more than thousand users many many customers with more than 100 users",
+      "why_it_matters": "Provides concrete evidence of real customer deployments with 1000+ users on Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1671.2,
+      "text": "scalability guide that we released recently",
+      "why_it_matters": "Confirms official documentation on scalability is publicly available for partners and customers.",
+      "check": "exact"
+    },
+    {
+      "t": 1671.2,
+      "text": "5,000 sales invoices posted in one hour it's a real example from some customer",
+      "why_it_matters": "Provides a concrete performance benchmark from actual customer usage to establish confidence in cloud capacity.",
+      "check": "snapped"
+    },
+    {
+      "t": 1752.2,
+      "text": "if you are bringing a large customer and you are want to make absolutely sure that they will run fine from the day one",
+      "why_it_matters": "Describes the testing strategy available to partners to validate customer workloads before cloud migration.",
+      "check": "exact"
+    },
+    {
+      "t": 1772.3,
+      "text": "we have a toolkit for that it's called the performance toolkit and it is assigned one of the main goals is to just to",
+      "why_it_matters": "Introduces the performance toolkit as the primary tool for scenario testing and validation.",
+      "check": "exact"
+    },
+    {
+      "t": 1792.6,
+      "text": "in principle yes yes yeah um and U while it runs you can also log in yourself right it's running in an environment just",
+      "why_it_matters": "Confirms performance testing can simulate up to 1,000 users while allowing interactive testing and observation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 69.3,
+      "kind": "other",
+      "text": "some of the Machinery that is in the cloud is not publicly documented but we are going to talk a little bit about it"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 23,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 14
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026383999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02488
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013799
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029238
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-get-report-parameters-with-virtual-tables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-report-parameters-with-virtual-tables",
+  "title": "Get Report Parameters using Virtual Tables",
+  "blob": "b162602d72f5e13da827d9162f745e53285e32aa",
+  "summary": "Virtual tables All Control Fields and Report Data Items enable retrieving report parameters and XML structures without invoking the report request page in the UI.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "virtual tables",
+    "report parameters",
+    "xml",
+    "request pages",
+    "data items"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "All Control Fields"
+    },
+    {
+      "type": "table",
+      "name": "Report Data Items"
+    },
+    {
+      "type": "codeunit",
+      "name": "Report Xml Parameters Builder"
+    }
+  ],
+  "features": [
+    "All Control Fields table",
+    "Report Data Items table",
+    "XML parameter generation",
+    "report metadata"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

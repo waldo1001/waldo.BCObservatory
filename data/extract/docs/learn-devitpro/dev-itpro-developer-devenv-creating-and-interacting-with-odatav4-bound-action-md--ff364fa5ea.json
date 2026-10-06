@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action",
+  "title": "Creating and Interacting with an OData V4 Bound Action",
+  "blob": "b6947e665bd7aca611a7fd93813acb3ca931eb0a",
+  "summary": "OData V4 bound actions expose procedures as web service actions using the ServiceEnabled attribute and WebServiceActionContext to set operation results and entity keys.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "bound actions",
+    "api"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SalesInvoiceCopy"
+    }
+  ],
+  "features": [
+    "ServiceEnabled attribute",
+    "WebServiceActionContext",
+    "WebServiceActionResultCode",
+    "OData V4",
+    "bound actions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003305,
+      "pages_in_call": 8
+    }
+  ]
+}

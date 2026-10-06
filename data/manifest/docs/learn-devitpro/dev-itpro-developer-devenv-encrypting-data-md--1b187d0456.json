@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "44db3bda3ad17a0d82dc0830624bccb36f5c99ae",
       "words": 458,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:25.352Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003305
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:25.374Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:25.375Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:25.377Z",
+      "page": false
     }
   },
   "input_hash": "44db3bda3ad17a0d82dc0830624bccb36f5c99ae",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44db3bda3ad17a0d82dc0830624bccb36f5c99ae"
+  "output_hash": "3cf955f2330b9cf2e7dc7721fbfeb3ef7321cfdbb45518a3d284cb39e8469e9f"
 }
