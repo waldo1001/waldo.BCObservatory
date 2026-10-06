@@ -42,7 +42,7 @@ test("validate:content: schema, id/path, duplicate ids, dangling link ids and br
   assert.match(errs, /links\.md: links\.videos names video\/AAAAAAAAAA1, which has no page/);
   assert.match(errs, /links\.md: broken link \.\.\/videos\/AAAAAAAAAA1\.md/);
   assert.match(errs, /llms\.txt: broken link old\.md/);
-  assert.deepEqual(relativeLinks("[a](https://x) [b](#y) [c](mailto:z) [d](../d.md#k)"), ["../d.md"]);
+  assert.deepEqual(relativeLinks("[a](https://x) [b](#y) [c](mailto:z) [d](../d.md#k) [e](?ns=Bank#country-diff) [f](../f.md?x=1#k)"), ["../d.md", "../f.md"]);
 });
 
 test("Learn descriptions: includes become text, repo-relative links become Learn URLs", () => {

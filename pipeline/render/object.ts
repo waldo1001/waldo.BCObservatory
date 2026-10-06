@@ -52,11 +52,17 @@ interface Versions { majors: Record<string, unknown>; narrative_order: string[] 
 
 interface Life { versions: string[]; changed: string[] }
 export interface RelationsView { rel: Relations; in: Map<string, RelEdge[]>; out: Map<string, RelEdge[]> }
+/** An object only a country layer has: the record of its preferred major, and the majors that country ships it in. */
+export interface OwnObject { obj: AlObject; cc: string; major: string; manifest: SnapshotManifest; versions: string[] }
+/** Page key of a country's own object: the id alone would collide between countries. */
+export const ownPageKey = (o: Pick<AlObject, "type" | "id" | "name">, cc: string) => `${objectPageKey(o)}-${cc}`;
 export interface ObjectWorld {
   majors: string[]; preferred: Map<string, { obj: AlObject; major: string; manifest: SnapshotManifest }>; life: Map<string, Life>;
   replacedIn: Map<string, string[]>; docs: DocsObjects | null; topicsByUrl: Map<string, string[]>;
   /** Relations per major (data/code/relations/<major>.json, D45), where the file exists. */
   relations: Map<string, RelationsView>;
+  /** A country's own objects (not in W1 or the first-party apps), keyed "<cc>|<object key>" (D52). */
+  countryOnly: Map<string, OwnObject>;
   /** Page key of an extension's base object, once page keys are known. */
   basePage?: (o: AlObject) => string | null;
   /** Page key and title of any object key, once page keys are known (relations link through it). */
@@ -105,12 +111,30 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     const fm = matter(readText(f)).data as { id?: string; links?: { learn?: string[] } };
     for (const u of fm.links?.learn ?? []) topicsByUrl.set(u, [...(topicsByUrl.get(u) ?? []), fm.id!]);
   }
+  // a country's own objects: in a country snapshot but in no W1 or app snapshot (D52)
+  const countryOnly = new Map<string, OwnObject>();
+  const rank = (m: string) => { const i = order.indexOf(m); return i < 0 ? 99 : i; };
+  for (const cc of countriesOf(dataDir)) {
+    for (const m of majors) {
+      if (!exists(resolve(snapshotDir(dataDir, m, cc), "manifest.json"))) continue;
+      const man = readJson<SnapshotManifest>(resolve(snapshotDir(dataDir, m, cc), "manifest.json"));
+      for (const o of iterSnapshot(dataDir, m, cc)) {
+        const k = objectKey(o);
+        if (life.has(k)) continue; // the country replaces a W1 object: that object's own page covers it
+        const id = `${cc}|${k}`;
+        const prev = countryOnly.get(id);
+        if (!prev) { countryOnly.set(id, { obj: o, cc, major: m, manifest: man, versions: [m] }); continue; }
+        prev.versions.push(m);
+        if (rank(m) < rank(prev.major)) Object.assign(prev, { obj: o, major: m, manifest: man });
+      }
+    }
+  }
   const relations = new Map<string, RelationsView>();
   for (const m of majors) {
     const p = resolve(dataDir, "code", "relations", `${m}.json`);
     if (exists(p)) { const rel = readJson<Relations>(p); relations.set(m, { rel, in: incoming(rel), out: outgoing(rel) }); }
   }
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations };
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations, countryOnly };
 }
 
 const REL_CAP = 50;
@@ -123,12 +147,15 @@ function countriesOf(dataDir: string): string[] {
   return [...set].sort();
 }
 
-export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, manifest: SnapshotManifest, now: Date, hasLocalization: (cc: string) => boolean): string {
+export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, manifest: SnapshotManifest, now: Date, hasLocalization: (cc: string) => boolean, own: OwnObject | null = null): string {
   const key = objectKey(o);
-  const life = w.life.get(key) ?? { versions: [major], changed: [] };
-  const docs = w.docs?.by_object[key] ?? [];
+  // a country's own object lives in one country layer: its life is that country's majors, and no country replaces it
+  const life = own ? { versions: own.versions, changed: [] as string[] } : w.life.get(key) ?? { versions: [major], changed: [] };
+  const docs = own ? [] : w.docs?.by_object[key] ?? [];
   const topics = [...new Set(docs.flatMap((d) => w.topicsByUrl.get(d.url) ?? []))].sort();
-  const countries = (w.replacedIn.get(key) ?? []).sort();
+  const countries = own ? [] : (w.replacedIn.get(key) ?? []).sort();
+  const pageKey = own ? ownPageKey(o, own.cc) : objectPageKey(o);
+  const title = own ? `${titleOf(o)} (${own.cc.toUpperCase()})` : titleOf(o);
   const events = o.procedures.filter((p) => p.event && p.event !== "subscriber");
   const subs = o.procedures.filter((p) => p.subscribes_to);
   const pub = o.procedures.filter((p) => !p.event && p.scope !== "local");
@@ -136,7 +163,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const deps = deprecations([o]);
   const src = githubBlob(manifest.repo, manifest.commit, o.file);
   // relations (D45): outgoing from this object, incoming from others, subscribers of its events
-  const R = w.relations.get(major);
+  const R = own ? undefined : w.relations.get(major);
   const relOut = R?.out.get(key) ?? [], relIn = R?.in.get(key) ?? [];
   const refs = relIn.filter((e) => e.k === "table_relation" || e.k === "calc_formula");
   const pagesOn = relIn.filter((e) => e.k === "source_table" || e.k === "lookup_page" || e.k === "drilldown_page" || e.k === "card_page");
@@ -150,33 +177,35 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const sinceOldest = life.versions[0] === w.majors[0];
   const removedAfter = life.versions.at(-1) !== w.majors.at(-1);
   const summary = [
-    `${titleOf(o)}${o.app ? ` in ${o.app}` : ""}${o.namespace ? ` (${o.namespace})` : ""}${o.extends ? `, extends "${o.extends}"` : ""}.`,
+    `${title}${own ? ` in the ${own.cc.toUpperCase()} country layer` : o.app ? ` in ${o.app}` : ""}${o.namespace ? ` (${o.namespace})` : ""}${o.extends ? `, extends "${o.extends}"` : ""}.`,
     `${[o.fields.length ? `${o.fields.length} fields` : "", o.values.length ? `${o.values.length} values` : "", pub.length ? `${pub.length} public procedures` : "", events.length ? `${events.length} events` : "", subs.length ? `${subs.length} event subscribers` : ""].filter(Boolean).join(", ")}.`,
     `${sinceOldest ? `Present since at least BC${life.versions[0]}` : `Introduced in BC${life.versions[0]}`}${life.versions.at(-1) !== life.versions[0] ? `, still in BC${life.versions.at(-1)}` : ""}${life.changed.length ? `, changed in ${life.changed.map((v) => `BC${v}`).join(", ")}` : ""}${removedAfter ? `, gone after BC${life.versions.at(-1)}` : ""}.`,
     o.obsolete && o.obsolete.state !== "No" ? `Obsolete (${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}).` : "",
   ].filter((x) => x && x !== ".").join(" ").replace(/\.\s*\./g, ".");
   const fm = {
-    id: `object/${objectPageKey(o)}`, type: "object", title: titleOf(o), summary, tier: "official", language: "en",
-    tags: [o.type, ...(o.app ? [o.app.toLowerCase()] : [])],
+    id: `object/${pageKey}`, type: "object", title, summary, tier: "official", language: "en",
+    tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}|${own?.cc ?? ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
-      learn: docs.map((d) => d.url), objects: w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics, localizations: countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
+      learn: docs.map((d) => d.url), objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
+      localizations: own ? (hasLocalization(own.cc) ? [`localization/${own.cc}`] : []) : countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
       videos: [], posts: [], guidelines: [],
     },
     object_type: o.type, object_id: o.id, name: o.name, namespace: o.namespace, app: o.app, extends: o.extends,
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
-    obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id),
+    obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id), ...(own ? { country: own.cc.toUpperCase() } : {}),
     counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length },
     relations: { out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount },
   };
   validateOrThrow("frontmatter.object", fm, `object page ${key}`);
 
-  const lines: string[] = [`# ${titleOf(o)}`, "", `> ${summary}`, "",
-    `${o.app ?? "unknown app"}${o.namespace ? ` · ${o.namespace}` : ""} · ${versions} · [source at ${manifest.commit.slice(0, 8)}](${src}) · facts from BC${major}`, "",
-    ...(w.basePage?.(o) ? [`Extends [${cell(o.extends!)}](../${w.basePage(o)}.md).`, ""] : [])];
+  const lines: string[] = [`# ${title}`, "", `> ${summary}`, "",
+    `${own ? `${own.cc.toUpperCase()} country layer` : o.app ?? "unknown app"}${o.namespace ? ` · ${o.namespace}` : ""} · ${versions} · [source at ${manifest.commit.slice(0, 8)}](${src}) · facts from BC${major}`, "",
+    ...(own && hasLocalization(own.cc) ? [`An object of the [${own.cc.toUpperCase()} localization](../../localizations/${own.cc}.md), not part of W1.`, ""] : []),
+    ...(!own && w.basePage?.(o) ? [`Extends [${cell(o.extends!)}](../${w.basePage(o)}.md).`, ""] : [])];
   const props = KEY_PROPS.filter((p) => o.properties[p] !== undefined);
   if (props.length) lines.push("## Properties", "", "| Property | Value |", "|---|---|", ...props.map((p) => `| ${p} | ${cell(o.properties[p])} |`), "");
   if (o.fields.length) {
@@ -294,7 +323,11 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
     for (const o of replaced) { const p = hasObjectPage(o.key); lines.push(`| ${p ? `[${cell(o.key)} "${cell(o.name)}"](../objects/${p}.md)` : `${cell(o.key)} "${cell(o.name)}"`} | ${memberSummary(o)} |`); }
     lines.push("");
   }
-  if (added.length) lines.push("## Objects of its own", "", "Country-only objects have no object page yet (their ids repeat across countries).", "", ...added.map((o) => `- ${cell(o.key)} "${cell(o.name)}"`), "");
+  if (added.length) {
+    lines.push("## Objects of its own", "", `${added.length} objects only this country has.`, "");
+    for (const o of added) { const p = hasObjectPage(o.key); lines.push(`- ${p ? `[${cell(o.key)} "${cell(o.name)}"](../objects/${p}.md)` : `${cell(o.key)} "${cell(o.name)}"`}`); }
+    lines.push("");
+  }
   if (removed.length) lines.push("## W1 objects it drops", "", ...removed.map((o) => { const p = hasObjectPage(o.key); return `- ${p ? `[${cell(o.key)} "${cell(o.name)}"](../objects/${p}.md)` : cell(o.key)}`; }), "");
   if (older.length) lines.push("## Other versions", "", ...older.map((x) => `- BC${x.major}: ${x.summary.objects} objects differ from W1 (${x.summary.fields_added} fields, ${x.summary.events_added} events added)`), "");
   lines.push("Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).", "");
@@ -303,7 +336,7 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
 
 // ---------------------------------------------------------------------------------------------- run
 
-export interface CodePagesRun { objects: number; written: number; removed: number; localizations: number }
+export interface CodePagesRun { objects: number; written: number; removed: number; localizations: number; own_objects?: number }
 
 export function renderCodePages(dataDir: string, contentDir: string, now = new Date()): CodePagesRun {
   const w = loadObjectWorld(dataDir, contentDir);
@@ -336,6 +369,15 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
     wanted.add(pk);
     if (writeIfChanged(objectPagePath(contentDir, pk), renderObjectPage(obj, w, major, manifest, now, hasLoc))) run.written++;
   }
+  // a country's own objects (D52): keyed per country, so the 791 ids two countries share stay apart
+  const ownKeys = new Map<string, string>();
+  for (const [id, own] of w.countryOnly) {
+    const pk = ownPageKey(own.obj, own.cc);
+    ownKeys.set(id, pk);
+    wanted.add(pk);
+    if (writeIfChanged(objectPagePath(contentDir, pk), renderObjectPage(own.obj, w, own.major, own.manifest, now, hasLoc, own))) run.written++;
+    run.own_objects = (run.own_objects ?? 0) + 1;
+  }
   run.objects = wanted.size;
   for (const f of listFiles(resolve(contentDir, "objects"), ".md")) {
     const pk = relative(resolve(contentDir, "objects"), f).replace(/\.md$/, "");
@@ -353,7 +395,8 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
   for (const [cc, list] of byCountry) {
     const [newest, ...older] = list;
     const d = readJson<AlDiff>(newest.path);
-    const page = renderLocalizationPage(cc, d, older.map((x) => ({ major: x.major, summary: readJson<AlDiff>(x.path).summary })), (key) => pageKeys.get(key) ?? null, topicFor(cc), now, loadLocalizationNarrative(dataDir, cc));
+    const pageOf = (key: string) => pageKeys.get(key) ?? ownKeys.get(`${cc}|${key}`) ?? null;
+    const page = renderLocalizationPage(cc, d, older.map((x) => ({ major: x.major, summary: readJson<AlDiff>(x.path).summary })), pageOf, topicFor(cc), now, loadLocalizationNarrative(dataDir, cc));
     if (writeIfChanged(resolve(contentDir, "localizations", `${cc}.md`), page)) run.written++;
     run.localizations++;
   }

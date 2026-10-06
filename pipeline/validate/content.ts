@@ -31,8 +31,9 @@ export function relativeLinks(text: string): string[] {
   const out: string[] = [];
   for (const m of text.matchAll(LINK_RE)) {
     const href = m[1];
-    if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith("#")) continue;
-    out.push(decodeURIComponent(href.split("#")[0]));
+    // "#x" and "?x=y" address the page itself (the localization pages filter their own diff with ?ns=, D50)
+    if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith("#") || href.startsWith("?")) continue;
+    out.push(decodeURIComponent(href.split(/[#?]/)[0]));
   }
   return out.filter(Boolean);
 }

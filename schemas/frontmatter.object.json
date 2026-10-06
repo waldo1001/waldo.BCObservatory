@@ -139,6 +139,10 @@
           "type": "integer"
         }
       }
+    },
+    "country": {
+      "type": "string",
+      "description": "a country's own object (D52): the country layer it belongs to, uppercase; absent for W1 and first-party app objects"
     }
   }
 }

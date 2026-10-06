@@ -33,9 +33,10 @@ export function renderObjectsIndex(contentDir: string, dataDir: string): { objec
     try { fm = matter(readText(f)).data; } catch { continue; }
     if (fm.type !== "object") continue;
     const pk = relative(root, f).replace(/\.md$/, "");
-    rows.push([pk, String(fm.object_type), fm.object_id ?? null, String(fm.name), fm.app ?? null, fm.namespace ?? null, fm.obsolete?.state ?? null,
+    rows.push([pk, String(fm.object_type), fm.object_id ?? null, fm.country ? `${fm.name} (${fm.country})` : String(fm.name), fm.country ? `${fm.country} layer` : fm.app ?? null, fm.namespace ?? null, fm.obsolete?.state ?? null,
       fm.versions?.introduced ?? null, (fm.changed_in ?? []).join(" "), (fm.links?.learn ?? []).length, (fm.countries ?? []).length]);
-    pageOfKey.set(objectKey({ type: fm.object_type, id: fm.object_id ?? null, name: String(fm.name) }), pk);
+    // the fields index maps W1 and app objects to their page; country ids repeat, so they stay out of it (D52)
+    if (!fm.country) pageOfKey.set(objectKey({ type: fm.object_type, id: fm.object_id ?? null, name: String(fm.name) }), pk);
   }
   rows.sort((a, b) => a[0].localeCompare(b[0]));
   const dir = resolve(dataDir, "index");

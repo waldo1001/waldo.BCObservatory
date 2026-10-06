@@ -12,7 +12,8 @@ export async function getStaticPaths() {
   const all = await getCollection("objects");
   // relations name objects by type/id (or type/lower-cased name): one lookup shared by every page (D45)
   const byKey = new Map<string, Lookup>();
-  for (const e of all) byKey.set(`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`, { pk: e.id, title: String(e.data.title), system: objectSystem(e.data.namespace), type: String(e.data.object_type) });
+  // only W1 and first-party app pages: a country's own object shares its id with other countries (D52)
+  for (const e of all) if (!e.data.country) byKey.set(`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`, { pk: e.id, title: String(e.data.title), system: objectSystem(e.data.namespace), type: String(e.data.object_type) });
   const lookup = (k: string) => byKey.get(k) ?? null;
   return all.map((entry) => ({ params: { id: entry.id }, props: { entry, lookup } }));
 }
@@ -38,7 +39,7 @@ const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
 ---
 <Page fm={fm} kind={String(fm.object_type)} path={`objects/${entry.id}`} section="objects"
   crumbs={[{ label: "AL objects", href: `${base}objects/` }, { label: `${fm.object_type}s`, href: `${base}objects/${fm.object_type}/` }]}
-  ns={[fm.app, fm.namespace].filter(Boolean).join(" · ")} summary={null} stats={stats}
+  ns={[fm.country ? `${fm.country} country layer` : fm.app, fm.namespace].filter(Boolean).join(" · ")} summary={null} stats={stats}
   context={src ? { label: "Source on GitHub", href: src.url } : undefined} connections={false}>
   <VersionTimeline presentIn={fm.present_in ?? []} changedIn={fm.changed_in ?? []} history={history} obsolete={fm.obsolete} />
   <Neighbourhood objectKey={objectKey} major={String(fm.source_major)} title={String(fm.title)} system={objectSystem(fm.namespace)} lookup={lookup} learn={learn} />

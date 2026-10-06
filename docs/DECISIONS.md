@@ -314,3 +314,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (c) `buildRelations` (D45) held both snapshots of a major in memory, about a gigabyte per major, and was what
   exhausted the 8 GB heap in the post-pass; it now streams each snapshot twice (index pass, edge pass) keeping only
   a slim index entry per object: 308 MB peak and 2.2 s for BC28-30, same edges and subscriptions.
+- **D52 A country's own objects get pages.** The 4,319 objects that exist only in a country layer (BE's CODA
+  statements, NL's payment history, ...) had no page: the localization listed them as plain text and the D50
+  narratives could not link them. They now render like any other object, keyed `<type>/<id>-<cc>` because 791 ids
+  are used by more than one country (codeunit 9997 "Upgrade Tag Def - Country" exists in 13). The page says which
+  layer it belongs to and links the localization; it carries no W1 relations, no "countries that replace it" and no
+  Learn join, because a country object is in none of those. `country` in the frontmatter keeps them out of the two
+  id-keyed lookups (the site's relations lookup and the field index), where their repeated ids would collide; the
+  objects index, Ctrl+K and the atlas pick them up by path. 20,744 object pages, 595 MB built, 35 s.
+  Also fixed: `relativeLinks` treated a `?query` link as a path, so D50's "all objects of <area> in the diff" links
+  failed validate:content; a link starting with `?` addresses the page itself.

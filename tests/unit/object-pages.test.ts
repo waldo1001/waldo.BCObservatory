@@ -10,6 +10,7 @@ import { writeSnapshot } from "../../pipeline/code/job.js";
 import { refreshCodeDerived } from "../../pipeline/code/diff.js";
 import { renderCodePages } from "../../pipeline/render/object.js";
 import { validateContent } from "../../pipeline/validate/content.js";
+import { validate } from "../../pipeline/lib/schema.js";
 
 const T28 = `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } }\n}\ncodeunit 99 Gone { }\n`;
 const T29 = `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } field(2; Email; Text[80]) { ObsoleteState = Pending; ObsoleteTag = '29.0'; } }\n    [IntegrationEvent(false, false)]\n    local procedure OnAfterX() begin end;\n    procedure GetName(): Text begin end;\n}\ntableextension 50 "Cust Ext" extends Customer { }\npage 21 "Customer Card" { SourceTable = Customer; }\ntable 36 "Sales Header" { fields { field(2; "Sell-to Customer No."; Code[20]) { TableRelation = Customer; } } }\ncodeunit 80 "Sales-Post" { TableNo = "Sales Header"; [EventSubscriber(ObjectType::Table, Database::Customer, 'OnAfterX', '', false, false)] local procedure OnX() begin end; }\n`;
@@ -27,7 +28,7 @@ test("object and localization pages: valid frontmatter, cross-links that resolve
   refreshCodeDerived(dataDir, ["28", "29"]);
   writeJson(join(dataDir, "index/docs-objects.json"), { majors: ["28", "29"], commits: {}, docs: 1, links: 1, by_doc: {}, by_object: { "page/21": [{ id: "docs/learn/bc/customer.md", url: "https://learn/customer", title: "Customer card" }] } });
   const r = renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
-  assert.deepEqual([r.objects, r.localizations], [6, 1], "table 18, codeunit 99 (gone in 29), tableextension 50, page 21, table 36, codeunit 80; BE");
+  assert.deepEqual([r.objects, r.localizations, r.own_objects], [7, 1, 1], "table 18, codeunit 99 (gone in 29), tableextension 50, page 21, table 36, codeunit 80, BE's own table 11300; BE");
   const t = matter(readFileSync(join(contentDir, "objects/table/18.md"), "utf8"));
   assert.deepEqual([t.data.present_in, t.data.changed_in, t.data.versions.introduced, t.data.countries, t.data.links.localizations], [["28", "29"], ["29"], null, ["be"], ["localization/be"]]);
   assert.match(t.content, /\| 2 \| Email \| Text\[80\] \| obsolete Pending 29.0 \|/);
@@ -48,6 +49,12 @@ test("object and localization pages: valid frontmatter, cross-links that resolve
   assert.match(be.content, /## By area\n\n\| Area \| W1 objects changed \| Own objects \| Fields added \|\n\|---\|---\|---\|---\|\n\| \(no namespace\) \| 1 \| 1 \| 1 \|/);
   assert.ok(existsSync(join(dataDir, "code/diffs/country/matrix.json")), "country matrix written by the derived step");
   assert.deepEqual([be.data.country, be.data.added_objects, be.data.replaced_objects, be.data.added_fields], ["BE", 1, 1, 1]);
+  // the country's own object gets a page of its own, keyed per country, and the localization links it (D52)
+  const own = matter(readFileSync(join(contentDir, "objects/table/11300-be.md"), "utf8"));
+  assert.ok(validate("frontmatter.object", own.data).ok, JSON.stringify(validate("frontmatter.object", own.data).errors));
+  assert.deepEqual([own.data.id, own.data.title, own.data.country, own.data.links.localizations, own.data.countries], ["object/table/11300-be", 'Table 11300 "BE Only" (BE)', "BE", ["localization/be"], []]);
+  assert.match(own.content, /An object of the \[BE localization\]\(\.\.\/\.\.\/localizations\/be\.md\), not part of W1\./);
+  assert.match(be.content, /## Objects of its own\n\n1 objects only this country has\.\n\n- \[table\/11300 "BE Only"\]\(\.\.\/objects\/table\/11300-be\.md\)/);
   assert.ok(existsSync(join(contentDir, "objects/table/llms.txt")) && existsSync(join(contentDir, "localizations/llms.txt")));
   assert.deepEqual(validateContent(contentDir).errors, []);
   // a second render changes nothing; an object that leaves every snapshot loses its page

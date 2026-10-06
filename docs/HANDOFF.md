@@ -108,7 +108,8 @@ Deliberate deviations from PLAN, all small:
   relations file to the browser (per-type shards would fix that). Objects index + Ctrl+K finder (D46), the codebase atlas on /objects/ (D47), the version lens + deprecation radar
   pages (D48), the event explorer and the country heatmap (D49) are done: the 2026-10-07 plan is complete except the
   deferred 2-hop neighbourhood. Localization narratives tell the story per area with links into the code (D50);
-  BE and NL are written, the other 20 countries follow in the nightly (~$0.18 each).
+  BE and NL are written, the other 20 countries follow in the nightly (~$0.18 each). A country's own objects now have
+  pages too (D52).
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
 - M4 weekly digest + RSS done (D36).
