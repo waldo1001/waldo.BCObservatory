@@ -1,0 +1,146 @@
+{
+  "video_id": "5GoAzII20L0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 19.1,
+      "text": "Hi and welcome to this launch event. My name is Peter Bøgh. In this short session, I want to introduce an enhancement to the page scripting tool that we launched in the previous release as a preview."
+    },
+    {
+      "t": 19.1,
+      "end": 31.8,
+      "text": "So, page scripting allows customers and consultants to record and replay user actions directly in the web client. For example, as part of creating user acceptance tests."
+    },
+    {
+      "t": 31.8,
+      "end": 43.7,
+      "text": "And then that is a way to then offload developers and empower these stakeholders, customers and consultants, to create tests in a more agile, quicker, and cost-effective way."
+    },
+    {
+      "t": 43.7,
+      "end": 59.8,
+      "text": "So, I did a thorough walk through of this new tool in the previous launch event. And so, if this is new to you, I recommend that you watch that session either before you continue with this or after."
+    },
+    {
+      "t": 59.8,
+      "end": 74.1,
+      "text": "Because in this release in this session, we're going to talk about an enhancement to that tool. And at launch, these scripts that were recorded in the client had to be replayed in the client as well."
+    },
+    {
+      "t": 74.1,
+      "end": 87.1,
+      "text": "And that involved tedious manual work. It also made it more complicated to run a suite of related tests, you know, across functionality in the application."
+    },
+    {
+      "t": 87.1,
+      "end": 101.2,
+      "text": "And also, it meant that the scripts that were captured by customers or consultants could not be utilized by developers in their inner and outer loop to capture regressions early."
+    },
+    {
+      "t": 101.2,
+      "end": 115.6,
+      "text": "And so, one of the most common feedbacks that we got from partners since we launched the preview has been, could there be a way to run the scripts in a pipeline instead"
+    },
+    {
+      "t": 115.6,
+      "end": 132.7,
+      "text": "for automated testing? And so, in this release, we are enabling exactly that. We're introducing a standalone page script replayer that you can now use, for instance, in CCD pipeline to run the scripts."
+    },
+    {
+      "t": 132.7,
+      "end": 144.1,
+      "text": "And that script player is distributed as a node package manager on NPM package that you can then install latest version of this from the NPM feed."
+    },
+    {
+      "t": 144.1,
+      "end": 155.6,
+      "text": "I provided a link here where you can see more on that. There is no setup required. You just have to run an install command. But there are some requirements."
+    },
+    {
+      "t": 155.6,
+      "end": 168,
+      "text": "You need to have a node JS and page playwright and some additional things, but you can read more about that on the package site."
+    },
+    {
+      "t": 168,
+      "end": 178.1,
+      "text": "Now, with the BC replayer package, you can now run a selection of scripts in your environment. So, that could be a specific"
+    },
+    {
+      "t": 178.1,
+      "end": 189.9,
+      "text": "set of scripts. It could also be just all scripts in a folder using a wildcard. And we document the different options for these parameters on the NPM package."
+    },
+    {
+      "t": 189.9,
+      "end": 208.2,
+      "text": "So, as an example, if you want to run all scripts in a folder in the recording folder, and you want to run them on just the localhost client with Windows authentication, which is the default, and output then the results of each script in the same folder,"
+    },
+    {
+      "t": 208.2,
+      "end": 220.4,
+      "text": "then you can use a command just NPM replay. You provide the folder with all the scripts. There's a wild wildcard path there for YAML files because the scripts are based on YAML files."
+    },
+    {
+      "t": 220.4,
+      "end": 231.8,
+      "text": "And we provide then also the start address for the client to use. And as I said, Windows authentication is a default. Now, this is available already today."
+    },
+    {
+      "t": 231.8,
+      "end": 241.8,
+      "text": "So, you can go install this replayer and use it in your pipelines, especially if you have your own custom DevOps today."
+    },
+    {
+      "t": 241.8,
+      "end": 256,
+      "text": "Now, we always recommend having using a managed DevOps solution, for instance, go for GitHub or ALOps or Alpaca, so you don't have to sort of spend time on building your custom setup."
+    },
+    {
+      "t": 256,
+      "end": 267.9,
+      "text": "And support for the BC replay page scripting replayer will come out soon in those different solutions. We will be focusing, of course, on the AL go for GitHub."
+    },
+    {
+      "t": 267.9,
+      "end": 279.1,
+      "text": "And so, expect that in the near future. So that if you're using that, you can more or less get this for free. So, the call to actions,"
+    },
+    {
+      "t": 279.1,
+      "end": 289.4,
+      "text": "watch, as I mentioned in the beginning, the launch event recording from last time on the page scripting tool to understand what it can do and the benefit of that tool."
+    },
+    {
+      "t": 289.4,
+      "end": 302,
+      "text": "Also, adopt a managed solution for DevOps. Again, AL go for GitHub, ALOps, or Alpaca could be options for that. If you are customer or consultant,"
+    },
+    {
+      "t": 302,
+      "end": 319.1,
+      "text": "take advantage of the tool and create user acceptance tests to ensure the quality of custom solutions. And as a partner, take advantage of having those scripts and run them in pipelines to catch regressions earlier on during development"
+    },
+    {
+      "t": 319.1,
+      "end": 331,
+      "text": "so that you don't have costly impact in deployments or upgrades because of those regressions. Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.97,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.63,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.64,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 762
+}

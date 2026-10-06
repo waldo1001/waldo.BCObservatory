@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v21",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f33389946064d0e3361cfaf2144ef0a42e2f8b7",
       "words": 572,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:20.746Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006036
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:20.762Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:20.763Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:20.764Z",
+      "page": false
     }
   },
   "input_hash": "0f33389946064d0e3361cfaf2144ef0a42e2f8b7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f33389946064d0e3361cfaf2144ef0a42e2f8b7"
+  "output_hash": "705407f69570c1e0044765a4f65e5d3bd1efde85b4bbe936aac5a77974c70d14"
 }

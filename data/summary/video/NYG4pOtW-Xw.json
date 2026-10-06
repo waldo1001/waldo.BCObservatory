@@ -1,0 +1,27 @@
+{
+  "video_id": "NYG4pOtW-Xw",
+  "item_id": "video/yt-microsoft/NYG4pOtW-Xw",
+  "summary": "Business Central sustainability features in 2024 release wave 2: a Sustainability Manager role center, scorecards and goals, emissions on purchase documents, internal carbon fees, carbon credit purchases, ESG reporting on financial reports, and certificates on vendors and items. Most arrive with major version 25; the updated demo data tool is announced for 25.1 in November.",
+  "overview": "The video walks through what the 2024 release wave 2 adds to Business Central sustainability, building on the wave 1 foundation. It demos the new role center, scorecards and goals, the Emission Fees page, emissions entered directly on purchase orders and invoices, carbon credit purchasing and posting, and ESG reporting built on financial report row definitions.\n\nThe presenters say most features come with major version 25. The updated demo data tool follows with the next minor version, 25.1, in November. They also say they could not deliver everything and will keep investing in sustainability.",
+  "key_points": [
+    "The Sustainability Manager role center shows KPIs, daily emissions, goals, baselines, targets and charts by scope and gas type. A user must have the 'sustainability manager' field marked to own a scorecard.",
+    "Only one goal per company can be marked as the main goal, not one per scorecard. The baseline is calculated from sustainability entries in the previous period.",
+    "Emissions on purchase orders and invoices must be enabled in sustainability setup, on the procurement fast tab. Once enabled, users see only sustainability-related purchase documents in the tiles. Emissions entered on a line are the total for that line, and the system calculates the per-unit-of-measure values.",
+    "The new Emission Fees page sets carbon equivalent factors and internal carbon fees by emission type, date range, country and responsibility center. 'Update Carbon Fees' applies changes retroactively to existing entries.",
+    "For carbon credits, mark the item as a greenhouse gases credit and set its unit of measure to match the tracking unit in sustainability setup. On posting, the system creates negative-value sustainability ledger entries, so no minus sign is entered.",
+    "Financial report row definitions support sustainability totaling types with sustainability accounts, and carbon equivalent and carbon fee amount types. They can be combined with statistic accounts and posting accounts for metrics such as emissions per employee or per revenue.",
+    "Vendors and items get certificate fields, and the certificate type is filled in automatically from where it is created. All features except the demo data tool come with major version 25."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "cf517e0c3e82d59b35ee3ac3f0a74d11b61ac3d66515647ba479f74e29552cca",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0248144
+  }
+}

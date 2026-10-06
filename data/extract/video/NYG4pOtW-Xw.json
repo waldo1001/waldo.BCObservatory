@@ -1,0 +1,616 @@
+{
+  "video_id": "NYG4pOtW-Xw",
+  "item_id": "video/yt-microsoft/NYG4pOtW-Xw",
+  "title": "What's New in Sustainability (2024 release wave 2)",
+  "duration_s": 1355,
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "emissions tracking",
+    "carbon accounting",
+    "role center",
+    "scorecards",
+    "goals",
+    "purchase documents",
+    "carbon fees",
+    "emission factors",
+    "sustainability ledger",
+    "carbon credits",
+    "esg reporting",
+    "certificates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Foundation Overview",
+      "t_start": 0,
+      "t_end": 121.6
+    },
+    {
+      "title": "Wave 1 Fundamentals and Decision-Making",
+      "t_start": 121.6,
+      "t_end": 210.2
+    },
+    {
+      "title": "Wave 2 Deliverables and New Features",
+      "t_start": 210.2,
+      "t_end": 331.4
+    },
+    {
+      "title": "Role Center and Setup Requirements",
+      "t_start": 331.4,
+      "t_end": 425.2
+    },
+    {
+      "title": "Demo: Role Center, Scorecards, and Goals",
+      "t_start": 425.2,
+      "t_end": 587.3
+    },
+    {
+      "title": "Demo: Emission Fees and Carbon Calculations",
+      "t_start": 587.3,
+      "t_end": 735
+    },
+    {
+      "title": "Demo: Purchase Documents and Carbon Credits",
+      "t_start": 735,
+      "t_end": 881
+    },
+    {
+      "title": "Carbon Credit Marking and Posting",
+      "t_start": 881,
+      "t_end": 1007.6
+    },
+    {
+      "title": "ESG Reporting and Financial Integration",
+      "t_start": 1007.6,
+      "t_end": 1128.9
+    },
+    {
+      "title": "Certificates for Items and Vendors",
+      "t_start": 1128.9,
+      "t_end": 1241.5
+    },
+    {
+      "title": "Release Timeline and Cloud Sustainability Integration",
+      "t_start": 1241.5,
+      "t_end": 1355
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability Manager Role Center",
+      "description": "New dedicated role center for sustainability managers featuring KPIs, daily emissions tracking, goals, baselines, targets, and charts showing emissions by scope and gas type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.2,
+      "t_end": 587.3,
+      "is_demoed": true,
+      "caveats": [
+        "User must have 'sustainability manager' field marked to be scorecard owner"
+      ],
+      "tags": [
+        "role center",
+        "dashboard",
+        "kpi",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Scorecards and Goals",
+      "description": "Feature to define multiple sustainability scorecards and goals with baseline tracking, current values, and target values for emissions. Only one goal per company can be marked as main goal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 466.2,
+      "t_end": 587.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only one main goal per company",
+        "Baseline calculated from sustainability entries in previous period"
+      ],
+      "tags": [
+        "scorecards",
+        "goals",
+        "baseline",
+        "targets"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emissions in Purchase Documents",
+      "description": "Ability to enter emissions directly in purchase orders and invoices, linking sustainability accounts and tracking emissions by gas type without requiring separate sustainability journal entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 250.4,
+      "t_end": 899.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in sustainability setup under procurement fast tab",
+        "Optional for users not requiring sustainability features",
+        "Emissions calculated per unit of measure"
+      ],
+      "tags": [
+        "purchase",
+        "invoice",
+        "emissions",
+        "purchase order"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Carbon Equivalent Recalculation",
+      "description": "Automatic recalculation of different greenhouse gases to carbon dioxide equivalent using configured emission factors and coefficients.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270.5,
+      "t_end": 717.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper emission factors configuration",
+        "Complex formula uses multiple coefficients"
+      ],
+      "tags": [
+        "carbon",
+        "gases",
+        "recalculation",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Internal Carbon Fee",
+      "description": "Capability to configure and calculate internal carbon fees per emission type with support for different countries and responsibility centers, enabling financial impact tracking of emissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 290.8,
+      "t_end": 697.5,
+      "is_demoed": true,
+      "caveats": [
+        "Can be configured per country, responsibility center, or company-wide"
+      ],
+      "tags": [
+        "carbon fee",
+        "cost",
+        "regulation",
+        "emissions"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emission Fees Page",
+      "description": "New page and table for configuring carbon fees and carbon equivalent factors by emission type, with date ranges, country, and responsibility center dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 605.3,
+      "t_end": 697.5,
+      "is_demoed": true,
+      "caveats": [
+        "Allows retroactive updates of carbon fees for existing entries via 'Update Carbon Fees' function"
+      ],
+      "tags": [
+        "emission fees",
+        "carbon",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Purchase Credits",
+      "description": "Ability to purchase and track carbon credits within purchase documents to immediately decrease emissions in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270.5,
+      "t_end": 1000,
+      "is_demoed": true,
+      "caveats": [
+        "Carbon credits must be marked as greenhouse gases credit on items"
+      ],
+      "tags": [
+        "carbon credits",
+        "purchase",
+        "offsets"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sustainability Entries in Financial Reports",
+      "description": "Integration of sustainability ledger entries into standard financial reports, allowing visibility of sustainability data alongside financial information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 311.3,
+      "t_end": 331.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "financial reports",
+        "integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sustainability Certificates on Vendors and Items",
+      "description": "New fields for tracking sustainability or city certificates on vendor and item master data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1128.9,
+      "t_end": 1240,
+      "is_demoed": true,
+      "caveats": [
+        "Type is auto-populated based on where certificate is created from"
+      ],
+      "tags": [
+        "certificates",
+        "items",
+        "vendors",
+        "esg"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Updated Demo Data Tool",
+      "description": "Enhanced demo data tool to include all new sustainability features and updated scenarios for the 2024 release wave 2.",
+      "status": "announced",
+      "status_evidence_t": 331.4,
+      "status_evidence_quote": "not in major this is something what will come in 25.1 we will update demo data tool",
+      "status_evidence_verified": true,
+      "t_start": 331.4,
+      "t_end": 351.5,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November for 25.1 release"
+      ],
+      "tags": [
+        "demo data",
+        "setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Purchase Document Sustainability Visibility Filtering",
+      "description": "Users working with sustainability see only sustainability-related purchase documents in tiles, filtered based on sustainability setup enabling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 786.8,
+      "t_end": 807.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling usage of purchase document sustainability setup"
+      ],
+      "tags": [
+        "purchase documents",
+        "filtering",
+        "sustainability setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emissions Entry with Sustainability Accounts",
+      "description": "Users can add sustainability account numbers to purchase invoices and enter emissions data for different gases with automatic per-unit-of-measure calculation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 807.4,
+      "t_end": 875,
+      "is_demoed": true,
+      "caveats": [
+        "Can enter emissions for multiple gases or single gas as needed",
+        "System calculates per unit of measure automatically"
+      ],
+      "tags": [
+        "emissions",
+        "sustainability accounts",
+        "multi-gas support"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Ledger Entries with Document Tracking",
+      "description": "Posted sustainability documents create ledger entries showing document type, emissions details, and full transaction information in find entries view.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 841,
+      "t_end": 880,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sustainability ledger",
+        "document type tracking",
+        "find entries"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Carbon Credit Item Configuration",
+      "description": "Items can be marked as greenhouse gases credits with sustainability fast tab settings to define unit of measure conversion for automatic emission calculation on purchase.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 881,
+      "t_end": 940,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setting unit of measure in item card matching sustainability setup tracking unit"
+      ],
+      "tags": [
+        "carbon credits",
+        "item configuration",
+        "greenhouse gases"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Automatic Carbon Credit Offset Posting",
+      "description": "Posted carbon credit documents automatically create sustainability ledger entries with negative emission values without manual entry of minus signs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 940,
+      "t_end": 1000,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "carbon credits",
+        "automatic offset",
+        "sustainability ledger"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "ESG Reporting with Financial Row Definition",
+      "description": "Financial reports now support sustainability totaling types using sustainability accounts, carbon equivalent and carbon fee amount types for emissions reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1007.6,
+      "t_end": 1070,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "esg reporting",
+        "carbon equivalent",
+        "carbon fee",
+        "row definition"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hybrid Financial and Sustainability Reporting",
+      "description": "Reports can combine sustainability entries with statistic accounts and financial posting accounts to calculate metrics like emissions per employee and emissions per revenue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1068.6,
+      "t_end": 1110,
+      "is_demoed": true,
+      "caveats": [
+        "Future CSRD and regulatory reports will expand this capability"
+      ],
+      "tags": [
+        "hybrid reporting",
+        "statistic accounts",
+        "metrics calculation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sustainability Accounts Chart",
+      "t": 141.7
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Scorecards",
+      "t": 466.2
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals",
+      "t": 506.6
+    },
+    {
+      "type": "table",
+      "name": "Emission Fees",
+      "t": 605.3
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entries",
+      "t": 162.1
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Journals",
+      "t": 162.1
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices",
+      "t": 755.3
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders",
+      "t": 250.4
+    },
+    {
+      "type": "table",
+      "name": "sustainability accounts",
+      "t": 1028.4
+    },
+    {
+      "type": "table",
+      "name": "statistic accounts",
+      "t": 1068.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toic",
+      "confidence": "high"
+    },
+    {
+      "name": "Unknown speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 121.6,
+      "text": "to build proper foundation part so fundamentals will be good enough to enable us for building new advanced features",
+      "why_it_matters": "Explains the strategic approach to building the sustainability module incrementally rather than trying to deliver everything at once.",
+      "check": "fuzzy-snapped"
+    },
+    {
+      "t": 210.2,
+      "text": "we made a lot of research what is the most important for partners for customers and we couldn't deliver everything",
+      "why_it_matters": "Shows how prioritization decisions were made for wave 2 based on customer and partner feedback.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 290.8,
+      "text": "we additionally added internal carbon fee because this is required in some regulation and i",
+      "why_it_matters": "Explains regulatory driver for adding carbon fee calculation feature based on observed market trends.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 371.8,
+      "text": "make any difference for users who will not use sustainability features at all",
+      "why_it_matters": "Shows design philosophy that sustainability features are optional and non-intrusive to standard business processes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 506.6,
+      "text": "only one can be Main and when I say only one not only one per scorecard only one in company can be main goal",
+      "why_it_matters": "Clarifies a key constraint on goal configuration - only one company-wide main goal despite unlimited scorecard definitions.",
+      "check": "exact"
+    },
+    {
+      "t": 657,
+      "text": "what is important maybe we started as you maybe started with the previous features without having emission fees and now you want to update",
+      "why_it_matters": "Explains the retroactive update capability for applying new carbon fees to historical sustainability entries.",
+      "check": "exact"
+    },
+    {
+      "t": 786.8,
+      "text": "this is much easier for user who are working with sustainability they will see only um documents related with sustainability",
+      "why_it_matters": "Explains the filtering benefit for sustainability-focused users seeing only relevant documents.",
+      "check": "exact"
+    },
+    {
+      "t": 860.7,
+      "text": "emissions will when you enter here emission it will be total emission for this uh for this line but we have Fields emission per",
+      "why_it_matters": "Describes how the system automatically calculates per-unit emissions from total amounts.",
+      "check": "exact"
+    },
+    {
+      "t": 920,
+      "text": "you do not need to enter nothing manually in the documents you just need to say okay I bought one or three and system",
+      "why_it_matters": "Shows the automation benefit of carbon credit configuration reducing manual data entry.",
+      "check": "exact"
+    },
+    {
+      "t": 973.9,
+      "text": "you do not need to enter minus in a document you just need to enter a regular number system will automatically when system recognize",
+      "why_it_matters": "Clarifies that negative carbon offsets are handled automatically without manual minus entry.",
+      "check": "exact"
+    },
+    {
+      "t": 1028.4,
+      "text": "in amount types we can use carbon equivalent and carbon fee so can use these two options uh for reporting",
+      "why_it_matters": "Identifies new amount type options available for sustainability reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1068.6,
+      "text": "you can enter for example number of employees you can enter put your revenue from posting accounts and now I want to calculate emission",
+      "why_it_matters": "Demonstrates hybrid reporting approach combining financial and sustainability data for ratio calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 1322.8,
+      "text": "all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1",
+      "why_it_matters": "Specifies the exact version release timeline for sustainability features.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 331.4,
+      "kind": "coming-later",
+      "text": "will come in 25.1 we will update demo data tool so now you have all demo data for previous features but for all these nice great new features updated demo tool will come in November"
+    },
+    {
+      "t": 827.6,
+      "kind": "preview",
+      "text": "if you look in a preview posting this is regular document but you have sustainability Ledger entries"
+    },
+    {
+      "t": 1261.6,
+      "kind": "other",
+      "text": "this is not that we have this functionality embedded in a busy Center yes we already started previous fa now we uh en Reach This functionality we will continue with investment in sustainability features"
+    },
+    {
+      "t": 1322.8,
+      "kind": "subject-to-change",
+      "text": "all all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 16
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027399
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023578
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029347
+    }
+  ]
+}

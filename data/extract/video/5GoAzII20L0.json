@@ -1,0 +1,216 @@
+{
+  "video_id": "5GoAzII20L0",
+  "item_id": "video/yt-microsoft/5GoAzII20L0",
+  "title": "What's New: Run Page Scripts in CICD Pipelines (2024 release wave 2)",
+  "duration_s": 331,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page scripting",
+    "automated testing",
+    "ci/cd pipelines",
+    "uats",
+    "user acceptance tests",
+    "regression testing",
+    "al-go",
+    "node package manager",
+    "bc replayer",
+    "devops"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Page Scripting",
+      "t_start": 0,
+      "t_end": 43.7
+    },
+    {
+      "title": "Prior Limitations of Client-Only Replay",
+      "t_start": 43.7,
+      "t_end": 101.2
+    },
+    {
+      "title": "Introducing Page Script Replayer for Pipelines",
+      "t_start": 101.2,
+      "t_end": 155.6
+    },
+    {
+      "title": "How to Use the BC Replayer Package",
+      "t_start": 155.6,
+      "t_end": 231.8
+    },
+    {
+      "title": "Managed DevOps Solutions and Future Support",
+      "t_start": 231.8,
+      "t_end": 267.9
+    },
+    {
+      "title": "Call to Action and Summary",
+      "t_start": 267.9,
+      "t_end": 331
+    }
+  ],
+  "features": [
+    {
+      "name": "Page Scripting Tool",
+      "description": "A tool that allows customers and consultants to record and replay user actions directly in the web client for creating user acceptance tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.6,
+      "t_end": 43.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires watching previous launch event for full context"
+      ],
+      "tags": [
+        "page scripting",
+        "user acceptance tests",
+        "test automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Script Replayer for CI/CD Pipelines",
+      "description": "A standalone page script replayer distributed as an NPM package that enables running recorded page scripts in CI/CD pipelines for automated regression testing without manual client-based replay.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.2,
+      "t_end": 231.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Node.js, Playwright, and additional dependencies",
+        "No setup required but dependencies must be installed",
+        "Windows authentication is the default"
+      ],
+      "tags": [
+        "ci/cd pipelines",
+        "automated testing",
+        "regression testing",
+        "npm package",
+        "devops",
+        "deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go for GitHub Support for Page Script Replayer",
+      "description": "Support for the BC replay page scripting replayer will be added to managed DevOps solutions, with focus on AL-Go for GitHub in the near future.",
+      "status": "announced",
+      "status_evidence_t": 256,
+      "status_evidence_quote": "support for the BC replay page scripting replayer will come out soon in those different solutions",
+      "status_evidence_verified": true,
+      "t_start": 256,
+      "t_end": 267.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in the near future",
+        "ALOps and Alpaca support also planned"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "devops",
+        "pipeline integration"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC Replayer",
+      "t": 132.7
+    },
+    {
+      "type": "other",
+      "name": "AL-Go for GitHub",
+      "t": 256
+    },
+    {
+      "type": "other",
+      "name": "ALOps",
+      "t": 241.8
+    },
+    {
+      "type": "other",
+      "name": "Alpaca",
+      "t": 241.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Bøgh",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.1,
+      "text": "page scripting allows customers and consultants to record and replay user actions directly in the web client",
+      "why_it_matters": "Defines the core capability of page scripting tool for creating tests",
+      "check": "exact"
+    },
+    {
+      "t": 101.2,
+      "text": "one of the most common feedbacks that we got from partners since we launched the preview has been, could there be a way to",
+      "why_it_matters": "Explains the customer-driven need that prompted this new feature",
+      "check": "exact"
+    },
+    {
+      "t": 115.6,
+      "text": "in this release, we are enabling exactly that. We're introducing a standalone page script replayer",
+      "why_it_matters": "Announces the general availability of the page script replayer feature",
+      "check": "exact"
+    },
+    {
+      "t": 132.7,
+      "text": "script player is distributed as a node package manager on NPM package that you can then install latest version",
+      "why_it_matters": "Specifies the distribution method and installation approach",
+      "check": "exact"
+    },
+    {
+      "t": 220.4,
+      "text": "this is available already today. So, you can go install this replayer and use it in your pipelines",
+      "why_it_matters": "Confirms immediate availability and encourages adoption",
+      "check": "exact"
+    },
+    {
+      "t": 256,
+      "text": "support for the BC replay page scripting replayer will come out soon in those different solutions. We will be focusing, of course, on the",
+      "why_it_matters": "Indicates managed DevOps integration is announced for the near future",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 6.6,
+      "kind": "preview",
+      "text": "enhancement to the page scripting tool that we launched in the previous release as a preview"
+    },
+    {
+      "t": 256,
+      "kind": "coming-later",
+      "text": "support for the BC replay page scripting replayer will come out soon in those different solutions"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013015
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "8t3WaWh7K9Y",
+  "item_id": "video/yt-microsoft/8t3WaWh7K9Y",
+  "summary": "Open In VS Code action and Source Control Details section on the Business Central extension management page, which show the GitHub repo and commit ID of an extension built with AL-Go for GitHub and open its source in VS Code. Also covers exploring a page in VS Code from the page inspector.",
+  "overview": "The video, published 2024-10-08, shows how a developer can get from an installed extension to its source code. The extension details page has a new Source Control Details section with the GitHub repository and the commit ID tied to the build. A new Open In VS Code action on the extension management page uses that information to open the source in VS Code.\n\nThe demo also covers exploring a page from the page inspector in VS Code, making and testing changes, and reopening a repository that was already cloned. AL-Go for GitHub fills in the source control information automatically for extensions it builds. Seeing the repo information does not guarantee access to the repo, and resource protection policies can block the source download.",
+  "key_points": [
+    "The extension management page has a new Source Control Details section showing the GitHub repository URL and the commit ID of the build.",
+    "The new Open In VS Code action on the extension management page opens the extension source in VS Code.",
+    "AL-Go for GitHub automatically populates the source control information, but only for extensions built with it and with the pipeline configured correctly.",
+    "You may not have access to the repo even when its information is visible. GitHub credentials must be configured and you need repository access.",
+    "If resource protection policies for the app do not allow downloading the source, the action does not work. The demo shows this case.",
+    "The page inspector can explore a specific page in VS Code and go to the page definition in the source.",
+    "When the source was cloned before, VS Code offers a reopen option so the repository is not cloned again."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "7819b8cc2ab783b8397c83aca7ef058c252bbecb1a1c0a8f0869e149b59e3143",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0132464
+  }
+}

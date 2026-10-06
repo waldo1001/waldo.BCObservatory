@@ -1,0 +1,243 @@
+{
+  "video_id": "8t3WaWh7K9Y",
+  "item_id": "video/yt-microsoft/8t3WaWh7K9Y",
+  "title": "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)",
+  "duration_s": 370,
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "open in vs code",
+    "github projects",
+    "source control details",
+    "page inspector",
+    "extension management",
+    "al-go for github",
+    "repository access"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Previous Features",
+      "t_start": 0,
+      "t_end": 41
+    },
+    {
+      "title": "Demonstrating the Problem",
+      "t_start": 41,
+      "t_end": 91
+    },
+    {
+      "title": "Source Control Details Section",
+      "t_start": 91,
+      "t_end": 137
+    },
+    {
+      "title": "Opening Source in VS Code",
+      "t_start": 137,
+      "t_end": 192
+    },
+    {
+      "title": "Making and Testing Changes",
+      "t_start": 192,
+      "t_end": 237
+    },
+    {
+      "title": "Integration with AL-Go for GitHub",
+      "t_start": 237,
+      "t_end": 298
+    },
+    {
+      "title": "Reopening Repositories and Conclusion",
+      "t_start": 298,
+      "t_end": 370
+    }
+  ],
+  "features": [
+    {
+      "name": "Open In VS Code action on extension management page",
+      "description": "New action that allows developers to open the source code of an extension directly in VS Code from the extension management page, using GitHub repository information stored in the Source Control Details section.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.1,
+      "t_end": 237.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires access to the GitHub repository",
+        "Does not work if resource protection policies prevent source download",
+        "User must have GitHub credentials configured"
+      ],
+      "tags": [
+        "vs code",
+        "github",
+        "extension management",
+        "developer workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Source Control Details section in extension management",
+      "description": "New section in the extension details page that displays the GitHub repository URL and commit ID associated with the extension build, enabling developers to find and access the source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.6,
+      "t_end": 127.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only populated for extensions built with AL-Go for GitHub",
+        "User must still have access to the repository"
+      ],
+      "tags": [
+        "source control",
+        "github",
+        "extension details",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Explore page in VS Code from page inspector",
+      "description": "The page inspector now allows developers to explore a specific page directly in VS Code, navigating to the exact page definition in the source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.6,
+      "t_end": 192.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page inspector",
+        "vs code",
+        "exploration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automatic population of Source Control Details via AL-Go for GitHub",
+      "description": "AL-Go for GitHub automatically populates the GitHub repository and commit information in the Source Control Details section for extensions built with this framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 257.9,
+      "t_end": 278.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only works for extensions built with AL-Go for GitHub",
+        "Requires proper configuration of AL-Go pipeline"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "automation",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Repository reopen functionality in VS Code",
+      "description": "When opening an extension source that has been previously cloned, VS Code offers a reopen option to avoid re-cloning the repository, improving the workflow for developers who revisit the same source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 298.4,
+      "t_end": 335.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "repository management",
+        "efficiency"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "extension management page",
+      "t": 71.5
+    },
+    {
+      "type": "other",
+      "name": "page inspector",
+      "t": 26.8
+    },
+    {
+      "type": "page",
+      "name": "Loyalty Rewards demo",
+      "t": 71.5
+    },
+    {
+      "type": "other",
+      "name": "system application",
+      "t": 278.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stephan Bow",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 91.6,
+      "text": "I do not have access to the source so the resource protection policies for this app does not allow me to download a copy",
+      "why_it_matters": "Explains how the new Source Control Details section solves the problem of accessing source when resource protection policies block downloads.",
+      "check": "exact"
+    },
+    {
+      "t": 91.6,
+      "text": "I can see the GitHub repo where this comes from and I can see the commit ID that is associated with the build of",
+      "why_it_matters": "Demonstrates the ability to access the exact version of source code corresponding to a deployed extension.",
+      "check": "exact"
+    },
+    {
+      "t": 127.1,
+      "text": "with this new action on the extension management page you can now also open the source in vs code",
+      "why_it_matters": "Introduces the core new feature enabling direct navigation from Business Central to VS Code.",
+      "check": "exact"
+    },
+    {
+      "t": 257.9,
+      "text": "for github automatically populates this information in extensions that are built using al go for github so that means that there are",
+      "why_it_matters": "Explains the automatic integration with AL-Go for GitHub and the discoverability of source control information.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 335.2,
+      "text": "while you now can see the the repo information in the extension management page you may or may not have access to that repo",
+      "why_it_matters": "Sets the expectation that access control and GitHub credentials are user responsibility, not automatic.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 257.9,
+      "kind": "other",
+      "text": "Al go for GitHub automatically populates this information in extensions that are built using Al go for GitHub"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019889
+    }
+  ]
+}
