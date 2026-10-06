@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs",
+  "title": "How to set up initial item costs [IT]",
+  "blob": "e8e9a080910b77988f77e319d67bafbd08733171",
+  "summary": "Set up initial item costs in the Before Start Item Cost page by entering starting dates, purchase quantities and amounts, and production quantities and amounts. These entries calculate average year costs.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "item costs",
+    "inventory setup",
+    "cost calculation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Before Start Item Cost"
+    }
+  ],
+  "features": [
+    "initial item cost setup",
+    "average year cost calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002351,
+      "pages_in_call": 8
+    }
+  ]
+}

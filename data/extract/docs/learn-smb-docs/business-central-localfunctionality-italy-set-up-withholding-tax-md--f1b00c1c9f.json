@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/set-up-withholding-tax",
+  "title": "Set Up Withholding Tax (IT)",
+  "blob": "7997cc06dfa8f3ef9a27159a5eb6ba9f91967fc9",
+  "summary": "Set up and calculate withholding tax in Italian version for third-party services and vendor purchases, calculated during payment rather than invoice posting.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "withholding tax",
+    "italy",
+    "vendor payments",
+    "tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Withholding Tax Code"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Withh. Taxes-Contribution Card"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    }
+  ],
+  "features": [
+    "Withholding tax codes",
+    "Vendor withholding setup",
+    "Tax calculation",
+    "Payment processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

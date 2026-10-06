@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server",
+  "title": "AL database methods and performance on SQL Server",
+  "blob": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
+  "summary": "AL database methods including Get, Find, FindSet, and Next optimize record retrieval for different scenarios; CalcFields and CalcSums require separate SQL unless cached; SetAutoCalcFields, ModifyAll, and DeleteAll improve performance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "sql performance",
+    "database methods",
+    "optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Record.Get",
+    "Record.Find",
+    "Record.FindSet",
+    "Record.Next",
+    "CalcFields",
+    "CalcSums",
+    "SetAutoCalcFields",
+    "ModifyAll",
+    "DeleteAll"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

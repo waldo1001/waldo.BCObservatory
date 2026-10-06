@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bf0b183ee3bb934465f324dc9340a52295254102",
       "words": 1295,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:35.519Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003592
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.542Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.543Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.551Z",
+      "page": false
     }
   },
   "input_hash": "bf0b183ee3bb934465f324dc9340a52295254102",
@@ -135,5 +154,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf0b183ee3bb934465f324dc9340a52295254102"
+  "output_hash": "94d73c21c9ab485c0b90b3aec8679a32efd8735e4498ea260fe91226e8ce2acb"
 }

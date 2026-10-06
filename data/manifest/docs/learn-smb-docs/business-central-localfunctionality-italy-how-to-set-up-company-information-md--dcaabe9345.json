@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cad188a4f548606bab56e72eb414b5c19d68043b",
       "words": 112,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:27.863Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002351
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:27.872Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:27.873Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:27.874Z",
+      "page": false
     }
   },
   "input_hash": "cad188a4f548606bab56e72eb414b5c19d68043b",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cad188a4f548606bab56e72eb414b5c19d68043b"
+  "output_hash": "7ce34e9170784be31bea6f09912fcf5a63141ec884a2c6719f6d42748b5b8f2c"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868",
       "words": 402,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:27.871Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002351
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.499Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.500Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.501Z",
+      "page": false
     }
   },
   "input_hash": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868"
+  "output_hash": "df21211cb4e9517ebd7f57af9c63c924f181eac33dc514ca600fbde719524c9f"
 }

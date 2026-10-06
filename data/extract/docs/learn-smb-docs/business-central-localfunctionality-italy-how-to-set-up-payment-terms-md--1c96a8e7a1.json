@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms",
+  "title": "Set Up Payment Terms (IT)",
+  "blob": "67964aa07aca0c26ef82f6612a627de1e2820a2c",
+  "summary": "Set up payment terms with installment options on the Payment Terms page by specifying payment percentages, due date calculations, discount dates, and discount percentages. These terms apply to customer and vendor invoices.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "payment terms",
+    "invoicing",
+    "payment discounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "page",
+      "name": "Payment Terms Lines"
+    }
+  ],
+  "features": [
+    "payment term setup",
+    "installment payments",
+    "discount date calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002351,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/italian-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat",
+  "title": "Italian VAT",
+  "blob": "bf0b183ee3bb934465f324dc9340a52295254102",
+  "summary": "Italian VAT system defines VAT codes and rates, computes VAT based on transaction dates, supports non-deductible VAT, and requires submission of VAT transaction reports to authorities.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "italy",
+    "tax reporting",
+    "intrastat"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Report"
+    }
+  ],
+  "features": [
+    "VAT codes and rates",
+    "Non-deductible VAT",
+    "Service tariffs",
+    "VAT transaction reports",
+    "Reverse charges",
+    "Prepayment handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

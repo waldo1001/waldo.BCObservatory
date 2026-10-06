@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview",
+  "title": "Vendor Payments Customer Bills Overview [IT]",
+  "blob": "820581e0b7f6f068d28406b3946a9cb5476046e8",
+  "summary": "Manage automatic bills to customers and from vendors in Italian version, supporting multiple payment formats including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "vendor payments",
+    "customer bills",
+    "italy",
+    "payment formats"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "Automatic vendor bills",
+    "Automatic customer bills",
+    "SEPA Credit Transfer",
+    "SEPA Direct Debit",
+    "Bill posting groups"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

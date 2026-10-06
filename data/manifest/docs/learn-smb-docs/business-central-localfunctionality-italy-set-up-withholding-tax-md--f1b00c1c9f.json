@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/set-up-withholding-tax",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7997cc06dfa8f3ef9a27159a5eb6ba9f91967fc9",
       "words": 396,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:35.521Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003592
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.575Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.581Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.582Z",
+      "page": false
     }
   },
   "input_hash": "7997cc06dfa8f3ef9a27159a5eb6ba9f91967fc9",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7997cc06dfa8f3ef9a27159a5eb6ba9f91967fc9"
+  "output_hash": "ea1a863d69c764ed1c922f8fc3452f0471e533e55155a8748a20b753984c9876"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4acb231b6204e133bff6dd6f8a9765696f985470",
       "words": 97,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:35.520Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003592
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.558Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.560Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.573Z",
+      "page": false
     }
   },
   "input_hash": "4acb231b6204e133bff6dd6f8a9765696f985470",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4acb231b6204e133bff6dd6f8a9765696f985470"
+  "output_hash": "57d8f2c438422b569e7affddcab8ed9388df3b6bfd98f00021106c1cc4431fe0"
 }

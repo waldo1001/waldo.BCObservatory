@@ -1,0 +1,73 @@
+{
+  "video_id": "vpJg1BxIrs0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.3,
+      "end": 19.2,
+      "text": "in this video we're going to talk about segments when posting transactions in GP and compare that to the experience in business Central where we will Define default dimensions on entities like vendors and customers to create similar postings and how those same transactions look on reports and business"
+    },
+    {
+      "t": 19.2,
+      "end": 41.5,
+      "text": "Central to begin let's go to GP and post an invoice re Reed from a vendor for some recent training supplies we bought in the transaction window I'll go ahead and select a vendor this is the vendor that our training and Consulting division regularly uses for purchasing supplies next I'll enter in the vendor invoice number and the amount of the"
+    },
+    {
+      "t": 41.5,
+      "end": 60.7,
+      "text": "purchase once the transaction is posted we look at the general posting Journal report on this report we can see we are posting to the 6150 Supply account and the division segment is set to 500 which is our Consulting and training team"
+    },
+    {
+      "t": 60.7,
+      "end": 80.7,
+      "text": "now let's look at business Central and how we can set up default dimensions on a vendor and how those are used on transactions and reported on in the trial balance if you remember from the segment Dimension setup video the segments we defined in GP will migrate to business Central as Dimensions allowing us to continue to slice and categorize our transactions being posted to"
+    },
+    {
+      "t": 80.7,
+      "end": 100.9,
+      "text": "the main accounts I'll first go to that same vendor in business Central that I migrated from GP using the cloud migration tool I want to assign the Consulting and training team as the default Dimension value for the division Dimension since again most of the purchase we make from this vendor are used by our Consulting and training"
+    },
+    {
+      "t": 100.9,
+      "end": 112.2,
+      "text": "team in the dimension window I'll go ahead and select the division Dimension and then select the training and Consulting Dimension"
+    },
+    {
+      "t": 113.1,
+      "end": 132.4,
+      "text": "value if I wanted to lock the posting down further I could set the value posting to code mandatory which would indicate that a dimension value must exist on a transaction for this vendor for our purposes however I don't want the system to be that rigid we just want the dimension value to default on transactions for"
+    },
+    {
+      "t": 132.4,
+      "end": 154.9,
+      "text": "us next let's enter in a purchase invoice for this vendor similar to how we did it in GP and look at how that Dimension value will default onto the transaction I'll go ahead and select the purchase journal and enter in my vendor invoice number again select the vendor and key in the purchase"
+    },
+    {
+      "t": 159.2,
+      "end": 176.5,
+      "text": "amount you can see in the fact boox area the dimension value has automatically defaulted onto the transaction for me before posting any journal in business Central I can preview the posting to ensure that the correct accounts are being posted to similar to clicking the distributions button in"
+    },
+    {
+      "t": 176.5,
+      "end": 188.9,
+      "text": "GP I can see that it's posting to our supplies account and our 500 division since that all looks correct I'll go ahead and post the"
+    },
+    {
+      "t": 189.7,
+      "end": 210.9,
+      "text": "invoice now let's look at the trial balance Dimension report in business Central in my report option window I've selected to print the division Dimension and we filter the report to the supplies account next I'll choose to view transactions for today only and for the Consulting and Training Division"
+    },
+    {
+      "t": 212.7,
+      "end": 231,
+      "text": "the trial balance report in business Central allows me to see amounts being posted to my main accounts similar to GP as well as allowing me to analyze transactions by various categories in this example by division and that's a quick look at segments and dimension posting in GP and business"
+    },
+    {
+      "t": 231,
+      "end": 239,
+      "text": "Central to learn more about business Central see the following resources"
+    }
+  ],
+  "markers": [],
+  "word_count": 600
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e8e9a080910b77988f77e319d67bafbd08733171",
       "words": 145,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:27.866Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002351
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:33.701Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:33.703Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:33.704Z",
+      "page": false
     }
   },
   "input_hash": "e8e9a080910b77988f77e319d67bafbd08733171",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8e9a080910b77988f77e319d67bafbd08733171"
+  "output_hash": "f08d0ce448b4222534d7c80213bd47c539d971cccb02b9b2affb6e65b93a7291"
 }

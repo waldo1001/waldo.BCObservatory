@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server",
   "published_at": "2025-05-26T15:16:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
       "words": 1032,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:35.523Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003592
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.596Z",
+      "page": false
     }
   },
   "input_hash": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0814d94f15e4bf6c1834fa90a86294d3c47a898"
+  "output_hash": "7d2c19796777d7d7b1157d7a277df97f352a1c5b12bd12bcb44c678086551c83"
 }

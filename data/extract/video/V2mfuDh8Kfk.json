@@ -1,0 +1,203 @@
+{
+  "video_id": "V2mfuDh8Kfk",
+  "item_id": "video/yt-microsoft/V2mfuDh8Kfk",
+  "title": "Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 252,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "segments",
+    "dimensions",
+    "chart of accounts",
+    "migration",
+    "global dimensions",
+    "shortcut dimensions",
+    "account format",
+    "gp comparison"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to segments and accounts in GP",
+      "t_start": 0,
+      "t_end": 40.8
+    },
+    {
+      "title": "Account format and segment setup in GP",
+      "t_start": 40.8,
+      "t_end": 83.3
+    },
+    {
+      "title": "Migration overview from GP to Business Central",
+      "t_start": 83.3,
+      "t_end": 103.7
+    },
+    {
+      "title": "Global and shortcut dimensions in Business Central",
+      "t_start": 103.7,
+      "t_end": 144.2
+    },
+    {
+      "title": "General ledger setup and dimensions configuration",
+      "t_start": 144.2,
+      "t_end": 190.1
+    },
+    {
+      "title": "Chart of accounts migration and analysis",
+      "t_start": 190.1,
+      "t_end": 223.8
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 223.8,
+      "t_end": 252
+    }
+  ],
+  "features": [
+    {
+      "name": "Global Dimensions",
+      "description": "Business Central has two Global Dimensions that should be the most common segments from GP, allowing easy sorting and filtering on transaction categorization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.7,
+      "t_end": 144.2,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to two global dimensions; additional segments become shortcut dimensions"
+      ],
+      "tags": [
+        "dimensions",
+        "chart of accounts",
+        "analysis"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Shortcut Dimensions",
+      "description": "Remaining segments from GP beyond the two Global Dimensions are migrated as shortcut dimensions in Business Central for additional categorization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.7,
+      "t_end": 159.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "migration",
+        "chart of accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Cloud Migration Setup Wizard",
+      "description": "Wizard that allows users to select which segments from GP should be migrated as Global Dimensions in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.7,
+      "t_end": 123.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "setup",
+        "gp"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dimension values migration",
+      "description": "Segment values from GP are automatically migrated over as dimension values in Business Central during the migration process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.1,
+      "t_end": 203.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "dimensions",
+        "setup"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "chart of accounts",
+      "t": 40.8
+    },
+    {
+      "type": "page",
+      "name": "general ledger setup",
+      "t": 144.2
+    },
+    {
+      "type": "other",
+      "name": "dimension window",
+      "t": 176.6
+    },
+    {
+      "type": "other",
+      "name": "Dimension values",
+      "t": 190.1
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 21.2,
+      "text": "categorize revenue by region and market segment and expenses by department and projects",
+      "why_it_matters": "Illustrates the primary business use cases for segments and dimensions in organizing financial data.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 103.7,
+      "text": "in the cloud migration Setup Wizard you can indicate which segments you would like to be Global Dimensions",
+      "why_it_matters": "Explains the key migration mechanism for converting GP segments into Business Central dimensions.",
+      "check": "exact"
+    },
+    {
+      "t": 123.8,
+      "text": "Business Central has two Global Dimensions these should be the most common segments as you can easily sort and filter on these Dimensions",
+      "why_it_matters": "Defines the structural limit and design principle for global dimensions in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 123.8,
+      "text": "The remainder of your segments will be migrated as shortcut dimensions in business Central",
+      "why_it_matters": "Clarifies how GP segments beyond the two global dimensions are handled in the migration.",
+      "check": "exact"
+    },
+    {
+      "t": 190.1,
+      "text": "all my segment values from GP have been migrated over",
+      "why_it_matters": "Confirms that segment values are preserved during migration to Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012155
+    }
+  ]
+}

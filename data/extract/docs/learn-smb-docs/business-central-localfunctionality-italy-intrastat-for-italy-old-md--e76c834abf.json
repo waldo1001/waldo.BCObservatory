@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/intrastat-for-italy-old.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/intrastat-for-italy-old",
+  "title": "Print Intrastat Reports for Italy - Deprecated feature",
+  "blob": "d51089dfe51966982b11d6dad26b3dbb11ef16b8",
+  "summary": "Print monthly and quarterly Intrastat reports for Italy to submit to authorities on diskette using batch jobs and included reports.",
+  "systems": [
+    "localization"
+  ],
+  "topics": [
+    "intrastat",
+    "italy",
+    "reporting",
+    "tax",
+    "deprecated"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Intrastat - Checklist"
+    },
+    {
+      "type": "report",
+      "name": "Intrastat - Form"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Journals"
+    }
+  ],
+  "features": [
+    "Intrastat reporting",
+    "Monthly reports",
+    "Quarterly reports",
+    "Make Diskette action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

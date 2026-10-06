@@ -1,0 +1,27 @@
+{
+  "video_id": "V2mfuDh8Kfk",
+  "item_id": "video/yt-microsoft/V2mfuDh8Kfk",
+  "summary": "Dynamics GP segments map to dimensions in Business Central during cloud migration: two segments become Global Dimensions, the rest become shortcut dimensions, and segment values migrate as dimension values. The 2024 video shows this in the migration wizard and in Business Central.",
+  "overview": "The video compares how account segments work in Dynamics GP with how dimensions work in Business Central. It starts with the GP account format and segment setup, then covers what happens to segments when migrating to Business Central.\n\nIn the cloud migration Setup Wizard you choose which segments become Global Dimensions. The remaining segments are migrated as shortcut dimensions. The video then checks the result in General Ledger Setup, the dimension pages and the chart of accounts, and confirms the segment values arrived as dimension values.",
+  "key_points": [
+    "Business Central has two Global Dimensions. They should be the most common GP segments, because they are easy to sort and filter on.",
+    "GP segments beyond the two Global Dimensions are migrated as shortcut dimensions.",
+    "The cloud migration Setup Wizard lets you select which segments become Global Dimensions.",
+    "GP segment values are migrated automatically as dimension values.",
+    "After migration, the dimension setup can be checked on the General Ledger Setup page.",
+    "The video also reviews the migrated chart of accounts.",
+    "The example use case is categorizing revenue by region and market segment, and expenses by department and projects."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "19a40869d4161ab3fe7fc9d544f4fff1a1f883229a2f4d0a31847a75099c449b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0112144
+  }
+}

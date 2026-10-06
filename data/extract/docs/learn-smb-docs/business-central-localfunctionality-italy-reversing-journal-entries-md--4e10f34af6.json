@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/reversing-journal-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries",
+  "title": "Reversing Journal Entries [IT]",
+  "blob": "4acb231b6204e133bff6dd6f8a9765696f985470",
+  "summary": "Italian Reverse Transaction Entries page prevents reversal of invoices, credit notes, and VAT-related documents; prevents deletion of posted documents and reversals of reserved documents.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "italy",
+    "journal entries",
+    "vat",
+    "posting controls"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reverse Transaction Entries"
+    }
+  ],
+  "features": [
+    "Reverse transaction restrictions",
+    "VAT document protection",
+    "Posted document protection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003592,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-update-vat-transactions-data",
+  "title": "Update VAT transactions data",
+  "blob": "d9924a9811a0b7f6b24c9586e1e9bc00782cc868",
+  "summary": "Run the Update VAT Transaction Data report to prepare existing VAT data for transaction reporting and update the Include in VAT Transaction Report field based on threshold comparisons. The report can run in test mode before making changes.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "data updates",
+    "threshold comparison"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Update VAT Transaction Data"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    }
+  ],
+  "features": [
+    "VAT transaction data update",
+    "threshold comparison",
+    "change log setup",
+    "test mode reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002351,
+      "pages_in_call": 8
+    }
+  ]
+}

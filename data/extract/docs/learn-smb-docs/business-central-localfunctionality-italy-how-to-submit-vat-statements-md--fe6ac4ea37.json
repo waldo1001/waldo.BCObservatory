@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements",
+  "title": "How to Submit VAT Statements [IT]",
+  "blob": "63e974ebb5330a694fc709bf9942dbe7ebb49c3f",
+  "summary": "Submit VAT statements to Italian tax authorities by reviewing VAT entries, settling and posting VAT transactions using the Calc. and Post VAT Settlement process, then exporting the statement as PDF.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "tax submission",
+    "vat settlement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "report",
+      "name": "Calc. and Post VAT Settlement"
+    }
+  ],
+  "features": [
+    "VAT statement review",
+    "VAT settlement posting",
+    "PDF export for tax authorities"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002351,
+      "pages_in_call": 8
+    }
+  ]
+}

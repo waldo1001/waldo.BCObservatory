@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "820581e0b7f6f068d28406b3946a9cb5476046e8",
       "words": 233,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:35.522Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003592
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:35.588Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:35.590Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:35.591Z",
+      "page": false
     }
   },
   "input_hash": "820581e0b7f6f068d28406b3946a9cb5476046e8",
@@ -79,5 +98,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "820581e0b7f6f068d28406b3946a9cb5476046e8"
+  "output_hash": "f719b94695afe7344bda304aa882b0c90f08b897bbd4b0029756afd85cefaea5"
 }
