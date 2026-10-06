@@ -1,0 +1,27 @@
+{
+  "video_id": "NPhOSQTheXw",
+  "item_id": "video/yt-microsoft/NPhOSQTheXw",
+  "summary": "Setting up sales tax in Business Central with the assisted setup guide: tax groups, tax area codes with jurisdiction filters, assigning codes to customers and vendors, and automatic tax calculation on sales and purchase documents. Example uses Fargo (2%), Cass County and North Dakota state tax (5%).",
+  "overview": "This 2-minute video from the Microsoft Dynamics 365 Business Central channel (published 2025-05-22) walks through setting up sales tax so that taxes on transactions are calculated correctly. It starts with the general ledger accounts that are needed to track taxes on receivables and payables, then uses the sales tax assisted setup to create tax groups and tax area codes.\n\nThe example uses the city of Fargo at 2% in Cass County and a North Dakota state tax at 5%. The tax area code is then applied to customers and vendors, after which sales and purchase documents calculate sales tax from the assigned codes. The video closes with how to change tax setup when something changes, such as jurisdiction boundaries.",
+  "key_points": [
+    "Sales tax setup requires existing general ledger accounts for tracking taxes on receivables and payables.",
+    "The sales tax assisted setup guide creates tax groups and configures tax calculations; tax area code names can be customized.",
+    "Tax groups are assigned to items to indicate whether sales tax applies to the product.",
+    "Tax area codes calculate tax by customer or vendor location and can be filtered by jurisdiction such as city; names must be unique.",
+    "Apply the tax area code to customers and vendors, manually through their lists if needed, and update it when jurisdiction boundaries change.",
+    "Once assigned, sales and purchase documents calculate sales tax automatically from the tax area codes.",
+    "The demo example uses Fargo at 2% in Cass County plus North Dakota state tax at 5%."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "94b20d807b190358effdcf3cef28ec5dbe3dbc541ae0a489ad183a7dd0fb837d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135844
+  }
+}

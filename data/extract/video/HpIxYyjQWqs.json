@@ -1,0 +1,237 @@
+{
+  "video_id": "HpIxYyjQWqs",
+  "item_id": "video/yt-microsoft/HpIxYyjQWqs",
+  "title": "How to Work With General Journals in Business Central (2025)",
+  "duration_s": 158,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general journals",
+    "journal templates",
+    "bookkeeping",
+    "journal posting",
+    "balancing accounts",
+    "reversing entries",
+    "gl registers"
+  ],
+  "chapters": [
+    {
+      "title": "Overview and location of journals",
+      "t_start": 0,
+      "t_end": 16.2
+    },
+    {
+      "title": "General vs specific purpose journals",
+      "t_start": 16.2,
+      "t_end": 39.4
+    },
+    {
+      "title": "Journal templates and setup",
+      "t_start": 39.4,
+      "t_end": 49.8
+    },
+    {
+      "title": "Journal entry methods without balancing accounts",
+      "t_start": 49.8,
+      "t_end": 85.9
+    },
+    {
+      "title": "Working with balancing accounts",
+      "t_start": 85.9,
+      "t_end": 101.4
+    },
+    {
+      "title": "Testing and posting journal entries",
+      "t_start": 101.4,
+      "t_end": 114
+    },
+    {
+      "title": "Reversing entries and conclusion",
+      "t_start": 114,
+      "t_end": 158
+    }
+  ],
+  "features": [
+    {
+      "name": "General journals",
+      "description": "General purpose journals used for almost all bookkeeping tasks in Business Central, accessible from the business manager role center and accountant role center under finance or journals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.2,
+      "t_end": 29.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "journals",
+        "bookkeeping",
+        "general ledger"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Journal templates",
+      "description": "Templates allow users to set up parameters that control the different journal types, enabling multiple journals for a given type to split tasks by type or between users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.4,
+      "t_end": 49.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "setup",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Journal entry without balancing accounts",
+      "description": "A method of filling in journals line by line where for each line, users specify the expense by selecting the account number and typing what the expense is, providing a clear overview of entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.5,
+      "t_end": 85.9,
+      "is_demoed": false,
+      "caveats": [
+        "Better for users new to the system or simpler tasks"
+      ],
+      "tags": [
+        "journal entry",
+        "bookkeeping",
+        "accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Journal entry with balancing accounts",
+      "description": "A method where for each expense, users type in expense detail such as tax info and amount, then balance out the journal line by line by specifying the balancing account, reducing the number of lines needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.9,
+      "t_end": 101.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires familiarity with journal posting"
+      ],
+      "tags": [
+        "journal entry",
+        "balancing accounts",
+        "efficiency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General journal test action",
+      "description": "An action that generates a test report to review journal entries before posting, allowing users to verify their work before committing entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.4,
+      "t_end": 114,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "posting",
+        "verification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reverse register action",
+      "description": "An action to reverse journal entries found through GL registers, which reverses entries completely and allows posting a new correct journal entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.8,
+      "t_end": 141.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reversing",
+        "error correction",
+        "posting"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "GL registers",
+      "t": 127.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.4,
+      "text": "You can use journals to perform most of your bookkeeping tasks.",
+      "why_it_matters": "Establishes journals as a core tool for bookkeeping in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 16.2,
+      "text": "The general journals are general purpose journals used for almost all bookkeeping tasks.",
+      "why_it_matters": "Defines the scope and purpose of general journals in the system",
+      "check": "exact"
+    },
+    {
+      "t": 39.4,
+      "text": "All journal types have templates. Templates allow you to set up parameters that control the different journal types.",
+      "why_it_matters": "Explains the template-based configuration approach for journals",
+      "check": "exact"
+    },
+    {
+      "t": 49.8,
+      "text": "There are two basic ways of filling in a journal with or without balancing accounts.",
+      "why_it_matters": "Introduces two distinct methodologies for journal entry that users can choose based on their needs",
+      "check": "exact"
+    },
+    {
+      "t": 101.4,
+      "text": "This way reduces the number of lines you must fill in, making journal entry faster.",
+      "why_it_matters": "Quantifies the efficiency benefit of using balancing accounts approach",
+      "check": "exact"
+    },
+    {
+      "t": 101.4,
+      "text": "You can always check before you post the journal by using the general journal test action.",
+      "why_it_matters": "Highlights a key safety feature for verification before committing entries",
+      "check": "exact"
+    },
+    {
+      "t": 114,
+      "text": "If you make a mistake, you can always reverse journal entries.",
+      "why_it_matters": "Demonstrates flexibility in error correction for posted entries",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013854000000000002
+    }
+  ]
+}

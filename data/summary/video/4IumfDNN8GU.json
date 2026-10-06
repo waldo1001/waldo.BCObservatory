@@ -1,0 +1,27 @@
+{
+  "video_id": "4IumfDNN8GU",
+  "item_id": "video/yt-microsoft/4IumfDNN8GU",
+  "summary": "Posting groups in Business Central link customers, vendors and items to general ledger accounts. The 2025 video covers general, subledger-specific and VAT posting groups, VAT posting setup, a sales invoice demo with posting preview, and direct posting to GL accounts.",
+  "overview": "The video explains how posting groups keep subledgers in sync with the general ledger. It describes three main kinds: general (business and product posting groups), subledger-specific (customer, vendor, inventory) and VAT/tax posting groups. Business posting groups cover who you trade with, and product posting groups cover what you buy or sell. Combined with posting setups, they decide which accounts are used.\n\nA sales invoice demo shows customer and inventory posting groups, VAT posting setup, and the posting preview of subledger and general ledger entries before posting. The video also covers posting directly to GL accounts on journal and document lines, and the Where Used list for seeing which posting groups use a GL account.",
+  "key_points": [
+    "Three main kinds of posting groups: general (business and product), subledger-specific (customer, vendor, inventory), and VAT/tax.",
+    "Business posting groups classify who you trade with (for example domestic or foreign); product posting groups classify what you buy or sell (for example resale, manufacture, retail).",
+    "Business and product posting groups are combined in posting setups. Example: a retail item sold to a domestic customer can point to sales revenue and COGS accounts.",
+    "Customer posting groups hold the receivable accounts; inventory posting groups hold the inventory accounts for items.",
+    "VAT posting setup determines the VAT accounts used for different VAT rates and shows VAT rate and base amounts.",
+    "Posting preview shows the subledger and general ledger entries that will be created before you post a document.",
+    "You can choose GL accounts directly on journal and document lines, but direct posting must be enabled on the GL account. The Where Used list shows which posting groups use an account."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "9b6c85c6aaff2849d500a81d97e1f66156d16d5051d803b457702a1a16cb1b43",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014884399999999999
+  }
+}

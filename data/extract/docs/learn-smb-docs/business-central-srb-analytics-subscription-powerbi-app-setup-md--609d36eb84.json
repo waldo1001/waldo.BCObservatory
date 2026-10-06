@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-app-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app-setup",
+  "title": "Set up the Subscription Billing Power BI app",
+  "blob": "20801393a1a9041d6d368fbbf8db77b8ebe04c80",
+  "summary": "Subscription Billing Power BI app setup requires creating subscription contract analysis entries to provide monthly snapshots of active and planned subscriptions for accurate KPI calculations like MRR and TCV.",
+  "systems": [
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "subscription billing",
+    "power bi",
+    "analytics",
+    "kpi",
+    "monthly recurring revenue",
+    "contract analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    },
+    {
+      "type": "report",
+      "name": "Create Subscription Contract Analysis"
+    },
+    {
+      "type": "codeunit",
+      "name": "Update Sub. Lines Term. Dates"
+    }
+  ],
+  "features": [
+    "monthly recurring revenue",
+    "monthly recurring cost",
+    "subscription snapshots",
+    "job queue scheduling",
+    "billing base period",
+    "termination date updates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003936,
+      "pages_in_call": 8
+    }
+  ]
+}

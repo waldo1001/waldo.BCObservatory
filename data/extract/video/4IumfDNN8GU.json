@@ -1,0 +1,274 @@
+{
+  "video_id": "4IumfDNN8GU",
+  "item_id": "video/yt-microsoft/4IumfDNN8GU",
+  "title": "How to Use Posting Groups in Business Central (2025)",
+  "duration_s": 233,
+  "systems": [
+    "finance",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "posting groups",
+    "general ledger",
+    "vat posting",
+    "customer posting groups",
+    "vendor posting groups",
+    "inventory posting groups",
+    "subleddgers",
+    "accounting setup"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Posting Groups",
+      "t_start": 0,
+      "t_end": 14.7
+    },
+    {
+      "title": "Main Kinds of Posting Groups",
+      "t_start": 14.7,
+      "t_end": 28.6
+    },
+    {
+      "title": "Business and Product Posting Groups",
+      "t_start": 28.6,
+      "t_end": 53.9
+    },
+    {
+      "title": "VAT Posting Setup and Assignment",
+      "t_start": 53.9,
+      "t_end": 80.8
+    },
+    {
+      "title": "Demo: Sales Invoice and Posting Groups",
+      "t_start": 80.8,
+      "t_end": 126
+    },
+    {
+      "title": "Preview Posting and Ledger Entries",
+      "t_start": 126,
+      "t_end": 174.3
+    },
+    {
+      "title": "Direct Posting to GL Accounts",
+      "t_start": 174.3,
+      "t_end": 210.2
+    },
+    {
+      "title": "Summary and Conclusion",
+      "t_start": 210.2,
+      "t_end": 233
+    }
+  ],
+  "features": [
+    {
+      "name": "Posting Groups",
+      "description": "Core accounting feature that links customers, vendors, and items with GL accounts. Posting groups include general business posting groups, product posting groups, customer posting groups, vendor posting groups, and VAT/tax posting groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 53.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "accounting",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Business Posting Groups",
+      "description": "Posting groups that focus on who you do business with, such as grouping master data based on domestic, foreign, or other customer/vendor classifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 28.6,
+      "t_end": 38.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business posting groups",
+        "customer classification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Product Posting Groups",
+      "description": "Posting groups that focus on what you buy or sell, allowing you to group items around resale, manufacture, or retail categories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.7,
+      "t_end": 53.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "product posting groups",
+        "item classification"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Customer Posting Groups",
+      "description": "Posting groups assigned to customers that contain receivable accounts where customer receivable amounts will be posted in the general ledger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.8,
+      "t_end": 110.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer posting groups",
+        "receivables"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Inventory Posting Groups",
+      "description": "Posting groups assigned to items that contain inventory accounts where item inventory amounts will be posted in the general ledger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.5,
+      "t_end": 110.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory posting groups",
+        "inventory accounts"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "VAT Posting Setup",
+      "description": "Posting setup that determines which VAT accounts are used when posting transactions with different VAT rates, showing VAT rate and base amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.9,
+      "t_end": 174.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vat posting",
+        "tax accounts",
+        "vat setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Posting Preview",
+      "description": "Feature that allows users to preview ledger entries that will be created when posting documents, showing subleddger and general ledger entries before actual posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.5,
+      "t_end": 174.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting preview",
+        "ledger entries"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Direct GL Posting",
+      "description": "Ability to post directly to GL accounts without using subleddgers on journal lines and documents, with optional enabling of direct posting for specific accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.6,
+      "t_end": 210.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires direct posting to be enabled on the GL account"
+      ],
+      "tags": [
+        "direct posting",
+        "general ledger",
+        "posting control"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Where Used List",
+      "description": "Feature that shows which posting groups use a specific GL account, helping users understand the impact of changes to account configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.2,
+      "t_end": 221,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "where used list",
+        "posting groups",
+        "gl accounts"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 14.7,
+      "text": "There are three main kinds of posting groups. General such as general business and product posting groups. Subleddger specific like customer, vendor, or inventory",
+      "why_it_matters": "Categorizes the main types of posting groups used in the system - essential for understanding how to configure accounting.",
+      "check": "exact"
+    },
+    {
+      "t": 38.7,
+      "text": "We combine the who business posting groups and what product posting groups and posting setups.",
+      "why_it_matters": "Explains how business and product posting groups work together to determine GL accounts for transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 53.9,
+      "text": "when we sell a retail item to a domestic customer, the posting setup might point to the sales revenue and COGS accounts",
+      "why_it_matters": "Demonstrates a concrete example of how posting groups determine which GL accounts are used for specific transaction types.",
+      "check": "exact"
+    },
+    {
+      "t": 188.6,
+      "text": "We can choose GL accounts only on lines on journals and documents. This allows subleddgers like the customer or inventory to exist alongside the",
+      "why_it_matters": "Explains the relationship between subleddgers and direct GL posting, showing the flexibility in posting options.",
+      "check": "exact"
+    },
+    {
+      "t": 199.4,
+      "text": "Posting groups keep subleddgers in sync with the general ledger.",
+      "why_it_matters": "Defines the critical accounting control function that posting groups provide for data integrity.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016401
+    }
+  ]
+}

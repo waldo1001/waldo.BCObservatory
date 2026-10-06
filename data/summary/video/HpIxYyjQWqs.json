@@ -1,0 +1,27 @@
+{
+  "video_id": "HpIxYyjQWqs",
+  "item_id": "video/yt-microsoft/HpIxYyjQWqs",
+  "summary": "General journals in Business Central finance: where to find them, how journal templates work, the two ways to fill in lines (with or without balancing accounts), checking with the test action before posting, and reversing entries through GL registers.",
+  "overview": "A short walkthrough of general journals in Business Central, published in May 2025. It covers where journals are located, the difference between general and specific purpose journals, and how templates set up the parameters for each journal type.\n\nIt then compares two ways of entering lines, with and without balancing accounts, shows how to review entries with the general journal test action before posting, and ends with reversing posted entries when a mistake is made.",
+  "key_points": [
+    "General journals are general purpose journals used for almost all bookkeeping tasks. They are reached from the business manager or accountant role center under finance or journals.",
+    "All journal types have templates. Templates set the parameters that control each journal type.",
+    "Several journals can exist for one type, so tasks can be split by type or between users.",
+    "Entry without balancing accounts: pick the account number and type what the expense is on each line. It gives a clear overview and suits new users or simpler tasks.",
+    "Entry with balancing accounts: enter the expense details such as tax info and amount, then balance each line with a balancing account. It needs fewer lines but requires familiarity with journal posting.",
+    "Run the general journal test action to produce a test report and check entries before posting.",
+    "To correct a mistake, find the entries through GL registers and use the reverse register action. This reverses them completely, and you can then post a new correct journal entry."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "1f744ae81ef8ec1439303606d25ddf57c60470f8c582afdba08c8cb2bf337956",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0119924
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/setup-app-key-vault-onprem.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem",
+  "title": "Setting up App Key Vaults for Business Central on-premises",
+  "blob": "e188327d5391b10b82506102bb12d1f4836fb271",
+  "summary": "App Key Vault setup for Business Central on-premises enables secure management of secrets used by extensions through Azure Key Vault integration and Microsoft Entra ID authentication.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "key vault",
+    "security",
+    "azure",
+    "authentication",
+    "certificates",
+    "extensions"
+  ],
+  "objects": [],
+  "features": [
+    "Azure Key Vault integration",
+    "Microsoft Entra ID registration",
+    "certificate authentication",
+    "secret permissions",
+    "publisher validation",
+    "container-based deployment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003936,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "video_id": "H5EuObmeF4o",
+  "item_id": "video/yt-bcmusings/H5EuObmeF4o",
+  "title": "Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)",
+  "duration_s": 2025,
+  "systems": [
+    "copilot",
+    "development",
+    "manufacturing"
+  ],
+  "topics": [
+    "copilot",
+    "agents",
+    "sales order agent",
+    "payables agent",
+    "tell me search",
+    "autofill",
+    "mcp server",
+    "sustainability",
+    "summarize",
+    "analysis assist",
+    "localization",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Setup of BC27 Sandbox",
+      "t_start": 0,
+      "t_end": 165
+    },
+    {
+      "title": "Copilot and Agents Overview",
+      "t_start": 165,
+      "t_end": 360.8
+    },
+    {
+      "title": "Advanced Tell Me Search and Autofill Features",
+      "t_start": 360.8,
+      "t_end": 489.4
+    },
+    {
+      "title": "Payables Agent and Sales Order Agent Enhancements",
+      "t_start": 489.4,
+      "t_end": 627.4
+    },
+    {
+      "title": "Sustainability and Summarize Copilot Enhancements",
+      "t_start": 627.4,
+      "t_end": 705
+    },
+    {
+      "title": "Copilot Billing Types and Resource Management",
+      "t_start": 705,
+      "t_end": 844.2
+    },
+    {
+      "title": "Enhanced Analysis Assist and Copilot Extensions",
+      "t_start": 844.2,
+      "t_end": 906.6
+    },
+    {
+      "title": "Enhanced Chat, Localization and Development Enhancements",
+      "t_start": 906.6,
+      "t_end": 1130.6
+    },
+    {
+      "title": "Page Scripting, Table Operations, Fixed Assets and Financial Improvements",
+      "t_start": 1130.6,
+      "t_end": 1399.4
+    },
+    {
+      "title": "Governance, Administration, Migration and Reports Analytics Enhancements",
+      "t_start": 1399.4,
+      "t_end": 1666.4
+    },
+    {
+      "title": "Manufacturing Setup and Quality Management",
+      "t_start": 1666.4,
+      "t_end": 1798.2
+    },
+    {
+      "title": "Subcontracting and Logistics in Production",
+      "t_start": 1798.2,
+      "t_end": 1873.6
+    },
+    {
+      "title": "Sustainability and UI Enhancements",
+      "t_start": 1873.6,
+      "t_end": 2025
+    }
+  ],
+  "features": [
+    {
+      "name": "Enhanced sales order agent",
+      "description": "Enhancements to the existing sales order agent to capture more sales with AI-powered capabilities. General availability in October 2025.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.7,
+      "t_end": 970.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "ai",
+        "enhancements",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP server for Business Central",
+      "description": "Connect AI agents to Business Central through MCP server. MCP is an open API standard that enables intelligent clients to discover, describe and invoke operations. This allows agents to connect to existing knowledge sources and APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.8,
+      "t_end": 345.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "agents",
+        "api",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Advanced Tell Me search",
+      "description": "Advanced search functionality in Tell Me that uses AI to find pages and reports. Users can type search terms and get results based on AI-powered search capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.3,
+      "t_end": 489.4,
+      "is_demoed": true,
+      "caveats": [
+        "Needs to be enabled through feature management"
+      ],
+      "tags": [
+        "tell me",
+        "search",
+        "ai",
+        "preview"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Autofill with Copilot field suggestions",
+      "description": "Enhanced autofill capabilities using Copilot to get better field suggestions. When in a customer record, users can click a sparkle icon to ask Copilot to auto-fill specific fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 498.1,
+      "t_end": 542.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "autofill",
+        "copilot",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables agent contextual invoice drafts",
+      "description": "Payables agent provides more contextual invoice drafts using AI to analyze purchase invoices and generate better draft suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 542.5,
+      "t_end": 553.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payables agent",
+        "invoice",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent task instructions enhancement",
+      "description": "Users can give more instructions to agents when reviewing their tasks, improving communication between the user and the agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.8,
+      "t_end": 575.4,
+      "is_demoed": false,
+      "caveats": [
+        "Works with both sales order agent and payables agent"
+      ],
+      "tags": [
+        "agents",
+        "instructions",
+        "user interaction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Match purchase invoices to orders with payables agent",
+      "description": "The payables agent will be able to match purchase invoices with purchase orders or sales orders automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 575.4,
+      "t_end": 610,
+      "is_demoed": false,
+      "caveats": [
+        "Scheduled for January 2026"
+      ],
+      "tags": [
+        "payables agent",
+        "invoice matching",
+        "purchase orders"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables agent confidence level prioritization",
+      "description": "Prioritize invoice draft changes using payables agent confidence levels to help users focus on the most reliable suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 610,
+      "t_end": 627.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payables agent",
+        "confidence level",
+        "prioritization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot emissions suggestions in sustainability",
+      "description": "Copilot can suggest gas emissions in sustainability journals, helping users enter sustainability accounts and track emissions data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 627.4,
+      "t_end": 648.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sustainability",
+        "emissions",
+        "copilot"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Summarize with Copilot enhancements",
+      "description": "Enhancements to the existing Summarize feature with quicker generation of summaries, consistent use of currency codes, and expansion to 20 more languages beyond English.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 660.7,
+      "t_end": 689.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "summarize",
+        "copilot",
+        "languages",
+        "currency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot billing type configuration",
+      "description": "Billing type for copilot and agent capabilities can be set to Microsoft build, custom build, or undefined depending on the AI resource. Can be configured using the register capability function or modify capability in AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 735.4,
+      "t_end": 804.4,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on AI resource configuration"
+      ],
+      "tags": [
+        "billing",
+        "capability",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure resources for Copilot extensions",
+      "description": "Use Azure resources for copilot extensions. Developers can use default KPI resources in AL through set manage resource authorization or configure their own Azure OpenAI subscription.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 811.5,
+      "t_end": 844.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "azure",
+        "resources",
+        "copilot extensions",
+        "al"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced analysis assist with Copilot",
+      "description": "Enhancements to the existing Analysis Assist feature. Users can perform ad hoc analysis on list pages and ask Copilot to design analysis views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 844.2,
+      "t_end": 906.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis assist",
+        "copilot",
+        "ad hoc analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Enhanced chat with Copilot - 20 languages",
+      "description": "Enhanced chat with Copilot now supports 20 languages with better understanding of user prompts containing multiple synthesis or intents, faster performance and increased reliability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.6,
+      "t_end": 940.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "chat",
+        "languages",
+        "localization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables agent in more countries",
+      "description": "Payables agent expansion to more countries with a November 2025 release date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 940.3,
+      "t_end": 953.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payables agent",
+        "countries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "VAT enhancements for Checka",
+      "description": "VAT enhancements and total amounts on purchase advances for Checka with payment reporting and UK localization as an extension.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 970.8,
+      "t_end": 1004.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vat",
+        "checka",
+        "uk",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Contoso coffee demo data for Checka",
+      "description": "Contoso coffee demo data set added for Checka localization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1004.2,
+      "t_end": 1017.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "checka"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "1099 forms electronic submission",
+      "description": "1099 forms can be submitted electronically to IRS in the US.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1004.2,
+      "t_end": 1017.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "1099",
+        "irs",
+        "us"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Cancel build and publish from Visual Studio",
+      "description": "The ability to cancel build or cancel publishing from Visual Studio, useful for large extensions to avoid waiting and making changes before republishing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1017.8,
+      "t_end": 1052.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al",
+        "development",
+        "vs-code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extend copilot auto field using AL",
+      "description": "Ability to subscribe to an event and add custom logic using AI or other methods to have compiled values for a specific field in Copilot auto field.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1063.3,
+      "t_end": 1080.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "al",
+        "auto-field"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Hide copilot summaries",
+      "description": "Copilot summaries can be hidden on custom pages, custom objects, page extensions or hidden for specific user profiles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1080.3,
+      "t_end": 1130.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "summaries",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced page scripting tool",
+      "description": "Enhanced page scripting tool with ability to delete arbitrary steps, define script parameters in the UI, and create a suite of scripts in the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1130.6,
+      "t_end": 1173.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "page",
+        "scripting",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Truncate table data using new methods",
+      "description": "New methods to truncate table data with support for tables with media and media set fields, usable inside try functions, and with filters on flow fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1173.4,
+      "t_end": 1227.7,
+      "is_demoed": false,
+      "caveats": [
+        "cannot truncate tables with on delete triggers or event subscriptions",
+        "cannot truncate with filters on flow fields"
+      ],
+      "tags": [
+        "al",
+        "table",
+        "data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "View SQL core per information in performance profiles",
+      "description": "Ability to view SQL core per information in performance profiles for analyzing query performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1227.7,
+      "t_end": 1255.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "sql",
+        "profiling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Create multiple fixed asset cards",
+      "description": "Ability to create multiple fixed asset cards when posting a purchase invoice to streamline asset management processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1268.8,
+      "t_end": 1301,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fixed assets",
+        "purchase",
+        "automation"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Contoso coffee demo data for Instat",
+      "description": "New Contoso coffee demo data set available for Instat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1301,
+      "t_end": 1313.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "instat"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Audit trail report",
+      "description": "New audit trail report to improve compliance by giving a detailed and transparent record of all transactions. Available in November 2025.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1313.6,
+      "t_end": 1371.8,
+      "is_demoed": false,
+      "caveats": [
+        "not yet available in this release"
+      ],
+      "tags": [
+        "audit",
+        "compliance",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Accounts payable role center",
+      "description": "New accounts payable role center that simplifies workflows by centralizing all related documents and tasks in one place, making it easier to handle purchase documents, inbound e-documents and payments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1371.8,
+      "t_end": 1399.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "accounts payable",
+        "workflow"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Automate environment management with power platform connector",
+      "description": "Power platform connector for the business central admin center API enables automation of environment management tasks including creating environments, copying environments and scheduling environment operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1410.2,
+      "t_end": 1446.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power platform",
+        "admin",
+        "automation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Migrate record links and notes with cloud migration tooling",
+      "description": "Cloud migration now allows migration of record links and notes from on-premises NAV or BC to cloud environments, ensuring business context and extra information is preserved during migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1446.3,
+      "t_end": 1529.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "nav",
+        "record links"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Enhanced financial reports",
+      "description": "Enhanced financial reports with demoted fields, autofill number in description following definitions, notifications to update definitions, move name fields up in descriptions to cards, support dynamic naming for column headings and use column definitions in both local currency and additional reporting currencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1553.8,
+      "t_end": 1629,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "financial reports",
+        "columns",
+        "currency",
+        "definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchasing analytics improvements",
+      "description": "Purchasing analytics has been improved in this wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1600.8,
+      "t_end": 1611,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analytics",
+        "purchasing",
+        "reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Enhanced PowerBI sales app and modernized reports",
+      "description": "Enhanced PowerBI sales app and modernized reports in sales analytics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1611,
+      "t_end": 1629,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "powerbi",
+        "sales",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Personalization of supply chain pages",
+      "description": "Add more fields in columns by personalizing pages in supply chain management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1629,
+      "t_end": 1647.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "personalization",
+        "supply chain"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Statistics group for card pages",
+      "description": "Statistics group for item card, vendor card, customer card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1647.5,
+      "t_end": 1666.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "personalization",
+        "statistics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Configure default consumption calculation",
+      "description": "Configure the default calculation for the calculate consumption report in manufacturing setup with options for actual output or expected output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1666.4,
+      "t_end": 1703.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "manufacturing setup",
+        "consumption calculation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality management extension",
+      "description": "New quality management extension for Business Central helps you comply within the standards regulator requirements including quality checks on incoming goods and materials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1703.9,
+      "t_end": 1753.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "quality management",
+        "compliance",
+        "extension"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Concurrent inventory posting with line sorting",
+      "description": "If you enable concurrent inventory posting, it processes lines by type and number, sorting lines to reduce likelihood of deadlocks when two sessions post at the same time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1753.4,
+      "t_end": 1798.2,
+      "is_demoed": false,
+      "caveats": [
+        "This change might affect extensions that rely on expected value in next or previous lines"
+      ],
+      "tags": [
+        "performance",
+        "posting",
+        "deadlock reduction",
+        "concurrent"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Subcontracting capabilities in production",
+      "description": "Expand Business Central solution to meet local needs by adding capabilities that include logistic flows managing contractor transfers of materials, components, flexible pricing, and finished goods receipts with item tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1798.2,
+      "t_end": 1873.6,
+      "is_demoed": false,
+      "caveats": [
+        "Already in Italian localization, now included in W1 solution"
+      ],
+      "tags": [
+        "subcontracting",
+        "logistics",
+        "localization",
+        "item tracking"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Resizable copilot help panes",
+      "description": "User can adjust width of copilot help and page scripting panes by dragging the divider between main content to get extra room for information inside pages with copilot help.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1903,
+      "t_end": 2025,
+      "is_demoed": false,
+      "caveats": [
+        "Feature may not yet be fully accessible as of September 2025"
+      ],
+      "tags": [
+        "copilot",
+        "ui",
+        "resizing",
+        "help panes"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "register capability",
+      "t": 794.4
+    },
+    {
+      "type": "other",
+      "name": "modify capability",
+      "t": 794.4
+    },
+    {
+      "type": "other",
+      "name": "set manage resource authorization",
+      "t": 822.2
+    },
+    {
+      "type": "other",
+      "name": "set authorization",
+      "t": 833.5
+    },
+    {
+      "type": "report",
+      "name": "calculate consumption report",
+      "t": 1666.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 12.2,
+      "text": "microsoft is busy and they uh they already filled up what's going to be new what what's coming in 2025 release wave",
+      "why_it_matters": "Sets context that Microsoft has a substantial roadmap for BC 2025 Wave 2 with many new features and enhancements.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 35.4,
+      "text": "Some of the features are going to be available in October 2025, others in September. Some were already deployed since uh March with the",
+      "why_it_matters": "Demonstrates the staggered release timeline for Wave 2 features across multiple months, indicating phased availability.",
+      "check": "exact"
+    },
+    {
+      "t": 154.4,
+      "text": "we've got uh the BC27 uh Business Central version 27 preview um loaded here in my tenant.",
+      "why_it_matters": "Confirms that Business Central version 27 is in preview status during the time of this demonstration.",
+      "check": "exact"
+    },
+    {
+      "t": 288.7,
+      "text": "Sales order agent is not uh something new. We we had it for a while but I am assuming there were u enhancements done",
+      "why_it_matters": "Clarifies that sales order agent is an existing feature being enhanced, not brand new in Wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 314.5,
+      "text": "MCP is an open AI open API standard that enables intelligent CL clients to discover, describe and invoke operations.",
+      "why_it_matters": "Defines MCP as an open standard enabling discovery and invocation of operations by AI clients, critical for agent connectivity.",
+      "check": "exact"
+    },
+    {
+      "t": 461.2,
+      "text": "this feature uses AI to find pages and reports.",
+      "why_it_matters": "Describes the core functionality of Advanced Tell Me search using AI to improve discoverability of pages and reports.",
+      "check": "exact"
+    },
+    {
+      "t": 676.2,
+      "text": "There's a quicker generation of summaries, a consistent use of currency codes. It's expand it to 20 more languages.",
+      "why_it_matters": "Details specific enhancements to Summarize with Copilot including performance improvements and multilingual expansion.",
+      "check": "exact"
+    },
+    {
+      "t": 794.4,
+      "text": "The billing type can be set using the register capability function or modify capability in AL.",
+      "why_it_matters": "Defines how developers can configure billing behavior for copilot extensions programmatically.",
+      "check": "exact"
+    },
+    {
+      "t": 916.7,
+      "text": "we had um in the previous release in the wave 1 2025 wave 1, but now we've got support for 20 languages.",
+      "why_it_matters": "Documents the multi-language support expansion for enhanced chat in 2025 Wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 940.3,
+      "text": "Payables agent in more countries that's November 25. Sales order agent automate sales order taking that was in March and general availability in October",
+      "why_it_matters": "Establishes release timelines for key agent features - payables in November, sales order agent already GA in October.",
+      "check": "exact"
+    },
+    {
+      "t": 1063.3,
+      "text": "we can now subscribe to an event and add custom logic that uses AI or other methods to have compil values for a specific",
+      "why_it_matters": "Describes new extensibility for Copilot auto field functionality through AL event handling.",
+      "check": "exact"
+    },
+    {
+      "t": 1160.6,
+      "text": "We can delete an arbitrary step. Define script parameters in the UI. Create a suite of scripts in the UI.",
+      "why_it_matters": "Summarizes key enhancements to page scripting tool for better automation capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1284.2,
+      "text": "you can create multiple fixed asset cards when you post a purchase invoice.",
+      "why_it_matters": "Describes efficiency improvement for fixed asset management during invoice posting.",
+      "check": "exact"
+    },
+    {
+      "t": 1384.7,
+      "text": "The new account payable royal center simplifies workflows for accounts payable by centralizing all related documents and tasks in one place.",
+      "why_it_matters": "Explains the value proposition of the new accounts payable role center for workflow efficiency.",
+      "check": "exact"
+    },
+    {
+      "t": 1565.4,
+      "text": "Some fields are demoted. Autofill the number in the description follows definitions.",
+      "why_it_matters": "Describes changes to financial report field handling and autofill functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 1591,
+      "text": "Use column definitions in both local currency and additional reporting currencies.",
+      "why_it_matters": "Indicates support for multi-currency reporting in column definitions.",
+      "check": "exact"
+    },
+    {
+      "t": 1737.5,
+      "text": "the new quality management extension for Business Central helps you comply within the standards regulator. requirements including quality checks.",
+      "why_it_matters": "Introduces new quality management extension for compliance and quality control.",
+      "check": "exact"
+    },
+    {
+      "t": 1828.7,
+      "text": "We expand that solution to meet local needs by adding capabilities that include logistic flows that manage contractor transfers.",
+      "why_it_matters": "Describes subcontracting and logistics capabilities being added to W1 solution.",
+      "check": "exact"
+    },
+    {
+      "t": 1948.8,
+      "text": "you can resize the copilot copilot pen used for chat the real p and space 15 by dragging dragging the divider between the main",
+      "why_it_matters": "Explains new UI capability to resize copilot help panes for better workspace management.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 154.4,
+      "kind": "preview",
+      "text": "the BC27 uh Business Central version 27 preview"
+    },
+    {
+      "t": 418.9,
+      "kind": "preview",
+      "text": "advance. Tell me more. Tell me preview"
+    },
+    {
+      "t": 587,
+      "kind": "coming-later",
+      "text": "That seems to be in 2026, January 2026."
+    },
+    {
+      "t": 1355.6,
+      "kind": "coming-later",
+      "text": "It's in November 2025. So maybe that's why we can't find it."
+    },
+    {
+      "t": 1975.9,
+      "kind": "other",
+      "text": "Looks like it's October 2025. So, we're in September yet. Uh, we're in September 2025."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 19,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 40
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029533999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038613
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018685
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.1032849
+    }
+  ]
+}

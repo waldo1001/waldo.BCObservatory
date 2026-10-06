@@ -1,0 +1,363 @@
+{
+  "video_id": "wlVewBgq9-Q",
+  "item_id": "video/yt-microsoft/wlVewBgq9-Q",
+  "title": "How to Create Projects in Business Central (2025)",
+  "duration_s": 165,
+  "systems": [
+    "projects",
+    "administration"
+  ],
+  "topics": [
+    "project creation",
+    "project tasks",
+    "project planning lines",
+    "budget tracking",
+    "project posting groups",
+    "task templates",
+    "project manager role center"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Projects in Business Central",
+      "t_start": 0,
+      "t_end": 12.7
+    },
+    {
+      "title": "Creating a New Project and Assigning Details",
+      "t_start": 12.7,
+      "t_end": 33.3
+    },
+    {
+      "title": "Creating Project Tasks",
+      "t_start": 33.3,
+      "t_end": 59
+    },
+    {
+      "title": "Adding Planning Lines and Budget Information",
+      "t_start": 59,
+      "t_end": 85.5
+    },
+    {
+      "title": "Project Posting Groups and Details",
+      "t_start": 85.5,
+      "t_end": 109.8
+    },
+    {
+      "title": "Creating Projects with Task Templates",
+      "t_start": 109.8,
+      "t_end": 132.4
+    },
+    {
+      "title": "Copying Tasks to New Projects",
+      "t_start": 132.4,
+      "t_end": 147.2
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 147.2,
+      "t_end": 165
+    }
+  ],
+  "features": [
+    {
+      "name": "Project list in role center",
+      "description": "The project manager role center displays a list of projects, allowing quick access to all active projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 12.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "project list",
+        "navigation"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project card creation",
+      "description": "Business Central automatically assigns a project number when creating a new project. Users enter basic information like description and select a customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.7,
+      "t_end": 23,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project creation",
+        "project number",
+        "customer assignment"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project manager assignment",
+      "description": "Users can assign themselves or another person as the project manager, which controls visibility in their role center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23,
+      "t_end": 33.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project manager",
+        "assignment",
+        "role center"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project task numbering",
+      "description": "Project task numbers are typically part of a number sequence defined in setup. Users can customize the numbering scheme.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 33.3,
+      "t_end": 44.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task numbering",
+        "number sequence",
+        "configuration"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project task types",
+      "description": "Project tasks have configurable types such as posting type, which allows adding budget information on planning lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.4,
+      "t_end": 59,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task types",
+        "posting",
+        "budget"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project planning lines",
+      "description": "Planning lines allow users to enter budget and billable information, with line types supporting budget, billable, or both configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59,
+      "t_end": 72.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "planning lines",
+        "budget",
+        "billable",
+        "line types"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Resource and item allocation",
+      "description": "Users can add resources (people doing the work) and items to project planning lines, with automatic cost and price calculations from resource or item master data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.6,
+      "t_end": 85.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "items",
+        "cost",
+        "price"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project details pane",
+      "description": "The project details pane displays totals for costs and invoicing information, helping project managers stay on budget.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.5,
+      "t_end": 99.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "details pane",
+        "budget tracking",
+        "cost summary"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project posting groups",
+      "description": "Project posting groups can be selected per project or configured globally in the project setup window to control posting behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.3,
+      "t_end": 109.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "setup",
+        "configuration"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Copy project tasks feature",
+      "description": "Users can create new projects and copy tasks from existing projects using the create new project assisted setup guide, saving time when setting up similar projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109.8,
+      "t_end": 147.2,
+      "is_demoed": true,
+      "caveats": [
+        "Users can leave tasks blank to copy all tasks"
+      ],
+      "tags": [
+        "task copying",
+        "template",
+        "assisted setup"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Copy dimensions and quantities on apply tab",
+      "description": "When copying project tasks, users can optionally copy quantities and dimensions through the apply fast tab.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.4,
+      "t_end": 147.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copying",
+        "quantities",
+        "dimensions"
+      ],
+      "system": "projects"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "project manager role center",
+      "t": 0.2
+    },
+    {
+      "type": "page",
+      "name": "project card",
+      "t": 12.7
+    },
+    {
+      "type": "page",
+      "name": "project planning lines",
+      "t": 59
+    },
+    {
+      "type": "page",
+      "name": "project details pane",
+      "t": 85.5
+    },
+    {
+      "type": "page",
+      "name": "project setup window",
+      "t": 99.3
+    },
+    {
+      "type": "page",
+      "name": "create new project assisted setup guide",
+      "t": 120.3
+    },
+    {
+      "type": "page",
+      "name": "my projects list",
+      "t": 109.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "From the project manager RO center, we'll use the navigation list to see our list of projects.",
+      "why_it_matters": "Establishes the starting point for project management within Business Central using the role center interface.",
+      "check": "exact"
+    },
+    {
+      "t": 12.7,
+      "text": "Business Central assigns the project number and we'll enter basic information like a description.",
+      "why_it_matters": "Clarifies that project numbers are auto-generated and users only need to provide basic descriptive information.",
+      "check": "exact"
+    },
+    {
+      "t": 33.3,
+      "text": "Typically the project task number is part of a number sequence that we define.",
+      "why_it_matters": "Explains that task numbering is configurable through number sequences defined in setup.",
+      "check": "exact"
+    },
+    {
+      "t": 59,
+      "text": "The line type can be budget or billable or both depending on the line cost and how we bill a customer.",
+      "why_it_matters": "Describes the flexibility of planning line types for different billing and budgeting scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 72.6,
+      "text": "The cost and price amounts come from the resource or item assigned.",
+      "why_it_matters": "Clarifies that costs and prices are automatically derived from master data, not manually entered.",
+      "check": "exact"
+    },
+    {
+      "t": 99.3,
+      "text": "We should choose a project posting group. We can choose these per project or in the project setup window.",
+      "why_it_matters": "Explains the flexibility of applying posting groups either at project level or globally in setup.",
+      "check": "exact"
+    },
+    {
+      "t": 109.8,
+      "text": "When we set up other similar projects, we can save time by copying tasks.",
+      "why_it_matters": "Introduces the task copying feature as a productivity feature for managing multiple similar projects.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018971
+    }
+  ]
+}

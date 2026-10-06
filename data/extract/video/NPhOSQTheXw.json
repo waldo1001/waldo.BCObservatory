@@ -1,0 +1,215 @@
+{
+  "video_id": "NPhOSQTheXw",
+  "item_id": "video/yt-microsoft/NPhOSQTheXw",
+  "title": "How to Set Up Sales Tax in Business Central (2025)",
+  "duration_s": 138,
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "sales tax setup",
+    "tax groups",
+    "tax area codes",
+    "tax calculation",
+    "customer setup",
+    "vendor setup",
+    "general ledger accounts",
+    "posting groups"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of sales tax setup",
+      "t_start": 0,
+      "t_end": 28.7
+    },
+    {
+      "title": "General ledger accounts requirement",
+      "t_start": 28.7,
+      "t_end": 39
+    },
+    {
+      "title": "Creating tax groups and tax area codes",
+      "t_start": 39,
+      "t_end": 62.6
+    },
+    {
+      "title": "Applying tax area codes to customers and vendors",
+      "t_start": 62.6,
+      "t_end": 88.4
+    },
+    {
+      "title": "Completing the setup and document automation",
+      "t_start": 88.4,
+      "t_end": 104.9
+    },
+    {
+      "title": "Managing tax changes and updates",
+      "t_start": 104.9,
+      "t_end": 138
+    }
+  ],
+  "features": [
+    {
+      "name": "Assisted setup guide for sales tax",
+      "description": "A guided wizard that helps users set up sales tax in Business Central, including creating tax groups and configuring tax calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39,
+      "t_end": 104.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires pre-existing general ledger accounts for tax tracking",
+        "Users can customize tax area code names as needed"
+      ],
+      "tags": [
+        "assisted setup",
+        "tax groups",
+        "configuration",
+        "guided setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Tax group assignment to items",
+      "description": "Ability to assign tax groups to items to indicate whether sales tax applies to specific products bought and sold.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39,
+      "t_end": 49.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tax groups",
+        "item setup",
+        "classification"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Tax area codes with jurisdiction filtering",
+      "description": "Create tax area codes that calculate sales tax based on customer or vendor location with filters for specific jurisdictions like city, county, and state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.6,
+      "t_end": 88.4,
+      "is_demoed": true,
+      "caveats": [
+        "Tax area code names must be unique",
+        "Filters can be applied by city or other jurisdiction criteria"
+      ],
+      "tags": [
+        "tax calculation",
+        "jurisdiction",
+        "filtering",
+        "tax rates"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Apply tax area codes to customers and vendors",
+      "description": "Assign tax area codes to customer and vendor master records to ensure correct tax calculations on transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77,
+      "t_end": 88.4,
+      "is_demoed": true,
+      "caveats": [
+        "Can be assigned manually through customer and vendor lists",
+        "Can be updated when jurisdiction boundaries change"
+      ],
+      "tags": [
+        "customers",
+        "vendors",
+        "master data",
+        "tax application"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automatic sales tax calculation on documents",
+      "description": "Business Central automatically calculates sales tax on sales and purchase documents based on assigned tax area codes to customers and vendors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.4,
+      "t_end": 104.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "tax calculation",
+        "documents",
+        "sales orders",
+        "purchase orders"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "This video shows how to set up sales tax so you can be sure you're calculating taxes correctly on transactions.",
+      "why_it_matters": "Establishes the core purpose of the video - ensuring accurate tax calculation in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 28.7,
+      "text": "These processes require general ledger accounts for tracking taxes on receivables and payables.",
+      "why_it_matters": "Identifies a critical prerequisite for sales tax setup that must be prepared beforehand.",
+      "check": "exact"
+    },
+    {
+      "t": 62.6,
+      "text": "We'll use the city of Fargo with a rate of 2% in Cass County and a state tax for North Dakota at 5%.",
+      "why_it_matters": "Demonstrates how tax area codes combine multiple jurisdiction tax rates for accurate calculation.",
+      "check": "exact"
+    },
+    {
+      "t": 77,
+      "text": "We need to apply the tax area code to our customers and vendors. The last step is to make sure that this tax rate",
+      "why_it_matters": "Shows that tax area codes must be explicitly assigned to customers and vendors with jurisdiction-specific filtering.",
+      "check": "exact"
+    },
+    {
+      "t": 88.4,
+      "text": "Now, when we create sales or purchasing documents, Business Central calculate sales tax based on the tax area codes that we just assigned to",
+      "why_it_matters": "Explains the benefit of the setup - automated tax calculation on all transactions once configuration is complete.",
+      "check": "exact"
+    },
+    {
+      "t": 104.9,
+      "text": "The setup sales tax assisted setup is a great way to quickly get started. But what if we need to change something?",
+      "why_it_matters": "Indicates that while assisted setup provides a starting point, manual adjustments are available for changing requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012911
+    }
+  ]
+}

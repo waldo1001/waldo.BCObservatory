@@ -1,0 +1,27 @@
+{
+  "video_id": "X3xygXmgRqU",
+  "item_id": "video/yt-microsoft/X3xygXmgRqU",
+  "summary": "Setting up multiple inventory locations in Business Central: location cards, inventory posting groups, location codes on purchase and sales documents, default customer locations, transfer orders (including direct transfer), intransit locations and transfer routes. A 3-minute video published 2025-05-22.",
+  "overview": "The video shows how to set up as many locations as needed for inventory and how to move items between them. It starts with the location card, where location information is entered, intransit locations are specified, and an inventory posting group is set up for each location.\n\nIt then covers buying and selling from specific locations by entering a location code on purchase and sales documents, and setting a default location on the customer card. The remaining sections cover transfer orders, direct transfer, transfer routes, and checking item availability and out-of-stock situations across locations.",
+  "key_points": [
+    "Locations are set up on the location card, in the warehouse manager role; there is no limit stated on the number of locations.",
+    "Each location needs an inventory posting group so inventory transactions can post.",
+    "Specify a location code on purchase documents to buy for a specific location, and on sales documents to choose where items ship from.",
+    "A default location on the customer card makes items ship from that location automatically for that customer.",
+    "Transfer orders document item movement between locations and can be shipped and received in full, line by line, or in partial quantities.",
+    "Select the direct transfer checkbox on a transfer order to move items all at once without an intransit location.",
+    "Set up transfer routes to pre-select the intransit location (and optionally a shipping agent) so it need not be chosen on each transfer order."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "cd78946fcc5de1fe8ba4ea2ee3ec231e0f604d837611debcdfd2c6ec3631ebd7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0144244
+  }
+}

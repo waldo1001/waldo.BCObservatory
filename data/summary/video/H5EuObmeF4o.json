@@ -1,0 +1,28 @@
+{
+  "video_id": "H5EuObmeF4o",
+  "item_id": "video/yt-bcmusings/H5EuObmeF4o",
+  "summary": "Walkthrough of Business Central 2025 release wave 2 (BC27 preview sandbox) covering Copilot and agents, MCP server, development, finance, administration and manufacturing changes. Evidence for what the presenter lists for the wave, including some dated items such as the sales order agent in October 2025 and the payables agent in more countries in November 2025.",
+  "overview": "The presenter goes through the 2025 wave 2 release plan using a BC27 preview sandbox. Most of the time goes to Copilot and agents: advanced Tell Me search, autofill with Copilot, payables agent and sales order agent enhancements, sustainability emissions suggestions, Summarize and Analysis Assist changes, and Copilot billing types and Azure resources for extensions. Several of these are demoed.\n\nThe rest covers 20-language chat support, localization items, AL and page scripting changes, table truncation, finance and reporting updates, administration and migration, and manufacturing topics such as the quality management extension and subcontracting. Some items are dated later than the preview (for example the audit trail report in November 2025 and invoice matching in January 2026), so not everything is visible in the sandbox.",
+  "key_points": [
+    "Advanced Tell Me search uses AI to find pages and reports and needs to be enabled through feature management; it is demoed.",
+    "Billing type for Copilot and agent capabilities (Microsoft billed, custom billed, undefined) can be set with the register capability function or modify capability in AL.",
+    "Dates given: sales order agent general availability in October 2025, payables agent in more countries in November 2025, audit trail report in November 2025, payables agent invoice matching in January 2026.",
+    "Enhanced chat with Copilot supports 20 languages, and Summarize expands to 20 more languages with consistent currency codes.",
+    "Developer items: cancel build or publish from Visual Studio, event-based extension of Copilot autofill, hiding Copilot summaries, new table truncate methods (not for tables with on-delete triggers or event subscriptions), and page scripting enhancements.",
+    "Concurrent inventory posting sorts lines by type and number to reduce deadlocks, which may affect extensions that depend on the next or previous line.",
+    "Other items listed: accounts payable role center, Power Platform connector for the admin center API, migration of record links and notes, quality management extension, and subcontracting moved into W1 from the Italian localization."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "f0f304c4f99b6f17e858fca6bebd512cd39115f5825cab1626cf11bdc40c2c66",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0321744
+  }
+}

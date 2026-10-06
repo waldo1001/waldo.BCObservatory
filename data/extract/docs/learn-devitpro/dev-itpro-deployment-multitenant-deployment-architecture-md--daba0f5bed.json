@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/Multitenant-Deployment-Architecture.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Multitenant-Deployment-Architecture",
+  "title": "Multitenant Deployment Architecture",
+  "blob": "53213049866c2b0a74a432cb9c725d1bcdb14e01",
+  "summary": "Multitenant deployment architecture separates application metadata into a central database while customer data is stored in separate tenant databases, enabling centralized maintenance and tenant isolation.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "multitenant",
+    "deployment",
+    "architecture",
+    "databases",
+    "tenants"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Object"
+    },
+    {
+      "type": "table",
+      "name": "dbo.$ndo$tenants"
+    }
+  ],
+  "features": [
+    "tenant mounting",
+    "tenant dismounting",
+    "application database",
+    "business databases",
+    "tenant isolation",
+    "URL tenant specification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003936,
+      "pages_in_call": 8
+    }
+  ]
+}

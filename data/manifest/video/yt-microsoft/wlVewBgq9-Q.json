@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=wlVewBgq9-Q",
   "published_at": "2025-05-22T16:11:23.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 441,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:34:42.169Z",
+      "path": "data/extract/video/wlVewBgq9-Q.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 11,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.018971
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d5bcb1c86b6d117c0ebc0be5da08ec2a1660e16692b26b70ed4208c55e957a91"
+  "output_hash": "befd23ddad6e45120942366ca46df68dbfe1891947841898b367b5a274ad66d3"
 }
