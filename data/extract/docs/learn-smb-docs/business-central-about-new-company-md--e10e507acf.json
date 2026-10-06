@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/about-new-company.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/about-new-company",
+  "title": "Create new companies using an assisted setup guide",
+  "blob": "ca797165b2bf2f6afbd01dbe52cef6e505e20c8a",
+  "summary": "Creating new companies uses an assisted setup guide to choose templates and configure basics like address and bank details. You can copy companies, use evaluation templates with sample data, or start blank.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "company-setup",
+    "templates",
+    "evaluation",
+    "production",
+    "assisted-setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Companies"
+    },
+    {
+      "type": "page",
+      "name": "Company Setup"
+    }
+  ],
+  "features": [
+    "Company creation",
+    "Evaluation templates",
+    "Sample data",
+    "Setup data",
+    "Copy company",
+    "Display name",
+    "Contoso Coffee demo data"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006414,
+      "pages_in_call": 8
+    }
+  ]
+}

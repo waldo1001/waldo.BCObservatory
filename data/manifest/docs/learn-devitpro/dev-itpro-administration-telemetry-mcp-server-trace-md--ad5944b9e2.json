@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
   "published_at": "2026-06-17T16:36:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
       "words": 339,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:58.915Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006414
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:58.932Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:58.933Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:58.933Z",
+      "page": false
     }
   },
   "input_hash": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bb483b3d427c3fb638cf81cebd978f19995ca6da"
+  "output_hash": "ea54c7b98f5ed6e7ccd3f39b1f988bdfdb7208ff115b86b76f522624888cd6d8"
 }

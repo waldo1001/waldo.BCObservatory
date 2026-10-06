@@ -1,0 +1,650 @@
+{
+  "video_id": "jWJc_D67Vfw",
+  "item_id": "video/yt-areopa/jWJc_D67Vfw",
+  "title": "20260518 - Learning AI the Way I Learned NAV",
+  "duration_s": 3136,
+  "systems": [
+    "copilot",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "ai adoption",
+    "learning patterns",
+    "privacy concerns",
+    "chatgpt",
+    "consultant workflow",
+    "hands-on learning",
+    "ai mindset",
+    "claude",
+    "mcp protocol",
+    "prompting strategy",
+    "deep learning methodology",
+    "90-day iterations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 269.5
+    },
+    {
+      "title": "The Pedro Pascal moment - learning NAV through observation",
+      "t_start": 269.5,
+      "t_end": 433.4
+    },
+    {
+      "title": "Deep learning and career trajectory",
+      "t_start": 433.4,
+      "t_end": 551.4
+    },
+    {
+      "title": "The pattern that shapes careers",
+      "t_start": 551.4,
+      "t_end": 645.3
+    },
+    {
+      "title": "Three key learnings - the framework",
+      "t_start": 645.3,
+      "t_end": 689.7
+    },
+    {
+      "title": "From privacy-first to all-in with AI",
+      "t_start": 689.7,
+      "t_end": 906.4
+    },
+    {
+      "title": "Green, orange, red zone framework",
+      "t_start": 906.4,
+      "t_end": 1030.2
+    },
+    {
+      "title": "The skimming problem and AI journey",
+      "t_start": 1030.2,
+      "t_end": 1175.4
+    },
+    {
+      "title": "Tool selection and the Rome crossroads moment",
+      "t_start": 1175.4,
+      "t_end": 1409.2
+    },
+    {
+      "title": "The 90-day deep focus technique",
+      "t_start": 1409.2,
+      "t_end": 1569.3
+    },
+    {
+      "title": "Working with AI: from doer to director",
+      "t_start": 1569.3,
+      "t_end": 1715
+    },
+    {
+      "title": "The replacement ladder and director role",
+      "t_start": 1715,
+      "t_end": 2081
+    },
+    {
+      "title": "AI-generated invoice layout in action",
+      "t_start": 2081,
+      "t_end": 2297
+    },
+    {
+      "title": "Marathons over chats - working with AI as a partner",
+      "t_start": 2297,
+      "t_end": 2532.3
+    },
+    {
+      "title": "Q&A - tools and deep learning approaches",
+      "t_start": 2532.3,
+      "t_end": 2765.4
+    },
+    {
+      "title": "Wrap-up and personal stories",
+      "t_start": 2765.4,
+      "t_end": 3136
+    }
+  ],
+  "features": [
+    {
+      "name": "AI as development partner",
+      "description": "Using AI tools like ChatGPT with full context and real project details to accelerate Business Central development work. Changing from theoretical questions to real problem-solving with actual company and project information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 689.7,
+      "t_end": 895.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires overcoming privacy concerns",
+        "Effectiveness depends on quality of context provided"
+      ],
+      "tags": [
+        "ai",
+        "copilot",
+        "chatgpt",
+        "development workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Deep learning methodology for complex systems",
+      "description": "Comprehensive study of system documentation rather than surface-level scanning. Reading all 400 pages of technical documentation to develop mastery of NAV and Business Central systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 433.4,
+      "t_end": 540.5,
+      "is_demoed": false,
+      "caveats": [
+        "Time-intensive approach",
+        "Requires initial motivation to pursue"
+      ],
+      "tags": [
+        "learning",
+        "documentation",
+        "mastery"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ChatGPT",
+      "description": "AI tool used for recruiting, SOPs, interview scripts, internal documentation, website copywriting, company strategy, and daily planning. Presenter started with version 3.5, then 3.5 Turbo before getting serious with GPT-4 in May 2024.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1030.2,
+      "t_end": 1382.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires clear context and structured prompts",
+        "Error patterns dependent on platform differences"
+      ],
+      "tags": [
+        "ai tool",
+        "productivity",
+        "automation",
+        "gpt-4"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Claude Desktop",
+      "description": "AI tool that supports MCP (Model Context Protocol) integration with personal tools like Obsidian vault and Airtable. Presenter started testing it in late 2024 and found it different from ChatGPT.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1337.9,
+      "t_end": 1409.2,
+      "is_demoed": false,
+      "caveats": [
+        "Learning curve different from ChatGPT",
+        "Requires MCP integration setup"
+      ],
+      "tags": [
+        "ai tool",
+        "mcp",
+        "integration",
+        "anthropic"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Claude Code",
+      "description": "Research preview feature that handles code generation and infrastructure deployment. Presenter used it as main developer partner for full-stack projects including back-end, database, and cloud deployment.",
+      "status": "preview",
+      "status_evidence_t": 1353.1,
+      "status_evidence_quote": "Claude Code came out as a research preview, which took things to a whole new level",
+      "status_evidence_verified": true,
+      "t_start": 1353.1,
+      "t_end": 1409.2,
+      "is_demoed": true,
+      "caveats": [
+        "Research preview status",
+        "Platform-specific errors (Mac vs Linux grep)",
+        "Requires error-catching direction from developer"
+      ],
+      "tags": [
+        "code generation",
+        "deployment",
+        "infrastructure",
+        "research preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP Protocol",
+      "description": "Model Context Protocol by Anthropic that enables Claude to connect to external tools like Obsidian vault and Airtable, creating integrated workflow capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1337.9,
+      "t_end": 1353.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "integration",
+        "protocol",
+        "tool connection",
+        "anthropic"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Code review agent pattern",
+      "description": "Using AI to spawn a code review agent that audits another AI's work, specifically looking for cross-platform issues, edge cases, and typical AI mistakes. The director sets the direction and standard while the AI reviews itself.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1677.3,
+      "t_end": 1715,
+      "is_demoed": false,
+      "caveats": [
+        "requires manual verification of final output",
+        "depends on clear direction and standards from user"
+      ],
+      "tags": [
+        "ai-agents",
+        "code-review",
+        "cross-platform",
+        "quality-assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central print layout skill",
+      "description": "An AI skill that allows users to design and build Business Central print layouts like invoices and quotes. Users provide a PDF mockup with brand colors, column structures, and fonts, and the AI generates the layout with automatic field mapping and measurement to the millimeter, eliminating manual Word and XML editing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1926.2,
+      "t_end": 2251,
+      "is_demoed": true,
+      "caveats": [
+        "requires clear PDF mockup as input",
+        "still requires final verification by user before deployment"
+      ],
+      "tags": [
+        "print-layouts",
+        "invoices",
+        "business-central",
+        "automation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Marathon conversation technique",
+      "description": "A methodology for working with AI where instead of asking one-off questions, users open a single sustained conversation, explain the full task and its context, define what a good result looks like, and work through it end-to-end as a partner. This produces better results than fragmented question-answer exchanges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2297,
+      "t_end": 2525.6,
+      "is_demoed": true,
+      "caveats": [
+        "requires discipline to maintain focus in one conversation",
+        "not suitable for isolated quick questions"
+      ],
+      "tags": [
+        "methodology",
+        "ai-workflow",
+        "conversation-design",
+        "prompting strategy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Meta prompting",
+      "description": "Asking AI to help write better prompts that produce better outputs. The day you ask AI to help improve your prompts is when everything becomes more efficient.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2468.2,
+      "t_end": 2480,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "prompting strategy",
+        "optimization",
+        "best practice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI director mindset",
+      "description": "Shift from treating AI as a search engine to treating it as a co-worker who needs context. Requires explaining business context, not just chatting. Role is to direct, set standards, review output, and ship work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2502.5,
+      "t_end": 2525.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mindset",
+        "methodology",
+        "best practice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Orchestrator for knowledge management",
+      "description": "Personal project building an orchestrator on top of Obsidian vault that uses AI agents from Claude, OpenAI, and local models to provide insights that couldn't be obtained alone. Uses multiple AI models to identify divergent viewpoints for breakthroughs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2620.8,
+      "t_end": 2728.2,
+      "is_demoed": false,
+      "caveats": [
+        "Personal garage project, not a product",
+        "Uses Open Claw orchestrator with multiple AI providers"
+      ],
+      "tags": [
+        "orchestration",
+        "knowledge management",
+        "multi-agent",
+        "obsidian"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "90-day deep learning methodology",
+      "description": "Framework where you pick one tool and go deep into it for 90 days. All roads lead to Rome - the pattern is the same regardless of tool choice. Skills are transferable across different tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2852.8,
+      "t_end": 2866.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "methodology",
+        "deep learning",
+        "skill development"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "code review agent",
+      "t": 1689.6
+    },
+    {
+      "type": "other",
+      "name": "Open Claw",
+      "t": 2584.7
+    },
+    {
+      "type": "other",
+      "name": "Hermes AI",
+      "t": 2595.2
+    },
+    {
+      "type": "other",
+      "name": "Obsidian",
+      "t": 2620.8
+    },
+    {
+      "type": "other",
+      "name": "Deep Seek",
+      "t": 2684.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nabil",
+      "confidence": "high"
+    },
+    {
+      "name": "Nabil Bammou",
+      "confidence": "high"
+    },
+    {
+      "name": "Nabeel",
+      "confidence": "high"
+    },
+    {
+      "name": "Luke van Vught",
+      "confidence": "high"
+    },
+    {
+      "name": "Dennis Storøy",
+      "confidence": "high"
+    },
+    {
+      "name": "Dan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Luke",
+      "confidence": "medium"
+    },
+    {
+      "name": "Claude",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tina",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 322.4,
+      "text": "my friend eventually gives me a tired look and says nabil i have no idea what",
+      "why_it_matters": "Illustrates the starting point of the learning journey - zero knowledge and zero context for a critical business system task.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 420.5,
+      "text": "That moment changed everything. I remember thinking, this is how a pro does it. I need to learn this, and I want to do",
+      "why_it_matters": "Demonstrates how observing expert behavior can trigger a learning transformation and career commitment.",
+      "check": "exact"
+    },
+    {
+      "t": 454.6,
+      "text": "All 400 pages. The more I read, the more the system made sense, and the more I wanted to go deeper.",
+      "why_it_matters": "Shows the depth of learning required to achieve mastery and the compound effect of thorough study.",
+      "check": "exact"
+    },
+    {
+      "t": 775.4,
+      "text": "Even with all the resources I have, I cannot build a private AI that protects my data better than the big labs.",
+      "why_it_matters": "Key insight that overcomes a major psychological barrier to AI adoption - the privacy concern is rational but economically unfounded.",
+      "check": "exact"
+    },
+    {
+      "t": 850.6,
+      "text": "I opened ChatGPT and I just start typing. I I'm Nabil. I am the CEO of Azure Services. We help ...",
+      "why_it_matters": "Demonstrates the specific behavioral shift needed - providing full context and real information instead of sanitized theoretical problems.",
+      "check": "exact"
+    },
+    {
+      "t": 850.6,
+      "text": "I'm Nabil. I am the CEO of Azure Services. We help mid-market companies with Business Central and AI transformation.",
+      "why_it_matters": "Establishes the presenter's background and professional focus on Business Central and AI.",
+      "check": "exact"
+    },
+    {
+      "t": 881.7,
+      "text": "The time I used to spend re-explaining context in every message Suddenly I had a working partner who actually knew ...",
+      "why_it_matters": "Quantifies the productivity gain from treating AI as a real partner with full context rather than a generic tool.",
+      "check": "exact"
+    },
+    {
+      "t": 913.2,
+      "text": "Dan gave us a simple rule on that call. He calls it the green, orange, red zone rule. Three colors. Three buckets.",
+      "why_it_matters": "Introduces the framework that changed the presenter's approach to data sharing with AI from defensive to productive.",
+      "check": "exact"
+    },
+    {
+      "t": 1030.2,
+      "text": "Your caution is costing you more than the risk.",
+      "why_it_matters": "Key insight about the mindset shift required to use AI effectively, directly challenging hesitation.",
+      "check": "exact"
+    },
+    {
+      "t": 1070.9,
+      "text": "I started using ChatGPT in February 2024. Version 3.5 then 3.5 Turbo. I played with it a little, but it ...",
+      "why_it_matters": "Timeline of when the presenter's serious engagement with AI tools began and which versions drove commitment.",
+      "check": "exact"
+    },
+    {
+      "t": 1285.4,
+      "text": "When the AI gets it wrong, it's not the AI. It's me. I didn't explain clearly enough.",
+      "why_it_matters": "Fundamental design principle: AI failures reflect unclear human thinking, not tool limitations.",
+      "check": "exact"
+    },
+    {
+      "t": 1452.9,
+      "text": "Pick one tool, go deep for 90 days, do not evaluate competitor until you have genuinely hit a ceiling.",
+      "why_it_matters": "Core methodology for building fluency with AI rather than perpetually skimming surface features.",
+      "check": "exact"
+    },
+    {
+      "t": 1501,
+      "text": "You will always be a beginner. And the gap between you and the people going deep will get wider, not smaller.",
+      "why_it_matters": "Consequence of tool-jumping habit: perpetual beginner status versus mastery through depth.",
+      "check": "exact"
+    },
+    {
+      "t": 1677.3,
+      "text": "My job isn't to catch every error manually. My job is to know that these errors happen, and to direct the AI to catch",
+      "why_it_matters": "Shift in developer mindset: from error correction to error-detection direction, enabling productive partnership.",
+      "check": "exact"
+    },
+    {
+      "t": 1726.2,
+      "text": "The AI is not a replacement for judgement. The AI as a replacement for all the low-level work I should ...",
+      "why_it_matters": "Clarifies the proper relationship with AI - it handles low-level tasks while human judgement remains essential, establishing boundaries for AI usage.",
+      "check": "exact"
+    },
+    {
+      "t": 1843.4,
+      "text": "AI is the fastest way I have ever seen to climb the replacement ladder. If you want to climb the ladder and free up",
+      "why_it_matters": "Presents the strategic rationale for adopting director mindset with AI as the primary mechanism for productivity gains.",
+      "check": "exact"
+    },
+    {
+      "t": 2240.2,
+      "text": "It took load under 12 minutes, but only took 2 minutes of my time. I gave it instruction and checked the output.",
+      "why_it_matters": "Demonstrates concrete time savings from the print layout skill - reducing a one to two day task to 2 minutes of human effort.",
+      "check": "exact"
+    },
+    {
+      "t": 2362.3,
+      "text": "Your confident hallucination. And this is the exact reason director mindset matters. The AI will say what sounds right. Your job is to verify,",
+      "why_it_matters": "Highlights the risk of AI hallucination and establishes verification as a critical responsibility of the director role.",
+      "check": "exact"
+    },
+    {
+      "t": 2362.3,
+      "text": "The AI will say what sounds right. Your job is to verify, always.",
+      "why_it_matters": "Establishes the fundamental principle that AI can hallucinate convincingly and users must maintain oversight and verification discipline.",
+      "check": "exact"
+    },
+    {
+      "t": 2418.8,
+      "text": "Stop using AI for one-off questions. One-off questions give you one-off results. Instead, open a single conversation, explain the full ...",
+      "why_it_matters": "Introduces the marathon technique as superior to fragmented AI interactions, with practical guidance on conversation structure.",
+      "check": "exact"
+    },
+    {
+      "t": 2418.8,
+      "text": "Stop using AI for one-off questions. One-off questions give you one-off results.",
+      "why_it_matters": "Core recommendation to shift from transactional AI usage to sustained conversation methodology for better outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 2455.1,
+      "text": "That Business Central layout skill in the demo, that wasn't 50 quick questions. It was one conversation end to end, one marathon.",
+      "why_it_matters": "Concrete example showing the marathon methodology produced the demonstrated skill, validating the approach.",
+      "check": "exact"
+    },
+    {
+      "t": 2716.6,
+      "text": "do not tell the same thing that's the value i'm seeking i'm not looking for them to converge for",
+      "why_it_matters": "Design decision for multi-agent orchestration: divergence across models reveals breakthrough insights rather than convergence.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2841.3,
+      "text": "You survived every break and change in Business Central. You each done the 400 page reads before in your own way.",
+      "why_it_matters": "Connects audience's existing competency with navigating AI complexity - they already have the pattern for learning new systems.",
+      "check": "exact"
+    },
+    {
+      "t": 2886,
+      "text": "This week, pick one recurring task you do every week. One thing.",
+      "why_it_matters": "Concrete first action item: makes the abstract methodology concrete and achievable for immediate implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 2922.7,
+      "text": "Do that once, and you'll feel the difference immediately. Do it every week for the next 90 days, and everything about your relationship with",
+      "why_it_matters": "Sets expectations for timeframe and magnitude of change from implementing the methodology consistently.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1353.1,
+      "kind": "preview",
+      "text": "Claude Code came out as a research preview"
+    },
+    {
+      "t": 2595.2,
+      "kind": "other",
+      "text": "Hermes AI is described as the new kid in the block, mentioned as something to check out"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 26,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014902899999999998
+    }
+  ]
+}

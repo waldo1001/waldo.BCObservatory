@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox",
   "published_at": "2026-06-18T07:48:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "297a20988ca859aac4a059a9a723f495155425a8",
       "words": 2400,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:58.914Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006414
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:58.925Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:58.926Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:58.927Z",
+      "page": false
     }
   },
   "input_hash": "297a20988ca859aac4a059a9a723f495155425a8",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "297a20988ca859aac4a059a9a723f495155425a8"
+  "output_hash": "bf999f425935cab15deb0937bc385836823c1d7ab13e48665f3f44457697a9c6"
 }

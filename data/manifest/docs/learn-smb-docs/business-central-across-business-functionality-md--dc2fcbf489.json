@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-business-functionality",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f148648741acc0df2f41455ae906cd72daf2da01",
       "words": 449,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:58.917Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006414
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:58.937Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:58.938Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:58.939Z",
+      "page": false
     }
   },
   "input_hash": "f148648741acc0df2f41455ae906cd72daf2da01",
@@ -113,5 +132,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f148648741acc0df2f41455ae906cd72daf2da01"
+  "output_hash": "e2f81f13650a6937bf973088a28e7f58fc0692bf7eeadf67c1ad7a838dd6c99a"
 }

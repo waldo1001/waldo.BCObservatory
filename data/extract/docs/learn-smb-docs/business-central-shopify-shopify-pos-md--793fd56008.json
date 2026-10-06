@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/shopify-pos.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos",
+  "title": "Working with Shopify POS",
+  "blob": "c3ca357d6c404b4d9b17cc18a3f394f64e8087e0",
+  "summary": "Working with Shopify POS processes retail transactions through Shopify as a sales channel, handling order fulfillment, cash rounding, and customers. Understand order handling nuances and licensing requirements.",
+  "systems": [
+    "sales",
+    "integration",
+    "inventory"
+  ],
+  "topics": [
+    "shopify",
+    "pos",
+    "point-of-sale",
+    "orders",
+    "cash-rounding",
+    "customer",
+    "licensing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    }
+  ],
+  "features": [
+    "POS order import",
+    "Cash rounding",
+    "Customer creation",
+    "Payment processing",
+    "Inventory synchronization",
+    "Default Customer No."
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006414,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox",
+  "title": "Set up the add-ins for Outlook in Business Central on-premises",
+  "blob": "297a20988ca859aac4a059a9a723f495155425a8",
+  "summary": "Setting up Outlook add-ins for Business Central on-premises supports Contact Insights and Document View through centralized deployment, automated individual deployment, or manual deployment to Exchange Online or Exchange Server.",
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "outlook",
+    "add-ins",
+    "exchange",
+    "contact-insights",
+    "document-view",
+    "authentication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    }
+  ],
+  "features": [
+    "Contact Insights add-in",
+    "Document View add-in",
+    "Centralized Deployment",
+    "Nested App Authentication",
+    "Microsoft Entra authentication",
+    "EWS integration",
+    "Outlook ribbon actions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006414,
+      "pages_in_call": 8
+    }
+  ]
+}

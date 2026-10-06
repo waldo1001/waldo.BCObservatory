@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup",
   "published_at": "2026-06-18T11:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2e4cd2270915db3bce958ad10f2e8efbdc6e2e7d",
       "words": 570,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:58.910Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006414
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:58.919Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:58.920Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:58.921Z",
+      "page": false
     }
   },
   "input_hash": "2e4cd2270915db3bce958ad10f2e8efbdc6e2e7d",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e4cd2270915db3bce958ad10f2e8efbdc6e2e7d"
+  "output_hash": "3dff9599e927e5336a2052c7b4df9fc5bd0667122729477fc1c5e9bcefb679ea"
 }

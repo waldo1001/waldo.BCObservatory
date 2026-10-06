@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-approval-users",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b1cd97a474eb303c224e58c27686f31e55264d8",
       "words": 620,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:52:58.918Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006414
+    },
+    "summarized": {
+      "at": "2026-10-06T17:52:58.940Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:52:58.941Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:52:58.942Z",
+      "page": false
     }
   },
   "input_hash": "1b1cd97a474eb303c224e58c27686f31e55264d8",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b1cd97a474eb303c224e58c27686f31e55264d8"
+  "output_hash": "123985571e3582ab1a603fb7c8624f0c0f7956bc72d8801f1d1d04ba8b9b45cd"
 }

@@ -1,0 +1,924 @@
+{
+  "video_id": "fy96_jdL1PQ",
+  "item_id": "video/yt-dynamicscorner/fy96_jdL1PQ",
+  "title": "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central",
+  "duration_s": 3201,
+  "systems": [
+    "reporting",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "reporting capabilities",
+    "training strategy",
+    "user adoption",
+    "learning management",
+    "case-based training",
+    "implementation strategy",
+    "reporting technologies",
+    "analysis mode",
+    "power bi",
+    "dashboards",
+    "scorecards",
+    "data modeling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to reporting capabilities in Business Central",
+      "t_start": 0,
+      "t_end": 102.4
+    },
+    {
+      "title": "Personal context and recent conference activity",
+      "t_start": 102.4,
+      "t_end": 317.7
+    },
+    {
+      "title": "Guest introduction: Steven Henders and reporting background",
+      "t_start": 317.7,
+      "t_end": 448.3
+    },
+    {
+      "title": "Business Central adoption and training needs",
+      "t_start": 448.3,
+      "t_end": 534.2
+    },
+    {
+      "title": "Training strategy and real-life case-based learning",
+      "t_start": 534.2,
+      "t_end": 683.3
+    },
+    {
+      "title": "Training timing and specialized functional learning",
+      "t_start": 683.3,
+      "t_end": 888
+    },
+    {
+      "title": "Avoiding unnecessary customizations through early training",
+      "t_start": 888,
+      "t_end": 1026.9
+    },
+    {
+      "title": "Training methods and mix of learning approaches",
+      "t_start": 1026.9,
+      "t_end": 1148.2
+    },
+    {
+      "title": "Continuous learning and ongoing training strategies",
+      "t_start": 1148.2,
+      "t_end": 1287.9
+    },
+    {
+      "title": "Documentation and standard operating procedures",
+      "t_start": 1287.9,
+      "t_end": 1374.6
+    },
+    {
+      "title": "Evolution of reporting technologies in Business Central",
+      "t_start": 1374.6,
+      "t_end": 1538.6
+    },
+    {
+      "title": "Requirements-driven approach to reporting solutions",
+      "t_start": 1538.6,
+      "t_end": 1679
+    },
+    {
+      "title": "Choosing the right reporting tool",
+      "t_start": 1679,
+      "t_end": 1743.9
+    },
+    {
+      "title": "Report types and when to use them",
+      "t_start": 1743.9,
+      "t_end": 1830.1
+    },
+    {
+      "title": "PowerBI data modeling and visualizations",
+      "t_start": 1830.1,
+      "t_end": 1931.4
+    },
+    {
+      "title": "Query APIs and embedding PowerBI in Business Central",
+      "t_start": 1931.4,
+      "t_end": 2058.8
+    },
+    {
+      "title": "Data integration from multiple systems",
+      "t_start": 2058.8,
+      "t_end": 2187.7
+    },
+    {
+      "title": "PowerBI reports, dashboards, and refresh rates",
+      "t_start": 2187.7,
+      "t_end": 2315.3
+    },
+    {
+      "title": "PowerBI scorecards and historical tracking",
+      "t_start": 2315.3,
+      "t_end": 2400.8
+    },
+    {
+      "title": "Need for real-world use cases and story-driven education",
+      "t_start": 2400.8,
+      "t_end": 2485
+    },
+    {
+      "title": "Story-driven sessions and practical examples",
+      "t_start": 2485,
+      "t_end": 2631.4
+    },
+    {
+      "title": "Report layout evolution: RDLC, Word, and Excel",
+      "t_start": 2631.4,
+      "t_end": 2760.9
+    },
+    {
+      "title": "Layout capabilities and RDLC phase-out strategy",
+      "t_start": 2760.9,
+      "t_end": 2895
+    },
+    {
+      "title": "Out-of-box report layouts and US check formatting",
+      "t_start": 2895,
+      "t_end": 3043.2
+    },
+    {
+      "title": "Preparing for RDLC retirement and future outlook",
+      "t_start": 3043.2,
+      "t_end": 3201
+    }
+  ],
+  "features": [
+    {
+      "name": "Multiple report layouts",
+      "description": "Business Central supports various report layout options including Word, Excel, RDL, and built-in financial reports for different reporting needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.6,
+      "t_end": 1475.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "layouts",
+        "rdl",
+        "word",
+        "excel"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis views on list pages",
+      "description": "Built-in analysis functionality on list pages that allows users to create aggregated views and drill-down analysis, enabling end users to create analyses themselves without Power BI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.6,
+      "t_end": 1606.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires explanation to end users on how to use",
+        "can only have one favorite feature by definition"
+      ],
+      "tags": [
+        "reporting",
+        "analysis",
+        "views",
+        "list pages",
+        "self-service",
+        "pivot table functionality"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "RDLC reports and layouts",
+      "description": "RDLC reports provide precise page positioning for document printing and support conditional formatting and expressions, but are outdated technology with no official support since 2016 and are being phased out.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.5,
+      "t_end": 2760.9,
+      "is_demoed": false,
+      "caveats": [
+        "no official support since 2016",
+        "being phased out",
+        "old technology"
+      ],
+      "tags": [
+        "reporting",
+        "rdlc",
+        "layouts",
+        "legacy",
+        "document design"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PowerBI integration and reporting",
+      "description": "PowerBI has become a major reporting capability in Business Central, allowing users to build data models, embed reports and dashboards directly within the client, and create interactive visualizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 416.6,
+      "t_end": 2187.7,
+      "is_demoed": false,
+      "caveats": [
+        "requires separate PowerBI license",
+        "data is snapshot at time of refresh"
+      ],
+      "tags": [
+        "reporting",
+        "powerbi",
+        "dashboards",
+        "visualization",
+        "data modeling"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Case-based training methodology",
+      "description": "A training approach that uses real-life business scenarios and customer use cases as the foundation for learning Business Central, combining technical, functional and development training.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591.3,
+      "t_end": 671,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "case-based",
+        "user adoption",
+        "implementation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Learning journey structure",
+      "description": "A structured learning path that adapts based on user experience level and learning preference type, incorporating boosters, expert sessions, and classical trainings delivered through a learning management system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591.3,
+      "t_end": 1069,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "learning management",
+        "implementation",
+        "lms"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Continuous learning subscription",
+      "description": "A fixed-fee subscription model that provides ongoing access to all training content without per-training charges, allowing users to learn continuously as the product evolves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1183.7,
+      "t_end": 1221,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "subscriptions",
+        "continuous learning"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Training boosters",
+      "description": "Learning management system-based training content focused on specific functionalities such as development and warehouse management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 982.7,
+      "t_end": 1011.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "learning management",
+        "boosters"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Expert sessions for training",
+      "description": "Instructor-led webinar training sessions of one to two hours with subject matter experts covering specific topics followed by Q&A.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 995,
+      "t_end": 1026.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "expert sessions",
+        "webinars"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "PowerBI Data Modeling",
+      "description": "The ability to build data models in PowerBI by importing data from Business Central tables and other data sources, which can then be shared and connected to by other tools including Excel.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1830.1,
+      "t_end": 1931.4,
+      "is_demoed": false,
+      "caveats": [
+        "requires separate PowerBI license",
+        "data is snapshot at time of refresh"
+      ],
+      "tags": [
+        "powerbi",
+        "data modeling",
+        "multi-source data",
+        "excel connection"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Query APIs for PowerBI",
+      "description": "Query objects that can pre-aggregate data and be used by PowerBI to fetch data from Business Central, also discoverable and openable in analysis mode directly from the Business Central client.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1914.6,
+      "t_end": 1946.4,
+      "is_demoed": false,
+      "caveats": [
+        "speaker expresses preference for query APIs over page APIs"
+      ],
+      "tags": [
+        "query apis",
+        "data aggregation",
+        "powerbi integration",
+        "analysis mode"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "PowerBI Embedded in Business Central",
+      "description": "The ability to embed PowerBI views, reports, dashboards, and scorecards directly within the Business Central client to give users dashboard capability and data manipulation access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1959.7,
+      "t_end": 2058.8,
+      "is_demoed": false,
+      "caveats": [
+        "requires PowerBI service subscription"
+      ],
+      "tags": [
+        "powerbi",
+        "embedding",
+        "dashboards",
+        "in-application analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PowerBI Multi-System Data Integration",
+      "description": "Capability to connect PowerBI data models to multiple systems including Business Central and external systems, combine their data, and create visualizations across all data sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2127.5,
+      "t_end": 2187.7,
+      "is_demoed": false,
+      "caveats": [
+        "requires appropriate connectors for external systems"
+      ],
+      "tags": [
+        "powerbi",
+        "multi-system",
+        "data integration",
+        "legacy data",
+        "migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PowerBI Dashboards",
+      "description": "A collection of visuals from one or multiple PowerBI reports that provides a helicopter view on data, clickable to navigate to source report pages, refreshable on schedule.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2230.7,
+      "t_end": 2315.3,
+      "is_demoed": false,
+      "caveats": [
+        "refresh rates depend on license",
+        "shows current data at time of refresh"
+      ],
+      "tags": [
+        "powerbi",
+        "dashboards",
+        "data visualization",
+        "interactive reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PowerBI Scorecards",
+      "description": "Capability to take snapshots of metrics and KPIs on a schedule, track them over time, and visualize their evolution with charts or conditional formatting to show if on or below target.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2315.3,
+      "t_end": 2400.8,
+      "is_demoed": false,
+      "caveats": [
+        "snapshots taken per schedule",
+        "useful for vendor and customer scorecards"
+      ],
+      "tags": [
+        "powerbi",
+        "scorecards",
+        "metrics",
+        "kpis",
+        "historical tracking"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Scorecards with conditional formatting",
+      "description": "Scorecards allow visualization of current and historical data with conditional formatting to show whether metrics are on target or below target, embeddable back into Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2351.1,
+      "t_end": 2377,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "scorecards",
+        "conditional formatting",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PowerBI snapshots for tracking over time",
+      "description": "Using PowerBI and snapshots to track vendor and customer scorecard information over time outside of historical Business Central documents, enabling tracking of transactional data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2362.9,
+      "t_end": 2413.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires Power BI",
+        "separate from Business Central documents"
+      ],
+      "tags": [
+        "powerbi",
+        "snapshots",
+        "scorecards",
+        "tracking"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Co-pilot",
+      "description": "Ability to export data from analysis mode to Excel and use Excel co-pilot to generate additional components and analysis for reporting purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1596.6,
+      "t_end": 1627,
+      "is_demoed": true,
+      "caveats": [
+        "requires Excel with co-pilot capability"
+      ],
+      "tags": [
+        "excel",
+        "copilot",
+        "ad hoc reporting",
+        "data export"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Object with Multiple Layouts",
+      "description": "Business Central reports that support RDLC, Word, and Excel layouts for document-style output such as sales invoices, sales orders, and packing slips.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1743.9,
+      "t_end": 1816.8,
+      "is_demoed": false,
+      "caveats": [
+        "document-oriented, best for printed output"
+      ],
+      "tags": [
+        "reports",
+        "rdlc",
+        "word",
+        "excel",
+        "document layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word report layouts",
+      "description": "Word layouts were introduced as an easier alternative to RDLC for users to create report layouts. A Word Central addin is being developed to add functionality like conditional visibility and blank zero capabilities that were available in RDLC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2798.6,
+      "t_end": 2850.2,
+      "is_demoed": false,
+      "caveats": [
+        "currently more difficult for conditional formatting and visibility",
+        "functionality still being added to addin"
+      ],
+      "tags": [
+        "word layouts",
+        "word addin",
+        "conditional formatting",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel report layouts",
+      "description": "Excel layouts are used for reports that summarize data and need to be analyzed further, as an alternative to RDLC and Word layouts. Out-of-box reports now include Excel layouts alongside Word layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2662.5,
+      "t_end": 2921.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel layouts",
+        "reporting",
+        "summarization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word Central addin for report layouts",
+      "description": "Microsoft is developing a Word Central addin that adds functionality to Word layouts, including blank zero capability and eventually conditional visibility and conditional formatting to match RDLC capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2817.8,
+      "t_end": 2870.3,
+      "is_demoed": false,
+      "caveats": [
+        "still in development",
+        "not yet feature-complete vs RDLC"
+      ],
+      "tags": [
+        "word addin",
+        "conditional formatting",
+        "blank zero"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "RDLC phase-out for standard reports",
+      "description": "Microsoft is phasing out RDLC layouts in Business Central, moving standard out-of-box reports to Word or Excel layouts starting in version 27 and continuing through version 28. RDLC will be retained only for reports where it is difficult to replace, such as US check reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2881.9,
+      "t_end": 3043.2,
+      "is_demoed": false,
+      "caveats": [
+        "US check reports will likely remain RDLC",
+        "some legacy reports may retain RDLC"
+      ],
+      "tags": [
+        "rdlc",
+        "phase-out",
+        "word layouts",
+        "excel layouts"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "report objects",
+      "t": 416.6
+    },
+    {
+      "type": "other",
+      "name": "RDL layouts",
+      "t": 416.6
+    },
+    {
+      "type": "report",
+      "name": "RDLC reports",
+      "t": 1438.2
+    },
+    {
+      "type": "other",
+      "name": "report object",
+      "t": 1438.2
+    },
+    {
+      "type": "other",
+      "name": "analysis views on list pages",
+      "t": 1475.7
+    },
+    {
+      "type": "table",
+      "name": "item ledger entry",
+      "t": 1988.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Chris",
+      "confidence": "high"
+    },
+    {
+      "name": "Brad",
+      "confidence": "high"
+    },
+    {
+      "name": "Steven Henders",
+      "confidence": "high"
+    },
+    {
+      "name": "Stephen",
+      "confidence": "high"
+    },
+    {
+      "name": "Bernie",
+      "confidence": "medium"
+    },
+    {
+      "name": "Steven",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 416.6,
+      "text": "it's been uh PowerBI and also all of the new bells and whistles that we almost see in the in the product quite a",
+      "why_it_matters": "Indicates PowerBI has become the primary modern reporting approach in Business Central with continued new features being added",
+      "check": "exact"
+    },
+    {
+      "t": 478.7,
+      "text": "business central they announced uh during the keynotes at the conferences that business central I think is over 55,000 implementations now",
+      "why_it_matters": "Establishes the scale of Business Central adoption and indicates significant market growth requiring training and support",
+      "check": "exact"
+    },
+    {
+      "t": 591.3,
+      "text": "training isn't only about um transferring knowledge and skills but also making it really applicable in in the real world",
+      "why_it_matters": "Describes a philosophy shift in training methodology from generic knowledge transfer to practical, business-relevant learning",
+      "check": "exact"
+    },
+    {
+      "t": 631.8,
+      "text": "more than 50% assignments within also the solution and help of the instructor of support afterwards",
+      "why_it_matters": "Indicates that practical, hands-on work is the majority of structured training rather than passive content consumption",
+      "check": "exact"
+    },
+    {
+      "t": 782.9,
+      "text": "it's part of the the project the project plan but usually it comes right before or right after the the go live",
+      "why_it_matters": "Establishes that training is often scheduled late in implementations, before or after go-live, which is a critical timing issue.",
+      "check": "exact"
+    },
+    {
+      "t": 793.9,
+      "text": "you should start with training in the analysis phase and when you're doing the the gap fit or the fit gap analysis",
+      "why_it_matters": "Recommends starting user training early in the implementation lifecycle during requirements analysis rather than before go-live",
+      "check": "exact"
+    },
+    {
+      "t": 920.2,
+      "text": "he started with just with with some training in the application and after a couple of weeks of training the person realized well actually",
+      "why_it_matters": "Demonstrates that early training can identify built-in functionality and prevent unnecessary custom development, saving cost and effort.",
+      "check": "exact"
+    },
+    {
+      "t": 982.7,
+      "text": "We try to have a um a mix of different uh uh trainings. So we have our uh learning management system based trainings. We",
+      "why_it_matters": "Describes the multi-modal training approach used in implementations, including boosters and other structured content.",
+      "check": "exact"
+    },
+    {
+      "t": 1205.4,
+      "text": "for a fixed fee you get access to to do everything. You don't have to pay per training everything is in there.",
+      "why_it_matters": "Explains the subscription model for continuous learning offerings, showing commitment to ongoing education.",
+      "check": "exact"
+    },
+    {
+      "t": 1475.7,
+      "text": "now the question is actually uh completely turned around in in in the past you would simply say okay what's the data that you",
+      "why_it_matters": "Marks a fundamental shift in reporting approach from technology-first to requirements-first methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 1538.6,
+      "text": "the analysis model on on list pages uh which end users key users can if you explain how that works can already create uh",
+      "why_it_matters": "Shows that analysis mode is being adopted in real customer scenarios, enabling self-service analytics without specialized tools.",
+      "check": "exact"
+    },
+    {
+      "t": 1596.6,
+      "text": "you can export into Excel, right? when you export to Excel and you have all the data points already and maybe just a quick",
+      "why_it_matters": "Demonstrates the integration of analysis mode with Excel Copilot for enhanced ad hoc reporting capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1658.8,
+      "text": "it doesn't really matter in terms of the tool uh in this sense it's really of understanding the requirements and then trying to figure",
+      "why_it_matters": "Reinforces the principle that requirements-driven decisions should guide tool selection rather than defaulting to specific technologies.",
+      "check": "exact"
+    },
+    {
+      "t": 1679,
+      "text": "I've started to come to the point and I've been saying the analysis mode is my favorite feature that's been added to Business Central",
+      "why_it_matters": "Establishes analysis mode as a standout feature valued by practitioners, indicating its maturity and adoption in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1830.1,
+      "text": "PowerBI also has two different aspects. uh you have the the all of the visuals uh that you create in a bore via report",
+      "why_it_matters": "Clarifies the architecture and flexibility of PowerBI reporting, showing the progression from reports to dashboards to scorecards.",
+      "check": "exact"
+    },
+    {
+      "t": 1855.6,
+      "text": "when you start building a power via reports you first model uh the data which might be coming from different uh data uh of",
+      "why_it_matters": "Demonstrates PowerBI's capability to consolidate data from multiple sources, critical for organizations with legacy systems.",
+      "check": "exact"
+    },
+    {
+      "t": 1914.6,
+      "text": "could also be page APIs I I prefer query APIs because they can pre-agregate uh the data and by simply ...",
+      "why_it_matters": "Indicates the performance advantages of query APIs over page APIs for data aggregation in PowerBI scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2153.5,
+      "text": "PowerBI can get its data from business central and or also connect to other systems that you are using import that data too in",
+      "why_it_matters": "Establishes PowerBI as a solution for multi-system data consolidation, important for migrations and implementations with external systems.",
+      "check": "exact"
+    },
+    {
+      "t": 2270.4,
+      "text": "depending on the license that you have once per day, eight times per day and 48 times per uh per day and you're looking",
+      "why_it_matters": "Specifies refresh rate limits based on PowerBI licensing, a key constraint for real-time reporting scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2315.3,
+      "text": "we call it a scorecard in uh PowerBI to take kind of a snapshot of a metric today next day after that day after",
+      "why_it_matters": "Explains the unique capability of scorecards to track metric changes over time, addressing a common implementation requirement.",
+      "check": "exact"
+    },
+    {
+      "t": 2351.1,
+      "text": "That's something you can visualize in a scorecard on a little chart or or with some conditional formatting if you are on target below",
+      "why_it_matters": "Explains key scorecard capability for tracking metrics with visual indicators of performance status.",
+      "check": "exact"
+    },
+    {
+      "t": 2389.1,
+      "text": "utilizing PowerBI and the snapshots, yeah, you can track information over time outside of just the historical documents that are within Business Central.",
+      "why_it_matters": "Describes how PowerBI snapshots enable tracking transactional data and vendor/customer metrics beyond standard Business Central records.",
+      "check": "exact"
+    },
+    {
+      "t": 2737.8,
+      "text": "there wasn't much official support for it anymore. So we're using kind of old technology. It still works, but there isn't good support for",
+      "why_it_matters": "Establishes that RDLC has lacked official support since 2016, justifying the need to phase it out.",
+      "check": "exact"
+    },
+    {
+      "t": 2798.6,
+      "text": "The word layout was introduced as an alternative and because it's easier for for users to use to create a layout",
+      "why_it_matters": "Explains the primary design goal of Word layouts as a more accessible alternative to RDLC for end users.",
+      "check": "exact"
+    },
+    {
+      "t": 2850.2,
+      "text": "I think in the future more and more of that functionality will be added into that addin. uh like for example conditional visibility, conditional",
+      "why_it_matters": "Indicates roadmap for Word addin to gain capabilities that will make it feature-parity with RDLC, enabling full migration.",
+      "check": "exact"
+    },
+    {
+      "t": 2881.9,
+      "text": "is something that will be obsoleted at some point and i think microsoft is already starting with that with a lot of the",
+      "why_it_matters": "Confirms Microsoft's strategic plan to deprecate RDLC as outdated technology.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2905.4,
+      "text": "taking version 28 and already starting in in version 27 um with almost all of the out of the box reboards from from the",
+      "why_it_matters": "Specifies timeline for out-of-box report layout changes: version 27-28 include Word and Excel layouts alongside RDLC.",
+      "check": "exact"
+    },
+    {
+      "t": 2941.6,
+      "text": "RDLC is slowly going to be uh phased out except for those reports where it's going to be really difficult and especially for example",
+      "why_it_matters": "Identifies the exception case where RDLC will be retained: US check report formatting due to banking requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1723.7,
+      "kind": "preview",
+      "text": "develop analysis views or or modes that you can uh include in extensions that you develop which is almost like ..."
+    },
+    {
+      "t": 2737.8,
+      "kind": "subject-to-change",
+      "text": "RDLC has no official support since 2016 and is being phased out"
+    },
+    {
+      "t": 2830.2,
+      "kind": "coming-later",
+      "text": "Word addin will get more functionality including conditional visibility and conditional formatting"
+    },
+    {
+      "t": 2881.9,
+      "kind": "coming-later",
+      "text": "RDLC will be obsoleted at some point"
+    },
+    {
+      "t": 2905.4,
+      "kind": "coming-later",
+      "text": "Out-of-box reports in version 27-28 are being moved to Word and Excel layouts instead of RDLC"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 28,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 23
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

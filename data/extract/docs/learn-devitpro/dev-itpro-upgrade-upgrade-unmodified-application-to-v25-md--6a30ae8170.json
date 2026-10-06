@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v25.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v25",
+  "title": "Upgrading Microsoft System and Base Application to Version 25",
+  "blob": "fca5703ec69fcd9e40587086f33c19ea43371918",
+  "summary": "Upgrading Microsoft System and Base Application to Business Central version 25 involves converting the database, publishing extensions, syncing tenants, and upgrading data. Follow these detailed steps for versions 15 through 24.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "v25",
+    "database-conversion",
+    "extensions",
+    "powershell"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "System Application"
+    },
+    {
+      "type": "table",
+      "name": "Business Foundation"
+    },
+    {
+      "type": "table",
+      "name": "Base Application"
+    },
+    {
+      "type": "table",
+      "name": "Application"
+    }
+  ],
+  "features": [
+    "Application database conversion",
+    "Extension publishing",
+    "Tenant synchronization",
+    "Data upgrade",
+    "Permission sets upgrade",
+    "License import"
+  ],
+  "versions": [
+    "version 25",
+    "2024 release wave 1",
+    "version 24",
+    "2023 release wave 2",
+    "version 23",
+    "2023 release wave 1",
+    "version 22",
+    "2022 release wave 2",
+    "version 21",
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006414,
+      "pages_in_call": 8
+    }
+  ]
+}

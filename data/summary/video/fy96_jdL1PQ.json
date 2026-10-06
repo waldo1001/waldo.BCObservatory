@@ -1,0 +1,28 @@
+{
+  "video_id": "fy96_jdL1PQ",
+  "item_id": "video/yt-dynamicscorner/fy96_jdL1PQ",
+  "summary": "Business Central reporting options discussed on Dynamics Corner episode 520: analysis mode, Power BI (data models, dashboards, scorecards), and Word, Excel and RDLC layouts. It also covers case-based training and the planned RDLC phase-out for standard reports in versions 27 and 28.",
+  "overview": "The episode is a conversation with guest Steven Henders. It starts with training for Business Central: case-based learning, starting training in the analysis or fit-gap phase, a mix of learning methods, and a fixed-fee continuous learning subscription.\n\nThe second half covers reporting. It begins with choosing a tool from the requirements, then analysis mode on list pages, Excel export with Copilot, and Power BI data models, query APIs, embedding, dashboards and scorecards. It ends with report layouts: RDLC, Word and Excel, the Word add-in under development, and the move of standard reports away from RDLC.",
+  "key_points": [
+    "Choose a reporting tool from the requirements first; the speaker says the tool matters less than understanding what is needed.",
+    "Analysis mode on list pages lets key users and end users build aggregated views and drill down without Power BI, but users need to be shown how to use it.",
+    "Power BI needs a separate license. Data is a snapshot at refresh time, and refresh rates (once, 8 or 48 times per day) depend on the license.",
+    "For Power BI data, the speaker prefers query APIs over page APIs because queries can pre-aggregate data.",
+    "Power BI scorecards take scheduled snapshots of metrics to track them over time, for example vendor and customer scorecards, with conditional formatting against targets.",
+    "RDLC has had no official support since 2016. Microsoft is moving standard out-of-box reports to Word or Excel layouts starting in version 27 and continuing in 28. US check reports will likely stay RDLC.",
+    "Word layouts are easier to create than RDLC but are weaker on conditional visibility and formatting. A Word add-in in development is meant to close that gap."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "bc4aa7b50a28c0f258490abbfcfac1a8d0620bd435ba828125036bab0f4c568e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0285544
+  }
+}

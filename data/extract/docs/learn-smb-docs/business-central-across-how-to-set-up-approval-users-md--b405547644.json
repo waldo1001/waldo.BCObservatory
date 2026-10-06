@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-set-up-approval-users.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-approval-users",
+  "title": "Set up approval users",
+  "blob": "1b1cd97a474eb303c224e58c27686f31e55264d8",
+  "summary": "Setting up approval users defines who can approve requests with amount limits, substitute approvers, and email notifications. Configure the Approval User Setup page to enable approval workflows.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "approval",
+    "workflows",
+    "users",
+    "authorization",
+    "substitutes",
+    "notifications"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Workflow User Group"
+    }
+  ],
+  "features": [
+    "Approval user setup",
+    "Amount approval limits",
+    "Substitute approvers",
+    "Approval administrator",
+    "Email notifications",
+    "Workflow user groups"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006414,
+      "pages_in_call": 8
+    }
+  ]
+}
