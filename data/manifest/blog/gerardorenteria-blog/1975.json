@@ -7,7 +7,7 @@
   "url": "https://gerardorenteria.blog/2026/07/06/docker-versiones/",
   "published_at": "2026-07-06T19:41:14.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -15,5 +15,8 @@
   },
   "input_hash": "2026-07-07T20:59:05.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "skip": "no-content",
+  "skipped_at": "2026-10-06T21:53:59.453Z",
+  "retry_after": null
 }

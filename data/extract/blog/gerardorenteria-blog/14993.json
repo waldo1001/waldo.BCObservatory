@@ -1,0 +1,108 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14993",
+  "url": "https://gerardorenteria.blog/2026/07/10/%f0%9f%a7%ad-page-explorer-for-business-central-everything-a-page-hides-in-plain-sight/",
+  "title": "🧭 Page Explorer for Business Central: everything a page hides, in plain sight",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-07-10T21:24:23.000Z",
+  "words": 1154,
+  "summary": "Page Explorer is an AL extension that displays all fields and actions available on a Business Central page in a single window, showing their current values, descriptions, and tooltips. It uses the native Page Summary Provider codeunit to parse page metadata and helps users understand page structure and available options.",
+  "key_points": [
+    "Displays fields with current values and descriptions, plus available actions with tooltips in a side-by-side interface",
+    "Built on Page Summary Provider codeunit and Page Action table 2000000143 included in Business Central",
+    "Provides a 'With Value Only' filter to show only populated fields and a debug view showing raw JSON",
+    "Extended via pageextensions that add a Page Explorer button to any page by passing the page ID and record SystemId",
+    "Includes pre-built extensions for Customer Card, Vendor Card, Item Card, and Sales Order pages"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page explorer",
+    "field inspection",
+    "action discovery",
+    "page metadata",
+    "user interface",
+    "debugging",
+    "al extension"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRGPELine"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGPEBuilder"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGPEJSONRenderer"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPEMain"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPEFieldsPart"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPEActionsPart"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPERawJSON"
+    },
+    {
+      "type": "enum",
+      "name": "GDRGPELineType"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPECustCardExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPEVendCardExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPEItemCardExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPESalesOrderExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPESalesOrderSubExt"
+    }
+  ],
+  "features": [
+    "page field explorer",
+    "action viewer",
+    "page metadata inspection",
+    "field value filtering",
+    "json debugging view",
+    "promoted action highlighting",
+    "page summary provider integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0087,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The pattern is always the same: a pageextension that adds the action in processing and passes the corresponding Page:: together with the record's SystemId.",
+      "why_it_matters": "Shows the reusable pattern that makes the extension easily extensible to any page without duplicating core logic."
+    }
+  ]
+}

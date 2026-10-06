@@ -7,13 +7,39 @@
   "url": "https://tine.staric.net/blog/2026/agent-plugins/",
   "published_at": "2026-07-03T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:07.678Z",
+      "path": "vault:posts/tine-staric-net/https-tine-staric-net-blog-2026-agent-plugins--3332e8b779.md",
+      "words": 1523
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:16.729Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007281
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:16.730Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:16.731Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:16.735Z",
+      "path": "content/posts/tine-staric-net/https-tine-staric-net-blog-2026-agent-plugins--3332e8b779.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5c32a1b729da319e0e95440f9a92007549a89a9e271f176739ab4598d97439dc"
 }

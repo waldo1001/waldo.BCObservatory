@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/07/10/push-documents-from-business-central-to-sftp-via-power-automate/",
   "published_at": "2026-07-10T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:53:30.540Z",
+      "path": "vault:posts/aardvarklabs-blog/3704.md",
+      "words": 1425
+    },
+    "extracted": {
+      "at": "2026-10-06T21:53:45.887Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.020525
+    },
+    "summarized": {
+      "at": "2026-10-06T21:53:45.888Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:53:45.889Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:53:45.893Z",
+      "path": "content/posts/aardvarklabs-blog/3704.md"
     }
   },
   "input_hash": "2026-07-07T23:50:41.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a38d8836451662a0ce71f8c99f6742c2e2b3853af75ef58d4e01cc9e20d32170"
 }

@@ -1,0 +1,28 @@
+{
+  "video_id": "NwMLT-k6J6Q",
+  "item_id": "video/yt-microsoft/NwMLT-k6J6Q",
+  "summary": "Partner-driven onboarding in Business Central (2023 release wave 2): questionnaire-based trial personalization, onboarding checklists, assisted setup, spotlight tours, teaching tips, and the onboarding sample app on GitHub. Useful as evidence for how partners build customer-centric trial and go-live experiences.",
+  "overview": "The session presents a vision in which any customer can find, explore and start using Business Central plus add-on apps by themselves, and in which prospects are matched with the right partner and solution from day one. It describes a partner-driven workflow: a questionnaire on the partner's website profiles the prospect, the answers are stored in a system table in Business Central, and the trial is created with the standard trial plus the partner's AppSource app and its dependencies.\n\nThe demos cover the building blocks of the experience: a custom role center, a welcome banner, an onboarding checklist, assisted setup filtered to a custom category, just-in-time data loading, Excel spotlight tours, Excel report layouts, teaching tips on report request pages, and analysis mode. The session also gives design guidance for trial versus go-live checklists, points to the onboarding sample app on GitHub, and recommends Application Insights for telemetry.",
+  "key_points": [
+    "Questionnaire answers from a partner website are stored in a system table in Business Central, available before sign-in, so apps can change the experience based on the prospect profile.",
+    "The trial is built as the standard trial plus the partner's AppSource app and dependencies. The partner configures which apps load for which profile combinations.",
+    "Checklists are designed for five to seven items. Users can navigate freely and skip tasks, so order is not guaranteed. If there are more items, wrap them up in an assisted setup.",
+    "Trial and evaluation checklists should be short, low-friction and show minute indicators. Go-live checklists should be role-oriented, preconfigured as far as possible and free of irrelevant tasks.",
+    "Assisted setup can be opened filtered to a custom category by calling the open assisted setup function from a guide experience item.",
+    "Teaching tips should focus on about three key elements with brief text. They support markdown and links, and they cannot prescribe business processes.",
+    "Spotlight tours currently focus on Teams and Excel features. The onboarding sample app on GitHub can be forked as a starting template."
+  ],
+  "audience": [
+    "partner",
+    "developer",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "3bfe6f8a71dc3de29ce4476f006467c618bdea95d03b0d14052d3eb46c4b3c05",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0303664
+  }
+}

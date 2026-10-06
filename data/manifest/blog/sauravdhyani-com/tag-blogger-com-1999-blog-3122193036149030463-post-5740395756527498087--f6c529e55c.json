@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/07/business-central-2026-release-wave-1.html",
   "published_at": "2026-07-07T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:53:53.548Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md",
+      "words": 664
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:02.577Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006675
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:02.578Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:02.579Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:02.582Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md"
     }
   },
   "input_hash": "2026-07-07T05:30:00.120Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6941878f6468ebd73b0ec5d29b2eea27b04edf7dbb9305a922f7e3ee25134d8"
 }

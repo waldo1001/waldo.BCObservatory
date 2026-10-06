@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/",
+  "url": "https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/",
+  "title": "Weekly Review: Business Central AL Development – June 28–July 4, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-07-06T13:00:00.000Z",
+  "words": 648,
+  "summary": "This weekly review curates Business Central AL development posts from June 28 - July 4, 2026, covering page background tasks, item attribute visibility, agentic development practices, and standardized AI scaffolding for development teams.",
+  "key_points": [
+    "PageBackgroundTask offers an AL-native alternative to JavaScript timers for page behavior needing timed refreshes or background polling without control add-ins",
+    "Teams can standardize AI-assisted AL development by packaging guidelines, agents, and skillsets into tooling like VS Code extensions versus having developers assemble their own",
+    "AI-generated code shifts development from complete code specification to code as one artifact produced from prompts, specs, tests, and feedback loops requiring clear acceptance criteria",
+    "Item Attributes Factbox (page 9110) can be reused on Item Ledger Entries pages using SubPageLink patterns and LoadItemAttributesData method calls"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "al development",
+    "page background tasks",
+    "item attributes",
+    "agentic development",
+    "ai-assisted workflows",
+    "vs code",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "9110"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "PageBackgroundTask"
+    }
+  ],
+  "features": [
+    "PageBackgroundTask",
+    "Item Attributes Factbox",
+    "Page extensions",
+    "Agentic development",
+    "AI-assisted code generation",
+    "VS Code tooling"
+  ],
+  "versions": [
+    "June 28–July 4, 2026"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00612,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The shift from code as the only complete specification to code as one artifact produced from prompts, specs, tests, and feedback loops.",
+      "why_it_matters": "Reframes how developers should approach AI-generated code by emphasizing intent definition and acceptance criteria over line-by-line review"
+    }
+  ]
+}

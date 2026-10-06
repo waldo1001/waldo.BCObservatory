@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/agent-plugins/",
+  "url": "https://tine.staric.net/blog/2026/agent-plugins/",
+  "title": "Distributing Agents with Plugins",
+  "source": "tine-staric-net",
+  "published_at": "2026-07-03T08:00:00.000Z",
+  "words": 1523,
+  "summary": "Distribution of custom agents to teams is accomplished through plugins, which package agents, skills, and MCP configurations in a shared repository that team members can install with one click in GitHub Copilot or Claude Code. The post explains how to set up marketplace and plugin manifests to enable seamless sharing across ecosystems without manual file copying.",
+  "key_points": [
+    "Plugins enable one-click installation of agents and skills for entire teams without manual setup or file copying",
+    "A single plugin repository works for both GitHub Copilot and Claude Code using shared agents/ and skills/ folders",
+    "Marketplace manifests (.github/plugin/marketplace.json and .claude-plugin/marketplace.json) turn a repository into a discoverable plugin source",
+    "Plugin manifests and directory structure are minimal, requiring only metadata files and standard folder naming conventions",
+    "Teams can register plugin repositories in editor settings and receive updates automatically without reinstalling plugins"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "agents",
+    "plugins",
+    "distribution",
+    "copilot",
+    "claude code",
+    "skills",
+    "packaging",
+    "vs code"
+  ],
+  "objects": [],
+  "features": [
+    "plugin marketplace installation",
+    "agent distribution",
+    "skill sharing",
+    "MCP configuration sharing",
+    "cross-ecosystem plugin support",
+    "automatic plugin updates"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007281,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The exact same plugin repo works for both GitHub Copilot and Claude Code. One repo, two ecosystems.",
+      "why_it_matters": "Demonstrates the efficiency of plugin-based distribution, eliminating the need to maintain separate repositories for different tools"
+    }
+  ]
+}

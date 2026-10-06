@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3704",
+  "url": "https://aardvarklabs.blog/2026/07/10/push-documents-from-business-central-to-sftp-via-power-automate/",
+  "title": "Push Documents from Business Central to SFTP via Power Automate",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-07-10T12:00:00.000Z",
+  "words": 1425,
+  "summary": "This post demonstrates how to push a Sales Invoice PDF from Business Central to an SFTP site whenever an invoice is posted, using a staging table, a custom codeunit that subscribes to posting events, and a Power Automate workflow to handle the file transfer and status updates.",
+  "key_points": [
+    "A staging table (ARD_PAFTPSend) stores invoice files as blobs and tracks whether they have been sent to SFTP",
+    "The codeunit subscribes to the OnAfterPostSalesDoc event, generates the invoice as a PDF, and fires a business event when ready",
+    "Report parameters are extracted as XML and parameterized to enable dynamic report generation with the invoice number",
+    "Power Automate listens for the business event, retrieves the file and metadata from the staging table, uploads to SFTP, and updates the staging record",
+    "The pattern supports retries, failed transfers can be retried by re-firing the business event, and alternative endpoints like SharePoint or network storage can replace SFTP"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "power automate",
+    "sftp",
+    "business events",
+    "document handling",
+    "blob storage",
+    "api pages"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_PAFTPSend"
+    },
+    {
+      "type": "page",
+      "name": "ARD_PAFileStaging"
+    },
+    {
+      "type": "api",
+      "name": "ARD_PAFileStagingAPI"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_PAFTPSend"
+    },
+    {
+      "type": "other",
+      "name": "ARD_ReportLayouts"
+    }
+  ],
+  "features": [
+    "staging table for file uploads",
+    "business events",
+    "Power Automate integration",
+    "API pages",
+    "report parameter extraction",
+    "blob field storage",
+    "file status tracking",
+    "retry capability"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.020525,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "For this to work neatly and allow for retries and other advanced management tools we are going to start with a staging table.",
+      "why_it_matters": "Explains the architectural choice to use an intermediate table, providing resilience and visibility into the transfer process rather than direct posting."
+    }
+  ]
+}

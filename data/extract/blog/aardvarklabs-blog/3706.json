@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3706",
+  "url": "https://aardvarklabs.blog/2026/07/03/troubleshooting-al-extension-in-vs-code-phantom-errors/",
+  "title": "Troubleshooting AL Extension in VS Code: Phantom Errors",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-07-03T12:00:00.000Z",
+  "words": 138,
+  "summary": "Resolving phantom AL extension errors in VS Code where tables appear marked as missing permission sets despite successful compilation. The issue occurs because file updates are only processed when the AL extension starts, and can be fixed by restarting the extension host.",
+  "key_points": [
+    "Red error markers on tables claiming missing permission sets despite successful compilation indicate phantom errors",
+    "Dependency updates or permission set changes may not be recognized until the AL extension restarts",
+    "Restarting the AL extension via Developer: Restart Extension Host or closing and reopening VS Code resolves the issue"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al extension",
+    "vs code",
+    "troubleshooting",
+    "permission sets",
+    "phantom errors",
+    "compilation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Permission set file"
+    }
+  ],
+  "features": [
+    "AL Extension error checking",
+    "Permission set validation",
+    "Dependency verification",
+    "VS Code extension restart"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004395,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The issue is that some of the files and associated errors are only handled when the AL Extension starts.",
+      "why_it_matters": "Explains the root cause of phantom errors appearing after dependency or permission updates"
+    },
+    {
+      "text": "To resolve this issue, you could close and reopen VS Code, or you could press CTRL SHIFT P and select \"Developer: Restart Extension Host\"",
+      "why_it_matters": "Provides the direct solution that developers can use to clear false error states"
+    }
+  ]
+}

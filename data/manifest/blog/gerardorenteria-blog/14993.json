@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/07/10/%f0%9f%a7%ad-page-explorer-for-business-central-everything-a-page-hides-in-plain-sight/",
   "published_at": "2026-07-10T21:24:23.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:53:20.236Z",
+      "path": "vault:posts/gerardorenteria-blog/14993.md",
+      "words": 1154
+    },
+    "extracted": {
+      "at": "2026-10-06T21:53:30.089Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.0087
+    },
+    "summarized": {
+      "at": "2026-10-06T21:53:30.090Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:53:30.091Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:53:30.094Z",
+      "path": "content/posts/gerardorenteria-blog/14993.md"
     }
   },
   "input_hash": "2026-07-10T21:28:34.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a448cbb3090c7fc6e6d272937802740cda355900c2cb2215ab2acc0607e0bf34"
 }

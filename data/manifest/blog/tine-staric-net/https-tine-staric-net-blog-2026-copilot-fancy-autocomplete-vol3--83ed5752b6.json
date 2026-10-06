@@ -7,13 +7,39 @@
   "url": "https://tine.staric.net/blog/2026/copilot-fancy-autocomplete-vol3/",
   "published_at": "2026-07-01T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:09.679Z",
+      "path": "vault:posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-fancy-autocomplete-vol3--83ed5752b6.md",
+      "words": 2972
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:20.928Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.015713
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:20.930Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:20.931Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:20.947Z",
+      "path": "content/posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-fancy-autocomplete-vol3--83ed5752b6.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae5d67e51a19b14ab5a5bd115816c184b70ef3ab2f1579c9b29d2bf0e753ca47"
 }
