@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "462523db0769be3dbd16695db9dcc8b22a7cfead",
       "words": 173,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:13.487Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002467
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:13.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:13.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:13.496Z",
+      "page": false
     }
   },
   "input_hash": "462523db0769be3dbd16695db9dcc8b22a7cfead",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -41,7 +60,7 @@
     "ai_usage": null,
     "words": 173
   },
-  "last_error": "git cat-file -p 462523db0769be3dbd16695db9dcc8b22a7cfead failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 462523db0769be3dbd16695db9dcc8b22a7cfead from promisor ",
-  "retry_after": "2026-10-06T21:04:47.531Z",
-  "output_hash": "462523db0769be3dbd16695db9dcc8b22a7cfead"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c8ac4bcd182790638729b00d6cc31d0e1c1513a7c9cbcedefbfcc7d35434a99"
 }

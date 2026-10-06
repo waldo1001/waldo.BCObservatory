@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815",
+  "url": "https://www.sauravdhyani.com/2026/10/evolve-al-interfaces-with-default.html",
+  "title": "Evolve AL Interfaces with Default Implementations in Business Central 29.0",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-01T05:30:00.000Z",
+  "words": 1045,
+  "summary": "Business Central 29.0 introduces default method implementations for AL interfaces, allowing interface contracts to evolve without immediately breaking existing implementations. The feature works with RequiredPending and analyzer rules to create a staged migration path where interface authors can add new methods with fallback behavior and gradually require explicit implementations over time.",
+  "key_points": [
+    "Interfaces can now provide default method bodies, preventing immediate breaking changes when new methods are added",
+    "RequiredPending and analyzer rules enable a staged migration where implementations gradually shift from using defaults to providing explicit implementations",
+    "This feature reduces impact on extension ecosystems where many independent implementations depend on shared interfaces",
+    "Default implementations should only be used when a sensible fallback behavior exists, not to avoid implementation requirements",
+    "Interface evolution can now separate concerns between backward compatibility and controlled contract strengthening"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "al interfaces",
+    "default implementations",
+    "interface evolution",
+    "backward compatibility",
+    "api versioning",
+    "migration strategy"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "INotification"
+    }
+  ],
+  "features": [
+    "Default method implementations",
+    "RequiredPending attribute",
+    "Analyzer rules for interface migration",
+    "Interface contract evolution",
+    "Staged interface versioning"
+  ],
+  "versions": [
+    "Business Central 29.0",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006374,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "With a default implementation, the interface method can contain a method body that provides fallback behavior.",
+      "why_it_matters": "Explains the core mechanism that enables backward compatibility when interfaces evolve"
+    },
+    {
+      "text": "Default implementations reduce that immediate blast radius. They are especially useful when an interface is consumed by many implementations.",
+      "why_it_matters": "Clarifies the key benefit for extension ecosystems with distributed implementations across teams"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-performance-to-budget.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget",
+  "title": "Project Performance to Budget (Power BI Report)",
+  "blob": "462523db0769be3dbd16695db9dcc8b22a7cfead",
+  "summary": "The Project Performance to Budget Power BI report helps project managers compare budget and usage costs for each project to keep projects under budget.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "project management",
+    "budget tracking",
+    "kpis",
+    "analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    }
+  ],
+  "features": [
+    "Project Performance to Budget report",
+    "Completed %",
+    "Invoiced %",
+    "Total Usage Cost",
+    "Total Budget Cost",
+    "Total Cost Variance to Budget"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002467,
+      "pages_in_call": 7
+    }
+  ]
+}

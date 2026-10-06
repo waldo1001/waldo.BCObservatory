@@ -1,0 +1,376 @@
+{
+  "video_id": "_OClSlushOU",
+  "item_id": "video/yt-microsoft/_OClSlushOU",
+  "title": "Work Seamlessly with Microsoft Outlook, Excel, and Teams",
+  "duration_s": 513,
+  "systems": [
+    "crm",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "teams integration",
+    "outlook integration",
+    "excel integration",
+    "contact insights",
+    "read-only access",
+    "power automate",
+    "microsoft 365 interoperability",
+    "quote management",
+    "word templates"
+  ],
+  "chapters": [
+    {
+      "title": "Customer service collaboration with Teams",
+      "t_start": 0,
+      "t_end": 120.8
+    },
+    {
+      "title": "Mobile and cross-platform accessibility",
+      "t_start": 120.8,
+      "t_end": 163
+    },
+    {
+      "title": "Sales order scenario and credit limit approval workflow",
+      "t_start": 163,
+      "t_end": 346.2
+    },
+    {
+      "title": "Business data collaboration benefits",
+      "t_start": 346.2,
+      "t_end": 362.6
+    },
+    {
+      "title": "Quote creation and template management in Outlook",
+      "t_start": 362.6,
+      "t_end": 471.5
+    },
+    {
+      "title": "Summary and collaborative applications value",
+      "t_start": 471.5,
+      "t_end": 513
+    }
+  ],
+  "features": [
+    {
+      "name": "Contact Insights function",
+      "description": "Allows seamless movement from email to customer records to review orders and add senders to contacts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.1,
+      "t_end": 35.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "outlook integration",
+        "customer management",
+        "contact management"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Business Central records in Teams chat links",
+      "description": "Users can paste links to customer cards and product information into Teams chat for team members to access and drill down into details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.7,
+      "t_end": 73,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teams integration",
+        "collaboration",
+        "record sharing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Read-only access through Microsoft 365 account",
+      "description": "Non-licensed users can view Business Central records through read-only access via their Microsoft 365 account without requiring a Business Central license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.6,
+      "t_end": 103.1,
+      "is_demoed": true,
+      "caveats": [
+        "read-only access only",
+        "requires Microsoft 365 account"
+      ],
+      "tags": [
+        "licensing",
+        "access control",
+        "collaboration",
+        "microsoft 365"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Sales order modification and credit limit notifications",
+      "description": "Users can open and modify sales orders, receiving real-time notifications when changes exceed customer credit limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175,
+      "t_end": 188.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales orders",
+        "credit management",
+        "notifications"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Power Automate escalation workflow",
+      "description": "Automation created with Microsoft Power Automate that creates a new collaborative Teams space with a single click to facilitate group chat flow for issue escalation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 216.3,
+      "t_end": 250.7,
+      "is_demoed": true,
+      "caveats": [
+        "requires Power Automate setup"
+      ],
+      "tags": [
+        "power automate",
+        "workflow automation",
+        "teams integration",
+        "escalation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business data tabs in Teams chat",
+      "description": "Users can add tabs to Teams chat that display Business Central data such as customer invoices and payments, providing contextual business information during collaboration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 280.6,
+      "t_end": 285.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teams integration",
+        "collaboration",
+        "data visibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Export to Excel for analysis",
+      "description": "Users can export customer payment lists and other data to Microsoft Excel for detailed analysis and historical review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 320,
+      "t_end": 325,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel integration",
+        "data analysis",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Business Central in Outlook",
+      "description": "Gabe can access customer records, purchase history, billing history, payment information and account balance directly from Outlook for reference during email communication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 376.5,
+      "t_end": 381.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "outlook integration",
+        "customer insights",
+        "sales information"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Item discounts in Excel",
+      "description": "Users can open the list of item discounts in Excel and copy special prices and discounts between customers, with edits saved back to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.8,
+      "t_end": 406.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel integration",
+        "pricing",
+        "discounts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Email attachment linking to customer records",
+      "description": "Users can link important email attachments directly to customer records in Business Central from Outlook, making information accessible to coworkers in the sales cycle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 406.9,
+      "t_end": 411.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "outlook integration",
+        "attachment management",
+        "customer records"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Quote composition with email detection",
+      "description": "Users can quickly compose quotes from Outlook based on products that are automatically detected in the customer's email.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 427,
+      "t_end": 432,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "outlook integration",
+        "quote management",
+        "sales automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Export quote layout to Word",
+      "description": "Users can export quote PDF layouts to Microsoft Word, modify the templates, save them back to Business Central, and share them with the team.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 447.7,
+      "t_end": 460.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word integration",
+        "quote templates",
+        "document management"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Share link functionality for templates",
+      "description": "Users can share links to updated templates and documents with coworkers for team review and awareness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 460.1,
+      "t_end": 471.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "collaboration",
+        "document sharing",
+        "team communication"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Adisa",
+      "confidence": "high"
+    },
+    {
+      "name": "Gabe",
+      "confidence": "high"
+    },
+    {
+      "name": "Philip",
+      "confidence": "high"
+    },
+    {
+      "name": "Tamara",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.1,
+      "text": "Using the Business Central Contact Insights function, she can seamlessly move from the email to the customer's record to review their order.",
+      "why_it_matters": "Demonstrates the core capability enabling fast access to customer data directly from Outlook without switching contexts.",
+      "check": "exact"
+    },
+    {
+      "t": 103.1,
+      "text": "Philip is granted read-only access through his Microsoft 365 account, making interdepartmental collaboration easier and faster than ever.",
+      "why_it_matters": "Shows that non-licensed users can access Business Central data, expanding collaboration reach without additional licensing costs.",
+      "check": "exact"
+    },
+    {
+      "t": 188.4,
+      "text": "But when he tries to save the order, he gets a notification informing him that increasing the quantity will push the total cost beyond",
+      "why_it_matters": "Illustrates automated validation and risk management built into order modification workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 216.3,
+      "text": "Since his team used Microsoft Power Automate to create a special new escalation space, the series of steps Gabe uses in this type of",
+      "why_it_matters": "Shows how Power Automate integration enables custom workflow automation within Business Central and Teams.",
+      "check": "exact"
+    },
+    {
+      "t": 320,
+      "text": "She quickly exports a list of customer payments to Microsoft Excel so she can easily analyze the account history.",
+      "why_it_matters": "Demonstrates Excel integration enabling detailed financial analysis of customer data for decision-making.",
+      "check": "exact"
+    },
+    {
+      "t": 376.5,
+      "text": "Using Business Central in Outlook, Gabe brings up the customer's record for easy reference, giving him valuable insights about the customer's purchase and billing",
+      "why_it_matters": "Shows Outlook integration provides comprehensive customer context during email workflows without leaving the email client.",
+      "check": "exact"
+    },
+    {
+      "t": 447.7,
+      "text": "He clicks export layout to Microsoft Word and makes the changes. In Word, Gabe modifies the template that Business Central uses to create the",
+      "why_it_matters": "Demonstrates Word integration for modifying document templates, allowing teams to customize quote presentations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027302
+    }
+  ]
+}

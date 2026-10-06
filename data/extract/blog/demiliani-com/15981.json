@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/demiliani-com/15981",
+  "url": "https://demiliani.com/2026/09/30/dynamics-365-business-central-data-mirroring-to-microsoft-fabric-announced/",
+  "title": "Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-30T05:17:46.000Z",
+  "words": 879,
+  "summary": "Microsoft announced data mirroring for Dynamics 365 Business Central to Microsoft Fabric, enabling customers to replicate any Business Central table into Fabric for BI and reporting without using APIs. The feature requires BC 2026 release wave 2, has no cost on the BC side, and requires Fabric F2 or higher capacity.",
+  "key_points": [
+    "Data mirroring replicates Business Central tables across companies into Fabric's OneLake for unified analytics without consuming API limits",
+    "Setup involves creating a Fabric mirroring database, pointing Business Central at it, and selecting companies and tables to mirror with all fields included",
+    "Mirroring has few-minute latency, automatically scales compute, supports deletes, and covers all AL tables in the SQL database",
+    "Fabric capacity costs apply on the customer side; F2 is recommended as the starting point for production Business Central projects",
+    "F0 SKU provides pay-per-use on-demand billing for proofs of concept without upfront capacity reservation"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "data mirroring",
+    "microsoft fabric",
+    "business intelligence",
+    "power bi",
+    "analytics",
+    "data replication",
+    "onelake"
+  ],
+  "objects": [],
+  "features": [
+    "Data mirroring to Microsoft Fabric",
+    "OneLake integration",
+    "Power BI reporting",
+    "Cross-company table replication",
+    "Real-time analytics",
+    "Data warehouse capabilities"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005601,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Once Business Central data lives in OneLake, reporting, analytics and AI can all build on the same foundation.",
+      "why_it_matters": "Explains the core value proposition of mirroring - unified data foundation for all analytical workloads without data duplication"
+    },
+    {
+      "text": "Mirroring relies on an internal replication service rather than the Business Central APIs, so it doesn't consume or affect your API limits.",
+      "why_it_matters": "Critical for customers with high API usage as mirroring provides a scalable alternative that doesn't impact API quotas"
+    }
+  ]
+}

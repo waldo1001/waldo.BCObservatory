@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards",
+  "title": "Creating cash account cards in Russia",
+  "blob": "37133948cce4c721b836e9aec9c629dd8e33beb7",
+  "summary": "Creating cash account cards in Russian localization with currency codes, cash order numbering, and VAT percentage configuration.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "cash accounts",
+    "russian localization",
+    "petty cash",
+    "bank management",
+    "account setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Account Card"
+    }
+  ],
+  "features": [
+    "Cash account creation",
+    "Currency code",
+    "Cash order numbering",
+    "VAT percentage",
+    "Debit/Credit cash orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002467,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-find-your-warehouse-assignments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "1d21ba1baabaec3300f5a924854c913912ce5c4c",
       "words": 229,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:13.490Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002467
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:37.565Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:37.566Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:37.567Z",
+      "page": false
     }
   },
   "input_hash": "1d21ba1baabaec3300f5a924854c913912ce5c4c",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -39,7 +58,7 @@
     "ai_usage": null,
     "words": 229
   },
-  "last_error": "git cat-file -p 1d21ba1baabaec3300f5a924854c913912ce5c4c failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 1d21ba1baabaec3300f5a924854c913912ce5c4c from promisor ",
-  "retry_after": "2026-10-06T21:11:50.302Z",
-  "output_hash": "1d21ba1baabaec3300f5a924854c913912ce5c4c"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "669f4d6d2d704ffd90c625b4490ec0a919a87b9bd260f00312b5f6dfda912d87"
 }

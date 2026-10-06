@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/09/30/native-connection-with-fabric-in-business-central/",
   "published_at": "2026-09-30T13:45:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:27:23.170Z",
+      "path": "vault:posts/bertverbeek-nl/1318.md",
+      "words": 511
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:31.884Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.00595
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:31.885Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:31.886Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:31.890Z",
+      "path": "content/posts/bertverbeek-nl/1318.md"
     }
   },
   "input_hash": "2026-10-01T08:29:04.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8364a58730967a79daa767d94d8944d0d00295e0decd6726ab41d6579726fbdd"
 }

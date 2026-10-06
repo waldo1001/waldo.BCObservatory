@@ -1,0 +1,27 @@
+{
+  "video_id": "-uAvdZAWWwI",
+  "item_id": "video/yt-microsoft/-uAvdZAWWwI",
+  "summary": "Transferring Business Central environments between Microsoft Entra tenants through the tenant admin center: how to start a transfer in the source tenant, cancel pending ones, accept in the destination tenant, and the requirements (permissions, license, quota, timing limits).",
+  "overview": "The video shows how customers and partners move a Business Central environment from one Entra tenant to another using the tenant admin center. Use cases are organizations merging or acquiring each other, and partners handing demo environments to prospective customers.\n\nThe demo follows the process from initiating the transfer in the source tenant, through checking pending outgoing transfers on the environment operations page, to accepting the transfer in the destination tenant and verifying the incoming transfer. It closes with requirements and audit capabilities.",
+  "key_points": [
+    "Environment transfers between Entra tenants are done in the tenant admin center.",
+    "A transfer can be scheduled at most 2 weeks (14 days) into the future.",
+    "The destination tenant must accept the transfer within 8 hours of the request.",
+    "Only internal administrators can request and accept transfers.",
+    "The destination tenant needs a paid Business Central license and available environment quota.",
+    "The environment operations page in the source tenant shows destination tenant ID, status and expected execution time; pending outgoing transfers can be cancelled there with the cancel transfers button.",
+    "Transfers are auditable in the source tenant, the destination tenant and in environment telemetry."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "5b76b11c0bf0725cd7815092ba8dbb3afc0a8f2c865f1ec6f581348bf4fccd36",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011726399999999998
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "4358bcad056b2091ff340951d945a8ba32eec46d",
       "words": 246,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:13.494Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002467
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:40.349Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:40.350Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:40.351Z",
+      "page": false
     }
   },
   "input_hash": "4358bcad056b2091ff340951d945a8ba32eec46d",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -42,7 +61,7 @@
     "ai_usage": null,
     "words": 246
   },
-  "last_error": "git cat-file -p 4358bcad056b2091ff340951d945a8ba32eec46d failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 4358bcad056b2091ff340951d945a8ba32eec46d from promisor ",
-  "retry_after": "2026-10-06T21:15:27.644Z",
-  "output_hash": "4358bcad056b2091ff340951d945a8ba32eec46d"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c5d3fcb599919188b643d1a500ce2ea2ea5af9537d5b799ea0664b1dcadaf8b9"
 }

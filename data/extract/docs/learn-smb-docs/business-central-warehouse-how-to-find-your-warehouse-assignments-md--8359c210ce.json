@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-find-your-warehouse-assignments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-find-your-warehouse-assignments",
+  "title": "Find Your Warehouse Assignments",
+  "blob": "1d21ba1baabaec3300f5a924854c913912ce5c4c",
+  "summary": "Finding warehouse assignments involves opening item cards or warehouse put-away/pick/movement pages, filtering by location and assigned user ID.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse management",
+    "assignments",
+    "warehouse picks",
+    "put-aways",
+    "movements"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Put-aways"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Picks"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Movement"
+    }
+  ],
+  "features": [
+    "Warehouse assignments",
+    "User ID assignment",
+    "Take and Place lines",
+    "Location sorting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002467,
+      "pages_in_call": 7
+    }
+  ]
+}

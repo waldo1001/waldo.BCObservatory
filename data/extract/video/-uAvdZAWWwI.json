@@ -1,0 +1,206 @@
+{
+  "video_id": "-uAvdZAWWwI",
+  "item_id": "video/yt-microsoft/-uAvdZAWWwI",
+  "title": "Transfer Environments",
+  "duration_s": 298,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment transfers",
+    "tenant admin center",
+    "entra tenant consolidation",
+    "environment operations",
+    "scheduling transfers",
+    "environment quota"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to environment transfers",
+      "t_start": 0,
+      "t_end": 32.9
+    },
+    {
+      "title": "Initiating transfer from source tenant",
+      "t_start": 32.9,
+      "t_end": 96.6
+    },
+    {
+      "title": "Verifying pending outgoing transfers",
+      "t_start": 96.6,
+      "t_end": 152.3
+    },
+    {
+      "title": "Accepting transfer in destination tenant",
+      "t_start": 152.3,
+      "t_end": 217.5
+    },
+    {
+      "title": "Verifying accepted incoming transfers",
+      "t_start": 217.5,
+      "t_end": 237.5
+    },
+    {
+      "title": "Requirements and audit capabilities",
+      "t_start": 237.5,
+      "t_end": 298
+    }
+  ],
+  "features": [
+    {
+      "name": "Environment transfers between Entra tenants",
+      "description": "Customers and partners can transfer Business Central environments between different Microsoft Entra tenants through the tenant admin center, enabling consolidation of multiple tenants or transfer of demo environments to prospective customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.5,
+      "t_end": 96.6,
+      "is_demoed": true,
+      "caveats": [
+        "Can be scheduled up to 14 days in the future",
+        "Destination tenant must accept transfer within 8 hours of request",
+        "Requires internal administrator permissions",
+        "Destination tenant must have paid Business Central license and available environment quota"
+      ],
+      "tags": [
+        "environment management",
+        "tenant consolidation",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Transfer scheduling",
+      "description": "Administrators can schedule environment transfers to run in the future, with scheduling available up to 2 weeks from the current date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.2,
+      "t_end": 87.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "future transfers"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Pending transfer cancellation",
+      "description": "Source tenant administrators can cancel pending outgoing transfers before they execute by selecting transfers and clicking the cancel transfers button.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 108.1,
+      "t_end": 122.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cancellation",
+        "pending transfers"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment operations page",
+      "description": "The environment operations page in the source tenant admin center displays transfer requests with details including destination tenant ID, status, and expected execution time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.5,
+      "t_end": 152.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "operations page",
+        "transfer status",
+        "verification"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Transfer audit trail",
+      "description": "Transfer operations are auditable in both the source and destination tenants as well as in environment telemetry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.2,
+      "t_end": 289.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "auditing",
+        "telemetry",
+        "compliance"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "tenant admin center",
+      "t": 4.5
+    },
+    {
+      "type": "page",
+      "name": "environment operations",
+      "t": 122.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 4.5,
+      "text": "Transferring environments between different Entra tenants can now be done through the tenant admin center.",
+      "why_it_matters": "Establishes that environment transfers between Entra tenants is a now available capability in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 17.5,
+      "text": "When organizations are merging with one another or acquiring each other. Additionally, partners can use this feature if they prepare demo environments in their",
+      "why_it_matters": "Describes key use cases driving the feature: M&A activities and partner demo environment transfers.",
+      "check": "exact"
+    },
+    {
+      "t": 76.5,
+      "text": "The transfer can run at most 2 weeks into the future.",
+      "why_it_matters": "Specifies a concrete constraint on how far in advance transfers can be scheduled.",
+      "check": "exact"
+    },
+    {
+      "t": 248.4,
+      "text": "Environment transfers can only be requested and accepted by internal administrators. Once a transfer has been started from the source tenant, the request has",
+      "why_it_matters": "Establishes key security requirement and critical time window for transfer acceptance.",
+      "check": "exact"
+    },
+    {
+      "t": 262.4,
+      "text": "The destination tenant must have a paid Business Central license and should ensure to have available environment quota.",
+      "why_it_matters": "Lists licensing and capacity requirements for receiving transferred environments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013049999999999999
+    }
+  ]
+}

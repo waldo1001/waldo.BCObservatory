@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "Work Seamlessly with Microsoft Outlook, Excel, and Teams",
   "url": "https://www.youtube.com/watch?v=_OClSlushOU",
-  "published_at": null,
+  "published_at": "2024-02-06T11:09:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:26:58.348Z",
+      "captions": "auto:en-orig",
+      "duration_s": 513
+    },
+    "captioned": {
+      "at": "2026-10-06T21:27:04.330Z",
+      "path": "data/captions/microsoft/_OClSlushOU.vtt",
+      "vtt_sha256": "1b82f03ec4e2c9d56f43573f6935d7997bfd799d0184581fb44dafd1537269b9",
+      "segments": 36,
+      "words": 1258,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:36.410Z",
+      "path": "data/extract/video/_OClSlushOU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 13,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.027302
     }
   },
   "input_hash": null,
@@ -20,6 +47,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 464,
     "duration_s": 513,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "312c3dd0e3a66f9bf6640f73d736d9922106d992db45cb73763c3b4901bd1f3e"
 }

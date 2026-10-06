@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "37133948cce4c721b836e9aec9c629dd8e33beb7",
       "words": 186,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:13.492Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002467
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:37.568Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:37.569Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:37.570Z",
+      "page": false
     }
   },
   "input_hash": "37133948cce4c721b836e9aec9c629dd8e33beb7",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -38,7 +57,7 @@
     "ai_usage": null,
     "words": 186
   },
-  "last_error": "git cat-file -p 37133948cce4c721b836e9aec9c629dd8e33beb7 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 37133948cce4c721b836e9aec9c629dd8e33beb7 from promisor ",
-  "retry_after": "2026-10-06T21:13:55.576Z",
-  "output_hash": "37133948cce4c721b836e9aec9c629dd8e33beb7"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "721b64b125044e4adca53782d88a267f825a6042aa0d80b6e2b516708afaf397"
 }

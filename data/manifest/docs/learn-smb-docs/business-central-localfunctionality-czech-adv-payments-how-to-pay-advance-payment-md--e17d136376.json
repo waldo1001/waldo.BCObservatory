@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-pay-advance-payment",
   "published_at": "2025-09-18T07:41:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "194e8192d477f9ba12c122a9c64aecd4db001f79",
       "words": 385,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:13.488Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002467
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:37.552Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:37.554Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:27:37.556Z",
+      "page": false
     }
   },
   "input_hash": "194e8192d477f9ba12c122a9c64aecd4db001f79",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -37,7 +56,7 @@
     "ai_usage": null,
     "words": 385
   },
-  "last_error": "git cat-file -p 194e8192d477f9ba12c122a9c64aecd4db001f79 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 194e8192d477f9ba12c122a9c64aecd4db001f79 from promisor ",
-  "retry_after": "2026-10-06T21:04:53.237Z",
-  "output_hash": "194e8192d477f9ba12c122a9c64aecd4db001f79"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1a6cea640d1b8b28701f4b1bab026e53bb562684304df3de646e1c32764ebc8"
 }

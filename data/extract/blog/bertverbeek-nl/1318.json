@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/bertverbeek-nl/1318",
+  "url": "https://www.bertverbeek.nl/blog/2026/09/30/native-connection-with-fabric-in-business-central/",
+  "title": "Native connection with Fabric in Business Central",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-09-30T13:45:42.000Z",
+  "words": 511,
+  "summary": "Business Central introduces native integration with Microsoft Fabric for data synchronization, replacing the need for APIs or bc2adls tools. The sync operates directly from the SQL database using change logs, supporting all tables with minute-level latency and no impact on Business Central performance.",
+  "key_points": [
+    "Native Fabric integration uses Open Mirroring technology and syncs from SQL change logs, not APIs or external tools",
+    "Sync has no NST impact, supports deletions, and delivers data within minutes with automatic retries",
+    "Setup and management available through Business Central UI and fully via APIs for selecting companies, tables, and triggering exports",
+    "Both environments must be in the same tenant; Fabric SKU license (F2 or higher) required; up to 500 tables can be selected",
+    "bc2adls transitions to maintenance mode; Fabric integration becomes the recommended export method for Business Central data"
+  ],
+  "systems": [
+    "integration",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "fabric integration",
+    "data sync",
+    "cloud analytics",
+    "open mirroring",
+    "change logs",
+    "data export",
+    "business central modernization"
+  ],
+  "objects": [],
+  "features": [
+    "Native Fabric connection",
+    "Open Mirroring technology",
+    "Change log-based sync",
+    "Deletion support",
+    "Table selection and filtering",
+    "API-based management",
+    "Company selection",
+    "Log table support"
+  ],
+  "versions": [
+    "BC29",
+    "BC30",
+    "BC31"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00595,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "No API calls or endpoints needed. No bc2adls is needed. No impact on the NST.",
+      "why_it_matters": "Establishes the core advantages: simplified architecture without external tools and no performance degradation"
+    }
+  ]
+}
