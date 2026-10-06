@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
       "words": 154,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:10.594Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002263
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:10.604Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:10.605Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:10.606Z",
+      "page": false
     }
   },
   "input_hash": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -40,7 +59,7 @@
     "ai_usage": null,
     "words": 154
   },
-  "last_error": "git cat-file -p be40aa81b0fa15eec54a9d4869301f4619f573ea failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch be40aa81b0fa15eec54a9d4869301f4619f573ea from promisor ",
-  "retry_after": "2026-10-06T21:18:35.295Z",
-  "output_hash": "be40aa81b0fa15eec54a9d4869301f4619f573ea"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba3f6dce5da8bc0025cfd5c41bcd9a03167a96c220a5a38115fd658aa43fbe6c"
 }

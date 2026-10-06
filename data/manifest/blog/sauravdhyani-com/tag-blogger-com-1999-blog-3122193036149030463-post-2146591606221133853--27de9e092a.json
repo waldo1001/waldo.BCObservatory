@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/new-moduleinfo-properties-in-business.html",
   "published_at": "2026-10-02T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:40:30.235Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md",
+      "words": 954
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:42.334Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006752
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:42.335Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:42.336Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:42.341Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md"
     }
   },
   "input_hash": "2026-10-02T05:30:00.127Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec40c8d50e7b7f65e841d3bf8da9cf0909b46f0e6f0f283a23f80a954900e1b1"
 }

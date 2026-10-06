@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/kauffmann-nl/8436",
+  "url": "https://www.kauffmann.nl/2026/03/13/designing-agents-for-business-central/",
+  "title": "Designing Agents for Business Central",
+  "source": "kauffmann-nl",
+  "published_at": "2026-03-13T22:39:05.000Z",
+  "words": 960,
+  "summary": "The Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions, not a low-code deployment platform. Production agents require manual conversion to AL code by exporting the agent XML configuration, creating an AL project with the Agent template, and either following the README instructions or using a coding agent to accelerate the customization process.",
+  "key_points": [
+    "The Agent Design Experience is a design and testing tool, not a production-ready deployment platform for low-code agents",
+    "The tool allows writing, testing, refining instructions, simulating triggers, monitoring steps, testing permissions, and reviewing AI credit consumption in a sandbox",
+    "Converting a designed agent to production requires exporting the agent XML, creating a new AL project from the Agent template, and customizing the code",
+    "Coding agents can accelerate the conversion process by analyzing the exported XML and generating production-ready AL code, reducing manual conversion time to minutes",
+    "The Agent Designer Experience app adds edit and export actions that become disabled once published to production; production apps need custom edit instructions pages for uniform user experience"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent design",
+    "agent designer",
+    "ai agents",
+    "proof of concept",
+    "production conversion",
+    "al code",
+    "business central agents"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Card"
+    },
+    {
+      "type": "other",
+      "name": "Agent Design Experience"
+    }
+  ],
+  "features": [
+    "agent instruction design",
+    "sandbox simulation",
+    "task monitoring",
+    "human-in-the-loop review",
+    "permission testing",
+    "AI credit monitoring",
+    "agent export",
+    "proof of concept agent"
+  ],
+  "versions": [
+    "27.4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This new agent designer should be used as a toolbox to simulate an agent. You can write, test, and refine the instructions",
+      "why_it_matters": "Clarifies the core purpose of the tool is simulation and refinement, not production deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007196,
+    "posts_in_call": 4
+  }
+}

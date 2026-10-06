@@ -7,7 +7,7 @@
   "url": "https://waldo.be/2026/01/27/escape-room-app-gone-public/",
   "published_at": "2026-01-27T21:41:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T23:40:23.987Z",
       "path": "vault:posts/waldo-be/318498.md",
       "words": 448
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:57.135Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007196
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:57.138Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:57.139Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:57.144Z",
+      "path": "content/posts/waldo-be/318498.md"
     }
   },
   "input_hash": "2026-01-27T21:41:52.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f5f276eef06456c42aa6b7854c6d4680ea171352032d3bb43fc9b65d01548c85"
+  "output_hash": "4f084bb2dc6367209e6eea01bf401c0dcbd1bdc8f0047c6b08843d38eedc3523"
 }

@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2146591606221133853",
+  "url": "https://www.sauravdhyani.com/2026/09/new-moduleinfo-properties-in-business.html",
+  "title": "New ModuleInfo Properties in Business Central 29",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-02T05:30:00.000Z",
+  "words": 954,
+  "summary": "Business Central 29 adds four new ModuleInfo properties (Help, EULA, PrivacyStatement, ContextSensitiveHelpUrl) that let AL developers retrieve application manifest metadata programmatically. These properties require runtime 18.0 or later and help extensions avoid duplicating configuration URLs in code.",
+  "key_points": [
+    "Four new ModuleInfo properties retrieve Help links, EULA, privacy statements, and localized context-sensitive Help URLs directly from application metadata",
+    "Use NavApp.GetCurrentModuleInfo() to populate a ModuleInfo variable and access the new properties",
+    "ContextSensitiveHelpUrl automatically resolves the user's locale from supported application locales",
+    "Runtime version 18.0 or later is required to use these new properties"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "moduleinfo",
+    "application metadata",
+    "extensions",
+    "help documentation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ModuleInfo"
+    },
+    {
+      "type": "other",
+      "name": "NavApp"
+    }
+  ],
+  "features": [
+    "ModuleInfo Help property",
+    "ModuleInfo EULA property",
+    "ModuleInfo PrivacyStatement property",
+    "ModuleInfo ContextSensitiveHelpUrl property",
+    "NavApp.GetCurrentModuleInfo()",
+    "Localized help URL resolution",
+    "Application metadata access"
+  ],
+  "versions": [
+    "Business Central 29",
+    "runtime 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new ModuleInfo properties provide a programmatic way to retrieve that metadata.",
+      "why_it_matters": "Explains the core capability and benefit of accessing application manifest data directly in AL code instead of duplicating configuration values"
+    },
+    {
+      "text": "ContextSensitiveHelpUrl returns the context-sensitive Help URL with the user's locale resolved from the application's supported locales.",
+      "why_it_matters": "Highlights the localization-aware feature that automatically adapts help documentation URLs based on user locale settings"
+    },
+    {
+      "text": "The new properties require runtime version 18.0 or later.",
+      "why_it_matters": "Establishes the version compatibility requirement that developers must consider when adopting these new properties"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006752,
+    "posts_in_call": 1
+  }
+}

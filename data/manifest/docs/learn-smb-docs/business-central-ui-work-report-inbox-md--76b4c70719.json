@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4",
       "words": 504,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:13.943Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003005
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:13.975Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:13.977Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:13.985Z",
+      "page": false
     }
   },
   "input_hash": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -52,7 +71,7 @@
     "ai_usage": null,
     "words": 504
   },
-  "last_error": "git cat-file -p 198ce286e1d2ac1b5b277454ba6b3739d2b274f4 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 198ce286e1d2ac1b5b277454ba6b3739d2b274f4 from promisor ",
-  "retry_after": "2026-10-06T21:27:33.092Z",
-  "output_hash": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "454b7264f55306e2b96192f76fce36377646f7d70a843e5518012de0a089cdca"
 }

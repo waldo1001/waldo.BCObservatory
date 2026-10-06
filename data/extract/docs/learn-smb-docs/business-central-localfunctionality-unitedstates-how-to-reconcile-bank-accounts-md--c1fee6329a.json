@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts",
+  "title": "Reconciling Bank Accounts [US]",
+  "blob": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
+  "summary": "Reconciling bank accounts in the US version uses the standard bank reconciliation process, with deprecated North American-specific features moved to the standard version in 2023 release wave 2.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "united states",
+    "deposits",
+    "bank statements",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliations"
+    },
+    {
+      "type": "page",
+      "name": "Bank Rec. Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "report",
+      "name": "Bank Rec. Test Report"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account – Reconcile"
+    }
+  ],
+  "features": [
+    "bank reconciliation",
+    "deposit management",
+    "bank statement reconciliation",
+    "reconciliation posting",
+    "test reports"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003005,
+      "pages_in_call": 8
+    }
+  ]
+}

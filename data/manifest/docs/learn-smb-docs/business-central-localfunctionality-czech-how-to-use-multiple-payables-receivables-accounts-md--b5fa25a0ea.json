@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "d41b771d16ba72fed86f7125e8ed451e081c7ad1",
       "words": 90,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:10.598Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002263
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:10.612Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:10.613Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:10.614Z",
+      "page": false
     }
   },
   "input_hash": "d41b771d16ba72fed86f7125e8ed451e081c7ad1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -38,7 +57,7 @@
     "ai_usage": null,
     "words": 90
   },
-  "last_error": "git cat-file -p d41b771d16ba72fed86f7125e8ed451e081c7ad1 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch d41b771d16ba72fed86f7125e8ed451e081c7ad1 from promisor ",
-  "retry_after": "2026-10-06T21:22:50.079Z",
-  "output_hash": "d41b771d16ba72fed86f7125e8ed451e081c7ad1"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b200e06c8380ba3614e25b9d6c7737cc4d94c2936f591260cb362d0fbcd9e0d8"
 }

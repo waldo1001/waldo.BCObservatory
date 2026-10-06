@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
+  "title": "Czech local functionality - Multiple payables/receivables accounts",
+  "blob": "d41b771d16ba72fed86f7125e8ed451e081c7ad1",
+  "summary": "Multiple payables/receivables accounts in Czech localization allows users to change Customer and Vendor posting groups during transaction posting to record bad debt and other receivable/payable transactions in different GL accounts than specified in posting groups.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "czech localization",
+    "payables",
+    "receivables",
+    "posting groups",
+    "customer",
+    "vendor"
+  ],
+  "objects": [],
+  "features": [
+    "multiple payables accounts",
+    "multiple receivables accounts",
+    "posting group override",
+    "bad debt posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002263,
+      "pages_in_call": 8
+    }
+  ]
+}

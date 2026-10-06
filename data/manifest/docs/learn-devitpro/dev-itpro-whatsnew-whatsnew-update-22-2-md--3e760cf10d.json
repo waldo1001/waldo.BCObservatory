@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-2",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "e7ccfab7a622f330dc7c8a71221f0b7c8d8f52ee",
       "words": 569,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:13.938Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003005
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:13.951Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:13.952Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:13.954Z",
+      "page": false
     }
   },
   "input_hash": "e7ccfab7a622f330dc7c8a71221f0b7c8d8f52ee",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -33,7 +52,7 @@
     "ai_usage": null,
     "words": 569
   },
-  "last_error": "git cat-file -p e7ccfab7a622f330dc7c8a71221f0b7c8d8f52ee failed: fatal: You are attempting to fetch cb233a9a87b9b4340b3a593b27f884c24f208fc6, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch e7ccfab7a622f330dc7c8a71221f0b7c8d8f52ee from promisor ",
-  "retry_after": "2026-10-06T21:21:26.282Z",
-  "output_hash": "e7ccfab7a622f330dc7c8a71221f0b7c8d8f52ee"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00d7df6f5b2b2d59a593f1a13ad4943186c949d0143b44ed46e42d06780bf0a1"
 }

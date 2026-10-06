@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-create-proposals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals",
+  "title": "How to Create Proposals",
+  "blob": "ec99775bfc43ebd3a3f9419f57d863c668190b2d",
+  "summary": "Create Proposals in the Netherlands localization describes how to generate payment and collection proposals manually or automatically from vendor and customer ledger entries.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "proposals",
+    "netherlands",
+    "payments",
+    "collections",
+    "telebanking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank - Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Proposal Detail Line"
+    }
+  ],
+  "features": [
+    "manual proposals",
+    "automatic proposals",
+    "customer proposals",
+    "vendor proposals",
+    "proposal detail lines",
+    "get entries batch job"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003005,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "712b0d61b6d382d909aa2d17737efd1415e2d391",
       "words": 110,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:13.941Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003005
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:13.960Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:13.961Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:13.967Z",
+      "page": false
     }
   },
   "input_hash": "712b0d61b6d382d909aa2d17737efd1415e2d391",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -33,7 +52,7 @@
     "ai_usage": null,
     "words": 110
   },
-  "last_error": "git cat-file -p 712b0d61b6d382d909aa2d17737efd1415e2d391 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 712b0d61b6d382d909aa2d17737efd1415e2d391 from promisor ",
-  "retry_after": "2026-10-06T21:27:33.998Z",
-  "output_hash": "712b0d61b6d382d909aa2d17737efd1415e2d391"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ab3c61d4cb315eea451a6d8791c1ed26e130df51a8eb83d7d612b36c197f26b0"
 }

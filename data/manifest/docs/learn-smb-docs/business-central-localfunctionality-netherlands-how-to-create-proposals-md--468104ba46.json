@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "ec99775bfc43ebd3a3f9419f57d863c668190b2d",
       "words": 556,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:13.949Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003005
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:14.022Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:14.024Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:14.026Z",
+      "page": false
     }
   },
   "input_hash": "ec99775bfc43ebd3a3f9419f57d863c668190b2d",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -42,7 +61,7 @@
     "ai_usage": null,
     "words": 556
   },
-  "last_error": "git cat-file -p ec99775bfc43ebd3a3f9419f57d863c668190b2d failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch ec99775bfc43ebd3a3f9419f57d863c668190b2d from promisor ",
-  "retry_after": "2026-10-06T21:30:10.405Z",
-  "output_hash": "ec99775bfc43ebd3a3f9419f57d863c668190b2d"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7f98ebc8f58a12f3101216a636bb7f0b7d3ea366e9424ee9fc732a331a6fc7d"
 }

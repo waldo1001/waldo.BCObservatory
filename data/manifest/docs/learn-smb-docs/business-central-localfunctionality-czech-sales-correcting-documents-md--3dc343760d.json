@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/sales-correcting-documents",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "cabb2afd70d4d12b19e09065d863dff7ea14fa98",
       "words": 54,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:10.600Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002263
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:10.615Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:10.616Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:10.617Z",
+      "page": false
     }
   },
   "input_hash": "cabb2afd70d4d12b19e09065d863dff7ea14fa98",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -39,7 +58,7 @@
     "ai_usage": null,
     "words": 54
   },
-  "last_error": "git cat-file -p cabb2afd70d4d12b19e09065d863dff7ea14fa98 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch cabb2afd70d4d12b19e09065d863dff7ea14fa98 from promisor ",
-  "retry_after": "2026-10-06T21:22:57.663Z",
-  "output_hash": "cabb2afd70d4d12b19e09065d863dff7ea14fa98"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7dc66c18bbd4b1c3dde0533c43b8c99fad8a8957a1a8c82bd9b24105c5a5efa3"
 }

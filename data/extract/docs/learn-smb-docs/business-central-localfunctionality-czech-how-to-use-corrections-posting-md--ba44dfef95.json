@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-corrections-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-corrections-posting",
+  "title": "Czech local functionality - Corrections posting",
+  "blob": "074edeca6e16df90c6add2f441f70ce057f0cf18",
+  "summary": "Corrections posting (Red Storno) in Czech localization enforces corrective posting on GL accounts and inventory transactions to comply with accounting control regulations requiring costs and revenues on proper debit or credit sides.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "czech localization",
+    "corrections posting",
+    "red storno",
+    "gl accounts",
+    "inventory",
+    "accounting policy"
+  ],
+  "objects": [],
+  "features": [
+    "corrective posting enforcement",
+    "GL account corrections",
+    "inventory corrections",
+    "fixed asset cancellation corrections",
+    "single select correction posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002263,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-tax-file-formats-dk.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk",
+  "title": "Using the tax file formats (DK) extension",
+  "blob": "712b0d61b6d382d909aa2d17737efd1415e2d391",
+  "summary": "The tax file formats (DK) extension enables Danish companies to export VAT and Intrastat reports in formats compatible with SKAT and Statistics Denmark requirements.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "intrastat",
+    "denmark",
+    "tax reporting",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MS-ECSL Report Export File"
+    },
+    {
+      "type": "codeunit",
+      "name": "Intrastat Export Lines"
+    }
+  ],
+  "features": [
+    "MS-ECSL report export",
+    "Intrastat export",
+    "VAT reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003005,
+      "pages_in_call": 8
+    }
+  ]
+}

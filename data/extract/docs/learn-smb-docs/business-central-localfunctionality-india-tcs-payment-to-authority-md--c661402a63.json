@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Payment-to-Authority.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority",
+  "title": "Payment of TCS to the Government Authorities",
+  "blob": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
+  "summary": "TCS payment to government authorities in Business Central India localization involves depositing collected TCS through Payment Journal or Bank Payment Voucher using filters like TCAN and Assessee, marking entries as paid upon journal posting.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "tcs",
+    "payment",
+    "india localization",
+    "tax",
+    "journal",
+    "authority"
+  ],
+  "objects": [],
+  "features": [
+    "TCS payment deposit",
+    "Payment Journal",
+    "Bank Payment Voucher",
+    "TCS entry selection",
+    "TCAN filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002263,
+      "pages_in_call": 8
+    }
+  ]
+}

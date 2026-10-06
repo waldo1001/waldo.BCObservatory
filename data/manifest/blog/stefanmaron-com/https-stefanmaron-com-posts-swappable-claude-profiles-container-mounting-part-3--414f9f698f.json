@@ -7,7 +7,7 @@
   "url": "https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/",
   "published_at": "2026-03-16T08:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T22:01:24.921Z",
       "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-swappable-claude-profiles-container-mounting-part-3--414f9f698f.md",
       "words": 1116
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:57.136Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007196
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:57.153Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:57.154Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:57.158Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-swappable-claude-profiles-container-mounting-part-3--414f9f698f.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b9f94ba09cd29900d7f08eea772da0d7e8210c6cadb931ae2fa507a6a44aabd"
+  "output_hash": "4c43517e990dca78147e713055cf0f93da8ee9c89fc13152bbb1aa409095ffb9"
 }

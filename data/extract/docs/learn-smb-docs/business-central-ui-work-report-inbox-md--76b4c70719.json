@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-work-report-inbox.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox",
+  "title": "Share and Export Reports with the Report Inbox",
+  "blob": "198ce286e1d2ac1b5b277454ba6b3739d2b274f4",
+  "summary": "The Report Inbox page allows users to download, share, and export scheduled reports, with integration to OneDrive for managing document files.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "reporting",
+    "report inbox",
+    "onedrive",
+    "scheduling",
+    "file sharing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Inbox"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    }
+  ],
+  "features": [
+    "download reports",
+    "OneDrive integration",
+    "share reports",
+    "schedule reports",
+    "delete reports"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003005,
+      "pages_in_call": 8
+    }
+  ]
+}

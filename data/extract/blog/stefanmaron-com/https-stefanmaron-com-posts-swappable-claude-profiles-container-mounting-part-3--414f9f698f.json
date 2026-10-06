@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/",
+  "url": "https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/",
+  "title": "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)",
+  "source": "stefanmaron-com",
+  "published_at": "2026-03-16T08:00:00.000Z",
+  "words": 1116,
+  "summary": "Claude Code profiles enable project-specific configurations by mounting host directories as ~/.claude inside containers, allowing separate contexts, instructions, and agents for different work types. The profile system makes it practical to maintain AL development, telemetry investigation, and other specialized contexts without switching tools.",
+  "key_points": [
+    "Profile folders contain all Claude Code configuration including CLAUDE.md instructions, custom commands, agents, and plugins mounted as ~/.claude in the container",
+    "Switching profiles requires only changing one volume mount line in the Docker command, preserving the same container image with completely different configurations",
+    "Agents and their memory persist in the profile folder, allowing prior context and learned patterns to carry forward across multiple projects using the same profile",
+    "Skills provide more power than simple commands through frontmatter options like context:fork for isolated subagents and allowed-tools for restricted execution",
+    "Agent Skills is an open standard adopted across multiple AI coding tools (Claude Code, Cursor, GitHub Copilot, Gemini CLI) making profiles portable between tools"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "claude code",
+    "containers",
+    "profiles",
+    "agents",
+    "skills",
+    "docker",
+    "configuration management"
+  ],
+  "objects": [],
+  "features": [
+    "swappable profiles",
+    "container mounting",
+    "custom commands",
+    "agent persistence",
+    "skills framework",
+    "isolated subagents",
+    "context:fork"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A profile folder is just a regular directory on your host machine. It contains everything Claude Code normally stores in ~/.claude",
+      "why_it_matters": "Defines the simple concept of profiles as portable, self-contained configuration directories"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007196,
+    "posts_in_call": 4
+  }
+}

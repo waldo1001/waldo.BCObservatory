@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "6f09083c6e4377d7d77b87cc650db8984e5103ec",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:10.602Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002263
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:10.621Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:13.917Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:13.918Z",
+      "page": false
     }
   },
   "input_hash": "6f09083c6e4377d7d77b87cc650db8984e5103ec",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -42,7 +61,7 @@
     "ai_usage": null,
     "words": 207
   },
-  "last_error": "git cat-file -p 6f09083c6e4377d7d77b87cc650db8984e5103ec failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 6f09083c6e4377d7d77b87cc650db8984e5103ec from promisor ",
-  "retry_after": "2026-10-06T21:23:44.120Z",
-  "output_hash": "6f09083c6e4377d7d77b87cc650db8984e5103ec"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25878112fd3948eac364b95b38a2d292fcd477407685a0a80f00326e2d9eab5b"
 }

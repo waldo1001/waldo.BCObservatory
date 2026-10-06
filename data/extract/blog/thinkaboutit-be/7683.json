@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/thinkaboutit-be/7683",
+  "url": "https://thinkaboutit.be/2026/03/api-pages-vs-api-queries-in-business-central-when-to-use-each/",
+  "title": "API Pages vs API Queries in Business Central: When to Use Each",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-03-17T09:01:38.000Z",
+  "words": 2248,
+  "summary": "API pages and API queries are two distinct REST API object types in Business Central with different purposes. API pages support full CRUD operations and are best for write operations, while API queries are optimized for read-only access with multi-table joins and server-side aggregation. Understanding when to use each type is critical for performance and integration design.",
+  "key_points": [
+    "API pages support full CRUD operations (create, read, update, delete) and are designed for data exchange with single-table sources",
+    "API queries are read-only, support multi-table server-side joins, aggregations with SIFT indexes, and automatically group results like SQL GROUP BY",
+    "Design choices at the property level (ODataKeyFields, Enums, DelayedInsert, EntityCaption) have significant downstream consequences for consuming systems like Power Automate and Power BI",
+    "The default choice for read-only scenarios should be API query; API pages should be used when write operations or webhook subscriptions are needed",
+    "Separate concerns by using API pages for writes and API queries for reads, each filtered and refreshable independently"
+  ],
+  "systems": [
+    "integration",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "api pages",
+    "api queries",
+    "rest api",
+    "odata",
+    "integration design",
+    "performance",
+    "power bi",
+    "power automate"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "API page"
+    },
+    {
+      "type": "query",
+      "name": "API query"
+    }
+  ],
+  "features": [
+    "CRUD operations",
+    "multi-table joins",
+    "server-side aggregation",
+    "SIFT indexes",
+    "DataAccessIntent",
+    "schema version 2.0",
+    "LastModifiedOn filtering",
+    "query folding"
+  ],
+  "versions": [
+    "24",
+    "30"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For any read-only scenario, the default choice is an API query. Not one option among two, but the default.",
+      "why_it_matters": "Establishes the primary design principle for choosing the correct integration pattern for read-only access"
+    },
+    {
+      "text": "If you design integrations with a clear separation between write and read paths, most performance and complexity problems disappear before they start.",
+      "why_it_matters": "Emphasizes that proper architectural separation is the key to avoiding performance issues in integration design"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007196,
+    "posts_in_call": 4
+  }
+}

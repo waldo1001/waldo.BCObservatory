@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
       "words": 1001,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:13.946Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003005
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:14.012Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:14.014Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:14.016Z",
+      "page": false
     }
   },
   "input_hash": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -114,7 +133,7 @@
     "ai_usage": null,
     "words": 1001
   },
-  "last_error": "git cat-file -p 78d63fdd9d1a83531add5532b0a4da267bbfb41b failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 78d63fdd9d1a83531add5532b0a4da267bbfb41b from promisor ",
-  "retry_after": "2026-10-06T21:28:23.516Z",
-  "output_hash": "78d63fdd9d1a83531add5532b0a4da267bbfb41b"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "899ef3d780bbc8c800a350bfcc770dc33a3610791ee93e377813b8d11e7f34fc"
 }
