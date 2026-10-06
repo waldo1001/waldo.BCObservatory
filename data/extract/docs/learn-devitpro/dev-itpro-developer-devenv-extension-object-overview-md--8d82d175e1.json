@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-object-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-object-overview",
+  "title": "Extension objects overview",
+  "blob": "17ce058971cf3e565aa9eea908e591447ada35e7",
+  "summary": "Extension objects provide ways to extend base application functionality by adding fields, actions, layout to existing tables, pages, reports, and enum values using table extension, page extension, report extension, enum extension, and permission set extension objects.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extensions",
+    "extensibility",
+    "objects",
+    "al"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Table extension"
+    },
+    {
+      "type": "other",
+      "name": "Page extension"
+    },
+    {
+      "type": "other",
+      "name": "Report extension"
+    },
+    {
+      "type": "other",
+      "name": "Enum extension"
+    },
+    {
+      "type": "permissionset",
+      "name": "Permission set extension"
+    }
+  ],
+  "features": [
+    "extensible property",
+    "table extensions",
+    "page extensions",
+    "report extensions",
+    "enum extensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

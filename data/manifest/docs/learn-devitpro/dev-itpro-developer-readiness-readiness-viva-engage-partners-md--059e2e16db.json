@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-viva-engage-partners",
   "published_at": "2026-07-08T10:28:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "515fc08dd5543bb436fe61f3e45fe5dcbec7459c",
       "words": 305,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:23.168Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008748
+    },
+    "summarized": {
+      "at": "2026-10-06T16:28:06.372Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:28:06.373Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:28:06.374Z",
+      "page": false
     }
   },
   "input_hash": "515fc08dd5543bb436fe61f3e45fe5dcbec7459c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "515fc08dd5543bb436fe61f3e45fe5dcbec7459c"
+  "output_hash": "90558e87f26bb62a517c9f10fef16e2b934b3042c6517e16ae55236bc2f4c4e1"
 }

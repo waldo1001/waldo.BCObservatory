@@ -7,16 +7,40 @@
   "url": "https://www.youtube.com/watch?v=uMKLsKfKPc0",
   "published_at": "2026-10-01T05:38:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:16:27.066Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2494
+    },
+    "captioned": {
+      "at": "2026-10-06T16:16:37.420Z",
+      "path": "vault:captions/community/yt-mibuso/uMKLsKfKPc0.vtt",
+      "vtt_sha256": "ec8803c8c6f159f8b668c3ca59a4772e32e2f4a0ee326f35dd70c8604575d92b",
+      "segments": 191,
+      "words": 6328,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCeFUrL4JZsOa39TQVmrw2ww"
-  }
+    "channel_id": "UCeFUrL4JZsOa39TQVmrw2ww",
+    "duration_s": 2494,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec8803c8c6f159f8b668c3ca59a4772e32e2f4a0ee326f35dd70c8604575d92b",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T16:17:49.264Z"
 }

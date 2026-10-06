@@ -1,0 +1,96 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-semantic-model",
+  "title": "Power BI Finance app semantic model",
+  "blob": "bbb9374804b765bb632823c38e7c06352b6e983e",
+  "summary": "The Power BI Finance app semantic model uses a star schema with fact tables for transactions (customer ledger entries, G/L entries, vendor ledger entries, budget entries) and dimension tables for accounts, customers, vendors, and budgets.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power-bi",
+    "semantic-model",
+    "star-schema",
+    "finance",
+    "analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Cust. Ledg. Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "G/L Budget Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "PBI C. Income St. Source Code"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Vendor Ledg. Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Category"
+    },
+    {
+      "type": "table",
+      "name": "G/L Budget Name"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "customer ledger entries",
+    "vendor ledger entries",
+    "G/L entries",
+    "budget entries",
+    "star schema model"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

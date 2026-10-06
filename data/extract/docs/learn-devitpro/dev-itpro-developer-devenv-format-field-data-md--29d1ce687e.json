@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-format-field-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-field-data",
+  "title": "Formatting the data in a field",
+  "blob": "326e9b3f019212ee88ba921b002adee31466794f",
+  "summary": "Field formatting controls how decimal values appear in tables, pages, and reports using AutoFormatType, AutoFormatExpression, and DecimalPlaces properties to display amounts, unit amounts, currencies, thousand separators, and custom formats.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "formatting",
+    "decimal",
+    "currency",
+    "autoformat",
+    "field-properties"
+  ],
+  "objects": [],
+  "features": [
+    "AutoFormatType property",
+    "AutoFormatExpression property",
+    "DecimalPlaces property",
+    "currency formatting",
+    "thousand separator",
+    "precision control"
+  ],
+  "versions": [
+    "26.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-moving-scope.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-moving-scope",
+  "title": "Moving between extension scopes",
+  "blob": "627c36b10389c4e59ed6c505d33b3bbea8d88cd9",
+  "summary": "Extension scopes describe how to move an app between PTE (Per-Tenant Extension), DEV, and Marketplace scopes, including identity, naming, and ID range requirements for each transition.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extensions",
+    "scopes",
+    "marketplace",
+    "app-id",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "PTE to Marketplace migration",
+    "DEV to Marketplace migration",
+    "Marketplace to DEV publishing",
+    "PTE to DEV publishing",
+    "DEV to PTE deployment",
+    "Marketplace to PTE conversion"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

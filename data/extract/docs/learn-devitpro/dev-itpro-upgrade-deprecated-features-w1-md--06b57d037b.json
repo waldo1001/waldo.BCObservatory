@@ -1,0 +1,200 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-w1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1",
+  "title": "Deprecated Features in the application",
+  "blob": "4f5c72a80dac5daec8801fbacb7165a43cc9502f",
+  "summary": "Deprecated features in Business Central W1 version across multiple release waves (2020-2027), including removed APIs, reports, Intelligent Cloud Insights, and moved subcontracting objects.",
+  "systems": [
+    "administration",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "deprecation",
+    "api",
+    "reporting",
+    "legacy features",
+    "version management"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivables (Legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Payable (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance/Budget (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Analysis (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Details (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Projected Value (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Work Center List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Machine Center List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Rolled-up Cost Shares (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Single-Level Cost Shares (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Detailed Calculation (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Item BOM Compare list (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Work Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Machine Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Prod. Order - Calculation (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Customer - Top 10 List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Vendor - List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "Vendor - Summary Aging (legacy)"
+    },
+    {
+      "type": "page",
+      "name": "Subcontracting Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "report",
+      "name": "Calculate Subcontracts"
+    },
+    {
+      "type": "enum",
+      "name": "Requisition Worksheet Template Type"
+    },
+    {
+      "type": "codeunit",
+      "name": "Invoice Post. Buffer"
+    },
+    {
+      "type": "interface",
+      "name": "Invoice Posting"
+    },
+    {
+      "type": "enum",
+      "name": "Company Data Type (Internal)"
+    },
+    {
+      "type": "enum",
+      "name": "Company Data Type (Sandbox)"
+    },
+    {
+      "type": "enum",
+      "name": "Company Data Type (Production)"
+    },
+    {
+      "type": "codeunit",
+      "name": "Import Config. Package File"
+    },
+    {
+      "type": "codeunit",
+      "name": "Assisted Company Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Import Config. Package Files"
+    },
+    {
+      "type": "table",
+      "name": "Assisted Company Setup Status"
+    },
+    {
+      "type": "page",
+      "name": "Company Creation Wizard"
+    }
+  ],
+  "features": [
+    "API v1.0 removal",
+    "Finance reports API removal",
+    "Legacy Power BI apps removal",
+    "Intelligent Cloud Insights removal",
+    "Excel reports deprecation",
+    "Configuration packages removal",
+    "User groups replacement",
+    "Peppol BIS 3.0",
+    "Manual flushing method replacement",
+    "Subcontracting app",
+    "Security groups"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "2021 release wave 2",
+    "2022 release wave 1",
+    "2022 release wave 2",
+    "2023 release wave 1",
+    "2023 release wave 2",
+    "2024 release wave 1",
+    "2024 release wave 2",
+    "2025 release wave 1",
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008748,
+      "pages_in_call": 6
+    }
+  ]
+}

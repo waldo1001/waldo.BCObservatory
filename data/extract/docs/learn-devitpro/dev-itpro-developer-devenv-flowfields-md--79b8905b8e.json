@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-flowfields.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfields",
+  "title": "FlowFields overview",
+  "blob": "10ed170af4a408f48cfb821eeab7624bd4ceb466",
+  "summary": "FlowFields display calculation results from a CalcFormula property and improve performance by showing results immediately without storing physical data in the database, with seven types available including Sum, Average, Exist, Count, Min, Max, and Lookup.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "flowfields",
+    "calculations",
+    "performance",
+    "sift",
+    "database"
+  ],
+  "objects": [],
+  "features": [
+    "FlowField types",
+    "CalcFormula property",
+    "SIFT optimization",
+    "dynamic calculation",
+    "Calculate only visible FlowFields"
+  ],
+  "versions": [
+    "26.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

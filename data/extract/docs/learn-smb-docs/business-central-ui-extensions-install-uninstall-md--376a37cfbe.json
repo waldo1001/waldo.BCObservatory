@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-install-uninstall.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-install-uninstall",
+  "title": "Install and uninstall apps",
+  "blob": "04b5b89e403ef150ac5e78475d60d1664cb01d8d",
+  "summary": "Install, uninstall, and manage extensions in Business Central through Marketplace or Admin Center with proper permissions, setup, and data handling options.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "extensions",
+    "apps",
+    "installation",
+    "marketplace",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Installed Extensions"
+    },
+    {
+      "type": "page",
+      "name": "Delete Orphaned Extension Data"
+    }
+  ],
+  "features": [
+    "app installation",
+    "app uninstall",
+    "Marketplace integration",
+    "per-tenant extensions",
+    "extension setup",
+    "extension data deletion",
+    "dependent apps management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008748,
+      "pages_in_call": 6
+    }
+  ]
+}

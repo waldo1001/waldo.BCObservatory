@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-dev-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview",
+  "title": "Developing extensions in AL",
+  "blob": "b813f11b778dc82002260d2effb02a6fea6dbf0e",
+  "summary": "Developing extensions in AL explains the fundamentals of building extensions using AL code and Visual Studio Code, covering objects like tables, pages, codeunits, and reports that can be created or extended.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "extensions",
+    "al development",
+    "objects",
+    "visual studio code",
+    "publishing",
+    "designer",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "table objects"
+    },
+    {
+      "type": "page",
+      "name": "page objects"
+    },
+    {
+      "type": "codeunit",
+      "name": "codeunits"
+    },
+    {
+      "type": "report",
+      "name": "report objects"
+    }
+  ],
+  "features": [
+    "extension model",
+    "table extensions",
+    "page extensions",
+    "AL code snippets",
+    "compiler validation",
+    "designer with drag and drop",
+    "app package compilation",
+    "telemetry instrumentation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0066,
+      "pages_in_call": 2
+    }
+  ]
+}

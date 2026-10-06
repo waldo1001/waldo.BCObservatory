@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfields",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "10ed170af4a408f48cfb821eeab7624bd4ceb466",
       "words": 682,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:38.237Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00538
+    },
+    "summarized": {
+      "at": "2026-10-06T16:28:06.388Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:28:06.389Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:28:06.390Z",
+      "page": false
     }
   },
   "input_hash": "10ed170af4a408f48cfb821eeab7624bd4ceb466",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10ed170af4a408f48cfb821eeab7624bd4ceb466"
+  "output_hash": "4aa80da2897700f2813ad042196faec8f8d8b5e1810a3eba1c543ef3a4533daf"
 }

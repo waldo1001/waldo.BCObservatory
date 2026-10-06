@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extensibility-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview",
+  "title": "Extensibility overview",
+  "blob": "c167bff078ef41357fa0e46a51a2ae018e5364e4",
+  "summary": "Extensibility overview describes the multiple ways AL developers can extend Business Central functionality including code flows, tables, pages, reports, security models, enumerations, and application areas, plus contributing to open-source system application modules.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "extensibility",
+    "al development",
+    "extending objects",
+    "events",
+    "security model",
+    "base application"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "codeunits"
+    },
+    {
+      "type": "table",
+      "name": "tables"
+    },
+    {
+      "type": "page",
+      "name": "pages"
+    },
+    {
+      "type": "report",
+      "name": "reports"
+    },
+    {
+      "type": "permissionset",
+      "name": "permission sets"
+    },
+    {
+      "type": "enum",
+      "name": "enumerations"
+    }
+  ],
+  "features": [
+    "code flow extension via events",
+    "table field addition",
+    "page layout modification",
+    "report extension",
+    "permission set creation",
+    "enumeration extension",
+    "application area customization",
+    "system application contribution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0066,
+      "pages_in_call": 2
+    }
+  ]
+}

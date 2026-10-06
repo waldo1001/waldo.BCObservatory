@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-flowfilter-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview",
+  "title": "FlowFilters overview",
+  "blob": "fbf83f76df0ad96d1fd485c077f11939d00131e0",
+  "summary": "FlowFilters enable users to limit calculations in FlowFields by setting ranges and filters at runtime, allowing queries like summing customer entries for a specific month without storing filter values in the database.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "flowfilters",
+    "calculations",
+    "filtering",
+    "flowfields"
+  ],
+  "objects": [],
+  "features": [
+    "filter ranges",
+    "runtime filtering",
+    "user-level filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00538,
+      "pages_in_call": 8
+    }
+  ]
+}

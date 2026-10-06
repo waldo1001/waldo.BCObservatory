@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b813f11b778dc82002260d2effb02a6fea6dbf0e",
       "words": 943,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:23.170Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.0066
+    },
+    "summarized": {
+      "at": "2026-10-06T16:28:06.377Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:28:06.378Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:28:06.380Z",
+      "page": false
     }
   },
   "input_hash": "b813f11b778dc82002260d2effb02a6fea6dbf0e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b813f11b778dc82002260d2effb02a6fea6dbf0e"
+  "output_hash": "af3173dec90625adba0e750c2db1c0d326ea18be334cf553f04c1b0515941ede"
 }

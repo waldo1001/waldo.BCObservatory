@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing",
   "published_at": "2026-07-08T15:04:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "16909e739b1cdecd5eb956658e1b0418fcd37482",
       "words": 1598,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:23.165Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008748
+    },
+    "summarized": {
+      "at": "2026-10-06T16:27:55.490Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:27:55.491Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:27:55.492Z",
+      "page": false
     }
   },
   "input_hash": "16909e739b1cdecd5eb956658e1b0418fcd37482",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16909e739b1cdecd5eb956658e1b0418fcd37482"
+  "output_hash": "25b77af2bf4091052c1496563cb9678d60714359aa681ff189eefcc319f3b447"
 }

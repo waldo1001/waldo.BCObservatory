@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-semantic-model",
   "published_at": "2026-07-07T11:50:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bbb9374804b765bb632823c38e7c06352b6e983e",
       "words": 1414,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:38.243Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 14,
+      "cost_usd": 0.00538
+    },
+    "summarized": {
+      "at": "2026-10-06T16:28:06.402Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:28:06.402Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:28:06.403Z",
+      "page": false
     }
   },
   "input_hash": "bbb9374804b765bb632823c38e7c06352b6e983e",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbb9374804b765bb632823c38e7c06352b6e983e"
+  "output_hash": "a9be33c31172a926377a3bf8267e194c5c2803867ad211ff5afb76469d54b4e6"
 }

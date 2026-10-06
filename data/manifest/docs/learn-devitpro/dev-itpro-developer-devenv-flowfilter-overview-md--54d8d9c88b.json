@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview",
   "published_at": "2026-07-08T09:06:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fbf83f76df0ad96d1fd485c077f11939d00131e0",
       "words": 282,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:38.238Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00538
+    },
+    "summarized": {
+      "at": "2026-10-06T16:28:06.391Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:28:06.392Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:28:06.392Z",
+      "page": false
     }
   },
   "input_hash": "fbf83f76df0ad96d1fd485c077f11939d00131e0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fbf83f76df0ad96d1fd485c077f11939d00131e0"
+  "output_hash": "743070ca04e9c4d54abd792494ee47db334e37d6643703200fe189fe0aa242cc"
 }
