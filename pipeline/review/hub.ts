@@ -12,7 +12,7 @@ import type { ManifestItem } from "../lib/manifest.js";
 import type { TopicHub } from "../link/toc.js";
 import type { Llm } from "../extract/video.js";
 import { clip, tidy } from "../summarize/video.js";
-import { gatherInputs, hubPrompt, narrativePath, type HubNarrative } from "../summarize/hub.js";
+import { gatherInputs, hubPrompt, narrativePath, pool, type HubNarrative } from "../summarize/hub.js";
 
 export const PROMPT_VERSION = 1;
 export const STAGE = "review-hub";
@@ -51,7 +51,7 @@ export interface HubReviewRun { candidates: number; reviewed: number; fixed: num
 
 export async function reviewHubs(
   hubs: TopicHub[], items: ManifestItem[], dataDir: string, narratives: Map<string, ReviewedNarrative>,
-  o: { quota: number; deadline: Date; clock: () => Date; llm?: Llm },
+  o: { quota: number; deadline: Date; clock: () => Date; llm?: Llm; concurrency?: number },
 ): Promise<HubReviewRun> {
   const llm = o.llm ?? complete;
   const byId = new Map(hubs.map((h) => [h.id, h]));
@@ -60,9 +60,12 @@ export async function reviewHubs(
   const todo = hubs.filter((h) => { const n = narratives.get(h.id); return n && n.review?.input_hash !== n.input_hash; })
     .sort((a, b) => b.members.length - a.members.length || a.id.localeCompare(b.id));
   run.candidates = todo.length;
-  for (const hub of todo) {
-    if (run.reviewed >= o.quota) { run.stopped = "quota"; break; }
-    if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; break; }
+  let started = 0;
+  await pool(todo, o.concurrency ?? 1, async (hub) => {
+    if (run.stopped !== "done") return;
+    if (started >= o.quota) { run.stopped = "quota"; return; }
+    if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; return; }
+    started++;
     const n = narratives.get(hub.id)!;
     const inputs = hubPrompt(hub, gatherInputs(hub, byId, byItem, dataDir, narratives));
     try {
@@ -85,10 +88,10 @@ export async function reviewHubs(
       if (out.verdict === "fix") run.fixed++;
       if (out.verdict === "reject") run.rejected++;
     } catch (e) {
-      if (e instanceof LlmBudgetExhausted) { run.stopped = "spend-cap"; break; }
-      if (e instanceof LlmInfraError) { run.stopped = "aborted"; run.errors.push(`${hub.id}: ${e.message}`); break; }
+      if (e instanceof LlmBudgetExhausted) { run.stopped = "spend-cap"; return; }
+      if (e instanceof LlmInfraError) { run.stopped = "aborted"; run.errors.push(`${hub.id}: ${e.message}`); return; }
       run.errors.push(`${hub.id} review: ${String((e as Error).message).slice(0, 200)}`);
     }
-  }
+  });
   return run;
 }

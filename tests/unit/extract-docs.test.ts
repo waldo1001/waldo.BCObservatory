@@ -42,7 +42,7 @@ test("body cleaning, section splitting and call packing", () => {
   assert.ok(parts.length >= 2 && parts.every((p) => p.length <= 40_000));
   assert.equal(parts.join("\n").replace(/\s+/g, " ").length, long.replace(/\s+/g, " ").length, "nothing is dropped");
   const u = (n: number) => ({ item: {} as any, key: `k${n}`, part: 0, text: "x".repeat(n) });
-  assert.deepEqual(pack([u(30_000), u(5_000), u(10_000), u(1)]).map((c) => c.map((x) => x.text.length)), [[30_000, 5_000], [10_000, 1]]);
+  assert.deepEqual(pack([u(30_000), u(5_000), u(10_000), u(1)], 40_000).map((c) => c.map((x) => x.text.length)), [[30_000, 5_000], [10_000, 1]]);
 });
 
 test("batch: one Haiku call for several pages, cleaned facts stored per page, reference pages declined", async () => {

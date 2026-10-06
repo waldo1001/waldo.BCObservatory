@@ -94,7 +94,7 @@ export interface NarrativeRun { ready_stale: number; refreshed: number; failed: 
 /** Refresh stale, ready hub narratives within the quota. Children before parents within one night when possible. */
 export async function refreshNarratives(
   hubs: TopicHub[], items: ManifestItem[], dataDir: string,
-  o: { quota: number; deadline: Date; clock: () => Date; llm?: Llm },
+  o: { quota: number; deadline: Date; clock: () => Date; llm?: Llm; concurrency?: number },
 ): Promise<{ narratives: Map<string, HubNarrative>; run: NarrativeRun }> {
   const llm = o.llm ?? complete;
   const byId = new Map(hubs.map((h) => [h.id, h]));
@@ -104,36 +104,54 @@ export async function refreshNarratives(
   const recency = (h: TopicHub) => Math.max(0, ...h.members.map((id) => Date.parse(byItem.get(id)?.published_at ?? "") || 0));
   // deepest first, so a parent can use tonight's child narratives; then most recently changed
   const order = [...hubs].sort((a, b) => b.breadcrumb.length - a.breadcrumb.length || recency(b) - recency(a));
-  for (const hub of order) {
-    const x = gatherInputs(hub, byId, byItem, dataDir, narratives);
-    if (!isReady(x)) continue;
-    const hash = inputHash(x);
-    if (narratives.get(hub.id)?.input_hash === hash) continue;
-    run.ready_stale++;
-    if (run.stopped !== "done") continue; // keep counting the backlog
-    if (run.refreshed + run.failed >= o.quota) { run.stopped = "quota"; continue; }
-    if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; continue; }
-    try {
-      const res = await llm<{ summary: string; overview: string; key_points: string[] }>({
-        stage: STAGE, promptVersion: PROMPT_VERSION, role: "prose", system: SYSTEM, schema: hubSchema, prompt: hubPrompt(hub, x),
-        inputs: [{ kind: "hub", id: hub.id, hash }], label: `${hub.id} narrative`,
-      });
-      const n: HubNarrative = {
-        hub_id: hub.id, input_hash: hash, summary: clip(tidy(res.output.summary)), overview: tidy(res.output.overview),
-        key_points: res.output.key_points.map(tidy).filter(Boolean).slice(0, 8), members_used: Math.min(x.own.length, MAX_MEMBERS_IN_PROMPT),
-        subtopics_used: x.subs.filter((s) => s.narrative).length, prompt_version: PROMPT_VERSION, at: o.clock().toISOString(),
-        llm: { model: res.meta.model, cached: res.cached, cost_usd: res.cached ? null : res.meta.cost_usd ?? null },
-      };
-      writeJson(narrativePath(dataDir, hub.id), n);
-      narratives.set(hub.id, n);
-      run.refreshed++;
-    } catch (e) {
-      if (e instanceof LlmBudgetExhausted) { run.stopped = "spend-cap"; continue; }
-      if (e instanceof LlmInfraError) { run.stopped = "aborted"; run.errors.push(`${hub.id}: ${e.message}`); continue; }
-      run.failed++;
-      run.errors.push(`${hub.id}: ${String((e as Error).message).slice(0, 200)}`);
-      log.warn(`${hub.id} narrative failed: ${String((e as Error).message).slice(0, 200)}`);
+  let started = 0;
+  const levels = [...new Set(order.map((h) => h.breadcrumb.length))]; // already deepest first
+  for (const depth of levels) {
+    // a level's inputs are complete once the deeper level has finished
+    const todo: { hub: TopicHub; x: HubInputs; hash: string }[] = [];
+    for (const hub of order.filter((h) => h.breadcrumb.length === depth)) {
+      const x = gatherInputs(hub, byId, byItem, dataDir, narratives);
+      if (!isReady(x)) continue;
+      const hash = inputHash(x);
+      if (narratives.get(hub.id)?.input_hash === hash) continue;
+      run.ready_stale++;
+      todo.push({ hub, x, hash });
     }
+    await pool(todo, o.concurrency ?? 1, async ({ hub, x, hash }) => {
+      if (run.stopped !== "done") return; // keep counting the backlog
+      if (started >= o.quota) { run.stopped = "quota"; return; }
+      if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; return; }
+      started++;
+      try {
+        const res = await llm<{ summary: string; overview: string; key_points: string[] }>({
+          stage: STAGE, promptVersion: PROMPT_VERSION, role: "prose", system: SYSTEM, schema: hubSchema, prompt: hubPrompt(hub, x),
+          inputs: [{ kind: "hub", id: hub.id, hash }], label: `${hub.id} narrative`,
+        });
+        const n: HubNarrative = {
+          hub_id: hub.id, input_hash: hash, summary: clip(tidy(res.output.summary)), overview: tidy(res.output.overview),
+          key_points: res.output.key_points.map(tidy).filter(Boolean).slice(0, 8), members_used: Math.min(x.own.length, MAX_MEMBERS_IN_PROMPT),
+          subtopics_used: x.subs.filter((s) => s.narrative).length, prompt_version: PROMPT_VERSION, at: o.clock().toISOString(),
+          llm: { model: res.meta.model, cached: res.cached, cost_usd: res.cached ? null : res.meta.cost_usd ?? null },
+        };
+        writeJson(narrativePath(dataDir, hub.id), n);
+        narratives.set(hub.id, n);
+        run.refreshed++;
+      } catch (e) {
+        if (e instanceof LlmBudgetExhausted) { run.stopped = "spend-cap"; return; }
+        if (e instanceof LlmInfraError) { run.stopped = "aborted"; run.errors.push(`${hub.id}: ${e.message}`); return; }
+        run.failed++;
+        run.errors.push(`${hub.id}: ${String((e as Error).message).slice(0, 200)}`);
+        log.warn(`${hub.id} narrative failed: ${String((e as Error).message).slice(0, 200)}`);
+      }
+    });
   }
   return { narratives, run };
+}
+
+/** Run fn over items with at most n in flight, in order of start. */
+export async function pool<T>(items: T[], n: number, fn: (item: T) => Promise<void>): Promise<void> {
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.max(1, Math.min(n, items.length)) }, async () => {
+    while (next < items.length) await fn(items[next++]);
+  }));
 }

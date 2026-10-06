@@ -7,6 +7,9 @@
  *                      [--pillars docs,video] [--only source-id,...] [--data-dir path] [--quota N]
  *
  * --quota N caps every item quota at N (verification runs, e.g. two videos end to end).
+ * --night-cap USD / --week-cap USD replace the spend caps for this run only (owner-requested catch-up runs);
+ *   the run report records the override. The scheduled nightly never passes them.
+ * --concurrency N overrides config/budget.json concurrency (items and hub calls in flight at once).
  *
  * --dry-run never commits, sets LLM_CACHE_ONLY=1 and writes into a temp data dir unless --data-dir is given.
  */
@@ -56,6 +59,10 @@ export interface NightlyOptions {
   only?: string[];
   /** Caps every item quota (not llm_calls_max) at this number. */
   quota?: number;
+  /** Replaces config/budget.json spend_caps for this run only. */
+  capOverride?: { night_usd?: number; week_usd?: number };
+  /** Items in flight at once; defaults to config/budget.json concurrency. */
+  concurrency?: number;
   dataDir: string;
   /** Generated pages; defaults to <repoDir>/content (a sibling of the temp data dir for --dry-run). */
   contentDir?: string;
@@ -84,7 +91,7 @@ export interface RunReport {
   plan: { quotas: Record<string, number>; work: number; executed: number; skips?: number; quota_use?: unknown; note?: string };
   llm: ReturnType<typeof llmStats> & { day_cost_usd?: number };
   /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
-  spend?: SpendAllowance & { exhausted: boolean };
+  spend?: SpendAllowance & { exhausted: boolean; override?: boolean };
   execution?: ExecutionReport;
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   items_changed: number; errors: string[];
@@ -110,7 +117,9 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   const cfg = budget();
   const date = runDate(now, cfg.window.timezone);
   const errors: string[] = [];
-  const spend = spendAllowance(cfg.spend_caps, readSpendHistory(resolve(opts.dataDir, "manifest", "_runs"), date));
+  const caps = { ...cfg.spend_caps, ...(opts.capOverride ?? {}) };
+  const spend = spendAllowance(caps, readSpendHistory(resolve(opts.dataDir, "manifest", "_runs"), date));
+  if (opts.capOverride) log.warn(`spend caps overridden for this run: night $${caps.night_usd}, week $${caps.week_usd}`);
   setSpendLimit(spend.allowance_usd);
   log.info(`spend: $${spend.allowance_usd} allowed (${spend.binding} cap binds)`, { today: spend.today_usd, week_before: spend.week_before_usd });
   if (opts.commit && (await recoverPartialRun(opts.repoDir))) log.warn("committed leftovers of a killed run");
@@ -124,7 +133,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     date, started_at: started.toISOString(), finished_at: started.toISOString(), status: "ok", pipeline: PIPELINE_VERSION,
     runner: { node: process.version, ...(process.env.RUNNER_NAME ? { runner_name: process.env.RUNNER_NAME } : {}) },
     guard, ingest: { sources: [], totals: {} }, plan: { quotas: {}, work: 0, executed: 0 },
-    llm: llmStats(), spend: { ...spend, exhausted: spend.allowance_usd <= 0 }, items_changed: 0, errors,
+    llm: llmStats(), spend: { ...spend, exhausted: spend.allowance_usd <= 0, ...(opts.capOverride ? { override: true } : {}) }, items_changed: 0, errors,
   };
   const manifest = new Manifest(resolve(opts.dataDir, "manifest"));
 
@@ -164,7 +173,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     await prefetchPlanned(plan.work, manifest, mirrorsDir);
     const execution = await executePlan({
       work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts), mirrorsDir,
-      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers,
+      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers, concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
     report.execution = execution;
@@ -172,6 +181,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     report.hubs = await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: report.execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
+      concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       reviewQuota: report.execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
     });
     errors.push(...execution.errors);
@@ -208,7 +218,7 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
 /** Deterministic topic hubs from the Learn TOCs; a missing mirror or TOC never fails the run. */
 async function refreshTopics(
   sources: SourceDef[], manifest: Manifest, mirrorsDir: string, opts: NightlyOptions, errors: string[],
-  n: { quota: number; reviewQuota: number; deadline: Date; clock: () => Date },
+  n: { quota: number; reviewQuota: number; deadline: Date; clock: () => Date; concurrency: number },
 ): Promise<RunReport["hubs"]> {
   const docs = sources.filter((s) => s.kind === "docs-git" && s.enabled && s.mode !== "links-only" && existsSync(resolve(mirrorsDir, `${s.id}.git`)));
   if (!docs.length) return undefined;
@@ -251,6 +261,18 @@ async function prefetchPlanned(work: PlannedWork[], manifest: Manifest, mirrorsD
       log.warn(`prefetch ${source} failed, pages fetch lazily: ${(e as Error).message}`);
     }
   }
+}
+
+function capOverrideArg(night?: string, week?: string): Pick<NightlyOptions, "capOverride"> {
+  if (night === undefined && week === undefined) return {};
+  const num = (v: string | undefined, flag: string) => {
+    if (v === undefined) return undefined;
+    const n = Number(v);
+    if (!Number.isFinite(n) || n < 0) throw new Error(`${flag} must be a dollar amount, got ${v}`);
+    return n;
+  };
+  const o = { night_usd: num(night, "--night-cap"), week_usd: num(week, "--week-cap") };
+  return { capOverride: Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined)) };
 }
 
 export function capQuotas(quotas: Record<string, number>, cap?: number): Record<string, number> {
@@ -316,6 +338,8 @@ export function parseArgs(argv: string[]): NightlyOptions {
     dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages,
     pillars: list("--pillars") as Pillar[] | undefined, only: list("--only"),
     ...(val("--quota") !== undefined ? { quota: Number(val("--quota")) } : {}),
+    ...capOverrideArg(val("--night-cap"), val("--week-cap")),
+    ...(val("--concurrency") !== undefined ? { concurrency: Math.max(1, Number(val("--concurrency")) || 1) } : {}),
     dataDir: resolve(val("--data-dir") ?? (dryRun ? join(tmpdir(), "bc-observatory-dry-run", "data") : DATA_DIR)),
     cacheDir: CACHE_DIR, repoDir: ROOT,
   };

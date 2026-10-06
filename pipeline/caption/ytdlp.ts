@@ -31,7 +31,15 @@ async function pause(): Promise<void> {
   lastCall = Date.now();
 }
 
-export async function ytdlp(args: string[], timeoutMs = 180_000): Promise<string> {
+let queue: Promise<unknown> = Promise.resolve();
+/** One yt-dlp at a time, whatever the executor's concurrency: the pause between calls only means something serialized. */
+export function ytdlp(args: string[], timeoutMs = 180_000): Promise<string> {
+  const next = queue.then(() => ytdlpNow(args, timeoutMs));
+  queue = next.catch(() => undefined);
+  return next;
+}
+
+async function ytdlpNow(args: string[], timeoutMs: number): Promise<string> {
   if (blocked) throw new StageHold(`yt-dlp held after a block earlier this run: ${blocked}`);
   await pause();
   const bin = process.env.BCOBS_YTDLP_BIN ?? "yt-dlp";

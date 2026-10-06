@@ -102,3 +102,24 @@ test("Opus hub review: biggest first within quota; fix edits, reject withholds, 
   stale.set("topic/bc/fin", { ...narratives.get("topic/bc/fin")!, input_hash: "changed" } as any);
   assert.equal((await reviewHubs(w.hubs, w.items, w.dataDir, stale, opts(llm, 10))).candidates, 1);
 });
+
+test("hub narratives in parallel: children still finish before parents; quota is exact", async () => {
+  const w = world(["a", "b", "c", "d", "e"]);
+  const order: string[] = [];
+  let inFlight = 0, peak = 0;
+  const llm: Llm = async <T>(r: LlmRequest) => {
+    inFlight++; peak = Math.max(peak, inFlight);
+    await new Promise((res) => setTimeout(res, 5));
+    inFlight--; order.push(r.label!);
+    return { output: { summary: "S.", overview: "o", key_points: ["k"] } as T, cached: false, meta: { model: "claude-sonnet-5-5", cost_usd: 0.04 } as any };
+  };
+  const extra = { ...w.hubs[1], id: "topic/bc/fin/ap", title: "ap", members: [w.items[2].id, w.items[3].id] };
+  const hubs = [{ ...w.hubs[0], children: [w.hubs[1].id, extra.id] }, w.hubs[1], extra];
+  const r = await refreshNarratives(hubs, w.items, w.dataDir, { ...opts(llm), concurrency: 4 });
+  assert.equal(peak, 2, "the two children ran together");
+  assert.equal(order.at(-1), "topic/bc/fin narrative", "the parent waited for its level");
+  assert.equal(r.run.refreshed, 3);
+  const w2 = world(["a", "b", "c", "d", "e"]);
+  const q = await refreshNarratives([{ ...w2.hubs[0], children: [w2.hubs[1].id, extra.id] }, w2.hubs[1], extra], w2.items, w2.dataDir, { ...opts(llm, 1), concurrency: 4 });
+  assert.deepEqual([q.run.refreshed, q.run.stopped], [1, "quota"]);
+});

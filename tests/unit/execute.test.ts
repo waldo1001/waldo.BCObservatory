@@ -160,3 +160,38 @@ test("batch handlers: quota caps the group; a thrown StageHold holds the whole g
   const r = await run(m2, { video: { fetched: { batch: { size: 8, run: async () => { throw new StageHold("mirror busy"); } } } } });
   assert.deepEqual([r.held, get(m2, "VID3").attempts], [3, 0]);
 });
+
+test("concurrency: N items in flight, each still in stage order, quotas exact, nothing run twice", async () => {
+  const m = setup(6);
+  let inFlight = 0, peak = 0;
+  const seen: string[] = [];
+  const slow: StageHandler = async (it) => {
+    inFlight++; peak = Math.max(peak, inFlight); seen.push(`${it.id.slice(-4)}:${it.state}`);
+    await new Promise((r) => setTimeout(r, 5));
+    inFlight--;
+    return {};
+  };
+  const r = await run(m, { video: { fetched: slow, captioned: slow } }, { quotas: { ...quotas, captions: 5 }, concurrency: 3 });
+  assert.equal(peak, 3);
+  assert.equal(r.quota_charged.captions, 5);
+  assert.equal(seen.length, 10, "5 items x 2 stages, no duplicates");
+  assert.equal(new Set(seen).size, 10);
+  for (const k of ["VID6", "VID5", "VID4", "VID3", "VID2"]) assert.equal(get(m, k).state, "captioned");
+  assert.equal(get(m, "VID1").state, "discovered");
+});
+
+test("concurrency with batches: a claimed item is never started twice and continues after its batch", async () => {
+  const m = setup(7);
+  const calls: string[][] = [];
+  const batch = { size: 3, run: async (items: ManifestItem[]) => {
+    calls.push(items.map((i) => i.id.slice(-4)));
+    await new Promise((r) => setTimeout(r, 5));
+    return new Map(items.map((i) => [i.id, {}]));
+  } };
+  const r = await run(m, { video: { fetched: { batch }, captioned: ok } }, { quotas: { ...quotas, captions: 10 }, concurrency: 3 });
+  const flat = calls.flat();
+  assert.equal(flat.length, 7);
+  assert.equal(new Set(flat).size, 7, "every item batched exactly once");
+  for (let i = 1; i <= 7; i++) assert.equal(get(m, `VID${i}`).state, "captioned");
+  assert.equal(r.stages_run["video:captioned"], 7);
+});

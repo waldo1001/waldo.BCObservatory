@@ -8,6 +8,9 @@
  * - Run-level stops, checked before every stage: hard clock stop, llm_calls_max, the spend allowance (D17,
  *   LlmBudgetExhausted leaves the item untouched), and a re-guard every N LLM calls that stops on `skip`.
  * - LlmInfraError (auth, API-key auth, usage limit) aborts the run; the next night resumes.
+ * - `concurrency` workers share the plan (quota charging is synchronous, so it cannot race). An item in a batch in
+ *   flight is claimed and handed back for its next stages when the batch returns. Run-level checks happen before each
+ *   call starts, so a cap can be exceeded by at most the calls already in flight.
  */
 import type { Budget, SourceDef } from "../lib/config.js";
 import { decideGuard, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
@@ -94,6 +97,8 @@ export interface ExecuteOptions {
   readUsage?: () => Promise<PlanUsage | PlanUsageUnavailable>;
   /** LLM CLI calls so far; defaults to llmStats().calls. */
   callCount?: () => number;
+  /** Items worked on at the same time (each runs its stages in order). Default 1. */
+  concurrency?: number;
 }
 
 /**
@@ -185,46 +190,80 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   };
   const asError = (e: unknown) => (e instanceof Error ? e : new Error(String(e)));
 
-  outer: for (let wi = 0; wi < o.work.length; wi++) {
-    if (ended.has(o.work[wi].id)) continue;
-    let item: ManifestItem | null = o.manifest.get(o.work[wi].id);
-    if (!item) continue;
-    for (let stage: Stage | null = nextStage(item); item && stage; stage = item ? nextStage(item) : null) {
-      const h = handlerFor(o.handlers, item);
-      if (!h) { if (!touched.has(item.id)) r.no_handler++; break; }
-      const s = await runStop();
-      if (s) { stop = s; break outer; }
-      const q = quotaFor(item.pillar, stage);
-      if (!charge(q, chargedOf(item.id))) break;
-      touched.add(item.id);
-      if (h.run) {
-        let out: StageResult | Error;
-        try { out = await h.run(item, ctx); } catch (e) { out = asError(e); }
-        item = settle(item, stage, out);
-      } else {
+  // Work queue shared by the workers: plan order first; items that finished a batch come back through `requeue`.
+  const ids = o.work.map((w) => w.id);
+  const position = new Map(ids.map((id, i) => [id, i]));
+  let cursor = 0;
+  const requeue: string[] = [];
+  /** Items inside a batch in flight: no other worker may start them until the batch hands them back. */
+  const inBatch = new Set<string>();
+  /** Items a worker is running right now. */
+  const active = new Set<string>();
+  /** Items already handed to a worker or claimed by a batch: the cursor never hands them out again. */
+  const visited = new Set<string>();
+  const nextId = (): string | null => {
+    if (requeue.length) return requeue.shift()!;
+    while (cursor < ids.length) {
+      const id = ids[cursor++];
+      if (!ended.has(id) && !visited.has(id)) return id;
+    }
+    return null;
+  };
+
+  /** Run one item through every stage it can take now; batch peers are handed back through `requeue`. */
+  const runItem = async (id: string): Promise<void> => {
+    visited.add(id);
+    let item: ManifestItem | null = o.manifest.get(id);
+    if (!item) return;
+    active.add(id);
+    try {
+      for (let stage: Stage | null = nextStage(item); item && stage && !stop; stage = item ? nextStage(item) : null) {
+        const h = handlerFor(o.handlers, item);
+        if (!h) { if (!touched.has(item.id)) r.no_handler++; break; }
+        const s = await runStop();
+        if (s) { stop ??= s; break; }
+        const q = quotaFor(item.pillar, stage);
+        if (!charge(q, chargedOf(item.id))) break;
+        touched.add(item.id);
+        if (h.run) {
+          let out: StageResult | Error;
+          try { out = await h.run(item, ctx); } catch (e) { out = asError(e); }
+          item = settle(item, stage, out);
+          continue;
+        }
         // fill the batch with later planned items waiting for the same stage and handler
         const group: ManifestItem[] = [item];
-        for (let j = wi + 1; j < o.work.length && group.length < h.batch!.size; j++) {
-          if (ended.has(o.work[j].id)) continue;
-          const peer = o.manifest.get(o.work[j].id);
+        const from = (position.get(item.id) ?? -1) + 1;
+        for (let j = Math.max(from, cursor); j < ids.length && group.length < h.batch!.size; j++) {
+          const pid = ids[j];
+          if (ended.has(pid) || visited.has(pid)) continue;
+          const peer = o.manifest.get(pid);
           if (!peer || peer.pillar !== item.pillar || nextStage(peer) !== stage || handlerFor(o.handlers, peer)?.batch?.run !== h.batch!.run) continue;
-          if (!charge(q, chargedOf(peer.id))) break;
-          touched.add(peer.id);
+          if (!charge(q, chargedOf(pid))) break;
+          touched.add(pid);
+          inBatch.add(pid);
+          visited.add(pid);
           group.push(peer);
         }
         let results: Map<string, StageResult | Error>;
         try { results = await h.batch!.run(group, ctx); } catch (e) { results = new Map(group.map((g) => [g.id, asError(e)])); }
         let mine: ManifestItem | null = null;
         for (const g of group) {
-          const after = settle(g, stage, results.get(g.id) ?? new Error("batch returned no result for this item"));
+          const after = stop ? null : settle(g, stage, results.get(g.id) ?? new Error("batch returned no result for this item"));
           if (g.id === item.id) mine = after;
-          if (stop) break;
+          else { inBatch.delete(g.id); if (after && !stop) requeue.push(g.id); }
         }
         item = mine;
       }
-      if (stop) break outer;
+    } finally {
+      active.delete(id);
     }
-  }
+  };
+
+  const workers = Math.max(1, Math.floor(o.concurrency ?? 1));
+  await Promise.all(Array.from({ length: workers }, async () => {
+    for (let id = nextId(); id && !stop; id = nextId()) await runItem(id);
+  }));
   if (stop) r.stop_reason = stop;
   r.items_touched = touched.size;
   return r;

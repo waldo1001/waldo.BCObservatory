@@ -24,7 +24,7 @@ import { clip, tidy } from "../summarize/video.js";
 export const PROMPT_VERSION = 1;
 export const STAGE = "extract-docs";
 export const BATCH_SIZE = 8;
-export const CALL_CHARS = 40_000;
+export const CALL_CHARS = 80_000; // ~20k tokens: batches of 8 fit; 40k split them to 2.6 pages per call
 const SUMMARY_MAX = 400;
 
 const str = { type: "string" };

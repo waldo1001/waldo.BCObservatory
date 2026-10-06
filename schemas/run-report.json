@@ -81,7 +81,7 @@
       "properties": {
         "night_cap_usd": { "type": "number" }, "week_cap_usd": { "type": "number" },
         "today_usd": { "type": "number" }, "week_before_usd": { "type": "number" },
-        "allowance_usd": { "type": "number" }, "binding": { "enum": ["night", "week"] }, "exhausted": { "type": "boolean" }
+        "allowance_usd": { "type": "number" }, "binding": { "enum": ["night", "week"] }, "exhausted": { "type": "boolean" }, "override": { "type": "boolean", "description": "caps were replaced for this run with --night-cap/--week-cap" }
       }
     },
     "execution": {

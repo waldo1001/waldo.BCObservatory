@@ -128,3 +128,19 @@ test("spend: a used-up week cap still ingests but marks the run exhausted", asyn
   const r = await runNightly(opts(dir), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
   assert.deepEqual([r.spend?.allowance_usd, r.spend?.binding, r.spend?.exhausted, r.items_changed], [0, "week", true, 2]);
 });
+
+test("spend: --night-cap/--week-cap replace the caps for one run and the report says so", async () => {
+  assert.deepEqual(parseArgs(["--night-cap", "25"]).capOverride, { night_usd: 25 });
+  assert.deepEqual(parseArgs(["--night-cap", "25", "--week-cap", "90"]).capOverride, { night_usd: 25, week_usd: 90 });
+  assert.equal(parseArgs([]).capOverride, undefined);
+  assert.throws(() => parseArgs(["--night-cap", "lots"]), /dollar amount/);
+  const dir = repo();
+  const runs = join(dir, "data/manifest/_runs");
+  mkdirSync(runs, { recursive: true });
+  writeFileSync(join(runs, "2026-10-07.json"), JSON.stringify({ date: "2026-10-07", llm: { day_cost_usd: budget().spend_caps.night_usd } }));
+  const capped = await runNightly(opts(dir), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.equal(capped.spend?.allowance_usd, 0, "the default night cap is used up");
+  const more = await runNightly(opts(dir, { capOverride: { night_usd: budget().spend_caps.night_usd + 5 } }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.deepEqual([more.spend?.allowance_usd, more.spend?.override], [5, true]);
+  assert.ok(validate("run-report", report(dir)).ok);
+});
