@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/help-aldoc-generate-help",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99",
       "words": 780,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:39.439Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003612
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:39.448Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:39.448Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:39.449Z",
+      "page": false
     }
   },
   "input_hash": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5ecbb92c4a4be8a9c7841ae8d11371aea883c99"
+  "output_hash": "7636046b39d1ff20b5779da0e3202a1039eb908f63cf48808aac6b05e62ab75b"
 }

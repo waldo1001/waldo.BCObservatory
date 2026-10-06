@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/enhancing-server-instance-security.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/enhancing-server-instance-security",
+  "title": "Hardening Business Central Server Security",
+  "blob": "e8914c07c029c125a534ed60462c2f58a48aeec6",
+  "summary": "Security hardening recommendations for Business Central Server including login accounts, authentication, disk quotas, port access, and data encryption.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "server hardening",
+    "authentication",
+    "firewall",
+    "encryption",
+    "service account"
+  ],
+  "objects": [],
+  "features": [
+    "service account configuration",
+    "Microsoft Entra ID authentication",
+    "disk quotas",
+    "client services port",
+    "data encryption",
+    "IPSec"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003612,
+      "pages_in_call": 8
+    }
+  ]
+}

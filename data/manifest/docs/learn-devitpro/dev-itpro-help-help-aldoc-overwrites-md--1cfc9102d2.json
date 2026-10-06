@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/help-aldoc-overwrites",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "079feb36f2e1568473e7f57199916fd95a9ca974",
       "words": 470,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:39.440Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003612
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:39.450Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:39.451Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:39.452Z",
+      "page": false
     }
   },
   "input_hash": "079feb36f2e1568473e7f57199916fd95a9ca974",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "079feb36f2e1568473e7f57199916fd95a9ca974"
+  "output_hash": "85f8f4f56d126452a4bc868fd5cc1484d8df585339fbf44affe97cdd399ee4b6"
 }

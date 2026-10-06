@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/enhancing-server-instance-security",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e8914c07c029c125a534ed60462c2f58a48aeec6",
       "words": 581,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:39.440Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003612
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:39.453Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:39.454Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:39.454Z",
+      "page": false
     }
   },
   "input_hash": "e8914c07c029c125a534ed60462c2f58a48aeec6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8914c07c029c125a534ed60462c2f58a48aeec6"
+  "output_hash": "580857fd6761b5f4a7d39a24e7a73fb560fa6ad116e9e12c24fc8819bc67a7b7"
 }

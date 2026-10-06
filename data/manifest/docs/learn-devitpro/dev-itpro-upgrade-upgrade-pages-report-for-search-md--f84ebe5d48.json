@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pages-report-for-search",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f172dbca6d732c4e93151231cdc00826f86c91d9",
       "words": 382,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:39.441Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003612
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:41.206Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:41.207Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:41.208Z",
+      "page": false
     }
   },
   "input_hash": "f172dbca6d732c4e93151231cdc00826f86c91d9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f172dbca6d732c4e93151231cdc00826f86c91d9"
+  "output_hash": "2624e5afae962c7529cd8e28d8689f4c815af4bfcf1cc6f06f95b2acf274854a"
 }

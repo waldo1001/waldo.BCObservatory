@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-pages-report-for-search.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pages-report-for-search",
+  "title": "Making Pages and Reports in the MenuSuite Searchable After Upgrade",
+  "blob": "f172dbca6d732c4e93151231cdc00826f86c91d9",
+  "summary": "Making pages and reports searchable after upgrading from NAV to Business Central by setting UsageCategory properties instead of using MenuSuite.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "search",
+    "pages",
+    "reports",
+    "usagecategory",
+    "menusuite"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TransitionMenuSuiteObjectsForSearch.psm1"
+    }
+  ],
+  "features": [
+    "UsageCategory property",
+    "AccessByPermissions property",
+    "ApplicationArea property",
+    "search indexing",
+    "PowerShell cmdlet"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003612,
+      "pages_in_call": 8
+    }
+  ]
+}

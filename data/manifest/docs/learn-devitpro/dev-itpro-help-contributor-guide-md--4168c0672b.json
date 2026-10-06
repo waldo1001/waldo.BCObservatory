@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/contributor-guide",
   "published_at": "2025-05-06T19:27:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a6c474155cd21c584fcfdbbab76e4fb6e0a54d4",
       "words": 1389,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:39.438Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003612
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:39.445Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:39.446Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:39.447Z",
+      "page": false
     }
   },
   "input_hash": "7a6c474155cd21c584fcfdbbab76e4fb6e0a54d4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a6c474155cd21c584fcfdbbab76e4fb6e0a54d4"
+  "output_hash": "20c3458eb90996851ab7aade270b674a809c9cce52883cef147cd1accc290e06"
 }
