@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-code-navigation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-code-navigation",
+  "title": "AL code navigation",
+  "blob": "9f80f0d4da22ce30fc4ce110eaa6cbef3419b8fb",
+  "summary": "AL code navigation describes using Go To Definition in Visual Studio Code to navigate between AL source code and base application code, with support for stepping into referenced code and debugging.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "code navigation",
+    "debugging",
+    "visual studio code",
+    "dal files",
+    "extensions"
+  ],
+  "objects": [],
+  "features": [
+    "Go To Definition",
+    "DAL format preview",
+    "breakpoint debugging",
+    "resource exposure policy",
+    "symbol navigation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

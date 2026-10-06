@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-retaining-data-after-publishing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-retaining-data-after-publishing",
+  "title": "Synchronizing extension test data",
+  "blob": "38fec8d738b5086b91deb2c68c3cf5aa96739bcf",
+  "summary": "Synchronizing extension test data explains how to retain sample data between extension publishes using schemaUpdateMode settings in launch.json for efficient development and testing.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "data synchronization",
+    "extension development",
+    "schema updates",
+    "launch.json",
+    "testing"
+  ],
+  "objects": [],
+  "features": [
+    "Synchronize mode",
+    "Recreate mode",
+    "ForceSync mode",
+    "schemaUpdateMode setting",
+    "data retention"
+  ],
+  "versions": [
+    "Spring 2019"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

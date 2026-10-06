@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-retaining-data-after-publishing",
   "published_at": "2026-05-21T12:43:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "38fec8d738b5086b91deb2c68c3cf5aa96739bcf",
       "words": 823,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:17.386Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006054
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:17.405Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:17.406Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:28:17.407Z",
+      "page": false
     }
   },
   "input_hash": "38fec8d738b5086b91deb2c68c3cf5aa96739bcf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38fec8d738b5086b91deb2c68c3cf5aa96739bcf"
+  "output_hash": "188122474f374e56adc9ebdef95e6dcbfba8785985913739d8636878a354f82d"
 }

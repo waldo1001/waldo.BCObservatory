@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-error-handling.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling",
+  "title": "AL error handling",
+  "blob": "30c083c92998b74871936ca6b9a5437b8c5c199b",
+  "summary": "AL error handling provides strategies, methods, and guidelines for handling runtime errors in Business Central using error dialogs, try methods, error collection, and telemetry.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "error handling",
+    "exceptions",
+    "telemetry",
+    "debugging",
+    "user experience"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ErrorInfo Data Type"
+    },
+    {
+      "type": "other",
+      "name": "System Data Type"
+    },
+    {
+      "type": "other",
+      "name": "Dialog Data Type"
+    }
+  ],
+  "features": [
+    "Error dialogs",
+    "Try methods",
+    "Error collection",
+    "Error telemetry",
+    "ErrorInfo data type",
+    "Error message quality"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

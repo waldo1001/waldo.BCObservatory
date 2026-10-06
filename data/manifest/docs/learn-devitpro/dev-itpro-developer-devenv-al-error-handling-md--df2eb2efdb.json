@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "30c083c92998b74871936ca6b9a5437b8c5c199b",
       "words": 754,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:17.387Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006054
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:17.409Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:17.410Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:28:17.411Z",
+      "page": false
     }
   },
   "input_hash": "30c083c92998b74871936ca6b9a5437b8c5c199b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "30c083c92998b74871936ca6b9a5437b8c5c199b"
+  "output_hash": "50820bd45ec6163816cafd6f41497d94d922399e1953b7993247d455ad4e7fa9"
 }

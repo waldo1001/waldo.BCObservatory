@@ -1,0 +1,27 @@
+{
+  "video_id": "VEVo5LgCGfw",
+  "item_id": "video/yt-microsoft/VEVo5LgCGfw",
+  "summary": "Open sourcing of the Power BI apps for Business Central: most apps were open sourced in release wave 1, and the sales, purchasing and projects apps follow in wave 2. The video shows how to download the PBX file from Power BI service and where the app documentation, including DAX expressions, is found.",
+  "overview": "The video, published 2025-10-01 for 2025 release wave 2, explains that the Power BI apps for Business Central are open sourced. Users can download the source code and modify the semantic models and reports. Most apps were open sourced in wave 1, and the remaining three (sales, purchasing, projects) come in wave 2.\n\nIt demonstrates downloading the PBX file through the File menu in Power BI service. It also points to the documentation for each app, which covers the reports and the semantic model, including how measures are calculated and their DAX expressions. The video closes with community channels to follow and partner resources, including office hours.",
+  "key_points": [
+    "Most Power BI apps for Business Central were open sourced in release wave 1.",
+    "The remaining three apps, for sales, purchasing and projects, are released in wave 2.",
+    "To get the source code, download the PBX file from Power BI service using the File menu.",
+    "For sales, purchasing and projects, the download option is only present in the new versions published in October.",
+    "Each app has its own documentation covering the reports and the semantic model.",
+    "The documentation explains how measures are calculated and gives their DAX expressions.",
+    "Downloaded source lets you modify semantic models and reports."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "630fb8e757269e1b351d1c9c1a75d73121cc2f430f4b3832308a5a9f90a24503",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0117364
+  }
+}

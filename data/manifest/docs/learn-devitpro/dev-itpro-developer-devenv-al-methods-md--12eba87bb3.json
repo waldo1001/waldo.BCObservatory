@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-methods",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f56024ef52ece5184ae8df546947b5ea06e88aca",
       "words": 1259,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:17.387Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006054
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:17.412Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:17.412Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:28:17.413Z",
+      "page": false
     }
   },
   "input_hash": "f56024ef52ece5184ae8df546947b5ea06e88aca",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f56024ef52ece5184ae8df546947b5ea06e88aca"
+  "output_hash": "471346f6aeef6323063b36bffb43c1646b5db4bc833e406d3f645f111dbe4188"
 }

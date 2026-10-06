@@ -1,0 +1,27 @@
+{
+  "video_id": "VjYMhjjc3uw",
+  "item_id": "video/yt-microsoft/VjYMhjjc3uw",
+  "summary": "Shopify Connector support for Shopify B2B companies with multiple locations in Business Central (2025 release wave 2). Covers importing B2B orders, the Shopify Companies and Locations lists, mapping locations to sell-to and bill-to customers, and pushing Business Central customers to Shopify as companies.",
+  "overview": "The video explains how the Shopify Connector handles Shopify B2B companies whose locations represent different business or legal entities. Locations can differ in address, payment terms and buyers. Because each legal entity is a customer in Business Central, locations need to be mapped to customers.\n\nThe demo imports B2B orders from several locations, then shows the new Shopify Companies and Shopify Locations lists and how locations are mapped to sell-to and bill-to customers. It also shows creating Shopify companies and locations from existing Business Central customers, with optional automatic catalog creation per location, and syncing payment terms.",
+  "key_points": [
+    "Shopify B2B company locations can have different addresses, payment terms and buyers. Each legal entity must be a customer in Business Central.",
+    "The Shopify Companies list is new. It has a fact box with the number of locations per company. Companies are mapped to customers by tax ID.",
+    "The Shopify Locations list shows address, tax information and payment terms. It has sell-to and bill-to customer number fields for mapping.",
+    "Once locations are mapped, imported orders get the correct sell-to and bill-to customers automatically.",
+    "Advanced scenarios, where locations of one company map to different customers, may need manual mapping configuration.",
+    "Business Central customers can be pushed to Shopify as a company with multiple locations. This needs existing customers with tax and address information.",
+    "Separate catalogs per location can be created automatically if the matching configuration setting is enabled."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "4cb77c643336f28b347d4143bb1b325ddc45718edddfa08e3e2f1a0715bfd089",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015126399999999998
+  }
+}

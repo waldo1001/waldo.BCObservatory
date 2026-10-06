@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-migrate-table-fields-down.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-down",
+  "title": "Moving Tables and Fields to Extensions Down the Dependency Graph",
+  "blob": "17ed895887e9a0197fa8a8e0c828554aa12bf892",
+  "summary": "Moving Tables and Fields to Extensions Down the Dependency Graph explains how to transfer table ownership from one extension to another extension lower in the dependency chain using migration.json.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extensions",
+    "table migration",
+    "dependencies",
+    "schema updates",
+    "data migration"
+  ],
+  "objects": [],
+  "features": [
+    "Migration.json file",
+    "Table extension objects",
+    "Dependency management",
+    "Data preservation",
+    "Field renames"
+  ],
+  "versions": [
+    "2020 release wave 1 version 16.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

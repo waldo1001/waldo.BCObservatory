@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces",
   "published_at": "2026-05-21T12:43:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dfee31c424b65c297cccc22002cb808032b4d505",
       "words": 1210,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:17.385Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006054
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:17.398Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:17.400Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:28:17.401Z",
+      "page": false
     }
   },
   "input_hash": "dfee31c424b65c297cccc22002cb808032b4d505",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dfee31c424b65c297cccc22002cb808032b4d505"
+  "output_hash": "d32da269f24dabc67554ade48341a480e517d1f2fb593ae1bfdcca19bf9ecc9b"
 }

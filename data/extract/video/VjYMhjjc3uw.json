@@ -1,0 +1,290 @@
+{
+  "video_id": "VjYMhjjc3uw",
+  "item_id": "video/yt-microsoft/VjYMhjjc3uw",
+  "title": "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)",
+  "duration_s": 418,
+  "systems": [
+    "integration",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "shopify connector",
+    "b2b companies",
+    "company locations",
+    "customer mapping",
+    "sell-to customer",
+    "bill-to customer",
+    "payment terms",
+    "multi-location",
+    "order import",
+    "customer synchronization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Shopify B2B Companies and Locations",
+      "t_start": 0,
+      "t_end": 51.6
+    },
+    {
+      "title": "Demo: Importing Shopify B2B Orders with Multiple Locations",
+      "t_start": 51.6,
+      "t_end": 92.9
+    },
+    {
+      "title": "Shopify Companies and Locations List in Business Central",
+      "t_start": 92.9,
+      "t_end": 152.4
+    },
+    {
+      "title": "Mapping Multiple Locations to Different Customers",
+      "t_start": 152.4,
+      "t_end": 233.8
+    },
+    {
+      "title": "Creating Shopify Companies from Business Central Customers",
+      "t_start": 233.8,
+      "t_end": 323.7
+    },
+    {
+      "title": "Syncing Catalogs and Payment Terms Between Systems",
+      "t_start": 323.7,
+      "t_end": 384.2
+    },
+    {
+      "title": "Summary and Closing",
+      "t_start": 384.2,
+      "t_end": 418
+    }
+  ],
+  "features": [
+    {
+      "name": "Shopify B2B Companies with Multiple Locations",
+      "description": "Support for importing Shopify B2B companies that have multiple locations, each representing different business or legal entities. Locations can have different addresses, payment terms, and buyers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.5,
+      "t_end": 51.6,
+      "is_demoed": true,
+      "caveats": [
+        "Each legal entity must be represented as a customer in Business Central"
+      ],
+      "tags": [
+        "b2b",
+        "multi-location",
+        "shopify",
+        "companies"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Orders Import",
+      "description": "Ability to import orders from Shopify into Business Central. Orders from multiple locations can be synchronized and assigned to appropriate customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.7,
+      "t_end": 104.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order import",
+        "shopify",
+        "sync"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Shopify Companies List",
+      "description": "A new list in Business Central that displays Shopify companies and includes a fact box showing the number of locations associated with each company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.9,
+      "t_end": 130.2,
+      "is_demoed": true,
+      "caveats": [
+        "Companies are mapped to customers by tax ID"
+      ],
+      "tags": [
+        "list",
+        "companies",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Locations List",
+      "description": "A new list page that displays Shopify company locations with their addresses, tax information, and payment terms. Includes sell-to and bill-to customer number fields for mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119.4,
+      "t_end": 163.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "locations",
+        "list",
+        "mapping",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Location-to-Customer Mapping",
+      "description": "Ability to map Shopify locations to different sell-to and bill-to customers in Business Central. Enables advanced scenarios where multiple locations of a company are represented by different customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 152.4,
+      "t_end": 207.7,
+      "is_demoed": true,
+      "caveats": [
+        "Advanced mapping scenarios may require manual configuration"
+      ],
+      "tags": [
+        "mapping",
+        "customer",
+        "locations"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Order Synchronization with Location Mapping",
+      "description": "When orders are synchronized from Shopify, the sell-to and bill-to customers are automatically assigned based on the location mappings configured in the Shopify Locations list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.7,
+      "t_end": 233.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order sync",
+        "mapping",
+        "automatic"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Push Business Central Customers to Shopify",
+      "description": "Ability to create Shopify companies with locations from existing Business Central customers. The connector can add multiple customers as Shopify locations and populate their tax, address, and payment term information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.8,
+      "t_end": 323.7,
+      "is_demoed": true,
+      "caveats": [
+        "Required to have existing customers in Business Central with appropriate tax and address information"
+      ],
+      "tags": [
+        "push",
+        "customers",
+        "shopify",
+        "locations"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Automatic Catalog Creation for Locations",
+      "description": "When creating Shopify companies from Business Central customers, the connector can automatically create separate catalogs for each location if configured to do so.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.9,
+      "t_end": 404.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration setting to enable automatic catalog creation"
+      ],
+      "tags": [
+        "catalogs",
+        "locations",
+        "automatic"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Companies",
+      "t": 104.1
+    },
+    {
+      "type": "page",
+      "name": "Shopify Locations",
+      "t": 130.2
+    },
+    {
+      "type": "page",
+      "name": "List of Orders",
+      "t": 74.7
+    },
+    {
+      "type": "page",
+      "name": "List of Customers",
+      "t": 253.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 20.2,
+      "text": "You can specify payment terms. You can define multiple buyers who will be performing transactions. And you can define specific prices for it and",
+      "why_it_matters": "Explains the core capability of Shopify B2B companies to support multiple locations as separate legal entities with different payment terms and buyers.",
+      "check": "exact"
+    },
+    {
+      "t": 36.8,
+      "text": "And here is a catch because in business central uh each legal entity is a customer.",
+      "why_it_matters": "Identifies the key design decision that each Shopify B2B location must map to a Business Central customer.",
+      "check": "exact"
+    },
+    {
+      "t": 104.1,
+      "text": "Actually list of companies contains only one company because this is the number of companies we had in the Shopify and you can see",
+      "why_it_matters": "Demonstrates the automatic mapping mechanism between Shopify companies and Business Central customers.",
+      "check": "exact"
+    },
+    {
+      "t": 152.4,
+      "text": "And this one you can use for more advanced mapping scenarios.",
+      "why_it_matters": "Explains the flexibility of the sell-to and bill-to customer fields for complex business scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 323.7,
+      "text": "Now, when order will be imported from Shopify into Business Central, the correct sell to customer will be assigned automatically.",
+      "why_it_matters": "Confirms that order synchronization uses the configured location-to-customer mappings to assign customers automatically.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022917
+    }
+  ]
+}

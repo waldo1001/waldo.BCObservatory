@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-migrate-table-fields-up.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-up",
+  "title": "Moving Tables and Fields to Extensions Up the Dependency Graph",
+  "blob": "206daed307bb0caa4dbb090f8e25144b48f68646",
+  "summary": "Moving Tables and Fields to Extensions Up the Dependency Graph explains a two-stage process using a transition extension to move table ownership to extensions higher in the dependency chain.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extensions",
+    "table migration",
+    "dependencies",
+    "on-premises",
+    "schema updates"
+  ],
+  "objects": [],
+  "features": [
+    "Migration.json file",
+    "Transition extension",
+    "Two-stage deployment",
+    "Table ownership transfer",
+    "Enum type fields"
+  ],
+  "versions": [
+    "2020 release wave 1 version 16.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

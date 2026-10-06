@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d60376ca5eee4933522b1a21e31de5c5c1df12e7",
       "words": 3627,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:17.388Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006054
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:17.413Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:17.414Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:28:17.414Z",
+      "page": false
     }
   },
   "input_hash": "d60376ca5eee4933522b1a21e31de5c5c1df12e7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d60376ca5eee4933522b1a21e31de5c5c1df12e7"
+  "output_hash": "079bf2b2554365c3e863d934995a5fa8d12dd0867665e5923483887348c31c70"
 }

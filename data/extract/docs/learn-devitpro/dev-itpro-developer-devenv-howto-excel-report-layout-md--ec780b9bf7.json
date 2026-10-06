@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-howto-excel-report-layout.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout",
+  "title": "Creating an Excel layout report",
+  "blob": "d60376ca5eee4933522b1a21e31de5c5c1df12e7",
+  "summary": "Creating an Excel layout report describes designing Excel-based report layouts with data contracts, translations, formatting, validation, and system worksheets for dynamic reporting.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "excel layouts",
+    "reports",
+    "data contracts",
+    "translations",
+    "formatting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contact - List"
+    }
+  ],
+  "features": [
+    "Excel layout data contract",
+    "ExcelLayoutMultipleDataSheets",
+    "System worksheets",
+    "Translation support",
+    "Named formulas",
+    "Drillthrough",
+    "Data validation"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "2023 release wave 2",
+    "2024 release wave 2",
+    "2025 release wave 1",
+    "version 23.3",
+    "version 24.1",
+    "version 25.3",
+    "version 26.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006054,
+      "pages_in_call": 8
+    }
+  ]
+}

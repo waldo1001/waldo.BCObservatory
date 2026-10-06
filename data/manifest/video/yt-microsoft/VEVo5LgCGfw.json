@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=VEVo5LgCGfw",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -38,6 +38,27 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.017524
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:59.437Z",
+      "path": "data/summary/video/VEVo5LgCGfw.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0117364
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:59.439Z",
+      "systems": [
+        "reporting",
+        "sales",
+        "purchasing"
+      ],
+      "topics": 7,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:27:59.450Z",
+      "path": "content/videos/VEVo5LgCGfw.md"
     }
   },
   "input_hash": null,
@@ -49,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "630fb8e757269e1b351d1c9c1a75d73121cc2f430f4b3832308a5a9f90a24503"
+  "output_hash": "efe96e83c113177930ba6047b54dfb954744a74331471402675eccc03bab67cb"
 }

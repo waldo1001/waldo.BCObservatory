@@ -1,0 +1,27 @@
+{
+  "video_id": "UKVp28M5TtU",
+  "item_id": "video/yt-microsoft/UKVp28M5TtU",
+  "summary": "Business Central sustainability feature (2025 release wave 2) that lets an organization measure all greenhouse gases as carbon equivalents instead of entering emission factors per gas. Covers the Sustainability Setup toggle, default factor of 1, and the caption changes across pages, shown in a before and after demo.",
+  "overview": "The video explains a sustainability setting that lets users track all gas emissions as carbon equivalents. This addresses a common problem: emission factors are often available for carbon dioxide but not for other gases such as methane. With the setting on, users enter only carbon equivalent values rather than a factor for each gas.\n\nThe presenter describes the two models an organization can choose between, enables the setting in Sustainability Setup, and demonstrates the before and after. Captions change on the pages, and emission factors are pre-configured with a carbon equivalent value of 1.",
+  "key_points": [
+    "The new toggle 'Use all emissions as carbon equivalent' is in the Sustainability Setup page.",
+    "Two models exist: detailed per-gas emission tracking, or carbon equivalents only. The organization must choose one.",
+    "When enabled, emission factors are pre-configured with carbon equivalent values of 1 by default; adjust them if your factors differ.",
+    "Captions change from gas-specific names (e.g. 'Default Metan') to 'Default Carbon Equivalent for CH4'.",
+    "Caption changes appear on the item card, purchase documents, and sustainability ledger entries, among other sustainability pages.",
+    "The motivation is that emission factors are often unavailable for each individual gas, such as methane.",
+    "The demo shows the before and after of enabling the setting."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "d9df74a1829064d00859e2390790018623f1739b9d16107d5279b44386c61b57",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135264
+  }
+}
