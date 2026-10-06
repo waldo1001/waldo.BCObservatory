@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-general-ledger-turnover.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-general-ledger-turnover",
+  "title": "Item general ledger turnover in Russia",
+  "blob": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7",
+  "summary": "Item General Ledger Turnover page and report display monthly turnover for items in quantities and costs, including beginning/ending balances and adjustments, with data validated against warehouse and general ledger accounts.",
+  "systems": [
+    "inventory",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "item turnover",
+    "inventory reporting",
+    "russia",
+    "cost accounting",
+    "quantity tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item General Ledger Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Item Turnover (Qty.)"
+    }
+  ],
+  "features": [
+    "turnover sheet",
+    "date filter",
+    "location filter",
+    "global dimension filters",
+    "cost data verification",
+    "quantity reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0033,
+      "pages_in_call": 8
+    }
+  ]
+}

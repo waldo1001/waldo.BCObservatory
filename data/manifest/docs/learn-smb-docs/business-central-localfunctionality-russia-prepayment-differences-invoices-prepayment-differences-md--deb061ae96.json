@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f8b55066990f06048091fe3550ad6730dfa5c504",
       "words": 232,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:42.522Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0033
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:42.541Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:42.542Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:42.543Z",
+      "page": false
     }
   },
   "input_hash": "f8b55066990f06048091fe3550ad6730dfa5c504",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8b55066990f06048091fe3550ad6730dfa5c504"
+  "output_hash": "2a6c37bc2cb9b883852edb5bb95a2719cea53d7d8688d308749b3606cc0d1f40"
 }

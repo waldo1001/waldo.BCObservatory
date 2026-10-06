@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
       "words": 703,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:42.520Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0033
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:42.535Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:42.536Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:42.537Z",
+      "page": false
     }
   },
   "input_hash": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39"
+  "output_hash": "06628738a5682e9a493c89eef3f644d4270665b20ee2d34eb66d2069b69d977b"
 }

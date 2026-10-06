@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/posting-vat-on-sales",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "97eb285870f510f9197a3205c6f29380ce393335",
       "words": 318,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:42.521Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0033
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:42.538Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:42.539Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:42.540Z",
+      "page": false
     }
   },
   "input_hash": "97eb285870f510f9197a3205c6f29380ce393335",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97eb285870f510f9197a3205c6f29380ce393335"
+  "output_hash": "ddc3f6f4fd7947a315b99b1e1e9b72095ccf00b10292dde69d2b1a671d7d9d26"
 }

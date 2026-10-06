@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers",
+  "title": "Prepayments for vendors and customers in Russia",
+  "blob": "993468f648ea629b6568f46eb1a2a5552275a561",
+  "summary": "Posting vendor and customer prepayments in Russia uses separate prepayment accounts per accounting rules, with posting and application functionality in general journal and ledger entries.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "prepayments",
+    "vendor prepayments",
+    "customer prepayments",
+    "russia",
+    "prepayment accounts"
+  ],
+  "objects": [],
+  "features": [
+    "prepayment posting",
+    "prepayment accounts",
+    "prepayment application",
+    "vendor ledger",
+    "customer ledger"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0033,
+      "pages_in_call": 8
+    }
+  ]
+}

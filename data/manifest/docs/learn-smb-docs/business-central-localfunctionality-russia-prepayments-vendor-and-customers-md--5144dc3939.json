@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "993468f648ea629b6568f46eb1a2a5552275a561",
       "words": 167,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:42.523Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.0033
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:44.174Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:44.176Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:44.177Z",
+      "page": false
     }
   },
   "input_hash": "993468f648ea629b6568f46eb1a2a5552275a561",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "993468f648ea629b6568f46eb1a2a5552275a561"
+  "output_hash": "ed87ce3ea55fc6c7bc1c278cf599156be88968b58f06fa5653087edf4fd09f7f"
 }

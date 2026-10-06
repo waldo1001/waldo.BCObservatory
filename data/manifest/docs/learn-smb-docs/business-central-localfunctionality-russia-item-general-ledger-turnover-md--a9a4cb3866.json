@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-general-ledger-turnover",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7",
       "words": 918,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:42.517Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.0033
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:42.525Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:42.525Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:42.526Z",
+      "page": false
     }
   },
   "input_hash": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7"
+  "output_hash": "b9481a66eeed9ae6408a5b117b86e2bd283e9b52f7111756305f3227e002e3c7"
 }

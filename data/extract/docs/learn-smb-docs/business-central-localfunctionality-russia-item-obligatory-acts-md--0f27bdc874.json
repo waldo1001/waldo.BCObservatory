@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-obligatory-acts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-obligatory-acts",
+  "title": "Item obligatory acts in Russia",
+  "blob": "d8e85fe3be9d784adf3d4597f6f74eadb6e76b84",
+  "summary": "Item obligatory acts enable printing required material and production resource reports for Russia including item details, storage locations, and vendor information with various regulatory forms.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "item reports",
+    "obligatory acts",
+    "russia",
+    "regulatory forms",
+    "inventory documentation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Card M-17"
+    },
+    {
+      "type": "report",
+      "name": "Physical Inventory Form INV-3"
+    },
+    {
+      "type": "report",
+      "name": "Physical Inventory Form INV-19"
+    },
+    {
+      "type": "report",
+      "name": "Transfer Order TORG-13"
+    },
+    {
+      "type": "report",
+      "name": "Shipment Request M-11"
+    },
+    {
+      "type": "report",
+      "name": "Warehouse Purchase Receipt М-4"
+    },
+    {
+      "type": "report",
+      "name": "Sales Shipment M-15"
+    }
+  ],
+  "features": [
+    "regulatory reporting",
+    "inventory documentation",
+    "item tracking",
+    "warehouse reports",
+    "shipment forms"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0033,
+      "pages_in_call": 8
+    }
+  ]
+}
