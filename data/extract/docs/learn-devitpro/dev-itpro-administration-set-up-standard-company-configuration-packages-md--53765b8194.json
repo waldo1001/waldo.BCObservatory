@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/set-up-standard-company-configuration-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+  "title": "Set Up Company Configuration Packages",
+  "blob": "4f9285b746fbadeacaa4215ec4ae29afecccd7e7",
+  "summary": "Set up company configuration packages as reusable templates for deployment to speed up implementation of standard company setups for resellers.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "configuration packages",
+    "setup",
+    "implementation",
+    "reseller",
+    "migration",
+    "configuration templates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Configuration Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Package"
+    },
+    {
+      "type": "page",
+      "name": "Config Package Card"
+    },
+    {
+      "type": "page",
+      "name": "Config. Package Fields"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Questionnaire"
+    },
+    {
+      "type": "page",
+      "name": "Config. Question Area"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Templates"
+    }
+  ],
+  "features": [
+    "configuration package creation",
+    "configuration templates",
+    "configuration worksheet",
+    "master data import",
+    "configuration questionnaire",
+    "rapidstart file export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}

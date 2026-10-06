@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments",
   "published_at": "2025-12-12T08:45:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "305c19c8715b1b97c8fee92d30e849ebec934ef6",
       "words": 117,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.929Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:20.397Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:20.398Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:20.399Z",
+      "page": false
     }
   },
   "input_hash": "305c19c8715b1b97c8fee92d30e849ebec934ef6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "305c19c8715b1b97c8fee92d30e849ebec934ef6"
+  "output_hash": "70b34d424f2f183db7e51a2c3458d4931c9c2ae19654b051154ac8669e709ce9"
 }

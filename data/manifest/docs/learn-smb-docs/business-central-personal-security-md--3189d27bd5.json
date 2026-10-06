@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/personal-security",
   "published_at": "2025-12-16T14:41:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "35ed4117890e989314c822d753607695262ad2f9",
       "words": 316,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.924Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:18.721Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:18.722Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:18.722Z",
+      "page": false
     }
   },
   "input_hash": "35ed4117890e989314c822d753607695262ad2f9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "35ed4117890e989314c822d753607695262ad2f9"
+  "output_hash": "5b617fb1a1f1f0b6f954518f74162d1426e9004118b297bfba51c045cf6e9586"
 }

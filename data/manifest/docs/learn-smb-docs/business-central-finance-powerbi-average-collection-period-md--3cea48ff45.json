@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-average-collection-period",
   "published_at": "2025-12-17T10:11:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d0da8f40adc7be1901cc4dc16814d1b63ab71b88",
       "words": 239,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.922Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:18.718Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:18.719Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:18.720Z",
+      "page": false
     }
   },
   "input_hash": "d0da8f40adc7be1901cc4dc16814d1b63ab71b88",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0da8f40adc7be1901cc4dc16814d1b63ab71b88"
+  "output_hash": "fa6fa39222cc027817bc1c3bf6af74c4536bf2c591407354459fad2348e24dde"
 }

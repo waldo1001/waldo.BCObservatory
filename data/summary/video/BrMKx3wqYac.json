@@ -1,0 +1,27 @@
+{
+  "video_id": "BrMKx3wqYac",
+  "item_id": "video/yt-microsoft/BrMKx3wqYac",
+  "summary": "AI consumption billing for Business Central copilot features, shown with the sales order agent: usage is measured in Microsoft Copilot Studio messages, paid by prepaid message packs or pay-as-you-go, and configured by linking a Business Central environment to a Power Platform environment.",
+  "overview": "The video explains how AI features in Business Central are billed. Microsoft Copilot Studio messages act as a common currency across Microsoft products. At the time of the video, the sales order agent is the only capability built for this billing. Every tenant gets a limited preview evaluation capacity to set up and try the agent.\n\nThe demo covers the Copilot and Agents capabilities page, with its notifications about AI activation and capacity use. It then covers the billing meters, linking to a Power Platform environment, billing policies, prepaid packs, pay-as-you-go, and allocating capacity to individual environments.",
+  "key_points": [
+    "Usage is measured in Microsoft Copilot Studio messages. Two meters apply: generative answers (each email message the sales order agent generates) and autonomous actions (operations on sales quotes and sales orders).",
+    "Only the sales order agent is currently built for AI consumption billing.",
+    "Every Business Central tenant gets a limited preview evaluation capacity to set up and try the sales order agent. It runs out after the initial trial.",
+    "Billing policies require linking the Business Central environment to a Power Platform environment. The two must have the same environment type and geography.",
+    "Prepaid message packs are a monthly subscription with a fixed number of messages, renewed monthly. The presenter suggests them if you always consume 25,000 or more messages.",
+    "Pay-as-you-go bills the messages consumed after the month ends. The presenter suggests it for variable consumption.",
+    "Administrators can allocate message capacity to each environment and can disable overages to keep costs predictable."
+  ],
+  "audience": [
+    "administrator",
+    "decision maker",
+    "functional consultant"
+  ],
+  "extraction_hash": "5affe669b2d5ff8e7477cd0b280e06f96dda5f9432e4dc98c098fffa594d29bd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017198400000000003
+  }
+}

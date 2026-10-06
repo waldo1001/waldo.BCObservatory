@@ -1,0 +1,79 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-cbam-epr-calculations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-cbam-epr-calculations",
+  "title": "Use CBAM and EPR calculations",
+  "blob": "ad9c630b9c7fcff3458b63ab9c78c4da676fb5fd",
+  "summary": "Use CBAM and EPR calculations to track product materials and environmental fees for compliance with local regulations and environmental responsibility.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "cbam",
+    "epr",
+    "emissions",
+    "environmental fees",
+    "excise taxes",
+    "compliance",
+    "material composition"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "EPR Material Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Material Composition"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Carbon Pricing"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Excise Journal"
+    },
+    {
+      "type": "page",
+      "name": "Excise Taxes Transaction Logs"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "EPR Materials"
+    }
+  ],
+  "features": [
+    "Extended Producer Responsibility",
+    "CBAM compliance",
+    "carbon pricing",
+    "emission tracking",
+    "material composition tracking",
+    "EPR fee calculation",
+    "excise tax framework"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}

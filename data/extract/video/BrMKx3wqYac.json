@@ -1,0 +1,356 @@
+{
+  "video_id": "BrMKx3wqYac",
+  "item_id": "video/yt-microsoft/BrMKx3wqYac",
+  "title": "Introducing: AI Consumption Billing for Business Central (2025 release wave 1)",
+  "duration_s": 995,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "ai consumption billing",
+    "sales order agent",
+    "copilot studio messages",
+    "prepaid capacity",
+    "pay as you go",
+    "power platform billing",
+    "message meters",
+    "generative answers",
+    "autonomous actions",
+    "capacity allocation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sales Order Agent and AI Consumption",
+      "t_start": 0,
+      "t_end": 63.5
+    },
+    {
+      "title": "UI Notifications and Capacity Monitoring",
+      "t_start": 63.5,
+      "t_end": 152.9
+    },
+    {
+      "title": "Billing Mechanism and Microsoft Copilot Studio Messages",
+      "t_start": 152.9,
+      "t_end": 269
+    },
+    {
+      "title": "Sales Order Agent Billing Meters and Scenarios",
+      "t_start": 269,
+      "t_end": 378
+    },
+    {
+      "title": "Setup: Preview Evaluation Capacity and Billing Options",
+      "t_start": 378,
+      "t_end": 506.2
+    },
+    {
+      "title": "Linking to Power Platform and Configuring Billing Policies",
+      "t_start": 506.2,
+      "t_end": 637
+    },
+    {
+      "title": "Prepaid Capacity and Message Packs",
+      "t_start": 637,
+      "t_end": 738.3
+    },
+    {
+      "title": "Purchasing and Allocating Copilot Studio Capacity",
+      "t_start": 738.3,
+      "t_end": 872.3
+    },
+    {
+      "title": "Summary and Final Configuration Confirmation",
+      "t_start": 872.3,
+      "t_end": 995
+    }
+  ],
+  "features": [
+    {
+      "name": "AI consumption billing for Business Central",
+      "description": "A new billing mechanism for copilot features in Business Central that uses Microsoft Copilot Studio messages as a common currency across Microsoft products and services, with options for prepaid message packs or pay-as-you-go plans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.8,
+      "t_end": 269,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only the sales order agent is built for AI consumption billing",
+        "Requires linking Business Central environment to Power Platform environment"
+      ],
+      "tags": [
+        "billing",
+        "copilot",
+        "consumption",
+        "metrics"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and Agents capabilities page",
+      "description": "Rebranded page formerly called 'copilot and AI capabilities' that lists all copilot capabilities and agents, with notifications about AI activation and capacity usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.5,
+      "t_end": 168.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "notifications",
+        "copilot",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Preview evaluation capacity",
+      "description": "Limited preview capacity provided to every Business Central tenant to allow customers to set up and try the sales order agent before committing to paid billing options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 453.7,
+      "t_end": 479.8,
+      "is_demoed": false,
+      "caveats": [
+        "Limited capacity",
+        "Runs out after initial trial period"
+      ],
+      "tags": [
+        "trial",
+        "evaluation",
+        "capacity",
+        "onboarding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prepaid Copilot Studio message packs",
+      "description": "Monthly subscription option for purchasing a fixed number of Microsoft Copilot Studio messages upfront, renewable every month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.4,
+      "t_end": 269,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "prepaid",
+        "subscription",
+        "billing",
+        "capacity"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Pay-as-you-go billing plan",
+      "description": "Flexible billing option where customers pay for the number of Copilot Studio messages consumed after the month concludes, without pre-purchasing capacity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.4,
+      "t_end": 269,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "paygo",
+        "consumption",
+        "billing",
+        "flexible"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Generative answers meter",
+      "description": "Billing meter that measures the number of messages generated by AI features, specifically counting each email message generated by the sales order agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.6,
+      "t_end": 405.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "meter",
+        "billing",
+        "generative",
+        "messages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Autonomous actions meter",
+      "description": "Billing meter that measures operations performed by agents, including actions on sales quotes and sales orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.6,
+      "t_end": 405.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "meter",
+        "billing",
+        "autonomous",
+        "operations"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power Platform billing inheritance",
+      "description": "Business Central environments can link to Power Platform environments to automatically inherit billing policies and capacity settings configured at the Power Platform level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 516.5,
+      "t_end": 578.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires linking to Power Platform environment",
+        "Must be same environment type and geography"
+      ],
+      "tags": [
+        "billing",
+        "power platform",
+        "integration",
+        "setup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Per-environment capacity allocation",
+      "description": "Administrators can allocate specific message capacity limits to individual Business Central environments and optionally disable overages to maintain predictable costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 812.3,
+      "t_end": 872.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "allocation",
+        "capacity",
+        "limits",
+        "costcontrol"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "KPIs dashboard",
+      "t": 47.3
+    },
+    {
+      "type": "page",
+      "name": "Copilot and Agents capabilities",
+      "t": 96.5
+    },
+    {
+      "type": "page",
+      "name": "Copilot pane",
+      "t": 168.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yast",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dmitri",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.1,
+      "text": "the sales order agent is providing a ton of value to the sales team working with the quotes and the orders",
+      "why_it_matters": "Establishes that the sales order agent is the primary copilot capability being built for AI consumption billing in this first release.",
+      "check": "exact"
+    },
+    {
+      "t": 132.8,
+      "text": "at this point of time the sales order agent is the only capability uh which is being u built for",
+      "why_it_matters": "Clarifies that AI consumption billing is initially only applicable to the sales order agent, not all copilot features.",
+      "check": "exact"
+    },
+    {
+      "t": 212.4,
+      "text": "Microsoft products and services will use a common currency called the Microsoft Copilot Studio message to measure the usage of AI features and to",
+      "why_it_matters": "Explains the core billing mechanism and common measurement standard across all Microsoft products.",
+      "check": "exact"
+    },
+    {
+      "t": 253.4,
+      "text": "there are the prepaid copilot studio message packs which are monthly subscription containing x number of messages uh renewable every month. And secondly, there's",
+      "why_it_matters": "Describes the two primary billing options available to customers with different cost predictability models.",
+      "check": "exact"
+    },
+    {
+      "t": 349.2,
+      "text": "we're going to use a generative answer for the for any message that the agent generates an autonomous action for the operation on sales",
+      "why_it_matters": "Details the specific billing meters used to track sales order agent consumption.",
+      "check": "exact"
+    },
+    {
+      "t": 453.7,
+      "text": "every tenant in business central environment comes with a very limited preview evaluation capacity that would allow you to set up the sales order",
+      "why_it_matters": "Confirms that customers receive trial capacity to evaluate the sales order agent before purchasing billing capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 547.3,
+      "text": "to use billing policies on a business central environment is required that you link it to a power platform environment so that knows which",
+      "why_it_matters": "Establishes the technical requirement to link Business Central to Power Platform for AI consumption billing to function.",
+      "check": "exact"
+    },
+    {
+      "t": 939.1,
+      "text": "if you always consume 25,000 or more messages, uh that this prepaid pack makes sense for you. If you have variable consumption, pay as",
+      "why_it_matters": "Provides guidance on choosing between billing models based on consumption patterns.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 118.4,
+      "kind": "subject-to-change",
+      "text": "by activating AI capabilities, you understand your organization may be built for its use in the future"
+    },
+    {
+      "t": 132.8,
+      "kind": "preview",
+      "text": "at this point of time the sales order agent is the only capability uh which is being u built for"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030655
+    }
+  ]
+}

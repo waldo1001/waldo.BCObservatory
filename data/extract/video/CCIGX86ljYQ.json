@@ -1,0 +1,278 @@
+{
+  "video_id": "CCIGX86ljYQ",
+  "item_id": "video/yt-microsoft/CCIGX86ljYQ",
+  "title": "What's New: Document Preview in E-Documents (2025 release wave 1)",
+  "duration_s": 350,
+  "systems": [
+    "purchasing",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "electronic invoicing",
+    "document preview",
+    "accounts payable",
+    "compliance",
+    "xml parsing",
+    "vendor documents",
+    "purchase invoice",
+    "automation",
+    "pdf attachments"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to E-Documents improvements",
+      "t_start": 0,
+      "t_end": 19.4
+    },
+    {
+      "title": "Background on electronic documents and compliance",
+      "t_start": 19.4,
+      "t_end": 41.5
+    },
+    {
+      "title": "Previous limitations with XML-only review",
+      "t_start": 41.5,
+      "t_end": 77
+    },
+    {
+      "title": "One-step vs two-step processing options",
+      "t_start": 77,
+      "t_end": 110.2
+    },
+    {
+      "title": "Document preview and extracted information",
+      "t_start": 110.2,
+      "t_end": 157.4
+    },
+    {
+      "title": "Feature summary and demonstration setup",
+      "t_start": 157.4,
+      "t_end": 169
+    },
+    {
+      "title": "E-document card and lines display demo",
+      "t_start": 169,
+      "t_end": 229
+    },
+    {
+      "title": "Extracted data view and PDF attachments",
+      "t_start": 229,
+      "t_end": 276.5
+    },
+    {
+      "title": "Summary of document preview capability",
+      "t_start": 276.5,
+      "t_end": 317.9
+    },
+    {
+      "title": "Call to action for related sessions",
+      "t_start": 317.9,
+      "t_end": 350
+    }
+  ],
+  "features": [
+    {
+      "name": "Document preview in e-documents",
+      "description": "Users can now preview incoming electronic documents before processing them, viewing extracted human-readable information from XML files including header and line details from vendor documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.2,
+      "t_end": 157.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document preview",
+        "e-documents",
+        "xml extraction",
+        "human readable"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Two-step e-document processing",
+      "description": "Electronic documents can now be processed in two steps - first creating a training document, then deciding whether to process and create a purchase invoice - as an alternative to the default automatic one-step processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77,
+      "t_end": 110.2,
+      "is_demoed": false,
+      "caveats": [
+        "Both one-step and two-step processing are options; one-step remains the default"
+      ],
+      "tags": [
+        "processing workflow",
+        "automation control",
+        "e-documents"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Extracted data view for e-documents",
+      "description": "A new extracted data view displays both header information and line information from received XML documents, allowing users to inspect complete details before deciding to process the e-document into a purchase document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 229,
+      "t_end": 248.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extracted data",
+        "header information",
+        "line information",
+        "e-documents"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Embedded PDF attachments in e-documents",
+      "description": "PDFs that are embedded in XML e-documents are now automatically extracted and stored as attachments, allowing users to open and inspect original vendor documents directly from the e-document card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.4,
+      "t_end": 304.1,
+      "is_demoed": true,
+      "caveats": [
+        "Works with XML files that have embedded PDFs"
+      ],
+      "tags": [
+        "pdf attachments",
+        "e-documents",
+        "embedded content"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-document card improvements",
+      "description": "The e-document card page now includes improved fact boxes with service and locks information, and a new attachments fact box for viewing extracted PDFs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.4,
+      "t_end": 262.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui improvements",
+        "fact box",
+        "e-document card"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-document lines subform",
+      "description": "A new subform on the e-document card page displays the lines that were received in the XML, working for both processed and unprocessed documents, with GL account information where applicable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.3,
+      "t_end": 213.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subform",
+        "document lines",
+        "e-documents"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "e documents",
+      "t": 169
+    },
+    {
+      "type": "page",
+      "name": "e document card page",
+      "t": 198.3
+    },
+    {
+      "type": "page",
+      "name": "purchase invoice",
+      "t": 213.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.7,
+      "text": "First, this is something what is required if you want to be compliant in many countries.",
+      "why_it_matters": "Establishes that e-document handling is a regulatory requirement, not just a convenience feature.",
+      "check": "exact"
+    },
+    {
+      "t": 66.8,
+      "text": "we couldn't review incoming document before processing. Even if you could go back you couldn't see details.",
+      "why_it_matters": "Describes the previous limitation that the new document preview feature directly addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 110.2,
+      "text": "now you can review this document before processing or after processing never mind you can see original document.",
+      "why_it_matters": "Core statement of the new capability - users can examine documents before taking action.",
+      "check": "snapped"
+    },
+    {
+      "t": 127.1,
+      "text": "now in a electronic documents we have actually reading this XML. So you will have extracted information from your vendor document",
+      "why_it_matters": "Explains the technical improvement - converting machine-readable XML into human-readable extracted data.",
+      "check": "exact"
+    },
+    {
+      "t": 157.4,
+      "text": "small feature but extremely important because now you can preview before processing and posting in a business central uh upcoming uh documents.",
+      "why_it_matters": "Presenter's own assessment of the feature's significance for the e-documents workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 286.5,
+      "text": "you can transfer XML to readable to human readable uh information and plus we have this embedded PDF",
+      "why_it_matters": "Summarizes the dual improvement - both XML extraction to readable text and PDF attachment handling.",
+      "check": "exact"
+    },
+    {
+      "t": 335,
+      "text": "we have six different sessions related to e documents. So please watch another session to understand what is improved in this area.",
+      "why_it_matters": "Indicates this is part of a larger set of e-document enhancements in the 2025 release wave 1.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020543
+    }
+  ]
+}

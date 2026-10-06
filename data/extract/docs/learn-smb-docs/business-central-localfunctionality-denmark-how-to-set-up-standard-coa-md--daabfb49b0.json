@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa",
+  "title": "Standard chart of accounts in Denmark",
+  "blob": "e456b5b64af666d20dcf255828f514a20294dee7",
+  "summary": "Standard chart of accounts in Denmark requires mapping GL accounts to Danish tax authority standards for annual reporting and VAT calculations under Danish bookkeeping law.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "denmark",
+    "chart of accounts",
+    "tax reporting",
+    "saf-t",
+    "regnskab basis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Mapping"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Setup Guide"
+    }
+  ],
+  "features": [
+    "standard chart of accounts",
+    "GL account mapping",
+    "SAF-T export",
+    "tax code standards",
+    "Regnskab Basis export"
+  ],
+  "versions": [
+    "2025"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}

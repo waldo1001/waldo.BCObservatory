@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa",
   "published_at": "2025-12-16T06:30:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e456b5b64af666d20dcf255828f514a20294dee7",
       "words": 284,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.928Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:20.395Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:20.396Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:20.397Z",
+      "page": false
     }
   },
   "input_hash": "e456b5b64af666d20dcf255828f514a20294dee7",
@@ -60,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e456b5b64af666d20dcf255828f514a20294dee7"
+  "output_hash": "cb65ba0edfbc13313821f68547a72d3ff92f79ed7be40b8543d16d217e8519e9"
 }

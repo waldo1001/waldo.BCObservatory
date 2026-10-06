@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-importing-sepa-camt-files",
   "published_at": "2025-12-16T09:22:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f36c23dcdd5e0175cd969c401976f1779e064e55",
       "words": 714,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.925Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:18.723Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:18.724Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:18.725Z",
+      "page": false
     }
   },
   "input_hash": "f36c23dcdd5e0175cd969c401976f1779e064e55",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f36c23dcdd5e0175cd969c401976f1779e064e55"
+  "output_hash": "d7a853ad170e4c7d9eca141416e7d05c1319876dfc926a84b619d190e4f93032"
 }

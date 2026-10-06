@@ -1,0 +1,341 @@
+{
+  "video_id": "9X-IWRkI2GM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.1,
+      "end": 19.1,
+      "text": "In Business Central 2025 release wave 1, we did a almost complete makeover of the manufacturing reports. And uh here I will show you what we changed also what will go away."
+    },
+    {
+      "t": 19.1,
+      "end": 29.3,
+      "text": "So that's the updated new and obsoleted reports. And be in the beginning of this recording if you're interested I'll tell you a little bit about the why and the how."
+    },
+    {
+      "t": 29.3,
+      "end": 42.6,
+      "text": "If you're not interested in that, just jump to the chapter uh directly what is of interest to you and we'll as always end up with some learning resources so that you can dive in and learn more."
+    },
+    {
+      "t": 42.6,
+      "end": 55.2,
+      "text": "So more than a year ago when we planned many of the things that you are have about to see um we had a vision for manufacturing analytics simply"
+    },
+    {
+      "t": 55.2,
+      "end": 65.8,
+      "text": "to completely sanitize the reporting and analytics for this area and have it done by 2025."
+    },
+    {
+      "t": 65.8,
+      "end": 83.3,
+      "text": "And then I know it's a busy slide but uh color coding should hopefully help you. The first part of this is PowerBI and colorcoded in the first part here that you should be able to track important relevant KPIs and scenarios in an updated manufacturing app."
+    },
+    {
+      "t": 83.3,
+      "end": 103.8,
+      "text": "The second part is Excel and Word. So existing reports where they where it makes sense, we want to modernize those and uh give them an Excel layout and maybe also a word layout if this if we know that this report is used a lot for printing and we'll start deprecating"
+    },
+    {
+      "t": 103.8,
+      "end": 115.4,
+      "text": "these legacy RDL reports or layouts simply because with the other two layout options you as a customer or user can change things in Excel or Word."
+    },
+    {
+      "t": 115.4,
+      "end": 129.2,
+      "text": "you don't need any developer tools or anything. So that's the reasoning behind that. The third option or third part of the vision was that we wanted to the the reports that were just"
+    },
+    {
+      "t": 129.2,
+      "end": 139.4,
+      "text": "uh obsolete and uh we had if we have better alternatives we'll just deprecate the full report not the layouts but actually getting rid of some reports."
+    },
+    {
+      "t": 139.4,
+      "end": 151.6,
+      "text": "And final part is that everything should be discoverable and understandable and explained in the documentation including a new landing page uh called manufacturing analyt"
+    },
+    {
+      "t": 151.6,
+      "end": 171.8,
+      "text": "analytics. So how did we do it practically? We we simply looked at the usage of all manufacturing analytical reports both how often were they used how many customers the monthly active tenants um and also how did how are these reports being used are they downloaded previewed or printed"
+    },
+    {
+      "t": 171.8,
+      "end": 185.8,
+      "text": "gave us an indication of how could we uh go about modernizing those and then based on this data um we determined each for each report its fate should it be modernized?"
+    },
+    {
+      "t": 185.8,
+      "end": 202.1,
+      "text": "Should it be replaced or should we just remove it? And based on on that, we made a plan and then we validated our assumptions with some uh manufacturing experts from the community just to make sure that we were on on right track."
+    },
+    {
+      "t": 202.1,
+      "end": 212.4,
+      "text": "And just behind the scenes, this is I mean everything starts in Excel. We know that. So this is the planning work uh that we did on on all these reports."
+    },
+    {
+      "t": 212.4,
+      "end": 230.8,
+      "text": "for each of them we had criteria uh usage and so on and then we use that for just suggestions and also uh here you can see the actuals but we should actually see this live instead of seeing an Excel plan so let's uh let's go in and see some of the updated"
+    },
+    {
+      "t": 230.8,
+      "end": 242.6,
+      "text": "uh reports that you have now so in hopefully version 26.2 two, you will be able to use updated reports for manufacturing."
+    },
+    {
+      "t": 242.6,
+      "end": 256.9,
+      "text": "Let me show you a few examples and then we'll also demo a few. Here's an example of a legacy report production order statistics. The names have been protected to uh removed to protect the innocent."
+    },
+    {
+      "t": 256.9,
+      "end": 267.7,
+      "text": "But um basically it's a PDF and we thought let's uh let's make this better in a couple of ways. So, here's an modernized version of it."
+    },
+    {
+      "t": 267.7,
+      "end": 280.6,
+      "text": "It comes at this report with two different types of layouts. A word layout that is designed if you need to print it and an Excel layout with more analytical uh capabilities."
+    },
+    {
+      "t": 280.6,
+      "end": 293.2,
+      "text": "Excel layouts actually also come with a print worksheet here in case you prefer just to have everything in Excel and sometimes print um print it as a printable report."
+    },
+    {
+      "t": 293.2,
+      "end": 310.6,
+      "text": "Here's another example, the capacity task list. Um, it is what it is, but in a modernized world, you see um a word layout again for print and an Excel layout for analytics."
+    },
+    {
+      "t": 310.6,
+      "end": 326.2,
+      "text": "And if you look closely at the Word layout, it looks actually very much the same as as the the old layout, but with Word, you can change things. with the RDL version not so much subcontractor dispatch lists."
+    },
+    {
+      "t": 326.2,
+      "end": 346.3,
+      "text": "This is how it used to be and now this is how uh it is in a modern version again with word for print and excel for analytics. So you can you can slice and dice uh your subcontractor dispatch data final and then we'll uh I'll show you a live demo where use"
+    },
+    {
+      "t": 346.3,
+      "end": 362.4,
+      "text": "top level. Here is what it looked like. And now this is one of the examples where we know that not a lot of customers if any print this. So we decided just to have an Excel layout for it where you can where you can analyze it."
+    },
+    {
+      "t": 362.4,
+      "end": 373.1,
+      "text": "But because our Excel layouts, we always have a printable worksheet. Um, if you need to print it, you can just use"
+    },
+    {
+      "t": 373.1,
+      "end": 384.6,
+      "text": "that. Okay, one more item, able to make timeline. This is the old report. And here is another example of a report that just got a replacement"
+    },
+    {
+      "t": 384.6,
+      "end": 401.5,
+      "text": "um with an Excel layout. So yeah, just one more example of that. So let me show you the production order VIP also an updated report and uh let's navigate and find that from documentation because that was one of the things we wanted uh you to be able to do."
+    },
+    {
+      "t": 401.5,
+      "end": 415.4,
+      "text": "So let's see production order VIP. This is the first one. I can learn more about the report here so I can understand what it is but uh all these documentation pages has try the report."
+    },
+    {
+      "t": 415.4,
+      "end": 430.3,
+      "text": "So let's just open business central here and uh run the report uh directly from the documentation. So when I see the request page from production order, I immediately see that I have options here for layouts."
+    },
+    {
+      "t": 430.3,
+      "end": 446.9,
+      "text": "So I can use the obsoleted layout here for I can use a word layout and I can use an Excel layout. So, let's just choose the word layout for the report and uh and see what it looks"
+    },
+    {
+      "t": 446.9,
+      "end": 457.8,
+      "text": "like. And here's our production order VIP as a printable version. Let's go back to the report and try it now with the Excel layout instead."
+    },
+    {
+      "t": 457.8,
+      "end": 469.4,
+      "text": "So, back on the request page, I'll pick the Excel layout instead of the Word layout and run the report."
+    },
+    {
+      "t": 470.6,
+      "end": 481.9,
+      "text": "And here we are um production order VIP. This is the print worksheet. But I can also open the report in analysis mode."
+    },
+    {
+      "t": 481.9,
+      "end": 493.3,
+      "text": "Have uh all my slicers here where I can slice and dice the data and use Excel for Excel Excelss which is for data analysis."
+    },
+    {
+      "t": 493.3,
+      "end": 513.6,
+      "text": "To recap the updated reports, this is uh these are the six updated reports you get in version 26.2, just a complete list. So when whenever you get updated to that version, try them out and uh hopefully they will give you a lot more joy in analyzing your manufacturing data."
+    },
+    {
+      "t": 513.6,
+      "end": 525.1,
+      "text": "But we didn't stop with updating existing reports. We also wanted to add something completely new. So here in version 26.2, two, you get new"
+    },
+    {
+      "t": 525.1,
+      "end": 541.8,
+      "text": "options. Here are some legacy reports that are all about production cost analysis, bomb cost share distribution, rolled up cost shares, detail calculation and quantity explosion of bomb bill of"
+    },
+    {
+      "t": 541.8,
+      "end": 552.6,
+      "text": "material. Instead of those four, we uh created a new production cost shares report in Excel. And this one is replacing these four."
+    },
+    {
+      "t": 552.6,
+      "end": 565.4,
+      "text": "So whatever you could do of types of analysis with the four legacy reports, you can do it within your report. Note how many different worksheets you have for different roles or personas or types of analysis."
+    },
+    {
+      "t": 565.4,
+      "end": 576.9,
+      "text": "You have single level single level top u exploded rolled up um and rolled up top level uh rolled up exploded."
+    },
+    {
+      "t": 576.9,
+      "end": 587,
+      "text": "And then this these are all the printable versions. And each of these come uh also with a non-printable where there's more room on the report."
+    },
+    {
+      "t": 587,
+      "end": 598,
+      "text": "So tons of tons of things to um to explore with this new report. Um let let let me know what you think about it when you try it out on your"
+    },
+    {
+      "t": 598,
+      "end": 608.2,
+      "text": "data. Similarly, we had some uh legacy work or machine sender load reports. Um, so work center load, machine sender load."
+    },
+    {
+      "t": 608.2,
+      "end": 622.6,
+      "text": "Um, and uh, I don't even know what these two are because I missed the title. Doesn't matter cuz these are all going away and are being replaced by the new work/machine center load report."
+    },
+    {
+      "t": 622.6,
+      "end": 633.8,
+      "text": "Again, a report that just comes with Excel. Um, you can see that you have uh two printable and two analysis worksheets in in the report."
+    },
+    {
+      "t": 633.8,
+      "end": 645.2,
+      "text": "So just to wrap up that um 26.2 you get these two new reports production cost shares and work/machine sender load."
+    },
+    {
+      "t": 645.2,
+      "end": 658.8,
+      "text": "With all the work we did for moni modernizing and renewing manufacturing reports we also need to say goodbye to some old friends. Some of these reports have been in the product for 30 years."
+    },
+    {
+      "t": 658.8,
+      "end": 669.8,
+      "text": "So this is a warning uh that these 711 reports are going away in a and will will be removed in a later version."
+    },
+    {
+      "t": 669.8,
+      "end": 682.1,
+      "text": "And if you want to know more of and follow that, let me just show you where you can see that in the documentation. The first way is simply to go and find the manufacturing analytics"
+    },
+    {
+      "t": 682.1,
+      "end": 694.2,
+      "text": "section. And then here in the table of content, if I just scroll down, you can see the production reports here, but there's also a section with obsolete reports."
+    },
+    {
+      "t": 694.2,
+      "end": 712.2,
+      "text": "So they have been marked like this in the table of content and uh therefore you can find them here. The second way you can see reports and other things that are going going away in the product being deprecated and obsoleted is here in the deprecated features page."
+    },
+    {
+      "t": 712.2,
+      "end": 726.2,
+      "text": "So I probably the easiest way is simply to search for deprecated features and you'll find this. And if I choose the 2025 release wave 1 article here or part and I just scroll down a little bit."
+    },
+    {
+      "t": 726.2,
+      "end": 740.5,
+      "text": "Let's see here. Legacy reports warning. You get a list of the legacy reports. Here are your manufacturing. And each of these are links back to the documentation page you just saw."
+    },
+    {
+      "t": 740.5,
+      "end": 760.7,
+      "text": "So these are the two options you have to uh to find that um the warning is expressed sorry for scrolling here. So the warning is coming here in this uh release wave and uh then in an like an upcoming release wave will update this documentation page"
+    },
+    {
+      "t": 760.7,
+      "end": 773.5,
+      "text": "of what um when the report will actually be removed. If you want to learn more about everything that you can do within manufacturing analytics, there's an easy way to get to that."
+    },
+    {
+      "t": 773.5,
+      "end": 782.1,
+      "text": "Let me just show you how. The the aka link"
+    },
+    {
+      "t": 782.1,
+      "end": 792.6,
+      "text": "aka.ms/bc manufacturing analytics. Let's check this out and see what co what is covering behind that. So this is the landing page."
+    },
+    {
+      "t": 792.6,
+      "end": 802.6,
+      "text": "If you saw the vision part of the recording, this is the manufacturing analytics landing page where you get an overview of what's possible within this area for different personas."
+    },
+    {
+      "t": 802.6,
+      "end": 821.2,
+      "text": "There's the doc the documentation for the PowerBI manufacturing app, the reports um and other ways to view your manufacturing data. So if you work with manufacturing, I encourage you to to to take a look here and just explore your options."
+    },
+    {
+      "t": 821.2,
+      "end": 841.9,
+      "text": "So, we made it. We are almost done. Just wanted to wrap up with a reality check. If you watch the vision part of this recording in the beginning, now um this is the status for manufacturing analytics in this particular police wave."
+    },
+    {
+      "t": 841.9,
+      "end": 862,
+      "text": "We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI and uh if you haven't seen that video already you must see it because with the existing reports that you now see have been modernized in this video and with the work that you have we have done with uh updating the"
+    },
+    {
+      "t": 862,
+      "end": 876.6,
+      "text": "PowerBI app for manufacturing. There's no excuse for you to be truly datadriven in this area. So go out, produce some bikes, some nails, ice cream, whatever you use manufacturing for."
+    },
+    {
+      "t": 876.6,
+      "end": 886,
+      "text": "But for me, the video is over. Have a great uh rest of the launch event. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2120
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/contract-renewal.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-renewal",
+  "title": "Subscription contract renewal",
+  "blob": "f4216b624e9cd98011a2d38c110e74e400d0a06d",
+  "summary": "Subscription contract renewal extends contract lines at their end date by creating sales quotes and converting them to orders to update subscription line end dates.",
+  "systems": [
+    "sales",
+    "projects"
+  ],
+  "topics": [
+    "subscription contracts",
+    "contract renewal",
+    "sales quotes",
+    "customer contracts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Contract Renewal"
+    },
+    {
+      "type": "page",
+      "name": "Planned Subscription Line"
+    }
+  ],
+  "features": [
+    "contract renewal quote creation",
+    "renewal term specification",
+    "planned subscription lines",
+    "contract line extension",
+    "vendor contract renewal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}

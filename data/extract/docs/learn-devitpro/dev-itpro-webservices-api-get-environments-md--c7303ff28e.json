@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/api-get-environments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments",
+  "title": "Get a List of Business Central Environments",
+  "blob": "305c19c8715b1b97c8fee92d30e849ebec934ef6",
+  "summary": "Get a List of Business Central Environments API endpoint returns tenant environment details including type, location, and web service URLs for integration.",
+  "systems": [
+    "integration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "api",
+    "environments",
+    "web services",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Get Environments"
+    }
+  ],
+  "features": [
+    "environment list retrieval",
+    "environment metadata",
+    "multi-environment support",
+    "API authentication"
+  ],
+  "versions": [
+    "1.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}

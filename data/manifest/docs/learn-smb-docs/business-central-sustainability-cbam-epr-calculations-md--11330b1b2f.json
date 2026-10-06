@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-cbam-epr-calculations",
   "published_at": "2025-12-17T15:35:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ad9c630b9c7fcff3458b63ab9c78c4da676fb5fd",
       "words": 1212,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:11.921Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.004206
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:11.932Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:11.933Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:11.935Z",
+      "page": false
     }
   },
   "input_hash": "ad9c630b9c7fcff3458b63ab9c78c4da676fb5fd",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad9c630b9c7fcff3458b63ab9c78c4da676fb5fd"
+  "output_hash": "91d0a7162ccba3ee002876344e2a84943d12fa5c5f4e41d1a6f38fa1003aa38b"
 }

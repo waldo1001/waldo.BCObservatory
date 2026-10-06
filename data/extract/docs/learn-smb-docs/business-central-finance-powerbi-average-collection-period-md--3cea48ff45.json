@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-average-collection-period.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-average-collection-period",
+  "title": "Average Collection Period",
+  "blob": "d0da8f40adc7be1901cc4dc16814d1b63ab71b88",
+  "summary": "Average Collection Period Power BI report shows the average days to receive customer payments and helps monitor receivables collection efficiency and cash flow.",
+  "systems": [
+    "finance",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "cash flow",
+    "receivables",
+    "collection",
+    "power bi",
+    "kpi",
+    "performance metrics"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Average Collection Period"
+    }
+  ],
+  "features": [
+    "Average Collection Period calculation",
+    "KPI tracking",
+    "collection efficiency analysis",
+    "cash flow monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004206,
+      "pages_in_call": 8
+    }
+  ]
+}
