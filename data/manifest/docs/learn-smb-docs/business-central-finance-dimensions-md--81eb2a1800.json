@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-dimensions",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2752693a1f783a373657299f883e9df0b0b951d2",
       "words": 2859,
       "forms": 45
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:47.921Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.013903
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:00.950Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:00.952Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:00.953Z",
+      "page": false
     }
   },
   "input_hash": "2752693a1f783a373657299f883e9df0b0b951d2",
@@ -266,5 +285,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2752693a1f783a373657299f883e9df0b0b951d2"
+  "output_hash": "0fb65746cdda3057d228e3d6883e127fccabcf697b64cb78bb7a126e3ebaa9fa"
 }

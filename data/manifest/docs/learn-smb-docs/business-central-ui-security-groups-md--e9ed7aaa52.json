@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-security-groups",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521",
       "words": 631,
       "forms": 19
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:47.915Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005962
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:00.935Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:00.936Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:00.937Z",
+      "page": false
     }
   },
   "input_hash": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521",
@@ -136,5 +155,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521"
+  "output_hash": "ccd3adb5cd6237c2b2654e044573e22ce18d59ab7bd6cea884abcdc855aaf9e8"
 }

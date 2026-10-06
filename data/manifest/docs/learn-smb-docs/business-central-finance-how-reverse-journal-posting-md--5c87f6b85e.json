@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-reverse-journal-posting",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e5ec9198db206a4494090d757c99d228fa3dbb6c",
       "words": 876,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:56.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.007335
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:56.734Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:56.735Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:56.736Z",
+      "page": false
     }
   },
   "input_hash": "e5ec9198db206a4494090d757c99d228fa3dbb6c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e5ec9198db206a4494090d757c99d228fa3dbb6c"
+  "output_hash": "2c15d8c5d1c0ddf5aece141bdf99531f8ca071a67e0fda269376d182f4223c3a"
 }

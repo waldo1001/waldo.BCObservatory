@@ -1,0 +1,249 @@
+{
+  "video_id": "Rh1AFX9A1x4",
+  "item_id": "video/yt-microsoft/Rh1AFX9A1x4",
+  "title": "What's New: Data Analysis (2025 release wave 1)",
+  "duration_s": 760,
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "analysis mode",
+    "related tables",
+    "data analysis",
+    "excel export",
+    "list pages",
+    "al get url",
+    "user empowerment",
+    "queries"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and context on analysis mode",
+      "t_start": 0,
+      "t_end": 81.1
+    },
+    {
+      "title": "New feature: adding fields from related tables",
+      "t_start": 81.1,
+      "t_end": 116.8
+    },
+    {
+      "title": "Demo of adding columns from related tables and pages",
+      "t_start": 116.8,
+      "t_end": 400.8
+    },
+    {
+      "title": "Recap of related tables feature and limitations",
+      "t_start": 400.8,
+      "t_end": 531.2
+    },
+    {
+      "title": "Opening analysis mode data in Excel",
+      "t_start": 531.2,
+      "t_end": 633.1
+    },
+    {
+      "title": "Developer feature: AL get URL method for analysis mode",
+      "t_start": 633.1,
+      "t_end": 713.3
+    },
+    {
+      "title": "Conclusion and next steps",
+      "t_start": 713.3,
+      "t_end": 760
+    }
+  ],
+  "features": [
+    {
+      "name": "Add columns from related tables in analysis mode",
+      "description": "Users can now add fields from related tables and pages directly in analysis mode on list pages without requiring developers to create queries. Users can join tables through existing table relationships and perform complex analysis on the combined data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.1,
+      "t_end": 511,
+      "is_demoed": true,
+      "caveats": [
+        "Copilot assist is not supported on related fields",
+        "Calculated fields are not supported and will be ignored",
+        "Limited row display when opening in Excel",
+        "Left outer join is used for table relationships"
+      ],
+      "tags": [
+        "related tables",
+        "analysis mode",
+        "user empowerment",
+        "queries"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Open analysis mode data in Excel",
+      "description": "Users can export data from an analysis mode view to Excel, including related columns, for further analysis using Excel tools. Available through context menu on data area or from the analysis tab context menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 531.2,
+      "t_end": 612.9,
+      "is_demoed": true,
+      "caveats": [
+        "Row number limitations when exporting to Excel"
+      ],
+      "tags": [
+        "excel export",
+        "analysis mode",
+        "data export"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AL get URL method parameter for analysis layout",
+      "description": "The AL get URL method now has a parameter to specify that a page should open in analysis mode layout. This allows developers to create direct links to analysis mode views from AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 633.1,
+      "t_end": 693.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al development",
+        "analysis mode",
+        "url support"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot analysis assist",
+      "description": "Previously introduced capability that allows users to create analysis mode views using natural language. Not yet supported for related fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.4,
+      "t_end": 50.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not supported on related fields added through new feature"
+      ],
+      "tags": [
+        "copilot",
+        "analysis mode",
+        "natural language"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales line",
+      "t": 137.1
+    },
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 177.4
+    },
+    {
+      "type": "table",
+      "name": "Sales head",
+      "t": 197.5
+    },
+    {
+      "type": "page",
+      "name": "Sales order list",
+      "t": 217.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Blan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 25.3,
+      "text": "in 2023 release Wave 2 we launched the ability to analyze data on list pages with this you could quickly extract insights from your",
+      "why_it_matters": "Establishes the foundation of analysis mode that is being improved upon in this release",
+      "check": "exact"
+    },
+    {
+      "t": 61,
+      "text": "a challenge has been analyzing more complex cross entity data relationships which still has required developers creating queries",
+      "why_it_matters": "Identifies the core problem that the new related tables feature solves",
+      "check": "exact"
+    },
+    {
+      "t": 101.2,
+      "text": "this is coming this release but it's also coming in a minor so you will have to wait a bit more so it's estimated",
+      "why_it_matters": "Clarifies the release timing - the feature is in preview and will arrive in a minor update around version 26.2",
+      "check": "exact"
+    },
+    {
+      "t": 480,
+      "text": "the only limitations that we have with this redit h fields are that copilot assist is not just supported on them",
+      "why_it_matters": "States the key limitations of the new related fields feature",
+      "check": "fuzzy"
+    },
+    {
+      "t": 653.5,
+      "text": "we're now adding that the AL get URL method um has a parameter that you can specify that you want for instance the analysis",
+      "why_it_matters": "Announces the new developer API capability for opening pages in analysis mode",
+      "check": "exact"
+    },
+    {
+      "t": 733.3,
+      "text": "do note that this feature is planned to be available after General availability of the release so right now we are looking at likely",
+      "why_it_matters": "Reiterates that the related tables feature will arrive in a minor update, not at GA",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 101.2,
+      "kind": "coming-later",
+      "text": "this is coming this release but it's also coming in a minor so you will have to wait a bit more so it's estimated at 26.2 or earlier"
+    },
+    {
+      "t": 248,
+      "kind": "subject-to-change",
+      "text": "we'll get a a short disclaimer when I add fields for the first time just to make the user aware that um calculated fields are going to be removed and there's also some limitations with opening Excel regarding the number of rows"
+    },
+    {
+      "t": 480,
+      "kind": "other",
+      "text": "the only limitations that we have with this redit H fields are that copilot assist is not just supported on them and also that calculated fields are not supported therefore they will be ignored"
+    },
+    {
+      "t": 733.3,
+      "kind": "coming-later",
+      "text": "do note that this feature is planned to be available after General availability of the release so right now we are looking at likely the minor update"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02253
+    }
+  ]
+}

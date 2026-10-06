@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-understanding-wip.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip",
+  "title": "WIP methods for calculating and recording project progress",
+  "blob": "3f580d961a11c09a023ceba66cc4646226cbc729",
+  "summary": "Work In Process (WIP) methods enable estimation of project financial value in the general ledger while projects are ongoing by calculating and recording project progress using five methods: Cost Value, Cost of Sales, Sales Value, Percentage of Completion, and Completed Contract.",
+  "systems": [
+    "projects",
+    "finance"
+  ],
+  "topics": [
+    "wip calculation",
+    "project accounting",
+    "revenue recognition",
+    "cost recognition",
+    "project valuation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project WIP Methods"
+    },
+    {
+      "type": "page",
+      "name": "Projects Setup"
+    }
+  ],
+  "features": [
+    "Cost Value method",
+    "Cost of Sales method",
+    "Sales Value method",
+    "Percentage of Completion method",
+    "Completed Contract method",
+    "Default WIP Method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005962,
+      "pages_in_call": 7
+    }
+  ]
+}

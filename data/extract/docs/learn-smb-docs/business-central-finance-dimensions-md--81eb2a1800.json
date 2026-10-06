@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-dimensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-dimensions",
+  "title": "Work with dimensions to track and analyze data",
+  "blob": "2752693a1f783a373657299f883e9df0b0b951d2",
+  "summary": "Dimensions categorize entries to track and analyze data on documents like sales orders and purchase orders. Set up dimensions and values, configure global and shortcut dimensions, define default dimensions for accounts, and use dimension combinations to control which dimensions can be posted together.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "dimensions",
+    "data analysis",
+    "chart of accounts",
+    "general ledger",
+    "business intelligence",
+    "tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Default Dimension Priorities"
+    },
+    {
+      "type": "page",
+      "name": "Dimension Combinations"
+    },
+    {
+      "type": "page",
+      "name": "Default Dimensions-Multiple"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "global dimensions",
+    "shortcut dimensions",
+    "default dimensions",
+    "dimension sets",
+    "dimension combinations",
+    "dimension values",
+    "hierarchical dimension structure",
+    "change global dimensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013903,
+      "pages_in_call": 1
+    }
+  ]
+}

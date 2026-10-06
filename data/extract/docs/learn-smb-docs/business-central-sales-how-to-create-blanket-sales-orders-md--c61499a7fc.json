@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-to-create-blanket-sales-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders",
+  "title": "Work with blanket sales orders or purchase orders",
+  "blob": "efef49c315d1971706f2a5655c556225b5b971e8",
+  "summary": "Blanket sales and purchase orders represent long-term agreements allowing large quantity purchases with deliveries in small shipments over time, with lines convertible to individual orders at shipping time.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "blanket orders",
+    "sales orders",
+    "purchase orders",
+    "framework agreements",
+    "order management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Blanket Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Blanket Order Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Sales Lines"
+    }
+  ],
+  "features": [
+    "blanket order creation",
+    "shipment scheduling",
+    "order conversion",
+    "quantity tracking",
+    "status monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005962,
+      "pages_in_call": 7
+    }
+  ]
+}

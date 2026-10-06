@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-data-replication",
   "published_at": "2026-04-08T06:42:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ede12c66b4bd34cf7f583e853db3d87c21635a04",
       "words": 231,
       "forms": 12
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.761Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.015394
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.822Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.823Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.825Z",
+      "page": false
     }
   },
   "input_hash": "ede12c66b4bd34cf7f583e853db3d87c21635a04",
@@ -103,5 +122,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ede12c66b4bd34cf7f583e853db3d87c21635a04"
+  "output_hash": "603455194941b8bb82835e39b86b310b62c4eef95496becd381c36dc508769d0"
 }

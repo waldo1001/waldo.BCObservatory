@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance",
+  "title": "Financial management (contains video)",
+  "blob": "eb4d6c3bdcdbe846b2848ab3dca0b381a5995719",
+  "summary": "Overview of financial management capabilities in Business Central including general ledger, accounting, VAT, receivables, payables, financial analytics, and period-end reporting.",
+  "systems": [
+    "finance",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "general ledger",
+    "chart of accounts",
+    "accounting",
+    "financial reporting",
+    "cash flow",
+    "vat",
+    "receivables",
+    "payables"
+  ],
+  "objects": [],
+  "features": [
+    "Chart of accounts",
+    "Posting groups",
+    "Dimensions",
+    "Currency exchange rates",
+    "Deferred revenue and expenses",
+    "Cost allocation",
+    "Item charges",
+    "Recurring revenue",
+    "Employee expense reimbursement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

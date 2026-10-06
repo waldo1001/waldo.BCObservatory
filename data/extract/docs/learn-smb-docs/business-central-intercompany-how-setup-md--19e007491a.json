@@ -1,0 +1,102 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/intercompany-how-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-setup",
+  "title": "Set up intercompany transaction posting",
+  "blob": "7e4eff69da7ba1ef61ee9d2021826a540d93f333",
+  "summary": "Set up intercompany transactions between subsidiary companies by configuring a synchronization partner, creating a shared chart of accounts and dimensions, mapping accounts between companies, and managing intercompany partners.",
+  "systems": [
+    "finance",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "intercompany",
+    "setup",
+    "partnership",
+    "chart of accounts",
+    "dimensions",
+    "transactions",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intercompany Setup"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Chart of Accounts Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Dimensions Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Dimension Values Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany General Journal"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Partners"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Entra Application Card"
+    }
+  ],
+  "features": [
+    "Synchronization partner",
+    "Intercompany chart of accounts",
+    "Intercompany dimensions",
+    "Auto Accept Transactions",
+    "Auto Send Transactions",
+    "Default IC General Journal",
+    "Intercompany bank accounts",
+    "Chart of Accounts Mapping",
+    "Cross-tenant connection",
+    "Azure app registration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

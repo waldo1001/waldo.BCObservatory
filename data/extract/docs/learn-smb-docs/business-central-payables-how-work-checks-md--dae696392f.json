@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-work-checks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-work-checks",
+  "title": "Issue, print, cancel, and void checks",
+  "blob": "7e6152b15b920c89395d560554af7423be7c73d7",
+  "summary": "Issue, print, and post checks to vendors through the payment journal. Support computer checks and manual checks, with options to void unposted or posted checks.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "checks",
+    "payment",
+    "vendors",
+    "printing",
+    "posting",
+    "void"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Check Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account - Check Details"
+    }
+  ],
+  "features": [
+    "Computer check printing",
+    "Manual check",
+    "Void Check action",
+    "Print Check action",
+    "Positive Pay file export",
+    "Check layout selection",
+    "Payment method code"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

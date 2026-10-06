@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-work-checks",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7e6152b15b920c89395d560554af7423be7c73d7",
       "words": 758,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:56.730Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007335
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.681Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.684Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.685Z",
+      "page": false
     }
   },
   "input_hash": "7e6152b15b920c89395d560554af7423be7c73d7",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e6152b15b920c89395d560554af7423be7c73d7"
+  "output_hash": "3c8e63b1dcb029640c0cfd6734e89202bae1c465cff55465305cd2a57ed01168"
 }

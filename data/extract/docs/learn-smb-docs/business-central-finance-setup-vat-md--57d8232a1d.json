@@ -1,0 +1,99 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat",
+  "title": "Set up value-added tax",
+  "blob": "6f383928efa537fe1777e8676f71dd4a909d8b62",
+  "summary": "Set up VAT calculations and posting by configuring VAT rates, posting groups, registration numbers, and clauses based on customers, vendors, items, and purchase or sale types.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "tax",
+    "posting setup",
+    "registration numbers",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Business Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Product Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Clauses"
+    },
+    {
+      "type": "page",
+      "name": "VAT Clauses by Document Type"
+    },
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    },
+    {
+      "type": "page",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "Resource"
+    },
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    }
+  ],
+  "features": [
+    "vat calculations",
+    "vat posting groups",
+    "vat registration numbers",
+    "vat clauses",
+    "vat date",
+    "reverse charge vat",
+    "import vat",
+    "vat period control",
+    "vat rounding"
+  ],
+  "versions": [
+    "version 23.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007361,
+      "pages_in_call": 4
+    }
+  ]
+}

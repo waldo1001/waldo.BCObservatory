@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-close-account-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-account-periods",
+  "title": "Close accounting periods for a fiscal year",
+  "blob": "2e58f2988b9a88795ef96d150c2b5cc3a0841d0d",
+  "summary": "Fiscal year closing process that locks accounting periods and prevents further modifications, while still allowing posting to closed years if needed for adjustments.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "fiscal year",
+    "accounting periods",
+    "year-end closing",
+    "period closure"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
+  "features": [
+    "fiscal year closure",
+    "period locking",
+    "closed year posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005962,
+      "pages_in_call": 7
+    }
+  ]
+}

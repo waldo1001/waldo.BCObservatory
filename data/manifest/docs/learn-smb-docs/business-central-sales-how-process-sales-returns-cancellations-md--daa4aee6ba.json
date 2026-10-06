@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "32a275290884255cc72d8b6325076448649d62e3",
       "words": 1734,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:56.732Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.01132
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.690Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.692Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.693Z",
+      "page": false
     }
   },
   "input_hash": "32a275290884255cc72d8b6325076448649d62e3",
@@ -90,5 +109,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "32a275290884255cc72d8b6325076448649d62e3"
+  "output_hash": "c537f4988ff8384b1a1ba7b5430d0808a5e59cdc6af6bcf37e87d76af4953561"
 }

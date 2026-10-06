@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration",
   "published_at": "2026-04-08T11:03:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8",
       "words": 3754,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.740Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 20,
+      "cost_usd": 0.015394
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.795Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.804Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.806Z",
+      "page": false
     }
   },
   "input_hash": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8"
+  "output_hash": "9bb2a3909d26cff3a74c86cd2ae119f3bfc4ea1ee8e0b674baffcec04a3da6cd"
 }

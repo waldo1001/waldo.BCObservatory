@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-automate-reminders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-automate-reminders",
+  "title": "Automate reminders in collections",
+  "blob": "1a995deebde9902875a341756c98c777b73e0a0b",
+  "summary": "Automate reminders in collections by defining actions to create, issue, and send reminders automatically through job queue entries on a cadence you specify.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "collections",
+    "reminders",
+    "automation",
+    "dunning",
+    "workflow"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reminder Automation"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Issue Reminders Setup"
+    },
+    {
+      "type": "page",
+      "name": "Send Reminders Setup"
+    }
+  ],
+  "features": [
+    "reminder automation",
+    "create reminders",
+    "issue reminders",
+    "send reminders",
+    "cadence scheduling",
+    "stop on error",
+    "pdf attachments",
+    "email tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007361,
+      "pages_in_call": 4
+    }
+  ]
+}

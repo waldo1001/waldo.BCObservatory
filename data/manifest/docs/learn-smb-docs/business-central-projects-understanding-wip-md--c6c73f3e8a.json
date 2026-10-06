@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3f580d961a11c09a023ceba66cc4646226cbc729",
       "words": 1055,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:47.912Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005962
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:47.922Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:47.923Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:47.923Z",
+      "page": false
     }
   },
   "input_hash": "3f580d961a11c09a023ceba66cc4646226cbc729",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f580d961a11c09a023ceba66cc4646226cbc729"
+  "output_hash": "bec6fbf955a52a85509c91c3afbfb692174cbc2f72b5bd7b96d8c30173583aa8"
 }

@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-troubleshooting-correcting-dimensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-troubleshooting-correcting-dimensions",
+  "title": "Troubleshoot and correct dimensions",
+  "blob": "06532a0777ba0182b81ca6229ea6d21d0ffd7bf7",
+  "summary": "Troubleshoot and correct dimension errors on posted general ledger entries to keep financial reports accurate. Use dimension correction features to manually select entries and update dimension values with validation.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "dimensions",
+    "correction",
+    "troubleshooting",
+    "general ledger",
+    "validation",
+    "financial reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dimension Correction Settings"
+    },
+    {
+      "type": "page",
+      "name": "G/L Registers"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "History of Dimension Corrections"
+    },
+    {
+      "type": "page",
+      "name": "Dimension Values"
+    }
+  ],
+  "features": [
+    "Correct Dimensions action",
+    "Validate Dimension Changes",
+    "Undo correction",
+    "Copy to Draft",
+    "Update Analysis Views",
+    "Blocked dimensions",
+    "Permission set D365 DIM CORRECTION"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/Reservation-Entry-table-features-that-update-the-table",
   "published_at": "2026-04-08T11:03:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "04793d2e116dbcc97a2b72e5ad289e6f8f8a5fb6",
       "words": 5643,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.742Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 17,
+      "cost_usd": 0.015394
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.818Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.820Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.821Z",
+      "page": false
     }
   },
   "input_hash": "04793d2e116dbcc97a2b72e5ad289e6f8f8a5fb6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "04793d2e116dbcc97a2b72e5ad289e6f8f8a5fb6"
+  "output_hash": "b005a6bab7cbced3930b7b8149754d8c4c907de304d81de06419f711d4662f3f"
 }

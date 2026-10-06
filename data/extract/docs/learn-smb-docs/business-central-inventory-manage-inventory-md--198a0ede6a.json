@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-manage-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-manage-inventory",
+  "title": "Managing inventory",
+  "blob": "1b7c934d26070ca6a727043e8e0f58ab35abe624",
+  "summary": "Manage inventory by creating and maintaining item cards, tracking stock quantities, categorizing items, and performing inventory reconciliation with the general ledger.",
+  "systems": [
+    "inventory",
+    "finance",
+    "warehouse"
+  ],
+  "topics": [
+    "inventory",
+    "item cards",
+    "stock",
+    "reconciliation",
+    "cost adjustment",
+    "physical count"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Physical Inventory Order"
+    },
+    {
+      "type": "page",
+      "name": "Physical Inventory Recording"
+    }
+  ],
+  "features": [
+    "Item registration",
+    "Bills of Material",
+    "Item categorization",
+    "Item attributes",
+    "Catalog items",
+    "Physical counting",
+    "Cost adjustment",
+    "Item tracking",
+    "Inventory transfers",
+    "Item reservations",
+    "Item serial numbers",
+    "Item references"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

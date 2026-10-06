@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-reverse-journal-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-reverse-journal-posting",
+  "title": "Undo a posting using a reversing entry",
+  "blob": "e5ec9198db206a4494090d757c99d228fa3dbb6c",
+  "summary": "Reverse journal postings or undo receipts/shipments to correct errors and clear accrual entries. Use the Reverse Transaction action for general ledger entries, or the Undo function for unposted receipts and shipments.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "reversing entries",
+    "posting",
+    "correction",
+    "journal",
+    "receipts",
+    "shipments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Reverse Transaction Entries"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    }
+  ],
+  "features": [
+    "Reverse Transaction action",
+    "Undo Receipt action",
+    "Undo Return Shipment action",
+    "Correction field",
+    "Foreign currency adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007335,
+      "pages_in_call": 6
+    }
+  ]
+}

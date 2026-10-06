@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-security-groups.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-security-groups",
+  "title": "Control Access Using Security Groups",
+  "blob": "a818cfc5d8c59e9951d32c2b7c0f4dda409b4521",
+  "summary": "Security groups streamline user permission management by applying permissions to all members, supporting both Microsoft Entra ID and Windows Active Directory across online and on-premises deployments.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "security groups",
+    "permissions",
+    "access control",
+    "microsoft entra id",
+    "windows active directory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Security Groups"
+    }
+  ],
+  "features": [
+    "security group creation",
+    "permission assignment",
+    "company-specific permissions",
+    "multi-company access",
+    "group membership management"
+  ],
+  "versions": [
+    "version 25.11",
+    "version 26.5",
+    "version 27.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005962,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-how-post-year-end-close-entry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-post-year-end-close-entry",
+  "title": "Post the year-end closing entry",
+  "blob": "5643b86a5377618838c6e997fd1a4969fba01133",
+  "summary": "Posting year-end closing entries in General Journals after the Close Income Statement batch job generates them. Review and post entries to transfer the year's result to the balance sheet.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "year-end closing",
+    "accounting periods",
+    "general journals",
+    "income statement",
+    "balance sheet"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Close Income Statement"
+    },
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "year-end closing entry",
+    "close income statement",
+    "post entries",
+    "accounting periods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015394,
+      "pages_in_call": 4
+    }
+  ]
+}

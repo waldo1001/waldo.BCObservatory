@@ -1,0 +1,123 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-prepare-dynamics-365-for-sales-for-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration",
+  "title": "Integrating with Dynamics 365 Sales",
+  "blob": "a3db706ea21c3460cca7ddac73b3fd9c7c20fec8",
+  "summary": "Integrating Business Central with Dynamics 365 Sales through Dataverse to synchronize data, enable sales order processing, and view inventory availability. Configure connection settings, security roles, unit group mapping, and table synchronization.",
+  "systems": [
+    "sales",
+    "crm",
+    "integration"
+  ],
+  "topics": [
+    "dynamics 365 sales",
+    "dataverse",
+    "integration setup",
+    "data synchronization",
+    "sales orders",
+    "unit of measure"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "table",
+      "name": "Tracking Specification"
+    },
+    {
+      "type": "page",
+      "name": "Dynamics 365 Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Orders - Microsoft Dynamics 365 Sales"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Archives"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "table",
+      "name": "Unit of Measure"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Customer Price Group"
+    },
+    {
+      "type": "table",
+      "name": "Sales Price"
+    },
+    {
+      "type": "table",
+      "name": "Opportunity"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Order Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Order Notes"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization Log"
+    },
+    {
+      "type": "page",
+      "name": "Dataverse Full Synch. Review"
+    }
+  ],
+  "features": [
+    "integration with sales",
+    "bidirectional synchronization",
+    "sales order integration",
+    "item availability",
+    "unit group mapping",
+    "record coupling",
+    "security roles",
+    "connection setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015394,
+      "pages_in_call": 4
+    }
+  ]
+}

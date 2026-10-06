@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-how-reconcile-bank-accounts-separately.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately",
+  "title": "Reconcile bank accounts",
+  "blob": "b80065b3e27c9b52b39da3e5cacd29d5877506a5",
+  "summary": "Bank account reconciliation matches bank statement transactions to ledger entries using automatic and manual matching, with support for bank feeds, statement imports, and Copilot assistance.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "cash management",
+    "bank statements",
+    "ledger matching",
+    "payment application"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Statement List"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account Statement"
+    },
+    {
+      "type": "page",
+      "name": "Bank Rec. Worksheet"
+    }
+  ],
+  "features": [
+    "automatic matching",
+    "manual matching",
+    "Copilot assistance",
+    "bank statement import",
+    "payment reconciliation",
+    "outstanding transactions",
+    "direct posting prevention",
+    "statement undo"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005962,
+      "pages_in_call": 7
+    }
+  ]
+}

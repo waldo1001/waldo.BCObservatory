@@ -1,0 +1,28 @@
+{
+  "video_id": "Rh1AFX9A1x4",
+  "item_id": "video/yt-microsoft/Rh1AFX9A1x4",
+  "summary": "Analysis mode in Business Central, 2025 release wave 1: adding fields from related tables on list pages without developer-written queries, opening analysis data in Excel, and an AL get URL parameter for analysis layout. The speaker says the related-tables feature comes after general availability, likely in a minor update, estimated at 26.2 or earlier.",
+  "overview": "The video recaps analysis mode, introduced in 2023 release wave 2, and the remaining gap: cross-entity analysis has required developers to create queries. The new feature lets users add columns from related tables and pages directly in analysis mode, using existing table relationships. A demo uses the Sales order list with related tables such as Customer.\n\nThe video also shows opening an analysis mode view in Excel, including related columns, and a developer change: the AL get URL method has a parameter to open a page in analysis layout. Limitations are stated: Copilot assist does not work on related fields, calculated fields are ignored, and Excel export limits the number of rows.",
+  "key_points": [
+    "Users can add fields from related tables and pages in analysis mode on list pages, without a developer creating a query.",
+    "Related tables are joined through existing table relationships using a left outer join.",
+    "Copilot analysis assist is not supported on related fields, and calculated fields are not supported and are ignored.",
+    "A short disclaimer appears the first time fields are added, covering removed calculated fields and Excel row limits.",
+    "Analysis mode data, including related columns, can be opened in Excel from the data area context menu or the analysis tab context menu; the number of rows is limited.",
+    "The AL get URL method has a new parameter to open a page in analysis mode layout, so code can link directly to analysis views.",
+    "The speaker says the related-tables feature is planned after general availability of the release, likely in a minor update, estimated at 26.2 or earlier."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "2de1128f34fa488bc0bb017ac70006126ab6a5f5b57a1828f5bf37220f319a0a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0142784
+  }
+}

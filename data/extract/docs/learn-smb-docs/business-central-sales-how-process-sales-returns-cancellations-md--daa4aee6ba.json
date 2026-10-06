@@ -1,0 +1,79 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-process-sales-returns-cancellations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations",
+  "title": "Process sales returns or cancellations",
+  "blob": "32a275290884255cc72d8b6325076448649d62e3",
+  "summary": "Creating and processing sales returns or cancellations by creating sales credit memos or sales return orders, including handling partial returns, item charges, and combining return receipts.",
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "sales returns",
+    "credit memo",
+    "return order",
+    "cancellation",
+    "refund",
+    "item charges",
+    "inventory costing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Apply Customer Entries"
+    },
+    {
+      "type": "page",
+      "name": "Copy Sales Document"
+    },
+    {
+      "type": "page",
+      "name": "Combine Return Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Delete Invoiced Sales Return Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "Sales credit memos",
+    "Sales return orders",
+    "Correct and cancel actions",
+    "Copy document",
+    "Get return receipt lines",
+    "Combine return receipts",
+    "Exact cost reversing",
+    "Item charges"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01132,
+      "pages_in_call": 2
+    }
+  ]
+}

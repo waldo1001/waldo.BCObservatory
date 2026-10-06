@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-troubleshooting-correcting-dimensions",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "06532a0777ba0182b81ca6229ea6d21d0ffd7bf7",
       "words": 1619,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:56.726Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.007335
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:00.954Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.670Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.672Z",
+      "page": false
     }
   },
   "input_hash": "06532a0777ba0182b81ca6229ea6d21d0ffd7bf7",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06532a0777ba0182b81ca6229ea6d21d0ffd7bf7"
+  "output_hash": "8d4427728473ac2116c49ba6258647f7d242901e5f3e72c3deb6ac684d90d432"
 }

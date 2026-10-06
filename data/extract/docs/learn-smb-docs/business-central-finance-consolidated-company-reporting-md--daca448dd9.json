@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-consolidated-company-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting",
+  "title": "Consolidate data from multiple companies",
+  "blob": "6ca9a6ad52243cf53ace8361af1dcf2187082b68",
+  "summary": "Consolidate financial data from multiple subsidiaries or business units into a consolidated company, supporting different charts of accounts, currencies, fiscal years, and environments.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "consolidation",
+    "intercompany",
+    "subsidiaries",
+    "financial reporting",
+    "ledger entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Business Units"
+    },
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance (4)"
+    },
+    {
+      "type": "report",
+      "name": "G/L Consolidation Eliminations"
+    },
+    {
+      "type": "report",
+      "name": "Export Consolidation"
+    }
+  ],
+  "features": [
+    "data consolidation",
+    "eliminations",
+    "currency exchange rates",
+    "business units",
+    "gl accounts mapping",
+    "file-based transfer",
+    "api integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007361,
+      "pages_in_call": 4
+    }
+  ]
+}

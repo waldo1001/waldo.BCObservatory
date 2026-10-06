@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Post Emissions with the General Journal (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=RaiQPiEdvbg",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:42:50.693Z",
+      "captions": "auto:en-orig",
+      "duration_s": 411
+    },
+    "captioned": {
+      "at": "2026-10-06T18:42:56.714Z",
+      "path": "data/captions/microsoft/RaiQPiEdvbg.vtt",
+      "vtt_sha256": "9115df583bb7f20ca93e27be213d33dcc80c9372215b774092167423ef795cfc",
+      "segments": 28,
+      "words": 957,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 251,
     "duration_s": 411,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9115df583bb7f20ca93e27be213d33dcc80c9372215b774092167423ef795cfc"
 }
