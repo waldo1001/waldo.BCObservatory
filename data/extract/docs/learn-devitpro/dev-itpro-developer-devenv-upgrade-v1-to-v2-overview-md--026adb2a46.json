@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-upgrade-v1-to-v2-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-v1-to-v2-overview",
+  "title": "Converting Extensions V1 to V2 Overview",
+  "blob": "c3251a97799fca00e3b6043cd89f53d91b0d62dc",
+  "summary": "Converting Extensions V1 to V2 explains how to migrate C/AL extensions to AL extensions using the Txt2Al conversion tool, writing upgrade codeunits to restore data, and deploying the V2 extension. Only supported on Spring 2019 (version 14) and earlier.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extension conversion",
+    "v1 to v2",
+    "al development",
+    "data upgrade",
+    "txt2al tool",
+    "codeunit"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyExtensionUpgrade"
+    }
+  ],
+  "features": [
+    "Txt2Al conversion tool",
+    "Upgrade codeunit",
+    "NAVAPP.RestoreArchiveData()",
+    "NAVAPP.DeleteArchiveData()",
+    "NAVAPP.GetArchiveRecordRef()",
+    "NAVAPP.GetArchiveVersion()",
+    "OnCheckPreconditionsPerDatabase trigger",
+    "OnUpgradePerDatabase trigger"
+  ],
+  "versions": [
+    "Spring 2019 version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007525,
+      "pages_in_call": 3
+    }
+  ]
+}

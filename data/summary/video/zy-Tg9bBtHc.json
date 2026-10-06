@@ -1,0 +1,28 @@
+{
+  "video_id": "zy-Tg9bBtHc",
+  "item_id": "video/yt-microsoft/zy-Tg9bBtHc",
+  "summary": "E-shipments in Business Central 2025 release wave 2: the e-documents framework is extended to sales shipments and transfer shipments, with retroactive e-document creation from posted documents and e-document attachments in post and send. The demo uses an example file, not a country-specific localization.",
+  "overview": "The video covers what is new for e-documents and e-shipments in 2025 release wave 2. E-shipments are electronic versions of shipment documents that can be sent to authorities where required. The speaker names Mexico and India as countries where this is already mandatory and says other countries will follow.\n\nThe demos show sales shipment e-documents, transfer shipments driven by a new setting on the location, creating e-documents from already posted documents, an export and email workflow, and the post and send attachment choice. The speaker states that the system has no file for a specific localization yet. The sample file is for demos, and localization will follow per country. EFTI support for EU electronic transport documents is mentioned as depending on the regulation becoming mandatory.",
+  "key_points": [
+    "E-shipments are electronic shipment documents for authorities; the speaker names Mexico and India as countries where they are already mandatory.",
+    "The e-documents framework now covers sales shipments and transfer shipments.",
+    "Transfer orders are picked up automatically only if the new e-documents transfer document sending profile field is set on the location (table Location).",
+    "E-documents can be created from already posted documents, but the customer needs a document sending profile with e-documents enabled or creation will not succeed.",
+    "Emailing exported e-documents alongside the PDF needs a manually set up workflow that triggers when the e-document service status changes to exported.",
+    "In post and send, under email attachments you can now choose the e-document, the PDF, or both.",
+    "The demo file is only an example; country-specific files will come with localization. EFTI support depends on the regulation becoming mandatory."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "ea41f425d0331c27a0a01ae2b7d17c9dc90269f82e1d669e75a205ba5ee6a28f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016194399999999998
+  }
+}

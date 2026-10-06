@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterintermediatedocumentready-event",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "772e1e282c71b5ff7a21f07afd969da01540129d",
       "words": 396,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.091Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.009091
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.937Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.938Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.939Z",
+      "page": false
     }
   },
   "input_hash": "772e1e282c71b5ff7a21f07afd969da01540129d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "772e1e282c71b5ff7a21f07afd969da01540129d"
+  "output_hash": "03bd48727df31fc37b82e5952d389362b209d4f9a98e0d9078c82668e483a852"
 }

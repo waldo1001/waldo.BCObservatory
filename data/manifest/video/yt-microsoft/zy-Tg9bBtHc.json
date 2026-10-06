@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=zy-Tg9bBtHc",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:09.529Z",
+      "path": "data/extract/video/zy-Tg9bBtHc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 8,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.025729
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:16.450Z",
+      "path": "data/summary/video/zy-Tg9bBtHc.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.016194399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:16.454Z",
+      "systems": [
+        "localization",
+        "warehouse",
+        "sales"
+      ],
+      "topics": 9,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T18:29:16.472Z",
+      "path": "content/videos/zy-Tg9bBtHc.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： E-Documents and E-Shipments (2025 release wave 2) [zy-Tg9bBtHc].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "857f4737c12e8c470221a0f6018d5205a8817da100d82a53f2f83f08c6818c16"
 }

@@ -1,0 +1,487 @@
+{
+  "video_id": "Xc3ISQ7NAaQ",
+  "item_id": "video/yt-microsoft/Xc3ISQ7NAaQ",
+  "title": "What's New: Payables Agent Update (2025 release wave 2)",
+  "duration_s": 884,
+  "systems": [
+    "purchasing",
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "payables agent",
+    "invoice processing",
+    "vendor invoices",
+    "ai-powered automation",
+    "purchase orders",
+    "approvals",
+    "fraud detection",
+    "e-invoicing",
+    "preview",
+    "general availability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Payables Agent",
+      "t_start": 0,
+      "t_end": 112.9
+    },
+    {
+      "title": "Key Functionality and Preview Status",
+      "t_start": 112.9,
+      "t_end": 137.4
+    },
+    {
+      "title": "Demo: Invoice Processing Workflow",
+      "t_start": 137.4,
+      "t_end": 425
+    },
+    {
+      "title": "Setup and Configuration Details",
+      "t_start": 425,
+      "t_end": 511.4
+    },
+    {
+      "title": "Customer Feedback and AI Development Philosophy",
+      "t_start": 511.4,
+      "t_end": 612.8
+    },
+    {
+      "title": "Near-term Roadmap and Functional Expansion",
+      "t_start": 612.8,
+      "t_end": 666.6
+    },
+    {
+      "title": "Long-term Vision and Future Capabilities",
+      "t_start": 666.6,
+      "t_end": 850.7
+    },
+    {
+      "title": "Closing and Resources",
+      "t_start": 850.7,
+      "t_end": 884
+    }
+  ],
+  "features": [
+    {
+      "name": "AI-powered invoice processing",
+      "description": "The payables agent provides end-to-end AI-powered invoice processing that covers the entire vendor invoice workflow. It interprets invoices and presents reasoning to users about how invoices are registered.",
+      "status": "preview",
+      "status_evidence_t": 98.3,
+      "status_evidence_quote": "right now the payables agent is in preview",
+      "status_evidence_verified": true,
+      "t_start": 50.4,
+      "t_end": 124.1,
+      "is_demoed": true,
+      "caveats": [
+        "Currently in preview in four countries: United States, United Kingdom, Australia, New Zealand",
+        "AI-generated content requires human review as there can be errors"
+      ],
+      "tags": [
+        "ai",
+        "invoice processing",
+        "end-to-end",
+        "vendor invoices"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Email-based invoice ingestion",
+      "description": "The agent monitors a configured email address for incoming PDF invoice attachments. It automatically processes any new emails without requiring active monitoring in Outlook or other email clients.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.6,
+      "t_end": 222.1,
+      "is_demoed": true,
+      "caveats": [
+        "Organizations can choose whether to expose the email address to vendors or use it only for internal forwarding"
+      ],
+      "tags": [
+        "email",
+        "pdf",
+        "ingestion",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Draft invoice review with reasoning",
+      "description": "After processing an invoice, the agent provides a draft with suggested line items, deferrals, and other details. The interface shows the AI-generated content for human review with transparency about the agent's reasoning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 235.6,
+      "t_end": 283.4,
+      "is_demoed": true,
+      "caveats": [
+        "All content is AI-generated and requires human review",
+        "A human must confirm before the agent creates a final purchase invoice"
+      ],
+      "tags": [
+        "review",
+        "transparency",
+        "draft",
+        "human-in-the-loop"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor creation with blocking",
+      "description": "When the agent encounters an unrecognized vendor, it can suggest creating a new vendor record. New vendors are automatically set with the blocked field to 'all' to ensure due diligence and approval processes are followed before the invoice can be processed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366.2,
+      "t_end": 414.4,
+      "is_demoed": true,
+      "caveats": [
+        "New vendors are blocked and must be unblocked by the user before invoice processing can continue",
+        "Respects existing vendor approval and due diligence processes"
+      ],
+      "tags": [
+        "vendor",
+        "creation",
+        "blocking",
+        "compliance"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Minimal setup required",
+      "description": "The agent is designed as a turnkey solution with minimal configuration needed. Out of the box it works with Business Central systems, but optional parameters can be tweaked for different processing workflows and matching algorithms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 451.4,
+      "t_end": 500.4,
+      "is_demoed": true,
+      "caveats": [
+        "No mapping of items or accounts to existing data required"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "turnkey"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor matching improvements",
+      "description": "Future enhancement to improve the agent's ability to recognize and match vendors. The agent will get better at identifying existing vendors when processing invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 640.8,
+      "t_end": 652,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Part of upcoming wave functional expansion"
+      ],
+      "tags": [
+        "vendor matching",
+        "improvements",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Purchase order matching",
+      "description": "The agent will handle two-way and three-way matching with purchase orders in the system, covering both product purchases and services or accounts. This enables matching of invoices against existing purchase orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 640.8,
+      "t_end": 666.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Will support both two-way and three-way matching"
+      ],
+      "tags": [
+        "purchase orders",
+        "matching",
+        "three-way",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-invoice support",
+      "description": "The agent will be able to process electronic invoices such as e-invoices common in Europe, in addition to PDF invoices. It will handle invoicing from multiple sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 678.9,
+      "t_end": 706.1,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Part of long-term vision"
+      ],
+      "tags": [
+        "e-invoicing",
+        "electronic invoices",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Fraud detection",
+      "description": "The agent will have capabilities to identify fraudulent invoices and handle anti-fraud scenarios to help protect against invoice fraud.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 678.9,
+      "t_end": 706.1,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Part of long-term vision"
+      ],
+      "tags": [
+        "fraud",
+        "detection",
+        "security",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Approval automation",
+      "description": "Future capability for the agent to handle approval workflows. Users will be able to approve invoices from anywhere, potentially enabling more autonomous approval processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 799.2,
+      "t_end": 839,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Part of long-term roadmap",
+        "Approval location flexibility is the goal"
+      ],
+      "tags": [
+        "approvals",
+        "automation",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Autonomous invoice posting",
+      "description": "Future capability where the agent could automatically post invoices after approval, reducing manual steps in the invoice processing workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 819.2,
+      "t_end": 839,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Optional capability",
+        "User decision on whether to enable"
+      ],
+      "tags": [
+        "posting",
+        "automation",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Payment suggestions",
+      "description": "The agent may be able to create optimal payment suggestions as part of its long-term vision for end-to-end invoice and payment processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 819.2,
+      "t_end": 839,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Speculative capability under consideration",
+        "Part of long-term vision"
+      ],
+      "tags": [
+        "payments",
+        "suggestions",
+        "roadmap"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "General availability rollout",
+      "description": "The agent will be made available to as many customers as possible with worldwide availability, though there may be language and geographical restrictions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 612.8,
+      "t_end": 625.4,
+      "is_demoed": false,
+      "caveats": [
+        "May have language and geographical restrictions",
+        "Timing to be announced"
+      ],
+      "tags": [
+        "general availability",
+        "worldwide",
+        "rollout"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Continuous learning from usage",
+      "description": "The agent improves over time as it processes more invoices and learns how the customer does business. It learns from historical invoices and actual usage patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.2,
+      "t_end": 98.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "learning",
+        "ai",
+        "continuous improvement"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Saurin",
+      "confidence": "high"
+    },
+    {
+      "name": "Hos Antonio",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jose",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.6,
+      "text": "accounts payables is the backbone of quality financial data. What does that mean? Well, it means that if you make a mistake in your",
+      "why_it_matters": "Establishes the importance and impact of payables accuracy on downstream financial processes and statements.",
+      "check": "exact"
+    },
+    {
+      "t": 98.3,
+      "text": "right now the payables agent is in preview and we call it the first line of defense against the poor quality data and accounts",
+      "why_it_matters": "Confirms the current status of the payables agent as preview and defines its key role in data quality.",
+      "check": "exact"
+    },
+    {
+      "t": 112.9,
+      "text": "the agent is in preview in four countries United States, United Kingdom, Australia and New Zealand and it has a lot of great functionality",
+      "why_it_matters": "Specifies the geographical availability and scope of the preview release.",
+      "check": "exact"
+    },
+    {
+      "t": 272.2,
+      "text": "all of this content has been AI generated. So a human needs to review as there can be errors.",
+      "why_it_matters": "Critical caveat that human review is required due to potential AI errors in invoice processing.",
+      "check": "exact"
+    },
+    {
+      "t": 402.7,
+      "text": "the blocked field on the vendor will be set to all. And that's because we want to respect any due diligence or processes you",
+      "why_it_matters": "Design decision showing how the agent respects existing business processes and compliance requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 451.4,
+      "text": "there is not much setup uh required. The idea was that the agent will be a one uh oneclick stop for configuration.",
+      "why_it_matters": "Highlights the minimal setup requirement as a key advantage and design principle of the solution.",
+      "check": "exact"
+    },
+    {
+      "t": 612.8,
+      "text": "we want to make the agent available to as many customers as possible. That means worldwide availability what we call general availability of the",
+      "why_it_matters": "Announces the commitment to general availability with worldwide rollout as the next step beyond preview.",
+      "check": "exact"
+    },
+    {
+      "t": 678.9,
+      "text": "the vision of the agent is that it's all you need to handle your vendor invoice processing from start to finish. Basically we want",
+      "why_it_matters": "States the overarching vision and strategic intent for the payables agent as an end-to-end solution.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 98.3,
+      "kind": "preview",
+      "text": "the payables agent is in preview"
+    },
+    {
+      "t": 112.9,
+      "kind": "preview",
+      "text": "the agent is in preview in four countries United States, United Kingdom, Australia and New Zealand"
+    },
+    {
+      "t": 272.2,
+      "kind": "preview",
+      "text": "all of this content has been AI generated. So a human needs to review as there can be errors."
+    },
+    {
+      "t": 625.4,
+      "kind": "subject-to-change",
+      "text": "There might still be some language and geographical restrictions even if we go general availability"
+    },
+    {
+      "t": 640.8,
+      "kind": "coming-later",
+      "text": "we want to improve the matching of vendors"
+    },
+    {
+      "t": 692.5,
+      "kind": "coming-later",
+      "text": "we want to be able to source any invoice whether it's an electronic invoice like the e invoices"
+    },
+    {
+      "t": 706.1,
+      "kind": "coming-later",
+      "text": "we want to help with identifying fraudulent invoices in different anti-fraud scenarios"
+    },
+    {
+      "t": 819.2,
+      "kind": "coming-later",
+      "text": "we also want to handle approvals basically we want you to be able to approve an invoice from from anywhere"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035272
+    }
+  ]
+}

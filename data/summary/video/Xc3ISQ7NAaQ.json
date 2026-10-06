@@ -1,0 +1,28 @@
+{
+  "video_id": "Xc3ISQ7NAaQ",
+  "item_id": "video/yt-microsoft/Xc3ISQ7NAaQ",
+  "summary": "Payables agent in Business Central (2025 release wave 2): AI-powered vendor invoice processing, in preview in the US, UK, Australia and New Zealand. The video demos email-based PDF ingestion, draft review with reasoning, and vendor creation with blocking, then covers the roadmap.",
+  "overview": "The video presents the payables agent, which handles vendor invoice processing from a monitored email address. It reads PDF invoices, proposes a draft with line items and deferrals, and shows its reasoning. A human must review the AI-generated content and confirm before a purchase invoice is created.\n\nIt also covers setup, which needs little configuration and no mapping of items or accounts. The roadmap includes better vendor matching, purchase order matching, e-invoices, fraud detection, approvals, optional autonomous posting and general availability with possible language and geographic restrictions.",
+  "key_points": [
+    "The payables agent is in preview in four countries: United States, United Kingdom, Australia and New Zealand.",
+    "The agent monitors a configured email address for PDF invoice attachments. You can expose the address to vendors or use it only for internal forwarding.",
+    "All agent output is AI-generated and needs human review. A human must confirm before the final purchase invoice is created.",
+    "Vendors the agent creates are set with Blocked = all. The user must unblock them before processing continues, which respects due diligence and approval processes.",
+    "Setup is minimal, with no mapping of items or accounts. Optional parameters can adjust the processing workflow and matching algorithms.",
+    "Planned but not yet implemented: better vendor matching, two-way and three-way purchase order matching, e-invoices, fraud detection, approvals from anywhere, and optional autonomous posting.",
+    "General availability is intended to be worldwide, but language and geographic restrictions may remain and timing is to be announced."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "end user"
+  ],
+  "extraction_hash": "fcf6d256ea2712dfd4053fba1baf587283a07700311bf7fa630e0054626182bd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0203204
+  }
+}

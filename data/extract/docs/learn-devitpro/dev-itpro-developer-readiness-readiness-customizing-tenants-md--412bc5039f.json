@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/readiness/readiness-customizing-tenants.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants",
+  "title": "Customizing Tenants",
+  "blob": "597ff3a7dd011e190902a0445c76a4c8c9d2e41d",
+  "summary": "Customize Business Central describes how to tailor Business Central through Designer for UI changes, or AL extensions in Visual Studio Code for deeper customization, with testing on sandbox environments before production deployment.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "customization",
+    "designer",
+    "al extension",
+    "page extension",
+    "table extension",
+    "sandbox testing"
+  ],
+  "objects": [],
+  "features": [
+    "In-client Designer",
+    "Page extensions",
+    "Table extensions",
+    "AL business logic",
+    "Sandbox environment testing",
+    "Docker container testing",
+    "App deployment to production"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007525,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "video_id": "StIVhsnOHWY",
+  "item_id": "video/yt-microsoft/StIVhsnOHWY",
+  "title": "What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)",
+  "duration_s": 1419,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "troubleshooting",
+    "synchronization",
+    "job queue",
+    "logging",
+    "inventory levels",
+    "location filters",
+    "product mapping",
+    "pricing",
+    "order import",
+    "error handling",
+    "refunds"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and troubleshooting overview",
+      "t_start": 0,
+      "t_end": 43
+    },
+    {
+      "title": "Sync in foreground and logging mode setup",
+      "t_start": 43,
+      "t_end": 169.4
+    },
+    {
+      "title": "Customer synchronization issues and error handling",
+      "t_start": 169.4,
+      "t_end": 399.8
+    },
+    {
+      "title": "Inventory level synchronization and location configuration",
+      "t_start": 399.8,
+      "t_end": 625.8
+    },
+    {
+      "title": "Product creation and item mapping",
+      "t_start": 625.8,
+      "t_end": 725.5
+    },
+    {
+      "title": "Pricing and variant configuration",
+      "t_start": 725.5,
+      "t_end": 807.4
+    },
+    {
+      "title": "Order import and error detection",
+      "t_start": 807.4,
+      "t_end": 905.8
+    },
+    {
+      "title": "Inspecting received information and creating sales documents",
+      "t_start": 905.8,
+      "t_end": 975.8
+    },
+    {
+      "title": "Archiving documents and unlinking processed orders",
+      "t_start": 975.8,
+      "t_end": 1090.1
+    },
+    {
+      "title": "Handling refunds and creating credit memos",
+      "t_start": 1090.1,
+      "t_end": 1145.4
+    },
+    {
+      "title": "Orders and fulfillments synchronization issues",
+      "t_start": 1145.4,
+      "t_end": 1262.4
+    },
+    {
+      "title": "Investigating failed shipments and document updates",
+      "t_start": 1262.4,
+      "t_end": 1352.8
+    },
+    {
+      "title": "Shopify activities and final recommendations",
+      "t_start": 1352.8,
+      "t_end": 1419
+    }
+  ],
+  "features": [
+    {
+      "name": "Sync in foreground mode",
+      "description": "Allows synchronization to run in the foreground instead of through job queue, providing clear error messages and better visibility during troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 169.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "foreground sync",
+        "troubleshooting",
+        "error visibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Logging mode configuration",
+      "description": "Three logging options available: Error only, All, and Disabled. Error only saves disk space when connector is running smoothly; All mode logs all entries for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.4,
+      "t_end": 202,
+      "is_demoed": true,
+      "caveats": [
+        "Error only mode saves disk space but misses detailed logging"
+      ],
+      "tags": [
+        "logging",
+        "troubleshooting",
+        "disk space"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Customer validation and skip notification",
+      "description": "Connector runs checks on customers and notifies users with friendly error messages when records are skipped due to validation issues like missing email addresses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 229.1,
+      "t_end": 287.2,
+      "is_demoed": true,
+      "caveats": [
+        "Email address is required for customer export to Shopify"
+      ],
+      "tags": [
+        "customer validation",
+        "error notification",
+        "data quality"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Log entry details for synchronization",
+      "description": "Connector logs each operation with detailed transaction entries showing attempts to find or create records, including successful and failed entries with response details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 304.9,
+      "t_end": 351.5,
+      "is_demoed": true,
+      "caveats": [
+        "Log entries show all operations even if some fail"
+      ],
+      "tags": [
+        "logging",
+        "transaction entries",
+        "debugging"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inventory tracking on products",
+      "description": "Inventory tracking must be activated on products for stock level synchronization with Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 413.3,
+      "t_end": 435.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory tracking",
+        "stock synchronization",
+        "configuration"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Location filter and stock calculation options",
+      "description": "Location filters must be configured with one of three stock calculation options: projected available balance at date, and free inventory not reserved. Customizations may use different methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.9,
+      "t_end": 462.6,
+      "is_demoed": true,
+      "caveats": [
+        "Customized stock calculations may require partner assistance"
+      ],
+      "tags": [
+        "location filters",
+        "stock calculation",
+        "configuration"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Shopify inventory fact box",
+      "description": "Product page displays a fact box showing inventory levels by location, last update time, and a comparison of Business Central stock with Shopify stock.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.6,
+      "t_end": 625.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory fact box",
+        "stock display",
+        "location visibility"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Location export toggles for products",
+      "description": "Toggles to activate location export when exporting products. When activated, automatically lists all configured locations as sources for inventory in Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 559,
+      "t_end": 591.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be activated before exporting products to Shopify"
+      ],
+      "tags": [
+        "location export",
+        "multi-location",
+        "product export"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Create item action for unknown products",
+      "description": "New action allows manual creation of Business Central items from unmapped Shopify products using the create item button in the products list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 657.7,
+      "t_end": 725.5,
+      "is_demoed": true,
+      "caveats": [
+        "Automatic creation may fail due to template issues or number series constraints"
+      ],
+      "tags": [
+        "item creation",
+        "product mapping",
+        "new feature"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Has error and error message columns",
+      "description": "Product list now shows has error toggle and error message columns to display validation errors directly in the products list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 679.4,
+      "t_end": 716.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error display",
+        "list columns",
+        "new feature"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Compare at price display",
+      "description": "Product variants display a compare at price field showing the full price before discount, in addition to the discounted price.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 738.1,
+      "t_end": 796.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "compare at price",
+        "discount visibility"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Archived order detection",
+      "description": "Archived orders in Shopify are not imported to Business Central automatically. Users must unarchive orders in Shopify admin to enable import.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 807.4,
+      "t_end": 838.2,
+      "is_demoed": true,
+      "caveats": [
+        "Archived orders are filtered out by default"
+      ],
+      "tags": [
+        "order import",
+        "archived orders",
+        "filtering"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Shopify orders to import table",
+      "description": "Separate table showing all Shopify orders available for import, allowing users to selectively import specific orders instead of bulk import.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 838.2,
+      "t_end": 891,
+      "is_demoed": true,
+      "caveats": [
+        "Archived orders in Shopify will not be imported"
+      ],
+      "tags": [
+        "order import",
+        "selective import",
+        "order table"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Import selected order action",
+      "description": "Action allowing users to select specific orders from the Shopify orders to import table and import only those orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 859.3,
+      "t_end": 884.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order import",
+        "selective import"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Has error field for imported orders",
+      "description": "A field in the Shopify orders to import table that indicates if an order has errors during import, with details available in the record details section.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 884.2,
+      "t_end": 905.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "import",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inspect received information from Shopify orders",
+      "description": "Ability to view detailed information received from Shopify for orders, including header information and line details, to understand which data was received and identify missing information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 905.8,
+      "t_end": 952.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires technical knowledge to interpret"
+      ],
+      "tags": [
+        "inspection",
+        "data mapping",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify order fact box on sales documents",
+      "description": "A fact box that displays key numbers from both the Shopify order and the created sales document, helping users verify if tax calculation and other configurations are correct.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 952.4,
+      "t_end": 975.8,
+      "is_demoed": true,
+      "caveats": [
+        "Works with both sales orders and sales invoices"
+      ],
+      "tags": [
+        "fact box",
+        "sales documents",
+        "shopify"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Shopify related fields in archived sales documents",
+      "description": "Fields visible in archived sales documents that store Shopify references: Shopify order ID in header and Shopify order line ID in lines, useful for exploring shipping scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 990.1,
+      "t_end": 1029.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only visible when document is archived"
+      ],
+      "tags": [
+        "data fields",
+        "order tracking",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Unlink processor documents",
+      "description": "Button to unlink a processed Shopify order that has been deleted or needs re-import, marking it as not linked so a new sales document can be created after synchronization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1042.2,
+      "t_end": 1068.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to deleted documents that remain marked as processed"
+      ],
+      "tags": [
+        "reprocessing",
+        "order management",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sync order from Shopify function",
+      "description": "Function to import updates from Shopify for a specific order, allowing users to pull the latest information about quantity, shipping charges or other changes without reimporting the entire order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1068.4,
+      "t_end": 1090.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order updates",
+        "synchronization",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Create credit memo for refunds",
+      "description": "New feature to create a credit memo from a refunded order in Shopify, intended for consultants configuring the connector and testing scenarios where refund accounts may not be properly configured.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1090.1,
+      "t_end": 1128.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper refund account configuration in Shopify shop",
+        "Mainly for consultant use during configuration"
+      ],
+      "tags": [
+        "refunds",
+        "credit memo",
+        "configuration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Fulfillment information in Shopify orders",
+      "description": "Displays fulfillment and fulfillment order details for Shopify orders, showing what is pending or marked as closed, to help identify synchronization conflicts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1195.5,
+      "t_end": 1250.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual checking of Shopify admin when conflicts occur"
+      ],
+      "tags": [
+        "fulfillment",
+        "order status",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sync orders from Shopify action on fulfillment",
+      "description": "Action to sync order data from Shopify to see if fulfillment information has changed, helping identify if an order was fulfilled in Shopify after being posted as shipped in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1224.2,
+      "t_end": 1250.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fulfillment",
+        "synchronization",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify fulfillment ID field on sales shipment",
+      "description": "Field on posted sales shipment documents that shows the Shopify fulfillment ID, which becomes minus one if synchronization fails, indicating a problem that needs resolution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.8,
+      "t_end": 1336.2,
+      "is_demoed": true,
+      "caveats": [
+        "Shows minus one on failed synchronization",
+        "Can be manually edited to retry synchronization"
+      ],
+      "tags": [
+        "fulfillment",
+        "shipment",
+        "error handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify activities line showing KPIs",
+      "description": "A view showing key performance indicators for Shopify synchronization including missing mappings, pending orders, failed shipments, job queue failures, and conflicting updates that need attention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1352.8,
+      "t_end": 1381,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual review and resolution of identified issues"
+      ],
+      "tags": [
+        "monitoring",
+        "diagnostics",
+        "kpi"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Shopify orders to import",
+      "t": 849.7
+    },
+    {
+      "type": "page",
+      "name": "archived sales documents",
+      "t": 1001.5
+    },
+    {
+      "type": "page",
+      "name": "Shopify activities line",
+      "t": 1352.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "many and many releases we are working on making connector more stable and reliable and we achieved great progress.",
+      "why_it_matters": "Establishes the ongoing focus on connector stability and reliability improvements across multiple releases",
+      "check": "exact"
+    },
+    {
+      "t": 23.5,
+      "text": "very very small and if this video would be focused only on those it will be",
+      "why_it_matters": "Indicates this release adds four small capabilities, suggesting incremental rather than major changes",
+      "check": "fuzzy"
+    },
+    {
+      "t": 43,
+      "text": "Let's start business central Shopify shop cart and my first recommendation is to run sync in foreground when you do troubleshooting.",
+      "why_it_matters": "Establishes foreground sync as the primary troubleshooting recommendation for the connector",
+      "check": "exact"
+    },
+    {
+      "t": 169.4,
+      "text": "We have three options error Error only, all and disabled.",
+      "why_it_matters": "Describes the three available logging modes for controlling the level of detail in synchronization logging",
+      "check": "exact"
+    },
+    {
+      "t": 242.7,
+      "text": "shopify connector runs number of checks on customers and other entities like products and",
+      "why_it_matters": "Explains that the connector performs pre-export validation to prevent predictable failures",
+      "check": "fuzzy"
+    },
+    {
+      "t": 435.8,
+      "text": "There are three options in the standard connector of projected available balance at date and free inventory not reserved.",
+      "why_it_matters": "Specifies the stock calculation options available in standard configuration for inventory synchronization",
+      "check": "exact"
+    },
+    {
+      "t": 669.4,
+      "text": "I have now new action which is called create item. Let me select it and press create item.",
+      "why_it_matters": "Demonstrates new capability to manually create Business Central items from unmapped Shopify products",
+      "check": "exact"
+    },
+    {
+      "t": 817.8,
+      "text": "Archived orders will not be imported. So if you want it, you need to make sure that it is unarchived.",
+      "why_it_matters": "Clarifies that archived orders are filtered out and must be unarchived in Shopify to enable import",
+      "check": "exact"
+    },
+    {
+      "t": 849.7,
+      "text": "It's called Shopify orders to import. It's a separate table with a list of all orders.",
+      "why_it_matters": "Explains the purpose of a new table that provides alternative to importing all orders at once",
+      "check": "exact"
+    },
+    {
+      "t": 963,
+      "text": "there is a new fact box uh which actually shows some key numbers from Shopify order itself but also the same numbers from the",
+      "why_it_matters": "New feature for validating tax calculation and configuration when orders are converted to sales documents",
+      "check": "exact"
+    },
+    {
+      "t": 1102.1,
+      "text": "this is a new feature which probably not will not be seen by many customers but only by consultant who is doing configuration for",
+      "why_it_matters": "Clarifies the intended audience for the credit memo creation feature",
+      "check": "exact"
+    },
+    {
+      "t": 1195.5,
+      "text": "I will get this notification that some records were skipped during the synchronization view skipped record sales shipment header no corresponding fulfillment lines found",
+      "why_it_matters": "Error message that indicates fulfillment conflicts when order is already fulfilled in Shopify",
+      "check": "exact"
+    },
+    {
+      "t": 1283.8,
+      "text": "we have a shopify order line number it's not blank so it's a good sign",
+      "why_it_matters": "Diagnostic indicator for identifying whether a sales order lost its connection to Shopify data",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 23.5,
+      "kind": "other",
+      "text": "four capabilities added in this release"
+    },
+    {
+      "t": 1102.1,
+      "kind": "preview",
+      "text": "this is a new feature which probably not will not be seen by many customers but only by consultant"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 25
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030848
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029503
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03296
+    }
+  ]
+}

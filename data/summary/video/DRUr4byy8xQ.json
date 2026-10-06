@@ -1,0 +1,27 @@
+{
+  "video_id": "DRUr4byy8xQ",
+  "item_id": "video/yt-microsoft/DRUr4byy8xQ",
+  "summary": "Agent access control in Business Central: how the sales order agent's access is defined by permissions and profiles, how administrators customize both, troubleshoot with agent log entries, and manage which users can access the agent. Demoed in a 3-minute video from September 2025.",
+  "overview": "The video explains that the sales order agent shares the same attributes as any other Business Central user, so its access is defined by permissions and profiles. It uses UI elements to work out the steps it needs, which means the pages and controls in its profile determine what it can do.\n\nIt walks through the pre-built agent profile and permission set, how to customize them, and how to use agent log entries to find permission problems. It also covers adding users who can review and approve agent steps in the agent pane, and granting or revoking the ability to manage agent configuration. The closing message is that administrators stay in full control of the agent's access.",
+  "key_points": [
+    "The agent has the same attributes as any other user, and its access is set by permissions and profiles.",
+    "A pre-built profile ships with the agent. You can add or remove pages, actions and other controls, but the agent must be disabled before you change it.",
+    "You can switch to the assigned profile to verify which pages and controls the agent can reach.",
+    "A pre-built permission set is provided to get started. Review it and modify it as needed.",
+    "Custom apps or customizations that extend the process may need extra permissions, and the agent may hit permission errors without them.",
+    "Agent log entries show the pages the agent navigated to, the actions it invoked and the issues it hit. Disable the agent before adding permissions to fix issues.",
+    "Administrators can add users who access the agent pane to review and approve steps, and can grant or revoke the right to manage agent configuration."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "77a61389399719c9e3c3690128f14656448e34846f89682aa552eb1b1a4ec3fb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135504
+  }
+}

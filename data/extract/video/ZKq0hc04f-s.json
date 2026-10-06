@@ -1,0 +1,217 @@
+{
+  "video_id": "ZKq0hc04f-s",
+  "item_id": "video/yt-microsoft/ZKq0hc04f-s",
+  "title": "What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)",
+  "duration_s": 572,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "performance profiling",
+    "sql calls",
+    "performance troubleshooting",
+    "sampling mode",
+    "schedule profiles",
+    "in-client profiler",
+    "visual studio code",
+    "performance analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 42.6
+    },
+    {
+      "title": "Profiling recap and in-client profiler history",
+      "t_start": 42.6,
+      "t_end": 147.4
+    },
+    {
+      "title": "Schedule profiles and SQL details feature",
+      "t_start": 147.4,
+      "t_end": 223
+    },
+    {
+      "title": "Demo setup and profile capture",
+      "t_start": 223,
+      "t_end": 301.6
+    },
+    {
+      "title": "Demo results and SQL insights",
+      "t_start": 301.6,
+      "t_end": 400.1
+    },
+    {
+      "title": "Summary of capabilities",
+      "t_start": 400.1,
+      "t_end": 465.4
+    },
+    {
+      "title": "Support details and resources",
+      "t_start": 465.4,
+      "t_end": 572
+    }
+  ],
+  "features": [
+    {
+      "name": "SQL call tracking in performance profiles",
+      "description": "Added ability to track SQL course calls when using the in-client profiler in the web client as well as when capturing snapshots from Visual Studio Code. Shows total duration of SQL calls, number of calls, and allows drilling into the actual SQL queries made.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.9,
+      "t_end": 435,
+      "is_demoed": true,
+      "caveats": [
+        "only sampling mode is supported",
+        "not available for instrumentation mode",
+        "SQL information only shown for AL calls in the call stack as part of sampling"
+      ],
+      "tags": [
+        "sql",
+        "performance",
+        "profiling",
+        "debugging"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance profiler in-client tool",
+      "description": "Allows users to start and stop recording of a flow of user actions in the web client to investigate performance issues. Shows extensions involved, total execution time, and detailed breakdown by application objects and call tree.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.2,
+      "t_end": 147.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "profiling",
+        "web client"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Schedule profiles",
+      "description": "Allows capture of performance profiles automatically and non-interactively in the background based on well-defined rules. Partner can set up rules and users perform daily tasks while profiles are captured automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.7,
+      "t_end": 223,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "profiling",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "SQL call visualization in Visual Studio Code",
+      "description": "SQL call information is available inside Visual Studio Code when viewing snapshots or importing profiles. Users can hover over calls to see full SQL query and copy it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389,
+      "t_end": 453.9,
+      "is_demoed": true,
+      "caveats": [
+        "only sampling mode is supported"
+      ],
+      "tags": [
+        "sql",
+        "visual studio code",
+        "profiling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP call tracking in performance profiles",
+      "description": "Performance profiling also tracks outbound HTTP calls, showing the number of outbound calls and their duration alongside SQL call metrics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 328.9,
+      "t_end": 344.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "http",
+        "outbound calls",
+        "profiling"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Peter Boy",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.9,
+      "text": "In this release, we add the ability to track SQL course calls uh both when using the inclient profiler in the web client as",
+      "why_it_matters": "States the core feature being announced - SQL call tracking is now available in multiple profiling scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 29.2,
+      "text": "This will help consultants and developers and support to faster identify and troubleshoot SQL issues in customer production environments.",
+      "why_it_matters": "Explains the business impact and target users for this new capability",
+      "check": "exact"
+    },
+    {
+      "t": 183.8,
+      "text": "The schedule profiles is now the recommended approach uh to profiling performance issues because it's so easy to set up and analyze afterwards.",
+      "why_it_matters": "Indicates shift in best practice recommendations for performance profiling strategy",
+      "check": "exact"
+    },
+    {
+      "t": 317.6,
+      "text": "but only a little more than 1 second uh running AL, right? Because most of the time which we can now see in new",
+      "why_it_matters": "Concrete demo result showing how SQL call tracking reveals performance bottlenecks that were not visible before",
+      "check": "exact"
+    },
+    {
+      "t": 453.9,
+      "text": "and SQL call information is also available inside of Visual Studio Code. when you've done uh snapshots or just by importing the profiles. And",
+      "why_it_matters": "States a key limitation - only sampling mode is supported, not instrumentation mode",
+      "check": "exact"
+    },
+    {
+      "t": 524.2,
+      "text": "Now we only support the sampling mode as I mentioned not instrumentation. uh that means that you only get SQL information for the um",
+      "why_it_matters": "Clarifies the scope limitation and what it means for developers using the feature",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020371
+    }
+  ]
+}

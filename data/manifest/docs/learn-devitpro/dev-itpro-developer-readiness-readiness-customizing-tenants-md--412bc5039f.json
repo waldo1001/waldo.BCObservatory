@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "597ff3a7dd011e190902a0445c76a4c8c9d2e41d",
       "words": 524,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.096Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007525
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.955Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.956Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.956Z",
+      "page": false
     }
   },
   "input_hash": "597ff3a7dd011e190902a0445c76a4c8c9d2e41d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "597ff3a7dd011e190902a0445c76a4c8c9d2e41d"
+  "output_hash": "679d9cf852b6ff4e28667e670e707c96357672c248798055ae3de6b4a7bb1659"
 }

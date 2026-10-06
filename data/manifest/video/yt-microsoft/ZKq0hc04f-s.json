@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=ZKq0hc04f-s",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:49.805Z",
+      "path": "data/extract/video/ZKq0hc04f-s.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020371
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:56.261Z",
+      "path": "data/summary/video/ZKq0hc04f-s.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0134184
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:56.263Z",
+      "systems": [
+        "platform",
+        "development"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:28:56.274Z",
+      "path": "content/videos/ZKq0hc04f-s.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Capturing SQL Calls in Performance Profiles (2025 release wave 2) [ZKq0hc04f-s].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "25a25c9b546bf7cf0f4b95e125f747ce60da1e0105344a25e87c19195092e2b2"
 }

@@ -1,0 +1,235 @@
+{
+  "video_id": "vm3sTuXdUho",
+  "item_id": "video/yt-microsoft/vm3sTuXdUho",
+  "title": "What's New in AL-Go for GitHub: Introducing Custom Templates (2025 release wave 2)",
+  "duration_s": 486,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "custom templates",
+    "custom jobs",
+    "github actions",
+    "devops",
+    "workflows",
+    "yaml",
+    "ci/cd",
+    "customization",
+    "business central development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and customization philosophy",
+      "t_start": 0,
+      "t_end": 49.3
+    },
+    {
+      "title": "Existing customization methods",
+      "t_start": 49.3,
+      "t_end": 96.7
+    },
+    {
+      "title": "Custom jobs in AL-Go",
+      "t_start": 96.7,
+      "t_end": 131.5
+    },
+    {
+      "title": "Custom templates concept and architecture",
+      "t_start": 131.5,
+      "t_end": 176.8
+    },
+    {
+      "title": "Custom templates demo and walkthrough",
+      "t_start": 176.8,
+      "t_end": 292.2
+    },
+    {
+      "title": "Custom jobs support and limitations",
+      "t_start": 292.2,
+      "t_end": 374.9
+    },
+    {
+      "title": "Custom templates support and limitations",
+      "t_start": 374.9,
+      "t_end": 427.3
+    },
+    {
+      "title": "Resources and conclusion",
+      "t_start": 427.3,
+      "t_end": 486
+    }
+  ],
+  "features": [
+    {
+      "name": "Custom templates for AL-Go",
+      "description": "Support for creating custom AL-Go templates that act as a middle layer between the original AL-Go template and end repositories, allowing teams to define custom jobs and settings that propagate to repositories using the custom template.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.4,
+      "t_end": 176.8,
+      "is_demoed": true,
+      "caveats": [
+        "Native AL-Go workflows cannot be removed or changed apart from adding custom jobs",
+        "AL-Go actions used in custom jobs will not be updated automatically",
+        "Non-AL-Go files and custom templates are not updated when running update AL-Go system files"
+      ],
+      "tags": [
+        "al-go",
+        "custom templates",
+        "devops",
+        "workflows"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom jobs in AL-Go workflows",
+      "description": "Ability to add custom jobs to existing AL-Go workflows by injecting YAML code directly into workflows provided by AL-Go. Custom jobs must be prefixed with 'custom job' to avoid conflicts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.7,
+      "t_end": 322.2,
+      "is_demoed": true,
+      "caveats": [
+        "Custom jobs must be prefixed with 'custom job' to avoid conflicts with future native jobs",
+        "AL-Go actions in custom jobs will not be automatically updated",
+        "Custom jobs are limited to specific scenarios for consuming output of native jobs"
+      ],
+      "tags": [
+        "custom jobs",
+        "yaml",
+        "ci/cd",
+        "workflows"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Settings propagation in custom templates",
+      "description": "Custom settings defined in custom AL-Go templates are propagated to end repositories that reference those custom templates through a new settings file.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.5,
+      "t_end": 268.5,
+      "is_demoed": true,
+      "caveats": [
+        "Settings are propagated only to repositories referencing the custom template"
+      ],
+      "tags": [
+        "custom templates",
+        "settings",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Native job dependencies with custom jobs",
+      "description": "Native AL-Go jobs can depend on custom jobs and vice versa, and the output of native jobs can be consumed in custom jobs for integration between native and custom workflow components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.2,
+      "t_end": 338,
+      "is_demoed": true,
+      "caveats": [
+        "Output consumption by custom jobs is limited to one specific scenario in the build process"
+      ],
+      "tags": [
+        "custom jobs",
+        "workflows",
+        "dependencies"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "CI/CD workflow",
+      "t": 107.5
+    },
+    {
+      "type": "other",
+      "name": "settings file",
+      "t": 234.2
+    },
+    {
+      "type": "other",
+      "name": "GitHub actions",
+      "t": 350.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Maria Jallesa",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.7,
+      "text": "Ago for GitHub is a plug-and-play DevOps solutions for business central development that aims to cover 90% of the functionality that 100% of the",
+      "why_it_matters": "Establishes AL-Go's core design goal and scope for partner development needs.",
+      "check": "exact"
+    },
+    {
+      "t": 96.7,
+      "text": "From the 7.3 release of AOG Go, there's actually a new way to customize AOGO. Namely, this is the support for adding custom jobs",
+      "why_it_matters": "Announces the new custom jobs feature availability as of version 7.3.",
+      "check": "exact"
+    },
+    {
+      "t": 162.5,
+      "text": "with the support of custom templates, we add a middle layer uh a custom template layer that is actually an ago repository itself and",
+      "why_it_matters": "Explains the architectural approach of custom templates as a layering mechanism.",
+      "check": "exact"
+    },
+    {
+      "t": 305.9,
+      "text": "we introduced a new naming convention, namely custom jobs must be prefixed with custom job.",
+      "why_it_matters": "States the mandatory naming requirement to prevent conflicts with future native jobs.",
+      "check": "exact"
+    },
+    {
+      "t": 350.9,
+      "text": "AOG actions used in custom jobs will not be updated when you run update AOG system files.",
+      "why_it_matters": "Describes an important limitation to avoid breaking changes in custom jobs.",
+      "check": "exact"
+    },
+    {
+      "t": 395.3,
+      "text": "native Aogo workflows cannot be removed or changed apart from adding custom jobs of course.",
+      "why_it_matters": "Clarifies core limitations to preserve AL-Go's native functionality integrity.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 427.3,
+      "kind": "subject-to-change",
+      "text": "For now nonaoggo files and custom templates are not updated when running update AOG system files. We have actually already received feedback so we might be changing this in the future."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020483
+    }
+  ]
+}

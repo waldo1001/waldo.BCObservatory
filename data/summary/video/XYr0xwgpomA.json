@@ -1,0 +1,26 @@
+{
+  "video_id": "XYr0xwgpomA",
+  "item_id": "video/yt-microsoft/XYr0xwgpomA",
+  "summary": "Sustainability journal approvals in Business Central (2025 release wave 2): a workflow template lets companies route sustainability journal batches through the standard approval workflow, for CSRD-type reporting control. Approval works on the whole batch only, not per line.",
+  "overview": "The video covers why larger companies that must report under CSRD or similar regulations want an approval step on sustainability journals, to improve compliance and control. It describes a new workflow template for sustainability journal batch approval that reuses the existing Business Central approval workflow functionality, with no custom development.\n\nIt then goes through the setup and shows a live demonstration. Users send or cancel an approval request from the sustainability journal. The approval runs like any other Business Central approval workflow.",
+  "key_points": [
+    "Approval is available for a whole sustainability journal batch only, not per individual line.",
+    "A new workflow template for sustainability journal batch approval is provided and uses the standard Business Central approval workflow functionality.",
+    "Setup needs minimal additional configuration; the pages mentioned are Workflows and Approval user setup.",
+    "From the Sustainability journal page, users can send or cancel an approval request for a batch.",
+    "Requests are handled on the Approvals page, the same as other approval workflows in Business Central.",
+    "The motivation given is compliance and control for companies that report under CSRD or similar regulations."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "a7f95db39b0b5119c7554a3958d82f30c87d3b10c14dffb0e76ce24a6d7f08bf",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010724399999999999
+  }
+}

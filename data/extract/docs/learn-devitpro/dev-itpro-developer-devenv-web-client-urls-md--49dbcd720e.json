@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-web-client-urls.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls",
+  "title": "Web client URL",
+  "blob": "3111beedcd2a0eaaa71031134bb0b9ffcc59e7f4",
+  "summary": "Web client URL describes how to construct URLs to open specific pages, reports, tables, and queries in the Business Central web client with parameters for company, mode, profile, filters, and display options.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "web client",
+    "url construction",
+    "url parameters",
+    "filtering",
+    "page navigation",
+    "embedded mode"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order List"
+    },
+    {
+      "type": "report",
+      "name": "Receivables – Payables"
+    }
+  ],
+  "features": [
+    "Company parameter",
+    "Page parameter",
+    "Report parameter",
+    "Table parameter",
+    "Mode parameter (View, Edit, Create)",
+    "Profile parameter",
+    "Filter syntax",
+    "Bookmark parameter"
+  ],
+  "versions": [
+    "2020 release wave 1 update 16.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007525,
+      "pages_in_call": 3
+    }
+  ]
+}

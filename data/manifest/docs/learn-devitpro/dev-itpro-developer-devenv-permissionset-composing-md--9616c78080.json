@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc",
       "words": 867,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.093Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.009091
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.943Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.943Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.944Z",
+      "page": false
     }
   },
   "input_hash": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc"
+  "output_hash": "e0d8f4d510e2ec801f7c41c2761ae430d3a35097b87e1a21e0cee94f3d5c7a25"
 }

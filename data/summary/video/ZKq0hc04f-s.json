@@ -1,0 +1,28 @@
+{
+  "video_id": "ZKq0hc04f-s",
+  "item_id": "video/yt-microsoft/ZKq0hc04f-s",
+  "summary": "SQL call tracking in Business Central performance profiles (2025 release wave 2): the in-client profiler and Visual Studio Code snapshots now show total SQL duration, call count and the actual queries. It works in sampling mode only, not instrumentation mode.",
+  "overview": "The video recaps the in-client performance profiler and schedule profiles, then covers the added ability to track SQL calls in profiles. It is aimed at helping consultants, developers and support find and troubleshoot SQL issues in customer production environments.\n\nA demo captures a profile and shows that most of the time in a slow flow is spent in SQL, with only a little over one second running AL. The same SQL information can be viewed in Visual Studio Code, where hovering over a call shows the full SQL query, which can be copied. The video also notes that profiling tracks outbound HTTP calls and states that schedule profiles are now the recommended way to profile performance issues.",
+  "key_points": [
+    "Profiles now show the total duration of SQL calls, the number of calls, and let you drill into the actual SQL queries.",
+    "SQL tracking works in the in-client profiler in the web client and for snapshots captured from Visual Studio Code.",
+    "Only sampling mode is supported; instrumentation mode does not give SQL information.",
+    "SQL information is shown only for AL calls in the call stack captured by sampling.",
+    "In Visual Studio Code, SQL details appear when viewing snapshots or importing profiles; hover over a call to see and copy the full query.",
+    "Schedule profiles capture profiles automatically in the background based on rules a partner sets up, and are now the recommended approach for profiling performance issues.",
+    "Profiling also shows the number and duration of outbound HTTP calls alongside SQL metrics."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "307d3827afe77f930e3dedb89688606dd9ffd3692bc458590f1e7bbaded24aa9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0134184
+  }
+}

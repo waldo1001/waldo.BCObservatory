@@ -1,0 +1,27 @@
+{
+  "video_id": "vm3sTuXdUho",
+  "item_id": "video/yt-microsoft/vm3sTuXdUho",
+  "summary": "AL-Go for GitHub custom templates and custom jobs: how a custom template repository sits between the original AL-Go template and end repositories, propagates jobs and settings, and what limits apply. Mentions custom jobs from AL-Go 7.3 and a naming rule.",
+  "overview": "The video covers customization options in AL-Go for GitHub, the DevOps solution for Business Central development. It recaps existing ways to customize, then describes custom jobs, which let you inject YAML into workflows supplied by AL-Go. Custom jobs are available from the 7.3 release.\n\nIt then introduces custom templates: a custom template is itself an AL-Go repository that works as a middle layer between the original AL-Go template and end repositories. Custom jobs and settings defined there propagate to repositories that reference the template. The video includes a demo and walks through the limitations, including that native workflows cannot be removed or changed and that the update behavior may change after feedback.",
+  "key_points": [
+    "Custom jobs, available from AL-Go 7.3, add jobs to existing AL-Go workflows by injecting YAML.",
+    "Custom jobs must be prefixed with 'custom job' to avoid conflicts with future native jobs.",
+    "A custom template is an AL-Go repository that sits between the original AL-Go template and end repositories.",
+    "Custom settings in a custom template reach end repositories through a new settings file, only for repositories that reference the template.",
+    "Native AL-Go workflows cannot be removed or changed, apart from adding custom jobs.",
+    "AL-Go actions used in custom jobs are not updated when you run update AL-Go system files.",
+    "Non-AL-Go files and custom templates are not updated by that run; the presenter says this may change after feedback."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "3bb8e48a39c025cb9d39e8775b2885e9011066a5707c306f9ec1b4c1673297e2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014044399999999999
+  }
+}

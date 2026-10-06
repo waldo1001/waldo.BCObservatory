@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-mobile-app-barcode-scanning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-mobile-app-barcode-scanning",
+  "title": "Barcode scanning in mobile app",
+  "blob": "8581712c692c162c57254d75a3087d86c52abf06",
+  "summary": "Barcode scanning in the Business Central mobile app enables developers to provide barcode scanning capability using the device camera or dedicated Android scanners through AL code and control add-in APIs.",
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "barcode scanning",
+    "mobile app",
+    "qr code",
+    "al language",
+    "camera",
+    "control add-in"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "CameraBarcodeScannerProviderAddIn"
+    },
+    {
+      "type": "interface",
+      "name": "BarcodeScannerProviderAddIn"
+    },
+    {
+      "type": "enum",
+      "name": "BarcodeFailure"
+    }
+  ],
+  "features": [
+    "UI button barcode scanning",
+    "programmatic barcode scanning",
+    "dedicated barcode scanner integration",
+    "control add-in APIs",
+    ".NET-based APIs",
+    "barcode format support",
+    "ExtendedDatatype property",
+    "continuous scanning"
+  ],
+  "versions": [
+    "2023 release wave 2",
+    "2024 release wave 1",
+    "version 23.0",
+    "version 24"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009091,
+      "pages_in_call": 5
+    }
+  ]
+}

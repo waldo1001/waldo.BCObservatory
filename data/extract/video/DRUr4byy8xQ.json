@@ -1,0 +1,231 @@
+{
+  "video_id": "DRUr4byy8xQ",
+  "item_id": "video/yt-microsoft/DRUr4byy8xQ",
+  "title": "Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)",
+  "duration_s": 190,
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "agent access control",
+    "permissions",
+    "profiles",
+    "sales order agent",
+    "agent log entries",
+    "user management",
+    "troubleshooting",
+    "security"
+  ],
+  "chapters": [
+    {
+      "title": "How Sales Order Agent Works",
+      "t_start": 0,
+      "t_end": 30.3
+    },
+    {
+      "title": "Agent Access Control Overview",
+      "t_start": 30.3,
+      "t_end": 59.1
+    },
+    {
+      "title": "Agent Profiles and UI Access",
+      "t_start": 59.1,
+      "t_end": 84.8
+    },
+    {
+      "title": "Agent Permissions and Configuration",
+      "t_start": 84.8,
+      "t_end": 121.5
+    },
+    {
+      "title": "Using Agent Log Entries for Troubleshooting",
+      "t_start": 121.5,
+      "t_end": 157
+    },
+    {
+      "title": "Managing Agent Users and Access",
+      "t_start": 157,
+      "t_end": 178.7
+    },
+    {
+      "title": "Summary: Administrator Control",
+      "t_start": 178.7,
+      "t_end": 190
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An AI-powered agent designed to perform sales order tasks while keeping users informed about key steps. It interacts with Business Central functionality similar to how users do, using UI elements to determine required steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3.4,
+      "t_end": 29.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper permissions and profiles to access specific controls"
+      ],
+      "tags": [
+        "sales order agent",
+        "ai automation",
+        "task execution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Profile Customization",
+      "description": "Agents come with a pre-built profile out of the box that can be customized to add or remove pages, actions, and other controls as needed. Administrators can verify exactly which pages and controls the agent can access by switching to the assigned profile.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59.1,
+      "t_end": 83.7,
+      "is_demoed": true,
+      "caveats": [
+        "Customization requires disabling agent before making changes"
+      ],
+      "tags": [
+        "profile customization",
+        "access control",
+        "ui configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent Permission Sets",
+      "description": "The sales order agent comes with a pre-built permission set to help users get started quickly. Administrators can review which permissions are included and modify them as needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.8,
+      "t_end": 120.4,
+      "is_demoed": true,
+      "caveats": [
+        "Custom apps or customizations may require additional permissions not in the pre-built set",
+        "Agents may encounter permission errors if they lack necessary permissions for extended processes"
+      ],
+      "tags": [
+        "permission sets",
+        "access control",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent Log Entries",
+      "description": "A troubleshooting tool that gives a complete overview of the steps the agent performed while working on a task, including the pages it navigated to, the actions it invoked, and any issues it encountered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.5,
+      "t_end": 155.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires agent to be disabled before adding required permissions to fix issues"
+      ],
+      "tags": [
+        "troubleshooting",
+        "diagnostics",
+        "logging"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent User Management",
+      "description": "Administrators can add additional users who should have access to the agent pane where they can review and approve agent steps. Administrators can grant or revoke the ability to manage agent configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157,
+      "t_end": 170.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user management",
+        "access control",
+        "agent configuration"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "agent card",
+      "t": 47.8
+    },
+    {
+      "type": "other",
+      "name": "agent log entries",
+      "t": 121.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 3.4,
+      "text": "Sales order agent is designed to use AI to perform its tasks while keeping users informed about key steps.",
+      "why_it_matters": "Describes the core design of the sales order agent and its approach to automation with user awareness.",
+      "check": "exact"
+    },
+    {
+      "t": 47.8,
+      "text": "The agent shares the same attributes as any other user in Business Central. Its access is also defined by permissions and profiles.",
+      "why_it_matters": "Establishes that agents operate under the same security model as regular users, using permissions and profiles.",
+      "check": "exact"
+    },
+    {
+      "t": 70.7,
+      "text": "The agent comes with a pre-built profile out of the box, and you can easily customize it, adding or removing pages, actions, and other",
+      "why_it_matters": "Explains that agents ship with a default profile that administrators can tailor to their specific needs.",
+      "check": "exact"
+    },
+    {
+      "t": 84.8,
+      "text": "The sales order agent comes with a pre-built permission set to help you get started quickly.",
+      "why_it_matters": "Indicates that pre-built permission sets reduce setup time for agent deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 121.5,
+      "text": "Agent log entries give you a complete overview of the steps the agent performed while working on a task, including the pages it navigated",
+      "why_it_matters": "Describes the key troubleshooting tool administrators use to diagnose agent behavior and permission issues.",
+      "check": "exact"
+    },
+    {
+      "t": 178.7,
+      "text": "With agent permissions and profiles, Business Central administrators stay in full control of the agents access.",
+      "why_it_matters": "Summarizes the core value proposition - administrators maintain complete security control over agent operations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 97.1,
+      "kind": "other",
+      "text": "Your version of Business Central may include additional app source apps or customizations that extend the process orchestrated by the agent."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014134
+    }
+  ]
+}

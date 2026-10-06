@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=XYr0xwgpomA",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:32.102Z",
+      "path": "data/extract/video/XYr0xwgpomA.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 3,
+      "quotes_dropped": 2,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.011766
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:38.608Z",
+      "path": "data/summary/video/XYr0xwgpomA.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.010724399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:38.610Z",
+      "systems": [
+        "sustainability",
+        "administration",
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 4
+    },
+    "published": {
+      "at": "2026-10-06T18:28:38.620Z",
+      "path": "content/videos/XYr0xwgpomA.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in Sustainability： Sustainability Journals Approval (2025 release wave 2) [XYr0xwgpomA].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "e903d2bda8fec17a6e1f464c9e9cb2906c0cdd2ad0b8a74150381c354e923dfe"
 }

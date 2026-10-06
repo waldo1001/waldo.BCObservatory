@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-onafterintermediatedocumentready-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterintermediatedocumentready-event",
+  "title": "OnAfterIntermediateDocumentReady Event",
+  "blob": "772e1e282c71b5ff7a21f07afd969da01540129d",
+  "summary": "The OnAfterIntermediateDocumentReady event allows developers to intercept and modify intermediate report artifacts like XML or Word files during report generation for document patching and testing scenarios.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report events",
+    "document generation",
+    "report payload",
+    "xml",
+    "stream handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "intermediate document interception",
+    "document patching",
+    "SaveAs method",
+    "SendTo actions",
+    "print capability",
+    "JSON payload handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009091,
+      "pages_in_call": 5
+    }
+  ]
+}

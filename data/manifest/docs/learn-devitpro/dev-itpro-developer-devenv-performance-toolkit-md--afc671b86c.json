@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-performance-toolkit",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f17e78c8c1b723236dfc3eefa0e33dc4014e7ee0",
       "words": 5356,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.092Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009091
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.940Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.941Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.942Z",
+      "page": false
     }
   },
   "input_hash": "f17e78c8c1b723236dfc3eefa0e33dc4014e7ee0",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f17e78c8c1b723236dfc3eefa0e33dc4014e7ee0"
+  "output_hash": "e55dfffb99159f260783f95cc9b27d80ea376b4cc630e6f0d9f59028a7918cbd"
 }

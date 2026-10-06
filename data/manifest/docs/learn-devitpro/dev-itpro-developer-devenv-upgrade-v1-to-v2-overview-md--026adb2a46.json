@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-v1-to-v2-overview",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c3251a97799fca00e3b6043cd89f53d91b0d62dc",
       "words": 1075,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.095Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007525
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.948Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.949Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.950Z",
+      "page": false
     }
   },
   "input_hash": "c3251a97799fca00e3b6043cd89f53d91b0d62dc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3251a97799fca00e3b6043cd89f53d91b0d62dc"
+  "output_hash": "0fed196a5f992160393bedd80a21a44aba0081948d6b6863250afdbf6f7c1d3b"
 }

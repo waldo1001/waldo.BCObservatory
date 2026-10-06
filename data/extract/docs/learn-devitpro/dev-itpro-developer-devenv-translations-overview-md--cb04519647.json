@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-translations-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-translations-overview",
+  "title": "Translations Overview",
+  "blob": "4f1976442a9571526a88f938469b853174dc264d",
+  "summary": "Translations in Business Central use XLIFF files and follow a layered translation system where multiple translation sources can override each other based on language priority and app dependencies.",
+  "systems": [
+    "localization",
+    "development"
+  ],
+  "topics": [
+    "translations",
+    "xliff files",
+    "captions",
+    "multilingual",
+    "language layers",
+    "app dependencies"
+  ],
+  "objects": [],
+  "features": [
+    "XLIFF format",
+    "caption translation",
+    "language layering",
+    "primary language fallback",
+    "global language",
+    "local language",
+    "translation apps",
+    "page customization overrides"
+  ],
+  "versions": [
+    "version 18.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009091,
+      "pages_in_call": 5
+    }
+  ]
+}

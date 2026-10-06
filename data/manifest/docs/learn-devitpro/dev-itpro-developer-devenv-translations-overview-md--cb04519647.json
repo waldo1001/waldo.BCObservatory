@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-translations-overview",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4f1976442a9571526a88f938469b853174dc264d",
       "words": 635,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.094Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009091
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:32.945Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.946Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.947Z",
+      "page": false
     }
   },
   "input_hash": "4f1976442a9571526a88f938469b853174dc264d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f1976442a9571526a88f938469b853174dc264d"
+  "output_hash": "a174ae867752300538876b93bfc8d7d0a8d24390fce5f4e75bfa3bc06dde6526"
 }

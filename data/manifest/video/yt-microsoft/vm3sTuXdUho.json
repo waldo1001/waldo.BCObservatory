@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=vm3sTuXdUho",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:28:22.688Z",
+      "path": "data/extract/video/vm3sTuXdUho.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020483
+    },
+    "summarized": {
+      "at": "2026-10-06T18:28:29.145Z",
+      "path": "data/summary/video/vm3sTuXdUho.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.014044399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:28:29.146Z",
+      "systems": [
+        "platform",
+        "development"
+      ],
+      "topics": 10,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:28:29.156Z",
+      "path": "content/videos/vm3sTuXdUho.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in AL-Go for GitHub： Introducing Custom Templates (2025 release wave 2) [vm3sTuXdUho].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "beb3f7838e8fce03b220347e0fd67e9ad20fb6161b735f4147a779cae0eeefdd"
 }

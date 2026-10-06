@@ -1,0 +1,27 @@
+{
+  "video_id": "vLcb31rfZ48",
+  "item_id": "video/yt-microsoft/vLcb31rfZ48",
+  "summary": "Document reporting in the 2025 release wave 2: a new Business Central Word addin with a data picker that lets power users and consultants add fields and repeaters to Word layouts. Also covers addin installation, planned tooltips for data item fields, and the code-named Project Sequoia.",
+  "overview": "The video shows a new experience in the Word addin for Business Central. A data control section offers an add data action, which opens a task pane with a tree of the datasets behind a report. Users can add single fields or repeaters to a Word layout without developer help. The demo creates a table and fields in a layout. The Word tab labels the addin as a preview version.\n\nIt then covers installing the addin from the Office add-ins menu and what is coming next. Tooltips for data item fields are not in version 27, and the presenter hopes they arrive in an update. Project Sequoia is a code name for replacing most or all document layouts in Business Central with Word layouts, with office hours planned for the fall.",
+  "key_points": [
+    "The Word addin has a new data control section with an add data action, which opens a task pane on the right with a tree of the datasets behind the report.",
+    "Add field inserts a content control whose text and tag match the field name.",
+    "Add repeater creates a repeating section, shown with multiple customers in a table, using content controls marked as repeaters.",
+    "Install the addin from the Office add-ins menu by searching for Business Central; pick the version with the AD data controls description, as several versions exist.",
+    "The addin is reachable from the Home tab or the File menu, and the Word tab labels the new addin as a preview version.",
+    "Tooltips for data item fields are meant to make datasets easier for non-developers; they are not in version 27, and an update is hoped for.",
+    "Project Sequoia is a code name for replacing most or all Business Central document layouts with Word layouts; details are planned for office hours in the fall."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "afe24820f20a8d8b55e9373c9835702fec237266aa729a3ee94bb152fad64464",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0149404
+  }
+}

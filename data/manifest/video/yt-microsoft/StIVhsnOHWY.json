@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=StIVhsnOHWY",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:16.889Z",
+      "path": "data/extract/video/StIVhsnOHWY.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 25,
+      "quotes": 13,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.093311
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:24.508Z",
+      "path": "data/summary/video/StIVhsnOHWY.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0259664
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:24.511Z",
+      "systems": [
+        "integration",
+        "sales",
+        "inventory"
+      ],
+      "topics": 12,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:29:24.524Z",
+      "path": "content/videos/StIVhsnOHWY.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in Shopify Connector： Troubleshoot Synchronization (2025 release wave 2) [StIVhsnOHWY].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "d907619f1123923fb66e4b3fa58539eb292bf168d82c75b6ea7acea6d9a2ffc4"
 }

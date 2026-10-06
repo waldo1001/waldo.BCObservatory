@@ -1,0 +1,317 @@
+{
+  "video_id": "zy-Tg9bBtHc",
+  "item_id": "video/yt-microsoft/zy-Tg9bBtHc",
+  "title": "What's New: E-Documents and E-Shipments (2025 release wave 2)",
+  "duration_s": 614,
+  "systems": [
+    "localization",
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "e-documents",
+    "e-shipments",
+    "transfer shipments",
+    "document sending profiles",
+    "workflow",
+    "electronic documents",
+    "localization",
+    "regulatory requirements",
+    "post and send"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and E-Shipments Overview",
+      "t_start": 0,
+      "t_end": 132.6
+    },
+    {
+      "title": "New E-Documents in This Release",
+      "t_start": 132.6,
+      "t_end": 220.7
+    },
+    {
+      "title": "Sales Shipments Demo",
+      "t_start": 220.7,
+      "t_end": 387.8
+    },
+    {
+      "title": "Transfer Shipments and Retroactive E-Documents",
+      "t_start": 387.8,
+      "t_end": 516.3
+    },
+    {
+      "title": "Post and Send Workflow Integration",
+      "t_start": 516.3,
+      "t_end": 566.6
+    },
+    {
+      "title": "Closing Remarks and Resources",
+      "t_start": 566.6,
+      "t_end": 614
+    }
+  ],
+  "features": [
+    {
+      "name": "E-Shipments",
+      "description": "Electronic version of shipment documents that can be sent to authorities in countries where this is mandatory or required, supporting countries like Mexico and India where e-shipments are already mandatory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7,
+      "t_end": 152.1,
+      "is_demoed": true,
+      "caveats": [
+        "Authorities in different countries use different expressions for shipment documents",
+        "Currently in the system there is not specific file for specific localization, this is just example for demos"
+      ],
+      "tags": [
+        "e-documents",
+        "shipments",
+        "localization",
+        "regulatory"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Transfer Shipments",
+      "description": "Extension of e-documents framework to transfer shipment documents between locations, allowing automatic sending based on location configuration similar to customer-level setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.6,
+      "t_end": 152.1,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration setup required at location level"
+      ],
+      "tags": [
+        "e-documents",
+        "transfer shipments",
+        "locations"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Sales Shipment E-Documents",
+      "description": "Electronic documents created from posted sales shipments, integrating with document sending profiles and workflow for automatic export and delivery via email.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.7,
+      "t_end": 387.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires document sending profile configuration with e-documents enabled"
+      ],
+      "tags": [
+        "sales shipments",
+        "e-documents",
+        "workflow",
+        "export"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "E-Documents Transfer Document Sending Profile",
+      "description": "New field added to locations allowing configuration of e-documents transfer document sending profile, enabling automatic posting and sending of transfer orders based on setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387.8,
+      "t_end": 412.6,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured on the location for transfer orders to be picked up automatically"
+      ],
+      "tags": [
+        "transfer shipments",
+        "locations",
+        "document sending profile"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Retroactive E-Document Creation from Posted Documents",
+      "description": "Ability to create electronic documents from already posted documents that were not initially set up with e-documents, allowing users to generate and send e-documents after the fact.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 412.6,
+      "t_end": 502.2,
+      "is_demoed": true,
+      "caveats": [
+        "Customer must have appropriate document sending profile configured to use e-documents before creation will succeed"
+      ],
+      "tags": [
+        "e-documents",
+        "posted documents",
+        "retroactive"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "E-Document Export and Email Workflow",
+      "description": "Workflow automation that exports electronic documents and sends them via email alongside PDF attachments when e-document service status changes to exported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.7,
+      "t_end": 295.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual workflow setup to enable email delivery"
+      ],
+      "tags": [
+        "workflow",
+        "e-documents",
+        "email",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Post and Send with E-Document Attachments",
+      "description": "Enhancement to post and send functionality allowing users to select electronic documents and PDFs as email attachments when sending invoices and other documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 516.3,
+      "t_end": 546.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "post and send",
+        "email",
+        "e-documents"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "EFTI Regulation Support",
+      "description": "Support for European Union EFTI regulation for electronic transport documents, with localization to be provided if the regulation becomes mandatory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85,
+      "t_end": 116.6,
+      "is_demoed": false,
+      "caveats": [
+        "Status is contingent on regulatory requirements becoming mandatory"
+      ],
+      "tags": [
+        "efti",
+        "regulation",
+        "localization",
+        "announced"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Location",
+      "t": 400
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment",
+      "t": 328.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toto",
+      "confidence": "high"
+    },
+    {
+      "name": "Manus",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 59.5,
+      "text": "This is your shipment in business central in electronical file. So as I said this is just digital version.",
+      "why_it_matters": "Clarifies that e-shipments are the electronic equivalent of traditional delivery notes or shipment documents already in the system.",
+      "check": "exact"
+    },
+    {
+      "t": 85,
+      "text": "somewhere this is already mandatory for example in Mexico in India this is already mandatory in some other countries it will be mandatory soon",
+      "why_it_matters": "Identifies specific countries where e-shipments are already mandatory or coming soon, establishing business drivers for the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 132.6,
+      "text": "with this release we extended it to sales shipments and transfer shipments as well",
+      "why_it_matters": "Announces the specific new document types added to e-documents framework in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 184.2,
+      "text": "First it improve and standardize whole workflow process. So it support new document types for structure e documentation especially in countries where this is",
+      "why_it_matters": "Explains the primary business value of the functionality: standardizing workflows and supporting regulatory requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 207.1,
+      "text": "Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in",
+      "why_it_matters": "Indicates that the current implementation is demo-level and localization is pending for specific countries.",
+      "check": "exact"
+    },
+    {
+      "t": 412.6,
+      "text": "we added uh the ability to create electronic documents from posted uh documents and this will be all the document types that we support",
+      "why_it_matters": "Introduces retroactive e-document creation capability, allowing users to generate e-documents from previously posted documents.",
+      "check": "exact"
+    },
+    {
+      "t": 526.7,
+      "text": "you can now also under email select email attachments and select e document and PDF and e document if you want to also send",
+      "why_it_matters": "Describes new post and send functionality that allows both e-document and PDF attachments in customer communications.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 105,
+      "kind": "subject-to-change",
+      "text": "I try to to avoid assumptions maybe it will be mandatory maybe it will not but minimum uh this is something what will allow actually require from authorities to receive digital versions"
+    },
+    {
+      "t": 116.6,
+      "kind": "coming-later",
+      "text": "if it's already exist we will enable it and if it become mandatory we will localize"
+    },
+    {
+      "t": 207.1,
+      "kind": "preview",
+      "text": "Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in demos. But as soon as we start localization of that, we will localize basin on specific countries."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025729
+    }
+  ]
+}

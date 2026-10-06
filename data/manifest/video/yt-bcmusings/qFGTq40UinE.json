@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=qFGTq40UinE",
   "published_at": "2025-09-23T03:31:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:29:11.298Z",
+      "captions": "auto:en-orig",
+      "duration_s": 674
+    },
+    "captioned": {
+      "at": "2026-10-06T18:29:19.780Z",
+      "path": "vault:captions/community/yt-bcmusings/qFGTq40UinE.vtt",
+      "vtt_sha256": "7b6862463c2552027b6ba0fcce68879bd0b19953c0b3fe48518dceed9ab62693",
+      "segments": 52,
+      "words": 1264,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcjRDxd_tl4UckLy-30pt3g"
-  }
+    "channel_id": "UCcjRDxd_tl4UckLy-30pt3g",
+    "duration_s": 674,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7b6862463c2552027b6ba0fcce68879bd0b19953c0b3fe48518dceed9ab62693"
 }

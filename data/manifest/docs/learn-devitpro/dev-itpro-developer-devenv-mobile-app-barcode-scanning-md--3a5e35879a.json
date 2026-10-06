@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-mobile-app-barcode-scanning",
   "published_at": "2026-05-21T12:30:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8581712c692c162c57254d75a3087d86c52abf06",
       "words": 1386,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:29:31.090Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009091
+    },
+    "summarized": {
+      "at": "2026-10-06T18:29:31.097Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:29:32.934Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:29:32.936Z",
+      "page": false
     }
   },
   "input_hash": "8581712c692c162c57254d75a3087d86c52abf06",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8581712c692c162c57254d75a3087d86c52abf06"
+  "output_hash": "aefa5fdf9d00972d9251c2cbc6d788842de326cc4df475da1f53851cbf2c5ded"
 }

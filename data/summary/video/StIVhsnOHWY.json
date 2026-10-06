@@ -1,0 +1,27 @@
+{
+  "video_id": "StIVhsnOHWY",
+  "item_id": "video/yt-microsoft/StIVhsnOHWY",
+  "summary": "Shopify Connector troubleshooting in Business Central (2025 release wave 2): how to diagnose synchronization problems with customers, inventory, products, pricing, orders, refunds and fulfillments, using foreground sync, logging, error columns, orders to import, fact boxes and the Shopify activities KPIs.",
+  "overview": "The video walks through a troubleshooting approach for the Shopify connector in Business Central. It starts with running sync in the foreground and setting the logging mode, then goes through typical failures in customer, inventory, product, pricing and order synchronization, showing where the connector surfaces errors and how to resolve them.\n\nIt then covers order import and sales document creation, including archived orders, unlinking processed orders, refund credit memos, and failed shipment or fulfillment synchronization. It ends with the Shopify activities view, which lists items needing attention. The presenter notes that the refund credit memo feature is mainly for consultants configuring the connector.",
+  "key_points": [
+    "When troubleshooting, run sync in the foreground instead of through the job queue to get clear error messages. Logging mode has three options: Error only, All and Disabled. Error only saves disk space; All gives detail for troubleshooting.",
+    "Customers without an email address are skipped on export to Shopify, and the connector shows a notification about skipped records.",
+    "Inventory sync needs inventory tracking on the product and a location filter with a stock calculation option. The standard options are projected available balance at date and free inventory not reserved. Customized calculations may need partner help. Activate location export before exporting products.",
+    "For unmapped Shopify products, the products list has a Create item action, plus Has error and Error message columns. Automatic creation can fail because of template or number series problems.",
+    "Archived Shopify orders are not imported until they are unarchived in Shopify. The Shopify orders to import table lets you import selected orders and shows a Has error field.",
+    "The Shopify order fact box on sales documents compares key numbers (such as tax) between the Shopify order and the sales document. Unlink processed documents lets you re-import a deleted document's order.",
+    "A Shopify fulfillment ID of minus one on a posted sales shipment means synchronization failed. The Shopify activities line shows KPIs such as missing mappings, pending orders, failed shipments and job queue failures."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "5d300519b76a60450d95a4656f0e479867a014e4e0cab006496716ba1ebe15d9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0259664
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-performance-toolkit.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-performance-toolkit",
+  "title": "Performance Toolkit extension",
+  "blob": "f17e78c8c1b723236dfc3eefa0e33dc4014e7ee0",
+  "summary": "The Performance Toolkit extension enables ISVs and VARs to simulate realistic workloads and test performance regressions of their Business Central solutions across different user volumes and scenarios.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "performance testing",
+    "workload simulation",
+    "concurrency testing",
+    "test automation",
+    "telemetry analysis",
+    "sql statements"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "BCPT Test Context"
+    },
+    {
+      "type": "interface",
+      "name": "BCPT Test Param. Provider"
+    },
+    {
+      "type": "enum",
+      "name": "BCPT Test Param. Enum"
+    }
+  ],
+  "features": [
+    "test suite configuration",
+    "scenario definition",
+    "concurrent session simulation",
+    "baseline comparison",
+    "telemetry integration",
+    "Power BI reporting",
+    "KQL analysis",
+    "single run mode",
+    "foreground background execution",
+    "test parameters",
+    "delay simulation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009091,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "video_id": "XYr0xwgpomA",
+  "item_id": "video/yt-microsoft/XYr0xwgpomA",
+  "title": "What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)",
+  "duration_s": 243,
+  "systems": [
+    "sustainability",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "sustainability journal approval",
+    "approval workflow",
+    "compliance reporting",
+    "csrd",
+    "batch approval",
+    "standard workflow templates",
+    "approval setup",
+    "audit control"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and motivation for sustainability journal approvals",
+      "t_start": 0,
+      "t_end": 31.6
+    },
+    {
+      "title": "Business value and compliance requirements",
+      "t_start": 31.6,
+      "t_end": 63.6
+    },
+    {
+      "title": "Standard approval workflow implementation",
+      "t_start": 63.6,
+      "t_end": 95.7
+    },
+    {
+      "title": "Setup and configuration overview",
+      "t_start": 95.7,
+      "t_end": 107.4
+    },
+    {
+      "title": "Live demonstration of approval workflow",
+      "t_start": 107.4,
+      "t_end": 191.4
+    },
+    {
+      "title": "Summary and next steps",
+      "t_start": 191.4,
+      "t_end": 215.8
+    },
+    {
+      "title": "Resources and closing remarks",
+      "t_start": 215.8,
+      "t_end": 243
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability journal approvals",
+      "description": "Enables approval workflow processes for sustainability journal batches to improve compliance and control for companies required to report under CSRD or similar regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.6,
+      "t_end": 95.7,
+      "is_demoed": true,
+      "caveats": [
+        "Approval applies to entire batch only, not per individual line",
+        "Uses existing standard Business Central approval workflow setup"
+      ],
+      "tags": [
+        "approval workflow",
+        "batch approval",
+        "compliance",
+        "csrd reporting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability journal batch approval workflow template",
+      "description": "New workflow template for sustainability journal batch approvals that leverages existing Business Central approval workflow functionality without custom development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.6,
+      "t_end": 95.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires minimal additional configuration",
+        "Operates the same as all other approval workflows in Business Central"
+      ],
+      "tags": [
+        "workflow template",
+        "standard functionality",
+        "batch approval"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Approval request control for sustainability journal",
+      "description": "Users can send or cancel approval requests for sustainability journal batches with flexible workflow management consistent with other Business Central approval processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.6,
+      "t_end": 95.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only available for entire batches, not individual lines"
+      ],
+      "tags": [
+        "approval request",
+        "user control",
+        "workflow management"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability journal",
+      "t": 156.9
+    },
+    {
+      "type": "page",
+      "name": "Approvals",
+      "t": 174.2
+    },
+    {
+      "type": "page",
+      "name": "Workflows",
+      "t": 124.4
+    },
+    {
+      "type": "page",
+      "name": "Approval user setup",
+      "t": 137.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Jacob Bang",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.6,
+      "text": "for bigger companies who need to report they would like to have this approval process to improve compliance and control",
+      "why_it_matters": "Explains the primary business driver for adding approval workflow to sustainability journals",
+      "check": "exact"
+    },
+    {
+      "t": 85.6,
+      "text": "you can run from sustainability journal approval only for one batch. So not per line, only for whole batch",
+      "why_it_matters": "States an important limitation of the feature",
+      "check": "exact"
+    },
+    {
+      "t": 95.7,
+      "text": "user can choose to send approval request or to cancel approval request",
+      "why_it_matters": "Describes user options and confirms consistency with other approval workflows",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011766
+    }
+  ]
+}

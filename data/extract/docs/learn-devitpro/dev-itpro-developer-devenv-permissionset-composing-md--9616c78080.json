@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-permissionset-composing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing",
+  "title": "Composing Permission Sets from Other Permission Sets",
+  "blob": "07a99254ca4dc60d5dcfc3deff260a2c8b9587bc",
+  "summary": "Composing permission sets allows developers to create hierarchical permission structures using included and excluded permission sets to efficiently manage permissions across Business Central objects.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "permission sets",
+    "access control",
+    "al objects",
+    "permission hierarchy"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Sales Person"
+    }
+  ],
+  "features": [
+    "IncludedPermissionSets property",
+    "ExcludedPermissionSets property",
+    "Permissions property",
+    "Assignable property",
+    "permission composition",
+    "hierarchical structure"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009091,
+      "pages_in_call": 5
+    }
+  ]
+}

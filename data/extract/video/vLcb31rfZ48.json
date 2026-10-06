@@ -1,0 +1,297 @@
+{
+  "video_id": "vLcb31rfZ48",
+  "item_id": "video/yt-microsoft/vLcb31rfZ48",
+  "title": "What's New: Document Reporting (2025 release wave 2)",
+  "duration_s": 664,
+  "systems": [
+    "reporting",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "word layouts",
+    "data picker",
+    "document reporting",
+    "word addin",
+    "content controls",
+    "repeater fields",
+    "project sequoia",
+    "tooltips",
+    "rdl migration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Context",
+      "t_start": 0,
+      "t_end": 70.9
+    },
+    {
+      "title": "Report Layouts and Word Addin Overview",
+      "t_start": 70.9,
+      "t_end": 151.7
+    },
+    {
+      "title": "Data Picker Demo: Creating Tables and Fields",
+      "t_start": 151.7,
+      "t_end": 304.6
+    },
+    {
+      "title": "Installation and User Access",
+      "t_start": 304.6,
+      "t_end": 392.9
+    },
+    {
+      "title": "Coming Next: Tooltips and Project Sequoia",
+      "t_start": 392.9,
+      "t_end": 525.4
+    },
+    {
+      "title": "Resources and Closing",
+      "t_start": 525.4,
+      "t_end": 664
+    }
+  ],
+  "features": [
+    {
+      "name": "Word Addin with Data Picker",
+      "description": "New Word addin experience that allows power users and consultants to add data to document layouts through a data picker interface with a tree structure showing datasets behind reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.3,
+      "t_end": 239.4,
+      "is_demoed": true,
+      "caveats": [
+        "This is a preview version as mentioned in the Word tab"
+      ],
+      "tags": [
+        "word layouts",
+        "data picker",
+        "addin",
+        "ui improvement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Add Data Action in Word",
+      "description": "New data control section in the Word addin that provides an add data action button, opening a task pane on the right with the data picker tree structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.2,
+      "t_end": 162.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word addin",
+        "user interface",
+        "data entry"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Add Field Functionality",
+      "description": "Feature that allows users to add individual fields from the dataset to the Word layout by selecting add field, which inserts content controls with the field name as a tag.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.8,
+      "t_end": 213.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word layouts",
+        "content controls",
+        "field insertion"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Add Repeater Functionality",
+      "description": "Feature that enables creating repeating sections in Word layouts, allowing iteration through data items like multiple customers in a table, using content controls marked as repeaters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 213.8,
+      "t_end": 271.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word layouts",
+        "repeating sections",
+        "iteration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Simplified Word Addin Installation",
+      "description": "Users can install the Business Central Word addin through the Office add-ins menu by searching for Business Central in the App Source, with the ability to access it either through the Home tab or File menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 328.6,
+      "t_end": 392.9,
+      "is_demoed": true,
+      "caveats": [
+        "Users must select the version with AD data controls description",
+        "Multiple versions of the addin exist"
+      ],
+      "tags": [
+        "word addin",
+        "installation",
+        "accessibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Tooltips for Data Item Fields",
+      "description": "Support for tooltips on data item fields in reports, to be added to the Word addin to make datasets more usable for non-developer users and power users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.8,
+      "t_end": 483.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not in version 27",
+        "Hopefully coming in an update in version 27 in the fall"
+      ],
+      "tags": [
+        "tooltips",
+        "usability",
+        "future enhancement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Project Sequoia",
+      "description": "Code name for a project focused on replacing most or all of the document layouts in Business Central to use Word layouts instead of other formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 503.8,
+      "t_end": 525.4,
+      "is_demoed": false,
+      "caveats": [
+        "Code name project, secret",
+        "Office hours in fall for more details"
+      ],
+      "tags": [
+        "project sequoia",
+        "document layouts",
+        "word migration",
+        "future roadmap"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "customer order or the summary",
+      "t": 82.5
+    },
+    {
+      "type": "other",
+      "name": "saline buffer",
+      "t": 228.1
+    },
+    {
+      "type": "other",
+      "name": "Report layouts page",
+      "t": 70.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontop",
+      "confidence": "high"
+    },
+    {
+      "name": "Mirao",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.3,
+      "text": "In this wave, we introducing a new um experience in the Word addin so that any power user or consultant with a few actions",
+      "why_it_matters": "Establishes the core goal of democratizing Word layout creation beyond developers",
+      "check": "exact"
+    },
+    {
+      "t": 141.2,
+      "text": "As we can see, we have a new data control section which provides an add data action. When I click on this action, I",
+      "why_it_matters": "Describes the key UI element that enables easy data field selection",
+      "check": "exact"
+    },
+    {
+      "t": 198.9,
+      "text": "Here we can see now that this inserted the content controls with both the text and the tag equal to the field that we",
+      "why_it_matters": "Explains how the system maintains data binding through content control tags",
+      "check": "exact"
+    },
+    {
+      "t": 441.8,
+      "text": "Well, very soon. We didn't get it in for the demo here for the recording, but hopefully we'll soon be able to have it",
+      "why_it_matters": "Sets timeline expectations for tooltips feature delivery",
+      "check": "exact"
+    },
+    {
+      "t": 503.8,
+      "text": "There will also be something we call project seoia. It's a code name for some very secret projects.",
+      "why_it_matters": "Introduces a major strategic initiative to migrate all Business Central layouts to Word",
+      "check": "exact"
+    },
+    {
+      "t": 525.4,
+      "text": "It's about uh replacing most if not all of the document layouts in Business Central towards using Word.",
+      "why_it_matters": "Clarifies the scope of the Project Sequoia initiative",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 131,
+      "kind": "preview",
+      "text": "in my word tab, I have a new uh business central preview"
+    },
+    {
+      "t": 441.8,
+      "kind": "not-in-this-release",
+      "text": "We didn't get it in for the demo here for the recording, but hopefully we'll soon be able to have it in some update in version 27"
+    },
+    {
+      "t": 483.8,
+      "kind": "not-in-this-release",
+      "text": "this is not in in 27 but uh now we are starting to to get productivity into word addin"
+    },
+    {
+      "t": 503.8,
+      "kind": "coming-later",
+      "text": "There will also be something we call project seoia. It's a code name for some very secret projects."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.042183899999999996
+    }
+  ]
+}

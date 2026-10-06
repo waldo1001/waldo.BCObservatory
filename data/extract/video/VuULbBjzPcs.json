@@ -1,0 +1,110 @@
+{
+  "video_id": "VuULbBjzPcs",
+  "item_id": "video/yt-microsoft/VuULbBjzPcs",
+  "title": "What's Cooking in Business Central: More Contoso Document Data for Analytics",
+  "duration_s": 98,
+  "systems": [
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "analytics demo data",
+    "contoso demo tool",
+    "sales quotes",
+    "powerbi",
+    "reporting",
+    "demo data module"
+  ],
+  "chapters": [
+    {
+      "title": "Contoso Demo Tool Overview",
+      "t_start": 0,
+      "t_end": 21.9
+    },
+    {
+      "title": "Analytics Module Introduction",
+      "t_start": 21.9,
+      "t_end": 35.5
+    },
+    {
+      "title": "Demo Without Analytics Module",
+      "t_start": 35.5,
+      "t_end": 49
+    },
+    {
+      "title": "Analytics Module in Action",
+      "t_start": 49,
+      "t_end": 72.2
+    },
+    {
+      "title": "Release Timeline",
+      "t_start": 72.2,
+      "t_end": 98
+    }
+  ],
+  "features": [
+    {
+      "name": "Analytics module in Contoso demo tool",
+      "description": "New module in the Contoso demo tool that adds analytical demo data including additional document types for reporting and Power BI demonstrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.9,
+      "t_end": 72.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "contoso demo tool",
+        "analytics",
+        "demo data",
+        "reporting"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 21.9,
+      "text": "there is a new kit on the block analytics. So this is adding some new documents if you need to demo reporting or PowerBI",
+      "why_it_matters": "Introduces the new analytics module feature and its purpose for demonstration scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 72.2,
+      "text": "It's it adds new document types and you can watch the Business Central launch edition video to learn more in a couple of weeks",
+      "why_it_matters": "Explains the module's functionality and directs to additional resources for more information.",
+      "check": "exact"
+    },
+    {
+      "t": 87.7,
+      "text": "This should land in Business Central in 27.1ish",
+      "why_it_matters": "Provides the planned release version number for the analytics module feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 87.7,
+      "kind": "coming-later",
+      "text": "This should land in Business Central in 27.1ish"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007499
+    }
+  ]
+}
