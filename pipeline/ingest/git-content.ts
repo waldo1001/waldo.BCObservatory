@@ -40,8 +40,11 @@ export async function ingestGitContent(source: SourceDef, ctx: IngestContext): P
   const present = new Set<string>();
   for (const e of pages) {
     present.add(e.path);
+    // the path is only a stand-in title; once `fetched` has read the page's real title, keep it
+    const prev = ctx.manifest.get(`${pillar}/${source.id}/${e.path}`);
+    const title = prev?.stages.fetched ? prev.title : titleFromPath(e.path);
     const { item, change } = ctx.manifest.discover({
-      pillar, source: source.id, key: e.path, tier: source.tier, title: titleFromPath(e.path), url: pageUrl(source, e.path),
+      pillar, source: source.id, key: e.path, tier: source.tier, title, url: pageUrl(source, e.path),
       published_at: dates.get(e.path) ?? null, language: source.language, input_hash: e.blob,
       meta: { repo: source.repo, path: e.path },
     }, ctx.now);

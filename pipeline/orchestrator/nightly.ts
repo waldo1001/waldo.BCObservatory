@@ -36,6 +36,8 @@ import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex } from "../render/video.js";
+import { renderTopics } from "../render/topic.js";
+import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { flatPlaylist } from "../caption/ytdlp.js";
 
 const log = logger("nightly");
@@ -163,6 +165,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     });
     report.execution = execution;
     renderVideoIndex(contentDirOf(opts));
+    await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors);
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
@@ -192,6 +195,20 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
     await commitAndPush(opts.repoDir, `content: nightly ${report.date} (${label})`, opts.push, report);
   }
   return report;
+}
+
+/** Deterministic topic hubs from the Learn TOCs; a missing mirror or TOC never fails the run. */
+async function refreshTopics(sources: SourceDef[], manifest: Manifest, mirrorsDir: string, opts: NightlyOptions, errors: string[]): Promise<void> {
+  const docs = sources.filter((s) => s.kind === "docs-git" && s.enabled && s.mode !== "links-only" && existsSync(resolve(mirrorsDir, `${s.id}.git`)));
+  if (!docs.length) return;
+  try {
+    const tocs = docs.map((s) => ({ source: s, tocPath: `${s.paths?.[0] ?? ""}TOC.md`, read: mirrorReader(resolve(mirrorsDir, `${s.id}.git`), s.branch ?? "main") }));
+    const items = manifest.list("docs");
+    const hubs = await buildTopicHubs(tocs, items);
+    if (hubs.length) log.info(`topics: ${renderTopics(hubs, items, opts.dataDir, contentDirOf(opts), new Date())} hubs`);
+  } catch (e) {
+    errors.push(`topics: ${(e as Error).message.slice(0, 300)}`);
+  }
 }
 
 /** Batch-fetch the blobs of git pages planned for `fetched`, one mirror at a time; failures fall back to lazy fetch. */

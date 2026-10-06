@@ -164,8 +164,10 @@ test("git content: pages keyed by path, Learn URLs, blob hashes, commit dates, r
   assert.match(fin.input_hash!, /^[0-9a-f]{40}$/);
   assert.equal(ctx.manifest.get("docs/learn/business-central/sales/index.md")!.url, "https://learn.microsoft.com/dynamics365/business-central/sales/");
 
+  ctx.manifest.save({ ...fin, state: "fetched", title: "Set up finance", stages: { ...fin.stages, fetched: { at: "2026-10-01T00:00:00Z" } } });
   commit(repo, { "business-central/finance-setup.md": "a3", "business-central/sales/index.md": null }, "three", "2026-10-01T10:00:00Z");
   const r2 = await ingestGitContent(s, ctx);
+  assert.equal(ctx.manifest.get("docs/learn/business-central/finance-setup.md")!.title, "Set up finance", "a fetched Learn title survives re-ingest");
   assert.deepEqual([r2.counts.changed, r2.counts.removed], [1, 1]);
   assert.equal(ctx.manifest.get("docs/learn/business-central/sales/index.md")!.skip, "removed-upstream");
   assert.ok(existsSync(join(ctx.mirrorsDir, "learn.git")));

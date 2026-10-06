@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.topic.json",
+  "title": "Frontmatter of a topic hub page (content/topics/<path>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "learn_toc_path",
+    "parent",
+    "children",
+    "coverage",
+    "member_hash"
+  ],
+  "properties": {
+    "type": {
+      "const": "topic"
+    },
+    "learn_toc_path": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "TOC titles from the root to this hub"
+    },
+    "toc_file": {
+      "type": "string"
+    },
+    "parent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "children": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "learn": {
+          "type": "integer"
+        },
+        "code": {
+          "type": "integer"
+        },
+        "video": {
+          "type": "integer"
+        },
+        "blog": {
+          "type": "integer"
+        },
+        "guideline": {
+          "type": "integer"
+        }
+      }
+    },
+    "bc_forms": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "description": "BC page/report ids from the members' ms.search.form"
+    },
+    "member_hash": {
+      "type": "string"
+    },
+    "narrative": {
+      "enum": [
+        "none",
+        "generated"
+      ]
+    }
+  }
+}
