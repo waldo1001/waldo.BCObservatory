@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000757.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757",
+  "title": "Where-Used (Top Level) (report)",
+  "blob": "da602089409045acb0ea2c3d59b95844c8d28efb",
+  "summary": "Where-Used (Top Level) report shows where items are used in the product structure and quantities required to produce a finished item.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "product structure",
+    "where-used",
+    "bill of materials",
+    "production planning"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Where-Used (Top Level)"
+    }
+  ],
+  "features": [
+    "top-level item tracking",
+    "usage quantities",
+    "product structure visualization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001959,
+      "pages_in_call": 8
+    }
+  ]
+}

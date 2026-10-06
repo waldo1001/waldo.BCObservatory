@@ -1,0 +1,201 @@
+{
+  "video_id": "RU3D3RMAvVI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 25.7,
+      "text": "Hello everyone. Welcome to this short session on what's new in PowerBI embedding for developers. My name is Niko Chimitan and I am a software engineer in the business central team. And I'm going to present to you some new features that we have developed for PowerBI embedding with some bonus that you as a partner and as a partner developer can use for your own"
+    },
+    {
+      "t": 25.7,
+      "end": 45.8,
+      "text": "integrations. So my um presentation is structured in two parts. I'll start by talking to you about what we did as new uh improvements for the PowerBI embed experience and then I'll show you a short demo on how it looks like versus what it looked like in the previous versions and then I will go on to talk about the user control host page type which is a new feature we have introduced"
+    },
+    {
+      "t": 45.8,
+      "end": 64.8,
+      "text": "in the latest Business Central 2025 release wave 1. So talking about the PowerBI embed improvements, we have an improved user interface that just looks nicer, feels nicer, and makes the reports that you introduce into business central shine embedded into our pages."
+    },
+    {
+      "t": 64.8,
+      "end": 76.9,
+      "text": "We also use these already in the Microsoft code because we think it's the best way to present reports to the user. And as you know, we had a lot around 70 to 80 new reports included in Business Central um in the last few waves."
+    },
+    {
+      "t": 76.9,
+      "end": 87,
+      "text": "So these also are going to take advantage of these improvements and it will just looks nicer inside the business central UI. So I will quickly show you how this looks like in practice."
+    },
+    {
+      "t": 87,
+      "end": 98.1,
+      "text": "Um how it looks in today's production or yesterday's production if you prefer versus the new version of Business Central. So I have now switched to Business Central. This is the old version of Business Central."
+    },
+    {
+      "t": 98.1,
+      "end": 111.1,
+      "text": "I just want to show you the difference between the user experience when showing for example the finance report that we have introduced in business central a couple of ways ago. So this is how it looks like in 25 version 25 of business central."
+    },
+    {
+      "t": 111.1,
+      "end": 121.8,
+      "text": "You see that the report is going to look nice in a couple of seconds when it loads. But the UI around it is just a bit too heavy. Why do we need a delete button for a report or an edit button?"
+    },
+    {
+      "t": 121.8,
+      "end": 134.6,
+      "text": "Um so this kind of um is also the way you are probably doing embedding and um control addins as a partner but as you can see it it it's okay um but it's not perfect."
+    },
+    {
+      "t": 134.6,
+      "end": 146,
+      "text": "So this is what we decided to improve on to make the experience really great and shiny. So now I will switch and I will change tab and this is now Business Central in the preview version 26."
+    },
+    {
+      "t": 146,
+      "end": 157.7,
+      "text": "So you all uh are going to be able to use this version. And as you can see, I have now uh the same PowerBI reports in my RO center. So let's open the same finance report and see how it looks"
+    },
+    {
+      "t": 157.7,
+      "end": 169.7,
+      "text": "like. So you can all appreciate the difference. Right now we have a very nice UI around. There's no buttons that really don't have a meaning in this context. The margins around the reports are also nicer."
+    },
+    {
+      "t": 169.7,
+      "end": 186.5,
+      "text": "The titles show with a more let's say balanced space. It was taking way too much space in the older version. And of course, you get still all the very nice goodness from being inside the business central page, which means the controlladin reflows nicely and this takes the space necessary."
+    },
+    {
+      "t": 186.5,
+      "end": 198.9,
+      "text": "You can also bookmark this page of course in case you want to reach your report faster next time with fewer clicks. So this is how we have applied the new uh user control page type to our PowerBI reports."
+    },
+    {
+      "t": 198.9,
+      "end": 211.8,
+      "text": "And you can of course do the same by um using the user control page type for your own embedding experience of PowerBI reports as a developer. And that's very simple to do. We also have examples for these in aka.ms/bct."
+    },
+    {
+      "t": 211.8,
+      "end": 222,
+      "text": "So you can go have a look and at how um the new user control host page type works. So this concludes my short demo about the PowerBI embed improvements."
+    },
+    {
+      "t": 222,
+      "end": 233.4,
+      "text": "But I mentioned the user control host page type. What is this? Well, um it's a new page type as you probably have um have gotten from my presentation, but it's something we introduced in AL."
+    },
+    {
+      "t": 233.4,
+      "end": 249.3,
+      "text": "So, it's just the uh AL property page type has one more value. And it's very simple to use really because a lot of the things and a lot of the controls for example and triggers that don't really apply to a control adin have been removed to this page type which means you don't get all these complications."
+    },
+    {
+      "t": 249.3,
+      "end": 260.5,
+      "text": "you don't get for example uh on after get record triggers and things like that because they just don't make sense in the context of a user control host. So um it's that also means it's very easy to uptake."
+    },
+    {
+      "t": 260.5,
+      "end": 280,
+      "text": "It's very easy to use in your own code and it gives just this nice UI which is um optimized for any control edin. One more thing is that we have more improvements planned for this page type which means um stay tuned and be sure that um you will get more goodness out of this new feature."
+    },
+    {
+      "t": 280,
+      "end": 297.4,
+      "text": "So I will quickly show you the developer point of view on how to use from AL the user control host page type. So now I switch to my visual studio code and as you can see I have just um my small PTE and I have one AL file which is a card page."
+    },
+    {
+      "t": 297.4,
+      "end": 307.9,
+      "text": "This is the way you would embed or you would use user control in a older version of Business Central. You would just have a card page that contains a user control."
+    },
+    {
+      "t": 307.9,
+      "end": 329.3,
+      "text": "In my case, I'm just using the webpage viewer um just as an example, but of course this also works exactly the same for your own partner created user controls. And you can see that I can have actions for example um in my page and I have a few properties on top for example a source table um and whether the record insertion is allowed and things like that."
+    },
+    {
+      "t": 329.3,
+      "end": 341.1,
+      "text": "So um this is how you would do it in the past and this is also the way that gives the um kind of weird experience that I showed you before with PowerBI, right? So with this you would get the edit button on top."
+    },
+    {
+      "t": 341.1,
+      "end": 356.2,
+      "text": "Even if you say insert allowed false, you will still get the plus button um in the page and that's not really what you want. So now we'll do some light coding in the coming 30 seconds. I'll transform this into the new page type user control host."
+    },
+    {
+      "t": 356.2,
+      "end": 368.6,
+      "text": "And the first thing I need to do is of course changing the page type. The moment I do that, the compiler shows some warnings and it basically tells me that a few of these properties are not really supported in the new page type."
+    },
+    {
+      "t": 368.6,
+      "end": 380.4,
+      "text": "For example, there's no source table for a user control host. And that also means that insertion, modification, and deletion are not really a thing. They don't really make a lot of sense in this context."
+    },
+    {
+      "t": 380.4,
+      "end": 395,
+      "text": "One more thing we don't support yet but we are considering um maybe to work on is actions. So actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself rather than by the actions."
+    },
+    {
+      "t": 395,
+      "end": 407.8,
+      "text": "U but of course if you think we should support them in the future you know what you can do. You can go always go to aka.msbcid and let us know what you think about this. But for my demo, let's just remove the"
+    },
+    {
+      "t": 407.8,
+      "end": 417,
+      "text": "actions. And as you can see, now my code compiles. And let's actually try it out"
+    },
+    {
+      "t": 417.9,
+      "end": 429.3,
+      "text": "immediately. So my extension is now published. So I'll move back to business central and let's see how it looks like. So I have now switched to my business central environment in the version 26 preview."
+    },
+    {
+      "t": 429.3,
+      "end": 441.5,
+      "text": "And this is the sandbox environment where I just uploaded my extension. So as you can see there is a user control host demo here which I have just bookmarked. Um and this points to the new page that I have just created."
+    },
+    {
+      "t": 441.5,
+      "end": 457.2,
+      "text": "As you can see the page loads nicely and we have of course the uh controls to bookmark the page. So I can bookmark and remove it from the bookmarks as I've done. But we also have controls to just make the page larger and it just reflows and behaves very nicely um in the new page type."
+    },
+    {
+      "t": 457.2,
+      "end": 467.5,
+      "text": "We have of course the titles and everything as I showed you before and no additional control or clutter that you don't really need. For example, there's no plus button to add new records. Um, and no additional controls really."
+    },
+    {
+      "t": 467.5,
+      "end": 481.8,
+      "text": "So, um, yeah, as you can see, this is exactly the experience you can get with your own custom control addin if you u are developing one. Otherwise, um, you can just use this with the business central uh control adins for example the PowerBI host as well."
+    },
+    {
+      "t": 481.8,
+      "end": 496,
+      "text": "So, that concludes my short demo on the user control host page type and actually concludes my whole presentation for this session. So, thank you for your attention and I hope you enjoy Business Central 2025 release wave 1."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.39,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.4,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1598
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/work-outlook-addin.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin",
+  "title": "Using Business Central with Outlook",
+  "blob": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961",
+  "summary": "Business Central Outlook add-in provides contact insights, document viewing, and business document creation directly from Outlook emails and calendar appointments, with file attachment support.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "outlook integration",
+    "contact management",
+    "email documents",
+    "document attachments",
+    "add-ins"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    }
+  ],
+  "features": [
+    "contact insights",
+    "document view",
+    "sales quote creation",
+    "purchase invoice handling",
+    "email attachments",
+    "incoming document tracking"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}

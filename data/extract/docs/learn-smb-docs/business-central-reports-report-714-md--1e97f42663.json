@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-714.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-714",
+  "title": "Inventory Vendor Purchases (report)",
+  "blob": "366b8cbea4d866d42afc231184793de3b435cbec",
+  "summary": "Inventory Vendor Purchases report shows total items purchased from vendors in a date period grouped by items, displaying invoiced quantity, cost amount including item charges, and discounts.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "vendor purchases",
+    "procurement",
+    "inventory",
+    "cost analysis",
+    "vendor performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Vendor Purchases"
+    }
+  ],
+  "features": [
+    "vendor spending analysis",
+    "invoiced quantity totals",
+    "cost amount calculations",
+    "discount tracking",
+    "supply chain optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}

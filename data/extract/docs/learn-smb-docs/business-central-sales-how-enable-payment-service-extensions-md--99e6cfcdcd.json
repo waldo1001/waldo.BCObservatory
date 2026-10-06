@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-enable-payment-service-extensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-enable-payment-service-extensions",
+  "title": "Enable customer payments with payment services",
+  "blob": "6bbb561da01a4e2ea5c9d4f458f4d182876d446e",
+  "summary": "Enable customer payments with payment services extends sales documents with payment service links like PayPal or WorldPay, allowing customers to pay directly from emailed invoices and sales documents.",
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "payment services",
+    "customer payments",
+    "sales invoices",
+    "payment processing",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Services"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
+  "features": [
+    "PayPal Payments Standard",
+    "WorldPay Payments Standard",
+    "payment service links",
+    "email document integration",
+    "payment service selection"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}

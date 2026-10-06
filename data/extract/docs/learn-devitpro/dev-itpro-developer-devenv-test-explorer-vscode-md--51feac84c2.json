@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-test-explorer-vscode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-explorer-vscode",
+  "title": "Run AL Tests in Visual Studio Code",
+  "blob": "dcb7306e4305e8a2442f3cf051b89bd535e6c4e2",
+  "summary": "Run AL Tests in Visual Studio Code describes using Test Explorer to discover and run AL tests directly from the IDE with multiple run profiles and code coverage support.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "unit testing",
+    "test explorer",
+    "visual studio code",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "test codeunits"
+    }
+  ],
+  "features": [
+    "Test Explorer",
+    "test discovery",
+    "test run profiles",
+    "code coverage",
+    "debugger integration",
+    "test isolation"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "version 28.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001959,
+      "pages_in_call": 8
+    }
+  ]
+}

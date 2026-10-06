@@ -1,0 +1,106 @@
+{
+  "video_id": "Fczo8KJyqlI",
+  "item_id": "video/yt-microsoft/Fczo8KJyqlI",
+  "title": "What's New: Business Central User Experience and Productivity (2025 release wave 1)",
+  "duration_s": 184,
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "user interface",
+    "user experience",
+    "productivity",
+    "2025 wave 1"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 26.8
+    },
+    {
+      "title": "UI and UX Changes Demo",
+      "t_start": 26.8,
+      "t_end": 90.1
+    },
+    {
+      "title": "Demo Continuation",
+      "t_start": 90.1,
+      "t_end": 171.4
+    },
+    {
+      "title": "Closing Remarks",
+      "t_start": 171.4,
+      "t_end": 184
+    }
+  ],
+  "features": [
+    {
+      "name": "User Interface and Experience Improvements",
+      "description": "Business Central 2025 wave 1 includes changes to the user interface and user experience focused on productivity enhancements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.7,
+      "t_end": 171.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "ux",
+        "productivity"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Ajo",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.7,
+      "text": "recording you will see everything that was changed in business central user interface user experience and productivity",
+      "why_it_matters": "Establishes the scope of the video - focused on UI/UX and productivity changes in the 2025 release",
+      "check": "fuzzy"
+    },
+    {
+      "t": 6.7,
+      "text": "this is business Central a beautiful and friendly user interface",
+      "why_it_matters": "Describes the design philosophy behind Business Central's interface",
+      "check": "exact"
+    },
+    {
+      "t": 26.8,
+      "text": "probably you noticed some new elements in this wave",
+      "why_it_matters": "Indicates that there are new UI elements in this release wave",
+      "check": "exact"
+    },
+    {
+      "t": 171.4,
+      "text": "I hope you like this video and you will like business Central 2025 uh wave 1",
+      "why_it_matters": "Confirms this is the 2025 wave 1 release of Business Central",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007150999999999999
+    }
+  ]
+}

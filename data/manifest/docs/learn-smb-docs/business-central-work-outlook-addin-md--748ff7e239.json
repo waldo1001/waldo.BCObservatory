@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin",
   "published_at": "2026-03-10T14:43:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961",
       "words": 1610,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:19.940Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004098
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:30.707Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:30.708Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:30.709Z",
+      "page": false
     }
   },
   "input_hash": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961"
+  "output_hash": "11abd8ef68d3d65e2b84ec88d3db56fc24dd3a2de003a6c6d325b28ba3c3895b"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "Gjs00Wy0HlI",
+  "item_id": "video/yt-microsoft/Gjs00Wy0HlI",
+  "summary": "AL-Go for GitHub changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols, short-lived artifacts, versioning strategy 3 and commit options. Shows how each is configured for Business Central build pipelines.",
+  "overview": "This 14-minute video from the Business Central channel walks through what is new in AL-Go for GitHub on build and performance. It starts with incremental builds, which now apply to CI/CD builds and not only pull requests, and pairs them with workflow concurrency so earlier builds are cancelled when commits arrive quickly.\n\nIt then covers conditional settings based on build modes, preprocessor symbols as settings, a change to how full artifacts are created as short-lived artifacts, versioning strategy 3, and a commit options construct for injecting messages, auto-merge and pull request labels, for example to integrate with work item tools.",
+  "key_points": [
+    "Incremental builds build only the apps modified in the commit; before they were enabled only for pull requests, now CI/CD builds are covered with complete artifact sets.",
+    "Workflow concurrency can cancel prior builds when several commits come in quickly, and it works with incremental builds on a branch.",
+    "Conditional settings can now depend on build mode, so modes such as default and next major can use different artifacts and behaviors.",
+    "Preprocessor symbols can be added as AL-Go settings to select different code paths at compile time.",
+    "Full artifacts are now created in all builds as short-lived artifacts, replacing artificial intermediate artifacts, with a configurable retention period instead of the one-day default.",
+    "Versioning strategy 3: app.json controls major, minor and build numbers, and the GitHub counter controls only the fourth digit.",
+    "The commit options construct supports a message suffix, auto-merge and pull request labels, useful for work item management integration."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "043fabb6e44c0ee4d22bdc1c52f1adb63099b84eadae6685d0ba3042569f6bf9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0142904
+  }
+}

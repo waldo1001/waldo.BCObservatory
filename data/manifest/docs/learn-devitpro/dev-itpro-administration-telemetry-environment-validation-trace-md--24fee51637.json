@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-validation-trace",
   "published_at": "2026-03-11T08:57:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0cc7a3bb0479a2690f0d207b309e98536eac31c",
       "words": 1013,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:19.939Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004098
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:30.705Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:30.705Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:30.706Z",
+      "page": false
     }
   },
   "input_hash": "e0cc7a3bb0479a2690f0d207b309e98536eac31c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0cc7a3bb0479a2690f0d207b309e98536eac31c"
+  "output_hash": "6d9b0f6ea3659d921bdcfd762933876e3487b50cd1b5e2c6431332079003d7b9"
 }

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000791.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791",
+  "title": "Production Order Statistics (report)",
+  "blob": "cbdad1cc1676dd26c6c85b55d5c287ea66331512",
+  "summary": "Production Order Statistics report breaks down all cost categories for production orders including material, capacity, subcontracting, and overheads with variance analysis.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production order statistics",
+    "cost analysis",
+    "variance reporting",
+    "cost breakdown"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Production Order Statistics"
+    }
+  ],
+  "features": [
+    "material costs",
+    "capacity costs",
+    "subcontracting costs",
+    "overhead costs",
+    "variance analysis",
+    "cost comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001959,
+      "pages_in_call": 8
+    }
+  ]
+}

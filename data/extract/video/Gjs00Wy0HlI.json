@@ -1,0 +1,273 @@
+{
+  "video_id": "Gjs00Wy0HlI",
+  "item_id": "video/yt-microsoft/Gjs00Wy0HlI",
+  "title": "What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)",
+  "duration_s": 815,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "incremental builds",
+    "workflow concurrency",
+    "build modes",
+    "conditional settings",
+    "preprocessor symbols",
+    "versioning strategy",
+    "commit options",
+    "devops",
+    "ci/cd"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 46.3
+    },
+    {
+      "title": "Incremental Builds and Artifacts",
+      "t_start": 46.3,
+      "t_end": 209.2
+    },
+    {
+      "title": "Workflow Concurrency and Settings",
+      "t_start": 209.2,
+      "t_end": 342.8
+    },
+    {
+      "title": "Conditional Settings and Build Modes",
+      "t_start": 342.8,
+      "t_end": 509.4
+    },
+    {
+      "title": "Artifact Structure Changes",
+      "t_start": 509.4,
+      "t_end": 603.2
+    },
+    {
+      "title": "Versioning Strategy 3",
+      "t_start": 603.2,
+      "t_end": 661.6
+    },
+    {
+      "title": "Commit Options and Integration",
+      "t_start": 661.6,
+      "t_end": 815
+    }
+  ],
+  "features": [
+    {
+      "name": "Incremental Builds",
+      "description": "Only build apps that are actually modified in the commit, saving time on CI/CD and deployment. Previously only enabled for pull requests, now available for CI/CD builds with complete artifact sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.3,
+      "t_end": 209.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "incremental",
+        "build",
+        "performance",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow Concurrency",
+      "description": "Control workflow concurrency to cancel prior builds when multiple commits are made in quick succession, working together with incremental builds to save build time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.3,
+      "t_end": 311.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow",
+        "concurrency",
+        "ci-cd",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Conditional Settings Based Build Modes",
+      "description": "Support conditional settings based on build modes, allowing different configurations like default and next major modes to specify different artifacts and behaviors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 354,
+      "t_end": 412.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "build modes",
+        "conditional settings",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Preprocessor Symbols in AL-Go",
+      "description": "AL-Go now supports adding preprocessor symbols as settings, allowing developers to include different code paths during compilation based on specified symbols.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.6,
+      "t_end": 509.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "preprocessor",
+        "symbols",
+        "compilation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Short-Lived Artifacts",
+      "description": "Full artifacts are now created in all builds as short-lived artifacts instead of artificial intermediate artifacts, with configurable retention periods replacing the previous one-day default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 509.4,
+      "t_end": 603.2,
+      "is_demoed": false,
+      "caveats": [
+        "Previously required artificial artifacts for multi-project builds"
+      ],
+      "tags": [
+        "artifacts",
+        "retention",
+        "multi-project"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Versioning Strategy 3",
+      "description": "New versioning strategy where major, minor, and build numbers are controlled by app.json, while only the fourth digit is controlled by GitHub counter.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 603.2,
+      "t_end": 661.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "app.json",
+        "release"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Commit Options",
+      "description": "Allow injecting messages into commit messages or pull requests, with options for message suffix, auto-merge, and pull request labels for integration with work item management tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 661.6,
+      "t_end": 808.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "commit options",
+        "pull requests",
+        "automation",
+        "integration"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL-Go",
+      "t": 17.5
+    },
+    {
+      "type": "other",
+      "name": "GitHub",
+      "t": 17.5
+    },
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 616.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.3,
+      "text": "incremental builds is all about only building what's needed",
+      "why_it_matters": "Defines the core value proposition of incremental builds for reducing build time",
+      "check": "exact"
+    },
+    {
+      "t": 81,
+      "text": "The primary reason for that was that we wanted every CI/CD build to have like a complete set of artifacts built and we've solved",
+      "why_it_matters": "Explains how incremental builds on CI/CD now maintain complete artifacts despite only building modified apps",
+      "check": "exact"
+    },
+    {
+      "t": 230.6,
+      "text": "it works very well with incremental builds if you set up incremental builds on a branch",
+      "why_it_matters": "Describes how workflow concurrency interacts with incremental builds to further optimize build time",
+      "check": "fuzzy"
+    },
+    {
+      "t": 376.1,
+      "text": "with the latest version of Ego now, we also support conditional settings based on build modes.",
+      "why_it_matters": "Announces new capability to configure AL-Go differently based on build mode selection",
+      "check": "exact"
+    },
+    {
+      "t": 630.5,
+      "text": "it actually makes sense to have a versioning strategy where three digits are controlled by appjon and only one digit controlled by GitHub which",
+      "why_it_matters": "Explains the design rationale for Versioning Strategy 3 addressing partner feedback",
+      "check": "exact"
+    },
+    {
+      "t": 689.5,
+      "text": "in the latest versions of go we now allow that. Uh so what you'll do is you'll add this commit options construct.",
+      "why_it_matters": "Introduces the new commit options feature for customizing automated commits and pull requests",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024262
+    }
+  ]
+}

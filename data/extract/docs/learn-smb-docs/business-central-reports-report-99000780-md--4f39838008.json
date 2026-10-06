@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000780.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780",
+  "title": "Capacity Task list (report)",
+  "blob": "22fd1e416eb55ee05ef51c8d2856e113ae36bce7",
+  "summary": "Capacity Task list report shows production orders waiting to be processed at work centers and machine centers with starting/ending times and input quantities.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "capacity planning",
+    "production orders",
+    "work centers",
+    "scheduling"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Capacity Task list"
+    }
+  ],
+  "features": [
+    "pending production orders",
+    "work center capacity",
+    "machine center scheduling",
+    "timing information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001959,
+      "pages_in_call": 8
+    }
+  ]
+}

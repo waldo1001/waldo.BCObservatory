@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-709.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-709",
+  "title": "Inventory Purchase Orders (report)",
+  "blob": "9a76f8e7eea9452e449016e94ff84af1783c951f",
+  "summary": "Inventory Purchase Orders report shows purchase order line-level details including unfulfilled receipts, discounts, and VAT totals to help procurement and warehouse teams track expected receipts and analyze purchase volume.",
+  "systems": [
+    "purchasing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "purchase orders",
+    "inventory",
+    "procurement",
+    "receipts",
+    "back orders"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Purchase Orders"
+    }
+  ],
+  "features": [
+    "unfulfilled receipts",
+    "line and invoice discounts",
+    "total amount on order",
+    "expected receipt dates",
+    "back order tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}

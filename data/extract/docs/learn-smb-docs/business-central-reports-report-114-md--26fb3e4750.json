@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-114.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-114",
+  "title": "Salesperson - Sales Statistics (report)",
+  "blob": "b5c7e039fd50b9da412f1bdfd1e3ba59881aea54",
+  "summary": "Salesperson - Sales Statistics report summarizes sales performance by salesperson including total sales, profit, discounts, and payment figures for a selected period.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "sales performance",
+    "salesperson metrics",
+    "profitability",
+    "sales analytics"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Salesperson - Sales Statistics"
+    }
+  ],
+  "features": [
+    "sales aggregation by salesperson",
+    "profit calculation",
+    "discount tracking",
+    "payment analysis",
+    "adjusted profit metrics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001959,
+      "pages_in_call": 8
+    }
+  ]
+}

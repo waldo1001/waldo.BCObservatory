@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-explorer-vscode",
   "published_at": "2026-03-10T07:56:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "dcb7306e4305e8a2442f3cf051b89bd535e6c4e2",
       "words": 507,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:36.973Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001959
     }
   },
   "input_hash": "dcb7306e4305e8a2442f3cf051b89bd535e6c4e2",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dcb7306e4305e8a2442f3cf051b89bd535e6c4e2"
+  "output_hash": "220e531c6b433ef4e5a37829f306e7a006c66f728872a88988fc559de39227f2"
 }

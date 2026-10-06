@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000763.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000763",
+  "title": "Production Order - List (report)",
+  "blob": "d05f788e0c85cff4bc6a8e94dcd0d90444801fb0",
+  "summary": "Production Order - List report provides an Excel-based overview of production orders with master data and scheduling information across two worksheets for operational follow-up and analytical review.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production orders",
+    "scheduling",
+    "operational planning",
+    "excel reporting",
+    "production tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Production Order - List"
+    }
+  ],
+  "features": [
+    "production order status tracking",
+    "scheduling information",
+    "location filtering",
+    "period filtering",
+    "status-based analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}

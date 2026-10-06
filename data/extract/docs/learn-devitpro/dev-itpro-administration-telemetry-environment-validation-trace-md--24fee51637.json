@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-environment-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-validation-trace",
+  "title": "Analyzing environment validation telemetry",
+  "blob": "e0cc7a3bb0479a2690f0d207b309e98536eac31c",
+  "summary": "Environment validation telemetry documents trace events for per-tenant extension compatibility checks against next major versions, emitting diagnostics and validation results to help partners monitor customer readiness.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "environment validation",
+    "extensions",
+    "upgrade readiness",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "environment validation events",
+    "extension compilation validation",
+    "diagnostic reporting",
+    "upgrade blocking detection",
+    "failure reason tracking"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004098,
+      "pages_in_call": 8
+    }
+  ]
+}
