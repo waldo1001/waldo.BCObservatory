@@ -1,0 +1,605 @@
+{
+  "video_id": "vQU-oYfDn88",
+  "item_id": "video/yt-microsoft/vQU-oYfDn88",
+  "title": "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)",
+  "duration_s": 1368,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table movement",
+    "field movement",
+    "extension refactoring",
+    "appsource extensions",
+    "obsolation",
+    "move down",
+    "move up",
+    "lateral move",
+    "schema migration",
+    "extension dependencies",
+    "deployment",
+    "breaking changes"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Feature Overview",
+      "t_start": 0,
+      "t_end": 91.3
+    },
+    {
+      "title": "Supported Extensions and Scope",
+      "t_start": 91.3,
+      "t_end": 156.6
+    },
+    {
+      "title": "How Moving Tables and Fields Works",
+      "t_start": 156.6,
+      "t_end": 219.8
+    },
+    {
+      "title": "Three Movement Scenarios",
+      "t_start": 219.8,
+      "t_end": 343.2
+    },
+    {
+      "title": "What Can Be Moved - Tables and Fields",
+      "t_start": 343.2,
+      "t_end": 433.8
+    },
+    {
+      "title": "Source and Destination Code Requirements",
+      "t_start": 433.8,
+      "t_end": 544.7
+    },
+    {
+      "title": "Validation and Matching Requirements",
+      "t_start": 544.7,
+      "t_end": 653.1
+    },
+    {
+      "title": "Project File Dependencies and Propagation",
+      "t_start": 653.1,
+      "t_end": 782.9
+    },
+    {
+      "title": "Ownership transfer during table moves",
+      "t_start": 782.9,
+      "t_end": 826.8
+    },
+    {
+      "title": "Constraints and validation for moves",
+      "t_start": 826.8,
+      "t_end": 893.4
+    },
+    {
+      "title": "Moving dependent objects and dependencies",
+      "t_start": 893.4,
+      "t_end": 988.2
+    },
+    {
+      "title": "AppSource submission and validation process",
+      "t_start": 988.2,
+      "t_end": 1126.2
+    },
+    {
+      "title": "Pre-submission best practices and local validation setup",
+      "t_start": 1126.2,
+      "t_end": 1225.8
+    },
+    {
+      "title": "Performance characteristics of moves and summary",
+      "t_start": 1225.8,
+      "t_end": 1368
+    }
+  ],
+  "features": [
+    {
+      "name": "Move Tables and Fields Between Extensions",
+      "description": "Ability for AL developers to move tables and fields between extensions without writing upgrade code. Supported for AppSource extensions targeting runtime version 150 and higher, and for on-premise extensions for Business Central version 26.0 and higher. Per-tenant extensions are not supported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.7,
+      "t_end": 156.6,
+      "is_demoed": true,
+      "caveats": [
+        "Per-tenant extensions not supported",
+        "Only minimal breaking changes when moving to extensions with no dependency relationship",
+        "Not efficient for moving all tables",
+        "Schema must remain the same except non-breaking changes like adding fields"
+      ],
+      "tags": [
+        "extension refactoring",
+        "table movement",
+        "field movement",
+        "appsource extensions",
+        "on-premise extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Obsolation Property with Pending Move State",
+      "description": "Use the ObsoleteState property set to 'pending move' to mark a table or field as unavailable in a future version. Must be paired with MoveTo property containing the destination app ID. When published, they become unavailable until a destination extension takes ownership.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 447.1,
+      "t_end": 826.8,
+      "is_demoed": true,
+      "caveats": [
+        "MoveTo property must contain exact destination app ID",
+        "Table definition must be kept in source extension for validation",
+        "Blocking validation prevents takeover if source is moving to a different destination",
+        "New tables and fields created if source extension not published"
+      ],
+      "tags": [
+        "obsolation",
+        "code syntax",
+        "marking for move",
+        "ownership"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MoveTo and MoveFrom Properties",
+      "description": "Source extension uses MoveTo property with destination app ID. Destination extension uses MoveFrom property with source extension app ID. Both must match for successful move validation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 457.5,
+      "t_end": 530.5,
+      "is_demoed": true,
+      "caveats": [
+        "App IDs must match between source and destination",
+        "Destination must have same schema as source except for non-breaking changes"
+      ],
+      "tags": [
+        "extension properties",
+        "code syntax",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Move Down Scenario",
+      "description": "Moving tables from a source extension to dependency extensions. The destination is a dependency of the source. Use case is splitting a monolithic app into smaller parts with different teams or extracting common functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.8,
+      "t_end": 276.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "movement scenarios",
+        "dependency relationships"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Move Up Scenario",
+      "description": "Moving tables up to extensions that depend on the source extension. The destination extensions depend on the source. Use case is splitting country-specific functionality into separate localized apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 276.8,
+      "t_end": 306,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "movement scenarios",
+        "dependency relationships"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lateral Move Scenario",
+      "description": "Moving tables between extensions with no dependency relationship between source and destination. This is a breaking change as there is no dependency relationship to maintain relationships between symbols.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 306,
+      "t_end": 343.2,
+      "is_demoed": true,
+      "caveats": [
+        "Lateral moves are breaking changes",
+        "No dependency relationship to maintain symbol relationships"
+      ],
+      "tags": [
+        "movement scenarios",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Field Movement Constraints",
+      "description": "Fields can be moved from a base table to a table extension with the same base table, or from a table extension to another table extension with the same base table. Moving from table extension back to base table (consolidation) is not supported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 343.2,
+      "t_end": 386.7,
+      "is_demoed": false,
+      "caveats": [
+        "Consolidation (moving from table extension back to base table) not supported",
+        "Both extensions must have same target table"
+      ],
+      "tags": [
+        "field movement",
+        "constraints",
+        "table extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Propagate Dependencies Property",
+      "description": "Set propagate dependencies property to true in the monolith app version where moves occur or when moving objects down to direct dependencies in non-breaking scenarios. This ensures apps depending on the monolith continue to have access to moved tables after the new version, and allows removing objects from source and redefining them in destination without obsoletion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 653.1,
+      "t_end": 988.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to downward moves to direct dependencies",
+        "Breaking change if moving up or laterally"
+      ],
+      "tags": [
+        "project configuration",
+        "dependencies",
+        "backward compatibility",
+        "non-breaking",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Movement Happens During Sync Stage",
+      "description": "Moves occur during the syncing stage of an extension lifecycle, which is after publishing and before installation. This is when the database schema is changed to enable the move.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 706.7,
+      "t_end": 753.6,
+      "is_demoed": true,
+      "caveats": [
+        "Source extension must be deployed before destination for takeover to work"
+      ],
+      "tags": [
+        "deployment",
+        "extension lifecycle",
+        "timing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "VS Code Deployment for Development Testing",
+      "description": "Developers can test table and field moves using Visual Studio Code development environment. Business Central handles deployment when customers install AppSource extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 739,
+      "t_end": 753.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development tools",
+        "testing",
+        "deployment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Reusing Existing Extensions as Move Destinations",
+      "description": "New extensions do not need to be created to move tables and fields. Existing extensions can be used as destinations by publishing new versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 840.8,
+      "t_end": 851.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "flexibility",
+        "extension management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Takeover Validation - Single Destination Only",
+      "description": "A destination extension can only take over a table or field if it is the exact destination declared in the source extension. Validation prevents multiple extensions from taking over the same moved object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 851.6,
+      "t_end": 873.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only the declared destination can take over a moved table or field"
+      ],
+      "tags": [
+        "validation",
+        "security",
+        "enforcement"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fallback to New Table Creation if Source Not Published",
+      "description": "If the source extension of a move is not published on the system, new tables or fields will be created for the destination extension instead of performing a move.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 873.2,
+      "t_end": 893.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "edge cases",
+        "fallback behavior"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Moving Dependent Objects and Dependencies",
+      "description": "When moving tables and fields, dependent objects like reports and pages can move with them. Dependencies must be handled through common dependencies or propagation mechanisms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 893.4,
+      "t_end": 988.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "dependent objects",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AppSource move validation",
+      "description": "AppSource submission process includes automatic validation for table and field moves, checking source extension existence, compilation, schema changes, and preventing invalid takeovers. Source extension must be submitted first unless destination is library extension.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 988.2,
+      "t_end": 1126.2,
+      "is_demoed": true,
+      "caveats": [
+        "Source extension must be submitted first unless destination is library extension",
+        "Both extensions must compile after move"
+      ],
+      "tags": [
+        "appsource",
+        "validation",
+        "submission"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Local move validation through AppSource scope analyzer",
+      "description": "Enable move validation rules locally using AppSource scope analyzer by building source extension, enabling analyzer, creating directory, and setting new property to point to source directory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1126.2,
+      "t_end": 1225.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL-GO or development environment setup"
+      ],
+      "tags": [
+        "validation",
+        "local testing",
+        "appsource scope",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Table and field move performance optimization",
+      "description": "Moving tables and fields is designed for large data volumes with minimal copying. Field moves between extensions use column rename, field moves from base to extension use AL data transfer, and table moves use database rename.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1225.8,
+      "t_end": 1318.1,
+      "is_demoed": true,
+      "caveats": [
+        "Field moves from base table to extension require data transfer",
+        "No performance comparison provided for non-table scenarios"
+      ],
+      "tags": [
+        "performance",
+        "scalability",
+        "database"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales",
+      "t": 245.5
+    },
+    {
+      "type": "table",
+      "name": "Inventory",
+      "t": 245.5
+    },
+    {
+      "type": "table",
+      "name": "food items",
+      "t": 909.2
+    },
+    {
+      "type": "page",
+      "name": "food items",
+      "t": 919.3
+    },
+    {
+      "type": "enum",
+      "name": "my enum",
+      "t": 1012.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Boring",
+      "confidence": "high"
+    },
+    {
+      "name": "Satias Draonis",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 66.3,
+      "text": "in uh the previous release uh we added the ability in the platform uh for AL developers to move tables and fields between extensions",
+      "why_it_matters": "This quote establishes that the feature for moving tables and fields without upgrade code was previously available but was limited to the base application.",
+      "check": "exact"
+    },
+    {
+      "t": 77.9,
+      "text": "now we also extend that capability to publishers uh to make it much more efficient for them to refactor their apps source extensions",
+      "why_it_matters": "This indicates the new capability - extending table and field movement to AppSource publishers, which is the main focus of this release.",
+      "check": "exact"
+    },
+    {
+      "t": 102.2,
+      "text": "you can use it for app source extensions uh targeting the runtime from uh version 150 and higher uh you can also use",
+      "why_it_matters": "Specifies the exact version requirements for AppSource (runtime 150+) and on-premise (v26.0+), establishing scope and availability.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 119.2,
+      "text": "Uh per tenant extensions are not uh supported for this. Uh in in cloud you can use the for sync uh and upgrade code",
+      "why_it_matters": "Clarifies an important limitation - per-tenant extensions cannot use this feature, and suggests alternate approaches for cloud scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 725.3,
+      "text": "The rule of thumb to ensure success when you are doing a move is that the source extension in a move must be deployed",
+      "why_it_matters": "Establishes critical deployment order requirement for successful table and field moves.",
+      "check": "exact"
+    },
+    {
+      "t": 796,
+      "text": "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As",
+      "why_it_matters": "Explains the practical behavior when obsolation is applied - tables become unavailable after sync until destination takes over.",
+      "check": "exact"
+    },
+    {
+      "t": 796,
+      "text": "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved.",
+      "why_it_matters": "Explains the core mechanism for marking tables and fields during the move process.",
+      "check": "exact"
+    },
+    {
+      "t": 840.8,
+      "text": "you don't need to make new extensions to move tables and fields to them. You can use existing extensions as uh destinations as long",
+      "why_it_matters": "Key design decision that simplifies refactoring by allowing use of existing extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 851.6,
+      "text": "takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that",
+      "why_it_matters": "Describes important validation to prevent incorrect takeovers and ensure integrity of moves.",
+      "check": "exact"
+    },
+    {
+      "t": 851.6,
+      "text": "takeover from a destination extension is blocked if the source extension is moving to a different destination",
+      "why_it_matters": "Critical validation rule preventing invalid takeover attempts.",
+      "check": "exact"
+    },
+    {
+      "t": 1040.4,
+      "text": "The process is quite straightforward for submitting to appsource because it handles most of the validation automatically.",
+      "why_it_matters": "Indicates AppSource provides built-in support for the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 1168.1,
+      "text": "Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them",
+      "why_it_matters": "Clarifies submission order requirement with exception for library extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1265,
+      "text": "If we are moving a field from a table extension to a table extension, then there is no data transfer happening. It is just",
+      "why_it_matters": "Demonstrates performance optimization strategy for field moves.",
+      "check": "exact"
+    },
+    {
+      "t": 1318.1,
+      "text": "moving tables and fields is a feature that empowers the L developer to refactor their extensions to modular, more maintainable parts",
+      "why_it_matters": "States the core purpose of the feature for extension refactoring.",
+      "check": "exact"
+    },
+    {
+      "t": 1343.9,
+      "text": "such changes u can still have some downstream impact on uh any uh partner that are building on top of your solution",
+      "why_it_matters": "Important caveat about impacts on dependent solutions even when refactoring is valid.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 119.2,
+      "kind": "not-in-this-release",
+      "text": "Per tenant extensions are not supported for this"
+    },
+    {
+      "t": 1178.7,
+      "kind": "coming-later",
+      "text": "consider first submitting the source and destination in preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 17
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033229
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02236
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033149
+    }
+  ]
+}

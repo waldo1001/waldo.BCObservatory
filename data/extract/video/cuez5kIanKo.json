@@ -1,0 +1,160 @@
+{
+  "video_id": "cuez5kIanKo",
+  "item_id": "video/yt-microsoft/cuez5kIanKo",
+  "title": "What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)",
+  "duration_s": 80,
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "shopify connector",
+    "sales channels",
+    "product export",
+    "channel activation",
+    "shopify integration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sales Channel Activation",
+      "t_start": 0,
+      "t_end": 25.9
+    },
+    {
+      "title": "Setting Up Multiple Sales Channels",
+      "t_start": 25.9,
+      "t_end": 39.5
+    },
+    {
+      "title": "Exporting Products and Configuration",
+      "t_start": 39.5,
+      "t_end": 50.4
+    },
+    {
+      "title": "Verifying Channel Settings and Defaults",
+      "t_start": 50.4,
+      "t_end": 70.8
+    },
+    {
+      "title": "Resources and Additional Information",
+      "t_start": 70.8,
+      "t_end": 80
+    }
+  ],
+  "features": [
+    {
+      "name": "Activate Specific Sales Channels",
+      "description": "Ability to activate specific sales channels in Shopify connector, allowing businesses to control which products are sold through which channel and simplifying workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 24,
+      "is_demoed": true,
+      "caveats": [
+        "If Shopify sales channels page is not configured, products default to online store"
+      ],
+      "tags": [
+        "shopify",
+        "sales channels",
+        "product management",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multiple Sales Channels Setup",
+      "description": "Ability to set up multiple sales channels in Shopify admin on the Shopify sales channels page where users can activate any available channels as needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.9,
+      "t_end": 38,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "channels",
+        "setup",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Product Export to Shopify",
+      "description": "Capability to navigate to products and export them as Shopify products, enabling product listing configuration across channels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.5,
+      "t_end": 49,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "product export",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sales Channel Verification",
+      "description": "Ability to explore created products in Shopify and check sales channels to ensure configuration matches settings on Shopify sales channels page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50.4,
+      "t_end": 69,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "verification",
+        "channel configuration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "ability to activate specific sales channels simplifies workflow and gives you full control on which products will be sold through which channel",
+      "why_it_matters": "Explains the core value proposition of the feature - enabling granular control over product distribution across sales channels.",
+      "check": "exact"
+    },
+    {
+      "t": 5.8,
+      "text": "you can set up multiple sales channels in the Shopify admin on the Shopify sales channels page you can activate any available channels as",
+      "why_it_matters": "Describes the operational process for configuring multiple channels, indicating the feature is fully available.",
+      "check": "snapped"
+    },
+    {
+      "t": 50.4,
+      "text": "if you haven't configured the Shopify sales channels page your products will default to the online store",
+      "why_it_matters": "Important caveat explaining the default behavior when channels are not explicitly configured.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009988
+    }
+  ]
+}

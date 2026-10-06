@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-inventory-items-in-assemble-to-order-flows",
   "published_at": "2026-05-06T01:55:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "151abdde483896aec3fc014f8ee95307ca5339a7",
       "words": 641,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:59.145Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.167Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.168Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.169Z",
+      "page": false
     }
   },
   "input_hash": "151abdde483896aec3fc014f8ee95307ca5339a7",
@@ -144,5 +163,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "151abdde483896aec3fc014f8ee95307ca5339a7"
+  "output_hash": "2ead2e77f99a51896f042c7f7a8f676d584379f9082601c1faa79b507f975c93"
 }

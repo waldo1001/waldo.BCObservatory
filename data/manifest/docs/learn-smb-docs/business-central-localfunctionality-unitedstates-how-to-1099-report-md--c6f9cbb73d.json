@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report",
   "published_at": "2026-05-06T13:29:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f8b30ab49a5478087d64a640d0108e1c74249700",
       "words": 2386,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:59.140Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.157Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.158Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.159Z",
+      "page": false
     }
   },
   "input_hash": "f8b30ab49a5478087d64a640d0108e1c74249700",
@@ -68,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8b30ab49a5478087d64a640d0108e1c74249700"
+  "output_hash": "b531f3ade8cff90104f93ffe8ebacc9f924294769c7d75ba5994f7c6385cfa90"
 }

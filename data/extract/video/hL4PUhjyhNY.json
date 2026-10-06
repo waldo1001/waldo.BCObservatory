@@ -1,0 +1,375 @@
+{
+  "video_id": "hL4PUhjyhNY",
+  "item_id": "video/yt-microsoft/hL4PUhjyhNY",
+  "title": "What's New: E-Documents Localizations (2025 release wave 1)",
+  "duration_s": 428,
+  "systems": [
+    "localization",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "e-documents",
+    "localizations",
+    "peppol",
+    "factura",
+    "ubl",
+    "pdf/a",
+    "electronic invoicing",
+    "pint-zed",
+    "germany",
+    "spain",
+    "australia",
+    "new-zealand"
+  ],
+  "chapters": [
+    {
+      "title": "E-Documents Localization Strategy and Architecture",
+      "t_start": 0,
+      "t_end": 59
+    },
+    {
+      "title": "Three New Localization Apps: Spain, Germany, Australia/New Zealand",
+      "t_start": 59,
+      "t_end": 112.5
+    },
+    {
+      "title": "Accessing and Installing E-Document Apps",
+      "t_start": 112.5,
+      "t_end": 139.5
+    },
+    {
+      "title": "Germany: Supported Formats and By-Reference Functionality",
+      "t_start": 139.5,
+      "t_end": 231.5
+    },
+    {
+      "title": "Spain: Factura Format and Credit Memo Requirements",
+      "t_start": 231.5,
+      "t_end": 302.6
+    },
+    {
+      "title": "Australia and New Zealand: Peppol and Pint/Zed Formats",
+      "t_start": 302.6,
+      "t_end": 357.8
+    },
+    {
+      "title": "PDF/A Format Support and Continuous Development",
+      "t_start": 357.8,
+      "t_end": 407.5
+    },
+    {
+      "title": "Closing Remarks",
+      "t_start": 407.5,
+      "t_end": 428
+    }
+  ],
+  "features": [
+    {
+      "name": "E-Documents Core App",
+      "description": "Core electronic documents platform designed to cover 80-90% or more of features, available as a separate app with different connectors that users can choose to implement or not.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.8,
+      "t_end": 59,
+      "is_demoed": false,
+      "caveats": [
+        "Connectors are optional and can be combined or omitted based on user needs"
+      ],
+      "tags": [
+        "e-documents",
+        "core",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Peppol B3 Format (Global)",
+      "description": "Global default e-document format available in all Business Central localizations by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59,
+      "t_end": 79.1,
+      "is_demoed": false,
+      "caveats": [
+        "Available by default in all localizations"
+      ],
+      "tags": [
+        "peppol",
+        "global",
+        "default-format"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Germany E-Documents Localization (Factura and UBL)",
+      "description": "Supports two file types for electronic documents in Germany: Peppol B3 and ExchLong UBL format. Pre-installed in German localization and available on AppSource.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.5,
+      "t_end": 231.5,
+      "is_demoed": false,
+      "caveats": [
+        "Pre-installed in German localization by default",
+        "Can be reinstalled from AppSource if removed"
+      ],
+      "tags": [
+        "germany",
+        "factura",
+        "ubl",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Germany By-Reference Mandatory Field",
+      "description": "German-specific feature that enforces the by-reference field as mandatory on documents, ensuring compliance with German invoicing requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 163.9,
+      "t_end": 188.4,
+      "is_demoed": false,
+      "caveats": [
+        "Required for German compliance",
+        "Can be turned on to prevent posting without by-reference"
+      ],
+      "tags": [
+        "germany",
+        "by-reference",
+        "mandatory",
+        "compliance"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Germany Reference Configuration on Customer Card",
+      "description": "New field added to German customer card allowing users to configure reference sources for documents. References can be pulled from document header or customer card reference field.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.4,
+      "t_end": 231.5,
+      "is_demoed": false,
+      "caveats": [
+        "Specific to German localization",
+        "Requires manual configuration of reference source"
+      ],
+      "tags": [
+        "germany",
+        "customer-card",
+        "reference",
+        "configuration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Spain Factura Format (A3-2.2 Version)",
+      "description": "Spanish electronic invoicing format Factura version A3-2.2 is supported and pre-installed. No additional configuration beyond format selection is required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.5,
+      "t_end": 290.9,
+      "is_demoed": false,
+      "caveats": [
+        "Pre-installed in Spanish localization",
+        "Available on AppSource"
+      ],
+      "tags": [
+        "spain",
+        "factura",
+        "a3-2.2",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Spain Credit Memo Factura Reason Code",
+      "description": "Spanish-specific requirement for sales credit memos to include a Factura e-reason code, found in credit memo details fast tab. Mandatory by Spanish law.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 257.2,
+      "t_end": 290.9,
+      "is_demoed": false,
+      "caveats": [
+        "Required by Spanish law for credit memos",
+        "Field is mandatory in credit memo details"
+      ],
+      "tags": [
+        "spain",
+        "factura",
+        "credit-memo",
+        "reason-code",
+        "compliance"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Australia and New Zealand E-Documents (Peppol and Pint/Zed)",
+      "description": "Support for Peppol B3 and Pint/Zed formats in Australia and New Zealand. Pint/Zed is a new mandatory format in Australia from May, designed to be simpler to set up than other formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.6,
+      "t_end": 357.8,
+      "is_demoed": false,
+      "caveats": [
+        "Pint/Zed format becomes mandatory in Australia from May",
+        "Simpler setup compared to other regions",
+        "Pre-installed in Australian and New Zealand localizations"
+      ],
+      "tags": [
+        "australia",
+        "new-zealand",
+        "peppol",
+        "pint-zed",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "PDF/A Format Support",
+      "description": "Technical improvement enabling support for PDF/A format for electronic documents. Some e-document formats are delivered in PDF/A format. Support will be expanded to additional countries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371.9,
+      "t_end": 407.5,
+      "is_demoed": false,
+      "caveats": [
+        "Continuing work to enable PDF/A formats in other countries"
+      ],
+      "tags": [
+        "pdf/a",
+        "technical-improvement",
+        "format-support"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Service Connectors",
+      "description": "Four new connector options available for e-document services. Users can choose which connector to use based on their needs. Additional session covers new connectors in detail.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347,
+      "t_end": 357.8,
+      "is_demoed": false,
+      "caveats": [
+        "Users can choose which connector to implement",
+        "Details covered in separate session"
+      ],
+      "tags": [
+        "connectors",
+        "e-documents",
+        "service-integration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "electronic documents core",
+      "t": 18.8
+    },
+    {
+      "type": "other",
+      "name": "customer card",
+      "t": 216.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 18.8,
+      "text": "we added new app electronic documents core and with this e document core we are planning we planned actually to cover 80 90 even",
+      "why_it_matters": "States the scope and architecture of the core e-documents platform coverage across localizations.",
+      "check": "exact"
+    },
+    {
+      "t": 59,
+      "text": "PEL B3 format as a global format and this format is available in all countries so in all our localizations this is what we",
+      "why_it_matters": "Establishes Peppol B3 as the universal default format available across all Business Central localizations.",
+      "check": "exact"
+    },
+    {
+      "t": 79.1,
+      "text": "you can build your own localization on top of this functionality the same way as Microsoft is doing because we do not do anything",
+      "why_it_matters": "Clarifies that partners can extend e-documents using the same open architecture Microsoft uses.",
+      "check": "exact"
+    },
+    {
+      "t": 112.5,
+      "text": "They are already there but by default they are pre-installed in your localization. So when you open for example Australia localization you will find",
+      "why_it_matters": "Explains that new e-document formats come pre-installed in their respective localizations.",
+      "check": "exact"
+    },
+    {
+      "t": 139.5,
+      "text": "First, electronic documents in Germany, we have supported two types of files, PayPal B3 and Excnong UBL.",
+      "why_it_matters": "Specifies the two supported file formats for German electronic documents.",
+      "check": "exact"
+    },
+    {
+      "t": 322.7,
+      "text": "this is much easier to set up because there is no specific situation in Australia, New Zealand.",
+      "why_it_matters": "Indicates that Australia and New Zealand setup is simpler than other regions due to fewer localization requirements.",
+      "check": "snapped"
+    },
+    {
+      "t": 357.8,
+      "text": "So now from this wave e documents are officially available in B central in Australia in New Zealand.",
+      "why_it_matters": "Confirms that 2025 wave 1 marks the official availability of e-documents in Australia and New Zealand.",
+      "check": "exact"
+    },
+    {
+      "t": 385.8,
+      "text": "So what is coming uh with this wave we deliver availability to handle the PDFA formats.",
+      "why_it_matters": "Announces new PDF/A format support capability added in this release wave.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 302.6,
+      "kind": "coming-later",
+      "text": "Pint/Zed format will be mandatory from May (in Australia)"
+    },
+    {
+      "t": 397.2,
+      "kind": "coming-later",
+      "text": "we will continue to work in enabling PDFA formats in some other countries"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026723
+    }
+  ]
+}

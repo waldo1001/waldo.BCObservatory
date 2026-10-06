@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-1099-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report",
+  "title": "Report and submit the IRS 1099 form [US]",
+  "blob": "f8b30ab49a5478087d64a640d0108e1c74249700",
+  "summary": "Submit and report the IRS 1099 forms describes how to register with the IRS, submit 1099 forms via IRIS or magnetic media, print and email documents, and handle corrections and rejections.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "irs 1099",
+    "iris transmission",
+    "tax filing",
+    "1099 submission",
+    "corrections",
+    "united states"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "IRS 1099 Form Documents"
+    },
+    {
+      "type": "page",
+      "name": "IRIS Transmissions"
+    },
+    {
+      "type": "page",
+      "name": "IRIS Transmission"
+    },
+    {
+      "type": "page",
+      "name": "Error Information"
+    },
+    {
+      "type": "page",
+      "name": "Transmission History"
+    },
+    {
+      "type": "page",
+      "name": "Email Accounts"
+    }
+  ],
+  "features": [
+    "IRIS integration",
+    "magnetic media submission",
+    "transmission status",
+    "error handling",
+    "form correction",
+    "email automation",
+    "copy submission"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

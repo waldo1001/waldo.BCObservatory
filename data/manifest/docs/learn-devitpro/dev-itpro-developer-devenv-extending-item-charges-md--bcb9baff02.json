@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-item-charges",
   "published_at": "2026-05-06T02:30:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8d90a9924c6a1f364c08d44ed2f0a5378462a334",
       "words": 515,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:59.144Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.164Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.165Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.166Z",
+      "page": false
     }
   },
   "input_hash": "8d90a9924c6a1f364c08d44ed2f0a5378462a334",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d90a9924c6a1f364c08d44ed2f0a5378462a334"
+  "output_hash": "dc9d88cfb2e32744001da8cfa95e216f4eb372d760a85e59c3ff68a3eaca4bc5"
 }

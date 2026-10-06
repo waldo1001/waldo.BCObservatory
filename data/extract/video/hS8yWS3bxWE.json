@@ -1,0 +1,231 @@
+{
+  "video_id": "hS8yWS3bxWE",
+  "item_id": "video/yt-microsoft/hS8yWS3bxWE",
+  "title": "What's New: Telemetry (2025 release wave 1)",
+  "duration_s": 548,
+  "systems": [
+    "platform",
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "financial reporting",
+    "client add-ins",
+    "certificate validation",
+    "soap deprecation",
+    "auditing",
+    "troubleshooting",
+    "application insights"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction - Five New Telemetry Types",
+      "t_start": 0,
+      "t_end": 47.4
+    },
+    {
+      "title": "Accessing Telemetry Samples and Documentation",
+      "t_start": 47.4,
+      "t_end": 88.5
+    },
+    {
+      "title": "Financial Reporting Usage Telemetry",
+      "t_start": 88.5,
+      "t_end": 169.7
+    },
+    {
+      "title": "Financial Reporting Definition Changes Telemetry",
+      "t_start": 169.7,
+      "t_end": 272.2
+    },
+    {
+      "title": "Client Add-ins Troubleshooting Telemetry",
+      "t_start": 272.2,
+      "t_end": 389.3
+    },
+    {
+      "title": "Server-side Certificate Validation Telemetry",
+      "t_start": 389.3,
+      "t_end": 451.2
+    },
+    {
+      "title": "Deprecated SOAP Protocol Detection Telemetry",
+      "t_start": 451.2,
+      "t_end": 548
+    }
+  ],
+  "features": [
+    {
+      "name": "Financial Reporting Usage Telemetry",
+      "description": "Telemetry for tracking when users run financial reports on screen or from the request page, including report row and column definitions. Useful for auditing needs to know who is running financial reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 68.3,
+      "t_end": 169.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "financial reporting",
+        "usage tracking",
+        "auditing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Reporting Definition Changes Telemetry",
+      "description": "Telemetry tracking changes to financial reporting definitions including row definitions, column definitions, and report definitions. Captures lifecycle events such as created, modified, deleted, copied, imported, or exported using configuration packages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.7,
+      "t_end": 272.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "financial reporting",
+        "definition tracking",
+        "auditing",
+        "change detection"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Client Add-ins Exception Telemetry",
+      "description": "New telemetry in the exceptions table for troubleshooting client add-ins. Captures exception details including environment, company, app, object, add-in name, assembly, error messages, and stack traces from JavaScript errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.7,
+      "t_end": 389.3,
+      "is_demoed": true,
+      "caveats": [
+        "previously not tracked; focused on iframe-based add-ins"
+      ],
+      "tags": [
+        "client add-ins",
+        "troubleshooting",
+        "exceptions",
+        "javascript"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Server-side Certificate Validation Telemetry",
+      "description": "Telemetry for HTTP client certificate validation performed by the AL runtime. Logs validation failures with details about the certificate, endpoint called, HTTP method used, and failure reason.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.3,
+      "t_end": 451.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "certificate validation",
+        "http client",
+        "ssl",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Deprecated SOAP Protocol Detection",
+      "description": "Telemetry event RT0053 to detect if customers are calling UI pages via deprecated SOAP web services. Helps identify integrations that need to stop using SOAP before it is turned off in a later release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 451.2,
+      "t_end": 542.5,
+      "is_demoed": true,
+      "caveats": [
+        "only identifies which endpoint is called, not which integration is calling it; SOAP will be turned off in a later release"
+      ],
+      "tags": [
+        "soap",
+        "deprecation",
+        "web services",
+        "migration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "exceptions table",
+      "t": 287.7
+    },
+    {
+      "type": "other",
+      "name": "RT0053 event",
+      "t": 502
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.5,
+      "text": "in this release wave we added five new types of telemetry",
+      "why_it_matters": "Sets expectations for the video content - five new telemetry types will be covered.",
+      "check": "exact"
+    },
+    {
+      "t": 88.5,
+      "text": "it might be that you have auditing needs for your company so that you need to know who is actually running a financial report",
+      "why_it_matters": "Explains the primary use case for financial reporting telemetry - compliance and auditing.",
+      "check": "exact"
+    },
+    {
+      "t": 287.7,
+      "text": "this is a blind spot or was a blind spot until now and uh but now you have telemetry on",
+      "why_it_matters": "Highlights that client add-in errors were previously not tracked, and this is a new capability in the release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 389.3,
+      "text": "the AL runtime is performing whenever you call from HTP client in Al call to an endpoint uh where the endpoint has a CER",
+      "why_it_matters": "Explains the scope of the new certificate validation telemetry - it applies to HTTP client calls with certificates.",
+      "check": "exact"
+    },
+    {
+      "t": 471.7,
+      "text": "these soap web services on UI PES by Microsoft this has been deprecated and therefore this will be kind of stop working in a",
+      "why_it_matters": "Indicates that SOAP on UI pages is deprecated and will stop working in a future release, motivating the need for detection telemetry.",
+      "check": "exact"
+    },
+    {
+      "t": 522.5,
+      "text": "as always in anything related to Telemetry is documented here under aka.ms slbc Telemetry",
+      "why_it_matters": "Provides the resource location for all telemetry documentation and examples.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 451.2,
+      "kind": "coming-later",
+      "text": "these soap web services on UI PES by Microsoft this has been deprecated and therefore this will be kind of stop working in a in a later release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020684
+    }
+  ]
+}

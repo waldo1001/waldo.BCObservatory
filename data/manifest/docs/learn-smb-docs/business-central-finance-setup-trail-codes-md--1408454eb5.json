@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-trail-codes",
   "published_at": "2026-05-06T01:55:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ef6031bcfc8fb98e96bde40a8891af6b1bca3325",
       "words": 805,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:59.148Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.174Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.175Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.176Z",
+      "page": false
     }
   },
   "input_hash": "ef6031bcfc8fb98e96bde40a8891af6b1bca3325",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef6031bcfc8fb98e96bde40a8891af6b1bca3325"
+  "output_hash": "7a3a2fbc266207260f4455a960c4b7132e9f54377a145f8806b723b23ec7c3a4"
 }

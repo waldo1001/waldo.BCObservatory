@@ -1,0 +1,265 @@
+{
+  "video_id": "giNi8WtCX_s",
+  "item_id": "video/yt-microsoft/giNi8WtCX_s",
+  "title": "What's New in Manufacturing: Streamline Product Design (2025 release wave 1)",
+  "duration_s": 144,
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "production bom",
+    "document attachments",
+    "bom versions",
+    "version comparison",
+    "subassembly display",
+    "bulk editing",
+    "version certification"
+  ],
+  "chapters": [
+    {
+      "title": "Production BOM enhancements overview",
+      "t_start": 0,
+      "t_end": 25.4
+    },
+    {
+      "title": "Document attachments and active versions",
+      "t_start": 25.4,
+      "t_end": 45.6
+    },
+    {
+      "title": "Version comparison and subassembly display options",
+      "t_start": 45.6,
+      "t_end": 66.2
+    },
+    {
+      "title": "Editing versions and bulk item selection",
+      "t_start": 66.2,
+      "t_end": 82
+    },
+    {
+      "title": "Version certification and closure workflow",
+      "t_start": 82,
+      "t_end": 108.8
+    },
+    {
+      "title": "BOM navigation from items",
+      "t_start": 108.8,
+      "t_end": 144
+    }
+  ],
+  "features": [
+    {
+      "name": "Production BOM document attachment",
+      "description": "Ability to add document attachments to production bills of material for storing additional information such as drawings, specifications, or materials needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.1,
+      "t_end": 25.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document attachment",
+        "bom",
+        "usability"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production BOM active version",
+      "description": "Access to active versions of the production bill of material through the assist edit button, with version comparison matrix showing all information about the main BOM and available versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.4,
+      "t_end": 56.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom version",
+        "version comparison",
+        "assist edit"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Subassembly display options in BOM",
+      "description": "Option to adjust different option levels to determine how subassemblies are displayed, whether as entire subassemblies or their individual components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.6,
+      "t_end": 56.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subassembly",
+        "display options",
+        "bom structure"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "BOM version list view with date and status",
+      "description": "Version list page that displays the starting date and status of each BOM version for easier management and navigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.5,
+      "t_end": 66.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "version list",
+        "date display",
+        "status"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Select items action for bulk BOM editing",
+      "description": "Action to select multiple items at once when editing a production bill of material version, with the ability to update quantities for all selected items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.2,
+      "t_end": 77.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bulk editing",
+        "select items",
+        "quantities"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Edit in Excel functionality for BOM",
+      "description": "Functionality to edit large bills of materials using Excel, providing an efficient way to manage large BOM lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.1,
+      "t_end": 82.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "edit in excel",
+        "bulk editing",
+        "large bom"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "BOM version certification confirmation dialog",
+      "description": "Confirmation dialog that appears when closing a production BOM version page if the status is not certified, requiring certification before closing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82,
+      "t_end": 108.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "version certification",
+        "confirmation dialog",
+        "status workflow"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "BOM navigation from item card",
+      "description": "Ability to navigate to production bill of materials from the item card through actions related to assembly, with options to open the main BOM or jump directly to the certified version based on the current date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 108.8,
+      "t_end": 121.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom navigation",
+        "item card",
+        "certified version"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "production bill of material",
+      "t": 5.1
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.1,
+      "text": "production bill of material is a key component in the manufacturing in this release we enhance usability",
+      "why_it_matters": "States this is a 2025 release wave 1 feature focusing on production BOM enhancements and usability improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 25.4,
+      "text": "where you can add additional information like drawings or specifications or other",
+      "why_it_matters": "Describes the new capability to attach documents to BOMs for storing reference materials and specifications.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 45.6,
+      "text": "different option levels can be adjusted to determine how subassemblies are displayed whether as entire subassemblies or their individual components",
+      "why_it_matters": "Explains the flexibility users have in controlling how BOM structure is presented for different use cases.",
+      "check": "exact"
+    },
+    {
+      "t": 66.2,
+      "text": "use the select items action to select multiple items at once",
+      "why_it_matters": "Identifies the bulk editing capability for efficient BOM version maintenance.",
+      "check": "exact"
+    },
+    {
+      "t": 82,
+      "text": "consider using the edit and Excel functionality for a large bill of materials",
+      "why_it_matters": "Highlights the Excel integration option as a method for managing large and complex BOMs.",
+      "check": "exact"
+    },
+    {
+      "t": 82,
+      "text": "a confirmation dialogue appears if the status is not certified",
+      "why_it_matters": "Describes the workflow requirement that BOMs must be certified before version closure.",
+      "check": "exact"
+    },
+    {
+      "t": 121.1,
+      "text": "you can open the main bill of material and navigate to the active version or jump directly to the certified version based on the",
+      "why_it_matters": "Explains how users can access BOMs from the item card with date-based version selection logic.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015220000000000001
+    }
+  ]
+}

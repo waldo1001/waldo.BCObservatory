@@ -1,0 +1,27 @@
+{
+  "video_id": "vQU-oYfDn88",
+  "item_id": "video/yt-microsoft/vQU-oYfDn88",
+  "summary": "Moving tables and fields between AppSource extensions in AL without writing upgrade code, in the 2025 release wave 1. It covers the ObsoleteState pending move with MoveTo/MoveFrom properties, the move down, move up and lateral scenarios, propagate dependencies, deployment order, and AppSource validation.",
+  "overview": "The video explains that the platform capability to move tables and fields between extensions, added in the previous release, is now extended to publishers so they can refactor AppSource extensions. It applies to AppSource extensions targeting runtime 150 and higher, and to on-premise extensions for Business Central version 26.0 and higher. Per-tenant extensions are not supported.\n\nIt walks through how a move works: the source extension marks objects with the pending move obsolete state and a MoveTo property, and the destination uses MoveFrom. It then covers the three scenarios (move down, move up, lateral), constraints on fields, propagation of dependencies, how moves happen during sync, and how AppSource validates submissions. It closes with local validation using the AppSource scope analyzer and the performance characteristics of moves.",
+  "key_points": [
+    "Source extension sets ObsoleteState to pending move plus MoveTo with the destination app ID; the destination uses MoveFrom with the source app ID. Both IDs must match and the schema must stay the same apart from non-breaking changes such as added fields.",
+    "Move down (destination is a dependency of the source) and move up (destination depends on the source) keep the dependency relationship. A lateral move, with no dependency relationship, is a breaking change.",
+    "Set propagate dependencies to true in the monolith version where the moves occur, for downward moves to direct dependencies, so dependent apps keep access to the moved tables. Moving up or laterally is a breaking change.",
+    "Fields can move from a base table to a table extension, or between table extensions on the same base table. Moving from a table extension back to the base table is not supported.",
+    "Moves happen during the sync stage. The source extension must be deployed before the destination. If the source is not published, new tables or fields are created instead of moving.",
+    "Only the declared destination can take over a moved object. AppSource validation checks this, so submit the source extension first unless the destination is a library extension.",
+    "Field moves between extensions rename the column, base-to-extension field moves use AL data transfer, and table moves use a database rename. Local validation uses the AppSource scope analyzer."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "0a1da481881dea9428679b9d2bf3fd08de06ff597507d26e8c9e27f956be37b1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0251024
+  }
+}

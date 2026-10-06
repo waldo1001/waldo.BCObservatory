@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: PTEs in Admin Center (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=_nmA6xJXKiY",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:40:32.599Z",
+      "captions": "auto:en-orig",
+      "duration_s": 158
+    },
+    "captioned": {
+      "at": "2026-10-06T18:40:42.047Z",
+      "path": "data/captions/microsoft/_nmA6xJXKiY.vtt",
+      "vtt_sha256": "a3aae48ee5e36745961e67de40b660089c7775d3f1f2a20e2041b1057520c04f",
+      "segments": 13,
+      "words": 513,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 245,
     "duration_s": 158,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3aae48ee5e36745961e67de40b660089c7775d3f1f2a20e2041b1057520c04f"
 }

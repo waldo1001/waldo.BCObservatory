@@ -1,0 +1,27 @@
+{
+  "video_id": "eUkx_VCcyoU",
+  "item_id": "video/yt-microsoft/eUkx_VCcyoU",
+  "summary": "AL language changes in Business Central 2025 release wave 1: moving fields and tables between apps, resources in apps with size limits, a user control host page type, report enhancements, new string, text and JSON methods, YAML read and write, and test handling of HTTP calls.",
+  "overview": "This 15-minute video from the Business Central channel, published 2025-04-01, walks through the AL language updates in 2025 release wave 1. It covers moving fields and tables between apps with move to and move from properties, resources in apps, page and report changes, and language additions such as the continue keyword and multi-line strings.\n\nIt also covers JSON and text improvements, YAML read and write, role explorer inheritance of about title and about text, and testing features. The testing features include an HTTP client handler and a server certificate validation override, both for tests and not for production.",
+  "key_points": [
+    "Move to and move from properties can now be used on tables and fields to move them between applications.",
+    "Resources in apps are open to everyone, with a resource root folder set in app.json. Limits: 16 MB per resource, 250 MB for all resources, 250 characters per resource name, 256 resources per app.",
+    "Get resource as text needs the encoding specified for correct output; the default is MS DOS. A list resources function supports simple pattern matching.",
+    "The user control host page type holds one user control and nothing else, for example a PowerBI report or a browser. Only one user control is allowed, it cannot have actions, and some limitations are still being worked on.",
+    "Reports gain tooltips, a property for multiple Excel data sheets that layouts can override, obsolete report layouts, pre-rendering and post report triggers, and access to the target format. View from stream previews a report without downloading it.",
+    "New language features: the continue keyword, multi-line strings prefixed with @, a call stack function that does not throw an exception, negative numbers in increment string, and to text on simple types.",
+    "JSON objects get direct text and type-specific get methods. The text method does not check whether the property exists and can throw, but a default value can be given. YAML read and write is backported to runtime version 143."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "93012f711f793b1a66f8a7f27533b342edf1fb46c583616a813286deae355eb4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0219144
+  }
+}

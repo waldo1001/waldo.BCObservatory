@@ -1,0 +1,304 @@
+{
+  "video_id": "b-ixzwDS41c",
+  "item_id": "video/yt-microsoft/b-ixzwDS41c",
+  "title": "What's New: Customer-Managed Encryption Key (2025 release wave 1)",
+  "duration_s": 564,
+  "systems": [
+    "administration",
+    "platform",
+    "finance"
+  ],
+  "topics": [
+    "customer-managed encryption",
+    "key vault",
+    "azure setup",
+    "data governance",
+    "privacy",
+    "security",
+    "managed environments",
+    "enterprise policy",
+    "power platform",
+    "encryption keys"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Customer-Managed Encryption Key",
+      "t_start": 0,
+      "t_end": 25.6
+    },
+    {
+      "title": "Setting Up Key Vault in Azure Portal",
+      "t_start": 25.6,
+      "t_end": 66.4
+    },
+    {
+      "title": "Creating and Configuring Encryption Keys",
+      "t_start": 66.4,
+      "t_end": 106.8
+    },
+    {
+      "title": "Enabling Power Platform Resource Provider",
+      "t_start": 106.8,
+      "t_end": 147.1
+    },
+    {
+      "title": "Deploying Enterprise Policy Resource",
+      "t_start": 147.1,
+      "t_end": 208.5
+    },
+    {
+      "title": "Configuring Access Control and Role Assignments",
+      "t_start": 208.5,
+      "t_end": 277.2
+    },
+    {
+      "title": "Setting Up CMK in Power Platform Admin Center",
+      "t_start": 277.2,
+      "t_end": 337.8
+    },
+    {
+      "title": "Linking Business Central to Power Platform",
+      "t_start": 337.8,
+      "t_end": 413
+    },
+    {
+      "title": "Important Considerations and Best Practices",
+      "t_start": 413,
+      "t_end": 564
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer-Managed Encryption Key (CMK)",
+      "description": "Functionality that allows customers to encrypt their Business Central environment database using their own encryption key stored in their own Azure Key Vault instead of using Microsoft-managed keys.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.6,
+      "t_end": 548.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires a linked managed Power Platform environment",
+        "Unlinking environment reverts encryption to Microsoft-managed key",
+        "Copy or restore operations create new environments without CMK by default",
+        "Requires specific Microsoft 365 and Power Platform licensing beyond Business Central license",
+        "Setup should separate duties between key administrator and Dynamics 365/Power Platform administrator"
+      ],
+      "tags": [
+        "encryption",
+        "key-vault",
+        "data-governance",
+        "security",
+        "azure"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Purge Protection on Key Vaults",
+      "description": "A required setting that must be enabled on Key Vaults that contain keys used to encrypt Business Central environment databases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.1,
+      "t_end": 66.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "key-vault",
+        "protection",
+        "azure"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Managed Environments Requirement",
+      "description": "CMK requires the linked Power Platform environment to be a managed environment, which comes with specific licensing requirements beyond the Business Central license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 508,
+      "t_end": 528.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires additional Microsoft 365 and Power Platform licensing",
+        "Not available for non-managed environments"
+      ],
+      "tags": [
+        "managed-environments",
+        "licensing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enterprise Policy Resource",
+      "description": "A custom deployment resource on the Power Platform documentation that connects the encryption key to the Power Platform environment, which then connects to the Business Central environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.1,
+      "t_end": 208.5,
+      "is_demoed": true,
+      "caveats": [
+        "Location must match Power Platform and Business Central environment region",
+        "Key ID must match the Key Vault resource ID"
+      ],
+      "tags": [
+        "enterprise-policy",
+        "azure",
+        "template-deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power Platform Resource Provider Registration",
+      "description": "The microsoft.powerplatform resource provider must be enabled for the Azure subscription before creating CMK Enterprise Policy resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106.8,
+      "t_end": 126.9,
+      "is_demoed": true,
+      "caveats": [
+        "Not enabled by default on Azure subscriptions"
+      ],
+      "tags": [
+        "resource-provider",
+        "azure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "CMK Environment Unlinking Behavior",
+      "description": "When an environment is unlinked after applying CMK, the Business Central environment automatically reverts to Microsoft-managed encryption keys.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.9,
+      "t_end": 488,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "unlinking",
+        "reversion"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "CMK with Environment Copy and Restore",
+      "description": "When copying or restoring a CMK-encrypted environment, the new environment is not automatically encrypted with the same customer-managed key and requires separate setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.9,
+      "t_end": 488,
+      "is_demoed": false,
+      "caveats": [
+        "Requires linking to a new Power Platform environment and reapplying CMK"
+      ],
+      "tags": [
+        "copy-restore",
+        "new-environments"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "CMK Export and Storage Account Encryption",
+      "description": "When exporting a CMK-encrypted environment, the backup file in the storage account is encrypted by default with Microsoft-managed keys, but can be re-encrypted with a customer-managed key.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 488,
+      "t_end": 508,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "export",
+        "storage-account",
+        "backup"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.6,
+      "text": "this is a new functionality that uh delivers on a need that we frequently hear from customers with very Advanced uh data governance uh",
+      "why_it_matters": "Establishes the business driver and target audience for CMK - advanced customers with specific data governance and privacy requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 46.1,
+      "text": "the perge protection this must be enabled on key vaults that contain a key um that will be used to encrypt your environment database",
+      "why_it_matters": "Identifies a critical mandatory configuration requirement for Key Vaults used with CMK.",
+      "check": "exact"
+    },
+    {
+      "t": 167.7,
+      "text": "the loc must match the location of your power platform and your business central environment",
+      "why_it_matters": "Defines critical configuration parameters that must align between Azure Key Vault, Power Platform, and Business Central.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 337.8,
+      "text": "cmk only works on managed environments",
+      "why_it_matters": "States the fundamental platform requirement that CMK is only available for managed Power Platform environments.",
+      "check": "exact"
+    },
+    {
+      "t": 467.9,
+      "text": "if you unlink your environment after applying cmk your business and for environment will automatically revert to a Microsoft manage encryption key",
+      "why_it_matters": "Explains critical behavior change when unlinking - automatic reversion to Microsoft-managed encryption is a design decision with operational implications.",
+      "check": "exact"
+    },
+    {
+      "t": 467.9,
+      "text": "if you copy or restore your environment um while it is encrypted with cmk you create a new environment that will not by default",
+      "why_it_matters": "Important limitation that copy/restore operations do not preserve CMK settings, requiring manual reconfiguration.",
+      "check": "snapped"
+    },
+    {
+      "t": 508,
+      "text": "and that is required for ck to work to use a managed environment this comes with",
+      "why_it_matters": "Establishes both the technical requirement and licensing implications of using managed environments for CMK.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 528.3,
+      "text": "in the real word is important to uh separate the duties in setting this up between different users you'd use a key administrator for",
+      "why_it_matters": "Provides security best practice recommendation for separating key management duties from Power Platform administration.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 393,
+      "kind": "subject-to-change",
+      "text": "review the warning here which warns me that this will start encrypting the database right away which may take some time to complete so make sure that you apply this at a time that the environment can be down while it's being encrypted"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02516
+    }
+  ]
+}

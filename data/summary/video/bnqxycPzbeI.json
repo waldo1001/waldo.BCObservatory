@@ -1,0 +1,27 @@
+{
+  "video_id": "bnqxycPzbeI",
+  "item_id": "video/yt-microsoft/bnqxycPzbeI",
+  "summary": "Sustainability value chain tracking in Business Central 2025 release wave 1, shown with transfer orders for internal transport emissions. Covers sustainability value entries, the Value Chain Tracking setup field (public preview), item card emissions and purchase invoice posting.",
+  "overview": "The video demonstrates how Business Central tracks emissions like costs, using sustainability value entries. Inbound emissions currently come from items only, and item charges are planned for the next wave. The value chain extension also covers emissions from production and assembly orders, which is part of the public preview and is not fully demonstrated.\n\nThe demo shows enabling value chain tracking in Sustainability Setup, entering emissions on the item card, posting a purchase invoice that updates item emissions, and entering carbon equivalent on transfer order lines. It then shows the resulting sustainability value entries. The presenter suggests testing in a sandbox first.",
+  "key_points": [
+    "Value Chain Tracking is a new field in Sustainability Setup under the Procurement fast tab. It is in public preview, and enabling it shows a warning.",
+    "With tracking enabled, posting creates both a sustainability ledger entry and a sustainability value entry. Without it, only the ledger entry is posted.",
+    "The item card shows CO2, methane and nitrous oxide fields. The system calculates CO2 equivalent, and values need manual entry if there is no purchase history.",
+    "Posting a purchase invoice creates sustainability value entries and updates item emissions with actual values, only if value chain tracking is enabled.",
+    "Transfer orders track internal transport emissions with carbon equivalent only, entered at line level. Emissions per unit are calculated when the transfer shipment is posted.",
+    "Emissions appear in the posted transfer shipment but not in the posted transfer receipt.",
+    "Current limits: average costing method only, no item charges yet, and no print output for the sales invoice in this release."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "1728aa759877ea05811fbfcb99d617090cafaef9895ed5b69b86af984c39b8d8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0179944
+  }
+}

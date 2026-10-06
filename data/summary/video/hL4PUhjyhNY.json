@@ -1,0 +1,28 @@
+{
+  "video_id": "hL4PUhjyhNY",
+  "item_id": "video/yt-microsoft/hL4PUhjyhNY",
+  "summary": "E-Documents localizations in the 2025 release wave 1: new apps for Germany, Spain, and Australia/New Zealand built on the E-Documents Core app. Covers supported formats (Peppol B3, UBL, Factura A3-2.2, Pint/Zed), German by-reference and Spanish credit memo reason code requirements, and PDF/A support.",
+  "overview": "The video explains the E-Documents localization approach. A core app is meant to cover 80-90% or more of the features, with optional connectors that can be combined or omitted. Peppol B3 is the global format available in all localizations. Localizations are built on top of the core, and partners can build their own the same way.\n\nIt then walks through three new localization apps. They are pre-installed in the matching localizations and also available on AppSource. Germany supports Peppol B3 and UBL, with a mandatory by-reference field and a reference setting on the customer card. Spain supports Factura A3-2.2 and requires a Factura reason code on sales credit memos. Australia and New Zealand support Peppol B3 and Pint/Zed, and Pint/Zed becomes mandatory in Australia from May. The video also covers PDF/A support, which will be extended to more countries.",
+  "key_points": [
+    "Three new e-document localization apps cover Germany, Spain, and Australia/New Zealand. They are pre-installed in those localizations and can be reinstalled from AppSource.",
+    "The E-Documents Core app is designed to cover 80-90% or more of features. Connectors are optional and can be combined or omitted.",
+    "Germany supports Peppol B3 and UBL. The by-reference field can be made mandatory to block posting without it, and the customer card has a field to set the reference source (document header or customer card reference).",
+    "Spain supports Factura version A3-2.2 with no setup beyond selecting the format. Sales credit memos need a Factura reason code in the credit memo details FastTab, as Spanish law requires.",
+    "Australia and New Zealand support Peppol B3 and Pint/Zed. Pint/Zed becomes mandatory in Australia from May, and setup is simpler because there are no region-specific complications.",
+    "PDF/A handling is delivered in this wave. Work continues to enable PDF/A formats in other countries.",
+    "Four new e-document service connectors are available. They are covered in a separate session."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "ddcdadef5103f99231fb05d53ecd5e6a88539b38d55eea37ddde60aebada0e34",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0190804
+  }
+}

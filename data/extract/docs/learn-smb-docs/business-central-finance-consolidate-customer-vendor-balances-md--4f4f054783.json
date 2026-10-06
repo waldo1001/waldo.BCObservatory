@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-consolidate-customer-vendor-balances.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances",
+  "title": "Consolidate Balances for a Company that is a Customer and a Vendor",
+  "blob": "afaee485cc8037a17d17c2b86cf1be29065402a7",
+  "summary": "Consolidate Balances for a Company that is a Customer and a Vendor describes how to net customer and vendor balances for a company that has both roles by linking them through a contact.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "customer vendor consolidation",
+    "balance netting",
+    "contact management",
+    "payment journals"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    }
+  ],
+  "features": [
+    "balance as vendor",
+    "balance as customer",
+    "net balance consolidation",
+    "contact linking",
+    "duplicate search"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

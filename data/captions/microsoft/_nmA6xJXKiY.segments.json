@@ -1,0 +1,86 @@
+{
+  "video_id": "_nmA6xJXKiY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 22.1,
+      "text": "Hello everyone and welcome to this business central launch event session on managing PTEES in the admin center. Um starting this release wave we'll start surfacing the PTEs that are installed on your environments in the admin center and in the admin center API which enables you to automate across them."
+    },
+    {
+      "t": 22.1,
+      "end": 33.8,
+      "text": "Let's jump straight into a demo. I'm here in the business central admin center um looking at my sandbox environment and just as before I can click apps in the top here to get a list of my apps. What's new here is that there's now a drop down."
+    },
+    {
+      "t": 33.8,
+      "end": 44.7,
+      "text": "So whereas before we would only show global apps, we can now also see PTEES and dev extensions. So let's have a look at PTEES. You can see here that that in my tenant right now there's one PTE."
+    },
+    {
+      "t": 44.7,
+      "end": 55,
+      "text": "Uh if you would have more, they would all be showing here and you can uninstall them straight from here as well. Um going back to the global apps, you also notice that there's a new uninstall action for these apps."
+    },
+    {
+      "t": 55,
+      "end": 65.7,
+      "text": "So for the apps that can be uninstalled, which is almost all of them with exceptions, just as base app, um you can now click uninstall and um decide to uninstall this app straight from the admin center."
+    },
+    {
+      "t": 65.7,
+      "end": 76.9,
+      "text": "For apps that don't have any dependencies, you simply choose whether you want to keep the application data or not. So if I choose yes, the extension would be uninstalled and also the data would be deleted."
+    },
+    {
+      "t": 76.9,
+      "end": 91.7,
+      "text": "If I uh leave this then the data would remain so that I can um use it should I reinstall this extension at a later point. What's also new here is that if I'm uninstalling an app that has dependencies, I can now see those dependencies right in the admin center."
+    },
+    {
+      "t": 91.7,
+      "end": 104,
+      "text": "So for example here I have the E document core app which is three apps that depend on it. Uh meaning that I cannot uninstall this app without uninstalling these three as well. So you're warned that this will happen if you uninstall this app."
+    },
+    {
+      "t": 104,
+      "end": 114.6,
+      "text": "Again, I can choose to delete the application, yes or no. Um, and then I can confirm that I'm okay with uninstalling all the dependent apps along with the app that I intended to uninstall."
+    },
+    {
+      "t": 114.6,
+      "end": 129.8,
+      "text": "That concludes the demo of viewing the um PTEES in the admin center. Um, there's a few things that are good to know as we're shipping this functionality. Uh, everything that I just demoed in the admin center will also be available in the admin center API from version 2.25."
+    },
+    {
+      "t": 129.8,
+      "end": 143,
+      "text": "Uh specifically, we're introducing a new uninstall requirements endpoint. This is an endpoint that you can use to see which apps would be uninstalled if you decide to uninstall an app that has downstream dependencies."
+    },
+    {
+      "t": 143,
+      "end": 154.4,
+      "text": "And secondly, there's new properties on the app's endpoint. For example, to see um the app type of the app that is returned by this endpoint. That concludes this learning session on the PTS in the admin center."
+    },
+    {
+      "t": 154.4,
+      "end": 158,
+      "text": "Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.23,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.24,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 513
+}

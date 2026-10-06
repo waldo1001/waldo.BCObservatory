@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's New: Customer-Managed Encryption Key (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=b-ixzwDS41c",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:40:14.657Z",
+      "captions": "auto:en-orig",
+      "duration_s": 564
+    },
+    "captioned": {
+      "at": "2026-10-06T18:40:24.836Z",
+      "path": "data/captions/microsoft/b-ixzwDS41c.vtt",
+      "vtt_sha256": "52703d67275a313d4aef25983de83fa34eec5f8697282543ed30465dd41ac048",
+      "segments": 29,
+      "words": 1751,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:52.812Z",
+      "path": "data/extract/video/b-ixzwDS41c.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 8,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.02516
     }
   },
   "input_hash": null,
@@ -20,6 +47,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 244,
     "duration_s": 564,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34600f7deb21222c419c8d623f537016bbd0998a13f3e34a355f7da20f5c6b45"
 }

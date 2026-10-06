@@ -1,0 +1,361 @@
+{
+  "video_id": "bnqxycPzbeI",
+  "item_id": "video/yt-microsoft/bnqxycPzbeI",
+  "title": "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)",
+  "duration_s": 660,
+  "systems": [
+    "sustainability",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "value chain",
+    "transfer orders",
+    "sustainability value entries",
+    "carbon equivalent",
+    "scope 3 emissions",
+    "internal transport",
+    "item emissions",
+    "purchase documents",
+    "assembly orders",
+    "production orders"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sustainability and Value Chain Extension",
+      "t_start": 0,
+      "t_end": 56.8
+    },
+    {
+      "title": "Sustainability Value Entries and Feature Status",
+      "t_start": 56.8,
+      "t_end": 93
+    },
+    {
+      "title": "Scope 3 Emissions Impact from Transfer Orders and Assembly",
+      "t_start": 93,
+      "t_end": 143.1
+    },
+    {
+      "title": "Transfer Orders for Internal Transport Emissions",
+      "t_start": 143.1,
+      "t_end": 204.7
+    },
+    {
+      "title": "Posting and Sustainability Value Entry Details",
+      "t_start": 204.7,
+      "t_end": 262.2
+    },
+    {
+      "title": "Enabling Value Chain Tracking in Setup",
+      "t_start": 262.2,
+      "t_end": 313.1
+    },
+    {
+      "title": "Item Card Emissions and Purchase Document Integration",
+      "t_start": 313.1,
+      "t_end": 382.6
+    },
+    {
+      "title": "Posting Behavior and Sustainability Value Entry Details",
+      "t_start": 382.6,
+      "t_end": 450.9
+    },
+    {
+      "title": "Transfer Order Emissions Entry and Posting",
+      "t_start": 450.9,
+      "t_end": 538.2
+    },
+    {
+      "title": "Sustainability Value Entry Results and Item Card Updates",
+      "t_start": 538.2,
+      "t_end": 660
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability Value Entries",
+      "description": "New capability to track emissions similar to how costs are tracked with standard value entries. Supports inbound emissions from items at present, with plans to extend to item charges in the next wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.7,
+      "t_end": 110.5,
+      "is_demoed": true,
+      "caveats": [
+        "Item charges not yet supported",
+        "Limited to average costing method currently",
+        "Missing print functionality for sales invoice in this release"
+      ],
+      "tags": [
+        "sustainability",
+        "emissions",
+        "value entries",
+        "scope 3"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Value Chain Tracking in Transfer Orders",
+      "description": "Enables tracking of internal transport emissions through transfer orders by adding carbon equivalent fields. Calculates emissions per unit when posting transfer shipments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.1,
+      "t_end": 227.9,
+      "is_demoed": true,
+      "caveats": [
+        "Works with carbon equivalent only",
+        "Emissions not shown in posted transfer receipt, only in posted transfer shipment",
+        "Limited to internal transport use case",
+        "Entry required at line level, not header level"
+      ],
+      "tags": [
+        "transfer orders",
+        "carbon equivalent",
+        "internal transport",
+        "emissions tracking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Emissions from Production and Assembly Orders",
+      "description": "Extension allows tracking of emissions impact from production orders and assembly orders to calculate new sustainability values for finished goods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.5,
+      "t_end": 130.6,
+      "is_demoed": false,
+      "caveats": [
+        "Feature is part of public preview",
+        "Details not fully demonstrated in this session"
+      ],
+      "tags": [
+        "production orders",
+        "assembly orders",
+        "emissions",
+        "finished goods"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Sales Invoice Emissions Display",
+      "description": "Sustainability values including total emissions are displayed on sales invoices and posted sales invoices without print functionality in this release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.5,
+      "t_end": 143.1,
+      "is_demoed": false,
+      "caveats": [
+        "Print functionality not available in this release"
+      ],
+      "tags": [
+        "sales invoice",
+        "emissions",
+        "display"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Value Chain Tracking Setup",
+      "description": "New setup field in Sustainability Setup under Procurement fast tab to enable value chain tracking. When enabled, causes system to post both sustainability ledger entries and sustainability value entries.",
+      "status": "preview",
+      "status_evidence_t": 274.6,
+      "status_evidence_quote": "this is in public preview.",
+      "status_evidence_verified": true,
+      "t_start": 262.2,
+      "t_end": 313.1,
+      "is_demoed": true,
+      "caveats": [
+        "Feature is public preview",
+        "Recommendation to test in sandbox first",
+        "Displays warning message when enabled"
+      ],
+      "tags": [
+        "setup",
+        "sustainability",
+        "configuration",
+        "public preview"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Item Card Emissions Fields",
+      "description": "Item card now shows emissions fields for CO2, methane, and nitrous oxide. Users can enter manual values and calculate CO2 equivalent, or values are automatically updated from purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 313.1,
+      "t_end": 370.6,
+      "is_demoed": true,
+      "caveats": [
+        "Manual entry required if no prior purchase history"
+      ],
+      "tags": [
+        "item card",
+        "emissions",
+        "co2",
+        "manual entry"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Automatic Emission Updates from Purchase Documents",
+      "description": "When purchase invoice is posted, sustainability value entries are automatically created and item emissions are updated with actual values from the purchase document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.1,
+      "t_end": 414,
+      "is_demoed": true,
+      "caveats": [
+        "Only posts sustainability value entry if value chain tracking is enabled"
+      ],
+      "tags": [
+        "purchase documents",
+        "automatic update",
+        "sustainability ledger"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sustainability Ledger Entry vs Value Entry Posting",
+      "description": "System behavior differs based on whether value chain tracking is enabled. When enabled, both sustainability ledger entry and sustainability value entry are posted. Without enabling, only sustainability ledger entry is posted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.6,
+      "t_end": 414,
+      "is_demoed": true,
+      "caveats": [
+        "Behavior depends on setup configuration"
+      ],
+      "tags": [
+        "posting",
+        "ledger entries",
+        "value entries",
+        "conditional"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Value Entry",
+      "t": 69.7
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry",
+      "t": 414
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 81.4,
+      "text": "Now we have sustainability value entry. What we have there? We have inbound emissions in this moment only from items.",
+      "why_it_matters": "Clarifies the current scope limitation - only items are supported, not item charges, which will come later.",
+      "check": "exact"
+    },
+    {
+      "t": 93,
+      "text": "So this is the completed functionality value chain is in this moment public review.",
+      "why_it_matters": "Establishes that this entire feature set is in public preview, not generally available, and will be extended in the next wave.",
+      "check": "exact"
+    },
+    {
+      "t": 143.1,
+      "text": "So this is something what you will get. Okay let's see how it works with transfer orders first what I want to emphasize it",
+      "why_it_matters": "Key design decision that the feature converts all three greenhouse gas emissions to carbon equivalent for tracking purposes.",
+      "check": "exact"
+    },
+    {
+      "t": 156.3,
+      "text": "So system will calculate whatever you enter all three gas emissions system will automatically calculate to carbon equivalent and all these future tracking with",
+      "why_it_matters": "Core design principle: all emission tracking is normalized to carbon equivalent for consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 217,
+      "text": "What is important when you post you will not get uh emissions information in both of posted documents in posted transfer uh shipment receipt.",
+      "why_it_matters": "Important limitation: emissions appear only in posted transfer shipment, not in posted transfer receipt.",
+      "check": "exact"
+    },
+    {
+      "t": 227.9,
+      "text": "in this moment in this way we are limited only on average method in the future we will see on your",
+      "why_it_matters": "States that costing method support is limited to average method in this release, with potential for future expansion.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 274.6,
+      "text": "When you enable this value chain tracking field, you will get warning message. Why warning message? Because again this is in public preview.",
+      "why_it_matters": "Reinforces preview status and recommends testing in sandbox before production use.",
+      "check": "exact"
+    },
+    {
+      "t": 382.6,
+      "text": "when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here",
+      "why_it_matters": "Explains conditional posting behavior based on whether value chain tracking is enabled in setup.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 93,
+      "kind": "preview",
+      "text": "value chain is in this moment public review."
+    },
+    {
+      "t": 93,
+      "kind": "coming-later",
+      "text": "This is something what will come next wave. So this is the completed functionality value chain is in this moment public review. item charge"
+    },
+    {
+      "t": 130.6,
+      "kind": "not-in-this-release",
+      "text": "In this moment we do not have print print out for sales invoice"
+    },
+    {
+      "t": 217,
+      "kind": "not-in-this-release",
+      "text": "when you post you will not get uh emissions information in both of posted documents in posted transfer uh shipment receipt."
+    },
+    {
+      "t": 248.2,
+      "kind": "preview",
+      "text": "in this moment in this way we are limited only on average method in the future we will see on your feedback if you want to extend to different method"
+    },
+    {
+      "t": 274.6,
+      "kind": "preview",
+      "text": "this is in public preview. So our suggestion will be first try it test it in your sandbox environment."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026742000000000002
+    }
+  ]
+}

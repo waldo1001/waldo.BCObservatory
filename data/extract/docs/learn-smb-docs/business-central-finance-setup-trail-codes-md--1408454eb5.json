@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-trail-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-trail-codes",
+  "title": "Set Up Codes for Audit Trails",
+  "blob": "ef6031bcfc8fb98e96bde40a8891af6b1bca3325",
+  "summary": "Set Up Codes for Audit Trails describes how to define and use source codes and reason codes to track the origin and reason for journal entries and document postings.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "audit trails",
+    "source codes",
+    "reason codes",
+    "entry tracking",
+    "posting origin"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    },
+    {
+      "type": "page",
+      "name": "Source Codes"
+    },
+    {
+      "type": "page",
+      "name": "Reason Codes"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "source code assignment",
+    "reason code assignment",
+    "journal templates",
+    "entry tracing",
+    "posting type codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-inventory-items-in-assemble-to-order-flows",
+  "title": "Sell Inventory Items in Assemble-to-Order Flows",
+  "blob": "151abdde483896aec3fc014f8ee95307ca5339a7",
+  "summary": "Selling Inventory Items in Assemble-to-Order Flows explains how to sell inventory items that are configured as assemble-to-order items by reducing the assembly quantity and reserving the available inventory.",
+  "systems": [
+    "sales",
+    "assembly",
+    "inventory"
+  ],
+  "topics": [
+    "assemble-to-order",
+    "inventory items",
+    "sales orders",
+    "quantity management",
+    "reservation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Line Details"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    }
+  ],
+  "features": [
+    "qty. to assemble to order",
+    "sales line details",
+    "inventory availability",
+    "item reservation",
+    "assembly policy"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

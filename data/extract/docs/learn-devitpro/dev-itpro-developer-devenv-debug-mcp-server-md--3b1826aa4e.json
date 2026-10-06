@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-debug-mcp-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-mcp-server",
+  "title": "Troubleshooting MCP Server for AL",
+  "blob": "896985f8cc8782423e0ac7a9bb64d6f5ce9ad8b8",
+  "summary": "Troubleshooting MCP Server for AL describes how to use the AI-powered Model Context Protocol Server to analyze AL runtime errors, call stacks, and variables during debugging sessions with GitHub Copilot.",
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "debugging",
+    "mcp server",
+    "al code",
+    "copilot",
+    "runtime errors",
+    "call stack"
+  ],
+  "objects": [],
+  "features": [
+    "stack frame analysis",
+    "variable inspection",
+    "source code retrieval",
+    "breakpoint management",
+    "error analysis",
+    "github copilot integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

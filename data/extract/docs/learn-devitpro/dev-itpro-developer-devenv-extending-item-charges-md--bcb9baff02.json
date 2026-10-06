@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-item-charges.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-item-charges",
+  "title": "Extending Item Charges Distribution Methods",
+  "blob": "8d90a9924c6a1f364c08d44ed2f0a5378462a334",
+  "summary": "Extending Item Charges Distribution Methods describes how to add custom distribution methods for item charges in purchase and sales documents by subscribing to events in Item Charge Assignment codeunits.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "item charges",
+    "distribution methods",
+    "extension",
+    "events",
+    "freight costs"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item Charge Assgnt. (Purch.)"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Charge Assgnt. (Sales)"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Charge Assignment (Purch)"
+    }
+  ],
+  "features": [
+    "distribution methods",
+    "event subscribers",
+    "charge assignment",
+    "equally distribution",
+    "by amount distribution",
+    "by weight distribution",
+    "by volume distribution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005911,
+      "pages_in_call": 8
+    }
+  ]
+}

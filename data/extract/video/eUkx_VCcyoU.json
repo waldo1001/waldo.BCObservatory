@@ -1,0 +1,621 @@
+{
+  "video_id": "eUkx_VCcyoU",
+  "item_id": "video/yt-microsoft/eUkx_VCcyoU",
+  "title": "What's New: AL Language (2025 release wave 1)",
+  "duration_s": 886,
+  "systems": [
+    "development",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "resources",
+    "pages",
+    "reports",
+    "strings",
+    "json",
+    "yaml",
+    "testing",
+    "http client",
+    "call stack"
+  ],
+  "chapters": [
+    {
+      "title": "Move of Fields and Tables Between Applications",
+      "t_start": 0,
+      "t_end": 46.1
+    },
+    {
+      "title": "Resources in Apps - Enhancements and Limits",
+      "t_start": 46.1,
+      "t_end": 224.4
+    },
+    {
+      "title": "Page Extensions and User Control Host Page Type",
+      "t_start": 224.4,
+      "t_end": 285
+    },
+    {
+      "title": "Report Enhancements - Tooltips, Excel Layouts, and Triggers",
+      "t_start": 285,
+      "t_end": 401.9
+    },
+    {
+      "title": "Report Preview and View from Stream",
+      "t_start": 401.9,
+      "t_end": 467.6
+    },
+    {
+      "title": "String Handling - Negative Numbers, Call Stack, Continue Keyword, and Multi-line Strings",
+      "t_start": 467.6,
+      "t_end": 559.9
+    },
+    {
+      "title": "Text and JSON Object Improvements",
+      "t_start": 559.9,
+      "t_end": 704.8
+    },
+    {
+      "title": "Role Explorer Inheritance and Teaching Tips",
+      "t_start": 704.8,
+      "t_end": 801.4
+    },
+    {
+      "title": "Testing Enhancements and HTTP Client Handling",
+      "t_start": 801.4,
+      "t_end": 886
+    }
+  ],
+  "features": [
+    {
+      "name": "Move To and Move From Properties",
+      "description": "Ability to move fields and tables between applications using move to and move from properties on tables and fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.6,
+      "t_end": 46.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fields",
+        "tables",
+        "applications"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resources in Apps",
+      "description": "Resources in apps has been opened up for everyone to use with support for files in a resource root folder specified in app.json.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.1,
+      "t_end": 204.3,
+      "is_demoed": true,
+      "caveats": [
+        "Single resource max 16 MB",
+        "All resources max 250 MB",
+        "Resource name max 250 characters",
+        "Max 256 resources per app"
+      ],
+      "tags": [
+        "resources",
+        "configuration files",
+        "storage limits"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "List Resources Function",
+      "description": "Function that allows you to list resources with simple pattern matching to find resources in folders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 97,
+      "t_end": 118.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "pattern matching",
+        "filtering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Get Resource as Text and Get Resource as Json",
+      "description": "Functions to retrieve resource content as text or JSON objects, with encoding support and default value handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.1,
+      "t_end": 158.9,
+      "is_demoed": true,
+      "caveats": [
+        "Encoding specification needed for proper output",
+        "Default encoding is MS DOS"
+      ],
+      "tags": [
+        "resources",
+        "text",
+        "json",
+        "encoding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Override Card Page ID",
+      "description": "Ability to override the card page ID on pages, useful when there is no card page ID or when it needs updating.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 224.4,
+      "t_end": 244.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pages",
+        "card pages",
+        "overrides"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User Control Host Page Type",
+      "description": "New page type that allows you to create a page with a full user control inside and nothing else, useful for PowerBI reports or browsers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 244.7,
+      "t_end": 301.2,
+      "is_demoed": true,
+      "caveats": [
+        "Still working on limitations",
+        "Only one user control allowed",
+        "Cannot have actions on the user control"
+      ],
+      "tags": [
+        "pages",
+        "user controls",
+        "ui"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report Tooltips",
+      "description": "Tooltips added to reports that provide insight into what the report is about and can be inherited by page actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 301.2,
+      "t_end": 321.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "tooltips",
+        "page actions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Layout Multiple Data Sheets",
+      "description": "Property that allows splitting data items into multiple sheets in Excel reports instead of combining all data in one sheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 321.3,
+      "t_end": 381.6,
+      "is_demoed": true,
+      "caveats": [
+        "Property can be overridden in report layouts"
+      ],
+      "tags": [
+        "reports",
+        "excel",
+        "layouts",
+        "data sheets"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Obsolete Report Layouts",
+      "description": "Ability to obsolete report layouts, allowing you to deprecate layouts that do not use new properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 381.6,
+      "t_end": 401.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "layouts",
+        "deprecation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Pre-rendering and Post Report Triggers",
+      "description": "New triggers on pre-rendering and on post report that provide additional control over report generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.9,
+      "t_end": 416.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "triggers",
+        "event handling"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Access Target Format in Reports",
+      "description": "Ability to access the target format in reports to change code based on what format is being generated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 416.4,
+      "t_end": 436.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reports",
+        "formats",
+        "generation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "View from Stream",
+      "description": "Ability to preview a report without downloading it first by viewing from stream in the client.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 436.7,
+      "t_end": 467.6,
+      "is_demoed": false,
+      "caveats": [
+        "On-premises can preview specific path",
+        "Supported layouts: list, tall tiles, tiles, analysis"
+      ],
+      "tags": [
+        "reports",
+        "preview",
+        "streaming"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Negative Numbers in Increment String",
+      "description": "Support for using negative numbers in the increment string function.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.6,
+      "t_end": 488.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "strings",
+        "numbers",
+        "functions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Call Stack Function",
+      "description": "Function that allows you to get the current call stack without throwing an exception for troubleshooting purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 488.2,
+      "t_end": 499,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "stack trace",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Continue Keyword",
+      "description": "Keyword to skip the current iteration of a loop and move to the next one, improving code readability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499,
+      "t_end": 519.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "keywords",
+        "loops",
+        "readability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-line Strings",
+      "description": "Ability to create multi-line strings by prefixing with @ symbol to include new lines in the string literal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 529.4,
+      "t_end": 559.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "strings",
+        "multiline",
+        "formatting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "To Text on Simple Types",
+      "description": "Ability to call to text method on simple types without parameters or with invariant parameter for formatting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 559.9,
+      "t_end": 581,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "text",
+        "formatting",
+        "types"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "JSON Object Get Text Method",
+      "description": "Ability to get text directly from JSON objects with simplified access compared to using JsonToken and JsonValue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 581,
+      "t_end": 641.4,
+      "is_demoed": true,
+      "caveats": [
+        "Does not check if property exists",
+        "Can throw exception if property missing",
+        "Can specify default value"
+      ],
+      "tags": [
+        "json",
+        "text",
+        "objects"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "JSON Object Type-specific Get Methods",
+      "description": "Methods to get array, integer, boolean, byte, char and other types directly from JSON objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 641.4,
+      "t_end": 669.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "json",
+        "types",
+        "conversion"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read and Write YAML",
+      "description": "Ability to read and write YAML format in JSON objects for configuration files and user editable scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 669.1,
+      "t_end": 704.8,
+      "is_demoed": false,
+      "caveats": [
+        "Backported to runtime version 143",
+        "BC 25 versions now support read and write from yaml"
+      ],
+      "tags": [
+        "yaml",
+        "json",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "About Title and About Text Inheritance",
+      "description": "Ability to inherit about title and about text properties from reports to role explorer without specifying on actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 704.8,
+      "t_end": 801.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role explorer",
+        "teaching tips",
+        "reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "HTTP Client Handler for Testing",
+      "description": "Handler to intercept outbound HTTP requests in tests to avoid calling external services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 801.4,
+      "t_end": 844.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not recommended for production use"
+      ],
+      "tags": [
+        "testing",
+        "http",
+        "mocking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Server Certificate Validation Override",
+      "description": "Ability to disable server certificate validation for testing purposes with local services and self-signed certificates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 824.6,
+      "t_end": 844.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not recommended for production use"
+      ],
+      "tags": [
+        "testing",
+        "certificates",
+        "security"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 46.1
+    },
+    {
+      "type": "other",
+      "name": "JsonToken",
+      "t": 601.1
+    },
+    {
+      "type": "other",
+      "name": "JsonValue",
+      "t": 601.1
+    },
+    {
+      "type": "other",
+      "name": "HTP client",
+      "t": 844.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stephen Belo",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26,
+      "text": "in this release we have opened up for the use of the move to and move from properties on tables and Fields",
+      "why_it_matters": "Marks the GA status of the move to and move from properties for moving fields and tables between applications.",
+      "check": "exact"
+    },
+    {
+      "t": 179,
+      "text": "the new limits for a single resource is 16 mbes the maximum size of all the resources in the entire app is 250 megabytes",
+      "why_it_matters": "Establishes concrete resource size limits that developers need to follow when using resources in apps.",
+      "check": "exact"
+    },
+    {
+      "t": 224.4,
+      "text": "we have added the ability to override the card page ID this can be especially helpful for the scenarios where there is no card",
+      "why_it_matters": "Explains the purpose and use cases for the new card page ID override capability.",
+      "check": "snapped"
+    },
+    {
+      "t": 285,
+      "text": "there are a few limitations that we are still working on but go ahead and try it out to see if it fits your",
+      "why_it_matters": "Indicates that the user control host page type is still in preview with ongoing work on limitations.",
+      "check": "exact"
+    },
+    {
+      "t": 488.2,
+      "text": "we added the call stack function that allows you to get the current callstack without throwing an exception",
+      "why_it_matters": "Describes a key debugging improvement that allows inspection of the call stack without error handling.",
+      "check": "exact"
+    },
+    {
+      "t": 499,
+      "text": "improved readability by introducing the keyword continue this is actually a bc ideas that has now been implemented",
+      "why_it_matters": "Documents the implementation of community-requested continue keyword for loop control and readability.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 684.4,
+      "text": "the read from and write to yaml functionality has been backported to runtime version 143 so if you haven't started already then even the",
+      "why_it_matters": "Specifies that YAML read/write support is available in earlier runtime versions, not just new releases.",
+      "check": "exact"
+    },
+    {
+      "t": 824.6,
+      "text": "we do not recommend you using this in production but for test purposes with connecting to local Services self- signed certificates and so on",
+      "why_it_matters": "Clarifies the intended use case and warnings for the server certificate validation override feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 285,
+      "kind": "preview",
+      "text": "there are a few limitations that we are still working on but go ahead and try it out to see if it fits your needs"
+    },
+    {
+      "t": 824.6,
+      "kind": "other",
+      "text": "we do not recommend you using this in production but for test purposes"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 23
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03927
+    }
+  ]
+}

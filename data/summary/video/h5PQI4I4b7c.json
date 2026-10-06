@@ -1,0 +1,26 @@
+{
+  "video_id": "h5PQI4I4b7c",
+  "item_id": "video/yt-microsoft/h5PQI4I4b7c",
+  "summary": "Shopify Connector metafields in Business Central (2025 release wave 1): synchronizing Shopify metafields for resources such as customers and companies, mapping them through the extensibility model, and importing metafield definitions into the Shopify company card.",
+  "overview": "This two-minute release wave video covers metafields in the Shopify Connector. Metafields are a way to add and store extra information about Shopify resources such as a customer or company. The demo shows importing and viewing metafields in Business Central.\n\nMetafields can be synchronized and managed through the UI or the extensibility model. Developers can map standard or custom fields and related entries in Business Central to Shopify metafields, with code samples in the documentation. Metafield definitions created by administrators in Shopify appear in the Shopify company card, where they can be imported and filled in.",
+  "key_points": [
+    "Metafields store additional information about Shopify resources such as customers or companies and can be synchronized into Business Central.",
+    "Synchronized metafields are non-editable in Business Central because synchronization comes from Shopify.",
+    "For B2B companies, metafield synchronization does not apply to all companies and requires the 'Can update Shopify companies' toggle to be on.",
+    "Developers can map standard or custom fields and related entries in Business Central to Shopify metafields through an extensibility model; code samples are in the documentation.",
+    "Administrators can import metafield definitions, which then show in the Shopify company card page for data entry.",
+    "Only the necessary data needs to be entered when importing metafield definitions."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "45985b9d87deb21797a4f8c6762fa5473a26035ae00b1535de00a80cc2c1b9b6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011264399999999999
+  }
+}

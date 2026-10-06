@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report",
   "published_at": "2026-05-07T03:20:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "644698cc0f9fd25b5101e76fd726edea08b4c315",
       "words": 630,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:57.182Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.150Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.151Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.152Z",
+      "page": false
     }
   },
   "input_hash": "644698cc0f9fd25b5101e76fd726edea08b4c315",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "644698cc0f9fd25b5101e76fd726edea08b4c315"
+  "output_hash": "f8bd05834c5a4486d558fdda44ccf4158b8c9f6d7c2b10a9a8fa4113a844b2d1"
 }

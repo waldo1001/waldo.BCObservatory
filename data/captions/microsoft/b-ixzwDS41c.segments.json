@@ -1,0 +1,158 @@
+{
+  "video_id": "b-ixzwDS41c",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 25.6,
+      "text": "hello everyone and welcome to this business Central lunch event session on the customer managed encryption key um this is a new functionality that uh delivers on a need that we frequently hear from customers with very Advanced uh data governance uh and privacy standards and it's the ability to encrypt your business Central environment database using your own encryption key in your own aure key"
+    },
+    {
+      "t": 25.6,
+      "end": 46.1,
+      "text": "fold let's start with a demo of how to set this up right away um and to start we need to set up a key vault in the Azure portal so we go to create a resource choose to create a new key Vault and fill in the basic properties on this page so for our purposes what's important is that we pick um a name for the key Vault"
+    },
+    {
+      "t": 46.1,
+      "end": 66.4,
+      "text": "I'll go with cmk ble for now we pick a region which must match the region of your business C environment so in this case I'm setting it up for Canadian business Central environment so I'm picking the Canada central region and what's also important here is in the bottom the perge protection this must be enabled on key vaults that contain a key um that will be used to encrypt"
+    },
+    {
+      "t": 66.4,
+      "end": 86.6,
+      "text": "your environment database for now I'll skip all the other optional settings um you can use them but they're not required for cmk I'll just review and then create this key volt now that the deployment is complete let's go straight to the resource the KEYT that was just created in Canada Central and navigate to"
+    },
+    {
+      "t": 86.6,
+      "end": 106.8,
+      "text": "the keys to create the key that will in the end be used to encrypt my envir IR database to that I navigate to Keys here then go to generate slimport and uh really only give it a name so all the other default values here uh are sufficient for cmk you can choose to use them but you don't have to um create that key"
+    },
+    {
+      "t": 106.8,
+      "end": 126.9,
+      "text": "I can see the key is here now now that I've created my key uh it's time to make sure that there's a resource that connects the key to my Power Platform environment which then connects to my business en environment and to do that I first need to make sure that the Power Platform resource provider is enabled for my Azure subscription so from the subscription page for my ble subscription here"
+    },
+    {
+      "t": 126.9,
+      "end": 147.1,
+      "text": "I navigate to Resource providers and then I searched for the name microsoft. powerplatform you can see here for this subscription it's already enabled but by default it would not be in that case just s the box and make sure you register it here next it's time to create another resource there will be a custom deployment that connects"
+    },
+    {
+      "t": 147.1,
+      "end": 167.7,
+      "text": "the key to your Power Platform environment and for that I actually create a new resource uh as a template deployment using a custom template so go here click create and I go straight into the template editor when I go into the template editor there's this default mtjs but there's a sample of what you need to create the"
+    },
+    {
+      "t": 167.7,
+      "end": 187.7,
+      "text": "Enterprise policy resource on the Power Platform documentation so you can copy paste from there and replace a few parameters um what's important here is that you give it a description name I'll go with cmk ble policy the Loc must match the location of your Power Platform and your business Central environment in my case Canada um and the ID of the key"
+    },
+    {
+      "t": 187.7,
+      "end": 208.5,
+      "text": "here most match the ID of the key resource that contains the key with which you want to encrypt your database so in my case this is the key that I just created um and the key name here is the name of the key that I just created now that all looks good I'll go save I deploy it in Canada Central of course um I'll go to review and create"
+    },
+    {
+      "t": 208.5,
+      "end": 228.5,
+      "text": "all looks good it post devel valtion and I create this resource now that the deployment has completed I navigate straight to the resource and I can see that this Enterprise policy has indeed been created um the next step now is to make sure that the user that will end up setting up cmk in the Power Platform admin Center later on has access to this resource so that they can find it from"
+    },
+    {
+      "t": 228.5,
+      "end": 240.7,
+      "text": "the Power Platform admin Center to do that I go into Access Control here I go into add Ro assignment and I make sure that I select reader"
+    },
+    {
+      "t": 240.7,
+      "end": 257.1,
+      "text": "now that I have selected the the reader role I add a new member in this case I'll use my own admin user but ideally you would use a different user between the setup in Azure and Power Platform so here you would select the user that finishes the setup in the Power Platform admin Center"
+    },
+    {
+      "t": 257.1,
+      "end": 277.2,
+      "text": "later select my admin user review the row assignments and then confirm next I navigate back to the key that I created earlier um cuz in this key I now need to make sure that the Enterprise policy resource I've just created has access to read the"
+    },
+    {
+      "t": 277.2,
+      "end": 297.5,
+      "text": "keys in the KEYT to do that I go to access control here I add a ro assignment I add a ro assignment and I look for the key crypto service encryption user role select that role and then select the managed identity member to assign it to um for manage identity type here you select"
+    },
+    {
+      "t": 297.5,
+      "end": 317.6,
+      "text": "the Power Platform type and then you'll find the resource that you've just created of the uh Enterprise policy I select this manage identity review that it all looks good so I have my Enterprise policy resource here um given it key crypto service encryption user role in the key that"
+    },
+    {
+      "t": 317.6,
+      "end": 337.8,
+      "text": "contains the key that I want to encrypt my environment with I review and assign and then confirm and with assigning this raw assignment to the Enterprise policy I've just created that concludes the setup required in the Azure portal and it's time to move on to the Power Platform admin Center and you can see here I have an environment that is indeed"
+    },
+    {
+      "t": 337.8,
+      "end": 356.8,
+      "text": "in region Canada just like my key and my Enterprise policy and uh also important to mention here is that this is a managed environment so um cmk only works on managed environments to continue setting up cmk on this particular environment I go into security and I choose data and"
+    },
+    {
+      "t": 356.8,
+      "end": 372.9,
+      "text": "privacy and then I choose the customer manag encryption key and you can see here that my user indeed has re permissions to a policy that exist in my Azure uh subscription so I go on select this policy edit the"
+    },
+    {
+      "t": 372.9,
+      "end": 393,
+      "text": "policy and then add an environment to it so you can see here um out of all the environments that are in the same region as that policy there's only one my production environment in Canada as selected and then continue review that this looks good save it then review the warning here which warns me that this will start encrypting"
+    },
+    {
+      "t": 393,
+      "end": 413,
+      "text": "the database right away which may take some time to complete so make sure that you apply this at a time that the environment can be down while it's being encrypted I confirm that that's okay and I can now see on the cmk ble policy details here that my production environment is being encrypted finally now that I've set this up for"
+    },
+    {
+      "t": 413,
+      "end": 434,
+      "text": "my Power Platform environment it's time to set it up for my business Central environment as well um so you can see here I have a production en environment that is in Canada uh but it's not linked to any Power Platform environment business Central environments inherit the cmk setting from their linked by platform environment so to enable this for my business Cal environment it's time to link the environment"
+    },
+    {
+      "t": 434,
+      "end": 447.9,
+      "text": "can see that I'm in need able to link my business Central environment to my production Power Platform environment and that's possible because this environment is not linked to anything else it is also in Canada and it's of the same type so both are production"
+    },
+    {
+      "t": 447.9,
+      "end": 467.9,
+      "text": "environments I confirm that I want to link and I can immediately see that the the linking succeeded and the customer manage encryption key is set so now my business s for envirment is also encrypted using my customer managed encryption key so before you set up cmk there's a few things that are good to know first of all as I've just demoed uh cmk requires a"
+    },
+    {
+      "t": 467.9,
+      "end": 488,
+      "text": "linked Power Platform environment and this has two implications first of all if you unlink your environment after applying cmk your business and for environment will automatically revert to a Microsoft manage encryption key secondly if you copy or restore your environment um while it is encrypted with cmk you create a new environment that will not by default be encrypted with the same key"
+    },
+    {
+      "t": 488,
+      "end": 508,
+      "text": "so after that copy of restore operation completes you'd have to um link it to a new Power Platform environment and apply cmk to That Power Platform environment as well and then finally if you export your environment um you create a backpack file in a storage account and that storage account will be encrypted by default with a Microsoft manage encryption key but of course you can choose"
+    },
+    {
+      "t": 508,
+      "end": 528.3,
+      "text": "to um re Crypt that storage account with your own key as well secondly the linked environment must be a managed environment so as I just showed in the demo the Power Platform environment for which I set this up was a managed environment um and that is required for CK to work to use a managed environment this comes with some uh specific licensing requirements beyond your business Central license"
+    },
+    {
+      "t": 528.3,
+      "end": 548.3,
+      "text": "so before you can set up cmk you need to make sure that you have uh certain Microsoft 365 and Power Platform licensing requirements in place finally in My Demo I used the single user to set this all up but in the real word is important to uh separate the duties in setting this up between different users you'd use a key administrator for all the setup I did in AER portal and then a"
+    },
+    {
+      "t": 548.3,
+      "end": 564,
+      "text": "separate user who's a dynamic 365 administrator or a Power Platform administrator for all the setup I completed in the Power Platform admin Center um that completes this session on cmk thanks for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1751
+}

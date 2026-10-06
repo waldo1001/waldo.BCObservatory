@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use",
   "published_at": "2026-05-06T13:32:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f",
       "words": 1595,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T18:40:57.183Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.005911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:40:59.154Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:40:59.155Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:40:59.156Z",
+      "page": false
     }
   },
   "input_hash": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f",
@@ -72,5 +91,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f"
+  "output_hash": "a4bc4436953e7b6514df19ba73095c4718bb8984efb4f502ca038080447fd28d"
 }

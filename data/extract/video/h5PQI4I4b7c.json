@@ -1,0 +1,167 @@
+{
+  "video_id": "h5PQI4I4b7c",
+  "item_id": "video/yt-microsoft/h5PQI4I4b7c",
+  "title": "What's New in Shopify Connector: Metafields (2025 release wave 1)",
+  "duration_s": 137,
+  "systems": [
+    "integration",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "shopify connector",
+    "metafields",
+    "custom data",
+    "synchronization",
+    "extensibility",
+    "data mapping",
+    "b2b"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Metafields",
+      "t_start": 0,
+      "t_end": 27.1
+    },
+    {
+      "title": "Demo - Importing and Viewing Metafields",
+      "t_start": 27.1,
+      "t_end": 56.6
+    },
+    {
+      "title": "Developer Extensibility and Synchronization",
+      "t_start": 56.6,
+      "t_end": 89.6
+    },
+    {
+      "title": "Metafield Definitions and Data Entry",
+      "t_start": 89.6,
+      "t_end": 105.7
+    },
+    {
+      "title": "Release Summary and Resources",
+      "t_start": 105.7,
+      "t_end": 137
+    }
+  ],
+  "features": [
+    {
+      "name": "Metafields synchronization from Shopify",
+      "description": "Flexible way to add and store additional information about Shopify resources such as customers or companies. Users can synchronize and manage metafields in Business Central via UI or extensibility model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 56.6,
+      "is_demoed": true,
+      "caveats": [
+        "Metafields are non-editable because synchronization is from Shopify",
+        "For B2B companies, synchronization is not for all companies and requires the can update Shopify companies toggle to be on"
+      ],
+      "tags": [
+        "shopify",
+        "metafields",
+        "synchronization",
+        "custom data"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Metafield mapping via extensibility model",
+      "description": "Developers can map standard or custom fields and related entries in Business Central to Shopify metafields using an extensibility model, with code samples available in documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.6,
+      "t_end": 72,
+      "is_demoed": false,
+      "caveats": [
+        "Code samples are available in the documentation"
+      ],
+      "tags": [
+        "extensibility",
+        "mapping",
+        "developer",
+        "metafields"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Metafield definitions display in Shopify company card",
+      "description": "Metafield definitions created by administrators in Shopify are shown in the Shopify company card for easy data entry, with administrators able to import meta field definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 95.6,
+      "t_end": 105.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "metafields",
+        "ui",
+        "data entry",
+        "shopify"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify company card",
+      "t": 95.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "Meta fields are a flexible way to add and store additional information about Shopify resources such as a customer or company.",
+      "why_it_matters": "Defines the core purpose of metafields as a mechanism for extending Shopify data in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 56.6,
+      "text": "Developers can map standard or custom fields and related entries in Business Central to Shopify meta fields using an extensibility model.",
+      "why_it_matters": "Explains the developer extensibility approach for metafield integration, enabling custom mapping scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 72,
+      "text": "These fields are non-editable because synchronization is from Shopify.",
+      "why_it_matters": "Important caveat establishing read-only nature and directional synchronization from Shopify as the source.",
+      "check": "exact"
+    },
+    {
+      "t": 72,
+      "text": "For B2B companies, synchronization is not for all companies and the can update Shopify companies toggle is on.",
+      "why_it_matters": "Key limitation for B2B scenarios establishing conditional synchronization behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 105.7,
+      "text": "In this release, we can import meta field definitions requiring only the input of necessary data.",
+      "why_it_matters": "Establishes that metafield import capability is available in this release with simplified data entry requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010821
+    }
+  ]
+}

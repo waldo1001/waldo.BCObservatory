@@ -1,0 +1,27 @@
+{
+  "video_id": "giNi8WtCX_s",
+  "item_id": "video/yt-microsoft/giNi8WtCX_s",
+  "summary": "Production BOM usability changes in Business Central 2025 release wave 1: document attachments, active version access with a comparison matrix, subassembly display levels, version list with date and status, bulk item selection, Edit in Excel, certification prompt on close, and BOM navigation from the item card.",
+  "overview": "This 2-minute video from the Business Central channel (published 2025-04-01) covers enhancements to the production bill of material in manufacturing. It describes changes to how BOMs and their versions are viewed, edited and certified.\n\nThe demo covers attaching documents to a BOM, opening the active version through the assist edit button, comparing versions, choosing how subassemblies are displayed, editing versions in bulk, and moving from an item card to the main or certified BOM. Feature status is not stated in the facts.",
+  "key_points": [
+    "Production BOMs can have document attachments, for example drawings, specifications or materials needed.",
+    "The assist edit button opens the active version of a production BOM, with a comparison matrix showing the main BOM and available versions.",
+    "Option levels control whether subassemblies show as whole subassemblies or as their individual components.",
+    "The version list page shows the starting date and status of each BOM version.",
+    "When editing a version, the Select items action picks multiple items at once and lets you update quantities for all selected items.",
+    "For large BOMs, the video suggests using Edit in Excel.",
+    "Closing a version page whose status is not certified shows a confirmation dialog."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "39845b9b3a9ce7f2f349a406fe7a083e0580df9c0fea1760e470a8b35c3b0073",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0129344
+  }
+}

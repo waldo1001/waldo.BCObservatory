@@ -1,0 +1,27 @@
+{
+  "video_id": "hS8yWS3bxWE",
+  "item_id": "video/yt-microsoft/hS8yWS3bxWE",
+  "summary": "Business Central 2025 release wave 1 telemetry: five new telemetry types covering financial reporting usage, financial reporting definition changes, client add-in exceptions, server-side certificate validation, and detection of deprecated SOAP calls to UI pages (event RT0053).",
+  "overview": "The video walks through five telemetry types added in 2025 release wave 1, with a demo of each. Two cover financial reporting: who runs reports, and changes to row, column and report definitions. The others cover client add-in exceptions, certificate validation failures in the AL runtime, and calls to UI pages through SOAP web services.\n\nThe SOAP telemetry is meant to help find integrations that must stop using SOAP before it is turned off in a later release. Telemetry samples and documentation are available at aka.ms/bctelemetry.",
+  "key_points": [
+    "Financial reporting usage telemetry records when users run financial reports on screen or from the request page, including row and column definitions. It can support auditing of who runs reports.",
+    "Financial reporting definition changes telemetry covers row, column and report definitions. It captures created, modified, deleted, copied, imported and exported events, including via configuration packages.",
+    "Client add-in errors now appear in the exceptions table, with environment, company, app, object, add-in name, assembly, error message and stack trace from JavaScript errors. This was previously not tracked and focuses on iframe-based add-ins.",
+    "Server-side certificate validation telemetry logs failures when the AL runtime validates a certificate on an HTTP client call. It includes the certificate, endpoint, HTTP method and failure reason.",
+    "Event RT0053 detects calls to UI pages through deprecated SOAP web services. It shows which endpoint is called, not which integration calls it.",
+    "SOAP web services on UI pages will stop working in a later release, so integrations using them need to be found and changed.",
+    "Telemetry documentation is at aka.ms/bctelemetry."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "17f994014d2cc5a531fb33fd25e95441d5d2e32a1ed29838a93f93bf9b38e38f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0145564
+  }
+}
