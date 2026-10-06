@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=z1H6nQCEIeY",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:38:56.052Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1387
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 415,
     "duration_s": 1387,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

@@ -1,0 +1,26 @@
+{
+  "video_id": "8C9JmtHdExM",
+  "item_id": "video/yt-microsoft/8C9JmtHdExM",
+  "summary": "Over receipt codes in Business Central let you receive more than ordered from vendors. Codes carry tolerance percentages, can be set on item cards and vendor cards, and the most restrictive setting wins. A default 10% code applies if nothing else is set.",
+  "overview": "The video explains how to allow over receipt of products in Business Central. Over receipt codes define a tolerance percentage, such as 10% or 20%, that controls how much more than the ordered quantity can be received.\n\nIt demonstrates setting these codes on the item card and on the vendor card (receiving fast tab). It also covers how the most restrictive setting applies when both are set, and the default 10% over receipt code that is pre-selected.",
+  "key_points": [
+    "Over receipt codes allow receiving more products than were ordered from a vendor.",
+    "Each code defines a tolerance percentage, for example 10% or 20%.",
+    "A code can be set on an item card to define tolerance for that specific product.",
+    "A code can be set on a vendor card, in the receiving fast tab, as a general tolerance for items from that vendor.",
+    "When codes are set on both the item and the vendor, the most restrictive setting wins.",
+    "A default over receipt code of 10% is pre-selected, so 10% over receipt is allowed if nothing else is configured."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "59e1825447b14b902bf9e5704dd3ec5b6603f6fbe474c5db62e9192436cf022a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0111324
+  }
+}
