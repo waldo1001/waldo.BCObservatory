@@ -1,0 +1,28 @@
+{
+  "video_id": "auoHUd24Gfw",
+  "item_id": "video/yt-microsoft/auoHUd24Gfw",
+  "summary": "Power Pages on Business Central virtual tables in Dataverse, with multi-company support added in 2024 release wave 1. A Dataverse shared execution variable (BC Company ID), set by a custom plugin, overrides the global and user-specific company settings so each portal can target a different company.",
+  "overview": "The video covers how Power Pages portals can use Business Central data through Dataverse virtual tables. It describes three access scenarios: anonymous read-only access for external users, authenticated access for external users after registration, and authenticated access for internal licensed users. Only the internal scenario requires a Business Central license.\n\nIt then explains the multi-company feature. A custom Dataverse mapping plugin and mapping table set the BC Company ID shared execution variable for a given user, app and portal combination. The demo shows several portals each pointing at a different Business Central company. The speaker notes that Power Pages on virtual tables has been in public preview since 2023 wave 2, and that further documentation will be published after the Business Central launch.",
+  "key_points": [
+    "Anonymous access to Business Central data through Power Pages is read-only and needs no license or sign-in.",
+    "External users who sign in and register also do not need a license. Internal employees must be licensed as for Business Central.",
+    "A virtual table plugin can set the BC Company ID shared execution variable to override both the global and the user-specific company setting.",
+    "The custom mapping plugin must be registered with the plugin registration tool and must intercept at the prevalidation stage.",
+    "The mapping table links a portal ID to a company. Get the portal ID by appending _services/ to the portal URL.",
+    "The plugin is triggered when a portal reads a virtualized table such as Sales Invoice, so each portal always targets its mapped company.",
+    "The demo sets up several Business Central companies and shows different portals each targeting their own company."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "5c097a737d3bb991f02bca489bc8c9f45487c28222a3123fdc6679af902dbfa8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0162524
+  }
+}

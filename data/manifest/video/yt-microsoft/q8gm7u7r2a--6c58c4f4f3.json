@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=-q8Gm7u7R2A",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:52:26.576Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2459
+    },
+    "captioned": {
+      "at": "2026-10-06T19:52:36.259Z",
+      "path": "data/captions/microsoft/-q8Gm7u7R2A.vtt",
+      "vtt_sha256": "521bc414cc7b25d659351e905a476fa982c6c3590ebaacd17f8dcb31275316f3",
+      "segments": 133,
+      "words": 6185,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 451,
     "duration_s": 2459,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "521bc414cc7b25d659351e905a476fa982c6c3590ebaacd17f8dcb31275316f3"
 }

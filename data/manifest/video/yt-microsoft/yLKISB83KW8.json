@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Set Up Your Local Currency (2024)",
   "url": "https://www.youtube.com/watch?v=yLKISB83KW8",
-  "published_at": null,
+  "published_at": "2024-03-04T09:47:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:54:21.505Z",
+      "captions": "auto:en-orig",
+      "duration_s": 108
+    },
+    "captioned": {
+      "at": "2026-10-06T19:54:29.575Z",
+      "path": "data/captions/microsoft/yLKISB83KW8.vtt",
+      "vtt_sha256": "ec1b339b90940393e6c2701b1416c39edb26c34f6f72857330f6b7bcca8b4bb0",
+      "segments": 9,
+      "words": 257,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 458,
     "duration_s": 108,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec1b339b90940393e6c2701b1416c39edb26c34f6f72857330f6b7bcca8b4bb0"
 }

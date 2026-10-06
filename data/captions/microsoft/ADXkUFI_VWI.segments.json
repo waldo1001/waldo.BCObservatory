@@ -1,0 +1,698 @@
+{
+  "video_id": "ADXkUFI_VWI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 8.8,
+      "end": 19.8,
+      "text": "Welcome to the second episode of Under the Hood. So in the first episode we talked about AI and how we develop AI features in Business Central."
+    },
+    {
+      "t": 19.8,
+      "end": 32.2,
+      "text": "And short after we released this episode, we put out a small poll on social media where we asked you what you wanted to hear about in this series that we proposed several topics and the compiler 1."
+    },
+    {
+      "t": 32.2,
+      "end": 52.1,
+      "text": "So today with me I've Espen who is the architect behind the L compiler. But before we get into the details of the inner working on the the L compiler, let's start with a brief history we we we had before the L compiler and VS Code we had Seaside,"
+    },
+    {
+      "t": 52.1,
+      "end": 66.7,
+      "text": "and I'm sure some of you remember Seaside. So Aspen, have you? Have you worked with Seaside? Yes, I have actually worked a lot with Seaside. I have spent most of my time at Microsoft as a part of the NAV team,"
+    },
+    {
+      "t": 66.7,
+      "end": 79.6,
+      "text": "but actually the first thing I did in the NAV team was that I was sent over from the team I worked on, which was the old business Microsoft Business Framework team to help"
+    },
+    {
+      "t": 79.6,
+      "end": 92.6,
+      "text": "creating a prototype of the new client on top of Seaside or what would become the 3T architecture. And we actually produced a video for Steve Balmer, which"
+    },
+    {
+      "t": 92.6,
+      "end": 107.4,
+      "text": "was it felt like a big thing back then and. So there was we had like by then we had like a 2T architecture. Yes, the old C side were two tier. It was a client development environment, everything in one towing directly to the database."
+    },
+    {
+      "t": 107.4,
+      "end": 122.2,
+      "text": "Yeah. So there was no, yeah, that's true. The client and the development environment were in the same in the same. Application exactly. And then when I joined the team, I worked a lot on the server side of it and actually also"
+    },
+    {
+      "t": 122.2,
+      "end": 134.7,
+      "text": "the compilation from the old CL code into the C# code that was the foundation for the new 3T architecture. So C side was written in C, right?"
+    },
+    {
+      "t": 134.7,
+      "end": 144.6,
+      "text": "In, yeah, actually a mix of C&C because. C&C. Yes, it was worse than C and it was."
+    },
+    {
+      "t": 144.6,
+      "end": 159.5,
+      "text": "Well, it has its own memory manager and own error handling, not exception based as you could have done in C So it was a very slow process to develop new features."
+    },
+    {
+      "t": 159.5,
+      "end": 169.9,
+      "text": "And so very costly to add new features. Yes. So there's no doubt that at some stage she side was due for a, you know?"
+    },
+    {
+      "t": 169.9,
+      "end": 181.9,
+      "text": "A modernization or a organization or replacement, yes. But it was hard because we had, so we talked about it many times. Yes, we did. We have those talks over many years."
+    },
+    {
+      "t": 181.9,
+      "end": 188,
+      "text": "The last one I remember was in 2014."
+    },
+    {
+      "t": 188,
+      "end": 198.7,
+      "text": "I think we were a team who was tasked with figuring out what should come next and we actually recently looked at the old conclusions."
+    },
+    {
+      "t": 198.7,
+      "end": 211.8,
+      "text": "Then it was all about speedy delivery, modelized, best of class development environment marketplace. There was a lot of things which actually turned out to be what we have today."
+    },
+    {
+      "t": 211.8,
+      "end": 222.8,
+      "text": "It's all the concepts we. It was a nice vision document back then, but we have no plans of how we would proceed. It was the vision we actually did that year."
+    },
+    {
+      "t": 222.8,
+      "end": 233.6,
+      "text": "And it was also difficult because we have. First of all, on code base is pretty big and rewriting it and and and you know to a new language would be like tremendous effort."
+    },
+    {
+      "t": 233.6,
+      "end": 245.2,
+      "text": "Yes. And also there's a lot of code out there, you know, a lot of partners and millions and millions, a lot of code. And we, we didn't want to disrupt them, right? Exactly So what we looked at the year after was"
+    },
+    {
+      "t": 245.2,
+      "end": 258.4,
+      "text": "I I built a small prototype and it was actually shown at Tech Days in 2015 by from Saisburg and it was essentially a small Winforms app where we loaded"
+    },
+    {
+      "t": 258.4,
+      "end": 272,
+      "text": "in a TXT file from export if I think the safe post code unit and you could make changes to it and it instantly gave passing diagnostics in the UI."
+    },
+    {
+      "t": 272,
+      "end": 282.1,
+      "text": "It was most of all a nice picture of what could be a compiler someday. It was not. It was pretty far from what we needed."
+    },
+    {
+      "t": 282.1,
+      "end": 297.2,
+      "text": "OK. But then you had, you had this brilliant idea how to transition from, you know, having these large codebase including our own, including our base app and but also the, you know, the the panel code was how we could transition from that to A to a new model,"
+    },
+    {
+      "t": 297.2,
+      "end": 313.4,
+      "text": "a new development environment. Yeah. And in the beginning it was. I mean the brilliant idea come out of necessity because we had, I mean our base app is so big and we knew that it will take years before we were actually able to compile it."
+    },
+    {
+      "t": 313.4,
+      "end": 329.6,
+      "text": "So we had to figure out how we could start working with this, get feedback. So the idea was that because we have decided that our new language would be modulized so we knew that we would introduce dependencies between modules."
+    },
+    {
+      "t": 329.6,
+      "end": 342.3,
+      "text": "And we have already created a format for that which were the reference symbol information that we store on the top in in the app files. And the idea was that we could just use Seaside"
+    },
+    {
+      "t": 342.3,
+      "end": 352.3,
+      "text": "to create a similar symbolic symbolic format and based on the base app. But now we have what is needed for AL to work on top."
+    },
+    {
+      "t": 352.3,
+      "end": 363.5,
+      "text": "So kind of wrapping it in something that would look like So from the outside it would look like it was the new code, but underneath it was the old code and then we could start working on top of that with the new tools, right?"
+    },
+    {
+      "t": 363.5,
+      "end": 377.8,
+      "text": "Exactly. And that allows us to ship early previews of it. And we did that for a couple of years, and the initial one was only we could create simple code units, simple tables, pages."
+    },
+    {
+      "t": 377.8,
+      "end": 388.8,
+      "text": "And then we also introduced table extensions and page extensions for that, so you could already there. We wanted to promote the new model. With so you could write extensions already."
+    },
+    {
+      "t": 388.8,
+      "end": 399.9,
+      "text": "Our partners could write extensions. We also had a few third first party extension I believe, but our own code base didn't compile yet with the new tool. No, and it it took a couple of years."
+    },
+    {
+      "t": 399.9,
+      "end": 412.6,
+      "text": "In 2019, in wave two, we shipped the first AL compiler without the preview mark on it, and then at that time we could compile all our objects."
+    },
+    {
+      "t": 412.6,
+      "end": 429.6,
+      "text": "We could do most, but we haven't converted our own pay set yet. It took another year because we have an insane amount of dependencies on how we did stuff internally, so it took another year before we could actually ship completely without."
+    },
+    {
+      "t": 429.6,
+      "end": 443.5,
+      "text": "So, so let's go really under the hood now. So when when you started working on this new compiler, we needed an architecture. Yes. And I think we 2015 was the perfect storm for"
+    },
+    {
+      "t": 443.5,
+      "end": 455.3,
+      "text": "this because C# the year before has actually released Rosslyn. They have gone through some of the similar thought processes even though they were a better starting point than us."
+    },
+    {
+      "t": 455.3,
+      "end": 466.6,
+      "text": "So Rosslyn was the new C# compiler. Like a totally new rewritten compiler actually, wasn't it? Exactly. Actually the original C# compiler was written in, I guess C++ and something like that."
+    },
+    {
+      "t": 466.6,
+      "end": 479.2,
+      "text": "Just like us. Just like us and they moved to C#. So it's basically compiling yourself approach, but that was a smaller part of it. The more important part was that they realized that they already have a."
+    },
+    {
+      "t": 479.2,
+      "end": 490.1,
+      "text": "They have one compiler for a command line and almost a similar compiler that were used inside Visual Studio to provide intellisense and all that."
+    },
+    {
+      "t": 490.1,
+      "end": 505.3,
+      "text": "And they merged that into one and or a componentized solution where they could use the compiler as a service. So the same compiler, the same base part of the compiler that serves the command line compilation is also the"
+    },
+    {
+      "t": 505.3,
+      "end": 516.4,
+      "text": "one that constantly runs in the background and provides intellisense, cross references. All the things we like to have in a modern environment. That's the was lean architecture."
+    },
+    {
+      "t": 516.4,
+      "end": 527.4,
+      "text": "Yes, that was the architecture We also, I mean took a great deal of inspiration from because. I mean, so you looked at it and say, OK, that's that's a good idea. That's a really good idea."
+    },
+    {
+      "t": 527.4,
+      "end": 538.4,
+      "text": "We want to have that as well. Yes, let's. Do some. So we just to be clear, we we didn't reuse any of the code, did we? Not such. Not we just use the architecture."
+    },
+    {
+      "t": 538.4,
+      "end": 549.9,
+      "text": "It's not Roslyn, but we have moved a lot of the concepts out of the Roslyn code base because we are not. We're not a true.net language, so we couldn't just build."
+    },
+    {
+      "t": 549.9,
+      "end": 563.1,
+      "text": "I mean Rosslyn already contains the b.net C# and also F# based on the same core libraries, but it's they are all true.net languages and we are not."
+    },
+    {
+      "t": 563.1,
+      "end": 574.1,
+      "text": "So we pulled out the stuff we needed, augmented it and built a lot more on top in in some sense because we have way more concepts than C# for"
+    },
+    {
+      "t": 574.1,
+      "end": 585.1,
+      "text": "instance. So in some some sense we are more complicated because we have I mean 7-8 top level symbols where C#"
+    },
+    {
+      "t": 585.1,
+      "end": 595.5,
+      "text": "have class enum stroked. So we have pages tables. Exactly. So we have a lot more differences in our in"
+    },
+    {
+      "t": 595.5,
+      "end": 610,
+      "text": "our. Version. So you talked about the perfect storm. You meant sorry. By that you meant there was a Ross link compiler. And also Visual Studio Code 1. When we pitched the original one in 2015, Visual Studio"
+    },
+    {
+      "t": 610,
+      "end": 622.3,
+      "text": "Code was in version 0.6 and was very immature but very promising and we decided to bet on that and it fit also very nicely with."
+    },
+    {
+      "t": 622.3,
+      "end": 634.7,
+      "text": "With the Rosslyn architecture we we we used and before that we actually if we have started out coding the year before we wouldn't have probably done it right."
+    },
+    {
+      "t": 634.7,
+      "end": 647.2,
+      "text": "But this time we, I mean we have these two great components to lean against and it it's a really, really nice architecture. Just to be clear on one end, there's the worst link compiler, the worst link architecture, Yes, And."
+    },
+    {
+      "t": 647.2,
+      "end": 660.8,
+      "text": "But it has nothing to do actually with Visual Studio Code. It's just an independent architecture, Yes. Actually when we when you run, when you compile, say from the command line, it goes through this pipeline, this"
+    },
+    {
+      "t": 660.8,
+      "end": 672.8,
+      "text": "architecture, yes. And it's totally independent Visual Studio Code, right. Exactly. But you call it the perfect storm, because on one hand we had this great development environment, which Visual Studio"
+    },
+    {
+      "t": 672.8,
+      "end": 687.6,
+      "text": "Code is, and then the Roseland architecture. So we took inspiration from one and build it into the other. And then that's how the new tool set was born. Yes, and we knew that Visual Studio Code was an early beta at that point,"
+    },
+    {
+      "t": 687.6,
+      "end": 705.1,
+      "text": "but we also realized that we could easily repurpose A compiler to another environment if we had to. But turned out that best decision ever to bet on Visual Studio Code because it's have turned out to be the gift that keeps on giving for us."
+    },
+    {
+      "t": 705.1,
+      "end": 717.5,
+      "text": "We get new features every year or every month and we can easily adopt to them, so. Yeah, there's a lot of advantages of being in Visual Studio Code. Has a lot of. Leverage all the all the things that it offers."
+    },
+    {
+      "t": 717.5,
+      "end": 731.5,
+      "text": "And that allows us to focus on what is important for us, which is our language, the concepts that we need for the platform, rather than inventing a lot of"
+    },
+    {
+      "t": 731.5,
+      "end": 743.8,
+      "text": "UI for showing intelligence and all that. Things like that, yeah, we get most of that for free. So you mentioned the that we have a language service"
+    },
+    {
+      "t": 743.8,
+      "end": 755.6,
+      "text": "as part of it, which is kind of what the roles in architecture also has. So how is that a good thing? Why do we need a language service?"
+    },
+    {
+      "t": 755.6,
+      "end": 766.1,
+      "text": "We need a language service because modern developers actually expect to be able to get into the sense get information about the symbols in the editor."
+    },
+    {
+      "t": 766.1,
+      "end": 777.8,
+      "text": "So whenever you type, we need the compiler to run instantly in the background. But that's what the language service does. Yes, exactly So it has the set of all files,"
+    },
+    {
+      "t": 777.8,
+      "end": 783.4,
+      "text": "and it constantly provides a new compilation that."
+    },
+    {
+      "t": 783.4,
+      "end": 793.6,
+      "text": "Even partial compilations. Even partial comp. Typically when you type, by definition you are you know it's like you've written half of the code, you or less, and then typically doesn't compile."
+    },
+    {
+      "t": 793.6,
+      "end": 804.7,
+      "text": "Most of the time when you're in the compiler, what you have written in your it does not compile exactly, so it requires. It requires the background compilation to be able to do some partial."
+    },
+    {
+      "t": 804.7,
+      "end": 825.2,
+      "text": "Compilations for the utilis and something like that would be good at recovery. That's actually one of the harder parts because it's. I mean, it's textbook to create a compiler that has a perfect source, but but having a source where you are typing something in the middle but you would still like to have intellisense for what comes after means that"
+    },
+    {
+      "t": 825.2,
+      "end": 842.2,
+      "text": "you need to do recovery. And another important aspect of that is also that when you only make more changes, you don't want to repass everything, you want to reuse as much as possible to be memory efficient in the background compilation."
+    },
+    {
+      "t": 842.2,
+      "end": 857.5,
+      "text": "Yeah, so it's you have good performance and a good experience as a developer. And that's actually one of the places where we really benefited from what we got from Roslyn, because it's helped us be efficient there."
+    },
+    {
+      "t": 857.5,
+      "end": 868.2,
+      "text": "And the language services also an integral part of Visual Studio Code and how they envision that you extend Visual Studio Code with other languages."
+    },
+    {
+      "t": 868.2,
+      "end": 879.7,
+      "text": "So that's the architecture they recommend if you want to implement a new language. Yes, and they actually invented what is called the Language Service Protocol exactly for this."
+    },
+    {
+      "t": 879.7,
+      "end": 885.9,
+      "text": "And it's a description of the communication between an editor"
+    },
+    {
+      "t": 885.9,
+      "end": 897.3,
+      "text": "and between languages. And the idea is that as long as you adhere to the LSP, you can replace languages or you can replace a sense."
+    },
+    {
+      "t": 897.3,
+      "end": 914.4,
+      "text": "That's actually a standard of an open source protocol, isn't. It it is an open source protocol and it's very efficient and it it's it's they come often come with new additions to it that we can then uptake and we can add support for that in our language server."
+    },
+    {
+      "t": 914.4,
+      "end": 927.2,
+      "text": "So we suddenly support new features invented in Visual Studio Code. So when when we, when we started modernizing the old development environment and and starting you know, kind of revamping"
+    },
+    {
+      "t": 927.2,
+      "end": 941.2,
+      "text": "the language, we we could have chosen an existing language like we could have chosen, I don't know, TypeScript, JavaScript or even Python. Then we wouldn't have had to write a, a a compiler because there are compilers out there that."
+    },
+    {
+      "t": 941.2,
+      "end": 952.9,
+      "text": "So why? Why? Why didn't we do that? Oh, there's a couple of reasons, and one of the reasons is that we we we need a sandbox language."
+    },
+    {
+      "t": 952.9,
+      "end": 965.6,
+      "text": "Since we are running third party code on our servers, we need something that we could control to the. Security reasons, for example. Yes, so. So we it's not an option for us to go directly to dot net."
+    },
+    {
+      "t": 965.6,
+      "end": 983.3,
+      "text": "We need to somehow use the language as a barrier or having a trusted runtime for it that that was one of the reasons. The other reason is that we have, I mean we could go through the process of converting our own pace"
+    },
+    {
+      "t": 983.3,
+      "end": 997.6,
+      "text": "to any language potentially it. That's still a lot of work. Still a lot of work and the result may not be as easy to work with and actually would end up not having the same connection between data and metadata"
+    },
+    {
+      "t": 997.6,
+      "end": 1008.8,
+      "text": "that we have. I mean we have the which is rather unique in my opinion. You can. You can stand on a table field and you can get cross references for all the places where it's used."
+    },
+    {
+      "t": 1008.8,
+      "end": 1019.8,
+      "text": "This is a language that's been written for for ERP and for Business Central. Exactly. But the most important part of this was that our entire partner channel have invested in this language."
+    },
+    {
+      "t": 1019.8,
+      "end": 1034.4,
+      "text": "So we actually have gone through great work to preserve as much of their IP as possible in the process. We know that from time to time, yes, we have asked our channel to make changes."
+    },
+    {
+      "t": 1034.4,
+      "end": 1052.7,
+      "text": "We don't like it and we know that they definitely don't like it. We do have breaking changes, but. We do have. We do what we can to preserve. I mean if you look at the whole history of of of NAV and Business Central, we've went through a lot of efforts to preserve this code base throughout all these years."
+    },
+    {
+      "t": 1052.7,
+      "end": 1063.4,
+      "text": "Maybe that could be the topic of another under the hood talks, actually. Yeah, it is actually something we have spent a lot of time on over the years, yes."
+    },
+    {
+      "t": 1063.4,
+      "end": 1074.4,
+      "text": "So you you said that that we're not a AL is not a true NET language. However, the L compiler is not is not exactly compiler."
+    },
+    {
+      "t": 1074.4,
+      "end": 1088.6,
+      "text": "We're not compiling in the pure sense of the word, meaning we're not producing executable bytes and bits and bytes and artifacts that can that can be executed directly on the on on the operating system."
+    },
+    {
+      "t": 1088.6,
+      "end": 1100.3,
+      "text": "We it's more of a transpire, right? We are converting AL to C#. Is that a good idea? Yes, I think for us it is we, we this is what we did originally in C side."
+    },
+    {
+      "t": 1100.3,
+      "end": 1112.2,
+      "text": "So C side did the same thing. Yes, C side did the same thing. And when we started out, we we couldn't also take upon the task too compiled directly to IL."
+    },
+    {
+      "t": 1112.2,
+      "end": 1125.1,
+      "text": "It's hard. It would be harder for us to verify, it would be harder for us to debug. So we chose that. If we just did what C sent did, the runtime would actually work, even though we had a new compiler."
+    },
+    {
+      "t": 1125.1,
+      "end": 1143.5,
+      "text": "So what what happened? When I have a snippet of code, the compiler takes it and the L compiler takes it and actually generates some C# code that basically does the same thing but in C#, and then we compile the C code after that to an actual execute using the regular C compiler,"
+    },
+    {
+      "t": 1143.5,
+      "end": 1154,
+      "text": "right? Yes, and that's exactly what we're doing. And then we have some additional metadata. We actually put in most cases XML and also stall"
+    },
+    {
+      "t": 1154,
+      "end": 1169.4,
+      "text": "Mac in the runtime or in the database. So this is what we use for execution. So back to VS Code and back to the the paradigm shift from from Seaside to to AL."
+    },
+    {
+      "t": 1169.4,
+      "end": 1179.8,
+      "text": "There was another. So we we went from from Seaside to to BS Code. That was 1 paradigm shift. But there was another pretty significant paradigm shift that we went through."
+    },
+    {
+      "t": 1179.8,
+      "end": 1190.3,
+      "text": "At that stage we went from a repository based source source artifacts to a text file based artifacts."
+    },
+    {
+      "t": 1190.3,
+      "end": 1208.6,
+      "text": "So before in Seaside when you, the code you wrote was actually stored in the database, yes? And now with with Visual Studio Code and with the L compiler, the code is actually saved in text file like any like many other languages like C# and JavaScript"
+    },
+    {
+      "t": 1208.6,
+      "end": 1224,
+      "text": "and so forth. Is that is that was that a good thing or? Yeah, in my opinion it was definitely a good thing. I earlier on in my tenure in Navy I worked on modernizing the build pipeline for for the application and"
+    },
+    {
+      "t": 1224,
+      "end": 1237.9,
+      "text": "and me and a colleague was taskbar to work with that. And at that point in time all the sources were exported from Seaside into the TXT file and then they"
+    },
+    {
+      "t": 1237.9,
+      "end": 1248.4,
+      "text": "had to use a small B application that using automation on top of Seaside to create database, import object, compile"
+    },
+    {
+      "t": 1248.4,
+      "end": 1263.7,
+      "text": "all objects which was horrible to automate. So the first the thing we actually did was to just turn Seaside into give Seaside a command line so you could actually compile from the command line."
+    },
+    {
+      "t": 1263.7,
+      "end": 1274,
+      "text": "It was not pretty, but it was better than what it was. And from that point on I just dreamt about fixing this for real because it was it was not nice to to work with it."
+    },
+    {
+      "t": 1274,
+      "end": 1287.8,
+      "text": "Well, and there there's a lot of advantages of having the source code in texts, because there's a lot of tools out there which you know, like source source control to like git or and and you know, searching if you want to search through the through the code, right?"
+    },
+    {
+      "t": 1287.8,
+      "end": 1300.4,
+      "text": "There's a lot of search tools and you know that. Yes. And when you work, yeah. And when you work with, with repositories like Git or DevOps, we also now have syntax highlight in there."
+    },
+    {
+      "t": 1300.4,
+      "end": 1313.8,
+      "text": "So you can actually better, yeah exactly inspect your source code. So there's a lot of benefits from that. And also there wasn't, I mean there was sort of a parallel effort to our cloud endeavor at that point"
+    },
+    {
+      "t": 1313.8,
+      "end": 1326.5,
+      "text": "in time. But it also turns out that, I mean having the requirement to talk directly to a database in the cloud is a very bad idea. And so it it matches that as well."
+    },
+    {
+      "t": 1326.5,
+      "end": 1338.5,
+      "text": "So another thing that happened when we moved from Seaside to Visual Studio Code is that we lost. We had some designers in the in Seaside and and these designers disappeared."
+    },
+    {
+      "t": 1338.5,
+      "end": 1351.6,
+      "text": "We went to again a fully text based approach where instead of describing things through these designers, you would have to describe them in, in in the text file directly in the in the file where you had your code right."
+    },
+    {
+      "t": 1351.6,
+      "end": 1363,
+      "text": "And we we we got a lot of feedback on this. People are still asking about it. So, but yeah, then you had another another great idea about that."
+    },
+    {
+      "t": 1363,
+      "end": 1374.7,
+      "text": "Yes, I have. The last couple of years I have focused a lot on trying to figure out how we can make our biggest API which is our basic, more visible, better discoverable,"
+    },
+    {
+      "t": 1374.7,
+      "end": 1388.3,
+      "text": "navigable. And one of the ideas I wanted to explore was if if we somehow could use the Web view feature in Visual Studio Code in combination with our language server"
+    },
+    {
+      "t": 1388.3,
+      "end": 1405,
+      "text": "to to actually put some UI on top of our application objects. So just to explain a little bit, the the web view feature in Visual Studio Code, it's actually a page that you can have like normally in Visual Studio Code, when you open a file, it's typically a text file that will show the content of the file."
+    },
+    {
+      "t": 1405,
+      "end": 1419.1,
+      "text": "But the Visual Studio Code has this feature where you can actually have a page which is in essence a browser and you can display HTML in it. So you can display pretty advanced UI in it and"
+    },
+    {
+      "t": 1419.1,
+      "end": 1425,
+      "text": "this page can communicate with other regular text pages like"
+    },
+    {
+      "t": 1425,
+      "end": 1441,
+      "text": "for example you can have you know. A good example is that I think many people are familiar with is. If you open a read me file, you can see the markup language in a text file and you can see the preview of it in the actual formatted way."
+    },
+    {
+      "t": 1441,
+      "end": 1452.8,
+      "text": "They actually have Visual Studio Code have two concepts. They have one which is a web view disconnected from source. Then they have the custom design, I think web view,"
+    },
+    {
+      "t": 1452.8,
+      "end": 1463.7,
+      "text": "and the what we shipped first was actually AL Explorer and ALE Home. They are built on just being a web view disconnected from source."
+    },
+    {
+      "t": 1463.7,
+      "end": 1473.9,
+      "text": "But the AL Explorer is using actually the same grid as our analysis view to show all the objects and they get the information from the running compilation."
+    },
+    {
+      "t": 1473.9,
+      "end": 1488.8,
+      "text": "So it's not statically. When you go and edit something in a file somewhere, it also shows up because it's running. So that's a page in in the L Explorer. That's a page in Visual Studio Code that allows you to actually navigate your code, and you can do some."
+    },
+    {
+      "t": 1488.8,
+      "end": 1499.3,
+      "text": "We'll put a link in in in the comments on the documentation of the L Explorer, right? And also we added Alhome which is the which is"
+    },
+    {
+      "t": 1499.3,
+      "end": 1505,
+      "text": "a news feed for developers, business central AI developers where"
+    },
+    {
+      "t": 1505,
+      "end": 1516.8,
+      "text": "we where that suddenly have a way of communicating the IT directly with with with our developers which is a nice new feature."
+    },
+    {
+      "t": 1516.8,
+      "end": 1528.9,
+      "text": "But also, and I know you remember that because we were on the same session and directions Mia and Hamburg where I showed up of a couple of designers, table designer, page designers."
+    },
+    {
+      "t": 1528.9,
+      "end": 1540.2,
+      "text": "They are built on the other model, the custom designer model, which actually is a visualization of the source code, which means that if you make changes through the designer, it updates the."
+    },
+    {
+      "t": 1540.2,
+      "end": 1553.4,
+      "text": "Song. So that's the old designers. That was. Actually in a new Visual Studio Code. Environment. But that's still a prototype. Right, still a prototype. I would love us to prioritize them, but again, we need to prioritize."
+    },
+    {
+      "t": 1553.4,
+      "end": 1563.5,
+      "text": "So but it shows it can be done with this functionality. So we have some ideas on how to maybe revive these designers at some stage right?"
+    },
+    {
+      "t": 1563.5,
+      "end": 1574.7,
+      "text": "But it's still the prototype label. So one last thing, we we also have a lot of people asking us to expose the compiler as an"
+    },
+    {
+      "t": 1574.7,
+      "end": 1588.9,
+      "text": "API. They would like to be able to use it to do all sorts of things and some people actually doing it already in a kind of non supported way. Is that something we we are going to do?"
+    },
+    {
+      "t": 1588.9,
+      "end": 1600.5,
+      "text": "There, from the beginning when we started creating a new compiler, it based on the browsing model. It's envisioned as a service we haven't officially opened up"
+    },
+    {
+      "t": 1600.5,
+      "end": 1611.2,
+      "text": "for. New for for external use means that we haven't documented it, but we know there's a lot of partners out there that are actually."
+    },
+    {
+      "t": 1611.2,
+      "end": 1622.2,
+      "text": "We're not preventing it. No, we're not preventing it. We're not just supporting it and we we reserve ourselves the right to change it at any time. And we actually, I mean we try not to break anything."
+    },
+    {
+      "t": 1622.2,
+      "end": 1635.3,
+      "text": "Also here, even though we haven't officially supported, we actually we know that it's used and it's used for the benefit of our community, which is great and I love why we don't."
+    },
+    {
+      "t": 1635.3,
+      "end": 1646.5,
+      "text": "Prevent it. And I love to see all the things which are actually. People are doing pretty good cool things with it, right? Yes, exactly. And as I mean already incredibly many AL related extensions"
+    },
+    {
+      "t": 1646.5,
+      "end": 1660.4,
+      "text": "in the Visual Studio Code Marketplace, which is amazing to see the ideas and creativity that our partner Jung is actually adding also in the development area."
+    },
+    {
+      "t": 1660.4,
+      "end": 1671,
+      "text": "All right. So if maybe to conclude, I would ask you, if you know, if I'm a new developer and I'm mute, we are new to Business Central, what would you recommend?"
+    },
+    {
+      "t": 1671,
+      "end": 1685.3,
+      "text": "Where do I Where do I start? How do I get started with developing, you know, extensions for for for Business Central? Yeah, there's of course our own documentation on Ms. learning, which is both a combination of reference documentation but"
+    },
+    {
+      "t": 1685.3,
+      "end": 1697.3,
+      "text": "also getting started documentation. And then there's our launch event videos and which also talks about all the new features and sometimes also a"
+    },
+    {
+      "t": 1697.3,
+      "end": 1709.5,
+      "text": "little bit broader and actually our partner channel also here doing it and amazing work. I mean we have many partners blogging or creating videos around development."
+    },
+    {
+      "t": 1709.5,
+      "end": 1722.4,
+      "text": "So lots of resources out there. There's lots of resources which are, I mean really great resources, and it's also really great to see how many actually want to contribute and make this an even better"
+    },
+    {
+      "t": 1722.4,
+      "end": 1736.2,
+      "text": "community. It's a really great community we have out there. Thank you. Thank you for supporting us. Yes. Thank you very much. All right. Thank you, Espen. I hope you enjoy this talk about the inner workings of the L compiler."
+    },
+    {
+      "t": 1736.2,
+      "end": 1751,
+      "text": "Let us know in the comments next time. Next time we'll talk about, we'll try to answer the question of how many users can Business Central handle in the cloud. So stay tuned and thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 4649
+}

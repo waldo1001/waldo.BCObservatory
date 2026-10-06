@@ -1,0 +1,182 @@
+{
+  "video_id": "3jr6gUuGem4",
+  "item_id": "video/yt-microsoft/3jr6gUuGem4",
+  "title": "Modern Action Bar",
+  "duration_s": 71,
+  "systems": [
+    "platform",
+    "administration",
+    "copilot"
+  ],
+  "topics": [
+    "action bar",
+    "user interface",
+    "workspace optimization",
+    "analysis mode",
+    "copilot integration",
+    "navigation",
+    "2024 release wave one"
+  ],
+  "chapters": [
+    {
+      "title": "Action bar improvements overview",
+      "t_start": 0,
+      "t_end": 11.2
+    },
+    {
+      "title": "Analysis mode icon and search captions",
+      "t_start": 11.2,
+      "t_end": 30.4
+    },
+    {
+      "title": "Copilot integration and home tab",
+      "t_start": 30.4,
+      "t_end": 42.4
+    },
+    {
+      "title": "Split buttons and fast access",
+      "t_start": 42.4,
+      "t_end": 62.5
+    },
+    {
+      "title": "Resources and closing",
+      "t_start": 62.5,
+      "t_end": 71
+    }
+  ],
+  "features": [
+    {
+      "name": "Analysis mode icon redesign",
+      "description": "New icon for analysis mode that takes up less space while maintaining the same functionality to turn analysis mode on and off.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.2,
+      "t_end": 30.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "icon",
+        "analysis mode",
+        "ui optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Removal of search and analysis mode captions",
+      "description": "Captions for search and analysis mode have been removed from the action bar to create more space.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.2,
+      "t_end": 30.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ui optimization",
+        "workspace"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot on action bar",
+      "description": "Copilot is now integrated into the action bar, making it easier to reach Copilot actions on any list page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.4,
+      "t_end": 42.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "integration",
+        "list pages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Action bar made standard",
+      "description": "The updated action bar is now standard for all users, with the process tab renamed to home for better clarity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.4,
+      "t_end": 62.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "standard",
+        "navigation",
+        "home tab"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Split buttons for fast access",
+      "description": "Split buttons now group popular actions on the home tab for faster access to frequently used functions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.4,
+      "t_end": 62.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "split buttons",
+        "fast access",
+        "ux"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "Updates to the action bar in 2024 release wave one make it simpler to use and make you more productive.",
+      "why_it_matters": "Establishes the timing and goals of the feature release for the 2024 wave one.",
+      "check": "exact"
+    },
+    {
+      "t": 11.2,
+      "text": "First, there's a new icon for analysis mode. It's in the same place and still turns analysis mode on and off, but now takes",
+      "why_it_matters": "Describes a specific UI improvement that maintains functionality while reducing visual footprint.",
+      "check": "exact"
+    },
+    {
+      "t": 30.4,
+      "text": "Copilot's now on the action bar, so it's easier to reach Copilot actions on any list page.",
+      "why_it_matters": "Highlights integration of Copilot capabilities into the main interface for improved accessibility.",
+      "check": "exact"
+    },
+    {
+      "t": 42.4,
+      "text": "It's now standard and the process tab is now called home. It's where the most popular actions are.",
+      "why_it_matters": "Indicates the action bar is now a standard feature with renamed navigation focused on popular actions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010791
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "video_id": "auoHUd24Gfw",
+  "item_id": "video/yt-microsoft/auoHUd24Gfw",
+  "title": "What's New: Using Power Pages with Business Central (2024 release wave 1)",
+  "duration_s": 1055,
+  "systems": [
+    "integration",
+    "crm",
+    "platform"
+  ],
+  "topics": [
+    "power pages",
+    "virtual tables",
+    "multi-company support",
+    "dataverse",
+    "plugin registration",
+    "external user access",
+    "anonymous access",
+    "authenticated access",
+    "shared execution variable",
+    "portal mapping"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Power Pages on Virtual Tables and Multi-Company Support",
+      "t_start": 0,
+      "t_end": 131.4
+    },
+    {
+      "title": "Access Scenarios: Anonymous, Authenticated External, and Internal Users",
+      "t_start": 131.4,
+      "t_end": 212.6
+    },
+    {
+      "title": "External vs Internal Users and Licensing",
+      "t_start": 212.6,
+      "t_end": 307.2
+    },
+    {
+      "title": "Custom Dataverse Mapping Plugin Architecture",
+      "t_start": 307.2,
+      "t_end": 428.2
+    },
+    {
+      "title": "Plugin Registration and Mapping Table Configuration",
+      "t_start": 428.2,
+      "t_end": 550.5
+    },
+    {
+      "title": "Plugin Implementation and Portal ID Mapping Logic",
+      "t_start": 550.5,
+      "t_end": 631.1
+    },
+    {
+      "title": "Demo Setup: Business Central Companies and Dataverse Configuration",
+      "t_start": 631.1,
+      "t_end": 875.3
+    },
+    {
+      "title": "Live Demo: Multi-Access Scenarios and Portal-Specific Company Targeting",
+      "t_start": 875.3,
+      "t_end": 1055
+    }
+  ],
+  "features": [
+    {
+      "name": "Multi-company support through Dataverse shared execution variable",
+      "description": "Allows virtual table plugin to use BC Company ID shared execution variable to override both global and user-specific company settings, enabling multiple Power Pages portals to target different Business Central companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.3,
+      "t_end": 131.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-company",
+        "dataverse",
+        "virtual tables",
+        "power pages"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Anonymous read-only access for external users without licensing",
+      "description": "Enables external or unlicensed users to access Business Central data through Power Pages portals without signing in, such as for B2B customer portals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151.5,
+      "t_end": 192.4,
+      "is_demoed": true,
+      "caveats": [
+        "user does not need to be licensed",
+        "read-only access"
+      ],
+      "tags": [
+        "anonymous access",
+        "external users",
+        "unlicensed",
+        "b2b"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Authenticated access for external users after registration",
+      "description": "Allows external or unlicensed users to access Business Central data through Power Pages after signing in and registering, such as in customer onboarding or vendor bidding processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192.4,
+      "t_end": 212.6,
+      "is_demoed": true,
+      "caveats": [
+        "user does not need to be licensed"
+      ],
+      "tags": [
+        "authenticated access",
+        "external users",
+        "registration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Authenticated access for internal licensed users",
+      "description": "Enables licensed Business Central employees to access Business Central virtual tables data through Power Pages after signing in, with same licensing requirements as Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192.4,
+      "t_end": 212.6,
+      "is_demoed": true,
+      "caveats": [
+        "user must be licensed"
+      ],
+      "tags": [
+        "authenticated access",
+        "internal users",
+        "licensed"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Custom Dataverse mapping plugin for company targeting",
+      "description": "Allows creation of custom Dataverse mapping plugins and tables that intercept virtual table access to set BC Company ID for specific combinations of users, Power Apps, and Power Pages portals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 307.2,
+      "t_end": 428.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires plugin registration tool",
+        "must intercept at prevalidation stage"
+      ],
+      "tags": [
+        "custom plugin",
+        "dataverse",
+        "mapping",
+        "company targeting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Global company setting for virtual tables",
+      "description": "Standard setting that applies to all users and apps using virtual tables, targeting a specific Business Central company by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.9,
+      "t_end": 111.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "company setting",
+        "virtual tables",
+        "global"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User-specific company setting override",
+      "description": "Allows individual users to override the global company setting, targeting a specific Business Central company that applies to all apps and Power Pages portals for that user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.9,
+      "t_end": 111.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "company setting",
+        "virtual tables",
+        "user-specific"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Portal ID retrieval from Power Pages URL",
+      "description": "Ability to obtain the portal ID from Power Pages portal URLs by appending underscore Services slash to the URL, used for mapping table configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 835.2,
+      "t_end": 855.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "portal id",
+        "power pages",
+        "configuration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Invoice virtual table",
+      "t": 366.6
+    },
+    {
+      "type": "table",
+      "name": "Contacts table",
+      "t": 671.8
+    },
+    {
+      "type": "table",
+      "name": "Item table",
+      "t": 875.3
+    },
+    {
+      "type": "table",
+      "name": "Sales Order virtual table",
+      "t": 753.6
+    },
+    {
+      "type": "other",
+      "name": "Business Central configuration app",
+      "t": 733.4
+    },
+    {
+      "type": "table",
+      "name": "Mapping table",
+      "t": 794.4
+    },
+    {
+      "type": "table",
+      "name": "User table",
+      "t": 753.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sarco",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 14.1,
+      "text": "power pages on virtual tables has been in public review since",
+      "why_it_matters": "Establishes that this capability existed as public preview in Wave 2, with new features added in Wave 1.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 34.3,
+      "text": "in a 24 wave 1 release we are introducing a small feature that has been in high demand by many um partners and customer",
+      "why_it_matters": "Confirms that multi-company support is new in this release and was a frequently requested capability.",
+      "check": "exact"
+    },
+    {
+      "t": 111.4,
+      "text": "with this uh shared execution variable a virtual table plug-in can actually overwrite both the global and user specific company setting",
+      "why_it_matters": "Explains the key mechanism enabling multi-company support - the ability to override both levels of company settings.",
+      "check": "exact"
+    },
+    {
+      "t": 172.4,
+      "text": "anonymous read only access for external or unlicensed user without signing in so uh uh Power Pages allow you to create for example a",
+      "why_it_matters": "Describes one of three access scenarios that Power Pages enables for Business Central data.",
+      "check": "exact"
+    },
+    {
+      "t": 212.6,
+      "text": "you actually have to be licensed to be able to access a business Central virtual tables in data verse the first two you don't",
+      "why_it_matters": "Clarifies that only internal licensed users require licensing; external users can access via anonymous or authenticated access without licenses.",
+      "check": "exact"
+    },
+    {
+      "t": 469.3,
+      "text": "whenever there's a site that trying to read a sales invoice table which is virtualized in data verse this plugin will be triggered",
+      "why_it_matters": "Explains how the plugin intercepts virtual table access to enable company-specific targeting.",
+      "check": "exact"
+    },
+    {
+      "t": 530.1,
+      "text": "whenever that portal is open it will always use my company as The Bu business Central um uh company to Target",
+      "why_it_matters": "Demonstrates how the mapping table ensures consistent company targeting for specific portals.",
+      "check": "snapped"
+    },
+    {
+      "t": 835.2,
+      "text": "you can actually go to the URL and then add this uh terms uh undor service slab and then you can actually see here",
+      "why_it_matters": "Provides the practical method for obtaining portal IDs needed to configure the mapping table.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 14.1,
+      "kind": "preview",
+      "text": "Power pages on Virtual tables has been in public review since last uh 23rd Wave 2"
+    },
+    {
+      "t": 550.5,
+      "kind": "coming-later",
+      "text": "this is a very um a short cat um um that will be published in the in our documentation after the business Central launch"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028357
+    }
+  ]
+}

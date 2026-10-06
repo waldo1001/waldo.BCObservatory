@@ -1,0 +1,1837 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.800 --> 00:00:12.200 position:75%
+Welcome to the second episode of Under the Hood.
+
+00:00:12.960 --> 00:00:16.307 position:72%
+So in the first episode we talked about AI and
+
+00:00:16.380 --> 00:00:19.799 position:73%
+how we develop AI features in Business Central.
+
+00:00:19.800 --> 00:00:22.935 position:81%
+And short after we released this episode, we put out
+
+00:00:22.996 --> 00:00:25.830 position:73%
+a small poll on social media where we asked you
+
+00:00:25.890 --> 00:00:28.845 position:77%
+what you wanted to hear about in this series that
+
+00:00:28.905 --> 00:00:31.679 position:72%
+we proposed several topics and the compiler 1.
+
+00:00:32.240 --> 00:00:36.269 position:75%
+So today with me I've Espen who is the architect
+
+00:00:36.353 --> 00:00:38.199
+behind the L compiler.
+
+00:00:39.320 --> 00:00:42.820 position:73%
+But before we get into the details of the inner
+
+00:00:42.894 --> 00:00:46.543 position:77%
+working on the the L compiler, let's start with a
+
+00:00:46.618 --> 00:00:50.192 position:75%
+brief history we we we had before the L compiler
+
+00:00:50.267 --> 00:00:53.618 position:70%
+and VS Code we had Seaside, and I'm sure some
+
+00:00:53.692 --> 00:00:55.480
+of you remember Seaside.
+
+00:00:56.240 --> 00:00:57.160
+So Aspen, have you?
+
+00:00:57.320 --> 00:00:58.760
+Have you worked with Seaside?
+
+00:00:59.160 --> 00:01:01.520 position:73%
+Yes, I have actually worked a lot with Seaside.
+
+00:01:01.520 --> 00:01:04.821 position:69%
+I have spent most of my time at Microsoft as
+
+00:01:04.896 --> 00:01:08.349 position:72%
+a part of the NAV team, but actually the first
+
+00:01:08.424 --> 00:01:11.275 position:59%
+thing I did in the NAV team was that I
+
+00:01:11.350 --> 00:01:14.802 position:72%
+was sent over from the team I worked on, which
+
+00:01:14.877 --> 00:01:19.530 position:97%
+was the old business Microsoft Business Framework team to help
+
+00:01:19.605 --> 00:01:23.207 position:75%
+creating a prototype of the new client on top of
+
+00:01:23.282 --> 00:01:26.960 position:77%
+Seaside or what would become the 3T architecture.
+
+00:01:27.680 --> 00:01:32.518 position:88%
+And we actually produced a video for Steve Balmer, which
+
+00:01:32.604 --> 00:01:36.319 position:67%
+was it felt like a big thing back then and.
+
+00:01:36.319 --> 00:01:38.226 position:61%
+So there was we had like by then we had
+
+00:01:38.275 --> 00:01:39.399
+like a 2T architecture.
+
+00:01:39.600 --> 00:01:42.040
+Yes, the old C side were two tier.
+
+00:01:42.160 --> 00:01:45.902 position:98%
+It was a client development environment, everything in one towing
+
+00:01:45.960 --> 00:01:47.400
+directly to the database.
+
+00:01:47.400 --> 00:01:47.640
+Yeah.
+
+00:01:47.640 --> 00:01:48.960
+So there was no, yeah, that's true.
+
+00:01:48.960 --> 00:01:51.975 position:92%
+The client and the development environment were in the same
+
+00:01:52.026 --> 00:01:52.640
+in the same.
+
+00:01:52.640 --> 00:01:53.720
+Application exactly.
+
+00:01:54.360 --> 00:01:58.044 position:67%
+And then when I joined the team, I worked a
+
+00:01:58.130 --> 00:02:02.071 position:72%
+lot on the server side of it and actually also
+
+00:02:02.157 --> 00:02:06.270 position:75%
+the compilation from the old CL code into the C#
+
+00:02:06.355 --> 00:02:11.239 position:89%
+code that was the foundation for the new 3T architecture.
+
+00:02:11.760 --> 00:02:14.600
+So C side was written in C, right?
+
+00:02:14.680 --> 00:02:18.360 position:63%
+In, yeah, actually a mix of C&amp;C because.
+
+00:02:18.360 --> 00:02:18.800
+C&amp;C.
+
+00:02:19.200 --> 00:02:24.640 position:56%
+Yes, it was worse than C and it was.
+
+00:02:24.639 --> 00:02:29.080 position:77%
+Well, it has its own memory manager and own error
+
+00:02:29.170 --> 00:02:34.154 position:86%
+handling, not exception based as you could have done in
+
+00:02:34.245 --> 00:02:38.051 position:66%
+C So it was a very slow process to develop
+
+00:02:38.141 --> 00:02:39.320
+new features.
+
+00:02:39.520 --> 00:02:41.240 position:61%
+And so very costly to add new features.
+
+00:02:41.240 --> 00:02:41.840
+Yes.
+
+00:02:42.240 --> 00:02:46.757 position:73%
+So there's no doubt that at some stage she side
+
+00:02:46.853 --> 00:02:49.159
+was due for a, you know?
+
+00:02:49.880 --> 00:02:52.800 position:84%
+A modernization or a organization or replacement, yes.
+
+00:02:52.800 --> 00:02:55.886 position:69%
+But it was hard because we had, so we talked
+
+00:02:55.956 --> 00:02:57.360
+about it many times.
+
+00:02:57.720 --> 00:02:58.280
+Yes, we did.
+
+00:02:58.320 --> 00:03:00.720 position:56%
+We have those talks over many years.
+
+00:03:01.920 --> 00:03:07.160 position:56%
+The last one I remember was in 2014.
+
+00:03:07.960 --> 00:03:11.357 position:66%
+I think we were a team who was tasked with
+
+00:03:11.438 --> 00:03:16.212 position:92%
+figuring out what should come next and we actually recently
+
+00:03:16.292 --> 00:03:18.720
+looked at the old conclusions.
+
+00:03:18.720 --> 00:03:23.690 position:89%
+Then it was all about speedy delivery, modelized, best of
+
+00:03:23.777 --> 00:03:27.439 position:66%
+class development environment marketplace.
+
+00:03:27.440 --> 00:03:30.221 position:80%
+There was a lot of things which actually turned out
+
+00:03:30.276 --> 00:03:31.640
+to be what we have today.
+
+00:03:31.640 --> 00:03:32.920
+It's all the concepts we.
+
+00:03:33.080 --> 00:03:36.490 position:73%
+It was a nice vision document back then, but we
+
+00:03:36.562 --> 00:03:39.320 position:59%
+have no plans of how we would proceed.
+
+00:03:39.320 --> 00:03:42.800 position:69%
+It was the vision we actually did that year.
+
+00:03:42.800 --> 00:03:45.760 position:66%
+And it was also difficult because we have.
+
+00:03:46.080 --> 00:03:48.631 position:69%
+First of all, on code base is pretty big and
+
+00:03:48.689 --> 00:03:51.124 position:66%
+rewriting it and and and you know to a new
+
+00:03:51.182 --> 00:03:53.559 position:64%
+language would be like tremendous effort.
+
+00:03:53.640 --> 00:03:53.760
+Yes.
+
+00:03:54.160 --> 00:03:55.781 position:70%
+And also there's a lot of code out there, you
+
+00:03:55.817 --> 00:03:57.691 position:81%
+know, a lot of partners and millions and millions, a
+
+00:03:57.727 --> 00:03:58.159
+lot of code.
+
+00:03:58.160 --> 00:04:00.040 position:72%
+And we, we didn't want to disrupt them, right?
+
+00:04:01.040 --> 00:04:05.109 position:73%
+Exactly So what we looked at the year after was
+
+00:04:05.196 --> 00:04:09.266 position:73%
+I I built a small prototype and it was actually
+
+00:04:09.352 --> 00:04:13.422 position:73%
+shown at Tech Days in 2015 by from Saisburg and
+
+00:04:13.508 --> 00:04:18.271 position:86%
+it was essentially a small Winforms app where we loaded
+
+00:04:18.357 --> 00:04:21.821 position:63%
+in a TXT file from export if I think the
+
+00:04:21.908 --> 00:04:26.150 position:77%
+safe post code unit and you could make changes to
+
+00:04:26.237 --> 00:04:30.999 position:86%
+it and it instantly gave passing diagnostics in the UI.
+
+00:04:31.960 --> 00:04:35.591 position:64%
+It was most of all a nice picture of what
+
+00:04:35.679 --> 00:04:38.159
+could be a compiler someday.
+
+00:04:38.160 --> 00:04:39.200
+It was not.
+
+00:04:39.600 --> 00:04:41.800 position:59%
+It was pretty far from what we needed.
+
+00:04:42.120 --> 00:04:42.280
+OK.
+
+00:04:42.960 --> 00:04:45.605 position:77%
+But then you had, you had this brilliant idea how
+
+00:04:45.659 --> 00:04:49.276 position:98%
+to transition from, you know, having these large codebase including
+
+00:04:49.330 --> 00:04:51.975 position:77%
+our own, including our base app and but also the,
+
+00:04:52.029 --> 00:04:54.459 position:70%
+you know, the the panel code was how we could
+
+00:04:54.513 --> 00:04:56.834 position:67%
+transition from that to A to a new model, a
+
+00:04:56.888 --> 00:04:58.399
+new development environment.
+
+00:04:59.440 --> 00:04:59.800
+Yeah.
+
+00:04:59.800 --> 00:05:02.200
+And in the beginning it was.
+
+00:05:02.200 --> 00:05:05.747 position:86%
+I mean the brilliant idea come out of necessity because
+
+00:05:05.812 --> 00:05:08.199 position:58%
+we had, I mean our base app is so big
+
+00:05:08.263 --> 00:05:11.166 position:70%
+and we knew that it will take years before we
+
+00:05:11.231 --> 00:05:13.360
+were actually able to compile it.
+
+00:05:13.360 --> 00:05:15.532 position:66%
+So we had to figure out how we could start
+
+00:05:15.584 --> 00:05:17.240
+working with this, get feedback.
+
+00:05:18.279 --> 00:05:21.768 position:77%
+So the idea was that because we have decided that
+
+00:05:21.839 --> 00:05:25.471 position:80%
+our new language would be modulized so we knew that
+
+00:05:25.542 --> 00:05:28.959 position:75%
+we would introduce dependencies between modules.
+
+00:05:29.600 --> 00:05:32.607 position:80%
+And we have already created a format for that which
+
+00:05:32.666 --> 00:05:36.085 position:91%
+were the reference symbol information that we store on the
+
+00:05:36.144 --> 00:05:37.559
+top in in the app files.
+
+00:05:38.360 --> 00:05:42.183 position:73%
+And the idea was that we could just use Seaside
+
+00:05:42.264 --> 00:05:46.901 position:89%
+to create a similar symbolic symbolic format and based on
+
+00:05:46.982 --> 00:05:48.040
+the base app.
+
+00:05:48.320 --> 00:05:50.946 position:63%
+But now we have what is needed for AL to
+
+00:05:51.012 --> 00:05:51.799
+work on top.
+
+00:05:52.279 --> 00:05:54.718 position:80%
+So kind of wrapping it in something that would look
+
+00:05:54.766 --> 00:05:56.966 position:72%
+like So from the outside it would look like it
+
+00:05:57.014 --> 00:05:59.262 position:73%
+was the new code, but underneath it was the old
+
+00:05:59.309 --> 00:06:01.509 position:72%
+code and then we could start working on top of
+
+00:06:01.557 --> 00:06:03.040
+that with the new tools, right?
+
+00:06:03.520 --> 00:06:04.360
+Exactly.
+
+00:06:04.480 --> 00:06:08.720 position:75%
+And that allows us to ship early previews of it.
+
+00:06:08.720 --> 00:06:11.632 position:66%
+And we did that for a couple of years, and
+
+00:06:11.702 --> 00:06:15.308 position:81%
+the initial one was only we could create simple code
+
+00:06:15.378 --> 00:06:17.319
+units, simple tables, pages.
+
+00:06:17.839 --> 00:06:21.981 position:97%
+And then we also introduced table extensions and page extensions
+
+00:06:22.045 --> 00:06:24.439 position:58%
+for that, so you could already there.
+
+00:06:24.440 --> 00:06:26.360
+We wanted to promote the new model.
+
+00:06:26.560 --> 00:06:28.760 position:67%
+With so you could write extensions already.
+
+00:06:28.760 --> 00:06:30.040 position:56%
+Our partners could write extensions.
+
+00:06:30.040 --> 00:06:32.924 position:73%
+We also had a few third first party extension I
+
+00:06:32.986 --> 00:06:36.300 position:84%
+believe, but our own code base didn't compile yet with
+
+00:06:36.362 --> 00:06:37.159
+the new tool.
+
+00:06:37.280 --> 00:06:39.880 position:58%
+No, and it it took a couple of years.
+
+00:06:39.920 --> 00:06:43.950 position:70%
+In 2019, in wave two, we shipped the first AL
+
+00:06:44.040 --> 00:06:48.698 position:81%
+compiler without the preview mark on it, and then at
+
+00:06:48.788 --> 00:06:52.640 position:67%
+that time we could compile all our objects.
+
+00:06:52.640 --> 00:06:55.560 position:78%
+We could do most, but we haven't converted our own
+
+00:06:55.619 --> 00:06:56.320
+pay set yet.
+
+00:06:56.880 --> 00:07:00.453 position:83%
+It took another year because we have an insane amount
+
+00:07:00.521 --> 00:07:04.094 position:83%
+of dependencies on how we did stuff internally, so it
+
+00:07:04.162 --> 00:07:08.680 position:98%
+took another year before we could actually ship completely without.
+
+00:07:09.640 --> 00:07:11.920 position:66%
+So, so let's go really under the hood now.
+
+00:07:12.600 --> 00:07:15.853 position:84%
+So when when you started working on this new compiler,
+
+00:07:15.913 --> 00:07:17.480
+we needed an architecture.
+
+00:07:17.880 --> 00:07:18.440
+Yes.
+
+00:07:19.360 --> 00:07:23.376 position:70%
+And I think we 2015 was the perfect storm for
+
+00:07:23.465 --> 00:07:29.000 position:97%
+this because C# the year before has actually released Rosslyn.
+
+00:07:29.040 --> 00:07:32.149 position:94%
+They have gone through some of the similar thought processes
+
+00:07:32.201 --> 00:07:34.999 position:84%
+even though they were a better starting point than us.
+
+00:07:35.320 --> 00:07:37.560
+So Rosslyn was the new C# compiler.
+
+00:07:37.640 --> 00:07:40.640 position:91%
+Like a totally new rewritten compiler actually, wasn't it?
+
+00:07:40.920 --> 00:07:41.520
+Exactly.
+
+00:07:41.520 --> 00:07:44.860 position:89%
+Actually the original C# compiler was written in, I guess
+
+00:07:44.919 --> 00:07:46.560
+C++ and something like that.
+
+00:07:46.640 --> 00:07:47.320
+Just like us.
+
+00:07:47.600 --> 00:07:49.560
+Just like us and they moved to C#.
+
+00:07:49.560 --> 00:07:53.958 position:95%
+So it's basically compiling yourself approach, but that was a
+
+00:07:54.030 --> 00:07:55.400
+smaller part of it.
+
+00:07:55.400 --> 00:07:58.324 position:88%
+The more important part was that they realized that they
+
+00:07:58.376 --> 00:07:59.160
+already have a.
+
+00:07:59.160 --> 00:08:02.860 position:81%
+They have one compiler for a command line and almost
+
+00:08:02.932 --> 00:08:06.988 position:89%
+a similar compiler that were used inside Visual Studio to
+
+00:08:07.060 --> 00:08:09.479
+provide intellisense and all that.
+
+00:08:10.080 --> 00:08:13.839 position:81%
+And they merged that into one and or a componentized
+
+00:08:13.911 --> 00:08:17.960 position:88%
+solution where they could use the compiler as a service.
+
+00:08:18.040 --> 00:08:21.141 position:73%
+So the same compiler, the same base part of the
+
+00:08:21.207 --> 00:08:25.232 position:95%
+compiler that serves the command line compilation is also the
+
+00:08:25.298 --> 00:08:29.852 position:98%
+one that constantly runs in the background and provides intellisense,
+
+00:08:29.918 --> 00:08:31.040
+cross references.
+
+00:08:31.040 --> 00:08:33.636 position:66%
+All the things we like to have in a modern
+
+00:08:33.698 --> 00:08:34.439
+environment.
+
+00:08:34.440 --> 00:08:36.160
+That's the was lean architecture.
+
+00:08:36.440 --> 00:08:40.190 position:80%
+Yes, that was the architecture We also, I mean took
+
+00:08:40.264 --> 00:08:43.280 position:64%
+a great deal of inspiration from because.
+
+00:08:43.520 --> 00:08:45.024 position:63%
+I mean, so you looked at it and say, OK,
+
+00:08:45.062 --> 00:08:46.039
+that's that's a good idea.
+
+00:08:46.240 --> 00:08:47.360
+That's a really good idea.
+
+00:08:47.360 --> 00:08:48.320
+We want to have that as well.
+
+00:08:48.320 --> 00:08:48.640
+Yes, let's.
+
+00:08:48.680 --> 00:08:49.040
+Do some.
+
+00:08:49.040 --> 00:08:52.324 position:66%
+So we just to be clear, we we didn't reuse
+
+00:08:52.402 --> 00:08:54.280
+any of the code, did we?
+
+00:08:55.480 --> 00:08:56.240
+Not such.
+
+00:08:56.560 --> 00:08:58.360
+Not we just use the architecture.
+
+00:08:58.360 --> 00:09:01.303 position:67%
+It's not Roslyn, but we have moved a lot of
+
+00:09:01.372 --> 00:09:04.863 position:80%
+the concepts out of the Roslyn code base because we
+
+00:09:04.932 --> 00:09:05.479
+are not.
+
+00:09:05.480 --> 00:09:09.840 position:89%
+We're not a true.net language, so we couldn't just build.
+
+00:09:09.880 --> 00:09:14.422 position:83%
+I mean Rosslyn already contains the b.net C# and also
+
+00:09:14.508 --> 00:09:18.794 position:78%
+F# based on the same core libraries, but it's they
+
+00:09:18.880 --> 00:09:22.480 position:66%
+are all true.net languages and we are not.
+
+00:09:23.080 --> 00:09:26.947 position:78%
+So we pulled out the stuff we needed, augmented it
+
+00:09:27.024 --> 00:09:29.964 position:59%
+and built a lot more on top in in some
+
+00:09:30.041 --> 00:09:33.986 position:80%
+sense because we have way more concepts than C# for
+
+00:09:34.063 --> 00:09:34.760
+instance.
+
+00:09:35.440 --> 00:09:40.551 position:83%
+So in some some sense we are more complicated because
+
+00:09:40.648 --> 00:09:44.988 position:70%
+we have I mean 7-8 top level symbols where C#
+
+00:09:45.085 --> 00:09:47.400
+have class enum stroked.
+
+00:09:47.880 --> 00:09:49.320
+So we have pages tables.
+
+00:09:50.040 --> 00:09:50.680
+Exactly.
+
+00:09:50.679 --> 00:09:55.410 position:67%
+So we have a lot more differences in our in
+
+00:09:55.520 --> 00:09:55.960
+our.
+
+00:09:56.560 --> 00:09:57.000
+Version.
+
+00:09:57.120 --> 00:09:58.560 position:59%
+So you talked about the perfect storm.
+
+00:09:58.560 --> 00:09:59.120
+You meant sorry.
+
+00:09:59.120 --> 00:10:01.400 position:77%
+By that you meant there was a Ross link compiler.
+
+00:10:01.720 --> 00:10:04.000
+And also Visual Studio Code 1.
+
+00:10:04.679 --> 00:10:09.940 position:86%
+When we pitched the original one in 2015, Visual Studio
+
+00:10:10.036 --> 00:10:14.723 position:77%
+Code was in version 0.6 and was very immature but
+
+00:10:14.819 --> 00:10:19.410 position:75%
+very promising and we decided to bet on that and
+
+00:10:19.506 --> 00:10:22.280
+it fit also very nicely with.
+
+00:10:22.280 --> 00:10:26.394 position:84%
+With the Rosslyn architecture we we we used and before
+
+00:10:26.471 --> 00:10:30.281 position:78%
+that we actually if we have started out coding the
+
+00:10:30.357 --> 00:10:34.319 position:81%
+year before we wouldn't have probably done it right.
+
+00:10:34.720 --> 00:10:37.315 position:66%
+But this time we, I mean we have these two
+
+00:10:37.376 --> 00:10:40.713 position:84%
+great components to lean against and it it's a really,
+
+00:10:40.775 --> 00:10:42.319
+really nice architecture.
+
+00:10:42.320 --> 00:10:44.472 position:72%
+Just to be clear on one end, there's the worst
+
+00:10:44.519 --> 00:10:46.999 position:83%
+link compiler, the worst link architecture, Yes, And.
+
+00:10:47.160 --> 00:10:49.526 position:81%
+But it has nothing to do actually with Visual Studio
+
+00:10:49.572 --> 00:10:49.800
+Code.
+
+00:10:50.120 --> 00:10:52.240 position:67%
+It's just an independent architecture, Yes.
+
+00:10:53.040 --> 00:10:56.623 position:81%
+Actually when we when you run, when you compile, say
+
+00:10:56.692 --> 00:11:00.690 position:91%
+from the command line, it goes through this pipeline, this
+
+00:11:00.759 --> 00:11:01.999
+architecture, yes.
+
+00:11:02.360 --> 00:11:04.560 position:86%
+And it's totally independent Visual Studio Code, right.
+
+00:11:04.720 --> 00:11:05.080
+Exactly.
+
+00:11:05.440 --> 00:11:08.500 position:77%
+But you call it the perfect storm, because on one
+
+00:11:08.563 --> 00:11:12.748 position:98%
+hand we had this great development environment, which Visual Studio
+
+00:11:12.811 --> 00:11:15.559 position:69%
+Code is, and then the Roseland architecture.
+
+00:11:15.559 --> 00:11:18.794 position:77%
+So we took inspiration from one and build it into
+
+00:11:18.860 --> 00:11:19.520
+the other.
+
+00:11:19.520 --> 00:11:21.960 position:72%
+And then that's how the new tool set was born.
+
+00:11:22.520 --> 00:11:26.040 position:73%
+Yes, and we knew that Visual Studio Code was an
+
+00:11:26.115 --> 00:11:29.936 position:80%
+early beta at that point, but we also realized that
+
+00:11:30.011 --> 00:11:34.655 position:97%
+we could easily repurpose A compiler to another environment if
+
+00:11:34.730 --> 00:11:35.480
+we had to.
+
+00:11:35.800 --> 00:11:38.844 position:75%
+But turned out that best decision ever to bet on
+
+00:11:38.907 --> 00:11:42.269 position:83%
+Visual Studio Code because it's have turned out to be
+
+00:11:42.333 --> 00:11:44.679 position:58%
+the gift that keeps on giving for us.
+
+00:11:45.080 --> 00:11:48.115 position:77%
+We get new features every year or every month and
+
+00:11:48.177 --> 00:11:50.159
+we can easily adopt to them, so.
+
+00:11:50.320 --> 00:11:52.432 position:81%
+Yeah, there's a lot of advantages of being in Visual
+
+00:11:52.472 --> 00:11:52.960
+Studio Code.
+
+00:11:53.160 --> 00:11:53.680
+Has a lot of.
+
+00:11:53.680 --> 00:11:56.680 position:73%
+Leverage all the all the things that it offers.
+
+00:11:57.520 --> 00:12:01.840 position:75%
+And that allows us to focus on what is important
+
+00:12:01.930 --> 00:12:06.520 position:80%
+for us, which is our language, the concepts that we
+
+00:12:06.610 --> 00:12:11.380 position:83%
+need for the platform, rather than inventing a lot of
+
+00:12:11.470 --> 00:12:15.160 position:64%
+UI for showing intelligence and all that.
+
+00:12:15.160 --> 00:12:17.784 position:73%
+Things like that, yeah, we get most of that for
+
+00:12:17.840 --> 00:12:18.119
+free.
+
+00:12:18.720 --> 00:12:23.678 position:81%
+So you mentioned the that we have a language service
+
+00:12:23.774 --> 00:12:27.588 position:63%
+as part of it, which is kind of what the
+
+00:12:27.683 --> 00:12:30.640
+roles in architecture also has.
+
+00:12:30.880 --> 00:12:32.920
+So how is that a good thing?
+
+00:12:33.400 --> 00:12:35.120
+Why do we need a language service?
+
+00:12:35.559 --> 00:12:40.147 position:97%
+We need a language service because modern developers actually expect
+
+00:12:40.215 --> 00:12:43.453 position:75%
+to be able to get into the sense get information
+
+00:12:43.521 --> 00:12:45.679
+about the symbols in the editor.
+
+00:12:46.120 --> 00:12:49.713 position:77%
+So whenever you type, we need the compiler to run
+
+00:12:49.786 --> 00:12:51.840
+instantly in the background.
+
+00:12:51.840 --> 00:12:53.480 position:66%
+But that's what the language service does.
+
+00:12:53.480 --> 00:12:57.704 position:69%
+Yes, exactly So it has the set of all files,
+
+00:12:57.800 --> 00:13:02.600 position:78%
+and it constantly provides a new compilation that.
+
+00:13:03.360 --> 00:13:04.680
+Even partial compilations.
+
+00:13:04.840 --> 00:13:05.720
+Even partial comp.
+
+00:13:05.720 --> 00:13:08.653 position:86%
+Typically when you type, by definition you are you know
+
+00:13:08.706 --> 00:13:11.319 position:77%
+it's like you've written half of the code, you or
+
+00:13:11.373 --> 00:13:13.559 position:64%
+less, and then typically doesn't compile.
+
+00:13:13.559 --> 00:13:16.309 position:78%
+Most of the time when you're in the compiler, what
+
+00:13:16.364 --> 00:13:19.279 position:83%
+you have written in your it does not compile exactly,
+
+00:13:19.334 --> 00:13:20.159
+so it requires.
+
+00:13:20.440 --> 00:13:23.819 position:86%
+It requires the background compilation to be able to do
+
+00:13:23.881 --> 00:13:24.679
+some partial.
+
+00:13:24.679 --> 00:13:27.264 position:94%
+Compilations for the utilis and something like that would be
+
+00:13:27.307 --> 00:13:28.039
+good at recovery.
+
+00:13:28.080 --> 00:13:30.720 position:83%
+That's actually one of the harder parts because it's.
+
+00:13:30.760 --> 00:13:34.145 position:80%
+I mean, it's textbook to create a compiler that has
+
+00:13:34.212 --> 00:13:37.598 position:80%
+a perfect source, but but having a source where you
+
+00:13:37.664 --> 00:13:41.249 position:84%
+are typing something in the middle but you would still
+
+00:13:41.316 --> 00:13:45.100 position:89%
+like to have intellisense for what comes after means that
+
+00:13:45.166 --> 00:13:46.760
+you need to do recovery.
+
+00:13:47.800 --> 00:13:51.495 position:84%
+And another important aspect of that is also that when
+
+00:13:51.563 --> 00:13:55.122 position:81%
+you only make more changes, you don't want to repass
+
+00:13:55.191 --> 00:13:58.749 position:81%
+everything, you want to reuse as much as possible to
+
+00:13:58.818 --> 00:14:02.239 position:78%
+be memory efficient in the background compilation.
+
+00:14:02.240 --> 00:14:05.408 position:78%
+Yeah, so it's you have good performance and a good
+
+00:14:05.472 --> 00:14:07.119
+experience as a developer.
+
+00:14:07.800 --> 00:14:10.699 position:83%
+And that's actually one of the places where we really
+
+00:14:10.754 --> 00:14:13.981 position:92%
+benefited from what we got from Roslyn, because it's helped
+
+00:14:14.036 --> 00:14:15.239
+us be efficient there.
+
+00:14:17.480 --> 00:14:21.593 position:89%
+And the language services also an integral part of Visual
+
+00:14:21.665 --> 00:14:25.706 position:88%
+Studio Code and how they envision that you extend Visual
+
+00:14:25.778 --> 00:14:28.159
+Studio Code with other languages.
+
+00:14:28.200 --> 00:14:31.478 position:88%
+So that's the architecture they recommend if you want to
+
+00:14:31.536 --> 00:14:32.999
+implement a new language.
+
+00:14:33.200 --> 00:14:36.890 position:92%
+Yes, and they actually invented what is called the Language
+
+00:14:36.953 --> 00:14:39.079
+Service Protocol exactly for this.
+
+00:14:39.680 --> 00:14:45.809 position:95%
+And it's a description of the communication between an editor
+
+00:14:45.909 --> 00:14:48.120
+and between languages.
+
+00:14:48.440 --> 00:14:51.660 position:66%
+And the idea is that as long as you adhere
+
+00:14:51.736 --> 00:14:55.416 position:75%
+to the LSP, you can replace languages or you can
+
+00:14:55.493 --> 00:14:56.720
+replace a sense.
+
+00:14:57.320 --> 00:15:00.200 position:95%
+That's actually a standard of an open source protocol, isn't.
+
+00:15:00.200 --> 00:15:03.491 position:72%
+It it is an open source protocol and it's very
+
+00:15:03.563 --> 00:15:07.284 position:81%
+efficient and it it's it's they come often come with
+
+00:15:07.355 --> 00:15:10.718 position:73%
+new additions to it that we can then uptake and
+
+00:15:10.790 --> 00:15:14.439 position:80%
+we can add support for that in our language server.
+
+00:15:14.440 --> 00:15:17.972 position:95%
+So we suddenly support new features invented in Visual Studio
+
+00:15:18.030 --> 00:15:18.319
+Code.
+
+00:15:19.120 --> 00:15:22.583 position:81%
+So when when we, when we started modernizing the old
+
+00:15:22.650 --> 00:15:27.180 position:97%
+development environment and and starting you know, kind of revamping
+
+00:15:27.247 --> 00:15:31.110 position:91%
+the language, we we could have chosen an existing language
+
+00:15:31.177 --> 00:15:35.374 position:98%
+like we could have chosen, I don't know, TypeScript, JavaScript
+
+00:15:35.440 --> 00:15:36.439
+or even Python.
+
+00:15:36.480 --> 00:15:38.416 position:64%
+Then we wouldn't have had to write a, a a
+
+00:15:38.463 --> 00:15:40.920 position:81%
+compiler because there are compilers out there that.
+
+00:15:41.240 --> 00:15:41.680
+So why?
+
+00:15:41.680 --> 00:15:42.200
+Why?
+
+00:15:42.480 --> 00:15:43.440
+Why didn't we do that?
+
+00:15:44.800 --> 00:15:48.540 position:73%
+Oh, there's a couple of reasons, and one of the
+
+00:15:48.620 --> 00:15:52.519 position:77%
+reasons is that we we we need a sandbox language.
+
+00:15:52.880 --> 00:15:56.364 position:83%
+Since we are running third party code on our servers,
+
+00:15:56.430 --> 00:15:59.520 position:73%
+we need something that we could control to the.
+
+00:15:59.520 --> 00:16:00.880
+Security reasons, for example.
+
+00:16:00.880 --> 00:16:01.680
+Yes, so.
+
+00:16:01.680 --> 00:16:03.925 position:58%
+So we it's not an option for us to go
+
+00:16:03.986 --> 00:16:05.200
+directly to dot net.
+
+00:16:05.640 --> 00:16:09.644 position:75%
+We need to somehow use the language as a barrier
+
+00:16:09.727 --> 00:16:13.731 position:75%
+or having a trusted runtime for it that that was
+
+00:16:13.815 --> 00:16:15.399
+one of the reasons.
+
+00:16:15.440 --> 00:16:18.801 position:67%
+The other reason is that we have, I mean we
+
+00:16:18.879 --> 00:16:23.178 position:86%
+could go through the process of converting our own pace
+
+00:16:23.256 --> 00:16:25.680
+to any language potentially it.
+
+00:16:25.760 --> 00:16:26.680
+That's still a lot of work.
+
+00:16:26.920 --> 00:16:29.908 position:66%
+Still a lot of work and the result may not
+
+00:16:29.980 --> 00:16:33.253 position:72%
+be as easy to work with and actually would end
+
+00:16:33.324 --> 00:16:37.523 position:92%
+up not having the same connection between data and metadata
+
+00:16:37.594 --> 00:16:38.519
+that we have.
+
+00:16:39.360 --> 00:16:42.062 position:69%
+I mean we have the which is rather unique in
+
+00:16:42.124 --> 00:16:42.799
+my opinion.
+
+00:16:42.800 --> 00:16:43.280
+You can.
+
+00:16:43.960 --> 00:16:45.877 position:66%
+You can stand on a table field and you can
+
+00:16:45.923 --> 00:16:48.480 position:88%
+get cross references for all the places where it's used.
+
+00:16:48.760 --> 00:16:51.049 position:78%
+This is a language that's been written for for ERP
+
+00:16:51.095 --> 00:16:52.239
+and for Business Central.
+
+00:16:52.240 --> 00:16:52.920
+Exactly.
+
+00:16:53.880 --> 00:16:56.359 position:75%
+But the most important part of this was that our
+
+00:16:56.410 --> 00:16:59.199 position:84%
+entire partner channel have invested in this language.
+
+00:16:59.760 --> 00:17:04.352 position:86%
+So we actually have gone through great work to preserve
+
+00:17:04.435 --> 00:17:08.360 position:73%
+as much of their IP as possible in the process.
+
+00:17:08.840 --> 00:17:11.468 position:69%
+We know that from time to time, yes, we have
+
+00:17:11.528 --> 00:17:13.560
+asked our channel to make changes.
+
+00:17:14.400 --> 00:17:16.574 position:77%
+We don't like it and we know that they definitely
+
+00:17:16.618 --> 00:17:17.239
+don't like it.
+
+00:17:17.240 --> 00:17:18.640
+We do have breaking changes, but.
+
+00:17:19.080 --> 00:17:19.760
+We do have.
+
+00:17:19.920 --> 00:17:21.800
+We do what we can to preserve.
+
+00:17:22.160 --> 00:17:24.837 position:66%
+I mean if you look at the whole history of
+
+00:17:24.901 --> 00:17:28.216 position:81%
+of of NAV and Business Central, we've went through a
+
+00:17:28.280 --> 00:17:31.851 position:88%
+lot of efforts to preserve this code base throughout all
+
+00:17:31.914 --> 00:17:32.679
+these years.
+
+00:17:32.680 --> 00:17:35.541 position:78%
+Maybe that could be the topic of another under the
+
+00:17:35.598 --> 00:17:36.799
+hood talks, actually.
+
+00:17:36.960 --> 00:17:40.277 position:78%
+Yeah, it is actually something we have spent a lot
+
+00:17:40.343 --> 00:17:42.399
+of time on over the years, yes.
+
+00:17:43.400 --> 00:17:47.094 position:63%
+So you you said that that we're not a AL
+
+00:17:47.186 --> 00:17:49.679
+is not a true NET language.
+
+00:17:50.040 --> 00:17:54.160 position:86%
+However, the L compiler is not is not exactly compiler.
+
+00:17:54.400 --> 00:17:57.845 position:78%
+We're not compiling in the pure sense of the word,
+
+00:17:57.914 --> 00:18:02.255 position:98%
+meaning we're not producing executable bytes and bits and bytes
+
+00:18:02.324 --> 00:18:06.114 position:86%
+and artifacts that can that can be executed directly on
+
+00:18:06.183 --> 00:18:08.320
+the on on the operating system.
+
+00:18:08.560 --> 00:18:10.240
+We it's more of a transpire, right?
+
+00:18:10.240 --> 00:18:12.320
+We are converting AL to C#.
+
+00:18:12.840 --> 00:18:13.680
+Is that a good idea?
+
+00:18:14.800 --> 00:18:17.540 position:58%
+Yes, I think for us it is we, we this
+
+00:18:17.614 --> 00:18:20.280 position:56%
+is what we did originally in C side.
+
+00:18:20.320 --> 00:18:21.520
+So C side did the same thing.
+
+00:18:21.520 --> 00:18:23.120
+Yes, C side did the same thing.
+
+00:18:23.119 --> 00:18:27.956 position:77%
+And when we started out, we we couldn't also take
+
+00:18:28.054 --> 00:18:32.200 position:66%
+upon the task too compiled directly to IL.
+
+00:18:32.200 --> 00:18:32.600
+It's hard.
+
+00:18:32.640 --> 00:18:34.889 position:70%
+It would be harder for us to verify, it would
+
+00:18:34.939 --> 00:18:36.239
+be harder for us to debug.
+
+00:18:36.600 --> 00:18:37.840
+So we chose that.
+
+00:18:38.880 --> 00:18:41.555 position:67%
+If we just did what C sent did, the runtime
+
+00:18:41.617 --> 00:18:45.040 position:86%
+would actually work, even though we had a new compiler.
+
+00:18:45.120 --> 00:18:45.920
+So what what happened?
+
+00:18:45.920 --> 00:18:49.278 position:77%
+When I have a snippet of code, the compiler takes
+
+00:18:49.347 --> 00:18:52.980 position:83%
+it and the L compiler takes it and actually generates
+
+00:18:53.049 --> 00:18:56.545 position:80%
+some C# code that basically does the same thing but
+
+00:18:56.613 --> 00:18:59.561 position:67%
+in C#, and then we compile the C code after
+
+00:18:59.629 --> 00:19:03.400 position:86%
+that to an actual execute using the regular C compiler,
+
+00:19:03.468 --> 00:19:03.879
+right?
+
+00:19:04.000 --> 00:19:06.080 position:64%
+Yes, and that's exactly what we're doing.
+
+00:19:06.600 --> 00:19:08.560 position:66%
+And then we have some additional metadata.
+
+00:19:08.560 --> 00:19:13.922 position:75%
+We actually put in most cases XML and also stall
+
+00:19:14.034 --> 00:19:18.280 position:59%
+Mac in the runtime or in the database.
+
+00:19:18.280 --> 00:19:20.440 position:58%
+So this is what we use for execution.
+
+00:19:21.359 --> 00:19:24.962 position:59%
+So back to VS Code and back to the the
+
+00:19:25.057 --> 00:19:29.039 position:66%
+paradigm shift from from Seaside to to AL.
+
+00:19:29.360 --> 00:19:30.200
+There was another.
+
+00:19:30.400 --> 00:19:32.695 position:63%
+So we we went from from Seaside to to BS
+
+00:19:32.753 --> 00:19:33.040
+Code.
+
+00:19:33.040 --> 00:19:34.280
+That was 1 paradigm shift.
+
+00:19:34.280 --> 00:19:38.829 position:98%
+But there was another pretty significant paradigm shift that we
+
+00:19:38.901 --> 00:19:39.840
+went through.
+
+00:19:39.840 --> 00:19:45.215 position:81%
+At that stage we went from a repository based source
+
+00:19:45.318 --> 00:19:50.279 position:75%
+source artifacts to a text file based artifacts.
+
+00:19:50.280 --> 00:19:53.446 position:77%
+So before in Seaside when you, the code you wrote
+
+00:19:53.510 --> 00:19:56.159 position:64%
+was actually stored in the database, yes?
+
+00:19:56.840 --> 00:20:00.442 position:77%
+And now with with Visual Studio Code and with the
+
+00:20:00.516 --> 00:20:04.266 position:80%
+L compiler, the code is actually saved in text file
+
+00:20:04.339 --> 00:20:08.530 position:89%
+like any like many other languages like C# and JavaScript
+
+00:20:08.604 --> 00:20:09.560
+and so forth.
+
+00:20:09.760 --> 00:20:11.640 position:64%
+Is that is that was that a good thing or?
+
+00:20:12.120 --> 00:20:14.680 position:80%
+Yeah, in my opinion it was definitely a good thing.
+
+00:20:14.680 --> 00:20:18.401 position:66%
+I earlier on in my tenure in Navy I worked
+
+00:20:18.490 --> 00:20:23.895 position:95%
+on modernizing the build pipeline for for the application and
+
+00:20:23.983 --> 00:20:28.148 position:73%
+and me and a colleague was taskbar to work with
+
+00:20:28.236 --> 00:20:28.680
+that.
+
+00:20:28.680 --> 00:20:32.869 position:72%
+And at that point in time all the sources were
+
+00:20:32.960 --> 00:20:37.787 position:83%
+exported from Seaside into the TXT file and then they
+
+00:20:37.878 --> 00:20:42.796 position:84%
+had to use a small B application that using automation
+
+00:20:42.888 --> 00:20:48.352 position:94%
+on top of Seaside to create database, import object, compile
+
+00:20:48.443 --> 00:20:52.360 position:67%
+all objects which was horrible to automate.
+
+00:20:53.000 --> 00:20:55.947 position:70%
+So the first the thing we actually did was to
+
+00:20:56.013 --> 00:20:59.484 position:83%
+just turn Seaside into give Seaside a command line so
+
+00:20:59.550 --> 00:21:02.760 position:77%
+you could actually compile from the command line.
+
+00:21:03.680 --> 00:21:05.826 position:72%
+It was not pretty, but it was better than what
+
+00:21:05.873 --> 00:21:06.199
+it was.
+
+00:21:06.200 --> 00:21:09.518 position:77%
+And from that point on I just dreamt about fixing
+
+00:21:09.585 --> 00:21:12.565 position:69%
+this for real because it was it was not nice
+
+00:21:12.633 --> 00:21:13.920
+to to work with it.
+
+00:21:14.040 --> 00:21:16.784 position:83%
+Well, and there there's a lot of advantages of having
+
+00:21:16.835 --> 00:21:19.424 position:78%
+the source code in texts, because there's a lot of
+
+00:21:19.476 --> 00:21:22.479 position:91%
+tools out there which you know, like source source control
+
+00:21:22.530 --> 00:21:24.860 position:70%
+to like git or and and you know, searching if
+
+00:21:24.912 --> 00:21:27.760 position:86%
+you want to search through the through the code, right?
+
+00:21:27.760 --> 00:21:29.440 position:75%
+There's a lot of search tools and you know that.
+
+00:21:29.640 --> 00:21:30.000
+Yes.
+
+00:21:30.000 --> 00:21:31.520
+And when you work, yeah.
+
+00:21:31.520 --> 00:21:35.961 position:83%
+And when you work with, with repositories like Git or
+
+00:21:36.045 --> 00:21:40.320 position:80%
+DevOps, we also now have syntax highlight in there.
+
+00:21:40.359 --> 00:21:43.887 position:94%
+So you can actually better, yeah exactly inspect your source
+
+00:21:43.946 --> 00:21:44.239
+code.
+
+00:21:44.240 --> 00:21:45.840 position:61%
+So there's a lot of benefits from that.
+
+00:21:46.040 --> 00:21:49.612 position:73%
+And also there wasn't, I mean there was sort of
+
+00:21:49.688 --> 00:21:53.716 position:83%
+a parallel effort to our cloud endeavor at that point
+
+00:21:53.792 --> 00:21:54.400
+in time.
+
+00:21:54.840 --> 00:21:57.220 position:70%
+But it also turns out that, I mean having the
+
+00:21:57.273 --> 00:22:00.182 position:86%
+requirement to talk directly to a database in the cloud
+
+00:22:00.235 --> 00:22:01.240
+is a very bad idea.
+
+00:22:01.240 --> 00:22:04.760
+And so it it matches that as well.
+
+00:22:06.480 --> 00:22:09.567 position:89%
+So another thing that happened when we moved from Seaside
+
+00:22:09.621 --> 00:22:11.679 position:59%
+to Visual Studio Code is that we lost.
+
+00:22:11.680 --> 00:22:15.885 position:73%
+We had some designers in the in Seaside and and
+
+00:22:15.974 --> 00:22:18.480
+these designers disappeared.
+
+00:22:18.480 --> 00:22:21.183 position:78%
+We went to again a fully text based approach where
+
+00:22:21.237 --> 00:22:24.913 position:97%
+instead of describing things through these designers, you would have
+
+00:22:24.967 --> 00:22:27.616 position:77%
+to describe them in, in in the text file directly
+
+00:22:27.670 --> 00:22:29.941 position:66%
+in the in the file where you had your code
+
+00:22:29.995 --> 00:22:30.320
+right.
+
+00:22:31.560 --> 00:22:34.313 position:58%
+And we we we got a lot of feedback on
+
+00:22:34.387 --> 00:22:34.759
+this.
+
+00:22:34.840 --> 00:22:36.760
+People are still asking about it.
+
+00:22:37.960 --> 00:22:41.775 position:83%
+So, but yeah, then you had another another great idea
+
+00:22:41.847 --> 00:22:42.639
+about that.
+
+00:22:42.960 --> 00:22:43.840
+Yes, I have.
+
+00:22:44.119 --> 00:22:47.148 position:70%
+The last couple of years I have focused a lot
+
+00:22:47.216 --> 00:22:50.110 position:67%
+on trying to figure out how we can make our
+
+00:22:50.177 --> 00:22:54.619 position:97%
+biggest API which is our basic, more visible, better discoverable,
+
+00:22:54.686 --> 00:22:55.359
+navigable.
+
+00:22:56.280 --> 00:22:59.685 position:69%
+And one of the ideas I wanted to explore was
+
+00:22:59.763 --> 00:23:03.401 position:73%
+if if we somehow could use the Web view feature
+
+00:23:03.478 --> 00:23:08.200 position:95%
+in Visual Studio Code in combination with our language server
+
+00:23:08.278 --> 00:23:11.374 position:63%
+to to actually put some UI on top of our
+
+00:23:11.451 --> 00:23:13.000
+application objects.
+
+00:23:13.000 --> 00:23:15.119 position:69%
+So just to explain a little bit, the the web
+
+00:23:15.167 --> 00:23:17.864 position:88%
+view feature in Visual Studio Code, it's actually a page
+
+00:23:17.912 --> 00:23:20.513 position:84%
+that you can have like normally in Visual Studio Code,
+
+00:23:20.561 --> 00:23:22.873 position:75%
+when you open a file, it's typically a text file
+
+00:23:22.921 --> 00:23:24.800 position:61%
+that will show the content of the file.
+
+00:23:24.800 --> 00:23:28.434 position:83%
+But the Visual Studio Code has this feature where you
+
+00:23:28.502 --> 00:23:31.657 position:72%
+can actually have a page which is in essence a
+
+00:23:31.725 --> 00:23:34.400 position:61%
+browser and you can display HTML in it.
+
+00:23:34.400 --> 00:23:38.961 position:73%
+So you can display pretty advanced UI in it and
+
+00:23:39.059 --> 00:23:44.882 position:94%
+this page can communicate with other regular text pages like
+
+00:23:44.979 --> 00:23:48.279
+for example you can have you know.
+
+00:23:48.400 --> 00:23:50.699 position:72%
+A good example is that I think many people are
+
+00:23:50.749 --> 00:23:51.599
+familiar with is.
+
+00:23:51.600 --> 00:23:54.059 position:61%
+If you open a read me file, you can see
+
+00:23:54.122 --> 00:23:57.023 position:72%
+the markup language in a text file and you can
+
+00:23:57.086 --> 00:24:00.239 position:78%
+see the preview of it in the actual formatted way.
+
+00:24:00.960 --> 00:24:03.720 position:88%
+They actually have Visual Studio Code have two concepts.
+
+00:24:03.720 --> 00:24:07.246 position:80%
+They have one which is a web view disconnected from
+
+00:24:07.315 --> 00:24:07.799
+source.
+
+00:24:07.880 --> 00:24:12.674 position:80%
+Then they have the custom design, I think web view,
+
+00:24:12.768 --> 00:24:17.844 position:84%
+and the what we shipped first was actually AL Explorer
+
+00:24:17.938 --> 00:24:19.160
+and ALE Home.
+
+00:24:19.200 --> 00:24:22.240 position:81%
+They are built on just being a web view disconnected
+
+00:24:22.298 --> 00:24:23.000
+from source.
+
+00:24:23.720 --> 00:24:27.076 position:80%
+But the AL Explorer is using actually the same grid
+
+00:24:27.141 --> 00:24:30.300 position:75%
+as our analysis view to show all the objects and
+
+00:24:30.366 --> 00:24:33.919 position:84%
+they get the information from the running compilation.
+
+00:24:33.920 --> 00:24:35.680
+So it's not statically.
+
+00:24:35.680 --> 00:24:38.671 position:80%
+When you go and edit something in a file somewhere,
+
+00:24:38.730 --> 00:24:40.959 position:59%
+it also shows up because it's running.
+
+00:24:41.160 --> 00:24:43.680 position:59%
+So that's a page in in the L Explorer.
+
+00:24:43.680 --> 00:24:46.073 position:80%
+That's a page in Visual Studio Code that allows you
+
+00:24:46.120 --> 00:24:48.560 position:81%
+to actually navigate your code, and you can do some.
+
+00:24:48.760 --> 00:24:51.248 position:64%
+We'll put a link in in in the comments on
+
+00:24:51.309 --> 00:24:53.920 position:67%
+the documentation of the L Explorer, right?
+
+00:24:55.080 --> 00:24:59.171 position:72%
+And also we added Alhome which is the which is
+
+00:24:59.260 --> 00:25:04.952 position:97%
+a news feed for developers, business central AI developers where
+
+00:25:05.041 --> 00:25:09.844 position:84%
+we where that suddenly have a way of communicating the
+
+00:25:09.933 --> 00:25:14.558 position:81%
+IT directly with with with our developers which is a
+
+00:25:14.647 --> 00:25:16.160
+nice new feature.
+
+00:25:16.840 --> 00:25:20.099 position:77%
+But also, and I know you remember that because we
+
+00:25:20.165 --> 00:25:23.824 position:86%
+were on the same session and directions Mia and Hamburg
+
+00:25:23.891 --> 00:25:27.150 position:77%
+where I showed up of a couple of designers, table
+
+00:25:27.217 --> 00:25:28.880
+designer, page designers.
+
+00:25:28.880 --> 00:25:32.108 position:84%
+They are built on the other model, the custom designer
+
+00:25:32.168 --> 00:25:35.755 position:94%
+model, which actually is a visualization of the source code,
+
+00:25:35.815 --> 00:25:39.283 position:91%
+which means that if you make changes through the designer,
+
+00:25:39.343 --> 00:25:40.240
+it updates the.
+
+00:25:40.240 --> 00:25:40.480
+Song.
+
+00:25:40.480 --> 00:25:42.400
+So that's the old designers.
+
+00:25:42.680 --> 00:25:43.040
+That was.
+
+00:25:43.040 --> 00:25:46.120 position:58%
+Actually in a new Visual Studio Code.
+
+00:25:46.280 --> 00:25:46.960
+Environment.
+
+00:25:47.440 --> 00:25:48.480
+But that's still a prototype.
+
+00:25:48.520 --> 00:25:49.640
+Right, still a prototype.
+
+00:25:49.760 --> 00:25:52.259 position:77%
+I would love us to prioritize them, but again, we
+
+00:25:52.310 --> 00:25:53.280
+need to prioritize.
+
+00:25:53.400 --> 00:25:57.007 position:63%
+So but it shows it can be done with this
+
+00:25:57.097 --> 00:25:58.360
+functionality.
+
+00:25:58.359 --> 00:26:01.141 position:69%
+So we have some ideas on how to maybe revive
+
+00:26:01.204 --> 00:26:03.479 position:56%
+these designers at some stage right?
+
+00:26:03.480 --> 00:26:04.800
+But it's still the prototype label.
+
+00:26:06.160 --> 00:26:09.955 position:63%
+So one last thing, we we also have a lot
+
+00:26:10.050 --> 00:26:14.605 position:75%
+of people asking us to expose the compiler as an
+
+00:26:14.700 --> 00:26:15.079
+API.
+
+00:26:15.119 --> 00:26:17.310 position:61%
+They would like to be able to use it to
+
+00:26:17.367 --> 00:26:20.344 position:83%
+do all sorts of things and some people actually doing
+
+00:26:20.400 --> 00:26:22.760 position:66%
+it already in a kind of non supported way.
+
+00:26:23.680 --> 00:26:26.600 position:63%
+Is that something we we are going to do?
+
+00:26:28.920 --> 00:26:32.325 position:88%
+There, from the beginning when we started creating a new
+
+00:26:32.386 --> 00:26:34.879 position:64%
+compiler, it based on the browsing model.
+
+00:26:34.920 --> 00:26:40.384 position:94%
+It's envisioned as a service we haven't officially opened up
+
+00:26:40.475 --> 00:26:40.840
+for.
+
+00:26:41.400 --> 00:26:45.692 position:89%
+New for for external use means that we haven't documented
+
+00:26:45.768 --> 00:26:49.157 position:70%
+it, but we know there's a lot of partners out
+
+00:26:49.232 --> 00:26:51.040
+there that are actually.
+
+00:26:51.200 --> 00:26:52.120
+We're not preventing it.
+
+00:26:52.240 --> 00:26:53.640
+No, we're not preventing it.
+
+00:26:53.640 --> 00:26:56.099 position:88%
+We're not just supporting it and we we reserve ourselves
+
+00:26:56.143 --> 00:26:57.680
+the right to change it at any time.
+
+00:26:58.040 --> 00:27:01.123 position:67%
+And we actually, I mean we try not to break
+
+00:27:01.194 --> 00:27:01.839
+anything.
+
+00:27:02.240 --> 00:27:07.057 position:98%
+Also here, even though we haven't officially supported, we actually
+
+00:27:07.129 --> 00:27:10.293 position:69%
+we know that it's used and it's used for the
+
+00:27:10.365 --> 00:27:14.033 position:80%
+benefit of our community, which is great and I love
+
+00:27:14.105 --> 00:27:15.039
+why we don't.
+
+00:27:15.280 --> 00:27:15.760
+Prevent it.
+
+00:27:16.200 --> 00:27:18.106 position:66%
+And I love to see all the things which are
+
+00:27:18.151 --> 00:27:18.559
+actually.
+
+00:27:18.560 --> 00:27:20.440 position:88%
+People are doing pretty good cool things with it, right?
+
+00:27:21.000 --> 00:27:21.840
+Yes, exactly.
+
+00:27:21.840 --> 00:27:26.462 position:92%
+And as I mean already incredibly many AL related extensions
+
+00:27:26.540 --> 00:27:31.085 position:91%
+in the Visual Studio Code Marketplace, which is amazing to
+
+00:27:31.163 --> 00:27:35.315 position:83%
+see the ideas and creativity that our partner Jung is
+
+00:27:35.394 --> 00:27:38.919 position:70%
+actually adding also in the development area.
+
+00:27:40.360 --> 00:27:40.680
+All right.
+
+00:27:40.680 --> 00:27:43.715 position:69%
+So if maybe to conclude, I would ask you, if
+
+00:27:43.784 --> 00:27:46.958 position:72%
+you know, if I'm a new developer and I'm mute,
+
+00:27:47.027 --> 00:27:50.959 position:89%
+we are new to Business Central, what would you recommend?
+
+00:27:50.960 --> 00:27:52.280
+Where do I Where do I start?
+
+00:27:52.280 --> 00:27:55.549 position:91%
+How do I get started with developing, you know, extensions
+
+00:27:55.605 --> 00:27:57.239
+for for for Business Central?
+
+00:27:57.400 --> 00:28:00.280 position:81%
+Yeah, there's of course our own documentation on Ms.
+
+00:28:00.280 --> 00:28:05.249 position:97%
+learning, which is both a combination of reference documentation but
+
+00:28:05.322 --> 00:28:07.880
+also getting started documentation.
+
+00:28:08.119 --> 00:28:12.686 position:86%
+And then there's our launch event videos and which also
+
+00:28:12.769 --> 00:28:17.170 position:83%
+talks about all the new features and sometimes also a
+
+00:28:17.253 --> 00:28:22.318 position:95%
+little bit broader and actually our partner channel also here
+
+00:28:22.401 --> 00:28:24.559
+doing it and amazing work.
+
+00:28:24.560 --> 00:28:28.214 position:88%
+I mean we have many partners blogging or creating videos
+
+00:28:28.280 --> 00:28:29.520
+around development.
+
+00:28:29.520 --> 00:28:30.760
+So lots of resources out there.
+
+00:28:30.760 --> 00:28:34.648 position:88%
+There's lots of resources which are, I mean really great
+
+00:28:34.717 --> 00:28:38.398 position:83%
+resources, and it's also really great to see how many
+
+00:28:38.467 --> 00:28:42.356 position:88%
+actually want to contribute and make this an even better
+
+00:28:42.425 --> 00:28:43.120
+community.
+
+00:28:43.240 --> 00:28:45.320 position:75%
+It's a really great community we have out there.
+
+00:28:45.360 --> 00:28:45.640
+Thank you.
+
+00:28:45.800 --> 00:28:47.120
+Thank you for supporting us.
+
+00:28:47.160 --> 00:28:47.560
+Yes.
+
+00:28:47.960 --> 00:28:48.600
+Thank you very much.
+
+00:28:49.360 --> 00:28:49.600
+All right.
+
+00:28:49.600 --> 00:28:50.280
+Thank you, Espen.
+
+00:28:51.400 --> 00:28:54.081 position:80%
+I hope you enjoy this talk about the inner workings
+
+00:28:54.133 --> 00:28:55.079
+of the L compiler.
+
+00:28:56.240 --> 00:28:58.680 position:59%
+Let us know in the comments next time.
+
+00:28:58.680 --> 00:29:01.366 position:80%
+Next time we'll talk about, we'll try to answer the
+
+00:29:01.418 --> 00:29:04.420 position:89%
+question of how many users can Business Central handle in
+
+00:29:04.473 --> 00:29:05.000
+the cloud.
+
+00:29:05.000 --> 00:29:07.240 position:64%
+So stay tuned and thank you for watching.
+

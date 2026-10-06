@@ -1,0 +1,857 @@
+{
+  "video_id": "3tmaVpPTQLw",
+  "item_id": "video/yt-microsoft/3tmaVpPTQLw",
+  "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
+  "duration_s": 1834,
+  "systems": [
+    "integration",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "shopify connector",
+    "b2b",
+    "order editing",
+    "company synchronization",
+    "customer synchronization",
+    "inventory calculation",
+    "catalog management",
+    "shipment confirmation",
+    "refunds and returns",
+    "price synchronization",
+    "checkout",
+    "credit memos"
+  ],
+  "chapters": [
+    {
+      "title": "Shopify Connector Setup and Core Features",
+      "t_start": 0,
+      "t_end": 154.3
+    },
+    {
+      "title": "Inventory and Shipment Configuration",
+      "t_start": 154.3,
+      "t_end": 248
+    },
+    {
+      "title": "Overview of B2B on Shopify Platform",
+      "t_start": 248,
+      "t_end": 288.6
+    },
+    {
+      "title": "B2B Features and Unified Commerce Experience",
+      "t_start": 288.6,
+      "t_end": 422.4
+    },
+    {
+      "title": "B2B Integration with Business Central",
+      "t_start": 422.4,
+      "t_end": 503.3
+    },
+    {
+      "title": "D2C Customer and B2B Company Synchronization",
+      "t_start": 503.3,
+      "t_end": 620.5
+    },
+    {
+      "title": "Company Creation and Catalog Setup",
+      "t_start": 620.5,
+      "t_end": 706.6
+    },
+    {
+      "title": "B2B Catalog Management and Storefront Demo",
+      "t_start": 706.6,
+      "t_end": 817.9
+    },
+    {
+      "title": "B2B Login and Company Assignment",
+      "t_start": 817.9,
+      "t_end": 947.8
+    },
+    {
+      "title": "Catalog Actions, Price Synchronization, and B2B Checkout",
+      "t_start": 947.8,
+      "t_end": 1098.7
+    },
+    {
+      "title": "B2B and D2C Order Handling and Order Editing",
+      "t_start": 1098.7,
+      "t_end": 1380.8
+    },
+    {
+      "title": "Credit Memo Creation and Order Sync Management",
+      "t_start": 1380.8,
+      "t_end": 1664.9
+    },
+    {
+      "title": "Error Detection, Order Resolution, and Closing",
+      "t_start": 1664.9,
+      "t_end": 1834
+    }
+  ],
+  "features": [
+    {
+      "name": "Automatic Shopify URL Configuration",
+      "description": "The connector now automatically updates and constructs the Shopify admin URL, eliminating the need for manual URL configuration when setting up the connector.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.4,
+      "t_end": 98.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "url configuration",
+        "shopify setup",
+        "ease of use"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inventory Minus Reservation Calculation",
+      "description": "A built-in inventory calculation method that subtracts reservations from total inventory, reducing the need for customers to build custom extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.5,
+      "t_end": 133.7,
+      "is_demoed": true,
+      "caveats": [
+        "requires extensibility configuration to use alternative inventory calculations"
+      ],
+      "tags": [
+        "inventory",
+        "calculation method",
+        "standard behavior"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Dynamic Guidance Notifications",
+      "description": "Contextual notifications on the product list that help users understand the next steps for pushing or importing data to Shopify, adapting based on the user's action needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.3,
+      "t_end": 174.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "guidance",
+        "notifications",
+        "user experience"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shipment Confirmation Control",
+      "description": "A new setting that allows companies to disable automatic shipment confirmation notifications to Shopify, useful for digital goods where fulfillment details are not needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 227.9,
+      "t_end": 248,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shipment",
+        "fulfillment",
+        "digital goods"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Default Refunds and Returns Importing",
+      "description": "The connector now imports refunds and returns by default, a minor change from previous behavior that improves data accuracy between Shopify and Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248,
+      "t_end": 268.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "refunds",
+        "returns",
+        "default behavior"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "B2B on Shopify Platform",
+      "description": "A suite of wholesale features built into Shopify's core platform enabling unified commerce for B2B and D2C operations with full customization and integration capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.6,
+      "t_end": 442.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires Shopify plan with B2B capabilities"
+      ],
+      "tags": [
+        "b2b",
+        "wholesale",
+        "unified commerce",
+        "platform feature"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "B2B Customizable Buying Experience",
+      "description": "Merchants can fully control and customize the wholesale buying experience including product availability, price lists, payment terms, shipping methods on a per-customer basis without coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 384,
+      "t_end": 404.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "pricing",
+        "payment terms",
+        "no-code"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B Business Central Integration",
+      "description": "Enhanced integration between Shopify B2B and Microsoft Business Central enabling seamless synchronization of company data, catalogs, and order management between systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442.8,
+      "t_end": 503.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "integration",
+        "company data",
+        "catalog sync",
+        "order management"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "D2C Customer Synchronization Control",
+      "description": "Improved customer synchronization allowing merchants to select specific D2C customers to export to Shopify instead of a global boolean setting, providing more granular control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 518.2,
+      "t_end": 559.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer sync",
+        "d2c",
+        "control",
+        "ui improvement"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "B2B Company Synchronization",
+      "description": "Synchronized settings for B2B company export to Shopify including configurable default contact permissions and automatic catalog creation options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580,
+      "t_end": 620.5,
+      "is_demoed": true,
+      "caveats": [
+        "requires Shopify B2B plan capability"
+      ],
+      "tags": [
+        "company sync",
+        "b2b",
+        "permissions",
+        "catalog"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Default Contact Permissions Configuration",
+      "description": "Settings to configure default permissions for main contacts created in B2B companies, with options for no permissions, ordering only, or location admin access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580,
+      "t_end": 600.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "contacts",
+        "access control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic Catalog Creation for Companies",
+      "description": "Optional automatic catalog creation when new companies are created in Shopify, with the ability to disable and manually manage catalogs instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 600.3,
+      "t_end": 706.6,
+      "is_demoed": true,
+      "caveats": [
+        "automatic creation can be disabled for manual catalog management"
+      ],
+      "tags": [
+        "catalog",
+        "automation",
+        "company setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "B2B Catalog Management",
+      "description": "Manual and flexible catalog creation for B2B companies allowing selective product inclusion, with ability to assign catalogs to multiple companies and differentiate B2B from D2C product availability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 706.6,
+      "t_end": 763.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "catalog management",
+        "product selection",
+        "b2b d2c differentiation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B Modern Authorization",
+      "description": "Shopify's modern authorization for B2B customers using email-based verification with six-digit codes instead of traditional login credentials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 838.4,
+      "t_end": 877.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "authentication",
+        "b2b",
+        "authorization",
+        "security"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Company-Specific Catalogs",
+      "description": "B2B customers can be assigned to specific companies with associated catalogs in Shopify admin, allowing different product selections and pricing per company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 877.4,
+      "t_end": 947.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "b2b",
+        "catalog",
+        "company"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Get Catalogs Action",
+      "description": "A new action in Business Central to retrieve catalogs from Shopify for synchronized companies, creating catalog records for B2B operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 968,
+      "t_end": 1008.1,
+      "is_demoed": true,
+      "caveats": [
+        "only retrieves catalogs for companies already synchronized with Business Central"
+      ],
+      "tags": [
+        "catalog",
+        "synchronization",
+        "b2b"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Catalog Price Synchronization",
+      "description": "Ability to sync prices from catalogs to Shopify storefront, including applying discounts and line discounts defined in Business Central catalog settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 988,
+      "t_end": 1019.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "discount",
+        "synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B Checkout with Company Assignment",
+      "description": "B2B checkout experience shows company name, user name, multiple company addresses, and allows users to enter PO numbers for payment tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1039.8,
+      "t_end": 1098.7,
+      "is_demoed": true,
+      "caveats": [
+        "payment may be configured to occur outside of Shopify checkout"
+      ],
+      "tags": [
+        "b2b",
+        "checkout",
+        "company",
+        "po-number"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "B2B vs D2C Order Differentiation",
+      "description": "Orders placed by B2B users are assigned to the company entity, while D2C orders are assigned to the individual person, allowing different handling in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1098.7,
+      "t_end": 1162.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "b2b",
+        "d2c",
+        "order-type"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Cancel Order Action",
+      "description": "New action to cancel orders imported from Shopify with ability to notify customers, specify reason, and automatically restock items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1142.3,
+      "t_end": 1162.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order-management",
+        "cancellation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Order Status Synchronization",
+      "description": "Order statuses from Business Central are synchronized back to Shopify, including paid status and cancellation status for merchant visibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1162.6,
+      "t_end": 1203.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order-status",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Order Editing with Refunds",
+      "description": "Merchants can edit orders in Shopify after placement, including removing items and replacing them with others, with refunds processed for price differences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1223.7,
+      "t_end": 1380.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order-editing",
+        "refund",
+        "merchant"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Intelligent Credit Memo Creation",
+      "description": "Business Central automatically creates credit memos only from refunds with actual amounts, filtering out zero-value refunds from Shopify order edits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1401,
+      "t_end": 1498,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "credit-memo",
+        "refund",
+        "synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Synchronize Order and Unlink Actions",
+      "description": "Two main actions for handling already-processed orders that receive edits: Synchronize Order to detect errors, and Unlink Process Documents to reset and reprocess from Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1498,
+      "t_end": 1664.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires manual decision on company processes when conflicts occur"
+      ],
+      "tags": [
+        "order-management",
+        "synchronization",
+        "error-handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Order Error Detection for Received Edits",
+      "description": "The system now detects when an order has been processed but receives an addition or edit that impacts the order amount, particularly for items that have already been paid.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1568.9,
+      "t_end": 1588.9,
+      "is_demoed": true,
+      "caveats": [
+        "Error detection only notifies users; automatic modification of documents is not possible",
+        "Shopify lacks detailed warehouse handling information"
+      ],
+      "tags": [
+        "shopify edits",
+        "error detection",
+        "order synchronization"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Synchronize Order from Shopify Action",
+      "description": "Main action that allows users to synchronize an order from Shopify, re-importing and reprocessing the order data to handle edits and discrepancies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1588.9,
+      "t_end": 1608.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual user action to resolve complex situations"
+      ],
+      "tags": [
+        "shopify edits",
+        "order resynchronization",
+        "action"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Unlink Process Documents Action",
+      "description": "Action that allows users to unlink a processed order and reprocess it as new, essentially resetting it to handle subsequent edits from Shopify independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1644.6,
+      "t_end": 1664.9,
+      "is_demoed": true,
+      "caveats": [
+        "Works best for scenarios not yet integrated into warehouse processing"
+      ],
+      "tags": [
+        "order unlinking",
+        "reprocessing",
+        "action"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automatic Credit Memo Creation for Refunds",
+      "description": "System can automatically create credit memos when Shopify edits involve refunds, enabling coordinated processing of both the order edit and the financial adjustment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1766.1,
+      "t_end": 1786.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only works when refund information is available from Shopify",
+        "Cannot create credit memo if refund was not triggered"
+      ],
+      "tags": [
+        "credit memos",
+        "refunds",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Edit and Refund Processing for Paid Orders",
+      "description": "For orders already paid in Shopify, the connector supports either separate handling of edits and refunds or processing them together as a combined operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1745.9,
+      "t_end": 1766.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual process decisions by companies"
+      ],
+      "tags": [
+        "paid orders",
+        "refunds",
+        "order edits"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Edit Support for Unpaid Orders",
+      "description": "Shopify allows edits for orders without payments, and the connector supports these modifications without requiring refund handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1745.9,
+      "t_end": 1758.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "unpaid orders",
+        "order edits"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "User Notification for Conflicting Documents",
+      "description": "When a document in Business Central has already been created but receives subsequent edits from Shopify, the system displays warnings and notifications to alert users of the conflict.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1786.3,
+      "t_end": 1799.6,
+      "is_demoed": true,
+      "caveats": [
+        "Notification-only approach; requires manual user intervention",
+        "System cannot automatically modify documents once created"
+      ],
+      "tags": [
+        "notifications",
+        "error handling",
+        "user alerts"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Andre Pano",
+      "confidence": "high"
+    },
+    {
+      "name": "Andre",
+      "confidence": "high"
+    },
+    {
+      "name": "Joshua",
+      "confidence": "high"
+    },
+    {
+      "name": "Ben Rabi",
+      "confidence": "medium"
+    },
+    {
+      "name": "Onut",
+      "confidence": "medium"
+    },
+    {
+      "name": "Claudia Lawson",
+      "confidence": "medium"
+    },
+    {
+      "name": "Josa",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 78.8,
+      "text": "now we actually update it and now it is very easy so you can see that URL is automatically updated so no need to",
+      "why_it_matters": "Demonstrates a key usability improvement where the connector automatically configures Shopify URLs, removing a previous pain point for setup.",
+      "check": "exact"
+    },
+    {
+      "t": 133.7,
+      "text": "we are also adding this functionality out of the box so for new Merchants they don't need to build a PT and for existing",
+      "why_it_matters": "Shows that inventory calculation is now built-in, reducing implementation effort and maintenance costs for customers.",
+      "check": "exact"
+    },
+    {
+      "t": 308.6,
+      "text": "shopify is not a separate platform it's not an app bolted onto the side of shopify and it's not acquired software we",
+      "why_it_matters": "Clarifies that B2B is a native platform feature integrated into Shopify core, not a third-party add-on.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 442.8,
+      "text": "with Microsoft business Central's updated Integrations merchants can easily send companies and cataloges data from Shopify to business Central and vice versa for better",
+      "why_it_matters": "Confirms bidirectional data sync between Shopify B2B and Business Central for companies and catalogs.",
+      "check": "exact"
+    },
+    {
+      "t": 462.8,
+      "text": "we've released over four dozen features just for wholesale the list that you're seeing on your screen is not an exhaustive list in fact",
+      "why_it_matters": "Emphasizes Shopify's significant investment in B2B with 40+ features released and ongoing development velocity.",
+      "check": "exact"
+    },
+    {
+      "t": 518.2,
+      "text": "we have removed to export customers to Shopify Boolean and instead we aligned this uh with uh the item sy so if you want",
+      "why_it_matters": "Describes a UX improvement where customer export is now selective via individual button actions rather than a global toggle.",
+      "check": "exact"
+    },
+    {
+      "t": 838.4,
+      "text": "for B2B or for modern authorization engines Shopify doesn't require user to know like login and password so user needs to only specify email",
+      "why_it_matters": "Explains a security and usability feature where B2B users authenticate via email verification codes instead of passwords.",
+      "check": "exact"
+    },
+    {
+      "t": 877.4,
+      "text": "this specific user and this specific catalog are not yet attached to the company so let me go to the Shopify admin company and",
+      "why_it_matters": "Shows that company assignment and catalog association are key administrative tasks for B2B setup.",
+      "check": "exact"
+    },
+    {
+      "t": 968,
+      "text": "go to uh catalogs this is a new action and now I can use get catalogs uh select a shop and you can see",
+      "why_it_matters": "Introduces the new Get Catalogs action in Business Central for B2B operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1121.9,
+      "text": "although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned",
+      "why_it_matters": "Explains the key distinction between B2B and D2C orders and how they are tracked separately.",
+      "check": "exact"
+    },
+    {
+      "t": 1568.9,
+      "text": "so this will show whenever uh an order has already been processed but now an addition is received on line S on something that",
+      "why_it_matters": "Explains the core error detection capability that identifies when Shopify edits conflict with already-processed orders.",
+      "check": "exact"
+    },
+    {
+      "t": 1588.9,
+      "text": "we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink",
+      "why_it_matters": "Documents the main capabilities for handling post-processing order edits from Shopify in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1588.9,
+      "text": "one is synchronized order from Shopify and the other one is onlink process documents",
+      "why_it_matters": "Lists the two main user actions provided to resolve order conflicts.",
+      "check": "exact"
+    },
+    {
+      "t": 1644.6,
+      "text": "forget what I had before and I want to reprocess this again and it will be processed as new and it will just have",
+      "why_it_matters": "Explains how the Unlink action allows Business Central to reset and reprocess Shopify orders from scratch.",
+      "check": "exact"
+    },
+    {
+      "t": 1644.6,
+      "text": "unlink okay so this is basically saying forget what I had before and I want to reprocess this again and it will be processed",
+      "why_it_matters": "Describes the unlink action design that lets users reset and reprocess orders as if new.",
+      "check": "exact"
+    },
+    {
+      "t": 1685,
+      "text": "shopify doesn't have much information about the warehouse handling of the created order so it",
+      "why_it_matters": "Explains the fundamental limitation of the integration and the notification-based approach to conflict resolution.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1745.9,
+      "text": "for orders which are already paid you can do either Ed it and refund separately or actually refund all together",
+      "why_it_matters": "Clarifies the payment state handling rules and options for paid orders.",
+      "check": "exact"
+    },
+    {
+      "t": 1766.1,
+      "text": "like either we will edit the imported document or we will uh create credit memo which also can be created automatically",
+      "why_it_matters": "Describes the two processing paths for order changes and indicates automatic credit memo creation capability.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 31
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032761
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028586
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015616999999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.049676
+    }
+  ]
+}

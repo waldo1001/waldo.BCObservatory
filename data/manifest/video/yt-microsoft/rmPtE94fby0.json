@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "BCTalent Stories: Ciellos",
   "url": "https://www.youtube.com/watch?v=rmPtE94fby0",
-  "published_at": null,
+  "published_at": "2024-03-25T14:11:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:53:19.510Z",
+      "captions": "auto:en-orig",
+      "duration_s": 153
+    },
+    "captioned": {
+      "at": "2026-10-06T19:53:25.634Z",
+      "path": "data/captions/microsoft/rmPtE94fby0.vtt",
+      "vtt_sha256": "bf298d61d6fdfeb3570b0fa625a77fa20a8383cff582078cd5e6c792d6871575",
+      "segments": 9,
+      "words": 416,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:53:38.655Z",
+      "path": "data/extract/video/rmPtE94fby0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 2,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.010109
+    },
+    "summarized": {
+      "at": "2026-10-06T19:53:44.703Z",
+      "path": "data/summary/video/rmPtE94fby0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0099724
+    },
+    "linked": {
+      "at": "2026-10-06T19:53:44.705Z",
+      "systems": [
+        "development",
+        "crm",
+        "sales"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:53:44.720Z",
+      "path": "content/videos/rmPtE94fby0.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 454,
     "duration_s": 153,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "259b2cfbf7f687c4b288a31a78593a28ddc49d8b404fb9f3fa35274dd4267a10"
 }

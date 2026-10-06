@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler",
   "url": "https://www.youtube.com/watch?v=ADXkUFI_VWI",
-  "published_at": null,
+  "published_at": "2024-03-27T12:00:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:53:04.039Z",
+      "captions": "manual:en",
+      "duration_s": 1751
+    },
+    "captioned": {
+      "at": "2026-10-06T19:53:13.230Z",
+      "path": "data/captions/microsoft/ADXkUFI_VWI.vtt",
+      "vtt_sha256": "e7b937d33358fb9ff1ecdd736cacee4d43affc2be1cb8da21d6ac4a8f108a07c",
+      "segments": 138,
+      "words": 4649,
+      "lang": "en",
+      "kind": "manual"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 453,
     "duration_s": 1751,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "manual",
+      "lang": "en"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7b937d33358fb9ff1ecdd736cacee4d43affc2be1cb8da21d6ac4a8f108a07c"
 }

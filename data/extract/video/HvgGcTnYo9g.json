@@ -1,0 +1,219 @@
+{
+  "video_id": "HvgGcTnYo9g",
+  "item_id": "video/yt-microsoft/HvgGcTnYo9g",
+  "title": "Bartek Ingredients Inc.",
+  "duration_s": 147,
+  "systems": [
+    "manufacturing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "production order",
+    "paper-based to digital",
+    "power apps integration",
+    "manufacturing visibility",
+    "reporting",
+    "workflow automation",
+    "demand planning",
+    "global operations"
+  ],
+  "chapters": [
+    {
+      "title": "About Bartek Ingredients",
+      "t_start": 0,
+      "t_end": 20.9
+    },
+    {
+      "title": "Migration from paper-based systems",
+      "t_start": 20.9,
+      "t_end": 41.3
+    },
+    {
+      "title": "Production order management and visibility",
+      "t_start": 41.3,
+      "t_end": 61.4
+    },
+    {
+      "title": "Integration with Power Apps for data entry",
+      "t_start": 61.4,
+      "t_end": 81.9
+    },
+    {
+      "title": "Reporting and global operations",
+      "t_start": 81.9,
+      "t_end": 102.3
+    },
+    {
+      "title": "Workflow automation and time efficiency",
+      "t_start": 102.3,
+      "t_end": 122.4
+    },
+    {
+      "title": "Future plans with AI-assisted demand planning",
+      "t_start": 122.4,
+      "t_end": 147
+    }
+  ],
+  "features": [
+    {
+      "name": "Production order management",
+      "description": "Ability to track production from the moment a palet of product is produced to the time it is shipped, with visibility into production timelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 41.3,
+      "t_end": 61.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "production order",
+        "manufacturing visibility",
+        "tracking"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Power Apps integration for data entry",
+      "description": "Manufacturing personnel can input data through Power Apps which syncs automatically back to Business Central, eliminating manual data entry on the manufacturing side.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.9,
+      "t_end": 102.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power apps",
+        "integration",
+        "data entry automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Production reporting and analytics",
+      "description": "Power App integration enables reporting teams to access data that was previously unavailable, with the ability to trace information across the entire business ecosystem.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.9,
+      "t_end": 102.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "analytics",
+        "power apps"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Workflow automation for order processing",
+      "description": "Business Central enables workflow processes for all business functions, reducing the time it takes to process orders from released to finished state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.3,
+      "t_end": 122.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "workflow",
+        "automation",
+        "order processing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "AI-assisted demand planning",
+      "description": "Planned capability to incorporate AI to assist with demand planning as the company moves into more automated planning.",
+      "status": "announced",
+      "status_evidence_t": 122.4,
+      "status_evidence_quote": "as we move into more automated planning and bringing in AI assisted demand planning",
+      "status_evidence_verified": true,
+      "t_start": 122.4,
+      "t_end": 142.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented"
+      ],
+      "tags": [
+        "demand planning",
+        "ai",
+        "future capability"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 41.3,
+      "text": "prior to Dynamics 365 we really did not know how long it would be to produce a palet of product",
+      "why_it_matters": "Demonstrates the key business problem that Business Central solved - lack of visibility into production timelines.",
+      "check": "exact"
+    },
+    {
+      "t": 61.4,
+      "text": "now everything is put into production order we can see everything made from the moment it was produced to the time it was shipped",
+      "why_it_matters": "Shows how production order management provides end-to-end visibility across the production and fulfillment process.",
+      "check": "exact"
+    },
+    {
+      "t": 81.9,
+      "text": "the people on the manufacturing side they don't need to worry about data entry because everything sinks back to business Central through power apps",
+      "why_it_matters": "Illustrates the operational efficiency gained through Power Apps integration eliminating manual data entry in manufacturing.",
+      "check": "exact"
+    },
+    {
+      "t": 81.9,
+      "text": "people are getting data that they didn't even know really existed before and they had no way of capturing",
+      "why_it_matters": "Highlights how integrated reporting unlocked insights that were previously unavailable to the business.",
+      "check": "exact"
+    },
+    {
+      "t": 102.3,
+      "text": "we've been able to condense the amount of time it takes us to get an order from released to finished",
+      "why_it_matters": "Quantifies the process efficiency improvement achieved through workflow automation in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 122.4,
+      "text": "business Central in the Power Platform really lets us leverage a small team and create very big outcomes",
+      "why_it_matters": "Captures the value proposition of Business Central combined with Power Platform for small business scaling.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 122.4,
+      "kind": "coming-later",
+      "text": "as we move into more automated planning and bringing in AI assisted demand planning"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012948999999999999
+    }
+  ]
+}

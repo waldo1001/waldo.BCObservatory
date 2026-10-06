@@ -1,0 +1,163 @@
+{
+  "video_id": "rmPtE94fby0",
+  "item_id": "video/yt-microsoft/rmPtE94fby0",
+  "title": "BCTalent Stories: Ciellos",
+  "duration_s": 153,
+  "systems": [
+    "development",
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "rescale program",
+    "talent training",
+    "business central skills",
+    "career transition",
+    "consulting skills",
+    "ai and copilot",
+    "soft skills",
+    "business processes"
+  ],
+  "chapters": [
+    {
+      "title": "Trainees introduce themselves",
+      "t_start": 0,
+      "t_end": 23
+    },
+    {
+      "title": "Company perspective on rescale program",
+      "t_start": 23,
+      "t_end": 43
+    },
+    {
+      "title": "Future skills and career transition benefits",
+      "t_start": 43,
+      "t_end": 83
+    },
+    {
+      "title": "Program structure and value proposition",
+      "t_start": 83,
+      "t_end": 123.5
+    },
+    {
+      "title": "Closing remarks",
+      "t_start": 123.5,
+      "t_end": 153
+    }
+  ],
+  "features": [
+    {
+      "name": "Rescale Program",
+      "description": "A training program that teaches soft skills and business consulting skills, walking students through case-by-case and process-by-process in a methodical way to accelerate their skills.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23,
+      "t_end": 123.5,
+      "is_demoed": false,
+      "caveats": [
+        "program is challenging with a lot to learn"
+      ],
+      "tags": [
+        "training",
+        "consulting",
+        "soft skills",
+        "career development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot and AI skills in Business Central",
+      "description": "The rescale program emphasizes training in copilot and AI capabilities, with the expectation that there will be less traditional development work in the future as AI tools become more prevalent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 63,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "future skills",
+        "consulting"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kolina",
+      "confidence": "high"
+    },
+    {
+      "name": "Miguel",
+      "confidence": "high"
+    },
+    {
+      "name": "Karina Neelson",
+      "confidence": "high"
+    },
+    {
+      "name": "Darren Treski",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 2.9,
+      "text": "it gave me the opportunity to start learning business Central that is the start of a really great journey for me",
+      "why_it_matters": "Shows the rescale program's role in launching careers in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 43,
+      "text": "there is going to be less development in the future so we definitely need people that have more understanding of business processes",
+      "why_it_matters": "Explains the strategic shift toward consulting and process expertise over pure development skills",
+      "check": "exact"
+    },
+    {
+      "t": 63,
+      "text": "have a path and to know that you know you're supposed to do this this and this it becomes much easier",
+      "why_it_matters": "Highlights how the structured program reduces overwhelm for career changers",
+      "check": "fuzzy"
+    },
+    {
+      "t": 83,
+      "text": "I thought that changing Fields was going to be a really long and hard task but it was actually quite easy",
+      "why_it_matters": "Documents participant experience that the career transition is more accessible than expected",
+      "check": "exact"
+    },
+    {
+      "t": 103.2,
+      "text": "it's a program that walks a student through it Case by case process by process in a methodical way",
+      "why_it_matters": "Describes the core pedagogical approach of the rescale program",
+      "check": "exact"
+    },
+    {
+      "t": 123.5,
+      "text": "the value from what we pay for the res skill program is definitely paying off it would be much more expensive if we had",
+      "why_it_matters": "Quantifies the cost-effectiveness and ROI of the rescale program for partner companies",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010109
+    }
+  ]
+}

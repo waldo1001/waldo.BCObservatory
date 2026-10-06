@@ -1,0 +1,85 @@
+{
+  "video_id": "FuY4EBBZf3c",
+  "item_id": "video/yt-microsoft/FuY4EBBZf3c",
+  "title": "Welcome to Business Central 2024 Release Wave 1",
+  "duration_s": 39,
+  "systems": [
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "release wave 1",
+    "2024 capabilities",
+    "building extensions"
+  ],
+  "chapters": [
+    {
+      "title": "Welcome and introduction to 2024 Release Wave 1",
+      "t_start": 0,
+      "t_end": 15.6
+    },
+    {
+      "title": "Copilot capabilities overview",
+      "t_start": 15.6,
+      "t_end": 23.4
+    },
+    {
+      "title": "Closing remarks and thanks",
+      "t_start": 23.4,
+      "t_end": 39
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot enhancements in 2024 Release Wave 1",
+      "description": "There is significantly more copilot functionality available in the 2024 release wave 1 compared to previous versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3,
+      "t_end": 15.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "2024",
+        "new capabilities"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 3,
+      "text": "there's so much more co-pilot in 2024 release wave 1",
+      "why_it_matters": "Indicates significant expansion of copilot capabilities in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 15.6,
+      "text": "we are looking forward to see what you're going to be building with these new capabilities",
+      "why_it_matters": "Shows that new features are being released and developers are encouraged to build on them.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 2,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0063289999999999996
+    }
+  ]
+}

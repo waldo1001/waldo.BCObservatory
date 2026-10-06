@@ -1,0 +1,27 @@
+{
+  "video_id": "3tmaVpPTQLw",
+  "item_id": "video/yt-microsoft/3tmaVpPTQLw",
+  "summary": "Shopify Connector for Business Central in 2024 release wave 1: B2B company and catalog synchronization, B2B checkout, B2B vs D2C order handling, and order editing with refunds and credit memos. Also covers smaller connector changes such as automatic Shopify URL setup, inventory minus reservation, and shipment confirmation control.",
+  "overview": "The video, published 2024-04-04 (31 minutes), starts with updates to the core connector. These include automatic Shopify admin URL configuration, an inventory calculation that subtracts reservations, dynamic guidance notifications on the product list, a setting to turn off shipment confirmation to Shopify, and refunds and returns imported by default. It then gives an overview of B2B on Shopify.\n\nThe main part is a demo of B2B with Business Central. It covers D2C customer and B2B company synchronization, catalog setup, the Get Catalogs action, price synchronization, and B2B checkout. It ends with order handling: cancelling orders, editing orders in Shopify, creating credit memos from refunds, and the Synchronize Order and Unlink Process Documents actions for orders that were already processed.",
+  "key_points": [
+    "The connector now builds and updates the Shopify admin URL automatically, so it no longer has to be entered by hand.",
+    "The export customers to Shopify Boolean was removed. You now pick specific D2C customers to export, in line with how item synchronization works.",
+    "Company synchronization has settings for default permissions of the main contact (none, ordering only, or location admin). Automatic catalog creation for new companies can be turned off so catalogs are managed manually.",
+    "The new Get Catalogs action retrieves catalogs from Shopify, but only for companies already synchronized with Business Central.",
+    "B2B orders are assigned to the company and D2C orders to the individual person. B2B checkout shows the company, multiple addresses and a PO number field.",
+    "Business Central creates credit memos only from refunds with an actual amount. Zero-value refunds from Shopify order edits are filtered out.",
+    "For orders already processed, Synchronize Order from Shopify and Unlink Process Documents are the two actions. Error detection only notifies the user and cannot change existing documents automatically. Shopify has little warehouse handling information."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "0fa44791308d0ccf56140a9bd8966c05b4c1021ddd387aed373830b06856fe68",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0294164
+  }
+}

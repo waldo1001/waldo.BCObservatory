@@ -1,0 +1,27 @@
+{
+  "video_id": "B8cWQGwajwQ",
+  "item_id": "video/yt-microsoft/B8cWQGwajwQ",
+  "summary": "Page Scripting Tool in Business Central, in preview in 2024 release wave 1: recording and playing back user acceptance tests in the web client, with validation steps, YAML scripts, parameters and suites. Covers permissions, sharing, conditional steps and known limitations such as no pipeline execution.",
+  "overview": "The video introduces the Page Scripting Tool, which lets customers and consultants record user acceptance tests in the Business Central web client and play them back. It walks through permissions, the recording interface, validation steps, saving scripts, playback controls, and sharing through a self-contained link.\n\nIt then covers conditional step branches, optional pages, collapsing nested structures, the page scripting clipboard, session information, Power FX expressions and wait steps. Scripts are stored in YAML, where parameters and script suites with the include command can be edited. The video closes with best practices, preview status and known limitations.",
+  "key_points": [
+    "The tool is in preview in 2024 release wave 1. A warning appears if you play recorded scripts in a production environment.",
+    "Recording and playback need separate permissions. Playback can insert or change data in the environment.",
+    "Scripts must be played in an environment similar to the one where they were recorded, with similar pages, objects and functionality.",
+    "Right-click a control during recording to add a validation step, with operators such as equal to, greater than or less than.",
+    "Single-step playback has next and previous buttons. Previous redoes steps and does not undo them. Run to step is available from a step's context menu.",
+    "Parameters and script suites (the include command) can only be edited in YAML. Included scripts must use parameters, and script order matters.",
+    "Scripts can only run in the client for now. Pipeline execution is under development."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "5abb545d4e0b6841b299c0b8425f9c9a7243c0226bdc1a0b1ebb84d1a2a5de9b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024652399999999998
+  }
+}

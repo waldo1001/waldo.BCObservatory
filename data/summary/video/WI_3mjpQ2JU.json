@@ -1,0 +1,28 @@
+{
+  "video_id": "WI_3mjpQ2JU",
+  "item_id": "video/yt-microsoft/WI_3mjpQ2JU",
+  "summary": "Redesigned US-only 1099 reporting app in Business Central (2024 release wave 1): multi-year IRS setup, document-based 1099 forms, PDF copy substitutions, email delivery to consenting vendors, and legacy data transfer. Direct electronic filing to the IRS is announced for later minor releases, not included at first.",
+  "overview": "The video walks through the redesigned 1099 reporting functionality for the US market. It explains the limits of the old setup and print forms, then shows the new structure: IRS reporting periods, form and form box setup, per-vendor IRS setup, and 1099 form documents with headers and lines created from purchase invoices.\n\nThe demo covers enabling the feature and transferring legacy data, copying setup from a prior period, suggesting vendors for form boxes, propagating vendor setup to ledger entries, and reviewing form document lines. It then covers marking documents as submitted, printing copy types on plain paper, and emailing PDFs to vendors. Electronic submission to the IRS is not yet implemented and is expected in upcoming minor releases, with timing depending on IRS confirmation.",
+  "key_points": [
+    "The feature is for the United States market only. Electronic filing through the IRS platform via APIs is announced for the next few minor releases, with no firm date because it depends on IRS confirmation.",
+    "Until electronic submission exists, the Mark Submitted action is used so documents can be printed and mailed. A later Submit action is meant to replace it.",
+    "IRS setup now has reporting periods with start and end dates and one active period. Different years can be maintained in parallel, and a Copy Setup action copies forms, form boxes, vendor setup, adjustments and statement lines from a prior period.",
+    "Moving legacy 1099 data uses feature management. It is a one-way process, and the data is not mapped one-to-one. New customers can instead start with default data.",
+    "Each 1099 form document covers a single form type, for example miscellaneous and nonemployee compensation cannot be mixed. Documents are created from purchase invoices, and the Replace option recreates them after ledger changes.",
+    "The Including 1099 field on form document lines shows whether an amount reaches the minimum reportable amount. The Propagate action applies vendor form box setup to existing vendor ledger entries.",
+    "Copy B, Copy C and Copy 2 print on plain paper as substitutions, so pre-printed IRS forms are not needed. Email delivery requires vendor consent and an email address, and the TIN can be masked to the last four digits."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "a144a2b69cd95865ff0957ec5e523e731d709b1c197dbaa59702949aa05c01b4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0371624
+  }
+}

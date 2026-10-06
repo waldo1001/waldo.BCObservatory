@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Bartek Ingredients Inc.",
   "url": "https://www.youtube.com/watch?v=HvgGcTnYo9g",
-  "published_at": null,
+  "published_at": "2024-03-21T14:15:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:53:47.549Z",
+      "captions": "auto:en-orig",
+      "duration_s": 147
+    },
+    "captioned": {
+      "at": "2026-10-06T19:53:55.248Z",
+      "path": "data/captions/microsoft/HvgGcTnYo9g.vtt",
+      "vtt_sha256": "5057a0346d86041879b9d3ffbe62b23e45ffbd6b0886bfd5a98dc7315c9b095b",
+      "segments": 8,
+      "words": 403,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:54:12.440Z",
+      "path": "data/extract/video/HvgGcTnYo9g.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.012949
+    },
+    "summarized": {
+      "at": "2026-10-06T19:54:18.859Z",
+      "path": "data/summary/video/HvgGcTnYo9g.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0116764
+    },
+    "linked": {
+      "at": "2026-10-06T19:54:18.861Z",
+      "systems": [
+        "manufacturing",
+        "finance",
+        "integration"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:54:18.879Z",
+      "path": "content/videos/HvgGcTnYo9g.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 456,
     "duration_s": 147,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b286f7809b980b0848e730b32f123d43cb2b2fe2245c13a603e5100934050535"
 }

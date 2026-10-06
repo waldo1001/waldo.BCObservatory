@@ -1,0 +1,686 @@
+{
+  "video_id": "-q8Gm7u7R2A",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.2,
+      "end": 33.6,
+      "text": "hello everyone welcome to business Central launch event in today's presentation we would like to present what's new in business Central integration with data verse my name is Sarco and my colleagues Ivan kage for both product manager for business"
+    },
+    {
+      "t": 33.6,
+      "end": 54.1,
+      "text": "Central in the agenda today we'll first review the data verse integration with business Central and then my um colleague Ivan will uh talk about what's new in data syn and then uh it's my turn to talk about what's new in Virtual tables and what's new in business event so without further Ado let's review"
+    },
+    {
+      "t": 54.1,
+      "end": 57.8,
+      "text": "uh data ver"
+    },
+    {
+      "t": 57.8,
+      "end": 78.1,
+      "text": "integration so as you know already uh dataverse is a data storage and management layer for business application built on Power Platform that includes Dynamic 365 sales marketing field service and customer service business Central is not built on data verse but we have extensive Fabrics"
+    },
+    {
+      "t": 78.1,
+      "end": 98.1,
+      "text": "or tools to integrate with other first and thirdparty business application running on the ters essentially promoting Better Together scenario through wider and deeper interaction Within being Central on those apps extensive mean we cover all types of app and system interaction between business"
+    },
+    {
+      "t": 98.1,
+      "end": 115.7,
+      "text": "Central and those data verse apps such as data sync or synchronization virtual table or virtualization uh data cut event data change update or delete events or change notification and finally business event which is action"
+    },
+    {
+      "t": 115.7,
+      "end": 135.8,
+      "text": "notification Better Together mean business Central and those data app can be integrated in such a way that they can enhance each other essentially living up to the proverbial um um uh expression 1 + 1 equal 3 and the way to do that is to do a wider and deeper integration"
+    },
+    {
+      "t": 135.8,
+      "end": 156,
+      "text": "uh taking advantage of the breadth and depth of those compliment interactions so they become more and more sticky uh one from the other all right so let's go quickly uh on the four complimentary interaction within Business Center daters the first one is data sync that replicates data changes when data is created"
+    },
+    {
+      "t": 156,
+      "end": 176.1,
+      "text": "updated or deleted between overlapping tables in business Central and data verse the second one is virtual tables that enable inbound interaction from data vers into business Central using a business Central uh cruit API but without duplicating data the third interaction"
+    },
+    {
+      "t": 176.1,
+      "end": 196.3,
+      "text": "is data cut events this enables the the reverse Direction which is the outbound interaction from business Central to notify other data verse apps that there are some changes uh in business Central some data changes for example it can actually start a power automate flow using the when a row is added modified"
+    },
+    {
+      "t": 196.3,
+      "end": 216.3,
+      "text": "or deleted trigger and the final interaction is business event that also enable outban interaction uh from business Central to notify that some action are performed on business Central so other apps in data ver can react this can also start a power automate flows using the when"
+    },
+    {
+      "t": 216.3,
+      "end": 236.4,
+      "text": "an action is performed trigger so next I would like to pass it to my um colleague um Ivan to talk about what's new in data sync wow these were some really great diagrams and I really love you know looking at the bigger picture before diving into details so today I'll take you through some of the improvements"
+    },
+    {
+      "t": 236.4,
+      "end": 256.6,
+      "text": "that we've done in data sync and sort of around it right so we'll talk about linking uh business Central and data ver environments we'll talk about how you can add uh additional table and field mappings and we'll talk a bit about the new thing that we added we talk about uh synthetic relations"
+    },
+    {
+      "t": 256.6,
+      "end": 276.6,
+      "text": "so the first topic that I want to talk to you today about is uh using linked uh environments in data ver integration so why is this important this is important mainly because businesses want to keep their dat data safe and secure and without a within a specific privacy boundary admins now"
+    },
+    {
+      "t": 276.6,
+      "end": 297,
+      "text": "have a way of ensuring that that specific business Central uh environment can be linked only with a specific uh data verse environment it also one of the sort of the side effects of that is that it actually ensures even a bit less friction"
+    },
+    {
+      "t": 297,
+      "end": 317.2,
+      "text": "because you don't have to uh you don't have to choose the environment you want to connect uh anymore if the linked environment exists another addition that we've added in here is we've added a capability to add uh table mappings to existing integration tables that has been a recurring"
+    },
+    {
+      "t": 317.2,
+      "end": 337.3,
+      "text": "request from uh our partners and our customers and right now what you can do is you can simply uh go and Define new tables uh that you want to map you find the key synchronization parameters such as descript such as Direction and filters and after that you can"
+    },
+    {
+      "t": 337.3,
+      "end": 357.5,
+      "text": "also Define a configuration templates that are going to be applied in either of the directions when data comes in business Central or when the data comes in uh data verse as well as with uh table mappings you can also now add uh field mappings to these new uh newly"
+    },
+    {
+      "t": 357.5,
+      "end": 376.6,
+      "text": "created integration table mappings or to the existing integration table mappings you define that uh also by specifying the the parameters for each of the fields such as uh transformation rules validation rules and when they need to be uh"
+    },
+    {
+      "t": 376.6,
+      "end": 396.8,
+      "text": "applied there are few things that uh we need to note uh in here for the table integration mappings uh what you will notice is that um you can't actually um remap or duplicate existing uh integration table uh mappings because these are defined"
+    },
+    {
+      "t": 396.8,
+      "end": 416.9,
+      "text": "uh in code and we don't want the the custom ones to actually interfere with with the existing uh table mappings uh the similar things uh similar things applies to uh field mappings with additional uh with additional sort of constraint in here we do"
+    },
+    {
+      "t": 416.9,
+      "end": 437.1,
+      "text": "support uh most of the simple data type uh in the mappings but you will still need a developer assistance in case you want to do some uh uh some mapping of of of lookup Pei fields or you want to introduce some additional logic that needs to be executed when the data gets"
+    },
+    {
+      "t": 437.1,
+      "end": 457.4,
+      "text": "transferred one way or the other there are a few other things that I thought it was sort of uh good to know and good to uh share uh with our community in here there are some uh few smaller or minor improvements that were also added to the data uh synchronization bit of integrating"
+    },
+    {
+      "t": 457.4,
+      "end": 477.7,
+      "text": "with data uh one of the things that we've added is as you can see on the picture you now have a troubleshooting fact box which enables admins to quickly identify and and mitigate the issues uh that might have been uh that might have happened uh during the synchronization"
+    },
+    {
+      "t": 477.7,
+      "end": 498.3,
+      "text": "rather than sifting through the log long long uh synchronization log and going on different places right now when you go to table integration table mappings you can on the on the level of a specific uh integration table mapping inspect the integration errors and uh couple data synchronization"
+    },
+    {
+      "t": 498.3,
+      "end": 519.3,
+      "text": "errors uh one of the other things that we've made to make uh the Integrations a bit more robust the operations of copying the company and copying the environment now actually do a proper cleanup uh of synchronization so you don't get into situations where uh your data might uh sort of"
+    },
+    {
+      "t": 519.3,
+      "end": 539.4,
+      "text": "U erroneously show that it has been coupled uh after you have copied the company or that you get the the synchronization errors from The Source company that you copied and and so on and the last but not least important think in uh in these small things that are good to know is that we have actually renamed"
+    },
+    {
+      "t": 539.4,
+      "end": 559.6,
+      "text": "named uh some of our u connection uh setup Pages uh so uh we used to have Dynamics uh we used to have data verse connection setup and Dynamics Dynamics 365 connection setup so the data verse connection setup stay the data verse connection setup but the"
+    },
+    {
+      "t": 559.6,
+      "end": 580.5,
+      "text": "Dynamics 365 actually got rename to Dynamics 365 sales integration setup now that we also have the integration to field service which is also named like that but if you use tell me you will still be able to uh you will still be able to find those pages uh the way uh you are used to finding them"
+    },
+    {
+      "t": 580.5,
+      "end": 600.5,
+      "text": "and the last thing that I want to uh say in here is that we have actually enabled the use of synthetic relationships uh from business Central and why is that important you know and Sandy actually said there are sort of you know in general two ways of how you can actually move the data you can either synchronize data meaning you will transfer"
+    },
+    {
+      "t": 600.5,
+      "end": 620.5,
+      "text": "the data and you can use the virtualization way of of exposing business Central data without transferring the data right and since we do have a set of uh apis that can actually be exposed as virtual tables in in data verse and we know which data"
+    },
+    {
+      "t": 620.5,
+      "end": 640.6,
+      "text": "we are syncing it makes sense to basically rather than go and customize and add to the to the to the set of data that gets synchronized uh rather than doing that and spending uh developer time on that you can now actually use the existing"
+    },
+    {
+      "t": 640.6,
+      "end": 660.6,
+      "text": "apis to sort of supplement uh that data that has been uh that has been synced in in this uh in this particular uh capability you can simply pick uh the tables that are being synced you can pick the virtual table link them using the couple of fields uh that uh you specified and"
+    },
+    {
+      "t": 660.6,
+      "end": 681.2,
+      "text": "as you are guided through the uh new synthetic relationship assisted setup guide and that uh takes us to the demo so in business Central we'll get to a data ver connection setup where in the integration Action Group you can open integration table mapping there's this new capability"
+    },
+    {
+      "t": 681.2,
+      "end": 698.3,
+      "text": "where you can actually add new table mapping we will call it work uh work type to p pay type as I want to link the business Central work type with the pay type in in field service for"
+    },
+    {
+      "t": 698.3,
+      "end": 708.4,
+      "text": "example uh what I will do in here I will pick a table work type this is a business Central"
+    },
+    {
+      "t": 708.4,
+      "end": 728.8,
+      "text": "table and I will pick an integration table is called pay field service resource pay type uh I need to pick the the fields that uniquely identify the data verse U the data verse record and I also need to set the field that is used"
+    },
+    {
+      "t": 728.8,
+      "end": 749,
+      "text": "by the sync engine to um figure out whether that data has been modified or uh or not I can choose in here to sync only coupled record I will sync everything in here and under Advan tab the if I click the advanced button in here I can actually specify additional filters by creating a"
+    },
+    {
+      "t": 749,
+      "end": 769.2,
+      "text": "uh creating a filter for these table these are very simple tables I don't need any any filters in either of these Direction and I can also uh specify the the configuration templates code uh code for when the data comes in business Central and the integration table configuration template code when the data"
+    },
+    {
+      "t": 769.2,
+      "end": 789.4,
+      "text": "uh comes in data verse if I want to supplement it uh with something now that we have uh the tables uh and the integration table mapping uh setting done I can actually go ahead and proceed to uh field mappings and in here I will simply put I want the code to go to the"
+    },
+    {
+      "t": 789.4,
+      "end": 800.6,
+      "text": "field that is called I think it's called name for example and in here I can let's say apply uh title case"
+    },
+    {
+      "t": 800.6,
+      "end": 814,
+      "text": "transformation and let's say I just want to validate uh this field clicking next we'll go ahead and uh create the new integration table mapping it will also create uh the field"
+    },
+    {
+      "t": 814,
+      "end": 834.4,
+      "text": "mappings uh the thing with the with a with a field mappings is that the fields mappings are by default going to be in U um inserted as disabled so in order so the moment when this gets created and the job for example uh if if you have been adding fields to an the existing integration"
+    },
+    {
+      "t": 834.4,
+      "end": 854.7,
+      "text": "table mapping there could be a job that is already running so we wanted to provide you with a bit more control over um when you actually uh go and enable these new things that you added in here and of course after I click finish there's also a uh the the the guide actually creates a synchronization job queue"
+    },
+    {
+      "t": 854.7,
+      "end": 867.5,
+      "text": "that is going to run uh the the synchronization okay now we have the new integration table mapping in here what you will see these actually get a flag as a userdefined"
+    },
+    {
+      "t": 867.5,
+      "end": 887.5,
+      "text": "mappings and you can actually check the fields oh what did I select that was the first one let's select the correct one if you select the fields here are the fields uh that are done and what I can do uh from now on I can simply go ahead and synchronize modified records after I have some records that are coupled"
+    },
+    {
+      "t": 887.5,
+      "end": 897.8,
+      "text": "or simply run the full synchronization for this to initiate uh to initiate the synchronization mapping"
+    },
+    {
+      "t": 897.8,
+      "end": 908.2,
+      "text": "synchronization yes yes we want to run it and and and that's uh and that's it for this part of the"
+    },
+    {
+      "t": 908.2,
+      "end": 929.1,
+      "text": "demo so in the next demo uh I will show you how to actually go and uh set up a uh synthetic relations uh I have uh I have Dynamics 365 for sales integration enabled in here and I've have created some sales orders and what I want to do in here is uh I want to"
+    },
+    {
+      "t": 929.1,
+      "end": 949.6,
+      "text": "uh also add uh shipments to those sales orders that I have that I'm already sying first thing that I need to do is check out uh whether a sales shipment uh virtual table has been enabled it has and now I go to uh synthetic relations where I will create a new synthetic relation between a"
+    },
+    {
+      "t": 949.6,
+      "end": 961.5,
+      "text": "uh sales order um uh sales order table uh or entity in data worse and a uh sales shipment uh virtual"
+    },
+    {
+      "t": 961.5,
+      "end": 981.7,
+      "text": "table if I click the advanced you will see uh there's a virtual table uh API page that is used to list the fields that I can uh pick and I will map uh those uh two tables by business Central order number and the other table actually has a order order number"
+    },
+    {
+      "t": 981.7,
+      "end": 1002.6,
+      "text": "as well okay now when I click next if there's a key already present uh relationship just gets created uh I can see that the relationship has been added now if I go and switch back uh have a look at my sales orders right"
+    },
+    {
+      "t": 1002.6,
+      "end": 1019.8,
+      "text": "uh I will uh this is one uh sales order that I have uh actually already sent from uh Dynamic 365 for sales to business Central and I will post some uh some quantity just to create a shipment record in here let's say three"
+    },
+    {
+      "t": 1019.8,
+      "end": 1026.8,
+      "text": "and let's go and uh post the"
+    },
+    {
+      "t": 1027.3,
+      "end": 1047.4,
+      "text": "shipment and after the shipment is posted you can see I already posted one before when I was preparing a demo and there's a second one uh that was created uh in here if I now go and switch to Dynamics 365 for sales look at that sales order that I have transferred uh to to business Central the moment I created that"
+    },
+    {
+      "t": 1047.4,
+      "end": 1067.6,
+      "text": "synthetic relations I now see I now have this new sales shipments tab clicking at uh and you can see there are two shipments in there if I uh click in in that one since I have the S shipment lines also enabled it automatically actually shows the Sal shipment lines for that table and that's how"
+    },
+    {
+      "t": 1067.6,
+      "end": 1087.2,
+      "text": "easy it is actually to uh uh create a synthetic relation and use it uh in your uh in your production in environments and what you saw that I'm just a product manager so I didn't do any coding this time around so that makes me really"
+    },
+    {
+      "t": 1087.2,
+      "end": 1107.5,
+      "text": "happy and with that let me hand you off to uh to Sandy and I feel like that this you know synthetic relations thing was a perfect cue for what you want to talk about next so take it away Sandy uh thanks Ian uh in this part of the presentation I would like to show what's new in Virtual"
+    },
+    {
+      "t": 1107.5,
+      "end": 1128,
+      "text": "tables so if you remember we have entered General availability for virtual table in the last release which is uh 23 Wave 2 and at the same time we also enter public preview for power pages on Virtual tables that also happen in the same release 20 uh 233 Wave 2 release right"
+    },
+    {
+      "t": 1128,
+      "end": 1148.2,
+      "text": "so now I would like to show you what's new in 24 Wave 1 release for virtual tables we don't have a many features but we have the small features that actually have been in high Demand by many partners and isv who wants to build virtual tables to support different companies in business Central as you remember"
+    },
+    {
+      "t": 1148.2,
+      "end": 1168.3,
+      "text": "um there is no company Concept in data verse so we actually have to support um um um a way for power page uh power apps and power pages to Target different company so in the demo later I will show several steps the first step is to show you the standard global company settings that will be used by the virtual"
+    },
+    {
+      "t": 1168.3,
+      "end": 1188.4,
+      "text": "table plugin uh for all users and all apps and portals so that means uh when the global company setting is set all user and all app will have the same company right and then uh we also have um since the beginning a user specific company setting that can be used by the virtual tble"
+    },
+    {
+      "t": 1188.4,
+      "end": 1208.7,
+      "text": "uh plug-in to overwrite the global company setting for all apps and portal so that means for each user it they can use um uh one company and this company that uh they target will be used for all apps and portal uh that they built or that they use right so what if they"
+    },
+    {
+      "t": 1208.7,
+      "end": 1228.9,
+      "text": "uh the same user want to use different apps and different Power uh Power Pages portal but uh targeting different company this is where the new feature uh come into play so we introduced with this release a data verse shared BC Company ID execution variable that will be used by rever virual"
+    },
+    {
+      "t": 1228.9,
+      "end": 1249.7,
+      "text": "table plugin to override both the global and user specific company settings and I will show you how to build a custom data verse mapping plugin and mapping table to set this BC Company ID shared variable for any combination of user apps or"
+    },
+    {
+      "t": 1249.7,
+      "end": 1269.8,
+      "text": "portal so before we go to demo let me show you how this uh um mapping plugin and table works right in the standard um uh uh power apps that try to access a business center virtual tables uh the the app in this case in this pictures for example app one it will use data verse cruit"
+    },
+    {
+      "t": 1269.8,
+      "end": 1289.8,
+      "text": "API to Target um um uh Business Center virtual tables in data verse and then the virtual table plugin will translate that data verse crout API into business Central crout API and will use uh will Target the business Central company that has been configured with"
+    },
+    {
+      "t": 1289.8,
+      "end": 1309.9,
+      "text": "the standard Global and user specific company settings now now you can actually create a mapping plugin and table so the mapping PL plugin can be created to intercept any power apps or any power Pages portal accessing selected business Central uh table so for"
+    },
+    {
+      "t": 1309.9,
+      "end": 1330,
+      "text": "example I can actually create a mapping plugin to intercept any request for data verse uh crout API that access business Central sales invoice virtual table using the read API which is a retrieve or retrieve multiple in data verse world right and then um then you can also create"
+    },
+    {
+      "t": 1330,
+      "end": 1350.2,
+      "text": "a mapping table where we can actually put the records that map any combination of users apps and power Pages portal to their respective business Central company so the way it work is for example in the second picture when app two when user 2 and app two have a mapping table record"
+    },
+    {
+      "t": 1350.2,
+      "end": 1370.2,
+      "text": "that targets company to when it actually requests to access um um uh uh sales invoice table right the mapping plugin will actually intercept that request and will set the shared BC Company ID varable to company to such that when the when the virtual table plug-in uh picked up it"
+    },
+    {
+      "t": 1370.2,
+      "end": 1390.4,
+      "text": "will use the shared BC Company ID variables set to company to to translate data verse cruit API into business Central cruit API Pi overriding the global and user specific company settings so now you know how the mapping plug-in and mapping table um how it work how do you actually create"
+    },
+    {
+      "t": 1390.4,
+      "end": 1411.1,
+      "text": "the register and create the uh and um um fill out fill the the mapping table content right so there are the there are documentation in data verse which is like a data verse plugins and a register plugin documentation right you will see that um in that documentation you can actually use the plug-in registration tool"
+    },
+    {
+      "t": 1411.1,
+      "end": 1431.2,
+      "text": "where can you can actually um uh submit a step where your plugin for example in this my example is a I call it the company mapping plugin that will actually trigger whenever data verse retrieve or retrieve multiple um uh request is uh uh is access is used to"
+    },
+    {
+      "t": 1431.2,
+      "end": 1451.4,
+      "text": "access uh sales invoice business Central virtual table so you know that whenever you want to access the sales and voice virtual table either single row or multiple Row the plugin will be triggered but when the plug plugin is a mapping plugin triggered you want to know when actually um um it should actually"
+    },
+    {
+      "t": 1451.4,
+      "end": 1471.7,
+      "text": "uh uh triggered right so you have to pick the right execution stage so in this case we pick the prevalidation stage such that it always uh it does its operation before the actual operation done by the business Central cruit API right and then in the mapping table you can create an entry that match"
+    },
+    {
+      "t": 1471.7,
+      "end": 1491.8,
+      "text": "your um uh user and apps so in this case um in a power apps you can go to the advanced settings you can see uh you can use the uni name in this case this is a prefix CR7 B3 sales invoice app it's the name that you want to use to in the mapping table and then in the mapping table you can create an entry in this case CR7"
+    },
+    {
+      "t": 1491.8,
+      "end": 1511.9,
+      "text": "B3 sells invoice app and uh whenever the user is mode administrator you want to always use Chronos us so you can actually make any combination of user and uh and Power app and use many different um uh many different companies all right and finally I just show you a quick uh screenshot of this uh the"
+    },
+    {
+      "t": 1511.9,
+      "end": 1532.2,
+      "text": "code of the mapping plugin it's very very simple uh this will be published after the uh launch event so you can essentially cut and paste it and modify it right the yellow part that I highlighted is actually the part of the code that will deal with power apps and then in a different demo I will show you the part of the code that we'll deal with with power pages"
+    },
+    {
+      "t": 1532.2,
+      "end": 1552.3,
+      "text": "so in the in the part that we'll deal with power apps when a power app is uh launch and it try to access a sales invoice virtual table this plugin will be triggered and it will grab the app the app name and then try to find the app name uh to find uh try to find a match in the mapping table if"
+    },
+    {
+      "t": 1552.3,
+      "end": 1572.6,
+      "text": "there is any record with the app name if you find a match then you'll look at the value of the of the company ID in that match record and use that company IB to update the value of the shared variable which is the BC Company ID when it's done then uh the mapping plugin will pass the operation to the uh virtual table plugin and the virtual"
+    },
+    {
+      "t": 1572.6,
+      "end": 1592.6,
+      "text": "table plugin will use that BC Company ID to override uh the global and user specific company settings all right let's let's do a demo all right uh in this demo I will first show you two different company in business Central so I will show you the different sales"
+    },
+    {
+      "t": 1592.6,
+      "end": 1616.3,
+      "text": "order and sales invoices of this company so you can see that um uh the mapping plugin and M mapping table that uh we built can actually Target different companies later so first company is the the default Kronos USA you can see the sales order for Kronos USA there's a bunch of them and then you can also see the sales"
+    },
+    {
+      "t": 1616.8,
+      "end": 1634.3,
+      "text": "invoices there's a bunch bunch of them also right now I'm going to switch company and you will see that the sales order uh for this new company is actually has less it uh less uh entries and also the sales invoice has less entries let me switch to my"
+    },
+    {
+      "t": 1634.3,
+      "end": 1638.8,
+      "text": "company so this"
+    },
+    {
+      "t": 1638.8,
+      "end": 1659,
+      "text": "one and now you can see the invoices of the my company will have less uh entries yeah there's only two right and then the sales order also have only one I believe if I remember correctly yeah you see all right so now I'm going to"
+    },
+    {
+      "t": 1659,
+      "end": 1679.3,
+      "text": "the BC configuration app um in here which is actually comes with the virtual table uh plug-in installation and I will show you the default Global setting uh for company in here the global setting for um uh for this environment for all BC is a Kronos"
+    },
+    {
+      "t": 1679.3,
+      "end": 1699.3,
+      "text": "USA right and uh I have actually created a sales order app that actually show the sales order and you can see here the sales order that it shows is actually all the sales order of the Kronos USA company right and you can see the user that used to log into this app is M administrator so now now I'm going to change the user"
+    },
+    {
+      "t": 1699.3,
+      "end": 1718,
+      "text": "specific setting for M administrator user okay so here you go to the user entry uh the user table in data verse and pick the mod administrator and find the company default to default on forms and here I want to set my"
+    },
+    {
+      "t": 1718,
+      "end": 1738.1,
+      "text": "company okay and then save so now when it's finished with save this uh setup of my company in the user specific company setting will override the kronis USA in the global setting you can see here if I refresh it will actually show the sales order"
+    },
+    {
+      "t": 1738.1,
+      "end": 1754.3,
+      "text": "for my company you see there's only one sales order right so now what I'm going to do is I'm going to show you a mapping table that can actually be used to overwrite also the user specific setting for any combination of user and"
+    },
+    {
+      "t": 1754.3,
+      "end": 1774.3,
+      "text": "apps so in here I have a mapping table which I called app name company mappings right and in the first entry is essentially I'm saying that um the app name is um CR7 B3 sales inverse iip and for the user mod administrator when these two combinations is being um launched uh in the power apps"
+    },
+    {
+      "t": 1774.3,
+      "end": 1794.4,
+      "text": "you always Target Kronos USA all right so uh to get this the the name of the app you can actually go to the editing of the sales invoice app you can look at the settings and select advanced settings and you can see the name of the app right so let's see the sales invoice app itself"
+    },
+    {
+      "t": 1794.4,
+      "end": 1812.3,
+      "text": "so right now if you uh in the sales invoice app I have a compy setting that's set to kronis USA so the sales invoice will show all the sales invoice of a kronis USA right now I can actually change the company setting to my"
+    },
+    {
+      "t": 1813,
+      "end": 1833.1,
+      "text": "company so if I switch that go to my company all right I'm I'm saving so if I if I go back to the sales insource it will only show the sales invoice of my company and you can see there there are fewer sales invoice right so if you go back to the table and you can see the table"
+    },
+    {
+      "t": 1833.1,
+      "end": 1847.1,
+      "text": "uh has been uh updated before it was Kronos USA now if I refresh it should show that the mod administrator user and the sales invoice app is targeting my"
+    },
+    {
+      "t": 1847.1,
+      "end": 1867.4,
+      "text": "company you see all right and that conclude the demo for uh virtual tables now in this part of the presentation I would like to talk about what's new in business event if you remember uh business event was uh uh released in public preview for about two releases"
+    },
+    {
+      "t": 1867.4,
+      "end": 1887.5,
+      "text": "ago 23rd wave 1 release and what's new in this release in 24 Wave 1 is actually a new UI Pages for troubleshooting minist events and also we add more information in the custom dimension for partner Telemetry in the demo later I will show"
+    },
+    {
+      "t": 1887.5,
+      "end": 1907.7,
+      "text": "the follow following I will first show uh the four complementary interaction for dataverse integration that enrich one of the app running in data ver in this case is Dynamics 365 sales and we will enrich this um uh this uh Dynamic 365 sales"
+    },
+    {
+      "t": 1907.7,
+      "end": 1926.4,
+      "text": "with business Central data and information right and I will show a power automate flows that triggered by data cut uh change update uh create update and delete and also business event that will push uh business Central information into Dynamic 35"
+    },
+    {
+      "t": 1926.4,
+      "end": 1946.6,
+      "text": "sales and then uh I will show the UI Pages showing the successfully subscribe and send business event and finally I will show the parel Telemetry showing the successfully also subscribe um and send business events all right let's go to the demo so in this demo I'm showing you uh"
+    },
+    {
+      "t": 1946.6,
+      "end": 1966.8,
+      "text": "Dynamics 365 sales Hub in here you can see a familiar account called adum corporation which is actually a business Central customer that has been synchronized into Data verse so the data in here is actually coming from business Central so it's using data sync right"
+    },
+    {
+      "t": 1966.8,
+      "end": 1986.9,
+      "text": "and then below that um information you can see there are two subgrid which is called business Central sales orders and business Central sales credit memo those dat those data are actually virtual tables so we actually showing a virtual table enriching um uh the account in data"
+    },
+    {
+      "t": 1986.9,
+      "end": 2007,
+      "text": "verse right and the way you do that is you're using a syntactic relation in here you can see there are two synthatic relation that relates a native account in data verse with sales credit memo virtual tables in business Central as well as a native account in data ver with a sales order virtual table in um"
+    },
+    {
+      "t": 2007,
+      "end": 2027.2,
+      "text": "in Business Center you can see here you see native and virtual table all right so another thing that I would like to show you is this part in um in the account form in data verse where you can actually push information regarding that account so we will actually use uh data cut events and business"
+    },
+    {
+      "t": 2027.2,
+      "end": 2047.2,
+      "text": "event to enrich the notes section or the timeline section of this adum Corporation you can see in the past I have actually uh sent a data cut event to let uh users know that there's a sales order created in business Central and then I send a business event to show that the uh the sales order has"
+    },
+    {
+      "t": 2047.2,
+      "end": 2058.6,
+      "text": "changed status into release right and finally I sent another business event to show that the S order has been posted so I will do that demo"
+    },
+    {
+      "t": 2058.6,
+      "end": 2079,
+      "text": "now oh before that I I will actually show you the power automate flows that enable us to do this you can see here in power automate I have three flows one is called uh sales order created notification sales order release notification and finally sales invoice posted notification right all of them are the same essentially"
+    },
+    {
+      "t": 2079,
+      "end": 2096.6,
+      "text": "it will um it'll be triggered the for the sales order created it'll be trigger when there's a a change in the data when a row is added right you can hear here when there's a new sales order in business Central this flow will be uh"
+    },
+    {
+      "t": 2096.6,
+      "end": 2117.6,
+      "text": "triggered and when it's triggered we'll get the row by um the ID uh the row by ID and then we use that row by ID to find out which account row are related to that uh sales order and we use the the name of the the company to find out uh which account"
+    },
+    {
+      "t": 2117.6,
+      "end": 2128.2,
+      "text": "um form to push information into so the the flow is exactly the same let me get back"
+    },
+    {
+      "t": 2128.2,
+      "end": 2148.9,
+      "text": "so the flow for sales order created is the same with this flow for sales order release or sales invoice posted and you can see um the same flow except the different trigger uh the other one is for um uh data change uh notification trigger while this one is for with a action perform trigger that used for business event for example in here you can"
+    },
+    {
+      "t": 2148.9,
+      "end": 2163.4,
+      "text": "see you actually want to be triggered when the sales invoice is posted in uh in uh business Central so let's do that let's create a new um let's create a new sales"
+    },
+    {
+      "t": 2163.4,
+      "end": 2170.2,
+      "text": "order and this I'm going to Target a"
+    },
+    {
+      "t": 2173.8,
+      "end": 2183.7,
+      "text": "datam the Paris chairs sorry and"
+    },
+    {
+      "t": 2183.7,
+      "end": 2190.1,
+      "text": "quantity so a new sales order has been created"
+    },
+    {
+      "t": 2190.1,
+      "end": 2210.6,
+      "text": "you see here open right sales order 101027 and we should be able actually seeing here if you refresh the timeline there should be a information push into the uh datum Corporation account you see there's a new sales order been created now I'm going to trigger a business event by releasing"
+    },
+    {
+      "t": 2210.6,
+      "end": 2224,
+      "text": "the sales order I'm going to release it it's released all right if you look at you look at the power automate flow sales order"
+    },
+    {
+      "t": 2224,
+      "end": 2239.5,
+      "text": "release this should be an an event being triggered and just 6 second ago it succeeded so now the the timeline should also be updated if I refresh there will be a change in the status of sales"
+    },
+    {
+      "t": 2239.5,
+      "end": 2249.8,
+      "text": "order yep you see so the Sal order 101037 is now released now I'm going to invoice it"
+    },
+    {
+      "t": 2249.8,
+      "end": 2268.6,
+      "text": "post okay so it become uh posted sales info 103 321 and if you go back to the power automate flow let's see if the sales invoice posted notification is been"
+    },
+    {
+      "t": 2269.8,
+      "end": 2281.7,
+      "text": "triggered yep it's been triggered right then that means the uh the account form in Dynamic sales should be updated sales infos posted uh"
+    },
+    {
+      "t": 2281.7,
+      "end": 2301.8,
+      "text": "information there you go sales infos has been posted now all this event not only push to the dynamic um 365 sales but we can also uh troubleshoot from the uh UI Pages you can see here there's a page uh a new page which is called business event subscription here you can see"
+    },
+    {
+      "t": 2301.8,
+      "end": 2322,
+      "text": "that um I have multiple events that I have subscribed right yes you see sales invoice post posted uh version one customer unblock version one all different version right and then like if you look at the for example customer unblock you can see the activity lock for that subscription"
+    },
+    {
+      "t": 2322,
+      "end": 2341.2,
+      "text": "for example in here the subscription was has been created um a while back and then there are three different uh notification being sent so let's go back to the sales order release and see if the the event that's being um triggered is actually also so um uh registered here"
+    },
+    {
+      "t": 2341.2,
+      "end": 2361.5,
+      "text": "notification yeah this is the last one on the 13th of March is a there's no retry because it's successful and it's been sent and the same thing for sales invoice posted you can see the the notification it's also been triggered just now and then um now uh those events are also pushed into partner"
+    },
+    {
+      "t": 2361.5,
+      "end": 2378.8,
+      "text": "tary in app Insight uh we have I have set up uh my app insight in this environment you can see the the Telemetry um uh string uh that I can add into the business Central admin Center once I do that I can go to"
+    },
+    {
+      "t": 2378.8,
+      "end": 2398,
+      "text": "Azure and look at the parner Telemetry and uh do um a query like in here for example for that that uh event uh customer blocked event that I subscribed before you can see there's a custom Dimension and all the new information has been added"
+    },
+    {
+      "t": 2398,
+      "end": 2412.4,
+      "text": "the production the you can see the the name of the event the version right now if I want to see what event has been generated recently I can change the"
+    },
+    {
+      "t": 2414.8,
+      "end": 2433.6,
+      "text": "query there are two business event that has been sent today first one is um uh it's sales order release you can see here sales order release version one targeting Cronus USA right and the second one the final one is all sales invoice"
+    },
+    {
+      "t": 2433.6,
+      "end": 2438.9,
+      "text": "posted you can see"
+    },
+    {
+      "t": 2439.2,
+      "end": 2459,
+      "text": "here first in one it's also targeting uh coronus USA and with that uh we conclude the demo for um for this session and I hope you enjoy our uh presentation and I look forward um to meet you uh in person in the Q&A session thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.189,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.199,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 6185
+}

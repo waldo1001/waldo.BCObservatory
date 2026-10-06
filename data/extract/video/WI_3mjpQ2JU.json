@@ -1,0 +1,1181 @@
+{
+  "video_id": "WI_3mjpQ2JU",
+  "item_id": "video/yt-microsoft/WI_3mjpQ2JU",
+  "title": "What's New: Automated IRS1099 Reporting (2024 release wave 1)",
+  "duration_s": 2569,
+  "systems": [
+    "finance",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "1099 reporting",
+    "irs integration",
+    "us tax forms",
+    "vendor setup",
+    "electronic filing",
+    "pdf copy substitution",
+    "feature management",
+    "data migration",
+    "form configuration",
+    "printing",
+    "email delivery",
+    "tax compliance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Form 1099 Basics",
+      "t_start": 0,
+      "t_end": 97.3
+    },
+    {
+      "title": "Form 1099 Submission Methods and Current State",
+      "t_start": 97.3,
+      "t_end": 178
+    },
+    {
+      "title": "Legacy 1099 Setup and Process Limitations",
+      "t_start": 178,
+      "t_end": 330
+    },
+    {
+      "title": "Problems with Print Forms and Motivation for Redesign",
+      "t_start": 330,
+      "t_end": 427.1
+    },
+    {
+      "title": "New 1099 Reporting Architecture and Document Structure",
+      "t_start": 427.1,
+      "t_end": 548.1
+    },
+    {
+      "title": "Review, Retention, and Scheduled Reporting Features",
+      "t_start": 548.1,
+      "t_end": 670.8
+    },
+    {
+      "title": "PDF Copy Substitutions and Vendor Communication",
+      "t_start": 670.8,
+      "t_end": 797.1
+    },
+    {
+      "title": "Delivery Methods and Future Integration Roadmap",
+      "t_start": 797.1,
+      "t_end": 857.9
+    },
+    {
+      "title": "Feature Enablement and Data Transfer Options",
+      "t_start": 857.9,
+      "t_end": 950
+    },
+    {
+      "title": "Form Configuration and Document Structure",
+      "t_start": 950,
+      "t_end": 1072.1
+    },
+    {
+      "title": "Printing, Delivery and Security Setup",
+      "t_start": 1072.1,
+      "t_end": 1203.8
+    },
+    {
+      "title": "Demo Walkthrough and Assisted Setup",
+      "t_start": 1203.8,
+      "t_end": 1358.8
+    },
+    {
+      "title": "IRS Reporting Periods and Form Configuration",
+      "t_start": 1358.8,
+      "t_end": 1481.3
+    },
+    {
+      "title": "Reporting Period Setup, Vendor Configuration and Data Propagation",
+      "t_start": 1481.3,
+      "t_end": 1640
+    },
+    {
+      "title": "Propagate Action for Vendor Form Box Changes",
+      "t_start": 1640,
+      "t_end": 1720.8
+    },
+    {
+      "title": "Vendor Card Fields and Form Box Setup Integration",
+      "t_start": 1720.8,
+      "t_end": 1812.2
+    },
+    {
+      "title": "Purchase Invoice Creation with Form Data",
+      "t_start": 1812.2,
+      "t_end": 1895.6
+    },
+    {
+      "title": "Form Document Creation and Replace Option",
+      "t_start": 1895.6,
+      "t_end": 1974
+    },
+    {
+      "title": "Form Document Details and Inclusion Logic",
+      "t_start": 1974,
+      "t_end": 2051.8
+    },
+    {
+      "title": "Mark Submitted Action and Print Functionality",
+      "t_start": 2051.8,
+      "t_end": 2133.6
+    },
+    {
+      "title": "Print Form Document with Copy Types and Email",
+      "t_start": 2133.6,
+      "t_end": 2214.6
+    },
+    {
+      "title": "Email Functionality and IRS Form Setup Configuration",
+      "t_start": 2214.6,
+      "t_end": 2291
+    },
+    {
+      "title": "IRS Setup Design and Future Considerations",
+      "t_start": 2291,
+      "t_end": 2411.8
+    },
+    {
+      "title": "Community Resources and Closing Remarks",
+      "t_start": 2411.8,
+      "t_end": 2569
+    }
+  ],
+  "features": [
+    {
+      "name": "Redesigned 1099 App",
+      "description": "Complete redesign of the 1099 reporting functionality moving from the old setup to a new integrated app with multi-year support, document-based reporting, and electronic filing capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 427.1,
+      "t_end": 548.1,
+      "is_demoed": false,
+      "caveats": [
+        "US market only",
+        "IRS platform direct connection coming in next few minors, not in initial release"
+      ],
+      "tags": [
+        "1099 reporting",
+        "tax forms",
+        "redesign",
+        "us localization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Multi-Year IRS Setup",
+      "description": "New IRS setup configuration allows users to maintain different setups for different reporting periods and years, eliminating the need to wait for Microsoft updates and allowing parallel reporting for multiple years.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 487.3,
+      "t_end": 528,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "irs setup",
+        "multi-year support",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 Forms with Document Headers and Lines",
+      "description": "1099 forms now include document header and line structure, making it easier to review calculated 1099 data, identify missing documents, and adjust information before reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 548.1,
+      "t_end": 568.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "document structure",
+        "review capability",
+        "1099 forms"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 Forms History and Retention Policy",
+      "description": "Users can now maintain historical records of 1099 forms from previous years and configure retention policies to manage database space by removing forms older than a specified period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 589,
+      "t_end": 609,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "history",
+        "retention policy",
+        "records management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Electronic Filing through IRS Platform",
+      "description": "Direct electronic filing to IRS through the IRS e-file platform via APIs, automating the complete submission process instead of requiring manual file preparation and reporting.",
+      "status": "announced",
+      "status_evidence_t": 817.4,
+      "status_evidence_quote": "irs through iris uh portal will come in next few minors uh now i cannot promise exactly uh date",
+      "status_evidence_verified": true,
+      "t_start": 609,
+      "t_end": 857.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in next few minor releases, timeline depends on IRS confirmation",
+        "Requires credentials configuration for IRS platform"
+      ],
+      "tags": [
+        "electronic filing",
+        "irs platform",
+        "automation",
+        "future",
+        "apis"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PDF Copy Substitution for 1099 Forms",
+      "description": "1099 forms can now be generated as PDF copy substitutions on plain paper instead of requiring pre-printed IRS forms, with customizable layout setup allowing users to add fields and configure which data populates each box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 670.8,
+      "t_end": 756.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires direct reporting to IRS through APIs",
+        "Layout customization available but requires manual configuration"
+      ],
+      "tags": [
+        "pdf generation",
+        "copy substitution",
+        "plain paper",
+        "layout customization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "1099 Layout Customization",
+      "description": "New 1099 layout setup page allows users to add new boxes, configure descriptions, and specify which data values populate each box on the form, providing faster support and easier updates without waiting for Microsoft changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 706.6,
+      "t_end": 756.5,
+      "is_demoed": false,
+      "caveats": [
+        "Microsoft provides pre-configured reports but users can customize",
+        "Customization may be required for form layout adjustments"
+      ],
+      "tags": [
+        "layout setup",
+        "customization",
+        "configuration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Automated Email Distribution to Vendors",
+      "description": "Once 1099 forms are generated, the system can automatically send PDF copies via email to vendors who have consented to receive documents electronically, with background processing for large volumes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 777,
+      "t_end": 797.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires vendor consent to receive documents electronically",
+        "Alternative manual printing and mailing still available for vendors who opt out"
+      ],
+      "tags": [
+        "email distribution",
+        "vendor communication",
+        "automation",
+        "consent"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Manual 1099 Form Printing",
+      "description": "For vendors who do not consent to electronic delivery, the system can still generate and print 1099 forms on plain paper for manual distribution through standard mailing processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 797.1,
+      "t_end": 817.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "printing",
+        "manual delivery",
+        "fallback option",
+        "physical mail"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Data Transfer from Legacy 1099 App",
+      "description": "Feature management allows users to migrate existing 1099 data from the old Business Central app to the new reporting app by selecting the active year, with data transferred to new IRS reporting periods and codes structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 869.4,
+      "t_end": 929.9,
+      "is_demoed": true,
+      "caveats": [
+        "One-way process after initiated",
+        "Data transfer is not one-to-one mapping"
+      ],
+      "tags": [
+        "data migration",
+        "feature management",
+        "legacy data",
+        "upgrade",
+        "existing data"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Default Data Setup for New Customers",
+      "description": "New customers can choose to create a fresh setup with default data provided for the next year without transferring existing data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 909.9,
+      "t_end": 929.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "new setup",
+        "default data",
+        "new customers"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "IRS Reporting Periods with Configurable Dates",
+      "description": "Setup of multiple IRS reporting periods with starting and ending dates, with ability to mark one as the active period for reporting purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 950,
+      "t_end": 1010.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting periods",
+        "date configuration",
+        "form setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Form Box Configuration with Minimum Amounts",
+      "description": "Configuration of 1099 form boxes with specific minimum reportable amounts and different situations for each form type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 950,
+      "t_end": 1010.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form configuration",
+        "minimum amounts",
+        "form boxes"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor-Specific IRS Setup",
+      "description": "IRS setup per vendor allowing configuration of different 1099 codes and eligibility for different form codes across multiple reporting periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 970,
+      "t_end": 1031.3,
+      "is_demoed": true,
+      "caveats": [
+        "Not configured on vendor card directly"
+      ],
+      "tags": [
+        "vendor setup",
+        "1099 codes",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Single-Form-Type Document Constraint",
+      "description": "Each 1099 document is for one form type only, and cannot mix different form types like miscellaneous and nonemployee compensation in the same document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1010.9,
+      "t_end": 1072.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document structure",
+        "form constraint"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Document Status Workflow",
+      "description": "1099 documents have configurable status workflow starting with open status, with some statuses applied automatically and others manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1031.3,
+      "t_end": 1092.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "status workflow",
+        "document management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Plain Paper Substitution Forms",
+      "description": "Users no longer need to order preprinted forms from IRS; instead they print copy B and copy C on plain paper as substitutions with all original form details and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1072.1,
+      "t_end": 1123.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "printing",
+        "form delivery",
+        "plain paper"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Configurable IRS Responsible Person Email",
+      "description": "Option to configure a specific email address for sending 1099 documents to vendors, allowing different commercial email instead of standard vendor email.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1102.6,
+      "t_end": 1163.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "email delivery",
+        "vendor communication"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Tax Identification Number Security Masking",
+      "description": "Setup option to hide full tax identification numbers on printed forms and emails, showing only the last four digits for security compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1143.6,
+      "t_end": 1203.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "security",
+        "tax number",
+        "compliance",
+        "data protection"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Flexible Form Statement Setup",
+      "description": "Customizable form statement setup allowing configuration of print value type, filter expressions, and totaling for different printing form layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1399.2,
+      "t_end": 1461.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form configuration",
+        "printing setup",
+        "flexibility"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Editable Form Instructions Setup",
+      "description": "Setup page for configuring printing instructions for form headers and individual boxes, with instructions appearing on the actual printed forms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1419.6,
+      "t_end": 1461.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form setup",
+        "instructions",
+        "printing"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Adjustments Per Reporting Period",
+      "description": "Setup of vendor adjustments specific to each reporting period, allowing configuration of adjustment amounts for specific vendor and form code combinations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1461.3,
+      "t_end": 1501.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "adjustments",
+        "vendor setup",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copy Setup from Prior Period",
+      "description": "Action to copy all forms, form boxes, vendor configurations, adjustments and statement lines from a prior reporting period to a new one, avoiding manual recreation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1501.8,
+      "t_end": 1562.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup efficiency",
+        "data copy",
+        "period management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor Form Box Suggest Action",
+      "description": "Automated suggestion action to bulk-add vendors to form box setup based on configurable filter criteria like partner type and vendor type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1583.4,
+      "t_end": 1640,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor setup",
+        "automation",
+        "bulk operations",
+        "filtering"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Propagate Vendor Setup to Ledger Entries",
+      "description": "Action to propagate vendor form box and IRS code assignments to existing vendor ledger entries retroactively, without needing to manually update entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1640,
+      "t_end": 1720.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor setup",
+        "data propagation",
+        "ledger entries",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor Card Form Box Fields",
+      "description": "New fields added to vendor card showing miscellaneous code lookup to vendor form box setup, receiving 1099 eform consent toggle, and email for IRS field for sending PDF forms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1741.3,
+      "t_end": 1800,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor card",
+        "irs forms",
+        "email"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Form Document Creation from Purchase Invoices",
+      "description": "New experience where form documents are created from purchase invoices with pre-populated form number and form box number from vendor setup, allowing users to see calculated values before submission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1875.3,
+      "t_end": 1916.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form documents",
+        "purchase invoices",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Replace Option for Form Documents",
+      "description": "Allows users to recreate existing form documents after modifying vendor ledger entries or posting additional documents, replacing the previously created form document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1895.6,
+      "t_end": 1916.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form documents",
+        "replacement",
+        "updates"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Form Document Line Details and Ledger Entry Lookup",
+      "description": "Users can view calculated amounts on form document lines and look up the list of connected vendor ledger entries, providing transparency on how amounts were calculated from source documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1933.9,
+      "t_end": 1974,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "form documents",
+        "transparency",
+        "line details"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Including 1099 Field on Form Document Lines",
+      "description": "Field on form document lines that indicates whether an amount will be included in the 1099 report based on comparison with minimum reportable amount, providing clear visibility to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1974,
+      "t_end": 2011.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "1099 reporting",
+        "inclusion logic",
+        "minimum amounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Mark Submitted Action",
+      "description": "Temporary solution allowing users to mark form documents as submitted to enable printing and mailing, before the electronic submission feature is implemented.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2031.7,
+      "t_end": 2072.6,
+      "is_demoed": true,
+      "caveats": [
+        "Electronic submission not yet implemented"
+      ],
+      "tags": [
+        "form submission",
+        "temporary solution",
+        "workflow"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Print Form Document with Copy Types",
+      "description": "Printing functionality allowing users to generate form documents in different copy types (Copy B, Copy C, Copy 2) with appropriate labels, vendor and company information, and recipient instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2092.8,
+      "t_end": 2153.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "printing",
+        "copy types",
+        "form output"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Edit Instructions Text for Form Documents",
+      "description": "Flexible setup page allowing customization of recipient instructions that appear on the last page of printed 1099 forms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2153.7,
+      "t_end": 2174.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "instructions",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Email 1099 Forms to Vendors",
+      "description": "Allows sending PDF form documents to vendors via email with consent validation, vendor email address usage, and tracking of sent copies with email status toggles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2174.2,
+      "t_end": 2214.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires vendor consent and email address on file"
+      ],
+      "tags": [
+        "email delivery",
+        "vendor communication",
+        "compliance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Configurable Email Subject and Body for 1099 Forms",
+      "description": "IRS form setup page allows customization of email subject line and rich control text for email body when sending 1099 form documents to vendors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2235.4,
+      "t_end": 2291,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "email setup",
+        "templates"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "IRS Setup Naming Convention",
+      "description": "The team designed IRS setup pages to include '1099' only on forms exclusively for 1099 reporting, while keeping generic 'IRS setup' or 'IRS form setup' names for other purposes to allow future extensibility if additional IRS-related functionality is added.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2352.1,
+      "t_end": 2411.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not planning additional IRS functionality immediately; naming strategy is for future extensibility only"
+      ],
+      "tags": [
+        "setup pages",
+        "naming strategy",
+        "future extensibility"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Future Extensibility of IRS Form Setup",
+      "description": "IRS form setup page is designed to support potential future IRS reporting types without requiring separate setup pages, using naming convention of IRS setup without 1099 suffix.",
+      "status": "announced",
+      "status_evidence_t": 2371.5,
+      "status_evidence_quote": "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me",
+      "status_evidence_verified": true,
+      "t_start": 2352.1,
+      "t_end": 2411.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not a commitment; design consideration only"
+      ],
+      "tags": [
+        "extensibility",
+        "future roadmap",
+        "setup design"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "1099 Feature Development from Customer Ideas",
+      "description": "The 1099 reporting functionality delivered in this release was developed based on customer feedback and ideas submitted through the idea submission process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2472.5,
+      "t_end": 2493,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "customer feedback",
+        "feature development"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "1089 Setup",
+      "t": 189.1
+    },
+    {
+      "type": "table",
+      "name": "IRS Setup",
+      "t": 487.3
+    },
+    {
+      "type": "page",
+      "name": "1089 Layout Setup",
+      "t": 706.6
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entries",
+      "t": 289.8
+    },
+    {
+      "type": "page",
+      "name": "IRS reporting periods",
+      "t": 1358.8
+    },
+    {
+      "type": "page",
+      "name": "assisted setup",
+      "t": 1264.4
+    },
+    {
+      "type": "page",
+      "name": "IRS forms feature",
+      "t": 1277.7
+    },
+    {
+      "type": "other",
+      "name": "vendor form box setup",
+      "t": 1603.6
+    },
+    {
+      "type": "other",
+      "name": "vendor form box",
+      "t": 1640
+    },
+    {
+      "type": "page",
+      "name": "vendor card",
+      "t": 1720.8
+    },
+    {
+      "type": "other",
+      "name": "IRS forms app",
+      "t": 1741.3
+    },
+    {
+      "type": "other",
+      "name": "form documents",
+      "t": 1875.3
+    },
+    {
+      "type": "other",
+      "name": "1099 form document",
+      "t": 1954
+    },
+    {
+      "type": "page",
+      "name": "IRS form setup",
+      "t": 2270.7
+    },
+    {
+      "type": "other",
+      "name": "IRS 1099 form setup",
+      "t": 2352.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toic",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur Vel",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 97.3,
+      "text": "form 1089 is one of several IRS text forms used as a mention only United States uh 1089 form is recorded entity or person",
+      "why_it_matters": "Defines the scope and purpose of 1099 forms for US tax compliance, establishing what the feature addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 157.7,
+      "text": "this is something what we had earlier let's say we still have this inside the BS Centra but this is old feature and now",
+      "why_it_matters": "Indicates the legacy functionality is being replaced with a new implementation, marking a transition point.",
+      "check": "exact"
+    },
+    {
+      "t": 507.7,
+      "text": "now we have IRS setup with different periods so you can have different setups for one year another year next year so you do",
+      "why_it_matters": "Key improvement showing multi-year support eliminates the need to wait for Microsoft updates between tax years.",
+      "check": "snapped"
+    },
+    {
+      "t": 548.1,
+      "text": "when we go to the next stage to review you can much easier review earlier",
+      "why_it_matters": "Demonstrates architectural improvement making review and verification more straightforward than legacy approach.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 630.6,
+      "text": "even now uh you could print only if you have up to 10 uh reports per year so this is a really small number",
+      "why_it_matters": "Explains limitation of old printing approach that the new system addresses through electronic filing.",
+      "check": "snapped"
+    },
+    {
+      "t": 817.4,
+      "text": "irs through iris uh portal will come in next few minors uh now i cannot promise exactly uh date",
+      "why_it_matters": "Clear disclaimer that direct IRS API integration is announced but not yet available, with timeline uncertainty.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 817.4,
+      "text": "this black box uh connection with uh IRS through Iris uh portal will come in next few minors",
+      "why_it_matters": "Establishes that the key IRS API integration feature is announced but not yet available, with delivery planned for future minor updates.",
+      "check": "exact"
+    },
+    {
+      "t": 837.7,
+      "text": "it will be before your reporting period because now we have more than enough time to have everything ready for end of year",
+      "why_it_matters": "Provides timeline context that the IRS integration will arrive before year-end reporting deadline, emphasizing advance testing opportunity.",
+      "check": "exact"
+    },
+    {
+      "t": 869.4,
+      "text": "this is only one way process so once you start you have first to choose data transfer and data transfer will uh offer you",
+      "why_it_matters": "Critical design constraint: feature enablement is irreversible and requires immediate choice between data transfer or new setup.",
+      "check": "exact"
+    },
+    {
+      "t": 1031.3,
+      "text": "one form for is one document and you have more form boxes and it means one more for example you have miscellanous and yes",
+      "why_it_matters": "Key structural limitation: documents are locked to single form type, preventing mixed form types in one document.",
+      "check": "exact"
+    },
+    {
+      "t": 1092.4,
+      "text": "you will not print original preprinted form by IRS so you will not order uh from IRS uh original forms anymore",
+      "why_it_matters": "Major operational change: users no longer need IRS preprinted forms, reducing ordering and inventory burden.",
+      "check": "exact"
+    },
+    {
+      "t": 1183.6,
+      "text": "by default you can print original tetin uh your company te and your vendor team that's okay but you can use a setup to",
+      "why_it_matters": "Security feature design: tax identification numbers can be masked to show only last four digits, enabling safer email delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 1501.8,
+      "text": "you have the special action that is called copy setup prom uh so once you created the period you click copy set set up",
+      "why_it_matters": "Efficiency feature: period setup can be cloned from prior years, avoiding manual recreation of forms, boxes, vendors and adjustments.",
+      "check": "snapped"
+    },
+    {
+      "t": 1583.4,
+      "text": "you don't need to add all the vendors here manually as you can imagine you can have thousands of vendors",
+      "why_it_matters": "Explains the motivation for the Suggest action - avoiding manual vendor setup burden for organizations with large vendor bases.",
+      "check": "exact"
+    },
+    {
+      "t": 1680.4,
+      "text": "you have the action that is called propagate uh so you choose your vendor setup uh the dates will be taken from the reporting",
+      "why_it_matters": "Describes the propagate feature that automates bulk updates to existing ledger entries, a key automation improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 1933.9,
+      "text": "this is very different from the previous experience in the previous experience you posted vend Ledger entries and then you just print the report",
+      "why_it_matters": "Highlights the major UX improvement - form documents now provide visibility into calculated values before submission, unlike the previous version.",
+      "check": "exact"
+    },
+    {
+      "t": 2011.4,
+      "text": "based on the this field including 1099 you can understand okay so I'm going to include this code in 1099 report or I don't",
+      "why_it_matters": "Documents the including 1099 field that provides transparency on which amounts will be reported, addressing uncertainty in the previous version.",
+      "check": "exact"
+    },
+    {
+      "t": 2031.7,
+      "text": "part is not implemented yet and that will be available in the one of the next releases uh but we want you to",
+      "why_it_matters": "Clearly states that electronic submission is not yet available, indicating the current status is a temporary solution with mark submitted action.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2072.6,
+      "text": "instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be",
+      "why_it_matters": "Describes the planned future change from manual mark submitted to automated electronic submission functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 2371.5,
+      "text": "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me",
+      "why_it_matters": "Clarifies that future IRS support is not a commitment, just a design consideration, distinguishing between announced and exploratory plans.",
+      "check": "exact"
+    },
+    {
+      "t": 2391.8,
+      "text": "so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only",
+      "why_it_matters": "Explains the naming convention design decision for setup pages to enable future extensibility.",
+      "check": "exact"
+    },
+    {
+      "t": 2493,
+      "text": "this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better",
+      "why_it_matters": "Demonstrates that customer feedback directly influenced the delivery of the 1099 feature.",
+      "check": "snapped"
+    },
+    {
+      "t": 2493,
+      "text": "we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc",
+      "why_it_matters": "Emphasizes the importance of the akbc URL resource hub for finding documentation and links.",
+      "check": "exact"
+    },
+    {
+      "t": 2533.6,
+      "text": "what is important you will have this time you will have enough time to watch all this videos so you will collect what is",
+      "why_it_matters": "Explains the timing of the Q&A session to allow viewers sufficient time to review all presentation materials before asking questions.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 17.5,
+      "kind": "other",
+      "text": "this is local topic only for the United States Market"
+    },
+    {
+      "t": 817.4,
+      "kind": "coming-later",
+      "text": "this black box connection with IRS through Iris uh portal will come in next few minors uh now I cannot promise exactly uh date because we are waiting some confirmation from IRS"
+    },
+    {
+      "t": 837.7,
+      "kind": "subject-to-change",
+      "text": "we are waiting some confirmation from IRS as soon as we get we will finish this part"
+    },
+    {
+      "t": 2031.7,
+      "kind": "not-in-this-release",
+      "text": "the submission of the 109 report we want to send this electronically uh this is part is not implemented yet and that will be available in the one of the next releases"
+    },
+    {
+      "t": 2051.8,
+      "kind": "coming-later",
+      "text": "this part will be changed instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be sent electronically to ARs"
+    },
+    {
+      "t": 2371.5,
+      "kind": "other",
+      "text": "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly"
+    },
+    {
+      "t": 2371.5,
+      "kind": "not-in-this-release",
+      "text": "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 24,
+    "quotes_dropped": 1,
+    "evidence_verified": 2,
+    "evidence_unverified": 36
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0528791
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037061
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034276
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010544999999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.06264600000000001
+    }
+  ]
+}
