@@ -7,7 +7,7 @@
   "url": "https://aardvarklabs.blog/2026/03/27/streamline-al-development-using-copilot-code-review/",
   "published_at": "2026-03-27T12:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T22:01:00.152Z",
       "path": "vault:posts/aardvarklabs-blog/3214.md",
       "words": 1556
+    },
+    "extracted": {
+      "at": "2026-10-06T22:01:09.307Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.007665
+    },
+    "summarized": {
+      "at": "2026-10-06T22:01:09.308Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:01:09.309Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:01:09.312Z",
+      "path": "content/posts/aardvarklabs-blog/3214.md"
     }
   },
   "input_hash": "2026-03-21T21:09:46.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee1673923ee65fa97dc113c78246cc06f32e8abdb013ee105c3897eeb473c7c0"
+  "output_hash": "197230dc19a9fa66902f0c622a922b3f46ec99387aca4490764cca4bc2f50152"
 }

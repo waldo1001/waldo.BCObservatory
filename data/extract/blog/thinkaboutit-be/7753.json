@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thinkaboutit-be/7753",
+  "url": "https://thinkaboutit.be/2026/03/which-power-bi-license-do-you-need-for-business-central/",
+  "title": "Which Power BI License Do You Need for Business Central?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-03-26T09:00:24.000Z",
+  "words": 845,
+  "summary": "Power BI Pro is required for any practical use of Power BI with Business Central, including viewing embedded reports, installing Microsoft Power BI Apps, and sharing reports. The free license only provides a personal workspace with limited refresh capacity and no sharing capabilities.",
+  "key_points": [
+    "Power BI Pro is mandatory for viewing Power BI reports embedded in Business Central pages",
+    "Both the person sharing a report and the recipient need Power BI Pro licenses",
+    "The free Business Central Power BI license is limited to one personal workspace with one daily refresh",
+    "Microsoft Power BI Apps for Finance, Sales, Purchasing, Inventory, Manufacturing, Projects, Sustainability, and other modules require Power BI Pro",
+    "Microsoft Fabric or Power BI Premium capacity can replace individual Pro licenses for report viewers in larger organizations"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "power bi",
+    "licensing",
+    "reporting",
+    "business central integration",
+    "analytics",
+    "capacity"
+  ],
+  "objects": [],
+  "features": [
+    "Embedded Power BI reports",
+    "Microsoft Power BI Apps for Business Central",
+    "Power BI Pro licensing",
+    "Data refresh capabilities",
+    "Report sharing",
+    "Personal workspace"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005156,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Power BI Pro is the minimum license for anyone who wants to use Power BI as it is intended.",
+      "why_it_matters": "This clarifies the essential licensing requirement for any Business Central organization implementing Power BI reporting"
+    },
+    {
+      "text": "Every Business Central user automatically gets a free Power BI license. It sounds like a good starting point, but the limitations kick in quickly.",
+      "why_it_matters": "Explains why the included free license is insufficient and helps organizations understand the real cost of Power BI implementation"
+    }
+  ]
+}

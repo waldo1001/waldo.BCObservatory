@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/demiliani-com/13563",
+  "url": "https://demiliani.com/2026/03/24/dynamics-365-business-central-how-many-copilot-credits-my-agent-consumes/",
+  "title": "Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?",
+  "source": "demiliani-com",
+  "published_at": "2026-03-24T09:29:29.000Z",
+  "words": 404,
+  "summary": "Dynamics 365 Business Central Agents consume Copilot credits during execution. Users can monitor credit consumption directly in Business Central through the Agent page's View consumption data option, which shows monthly usage by task and the specific Copilot features used.",
+  "key_points": [
+    "Copilot credits for Business Central Agents can be purchased through Power Platform Admin Center via prepaid packs or pay-as-you-go subscriptions",
+    "Linking Business Central environments to Power Platform environments is required for pay-as-you-go billing and to track consumption per environment",
+    "Agent consumption data is accessible via the Agent page's View consumption data action, showing monthly execution details and credit usage by task",
+    "Only users with SUPER or AGENT - DIAGNOSTICS permission sets can view Copilot credits billing details; AGENT - ADMIN permission is insufficient"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "copilot credits",
+    "billing",
+    "agents",
+    "consumption tracking",
+    "permissions",
+    "power platform"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Agent page"
+    },
+    {
+      "type": "other",
+      "name": "Agent Task Log page"
+    }
+  ],
+  "features": [
+    "Copilot credits billing",
+    "Agent consumption monitoring",
+    "View consumption data",
+    "Monthly usage reporting",
+    "Task-level credit tracking",
+    "Generative answer",
+    "Autonomous action",
+    "Permission-based access control"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005394,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "you can now monitor the consume of Copilot credits for your Agents directly in Business Central",
+      "why_it_matters": "Highlights the built-in monitoring capability that most Business Central users and partners are not aware of"
+    },
+    {
+      "text": "The consumption overview of Business Central agents can be visible only to users with SUPER or AGENT - DIAGNOSTICS permission set assigned",
+      "why_it_matters": "Clarifies the specific security requirements for accessing billing data, correcting a common misunderstanding about AGENT - ADMIN permissions"
+    }
+  ]
+}

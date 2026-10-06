@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/03/which-power-bi-license-do-you-need-for-business-central/",
   "published_at": "2026-03-26T09:00:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:01:05.646Z",
+      "path": "vault:posts/thinkaboutit-be/7753.md",
+      "words": 845
+    },
+    "extracted": {
+      "at": "2026-10-06T22:01:12.358Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T22:01:12.360Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:01:12.361Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:01:12.365Z",
+      "path": "content/posts/thinkaboutit-be/7753.md"
     }
   },
   "input_hash": "2026-03-26T09:23:08.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67dddbc0ee22eb30019881e0be6ecd7b73ee2312890a01550414f43f492ca566"
 }

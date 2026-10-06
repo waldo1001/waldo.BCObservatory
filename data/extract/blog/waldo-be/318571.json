@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/waldo-be/318571",
+  "url": "https://waldo.be/2026/03/28/i-built-the-tool-but-forgot-the-skill/",
+  "title": "I built the tool .. but forgot the skill..",
+  "source": "waldo-be",
+  "published_at": "2026-03-28T21:06:39.000Z",
+  "words": 806,
+  "summary": "Building effective AI tools for telemetry analysis requires more than access to data and dashboards. The quality of questions asked and critical evaluation of AI responses are the real limiting factors in diagnosing performance issues.",
+  "key_points": [
+    "BC Telemetry Buddy works well but amplifies both good and bad thinking equally, so vague input produces vague output",
+    "AI responses appear authoritative and structured even when containing hallucinations or assumptions, making critical evaluation essential",
+    "Effective telemetry analysis requires domain knowledge to validate AI conclusions against real system behavior",
+    "Future tools should focus on guiding users toward better questions and validating assumptions rather than just providing answers"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "application insights",
+    "ai",
+    "kql",
+    "performance analysis",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "BC Telemetry Buddy",
+    "Application Insights dashboards",
+    "KQL queries",
+    "AI analysis"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AI scales your thinking.. good AND bad. So if your team was bad at asking questions before… well. Did we solve anything?",
+      "why_it_matters": "Highlights the fundamental limitation that AI amplifies existing thinking patterns without automatically improving problem-solving capability"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005801,
+    "posts_in_call": 1
+  }
+}

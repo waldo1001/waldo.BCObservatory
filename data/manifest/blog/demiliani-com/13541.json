@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/03/17/yampi-the-dynamics-365-business-central-administration-mcp-server-installing-apps-from-microsofts-marketplace/",
   "published_at": "2026-03-17T07:35:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:01:19.829Z",
+      "path": "vault:posts/demiliani-com/13541.md",
+      "words": 149
+    },
+    "extracted": {
+      "at": "2026-10-06T22:01:28.052Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.004889
+    },
+    "summarized": {
+      "at": "2026-10-06T22:01:28.053Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:01:28.054Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:01:28.057Z",
+      "path": "content/posts/demiliani-com/13541.md"
     }
   },
   "input_hash": "2026-03-17T07:35:55.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae597f0c23911b2c4ab79b956b27a5dade26e61fbce51d7e6ab3c9356ab9d67f"
 }

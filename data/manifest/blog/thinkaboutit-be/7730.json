@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/03/business-central-2026-release-wave-1-a-mix-of-platform-evolution-and-practical-improvements/",
   "published_at": "2026-03-19T07:45:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:01:13.554Z",
+      "path": "vault:posts/thinkaboutit-be/7730.md",
+      "words": 2139
+    },
+    "extracted": {
+      "at": "2026-10-06T22:01:24.514Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.013685
+    },
+    "summarized": {
+      "at": "2026-10-06T22:01:24.515Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:01:24.516Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:01:24.520Z",
+      "path": "content/posts/thinkaboutit-be/7730.md"
     }
   },
   "input_hash": "2026-03-19T15:05:57.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aa0c653b2acdea0bad9981f47be9bead7a7078855b5d956e9989fccffa9627f7"
 }

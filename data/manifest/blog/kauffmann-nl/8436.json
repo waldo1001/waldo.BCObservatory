@@ -7,13 +7,21 @@
   "url": "https://www.kauffmann.nl/2026/03/13/designing-agents-for-business-central/",
   "published_at": "2026-03-13T22:39:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:01:25.405Z",
+      "path": "vault:posts/kauffmann-nl/8436.md",
+      "words": 960
     }
   },
   "input_hash": "2026-04-07T09:36:43.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70cf0ee4344094e9f10ad8d2c9a126bb6ae75e1fd927e81a3add06263560a94d"
 }

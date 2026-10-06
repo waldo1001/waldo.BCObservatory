@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3214",
+  "url": "https://aardvarklabs.blog/2026/03/27/streamline-al-development-using-copilot-code-review/",
+  "title": "Streamline AL Development Using Copilot Code Review",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-03-27T12:00:00.000Z",
+  "words": 1556,
+  "summary": "GitHub's Copilot Code Review feature can assist with AL code reviews by checking code against detailed standards beyond what CI pipelines catch. Set up the feature in GitHub settings and create a codereview.instructions.md file with AL-specific guidelines to guide Copilot's review process and ensure AppSource-ready, high-quality extensions.",
+  "key_points": [
+    "Enable Copilot Code Review in GitHub settings under Settings > Copilot > Code review to get AI-assisted code reviews on pull requests",
+    "Create a codereview.instructions.md file with detailed AL development standards to guide Copilot's review process beyond what CI pipelines validate",
+    "Include comprehensive guidelines covering best practices, code quality, performance, security, extensibility, UI standards, and common AL mistakes",
+    "Keep instruction files under 1000 lines to avoid overloading Copilot and prevent false positives when reviewing complex AL code",
+    "Use Copilot to catch issues that are technically correct but don't meet project standards or best practices"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "al development",
+    "code review",
+    "copilot",
+    "ci/cd",
+    "code quality",
+    "github",
+    "best practices",
+    "appsource"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot Code Review",
+    "GitHub integration",
+    "AL code analysis",
+    "Pull request automation",
+    "Custom review guidelines",
+    "Standard enforcement"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007665,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "We create a codereview.instructions.md file. This will contain the detailed instruction for how we expect Copilot to review the code.",
+      "why_it_matters": "Shows how to customize Copilot's behavior with project-specific AL development standards"
+    },
+    {
+      "text": "It is recommended that you keep these instructions under 1000 lines. Too many things to check will overburden the Copilot system.",
+      "why_it_matters": "Provides practical guidance on optimizing instruction files to avoid Copilot performance issues and false positives"
+    }
+  ]
+}

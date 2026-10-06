@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/approval-workflows-for-item-journals.html",
   "published_at": "2026-03-18T08:14:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T22:01:17.445Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md",
+      "words": 542
+    },
+    "extracted": {
+      "at": "2026-10-06T22:01:25.281Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005958
+    },
+    "summarized": {
+      "at": "2026-10-06T22:01:25.282Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T22:01:25.284Z"
+    },
+    "published": {
+      "at": "2026-10-06T22:01:25.288Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md"
     }
   },
   "input_hash": "2026-03-18T08:14:29.568Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff6f24c1f23ebf0d0de3baab0ea5fea03c2e26ad86dd0d1c34192a886d22dc1f"
 }

@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/approval-workflows-for-item-journals.html",
+  "title": "Approval Workflows for Item Journals and Requisition Worksheets",
+  "source": "mohana-blog",
+  "published_at": "2026-03-18T08:14:00.000Z",
+  "words": 542,
+  "summary": "Business Central 28 introduces approval workflows for item journals, requisition worksheets, and planning worksheets, enabling batch-level approvals before posting or conversion to purchase documents. This closes a gap where these critical inventory and procurement operations previously lacked the approval controls available for general journals.",
+  "key_points": [
+    "Item journals now support batch-level approval workflows matching existing general journal functionality",
+    "Requisition and planning worksheets can require approval before converting lines to purchase orders or carrying out action messages",
+    "Active approval requests lock down records, preventing edits, deletes, or posting until approval is completed or canceled",
+    "Standard approval actions (Approve, Reject, Delegate, Comments) and workflow status are visible on journal and worksheet pages",
+    "Power Automate integration enables approval routing and notifications through existing organizational flows"
+  ],
+  "systems": [
+    "inventory",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "approval workflows",
+    "item journals",
+    "requisition worksheets",
+    "planning worksheets",
+    "batch approval",
+    "audit compliance",
+    "segregation of duties"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Journal Batch Approval Workflow"
+    },
+    {
+      "type": "table",
+      "name": "Requisition Worksheet Batch Approval Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Approval Entries"
+    }
+  ],
+  "features": [
+    "Item journal batch approval",
+    "Requisition worksheet approval",
+    "Planning worksheet approval",
+    "Approval workflow locking",
+    "Power Automate support",
+    "Workflow status tracking"
+  ],
+  "versions": [
+    "BC28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005958,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Before you carry out planning actions or convert requisition lines into purchase documents, the batch can go through an approval cycle.",
+      "why_it_matters": "This extends approval controls to procurement workflows, ensuring all purchase document creation is reviewed and approved."
+    },
+    {
+      "text": "Microsoft has also updated the workflow events and responses to work with Power Automate.",
+      "why_it_matters": "Organizations can integrate these new workflows into existing Power Automate flows for centralized approval routing and notifications."
+    }
+  ]
+}

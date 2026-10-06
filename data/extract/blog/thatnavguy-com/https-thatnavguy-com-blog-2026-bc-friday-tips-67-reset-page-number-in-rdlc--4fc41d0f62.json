@@ -1,0 +1,47 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/",
+  "title": "BC Friday Tips #67 Reset Page Number in RDLC",
+  "source": "thatnavguy-com",
+  "published_at": "2026-03-27T00:00:00.000Z",
+  "words": 55,
+  "summary": "The ResetPageNumber property in RDLC reports restarts page numbering at 1 for each group or document, matching user expectations when printing multiple groups.",
+  "key_points": [
+    "Set ResetPageNumber to True on row groups in RDLC",
+    "Page numbering restarts at 1 for each group or document",
+    "Aligns report output with typical user expectations for grouped or multi-document reports"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "rdlc",
+    "page numbers",
+    "row groups",
+    "report design"
+  ],
+  "objects": [],
+  "features": [
+    "ResetPageNumber property"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003516,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Each group or document starts at Page 1",
+      "why_it_matters": "Explains the key benefit of using ResetPageNumber - users see logical page breaks aligned with their data grouping"
+    },
+    {
+      "text": "Use the ResetPageNumber property on your row group. Set it to True.",
+      "why_it_matters": "Provides the exact implementation approach - a simple configuration change on row groups solves the problem"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/thinkaboutit-be/7730",
+  "url": "https://thinkaboutit.be/2026/03/business-central-2026-release-wave-1-a-mix-of-platform-evolution-and-practical-improvements/",
+  "title": "Business Central 2026 Release Wave 1: A Mix of Platform Evolution and Practical Improvements",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-03-19T07:45:55.000Z",
+  "words": 2139,
+  "summary": "Business Central version 28 (April 2026) delivers distributed improvements across supply chain, reporting, governance, and developer tooling rather than single headline features. The release addresses daily friction points in inventory, purchasing, manufacturing, and introduces agent-driven administration infrastructure and semantic search capabilities.",
+  "key_points": [
+    "Supply chain gets dozens of practical improvements: variant-level images and attributes, independent drop shipment invoice posting, multi-line invoice matching, and quality management preview",
+    "Reporting evolves with layout governance, financial enhancements, modernized inventory reports using Excel/Word, and language defaults at company level",
+    "Administration receives unified permissions overview, database index management, read-only permission and workflow APIs, plus preview support for cloud migration from non-standard SQL sources",
+    "Developer tools add semantic data search, BC-Bench benchmarking framework, AL test execution from VS Code preview, and MCP server for real-time debugging with agent introspection",
+    "Copilot and agents gain inbox category discovery, dedicated task pane, inline review of suggestions, advanced item KPIs, and ability to stop all active agent tasks"
+  ],
+  "systems": [
+    "inventory",
+    "purchasing",
+    "manufacturing"
+  ],
+  "topics": [
+    "release wave 1",
+    "version 28",
+    "supply chain",
+    "reporting",
+    "governance",
+    "developer experience",
+    "agents",
+    "shopify connector"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Semantic Data Search"
+    },
+    {
+      "type": "page",
+      "name": "Item Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Permissions Overview"
+    },
+    {
+      "type": "page",
+      "name": "Item Variant Card"
+    }
+  ],
+  "features": [
+    "Item variant images and attributes",
+    "Drop shipment purchase orders and independent invoice posting",
+    "Multi-line purchase invoice matching",
+    "Quality management lifecycle",
+    "Report layout governance",
+    "Database index management",
+    "Read-only permission and workflow APIs",
+    "Semantic data search"
+  ],
+  "versions": [
+    "28",
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013685,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Version 28 is a layered release: platform evolution in the background, a large number of practical improvements across core business processes in the foreground.",
+      "why_it_matters": "Clarifies that the release's value comes from cumulative practical improvements rather than single transformative features, helping partners and users prioritize what to test and adopt."
+    },
+    {
+      "text": "Better extensibility means cleaner extensions, lower upgrade risk, and less accumulated technical debt.",
+      "why_it_matters": "Explains the long-term strategic value of adding events to standard processes, reducing partner workarounds and technical debt accumulation."
+    }
+  ]
+}
