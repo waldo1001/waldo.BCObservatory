@@ -1,0 +1,178 @@
+{
+  "video_id": "UgagVZVKCso",
+  "item_id": "video/yt-microsoft/UgagVZVKCso",
+  "title": "Business Central Partner Learnings from the Red Carpet Copilot Program",
+  "duration_s": 83,
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "copilot development",
+    "prompt engineering",
+    "testing and validation",
+    "ai implementation",
+    "partner learnings",
+    "team collaboration",
+    "red carpet program",
+    "use cases"
+  ],
+  "chapters": [
+    {
+      "title": "Red Carpet Program Overview",
+      "t_start": 0,
+      "t_end": 13.9
+    },
+    {
+      "title": "Getting Started with Ideas",
+      "t_start": 13.9,
+      "t_end": 30.3
+    },
+    {
+      "title": "AI Problem Solving and Prompt Engineering",
+      "t_start": 30.3,
+      "t_end": 46.6
+    },
+    {
+      "title": "Testing and Quality Assurance",
+      "t_start": 46.6,
+      "t_end": 59.4
+    },
+    {
+      "title": "Building Copilot Solutions as a Team",
+      "t_start": 59.4,
+      "t_end": 83
+    }
+  ],
+  "features": [
+    {
+      "name": "Red Carpet Copilot Program",
+      "description": "A program that enables partners to take concepts and ideas and translate them into AI-powered solutions that clients can use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.5,
+      "t_end": 13.9,
+      "is_demoed": false,
+      "caveats": [
+        "Getting started is the biggest challenge",
+        "Partners struggle with defining use cases"
+      ],
+      "tags": [
+        "partner program",
+        "ai",
+        "copilot",
+        "red carpet"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Function with Prompt Engineering",
+      "description": "Building copilot functions requires significant effort in prompt engineering and continuous testing to deliver the best answers for customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.3,
+      "t_end": 59.4,
+      "is_demoed": false,
+      "caveats": [
+        "Prompt engineering is time-consuming",
+        "Requires extensive testing",
+        "Continuous validation needed"
+      ],
+      "tags": [
+        "prompt engineering",
+        "testing",
+        "ai",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated Testing for Copilot",
+      "description": "Automated testing in place to ensure that copilot functions work as envisioned over time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59.4,
+      "t_end": 70.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "automation",
+        "quality assurance"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Partner 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Partner 2",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 2.5,
+      "text": "The red carpet program is really exciting. It enables us to take concepts, ideas and translate them into reality that our clients can actually",
+      "why_it_matters": "Describes the core purpose and value of the Red Carpet Copilot Program for partners.",
+      "check": "exact"
+    },
+    {
+      "t": 13.9,
+      "text": "You need to go through that process in order to be um competitive in the future. biggest learning that other partners are also struggling",
+      "why_it_matters": "Indicates that defining use cases is a widespread challenge among partners using the program.",
+      "check": "exact"
+    },
+    {
+      "t": 30.3,
+      "text": "We can now approach problems with AI. It's not the technical thing, it's the envisioning.",
+      "why_it_matters": "Shows that the main challenge in AI implementation is conceptualization rather than technical execution.",
+      "check": "exact"
+    },
+    {
+      "t": 30.3,
+      "text": "So our biggest learnings so far have been really the prompt engineering and the time that it takes to do that as well as",
+      "why_it_matters": "Identifies prompt engineering and testing as the most critical learnings in copilot development.",
+      "check": "exact"
+    },
+    {
+      "t": 46.6,
+      "text": "It requires continuous testing to make sure that you have the best prompt for co-pilot to deliver the best answers for your customers.",
+      "why_it_matters": "Establishes that ongoing testing is essential for copilot quality and customer satisfaction.",
+      "check": "exact"
+    },
+    {
+      "t": 70.9,
+      "text": "Most important thing to consider when building co-pilot is working together as a team and really make it a focused effort for your organization.",
+      "why_it_matters": "Emphasizes that team collaboration is the primary success factor in copilot development.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010906
+    }
+  ]
+}

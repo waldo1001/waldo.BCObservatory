@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year",
   "published_at": "2026-05-13T18:33:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "abcb4b7ce7f992904b1bcb81802e6d6b69a9fe17",
       "words": 323,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:33:42.943Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00681
+    },
+    "summarized": {
+      "at": "2026-10-06T18:33:44.880Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:33:44.881Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:33:44.882Z",
+      "page": false
     }
   },
   "input_hash": "abcb4b7ce7f992904b1bcb81802e6d6b69a9fe17",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abcb4b7ce7f992904b1bcb81802e6d6b69a9fe17"
+  "output_hash": "9ea81702c51692feda72f54389d6e92254ded4a833aebb0f36e7c5335c8ac88e"
 }

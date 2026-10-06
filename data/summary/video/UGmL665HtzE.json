@@ -1,0 +1,26 @@
+{
+  "video_id": "UGmL665HtzE",
+  "item_id": "video/yt-microsoft/UGmL665HtzE",
+  "summary": "AL-Go for GitHub June 2025 office hour: version 7.2 shipped, and three features in preview (telemetry starter dashboard, custom template repositories, custom jobs) are expected in 7.3. Also warns that AL-Go versions lower than 5.0 will break soon.",
+  "overview": "The session covers AL-Go for GitHub version 7.2, which contains features that were previously in preview. It then walks through three features that are in preview and not part of 7.2, with the speakers saying they will be available in 7.3.\n\nThe preview features are a starter Azure Data Explorer dashboard for AL-Go telemetry, custom template repositories, and custom jobs in AL-Go workflows. All three were demoed. The session ends with a notice that AL-Go versions lower than 5.0 will break very soon, followed by Q&A.",
+  "key_points": [
+    "AL-Go 7.2 has been shipped and includes features that were earlier in preview, with improvements to workflows and system file management.",
+    "The starter telemetry dashboard is in preview. It is an Azure Data Explorer report showing running workflows, failures, runner usage, AL-Go versions and deprecated settings. You download a JSON file from the repository and fill in the configuration.",
+    "Custom template repositories are in preview. They let you put your own template repository in the middle, to spawn repositories with custom scripts or workflows, like AL-Go PTE or AL-Go AppSource. Changes sync when you run update AL-Go system files.",
+    "Custom jobs are in preview. You add them to AL-Go workflow YAML files by prefixing the job name with custom-job-.",
+    "Custom jobs should be used carefully. Job names or YAML files may change in future versions and break customizations, so review changes when updating system files.",
+    "The three preview features are not in 7.2 but are expected in 7.3.",
+    "If you run an AL-Go version lower than 5.0, upgrade, because it will break very soon."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "a1ea71950d153a0d435ca3fdd9831da97bdc9a84286e6a44e447a48309b7fe3f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014904399999999998
+  }
+}

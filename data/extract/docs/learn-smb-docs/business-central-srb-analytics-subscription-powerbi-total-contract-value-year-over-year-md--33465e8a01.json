@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year",
+  "title": "Total Contract Value Year-Over-Year (Power BI Report)",
+  "blob": "abcb4b7ce7f992904b1bcb81802e6d6b69a9fe17",
+  "summary": "Power BI report visualizing monthly and year-over-year trends in total contract value for subscription portfolios. Use this to assess subscription growth and customer activity against previous year performance.",
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "contract value",
+    "kpi analytics",
+    "year-over-year"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    }
+  ],
+  "features": [
+    "Total Contract Value",
+    "Active Customers",
+    "Year-over-year comparison",
+    "Monthly trend visualization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

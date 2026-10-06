@@ -1,0 +1,25 @@
+{
+  "video_id": "9-eo7b2xg8Q",
+  "item_id": "video/yt-bcmusings/9-eo7b2xg8Q",
+  "summary": "The continue keyword in AL for loops (for, while, repeat): skips the current iteration and moves to the next without ending the loop. Covers the difference from break, with three code examples: even numbers, sales invoice lines with customer emails, and a Microsoft IRS forms extension.",
+  "overview": "The video explains the new continue keyword in AL and how it differs from break. Break ends the loop, while continue jumps to the end of the current iteration and goes on with the next one. The presenter notes that the examples are made up, except one that comes from a Microsoft extension.\n\nThree examples are shown: a simple for loop that skips even numbers, a loop over sales invoice lines tied to customer emails, and code in the Microsoft IRS forms extension (table 1099 form do header and codeunit Coordinate IRS 1099 send email). The presenter says continue is optional, so it is not a breaking change, and that the code could be restructured to avoid it. It can also save time compared with refactoring a whole function.",
+  "key_points": [
+    "continue is a new AL keyword for loops: for, while and repeat.",
+    "break ends the loop; continue skips only the current iteration and moves to the next one.",
+    "In the first example, a for loop tests whether a number is even and skips it with continue.",
+    "A second example applies continue to sales invoice lines and customer emails.",
+    "A third example uses the Microsoft IRS forms extension, with table 1099 form do header and codeunit Coordinate IRS 1099 send email.",
+    "continue is optional and not a breaking change; code can be restructured to avoid it.",
+    "It can be used instead of refactoring a whole function."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "8a2beb8644658e694a3534bf759b8181f8bc7e0410d738c4c79f6c5d29c0cad9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0104344
+  }
+}

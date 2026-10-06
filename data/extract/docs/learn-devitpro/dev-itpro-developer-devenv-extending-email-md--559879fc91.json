@@ -1,0 +1,107 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-email.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-email",
+  "title": "Extending Email",
+  "blob": "654ba1c3c8ab095f5f2243c27a366f8390e378d5",
+  "summary": "Extend email capabilities by implementing custom scenarios, address book lookups, view policies, and connectors. Use this to build custom email integrations with interfaces and enums for Business Central email processing.",
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "email",
+    "extension",
+    "connectors",
+    "custom scenarios",
+    "api"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Email Scenario"
+    },
+    {
+      "type": "enum",
+      "name": "Email Address Entity"
+    },
+    {
+      "type": "enum",
+      "name": "Email View Policy"
+    },
+    {
+      "type": "enum",
+      "name": "Email Connector"
+    },
+    {
+      "type": "interface",
+      "name": "Email View Policy"
+    },
+    {
+      "type": "interface",
+      "name": "Email Connector"
+    },
+    {
+      "type": "codeunit",
+      "name": "Email Scenario"
+    },
+    {
+      "type": "codeunit",
+      "name": "Email Address Lookup"
+    },
+    {
+      "type": "table",
+      "name": "Email Outbox"
+    },
+    {
+      "type": "table",
+      "name": "Sent Email"
+    },
+    {
+      "type": "table",
+      "name": "Email Account"
+    },
+    {
+      "type": "page",
+      "name": "Email Outbox"
+    },
+    {
+      "type": "page",
+      "name": "Sent Emails"
+    },
+    {
+      "type": "page",
+      "name": "Email Editor"
+    },
+    {
+      "type": "page",
+      "name": "Email Viewer"
+    },
+    {
+      "type": "page",
+      "name": "Email Scenarios"
+    }
+  ],
+  "features": [
+    "Email Scenarios",
+    "Email Address Book Lookup",
+    "Email View Policies",
+    "Email Connectors",
+    "Microsoft 365 Connector",
+    "Current User Connector",
+    "SMTP Connector",
+    "OnGetSuggestedAddresses event",
+    "OnLookupAddressFromEntity event"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

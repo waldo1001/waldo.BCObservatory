@@ -1,0 +1,181 @@
+{
+  "video_id": "QK-Qsh_6YL4",
+  "item_id": "video/yt-microsoft/QK-Qsh_6YL4",
+  "title": "Copilot Completing Time Sheets by Pryme Global",
+  "duration_s": 69,
+  "systems": [
+    "projects",
+    "copilot"
+  ],
+  "topics": [
+    "copilot",
+    "time sheets",
+    "calendar view",
+    "microsoft graph",
+    "time entry suggestions",
+    "gap filling",
+    "email",
+    "teams calls",
+    "calendar appointments"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Copilot time sheet feature",
+      "t_start": 0,
+      "t_end": 16.2
+    },
+    {
+      "title": "Time sheet and calendar view interface",
+      "t_start": 16.2,
+      "t_end": 28.9
+    },
+    {
+      "title": "Using Copilot to fill time sheet gaps",
+      "t_start": 28.9,
+      "t_end": 39.3
+    },
+    {
+      "title": "Data sources and proposal workflow",
+      "t_start": 39.3,
+      "t_end": 53
+    },
+    {
+      "title": "Review, adjust, and submit time entries",
+      "t_start": 53,
+      "t_end": 69
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot time sheet completion",
+      "description": "A Copilot feature that completes time sheets for users by analyzing data from Microsoft Graph sources including emails, Teams calls, calendar appointments, and to-dos to suggest time sheet entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.3,
+      "t_end": 52.9,
+      "is_demoed": true,
+      "caveats": [
+        "Users can accept or discard suggestions",
+        "Manual review and adjustment of entries is possible"
+      ],
+      "tags": [
+        "copilot",
+        "time sheets",
+        "ai-powered",
+        "gap filling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Calendar view for time sheets",
+      "description": "A calendar view feature that displays completed time sheet entries and identifies gaps that need to be filled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.2,
+      "t_end": 28.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "time sheets",
+        "calendar",
+        "visualization"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Microsoft Graph integration for time sheet data",
+      "description": "Integration with Microsoft Graph to pull data from calendar appointments, Teams calls, to-dos, and emails to generate time sheet entry suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.3,
+      "t_end": 52.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "microsoft graph",
+        "integration",
+        "data sources"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Time sheet entry explanations",
+      "description": "Copilot provides explanations for why each time sheet entry was suggested, allowing users to understand the reasoning behind the proposals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53,
+      "t_end": 69,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "time sheets",
+        "transparency"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Pryme Global representative",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 2.3,
+      "text": "We created a co-pilot feature for our app prime time. It completes the time sheets for users using data from the Microsoft graph",
+      "why_it_matters": "Establishes that Copilot time sheet completion is already available and highlights the use of Microsoft Graph data sources.",
+      "check": "exact"
+    },
+    {
+      "t": 16.2,
+      "text": "it suggests time sheet entries that will complete your time sheet and the gaps that are in it",
+      "why_it_matters": "Clarifies the core function of the feature: suggesting entries to fill gaps in incomplete time sheets.",
+      "check": "exact"
+    },
+    {
+      "t": 28.9,
+      "text": "You can use the co-pilot feature to suggest time sheet entries that will fill in those gaps",
+      "why_it_matters": "Demonstrates the workflow of identifying gaps and using Copilot to resolve them.",
+      "check": "exact"
+    },
+    {
+      "t": 39.3,
+      "text": "The time sheet entries will be generated based on data pulled from the Microsoft graph such as calendar appointments, teams, calls, to-dos, emails, etc.",
+      "why_it_matters": "Details the specific data sources used by Copilot to generate time sheet entry suggestions.",
+      "check": "exact"
+    },
+    {
+      "t": 53,
+      "text": "you can look at the entries generated and you can see some additional information with an explanation of why that was suggested",
+      "why_it_matters": "Shows that Copilot provides transparency through explanations for its suggestions, enabling informed user decisions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010976999999999999
+    }
+  ]
+}

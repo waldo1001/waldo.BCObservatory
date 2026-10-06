@@ -1,0 +1,136 @@
+{
+  "video_id": "9-eo7b2xg8Q",
+  "item_id": "video/yt-bcmusings/9-eo7b2xg8Q",
+  "title": "The \"Continue\" Keyword Finally Comes to AL — 3 Practical Examples (BC 2025 Wave 1)",
+  "duration_s": 689,
+  "systems": [
+    "development",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "al language",
+    "loop control",
+    "continue keyword",
+    "break vs continue",
+    "code examples",
+    "refactoring",
+    "al extensions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the continue keyword",
+      "t_start": 0,
+      "t_end": 39.8
+    },
+    {
+      "title": "Distinguishing break and continue",
+      "t_start": 39.8,
+      "t_end": 72.1
+    },
+    {
+      "title": "Example 1 - simple for loop with even numbers",
+      "t_start": 72.1,
+      "t_end": 223.1
+    },
+    {
+      "title": "Example 2 - sales invoice lines and customer emails",
+      "t_start": 223.1,
+      "t_end": 461.8
+    },
+    {
+      "title": "Example 3 - Microsoft IRS forms extension",
+      "t_start": 461.8,
+      "t_end": 629.9
+    },
+    {
+      "title": "Summary and closing remarks",
+      "t_start": 629.9,
+      "t_end": 689
+    }
+  ],
+  "features": [
+    {
+      "name": "continue keyword in AL",
+      "description": "New continue keyword added to AL language for use in loops (for, while, repeat). Allows skipping the current iteration and moving to the next iteration without terminating the loop.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.9,
+      "t_end": 629.9,
+      "is_demoed": true,
+      "caveats": [
+        "Code can be restructured to avoid using continue",
+        "continue is optional - not a breaking change"
+      ],
+      "tags": [
+        "al language",
+        "loop control",
+        "new feature"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "1099 form do header",
+      "t": 577
+    },
+    {
+      "type": "codeunit",
+      "name": "Coordinate IRS 1099 send email",
+      "t": 549.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 39.8,
+      "text": "we need to distinguish between what break does and what continue does.",
+      "why_it_matters": "Establishes the foundational difference between two loop control keywords",
+      "check": "exact"
+    },
+    {
+      "t": 149,
+      "text": "we test if the number is an even number and if it's an even number we skip it",
+      "why_it_matters": "Demonstrates the primary use case of continue - filtering out records without restructuring code",
+      "check": "fuzzy"
+    },
+    {
+      "t": 188.1,
+      "text": "continue which means don't get here but rather here at the end and increment i to three",
+      "why_it_matters": "Shows how continue transfers control flow to the loop increment rather than executing the rest of the iteration body",
+      "check": "fuzzy"
+    },
+    {
+      "t": 494.4,
+      "text": "instead of spending the time to refactor all this function",
+      "why_it_matters": "Explains the practical value proposition - reduces refactoring work in existing code",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 83,
+      "kind": "other",
+      "text": "They are all made up examples, nothing from uh my work uh daily work. Um so um and one example is from Microsoft"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016704
+    }
+  ]
+}

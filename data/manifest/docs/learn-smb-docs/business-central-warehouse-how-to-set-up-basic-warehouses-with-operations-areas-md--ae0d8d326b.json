@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-basic-warehouses-with-operations-areas",
   "published_at": "2026-05-14T06:34:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3b5596c7c1db9f170846ea6a4a9f04146edb3bd6",
       "words": 1854,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:33:42.941Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.00681
+    },
+    "summarized": {
+      "at": "2026-10-06T18:33:42.949Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:33:42.950Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:33:42.950Z",
+      "page": false
     }
   },
   "input_hash": "3b5596c7c1db9f170846ea6a4a9f04146edb3bd6",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3b5596c7c1db9f170846ea6a4a9f04146edb3bd6"
+  "output_hash": "b49d87ac848e58fd5295ef79e6667a3bddb1e564b622052a79531307513f04f0"
 }

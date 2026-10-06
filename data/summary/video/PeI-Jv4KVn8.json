@@ -1,0 +1,26 @@
+{
+  "video_id": "PeI-Jv4KVn8",
+  "item_id": "video/yt-microsoft/PeI-Jv4KVn8",
+  "summary": "Copilot-based maintenance intake by Zig, shown in a short demo. A user describes an issue in natural language, with an image, or both, and Copilot analyzes the input and creates a maintenance request with possible fixes. The video is evidence for image-based intake and the stored attachment with an AI explanation.",
+  "overview": "The video presents a Copilot solution for maintenance intake, motivated by a tenant reporting an issue in a house. Intake can start from natural language, an image, or a combination of both.\n\nIn the demo, the intake starts with an image. Copilot analyzes it, works out the problem, and generates tasks and possible solutions in a maintenance request. In the request's attachments, the image is stored together with an explanation of what the AI sees in it. The video is about one minute long.",
+  "key_points": [
+    "The Copilot solution handles maintenance intake from natural language, an image, or both together.",
+    "Copilot analyzes the input and creates a maintenance request with possible solutions for the fix.",
+    "The demo starts the intake with an image of the issue.",
+    "Copilot looks at the image and suggests possible solutions and generates tasks.",
+    "The maintenance request attachments hold the image and an AI explanation of what it sees in the image.",
+    "The example scenario is a tenant reporting an issue around the house."
+  ],
+  "audience": [
+    "functional consultant",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "5274266560ee68e7bec6510effa33ceb71466686028510a4ce6ade4adeda0260",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0099624
+  }
+}

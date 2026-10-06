@@ -1,0 +1,261 @@
+{
+  "video_id": "2vUCR16b85o",
+  "item_id": "video/yt-bcmusings/2vUCR16b85o",
+  "title": "Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)",
+  "duration_s": 894,
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "external file storage",
+    "azure blob storage",
+    "file shares",
+    "storage accounts",
+    "external file accounts",
+    "unified api",
+    "connectors"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Topic Overview",
+      "t_start": 0,
+      "t_end": 50.4
+    },
+    {
+      "title": "Understanding External File Storage Extension",
+      "t_start": 50.4,
+      "t_end": 128.1
+    },
+    {
+      "title": "Extension Management and Setup Overview",
+      "t_start": 128.1,
+      "t_end": 207.4
+    },
+    {
+      "title": "Azure Storage Account Configuration",
+      "t_start": 207.4,
+      "t_end": 378.4
+    },
+    {
+      "title": "Creating External File Accounts in Business Central",
+      "t_start": 378.4,
+      "t_end": 512.2
+    },
+    {
+      "title": "Setting Up New Blob Storage Account",
+      "t_start": 512.2,
+      "t_end": 600.4
+    },
+    {
+      "title": "Storage Browser Navigation and File Management",
+      "t_start": 600.4,
+      "t_end": 783.1
+    },
+    {
+      "title": "Use Cases and Future Possibilities",
+      "t_start": 783.1,
+      "t_end": 858.3
+    },
+    {
+      "title": "Closing Remarks",
+      "t_start": 858.3,
+      "t_end": 894
+    }
+  ],
+  "features": [
+    {
+      "name": "External File Storage Module",
+      "description": "A new module in Business Central 2025 Wave 1 that allows management of external files more easily through a unified API. Includes extensions for Azure Blob Service, File Service, and SharePoint connectors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50.4,
+      "t_end": 207.4,
+      "is_demoed": true,
+      "caveats": [
+        "SharePoint connector requires a SharePoint server or web application to be set up",
+        "Requires installation of external file storage extensions"
+      ],
+      "tags": [
+        "external files",
+        "unified api",
+        "storage",
+        "extension"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure Blob Service Integration",
+      "description": "An extension that manages containers in Azure Blob Service, allowing external file storage and retrieval through Business Central external file accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 207.4,
+      "t_end": 378.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Azure storage account setup",
+        "Requires shared key authentication"
+      ],
+      "tags": [
+        "azure",
+        "blob storage",
+        "containers",
+        "cloud storage"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure File Service Integration",
+      "description": "An extension that manages file shares in Azure File Service, enabling file share storage and management through Business Central external file accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 207.4,
+      "t_end": 378.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Azure storage account setup",
+        "Requires shared key authentication"
+      ],
+      "tags": [
+        "azure",
+        "file service",
+        "file shares",
+        "cloud storage"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "External File Accounts Setup",
+      "description": "A wizard-based setup interface in Business Central that allows creation and configuration of external file accounts to connect to Azure storage services using shared keys and connection details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378.4,
+      "t_end": 512.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires external file storage extensions to be installed",
+        "Requires Azure storage account and access keys"
+      ],
+      "tags": [
+        "setup",
+        "wizard",
+        "configuration",
+        "accounts"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Storage Browser Interface",
+      "description": "A user interface within Business Central that displays contents of external storage accounts, allows directory navigation, file upload, and folder creation in Azure containers and file shares.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 585.3,
+      "t_end": 783.1,
+      "is_demoed": true,
+      "caveats": [
+        "No drag and drop functionality - requires click to upload",
+        "Resembles classic file manager interfaces"
+      ],
+      "tags": [
+        "browser",
+        "ui",
+        "file navigation",
+        "upload"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "external file storage",
+      "t": 50.4
+    },
+    {
+      "type": "page",
+      "name": "External File Accounts",
+      "t": 389.8
+    },
+    {
+      "type": "page",
+      "name": "Set Up External File Accounts",
+      "t": 401.6
+    },
+    {
+      "type": "page",
+      "name": "Extension Management",
+      "t": 142.5
+    },
+    {
+      "type": "other",
+      "name": "Storage Browser",
+      "t": 585.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 34.4,
+      "text": "which was released on April 14th. 2025",
+      "why_it_matters": "Establishes the release date of Business Central 2025 Wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 50.4,
+      "text": "Manage external files more easily through a unified API in the external file storage module",
+      "why_it_matters": "Introduces the core feature of the external file storage module released in BC 2025 Wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 251,
+      "text": "The containers will be managed by the Azure blob service. Uh the fileshares will be managed by the file service uh extension",
+      "why_it_matters": "Clarifies how different Azure storage types are managed by different extensions",
+      "check": "exact"
+    },
+    {
+      "t": 313.8,
+      "text": "they are connected to this demo BC 2025W1 um storage account. So I have two keys here",
+      "why_it_matters": "Explains that access keys are rotated and needed for connecting Business Central to Azure storage",
+      "check": "exact"
+    },
+    {
+      "t": 401.6,
+      "text": "you can click on set up external file account and you will be taken through a wizard",
+      "why_it_matters": "Describes the setup process for creating external file accounts is wizard-based",
+      "check": "exact"
+    },
+    {
+      "t": 716.8,
+      "text": "there is no drag and drop um with with this interface",
+      "why_it_matters": "Identifies a limitation of the Storage Browser interface",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022442999999999998
+    }
+  ]
+}

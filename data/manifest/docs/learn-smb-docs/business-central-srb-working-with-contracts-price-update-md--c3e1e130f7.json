@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/price-update",
   "published_at": "2026-05-13T07:48:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d6ef5190c365c986b385cea04cfd846fd7e68bd",
       "words": 3243,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:33:42.947Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00681
+    },
+    "summarized": {
+      "at": "2026-10-06T18:33:44.890Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:33:44.891Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:33:44.892Z",
+      "page": false
     }
   },
   "input_hash": "6d6ef5190c365c986b385cea04cfd846fd7e68bd",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d6ef5190c365c986b385cea04cfd846fd7e68bd"
+  "output_hash": "ae95e861dfedf3b4811d19824cf2fd2fe8b0cbdf9f414f879df00681efcefa7d"
 }

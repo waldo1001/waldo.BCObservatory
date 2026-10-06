@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-email",
   "published_at": "2026-05-13T07:35:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "654ba1c3c8ab095f5f2243c27a366f8390e378d5",
       "words": 912,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T18:33:42.948Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 16,
+      "cost_usd": 0.00681
+    },
+    "summarized": {
+      "at": "2026-10-06T18:33:44.893Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:33:44.894Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:33:44.895Z",
+      "page": false
     }
   },
   "input_hash": "654ba1c3c8ab095f5f2243c27a366f8390e378d5",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "654ba1c3c8ab095f5f2243c27a366f8390e378d5"
+  "output_hash": "6063a7492829d496c5a408137d332493c404e7caf0f028ca571ff15bb83fa2ac"
 }

@@ -1,0 +1,268 @@
+{
+  "video_id": "UGmL665HtzE",
+  "item_id": "video/yt-microsoft/UGmL665HtzE",
+  "title": "AL-Go for Github June Office Hour",
+  "duration_s": 901,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "github",
+    "devops",
+    "pipeline",
+    "telemetry",
+    "custom templates",
+    "custom jobs",
+    "azure data explorer",
+    "application insights"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 37.4
+    },
+    {
+      "title": "Version 7.2 Features Released",
+      "t_start": 37.4,
+      "t_end": 82
+    },
+    {
+      "title": "Preview Feature 1: Starter Dashboard for AL-Go Telemetry",
+      "t_start": 82,
+      "t_end": 234.1
+    },
+    {
+      "title": "Preview Feature 2: Custom Template Repositories",
+      "t_start": 234.1,
+      "t_end": 345.9
+    },
+    {
+      "title": "Preview Feature 3: Custom Jobs",
+      "t_start": 345.9,
+      "t_end": 426.1
+    },
+    {
+      "title": "Version Deprecation Announcement",
+      "t_start": 426.1,
+      "t_end": 464.6
+    },
+    {
+      "title": "Q&A and Closing",
+      "t_start": 464.6,
+      "t_end": 901
+    }
+  ],
+  "features": [
+    {
+      "name": "AL-Go Version 7.2",
+      "description": "General availability release containing features previously in preview, including improvements to workflows and system file management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.4,
+      "t_end": 82,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "release",
+        "version",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Starter Dashboard for AL-Go Telemetry",
+      "description": "A plug-and-play Azure Data Explorer report that provides basic reporting capabilities for AL-Go telemetry, showing running workflows, failures, runner usage, AL-Go versions, and deprecated settings.",
+      "status": "preview",
+      "status_evidence_t": 82,
+      "status_evidence_quote": "they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that.",
+      "status_evidence_verified": true,
+      "t_start": 96.3,
+      "t_end": 222.2,
+      "is_demoed": true,
+      "caveats": [
+        "Screenshots are low quality",
+        "Requires downloading JSON file from repository and filling in configuration"
+      ],
+      "tags": [
+        "telemetry",
+        "dashboard",
+        "azure data explorer",
+        "application insights"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom Template Repositories",
+      "description": "Capability to add your own template repository that can be used to spawn other repositories with custom scripts or workflows, similar to how AL-Go PTE or AL-Go AppSource works today. Changes sync when running update AL-Go system files.",
+      "status": "preview",
+      "status_evidence_t": 82,
+      "status_evidence_quote": "they're all in preview",
+      "status_evidence_verified": true,
+      "t_start": 234.1,
+      "t_end": 338.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires management of template repository updates",
+        "Need to sync changes when updating system files"
+      ],
+      "tags": [
+        "templates",
+        "customization",
+        "workflow distribution"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom Jobs in AL-Go Workflows",
+      "description": "Ability to add custom jobs to AL-Go YAML files by prefixing with custom-job- prefix, allowing users to extend CI/CD pipelines with their own jobs.",
+      "status": "preview",
+      "status_evidence_t": 82,
+      "status_evidence_quote": "they're all in preview",
+      "status_evidence_verified": true,
+      "t_start": 345.9,
+      "t_end": 419,
+      "is_demoed": true,
+      "caveats": [
+        "No guarantee job names won't change in future versions",
+        "Requires careful review when updating system files",
+        "Customizations may break with future AL-Go updates",
+        "Should be used very carefully"
+      ],
+      "tags": [
+        "ci-cd",
+        "customization",
+        "yaml",
+        "workflows"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Version 5.0 End of Support",
+      "description": "AL-Go versions lower than 5.0 will break very soon and users are strongly advised to upgrade.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 440.2,
+      "t_end": 452.2,
+      "is_demoed": false,
+      "caveats": [
+        "Version 5.0 was released more than a year ago"
+      ],
+      "tags": [
+        "deprecation",
+        "version",
+        "end-of-support"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Azure Data Explorer",
+      "t": 116.4
+    },
+    {
+      "type": "other",
+      "name": "Application Insights",
+      "t": 131.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 53,
+      "text": "we've shipped it as part of version 7.2",
+      "why_it_matters": "Confirms that previously preview features are now generally available in version 7.2",
+      "check": "exact"
+    },
+    {
+      "t": 82,
+      "text": "they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3",
+      "why_it_matters": "Clarifies status and timeline for three new features coming in version 7.3",
+      "check": "exact"
+    },
+    {
+      "t": 116.4,
+      "text": "It's pretty much like a plug-and-play Azure Azure data explorer uh report.",
+      "why_it_matters": "Describes the telemetry dashboard approach as a simple plug-and-play solution",
+      "check": "exact"
+    },
+    {
+      "t": 287.2,
+      "text": "with custom templates you can basically stick your own template repository in the middle",
+      "why_it_matters": "Explains the core architecture benefit of custom template repositories for organizations",
+      "check": "exact"
+    },
+    {
+      "t": 361.7,
+      "text": "you can add your own custom jobs to these workflows as long as you you prefix it with custom job dash",
+      "why_it_matters": "Defines the naming convention required for custom jobs in AL-Go workflows",
+      "check": "exact"
+    },
+    {
+      "t": 387,
+      "text": "we don't really make any we can't really make any promises that we won't change the name of one of our jobs",
+      "why_it_matters": "Important warning that custom job extensions may break with future AL-Go updates",
+      "check": "exact"
+    },
+    {
+      "t": 440.2,
+      "text": "if you are running an ALGO version lower than 5.0, then please upgrade because this will break very soon",
+      "why_it_matters": "Critical guidance that versions older than 5.0 are approaching end of support",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 82,
+      "kind": "preview",
+      "text": "they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that."
+    },
+    {
+      "t": 387,
+      "kind": "subject-to-change",
+      "text": "we don't really make any we can't really make any promises that we won't change the name of one of our jobs or something like that"
+    },
+    {
+      "t": 399,
+      "kind": "subject-to-change",
+      "text": "we may make changes to our YAML files that will break some of your customizations that you build on top of it"
+    },
+    {
+      "t": 440.2,
+      "kind": "coming-later",
+      "text": "if you are running an ALGO version lower than 5.0, then please upgrade because this will break very soon"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022814
+    }
+  ]
+}

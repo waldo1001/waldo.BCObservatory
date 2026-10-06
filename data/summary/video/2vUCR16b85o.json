@@ -1,0 +1,27 @@
+{
+  "video_id": "2vUCR16b85o",
+  "item_id": "video/yt-bcmusings/2vUCR16b85o",
+  "summary": "External file storage in Business Central 2025 Wave 1: how to install the external file storage extensions, connect Azure Blob Service containers and Azure File Service file shares through external file accounts using shared keys, and browse files in the Storage Browser.",
+  "overview": "The video covers the External File Storage module in Business Central 2025 Wave 1, which manages external files through a unified API. It includes extensions for Azure Blob Service, Azure File Service and a SharePoint connector.\n\nThe presenter installs the extensions from Extension Management, configures an Azure storage account and its keys, and creates external file accounts with a setup wizard. A new blob storage account is then set up, and the Storage Browser is used to navigate directories, upload files and create folders. The video ends with use cases and future possibilities.",
+  "key_points": [
+    "The External File Storage module offers a unified API for managing external files; it has extensions for Azure Blob Service, Azure File Service and SharePoint.",
+    "Containers are managed by the Azure Blob Service extension and file shares by the Azure File Service extension.",
+    "The external file storage extensions must be installed in Extension Management before accounts can be created.",
+    "Both Azure connectors need an Azure storage account and shared key authentication; the demo uses a storage account with two keys.",
+    "From the External File Accounts page, choose set up external file account to start a wizard that creates the connection.",
+    "The Storage Browser shows account contents, supports directory navigation, file upload and folder creation, and has no drag and drop (click to upload).",
+    "The SharePoint connector requires a SharePoint server or web application to be set up."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "bd7b043d5dad73674a3f68fb1f78c33f3cd3bce3d50ccf397f6c094e62ddd6a8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013078399999999999
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/price-update.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/price-update",
+  "title": "Update prices",
+  "blob": "6d6ef5190c365c986b385cea04cfd846fd7e68bd",
+  "summary": "Update subscription contract line prices by percentage, calculation base, or item list prices using templates. Use this to manage planned and immediate price changes while handling price binding periods and credit memo resets.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "subscription billing",
+    "price management",
+    "contracts",
+    "recurring revenue",
+    "price updates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Contract Price Update"
+    },
+    {
+      "type": "page",
+      "name": "Price Update Templates"
+    },
+    {
+      "type": "page",
+      "name": "Sales Price List"
+    }
+  ],
+  "features": [
+    "Price Update Template",
+    "Calculation Base %",
+    "Price Binding Period",
+    "Perform Update on Date",
+    "Planned Subscription Lines",
+    "Price Update Method",
+    "Include Contract Lines up to Date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

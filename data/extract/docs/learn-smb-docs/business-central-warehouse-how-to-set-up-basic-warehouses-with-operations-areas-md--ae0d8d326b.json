@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-basic-warehouses-with-operations-areas",
+  "title": "Set up basic warehouses with operations areas",
+  "blob": "3b5596c7c1db9f170846ea6a4a9f04146edb3bd6",
+  "summary": "Set up basic warehouse operations using inventory documents and bin structures for production, assembly, and other internal operation areas. Use this to configure default bin flows for components and finished items.",
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "warehouse setup",
+    "bins",
+    "inventory documents",
+    "internal operations",
+    "component management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Bins"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Setup"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    }
+  ],
+  "features": [
+    "Bin Mandatory",
+    "Inventory Pick/Movement",
+    "Inventory Movement",
+    "Inventory Put-Away",
+    "Flushing Method",
+    "Dedicated bins",
+    "To-Production Bin Code",
+    "From-Production Bin Code"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

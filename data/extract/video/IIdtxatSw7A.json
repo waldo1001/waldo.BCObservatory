@@ -1,0 +1,752 @@
+{
+  "video_id": "IIdtxatSw7A",
+  "item_id": "video/yt-microsoft/IIdtxatSw7A",
+  "title": "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.",
+  "duration_s": 2911,
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "security",
+    "cyber threats",
+    "ransomware",
+    "password management",
+    "secure by default",
+    "cloud security",
+    "credential stuffing",
+    "threat intelligence",
+    "small business vulnerability",
+    "threat intelligence sharing",
+    "security development lifecycle",
+    "code scanning"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Security Landscape",
+      "t_start": 0,
+      "t_end": 80.6
+    },
+    {
+      "title": "The Real State of Cyber Threats",
+      "t_start": 80.6,
+      "t_end": 207.9
+    },
+    {
+      "title": "Password Management and Attack Methods",
+      "t_start": 207.9,
+      "t_end": 324.8
+    },
+    {
+      "title": "Unreported Incidents and Ransomware Reality",
+      "t_start": 324.8,
+      "t_end": 421.4
+    },
+    {
+      "title": "Small Business Vulnerability and False Security",
+      "t_start": 421.4,
+      "t_end": 561.8
+    },
+    {
+      "title": "Secure by Default Philosophy",
+      "t_start": 561.8,
+      "t_end": 732.2
+    },
+    {
+      "title": "Cloud Security Benefits and Threat Intelligence Sharing",
+      "t_start": 732.2,
+      "t_end": 909
+    },
+    {
+      "title": "Cloud Security vs. On-Premises Risks",
+      "t_start": 909,
+      "t_end": 1030.4
+    },
+    {
+      "title": "Security Development Lifecycle and Code Review Practices",
+      "t_start": 1030.4,
+      "t_end": 1169.3
+    },
+    {
+      "title": "Secure Admin Workstations, Auditing, and Bounty Program",
+      "t_start": 1169.3,
+      "t_end": 1384
+    },
+    {
+      "title": "Real-World Attack Vectors, Social Engineering, and Disclosure",
+      "t_start": 1384,
+      "t_end": 1665.8
+    },
+    {
+      "title": "Red Team Testing, Bug Bounty Program, and Security Development Guidance",
+      "t_start": 1665.8,
+      "t_end": 2045.6
+    },
+    {
+      "title": "Threat Modeling, CISO Workshops, and Identity Management",
+      "t_start": 2045.6,
+      "t_end": 2261.9
+    },
+    {
+      "title": "Phishing, AI in Security, Incident Response, and Recommendations",
+      "t_start": 2261.9,
+      "t_end": 2911
+    }
+  ],
+  "features": [
+    {
+      "name": "Secure by Default Initiative",
+      "description": "Microsoft's approach to make software security the default state where systems are secure upon deployment, requiring explicit configuration changes to weaken security. This aligns with the Secure Future Initiative.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 657.6,
+      "t_end": 732.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not specific to Business Central alone but applies across BIC products"
+      ],
+      "tags": [
+        "security",
+        "secure by default",
+        "design philosophy"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Threat Intelligence Sharing Network",
+      "description": "Business Central customers benefit from a network effect where threat intelligence is shared across the cloud platform with partners like Google, Amazon, and Apple. When an attack or compromise is detected, the information can be cascaded to all customers immediately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 795.4,
+      "t_end": 836.6,
+      "is_demoed": false,
+      "caveats": [
+        "Benefit is specific to cloud-hosted Business Central customers"
+      ],
+      "tags": [
+        "threat intelligence",
+        "cloud security",
+        "network effect"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Threat Intelligence Cascading",
+      "description": "Microsoft shares malicious IP addresses and threat intelligence across the entire Business Central customer network immediately when an attack is detected on any customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 795.4,
+      "t_end": 836.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "threat intelligence",
+        "network defense",
+        "cloud infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Security Development Lifecycle",
+      "description": "All Business Central code goes through professional security team review including threat modeling exercises, risk assessment, and mitigation tracking before release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1009,
+      "t_end": 1066.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires conducting 6-7 security reviews per day",
+        "Maintained even during AI feature pressure"
+      ],
+      "tags": [
+        "sdlc",
+        "threat modeling",
+        "code review",
+        "ai security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Static Code Analysis and Scanning",
+      "description": "Business Central code undergoes static analysis and code scanning to identify potential security vulnerabilities before release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1066.6,
+      "t_end": 1082.2,
+      "is_demoed": false,
+      "caveats": [
+        "Most small businesses do not perform this practice"
+      ],
+      "tags": [
+        "static analysis",
+        "code scanning",
+        "vulnerability detection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secure Admin Workstation (SAW)",
+      "description": "Specialist devices used to access production systems that are completely separate from corporate systems, locked down, require physical security dongle and second factor authentication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1082.2,
+      "t_end": 1148.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires UB key physical dongle",
+        "Requires second factor authentication",
+        "Specialist VPN required"
+      ],
+      "tags": [
+        "privileged access",
+        "production security",
+        "zero trust"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Auditing and Security Logs to Purview",
+      "description": "Business Central ships extensive auditing and security logs to Microsoft Purview so customers can create their own alerts and detect anomalies.",
+      "status": "ga",
+      "status_evidence_t": 1209,
+      "status_evidence_quote": "we ship an awful lot of auditing and security logs to purview so that customers can can see can also make their own alerts",
+      "status_evidence_verified": true,
+      "t_start": 1194.9,
+      "t_end": 1228.4,
+      "is_demoed": false,
+      "caveats": [
+        "Part of joint responsibility model",
+        "Enables customer-side anomaly detection"
+      ],
+      "tags": [
+        "auditing",
+        "purview",
+        "shared responsibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dynamics 365 Bounty Program",
+      "description": "Microsoft pays security researchers to responsibly disclose vulnerabilities in Dynamics 365 and Business Central rather than selling them as zero-day exploits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1241.7,
+      "t_end": 1289,
+      "is_demoed": false,
+      "caveats": [
+        "Bounty amounts can be substantial",
+        "Payment, CVE credit, and name attribution provided"
+      ],
+      "tags": [
+        "responsible disclosure",
+        "bounty",
+        "vulnerability reporting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cloud Bugs Transparency Reporting",
+      "description": "Microsoft started reporting all cloud bugs including those without CVE assignments to increase transparency about vulnerabilities found and fixed in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1613.8,
+      "t_end": 1634,
+      "is_demoed": false,
+      "caveats": [
+        "Previously only reported bugs with CVE assignments"
+      ],
+      "tags": [
+        "transparency",
+        "bug reporting",
+        "cloud security"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central red team exercise",
+      "description": "Security testing exercise conducted in 2019 with Microsoft red team members who attempted to hack Business Central using the same techniques as skilled adversaries. Led to cleanup work and revealed unexpected security issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1754.1,
+      "t_end": 1852.1,
+      "is_demoed": false,
+      "caveats": [
+        "exercise conducted in 2019",
+        "some cleanup work required"
+      ],
+      "tags": [
+        "red team",
+        "security testing",
+        "penetration testing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dynamics 365 bug bounty program",
+      "description": "Program set up to incentivize security researchers to find and report bugs in Dynamics 365 and Business Central before attackers can exploit them. Researchers are reported to have found all manner of bugs that have been cleaned up.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1864.4,
+      "t_end": 1916.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bug bounty",
+        "vulnerability disclosure",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Security development lifecycle guidance",
+      "description": "Framework and guidance for partners and developers to follow for secure development. Includes resources on threat modeling, identity management, multifactor authentication, and other security practices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1945,
+      "t_end": 2045.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sdlc",
+        "security framework",
+        "partner guidance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CISO workshops",
+      "description": "Video resources with accompanying decks aimed at chief information security officers covering security assurance, operational security, security architecture, and posture management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1981.7,
+      "t_end": 2007.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "security education",
+        "workshops"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Component governance tooling",
+      "description": "Internal tools used to identify and track vulnerabilities in component dependencies. Tools analyze dependencies and alert when vulnerabilities are found so patches can be applied before shipping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2018.4,
+      "t_end": 2045.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dependency management",
+        "vulnerability scanning",
+        "supply chain"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Threat modeling methodology",
+      "description": "Process for identifying security risks by diagramming systems, identifying trust boundaries, analyzing with attacker mindset, and determining mitigations. Described as deceptively simple and involving sitting down as a team to understand system components and connections.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2045.6,
+      "t_end": 2126.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "threat modeling",
+        "security design",
+        "methodology"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fishing resistant multifactor authentication",
+      "description": "Advanced MFA implementation using passkeys and other methods that require proof of presence and prevent spoofing attacks. Prevents man-in-the-middle attacks by using Bluetooth range or barcode verification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2197.4,
+      "t_end": 2241.8,
+      "is_demoed": false,
+      "caveats": [
+        "explicitly not SMS",
+        "requires compatible devices"
+      ],
+      "tags": [
+        "multifactor authentication",
+        "identity",
+        "anti-phishing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot threat modeler",
+      "description": "AI-powered copilot assistant that helps with threat modeling by watching transcripts and answering questions about security patterns and SDL controls. Helps security professionals remember and apply hundreds of security controls.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2446.7,
+      "t_end": 2494.2,
+      "is_demoed": false,
+      "caveats": [
+        "still being developed",
+        "human still needs to remember controls"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "threat modeling",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI for attack detection and log analysis",
+      "description": "AI tools used to detect anomalies and patterns in network logs and events, finding outliers that indicate potential security threats by identifying things not fitting established patterns across large datasets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2504.6,
+      "t_end": 2550.6,
+      "is_demoed": false,
+      "caveats": [
+        "Can generate alert fatigue and false positives"
+      ],
+      "tags": [
+        "ai",
+        "log-analysis",
+        "threat-detection",
+        "anomaly-detection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dynamics 365 and Power Platform security heat mapping",
+      "description": "A capability to assess security maturity and risk across hundreds of services that make up Dynamics 365 and Power Platform products, creating a heat map to identify which services need more security support based on inherent risk and attack surface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2593.8,
+      "t_end": 2658,
+      "is_demoed": false,
+      "caveats": [
+        "Different services have varying security maturity levels and complexity"
+      ],
+      "tags": [
+        "risk-assessment",
+        "security-management",
+        "dynamics-365",
+        "power-platform"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Microsoft Defender for X series",
+      "description": "A series of Microsoft security products helping customers prioritize and focus on important security threats, replacing manual log analysis work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2658,
+      "t_end": 2674.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "defender",
+        "threat-detection",
+        "security-suite"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AI-assisted incident response",
+      "description": "Using AI systems and tools to compress telemetry data and cross-reference compromised identities and systems during security incidents, significantly reducing investigation time from months to weeks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2674.7,
+      "t_end": 2742.8,
+      "is_demoed": false,
+      "caveats": [
+        "Even with AI assistance, incident response at scale remains complex"
+      ],
+      "tags": [
+        "incident-response",
+        "ai",
+        "forensics",
+        "telemetry"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Cosmos database",
+      "t": 2473.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jonathan Davis",
+      "confidence": "high"
+    },
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Craig Nelson",
+      "confidence": "high"
+    },
+    {
+      "name": "Jonathan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 92.2,
+      "text": "I think we should be concerned. Uh, I think the hackers kind of are at the gates a little bit.",
+      "why_it_matters": "Establishes the severity of the security threat landscape that motivates the discussion.",
+      "check": "exact"
+    },
+    {
+      "t": 149.4,
+      "text": "a a very special responsibility because we hold the keys of the kingdoms for so many businesses",
+      "why_it_matters": "Emphasizes Microsoft's security responsibility as a platform provider for business-critical systems.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 252.6,
+      "text": "right now we in Microsoft are experienced sometimes billions, if not trillions of attempts of people that are taking these rainbow tables",
+      "why_it_matters": "Quantifies the scale of attack attempts Microsoft faces using credential databases.",
+      "check": "exact"
+    },
+    {
+      "t": 581.8,
+      "text": "those businesses are probably the most vulnerable. They're in the perfect sweet spot for ransomware attackers.",
+      "why_it_matters": "Identifies small and medium businesses as the primary target for organized ransomware groups.",
+      "check": "exact"
+    },
+    {
+      "t": 657.6,
+      "text": "secure by default you know we've often you know since the 70s we've had all these security principles like",
+      "why_it_matters": "Explains why a paradigm shift to secure-by-default is necessary despite decades of existing security principles.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 825.4,
+      "text": "we can cascade that to all of our customers immediately",
+      "why_it_matters": "Demonstrates how threat intelligence is operationalized across the customer base in real-time when attacks are detected.",
+      "check": "exact"
+    },
+    {
+      "t": 836.6,
+      "text": "a single customer is attacked or even compromised and then we can plug that into our systems to defend everybody else.",
+      "why_it_matters": "Describes how cloud-based threat intelligence benefits all customers through rapid information sharing.",
+      "check": "exact"
+    },
+    {
+      "t": 892.5,
+      "text": "secure by default watched by network operations centers staffed by the best in the world using",
+      "why_it_matters": "Expresses the core value proposition of cloud security over on-premises systems through depth of expertise and monitoring.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1048.5,
+      "text": "all of these AI features need to go through the professional security teams like my own it was very hard work for us we",
+      "why_it_matters": "Illustrates the security commitment maintained for AI features despite business pressure to ship quickly.",
+      "check": "exact"
+    },
+    {
+      "t": 1138,
+      "text": "all of them can access the production databases",
+      "why_it_matters": "Highlights a major customer security failure where 4,000 engineers had unrestricted production access, contrasting with Microsoft practices.",
+      "check": "exact"
+    },
+    {
+      "t": 1264,
+      "text": "we essentially pay people to to report security bugs to us vulnerabilities",
+      "why_it_matters": "Describes the core mechanism of the bounty program to incentivize responsible disclosure over black market exploitation.",
+      "check": "exact"
+    },
+    {
+      "t": 1315.8,
+      "text": "a zero day just means uh a vulnerability that is that the bad that the that the sort of attackers know about before the",
+      "why_it_matters": "Defines zero-day vulnerabilities which are central to understanding modern attack methods discussed in the segment.",
+      "check": "exact"
+    },
+    {
+      "t": 1384,
+      "text": "most successful breaches have nothing to do with zero days",
+      "why_it_matters": "Corrects the perception that zero days are the primary attack vector when social engineering and credential compromise are more common.",
+      "check": "exact"
+    },
+    {
+      "t": 1514.2,
+      "text": "do not use SMS as a as a multiffactor thing because uh it's it's compromised",
+      "why_it_matters": "Provides specific security guidance warning against SMS-based MFA due to SIM swapping vulnerabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1599.8,
+      "text": "the I think that most people would be quite shocked and terrified to realize how many close calls every business has",
+      "why_it_matters": "Emphasizes the widespread nature of security threats and near-misses in business systems that often go undetected.",
+      "check": "exact"
+    },
+    {
+      "t": 1900.9,
+      "text": "and the attackers will find it find it yeah it's far better to have these like",
+      "why_it_matters": "Explains the rationale for the bug bounty program - proactive discovery is better than waiting for malicious actors to find vulnerabilities.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1965.9,
+      "text": "I think the simplest thing would be for them to to follow the security development life cycle that is a very mature, very complete",
+      "why_it_matters": "Provides primary recommendation to partners for securing their solutions using established Microsoft security framework.",
+      "check": "exact"
+    },
+    {
+      "t": 2065.7,
+      "text": "threat modeling is deceptively simple I mean we made a 5minute video for engineering resources here within Microsoft it really just involves this you",
+      "why_it_matters": "Demystifies threat modeling as an accessible practice that doesn't require advanced training or expertise.",
+      "check": "snapped"
+    },
+    {
+      "t": 2141.5,
+      "text": "good security people are not security absolutists. Remember that they're part of a business that has to ship value to customers",
+      "why_it_matters": "Explains the balance security professionals must strike between risk mitigation and business velocity.",
+      "check": "exact"
+    },
+    {
+      "t": 2212.9,
+      "text": "Definitely not SMS. Uh you know, we we actually use so-called fishing resistant MFA",
+      "why_it_matters": "Establishes clear security guidance against SMS-based MFA and endorsement of phishing-resistant alternatives like passkeys.",
+      "check": "exact"
+    },
+    {
+      "t": 2282,
+      "text": "if you get a call from somebody saying they're from Microsoft and there's some security issue on your computer this is not us. this",
+      "why_it_matters": "Public service announcement warning customers about common social engineering scams impersonating Microsoft.",
+      "check": "snapped"
+    },
+    {
+      "t": 2385.7,
+      "text": "cyber security as a discipline is extremely broad. It's not just a narrow technical thing. A lot of it's psychology.",
+      "why_it_matters": "Establishes that cybersecurity extends beyond technical controls to include legal, marketing, and psychological aspects, framing the broader scope of security strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 2401,
+      "text": "at this exact moment in the arms race the defenders are",
+      "why_it_matters": "Key statement that defenders currently have advantage in the AI era, establishing the current threat landscape favorability.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2457.3,
+      "text": "it's hard for me to remember the 300 or so controls that are",
+      "why_it_matters": "Quantifies the complexity of security standards (300+ SDL controls), illustrating why AI assistance is valuable for threat modeling.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2876.6,
+      "text": "The basics are the basics and the basics are basic get you an awful long way",
+      "why_it_matters": "Core security philosophy that fundamental practices provide most protection, reducing need for complex advanced measures.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1030.4,
+      "kind": "subject-to-change",
+      "text": "we maintained that even in the age of AI where there's enormous pressure to push out AI features"
+    },
+    {
+      "t": 2446.7,
+      "kind": "preview",
+      "text": "I've now got a a co-pilot threat modeler with me that's watching the transcript"
+    },
+    {
+      "t": 2637.9,
+      "kind": "other",
+      "text": "MCP servers are all the rage and this is a new thing and everyone's rushing into an area to ship it and we need to give centralized guidance"
+    },
+    {
+      "t": 2782.9,
+      "kind": "other",
+      "text": "attackers have not really found a good use for AI yet but they're trying to figure out how to weaponize these techniques"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 4,
+    "evidence_verified": 1,
+    "evidence_unverified": 20
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022148
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027822
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029597
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023413
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038609000000000004
+    }
+  ]
+}

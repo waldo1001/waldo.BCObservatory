@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-locations-to-use-bins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-locations-to-use-bins",
+  "title": "How to Set Up Locations to Use Bins",
+  "blob": "d77c47615c3bc8e0074c3ce58c67116656a95db8",
+  "summary": "Enable bin functionality at warehouse locations by turning on Bin Mandatory and defining default bins for receipts, shipments, and warehouse adjustments. Use this to establish basic bin structure and item flow design.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse setup",
+    "bins",
+    "location setup",
+    "item flow",
+    "bin policies"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location"
+    },
+    {
+      "type": "page",
+      "name": "Email Outbox"
+    },
+    {
+      "type": "page",
+      "name": "Email Shipment"
+    }
+  ],
+  "features": [
+    "Bin Mandatory",
+    "Default Bin Selection",
+    "Bin Capacity Policy",
+    "Allow Breakbulk",
+    "Put-away Template Code",
+    "Adjustment Bin Code",
+    "Outbound Whse. Handling Time",
+    "Inbound Whse. Handling Time"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

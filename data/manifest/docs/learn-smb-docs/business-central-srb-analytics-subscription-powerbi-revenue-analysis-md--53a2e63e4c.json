@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-analysis",
   "published_at": "2026-05-13T11:09:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "785bc39a2ad654a3d2fde318f89b12bc6f180ef6",
       "words": 227,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:33:42.945Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00681
+    },
+    "summarized": {
+      "at": "2026-10-06T18:33:44.883Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:33:44.884Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:33:44.886Z",
+      "page": false
     }
   },
   "input_hash": "785bc39a2ad654a3d2fde318f89b12bc6f180ef6",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "785bc39a2ad654a3d2fde318f89b12bc6f180ef6"
+  "output_hash": "32cbfa91409b7a4f69e962f7ee4a0b1262d563fbd0ae5092a4aba269d344e365"
 }

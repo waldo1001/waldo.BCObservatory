@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-revenue-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-analysis",
+  "title": "Revenue Analysis (Power BI Report)",
+  "blob": "785bc39a2ad654a3d2fde318f89b12bc6f180ef6",
+  "summary": "Power BI decomposition tree report breaking down monthly recurring revenue by contract type, customer, and item category. Use this to identify drivers and opportunities in subscription revenue streams.",
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "recurring revenue",
+    "analytics",
+    "decomposition tree"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "table",
+      "name": "Subscription"
+    },
+    {
+      "type": "table",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    }
+  ],
+  "features": [
+    "Monthly Recurring Revenue",
+    "Decomposition analysis",
+    "Contract type breakdown",
+    "Item category analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

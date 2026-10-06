@@ -1,0 +1,26 @@
+{
+  "video_id": "ygtO_oUPil4",
+  "item_id": "video/yt-microsoft/ygtO_oUPil4",
+  "summary": "Copilot Complaint Management from Trimit, demonstrated in Business Central: a user uploads a customer email, Copilot extracts key elements and keywords, and a complaint order is generated from the customer feedback. The video is a short demo of this flow.",
+  "overview": "Trimit presents a new Business Central feature for handling customer complaints. A user uploads a customer email into the system, and Copilot reads the text and picks out the key elements and keywords.\n\nIn the demo, the example email describes two ordered items, one with paint peeling off and another damaged during shipment. After the user presses generate, Copilot presents the extracted elements and creates a complaint order. The presenter says complaint handling is an area where customers usually want to spend the least time.",
+  "key_points": [
+    "Users upload a customer email into Business Central as the starting point.",
+    "Copilot analyzes the email text and extracts key elements and keywords.",
+    "Pressing generate presents the extracted elements to the user.",
+    "A complaint order is generated automatically from the customer feedback.",
+    "The demo email covered two issues: paint peeling on ordered items and damage during shipment.",
+    "The feature is positioned as a time saver for complaint handling."
+  ],
+  "audience": [
+    "functional consultant",
+    "decision maker",
+    "end user"
+  ],
+  "extraction_hash": "f28199f6f54c68cfa46ac6e3a513eb5d59e5cefd28e758766dbd23b111026bd4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0086664
+  }
+}

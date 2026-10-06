@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/recurring-billing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/recurring-billing",
+  "title": "Recurring billing",
+  "blob": "5eaebe29f92bddd6c713a00b83ce1159e2e3d0f0",
+  "summary": "Create and manage recurring billing proposals for subscription contracts, then post invoices and credit memos. Use this to bill subscription customers based on contract lines and next billing dates with templates and grouping options.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "subscription billing",
+    "recurring revenue",
+    "invoicing",
+    "contracts",
+    "billing proposals"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recurring Billing"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Planned Subscription Lines"
+    }
+  ],
+  "features": [
+    "Billing Proposal",
+    "Billing Template",
+    "Billing Date",
+    "Billing to Date",
+    "Create Documents",
+    "Group by Contract",
+    "Usage Data Billings",
+    "Next Billing Date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00681,
+      "pages_in_call": 7
+    }
+  ]
+}

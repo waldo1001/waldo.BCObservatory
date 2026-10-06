@@ -1,0 +1,26 @@
+{
+  "video_id": "QK-Qsh_6YL4",
+  "item_id": "video/yt-microsoft/QK-Qsh_6YL4",
+  "summary": "Pryme Global's Copilot feature for its Prime Time app completes time sheets by suggesting entries to fill gaps, using Microsoft Graph data such as calendar appointments, Teams calls, to-dos and emails. The demo shows the calendar view, the suggestions and their explanations.",
+  "overview": "A short demo from Pryme Global of a Copilot feature built for its app Prime Time. It completes time sheets for users with data from the Microsoft Graph.\n\nThe demo covers the time sheet and calendar view, which shows completed entries and the gaps in them. Copilot then proposes entries for those gaps, with an explanation for each suggestion. The user can review and adjust the entries, accept or discard suggestions, and submit.",
+  "key_points": [
+    "The Copilot feature was built by Pryme Global for its app Prime Time, and it completes time sheets for users.",
+    "Suggestions are generated from Microsoft Graph data: calendar appointments, Teams calls, to-dos and emails.",
+    "The calendar view shows completed time sheet entries and the gaps that still need to be filled.",
+    "Copilot proposes entries to fill those gaps.",
+    "Each suggested entry has additional information explaining why it was suggested.",
+    "Users can accept or discard suggestions and manually review and adjust entries before submitting."
+  ],
+  "audience": [
+    "functional consultant",
+    "decision maker",
+    "end user"
+  ],
+  "extraction_hash": "3689472b7ccea8509bc032bf291e9b0e60adbfae5d8627a3ee150e1e20f66798",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010960399999999999
+  }
+}
