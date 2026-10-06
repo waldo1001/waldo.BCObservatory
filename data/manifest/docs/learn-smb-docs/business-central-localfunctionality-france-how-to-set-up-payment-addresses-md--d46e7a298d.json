@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-addresses",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "99a55bc7169c4b0d05bbd2edc32285b6deee5acc",
       "words": 209,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.219Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.497Z",
+      "page": false
     }
   },
   "input_hash": "99a55bc7169c4b0d05bbd2edc32285b6deee5acc",
@@ -130,5 +149,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99a55bc7169c4b0d05bbd2edc32285b6deee5acc"
+  "output_hash": "5eee46cb607a59e56c59478e0f4ef07784c1f487e9466ce69aa4c21f790abf1c"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8ef55e96cc32c11fff216b65f52a30797fecee8",
       "words": 696,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.220Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.498Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.498Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.499Z",
+      "page": false
     }
   },
   "input_hash": "c8ef55e96cc32c11fff216b65f52a30797fecee8",
@@ -135,5 +154,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8ef55e96cc32c11fff216b65f52a30797fecee8"
+  "output_hash": "f935ab57c1838db5993e5fa85ef4074905c188d2e9cdbf99a27a0251ca3f72db"
 }

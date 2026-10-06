@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f00e3d41319ffb28c17d1936d144fdc66bcab051",
       "words": 282,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:14.474Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002242
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.524Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.526Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.533Z",
+      "page": false
     }
   },
   "input_hash": "f00e3d41319ffb28c17d1936d144fdc66bcab051",
@@ -87,5 +106,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f00e3d41319ffb28c17d1936d144fdc66bcab051"
+  "output_hash": "8308576d7652592c6c8d586262b8e27f92bae8c632b0ec6f70da12329207a438"
 }

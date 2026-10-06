@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1316508ae94f976e67ad1219fb9aede789a824a7",
       "words": 592,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:14.473Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002242
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.512Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.513Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.514Z",
+      "page": false
     }
   },
   "input_hash": "1316508ae94f976e67ad1219fb9aede789a824a7",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1316508ae94f976e67ad1219fb9aede789a824a7"
+  "output_hash": "4c13bc1ef47f047b2b3cb972d0bdce7c5c0d7dc98a1620632060727be753a9d3"
 }

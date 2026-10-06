@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-print-general-ledger-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7548b2cb2e2fc05270c5a9363d1e97715591e73f",
       "words": 470,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.216Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 13,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.486Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.487Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.488Z",
+      "page": false
     }
   },
   "input_hash": "7548b2cb2e2fc05270c5a9363d1e97715591e73f",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7548b2cb2e2fc05270c5a9363d1e97715591e73f"
+  "output_hash": "e4edfcfd83cc6c4870a8cab3412d2735d48a62dc4bf4e7830de49d58ff60a77b"
 }

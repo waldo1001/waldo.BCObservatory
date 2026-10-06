@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation",
+  "title": "Set Up Accelerated Depreciation",
+  "blob": "d29b0ba2fd29e086c2bc74da1993feb947311521",
+  "summary": "Accelerated depreciation setup in French Business Central requires configuring separate accounting and tax depreciation books with specific integration settings and derogatory calculations.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "tax depreciation",
+    "france",
+    "accelerated depreciation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Depreciation Book"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Group"
+    }
+  ],
+  "features": [
+    "Accelerated depreciation calculation",
+    "Derogatory field",
+    "Depreciation Books",
+    "Tax depreciation",
+    "Derogatory Calculation field",
+    "FA G/L journal posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002614,
+      "pages_in_call": 8
+    }
+  ]
+}

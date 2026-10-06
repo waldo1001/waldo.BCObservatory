@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d29b0ba2fd29e086c2bc74da1993feb947311521",
       "words": 362,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.218Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.492Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.493Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.494Z",
+      "page": false
     }
   },
   "input_hash": "d29b0ba2fd29e086c2bc74da1993feb947311521",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d29b0ba2fd29e086c2bc74da1993feb947311521"
+  "output_hash": "6c230fc1ab1b3a4754657ba3435736d36cb34da7b72acffc9c403c90607029fc"
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=O2RPBlr_GiE",
   "published_at": "2024-07-26T13:24:52.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 560,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:09.795Z",
+      "path": "data/extract/video/O2RPBlr_GiE.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.013498
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "573b84c33caf384414f3ce53bb22ab5c3fa63960171f99d6da473a7312224170"
+  "output_hash": "33486588196b2ff067a0a9dea97e4ff15dc73b099699a146c040e09b9909b457"
 }

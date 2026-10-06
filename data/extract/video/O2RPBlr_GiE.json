@@ -1,0 +1,214 @@
+{
+  "video_id": "O2RPBlr_GiE",
+  "item_id": "video/yt-microsoft/O2RPBlr_GiE",
+  "title": "Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central",
+  "duration_s": 214,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "trial balance",
+    "detailed trial balance",
+    "summary trial balance",
+    "aging reports",
+    "accounts receivable aging",
+    "accounts payable aging",
+    "general ledger",
+    "report filtering",
+    "report export",
+    "budget comparison"
+  ],
+  "chapters": [
+    {
+      "title": "Trial Balance Reports in Dynamics SL",
+      "t_start": 0,
+      "t_end": 35.6
+    },
+    {
+      "title": "Accessing Trial Balance Reports in Business Central",
+      "t_start": 35.6,
+      "t_end": 59.2
+    },
+    {
+      "title": "Detailed Trial Balance Report Preview",
+      "t_start": 59.2,
+      "t_end": 85.4
+    },
+    {
+      "title": "Summary Trial Balance with Comparison Options",
+      "t_start": 85.4,
+      "t_end": 125.8
+    },
+    {
+      "title": "Aged Accounts Receivable Reports",
+      "t_start": 125.8,
+      "t_end": 161.7
+    },
+    {
+      "title": "Report Output Options and Export Formats",
+      "t_start": 161.7,
+      "t_end": 214
+    }
+  ],
+  "features": [
+    {
+      "name": "Detailed Trial Balance Report",
+      "description": "A report showing balance information and detailed transactions posted to each GL account. Allows filtering to specific accounts or ranges of accounts, with option to print each account on a new page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 48.4,
+      "t_end": 85.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "trial balance",
+        "general ledger",
+        "reporting",
+        "account filtering"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Summary Trial Balance Report",
+      "description": "A summary report that compares values from the current year to prior year or configured budgets. Supports displaying variance as a percentage and rounding options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.4,
+      "t_end": 125.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires budgets to be configured in Business Central for budget comparison"
+      ],
+      "tags": [
+        "trial balance",
+        "year-over-year comparison",
+        "budget comparison",
+        "variance reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Aged Accounts Receivable Report",
+      "description": "An aging report for customers showing aged information by transaction date or due date. Allows filtering to specific customer classes and viewing overdue balances.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.3,
+      "t_end": 161.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "aging report",
+        "accounts receivable",
+        "customer analysis",
+        "overdue balances"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Aged Accounts Payable Report",
+      "description": "An aging report for vendors showing aged payables information. Available alongside the AR aging report in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.3,
+      "t_end": 149.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "aging report",
+        "accounts payable",
+        "vendor analysis"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Report Export to Excel",
+      "description": "Ability to export reports including aging and trial balance reports to Excel format for additional analysis and creating visuals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.3,
+      "t_end": 202.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report export",
+        "excel integration",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Export to PDF or Word",
+      "description": "Ability to send reports to PDF or Word formats for distribution and sharing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.3,
+      "t_end": 189.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "report export",
+        "pdf",
+        "word",
+        "distribution"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 48.4,
+      "text": "In the available options to select, you can see how both the trial balance, which is similar to the summary trial balance in SL,",
+      "why_it_matters": "Establishes that Business Central offers both summary and detailed trial balance reports comparable to Dynamics SL.",
+      "check": "exact"
+    },
+    {
+      "t": 98.2,
+      "text": "I have the ability to compare values from last year or if I have configured budgets in Business Central, I could compare to the",
+      "why_it_matters": "Describes the comparison capabilities of the summary trial balance report for year-over-year and budget analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 149.2,
+      "text": "If I select the aging report option for AR, similar to SL, I can select a date that I want to age the report",
+      "why_it_matters": "Shows that Business Central aging reports offer flexibility in aging methodology and date selection similar to SL.",
+      "check": "exact"
+    },
+    {
+      "t": 189.7,
+      "text": "In Excel, I can easily perform additional analysis or create different visuals for the data.",
+      "why_it_matters": "Demonstrates the value of Excel export functionality for enhanced data analysis and visualization capabilities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013498
+    }
+  ]
+}

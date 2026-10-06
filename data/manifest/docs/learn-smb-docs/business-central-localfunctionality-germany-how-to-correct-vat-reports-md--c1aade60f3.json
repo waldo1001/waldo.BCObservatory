@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53d622fb30780a7c2205fb77861a28e44d92fcc5",
       "words": 551,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:12.729Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002242
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.501Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.501Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.502Z",
+      "page": false
     }
   },
   "input_hash": "53d622fb30780a7c2205fb77861a28e44d92fcc5",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53d622fb30780a7c2205fb77861a28e44d92fcc5"
+  "output_hash": "e66c8ec2cf662c1e6e3e1381643c627e09bedc2b1aad6a26b1c559343644ae3b"
 }

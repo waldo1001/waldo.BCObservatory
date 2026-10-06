@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-generate-delivery-reminders",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c74e16a01968a5eadd176059f9473daa54f5355c",
       "words": 31,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:14.474Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002242
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.540Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.541Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.548Z",
+      "page": false
     }
   },
   "input_hash": "c74e16a01968a5eadd176059f9473daa54f5355c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c74e16a01968a5eadd176059f9473daa54f5355c"
+  "output_hash": "bc452c9997c0ac7b1e833244c3bf9b5fbf7b68c5fcd261a935a4f7c39c347293"
 }

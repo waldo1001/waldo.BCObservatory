@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
       "words": 152,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.217Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:14.489Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:14.490Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:14.491Z",
+      "page": false
     }
   },
   "input_hash": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f868ad78825d32cbf8f8c74b21111e908415ddc0"
+  "output_hash": "8252b0e8d274f111a915f8221c70fbaaffa82f49347659ba27fe9e2c5c8ba778"
 }

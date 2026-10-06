@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fc0ad46c516c4b030a042095a0b7b790e2344aa6",
       "words": 191,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:08.213Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002614
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:08.221Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:08.222Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:08.223Z",
+      "page": false
     }
   },
   "input_hash": "fc0ad46c516c4b030a042095a0b7b790e2344aa6",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc0ad46c516c4b030a042095a0b7b790e2344aa6"
+  "output_hash": "113e097d7155813effb509ea9739d62f62b501e6011d279a993419eba9de9f25"
 }
