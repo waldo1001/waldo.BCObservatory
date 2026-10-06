@@ -1,4 +1,4 @@
-# Handoff — state of BC Observatory on 2026-10-06
+# Handoff — state of BC Observatory on 2026-10-06 (end of session 2)
 
 Written at the end of the planning session so a fresh Claude Code session in this repository can continue
 without the original conversation. Read in this order: `AGENTS.md` → this file → `docs/PLAN.md` →
@@ -6,50 +6,53 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Where things stand
 
-Milestone **M0 bootstrap** is in progress. Nothing is committed yet (the clone was empty; all files below are
-untracked on `main`). Everything written so far passes `npm run typecheck` and `npm run validate:sources`.
+Milestone **M0 bootstrap**: all code is written and committed (session 2, 2026-10-06). Gates: `npm run typecheck`,
+`npm test` (61 tests, no network, no LLM), `npm run validate:sources`, `npm run lint:workflows`.
 
-Done:
-- Root: `package.json` (npm workspaces `site`, `packages/*`; node >= 20 locally, 22 on the Mini/CI), `tsconfig.json`,
-  `.gitignore`, `.nvmrc`, `.editorconfig`, `LICENSE` (MIT), `LICENSE-CONTENT` (CC BY 4.0), `CONTENT-NOTICE.md`,
-  `CLAUDE.md`, `AGENTS.md`, `README.md`, `package-lock.json` (55 packages).
-- `config/`: `taxonomy.json` (20 galaxy systems), `versions.json` (28/29/30), `countries.json` (BE, NL first),
-  `models.json` (haiku/sonnet/opus roles), `budget.json` (nightly window, 60/70 guard, quotas), `tooling.json`.
-- `schemas/`: `sources.json`, `manifest-item.json`, `frontmatter.base.json`, `graph.json`, `al-object.json`, `al-diff.json`.
-  Per-type frontmatter schemas (`frontmatter.<type>.json`) and `schemas/llm/*` are NOT written yet.
-- `sources.yaml`: 40 seed sources (9 official, 23 blogs in derived mode, waldo.be opted in, 8 channels, 1 discovery).
-- `pipeline/lib/`: `paths.ts`, `fsx.ts`, `text.ts`, `log.ts`, `schema.ts` (Ajv 2020 + formats), `config.ts`.
-- `pipeline/validate/`: `sources.ts` (schema + policy rules), `sources-cli.ts`.
-- `docs/`: `PLAN.md` (the approved plan), `DECISIONS.md` (D01–D14), `RUNBOOK.md`, `research/`.
+| Step | State | Where |
+|---|---|---|
+| 1 scaffold commit | done, pushed | `3c5e31c` |
+| 2 `llm.ts` port (+ `quotes.ts`, `caption/vtt-clean.ts`) | done; one real Haiku ping verified apiKeySource `none` | `pipeline/lib/llm.ts`, `npm run llm:ping` |
+| 3 manifest / queue / budget + usage guard | done | `pipeline/lib/{manifest,queue,budget}.ts`, `infra/mini/usage-guard.ts` |
+| 4 ingest + orchestrator | done; live dry run: 40 sources, 0 failures, about 9.5k items in 9 s | `pipeline/ingest/*`, `pipeline/orchestrator/nightly.ts` |
+| 5 Mini provisioning scripts | written; `10-brew` ran (uv only); gated steps 20-80 not run | `infra/mini/*`, `docs/RUNBOOK.md` |
+| 6 workflows + `setup-github.sh` | written; settings not applied yet | `.github/workflows/*`, `scripts/setup-github.sh` |
+| 7 placeholder site | builds locally on Node 22 | `site/` |
 
-Not started: `pipeline/lib/llm.ts` port, manifest/queue/budget libs, ingest modules, orchestrator, `infra/mini/*`,
-workflows, `site/` (Astro), `packages/mcp`, `plugin/`, `tests/`, the private vault repo, Mini provisioning.
+Deliberate deviations from PLAN, all small:
+- Docs and guidelines share `pipeline/ingest/git-content.ts` (keys = repo path, input hash = git blob id); no per-file
+  `docs.ts` / `guidelines.ts`. `TOC.md` and `includes/` are not items.
+- yt-dlp and deno are installed per user for `bcobs` (`35-tools.sh`, uv tool) because brew would upgrade
+  openssl@3/sqlite/readline/xz/ca-certificates that node@22 and Jarvis use. `10-brew.sh --brew-all` restores the plan.
+- Headroom-to-quota mapping lives in `config/budget.json` (`headroom_scale`); only LLM quotas scale.
+- Six WordPress.com-hosted blogs use `public-api.wordpress.com/wp/v2/sites/<host>/posts` (their `/wp-json` 404s);
+  dvlprlife.com is feed-only.
 
 ## Next steps (M0, in order)
 
-1. First commit of the scaffold (ask the owner; `main` is the default branch and still empty).
-2. `pipeline/lib/llm.ts`: port from
-   `/Users/waldo/SourceCode/Community/msdyn365-2026-release-wave-2/pipeline/lib/llm.ts` with three fixes
-   (real model attribution from `modelUsage` by output tokens, drop the API backend, cache stores input refs + hashes;
-   `LLM_CACHE_DEBUG=1` keeps prompts). Cache root = `LLM_CACHE_DIR` from `pipeline/lib/paths.ts` (the vault). Never `--bare`.
-   Also port `lib/quotes.ts` and `01-clean-vtt` → `pipeline/caption/vtt-clean.ts`, with tests under `tests/`.
-3. `pipeline/lib/{manifest,queue,budget}.ts` per PLAN 4.2/4.3/4.5; `infra/mini/usage-guard.ts`
-   (GET https://api.anthropic.com/api/oauth/usage, header `anthropic-beta: oauth-2025-04-20`, Bearer login-scoped token;
-   check `/Users/waldo/SourceCode/Community/waldo.Jarvis/specs/644-*.md` for the exact contract).
-4. `pipeline/ingest/*.ts` (docs, code, guidelines, youtube RSS, blogs, roadmap; deterministic, no LLM) and
-   `pipeline/orchestrator/nightly.ts` doing guard → ingest → run report → commit.
-5. `infra/mini/00..80-*.sh` + LaunchDaemon plist + `run-nightly.sh` (PLAN 4.5). Gates that need the owner each time:
-   sudo (user `bcobs`, daemon, pmset), `claude setup-token`, usage token, runner registration token, vault deploy key.
-6. Workflows (PLAN 4.4): `nightly.yml`, `pages.yml`, `pr-validate.yml`, `runner-health.yml`, `mini-selfcheck.yml`;
-   `scripts/setup-github.sh` (port from prev, extend: Pages source = Actions, fork approvals, squash, no secrets).
-7. `site/` placeholder Astro project that builds and deploys; then M1 (seed import of the 84 VTTs from
-   `prev/data/transcripts/raw`, Microsoft channel captions, Learn ingest, roadmap, first hubs).
+1. Owner: apply `scripts/setup-github.sh --yes --vault` (or approve it being run): Pages from Actions, GitHub-owned
+   actions only, read-only token, fork PR approval, squash only, private vault repo.
+2. Owner, in a terminal (sudo password, browser for the token), from the repo root:
+   `infra/mini/remote.sh --sudo 20-worker-user.sh --yes` (prints the vault deploy key; add it with write access),
+   `claude setup-token`, `... 30-claude.sh --yes` (paste at the hidden prompt), `... 35-tools.sh --yes`,
+   `... 40-runner.sh "$(gh api -X POST repos/waldo1001/waldo.BCObservatory/actions/runners/registration-token -q .token)" --yes`,
+   `... 50-daemon.sh --yes`, `... 60-vault.sh --yes`, `... 70-power.sh --yes`, then `... 80-verify.sh`.
+3. Dispatch `nightly.yml` once (`stages: ingest`), check the run report commit and the Pages deploy, then let the
+   schedule take over. M0 is done when the runner is online, a nightly commits a heartbeat and Pages serves the site.
+4. M1: seed import of the 84 VTTs, Microsoft channel reconcile + captions, video extract/summarize, Learn fetched
+   stage + topic hubs from `TOC.md`, roadmap feature stubs, first Opus-reviewed hubs.
 
 ## Facts you will need
 
+- Mini timezone is America/Los_Angeles; the pipeline always runs with `TZ=Europe/Brussels`. FileVault is off.
+  uv 0.12.23 is installed via brew. jq is Apple's `/usr/bin/jq`.
+- Jarvis has no refresh for its usage token (static env value). A login-scoped token will expire; the guard then
+  runs `reduced`. M0 makes zero LLM calls, so the usage token can wait for M1.
+- Astro 7 needs Node >= 22.12. This laptop defaults to Node 20 (pipeline is fine on 20); build the site with
+  `~/.nvm/versions/node/v22.23.1/bin` on PATH.
 - Mac Mini: `ssh mac-mini` (over Tailscale, user waldo), M4/24 GB, macOS 26.5, never sleeps. Has node 22
   at `/opt/homebrew/opt/node@22/bin` (keg-only; not on PATH in non-login shells), pm2, brew, git, gh (expired login),
-  the Jarvis runner `~/actions-runner-jarvis` (labels `self-hosted,macmini`). Missing: `claude`, yt-dlp, ffmpeg, deno, uv.
+  the Jarvis runner `~/actions-runner-jarvis` (labels `self-hosted,macmini`). Still missing until the gated steps run: `claude`, yt-dlp, deno for `bcobs` (uv is installed; ffmpeg is not needed).
   Jarvis uses the same Claude subscription (`CLAUDE_CODE_OAUTH_TOKEN`) and backs off above 60% / 70%.
 - Reusable code: `/Users/waldo/SourceCode/Community/msdyn365-2026-release-wave-2` (see PLAN section 8).
 - Research with URLs and numbers: `docs/research/2026-10-06-research-findings.md`.
