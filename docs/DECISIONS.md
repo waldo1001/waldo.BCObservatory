@@ -220,3 +220,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the markdown body stays the main column, so the page and its markdown twin never diverge. The galaxy's system
   centres follow the handoff's two-arm spiral (taxonomy order from the core, seeded jitter, `SPIRAL_SCALE` 4.5 so
   neighbours keep apart); zoom levels are fitted to each system's radius instead of the prototype's fixed 4.4 / 8.
+- **D43 Videos and posts link to topic hubs (Haiku, quota topic_links).** `pipeline/link/topics.ts`, same shape as
+  the roadmap links (D20): a unit is one video or post, as derived text only; its candidates are the topic hubs of its
+  galaxy systems; the answer's enums allow only that call's refs and hubs; deterministic validation drops
+  non-candidates, quotes whose words are not in the item's text in order, and items with more than 3 hubs. Units are
+  redone only when their hash changes, so new items link on the next run with no separate backfill. Results in
+  `data/links/topics.json`; topic pages list them ("Videos and posts", links.videos/posts), the graph turns them into
+  edges and source touches. Sample 2026-10-07: 48 items, 11 calls, $0.47 ($0.0097 per item), prompt v2 after v1
+  linked GitHub Copilot posts to Business Central Copilot hubs and demo data to its domain. Both link passes now
+  also run after a clean memory stop, not only after "done", so linking keeps pace during catch-up.

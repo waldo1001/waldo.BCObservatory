@@ -102,6 +102,8 @@ Deliberate deviations from PLAN, all small:
   site/src/lib/tokens.ts): light badges, mixed tier, video/blog/roadmap evidence, roadmap status, filters, galaxy
   level 4 (star to page). A visual pass by the owner on the live site is the next step.
   Source footprints and coverage heatmap done (D39).
+- Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
+  `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
 - M4 weekly digest + RSS done (D36).
 - M4 MCP server + plugin done (D35). npm: bc-observatory@0.1.0 published 2026-10-06 (first publish by
   hand, `npx bc-observatory` verified from the registry). Later releases: bump packages/mcp/package.json and dispatch

@@ -54,6 +54,7 @@ import { renderSourcesAndCoverage } from "../render/source.js";
 import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
+import { linkTopics, type TopicLinkRun } from "../link/topics.js";
 import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
 import { refreshDocsObjects } from "../code/docs-objects.js";
 import { renderCodePages, type CodePagesRun } from "../render/object.js";
@@ -122,6 +123,7 @@ export interface RunReport {
   spend?: SpendAllowance & { exhausted: boolean; override?: boolean };
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
+  topic_links?: Omit<TopicLinkRun, "errors">;
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
   code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; narratives?: Omit<LocalizationRun, "errors"> };
@@ -248,9 +250,15 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     } catch (e) {
       errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
     }
+    // links also run after a clean memory stop: catch-up runs end that way, and linking should keep pace with ingest
+    const linking = execution.stop_reason === "done" || execution.stop_reason === "memory";
     report.roadmap_links = await refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
-      quota: execution.stop_reason === "done" ? quotas.roadmap_links ?? 0 : 0,
-      reviewQuota: execution.stop_reason === "done" ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
+      quota: linking ? quotas.roadmap_links ?? 0 : 0,
+      reviewQuota: linking ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
+      clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+    });
+    report.topic_links = await refreshTopicLinks(opts, errors, {
+      quota: linking ? quotas.topic_links ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     });
     renderVideoIndex(contentDirOf(opts));
@@ -341,6 +349,20 @@ async function refreshRoadmapLinks(
     return { ...rest, rejections: run.rejections.slice(0, 10), pages, ...(review ? { review } : {}) };
   } catch (e) {
     errors.push(`roadmap links: ${(e as Error).message.slice(0, 300)}`);
+    return undefined;
+  }
+}
+
+/** Topic links (link/topics.ts) within their quota; the topic pages render them in refreshTopics, the graph after. */
+async function refreshTopicLinks(opts: NightlyOptions, errors: string[], n: { quota: number; deadline: Date; clock: () => Date; concurrency: number }): Promise<RunReport["topic_links"]> {
+  try {
+    const { run } = await linkTopics(opts.dataDir, contentDirOf(opts), n);
+    errors.push(...run.errors);
+    log.info(`topic links: ${run.matched} links from ${run.calls} calls, ${run.stale} of ${run.units} units stale (${run.stopped})`);
+    const { errors: _e, ...rest } = run;
+    return { ...rest, rejections: run.rejections.slice(0, 10) };
+  } catch (e) {
+    errors.push(`topic links: ${(e as Error).message.slice(0, 300)}`);
     return undefined;
   }
 }

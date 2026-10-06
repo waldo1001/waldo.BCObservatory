@@ -12,6 +12,7 @@ import { exists, readText, removeIfExists, writeJson, writeText } from "../lib/f
 import type { ManifestItem } from "../lib/manifest.js";
 import { validateOrThrow } from "../lib/schema.js";
 import type { TopicHub } from "../link/toc.js";
+import { loadTopicLinks, mediaByTopic } from "../link/topics.js";
 import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js";
 import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -38,7 +39,10 @@ export function learnText(desc: string, pageUrl: string): string {
     });
 }
 
-export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative): string {
+/** A video or post linked to a topic (link/topics.ts): page id, kind, title and the quote that grounds the link. */
+export interface TopicMedia { key: string; kind: "video" | "post"; title: string; quote: string }
+
+export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = []): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
   // a narrative Opus rejected is not shown; the page says it was flagged
   const narrative = review?.state === "flagged" ? undefined : stored;
@@ -56,9 +60,12 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: narrative ? { [HUB_STAGE]: HUB_V } : {}, input_hash: narrative?.input_hash ?? hub.member_hash },
     evidence: members.slice(0, MAX_EVIDENCE).map((m) => ({ kind: "learn", url: m.url, title: m.title, date: (m.meta?.ms_date as string | undefined) ?? m.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null })),
     // own pages only: descendants are linked from their own subtopic page
-    links: { learn: own.map((m) => m.url), objects: [], features: [], topics: [...(hub.parent ? [hub.parent] : []), ...hub.children], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: {
+      learn: own.map((m) => m.url), objects: [], features: [], topics: [...(hub.parent ? [hub.parent] : []), ...hub.children], localizations: [],
+      videos: media.filter((x) => x.kind === "video").map((x) => x.key), posts: media.filter((x) => x.kind === "post").map((x) => x.key), guidelines: [],
+    },
     learn_toc_path: [...hub.breadcrumb, hub.title], toc_file: hub.toc, parent: hub.parent, children: hub.children,
-    coverage: { learn: members.length, code: 0, video: 0, blog: 0, guideline: 0 }, bc_forms: forms, member_hash: hub.member_hash, narrative: narrative ? "generated" : "none",
+    coverage: { learn: members.length, code: 0, video: media.filter((x) => x.kind === "video").length, blog: media.filter((x) => x.kind === "post").length, guideline: 0 }, bc_forms: forms, member_hash: hub.member_hash, narrative: narrative ? "generated" : "none",
   };
   validateOrThrow("frontmatter.topic", fm, `topic page ${hub.id}`);
 
@@ -78,6 +85,13 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
     for (const m of own) lines.push(`- [${cell(m.title)}](${m.url})${m.meta?.description ? `: ${cell(learnText(String(m.meta.description), m.url))}` : ""}`);
     lines.push("");
   }
+  if (media.length) {
+    // page links relative to this topic page: content/topics/<rel> -> content/<videos|posts>/<id>.md
+    const up = "../".repeat(topicRel(hub.id).split("/").length);
+    const link = (x: TopicMedia) => `${up}${x.kind === "video" ? "videos" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
+    lines.push("## Videos and posts", "", "Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.", "",
+      ...media.map((x) => `- [${cell(x.title)}](${link(x)}) (${x.kind === "video" ? "video" : "community post"}): "${cell(x.quote)}"`), "");
+  }
   if (forms.length) lines.push("## Business Central pages and reports", "", `Learn's ms.search.form names these object ids (not yet joined to the code pillar): ${forms.join(", ")}.`, "");
   lines.push("Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.", "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -94,6 +108,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
   writeJson(resolve(dataDir, "hubs", "topics.json"), { hubs: hubs.length, generated_by: "pipeline/link/toc.ts", topics: hubs });
   const byId = new Map(hubs.map((h) => [h.id, h]));
   const byItem = new Map(items.map((i) => [i.id, i]));
+  const media = mediaByTopic(loadTopicLinks(dataDir));
   const dir = resolve(contentDir, "topics");
   const keep = new Set<string>();
   const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
@@ -101,7 +116,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
     const rel = topicRel(h.id);
     keep.add(rel);
     const path = resolve(dir, rel);
-    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id));
+    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id), media.get(h.id) ?? []);
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
   }
   if (exists(dir)) {

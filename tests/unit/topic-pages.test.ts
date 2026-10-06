@@ -8,6 +8,7 @@ import type { ManifestItem } from "../../pipeline/lib/manifest.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import type { TopicHub } from "../../pipeline/link/toc.js";
 import { renderTopics, topicLink } from "../../pipeline/render/topic.js";
+import { writeJson } from "../../pipeline/lib/fsx.js";
 
 const doc = (k: string, over: Record<string, unknown> = {}): ManifestItem => ({
   id: `docs/learn-smb-docs/business-central/${k}.md`, pillar: "docs", source: "learn-smb-docs", tier: "official", title: `Page ${k} | x`,
@@ -47,4 +48,21 @@ test("topic pages: valid frontmatter, Learn links with descriptions, subtopics, 
   renderTopics([{ ...parent, children: [] }], items, join(root, "data"), join(root, "content"), new Date("2026-10-08T01:00:00Z"));
   assert.equal(existsSync(join(root, "content/topics/bc/finance/gl.md")), false);
   assert.equal(existsSync(join(root, "content/topics/bc/finance")), false, "empty folders pruned");
+});
+
+test("topic pages list the videos and posts linked to them (data/links/topics.json), relative to the page", () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-topics-"));
+  const items = [doc("a")];
+  writeJson(join(root, "data/links/topics.json"), { prompt_version: 2, units: {
+    "video/V1": { kind: "video", key: "video/V1", hash: "h", title: "VAT in 10 minutes", source: "yt-microsoft", at: "x", matches: [{ topic: "topic/bc/finance/gl", quote: "set up VAT posting groups" }] },
+    "post/waldo-be/42": { kind: "post", key: "post/waldo-be/42", hash: "h", title: "My G/L tips", source: "waldo-be", at: "x", matches: [{ topic: "topic/bc/finance/gl", quote: "general ledger tips for consultants" }] },
+  } });
+  const parent = hub("topic/bc/finance", [], { children: ["topic/bc/finance/gl"] });
+  const child = hub("topic/bc/finance/gl", [items[0].id], { parent: parent.id, breadcrumb: ["finance"] });
+  renderTopics([parent, child], items, join(root, "data"), join(root, "content"), new Date("2026-10-07T01:00:00Z"));
+  const { data, content } = matter(readFileSync(join(root, "content/topics/bc/finance/gl.md"), "utf8"));
+  assert.ok(validate("frontmatter.topic", data).ok);
+  assert.deepEqual([data.links.videos, data.links.posts, data.coverage.video, data.coverage.blog], [["video/V1"], ["post/waldo-be/42"], 1, 1]);
+  assert.ok(content.includes('- [VAT in 10 minutes](../../../videos/V1.md) (video): "set up VAT posting groups"'));
+  assert.ok(content.includes("(../../../posts/waldo-be/42.md) (community post)"));
 });

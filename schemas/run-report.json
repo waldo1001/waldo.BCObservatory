@@ -126,6 +126,14 @@
         }
       }
     },
+    "topic_links": {
+      "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],
+      "properties": {
+        "units": { "type": "integer" }, "stale": { "type": "integer" }, "calls": { "type": "integer" }, "matched": { "type": "integer" },
+        "rejected": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" },
+        "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }
+      }
+    },
     "hubs": {
       "type": "object",
       "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],

@@ -111,6 +111,7 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
   // evidence per hub (Learn pages + linked videos and posts) and its community share; object versions
   const touches: Record<string, Set<string>> = {};
   const reach: Record<string, Record<string, number>> = {};
+  const sourceOf = new Map(pages.filter((p) => p.fm.type === "post" || p.fm.type === "video").map((p) => [p.id, p.fm.type === "post" ? p.fm.source_id : p.fm.channel]));
   for (const { id, fm } of pages) {
     const n = nodes.get(id);
     if (!n) continue;
@@ -120,6 +121,8 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
       const ev = (L.learn?.length ?? 0) + media.length;
       if (ev) { n.ev = ev; n.cs = Math.round((media.filter((m) => m.tier === "community").length / ev) * 100) / 100; }
       if (fm.type === "object" && fm.changed_in?.length) n.cv = fm.changed_in.map(String);
+      // a topic's linked videos and posts (link/topics.ts): their source touches this topic
+      if (fm.type === "topic") for (const m of [...(L.videos ?? []), ...(L.posts ?? [])]) { const src = sourceOf.get(m); if (src) (touches[`source/${src}`] ??= new Set()).add(id); }
     }
     const src = fm.type === "post" ? fm.source_id : fm.type === "video" ? fm.channel : null;
     if (src) {
