@@ -1,0 +1,53 @@
+name: nightly
+# The pipeline. Runs only on the Mac Mini runner (label bcobs) on the Claude subscription, never on pull requests.
+# Every run commits a run report, also when the budget guard skips: that heartbeat keeps the schedule alive.
+on:
+  schedule:
+    - cron: "0 0 * * *" # 01:00 CET / 02:00 CEST
+  workflow_dispatch:
+    inputs:
+      stages:
+        description: "ingest = discovery only; all = full run"
+        type: choice
+        options: [all, ingest]
+        default: all
+      pillars:
+        description: "comma-separated pillars (docs,code,guidelines,video,blog,roadmap); empty = all"
+        type: string
+        default: ""
+      only:
+        description: "comma-separated source ids; empty = all"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: observatory-nightly
+  cancel-in-progress: false
+
+jobs:
+  nightly:
+    runs-on: [self-hosted, bcobs]
+    timeout-minutes: 370
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Guard, ingest, plan, report, commit, push
+        env:
+          STAGES: ${{ inputs.stages || 'all' }}
+          PILLARS: ${{ inputs.pillars }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          set -euo pipefail
+          [[ "$STAGES" == all || "$STAGES" == ingest ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }
+          for v in "$PILLARS" "$ONLY"; do [[ "$v" =~ ^[a-z0-9,-]*$ ]] || { echo "invalid input: $v" >&2; exit 1; }; done
+          args=(--stages "$STAGES")
+          if [[ -n "$PILLARS" ]]; then args+=(--pillars "$PILLARS"); fi
+          if [[ -n "$ONLY" ]]; then args+=(--only "$ONLY"); fi
+          infra/mini/run-nightly.sh "${args[@]}"
+      - name: Run summary
+        if: always()
+        run: npx tsx scripts/run-summary.ts >> "$GITHUB_STEP_SUMMARY" || true

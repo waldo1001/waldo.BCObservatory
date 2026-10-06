@@ -1,0 +1,53 @@
+name: runner-health
+# Watches the nightly from GitHub-hosted runners: opens one issue (label runner-health) when the Mini's runner
+# looks offline or the nightly failed, and closes it when a nightly succeeds again. Silent until the first nightly.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the nightly and open or close the health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          runs=$(gh run list --repo "$REPO" --workflow nightly.yml --limit 10 --json status,conclusion,createdAt,url)
+          if [ "$(jq length <<<"$runs")" -eq 0 ]; then echo "no nightly runs yet (setup not finished)"; exit 0; fi
+          now=$(date +%s)
+          status=$(jq -r '.[0].status' <<<"$runs"); conclusion=$(jq -r '.[0].conclusion' <<<"$runs")
+          url=$(jq -r '.[0].url' <<<"$runs"); created=$(jq -r '.[0].createdAt' <<<"$runs")
+          age_min=$(( (now - $(date -d "$created" +%s)) / 60 ))
+          problem=""
+          if [ "$status" != completed ] && [ "$age_min" -gt 60 ] && [ "$status" = queued ]; then
+            problem="The nightly has been queued for $age_min minutes: the bcobs runner on the Mac Mini looks offline. $url"
+          elif [ "$status" = completed ] && [ "$conclusion" != success ]; then
+            problem="The last nightly ended with '$conclusion': $url"
+          else
+            last_ok=$(jq -r '[.[] | select(.conclusion == "success")][0].createdAt // empty' <<<"$runs")
+            if [ -n "$last_ok" ]; then
+              age_h=$(( (now - $(date -d "$last_ok" +%s)) / 3600 ))
+              if [ "$age_h" -gt 36 ]; then problem="No successful nightly for $age_h hours. Latest run: $url"; fi
+            fi
+          fi
+          issue=$(gh issue list --repo "$REPO" --label runner-health --state open --json number --jq '.[0].number // empty')
+          if [ -n "$problem" ]; then
+            echo "$problem"
+            if [ -z "$issue" ]; then
+              gh label create runner-health --repo "$REPO" --color B60205 --description "Nightly or runner needs attention" --force >/dev/null
+              gh issue create --repo "$REPO" --label runner-health --title "Observatory health: the nightly needs attention" \
+                --body "$problem"$'\n\n'"Runbook: docs/RUNBOOK.md (Recovery). This issue closes itself after the next successful nightly."
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --repo "$REPO" --comment "Healthy again: the latest nightly succeeded ($url)."
+          else
+            echo "healthy"
+          fi

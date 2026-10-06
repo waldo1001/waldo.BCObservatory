@@ -1,0 +1,22 @@
+name: mini-selfcheck
+# Weekly end-to-end check of the Mini as bcobs: tools, one claude -p ping, usage guard, a caption fetch, vault.
+# Shares the nightly's concurrency group so it never overlaps a run.
+on:
+  schedule:
+    - cron: "30 10 * * 1" # Mondays, outside the nightly window
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: observatory-nightly
+  cancel-in-progress: false
+
+jobs:
+  selfcheck:
+    runs-on: [self-hosted, bcobs]
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: infra/mini/selfcheck.sh
