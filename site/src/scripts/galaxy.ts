@@ -52,7 +52,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   const lit = new Set(g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id));
   // field stars: seeded noise, not data (HANDOFF 7)
   const xs = g.systems.map((s) => s.x), ys = g.systems.map((s) => s.y);
-  const world = { x0: Math.min(...xs) - 200, x1: Math.max(...xs) + 200, y0: Math.min(...ys) - 200, y1: Math.max(...ys) + 200 };
+  // margins: the clusters plus the labels under them
+  const world = { x0: Math.min(...xs) - 220, x1: Math.max(...xs) + 220, y0: Math.min(...ys) - 200, y1: Math.max(...ys) + 280 };
   let seed = 42;
   const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32);
   const field = Array.from({ length: 700 }, () => ({ x: world.x0 + rnd() * (world.x1 - world.x0), y: world.y0 + rnd() * (world.y1 - world.y0), r: 0.4 + rnd() * 0.9, a: 0.15 + rnd() * 0.45 }));
@@ -155,13 +156,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     // stars
     for (const n of g.nodes) {
       const p = toScreen(n.x, n.y);
-      const d = Math.max(level === 1 ? 1.8 : 1.2, radius(n) * 2 * cam.s / (level === 1 ? 0.8 : 2.2));
+      // level 1: the handoff's dots, diameter = max(1.6, sqrt(weight) * 0.42) design px (4.5 world units per design unit)
+      const d = level === 1 ? Math.max(1.6, Math.sqrt(n.weight) * 0.42 * cam.s * 4.5) : Math.max(1.2, radius(n) * 2 * cam.s / 2.2);
       if (p.x < -d || p.y < -d || p.x > W + d || p.y > H + d) continue;
       const active = n === focusStar || n === hover;
       ctx.globalAlpha = active ? 1 : alpha(n);
       ctx.fillStyle = active ? colors.starActive : colors[n.group] ?? colors.field;
       ctx.shadowColor = active ? colors.starActive : colors[n.group] ?? "transparent";
-      ctx.shadowBlur = level === 1 ? 0 : d * (active ? 3 : 1.6);
+      ctx.shadowBlur = d * (active ? 3 : 1.6);
       ctx.beginPath();
       if (n.type === "object") { const r = d * 0.12; ctx.roundRect(p.x - d / 2, p.y - d / 2, d, d, r); } else ctx.arc(p.x, p.y, d / 2, 0, Math.PI * 2);
       ctx.fill();
@@ -193,8 +195,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   const starLabels: HTMLElement[] = [];
   function placeLabels() {
     for (const s of g.systems) {
-      const b = sysButtons.get(s.id)!, p = toScreen(s.x, s.y - s.r - 12);
-      b.style.transform = `translate(${p.x}px, ${p.y}px) translate(-50%, -100%)`;
+      const b = sysButtons.get(s.id)!, p = toScreen(s.x, s.y + s.r + 6);
+      b.style.transform = `translate(${p.x}px, ${p.y}px) translate(-50%, 0)`;
       b.hidden = level === 3 || (level === 2 && (W <= 720 ? true : s !== focusSys && compact));
       b.classList.toggle("dim", level === 2 && s !== focusSys);
     }

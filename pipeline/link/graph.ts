@@ -127,9 +127,10 @@ export function layout(g: Graph, keep: Set<string>): Graph {
   const links = g.edges.filter((e) => ids.has(e.s) && ids.has(e.t)).map((e) => ({ source: e.s, target: e.t, same: groupOf.get(e.s) === groupOf.get(e.t) }));
   const sim = forceSimulation(nodes as GNode[])
     .force("link", forceLink(links).id((d: any) => d.id).distance(20).strength((l: any) => (l.same ? 0.05 : 0.001)))
-    .force("charge", forceManyBody().strength(-6).distanceMax(120))
-    .force("x", forceX((d: any) => centre.get(d.group)?.x ?? 0).strength(0.3))
-    .force("y", forceY((d: any) => centre.get(d.group)?.y ?? 0).strength(0.3))
+    // a loose pull and some repulsion: open clusters with space between the stars (the handoff's look), not blobs
+    .force("charge", forceManyBody().strength(-14).distanceMax(160))
+    .force("x", forceX((d: any) => centre.get(d.group)?.x ?? 0).strength(0.07))
+    .force("y", forceY((d: any) => centre.get(d.group)?.y ?? 0).strength(0.07))
     .force("collide", forceCollide((d: any) => 2 + Math.min(12, Math.sqrt(d.weight))))
     .stop();
   for (let i = 0; i < TICKS; i++) sim.tick();

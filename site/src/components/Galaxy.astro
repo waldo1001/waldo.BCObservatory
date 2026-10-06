@@ -31,10 +31,9 @@ const base = import.meta.env.BASE_URL;
   .galaxy :global(.g-sys) {
     position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap;
     display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; min-height: 28px;
-    font: 600 12px var(--font-ui); color: var(--text); background: color-mix(in srgb, var(--g-bg) 70%, transparent);
+    font: 600 14px var(--font-ui); color: var(--dot); background: none;
     border: 1px solid transparent; border-radius: var(--r-badge); transition: opacity 600ms;
   }
-  .galaxy :global(.g-sys::before) { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot); }
   .galaxy :global(.g-sys:hover), .galaxy :global(.g-sys:focus-visible) { border-color: var(--line-strong); }
   .galaxy :global(.g-sys.dim) { opacity: .4; }
   .galaxy :global(.g-star-label), .g-tip {
