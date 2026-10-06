@@ -1,0 +1,1182 @@
+{
+  "video_id": "uMKLsKfKPc0",
+  "item_id": "video/yt-mibuso/uMKLsKfKPc0",
+  "title": "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat",
+  "duration_s": 2494,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "copilot studio",
+    "agents",
+    "agent builder",
+    "mcp connector",
+    "power platform",
+    "workflow automation",
+    "knowledge sources",
+    "tools and connectors",
+    "channels",
+    "human-in-the-loop approval",
+    "business central agents",
+    "microsoft 365 copilot"
+  ],
+  "chapters": [
+    {
+      "title": "Copilot vs Agents and Copilot Studio Overview",
+      "t_start": 0,
+      "t_end": 152.6
+    },
+    {
+      "title": "Agent Building Experiences and Architecture",
+      "t_start": 152.6,
+      "t_end": 242.4
+    },
+    {
+      "title": "Models, Knowledge Sources, Tools and Channels",
+      "t_start": 242.4,
+      "t_end": 354.9
+    },
+    {
+      "title": "Workflow Designer and Human-in-the-Loop",
+      "t_start": 354.9,
+      "t_end": 423.7
+    },
+    {
+      "title": "Business Central Agents and Publishing to Microsoft 365 Copilot",
+      "t_start": 423.7,
+      "t_end": 547.8
+    },
+    {
+      "title": "Compliance Agent Demo and Agent Store",
+      "t_start": 547.8,
+      "t_end": 689.8
+    },
+    {
+      "title": "Laptop Agent Demo and MCP Integration",
+      "t_start": 689.8,
+      "t_end": 782
+    },
+    {
+      "title": "Equipment Ordering Agent Overview and Tooling",
+      "t_start": 782,
+      "t_end": 1002.5
+    },
+    {
+      "title": "Agent Execution Demo and Testing",
+      "t_start": 1002.5,
+      "t_end": 1201.2
+    },
+    {
+      "title": "Agent Monitoring and Evaluation Strategies",
+      "t_start": 1201.2,
+      "t_end": 1451.8
+    },
+    {
+      "title": "Automated Evaluation Workflows and Multi-Agent Orchestration",
+      "t_start": 1451.8,
+      "t_end": 1678.1
+    },
+    {
+      "title": "Agent Security, Lifecycle Management and Analytics",
+      "t_start": 1678.1,
+      "t_end": 1829.8
+    },
+    {
+      "title": "M365 Copilot Chat in Business Central and Agent Runtime",
+      "t_start": 1829.8,
+      "t_end": 2042.5
+    },
+    {
+      "title": "Copilot Licensing and Advanced Capabilities",
+      "t_start": 2042.5,
+      "t_end": 2225
+    },
+    {
+      "title": "Q and A Session",
+      "t_start": 2225,
+      "t_end": 2494
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Studio Platform",
+      "description": "Microsoft Copilot Studio is the recommended platform from Microsoft for building, managing and customizing agents and Copilots, particularly when connecting business systems and applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.1,
+      "t_end": 101.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "agent building",
+        "customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Builder",
+      "description": "A light experience in Copilot Studio for Microsoft 365 Copilot users to build agents with just a few prompts, requiring no deep knowledge of connected applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 152.6,
+      "t_end": 167.8,
+      "is_demoed": false,
+      "caveats": [
+        "requires light user access to Microsoft 365 Copilot"
+      ],
+      "tags": [
+        "agent builder",
+        "light experience",
+        "no-code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power Platform Connectors",
+      "description": "Copilot Studio has access to 1400 plus connectors from Power Platform for connecting to various data sources and applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.6,
+      "t_end": 330.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connectors",
+        "power platform",
+        "data sources"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP Connector",
+      "description": "A dedicated connector in Power Platform for integrating Model Context Protocol servers with Copilot Studio agents, as shown in the MCP session.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.2,
+      "t_end": 354.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "connector",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Workflow Designer",
+      "description": "A new unified canvas in Copilot Studio for agentic automation that is AI-first and natural language driven, with support for human-in-the-loop workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 402,
+      "t_end": 423.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow designer",
+        "automation",
+        "ai-first"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Human-in-the-Loop Approvals",
+      "description": "Copilot Studio supports advanced approval scenarios with markdown format, and when a flow waits for approval, it automatically resumes and keeps full context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.7,
+      "t_end": 455.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approvals",
+        "human-in-the-loop",
+        "context preservation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central Agent Publishing to Microsoft 365 Copilot",
+      "description": "Agents built in Copilot Studio for Business Central can be published and surfaced in Microsoft 365 Copilot chat, calling Power Platform connectors and MCP server endpoints behind the scenes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 455.8,
+      "t_end": 491,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business central",
+        "microsoft 365 copilot",
+        "publishing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Declarative Agent Manifest",
+      "description": "When an agent built in Copilot Studio is published, a declarative agent manifest is published to the agent store, making it available in both standalone and Business Central versions of Microsoft 365 Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 689.8,
+      "t_end": 707.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent manifest",
+        "agent store",
+        "publishing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Compliance Agent with Business Central Query",
+      "description": "A Copilot Studio agent that performs full compliance checks across Business Central users, checking each user for compliance status and generating remediation plans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 509,
+      "t_end": 680,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "compliance",
+        "business central",
+        "user verification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Laptop Equipment Order Agent",
+      "description": "A Copilot Studio agent that supports ordering new equipment by creating purchase orders in Business Central while checking if employees qualify for equipment refresh, with approval workflows and MCP tool integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 741.1,
+      "t_end": 897,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "equipment ordering",
+        "purchase orders",
+        "business central",
+        "approvals"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tool referencing in agent instructions",
+      "description": "Ability to directly reference defined tools and subagents in agent instructions using slash notation rather than text definitions. This makes agent tool selection more reliable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 805.1,
+      "t_end": 829.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "instructions",
+        "tool reference"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Knowledge sources in agents",
+      "description": "Agents can incorporate knowledge from multiple sources including public websites, SharePoint, and company-specific resources to inform agent decision-making.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 845.1,
+      "t_end": 875.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "knowledge sources",
+        "sharepoint",
+        "agent setup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP server connection for Business Central",
+      "description": "Integration with MCP servers to connect agents to Business Central, allowing agents to view and modify purchase orders, items, and lists within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 886.8,
+      "t_end": 916.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires environment configuration"
+      ],
+      "tags": [
+        "mcp",
+        "business central",
+        "connectors"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power Automate connectors in Copilot Studio",
+      "description": "Agents can use connectors from Power Automate or standard Business Central connectors as alternatives to MCP connections for agent tooling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 916.9,
+      "t_end": 931.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connectors",
+        "power automate",
+        "integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agentic flows for orchestration",
+      "description": "Predefined workflows that agents can invoke to orchestrate repetitive, multi-step processes like creating purchase orders, without requiring agents to handle each step independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 944.6,
+      "t_end": 992,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agentic flows",
+        "orchestration",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Human approval in agentic flows",
+      "description": "Agentic flows can include human approval steps that pause execution until approval is received. Approval can be sent via Teams and can request additional inputs before resuming.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1002.5,
+      "t_end": 1044.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires explicit instruction for agent to notify user of wait"
+      ],
+      "tags": [
+        "human approval",
+        "agentic flows",
+        "teams integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent testing and debugging in Copilot Studio",
+      "description": "Agents can be tested within Copilot Studio UI with visibility into all tool calls and return values for debugging purposes. Testing performance is slower than production due to initialization overhead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1073.7,
+      "t_end": 1201.2,
+      "is_demoed": true,
+      "caveats": [
+        "MCP connections slow during testing and initialization",
+        "performance slower in testing than production"
+      ],
+      "tags": [
+        "testing",
+        "debugging",
+        "copilot studio"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent activity monitoring",
+      "description": "Copilot Studio provides monitoring tabs to track agent activity including which channel was used, last step, and status of agent sessions. Useful for identifying issues like hanging approvals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1124,
+      "t_end": 1161,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "monitoring",
+        "agent activity",
+        "debugging"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent evaluation framework",
+      "description": "Copilot Studio provides evaluation capabilities to test agents against multiple test methods including tool use, custom tools, keyword matching, similarity matching, and exact match assertions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1316.8,
+      "t_end": 1424.8,
+      "is_demoed": true,
+      "caveats": [
+        "evaluations run manually in UI, do not run automatically"
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "assertions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated evaluation workflows",
+      "description": "Power Automate workflows can trigger agent evaluations on a schedule using the Copilot Studio evaluate agent connector, allowing recurring or event-based evaluation runs without UI interaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1451.8,
+      "t_end": 1515.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "evaluation",
+        "automation",
+        "power automate"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Evaluation APIs for agents",
+      "description": "Microsoft provides APIs for agent evaluation that can be called from outside Copilot Studio workflows, enabling integration with external systems and custom evaluation orchestration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1515.4,
+      "t_end": 1531.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "evaluation",
+        "apis",
+        "integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-agent orchestration with session inheritance",
+      "description": "Multiple agents can work together in orchestrated flows, with child agents inheriting conversation sessions and receiving passed inputs from master agents. Useful for separating concerns and handling tool overflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1544.9,
+      "t_end": 1627,
+      "is_demoed": true,
+      "caveats": [
+        "only one agent should talk to user at a time",
+        "child agents may have broader permissions than master agent"
+      ],
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "session inheritance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Conversation history and input handling in multi-agent flows",
+      "description": "Multi-agent flows support passing conversation history between agents and can define different actions on input completion when calling child agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1627,
+      "t_end": 1653.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "multi-agent",
+        "conversation history"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent security warnings and lifecycle management",
+      "description": "Copilot Studio warns about sharing scope and missing skills. Power Platform admin center controls lifecycle management, deployment, and role-based access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1709.2,
+      "t_end": 1805,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "security",
+        "lifecycle",
+        "governance",
+        "deployment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent analytics and session reporting",
+      "description": "Analytics in Copilot Studio and Power Platform to create reports, measure session engagement, view feedback, and track resolution status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1805,
+      "t_end": 1829.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analytics",
+        "reporting",
+        "monitoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "New Copilot Studio experience",
+      "description": "Updated Copilot Studio experience released recently with skills and Microsoft IQ rates for M365 suite integration.",
+      "status": "preview",
+      "status_evidence_t": 1866.8,
+      "status_evidence_quote": "a few days ago a new Copilot Studio experience uh has been has been released that you can you can preview and use.",
+      "status_evidence_verified": true,
+      "t_start": 1840.2,
+      "t_end": 1893.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "skills",
+        "m365"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "M365 Copilot chat in Business Central",
+      "description": "M365 Copilot chat coming to Business Central with agents. Users can talk to agents directly within Business Central.",
+      "status": "announced",
+      "status_evidence_t": 1851.8,
+      "status_evidence_quote": "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents, right?",
+      "status_evidence_verified": true,
+      "t_start": 1840.2,
+      "t_end": 1893.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "m365 copilot",
+        "business central",
+        "chat"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "First-party agents customization",
+      "description": "First-party agents available out of the box with ability to customize some parts coming soon.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1906.3,
+      "t_end": 1923.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "customization",
+        "out-of-box"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Runtime in Business Central",
+      "description": "Agent runtime for agents built inside Business Central with access to pages and experiences, plus human in the loop support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1923.7,
+      "t_end": 1964.7,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to internal agents",
+        "Pages and experiences available inside Business Central"
+      ],
+      "tags": [
+        "agent runtime",
+        "business central",
+        "human-in-loop"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio for API and Power Automate integration",
+      "description": "Copilot Studio as preferred approach for building agents when APIs or Power Automate flows already exist, with connector integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1979.4,
+      "t_end": 2017,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "apis",
+        "power automate",
+        "connectors"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Runtime conversational experience plan",
+      "description": "Plans for Agent Runtime to be available in conversational experience, currently only Copilot Studio offers this.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2004.5,
+      "t_end": 2028.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently only Copilot Studio offers conversational experience"
+      ],
+      "tags": [
+        "agent runtime",
+        "conversational",
+        "roadmap"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central limited usage rights on Power Platform",
+      "description": "Business Central includes limited usage rights on Power Automate, Power Apps, Power Pages, and premium connectors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2042.5,
+      "t_end": 2058.4,
+      "is_demoed": false,
+      "caveats": [
+        "Limited usage rights only"
+      ],
+      "tags": [
+        "licensing",
+        "business central",
+        "power platform"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot credit pricing model",
+      "description": "Two billing models for Copilot Studio: credit packs at 25,000 credits per month for 200 dollars, or pay-as-you-go billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2058.4,
+      "t_end": 2082.2,
+      "is_demoed": false,
+      "caveats": [
+        "Credit packs offer better pricing than pay-as-you-go"
+      ],
+      "tags": [
+        "licensing",
+        "pricing",
+        "credits"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio cost estimator",
+      "description": "First-party agents include a cost estimator interface for calculating pricing based on user count, models, tools, and knowledge sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2082.2,
+      "t_end": 2119.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "pricing",
+        "first-party-agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Advanced testing with CLI toolkit",
+      "description": "CLI toolkit enables citizen developers to do more advanced testing of custom agents and deeper development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2131.2,
+      "t_end": 2145.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cli",
+        "toolkit",
+        "testing",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP server access control",
+      "description": "MCP server access depends on configuration settings. Access to specific MCP servers is controlled by administrator configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2178.8,
+      "t_end": 2214.6,
+      "is_demoed": false,
+      "caveats": [
+        "No approval process beyond admin configuration",
+        "Access limited to configured MCP connections"
+      ],
+      "tags": [
+        "mcp",
+        "security",
+        "permissions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power Platform solution distribution for agents",
+      "description": "Agents can be shipped and distributed through Power Platform solutions and published to AppSource for monetization.",
+      "status": "ga",
+      "status_evidence_t": 2380.9,
+      "status_evidence_quote": "Today you today you will ship it through a Power Platform solution, right? So you would create a Power Platform solution and and you",
+      "status_evidence_verified": true,
+      "t_start": 2368.1,
+      "t_end": 2406.1,
+      "is_demoed": false,
+      "caveats": [
+        "Monetization through AppSource and Copilot credits margin"
+      ],
+      "tags": [
+        "distribution",
+        "appstore",
+        "monetization",
+        "power platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent credit margin for ISVs",
+      "description": "ISVs receive margin from Copilot credits when distributing agents through Power Platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2394.1,
+      "t_end": 2435.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "monetization",
+        "isv",
+        "licensing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent access from Business Central chat",
+      "description": "The goal is to integrate Copilot chat within Business Central so MCP agents that users have access to can be interacted with there, the same way as in M365 chat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2460.6,
+      "t_end": 2476.3,
+      "is_demoed": false,
+      "caveats": [
+        "requires Business Central license for APIs",
+        "still in integration phase"
+      ],
+      "tags": [
+        "agent integration",
+        "business central",
+        "m365 chat",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central license requirement for agent APIs",
+      "description": "Users accessing agent APIs within Business Central will need a Business Central license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2476.3,
+      "t_end": 2486.3,
+      "is_demoed": false,
+      "caveats": [
+        "scope of little license not defined"
+      ],
+      "tags": [
+        "licensing",
+        "business central",
+        "agent api"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "purchase orders",
+      "t": 782
+    },
+    {
+      "type": "other",
+      "name": "items",
+      "t": 886.8
+    },
+    {
+      "type": "other",
+      "name": "MCP server",
+      "t": 886.8
+    },
+    {
+      "type": "other",
+      "name": "agentic flow",
+      "t": 944.6
+    },
+    {
+      "type": "other",
+      "name": "compliance copilot",
+      "t": 1577.4
+    },
+    {
+      "type": "other",
+      "name": "compliance agent",
+      "t": 1589.6
+    },
+    {
+      "type": "other",
+      "name": "expense agent",
+      "t": 1953.3
+    },
+    {
+      "type": "other",
+      "name": "bank reconciliation agent",
+      "t": 1953.3
+    },
+    {
+      "type": "other",
+      "name": "sales order agent",
+      "t": 2095.9
+    },
+    {
+      "type": "other",
+      "name": "payables agent",
+      "t": 2095.9
+    },
+    {
+      "type": "other",
+      "name": "laptop agent",
+      "t": 2342.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Karina",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia",
+      "confidence": "high"
+    },
+    {
+      "name": "Julas",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yasser",
+      "confidence": "medium"
+    },
+    {
+      "name": "Erina",
+      "confidence": "high"
+    },
+    {
+      "name": "Polo",
+      "confidence": "medium"
+    },
+    {
+      "name": "Poluraj",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.5,
+      "text": "the difference is basically the level of autonomy, right? As a as a user I give a specific task to Copilot and then Copilot",
+      "why_it_matters": "Explains the fundamental distinction between Copilot and agents that shapes how Copilot Studio is designed.",
+      "check": "exact"
+    },
+    {
+      "t": 84.1,
+      "text": "Copilot Studio is, you know, the one recommended flat platform from Microsoft for you to build, manage and customize agents and Copilots and specifically",
+      "why_it_matters": "Establishes Copilot Studio as Microsoft's official platform for agent development with business system integration.",
+      "check": "exact"
+    },
+    {
+      "t": 139.8,
+      "text": "the goal behind Microsoft Copilot Studio is to basically enable everyone to build agents, right?",
+      "why_it_matters": "States the core mission of Copilot Studio to democratize agent building across user skill levels.",
+      "check": "exact"
+    },
+    {
+      "t": 253.5,
+      "text": "Microsoft Copilot Studio is one of the few products in Microsoft and so some extent we're really jealous that can you can get access",
+      "why_it_matters": "Highlights Copilot Studio's unique advantage of providing immediate access to frontier AI models without infrastructure management.",
+      "check": "exact"
+    },
+    {
+      "t": 318.6,
+      "text": "you have the 1400 plus connectors in in in Power Platform",
+      "why_it_matters": "Quantifies the integration capabilities available through Power Platform connectors for agents.",
+      "check": "exact"
+    },
+    {
+      "t": 435.7,
+      "text": "if your flow waits for approval then when you come back it automatically resumes and you keep the full context",
+      "why_it_matters": "Describes a key feature of human-in-the-loop workflows that maintains conversation context across approval steps.",
+      "check": "exact"
+    },
+    {
+      "t": 455.8,
+      "text": "if you are building agents with with Copilot Studio in in Business Central, so the way you will build it in inside Copilot Studio,",
+      "why_it_matters": "Establishes that Business Central agents built in Copilot Studio can be published to Microsoft 365 Copilot.",
+      "check": "exact"
+    },
+    {
+      "t": 805.1,
+      "text": "refer to the tools that you've defined for your agents directly. Right? So, if you just {slash} I already mentioned the agentic flow",
+      "why_it_matters": "Demonstrates the design principle of using slash references for tools in instructions, which is more reliable than text definitions for guiding agent behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 829.8,
+      "text": "You can point the agent better uh to select the tool uh or subagent if you're connecting more than one, right?",
+      "why_it_matters": "Shows that reliable tool reference enables better agent orchestration when multiple agents or tools are involved.",
+      "check": "exact"
+    },
+    {
+      "t": 1017.3,
+      "text": "while you define inputs, you can fill them with AI or decide granularly which ones do you want to control yourself and which ones",
+      "why_it_matters": "Establishes a key design principle for agentic flows - granular control over which inputs are AI-driven versus human-controlled.",
+      "check": "exact"
+    },
+    {
+      "t": 1302.9,
+      "text": "this agent definitely does not work all the time and I would make a bet that not a lot of them actually do, especially",
+      "why_it_matters": "Critical statement acknowledging agent reliability limitations and emphasizing the need for evaluation testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1424.8,
+      "text": "they are great for ad hoc testing when you're accessing through uh the uh the UI, but they will not run automatically from here",
+      "why_it_matters": "Clarifies the limitation that UI-based evaluations don't auto-run, motivating the need for Power Automate workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1565.1,
+      "text": "Uh you can do multiple agents. Uh they can inherit a session and you can define the inputs that needs to be passed to",
+      "why_it_matters": "Demonstrates core multi-agent orchestration capability allowing specialized agents to work together.",
+      "check": "exact"
+    },
+    {
+      "t": 1642.9,
+      "text": "you should only have one agent that is talking to the user at a time. Which is very good to specify in the master",
+      "why_it_matters": "Establishes a critical design requirement for multi-agent orchestration to prevent user experience issues.",
+      "check": "exact"
+    },
+    {
+      "t": 1665.5,
+      "text": "the child agent can have uh like bigger permission or access to things that the main agent didn't. So make make sure to securely",
+      "why_it_matters": "Highlights security consideration that child agents may have broader permissions and require explicit access control.",
+      "check": "exact"
+    },
+    {
+      "t": 1665.5,
+      "text": "that the child agent can have uh like bigger permission or access to things that the main agent didn't.",
+      "why_it_matters": "Important security consideration showing child agents can have elevated permissions, requiring careful configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1770.5,
+      "text": "Copilot Studio also now warns you like my my agent has a warning that says, I'm sharing it with everybody in my organization in",
+      "why_it_matters": "Shows new security features in Copilot Studio helping developers understand sharing scope implications.",
+      "check": "exact"
+    },
+    {
+      "t": 1906.3,
+      "text": "We have the first-party agents, which are out of the box and uh soon you'll be able to um customize ...",
+      "why_it_matters": "Indicates first-party agents exist but customization capability is coming, not yet available.",
+      "check": "exact"
+    },
+    {
+      "t": 2058.4,
+      "text": "One of them is the credit packs. You can have a 25,000 credit per month. A pack will cost 200 ...",
+      "why_it_matters": "Provides specific pricing information for Copilot Studio licensing model.",
+      "check": "exact"
+    },
+    {
+      "t": 2380.9,
+      "text": "Today you today you will ship it through a Power Platform solution, right? So you would create a Power Platform solution and and you",
+      "why_it_matters": "Clarifies the distribution mechanism for monetizing custom agents built in Copilot Studio.",
+      "check": "exact"
+    },
+    {
+      "t": 2380.9,
+      "text": "Today you will ship it through a Power Platform solution, right?",
+      "why_it_matters": "Defines the mechanism for ISVs to distribute and monetize agents.",
+      "check": "exact"
+    },
+    {
+      "t": 2394.1,
+      "text": "you can also publish that Power Platform to the AppSource, right?",
+      "why_it_matters": "AppSource is the distribution channel for agent monetization.",
+      "check": "exact"
+    },
+    {
+      "t": 2418.6,
+      "text": "you'll get a margin from the Copilot credits package, for sure, as a part as an ISV",
+      "why_it_matters": "Establishes that ISVs have a revenue model through Copilot credits.",
+      "check": "exact"
+    },
+    {
+      "t": 2460.6,
+      "text": "The goal is as we're uh uh integrating the Copilot chat within Business Central is that the uh MCS agents that users have access",
+      "why_it_matters": "Clarifies the integration roadmap for agents within Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 2476.3,
+      "text": "for the APIs, you will need a little Business Central license, right?",
+      "why_it_matters": "Establishes licensing requirement for agent API access in Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 628.3,
+      "kind": "coming-later",
+      "text": "Microsoft 365 Copilot uh is also coming to Business Central, and then we'll have a we'll have a session tomorrow about it"
+    },
+    {
+      "t": 1044.9,
+      "kind": "preview",
+      "text": "as also shown as a as a sneak peek, when you test your agents"
+    },
+    {
+      "t": 1531.9,
+      "kind": "other",
+      "text": "in my attempt to save the the compliance uh parts of uh uh of this demo"
+    },
+    {
+      "t": 1840.2,
+      "kind": "preview",
+      "text": "a new Copilot Studio experience uh has been has been released that you can you can preview and use."
+    },
+    {
+      "t": 1851.8,
+      "kind": "coming-later",
+      "text": "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents"
+    },
+    {
+      "t": 1906.3,
+      "kind": "coming-later",
+      "text": "soon you'll be able to um customize some of the parts."
+    },
+    {
+      "t": 2004.5,
+      "kind": "coming-later",
+      "text": "we have some plans to also have you know, Agent Runtime available in conversational experience. But for now, if you ..."
+    },
+    {
+      "t": 2460.6,
+      "kind": "coming-later",
+      "text": "integrating the Copilot chat within Business Central is that the uh MCS agents that users have access to can be uh interacted with there"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 37
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

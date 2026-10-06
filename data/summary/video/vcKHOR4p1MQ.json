@@ -1,0 +1,28 @@
+{
+  "video_id": "vcKHOR4p1MQ",
+  "item_id": "video/yt-mibuso/vcKHOR4p1MQ",
+  "summary": "BC Container Helper deprecation (support ends October 1st, 2027), its planned replacement module (BC Container Helper 2, targeted for end of 2026), and the direction of AL-Go for GitHub, including the move of the Business Central application to the BC Apps repository and agentic engineering plans.",
+  "overview": "The session from BC TechDays looks back at nine years of Container Helper, which in the last week provisioned more than 75,000 containers, compiled half a million apps and published about a million apps. It explains why the tool is being deprecated and what replaces it: a slimmer separate module focused on the life cycle of BC environments, to be implemented as a CLI, with AL-Go functionality migrated to it gradually.\n\nIt then covers AL-Go for GitHub as the center of Business Central development: the planned move of the full BC application (about 15 million lines of AL, 35,000 files) to the BC Apps repository, current and upcoming AL-Go features, an internal PR reviewer agent, and Q&A on Azure DevOps, Linux, container speed, PowerShell versions and ALOps.",
+  "key_points": [
+    "Container Helper goes out of support on October 1st, 2027. After that it stays as a GitHub repository, is not archived, and becomes community-maintained.",
+    "A replacement module (working name BC Container Helper 2) is targeted for the end of 2026. It covers provisioning and deprovisioning containers and running scripts in them, will not have full feature parity, and is to be built as a CLI.",
+    "AL-Go still depends heavily on Container Helper. Functionality will be migrated gradually to the new module, not in a big bang, and the new code is to be opened once one AL-Go scenario works through it.",
+    "Workspace compilation in AL-Go lets the compiler work out dependencies and compile apps in parallel. It helps most with 10 or more apps in a repository and is not available through Container Helper.",
+    "AL-Go has build hooks (build initialize now, build finalize coming) and test-only projects. Code coverage, automatic reruns of flaky tests, improved incremental builds and turn-based testing are described as coming.",
+    "The BC application is planned to move to BC Apps on AL-Go by June, with some delays already. A PR reviewer agent is in internal dogfooding and will be opt-in when released.",
+    "AL-Go only works on GitHub and there are no plans to support it in Azure DevOps. AL Tool is not GitHub-specific. No official plans exist for running the BC service on Linux, and there are no concrete container performance plans."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "94c2905e217920a121919bd07be64c58b84cb0a0cbf5c9b9d52603123e24c9c0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.032562400000000005
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=sIWz2yPqLpo",
   "published_at": "2026-09-19T10:00:38.000Z",
   "language": "en",
-  "state": "skipped",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -36,11 +36,12 @@
     "captions_track": {
       "kind": "auto",
       "lang": "en-orig"
-    }
+    },
+    "leak_retries": 1
   },
   "last_error": null,
   "retry_after": null,
   "output_hash": "61997204c90b6beace3bec254611bf02c95f8eba3527c471dff7f49a8940e8ed",
-  "skip": "leak",
-  "skipped_at": "2026-10-06T16:51:51.799Z"
+  "skip": null,
+  "skipped_at": null
 }

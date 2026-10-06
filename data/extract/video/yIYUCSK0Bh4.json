@@ -1,0 +1,804 @@
+{
+  "video_id": "yIYUCSK0Bh4",
+  "item_id": "video/yt-mibuso/yIYUCSK0Bh4",
+  "title": "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?",
+  "duration_s": 2140,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "coding agents",
+    "benchmarking",
+    "al development",
+    "bug fixing",
+    "bc-bench",
+    "code review",
+    "test generation",
+    "agent evaluation",
+    "llm",
+    "github",
+    "al-mcp",
+    "multi-run metrics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda",
+      "t_start": 0,
+      "t_end": 53.5
+    },
+    {
+      "title": "Evaluating coding agents for AL tasks",
+      "t_start": 53.5,
+      "t_end": 193.4
+    },
+    {
+      "title": "Benchmarking methodology and examples",
+      "t_start": 193.4,
+      "t_end": 308.2
+    },
+    {
+      "title": "SWE-bench and BC-specific requirements",
+      "t_start": 308.2,
+      "t_end": 439.6
+    },
+    {
+      "title": "BC-Bench framework and capabilities",
+      "t_start": 439.6,
+      "t_end": 574.2
+    },
+    {
+      "title": "BC-Bench architecture and stages",
+      "t_start": 574.2,
+      "t_end": 691.8
+    },
+    {
+      "title": "Live leaderboard and results",
+      "t_start": 691.8,
+      "t_end": 813.5
+    },
+    {
+      "title": "Bug fixing methodology and verification",
+      "t_start": 813.5,
+      "t_end": 919
+    },
+    {
+      "title": "Dataset creation, quality verification, and diversity",
+      "t_start": 919,
+      "t_end": 1086
+    },
+    {
+      "title": "Multi-run metrics and AL-MCP evaluation",
+      "t_start": 1086,
+      "t_end": 1274.6
+    },
+    {
+      "title": "Complexity analysis and code review agent introduction",
+      "t_start": 1274.6,
+      "t_end": 1485.1
+    },
+    {
+      "title": "Code review agent evaluation and online monitoring",
+      "t_start": 1485.1,
+      "t_end": 1678.6
+    },
+    {
+      "title": "Self-improvement pipeline and BC-Bench roadmap",
+      "t_start": 1678.6,
+      "t_end": 1920.6
+    },
+    {
+      "title": "Q&A: Source code, data collection, costs, and GitHub models",
+      "t_start": 1920.6,
+      "t_end": 2140
+    }
+  ],
+  "features": [
+    {
+      "name": "BC-Bench benchmarking framework",
+      "description": "An offline evaluation framework for Business Central that evaluates coding agents on various engineering tasks including bug fixing, AL test generation, and code review. Adapted from SWE-bench methodology specifically for the BC and AL ecosystem.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 494.6,
+      "t_end": 1806.9,
+      "is_demoed": true,
+      "caveats": [
+        "Currently expanding with new task categories",
+        "Results depend on model and agent harness used",
+        "Dataset is mix of ADO and GitHub bugs",
+        "Will be refreshed with BC apps issues"
+      ],
+      "tags": [
+        "benchmarking",
+        "evaluation",
+        "agents",
+        "bc-specific",
+        "open source"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bug fixing agent evaluation",
+      "description": "Evaluation of coding agents on bug fixing tasks using BC-Bench. Agents receive bug reports and code bases, generate fixes, and fixes are verified against unit tests originally created by human engineers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 41.4,
+      "t_end": 1382,
+      "is_demoed": true,
+      "caveats": [
+        "Verification depends on existing unit tests",
+        "Results show 68% accuracy for latest models versus 16% for GPT-4",
+        "Requires manual verification of bug reports",
+        "Code must build in Docker environment",
+        "Tests must pass after fix and fail before fix"
+      ],
+      "tags": [
+        "bug fixing",
+        "agents",
+        "evaluation",
+        "testing",
+        "methodology",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL test generation evaluation",
+      "description": "BC-Bench evaluates how well coding agents generate AL tests that match the semantics used in day-to-day development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 544.1,
+      "t_end": 562.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test generation",
+        "al",
+        "agents",
+        "evaluation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code review agent evaluation",
+      "description": "BC-Bench is evaluating whether coding agents can perform proper code reviews on AL-related pull requests. The review agent achieves 57% accuracy on comments and 49% accuracy on severity classification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 544.1,
+      "t_end": 1678.6,
+      "is_demoed": true,
+      "caveats": [
+        "Currently in development within BC-Bench expansion",
+        "57% accuracy on review comments",
+        "49% accuracy on severity classification",
+        "Currently visible on BC apps GitHub pull requests",
+        "Severity classification has lower accuracy than comment matching"
+      ],
+      "tags": [
+        "code review",
+        "agents",
+        "pull requests",
+        "evaluation",
+        "qa",
+        "automated review",
+        "pr review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Natural language to code generation",
+      "description": "BC-Bench is used to evaluate how well coding agents can generate code from natural language descriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 562.5,
+      "t_end": 574.2,
+      "is_demoed": true,
+      "caveats": [
+        "Demonstrated in lab session"
+      ],
+      "tags": [
+        "code generation",
+        "natural language",
+        "agents"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Docker environment setup for BC-Bench",
+      "description": "BC-Bench spins up Docker environments of Business Central using BC Container Helper to allow coding agents to interact with a live Business Central instance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 615.5,
+      "t_end": 646,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "docker",
+        "environment",
+        "bc-container",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple agent harness support",
+      "description": "BC-Bench supports evaluation across different agent harnesses including Cloud Code, GitHub Copilot CLI, and others to understand how agent harness selection impacts coding quality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.7,
+      "t_end": 691.8,
+      "is_demoed": true,
+      "caveats": [
+        "Impact varies based on specific tool and task"
+      ],
+      "tags": [
+        "agent harness",
+        "github copilot",
+        "cloud code",
+        "comparison"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model comparison capability",
+      "description": "BC-Bench allows configuration to compare different language models including GPT models, Claude Opus, and Microsoft frontier models on the same tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.9,
+      "t_end": 691.8,
+      "is_demoed": true,
+      "caveats": [
+        "Model availability and release timing affect comparisons"
+      ],
+      "tags": [
+        "model evaluation",
+        "comparison",
+        "gpt",
+        "claude",
+        "benchmark"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LLM as judge evaluation",
+      "description": "BC-Bench includes LLM-as-judge capability to evaluate generated code quality when automated verification is not possible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 691.8,
+      "t_end": 707.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "evaluation",
+        "llm judge",
+        "metrics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub integration and public repository",
+      "description": "BC-Bench source code, experimental transcripts, and artifacts are publicly available on GitHub to enable transparency and reproducibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 587.4,
+      "t_end": 1806.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github",
+        "open source",
+        "transparency",
+        "reproducibility",
+        "bc-bench"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL-MCP for coding agents",
+      "description": "An MCP server that provides coding agents with compile capability and symbol search functionality, improving consistency and verification abilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1197.1,
+      "t_end": 1274.6,
+      "is_demoed": true,
+      "caveats": [
+        "5% mean resolution rate improvement",
+        "10% pass@5 improvement"
+      ],
+      "tags": [
+        "mcp",
+        "compilation",
+        "symbol search",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-run metrics for coding agents",
+      "description": "A testing methodology using multiple independent runs to capture non-deterministic AI behavior, tracking mean accuracy, pass@5 for consistency, and pass@1 for best-case scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1063.8,
+      "t_end": 1197.1,
+      "is_demoed": true,
+      "caveats": [
+        "AI is non-deterministic",
+        "Different metrics can yield very different numbers"
+      ],
+      "tags": [
+        "metrics",
+        "evaluation",
+        "consistency",
+        "accuracy"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dataset for bug fixing benchmark",
+      "description": "A curated dataset from Microsoft internal pull requests and BC apps public repository covering diverse areas including inventory (20%) and finance (19%), filtered for single-bug fixes with unit tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 943.8,
+      "t_end": 1051.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual verification for sufficient context",
+        "Manual filtering to ensure test pass after fix and fail before"
+      ],
+      "tags": [
+        "dataset",
+        "benchmark",
+        "validation",
+        "diversity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Coding agent complexity analysis",
+      "description": "Analysis showing that coding agents achieve 80% accuracy on bugs requiring less than 10 lines of code, but accuracy drops to 50% for more complex fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1317.7,
+      "t_end": 1382,
+      "is_demoed": true,
+      "caveats": [
+        "Agents struggle with complex scenarios",
+        "Significant performance drop above 10 lines of code threshold"
+      ],
+      "tags": [
+        "complexity",
+        "performance",
+        "limitations",
+        "analysis"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Online evaluation of AI features",
+      "description": "Production monitoring of AI features by tracking user interactions such as thumbs up, heart reactions, thumbs down, and application of suggested fixes.",
+      "status": "ga",
+      "status_evidence_t": 1657.9,
+      "status_evidence_quote": "We also do online evaluation. That's also uh something we will or are doing for all um AI features that we ship.",
+      "status_evidence_verified": true,
+      "t_start": 1657.9,
+      "t_end": 1678.6,
+      "is_demoed": false,
+      "caveats": [
+        "Monitoring production developer interactions"
+      ],
+      "tags": [
+        "online evaluation",
+        "monitoring",
+        "production",
+        "user feedback",
+        "code review agent"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Self-Improving Code Review Agent Pipeline",
+      "description": "A pipeline that identifies problematic cases in the code review agent, generates agent-driven fixes to the agent skills, runs evaluations, and automatically ships new versions if quality gates pass. Includes human PI review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1689,
+      "t_end": 1712.2,
+      "is_demoed": false,
+      "caveats": [
+        "includes PI review step",
+        "requires offline eval quality gates to pass"
+      ],
+      "tags": [
+        "self-improvement",
+        "automation",
+        "code review agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC-Bench Dataset Expansion",
+      "description": "The BC-Bench dataset currently contains ADO and GitHub bugs. Plans to refresh it with more bug-fixing tasks from BC apps as code accumulates. The full dataset will be open source.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1753,
+      "t_end": 1770.6,
+      "is_demoed": false,
+      "caveats": [
+        "depends on accumulation of BC apps code"
+      ],
+      "tags": [
+        "data set",
+        "bc-bench",
+        "benchmarking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Compression Experiments",
+      "description": "Experiments using Caveman to compress prompt output or coding agent output to test effects on bug-fixing capabilities. Initial results showed no negative impact, suggesting potential cost savings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1783.4,
+      "t_end": 1793.9,
+      "is_demoed": false,
+      "caveats": [
+        "specific to compression technique Caveman",
+        "impact may vary by scenario"
+      ],
+      "tags": [
+        "optimization",
+        "cost savings",
+        "prompt compression"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Partner Dataset Leaderboard",
+      "description": "Plans to support partner datasets on the leaderboard to display benchmark numbers from private codebases, providing more diverse results beyond Microsoft public code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1902.9,
+      "t_end": 1920.6,
+      "is_demoed": false,
+      "caveats": [
+        "still under consideration",
+        "requires partner participation"
+      ],
+      "tags": [
+        "leaderboard",
+        "partner datasets",
+        "bc-bench"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Payables and Sales Agents Code Availability",
+      "description": "Payables engine and sales agent code are currently locked but Microsoft is moving more things to GitHub. These agents are expected to be available soon.",
+      "status": "announced",
+      "status_evidence_t": 2087.4,
+      "status_evidence_quote": "Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon",
+      "status_evidence_verified": true,
+      "t_start": 2061.2,
+      "t_end": 2073.8,
+      "is_demoed": false,
+      "caveats": [
+        "payables and sales agents currently locked",
+        "timeline not specified"
+      ],
+      "tags": [
+        "agents",
+        "github",
+        "payables",
+        "sales"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC-Bench",
+      "t": 28.7
+    },
+    {
+      "type": "other",
+      "name": "BC Container Helper",
+      "t": 630.8
+    },
+    {
+      "type": "other",
+      "name": "BC apps",
+      "t": 630.8
+    },
+    {
+      "type": "other",
+      "name": "SWE-bench",
+      "t": 308.2
+    },
+    {
+      "type": "other",
+      "name": "SweepBench",
+      "t": 494.6
+    },
+    {
+      "type": "other",
+      "name": "AL-MCP",
+      "t": 1197.1
+    },
+    {
+      "type": "other",
+      "name": "GitHub Copilot CLI",
+      "t": 1211.1
+    },
+    {
+      "type": "other",
+      "name": "Opus 4.6",
+      "t": 1211.1
+    },
+    {
+      "type": "other",
+      "name": "Cloud Code",
+      "t": 1282
+    },
+    {
+      "type": "other",
+      "name": "GPT-4 2",
+      "t": 1351.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Klaus",
+      "confidence": "high"
+    },
+    {
+      "name": "Horan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Harun",
+      "confidence": "medium"
+    },
+    {
+      "name": "Claus",
+      "confidence": "medium"
+    },
+    {
+      "name": "Haron",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 53.5,
+      "text": "the basic question we want to uh to answer is how good are coding agents. And specifically at uh AL tasks.",
+      "why_it_matters": "Establishes the core research question for the entire benchmarking effort around AL code quality.",
+      "check": "exact"
+    },
+    {
+      "t": 64.7,
+      "text": "one of the things that uh would or is interesting to know is how much does it depend on the agent harness, right?",
+      "why_it_matters": "Identifies a key variable to measure - whether the tool choice matters as much as the model itself.",
+      "check": "exact"
+    },
+    {
+      "t": 155.1,
+      "text": "in half half a year ago approximately we got uh GPT-5.1 Codex Max and we got uh new Claude Opus ...",
+      "why_it_matters": "Shows the timeline when coding agents became practically useful for AL development, marking a turning point.",
+      "check": "exact"
+    },
+    {
+      "t": 219.9,
+      "text": "benchmarking contains some data set, some tasks, preferably some real-life scenarios, and then some quality metrics uh to understand the ...",
+      "why_it_matters": "Defines the core components of a useful benchmark methodology including real-world relevance.",
+      "check": "exact"
+    },
+    {
+      "t": 494.6,
+      "text": "We started the effort about 6 months ago. That was heavily inspired by SweepBench. We followed the same methodology, but adapted for Business Central",
+      "why_it_matters": "Explains BC-Bench's origins and approach, showing it built on proven methodology adapted for BC-specific needs.",
+      "check": "exact"
+    },
+    {
+      "t": 781.9,
+      "text": "we have 16 and then another one 5 fairly low i would say and then",
+      "why_it_matters": "Demonstrates dramatic improvement in agent capability from early models (5-16%) to latest models (55-68%), quantifying progress.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 798.2,
+      "text": "So it's 68% almost or uh another one is 55%. That's almost 10 times higher.",
+      "why_it_matters": "Demonstrates the significant performance improvement of latest AI models over earlier ones in benchmark results.",
+      "check": "exact"
+    },
+    {
+      "t": 857.3,
+      "text": "The first part is the functional fix that actually fix the behavior and the second part is some union test to verify okay the",
+      "why_it_matters": "Explains the key components of a pull request used in BC-Bench dataset creation - functional fix plus unit tests.",
+      "check": "exact"
+    },
+    {
+      "t": 867.5,
+      "text": "we use source control Git and we bring the code base back to before the bug is fixed and we give the exact same",
+      "why_it_matters": "Describes the core methodology for bug-fixing evaluation, ensuring fair comparison with same starting conditions.",
+      "check": "exact"
+    },
+    {
+      "t": 956.7,
+      "text": "And we focus only on the pull requests that fix one bug and one bug only. And it has to introduce some tests as",
+      "why_it_matters": "Defines the strict criteria for dataset inclusion to ensure quality and verifiability of benchmark tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 1039.6,
+      "text": "So, as you can see, we have about 20% from inventory area, and 19% from finance, and a a varied range of areas from",
+      "why_it_matters": "Shows the diversity of the benchmark dataset across different Business Central areas.",
+      "check": "exact"
+    },
+    {
+      "t": 1121.8,
+      "text": "So, we have four tasks and five runs give us a total of 20 trials, and among them, six of them passed. So, that",
+      "why_it_matters": "Illustrates how mean accuracy is calculated from multi-run metric analysis in BC-Bench.",
+      "check": "exact"
+    },
+    {
+      "t": 1259.1,
+      "text": "It means now with ARM-CP, the coding agent have the capability to compile and do symbol search and things like that.",
+      "why_it_matters": "Explains the specific capabilities that AL-MCP provides to coding agents for improved consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 1368.8,
+      "text": "But when it needs more than 10 lines of code in those two categories that you see here, the accuracy just drop uh decrease",
+      "why_it_matters": "Reveals a critical limitation: coding agents show significantly reduced accuracy for complex bug fixes.",
+      "check": "exact"
+    },
+    {
+      "t": 1608.4,
+      "text": "So for we have around in on in this run 57% accuracy um of the review um comments themselves. And the 49% accuracy on",
+      "why_it_matters": "Provides current performance metrics for the code review agent feature in production.",
+      "check": "exact"
+    },
+    {
+      "t": 1608.4,
+      "text": "we have around in on in this run 57% accuracy um of the review um comments themselves. And the 49% accuracy on the severity",
+      "why_it_matters": "Establishes baseline performance metrics for the code review agent, showing moderate accuracy levels for both comment generation and severity classification tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 1657.9,
+      "text": "We also do online evaluation. That's also uh something we will or are doing for all um AI features that we ship",
+      "why_it_matters": "Describes Microsoft's commitment to monitoring all shipped AI features in production with real user interaction signals.",
+      "check": "exact"
+    },
+    {
+      "t": 1700.8,
+      "text": "then ask an agent to go fix the skill of the review agent, run evaluations, and if the new skill version passes the quality",
+      "why_it_matters": "Details the self-improving loop mechanism where agents autonomously improve themselves through automated testing and validation.",
+      "check": "exact"
+    },
+    {
+      "t": 1738.6,
+      "text": "That's uh our evaluation harness for AL-specific coding agents as shipped by Microsoft. Um We are currently using it for ...",
+      "why_it_matters": "Defines BC-Bench's purpose and scope as an AL-specific evaluation tool with plans for expansion.",
+      "check": "exact"
+    },
+    {
+      "t": 1770.6,
+      "text": "we are going to refresh the data set with more issues for for the bug-fixing benchmarking from uh BC apps ...",
+      "why_it_matters": "Indicates future enhancement to BC-Bench dataset quality and relevance by incorporating real BC apps code.",
+      "check": "exact"
+    },
+    {
+      "t": 1858.7,
+      "text": "uh one of the reasons we make it open source is so that you could fork the repository and delete all of the tasks",
+      "why_it_matters": "Explains the design decision to open-source BC-Bench, enabling partners to adapt it for proprietary codebases.",
+      "check": "exact"
+    },
+    {
+      "t": 1878,
+      "text": "Microsoft code is uh publicly available, so all the models naturally will be trained on it. So, uh you'll get more better performance",
+      "why_it_matters": "Acknowledges that public availability of BC source code gives models an inherent advantage in performance.",
+      "check": "exact"
+    },
+    {
+      "t": 2025.5,
+      "text": "you can run two or three and you can still get statis- statistical significance and so on. So so that's the thing you We",
+      "why_it_matters": "Provides practical guidance on cost-effective benchmarking approaches to reduce evaluation expenses.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 193.4,
+      "kind": "coming-later",
+      "text": "there's a GPT-6 Codex. Well, there will be, but I don't know when it will be released."
+    },
+    {
+      "t": 1031.8,
+      "kind": "other",
+      "text": "coding agents can have random behaviors due to non-deterministic AI"
+    },
+    {
+      "t": 1753,
+      "kind": "coming-later",
+      "text": "we are going to refresh the data set with more issues for for the bug-fixing benchmarking from uh BC apps"
+    },
+    {
+      "t": 1902.9,
+      "kind": "preview",
+      "text": "we are actually considering that on the leaderboard you saw that we demoed that we can potentially have a partner ..."
+    },
+    {
+      "t": 2061.2,
+      "kind": "coming-later",
+      "text": "we're moving more and more things on on GitHub. So, I think these will be available soon"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 23,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 18
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-iis",
   "published_at": "2026-06-22T09:22:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a9d65c016613dfab42d9868d49c3a7688d72e8bc",
       "words": 243,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.818Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:52.831Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:54.497Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:54.498Z",
+      "page": false
     }
   },
   "input_hash": "a9d65c016613dfab42d9868d49c3a7688d72e8bc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9d65c016613dfab42d9868d49c3a7688d72e8bc"
+  "output_hash": "53815460bfb797dc38411c1dd912f6e335ebd70fbea3f81d366ee8bf4804f800"
 }

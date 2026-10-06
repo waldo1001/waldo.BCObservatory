@@ -1,0 +1,345 @@
+{
+  "video_id": "qwEnuR0vgYo",
+  "item_id": "video/yt-saurav/qwEnuR0vgYo",
+  "title": "Business Central 29.0 Is GA: New Environment",
+  "duration_s": 703,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment creation",
+    "version 29.0 ga",
+    "sandbox production setup",
+    "localization",
+    "upgrade scheduling",
+    "update windows",
+    "notification recipients",
+    "compatibility monitoring",
+    "version 28 deprecation",
+    "pte validation"
+  ],
+  "chapters": [
+    {
+      "title": "Version 29.0 General Availability Announcement",
+      "t_start": 0,
+      "t_end": 45.7
+    },
+    {
+      "title": "Environment Creation Overview and Sandbox/Production Setup",
+      "t_start": 45.7,
+      "t_end": 127.2
+    },
+    {
+      "title": "Creating New Environments with Localization and Version Selection",
+      "t_start": 127.2,
+      "t_end": 220.6
+    },
+    {
+      "title": "Version 28 Environment Planning and Deprecation Timeline",
+      "t_start": 220.6,
+      "t_end": 293.3
+    },
+    {
+      "title": "Notification Recipients and Compatibility Monitoring",
+      "t_start": 293.3,
+      "t_end": 375.1
+    },
+    {
+      "title": "Scheduling Updates and Update Windows",
+      "t_start": 375.1,
+      "t_end": 503.4
+    },
+    {
+      "title": "Production and Sandbox Upgrade Strategy",
+      "t_start": 503.4,
+      "t_end": 593.8
+    },
+    {
+      "title": "Summary and Upgrade Best Practices",
+      "t_start": 593.8,
+      "t_end": 703
+    }
+  ],
+  "features": [
+    {
+      "name": "Version 29.0 General Availability",
+      "description": "Microsoft announced general availability for Business Central version 29.0 (2026 release wave 2). New cloud customers will begin onboarding with version 29.0 starting today.",
+      "status": "ga",
+      "status_evidence_t": 1,
+      "status_evidence_quote": "today Microsoft announced general availability for version 29.0",
+      "status_evidence_verified": true,
+      "t_start": 1,
+      "t_end": 45.7,
+      "is_demoed": true,
+      "caveats": [
+        "On-premises version discussed separately in following video"
+      ],
+      "tags": [
+        "release",
+        "version 29",
+        "cloud",
+        "ga"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment Creation Wizard",
+      "description": "Admin center provides a wizard to create new sandbox or production environments with configurable localization and version selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.2,
+      "t_end": 193.4,
+      "is_demoed": true,
+      "caveats": [
+        "Version 28 and preview options still available but will be removed"
+      ],
+      "tags": [
+        "environment creation",
+        "wizard",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Localization Selection in Environment Setup",
+      "description": "During environment creation, administrators select the country where the customer does business to ensure appropriate local regional extensions are available in the Kronos environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 153.2,
+      "t_end": 182.9,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple countries supported by Microsoft"
+      ],
+      "tags": [
+        "localization",
+        "country setup",
+        "extensions"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Version 28 Deprecation",
+      "description": "Version 28 and preview options will eventually be removed from the environment creation interface. Customers should create version 28 environments now if they have planned go-lives with version 28.",
+      "status": "announced",
+      "status_evidence_t": 193.4,
+      "status_evidence_quote": "sooner than later, 28 will go away and uh in sometime the preview will also go away",
+      "status_evidence_verified": true,
+      "t_start": 193.4,
+      "t_end": 293.3,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline not specified",
+        "Affects upgrade planning for existing customers"
+      ],
+      "tags": [
+        "version deprecation",
+        "version 28",
+        "migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment Copy Capability",
+      "description": "Admin center allows copying sandbox environments to production, production to sandbox, or sandbox to sandbox with no limitations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 255.2,
+      "t_end": 281.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires empty target environment"
+      ],
+      "tags": [
+        "environment copy",
+        "sandbox",
+        "production"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Notification Recipients for Compatibility Alerts",
+      "description": "Administrators can set notification recipients in admin center to receive email alerts from Microsoft when extensions may not be compatible with version 29.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 293.3,
+      "t_end": 359.7,
+      "is_demoed": true,
+      "caveats": [
+        "Must explicitly set notification recipients",
+        "Multiple recipients can be configured"
+      ],
+      "tags": [
+        "compatibility",
+        "notifications",
+        "extensions"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Upgrade Schedule Postponement",
+      "description": "Administrators can delay automatic upgrades to version 29 in production environments to allow customer testing and prevent surprise updates during business hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 375.1,
+      "t_end": 425.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proactive configuration",
+        "Different schedules recommended for production vs sandbox"
+      ],
+      "tags": [
+        "scheduling",
+        "upgrades",
+        "production",
+        "go-live"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Update Window Configuration",
+      "description": "Administrators can set a time window for upgrades based on customer time zone and working hours. Minimum window is 6 hours and represents maximum time before rollback may occur.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 437.4,
+      "t_end": 503.4,
+      "is_demoed": true,
+      "caveats": [
+        "Minimum 6 hour window required",
+        "6 hours is maximum time before potential rollback, not expected upgrade duration"
+      ],
+      "tags": [
+        "update window",
+        "scheduling",
+        "time zone"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Early Sandbox Upgrade for Testing",
+      "description": "Administrators should upgrade sandbox environments to version 29 as early as possible to allow users to test new features before scheduling production upgrades.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.3,
+      "t_end": 613.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires customer coordination",
+        "Approximately one month validation period mentioned"
+      ],
+      "tags": [
+        "sandbox",
+        "testing",
+        "user acceptance testing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "PTE Validation Against Version 29",
+      "description": "Partner-led Test Environments (PTEs) should be reviewed and created with version 29 to ensure compatibility with the new version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.3,
+      "t_end": 593.8,
+      "is_demoed": false,
+      "caveats": [
+        "Approximately one month validation period available"
+      ],
+      "tags": [
+        "pte",
+        "partner test environment",
+        "validation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1,
+      "text": "today Microsoft announced general availability for version 29.0 or you can call it 2026 release wave 2",
+      "why_it_matters": "Confirms official GA status and naming convention for version 29.0",
+      "check": "exact"
+    },
+    {
+      "t": 24.6,
+      "text": "starting today any new customers who onboards to cloud will be starting with version 29",
+      "why_it_matters": "All new cloud customers now default to version 29.0",
+      "check": "exact"
+    },
+    {
+      "t": 97.8,
+      "text": "By default with every business central tenant you get one production and three sandboxes. You can always purchase additional production environment if needed",
+      "why_it_matters": "Establishes baseline licensing model for cloud environments",
+      "check": "exact"
+    },
+    {
+      "t": 206.4,
+      "text": "if you're planning a customer go live in the following month where they have done testing on version 28 this is the right time",
+      "why_it_matters": "Urgent guidance for customers in mid-implementation with version 28",
+      "check": "exact"
+    },
+    {
+      "t": 466.7,
+      "text": "You cannot go less than 6 hour because it need to be 6 hour. It doesn't mean that the upgrade will take 6 hours.",
+      "why_it_matters": "Clarifies that 6-hour minimum is not upgrade duration but maximum time before rollback",
+      "check": "exact"
+    },
+    {
+      "t": 553.3,
+      "text": "If you have PTEES, this is the time when you can create these environment or review your PTE with the newer version 29 symbol",
+      "why_it_matters": "Calls partners to validate extensions during GA launch window",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 193.4,
+      "kind": "subject-to-change",
+      "text": "You'll still see preview and you will still see some instances of 28, but sooner than later, 28 will go ..."
+    },
+    {
+      "t": 220.6,
+      "kind": "subject-to-change",
+      "text": "this is the right time to kind of create and hold an environment on 28 because as these options will ..."
+    },
+    {
+      "t": 311.3,
+      "kind": "preview",
+      "text": "now this becomes the time when you start getting emails from Microsoft if your extension is not compatible with version 29"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

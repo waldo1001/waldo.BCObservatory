@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=rm-FstU_I80",
   "published_at": "2026-09-07T12:36:05.000Z",
   "language": "en",
-  "state": "skipped",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -36,11 +36,12 @@
     "captions_track": {
       "kind": "auto",
       "lang": "en-orig"
-    }
+    },
+    "leak_retries": 1
   },
   "last_error": null,
   "retry_after": null,
   "output_hash": "aec130305ee5802c67266391e2f21b3242803247068fdc77a583c759ed30b6f6",
-  "skip": "leak",
-  "skipped_at": "2026-10-06T17:08:16.541Z"
+  "skip": null,
+  "skipped_at": null
 }

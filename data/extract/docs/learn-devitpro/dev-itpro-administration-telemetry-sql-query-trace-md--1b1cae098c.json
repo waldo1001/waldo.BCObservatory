@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-sql-query-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-sql-query-trace",
+  "title": "Analyze SQL query trace telemetry",
+  "blob": "65e4513ea38b44f6ca7e9f71a21370a1c25f2fb8",
+  "summary": "SQL query trace telemetry provides verbose logging of all SQL queries executed in Business Central when verbose logging is enabled, capturing execution time and statement details.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "sql queries",
+    "verbose logging",
+    "monitoring",
+    "performance"
+  ],
+  "objects": [],
+  "features": [
+    "SQL query trace RT0009",
+    "verbose logging",
+    "execution time tracking",
+    "KQL queries",
+    "custom dimensions"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004641,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "cVfZoDwKYpI",
+  "item_id": "video/yt-mibuso/cVfZoDwKYpI",
+  "summary": "Expense Agent for Business Central, in public preview and US only: architecture, setup, limits, and how Microsoft built and evaluated it. Covers email, web and mobile submission, expense users without BC licenses, categories, rules, approval, posting, and offline and online LLM evals.",
+  "overview": "The session from Microsoft's Expense Agent team covers the agent from three angles. First it shows what the agent does: it reads receipts, itemizes and categorizes them, handles several languages and currencies, and calculates mileage and per diem. Expenses reach it by shared mailbox or web app, with a mobile client coming later. Business Central remains the backend where data is stored.\n\nIt then explains how the team built it. The team worked AI-first, with 99 percent plus of the code generated and everything kept in one repository. Quality was managed with evals: 1,500 mostly hand-labeled datasets, a 95 percent accuracy requirement, a hill climbing loop, model comparison, red-team testing and online LLM-judge evals. The last part walks through the Azure service architecture, the Business Central setup (expense users, categories, rules, consumption page, reports, posting) and the current limits.",
+  "key_points": [
+    "The Expense Agent is in public preview and available in the US only. More regions were said to come the following month.",
+    "Expense users are a new Business Central entity attached to employees. They need no BC license and can submit by web app or shared mailbox. A mobile client is coming. Existing employees can be imported in one action.",
+    "Limits mentioned: 10 MB per expense file, 25 files and 50 MB per batch, 100 emails per company in the shared mailbox scenario, and 50 expenses per expense user per company per day.",
+    "Category and subcategory descriptions act as prompts for the agent, so their detail affects categorization accuracy. Rules cover amounts, thresholds and required information. Natural-language policies are not yet available.",
+    "Some steps are still manual, such as setting mileage information and posting. Attaching a project to expenses is desktop only for now.",
+    "Microsoft requires 95 percent accuracy to ship an agentic system. The team started at 65 percent and used 1,500 labeled datasets, synthetic edge cases, a hill climbing loop and model comparison to improve it.",
+    "The service uses Azure Front Door, a Python gateway for authentication, and Azure Functions processors. Redis caching limits repeated lookups when locating a user's Business Central environment."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "ee79517e27ab5d257548363ba67319e9dcc5b01bcf40c47df20510261e835a20",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0523104
+  }
+}

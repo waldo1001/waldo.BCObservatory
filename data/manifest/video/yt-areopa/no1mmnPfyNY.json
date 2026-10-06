@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=no1mmnPfyNY",
   "published_at": "2026-06-18T07:00:39.000Z",
   "language": "en",
-  "state": "skipped",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -36,11 +36,12 @@
     "captions_track": {
       "kind": "auto",
       "lang": "en-orig"
-    }
+    },
+    "leak_retries": 1
   },
   "last_error": null,
   "retry_after": null,
   "output_hash": "c2aa1b4840cbc4e63b088e14f663c50b5163809b68aebf71522eea5ccf2c3341",
-  "skip": "leak",
-  "skipped_at": "2026-10-06T17:35:03.826Z"
+  "skip": null,
+  "skipped_at": null
 }

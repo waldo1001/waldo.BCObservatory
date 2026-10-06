@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-app-resource-exposure-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-app-resource-exposure-trace",
+  "title": "Analyze app resource exposure policy telemetry",
+  "blob": "db1ab7addf2dd6c5108e06be10b4c5ed7aebe712",
+  "summary": "App resource exposure policy telemetry captures failures when parsing or applying resource exposure policy overrides that control which resources in extensions other extensions can access.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "resource exposure",
+    "extensions",
+    "monitoring",
+    "policy"
+  ],
+  "objects": [],
+  "features": [
+    "app resource exposure policy",
+    "telemetry event RT0022",
+    "custom dimensions",
+    "KQL analysis"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004641,
+      "pages_in_call": 8
+    }
+  ]
+}

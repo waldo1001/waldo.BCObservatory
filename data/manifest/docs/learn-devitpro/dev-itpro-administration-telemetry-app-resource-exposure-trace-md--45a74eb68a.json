@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-app-resource-exposure-trace",
   "published_at": "2026-06-22T12:57:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "db1ab7addf2dd6c5108e06be10b4c5ed7aebe712",
       "words": 148,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.815Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:52.824Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:52.825Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:52.826Z",
+      "page": false
     }
   },
   "input_hash": "db1ab7addf2dd6c5108e06be10b4c5ed7aebe712",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db1ab7addf2dd6c5108e06be10b4c5ed7aebe712"
+  "output_hash": "d94ad87914c3d9cae8d064ec5a1c9742b1b966b7af1500e8f76f13b272e50c88"
 }

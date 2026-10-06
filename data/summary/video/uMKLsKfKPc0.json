@@ -1,0 +1,28 @@
+{
+  "video_id": "uMKLsKfKPc0",
+  "item_id": "video/yt-mibuso/uMKLsKfKPc0",
+  "summary": "Building agents in Microsoft Copilot Studio that work with Business Central through MCP servers or Power Platform connectors, and surfacing them in Microsoft 365 Copilot chat. Demos cover a compliance agent and a laptop ordering agent with approvals, plus testing, monitoring, evaluation, multi-agent setups, security and licensing.",
+  "overview": "The session explains how Copilot Studio is positioned as Microsoft's recommended platform for building agents, and how agents built there for Business Central are published to the agent store and used in Microsoft 365 Copilot chat. It covers knowledge sources, tools, connectors, the MCP connector, the Workflow Designer and human-in-the-loop approvals.\n\nTwo demos are shown: a compliance agent that checks Business Central users, and a laptop equipment order agent that creates purchase orders with an approval step. The later part covers testing and debugging, monitoring, evaluations (manual, and automated through Power Automate or APIs), multi-agent orchestration, security warnings, lifecycle management, the Business Central agent runtime, ISV distribution, and Copilot credit pricing. A Q and A closes the session.",
+  "key_points": [
+    "Agents built in Copilot Studio for Business Central can be published to Microsoft 365 Copilot chat. They call Power Platform connectors or MCP server endpoints behind the scenes, and publishing creates a declarative agent manifest in the agent store.",
+    "Tools and subagents can be referenced in agent instructions with slash notation, which makes tool selection more reliable than describing them in text.",
+    "Agentic flows can include human approval steps, sent via Teams. The flow resumes with full context, but the agent needs an explicit instruction to tell the user it is waiting.",
+    "In Copilot Studio testing, all tool calls and return values are visible. MCP connections are slow during testing and initialization, so performance is slower than in production.",
+    "Evaluations in the Copilot Studio UI run manually. Power Automate (evaluate agent connector) or the evaluation APIs can run them on a schedule or from external systems.",
+    "In multi-agent setups, child agents inherit the session. Only one agent should talk to the user at a time, and a child agent can have broader permissions than the master agent.",
+    "Copilot Studio billing: credit packs of 25,000 credits per month for 200 dollars, or pay-as-you-go. Agents ship through Power Platform solutions and can be published to AppSource. Users calling agent APIs in Business Central need a Business Central license."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "4f0c377a98d5b27b4e85c89d363e1994bd22b23aee1c693a543e9402eeb01ed4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0365064
+  }
+}

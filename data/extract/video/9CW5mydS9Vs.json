@@ -1,0 +1,913 @@
+{
+  "video_id": "9CW5mydS9Vs",
+  "item_id": "video/yt-mibuso/9CW5mydS9Vs",
+  "title": "Microsoft presents: Tests, dependencies, runners and evals for BC applications",
+  "duration_s": 2584,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "deterministic testing",
+    "propagated dependencies",
+    "application test library",
+    "internal visible to",
+    "test explorer",
+    "al test runner",
+    "test permissions",
+    "test isolation",
+    "test type",
+    "ai test agent",
+    "ci/cd pipelines",
+    "ai tests"
+  ],
+  "chapters": [
+    {
+      "title": "Testing overview and roadmap",
+      "t_start": 0,
+      "t_end": 126.4
+    },
+    {
+      "title": "Deterministic tests and propagated dependencies",
+      "t_start": 126.4,
+      "t_end": 198.8
+    },
+    {
+      "title": "Application test library and real-world usage",
+      "t_start": 198.8,
+      "t_end": 299.6
+    },
+    {
+      "title": "Internal visible to and test facades",
+      "t_start": 299.6,
+      "t_end": 463.6
+    },
+    {
+      "title": "Test explorer support and properties",
+      "t_start": 463.6,
+      "t_end": 591
+    },
+    {
+      "title": "Inner loop and outer loop testing",
+      "t_start": 591,
+      "t_end": 693
+    },
+    {
+      "title": "AI test agent and interactive testing",
+      "t_start": 693,
+      "t_end": 970.6
+    },
+    {
+      "title": "Defining AI tests and data-driven approach",
+      "t_start": 970.6,
+      "t_end": 1213.7
+    },
+    {
+      "title": "Artifacts, multiple runs, and copilot feature testing",
+      "t_start": 1213.7,
+      "t_end": 1506.6
+    },
+    {
+      "title": "Native data-driven tests and test automation strategies",
+      "t_start": 1506.6,
+      "t_end": 1947
+    },
+    {
+      "title": "Test selection, coverage, inner loop optimization, and dependencies",
+      "t_start": 1947,
+      "t_end": 2264.9
+    },
+    {
+      "title": "MCP server, test explorer, token consumption, and model optimization",
+      "t_start": 2264.9,
+      "t_end": 2584
+    }
+  ],
+  "features": [
+    {
+      "name": "Test Explorer support",
+      "description": "New support for test explorer in AL development that allows developers to run and debug tests directly in the editor without needing a custom AL test runner, showing test results, call stacks, and assert messages inline.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 474.2,
+      "t_end": 674.4,
+      "is_demoed": true,
+      "caveats": [
+        "Test explorer requires codeunits marked with test attribute"
+      ],
+      "tags": [
+        "test explorer",
+        "debugging",
+        "inner loop",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Propagated dependencies",
+      "description": "A feature that allows developers to refactor apps into multiple other apps while reusing components without breaking external contracts by lifting dependencies as proxies in the manifest.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.6,
+      "t_end": 198.8,
+      "is_demoed": true,
+      "caveats": [
+        "Propagated dependencies only work for one level, cannot point to another propagated dependency"
+      ],
+      "tags": [
+        "app structure",
+        "dependencies",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test library properties",
+      "description": "New AL properties for test codeunits including required test permissions, test type (unit or integration), and required test isolation (transaction rollback behavior) to support test explorer and CI/CD pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 485.3,
+      "t_end": 577.1,
+      "is_demoed": true,
+      "caveats": [
+        "Security concern that anybody can specify internal visible to app ID in production"
+      ],
+      "tags": [
+        "test properties",
+        "codeunit attributes",
+        "test isolation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Internal visible to property",
+      "description": "AL language feature that allows marking procedures as internal and only callable from specified apps, enabling secure exposure of test facades and internal methods for testing purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 299.6,
+      "t_end": 452.6,
+      "is_demoed": true,
+      "caveats": [
+        "Security concern as anybody can specify app ID for internal visible to in production"
+      ],
+      "tags": [
+        "access control",
+        "testing",
+        "facades"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test agent",
+      "description": "An agent that can write tests interactively in GitHub Copilot Chat by reading the workspace, identifying test scenarios, generating test code, and running tests with tools for build and publish.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 743.4,
+      "t_end": 891.3,
+      "is_demoed": true,
+      "caveats": [
+        "May take time to generate tests",
+        "Test generation may not always produce working tests immediately"
+      ],
+      "tags": [
+        "ai",
+        "agent",
+        "github copilot",
+        "test generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test-generating agent for bug reproduction",
+      "description": "An agent that can analyze code and automatically generate tests to reproduce issues, run interactively in GitHub Copilot Chat interface. Accepts task descriptions and produces test code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 807.4,
+      "t_end": 970.6,
+      "is_demoed": true,
+      "caveats": [
+        "agent may need multiple iterations to properly reproduce the issue",
+        "test may initially pass even if the issue is present"
+      ],
+      "tags": [
+        "test generation",
+        "agent",
+        "bug reproduction",
+        "github copilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test with data-driven permutations",
+      "description": "Testing paradigm for AI features where instead of hardcoded assertions, tests use data sets containing multiple permutations of inputs, prompts, models, and expected outcomes. Data sets are the source of truth about test behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1015.8,
+      "t_end": 1213.7,
+      "is_demoed": true,
+      "caveats": [
+        "requires understanding the distinction between agent tests and AI tests",
+        "data sets should contain all relevant permutations for meaningful results"
+      ],
+      "tags": [
+        "ai tests",
+        "data-driven",
+        "permutations",
+        "paradigm shift"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test artifacts and multiple executions",
+      "description": "AI tests produce artifacts including data sets, assertions, and metrics that are stored and rerun multiple times. This enables averaging across runs and detecting whether AI is moving in the right direction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1142.6,
+      "t_end": 1213.7,
+      "is_demoed": true,
+      "caveats": [
+        "non-deterministic nature of AI means single test result is insufficient",
+        "requires tracking multiple dimensions: prompt, input, output, model"
+      ],
+      "tags": [
+        "artifacts",
+        "multiple runs",
+        "metrics",
+        "averaging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot feature testing framework",
+      "description": "Testing framework for LLM-based copilot features using data sets with input and expected output pairs. Tests are run through the EI eval suite rather than the standard test tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1235.2,
+      "t_end": 1395.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires installation code unit to load data from resources",
+        "must be run in EI eval suite not standard test tool",
+        "shown example had compiler service not running"
+      ],
+      "tags": [
+        "copilot testing",
+        "llm",
+        "data sets",
+        "eval suite"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agentic test simulation and step verification",
+      "description": "Testing framework for agents that simulates agentic actions and task steps using library agent simulation. Data sets include expected steps and user interventions that agents should perform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1411.4,
+      "t_end": 1486.1,
+      "is_demoed": true,
+      "caveats": [
+        "uses library agent for simulation rather than direct function calls",
+        "data sets must define expected steps and interventions",
+        "different approach from copilot feature testing"
+      ],
+      "tags": [
+        "agentic testing",
+        "agent simulation",
+        "step verification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Native data-driven test support",
+      "description": "Coming feature for native support of data-driven tests in AL with test data source attributes. Allows test procedures to be invoked once per data point with custom context interface for accessing test case data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1506.6,
+      "t_end": 1676.7,
+      "is_demoed": true,
+      "caveats": [
+        "not part of product yet",
+        "may be available in pre-release",
+        "requires implementing custom context interface for test case access"
+      ],
+      "tags": [
+        "data-driven tests",
+        "native support",
+        "test data source",
+        "upcoming"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom context interface for data-driven tests",
+      "description": "Allows test creators to extend a base interface and store needed information inside a code unit, exposing it in the most convenient way for individual test cases.",
+      "status": "announced",
+      "status_evidence_t": 1686.8,
+      "status_evidence_quote": "This is what we have planned um for the pipeline for coming release",
+      "status_evidence_verified": true,
+      "t_start": 1591.4,
+      "t_end": 1686.8,
+      "is_demoed": true,
+      "caveats": [
+        "Shape of individual test cases cannot be known in advance"
+      ],
+      "tags": [
+        "data-driven tests",
+        "test context",
+        "interfaces"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-assisted test writing and review",
+      "description": "Agents can write tests and delegate reviews for tests, making it easier to write tests that are more informative and have higher quality coverage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1713.6,
+      "t_end": 1736.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "test automation",
+        "ai-assisted"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Performance test suite for long-running tests",
+      "description": "Toolkit for handling performance-critical tests with long execution times and big data sets, including database backups for data preparation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1758.1,
+      "t_end": 1847.8,
+      "is_demoed": false,
+      "caveats": [
+        "Challenge to implement in regular pipelines when processes take a week or longer",
+        "No complete solution yet for detecting performance regressions from code changes"
+      ],
+      "tags": [
+        "performance testing",
+        "long-running tests",
+        "big data"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test type filtering with subtype and transaction filters",
+      "description": "Ability to filter tests by test type, subtype, transactions, code coverage, and namespaces to identify which tests need to run based on code changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1893.4,
+      "t_end": 1931,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test filtering",
+        "code coverage",
+        "impact analysis"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test code lens for developers",
+      "description": "VS Code feature that shows developers which tests might be interesting to run when making changes to a specific function, based on code coverage data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1931,
+      "t_end": 1947,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code lens",
+        "vs code",
+        "test selection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BTE code for faster inner loop testing",
+      "description": "Ability to run tests in the inner loop much faster by focusing on logic tests rather than actual database transactions, enabling more effective development and agent execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1964.1,
+      "t_end": 1984.2,
+      "is_demoed": false,
+      "caveats": [
+        "Future improvement"
+      ],
+      "tags": [
+        "inner loop",
+        "bte code",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Codespaces for multi-project environments",
+      "description": "Virtual machines running VS Code in a browser with different configurations, setups, and launch configs, allowing developers to work on multiple projects without local installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2046.7,
+      "t_end": 2085.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still requires an environment to run tests on"
+      ],
+      "tags": [
+        "codespaces",
+        "development environment",
+        "multi-project"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Docker containers for multiple environments",
+      "description": "Using Docker containers as an option for managing multiple BC environments locally and for testing different project configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2036.7,
+      "t_end": 2067,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "docker",
+        "containers",
+        "environments"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test isolation improvements with empty company",
+      "description": "Moving tests to run on empty company by extracting unit tests from integration tests, reducing dependency on demo data and making tests more stable for future changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2213.8,
+      "t_end": 2253.9,
+      "is_demoed": false,
+      "caveats": [
+        "Existing integration tests remain dependent on demo data",
+        "Ongoing challenge to refactor legacy test code units"
+      ],
+      "tags": [
+        "test isolation",
+        "demo data",
+        "integration tests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP server for test execution",
+      "description": "Enables test execution through an MCP server, allowing tools other than VS Code to run tests, including agents and various harnesses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2299.4,
+      "t_end": 2337,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "test runner",
+        "interoperability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "VS Code test explorer for AI tests",
+      "description": "Test explorer interface in VS Code that shows test execution results and integrates with AI agents for running and generating tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2299.4,
+      "t_end": 2325.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "test explorer",
+        "ui"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test runner with token consumption tracking",
+      "description": "Web-based test runner that displays token consumption for AI-driven tests, helping developers understand the cost of running agent-assisted tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2378.5,
+      "t_end": 2436.2,
+      "is_demoed": true,
+      "caveats": [
+        "Demo did not show actual data because service was not running"
+      ],
+      "tags": [
+        "ai test runner",
+        "token consumption",
+        "cost tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test optimization through model and instruction tuning",
+      "description": "Users can experiment with different AI models, shorter agent instructions, and reduced token consumption by configuring agent profiles with less environmental data and only necessary actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2436.2,
+      "t_end": 2508.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual configuration and experimentation"
+      ],
+      "tags": [
+        "optimization",
+        "token reduction",
+        "agent configuration",
+        "model selection"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Running tests from VS Code",
+      "description": "Tests can be executed from VS Code as an alternative to the classic test explorer, but has compatibility issues with GUI-related code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2508.1,
+      "t_end": 2571.1,
+      "is_demoed": false,
+      "caveats": [
+        "Tests using GUI-related code fail differently in VS Code versus client execution",
+        "Known issue that needs fixing"
+      ],
+      "tags": [
+        "vs code",
+        "test execution",
+        "gui compatibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test generation with MCP and external tools",
+      "description": "Using MCPs you can use almost any tool to help generate and build AL tests and have them executed through external agents and harnesses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2347.4,
+      "t_end": 2368.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test generation",
+        "mcp",
+        "ai",
+        "external tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Model optimization for test scenarios",
+      "description": "Ability to choose different models for running tests, with consideration for cost efficiency - whether a scenario needs the latest model or can run on a better or lower-cost model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2446.8,
+      "t_end": 2451.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "model selection",
+        "cost optimization",
+        "dimensions"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "test library",
+      "t": 224.1
+    },
+    {
+      "type": "codeunit",
+      "name": "test good unit",
+      "t": 224.1
+    },
+    {
+      "type": "other",
+      "name": "application test library",
+      "t": 276.3
+    },
+    {
+      "type": "codeunit",
+      "name": "good unit",
+      "t": 850.2
+    },
+    {
+      "type": "codeunit",
+      "name": "search gel account",
+      "t": 1235.2
+    },
+    {
+      "type": "codeunit",
+      "name": "installation code unit",
+      "t": 1319.4
+    },
+    {
+      "type": "other",
+      "name": "payables agent",
+      "t": 1250.2
+    },
+    {
+      "type": "other",
+      "name": "library agent",
+      "t": 1437.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Thomas",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Espen",
+      "confidence": "high"
+    },
+    {
+      "name": "Freddy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.4,
+      "text": "so the the the question that we want to answer is does it still work and will it work in production right so what",
+      "why_it_matters": "Defines the fundamental purpose of testing in BC apps - ensuring reliability in production.",
+      "check": "exact"
+    },
+    {
+      "t": 176.4,
+      "text": "One thing to note here about propagated dependencies is that it only works for one level.",
+      "why_it_matters": "Important limitation to understand when structuring multi-level app dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 328.6,
+      "text": "One thing to note here is that there is a security concern in the sense that anybody can specify to have this app ID",
+      "why_it_matters": "Critical security consideration when using internal visible to in production environments.",
+      "check": "exact"
+    },
+    {
+      "t": 474.2,
+      "text": "As you might have seen from the uh the keynote, we now have support for the test explorer",
+      "why_it_matters": "Announces new test explorer feature that improves developer productivity in the inner loop.",
+      "check": "exact"
+    },
+    {
+      "t": 513.4,
+      "text": "we have added the test type uh property to it as well which signals the scope of the uh the test in this code",
+      "why_it_matters": "New property enables categorization of tests for CI/CD pipeline optimization.",
+      "check": "exact"
+    },
+    {
+      "t": 591,
+      "text": "the outer loop is when you have your u algo go or your azure devops pipelines testing your app maybe on a nightly u",
+      "why_it_matters": "Explains the dual testing strategy where inner loop uses test explorer and outer loop uses CI/CD.",
+      "check": "exact"
+    },
+    {
+      "t": 743.4,
+      "text": "So we have a test agent. So we got the autonomous one that goes from the beginning to the end. But there is another",
+      "why_it_matters": "Describes two modes of AI test agent - autonomous and interactive modes tested in BC bench.",
+      "check": "exact"
+    },
+    {
+      "t": 1015.8,
+      "text": "What is an AI test? And I mean it could be anything. We have an AL test harness. Is that the one running the",
+      "why_it_matters": "Clarifies the ambiguity in terminology around AI tests - distinguishing between test harness, AI test type, and agent tests.",
+      "check": "exact"
+    },
+    {
+      "t": 1049.3,
+      "text": "AI test means all of it, right? Okay. If we look at at how um how we structure tests in deterministic test, it's very",
+      "why_it_matters": "Establishes that AI testing encompasses multiple concepts and represents a paradigm shift from traditional deterministic testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1063,
+      "text": "We have the the I do this to this data and then that happens, right? But here we're changing the paradigm a little bit.",
+      "why_it_matters": "Describes the fundamental change in testing approach - moving from simple input-output to data-set-driven permutations.",
+      "check": "exact"
+    },
+    {
+      "t": 1176.2,
+      "text": "Not only the AL test but also these things and to make sure that we have not just one number but actually know that",
+      "why_it_matters": "Explains the necessity of running AI tests multiple times due to non-determinism and storing artifacts for aggregate analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 1279.9,
+      "text": "the test looks absolutely the same. what makes it very special um the data set behind this one.",
+      "why_it_matters": "Highlights that AI test implementation appears similar to traditional tests but the power comes from the underlying data sets.",
+      "check": "exact"
+    },
+    {
+      "t": 1506.6,
+      "text": "it's not part of the the product yet but you might be able to find it in a pre-release is ...",
+      "why_it_matters": "Announces upcoming feature for native data-driven test support with current availability limited to pre-release.",
+      "check": "exact"
+    },
+    {
+      "t": 1686.8,
+      "text": "This is what we have planned um for the pipeline for coming release",
+      "why_it_matters": "Indicates the custom context interface feature for data-driven tests is planned but not yet released, setting expectations for upcoming functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 1699.4,
+      "text": "testing is super important. Uh it's still a key part of how we develop. Uh we use test-driven development. We test our agents.",
+      "why_it_matters": "Establishes testing as a core part of BC development strategy, including agent testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1822.3,
+      "text": "the performance test suite is the place to do these kind of things",
+      "why_it_matters": "Identifies the recommended approach for long-running and big data tests, addressing scalability concerns.",
+      "check": "exact"
+    },
+    {
+      "t": 1906.5,
+      "text": "we have the the test type, we have the uh subtype, we have the transactions to filter on, we have the code coverage, right?",
+      "why_it_matters": "Lists available filtering mechanisms for test selection and impact analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 1964.1,
+      "text": "having bte code and having this ability to do tests in the inner loop much faster because we can focus on logic tests",
+      "why_it_matters": "Describes future optimization for developer experience and agent efficiency through BTE code.",
+      "check": "exact"
+    },
+    {
+      "t": 2046.7,
+      "text": "the code spaces. I I love code spaces. I'm a big fan because that means I don't have to install anything locally",
+      "why_it_matters": "Highlights Codespaces as a practical solution for managing multiple development environments without local setup.",
+      "check": "exact"
+    },
+    {
+      "t": 2213.8,
+      "text": "when we have an integration test and the unit tests we started to check okay",
+      "why_it_matters": "Describes strategy for reducing demo data dependencies by running tests on empty company.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2358.2,
+      "text": "using MCPS, you can use almost any tool out there to help you generate and build tests",
+      "why_it_matters": "Establishes that MCP enables flexible test generation with various external tools beyond traditional VS Code",
+      "check": "exact"
+    },
+    {
+      "t": 2436.2,
+      "text": "when it's running you will be able to see the token consumption of these tests here and that gives and input to how how",
+      "why_it_matters": "Clarifies how token consumption tracking provides cost transparency for AI test execution",
+      "check": "exact"
+    },
+    {
+      "t": 2446.8,
+      "text": "Understanding, do your scenario really need the latest model, the greatest model, or could it run on a better or lower model",
+      "why_it_matters": "Emphasizes cost optimization considerations when choosing AI models for test execution.",
+      "check": "exact"
+    },
+    {
+      "t": 2446.8,
+      "text": "do your scenario really need the latest model, the greatest model, or could it run on a better or lower model that's cheaper for",
+      "why_it_matters": "Explains the strategy for optimizing AI test costs by selecting appropriate model tiers",
+      "check": "exact"
+    },
+    {
+      "t": 2554.8,
+      "text": "it's a known issue right now we need to look at how we can manage this",
+      "why_it_matters": "Acknowledges the GUI compatibility issue and commits to fixing it for complete VS Code test support",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 727.5,
+      "kind": "preview",
+      "text": "there is another version that is more interactive and there's a version that we tested in the BC bench"
+    },
+    {
+      "t": 1506.6,
+      "kind": "not-in-this-release",
+      "text": "native support for datadriven tests is not part of the the product yet but you might be able to find it in a pre-release"
+    },
+    {
+      "t": 1686.8,
+      "kind": "coming-later",
+      "text": "This is what we have planned um for the pipeline for coming release"
+    },
+    {
+      "t": 1964.1,
+      "kind": "coming-later",
+      "text": "we're looking forward to that inner loop optimization for us as developers"
+    },
+    {
+      "t": 2554.8,
+      "kind": "not-in-this-release",
+      "text": "from now until we fix that or get that problem solved, uh you need to use the the classic test ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 26
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

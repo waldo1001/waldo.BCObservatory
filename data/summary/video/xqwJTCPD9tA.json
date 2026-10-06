@@ -1,0 +1,28 @@
+{
+  "video_id": "xqwJTCPD9tA",
+  "item_id": "video/yt-mibuso/xqwJTCPD9tA",
+  "summary": "Design patterns for Business Central integrations, built around an integration message table with an AL interface handler. It covers duplicate detection, idempotency keys, error classification, delayed reply, correlation IDs, durable workflows, polling, business events (in preview) and 3PL warehouse integration. It also shows AI agents guided by the BC quality knowledge base.",
+  "overview": "The session argues that Business Central is an ERP system and not an integration service, and presents patterns that make integrations easier to test, trace and recover. The core is a single integration message table with a type field and a message handler interface. Error handling, scheduling and retries are implemented once and reused across integrations. Supporting patterns include idempotency keys, runtime error classification, delayed replies, correlation IDs, and small atomic steps run through job queues, inspired by Azure durable functions.\n\nThe speakers also cover inbound and outbound data flow. Inbound webhooks need a separate integration service. Polling should use incremental reads and a stage-and-exit approach. Outbound business events, which are in preview, can notify external systems, with payload requests directed to a read replica. In a demo, an agent trained on the BC quality knowledge base and a community integration repo produced a technical design and an extension from a written brief. Q&A covers API throttling, JSON parsing, 3PL warehouse integration, network timeouts, message prioritization and retention.",
+  "key_points": [
+    "Store integration requests in a message table with a type field and a message handler interface, instead of making direct HTTP calls during posting. Error handling, scheduling and retries are then built once.",
+    "Duplicate handling and idempotency keys are described as needed from day one. The speakers say Business Central has no platform mechanism today to prevent double posting.",
+    "Classify errors at runtime and route them to the right owner, rather than only logging them. A dispatcher service compares failed messages against an error table.",
+    "Business Central cannot listen to external endpoints. Inbound webhooks need a separate integration service that converts them to integration messages.",
+    "Poll with a setup table that stores the last pull time, and keep the polling job limited to fetching into a staging table.",
+    "Business events are in preview. Delivery can be delayed by more than 5 minutes, which the speakers say makes them unsuitable for real-time inventory sync. Full payload requests should go to a read replica.",
+    "The Business Central cloud has a hard-coded network timeout of 1 minute. Message retention in the demo keeps completed messages for one week and failed messages for one month."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "f6dd2d7da7a0e89edd43e8911c5bd89afe219f1968f5762a6aa617da780e5eb8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0498324
+  }
+}

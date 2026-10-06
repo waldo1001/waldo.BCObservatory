@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=cV_5MGGdGtQ",
   "published_at": "2026-09-21T19:14:15.000Z",
   "language": "en",
-  "state": "skipped",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -36,11 +36,12 @@
     "captions_track": {
       "kind": "auto",
       "lang": "en-orig"
-    }
+    },
+    "leak_retries": 1
   },
   "last_error": null,
   "retry_after": null,
   "output_hash": "8193916a80c9851e7082c9d3d13fdc9a578fcd88be5e77683956ffb68947e725",
-  "skip": "leak",
-  "skipped_at": "2026-10-06T16:46:22.927Z"
+  "skip": null,
+  "skipped_at": null
 }

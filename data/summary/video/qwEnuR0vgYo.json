@@ -1,0 +1,27 @@
+{
+  "video_id": "qwEnuR0vgYo",
+  "item_id": "video/yt-saurav/qwEnuR0vgYo",
+  "summary": "Business Central 29.0 (2026 release wave 2) is generally available, and new cloud customers onboard on it. The video covers creating environments in the admin center, version 28 environment planning, notification recipients, update windows, and sandbox-first upgrade testing.",
+  "overview": "The video announces general availability of Business Central version 29.0, also called 2026 release wave 2. New cloud customers start on version 29 from the announcement day. The on-premises version is covered in a separate video.\n\nIt then walks through the admin center: creating sandbox or production environments with a chosen localization and version, copying environments, setting notification recipients for extension compatibility emails, postponing the production upgrade, and setting an update window. It closes with a recommended strategy of upgrading sandboxes early and validating PTEs against version 29.",
+  "key_points": [
+    "Version 29.0 (2026 release wave 2) is generally available; new cloud customers onboard on version 29.",
+    "Version 28 and preview options still appear in the environment creation wizard but will be removed; the timeline is not specified. Create a version 28 environment now if a go-live is planned on version 28.",
+    "A tenant gets one production and three sandbox environments by default; more production environments can be purchased.",
+    "Environment copy works sandbox to production, production to sandbox, and sandbox to sandbox, but the target environment must be empty.",
+    "Set notification recipients explicitly in the admin center, and several can be added, to receive Microsoft emails when extensions may be incompatible with version 29.",
+    "The update window must be at least 6 hours. That is the maximum time before a possible rollback, not the expected upgrade duration.",
+    "Upgrade sandboxes to version 29 early so users can test, postpone the production upgrade as needed, and review or create PTEs with version 29 within roughly a month."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "de927d22754c67c3074e0e3dffa93ceeeb7efd02633ade9858318acd8abe17c9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0167824
+  }
+}

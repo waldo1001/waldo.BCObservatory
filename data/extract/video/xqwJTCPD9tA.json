@@ -1,0 +1,1736 @@
+{
+  "video_id": "xqwJTCPD9tA",
+  "item_id": "video/yt-mibuso/xqwJTCPD9tA",
+  "title": "Designing Modern Integrations in Business Central",
+  "duration_s": 5143,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "modern integrations",
+    "ai agents",
+    "bc quality",
+    "integration messages",
+    "spec-driven development",
+    "information flow visualization",
+    "duplicate detection",
+    "interface patterns",
+    "error classification",
+    "delayed reply",
+    "correlation ids",
+    "durable workflows"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 160.7
+    },
+    {
+      "title": "Traditional integration scenario and modern approach",
+      "t_start": 160.7,
+      "t_end": 248.6
+    },
+    {
+      "title": "AI agents with BC quality knowledge base",
+      "t_start": 248.6,
+      "t_end": 431.6
+    },
+    {
+      "title": "Spec-driven development and agent-guided tech design",
+      "t_start": 431.6,
+      "t_end": 570.2
+    },
+    {
+      "title": "Information flow visualization and integration patterns",
+      "t_start": 570.2,
+      "t_end": 654.9
+    },
+    {
+      "title": "Integration message layer design and benefits",
+      "t_start": 654.9,
+      "t_end": 897.3
+    },
+    {
+      "title": "Duplicate detection and handling",
+      "t_start": 897.3,
+      "t_end": 1011.1
+    },
+    {
+      "title": "Idempotency key pattern",
+      "t_start": 1011.1,
+      "t_end": 1101.3
+    },
+    {
+      "title": "Error classification strategy",
+      "t_start": 1101.3,
+      "t_end": 1232.1
+    },
+    {
+      "title": "Error classification implementation",
+      "t_start": 1232.1,
+      "t_end": 1420.2
+    },
+    {
+      "title": "Delayed reply pattern",
+      "t_start": 1420.2,
+      "t_end": 1477.4
+    },
+    {
+      "title": "Correlation IDs and message tracing",
+      "t_start": 1477.4,
+      "t_end": 1564.6
+    },
+    {
+      "title": "Durable workflows and durable functions concept",
+      "t_start": 1564.6,
+      "t_end": 1750
+    },
+    {
+      "title": "Atomic operations and job queue pattern",
+      "t_start": 1750,
+      "t_end": 1920
+    },
+    {
+      "title": "Data flow and webhook limitations",
+      "t_start": 1920,
+      "t_end": 2060
+    },
+    {
+      "title": "Polling best practices and incremental reads",
+      "t_start": 2060,
+      "t_end": 2163.8
+    },
+    {
+      "title": "Stage and exit pattern and idempotency for polling",
+      "t_start": 2163.8,
+      "t_end": 2250
+    },
+    {
+      "title": "Business events for outbound integration",
+      "t_start": 2250,
+      "t_end": 2365.4
+    },
+    {
+      "title": "Business events for scalable integrations",
+      "t_start": 2365.4,
+      "t_end": 2517.4
+    },
+    {
+      "title": "Real-world black Friday case study",
+      "t_start": 2517.4,
+      "t_end": 2687.2
+    },
+    {
+      "title": "Outbound business events and avoiding direct calls",
+      "t_start": 2687.2,
+      "t_end": 2927.9
+    },
+    {
+      "title": "Integration patterns and message tables with idempotency",
+      "t_start": 2927.9,
+      "t_end": 3078.2
+    },
+    {
+      "title": "Integration orchestration and external platforms",
+      "t_start": 3078.2,
+      "t_end": 3290.1
+    },
+    {
+      "title": "BC quality and community integration repositories",
+      "t_start": 3290.1,
+      "t_end": 3515.5
+    },
+    {
+      "title": "Spec-driven development with agent-generated documentation",
+      "t_start": 3515.5,
+      "t_end": 3650.3
+    },
+    {
+      "title": "Agent-generated feature architecture and code",
+      "t_start": 3650.3,
+      "t_end": 3886.2
+    },
+    {
+      "title": "Knowledge base refinement and community contributions",
+      "t_start": 3886.2,
+      "t_end": 4103
+    },
+    {
+      "title": "API throttling and external service control",
+      "t_start": 4103,
+      "t_end": 4251.4
+    },
+    {
+      "title": "JSON parsing and data exchange definition",
+      "t_start": 4251.4,
+      "t_end": 4407.8
+    },
+    {
+      "title": "Integration message table design patterns",
+      "t_start": 4407.8,
+      "t_end": 4562.2
+    },
+    {
+      "title": "3PL warehouse integrations and webhook architecture",
+      "t_start": 4562.2,
+      "t_end": 4810
+    },
+    {
+      "title": "Network timeouts and performance considerations",
+      "t_start": 4810,
+      "t_end": 4920
+    },
+    {
+      "title": "Message prioritization, retention policies, and open source",
+      "t_start": 4920,
+      "t_end": 5143
+    }
+  ],
+  "features": [
+    {
+      "name": "AI agents for integration design",
+      "description": "Using AI agents trained with BC quality knowledge base to understand good and bad practices in Business Central integrations, automating the design and implementation of integration extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 275.2,
+      "t_end": 343.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires custom knowledge base setup",
+        "Agent outputs need validation"
+      ],
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "integration design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC quality knowledge base",
+      "description": "A community and Microsoft-built repository containing skills and knowledge about good and bad practices in Business Central integrations, used to train AI agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.1,
+      "t_end": 356.3,
+      "is_demoed": true,
+      "caveats": [
+        "Custom integration knowledge needs to be added separately",
+        "Planned for pull request to Microsoft repo"
+      ],
+      "tags": [
+        "bc quality",
+        "best practices",
+        "knowledge base",
+        "community"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Spec-driven development for integrations",
+      "description": "Using a brief document containing requirements, localization context, goals, constraints, and external API documentation to drive agent-based generation of technical design and roadmap.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 446.9,
+      "t_end": 543.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual brief creation initially",
+        "Agent creates design based on provided specs"
+      ],
+      "tags": [
+        "spec-driven development",
+        "requirements",
+        "design automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Information flow visualization",
+      "description": "A diagram-based approach to visualize which systems own which data sets, where data originates, and how it flows through the integration landscape to serve as a center point for integration discussions and change management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 596.1,
+      "t_end": 644.9,
+      "is_demoed": false,
+      "caveats": [
+        "Needs ongoing updates as new systems are added"
+      ],
+      "tags": [
+        "information flow",
+        "visualization",
+        "data ownership"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration message layer",
+      "description": "A single table-based layer for all inbound and outbound data flows in integrations, enabling testing, debugging, logging, and error handling without depending on external systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 682.8,
+      "t_end": 788.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only for pushing data into BC, not reading",
+        "Requires interface pattern implementation"
+      ],
+      "tags": [
+        "integration messages",
+        "testing",
+        "debugging",
+        "logging"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration message table with interface pattern",
+      "description": "A table design using AL interfaces to handle different message types, with primary key not dependent on sequencing, human-readable document number, type field, and status tracking for extensible message handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 801,
+      "t_end": 873.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL interface implementation",
+        "Response field for instantaneous external service response"
+      ],
+      "tags": [
+        "interface pattern",
+        "extensibility",
+        "message handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Duplicate detection and handling",
+      "description": "A mechanism to handle duplicate messages that occur commonly in integrations due to acknowledgement requirements and job queue crashes, preventing duplicate posting of documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 884.8,
+      "t_end": 999.4,
+      "is_demoed": false,
+      "caveats": [
+        "Duplicate handling is fundamental and must be on the platform from the first day"
+      ],
+      "tags": [
+        "duplicate handling",
+        "integration",
+        "resilience"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Idempotency key pattern",
+      "description": "Using a key-based approach to ensure that when a message with the same key arrives, the system returns the same response instead of posting a duplicate, preventing double-posting of sales orders or other documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1011.1,
+      "t_end": 1084.1,
+      "is_demoed": false,
+      "caveats": [
+        "Currently no platform mechanism to avoid double posting in Business Central"
+      ],
+      "tags": [
+        "idempotency",
+        "duplicate prevention",
+        "integration patterns"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Error classification system",
+      "description": "A system that classifies errors at runtime instead of just logging them, routing errors to appropriate owners (integration partner, finance, logistics) based on error type, and growing a database of error patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1101.3,
+      "t_end": 1220.4,
+      "is_demoed": false,
+      "caveats": [
+        "Error classification is typically handled by integration partners on their side"
+      ],
+      "tags": [
+        "error handling",
+        "error classification",
+        "routing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Notification dispatcher service",
+      "description": "A background service that analyzes failed messages, extracts error content, compares against an integration error table, and classifies errors with error codes or creates new patterns, enabling automated error response.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1232.1,
+      "t_end": 1411.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error classification",
+        "automation",
+        "background job"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Delayed reply pattern",
+      "description": "A pattern allowing responses to requests to be delayed when processing takes time or requires human approval, maintaining integration without breaking it and preserving visibility and traceability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1420.2,
+      "t_end": 1466.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "delayed reply",
+        "human-in-the-loop",
+        "integration patterns"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Correlation ID mechanism",
+      "description": "Using correlation IDs to contextually join multiple messages into one conversation, allowing external services to match responses to original requests and enabling asynchronous acknowledgement through message table queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1477.4,
+      "t_end": 1564.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "correlation ids",
+        "message tracing",
+        "asynchronous patterns"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Durable workflows in Business Central",
+      "description": "A pattern inspired by Azure durable functions that breaks large integration processes into small atomic operations committed in sequence, allowing the system to resume from the same state if something fails rather than restarting everything.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1570.2,
+      "t_end": 1850,
+      "is_demoed": false,
+      "caveats": [
+        "Applied through job queues and integration messages",
+        "Inspired by but not yet a native Business Central feature"
+      ],
+      "tags": [
+        "integration",
+        "performance",
+        "resilience",
+        "job-queues"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration message workflow pattern",
+      "description": "Using integration messages with job queues to handle sequences of operations like pulling orders, validating, and creating, where each type of operation is processed separately allowing individual fixes without re-running the whole process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1857.2,
+      "t_end": 1900,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual setup of job queues and integration message types"
+      ],
+      "tags": [
+        "integration-messages",
+        "job-queues",
+        "workflow",
+        "orchestration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inbound webhooks via integration service",
+      "description": "Using a middleware integration service to handle external webhooks and convert them to integration messages, since Business Central cannot directly listen to external endpoints or accept unauthenticated API calls.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1937,
+      "t_end": 2042,
+      "is_demoed": false,
+      "caveats": [
+        "Requires separate integration service infrastructure",
+        "Business Central cannot be an inbound webhook listener"
+      ],
+      "tags": [
+        "webhooks",
+        "integration-service",
+        "middleware",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Polling with incremental reads",
+      "description": "A polling pattern that uses a setup table to track the last pull timestamp, allowing the system to request only new data from the source since the last run rather than re-fetching everything.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2097.2,
+      "t_end": 2163.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires discipline in design to avoid common polling mistakes"
+      ],
+      "tags": [
+        "polling",
+        "performance",
+        "incremental-sync",
+        "setup-tables"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Stage and exit pattern for polling",
+      "description": "A polling pattern that separates concerns by having the job queue only fetch data and insert it into a staging table, without doing any processing, validation, or workflow triggering in the same job.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2163.8,
+      "t_end": 2201.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires separate job queues for processing stages"
+      ],
+      "tags": [
+        "polling",
+        "staging",
+        "separation-of-concerns",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Idempotency key for polling",
+      "description": "Using an idempotency key mechanism to ensure that even if a polling job queue crashes mid-operation, duplicate records are not created in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2215.8,
+      "t_end": 2245.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires external system or BC to support idempotency keys"
+      ],
+      "tags": [
+        "polling",
+        "idempotency",
+        "reliability",
+        "duplicate-prevention"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business events for outbound integration",
+      "description": "Using Business Events as a platform-recommended way to send data out of Business Central, with lightweight notifications and the ability to add multiple subscriptions without code changes.",
+      "status": "preview",
+      "status_evidence_t": 2282.1,
+      "status_evidence_quote": "Unfortunately, still in preview after a couple of years as well. But, uh Microsoft says that it will be uh soon it'll be uh",
+      "status_evidence_verified": true,
+      "t_start": 2260.7,
+      "t_end": 2365.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still in preview despite years of availability",
+        "Requires replica instance for data payload requests"
+      ],
+      "tags": [
+        "business-events",
+        "outbound",
+        "integration",
+        "notifications"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business events with read replica",
+      "description": "Business events send lightweight notifications; when external systems need the full payload, they request it from a Business Central read replica rather than the production tenant, preventing user experience disruption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2328.8,
+      "t_end": 2365.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires setting up a read replica for integration workloads"
+      ],
+      "tags": [
+        "business-events",
+        "read-replica",
+        "performance",
+        "multi-tenancy"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business events multi-system subscription",
+      "description": "Once a Business Event is published, additional system subscriptions can be created using PowerShell scripts without requiring any code changes to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2365.4,
+      "t_end": 2409.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business-events",
+        "subscriptions",
+        "multi-system",
+        "powershell"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business events for integrations",
+      "description": "Business events enable decoupled integrations by allowing external systems to subscribe to events without tight coupling to Business Central, supporting multi-system scenarios like managing multiple Shopify stores.",
+      "status": "preview",
+      "status_evidence_t": 2572.9,
+      "status_evidence_quote": "I think we know the reason why it's still in preview. It's not instantaneously.",
+      "status_evidence_verified": true,
+      "t_start": 2517.4,
+      "t_end": 2687.2,
+      "is_demoed": true,
+      "caveats": [
+        "Delivery delays can exceed 5 minutes in some cases, making it unsuitable for real-time inventory synchronization scenarios"
+      ],
+      "tags": [
+        "business events",
+        "decoupling",
+        "multi-system",
+        "preview"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Outbound business events limitations",
+      "description": "External systems consuming business events face limitations: most lack handshake capability, payloads are notification-only requiring callback to BC, and data is BC-shaped requiring transformation for other systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2687.2,
+      "t_end": 2805.2,
+      "is_demoed": false,
+      "caveats": [
+        "External systems require integration partners to handle webhook conversion and payload transformation"
+      ],
+      "tags": [
+        "webhooks",
+        "integration partners",
+        "payload transformation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration message tables pattern",
+      "description": "Store integration requests in a message table instead of making direct HTTP calls during posting, allowing posting to complete quickly while background jobs handle delivery to external systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2805.2,
+      "t_end": 2927.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires additional messaging infrastructure and AL code for background job orchestration"
+      ],
+      "tags": [
+        "message tables",
+        "background jobs",
+        "posting",
+        "decoupling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Idempotency keys for integration messages",
+      "description": "Add message IDs to integration requests as headers so external systems can detect and reject duplicate messages, preventing duplicate processing if retries occur.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2927.9,
+      "t_end": 3016,
+      "is_demoed": false,
+      "caveats": [
+        "Not all external services support idempotency key concepts"
+      ],
+      "tags": [
+        "idempotency",
+        "message ids",
+        "duplicates"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Retry configuration for integration messages",
+      "description": "Integration message types can be configured with automatic retry logic at the platform layer, such as retrying every 5 minutes up to 99 times without per-message AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3002.7,
+      "t_end": 3028.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "retries",
+        "message handling",
+        "background processing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "External integration services instead of job queues",
+      "description": "Discussion of using external platforms like Azure integration services or re-state for orchestrating integrations, as Business Central is not an integration service and using patterns in BC is considered a workaround.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3157.1,
+      "t_end": 3242.3,
+      "is_demoed": false,
+      "caveats": [
+        "Business Central proper error handling is difficult",
+        "BC is not designed as an integration service"
+      ],
+      "tags": [
+        "orchestration",
+        "external services",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "BC quality knowledge base repo",
+      "description": "A Microsoft-initiated benchmark repository that stores data and knowledge for AI agents, with Microsoft, community, and custom folders for shared and organization-specific integration knowledge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3290.1,
+      "t_end": 3404.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai agents",
+        "knowledge base",
+        "community contribution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Community integration public GitHub repo",
+      "description": "A public repository on GitHub that brings BC quality as a submodule with custom knowledge and skills organized for integration patterns, available as a template for organizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3390.5,
+      "t_end": 3496.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github",
+        "community",
+        "integration patterns",
+        "template"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Good and bad knowledge patterns for agents",
+      "description": "Documentation in the community integration repo that provides patterns for agents, including bad practices to avoid and good practices to follow, with context on why patterns are recommended.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3417.1,
+      "t_end": 3481.8,
+      "is_demoed": true,
+      "caveats": [
+        "Agents may overuse patterns without understanding when not to apply them"
+      ],
+      "tags": [
+        "best practices",
+        "anti-patterns",
+        "knowledge patterns"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent skills documentation with architectural decisions",
+      "description": "Skills documentation that contains architectural level decisions, version information, and direct call approaches to other systems that agents can use as templates for integration work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3481.8,
+      "t_end": 3515.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "skills",
+        "integration patterns"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Spec-driven development with agents",
+      "description": "Development approach where an agent reads business requirements, skills, and knowledge to generate a complete technical specification and implementation plan for integrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3515.5,
+      "t_end": 3595.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires comprehensive knowledge base before agents can be effective"
+      ],
+      "tags": [
+        "development methodology",
+        "requirements",
+        "ai-driven"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent-generated technical documentation",
+      "description": "AI agents can generate comprehensive technical documentation including architectural reviews, data models, integration patterns, and identified concerns based on the brief and knowledge base.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3595.8,
+      "t_end": 3650.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "technical specs",
+        "ai-generated"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Integration message layer pattern",
+      "description": "Architectural pattern using an external integration layer that works with BC API pages to write integration messages, rather than writing messages directly into BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3613.4,
+      "t_end": 3650.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "api pages",
+        "integration messages"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Agent-generated feature breakdown and plans",
+      "description": "AI agents generate structured feature plans with sections for approach, specs, and tasks, breaking down integration projects into manageable features with architectural decisions documented.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3685.6,
+      "t_end": 3761.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "planning",
+        "feature breakdown",
+        "architectural design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Message handler interface pattern",
+      "description": "Architecture pattern where a message handler interface is implemented for each new message processing requirement, avoiding the need for separate case statements in BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3734.6,
+      "t_end": 3761.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "design pattern",
+        "message handling",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated extension code",
+      "description": "AI agents can automatically generate complete extension projects with multiple AL objects including interfaces, enums, and data models based on specifications and knowledge base patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3820.7,
+      "t_end": 3886.2,
+      "is_demoed": true,
+      "caveats": [
+        "Generated code requires review before deployment",
+        "Cannot confirm correctness without running it"
+      ],
+      "tags": [
+        "code generation",
+        "ai-driven",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Living knowledge base refinement",
+      "description": "Knowledge base documents should be continuously updated after each integration or process to capture learnings and improvements, enabling better agent-generated output in future runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3796.2,
+      "t_end": 3820.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "knowledge management",
+        "continuous improvement",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent error correction and knowledge update",
+      "description": "When agents generate incorrect code patterns, developers can ask agents to fix both the generated code and the underlying knowledge base, preventing similar mistakes in future agent-driven work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3947,
+      "t_end": 4012.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quality assurance",
+        "knowledge maintenance",
+        "iterative development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC quality repository for integrations",
+      "description": "A community-driven repository for sharing integration knowledge and best practices that developers can contribute to and use for building integrations more efficiently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3929.4,
+      "t_end": 4103,
+      "is_demoed": false,
+      "caveats": [
+        "Knowledge will be moved to BC quality after session"
+      ],
+      "tags": [
+        "repository",
+        "community",
+        "best practices",
+        "quality"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "External service controller for API throttling",
+      "description": "A Rust-based external service platform that handles API throttling control when integrating with systems like Shopify, managing rate limits before pushing data to external APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4188.4,
+      "t_end": 4251.4,
+      "is_demoed": false,
+      "caveats": [
+        "API throttling handling should be done in external services, not in Business Central",
+        "BC is not an integration platform"
+      ],
+      "tags": [
+        "throttling",
+        "external service",
+        "shopify",
+        "rust"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "JSON parsing in Business Central",
+      "description": "Business Central provides extensive instrumentation to parse and work with JSON payloads, allowing developers to handle JSON mapping directly within BC if a BC developer is available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4262.2,
+      "t_end": 4303.1,
+      "is_demoed": false,
+      "caveats": [
+        "Using data exchange definition for JSON parsing can be slow and resource-intensive"
+      ],
+      "tags": [
+        "json",
+        "parsing",
+        "mapping",
+        "developer"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data exchange definition for configurable parsing",
+      "description": "A mechanism in Business Central that allows flexible JSON payload mapping, though it can be slow due to hitting multiple tables and is better replaced with direct coding for most use cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4318,
+      "t_end": 4407.8,
+      "is_demoed": false,
+      "caveats": [
+        "Implementation complexity outweighs benefits for field changes",
+        "Performance issues when used at scale",
+        "Difficult to configure and maintain"
+      ],
+      "tags": [
+        "data exchange",
+        "mapping",
+        "performance",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration message table pattern",
+      "description": "A standardized single table with type field design for handling multiple integration endpoints, allowing implementation of error handling, scheduling, and retries once for reuse across integrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4418.4,
+      "t_end": 4562.2,
+      "is_demoed": false,
+      "caveats": [
+        "May require tight coupling with customer systems",
+        "Not suitable for all custom scenarios",
+        "Handler implementation still needed for payload variations"
+      ],
+      "tags": [
+        "table design",
+        "error handling",
+        "scheduling",
+        "standardization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Warehouse shipment and receipt integration",
+      "description": "Using Business Central warehouse shipment and receipt documents as the integration point with 3PL systems, providing abstraction for sales orders, purchase orders, returns, and transfer orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4617.8,
+      "t_end": 4705,
+      "is_demoed": true,
+      "caveats": [
+        "Requires not posting documents until 3PL confirms completion",
+        "Must handle inventory updates before posting"
+      ],
+      "tags": [
+        "warehouse",
+        "3pl",
+        "shipment",
+        "receipt",
+        "abstraction"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Warehouse returns and transfer orders",
+      "description": "Capability to handle return sales returns, purchase returns, and transfer orders between 3PLs using warehouse receipts and shipments without posting until warehouse confirms completion.",
+      "status": "ga",
+      "status_evidence_t": 4688.4,
+      "status_evidence_quote": "for return sales returns, purchase returns, transfer orders for when uh the customer wants to ship something from one 3PL to another 3PL, you",
+      "status_evidence_verified": true,
+      "t_start": 4688.4,
+      "t_end": 4720,
+      "is_demoed": false,
+      "caveats": [
+        "Documents are not posted until warehouse confirms completion"
+      ],
+      "tags": [
+        "warehouse",
+        "returns",
+        "transfers",
+        "3pl"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Webhook abstraction layer for 3PL integrations",
+      "description": "A middleware layer that receives webhook notifications from Business Central and translates them to different 3PL API formats, allowing for decoupling when customers switch between 3PL providers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4744.7,
+      "t_end": 4798.2,
+      "is_demoed": false,
+      "caveats": [
+        "Most 3PLs do not support webhooks natively",
+        "3PLs prefer their own API endpoints"
+      ],
+      "tags": [
+        "webhook",
+        "3pl",
+        "middleware",
+        "vms",
+        "abstraction"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Webhook integration layer",
+      "description": "Integration pattern where warehouse shipments trigger webhooks, allowing external VMS systems to be decoupled and redirected through an integration layer that calls back to Business Central API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4772,
+      "t_end": 4808.7,
+      "is_demoed": true,
+      "caveats": [
+        "Not all external systems natively handle webhooks"
+      ],
+      "tags": [
+        "webhooks",
+        "vms",
+        "decoupling",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Central cloud network timeout",
+      "description": "Hard-coded network timeout of 1 minute in Business Central cloud with possibility of 5 minute maximum on premium environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4835.1,
+      "t_end": 4875.4,
+      "is_demoed": false,
+      "caveats": [
+        "1 minute hard limit on cloud, proxy side maintains 1 minute, premium environments may support up to 5 minutes"
+      ],
+      "tags": [
+        "timeouts",
+        "performance",
+        "cloud",
+        "network"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job queue categories for message ordering",
+      "description": "Job queue categories feature allows sequencing of background message handling to ensure certain message types are processed before others.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4968.6,
+      "t_end": 5028.6,
+      "is_demoed": false,
+      "caveats": [
+        "Prioritization requires custom coding, not built-in prioritization feature"
+      ],
+      "tags": [
+        "job queue",
+        "prioritization",
+        "message handling",
+        "durable workflows"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Integration message code open source",
+      "description": "The integration message code will be made available as open source, allowing customers to customize message handling and prioritization patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5039.4,
+      "t_end": 5066.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "customization",
+        "integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Message table retention policies",
+      "description": "Message retention policy keeps completed messages for one week and failed messages for one month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5098.9,
+      "t_end": 5124.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "retention",
+        "message table",
+        "cleanup"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC quality",
+      "t": 302.4
+    },
+    {
+      "type": "table",
+      "name": "integration message table",
+      "t": 1068.6
+    },
+    {
+      "type": "table",
+      "name": "integration error table",
+      "t": 1349.8
+    },
+    {
+      "type": "interface",
+      "name": "message handler interface",
+      "t": 3750
+    },
+    {
+      "type": "enum",
+      "name": "directions for enum",
+      "t": 3858.4
+    },
+    {
+      "type": "table",
+      "name": "interesting message",
+      "t": 3858.4
+    },
+    {
+      "type": "other",
+      "name": "integration message",
+      "t": 4418.4
+    },
+    {
+      "type": "other",
+      "name": "data exchange definition",
+      "t": 4336.3
+    },
+    {
+      "type": "other",
+      "name": "warehouse shipment",
+      "t": 4650.2
+    },
+    {
+      "type": "other",
+      "name": "warehouse receipt",
+      "t": 4650.2
+    },
+    {
+      "type": "other",
+      "name": "message table",
+      "t": 5098.9
+    },
+    {
+      "type": "other",
+      "name": "job queue categories",
+      "t": 5003
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Tharanga Chandrasekar",
+      "confidence": "high"
+    },
+    {
+      "name": "Vlad",
+      "confidence": "high"
+    },
+    {
+      "name": "Trong",
+      "confidence": "high"
+    },
+    {
+      "name": "Trung",
+      "confidence": "high"
+    },
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 210.2,
+      "text": "They wanted to have some kind of website or some kind of storefront thing that uh when their customers placing orders, you want to",
+      "why_it_matters": "Establishes the typical integration scenario discussed: e-commerce to ERP to warehouse management flow",
+      "check": "exact"
+    },
+    {
+      "t": 288.1,
+      "text": "the Microsoft came up with this great concept of BC quality. I think many of you have heard about this and may many of",
+      "why_it_matters": "Identifies BC quality as an existing Microsoft community resource for integration best practices",
+      "check": "exact"
+    },
+    {
+      "t": 329.4,
+      "text": "when we run our agents in the uh environment, the agents already knows that what are the good practices about Business Central uh integrations,",
+      "why_it_matters": "Explains how AI agents are trained with integration knowledge to improve design decisions",
+      "check": "exact"
+    },
+    {
+      "t": 749,
+      "text": "What this is about is basically like a table which contains uh where where basically anything that you want to stream as an inbound",
+      "why_it_matters": "Defines the integration message layer as a central table for all data flows in and out of Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 761.8,
+      "text": "It's not for reading. If you wanted to read data or external system wants to read the data, they probably can go into queries",
+      "why_it_matters": "Clarifies the scope and limitation of the integration message layer: only for pushing data, not querying",
+      "check": "exact"
+    },
+    {
+      "t": 829.6,
+      "text": "as soon as it was introduced we seen that it's a perfect use case for us to build this type as a as an",
+      "why_it_matters": "Describes adoption of AL interfaces for extensible message type handling in the integration pattern",
+      "check": "exact"
+    },
+    {
+      "t": 987,
+      "text": "duplicate handling is not a feature that you will uh build. It's something that needs to be fundamentally on the platform",
+      "why_it_matters": "Establishes that duplicate handling must be a core platform capability from day one, not an optional feature, to avoid integration nightmares.",
+      "check": "exact"
+    },
+    {
+      "t": 1011.1,
+      "text": "item potency key. Okay, so this is something that exist in other system and it doesn't exist in BC",
+      "why_it_matters": "Identifies idempotency key as a missing feature in Business Central that exists in other systems, critical for preventing duplicate posting.",
+      "check": "exact"
+    },
+    {
+      "t": 1042.3,
+      "text": "And there is no way right now in the platform to avoid this case",
+      "why_it_matters": "States that Business Central currently lacks a built-in mechanism to prevent double posting from retried external requests.",
+      "check": "exact"
+    },
+    {
+      "t": 1220.4,
+      "text": "error classification, not error like logging, error classification is a must-have in the platform",
+      "why_it_matters": "Emphasizes the distinction between simple error logging and intelligent error classification as essential for production integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 1284.6,
+      "text": "80% of people said like no no no, we do everything in AL. So, the reason of this session is actually we're trying to",
+      "why_it_matters": "Explains the motivation for the session - providing best practices since most organizations build integrations in AL rather than using external platforms.",
+      "check": "exact"
+    },
+    {
+      "t": 1581.5,
+      "text": "all of those patterns were talking about one message coming into Business Central or going out of Business Central. But when the business grows",
+      "why_it_matters": "Explains the core problem that durable workflows solve - single-message patterns don't scale when business volume increases dramatically.",
+      "check": "exact"
+    },
+    {
+      "t": 1625.6,
+      "text": "we don't want to roll back if something was happen something happens in the messages down the line. We don't want to roll back",
+      "why_it_matters": "Articulates the design requirement that durable workflows must handle partial failures gracefully without reprocessing.",
+      "check": "exact"
+    },
+    {
+      "t": 1649.8,
+      "text": "I met durable functions concept maybe 5 years ago",
+      "why_it_matters": "Indicates when the presenter first encountered the durable functions concept that inspired this integration pattern design.",
+      "check": "exact"
+    },
+    {
+      "t": 1711.2,
+      "text": "And we build this as a durable function which um allow us basically to preserve all these actions, retry them individually.",
+      "why_it_matters": "Demonstrates how durable functions enable individual retry of failed actions rather than full process restart.",
+      "check": "exact"
+    },
+    {
+      "t": 1974.3,
+      "text": "Because in Business Central, we don't have option in AL where we can listen to a external uh endpoint. And also, Business Central does",
+      "why_it_matters": "States the architectural limitation that prevents inbound webhooks in Business Central, forcing the need for middleware.",
+      "check": "exact"
+    },
+    {
+      "t": 1999.2,
+      "text": "Business Central is ERP system. It's not an integration service. Stop trying to make it an integration service.",
+      "why_it_matters": "Clear statement of design philosophy that Business Central should remain an ERP, not an integration hub.",
+      "check": "exact"
+    },
+    {
+      "t": 2109.4,
+      "text": "we will have a small setup record in Business Central, like a very small record, which says that when was the last time that",
+      "why_it_matters": "Identifies a critical best practice for polling integrations that is commonly overlooked - tracking the last pull time.",
+      "check": "exact"
+    },
+    {
+      "t": 2201.2,
+      "text": "With that, what we have seen is we have seen a a really good improvement in Business Central, the performance-wise, ...",
+      "why_it_matters": "Provides evidence that the stage-and-exit polling pattern delivers measurable improvements across multiple dimensions.",
+      "check": "exact"
+    },
+    {
+      "t": 2282.1,
+      "text": "Unfortunately, still in preview after a couple of years as well. But, uh Microsoft says that it will be uh soon it'll be uh",
+      "why_it_matters": "Clarifies the status of Business Events and Microsoft's commitment to GA availability.",
+      "check": "exact"
+    },
+    {
+      "t": 2351.1,
+      "text": "all the requests coming into Business Central to request the data should go to that replica, not to the Business original tenant.",
+      "why_it_matters": "Explains how a replica tenant architecture prevents integration load from impacting production user experience.",
+      "check": "exact"
+    },
+    {
+      "t": 2381.6,
+      "text": "you don't have to write a single line of code, and you can simply say, I need to create a subscription, and with the",
+      "why_it_matters": "Demonstrates the low-code approach to adding new systems to integration workflows using business events.",
+      "check": "exact"
+    },
+    {
+      "t": 2572.9,
+      "text": "I think we know the reason why it's still in preview. It's not instantaneously.",
+      "why_it_matters": "Acknowledges that business events are in preview status and have latency issues preventing real-time delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 2651.8,
+      "text": "If this information goes to external service with 5 10 minutes delay, we potentially hitting uh some oversell on a customer side.",
+      "why_it_matters": "Real-world example showing why business event latency is a critical issue for inventory synchronization.",
+      "check": "exact"
+    },
+    {
+      "t": 2722.5,
+      "text": "Most of the WMSs or any other systems that integrate with Business Central doesn't have the capability to do a handshake.",
+      "why_it_matters": "Identifies a key limitation of external systems that forces integration partners into the architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 2897.6,
+      "text": "rather than doing it on the uh posting routine just write it to the message table",
+      "why_it_matters": "Core design principle for avoiding HTTP calls in posting routines, which is described as a common and critical mistake.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2966.5,
+      "text": "use integration messages and item potency keys on the message itself. So, if for some reason it get failed, it will be traceable.",
+      "why_it_matters": "Establishes the best practice for handling retries and duplicate detection in integration messaging.",
+      "check": "exact"
+    },
+    {
+      "t": 3183.9,
+      "text": "Business Central is not an integration service. The everything that we are trying to to we are using these patterns, it's more like a",
+      "why_it_matters": "Acknowledges that integration patterns in BC are workarounds, recommending external integration platforms instead.",
+      "check": "exact"
+    },
+    {
+      "t": 3183.9,
+      "text": "It's quite hard actually to do a proper error handling in Business Central. Business Central is not an integration service.",
+      "why_it_matters": "Explains the fundamental limitation of using Business Central as an integration platform, justifying the need for external services.",
+      "check": "exact"
+    },
+    {
+      "t": 3225.4,
+      "text": "Modern integration platforms, uh especially with AI, allow us to uh code it very efficiently and they uh system aware.",
+      "why_it_matters": "Highlights how AI-enabled modern integration platforms can replace workarounds in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 3303.7,
+      "text": "We used BC quality as a benchmark, a repo that allows us to store data in the about data for the agents.",
+      "why_it_matters": "Describes the foundation of the knowledge base system for AI agents to understand Business Central integration patterns.",
+      "check": "exact"
+    },
+    {
+      "t": 3313.9,
+      "text": "Whatever we do, like we write a blog post, we do anything, it's it's not just for a human, it needs to be for",
+      "why_it_matters": "Shows the shift in documentation and knowledge creation practices to accommodate AI agent consumption.",
+      "check": "exact"
+    },
+    {
+      "t": 3530.8,
+      "text": "We do spec-driven development. So, what I did was I asked the agent just read the brief, read the skills ...",
+      "why_it_matters": "Demonstrates a new development methodology where AI agents drive implementation from specifications and knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 3808.3,
+      "text": "Your knowledge base or the repo on the BC quality one is like a living document. So, every time you make integration or make",
+      "why_it_matters": "Establishes that knowledge bases require continuous refinement to improve AI agent output quality over time.",
+      "check": "exact"
+    },
+    {
+      "t": 3833.8,
+      "text": "It has created like 71 objects.",
+      "why_it_matters": "Demonstrates the scale of code generation that AI agents can produce for complex integration projects.",
+      "check": "exact"
+    },
+    {
+      "t": 3929.4,
+      "text": "share your knowledge with the basic quality repo and let's as a community build that repo as like a one of the the the",
+      "why_it_matters": "Establishes the collaborative community approach to building integration knowledge in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 3961.9,
+      "text": "handling messages should be like in a runtime we need to commit and re-throw error for the external services doesn't know about this",
+      "why_it_matters": "Demonstrates the error handling pattern and principle that external services require commit-and-throw semantics",
+      "check": "exact"
+    },
+    {
+      "t": 3976.8,
+      "text": "When you fixing this, can you please make sure that you go and fix the knowledge as well? So, then next time when my",
+      "why_it_matters": "Shows how developer feedback loops improve shared knowledge bases and agent quality for the entire team.",
+      "check": "exact"
+    },
+    {
+      "t": 4199.4,
+      "text": "As I said, we handling this as as an in an external service. So, external service has a controller for throttling.",
+      "why_it_matters": "Shows the architectural principle that API throttling should be handled in external services, not in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 4236.8,
+      "text": "your BC is not an integration platform, you definitely will hit the walls like this, and this is where you you need to have",
+      "why_it_matters": "Critical design principle that BC has integration limits and requires external systems for certain tasks",
+      "check": "exact"
+    },
+    {
+      "t": 4273.6,
+      "text": "BC have a quite quite an extensive instrumentation to parse and work with with JSONs",
+      "why_it_matters": "Establishes that BC has built-in JSON capabilities for typical integration scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 4369.9,
+      "text": "it was way cheaper for us just to like code it as an individual mapping and forget",
+      "why_it_matters": "Cost-benefit analysis showing direct coding outweighs the complexity of configurable data exchange definitions",
+      "check": "exact"
+    },
+    {
+      "t": 4463.9,
+      "text": "the point for integration message was for us was that we can implement a lot of things once and in a in a",
+      "why_it_matters": "Explains the design rationale for the integration message table pattern - reusable error handling and scheduling",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4594.3,
+      "text": "all of them want to have their I want to have their API. Yeah, yeah. And say, you know, and they're lots of diverse",
+      "why_it_matters": "Practical insight that 3PLs typically do not support webhooks and require custom API integration",
+      "check": "exact"
+    },
+    {
+      "t": 4688.4,
+      "text": "for return sales returns, purchase returns, transfer orders for when uh the customer wants to ship something from one 3PL to another 3PL",
+      "why_it_matters": "Explains what document types are supported for multi-3PL scenarios using warehouse shipments and receipts.",
+      "check": "exact"
+    },
+    {
+      "t": 4719.5,
+      "text": "you don't post it, you don't post them until the the warehouse says they've done them, because then you've got the opportunity to update",
+      "why_it_matters": "Describes the key design decision to delay posting until warehouse confirmation, allowing quantity adjustments.",
+      "check": "exact"
+    },
+    {
+      "t": 4786.3,
+      "text": "I create a new warehouse shipment. There is a new web hook where all the VMS system is there. Uh, the integration layer will",
+      "why_it_matters": "Demonstrates how webhook integration decouples warehouse systems from VMS through an integration layer.",
+      "check": "exact"
+    },
+    {
+      "t": 4848.4,
+      "text": "No, this is a hard-coded network timeout which is in a BC cloud. You had like 1 minute",
+      "why_it_matters": "Clarifies the hard-coded 1 minute network timeout limit in Business Central cloud, affecting external service call design.",
+      "check": "exact"
+    },
+    {
+      "t": 4875.4,
+      "text": "you can have certain lock in certain weight in BC that's your order creation and then posting will take more than a minute",
+      "why_it_matters": "Highlights real-world scenario where BC operations can exceed timeout limits due to workload spikes.",
+      "check": "exact"
+    },
+    {
+      "t": 5003,
+      "text": "job queue you still can do dimension sorry, job queue categories. So you can like make sure that some stuff happen in a sequence",
+      "why_it_matters": "Explains how job queue categories enable message sequencing for controlled background processing.",
+      "check": "exact"
+    },
+    {
+      "t": 5111.9,
+      "text": "One week for completed one and like one month for the failed one",
+      "why_it_matters": "Specifies the exact retention period for different message states in the message table.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 416.2,
+      "kind": "other",
+      "text": "we plan to create a pull request to Microsoft, so this will be part in its original repo for the Microsoft"
+    },
+    {
+      "t": 2282.1,
+      "kind": "preview",
+      "text": "Business Events still in preview after a couple of years"
+    },
+    {
+      "t": 2572.9,
+      "kind": "preview",
+      "text": "I think we know the reason why it's still in preview. It's not instantaneously. There can be cases, which is ..."
+    },
+    {
+      "t": 2662.5,
+      "kind": "other",
+      "text": "we hoping and we pushing Microsoft to hopefully they will fix it because from our perspective, nothing like this is acceptable."
+    },
+    {
+      "t": 3796.2,
+      "kind": "other",
+      "text": "Your knowledge base or the repo on the BC quality one is like a living document"
+    },
+    {
+      "t": 3870.8,
+      "kind": "other",
+      "text": "I can't like confirm it correctly without running it"
+    },
+    {
+      "t": 4089.2,
+      "kind": "coming-later",
+      "text": "within like few weeks time the let me the knowledge that we created will be on the BC quality one"
+    },
+    {
+      "t": 4144.3,
+      "kind": "not-in-this-release",
+      "text": "No, it's That's actually been stopped, the FTP client. So, there won't be a typical client in Business Central."
+    },
+    {
+      "t": 5039.4,
+      "kind": "other",
+      "text": "all of this code would be open source"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 51,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 48
+  },
+  "windows": 7,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

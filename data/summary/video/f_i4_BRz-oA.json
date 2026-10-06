@@ -1,0 +1,28 @@
+{
+  "video_id": "f_i4_BRz-oA",
+  "item_id": "video/yt-mibuso/f_i4_BRz-oA",
+  "summary": "Cloud migration from BC 14 and other SQL sources to Business Central SaaS: the BC 14 re-implementation tool, its AL extension framework (migrator enums, interfaces, extension points), and custom migration providers and table mappings. Includes demos and limits on data, companies and permissions.",
+  "overview": "The session covers how customers on BC 14 and below can move directly to BC SaaS using a re-implementation tool. It moves a subset of data and starts the customer fresh in SaaS. It uses Azure Data Factory replication from SQL to SQL. The demo shows the Cloud Migration Management page, replication and upgrade progress tracking, and inline error fixing so a failed upgrade no longer means redoing everything.\n\nThe second half is for developers. It describes 52 migration entities registered through extensible enums and a BC14 Migrator interface, more than 165 extension points, migrator hooks, and migration plan customization through events. It also covers historical data in a separate task worker, custom migration providers, replication and setup table mappings, on-premises testing with configuration packages, and Q&A limits on large tables, multi-company migration, and permission sets.",
+  "key_points": [
+    "The BC 14 re-implementation tool moves a subset of data directly to the latest BC SaaS, skipping intermediate versions. It is not a traditional upgrade.",
+    "Replication uses Azure Data Factory SQL-to-SQL copy. Tables with matching schemas are copied directly, and buffer tables are used when schemas differ.",
+    "52 migration entities (setup, master, transaction, historical) are registered through extensible enums, and each migrator implements the BC14 Migrator interface. Partners can add, replace or extend them.",
+    "Subscribers can skip migrators with the before-run event, add logging with the after-run event, and reorder or inject migrators by setting the changed flag in the populate events.",
+    "Custom providers need a company table with matching structure, a custom migration provider interface implementation, and an extension of the custom migration provider enum.",
+    "Field mapping requires identical field names, because there is no field-to-field mapping. Permission sets and user profiles cannot be migrated from BC 14 to SaaS and need custom AL code.",
+    "Once data transformation starts, the BC 14 tool blocks further replication from the source. Migrating extra companies into a live tenant is risky and not advised. A 700 GB table in 24 hours was called extreme."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "e941ae6ada1a0441bd246f08dae429d4e0871e33a9fde7e2917a7d50ec01f6b4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0412304
+  }
+}

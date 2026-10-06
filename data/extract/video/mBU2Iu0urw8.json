@@ -1,0 +1,1351 @@
+{
+  "video_id": "mBU2Iu0urw8",
+  "item_id": "video/yt-mibuso/mBU2Iu0urw8",
+  "title": "Microsoft presents: Agentic development with AL developer tools and ALMCP deep dive",
+  "duration_s": 2700,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "agentic development",
+    "agent modes",
+    "skills",
+    "tools",
+    "mcp server",
+    "almcp",
+    "visual studio code",
+    "debugging",
+    "al development",
+    "language model tools api",
+    "agentic workflows",
+    "language server protocol"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 53.7
+    },
+    {
+      "title": "Agent Modes - Agent, Ask, and Plan",
+      "t_start": 53.7,
+      "t_end": 143.1
+    },
+    {
+      "title": "Custom Agents and Skills",
+      "t_start": 143.1,
+      "t_end": 210.7
+    },
+    {
+      "title": "Tools and the Agentic Loop",
+      "t_start": 210.7,
+      "t_end": 304.2
+    },
+    {
+      "title": "Tool Categories and Discovery",
+      "t_start": 304.2,
+      "t_end": 401
+    },
+    {
+      "title": "Demo Setup and Agent Invocation",
+      "t_start": 401,
+      "t_end": 627.2
+    },
+    {
+      "title": "Code Generation and Building",
+      "t_start": 627.2,
+      "t_end": 691.2
+    },
+    {
+      "title": "Debugging and Troubleshooting with Agents",
+      "t_start": 691.2,
+      "t_end": 854.5
+    },
+    {
+      "title": "ALMCP Server and Editor Support",
+      "t_start": 854.5,
+      "t_end": 967.8
+    },
+    {
+      "title": "ALMCP with GitHub Copilot CLI Demo",
+      "t_start": 967.8,
+      "t_end": 1155.9
+    },
+    {
+      "title": "Tooling across Surfaces and LSP Introduction",
+      "t_start": 1155.9,
+      "t_end": 1213.6
+    },
+    {
+      "title": "Language Server Protocol Benefits and Comparison",
+      "t_start": 1213.6,
+      "t_end": 1332.9
+    },
+    {
+      "title": "LSP Configuration, Endpoints and Evaluation Framework",
+      "t_start": 1332.9,
+      "t_end": 1552.5
+    },
+    {
+      "title": "Agent Evaluation Methodology and Agentic Workflows",
+      "t_start": 1552.5,
+      "t_end": 1747.4
+    },
+    {
+      "title": "BC Fix Workflow Architecture and RAL Loop Technique",
+      "t_start": 1747.4,
+      "t_end": 1949.8
+    },
+    {
+      "title": "Live Demo Setup and BC Fix Baseline Test Creation",
+      "t_start": 1949.8,
+      "t_end": 2171.8
+    },
+    {
+      "title": "Demo Phase 4: Bug Fix Implementation and Test Verification",
+      "t_start": 2171.8,
+      "t_end": 2280.9
+    },
+    {
+      "title": "Takeaways, Q&A and Agent Failure Handling",
+      "t_start": 2280.9,
+      "t_end": 2475
+    },
+    {
+      "title": "Performance Management and Pull Request Review Workflow",
+      "t_start": 2475,
+      "t_end": 2680
+    },
+    {
+      "title": "Closing Remarks",
+      "t_start": 2680,
+      "t_end": 2700
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Mode",
+      "description": "Multi-step operation mode for agents that can handle complex workflows from simple operations to multi-day sessions with extended reasoning and tool usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.7,
+      "t_end": 85.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent mode",
+        "agentic development",
+        "multi-step operations"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Ask Mode",
+      "description": "Simple chat mode for simple question and answer interactions that do not extend over long periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.1,
+      "t_end": 95.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ask mode",
+        "chat mode",
+        "simple interactions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Plan Mode",
+      "description": "Mode for research and planning where the agent gathers information and creates a plan before execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 95.4,
+      "t_end": 112.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "plan mode",
+        "research",
+        "planning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom Agents",
+      "description": "User-defined agents specified in markdown files with front matter containing name, description, tools, skills, knowledge, and system prompt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.9,
+      "t_end": 137.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "custom agents",
+        "markdown configuration",
+        "agentic development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Skills",
+      "description": "Reusable workflow definitions or prompts that capture a set of steps for agents to execute. They are loaded on demand and do not consume context window space initially.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.1,
+      "t_end": 180.7,
+      "is_demoed": false,
+      "caveats": [
+        "Skills are loaded on demand"
+      ],
+      "tags": [
+        "skills",
+        "reusable workflows",
+        "context efficiency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC Quality Repository Skills",
+      "description": "GitHub repository where skills and knowledge for agents are captured and shared, including contributions from Microsoft and the community.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.7,
+      "t_end": 200.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "skills repository",
+        "github",
+        "community contributions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Tools",
+      "description": "Tools enable agents to modify and interact with their environments through discovery and reasoning. Agents analyze tasks, decide which tools to call, receive results, and continue reasoning in the agentic loop.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.7,
+      "t_end": 261.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tools",
+        "agentic loop",
+        "environment interaction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Language Model Tools API",
+      "description": "API mechanism specific to Visual Studio Code that exposes tools for coding agents out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.3,
+      "t_end": 292.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "language model tools api",
+        "visual studio code",
+        "tool exposure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "MCP Servers for AL Development",
+      "description": "Model Context Protocol servers providing tools for AL development, including troubleshooting tools available during debugging sessions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 292.6,
+      "t_end": 355.8,
+      "is_demoed": true,
+      "caveats": [
+        "Troubleshooting tools only available during debugging"
+      ],
+      "tags": [
+        "mcp",
+        "mcp servers",
+        "al development tools"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Build Tool",
+      "description": "Agent tool for building AL applications. Can build a specific app, a graph of apps, or all apps in the workspace.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 315,
+      "t_end": 325.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "build tool",
+        "app compilation",
+        "workspace building"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Symbol and Relationship Tools",
+      "description": "Tools that expose symbols and relationships between them, allowing agents to query code before taking action to find efficient solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325.3,
+      "t_end": 335.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "symbol tools",
+        "code analysis",
+        "relationship discovery"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Publishing and Debugging Tools",
+      "description": "Tools for publishing AL apps and debugging applications during development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 335.8,
+      "t_end": 345.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "publishing",
+        "debugging",
+        "deployment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Tools",
+      "description": "Tools for testing AL applications that integrate with Visual Studio Code's test runner.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.8,
+      "t_end": 355.8,
+      "is_demoed": false,
+      "caveats": [
+        "Integrate with Visual Studio Code test runner"
+      ],
+      "tags": [
+        "test tools",
+        "testing integration",
+        "test runner"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Troubleshooting Tools",
+      "description": "MCP server-based tools available during debugging sessions for investigating issues, accessing source code, stack frames, variables, and database statistics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 355.8,
+      "t_end": 368.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only available during debugging sessions"
+      ],
+      "tags": [
+        "troubleshooting",
+        "debugging",
+        "mcp server"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Tool Discovery and Invocation",
+      "description": "Agents discover tools and automatically decide which ones to call based on task descriptions. Users can also reference tools directly in chat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 381.8,
+      "t_end": 401,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tool discovery",
+        "tool invocation",
+        "natural language"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approval Workflow",
+      "description": "Configuration for agent tool execution with options for varying levels of autonomy including bypass approval for automatic tool execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 515.2,
+      "t_end": 544.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires trust in available tools and consideration of security versus autonomy"
+      ],
+      "tags": [
+        "approval workflow",
+        "autonomy",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Context Size Configuration",
+      "description": "Agent configuration allowing users to define context size, enabling agents to accumulate more information before compacting or summarizing context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 498.5,
+      "t_end": 515.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "context size",
+        "context management",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Reasoning Model Selection",
+      "description": "Agent configuration allowing selection of reasoning model and type for different problem-solving approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 487.8,
+      "t_end": 498.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "model selection",
+        "reasoning type",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "ALMCP Server",
+      "description": "Server exposing AL development tools as MCP protocol endpoints, available as a .NET tool installable via NuGet. Covers scenarios beyond Visual Studio Code including CLI usage and includes extra tools for authentication and running tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 875.9,
+      "t_end": 946.2,
+      "is_demoed": true,
+      "caveats": [
+        "available as pre-release flag for latest features"
+      ],
+      "tags": [
+        "almcp server",
+        "tool exposure",
+        "cross-editor support",
+        "mcp server",
+        "nuget"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL CLI Tool",
+      "description": "A .NET tool installable via NuGet that provides AL command access everywhere once imported. Can be used to compile apps, query information, and launch the MCP server for AL. Also used to call the AL compiler (ALC).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 917,
+      "t_end": 959.9,
+      "is_demoed": true,
+      "caveats": [
+        "pre-release flag available for latest features"
+      ],
+      "tags": [
+        "al tool",
+        "nuget",
+        "cli",
+        "ci/cd pipeline"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent database statistics access",
+      "description": "The agent has access to all database statistics and SQL statements for investigating performance issues and inefficient patterns in code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788,
+      "t_end": 810.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "performance analysis",
+        "database statistics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent stack trace analysis",
+      "description": "Agent can call get stack frames and get variables to analyze code execution and identify issues like whitespace problems that need fixing with methods like trim.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 824.9,
+      "t_end": 854.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "stack frames",
+        "variables",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ALMCP GitHub Copilot integration",
+      "description": "ALMCP server can be registered and configured in GitHub Copilot to enable agents to discover and use AL tools including project management, authentication, compilation, and symbol handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 994,
+      "t_end": 1090.7,
+      "is_demoed": true,
+      "caveats": [
+        "agent may discover AL tool and try using ALC directly, requiring instructions to redirect to ALMCP"
+      ],
+      "tags": [
+        "github copilot",
+        "mcp integration",
+        "agent tools"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Language Server Protocol (LSP) for AL",
+      "description": "LSP provides agents with in-depth semantic understanding of AL language development through endpoints like go to definition, find references, formatting, and renaming. Introduced by Visual Studio Code team in 2016.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1187.1,
+      "t_end": 1383.7,
+      "is_demoed": true,
+      "caveats": [
+        "LSP provides subset of commands compared to full AL tools",
+        "requires package cache path configuration"
+      ],
+      "tags": [
+        "lsp",
+        "semantic understanding",
+        "language server protocol",
+        "code editing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LSP folding range endpoint",
+      "description": "LSP endpoint that enables folding of code sections such as layout sections in pages, allowing agents to scope their analysis to specific regions rather than searching all code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1395.4,
+      "t_end": 1412.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "lsp endpoints",
+        "code scoping",
+        "folding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LSP vs text-based search accuracy",
+      "description": "Demonstration comparing LSP-based symbol finding with grep text-based search showed 80% mismatch rate when finding references to number fields on customer table, illustrating LSP accuracy advantage for code modifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1438.7,
+      "t_end": 1480,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lsp accuracy",
+        "symbol finding",
+        "code modifications",
+        "performance comparison"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BCbench evaluation framework",
+      "description": "Evaluation framework based on SWE bench that contains real bugs from actual commits to verify coding agents don't cause regressions. Uses hidden tests for verification of bug fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1491,
+      "t_end": 1589.8,
+      "is_demoed": false,
+      "caveats": [
+        "based on real commits that must contain both fix and test",
+        "runs evaluation five times due to LLM nondeterminism"
+      ],
+      "tags": [
+        "evaluation",
+        "benchmarking",
+        "bug fixing",
+        "testing",
+        "regression prevention"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Hidden test verification method",
+      "description": "BCbench uses hidden tests from actual commits to verify agent-generated fixes. Tests are run against agent-generated code after time-traveling to before the original commit, ensuring agent knowledge of neither fix nor test.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1520.2,
+      "t_end": 1603.3,
+      "is_demoed": false,
+      "caveats": [
+        "requires commits with both fix and test",
+        "nondeterministic results require five runs averaged"
+      ],
+      "tags": [
+        "verification",
+        "hidden tests",
+        "bug fixing validation",
+        "evaluation methodology"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agentic workflow",
+      "description": "A sequence of steps calling tools, instructions, and skills that guides agents toward a specific purpose. Used in bug fixing agents to systematically solve problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1657.8,
+      "t_end": 1674.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agentic workflow",
+        "agent orchestration",
+        "tools and skills"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Baseline model performance with tools and instructions",
+      "description": "Evaluation baseline shows 67% bug fixing success rate with base model. Adding tools improved to 71%, then instructions moved toward 100% target, demonstrating additive value of tools and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1615.8,
+      "t_end": 1646.8,
+      "is_demoed": false,
+      "caveats": [
+        "percentages show relative improvement; exact final target percentage not stated"
+      ],
+      "tags": [
+        "evaluation results",
+        "baseline performance",
+        "tools and instructions",
+        "bug fixing success rate"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agentic workflow framework",
+      "description": "A sequence of steps calling tools, instructions and skills toward a purpose. The framework emphasizes reusability, consistency, token efficiency, composability and portability of skills across workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1657.8,
+      "t_end": 1747.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow",
+        "architecture",
+        "skills",
+        "tools",
+        "composability"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "RAL loop technique",
+      "description": "A technique for agentic task execution with specified success criteria. The agent verifies criteria, and if not met, restarts the loop with additional changes. Supports configurable maximum attempts to enable recovery without immediate failure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1899.7,
+      "t_end": 1949.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires specification of success criteria per task"
+      ],
+      "tags": [
+        "retry logic",
+        "success criteria",
+        "recovery",
+        "loop"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC fix skill",
+      "description": "A workflow skill for bug fixing that guides the agent through planning, test creation, and fix implementation. Contains sub-skills for different workflow phases and supports entry points for direct plan input or interactive planning mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1784.6,
+      "t_end": 2036.6,
+      "is_demoed": true,
+      "caveats": [
+        "Complexity arises from reusable sub-skills shared across workflows",
+        "Context rot mitigation requires sub-agents to avoid exploding context"
+      ],
+      "tags": [
+        "bug fixing",
+        "workflow",
+        "skills",
+        "test-driven",
+        "sub-agents"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC fix baseline skill",
+      "description": "A sub-skill within BC fix workflow that creates failing test cases to reproduce bug conditions. Uses RAL loop with success criteria requiring tests to fail according to actual error in GitHub issue, not random failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1909.7,
+      "t_end": 2171.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires accurate error matching from GitHub issues",
+        "Can iterate up to maximum attempts"
+      ],
+      "tags": [
+        "test creation",
+        "bug reproduction",
+        "sub-agent",
+        "tdd"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC fix implement skill",
+      "description": "A sub-skill for implementing bug fixes and verifying through test passage. Runs as separate sub-agent to avoid context rot, applies fixes iteratively until tests pass using TDD pattern.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2191.8,
+      "t_end": 2280.9,
+      "is_demoed": true,
+      "caveats": [
+        "Runs on Claude Sonnet 4.6 for cost efficiency",
+        "Requires test suite to validate fixes"
+      ],
+      "tags": [
+        "bug fix",
+        "test-driven",
+        "sub-agent",
+        "tdd"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC test implement agent",
+      "description": "A standalone general-purpose agent that implements test coverage for features. Can be used independently or injected into BC fix workflow. Supports test automation without specific workflow dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1857.4,
+      "t_end": 1877.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test automation",
+        "coverage",
+        "standalone"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL developer session skill (BCLdev session)",
+      "description": "A workflow skill that reads GitHub issue context, sets up the development environment, and orchestrates sub-skills for the bug fixing workflow. Serves as the main orchestrator for the BC fix workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1784.6,
+      "t_end": 1834.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github integration",
+        "environment setup",
+        "orchestration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP tools integration",
+      "description": "Integration of MCP (Model Context Protocol) tools with AL development workflows. Enables agents to access LSP (Language Server Protocol), build, test, and publish capabilities through MCP server tooling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1800.6,
+      "t_end": 2243.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires MCP server configuration with launch parameters"
+      ],
+      "tags": [
+        "mcp",
+        "lsp",
+        "tools",
+        "build",
+        "publish"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent evaluation methodology",
+      "description": "Approach to validate agent-generated code using hidden test suites. Evaluates single variables iteratively against baseline model, tools, and instructions. Runs multiple iterations to account for LLM nondeterminism and averages results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1589.8,
+      "t_end": 1646.8,
+      "is_demoed": false,
+      "caveats": [
+        "LLM nondeterminism requires multiple runs (e.g., five iterations)",
+        "Cannot verify correctness through LLM alone",
+        "Requires separate test infrastructure"
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "validation",
+        "metrics"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sub-agent context isolation",
+      "description": "Technique to run specialized agents in isolated sessions to avoid context rot. Passes only necessary state (plan, test results) to sub-agents rather than full conversation history.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2036.6,
+      "t_end": 2280.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful state file management",
+        "May use different models for cost optimization"
+      ],
+      "tags": [
+        "sub-agents",
+        "context management",
+        "isolation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Session retrospective skill",
+      "description": "A skill for analyzing agent failure modes when bugs cannot be fixed. Summarizes agent attempts and identifies what was tried and what remains to try, reducing manual review of all attempts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2432,
+      "t_end": 2463.9,
+      "is_demoed": false,
+      "caveats": [
+        "Does not check all possible attempts due to time constraints",
+        "May still fail on complex problems"
+      ],
+      "tags": [
+        "agent",
+        "failure handling",
+        "retrospective"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central performance profile tool",
+      "description": "A tool for implementing tests that run on large data sets and enabling profiler to identify long-running SQL queries and performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2539.7,
+      "t_end": 2568.9,
+      "is_demoed": false,
+      "caveats": [
+        "Profiler reading by agents is not yet implemented in workflows",
+        "Performance evaluation recommended before production"
+      ],
+      "tags": [
+        "performance profiling",
+        "testing",
+        "scalability"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent-assisted telemetry analysis",
+      "description": "Ability to run multiple concurrent sessions and feed telemetry logs to agents to analyze performance issues and identify problematic code lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2568.9,
+      "t_end": 2605.5,
+      "is_demoed": true,
+      "caveats": [
+        "Post-production analysis only in current workflow",
+        "Requires human interpretation before implementation"
+      ],
+      "tags": [
+        "telemetry",
+        "agent",
+        "performance analysis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent pull request commenting",
+      "description": "Agent automatically adds comments to pull requests based on code review categories such as bug fixing and test coverage. Agent can assess comment relevance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2637.8,
+      "t_end": 2679.1,
+      "is_demoed": false,
+      "caveats": [
+        "Human review still required for pull request approval",
+        "Additional loop needed to handle pipeline gate failures"
+      ],
+      "tags": [
+        "pull request",
+        "code review",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom AL code analyzers with MCP server",
+      "description": "Configure code analyzers on the LSP connection which will analyze and check the code during project building.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2370.6,
+      "t_end": 2396.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires launching MCP server with specific parameters"
+      ],
+      "tags": [
+        "code analysis",
+        "lsp",
+        "mcp",
+        "configuration"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "page (shown in demo for JSON parsing)",
+      "t": 432.2
+    },
+    {
+      "type": "codeunit",
+      "name": "process from JSON method",
+      "t": 443.6
+    },
+    {
+      "type": "other",
+      "name": "process entry method",
+      "t": 443.6
+    },
+    {
+      "type": "other",
+      "name": "trim method",
+      "t": 836.2
+    },
+    {
+      "type": "other",
+      "name": "lookup method",
+      "t": 627.2
+    },
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 1286.6
+    },
+    {
+      "type": "other",
+      "name": "AL command",
+      "t": 1332.9
+    },
+    {
+      "type": "other",
+      "name": "ALC",
+      "t": 946.2
+    },
+    {
+      "type": "other",
+      "name": "BCLdev session",
+      "t": 1784.6
+    },
+    {
+      "type": "other",
+      "name": "BC fix baseline",
+      "t": 1887.6
+    },
+    {
+      "type": "other",
+      "name": "BC fix implement",
+      "t": 1857.4
+    },
+    {
+      "type": "other",
+      "name": "BC fix supplement",
+      "t": 1887.6
+    },
+    {
+      "type": "other",
+      "name": "BC test implement",
+      "t": 1857.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Thomas",
+      "confidence": "high"
+    },
+    {
+      "name": "Quinton",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 66.6,
+      "text": "with the agent mode, you can have this multi-step operation where you can take it from a small simple operation ...",
+      "why_it_matters": "Defines the scope and capability of agent mode for handling complex, extended workflows",
+      "check": "exact"
+    },
+    {
+      "t": 112.9,
+      "text": "we can also make our own custom agents. The the beauty of this is that it's all just a markdown file",
+      "why_it_matters": "Shows the simplicity and accessibility of creating custom agents using markdown configuration",
+      "check": "exact"
+    },
+    {
+      "t": 163.5,
+      "text": "it doesn't take space in your context window. All it is from uh for loading it for the agent to begin with is a",
+      "why_it_matters": "Explains the efficiency benefit of skills in not consuming context window space upfront",
+      "check": "exact"
+    },
+    {
+      "t": 210.7,
+      "text": "what has been truly a gamecher with agents in comparison to the chat modes that we've seen in the past is their ability to",
+      "why_it_matters": "Identifies the core differentiator between agents and previous chat-based systems",
+      "check": "exact"
+    },
+    {
+      "t": 230.9,
+      "text": "it will discover them and as soon as you give them a task it will reason over that task what it has to do",
+      "why_it_matters": "Describes the agentic loop mechanism for tool discovery and autonomous tool selection",
+      "check": "exact"
+    },
+    {
+      "t": 355.8,
+      "text": "Those ones are uh the ones that are coming from a dedicated MCP server and that one is only available when you're debugging",
+      "why_it_matters": "Clarifies the availability constraints of troubleshooting tools in the MCP server",
+      "check": "exact"
+    },
+    {
+      "t": 529.1,
+      "text": "for this demo I'll just switch into this bypass approval which means that all the tools will be uh automatically approved",
+      "why_it_matters": "Explains approval workflow configuration and the security-autonomy tradeoff in agent setup",
+      "check": "exact"
+    },
+    {
+      "t": 799.8,
+      "text": "the agent can see all the different SQL statements that were done based on this",
+      "why_it_matters": "Demonstrates agent capability to access database statistics for performance troubleshooting beyond just behavioral bugs.",
+      "check": "exact"
+    },
+    {
+      "t": 888.3,
+      "text": "we decided to expose all of those tools as part of the ALMCP server. It contains very similar tools to the one we've just",
+      "why_it_matters": "Announces the expansion of tools beyond Visual Studio Code through the ALMCP server for broader editor and CLI support",
+      "check": "exact"
+    },
+    {
+      "t": 899,
+      "text": "It contains very similar tools to the one we've just seen in Visual Studio, but it also contains extra one that covered the covers",
+      "why_it_matters": "Explains that ALMCP provides additional tools beyond VS Code capabilities, including authentication and testing support.",
+      "check": "exact"
+    },
+    {
+      "t": 1155.9,
+      "text": "we have one tool set here that we've decided that we've exposed through multiple surfaces",
+      "why_it_matters": "Key design decision to expose AL tools consistently across Visual Studio Code, ALMCP, and CI/CD pipelines.",
+      "check": "exact"
+    },
+    {
+      "t": 1201.2,
+      "text": "when it comes to developing your extension, it would be nice that the agent actually had in-depth knowledge about how ...",
+      "why_it_matters": "Justifies LSP adoption for providing semantic understanding to agents for better code development accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 1452.6,
+      "text": "here there was a uh a mismatch of 80%. So that would means if you asked it to rename this field, it would miss",
+      "why_it_matters": "Quantifies the significant accuracy improvement LSP provides over text-based grep searching for code modifications.",
+      "check": "exact"
+    },
+    {
+      "t": 1540.6,
+      "text": "if we evaluate bug fixing they should contain the fix and the test and we call that test the hidden tests",
+      "why_it_matters": "Defines the evaluation methodology requirement for BCbench to properly verify agent-generated bug fixes.",
+      "check": "exact"
+    },
+    {
+      "t": 1626.7,
+      "text": "we have a baseline from the model 67% of all the bugs result fantastic we added a two on top of this one and",
+      "why_it_matters": "Shows measurable improvement trajectory from baseline 67% through tools to instructions, demonstrating additive value.",
+      "check": "exact"
+    },
+    {
+      "t": 1657.8,
+      "text": "The agentic workflow is that a a sequence of several steps and then calling the tools and the instructions and the skills that gets",
+      "why_it_matters": "Defines the core concept of agentic workflows as orchestrated sequences of tools and skills, central to the development pattern being presented.",
+      "check": "exact"
+    },
+    {
+      "t": 1696.6,
+      "text": "the important agendic workflow objectives, the first reusability when you have a a skill, the sole purpose of that skill is that you're going",
+      "why_it_matters": "Articulates the design principle that skills must be reusable across different workflows, enabling composable development patterns.",
+      "check": "exact"
+    },
+    {
+      "t": 1724.4,
+      "text": "Token efficiency obviously uh you know how the agent does it will try to produce something then if it fails it tries to recover",
+      "why_it_matters": "Highlights cost and efficiency concerns when agents retry repeatedly by re-sending full context, motivating the need for skills that encapsulate learnings.",
+      "check": "exact"
+    },
+    {
+      "t": 1899.6,
+      "text": "you can specify the success criteria for the specific task and the specific scale. You're basically saying agent hey here is how the success",
+      "why_it_matters": "Explains the RAL loop technique which allows agents to self-verify task completion and retry, a key mechanism for reliable agentic workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1984.6,
+      "text": "I have two entry points. I have entry point A. If I do not specify the plan, it will get me to the planning",
+      "why_it_matters": "Demonstrates workflow flexibility with multiple entry points, allowing both interactive planning and direct plan-driven execution.",
+      "check": "exact"
+    },
+    {
+      "t": 2054.1,
+      "text": "you can pay attention it's running on the cloud sonet 4.6 there is a reason for this one I want ...",
+      "why_it_matters": "Shows model selection strategy for cost optimization, using frontier models for complex planning phases and cheaper models when full context is already captured in the plan.",
+      "check": "exact"
+    },
+    {
+      "t": 2321,
+      "text": "tools drive your development if you don't use the tools you basically let agent to produce the code and how you verify that it",
+      "why_it_matters": "Emphasizes the critical role of tools in agentic development to enable verification and move beyond pure code generation.",
+      "check": "exact"
+    },
+    {
+      "t": 2341.1,
+      "text": "if you want to get it to the production level don't forget about the evaluation because you want to make sure that it is",
+      "why_it_matters": "Stresses the importance of evaluation methodologies for production-readiness, ensuring consistency beyond experimental workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 2341.1,
+      "text": "but then if you want to get it to the production level don't forget about the evaluation because you want to make sure that",
+      "why_it_matters": "Emphasizes the importance of evaluation before production deployment to ensure solution consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 2442.6,
+      "text": "It's called like a session retrospective. So I'm trying to okay what went wrong? What do you have tried and what do you need",
+      "why_it_matters": "Describes the agent's approach to handling failed solution attempts by summarizing attempts rather than checking all possibilities.",
+      "check": "exact"
+    },
+    {
+      "t": 2512.9,
+      "text": "The really question what I have is will it also work with three data sets with or with three million data sets and that's",
+      "why_it_matters": "Raises critical concern about scalability and whether solutions work with large data sets, not just small test sets.",
+      "check": "exact"
+    },
+    {
+      "t": 2539.7,
+      "text": "So first I think we have business central performance profile tool",
+      "why_it_matters": "Identifies existing tool for performance testing on large data sets as foundation for agent-assisted optimization.",
+      "check": "exact"
+    },
+    {
+      "t": 2568.9,
+      "text": "We are not doing this right away. We don't have a workflow for this one but we have it in mind",
+      "why_it_matters": "Acknowledges gap in current implementation - profiler reading by agents is planned but not yet implemented.",
+      "check": "exact"
+    },
+    {
+      "t": 2651.4,
+      "text": "we use the agent to add the comments to your pull requests",
+      "why_it_matters": "Describes automation of code review comments via agents while maintaining human review requirement.",
+      "check": "exact"
+    },
+    {
+      "t": 2679.1,
+      "text": "there's going to be pipeline behind this. Um so we need probably to add like another loop to make sure that agent can help",
+      "why_it_matters": "Identifies planned future enhancement to extend agent assistance through pipeline failure handling.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 917,
+      "kind": "preview",
+      "text": "you can also specify the pre-release flag so that you get access to the latest uh bits that we're shipping"
+    },
+    {
+      "t": 1949.8,
+      "kind": "preview",
+      "text": "I'm going to skip the planning mode completely. It was shown in the keynote very fast."
+    },
+    {
+      "t": 2070.2,
+      "kind": "other",
+      "text": "It's probably going to run on the hik model as well. I haven't tested this one. That's exactly why we need BCbench for this."
+    },
+    {
+      "t": 2280.9,
+      "kind": "other",
+      "text": "the part that I will um I'm going to skip I think for the pull request I have the small ..."
+    },
+    {
+      "t": 2568.9,
+      "kind": "not-in-this-release",
+      "text": "We are not doing this right away. We don't have a workflow for this one but we have it in mind"
+    },
+    {
+      "t": 2679.1,
+      "kind": "coming-later",
+      "text": "we need probably to add like another loop to make sure that agent can help with the failures in the gates"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 30,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 45
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

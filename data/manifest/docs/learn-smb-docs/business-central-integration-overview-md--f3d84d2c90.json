@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/integration-overview",
   "published_at": "2026-06-19T13:58:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5b3947c6acddf69ec680554cf81c8cdd265bd230",
       "words": 1139,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.820Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:54.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:54.504Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:54.505Z",
+      "page": false
     }
   },
   "input_hash": "5b3947c6acddf69ec680554cf81c8cdd265bd230",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b3947c6acddf69ec680554cf81c8cdd265bd230"
+  "output_hash": "648b39f16a018022f8972e2f9bd9393d9c4a95cf5be6f7e004684b3ba7888b4b"
 }

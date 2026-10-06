@@ -1,0 +1,27 @@
+{
+  "video_id": "mBU2Iu0urw8",
+  "item_id": "video/yt-mibuso/mBU2Iu0urw8",
+  "summary": "Agentic AL development in Visual Studio Code and via the ALMCP server: agent modes, skills, tools, debugging, LSP for AL, the BCbench evaluation framework, and a BC fix workflow using a RAL loop and sub-agents. Includes demos with GitHub Copilot CLI.",
+  "overview": "The session covers how coding agents work with AL tools. It explains Agent, Ask and Plan modes, custom agents defined in markdown files, skills loaded on demand, and the agentic loop where an agent picks tools, reads results and continues. Demos show building, publishing, debugging and troubleshooting, including access to stack frames, variables and database statistics during a debug session.\n\nThe second half covers the ALMCP server and AL CLI tool (.NET tools installable via NuGet), registering ALMCP in GitHub Copilot CLI, and the Language Server Protocol for AL. It then covers BCbench, which uses hidden tests from real commits, and a BC fix workflow built from sub-skills with a RAL loop, sub-agent context isolation, a session retrospective skill, and notes on performance profiling and pull request comments.",
+  "key_points": [
+    "Custom agents are markdown files with front matter (name, description, tools, skills, knowledge, system prompt). Skills load on demand and do not use context window space up front.",
+    "Troubleshooting tools come from a dedicated MCP server and are only available during a debugging session. They expose source, stack frames, variables, and SQL statements and database statistics.",
+    "ALMCP server and AL CLI are .NET tools installed via NuGet, with a pre-release flag for the latest features. In GitHub Copilot the agent may call ALC directly, so instructions may be needed to redirect it to ALMCP.",
+    "LSP gives agents semantic endpoints such as go to definition, find references and rename. In the demo, grep missed about 80% of references to a number field on the Customer table. LSP needs a package cache path configured.",
+    "BCbench is based on SWE bench and real commits that contain both a fix and a test. It runs the hidden tests against agent fixes and averages five runs because of LLM nondeterminism. Baseline was 67%, and adding tools raised it to 71%.",
+    "The BC fix workflow uses a RAL loop with success criteria and a maximum number of attempts. The baseline skill creates a failing test, and the implement skill runs as a sub-agent on Claude Sonnet 4.6 to limit context rot and cost.",
+    "Pull request comments by an agent still need human approval. Profiler reading by agents is not yet in the workflows, and a loop for pipeline gate failures would need to be added."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "fc4fb76deef5c2feef15873002e95f7bd6fa78fe963d51c330f23952cff1f695",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.041588400000000005
+  }
+}

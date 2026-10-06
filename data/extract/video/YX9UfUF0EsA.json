@@ -1,0 +1,1174 @@
+{
+  "video_id": "YX9UfUF0EsA",
+  "item_id": "video/yt-mibuso/YX9UfUF0EsA",
+  "title": "Microsoft presents: Introducing M365 Copilot Chat in Business Central",
+  "duration_s": 2627,
+  "systems": [
+    "copilot",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "m365 copilot chat",
+    "business central integration",
+    "chat orchestration",
+    "agents",
+    "immersive experiences",
+    "data access",
+    "cross-product workflow",
+    "natural language processing",
+    "agentic loop",
+    "context passing",
+    "tools",
+    "skills"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 45.5
+    },
+    {
+      "title": "Copilot experiences in Business Central so far",
+      "t_start": 45.5,
+      "t_end": 223.6
+    },
+    {
+      "title": "Evolution from chat to agents and immersive experiences",
+      "t_start": 223.6,
+      "t_end": 307.7
+    },
+    {
+      "title": "Future vision: unified copilot platform",
+      "t_start": 307.7,
+      "t_end": 425.1
+    },
+    {
+      "title": "Demo: M365 Copilot chat in Business Central",
+      "t_start": 425.1,
+      "t_end": 660.8
+    },
+    {
+      "title": "Advanced capabilities and cross-product integration",
+      "t_start": 660.8,
+      "t_end": 908.6
+    },
+    {
+      "title": "Replacing old Copilot chat with M365 Copilot and architecture",
+      "t_start": 908.6,
+      "t_end": 1057.1
+    },
+    {
+      "title": "New M365 Copilot context and agentic loop capabilities",
+      "t_start": 1057.1,
+      "t_end": 1254.2
+    },
+    {
+      "title": "Tools approach and agentic loop execution",
+      "t_start": 1254.2,
+      "t_end": 1518.1
+    },
+    {
+      "title": "Cross-product integration and licensing requirements",
+      "t_start": 1518.1,
+      "t_end": 1723.9
+    },
+    {
+      "title": "Permission policies and admin controls",
+      "t_start": 1723.9,
+      "t_end": 1937.2
+    },
+    {
+      "title": "Read-only capabilities, timeline, and release planning",
+      "t_start": 1937.2,
+      "t_end": 2181.1
+    },
+    {
+      "title": "Preview access, version compatibility, and extensibility",
+      "t_start": 2181.1,
+      "t_end": 2453
+    },
+    {
+      "title": "External access, troubleshooting, and closing remarks",
+      "t_start": 2453,
+      "t_end": 2627
+    }
+  ],
+  "features": [
+    {
+      "name": "M365 Copilot chat in Business Central",
+      "description": "Integration of M365 Copilot chat as the home for all copilot experiences in Business Central, replacing the previous isolated BC chat with unified platform access to agents, co-work, and autopilots. Allows users to query business central data, access chat history across Microsoft 365 applications, and integrate with other Microsoft products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 425.1,
+      "t_end": 2453,
+      "is_demoed": true,
+      "caveats": [
+        "Business Central data querying only available when using Copilot inside BC",
+        "BC integration currently limited to within Business Central, not available in Outlook or Teams yet",
+        "Other Microsoft product integrations being brought on gradually",
+        "Read-only in first version",
+        "Requires Copilot license for full capability",
+        "Limited to BC 29 and later versions",
+        "Not available for on-premises",
+        "Full details on free access are TBD",
+        "Technical details of credit consumption still being determined",
+        "Replaces existing chat functionality"
+      ],
+      "tags": [
+        "copilot",
+        "chat",
+        "integration",
+        "unified platform",
+        "cross-suite integration",
+        "email reading",
+        "entity extraction",
+        "context-aware responses"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central data access from chat",
+      "description": "Ability to query and retrieve Business Central data through natural language questions in M365 Copilot chat, with citations and sourcing information provided. Read-only access to analyze data across tables and extract meaningful information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 470.6,
+      "t_end": 2580.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only available when using chat within Business Central",
+        "Does not query BC when accessed from Outlook or Teams",
+        "Cannot take actions in Business Central yet",
+        "Performance depends on data volume and tenant settings",
+        "Read-only queries only"
+      ],
+      "tags": [
+        "data access",
+        "natural language",
+        "inventory",
+        "business central specific",
+        "read-only",
+        "tables"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat history persistence across Microsoft 365",
+      "description": "Chat conversations conducted in M365 Copilot Chat within Business Central can be accessed and continued from Outlook, Teams, and other Microsoft 365 applications. Links and information from chat history remain accessible outside BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 635.3,
+      "t_end": 868.1,
+      "is_demoed": true,
+      "caveats": [
+        "BC data will not be queried when accessing chat from other applications",
+        "BC integration is limited to when you use Copilot inside Business Central"
+      ],
+      "tags": [
+        "chat persistence",
+        "cross-product",
+        "history",
+        "office integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Export copilot analysis to Word",
+      "description": "Ability to export charts, data analysis, and research conducted in M365 Copilot chat to Word documents with all links and gathered information preserved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 689.6,
+      "t_end": 735,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "word",
+        "collaboration",
+        "analysis"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Enhanced record summarization",
+      "description": "Improved ability to summarize and provide detailed information about Business Central records and pages through M365 Copilot, with metadata handling and richer responses. Summarization feature available on every page providing automatic document summarization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 223.6,
+      "t_end": 816.8,
+      "is_demoed": true,
+      "caveats": [
+        "Previously only returned small adaptive cards",
+        "Now provides more detailed information about records"
+      ],
+      "tags": [
+        "summarization",
+        "records",
+        "metadata",
+        "natural language",
+        "insights",
+        "pages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio agents integration",
+      "description": "Integration of Copilot Studio agents as part of the unified M365 Copilot chat experience in Business Central. Copilot Studio agents are fully supported and users can build agents to perform specific tasks like creating invoices and talk to those agents through M365 Copilot Chat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 883.4,
+      "t_end": 2309.8,
+      "is_demoed": false,
+      "caveats": [
+        "Integration strategy being developed gradually"
+      ],
+      "tags": [
+        "copilot-studio",
+        "agents",
+        "planned",
+        "extensibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LLM-powered bank reconciliation",
+      "description": "Use of large language models for intelligent bank statement reconciliation through semantic meaning comparison rather than exact text matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.7,
+      "t_end": 197.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bank reconciliation",
+        "llm",
+        "semantic matching"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "LLM-powered auto-fill",
+      "description": "Use of LLM technology to provide intelligent field suggestions based on semantic meaning rather than text matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 197.2,
+      "t_end": 211.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "auto-fill",
+        "llm",
+        "suggestions",
+        "semantic"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Sales order agent",
+      "description": "Agent that reads emails from Outlook and automatically creates sales orders, eliminating manual email chasing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 264.4,
+      "t_end": 283,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "agents",
+        "email",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Page and record context in Copilot chat",
+      "description": "The new Copilot chat now understands the page you are viewing and the specific record you are looking at, allowing it to respond contextually to questions about the data currently on screen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1069,
+      "t_end": 1106.6,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to when used inside Business Central"
+      ],
+      "tags": [
+        "context",
+        "metadata",
+        "page awareness"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Message attachments in M365 Copilot",
+      "description": "Users can now attach documents like invoices to their chat messages and ask Copilot questions about the information within those documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1118.9,
+      "t_end": 1131.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "documents",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agentic loop for multi-step queries",
+      "description": "The new M365 Copilot uses an agentic loop that can execute multiple tool calls sequentially to complete complex tasks, allowing it to ask itself whether more information is needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1146.6,
+      "t_end": 1182.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agentic",
+        "multi-step",
+        "tools",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central tools suite for Copilot",
+      "description": "A new suite of Business Central tools is provided for M365 Copilot including ability to retrieve data, get help, and read extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1159.8,
+      "t_end": 1169.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "tools",
+        "bc-integration",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Rich content delivery in Copilot responses",
+      "description": "M365 Copilot can now deliver rich content back to users including documents, Excel attachments, and videos instead of just text links. Copilot Chat now provides rich citations with links and video content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1192.4,
+      "t_end": 2056.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "rich-content",
+        "documents",
+        "excel",
+        "citations",
+        "video",
+        "accuracy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "M365 Copilot replaces Copilot chat in BC",
+      "description": "The existing Copilot chat in Business Central is being completely replaced with M365 Copilot, which includes all previous capabilities plus new features and cross-product integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 908.6,
+      "t_end": 924.2,
+      "is_demoed": true,
+      "caveats": [
+        "The previous Copilot chat is going away completely"
+      ],
+      "tags": [
+        "replacement",
+        "m365-copilot",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cross-product capability within M365 Copilot",
+      "description": "Users can carry conversations from Business Central to Outlook, Teams, and other Microsoft products, and M365 Copilot can alternate between BC tools and M365 tools to answer questions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 816.8,
+      "t_end": 868.1,
+      "is_demoed": true,
+      "caveats": [
+        "BC integration is limited to when you use Copilot inside Business Central"
+      ],
+      "tags": [
+        "cross-product",
+        "integration",
+        "outlook",
+        "teams"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot license requirement for M365 Copilot in BC",
+      "description": "To use M365 Copilot features in Business Central, including access to Copilot in other Microsoft products, users need a Copilot license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1663.3,
+      "t_end": 1707.8,
+      "is_demoed": false,
+      "caveats": [
+        "Using Copilot in Business Central does not mean you get access to the full suite of Copilot for free"
+      ],
+      "tags": [
+        "licensing",
+        "copilot-license"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Limited BC-only access investigation",
+      "description": "Microsoft is investigating whether to provide limited access to M365 Copilot for users with only BC licenses, operating only on BC data without full Copilot license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1691.2,
+      "t_end": 1707.8,
+      "is_demoed": false,
+      "caveats": [
+        "Details still being worked out",
+        "Official announcement pending"
+      ],
+      "tags": [
+        "licensing",
+        "bc-only data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Permission policy enforcement",
+      "description": "All M365 Copilot tools integrated with BC are executed as the user with their permission sets and access controls still applying. Data access and protection mechanisms remain unchanged.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1723.9,
+      "t_end": 1773.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "user execution",
+        "data protection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot access control via admin portal",
+      "description": "Administrators can control who has access to M365 Copilot through the Copilot and agent capabilities page with opt-in/opt-out options. Regional privacy controls available for integrations like Bing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1773.1,
+      "t_end": 1810.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin control",
+        "opt-in opt-out",
+        "regional privacy"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "M365 admin portal configuration for Copilot",
+      "description": "Administrators can configure M365 Copilot features through admin portal including workflow enablement, chat retention period, data loss protection, and SharePoint exposure limits. Chat history stored encrypted per regional requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1821.5,
+      "t_end": 1923.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin configuration",
+        "data loss protection",
+        "chat retention",
+        "encryption"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Audit logs with Purview integration",
+      "description": "Organizations can securely store audit logs for Copilot interactions through Purview integration, included with M365 Copilot chat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1871.5,
+      "t_end": 1896.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit logs",
+        "purview",
+        "compliance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Read-only Copilot Chat",
+      "description": "For the first version, M365 Copilot Chat in BC is read-only. Users can get guidance and suggestions on how to perform tasks but cannot directly create sales orders, items, or perform write actions in BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1937.2,
+      "t_end": 1961.2,
+      "is_demoed": false,
+      "caveats": [
+        "Future capabilities for write actions still TBD"
+      ],
+      "tags": [
+        "read-only",
+        "no create actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "M365 integrations from day one",
+      "description": "Various M365 integrations will be available from day one of M365 Copilot Chat in BC, including the ability to send emails through Outlook and other integrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1981.7,
+      "t_end": 2003.3,
+      "is_demoed": false,
+      "caveats": [
+        "Not necessarily performing tasks in client live"
+      ],
+      "tags": [
+        "m365 integration",
+        "email",
+        "outlook"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Studio agent integration for task automation",
+      "description": "Users can build Copilot Studio agents to perform specific tasks like creating invoices and talk to those agents through M365 Copilot Chat in BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1981.7,
+      "t_end": 2015.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "agents",
+        "extensibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Partner extension guidance for Copilot",
+      "description": "Partners should ensure extensions contain meaningful information by adding tooltips to fields, naming things well, and making page names more descriptive. These are used to train Copilot on how to use extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2056.1,
+      "t_end": 2094.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner",
+        "extensions",
+        "documentation",
+        "training"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bing Search integration for documentation",
+      "description": "M365 Copilot uses Bing Search to find answers from third-party documentation and the wider web. Partner content must be indexed by Bing to be discoverable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2094.8,
+      "t_end": 2127.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bing search",
+        "documentation",
+        "partner content"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MVP private preview access",
+      "description": "M365 Copilot Chat is currently in limited private preview for MVPs who can access it through Viva Engage.",
+      "status": "preview",
+      "status_evidence_t": 2141.6,
+      "status_evidence_quote": "we are actually already in a a limited private preview for MVPs.",
+      "status_evidence_verified": true,
+      "t_start": 2141.6,
+      "t_end": 2154.2,
+      "is_demoed": false,
+      "caveats": [
+        "MVP only at this stage"
+      ],
+      "tags": [
+        "mvp",
+        "private preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC 29 public release planned",
+      "description": "M365 Copilot Chat planned for public release in BC 29, expected sometime between October and April. Exact dates to be confirmed via LinkedIn and Viva Engage.",
+      "status": "announced",
+      "status_evidence_t": 2169.2,
+      "status_evidence_quote": "we're planning a public release for BC 29. I was allowed to disclose this at least. We're not exactly sure when.",
+      "status_evidence_verified": true,
+      "t_start": 2141.6,
+      "t_end": 2181.1,
+      "is_demoed": false,
+      "caveats": [
+        "Exact dates not confirmed",
+        "October to April timeframe"
+      ],
+      "tags": [
+        "bc 29",
+        "public release",
+        "announcement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Partner preview access before BC 29",
+      "description": "Partners can get access to private preview before official BC 29 rollout using partner sandbox license through early access sandboxes.",
+      "status": "announced",
+      "status_evidence_t": 2193,
+      "status_evidence_quote": "we are hoping to give access to to that preview in the coming months before the official rollout, of course.",
+      "status_evidence_verified": true,
+      "t_start": 2193,
+      "t_end": 2235.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires partner sandbox license",
+        "Via early access sandboxes"
+      ],
+      "tags": [
+        "partner preview",
+        "sandbox",
+        "early access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC 29 and later only",
+      "description": "M365 Copilot Chat is available from BC 29 onwards only. Not available for BC 28 and earlier versions, including on-premises BC 14.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2235.5,
+      "t_end": 2260.6,
+      "is_demoed": false,
+      "caveats": [
+        "No on-premises support"
+      ],
+      "tags": [
+        "version compatibility",
+        "bc 29",
+        "online saas"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "No custom tool addition currently",
+      "description": "At the moment, users cannot add their own tools to M365 Copilot Chat. The extensibility model is via Copilot Studio for building agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2278.5,
+      "t_end": 2309.8,
+      "is_demoed": false,
+      "caveats": [
+        "Future custom tools development unclear"
+      ],
+      "tags": [
+        "extensibility",
+        "no custom tools"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio as extensibility model",
+      "description": "The current extensibility model for M365 Copilot Chat is via Copilot Studio, where users can build agents to integrate with BC and M365 Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2278.5,
+      "t_end": 2309.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "agents",
+        "extensibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Credit consumption model under review",
+      "description": "Technical details of how M365 Copilot Chat uses Copilot license credits in BC are still being determined. Microsoft is looking into providing similar free access as current chat capabilities without requiring full Copilot license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2373.4,
+      "t_end": 2428.9,
+      "is_demoed": false,
+      "caveats": [
+        "Details TBD",
+        "Similar to Teams free read-only access model being explored"
+      ],
+      "tags": [
+        "licensing",
+        "credits",
+        "free access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "External Copilot Chat Access",
+      "description": "Users and managers want to access Business Central data through Copilot chat outside of Business Central interface to query information like item availability without opening Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2453,
+      "t_end": 2489.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires additional work beyond current implementation",
+        "Timeline unclear"
+      ],
+      "tags": [
+        "external access",
+        "copilot chat",
+        "roadmap"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Free Read-Only Access Model",
+      "description": "Aims to provide free read-only access to Business Central via Copilot similar to how Teams integration works, where users without Business Central license but with other Microsoft licenses can get limited access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2413,
+      "t_end": 2441.8,
+      "is_demoed": false,
+      "caveats": [
+        "Still being evaluated and designed",
+        "Full details TBD"
+      ],
+      "tags": [
+        "licensing",
+        "free access",
+        "read-only",
+        "teams integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Troubleshooting and Data Analysis",
+      "description": "Copilot can read-only access tables to help trace issues like incorrect invoice calculations by querying and analyzing data across multiple sources. Currently limited to read-only operations and cannot take actions in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2504.7,
+      "t_end": 2580.1,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot take actions in Business Central yet",
+        "Performance depends on data volume and tenant settings",
+        "Read-only queries only"
+      ],
+      "tags": [
+        "troubleshooting",
+        "data analysis",
+        "read-only",
+        "tables"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "inventory table",
+      "t": 518.2
+    },
+    {
+      "type": "page",
+      "name": "sales order list",
+      "t": 1214.2
+    },
+    {
+      "type": "page",
+      "name": "item list",
+      "t": 1280.8
+    },
+    {
+      "type": "page",
+      "name": "customer",
+      "t": 1106.6
+    },
+    {
+      "type": "other",
+      "name": "sales orders",
+      "t": 1495.7
+    },
+    {
+      "type": "other",
+      "name": "sales lines",
+      "t": 1506.6
+    },
+    {
+      "type": "page",
+      "name": "Copilot and agent capabilities page",
+      "t": 1785.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Anson",
+      "confidence": "high"
+    },
+    {
+      "name": "Yulia",
+      "confidence": "high"
+    },
+    {
+      "name": "Elia",
+      "confidence": "high"
+    },
+    {
+      "name": "Erdem",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia",
+      "confidence": "high"
+    },
+    {
+      "name": "Poaje",
+      "confidence": "medium"
+    },
+    {
+      "name": "Luke",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 45.5,
+      "text": "we have our own co-pilot chat, and we also have the M365 co-pilot, which you probably have used in the ...",
+      "why_it_matters": "Establishes the context of existing copilot offerings before the integration announcement",
+      "check": "exact"
+    },
+    {
+      "t": 238.3,
+      "text": "Now we have agents, right? So we realized that not only can the LLM do natural language processing, it can also make decisions,",
+      "why_it_matters": "Explains the advancement from chat and NLP to autonomous agent capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 346,
+      "text": "the chat is the home for all of these experiences. You know, we've kind of come full circle with this technology back to chat",
+      "why_it_matters": "Articulates the strategic vision of chat as the orchestration hub for all copilot capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 383.8,
+      "text": "How many Athens desk do we have in stock? And Copilot would say, Sorry, I can't do that because it's not connected together, right?",
+      "why_it_matters": "Illustrates the current limitation of isolated copilot experiences that the new integration solves",
+      "check": "exact"
+    },
+    {
+      "t": 425.1,
+      "text": "We're going to bring M365 Copilot into BC. And so, rather than talk your ear off about how great it is, I will just",
+      "why_it_matters": "Announces the key innovation of bringing M365 Copilot into Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 660.8,
+      "text": "the Business Central data, requesting it, seeing it, that's only available when you're talking to M365 chat within Business Central.",
+      "why_it_matters": "Clarifies the scope limitation of BC data access to within the BC environment",
+      "check": "exact"
+    },
+    {
+      "t": 780.2,
+      "text": "what do you know about this page this item",
+      "why_it_matters": "Demonstrates improved contextual understanding compared to previous Copilot chat capabilities",
+      "check": "fuzzy"
+    },
+    {
+      "t": 856.3,
+      "text": "we need to take things a little bit slowly. If we all try to cram on the train at the same time, obviously, it's",
+      "why_it_matters": "Explains the phased integration strategy for bringing other Microsoft products into the unified platform",
+      "check": "exact"
+    },
+    {
+      "t": 908.6,
+      "text": "central and we're replacing it completely with m365 copilot",
+      "why_it_matters": "Critical statement of major product change - old chat is being fully replaced, not evolved",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1419.2,
+      "text": "This is the key difference between the copilot chat that we had before and the one that we're moving towards in the future, right?",
+      "why_it_matters": "Explains the fundamental architectural shift from single-skill to agentic loop approach",
+      "check": "exact"
+    },
+    {
+      "t": 1518.1,
+      "text": "the items that were on lines on those orders to that customer was the Tokyo guest chair and Athens desk.",
+      "why_it_matters": "Concrete example demonstrating multi-step relational queries impossible with previous Copilot",
+      "check": "exact"
+    },
+    {
+      "t": 1558.9,
+      "text": "when you use M365 Copilot in BC, it has access to all of these different tools from BC, but it also has access to",
+      "why_it_matters": "Clarifies scope of integration - BC tools plus M365 Copilot tools plus custom agents",
+      "check": "exact"
+    },
+    {
+      "t": 1600.4,
+      "text": "M365 Copilot can go and read your emails. It can go and take the entities out of that email. It can match those up",
+      "why_it_matters": "Describes the core cross-suite capability of reading emails and matching entities to BC data, a key differentiator from previous chat.",
+      "check": "exact"
+    },
+    {
+      "t": 1663.3,
+      "text": "in order to use the Co-pilot features, you need a Co-pilot license, right?",
+      "why_it_matters": "Establishes licensing requirement - separate license needed beyond BC subscription",
+      "check": "exact"
+    },
+    {
+      "t": 1735.1,
+      "text": "They're executed as that user. So, all of the access uh and their permission sets and everything still applies.",
+      "why_it_matters": "Establishes that security model and permissions remain unchanged, critical for enterprise adoption and governance.",
+      "check": "exact"
+    },
+    {
+      "t": 1937.2,
+      "text": "at the moment, for the first version, it is read only in Business Central, right?",
+      "why_it_matters": "Sets clear expectations about current capabilities limitations and signals that write actions are a future consideration.",
+      "check": "exact"
+    },
+    {
+      "t": 2169.2,
+      "text": "we're planning a public release for BC 29. I was allowed to disclose this at least. We're not exactly sure when.",
+      "why_it_matters": "Provides key timeline information about general availability while being transparent about uncertainty in exact dates.",
+      "check": "exact"
+    },
+    {
+      "t": 2248,
+      "text": "it's going to be available from 29 onwards, right? So, even for 28 and earlier, there's currently no plan to bring it there.",
+      "why_it_matters": "Clarifies version compatibility limits and signals no backport plans for earlier versions, important for deployment planning.",
+      "check": "exact"
+    },
+    {
+      "t": 2356.1,
+      "text": "if you want to use the full capability of M365 Copilot, then you need a full Copilot license",
+      "why_it_matters": "Clarifies licensing requirement for full M365 Copilot Chat functionality in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 2400.7,
+      "text": "we are hoping to give some like similar to today's chat capabilities, right? Without the the full Copilot license, but the full details are",
+      "why_it_matters": "Shows Microsoft's intent to maintain free access similar to current chat but acknowledges uncertainty in technical implementation details.",
+      "check": "exact"
+    },
+    {
+      "t": 2413,
+      "text": "we understand this is like a disruptive change, right? We're ripping one thing out and replacing it with something that is almost the same",
+      "why_it_matters": "Acknowledges this is a significant change to existing chat functionality",
+      "check": "exact"
+    },
+    {
+      "t": 2524.7,
+      "text": "if you were to go to Copilot today, or the new one, the M2C5 Copilot, and you said, like, help me figure out where",
+      "why_it_matters": "Demonstrates troubleshooting capability by reading across multiple data tables",
+      "check": "exact"
+    },
+    {
+      "t": 2555.6,
+      "text": "whether it can actually go fix those things, not today, because it can't take actions in PC, right? But the thing is because now",
+      "why_it_matters": "Clarifies current limitation to read-only operations while highlighting new wide-reaching query capability",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 436.8,
+      "kind": "preview",
+      "text": "This time in my uh special special next version environment just for uh for this demo, for the conference."
+    },
+    {
+      "t": 845.4,
+      "kind": "subject-to-change",
+      "text": "At the moment, this is all like the BC integration is limited to when you use Copilot inside Business Central."
+    },
+    {
+      "t": 868.1,
+      "kind": "coming-later",
+      "text": "for now, we're trying to just keep the experience into Business Central, make sure that it's solid so that in ..."
+    },
+    {
+      "t": 883.4,
+      "kind": "coming-later",
+      "text": "we are trying to bring one other part of this whole suite, which is your Microsoft Copilot Studio agents."
+    },
+    {
+      "t": 960,
+      "kind": "subject-to-change",
+      "text": "you know, like it's in a limited capacity for now. You need to be in Business Central to use the Business Central tools."
+    },
+    {
+      "t": 1691.2,
+      "kind": "subject-to-change",
+      "text": "we are investigating whether we can give you limited access to this so you can operate on only the BC ..."
+    },
+    {
+      "t": 1961.2,
+      "kind": "subject-to-change",
+      "text": "any things that are coming down the line uh are kind of like still TBD"
+    },
+    {
+      "t": 2169.2,
+      "kind": "coming-later",
+      "text": "we're planning a public release for BC 29"
+    },
+    {
+      "t": 2193,
+      "kind": "coming-later",
+      "text": "we are hoping to give access to to that preview in the coming months before the official rollout"
+    },
+    {
+      "t": 2309.8,
+      "kind": "preview",
+      "text": "This is preview."
+    },
+    {
+      "t": 2320.6,
+      "kind": "subject-to-change",
+      "text": "We are still working on what we want to bring next."
+    },
+    {
+      "t": 2373.4,
+      "kind": "subject-to-change",
+      "text": "it's defined as a capability that you need to enable and it's said it's Microsoft built"
+    },
+    {
+      "t": 2387,
+      "kind": "subject-to-change",
+      "text": "the specific like technical details of what we can do, right? We're figuring out"
+    },
+    {
+      "t": 2400.7,
+      "kind": "subject-to-change",
+      "text": "the full details are TBD"
+    },
+    {
+      "t": 2400.7,
+      "kind": "coming-later",
+      "text": "the full details are TBD"
+    },
+    {
+      "t": 2580.1,
+      "kind": "preview",
+      "text": "do try to get access to private preview, and then try it out"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 23,
+    "quotes_dropped": 4,
+    "evidence_verified": 3,
+    "evidence_unverified": 34
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

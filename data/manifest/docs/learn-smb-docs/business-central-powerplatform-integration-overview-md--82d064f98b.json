@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerplatform-integration-overview",
   "published_at": "2026-06-19T13:58:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "944303d346d44e079ad49e3f97a9e046670e8765",
       "words": 584,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.822Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:54.509Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:54.511Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:54.512Z",
+      "page": false
     }
   },
   "input_hash": "944303d346d44e079ad49e3f97a9e046670e8765",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "944303d346d44e079ad49e3f97a9e046670e8765"
+  "output_hash": "a0f5d2fe3214a89d24cbcf4d8e4cf5010141908746519b98edc11e2de9e5c888"
 }

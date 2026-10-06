@@ -1,0 +1,27 @@
+{
+  "video_id": "yIYUCSK0Bh4",
+  "item_id": "video/yt-mibuso/yIYUCSK0Bh4",
+  "summary": "BC-Bench is Microsoft's offline evaluation framework for coding agents on AL tasks, adapted from SWE-bench. The session covers bug-fixing results, multi-run metrics, AL-MCP effect, complexity analysis and code review agent evaluation. Feature status is not stated.",
+  "overview": "The session explains how Microsoft built BC-Bench, an evaluation framework for coding agents working on Business Central AL tasks. It started about six months before the talk and follows SWE-bench methodology. Agents get a bug report and the code base from before the fix. Their fixes are checked against unit tests written by human engineers, in Docker environments of Business Central set up with BC Container Helper.\n\nThe talk covers the bug-fixing dataset and how it was filtered, results across models and agent harnesses, multi-run metrics, and the effect of AL-MCP. It then moves to a code review agent evaluated offline and monitored online, a self-improvement pipeline, the roadmap, and a Q&A on source code, data collection, costs and GitHub models.",
+  "key_points": [
+    "Bug-fix verification: the code base is reset to before the fix, the agent produces a fix, and the tests must fail before the fix and pass after it. The code must build in Docker.",
+    "Dataset: single-bug pull requests that include tests, drawn from Microsoft internal pull requests and the BC apps public repository. About 20% are inventory and 19% are finance. Bug reports are verified manually.",
+    "Results: latest models reach about 68% on bug fixing, against 16% for GPT-4. Results depend on the model and the agent harness (Cloud Code, GitHub Copilot CLI and others).",
+    "Multi-run metrics: because AI is non-deterministic, the talk reports mean accuracy, pass@5 and pass@1. These can give very different numbers. Two or three runs can still give statistical significance.",
+    "AL-MCP gives agents compile and symbol search. It improved mean resolution rate by 5% and pass@5 by 10%.",
+    "Complexity: agents reach about 80% on bugs needing fewer than 10 lines of code, and about 50% on more complex fixes.",
+    "Code review agent: in the shown run, 57% accuracy on comments and 49% on severity classification. A self-improving pipeline updates the agent's skills and ships a new version only if offline quality gates pass, with human review."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "990fe88238bc9ea62693307beeca611774c7cb24e00715f018340ff9ae1a8d30",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0292684
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview",
   "published_at": "2026-06-19T13:58:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7e06639c49556d3cf7ba210230e64a709f812545",
       "words": 947,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.821Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:54.506Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:54.507Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:54.508Z",
+      "page": false
     }
   },
   "input_hash": "7e06639c49556d3cf7ba210230e64a709f812545",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e06639c49556d3cf7ba210230e64a709f812545"
+  "output_hash": "88c056e8684b2abe200be897f982fed2bf01a9a330b91f2130f4a34efe34ca97"
 }

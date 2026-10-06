@@ -1,0 +1,1302 @@
+{
+  "video_id": "f_i4_BRz-oA",
+  "item_id": "video/yt-mibuso/f_i4_BRz-oA",
+  "title": "Microsoft presents: Cloud Migration from any SQL",
+  "duration_s": 2899,
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "upgrade paths",
+    "re-implementation tool",
+    "data migration",
+    "saas transition",
+    "al extensibility",
+    "sql to bc",
+    "configuration packages",
+    "azure data factory",
+    "migration patterns",
+    "migrator framework",
+    "extension points"
+  ],
+  "chapters": [
+    {
+      "title": "Journey to the Cloud - Historical Context",
+      "t_start": 0,
+      "t_end": 67.8
+    },
+    {
+      "title": "Upgrade Paths and Support Strategy",
+      "t_start": 67.8,
+      "t_end": 159.5
+    },
+    {
+      "title": "Migration Challenges and Tooling Solutions",
+      "t_start": 159.5,
+      "t_end": 233.4
+    },
+    {
+      "title": "BC Re-implementation Tool Overview",
+      "t_start": 233.4,
+      "t_end": 312
+    },
+    {
+      "title": "BC Re-implementation Tool Demo",
+      "t_start": 312,
+      "t_end": 538.1
+    },
+    {
+      "title": "Data Coverage and Extensibility Framework",
+      "t_start": 538.1,
+      "t_end": 708
+    },
+    {
+      "title": "Tool Architecture and Database Strategy",
+      "t_start": 708,
+      "t_end": 960.1
+    },
+    {
+      "title": "Extension Points and Migrator Hooks",
+      "t_start": 960.1,
+      "t_end": 1062
+    },
+    {
+      "title": "Customizing Migration Plan and Migrator Lists",
+      "t_start": 1062,
+      "t_end": 1150
+    },
+    {
+      "title": "Historical Data Migration and Advanced Extension Points",
+      "t_start": 1150,
+      "t_end": 1323.6
+    },
+    {
+      "title": "Building Custom Migration Tools and Table Mappings",
+      "t_start": 1323.6,
+      "t_end": 1540.6
+    },
+    {
+      "title": "Sample Implementations and On-Premises Development",
+      "t_start": 1540.6,
+      "t_end": 1825.3
+    },
+    {
+      "title": "Building Custom Migration Tools with Full Data Transformation",
+      "t_start": 1825.3,
+      "t_end": 2070.2
+    },
+    {
+      "title": "Custom Migration and Performance Testing",
+      "t_start": 2070.2,
+      "t_end": 2313
+    },
+    {
+      "title": "Cloud Migration Roadmap and Feedback",
+      "t_start": 2313,
+      "t_end": 2450.1
+    },
+    {
+      "title": "On-Premises Migration Tools and Performance Considerations",
+      "t_start": 2450.1,
+      "t_end": 2609.5
+    },
+    {
+      "title": "Multi-Company Migration and Permission Sets",
+      "t_start": 2609.5,
+      "t_end": 2748.7
+    },
+    {
+      "title": "Field Mapping and Data Transformation",
+      "t_start": 2748.7,
+      "t_end": 2899
+    }
+  ],
+  "features": [
+    {
+      "name": "BC 14 Re-implementation Tool",
+      "description": "A migration tool that enables customers on BC version 14 to migrate directly to BC SaaS without going through intermediate versions. It moves a subset of data and recommends a fresh start for business process standardization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.2,
+      "t_end": 312,
+      "is_demoed": true,
+      "caveats": [
+        "Re-implementation only - subset of data moved",
+        "Customer starts fresh in SaaS",
+        "Requires standardization of business processes"
+      ],
+      "tags": [
+        "migration",
+        "re-implementation",
+        "bc14",
+        "saas",
+        "subset-data"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cloud Migration Management Page",
+      "description": "A wizard-based interface for configuring and executing the BC re-implementation migration, allowing users to set connection strings, select companies, trigger replication, and monitor progress.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312,
+      "t_end": 399.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "migration",
+        "wizard",
+        "management"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Replication Progress Tracking",
+      "description": "Capability to track the progress of data replication showing remaining tables and successful tables during the migration process, with visibility into the number of lines replicated for each table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 365.9,
+      "t_end": 399.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tracking",
+        "progress",
+        "replication",
+        "monitoring"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Upgrade Progress Tracking",
+      "description": "Tracking of the upgrade progress during migration, addressing what was previously the most reported issue of not being able to monitor upgrade status in real-time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387,
+      "t_end": 430.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tracking",
+        "upgrade",
+        "progress",
+        "reporting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inline Error Fixing",
+      "description": "Ability to fix migration errors inline during the upgrade process without having to restart the entire migration, addressing the all-or-nothing problem of previous tools. Allows company-by-company error resolution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 430.2,
+      "t_end": 526,
+      "is_demoed": true,
+      "caveats": [
+        "Errors need to be fixed in error page before continuing"
+      ],
+      "tags": [
+        "error-handling",
+        "recovery",
+        "migration",
+        "in-place-fixes"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Extensible Migration Entities",
+      "description": "52 migration entities across setup data (40 tables), master data (9 entities), transaction data (1 entity), and historical data (20 entities) that can be extended through extensible enums. Partners can add, replace, or extend any entity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 538.1,
+      "t_end": 599.8,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to 52 entities currently",
+        "May not cover all custom requirements"
+      ],
+      "tags": [
+        "extensibility",
+        "enums",
+        "entities",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Replication Service with Azure Data Factory",
+      "description": "Uses Azure Data Factory replication service to move data from NAV 14 source database to BC SaaS destination database, with support for direct copy when table schemas match and buffer tables for transformed data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599.8,
+      "t_end": 696,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Azure Data Factory infrastructure",
+        "Buffer tables needed for schema differences"
+      ],
+      "tags": [
+        "azure",
+        "data-factory",
+        "replication",
+        "etl"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Migrator Interface and Enum Registration",
+      "description": "Extensibility pattern where each migrator implements the BC14Migrator interface and is registered through extensible enums. Allows partners to create custom migrators for setup, master, transaction, and historical data phases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 708,
+      "t_end": 895.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL code knowledge to extend"
+      ],
+      "tags": [
+        "extensibility",
+        "interface",
+        "enum",
+        "al-development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Direct Upgrade Path from BC 14 to SaaS",
+      "description": "New capability allowing customers on BC 14 to upgrade directly to the latest BC SaaS version, bypassing the intermediate version requirements that were previously mandatory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 233.4,
+      "t_end": 312,
+      "is_demoed": true,
+      "caveats": [
+        "Only available through re-implementation approach, not traditional upgrade"
+      ],
+      "tags": [
+        "upgrade-path",
+        "bc14",
+        "saas",
+        "migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "BC14 migrator framework with three phases",
+      "description": "Migration framework that runs setup migrators, master migrators, and transaction migrators in sequence using enum-based registry pattern. Each phase is executed through a for loop over the enum, with 40 setup migrators, 9 master migrators, and transaction migrators.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 793.6,
+      "t_end": 846.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enum extension implementation",
+        "Requires interface implementation"
+      ],
+      "tags": [
+        "migration",
+        "framework",
+        "phases",
+        "setup",
+        "master",
+        "transaction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Entity extension patterns for migration",
+      "description": "Three extension patterns supported: add field to existing entity via table extensions, add new entity via enum extension and codeunit implementation, and add post-migration validation or action. Framework provides 165 extension points.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 858.8,
+      "t_end": 1062,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of enum and interface implementation",
+        "175 extension points may not cover all scenarios"
+      ],
+      "tags": [
+        "extensions",
+        "customization",
+        "entity",
+        "field mapping"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Migrator hooks for pre and post execution",
+      "description": "Allows subscribers to skip migrators via on_before_run_migrator event or add logging via on_after_run_migrator event. Covers all four migration phases: setup, master, transaction, and historical.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 995.7,
+      "t_end": 1045.1,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to skip and logging functionality for custom logic"
+      ],
+      "tags": [
+        "hooks",
+        "events",
+        "subscribers",
+        "logging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Migration plan customization via event subscription",
+      "description": "Allows reordering, removing, or injecting custom migrators into migration phases through on_after_populate_master_migrators event and similar events for other phases. Must set changed flag to apply customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1062,
+      "t_end": 1132.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires event subscription pattern",
+        "Must set changed flag to true for changes to take effect"
+      ],
+      "tags": [
+        "customization",
+        "plan",
+        "events",
+        "migrators"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Historical data migration with separate task worker",
+      "description": "Historical data migration runs in separate BC14 historical task worker session rather than main upgrade runner. Improves performance as main upgrade does not wait for historical data completion. Can use data transfer for back volume.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1150,
+      "t_end": 1192.7,
+      "is_demoed": false,
+      "caveats": [
+        "Separate execution means potential dependency management needed"
+      ],
+      "tags": [
+        "historical data",
+        "archive",
+        "performance",
+        "task worker"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Post migration validation and action extension points",
+      "description": "Advanced extension points for post-migration tasks. Post migration action allows custom logic after all data is in, such as posting or recompute. Validation extension allows checking data integrity like balance verification with failures shown on migration error overview.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1205.4,
+      "t_end": 1222,
+      "is_demoed": false,
+      "caveats": [
+        "For advanced scenarios only"
+      ],
+      "tags": [
+        "validation",
+        "action",
+        "post-migration",
+        "data integrity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom migration provider interface",
+      "description": "Allows partners to build custom migration tools using custom_migration_provider interface. Implements three-step process: create company table with matching structure, implement custom migration provider interface, extend custom_migration_provider enum.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1323.6,
+      "t_end": 1437,
+      "is_demoed": true,
+      "caveats": [
+        "Requires SQL script to create company table",
+        "Requires matching structure of company table",
+        "Must extend enum to appear in selection wizard"
+      ],
+      "tags": [
+        "custom migration",
+        "interface",
+        "provider",
+        "partner"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Replication table mappings for data transfer",
+      "description": "Main table mapping configuration for specifying which tables to replicate and how during migration. Used for almost all tables. Works with SQL-based source databases to define table-to-table mapping for replication engine.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1437,
+      "t_end": 1455.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual configuration of mappings"
+      ],
+      "tags": [
+        "table mappings",
+        "replication",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Setup table mappings for cloud migration configuration",
+      "description": "Secondary table mapping table identical to replication_table_mappings structure. Used to define setup data that should be replicated immediately when cloud migration is set up, allowing configuration before full data replication. Recommended to keep data small.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1470,
+      "t_end": 1492.3,
+      "is_demoed": true,
+      "caveats": [
+        "Should keep data small",
+        "Only used during initial setup phase"
+      ],
+      "tags": [
+        "setup",
+        "table mappings",
+        "configuration",
+        "cloud migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Record links and notes migration helper tool",
+      "description": "Helper tool to migrate record links and notes from BC14 on-prem. Shipped out of box with version 28 as part of BC implementation. Can be run separately to target specific tables. Provides additional safety by only replicating record links table without affecting other data.",
+      "status": "ga",
+      "status_evidence_t": 1580.5,
+      "status_evidence_quote": "We ship this support out of the box with version 28, but the problem is that this works as part of the BC implementation",
+      "status_evidence_verified": true,
+      "t_start": 1554.6,
+      "t_end": 1706.3,
+      "is_demoed": true,
+      "caveats": [
+        "Auto-incrementing keys make record links and notes problematic",
+        "Separate execution from main implementation recommended"
+      ],
+      "tags": [
+        "record links",
+        "notes",
+        "helper tool",
+        "bc14",
+        "migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SQL to SQL replication speed advantage",
+      "description": "Cloud migration tool offers fastest replication speed using SQL-to-SQL approach. Significantly faster than web services-based tools, especially for large tables when database is uploaded to Azure SQL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1323.6,
+      "t_end": 1348.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires source database in Azure SQL for optimal speed"
+      ],
+      "tags": [
+        "replication",
+        "performance",
+        "sql",
+        "speed"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Support for difficult-to-move tables via SQL tooling",
+      "description": "Cloud migration tool can move tables that are hard to move through AL code, including tables without incrementing integers, tenant media, and obsoleted tables and fields. Provides alternative to AL-code-based migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1348.9,
+      "t_end": 1371.6,
+      "is_demoed": false,
+      "caveats": [
+        "May be used as supplementary tool alongside existing tooling"
+      ],
+      "tags": [
+        "difficult tables",
+        "incrementing integers",
+        "tenant media",
+        "obsoleted"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "On-premises development for cloud migration tools",
+      "description": "Enables developers to test cloud migration tools on-premises by configuring the cloud migration management page to look enabled without calling the replication service. Allows quick iteration and debugging with reduced testing time from 45 minutes to 1 hour.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1716.5,
+      "t_end": 1825.3,
+      "is_demoed": true,
+      "caveats": [
+        "Uses configuration packages to populate staging tables instead of actual SQL database replication",
+        "Requires all hybrid tables and prefixed tables in configuration package"
+      ],
+      "tags": [
+        "on-premises development",
+        "testing",
+        "configuration packages",
+        "debug",
+        "staging tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom migration app development framework",
+      "description": "Framework allowing partners to build their own migration apps with table mappings and buffer tables. Supports replicating source tables to multiple destinations and using upgrade code to transform data. Enables full data migration scenarios beyond standard tooling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1825.3,
+      "t_end": 2011.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires custom app development with table mappings and buffer tables",
+        "Partners must maintain compatibility as BC upgrades every 5 releases",
+        "Microsoft does not maintain such tools due to supporting 24+ countries in SaaS"
+      ],
+      "tags": [
+        "custom migration",
+        "table mappings",
+        "buffer tables",
+        "upgrade code",
+        "multi-destination replication"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "No-code custom migration from any SQL",
+      "description": "Expert feature allowing users to migrate individual tables ad hoc without writing code. Enables selecting and copying specific tables from on-premises SQL sources. Useful for missing tables, performance testing, and populating sandboxes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2011.3,
+      "t_end": 2197.4,
+      "is_demoed": true,
+      "caveats": [
+        "System tables inaccessible by AL code cannot be migrated",
+        "Expert feature with warning that it can break database if used incorrectly",
+        "Not promoted as standard feature due to complexity"
+      ],
+      "tags": [
+        "no-code migration",
+        "custom migration",
+        "table selection",
+        "ad hoc",
+        "expert feature"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "BC to BC record links and notes migration",
+      "description": "Ability to migrate record links and notes in Business Central to Business Central cloud migrations out of the box without installing helper extensions. Documented with recording available on BC Learn.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2222.1,
+      "t_end": 2249.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires no additional installation"
+      ],
+      "tags": [
+        "bc to bc migration",
+        "record links",
+        "notes",
+        "documentation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cloud migration warnings and validation framework",
+      "description": "New validation framework that shows warnings after cloud migration completes. Alerts users to missing tenant media records and reminds of unmoved record links and notes. Additional warnings can be added if needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2249.3,
+      "t_end": 2272.3,
+      "is_demoed": false,
+      "caveats": [
+        "Warnings can be added based on partner requests"
+      ],
+      "tags": [
+        "validation",
+        "warnings",
+        "tenant media",
+        "data quality"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data transfer outside upgrade codeunits",
+      "description": "Enhancement allowing data transfers to be used outside of upgrade codeunits during cloud migration. Enables moving large sets of data wherever needed as long as cloud migration is enabled and intelligent cloud table has enabled field set to true.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2272.3,
+      "t_end": 2313,
+      "is_demoed": false,
+      "caveats": [
+        "Requires intelligent cloud table enabled field to be set to true"
+      ],
+      "tags": [
+        "data transfer",
+        "upgrade",
+        "flexible migration",
+        "large data sets"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SQL to SQL copy with AL upgrade",
+      "description": "Partners use SQL copy to transfer data and then trigger AL upgrade code units to handle version upgrades instead of custom code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2450.1,
+      "t_end": 2462.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires manual execution of SQL codes or upgrade code units",
+        "not the best approach"
+      ],
+      "tags": [
+        "sql migration",
+        "upgrade",
+        "data transfer"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "No-code data replication",
+      "description": "Customer no-code replication tool that simply copies data and supports preserving or replacing data in target tables through insert and merge operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2511.2,
+      "t_end": 2526.3,
+      "is_demoed": true,
+      "caveats": [
+        "must choose between insert/merge or replace mode"
+      ],
+      "tags": [
+        "no-code",
+        "data copy",
+        "replication"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "BC 14 implementation tool",
+      "description": "Tool supporting company-by-company data movement but blocks further replication once data transformation starts to ensure data consistency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2536.6,
+      "t_end": 2547,
+      "is_demoed": true,
+      "caveats": [
+        "cannot replicate from source after transformation starts",
+        "blocks replication to prevent data state uncertainty"
+      ],
+      "tags": [
+        "bc14",
+        "company migration",
+        "replication blocking"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Large table migration performance",
+      "description": "Tool capability for migrating large tables, with noted challenges for extreme sizes like 700 GB in a single table within 24 hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2570.2,
+      "t_end": 2609.5,
+      "is_demoed": false,
+      "caveats": [
+        "extreme data sizes (700 GB) may face issues",
+        "optimization may be possible on case-by-case basis"
+      ],
+      "tags": [
+        "performance",
+        "large tables",
+        "migration speed"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC with upgrade multi-company restriction",
+      "description": "BC with upgrade scenario blocks migrating additional companies to the same tenant after initial migration to prevent table disruption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2632.8,
+      "t_end": 2646.2,
+      "is_demoed": false,
+      "caveats": [
+        "restriction prevents adding more companies after migration started",
+        "bc latest to latest migration users assume own responsibility"
+      ],
+      "tags": [
+        "bc-upgrade",
+        "multi-company",
+        "limitation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "BC 14 implementation tool multi-company scenarios",
+      "description": "BC 14 implementation tool allows migrating multiple companies into the same tenant, with user responsibility for data integrity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2646.2,
+      "t_end": 2657.9,
+      "is_demoed": false,
+      "caveats": [
+        "migration of companies into live systems carries risk",
+        "not advised without high safety guarantees"
+      ],
+      "tags": [
+        "bc14",
+        "multi-company",
+        "live-system-migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Permission sets and user profiles migration",
+      "description": "Permission sets and user profiles cannot be migrated from BC 14 to SaaS directly; custom AL code is required if needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2693.2,
+      "t_end": 2717.5,
+      "is_demoed": false,
+      "caveats": [
+        "direct migration not supported",
+        "custom AL code extension required"
+      ],
+      "tags": [
+        "permission-sets",
+        "user-profiles",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Extension table data migration",
+      "description": "Extension table data can be migrated using mapping and extensibility examples to handle additional fields through add-field scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2727.9,
+      "t_end": 2748.7,
+      "is_demoed": true,
+      "caveats": [
+        "requires mapping configuration",
+        "depends on extensibility pattern usage"
+      ],
+      "tags": [
+        "extension-tables",
+        "data-mapping",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Single-to-multiple-table field mapping",
+      "description": "Tool supports splitting data from a single standard table into multiple extension tables by mapping fields with the same names and structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2759.6,
+      "t_end": 2828.3,
+      "is_demoed": false,
+      "caveats": [
+        "field-to-field mapping not available",
+        "field names must match exactly between source and target"
+      ],
+      "tags": [
+        "field-mapping",
+        "table-split",
+        "extension-tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data Transfer Objects alternative",
+      "description": "Alternative approach using data transfer objects to replicate all data to SaaS and then transfer through DTOs, available for custom extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2853.7,
+      "t_end": 2890.7,
+      "is_demoed": false,
+      "caveats": [
+        "available for custom tables and extensions",
+        "not recommended for Microsoft standard tables"
+      ],
+      "tags": [
+        "data-transfer-objects",
+        "saas-migration",
+        "custom-tables"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management",
+      "t": 365.9
+    },
+    {
+      "type": "codeunit",
+      "name": "BC 14 Company Upgrade Task",
+      "t": 768.9
+    },
+    {
+      "type": "interface",
+      "name": "BC14 Migrator",
+      "t": 818.4
+    },
+    {
+      "type": "enum",
+      "name": "BC 14 Setup Migrator",
+      "t": 793.6
+    },
+    {
+      "type": "enum",
+      "name": "Master Data Migrator",
+      "t": 793.6
+    },
+    {
+      "type": "enum",
+      "name": "Transaction Data Migrator",
+      "t": 807.7
+    },
+    {
+      "type": "enum",
+      "name": "BC14 migrator",
+      "t": 818.4
+    },
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 909.9
+    },
+    {
+      "type": "table",
+      "name": "buffer table",
+      "t": 933.3
+    },
+    {
+      "type": "interface",
+      "name": "custom migration provider",
+      "t": 1424.9
+    },
+    {
+      "type": "enum",
+      "name": "custom migration provider",
+      "t": 1437
+    },
+    {
+      "type": "table",
+      "name": "replication table mappings",
+      "t": 1455.3
+    },
+    {
+      "type": "table",
+      "name": "setup table mappings",
+      "t": 1470
+    },
+    {
+      "type": "table",
+      "name": "company table",
+      "t": 1388.6
+    },
+    {
+      "type": "table",
+      "name": "record links",
+      "t": 1646.8
+    },
+    {
+      "type": "page",
+      "name": "cloud migration management page",
+      "t": 1622
+    },
+    {
+      "type": "table",
+      "name": "record links and notes",
+      "t": 1633.8
+    },
+    {
+      "type": "table",
+      "name": "item table",
+      "t": 1894.6
+    },
+    {
+      "type": "table",
+      "name": "tenant media",
+      "t": 2107.1
+    },
+    {
+      "type": "table",
+      "name": "tenant media set",
+      "t": 2122.2
+    },
+    {
+      "type": "table",
+      "name": "intelligent cloud",
+      "t": 2301.9
+    },
+    {
+      "type": "codeunit",
+      "name": "AL upgrade",
+      "t": 2450.1
+    },
+    {
+      "type": "table",
+      "name": "item ledger entry",
+      "t": 2792.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nikola",
+      "confidence": "high"
+    },
+    {
+      "name": "Wenjie",
+      "confidence": "medium"
+    },
+    {
+      "name": "Benji",
+      "confidence": "high"
+    },
+    {
+      "name": "Venkat",
+      "confidence": "high"
+    },
+    {
+      "name": "Vinod",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 54.8,
+      "text": "you need to get to the other end where there is a land of AL. Because the grass is greener on the other side.",
+      "why_it_matters": "Demonstrates the strategic messaging Microsoft made to push customers from CIL to AL development platform.",
+      "check": "exact"
+    },
+    {
+      "t": 144.8,
+      "text": "We are expecting you to stay current if you are on a version 25 or higher because these upgrade paths, as I said, they",
+      "why_it_matters": "Clarifies Microsoft's support policy requiring customers to stay on recent versions rather than skip intermediate releases.",
+      "check": "exact"
+    },
+    {
+      "t": 185.8,
+      "text": "We have hundreds of thousands of customers on version 14 and below, so the number is quite high.",
+      "why_it_matters": "Quantifies the scale of the problem - hundreds of thousands of customers stuck on legacy versions.",
+      "check": "exact"
+    },
+    {
+      "t": 245.5,
+      "text": "This is a re-implementation, so it means that you're only moving a subset of data. And the customer is going ...",
+      "why_it_matters": "Defines the key constraint of the re-implementation approach - it is not a full upgrade but a fresh start.",
+      "check": "exact"
+    },
+    {
+      "t": 282.5,
+      "text": "configuration packages are not working the best because they cannot move large amounts of data, while the re-implementation tool can.",
+      "why_it_matters": "Explains why a new tool was needed instead of using existing configuration package approach.",
+      "check": "exact"
+    },
+    {
+      "t": 415.8,
+      "text": "tracking upgrading progress is uh one of the most reported issues. Now we support that.",
+      "why_it_matters": "Highlights a critical pain point in prior migrations that is now addressed by the new tool.",
+      "check": "exact"
+    },
+    {
+      "t": 455.7,
+      "text": "the upgrading uh was all or nothing. It means that if it fails, you need to redo everything in our previous tool. But now,",
+      "why_it_matters": "Demonstrates a major improvement in user experience - incremental error fixing instead of full restart.",
+      "check": "exact"
+    },
+    {
+      "t": 575.3,
+      "text": "all the 52 entities, they are migrated through the extensible enums. So any partner can add, replace, or extend any of them.",
+      "why_it_matters": "Establishes the extensibility model and the scope of data entities covered in the tool.",
+      "check": "exact"
+    },
+    {
+      "t": 830.6,
+      "text": "there are 40 uh setup migrators. So, it will traverse these 40 first, uh then uh traverse the nine master migrators, and then uh",
+      "why_it_matters": "Defines the exact structure and count of migrators in each phase of the migration framework",
+      "check": "exact"
+    },
+    {
+      "t": 972.1,
+      "text": "we provide more than 165 extension points",
+      "why_it_matters": "Indicates the breadth of customization capabilities available for partners extending the migration tool",
+      "check": "exact"
+    },
+    {
+      "t": 1269.3,
+      "text": "it's targeting at 20.8.03, but uh now in 20.8.02, you can uh try it on the sandbox",
+      "why_it_matters": "Establishes the release timeline and current availability status for testing",
+      "check": "exact"
+    },
+    {
+      "t": 1336.5,
+      "text": "SQL to SQL is the fastest replication speed. And if you upload the database to the Azure SQL, it is very fast",
+      "why_it_matters": "Key performance advantage justifying use of the cloud migration tool versus existing web services-based solutions",
+      "check": "exact"
+    },
+    {
+      "t": 1388.6,
+      "text": "the source database must contain one table which is matching the structure and schema of our company table",
+      "why_it_matters": "Critical requirement for implementing custom migration tools - defines mandatory prerequisite",
+      "check": "exact"
+    },
+    {
+      "t": 1455.3,
+      "text": "you will be using this one for almost all of the tables",
+      "why_it_matters": "Establishes replication table mappings as the primary configuration mechanism for custom migration",
+      "check": "exact"
+    },
+    {
+      "t": 1580.5,
+      "text": "We ship this support out of the box with version 28, but the problem is that this works as part of the BC implementation",
+      "why_it_matters": "Indicates record links and notes support availability in released version with caveat about execution context",
+      "check": "exact"
+    },
+    {
+      "t": 1633.8,
+      "text": "We are only replicating this table and nothing else. This is giving you additional safety when you're moving the data.",
+      "why_it_matters": "Explains the safety design principle of limiting replication scope during migration",
+      "check": "exact"
+    },
+    {
+      "t": 1726.6,
+      "text": "manual testing is taking a long time. So, it is 45 minutes to 1 hour.",
+      "why_it_matters": "Quantifies the testing time challenge that on-premises development feature addresses",
+      "check": "exact"
+    },
+    {
+      "t": 1856.2,
+      "text": "And the answer is it is. And the way how you would do this is that you would introduce your own app to migrate.",
+      "why_it_matters": "Confirms partners can build comprehensive custom migration tools beyond standard offerings",
+      "check": "exact"
+    },
+    {
+      "t": 1975.9,
+      "text": "we need to support more than 24 countries in SaaS. Uh we were missing the implementation tool, and the maintenance ...",
+      "why_it_matters": "Explains Microsoft's decision to not maintain comprehensive migration tools",
+      "check": "exact"
+    },
+    {
+      "t": 2042.5,
+      "text": "It is a control replication. Uh it means uh you can select the tables that you want to copy.",
+      "why_it_matters": "Defines the no-code custom migration feature as table selection and controlled replication",
+      "check": "exact"
+    },
+    {
+      "t": 2083.2,
+      "text": "We don't promote this action because this is a feature for experts. We want that you guys know what you are doing",
+      "why_it_matters": "Indicates expert-only status and safety concerns for custom migration feature",
+      "check": "exact"
+    },
+    {
+      "t": 2289.6,
+      "text": "now you can use the data transfers as much as you want wherever you want as long as the cloud migration is enabled",
+      "why_it_matters": "Describes the new flexibility in using data transfers during cloud migration",
+      "check": "exact"
+    },
+    {
+      "t": 2511.2,
+      "text": "the customer no code replication that venkat presented is going to simply copy the data",
+      "why_it_matters": "Describes the operational modes of the no-code replication tool for data preservation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2536.6,
+      "text": "For BC14 implementation tool, we support moving company by company. But when you once you start the data transformation, you cannot replicate the source",
+      "why_it_matters": "Clarifies the BC 14 tool's company-level support and the blocking mechanism to ensure data integrity.",
+      "check": "exact"
+    },
+    {
+      "t": 2596.5,
+      "text": "You can try it. I think for this kind of data you're going to face issues because this is a bit extreme.",
+      "why_it_matters": "Acknowledges performance limitations for extremely large tables like 700 GB migrations.",
+      "check": "exact"
+    },
+    {
+      "t": 2707,
+      "text": "Can they be migrated from BC 14 to SaaS? No.",
+      "why_it_matters": "States the clear limitation that permission sets and user profiles cannot be directly migrated.",
+      "check": "exact"
+    },
+    {
+      "t": 2717.5,
+      "text": "The golden rule is that if you can write the AL code, it can be replicated. If PT cannot access it, then you cannot",
+      "why_it_matters": "Establishes the fundamental principle governing what data can and cannot be migrated based on code accessibility.",
+      "check": "exact"
+    },
+    {
+      "t": 2828.3,
+      "text": "You need to ensure that the names are the same because unfortunately we don't have field-to-field mapping.",
+      "why_it_matters": "Identifies the key limitation of the field mapping capability requiring exact name matching.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 131.4,
+      "kind": "subject-to-change",
+      "text": "all of these parts that I have highlighted in red, they're going to be out of support. So, we will ..."
+    },
+    {
+      "t": 1269.3,
+      "kind": "preview",
+      "text": "it will be released in preview"
+    },
+    {
+      "t": 1269.3,
+      "kind": "subject-to-change",
+      "text": "you are always welcome to give us your feedback. It's really important"
+    },
+    {
+      "t": 2083.2,
+      "kind": "other",
+      "text": "We don't promote this action because this is a feature for experts. this is a bit dangerous if you just it can break your database"
+    },
+    {
+      "t": 2332.4,
+      "kind": "subject-to-change",
+      "text": "the future investments in this area depends on the usage. If we do not get the feedback and the usage, we are not going to be able to do any additional developments"
+    },
+    {
+      "t": 2344.9,
+      "kind": "coming-later",
+      "text": "There are some other things on the backlog. If we do not get the feedback and the usage, we are ..."
+    },
+    {
+      "t": 2570.2,
+      "kind": "other",
+      "text": "For this kind of data you're going to face issues because this is a bit extreme - 700 GB in 24 hours."
+    },
+    {
+      "t": 2657.9,
+      "kind": "other",
+      "text": "The migration of companies into a live system is bringing risk. It's still not advised."
+    },
+    {
+      "t": 2668.9,
+      "kind": "other",
+      "text": "We cannot support it to be with high level of safety like 98 99% of the safety out of the box."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 28,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 35
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

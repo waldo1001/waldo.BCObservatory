@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments",
   "published_at": "2026-06-20T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f96aecd10b52d93549763bbdb4633d7eaad2650",
       "words": 1888,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:52.819Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004641
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:54.500Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:54.501Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:54.502Z",
+      "page": false
     }
   },
   "input_hash": "9f96aecd10b52d93549763bbdb4633d7eaad2650",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f96aecd10b52d93549763bbdb4633d7eaad2650"
+  "output_hash": "e8517b5dde9a6881863257336a060448afb00b0bdc6fe5d030cc47d92fd49955"
 }

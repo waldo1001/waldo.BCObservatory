@@ -1,0 +1,1877 @@
+{
+  "video_id": "cVfZoDwKYpI",
+  "item_id": "video/yt-mibuso/cVfZoDwKYpI",
+  "title": "Microsoft presents: Behind the scenes of how we build the new Expense Agent",
+  "duration_s": 4348,
+  "systems": [
+    "copilot",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "expense agent",
+    "ai extraction",
+    "receipt processing",
+    "mobile app",
+    "approval workflow",
+    "multi-language",
+    "mileage allowance",
+    "currency conversion",
+    "itemization",
+    "agentic engineering",
+    "evaluation",
+    "llm testing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 46.4
+    },
+    {
+      "title": "Expense Agent Architecture Overview",
+      "t_start": 46.4,
+      "t_end": 118
+    },
+    {
+      "title": "Email Processing and Shared Mailbox Setup",
+      "t_start": 118,
+      "t_end": 206
+    },
+    {
+      "title": "UI Experience and Asynchronous Processing",
+      "t_start": 206,
+      "t_end": 283
+    },
+    {
+      "title": "Receipt Extraction and Itemization",
+      "t_start": 283,
+      "t_end": 382.8
+    },
+    {
+      "title": "Multi-Language Support and Mileage Calculations",
+      "t_start": 382.8,
+      "t_end": 520
+    },
+    {
+      "title": "Currency Conversion and Web App",
+      "t_start": 520,
+      "t_end": 623.9
+    },
+    {
+      "title": "Mobile App and Receipt Feed",
+      "t_start": 623.9,
+      "t_end": 743.4
+    },
+    {
+      "title": "Data Validation and Approval Workflow",
+      "t_start": 743.4,
+      "t_end": 899.4
+    },
+    {
+      "title": "Speedboat Team Structure and AI-First Approach",
+      "t_start": 899.4,
+      "t_end": 1015.4
+    },
+    {
+      "title": "Agentic Development and Code Generation",
+      "t_start": 1015.4,
+      "t_end": 1103.4
+    },
+    {
+      "title": "Unified Repo Architecture and Model-First Approach",
+      "t_start": 1103.4,
+      "t_end": 1203.4
+    },
+    {
+      "title": "Introduction to Evaluation Methodology",
+      "t_start": 1203.4,
+      "t_end": 1286.6
+    },
+    {
+      "title": "Testing Challenges with Probabilistic Systems",
+      "t_start": 1286.6,
+      "t_end": 1405.8
+    },
+    {
+      "title": "Offline and Online Evaluation Types",
+      "t_start": 1405.8,
+      "t_end": 1506.1
+    },
+    {
+      "title": "Dataset Creation and Ground Truth Labeling",
+      "t_start": 1506.1,
+      "t_end": 1691.8
+    },
+    {
+      "title": "Synthetic Data and Corner Cases",
+      "t_start": 1691.8,
+      "t_end": 1744.5
+    },
+    {
+      "title": "Quality Metrics and Accuracy Pipeline",
+      "t_start": 1744.5,
+      "t_end": 1826.2
+    },
+    {
+      "title": "Hill Climbing Loop for Model Improvement",
+      "t_start": 1826.2,
+      "t_end": 1890.2
+    },
+    {
+      "title": "Model Comparison and Selection",
+      "t_start": 1890.2,
+      "t_end": 1971.7
+    },
+    {
+      "title": "Security and Harmful Eval Testing",
+      "t_start": 1971.7,
+      "t_end": 2038.6
+    },
+    {
+      "title": "Online Evals in Production",
+      "t_start": 2038.6,
+      "t_end": 2163.7
+    },
+    {
+      "title": "Eval-Driven Development and Key Takeaways",
+      "t_start": 2163.7,
+      "t_end": 2244.6
+    },
+    {
+      "title": "Service Architecture and Design Principles",
+      "t_start": 2244.6,
+      "t_end": 2466.4
+    },
+    {
+      "title": "Processors and Data Flow to Business Central",
+      "t_start": 2466.4,
+      "t_end": 2512.2
+    },
+    {
+      "title": "Activation and Authorization Flow",
+      "t_start": 2512.2,
+      "t_end": 2675.7
+    },
+    {
+      "title": "Expense Submission and Processing Pipeline",
+      "t_start": 2675.7,
+      "t_end": 2830.4
+    },
+    {
+      "title": "Expense Agent Capabilities and Goals",
+      "t_start": 2830.4,
+      "t_end": 2937.4
+    },
+    {
+      "title": "Current Preview Status and Expense Management Module",
+      "t_start": 2937.4,
+      "t_end": 3021
+    },
+    {
+      "title": "Expense Agent Configuration Overview",
+      "t_start": 3021,
+      "t_end": 3113.2
+    },
+    {
+      "title": "Client Access, Shared Mailbox, and Expense User Setup",
+      "t_start": 3113.2,
+      "t_end": 3232.2
+    },
+    {
+      "title": "Welcome Email and Expense User Configuration",
+      "t_start": 3232.2,
+      "t_end": 3312.7
+    },
+    {
+      "title": "Default Configurations and Posting Groups",
+      "t_start": 3312.7,
+      "t_end": 3408
+    },
+    {
+      "title": "Expense Categories and Subcategories",
+      "t_start": 3408,
+      "t_end": 3578.3
+    },
+    {
+      "title": "Category Refundability and Compliance Rules",
+      "t_start": 3578.3,
+      "t_end": 3708.4
+    },
+    {
+      "title": "Rules and Policies Configuration",
+      "t_start": 3708.4,
+      "t_end": 3803.9
+    },
+    {
+      "title": "Additional Agent Configuration and Setup Pages",
+      "t_start": 3803.9,
+      "t_end": 3910.2
+    },
+    {
+      "title": "Consumption Tracking and Expense Reporting",
+      "t_start": 3910.2,
+      "t_end": 4018.5
+    },
+    {
+      "title": "Expense Report Management and Reimbursement Logic",
+      "t_start": 4018.5,
+      "t_end": 4076.9
+    },
+    {
+      "title": "Billable Expenses and Project Assignment",
+      "t_start": 4076.9,
+      "t_end": 4141.2
+    },
+    {
+      "title": "Expense Posting and GL Entries",
+      "t_start": 4141.2,
+      "t_end": 4199.3
+    },
+    {
+      "title": "User Feedback Mechanisms at Expense Level",
+      "t_start": 4199.3,
+      "t_end": 4289.5
+    },
+    {
+      "title": "Public Preview Status and Geographic Availability",
+      "t_start": 4289.5,
+      "t_end": 4348
+    }
+  ],
+  "features": [
+    {
+      "name": "Expense Agent",
+      "description": "New agent for processing employee expenses outside of traditional Business Central interface, supporting email, web app, and mobile inputs. Allows non-BC licensed users to submit expenses which are processed and stored in BC as backend. An AI-first agent that automates end-to-end expense management including receipt parsing, data extraction, itemization, and categorization.",
+      "status": "preview",
+      "status_evidence_t": 2937.4,
+      "status_evidence_quote": "as we speak right now uh we are in public preview",
+      "status_evidence_verified": true,
+      "t_start": 4.2,
+      "t_end": 3021,
+      "is_demoed": true,
+      "caveats": [
+        "Still in preview",
+        "May make AI mistakes",
+        "Feedback encouraged",
+        "Some manual steps still required like setting mileage information and posting",
+        "File size limit of 10 megabytes per expense",
+        "Batch limit of 25 files maximum, 50 megabytes total per batch",
+        "Shared email scenario limited to 100 emails per company",
+        "Each expense user limited to 50 expenses per company per day",
+        "Currently supports web and shared mailbox clients only, mobile coming later"
+      ],
+      "tags": [
+        "agent",
+        "ai",
+        "expense",
+        "preview",
+        "azure functions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Receipt Extraction via AI",
+      "description": "Automatically extracts line items, vendor details, and financial information from receipts including PDFs, handwritten notes, and images in multiple languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 283,
+      "t_end": 382.8,
+      "is_demoed": true,
+      "caveats": [
+        "AI may make mistakes",
+        "Requires user review",
+        "Itemization can be configured as required"
+      ],
+      "tags": [
+        "ai",
+        "extraction",
+        "receipts",
+        "itemization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mileage Expense Calculation",
+      "description": "Calculates mileage-based expenses for car travel with automatic route suggestion and mileage rate computation based on company configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 473.4,
+      "t_end": 533.5,
+      "is_demoed": true,
+      "caveats": [
+        "Route suggestions provided but user selectable"
+      ],
+      "tags": [
+        "mileage",
+        "calculation",
+        "travel"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Per Diem Allowance Detection",
+      "description": "Automatically detects trip duration and calculates per diem allowance from airline itineraries based on company configuration, extracting dates and destinations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.9,
+      "t_end": 473.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires itinerary format without pricing"
+      ],
+      "tags": [
+        "per-diem",
+        "travel",
+        "allowance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Language Receipt Processing",
+      "description": "Processes receipts with handwritten notes and documents in multiple languages including Vietnamese and other Asian languages automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 365.4,
+      "t_end": 393.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-language",
+        "handwritten",
+        "extraction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Currency Conversion",
+      "description": "Automatically converts expense amounts to the company's base currency, handling multiple currencies in a single expense report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 548.2,
+      "t_end": 591.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency",
+        "conversion",
+        "finance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mobile Expense Submission",
+      "description": "Mobile app for expense submission featuring camera capture, share-to-app functionality, and feed-based UI similar to social media for viewing incoming expenses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 623.9,
+      "t_end": 701.3,
+      "is_demoed": true,
+      "caveats": [
+        "Scanning quality depends on lighting",
+        "Feed experience may come to web app"
+      ],
+      "tags": [
+        "mobile",
+        "camera",
+        "feed",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Web App for Expense Entry",
+      "description": "Dedicated web-based experience for submitting and managing expenses with drag-and-drop, copy-paste, and upload capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 604.2,
+      "t_end": 623.9,
+      "is_demoed": true,
+      "caveats": [
+        "Feed experience may be added later"
+      ],
+      "tags": [
+        "web",
+        "ui",
+        "upload"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approval Workflow",
+      "description": "Managers review submitted expense reports via web interface and email notification, with ability to approve, request changes, or send back for revision.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 844.9,
+      "t_end": 899.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "workflow",
+        "manager"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Policy and Rules Engine",
+      "description": "Runs company policies and rules on expenses to ensure compliance with finance department requirements and company settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 782.2,
+      "t_end": 813.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "policy",
+        "rules",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Receipt Confirmation UI",
+      "description": "Mobile and web interface allowing users to swipe or confirm receipt data before submitting for approval, with option to edit or defer problematic entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 813.4,
+      "t_end": 844.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "ui",
+        "confirmation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Speedboat Team Methodology",
+      "description": "A self-contained team structure empowered to make rapid decisions, operate like a startup, and iterate quickly without traditional organizational constraints while keeping data integration with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 914.2,
+      "t_end": 1015.4,
+      "is_demoed": false,
+      "caveats": [
+        "Still subject to organizational realities"
+      ],
+      "tags": [
+        "team structure",
+        "agile",
+        "methodology"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-First Development Approach",
+      "description": "Using AI and LLM models as much as possible, leveraging GitHub Copilot and other AI tools throughout the development process instead of manual coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1030.1,
+      "t_end": 1085.4,
+      "is_demoed": false,
+      "caveats": [
+        "Models have improved significantly; Opus 4.5 was breakthrough"
+      ],
+      "tags": [
+        "ai",
+        "copilot",
+        "agentic engineering",
+        "code generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agentic Development with Code Generation",
+      "description": "99 percent plus of the expense agent code is generated; developers use CLI tools and GitHub Copilot to generate code artifacts including skills, agents files, and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1072.4,
+      "t_end": 1103.4,
+      "is_demoed": false,
+      "caveats": [
+        "Human developer control still maintained",
+        "100% automation not pursued"
+      ],
+      "tags": [
+        "code generation",
+        "agentic engineering",
+        "github copilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Unified Repository Architecture",
+      "description": "All system components including mobile experiences, web experiences, backends, and Business Central integration are stored in a single GitHub repository to enable AI cross-stack coordination.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1133.7,
+      "t_end": 1162.4,
+      "is_demoed": false,
+      "caveats": [
+        "New tools emerging that can coordinate across repos"
+      ],
+      "tags": [
+        "repository",
+        "architecture",
+        "cross-stack"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Model-First LLM Approach",
+      "description": "Using LLM models to feed images, PDFs and data for extraction, categorization, validation, and policy validation from written policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1178.5,
+      "t_end": 1203.4,
+      "is_demoed": false,
+      "caveats": [
+        "Policy validation from written policies not yet complete"
+      ],
+      "tags": [
+        "llm",
+        "extraction",
+        "validation",
+        "policy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Offline Evaluation Methodology",
+      "description": "Evaluation based on curated datasets with ground truth labeling, using metrics including accuracy requirements to measure LLM quality on receipt processing tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1421,
+      "t_end": 1506.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires 95% accuracy for production",
+        "Requires manual labeling effort"
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "metrics",
+        "accuracy"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Online Evaluation with LLM Judge",
+      "description": "Production evaluation run on real data using another LLM as a judge to validate extracted data quality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1435,
+      "t_end": 1460.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "evaluation",
+        "llm judge",
+        "production",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Receipt Data Extraction and Categorization",
+      "description": "Agent extracts data from receipts, performs itemization for specific categories, applies categorization (airline, hotel, etc.), and validates data matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1466.6,
+      "t_end": 1506.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extraction",
+        "categorization",
+        "itemization",
+        "receipt processing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dataset Preparation with Ground Truth Labeling",
+      "description": "1,500 manually labeled datasets created with ground truth labels for receipt data including merchant, amount, category, currency, and date for training and evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1629.3,
+      "t_end": 1671.4,
+      "is_demoed": false,
+      "caveats": [
+        "Significant manual effort required"
+      ],
+      "tags": [
+        "datasets",
+        "ground truth",
+        "labeling",
+        "evaluation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Synthetic Data Generation for Edge Cases",
+      "description": "Synthetic datasets generated by LLM for both invoices and ground truth to capture corner cases not present in real receipts, identified through analysis and added as new test cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1701.9,
+      "t_end": 1728.6,
+      "is_demoed": false,
+      "caveats": [
+        "Synthetic data may not perfectly represent all real-world scenarios"
+      ],
+      "tags": [
+        "synthetic data",
+        "llm generation",
+        "corner cases",
+        "test cases"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated Quality Pipeline",
+      "description": "An automatic pipeline that runs data sets, applies quality metrics and accuracy heuristics to evaluate Expense Agent extraction results. The pipeline compares model output against ground truth using non-deterministic comparison with applied metrics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1758.2,
+      "t_end": 1815.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pipeline",
+        "quality metrics",
+        "accuracy",
+        "evaluation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "95 Percent Accuracy Requirement",
+      "description": "Microsoft requires a 95% accuracy threshold for shipping products. The Expense Agent started at 65% accuracy and needed improvement to meet the shipping requirement.",
+      "status": "ga",
+      "status_evidence_t": 1795.4,
+      "status_evidence_quote": "to ship in Microsoft something you need to go to a 95% accur Y and then when we started I don't know six plus",
+      "status_evidence_verified": true,
+      "t_start": 1815.5,
+      "t_end": 1826.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "accuracy",
+        "quality threshold",
+        "shipping requirement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Hill Climbing Loop",
+      "description": "An iterative improvement process that uses pipeline results to progressively improve model accuracy. Process involves fixing data set issues, improving prompts, and creating synthetic data sets to catch corner cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1826.2,
+      "t_end": 1890.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "hill climbing",
+        "iterative improvement",
+        "prompt engineering",
+        "data refinement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Comparison Framework",
+      "description": "Automated comparison of different language models (Anthropic, Claude, GPT variations) on the same evaluation pipeline. Shows model performance differences across specific tasks like currency extraction, date extraction, and other fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1890.2,
+      "t_end": 1924,
+      "is_demoed": true,
+      "caveats": [
+        "Comparison results depend on specific region availability and pricing"
+      ],
+      "tags": [
+        "model comparison",
+        "performance metrics",
+        "model selection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Harmful Eval Testing and Red Teaming",
+      "description": "Security-focused evaluation methodology using red teaming tools to produce test invoices with harmful content. Tests model resistance to producing unlawful or policy-violating outputs, addressing hate, unfairness, sexual harm and related issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1971.7,
+      "t_end": 2038.6,
+      "is_demoed": true,
+      "caveats": [
+        "Harmful eval testing has input but not necessarily output; desired output is for LLM to refuse generation"
+      ],
+      "tags": [
+        "security",
+        "red teaming",
+        "harmful content",
+        "policy violations"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Online Evals in Production",
+      "description": "Real-world evaluation running on production data with receipts from actual Expense Agent users. Uses LLM-as-judge methodology with another model validating against original input. Sends telemetry signals (no raw data) for mismatch scenarios to enable continuous hill climbing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2038.6,
+      "t_end": 2163.7,
+      "is_demoed": true,
+      "caveats": [
+        "No raw data emitted to telemetry, only privacy-preserving signals",
+        "Relies on LLM-as-judge which may not be perfect"
+      ],
+      "tags": [
+        "online evals",
+        "production data",
+        "telemetry",
+        "privacy",
+        "llm judge"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Eval-Driven Development",
+      "description": "Development methodology where evaluation comes first, similar to test-driven development. Process involves starting with evals and then writing code. Includes both offline and online eval types to enable model comparison and continuous hill climbing for accuracy improvement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2174.9,
+      "t_end": 2220.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "eval-driven development",
+        "test-driven development",
+        "methodology"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Agent Architecture",
+      "description": "A global service architecture where Expense Agent sits outside BC as a special agent. Serves both agentic and non-agentic clients, parsing receipts and passing data to ERP systems. Code generation was nearly 100% agentic, but architecture was compliance and people-driven.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2244.6,
+      "t_end": 2351.4,
+      "is_demoed": false,
+      "caveats": [
+        "Architecture is compliance-driven due to Microsoft security and privacy requirements",
+        "Uses Azure stack exclusively"
+      ],
+      "tags": [
+        "architecture",
+        "global service",
+        "compliance",
+        "security",
+        "privacy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure Front Door Entry Point",
+      "description": "Azure Front Door serves as the main entry point for the Expense Agent public global service. Required by Microsoft for public facing services, providing out-of-the-box reliability, design features, and multiple infrastructure capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2366.2,
+      "t_end": 2409.4,
+      "is_demoed": false,
+      "caveats": [
+        "Mandatory for all public Microsoft services"
+      ],
+      "tags": [
+        "azure front door",
+        "infrastructure",
+        "entry point",
+        "reliability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Gateway Component",
+      "description": "Python-based App Service component that sits after Azure Front Door in the Expense Agent service architecture. Lightweight stateless pass-through component handling critical authorization and authentication functions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2409.4,
+      "t_end": 2433.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "gateway",
+        "authentication",
+        "authorization",
+        "python app service"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Global Service Instances",
+      "description": "Multiple Expense Agent service instances deployed globally working together with Azure Front Door to provide automatic routing and proximity to clients in different regions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2433.9,
+      "t_end": 2446.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "global deployment",
+        "routing",
+        "geo-proximity"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Authorization and Authentication Flow",
+      "description": "The expense agent uses tenant ID and user email claims to authenticate users and locate their Business Central environment through a broadcasting mechanism with Redis caching to optimize repeated lookups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2596.5,
+      "t_end": 2675.7,
+      "is_demoed": false,
+      "caveats": [
+        "Broadcasting mechanism can stress the system if not cached efficiently",
+        "Uses Redis cache to avoid repeated broadcasts"
+      ],
+      "tags": [
+        "authorization",
+        "authentication",
+        "tenant",
+        "redis cache"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure Architecture Components",
+      "description": "The expense agent is built on Azure infrastructure with Azure Front Door as entry point, a Python-based gateway component for authentication and authorization, and Azure Functions-based processors for expense parsing and orchestration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2340.9,
+      "t_end": 2491.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Azure resources across multiple regions for global service",
+        "Uses durable entities for orchestration"
+      ],
+      "tags": [
+        "azure",
+        "architecture",
+        "front door",
+        "python",
+        "azure functions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Expense Management Module",
+      "description": "A new Business Central functionality providing expense management capabilities independent of the agent. It includes features for managing expenses, though less automated than when used with the expense agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2987.5,
+      "t_end": 3021,
+      "is_demoed": false,
+      "caveats": [
+        "Has fewer functionalities when used without the expense agent",
+        "Expense agent recommended for full functionality"
+      ],
+      "tags": [
+        "expense management",
+        "module",
+        "business central"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense Users Entity",
+      "description": "A new Business Central entity that allows creation of expense users attached to employees. These users do not require a Business Central license and can submit expenses via web app, mobile app, or shared mailbox. Can be bulk imported from existing employees or from organizational directory via Graph API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3113.2,
+      "t_end": 3232.2,
+      "is_demoed": true,
+      "caveats": [
+        "Do not require Business Central licenses",
+        "Must be created before users can submit expenses"
+      ],
+      "tags": [
+        "expense users",
+        "employee",
+        "configuration",
+        "graph api"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Shared Mailbox Integration",
+      "description": "Expense users can submit expenses through a shared mailbox where all submission emails are registered in the system. This is one of the supported submission channels alongside the web app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3100.8,
+      "t_end": 3232.2,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to 100 emails per company in shared email scenario"
+      ],
+      "tags": [
+        "shared mailbox",
+        "expense submission",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Mobile Client Support",
+      "description": "Mobile app support for the expense agent is coming soon, allowing users to submit expenses from mobile devices in addition to web and shared mailbox options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3113.2,
+      "t_end": 3130.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available at time of presentation"
+      ],
+      "tags": [
+        "mobile",
+        "client",
+        "upcoming"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Import Existing Employees as Expense Users",
+      "description": "Action to import all existing employees into the system as expense users with a single button press, using graph API to pull all registered organization members with correct information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3178.8,
+      "t_end": 3208,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "import",
+        "bulk setup",
+        "graph api"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Welcome Email for Expense Users",
+      "description": "Automated welcome email sent to expense users containing instructions on how to use the expense agent, links to access the web app, email submission details, and other getting started information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3208,
+      "t_end": 3247.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "onboarding",
+        "welcome",
+        "communication"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense User Approver Configuration",
+      "description": "Ability to designate expense users as approvers and configure which other users they can approve expenses for. Supports both manual per-user setup and default approver configuration at the system level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3274.2,
+      "t_end": 3301.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval workflow",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Default Configurations for Agent Activation",
+      "description": "Option to auto-create default configurations including number series, payment methods, employee posting groups, and expense posting groups on first agent activation. Only needs to be configured once.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3312.7,
+      "t_end": 3395.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "defaults",
+        "posting groups"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense Categories with Descriptions",
+      "description": "Configurable expense categories where detailed descriptions act as prompts for the agent to correctly categorize expenses. Each category can have default payment type, refundability settings, and required additional information like itemization or participants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3408,
+      "t_end": 3519.6,
+      "is_demoed": true,
+      "caveats": [
+        "Agent accuracy depends on category description quality"
+      ],
+      "tags": [
+        "categories",
+        "classification",
+        "ai prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Subcategories",
+      "description": "Sub-level categorization within main expense categories, also using descriptions as prompts for agent itemization. Allows fine-grained control such as marking specific line items as non-refundable while the overall category is refundable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3519.6,
+      "t_end": 3567.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subcategories",
+        "itemization",
+        "refundability"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Per Diem and Location Configuration",
+      "description": "Location-based per diem calculation that allows different configurations by state rather than country. Supports regional variations such as different per diem rates between New York and New Jersey.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3609.5,
+      "t_end": 3632.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "per diem",
+        "location",
+        "regional"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense Rules Configuration",
+      "description": "Hard rules based on logical and mathematical conditions such as minimum/maximum amounts, requiring justification above certain thresholds, and controlling which categories require specific information like participants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3632.2,
+      "t_end": 3708.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "rules",
+        "compliance",
+        "validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Policies",
+      "description": "Natural language policies that allow specification of scenarios such as when business class can be booked, four-star hotel eligibility, or when alcohol can be expensed based on context like team events versus personal dinners.",
+      "status": "announced",
+      "status_evidence_t": 3781.8,
+      "status_evidence_quote": "we are working for the policies as well uh which will come uh pretty soon",
+      "status_evidence_verified": true,
+      "t_start": 3745,
+      "t_end": 3803.9,
+      "is_demoed": true,
+      "caveats": [
+        "Not yet available; currently at policy document stage"
+      ],
+      "tags": [
+        "policies",
+        "natural language",
+        "contextual"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Report Open Notification",
+      "description": "Configurable reminder feature that notifies expense users when they have open reports requiring attention. Notifications can be sent at configurable intervals to help users remember to upload and complete reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3811.1,
+      "t_end": 3847.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "reminders",
+        "follow-up"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mileage Expense Configuration",
+      "description": "Configurable settings for mileage expense calculation and per diem configuration within the simplified expense agent setup dialog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3859,
+      "t_end": 3877.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mileage",
+        "per diem"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense Agent Consumption Tracking",
+      "description": "Admin page showing billing overview including different actions taken on specific reports, co-pilot credits used, and overall usage metrics for the expense agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3899.4,
+      "t_end": 3936.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "consumption",
+        "billing",
+        "admin"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Agent KPIs",
+      "description": "Key performance indicator display showing metrics including emails processed via email attachment, expenses created, reports created, and calculated time savings based on telemetry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3923,
+      "t_end": 3955.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "kpis",
+        "metrics",
+        "time savings"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Expense Report View and Adjustment",
+      "description": "Finance operator page allowing viewing all expense reports across the organization, opening individual reports to see all lines and attachments submitted by each expense user, and making manual adjustments to line items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3962.8,
+      "t_end": 4018.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "approval",
+        "adjustment"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Intelligent Reimbursement Classification",
+      "description": "Agent logic that determines reimbursement amounts based on payment method - reimburses cash payments but not company card payments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4048.9,
+      "t_end": 4076.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reimbursement",
+        "payment method",
+        "intelligence"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Refundable Classification Tab",
+      "description": "Tab in expense lines showing which expenses are categorized as refundable and which are not.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4076.9,
+      "t_end": 4094.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "refundable",
+        "categorization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Billable Expense Line Marking",
+      "description": "Feature allowing administrators to mark individual expense lines as billable to specific customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4094.6,
+      "t_end": 4110.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billable",
+        "customer",
+        "invoicing"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Project Attachment to Expenses",
+      "description": "Ability to attach projects to individual expense lines or full reports for cost allocation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4110.6,
+      "t_end": 4141.2,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only available from desktop, web app version is work in progress"
+      ],
+      "tags": [
+        "project",
+        "cost allocation",
+        "integration"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Expense Posting Workflow",
+      "description": "Posting flow where approved expense reports are converted to GL entries and familiar Business Central posting mechanics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4152.6,
+      "t_end": 4199.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting",
+        "approval",
+        "gl entries"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense-Level Feedback with Thumbnails",
+      "description": "Thumbs up/down feedback mechanism at individual expense level with optional screenshot capture and privacy controls for issue reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4225.7,
+      "t_end": 4278.5,
+      "is_demoed": true,
+      "caveats": [
+        "Screenshot capture available but users can hide personal information"
+      ],
+      "tags": [
+        "feedback",
+        "user experience",
+        "issue reporting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Generic Feature Feedback Mechanism",
+      "description": "Feedback channel for suggesting missing features or general product improvement requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4289.5,
+      "t_end": 4320.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "feature requests"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Opus 4.5",
+      "t": 1085.4
+    },
+    {
+      "type": "other",
+      "name": "GitHub Copilot CLI",
+      "t": 1103.4
+    },
+    {
+      "type": "other",
+      "name": "LLM judge",
+      "t": 1460.2
+    },
+    {
+      "type": "other",
+      "name": "Azure Front Door",
+      "t": 2378.4
+    },
+    {
+      "type": "other",
+      "name": "Gateway",
+      "t": 2422.6
+    },
+    {
+      "type": "other",
+      "name": "Sales Order Agent",
+      "t": 3066.4
+    },
+    {
+      "type": "other",
+      "name": "Payable Agent",
+      "t": 3066.4
+    },
+    {
+      "type": "other",
+      "name": "Expense Agent",
+      "t": 3066.4
+    },
+    {
+      "type": "other",
+      "name": "Graph API",
+      "t": 3178.8
+    },
+    {
+      "type": "page",
+      "name": "expense report",
+      "t": 3962.8
+    },
+    {
+      "type": "page",
+      "name": "expense agent setup page",
+      "t": 3877.1
+    },
+    {
+      "type": "page",
+      "name": "agent consumption page",
+      "t": 3899.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Christian",
+      "confidence": "medium"
+    },
+    {
+      "name": "Casim",
+      "confidence": "medium"
+    },
+    {
+      "name": "Michael",
+      "confidence": "high"
+    },
+    {
+      "name": "Cyprin",
+      "confidence": "low"
+    },
+    {
+      "name": "Claus",
+      "confidence": "medium"
+    },
+    {
+      "name": "Cloudu",
+      "confidence": "low"
+    },
+    {
+      "name": "Sepan",
+      "confidence": "high"
+    },
+    {
+      "name": "Kasim",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.4,
+      "text": "It's still in preview will be for a little while. uh very important that we get the the feedback back.",
+      "why_it_matters": "Establishes the preview status of the expense agent and highlights feedback importance for development.",
+      "check": "exact"
+    },
+    {
+      "t": 56.8,
+      "text": "this expense agent is not a conventional business central agent",
+      "why_it_matters": "Clarifies that this is a fundamentally different architectural approach from traditional BC agents.",
+      "check": "exact"
+    },
+    {
+      "t": 100,
+      "text": "we wanted nonBC users I mean all your employees don't you wouldn't like to have a to buy a license for all the employees",
+      "why_it_matters": "Explains key design goal to avoid licensing burden for broad employee populations using the expense agent.",
+      "check": "exact"
+    },
+    {
+      "t": 118,
+      "text": "we are still using BC as the back end. It's where all data goes. It doesn't go anywhere else really.",
+      "why_it_matters": "Clarifies that despite external UI, Business Central remains the authoritative backend for all expense data.",
+      "check": "exact"
+    },
+    {
+      "t": 331.8,
+      "text": "this actually works remarkably well and uh and uh actually cuts out a lot of humans errors",
+      "why_it_matters": "Demonstrates the value and effectiveness of AI-powered receipt extraction in reducing manual entry errors.",
+      "check": "exact"
+    },
+    {
+      "t": 453.4,
+      "text": "we support the whole perdm calculation because this is just an itinerary",
+      "why_it_matters": "Shows intelligent handling of different receipt types with automatic per diem allowance calculation from travel itineraries.",
+      "check": "exact"
+    },
+    {
+      "t": 575.1,
+      "text": "it just does all these conversions automatically",
+      "why_it_matters": "Highlights automatic multi-currency handling to support global employee expense submissions.",
+      "check": "exact"
+    },
+    {
+      "t": 796.3,
+      "text": "we will run and evaluate and uh and uh to ensure uh that it follows the practices or the policies and and rules your",
+      "why_it_matters": "Explains the compliance checking capability that ensures expenses meet company policies before approval.",
+      "check": "exact"
+    },
+    {
+      "t": 1030.1,
+      "text": "the AI first thing um is uh I mean is probably the real groundbreaking thing here right because when we started like 12 n",
+      "why_it_matters": "Positions AI-first development as a fundamental innovation in the expense agent project.",
+      "check": "exact"
+    },
+    {
+      "t": 1072.4,
+      "text": "all of the expense agent is engineered. Um no one likes 100%. So we put 99% plus. But in reality, no one writes any",
+      "why_it_matters": "Demonstrates the extent of AI-assisted code generation in the project, showing 99% automation.",
+      "check": "exact"
+    },
+    {
+      "t": 1133.7,
+      "text": "we actually put all of the system into one repo. This has actually been a key thing for us to really have the aentic",
+      "why_it_matters": "Reveals architectural decision to use single repository to enable AI cross-stack coordination.",
+      "check": "exact"
+    },
+    {
+      "t": 1192.2,
+      "text": "We're even working on like truly policy validation from written policies. We're not quite there yet.",
+      "why_it_matters": "Indicates policy validation from documents is in progress but not yet complete, showing preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 1353.8,
+      "text": "this doesn't really work with agentic systems because uh I guess everyone knows here that LLMs are probabilistic. So not deterministic.",
+      "why_it_matters": "Explains why traditional deterministic testing fails for LLM-based systems, motivating the need for evals.",
+      "check": "exact"
+    },
+    {
+      "t": 1542.5,
+      "text": "at Microsoft in order to be able to ship in production uh an agentic system you need to have at least 95% accuracy which",
+      "why_it_matters": "States the production accuracy requirement for agentic systems at Microsoft.",
+      "check": "exact"
+    },
+    {
+      "t": 1660.2,
+      "text": "For expense agent, we prepared 1,500 of these data sets. Most of them are manual labeling.",
+      "why_it_matters": "Quantifies the dataset preparation effort with 1,500 manually labeled datasets for training and evaluation.",
+      "check": "exact"
+    },
+    {
+      "t": 1660.2,
+      "text": "For expense agent, we prepared 1,500 of these data sets.",
+      "why_it_matters": "Establishes the scale of training data and manual labeling effort invested in the Expense Agent product.",
+      "check": "exact"
+    },
+    {
+      "t": 1795.4,
+      "text": "to ship in Microsoft something you need to go to a 95% accur Y and then when we started I don't know six plus",
+      "why_it_matters": "Quantifies the accuracy improvement requirement and initial gap that drove the hill climbing optimization work.",
+      "check": "snapped"
+    },
+    {
+      "t": 1826.2,
+      "text": "what is a hill climbing loop so we have our pipeline that does the model extraction and validation quality matching and then with those",
+      "why_it_matters": "Explains the core iterative improvement methodology used to reach production-ready accuracy levels.",
+      "check": "exact"
+    },
+    {
+      "t": 1988.8,
+      "text": "we have something that is called harmful eval testing which is a red teaming uh methodology.",
+      "why_it_matters": "Describes Microsoft's security validation approach to ensure the agent resists harmful output generation.",
+      "check": "exact"
+    },
+    {
+      "t": 2067.2,
+      "text": "So in the offline evals sorry on the online evals we run this in real production data",
+      "why_it_matters": "Indicates that evaluation continues in production with real user receipts, not just offline testing.",
+      "check": "exact"
+    },
+    {
+      "t": 2143.3,
+      "text": "what the LLM is doing with this score it's sending telemetry events but no worries at Microsoft we value privacy so no data is",
+      "why_it_matters": "Clarifies privacy protections in telemetry collection, sending only signals rather than raw user data.",
+      "check": "exact"
+    },
+    {
+      "t": 2174.9,
+      "text": "eval first mindset I think Michael mentioned that uh it's actually pretty much like eval uh testdriven sorry eval yeah driven development you always",
+      "why_it_matters": "Defines the evaluation-first development philosophy used for building the Expense Agent.",
+      "check": "exact"
+    },
+    {
+      "t": 2255.5,
+      "text": "So as Michael mentioned when we started some months ago there was some view and requirement. So the view was that this is a",
+      "why_it_matters": "Clarifies the architectural decision to position Expense Agent as an external service rather than embedded in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 2477.2,
+      "text": "we used Azure functions because of few reasons, but two are like it offers out of the box some orchestration and is the orchestration",
+      "why_it_matters": "Explains the architectural choice for using Azure Functions instead of other compute options",
+      "check": "exact"
+    },
+    {
+      "t": 2697,
+      "text": "We have a limit of file size of 10 megabytes which I think is fairly enough for any regular uh invoice",
+      "why_it_matters": "Documents a specific technical limit on individual expense submissions",
+      "check": "exact"
+    },
+    {
+      "t": 2710.2,
+      "text": "the batch should not have more than 25 files and the full size of the batch should be maximum 50 megabytes",
+      "why_it_matters": "Defines batch processing constraints for expense submissions",
+      "check": "exact"
+    },
+    {
+      "t": 2739.2,
+      "text": "each expense user can submit maximum 50 expenses per company per day and those are like running windows",
+      "why_it_matters": "Specifies rate limiting for expense submissions with rolling window calculation",
+      "check": "exact"
+    },
+    {
+      "t": 2937.4,
+      "text": "as we speak right now uh we are in public preview",
+      "why_it_matters": "Establishes the current status of the expense agent as a preview feature, not generally available",
+      "check": "exact"
+    },
+    {
+      "t": 2953.1,
+      "text": "there are few things that you still have to do manually. For example, setting the uh for example the mileage information or the posting",
+      "why_it_matters": "Clarifies current limitations of the preview - not all expense processes are automated yet",
+      "check": "exact"
+    },
+    {
+      "t": 2973.4,
+      "text": "this is our goal uh on our speedboard uh we want to do in in coming months uh and you will be able to",
+      "why_it_matters": "Indicates future automation roadmap items coming in the near term beyond current preview",
+      "check": "exact"
+    },
+    {
+      "t": 3147.3,
+      "text": "these user do not need a BC license. Uh they are communicating either through the web app, mobile app or sending expense through the",
+      "why_it_matters": "Key design decision that expense users do not consume Business Central licenses, lowering cost of adoption",
+      "check": "exact"
+    },
+    {
+      "t": 3147.3,
+      "text": "we have created this completely new entity uh inside BC which we call expense users uh which are attached to the employees",
+      "why_it_matters": "Establishes that expense users are a new core entity supporting the agent, distinct from employees and requiring specific setup.",
+      "check": "exact"
+    },
+    {
+      "t": 3147.3,
+      "text": "these user do not need a BC license",
+      "why_it_matters": "Key business value proposition: expense users can participate without full Business Central licensing costs.",
+      "check": "exact"
+    },
+    {
+      "t": 3178.8,
+      "text": "You can import all the existing employees that you already have by just uh uh pressing this action",
+      "why_it_matters": "Simplified onboarding mechanism for organizations with existing employee records reduces manual setup effort.",
+      "check": "exact"
+    },
+    {
+      "t": 3428,
+      "text": "the description for each category is very important. This acts like a prompt. So the more detail that you have for a particular category,",
+      "why_it_matters": "Reveals agent design dependency on high-quality configuration data; success is not automatic but requires thoughtful category design.",
+      "check": "exact"
+    },
+    {
+      "t": 3781.8,
+      "text": "we are working for the policies as well uh which will come uh pretty soon",
+      "why_it_matters": "Indicates announced feature: natural language policies for contextual business rules not yet available in current release.",
+      "check": "exact"
+    },
+    {
+      "t": 3887.6,
+      "text": "to get uh started uh you can simply use uh what we have in the main dialogue",
+      "why_it_matters": "Demonstrates phased complexity approach: basic setup via simplified dialog with optional advanced configuration available separately.",
+      "check": "exact"
+    },
+    {
+      "t": 3923,
+      "text": "you have the standard uh KPIs as well",
+      "why_it_matters": "Confirms standard KPI availability for tracking expense agent performance metrics.",
+      "check": "exact"
+    },
+    {
+      "t": 3936.1,
+      "text": "how much time was saved uh which is more uh the calculation that we have done through telemetry",
+      "why_it_matters": "Shows adoption of telemetry-based metrics for quantifying agent productivity impact to organizations.",
+      "check": "exact"
+    },
+    {
+      "t": 4018.5,
+      "text": "when the uh the expense are being submitted through an agent uh they are first uh submitted as an expense and once everything is",
+      "why_it_matters": "Explains the data model difference between agent-based and non-agent expense workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 4059,
+      "text": "the agent was smart enough to know okay this was already paid by the company card. So I do not need to reimburse that",
+      "why_it_matters": "Demonstrates intelligent reimbursement logic based on payment method classification.",
+      "check": "exact"
+    },
+    {
+      "t": 4125,
+      "text": "pretty soon uh the expense users will also be able to attach a project from the web app as well. Uh that's work in",
+      "why_it_matters": "Indicates project attachment feature is coming to web app but currently only available on desktop.",
+      "check": "exact"
+    },
+    {
+      "t": 4205.4,
+      "text": "this is a new and still in public preview and uh feedback is very important uh to us at this point and this is",
+      "why_it_matters": "Establishes that expense agent remains in public preview and emphasizes feedback importance for product development.",
+      "check": "exact"
+    },
+    {
+      "t": 4320.2,
+      "text": "we are already in public preview. Uh we are in US only. More regions will come next month",
+      "why_it_matters": "Clarifies geographic availability and timeline for expansion beyond US market.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 46.4,
+      "kind": "preview",
+      "text": "It's still in preview will be for a little while"
+    },
+    {
+      "t": 1192.2,
+      "kind": "preview",
+      "text": "We're even working on like truly policy validation from written policies. We're not quite there yet."
+    },
+    {
+      "t": 2038.6,
+      "kind": "other",
+      "text": "the 1,500 data sets we have maybe is not enough because the as I said the universe of uh of ..."
+    },
+    {
+      "t": 2232.1,
+      "kind": "other",
+      "text": "there is a session in couple of hours from my colleagues Claus and Cloudu which they will talk more in ..."
+    },
+    {
+      "t": 2751.5,
+      "kind": "subject-to-change",
+      "text": "if you feel that this doesn't fit your need or maybe you want them configurable because now are hardcoded please ..."
+    },
+    {
+      "t": 2937.4,
+      "kind": "preview",
+      "text": "as we speak right now uh we are in public preview"
+    },
+    {
+      "t": 2953.1,
+      "kind": "subject-to-change",
+      "text": "there are few things that you still have to do manually. For example, setting the uh for example the mileage ..."
+    },
+    {
+      "t": 2973.4,
+      "kind": "coming-later",
+      "text": "this is our goal uh on our speedboard uh we want to do in in coming months"
+    },
+    {
+      "t": 3113.2,
+      "kind": "coming-later",
+      "text": "pretty soon we will also have the mobile client as well"
+    },
+    {
+      "t": 3781.8,
+      "kind": "coming-later",
+      "text": "we are working for the policies as well uh which will come uh pretty soon"
+    },
+    {
+      "t": 4125,
+      "kind": "coming-later",
+      "text": "pretty soon uh the expense users will also be able to attach a project from the web app as well. ..."
+    },
+    {
+      "t": 4205.4,
+      "kind": "preview",
+      "text": "this is a new and still in public preview"
+    },
+    {
+      "t": 4320.2,
+      "kind": "coming-later",
+      "text": "we are in US only. More regions will come next month"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 44,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 56
+  },
+  "windows": 6,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "video_id": "vcKHOR4p1MQ",
+  "item_id": "video/yt-mibuso/vcKHOR4p1MQ",
+  "title": "Microsoft presents: Looking ahead: the future of AL-Go and BCContainerHelper",
+  "duration_s": 2828,
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "al-go",
+    "bccontainerhelper deprecation",
+    "workspace compilation",
+    "ci-cd",
+    "agentic engineering",
+    "github actions",
+    "business central apps",
+    "container technology",
+    "devops",
+    "powershell migration",
+    "linux support",
+    "pipeline optimization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Container Helper deprecation",
+      "t_start": 0,
+      "t_end": 56
+    },
+    {
+      "title": "Looking back nine years",
+      "t_start": 56,
+      "t_end": 166.5
+    },
+    {
+      "title": "Container Helper history and growth",
+      "t_start": 166.5,
+      "t_end": 313.2
+    },
+    {
+      "title": "Container Helper maintenance challenges and deprecation date",
+      "t_start": 313.2,
+      "t_end": 366.5
+    },
+    {
+      "title": "Container Helper usage scenarios",
+      "t_start": 366.5,
+      "t_end": 461.3
+    },
+    {
+      "title": "Vision for agentic engineering and AL-Go for GitHub",
+      "t_start": 461.3,
+      "t_end": 556.2
+    },
+    {
+      "title": "Moving Business Central to BC Apps on AL-Go",
+      "t_start": 556.2,
+      "t_end": 656.9
+    },
+    {
+      "title": "AL-Go improvements and future features",
+      "t_start": 656.9,
+      "t_end": 898.8
+    },
+    {
+      "title": "BC Container Helper deprecation and replacement strategy",
+      "t_start": 898.8,
+      "t_end": 1088.2
+    },
+    {
+      "title": "BC Container Helper 2 parameters and support timeline",
+      "t_start": 1088.2,
+      "t_end": 1261.2
+    },
+    {
+      "title": "Migration roadmap and pipeline optimization",
+      "t_start": 1261.2,
+      "t_end": 1679.3
+    },
+    {
+      "title": "Repository strategy and platform support discussion",
+      "t_start": 1679.3,
+      "t_end": 2017
+    },
+    {
+      "title": "Azure DevOps vs GitHub and container performance considerations",
+      "t_start": 2017,
+      "t_end": 2454.6
+    },
+    {
+      "title": "PowerShell migration and local development vision",
+      "t_start": 2454.6,
+      "t_end": 2828
+    }
+  ],
+  "features": [
+    {
+      "name": "Container Helper",
+      "description": "A tool that allows running NAV and Business Central in containers for development and verification, launched approximately nine years ago. Over the last week it provisioned more than 75,000 containers, compiled half a million apps and published about a million apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.5,
+      "t_end": 945.7,
+      "is_demoed": false,
+      "caveats": [
+        "Being deprecated as of October 1st, 2027",
+        "Growing unmaintainable over time",
+        "Will become community-maintained project after deprecation"
+      ],
+      "tags": [
+        "deprecation",
+        "containers",
+        "development",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go for GitHub",
+      "description": "A central platform for CI/CD pipelines, PR builds, and deployment to app stores that is becoming the core of Business Central development. It integrates GitHub capabilities and will be the foundation for agentic engineering features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 461.3,
+      "t_end": 2017,
+      "is_demoed": false,
+      "caveats": [
+        "Requires GitHub as platform",
+        "Scale considerations for large codebases",
+        "GitHub-specific with richer AI integration capabilities"
+      ],
+      "tags": [
+        "ci-cd",
+        "github",
+        "devops",
+        "agentic engineering",
+        "pipeline"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workspace compilation",
+      "description": "A compilation mode in AL-Go that accepts a workspace of multiple apps instead of compiling them one at a time, allowing the compiler to figure out dependency trees and compile apps in parallel. Significantly improves compilation time for repositories with many apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 693.8,
+      "t_end": 1679.3,
+      "is_demoed": false,
+      "caveats": [
+        "Most beneficial with 10+ apps in a repository",
+        "Less relevant for small codebases",
+        "Only available through AL-Go, not BC Container Helper"
+      ],
+      "tags": [
+        "compilation",
+        "performance",
+        "al-go",
+        "compiler"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Build hooks in AL-Go",
+      "description": "Customization feature that allows hooking into certain parts of the CI/CD process to run custom scripts. Currently includes build initialize which runs at the beginning of the build, with build finalize coming as well.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.9,
+      "t_end": 766.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "ci-cd",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test-only projects in AL-Go",
+      "description": "A feature that lets you shift compilation to one job and then do all testing in another job, providing a quicker feedback loop during development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 794.8,
+      "t_end": 818.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "ci-cd",
+        "al-go",
+        "feedback"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code coverage in AL-Go",
+      "description": "A feature being developed for AL-Go that will provide code coverage metrics.",
+      "status": "announced",
+      "status_evidence_t": 831.6,
+      "status_evidence_quote": "Code coverage is one that's coming soon",
+      "status_evidence_verified": true,
+      "t_start": 831.6,
+      "t_end": 841.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "quality",
+        "metrics",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automatic reruns on flaky tests",
+      "description": "A feature coming to AL-Go that will automatically retry tests that intermittently fail, with flaky test management in general.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.6,
+      "t_end": 841.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "reliability",
+        "flaky tests",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Improved incremental builds",
+      "description": "A planned improvement to AL-Go for faster build times by only rebuilding changed components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.6,
+      "t_end": 841.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "builds",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Turn-based testing",
+      "description": "A feature that will run tests based on what parts of the application have changed, avoiding full test suite execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 841.6,
+      "t_end": 854.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "smart testing",
+        "performance",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "PR reviewer agent",
+      "description": "An agent being developed for AL-Go for GitHub that automatically reviews pull requests. Currently in testing and dogfooding phase with the BC internal engineering team.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 854.6,
+      "t_end": 867.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in testing phase",
+        "Will be opt-in when released",
+        "Currently internal dogfood, not yet available to customers"
+      ],
+      "tags": [
+        "agentic engineering",
+        "pr review",
+        "ai",
+        "github",
+        "code-review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC Container Helper 2 module",
+      "description": "A replacement module focused on core functionality around the life cycle of BC environments, including provisioning containers, deprovisioning, and running scripts inside containers. It will be a separate, independent module available for download.",
+      "status": "announced",
+      "status_evidence_t": 945.7,
+      "status_evidence_quote": "the BC Container Helper will be kind of split apart. Uh for now, we don't have a better name. We call it BC Container",
+      "status_evidence_verified": true,
+      "t_start": 945.7,
+      "t_end": 1088.2,
+      "is_demoed": false,
+      "caveats": [
+        "Name subject to change",
+        "Planned for delivery by end of 2026",
+        "Will not have full feature parity with BC Container Helper",
+        "AppSource submission functionality location still being determined",
+        "No plans currently for additional modules beyond two"
+      ],
+      "tags": [
+        "bc-container-helper",
+        "module",
+        "containers",
+        "lifecycle",
+        "architecture"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC Apps repository",
+      "description": "An open source repository on GitHub that will contain the entire Business Central application source code including the base app and all associated apps. Moving 15 million lines of AL code and 35,000 AL files, planned for June.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 569.9,
+      "t_end": 2084.1,
+      "is_demoed": false,
+      "caveats": [
+        "May reserve some apps while working on announcements",
+        "Deadline is June but has already experienced some delays",
+        "Consolidates BC apps repo which already has community contributions"
+      ],
+      "tags": [
+        "open source",
+        "github",
+        "business central",
+        "transparency",
+        "bc-apps"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Gradual AL-Go module migration",
+      "description": "Plan to gradually migrate functionality from BC Container Helper into the new AL-Go module over time rather than doing a big bang roll-out, allowing continuous feature addition and evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1613,
+      "t_end": 1623.6,
+      "is_demoed": false,
+      "caveats": [
+        "No specific timeline provided",
+        "Requires test infrastructure for validation"
+      ],
+      "tags": [
+        "migration",
+        "al-go",
+        "bc-container-helper",
+        "planning"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pipeline decomposition",
+      "description": "Plans to break down and thin out the AL-Go pipelines, especially for pull requests, by moving compilation and other operations out of run AL pipeline to improve build times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1644.5,
+      "t_end": 1701,
+      "is_demoed": false,
+      "caveats": [
+        "Incremental approach - not all changes at once",
+        "Performance gains depend on container provisioning improvements"
+      ],
+      "tags": [
+        "performance",
+        "pipeline",
+        "optimization",
+        "pull-requests",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Open repository for new BC Container Helper",
+      "description": "Plan to make the new BC Container Helper code available in an open repository as soon as at least one scenario from AL-Go is flowing through the new module and working.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1868.4,
+      "t_end": 1927.2,
+      "is_demoed": false,
+      "caveats": [
+        "Availability dependent on having working scenarios",
+        "Pre-release branch availability to be determined based on customer needs"
+      ],
+      "tags": [
+        "open-source",
+        "community",
+        "testing",
+        "al-go",
+        "bc-container-helper"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Tool",
+      "description": "A standard tool that can be invoked from any pipeline, not tied to GitHub specifically. Works with both GitHub and Azure DevOps pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2003.6,
+      "t_end": 2017,
+      "is_demoed": false,
+      "caveats": [
+        "Only AL-Go is GitHub-specific, not AL Tool"
+      ],
+      "tags": [
+        "tool",
+        "pipeline",
+        "devops",
+        "standard"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central apps repository consolidation",
+      "description": "Plan to consolidate the open source pilot by making the Business Central app suite repository public, eliminating the need for separate open source and private repositories.",
+      "status": "announced",
+      "status_evidence_t": 2060.5,
+      "status_evidence_quote": "the open source pilot will be killed because there will be no need for an open source. It's not a pilot anymore basically.",
+      "status_evidence_verified": true,
+      "t_start": 2044.8,
+      "t_end": 2084.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open-source",
+        "repository",
+        "bc-apps",
+        "consolidation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Container performance improvements",
+      "description": "Awareness of container deployment slowness in both local environments and build pipelines. Team is aware this is a problem but has no concrete plans yet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2292.7,
+      "t_end": 2338.2,
+      "is_demoed": false,
+      "caveats": [
+        "Performance issues largely due to Windows containers and disk operations, not BC-specific",
+        "No concrete timeline"
+      ],
+      "tags": [
+        "containers",
+        "performance",
+        "deployment",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Linux support for BC Service",
+      "description": "No official plans currently to run the BC service on Linux, though it does run with some hacks. Discussions happening internally about this possibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2348,
+      "t_end": 2404.8,
+      "is_demoed": false,
+      "caveats": [
+        "Missing functionality in Linux compared to Windows",
+        "Would benefit AL-Go by making containers faster and cheaper to run",
+        "Only runs on Windows officially"
+      ],
+      "tags": [
+        "linux",
+        "containers",
+        "performance",
+        "infrastructure",
+        "service"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "ALOps integration planning",
+      "description": "Regular meetings planned with ALOps team to ensure seamless integration of new AL-Go and BC Container Helper changes with ALOps for Azure DevOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2417.3,
+      "t_end": 2438.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "alops",
+        "azure-devops",
+        "integration",
+        "partnership"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Partner authentication in BC Container Helper pipeline",
+      "description": "Partner teams can use their existing authentication context and refresh tokens to work with multiple customer tenants without creating separate client credentials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2460.4,
+      "t_end": 2541.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "authentication",
+        "partner",
+        "bccontainerhelper",
+        "devops"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PowerShell commandlet redesign to use NST APIs",
+      "description": "Core functionality is being moved behind commandlets into the NST itself, making commandlets much slimmer and calling APIs on NST instead of direct implementation.",
+      "status": "announced",
+      "status_evidence_t": 2601.6,
+      "status_evidence_quote": "there are some changes coming that actually I'm not probably not officially, but will kind of introduce support for PowerShell 5 again.",
+      "status_evidence_verified": true,
+      "t_start": 2588.8,
+      "t_end": 2631.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not officially announced",
+        "Not an excuse to avoid moving to PowerShell 7"
+      ],
+      "tags": [
+        "powershell",
+        "commandlets",
+        "bccontainerhelper",
+        "api",
+        "nst"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Migration to GitHub for agentic engineering",
+      "description": "Microsoft is shifting to GitHub because it has richer functionality and better integration for agentic and AI engineering compared to Azure DevOps out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2648.3,
+      "t_end": 2717.9,
+      "is_demoed": false,
+      "caveats": [
+        "GitHub lacks some Azure DevOps fundamentals like better permission setups"
+      ],
+      "tags": [
+        "github",
+        "azure devops",
+        "agentic engineering",
+        "devops",
+        "platform strategy"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Local development environment vision",
+      "description": "Future local development will still require local containers for agents to interact with for publishing, running tests, and other development tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2732.6,
+      "t_end": 2777.3,
+      "is_demoed": false,
+      "caveats": [
+        "Predicting the future is very hard",
+        "Subject to change based on technology evolution"
+      ],
+      "tags": [
+        "local development",
+        "containers",
+        "agents",
+        "vision"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCContainerHelper CLI instead of PowerShell module",
+      "description": "BCContainerHelper H2 module will be implemented as a CLI to run everywhere across different environments and runners, rather than as a PowerShell module tied to specific versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2787.7,
+      "t_end": 2825.8,
+      "is_demoed": false,
+      "caveats": [
+        "Still in development and planning phase"
+      ],
+      "tags": [
+        "bccontainerhelper",
+        "cli",
+        "powershell",
+        "cross-platform"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC Apps",
+      "t": 569.9
+    },
+    {
+      "type": "other",
+      "name": "run AL pipeline",
+      "t": 1629.4
+    },
+    {
+      "type": "other",
+      "name": "BC Container Helper",
+      "t": 1669
+    },
+    {
+      "type": "other",
+      "name": "AL Tool",
+      "t": 1735.4
+    },
+    {
+      "type": "other",
+      "name": "BC apps repo",
+      "t": 2070.7
+    },
+    {
+      "type": "other",
+      "name": "Business Central app suite",
+      "t": 2044.8
+    },
+    {
+      "type": "other",
+      "name": "NST",
+      "t": 2362.2
+    },
+    {
+      "type": "other",
+      "name": "ALOps",
+      "t": 2427.3
+    },
+    {
+      "type": "other",
+      "name": "Alpaca",
+      "t": 2427.3
+    },
+    {
+      "type": "other",
+      "name": "BCContainerHelper H2 module",
+      "t": 2787.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yonas",
+      "confidence": "high"
+    },
+    {
+      "name": "Alex",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Freddy",
+      "confidence": "high"
+    },
+    {
+      "name": "Jesper",
+      "confidence": "high"
+    },
+    {
+      "name": "Marcos",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 301.5,
+      "text": "It provisioned more than 75,000 different containers. Compiled half a million apps and published about a million of these apps",
+      "why_it_matters": "Demonstrates the massive scale at which Container Helper is currently being used across the business.",
+      "check": "exact"
+    },
+    {
+      "t": 350.8,
+      "text": "Container Helper will go out of support on October 1st, 2027",
+      "why_it_matters": "This is the key announcement defining the deprecation timeline for Container Helper, the main topic of the presentation.",
+      "check": "exact"
+    },
+    {
+      "t": 523,
+      "text": "we're kind of shifting towards github and al go for github in this agentic loop",
+      "why_it_matters": "Clarifies the strategic direction away from Container Helper toward AL-Go for GitHub as the central platform.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 595.8,
+      "text": "this June we're going to be moving the entire business central application to BC apps. So that includes the base app, includes pretty much",
+      "why_it_matters": "Announces a major shift to transparency by moving 15 million lines of AL code to open source on GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 656.9,
+      "text": "by the end of June, once we're fully on AL Go for GitHub, you know, we can't ship without AL Go for GitHub",
+      "why_it_matters": "Shows internal commitment to AL-Go - Microsoft's own engineering team will depend entirely on this platform.",
+      "check": "exact"
+    },
+    {
+      "t": 794.8,
+      "text": "we've introduced the concept of test-only projects, which basically lets you shift all of the compilation uh to one job ...",
+      "why_it_matters": "This explains a key feature already introduced to AL-Go for improving compilation feedback speed.",
+      "check": "exact"
+    },
+    {
+      "t": 831.6,
+      "text": "Code coverage is one that's coming soon. Automatic reruns on flaky tests and stuff and flaky test management in general. Improved incremental builds, uh",
+      "why_it_matters": "Lists multiple planned improvements showing the roadmap for AL-Go enhancements.",
+      "check": "exact"
+    },
+    {
+      "t": 854.6,
+      "text": "we're kind of testing and and dogfooding our own PR reviewer agent. And once we feel like that's kind of matured and it's ready,",
+      "why_it_matters": "Describes the agentic engineering direction and how agents will be integrated into AL-Go as opt-in features.",
+      "check": "exact"
+    },
+    {
+      "t": 854.6,
+      "text": "we're we're kind of testing and and dogfooding our own PR reviewer agent. And once we feel like that's kind of matured and it's",
+      "why_it_matters": "Describes the status and timeline of the PR reviewer agent feature.",
+      "check": "exact"
+    },
+    {
+      "t": 920.5,
+      "text": "AL Go for GitHub is still heavily dependent on BC Container Helper, but that's something we're going to work on changing uh now",
+      "why_it_matters": "Acknowledges the current dependency and signals the shift away from BC Container Helper.",
+      "check": "exact"
+    },
+    {
+      "t": 1117.3,
+      "text": "be supported until october 2027 beyond that uh it'll stay as a github repository we we're not going to archive",
+      "why_it_matters": "Specifies the exact support end date and clarifies the project will remain available as community-maintained.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1261.2,
+      "text": "Hopefully by end of 2026, we're going to have a new module, BC CH 2.0 something, whatever. We We don't ...",
+      "why_it_matters": "Provides the target date for the new BC Container Helper replacement module delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 1407.9,
+      "text": "AL Go only works on GitHub, right? And I don't know, maybe I should like show how how many use GitHub in here and",
+      "why_it_matters": "Highlights a limitation of AL-Go and indicates significant Azure DevOps usage among the audience.",
+      "check": "exact"
+    },
+    {
+      "t": 1568.6,
+      "text": "The goal is to make this completely seamless for you. Yes. Yes.",
+      "why_it_matters": "Confirms the migration strategy aims to be seamless for users with existing AL-Go configurations.",
+      "check": "exact"
+    },
+    {
+      "t": 1568.6,
+      "text": "if you're mainly relying on settings for configuring your al go repos then it should be",
+      "why_it_matters": "Defines the migration approach - settings-based configuration will transfer without changes to new modules.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1613,
+      "text": "we're not going to do a big bang roll out. We'll we'll gradually migrate functionality in Ail Go over to the new module, slowly",
+      "why_it_matters": "Key decision to migrate incrementally rather than all at once, reducing risk for ~100 customer repositories.",
+      "check": "exact"
+    },
+    {
+      "t": 1776.8,
+      "text": "There won't be a full feature parity between what BC container helper can do and what BC container helper two can do. It really",
+      "why_it_matters": "Establishes that the new module will have narrower scope and decisions about what to include depend on customer feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 1895.1,
+      "text": "I think we'll make it available as soon as we can. As soon as we have at least one scenario from AL Go that's",
+      "why_it_matters": "Clarifies the timeline for open source availability of new BC Container Helper.",
+      "check": "exact"
+    },
+    {
+      "t": 1993.3,
+      "text": "there are no plans of supporting al go in devops at all no",
+      "why_it_matters": "Definitively states AL-Go is GitHub-only and not planned for Azure DevOps.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2060.5,
+      "text": "the open source pilot will be killed because there will be no need for an open source. It's not a pilot anymore basically.",
+      "why_it_matters": "Announces consolidation of open source strategy by making BC apps repository public.",
+      "check": "exact"
+    },
+    {
+      "t": 2385.8,
+      "text": "there are no official plans to do that. There are talks internally about it, but there is there are no official plans at the",
+      "why_it_matters": "Clarifies that Linux support for BC service is not officially planned despite internal discussions.",
+      "check": "exact"
+    },
+    {
+      "t": 2385.8,
+      "text": "we are also looking at that from the point of view of AL Go so like we're also trying to push the team internally",
+      "why_it_matters": "Shows AL-Go team's motivation for Linux support is driven by container performance and cost benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 2519.9,
+      "text": "That's a part of the BC container helper pipeline right now.",
+      "why_it_matters": "Confirms partner authentication via refresh tokens is already implemented in BC Container Helper.",
+      "check": "exact"
+    },
+    {
+      "t": 2601.6,
+      "text": "there are some changes coming that actually I'm not probably not officially, but will kind of introduce support for PowerShell 5 again.",
+      "why_it_matters": "Indicates upcoming changes to PowerShell commandlet architecture to support legacy versions.",
+      "check": "exact"
+    },
+    {
+      "t": 2717.9,
+      "text": "The integration with the agents is just better at GitHub at the moment.",
+      "why_it_matters": "Explains the primary technical reason for Microsoft's shift from Azure DevOps to GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 2757.8,
+      "text": "you're still going to need some way of locally quickly spinning up the environments so agents can interact with it.",
+      "why_it_matters": "Defines the team's vision that local containers remain essential for future development workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 2825.8,
+      "text": "We'll we'll make it a CLI.",
+      "why_it_matters": "Confirms BCContainerHelper will be developed as a CLI rather than a PowerShell module for cross-platform compatibility.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 45.5,
+      "kind": "preview",
+      "text": "Container helper is being deprecated"
+    },
+    {
+      "t": 350.8,
+      "kind": "coming-later",
+      "text": "Container Helper will go out of support on October 1st, 2027"
+    },
+    {
+      "t": 634.5,
+      "kind": "subject-to-change",
+      "text": "Unfortunately there were some complications that came in the way, but we're still on track to make it by June for moving Business Central application to BC apps"
+    },
+    {
+      "t": 831.6,
+      "kind": "coming-later",
+      "text": "Code coverage is coming soon to AL-Go, along with automatic reruns on flaky tests, improved incremental builds, and turn-based testing"
+    },
+    {
+      "t": 854.6,
+      "kind": "preview",
+      "text": "PR reviewer agent is currently in testing and dogfooding phase, will ship as opt-in once mature"
+    },
+    {
+      "t": 909.4,
+      "kind": "coming-later",
+      "text": "A year ago when we announced the deprecation of easy container helper"
+    },
+    {
+      "t": 1117.3,
+      "kind": "coming-later",
+      "text": "BC Container Helper will be supported until October 2027"
+    },
+    {
+      "t": 1261.2,
+      "kind": "coming-later",
+      "text": "Hopefully by end of 2026, we're going to have a new module, BC CH 2.0 something, whatever"
+    },
+    {
+      "t": 1613,
+      "kind": "subject-to-change",
+      "text": "gradually migrate functionality in Ail Go over to the new module, slowly roll it out"
+    },
+    {
+      "t": 1776.8,
+      "kind": "subject-to-change",
+      "text": "There won't be a full feature parity between what BC container helper can do and what BC container helper two can do"
+    },
+    {
+      "t": 1807.2,
+      "kind": "subject-to-change",
+      "text": "It's not in the plans right now, but but like I said, give us the feedback"
+    },
+    {
+      "t": 1895.1,
+      "kind": "coming-later",
+      "text": "I think we'll make it available as soon as we can. As soon as we have at least one scenario"
+    },
+    {
+      "t": 2375.1,
+      "kind": "subject-to-change",
+      "text": "there are no official plans to do that. There are talks internally about it"
+    },
+    {
+      "t": 2385.8,
+      "kind": "coming-later",
+      "text": "There are no official plans to do that. There are talks internally about it"
+    },
+    {
+      "t": 2601.6,
+      "kind": "subject-to-change",
+      "text": "there are some changes coming that actually I'm not probably not officially"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 27,
+    "quotes_dropped": 1,
+    "evidence_verified": 4,
+    "evidence_unverified": 21
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}
