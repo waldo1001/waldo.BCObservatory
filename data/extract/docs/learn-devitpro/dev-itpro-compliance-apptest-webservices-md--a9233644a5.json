@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/compliance/apptest-webservices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-webservices",
+  "title": "Be careful about UI for web services",
+  "blob": "ccbf4489debadb194dfb350364f2ba0c749628cb",
+  "summary": "Restrictions on UI for objects exposed as web services specifies that web service code must not use UI elements like dialogs or message boxes to avoid exceptions.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "web services",
+    "ui restrictions",
+    "api design",
+    "exception handling"
+  ],
+  "objects": [],
+  "features": [
+    "GuiAllowed",
+    "error handling",
+    "dialog restrictions",
+    "confirmation dialogs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004167,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-prefix-suffix",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "61ada5623e69384401af079b8060e4fd2304aa86",
       "words": 818,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.568Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004167
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.332Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.333Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.334Z",
+      "page": false
     }
   },
   "input_hash": "61ada5623e69384401af079b8060e4fd2304aa86",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61ada5623e69384401af079b8060e4fd2304aa86"
+  "output_hash": "d6cfa8467cb8252db3de70447c929f4b2c4ae29f277ab5684e5e1d1f06535e66"
 }

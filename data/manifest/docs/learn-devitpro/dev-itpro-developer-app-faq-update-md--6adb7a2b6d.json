@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update",
   "published_at": "2026-02-20T12:50:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0e3ea4d7e7dddd98304eec203ef3ecdcb285b363",
       "words": 1050,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.339Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.322Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.323Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.324Z",
+      "page": false
     }
   },
   "input_hash": "0e3ea4d7e7dddd98304eec203ef3ecdcb285b363",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0e3ea4d7e7dddd98304eec203ef3ecdcb285b363"
+  "output_hash": "048177bcefa1d1a69a649dd993e780014bf7313a087c5aa726012d3d28519030"
 }

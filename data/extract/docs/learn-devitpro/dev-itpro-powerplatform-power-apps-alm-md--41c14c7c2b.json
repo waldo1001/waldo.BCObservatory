@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/powerplatform/power-apps-alm.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm",
+  "title": "Application lifecycle management",
+  "blob": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f",
+  "summary": "Application lifecycle management for Power Platform solutions in Business Central enables storing AL and Power Platform artifacts in a single repository with unified tools through the Al-Go for GitHub template.",
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "power platform",
+    "alm",
+    "github actions",
+    "solutions",
+    "ci/cd",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "CI/CD workflow",
+    "Create Release workflow",
+    "Publish to Environment workflow",
+    "Pull Power Platform changes workflow",
+    "Push Power Platform changes workflow",
+    "Al-Go for GitHub template"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003157,
+      "pages_in_call": 8
+    }
+  ]
+}

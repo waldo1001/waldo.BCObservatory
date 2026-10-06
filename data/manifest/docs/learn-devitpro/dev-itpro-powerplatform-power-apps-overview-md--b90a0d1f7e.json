@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview",
   "published_at": "2026-02-20T12:56:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d64a576c1d401eac6a60db6b88a53cc5c53199cf",
       "words": 189,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.335Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.297Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.298Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.299Z",
+      "page": false
     }
   },
   "input_hash": "d64a576c1d401eac6a60db6b88a53cc5c53199cf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d64a576c1d401eac6a60db6b88a53cc5c53199cf"
+  "output_hash": "8785d38dce07b5559500fbf8d42b0ae222e8e43dfeac10cbec2075bbcc743398"
 }

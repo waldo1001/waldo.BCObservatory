@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/compliance/apptest-testingyourextension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-testingyourextension",
+  "title": "Testing your extension",
+  "blob": "a6a6afe9602e8d2a6163b7702855b9e7d4f03aea",
+  "summary": "Testing your extension describes the testing requirements and procedures developers must follow before submitting extensions to Marketplace validation.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "validation",
+    "docker",
+    "permissions",
+    "demo data",
+    "extension lifecycle"
+  ],
+  "objects": [],
+  "features": [
+    "online environment testing",
+    "code signing",
+    "installation verification",
+    "user permission testing",
+    "demo data import",
+    "republish testing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004167,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/compliance/apptest-onbeforecompanyopen.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-onbeforecompanyopen",
+  "title": "Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen",
+  "blob": "5835f9fac8213a41f2f3ab475a39b9e270c5e1f9",
+  "summary": "Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen provides patterns for removing these deprecated login events from extensions to improve login performance.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "performance",
+    "events",
+    "extension development",
+    "best practices",
+    "login"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Job Queue User Handler"
+    }
+  ],
+  "features": [
+    "OnBeforeCompanyOpen",
+    "OnAfterCompanyOpen",
+    "OnCompanyInitialize",
+    "TaskScheduler"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004167,
+      "pages_in_call": 8
+    }
+  ]
+}

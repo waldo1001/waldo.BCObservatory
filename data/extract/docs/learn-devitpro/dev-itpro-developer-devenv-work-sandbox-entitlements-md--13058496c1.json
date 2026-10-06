@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-work-sandbox-entitlements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-sandbox-entitlements",
+  "title": "Working with sandboxes and entitlements",
+  "blob": "19e094530375705046a4eb152174aa276854e657",
+  "summary": "Working with sandboxes and entitlements describes how to set up development sandbox environments with different user plans and license types to test extension functionality across subscription tiers.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "sandbox",
+    "development",
+    "entitlements",
+    "licensing",
+    "user plans",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "User Plan"
+    }
+  ],
+  "features": [
+    "user groups",
+    "permission sets",
+    "subscription plans",
+    "test user setup",
+    "license assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004167,
+      "pages_in_call": 8
+    }
+  ]
+}

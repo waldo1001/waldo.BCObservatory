@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-test",
   "published_at": "2026-02-20T12:50:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "878ca1e4942269b35c81cbb4db2a69670d194d61",
       "words": 796,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.338Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.320Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.321Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.321Z",
+      "page": false
     }
   },
   "input_hash": "878ca1e4942269b35c81cbb4db2a69670d194d61",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "878ca1e4942269b35c81cbb4db2a69670d194d61"
+  "output_hash": "350fbf5700a77a119be6f41e26c5949ae5b1c5de41e4e561626cfe9c731359f3"
 }

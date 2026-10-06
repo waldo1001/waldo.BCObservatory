@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm",
   "published_at": "2026-02-20T12:56:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f",
       "words": 599,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.332Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:52.342Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:52.343Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:52.344Z",
+      "page": false
     }
   },
   "input_hash": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fba9c4e88701448c90ad1b0b7cf735c6af2e8e9f"
+  "output_hash": "c8769593fcb4e665003ad1d3c1f2d4877e951bb44a307fadfc835805070e61cc"
 }

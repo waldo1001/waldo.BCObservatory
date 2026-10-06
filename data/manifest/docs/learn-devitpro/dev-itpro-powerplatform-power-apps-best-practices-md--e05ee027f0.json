@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-best-practices",
   "published_at": "2026-02-20T12:56:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f8361efd62caad26671d5b0a7f8f76598812c08d",
       "words": 1280,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.334Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003157
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:52.587Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:52.588Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:52.592Z",
+      "page": false
     }
   },
   "input_hash": "f8361efd62caad26671d5b0a7f8f76598812c08d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8361efd62caad26671d5b0a7f8f76598812c08d"
+  "output_hash": "761f8d7c5fd7fa6263bdfbb0914640f85d2e731629c6f170b7c5d5677fe35b14"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-userscenario",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "48f1119bf4927e8db1db93926d7d550bce9f1d18",
       "words": 651,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.571Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004167
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.339Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.340Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.341Z",
+      "page": false
     }
   },
   "input_hash": "48f1119bf4927e8db1db93926d7d550bce9f1d18",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48f1119bf4927e8db1db93926d7d550bce9f1d18"
+  "output_hash": "f6e634571d9cdb8655bcb131f06c4a38580349fbdd3a34a36702fd5b872e3578"
 }

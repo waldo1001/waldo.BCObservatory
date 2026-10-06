@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-webservices",
   "published_at": "2026-02-20T12:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ccbf4489debadb194dfb350364f2ba0c749628cb",
       "words": 257,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:52.572Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004167
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:54.342Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:54.343Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:54.344Z",
+      "page": false
     }
   },
   "input_hash": "ccbf4489debadb194dfb350364f2ba0c749628cb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ccbf4489debadb194dfb350364f2ba0c749628cb"
+  "output_hash": "66ec26690e7b3f895de328bae3f3d7c3ce224f09077c47ece798c0996fb80531"
 }

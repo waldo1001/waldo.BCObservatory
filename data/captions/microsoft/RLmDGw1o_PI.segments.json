@@ -1,0 +1,158 @@
+{
+  "video_id": "RLmDGw1o_PI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.8,
+      "end": 20.2,
+      "text": "Welcome to what's new and financial reporting for authors in uh the 2025 release wave one for Business Central. In this session, I'm going to show you the new things that you get, new tools, internal descriptions,"
+    },
+    {
+      "t": 20.2,
+      "end": 31.8,
+      "text": "intro and closing paragraphs, some new things in row definitions, and some new things in column definitions. So let's dive into Business Central and uh author some reports."
+    },
+    {
+      "t": 31.8,
+      "end": 44.6,
+      "text": "We get to financial reporting from many places. I'll choose financial reporting from the RO center. And you notice already here that the report definition has this internal description."
+    },
+    {
+      "t": 44.6,
+      "end": 61.5,
+      "text": "And we change the display title to be display title, the caption and not description because this is really the title of the report. So let's dive into the income statement and edit report definition here and see what new things we have."
+    },
+    {
+      "t": 61.5,
+      "end": 74.6,
+      "text": "First of all, we moved the title up here so you get a little bit of more um screen size there. You also have uh new options here under definitions."
+    },
+    {
+      "t": 74.6,
+      "end": 89.8,
+      "text": "You can edit the introductory and closing paragraphs. So for this report the author has put in something about a preliminary edition and that this report is being audited but you can put in any text you like."
+    },
+    {
+      "t": 89.8,
+      "end": 102.4,
+      "text": "When any user run the report this will come as a closing and end paragraph. You can see that in the user video if you're interested. Here is also where you change the internal description for for the report."
+    },
+    {
+      "t": 102.4,
+      "end": 113.8,
+      "text": "So maybe this is where you document your report definition uh in case you need to go back and and kind of check uh what's cooking. Um there's a new negative amount format here."
+    },
+    {
+      "t": 113.8,
+      "end": 127.8,
+      "text": "So you can change that for the report either use parentheses or minus. So you can see that changing here that is also reflected in the PDF version. And um there's also a new thing where we have support for Excel layouts."
+    },
+    {
+      "t": 127.8,
+      "end": 141.1,
+      "text": "Um so here under export to Excel sorry is definitions you can define a number of Excel layouts choose which one is the default one and then that's how users can consume your layouts."
+    },
+    {
+      "t": 141.1,
+      "end": 158.2,
+      "text": "All of this is demoed in the user video. So go check that out there. Let me go back to the list here and uh just quickly show you in if you have haven't noticed this menu from last wave the copy export import."
+    },
+    {
+      "t": 158.2,
+      "end": 171.2,
+      "text": "I'll just copy this report definition. You'll notice why in a sec. Let me just call that uh income 2. And uh so now I took a copy of that."
+    },
+    {
+      "t": 171.2,
+      "end": 183.3,
+      "text": "So back here I can now see my income 2 income statement. And that's a copy. Great. Let's dive into the row definition uh first of this income statement."
+    },
+    {
+      "t": 183.3,
+      "end": 198.7,
+      "text": "And I'll just uh simply go navigate here. And um just for report definitions, the column definitions now have the ability for you to document them with an internal description."
+    },
+    {
+      "t": 198.7,
+      "end": 216.6,
+      "text": "And there's also uh something um a new thing here a new action called where used. So imagine that you might want to change a row definition but you are uncertain on the impact of this change because this row definition could be used in multiple reports."
+    },
+    {
+      "t": 216.6,
+      "end": 230.6,
+      "text": "So the where used action both here on the list and also in edit mode. um I can simply check that this particular row definition is being used for these two reports which is also why I wanted to do that copy for you."
+    },
+    {
+      "t": 230.6,
+      "end": 241.7,
+      "text": "So that's uh nice to know even before you get started. Let me go and actually edit the row definition. Uh this is fine. No, I do not want to do that."
+    },
+    {
+      "t": 241.7,
+      "end": 256.2,
+      "text": "Here we go. So um income statement edit row definition. No, I don't want to make a copy. I just want to go in. So again the the where used is shown here directly in edit mode as well."
+    },
+    {
+      "t": 256.2,
+      "end": 272.3,
+      "text": "A new thing on this page is that the double underline option is now not hidden anymore. It's been there forever but uh but somehow we got that hidden so it's not now you can you can use it everywhere."
+    },
+    {
+      "t": 272.3,
+      "end": 283.6,
+      "text": "If you are in doubt about what's the like meaning of all these different things, when do I use show if any and so on. By the way, this is if you use this show"
+    },
+    {
+      "t": 283.6,
+      "end": 301,
+      "text": "um and only show the row when when any of the columns are non zero. This is uh what will then be shown on the report um if people toggle uh the the show empty rows both now on the view mode and also in the PDF."
+    },
+    {
+      "t": 301,
+      "end": 320.5,
+      "text": "But if you're in doubt of what all these mean, there's help to get. Let me just open the help pane here. And uh this immediately show you a little bit about what this is, but also points to a new documentation page that we added to the financial reporting uh documentation on row definitions."
+    },
+    {
+      "t": 320.5,
+      "end": 336.1,
+      "text": "Let me just open this. And um here you now get a lot more advice on working with row formulas uh how to format uh how to add empty lines and conditional formatting and so on."
+    },
+    {
+      "t": 336.1,
+      "end": 351.7,
+      "text": "So if you're in doubt about how to use financial reporting row definitions, go check out the documentation. I'll just close the help and go back to my overview here and go back to the to the report definitions."
+    },
+    {
+      "t": 351.7,
+      "end": 362.5,
+      "text": "And now dive into columns. Again in column definitions we have added this internal description and there's all the same kind of where used action."
+    },
+    {
+      "t": 362.5,
+      "end": 375,
+      "text": "So you can also see where a particular column definition is being used. But in here I just want to edit the column definition and show you a new kit on the block for column type."
+    },
+    {
+      "t": 375,
+      "end": 389.1,
+      "text": "Um so you have been able to do year-to- date for many years but now as a new thing in this wave we also added the monthto date. So uh so that's a new option that you can use in your column"
+    },
+    {
+      "t": 389.1,
+      "end": 403.9,
+      "text": "definitions. Again if you if you want to know more about column definitions just choose the help here and there's directly the link for how to work with column definitions in your financial reporting."
+    },
+    {
+      "t": 403.9,
+      "end": 424,
+      "text": "So that's it for the report author. I hope that you will um do a lot of good reports for your users and hopefully dive in to the Excel layout as well, which is a new promising feature where we make it even easier to use Excel with your financial statements."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1089
+}
