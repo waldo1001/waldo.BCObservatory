@@ -6,6 +6,7 @@
 import Base from "./Base.astro";
 import Badges from "../components/Badges.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
+import PageGalaxy from "../components/PageGalaxy.astro";
 import { openInClaude, pageSystem, systemLabel } from "../lib/page";
 interface Stat { n: number | string; label: string; href?: string }
 interface Props {
@@ -46,12 +47,7 @@ const g = fm.generated ?? {};
       <div class="main"><slot /></div>
       <aside class="side" aria-label="About this page">
         <slot name="side" />
-        {system && (
-          <section>
-            <h2>In the galaxy</h2>
-            <a class="chip-sys" style={`--dot: var(--sys-${system})`} href={`${base}#system=${system}`}>{systemLabel(system)}</a>
-          </section>
-        )}
+        <PageGalaxy id={String(fm.id)} system={system} />
         <section>
           <h2>Provenance</h2>
           <dl class="prov">

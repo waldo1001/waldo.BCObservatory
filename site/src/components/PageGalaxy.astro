@@ -1,0 +1,34 @@
+---
+/** Side column of every information page: where it sits in the galaxy, and what it connects to (scripts/locator.ts). */
+interface Props { id: string; system: string | null }
+const { id, system } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<section class="loc" data-base={base} data-id={id} data-system={system ?? ""}>
+  <h2>In the galaxy</h2>
+  <a class="loc-open" href={`${base}${system ? `#system=${system}` : ""}`} aria-label="Open this place in the galaxy"><canvas aria-hidden="true"></canvas></a>
+  <p class="loc-caption mono-meta"></p>
+</section>
+<section class="con" data-base={base} data-id={id}>
+  <h2>Connections <span class="con-count mono-meta"></span></h2>
+  <div class="con-graph"></div>
+  <ul class="con-list"></ul>
+</section>
+<script>
+  import { mountConnections, mountLocator } from "../scripts/locator";
+  for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
+  for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
+</script>
+<style>
+  .loc-open { display: block; border: 1px solid var(--line); border-radius: var(--r-panel); overflow: hidden; }
+  .loc-open:hover { border-color: var(--line-strong); }
+  .loc canvas { display: block; width: 100%; height: 180px; }
+  .loc-caption { margin: 6px 0 0; }
+  .con-graph :global(svg) { width: 100%; height: auto; display: block; }
+  .con-graph :global(.c-edge) { stroke: var(--g-edge); stroke-width: 1; }
+  .con-graph :global(.c-me) { fill: var(--g-star-active); stroke: var(--accent-dot); stroke-width: 2; }
+  .con-graph :global(a:hover circle), .con-graph :global(a:focus circle) { stroke: var(--accent-dot); stroke-width: 2; }
+  .con-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 4px; font-size: 14px; }
+  .con-list :global(a) { display: flex; gap: 8px; align-items: center; }
+  .con-list :global(.g-dot) { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
+</style>
