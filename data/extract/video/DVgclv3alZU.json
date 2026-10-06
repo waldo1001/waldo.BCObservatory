@@ -1,0 +1,291 @@
+{
+  "video_id": "DVgclv3alZU",
+  "item_id": "video/yt-microsoft/DVgclv3alZU",
+  "title": "What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)",
+  "duration_s": 889,
+  "systems": [
+    "reporting",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "power bi embedded",
+    "demo experience",
+    "excel pivot tables",
+    "agentic excel",
+    "semantic models",
+    "calendar configuration",
+    "subscription billing app",
+    "customer retention",
+    "abc analysis",
+    "power bi apps"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Investment Highlights",
+      "t_start": 0,
+      "t_end": 91.6
+    },
+    {
+      "title": "Five Clicks to Power BI Demo",
+      "t_start": 91.6,
+      "t_end": 228.9
+    },
+    {
+      "title": "Power BI Deployment Configuration and Setup",
+      "t_start": 228.9,
+      "t_end": 297.4
+    },
+    {
+      "title": "Excel as a Client for Power BI",
+      "t_start": 297.4,
+      "t_end": 391.1
+    },
+    {
+      "title": "Agentic Excel Capabilities",
+      "t_start": 391.1,
+      "t_end": 466.9
+    },
+    {
+      "title": "Calendar Configuration for Power BI Apps",
+      "t_start": 466.9,
+      "t_end": 517.9
+    },
+    {
+      "title": "Updated Power BI Apps: Subscription Billing, Sales, and Inventory",
+      "t_start": 517.9,
+      "t_end": 599.1
+    },
+    {
+      "title": "Resources and Related Sessions",
+      "t_start": 599.1,
+      "t_end": 644.3
+    },
+    {
+      "title": "Partner and Customer Resources",
+      "t_start": 644.3,
+      "t_end": 889
+    }
+  ],
+  "features": [
+    {
+      "name": "Five Clicks to Power BI Demo",
+      "description": "Simplified deployment of Power BI reports to demo companies with minimal configuration steps. Users can select reports from the Power BI deployments page, deploy them with automatic version matching to their Business Central version, and view reports in the role center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.6,
+      "t_end": 228.9,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only works for demo companies",
+        "Recurring refresh scheduling must be done in Power BI workspace"
+      ],
+      "tags": [
+        "power bi",
+        "demo",
+        "deployment",
+        "simplified setup"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel as Client for Power BI Semantic Models",
+      "description": "Ability to use Excel to create pivot tables connected to Power BI semantic models. Users can connect to Power BI apps via Get Data from Fabric and insert pivot tables for data analysis as an alternative to visual Power BI reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297.4,
+      "t_end": 391.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "power bi",
+        "pivot tables",
+        "semantic models",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Agentic Excel Capabilities",
+      "description": "AI-powered Excel features that reason over Business Central data for analysis and updates. Scenarios include analyzing financial report Excel outputs, edit in Excel operations, and any reports with Excel layout outputs for data analysis and pushing changes back to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.1,
+      "t_end": 466.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "ai",
+        "agentic",
+        "data analysis",
+        "financial reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Calendar Configuration for Power BI Apps",
+      "description": "Enhanced documentation and setup guidance for configuring different types of calendars in Business Central that are reflected in Power BI apps. Supports fiscal calendars and week-based calendars for customized reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 466.9,
+      "t_end": 517.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "calendars",
+        "time intelligence",
+        "power bi apps",
+        "documentation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Subscription Billing App Updates",
+      "description": "Full visual refresh and redesign of the subscription billing Power BI app to align with other Power BI apps in the suite. Includes updated visuals for consistency across all apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 517.9,
+      "t_end": 599.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi app",
+        "subscription billing",
+        "visuals",
+        "ui refresh"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Sales App - Customer Retention Analysis",
+      "description": "New capability in the Power BI Sales app for analyzing customer retention and loyalty metrics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 517.9,
+      "t_end": 599.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi app",
+        "sales",
+        "customer retention",
+        "loyalty"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Power BI Inventory App - ABC Analysis",
+      "description": "New ABC analysis capability in the Power BI Inventory app for item sales analysis to identify highly valuable items that must be kept in inventory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 517.9,
+      "t_end": 599.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi app",
+        "inventory",
+        "abc analysis",
+        "item sales"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kenny Pontoppidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Joshua",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 32,
+      "text": "The investments in this area for this wave is about three things. Better or easier ways to demo Power BI embedded in Business Central.",
+      "why_it_matters": "Sets the context for the main focus areas of this release for Power BI and Excel improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 91.6,
+      "text": "We want it to be so easy for partners if you want to go uh to a prospective customer and demo the embedded Power",
+      "why_it_matters": "Explains the design goal of simplifying Power BI demo deployment for partners in sales scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 105.8,
+      "text": "This only for now works for demo companies. Later, we hope to it make this same setup experience easy in production environments.",
+      "why_it_matters": "Establishes the current scope limitation and future roadmap for the five clicks demo feature.",
+      "check": "exact"
+    },
+    {
+      "t": 261.6,
+      "text": "We have configured the parameters and the first refresh has been scheduled, but if you want to have it recurringly scheduled, you will have",
+      "why_it_matters": "Clarifies what is and isn't automated in the Power BI deployment process, a key feature limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 311.9,
+      "text": "Analysis services um had Excel as the main client to do pivot tables and analyze your OLAP cubes. And analysis services later on became",
+      "why_it_matters": "Provides historical context explaining why Excel pivot table integration with Power BI is valuable.",
+      "check": "exact"
+    },
+    {
+      "t": 398.4,
+      "text": "There's another application that's quite new in the world of Excel uh called agentic Excel capabilities. And this works very well together with edit",
+      "why_it_matters": "Introduces new AI capabilities in Excel integrated with Business Central workflows.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 105.8,
+      "kind": "coming-later",
+      "text": "This only for now works for demo companies. Later, we hope to it make this same setup experience easy in production environments."
+    },
+    {
+      "t": 240.6,
+      "kind": "not-in-this-release",
+      "text": "is not currently part of it, uh but that is something we are uh that you would have to configure in your workspace."
+    },
+    {
+      "t": 261.6,
+      "kind": "not-in-this-release",
+      "text": "if you want to have it recurringly scheduled, you will have to do it at least for this release in uh So, for example, I can show it here uh in my workspace."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026394
+    }
+  ]
+}

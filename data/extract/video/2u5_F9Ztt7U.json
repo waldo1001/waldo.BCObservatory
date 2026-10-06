@@ -1,0 +1,420 @@
+{
+  "video_id": "2u5_F9Ztt7U",
+  "item_id": "video/yt-microsoft/2u5_F9Ztt7U",
+  "title": "What's New: Server and Database (2026 release wave 1)",
+  "duration_s": 1022,
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "mcp server",
+    "memory optimization",
+    "base64 handling",
+    "index management",
+    "analysis mode",
+    "document reporting",
+    "security hardening",
+    "uri validation",
+    "telemetry",
+    "on-premises configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 60.7
+    },
+    {
+      "title": "MCP Server Enhancements",
+      "t_start": 60.7,
+      "t_end": 112.4
+    },
+    {
+      "title": "Memory Protection and Base64 Optimization",
+      "t_start": 112.4,
+      "t_end": 254.9
+    },
+    {
+      "title": "Index Management and Database Optimization",
+      "t_start": 254.9,
+      "t_end": 347.7
+    },
+    {
+      "title": "Analysis Mode Support in AL",
+      "t_start": 347.7,
+      "t_end": 404.3
+    },
+    {
+      "title": "Document Reporting Modernization",
+      "t_start": 404.3,
+      "t_end": 508.7
+    },
+    {
+      "title": "Security Hardening",
+      "t_start": 508.7,
+      "t_end": 659.3
+    },
+    {
+      "title": "Telemetry Enhancements",
+      "t_start": 659.3,
+      "t_end": 717.3
+    },
+    {
+      "title": "Learning Resources and Next Steps",
+      "t_start": 717.3,
+      "t_end": 792.3
+    },
+    {
+      "title": "Partner and Community Resources",
+      "t_start": 792.3,
+      "t_end": 1022
+    }
+  ],
+  "features": [
+    {
+      "name": "MCP Protocol Compliance",
+      "description": "The MCP server now supports protocol compliance, allowing use of other MCP clients beyond the default implementation. This enhances interoperability and provides more options for developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.7,
+      "t_end": 100.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "compatibility",
+        "interoperability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "File Support Using MCP Resources",
+      "description": "Ability to extract data from Business Central using MCP resources, enabling statistical analysis and data export capabilities for analytics purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.5,
+      "t_end": 100.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "data export",
+        "analysis"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Reduced Memory Footprint Per Tenant",
+      "description": "Memory usage per tenant has been lowered and base64 handling has been optimized to reduce memory pressure from common AL operations, particularly for OData returns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.4,
+      "t_end": 171.4,
+      "is_demoed": false,
+      "caveats": [
+        "Organizations with very large documents may encounter new memory limit errors",
+        "Requires code updates to use stream overloads for optimal performance"
+      ],
+      "tags": [
+        "memory",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Platform Codeunit for Base64 Conversion",
+      "description": "A new platform codeunit has been created for base64 conversion with significantly lower memory footprint than the older implementation. Includes a method to put results into a stream, further reducing memory pressure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 144.7,
+      "t_end": 193.9,
+      "is_demoed": false,
+      "caveats": [
+        "Existing code does not require changes but may see new out-of-memory exceptions for very large operations",
+        "Users must react to new errors and implement limits"
+      ],
+      "tags": [
+        "base64",
+        "memory",
+        "codeunit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Index Usage Insights and Management",
+      "description": "New capability to get insights into index usage in the database, including how much space is used by indexes and whether they are actually used. Ability to remove unused metadata-defined indexes or auto-tune indexes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 281.9,
+      "t_end": 347.7,
+      "is_demoed": false,
+      "caveats": [
+        "Database size management feature",
+        "Removing many indexes can make write operations slower"
+      ],
+      "tags": [
+        "index management",
+        "database",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL Analysis View Definitions in Apps",
+      "description": "AL developers can now include analysis view definitions in their apps. Developers use the client to define analysis views, export to JSON, add metadata, and include in the app for availability to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.7,
+      "t_end": 404.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "al development",
+        "app design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Word Add-in for Document Reports Enhancement",
+      "description": "Updated Word add-in for document reports with improved UI, search functionality in the data picker, and an easy way to define tables for more efficient document report design.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.3,
+      "t_end": 449.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "document reporting",
+        "word",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout Lifecycle Control for Report Layouts",
+      "description": "Organizations can now control the lifecycle of any layout in the system through status stages: draft, pending approval, approved, and retired. This prevents uncontrolled layout changes before customer delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 449.4,
+      "t_end": 497.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "document reporting",
+        "layout",
+        "governance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hardened URI Validation in HTTP Client",
+      "description": "HTTP client URI validation has been hardened to limit outgoing calls from AL code, particularly preventing calls to internal port numbers. Mandatory in hosted environments; optional settings available for on-premises deployments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 508.7,
+      "t_end": 553.6,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot be opted out of in hosted environments",
+        "On-premises deployments have two server settings for control",
+        "Backported to version 26 and 27 (wave 1 and wave 2 2025)"
+      ],
+      "tags": [
+        "security",
+        "http",
+        "uri validation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Intra Security Groups for On-Premises Auth",
+      "description": "Ability to use intra security groups for authentication in on-premise scenarios. When enabled via service setting, the system fetches Entra ID security groups on login, enabling permission control based on security groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 565.8,
+      "t_end": 610.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires enabling the service setting enable intra groups on prem"
+      ],
+      "tags": [
+        "security",
+        "authentication",
+        "on-premises"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Permission Analysis Page",
+      "description": "New page for analyzing permissions that provides a permission overview, giving administrators better ability to understand and audit user permissions in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 610.9,
+      "t_end": 623.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "permissions",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Updated Security Documentation and Guide",
+      "description": "Comprehensive update to the security guide in documentation incorporating learnings from internal secure development initiative and conference feedback, including a new security scenarios guide showing how security measures affect different environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 623.8,
+      "t_end": 659.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "documentation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Telemetry for MCP Configuration and Usage",
+      "description": "New telemetry signals added for MCP configuration changes and MCP usage, allowing administrators to monitor MCP activity in their environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 659.3,
+      "t_end": 710.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "mcp",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Client Hardware and Network Telemetry",
+      "description": "Page view telemetry now includes client hardware and network speed information, providing better insights into user environment performance characteristics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 659.3,
+      "t_end": 710.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "client",
+        "monitoring"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "platform code unit for dealing with base 64 conversion",
+      "t": 144.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontopidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Jens Miller Peterson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 27.1,
+      "text": "The main investments in this release wave are three things. Make it faster, more effective document layouts, and hardening or security.",
+      "why_it_matters": "Establishes the three primary strategic focus areas for the 2026 release wave 1 for server and database improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 129.1,
+      "text": "we realized that one of the common causes of varying performance was basically memory pressure, and a lot of the memory pressure comes actually",
+      "why_it_matters": "Explains the root cause analysis that led to memory optimization investments and base64 handling improvements in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 193.9,
+      "text": "You don't need to change any code. What you'll see is fewer out of memory exceptions, but also AL errors where we have caught",
+      "why_it_matters": "Clarifies that existing code benefits automatically from optimizations while new error handling provides clearer feedback for problematic operations.",
+      "check": "exact"
+    },
+    {
+      "t": 359.8,
+      "text": "Analysis mode is a hugely popular feature with with Business Central users. And in this release wave, we allow AL developers to include analysis",
+      "why_it_matters": "Announces that a frequently-requested capability has been extended to allow developers to include analysis views directly in applications.",
+      "check": "exact"
+    },
+    {
+      "t": 508.7,
+      "text": "we have hardened the URI validation in the HTTP client, so that we now limit more outgoing calls from your AL code",
+      "why_it_matters": "Describes a security enhancement that restricts external calls from custom code to prevent misuse or accidental exposure.",
+      "check": "exact"
+    },
+    {
+      "t": 565.8,
+      "text": "This has been backported to 26, version 26 and 27, which is wave 1 2025 and wave 2 2025, and it is in effect",
+      "why_it_matters": "Indicates that critical security improvements were retroactively applied to previous versions and are already active in hosted services.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 254.9,
+      "kind": "coming-later",
+      "text": "We will add telemetry also for partners on large JSON documents, large XML documents, etc. And at some point, we are also going to put in limits on the sizes of objects."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033278999999999996
+    }
+  ]
+}

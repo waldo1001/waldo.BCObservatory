@@ -1,0 +1,28 @@
+{
+  "video_id": "2u5_F9Ztt7U",
+  "item_id": "video/yt-microsoft/2u5_F9Ztt7U",
+  "summary": "Server and database changes in Business Central 2026 release wave 1: MCP server protocol compliance and resources, lower per-tenant memory and base64 handling, index usage insights, analysis views in AL apps, document report layout lifecycle, hardened HTTP client URI validation, and new telemetry.",
+  "overview": "The session covers the server and database area of 2026 release wave 1. The stated investments are performance, more effective document layouts, and security hardening.\n\nIt describes memory work (a new platform codeunit for base64 conversion with stream support), index usage insights, analysis view definitions in AL apps, a Word add-in update with layout lifecycle statuses, security changes including stricter HTTP client URI validation, and added telemetry for MCP and client hardware and network. Later telemetry on large JSON and XML documents and size limits on objects are mentioned as coming.",
+  "key_points": [
+    "The MCP server supports protocol compliance, so MCP clients other than the default one can be used. MCP resources allow data extraction for analytics.",
+    "Memory per tenant is lower and base64 handling is optimized. A new platform codeunit converts base64 with a smaller memory footprint and can write the result to a stream.",
+    "Existing code needs no changes, but very large documents may now hit out-of-memory exceptions or new AL errors. Use the stream overloads and set your own limits.",
+    "Index insights show how much space indexes use and whether they are used. Unused metadata-defined indexes can be removed or indexes auto-tuned. Removing many indexes can slow writes.",
+    "AL developers can ship analysis view definitions in apps: define the view in the client, export to JSON, add metadata, and include it in the app.",
+    "HTTP client URI validation is hardened to limit outgoing calls from AL, such as calls to internal ports. It is mandatory in hosted environments, has two server settings on-premises, and was backported to versions 26 and 27.",
+    "On-premises, enabling the service setting enable intra groups on prem makes the server fetch Entra ID security groups at login. A new permission analysis page gives a permission overview."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "54098f20a82d6ee88eae0605478ee7dd210894beecb118719f1a00100d014de1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0199984
+  }
+}

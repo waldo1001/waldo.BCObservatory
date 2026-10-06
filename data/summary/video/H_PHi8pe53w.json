@@ -1,0 +1,27 @@
+{
+  "video_id": "H_PHi8pe53w",
+  "item_id": "video/yt-saurav/H_PHi8pe53w",
+  "summary": "Default implementations for AL interfaces in Business Central 29, covered while 29 was in public preview. Shows method bodies in interfaces, the required pending attribute, and a staged way to add interface methods without breaking existing implementations.",
+  "overview": "The video explains why adding a method to an AL interface changes the interface contract and breaks every existing implementation, in the same extension or in dependent extensions. It then shows how Business Central 29 addresses this by allowing default method bodies in interfaces, so existing implementations keep working.\n\nIt also demonstrates the required pending attribute, which signals that implementations should eventually provide their own method. The attribute takes a version deadline, a tag and a reason. The video closes with use cases and best practices, and notes that Business Central 29 was in public preview at the time, so final behavior should be validated once GA is announced.",
+  "key_points": [
+    "Adding a method to an AL interface changes its contract and breaks existing implementations, including those in dependent extensions.",
+    "In Business Central 29, interface methods can have default method bodies, so existing implementations continue to work unchanged.",
+    "Implementations can supply their own version of the method, otherwise the default behavior is used.",
+    "The required pending attribute marks a method that implementations should eventually implement. It needs a version deadline, a tag and a reason.",
+    "Staged evolution: introduce the method with a default implementation, provide default behavior, then signal the future requirement with required pending.",
+    "Use a default only when a sensible fallback exists, not to hide a requirement. Treat it as a migration mechanism, not a permanent solution.",
+    "Business Central 29 was in public preview when the video was made, so validate the final behavior at GA."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "7cfa2c17d2c4d78ddb845e2b4ea705adbbebe34d378b2cb6913053be9e0df8e8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012830399999999999
+  }
+}

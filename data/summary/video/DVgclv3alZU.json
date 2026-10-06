@@ -1,0 +1,28 @@
+{
+  "video_id": "DVgclv3alZU",
+  "item_id": "video/yt-microsoft/DVgclv3alZU",
+  "summary": "Business Central 2026 release wave 1 Power BI and Excel changes: a five-click Power BI demo deployment for demo companies, Excel pivot tables on Power BI semantic models, agentic Excel, calendar configuration guidance, and updated Power BI Subscription Billing, Sales and Inventory apps.",
+  "overview": "The session covers three investment areas for this wave: easier demos of Power BI embedded in Business Central, Excel as a client for Power BI semantic models, and updates to the Power BI apps. The demo shows how to pick reports on the Power BI deployments page, deploy them matched to the Business Central version, and view them in the role center.\n\nIt also describes using Excel with Power BI apps through Get Data from Fabric to build pivot tables, and agentic Excel for analysing report outputs and edit in Excel scenarios. App updates include a redesigned Subscription Billing app, customer retention analysis in Sales, and ABC analysis in Inventory. Calendar setup guidance covers fiscal and week-based calendars.",
+  "key_points": [
+    "The five-click Power BI deployment currently works only for demo companies; the presenter says they hope to bring the same setup to production environments later.",
+    "Deployed demo reports are matched automatically to the Business Central version and shown in the role center.",
+    "Recurring refresh scheduling is not part of the deployment for this release; it must be set up in the Power BI workspace.",
+    "Excel can connect to Power BI apps through Get Data from Fabric, and pivot tables can be inserted on the semantic model as an alternative to Power BI visuals.",
+    "Agentic Excel can reason over Business Central data, such as financial report Excel outputs and edit in Excel scenarios, and changes can be pushed back to Business Central.",
+    "Documentation now covers configuring fiscal and week-based calendars so they are reflected in Power BI apps.",
+    "App updates: Subscription Billing gets a full visual redesign, Sales adds customer retention analysis, and Inventory adds ABC analysis."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "e7db711d81b386df0c137991de89c748c315aebf841f51b359bd9fd7b2b276ef",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0162164
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "video_id": "mS6NDhj20yI",
+  "item_id": "video/yt-microsoft/mS6NDhj20yI",
+  "title": "What's New: Enhanced Document Reporting (2026 release wave 1)",
+  "duration_s": 1090,
+  "systems": [
+    "reporting",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "word add-in",
+    "data picker",
+    "document layout",
+    "table builder",
+    "layout lifecycle",
+    "multi-language documents",
+    "document apis",
+    "report selection pages",
+    "user experience"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and investment overview",
+      "t_start": 0,
+      "t_end": 59
+    },
+    {
+      "title": "Updated Word add-in and UX improvements",
+      "t_start": 59,
+      "t_end": 115.2
+    },
+    {
+      "title": "Data picker enhancements and dark mode",
+      "t_start": 115.2,
+      "t_end": 243.5
+    },
+    {
+      "title": "Preview table builder feature",
+      "t_start": 243.5,
+      "t_end": 355.3
+    },
+    {
+      "title": "Layout lifecycle and status management",
+      "t_start": 355.3,
+      "t_end": 497.3
+    },
+    {
+      "title": "Multi-language document support",
+      "t_start": 497.3,
+      "t_end": 664.1
+    },
+    {
+      "title": "Report selection pages and API expansion",
+      "t_start": 664.1,
+      "t_end": 760.2
+    },
+    {
+      "title": "Documentation and resources",
+      "t_start": 760.2,
+      "t_end": 841
+    },
+    {
+      "title": "General resources and closing",
+      "t_start": 841,
+      "t_end": 1090
+    }
+  ],
+  "features": [
+    {
+      "name": "Enhanced data picker UX",
+      "description": "Improved user experience for the data picker in the Word add-in with BC theme, easier navigation of nested levels, double-click insertion, and automatic cursor movement in tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 115.2,
+      "t_end": 191.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word add-in",
+        "ui",
+        "data picker",
+        "user experience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data picker search and filter",
+      "description": "New filter section in the data picker allowing users to search and filter by typing to find related fields across different levels and labels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 191.8,
+      "t_end": 230.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word add-in",
+        "data picker",
+        "search",
+        "filter"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dark mode for data picker",
+      "description": "Dark mode support added to the data picker for users who prefer dark mode interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 230.3,
+      "t_end": 243.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word add-in",
+        "dark mode",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Insert table action",
+      "description": "Preview feature introducing a new insert table action in the data control section that helps build and populate tables in one place with customizable columns, headers, and data items.",
+      "status": "preview",
+      "status_evidence_t": 243.5,
+      "status_evidence_quote": "we want to make the experience easier for everybody and that's why in preview we are releasing a new action.",
+      "status_evidence_verified": true,
+      "t_start": 243.5,
+      "t_end": 355.3,
+      "is_demoed": true,
+      "caveats": [
+        "preview feature"
+      ],
+      "tags": [
+        "word add-in",
+        "table builder",
+        "preview",
+        "document design"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout lifecycle and status management",
+      "description": "New ability to manage user-defined layouts through lifecycle states: draft, pending approval, approved, and retired. Only approved layouts are shown to users on report request pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 355.3,
+      "t_end": 497.3,
+      "is_demoed": true,
+      "caveats": [
+        "only for user-defined layouts, not for app-deployed layouts in this release"
+      ],
+      "tags": [
+        "layout lifecycle",
+        "draft",
+        "approval",
+        "layout management"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Company-level default language for documents",
+      "description": "New feature to set a company-level default language for document reports when no language is specified on the customer card, helping multi-national companies manage document language consistently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.3,
+      "t_end": 644.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-language",
+        "localization",
+        "company settings",
+        "document defaults"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Refactored tooltips on table level",
+      "description": "Refactoring of tooltips from page level down to table level that will eventually light up in the report Word add-in as tooltips.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 644.9,
+      "t_end": 664.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "refactoring",
+        "tooltips",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Modernized report selection pages",
+      "description": "Modernized report selection pages in the application with teaching tips and aligned caption names and categories across all report selection pages, coming in 28.x.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 664.1,
+      "t_end": 711.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report selection",
+        "teaching tips",
+        "ui",
+        "modernization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "36 new document type APIs",
+      "description": "36 new APIs for document types covering sales document types, purchasing, inventory, and assembly documents, enabling interaction through Copilot Studio and other automations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 711.4,
+      "t_end": 788.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "document types",
+        "integration",
+        "automation"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kenny Pontevedra",
+      "confidence": "high"
+    },
+    {
+      "name": "Mirko",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 45,
+      "text": "More effective document layout management in general, easier support for multi-language companies and finally opening up with APIs for different document types.",
+      "why_it_matters": "Summarizes the three main investment areas in document reporting improvements for the release.",
+      "check": "exact"
+    },
+    {
+      "t": 79.8,
+      "text": "with word the intention is that it's not going to be all developers who create layouts for documents. It's more moving towards um an",
+      "why_it_matters": "Explains the strategic shift in Word add-in design from developer-focused to office worker-focused, justifying the UX investments.",
+      "check": "exact"
+    },
+    {
+      "t": 418.3,
+      "text": "in this release wave we are adding the ability with a like a life cycle going from a draft, pending approval, approved and even",
+      "why_it_matters": "Introduces the new layout lifecycle feature and its four states for managing user-defined layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 485.9,
+      "text": "note that this for now only work for user-defined layouts. Uh we want to make that also for apps, but that will not be",
+      "why_it_matters": "Clarifies the current limitation of layout lifecycle to user-defined layouts only, with app-deployed layouts planned for future releases.",
+      "check": "exact"
+    },
+    {
+      "t": 625.9,
+      "text": "then even though the user is using Business Central in French, the and even though the customer card have not specified English, the company-level",
+      "why_it_matters": "Demonstrates how the company-level default language setting overrides user language preferences to ensure consistent document language.",
+      "check": "snapped"
+    },
+    {
+      "t": 711.4,
+      "text": "we added not one not two but 36 new apis for document types so that you can now use apis to",
+      "why_it_matters": "Announces the substantial expansion of API coverage from 5 to 36 document type APIs for broader automation capabilities.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 243.5,
+      "kind": "preview",
+      "text": "in preview we are releasing a new action"
+    },
+    {
+      "t": 485.9,
+      "kind": "not-in-this-release",
+      "text": "that will not be in the list in this release wave"
+    },
+    {
+      "t": 674.2,
+      "kind": "subject-to-change",
+      "text": "This is coming in 28.x"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028678000000000002
+    }
+  ]
+}

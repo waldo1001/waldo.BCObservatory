@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=Ug_uM59DRRE",
   "published_at": "2026-09-21T09:26:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T16:50:33.782Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2865
+    },
+    "captioned": {
+      "at": "2026-10-06T16:50:47.047Z",
+      "path": "vault:captions/community/yt-areopa/Ug_uM59DRRE.vtt",
+      "vtt_sha256": "63bcbb8d18fa5034c2fade1339bb517700b4cad1d7d2fe485b33039f4dda3774",
+      "segments": 231,
+      "words": 6447,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ"
-  }
+    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "duration_s": 2865,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63bcbb8d18fa5034c2fade1339bb517700b4cad1d7d2fe485b33039f4dda3774"
 }
