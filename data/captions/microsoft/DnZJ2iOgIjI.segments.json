@@ -1,0 +1,101 @@
+{
+  "video_id": "DnZJ2iOgIjI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 26.8,
+      "text": "uh hello and welcome to this business Cal lunch event session on the customer manage encryption key and logbox settings um these settings help you secure your environments if you have very Advanced uh security and privacy needs for your uh environment database and I'll show you how to do it so first of all these settings are administered in the Power Platform admin"
+    },
+    {
+      "t": 26.8,
+      "end": 47.4,
+      "text": "Center and for them to apply to your business center environment you have to link your business sensor environment to a Power Platform environment to link your business sensor environment to a Power Platform environment you navigate to the environment Details page in the business Central admin Center and there you can use this setting here to link your environment to any pek environment Sor"
+    },
+    {
+      "t": 47.4,
+      "end": 68.1,
+      "text": "and there you can use this setting here to link your business Cent for environment to any Power Platform environment that's in the same region in this case the US and of the same type in this case production after you've linked your environment you'd be able to see the details of your LinkedIn environment in the admin Center as well as the settings that are inherited from Power Platform onto your business center environment"
+    },
+    {
+      "t": 68.1,
+      "end": 88.6,
+      "text": "in this case that would be customer managed encryption key and lockbox um firstly the customer managed encryption key this is a setting that administrators can use to encrypt their business Central Empower platform environment databases with their own key managed in our own key Vault rather than a key that lives in a Microsoft key"
+    },
+    {
+      "t": 88.6,
+      "end": 110,
+      "text": "Vault um to set this up first of all you have to link your business censor environment to a Power Platform environment if customer managed encryption key is already enabled on that Power Platform environment it will automatically be inherited on your business Cent for environment if you have not yet enabled this on your Power Platform environment uh you have to go through some setup steps to do"
+    },
+    {
+      "t": 110,
+      "end": 130.1,
+      "text": "that so to do that you first navigate to the Azure portal create the key Vault and make sure that this key Vault has enabled soft the lead and Purge protection this is to protect your key Vault against accidental deletion and your customer data in your business Central and Power Platform environment databases being encrypted permanently after you create a key Vault you create a key of type RSA"
+    },
+    {
+      "t": 130.1,
+      "end": 150.5,
+      "text": "with key size 20 48 um and this is the key that will be used to encrypt your database after you create the key you need to create an Enterprise policy resource which is act as the bridge between your key and your uh environment databases this Enterprise policy must be in the same region as your Power Platform and Business Center environments so in the example earlier"
+    },
+    {
+      "t": 150.5,
+      "end": 171.3,
+      "text": "I had an environment that lived in the US I should also create this Enterprise policy in the US for cmk to work after you've created this Enterprise policy you need to give it permissions to your key Vault so you give it the key Vault crypto service encryption user raw assignment um and this will enable it to read the key so that it can then be used to encrypt your database"
+    },
+    {
+      "t": 171.3,
+      "end": 191.3,
+      "text": "after that you make an environment administrator this is someone with a ENT role that allows for administration of Power Platform environments the reader role on the Enterprise policy so that they can then go on into the Power Platform admin Center to apply that Enterprise policy to the selected environment that is linked to your business Central environment after completing this last setup step there could be some downtime on"
+    },
+    {
+      "t": 191.3,
+      "end": 211.5,
+      "text": "your business center and Power Platform environments yourit the encryption key that is used to encrypt your data gets re-encrypted with your own key there's a few things that are good to know as you said this up um the linked Power Platform managed environment is required so there's no way to set this up for business Central environment without"
+    },
+    {
+      "t": 211.5,
+      "end": 231.9,
+      "text": "linking your Power Platform environment and if you unlink your environments the business Central environment will revert back to a Microsoft manage encryption key so the link must be there to set it up and it must remain in place for that environment to be encrypted with your own key to set this up in the Power Platform admin centor there are also specific licensing requirements in Microsoft"
+    },
+    {
+      "t": 231.9,
+      "end": 252,
+      "text": "365 and Power Platform and these will apply to your business Central environments as well um as you set this up there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up um the customer managed encryption key therefore we recommend that you separate these duties between"
+    },
+    {
+      "t": 252,
+      "end": 272.4,
+      "text": "different persons in short there'd be one administrator that completes the setup steps in the Azure portal and another administrator that completes the setup steps in the business Central and Power Platform admin centers finally we have some operations on your business Central environment that would create a new environment such as copy and restore and we support the exporting of environment"
+    },
+    {
+      "t": 272.4,
+      "end": 292.7,
+      "text": "databases for these operations if you copy and restore and create a new business Cent for environment the new environment would automatically be created with a Microsoft managed encryption key so if you want your customer managed encryption key to apply on your newly copied or restored environment you'd have to link that environment to a different Power Platform environment and then apply the Enterprise policy"
+    },
+    {
+      "t": 292.7,
+      "end": 305.4,
+      "text": "to your Power Platform environment the export of environments um creates a backpack file in your own storage this backpack file is also not encrypted with the customer manag"
+    },
+    {
+      "t": 305.4,
+      "end": 310,
+      "text": "key that's it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.98,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.829,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.839,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 954
+}

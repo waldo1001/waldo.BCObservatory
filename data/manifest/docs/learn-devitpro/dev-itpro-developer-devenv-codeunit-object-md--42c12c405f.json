@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "72806548661475ea3d11f78809290d1ff0235442",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:13.351Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003822
     }
   },
   "input_hash": "72806548661475ea3d11f78809290d1ff0235442",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "72806548661475ea3d11f78809290d1ff0235442"
+  "output_hash": "9361ef3dced97e44fe7de11947b546e3ff3fe1dd020f981532f99113cffc7853"
 }

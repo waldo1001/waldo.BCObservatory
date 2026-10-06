@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-codeunit-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object",
+  "title": "Codeunit object",
+  "blob": "72806548661475ea3d11f78809290d1ff0235442",
+  "summary": "Codeunit objects are containers for AL code used to implement business logic callable from other application objects. Use codeunits to organize reusable procedures and encapsulate business logic.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "codeunit",
+    "objects",
+    "al language",
+    "business logic"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "CreateCustomer"
+    }
+  ],
+  "features": [
+    "codeunit containers",
+    "procedure implementation",
+    "OnRun trigger",
+    "this keyword self-reference"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003822,
+      "pages_in_call": 8
+    }
+  ]
+}

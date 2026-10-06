@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-boolean-operators",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "2706d96e598bf92c0ac737dfab74bd8aa7d75d7e",
       "words": 118,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:13.347Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003822
     }
   },
   "input_hash": "2706d96e598bf92c0ac737dfab74bd8aa7d75d7e",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2706d96e598bf92c0ac737dfab74bd8aa7d75d7e"
+  "output_hash": "b78e4deb9ca932ac83db486d94c72e841b626d0e8f7241e4d85ffadd64583084"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=DnZJ2iOgIjI",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:18:57.970Z",
+      "captions": "auto:en-orig",
+      "duration_s": 310
+    },
+    "captioned": {
+      "at": "2026-10-06T19:19:06.476Z",
+      "path": "data/captions/microsoft/DnZJ2iOgIjI.vtt",
+      "vtt_sha256": "e83b75a534999d8476e1f5a92d593e67b7e2f9ed5a92949b7b2e3ff7ff29f129",
+      "segments": 16,
+      "words": 954,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 356,
     "duration_s": 310,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e83b75a534999d8476e1f5a92d593e67b7e2f9ed5a92949b7b2e3ff7ff29f129"
 }

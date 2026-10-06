@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-control-addin-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object",
+  "title": "Control add-in object",
+  "blob": "5017e6e06f584059ce3607f2f848e14b055c737a",
+  "summary": "Control add-in objects add custom visual elements and functionality to Business Central pages using HTML, CSS, and JavaScript within iframes. Use control add-ins to display custom content like charts, maps, or web applications.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "control add-in",
+    "customization",
+    "ui elements",
+    "javascript"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "controladdin"
+    }
+  ],
+  "features": [
+    "Scripts property",
+    "StartupScript",
+    "StyleSheet property",
+    "Images property",
+    "sizing control",
+    "touch event support",
+    "accessibility",
+    "style guidelines",
+    "AJAX requests",
+    "telemetry"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003822,
+      "pages_in_call": 8
+    }
+  ]
+}
